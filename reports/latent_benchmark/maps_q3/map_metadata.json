@@ -1,0 +1,35 @@
+{
+  "scores_source": "reports\\latent_benchmark\\fa_q3_scores.csv",
+  "loadings_source": "reports\\latent_benchmark\\fa_q3_loadings.csv",
+  "factor_columns": [
+    "F1",
+    "F2",
+    "F3"
+  ],
+  "focus": [
+    "Единая Россия",
+    "Яблоко (российская политическая партия)"
+  ],
+  "missing_focus": [],
+  "scope": "Separate maps; no common metric between objects and trait loadings; no clustering on t-SNE",
+  "tsne": {
+    "objects": {
+      "perplexity": 30.0,
+      "random_state": 42,
+      "metric": "euclidean",
+      "rescaled_before_tsne": false,
+      "neighbors": 5,
+      "trustworthiness": 0.9935632183908046,
+      "warning": "Local-neighborhood illustration; axes are not factors; distances/islands do not validate clusters"
+    },
+    "traits": {
+      "perplexity": 30.0,
+      "random_state": 42,
+      "metric": "euclidean",
+      "rescaled_before_tsne": false,
+      "neighbors": 5,
+      "trustworthiness": 0.9948541666666667,
+      "warning": "Local-neighborhood illustration; axes are not factors; distances/islands do not validate clusters"
+    }
+  }
+}
