@@ -1,0 +1,39 @@
+<!doctype html>
+<html lang="ru">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="theme-color" content="#173b43">
+    <title>Семантическое пространство</title>
+    <link rel="stylesheet" href="/styles.css">
+    <script src="/app.js" defer></script>
+  </head>
+  <body>
+    <div class="app-shell">
+      <aside class="sidebar" aria-label="Исследования">
+        <a class="brand" href="/" aria-label="Семантическое пространство, главная">
+          <svg width="30" height="30" viewBox="0 0 30 30" fill="none" aria-hidden="true"><path d="M7 21 14 7l10 12L7 21Z" stroke="currentColor" stroke-width="1.3"/><circle cx="7" cy="21" r="3" fill="currentColor"/><circle cx="14" cy="7" r="3" fill="currentColor"/><circle cx="24" cy="19" r="3" fill="currentColor"/></svg>
+          <span>Семантическое<br>пространство</span>
+        </a>
+        <button id="new-study" class="button button-primary new-study"><span aria-hidden="true">＋</span> Новое исследование</button>
+        <div class="sidebar-section-label">МОИ ИССЛЕДОВАНИЯ <span id="study-count">0</span></div>
+        <nav id="study-list" class="study-list" aria-label="Список исследований"><p class="sidebar-empty">Загружаем исследования…</p></nav>
+        <div class="sidebar-footer">
+          <button id="settings-button" class="connection-button"><span id="provider-dot" class="status-dot"></span><span id="provider-label">Проверяем подключение</span><span aria-hidden="true">↗</span></button>
+          <div class="local-label"><span class="local-square" aria-hidden="true"></span> Локальная рабочая среда <span class="version-label">MVP</span></div>
+        </div>
+      </aside>
+      <div class="workspace">
+        <header class="topbar"><div class="topbar-label">ИССЛЕДОВАТЕЛЬСКАЯ СРЕДА</div><div class="topbar-right"><span class="data-note">Данные сохраняются локально</span><button id="top-settings" class="button-link top-settings" type="button">Подключение</button><span class="avatar" aria-hidden="true">S</span></div></header>
+        <main id="main" class="main" tabindex="-1"><div class="initial-loading"><span class="spinner"></span> Открываем рабочую среду…</div></main>
+        <footer class="workspace-footer"><span>Семантические модели · разведочное исследование</span><span>Объекты → признаки → факторы → группы</span></footer>
+      </div>
+    </div>
+    <div id="toast-region" class="toast-region" role="status" aria-live="polite"></div>
+    <dialog id="settings-dialog" class="settings-dialog" aria-labelledby="settings-title">
+      <div class="dialog-header"><h2 id="settings-title">Подключение модели</h2><button id="close-settings" class="icon-button" aria-label="Закрыть">×</button></div>
+      <div id="settings-content"></div>
+    </dialog>
+    <noscript>Для работы исследовательской среды включите JavaScript в браузере.</noscript>
+  </body>
+</html>

@@ -1,0 +1,5 @@
+-r requirements-audit.txt
+reportlab>=4.0,<5
+python-docx>=1.1,<2
+# Presentations use @oai/artifact-tool from the Codex bundled Node runtime.
+# Set SEMANTIC_NODE / SEMANTIC_NODE_MODULES for a compatible local installation.

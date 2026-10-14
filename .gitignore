@@ -2,6 +2,11 @@
 .env.*
 !.env.example
 cache/
+.service_cache/
+.service_runtime/
+studies/*/last_error.log
+studies/*/output/.build/
+studies/*/output/.privatebuild/
 logs/
 logs/*.log
 __pycache__/

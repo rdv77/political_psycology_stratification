@@ -1,0 +1,1639 @@
+{
+  "study": {
+    "id": "russian-politicians-2016-2026",
+    "title": "Публичное политическое пространство России: политики 2016–2026",
+    "scope": "Публичный политический образ российских политиков и иных заметных политических акторов, включая деятелей за рубежом, активных хотя бы в части периода. Не рейтинг популярности.",
+    "query": "Наиболее известные и яркие политики России последних 10 лет",
+    "aspect": "Публичный политический образ",
+    "date_from": "2016-10-15",
+    "date_to": "2026-10-15",
+    "target_count": 70
+  },
+  "objects": [
+    {
+      "id": "vladimir-putin",
+      "name": "Владимир Путин",
+      "category": "Федеральное управление",
+      "role": "Президент России в исследуемый период",
+      "inclusion_reason": "Целевая выборка: федеральное управление; разнообразие публичных политических ролей внутри исследуемого периода.",
+      "sources": [
+        {
+          "title": "Президент России — официальная структура",
+          "url": "https://kremlin.ru/structure/president",
+          "source_type": "official"
+        }
+      ],
+      "context": "Центральный публичный актор федеральной политики и носитель президентской программы.",
+      "descriptors": [],
+      "verification_pending": false,
+      "approval_status": "proposed"
+    },
+    {
+      "id": "dmitry-medvedev",
+      "name": "Дмитрий Медведев",
+      "category": "Федеральное управление",
+      "role": "Председатель правительства до 2020 года; затем заместитель председателя Совета безопасности",
+      "inclusion_reason": "Целевая выборка: федеральное управление; разнообразие публичных политических ролей внутри исследуемого периода.",
+      "sources": [
+        {
+          "title": "Дмитрий Медведев — официальная биография",
+          "url": "https://da-medvedev.ru/biography",
+          "source_type": "official_self_presentation"
+        }
+      ],
+      "context": "Переход от руководства правительством к публичной политике в сфере безопасности.",
+      "descriptors": [],
+      "verification_pending": false,
+      "approval_status": "proposed"
+    },
+    {
+      "id": "mikhail-mishustin",
+      "name": "Михаил Мишустин",
+      "category": "Федеральное управление",
+      "role": "Председатель правительства с 2020 года в исследуемом периоде",
+      "inclusion_reason": "Целевая выборка: федеральное управление; разнообразие публичных политических ролей внутри исследуемого периода.",
+      "sources": [
+        {
+          "title": "Михаил Мишустин — Правительство России",
+          "url": "https://government.ru/gov/persons/151/travel/?area=KHA",
+          "source_type": "official"
+        }
+      ],
+      "context": "Правительственная страница фиксирует вступление в должность 16 января 2020 года и региональные поездки.",
+      "descriptors": [],
+      "verification_pending": false,
+      "approval_status": "proposed"
+    },
+    {
+      "id": "sergey-lavrov",
+      "name": "Сергей Лавров",
+      "category": "Федеральное управление",
+      "role": "Министр иностранных дел в исследуемый период",
+      "inclusion_reason": "Целевая выборка: федеральное управление; разнообразие публичных политических ролей внутри исследуемого периода.",
+      "sources": [
+        {
+          "title": "Сергей Лавров — биография РБК",
+          "url": "https://www.rbc.ru/person/617bf30d9a7947f92ee2d266",
+          "source_type": "biographical_or_self_presentation"
+        }
+      ],
+      "context": "Публичный представитель внешнеполитической позиции России.",
+      "descriptors": [],
+      "verification_pending": false,
+      "approval_status": "proposed"
+    },
+    {
+      "id": "sergey-shoigu",
+      "name": "Сергей Шойгу",
+      "category": "Федеральное управление",
+      "role": "Министр обороны в 2016–2024 годах; переход в Совет безопасности в 2024 году",
+      "inclusion_reason": "Целевая выборка: федеральное управление; разнообразие публичных политических ролей внутри исследуемого периода.",
+      "sources": [
+        {
+          "title": "Сергей Шойгу — биография РБК",
+          "url": "https://www.rbc.ru/person/617fc0679a794761d6170b80",
+          "source_type": "biographical_or_self_presentation"
+        }
+      ],
+      "context": "Смена военного министерства на работу в Совете безопасности произошла в мае 2024 года.",
+      "descriptors": [],
+      "verification_pending": false,
+      "approval_status": "proposed"
+    },
+    {
+      "id": "andrey-belousov",
+      "name": "Андрей Белоусов",
+      "category": "Федеральное управление",
+      "role": "Первый вице-премьер в 2020–2024 годах; назначение министром обороны в 2024 году",
+      "inclusion_reason": "Целевая выборка: федеральное управление; разнообразие публичных политических ролей внутри исследуемого периода.",
+      "sources": [
+        {
+          "title": "Андрей Белоусов — биография РБК",
+          "url": "https://www.rbc.ru/person/6181419c9a7947df128a22f7",
+          "source_type": "biographical_or_self_presentation"
+        }
+      ],
+      "context": "Представляет экономический и затем оборонный контексты федерального управления.",
+      "descriptors": [],
+      "verification_pending": false,
+      "approval_status": "proposed"
+    },
+    {
+      "id": "nikolay-patrushev",
+      "name": "Николай Патрушев",
+      "category": "Федеральное управление",
+      "role": "Секретарь Совета безопасности до мая 2024 года; затем помощник президента",
+      "inclusion_reason": "Целевая выборка: федеральное управление; разнообразие публичных политических ролей внутри исследуемого периода.",
+      "sources": [
+        {
+          "title": "Николай Патрушев — биография РБК",
+          "url": "https://www.rbc.ru/person/62d120d89a79475f0ddd8b5e",
+          "source_type": "biographical_or_self_presentation"
+        }
+      ],
+      "context": "Досье описывает переход от Совета безопасности к работе по кораблестроению в 2024 году.",
+      "descriptors": [],
+      "verification_pending": false,
+      "approval_status": "proposed"
+    },
+    {
+      "id": "alexander-bortnikov",
+      "name": "Александр Бортников",
+      "category": "Федеральное управление",
+      "role": "Директор ФСБ в исследуемый период",
+      "inclusion_reason": "Целевая выборка: федеральное управление; разнообразие публичных политических ролей внутри исследуемого периода.",
+      "sources": [
+        {
+          "title": "Александр Бортников — биография РБК",
+          "url": "https://www.rbc.ru/person/660400989a79471b36dbb514",
+          "source_type": "biographical_or_self_presentation"
+        }
+      ],
+      "context": "Представляет публичный образ руководства контрразведывательного ведомства.",
+      "descriptors": [],
+      "verification_pending": false,
+      "approval_status": "proposed"
+    },
+    {
+      "id": "sergey-kiriyenko",
+      "name": "Сергей Кириенко",
+      "category": "Федеральное управление",
+      "role": "Первый заместитель руководителя администрации президента с октября 2016 года в исследуемом периоде",
+      "inclusion_reason": "Целевая выборка: федеральное управление; разнообразие публичных политических ролей внутри исследуемого периода.",
+      "sources": [
+        {
+          "title": "Сергей Кириенко — официальные приёмы граждан",
+          "url": "https://letters.kremlin.ru/news/receptions/by-section/assignments/by-person/260",
+          "source_type": "official"
+        }
+      ],
+      "context": "Официальная страница содержит сведения о личном приёме граждан в ноябре 2025 года.",
+      "descriptors": [],
+      "verification_pending": false,
+      "approval_status": "proposed"
+    },
+    {
+      "id": "vyacheslav-volodin",
+      "name": "Вячеслав Володин",
+      "category": "Федеральное управление",
+      "role": "Председатель Государственной думы VII и VIII созывов",
+      "inclusion_reason": "Целевая выборка: федеральное управление; разнообразие публичных политических ролей внутри исследуемого периода.",
+      "sources": [
+        {
+          "title": "Вячеслав Володин: развитие экономики — Государственная дума",
+          "url": "https://duma.gov.ru/news/63383/",
+          "source_type": "official"
+        }
+      ],
+      "context": "В публичной парламентской повестке представляет руководство нижней палаты.",
+      "descriptors": [],
+      "verification_pending": false,
+      "approval_status": "proposed"
+    },
+    {
+      "id": "valentina-matviyenko",
+      "name": "Валентина Матвиенко",
+      "category": "Федеральное управление",
+      "role": "Председатель Совета Федерации в исследуемый период",
+      "inclusion_reason": "Целевая выборка: федеральное управление; разнообразие публичных политических ролей внутри исследуемого периода.",
+      "sources": [
+        {
+          "title": "Валентина Матвиенко на Евразийском женском форуме — Совет Федерации",
+          "url": "https://council.gov.ru/events/news/160466/",
+          "source_type": "official"
+        }
+      ],
+      "context": "Официальный материал 2024 года фиксирует парламентскую и предпринимательскую повестку.",
+      "descriptors": [],
+      "verification_pending": false,
+      "approval_status": "proposed"
+    },
+    {
+      "id": "dmitry-peskov",
+      "name": "Дмитрий Песков",
+      "category": "Федеральное управление",
+      "role": "Пресс-секретарь президента в исследуемый период",
+      "inclusion_reason": "Целевая выборка: федеральное управление; разнообразие публичных политических ролей внутри исследуемого периода.",
+      "sources": [
+        {
+          "title": "Дмитрий Песков — биография РБК",
+          "url": "https://www.rbc.ru/person/671207739a7947e97f51a2e5",
+          "source_type": "independent_biographical"
+        }
+      ],
+      "context": "Публичный представитель президентской коммуникации.",
+      "descriptors": [],
+      "verification_pending": false,
+      "approval_status": "proposed"
+    },
+    {
+      "id": "elvira-nabiullina",
+      "name": "Эльвира Набиуллина",
+      "category": "Федеральное управление",
+      "role": "Председатель Банка России в исследуемый период",
+      "inclusion_reason": "Целевая выборка: федеральное управление; разнообразие публичных политических ролей внутри исследуемого периода.",
+      "sources": [
+        {
+          "title": "Эльвира Набиуллина — Банк России",
+          "url": "https://cbr.ru/about_br/nabiullinaes/",
+          "source_type": "official"
+        }
+      ],
+      "context": "Официальная биография и выступления позволяют включить денежно-кредитную политику в выборку.",
+      "descriptors": [],
+      "verification_pending": false,
+      "approval_status": "proposed"
+    },
+    {
+      "id": "anton-siluanov",
+      "name": "Антон Силуанов",
+      "category": "Федеральное управление",
+      "role": "Министр финансов в исследуемый период",
+      "inclusion_reason": "Целевая выборка: федеральное управление; разнообразие публичных политических ролей внутри исследуемого периода.",
+      "sources": [
+        {
+          "title": "Антон Силуанов — биография РБК",
+          "url": "https://www.rbc.ru/person/65e831449a79476cbfd8e5fd",
+          "source_type": "biographical_or_self_presentation"
+        }
+      ],
+      "context": "Публичный носитель бюджетной и финансовой повестки правительства.",
+      "descriptors": [],
+      "verification_pending": false,
+      "approval_status": "proposed"
+    },
+    {
+      "id": "tatyana-golikova",
+      "name": "Татьяна Голикова",
+      "category": "Федеральное управление",
+      "role": "Вице-премьер по социальной политике с 2018 года в исследуемом периоде",
+      "inclusion_reason": "Целевая выборка: федеральное управление; разнообразие публичных политических ролей внутри исследуемого периода.",
+      "sources": [
+        {
+          "title": "Татьяна Голикова — биография РБК",
+          "url": "https://www.rbc.ru/person/65b9f4369a7947ec8a7f242a",
+          "source_type": "biographical_or_self_presentation"
+        }
+      ],
+      "context": "Досье фиксирует социальную, здравоохранительную и бюджетную повестки.",
+      "descriptors": [],
+      "verification_pending": false,
+      "approval_status": "proposed"
+    },
+    {
+      "id": "gennady-zyuganov",
+      "name": "Геннадий Зюганов",
+      "category": "Парламентские и партийные фигуры",
+      "role": "Председатель КПРФ и руководитель думской фракции",
+      "inclusion_reason": "Целевая выборка: парламентские и партийные фигуры; разнообразие публичных политических ролей внутри исследуемого периода.",
+      "sources": [
+        {
+          "title": "Государственная дума — ежегодник 2024",
+          "url": "https://duma.gov.ru/media/files/smUklOtuNPyzwTneQGCfFUHHIsilAqcm.pdf",
+          "source_type": "official"
+        }
+      ],
+      "context": "Лидер парламентской коммунистической партии; роль подтверждается ежегодником.",
+      "descriptors": [],
+      "verification_pending": false,
+      "approval_status": "proposed"
+    },
+    {
+      "id": "vladimir-zhirinovsky",
+      "name": "Владимир Жириновский",
+      "category": "Парламентские и партийные фигуры",
+      "role": "Председатель ЛДПР до смерти в апреле 2022 года",
+      "inclusion_reason": "Целевая выборка: парламентские и партийные фигуры; разнообразие публичных политических ролей внутри исследуемого периода.",
+      "sources": [
+        {
+          "title": "Владимир Жириновский — биография РБК",
+          "url": "https://www.rbc.ru/person/617bfbb79a7947fc327a3bcb",
+          "source_type": "biographical_or_self_presentation"
+        }
+      ],
+      "context": "Публичная политическая активность внутри окна исследования в 2016–2022 годах.",
+      "descriptors": [],
+      "verification_pending": false,
+      "approval_status": "proposed"
+    },
+    {
+      "id": "leonid-slutsky",
+      "name": "Леонид Слуцкий",
+      "category": "Парламентские и партийные фигуры",
+      "role": "Председатель ЛДПР с 2022 года; кандидат на выборах 2024 года",
+      "inclusion_reason": "Целевая выборка: парламентские и партийные фигуры; разнообразие публичных политических ролей внутри исследуемого периода.",
+      "sources": [
+        {
+          "title": "ЛДПР — партийная газета, май 2022",
+          "url": "https://ldpr.ru/upload/iblock/c88/1d6dstdexz6aw7dnwoubeobhr3mnwa1j/a799616e688866c49f2ef6b5b8cfe5c00d45080ae85ce0e5f6d36e2e010681d9.pdf",
+          "source_type": "biographical_or_self_presentation"
+        }
+      ],
+      "context": "Партийный источник фиксирует избрание председателем ЛДПР в 2022 году.",
+      "descriptors": [],
+      "verification_pending": false,
+      "approval_status": "proposed"
+    },
+    {
+      "id": "sergey-mironov",
+      "name": "Сергей Миронов",
+      "category": "Парламентские и партийные фигуры",
+      "role": "Руководитель «Справедливой России» и её думской фракции",
+      "inclusion_reason": "Целевая выборка: парламентские и партийные фигуры; разнообразие публичных политических ролей внутри исследуемого периода.",
+      "sources": [
+        {
+          "title": "Сергей Миронов — официальная биография",
+          "url": "https://mironov.ru/officially",
+          "source_type": "biographical_or_self_presentation"
+        }
+      ],
+      "context": "Лидер парламентского социалистического партийного направления.",
+      "descriptors": [],
+      "verification_pending": false,
+      "approval_status": "proposed"
+    },
+    {
+      "id": "alexey-nechayev",
+      "name": "Алексей Нечаев",
+      "category": "Парламентские и партийные фигуры",
+      "role": "Основатель партии «Новые люди»; руководитель думской фракции с 2021 года",
+      "inclusion_reason": "Целевая выборка: парламентские и партийные фигуры; разнообразие публичных политических ролей внутри исследуемого периода.",
+      "sources": [
+        {
+          "title": "Алексей Нечаев — биография РБК",
+          "url": "https://www.rbc.ru/person/6aa3ef199a79475758621730",
+          "source_type": "biographical_or_self_presentation"
+        }
+      ],
+      "context": "Предпринимательский опыт и создание новой парламентской партии.",
+      "descriptors": [],
+      "verification_pending": false,
+      "approval_status": "proposed"
+    },
+    {
+      "id": "vladislav-davankov",
+      "name": "Владислав Даванков",
+      "category": "Парламентские и партийные фигуры",
+      "role": "Вице-спикер Думы VIII созыва; кандидат на президентских выборах 2024 года",
+      "inclusion_reason": "Целевая выборка: парламентские и партийные фигуры; разнообразие публичных политических ролей внутри исследуемого периода.",
+      "sources": [
+        {
+          "title": "Владислав Даванков — биография избирательной кампании 2024",
+          "url": "https://www.davankov2024.ru/page_biography/",
+          "source_type": "biographical_or_self_presentation"
+        }
+      ],
+      "context": "Кампания описывает свободу людей и бизнеса; это самопрезентация, требующая отдельной проверки.",
+      "descriptors": [],
+      "verification_pending": false,
+      "approval_status": "proposed"
+    },
+    {
+      "id": "zakhar-prilepin",
+      "name": "Захар Прилепин",
+      "category": "Парламентские и партийные фигуры",
+      "role": "Сооснователь «За правду»; сопредседатель объединённой партии с 2021 года",
+      "inclusion_reason": "Целевая выборка: парламентские и партийные фигуры; разнообразие публичных политических ролей внутри исследуемого периода.",
+      "sources": [
+        {
+          "title": "Захар Прилепин — официальный сайт, биография",
+          "url": "https://zaharprilepin.ru/ru/bio/",
+          "source_type": "biographical_or_self_presentation"
+        }
+      ],
+      "context": "Связывает литературную публичность, партийную и военную повестку.",
+      "descriptors": [],
+      "verification_pending": false,
+      "approval_status": "proposed"
+    },
+    {
+      "id": "natalya-poklonskaya",
+      "name": "Наталья Поклонская",
+      "category": "Парламентские и партийные фигуры",
+      "role": "Депутат Государственной думы VII созыва",
+      "inclusion_reason": "Целевая выборка: парламентские и партийные фигуры; разнообразие публичных политических ролей внутри исследуемого периода.",
+      "sources": [
+        {
+          "title": "Наталья Поклонская — биография РБК",
+          "url": "https://www.rbc.ru/person/62a85a259a7947b9ae5d6360",
+          "source_type": "biographical_or_self_presentation"
+        }
+      ],
+      "context": "Известна парламентской деятельностью и публичной кампанией вокруг фильма «Матильда» в 2017 году.",
+      "descriptors": [],
+      "verification_pending": false,
+      "approval_status": "proposed"
+    },
+    {
+      "id": "elena-mizulina",
+      "name": "Елена Мизулина",
+      "category": "Парламентские и партийные фигуры",
+      "role": "Сенатор от Омской области в 2016–2023 годах",
+      "inclusion_reason": "Целевая выборка: парламентские и партийные фигуры; разнообразие публичных политических ролей внутри исследуемого периода.",
+      "sources": [
+        {
+          "title": "Елена Мизулина покинет Совет Федерации — РБК, 2023",
+          "url": "https://www.rbc.ru/politics/30/06/2023/649dee189a79473e3fdc8906",
+          "source_type": "biographical_or_self_presentation"
+        }
+      ],
+      "context": "В материале описана её семейно-нравственная законодательная повестка.",
+      "descriptors": [],
+      "verification_pending": false,
+      "approval_status": "proposed"
+    },
+    {
+      "id": "vitaly-milonov",
+      "name": "Виталий Милонов",
+      "category": "Парламентские и партийные фигуры",
+      "role": "Депутат Государственной думы VII и VIII созывов",
+      "inclusion_reason": "Целевая выборка: парламентские и партийные фигуры; разнообразие публичных политических ролей внутри исследуемого периода.",
+      "sources": [
+        {
+          "title": "Виталий Милонов — депутатская страница Дума ТВ",
+          "url": "https://dumatv.ru/deputies/milonov-vitaliji-valentinovich",
+          "source_type": "parliamentary_media"
+        }
+      ],
+      "context": "Публичные законодательные и морально-нравственные инициативы.",
+      "descriptors": [],
+      "verification_pending": false,
+      "approval_status": "proposed"
+    },
+    {
+      "id": "nina-ostanina",
+      "name": "Нина Останина",
+      "category": "Парламентские и партийные фигуры",
+      "role": "Депутат Государственной думы VIII созыва; председатель профильного семейного комитета",
+      "inclusion_reason": "Целевая выборка: парламентские и партийные фигуры; разнообразие публичных политических ролей внутри исследуемого периода.",
+      "sources": [
+        {
+          "title": "Нина Останина — ПартАрхив ИНИОН РАН",
+          "url": "https://pa.inion.ru/persons/7104/",
+          "source_type": "biographical_or_self_presentation"
+        }
+      ],
+      "context": "Семейная и социальная парламентская повестка; партийная принадлежность к КПРФ.",
+      "descriptors": [],
+      "verification_pending": false,
+      "approval_status": "proposed"
+    },
+    {
+      "id": "valentina-tereshkova",
+      "name": "Валентина Терешкова",
+      "category": "Парламентские и партийные фигуры",
+      "role": "Депутат Государственной думы VII и VIII созывов",
+      "inclusion_reason": "Целевая выборка: парламентские и партийные фигуры; разнообразие публичных политических ролей внутри исследуемого периода.",
+      "sources": [
+        {
+          "title": "Валентина Терешкова — биография Коммерсантъ",
+          "url": "https://www.kommersant.ru/doc/3235400",
+          "source_type": "biographical_or_self_presentation"
+        }
+      ],
+      "context": "Совмещает символический статус космонавта и парламентскую деятельность.",
+      "descriptors": [],
+      "verification_pending": false,
+      "approval_status": "proposed"
+    },
+    {
+      "id": "alexander-khinshtein",
+      "name": "Александр Хинштейн",
+      "category": "Парламентские и партийные фигуры",
+      "role": "Депутат Государственной думы и руководитель комитета по информационной политике в 2020–2024 годах",
+      "inclusion_reason": "Целевая выборка: парламентские и партийные фигуры; разнообразие публичных политических ролей внутри исследуемого периода.",
+      "sources": [
+        {
+          "title": "Александр Хинштейн — персональная биография",
+          "url": "https://hinshtein.ru/biography/",
+          "source_type": "biographical_or_self_presentation"
+        }
+      ],
+      "context": "Персональная страница описывает журналистский, депутатский и информационный контексты; страница может быть устаревшей.",
+      "descriptors": [],
+      "verification_pending": false,
+      "approval_status": "proposed"
+    },
+    {
+      "id": "alexey-pushkov",
+      "name": "Алексей Пушков",
+      "category": "Парламентские и партийные фигуры",
+      "role": "Сенатор с 2016 года; председатель комиссии по информационной политике",
+      "inclusion_reason": "Целевая выборка: парламентские и партийные фигуры; разнообразие публичных политических ролей внутри исследуемого периода.",
+      "sources": [
+        {
+          "title": "Алексей Пушков — Российский совет по международным делам",
+          "url": "https://russiancouncil.ru/aleksey-pushkov/",
+          "source_type": "institutional_biographical"
+        }
+      ],
+      "context": "Сочетает парламентскую, внешнеполитическую и телевизионную публичность.",
+      "descriptors": [],
+      "verification_pending": false,
+      "approval_status": "proposed"
+    },
+    {
+      "id": "konstantin-kosachev",
+      "name": "Константин Косачёв",
+      "category": "Парламентские и партийные фигуры",
+      "role": "Сенатор; заместитель председателя Совета Федерации с 2021 года",
+      "inclusion_reason": "Целевая выборка: парламентские и партийные фигуры; разнообразие публичных политических ролей внутри исследуемого периода.",
+      "sources": [
+        {
+          "title": "Константин Косачёв — биография Ведомости",
+          "url": "https://www.vedomosti.ru/person/1178385-kosachev-konstantin",
+          "source_type": "biographical_or_self_presentation"
+        }
+      ],
+      "context": "Дипломатическая и парламентская внешнеполитическая деятельность.",
+      "descriptors": [],
+      "verification_pending": false,
+      "approval_status": "proposed"
+    },
+    {
+      "id": "sergey-sobyanin",
+      "name": "Сергей Собянин",
+      "category": "Региональные и муниципальные фигуры",
+      "role": "Мэр Москвы в исследуемый период",
+      "inclusion_reason": "Целевая выборка: региональные и муниципальные фигуры; разнообразие публичных политических ролей внутри исследуемого периода.",
+      "sources": [
+        {
+          "title": "Сергей Собянин — биография РБК",
+          "url": "https://www.rbc.ru/person/64b8e1909a79474f30e86f98",
+          "source_type": "biographical_or_self_presentation"
+        }
+      ],
+      "context": "Муниципальное управление мегаполисом, реновация и городские проекты.",
+      "descriptors": [],
+      "verification_pending": false,
+      "approval_status": "proposed"
+    },
+    {
+      "id": "alexander-beglov",
+      "name": "Александр Беглов",
+      "category": "Региональные и муниципальные фигуры",
+      "role": "Губернатор Санкт-Петербурга с 2019 года в исследуемом периоде",
+      "inclusion_reason": "Целевая выборка: региональные и муниципальные фигуры; разнообразие публичных политических ролей внутри исследуемого периода.",
+      "sources": [
+        {
+          "title": "Александр Беглов — биография РБК",
+          "url": "https://www.rbc.ru/person/64b8e8399a7947435686cb2b",
+          "source_type": "independent_biographical"
+        }
+      ],
+      "context": "Региональное руководство и ранее работа полпредом президента.",
+      "descriptors": [],
+      "verification_pending": false,
+      "approval_status": "proposed"
+    },
+    {
+      "id": "ramzan-kadyrov",
+      "name": "Рамзан Кадыров",
+      "category": "Региональные и муниципальные фигуры",
+      "role": "Глава Чечни в исследуемый период",
+      "inclusion_reason": "Целевая выборка: региональные и муниципальные фигуры; разнообразие публичных политических ролей внутри исследуемого периода.",
+      "sources": [
+        {
+          "title": "Рамзан Кадыров — биография РБК",
+          "url": "https://www.rbc.ru/person/62c5c0899a79470082fa57eb",
+          "source_type": "biographical_or_self_presentation"
+        }
+      ],
+      "context": "Региональная, религиозно-культурная и военно-политическая публичность.",
+      "descriptors": [],
+      "verification_pending": false,
+      "approval_status": "proposed"
+    },
+    {
+      "id": "rustam-minnikhanov",
+      "name": "Рустам Минниханов",
+      "category": "Региональные и муниципальные фигуры",
+      "role": "Руководитель Татарстана в исследуемый период",
+      "inclusion_reason": "Целевая выборка: региональные и муниципальные фигуры; разнообразие публичных политических ролей внутри исследуемого периода.",
+      "sources": [
+        {
+          "title": "Рустам Минниханов — официальный сайт Раиса Татарстана",
+          "url": "https://rais.tatarstan.ru/biografiya.htm",
+          "source_type": "biographical_or_self_presentation"
+        }
+      ],
+      "context": "Официальная биография отражает длительную административную карьеру.",
+      "descriptors": [],
+      "verification_pending": false,
+      "approval_status": "proposed"
+    },
+    {
+      "id": "sergey-furgal",
+      "name": "Сергей Фургал",
+      "category": "Региональные и муниципальные фигуры",
+      "role": "Губернатор Хабаровского края в 2018–2020 годах",
+      "inclusion_reason": "Целевая выборка: региональные и муниципальные фигуры; разнообразие публичных политических ролей внутри исследуемого периода.",
+      "sources": [
+        {
+          "title": "Чем известен Сергей Фургал — РБК, 2020",
+          "url": "https://amp.rbc.ru/rbcnews/politics/09/07/2020/5f06bbb69a79475c40a9a094",
+          "source_type": "biographical_or_self_presentation"
+        }
+      ],
+      "context": "Региональный политический актор из ЛДПР; арест в 2020 году стал значимым политическим событием.",
+      "descriptors": [],
+      "verification_pending": false,
+      "approval_status": "proposed"
+    },
+    {
+      "id": "mikhail-degtyarev",
+      "name": "Михаил Дегтярёв",
+      "category": "Региональные и муниципальные фигуры",
+      "role": "Руководитель Хабаровского края в 2020–2024 годах; министр спорта после назначения 2024 года",
+      "inclusion_reason": "Целевая выборка: региональные и муниципальные фигуры; разнообразие публичных политических ролей внутри исследуемого периода.",
+      "sources": [
+        {
+          "title": "Михаил Дегтярёв — биография РБК",
+          "url": "https://www.rbc.ru/person/66475fec9a79475c4d9443ad",
+          "source_type": "biographical_or_self_presentation"
+        }
+      ],
+      "context": "Переход из партийной и региональной политики к федеральной спортивной повестке.",
+      "descriptors": [],
+      "verification_pending": false,
+      "approval_status": "proposed"
+    },
+    {
+      "id": "sergey-levchenko",
+      "name": "Сергей Левченко",
+      "category": "Региональные и муниципальные фигуры",
+      "role": "Губернатор Иркутской области до декабря 2019 года; депутат Думы VIII созыва",
+      "inclusion_reason": "Целевая выборка: региональные и муниципальные фигуры; разнообразие публичных политических ролей внутри исследуемого периода.",
+      "sources": [
+        {
+          "title": "Сергей Левченко — КПРФ",
+          "url": "https://kprf.ru/personal/levchenko",
+          "source_type": "biographical_or_self_presentation"
+        }
+      ],
+      "context": "Региональный управленческий опыт коммунистического политика.",
+      "descriptors": [],
+      "verification_pending": false,
+      "approval_status": "proposed"
+    },
+    {
+      "id": "valentin-konovalov",
+      "name": "Валентин Коновалов",
+      "category": "Региональные и муниципальные фигуры",
+      "role": "Глава Хакасии с 2018 года в исследуемом периоде",
+      "inclusion_reason": "Целевая выборка: региональные и муниципальные фигуры; разнообразие публичных политических ролей внутри исследуемого периода.",
+      "sources": [
+        {
+          "title": "Валентин Коновалов — Верховный совет Хакасии",
+          "url": "https://vs19.ru/verhovny-sovet/deputati/670-konovalov-valentin-olegovich",
+          "source_type": "biographical_or_self_presentation"
+        }
+      ],
+      "context": "Путь от муниципальной и региональной оппозиции к руководству республикой.",
+      "descriptors": [],
+      "verification_pending": false,
+      "approval_status": "proposed"
+    },
+    {
+      "id": "sergey-aksyonov",
+      "name": "Сергей Аксёнов",
+      "category": "Региональные и муниципальные фигуры",
+      "role": "Руководитель российской администрации Крыма в исследуемый период",
+      "inclusion_reason": "Целевая выборка: региональные и муниципальные фигуры; разнообразие публичных политических ролей внутри исследуемого периода.",
+      "sources": [
+        {
+          "title": "Сергей Аксёнов — биография Ведомости",
+          "url": "https://www.vedomosti.ru/person/1215197-aksenov-sergei",
+          "source_type": "biographical_or_self_presentation"
+        }
+      ],
+      "context": "Включён как актор российского публичного политического пространства; территориальный статус этим не оценивается.",
+      "descriptors": [],
+      "verification_pending": false,
+      "approval_status": "proposed"
+    },
+    {
+      "id": "mikhail-razvozhayev",
+      "name": "Михаил Развожаев",
+      "category": "Региональные и муниципальные фигуры",
+      "role": "Руководитель российской администрации Севастополя с 2019 года в исследуемом периоде",
+      "inclusion_reason": "Целевая выборка: региональные и муниципальные фигуры; разнообразие публичных политических ролей внутри исследуемого периода.",
+      "sources": [
+        {
+          "title": "Михаил Развожаев — биография РБК",
+          "url": "https://www.rbc.ru/person/660290b19a7947801fe9439b",
+          "source_type": "biographical_or_self_presentation"
+        }
+      ],
+      "context": "Региональное управление и публичная коммуникация в условиях военного конфликта.",
+      "descriptors": [],
+      "verification_pending": false,
+      "approval_status": "proposed"
+    },
+    {
+      "id": "vyacheslav-gladkov",
+      "name": "Вячеслав Гладков",
+      "category": "Региональные и муниципальные фигуры",
+      "role": "Глава Белгородской области после назначения в 2020 году",
+      "inclusion_reason": "Целевая выборка: региональные и муниципальные фигуры; разнообразие публичных политических ролей внутри исследуемого периода.",
+      "sources": [
+        {
+          "title": "Вячеслав Гладков — справочник глав регионов",
+          "url": "https://governors.ru/glava-regiona/Belgorodskaya-oblast/Gladkov-Vyacheslav-Vladimirovich",
+          "source_type": "biographical_or_self_presentation"
+        }
+      ],
+      "context": "Приграничная региональная и антикризисная управленческая повестка; актуальная должность на конец окна здесь не утверждается.",
+      "descriptors": [],
+      "verification_pending": false,
+      "approval_status": "proposed"
+    },
+    {
+      "id": "andrey-chibis",
+      "name": "Андрей Чибис",
+      "category": "Региональные и муниципальные фигуры",
+      "role": "Глава Мурманской области после назначения в 2019 году",
+      "inclusion_reason": "Целевая выборка: региональные и муниципальные фигуры; разнообразие публичных политических ролей внутри исследуемого периода.",
+      "sources": [
+        {
+          "title": "Андрей Чибис — биографическая справка Коммерсантъ",
+          "url": "https://www.kommersant.ru/doc/3917861",
+          "source_type": "biographical_or_self_presentation"
+        }
+      ],
+      "context": "Региональное управление и предшествующий опыт в жилищно-коммунальной сфере.",
+      "descriptors": [],
+      "verification_pending": false,
+      "approval_status": "proposed"
+    },
+    {
+      "id": "sardana-avksentyeva",
+      "name": "Сардана Авксентьева",
+      "category": "Региональные и муниципальные фигуры",
+      "role": "Мэр Якутска в 2018–2021 годах; депутат Государственной думы VIII созыва",
+      "inclusion_reason": "Целевая выборка: региональные и муниципальные фигуры; разнообразие публичных политических ролей внутри исследуемого периода.",
+      "sources": [
+        {
+          "title": "Сардана Авксентьева о том, как приблизить власть к народу — Фонтанка, 2021",
+          "url": "https://www.fontanka.ru/2021/07/27/70046798/",
+          "source_type": "biographical_or_self_presentation"
+        }
+      ],
+      "context": "Муниципальная публичность и коммуникация через социальные сети.",
+      "descriptors": [],
+      "verification_pending": false,
+      "approval_status": "proposed"
+    },
+    {
+      "id": "yevgeny-royzman",
+      "name": "Евгений Ройзман",
+      "category": "Региональные и муниципальные фигуры",
+      "role": "Глава Екатеринбурга до 2018 года; общественный и оппозиционный деятель",
+      "inclusion_reason": "Целевая выборка: региональные и муниципальные фигуры; разнообразие публичных политических ролей внутри исследуемого периода.",
+      "sources": [
+        {
+          "title": "Евгений Ройзман — биография Коммерсантъ",
+          "url": "https://www.kommersant.ru/doc/5525685",
+          "source_type": "biographical_or_self_presentation"
+        }
+      ],
+      "context": "Бывший глава Екатеринбурга; в 2022 году выступал по поводу войны и участвовал в общественной деятельности.",
+      "descriptors": [],
+      "verification_pending": false,
+      "approval_status": "proposed"
+    },
+    {
+      "id": "vadim-shumkov",
+      "name": "Вадим Шумков",
+      "category": "Региональные и муниципальные фигуры",
+      "role": "Глава Курганской области после назначения в 2018 году",
+      "inclusion_reason": "Целевая выборка: региональные и муниципальные фигуры; разнообразие публичных политических ролей внутри исследуемого периода.",
+      "sources": [
+        {
+          "title": "Вадим Шумков — биографическая справка Коммерсантъ",
+          "url": "https://www.kommersant.ru/doc/3758884",
+          "source_type": "biographical_or_self_presentation"
+        }
+      ],
+      "context": "Назначен врио главы Курганской области в октябре 2018 года, избран губернатором в сентябре 2019 года.",
+      "descriptors": [],
+      "verification_pending": false,
+      "approval_status": "proposed"
+    },
+    {
+      "id": "alexey-navalny",
+      "name": "Алексей Навальный",
+      "category": "Внепарламентская оппозиция и заметные избирательные кампании",
+      "role": "Оппозиционный политик и антикоррупционный активист; деятельность до смерти в 2024 году",
+      "inclusion_reason": "Целевая выборка: внепарламентская оппозиция и заметные избирательные кампании; разнообразие публичных политических ролей внутри исследуемого периода.",
+      "sources": [
+        {
+          "title": "Alexei Navalny — Associated Press, 16 февраля 2024",
+          "url": "https://apnews.com/article/2d11644f7ae5332587b39150f1fd1738",
+          "source_type": "biographical_or_self_presentation"
+        }
+      ],
+      "context": "Антикоррупционная деятельность и оппозиционные протесты; умер в заключении 16 февраля 2024 года.",
+      "descriptors": [],
+      "verification_pending": false,
+      "approval_status": "proposed"
+    },
+    {
+      "id": "ilya-yashin",
+      "name": "Илья Яшин",
+      "category": "Внепарламентская оппозиция и заметные избирательные кампании",
+      "role": "Оппозиционный политик; муниципальный депутат Москвы в 2017–2022 годах",
+      "inclusion_reason": "Целевая выборка: внепарламентская оппозиция и заметные избирательные кампании; разнообразие публичных политических ролей внутри исследуемого периода.",
+      "sources": [
+        {
+          "title": "Ilya Yashin after prisoner exchange — Reuters, 2 августа 2024",
+          "url": "https://www.investing.com/news/world-news/exchanged-prisoner-yashin-condemns-his-illegal-expulsion-from-russia-3553485",
+          "source_type": "biographical_or_self_presentation"
+        }
+      ],
+      "context": "После обмена заключёнными в августе 2024 года выступил на пресс-конференции вместе с Владимиром Кара-Мурзой.",
+      "descriptors": [],
+      "verification_pending": false,
+      "approval_status": "proposed"
+    },
+    {
+      "id": "vladimir-kara-murza",
+      "name": "Владимир Кара-Мурза",
+      "category": "Внепарламентская оппозиция и заметные избирательные кампании",
+      "role": "Оппозиционный политик и публицист",
+      "inclusion_reason": "Целевая выборка: внепарламентская оппозиция и заметные избирательные кампании; разнообразие публичных политических ролей внутри исследуемого периода.",
+      "sources": [
+        {
+          "title": "Who was released in the U.S.–Russia prisoner swap? — TIME, август 2024",
+          "url": "https://time.com/7006732/prisoner-swap-names-released/",
+          "source_type": "biographical_or_self_presentation"
+        }
+      ],
+      "context": "Оппозиционный политический активист, журналист и автор; освобождён при обмене заключёнными в 2024 году.",
+      "descriptors": [],
+      "verification_pending": false,
+      "approval_status": "proposed"
+    },
+    {
+      "id": "grigory-yavlinsky",
+      "name": "Григорий Явлинский",
+      "category": "Внепарламентская оппозиция и заметные избирательные кампании",
+      "role": "Сооснователь «Яблока»; кандидат на президентских выборах 2018 года",
+      "inclusion_reason": "Целевая выборка: внепарламентская оппозиция и заметные избирательные кампании; разнообразие публичных политических ролей внутри исследуемого периода.",
+      "sources": [
+        {
+          "title": "Григорий Явлинский — персональная биография",
+          "url": "https://www.yavlinsky.ru/biografiya/",
+          "source_type": "biographical_or_self_presentation"
+        }
+      ],
+      "context": "Участник президентской кампании 2018 года; персональная биография фиксирует публичные призывы к прекращению огня с 2022 года.",
+      "descriptors": [],
+      "verification_pending": false,
+      "approval_status": "proposed"
+    },
+    {
+      "id": "lev-shlosberg",
+      "name": "Лев Шлосберг",
+      "category": "Внепарламентская оппозиция и заметные избирательные кампании",
+      "role": "Политик «Яблока»; депутат Псковского областного собрания в части периода",
+      "inclusion_reason": "Целевая выборка: внепарламентская оппозиция и заметные избирательные кампании; разнообразие публичных политических ролей внутри исследуемого периода.",
+      "sources": [
+        {
+          "title": "Лев Шлосберг — партия Яблоко",
+          "url": "https://www.yabloko.ru/content/shlosberg_lev_markovich?page=0",
+          "source_type": "biographical_or_self_presentation"
+        }
+      ],
+      "context": "Депутат Псковского областного собрания в 2016–2021 годах; партийная страница содержит обращения о правах человека и прекращении огня.",
+      "descriptors": [],
+      "verification_pending": false,
+      "approval_status": "proposed"
+    },
+    {
+      "id": "boris-vishnevsky",
+      "name": "Борис Вишневский",
+      "category": "Внепарламентская оппозиция и заметные избирательные кампании",
+      "role": "Политик «Яблока»; депутат Законодательного собрания Санкт-Петербурга в части периода",
+      "inclusion_reason": "Целевая выборка: внепарламентская оппозиция и заметные избирательные кампании; разнообразие публичных политических ролей внутри исследуемого периода.",
+      "sources": [
+        {
+          "title": "Борис Вишневский — Петербургское Яблоко",
+          "url": "https://spb.yabloko.ru/people/vishnevskij-boris-lazarevich/",
+          "source_type": "biographical_or_self_presentation"
+        }
+      ],
+      "context": "Региональная парламентская деятельность и публицистика; профиль связывает политику с городским хозяйством.",
+      "descriptors": [],
+      "verification_pending": false,
+      "approval_status": "proposed"
+    },
+    {
+      "id": "dmitry-gudkov",
+      "name": "Дмитрий Гудков",
+      "category": "Внепарламентская оппозиция и заметные избирательные кампании",
+      "role": "Оппозиционный политик; участник избирательных и муниципальных политических проектов",
+      "inclusion_reason": "Целевая выборка: внепарламентская оппозиция и заметные избирательные кампании; разнообразие публичных политических ролей внутри исследуемого периода.",
+      "sources": [
+        {
+          "title": "Дмитрий Гудков избран председателем Партии перемен — РБК, 2018",
+          "url": "https://www.rbc.ru/politics/23/06/2018/5b2e66109a7947575a44d29e",
+          "source_type": "biographical_or_self_presentation"
+        }
+      ],
+      "context": "В июне 2018 года избран председателем Партии перемен; партия заявляла о защите политических заключённых.",
+      "descriptors": [],
+      "verification_pending": false,
+      "approval_status": "proposed"
+    },
+    {
+      "id": "gennady-gudkov",
+      "name": "Геннадий Гудков",
+      "category": "Внепарламентская оппозиция и заметные избирательные кампании",
+      "role": "Оппозиционный политик, ранее депутат Государственной думы",
+      "inclusion_reason": "Целевая выборка: внепарламентская оппозиция и заметные избирательные кампании; разнообразие публичных политических ролей внутри исследуемого периода.",
+      "sources": [
+        {
+          "title": "Геннадий Гудков — РБК, февраль 2024",
+          "url": "https://www.rbc.ru/rbcfreenews/65dde8419a79471d2c9193ec",
+          "source_type": "biographical_or_self_presentation"
+        }
+      ],
+      "context": "Оппозиционный политик, ранее депутат Госдумы 2001–2012 годов; материал подтверждает присутствие в публичной политике внутри окна.",
+      "descriptors": [],
+      "verification_pending": false,
+      "approval_status": "proposed"
+    },
+    {
+      "id": "garry-kasparov",
+      "name": "Гарри Каспаров",
+      "category": "Внепарламентская оппозиция и заметные избирательные кампании",
+      "role": "Оппозиционный политический деятель за пределами России",
+      "inclusion_reason": "Целевая выборка: внепарламентская оппозиция и заметные избирательные кампании; разнообразие публичных политических ролей внутри исследуемого периода.",
+      "sources": [
+        {
+          "title": "Garry Kasparov — Reuters, 6 марта 2024",
+          "url": "https://www.investing.com/news/world-news/exworld-chess-no1-kasparov-added-to-russian-terrorists-and-extremists-list-3327009",
+          "source_type": "biographical_or_self_presentation"
+        }
+      ],
+      "context": "Шахматный чемпион и политический критик Кремля; материал Reuters подтверждает политический контекст 2024 года.",
+      "descriptors": [],
+      "verification_pending": false,
+      "approval_status": "proposed"
+    },
+    {
+      "id": "mikhail-khodorkovsky",
+      "name": "Михаил Ходорковский",
+      "category": "Внепарламентская оппозиция и заметные избирательные кампании",
+      "role": "Оппозиционный политический деятель и основатель публичных политических проектов",
+      "inclusion_reason": "Целевая выборка: внепарламентская оппозиция и заметные избирательные кампании; разнообразие публичных политических ролей внутри исследуемого периода.",
+      "sources": [
+        {
+          "title": "Mikhail Khodorkovsky — Associated Press, 9 января 2024",
+          "url": "https://apnews.com/article/b59a782cf1802c0f37c7bb9a0c98139a",
+          "source_type": "biographical_or_self_presentation"
+        }
+      ],
+      "context": "Деятель российской оппозиции в эмиграции; публично выступал за правовое государство и политический плюрализм.",
+      "descriptors": [],
+      "verification_pending": false,
+      "approval_status": "proposed"
+    },
+    {
+      "id": "vladimir-milov",
+      "name": "Владимир Милов",
+      "category": "Внепарламентская оппозиция и заметные избирательные кампании",
+      "role": "Оппозиционный политик и экономический публицист",
+      "inclusion_reason": "Целевая выборка: внепарламентская оппозиция и заметные избирательные кампании; разнообразие публичных политических ролей внутри исследуемого периода.",
+      "sources": [
+        {
+          "title": "Vladimir Milov — Free Russia Foundation",
+          "url": "https://www.4freerussia.org/vladimir-milov/",
+          "source_type": "biographical_or_self_presentation"
+        }
+      ],
+      "context": "Политик, экономический автор и эксперт по энергетике; связан с оппозиционными и международными аналитическими проектами.",
+      "descriptors": [],
+      "verification_pending": false,
+      "approval_status": "proposed"
+    },
+    {
+      "id": "lyubov-sobol",
+      "name": "Любовь Соболь",
+      "category": "Внепарламентская оппозиция и заметные избирательные кампании",
+      "role": "Оппозиционный политик и юрист антикоррупционных проектов",
+      "inclusion_reason": "Целевая выборка: внепарламентская оппозиция и заметные избирательные кампании; разнообразие публичных политических ролей внутри исследуемого периода.",
+      "sources": [
+        {
+          "title": "Lyubov Sobol and Moscow election protests — Reuters/Euronews, 31 июля 2019",
+          "url": "https://www.euronews.com/2019/07/31/kremlin-critic-to-putin-allow-free-election-or-face-weekly-protests",
+          "source_type": "biographical_or_self_presentation"
+        }
+      ],
+      "context": "Антикоррупционный политик и участница кампании за допуск оппозиционных кандидатов на московские выборы 2019 года.",
+      "descriptors": [],
+      "verification_pending": false,
+      "approval_status": "proposed"
+    },
+    {
+      "id": "ksenia-sobchak",
+      "name": "Ксения Собчак",
+      "category": "Внепарламентская оппозиция и заметные избирательные кампании",
+      "role": "Кандидат на президентских выборах 2018 года",
+      "inclusion_reason": "Целевая выборка: внепарламентская оппозиция и заметные избирательные кампании; разнообразие публичных политических ролей внутри исследуемого периода.",
+      "sources": [
+        {
+          "title": "Ksenia Sobchak's presidential campaign — The Moscow Times, 16 марта 2018",
+          "url": "https://www.themoscowtimes.com/2018/03/16/with-russia-putin-presidential-elections-ksenia-sobchak-has-already-moved-on-a60832",
+          "source_type": "biographical_or_self_presentation"
+        }
+      ],
+      "context": "Президентская кампания 2018 года сочетала телевизионную публичность и заявления о свободе слова и выборов.",
+      "descriptors": [],
+      "verification_pending": false,
+      "approval_status": "proposed"
+    },
+    {
+      "id": "yekaterina-duntsova",
+      "name": "Екатерина Дунцова",
+      "category": "Внепарламентская оппозиция и заметные избирательные кампании",
+      "role": "Участница выдвижения на президентские выборы 2024 года",
+      "inclusion_reason": "Целевая выборка: внепарламентская оппозиция и заметные избирательные кампании; разнообразие публичных политических ролей внутри исследуемого периода.",
+      "sources": [
+        {
+          "title": "Boris Nadezhdin and Yekaterina Duntsova — Reuters/ThePrint, февраль 2024",
+          "url": "https://theprint.in/world/barred-anti-war-russian-presidential-candidate-fails-in-two-legal-challenges/1967846/",
+          "source_type": "biographical_or_self_presentation"
+        }
+      ],
+      "context": "Пыталась выдвинуться на выборы президента 2024 года с антивоенной позицией; не прошла первый этап регистрации в декабре 2023 года.",
+      "descriptors": [],
+      "verification_pending": false,
+      "approval_status": "proposed"
+    },
+    {
+      "id": "boris-nadezhdin",
+      "name": "Борис Надеждин",
+      "category": "Внепарламентская оппозиция и заметные избирательные кампании",
+      "role": "Участник выдвижения на президентские выборы 2024 года",
+      "inclusion_reason": "Целевая выборка: внепарламентская оппозиция и заметные избирательные кампании; разнообразие публичных политических ролей внутри исследуемого периода.",
+      "sources": [
+        {
+          "title": "Boris Nadezhdin — Reuters/ThePrint, февраль 2024",
+          "url": "https://theprint.in/world/barred-anti-war-russian-presidential-candidate-fails-in-two-legal-challenges/1967846/",
+          "source_type": "biographical_or_self_presentation"
+        }
+      ],
+      "context": "Пытался выдвинуться на президентские выборы 2024 года с антивоенной позицией; после отказа в регистрации обжаловал решение.",
+      "descriptors": [],
+      "verification_pending": false,
+      "approval_status": "proposed"
+    },
+    {
+      "id": "nikolay-kharitonov",
+      "name": "Николай Харитонов",
+      "category": "Внепарламентская оппозиция и заметные избирательные кампании",
+      "role": "Депутат Государственной думы; кандидат КПРФ на президентских выборах 2024 года",
+      "inclusion_reason": "Целевая выборка: внепарламентская оппозиция и заметные избирательные кампании; разнообразие публичных политических ролей внутри исследуемого периода.",
+      "sources": [
+        {
+          "title": "Николай Харитонов — биография КПРФ",
+          "url": "https://kprf.ru/personal/kharitonov",
+          "source_type": "biographical_or_self_presentation"
+        }
+      ],
+      "context": "Депутат Госдумы; партийная биография отражает сельскохозяйственную и региональную экономическую повестку.",
+      "descriptors": [],
+      "verification_pending": false,
+      "approval_status": "proposed"
+    },
+    {
+      "id": "pavel-grudinin",
+      "name": "Павел Грудинин",
+      "category": "Внепарламентская оппозиция и заметные избирательные кампании",
+      "role": "Кандидат КПРФ на президентских выборах 2018 года",
+      "inclusion_reason": "Целевая выборка: внепарламентская оппозиция и заметные избирательные кампании; разнообразие публичных политических ролей внутри исследуемого периода.",
+      "sources": [
+        {
+          "title": "Павел Грудинин — биография КПРФ",
+          "url": "https://kprf.ru/personal/grudinin",
+          "source_type": "biographical_or_self_presentation"
+        }
+      ],
+      "context": "Директор совхоза имени Ленина и участник президентской кампании 2018 года, сочетавший хозяйственный и социальный публичные образы.",
+      "descriptors": [],
+      "verification_pending": false,
+      "approval_status": "proposed"
+    },
+    {
+      "id": "nikolay-platoshkin",
+      "name": "Николай Платошкин",
+      "category": "Внепарламентская оппозиция и заметные избирательные кампании",
+      "role": "Политический деятель движения «За новый социализм»",
+      "inclusion_reason": "Целевая выборка: внепарламентская оппозиция и заметные избирательные кампании; разнообразие публичных политических ролей внутри исследуемого периода.",
+      "sources": [
+        {
+          "title": "Николай Платошкин — биографический материал Meduza, 19 мая 2021",
+          "url": "https://meduza.io/feature/2021/05/19/diplomat-yutyuber-podsudimyy",
+          "source_type": "biographical_or_self_presentation"
+        }
+      ],
+      "context": "Бывший дипломат и политический видеоблогер; участвовал в левых политических проектах и поддержке кандидатов КПРФ.",
+      "descriptors": [],
+      "verification_pending": false,
+      "approval_status": "proposed"
+    },
+    {
+      "id": "ilya-ponomarev",
+      "name": "Илья Пономарёв",
+      "category": "Внепарламентская оппозиция и заметные избирательные кампании",
+      "role": "Оппозиционный политический деятель за пределами России",
+      "inclusion_reason": "Целевая выборка: внепарламентская оппозиция и заметные избирательные кампании; разнообразие публичных политических ролей внутри исследуемого периода.",
+      "sources": [
+        {
+          "title": "Илья Пономарёв — биография Коммерсантъ",
+          "url": "https://www.kommersant.ru/doc/6492909",
+          "source_type": "biographical_or_self_presentation"
+        }
+      ],
+      "context": "Бывший депутат Государственной думы, участник эмигрантской политики; публичные действия после 2016 года отличать от более ранней депутатской роли.",
+      "descriptors": [],
+      "verification_pending": false,
+      "approval_status": "proposed"
+    },
+    {
+      "id": "leonid-gozman",
+      "name": "Леонид Гозман",
+      "category": "Внепарламентская оппозиция и заметные избирательные кампании",
+      "role": "Оппозиционный политик и публицист",
+      "inclusion_reason": "Целевая выборка: внепарламентская оппозиция и заметные избирательные кампании; разнообразие публичных политических ролей внутри исследуемого периода.",
+      "sources": [
+        {
+          "title": "Leonid Gozman — Associated Press, 25 июля 2022",
+          "url": "https://spectrumlocalnews.com/ap-top-news/2022/07/25/russian-opposition-figure-detained-after-returning-to-moscow",
+          "source_type": "biographical_or_self_presentation"
+        }
+      ],
+      "context": "Оппозиционный политический деятель; материал о возвращении и задержании в 2022 году подтверждает активность внутри окна.",
+      "descriptors": [],
+      "verification_pending": false,
+      "approval_status": "proposed"
+    },
+    {
+      "id": "sergey-udaltsov",
+      "name": "Сергей Удальцов",
+      "category": "Другие публичные политические акторы",
+      "role": "Политический деятель «Левого фронта»",
+      "inclusion_reason": "Целевая выборка: другие публичные политические акторы; разнообразие публичных политических ролей внутри исследуемого периода.",
+      "sources": [
+        {
+          "title": "Сергей Удальцов — биография Коммерсантъ",
+          "url": "https://www.kommersant.ru/doc/6444606",
+          "source_type": "biographical_or_self_presentation"
+        }
+      ],
+      "context": "После освобождения в августе 2017 года заявил о намерении объединить левые силы вокруг единого кандидата.",
+      "descriptors": [],
+      "verification_pending": false,
+      "approval_status": "proposed"
+    },
+    {
+      "id": "eduard-limonov",
+      "name": "Эдуард Лимонов",
+      "category": "Другие публичные политические акторы",
+      "role": "Политический деятель «Другой России»; деятельность до смерти в 2020 году",
+      "inclusion_reason": "Целевая выборка: другие публичные политические акторы; разнообразие публичных политических ролей внутри исследуемого периода.",
+      "sources": [
+        {
+          "title": "Эдуард Лимонов — биография Коммерсантъ, 17 марта 2020",
+          "url": "https://www.kommersant.ru/doc/4291910",
+          "source_type": "biographical_or_self_presentation"
+        }
+      ],
+      "context": "Писатель и руководитель партии «Другая Россия»; включён только за политическую деятельность до смерти в 2020 году.",
+      "descriptors": [],
+      "verification_pending": false,
+      "approval_status": "proposed"
+    },
+    {
+      "id": "igor-strelkov",
+      "name": "Игорь Стрелков (Гиркин)",
+      "category": "Другие публичные политические акторы",
+      "role": "Военно-политический публичный деятель; инициатор политического выдвижения в 2023 году",
+      "inclusion_reason": "Целевая выборка: другие публичные политические акторы; разнообразие публичных политических ролей внутри исследуемого периода.",
+      "sources": [
+        {
+          "title": "Игорь Гиркин (Стрелков) — биография Коммерсантъ",
+          "url": "https://www.kommersant.ru/doc/6121869",
+          "source_type": "biographical_or_self_presentation"
+        }
+      ],
+      "context": "Военно-политический комментатор и участник публичной националистической политики в России; арестован в 2023 году.",
+      "descriptors": [],
+      "verification_pending": false,
+      "approval_status": "proposed"
+    },
+    {
+      "id": "yevgeny-prigozhin",
+      "name": "Евгений Пригожин",
+      "category": "Другие публичные политические акторы",
+      "role": "Публичный военно-политический актор в 2022–2023 годах",
+      "inclusion_reason": "Целевая выборка: другие публичные политические акторы; разнообразие публичных политических ролей внутри исследуемого периода.",
+      "sources": [
+        {
+          "title": "Евгений Пригожин — биография РБК",
+          "url": "https://www.rbc.ru/person/63d280069a79473d6f5e3ce6",
+          "source_type": "biographical_or_self_presentation"
+        }
+      ],
+      "context": "Руководитель структуры «Вагнер» и публичный военно-политический актор в 2022–2023 годах; не выборный политик.",
+      "descriptors": [],
+      "verification_pending": false,
+      "approval_status": "proposed"
+    },
+    {
+      "id": "oksana-dmitriyeva",
+      "name": "Оксана Дмитриева",
+      "category": "Другие публичные политические акторы",
+      "role": "Депутат законодательного собрания Санкт-Петербурга и Государственной думы в разные части периода",
+      "inclusion_reason": "Целевая выборка: другие публичные политические акторы; разнообразие публичных политических ролей внутри исследуемого периода.",
+      "sources": [
+        {
+          "title": "Оксана Дмитриева — Комитет по бюджету и налогам Государственной думы",
+          "url": "https://komitetnalogi.ru/index.html.1.709.html",
+          "source_type": "biographical_or_self_presentation"
+        }
+      ],
+      "context": "Экономист и парламентский политик; региональная и федеральная работа в разные годы периода.",
+      "descriptors": [],
+      "verification_pending": false,
+      "approval_status": "proposed"
+    }
+  ],
+  "selection_method": {
+    "type": "purposive_diversity_sample",
+    "description": "Исследовательская целевая выборка с покрытием федерального управления, парламентских партий, регионов, оппозиции, избирательных кампаний и иных публичных политических акторов. Первичный состав предложен исследователем, биографические основания проверяются вебпоиском. Категории помогают согласовать покрытие и не являются кластерами.",
+    "approval_required": true,
+    "popularity_ranking": false
+  },
+  "limitations": [
+    "Состав требует согласования пользователя до присвоения оценок.",
+    "Известность не измерялась опросом; это не 70 самых известных политиков и не репрезентативная выборка населения или всех российских политиков.",
+    "Наличие биографического источника подтверждает включение и факты роли, но не достаточно для всех семантических оценок.",
+    "verification_pending=true означает, что биографический источник ещё не проверен; отсутствие descriptors означает, что свойства не размечены.",
+    "Официальные и персональные источники описывают институциональную роль или самопрезентацию; последующее исследование должно сравнивать их с независимыми материалами.",
+    "Сводный образ за 10 лет скрывает изменения; для полноценного сравнения желательны отдельные временные срезы.",
+    "Умершие политики включены только за годы активности внутри окна; Борис Немцов (умер в 2015 году) исключён как не соответствующий временной границе.",
+    "Названия должностей описывают подтверждённую активность в периоде и не утверждают актуальный статус на 15 октября 2026 года."
+  ],
+  "sources": [
+    {
+      "title": "Чем известен Сергей Фургал — РБК, 2020",
+      "url": "https://amp.rbc.ru/rbcnews/politics/09/07/2020/5f06bbb69a79475c40a9a094",
+      "source_type": "biographical_or_self_presentation"
+    },
+    {
+      "title": "Alexei Navalny — Associated Press, 16 февраля 2024",
+      "url": "https://apnews.com/article/2d11644f7ae5332587b39150f1fd1738",
+      "source_type": "biographical_or_self_presentation"
+    },
+    {
+      "title": "Mikhail Khodorkovsky — Associated Press, 9 января 2024",
+      "url": "https://apnews.com/article/b59a782cf1802c0f37c7bb9a0c98139a",
+      "source_type": "biographical_or_self_presentation"
+    },
+    {
+      "title": "Эльвира Набиуллина — Банк России",
+      "url": "https://cbr.ru/about_br/nabiullinaes/",
+      "source_type": "official"
+    },
+    {
+      "title": "Валентина Матвиенко на Евразийском женском форуме — Совет Федерации",
+      "url": "https://council.gov.ru/events/news/160466/",
+      "source_type": "official"
+    },
+    {
+      "title": "Дмитрий Медведев — официальная биография",
+      "url": "https://da-medvedev.ru/biography",
+      "source_type": "official_self_presentation"
+    },
+    {
+      "title": "Государственная дума — ежегодник 2024",
+      "url": "https://duma.gov.ru/media/files/smUklOtuNPyzwTneQGCfFUHHIsilAqcm.pdf",
+      "source_type": "official"
+    },
+    {
+      "title": "Вячеслав Володин: развитие экономики — Государственная дума",
+      "url": "https://duma.gov.ru/news/63383/",
+      "source_type": "official"
+    },
+    {
+      "title": "Виталий Милонов — депутатская страница Дума ТВ",
+      "url": "https://dumatv.ru/deputies/milonov-vitaliji-valentinovich",
+      "source_type": "parliamentary_media"
+    },
+    {
+      "title": "Михаил Мишустин — Правительство России",
+      "url": "https://government.ru/gov/persons/151/travel/?area=KHA",
+      "source_type": "official"
+    },
+    {
+      "title": "Вячеслав Гладков — справочник глав регионов",
+      "url": "https://governors.ru/glava-regiona/Belgorodskaya-oblast/Gladkov-Vyacheslav-Vladimirovich",
+      "source_type": "biographical_or_self_presentation"
+    },
+    {
+      "title": "Александр Хинштейн — персональная биография",
+      "url": "https://hinshtein.ru/biography/",
+      "source_type": "biographical_or_self_presentation"
+    },
+    {
+      "title": "Оксана Дмитриева — Комитет по бюджету и налогам Государственной думы",
+      "url": "https://komitetnalogi.ru/index.html.1.709.html",
+      "source_type": "biographical_or_self_presentation"
+    },
+    {
+      "title": "Павел Грудинин — биография КПРФ",
+      "url": "https://kprf.ru/personal/grudinin",
+      "source_type": "biographical_or_self_presentation"
+    },
+    {
+      "title": "Николай Харитонов — биография КПРФ",
+      "url": "https://kprf.ru/personal/kharitonov",
+      "source_type": "biographical_or_self_presentation"
+    },
+    {
+      "title": "Сергей Левченко — КПРФ",
+      "url": "https://kprf.ru/personal/levchenko",
+      "source_type": "biographical_or_self_presentation"
+    },
+    {
+      "title": "Президент России — официальная структура",
+      "url": "https://kremlin.ru/structure/president",
+      "source_type": "official"
+    },
+    {
+      "title": "ЛДПР — партийная газета, май 2022",
+      "url": "https://ldpr.ru/upload/iblock/c88/1d6dstdexz6aw7dnwoubeobhr3mnwa1j/a799616e688866c49f2ef6b5b8cfe5c00d45080ae85ce0e5f6d36e2e010681d9.pdf",
+      "source_type": "biographical_or_self_presentation"
+    },
+    {
+      "title": "Сергей Кириенко — официальные приёмы граждан",
+      "url": "https://letters.kremlin.ru/news/receptions/by-section/assignments/by-person/260",
+      "source_type": "official"
+    },
+    {
+      "title": "Николай Платошкин — биографический материал Meduza, 19 мая 2021",
+      "url": "https://meduza.io/feature/2021/05/19/diplomat-yutyuber-podsudimyy",
+      "source_type": "biographical_or_self_presentation"
+    },
+    {
+      "title": "Сергей Миронов — официальная биография",
+      "url": "https://mironov.ru/officially",
+      "source_type": "biographical_or_self_presentation"
+    },
+    {
+      "title": "Нина Останина — ПартАрхив ИНИОН РАН",
+      "url": "https://pa.inion.ru/persons/7104/",
+      "source_type": "biographical_or_self_presentation"
+    },
+    {
+      "title": "Рустам Минниханов — официальный сайт Раиса Татарстана",
+      "url": "https://rais.tatarstan.ru/biografiya.htm",
+      "source_type": "biographical_or_self_presentation"
+    },
+    {
+      "title": "Алексей Пушков — Российский совет по международным делам",
+      "url": "https://russiancouncil.ru/aleksey-pushkov/",
+      "source_type": "institutional_biographical"
+    },
+    {
+      "title": "Борис Вишневский — Петербургское Яблоко",
+      "url": "https://spb.yabloko.ru/people/vishnevskij-boris-lazarevich/",
+      "source_type": "biographical_or_self_presentation"
+    },
+    {
+      "title": "Leonid Gozman — Associated Press, 25 июля 2022",
+      "url": "https://spectrumlocalnews.com/ap-top-news/2022/07/25/russian-opposition-figure-detained-after-returning-to-moscow",
+      "source_type": "biographical_or_self_presentation"
+    },
+    {
+      "title": "Boris Nadezhdin — Reuters/ThePrint, февраль 2024",
+      "url": "https://theprint.in/world/barred-anti-war-russian-presidential-candidate-fails-in-two-legal-challenges/1967846/",
+      "source_type": "biographical_or_self_presentation"
+    },
+    {
+      "title": "Who was released in the U.S.–Russia prisoner swap? — TIME, август 2024",
+      "url": "https://time.com/7006732/prisoner-swap-names-released/",
+      "source_type": "biographical_or_self_presentation"
+    },
+    {
+      "title": "Валентин Коновалов — Верховный совет Хакасии",
+      "url": "https://vs19.ru/verhovny-sovet/deputati/670-konovalov-valentin-olegovich",
+      "source_type": "biographical_or_self_presentation"
+    },
+    {
+      "title": "Vladimir Milov — Free Russia Foundation",
+      "url": "https://www.4freerussia.org/vladimir-milov/",
+      "source_type": "biographical_or_self_presentation"
+    },
+    {
+      "title": "Владислав Даванков — биография избирательной кампании 2024",
+      "url": "https://www.davankov2024.ru/page_biography/",
+      "source_type": "biographical_or_self_presentation"
+    },
+    {
+      "title": "Lyubov Sobol and Moscow election protests — Reuters/Euronews, 31 июля 2019",
+      "url": "https://www.euronews.com/2019/07/31/kremlin-critic-to-putin-allow-free-election-or-face-weekly-protests",
+      "source_type": "biographical_or_self_presentation"
+    },
+    {
+      "title": "Сардана Авксентьева о том, как приблизить власть к народу — Фонтанка, 2021",
+      "url": "https://www.fontanka.ru/2021/07/27/70046798/",
+      "source_type": "biographical_or_self_presentation"
+    },
+    {
+      "title": "Ilya Yashin after prisoner exchange — Reuters, 2 августа 2024",
+      "url": "https://www.investing.com/news/world-news/exchanged-prisoner-yashin-condemns-his-illegal-expulsion-from-russia-3553485",
+      "source_type": "biographical_or_self_presentation"
+    },
+    {
+      "title": "Garry Kasparov — Reuters, 6 марта 2024",
+      "url": "https://www.investing.com/news/world-news/exworld-chess-no1-kasparov-added-to-russian-terrorists-and-extremists-list-3327009",
+      "source_type": "biographical_or_self_presentation"
+    },
+    {
+      "title": "Валентина Терешкова — биография Коммерсантъ",
+      "url": "https://www.kommersant.ru/doc/3235400",
+      "source_type": "biographical_or_self_presentation"
+    },
+    {
+      "title": "Вадим Шумков — биографическая справка Коммерсантъ",
+      "url": "https://www.kommersant.ru/doc/3758884",
+      "source_type": "biographical_or_self_presentation"
+    },
+    {
+      "title": "Андрей Чибис — биографическая справка Коммерсантъ",
+      "url": "https://www.kommersant.ru/doc/3917861",
+      "source_type": "biographical_or_self_presentation"
+    },
+    {
+      "title": "Эдуард Лимонов — биография Коммерсантъ, 17 марта 2020",
+      "url": "https://www.kommersant.ru/doc/4291910",
+      "source_type": "biographical_or_self_presentation"
+    },
+    {
+      "title": "Евгений Ройзман — биография Коммерсантъ",
+      "url": "https://www.kommersant.ru/doc/5525685",
+      "source_type": "biographical_or_self_presentation"
+    },
+    {
+      "title": "Игорь Гиркин (Стрелков) — биография Коммерсантъ",
+      "url": "https://www.kommersant.ru/doc/6121869",
+      "source_type": "biographical_or_self_presentation"
+    },
+    {
+      "title": "Сергей Удальцов — биография Коммерсантъ",
+      "url": "https://www.kommersant.ru/doc/6444606",
+      "source_type": "biographical_or_self_presentation"
+    },
+    {
+      "title": "Илья Пономарёв — биография Коммерсантъ",
+      "url": "https://www.kommersant.ru/doc/6492909",
+      "source_type": "biographical_or_self_presentation"
+    },
+    {
+      "title": "Сергей Лавров — биография РБК",
+      "url": "https://www.rbc.ru/person/617bf30d9a7947f92ee2d266",
+      "source_type": "biographical_or_self_presentation"
+    },
+    {
+      "title": "Владимир Жириновский — биография РБК",
+      "url": "https://www.rbc.ru/person/617bfbb79a7947fc327a3bcb",
+      "source_type": "biographical_or_self_presentation"
+    },
+    {
+      "title": "Сергей Шойгу — биография РБК",
+      "url": "https://www.rbc.ru/person/617fc0679a794761d6170b80",
+      "source_type": "biographical_or_self_presentation"
+    },
+    {
+      "title": "Андрей Белоусов — биография РБК",
+      "url": "https://www.rbc.ru/person/6181419c9a7947df128a22f7",
+      "source_type": "biographical_or_self_presentation"
+    },
+    {
+      "title": "Наталья Поклонская — биография РБК",
+      "url": "https://www.rbc.ru/person/62a85a259a7947b9ae5d6360",
+      "source_type": "biographical_or_self_presentation"
+    },
+    {
+      "title": "Рамзан Кадыров — биография РБК",
+      "url": "https://www.rbc.ru/person/62c5c0899a79470082fa57eb",
+      "source_type": "biographical_or_self_presentation"
+    },
+    {
+      "title": "Николай Патрушев — биография РБК",
+      "url": "https://www.rbc.ru/person/62d120d89a79475f0ddd8b5e",
+      "source_type": "biographical_or_self_presentation"
+    },
+    {
+      "title": "Евгений Пригожин — биография РБК",
+      "url": "https://www.rbc.ru/person/63d280069a79473d6f5e3ce6",
+      "source_type": "biographical_or_self_presentation"
+    },
+    {
+      "title": "Сергей Собянин — биография РБК",
+      "url": "https://www.rbc.ru/person/64b8e1909a79474f30e86f98",
+      "source_type": "biographical_or_self_presentation"
+    },
+    {
+      "title": "Александр Беглов — биография РБК",
+      "url": "https://www.rbc.ru/person/64b8e8399a7947435686cb2b",
+      "source_type": "independent_biographical"
+    },
+    {
+      "title": "Татьяна Голикова — биография РБК",
+      "url": "https://www.rbc.ru/person/65b9f4369a7947ec8a7f242a",
+      "source_type": "biographical_or_self_presentation"
+    },
+    {
+      "title": "Антон Силуанов — биография РБК",
+      "url": "https://www.rbc.ru/person/65e831449a79476cbfd8e5fd",
+      "source_type": "biographical_or_self_presentation"
+    },
+    {
+      "title": "Михаил Развожаев — биография РБК",
+      "url": "https://www.rbc.ru/person/660290b19a7947801fe9439b",
+      "source_type": "biographical_or_self_presentation"
+    },
+    {
+      "title": "Александр Бортников — биография РБК",
+      "url": "https://www.rbc.ru/person/660400989a79471b36dbb514",
+      "source_type": "biographical_or_self_presentation"
+    },
+    {
+      "title": "Михаил Дегтярёв — биография РБК",
+      "url": "https://www.rbc.ru/person/66475fec9a79475c4d9443ad",
+      "source_type": "biographical_or_self_presentation"
+    },
+    {
+      "title": "Дмитрий Песков — биография РБК",
+      "url": "https://www.rbc.ru/person/671207739a7947e97f51a2e5",
+      "source_type": "independent_biographical"
+    },
+    {
+      "title": "Алексей Нечаев — биография РБК",
+      "url": "https://www.rbc.ru/person/6aa3ef199a79475758621730",
+      "source_type": "biographical_or_self_presentation"
+    },
+    {
+      "title": "Дмитрий Гудков избран председателем Партии перемен — РБК, 2018",
+      "url": "https://www.rbc.ru/politics/23/06/2018/5b2e66109a7947575a44d29e",
+      "source_type": "biographical_or_self_presentation"
+    },
+    {
+      "title": "Елена Мизулина покинет Совет Федерации — РБК, 2023",
+      "url": "https://www.rbc.ru/politics/30/06/2023/649dee189a79473e3fdc8906",
+      "source_type": "biographical_or_self_presentation"
+    },
+    {
+      "title": "Геннадий Гудков — РБК, февраль 2024",
+      "url": "https://www.rbc.ru/rbcfreenews/65dde8419a79471d2c9193ec",
+      "source_type": "biographical_or_self_presentation"
+    },
+    {
+      "title": "Ksenia Sobchak's presidential campaign — The Moscow Times, 16 марта 2018",
+      "url": "https://www.themoscowtimes.com/2018/03/16/with-russia-putin-presidential-elections-ksenia-sobchak-has-already-moved-on-a60832",
+      "source_type": "biographical_or_self_presentation"
+    },
+    {
+      "title": "Константин Косачёв — биография Ведомости",
+      "url": "https://www.vedomosti.ru/person/1178385-kosachev-konstantin",
+      "source_type": "biographical_or_self_presentation"
+    },
+    {
+      "title": "Сергей Аксёнов — биография Ведомости",
+      "url": "https://www.vedomosti.ru/person/1215197-aksenov-sergei",
+      "source_type": "biographical_or_self_presentation"
+    },
+    {
+      "title": "Лев Шлосберг — партия Яблоко",
+      "url": "https://www.yabloko.ru/content/shlosberg_lev_markovich?page=0",
+      "source_type": "biographical_or_self_presentation"
+    },
+    {
+      "title": "Григорий Явлинский — персональная биография",
+      "url": "https://www.yavlinsky.ru/biografiya/",
+      "source_type": "biographical_or_self_presentation"
+    },
+    {
+      "title": "Захар Прилепин — официальный сайт, биография",
+      "url": "https://zaharprilepin.ru/ru/bio/",
+      "source_type": "biographical_or_self_presentation"
+    }
+  ],
+  "retrieved_at": "2026-10-15",
+  "status": "awaiting_object_approval"
+}
