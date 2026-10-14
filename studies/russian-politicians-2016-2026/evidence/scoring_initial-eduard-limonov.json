@@ -1,0 +1,626 @@
+{
+  "object_id": "eduard-limonov",
+  "scales_basis": "2bee01a202c39ee721dfa985f553d5ce4502c74051ebe616ba3acc72ad80c440",
+  "dossier_basis": "bf082b83fb9ac5b3e19e8bfcf0f658d8e93e461d2476c568bc9630d3265b4ffa",
+  "evidence_file": "evidence/eduard-limonov.json",
+  "period": [
+    "2016-10-15",
+    "2026-10-15"
+  ],
+  "ratings": [
+    {
+      "object_id": "eduard-limonov",
+      "scale_id": "security-sovereignty",
+      "positive": 4,
+      "negative": 1,
+      "difference": 3,
+      "mass": 5,
+      "status": "observed",
+      "confidence": 0.9,
+      "reason": "Партия Лимонова делала акцент на возвращении утраченных территорий и самостоятельности, что выражает высокий уровень суверенной самостоятельности. Однако поддержка идеи европейской армии указывает на отдельные проявления интереса к международной интеграции.",
+      "sources": [
+        "https://ref-book.sova-center.ru/index.php/%D0%94%D1%80%D1%83%D0%B3%D0%B0%D1%8F_%D0%A0%D0%BE%D1%81%D1%81%D0%B8%D1%8F,_%D0%BF%D0%B0%D1%80%D1%82%D0%B8%D1%8F",
+        "http://www.grso.ru/person/limonov-eduard.html"
+      ],
+      "evidence_indices": [
+        1,
+        2,
+        3,
+        6
+      ],
+      "model": "gpt-4.1",
+      "at": "2026-10-14T21:47:07.147673+00:00",
+      "evidence_file": "evidence/eduard-limonov.json",
+      "evidence_basis": "bf082b83fb9ac5b3e19e8bfcf0f658d8e93e461d2476c568bc9630d3265b4ffa",
+      "rating_pass": "initial",
+      "measurement_note": "LLM-оценка по извлечённому досье; ссылки не означают независимую экспертную верификацию"
+    },
+    {
+      "object_id": "eduard-limonov",
+      "scale_id": "historical-memory",
+      "positive": 3,
+      "negative": 2,
+      "difference": 1,
+      "mass": 5,
+      "status": "observed",
+      "confidence": 0.7,
+      "reason": "Аргументация через \"русскую землю\" и возвращение территорий указывает на апелляцию к исторической преемственности. Одновременно присутствует риторика о необходимости преобразований (народный социализм, противостояние элитам).",
+      "sources": [
+        "https://ref-book.sova-center.ru/index.php/%D0%94%D1%80%D1%83%D0%B3%D0%B0%D1%8F_%D0%A0%D0%BE%D1%81%D1%81%D0%B8%D1%8F,_%D0%BF%D0%B0%D1%80%D1%82%D0%B8%D1%8F",
+        "https://www.bostonglobe.com/metro/obituaries/2020/03/18/russian-author-political-activist-eduard-limonov-dies/jnjHywBRjVTTgnlsqI12vN/story.html"
+      ],
+      "evidence_indices": [
+        1,
+        2,
+        3,
+        7
+      ],
+      "model": "gpt-4.1",
+      "at": "2026-10-14T21:47:07.147673+00:00",
+      "evidence_file": "evidence/eduard-limonov.json",
+      "evidence_basis": "bf082b83fb9ac5b3e19e8bfcf0f658d8e93e461d2476c568bc9630d3265b4ffa",
+      "rating_pass": "initial",
+      "measurement_note": "LLM-оценка по извлечённому досье; ссылки не означают независимую экспертную верификацию"
+    },
+    {
+      "object_id": "eduard-limonov",
+      "scale_id": "technocratic-management",
+      "positive": null,
+      "negative": null,
+      "difference": null,
+      "mass": null,
+      "status": "unknown",
+      "confidence": 0.3,
+      "reason": "Нет данных о публичной аргументации Лимонова через управленческую эффективность или технократические показатели.",
+      "sources": [],
+      "evidence_indices": [],
+      "model": "gpt-4.1",
+      "at": "2026-10-14T21:47:07.147673+00:00",
+      "evidence_file": "evidence/eduard-limonov.json",
+      "evidence_basis": "bf082b83fb9ac5b3e19e8bfcf0f658d8e93e461d2476c568bc9630d3265b4ffa",
+      "rating_pass": "initial",
+      "measurement_note": "LLM-оценка по извлечённому досье; ссылки не означают независимую экспертную верификацию"
+    },
+    {
+      "object_id": "eduard-limonov",
+      "scale_id": "parliamentary-institutional",
+      "positive": 0,
+      "negative": 4,
+      "difference": -4,
+      "mass": 4,
+      "status": "observed",
+      "confidence": 0.95,
+      "reason": "Партия Лимонова отказалась от регистрации и действовала вне институциональной системы, что свидетельствует о выраженном акценте на внеинституциональное протестное действие.",
+      "sources": [
+        "https://ref-book.sova-center.ru/index.php/%D0%94%D1%80%D1%83%D0%B3%D0%B0%D1%8F_%D0%A0%D0%BE%D1%81%D1%81%D0%B8%D1%8F,_%D0%BF%D0%B0%D1%80%D1%82%D0%B8%D1%8F",
+        "https://rt.rbc.ru/society/18/03/2020/5e71acc49a794773553f824e"
+      ],
+      "evidence_indices": [
+        0,
+        10
+      ],
+      "model": "gpt-4.1",
+      "at": "2026-10-14T21:47:07.147673+00:00",
+      "evidence_file": "evidence/eduard-limonov.json",
+      "evidence_basis": "bf082b83fb9ac5b3e19e8bfcf0f658d8e93e461d2476c568bc9630d3265b4ffa",
+      "rating_pass": "initial",
+      "measurement_note": "LLM-оценка по извлечённому досье; ссылки не означают независимую экспертную верификацию"
+    },
+    {
+      "object_id": "eduard-limonov",
+      "scale_id": "oppositionality",
+      "positive": 4,
+      "negative": 0,
+      "difference": 4,
+      "mass": 4,
+      "status": "observed",
+      "confidence": 0.9,
+      "reason": "Лимонов и его партия позиционировались как оппозиционная группа, с акцентом на противостояние действующей власти.",
+      "sources": [
+        "https://www.bostonglobe.com/metro/obituaries/2020/03/18/russian-author-political-activist-eduard-limonov-dies/jnjHywBRjVTTgnlsqI12vN/story.html"
+      ],
+      "evidence_indices": [
+        8
+      ],
+      "model": "gpt-4.1",
+      "at": "2026-10-14T21:47:07.147673+00:00",
+      "evidence_file": "evidence/eduard-limonov.json",
+      "evidence_basis": "bf082b83fb9ac5b3e19e8bfcf0f658d8e93e461d2476c568bc9630d3265b4ffa",
+      "rating_pass": "initial",
+      "measurement_note": "LLM-оценка по извлечённому досье; ссылки не означают независимую экспертную верификацию"
+    },
+    {
+      "object_id": "eduard-limonov",
+      "scale_id": "social-policy",
+      "positive": 3,
+      "negative": 0,
+      "difference": 3,
+      "mass": 3,
+      "status": "observed",
+      "confidence": 0.7,
+      "reason": "В программе партии присутствует требование \"народного социализма\", что указывает на акцент на государственные социальные гарантии.",
+      "sources": [
+        "https://ref-book.sova-center.ru/index.php/%D0%94%D1%80%D1%83%D0%B3%D0%B0%D1%8F_%D0%A0%D0%BE%D1%81%D1%81%D0%B8%D1%8F,_%D0%BF%D0%B0%D1%80%D1%82%D0%B8%D1%8F"
+      ],
+      "evidence_indices": [
+        1
+      ],
+      "model": "gpt-4.1",
+      "at": "2026-10-14T21:47:07.147673+00:00",
+      "evidence_file": "evidence/eduard-limonov.json",
+      "evidence_basis": "bf082b83fb9ac5b3e19e8bfcf0f658d8e93e461d2476c568bc9630d3265b4ffa",
+      "rating_pass": "initial",
+      "measurement_note": "LLM-оценка по извлечённому досье; ссылки не означают независимую экспертную верификацию"
+    },
+    {
+      "object_id": "eduard-limonov",
+      "scale_id": "federal-loyalty",
+      "positive": null,
+      "negative": null,
+      "difference": null,
+      "mass": null,
+      "status": "unknown",
+      "confidence": 0.4,
+      "reason": "Нет прямых данных о позиции по вопросам централизации или региональной автономии.",
+      "sources": [],
+      "evidence_indices": [],
+      "model": "gpt-4.1",
+      "at": "2026-10-14T21:47:07.147673+00:00",
+      "evidence_file": "evidence/eduard-limonov.json",
+      "evidence_basis": "bf082b83fb9ac5b3e19e8bfcf0f658d8e93e461d2476c568bc9630d3265b4ffa",
+      "rating_pass": "initial",
+      "measurement_note": "LLM-оценка по извлечённому досье; ссылки не означают независимую экспертную верификацию"
+    },
+    {
+      "object_id": "eduard-limonov",
+      "scale_id": "mobilization-rhetoric",
+      "positive": 3,
+      "negative": 0,
+      "difference": 3,
+      "mass": 3,
+      "status": "observed",
+      "confidence": 0.7,
+      "reason": "Использование конфликтных и мобилизационных формул (\"предчувствие гражданской войны\") указывает на устойчивый мобилизационный акцент.",
+      "sources": [
+        "http://www.grso.ru/person/limonov-eduard.html"
+      ],
+      "evidence_indices": [
+        5
+      ],
+      "model": "gpt-4.1",
+      "at": "2026-10-14T21:47:07.147673+00:00",
+      "evidence_file": "evidence/eduard-limonov.json",
+      "evidence_basis": "bf082b83fb9ac5b3e19e8bfcf0f658d8e93e461d2476c568bc9630d3265b4ffa",
+      "rating_pass": "initial",
+      "measurement_note": "LLM-оценка по извлечённому досье; ссылки не означают независимую экспертную верификацию"
+    },
+    {
+      "object_id": "eduard-limonov",
+      "scale_id": "conflictuality",
+      "positive": 3,
+      "negative": 0,
+      "difference": 3,
+      "mass": 3,
+      "status": "observed",
+      "confidence": 0.8,
+      "reason": "Публичная риторика Лимонова характеризуется конфликтностью и полемичностью, что подтверждается примерами из интервью и описаниями исследователей.",
+      "sources": [
+        "https://nsn.fm/society/poslednee-intervu-pisatelya-i-politika-eduarda-limonova",
+        "http://www.grso.ru/person/limonov-eduard.html",
+        "https://www.bostonglobe.com/metro/obituaries/2020/03/18/russian-author-political-activist-eduard-limonov-dies/jnjHywBRjVTTgnlsqI12vN/story.html"
+      ],
+      "evidence_indices": [
+        4,
+        5,
+        7
+      ],
+      "model": "gpt-4.1",
+      "at": "2026-10-14T21:47:07.147673+00:00",
+      "evidence_file": "evidence/eduard-limonov.json",
+      "evidence_basis": "bf082b83fb9ac5b3e19e8bfcf0f658d8e93e461d2476c568bc9630d3265b4ffa",
+      "rating_pass": "initial",
+      "measurement_note": "LLM-оценка по извлечённому досье; ссылки не означают независимую экспертную верификацию"
+    },
+    {
+      "object_id": "eduard-limonov",
+      "scale_id": "media-personalization",
+      "positive": 3,
+      "negative": 1,
+      "difference": 2,
+      "mass": 4,
+      "status": "observed",
+      "confidence": 0.7,
+      "reason": "Лимонов представлен как персональный лидер и писатель-политик, однако партия продолжила существование после его смерти, что указывает на некоторую институционализацию.",
+      "sources": [
+        "https://www.bostonglobe.com/metro/obituaries/2020/03/18/russian-author-political-activist-eduard-limonov-dies/jnjHywBRjVTTgnlsqI12vN/story.html",
+        "https://ru.wikipedia.org/wiki/%D0%94%D1%80%D1%83%D0%B3%D0%B0%D1%8F_%D0%A0%D0%BE%D1%81%D1%81%D0%B8%D1%8F_%D0%AD._%D0%92._%D0%9B%D0%B8%D0%BC%D0%BE%D0%BD%D0%BE%D0%B2%D0%B0"
+      ],
+      "evidence_indices": [
+        8,
+        11
+      ],
+      "model": "gpt-4.1",
+      "at": "2026-10-14T21:47:07.147673+00:00",
+      "evidence_file": "evidence/eduard-limonov.json",
+      "evidence_basis": "bf082b83fb9ac5b3e19e8bfcf0f658d8e93e461d2476c568bc9630d3265b4ffa",
+      "rating_pass": "initial",
+      "measurement_note": "LLM-оценка по извлечённому досье; ссылки не означают независимую экспертную верификацию"
+    },
+    {
+      "object_id": "eduard-limonov",
+      "scale_id": "antiwesternism",
+      "positive": 3,
+      "negative": 1,
+      "difference": 2,
+      "mass": 4,
+      "status": "observed",
+      "confidence": 0.7,
+      "reason": "Внешнеполитическая риторика Лимонова включала элементы противостояния Западу, но поддержка европейской армии как выгодной для России демонстрирует отдельные случаи прагматичного отношения к западным инициативам.",
+      "sources": [
+        "https://ref-book.sova-center.ru/index.php/%D0%94%D1%80%D1%83%D0%B3%D0%B0%D1%8F_%D0%A0%D0%BE%D1%81%D1%81%D0%B8%D1%8F,_%D0%BF%D0%B0%D1%80%D1%82%D0%B8%D1%8F",
+        "http://www.grso.ru/person/limonov-eduard.html"
+      ],
+      "evidence_indices": [
+        2,
+        3,
+        6
+      ],
+      "model": "gpt-4.1",
+      "at": "2026-10-14T21:47:07.147673+00:00",
+      "evidence_file": "evidence/eduard-limonov.json",
+      "evidence_basis": "bf082b83fb9ac5b3e19e8bfcf0f658d8e93e461d2476c568bc9630d3265b4ffa",
+      "rating_pass": "initial",
+      "measurement_note": "LLM-оценка по извлечённому досье; ссылки не означают независимую экспертную верификацию"
+    },
+    {
+      "object_id": "eduard-limonov",
+      "scale_id": "party-leadership",
+      "positive": 2,
+      "negative": 3,
+      "difference": -1,
+      "mass": 5,
+      "status": "observed",
+      "confidence": 0.8,
+      "reason": "Лимонов был лидером партии, но партия действовала вне официальной партийной системы и делала ставку на независимую инициативу и протестные действия.",
+      "sources": [
+        "https://ref-book.sova-center.ru/index.php/%D0%94%D1%80%D1%83%D0%B3%D0%B0%D1%8F_%D0%A0%D0%BE%D1%81%D1%81%D0%B8%D1%8F,_%D0%BF%D0%B0%D1%80%D1%82%D0%B8%D1%8F",
+        "https://www.bostonglobe.com/metro/obituaries/2020/03/18/russian-author-political-activist-eduard-limonov-dies/jnjHywBRjVTTgnlsqI12vN/story.html",
+        "https://rt.rbc.ru/society/18/03/2020/5e71acc49a794773553f824e"
+      ],
+      "evidence_indices": [
+        0,
+        8,
+        10
+      ],
+      "model": "gpt-4.1",
+      "at": "2026-10-14T21:47:07.147673+00:00",
+      "evidence_file": "evidence/eduard-limonov.json",
+      "evidence_basis": "bf082b83fb9ac5b3e19e8bfcf0f658d8e93e461d2476c568bc9630d3265b4ffa",
+      "rating_pass": "initial",
+      "measurement_note": "LLM-оценка по извлечённому досье; ссылки не означают независимую экспертную верификацию"
+    },
+    {
+      "object_id": "eduard-limonov",
+      "scale_id": "public-transparency",
+      "positive": null,
+      "negative": null,
+      "difference": null,
+      "mass": null,
+      "status": "unknown",
+      "confidence": 0.4,
+      "reason": "В предоставленных материалах отсутствуют прямые сведения о публичных акцентах на прозрачности или закрытости принятия решений, антикоррупционной риторике или механизмах общественного контроля.",
+      "sources": [],
+      "evidence_indices": [],
+      "model": "gpt-4.1",
+      "at": "2026-10-14T21:47:16.439851+00:00",
+      "evidence_file": "evidence/eduard-limonov.json",
+      "evidence_basis": "bf082b83fb9ac5b3e19e8bfcf0f658d8e93e461d2476c568bc9630d3265b4ffa",
+      "rating_pass": "initial",
+      "measurement_note": "LLM-оценка по извлечённому досье; ссылки не означают независимую экспертную верификацию"
+    },
+    {
+      "object_id": "eduard-limonov",
+      "scale_id": "family-values",
+      "positive": null,
+      "negative": null,
+      "difference": null,
+      "mass": null,
+      "status": "unknown",
+      "confidence": 0.3,
+      "reason": "Нет фактов о программных позициях по вопросам семейных или моральных норм, либо о риторике по поводу индивидуального самоопределения.",
+      "sources": [],
+      "evidence_indices": [],
+      "model": "gpt-4.1",
+      "at": "2026-10-14T21:47:16.439851+00:00",
+      "evidence_file": "evidence/eduard-limonov.json",
+      "evidence_basis": "bf082b83fb9ac5b3e19e8bfcf0f658d8e93e461d2476c568bc9630d3265b4ffa",
+      "rating_pass": "initial",
+      "measurement_note": "LLM-оценка по извлечённому досье; ссылки не означают независимую экспертную верификацию"
+    },
+    {
+      "object_id": "eduard-limonov",
+      "scale_id": "international-activity",
+      "positive": 3,
+      "negative": 0,
+      "difference": 3,
+      "mass": 3,
+      "status": "observed",
+      "confidence": 0.9,
+      "reason": "Внешнеполитическая и территориальная повестка устойчиво выражена в программе и публичных заявлениях (возвращение территорий, поддержка европейской армии).",
+      "sources": [
+        "https://ref-book.sova-center.ru/index.php/%D0%94%D1%80%D1%83%D0%B3%D0%B0%D1%8F_%D0%A0%D0%BE%D1%81%D1%81%D0%B8%D1%8F,_%D0%BF%D0%B0%D1%80%D1%82%D0%B8%D1%8F",
+        "http://www.grso.ru/person/limonov-eduard.html"
+      ],
+      "evidence_indices": [
+        2,
+        3,
+        6
+      ],
+      "model": "gpt-4.1",
+      "at": "2026-10-14T21:47:16.439851+00:00",
+      "evidence_file": "evidence/eduard-limonov.json",
+      "evidence_basis": "bf082b83fb9ac5b3e19e8bfcf0f658d8e93e461d2476c568bc9630d3265b4ffa",
+      "rating_pass": "initial",
+      "measurement_note": "LLM-оценка по извлечённому досье; ссылки не означают независимую экспертную верификацию"
+    },
+    {
+      "object_id": "eduard-limonov",
+      "scale_id": "antiwar-rhetoric",
+      "positive": null,
+      "negative": null,
+      "difference": null,
+      "mass": null,
+      "status": "unknown",
+      "confidence": 0.4,
+      "reason": "Нет прямых высказываний о прекращении или поддержке военных действий в конкретных конфликтах рассматриваемого периода.",
+      "sources": [],
+      "evidence_indices": [],
+      "model": "gpt-4.1",
+      "at": "2026-10-14T21:47:16.439851+00:00",
+      "evidence_file": "evidence/eduard-limonov.json",
+      "evidence_basis": "bf082b83fb9ac5b3e19e8bfcf0f658d8e93e461d2476c568bc9630d3265b4ffa",
+      "rating_pass": "initial",
+      "measurement_note": "LLM-оценка по извлечённому досье; ссылки не означают независимую экспертную верификацию"
+    },
+    {
+      "object_id": "eduard-limonov",
+      "scale_id": "electoral-legitimacy",
+      "positive": null,
+      "negative": null,
+      "difference": null,
+      "mass": null,
+      "status": "unknown",
+      "confidence": 0.5,
+      "reason": "Факты фиксируют существование вне зарегистрированной партийной системы, но не содержат программных заявлений о приоритете выборов или административного мандата.",
+      "sources": [
+        "https://ref-book.sova-center.ru/index.php/%D0%94%D1%80%D1%83%D0%B3%D0%B0%D1%8F_%D0%A0%D0%BE%D1%81%D1%81%D0%B8%D1%8F,_%D0%BF%D0%B0%D1%80%D1%82%D0%B8%D1%8F",
+        "https://www.rbc.ru/society/17/03/2020/5e71048d9a79473925ab81a7",
+        "https://rt.rbc.ru/society/18/03/2020/5e71acc49a794773553f824e"
+      ],
+      "evidence_indices": [
+        0,
+        9,
+        10
+      ],
+      "model": "gpt-4.1",
+      "at": "2026-10-14T21:47:16.439851+00:00",
+      "evidence_file": "evidence/eduard-limonov.json",
+      "evidence_basis": "bf082b83fb9ac5b3e19e8bfcf0f658d8e93e461d2476c568bc9630d3265b4ffa",
+      "rating_pass": "initial",
+      "measurement_note": "LLM-оценка по извлечённому досье; ссылки не означают независимую экспертную верификацию"
+    },
+    {
+      "object_id": "eduard-limonov",
+      "scale_id": "economic-ownership",
+      "positive": 3,
+      "negative": 0,
+      "difference": 3,
+      "mass": 3,
+      "status": "observed",
+      "confidence": 0.7,
+      "reason": "В программных целях зафиксирован акцент на 'народном социализме', что указывает на выраженность социалистической (государственной) экономической модели.",
+      "sources": [
+        "https://ref-book.sova-center.ru/index.php/%D0%94%D1%80%D1%83%D0%B3%D0%B0%D1%8F_%D0%A0%D0%BE%D1%81%D1%81%D0%B8%D1%8F,_%D0%BF%D0%B0%D1%80%D1%82%D0%B8%D1%8F"
+      ],
+      "evidence_indices": [
+        1
+      ],
+      "model": "gpt-4.1",
+      "at": "2026-10-14T21:47:16.439851+00:00",
+      "evidence_file": "evidence/eduard-limonov.json",
+      "evidence_basis": "bf082b83fb9ac5b3e19e8bfcf0f658d8e93e461d2476c568bc9630d3265b4ffa",
+      "rating_pass": "initial",
+      "measurement_note": "LLM-оценка по извлечённому досье; ссылки не означают независимую экспертную верификацию"
+    },
+    {
+      "object_id": "eduard-limonov",
+      "scale_id": "economic-modernization",
+      "positive": null,
+      "negative": null,
+      "difference": null,
+      "mass": null,
+      "status": "unknown",
+      "confidence": 0.3,
+      "reason": "Нет сведений о позиции по темпам технологических изменений или цифровизации.",
+      "sources": [],
+      "evidence_indices": [],
+      "model": "gpt-4.1",
+      "at": "2026-10-14T21:47:16.439851+00:00",
+      "evidence_file": "evidence/eduard-limonov.json",
+      "evidence_basis": "bf082b83fb9ac5b3e19e8bfcf0f658d8e93e461d2476c568bc9630d3265b4ffa",
+      "rating_pass": "initial",
+      "measurement_note": "LLM-оценка по извлечённому досье; ссылки не означают независимую экспертную верификацию"
+    },
+    {
+      "object_id": "eduard-limonov",
+      "scale_id": "media-control",
+      "positive": null,
+      "negative": null,
+      "difference": null,
+      "mass": null,
+      "status": "unknown",
+      "confidence": 0.4,
+      "reason": "Есть факт о снятии интервью с эфира, но нет программных позиций по вопросам свободы выражения или регулирования СМИ.",
+      "sources": [
+        "https://nsn.fm/society/poslednee-intervu-pisatelya-i-politika-eduarda-limonova"
+      ],
+      "evidence_indices": [
+        4
+      ],
+      "model": "gpt-4.1",
+      "at": "2026-10-14T21:47:16.439851+00:00",
+      "evidence_file": "evidence/eduard-limonov.json",
+      "evidence_basis": "bf082b83fb9ac5b3e19e8bfcf0f658d8e93e461d2476c568bc9630d3265b4ffa",
+      "rating_pass": "initial",
+      "measurement_note": "LLM-оценка по извлечённому досье; ссылки не означают независимую экспертную верификацию"
+    },
+    {
+      "object_id": "eduard-limonov",
+      "scale_id": "territorial-policy",
+      "positive": 0,
+      "negative": 5,
+      "difference": -5,
+      "mass": 5,
+      "status": "observed",
+      "confidence": 1.0,
+      "reason": "Публично заявлен приоритет пересмотра границ и территориального расширения (возвращение утраченных территорий, присоединение областей, раздел Казахстана).",
+      "sources": [
+        "https://ref-book.sova-center.ru/index.php/%D0%94%D1%80%D1%83%D0%B3%D0%B0%D1%8F_%D0%A0%D0%BE%D1%81%D1%81%D0%B8%D1%8F,_%D0%BF%D0%B0%D1%80%D1%82%D0%B8%D1%8F"
+      ],
+      "evidence_indices": [
+        2,
+        3
+      ],
+      "model": "gpt-4.1",
+      "at": "2026-10-14T21:47:16.439851+00:00",
+      "evidence_file": "evidence/eduard-limonov.json",
+      "evidence_basis": "bf082b83fb9ac5b3e19e8bfcf0f658d8e93e461d2476c568bc9630d3265b4ffa",
+      "rating_pass": "initial",
+      "measurement_note": "LLM-оценка по извлечённому досье; ссылки не означают независимую экспертную верификацию"
+    },
+    {
+      "object_id": "eduard-limonov",
+      "scale_id": "rhetorical-simplicity",
+      "positive": 3,
+      "negative": 1,
+      "difference": 2,
+      "mass": 4,
+      "status": "observed",
+      "confidence": 0.7,
+      "reason": "В риторике фиксируется популистская, антиэлитная рамка (народ против элит), что указывает на устойчивое использование простых лозунгов; однако встречаются и развернутые внешнеполитические аргументы.",
+      "sources": [
+        "https://www.bostonglobe.com/metro/obituaries/2020/03/18/russian-author-political-activist-eduard-limonov-dies/jnjHywBRjVTTgnlsqI12vN/story.html"
+      ],
+      "evidence_indices": [
+        7
+      ],
+      "model": "gpt-4.1",
+      "at": "2026-10-14T21:47:16.439851+00:00",
+      "evidence_file": "evidence/eduard-limonov.json",
+      "evidence_basis": "bf082b83fb9ac5b3e19e8bfcf0f658d8e93e461d2476c568bc9630d3265b4ffa",
+      "rating_pass": "initial",
+      "measurement_note": "LLM-оценка по извлечённому досье; ссылки не означают независимую экспертную верификацию"
+    },
+    {
+      "object_id": "eduard-limonov",
+      "scale_id": "anti-bureaucracy",
+      "positive": null,
+      "negative": null,
+      "difference": null,
+      "mass": null,
+      "status": "unknown",
+      "confidence": 0.3,
+      "reason": "Нет сведений о позиции по вопросам бюрократии, административного регулирования или дерегулирования.",
+      "sources": [],
+      "evidence_indices": [],
+      "model": "gpt-4.1",
+      "at": "2026-10-14T21:47:16.439851+00:00",
+      "evidence_file": "evidence/eduard-limonov.json",
+      "evidence_basis": "bf082b83fb9ac5b3e19e8bfcf0f658d8e93e461d2476c568bc9630d3265b4ffa",
+      "rating_pass": "initial",
+      "measurement_note": "LLM-оценка по извлечённому досье; ссылки не означают независимую экспертную верификацию"
+    },
+    {
+      "object_id": "eduard-limonov",
+      "scale_id": "national-patriotism",
+      "positive": 5,
+      "negative": 0,
+      "difference": 5,
+      "mass": 5,
+      "status": "observed",
+      "confidence": 1.0,
+      "reason": "Публичный акцент на 'русском мире', национально-территориальной повестке и защите культурной идентичности определяет образ Лимонова в этот период.",
+      "sources": [
+        "https://ref-book.sova-center.ru/index.php/%D0%94%D1%80%D1%83%D0%B3%D0%B0%D1%8F_%D0%A0%D0%BE%D1%81%D1%81%D0%B8%D1%8F,_%D0%BF%D0%B0%D1%80%D1%82%D0%B8%D1%8F"
+      ],
+      "evidence_indices": [
+        1,
+        2,
+        3
+      ],
+      "model": "gpt-4.1",
+      "at": "2026-10-14T21:47:16.439851+00:00",
+      "evidence_file": "evidence/eduard-limonov.json",
+      "evidence_basis": "bf082b83fb9ac5b3e19e8bfcf0f658d8e93e461d2476c568bc9630d3265b4ffa",
+      "rating_pass": "initial",
+      "measurement_note": "LLM-оценка по извлечённому досье; ссылки не означают независимую экспертную верификацию"
+    },
+    {
+      "object_id": "eduard-limonov",
+      "scale_id": "coalitionality",
+      "positive": null,
+      "negative": null,
+      "difference": null,
+      "mass": null,
+      "status": "unknown",
+      "confidence": 0.8,
+      "reason": "Партия Лимонова («Другая Россия») после 2016 года отказалась от попыток регистрации и действовала вне официальной партийной системы, что указывает на самостоятельную стратегию и организационную обособленность. Нет данных о значимых коалициях или объединительных инициативах в этот период.",
+      "sources": [
+        "https://ref-book.sova-center.ru/index.php/%D0%94%D1%80%D1%83%D0%B3%D0%B0%D1%8F_%D0%A0%D0%BE%D1%81%D1%81%D0%B8%D1%8F,_%D0%BF%D0%B0%D1%80%D1%82%D0%B8%D1%8F",
+        "https://rt.rbc.ru/society/18/03/2020/5e71acc49a794773553f824e"
+      ],
+      "evidence_indices": [
+        0,
+        10
+      ],
+      "model": "gpt-4.1",
+      "at": "2026-10-14T21:47:18.694194+00:00",
+      "evidence_file": "evidence/eduard-limonov.json",
+      "evidence_basis": "bf082b83fb9ac5b3e19e8bfcf0f658d8e93e461d2476c568bc9630d3265b4ffa",
+      "rating_pass": "initial",
+      "measurement_note": "LLM-оценка по извлечённому досье; ссылки не означают независимую экспертную верификацию"
+    },
+    {
+      "object_id": "eduard-limonov",
+      "scale_id": "civil-liberties",
+      "positive": null,
+      "negative": null,
+      "difference": null,
+      "mass": null,
+      "status": "unknown",
+      "confidence": 0.3,
+      "reason": "В предоставленных фактах отсутствуют прямые сведения о публичных позициях Лимонова по вопросам гражданских свобод, правовых гарантий или расширения ограничений ради порядка.",
+      "sources": [],
+      "evidence_indices": [],
+      "model": "gpt-4.1",
+      "at": "2026-10-14T21:47:18.694194+00:00",
+      "evidence_file": "evidence/eduard-limonov.json",
+      "evidence_basis": "bf082b83fb9ac5b3e19e8bfcf0f658d8e93e461d2476c568bc9630d3265b4ffa",
+      "rating_pass": "initial",
+      "measurement_note": "LLM-оценка по извлечённому досье; ссылки не означают независимую экспертную верификацию"
+    }
+  ],
+  "unknown_scale_ids": [
+    "technocratic-management",
+    "federal-loyalty",
+    "public-transparency",
+    "family-values",
+    "antiwar-rhetoric",
+    "electoral-legitimacy",
+    "economic-modernization",
+    "media-control",
+    "anti-bureaucracy",
+    "coalitionality",
+    "civil-liberties"
+  ]
+}

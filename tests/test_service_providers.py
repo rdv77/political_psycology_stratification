@@ -234,6 +234,21 @@ class ServiceProviderTests(unittest.TestCase):
                 self.assertIsNone(row[field])
         self.client.assert_not_called()
 
+    def test_interpretation_uses_only_measured_scales_instead_of_excluded_traits(self):
+        study = dict(self.study, scales=self.scales())
+        analysis = {"loading_table": [{"id": "s0"}],
+                    "factors": [{"id": "F1", "label": "Numeric factor"}],
+                    "clusters": [{"id": "C1", "name": "Numeric cluster"}], "warnings": []}
+        response = {"data": {"factors": [{"id": "F1", "label": "Measured direction", "interpretation": "Grounded factor"}],
+                              "clusters": [{"id": "C1", "label": "Measured profile", "interpretation": "Grounded cluster"}],
+                              "space_interpretation": "Measured space"}, "model": "test", "at": "test"}
+        with patch.object(self.provider, "request", return_value=response) as request:
+            result = self.provider.interpret(study, analysis)
+        material = json.loads(request.call_args.args[2].split("Данные:\n", 1)[1])
+        self.assertEqual([scale["id"] for scale in material["scales"]], ["s0"])
+        self.assertEqual(result["clusters"][0]["name"], "Measured profile")
+        self.assertEqual(result["factors"][0]["label"], "Measured direction")
+
     def measurement_fixture(self, count=26):
         scales = [dict(self.scales()[0], id=f"s{i}", name=f"Synthetic scale {i}") for i in range(count)]
         study = dict(self.study, scales=scales, aspect="Публичный политический образ")

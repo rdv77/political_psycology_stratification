@@ -1,0 +1,57 @@
+{
+  "checked_at": "2026-10-14T22:23:23.125803+00:00",
+  "numerical": {
+    "n_objects": 63,
+    "n_scales": 17,
+    "factor_count": 2,
+    "cluster_count": 3,
+    "variance_total": 0.4709415442381143
+  },
+  "input_objects": 70,
+  "input_scales": 26,
+  "observed_ratings": 1260,
+  "unknown_ratings": 560,
+  "retained_coverage": 0.8627450980392157,
+  "excluded_objects": 7,
+  "cluster_sizes": [
+    40,
+    15,
+    8
+  ],
+  "complete_k_comparison": [
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10
+  ],
+  "interpretation_revisions": 10,
+  "software_tests": {
+    "passed": 82,
+    "failed": 0
+  },
+  "artifact_qa": {
+    "pdf_pages": 72,
+    "pdf_rendered_and_reviewed": true,
+    "pptx_slides": 21,
+    "pptx_rendered_and_reviewed": true,
+    "pptx_package_layout_import_passed": true,
+    "docx_structure_and_title_check_passed": true,
+    "docx_visual_rendered": false,
+    "browser_visual_tested": false,
+    "http_all_six_artifacts": 200,
+    "reviewer_type": "assistant; not independent human validation"
+  },
+  "sha256": {
+    "report.md": "771ad43f9d9f4d54b84eb4e76228f2fa92839f1127c6c9f85207cce683e8eb04",
+    "report.html": "fdbfb70d3483689ac6d39d41d06914018ed21ae2babe0b54a0d90f753350e04e",
+    "report.pdf": "4f2b9ddca6b78606b737808d3706e65c5fd1a6113833b6026beeaabbe5cda08b",
+    "report.docx": "005772f0f53479b7199b5aa7d2bef1b54cd7839590dd2445815507f171fb1fd6",
+    "slides.pptx": "e246b94ad70cedc3b95c8dacb36ca46ee7694b7f34b1205f1949bc1ee03e0f43",
+    "report_bundle.zip": "4ad57d553b537f97bc2df4c1d860b37987f03aec1eece152f28103370566c91f"
+  }
+}

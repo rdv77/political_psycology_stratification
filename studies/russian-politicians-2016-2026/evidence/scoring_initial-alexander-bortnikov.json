@@ -1,0 +1,630 @@
+{
+  "object_id": "alexander-bortnikov",
+  "scales_basis": "2bee01a202c39ee721dfa985f553d5ce4502c74051ebe616ba3acc72ad80c440",
+  "dossier_basis": "e5f4ffefb62646043e337956dfcd12dde9a6349728628cf657b3b5485975066e",
+  "evidence_file": "evidence/alexander-bortnikov.json",
+  "period": [
+    "2016-10-15",
+    "2026-10-15"
+  ],
+  "ratings": [
+    {
+      "object_id": "alexander-bortnikov",
+      "scale_id": "security-sovereignty",
+      "positive": 4,
+      "negative": 0,
+      "difference": 4,
+      "mass": 4,
+      "status": "observed",
+      "confidence": 0.9,
+      "reason": "Публичная деятельность Бортникова связана с руководством ФСБ и акцентом на национальной безопасности, защите от внешних угроз и контртеррористической деятельности. Признаков акцента на международную интеграцию не выявлено.",
+      "sources": [
+        "http://special.kremlin.ru/catalog/persons/100/events",
+        "https://nac.gov.ru/view/eb008ff4-1608-4b47-b2a9-3d604c1833c2",
+        "http://pfo.gov.ru/press/events/113336/"
+      ],
+      "evidence_indices": [
+        0,
+        3,
+        4,
+        6,
+        7
+      ],
+      "model": "gpt-4.1",
+      "at": "2026-10-14T21:42:48.614070+00:00",
+      "evidence_file": "evidence/alexander-bortnikov.json",
+      "evidence_basis": "e5f4ffefb62646043e337956dfcd12dde9a6349728628cf657b3b5485975066e",
+      "rating_pass": "initial",
+      "measurement_note": "LLM-оценка по извлечённому досье; ссылки не означают независимую экспертную верификацию"
+    },
+    {
+      "object_id": "alexander-bortnikov",
+      "scale_id": "historical-memory",
+      "positive": null,
+      "negative": null,
+      "difference": null,
+      "mass": null,
+      "status": "unknown",
+      "confidence": 0.3,
+      "reason": "В предоставленных материалах отсутствуют прямые ссылки на апелляцию к исторической памяти или акцент на преобразование будущего.",
+      "sources": [],
+      "evidence_indices": [],
+      "model": "gpt-4.1",
+      "at": "2026-10-14T21:42:48.614070+00:00",
+      "evidence_file": "evidence/alexander-bortnikov.json",
+      "evidence_basis": "e5f4ffefb62646043e337956dfcd12dde9a6349728628cf657b3b5485975066e",
+      "rating_pass": "initial",
+      "measurement_note": "LLM-оценка по извлечённому досье; ссылки не означают независимую экспертную верификацию"
+    },
+    {
+      "object_id": "alexander-bortnikov",
+      "scale_id": "technocratic-management",
+      "positive": 3,
+      "negative": 0,
+      "difference": 3,
+      "mass": 3,
+      "status": "observed",
+      "confidence": 0.8,
+      "reason": "Публичный образ строится вокруг управленческой координации, профилактики угроз и практических задач безопасности, без выраженного идеологического компонента.",
+      "sources": [
+        "http://special.kremlin.ru/catalog/persons/100/events",
+        "https://nac.gov.ru/view/eb008ff4-1608-4b47-b2a9-3d604c1833c2",
+        "http://pfo.gov.ru/press/events/113336/"
+      ],
+      "evidence_indices": [
+        3,
+        6,
+        7
+      ],
+      "model": "gpt-4.1",
+      "at": "2026-10-14T21:42:48.614070+00:00",
+      "evidence_file": "evidence/alexander-bortnikov.json",
+      "evidence_basis": "e5f4ffefb62646043e337956dfcd12dde9a6349728628cf657b3b5485975066e",
+      "rating_pass": "initial",
+      "measurement_note": "LLM-оценка по извлечённому досье; ссылки не означают независимую экспертную верификацию"
+    },
+    {
+      "object_id": "alexander-bortnikov",
+      "scale_id": "parliamentary-institutional",
+      "positive": 0,
+      "negative": 0,
+      "difference": 0,
+      "mass": 0,
+      "status": "observed",
+      "confidence": 0.7,
+      "reason": "Бортников не представлен как участник парламентских или протестных стратегий; его деятельность институциональна, но вне парламентской сферы.",
+      "sources": [
+        "http://special.kremlin.ru/catalog/persons/100/events"
+      ],
+      "evidence_indices": [
+        3,
+        4
+      ],
+      "model": "gpt-4.1",
+      "at": "2026-10-14T21:42:48.614070+00:00",
+      "evidence_file": "evidence/alexander-bortnikov.json",
+      "evidence_basis": "e5f4ffefb62646043e337956dfcd12dde9a6349728628cf657b3b5485975066e",
+      "rating_pass": "initial",
+      "measurement_note": "LLM-оценка по извлечённому досье; ссылки не означают независимую экспертную верификацию"
+    },
+    {
+      "object_id": "alexander-bortnikov",
+      "scale_id": "oppositionality",
+      "positive": 0,
+      "negative": 3,
+      "difference": -3,
+      "mass": 3,
+      "status": "observed",
+      "confidence": 0.8,
+      "reason": "Публичная позиция выражена через поддержку и реализацию курса действующей федеральной власти, критики федерального курса не обнаружено.",
+      "sources": [
+        "http://special.kremlin.ru/catalog/persons/100/events",
+        "https://nac.gov.ru/view/eb008ff4-1608-4b47-b2a9-3d604c1833c2",
+        "http://pfo.gov.ru/press/events/113336/"
+      ],
+      "evidence_indices": [
+        0,
+        3,
+        4,
+        6,
+        7
+      ],
+      "model": "gpt-4.1",
+      "at": "2026-10-14T21:42:48.614070+00:00",
+      "evidence_file": "evidence/alexander-bortnikov.json",
+      "evidence_basis": "e5f4ffefb62646043e337956dfcd12dde9a6349728628cf657b3b5485975066e",
+      "rating_pass": "initial",
+      "measurement_note": "LLM-оценка по извлечённому досье; ссылки не означают независимую экспертную верификацию"
+    },
+    {
+      "object_id": "alexander-bortnikov",
+      "scale_id": "social-policy",
+      "positive": null,
+      "negative": null,
+      "difference": null,
+      "mass": null,
+      "status": "unknown",
+      "confidence": 0.3,
+      "reason": "Нет данных о публичных заявлениях по вопросам социальной политики или перераспределения.",
+      "sources": [],
+      "evidence_indices": [],
+      "model": "gpt-4.1",
+      "at": "2026-10-14T21:42:48.614070+00:00",
+      "evidence_file": "evidence/alexander-bortnikov.json",
+      "evidence_basis": "e5f4ffefb62646043e337956dfcd12dde9a6349728628cf657b3b5485975066e",
+      "rating_pass": "initial",
+      "measurement_note": "LLM-оценка по извлечённому досье; ссылки не означают независимую экспертную верификацию"
+    },
+    {
+      "object_id": "alexander-bortnikov",
+      "scale_id": "federal-loyalty",
+      "positive": 3,
+      "negative": 0,
+      "difference": 3,
+      "mass": 3,
+      "status": "observed",
+      "confidence": 0.8,
+      "reason": "Образ строится вокруг централизации и координации с федеральным центром, региональная автономия не акцентируется.",
+      "sources": [
+        "http://special.kremlin.ru/catalog/persons/100/events",
+        "http://pfo.gov.ru/press/events/113336/"
+      ],
+      "evidence_indices": [
+        0,
+        3,
+        5,
+        7
+      ],
+      "model": "gpt-4.1",
+      "at": "2026-10-14T21:42:48.614070+00:00",
+      "evidence_file": "evidence/alexander-bortnikov.json",
+      "evidence_basis": "e5f4ffefb62646043e337956dfcd12dde9a6349728628cf657b3b5485975066e",
+      "rating_pass": "initial",
+      "measurement_note": "LLM-оценка по извлечённому досье; ссылки не означают независимую экспертную верификацию"
+    },
+    {
+      "object_id": "alexander-bortnikov",
+      "scale_id": "mobilization-rhetoric",
+      "positive": 2,
+      "negative": 0,
+      "difference": 2,
+      "mass": 2,
+      "status": "observed",
+      "confidence": 0.7,
+      "reason": "В риторике присутствуют элементы мобилизации и дисциплины, особенно в контексте антитеррористических мероприятий, но это не определяющий акцент.",
+      "sources": [
+        "https://nac.gov.ru/view/eb008ff4-1608-4b47-b2a9-3d604c1833c2",
+        "http://pfo.gov.ru/press/events/113336/"
+      ],
+      "evidence_indices": [
+        6,
+        7
+      ],
+      "model": "gpt-4.1",
+      "at": "2026-10-14T21:42:48.614070+00:00",
+      "evidence_file": "evidence/alexander-bortnikov.json",
+      "evidence_basis": "e5f4ffefb62646043e337956dfcd12dde9a6349728628cf657b3b5485975066e",
+      "rating_pass": "initial",
+      "measurement_note": "LLM-оценка по извлечённому досье; ссылки не означают независимую экспертную верификацию"
+    },
+    {
+      "object_id": "alexander-bortnikov",
+      "scale_id": "conflictuality",
+      "positive": 1,
+      "negative": 0,
+      "difference": 1,
+      "mass": 1,
+      "status": "observed",
+      "confidence": 0.6,
+      "reason": "В публичных материалах отмечается жёсткая риторика в отношении внешних угроз, однако массовой полемики или открытой конфронтации не фиксируется.",
+      "sources": [
+        "https://nac.gov.ru/view/eb008ff4-1608-4b47-b2a9-3d604c1833c2"
+      ],
+      "evidence_indices": [
+        6
+      ],
+      "model": "gpt-4.1",
+      "at": "2026-10-14T21:42:48.614070+00:00",
+      "evidence_file": "evidence/alexander-bortnikov.json",
+      "evidence_basis": "e5f4ffefb62646043e337956dfcd12dde9a6349728628cf657b3b5485975066e",
+      "rating_pass": "initial",
+      "measurement_note": "LLM-оценка по извлечённому досье; ссылки не означают независимую экспертную верификацию"
+    },
+    {
+      "object_id": "alexander-bortnikov",
+      "scale_id": "media-personalization",
+      "positive": 0,
+      "negative": 3,
+      "difference": -3,
+      "mass": 3,
+      "status": "observed",
+      "confidence": 0.8,
+      "reason": "Публичное самопредставление опосредовано ведомственными форматами и коллективными институтами, а не личным брендом.",
+      "sources": [
+        "http://special.kremlin.ru/catalog/persons/100/events"
+      ],
+      "evidence_indices": [
+        3,
+        8
+      ],
+      "model": "gpt-4.1",
+      "at": "2026-10-14T21:42:48.614070+00:00",
+      "evidence_file": "evidence/alexander-bortnikov.json",
+      "evidence_basis": "e5f4ffefb62646043e337956dfcd12dde9a6349728628cf657b3b5485975066e",
+      "rating_pass": "initial",
+      "measurement_note": "LLM-оценка по извлечённому досье; ссылки не означают независимую экспертную верификацию"
+    },
+    {
+      "object_id": "alexander-bortnikov",
+      "scale_id": "antiwesternism",
+      "positive": 2,
+      "negative": 0,
+      "difference": 2,
+      "mass": 2,
+      "status": "observed",
+      "confidence": 0.7,
+      "reason": "В риторике по вопросам безопасности и контртерроризма присутствует акцент на противостоянии внешним (в том числе западным) угрозам, но это не доминирующий мотив.",
+      "sources": [
+        "https://nac.gov.ru/view/eb008ff4-1608-4b47-b2a9-3d604c1833c2"
+      ],
+      "evidence_indices": [
+        6
+      ],
+      "model": "gpt-4.1",
+      "at": "2026-10-14T21:42:48.614070+00:00",
+      "evidence_file": "evidence/alexander-bortnikov.json",
+      "evidence_basis": "e5f4ffefb62646043e337956dfcd12dde9a6349728628cf657b3b5485975066e",
+      "rating_pass": "initial",
+      "measurement_note": "LLM-оценка по извлечённому досье; ссылки не означают независимую экспертную верификацию"
+    },
+    {
+      "object_id": "alexander-bortnikov",
+      "scale_id": "party-leadership",
+      "positive": 0,
+      "negative": 0,
+      "difference": 0,
+      "mass": 0,
+      "status": "observed",
+      "confidence": 0.8,
+      "reason": "Бортников не ассоциируется с партийной организацией или независимыми инициативами; его деятельность институциональна и вне партийной сферы.",
+      "sources": [
+        "http://special.kremlin.ru/catalog/persons/100/events"
+      ],
+      "evidence_indices": [
+        4
+      ],
+      "model": "gpt-4.1",
+      "at": "2026-10-14T21:42:48.614070+00:00",
+      "evidence_file": "evidence/alexander-bortnikov.json",
+      "evidence_basis": "e5f4ffefb62646043e337956dfcd12dde9a6349728628cf657b3b5485975066e",
+      "rating_pass": "initial",
+      "measurement_note": "LLM-оценка по извлечённому досье; ссылки не означают независимую экспертную верификацию"
+    },
+    {
+      "object_id": "alexander-bortnikov",
+      "scale_id": "public-transparency",
+      "positive": 0,
+      "negative": 3,
+      "difference": -3,
+      "mass": 3,
+      "status": "observed",
+      "confidence": 0.8,
+      "reason": "Публичная деятельность Бортникова характеризуется институциональной закрытостью, акцент на прозрачности решений отсутствует, а коммуникация ведётся преимущественно через официальные протоколы и ведомственные сообщения.",
+      "sources": [
+        "http://special.kremlin.ru/catalog/persons/100/events"
+      ],
+      "evidence_indices": [
+        0,
+        3,
+        4,
+        5,
+        8
+      ],
+      "model": "gpt-4.1",
+      "at": "2026-10-14T21:42:55.213947+00:00",
+      "evidence_file": "evidence/alexander-bortnikov.json",
+      "evidence_basis": "e5f4ffefb62646043e337956dfcd12dde9a6349728628cf657b3b5485975066e",
+      "rating_pass": "initial",
+      "measurement_note": "LLM-оценка по извлечённому досье; ссылки не означают независимую экспертную верификацию"
+    },
+    {
+      "object_id": "alexander-bortnikov",
+      "scale_id": "family-values",
+      "positive": null,
+      "negative": null,
+      "difference": null,
+      "mass": null,
+      "status": "unknown",
+      "confidence": 0.2,
+      "reason": "В предоставленных материалах отсутствуют сведения о публичных позициях Бортникова по вопросам семейных или моральных норм.",
+      "sources": [],
+      "evidence_indices": [],
+      "model": "gpt-4.1",
+      "at": "2026-10-14T21:42:55.213947+00:00",
+      "evidence_file": "evidence/alexander-bortnikov.json",
+      "evidence_basis": "e5f4ffefb62646043e337956dfcd12dde9a6349728628cf657b3b5485975066e",
+      "rating_pass": "initial",
+      "measurement_note": "LLM-оценка по извлечённому досье; ссылки не означают независимую экспертную верификацию"
+    },
+    {
+      "object_id": "alexander-bortnikov",
+      "scale_id": "international-activity",
+      "positive": 3,
+      "negative": 1,
+      "difference": 2,
+      "mass": 4,
+      "status": "observed",
+      "confidence": 0.7,
+      "reason": "Бортников регулярно участвует в совещаниях по вопросам внешней политики и безопасности, однако его публичная активность не ограничивается только международной повесткой.",
+      "sources": [
+        "http://special.kremlin.ru/catalog/persons/100/events",
+        "http://pfo.gov.ru/press/events/113336/"
+      ],
+      "evidence_indices": [
+        0,
+        3,
+        5,
+        7
+      ],
+      "model": "gpt-4.1",
+      "at": "2026-10-14T21:42:55.213947+00:00",
+      "evidence_file": "evidence/alexander-bortnikov.json",
+      "evidence_basis": "e5f4ffefb62646043e337956dfcd12dde9a6349728628cf657b3b5485975066e",
+      "rating_pass": "initial",
+      "measurement_note": "LLM-оценка по извлечённому досье; ссылки не означают независимую экспертную верификацию"
+    },
+    {
+      "object_id": "alexander-bortnikov",
+      "scale_id": "antiwar-rhetoric",
+      "positive": null,
+      "negative": null,
+      "difference": null,
+      "mass": null,
+      "status": "unknown",
+      "confidence": 0.3,
+      "reason": "Нет прямых публичных заявлений Бортникова о прекращении или продолжении военных действий в анализируемый период.",
+      "sources": [],
+      "evidence_indices": [],
+      "model": "gpt-4.1",
+      "at": "2026-10-14T21:42:55.213947+00:00",
+      "evidence_file": "evidence/alexander-bortnikov.json",
+      "evidence_basis": "e5f4ffefb62646043e337956dfcd12dde9a6349728628cf657b3b5485975066e",
+      "rating_pass": "initial",
+      "measurement_note": "LLM-оценка по извлечённому досье; ссылки не означают независимую экспертную верификацию"
+    },
+    {
+      "object_id": "alexander-bortnikov",
+      "scale_id": "electoral-legitimacy",
+      "positive": 0,
+      "negative": 3,
+      "difference": -3,
+      "mass": 3,
+      "status": "observed",
+      "confidence": 0.8,
+      "reason": "Публичный образ строится на административном мандате и назначении, а не на электоральной легитимности или апелляции к воле избирателей.",
+      "sources": [
+        "http://special.kremlin.ru/catalog/persons/100/events"
+      ],
+      "evidence_indices": [
+        3,
+        4,
+        5
+      ],
+      "model": "gpt-4.1",
+      "at": "2026-10-14T21:42:55.213947+00:00",
+      "evidence_file": "evidence/alexander-bortnikov.json",
+      "evidence_basis": "e5f4ffefb62646043e337956dfcd12dde9a6349728628cf657b3b5485975066e",
+      "rating_pass": "initial",
+      "measurement_note": "LLM-оценка по извлечённому досье; ссылки не означают независимую экспертную верификацию"
+    },
+    {
+      "object_id": "alexander-bortnikov",
+      "scale_id": "economic-ownership",
+      "positive": null,
+      "negative": null,
+      "difference": null,
+      "mass": null,
+      "status": "unknown",
+      "confidence": 0.2,
+      "reason": "В материалах отсутствуют высказывания или действия, позволяющие судить о позиции по вопросам собственности и роли государства в экономике.",
+      "sources": [],
+      "evidence_indices": [],
+      "model": "gpt-4.1",
+      "at": "2026-10-14T21:42:55.213947+00:00",
+      "evidence_file": "evidence/alexander-bortnikov.json",
+      "evidence_basis": "e5f4ffefb62646043e337956dfcd12dde9a6349728628cf657b3b5485975066e",
+      "rating_pass": "initial",
+      "measurement_note": "LLM-оценка по извлечённому досье; ссылки не означают независимую экспертную верификацию"
+    },
+    {
+      "object_id": "alexander-bortnikov",
+      "scale_id": "economic-modernization",
+      "positive": null,
+      "negative": null,
+      "difference": null,
+      "mass": null,
+      "status": "unknown",
+      "confidence": 0.2,
+      "reason": "Нет данных о публичных заявлениях или инициативах Бортникова по вопросам технологического обновления или сохранения хозяйственных моделей.",
+      "sources": [],
+      "evidence_indices": [],
+      "model": "gpt-4.1",
+      "at": "2026-10-14T21:42:55.213947+00:00",
+      "evidence_file": "evidence/alexander-bortnikov.json",
+      "evidence_basis": "e5f4ffefb62646043e337956dfcd12dde9a6349728628cf657b3b5485975066e",
+      "rating_pass": "initial",
+      "measurement_note": "LLM-оценка по извлечённому досье; ссылки не означают независимую экспертную верификацию"
+    },
+    {
+      "object_id": "alexander-bortnikov",
+      "scale_id": "media-control",
+      "positive": null,
+      "negative": null,
+      "difference": null,
+      "mass": null,
+      "status": "unknown",
+      "confidence": 0.3,
+      "reason": "В предоставленных материалах отсутствуют прямые высказывания или инициативы по вопросам регулирования информации или свободы СМИ.",
+      "sources": [],
+      "evidence_indices": [],
+      "model": "gpt-4.1",
+      "at": "2026-10-14T21:42:55.213947+00:00",
+      "evidence_file": "evidence/alexander-bortnikov.json",
+      "evidence_basis": "e5f4ffefb62646043e337956dfcd12dde9a6349728628cf657b3b5485975066e",
+      "rating_pass": "initial",
+      "measurement_note": "LLM-оценка по извлечённому досье; ссылки не означают независимую экспертную верификацию"
+    },
+    {
+      "object_id": "alexander-bortnikov",
+      "scale_id": "territorial-policy",
+      "positive": null,
+      "negative": null,
+      "difference": null,
+      "mass": null,
+      "status": "unknown",
+      "confidence": 0.3,
+      "reason": "Нет прямых заявлений Бортникова о территориальной политике или пересмотре границ.",
+      "sources": [],
+      "evidence_indices": [],
+      "model": "gpt-4.1",
+      "at": "2026-10-14T21:42:55.213947+00:00",
+      "evidence_file": "evidence/alexander-bortnikov.json",
+      "evidence_basis": "e5f4ffefb62646043e337956dfcd12dde9a6349728628cf657b3b5485975066e",
+      "rating_pass": "initial",
+      "measurement_note": "LLM-оценка по извлечённому досье; ссылки не означают независимую экспертную верификацию"
+    },
+    {
+      "object_id": "alexander-bortnikov",
+      "scale_id": "rhetorical-simplicity",
+      "positive": 0,
+      "negative": 1,
+      "difference": -1,
+      "mass": 1,
+      "status": "observed",
+      "confidence": 0.7,
+      "reason": "Публичная коммуникация преимущественно формализована и лишена лозунговой простоты, но также не содержит развёрнутой аргументации для широкой аудитории.",
+      "sources": [
+        "http://special.kremlin.ru/catalog/persons/100/events"
+      ],
+      "evidence_indices": [
+        8
+      ],
+      "model": "gpt-4.1",
+      "at": "2026-10-14T21:42:55.213947+00:00",
+      "evidence_file": "evidence/alexander-bortnikov.json",
+      "evidence_basis": "e5f4ffefb62646043e337956dfcd12dde9a6349728628cf657b3b5485975066e",
+      "rating_pass": "initial",
+      "measurement_note": "LLM-оценка по извлечённому досье; ссылки не означают независимую экспертную верификацию"
+    },
+    {
+      "object_id": "alexander-bortnikov",
+      "scale_id": "anti-bureaucracy",
+      "positive": null,
+      "negative": null,
+      "difference": null,
+      "mass": null,
+      "status": "unknown",
+      "confidence": 0.2,
+      "reason": "Нет сведений о публичных предложениях по сокращению или расширению административного регулирования.",
+      "sources": [],
+      "evidence_indices": [],
+      "model": "gpt-4.1",
+      "at": "2026-10-14T21:42:55.213947+00:00",
+      "evidence_file": "evidence/alexander-bortnikov.json",
+      "evidence_basis": "e5f4ffefb62646043e337956dfcd12dde9a6349728628cf657b3b5485975066e",
+      "rating_pass": "initial",
+      "measurement_note": "LLM-оценка по извлечённому досье; ссылки не означают независимую экспертную верификацию"
+    },
+    {
+      "object_id": "alexander-bortnikov",
+      "scale_id": "national-patriotism",
+      "positive": 1,
+      "negative": 0,
+      "difference": 1,
+      "mass": 1,
+      "status": "observed",
+      "confidence": 0.5,
+      "reason": "В публичной риторике присутствует акцент на безопасности и защите государства, что может косвенно указывать на патриотическую направленность, однако прямых заявлений о национальной идентичности не обнаружено.",
+      "sources": [
+        "http://special.kremlin.ru/catalog/persons/100/events",
+        "https://nac.gov.ru/view/eb008ff4-1608-4b47-b2a9-3d604c1833c2",
+        "http://pfo.gov.ru/press/events/113336/"
+      ],
+      "evidence_indices": [
+        4,
+        6,
+        7
+      ],
+      "model": "gpt-4.1",
+      "at": "2026-10-14T21:42:55.213947+00:00",
+      "evidence_file": "evidence/alexander-bortnikov.json",
+      "evidence_basis": "e5f4ffefb62646043e337956dfcd12dde9a6349728628cf657b3b5485975066e",
+      "rating_pass": "initial",
+      "measurement_note": "LLM-оценка по извлечённому досье; ссылки не означают независимую экспертную верификацию"
+    },
+    {
+      "object_id": "alexander-bortnikov",
+      "scale_id": "coalitionality",
+      "positive": 3,
+      "negative": 2,
+      "difference": 1,
+      "mass": 5,
+      "status": "observed",
+      "confidence": 0.8,
+      "reason": "Публичный образ Бортникова строится вокруг межведомственной координации и участия в институциональных совещаниях с другими силовыми и внешнеполитическими органами, что указывает на устойчивое проявление коалиционного сотрудничества. Однако отсутствуют признаки самостоятельной электоральной конкуренции или партийной обособленности, но ведомственная специфика подразумевает определённую организационную замкнутость.",
+      "sources": [
+        "http://special.kremlin.ru/catalog/persons/100/events"
+      ],
+      "evidence_indices": [
+        0,
+        3,
+        5
+      ],
+      "model": "gpt-4.1",
+      "at": "2026-10-14T21:42:57.847219+00:00",
+      "evidence_file": "evidence/alexander-bortnikov.json",
+      "evidence_basis": "e5f4ffefb62646043e337956dfcd12dde9a6349728628cf657b3b5485975066e",
+      "rating_pass": "initial",
+      "measurement_note": "LLM-оценка по извлечённому досье; ссылки не означают независимую экспертную верификацию"
+    },
+    {
+      "object_id": "alexander-bortnikov",
+      "scale_id": "civil-liberties",
+      "positive": null,
+      "negative": null,
+      "difference": null,
+      "mass": null,
+      "status": "unknown",
+      "confidence": 0.7,
+      "reason": "Публичная риторика и институциональная роль Бортникова связаны с акцентом на безопасность, контртерроризм и профилактику угроз, что подразумевает расширение ограничительных мер ради порядка. Не обнаружено выраженной защиты гражданских свобод или прав обвиняемых в публичных материалах.",
+      "sources": [
+        "http://special.kremlin.ru/catalog/persons/100/events",
+        "https://nac.gov.ru/view/eb008ff4-1608-4b47-b2a9-3d604c1833c2",
+        "http://pfo.gov.ru/press/events/113336/"
+      ],
+      "evidence_indices": [
+        4,
+        6,
+        7
+      ],
+      "model": "gpt-4.1",
+      "at": "2026-10-14T21:42:57.847219+00:00",
+      "evidence_file": "evidence/alexander-bortnikov.json",
+      "evidence_basis": "e5f4ffefb62646043e337956dfcd12dde9a6349728628cf657b3b5485975066e",
+      "rating_pass": "initial",
+      "measurement_note": "LLM-оценка по извлечённому досье; ссылки не означают независимую экспертную верификацию"
+    }
+  ],
+  "unknown_scale_ids": [
+    "historical-memory",
+    "social-policy",
+    "family-values",
+    "antiwar-rhetoric",
+    "economic-ownership",
+    "economic-modernization",
+    "media-control",
+    "territorial-policy",
+    "anti-bureaucracy",
+    "civil-liberties"
+  ]
+}

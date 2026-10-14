@@ -24,7 +24,11 @@ const HEIGHT = 720;
 const clean = value => String(value ?? "").replace(/\s+/g, " ").trim();
 const short = (value, limit = 130) => {
   const text = clean(value);
-  return text.length <= limit ? text : `${text.slice(0, limit - 1).trimEnd()}…`;
+  if (text.length <= limit) return text;
+  let prefix = text.slice(0, limit - 1).trimEnd();
+  const boundary = prefix.lastIndexOf(" ");
+  if (boundary >= Math.floor(limit * .65)) prefix = prefix.slice(0, boundary);
+  return `${prefix}…`;
 };
 const pct = value => `${(100 * Number(value || 0)).toFixed(1).replace(".", ",")}%`;
 const num = (value, digits = 2) => Number(value || 0).toFixed(digits).replace(".", ",");
@@ -112,7 +116,9 @@ async function main() {
   function slide(title, note = "") {
     const current = presentation.slides.add();
     current.background.fill = "#FFFFFF";
-    text(current, title, 68, 45, 1144, 82, { size: title.length > 56 ? 33 : 38, bold: true });
+    const titleSize = [38, 33, 30, 28, 26].find(size =>
+      wrapText(title, Math.floor(1144 / (size * .56))).length * size * 1.22 <= 82) || 26;
+    text(current, title, 68, 45, 1144, 82, { size: titleSize, bold: true });
     text(current, String(presentation.slides.items.length).padStart(2, "0"), 1170, 672, 42, 21,
       { size: 13, color: MUTED, align: "right" });
     current.speakerNotes.text = `${note}\n\n${commonNotes}`;
@@ -133,12 +139,34 @@ async function main() {
   function narrativeSlides(title, narrative) {
     const source = String(narrative || "").trim();
     const paragraphs = source.split(/\r?\n+/).map(part => part.trim()).filter(Boolean);
-    const all = [];
-    for (const paragraph of paragraphs) {
-      if (all.length) all.push("");
-      all.push(...wrapText(paragraph, 78));
+    const units = [];
+    for (const [paragraphIndex, paragraph] of paragraphs.entries()) {
+      const wrapped = wrapText(paragraph, 78);
+      if (wrapped.length <= 13) {
+        units.push({ lines: wrapped, paragraphBreak: paragraphIndex > 0 });
+        continue;
+      }
+      // Keep normal paragraphs and sentences intact. Only a single sentence
+      // longer than one slide falls back to line-wise continuation.
+      const sentences = paragraph.split(/(?<=[.!?])\s+(?=[А-ЯЁA-Z])/);
+      for (const [sentenceIndex, sentence] of sentences.entries()) {
+        const pieces = chunks(wrapText(sentence, 78), 13);
+        pieces.forEach((piece, pieceIndex) => units.push({ lines: piece,
+          paragraphBreak: paragraphIndex > 0 && sentenceIndex === 0 && pieceIndex === 0 }));
+      }
     }
-    const pages = chunks(all, 13);
+    const pages = [];
+    let pending = [];
+    for (const unit of units) {
+      const gap = pending.length && unit.paragraphBreak ? 1 : 0;
+      if (pending.length && pending.length + gap + unit.lines.length > 13) {
+        pages.push(pending);
+        pending = [];
+      }
+      if (pending.length && unit.paragraphBreak) pending.push("");
+      pending.push(...unit.lines);
+    }
+    if (pending.length) pages.push(pending);
     pages.forEach((page, index) => {
       const current = slide(index ? `${title} (продолжение)` : title, source);
       text(current, page.join("\n"), 72, 162, 1136, 430, { size: 25 });
@@ -216,7 +244,8 @@ async function main() {
   {
     const current = slide("Выборка и способ измерения", JSON.stringify(analysis.diagnostics?.dimension_selection || {}, null, 2));
     const coverage = analysis.diagnostics?.retained_coverage;
-    lines(current, [short(study.selection_method || "Целевая выборка по утверждённым пользователем критериям", 230),
+    const selectionMethod = typeof study.selection_method === "string" ? study.selection_method : study.selection_method?.description;
+    lines(current, [short(selectionMethod || "Целевая выборка по утверждённым пользователем критериям", 230),
       study.legacy_import ? "Прежние оценки 0–10 преобразованы как x − 5. Два полюса отдельно не измерялись. Пропуски сохранены." :
         "Каждый полюс: от 0 до 5. Разность: от −5 до +5. Неизвестное остаётся пропуском.",
       "Gaussian FA и согласованное вращение varimax. Группы определяются по всем выбранным факторам.",
@@ -240,7 +269,7 @@ async function main() {
     text(current, "Доли FA описывают модель оценок. Их нельзя трактовать как доли населения.", 72, 625, 1136, 40, { size: 20, color: MUTED });
   }
   for (const factor of analysis.factors) {
-    const current = slide(`${factor.id} ${short(factor.label || factor.name, 108)}`, JSON.stringify(factor, null, 2));
+    const current = slide(`${factor.id} ${short(factor.label || factor.name, 150)}`, JSON.stringify(factor, null, 2));
     text(current, `Доля наблюдаемой дисперсии: ${pct(factor.variance_share)}`, 72, 144, 1136, 37,
       { size: 25, bold: true, color: TEAL });
     text(current, summary(factor.interpretation, 280), 72, 196, 1136, 115, { size: 23 });
@@ -289,7 +318,7 @@ async function main() {
     analysis.cluster_selection_reason || analysis.diagnostics?.cluster_selection?.reason ||
     "Число групп зафиксировано в настройках этого расчёта. Это рабочая типология, которую следует сопоставить с содержанием альтернативных решений. Численные критерии приведены на предыдущем слайде.");
   for (const cluster of analysis.clusters) {
-    const current = slide(`${cluster.id} ${short(cluster.name || cluster.label || "Группа", 108)}`,
+    const current = slide(`${cluster.id} ${short(cluster.label || cluster.name || "Группа", 150)}`,
       JSON.stringify(cluster, null, 2));
     text(current, `${cluster.count} объектов (${pct(cluster.count / analysis.n_objects)} выборки)`,
       72, 145, 1136, 40, { size: 26, bold: true, color: TEAL });
@@ -329,12 +358,11 @@ async function main() {
       72, 632, 1136, 38, { size: 21, color: MUTED });
   }
   {
-    const current = slide("Интерпретация изученного пространства");
     const boundary = (analysis.object_profiles || []).filter(item => item.mixed_or_boundary).length;
-    lines(current, [short(analysis.space_interpretation || "Факторы описывают совместное изменение семантических шкал. Группы объединяют объекты с похожими сочетаниями этих свойств.", 420),
+    narrativeSlides("Интерпретация изученного пространства", [analysis.space_interpretation ||
+      "Факторы описывают совместное изменение семантических шкал. Группы объединяют объекты с похожими сочетаниями этих свойств.",
       `Пограничных профилей: ${boundary} из ${analysis.n_objects}. Их свойства могут сочетать признаки нескольких групп.`,
-      "Незаполненный сектор означает отсутствие такого профиля в выбранной выборке и корпусе. Международное сравнение требует единого словаря и сопоставимого отбора."],
-      72, 159, 1120, 28, 32);
+      "Незаполненный сектор означает отсутствие такого профиля в выбранной выборке и корпусе. Международное сравнение требует единого словаря и сопоставимого отбора."].join("\n\n"));
   }
   {
     const current = slide("Ограничения и следующая проверка", (analysis.warnings || []).join("\n"));

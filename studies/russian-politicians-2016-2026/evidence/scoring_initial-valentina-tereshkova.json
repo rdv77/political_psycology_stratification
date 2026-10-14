@@ -1,0 +1,652 @@
+{
+  "object_id": "valentina-tereshkova",
+  "scales_basis": "2bee01a202c39ee721dfa985f553d5ce4502c74051ebe616ba3acc72ad80c440",
+  "dossier_basis": "86fb4cbc1055a54a80ebd0e44d05d1e3a3c5d8d050c2cfb3bf1e4c705b34ab93",
+  "evidence_file": "evidence/valentina-tereshkova.json",
+  "period": [
+    "2016-10-15",
+    "2026-10-15"
+  ],
+  "ratings": [
+    {
+      "object_id": "valentina-tereshkova",
+      "scale_id": "security-sovereignty",
+      "positive": 3,
+      "negative": 1,
+      "difference": 2,
+      "mass": 4,
+      "status": "observed",
+      "confidence": 0.9,
+      "reason": "Терешкова выступала соавтором законов о мерах воздействия на недружественные действия иностранных государств и регулировании НКО, что указывает на устойчивый акцент на суверенитете и противодействии внешнему влиянию. Эпизоды с внешнеполитическими контрмерами и антинко инициативами подтверждают выраженность этого полюса. Слабое проявление интеграционного полюса не зафиксировано.",
+      "sources": [
+        "https://www.rbc.ru/person/67d838f09a7947cdef0b1a95"
+      ],
+      "evidence_indices": [
+        0,
+        1
+      ],
+      "model": "gpt-4.1",
+      "at": "2026-10-14T21:44:10.259305+00:00",
+      "evidence_file": "evidence/valentina-tereshkova.json",
+      "evidence_basis": "86fb4cbc1055a54a80ebd0e44d05d1e3a3c5d8d050c2cfb3bf1e4c705b34ab93",
+      "rating_pass": "initial",
+      "measurement_note": "LLM-оценка по извлечённому досье; ссылки не означают независимую экспертную верификацию"
+    },
+    {
+      "object_id": "valentina-tereshkova",
+      "scale_id": "historical-memory",
+      "positive": 3,
+      "negative": 1,
+      "difference": 2,
+      "mass": 4,
+      "status": "observed",
+      "confidence": 0.7,
+      "reason": "В эпизоде с поправкой об \"обнулении\" президентских сроков Терешкова аргументировала необходимость институциональной преемственности, что связано с апелляцией к исторической и государственной стабильности. Прямых заявлений о разрыве с прошлым не обнаружено.",
+      "sources": [
+        "https://meduza.io/feature/2020/03/10/gosduma-neozhidanno-dlya-sebya-obespechila-putina-novymi-prezidentskimi-srokami"
+      ],
+      "evidence_indices": [
+        4
+      ],
+      "model": "gpt-4.1",
+      "at": "2026-10-14T21:44:10.259305+00:00",
+      "evidence_file": "evidence/valentina-tereshkova.json",
+      "evidence_basis": "86fb4cbc1055a54a80ebd0e44d05d1e3a3c5d8d050c2cfb3bf1e4c705b34ab93",
+      "rating_pass": "initial",
+      "measurement_note": "LLM-оценка по извлечённому досье; ссылки не означают независимую экспертную верификацию"
+    },
+    {
+      "object_id": "valentina-tereshkova",
+      "scale_id": "technocratic-management",
+      "positive": 1,
+      "negative": 2,
+      "difference": -1,
+      "mass": 3,
+      "status": "observed",
+      "confidence": 0.6,
+      "reason": "В публичном образе Терешковой преобладают идеологические и символические инициативы (например, законы о запрете смены пола, регулировании пропаганды), а не акцент на управленческой эффективности. Однако есть единичные проявления прагматизма в виде соавторства закона об индексации пенсий.",
+      "sources": [
+        "https://www.rbc.ru/person/67d838f09a7947cdef0b1a95"
+      ],
+      "evidence_indices": [
+        6,
+        7,
+        8
+      ],
+      "model": "gpt-4.1",
+      "at": "2026-10-14T21:44:10.259305+00:00",
+      "evidence_file": "evidence/valentina-tereshkova.json",
+      "evidence_basis": "86fb4cbc1055a54a80ebd0e44d05d1e3a3c5d8d050c2cfb3bf1e4c705b34ab93",
+      "rating_pass": "initial",
+      "measurement_note": "LLM-оценка по извлечённому досье; ссылки не означают независимую экспертную верификацию"
+    },
+    {
+      "object_id": "valentina-tereshkova",
+      "scale_id": "parliamentary-institutional",
+      "positive": 5,
+      "negative": 0,
+      "difference": 5,
+      "mass": 5,
+      "status": "observed",
+      "confidence": 1,
+      "reason": "Терешкова на протяжении всего периода действует исключительно в рамках парламентских процедур, является соавтором многочисленных законопроектов, ее стратегия полностью институциональна.",
+      "sources": [
+        "https://www.rbc.ru/person/67d838f09a7947cdef0b1a95",
+        "https://www.vedomosti.ru/politics/articles/2020/03/10/824795-tereshkova-predlozhila"
+      ],
+      "evidence_indices": [
+        0,
+        2,
+        5,
+        9
+      ],
+      "model": "gpt-4.1",
+      "at": "2026-10-14T21:44:10.259305+00:00",
+      "evidence_file": "evidence/valentina-tereshkova.json",
+      "evidence_basis": "86fb4cbc1055a54a80ebd0e44d05d1e3a3c5d8d050c2cfb3bf1e4c705b34ab93",
+      "rating_pass": "initial",
+      "measurement_note": "LLM-оценка по извлечённому досье; ссылки не означают независимую экспертную верификацию"
+    },
+    {
+      "object_id": "valentina-tereshkova",
+      "scale_id": "oppositionality",
+      "positive": 0,
+      "negative": 5,
+      "difference": -5,
+      "mass": 5,
+      "status": "observed",
+      "confidence": 1,
+      "reason": "Терешкова публично поддерживала курс действующей федеральной власти, в частности, инициировала поправку, обеспечивающую преемственность власти. Критики федерального курса не зафиксировано.",
+      "sources": [
+        "https://www.vedomosti.ru/politics/articles/2020/03/10/824795-tereshkova-predlozhila",
+        "https://meduza.io/feature/2020/03/10/gosduma-neozhidanno-dlya-sebya-obespechila-putina-novymi-prezidentskimi-srokami",
+        "https://www.rbc.ru/person/67d838f09a7947cdef0b1a95"
+      ],
+      "evidence_indices": [
+        2,
+        4,
+        5
+      ],
+      "model": "gpt-4.1",
+      "at": "2026-10-14T21:44:10.259305+00:00",
+      "evidence_file": "evidence/valentina-tereshkova.json",
+      "evidence_basis": "86fb4cbc1055a54a80ebd0e44d05d1e3a3c5d8d050c2cfb3bf1e4c705b34ab93",
+      "rating_pass": "initial",
+      "measurement_note": "LLM-оценка по извлечённому досье; ссылки не означают независимую экспертную верификацию"
+    },
+    {
+      "object_id": "valentina-tereshkova",
+      "scale_id": "social-policy",
+      "positive": 2,
+      "negative": 0,
+      "difference": 2,
+      "mass": 2,
+      "status": "observed",
+      "confidence": 0.6,
+      "reason": "Есть проявления поддержки государственной социальной политики (закон об индексации пенсий), но этот акцент не является определяющим в публичном образе Терешковой.",
+      "sources": [
+        "https://www.rbc.ru/person/67d838f09a7947cdef0b1a95"
+      ],
+      "evidence_indices": [
+        8
+      ],
+      "model": "gpt-4.1",
+      "at": "2026-10-14T21:44:10.259305+00:00",
+      "evidence_file": "evidence/valentina-tereshkova.json",
+      "evidence_basis": "86fb4cbc1055a54a80ebd0e44d05d1e3a3c5d8d050c2cfb3bf1e4c705b34ab93",
+      "rating_pass": "initial",
+      "measurement_note": "LLM-оценка по извлечённому досье; ссылки не означают независимую экспертную верификацию"
+    },
+    {
+      "object_id": "valentina-tereshkova",
+      "scale_id": "federal-loyalty",
+      "positive": 3,
+      "negative": 0,
+      "difference": 3,
+      "mass": 3,
+      "status": "observed",
+      "confidence": 0.8,
+      "reason": "Терешкова ассоциируется с федеральной парламентской работой и поддержкой централизации, однако прямых заявлений о перераспределении полномочий не обнаружено.",
+      "sources": [
+        "https://www.rbc.ru/person/67d838f09a7947cdef0b1a95"
+      ],
+      "evidence_indices": [
+        5
+      ],
+      "model": "gpt-4.1",
+      "at": "2026-10-14T21:44:10.259305+00:00",
+      "evidence_file": "evidence/valentina-tereshkova.json",
+      "evidence_basis": "86fb4cbc1055a54a80ebd0e44d05d1e3a3c5d8d050c2cfb3bf1e4c705b34ab93",
+      "rating_pass": "initial",
+      "measurement_note": "LLM-оценка по извлечённому досье; ссылки не означают независимую экспертную верификацию"
+    },
+    {
+      "object_id": "valentina-tereshkova",
+      "scale_id": "mobilization-rhetoric",
+      "positive": 2,
+      "negative": 0,
+      "difference": 2,
+      "mass": 2,
+      "status": "observed",
+      "confidence": 0.7,
+      "reason": "В эпизоде с поправкой об обнулении сроков использовала мобилизационную риторику, противопоставляя сторонников и противников реформы, но этот стиль не является доминирующим во всех публичных проявлениях.",
+      "sources": [
+        "https://meduza.io/news/2020/03/12/delayut-vse-dlya-togo-chtoby-gadosti-delat-tereshkova-o-protivnikah-popravki-obnulyayuschey-sroki-putina"
+      ],
+      "evidence_indices": [
+        3
+      ],
+      "model": "gpt-4.1",
+      "at": "2026-10-14T21:44:10.259305+00:00",
+      "evidence_file": "evidence/valentina-tereshkova.json",
+      "evidence_basis": "86fb4cbc1055a54a80ebd0e44d05d1e3a3c5d8d050c2cfb3bf1e4c705b34ab93",
+      "rating_pass": "initial",
+      "measurement_note": "LLM-оценка по извлечённому досье; ссылки не означают независимую экспертную верификацию"
+    },
+    {
+      "object_id": "valentina-tereshkova",
+      "scale_id": "conflictuality",
+      "positive": 2,
+      "negative": 0,
+      "difference": 2,
+      "mass": 2,
+      "status": "observed",
+      "confidence": 0.7,
+      "reason": "В ряде случаев Терешкова использовала резкую риторику в адрес оппонентов (например, по поводу поправки к Конституции), однако это не является устойчивой чертой образа.",
+      "sources": [
+        "https://meduza.io/news/2020/03/12/delayut-vse-dlya-togo-chtoby-gadosti-delat-tereshkova-o-protivnikah-popravki-obnulyayuschey-sroki-putina"
+      ],
+      "evidence_indices": [
+        3
+      ],
+      "model": "gpt-4.1",
+      "at": "2026-10-14T21:44:10.259305+00:00",
+      "evidence_file": "evidence/valentina-tereshkova.json",
+      "evidence_basis": "86fb4cbc1055a54a80ebd0e44d05d1e3a3c5d8d050c2cfb3bf1e4c705b34ab93",
+      "rating_pass": "initial",
+      "measurement_note": "LLM-оценка по извлечённому досье; ссылки не означают независимую экспертную верификацию"
+    },
+    {
+      "object_id": "valentina-tereshkova",
+      "scale_id": "media-personalization",
+      "positive": 0,
+      "negative": 3,
+      "difference": -3,
+      "mass": 3,
+      "status": "observed",
+      "confidence": 0.9,
+      "reason": "Публичная деятельность Терешковой строится преимущественно через коллективную законотворческую работу и институциональное представительство, а не через личный бренд.",
+      "sources": [
+        "https://www.rbc.ru/person/67d838f09a7947cdef0b1a95"
+      ],
+      "evidence_indices": [
+        9
+      ],
+      "model": "gpt-4.1",
+      "at": "2026-10-14T21:44:10.259305+00:00",
+      "evidence_file": "evidence/valentina-tereshkova.json",
+      "evidence_basis": "86fb4cbc1055a54a80ebd0e44d05d1e3a3c5d8d050c2cfb3bf1e4c705b34ab93",
+      "rating_pass": "initial",
+      "measurement_note": "LLM-оценка по извлечённому досье; ссылки не означают независимую экспертную верификацию"
+    },
+    {
+      "object_id": "valentina-tereshkova",
+      "scale_id": "antiwesternism",
+      "positive": 2,
+      "negative": 0,
+      "difference": 2,
+      "mass": 2,
+      "status": "observed",
+      "confidence": 0.7,
+      "reason": "Терешкова была соавтором закона о мерах воздействия на недружественные действия США и других иностранных государств, что указывает на выраженность антизападного полюса, но не как определяющую черту.",
+      "sources": [
+        "https://www.rbc.ru/person/67d838f09a7947cdef0b1a95"
+      ],
+      "evidence_indices": [
+        1
+      ],
+      "model": "gpt-4.1",
+      "at": "2026-10-14T21:44:10.259305+00:00",
+      "evidence_file": "evidence/valentina-tereshkova.json",
+      "evidence_basis": "86fb4cbc1055a54a80ebd0e44d05d1e3a3c5d8d050c2cfb3bf1e4c705b34ab93",
+      "rating_pass": "initial",
+      "measurement_note": "LLM-оценка по извлечённому досье; ссылки не означают независимую экспертную верификацию"
+    },
+    {
+      "object_id": "valentina-tereshkova",
+      "scale_id": "party-leadership",
+      "positive": 1,
+      "negative": 0,
+      "difference": 1,
+      "mass": 1,
+      "status": "observed",
+      "confidence": 0.6,
+      "reason": "Терешкова связана с федеральной партийной работой, однако прямого акцента на партийную мобилизацию или независимые инициативы не выявлено.",
+      "sources": [
+        "https://www.rbc.ru/person/67d838f09a7947cdef0b1a95"
+      ],
+      "evidence_indices": [
+        5
+      ],
+      "model": "gpt-4.1",
+      "at": "2026-10-14T21:44:10.259305+00:00",
+      "evidence_file": "evidence/valentina-tereshkova.json",
+      "evidence_basis": "86fb4cbc1055a54a80ebd0e44d05d1e3a3c5d8d050c2cfb3bf1e4c705b34ab93",
+      "rating_pass": "initial",
+      "measurement_note": "LLM-оценка по извлечённому досье; ссылки не означают независимую экспертную верификацию"
+    },
+    {
+      "object_id": "valentina-tereshkova",
+      "scale_id": "public-transparency",
+      "positive": 0,
+      "negative": 1,
+      "difference": -1,
+      "mass": 1,
+      "status": "observed",
+      "confidence": 0.7,
+      "reason": "Терешкова регулярно выступает соавтором законопроектов, связанных с регулированием НКО, информационной и публичной сферы, однако нет признаков устойчивого акцента на прозрачности или общественном контроле. В риторике по ключевым вопросам (например, поправки к Конституции) преобладает закрытость аргументации и ограничение внешнего контроля.",
+      "sources": [
+        "https://www.rbc.ru/person/67d838f09a7947cdef0b1a95",
+        "https://meduza.io/news/2020/03/12/delayut-vse-dlya-togo-chtoby-gadosti-delat-tereshkova-o-protivnikah-popravki-obnulyayuschey-sroki-putina"
+      ],
+      "evidence_indices": [
+        0,
+        3,
+        6,
+        7,
+        9
+      ],
+      "model": "gpt-4.1",
+      "at": "2026-10-14T21:44:18.247890+00:00",
+      "evidence_file": "evidence/valentina-tereshkova.json",
+      "evidence_basis": "86fb4cbc1055a54a80ebd0e44d05d1e3a3c5d8d050c2cfb3bf1e4c705b34ab93",
+      "rating_pass": "initial",
+      "measurement_note": "LLM-оценка по извлечённому досье; ссылки не означают независимую экспертную верификацию"
+    },
+    {
+      "object_id": "valentina-tereshkova",
+      "scale_id": "family-values",
+      "positive": 3,
+      "negative": 0,
+      "difference": 3,
+      "mass": 3,
+      "status": "observed",
+      "confidence": 0.9,
+      "reason": "Терешкова была соавтором законов о запрете пропаганды нетрадиционных сексуальных отношений и запрете смены пола, что свидетельствует об устойчивом акценте на традиционных семейных и моральных нормах.",
+      "sources": [
+        "https://www.rbc.ru/person/67d838f09a7947cdef0b1a95"
+      ],
+      "evidence_indices": [
+        6,
+        7
+      ],
+      "model": "gpt-4.1",
+      "at": "2026-10-14T21:44:18.247890+00:00",
+      "evidence_file": "evidence/valentina-tereshkova.json",
+      "evidence_basis": "86fb4cbc1055a54a80ebd0e44d05d1e3a3c5d8d050c2cfb3bf1e4c705b34ab93",
+      "rating_pass": "initial",
+      "measurement_note": "LLM-оценка по извлечённому досье; ссылки не означают независимую экспертную верификацию"
+    },
+    {
+      "object_id": "valentina-tereshkova",
+      "scale_id": "international-activity",
+      "positive": 1,
+      "negative": 1,
+      "difference": 0,
+      "mass": 2,
+      "status": "observed",
+      "confidence": 0.6,
+      "reason": "В деятельности Терешковой отмечены инициативы, связанные с внешнеполитическими контрмерами и государственным суверенитетом, но основной акцент публичного образа остается на внутренней законотворческой работе.",
+      "sources": [
+        "https://www.rbc.ru/person/67d838f09a7947cdef0b1a95"
+      ],
+      "evidence_indices": [
+        0,
+        1
+      ],
+      "model": "gpt-4.1",
+      "at": "2026-10-14T21:44:18.247890+00:00",
+      "evidence_file": "evidence/valentina-tereshkova.json",
+      "evidence_basis": "86fb4cbc1055a54a80ebd0e44d05d1e3a3c5d8d050c2cfb3bf1e4c705b34ab93",
+      "rating_pass": "initial",
+      "measurement_note": "LLM-оценка по извлечённому досье; ссылки не означают независимую экспертную верификацию"
+    },
+    {
+      "object_id": "valentina-tereshkova",
+      "scale_id": "antiwar-rhetoric",
+      "positive": null,
+      "negative": null,
+      "difference": null,
+      "mass": null,
+      "status": "unknown",
+      "confidence": 0.3,
+      "reason": "Нет прямых публичных позиций Терешковой относительно прекращения или продолжения военных действий в рассматриваемый период.",
+      "sources": [],
+      "evidence_indices": [],
+      "model": "gpt-4.1",
+      "at": "2026-10-14T21:44:18.247890+00:00",
+      "evidence_file": "evidence/valentina-tereshkova.json",
+      "evidence_basis": "86fb4cbc1055a54a80ebd0e44d05d1e3a3c5d8d050c2cfb3bf1e4c705b34ab93",
+      "rating_pass": "initial",
+      "measurement_note": "LLM-оценка по извлечённому досье; ссылки не означают независимую экспертную верификацию"
+    },
+    {
+      "object_id": "valentina-tereshkova",
+      "scale_id": "electoral-legitimacy",
+      "positive": 0,
+      "negative": 3,
+      "difference": -3,
+      "mass": 3,
+      "status": "observed",
+      "confidence": 0.8,
+      "reason": "Терешкова инициировала поправку, обеспечивающую институциональную преемственность действующего руководства, аргументируя полномочия через государственную иерархию, а не через конкурентные выборы.",
+      "sources": [
+        "https://www.vedomosti.ru/politics/articles/2020/03/10/824795-tereshkova-predlozhila",
+        "https://meduza.io/feature/2020/03/10/gosduma-neozhidanno-dlya-sebya-obespechila-putina-novymi-prezidentskimi-srokami"
+      ],
+      "evidence_indices": [
+        2,
+        4
+      ],
+      "model": "gpt-4.1",
+      "at": "2026-10-14T21:44:18.247890+00:00",
+      "evidence_file": "evidence/valentina-tereshkova.json",
+      "evidence_basis": "86fb4cbc1055a54a80ebd0e44d05d1e3a3c5d8d050c2cfb3bf1e4c705b34ab93",
+      "rating_pass": "initial",
+      "measurement_note": "LLM-оценка по извлечённому досье; ссылки не означают независимую экспертную верификацию"
+    },
+    {
+      "object_id": "valentina-tereshkova",
+      "scale_id": "economic-ownership",
+      "positive": 0,
+      "negative": 0,
+      "difference": 0,
+      "mass": 0,
+      "status": "observed",
+      "confidence": 0.5,
+      "reason": "В предоставленных материалах нет выраженных позиций Терешковой по вопросам роли государства или частного капитала в экономике.",
+      "sources": [
+        "https://www.rbc.ru/person/67d838f09a7947cdef0b1a95"
+      ],
+      "evidence_indices": [
+        8
+      ],
+      "model": "gpt-4.1",
+      "at": "2026-10-14T21:44:18.247890+00:00",
+      "evidence_file": "evidence/valentina-tereshkova.json",
+      "evidence_basis": "86fb4cbc1055a54a80ebd0e44d05d1e3a3c5d8d050c2cfb3bf1e4c705b34ab93",
+      "rating_pass": "initial",
+      "measurement_note": "LLM-оценка по извлечённому досье; ссылки не означают независимую экспертную верификацию"
+    },
+    {
+      "object_id": "valentina-tereshkova",
+      "scale_id": "economic-modernization",
+      "positive": null,
+      "negative": null,
+      "difference": null,
+      "mass": null,
+      "status": "unknown",
+      "confidence": 0.5,
+      "reason": "Нет сведений о публичных акцентах Терешковой на технологическом обновлении или сохранении традиционных моделей хозяйствования.",
+      "sources": [],
+      "evidence_indices": [],
+      "model": "gpt-4.1",
+      "at": "2026-10-14T21:44:18.247890+00:00",
+      "evidence_file": "evidence/valentina-tereshkova.json",
+      "evidence_basis": "86fb4cbc1055a54a80ebd0e44d05d1e3a3c5d8d050c2cfb3bf1e4c705b34ab93",
+      "rating_pass": "initial",
+      "measurement_note": "LLM-оценка по извлечённому досье; ссылки не означают независимую экспертную верификацию"
+    },
+    {
+      "object_id": "valentina-tereshkova",
+      "scale_id": "media-control",
+      "positive": 1,
+      "negative": 0,
+      "difference": 1,
+      "mass": 1,
+      "status": "observed",
+      "confidence": 0.7,
+      "reason": "Терешкова была соавтором законов, усиливающих государственное регулирование информационной сферы, однако это не является определяющим акцентом её публичного образа.",
+      "sources": [
+        "https://www.rbc.ru/person/67d838f09a7947cdef0b1a95"
+      ],
+      "evidence_indices": [
+        6,
+        7
+      ],
+      "model": "gpt-4.1",
+      "at": "2026-10-14T21:44:18.247890+00:00",
+      "evidence_file": "evidence/valentina-tereshkova.json",
+      "evidence_basis": "86fb4cbc1055a54a80ebd0e44d05d1e3a3c5d8d050c2cfb3bf1e4c705b34ab93",
+      "rating_pass": "initial",
+      "measurement_note": "LLM-оценка по извлечённому досье; ссылки не означают независимую экспертную верификацию"
+    },
+    {
+      "object_id": "valentina-tereshkova",
+      "scale_id": "territorial-policy",
+      "positive": null,
+      "negative": null,
+      "difference": null,
+      "mass": null,
+      "status": "unknown",
+      "confidence": 0.3,
+      "reason": "Нет прямых заявлений Терешковой о территориальной политике или пересмотре границ.",
+      "sources": [],
+      "evidence_indices": [],
+      "model": "gpt-4.1",
+      "at": "2026-10-14T21:44:18.247890+00:00",
+      "evidence_file": "evidence/valentina-tereshkova.json",
+      "evidence_basis": "86fb4cbc1055a54a80ebd0e44d05d1e3a3c5d8d050c2cfb3bf1e4c705b34ab93",
+      "rating_pass": "initial",
+      "measurement_note": "LLM-оценка по извлечённому досье; ссылки не означают независимую экспертную верификацию"
+    },
+    {
+      "object_id": "valentina-tereshkova",
+      "scale_id": "rhetorical-simplicity",
+      "positive": 3,
+      "negative": 0,
+      "difference": 3,
+      "mass": 3,
+      "status": "observed",
+      "confidence": 0.8,
+      "reason": "В публичной коммуникации по ключевым вопросам (например, поправки к Конституции) Терешкова использовала резкую, упрощённую риторику без развёрнутого обсуждения альтернатив.",
+      "sources": [
+        "https://meduza.io/news/2020/03/12/delayut-vse-dlya-togo-chtoby-gadosti-delat-tereshkova-o-protivnikah-popravki-obnulyayuschey-sroki-putina",
+        "https://meduza.io/feature/2020/03/10/gosduma-neozhidanno-dlya-sebya-obespechila-putina-novymi-prezidentskimi-srokami"
+      ],
+      "evidence_indices": [
+        3,
+        4
+      ],
+      "model": "gpt-4.1",
+      "at": "2026-10-14T21:44:18.247890+00:00",
+      "evidence_file": "evidence/valentina-tereshkova.json",
+      "evidence_basis": "86fb4cbc1055a54a80ebd0e44d05d1e3a3c5d8d050c2cfb3bf1e4c705b34ab93",
+      "rating_pass": "initial",
+      "measurement_note": "LLM-оценка по извлечённому досье; ссылки не означают независимую экспертную верификацию"
+    },
+    {
+      "object_id": "valentina-tereshkova",
+      "scale_id": "anti-bureaucracy",
+      "positive": 0,
+      "negative": 1,
+      "difference": -1,
+      "mass": 1,
+      "status": "observed",
+      "confidence": 0.6,
+      "reason": "Деятельность Терешковой связана с расширением регулирования в различных сферах, но нет признаков определяющего акцента на бюрократизации.",
+      "sources": [
+        "https://www.rbc.ru/person/67d838f09a7947cdef0b1a95"
+      ],
+      "evidence_indices": [
+        0,
+        6,
+        7
+      ],
+      "model": "gpt-4.1",
+      "at": "2026-10-14T21:44:18.247890+00:00",
+      "evidence_file": "evidence/valentina-tereshkova.json",
+      "evidence_basis": "86fb4cbc1055a54a80ebd0e44d05d1e3a3c5d8d050c2cfb3bf1e4c705b34ab93",
+      "rating_pass": "initial",
+      "measurement_note": "LLM-оценка по извлечённому досье; ссылки не означают независимую экспертную верификацию"
+    },
+    {
+      "object_id": "valentina-tereshkova",
+      "scale_id": "national-patriotism",
+      "positive": 1,
+      "negative": 0,
+      "difference": 1,
+      "mass": 1,
+      "status": "observed",
+      "confidence": 0.6,
+      "reason": "В риторике и законодательных инициативах Терешковой присутствует акцент на защите национальных интересов и идентичности, но это не определяющая черта её публичного образа.",
+      "sources": [
+        "https://www.rbc.ru/person/67d838f09a7947cdef0b1a95",
+        "https://meduza.io/news/2020/03/12/delayut-vse-dlya-togo-chtoby-gadosti-delat-tereshkova-o-protivnikah-popravki-obnulyayuschey-sroki-putina"
+      ],
+      "evidence_indices": [
+        1,
+        3,
+        6,
+        7
+      ],
+      "model": "gpt-4.1",
+      "at": "2026-10-14T21:44:18.247890+00:00",
+      "evidence_file": "evidence/valentina-tereshkova.json",
+      "evidence_basis": "86fb4cbc1055a54a80ebd0e44d05d1e3a3c5d8d050c2cfb3bf1e4c705b34ab93",
+      "rating_pass": "initial",
+      "measurement_note": "LLM-оценка по извлечённому досье; ссылки не означают независимую экспертную верификацию"
+    },
+    {
+      "object_id": "valentina-tereshkova",
+      "scale_id": "coalitionality",
+      "positive": 3,
+      "negative": 1,
+      "difference": 2,
+      "mass": 4,
+      "status": "observed",
+      "confidence": 0.9,
+      "reason": "Терешкова регулярно выступает соавтором законодательных инициатив, что указывает на устойчивое участие в коллективной парламентской работе (факты 0, 1, 5, 6, 7, 8, 9). Однако нет признаков, что она инициирует межпартийные коалиции или объединяет разные политические силы, а также присутствует некоторая самостоятельная риторика в ключевых инициативах (факт 2, 3, 4).",
+      "sources": [
+        "https://www.rbc.ru/person/67d838f09a7947cdef0b1a95",
+        "https://www.vedomosti.ru/politics/articles/2020/03/10/824795-tereshkova-predlozhila",
+        "https://meduza.io/news/2020/03/12/delayut-vse-dlya-togo-chtoby-gadosti-delat-tereshkova-o-protivnikah-popravki-obnulyayuschey-sroki-putina",
+        "https://meduza.io/feature/2020/03/10/gosduma-neozhidanno-dlya-sebya-obespechila-putina-novymi-prezidentskimi-srokami"
+      ],
+      "evidence_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ],
+      "model": "gpt-4.1",
+      "at": "2026-10-14T21:44:21.292755+00:00",
+      "evidence_file": "evidence/valentina-tereshkova.json",
+      "evidence_basis": "86fb4cbc1055a54a80ebd0e44d05d1e3a3c5d8d050c2cfb3bf1e4c705b34ab93",
+      "rating_pass": "initial",
+      "measurement_note": "LLM-оценка по извлечённому досье; ссылки не означают независимую экспертную верификацию"
+    },
+    {
+      "object_id": "valentina-tereshkova",
+      "scale_id": "civil-liberties",
+      "positive": 0,
+      "negative": 3,
+      "difference": -3,
+      "mass": 3,
+      "status": "observed",
+      "confidence": 0.85,
+      "reason": "Терешкова была соавтором законов, усиливающих государственное регулирование, ограничивающих права определённых групп (факты 1, 6, 7), а также публично поддерживала инициативы, расширяющие полномочия действующей власти (факты 2, 3, 4). Нет сведений о защите гражданских свобод или антирепрессивной риторике.",
+      "sources": [
+        "https://www.rbc.ru/person/67d838f09a7947cdef0b1a95",
+        "https://www.vedomosti.ru/politics/articles/2020/03/10/824795-tereshkova-predlozhila",
+        "https://meduza.io/news/2020/03/12/delayut-vse-dlya-togo-chtoby-gadosti-delat-tereshkova-o-protivnikah-popravki-obnulyayuschey-sroki-putina",
+        "https://meduza.io/feature/2020/03/10/gosduma-neozhidanno-dlya-sebya-obespechila-putina-novymi-prezidentskimi-srokami"
+      ],
+      "evidence_indices": [
+        1,
+        2,
+        3,
+        4,
+        6,
+        7
+      ],
+      "model": "gpt-4.1",
+      "at": "2026-10-14T21:44:21.292755+00:00",
+      "evidence_file": "evidence/valentina-tereshkova.json",
+      "evidence_basis": "86fb4cbc1055a54a80ebd0e44d05d1e3a3c5d8d050c2cfb3bf1e4c705b34ab93",
+      "rating_pass": "initial",
+      "measurement_note": "LLM-оценка по извлечённому досье; ссылки не означают независимую экспертную верификацию"
+    }
+  ],
+  "unknown_scale_ids": [
+    "antiwar-rhetoric",
+    "economic-modernization",
+    "territorial-policy"
+  ]
+}

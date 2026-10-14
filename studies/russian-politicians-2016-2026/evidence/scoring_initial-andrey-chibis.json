@@ -1,0 +1,666 @@
+{
+  "object_id": "andrey-chibis",
+  "scales_basis": "2bee01a202c39ee721dfa985f553d5ce4502c74051ebe616ba3acc72ad80c440",
+  "dossier_basis": "8da747317dc44a7b97d4e1dfd093888b7c9b29b02810c49ce1f4a5f39dbd5024",
+  "evidence_file": "evidence/andrey-chibis.json",
+  "period": [
+    "2016-10-15",
+    "2026-10-15"
+  ],
+  "ratings": [
+    {
+      "object_id": "andrey-chibis",
+      "scale_id": "security-sovereignty",
+      "positive": null,
+      "negative": null,
+      "difference": null,
+      "mass": null,
+      "status": "unknown",
+      "confidence": 0,
+      "reason": "В предоставленных фактах отсутствуют прямые публичные аргументы Чибиса о суверенитете или международной интеграции.",
+      "sources": [],
+      "evidence_indices": [],
+      "model": "gpt-4.1",
+      "at": "2026-10-14T21:45:12.339763+00:00",
+      "evidence_file": "evidence/andrey-chibis.json",
+      "evidence_basis": "8da747317dc44a7b97d4e1dfd093888b7c9b29b02810c49ce1f4a5f39dbd5024",
+      "rating_pass": "initial",
+      "measurement_note": "LLM-оценка по извлечённому досье; ссылки не означают независимую экспертную верификацию"
+    },
+    {
+      "object_id": "andrey-chibis",
+      "scale_id": "historical-memory",
+      "positive": null,
+      "negative": null,
+      "difference": null,
+      "mass": null,
+      "status": "unknown",
+      "confidence": 0,
+      "reason": "Нет сведений о публичных апелляциях Чибиса к исторической памяти или ориентации на разрыв с прошлым.",
+      "sources": [],
+      "evidence_indices": [],
+      "model": "gpt-4.1",
+      "at": "2026-10-14T21:45:12.339763+00:00",
+      "evidence_file": "evidence/andrey-chibis.json",
+      "evidence_basis": "8da747317dc44a7b97d4e1dfd093888b7c9b29b02810c49ce1f4a5f39dbd5024",
+      "rating_pass": "initial",
+      "measurement_note": "LLM-оценка по извлечённому досье; ссылки не означают независимую экспертную верификацию"
+    },
+    {
+      "object_id": "andrey-chibis",
+      "scale_id": "technocratic-management",
+      "positive": 3,
+      "negative": 0,
+      "difference": 3,
+      "mass": 3,
+      "status": "observed",
+      "confidence": 0.9,
+      "reason": "Публичный образ Чибиса устойчиво строится на акценте управленческой эффективности, измеримых результатах, инфраструктурных и социальных изменениях, что подтверждается многими источниками.",
+      "sources": [
+        "https://ru.wikipedia.org/wiki/%D0%A7%D0%B8%D0%B1%D0%B8%D1%81,_%D0%90%D0%BD%D0%B4%D1%80%D0%B5%D0%B9_%D0%92%D0%BB%D0%B0%D0%B4%D0%B8%D0%BC%D0%B8%D1%80%D0%BE%D0%B2%D0%B8%D1%87",
+        "https://minstroyrf.gov.ru/press/okolo-40-kontsessionnykh-soglasheniy-v-rossii-deystvuet-v-sfere-zhkkh/",
+        "https://murmansk.ru/52053",
+        "https://51.ru/text/gorod/2026/01/22/76228112/",
+        "https://newsroom24.ru/murmansk/news/politics/2026/news_323931/"
+      ],
+      "evidence_indices": [
+        0,
+        1,
+        2,
+        5,
+        6,
+        7,
+        8
+      ],
+      "model": "gpt-4.1",
+      "at": "2026-10-14T21:45:12.339763+00:00",
+      "evidence_file": "evidence/andrey-chibis.json",
+      "evidence_basis": "8da747317dc44a7b97d4e1dfd093888b7c9b29b02810c49ce1f4a5f39dbd5024",
+      "rating_pass": "initial",
+      "measurement_note": "LLM-оценка по извлечённому досье; ссылки не означают независимую экспертную верификацию"
+    },
+    {
+      "object_id": "andrey-chibis",
+      "scale_id": "parliamentary-institutional",
+      "positive": 1,
+      "negative": 0,
+      "difference": 1,
+      "mass": 1,
+      "status": "observed",
+      "confidence": 0.5,
+      "reason": "Есть единичные проявления акцента на институциональных процедурах (реорганизация бюджетной сферы, работа через партию), но это не доминирующая черта публичного образа.",
+      "sources": [
+        "https://www.murman.ru/news/2026/05/02/2334/",
+        "https://www.murman.ru/news/2026/09/13/2242/",
+        "https://51.ru/text/gorod/2026/01/22/76228112/"
+      ],
+      "evidence_indices": [
+        3,
+        4,
+        6
+      ],
+      "model": "gpt-4.1",
+      "at": "2026-10-14T21:45:12.339763+00:00",
+      "evidence_file": "evidence/andrey-chibis.json",
+      "evidence_basis": "8da747317dc44a7b97d4e1dfd093888b7c9b29b02810c49ce1f4a5f39dbd5024",
+      "rating_pass": "initial",
+      "measurement_note": "LLM-оценка по извлечённому досье; ссылки не означают независимую экспертную верификацию"
+    },
+    {
+      "object_id": "andrey-chibis",
+      "scale_id": "oppositionality",
+      "positive": 0,
+      "negative": 3,
+      "difference": -3,
+      "mass": 3,
+      "status": "observed",
+      "confidence": 0.8,
+      "reason": "Чибис представлен как представитель федеральной и региональной власти, публично поддерживает партийную и государственную повестку, не замечен в критике федерального курса.",
+      "sources": [
+        "https://ru.wikipedia.org/wiki/%D0%A7%D0%B8%D0%B1%D0%B8%D1%81,_%D0%90%D0%BD%D0%B4%D1%80%D0%B5%D0%B9_%D0%92%D0%BB%D0%B0%D0%B4%D0%B8%D0%BC%D0%B8%D1%80%D0%BE%D0%B2%D0%B8%D1%87",
+        "https://www.murman.ru/news/2026/05/02/2334/",
+        "https://www.murman.ru/news/2026/09/13/2242/"
+      ],
+      "evidence_indices": [
+        2,
+        3,
+        4
+      ],
+      "model": "gpt-4.1",
+      "at": "2026-10-14T21:45:12.339763+00:00",
+      "evidence_file": "evidence/andrey-chibis.json",
+      "evidence_basis": "8da747317dc44a7b97d4e1dfd093888b7c9b29b02810c49ce1f4a5f39dbd5024",
+      "rating_pass": "initial",
+      "measurement_note": "LLM-оценка по извлечённому досье; ссылки не означают независимую экспертную верификацию"
+    },
+    {
+      "object_id": "andrey-chibis",
+      "scale_id": "social-policy",
+      "positive": 3,
+      "negative": 0,
+      "difference": 3,
+      "mass": 3,
+      "status": "observed",
+      "confidence": 0.8,
+      "reason": "В публичных заявлениях Чибиса акцентируется роль государства в обеспечении социальных гарантий, поддержке семей, демографии, инфраструктуры.",
+      "sources": [
+        "https://murmansk.ru/52053",
+        "https://51.ru/text/gorod/2026/01/22/76228112/",
+        "https://newsroom24.ru/murmansk/news/politics/2026/news_323931/"
+      ],
+      "evidence_indices": [
+        5,
+        6,
+        7,
+        8
+      ],
+      "model": "gpt-4.1",
+      "at": "2026-10-14T21:45:12.339763+00:00",
+      "evidence_file": "evidence/andrey-chibis.json",
+      "evidence_basis": "8da747317dc44a7b97d4e1dfd093888b7c9b29b02810c49ce1f4a5f39dbd5024",
+      "rating_pass": "initial",
+      "measurement_note": "LLM-оценка по извлечённому досье; ссылки не означают независимую экспертную верификацию"
+    },
+    {
+      "object_id": "andrey-chibis",
+      "scale_id": "federal-loyalty",
+      "positive": 3,
+      "negative": 1,
+      "difference": 2,
+      "mass": 4,
+      "status": "observed",
+      "confidence": 0.8,
+      "reason": "Чибис представлен как лояльный федеральному центру губернатор, но также подчеркивает региональную специфику и идентичность Арктики.",
+      "sources": [
+        "https://ru.wikipedia.org/wiki/%D0%A7%D0%B8%D0%B1%D0%B8%D1%81,_%D0%90%D0%BD%D0%B4%D1%80%D0%B5%D0%B9_%D0%92%D0%BB%D0%B0%D0%B4%D0%B8%D0%BC%D0%B8%D1%80%D0%BE%D0%B2%D0%B8%D1%87",
+        "https://www.murman.ru/news/2026/05/02/2334/",
+        "https://www.murman.ru/news/2026/09/13/2242/"
+      ],
+      "evidence_indices": [
+        2,
+        3,
+        4
+      ],
+      "model": "gpt-4.1",
+      "at": "2026-10-14T21:45:12.339763+00:00",
+      "evidence_file": "evidence/andrey-chibis.json",
+      "evidence_basis": "8da747317dc44a7b97d4e1dfd093888b7c9b29b02810c49ce1f4a5f39dbd5024",
+      "rating_pass": "initial",
+      "measurement_note": "LLM-оценка по извлечённому досье; ссылки не означают независимую экспертную верификацию"
+    },
+    {
+      "object_id": "andrey-chibis",
+      "scale_id": "mobilization-rhetoric",
+      "positive": 1,
+      "negative": 1,
+      "difference": 0,
+      "mass": 2,
+      "status": "observed",
+      "confidence": 0.5,
+      "reason": "В риторике Чибиса встречаются элементы мобилизации (образ Севера, призыв к развитию), но также присутствует обсуждение конкретных выгод и обратная связь.",
+      "sources": [
+        "https://www.murman.ru/news/2026/09/13/2242/",
+        "https://murmansk.ru/52053",
+        "https://51.ru/text/gorod/2026/01/22/76228112/"
+      ],
+      "evidence_indices": [
+        4,
+        5,
+        6
+      ],
+      "model": "gpt-4.1",
+      "at": "2026-10-14T21:45:12.339763+00:00",
+      "evidence_file": "evidence/andrey-chibis.json",
+      "evidence_basis": "8da747317dc44a7b97d4e1dfd093888b7c9b29b02810c49ce1f4a5f39dbd5024",
+      "rating_pass": "initial",
+      "measurement_note": "LLM-оценка по извлечённому досье; ссылки не означают независимую экспертную верификацию"
+    },
+    {
+      "object_id": "andrey-chibis",
+      "scale_id": "conflictuality",
+      "positive": 0,
+      "negative": 1,
+      "difference": -1,
+      "mass": 1,
+      "status": "observed",
+      "confidence": 0.5,
+      "reason": "Преобладает согласительная и прагматичная риторика, нет признаков конфронтационного стиля.",
+      "sources": [
+        "https://murmansk.ru/52053",
+        "https://51.ru/text/gorod/2026/01/22/76228112/",
+        "https://newsroom24.ru/murmansk/news/politics/2026/news_323931/"
+      ],
+      "evidence_indices": [
+        5,
+        6,
+        7
+      ],
+      "model": "gpt-4.1",
+      "at": "2026-10-14T21:45:12.339763+00:00",
+      "evidence_file": "evidence/andrey-chibis.json",
+      "evidence_basis": "8da747317dc44a7b97d4e1dfd093888b7c9b29b02810c49ce1f4a5f39dbd5024",
+      "rating_pass": "initial",
+      "measurement_note": "LLM-оценка по извлечённому досье; ссылки не означают независимую экспертную верификацию"
+    },
+    {
+      "object_id": "andrey-chibis",
+      "scale_id": "media-personalization",
+      "positive": 1,
+      "negative": 1,
+      "difference": 0,
+      "mass": 2,
+      "status": "observed",
+      "confidence": 0.5,
+      "reason": "Чибис представлен как публичный лидер, но акцент на личном бренде не выражен явно; коммуникация ведется и от имени института губернатора, и от себя лично.",
+      "sources": [
+        "https://ru.wikipedia.org/wiki/%D0%A7%D0%B8%D0%B1%D0%B8%D1%81,_%D0%90%D0%BD%D0%B4%D1%80%D0%B5%D0%B9_%D0%92%D0%BB%D0%B0%D0%B4%D0%B8%D0%BC%D0%B8%D1%80%D0%BE%D0%B2%D0%B8%D1%87",
+        "https://www.murman.ru/news/2026/05/02/2334/",
+        "https://www.murman.ru/news/2026/09/13/2242/",
+        "https://murmansk.ru/52053"
+      ],
+      "evidence_indices": [
+        2,
+        3,
+        4,
+        5
+      ],
+      "model": "gpt-4.1",
+      "at": "2026-10-14T21:45:12.339763+00:00",
+      "evidence_file": "evidence/andrey-chibis.json",
+      "evidence_basis": "8da747317dc44a7b97d4e1dfd093888b7c9b29b02810c49ce1f4a5f39dbd5024",
+      "rating_pass": "initial",
+      "measurement_note": "LLM-оценка по извлечённому досье; ссылки не означают независимую экспертную верификацию"
+    },
+    {
+      "object_id": "andrey-chibis",
+      "scale_id": "antiwesternism",
+      "positive": null,
+      "negative": null,
+      "difference": null,
+      "mass": null,
+      "status": "unknown",
+      "confidence": 0,
+      "reason": "В предоставленных материалах отсутствуют высказывания Чибиса по отношению к западным странам или институтам.",
+      "sources": [],
+      "evidence_indices": [],
+      "model": "gpt-4.1",
+      "at": "2026-10-14T21:45:12.339763+00:00",
+      "evidence_file": "evidence/andrey-chibis.json",
+      "evidence_basis": "8da747317dc44a7b97d4e1dfd093888b7c9b29b02810c49ce1f4a5f39dbd5024",
+      "rating_pass": "initial",
+      "measurement_note": "LLM-оценка по извлечённому досье; ссылки не означают независимую экспертную верификацию"
+    },
+    {
+      "object_id": "andrey-chibis",
+      "scale_id": "party-leadership",
+      "positive": 1,
+      "negative": 0,
+      "difference": 1,
+      "mass": 1,
+      "status": "observed",
+      "confidence": 0.5,
+      "reason": "Есть единичные проявления партийной мобилизации (секретарь регионального отделения, продвижение партийной программы), но это не определяющая черта образа.",
+      "sources": [
+        "https://www.murman.ru/news/2026/05/02/2334/"
+      ],
+      "evidence_indices": [
+        3
+      ],
+      "model": "gpt-4.1",
+      "at": "2026-10-14T21:45:12.339763+00:00",
+      "evidence_file": "evidence/andrey-chibis.json",
+      "evidence_basis": "8da747317dc44a7b97d4e1dfd093888b7c9b29b02810c49ce1f4a5f39dbd5024",
+      "rating_pass": "initial",
+      "measurement_note": "LLM-оценка по извлечённому досье; ссылки не означают независимую экспертную верификацию"
+    },
+    {
+      "object_id": "andrey-chibis",
+      "scale_id": "public-transparency",
+      "positive": 2,
+      "negative": 1,
+      "difference": 1,
+      "mass": 3,
+      "status": "observed",
+      "confidence": 0.7,
+      "reason": "Есть признаки акцента на открытости (прямые договоры, анонимный колл-центр, публичные объяснения решений), но нет устойчивого образа полной прозрачности или закрытости.",
+      "sources": [
+        "https://minstroyrf.gov.ru/press/okolo-40-kontsessionnykh-soglasheniy-v-rossii-deystvuet-v-sfere-zhkkh/",
+        "https://51.ru/text/gorod/2026/01/22/76228112/"
+      ],
+      "evidence_indices": [
+        1,
+        6
+      ],
+      "model": "gpt-4.1",
+      "at": "2026-10-14T21:45:19.152571+00:00",
+      "evidence_file": "evidence/andrey-chibis.json",
+      "evidence_basis": "8da747317dc44a7b97d4e1dfd093888b7c9b29b02810c49ce1f4a5f39dbd5024",
+      "rating_pass": "initial",
+      "measurement_note": "LLM-оценка по извлечённому досье; ссылки не означают независимую экспертную верификацию"
+    },
+    {
+      "object_id": "andrey-chibis",
+      "scale_id": "family-values",
+      "positive": 1,
+      "negative": 0,
+      "difference": 1,
+      "mass": 1,
+      "status": "observed",
+      "confidence": 0.4,
+      "reason": "Поддержка семей и демографии упоминается как часть социальной политики, но не как самостоятельный идеологический акцент на традиционных нормах.",
+      "sources": [
+        "https://murmansk.ru/52053"
+      ],
+      "evidence_indices": [
+        8
+      ],
+      "model": "gpt-4.1",
+      "at": "2026-10-14T21:45:19.152571+00:00",
+      "evidence_file": "evidence/andrey-chibis.json",
+      "evidence_basis": "8da747317dc44a7b97d4e1dfd093888b7c9b29b02810c49ce1f4a5f39dbd5024",
+      "rating_pass": "initial",
+      "measurement_note": "LLM-оценка по извлечённому досье; ссылки не означают независимую экспертную верификацию"
+    },
+    {
+      "object_id": "andrey-chibis",
+      "scale_id": "international-activity",
+      "positive": 1,
+      "negative": 3,
+      "difference": -2,
+      "mass": 4,
+      "status": "observed",
+      "confidence": 0.8,
+      "reason": "Преобладает акцент на внутренних задачах (городская среда, инфраструктура, качество жизни), но есть элементы внешней повестки через арктическую специфику и международные мероприятия.",
+      "sources": [
+        "https://ru.wikipedia.org/wiki/%D0%A7%D0%B8%D0%B1%D0%B8%D1%81,_%D0%90%D0%BD%D0%B4%D1%80%D0%B5%D0%B9_%D0%92%D0%BB%D0%B0%D0%B4%D0%B8%D0%BC%D0%B8%D1%80%D0%BE%D0%B2%D0%B8%D1%87",
+        "https://www.murman.ru/news/2026/05/02/2334/",
+        "https://www.murman.ru/news/2026/09/13/2242/",
+        "https://murmansk.ru/52053",
+        "https://newsroom24.ru/murmansk/news/politics/2026/news_323931/"
+      ],
+      "evidence_indices": [
+        0,
+        2,
+        3,
+        4,
+        5,
+        7
+      ],
+      "model": "gpt-4.1",
+      "at": "2026-10-14T21:45:19.152571+00:00",
+      "evidence_file": "evidence/andrey-chibis.json",
+      "evidence_basis": "8da747317dc44a7b97d4e1dfd093888b7c9b29b02810c49ce1f4a5f39dbd5024",
+      "rating_pass": "initial",
+      "measurement_note": "LLM-оценка по извлечённому досье; ссылки не означают независимую экспертную верификацию"
+    },
+    {
+      "object_id": "andrey-chibis",
+      "scale_id": "antiwar-rhetoric",
+      "positive": null,
+      "negative": null,
+      "difference": null,
+      "mass": null,
+      "status": "unknown",
+      "confidence": 0.1,
+      "reason": "Нет фактов о публичных позициях по военным действиям.",
+      "sources": [],
+      "evidence_indices": [],
+      "model": "gpt-4.1",
+      "at": "2026-10-14T21:45:19.152571+00:00",
+      "evidence_file": "evidence/andrey-chibis.json",
+      "evidence_basis": "8da747317dc44a7b97d4e1dfd093888b7c9b29b02810c49ce1f4a5f39dbd5024",
+      "rating_pass": "initial",
+      "measurement_note": "LLM-оценка по извлечённому досье; ссылки не означают независимую экспертную верификацию"
+    },
+    {
+      "object_id": "andrey-chibis",
+      "scale_id": "electoral-legitimacy",
+      "positive": null,
+      "negative": null,
+      "difference": null,
+      "mass": null,
+      "status": "unknown",
+      "confidence": 0.2,
+      "reason": "Нет данных о риторике, обосновывающей источник полномочий.",
+      "sources": [],
+      "evidence_indices": [],
+      "model": "gpt-4.1",
+      "at": "2026-10-14T21:45:19.152571+00:00",
+      "evidence_file": "evidence/andrey-chibis.json",
+      "evidence_basis": "8da747317dc44a7b97d4e1dfd093888b7c9b29b02810c49ce1f4a5f39dbd5024",
+      "rating_pass": "initial",
+      "measurement_note": "LLM-оценка по извлечённому досье; ссылки не означают независимую экспертную верификацию"
+    },
+    {
+      "object_id": "andrey-chibis",
+      "scale_id": "economic-ownership",
+      "positive": 1,
+      "negative": 2,
+      "difference": -1,
+      "mass": 3,
+      "status": "observed",
+      "confidence": 0.7,
+      "reason": "Акцент на привлечении инвестиций и концессионных соглашениях указывает на признание роли частного капитала, но без выраженного противопоставления государственному сектору.",
+      "sources": [
+        "https://minstroyrf.gov.ru/press/okolo-40-kontsessionnykh-soglasheniy-v-rossii-deystvuet-v-sfere-zhkkh/"
+      ],
+      "evidence_indices": [
+        1
+      ],
+      "model": "gpt-4.1",
+      "at": "2026-10-14T21:45:19.152571+00:00",
+      "evidence_file": "evidence/andrey-chibis.json",
+      "evidence_basis": "8da747317dc44a7b97d4e1dfd093888b7c9b29b02810c49ce1f4a5f39dbd5024",
+      "rating_pass": "initial",
+      "measurement_note": "LLM-оценка по извлечённому досье; ссылки не означают независимую экспертную верификацию"
+    },
+    {
+      "object_id": "andrey-chibis",
+      "scale_id": "economic-modernization",
+      "positive": 3,
+      "negative": 1,
+      "difference": 2,
+      "mass": 4,
+      "status": "observed",
+      "confidence": 0.8,
+      "reason": "Устойчивый акцент на технологическом развитии, инфраструктурных и цифровых проектах, модернизации городской среды.",
+      "sources": [
+        "https://ru.wikipedia.org/wiki/%D0%A7%D0%B8%D0%B1%D0%B8%D1%81,_%D0%90%D0%BD%D0%B4%D1%80%D0%B5%D0%B9_%D0%92%D0%BB%D0%B0%D0%B4%D0%B8%D0%BC%D0%B8%D1%80%D0%BE%D0%B2%D0%B8%D1%87",
+        "https://minstroyrf.gov.ru/press/okolo-40-kontsessionnykh-soglasheniy-v-rossii-deystvuet-v-sfere-zhkkh/",
+        "https://www.murman.ru/news/2026/09/13/2242/",
+        "https://murmansk.ru/52053"
+      ],
+      "evidence_indices": [
+        0,
+        1,
+        4,
+        5,
+        8
+      ],
+      "model": "gpt-4.1",
+      "at": "2026-10-14T21:45:19.152571+00:00",
+      "evidence_file": "evidence/andrey-chibis.json",
+      "evidence_basis": "8da747317dc44a7b97d4e1dfd093888b7c9b29b02810c49ce1f4a5f39dbd5024",
+      "rating_pass": "initial",
+      "measurement_note": "LLM-оценка по извлечённому досье; ссылки не означают независимую экспертную верификацию"
+    },
+    {
+      "object_id": "andrey-chibis",
+      "scale_id": "media-control",
+      "positive": null,
+      "negative": null,
+      "difference": null,
+      "mass": null,
+      "status": "unknown",
+      "confidence": 0.1,
+      "reason": "Нет сведений о публичной позиции по вопросам регулирования информации или свободы СМИ.",
+      "sources": [],
+      "evidence_indices": [],
+      "model": "gpt-4.1",
+      "at": "2026-10-14T21:45:19.152571+00:00",
+      "evidence_file": "evidence/andrey-chibis.json",
+      "evidence_basis": "8da747317dc44a7b97d4e1dfd093888b7c9b29b02810c49ce1f4a5f39dbd5024",
+      "rating_pass": "initial",
+      "measurement_note": "LLM-оценка по извлечённому досье; ссылки не означают независимую экспертную верификацию"
+    },
+    {
+      "object_id": "andrey-chibis",
+      "scale_id": "territorial-policy",
+      "positive": null,
+      "negative": null,
+      "difference": null,
+      "mass": null,
+      "status": "unknown",
+      "confidence": 0.1,
+      "reason": "Нет прямых заявлений о территориальной политике или изменении границ.",
+      "sources": [],
+      "evidence_indices": [],
+      "model": "gpt-4.1",
+      "at": "2026-10-14T21:45:19.152571+00:00",
+      "evidence_file": "evidence/andrey-chibis.json",
+      "evidence_basis": "8da747317dc44a7b97d4e1dfd093888b7c9b29b02810c49ce1f4a5f39dbd5024",
+      "rating_pass": "initial",
+      "measurement_note": "LLM-оценка по извлечённому досье; ссылки не означают независимую экспертную верификацию"
+    },
+    {
+      "object_id": "andrey-chibis",
+      "scale_id": "rhetorical-simplicity",
+      "positive": 2,
+      "negative": 2,
+      "difference": 0,
+      "mass": 4,
+      "status": "observed",
+      "confidence": 0.6,
+      "reason": "В коммуникации сочетаются простые обещания (рабочие места, зарплаты) и попытки объяснять сложные решения (реорганизация бюджета, мастер-планы).",
+      "sources": [
+        "https://murmansk.ru/52053",
+        "https://51.ru/text/gorod/2026/01/22/76228112/",
+        "https://newsroom24.ru/murmansk/news/politics/2026/news_323931/"
+      ],
+      "evidence_indices": [
+        5,
+        6,
+        7,
+        8
+      ],
+      "model": "gpt-4.1",
+      "at": "2026-10-14T21:45:19.152571+00:00",
+      "evidence_file": "evidence/andrey-chibis.json",
+      "evidence_basis": "8da747317dc44a7b97d4e1dfd093888b7c9b29b02810c49ce1f4a5f39dbd5024",
+      "rating_pass": "initial",
+      "measurement_note": "LLM-оценка по извлечённому досье; ссылки не означают независимую экспертную верификацию"
+    },
+    {
+      "object_id": "andrey-chibis",
+      "scale_id": "anti-bureaucracy",
+      "positive": 1,
+      "negative": 1,
+      "difference": 0,
+      "mass": 2,
+      "status": "observed",
+      "confidence": 0.5,
+      "reason": "Есть отдельные элементы дерегуляции (прямые договоры, анонимный колл-центр), но нет устойчивого акцента ни на дерегулирование, ни на расширение бюрократии.",
+      "sources": [
+        "https://minstroyrf.gov.ru/press/okolo-40-kontsessionnykh-soglasheniy-v-rossii-deystvuet-v-sfere-zhkkh/",
+        "https://51.ru/text/gorod/2026/01/22/76228112/"
+      ],
+      "evidence_indices": [
+        1,
+        6
+      ],
+      "model": "gpt-4.1",
+      "at": "2026-10-14T21:45:19.152571+00:00",
+      "evidence_file": "evidence/andrey-chibis.json",
+      "evidence_basis": "8da747317dc44a7b97d4e1dfd093888b7c9b29b02810c49ce1f4a5f39dbd5024",
+      "rating_pass": "initial",
+      "measurement_note": "LLM-оценка по извлечённому досье; ссылки не означают независимую экспертную верификацию"
+    },
+    {
+      "object_id": "andrey-chibis",
+      "scale_id": "national-patriotism",
+      "positive": 2,
+      "negative": 0,
+      "difference": 2,
+      "mass": 2,
+      "status": "observed",
+      "confidence": 0.6,
+      "reason": "Используется риторика о региональной и национальной идентичности (Арктика как часть российской державности), но без выраженного противопоставления универсальным правам.",
+      "sources": [
+        "https://www.murman.ru/news/2026/05/02/2334/",
+        "https://www.murman.ru/news/2026/09/13/2242/"
+      ],
+      "evidence_indices": [
+        3,
+        4
+      ],
+      "model": "gpt-4.1",
+      "at": "2026-10-14T21:45:19.152571+00:00",
+      "evidence_file": "evidence/andrey-chibis.json",
+      "evidence_basis": "8da747317dc44a7b97d4e1dfd093888b7c9b29b02810c49ce1f4a5f39dbd5024",
+      "rating_pass": "initial",
+      "measurement_note": "LLM-оценка по извлечённому досье; ссылки не означают независимую экспертную верификацию"
+    },
+    {
+      "object_id": "andrey-chibis",
+      "scale_id": "coalitionality",
+      "positive": 2,
+      "negative": 1,
+      "difference": 1,
+      "mass": 3,
+      "status": "observed",
+      "confidence": 0.6,
+      "reason": "В публичной деятельности Чибиса прослеживается акцент на объединении региональной и федеральной повестки (например, продвижение арктического раздела в партийной программе, интеграция региональных интересов в национальную стратегию), что свидетельствует о некоторой коалиционности. Однако отсутствуют прямые сведения о создании межпартийных коалиций или устойчивых альянсов с другими политическими силами. Самостоятельная конкуренция выражена слабо, поскольку образ строится вокруг интеграции в вертикаль власти и партийную структуру, а не на дистанцировании или оппозиционности.",
+      "sources": [
+        "https://ru.wikipedia.org/wiki/%D0%A7%D0%B8%D0%B1%D0%B8%D1%81,_%D0%90%D0%BD%D0%B4%D1%80%D0%B5%D0%B9_%D0%92%D0%BB%D0%B0%D0%B4%D0%B8%D0%BC%D0%B8%D1%80%D0%BE%D0%B2%D0%B8%D1%87",
+        "https://minstroyrf.gov.ru/press/okolo-40-kontsessionnykh-soglasheniy-v-rossii-deystvuet-v-sfere-zhkkh/",
+        "https://www.murman.ru/news/2026/05/02/2334/",
+        "https://www.murman.ru/news/2026/09/13/2242/",
+        "https://murmansk.ru/52053",
+        "https://newsroom24.ru/murmansk/news/politics/2026/news_323931/"
+      ],
+      "evidence_indices": [
+        0,
+        1,
+        3,
+        4,
+        5,
+        7
+      ],
+      "model": "gpt-4.1",
+      "at": "2026-10-14T21:45:22.646704+00:00",
+      "evidence_file": "evidence/andrey-chibis.json",
+      "evidence_basis": "8da747317dc44a7b97d4e1dfd093888b7c9b29b02810c49ce1f4a5f39dbd5024",
+      "rating_pass": "initial",
+      "measurement_note": "LLM-оценка по извлечённому досье; ссылки не означают независимую экспертную верификацию"
+    },
+    {
+      "object_id": "andrey-chibis",
+      "scale_id": "civil-liberties",
+      "positive": null,
+      "negative": null,
+      "difference": null,
+      "mass": null,
+      "status": "unknown",
+      "confidence": 0.2,
+      "reason": "В предоставленных материалах отсутствуют прямые или косвенные сведения о публичных позициях Чибиса по вопросам гражданских свобод, политического принуждения, прав обвиняемых или расширения ограничений ради порядка. Его публичная риторика и решения описаны преимущественно в социально-экономическом и инфраструктурном контексте.",
+      "sources": [],
+      "evidence_indices": [],
+      "model": "gpt-4.1",
+      "at": "2026-10-14T21:45:22.646704+00:00",
+      "evidence_file": "evidence/andrey-chibis.json",
+      "evidence_basis": "8da747317dc44a7b97d4e1dfd093888b7c9b29b02810c49ce1f4a5f39dbd5024",
+      "rating_pass": "initial",
+      "measurement_note": "LLM-оценка по извлечённому досье; ссылки не означают независимую экспертную верификацию"
+    }
+  ],
+  "unknown_scale_ids": [
+    "security-sovereignty",
+    "historical-memory",
+    "antiwesternism",
+    "antiwar-rhetoric",
+    "electoral-legitimacy",
+    "media-control",
+    "territorial-policy",
+    "civil-liberties"
+  ]
+}

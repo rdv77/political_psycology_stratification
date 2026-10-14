@@ -1,0 +1,681 @@
+{
+  "object_id": "alexey-nechayev",
+  "scales_basis": "2bee01a202c39ee721dfa985f553d5ce4502c74051ebe616ba3acc72ad80c440",
+  "dossier_basis": "a3d5059f33f04d6a0cb4238275862874aa70a1a5eb69db45c4e7fed42fbeb192",
+  "evidence_file": "evidence/alexey-nechayev.json",
+  "period": [
+    "2016-10-15",
+    "2026-10-15"
+  ],
+  "ratings": [
+    {
+      "object_id": "alexey-nechayev",
+      "scale_id": "security-sovereignty",
+      "positive": null,
+      "negative": null,
+      "difference": null,
+      "mass": null,
+      "status": "unknown",
+      "confidence": 0,
+      "reason": "В предоставленных фактах отсутствуют прямые высказывания или программные акценты Нечаева по вопросам суверенитета, международной интеграции или защиты от внешнего влияния.",
+      "sources": [],
+      "evidence_indices": [],
+      "model": "gpt-4.1",
+      "at": "2026-10-14T21:43:39.342472+00:00",
+      "evidence_file": "evidence/alexey-nechayev.json",
+      "evidence_basis": "a3d5059f33f04d6a0cb4238275862874aa70a1a5eb69db45c4e7fed42fbeb192",
+      "rating_pass": "initial",
+      "measurement_note": "LLM-оценка по извлечённому досье; ссылки не означают независимую экспертную верификацию"
+    },
+    {
+      "object_id": "alexey-nechayev",
+      "scale_id": "historical-memory",
+      "positive": null,
+      "negative": null,
+      "difference": null,
+      "mass": null,
+      "status": "unknown",
+      "confidence": 0,
+      "reason": "В материалах нет упоминаний о публичных аргументах Нечаева, связанных с исторической преемственностью, традициями или разрывом с прошлым.",
+      "sources": [],
+      "evidence_indices": [],
+      "model": "gpt-4.1",
+      "at": "2026-10-14T21:43:39.342472+00:00",
+      "evidence_file": "evidence/alexey-nechayev.json",
+      "evidence_basis": "a3d5059f33f04d6a0cb4238275862874aa70a1a5eb69db45c4e7fed42fbeb192",
+      "rating_pass": "initial",
+      "measurement_note": "LLM-оценка по извлечённому досье; ссылки не означают независимую экспертную верификацию"
+    },
+    {
+      "object_id": "alexey-nechayev",
+      "scale_id": "technocratic-management",
+      "positive": 3,
+      "negative": 1,
+      "difference": 2,
+      "mass": 4,
+      "status": "observed",
+      "confidence": 0.8,
+      "reason": "Публичный образ Нечаева и партии строится на акцентах практических результатов: поддержка предпринимателей, развитие технологий, снижение бюрократии, использование ИИ для оптимизации процессов. Идеологические или символические цели упоминаются слабо.",
+      "sources": [
+        "https://amp.rbc.ru/rbcnews/base/14/08/2026/6a957dfb9a79476ae3d823ba",
+        "https://en.wikipedia.org/wiki/Alexey_Nechayev",
+        "https://www.rbc.ru/person/6aa3ef199a79475758621730",
+        "https://www.gazeta.ru/politics/23422027/novye-lyudi-na-vyborah-2026-goda.shtml"
+      ],
+      "evidence_indices": [
+        0,
+        5,
+        6,
+        8,
+        9
+      ],
+      "model": "gpt-4.1",
+      "at": "2026-10-14T21:43:39.342472+00:00",
+      "evidence_file": "evidence/alexey-nechayev.json",
+      "evidence_basis": "a3d5059f33f04d6a0cb4238275862874aa70a1a5eb69db45c4e7fed42fbeb192",
+      "rating_pass": "initial",
+      "measurement_note": "LLM-оценка по извлечённому досье; ссылки не означают независимую экспертную верификацию"
+    },
+    {
+      "object_id": "alexey-nechayev",
+      "scale_id": "parliamentary-institutional",
+      "positive": 3,
+      "negative": 0,
+      "difference": 3,
+      "mass": 3,
+      "status": "observed",
+      "confidence": 0.8,
+      "reason": "Нечаев и партия действуют в рамках парламентских процедур, участвуют в выборах, формируют фракцию в Госдуме, продвигают реформы через законодательные инициативы. Признаков протестной или внеинституциональной стратегии не выявлено.",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Alexey_Nechayev",
+        "https://www.rbc.ru/politics/24/09/2021/614da73f9a7947b5e3d9399f",
+        "https://www.rbc.ru/person/6aa3ef199a79475758621730",
+        "https://vremya-bir.ru/2026/03/07/dvenadtsat-shagov-k-strane-v-kotoroj-hochetsya-zhit/",
+        "https://www.gazeta.ru/politics/23422027/novye-lyudi-na-vyborah-2026-goda.shtml"
+      ],
+      "evidence_indices": [
+        1,
+        3,
+        4,
+        6,
+        7,
+        8,
+        9
+      ],
+      "model": "gpt-4.1",
+      "at": "2026-10-14T21:43:39.342472+00:00",
+      "evidence_file": "evidence/alexey-nechayev.json",
+      "evidence_basis": "a3d5059f33f04d6a0cb4238275862874aa70a1a5eb69db45c4e7fed42fbeb192",
+      "rating_pass": "initial",
+      "measurement_note": "LLM-оценка по извлечённому досье; ссылки не означают независимую экспертную верификацию"
+    },
+    {
+      "object_id": "alexey-nechayev",
+      "scale_id": "oppositionality",
+      "positive": null,
+      "negative": null,
+      "difference": null,
+      "mass": null,
+      "status": "unknown",
+      "confidence": 0,
+      "reason": "В материалах нет явных высказываний о поддержке или критике федеральной власти как курса. Оценка невозможна без дополнительных данных.",
+      "sources": [],
+      "evidence_indices": [],
+      "model": "gpt-4.1",
+      "at": "2026-10-14T21:43:39.342472+00:00",
+      "evidence_file": "evidence/alexey-nechayev.json",
+      "evidence_basis": "a3d5059f33f04d6a0cb4238275862874aa70a1a5eb69db45c4e7fed42fbeb192",
+      "rating_pass": "initial",
+      "measurement_note": "LLM-оценка по извлечённому досье; ссылки не означают независимую экспертную верификацию"
+    },
+    {
+      "object_id": "alexey-nechayev",
+      "scale_id": "social-policy",
+      "positive": 1,
+      "negative": 2,
+      "difference": -1,
+      "mass": 3,
+      "status": "observed",
+      "confidence": 0.6,
+      "reason": "В риторике присутствуют темы улучшения доступа к ипотеке, жилья, образования, но основной акцент на поддержке предпринимателей и создании возможностей, что ближе к личной ответственности и частным инициативам. Государственные гарантии упоминаются слабо.",
+      "sources": [
+        "https://amp.rbc.ru/rbcnews/base/14/08/2026/6a957dfb9a79476ae3d823ba",
+        "https://en.wikipedia.org/wiki/Alexey_Nechayev",
+        "https://www.rbc.ru/person/6aa3ef199a79475758621730",
+        "https://www.gazeta.ru/politics/23422027/novye-lyudi-na-vyborah-2026-goda.shtml"
+      ],
+      "evidence_indices": [
+        5,
+        6,
+        8,
+        9
+      ],
+      "model": "gpt-4.1",
+      "at": "2026-10-14T21:43:39.342472+00:00",
+      "evidence_file": "evidence/alexey-nechayev.json",
+      "evidence_basis": "a3d5059f33f04d6a0cb4238275862874aa70a1a5eb69db45c4e7fed42fbeb192",
+      "rating_pass": "initial",
+      "measurement_note": "LLM-оценка по извлечённому досье; ссылки не означают независимую экспертную верификацию"
+    },
+    {
+      "object_id": "alexey-nechayev",
+      "scale_id": "federal-loyalty",
+      "positive": 0,
+      "negative": 3,
+      "difference": -3,
+      "mass": 3,
+      "status": "observed",
+      "confidence": 0.8,
+      "reason": "В программных акцентах Нечаева устойчиво выражена поддержка децентрализации: расширение полномочий регионов и муниципалитетов, прямые выборы мэров, передача финансовых ресурсов на места.",
+      "sources": [
+        "https://www.rbc.ru/person/6aa3ef199a79475758621730"
+      ],
+      "evidence_indices": [
+        2,
+        4
+      ],
+      "model": "gpt-4.1",
+      "at": "2026-10-14T21:43:39.342472+00:00",
+      "evidence_file": "evidence/alexey-nechayev.json",
+      "evidence_basis": "a3d5059f33f04d6a0cb4238275862874aa70a1a5eb69db45c4e7fed42fbeb192",
+      "rating_pass": "initial",
+      "measurement_note": "LLM-оценка по извлечённому досье; ссылки не означают независимую экспертную верификацию"
+    },
+    {
+      "object_id": "alexey-nechayev",
+      "scale_id": "mobilization-rhetoric",
+      "positive": 0,
+      "negative": 2,
+      "difference": -2,
+      "mass": 2,
+      "status": "observed",
+      "confidence": 0.6,
+      "reason": "Публичная коммуникация партии и Нечаева строится на обсуждении, маркетинговых и развлекательных форматах, а не на мобилизационных призывах к единству или дисциплине.",
+      "sources": [
+        "https://www.gazeta.ru/politics/23422027/novye-lyudi-na-vyborah-2026-goda.shtml"
+      ],
+      "evidence_indices": [
+        9
+      ],
+      "model": "gpt-4.1",
+      "at": "2026-10-14T21:43:39.342472+00:00",
+      "evidence_file": "evidence/alexey-nechayev.json",
+      "evidence_basis": "a3d5059f33f04d6a0cb4238275862874aa70a1a5eb69db45c4e7fed42fbeb192",
+      "rating_pass": "initial",
+      "measurement_note": "LLM-оценка по извлечённому досье; ссылки не означают независимую экспертную верификацию"
+    },
+    {
+      "object_id": "alexey-nechayev",
+      "scale_id": "conflictuality",
+      "positive": 0,
+      "negative": 1,
+      "difference": -1,
+      "mass": 1,
+      "status": "observed",
+      "confidence": 0.5,
+      "reason": "В материалах нет признаков конфронтационной риторики; стиль подачи описан как умеренный, институциональный, с элементами согласия и обсуждения.",
+      "sources": [
+        "https://www.rbc.ru/person/6aa3ef199a79475758621730",
+        "https://www.gazeta.ru/politics/23422027/novye-lyudi-na-vyborah-2026-goda.shtml"
+      ],
+      "evidence_indices": [
+        4,
+        9
+      ],
+      "model": "gpt-4.1",
+      "at": "2026-10-14T21:43:39.342472+00:00",
+      "evidence_file": "evidence/alexey-nechayev.json",
+      "evidence_basis": "a3d5059f33f04d6a0cb4238275862874aa70a1a5eb69db45c4e7fed42fbeb192",
+      "rating_pass": "initial",
+      "measurement_note": "LLM-оценка по извлечённому досье; ссылки не означают независимую экспертную верификацию"
+    },
+    {
+      "object_id": "alexey-nechayev",
+      "scale_id": "media-personalization",
+      "positive": 3,
+      "negative": 1,
+      "difference": 2,
+      "mass": 4,
+      "status": "observed",
+      "confidence": 0.8,
+      "reason": "Нечаев представлен как основатель, председатель и персональный лидер партии, что подчеркивает персонализацию бренда. Однако в публичном списке партии фигурируют и другие узнаваемые лица, что снижает абсолютную доминанту персонализации.",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Alexey_Nechayev",
+        "https://vremya-bir.ru/2026/03/07/dvenadtsat-shagov-k-strane-v-kotoroj-hochetsya-zhit/"
+      ],
+      "evidence_indices": [
+        1,
+        6,
+        7
+      ],
+      "model": "gpt-4.1",
+      "at": "2026-10-14T21:43:39.342472+00:00",
+      "evidence_file": "evidence/alexey-nechayev.json",
+      "evidence_basis": "a3d5059f33f04d6a0cb4238275862874aa70a1a5eb69db45c4e7fed42fbeb192",
+      "rating_pass": "initial",
+      "measurement_note": "LLM-оценка по извлечённому досье; ссылки не означают независимую экспертную верификацию"
+    },
+    {
+      "object_id": "alexey-nechayev",
+      "scale_id": "antiwesternism",
+      "positive": null,
+      "negative": null,
+      "difference": null,
+      "mass": null,
+      "status": "unknown",
+      "confidence": 0,
+      "reason": "В предоставленных фактах отсутствуют высказывания или программные акценты по отношению к Западу.",
+      "sources": [],
+      "evidence_indices": [],
+      "model": "gpt-4.1",
+      "at": "2026-10-14T21:43:39.342472+00:00",
+      "evidence_file": "evidence/alexey-nechayev.json",
+      "evidence_basis": "a3d5059f33f04d6a0cb4238275862874aa70a1a5eb69db45c4e7fed42fbeb192",
+      "rating_pass": "initial",
+      "measurement_note": "LLM-оценка по извлечённому досье; ссылки не означают независимую экспертную верификацию"
+    },
+    {
+      "object_id": "alexey-nechayev",
+      "scale_id": "party-leadership",
+      "positive": 3,
+      "negative": 0,
+      "difference": 3,
+      "mass": 3,
+      "status": "observed",
+      "confidence": 0.8,
+      "reason": "Партия и партийная организация выступают основным инструментом политического действия Нечаева; он неоднократно избирается председателем, возглавляет федеральный список, партия — основной канал мобилизации.",
+      "sources": [
+        "https://amp.rbc.ru/rbcnews/base/14/08/2026/6a957dfb9a79476ae3d823ba",
+        "https://en.wikipedia.org/wiki/Alexey_Nechayev",
+        "https://vremya-bir.ru/2026/03/07/dvenadtsat-shagov-k-strane-v-kotoroj-hochetsya-zhit/"
+      ],
+      "evidence_indices": [
+        0,
+        1,
+        6,
+        7
+      ],
+      "model": "gpt-4.1",
+      "at": "2026-10-14T21:43:39.342472+00:00",
+      "evidence_file": "evidence/alexey-nechayev.json",
+      "evidence_basis": "a3d5059f33f04d6a0cb4238275862874aa70a1a5eb69db45c4e7fed42fbeb192",
+      "rating_pass": "initial",
+      "measurement_note": "LLM-оценка по извлечённому досье; ссылки не означают независимую экспертную верификацию"
+    },
+    {
+      "object_id": "alexey-nechayev",
+      "scale_id": "public-transparency",
+      "positive": 1,
+      "negative": 1,
+      "difference": 0,
+      "mass": 2,
+      "status": "observed",
+      "confidence": 0.5,
+      "reason": "В публичных материалах отмечается обновление институтов, акцент на новых возможностях и уважении к людям, однако нет явных заявлений о прозрачности решений или ограничении контроля. Формат съездов и маркетинговая подача указывают на открытость, но не на системную прозрачность.",
+      "sources": [
+        "https://amp.rbc.ru/rbcnews/base/14/08/2026/6a957dfb9a79476ae3d823ba",
+        "https://en.wikipedia.org/wiki/Alexey_Nechayev",
+        "https://www.rbc.ru/politics/08/09/2026/6aa023ec9a79471e4fd55d3c"
+      ],
+      "evidence_indices": [
+        0,
+        6,
+        10
+      ],
+      "model": "gpt-4.1",
+      "at": "2026-10-14T21:43:47.899807+00:00",
+      "evidence_file": "evidence/alexey-nechayev.json",
+      "evidence_basis": "a3d5059f33f04d6a0cb4238275862874aa70a1a5eb69db45c4e7fed42fbeb192",
+      "rating_pass": "initial",
+      "measurement_note": "LLM-оценка по извлечённому досье; ссылки не означают независимую экспертную верификацию"
+    },
+    {
+      "object_id": "alexey-nechayev",
+      "scale_id": "family-values",
+      "positive": null,
+      "negative": null,
+      "difference": null,
+      "mass": null,
+      "status": "unknown",
+      "confidence": 0,
+      "reason": "В предоставленных фактах нет прямых позиций по вопросам традиционных или индивидуалистских семейных и моральных норм.",
+      "sources": [],
+      "evidence_indices": [],
+      "model": "gpt-4.1",
+      "at": "2026-10-14T21:43:47.899807+00:00",
+      "evidence_file": "evidence/alexey-nechayev.json",
+      "evidence_basis": "a3d5059f33f04d6a0cb4238275862874aa70a1a5eb69db45c4e7fed42fbeb192",
+      "rating_pass": "initial",
+      "measurement_note": "LLM-оценка по извлечённому досье; ссылки не означают независимую экспертную верификацию"
+    },
+    {
+      "object_id": "alexey-nechayev",
+      "scale_id": "international-activity",
+      "positive": 0,
+      "negative": 3,
+      "difference": -3,
+      "mass": 3,
+      "status": "observed",
+      "confidence": 0.7,
+      "reason": "Публичная повестка и программы партии акцентируют внутренние задачи: развитие регионов, муниципалитетов, городов, предпринимательства и бюрократии. Внешнеполитические темы не упоминаются.",
+      "sources": [
+        "https://www.rbc.ru/person/6aa3ef199a79475758621730",
+        "https://amp.rbc.ru/rbcnews/base/14/08/2026/6a957dfb9a79476ae3d823ba",
+        "https://www.gazeta.ru/politics/23422027/novye-lyudi-na-vyborah-2026-goda.shtml"
+      ],
+      "evidence_indices": [
+        2,
+        4,
+        5,
+        8,
+        9
+      ],
+      "model": "gpt-4.1",
+      "at": "2026-10-14T21:43:47.899807+00:00",
+      "evidence_file": "evidence/alexey-nechayev.json",
+      "evidence_basis": "a3d5059f33f04d6a0cb4238275862874aa70a1a5eb69db45c4e7fed42fbeb192",
+      "rating_pass": "initial",
+      "measurement_note": "LLM-оценка по извлечённому досье; ссылки не означают независимую экспертную верификацию"
+    },
+    {
+      "object_id": "alexey-nechayev",
+      "scale_id": "antiwar-rhetoric",
+      "positive": null,
+      "negative": null,
+      "difference": null,
+      "mass": null,
+      "status": "unknown",
+      "confidence": 0,
+      "reason": "Нет сведений о публичных заявлениях Нечаева по вопросам войны или мира в рассматриваемый период.",
+      "sources": [],
+      "evidence_indices": [],
+      "model": "gpt-4.1",
+      "at": "2026-10-14T21:43:47.899807+00:00",
+      "evidence_file": "evidence/alexey-nechayev.json",
+      "evidence_basis": "a3d5059f33f04d6a0cb4238275862874aa70a1a5eb69db45c4e7fed42fbeb192",
+      "rating_pass": "initial",
+      "measurement_note": "LLM-оценка по извлечённому досье; ссылки не означают независимую экспертную верификацию"
+    },
+    {
+      "object_id": "alexey-nechayev",
+      "scale_id": "electoral-legitimacy",
+      "positive": 1,
+      "negative": 1,
+      "difference": 0,
+      "mass": 2,
+      "status": "observed",
+      "confidence": 0.5,
+      "reason": "В материалах упоминаются прямые выборы мэров и участие в выборах, но нет устойчивого акцента на электоральной легитимности как источнике полномочий либо на административном назначении.",
+      "sources": [
+        "https://www.rbc.ru/person/6aa3ef199a79475758621730",
+        "https://vremya-bir.ru/2026/03/07/dvenadtsat-shagov-k-strane-v-kotoroj-hochetsya-zhit/"
+      ],
+      "evidence_indices": [
+        2,
+        4,
+        7
+      ],
+      "model": "gpt-4.1",
+      "at": "2026-10-14T21:43:47.899807+00:00",
+      "evidence_file": "evidence/alexey-nechayev.json",
+      "evidence_basis": "a3d5059f33f04d6a0cb4238275862874aa70a1a5eb69db45c4e7fed42fbeb192",
+      "rating_pass": "initial",
+      "measurement_note": "LLM-оценка по извлечённому досье; ссылки не означают независимую экспертную верификацию"
+    },
+    {
+      "object_id": "alexey-nechayev",
+      "scale_id": "economic-ownership",
+      "positive": 0,
+      "negative": 3,
+      "difference": -3,
+      "mass": 3,
+      "status": "observed",
+      "confidence": 0.7,
+      "reason": "Позиционирование связано с поддержкой предпринимателей, снижением давления на бизнес, улучшением делового климата и расширением частной инициативы. Нет акцентов на государственном планировании или ограничении частного капитала.",
+      "sources": [
+        "https://amp.rbc.ru/rbcnews/base/14/08/2026/6a957dfb9a79476ae3d823ba",
+        "https://www.rbc.ru/person/6aa3ef199a79475758621730",
+        "https://www.gazeta.ru/politics/23422027/novye-lyudi-na-vyborah-2026-goda.shtml"
+      ],
+      "evidence_indices": [
+        0,
+        2,
+        4,
+        5,
+        8,
+        9
+      ],
+      "model": "gpt-4.1",
+      "at": "2026-10-14T21:43:47.899807+00:00",
+      "evidence_file": "evidence/alexey-nechayev.json",
+      "evidence_basis": "a3d5059f33f04d6a0cb4238275862874aa70a1a5eb69db45c4e7fed42fbeb192",
+      "rating_pass": "initial",
+      "measurement_note": "LLM-оценка по извлечённому досье; ссылки не означают независимую экспертную верификацию"
+    },
+    {
+      "object_id": "alexey-nechayev",
+      "scale_id": "economic-modernization",
+      "positive": 3,
+      "negative": 0,
+      "difference": 3,
+      "mass": 3,
+      "status": "observed",
+      "confidence": 0.8,
+      "reason": "В риторике и программах подчеркиваются развитие технологий, навыков будущего, цифровизация, использование искусственного интеллекта и обновление институтов.",
+      "sources": [
+        "https://amp.rbc.ru/rbcnews/base/14/08/2026/6a957dfb9a79476ae3d823ba",
+        "https://en.wikipedia.org/wiki/Alexey_Nechayev",
+        "https://www.rbc.ru/politics/08/09/2026/6aa023ec9a79471e4fd55d3c"
+      ],
+      "evidence_indices": [
+        0,
+        6,
+        10
+      ],
+      "model": "gpt-4.1",
+      "at": "2026-10-14T21:43:47.899807+00:00",
+      "evidence_file": "evidence/alexey-nechayev.json",
+      "evidence_basis": "a3d5059f33f04d6a0cb4238275862874aa70a1a5eb69db45c4e7fed42fbeb192",
+      "rating_pass": "initial",
+      "measurement_note": "LLM-оценка по извлечённому досье; ссылки не означают независимую экспертную верификацию"
+    },
+    {
+      "object_id": "alexey-nechayev",
+      "scale_id": "media-control",
+      "positive": 1,
+      "negative": 1,
+      "difference": 0,
+      "mass": 2,
+      "status": "observed",
+      "confidence": 0.4,
+      "reason": "В программе упоминается \"умное регулирование интернета\", что может подразумевать определённое регулирование, но нет акцентов на расширении контроля или защите свободы выражения.",
+      "sources": [
+        "https://www.rbc.ru/politics/08/09/2026/6aa023ec9a79471e4fd55d3c"
+      ],
+      "evidence_indices": [
+        10
+      ],
+      "model": "gpt-4.1",
+      "at": "2026-10-14T21:43:47.899807+00:00",
+      "evidence_file": "evidence/alexey-nechayev.json",
+      "evidence_basis": "a3d5059f33f04d6a0cb4238275862874aa70a1a5eb69db45c4e7fed42fbeb192",
+      "rating_pass": "initial",
+      "measurement_note": "LLM-оценка по извлечённому досье; ссылки не означают независимую экспертную верификацию"
+    },
+    {
+      "object_id": "alexey-nechayev",
+      "scale_id": "territorial-policy",
+      "positive": null,
+      "negative": null,
+      "difference": null,
+      "mass": null,
+      "status": "unknown",
+      "confidence": 0,
+      "reason": "Нет данных о публичных заявлениях по вопросам границ или территориальной политики.",
+      "sources": [],
+      "evidence_indices": [],
+      "model": "gpt-4.1",
+      "at": "2026-10-14T21:43:47.899807+00:00",
+      "evidence_file": "evidence/alexey-nechayev.json",
+      "evidence_basis": "a3d5059f33f04d6a0cb4238275862874aa70a1a5eb69db45c4e7fed42fbeb192",
+      "rating_pass": "initial",
+      "measurement_note": "LLM-оценка по извлечённому досье; ссылки не означают независимую экспертную верификацию"
+    },
+    {
+      "object_id": "alexey-nechayev",
+      "scale_id": "rhetorical-simplicity",
+      "positive": 3,
+      "negative": 1,
+      "difference": 2,
+      "mass": 4,
+      "status": "observed",
+      "confidence": 0.7,
+      "reason": "Используются простые формулы и лозунги (например, «12 шагов к стране, в которой хочется жить», презумпция добросовестности), но также присутствует объяснение механизмов и программных инициатив.",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Alexey_Nechayev",
+        "https://www.gazeta.ru/politics/23422027/novye-lyudi-na-vyborah-2026-goda.shtml",
+        "https://www.rbc.ru/politics/08/09/2026/6aa023ec9a79471e4fd55d3c"
+      ],
+      "evidence_indices": [
+        6,
+        9,
+        10
+      ],
+      "model": "gpt-4.1",
+      "at": "2026-10-14T21:43:47.899807+00:00",
+      "evidence_file": "evidence/alexey-nechayev.json",
+      "evidence_basis": "a3d5059f33f04d6a0cb4238275862874aa70a1a5eb69db45c4e7fed42fbeb192",
+      "rating_pass": "initial",
+      "measurement_note": "LLM-оценка по извлечённому досье; ссылки не означают независимую экспертную верификацию"
+    },
+    {
+      "object_id": "alexey-nechayev",
+      "scale_id": "anti-bureaucracy",
+      "positive": 3,
+      "negative": 0,
+      "difference": 3,
+      "mass": 3,
+      "status": "observed",
+      "confidence": 0.8,
+      "reason": "Системно подчеркивается сокращение бюрократии, снижение административного давления, использование ИИ для уменьшения бюрократии.",
+      "sources": [
+        "https://www.rbc.ru/person/6aa3ef199a79475758621730",
+        "https://amp.rbc.ru/rbcnews/base/14/08/2026/6a957dfb9a79476ae3d823ba",
+        "https://en.wikipedia.org/wiki/Alexey_Nechayev",
+        "https://www.gazeta.ru/politics/23422027/novye-lyudi-na-vyborah-2026-goda.shtml"
+      ],
+      "evidence_indices": [
+        2,
+        4,
+        5,
+        6,
+        9
+      ],
+      "model": "gpt-4.1",
+      "at": "2026-10-14T21:43:47.899807+00:00",
+      "evidence_file": "evidence/alexey-nechayev.json",
+      "evidence_basis": "a3d5059f33f04d6a0cb4238275862874aa70a1a5eb69db45c4e7fed42fbeb192",
+      "rating_pass": "initial",
+      "measurement_note": "LLM-оценка по извлечённому досье; ссылки не означают независимую экспертную верификацию"
+    },
+    {
+      "object_id": "alexey-nechayev",
+      "scale_id": "national-patriotism",
+      "positive": 0,
+      "negative": 1,
+      "difference": -1,
+      "mass": 1,
+      "status": "observed",
+      "confidence": 0.4,
+      "reason": "В риторике партии и Нечаева отсутствуют акценты на национальной идентичности или универсальных правах; упоминается уважение к людям и программа для городов, что может подразумевать некоторый универсализм.",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Alexey_Nechayev",
+        "https://www.gazeta.ru/politics/23422027/novye-lyudi-na-vyborah-2026-goda.shtml"
+      ],
+      "evidence_indices": [
+        6,
+        9
+      ],
+      "model": "gpt-4.1",
+      "at": "2026-10-14T21:43:47.899807+00:00",
+      "evidence_file": "evidence/alexey-nechayev.json",
+      "evidence_basis": "a3d5059f33f04d6a0cb4238275862874aa70a1a5eb69db45c4e7fed42fbeb192",
+      "rating_pass": "initial",
+      "measurement_note": "LLM-оценка по извлечённому досье; ссылки не означают независимую экспертную верификацию"
+    },
+    {
+      "object_id": "alexey-nechayev",
+      "scale_id": "coalitionality",
+      "positive": 1,
+      "negative": 3,
+      "difference": -2,
+      "mass": 4,
+      "status": "observed",
+      "confidence": 0.7,
+      "reason": "Публичный образ Нечаева и партии «Новые люди» строился вокруг самостоятельного позиционирования, персонализированного лидерства и отсутствия сведений о вхождении в коалиции с другими политическими силами. В партийных списках присутствовали узнаваемые представители, но это не свидетельствует о межпартийных альянсах. Преобладает стратегия организационной обособленности и самостоятельной конкуренции, однако единичные проявления открытости к новым лицам и форматам отмечены.",
+      "sources": [
+        "https://amp.rbc.ru/rbcnews/base/14/08/2026/6a957dfb9a79476ae3d823ba",
+        "https://en.wikipedia.org/wiki/Alexey_Nechayev",
+        "https://www.rbc.ru/politics/24/09/2021/614da73f9a7947b5e3d9399f",
+        "https://www.rbc.ru/person/6aa3ef199a79475758621730",
+        "https://vremya-bir.ru/2026/03/07/dvenadtsat-shagov-k-strane-v-kotoroj-hochetsya-zhit/",
+        "https://www.gazeta.ru/politics/23422027/novye-lyudi-na-vyborah-2026-goda.shtml",
+        "https://www.rbc.ru/politics/08/09/2026/6aa023ec9a79471e4fd55d3c"
+      ],
+      "evidence_indices": [
+        0,
+        1,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ],
+      "model": "gpt-4.1",
+      "at": "2026-10-14T21:43:51.882618+00:00",
+      "evidence_file": "evidence/alexey-nechayev.json",
+      "evidence_basis": "a3d5059f33f04d6a0cb4238275862874aa70a1a5eb69db45c4e7fed42fbeb192",
+      "rating_pass": "initial",
+      "measurement_note": "LLM-оценка по извлечённому досье; ссылки не означают независимую экспертную верификацию"
+    },
+    {
+      "object_id": "alexey-nechayev",
+      "scale_id": "civil-liberties",
+      "positive": 1,
+      "negative": 1,
+      "difference": 0,
+      "mass": 2,
+      "status": "observed",
+      "confidence": 0.5,
+      "reason": "В публичной риторике Нечаева и партии отмечались темы снижения административного и силового давления на бизнес, отказа от избыточных запретов и презумпции добросовестности гражданина. Однако прямых акцентов на защите гражданских свобод, прав обвиняемых или антирепрессивной риторики не выявлено, равно как и призывов к расширению ограничений ради порядка. Оба полюса выражены слабо и эпизодически.",
+      "sources": [
+        "https://www.rbc.ru/person/6aa3ef199a79475758621730",
+        "https://en.wikipedia.org/wiki/Alexey_Nechayev"
+      ],
+      "evidence_indices": [
+        2,
+        4,
+        6,
+        8
+      ],
+      "model": "gpt-4.1",
+      "at": "2026-10-14T21:43:51.882618+00:00",
+      "evidence_file": "evidence/alexey-nechayev.json",
+      "evidence_basis": "a3d5059f33f04d6a0cb4238275862874aa70a1a5eb69db45c4e7fed42fbeb192",
+      "rating_pass": "initial",
+      "measurement_note": "LLM-оценка по извлечённому досье; ссылки не означают независимую экспертную верификацию"
+    }
+  ],
+  "unknown_scale_ids": [
+    "security-sovereignty",
+    "historical-memory",
+    "oppositionality",
+    "antiwesternism",
+    "family-values",
+    "antiwar-rhetoric",
+    "territorial-policy"
+  ]
+}

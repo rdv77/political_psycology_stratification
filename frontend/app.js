@@ -20,7 +20,7 @@
   const FORMAT_NAMES = { md: "MD", markdown: "MD", pdf: "PDF", pptx: "PPTX", docx: "DOCX", html: "HTML", zip: "ZIP", csv: "CSV", json: "JSON" };
   const STAGE_NAMES = { draft: "Постановка", discover: "Подбор объектов", objects: "Проверка объектов",
     sources: "Сбор материалов", scales: "Проверка шкал", ratings: "Оценивание объектов",
-    analysis: "Факторный и кластерный анализ", cluster_review: "Сравнение группировок",
+    analysis: "Факторный и кластерный анализ", cluster_review: "Сравнение группировок", coverage_completion: "Уточнение неполных профилей",
     interpretation: "Интерпретация", export: "Подготовка файлов", complete: "Отчёт подготовлен" };
   const state = {
     config: {}, studies: [], study: null, step: 1, busy: false, error: "",

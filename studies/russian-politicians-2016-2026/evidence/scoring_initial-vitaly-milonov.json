@@ -1,0 +1,664 @@
+{
+  "object_id": "vitaly-milonov",
+  "scales_basis": "2bee01a202c39ee721dfa985f553d5ce4502c74051ebe616ba3acc72ad80c440",
+  "dossier_basis": "c0cd7330176d235a20fafb0a9f46fd8899e38c103d120d472f24aa52722c358a",
+  "evidence_file": "evidence/vitaly-milonov.json",
+  "period": [
+    "2016-10-15",
+    "2026-10-15"
+  ],
+  "ratings": [
+    {
+      "object_id": "vitaly-milonov",
+      "scale_id": "security-sovereignty",
+      "positive": 3,
+      "negative": 0,
+      "difference": 3,
+      "mass": 3,
+      "status": "observed",
+      "confidence": 0.8,
+      "reason": "В публичной деятельности Милонова отмечены инициативы по ограничению иностранной рабочей силы и критика международных культурных форматов, что отражает акцент на суверенитет и защиту от внешнего влияния.",
+      "sources": [
+        "https://stuki-druki.com/authors/Milonov-Vitaliy.php"
+      ],
+      "evidence_indices": [
+        4,
+        5
+      ],
+      "model": "gpt-4.1",
+      "at": "2026-10-14T21:44:05.501469+00:00",
+      "evidence_file": "evidence/vitaly-milonov.json",
+      "evidence_basis": "c0cd7330176d235a20fafb0a9f46fd8899e38c103d120d472f24aa52722c358a",
+      "rating_pass": "initial",
+      "measurement_note": "LLM-оценка по извлечённому досье; ссылки не означают независимую экспертную верификацию"
+    },
+    {
+      "object_id": "vitaly-milonov",
+      "scale_id": "historical-memory",
+      "positive": null,
+      "negative": null,
+      "difference": null,
+      "mass": null,
+      "status": "unknown",
+      "confidence": 0.3,
+      "reason": "В предоставленных фактах отсутствуют прямые аргументы о наследии прошлого или необходимости преобразования ради будущего.",
+      "sources": [],
+      "evidence_indices": [],
+      "model": "gpt-4.1",
+      "at": "2026-10-14T21:44:05.501469+00:00",
+      "evidence_file": "evidence/vitaly-milonov.json",
+      "evidence_basis": "c0cd7330176d235a20fafb0a9f46fd8899e38c103d120d472f24aa52722c358a",
+      "rating_pass": "initial",
+      "measurement_note": "LLM-оценка по извлечённому досье; ссылки не означают независимую экспертную верификацию"
+    },
+    {
+      "object_id": "vitaly-milonov",
+      "scale_id": "technocratic-management",
+      "positive": 1,
+      "negative": 3,
+      "difference": -2,
+      "mass": 4,
+      "status": "observed",
+      "confidence": 0.7,
+      "reason": "В ряде инициатив (регулирование микрокредитования, цифровая идентификация) присутствует прикладная аргументация, однако основной публичный акцент делается на идеологических и символических целях (семейная, нравственная, культурная политика).",
+      "sources": [
+        "https://svpressa.ru/persons/vitaliy-milonov/",
+        "https://stuki-druki.com/authors/Milonov-Vitaliy.php",
+        "https://www.pnp.ru/person/vitaliy-milonov/"
+      ],
+      "evidence_indices": [
+        2,
+        3,
+        5,
+        6,
+        9,
+        10
+      ],
+      "model": "gpt-4.1",
+      "at": "2026-10-14T21:44:05.501469+00:00",
+      "evidence_file": "evidence/vitaly-milonov.json",
+      "evidence_basis": "c0cd7330176d235a20fafb0a9f46fd8899e38c103d120d472f24aa52722c358a",
+      "rating_pass": "initial",
+      "measurement_note": "LLM-оценка по извлечённому досье; ссылки не означают независимую экспертную верификацию"
+    },
+    {
+      "object_id": "vitaly-milonov",
+      "scale_id": "parliamentary-institutional",
+      "positive": 3,
+      "negative": 0,
+      "difference": 3,
+      "mass": 3,
+      "status": "observed",
+      "confidence": 0.9,
+      "reason": "Милонов стабильно действует в рамках парламентских процедур, занимает должности в профильных комитетах, опирается на партийную и территориальную инфраструктуру.",
+      "sources": [
+        "https://tass.ru/encyclopedia/person/milonov-vitaliy-valentinovich",
+        "https://www.pnp.ru/person/vitaliy-milonov/"
+      ],
+      "evidence_indices": [
+        0,
+        1,
+        7,
+        8,
+        9,
+        10
+      ],
+      "model": "gpt-4.1",
+      "at": "2026-10-14T21:44:05.501469+00:00",
+      "evidence_file": "evidence/vitaly-milonov.json",
+      "evidence_basis": "c0cd7330176d235a20fafb0a9f46fd8899e38c103d120d472f24aa52722c358a",
+      "rating_pass": "initial",
+      "measurement_note": "LLM-оценка по извлечённому досье; ссылки не означают независимую экспертную верификацию"
+    },
+    {
+      "object_id": "vitaly-milonov",
+      "scale_id": "oppositionality",
+      "positive": 0,
+      "negative": 3,
+      "difference": -3,
+      "mass": 3,
+      "status": "observed",
+      "confidence": 0.8,
+      "reason": "Милонов избирается от партии власти, занимает руководящие позиции в комитетах, отсутствуют признаки публичной критики федерального курса.",
+      "sources": [
+        "https://tass.ru/encyclopedia/person/milonov-vitaliy-valentinovich",
+        "https://www.pnp.ru/person/vitaliy-milonov/"
+      ],
+      "evidence_indices": [
+        0,
+        7,
+        8,
+        9,
+        10
+      ],
+      "model": "gpt-4.1",
+      "at": "2026-10-14T21:44:05.501469+00:00",
+      "evidence_file": "evidence/vitaly-milonov.json",
+      "evidence_basis": "c0cd7330176d235a20fafb0a9f46fd8899e38c103d120d472f24aa52722c358a",
+      "rating_pass": "initial",
+      "measurement_note": "LLM-оценка по извлечённому досье; ссылки не означают независимую экспертную верификацию"
+    },
+    {
+      "object_id": "vitaly-milonov",
+      "scale_id": "social-policy",
+      "positive": 3,
+      "negative": 0,
+      "difference": 3,
+      "mass": 3,
+      "status": "observed",
+      "confidence": 0.9,
+      "reason": "Публичная и институциональная деятельность Милонова связана с защитой семьи, детей, социальной и нравственной повесткой, что указывает на акцент на государственных гарантиях.",
+      "sources": [
+        "https://stuki-druki.com/authors/Milonov-Vitaliy.php",
+        "https://tass.ru/encyclopedia/person/milonov-vitaliy-valentinovich",
+        "https://www.pnp.ru/person/vitaliy-milonov/"
+      ],
+      "evidence_indices": [
+        6,
+        8,
+        9,
+        10
+      ],
+      "model": "gpt-4.1",
+      "at": "2026-10-14T21:44:05.501469+00:00",
+      "evidence_file": "evidence/vitaly-milonov.json",
+      "evidence_basis": "c0cd7330176d235a20fafb0a9f46fd8899e38c103d120d472f24aa52722c358a",
+      "rating_pass": "initial",
+      "measurement_note": "LLM-оценка по извлечённому досье; ссылки не означают независимую экспертную верификацию"
+    },
+    {
+      "object_id": "vitaly-milonov",
+      "scale_id": "federal-loyalty",
+      "positive": 3,
+      "negative": 0,
+      "difference": 3,
+      "mass": 3,
+      "status": "observed",
+      "confidence": 0.8,
+      "reason": "Милонов действует в федеральной повестке, избирается от федеральной партии, не выражает позиций о региональной автономии.",
+      "sources": [
+        "https://tass.ru/encyclopedia/person/milonov-vitaliy-valentinovich",
+        "https://www.pnp.ru/person/vitaliy-milonov/"
+      ],
+      "evidence_indices": [
+        0,
+        1,
+        7,
+        8,
+        9,
+        10
+      ],
+      "model": "gpt-4.1",
+      "at": "2026-10-14T21:44:05.501469+00:00",
+      "evidence_file": "evidence/vitaly-milonov.json",
+      "evidence_basis": "c0cd7330176d235a20fafb0a9f46fd8899e38c103d120d472f24aa52722c358a",
+      "rating_pass": "initial",
+      "measurement_note": "LLM-оценка по извлечённому досье; ссылки не означают независимую экспертную верификацию"
+    },
+    {
+      "object_id": "vitaly-milonov",
+      "scale_id": "mobilization-rhetoric",
+      "positive": 1,
+      "negative": 0,
+      "difference": 1,
+      "mass": 1,
+      "status": "observed",
+      "confidence": 0.5,
+      "reason": "В риторике Милонова отмечены отдельные призывы к защите традиционных ценностей, однако массовой мобилизационной риторики не зафиксировано.",
+      "sources": [
+        "https://stuki-druki.com/authors/Milonov-Vitaliy.php",
+        "https://www.pnp.ru/person/vitaliy-milonov/"
+      ],
+      "evidence_indices": [
+        6,
+        9,
+        10
+      ],
+      "model": "gpt-4.1",
+      "at": "2026-10-14T21:44:05.501469+00:00",
+      "evidence_file": "evidence/vitaly-milonov.json",
+      "evidence_basis": "c0cd7330176d235a20fafb0a9f46fd8899e38c103d120d472f24aa52722c358a",
+      "rating_pass": "initial",
+      "measurement_note": "LLM-оценка по извлечённому досье; ссылки не означают независимую экспертную верификацию"
+    },
+    {
+      "object_id": "vitaly-milonov",
+      "scale_id": "conflictuality",
+      "positive": 1,
+      "negative": 0,
+      "difference": 1,
+      "mass": 1,
+      "status": "observed",
+      "confidence": 0.5,
+      "reason": "Есть отдельные эпизоды полемики (например, критика Евровидения), но устойчивой конфронтационной или компромиссной риторики не выявлено.",
+      "sources": [
+        "https://stuki-druki.com/authors/Milonov-Vitaliy.php"
+      ],
+      "evidence_indices": [
+        5
+      ],
+      "model": "gpt-4.1",
+      "at": "2026-10-14T21:44:05.501469+00:00",
+      "evidence_file": "evidence/vitaly-milonov.json",
+      "evidence_basis": "c0cd7330176d235a20fafb0a9f46fd8899e38c103d120d472f24aa52722c358a",
+      "rating_pass": "initial",
+      "measurement_note": "LLM-оценка по извлечённому досье; ссылки не означают независимую экспертную верификацию"
+    },
+    {
+      "object_id": "vitaly-milonov",
+      "scale_id": "media-personalization",
+      "positive": 1,
+      "negative": 1,
+      "difference": 0,
+      "mass": 2,
+      "status": "observed",
+      "confidence": 0.5,
+      "reason": "Милонов известен как самостоятельная публичная фигура, однако его деятельность тесно связана с парламентскими и партийными институтами.",
+      "sources": [
+        "https://tass.ru/encyclopedia/person/milonov-vitaliy-valentinovich",
+        "https://www.pnp.ru/person/vitaliy-milonov/"
+      ],
+      "evidence_indices": [
+        0,
+        7,
+        8,
+        9,
+        10
+      ],
+      "model": "gpt-4.1",
+      "at": "2026-10-14T21:44:05.501469+00:00",
+      "evidence_file": "evidence/vitaly-milonov.json",
+      "evidence_basis": "c0cd7330176d235a20fafb0a9f46fd8899e38c103d120d472f24aa52722c358a",
+      "rating_pass": "initial",
+      "measurement_note": "LLM-оценка по извлечённому досье; ссылки не означают независимую экспертную верификацию"
+    },
+    {
+      "object_id": "vitaly-milonov",
+      "scale_id": "antiwesternism",
+      "positive": 3,
+      "negative": 0,
+      "difference": 3,
+      "mass": 3,
+      "status": "observed",
+      "confidence": 0.7,
+      "reason": "Критика Евровидения и предложение национального конкурса отражают элементы антизападной риторики.",
+      "sources": [
+        "https://stuki-druki.com/authors/Milonov-Vitaliy.php"
+      ],
+      "evidence_indices": [
+        5
+      ],
+      "model": "gpt-4.1",
+      "at": "2026-10-14T21:44:05.501469+00:00",
+      "evidence_file": "evidence/vitaly-milonov.json",
+      "evidence_basis": "c0cd7330176d235a20fafb0a9f46fd8899e38c103d120d472f24aa52722c358a",
+      "rating_pass": "initial",
+      "measurement_note": "LLM-оценка по извлечённому досье; ссылки не означают независимую экспертную верификацию"
+    },
+    {
+      "object_id": "vitaly-milonov",
+      "scale_id": "party-leadership",
+      "positive": 3,
+      "negative": 0,
+      "difference": 3,
+      "mass": 3,
+      "status": "observed",
+      "confidence": 0.8,
+      "reason": "Милонов стабильно избирается от партии «Единая Россия», его деятельность интегрирована в партийную структуру.",
+      "sources": [
+        "https://tass.ru/encyclopedia/person/milonov-vitaliy-valentinovich",
+        "https://www.pnp.ru/person/vitaliy-milonov/"
+      ],
+      "evidence_indices": [
+        0,
+        7,
+        8,
+        9,
+        10
+      ],
+      "model": "gpt-4.1",
+      "at": "2026-10-14T21:44:05.501469+00:00",
+      "evidence_file": "evidence/vitaly-milonov.json",
+      "evidence_basis": "c0cd7330176d235a20fafb0a9f46fd8899e38c103d120d472f24aa52722c358a",
+      "rating_pass": "initial",
+      "measurement_note": "LLM-оценка по извлечённому досье; ссылки не означают независимую экспертную верификацию"
+    },
+    {
+      "object_id": "vitaly-milonov",
+      "scale_id": "public-transparency",
+      "positive": null,
+      "negative": null,
+      "difference": null,
+      "mass": null,
+      "status": "unknown",
+      "confidence": 0.3,
+      "reason": "В предоставленных материалах отсутствуют прямые сведения о публичных заявлениях Милонова относительно прозрачности или закрытости принятия решений, раскрытия информации или общественного контроля.",
+      "sources": [],
+      "evidence_indices": [],
+      "model": "gpt-4.1",
+      "at": "2026-10-14T21:44:11.648838+00:00",
+      "evidence_file": "evidence/vitaly-milonov.json",
+      "evidence_basis": "c0cd7330176d235a20fafb0a9f46fd8899e38c103d120d472f24aa52722c358a",
+      "rating_pass": "initial",
+      "measurement_note": "LLM-оценка по извлечённому досье; ссылки не означают независимую экспертную верификацию"
+    },
+    {
+      "object_id": "vitaly-milonov",
+      "scale_id": "family-values",
+      "positive": 5,
+      "negative": 0,
+      "difference": 5,
+      "mass": 5,
+      "status": "observed",
+      "confidence": 1,
+      "reason": "Многочисленные факты указывают на устойчивый и определяющий акцент Милонова на защите традиционных семейных и морально-нравственных норм как в законодательных инициативах, так и в институциональной роли в профильных комитетах.",
+      "sources": [
+        "https://stuki-druki.com/authors/Milonov-Vitaliy.php",
+        "https://tass.ru/encyclopedia/person/milonov-vitaliy-valentinovich",
+        "https://www.pnp.ru/person/vitaliy-milonov/"
+      ],
+      "evidence_indices": [
+        6,
+        8,
+        9,
+        10
+      ],
+      "model": "gpt-4.1",
+      "at": "2026-10-14T21:44:11.648838+00:00",
+      "evidence_file": "evidence/vitaly-milonov.json",
+      "evidence_basis": "c0cd7330176d235a20fafb0a9f46fd8899e38c103d120d472f24aa52722c358a",
+      "rating_pass": "initial",
+      "measurement_note": "LLM-оценка по извлечённому досье; ссылки не означают независимую экспертную верификацию"
+    },
+    {
+      "object_id": "vitaly-milonov",
+      "scale_id": "international-activity",
+      "positive": 1,
+      "negative": 3,
+      "difference": -2,
+      "mass": 4,
+      "status": "observed",
+      "confidence": 0.7,
+      "reason": "Милонов входил в комитет по международным делам, что отражает единичное проявление внешнеполитической активности, однако основная публичная повестка оставалась внутренней, особенно в социальной и семейной сфере.",
+      "sources": [
+        "https://tass.ru/encyclopedia/person/milonov-vitaliy-valentinovich",
+        "https://www.pnp.ru/person/vitaliy-milonov/"
+      ],
+      "evidence_indices": [
+        1,
+        8,
+        9,
+        10
+      ],
+      "model": "gpt-4.1",
+      "at": "2026-10-14T21:44:11.648838+00:00",
+      "evidence_file": "evidence/vitaly-milonov.json",
+      "evidence_basis": "c0cd7330176d235a20fafb0a9f46fd8899e38c103d120d472f24aa52722c358a",
+      "rating_pass": "initial",
+      "measurement_note": "LLM-оценка по извлечённому досье; ссылки не означают независимую экспертную верификацию"
+    },
+    {
+      "object_id": "vitaly-milonov",
+      "scale_id": "antiwar-rhetoric",
+      "positive": null,
+      "negative": null,
+      "difference": null,
+      "mass": null,
+      "status": "unknown",
+      "confidence": 0.3,
+      "reason": "Нет сведений о публичных заявлениях Милонова по вопросам прекращения или продолжения военных действий в рассматриваемый период.",
+      "sources": [],
+      "evidence_indices": [],
+      "model": "gpt-4.1",
+      "at": "2026-10-14T21:44:11.648838+00:00",
+      "evidence_file": "evidence/vitaly-milonov.json",
+      "evidence_basis": "c0cd7330176d235a20fafb0a9f46fd8899e38c103d120d472f24aa52722c358a",
+      "rating_pass": "initial",
+      "measurement_note": "LLM-оценка по извлечённому досье; ссылки не означают независимую экспертную верификацию"
+    },
+    {
+      "object_id": "vitaly-milonov",
+      "scale_id": "electoral-legitimacy",
+      "positive": 1,
+      "negative": 1,
+      "difference": 0,
+      "mass": 2,
+      "status": "observed",
+      "confidence": 0.6,
+      "reason": "Факты подтверждают участие Милонова в выборах и опору на партийную инфраструктуру, однако отсутствуют прямые заявления о приоритете электорального или административного мандата.",
+      "sources": [
+        "https://tass.ru/encyclopedia/person/milonov-vitaliy-valentinovich"
+      ],
+      "evidence_indices": [
+        0,
+        7
+      ],
+      "model": "gpt-4.1",
+      "at": "2026-10-14T21:44:11.648838+00:00",
+      "evidence_file": "evidence/vitaly-milonov.json",
+      "evidence_basis": "c0cd7330176d235a20fafb0a9f46fd8899e38c103d120d472f24aa52722c358a",
+      "rating_pass": "initial",
+      "measurement_note": "LLM-оценка по извлечённому досье; ссылки не означают независимую экспертную верификацию"
+    },
+    {
+      "object_id": "vitaly-milonov",
+      "scale_id": "economic-ownership",
+      "positive": 0,
+      "negative": 1,
+      "difference": -1,
+      "mass": 1,
+      "status": "observed",
+      "confidence": 0.5,
+      "reason": "Есть единичное проявление поддержки рыночных механизмов через инициативы по регулированию труда и налогообложению, но нет выраженного акцента на государственную или частную экономику.",
+      "sources": [
+        "https://stuki-druki.com/authors/Milonov-Vitaliy.php"
+      ],
+      "evidence_indices": [
+        4
+      ],
+      "model": "gpt-4.1",
+      "at": "2026-10-14T21:44:11.648838+00:00",
+      "evidence_file": "evidence/vitaly-milonov.json",
+      "evidence_basis": "c0cd7330176d235a20fafb0a9f46fd8899e38c103d120d472f24aa52722c358a",
+      "rating_pass": "initial",
+      "measurement_note": "LLM-оценка по извлечённому досье; ссылки не означают независимую экспертную верификацию"
+    },
+    {
+      "object_id": "vitaly-milonov",
+      "scale_id": "economic-modernization",
+      "positive": 0,
+      "negative": 1,
+      "difference": -1,
+      "mass": 1,
+      "status": "observed",
+      "confidence": 0.5,
+      "reason": "Инициатива по цифровой идентификации пользователей соцсетей отражает отдельный эпизод регулирования, но не свидетельствует о системном акценте на технологической модернизации.",
+      "sources": [
+        "https://svpressa.ru/persons/vitaliy-milonov/"
+      ],
+      "evidence_indices": [
+        2
+      ],
+      "model": "gpt-4.1",
+      "at": "2026-10-14T21:44:11.648838+00:00",
+      "evidence_file": "evidence/vitaly-milonov.json",
+      "evidence_basis": "c0cd7330176d235a20fafb0a9f46fd8899e38c103d120d472f24aa52722c358a",
+      "rating_pass": "initial",
+      "measurement_note": "LLM-оценка по извлечённому досье; ссылки не означают независимую экспертную верификацию"
+    },
+    {
+      "object_id": "vitaly-milonov",
+      "scale_id": "media-control",
+      "positive": 3,
+      "negative": 0,
+      "difference": 3,
+      "mass": 3,
+      "status": "observed",
+      "confidence": 0.8,
+      "reason": "Инициатива о регистрации пользователей соцсетей по паспортным данным указывает на устойчивый акцент на государственном контроле за распространением информации.",
+      "sources": [
+        "https://svpressa.ru/persons/vitaliy-milonov/"
+      ],
+      "evidence_indices": [
+        2
+      ],
+      "model": "gpt-4.1",
+      "at": "2026-10-14T21:44:11.648838+00:00",
+      "evidence_file": "evidence/vitaly-milonov.json",
+      "evidence_basis": "c0cd7330176d235a20fafb0a9f46fd8899e38c103d120d472f24aa52722c358a",
+      "rating_pass": "initial",
+      "measurement_note": "LLM-оценка по извлечённому досье; ссылки не означают независимую экспертную верификацию"
+    },
+    {
+      "object_id": "vitaly-milonov",
+      "scale_id": "territorial-policy",
+      "positive": null,
+      "negative": null,
+      "difference": null,
+      "mass": null,
+      "status": "unknown",
+      "confidence": 0.3,
+      "reason": "В материалах отсутствуют сведения о публичных позициях Милонова по вопросам территориальной политики или пересмотра границ.",
+      "sources": [],
+      "evidence_indices": [],
+      "model": "gpt-4.1",
+      "at": "2026-10-14T21:44:11.648838+00:00",
+      "evidence_file": "evidence/vitaly-milonov.json",
+      "evidence_basis": "c0cd7330176d235a20fafb0a9f46fd8899e38c103d120d472f24aa52722c358a",
+      "rating_pass": "initial",
+      "measurement_note": "LLM-оценка по извлечённому досье; ссылки не означают независимую экспертную верификацию"
+    },
+    {
+      "object_id": "vitaly-milonov",
+      "scale_id": "rhetorical-simplicity",
+      "positive": 1,
+      "negative": 0,
+      "difference": 1,
+      "mass": 1,
+      "status": "observed",
+      "confidence": 0.5,
+      "reason": "В ряде инициатив Милонова прослеживается использование простых лозунговых формулировок, однако это не является определяющей чертой его публичного образа.",
+      "sources": [
+        "https://svpressa.ru/persons/vitaliy-milonov/",
+        "https://stuki-druki.com/authors/Milonov-Vitaliy.php"
+      ],
+      "evidence_indices": [
+        2,
+        5,
+        6
+      ],
+      "model": "gpt-4.1",
+      "at": "2026-10-14T21:44:11.648838+00:00",
+      "evidence_file": "evidence/vitaly-milonov.json",
+      "evidence_basis": "c0cd7330176d235a20fafb0a9f46fd8899e38c103d120d472f24aa52722c358a",
+      "rating_pass": "initial",
+      "measurement_note": "LLM-оценка по извлечённому досье; ссылки не означают независимую экспертную верификацию"
+    },
+    {
+      "object_id": "vitaly-milonov",
+      "scale_id": "anti-bureaucracy",
+      "positive": 0,
+      "negative": 1,
+      "difference": -1,
+      "mass": 1,
+      "status": "observed",
+      "confidence": 0.6,
+      "reason": "Инициативы Милонова по регулированию соцсетей и трудовой миграции указывают на акцент на расширение административного регулирования.",
+      "sources": [
+        "https://svpressa.ru/persons/vitaliy-milonov/",
+        "https://stuki-druki.com/authors/Milonov-Vitaliy.php"
+      ],
+      "evidence_indices": [
+        2,
+        4
+      ],
+      "model": "gpt-4.1",
+      "at": "2026-10-14T21:44:11.648838+00:00",
+      "evidence_file": "evidence/vitaly-milonov.json",
+      "evidence_basis": "c0cd7330176d235a20fafb0a9f46fd8899e38c103d120d472f24aa52722c358a",
+      "rating_pass": "initial",
+      "measurement_note": "LLM-оценка по извлечённому досье; ссылки не означают независимую экспертную верификацию"
+    },
+    {
+      "object_id": "vitaly-milonov",
+      "scale_id": "national-patriotism",
+      "positive": 3,
+      "negative": 0,
+      "difference": 3,
+      "mass": 3,
+      "status": "observed",
+      "confidence": 0.7,
+      "reason": "Критика международных культурных форматов и продвижение национальных альтернатив свидетельствуют о заметном акценте на национально-культурной идентичности.",
+      "sources": [
+        "https://stuki-druki.com/authors/Milonov-Vitaliy.php"
+      ],
+      "evidence_indices": [
+        5
+      ],
+      "model": "gpt-4.1",
+      "at": "2026-10-14T21:44:11.648838+00:00",
+      "evidence_file": "evidence/vitaly-milonov.json",
+      "evidence_basis": "c0cd7330176d235a20fafb0a9f46fd8899e38c103d120d472f24aa52722c358a",
+      "rating_pass": "initial",
+      "measurement_note": "LLM-оценка по извлечённому досье; ссылки не означают независимую экспертную верификацию"
+    },
+    {
+      "object_id": "vitaly-milonov",
+      "scale_id": "coalitionality",
+      "positive": 1,
+      "negative": 3,
+      "difference": -2,
+      "mass": 4,
+      "status": "observed",
+      "confidence": 0.7,
+      "reason": "Милонов стабильно действует в рамках фракции «Единая Россия» и использует партийную инфраструктуру, что указывает на выраженную самостоятельную конкуренцию и организационную обособленность. Признаков публичных межпартийных коалиций или объединительных инициатив не выявлено, однако участие в партийной структуре подразумевает минимальный уровень коалиционности внутри партии.",
+      "sources": [
+        "https://tass.ru/encyclopedia/person/milonov-vitaliy-valentinovich",
+        "https://www.pnp.ru/person/vitaliy-milonov/"
+      ],
+      "evidence_indices": [
+        0,
+        7,
+        9,
+        10
+      ],
+      "model": "gpt-4.1",
+      "at": "2026-10-14T21:44:14.862741+00:00",
+      "evidence_file": "evidence/vitaly-milonov.json",
+      "evidence_basis": "c0cd7330176d235a20fafb0a9f46fd8899e38c103d120d472f24aa52722c358a",
+      "rating_pass": "initial",
+      "measurement_note": "LLM-оценка по извлечённому досье; ссылки не означают независимую экспертную верификацию"
+    },
+    {
+      "object_id": "vitaly-milonov",
+      "scale_id": "civil-liberties",
+      "positive": 0,
+      "negative": 3,
+      "difference": -3,
+      "mass": 3,
+      "status": "observed",
+      "confidence": 0.8,
+      "reason": "Публичные инициативы Милонова включают предложения по усилению регулирования (например, регистрация в соцсетях по паспортам, ограничения для иностранных работников), что свидетельствует о выраженном акценте на ограничениях ради порядка. Признаков публичной защиты гражданских свобод или антирепрессивной риторики не обнаружено.",
+      "sources": [
+        "https://svpressa.ru/persons/vitaliy-milonov/",
+        "https://stuki-druki.com/authors/Milonov-Vitaliy.php"
+      ],
+      "evidence_indices": [
+        2,
+        4
+      ],
+      "model": "gpt-4.1",
+      "at": "2026-10-14T21:44:14.862741+00:00",
+      "evidence_file": "evidence/vitaly-milonov.json",
+      "evidence_basis": "c0cd7330176d235a20fafb0a9f46fd8899e38c103d120d472f24aa52722c358a",
+      "rating_pass": "initial",
+      "measurement_note": "LLM-оценка по извлечённому досье; ссылки не означают независимую экспертную верификацию"
+    }
+  ],
+  "unknown_scale_ids": [
+    "historical-memory",
+    "public-transparency",
+    "antiwar-rhetoric",
+    "territorial-policy"
+  ]
+}

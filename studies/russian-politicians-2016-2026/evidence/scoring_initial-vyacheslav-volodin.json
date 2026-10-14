@@ -1,0 +1,727 @@
+{
+  "object_id": "vyacheslav-volodin",
+  "scales_basis": "2bee01a202c39ee721dfa985f553d5ce4502c74051ebe616ba3acc72ad80c440",
+  "dossier_basis": "fb0dd3378dd9b69422939d6869d391a63a2eaa584858f8d515392d6773745a76",
+  "evidence_file": "evidence/vyacheslav-volodin.json",
+  "period": [
+    "2016-10-15",
+    "2026-10-15"
+  ],
+  "ratings": [
+    {
+      "object_id": "vyacheslav-volodin",
+      "scale_id": "security-sovereignty",
+      "positive": 4,
+      "negative": 1,
+      "difference": 3,
+      "mass": 5,
+      "status": "observed",
+      "confidence": 0.9,
+      "reason": "Володин регулярно подчеркивал защиту суверенитета, противопоставлял Россию Западу, обвинял внешние силы во вмешательстве и использовал риторику защиты от внешнего давления. В то же время отмечал международное сотрудничество и ратификацию договоров, но как подтверждение устойчивости России, а не интеграции.",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Vyacheslav_Volodin",
+        "http://duma.gov.ru/en/news/61352/",
+        "http://duma.gov.ru/en/news/62248/",
+        "http://duma.gov.ru/en/news/64178/",
+        "http://duma.gov.ru/en/news/64216",
+        "http://duma.gov.ru/en/news/64239"
+      ],
+      "evidence_indices": [
+        5,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12
+      ],
+      "model": "gpt-4.1",
+      "at": "2026-10-14T21:43:00.484235+00:00",
+      "evidence_file": "evidence/vyacheslav-volodin.json",
+      "evidence_basis": "fb0dd3378dd9b69422939d6869d391a63a2eaa584858f8d515392d6773745a76",
+      "rating_pass": "initial",
+      "measurement_note": "LLM-оценка по извлечённому досье; ссылки не означают независимую экспертную верификацию"
+    },
+    {
+      "object_id": "vyacheslav-volodin",
+      "scale_id": "historical-memory",
+      "positive": null,
+      "negative": null,
+      "difference": null,
+      "mass": null,
+      "status": "unknown",
+      "confidence": 0.3,
+      "reason": "В предоставленных материалах отсутствуют прямые ссылки на апелляцию к исторической памяти или призывы к разрыву с прошлым.",
+      "sources": [],
+      "evidence_indices": [],
+      "model": "gpt-4.1",
+      "at": "2026-10-14T21:43:00.484235+00:00",
+      "evidence_file": "evidence/vyacheslav-volodin.json",
+      "evidence_basis": "fb0dd3378dd9b69422939d6869d391a63a2eaa584858f8d515392d6773745a76",
+      "rating_pass": "initial",
+      "measurement_note": "LLM-оценка по извлечённому досье; ссылки не означают независимую экспертную верификацию"
+    },
+    {
+      "object_id": "vyacheslav-volodin",
+      "scale_id": "technocratic-management",
+      "positive": 3,
+      "negative": 1,
+      "difference": 2,
+      "mass": 4,
+      "status": "observed",
+      "confidence": 0.7,
+      "reason": "Володин подчеркивал эффективность использования бюджета, экономический рост и социальные стандарты как ответ на внешнее давление, что указывает на управленческую аргументацию. Идеологические принципы также присутствуют, но не как основной акцент.",
+      "sources": [
+        "http://duma.gov.ru/en/news/62248/"
+      ],
+      "evidence_indices": [
+        9
+      ],
+      "model": "gpt-4.1",
+      "at": "2026-10-14T21:43:00.484235+00:00",
+      "evidence_file": "evidence/vyacheslav-volodin.json",
+      "evidence_basis": "fb0dd3378dd9b69422939d6869d391a63a2eaa584858f8d515392d6773745a76",
+      "rating_pass": "initial",
+      "measurement_note": "LLM-оценка по извлечённому досье; ссылки не означают независимую экспертную верификацию"
+    },
+    {
+      "object_id": "vyacheslav-volodin",
+      "scale_id": "parliamentary-institutional",
+      "positive": 5,
+      "negative": 0,
+      "difference": 5,
+      "mass": 5,
+      "status": "observed",
+      "confidence": 1.0,
+      "reason": "Володин последовательно и публично представлял себя как председатель Государственной думы, акцентируя институциональную роль парламента и работу в рамках действующих процедур.",
+      "sources": [
+        "http://duma.gov.ru/en/duma/persons/99100829/news/",
+        "http://duma.gov.ru/en/news/64239"
+      ],
+      "evidence_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        6,
+        12
+      ],
+      "model": "gpt-4.1",
+      "at": "2026-10-14T21:43:00.484235+00:00",
+      "evidence_file": "evidence/vyacheslav-volodin.json",
+      "evidence_basis": "fb0dd3378dd9b69422939d6869d391a63a2eaa584858f8d515392d6773745a76",
+      "rating_pass": "initial",
+      "measurement_note": "LLM-оценка по извлечённому досье; ссылки не означают независимую экспертную верификацию"
+    },
+    {
+      "object_id": "vyacheslav-volodin",
+      "scale_id": "oppositionality",
+      "positive": 0,
+      "negative": 5,
+      "difference": -5,
+      "mass": 5,
+      "status": "observed",
+      "confidence": 1.0,
+      "reason": "Володин публично поддерживал курс действующей федеральной власти и представлял официальную позицию, не высказывая критики в адрес руководства.",
+      "sources": [
+        "http://duma.gov.ru/en/duma/persons/99100829/news/",
+        "http://duma.gov.ru/en/news/62248/",
+        "http://duma.gov.ru/en/news/64178/",
+        "http://duma.gov.ru/en/news/64216",
+        "http://duma.gov.ru/en/news/64239"
+      ],
+      "evidence_indices": [
+        1,
+        2,
+        6,
+        9,
+        10,
+        11,
+        12
+      ],
+      "model": "gpt-4.1",
+      "at": "2026-10-14T21:43:00.484235+00:00",
+      "evidence_file": "evidence/vyacheslav-volodin.json",
+      "evidence_basis": "fb0dd3378dd9b69422939d6869d391a63a2eaa584858f8d515392d6773745a76",
+      "rating_pass": "initial",
+      "measurement_note": "LLM-оценка по извлечённому досье; ссылки не означают независимую экспертную верификацию"
+    },
+    {
+      "object_id": "vyacheslav-volodin",
+      "scale_id": "social-policy",
+      "positive": 2,
+      "negative": 0,
+      "difference": 2,
+      "mass": 2,
+      "status": "observed",
+      "confidence": 0.6,
+      "reason": "Володин упоминал сохранение и улучшение социальных стандартов, что указывает на некоторый акцент на государственных гарантиях, но без подробной детализации.",
+      "sources": [
+        "http://duma.gov.ru/en/news/62248/"
+      ],
+      "evidence_indices": [
+        9
+      ],
+      "model": "gpt-4.1",
+      "at": "2026-10-14T21:43:00.484235+00:00",
+      "evidence_file": "evidence/vyacheslav-volodin.json",
+      "evidence_basis": "fb0dd3378dd9b69422939d6869d391a63a2eaa584858f8d515392d6773745a76",
+      "rating_pass": "initial",
+      "measurement_note": "LLM-оценка по извлечённому досье; ссылки не означают независимую экспертную верификацию"
+    },
+    {
+      "object_id": "vyacheslav-volodin",
+      "scale_id": "federal-loyalty",
+      "positive": 4,
+      "negative": 0,
+      "difference": 4,
+      "mass": 4,
+      "status": "observed",
+      "confidence": 0.8,
+      "reason": "Володин связывал деятельность парламента с федеральным уровнем, подчеркивал единство и вертикаль власти, не высказывая позиций о региональной автономии.",
+      "sources": [
+        "http://duma.gov.ru/en/duma/persons/99100829/news/",
+        "http://duma.gov.ru/en/news/62248/"
+      ],
+      "evidence_indices": [
+        2,
+        3,
+        9
+      ],
+      "model": "gpt-4.1",
+      "at": "2026-10-14T21:43:00.484235+00:00",
+      "evidence_file": "evidence/vyacheslav-volodin.json",
+      "evidence_basis": "fb0dd3378dd9b69422939d6869d391a63a2eaa584858f8d515392d6773745a76",
+      "rating_pass": "initial",
+      "measurement_note": "LLM-оценка по извлечённому досье; ссылки не означают независимую экспертную верификацию"
+    },
+    {
+      "object_id": "vyacheslav-volodin",
+      "scale_id": "mobilization-rhetoric",
+      "positive": 3,
+      "negative": 0,
+      "difference": 3,
+      "mass": 3,
+      "status": "observed",
+      "confidence": 0.7,
+      "reason": "Использовал риторику мобилизации, призывы к единству и противостоянию внешним угрозам, особенно в контексте конфликта с Украиной и Западом.",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Vyacheslav_Volodin",
+        "http://duma.gov.ru/en/news/64178/",
+        "http://duma.gov.ru/en/news/64216"
+      ],
+      "evidence_indices": [
+        5,
+        7,
+        10,
+        11
+      ],
+      "model": "gpt-4.1",
+      "at": "2026-10-14T21:43:00.484235+00:00",
+      "evidence_file": "evidence/vyacheslav-volodin.json",
+      "evidence_basis": "fb0dd3378dd9b69422939d6869d391a63a2eaa584858f8d515392d6773745a76",
+      "rating_pass": "initial",
+      "measurement_note": "LLM-оценка по извлечённому досье; ссылки не означают независимую экспертную верификацию"
+    },
+    {
+      "object_id": "vyacheslav-volodin",
+      "scale_id": "conflictuality",
+      "positive": 3,
+      "negative": 0,
+      "difference": 3,
+      "mass": 3,
+      "status": "observed",
+      "confidence": 0.7,
+      "reason": "В ряде случаев использовал конфронтационную риторику, резко критиковал западных лидеров и украинские власти, противопоставлял российскую систему западной.",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Vyacheslav_Volodin",
+        "http://duma.gov.ru/en/news/62248/",
+        "http://duma.gov.ru/en/news/64178/",
+        "http://duma.gov.ru/en/news/64216"
+      ],
+      "evidence_indices": [
+        7,
+        9,
+        10,
+        11
+      ],
+      "model": "gpt-4.1",
+      "at": "2026-10-14T21:43:00.484235+00:00",
+      "evidence_file": "evidence/vyacheslav-volodin.json",
+      "evidence_basis": "fb0dd3378dd9b69422939d6869d391a63a2eaa584858f8d515392d6773745a76",
+      "rating_pass": "initial",
+      "measurement_note": "LLM-оценка по извлечённому досье; ссылки не означают независимую экспертную верификацию"
+    },
+    {
+      "object_id": "vyacheslav-volodin",
+      "scale_id": "media-personalization",
+      "positive": 1,
+      "negative": 3,
+      "difference": -2,
+      "mass": 4,
+      "status": "observed",
+      "confidence": 0.7,
+      "reason": "Преимущественно представлял себя как институционального лидера, действующего от имени парламента, а не как личный бренд. Элементы персонализации присутствуют, но не доминируют.",
+      "sources": [
+        "http://duma.gov.ru/en/duma/persons/99100829/news/",
+        "http://duma.gov.ru/en/news/64239"
+      ],
+      "evidence_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        6,
+        12
+      ],
+      "model": "gpt-4.1",
+      "at": "2026-10-14T21:43:00.484235+00:00",
+      "evidence_file": "evidence/vyacheslav-volodin.json",
+      "evidence_basis": "fb0dd3378dd9b69422939d6869d391a63a2eaa584858f8d515392d6773745a76",
+      "rating_pass": "initial",
+      "measurement_note": "LLM-оценка по извлечённому досье; ссылки не означают независимую экспертную верификацию"
+    },
+    {
+      "object_id": "vyacheslav-volodin",
+      "scale_id": "antiwesternism",
+      "positive": 4,
+      "negative": 0,
+      "difference": 4,
+      "mass": 4,
+      "status": "observed",
+      "confidence": 0.9,
+      "reason": "Володин регулярно использовал антизападную риторику, обвинял западные страны во вмешательстве, противопоставлял российскую и западную политические системы.",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Vyacheslav_Volodin",
+        "http://duma.gov.ru/en/news/62248/",
+        "http://duma.gov.ru/en/news/64178/",
+        "http://duma.gov.ru/en/news/64216"
+      ],
+      "evidence_indices": [
+        7,
+        9,
+        10,
+        11
+      ],
+      "model": "gpt-4.1",
+      "at": "2026-10-14T21:43:00.484235+00:00",
+      "evidence_file": "evidence/vyacheslav-volodin.json",
+      "evidence_basis": "fb0dd3378dd9b69422939d6869d391a63a2eaa584858f8d515392d6773745a76",
+      "rating_pass": "initial",
+      "measurement_note": "LLM-оценка по извлечённому досье; ссылки не означают независимую экспертную верификацию"
+    },
+    {
+      "object_id": "vyacheslav-volodin",
+      "scale_id": "party-leadership",
+      "positive": null,
+      "negative": null,
+      "difference": null,
+      "mass": null,
+      "status": "unknown",
+      "confidence": 0.3,
+      "reason": "В материалах нет прямых упоминаний о партийной мобилизации или независимых инициативах вне партийного контекста.",
+      "sources": [],
+      "evidence_indices": [],
+      "model": "gpt-4.1",
+      "at": "2026-10-14T21:43:00.484235+00:00",
+      "evidence_file": "evidence/vyacheslav-volodin.json",
+      "evidence_basis": "fb0dd3378dd9b69422939d6869d391a63a2eaa584858f8d515392d6773745a76",
+      "rating_pass": "initial",
+      "measurement_note": "LLM-оценка по извлечённому досье; ссылки не означают независимую экспертную верификацию"
+    },
+    {
+      "object_id": "vyacheslav-volodin",
+      "scale_id": "public-transparency",
+      "positive": null,
+      "negative": null,
+      "difference": null,
+      "mass": null,
+      "status": "unknown",
+      "confidence": 0.3,
+      "reason": "В предоставленных материалах нет прямых заявлений или программных акцентов Володина о прозрачности или закрытости принятия решений. Описывается институциональная роль председателя, но не раскрывается отношение к общественному контролю или раскрытию информации.",
+      "sources": [
+        "http://duma.gov.ru/en/duma/persons/99100829/news/",
+        "http://duma.gov.ru/en/news/62248/",
+        "http://duma.gov.ru/en/news/64178/",
+        "http://duma.gov.ru/en/news/64216",
+        "http://duma.gov.ru/en/news/64239"
+      ],
+      "evidence_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        6,
+        9,
+        10,
+        11,
+        12
+      ],
+      "model": "gpt-4.1",
+      "at": "2026-10-14T21:43:07.605913+00:00",
+      "evidence_file": "evidence/vyacheslav-volodin.json",
+      "evidence_basis": "fb0dd3378dd9b69422939d6869d391a63a2eaa584858f8d515392d6773745a76",
+      "rating_pass": "initial",
+      "measurement_note": "LLM-оценка по извлечённому досье; ссылки не означают независимую экспертную верификацию"
+    },
+    {
+      "object_id": "vyacheslav-volodin",
+      "scale_id": "family-values",
+      "positive": null,
+      "negative": null,
+      "difference": null,
+      "mass": null,
+      "status": "unknown",
+      "confidence": 0.2,
+      "reason": "В материалах отсутствуют высказывания или программные заявления Володина по вопросам традиционных семейных или моральных норм, а также индивидуального самоопределения.",
+      "sources": [],
+      "evidence_indices": [],
+      "model": "gpt-4.1",
+      "at": "2026-10-14T21:43:07.605913+00:00",
+      "evidence_file": "evidence/vyacheslav-volodin.json",
+      "evidence_basis": "fb0dd3378dd9b69422939d6869d391a63a2eaa584858f8d515392d6773745a76",
+      "rating_pass": "initial",
+      "measurement_note": "LLM-оценка по извлечённому досье; ссылки не означают независимую экспертную верификацию"
+    },
+    {
+      "object_id": "vyacheslav-volodin",
+      "scale_id": "international-activity",
+      "positive": 3,
+      "negative": 1,
+      "difference": 2,
+      "mass": 4,
+      "status": "observed",
+      "confidence": 0.7,
+      "reason": "Володин регулярно выступает как представитель официальной позиции России по международным вопросам, противопоставляет российскую систему западной, обсуждает международное сотрудничество и внешнее давление. Однако основной акцент — парламентская деятельность внутри страны.",
+      "sources": [
+        "http://duma.gov.ru/en/duma/persons/99100829/news/",
+        "http://duma.gov.ru/en/news/61352/",
+        "http://duma.gov.ru/en/news/62248/",
+        "http://duma.gov.ru/en/news/64178/",
+        "http://duma.gov.ru/en/news/64216",
+        "http://duma.gov.ru/en/news/64239"
+      ],
+      "evidence_indices": [
+        1,
+        6,
+        8,
+        9,
+        10,
+        11,
+        12
+      ],
+      "model": "gpt-4.1",
+      "at": "2026-10-14T21:43:07.605913+00:00",
+      "evidence_file": "evidence/vyacheslav-volodin.json",
+      "evidence_basis": "fb0dd3378dd9b69422939d6869d391a63a2eaa584858f8d515392d6773745a76",
+      "rating_pass": "initial",
+      "measurement_note": "LLM-оценка по извлечённому досье; ссылки не означают независимую экспертную верификацию"
+    },
+    {
+      "object_id": "vyacheslav-volodin",
+      "scale_id": "antiwar-rhetoric",
+      "positive": null,
+      "negative": null,
+      "difference": null,
+      "mass": null,
+      "status": "unknown",
+      "confidence": 0.7,
+      "reason": "В ряде эпизодов Володин оправдывает военные действия, призывает к применению вооружений и обвиняет внешних акторов в эскалации конфликта. Призывов к прекращению военных действий не зафиксировано.",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Vyacheslav_Volodin",
+        "http://duma.gov.ru/en/news/64216",
+        "http://duma.gov.ru/en/news/64239"
+      ],
+      "evidence_indices": [
+        5,
+        7,
+        11,
+        12
+      ],
+      "model": "gpt-4.1",
+      "at": "2026-10-14T21:43:07.605913+00:00",
+      "evidence_file": "evidence/vyacheslav-volodin.json",
+      "evidence_basis": "fb0dd3378dd9b69422939d6869d391a63a2eaa584858f8d515392d6773745a76",
+      "rating_pass": "initial",
+      "measurement_note": "LLM-оценка по извлечённому досье; ссылки не означают независимую экспертную верификацию"
+    },
+    {
+      "object_id": "vyacheslav-volodin",
+      "scale_id": "electoral-legitimacy",
+      "positive": 1,
+      "negative": 3,
+      "difference": -2,
+      "mass": 4,
+      "status": "observed",
+      "confidence": 0.6,
+      "reason": "Володин подчеркивает роль парламента и выборов, но также противопоставляет российскую систему западной, критикует западные избирательные практики и акцентирует институциональную преемственность и государственную иерархию.",
+      "sources": [
+        "http://duma.gov.ru/en/duma/persons/99100829/news/",
+        "http://duma.gov.ru/en/news/64178/"
+      ],
+      "evidence_indices": [
+        0,
+        1,
+        4,
+        10
+      ],
+      "model": "gpt-4.1",
+      "at": "2026-10-14T21:43:07.605913+00:00",
+      "evidence_file": "evidence/vyacheslav-volodin.json",
+      "evidence_basis": "fb0dd3378dd9b69422939d6869d391a63a2eaa584858f8d515392d6773745a76",
+      "rating_pass": "initial",
+      "measurement_note": "LLM-оценка по извлечённому досье; ссылки не означают независимую экспертную верификацию"
+    },
+    {
+      "object_id": "vyacheslav-volodin",
+      "scale_id": "economic-ownership",
+      "positive": null,
+      "negative": null,
+      "difference": null,
+      "mass": null,
+      "status": "unknown",
+      "confidence": 0.3,
+      "reason": "В материалах нет прямых заявлений Володина о роли государства или частного капитала в экономике.",
+      "sources": [
+        "http://duma.gov.ru/en/news/62248/"
+      ],
+      "evidence_indices": [
+        9
+      ],
+      "model": "gpt-4.1",
+      "at": "2026-10-14T21:43:07.605913+00:00",
+      "evidence_file": "evidence/vyacheslav-volodin.json",
+      "evidence_basis": "fb0dd3378dd9b69422939d6869d391a63a2eaa584858f8d515392d6773745a76",
+      "rating_pass": "initial",
+      "measurement_note": "LLM-оценка по извлечённому досье; ссылки не означают независимую экспертную верификацию"
+    },
+    {
+      "object_id": "vyacheslav-volodin",
+      "scale_id": "economic-modernization",
+      "positive": null,
+      "negative": null,
+      "difference": null,
+      "mass": null,
+      "status": "unknown",
+      "confidence": 0.3,
+      "reason": "Володин упоминает экономический рост и эффективность, но не делает акцентов на технологическом обновлении или сохранении традиционных моделей.",
+      "sources": [
+        "http://duma.gov.ru/en/news/62248/"
+      ],
+      "evidence_indices": [
+        9
+      ],
+      "model": "gpt-4.1",
+      "at": "2026-10-14T21:43:07.605913+00:00",
+      "evidence_file": "evidence/vyacheslav-volodin.json",
+      "evidence_basis": "fb0dd3378dd9b69422939d6869d391a63a2eaa584858f8d515392d6773745a76",
+      "rating_pass": "initial",
+      "measurement_note": "LLM-оценка по извлечённому досье; ссылки не означают независимую экспертную верификацию"
+    },
+    {
+      "object_id": "vyacheslav-volodin",
+      "scale_id": "media-control",
+      "positive": null,
+      "negative": null,
+      "difference": null,
+      "mass": null,
+      "status": "unknown",
+      "confidence": 0.2,
+      "reason": "Нет данных о публичных позициях Володина по вопросам регулирования информации или свободы выражения.",
+      "sources": [],
+      "evidence_indices": [],
+      "model": "gpt-4.1",
+      "at": "2026-10-14T21:43:07.605913+00:00",
+      "evidence_file": "evidence/vyacheslav-volodin.json",
+      "evidence_basis": "fb0dd3378dd9b69422939d6869d391a63a2eaa584858f8d515392d6773745a76",
+      "rating_pass": "initial",
+      "measurement_note": "LLM-оценка по извлечённому досье; ссылки не означают независимую экспертную верификацию"
+    },
+    {
+      "object_id": "vyacheslav-volodin",
+      "scale_id": "territorial-policy",
+      "positive": null,
+      "negative": null,
+      "difference": null,
+      "mass": null,
+      "status": "unknown",
+      "confidence": 0.7,
+      "reason": "В риторике Володина присутствует оправдание действий, связанных с территориальным конфликтом, обвинения в адрес Украины и Запада, но нет заявлений о сохранении международно признанных границ.",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Vyacheslav_Volodin",
+        "http://duma.gov.ru/en/news/64216",
+        "http://duma.gov.ru/en/news/64239"
+      ],
+      "evidence_indices": [
+        5,
+        7,
+        11,
+        12
+      ],
+      "model": "gpt-4.1",
+      "at": "2026-10-14T21:43:07.605913+00:00",
+      "evidence_file": "evidence/vyacheslav-volodin.json",
+      "evidence_basis": "fb0dd3378dd9b69422939d6869d391a63a2eaa584858f8d515392d6773745a76",
+      "rating_pass": "initial",
+      "measurement_note": "LLM-оценка по извлечённому досье; ссылки не означают независимую экспертную верификацию"
+    },
+    {
+      "object_id": "vyacheslav-volodin",
+      "scale_id": "rhetorical-simplicity",
+      "positive": 3,
+      "negative": 1,
+      "difference": 2,
+      "mass": 4,
+      "status": "observed",
+      "confidence": 0.6,
+      "reason": "В ряде случаев Володин использует простые противопоставления (Россия — Запад, свои — чужие), резкие оценки и лозунговые формулировки, но иногда присутствует и аргументация.",
+      "sources": [
+        "http://duma.gov.ru/en/news/61352/",
+        "http://duma.gov.ru/en/news/62248/",
+        "http://duma.gov.ru/en/news/64178/",
+        "http://duma.gov.ru/en/news/64216",
+        "http://duma.gov.ru/en/news/64239"
+      ],
+      "evidence_indices": [
+        8,
+        9,
+        10,
+        11,
+        12
+      ],
+      "model": "gpt-4.1",
+      "at": "2026-10-14T21:43:07.605913+00:00",
+      "evidence_file": "evidence/vyacheslav-volodin.json",
+      "evidence_basis": "fb0dd3378dd9b69422939d6869d391a63a2eaa584858f8d515392d6773745a76",
+      "rating_pass": "initial",
+      "measurement_note": "LLM-оценка по извлечённому досье; ссылки не означают независимую экспертную верификацию"
+    },
+    {
+      "object_id": "vyacheslav-volodin",
+      "scale_id": "anti-bureaucracy",
+      "positive": null,
+      "negative": null,
+      "difference": null,
+      "mass": null,
+      "status": "unknown",
+      "confidence": 0.2,
+      "reason": "В материалах отсутствуют высказывания о сокращении или расширении административного регулирования.",
+      "sources": [],
+      "evidence_indices": [],
+      "model": "gpt-4.1",
+      "at": "2026-10-14T21:43:07.605913+00:00",
+      "evidence_file": "evidence/vyacheslav-volodin.json",
+      "evidence_basis": "fb0dd3378dd9b69422939d6869d391a63a2eaa584858f8d515392d6773745a76",
+      "rating_pass": "initial",
+      "measurement_note": "LLM-оценка по извлечённому досье; ссылки не означают независимую экспертную верификацию"
+    },
+    {
+      "object_id": "vyacheslav-volodin",
+      "scale_id": "national-patriotism",
+      "positive": null,
+      "negative": null,
+      "difference": null,
+      "mass": null,
+      "status": "unknown",
+      "confidence": 0.7,
+      "reason": "Володин регулярно противопоставляет российскую идентичность и интересы западным, подчеркивает особую роль России и защищает национальную общность.",
+      "sources": [
+        "http://duma.gov.ru/en/news/61352/",
+        "http://duma.gov.ru/en/news/64178/",
+        "http://duma.gov.ru/en/news/64216",
+        "http://duma.gov.ru/en/news/64239"
+      ],
+      "evidence_indices": [
+        8,
+        10,
+        11,
+        12
+      ],
+      "model": "gpt-4.1",
+      "at": "2026-10-14T21:43:07.605913+00:00",
+      "evidence_file": "evidence/vyacheslav-volodin.json",
+      "evidence_basis": "fb0dd3378dd9b69422939d6869d391a63a2eaa584858f8d515392d6773745a76",
+      "rating_pass": "initial",
+      "measurement_note": "LLM-оценка по извлечённому досье; ссылки не означают независимую экспертную верификацию"
+    },
+    {
+      "object_id": "vyacheslav-volodin",
+      "scale_id": "coalitionality",
+      "positive": 3,
+      "negative": 2,
+      "difference": 1,
+      "mass": 5,
+      "status": "observed",
+      "confidence": 0.7,
+      "reason": "Володин устойчиво представляет себя как руководителя Государственной думы, подчеркивает роль парламента как центральной площадки для выработки решений федерального уровня и демонстрирует парламент как действующий институт управления. В риторике присутствует акцент на объединении усилий внутри страны и расширении международного сотрудничества (факт 12). Однако нет признаков выраженной самостоятельной конкуренции или изоляционизма, но присутствует некоторая организационная обособленность через противопоставление российской системы западной (факты 9, 10, 11).",
+      "sources": [
+        "http://duma.gov.ru/en/duma/persons/99100829/news/",
+        "http://duma.gov.ru/en/news/64216",
+        "http://duma.gov.ru/en/news/64239"
+      ],
+      "evidence_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        6,
+        11,
+        12
+      ],
+      "model": "gpt-4.1",
+      "at": "2026-10-14T21:43:10.829410+00:00",
+      "evidence_file": "evidence/vyacheslav-volodin.json",
+      "evidence_basis": "fb0dd3378dd9b69422939d6869d391a63a2eaa584858f8d515392d6773745a76",
+      "rating_pass": "initial",
+      "measurement_note": "LLM-оценка по извлечённому досье; ссылки не означают независимую экспертную верификацию"
+    },
+    {
+      "object_id": "vyacheslav-volodin",
+      "scale_id": "civil-liberties",
+      "positive": 1,
+      "negative": 4,
+      "difference": -3,
+      "mass": 5,
+      "status": "observed",
+      "confidence": 0.8,
+      "reason": "Володин в публичных заявлениях подчеркивает ограничения и критикует западные страны за якобы отсутствие политических свобод, одновременно представляя российскую систему как альтернативу (факты 9, 10, 11). Призывы к ужесточению мер против украинских властей (факт 7) и риторика о внешних угрозах указывают на акцент на ограничениях ради порядка. Защита гражданских свобод выражена слабо и только в виде риторического противопоставления, без конкретных инициатив.",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Vyacheslav_Volodin",
+        "http://duma.gov.ru/en/news/61352/",
+        "http://duma.gov.ru/en/news/62248/",
+        "http://duma.gov.ru/en/news/64178/",
+        "http://duma.gov.ru/en/news/64216"
+      ],
+      "evidence_indices": [
+        7,
+        8,
+        9,
+        10,
+        11
+      ],
+      "model": "gpt-4.1",
+      "at": "2026-10-14T21:43:10.829410+00:00",
+      "evidence_file": "evidence/vyacheslav-volodin.json",
+      "evidence_basis": "fb0dd3378dd9b69422939d6869d391a63a2eaa584858f8d515392d6773745a76",
+      "rating_pass": "initial",
+      "measurement_note": "LLM-оценка по извлечённому досье; ссылки не означают независимую экспертную верификацию"
+    }
+  ],
+  "unknown_scale_ids": [
+    "historical-memory",
+    "party-leadership",
+    "public-transparency",
+    "family-values",
+    "antiwar-rhetoric",
+    "economic-ownership",
+    "economic-modernization",
+    "media-control",
+    "territorial-policy",
+    "anti-bureaucracy",
+    "national-patriotism"
+  ]
+}

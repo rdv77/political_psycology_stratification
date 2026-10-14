@@ -1,0 +1,671 @@
+{
+  "object_id": "sergey-udaltsov",
+  "scales_basis": "2bee01a202c39ee721dfa985f553d5ce4502c74051ebe616ba3acc72ad80c440",
+  "dossier_basis": "98e1a34284e91206087f346235e81d0995f55ec53f453265abad3b547c8c744c",
+  "evidence_file": "evidence/sergey-udaltsov.json",
+  "period": [
+    "2016-10-15",
+    "2026-10-15"
+  ],
+  "ratings": [
+    {
+      "object_id": "sergey-udaltsov",
+      "scale_id": "security-sovereignty",
+      "positive": 3,
+      "negative": 1,
+      "difference": 2,
+      "mass": 4,
+      "status": "observed",
+      "confidence": 0.7,
+      "reason": "Удальцов поддерживал присоединение Крыма и самопровозглашённых республик Донбасса, что указывает на акцент на суверенитете и самостоятельности. Признаков выраженной ориентации на международную интеграцию не выявлено, но ситуативное взаимодействие с разными политическими силами отмечено.",
+      "sources": [
+        "https://www.rbc.ru/politics/10/08/2017/598c8d6d9a79474cff05cbab"
+      ],
+      "evidence_indices": [
+        0
+      ],
+      "model": "gpt-4.1",
+      "at": "2026-10-14T21:47:07.868326+00:00",
+      "evidence_file": "evidence/sergey-udaltsov.json",
+      "evidence_basis": "98e1a34284e91206087f346235e81d0995f55ec53f453265abad3b547c8c744c",
+      "rating_pass": "initial",
+      "measurement_note": "LLM-оценка по извлечённому досье; ссылки не означают независимую экспертную верификацию"
+    },
+    {
+      "object_id": "sergey-udaltsov",
+      "scale_id": "historical-memory",
+      "positive": 1,
+      "negative": 2,
+      "difference": -1,
+      "mass": 3,
+      "status": "observed",
+      "confidence": 0.5,
+      "reason": "В публичных заявлениях Удальцова нет акцента на историческую преемственность, но есть риторика о необходимости обновления левого движения и перезапуска «Левого фронта», что указывает на некоторый акцент на преобразовании будущего.",
+      "sources": [
+        "https://www.bbc.com/russian/news-40853405",
+        "https://www.vedomosti.ru/politics/articles/2017/08/10/728820-udaltsov"
+      ],
+      "evidence_indices": [
+        1,
+        2
+      ],
+      "model": "gpt-4.1",
+      "at": "2026-10-14T21:47:07.868326+00:00",
+      "evidence_file": "evidence/sergey-udaltsov.json",
+      "evidence_basis": "98e1a34284e91206087f346235e81d0995f55ec53f453265abad3b547c8c744c",
+      "rating_pass": "initial",
+      "measurement_note": "LLM-оценка по извлечённому досье; ссылки не означают независимую экспертную верификацию"
+    },
+    {
+      "object_id": "sergey-udaltsov",
+      "scale_id": "technocratic-management",
+      "positive": 0,
+      "negative": 2,
+      "difference": -2,
+      "mass": 2,
+      "status": "observed",
+      "confidence": 0.5,
+      "reason": "Публичные аргументы Удальцова строятся на идеологических принципах (левый поворот, национализация, антиолигархическая риторика), а не на управленческой эффективности или измеримых результатах.",
+      "sources": [
+        "https://sotaproject.com/article/sergeia-udaltsova-opiat-pytaiutsia-posadit-khotia-on-vsego-lish-prosit-putina-postroit-sotsializm",
+        "https://www.kommersant.ru/doc/8317316"
+      ],
+      "evidence_indices": [
+        6,
+        7,
+        8
+      ],
+      "model": "gpt-4.1",
+      "at": "2026-10-14T21:47:07.868326+00:00",
+      "evidence_file": "evidence/sergey-udaltsov.json",
+      "evidence_basis": "98e1a34284e91206087f346235e81d0995f55ec53f453265abad3b547c8c744c",
+      "rating_pass": "initial",
+      "measurement_note": "LLM-оценка по извлечённому досье; ссылки не означают независимую экспертную верификацию"
+    },
+    {
+      "object_id": "sergey-udaltsov",
+      "scale_id": "parliamentary-institutional",
+      "positive": 1,
+      "negative": 3,
+      "difference": -2,
+      "mass": 4,
+      "status": "observed",
+      "confidence": 0.7,
+      "reason": "Удальцов продвигал стратегию объединения левых сил и праймериз, но основной акцент делался на протестной и внепарламентской активности, а также на мобилизации через движение, а не через парламентские процедуры.",
+      "sources": [
+        "https://www.rbc.ru/politics/10/08/2017/598c8d6d9a79474cff05cbab",
+        "https://www.bbc.com/russian/news-40853405",
+        "https://www.vedomosti.ru/politics/articles/2017/08/10/728820-udaltsov",
+        "https://www.rbc.ru/politics/10/08/2017/598c0a8e9a7947569574ba10?from=right_column_materials_1",
+        "https://www.interfax.ru/elections2018/598382"
+      ],
+      "evidence_indices": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ],
+      "model": "gpt-4.1",
+      "at": "2026-10-14T21:47:07.868326+00:00",
+      "evidence_file": "evidence/sergey-udaltsov.json",
+      "evidence_basis": "98e1a34284e91206087f346235e81d0995f55ec53f453265abad3b547c8c744c",
+      "rating_pass": "initial",
+      "measurement_note": "LLM-оценка по извлечённому досье; ссылки не означают независимую экспертную верификацию"
+    },
+    {
+      "object_id": "sergey-udaltsov",
+      "scale_id": "oppositionality",
+      "positive": 3,
+      "negative": 0,
+      "difference": 3,
+      "mass": 3,
+      "status": "observed",
+      "confidence": 0.8,
+      "reason": "Удальцов критиковал действующую власть, связывал своё заключение с действиями властей и выступал за смену курса, что указывает на устойчивую оппозиционность.",
+      "sources": [
+        "https://www.bbc.com/russian/news-40853405",
+        "https://sotaproject.com/article/sergeia-udaltsova-opiat-pytaiutsia-posadit-khotia-on-vsego-lish-prosit-putina-postroit-sotsializm"
+      ],
+      "evidence_indices": [
+        1,
+        6,
+        8
+      ],
+      "model": "gpt-4.1",
+      "at": "2026-10-14T21:47:07.868326+00:00",
+      "evidence_file": "evidence/sergey-udaltsov.json",
+      "evidence_basis": "98e1a34284e91206087f346235e81d0995f55ec53f453265abad3b547c8c744c",
+      "rating_pass": "initial",
+      "measurement_note": "LLM-оценка по извлечённому досье; ссылки не означают независимую экспертную верификацию"
+    },
+    {
+      "object_id": "sergey-udaltsov",
+      "scale_id": "social-policy",
+      "positive": 4,
+      "negative": 0,
+      "difference": 4,
+      "mass": 4,
+      "status": "observed",
+      "confidence": 0.8,
+      "reason": "Публичная программа Удальцова включает требования национализации, перераспределения и левого социально-экономического курса, что свидетельствует о сильном акценте на государственные социальные гарантии.",
+      "sources": [
+        "https://sotaproject.com/article/sergeia-udaltsova-opiat-pytaiutsia-posadit-khotia-on-vsego-lish-prosit-putina-postroit-sotsializm"
+      ],
+      "evidence_indices": [
+        6,
+        8
+      ],
+      "model": "gpt-4.1",
+      "at": "2026-10-14T21:47:07.868326+00:00",
+      "evidence_file": "evidence/sergey-udaltsov.json",
+      "evidence_basis": "98e1a34284e91206087f346235e81d0995f55ec53f453265abad3b547c8c744c",
+      "rating_pass": "initial",
+      "measurement_note": "LLM-оценка по извлечённому досье; ссылки не означают независимую экспертную верификацию"
+    },
+    {
+      "object_id": "sergey-udaltsov",
+      "scale_id": "federal-loyalty",
+      "positive": null,
+      "negative": null,
+      "difference": null,
+      "mass": null,
+      "status": "unknown",
+      "confidence": 0.2,
+      "reason": "Нет достаточных данных о позиции Удальцова по вопросам централизации или региональной автономии.",
+      "sources": [],
+      "evidence_indices": [],
+      "model": "gpt-4.1",
+      "at": "2026-10-14T21:47:07.868326+00:00",
+      "evidence_file": "evidence/sergey-udaltsov.json",
+      "evidence_basis": "98e1a34284e91206087f346235e81d0995f55ec53f453265abad3b547c8c744c",
+      "rating_pass": "initial",
+      "measurement_note": "LLM-оценка по извлечённому досье; ссылки не означают независимую экспертную верификацию"
+    },
+    {
+      "object_id": "sergey-udaltsov",
+      "scale_id": "mobilization-rhetoric",
+      "positive": 2,
+      "negative": 1,
+      "difference": 1,
+      "mass": 3,
+      "status": "observed",
+      "confidence": 0.5,
+      "reason": "В риторике Удальцова присутствуют призывы к объединению и активизации левого движения, что указывает на элементы мобилизационной риторики, но также отмечается обсуждение стратегий и взаимодействие с разными группами.",
+      "sources": [
+        "https://www.bbc.com/russian/news-40853405",
+        "https://www.vedomosti.ru/politics/articles/2017/08/10/728820-udaltsov",
+        "https://www.interfax.ru/elections2018/598382"
+      ],
+      "evidence_indices": [
+        1,
+        2,
+        4
+      ],
+      "model": "gpt-4.1",
+      "at": "2026-10-14T21:47:07.868326+00:00",
+      "evidence_file": "evidence/sergey-udaltsov.json",
+      "evidence_basis": "98e1a34284e91206087f346235e81d0995f55ec53f453265abad3b547c8c744c",
+      "rating_pass": "initial",
+      "measurement_note": "LLM-оценка по извлечённому досье; ссылки не означают независимую экспертную верификацию"
+    },
+    {
+      "object_id": "sergey-udaltsov",
+      "scale_id": "conflictuality",
+      "positive": 2,
+      "negative": 0,
+      "difference": 2,
+      "mass": 2,
+      "status": "observed",
+      "confidence": 0.5,
+      "reason": "Удальцов критиковал власть и отдельных оппозиционеров, что указывает на элементы конфронтационной полемики, но нет данных о систематической жёсткой риторике.",
+      "sources": [
+        "https://www.rbc.ru/politics/10/08/2017/598c8d6d9a79474cff05cbab",
+        "https://www.bbc.com/russian/news-40853405"
+      ],
+      "evidence_indices": [
+        0,
+        1
+      ],
+      "model": "gpt-4.1",
+      "at": "2026-10-14T21:47:07.868326+00:00",
+      "evidence_file": "evidence/sergey-udaltsov.json",
+      "evidence_basis": "98e1a34284e91206087f346235e81d0995f55ec53f453265abad3b547c8c744c",
+      "rating_pass": "initial",
+      "measurement_note": "LLM-оценка по извлечённому досье; ссылки не означают независимую экспертную верификацию"
+    },
+    {
+      "object_id": "sergey-udaltsov",
+      "scale_id": "media-personalization",
+      "positive": 2,
+      "negative": 2,
+      "difference": 0,
+      "mass": 4,
+      "status": "observed",
+      "confidence": 0.5,
+      "reason": "Удальцов представлен как координатор и публичный лидер, но также делает акцент на коллективных действиях и объединении левых сил.",
+      "sources": [
+        "https://www.bbc.com/russian/news-40853405",
+        "https://www.vedomosti.ru/politics/articles/2017/08/10/728820-udaltsov",
+        "https://www.interfax.ru/elections2018/598382"
+      ],
+      "evidence_indices": [
+        1,
+        2,
+        4
+      ],
+      "model": "gpt-4.1",
+      "at": "2026-10-14T21:47:07.868326+00:00",
+      "evidence_file": "evidence/sergey-udaltsov.json",
+      "evidence_basis": "98e1a34284e91206087f346235e81d0995f55ec53f453265abad3b547c8c744c",
+      "rating_pass": "initial",
+      "measurement_note": "LLM-оценка по извлечённому досье; ссылки не означают независимую экспертную верификацию"
+    },
+    {
+      "object_id": "sergey-udaltsov",
+      "scale_id": "antiwesternism",
+      "positive": 2,
+      "negative": 0,
+      "difference": 2,
+      "mass": 2,
+      "status": "observed",
+      "confidence": 0.5,
+      "reason": "Поддержка присоединения Крыма и Донбасса может коррелировать с антизападной позицией, но прямых выраженных антизападных заявлений в предоставленных материалах нет.",
+      "sources": [
+        "https://www.rbc.ru/politics/10/08/2017/598c8d6d9a79474cff05cbab"
+      ],
+      "evidence_indices": [
+        0
+      ],
+      "model": "gpt-4.1",
+      "at": "2026-10-14T21:47:07.868326+00:00",
+      "evidence_file": "evidence/sergey-udaltsov.json",
+      "evidence_basis": "98e1a34284e91206087f346235e81d0995f55ec53f453265abad3b547c8c744c",
+      "rating_pass": "initial",
+      "measurement_note": "LLM-оценка по извлечённому досье; ссылки не означают независимую экспертную верификацию"
+    },
+    {
+      "object_id": "sergey-udaltsov",
+      "scale_id": "party-leadership",
+      "positive": 2,
+      "negative": 2,
+      "difference": 0,
+      "mass": 4,
+      "status": "observed",
+      "confidence": 0.5,
+      "reason": "Удальцов выступает за объединение левых сил и создание единой политической силы, но также акцентирует независимую инициативу и движение вне партийных структур.",
+      "sources": [
+        "https://www.bbc.com/russian/news-40853405",
+        "https://www.vedomosti.ru/politics/articles/2017/08/10/728820-udaltsov",
+        "https://www.interfax.ru/elections2018/598382"
+      ],
+      "evidence_indices": [
+        1,
+        2,
+        4
+      ],
+      "model": "gpt-4.1",
+      "at": "2026-10-14T21:47:07.868326+00:00",
+      "evidence_file": "evidence/sergey-udaltsov.json",
+      "evidence_basis": "98e1a34284e91206087f346235e81d0995f55ec53f453265abad3b547c8c744c",
+      "rating_pass": "initial",
+      "measurement_note": "LLM-оценка по извлечённому досье; ссылки не означают независимую экспертную верификацию"
+    },
+    {
+      "object_id": "sergey-udaltsov",
+      "scale_id": "public-transparency",
+      "positive": null,
+      "negative": null,
+      "difference": null,
+      "mass": null,
+      "status": "unknown",
+      "confidence": 0.3,
+      "reason": "В предоставленных фактах нет прямых заявлений или действий, однозначно характеризующих акцент на прозрачности или закрытости принятия решений, раскрытии информации или общественном контроле.",
+      "sources": [],
+      "evidence_indices": [],
+      "model": "gpt-4.1",
+      "at": "2026-10-14T21:47:14.733450+00:00",
+      "evidence_file": "evidence/sergey-udaltsov.json",
+      "evidence_basis": "98e1a34284e91206087f346235e81d0995f55ec53f453265abad3b547c8c744c",
+      "rating_pass": "initial",
+      "measurement_note": "LLM-оценка по извлечённому досье; ссылки не означают независимую экспертную верификацию"
+    },
+    {
+      "object_id": "sergey-udaltsov",
+      "scale_id": "family-values",
+      "positive": null,
+      "negative": null,
+      "difference": null,
+      "mass": null,
+      "status": "unknown",
+      "confidence": 0.2,
+      "reason": "Нет сведений о публичных позициях Удальцова по вопросам семейных или моральных норм, традиционных ценностей или индивидуального самоопределения.",
+      "sources": [],
+      "evidence_indices": [],
+      "model": "gpt-4.1",
+      "at": "2026-10-14T21:47:14.733450+00:00",
+      "evidence_file": "evidence/sergey-udaltsov.json",
+      "evidence_basis": "98e1a34284e91206087f346235e81d0995f55ec53f453265abad3b547c8c744c",
+      "rating_pass": "initial",
+      "measurement_note": "LLM-оценка по извлечённому досье; ссылки не означают независимую экспертную верификацию"
+    },
+    {
+      "object_id": "sergey-udaltsov",
+      "scale_id": "international-activity",
+      "positive": 1,
+      "negative": 3,
+      "difference": -2,
+      "mass": 4,
+      "status": "observed",
+      "confidence": 0.7,
+      "reason": "В риторике Удальцова преобладают внутренние социально-экономические и политические темы (объединение левых, национализация, поддержка кандидатов), однако есть единичное выражение позиции по международной теме — поддержка присоединения Крыма и республик Донбасса.",
+      "sources": [
+        "https://www.rbc.ru/politics/10/08/2017/598c8d6d9a79474cff05cbab",
+        "https://www.bbc.com/russian/news-40853405",
+        "https://www.vedomosti.ru/politics/articles/2017/08/10/728820-udaltsov",
+        "https://www.rbc.ru/politics/10/08/2017/598c0a8e9a7947569574ba10?from=right_column_materials_1",
+        "https://www.interfax.ru/elections2018/598382",
+        "https://sotaproject.com/article/sergeia-udaltsova-opiat-pytaiutsia-posadit-khotia-on-vsego-lish-prosit-putina-postroit-sotsializm",
+        "https://www.kommersant.ru/doc/8317316",
+        "https://www.gazeta.ru/tags/person/sergei_udaltsov.shtml"
+      ],
+      "evidence_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ],
+      "model": "gpt-4.1",
+      "at": "2026-10-14T21:47:14.733450+00:00",
+      "evidence_file": "evidence/sergey-udaltsov.json",
+      "evidence_basis": "98e1a34284e91206087f346235e81d0995f55ec53f453265abad3b547c8c744c",
+      "rating_pass": "initial",
+      "measurement_note": "LLM-оценка по извлечённому досье; ссылки не означают независимую экспертную верификацию"
+    },
+    {
+      "object_id": "sergey-udaltsov",
+      "scale_id": "antiwar-rhetoric",
+      "positive": null,
+      "negative": null,
+      "difference": null,
+      "mass": null,
+      "status": "unknown",
+      "confidence": 0.3,
+      "reason": "В материалах нет прямых публичных призывов к прекращению или продолжению военных действий в конкретных конфликтах рассматриваемого периода.",
+      "sources": [],
+      "evidence_indices": [],
+      "model": "gpt-4.1",
+      "at": "2026-10-14T21:47:14.733450+00:00",
+      "evidence_file": "evidence/sergey-udaltsov.json",
+      "evidence_basis": "98e1a34284e91206087f346235e81d0995f55ec53f453265abad3b547c8c744c",
+      "rating_pass": "initial",
+      "measurement_note": "LLM-оценка по извлечённому досье; ссылки не означают независимую экспертную верификацию"
+    },
+    {
+      "object_id": "sergey-udaltsov",
+      "scale_id": "electoral-legitimacy",
+      "positive": null,
+      "negative": null,
+      "difference": null,
+      "mass": null,
+      "status": "unknown",
+      "confidence": 0.6,
+      "reason": "Удальцов выступал за проведение праймериз и объединение левых сил вокруг единого кандидата, что свидетельствует о признании конкурентных выборов как источника легитимности, но нет устойчивого акцента на этой теме.",
+      "sources": [
+        "https://www.rbc.ru/politics/10/08/2017/598c8d6d9a79474cff05cbab",
+        "https://www.rbc.ru/politics/10/08/2017/598c0a8e9a7947569574ba10?from=right_column_materials_1",
+        "https://www.interfax.ru/elections2018/598382"
+      ],
+      "evidence_indices": [
+        0,
+        3,
+        4,
+        5
+      ],
+      "model": "gpt-4.1",
+      "at": "2026-10-14T21:47:14.733450+00:00",
+      "evidence_file": "evidence/sergey-udaltsov.json",
+      "evidence_basis": "98e1a34284e91206087f346235e81d0995f55ec53f453265abad3b547c8c744c",
+      "rating_pass": "initial",
+      "measurement_note": "LLM-оценка по извлечённому досье; ссылки не означают независимую экспертную верификацию"
+    },
+    {
+      "object_id": "sergey-udaltsov",
+      "scale_id": "economic-ownership",
+      "positive": null,
+      "negative": null,
+      "difference": null,
+      "mass": null,
+      "status": "unknown",
+      "confidence": 0.9,
+      "reason": "Публичная программа Удальцова включает требования национализации имущества олигархов, левый поворот, антиолигархическую риторику и поддержку социалистических преобразований, что делает государственную экономику определяющей чертой его образа.",
+      "sources": [
+        "https://sotaproject.com/article/sergeia-udaltsova-opiat-pytaiutsia-posadit-khotia-on-vsego-lish-prosit-putina-postroit-sotsializm",
+        "https://www.kommersant.ru/doc/8317316"
+      ],
+      "evidence_indices": [
+        6,
+        7,
+        8
+      ],
+      "model": "gpt-4.1",
+      "at": "2026-10-14T21:47:14.733450+00:00",
+      "evidence_file": "evidence/sergey-udaltsov.json",
+      "evidence_basis": "98e1a34284e91206087f346235e81d0995f55ec53f453265abad3b547c8c744c",
+      "rating_pass": "initial",
+      "measurement_note": "LLM-оценка по извлечённому досье; ссылки не означают независимую экспертную верификацию"
+    },
+    {
+      "object_id": "sergey-udaltsov",
+      "scale_id": "economic-modernization",
+      "positive": null,
+      "negative": null,
+      "difference": null,
+      "mass": null,
+      "status": "unknown",
+      "confidence": 0.2,
+      "reason": "Нет сведений о позиции по технологическому обновлению, цифровизации или сохранению традиционных хозяйственных моделей.",
+      "sources": [],
+      "evidence_indices": [],
+      "model": "gpt-4.1",
+      "at": "2026-10-14T21:47:14.733450+00:00",
+      "evidence_file": "evidence/sergey-udaltsov.json",
+      "evidence_basis": "98e1a34284e91206087f346235e81d0995f55ec53f453265abad3b547c8c744c",
+      "rating_pass": "initial",
+      "measurement_note": "LLM-оценка по извлечённому досье; ссылки не означают независимую экспертную верификацию"
+    },
+    {
+      "object_id": "sergey-udaltsov",
+      "scale_id": "media-control",
+      "positive": null,
+      "negative": null,
+      "difference": null,
+      "mass": null,
+      "status": "unknown",
+      "confidence": 0.3,
+      "reason": "В материалах нет прямых позиций по вопросам свободы выражения, цензуры или государственного контроля над СМИ.",
+      "sources": [],
+      "evidence_indices": [],
+      "model": "gpt-4.1",
+      "at": "2026-10-14T21:47:14.733450+00:00",
+      "evidence_file": "evidence/sergey-udaltsov.json",
+      "evidence_basis": "98e1a34284e91206087f346235e81d0995f55ec53f453265abad3b547c8c744c",
+      "rating_pass": "initial",
+      "measurement_note": "LLM-оценка по извлечённому досье; ссылки не означают независимую экспертную верификацию"
+    },
+    {
+      "object_id": "sergey-udaltsov",
+      "scale_id": "territorial-policy",
+      "positive": null,
+      "negative": null,
+      "difference": null,
+      "mass": null,
+      "status": "unknown",
+      "confidence": 0.7,
+      "reason": "Поддержка присоединения Крыма и самопровозглашённых республик Донбасса указывает на единичное проявление позиции в пользу территориального пересмотра.",
+      "sources": [
+        "https://www.rbc.ru/politics/10/08/2017/598c8d6d9a79474cff05cbab"
+      ],
+      "evidence_indices": [
+        0
+      ],
+      "model": "gpt-4.1",
+      "at": "2026-10-14T21:47:14.733450+00:00",
+      "evidence_file": "evidence/sergey-udaltsov.json",
+      "evidence_basis": "98e1a34284e91206087f346235e81d0995f55ec53f453265abad3b547c8c744c",
+      "rating_pass": "initial",
+      "measurement_note": "LLM-оценка по извлечённому досье; ссылки не означают независимую экспертную верификацию"
+    },
+    {
+      "object_id": "sergey-udaltsov",
+      "scale_id": "rhetorical-simplicity",
+      "positive": null,
+      "negative": null,
+      "difference": null,
+      "mass": null,
+      "status": "unknown",
+      "confidence": 0.5,
+      "reason": "В ряде случаев риторика Удальцова выражается в виде кратких лозунгов (например, требования национализации, левый поворот), но нет устойчивого доминирования лозунговой простоты.",
+      "sources": [
+        "https://sotaproject.com/article/sergeia-udaltsova-opiat-pytaiutsia-posadit-khotia-on-vsego-lish-prosit-putina-postroit-sotsializm",
+        "https://www.kommersant.ru/doc/8317316"
+      ],
+      "evidence_indices": [
+        6,
+        7
+      ],
+      "model": "gpt-4.1",
+      "at": "2026-10-14T21:47:14.733450+00:00",
+      "evidence_file": "evidence/sergey-udaltsov.json",
+      "evidence_basis": "98e1a34284e91206087f346235e81d0995f55ec53f453265abad3b547c8c744c",
+      "rating_pass": "initial",
+      "measurement_note": "LLM-оценка по извлечённому досье; ссылки не означают независимую экспертную верификацию"
+    },
+    {
+      "object_id": "sergey-udaltsov",
+      "scale_id": "anti-bureaucracy",
+      "positive": null,
+      "negative": null,
+      "difference": null,
+      "mass": null,
+      "status": "unknown",
+      "confidence": 0.2,
+      "reason": "Нет сведений о предложениях по сокращению или расширению административного регулирования и бюрократии.",
+      "sources": [],
+      "evidence_indices": [],
+      "model": "gpt-4.1",
+      "at": "2026-10-14T21:47:14.733450+00:00",
+      "evidence_file": "evidence/sergey-udaltsov.json",
+      "evidence_basis": "98e1a34284e91206087f346235e81d0995f55ec53f453265abad3b547c8c744c",
+      "rating_pass": "initial",
+      "measurement_note": "LLM-оценка по извлечённому досье; ссылки не означают независимую экспертную верификацию"
+    },
+    {
+      "object_id": "sergey-udaltsov",
+      "scale_id": "national-patriotism",
+      "positive": null,
+      "negative": null,
+      "difference": null,
+      "mass": null,
+      "status": "unknown",
+      "confidence": 0.5,
+      "reason": "Поддержка присоединения Крыма и республик Донбасса может рассматриваться как проявление национально-патриотической риторики, но это не является устойчивым определяющим акцентом.",
+      "sources": [
+        "https://www.rbc.ru/politics/10/08/2017/598c8d6d9a79474cff05cbab"
+      ],
+      "evidence_indices": [
+        0
+      ],
+      "model": "gpt-4.1",
+      "at": "2026-10-14T21:47:14.733450+00:00",
+      "evidence_file": "evidence/sergey-udaltsov.json",
+      "evidence_basis": "98e1a34284e91206087f346235e81d0995f55ec53f453265abad3b547c8c744c",
+      "rating_pass": "initial",
+      "measurement_note": "LLM-оценка по извлечённому досье; ссылки не означают независимую экспертную верификацию"
+    },
+    {
+      "object_id": "sergey-udaltsov",
+      "scale_id": "coalitionality",
+      "positive": 4,
+      "negative": 2,
+      "difference": 2,
+      "mass": 6,
+      "status": "observed",
+      "confidence": 0.95,
+      "reason": "Удальцов последовательно выступал за объединение левых сил, создание единого кандидата и координацию между различными левыми организациями (КПРФ, Справедливая Россия, Левый фронт), а также ситуативное сотрудничество с другими оппозиционерами (например, сторонниками Навального по наблюдению на выборах). Одновременно сохранял организационную самостоятельность и критиковал отдельных оппозиционеров, что отражает элементы конкуренции.",
+      "sources": [
+        "https://www.rbc.ru/politics/10/08/2017/598c8d6d9a79474cff05cbab",
+        "https://www.bbc.com/russian/news-40853405",
+        "https://www.vedomosti.ru/politics/articles/2017/08/10/728820-udaltsov",
+        "https://www.rbc.ru/politics/10/08/2017/598c0a8e9a7947569574ba10?from=right_column_materials_1",
+        "https://www.interfax.ru/elections2018/598382"
+      ],
+      "evidence_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "model": "gpt-4.1",
+      "at": "2026-10-14T21:47:18.185309+00:00",
+      "evidence_file": "evidence/sergey-udaltsov.json",
+      "evidence_basis": "98e1a34284e91206087f346235e81d0995f55ec53f453265abad3b547c8c744c",
+      "rating_pass": "initial",
+      "measurement_note": "LLM-оценка по извлечённому досье; ссылки не означают независимую экспертную верификацию"
+    },
+    {
+      "object_id": "sergey-udaltsov",
+      "scale_id": "civil-liberties",
+      "positive": 2,
+      "negative": 1,
+      "difference": 1,
+      "mass": 3,
+      "status": "observed",
+      "confidence": 0.7,
+      "reason": "В предоставленных материалах нет выраженной антирепрессивной риторики или акцента на защите гражданских свобод как самостоятельного направления. Упоминания уголовного преследования и защиты в суде отражают скорее реакцию на собственное дело, чем программный акцент на правах человека. Призыв к левому повороту и национализации не связан напрямую с гражданскими свободами или ограничениями ради порядка.",
+      "sources": [
+        "https://sotaproject.com/article/sergeia-udaltsova-opiat-pytaiutsia-posadit-khotia-on-vsego-lish-prosit-putina-postroit-sotsializm",
+        "https://www.kommersant.ru/doc/8317316",
+        "https://www.gazeta.ru/tags/person/sergei_udaltsov.shtml",
+        "https://www.kommersant.ru/doc/8972418"
+      ],
+      "evidence_indices": [
+        6,
+        7,
+        8,
+        9,
+        10,
+        11
+      ],
+      "model": "gpt-4.1",
+      "at": "2026-10-14T21:47:18.185309+00:00",
+      "evidence_file": "evidence/sergey-udaltsov.json",
+      "evidence_basis": "98e1a34284e91206087f346235e81d0995f55ec53f453265abad3b547c8c744c",
+      "rating_pass": "initial",
+      "measurement_note": "LLM-оценка по извлечённому досье; ссылки не означают независимую экспертную верификацию"
+    }
+  ],
+  "unknown_scale_ids": [
+    "federal-loyalty",
+    "public-transparency",
+    "family-values",
+    "antiwar-rhetoric",
+    "electoral-legitimacy",
+    "economic-ownership",
+    "economic-modernization",
+    "media-control",
+    "territorial-policy",
+    "rhetorical-simplicity",
+    "anti-bureaucracy",
+    "national-patriotism"
+  ]
+}

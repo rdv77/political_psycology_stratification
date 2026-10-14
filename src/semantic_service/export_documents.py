@@ -98,7 +98,7 @@ def _export_pdf(content, base, output):
     from reportlab.lib.utils import ImageReader
     from reportlab.pdfbase import pdfmetrics
     from reportlab.pdfbase.ttfonts import TTFont
-    from reportlab.platypus import Image, KeepTogether, LongTable, Paragraph, SimpleDocTemplate, Spacer, TableStyle
+    from reportlab.platypus import CondPageBreak, Image, KeepTogether, LongTable, Paragraph, SimpleDocTemplate, Spacer, TableStyle
 
     font_dir = Path("C:/Windows/Fonts")
     regular, bold = font_dir / "arial.ttf", font_dir / "arialbd.ttf"
@@ -121,7 +121,7 @@ def _export_pdf(content, base, output):
                              spaceAfter=12, textColor=colors.HexColor("#555B63"))
     cell = ParagraphStyle("ReportCell", parent=body, fontSize=9, leading=12, spaceAfter=0)
     header = ParagraphStyle("ReportHeader", parent=cell, fontName="SemanticArialBold", textColor=colors.white)
-    source = ParagraphStyle("ReportSource", parent=caption, fontSize=9, leading=12, splitLongWords=1)
+    source = ParagraphStyle("ReportSource", parent=caption, fontSize=9, leading=12, spaceAfter=5, splitLongWords=1)
     appendix_head = ParagraphStyle("ReportAppendixObject", parent=sub, fontSize=11, leading=14,
                                    spaceBefore=7, spaceAfter=4)
     appendix_body = ParagraphStyle("ReportAppendixBody", parent=body, leading=14, spaceAfter=6)
@@ -164,7 +164,24 @@ def _export_pdf(content, base, output):
                 ("LEFTPADDING", (0, 0), (-1, -1), 7), ("RIGHTPADDING", (0, 0), (-1, -1), 7),
                 ("TOPPADDING", (0, 0), (-1, -1), 7), ("BOTTOMPADDING", (0, 0), (-1, -1), 7),
             ]))
-            story.extend([Spacer(1, 4), table, Spacer(1, 11)])
+            preceding_headings = []
+            while story and getattr(story[-1], "_semantic_heading", False):
+                preceding_headings.insert(0, story.pop())
+            if preceding_headings:
+                # Keep only the heading plus a meaningful first table fragment
+                # together; keeping the whole multipage table would waste pages.
+                table.wrap(available_width, page_height)
+                fragment_height = sum(table._rowHeights[:min(3, len(values))])
+                heading_height = sum(item.wrap(available_width, page_height)[1] +
+                                     item.style.spaceBefore + item.style.spaceAfter for item in preceding_headings)
+                minimum_fragment = min(page_height - 48 - 47 - 1, heading_height + fragment_height + 8)
+                story.append(CondPageBreak(minimum_fragment))
+                for item in preceding_headings:
+                    item.keepWithNext = False
+                story.extend(preceding_headings)
+                story.extend([table, Spacer(1, 11)])
+            else:
+                story.extend([Spacer(1, 4), table, Spacer(1, 11)])
         elif kind == "image":
             image_path = _image_path(base, block["file"])
             iw, ih = ImageReader(str(image_path)).getSize()

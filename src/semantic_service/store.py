@@ -22,6 +22,12 @@ def fingerprint(value) -> str:
     return hashlib.sha256(json.dumps(value, ensure_ascii=False, sort_keys=True).encode()).hexdigest()
 
 
+def ratings_basis(study: dict) -> str:
+    """Bind reusable measurements to the exact space, period and approved rubric."""
+    return fingerprint({key: study.get(key) for key in
+                        ("scope", "aspect", "date_from", "date_to", "objects", "scales")})
+
+
 def validate_objects(objects: list[dict]) -> list[dict]:
     if not isinstance(objects, list) or not 1 <= len(objects) <= 200:
         raise ValueError("Нужен список от 1 до 200 объектов")
@@ -164,6 +170,7 @@ class StudyStore:
                          analysis=None, artifacts=[], error=None)
             study.pop("imported_ratings_basis", None)
             study.pop("imported_ratings_count", None)
+            study.pop("ratings_cache", None)
             return self.save(study)
 
     def approve(self, identifier: str, field: str, actor: str = "user_interface") -> dict:

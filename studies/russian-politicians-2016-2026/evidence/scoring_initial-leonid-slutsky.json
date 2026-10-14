@@ -1,0 +1,639 @@
+{
+  "object_id": "leonid-slutsky",
+  "scales_basis": "2bee01a202c39ee721dfa985f553d5ce4502c74051ebe616ba3acc72ad80c440",
+  "dossier_basis": "50f241c52a40c7b8cade943fd514a08cc6b1a0a7eea18d85317f1226b11b1403",
+  "evidence_file": "evidence/leonid-slutsky.json",
+  "period": [
+    "2016-10-15",
+    "2026-10-15"
+  ],
+  "ratings": [
+    {
+      "object_id": "leonid-slutsky",
+      "scale_id": "security-sovereignty",
+      "positive": 3,
+      "negative": 1,
+      "difference": 2,
+      "mass": 4,
+      "status": "observed",
+      "confidence": 0.8,
+      "reason": "В риторике Слуцкого устойчиво присутствует акцент на победе в специальной военной операции, контроле восстановления территорий и международной повестке, что указывает на выраженность полюса суверенной самостоятельности. Элементы международной интеграции выражены слабо.",
+      "sources": [
+        "https://spb.ldpr.ru/event/243915/",
+        "https://www.kommersant.ru/doc/3579566",
+        "https://kursk.ldpr.ru/event/341398",
+        "https://kcr.ldpr.ru/event/347999/"
+      ],
+      "evidence_indices": [
+        3,
+        4,
+        5,
+        6
+      ],
+      "model": "gpt-4.1",
+      "at": "2026-10-14T21:43:33.370110+00:00",
+      "evidence_file": "evidence/leonid-slutsky.json",
+      "evidence_basis": "50f241c52a40c7b8cade943fd514a08cc6b1a0a7eea18d85317f1226b11b1403",
+      "rating_pass": "initial",
+      "measurement_note": "LLM-оценка по извлечённому досье; ссылки не означают независимую экспертную верификацию"
+    },
+    {
+      "object_id": "leonid-slutsky",
+      "scale_id": "historical-memory",
+      "positive": 3,
+      "negative": 1,
+      "difference": 2,
+      "mass": 4,
+      "status": "observed",
+      "confidence": 0.8,
+      "reason": "Использование формулы «Дело Жириновского живёт!» и апелляция к наследию основателя партии свидетельствуют о заметном акценте на исторической преемственности. Признаков выраженного разрыва с прошлым не обнаружено.",
+      "sources": [
+        "https://cyberleninka.ru/article/n/sravnitelnyy-analiz-predvybornyh-programm-ldpr-na-vyborah-2021-g-i-l-e-slutskogo-na-vyborah-2024-g"
+      ],
+      "evidence_indices": [
+        8
+      ],
+      "model": "gpt-4.1",
+      "at": "2026-10-14T21:43:33.370110+00:00",
+      "evidence_file": "evidence/leonid-slutsky.json",
+      "evidence_basis": "50f241c52a40c7b8cade943fd514a08cc6b1a0a7eea18d85317f1226b11b1403",
+      "rating_pass": "initial",
+      "measurement_note": "LLM-оценка по извлечённому досье; ссылки не означают независимую экспертную верификацию"
+    },
+    {
+      "object_id": "leonid-slutsky",
+      "scale_id": "technocratic-management",
+      "positive": 2,
+      "negative": 2,
+      "difference": 0,
+      "mass": 4,
+      "status": "observed",
+      "confidence": 0.7,
+      "reason": "В риторике присутствуют как обещания конкретных результатов (контроль цен, обеспечение жильём, совершенствование управления), так и идеологические формулы (победа, преемственность). Баланс между прагматизмом и символическими целями.",
+      "sources": [
+        "https://kursk.ldpr.ru/event/341398",
+        "https://kcr.ldpr.ru/event/347999/"
+      ],
+      "evidence_indices": [
+        5,
+        6,
+        7
+      ],
+      "model": "gpt-4.1",
+      "at": "2026-10-14T21:43:33.370110+00:00",
+      "evidence_file": "evidence/leonid-slutsky.json",
+      "evidence_basis": "50f241c52a40c7b8cade943fd514a08cc6b1a0a7eea18d85317f1226b11b1403",
+      "rating_pass": "initial",
+      "measurement_note": "LLM-оценка по извлечённому досье; ссылки не означают независимую экспертную верификацию"
+    },
+    {
+      "object_id": "leonid-slutsky",
+      "scale_id": "parliamentary-institutional",
+      "positive": 3,
+      "negative": 0,
+      "difference": 3,
+      "mass": 3,
+      "status": "observed",
+      "confidence": 0.9,
+      "reason": "Публичный образ Слуцкого устойчиво связан с парламентской и институциональной деятельностью, протестная стратегия не выражена.",
+      "sources": [
+        "https://www.kommersant.ru/doc/3579566"
+      ],
+      "evidence_indices": [
+        2,
+        4
+      ],
+      "model": "gpt-4.1",
+      "at": "2026-10-14T21:43:33.370110+00:00",
+      "evidence_file": "evidence/leonid-slutsky.json",
+      "evidence_basis": "50f241c52a40c7b8cade943fd514a08cc6b1a0a7eea18d85317f1226b11b1403",
+      "rating_pass": "initial",
+      "measurement_note": "LLM-оценка по извлечённому досье; ссылки не означают независимую экспертную верификацию"
+    },
+    {
+      "object_id": "leonid-slutsky",
+      "scale_id": "oppositionality",
+      "positive": 0,
+      "negative": 3,
+      "difference": -3,
+      "mass": 3,
+      "status": "observed",
+      "confidence": 0.8,
+      "reason": "Слуцкий не демонстрирует публичной критики федеральной власти, а его риторика и действия соответствуют поддержке действующего курса.",
+      "sources": [
+        "https://kursk.ldpr.ru/event/341398",
+        "https://kcr.ldpr.ru/event/347999/"
+      ],
+      "evidence_indices": [
+        5,
+        6,
+        7
+      ],
+      "model": "gpt-4.1",
+      "at": "2026-10-14T21:43:33.370110+00:00",
+      "evidence_file": "evidence/leonid-slutsky.json",
+      "evidence_basis": "50f241c52a40c7b8cade943fd514a08cc6b1a0a7eea18d85317f1226b11b1403",
+      "rating_pass": "initial",
+      "measurement_note": "LLM-оценка по извлечённому досье; ссылки не означают независимую экспертную верификацию"
+    },
+    {
+      "object_id": "leonid-slutsky",
+      "scale_id": "social-policy",
+      "positive": 3,
+      "negative": 1,
+      "difference": 2,
+      "mass": 4,
+      "status": "observed",
+      "confidence": 0.8,
+      "reason": "В риторике выражены акценты на социальной защите, снижении налоговой нагрузки на бедных, контроле цен и доступности жилья, что указывает на выраженность полюса социальной политики.",
+      "sources": [
+        "https://kursk.ldpr.ru/event/341398",
+        "https://kcr.ldpr.ru/event/347999/"
+      ],
+      "evidence_indices": [
+        5,
+        6,
+        7
+      ],
+      "model": "gpt-4.1",
+      "at": "2026-10-14T21:43:33.370110+00:00",
+      "evidence_file": "evidence/leonid-slutsky.json",
+      "evidence_basis": "50f241c52a40c7b8cade943fd514a08cc6b1a0a7eea18d85317f1226b11b1403",
+      "rating_pass": "initial",
+      "measurement_note": "LLM-оценка по извлечённому досье; ссылки не означают независимую экспертную верификацию"
+    },
+    {
+      "object_id": "leonid-slutsky",
+      "scale_id": "federal-loyalty",
+      "positive": 2,
+      "negative": 2,
+      "difference": 0,
+      "mass": 4,
+      "status": "observed",
+      "confidence": 0.7,
+      "reason": "В материалах присутствует как акцент на справедливом финансировании регионов и региональном равенстве, так и отсутствие явной децентрализационной риторики. Баланс между централизацией и региональной повесткой.",
+      "sources": [
+        "https://spb.ldpr.ru/event/243915/",
+        "https://kcr.ldpr.ru/event/347999/",
+        "https://kursk.ldpr.ru/event/341398"
+      ],
+      "evidence_indices": [
+        3,
+        6,
+        7
+      ],
+      "model": "gpt-4.1",
+      "at": "2026-10-14T21:43:33.370110+00:00",
+      "evidence_file": "evidence/leonid-slutsky.json",
+      "evidence_basis": "50f241c52a40c7b8cade943fd514a08cc6b1a0a7eea18d85317f1226b11b1403",
+      "rating_pass": "initial",
+      "measurement_note": "LLM-оценка по извлечённому досье; ссылки не означают независимую экспертную верификацию"
+    },
+    {
+      "object_id": "leonid-slutsky",
+      "scale_id": "mobilization-rhetoric",
+      "positive": 2,
+      "negative": 1,
+      "difference": 1,
+      "mass": 3,
+      "status": "observed",
+      "confidence": 0.7,
+      "reason": "Используются формулы о победе, единстве и необходимости завершения военной операции, однако призывы к обсуждению и сомнению выражены слабо.",
+      "sources": [
+        "https://kursk.ldpr.ru/event/341398",
+        "https://kcr.ldpr.ru/event/347999/"
+      ],
+      "evidence_indices": [
+        5,
+        6
+      ],
+      "model": "gpt-4.1",
+      "at": "2026-10-14T21:43:33.370110+00:00",
+      "evidence_file": "evidence/leonid-slutsky.json",
+      "evidence_basis": "50f241c52a40c7b8cade943fd514a08cc6b1a0a7eea18d85317f1226b11b1403",
+      "rating_pass": "initial",
+      "measurement_note": "LLM-оценка по извлечённому досье; ссылки не означают независимую экспертную верификацию"
+    },
+    {
+      "object_id": "leonid-slutsky",
+      "scale_id": "conflictuality",
+      "positive": 1,
+      "negative": 1,
+      "difference": 0,
+      "mass": 2,
+      "status": "observed",
+      "confidence": 0.6,
+      "reason": "В предоставленных материалах нет выраженной конфронтационной или компромиссной риторики, эпизоды полемики не доминируют в образе.",
+      "sources": [
+        "https://www.kommersant.ru/doc/3579566"
+      ],
+      "evidence_indices": [
+        0,
+        1
+      ],
+      "model": "gpt-4.1",
+      "at": "2026-10-14T21:43:33.370110+00:00",
+      "evidence_file": "evidence/leonid-slutsky.json",
+      "evidence_basis": "50f241c52a40c7b8cade943fd514a08cc6b1a0a7eea18d85317f1226b11b1403",
+      "rating_pass": "initial",
+      "measurement_note": "LLM-оценка по извлечённому досье; ссылки не означают независимую экспертную верификацию"
+    },
+    {
+      "object_id": "leonid-slutsky",
+      "scale_id": "media-personalization",
+      "positive": 1,
+      "negative": 2,
+      "difference": -1,
+      "mass": 3,
+      "status": "observed",
+      "confidence": 0.7,
+      "reason": "Публичное самопредставление строится вокруг партийной идентичности и преемственности, а не исключительно личного бренда. Личная медийность выражена слабо.",
+      "sources": [
+        "https://www.kommersant.ru/doc/3579566",
+        "https://cyberleninka.ru/article/n/sravnitelnyy-analiz-predvybornyh-programm-ldpr-na-vyborah-2021-g-i-l-e-slutskogo-na-vyborah-2024-g"
+      ],
+      "evidence_indices": [
+        4,
+        8
+      ],
+      "model": "gpt-4.1",
+      "at": "2026-10-14T21:43:33.370110+00:00",
+      "evidence_file": "evidence/leonid-slutsky.json",
+      "evidence_basis": "50f241c52a40c7b8cade943fd514a08cc6b1a0a7eea18d85317f1226b11b1403",
+      "rating_pass": "initial",
+      "measurement_note": "LLM-оценка по извлечённому досье; ссылки не означают независимую экспертную верификацию"
+    },
+    {
+      "object_id": "leonid-slutsky",
+      "scale_id": "antiwesternism",
+      "positive": 2,
+      "negative": 0,
+      "difference": 2,
+      "mass": 2,
+      "status": "observed",
+      "confidence": 0.7,
+      "reason": "В риторике присутствует акцент на победе в специальной военной операции и международной повестке, что косвенно указывает на элементы противостояния Западу, однако прямой антизападной риторики не выявлено.",
+      "sources": [
+        "https://kursk.ldpr.ru/event/341398",
+        "https://kcr.ldpr.ru/event/347999/"
+      ],
+      "evidence_indices": [
+        5,
+        6
+      ],
+      "model": "gpt-4.1",
+      "at": "2026-10-14T21:43:33.370110+00:00",
+      "evidence_file": "evidence/leonid-slutsky.json",
+      "evidence_basis": "50f241c52a40c7b8cade943fd514a08cc6b1a0a7eea18d85317f1226b11b1403",
+      "rating_pass": "initial",
+      "measurement_note": "LLM-оценка по извлечённому досье; ссылки не означают независимую экспертную верификацию"
+    },
+    {
+      "object_id": "leonid-slutsky",
+      "scale_id": "party-leadership",
+      "positive": 3,
+      "negative": 0,
+      "difference": 3,
+      "mass": 3,
+      "status": "observed",
+      "confidence": 0.8,
+      "reason": "Слуцкий представлен как партийный лидер, его публичная деятельность и риторика строятся вокруг партийной организации и преемственности.",
+      "sources": [
+        "https://spb.ldpr.ru/event/243915/",
+        "https://www.kommersant.ru/doc/3579566",
+        "https://cyberleninka.ru/article/n/sravnitelnyy-analiz-predvybornyh-programm-ldpr-na-vyborah-2021-g-i-l-e-slutskogo-na-vyborah-2024-g"
+      ],
+      "evidence_indices": [
+        3,
+        4,
+        8
+      ],
+      "model": "gpt-4.1",
+      "at": "2026-10-14T21:43:33.370110+00:00",
+      "evidence_file": "evidence/leonid-slutsky.json",
+      "evidence_basis": "50f241c52a40c7b8cade943fd514a08cc6b1a0a7eea18d85317f1226b11b1403",
+      "rating_pass": "initial",
+      "measurement_note": "LLM-оценка по извлечённому досье; ссылки не означают независимую экспертную верификацию"
+    },
+    {
+      "object_id": "leonid-slutsky",
+      "scale_id": "public-transparency",
+      "positive": null,
+      "negative": null,
+      "difference": null,
+      "mass": null,
+      "status": "unknown",
+      "confidence": 0.3,
+      "reason": "В предоставленных материалах отсутствуют прямые высказывания или действия Слуцкого, однозначно характеризующие его позицию по прозрачности или закрытости принятия решений.",
+      "sources": [],
+      "evidence_indices": [],
+      "model": "gpt-4.1",
+      "at": "2026-10-14T21:43:39.343642+00:00",
+      "evidence_file": "evidence/leonid-slutsky.json",
+      "evidence_basis": "50f241c52a40c7b8cade943fd514a08cc6b1a0a7eea18d85317f1226b11b1403",
+      "rating_pass": "initial",
+      "measurement_note": "LLM-оценка по извлечённому досье; ссылки не означают независимую экспертную верификацию"
+    },
+    {
+      "object_id": "leonid-slutsky",
+      "scale_id": "family-values",
+      "positive": null,
+      "negative": null,
+      "difference": null,
+      "mass": null,
+      "status": "unknown",
+      "confidence": 0.2,
+      "reason": "Нет фактов, прямо раскрывающих отношение Слуцкого к традиционным или индивидуалистским семейным и моральным нормам.",
+      "sources": [],
+      "evidence_indices": [],
+      "model": "gpt-4.1",
+      "at": "2026-10-14T21:43:39.343642+00:00",
+      "evidence_file": "evidence/leonid-slutsky.json",
+      "evidence_basis": "50f241c52a40c7b8cade943fd514a08cc6b1a0a7eea18d85317f1226b11b1403",
+      "rating_pass": "initial",
+      "measurement_note": "LLM-оценка по извлечённому досье; ссылки не означают независимую экспертную верификацию"
+    },
+    {
+      "object_id": "leonid-slutsky",
+      "scale_id": "international-activity",
+      "positive": 3,
+      "negative": 1,
+      "difference": 2,
+      "mass": 4,
+      "status": "observed",
+      "confidence": 0.9,
+      "reason": "Слуцкий устойчиво представлен как политик-международник, внешнеполитическая повестка регулярно отмечается как ключевая часть его публичного образа и партийных приоритетов.",
+      "sources": [
+        "https://www.kommersant.ru/doc/3579566",
+        "https://spb.ldpr.ru/event/243915/"
+      ],
+      "evidence_indices": [
+        2,
+        3,
+        4
+      ],
+      "model": "gpt-4.1",
+      "at": "2026-10-14T21:43:39.343642+00:00",
+      "evidence_file": "evidence/leonid-slutsky.json",
+      "evidence_basis": "50f241c52a40c7b8cade943fd514a08cc6b1a0a7eea18d85317f1226b11b1403",
+      "rating_pass": "initial",
+      "measurement_note": "LLM-оценка по извлечённому досье; ссылки не означают независимую экспертную верификацию"
+    },
+    {
+      "object_id": "leonid-slutsky",
+      "scale_id": "antiwar-rhetoric",
+      "positive": 0,
+      "negative": 3,
+      "difference": -3,
+      "mass": 3,
+      "status": "observed",
+      "confidence": 0.8,
+      "reason": "В агитационных и предвыборных материалах Слуцкий акцентирует завершение военных действий победой России и ускорение наступления, что соответствует поддержке продолжения военных действий ради заявленных целей.",
+      "sources": [
+        "https://kursk.ldpr.ru/event/341398",
+        "https://kcr.ldpr.ru/event/347999/"
+      ],
+      "evidence_indices": [
+        5,
+        6
+      ],
+      "model": "gpt-4.1",
+      "at": "2026-10-14T21:43:39.343642+00:00",
+      "evidence_file": "evidence/leonid-slutsky.json",
+      "evidence_basis": "50f241c52a40c7b8cade943fd514a08cc6b1a0a7eea18d85317f1226b11b1403",
+      "rating_pass": "initial",
+      "measurement_note": "LLM-оценка по извлечённому досье; ссылки не означают независимую экспертную верификацию"
+    },
+    {
+      "object_id": "leonid-slutsky",
+      "scale_id": "electoral-legitimacy",
+      "positive": null,
+      "negative": null,
+      "difference": null,
+      "mass": null,
+      "status": "unknown",
+      "confidence": 0.3,
+      "reason": "В материалах нет прямых аргументов Слуцкого о приоритете выборов или административного назначения как источника полномочий.",
+      "sources": [],
+      "evidence_indices": [],
+      "model": "gpt-4.1",
+      "at": "2026-10-14T21:43:39.343642+00:00",
+      "evidence_file": "evidence/leonid-slutsky.json",
+      "evidence_basis": "50f241c52a40c7b8cade943fd514a08cc6b1a0a7eea18d85317f1226b11b1403",
+      "rating_pass": "initial",
+      "measurement_note": "LLM-оценка по извлечённому досье; ссылки не означают независимую экспертную верификацию"
+    },
+    {
+      "object_id": "leonid-slutsky",
+      "scale_id": "economic-ownership",
+      "positive": 1,
+      "negative": 1,
+      "difference": 0,
+      "mass": 2,
+      "status": "observed",
+      "confidence": 0.5,
+      "reason": "В риторике присутствуют отдельные элементы социальной защиты (контроль цен, снижение налоговой нагрузки на бедных), но нет чётких заявлений о приоритете государственной или частной собственности.",
+      "sources": [
+        "https://kursk.ldpr.ru/event/341398"
+      ],
+      "evidence_indices": [
+        5,
+        7
+      ],
+      "model": "gpt-4.1",
+      "at": "2026-10-14T21:43:39.343642+00:00",
+      "evidence_file": "evidence/leonid-slutsky.json",
+      "evidence_basis": "50f241c52a40c7b8cade943fd514a08cc6b1a0a7eea18d85317f1226b11b1403",
+      "rating_pass": "initial",
+      "measurement_note": "LLM-оценка по извлечённому досье; ссылки не означают независимую экспертную верификацию"
+    },
+    {
+      "object_id": "leonid-slutsky",
+      "scale_id": "economic-modernization",
+      "positive": null,
+      "negative": null,
+      "difference": null,
+      "mass": null,
+      "status": "unknown",
+      "confidence": 0.2,
+      "reason": "Нет сведений о позиции Слуцкого по вопросам технологического обновления или сохранения существующих моделей.",
+      "sources": [],
+      "evidence_indices": [],
+      "model": "gpt-4.1",
+      "at": "2026-10-14T21:43:39.343642+00:00",
+      "evidence_file": "evidence/leonid-slutsky.json",
+      "evidence_basis": "50f241c52a40c7b8cade943fd514a08cc6b1a0a7eea18d85317f1226b11b1403",
+      "rating_pass": "initial",
+      "measurement_note": "LLM-оценка по извлечённому досье; ссылки не означают независимую экспертную верификацию"
+    },
+    {
+      "object_id": "leonid-slutsky",
+      "scale_id": "media-control",
+      "positive": null,
+      "negative": null,
+      "difference": null,
+      "mass": null,
+      "status": "unknown",
+      "confidence": 0.2,
+      "reason": "В материалах отсутствуют высказывания о регулировании информации или свободе СМИ.",
+      "sources": [],
+      "evidence_indices": [],
+      "model": "gpt-4.1",
+      "at": "2026-10-14T21:43:39.343642+00:00",
+      "evidence_file": "evidence/leonid-slutsky.json",
+      "evidence_basis": "50f241c52a40c7b8cade943fd514a08cc6b1a0a7eea18d85317f1226b11b1403",
+      "rating_pass": "initial",
+      "measurement_note": "LLM-оценка по извлечённому досье; ссылки не означают независимую экспертную верификацию"
+    },
+    {
+      "object_id": "leonid-slutsky",
+      "scale_id": "territorial-policy",
+      "positive": null,
+      "negative": null,
+      "difference": null,
+      "mass": null,
+      "status": "unknown",
+      "confidence": 0.3,
+      "reason": "Нет прямых заявлений о сохранении или пересмотре границ, несмотря на упоминание восстановления территорий.",
+      "sources": [],
+      "evidence_indices": [],
+      "model": "gpt-4.1",
+      "at": "2026-10-14T21:43:39.343642+00:00",
+      "evidence_file": "evidence/leonid-slutsky.json",
+      "evidence_basis": "50f241c52a40c7b8cade943fd514a08cc6b1a0a7eea18d85317f1226b11b1403",
+      "rating_pass": "initial",
+      "measurement_note": "LLM-оценка по извлечённому досье; ссылки не означают независимую экспертную верификацию"
+    },
+    {
+      "object_id": "leonid-slutsky",
+      "scale_id": "rhetorical-simplicity",
+      "positive": 3,
+      "negative": 1,
+      "difference": 2,
+      "mass": 4,
+      "status": "observed",
+      "confidence": 0.8,
+      "reason": "Используются простые лозунги и формулы («Россия — больше, чем Москва», «бедные не должны платить налоги»), что указывает на устойчивую склонность к лозунговой простоте, при этом отдельные элементы аргументации присутствуют.",
+      "sources": [
+        "https://kursk.ldpr.ru/event/341398"
+      ],
+      "evidence_indices": [
+        7
+      ],
+      "model": "gpt-4.1",
+      "at": "2026-10-14T21:43:39.343642+00:00",
+      "evidence_file": "evidence/leonid-slutsky.json",
+      "evidence_basis": "50f241c52a40c7b8cade943fd514a08cc6b1a0a7eea18d85317f1226b11b1403",
+      "rating_pass": "initial",
+      "measurement_note": "LLM-оценка по извлечённому досье; ссылки не означают независимую экспертную верификацию"
+    },
+    {
+      "object_id": "leonid-slutsky",
+      "scale_id": "anti-bureaucracy",
+      "positive": 1,
+      "negative": 1,
+      "difference": 0,
+      "mass": 2,
+      "status": "observed",
+      "confidence": 0.5,
+      "reason": "В риторике упоминается совершенствование государственного управления, но нет чётких предложений о сокращении или расширении бюрократии.",
+      "sources": [
+        "https://kcr.ldpr.ru/event/347999/"
+      ],
+      "evidence_indices": [
+        6
+      ],
+      "model": "gpt-4.1",
+      "at": "2026-10-14T21:43:39.343642+00:00",
+      "evidence_file": "evidence/leonid-slutsky.json",
+      "evidence_basis": "50f241c52a40c7b8cade943fd514a08cc6b1a0a7eea18d85317f1226b11b1403",
+      "rating_pass": "initial",
+      "measurement_note": "LLM-оценка по извлечённому досье; ссылки не означают независимую экспертную верификацию"
+    },
+    {
+      "object_id": "leonid-slutsky",
+      "scale_id": "national-patriotism",
+      "positive": 3,
+      "negative": 0,
+      "difference": 3,
+      "mass": 3,
+      "status": "observed",
+      "confidence": 0.7,
+      "reason": "В риторике Слуцкого акцентируется национальная идентичность, преемственность партийного наследия и победа российского оружия, что указывает на устойчивый патриотический акцент.",
+      "sources": [
+        "https://kursk.ldpr.ru/event/341398",
+        "https://cyberleninka.ru/article/n/sravnitelnyy-analiz-predvybornyh-programm-ldpr-na-vyborah-2021-g-i-l-e-slutskogo-na-vyborah-2024-g"
+      ],
+      "evidence_indices": [
+        5,
+        8
+      ],
+      "model": "gpt-4.1",
+      "at": "2026-10-14T21:43:39.343642+00:00",
+      "evidence_file": "evidence/leonid-slutsky.json",
+      "evidence_basis": "50f241c52a40c7b8cade943fd514a08cc6b1a0a7eea18d85317f1226b11b1403",
+      "rating_pass": "initial",
+      "measurement_note": "LLM-оценка по извлечённому досье; ссылки не означают независимую экспертную верификацию"
+    },
+    {
+      "object_id": "leonid-slutsky",
+      "scale_id": "coalitionality",
+      "positive": 1,
+      "negative": 3,
+      "difference": -2,
+      "mass": 4,
+      "status": "observed",
+      "confidence": 0.7,
+      "reason": "Публичный образ Слуцкого устойчиво связан с ролью парламентского представителя ЛДПР и преемственностью партийной линии, что указывает на акцент на самостоятельной партийной идентичности. Использование наследия Жириновского и отсутствие сведений о межпартийных коалициях или объединительных инициативах в указанный период свидетельствуют о доминировании стратегии организационной обособленности. При этом единичные проявления коалиционности могут подразумеваться в рамках парламентской деятельности, но они не акцентированы в публичных материалах.",
+      "sources": [
+        "https://spb.ldpr.ru/event/243915/",
+        "https://www.kommersant.ru/doc/3579566",
+        "https://kursk.ldpr.ru/event/341398",
+        "https://kcr.ldpr.ru/event/347999/",
+        "https://cyberleninka.ru/article/n/sravnitelnyy-analiz-predvybornyh-programm-ldpr-na-vyborah-2021-g-i-l-e-slutskogo-na-vyborah-2024-g"
+      ],
+      "evidence_indices": [
+        3,
+        4,
+        5,
+        6,
+        7,
+        8
+      ],
+      "model": "gpt-4.1",
+      "at": "2026-10-14T21:43:42.151497+00:00",
+      "evidence_file": "evidence/leonid-slutsky.json",
+      "evidence_basis": "50f241c52a40c7b8cade943fd514a08cc6b1a0a7eea18d85317f1226b11b1403",
+      "rating_pass": "initial",
+      "measurement_note": "LLM-оценка по извлечённому досье; ссылки не означают независимую экспертную верификацию"
+    },
+    {
+      "object_id": "leonid-slutsky",
+      "scale_id": "civil-liberties",
+      "positive": null,
+      "negative": null,
+      "difference": null,
+      "mass": null,
+      "status": "unknown",
+      "confidence": 0.3,
+      "reason": "В предоставленных материалах отсутствуют прямые сведения о публичных позициях Слуцкого по вопросам гражданских свобод, правовых гарантий, политического принуждения или антирепрессивной риторики. Нет данных, позволяющих сделать вывод о выраженности любого из полюсов по этой шкале.",
+      "sources": [],
+      "evidence_indices": [],
+      "model": "gpt-4.1",
+      "at": "2026-10-14T21:43:42.151497+00:00",
+      "evidence_file": "evidence/leonid-slutsky.json",
+      "evidence_basis": "50f241c52a40c7b8cade943fd514a08cc6b1a0a7eea18d85317f1226b11b1403",
+      "rating_pass": "initial",
+      "measurement_note": "LLM-оценка по извлечённому досье; ссылки не означают независимую экспертную верификацию"
+    }
+  ],
+  "unknown_scale_ids": [
+    "public-transparency",
+    "family-values",
+    "electoral-legitimacy",
+    "economic-modernization",
+    "media-control",
+    "territorial-policy",
+    "civil-liberties"
+  ]
+}

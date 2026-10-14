@@ -1,0 +1,698 @@
+{
+  "object_id": "mikhail-khodorkovsky",
+  "scales_basis": "2bee01a202c39ee721dfa985f553d5ce4502c74051ebe616ba3acc72ad80c440",
+  "dossier_basis": "c85ad1f08a6c2e581c553e4bea1bc20a479326c85fd532f69bc410df4df50764",
+  "evidence_file": "evidence/mikhail-khodorkovsky.json",
+  "period": [
+    "2016-10-15",
+    "2026-10-15"
+  ],
+  "ratings": [
+    {
+      "object_id": "mikhail-khodorkovsky",
+      "scale_id": "security-sovereignty",
+      "positive": 0,
+      "negative": 3,
+      "difference": -3,
+      "mass": 3,
+      "status": "observed",
+      "confidence": 0.8,
+      "reason": "Публично заявлялась ориентация на европейские институты, поддержка международных договоров и интеграции, без акцента на изоляционизм или суверенную самостоятельность.",
+      "sources": [
+        "https://khodorkovsky.com/open-russia-manifesto/",
+        "https://khodorkovsky.com/page/65/?m"
+      ],
+      "evidence_indices": [
+        0,
+        2,
+        10
+      ],
+      "model": "gpt-4.1",
+      "at": "2026-10-14T21:46:10.025731+00:00",
+      "evidence_file": "evidence/mikhail-khodorkovsky.json",
+      "evidence_basis": "c85ad1f08a6c2e581c553e4bea1bc20a479326c85fd532f69bc410df4df50764",
+      "rating_pass": "initial",
+      "measurement_note": "LLM-оценка по извлечённому досье; ссылки не означают независимую экспертную верификацию"
+    },
+    {
+      "object_id": "mikhail-khodorkovsky",
+      "scale_id": "historical-memory",
+      "positive": null,
+      "negative": null,
+      "difference": null,
+      "mass": null,
+      "status": "unknown",
+      "confidence": 0.2,
+      "reason": "В предоставленных материалах отсутствуют аргументы, апеллирующие к исторической преемственности или к необходимости разрыва с прошлым.",
+      "sources": [],
+      "evidence_indices": [],
+      "model": "gpt-4.1",
+      "at": "2026-10-14T21:46:10.025731+00:00",
+      "evidence_file": "evidence/mikhail-khodorkovsky.json",
+      "evidence_basis": "c85ad1f08a6c2e581c553e4bea1bc20a479326c85fd532f69bc410df4df50764",
+      "rating_pass": "initial",
+      "measurement_note": "LLM-оценка по извлечённому досье; ссылки не означают независимую экспертную верификацию"
+    },
+    {
+      "object_id": "mikhail-khodorkovsky",
+      "scale_id": "technocratic-management",
+      "positive": 3,
+      "negative": 1,
+      "difference": 2,
+      "mass": 4,
+      "status": "observed",
+      "confidence": 0.7,
+      "reason": "В риторике присутствует акцент на институциональных реформах, эффективности, независимости судов и СМИ, а также на практических механизмах поддержки кандидатов.",
+      "sources": [
+        "https://khodorkovsky.com/open-russia-manifesto/",
+        "https://khodorkovsky.com/page/65/?m",
+        "https://khodorkovsky.com/programmes/initiatives/openrussia/"
+      ],
+      "evidence_indices": [
+        0,
+        1,
+        3,
+        4,
+        6,
+        7,
+        10
+      ],
+      "model": "gpt-4.1",
+      "at": "2026-10-14T21:46:10.025731+00:00",
+      "evidence_file": "evidence/mikhail-khodorkovsky.json",
+      "evidence_basis": "c85ad1f08a6c2e581c553e4bea1bc20a479326c85fd532f69bc410df4df50764",
+      "rating_pass": "initial",
+      "measurement_note": "LLM-оценка по извлечённому досье; ссылки не означают независимую экспертную верификацию"
+    },
+    {
+      "object_id": "mikhail-khodorkovsky",
+      "scale_id": "parliamentary-institutional",
+      "positive": 3,
+      "negative": 2,
+      "difference": 1,
+      "mass": 5,
+      "status": "observed",
+      "confidence": 0.8,
+      "reason": "Поддержка институциональных изменений через выборы и парламент, но также присутствует мобилизационный компонент и поддержка внепарламентских кандидатов.",
+      "sources": [
+        "https://khodorkovsky.com/open-russia-manifesto/",
+        "https://khodorkovsky.com/page/65/?m",
+        "https://khodorkovsky.com/programmes/initiatives/openrussia/",
+        "https://angliya.com/publication/mihail-hodorkovskiy-ne-priznayu-razdelenie-lyudey-na-osnovanii-politicheskih-vzglyadov/"
+      ],
+      "evidence_indices": [
+        0,
+        1,
+        4,
+        5,
+        6,
+        8,
+        9,
+        10
+      ],
+      "model": "gpt-4.1",
+      "at": "2026-10-14T21:46:10.025731+00:00",
+      "evidence_file": "evidence/mikhail-khodorkovsky.json",
+      "evidence_basis": "c85ad1f08a6c2e581c553e4bea1bc20a479326c85fd532f69bc410df4df50764",
+      "rating_pass": "initial",
+      "measurement_note": "LLM-оценка по извлечённому досье; ссылки не означают независимую экспертную верификацию"
+    },
+    {
+      "object_id": "mikhail-khodorkovsky",
+      "scale_id": "oppositionality",
+      "positive": 5,
+      "negative": 0,
+      "difference": 5,
+      "mass": 5,
+      "status": "observed",
+      "confidence": 1.0,
+      "reason": "Постоянная и устойчивая критика действующей федеральной власти, формирование альтернативы и поддержка оппозиционных кандидатов.",
+      "sources": [
+        "https://khodorkovsky.com/page/65/?m",
+        "https://khodorkovsky.com/programmes/initiatives/openrussia/",
+        "https://khodorkovsky.com/open-russia-manifesto/"
+      ],
+      "evidence_indices": [
+        1,
+        4,
+        5,
+        6,
+        7,
+        10
+      ],
+      "model": "gpt-4.1",
+      "at": "2026-10-14T21:46:10.025731+00:00",
+      "evidence_file": "evidence/mikhail-khodorkovsky.json",
+      "evidence_basis": "c85ad1f08a6c2e581c553e4bea1bc20a479326c85fd532f69bc410df4df50764",
+      "rating_pass": "initial",
+      "measurement_note": "LLM-оценка по извлечённому досье; ссылки не означают независимую экспертную верификацию"
+    },
+    {
+      "object_id": "mikhail-khodorkovsky",
+      "scale_id": "social-policy",
+      "positive": null,
+      "negative": null,
+      "difference": null,
+      "mass": null,
+      "status": "unknown",
+      "confidence": 0.2,
+      "reason": "В материалах нет явных позиций по вопросам социальной политики или перераспределения.",
+      "sources": [],
+      "evidence_indices": [],
+      "model": "gpt-4.1",
+      "at": "2026-10-14T21:46:10.025731+00:00",
+      "evidence_file": "evidence/mikhail-khodorkovsky.json",
+      "evidence_basis": "c85ad1f08a6c2e581c553e4bea1bc20a479326c85fd532f69bc410df4df50764",
+      "rating_pass": "initial",
+      "measurement_note": "LLM-оценка по извлечённому досье; ссылки не означают независимую экспертную верификацию"
+    },
+    {
+      "object_id": "mikhail-khodorkovsky",
+      "scale_id": "federal-loyalty",
+      "positive": 0,
+      "negative": 2,
+      "difference": -2,
+      "mass": 2,
+      "status": "observed",
+      "confidence": 0.6,
+      "reason": "Поддержка финансово самостоятельного местного самоуправления и региональных лидеров, без акцента на централизацию.",
+      "sources": [
+        "https://khodorkovsky.com/page/65/?m",
+        "https://angliya.com/publication/mihail-hodorkovskiy-ne-priznayu-razdelenie-lyudey-na-osnovanii-politicheskih-vzglyadov/"
+      ],
+      "evidence_indices": [
+        1,
+        8,
+        9
+      ],
+      "model": "gpt-4.1",
+      "at": "2026-10-14T21:46:10.025731+00:00",
+      "evidence_file": "evidence/mikhail-khodorkovsky.json",
+      "evidence_basis": "c85ad1f08a6c2e581c553e4bea1bc20a479326c85fd532f69bc410df4df50764",
+      "rating_pass": "initial",
+      "measurement_note": "LLM-оценка по извлечённому досье; ссылки не означают независимую экспертную верификацию"
+    },
+    {
+      "object_id": "mikhail-khodorkovsky",
+      "scale_id": "mobilization-rhetoric",
+      "positive": 2,
+      "negative": 2,
+      "difference": 0,
+      "mass": 4,
+      "status": "observed",
+      "confidence": 0.5,
+      "reason": "В риторике встречаются как мобилизационные призывы к действию, так и элементы обсуждения и наставничества.",
+      "sources": [
+        "https://khodorkovsky.com/programmes/initiatives/openrussia/",
+        "https://angliya.com/publication/mihail-hodorkovskiy-ne-priznayu-razdelenie-lyudey-na-osnovanii-politicheskih-vzglyadov/"
+      ],
+      "evidence_indices": [
+        5,
+        9
+      ],
+      "model": "gpt-4.1",
+      "at": "2026-10-14T21:46:10.025731+00:00",
+      "evidence_file": "evidence/mikhail-khodorkovsky.json",
+      "evidence_basis": "c85ad1f08a6c2e581c553e4bea1bc20a479326c85fd532f69bc410df4df50764",
+      "rating_pass": "initial",
+      "measurement_note": "LLM-оценка по извлечённому досье; ссылки не означают независимую экспертную верификацию"
+    },
+    {
+      "object_id": "mikhail-khodorkovsky",
+      "scale_id": "conflictuality",
+      "positive": 2,
+      "negative": 1,
+      "difference": 1,
+      "mass": 3,
+      "status": "observed",
+      "confidence": 0.5,
+      "reason": "Критика власти и формирование альтернативы сопровождаются преимущественно институциональной риторикой, без выраженной конфронтационности.",
+      "sources": [
+        "https://khodorkovsky.com/page/65/?m",
+        "https://khodorkovsky.com/programmes/initiatives/openrussia/"
+      ],
+      "evidence_indices": [
+        1,
+        5,
+        6,
+        7
+      ],
+      "model": "gpt-4.1",
+      "at": "2026-10-14T21:46:10.025731+00:00",
+      "evidence_file": "evidence/mikhail-khodorkovsky.json",
+      "evidence_basis": "c85ad1f08a6c2e581c553e4bea1bc20a479326c85fd532f69bc410df4df50764",
+      "rating_pass": "initial",
+      "measurement_note": "LLM-оценка по извлечённому досье; ссылки не означают независимую экспертную верификацию"
+    },
+    {
+      "object_id": "mikhail-khodorkovsky",
+      "scale_id": "media-personalization",
+      "positive": 3,
+      "negative": 1,
+      "difference": 2,
+      "mass": 4,
+      "status": "observed",
+      "confidence": 0.7,
+      "reason": "Образ строится вокруг личного бренда Ходорковского как основателя и наставника, но также подчеркивается поддержка новых лиц и коллективных инициатив.",
+      "sources": [
+        "https://khodorkovsky.com/programmes/initiatives/openrussia/",
+        "https://angliya.com/publication/mihail-hodorkovskiy-ne-priznayu-razdelenie-lyudey-na-osnovanii-politicheskih-vzglyadov/"
+      ],
+      "evidence_indices": [
+        6,
+        8,
+        9
+      ],
+      "model": "gpt-4.1",
+      "at": "2026-10-14T21:46:10.025731+00:00",
+      "evidence_file": "evidence/mikhail-khodorkovsky.json",
+      "evidence_basis": "c85ad1f08a6c2e581c553e4bea1bc20a479326c85fd532f69bc410df4df50764",
+      "rating_pass": "initial",
+      "measurement_note": "LLM-оценка по извлечённому досье; ссылки не означают независимую экспертную верификацию"
+    },
+    {
+      "object_id": "mikhail-khodorkovsky",
+      "scale_id": "antiwesternism",
+      "positive": 0,
+      "negative": 3,
+      "difference": -3,
+      "mass": 3,
+      "status": "observed",
+      "confidence": 0.8,
+      "reason": "Позиционирование России как европейской страны, поддержка сотрудничества с западными институтами, отсутствие антизападной риторики.",
+      "sources": [
+        "https://khodorkovsky.com/open-russia-manifesto/",
+        "https://khodorkovsky.com/page/65/?m"
+      ],
+      "evidence_indices": [
+        0,
+        2,
+        10
+      ],
+      "model": "gpt-4.1",
+      "at": "2026-10-14T21:46:10.025731+00:00",
+      "evidence_file": "evidence/mikhail-khodorkovsky.json",
+      "evidence_basis": "c85ad1f08a6c2e581c553e4bea1bc20a479326c85fd532f69bc410df4df50764",
+      "rating_pass": "initial",
+      "measurement_note": "LLM-оценка по извлечённому досье; ссылки не означают независимую экспертную верификацию"
+    },
+    {
+      "object_id": "mikhail-khodorkovsky",
+      "scale_id": "party-leadership",
+      "positive": 0,
+      "negative": 3,
+      "difference": -3,
+      "mass": 3,
+      "status": "observed",
+      "confidence": 0.8,
+      "reason": "Отказ от партийной мобилизации в пользу поддержки независимых кандидатов и гражданских инициатив.",
+      "sources": [
+        "https://khodorkovsky.com/programmes/initiatives/openrussia/",
+        "https://angliya.com/publication/mihail-hodorkovskiy-ne-priznayu-razdelenie-lyudey-na-osnovanii-politicheskih-vzglyadov/"
+      ],
+      "evidence_indices": [
+        4,
+        5,
+        8,
+        9
+      ],
+      "model": "gpt-4.1",
+      "at": "2026-10-14T21:46:10.025731+00:00",
+      "evidence_file": "evidence/mikhail-khodorkovsky.json",
+      "evidence_basis": "c85ad1f08a6c2e581c553e4bea1bc20a479326c85fd532f69bc410df4df50764",
+      "rating_pass": "initial",
+      "measurement_note": "LLM-оценка по извлечённому досье; ссылки не означают независимую экспертную верификацию"
+    },
+    {
+      "object_id": "mikhail-khodorkovsky",
+      "scale_id": "public-transparency",
+      "positive": 5,
+      "negative": 0,
+      "difference": 5,
+      "mass": 5,
+      "status": "observed",
+      "confidence": 0.95,
+      "reason": "В программных документах и публичных заявлениях Ходорковский и движение «Открытая Россия» последовательно акцентируют открытость власти, прозрачность решений, независимость судов и СМИ, а также общественный контроль.",
+      "sources": [
+        "https://khodorkovsky.com/open-russia-manifesto/",
+        "https://khodorkovsky.com/page/65/?m",
+        "https://khodorkovsky.com/programmes/initiatives/openrussia/"
+      ],
+      "evidence_indices": [
+        0,
+        1,
+        5,
+        6,
+        7,
+        10
+      ],
+      "model": "gpt-4.1",
+      "at": "2026-10-14T21:46:16.158719+00:00",
+      "evidence_file": "evidence/mikhail-khodorkovsky.json",
+      "evidence_basis": "c85ad1f08a6c2e581c553e4bea1bc20a479326c85fd532f69bc410df4df50764",
+      "rating_pass": "initial",
+      "measurement_note": "LLM-оценка по извлечённому досье; ссылки не означают независимую экспертную верификацию"
+    },
+    {
+      "object_id": "mikhail-khodorkovsky",
+      "scale_id": "family-values",
+      "positive": null,
+      "negative": null,
+      "difference": null,
+      "mass": null,
+      "status": "unknown",
+      "confidence": 0.1,
+      "reason": "В предоставленных материалах отсутствуют прямые высказывания или программные акценты по вопросам традиционных семейных или моральных норм.",
+      "sources": [],
+      "evidence_indices": [],
+      "model": "gpt-4.1",
+      "at": "2026-10-14T21:46:16.158719+00:00",
+      "evidence_file": "evidence/mikhail-khodorkovsky.json",
+      "evidence_basis": "c85ad1f08a6c2e581c553e4bea1bc20a479326c85fd532f69bc410df4df50764",
+      "rating_pass": "initial",
+      "measurement_note": "LLM-оценка по извлечённому досье; ссылки не означают независимую экспертную верификацию"
+    },
+    {
+      "object_id": "mikhail-khodorkovsky",
+      "scale_id": "international-activity",
+      "positive": 3,
+      "negative": 1,
+      "difference": 2,
+      "mass": 4,
+      "status": "observed",
+      "confidence": 0.8,
+      "reason": "В ряде материалов подчёркивается европейская ориентация, ценностный подход к международным отношениям и обсуждение санкций, однако основной акцент остаётся на внутренних институциональных реформах.",
+      "sources": [
+        "https://khodorkovsky.com/open-russia-manifesto/",
+        "https://khodorkovsky.com/page/65/?m"
+      ],
+      "evidence_indices": [
+        0,
+        2,
+        10
+      ],
+      "model": "gpt-4.1",
+      "at": "2026-10-14T21:46:16.158719+00:00",
+      "evidence_file": "evidence/mikhail-khodorkovsky.json",
+      "evidence_basis": "c85ad1f08a6c2e581c553e4bea1bc20a479326c85fd532f69bc410df4df50764",
+      "rating_pass": "initial",
+      "measurement_note": "LLM-оценка по извлечённому досье; ссылки не означают независимую экспертную верификацию"
+    },
+    {
+      "object_id": "mikhail-khodorkovsky",
+      "scale_id": "antiwar-rhetoric",
+      "positive": null,
+      "negative": null,
+      "difference": null,
+      "mass": null,
+      "status": "unknown",
+      "confidence": 0.1,
+      "reason": "В предоставленных фактах нет прямых заявлений о прекращении или поддержке военных действий в конкретных конфликтах рассматриваемого периода.",
+      "sources": [],
+      "evidence_indices": [],
+      "model": "gpt-4.1",
+      "at": "2026-10-14T21:46:16.158719+00:00",
+      "evidence_file": "evidence/mikhail-khodorkovsky.json",
+      "evidence_basis": "c85ad1f08a6c2e581c553e4bea1bc20a479326c85fd532f69bc410df4df50764",
+      "rating_pass": "initial",
+      "measurement_note": "LLM-оценка по извлечённому досье; ссылки не означают независимую экспертную верификацию"
+    },
+    {
+      "object_id": "mikhail-khodorkovsky",
+      "scale_id": "electoral-legitimacy",
+      "positive": 5,
+      "negative": 0,
+      "difference": 5,
+      "mass": 5,
+      "status": "observed",
+      "confidence": 0.95,
+      "reason": "Постоянный акцент на честных выборах, сменяемости власти, поддержке независимых кандидатов и парламенте как источнике легитимности.",
+      "sources": [
+        "https://khodorkovsky.com/open-russia-manifesto/",
+        "https://khodorkovsky.com/page/65/?m",
+        "https://khodorkovsky.com/programmes/initiatives/openrussia/",
+        "https://angliya.com/publication/mihail-hodorkovskiy-ne-priznayu-razdelenie-lyudey-na-osnovanii-politicheskih-vzglyadov/"
+      ],
+      "evidence_indices": [
+        0,
+        1,
+        3,
+        4,
+        5,
+        8,
+        9,
+        10
+      ],
+      "model": "gpt-4.1",
+      "at": "2026-10-14T21:46:16.158719+00:00",
+      "evidence_file": "evidence/mikhail-khodorkovsky.json",
+      "evidence_basis": "c85ad1f08a6c2e581c553e4bea1bc20a479326c85fd532f69bc410df4df50764",
+      "rating_pass": "initial",
+      "measurement_note": "LLM-оценка по извлечённому досье; ссылки не означают независимую экспертную верификацию"
+    },
+    {
+      "object_id": "mikhail-khodorkovsky",
+      "scale_id": "economic-ownership",
+      "positive": null,
+      "negative": null,
+      "difference": null,
+      "mass": null,
+      "status": "unknown",
+      "confidence": 0.1,
+      "reason": "В материалах отсутствуют явные позиции по вопросу роли государства и частного капитала в экономике.",
+      "sources": [],
+      "evidence_indices": [],
+      "model": "gpt-4.1",
+      "at": "2026-10-14T21:46:16.158719+00:00",
+      "evidence_file": "evidence/mikhail-khodorkovsky.json",
+      "evidence_basis": "c85ad1f08a6c2e581c553e4bea1bc20a479326c85fd532f69bc410df4df50764",
+      "rating_pass": "initial",
+      "measurement_note": "LLM-оценка по извлечённому досье; ссылки не означают независимую экспертную верификацию"
+    },
+    {
+      "object_id": "mikhail-khodorkovsky",
+      "scale_id": "economic-modernization",
+      "positive": null,
+      "negative": null,
+      "difference": null,
+      "mass": null,
+      "status": "unknown",
+      "confidence": 0.1,
+      "reason": "Нет прямых высказываний или программных акцентов о технологическом обновлении или сохранении существующих моделей.",
+      "sources": [],
+      "evidence_indices": [],
+      "model": "gpt-4.1",
+      "at": "2026-10-14T21:46:16.158719+00:00",
+      "evidence_file": "evidence/mikhail-khodorkovsky.json",
+      "evidence_basis": "c85ad1f08a6c2e581c553e4bea1bc20a479326c85fd532f69bc410df4df50764",
+      "rating_pass": "initial",
+      "measurement_note": "LLM-оценка по извлечённому досье; ссылки не означают независимую экспертную верификацию"
+    },
+    {
+      "object_id": "mikhail-khodorkovsky",
+      "scale_id": "media-control",
+      "positive": 0,
+      "negative": 3,
+      "difference": -3,
+      "mass": 3,
+      "status": "observed",
+      "confidence": 0.8,
+      "reason": "В риторике и программных документах подчёркивается поддержка независимых СМИ и свободы выражения, без признаков акцента на государственном контроле.",
+      "sources": [
+        "https://khodorkovsky.com/page/65/?m",
+        "https://khodorkovsky.com/programmes/initiatives/openrussia/",
+        "https://khodorkovsky.com/open-russia-manifesto/"
+      ],
+      "evidence_indices": [
+        1,
+        7,
+        10
+      ],
+      "model": "gpt-4.1",
+      "at": "2026-10-14T21:46:16.158719+00:00",
+      "evidence_file": "evidence/mikhail-khodorkovsky.json",
+      "evidence_basis": "c85ad1f08a6c2e581c553e4bea1bc20a479326c85fd532f69bc410df4df50764",
+      "rating_pass": "initial",
+      "measurement_note": "LLM-оценка по извлечённому досье; ссылки не означают независимую экспертную верификацию"
+    },
+    {
+      "object_id": "mikhail-khodorkovsky",
+      "scale_id": "territorial-policy",
+      "positive": 1,
+      "negative": 0,
+      "difference": 1,
+      "mass": 1,
+      "status": "observed",
+      "confidence": 0.5,
+      "reason": "В одном из документов отмечается европейская ориентация и уважение международных договоров, однако прямых заявлений о территориальной политике нет.",
+      "sources": [
+        "https://khodorkovsky.com/open-russia-manifesto/",
+        "https://khodorkovsky.com/page/65/?m"
+      ],
+      "evidence_indices": [
+        0,
+        2,
+        10
+      ],
+      "model": "gpt-4.1",
+      "at": "2026-10-14T21:46:16.158719+00:00",
+      "evidence_file": "evidence/mikhail-khodorkovsky.json",
+      "evidence_basis": "c85ad1f08a6c2e581c553e4bea1bc20a479326c85fd532f69bc410df4df50764",
+      "rating_pass": "initial",
+      "measurement_note": "LLM-оценка по извлечённому досье; ссылки не означают независимую экспертную верификацию"
+    },
+    {
+      "object_id": "mikhail-khodorkovsky",
+      "scale_id": "rhetorical-simplicity",
+      "positive": 1,
+      "negative": 3,
+      "difference": -2,
+      "mass": 4,
+      "status": "observed",
+      "confidence": 0.7,
+      "reason": "Преобладает развёрнутая аргументация, объяснение механизмов и институциональных реформ, хотя встречаются и мобилизационные призывы.",
+      "sources": [
+        "https://khodorkovsky.com/open-russia-manifesto/",
+        "https://khodorkovsky.com/page/65/?m",
+        "https://khodorkovsky.com/programmes/initiatives/openrussia/"
+      ],
+      "evidence_indices": [
+        0,
+        1,
+        5,
+        6,
+        10
+      ],
+      "model": "gpt-4.1",
+      "at": "2026-10-14T21:46:16.158719+00:00",
+      "evidence_file": "evidence/mikhail-khodorkovsky.json",
+      "evidence_basis": "c85ad1f08a6c2e581c553e4bea1bc20a479326c85fd532f69bc410df4df50764",
+      "rating_pass": "initial",
+      "measurement_note": "LLM-оценка по извлечённому досье; ссылки не означают независимую экспертную верификацию"
+    },
+    {
+      "object_id": "mikhail-khodorkovsky",
+      "scale_id": "anti-bureaucracy",
+      "positive": 3,
+      "negative": 0,
+      "difference": 3,
+      "mass": 3,
+      "status": "observed",
+      "confidence": 0.7,
+      "reason": "В риторике и программах акцентируется сокращение бюрократии, поддержка самостоятельного местного самоуправления и дерегулирование.",
+      "sources": [
+        "https://khodorkovsky.com/page/65/?m",
+        "https://khodorkovsky.com/programmes/initiatives/openrussia/",
+        "https://khodorkovsky.com/open-russia-manifesto/"
+      ],
+      "evidence_indices": [
+        1,
+        3,
+        10
+      ],
+      "model": "gpt-4.1",
+      "at": "2026-10-14T21:46:16.158719+00:00",
+      "evidence_file": "evidence/mikhail-khodorkovsky.json",
+      "evidence_basis": "c85ad1f08a6c2e581c553e4bea1bc20a479326c85fd532f69bc410df4df50764",
+      "rating_pass": "initial",
+      "measurement_note": "LLM-оценка по извлечённому досье; ссылки не означают независимую экспертную верификацию"
+    },
+    {
+      "object_id": "mikhail-khodorkovsky",
+      "scale_id": "national-patriotism",
+      "positive": 0,
+      "negative": 3,
+      "difference": -3,
+      "mass": 3,
+      "status": "observed",
+      "confidence": 0.7,
+      "reason": "В материалах подчёркивается европейская идентичность, универсальные права и отказ от разделения людей по взглядам, без акцента на национальной исключительности.",
+      "sources": [
+        "https://khodorkovsky.com/open-russia-manifesto/",
+        "https://khodorkovsky.com/page/65/?m",
+        "https://angliya.com/publication/mihail-hodorkovskiy-ne-priznayu-razdelenie-lyudey-na-osnovanii-politicheskih-vzglyadov/"
+      ],
+      "evidence_indices": [
+        0,
+        2,
+        8,
+        10
+      ],
+      "model": "gpt-4.1",
+      "at": "2026-10-14T21:46:16.158719+00:00",
+      "evidence_file": "evidence/mikhail-khodorkovsky.json",
+      "evidence_basis": "c85ad1f08a6c2e581c553e4bea1bc20a479326c85fd532f69bc410df4df50764",
+      "rating_pass": "initial",
+      "measurement_note": "LLM-оценка по извлечённому досье; ссылки не означают независимую экспертную верификацию"
+    },
+    {
+      "object_id": "mikhail-khodorkovsky",
+      "scale_id": "coalitionality",
+      "positive": 3,
+      "negative": 2,
+      "difference": 1,
+      "mass": 5,
+      "status": "observed",
+      "confidence": 0.9,
+      "reason": "Публичная стратегия Ходорковского в указанный период характеризуется устойчивым акцентом на поддержке независимых кандидатов, наставничестве и создании инфраструктуры для новых политических лиц, а не на формировании единой партии или коалиции с другими крупными политическими силами. Присутствует выраженная поддержка совместных инициатив и объединения активистов, но при этом сохраняется организационная обособленность и акцент на персонализированной поддержке.",
+      "sources": [
+        "https://khodorkovsky.com/programmes/initiatives/openrussia/",
+        "https://angliya.com/publication/mihail-hodorkovskiy-ne-priznayu-razdelenie-lyudey-na-osnovanii-politicheskih-vzglyadov/",
+        "https://khodorkovsky.com/open-russia-manifesto/"
+      ],
+      "evidence_indices": [
+        3,
+        4,
+        5,
+        7,
+        8,
+        9,
+        10
+      ],
+      "model": "gpt-4.1",
+      "at": "2026-10-14T21:46:18.746914+00:00",
+      "evidence_file": "evidence/mikhail-khodorkovsky.json",
+      "evidence_basis": "c85ad1f08a6c2e581c553e4bea1bc20a479326c85fd532f69bc410df4df50764",
+      "rating_pass": "initial",
+      "measurement_note": "LLM-оценка по извлечённому досье; ссылки не означают независимую экспертную верификацию"
+    },
+    {
+      "object_id": "mikhail-khodorkovsky",
+      "scale_id": "civil-liberties",
+      "positive": 3,
+      "negative": 0,
+      "difference": 3,
+      "mass": 3,
+      "status": "observed",
+      "confidence": 0.85,
+      "reason": "В программных документах и публичных заявлениях Ходорковского и движения «Открытая Россия» устойчиво выражен акцент на защите гражданских свобод, независимости суда, свободных выборах и правах человека. Признаков акцента на расширение ограничений ради порядка не обнаружено.",
+      "sources": [
+        "https://khodorkovsky.com/open-russia-manifesto/",
+        "https://khodorkovsky.com/page/65/?m",
+        "https://khodorkovsky.com/programmes/initiatives/openrussia/"
+      ],
+      "evidence_indices": [
+        0,
+        1,
+        2,
+        6,
+        7,
+        10
+      ],
+      "model": "gpt-4.1",
+      "at": "2026-10-14T21:46:18.746914+00:00",
+      "evidence_file": "evidence/mikhail-khodorkovsky.json",
+      "evidence_basis": "c85ad1f08a6c2e581c553e4bea1bc20a479326c85fd532f69bc410df4df50764",
+      "rating_pass": "initial",
+      "measurement_note": "LLM-оценка по извлечённому досье; ссылки не означают независимую экспертную верификацию"
+    }
+  ],
+  "unknown_scale_ids": [
+    "historical-memory",
+    "social-policy",
+    "family-values",
+    "antiwar-rhetoric",
+    "economic-ownership",
+    "economic-modernization"
+  ]
+}

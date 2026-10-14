@@ -141,7 +141,7 @@ class ScaleNormalizationTests(unittest.TestCase):
         self.assert_unapproved()
 
     def test_absence_or_silence_cannot_survive_as_an_explicit_pole(self):
-        for pole in ("Нет сведений о позиции", "Слабая выраженность свойства", "Молчание по теме"):
+        for pole in ("Нет сведений о позиции", "Слабая выраженность свойства", "Молчание по теме", "Не делает акцент на теме"):
             initial, normalized = self.proposals()
             normalized["data"]["scales"][0]["negative"] = pole
             with self.subTest(pole=pole), \
@@ -150,6 +150,20 @@ class ScaleNormalizationTests(unittest.TestCase):
                 self.provider.generate_scales(self.study)
             self.assertEqual(self.proposal_record()["status"], "normalization_error")
             self.assert_unapproved()
+
+    def test_observable_contrasts_do_not_have_to_be_logical_antonyms(self):
+        initial, normalized = self.proposals()
+        normalized["data"]["scales"][1].update(
+            positive="Опирается на широкое публичное обсуждение",
+            negative="Опирается на профессиональную экспертизу",
+            definition="Два наблюдаемых способа обоснования решений; оба могут быть выражены одновременно",
+        )
+        with patch.object(self.provider, "request", side_effect=[initial, normalized]):
+            scales, provenance = self.provider.generate_scales(self.study)
+        self.assertEqual(scales[1]["positive"], "Опирается на широкое публичное обсуждение")
+        self.assertEqual(scales[1]["negative"], "Опирается на профессиональную экспертизу")
+        self.assertEqual(provenance["review_status"], "normalized_unapproved")
+        self.assert_unapproved()
 
 
 if __name__ == "__main__":

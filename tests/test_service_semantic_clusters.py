@@ -95,10 +95,9 @@ class SemanticClusterTests(unittest.TestCase):
         material = json.loads(args[2].split("Данные:\n", 1)[1])
         schema = args[3]
         self.assertEqual(schema["properties"]["recommended_k"]["enum"], [2, 4])
-        alternatives_schema = schema["properties"]["alternatives"]
-        self.assertEqual(alternatives_schema["minItems"], 4)
-        self.assertEqual(alternatives_schema["maxItems"], 4)
-        self.assertEqual(alternatives_schema["items"]["properties"]["k"]["enum"], [2, 3, 4, 5])
+        alternatives_schema = schema["properties"]["alternatives_by_k"]
+        self.assertEqual(alternatives_schema["required"], ["k_2", "k_3", "k_4", "k_5"])
+        self.assertFalse(alternatives_schema["additionalProperties"])
         self.assertEqual(material["eligible_k"], [2, 4])
         # Ineligible partitions still supply the comparison evidence, rather than
         # being silently removed or replaced with the selected partition's groups.
@@ -114,6 +113,21 @@ class SemanticClusterTests(unittest.TestCase):
         self.assertEqual(choice["quality_warnings"], [])
         self.assertIsNone(choice["quality_warning"])
         self.assertEqual(choice["provenance"]["model"], "mock-review-model")
+
+    def test_fixed_keys_cover_every_k_and_numeric_comparison_uses_actual_metrics(self):
+        response = self.response(4)
+        response["data"].pop("alternatives")
+        response["data"]["alternatives_by_k"] = {f"k_{k}": f"Comparison {k}" for k in (2, 3, 4, 5)}
+        with patch.object(self.provider, "request", return_value=response):
+            choice = self.provider.choose_clusters(self.study, candidate_fixture())
+        self.assertTrue(choice["review_complete"])
+        self.assertEqual([row["k"] for row in choice["alternatives"]], [2, 3, 4, 5])
+        self.assertEqual(choice["numeric_comparison"]["selected_k"], 4)
+        self.assertEqual(choice["numeric_comparison"]["silhouette"], .35)
+        self.assertEqual(choice["numeric_comparison"]["highest_silhouette_k"], 5)
+        self.assertEqual(choice["numeric_comparison"]["highest_silhouette"], .95)
+        self.assertIn("0.350", choice["reason"])
+        self.assertIn("0.950 при k=5", choice["reason"])
 
     def test_partial_secondary_explanations_remain_explicitly_incomplete(self):
         response = self.response(4)

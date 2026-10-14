@@ -1,0 +1,649 @@
+{
+  "object_id": "natalya-poklonskaya",
+  "scales_basis": "2bee01a202c39ee721dfa985f553d5ce4502c74051ebe616ba3acc72ad80c440",
+  "dossier_basis": "3a7d27a18b78ec2d41566cfd5dd459e743a19a8c743902576b56e6c3e7e02b00",
+  "evidence_file": "evidence/natalya-poklonskaya.json",
+  "period": [
+    "2016-10-15",
+    "2026-10-15"
+  ],
+  "ratings": [
+    {
+      "object_id": "natalya-poklonskaya",
+      "scale_id": "security-sovereignty",
+      "positive": 3,
+      "negative": 0,
+      "difference": 3,
+      "mass": 3,
+      "status": "observed",
+      "confidence": 0.8,
+      "reason": "Публичный акцент на защите государственных и традиционных ценностей, профиль по безопасности, самостоятельная позиция по ключевым вопросам; нет выраженных аргументов за международную интеграцию.",
+      "sources": [
+        "https://www.rbc.ru/person/62a85a259a7947b9ae5d6360",
+        "https://tass.ru/encyclopedia/person/poklonskaya-natalya-vladimirovna",
+        "https://tass.ru/tag/poklonskaya-natalya-vladimirovna"
+      ],
+      "evidence_indices": [
+        0,
+        1,
+        4,
+        7,
+        11,
+        12
+      ],
+      "model": "gpt-4.1",
+      "at": "2026-10-14T21:43:54.643742+00:00",
+      "evidence_file": "evidence/natalya-poklonskaya.json",
+      "evidence_basis": "3a7d27a18b78ec2d41566cfd5dd459e743a19a8c743902576b56e6c3e7e02b00",
+      "rating_pass": "initial",
+      "measurement_note": "LLM-оценка по извлечённому досье; ссылки не означают независимую экспертную верификацию"
+    },
+    {
+      "object_id": "natalya-poklonskaya",
+      "scale_id": "historical-memory",
+      "positive": 3,
+      "negative": 0,
+      "difference": 3,
+      "mass": 3,
+      "status": "observed",
+      "confidence": 0.7,
+      "reason": "Явная апелляция к исторической памяти и традициям в кампании вокруг фильма «Матильда», монархическая и православная символика как часть публичного образа.",
+      "sources": [
+        "https://www.rbc.ru/person/62a85a259a7947b9ae5d6360",
+        "https://tass.ru/encyclopedia/person/poklonskaya-natalya-vladimirovna"
+      ],
+      "evidence_indices": [
+        2,
+        3,
+        4
+      ],
+      "model": "gpt-4.1",
+      "at": "2026-10-14T21:43:54.643742+00:00",
+      "evidence_file": "evidence/natalya-poklonskaya.json",
+      "evidence_basis": "3a7d27a18b78ec2d41566cfd5dd459e743a19a8c743902576b56e6c3e7e02b00",
+      "rating_pass": "initial",
+      "measurement_note": "LLM-оценка по извлечённому досье; ссылки не означают независимую экспертную верификацию"
+    },
+    {
+      "object_id": "natalya-poklonskaya",
+      "scale_id": "technocratic-management",
+      "positive": 3,
+      "negative": 1,
+      "difference": 2,
+      "mass": 4,
+      "status": "observed",
+      "confidence": 0.7,
+      "reason": "Позиционирование как специалиста по правоприменению и антикоррупционной тематике, акцент на законности и ответственности; однако присутствует и символическая аргументация (религиозные и исторические мотивы).",
+      "sources": [
+        "https://www.rbc.ru/person/62a85a259a7947b9ae5d6360",
+        "https://tass.ru/encyclopedia/person/poklonskaya-natalya-vladimirovna"
+      ],
+      "evidence_indices": [
+        1,
+        4,
+        7,
+        2,
+        3
+      ],
+      "model": "gpt-4.1",
+      "at": "2026-10-14T21:43:54.643742+00:00",
+      "evidence_file": "evidence/natalya-poklonskaya.json",
+      "evidence_basis": "3a7d27a18b78ec2d41566cfd5dd459e743a19a8c743902576b56e6c3e7e02b00",
+      "rating_pass": "initial",
+      "measurement_note": "LLM-оценка по извлечённому досье; ссылки не означают независимую экспертную верификацию"
+    },
+    {
+      "object_id": "natalya-poklonskaya",
+      "scale_id": "parliamentary-institutional",
+      "positive": 3,
+      "negative": 1,
+      "difference": 2,
+      "mass": 4,
+      "status": "observed",
+      "confidence": 0.8,
+      "reason": "Работа в парламентских комиссиях, профиль по контролю и безопасности, но также эпизоды выхода за рамки парламентской повестки (кампания против «Матильды»).",
+      "sources": [
+        "https://www.rbc.ru/person/62a85a259a7947b9ae5d6360",
+        "https://tass.ru/encyclopedia/person/poklonskaya-natalya-vladimirovna"
+      ],
+      "evidence_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        7
+      ],
+      "model": "gpt-4.1",
+      "at": "2026-10-14T21:43:54.643742+00:00",
+      "evidence_file": "evidence/natalya-poklonskaya.json",
+      "evidence_basis": "3a7d27a18b78ec2d41566cfd5dd459e743a19a8c743902576b56e6c3e7e02b00",
+      "rating_pass": "initial",
+      "measurement_note": "LLM-оценка по извлечённому досье; ссылки не означают независимую экспертную верификацию"
+    },
+    {
+      "object_id": "natalya-poklonskaya",
+      "scale_id": "oppositionality",
+      "positive": 1,
+      "negative": 2,
+      "difference": -1,
+      "mass": 3,
+      "status": "observed",
+      "confidence": 0.7,
+      "reason": "Публичное дистанцирование от линии фракции по пенсионной реформе, но в целом поддержка государственных и традиционных ценностей, отсутствие системной критики федеральной власти.",
+      "sources": [
+        "https://www.rbc.ru/person/62a85a259a7947b9ae5d6360"
+      ],
+      "evidence_indices": [
+        5,
+        4,
+        1
+      ],
+      "model": "gpt-4.1",
+      "at": "2026-10-14T21:43:54.643742+00:00",
+      "evidence_file": "evidence/natalya-poklonskaya.json",
+      "evidence_basis": "3a7d27a18b78ec2d41566cfd5dd459e743a19a8c743902576b56e6c3e7e02b00",
+      "rating_pass": "initial",
+      "measurement_note": "LLM-оценка по извлечённому досье; ссылки не означают независимую экспертную верификацию"
+    },
+    {
+      "object_id": "natalya-poklonskaya",
+      "scale_id": "social-policy",
+      "positive": null,
+      "negative": null,
+      "difference": null,
+      "mass": null,
+      "status": "unknown",
+      "confidence": 0.3,
+      "reason": "Нет явных позиций по вопросам социальной политики или перераспределения.",
+      "sources": [],
+      "evidence_indices": [],
+      "model": "gpt-4.1",
+      "at": "2026-10-14T21:43:54.643742+00:00",
+      "evidence_file": "evidence/natalya-poklonskaya.json",
+      "evidence_basis": "3a7d27a18b78ec2d41566cfd5dd459e743a19a8c743902576b56e6c3e7e02b00",
+      "rating_pass": "initial",
+      "measurement_note": "LLM-оценка по извлечённому досье; ссылки не означают независимую экспертную верификацию"
+    },
+    {
+      "object_id": "natalya-poklonskaya",
+      "scale_id": "federal-loyalty",
+      "positive": 2,
+      "negative": 0,
+      "difference": 2,
+      "mass": 2,
+      "status": "observed",
+      "confidence": 0.6,
+      "reason": "Работа в федеральных структурах, назначение на дипломатические и прокурорские должности; нет выраженной региональной или муниципальной автономии в публичных заявлениях.",
+      "sources": [
+        "https://www.rbc.ru/person/62a85a259a7947b9ae5d6360",
+        "https://tass.ru/encyclopedia/person/poklonskaya-natalya-vladimirovna",
+        "https://tass.ru/tag/poklonskaya-natalya-vladimirovna"
+      ],
+      "evidence_indices": [
+        0,
+        8,
+        11,
+        12
+      ],
+      "model": "gpt-4.1",
+      "at": "2026-10-14T21:43:54.643742+00:00",
+      "evidence_file": "evidence/natalya-poklonskaya.json",
+      "evidence_basis": "3a7d27a18b78ec2d41566cfd5dd459e743a19a8c743902576b56e6c3e7e02b00",
+      "rating_pass": "initial",
+      "measurement_note": "LLM-оценка по извлечённому досье; ссылки не означают независимую экспертную верификацию"
+    },
+    {
+      "object_id": "natalya-poklonskaya",
+      "scale_id": "mobilization-rhetoric",
+      "positive": 1,
+      "negative": 1,
+      "difference": 0,
+      "mass": 2,
+      "status": "observed",
+      "confidence": 0.5,
+      "reason": "В кампании вокруг «Матильды» присутствовали элементы мобилизационной риторики (защита веры, истории), но нет устойчивого паттерна призывов к единению или обсуждению альтернатив.",
+      "sources": [
+        "https://www.rbc.ru/person/62a85a259a7947b9ae5d6360",
+        "https://tass.ru/encyclopedia/person/poklonskaya-natalya-vladimirovna"
+      ],
+      "evidence_indices": [
+        2,
+        3
+      ],
+      "model": "gpt-4.1",
+      "at": "2026-10-14T21:43:54.643742+00:00",
+      "evidence_file": "evidence/natalya-poklonskaya.json",
+      "evidence_basis": "3a7d27a18b78ec2d41566cfd5dd459e743a19a8c743902576b56e6c3e7e02b00",
+      "rating_pass": "initial",
+      "measurement_note": "LLM-оценка по извлечённому досье; ссылки не означают независимую экспертную верификацию"
+    },
+    {
+      "object_id": "natalya-poklonskaya",
+      "scale_id": "conflictuality",
+      "positive": 2,
+      "negative": 0,
+      "difference": 2,
+      "mass": 2,
+      "status": "observed",
+      "confidence": 0.6,
+      "reason": "Жёсткая публичная позиция по отдельным вопросам (например, «Матильда»), прокурорский стиль аргументации, но нет системной конфронтационной риторики.",
+      "sources": [
+        "https://www.rbc.ru/person/62a85a259a7947b9ae5d6360"
+      ],
+      "evidence_indices": [
+        2,
+        4,
+        5
+      ],
+      "model": "gpt-4.1",
+      "at": "2026-10-14T21:43:54.643742+00:00",
+      "evidence_file": "evidence/natalya-poklonskaya.json",
+      "evidence_basis": "3a7d27a18b78ec2d41566cfd5dd459e743a19a8c743902576b56e6c3e7e02b00",
+      "rating_pass": "initial",
+      "measurement_note": "LLM-оценка по извлечённому досье; ссылки не означают независимую экспертную верификацию"
+    },
+    {
+      "object_id": "natalya-poklonskaya",
+      "scale_id": "media-personalization",
+      "positive": 2,
+      "negative": 1,
+      "difference": 1,
+      "mass": 3,
+      "status": "observed",
+      "confidence": 0.7,
+      "reason": "Публичный образ строился на узнаваемости бывшего прокурора, самостоятельных заявлениях, но также присутствовала институциональная роль.",
+      "sources": [
+        "https://www.rbc.ru/person/62a85a259a7947b9ae5d6360",
+        "https://tass.ru/tag/poklonskaya-natalya-vladimirovna"
+      ],
+      "evidence_indices": [
+        6,
+        4,
+        12
+      ],
+      "model": "gpt-4.1",
+      "at": "2026-10-14T21:43:54.643742+00:00",
+      "evidence_file": "evidence/natalya-poklonskaya.json",
+      "evidence_basis": "3a7d27a18b78ec2d41566cfd5dd459e743a19a8c743902576b56e6c3e7e02b00",
+      "rating_pass": "initial",
+      "measurement_note": "LLM-оценка по извлечённому досье; ссылки не означают независимую экспертную верификацию"
+    },
+    {
+      "object_id": "natalya-poklonskaya",
+      "scale_id": "antiwesternism",
+      "positive": null,
+      "negative": null,
+      "difference": null,
+      "mass": null,
+      "status": "unknown",
+      "confidence": 0.3,
+      "reason": "Нет явных позиций по отношениям с западными странами в предоставленных фактах.",
+      "sources": [],
+      "evidence_indices": [],
+      "model": "gpt-4.1",
+      "at": "2026-10-14T21:43:54.643742+00:00",
+      "evidence_file": "evidence/natalya-poklonskaya.json",
+      "evidence_basis": "3a7d27a18b78ec2d41566cfd5dd459e743a19a8c743902576b56e6c3e7e02b00",
+      "rating_pass": "initial",
+      "measurement_note": "LLM-оценка по извлечённому досье; ссылки не означают независимую экспертную верификацию"
+    },
+    {
+      "object_id": "natalya-poklonskaya",
+      "scale_id": "party-leadership",
+      "positive": 0,
+      "negative": 2,
+      "difference": -2,
+      "mass": 2,
+      "status": "observed",
+      "confidence": 0.8,
+      "reason": "Не вступала в партию «Единая Россия», дистанцировалась от партийной линии, акцент на независимой позиции.",
+      "sources": [
+        "https://www.rbc.ru/person/62a85a259a7947b9ae5d6360"
+      ],
+      "evidence_indices": [
+        0,
+        5,
+        6
+      ],
+      "model": "gpt-4.1",
+      "at": "2026-10-14T21:43:54.643742+00:00",
+      "evidence_file": "evidence/natalya-poklonskaya.json",
+      "evidence_basis": "3a7d27a18b78ec2d41566cfd5dd459e743a19a8c743902576b56e6c3e7e02b00",
+      "rating_pass": "initial",
+      "measurement_note": "LLM-оценка по извлечённому досье; ссылки не означают независимую экспертную верификацию"
+    },
+    {
+      "object_id": "natalya-poklonskaya",
+      "scale_id": "public-transparency",
+      "positive": 3,
+      "negative": 1,
+      "difference": 2,
+      "mass": 4,
+      "status": "observed",
+      "confidence": 0.8,
+      "reason": "Публичный акцент на антикоррупционной тематике и контроле за доходами депутатов, однако после ухода с руководящей позиции в комиссии акцент сместился к персонализированной коммуникации, а не к институциональной прозрачности.",
+      "sources": [
+        "https://www.rbc.ru/person/62a85a259a7947b9ae5d6360",
+        "https://tass.ru/encyclopedia/person/poklonskaya-natalya-vladimirovna",
+        "https://tass.ru/tag/poklonskaya-natalya-vladimirovna"
+      ],
+      "evidence_indices": [
+        0,
+        1,
+        2,
+        4,
+        6,
+        7,
+        11,
+        12
+      ],
+      "model": "gpt-4.1",
+      "at": "2026-10-14T21:44:00.458583+00:00",
+      "evidence_file": "evidence/natalya-poklonskaya.json",
+      "evidence_basis": "3a7d27a18b78ec2d41566cfd5dd459e743a19a8c743902576b56e6c3e7e02b00",
+      "rating_pass": "initial",
+      "measurement_note": "LLM-оценка по извлечённому досье; ссылки не означают независимую экспертную верификацию"
+    },
+    {
+      "object_id": "natalya-poklonskaya",
+      "scale_id": "family-values",
+      "positive": 3,
+      "negative": 0,
+      "difference": 3,
+      "mass": 3,
+      "status": "observed",
+      "confidence": 0.7,
+      "reason": "Явный акцент на защите традиционных и религиозных ценностей, особенно в кампании против фильма «Матильда» и в риторике о моральных нормах.",
+      "sources": [
+        "https://www.rbc.ru/person/62a85a259a7947b9ae5d6360",
+        "https://tass.ru/encyclopedia/person/poklonskaya-natalya-vladimirovna"
+      ],
+      "evidence_indices": [
+        2,
+        3,
+        4
+      ],
+      "model": "gpt-4.1",
+      "at": "2026-10-14T21:44:00.458583+00:00",
+      "evidence_file": "evidence/natalya-poklonskaya.json",
+      "evidence_basis": "3a7d27a18b78ec2d41566cfd5dd459e743a19a8c743902576b56e6c3e7e02b00",
+      "rating_pass": "initial",
+      "measurement_note": "LLM-оценка по извлечённому досье; ссылки не означают независимую экспертную верификацию"
+    },
+    {
+      "object_id": "natalya-poklonskaya",
+      "scale_id": "international-activity",
+      "positive": 1,
+      "negative": 1,
+      "difference": 0,
+      "mass": 2,
+      "status": "observed",
+      "confidence": 0.6,
+      "reason": "Краткий период дипломатической службы и гуманитарная работа в Россотрудничестве, однако основной публичный профиль связан с внутренней правоохранительной и парламентской деятельностью.",
+      "sources": [
+        "https://tass.ru/encyclopedia/person/poklonskaya-natalya-vladimirovna"
+      ],
+      "evidence_indices": [
+        8,
+        10
+      ],
+      "model": "gpt-4.1",
+      "at": "2026-10-14T21:44:00.458583+00:00",
+      "evidence_file": "evidence/natalya-poklonskaya.json",
+      "evidence_basis": "3a7d27a18b78ec2d41566cfd5dd459e743a19a8c743902576b56e6c3e7e02b00",
+      "rating_pass": "initial",
+      "measurement_note": "LLM-оценка по извлечённому досье; ссылки не означают независимую экспертную верификацию"
+    },
+    {
+      "object_id": "natalya-poklonskaya",
+      "scale_id": "antiwar-rhetoric",
+      "positive": null,
+      "negative": null,
+      "difference": null,
+      "mass": null,
+      "status": "unknown",
+      "confidence": 0.3,
+      "reason": "Нет данных о публичных заявлениях Поклонской по вопросам прекращения или продолжения военных действий в указанный период.",
+      "sources": [],
+      "evidence_indices": [],
+      "model": "gpt-4.1",
+      "at": "2026-10-14T21:44:00.458583+00:00",
+      "evidence_file": "evidence/natalya-poklonskaya.json",
+      "evidence_basis": "3a7d27a18b78ec2d41566cfd5dd459e743a19a8c743902576b56e6c3e7e02b00",
+      "rating_pass": "initial",
+      "measurement_note": "LLM-оценка по извлечённому досье; ссылки не означают независимую экспертную верификацию"
+    },
+    {
+      "object_id": "natalya-poklonskaya",
+      "scale_id": "electoral-legitimacy",
+      "positive": 1,
+      "negative": 2,
+      "difference": -1,
+      "mass": 3,
+      "status": "observed",
+      "confidence": 0.7,
+      "reason": "Публичная роль как избранного депутата, однако дальнейшая карьера строилась на назначениях и институциональной преемственности, а не на электоральной легитимации.",
+      "sources": [
+        "https://www.rbc.ru/person/62a85a259a7947b9ae5d6360",
+        "https://tass.ru/encyclopedia/person/poklonskaya-natalya-vladimirovna",
+        "https://tass.ru/tag/poklonskaya-natalya-vladimirovna"
+      ],
+      "evidence_indices": [
+        0,
+        5,
+        8,
+        11,
+        12
+      ],
+      "model": "gpt-4.1",
+      "at": "2026-10-14T21:44:00.458583+00:00",
+      "evidence_file": "evidence/natalya-poklonskaya.json",
+      "evidence_basis": "3a7d27a18b78ec2d41566cfd5dd459e743a19a8c743902576b56e6c3e7e02b00",
+      "rating_pass": "initial",
+      "measurement_note": "LLM-оценка по извлечённому досье; ссылки не означают независимую экспертную верификацию"
+    },
+    {
+      "object_id": "natalya-poklonskaya",
+      "scale_id": "economic-ownership",
+      "positive": null,
+      "negative": null,
+      "difference": null,
+      "mass": null,
+      "status": "unknown",
+      "confidence": 0.3,
+      "reason": "Нет сведений о публичных позициях по вопросам роли государства и частного капитала в экономике.",
+      "sources": [],
+      "evidence_indices": [],
+      "model": "gpt-4.1",
+      "at": "2026-10-14T21:44:00.458583+00:00",
+      "evidence_file": "evidence/natalya-poklonskaya.json",
+      "evidence_basis": "3a7d27a18b78ec2d41566cfd5dd459e743a19a8c743902576b56e6c3e7e02b00",
+      "rating_pass": "initial",
+      "measurement_note": "LLM-оценка по извлечённому досье; ссылки не означают независимую экспертную верификацию"
+    },
+    {
+      "object_id": "natalya-poklonskaya",
+      "scale_id": "economic-modernization",
+      "positive": null,
+      "negative": null,
+      "difference": null,
+      "mass": null,
+      "status": "unknown",
+      "confidence": 0.3,
+      "reason": "Нет данных о публичных предложениях или акцентах на технологическое обновление или сохранение традиционных моделей.",
+      "sources": [],
+      "evidence_indices": [],
+      "model": "gpt-4.1",
+      "at": "2026-10-14T21:44:00.458583+00:00",
+      "evidence_file": "evidence/natalya-poklonskaya.json",
+      "evidence_basis": "3a7d27a18b78ec2d41566cfd5dd459e743a19a8c743902576b56e6c3e7e02b00",
+      "rating_pass": "initial",
+      "measurement_note": "LLM-оценка по извлечённому досье; ссылки не означают независимую экспертную верификацию"
+    },
+    {
+      "object_id": "natalya-poklonskaya",
+      "scale_id": "media-control",
+      "positive": null,
+      "negative": null,
+      "difference": null,
+      "mass": null,
+      "status": "unknown",
+      "confidence": 0.3,
+      "reason": "Нет сведений о публичных позициях по вопросам регулирования информации или свободы СМИ.",
+      "sources": [],
+      "evidence_indices": [],
+      "model": "gpt-4.1",
+      "at": "2026-10-14T21:44:00.458583+00:00",
+      "evidence_file": "evidence/natalya-poklonskaya.json",
+      "evidence_basis": "3a7d27a18b78ec2d41566cfd5dd459e743a19a8c743902576b56e6c3e7e02b00",
+      "rating_pass": "initial",
+      "measurement_note": "LLM-оценка по извлечённому досье; ссылки не означают независимую экспертную верификацию"
+    },
+    {
+      "object_id": "natalya-poklonskaya",
+      "scale_id": "territorial-policy",
+      "positive": null,
+      "negative": null,
+      "difference": null,
+      "mass": null,
+      "status": "unknown",
+      "confidence": 0.3,
+      "reason": "Нет прямых заявлений о территориальной политике или пересмотре границ.",
+      "sources": [],
+      "evidence_indices": [],
+      "model": "gpt-4.1",
+      "at": "2026-10-14T21:44:00.458583+00:00",
+      "evidence_file": "evidence/natalya-poklonskaya.json",
+      "evidence_basis": "3a7d27a18b78ec2d41566cfd5dd459e743a19a8c743902576b56e6c3e7e02b00",
+      "rating_pass": "initial",
+      "measurement_note": "LLM-оценка по извлечённому досье; ссылки не означают независимую экспертную верификацию"
+    },
+    {
+      "object_id": "natalya-poklonskaya",
+      "scale_id": "rhetorical-simplicity",
+      "positive": 2,
+      "negative": 2,
+      "difference": 0,
+      "mass": 4,
+      "status": "observed",
+      "confidence": 0.6,
+      "reason": "Прокурорский стиль аргументации и акцент на законности сочетаются с персонализированной и символической риторикой, но нет устойчивого доминирования ни одного полюса.",
+      "sources": [
+        "https://www.rbc.ru/person/62a85a259a7947b9ae5d6360"
+      ],
+      "evidence_indices": [
+        4,
+        6
+      ],
+      "model": "gpt-4.1",
+      "at": "2026-10-14T21:44:00.458583+00:00",
+      "evidence_file": "evidence/natalya-poklonskaya.json",
+      "evidence_basis": "3a7d27a18b78ec2d41566cfd5dd459e743a19a8c743902576b56e6c3e7e02b00",
+      "rating_pass": "initial",
+      "measurement_note": "LLM-оценка по извлечённому досье; ссылки не означают независимую экспертную верификацию"
+    },
+    {
+      "object_id": "natalya-poklonskaya",
+      "scale_id": "anti-bureaucracy",
+      "positive": null,
+      "negative": null,
+      "difference": null,
+      "mass": null,
+      "status": "unknown",
+      "confidence": 0.3,
+      "reason": "Нет данных о предложениях по дерегулированию или расширению административного регулирования.",
+      "sources": [],
+      "evidence_indices": [],
+      "model": "gpt-4.1",
+      "at": "2026-10-14T21:44:00.458583+00:00",
+      "evidence_file": "evidence/natalya-poklonskaya.json",
+      "evidence_basis": "3a7d27a18b78ec2d41566cfd5dd459e743a19a8c743902576b56e6c3e7e02b00",
+      "rating_pass": "initial",
+      "measurement_note": "LLM-оценка по извлечённому досье; ссылки не означают независимую экспертную верификацию"
+    },
+    {
+      "object_id": "natalya-poklonskaya",
+      "scale_id": "national-patriotism",
+      "positive": 2,
+      "negative": 0,
+      "difference": 2,
+      "mass": 2,
+      "status": "observed",
+      "confidence": 0.6,
+      "reason": "Публичные апелляции к исторической памяти, защите национальных и религиозных ценностей, особенно в контексте кампании вокруг «Матильды».",
+      "sources": [
+        "https://www.rbc.ru/person/62a85a259a7947b9ae5d6360",
+        "https://tass.ru/encyclopedia/person/poklonskaya-natalya-vladimirovna"
+      ],
+      "evidence_indices": [
+        2,
+        3,
+        4
+      ],
+      "model": "gpt-4.1",
+      "at": "2026-10-14T21:44:00.458583+00:00",
+      "evidence_file": "evidence/natalya-poklonskaya.json",
+      "evidence_basis": "3a7d27a18b78ec2d41566cfd5dd459e743a19a8c743902576b56e6c3e7e02b00",
+      "rating_pass": "initial",
+      "measurement_note": "LLM-оценка по извлечённому досье; ссылки не означают независимую экспертную верификацию"
+    },
+    {
+      "object_id": "natalya-poklonskaya",
+      "scale_id": "coalitionality",
+      "positive": 1,
+      "negative": 3,
+      "difference": -2,
+      "mass": 4,
+      "status": "observed",
+      "confidence": 0.9,
+      "reason": "Поклонская не вступала в партию «Единая Россия», несмотря на работу во фракции, и неоднократно демонстрировала самостоятельную позицию (например, по пенсионной реформе). В публичной коммуникации подчеркивалась её самостоятельность и дистанцирование от партийной линии. Признаков активного коалиционного поведения или объединительных инициатив не выявлено, однако отдельные элементы сотрудничества с фракцией присутствовали.",
+      "sources": [
+        "https://www.rbc.ru/person/62a85a259a7947b9ae5d6360"
+      ],
+      "evidence_indices": [
+        0,
+        4,
+        5,
+        6,
+        9
+      ],
+      "model": "gpt-4.1",
+      "at": "2026-10-14T21:44:03.019904+00:00",
+      "evidence_file": "evidence/natalya-poklonskaya.json",
+      "evidence_basis": "3a7d27a18b78ec2d41566cfd5dd459e743a19a8c743902576b56e6c3e7e02b00",
+      "rating_pass": "initial",
+      "measurement_note": "LLM-оценка по извлечённому досье; ссылки не означают независимую экспертную верификацию"
+    },
+    {
+      "object_id": "natalya-poklonskaya",
+      "scale_id": "civil-liberties",
+      "positive": null,
+      "negative": null,
+      "difference": null,
+      "mass": null,
+      "status": "unknown",
+      "confidence": 0.2,
+      "reason": "В предоставленных фактах отсутствуют прямые сведения о публичных позициях Поклонской по вопросам гражданских свобод, прав человека, протестов или расширения ограничений ради порядка. Оценка невозможна.",
+      "sources": [],
+      "evidence_indices": [],
+      "model": "gpt-4.1",
+      "at": "2026-10-14T21:44:03.019904+00:00",
+      "evidence_file": "evidence/natalya-poklonskaya.json",
+      "evidence_basis": "3a7d27a18b78ec2d41566cfd5dd459e743a19a8c743902576b56e6c3e7e02b00",
+      "rating_pass": "initial",
+      "measurement_note": "LLM-оценка по извлечённому досье; ссылки не означают независимую экспертную верификацию"
+    }
+  ],
+  "unknown_scale_ids": [
+    "social-policy",
+    "antiwesternism",
+    "antiwar-rhetoric",
+    "economic-ownership",
+    "economic-modernization",
+    "media-control",
+    "territorial-policy",
+    "anti-bureaucracy",
+    "civil-liberties"
+  ]
+}

@@ -1,0 +1,643 @@
+{
+  "object_id": "dmitry-medvedev",
+  "scales_basis": "2bee01a202c39ee721dfa985f553d5ce4502c74051ebe616ba3acc72ad80c440",
+  "dossier_basis": "cd432ac820f4c11fd160bec2d31f30654d6e8be8e096a582c5c92cf509a9e19a",
+  "evidence_file": "evidence/dmitry-medvedev.json",
+  "period": [
+    "2016-10-15",
+    "2026-10-15"
+  ],
+  "ratings": [
+    {
+      "object_id": "dmitry-medvedev",
+      "scale_id": "security-sovereignty",
+      "positive": 4,
+      "negative": 1,
+      "difference": 3,
+      "mass": 5,
+      "status": "observed",
+      "confidence": 0.9,
+      "reason": "В 2026 году Медведев публично связывался с обеспечением научно-технологического суверенитета, а в 2022–2025 годах его риторика характеризовалась как антагонистичная по отношению к Западу. Однако в 2017–2019 годах акцент делался на экономической модернизации и интеграции с экспертным сообществом, что указывает на отдельные проявления интеграционных установок.",
+      "sources": [
+        "http://archive.government.ru/docs/21653/print/",
+        "https://netfreedom.org.ua/ru/dmytro-anatoliiovych-medvediev-biohrafiia-posady-i-sanktsii/",
+        "http://www.scrf.gov.ru/news/allnews/3820/"
+      ],
+      "evidence_indices": [
+        2,
+        5,
+        6
+      ],
+      "model": "gpt-4.1",
+      "at": "2026-10-14T21:42:19.311229+00:00",
+      "evidence_file": "evidence/dmitry-medvedev.json",
+      "evidence_basis": "cd432ac820f4c11fd160bec2d31f30654d6e8be8e096a582c5c92cf509a9e19a",
+      "rating_pass": "initial",
+      "measurement_note": "LLM-оценка по извлечённому досье; ссылки не означают независимую экспертную верификацию"
+    },
+    {
+      "object_id": "dmitry-medvedev",
+      "scale_id": "historical-memory",
+      "positive": null,
+      "negative": null,
+      "difference": null,
+      "mass": null,
+      "status": "unknown",
+      "confidence": 0.3,
+      "reason": "В предоставленных материалах отсутствуют явные обращения к исторической преемственности или к необходимости разрыва с прошлым.",
+      "sources": [],
+      "evidence_indices": [],
+      "model": "gpt-4.1",
+      "at": "2026-10-14T21:42:19.311229+00:00",
+      "evidence_file": "evidence/dmitry-medvedev.json",
+      "evidence_basis": "cd432ac820f4c11fd160bec2d31f30654d6e8be8e096a582c5c92cf509a9e19a",
+      "rating_pass": "initial",
+      "measurement_note": "LLM-оценка по извлечённому досье; ссылки не означают независимую экспертную верификацию"
+    },
+    {
+      "object_id": "dmitry-medvedev",
+      "scale_id": "technocratic-management",
+      "positive": 4,
+      "negative": 1,
+      "difference": 3,
+      "mass": 5,
+      "status": "observed",
+      "confidence": 0.95,
+      "reason": "Публичный образ Медведева в 2017–2020 годах строился вокруг административных инструментов, программного подхода, реформ госслужбы, цифровизации и дорожных карт. Идеологические или символические аргументы встречаются редко.",
+      "sources": [
+        "https://tass.ru/ekonomika/3941450",
+        "http://archive.government.ru/docs/21653/print/",
+        "http://scrf.gov.ru/news/allnews/3837/"
+      ],
+      "evidence_indices": [
+        0,
+        1,
+        2,
+        3,
+        7
+      ],
+      "model": "gpt-4.1",
+      "at": "2026-10-14T21:42:19.311229+00:00",
+      "evidence_file": "evidence/dmitry-medvedev.json",
+      "evidence_basis": "cd432ac820f4c11fd160bec2d31f30654d6e8be8e096a582c5c92cf509a9e19a",
+      "rating_pass": "initial",
+      "measurement_note": "LLM-оценка по извлечённому досье; ссылки не означают независимую экспертную верификацию"
+    },
+    {
+      "object_id": "dmitry-medvedev",
+      "scale_id": "parliamentary-institutional",
+      "positive": 3,
+      "negative": 0,
+      "difference": 3,
+      "mass": 3,
+      "status": "observed",
+      "confidence": 0.8,
+      "reason": "Медведев последовательно действовал в рамках государственных и правовых процедур, акцентируя институциональные механизмы (программы, отчётность, реформы госслужбы). Нет признаков акцента на протестных или внеинституциональных стратегиях.",
+      "sources": [
+        "http://archive.government.ru/docs/21653/print/",
+        "http://scrf.gov.ru/news/allnews/3837/"
+      ],
+      "evidence_indices": [
+        2,
+        3,
+        7
+      ],
+      "model": "gpt-4.1",
+      "at": "2026-10-14T21:42:19.311229+00:00",
+      "evidence_file": "evidence/dmitry-medvedev.json",
+      "evidence_basis": "cd432ac820f4c11fd160bec2d31f30654d6e8be8e096a582c5c92cf509a9e19a",
+      "rating_pass": "initial",
+      "measurement_note": "LLM-оценка по извлечённому досье; ссылки не означают независимую экспертную верификацию"
+    },
+    {
+      "object_id": "dmitry-medvedev",
+      "scale_id": "oppositionality",
+      "positive": 0,
+      "negative": 4,
+      "difference": -4,
+      "mass": 4,
+      "status": "observed",
+      "confidence": 0.9,
+      "reason": "Медведев не критиковал федеральную власть, а публично поддерживал её курс, подчёркивая выполнение задач верховного главнокомандующего и реализуя правительственные программы.",
+      "sources": [
+        "http://archive.government.ru/docs/21653/print/",
+        "http://scrf.gov.ru/news/allnews/3837/"
+      ],
+      "evidence_indices": [
+        2,
+        3,
+        7
+      ],
+      "model": "gpt-4.1",
+      "at": "2026-10-14T21:42:19.311229+00:00",
+      "evidence_file": "evidence/dmitry-medvedev.json",
+      "evidence_basis": "cd432ac820f4c11fd160bec2d31f30654d6e8be8e096a582c5c92cf509a9e19a",
+      "rating_pass": "initial",
+      "measurement_note": "LLM-оценка по извлечённому досье; ссылки не означают независимую экспертную верификацию"
+    },
+    {
+      "object_id": "dmitry-medvedev",
+      "scale_id": "social-policy",
+      "positive": 2,
+      "negative": 1,
+      "difference": 1,
+      "mass": 3,
+      "status": "observed",
+      "confidence": 0.7,
+      "reason": "В риторике Медведева отмечались государственные программы и социальное развитие, однако акцент на расширении гарантий или личной ответственности выражен умеренно и не является определяющим.",
+      "sources": [
+        "http://archive.government.ru/docs/21653/print/"
+      ],
+      "evidence_indices": [
+        2
+      ],
+      "model": "gpt-4.1",
+      "at": "2026-10-14T21:42:19.311229+00:00",
+      "evidence_file": "evidence/dmitry-medvedev.json",
+      "evidence_basis": "cd432ac820f4c11fd160bec2d31f30654d6e8be8e096a582c5c92cf509a9e19a",
+      "rating_pass": "initial",
+      "measurement_note": "LLM-оценка по извлечённому досье; ссылки не означают независимую экспертную верификацию"
+    },
+    {
+      "object_id": "dmitry-medvedev",
+      "scale_id": "federal-loyalty",
+      "positive": 3,
+      "negative": 0,
+      "difference": 3,
+      "mass": 3,
+      "status": "observed",
+      "confidence": 0.8,
+      "reason": "Медведев действовал в рамках федеральной вертикали, подчёркивал отчётность перед верховным главнокомандующим и не высказывал позиций о расширении региональной автономии.",
+      "sources": [
+        "http://archive.government.ru/docs/21653/print/",
+        "http://scrf.gov.ru/news/allnews/3837/"
+      ],
+      "evidence_indices": [
+        2,
+        7
+      ],
+      "model": "gpt-4.1",
+      "at": "2026-10-14T21:42:19.311229+00:00",
+      "evidence_file": "evidence/dmitry-medvedev.json",
+      "evidence_basis": "cd432ac820f4c11fd160bec2d31f30654d6e8be8e096a582c5c92cf509a9e19a",
+      "rating_pass": "initial",
+      "measurement_note": "LLM-оценка по извлечённому досье; ссылки не означают независимую экспертную верификацию"
+    },
+    {
+      "object_id": "dmitry-medvedev",
+      "scale_id": "mobilization-rhetoric",
+      "positive": 2,
+      "negative": 1,
+      "difference": 1,
+      "mass": 3,
+      "status": "observed",
+      "confidence": 0.7,
+      "reason": "В 2022–2025 годах отмечены призывы к мобилизации и жёсткая риторика, однако в других периодах преобладал институциональный стиль без выраженного мобилизационного призыва.",
+      "sources": [
+        "https://netfreedom.org.ua/ru/dmytro-anatoliiovych-medvediev-biohrafiia-posady-i-sanktsii/",
+        "http://scrf.gov.ru/news/allnews/3837/"
+      ],
+      "evidence_indices": [
+        5,
+        7
+      ],
+      "model": "gpt-4.1",
+      "at": "2026-10-14T21:42:19.311229+00:00",
+      "evidence_file": "evidence/dmitry-medvedev.json",
+      "evidence_basis": "cd432ac820f4c11fd160bec2d31f30654d6e8be8e096a582c5c92cf509a9e19a",
+      "rating_pass": "initial",
+      "measurement_note": "LLM-оценка по извлечённому досье; ссылки не означают независимую экспертную верификацию"
+    },
+    {
+      "object_id": "dmitry-medvedev",
+      "scale_id": "conflictuality",
+      "positive": 3,
+      "negative": 0,
+      "difference": 3,
+      "mass": 3,
+      "status": "observed",
+      "confidence": 0.8,
+      "reason": "В 2022–2025 годах риторика Медведева характеризовалась как конфронтационная по отношению к Западу и Украине, однако в экономической и административной риторике преобладал нейтральный стиль.",
+      "sources": [
+        "https://netfreedom.org.ua/ru/dmytro-anatoliiovych-medvediev-biohrafiia-posady-i-sanktsii/"
+      ],
+      "evidence_indices": [
+        5
+      ],
+      "model": "gpt-4.1",
+      "at": "2026-10-14T21:42:19.311229+00:00",
+      "evidence_file": "evidence/dmitry-medvedev.json",
+      "evidence_basis": "cd432ac820f4c11fd160bec2d31f30654d6e8be8e096a582c5c92cf509a9e19a",
+      "rating_pass": "initial",
+      "measurement_note": "LLM-оценка по извлечённому досье; ссылки не означают независимую экспертную верификацию"
+    },
+    {
+      "object_id": "dmitry-medvedev",
+      "scale_id": "media-personalization",
+      "positive": 1,
+      "negative": 3,
+      "difference": -2,
+      "mass": 4,
+      "status": "observed",
+      "confidence": 0.8,
+      "reason": "Публичное самопредставление строилось вокруг институциональных ролей и отчётности, а не персонального бренда или индивидуальной мобилизации.",
+      "sources": [
+        "http://archive.government.ru/docs/21653/print/",
+        "http://scrf.gov.ru/news/allnews/3837/"
+      ],
+      "evidence_indices": [
+        3,
+        7
+      ],
+      "model": "gpt-4.1",
+      "at": "2026-10-14T21:42:19.311229+00:00",
+      "evidence_file": "evidence/dmitry-medvedev.json",
+      "evidence_basis": "cd432ac820f4c11fd160bec2d31f30654d6e8be8e096a582c5c92cf509a9e19a",
+      "rating_pass": "initial",
+      "measurement_note": "LLM-оценка по извлечённому досье; ссылки не означают независимую экспертную верификацию"
+    },
+    {
+      "object_id": "dmitry-medvedev",
+      "scale_id": "antiwesternism",
+      "positive": 4,
+      "negative": 0,
+      "difference": 4,
+      "mass": 4,
+      "status": "observed",
+      "confidence": 0.9,
+      "reason": "В 2022–2025 годах Медведев регулярно выступал с антагонистичной риторикой по отношению к Западу, что стало заметной чертой его публичного образа в этот период.",
+      "sources": [
+        "https://netfreedom.org.ua/ru/dmytro-anatoliiovych-medvediev-biohrafiia-posady-i-sanktsii/"
+      ],
+      "evidence_indices": [
+        5
+      ],
+      "model": "gpt-4.1",
+      "at": "2026-10-14T21:42:19.311229+00:00",
+      "evidence_file": "evidence/dmitry-medvedev.json",
+      "evidence_basis": "cd432ac820f4c11fd160bec2d31f30654d6e8be8e096a582c5c92cf509a9e19a",
+      "rating_pass": "initial",
+      "measurement_note": "LLM-оценка по извлечённому досье; ссылки не означают независимую экспертную верификацию"
+    },
+    {
+      "object_id": "dmitry-medvedev",
+      "scale_id": "party-leadership",
+      "positive": null,
+      "negative": null,
+      "difference": null,
+      "mass": null,
+      "status": "unknown",
+      "confidence": 0.6,
+      "reason": "В материалах нет акцента на партийной мобилизации или независимых инициативах; роль партии не выделяется как определяющая.",
+      "sources": [],
+      "evidence_indices": [],
+      "model": "gpt-4.1",
+      "at": "2026-10-14T21:42:19.311229+00:00",
+      "evidence_file": "evidence/dmitry-medvedev.json",
+      "evidence_basis": "cd432ac820f4c11fd160bec2d31f30654d6e8be8e096a582c5c92cf509a9e19a",
+      "rating_pass": "initial",
+      "measurement_note": "LLM-оценка по извлечённому досье; ссылки не означают независимую экспертную верификацию"
+    },
+    {
+      "object_id": "dmitry-medvedev",
+      "scale_id": "public-transparency",
+      "positive": 2,
+      "negative": 3,
+      "difference": -1,
+      "mass": 5,
+      "status": "observed",
+      "confidence": 0.7,
+      "reason": "Медведев подчёркивал реформу контроля, цифровизацию госуслуг и взаимодействие с экспертным сообществом через 'Открытое правительство', что указывает на определённые элементы прозрачности. Однако акцент на программном подходе, административных инструментах и отчётности свидетельствует о значительной роли закрытых процедур и ограниченного внешнего контроля.",
+      "sources": [
+        "https://tass.ru/ekonomika/3941450",
+        "http://archive.government.ru/docs/21653/print/",
+        "http://scrf.gov.ru/news/allnews/3837/"
+      ],
+      "evidence_indices": [
+        0,
+        2,
+        3,
+        7
+      ],
+      "model": "gpt-4.1",
+      "at": "2026-10-14T21:42:33.751193+00:00",
+      "evidence_file": "evidence/dmitry-medvedev.json",
+      "evidence_basis": "cd432ac820f4c11fd160bec2d31f30654d6e8be8e096a582c5c92cf509a9e19a",
+      "rating_pass": "initial",
+      "measurement_note": "LLM-оценка по извлечённому досье; ссылки не означают независимую экспертную верификацию"
+    },
+    {
+      "object_id": "dmitry-medvedev",
+      "scale_id": "family-values",
+      "positive": null,
+      "negative": null,
+      "difference": null,
+      "mass": null,
+      "status": "unknown",
+      "confidence": 0.0,
+      "reason": "В предоставленных материалах отсутствуют сведения о публичных позициях Медведева по вопросам семейных или традиционных ценностей либо индивидуального самоопределения.",
+      "sources": [],
+      "evidence_indices": [],
+      "model": "gpt-4.1",
+      "at": "2026-10-14T21:42:33.751193+00:00",
+      "evidence_file": "evidence/dmitry-medvedev.json",
+      "evidence_basis": "cd432ac820f4c11fd160bec2d31f30654d6e8be8e096a582c5c92cf509a9e19a",
+      "rating_pass": "initial",
+      "measurement_note": "LLM-оценка по извлечённому досье; ссылки не означают независимую экспертную верификацию"
+    },
+    {
+      "object_id": "dmitry-medvedev",
+      "scale_id": "international-activity",
+      "positive": 1,
+      "negative": 2,
+      "difference": -1,
+      "mass": 3,
+      "status": "observed",
+      "confidence": 0.5,
+      "reason": "В риторике Медведева отмечены обвинения Запада и обсуждение международной безопасности, однако основной публичный акцент в период премьерства делался на внутренней экономике, госуправлении и социальной политике.",
+      "sources": [
+        "https://tass.ru/ekonomika/3941450",
+        "http://archive.government.ru/docs/21653/print/",
+        "https://netfreedom.org.ua/ru/dmytro-anatoliiovych-medvediev-biohrafiia-posady-i-sanktsii/"
+      ],
+      "evidence_indices": [
+        0,
+        1,
+        2,
+        5
+      ],
+      "model": "gpt-4.1",
+      "at": "2026-10-14T21:42:33.751193+00:00",
+      "evidence_file": "evidence/dmitry-medvedev.json",
+      "evidence_basis": "cd432ac820f4c11fd160bec2d31f30654d6e8be8e096a582c5c92cf509a9e19a",
+      "rating_pass": "initial",
+      "measurement_note": "LLM-оценка по извлечённому досье; ссылки не означают независимую экспертную верификацию"
+    },
+    {
+      "object_id": "dmitry-medvedev",
+      "scale_id": "antiwar-rhetoric",
+      "positive": 0,
+      "negative": 3,
+      "difference": -3,
+      "mass": 3,
+      "status": "observed",
+      "confidence": 0.7,
+      "reason": "В материалах после 2022 года отмечены заявления, связанные с поддержкой военных действий и угрозами в адрес Украины, что указывает на выраженность риторики продолжения военных действий. Призывов к миру не зафиксировано.",
+      "sources": [
+        "https://netfreedom.org.ua/ru/dmytro-anatoliiovych-medvediev-biohrafiia-posady-i-sanktsii/"
+      ],
+      "evidence_indices": [
+        5
+      ],
+      "model": "gpt-4.1",
+      "at": "2026-10-14T21:42:33.751193+00:00",
+      "evidence_file": "evidence/dmitry-medvedev.json",
+      "evidence_basis": "cd432ac820f4c11fd160bec2d31f30654d6e8be8e096a582c5c92cf509a9e19a",
+      "rating_pass": "initial",
+      "measurement_note": "LLM-оценка по извлечённому досье; ссылки не означают независимую экспертную верификацию"
+    },
+    {
+      "object_id": "dmitry-medvedev",
+      "scale_id": "electoral-legitimacy",
+      "positive": null,
+      "negative": null,
+      "difference": null,
+      "mass": null,
+      "status": "unknown",
+      "confidence": 0.0,
+      "reason": "Нет данных о публичных аргументах Медведева относительно источников политической легитимности (выборы или административное назначение).",
+      "sources": [],
+      "evidence_indices": [],
+      "model": "gpt-4.1",
+      "at": "2026-10-14T21:42:33.751193+00:00",
+      "evidence_file": "evidence/dmitry-medvedev.json",
+      "evidence_basis": "cd432ac820f4c11fd160bec2d31f30654d6e8be8e096a582c5c92cf509a9e19a",
+      "rating_pass": "initial",
+      "measurement_note": "LLM-оценка по извлечённому досье; ссылки не означают независимую экспертную верификацию"
+    },
+    {
+      "object_id": "dmitry-medvedev",
+      "scale_id": "economic-ownership",
+      "positive": 2,
+      "negative": 2,
+      "difference": 0,
+      "mass": 4,
+      "status": "observed",
+      "confidence": 0.6,
+      "reason": "В риторике Медведева присутствуют одновременно темы приватизации и поддержки предпринимательства, а также приоритет государственных программ и реформ госслужбы. Это указывает на сбалансированное сочетание элементов государственной и частной экономики.",
+      "sources": [
+        "https://tass.ru/ekonomika/3941450",
+        "http://archive.government.ru/docs/21653/print/"
+      ],
+      "evidence_indices": [
+        0,
+        2
+      ],
+      "model": "gpt-4.1",
+      "at": "2026-10-14T21:42:33.751193+00:00",
+      "evidence_file": "evidence/dmitry-medvedev.json",
+      "evidence_basis": "cd432ac820f4c11fd160bec2d31f30654d6e8be8e096a582c5c92cf509a9e19a",
+      "rating_pass": "initial",
+      "measurement_note": "LLM-оценка по извлечённому досье; ссылки не означают независимую экспертную верификацию"
+    },
+    {
+      "object_id": "dmitry-medvedev",
+      "scale_id": "economic-modernization",
+      "positive": 3,
+      "negative": 1,
+      "difference": 2,
+      "mass": 4,
+      "status": "observed",
+      "confidence": 0.8,
+      "reason": "Медведев подчёркивал цифровизацию, технологическое обновление, научно-технологический суверенитет и реформу госуслуг, что свидетельствует об устойчивом акценте на модернизации. Сохранение старых моделей упоминается как осторожность, но не как доминирующая черта.",
+      "sources": [
+        "https://tass.ru/ekonomika/3941450",
+        "http://www.scrf.gov.ru/news/allnews/3820/"
+      ],
+      "evidence_indices": [
+        0,
+        1,
+        6
+      ],
+      "model": "gpt-4.1",
+      "at": "2026-10-14T21:42:33.751193+00:00",
+      "evidence_file": "evidence/dmitry-medvedev.json",
+      "evidence_basis": "cd432ac820f4c11fd160bec2d31f30654d6e8be8e096a582c5c92cf509a9e19a",
+      "rating_pass": "initial",
+      "measurement_note": "LLM-оценка по извлечённому досье; ссылки не означают независимую экспертную верификацию"
+    },
+    {
+      "object_id": "dmitry-medvedev",
+      "scale_id": "media-control",
+      "positive": null,
+      "negative": null,
+      "difference": null,
+      "mass": null,
+      "status": "unknown",
+      "confidence": 0.0,
+      "reason": "В предоставленных материалах отсутствуют сведения о публичных позициях Медведева по вопросам регулирования информации или свободы выражения.",
+      "sources": [],
+      "evidence_indices": [],
+      "model": "gpt-4.1",
+      "at": "2026-10-14T21:42:33.751193+00:00",
+      "evidence_file": "evidence/dmitry-medvedev.json",
+      "evidence_basis": "cd432ac820f4c11fd160bec2d31f30654d6e8be8e096a582c5c92cf509a9e19a",
+      "rating_pass": "initial",
+      "measurement_note": "LLM-оценка по извлечённому досье; ссылки не означают независимую экспертную верификацию"
+    },
+    {
+      "object_id": "dmitry-medvedev",
+      "scale_id": "territorial-policy",
+      "positive": 0,
+      "negative": 3,
+      "difference": -3,
+      "mass": 3,
+      "status": "observed",
+      "confidence": 0.7,
+      "reason": "В риторике после 2022 года отмечены заявления о возможном исчезновении Украины как государства и угрозы, что указывает на выраженность риторики территориального пересмотра.",
+      "sources": [
+        "https://netfreedom.org.ua/ru/dmytro-anatoliiovych-medvediev-biohrafiia-posady-i-sanktsii/"
+      ],
+      "evidence_indices": [
+        5
+      ],
+      "model": "gpt-4.1",
+      "at": "2026-10-14T21:42:33.751193+00:00",
+      "evidence_file": "evidence/dmitry-medvedev.json",
+      "evidence_basis": "cd432ac820f4c11fd160bec2d31f30654d6e8be8e096a582c5c92cf509a9e19a",
+      "rating_pass": "initial",
+      "measurement_note": "LLM-оценка по извлечённому досье; ссылки не означают независимую экспертную верификацию"
+    },
+    {
+      "object_id": "dmitry-medvedev",
+      "scale_id": "rhetorical-simplicity",
+      "positive": 1,
+      "negative": 2,
+      "difference": -1,
+      "mass": 3,
+      "status": "observed",
+      "confidence": 0.5,
+      "reason": "Преобладает институциональный стиль с отчётностью и программными формулировками, однако в отдельных случаях (например, угрозы и обвинения) используются простые лозунговые конструкции.",
+      "sources": [
+        "http://archive.government.ru/docs/21653/print/",
+        "https://netfreedom.org.ua/ru/dmytro-anatoliiovych-medvediev-biohrafiia-posady-i-sanktsii/",
+        "http://scrf.gov.ru/news/allnews/3837/"
+      ],
+      "evidence_indices": [
+        3,
+        5,
+        7
+      ],
+      "model": "gpt-4.1",
+      "at": "2026-10-14T21:42:33.751193+00:00",
+      "evidence_file": "evidence/dmitry-medvedev.json",
+      "evidence_basis": "cd432ac820f4c11fd160bec2d31f30654d6e8be8e096a582c5c92cf509a9e19a",
+      "rating_pass": "initial",
+      "measurement_note": "LLM-оценка по извлечённому досье; ссылки не означают независимую экспертную верификацию"
+    },
+    {
+      "object_id": "dmitry-medvedev",
+      "scale_id": "anti-bureaucracy",
+      "positive": 2,
+      "negative": 2,
+      "difference": 0,
+      "mass": 4,
+      "status": "observed",
+      "confidence": 0.6,
+      "reason": "Медведев говорил о реформе государственного аппарата и сокращении избыточного контроля, но также делал акцент на административных инструментах и программном подходе, что указывает на баланс между дерегулированием и сохранением бюрократических механизмов.",
+      "sources": [
+        "https://tass.ru/ekonomika/3941450",
+        "http://archive.government.ru/docs/21653/print/"
+      ],
+      "evidence_indices": [
+        0,
+        2,
+        3
+      ],
+      "model": "gpt-4.1",
+      "at": "2026-10-14T21:42:33.751193+00:00",
+      "evidence_file": "evidence/dmitry-medvedev.json",
+      "evidence_basis": "cd432ac820f4c11fd160bec2d31f30654d6e8be8e096a582c5c92cf509a9e19a",
+      "rating_pass": "initial",
+      "measurement_note": "LLM-оценка по извлечённому досье; ссылки не означают независимую экспертную верификацию"
+    },
+    {
+      "object_id": "dmitry-medvedev",
+      "scale_id": "national-patriotism",
+      "positive": 2,
+      "negative": 0,
+      "difference": 2,
+      "mass": 2,
+      "status": "observed",
+      "confidence": 0.6,
+      "reason": "В риторике после 2022 года отмечены обвинения Запада и защита национальных интересов, что указывает на выраженность национально-патриотического полюса. Универсальные права не упоминаются.",
+      "sources": [
+        "https://netfreedom.org.ua/ru/dmytro-anatoliiovych-medvediev-biohrafiia-posady-i-sanktsii/"
+      ],
+      "evidence_indices": [
+        5
+      ],
+      "model": "gpt-4.1",
+      "at": "2026-10-14T21:42:33.751193+00:00",
+      "evidence_file": "evidence/dmitry-medvedev.json",
+      "evidence_basis": "cd432ac820f4c11fd160bec2d31f30654d6e8be8e096a582c5c92cf509a9e19a",
+      "rating_pass": "initial",
+      "measurement_note": "LLM-оценка по извлечённому досье; ссылки не означают независимую экспертную верификацию"
+    },
+    {
+      "object_id": "dmitry-medvedev",
+      "scale_id": "coalitionality",
+      "positive": 1,
+      "negative": 3,
+      "difference": -2,
+      "mass": 4,
+      "status": "observed",
+      "confidence": 0.8,
+      "reason": "В публичной деятельности Медведева в указанный период преобладает институциональный стиль, акцент на административных инструментах, взаимодействие с экспертным сообществом и программный подход. Прямых признаков формирования политических коалиций или объединения разных политических сил не обнаружено, однако есть отдельные проявления сотрудничества с экспертами и вовлечения в государственные программы. Самостоятельная конкуренция выражена через акцент на институциональной отчётности и административной обособленности.",
+      "sources": [
+        "http://archive.government.ru/docs/21653/print/",
+        "http://www.scrf.gov.ru/news/allnews/3820/",
+        "http://scrf.gov.ru/news/allnews/3837/"
+      ],
+      "evidence_indices": [
+        2,
+        3,
+        6,
+        7
+      ],
+      "model": "gpt-4.1",
+      "at": "2026-10-14T21:42:37.016097+00:00",
+      "evidence_file": "evidence/dmitry-medvedev.json",
+      "evidence_basis": "cd432ac820f4c11fd160bec2d31f30654d6e8be8e096a582c5c92cf509a9e19a",
+      "rating_pass": "initial",
+      "measurement_note": "LLM-оценка по извлечённому досье; ссылки не означают независимую экспертную верификацию"
+    },
+    {
+      "object_id": "dmitry-medvedev",
+      "scale_id": "civil-liberties",
+      "positive": null,
+      "negative": null,
+      "difference": null,
+      "mass": null,
+      "status": "unknown",
+      "confidence": 0.3,
+      "reason": "В предоставленных материалах отсутствуют прямые сведения о публичных позициях Медведева по вопросам гражданских свобод, правовых гарантий, политического принуждения или расширения ограничений ради порядка. Оценки источников по риторике после 2022 года не содержат конкретных позиций по данной шкале.",
+      "sources": [],
+      "evidence_indices": [],
+      "model": "gpt-4.1",
+      "at": "2026-10-14T21:42:37.016097+00:00",
+      "evidence_file": "evidence/dmitry-medvedev.json",
+      "evidence_basis": "cd432ac820f4c11fd160bec2d31f30654d6e8be8e096a582c5c92cf509a9e19a",
+      "rating_pass": "initial",
+      "measurement_note": "LLM-оценка по извлечённому досье; ссылки не означают независимую экспертную верификацию"
+    }
+  ],
+  "unknown_scale_ids": [
+    "historical-memory",
+    "party-leadership",
+    "family-values",
+    "electoral-legitimacy",
+    "media-control",
+    "civil-liberties"
+  ]
+}

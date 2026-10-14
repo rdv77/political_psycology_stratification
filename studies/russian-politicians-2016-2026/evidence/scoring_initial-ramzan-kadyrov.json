@@ -1,0 +1,688 @@
+{
+  "object_id": "ramzan-kadyrov",
+  "scales_basis": "2bee01a202c39ee721dfa985f553d5ce4502c74051ebe616ba3acc72ad80c440",
+  "dossier_basis": "0294e5913e68716a03c0eb71741951c4cca935285a1883023b6dfb2a2b199b10",
+  "evidence_file": "evidence/ramzan-kadyrov.json",
+  "period": [
+    "2016-10-15",
+    "2026-10-15"
+  ],
+  "ratings": [
+    {
+      "object_id": "ramzan-kadyrov",
+      "scale_id": "security-sovereignty",
+      "positive": 3,
+      "negative": 1,
+      "difference": 2,
+      "mass": 4,
+      "status": "observed",
+      "confidence": 0.8,
+      "reason": "Публичная риторика Кадырова включает акценты на безопасности, антитеррористической борьбе и защите региона, однако его образ устойчиво связан с лояльностью федеральному центру и исполнением решений Москвы, а не с самостоятельной суверенной позицией.",
+      "sources": [
+        "https://www.kavkaz-uzel.eu/articles/85366",
+        "https://www.rbc.ru/person/62c5c0899a79470082fa57eb",
+        "https://news.ru/regions/my-dolzhny-zabrat-vsyu-ukrainu-chto-kadyrov-govoril-ob-svo-rossii-putine",
+        "https://minval.az/k/ramzan-kadyrov"
+      ],
+      "evidence_indices": [
+        0,
+        5,
+        8,
+        9,
+        10,
+        11
+      ],
+      "model": "gpt-4.1",
+      "at": "2026-10-14T21:44:40.083858+00:00",
+      "evidence_file": "evidence/ramzan-kadyrov.json",
+      "evidence_basis": "0294e5913e68716a03c0eb71741951c4cca935285a1883023b6dfb2a2b199b10",
+      "rating_pass": "initial",
+      "measurement_note": "LLM-оценка по извлечённому досье; ссылки не означают независимую экспертную верификацию"
+    },
+    {
+      "object_id": "ramzan-kadyrov",
+      "scale_id": "historical-memory",
+      "positive": null,
+      "negative": null,
+      "difference": null,
+      "mass": null,
+      "status": "unknown",
+      "confidence": 0.2,
+      "reason": "В предоставленных материалах отсутствуют явные ссылки на апелляцию к исторической памяти или программное обоснование политики через традиции либо разрыв с прошлым.",
+      "sources": [],
+      "evidence_indices": [],
+      "model": "gpt-4.1",
+      "at": "2026-10-14T21:44:40.083858+00:00",
+      "evidence_file": "evidence/ramzan-kadyrov.json",
+      "evidence_basis": "0294e5913e68716a03c0eb71741951c4cca935285a1883023b6dfb2a2b199b10",
+      "rating_pass": "initial",
+      "measurement_note": "LLM-оценка по извлечённому досье; ссылки не означают независимую экспертную верификацию"
+    },
+    {
+      "object_id": "ramzan-kadyrov",
+      "scale_id": "technocratic-management",
+      "positive": 1,
+      "negative": 2,
+      "difference": -1,
+      "mass": 3,
+      "status": "observed",
+      "confidence": 0.5,
+      "reason": "В публичном образе Кадырова отмечается демонстрация управленческого контроля и отчетности, но акцент на идеологических и силовых мотивах преобладает над технократическими аргументами.",
+      "sources": [
+        "https://www.rbc.ru/person/62c5c0899a79470082fa57eb",
+        "https://minval.az/k/ramzan-kadyrov"
+      ],
+      "evidence_indices": [
+        3,
+        4,
+        9,
+        11
+      ],
+      "model": "gpt-4.1",
+      "at": "2026-10-14T21:44:40.083858+00:00",
+      "evidence_file": "evidence/ramzan-kadyrov.json",
+      "evidence_basis": "0294e5913e68716a03c0eb71741951c4cca935285a1883023b6dfb2a2b199b10",
+      "rating_pass": "initial",
+      "measurement_note": "LLM-оценка по извлечённому досье; ссылки не означают независимую экспертную верификацию"
+    },
+    {
+      "object_id": "ramzan-kadyrov",
+      "scale_id": "parliamentary-institutional",
+      "positive": 0,
+      "negative": 0,
+      "difference": 0,
+      "mass": 0,
+      "status": "observed",
+      "confidence": 0.7,
+      "reason": "В материалах нет признаков акцента на парламентских или институциональных процедурах, равно как и на протестных стратегиях; публичная стратегия строится вокруг исполнительной власти и силовых методов.",
+      "sources": [
+        "https://www.rbc.ru/person/62c5c0899a79470082fa57eb",
+        "https://minval.az/k/ramzan-kadyrov"
+      ],
+      "evidence_indices": [
+        3,
+        4,
+        9,
+        11
+      ],
+      "model": "gpt-4.1",
+      "at": "2026-10-14T21:44:40.083858+00:00",
+      "evidence_file": "evidence/ramzan-kadyrov.json",
+      "evidence_basis": "0294e5913e68716a03c0eb71741951c4cca935285a1883023b6dfb2a2b199b10",
+      "rating_pass": "initial",
+      "measurement_note": "LLM-оценка по извлечённому досье; ссылки не означают независимую экспертную верификацию"
+    },
+    {
+      "object_id": "ramzan-kadyrov",
+      "scale_id": "oppositionality",
+      "positive": 0,
+      "negative": 5,
+      "difference": -5,
+      "mass": 5,
+      "status": "observed",
+      "confidence": 0.95,
+      "reason": "Кадыров публично поддерживает курс федеральной власти, неоднократно подчеркивает подчинение президенту России и не демонстрирует критики федерального руководства.",
+      "sources": [
+        "https://www.rbc.ru/person/62c5c0899a79470082fa57eb",
+        "https://news.ru/regions/my-dolzhny-zabrat-vsyu-ukrainu-chto-kadyrov-govoril-ob-svo-rossii-putine",
+        "https://minval.az/k/ramzan-kadyrov"
+      ],
+      "evidence_indices": [
+        1,
+        2,
+        5,
+        6,
+        7,
+        8,
+        10,
+        11
+      ],
+      "model": "gpt-4.1",
+      "at": "2026-10-14T21:44:40.083858+00:00",
+      "evidence_file": "evidence/ramzan-kadyrov.json",
+      "evidence_basis": "0294e5913e68716a03c0eb71741951c4cca935285a1883023b6dfb2a2b199b10",
+      "rating_pass": "initial",
+      "measurement_note": "LLM-оценка по извлечённому досье; ссылки не означают независимую экспертную верификацию"
+    },
+    {
+      "object_id": "ramzan-kadyrov",
+      "scale_id": "social-policy",
+      "positive": 1,
+      "negative": 0,
+      "difference": 1,
+      "mass": 1,
+      "status": "observed",
+      "confidence": 0.5,
+      "reason": "Кадыров выступал за сохранение федерального финансирования и поддержки региона, что указывает на некоторый акцент на государственных гарантиях, но выраженность этого полюса невысока.",
+      "sources": [
+        "https://www.kavkaz-uzel.eu/articles/85366"
+      ],
+      "evidence_indices": [
+        0
+      ],
+      "model": "gpt-4.1",
+      "at": "2026-10-14T21:44:40.083858+00:00",
+      "evidence_file": "evidence/ramzan-kadyrov.json",
+      "evidence_basis": "0294e5913e68716a03c0eb71741951c4cca935285a1883023b6dfb2a2b199b10",
+      "rating_pass": "initial",
+      "measurement_note": "LLM-оценка по извлечённому досье; ссылки не означают независимую экспертную верификацию"
+    },
+    {
+      "object_id": "ramzan-kadyrov",
+      "scale_id": "federal-loyalty",
+      "positive": 5,
+      "negative": 1,
+      "difference": 4,
+      "mass": 6,
+      "status": "observed",
+      "confidence": 0.95,
+      "reason": "Публичный образ Кадырова устойчиво строится на лояльности федеральному центру, подчёркивании вертикали власти и подчинённости решениям президента России, при этом отмечается и защита интересов региона.",
+      "sources": [
+        "https://www.kavkaz-uzel.eu/articles/85366",
+        "https://www.rbc.ru/person/62c5c0899a79470082fa57eb",
+        "https://news.ru/regions/my-dolzhny-zabrat-vsyu-ukrainu-chto-kadyrov-govoril-ob-svo-rossii-putine"
+      ],
+      "evidence_indices": [
+        0,
+        1,
+        2,
+        5,
+        8,
+        10
+      ],
+      "model": "gpt-4.1",
+      "at": "2026-10-14T21:44:40.083858+00:00",
+      "evidence_file": "evidence/ramzan-kadyrov.json",
+      "evidence_basis": "0294e5913e68716a03c0eb71741951c4cca935285a1883023b6dfb2a2b199b10",
+      "rating_pass": "initial",
+      "measurement_note": "LLM-оценка по извлечённому досье; ссылки не означают независимую экспертную верификацию"
+    },
+    {
+      "object_id": "ramzan-kadyrov",
+      "scale_id": "mobilization-rhetoric",
+      "positive": 5,
+      "negative": 0,
+      "difference": 5,
+      "mass": 5,
+      "status": "observed",
+      "confidence": 0.9,
+      "reason": "В публичных выступлениях Кадырова преобладают мобилизационные призывы, риторика угроз, дисциплины и максималистские заявления в контексте войны и безопасности.",
+      "sources": [
+        "https://news.ru/regions/my-dolzhny-zabrat-vsyu-ukrainu-chto-kadyrov-govoril-ob-svo-rossii-putine",
+        "https://minval.az/k/ramzan-kadyrov"
+      ],
+      "evidence_indices": [
+        6,
+        7,
+        9,
+        11
+      ],
+      "model": "gpt-4.1",
+      "at": "2026-10-14T21:44:40.083858+00:00",
+      "evidence_file": "evidence/ramzan-kadyrov.json",
+      "evidence_basis": "0294e5913e68716a03c0eb71741951c4cca935285a1883023b6dfb2a2b199b10",
+      "rating_pass": "initial",
+      "measurement_note": "LLM-оценка по извлечённому досье; ссылки не означают независимую экспертную верификацию"
+    },
+    {
+      "object_id": "ramzan-kadyrov",
+      "scale_id": "conflictuality",
+      "positive": 4,
+      "negative": 0,
+      "difference": 4,
+      "mass": 4,
+      "status": "observed",
+      "confidence": 0.8,
+      "reason": "Публичная риторика Кадырова характеризуется жёстким противопоставлением оппонентам, использованием силовых и конфликтных формулировок, особенно в вопросах войны и безопасности.",
+      "sources": [
+        "https://news.ru/regions/my-dolzhny-zabrat-vsyu-ukrainu-chto-kadyrov-govoril-ob-svo-rossii-putine",
+        "https://minval.az/k/ramzan-kadyrov"
+      ],
+      "evidence_indices": [
+        6,
+        7,
+        9,
+        11
+      ],
+      "model": "gpt-4.1",
+      "at": "2026-10-14T21:44:40.083858+00:00",
+      "evidence_file": "evidence/ramzan-kadyrov.json",
+      "evidence_basis": "0294e5913e68716a03c0eb71741951c4cca935285a1883023b6dfb2a2b199b10",
+      "rating_pass": "initial",
+      "measurement_note": "LLM-оценка по извлечённому досье; ссылки не означают независимую экспертную верификацию"
+    },
+    {
+      "object_id": "ramzan-kadyrov",
+      "scale_id": "media-personalization",
+      "positive": 5,
+      "negative": 0,
+      "difference": 5,
+      "mass": 5,
+      "status": "observed",
+      "confidence": 0.9,
+      "reason": "Кадыров активно использует персонализированные медиа, публичные обращения и строит образ личного лидера, связывая успехи и решения с собственной фигурой.",
+      "sources": [
+        "https://www.rbc.ru/person/62c5c0899a79470082fa57eb",
+        "https://news.ru/regions/my-dolzhny-zabrat-vsyu-ukrainu-chto-kadyrov-govoril-ob-svo-rossii-putine"
+      ],
+      "evidence_indices": [
+        4,
+        5,
+        8,
+        10
+      ],
+      "model": "gpt-4.1",
+      "at": "2026-10-14T21:44:40.083858+00:00",
+      "evidence_file": "evidence/ramzan-kadyrov.json",
+      "evidence_basis": "0294e5913e68716a03c0eb71741951c4cca935285a1883023b6dfb2a2b199b10",
+      "rating_pass": "initial",
+      "measurement_note": "LLM-оценка по извлечённому досье; ссылки не означают независимую экспертную верификацию"
+    },
+    {
+      "object_id": "ramzan-kadyrov",
+      "scale_id": "antiwesternism",
+      "positive": 3,
+      "negative": 0,
+      "difference": 3,
+      "mass": 3,
+      "status": "observed",
+      "confidence": 0.7,
+      "reason": "В риторике Кадырова присутствуют антизападные мотивы, особенно в контексте войны на Украине и обвинений в адрес западных стран, однако это не определяющий акцент его публичного образа.",
+      "sources": [
+        "https://news.ru/regions/my-dolzhny-zabrat-vsyu-ukrainu-chto-kadyrov-govoril-ob-svo-rossii-putine",
+        "https://minval.az/k/ramzan-kadyrov"
+      ],
+      "evidence_indices": [
+        6,
+        7,
+        11
+      ],
+      "model": "gpt-4.1",
+      "at": "2026-10-14T21:44:40.083858+00:00",
+      "evidence_file": "evidence/ramzan-kadyrov.json",
+      "evidence_basis": "0294e5913e68716a03c0eb71741951c4cca935285a1883023b6dfb2a2b199b10",
+      "rating_pass": "initial",
+      "measurement_note": "LLM-оценка по извлечённому досье; ссылки не означают независимую экспертную верификацию"
+    },
+    {
+      "object_id": "ramzan-kadyrov",
+      "scale_id": "party-leadership",
+      "positive": 0,
+      "negative": 1,
+      "difference": -1,
+      "mass": 1,
+      "status": "observed",
+      "confidence": 0.6,
+      "reason": "В материалах отсутствуют признаки партийной мобилизации или акцента на партийной организации; публичная стратегия строится вокруг личного лидерства и исполнительной власти.",
+      "sources": [
+        "https://www.rbc.ru/person/62c5c0899a79470082fa57eb"
+      ],
+      "evidence_indices": [
+        4,
+        5
+      ],
+      "model": "gpt-4.1",
+      "at": "2026-10-14T21:44:40.083858+00:00",
+      "evidence_file": "evidence/ramzan-kadyrov.json",
+      "evidence_basis": "0294e5913e68716a03c0eb71741951c4cca935285a1883023b6dfb2a2b199b10",
+      "rating_pass": "initial",
+      "measurement_note": "LLM-оценка по извлечённому досье; ссылки не означают независимую экспертную верификацию"
+    },
+    {
+      "object_id": "ramzan-kadyrov",
+      "scale_id": "public-transparency",
+      "positive": null,
+      "negative": null,
+      "difference": null,
+      "mass": null,
+      "status": "unknown",
+      "confidence": 0.3,
+      "reason": "В предоставленных материалах нет прямых свидетельств о публичных акцентах Кадырова на прозрачности или закрытости принятия решений, либо о риторике антикоррупционного характера.",
+      "sources": [],
+      "evidence_indices": [],
+      "model": "gpt-4.1",
+      "at": "2026-10-14T21:44:47.104254+00:00",
+      "evidence_file": "evidence/ramzan-kadyrov.json",
+      "evidence_basis": "0294e5913e68716a03c0eb71741951c4cca935285a1883023b6dfb2a2b199b10",
+      "rating_pass": "initial",
+      "measurement_note": "LLM-оценка по извлечённому досье; ссылки не означают независимую экспертную верификацию"
+    },
+    {
+      "object_id": "ramzan-kadyrov",
+      "scale_id": "family-values",
+      "positive": null,
+      "negative": null,
+      "difference": null,
+      "mass": null,
+      "status": "unknown",
+      "confidence": 0.3,
+      "reason": "В фактах отсутствуют прямые упоминания позиций Кадырова по вопросам традиционных семейных или индивидуалистских ценностей.",
+      "sources": [],
+      "evidence_indices": [],
+      "model": "gpt-4.1",
+      "at": "2026-10-14T21:44:47.104254+00:00",
+      "evidence_file": "evidence/ramzan-kadyrov.json",
+      "evidence_basis": "0294e5913e68716a03c0eb71741951c4cca935285a1883023b6dfb2a2b199b10",
+      "rating_pass": "initial",
+      "measurement_note": "LLM-оценка по извлечённому досье; ссылки не означают независимую экспертную верификацию"
+    },
+    {
+      "object_id": "ramzan-kadyrov",
+      "scale_id": "international-activity",
+      "positive": 1,
+      "negative": 3,
+      "difference": -2,
+      "mass": 4,
+      "status": "observed",
+      "confidence": 0.7,
+      "reason": "В ряде эпизодов Кадыров акцентирует внутренние вопросы (развитие региона, безопасность, лояльность федеральному центру), однако в 2025 году отмечено участие в трансграничных вопросах (взаимодействие с Турцией по выдаче лиц, объявленных террористами), что свидетельствует о единичном проявлении внешней повестки.",
+      "sources": [
+        "https://www.kavkaz-uzel.eu/articles/85366",
+        "https://www.rbc.ru/person/62c5c0899a79470082fa57eb",
+        "https://minval.az/k/ramzan-kadyrov",
+        "https://news.ru/regions/my-dolzhny-zabrat-vsyu-ukrainu-chto-kadyrov-govoril-ob-svo-rossii-putine"
+      ],
+      "evidence_indices": [
+        0,
+        4,
+        9,
+        10
+      ],
+      "model": "gpt-4.1",
+      "at": "2026-10-14T21:44:47.104254+00:00",
+      "evidence_file": "evidence/ramzan-kadyrov.json",
+      "evidence_basis": "0294e5913e68716a03c0eb71741951c4cca935285a1883023b6dfb2a2b199b10",
+      "rating_pass": "initial",
+      "measurement_note": "LLM-оценка по извлечённому досье; ссылки не означают независимую экспертную верификацию"
+    },
+    {
+      "object_id": "ramzan-kadyrov",
+      "scale_id": "antiwar-rhetoric",
+      "positive": 0,
+      "negative": 5,
+      "difference": -5,
+      "mass": 5,
+      "status": "observed",
+      "confidence": 1,
+      "reason": "Кадыров последовательно и публично поддерживает продолжение военных действий России на Украине, использует максималистскую риторику о необходимости занять всю территорию Украины, не высказывает призывов к миру.",
+      "sources": [
+        "https://news.ru/regions/my-dolzhny-zabrat-vsyu-ukrainu-chto-kadyrov-govoril-ob-svo-rossii-putine",
+        "https://minval.az/k/ramzan-kadyrov"
+      ],
+      "evidence_indices": [
+        6,
+        7,
+        8,
+        11
+      ],
+      "model": "gpt-4.1",
+      "at": "2026-10-14T21:44:47.104254+00:00",
+      "evidence_file": "evidence/ramzan-kadyrov.json",
+      "evidence_basis": "0294e5913e68716a03c0eb71741951c4cca935285a1883023b6dfb2a2b199b10",
+      "rating_pass": "initial",
+      "measurement_note": "LLM-оценка по извлечённому досье; ссылки не означают независимую экспертную верификацию"
+    },
+    {
+      "object_id": "ramzan-kadyrov",
+      "scale_id": "electoral-legitimacy",
+      "positive": 1,
+      "negative": 5,
+      "difference": -4,
+      "mass": 6,
+      "status": "observed",
+      "confidence": 0.9,
+      "reason": "Кадыров формально избирался на пост главы Чечни, однако в публичной риторике и биографических материалах акцентируется его подчинённость федеральной власти и зависимость статуса от решений президента России, а не от воли избирателей.",
+      "sources": [
+        "https://www.rbc.ru/person/62c5c0899a79470082fa57eb",
+        "https://news.ru/regions/my-dolzhny-zabrat-vsyu-ukrainu-chto-kadyrov-govoril-ob-svo-rossii-putine"
+      ],
+      "evidence_indices": [
+        1,
+        2,
+        5,
+        8,
+        10
+      ],
+      "model": "gpt-4.1",
+      "at": "2026-10-14T21:44:47.104254+00:00",
+      "evidence_file": "evidence/ramzan-kadyrov.json",
+      "evidence_basis": "0294e5913e68716a03c0eb71741951c4cca935285a1883023b6dfb2a2b199b10",
+      "rating_pass": "initial",
+      "measurement_note": "LLM-оценка по извлечённому досье; ссылки не означают независимую экспертную верификацию"
+    },
+    {
+      "object_id": "ramzan-kadyrov",
+      "scale_id": "economic-ownership",
+      "positive": null,
+      "negative": null,
+      "difference": null,
+      "mass": null,
+      "status": "unknown",
+      "confidence": 0.3,
+      "reason": "Нет прямых фактов о риторике Кадырова относительно роли государства или частного капитала в экономике.",
+      "sources": [],
+      "evidence_indices": [],
+      "model": "gpt-4.1",
+      "at": "2026-10-14T21:44:47.104254+00:00",
+      "evidence_file": "evidence/ramzan-kadyrov.json",
+      "evidence_basis": "0294e5913e68716a03c0eb71741951c4cca935285a1883023b6dfb2a2b199b10",
+      "rating_pass": "initial",
+      "measurement_note": "LLM-оценка по извлечённому досье; ссылки не означают независимую экспертную верификацию"
+    },
+    {
+      "object_id": "ramzan-kadyrov",
+      "scale_id": "economic-modernization",
+      "positive": null,
+      "negative": null,
+      "difference": null,
+      "mass": null,
+      "status": "unknown",
+      "confidence": 0.3,
+      "reason": "В материалах отсутствуют сведения о публичных акцентах Кадырова на технологической модернизации или сохранении традиционных моделей хозяйствования.",
+      "sources": [],
+      "evidence_indices": [],
+      "model": "gpt-4.1",
+      "at": "2026-10-14T21:44:47.104254+00:00",
+      "evidence_file": "evidence/ramzan-kadyrov.json",
+      "evidence_basis": "0294e5913e68716a03c0eb71741951c4cca935285a1883023b6dfb2a2b199b10",
+      "rating_pass": "initial",
+      "measurement_note": "LLM-оценка по извлечённому досье; ссылки не означают независимую экспертную верификацию"
+    },
+    {
+      "object_id": "ramzan-kadyrov",
+      "scale_id": "media-control",
+      "positive": null,
+      "negative": null,
+      "difference": null,
+      "mass": null,
+      "status": "unknown",
+      "confidence": 0.3,
+      "reason": "Нет данных о публичных заявлениях Кадырова по вопросам свободы СМИ или государственного контроля над информацией.",
+      "sources": [],
+      "evidence_indices": [],
+      "model": "gpt-4.1",
+      "at": "2026-10-14T21:44:47.104254+00:00",
+      "evidence_file": "evidence/ramzan-kadyrov.json",
+      "evidence_basis": "0294e5913e68716a03c0eb71741951c4cca935285a1883023b6dfb2a2b199b10",
+      "rating_pass": "initial",
+      "measurement_note": "LLM-оценка по извлечённому досье; ссылки не означают независимую экспертную верификацию"
+    },
+    {
+      "object_id": "ramzan-kadyrov",
+      "scale_id": "territorial-policy",
+      "positive": 0,
+      "negative": 5,
+      "difference": -5,
+      "mass": 5,
+      "status": "observed",
+      "confidence": 1,
+      "reason": "Кадыров публично поддерживает пересмотр границ и территориальное расширение России за счёт Украины, что выражено в его заявлениях о необходимости занять всю территорию Украины.",
+      "sources": [
+        "https://news.ru/regions/my-dolzhny-zabrat-vsyu-ukrainu-chto-kadyrov-govoril-ob-svo-rossii-putine",
+        "https://minval.az/k/ramzan-kadyrov"
+      ],
+      "evidence_indices": [
+        6,
+        11
+      ],
+      "model": "gpt-4.1",
+      "at": "2026-10-14T21:44:47.104254+00:00",
+      "evidence_file": "evidence/ramzan-kadyrov.json",
+      "evidence_basis": "0294e5913e68716a03c0eb71741951c4cca935285a1883023b6dfb2a2b199b10",
+      "rating_pass": "initial",
+      "measurement_note": "LLM-оценка по извлечённому досье; ссылки не означают независимую экспертную верификацию"
+    },
+    {
+      "object_id": "ramzan-kadyrov",
+      "scale_id": "rhetorical-simplicity",
+      "positive": 3,
+      "negative": 0,
+      "difference": 3,
+      "mass": 3,
+      "status": "observed",
+      "confidence": 0.7,
+      "reason": "Публичные высказывания Кадырова часто оформлены в виде кратких, эмоциональных лозунгов и простых формулировок (например, \"мы должны забрать всю Украину\"), без развёрнутой аргументации.",
+      "sources": [
+        "https://news.ru/regions/my-dolzhny-zabrat-vsyu-ukrainu-chto-kadyrov-govoril-ob-svo-rossii-putine",
+        "https://minval.az/k/ramzan-kadyrov"
+      ],
+      "evidence_indices": [
+        6,
+        11
+      ],
+      "model": "gpt-4.1",
+      "at": "2026-10-14T21:44:47.104254+00:00",
+      "evidence_file": "evidence/ramzan-kadyrov.json",
+      "evidence_basis": "0294e5913e68716a03c0eb71741951c4cca935285a1883023b6dfb2a2b199b10",
+      "rating_pass": "initial",
+      "measurement_note": "LLM-оценка по извлечённому досье; ссылки не означают независимую экспертную верификацию"
+    },
+    {
+      "object_id": "ramzan-kadyrov",
+      "scale_id": "anti-bureaucracy",
+      "positive": null,
+      "negative": null,
+      "difference": null,
+      "mass": null,
+      "status": "unknown",
+      "confidence": 0.3,
+      "reason": "В предоставленных фактах отсутствуют сведения о риторике Кадырова относительно сокращения или расширения административного регулирования.",
+      "sources": [],
+      "evidence_indices": [],
+      "model": "gpt-4.1",
+      "at": "2026-10-14T21:44:47.104254+00:00",
+      "evidence_file": "evidence/ramzan-kadyrov.json",
+      "evidence_basis": "0294e5913e68716a03c0eb71741951c4cca935285a1883023b6dfb2a2b199b10",
+      "rating_pass": "initial",
+      "measurement_note": "LLM-оценка по извлечённому досье; ссылки не означают независимую экспертную верификацию"
+    },
+    {
+      "object_id": "ramzan-kadyrov",
+      "scale_id": "national-patriotism",
+      "positive": 5,
+      "negative": 0,
+      "difference": 5,
+      "mass": 5,
+      "status": "observed",
+      "confidence": 0.9,
+      "reason": "Публичный образ Кадырова устойчиво связан с акцентом на особых интересах национальной и религиозной идентичности Чечни, а также с поддержкой российской национальной политики и патриотической риторикой.",
+      "sources": [
+        "https://www.rbc.ru/person/62c5c0899a79470082fa57eb",
+        "https://news.ru/regions/my-dolzhny-zabrat-vsyu-ukrainu-chto-kadyrov-govoril-ob-svo-rossii-putine",
+        "https://minval.az/k/ramzan-kadyrov"
+      ],
+      "evidence_indices": [
+        3,
+        4,
+        6,
+        8,
+        9,
+        11
+      ],
+      "model": "gpt-4.1",
+      "at": "2026-10-14T21:44:47.104254+00:00",
+      "evidence_file": "evidence/ramzan-kadyrov.json",
+      "evidence_basis": "0294e5913e68716a03c0eb71741951c4cca935285a1883023b6dfb2a2b199b10",
+      "rating_pass": "initial",
+      "measurement_note": "LLM-оценка по извлечённому досье; ссылки не означают независимую экспертную верификацию"
+    },
+    {
+      "object_id": "ramzan-kadyrov",
+      "scale_id": "coalitionality",
+      "positive": 1,
+      "negative": 4,
+      "difference": -3,
+      "mass": 5,
+      "status": "observed",
+      "confidence": 0.9,
+      "reason": "Публичный образ Кадырова устойчиво связан с подчёркнутой лояльностью федеральному центру и персонализированной подчинённостью президенту России, что не является коалиционным объединением с другими политическими силами, а скорее выражает самостоятельную конкуренцию в рамках особого положения Чечни. Эпизоды взаимодействия с федеральной властью и акцент на исполнении приказов не свидетельствуют о широкой коалиционной политике, но фиксируют отдельные проявления сотрудничества в рамках вертикали власти.",
+      "sources": [
+        "https://www.kavkaz-uzel.eu/articles/85366",
+        "https://www.rbc.ru/person/62c5c0899a79470082fa57eb",
+        "https://news.ru/regions/my-dolzhny-zabrat-vsyu-ukrainu-chto-kadyrov-govoril-ob-svo-rossii-putine",
+        "https://minval.az/k/ramzan-kadyrov"
+      ],
+      "evidence_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11
+      ],
+      "model": "gpt-4.1",
+      "at": "2026-10-14T21:44:50.417784+00:00",
+      "evidence_file": "evidence/ramzan-kadyrov.json",
+      "evidence_basis": "0294e5913e68716a03c0eb71741951c4cca935285a1883023b6dfb2a2b199b10",
+      "rating_pass": "initial",
+      "measurement_note": "LLM-оценка по извлечённому досье; ссылки не означают независимую экспертную верификацию"
+    },
+    {
+      "object_id": "ramzan-kadyrov",
+      "scale_id": "civil-liberties",
+      "positive": null,
+      "negative": null,
+      "difference": null,
+      "mass": null,
+      "status": "unknown",
+      "confidence": 0.95,
+      "reason": "В публичной риторике Кадырова доминируют силовые, антитеррористические и репрессивные мотивы, акцент на безопасности, порядке и борьбе с противниками. Нет сведений о защите гражданских свобод или прав обвиняемых; напротив, риторика и действия направлены на расширение ограничений ради порядка.",
+      "sources": [
+        "https://www.rbc.ru/person/62c5c0899a79470082fa57eb",
+        "https://news.ru/regions/my-dolzhny-zabrat-vsyu-ukrainu-chto-kadyrov-govoril-ob-svo-rossii-putine",
+        "https://minval.az/k/ramzan-kadyrov"
+      ],
+      "evidence_indices": [
+        3,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11
+      ],
+      "model": "gpt-4.1",
+      "at": "2026-10-14T21:44:50.417784+00:00",
+      "evidence_file": "evidence/ramzan-kadyrov.json",
+      "evidence_basis": "0294e5913e68716a03c0eb71741951c4cca935285a1883023b6dfb2a2b199b10",
+      "rating_pass": "initial",
+      "measurement_note": "LLM-оценка по извлечённому досье; ссылки не означают независимую экспертную верификацию"
+    }
+  ],
+  "unknown_scale_ids": [
+    "historical-memory",
+    "public-transparency",
+    "family-values",
+    "economic-ownership",
+    "economic-modernization",
+    "media-control",
+    "anti-bureaucracy",
+    "civil-liberties"
+  ]
+}

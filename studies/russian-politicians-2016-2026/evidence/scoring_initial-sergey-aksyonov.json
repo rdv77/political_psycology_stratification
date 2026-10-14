@@ -1,0 +1,643 @@
+{
+  "object_id": "sergey-aksyonov",
+  "scales_basis": "2bee01a202c39ee721dfa985f553d5ce4502c74051ebe616ba3acc72ad80c440",
+  "dossier_basis": "cf75bdb05ad33b61afe02e9c3be6f6e1fa51d56f65ea610daa03662c17619cde",
+  "evidence_file": "evidence/sergey-aksyonov.json",
+  "period": [
+    "2016-10-15",
+    "2026-10-15"
+  ],
+  "ratings": [
+    {
+      "object_id": "sergey-aksyonov",
+      "scale_id": "security-sovereignty",
+      "positive": null,
+      "negative": null,
+      "difference": null,
+      "mass": null,
+      "status": "unknown",
+      "confidence": 0.8,
+      "reason": "Аксёнов в публичных заявлениях подчёркивал необратимость российского контроля над Крымом и демонстрировал безразличие к санкциям, что отражает устойчивый акцент на суверенитете и защите от внешнего влияния.",
+      "sources": [
+        "https://www.npr.org/sections/parallels/2018/01/27/581114772/putins-man-in-crimea-we-ve-returned-to-russia-forever"
+      ],
+      "evidence_indices": [
+        2
+      ],
+      "model": "gpt-4.1",
+      "at": "2026-10-14T21:45:02.843898+00:00",
+      "evidence_file": "evidence/sergey-aksyonov.json",
+      "evidence_basis": "cf75bdb05ad33b61afe02e9c3be6f6e1fa51d56f65ea610daa03662c17619cde",
+      "rating_pass": "initial",
+      "measurement_note": "LLM-оценка по извлечённому досье; ссылки не означают независимую экспертную верификацию"
+    },
+    {
+      "object_id": "sergey-aksyonov",
+      "scale_id": "historical-memory",
+      "positive": null,
+      "negative": null,
+      "difference": null,
+      "mass": null,
+      "status": "unknown",
+      "confidence": 0.3,
+      "reason": "В предоставленных материалах отсутствуют прямые аргументы, обосновывающие политику Аксёнова ссылками на историческую преемственность или необходимостью разрыва с прошлым.",
+      "sources": [],
+      "evidence_indices": [],
+      "model": "gpt-4.1",
+      "at": "2026-10-14T21:45:02.843898+00:00",
+      "evidence_file": "evidence/sergey-aksyonov.json",
+      "evidence_basis": "cf75bdb05ad33b61afe02e9c3be6f6e1fa51d56f65ea610daa03662c17619cde",
+      "rating_pass": "initial",
+      "measurement_note": "LLM-оценка по извлечённому досье; ссылки не означают независимую экспертную верификацию"
+    },
+    {
+      "object_id": "sergey-aksyonov",
+      "scale_id": "technocratic-management",
+      "positive": null,
+      "negative": null,
+      "difference": null,
+      "mass": null,
+      "status": "unknown",
+      "confidence": 0.7,
+      "reason": "В отчётах о работе и публичных выступлениях Аксёнов делал акцент на управленческих результатах, экономических показателях и реагировании на чрезвычайные ситуации.",
+      "sources": [
+        "http://crimea.gov.ru/news/30_03_18_10",
+        "http://crimea.gov.ru/en/news/26_02_19_6",
+        "https://antifashist.com/item/kto-polomal-infopole-kryma-i-ne-otvechaet-na-voprosy.html"
+      ],
+      "evidence_indices": [
+        3,
+        4,
+        6
+      ],
+      "model": "gpt-4.1",
+      "at": "2026-10-14T21:45:02.843898+00:00",
+      "evidence_file": "evidence/sergey-aksyonov.json",
+      "evidence_basis": "cf75bdb05ad33b61afe02e9c3be6f6e1fa51d56f65ea610daa03662c17619cde",
+      "rating_pass": "initial",
+      "measurement_note": "LLM-оценка по извлечённому досье; ссылки не означают независимую экспертную верификацию"
+    },
+    {
+      "object_id": "sergey-aksyonov",
+      "scale_id": "parliamentary-institutional",
+      "positive": null,
+      "negative": null,
+      "difference": null,
+      "mass": null,
+      "status": "unknown",
+      "confidence": 0.5,
+      "reason": "Формат отчётов перед парламентом и участие в партийных институтах свидетельствуют о некоторой институциональной ориентации, но устойчивого акцента на парламентских процедурах не выявлено.",
+      "sources": [
+        "https://www.rbc.ru/person/65f020599a79475815e702c9",
+        "http://crimea.gov.ru/news/30_03_18_10"
+      ],
+      "evidence_indices": [
+        0,
+        3
+      ],
+      "model": "gpt-4.1",
+      "at": "2026-10-14T21:45:02.843898+00:00",
+      "evidence_file": "evidence/sergey-aksyonov.json",
+      "evidence_basis": "cf75bdb05ad33b61afe02e9c3be6f6e1fa51d56f65ea610daa03662c17619cde",
+      "rating_pass": "initial",
+      "measurement_note": "LLM-оценка по извлечённому досье; ссылки не означают независимую экспертную верификацию"
+    },
+    {
+      "object_id": "sergey-aksyonov",
+      "scale_id": "oppositionality",
+      "positive": null,
+      "negative": null,
+      "difference": null,
+      "mass": null,
+      "status": "unknown",
+      "confidence": 0.8,
+      "reason": "Аксёнов публично поддерживал выдвижение и курс Владимира Путина, демонстрируя устойчивую поддержку федеральной власти.",
+      "sources": [
+        "https://www.rbc.ru/person/65f020599a79475815e702c9"
+      ],
+      "evidence_indices": [
+        1,
+        5,
+        7
+      ],
+      "model": "gpt-4.1",
+      "at": "2026-10-14T21:45:02.843898+00:00",
+      "evidence_file": "evidence/sergey-aksyonov.json",
+      "evidence_basis": "cf75bdb05ad33b61afe02e9c3be6f6e1fa51d56f65ea610daa03662c17619cde",
+      "rating_pass": "initial",
+      "measurement_note": "LLM-оценка по извлечённому досье; ссылки не означают независимую экспертную верификацию"
+    },
+    {
+      "object_id": "sergey-aksyonov",
+      "scale_id": "social-policy",
+      "positive": null,
+      "negative": null,
+      "difference": null,
+      "mass": null,
+      "status": "unknown",
+      "confidence": 0.3,
+      "reason": "В материалах отсутствуют явные позиции по вопросам социальной политики или перераспределения.",
+      "sources": [],
+      "evidence_indices": [],
+      "model": "gpt-4.1",
+      "at": "2026-10-14T21:45:02.843898+00:00",
+      "evidence_file": "evidence/sergey-aksyonov.json",
+      "evidence_basis": "cf75bdb05ad33b61afe02e9c3be6f6e1fa51d56f65ea610daa03662c17619cde",
+      "rating_pass": "initial",
+      "measurement_note": "LLM-оценка по извлечённому досье; ссылки не означают независимую экспертную верификацию"
+    },
+    {
+      "object_id": "sergey-aksyonov",
+      "scale_id": "federal-loyalty",
+      "positive": null,
+      "negative": null,
+      "difference": null,
+      "mass": null,
+      "status": "unknown",
+      "confidence": 0.9,
+      "reason": "Публичная роль Аксёнова строится на тесной интеграции с федеральной вертикалью, участии в федеральной партийной системе и поддержке президентского центра.",
+      "sources": [
+        "https://www.rbc.ru/person/65f020599a79475815e702c9"
+      ],
+      "evidence_indices": [
+        0,
+        1,
+        5,
+        7
+      ],
+      "model": "gpt-4.1",
+      "at": "2026-10-14T21:45:02.843898+00:00",
+      "evidence_file": "evidence/sergey-aksyonov.json",
+      "evidence_basis": "cf75bdb05ad33b61afe02e9c3be6f6e1fa51d56f65ea610daa03662c17619cde",
+      "rating_pass": "initial",
+      "measurement_note": "LLM-оценка по извлечённому досье; ссылки не означают независимую экспертную верификацию"
+    },
+    {
+      "object_id": "sergey-aksyonov",
+      "scale_id": "mobilization-rhetoric",
+      "positive": null,
+      "negative": null,
+      "difference": null,
+      "mass": null,
+      "status": "unknown",
+      "confidence": 0.4,
+      "reason": "В эпизоде реагирования на чрезвычайную ситуацию проявлялись элементы мобилизационной риторики через личное участие, но устойчивого акцента не выявлено.",
+      "sources": [
+        "https://antifashist.com/item/kto-polomal-infopole-kryma-i-ne-otvechaet-na-voprosy.html"
+      ],
+      "evidence_indices": [
+        6
+      ],
+      "model": "gpt-4.1",
+      "at": "2026-10-14T21:45:02.843898+00:00",
+      "evidence_file": "evidence/sergey-aksyonov.json",
+      "evidence_basis": "cf75bdb05ad33b61afe02e9c3be6f6e1fa51d56f65ea610daa03662c17619cde",
+      "rating_pass": "initial",
+      "measurement_note": "LLM-оценка по извлечённому досье; ссылки не означают независимую экспертную верификацию"
+    },
+    {
+      "object_id": "sergey-aksyonov",
+      "scale_id": "conflictuality",
+      "positive": null,
+      "negative": null,
+      "difference": null,
+      "mass": null,
+      "status": "unknown",
+      "confidence": 0.4,
+      "reason": "В интервью по вопросу статуса Крыма использовалась категоричная риторика, однако регулярной конфронтационной полемики не зафиксировано.",
+      "sources": [
+        "https://www.npr.org/sections/parallels/2018/01/27/581114772/putins-man-in-crimea-we-ve-returned-to-russia-forever"
+      ],
+      "evidence_indices": [
+        2
+      ],
+      "model": "gpt-4.1",
+      "at": "2026-10-14T21:45:02.843898+00:00",
+      "evidence_file": "evidence/sergey-aksyonov.json",
+      "evidence_basis": "cf75bdb05ad33b61afe02e9c3be6f6e1fa51d56f65ea610daa03662c17619cde",
+      "rating_pass": "initial",
+      "measurement_note": "LLM-оценка по извлечённому досье; ссылки не означают независимую экспертную верификацию"
+    },
+    {
+      "object_id": "sergey-aksyonov",
+      "scale_id": "media-personalization",
+      "positive": null,
+      "negative": null,
+      "difference": null,
+      "mass": null,
+      "status": "unknown",
+      "confidence": 0.4,
+      "reason": "Публичные действия в чрезвычайных ситуациях и интервью указывают на элементы персонализации, но устойчивого акцента на личном бренде нет.",
+      "sources": [
+        "https://www.npr.org/sections/parallels/2018/01/27/581114772/putins-man-in-crimea-we-ve-returned-to-russia-forever",
+        "https://antifashist.com/item/kto-polomal-infopole-kryma-i-ne-otvechaet-na-voprosy.html"
+      ],
+      "evidence_indices": [
+        2,
+        6
+      ],
+      "model": "gpt-4.1",
+      "at": "2026-10-14T21:45:02.843898+00:00",
+      "evidence_file": "evidence/sergey-aksyonov.json",
+      "evidence_basis": "cf75bdb05ad33b61afe02e9c3be6f6e1fa51d56f65ea610daa03662c17619cde",
+      "rating_pass": "initial",
+      "measurement_note": "LLM-оценка по извлечённому досье; ссылки не означают независимую экспертную верификацию"
+    },
+    {
+      "object_id": "sergey-aksyonov",
+      "scale_id": "antiwesternism",
+      "positive": null,
+      "negative": null,
+      "difference": null,
+      "mass": null,
+      "status": "unknown",
+      "confidence": 0.5,
+      "reason": "Демонстрация безразличия к западным санкциям и категоричное отрицание возможности возврата Крыма Украине содержат элементы антизападной риторики, но не делают её определяющей.",
+      "sources": [
+        "https://www.npr.org/sections/parallels/2018/01/27/581114772/putins-man-in-crimea-we-ve-returned-to-russia-forever"
+      ],
+      "evidence_indices": [
+        2
+      ],
+      "model": "gpt-4.1",
+      "at": "2026-10-14T21:45:02.843898+00:00",
+      "evidence_file": "evidence/sergey-aksyonov.json",
+      "evidence_basis": "cf75bdb05ad33b61afe02e9c3be6f6e1fa51d56f65ea610daa03662c17619cde",
+      "rating_pass": "initial",
+      "measurement_note": "LLM-оценка по извлечённому досье; ссылки не означают независимую экспертную верификацию"
+    },
+    {
+      "object_id": "sergey-aksyonov",
+      "scale_id": "party-leadership",
+      "positive": null,
+      "negative": null,
+      "difference": null,
+      "mass": null,
+      "status": "unknown",
+      "confidence": 0.5,
+      "reason": "Включение в бюро высшего совета «Единой России» и участие в партийной системе свидетельствуют о некоторой партийной ориентации, но не о доминировании партийной мобилизации.",
+      "sources": [
+        "https://www.rbc.ru/person/65f020599a79475815e702c9"
+      ],
+      "evidence_indices": [
+        0,
+        7
+      ],
+      "model": "gpt-4.1",
+      "at": "2026-10-14T21:45:02.843898+00:00",
+      "evidence_file": "evidence/sergey-aksyonov.json",
+      "evidence_basis": "cf75bdb05ad33b61afe02e9c3be6f6e1fa51d56f65ea610daa03662c17619cde",
+      "rating_pass": "initial",
+      "measurement_note": "LLM-оценка по извлечённому досье; ссылки не означают независимую экспертную верификацию"
+    },
+    {
+      "object_id": "sergey-aksyonov",
+      "scale_id": "public-transparency",
+      "positive": 1,
+      "negative": 3,
+      "difference": -2,
+      "mass": 4,
+      "status": "observed",
+      "confidence": 0.5,
+      "reason": "Формат публичных отчётов перед парламентом (факт 3) указывает на определённую прозрачность, но доминирует административная отчётность и вертикальная партийная интеграция (факты 0, 1, 5, 7), что свидетельствует о преобладании закрытых процедур и ограниченного внешнего контроля.",
+      "sources": [
+        "https://www.rbc.ru/person/65f020599a79475815e702c9",
+        "http://crimea.gov.ru/news/30_03_18_10"
+      ],
+      "evidence_indices": [
+        0,
+        1,
+        3,
+        5,
+        7
+      ],
+      "model": "gpt-4.1",
+      "at": "2026-10-14T21:45:10.216601+00:00",
+      "evidence_file": "evidence/sergey-aksyonov.json",
+      "evidence_basis": "cf75bdb05ad33b61afe02e9c3be6f6e1fa51d56f65ea610daa03662c17619cde",
+      "rating_pass": "initial",
+      "measurement_note": "LLM-оценка по извлечённому досье; ссылки не означают независимую экспертную верификацию"
+    },
+    {
+      "object_id": "sergey-aksyonov",
+      "scale_id": "family-values",
+      "positive": null,
+      "negative": null,
+      "difference": null,
+      "mass": null,
+      "status": "unknown",
+      "confidence": 0,
+      "reason": "В предоставленных материалах отсутствуют сведения о публичных заявлениях или действиях Аксёнова по вопросам семейных или моральных норм.",
+      "sources": [],
+      "evidence_indices": [],
+      "model": "gpt-4.1",
+      "at": "2026-10-14T21:45:10.216601+00:00",
+      "evidence_file": "evidence/sergey-aksyonov.json",
+      "evidence_basis": "cf75bdb05ad33b61afe02e9c3be6f6e1fa51d56f65ea610daa03662c17619cde",
+      "rating_pass": "initial",
+      "measurement_note": "LLM-оценка по извлечённому досье; ссылки не означают независимую экспертную верификацию"
+    },
+    {
+      "object_id": "sergey-aksyonov",
+      "scale_id": "international-activity",
+      "positive": 1,
+      "negative": 3,
+      "difference": -2,
+      "mass": 4,
+      "status": "observed",
+      "confidence": 0.6,
+      "reason": "Публичная позиция по Крыму (факт 2) и акцент на региональном развитии (факты 4, 5) показывают устойчивый внутренний акцент, но международная тематика (санкции, статус Крыма) также присутствует как дополнительный мотив.",
+      "sources": [
+        "https://www.npr.org/sections/parallels/2018/01/27/581114772/putins-man-in-crimea-we-ve-returned-to-russia-forever",
+        "http://crimea.gov.ru/en/news/26_02_19_6",
+        "https://www.rbc.ru/person/65f020599a79475815e702c9"
+      ],
+      "evidence_indices": [
+        2,
+        4,
+        5
+      ],
+      "model": "gpt-4.1",
+      "at": "2026-10-14T21:45:10.216601+00:00",
+      "evidence_file": "evidence/sergey-aksyonov.json",
+      "evidence_basis": "cf75bdb05ad33b61afe02e9c3be6f6e1fa51d56f65ea610daa03662c17619cde",
+      "rating_pass": "initial",
+      "measurement_note": "LLM-оценка по извлечённому досье; ссылки не означают независимую экспертную верификацию"
+    },
+    {
+      "object_id": "sergey-aksyonov",
+      "scale_id": "antiwar-rhetoric",
+      "positive": null,
+      "negative": null,
+      "difference": null,
+      "mass": null,
+      "status": "unknown",
+      "confidence": 0,
+      "reason": "Нет прямых высказываний или действий, связанных с поддержкой или критикой военных действий в исследуемый период.",
+      "sources": [],
+      "evidence_indices": [],
+      "model": "gpt-4.1",
+      "at": "2026-10-14T21:45:10.216601+00:00",
+      "evidence_file": "evidence/sergey-aksyonov.json",
+      "evidence_basis": "cf75bdb05ad33b61afe02e9c3be6f6e1fa51d56f65ea610daa03662c17619cde",
+      "rating_pass": "initial",
+      "measurement_note": "LLM-оценка по извлечённому досье; ссылки не означают независимую экспертную верификацию"
+    },
+    {
+      "object_id": "sergey-aksyonov",
+      "scale_id": "electoral-legitimacy",
+      "positive": 1,
+      "negative": 3,
+      "difference": -2,
+      "mass": 4,
+      "status": "observed",
+      "confidence": 0.6,
+      "reason": "Переизбрание на пост главы Крыма (факт 5) формально указывает на электоральную процедуру, однако публичная аргументация и партийная вертикаль (факты 0, 1, 5, 7) подчёркивают административный характер легитимации.",
+      "sources": [
+        "https://www.rbc.ru/person/65f020599a79475815e702c9"
+      ],
+      "evidence_indices": [
+        0,
+        1,
+        5,
+        7
+      ],
+      "model": "gpt-4.1",
+      "at": "2026-10-14T21:45:10.216601+00:00",
+      "evidence_file": "evidence/sergey-aksyonov.json",
+      "evidence_basis": "cf75bdb05ad33b61afe02e9c3be6f6e1fa51d56f65ea610daa03662c17619cde",
+      "rating_pass": "initial",
+      "measurement_note": "LLM-оценка по извлечённому досье; ссылки не означают независимую экспертную верификацию"
+    },
+    {
+      "object_id": "sergey-aksyonov",
+      "scale_id": "economic-ownership",
+      "positive": 1,
+      "negative": 1,
+      "difference": 0,
+      "mass": 2,
+      "status": "observed",
+      "confidence": 0.4,
+      "reason": "В отчётах (факт 4) отмечается рост доходов бюджета и эффективность управления, но нет явных акцентов на приоритетах государственной или частной собственности.",
+      "sources": [
+        "http://crimea.gov.ru/en/news/26_02_19_6"
+      ],
+      "evidence_indices": [
+        4
+      ],
+      "model": "gpt-4.1",
+      "at": "2026-10-14T21:45:10.216601+00:00",
+      "evidence_file": "evidence/sergey-aksyonov.json",
+      "evidence_basis": "cf75bdb05ad33b61afe02e9c3be6f6e1fa51d56f65ea610daa03662c17619cde",
+      "rating_pass": "initial",
+      "measurement_note": "LLM-оценка по извлечённому досье; ссылки не означают независимую экспертную верификацию"
+    },
+    {
+      "object_id": "sergey-aksyonov",
+      "scale_id": "economic-modernization",
+      "positive": null,
+      "negative": null,
+      "difference": null,
+      "mass": null,
+      "status": "unknown",
+      "confidence": 0,
+      "reason": "В материалах отсутствуют прямые высказывания или инициативы, связанные с технологическим обновлением или сохранением традиционных моделей.",
+      "sources": [],
+      "evidence_indices": [],
+      "model": "gpt-4.1",
+      "at": "2026-10-14T21:45:10.216601+00:00",
+      "evidence_file": "evidence/sergey-aksyonov.json",
+      "evidence_basis": "cf75bdb05ad33b61afe02e9c3be6f6e1fa51d56f65ea610daa03662c17619cde",
+      "rating_pass": "initial",
+      "measurement_note": "LLM-оценка по извлечённому досье; ссылки не означают независимую экспертную верификацию"
+    },
+    {
+      "object_id": "sergey-aksyonov",
+      "scale_id": "media-control",
+      "positive": null,
+      "negative": null,
+      "difference": null,
+      "mass": null,
+      "status": "unknown",
+      "confidence": 0,
+      "reason": "Нет данных о публичных позициях Аксёнова по вопросам регулирования информации или свободы СМИ.",
+      "sources": [],
+      "evidence_indices": [],
+      "model": "gpt-4.1",
+      "at": "2026-10-14T21:45:10.216601+00:00",
+      "evidence_file": "evidence/sergey-aksyonov.json",
+      "evidence_basis": "cf75bdb05ad33b61afe02e9c3be6f6e1fa51d56f65ea610daa03662c17619cde",
+      "rating_pass": "initial",
+      "measurement_note": "LLM-оценка по извлечённому досье; ссылки не означают независимую экспертную верификацию"
+    },
+    {
+      "object_id": "sergey-aksyonov",
+      "scale_id": "territorial-policy",
+      "positive": 0,
+      "negative": 5,
+      "difference": -5,
+      "mass": 5,
+      "status": "observed",
+      "confidence": 0.9,
+      "reason": "Категоричное отрицание возможности возвращения Крыма Украине (факт 2) и акцент на необратимости территориального изменения — определяющая черта публичного образа.",
+      "sources": [
+        "https://www.npr.org/sections/parallels/2018/01/27/581114772/putins-man-in-crimea-we-ve-returned-to-russia-forever"
+      ],
+      "evidence_indices": [
+        2
+      ],
+      "model": "gpt-4.1",
+      "at": "2026-10-14T21:45:10.216601+00:00",
+      "evidence_file": "evidence/sergey-aksyonov.json",
+      "evidence_basis": "cf75bdb05ad33b61afe02e9c3be6f6e1fa51d56f65ea610daa03662c17619cde",
+      "rating_pass": "initial",
+      "measurement_note": "LLM-оценка по извлечённому досье; ссылки не означают независимую экспертную верификацию"
+    },
+    {
+      "object_id": "sergey-aksyonov",
+      "scale_id": "rhetorical-simplicity",
+      "positive": 1,
+      "negative": 1,
+      "difference": 0,
+      "mass": 2,
+      "status": "observed",
+      "confidence": 0.4,
+      "reason": "Публичные отчёты и интервью (факты 2, 3, 4) содержат как простые категоричные формулировки, так и элементы развёрнутой аргументации.",
+      "sources": [
+        "https://www.npr.org/sections/parallels/2018/01/27/581114772/putins-man-in-crimea-we-ve-returned-to-russia-forever",
+        "http://crimea.gov.ru/news/30_03_18_10",
+        "http://crimea.gov.ru/en/news/26_02_19_6"
+      ],
+      "evidence_indices": [
+        2,
+        3,
+        4
+      ],
+      "model": "gpt-4.1",
+      "at": "2026-10-14T21:45:10.216601+00:00",
+      "evidence_file": "evidence/sergey-aksyonov.json",
+      "evidence_basis": "cf75bdb05ad33b61afe02e9c3be6f6e1fa51d56f65ea610daa03662c17619cde",
+      "rating_pass": "initial",
+      "measurement_note": "LLM-оценка по извлечённому досье; ссылки не означают независимую экспертную верификацию"
+    },
+    {
+      "object_id": "sergey-aksyonov",
+      "scale_id": "anti-bureaucracy",
+      "positive": null,
+      "negative": null,
+      "difference": null,
+      "mass": null,
+      "status": "unknown",
+      "confidence": 0,
+      "reason": "Нет сведений о риторике или действиях, направленных на сокращение или расширение бюрократического аппарата.",
+      "sources": [],
+      "evidence_indices": [],
+      "model": "gpt-4.1",
+      "at": "2026-10-14T21:45:10.216601+00:00",
+      "evidence_file": "evidence/sergey-aksyonov.json",
+      "evidence_basis": "cf75bdb05ad33b61afe02e9c3be6f6e1fa51d56f65ea610daa03662c17619cde",
+      "rating_pass": "initial",
+      "measurement_note": "LLM-оценка по извлечённому досье; ссылки не означают независимую экспертную верификацию"
+    },
+    {
+      "object_id": "sergey-aksyonov",
+      "scale_id": "national-patriotism",
+      "positive": 3,
+      "negative": 0,
+      "difference": 3,
+      "mass": 3,
+      "status": "observed",
+      "confidence": 0.7,
+      "reason": "Публичная аргументация по Крыму (факт 2) строится на особых интересах российской национальной общности и идентичности.",
+      "sources": [
+        "https://www.npr.org/sections/parallels/2018/01/27/581114772/putins-man-in-crimea-we-ve-returned-to-russia-forever"
+      ],
+      "evidence_indices": [
+        2
+      ],
+      "model": "gpt-4.1",
+      "at": "2026-10-14T21:45:10.216601+00:00",
+      "evidence_file": "evidence/sergey-aksyonov.json",
+      "evidence_basis": "cf75bdb05ad33b61afe02e9c3be6f6e1fa51d56f65ea610daa03662c17619cde",
+      "rating_pass": "initial",
+      "measurement_note": "LLM-оценка по извлечённому досье; ссылки не означают независимую экспертную верификацию"
+    },
+    {
+      "object_id": "sergey-aksyonov",
+      "scale_id": "coalitionality",
+      "positive": 3,
+      "negative": 1,
+      "difference": 2,
+      "mass": 4,
+      "status": "observed",
+      "confidence": 0.8,
+      "reason": "Аксёнов устойчиво представлен как участник федеральной партийной вертикали («Единая Россия»), поддерживает федеральный центр и участвует в институциональных коалициях, но не проявляет самостоятельной конкуренции или изоляционизма.",
+      "sources": [
+        "https://www.rbc.ru/person/65f020599a79475815e702c9"
+      ],
+      "evidence_indices": [
+        0,
+        1,
+        5,
+        7
+      ],
+      "model": "gpt-4.1",
+      "at": "2026-10-14T21:45:12.474139+00:00",
+      "evidence_file": "evidence/sergey-aksyonov.json",
+      "evidence_basis": "cf75bdb05ad33b61afe02e9c3be6f6e1fa51d56f65ea610daa03662c17619cde",
+      "rating_pass": "initial",
+      "measurement_note": "LLM-оценка по извлечённому досье; ссылки не означают независимую экспертную верификацию"
+    },
+    {
+      "object_id": "sergey-aksyonov",
+      "scale_id": "civil-liberties",
+      "positive": null,
+      "negative": null,
+      "difference": null,
+      "mass": null,
+      "status": "unknown",
+      "confidence": 0.7,
+      "reason": "Публичные заявления и действия Аксёнова фокусируются на административном контроле, категоричном отрицании альтернативных политических сценариев и поддержке федеральной линии, что косвенно указывает на акцент на порядке и ограничениях, но прямых позиций по гражданским свободам не выявлено.",
+      "sources": [
+        "https://www.rbc.ru/person/65f020599a79475815e702c9",
+        "https://www.npr.org/sections/parallels/2018/01/27/581114772/putins-man-in-crimea-we-ve-returned-to-russia-forever",
+        "http://crimea.gov.ru/news/30_03_18_10",
+        "http://crimea.gov.ru/en/news/26_02_19_6"
+      ],
+      "evidence_indices": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        7
+      ],
+      "model": "gpt-4.1",
+      "at": "2026-10-14T21:45:12.474139+00:00",
+      "evidence_file": "evidence/sergey-aksyonov.json",
+      "evidence_basis": "cf75bdb05ad33b61afe02e9c3be6f6e1fa51d56f65ea610daa03662c17619cde",
+      "rating_pass": "initial",
+      "measurement_note": "LLM-оценка по извлечённому досье; ссылки не означают независимую экспертную верификацию"
+    }
+  ],
+  "unknown_scale_ids": [
+    "security-sovereignty",
+    "historical-memory",
+    "technocratic-management",
+    "parliamentary-institutional",
+    "oppositionality",
+    "social-policy",
+    "federal-loyalty",
+    "mobilization-rhetoric",
+    "conflictuality",
+    "media-personalization",
+    "antiwesternism",
+    "party-leadership",
+    "family-values",
+    "antiwar-rhetoric",
+    "economic-modernization",
+    "media-control",
+    "anti-bureaucracy",
+    "civil-liberties"
+  ]
+}

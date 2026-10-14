@@ -1,0 +1,656 @@
+{
+  "object_id": "gennady-zyuganov",
+  "scales_basis": "2bee01a202c39ee721dfa985f553d5ce4502c74051ebe616ba3acc72ad80c440",
+  "dossier_basis": "298e5637949b369b4a301081a77732aecfec6e664f0e0b1e69afec966c1abfe0",
+  "evidence_file": "evidence/gennady-zyuganov.json",
+  "period": [
+    "2016-10-15",
+    "2026-10-15"
+  ],
+  "ratings": [
+    {
+      "object_id": "gennady-zyuganov",
+      "scale_id": "security-sovereignty",
+      "positive": 3,
+      "negative": 1,
+      "difference": 2,
+      "mass": 4,
+      "status": "observed",
+      "confidence": 0.8,
+      "reason": "В ряде выступлений Зюганов подчеркивает необходимость самостоятельных решений государства, особенно в контексте внешнеполитических вызовов и мобилизационной риторики, однако прямой программный акцент на суверенитет не является определяющим.",
+      "sources": [
+        "http://msk.kprf.ru/2022/08/22/222866/",
+        "https://kprf.ru/dep/gosduma/activities/236198.html/print"
+      ],
+      "evidence_indices": [
+        5,
+        6,
+        8
+      ],
+      "model": "gpt-4.1",
+      "at": "2026-10-14T21:43:21.445720+00:00",
+      "evidence_file": "evidence/gennady-zyuganov.json",
+      "evidence_basis": "298e5637949b369b4a301081a77732aecfec6e664f0e0b1e69afec966c1abfe0",
+      "rating_pass": "initial",
+      "measurement_note": "LLM-оценка по извлечённому досье; ссылки не означают независимую экспертную верификацию"
+    },
+    {
+      "object_id": "gennady-zyuganov",
+      "scale_id": "historical-memory",
+      "positive": 3,
+      "negative": 0,
+      "difference": 3,
+      "mass": 3,
+      "status": "observed",
+      "confidence": 0.7,
+      "reason": "В публичных выступлениях Зюганова регулярно присутствует апелляция к историческим образцам, традициям и преемственности, особенно в контексте партийной программы и критики действующего порядка.",
+      "sources": [
+        "https://kprf.ru/dep/gosduma/activities/187187.html",
+        "https://kprf.ru/party-live/cknews/235903.html"
+      ],
+      "evidence_indices": [
+        2,
+        7
+      ],
+      "model": "gpt-4.1",
+      "at": "2026-10-14T21:43:21.445720+00:00",
+      "evidence_file": "evidence/gennady-zyuganov.json",
+      "evidence_basis": "298e5637949b369b4a301081a77732aecfec6e664f0e0b1e69afec966c1abfe0",
+      "rating_pass": "initial",
+      "measurement_note": "LLM-оценка по извлечённому досье; ссылки не означают независимую экспертную верификацию"
+    },
+    {
+      "object_id": "gennady-zyuganov",
+      "scale_id": "technocratic-management",
+      "positive": 1,
+      "negative": 3,
+      "difference": -2,
+      "mass": 4,
+      "status": "observed",
+      "confidence": 0.7,
+      "reason": "Аргументация Зюганова преимущественно строится на идеологических и символических целях, а не на управленческих показателях; однако отдельные обращения к конкретным социально-экономическим проблемам присутствуют.",
+      "sources": [
+        "https://kprf.ru/dep/gosduma/activities/187187.html"
+      ],
+      "evidence_indices": [
+        0,
+        3,
+        4
+      ],
+      "model": "gpt-4.1",
+      "at": "2026-10-14T21:43:21.445720+00:00",
+      "evidence_file": "evidence/gennady-zyuganov.json",
+      "evidence_basis": "298e5637949b369b4a301081a77732aecfec6e664f0e0b1e69afec966c1abfe0",
+      "rating_pass": "initial",
+      "measurement_note": "LLM-оценка по извлечённому досье; ссылки не означают независимую экспертную верификацию"
+    },
+    {
+      "object_id": "gennady-zyuganov",
+      "scale_id": "parliamentary-institutional",
+      "positive": 5,
+      "negative": 0,
+      "difference": 5,
+      "mass": 5,
+      "status": "observed",
+      "confidence": 0.95,
+      "reason": "Публичная стратегия Зюганова устойчиво связана с использованием парламентских процедур, институциональной критикой и работой в рамках законодательных институтов.",
+      "sources": [
+        "https://kprf.ru/dep/gosduma/activities/187187.html",
+        "https://kprf.ru/party-live/cknews/235903.html",
+        "https://kprf-don.ru/index.php/news/facts/12501-2025-09-15-12-58-35.html",
+        "https://kprf.ru/dep/gosduma/activities/239812.html"
+      ],
+      "evidence_indices": [
+        1,
+        2,
+        4,
+        7,
+        9,
+        10
+      ],
+      "model": "gpt-4.1",
+      "at": "2026-10-14T21:43:21.445720+00:00",
+      "evidence_file": "evidence/gennady-zyuganov.json",
+      "evidence_basis": "298e5637949b369b4a301081a77732aecfec6e664f0e0b1e69afec966c1abfe0",
+      "rating_pass": "initial",
+      "measurement_note": "LLM-оценка по извлечённому досье; ссылки не означают независимую экспертную верификацию"
+    },
+    {
+      "object_id": "gennady-zyuganov",
+      "scale_id": "oppositionality",
+      "positive": 3,
+      "negative": 1,
+      "difference": 2,
+      "mass": 4,
+      "status": "observed",
+      "confidence": 0.8,
+      "reason": "Зюганов регулярно критикует курс действующей власти, однако делает это преимущественно в рамках парламентских процедур, не переходя к радикальной оппозиционности.",
+      "sources": [
+        "https://kprf.ru/dep/gosduma/activities/187187.html"
+      ],
+      "evidence_indices": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "model": "gpt-4.1",
+      "at": "2026-10-14T21:43:21.445720+00:00",
+      "evidence_file": "evidence/gennady-zyuganov.json",
+      "evidence_basis": "298e5637949b369b4a301081a77732aecfec6e664f0e0b1e69afec966c1abfe0",
+      "rating_pass": "initial",
+      "measurement_note": "LLM-оценка по извлечённому досье; ссылки не означают независимую экспертную верификацию"
+    },
+    {
+      "object_id": "gennady-zyuganov",
+      "scale_id": "social-policy",
+      "positive": 3,
+      "negative": 0,
+      "difference": 3,
+      "mass": 3,
+      "status": "observed",
+      "confidence": 0.8,
+      "reason": "В публичных заявлениях акцентируется необходимость государственной поддержки, перераспределения и защиты социальных гарантий.",
+      "sources": [
+        "https://kprf.ru/dep/gosduma/activities/187187.html"
+      ],
+      "evidence_indices": [
+        0,
+        3,
+        4
+      ],
+      "model": "gpt-4.1",
+      "at": "2026-10-14T21:43:21.445720+00:00",
+      "evidence_file": "evidence/gennady-zyuganov.json",
+      "evidence_basis": "298e5637949b369b4a301081a77732aecfec6e664f0e0b1e69afec966c1abfe0",
+      "rating_pass": "initial",
+      "measurement_note": "LLM-оценка по извлечённому досье; ссылки не означают независимую экспертную верификацию"
+    },
+    {
+      "object_id": "gennady-zyuganov",
+      "scale_id": "federal-loyalty",
+      "positive": null,
+      "negative": null,
+      "difference": null,
+      "mass": null,
+      "status": "unknown",
+      "confidence": 0.3,
+      "reason": "В предоставленных материалах отсутствуют прямые высказывания о распределении полномочий между центром и регионами.",
+      "sources": [],
+      "evidence_indices": [],
+      "model": "gpt-4.1",
+      "at": "2026-10-14T21:43:21.445720+00:00",
+      "evidence_file": "evidence/gennady-zyuganov.json",
+      "evidence_basis": "298e5637949b369b4a301081a77732aecfec6e664f0e0b1e69afec966c1abfe0",
+      "rating_pass": "initial",
+      "measurement_note": "LLM-оценка по извлечённому досье; ссылки не означают независимую экспертную верификацию"
+    },
+    {
+      "object_id": "gennady-zyuganov",
+      "scale_id": "mobilization-rhetoric",
+      "positive": 3,
+      "negative": 0,
+      "difference": 3,
+      "mass": 3,
+      "status": "observed",
+      "confidence": 0.8,
+      "reason": "В ряде выступлений используется мобилизационная и патриотическая риторика, особенно в контексте военных событий.",
+      "sources": [
+        "http://msk.kprf.ru/2022/08/22/222866/",
+        "https://kprf.ru/dep/gosduma/activities/236198.html/print"
+      ],
+      "evidence_indices": [
+        5,
+        8
+      ],
+      "model": "gpt-4.1",
+      "at": "2026-10-14T21:43:21.445720+00:00",
+      "evidence_file": "evidence/gennady-zyuganov.json",
+      "evidence_basis": "298e5637949b369b4a301081a77732aecfec6e664f0e0b1e69afec966c1abfe0",
+      "rating_pass": "initial",
+      "measurement_note": "LLM-оценка по извлечённому досье; ссылки не означают независимую экспертную верификацию"
+    },
+    {
+      "object_id": "gennady-zyuganov",
+      "scale_id": "conflictuality",
+      "positive": 1,
+      "negative": 1,
+      "difference": 0,
+      "mass": 2,
+      "status": "observed",
+      "confidence": 0.6,
+      "reason": "Зюганов использует полемическую риторику, но в рамках парламентских процедур; выраженная конфронтационность или компромиссность не доминируют.",
+      "sources": [
+        "https://kprf.ru/dep/gosduma/activities/187187.html",
+        "https://kprf.ru/dep/gosduma/activities/236198.html/print"
+      ],
+      "evidence_indices": [
+        1,
+        8
+      ],
+      "model": "gpt-4.1",
+      "at": "2026-10-14T21:43:21.445720+00:00",
+      "evidence_file": "evidence/gennady-zyuganov.json",
+      "evidence_basis": "298e5637949b369b4a301081a77732aecfec6e664f0e0b1e69afec966c1abfe0",
+      "rating_pass": "initial",
+      "measurement_note": "LLM-оценка по извлечённому досье; ссылки не означают независимую экспертную верификацию"
+    },
+    {
+      "object_id": "gennady-zyuganov",
+      "scale_id": "media-personalization",
+      "positive": 1,
+      "negative": 3,
+      "difference": -2,
+      "mass": 4,
+      "status": "observed",
+      "confidence": 0.7,
+      "reason": "Публичная деятельность преимущественно оформляется как коллективная партийная позиция, хотя персональное лидерство присутствует.",
+      "sources": [
+        "http://msk.kprf.ru/2022/08/22/222866/",
+        "https://kprf.ru/dep/gosduma/activities/239812.html"
+      ],
+      "evidence_indices": [
+        6,
+        10
+      ],
+      "model": "gpt-4.1",
+      "at": "2026-10-14T21:43:21.445720+00:00",
+      "evidence_file": "evidence/gennady-zyuganov.json",
+      "evidence_basis": "298e5637949b369b4a301081a77732aecfec6e664f0e0b1e69afec966c1abfe0",
+      "rating_pass": "initial",
+      "measurement_note": "LLM-оценка по извлечённому досье; ссылки не означают независимую экспертную верификацию"
+    },
+    {
+      "object_id": "gennady-zyuganov",
+      "scale_id": "antiwesternism",
+      "positive": 1,
+      "negative": 0,
+      "difference": 1,
+      "mass": 1,
+      "status": "observed",
+      "confidence": 0.6,
+      "reason": "В ряде заявлений присутствует критика западных позиций, однако антизападная риторика не является определяющей.",
+      "sources": [
+        "http://msk.kprf.ru/2022/08/22/222866/"
+      ],
+      "evidence_indices": [
+        5
+      ],
+      "model": "gpt-4.1",
+      "at": "2026-10-14T21:43:21.445720+00:00",
+      "evidence_file": "evidence/gennady-zyuganov.json",
+      "evidence_basis": "298e5637949b369b4a301081a77732aecfec6e664f0e0b1e69afec966c1abfe0",
+      "rating_pass": "initial",
+      "measurement_note": "LLM-оценка по извлечённому досье; ссылки не означают независимую экспертную верификацию"
+    },
+    {
+      "object_id": "gennady-zyuganov",
+      "scale_id": "party-leadership",
+      "positive": 5,
+      "negative": 0,
+      "difference": 5,
+      "mass": 5,
+      "status": "observed",
+      "confidence": 0.95,
+      "reason": "Публичный образ Зюганова устойчиво связан с партийной организацией и мобилизацией через КПРФ.",
+      "sources": [
+        "http://msk.kprf.ru/2022/08/22/222866/",
+        "https://kprf.ru/party-live/cknews/235903.html",
+        "https://kprf-don.ru/index.php/news/facts/12501-2025-09-15-12-58-35.html",
+        "https://kprf.ru/dep/gosduma/activities/239812.html"
+      ],
+      "evidence_indices": [
+        6,
+        7,
+        9,
+        10
+      ],
+      "model": "gpt-4.1",
+      "at": "2026-10-14T21:43:21.445720+00:00",
+      "evidence_file": "evidence/gennady-zyuganov.json",
+      "evidence_basis": "298e5637949b369b4a301081a77732aecfec6e664f0e0b1e69afec966c1abfe0",
+      "rating_pass": "initial",
+      "measurement_note": "LLM-оценка по извлечённому досье; ссылки не означают независимую экспертную верификацию"
+    },
+    {
+      "object_id": "gennady-zyuganov",
+      "scale_id": "public-transparency",
+      "positive": 1,
+      "negative": 1,
+      "difference": 0,
+      "mass": 2,
+      "status": "observed",
+      "confidence": 0.7,
+      "reason": "Публичные выступления, брифинги и пресс-комментарии указывают на определённую открытость, однако нет устойчивого акцента на прозрачности решений или антикоррупционной риторике. Одновременно отмечается институциональная работа без явного ограничения внешнего контроля.",
+      "sources": [
+        "https://kprf.ru/dep/gosduma/activities/187187.html",
+        "http://msk.kprf.ru/2022/08/22/222866/",
+        "https://kprf.ru/dep/gosduma/activities/239812.html"
+      ],
+      "evidence_indices": [
+        1,
+        6,
+        10
+      ],
+      "model": "gpt-4.1",
+      "at": "2026-10-14T21:43:28.333299+00:00",
+      "evidence_file": "evidence/gennady-zyuganov.json",
+      "evidence_basis": "298e5637949b369b4a301081a77732aecfec6e664f0e0b1e69afec966c1abfe0",
+      "rating_pass": "initial",
+      "measurement_note": "LLM-оценка по извлечённому досье; ссылки не означают независимую экспертную верификацию"
+    },
+    {
+      "object_id": "gennady-zyuganov",
+      "scale_id": "family-values",
+      "positive": null,
+      "negative": null,
+      "difference": null,
+      "mass": null,
+      "status": "unknown",
+      "confidence": 0.2,
+      "reason": "В предоставленных материалах отсутствуют прямые высказывания или программные позиции по вопросам семейных или традиционных ценностей.",
+      "sources": [],
+      "evidence_indices": [],
+      "model": "gpt-4.1",
+      "at": "2026-10-14T21:43:28.333299+00:00",
+      "evidence_file": "evidence/gennady-zyuganov.json",
+      "evidence_basis": "298e5637949b369b4a301081a77732aecfec6e664f0e0b1e69afec966c1abfe0",
+      "rating_pass": "initial",
+      "measurement_note": "LLM-оценка по извлечённому досье; ссылки не означают независимую экспертную верификацию"
+    },
+    {
+      "object_id": "gennady-zyuganov",
+      "scale_id": "international-activity",
+      "positive": 1,
+      "negative": 3,
+      "difference": -2,
+      "mass": 4,
+      "status": "observed",
+      "confidence": 0.8,
+      "reason": "В риторике присутствует связь внешнеполитической повестки с внутренней, однако основной акцент делается на внутренних социально-экономических вопросах и парламентской работе.",
+      "sources": [
+        "https://kprf.ru/dep/gosduma/activities/187187.html",
+        "http://msk.kprf.ru/2022/08/22/222866/",
+        "https://kprf.ru/dep/gosduma/activities/236198.html/print"
+      ],
+      "evidence_indices": [
+        0,
+        3,
+        5,
+        6,
+        8
+      ],
+      "model": "gpt-4.1",
+      "at": "2026-10-14T21:43:28.333299+00:00",
+      "evidence_file": "evidence/gennady-zyuganov.json",
+      "evidence_basis": "298e5637949b369b4a301081a77732aecfec6e664f0e0b1e69afec966c1abfe0",
+      "rating_pass": "initial",
+      "measurement_note": "LLM-оценка по извлечённому досье; ссылки не означают независимую экспертную верификацию"
+    },
+    {
+      "object_id": "gennady-zyuganov",
+      "scale_id": "antiwar-rhetoric",
+      "positive": 1,
+      "negative": 3,
+      "difference": -2,
+      "mass": 4,
+      "status": "observed",
+      "confidence": 0.7,
+      "reason": "Зюганов призывал остановить 'ядерное безумие', но одновременно требовал усиления действий, что отражает сочетание ограниченной антивоенной риторики с поддержкой продолжения военных усилий.",
+      "sources": [
+        "http://msk.kprf.ru/2022/08/22/222866/"
+      ],
+      "evidence_indices": [
+        5
+      ],
+      "model": "gpt-4.1",
+      "at": "2026-10-14T21:43:28.333299+00:00",
+      "evidence_file": "evidence/gennady-zyuganov.json",
+      "evidence_basis": "298e5637949b369b4a301081a77732aecfec6e664f0e0b1e69afec966c1abfe0",
+      "rating_pass": "initial",
+      "measurement_note": "LLM-оценка по извлечённому досье; ссылки не означают независимую экспертную верификацию"
+    },
+    {
+      "object_id": "gennady-zyuganov",
+      "scale_id": "electoral-legitimacy",
+      "positive": 3,
+      "negative": 0,
+      "difference": 3,
+      "mass": 3,
+      "status": "observed",
+      "confidence": 0.8,
+      "reason": "Отмечается акцент на контроле за выборами, наблюдении и защите партийного представительства, что указывает на устойчивую ориентацию на электоральную легитимность.",
+      "sources": [
+        "https://kprf-don.ru/index.php/news/facts/12501-2025-09-15-12-58-35.html"
+      ],
+      "evidence_indices": [
+        9
+      ],
+      "model": "gpt-4.1",
+      "at": "2026-10-14T21:43:28.333299+00:00",
+      "evidence_file": "evidence/gennady-zyuganov.json",
+      "evidence_basis": "298e5637949b369b4a301081a77732aecfec6e664f0e0b1e69afec966c1abfe0",
+      "rating_pass": "initial",
+      "measurement_note": "LLM-оценка по извлечённому досье; ссылки не означают независимую экспертную верификацию"
+    },
+    {
+      "object_id": "gennady-zyuganov",
+      "scale_id": "economic-ownership",
+      "positive": 3,
+      "negative": 0,
+      "difference": 3,
+      "mass": 3,
+      "status": "observed",
+      "confidence": 0.8,
+      "reason": "Критика распределения государственных ресурсов, акцент на защите общедоступных благ и ориентация на государственное регулирование отражают устойчивый акцент на государственную экономику.",
+      "sources": [
+        "https://kprf.ru/dep/gosduma/activities/187187.html"
+      ],
+      "evidence_indices": [
+        0,
+        3
+      ],
+      "model": "gpt-4.1",
+      "at": "2026-10-14T21:43:28.333299+00:00",
+      "evidence_file": "evidence/gennady-zyuganov.json",
+      "evidence_basis": "298e5637949b369b4a301081a77732aecfec6e664f0e0b1e69afec966c1abfe0",
+      "rating_pass": "initial",
+      "measurement_note": "LLM-оценка по извлечённому досье; ссылки не означают независимую экспертную верификацию"
+    },
+    {
+      "object_id": "gennady-zyuganov",
+      "scale_id": "economic-modernization",
+      "positive": null,
+      "negative": null,
+      "difference": null,
+      "mass": null,
+      "status": "unknown",
+      "confidence": 0.2,
+      "reason": "В материалах отсутствуют прямые высказывания о технологическом обновлении или сохранении существующих моделей.",
+      "sources": [],
+      "evidence_indices": [],
+      "model": "gpt-4.1",
+      "at": "2026-10-14T21:43:28.333299+00:00",
+      "evidence_file": "evidence/gennady-zyuganov.json",
+      "evidence_basis": "298e5637949b369b4a301081a77732aecfec6e664f0e0b1e69afec966c1abfe0",
+      "rating_pass": "initial",
+      "measurement_note": "LLM-оценка по извлечённому досье; ссылки не означают независимую экспертную верификацию"
+    },
+    {
+      "object_id": "gennady-zyuganov",
+      "scale_id": "media-control",
+      "positive": null,
+      "negative": null,
+      "difference": null,
+      "mass": null,
+      "status": "unknown",
+      "confidence": 0.2,
+      "reason": "Нет данных о публичных позициях по вопросам регулирования информации или свободы СМИ.",
+      "sources": [],
+      "evidence_indices": [],
+      "model": "gpt-4.1",
+      "at": "2026-10-14T21:43:28.333299+00:00",
+      "evidence_file": "evidence/gennady-zyuganov.json",
+      "evidence_basis": "298e5637949b369b4a301081a77732aecfec6e664f0e0b1e69afec966c1abfe0",
+      "rating_pass": "initial",
+      "measurement_note": "LLM-оценка по извлечённому досье; ссылки не означают независимую экспертную верификацию"
+    },
+    {
+      "object_id": "gennady-zyuganov",
+      "scale_id": "territorial-policy",
+      "positive": null,
+      "negative": null,
+      "difference": null,
+      "mass": null,
+      "status": "unknown",
+      "confidence": 0.2,
+      "reason": "В предоставленных фактах отсутствуют прямые заявления о территориальной политике.",
+      "sources": [],
+      "evidence_indices": [],
+      "model": "gpt-4.1",
+      "at": "2026-10-14T21:43:28.333299+00:00",
+      "evidence_file": "evidence/gennady-zyuganov.json",
+      "evidence_basis": "298e5637949b369b4a301081a77732aecfec6e664f0e0b1e69afec966c1abfe0",
+      "rating_pass": "initial",
+      "measurement_note": "LLM-оценка по извлечённому досье; ссылки не означают независимую экспертную верификацию"
+    },
+    {
+      "object_id": "gennady-zyuganov",
+      "scale_id": "rhetorical-simplicity",
+      "positive": 3,
+      "negative": 1,
+      "difference": 2,
+      "mass": 4,
+      "status": "observed",
+      "confidence": 0.7,
+      "reason": "Использование лозунговых формул ('борьба за победу'), кратких критических заявлений и партийных акцентов указывает на устойчивую простоту риторики, при этом иногда присутствует развёрнутая аргументация.",
+      "sources": [
+        "https://kprf.ru/party-live/cknews/235903.html",
+        "https://kprf.ru/dep/gosduma/activities/236198.html/print"
+      ],
+      "evidence_indices": [
+        7,
+        8
+      ],
+      "model": "gpt-4.1",
+      "at": "2026-10-14T21:43:28.333299+00:00",
+      "evidence_file": "evidence/gennady-zyuganov.json",
+      "evidence_basis": "298e5637949b369b4a301081a77732aecfec6e664f0e0b1e69afec966c1abfe0",
+      "rating_pass": "initial",
+      "measurement_note": "LLM-оценка по извлечённому досье; ссылки не означают независимую экспертную верификацию"
+    },
+    {
+      "object_id": "gennady-zyuganov",
+      "scale_id": "anti-bureaucracy",
+      "positive": null,
+      "negative": null,
+      "difference": null,
+      "mass": null,
+      "status": "unknown",
+      "confidence": 0.2,
+      "reason": "Нет прямых предложений о сокращении или расширении административного аппарата.",
+      "sources": [],
+      "evidence_indices": [],
+      "model": "gpt-4.1",
+      "at": "2026-10-14T21:43:28.333299+00:00",
+      "evidence_file": "evidence/gennady-zyuganov.json",
+      "evidence_basis": "298e5637949b369b4a301081a77732aecfec6e664f0e0b1e69afec966c1abfe0",
+      "rating_pass": "initial",
+      "measurement_note": "LLM-оценка по извлечённому досье; ссылки не означают независимую экспертную верификацию"
+    },
+    {
+      "object_id": "gennady-zyuganov",
+      "scale_id": "national-patriotism",
+      "positive": 3,
+      "negative": 0,
+      "difference": 3,
+      "mass": 3,
+      "status": "observed",
+      "confidence": 0.7,
+      "reason": "Патриотическая и мобилизационная рамка, использование национально-ориентированных формул в публичной риторике устойчиво присутствуют.",
+      "sources": [
+        "http://msk.kprf.ru/2022/08/22/222866/",
+        "https://kprf.ru/dep/gosduma/activities/236198.html/print"
+      ],
+      "evidence_indices": [
+        5,
+        8
+      ],
+      "model": "gpt-4.1",
+      "at": "2026-10-14T21:43:28.333299+00:00",
+      "evidence_file": "evidence/gennady-zyuganov.json",
+      "evidence_basis": "298e5637949b369b4a301081a77732aecfec6e664f0e0b1e69afec966c1abfe0",
+      "rating_pass": "initial",
+      "measurement_note": "LLM-оценка по извлечённому досье; ссылки не означают независимую экспертную верификацию"
+    },
+    {
+      "object_id": "gennady-zyuganov",
+      "scale_id": "coalitionality",
+      "positive": 1,
+      "negative": 3,
+      "difference": -2,
+      "mass": 4,
+      "status": "observed",
+      "confidence": 0.8,
+      "reason": "В предоставленных материалах Зюганов представлен как лидер, акцентирующий самостоятельную партийную стратегию, парламентскую конкуренцию и мобилизацию вокруг собственной программы. Признаков устойчивого коалиционного объединения с другими политическими силами не выявлено, однако отдельные проявления сотрудничества в рамках парламентских процедур (например, работа с обращениями граждан, контроль за выборами) допускают минимальное выражение коалиционности.",
+      "sources": [
+        "https://kprf.ru/dep/gosduma/activities/187187.html",
+        "https://kprf.ru/party-live/cknews/235903.html",
+        "https://kprf.ru/dep/gosduma/activities/236198.html/print",
+        "https://kprf-don.ru/index.php/news/facts/12501-2025-09-15-12-58-35.html",
+        "https://kprf.ru/dep/gosduma/activities/239812.html"
+      ],
+      "evidence_indices": [
+        0,
+        1,
+        4,
+        7,
+        8,
+        9,
+        10
+      ],
+      "model": "gpt-4.1",
+      "at": "2026-10-14T21:43:31.501012+00:00",
+      "evidence_file": "evidence/gennady-zyuganov.json",
+      "evidence_basis": "298e5637949b369b4a301081a77732aecfec6e664f0e0b1e69afec966c1abfe0",
+      "rating_pass": "initial",
+      "measurement_note": "LLM-оценка по извлечённому досье; ссылки не означают независимую экспертную верификацию"
+    },
+    {
+      "object_id": "gennady-zyuganov",
+      "scale_id": "civil-liberties",
+      "positive": 1,
+      "negative": 2,
+      "difference": -1,
+      "mass": 3,
+      "status": "observed",
+      "confidence": 0.7,
+      "reason": "В ряде эпизодов Зюганов подчеркивал нарушения прав граждан и связывал их с критикой действующего порядка (факт 2), а также акцентировал работу с жалобами граждан (факт 4). Однако в риторике преобладают мобилизационные и патриотические мотивы, а также требования усиления государственного ответа (факт 5), что указывает на некоторую склонность к оправданию ограничений ради порядка. Явного устойчивого акцента на защите гражданских свобод не обнаружено.",
+      "sources": [
+        "https://kprf.ru/dep/gosduma/activities/187187.html",
+        "http://msk.kprf.ru/2022/08/22/222866/",
+        "https://kprf.ru/dep/gosduma/activities/236198.html/print"
+      ],
+      "evidence_indices": [
+        2,
+        4,
+        5,
+        8
+      ],
+      "model": "gpt-4.1",
+      "at": "2026-10-14T21:43:31.501012+00:00",
+      "evidence_file": "evidence/gennady-zyuganov.json",
+      "evidence_basis": "298e5637949b369b4a301081a77732aecfec6e664f0e0b1e69afec966c1abfe0",
+      "rating_pass": "initial",
+      "measurement_note": "LLM-оценка по извлечённому досье; ссылки не означают независимую экспертную верификацию"
+    }
+  ],
+  "unknown_scale_ids": [
+    "federal-loyalty",
+    "family-values",
+    "economic-modernization",
+    "media-control",
+    "territorial-policy",
+    "anti-bureaucracy"
+  ]
+}

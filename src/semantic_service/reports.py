@@ -95,6 +95,11 @@ def report_blocks(study: dict, analysis: dict, ratings: list[dict]) -> list[dict
     if supplements:
         quality.append(paragraph(f"Для {supplements} объектов выполнен однократный целевой добор источников по неизвестным шкалам. "
                                  "Повторно оценивались только неизвестные ячейки, первые наблюдаемые оценки сохранены. Исходные досье и первый проход доступны в исследовательских файлах."))
+    completion_objects = study.get("evidence_summary", {}).get("completion_objects", 0)
+    if completion_objects:
+        quality.append(paragraph(f"Дополнительно для {completion_objects} неполных профилей пилота выполнен последний ограниченный аудит: "
+                                 "поиск только по неизвестным ячейкам шкал общего ядра. Предыдущие наблюдаемые оценки не менялись; "
+                                 "новые основания, остаточные пробелы и журнал аудита сохранены отдельно. Дальнейший автоматический добор не выполнялся."))
     blocks[insert_at:insert_at] = normalization + quality
     if analysis.get("dimension_candidates"):
         dimension_rows = analysis["dimension_candidates"]
@@ -107,6 +112,9 @@ def report_blocks(study: dict, analysis: dict, ratings: list[dict]) -> list[dict
                         f"{row.get('heldout_log_likelihood_mean', row.get('heldout_log_likelihood', 0)):.3f}",
                         f"{row.get('residual_rms_off_diagonal', 0):.3f}"]
                        for row in dimension_rows]))
+    if analysis.get("interpretation_review"):
+        blocks += [paragraph("Словесные выводы проверены по нагрузкам и измеренным шкалам. "
+                             "Редакторские уточнения формулировок и основания проверки сохранены в metadata.json; численные оценки не менялись.")]
     charts = analysis.get("charts", [])
     if charts:
         for chart in charts[:1]:
@@ -131,8 +139,10 @@ def report_blocks(study: dict, analysis: dict, ratings: list[dict]) -> list[dict
     for chart in charts[1:]:
         blocks.extend([heading(chart["title"], 2), {"type": "image", "file": chart["file"], "caption": chart.get("caption", "")}])
     blocks.extend([heading("Сравнение кластерных решений"),
-                   table(["k", "Силуэт", "Минимальная группа", "Максимальная группа"],
-                         [[r["k"], f"{r.get('silhouette', 0):.3f}", r.get("min_size", ""), r.get("max_size", "")] for r in analysis.get("cluster_candidates", [])]),
+                   table(["k", "Силуэт", "Мин. группа", "Макс. группа", "Средний ARI", "Мин. медианный Jaccard групп"],
+                         [[r["k"], f"{r.get('silhouette', 0):.3f}", r.get("min_size", ""), r.get("max_size", ""),
+                           f"{r.get('stability_mean_ari', 0):.3f}",
+                           f"{r.get('stability', {}).get('min_cluster_median_jaccard', 0):.3f}"] for r in analysis.get("cluster_candidates", [])]),
                    paragraph(analysis.get("cluster_selection_reason") or analysis.get("diagnostics", {}).get("cluster_selection_reason", "Выбранное k рассматривается как рабочая типология и сопоставляется с альтернативами.")),
                    heading("Интерпретация групп")])
     review = analysis.get("cluster_content_review")
@@ -160,7 +170,9 @@ def report_blocks(study: dict, analysis: dict, ratings: list[dict]) -> list[dict
                            paragraph(f"Кластер: {obj.get('cluster_id')}. Оценено шкал: {obj.get('observed_scales')}; пропусков: {obj.get('missing_scales')}."),
                            table(["Фактор", "Координата"], [[k, f"{v:+.3f}"] for k, v in obj["factor_scores"].items()])])
     blocks.extend([heading("Ограничения и воспроизводимость"),
-                   paragraph("Выборка целевая и ограничена заданными критериями. Агрегирование десятилетнего периода может скрыть смену образа. Зависимые источники, смещения поисковой выдачи и оценщика могут влиять на результат. Ни статистическая устойчивость, ни убедительность названия фактора сами по себе не подтверждают его внешнюю валидность."),
+                   paragraph("Выборка целевая и ограничена заданными критериями. Агрегирование десятилетнего периода может скрыть смену образа. Зависимые источники, смещения поисковой выдачи и оценщика могут влиять на результат. "
+                             "Пропуски могут быть систематическими: публичные роли и тематическая освещённость влияют на доступность оценок. Заполнение средним не устраняет это смещение. "
+                             "Сбор досье, оценивание, выбор k и словесная интерпретация моделью не являются независимыми проверками друг друга. Ни статистическая устойчивость, ни убедительность названия фактора сами по себе не подтверждают его внешнюю валидность."),
                    paragraph("Сохранены версии списков, подтверждения пользователя, источники, досье, поэлементные оценки с основаниями, матрицы и параметры модели. Повторный запуск при неизменном запросе использует кэш; это воспроизведение, а не независимое повторное измерение."),
                    paragraph(f"Численный расчёт: {analysis['n_objects']} объектов, {analysis['n_scales']} шкал, "
                              f"{analysis['factor_count']} факторов и {analysis['cluster_count']} кластеров. "
@@ -221,11 +233,12 @@ def export_report(study: dict, analysis: dict, ratings: list[dict], output: Path
                   root: Path, runtime_python: str | None = None, runtime_node: str | None = None) -> list[dict]:
     output.mkdir(parents=True, exist_ok=True)
     study = json.loads(json.dumps(study, ensure_ascii=False))
-    study["evidence_summary"] = {"supplement_objects": len(list((output.parent / "evidence").glob("dossier_supplement-*.json")))}
+    study["evidence_summary"] = {"supplement_objects": len(list((output.parent / "evidence").glob("dossier_supplement-*.json"))),
+                                 "completion_objects": len(list((output.parent / "evidence").glob("coverage_completion-*.json")))}
     for obj in study["objects"]:
         known = {str(item.get("url", "")).rstrip("/") for item in obj.get("sources", [])}
         obj["sources"] = list(obj.get("sources", []))
-        for name in (obj["id"] + ".json", "dossier_supplement-" + obj["id"] + ".json"):
+        for name in (obj["id"] + ".json", "dossier_supplement-" + obj["id"] + ".json", "coverage_completion-" + obj["id"] + ".json"):
             evidence = output.parent / "evidence" / name
             if not evidence.exists():
                 continue

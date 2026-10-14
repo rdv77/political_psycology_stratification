@@ -1,0 +1,657 @@
+{
+  "object_id": "zakhar-prilepin",
+  "scales_basis": "2bee01a202c39ee721dfa985f553d5ce4502c74051ebe616ba3acc72ad80c440",
+  "dossier_basis": "f0b61572aa8a540404a9d85884cab58bd588f4aa5eeef2e360a45f8b4aa67118",
+  "evidence_file": "evidence/zakhar-prilepin.json",
+  "period": [
+    "2016-10-15",
+    "2026-10-15"
+  ],
+  "ratings": [
+    {
+      "object_id": "zakhar-prilepin",
+      "scale_id": "security-sovereignty",
+      "positive": 4,
+      "negative": 0,
+      "difference": 4,
+      "mass": 4,
+      "status": "observed",
+      "confidence": 0.9,
+      "reason": "Публичная риторика Прилепина включает акцент на независимости Донбасса, объединении ДНР и ЛНР, а также критике либерализма и оппозиции, что указывает на выраженный акцент на суверенитете и самостоятельности. Признаков акцента на международную интеграцию не выявлено.",
+      "sources": [
+        "https://zaharprilepin.ru/ru/pressa/intervyu/na-harkov.html",
+        "https://zaharprilepin.ru/ru/video/zapisi-vistuplenij/intervju/"
+      ],
+      "evidence_indices": [
+        2,
+        3
+      ],
+      "model": "gpt-4.1",
+      "at": "2026-10-14T21:43:53.031770+00:00",
+      "evidence_file": "evidence/zakhar-prilepin.json",
+      "evidence_basis": "f0b61572aa8a540404a9d85884cab58bd588f4aa5eeef2e360a45f8b4aa67118",
+      "rating_pass": "initial",
+      "measurement_note": "LLM-оценка по извлечённому досье; ссылки не означают независимую экспертную верификацию"
+    },
+    {
+      "object_id": "zakhar-prilepin",
+      "scale_id": "historical-memory",
+      "positive": 2,
+      "negative": 0,
+      "difference": 2,
+      "mass": 2,
+      "status": "observed",
+      "confidence": 0.6,
+      "reason": "В риторике Прилепина присутствует апелляция к историческим темам (например, Украина, Донбасс, критика либерализма), однако прямого и устойчивого акцента на историческую преемственность или традиционализм в предоставленных фактах недостаточно.",
+      "sources": [
+        "https://zaharprilepin.ru/ru/pressa/intervyu/na-harkov.html",
+        "https://zaharprilepin.ru/ru/video/zapisi-vistuplenij/intervju/"
+      ],
+      "evidence_indices": [
+        2,
+        3
+      ],
+      "model": "gpt-4.1",
+      "at": "2026-10-14T21:43:53.031770+00:00",
+      "evidence_file": "evidence/zakhar-prilepin.json",
+      "evidence_basis": "f0b61572aa8a540404a9d85884cab58bd588f4aa5eeef2e360a45f8b4aa67118",
+      "rating_pass": "initial",
+      "measurement_note": "LLM-оценка по извлечённому досье; ссылки не означают независимую экспертную верификацию"
+    },
+    {
+      "object_id": "zakhar-prilepin",
+      "scale_id": "technocratic-management",
+      "positive": 1,
+      "negative": 2,
+      "difference": -1,
+      "mass": 3,
+      "status": "observed",
+      "confidence": 0.5,
+      "reason": "В объяснении отказа от мандата упоминается обучение и управленческая программа, что может свидетельствовать о некотором акценте на организационную эффективность. Однако в целом публичная аргументация строится преимущественно на идеологических основаниях (критика либерализма, национальный вопрос).",
+      "sources": [
+        "https://novayagazeta.eu/articles/2023/05/06/plokhoi-uchenik-limonova",
+        "https://www.nn.ru/text/politics/2021/10/11/70186523/"
+      ],
+      "evidence_indices": [
+        1,
+        6
+      ],
+      "model": "gpt-4.1",
+      "at": "2026-10-14T21:43:53.031770+00:00",
+      "evidence_file": "evidence/zakhar-prilepin.json",
+      "evidence_basis": "f0b61572aa8a540404a9d85884cab58bd588f4aa5eeef2e360a45f8b4aa67118",
+      "rating_pass": "initial",
+      "measurement_note": "LLM-оценка по извлечённому досье; ссылки не означают независимую экспертную верификацию"
+    },
+    {
+      "object_id": "zakhar-prilepin",
+      "scale_id": "parliamentary-institutional",
+      "positive": 2,
+      "negative": 1,
+      "difference": 1,
+      "mass": 3,
+      "status": "observed",
+      "confidence": 0.7,
+      "reason": "Прилепин участвовал в создании партии и планировал участие в выборах, однако после избрания отказался от мандата, предпочтя партийное строительство. Это указывает на частичное использование институциональных механизмов, но не на устойчивый акцент на парламентской работе.",
+      "sources": [
+        "https://novayagazeta.eu/articles/2023/05/06/plokhoi-uchenik-limonova",
+        "https://tass.ru/politika/11761037",
+        "https://www.nn.ru/text/politics/2021/10/11/70186523/"
+      ],
+      "evidence_indices": [
+        4,
+        5,
+        6,
+        7
+      ],
+      "model": "gpt-4.1",
+      "at": "2026-10-14T21:43:53.031770+00:00",
+      "evidence_file": "evidence/zakhar-prilepin.json",
+      "evidence_basis": "f0b61572aa8a540404a9d85884cab58bd588f4aa5eeef2e360a45f8b4aa67118",
+      "rating_pass": "initial",
+      "measurement_note": "LLM-оценка по извлечённому досье; ссылки не означают независимую экспертную верификацию"
+    },
+    {
+      "object_id": "zakhar-prilepin",
+      "scale_id": "oppositionality",
+      "positive": 1,
+      "negative": 2,
+      "difference": -1,
+      "mass": 3,
+      "status": "observed",
+      "confidence": 0.6,
+      "reason": "В риторике Прилепина присутствует критика либерализма и оппозиции, однако явной системной критики федеральной власти не зафиксировано. Его партия интегрировалась в парламентскую коалицию, что указывает на частичную поддержку курса власти.",
+      "sources": [
+        "https://novayagazeta.eu/articles/2023/05/06/plokhoi-uchenik-limonova",
+        "https://zaharprilepin.ru/ru/video/zapisi-vistuplenij/intervju/",
+        "https://tass.ru/politika/11761037"
+      ],
+      "evidence_indices": [
+        1,
+        3,
+        5,
+        9
+      ],
+      "model": "gpt-4.1",
+      "at": "2026-10-14T21:43:53.031770+00:00",
+      "evidence_file": "evidence/zakhar-prilepin.json",
+      "evidence_basis": "f0b61572aa8a540404a9d85884cab58bd588f4aa5eeef2e360a45f8b4aa67118",
+      "rating_pass": "initial",
+      "measurement_note": "LLM-оценка по извлечённому досье; ссылки не означают независимую экспертную верификацию"
+    },
+    {
+      "object_id": "zakhar-prilepin",
+      "scale_id": "social-policy",
+      "positive": null,
+      "negative": null,
+      "difference": null,
+      "mass": null,
+      "status": "unknown",
+      "confidence": 0.2,
+      "reason": "В предоставленных материалах отсутствуют явные позиции по вопросам социальной политики или перераспределения.",
+      "sources": [],
+      "evidence_indices": [],
+      "model": "gpt-4.1",
+      "at": "2026-10-14T21:43:53.031770+00:00",
+      "evidence_file": "evidence/zakhar-prilepin.json",
+      "evidence_basis": "f0b61572aa8a540404a9d85884cab58bd588f4aa5eeef2e360a45f8b4aa67118",
+      "rating_pass": "initial",
+      "measurement_note": "LLM-оценка по извлечённому досье; ссылки не означают независимую экспертную верификацию"
+    },
+    {
+      "object_id": "zakhar-prilepin",
+      "scale_id": "federal-loyalty",
+      "positive": 2,
+      "negative": 0,
+      "difference": 2,
+      "mass": 2,
+      "status": "observed",
+      "confidence": 0.5,
+      "reason": "Публичная деятельность Прилепина связана с федеральными партиями и участием в общенациональных выборах, однако прямых заявлений о централизации или региональной автономии не обнаружено.",
+      "sources": [
+        "https://tass.ru/politika/11761037",
+        "https://novayagazeta.eu/articles/2023/05/06/plokhoi-uchenik-limonova"
+      ],
+      "evidence_indices": [
+        5,
+        9
+      ],
+      "model": "gpt-4.1",
+      "at": "2026-10-14T21:43:53.031770+00:00",
+      "evidence_file": "evidence/zakhar-prilepin.json",
+      "evidence_basis": "f0b61572aa8a540404a9d85884cab58bd588f4aa5eeef2e360a45f8b4aa67118",
+      "rating_pass": "initial",
+      "measurement_note": "LLM-оценка по извлечённому досье; ссылки не означают независимую экспертную верификацию"
+    },
+    {
+      "object_id": "zakhar-prilepin",
+      "scale_id": "mobilization-rhetoric",
+      "positive": 3,
+      "negative": 0,
+      "difference": 3,
+      "mass": 3,
+      "status": "observed",
+      "confidence": 0.8,
+      "reason": "Публичная риторика Прилепина включает мобилизационные мотивы, призывы к единству вокруг национальных и донбасских тем, что соответствует устойчивому акценту на мобилизации.",
+      "sources": [
+        "https://zaharprilepin.ru/ru/pressa/intervyu/na-harkov.html",
+        "https://zaharprilepin.ru/ru/video/zapisi-vistuplenij/intervju/",
+        "https://novayagazeta.eu/articles/2023/05/06/plokhoi-uchenik-limonova"
+      ],
+      "evidence_indices": [
+        2,
+        3,
+        4
+      ],
+      "model": "gpt-4.1",
+      "at": "2026-10-14T21:43:53.031770+00:00",
+      "evidence_file": "evidence/zakhar-prilepin.json",
+      "evidence_basis": "f0b61572aa8a540404a9d85884cab58bd588f4aa5eeef2e360a45f8b4aa67118",
+      "rating_pass": "initial",
+      "measurement_note": "LLM-оценка по извлечённому досье; ссылки не означают независимую экспертную верификацию"
+    },
+    {
+      "object_id": "zakhar-prilepin",
+      "scale_id": "conflictuality",
+      "positive": 3,
+      "negative": 0,
+      "difference": 3,
+      "mass": 3,
+      "status": "observed",
+      "confidence": 0.7,
+      "reason": "В публичных выступлениях Прилепина отмечается жёсткая критика оппозиции и конфликтная риторика по украинскому вопросу, что свидетельствует о заметной конфликтности.",
+      "sources": [
+        "https://zaharprilepin.ru/ru/video/zapisi-vistuplenij/intervju/",
+        "https://novayagazeta.eu/articles/2023/05/06/plokhoi-uchenik-limonova"
+      ],
+      "evidence_indices": [
+        3,
+        4
+      ],
+      "model": "gpt-4.1",
+      "at": "2026-10-14T21:43:53.031770+00:00",
+      "evidence_file": "evidence/zakhar-prilepin.json",
+      "evidence_basis": "f0b61572aa8a540404a9d85884cab58bd588f4aa5eeef2e360a45f8b4aa67118",
+      "rating_pass": "initial",
+      "measurement_note": "LLM-оценка по извлечённому досье; ссылки не означают независимую экспертную верификацию"
+    },
+    {
+      "object_id": "zakhar-prilepin",
+      "scale_id": "media-personalization",
+      "positive": 3,
+      "negative": 1,
+      "difference": 2,
+      "mass": 4,
+      "status": "observed",
+      "confidence": 0.8,
+      "reason": "Партия и движение строились вокруг личного бренда Прилепина, его узнаваемость использовалась в избирательной кампании. После объединения с другими партиями его роль стала менее единоличной, но персонализация сохранялась.",
+      "sources": [
+        "https://www.kommersant.ru/doc/4141912",
+        "https://novayagazeta.eu/articles/2023/05/06/plokhoi-uchenik-limonova",
+        "https://tass.ru/politika/11761037"
+      ],
+      "evidence_indices": [
+        0,
+        1,
+        5,
+        9
+      ],
+      "model": "gpt-4.1",
+      "at": "2026-10-14T21:43:53.031770+00:00",
+      "evidence_file": "evidence/zakhar-prilepin.json",
+      "evidence_basis": "f0b61572aa8a540404a9d85884cab58bd588f4aa5eeef2e360a45f8b4aa67118",
+      "rating_pass": "initial",
+      "measurement_note": "LLM-оценка по извлечённому досье; ссылки не означают независимую экспертную верификацию"
+    },
+    {
+      "object_id": "zakhar-prilepin",
+      "scale_id": "antiwesternism",
+      "positive": 3,
+      "negative": 0,
+      "difference": 3,
+      "mass": 3,
+      "status": "observed",
+      "confidence": 0.7,
+      "reason": "В риторике Прилепина присутствует критика либерализма, украинского Майдана и оппозиции, что косвенно указывает на антизападный акцент, хотя прямых заявлений о противостоянии Западу в материалах нет.",
+      "sources": [
+        "https://novayagazeta.eu/articles/2023/05/06/plokhoi-uchenik-limonova",
+        "https://zaharprilepin.ru/ru/video/zapisi-vistuplenij/intervju/"
+      ],
+      "evidence_indices": [
+        1,
+        3
+      ],
+      "model": "gpt-4.1",
+      "at": "2026-10-14T21:43:53.031770+00:00",
+      "evidence_file": "evidence/zakhar-prilepin.json",
+      "evidence_basis": "f0b61572aa8a540404a9d85884cab58bd588f4aa5eeef2e360a45f8b4aa67118",
+      "rating_pass": "initial",
+      "measurement_note": "LLM-оценка по извлечённому досье; ссылки не означают независимую экспертную верификацию"
+    },
+    {
+      "object_id": "zakhar-prilepin",
+      "scale_id": "party-leadership",
+      "positive": 3,
+      "negative": 1,
+      "difference": 2,
+      "mass": 4,
+      "status": "observed",
+      "confidence": 0.8,
+      "reason": "Прилепин инициировал создание партии, был её сопредседателем и связывал свою деятельность с партийным строительством, что указывает на устойчивый акцент на партийной организации. После объединения его роль стала менее единоличной, но партийная идентичность сохранялась.",
+      "sources": [
+        "https://www.kommersant.ru/doc/4141912",
+        "https://novayagazeta.eu/articles/2023/05/06/plokhoi-uchenik-limonova",
+        "https://www.nn.ru/text/politics/2021/10/11/70186523/"
+      ],
+      "evidence_indices": [
+        0,
+        1,
+        7,
+        9
+      ],
+      "model": "gpt-4.1",
+      "at": "2026-10-14T21:43:53.031770+00:00",
+      "evidence_file": "evidence/zakhar-prilepin.json",
+      "evidence_basis": "f0b61572aa8a540404a9d85884cab58bd588f4aa5eeef2e360a45f8b4aa67118",
+      "rating_pass": "initial",
+      "measurement_note": "LLM-оценка по извлечённому досье; ссылки не означают независимую экспертную верификацию"
+    },
+    {
+      "object_id": "zakhar-prilepin",
+      "scale_id": "public-transparency",
+      "positive": null,
+      "negative": null,
+      "difference": null,
+      "mass": null,
+      "status": "unknown",
+      "confidence": 0.4,
+      "reason": "В предоставленных материалах отсутствуют прямые заявления или действия Прилепина, явно акцентирующие либо прозрачность, либо закрытость принятия решений и общественный контроль.",
+      "sources": [],
+      "evidence_indices": [],
+      "model": "gpt-4.1",
+      "at": "2026-10-14T21:43:59.784984+00:00",
+      "evidence_file": "evidence/zakhar-prilepin.json",
+      "evidence_basis": "f0b61572aa8a540404a9d85884cab58bd588f4aa5eeef2e360a45f8b4aa67118",
+      "rating_pass": "initial",
+      "measurement_note": "LLM-оценка по извлечённому досье; ссылки не означают независимую экспертную верификацию"
+    },
+    {
+      "object_id": "zakhar-prilepin",
+      "scale_id": "family-values",
+      "positive": null,
+      "negative": null,
+      "difference": null,
+      "mass": null,
+      "status": "unknown",
+      "confidence": 0.3,
+      "reason": "Нет фактов, раскрывающих программные позиции Прилепина по вопросам семейных или моральных норм.",
+      "sources": [],
+      "evidence_indices": [],
+      "model": "gpt-4.1",
+      "at": "2026-10-14T21:43:59.784984+00:00",
+      "evidence_file": "evidence/zakhar-prilepin.json",
+      "evidence_basis": "f0b61572aa8a540404a9d85884cab58bd588f4aa5eeef2e360a45f8b4aa67118",
+      "rating_pass": "initial",
+      "measurement_note": "LLM-оценка по извлечённому досье; ссылки не означают независимую экспертную верификацию"
+    },
+    {
+      "object_id": "zakhar-prilepin",
+      "scale_id": "international-activity",
+      "positive": 1,
+      "negative": 1,
+      "difference": 0,
+      "mass": 2,
+      "status": "observed",
+      "confidence": 0.7,
+      "reason": "Публичная риторика Прилепина включает устойчивое внимание к украинскому и донбасскому вопросам (факты 2, 3, 4), что отражает некоторый акцент на внешней повестке. Однако значительная часть деятельности связана с внутренней партийной и электоральной политикой (факты 1, 5, 6, 7, 8, 9, 10), что указывает на выраженность и внутренней повестки.",
+      "sources": [
+        "https://novayagazeta.eu/articles/2023/05/06/plokhoi-uchenik-limonova",
+        "https://zaharprilepin.ru/ru/pressa/intervyu/na-harkov.html",
+        "https://zaharprilepin.ru/ru/video/zapisi-vistuplenij/intervju/",
+        "https://tass.ru/politika/11761037",
+        "https://www.nn.ru/text/politics/2021/10/11/70186523/",
+        "https://www.kommersant.ru/doc/4141912",
+        "https://www.zaks.ru/new/archive/view/267194"
+      ],
+      "evidence_indices": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ],
+      "model": "gpt-4.1",
+      "at": "2026-10-14T21:43:59.784984+00:00",
+      "evidence_file": "evidence/zakhar-prilepin.json",
+      "evidence_basis": "f0b61572aa8a540404a9d85884cab58bd588f4aa5eeef2e360a45f8b4aa67118",
+      "rating_pass": "initial",
+      "measurement_note": "LLM-оценка по извлечённому досье; ссылки не означают независимую экспертную верификацию"
+    },
+    {
+      "object_id": "zakhar-prilepin",
+      "scale_id": "antiwar-rhetoric",
+      "positive": 0,
+      "negative": 3,
+      "difference": -3,
+      "mass": 3,
+      "status": "observed",
+      "confidence": 0.8,
+      "reason": "Позиция Прилепина по Донбассу и Украине выражена как поддержка политического оформления независимости и расширения ДНР и ЛНР (факт 3), что подразумевает поддержку продолжения военных действий ради заявленных целей. Призывов к прекращению военных действий не зафиксировано.",
+      "sources": [
+        "https://zaharprilepin.ru/ru/pressa/intervyu/na-harkov.html"
+      ],
+      "evidence_indices": [
+        2
+      ],
+      "model": "gpt-4.1",
+      "at": "2026-10-14T21:43:59.784984+00:00",
+      "evidence_file": "evidence/zakhar-prilepin.json",
+      "evidence_basis": "f0b61572aa8a540404a9d85884cab58bd588f4aa5eeef2e360a45f8b4aa67118",
+      "rating_pass": "initial",
+      "measurement_note": "LLM-оценка по извлечённому досье; ссылки не означают независимую экспертную верификацию"
+    },
+    {
+      "object_id": "zakhar-prilepin",
+      "scale_id": "electoral-legitimacy",
+      "positive": 3,
+      "negative": 0,
+      "difference": 3,
+      "mass": 3,
+      "status": "observed",
+      "confidence": 0.8,
+      "reason": "Создание партии, участие в выборах и подача партийной деятельности как способа реализации политических задач (факты 1, 5, 6, 8, 9) указывают на устойчивый акцент на электоральной легитимности.",
+      "sources": [
+        "https://www.kommersant.ru/doc/4141912",
+        "https://novayagazeta.eu/articles/2023/05/06/plokhoi-uchenik-limonova",
+        "https://tass.ru/politika/11761037",
+        "https://www.nn.ru/text/politics/2021/10/11/70186523/"
+      ],
+      "evidence_indices": [
+        0,
+        4,
+        5,
+        7,
+        8
+      ],
+      "model": "gpt-4.1",
+      "at": "2026-10-14T21:43:59.784984+00:00",
+      "evidence_file": "evidence/zakhar-prilepin.json",
+      "evidence_basis": "f0b61572aa8a540404a9d85884cab58bd588f4aa5eeef2e360a45f8b4aa67118",
+      "rating_pass": "initial",
+      "measurement_note": "LLM-оценка по извлечённому досье; ссылки не означают независимую экспертную верификацию"
+    },
+    {
+      "object_id": "zakhar-prilepin",
+      "scale_id": "economic-ownership",
+      "positive": null,
+      "negative": null,
+      "difference": null,
+      "mass": null,
+      "status": "unknown",
+      "confidence": 0.3,
+      "reason": "Нет сведений о публичных позициях Прилепина по вопросам роли государства и частного капитала в экономике.",
+      "sources": [],
+      "evidence_indices": [],
+      "model": "gpt-4.1",
+      "at": "2026-10-14T21:43:59.784984+00:00",
+      "evidence_file": "evidence/zakhar-prilepin.json",
+      "evidence_basis": "f0b61572aa8a540404a9d85884cab58bd588f4aa5eeef2e360a45f8b4aa67118",
+      "rating_pass": "initial",
+      "measurement_note": "LLM-оценка по извлечённому досье; ссылки не означают независимую экспертную верификацию"
+    },
+    {
+      "object_id": "zakhar-prilepin",
+      "scale_id": "economic-modernization",
+      "positive": null,
+      "negative": null,
+      "difference": null,
+      "mass": null,
+      "status": "unknown",
+      "confidence": 0.3,
+      "reason": "В материалах отсутствуют явные предложения или риторика о технологическом обновлении или сохранении существующих моделей.",
+      "sources": [],
+      "evidence_indices": [],
+      "model": "gpt-4.1",
+      "at": "2026-10-14T21:43:59.784984+00:00",
+      "evidence_file": "evidence/zakhar-prilepin.json",
+      "evidence_basis": "f0b61572aa8a540404a9d85884cab58bd588f4aa5eeef2e360a45f8b4aa67118",
+      "rating_pass": "initial",
+      "measurement_note": "LLM-оценка по извлечённому досье; ссылки не означают независимую экспертную верификацию"
+    },
+    {
+      "object_id": "zakhar-prilepin",
+      "scale_id": "media-control",
+      "positive": null,
+      "negative": null,
+      "difference": null,
+      "mass": null,
+      "status": "unknown",
+      "confidence": 0.3,
+      "reason": "Нет данных о публичных позициях Прилепина по вопросам регулирования информации или свободы выражения.",
+      "sources": [],
+      "evidence_indices": [],
+      "model": "gpt-4.1",
+      "at": "2026-10-14T21:43:59.784984+00:00",
+      "evidence_file": "evidence/zakhar-prilepin.json",
+      "evidence_basis": "f0b61572aa8a540404a9d85884cab58bd588f4aa5eeef2e360a45f8b4aa67118",
+      "rating_pass": "initial",
+      "measurement_note": "LLM-оценка по извлечённому досье; ссылки не означают независимую экспертную верификацию"
+    },
+    {
+      "object_id": "zakhar-prilepin",
+      "scale_id": "territorial-policy",
+      "positive": 0,
+      "negative": 3,
+      "difference": -3,
+      "mass": 3,
+      "status": "observed",
+      "confidence": 0.8,
+      "reason": "Публичная поддержка политического оформления независимости и расширения ДНР и ЛНР (факт 3) свидетельствует о выраженном акценте на пересмотре границ.",
+      "sources": [
+        "https://zaharprilepin.ru/ru/pressa/intervyu/na-harkov.html"
+      ],
+      "evidence_indices": [
+        2
+      ],
+      "model": "gpt-4.1",
+      "at": "2026-10-14T21:43:59.784984+00:00",
+      "evidence_file": "evidence/zakhar-prilepin.json",
+      "evidence_basis": "f0b61572aa8a540404a9d85884cab58bd588f4aa5eeef2e360a45f8b4aa67118",
+      "rating_pass": "initial",
+      "measurement_note": "LLM-оценка по извлечённому досье; ссылки не означают независимую экспертную верификацию"
+    },
+    {
+      "object_id": "zakhar-prilepin",
+      "scale_id": "rhetorical-simplicity",
+      "positive": 1,
+      "negative": 1,
+      "difference": 0,
+      "mass": 2,
+      "status": "observed",
+      "confidence": 0.5,
+      "reason": "В материалах нет подробного анализа стиля аргументации, однако упоминание критики либерализма и партийной риторики (факт 2) может указывать на наличие как лозунговых, так и более развёрнутых формулировок.",
+      "sources": [
+        "https://novayagazeta.eu/articles/2023/05/06/plokhoi-uchenik-limonova"
+      ],
+      "evidence_indices": [
+        1
+      ],
+      "model": "gpt-4.1",
+      "at": "2026-10-14T21:43:59.784984+00:00",
+      "evidence_file": "evidence/zakhar-prilepin.json",
+      "evidence_basis": "f0b61572aa8a540404a9d85884cab58bd588f4aa5eeef2e360a45f8b4aa67118",
+      "rating_pass": "initial",
+      "measurement_note": "LLM-оценка по извлечённому досье; ссылки не означают независимую экспертную верификацию"
+    },
+    {
+      "object_id": "zakhar-prilepin",
+      "scale_id": "anti-bureaucracy",
+      "positive": null,
+      "negative": null,
+      "difference": null,
+      "mass": null,
+      "status": "unknown",
+      "confidence": 0.3,
+      "reason": "Нет фактов, позволяющих оценить отношение Прилепина к административному регулированию или дерегулированию.",
+      "sources": [],
+      "evidence_indices": [],
+      "model": "gpt-4.1",
+      "at": "2026-10-14T21:43:59.784984+00:00",
+      "evidence_file": "evidence/zakhar-prilepin.json",
+      "evidence_basis": "f0b61572aa8a540404a9d85884cab58bd588f4aa5eeef2e360a45f8b4aa67118",
+      "rating_pass": "initial",
+      "measurement_note": "LLM-оценка по извлечённому досье; ссылки не означают независимую экспертную верификацию"
+    },
+    {
+      "object_id": "zakhar-prilepin",
+      "scale_id": "national-patriotism",
+      "positive": 3,
+      "negative": 0,
+      "difference": 3,
+      "mass": 3,
+      "status": "observed",
+      "confidence": 0.8,
+      "reason": "Постоянное внимание к вопросам национальной идентичности, Донбасса, русских и критика либерализма (факты 2, 3, 4) указывают на устойчивый акцент на национально-патриотической риторике.",
+      "sources": [
+        "https://novayagazeta.eu/articles/2023/05/06/plokhoi-uchenik-limonova",
+        "https://zaharprilepin.ru/ru/pressa/intervyu/na-harkov.html",
+        "https://zaharprilepin.ru/ru/video/zapisi-vistuplenij/intervju/"
+      ],
+      "evidence_indices": [
+        1,
+        2,
+        3
+      ],
+      "model": "gpt-4.1",
+      "at": "2026-10-14T21:43:59.784984+00:00",
+      "evidence_file": "evidence/zakhar-prilepin.json",
+      "evidence_basis": "f0b61572aa8a540404a9d85884cab58bd588f4aa5eeef2e360a45f8b4aa67118",
+      "rating_pass": "initial",
+      "measurement_note": "LLM-оценка по извлечённому досье; ссылки не означают независимую экспертную верификацию"
+    },
+    {
+      "object_id": "zakhar-prilepin",
+      "scale_id": "coalitionality",
+      "positive": 4,
+      "negative": 2,
+      "difference": 2,
+      "mass": 6,
+      "status": "observed",
+      "confidence": 0.95,
+      "reason": "Прилепин инициировал создание собственного движения и партии, затем участвовал в объединении с другими политическими силами (Справедливая Россия, Патриоты России), сохраняя заметную роль в коалиционной структуре. Однако на ранних этапах делал акцент на самостоятельном партийном проекте и организационной обособленности.",
+      "sources": [
+        "https://www.kommersant.ru/doc/4141912",
+        "https://novayagazeta.eu/articles/2023/05/06/plokhoi-uchenik-limonova",
+        "https://tass.ru/politika/11761037"
+      ],
+      "evidence_indices": [
+        0,
+        1,
+        4,
+        5,
+        8,
+        9
+      ],
+      "model": "gpt-4.1",
+      "at": "2026-10-14T21:44:02.202765+00:00",
+      "evidence_file": "evidence/zakhar-prilepin.json",
+      "evidence_basis": "f0b61572aa8a540404a9d85884cab58bd588f4aa5eeef2e360a45f8b4aa67118",
+      "rating_pass": "initial",
+      "measurement_note": "LLM-оценка по извлечённому досье; ссылки не означают независимую экспертную верификацию"
+    },
+    {
+      "object_id": "zakhar-prilepin",
+      "scale_id": "civil-liberties",
+      "positive": null,
+      "negative": null,
+      "difference": null,
+      "mass": null,
+      "status": "unknown",
+      "confidence": 0.2,
+      "reason": "В предоставленных материалах отсутствуют прямые сведения о публичных позициях Прилепина по вопросам гражданских свобод, правовых гарантий, политического принуждения или антирепрессивной риторики.",
+      "sources": [],
+      "evidence_indices": [],
+      "model": "gpt-4.1",
+      "at": "2026-10-14T21:44:02.202765+00:00",
+      "evidence_file": "evidence/zakhar-prilepin.json",
+      "evidence_basis": "f0b61572aa8a540404a9d85884cab58bd588f4aa5eeef2e360a45f8b4aa67118",
+      "rating_pass": "initial",
+      "measurement_note": "LLM-оценка по извлечённому досье; ссылки не означают независимую экспертную верификацию"
+    }
+  ],
+  "unknown_scale_ids": [
+    "social-policy",
+    "public-transparency",
+    "family-values",
+    "economic-ownership",
+    "economic-modernization",
+    "media-control",
+    "anti-bureaucracy",
+    "civil-liberties"
+  ]
+}

@@ -1,0 +1,659 @@
+{
+  "object_id": "vladimir-zhirinovsky",
+  "scales_basis": "2bee01a202c39ee721dfa985f553d5ce4502c74051ebe616ba3acc72ad80c440",
+  "dossier_basis": "616bd9dc87d1043f2501ed54a243d3995498e5487c9c5caaf6ea964c24b812f4",
+  "evidence_file": "evidence/vladimir-zhirinovsky.json",
+  "period": [
+    "2016-10-15",
+    "2026-10-15"
+  ],
+  "ratings": [
+    {
+      "object_id": "vladimir-zhirinovsky",
+      "scale_id": "security-sovereignty",
+      "positive": 4,
+      "negative": 1,
+      "difference": 3,
+      "mass": 5,
+      "status": "observed",
+      "confidence": 0.8,
+      "reason": "Жириновский последовательно выдвигал акценты на защите русских, суверенитете, резкой внешнеполитической риторике и поддержке идей, связанных с ограничением внешнего влияния. Признаков выраженной поддержки международной интеграции не обнаружено, но отдельные элементы (например, упоминание свободной прессы и судов) могут быть интерпретированы как слабое проявление противоположного полюса.",
+      "sources": [
+        "https://govoritmoskva.ru/interviews/1023/",
+        "https://www.pnp.ru/politics/2016/06/28/v-centre-predvybornoy-programmy-ldpr-russkiy-vopros.html",
+        "https://ldpr.ru/party/history/",
+        "https://www.svoboda.org/a/umer-lider-partii-ldpr-vladimir-zhirinovskiy-nekrolog/31770134.html"
+      ],
+      "evidence_indices": [
+        3,
+        4,
+        6,
+        8
+      ],
+      "model": "gpt-4.1",
+      "at": "2026-10-14T21:43:34.676775+00:00",
+      "evidence_file": "evidence/vladimir-zhirinovsky.json",
+      "evidence_basis": "616bd9dc87d1043f2501ed54a243d3995498e5487c9c5caaf6ea964c24b812f4",
+      "rating_pass": "initial",
+      "measurement_note": "LLM-оценка по извлечённому досье; ссылки не означают независимую экспертную верификацию"
+    },
+    {
+      "object_id": "vladimir-zhirinovsky",
+      "scale_id": "historical-memory",
+      "positive": 3,
+      "negative": 1,
+      "difference": 2,
+      "mass": 4,
+      "status": "observed",
+      "confidence": 0.7,
+      "reason": "В публичной программе и риторике Жириновского акцентировалась защита русских и апелляция к историческим вопросам, однако прямого противопоставления старого и нового порядка или ярко выраженного традиционализма не выявлено. Элементы обновления и реформ также присутствуют, но не доминируют.",
+      "sources": [
+        "https://govoritmoskva.ru/interviews/1023/",
+        "https://www.pnp.ru/politics/2016/06/28/v-centre-predvybornoy-programmy-ldpr-russkiy-vopros.html",
+        "https://ldpr.ru/party/history/"
+      ],
+      "evidence_indices": [
+        3,
+        4,
+        6
+      ],
+      "model": "gpt-4.1",
+      "at": "2026-10-14T21:43:34.676775+00:00",
+      "evidence_file": "evidence/vladimir-zhirinovsky.json",
+      "evidence_basis": "616bd9dc87d1043f2501ed54a243d3995498e5487c9c5caaf6ea964c24b812f4",
+      "rating_pass": "initial",
+      "measurement_note": "LLM-оценка по извлечённому досье; ссылки не означают независимую экспертную верификацию"
+    },
+    {
+      "object_id": "vladimir-zhirinovsky",
+      "scale_id": "technocratic-management",
+      "positive": 2,
+      "negative": 3,
+      "difference": -1,
+      "mass": 5,
+      "status": "observed",
+      "confidence": 0.6,
+      "reason": "В экономической программе ЛДПР под руководством Жириновского присутствовали конкретные предложения (минимальная зарплата, списание долгов), однако публичная аргументация часто строилась на идеологических и символических лозунгах, а не на управленческих показателях.",
+      "sources": [
+        "https://www.pnp.ru/politics/2016/06/28/v-centre-predvybornoy-programmy-ldpr-russkiy-vopros.html"
+      ],
+      "evidence_indices": [
+        5
+      ],
+      "model": "gpt-4.1",
+      "at": "2026-10-14T21:43:34.676775+00:00",
+      "evidence_file": "evidence/vladimir-zhirinovsky.json",
+      "evidence_basis": "616bd9dc87d1043f2501ed54a243d3995498e5487c9c5caaf6ea964c24b812f4",
+      "rating_pass": "initial",
+      "measurement_note": "LLM-оценка по извлечённому досье; ссылки не означают независимую экспертную верификацию"
+    },
+    {
+      "object_id": "vladimir-zhirinovsky",
+      "scale_id": "parliamentary-institutional",
+      "positive": 3,
+      "negative": 1,
+      "difference": 2,
+      "mass": 4,
+      "status": "observed",
+      "confidence": 0.7,
+      "reason": "Жириновский подчеркивал участие в выборах и парламентской деятельности как часть публичного образа, однако элементы протестной риторики и провокаций также присутствовали, но не были доминирующими.",
+      "sources": [
+        "https://www.gazeta.ru/politics/2017/03/17_a_10580999.shtml",
+        "https://www.bbc.com/russian/features-60873381"
+      ],
+      "evidence_indices": [
+        1,
+        7
+      ],
+      "model": "gpt-4.1",
+      "at": "2026-10-14T21:43:34.676775+00:00",
+      "evidence_file": "evidence/vladimir-zhirinovsky.json",
+      "evidence_basis": "616bd9dc87d1043f2501ed54a243d3995498e5487c9c5caaf6ea964c24b812f4",
+      "rating_pass": "initial",
+      "measurement_note": "LLM-оценка по извлечённому досье; ссылки не означают независимую экспертную верификацию"
+    },
+    {
+      "object_id": "vladimir-zhirinovsky",
+      "scale_id": "oppositionality",
+      "positive": 2,
+      "negative": 3,
+      "difference": -1,
+      "mass": 5,
+      "status": "observed",
+      "confidence": 0.7,
+      "reason": "Жириновский и ЛДПР занимали позицию системной оппозиции: критика отдельных аспектов власти сочеталась с поддержкой ряда ключевых инициатив и отсутствием фронтальной оппозиции федеральному курсу.",
+      "sources": [
+        "https://govoritmoskva.ru/interviews/1023/",
+        "https://www.bbc.com/russian/features-60873381"
+      ],
+      "evidence_indices": [
+        2,
+        7
+      ],
+      "model": "gpt-4.1",
+      "at": "2026-10-14T21:43:34.676775+00:00",
+      "evidence_file": "evidence/vladimir-zhirinovsky.json",
+      "evidence_basis": "616bd9dc87d1043f2501ed54a243d3995498e5487c9c5caaf6ea964c24b812f4",
+      "rating_pass": "initial",
+      "measurement_note": "LLM-оценка по извлечённому досье; ссылки не означают независимую экспертную верификацию"
+    },
+    {
+      "object_id": "vladimir-zhirinovsky",
+      "scale_id": "social-policy",
+      "positive": 3,
+      "negative": 1,
+      "difference": 2,
+      "mass": 4,
+      "status": "observed",
+      "confidence": 0.7,
+      "reason": "В программе ЛДПР под руководством Жириновского присутствовали требования расширения социальных гарантий, поддержки бедных, списания долгов, что указывает на выраженность полюса социальной поддержки.",
+      "sources": [
+        "https://govoritmoskva.ru/interviews/1023/",
+        "https://www.pnp.ru/politics/2016/06/28/v-centre-predvybornoy-programmy-ldpr-russkiy-vopros.html"
+      ],
+      "evidence_indices": [
+        2,
+        5
+      ],
+      "model": "gpt-4.1",
+      "at": "2026-10-14T21:43:34.676775+00:00",
+      "evidence_file": "evidence/vladimir-zhirinovsky.json",
+      "evidence_basis": "616bd9dc87d1043f2501ed54a243d3995498e5487c9c5caaf6ea964c24b812f4",
+      "rating_pass": "initial",
+      "measurement_note": "LLM-оценка по извлечённому досье; ссылки не означают независимую экспертную верификацию"
+    },
+    {
+      "object_id": "vladimir-zhirinovsky",
+      "scale_id": "federal-loyalty",
+      "positive": 3,
+      "negative": 1,
+      "difference": 2,
+      "mass": 4,
+      "status": "observed",
+      "confidence": 0.6,
+      "reason": "Публичная позиция Жириновского и ЛДПР не содержала выраженных требований децентрализации, а риторика часто строилась вокруг федеральных вопросов и централизации, хотя прямых заявлений о перераспределении полномочий не выявлено.",
+      "sources": [
+        "https://www.pnp.ru/politics/2016/06/28/v-centre-predvybornoy-programmy-ldpr-russkiy-vopros.html",
+        "https://ldpr.ru/party/history/"
+      ],
+      "evidence_indices": [
+        4,
+        6
+      ],
+      "model": "gpt-4.1",
+      "at": "2026-10-14T21:43:34.676775+00:00",
+      "evidence_file": "evidence/vladimir-zhirinovsky.json",
+      "evidence_basis": "616bd9dc87d1043f2501ed54a243d3995498e5487c9c5caaf6ea964c24b812f4",
+      "rating_pass": "initial",
+      "measurement_note": "LLM-оценка по извлечённому досье; ссылки не означают независимую экспертную верификацию"
+    },
+    {
+      "object_id": "vladimir-zhirinovsky",
+      "scale_id": "mobilization-rhetoric",
+      "positive": 4,
+      "negative": 1,
+      "difference": 3,
+      "mass": 5,
+      "status": "observed",
+      "confidence": 0.8,
+      "reason": "Жириновский широко использовал мобилизационную, эскалационную и провокационную риторику, призывая к единению и жёстким действиям, что было заметной частью его публичного образа.",
+      "sources": [
+        "https://www.gazeta.ru/politics/2017/03/17_a_10580999.shtml",
+        "https://www.svoboda.org/a/umer-lider-partii-ldpr-vladimir-zhirinovskiy-nekrolog/31770134.html"
+      ],
+      "evidence_indices": [
+        0,
+        1,
+        8
+      ],
+      "model": "gpt-4.1",
+      "at": "2026-10-14T21:43:34.676775+00:00",
+      "evidence_file": "evidence/vladimir-zhirinovsky.json",
+      "evidence_basis": "616bd9dc87d1043f2501ed54a243d3995498e5487c9c5caaf6ea964c24b812f4",
+      "rating_pass": "initial",
+      "measurement_note": "LLM-оценка по извлечённому досье; ссылки не означают независимую экспертную верификацию"
+    },
+    {
+      "object_id": "vladimir-zhirinovsky",
+      "scale_id": "conflictuality",
+      "positive": 5,
+      "negative": 1,
+      "difference": 4,
+      "mass": 6,
+      "status": "observed",
+      "confidence": 0.9,
+      "reason": "Конфронтационная, резкая и провокационная риторика была определяющей чертой публичного образа Жириновского, что подтверждается многочисленными примерами его выступлений и взаимодействия с оппонентами.",
+      "sources": [
+        "https://www.gazeta.ru/politics/2017/03/17_a_10580999.shtml"
+      ],
+      "evidence_indices": [
+        0,
+        1
+      ],
+      "model": "gpt-4.1",
+      "at": "2026-10-14T21:43:34.676775+00:00",
+      "evidence_file": "evidence/vladimir-zhirinovsky.json",
+      "evidence_basis": "616bd9dc87d1043f2501ed54a243d3995498e5487c9c5caaf6ea964c24b812f4",
+      "rating_pass": "initial",
+      "measurement_note": "LLM-оценка по извлечённому досье; ссылки не означают независимую экспертную верификацию"
+    },
+    {
+      "object_id": "vladimir-zhirinovsky",
+      "scale_id": "media-personalization",
+      "positive": 4,
+      "negative": 1,
+      "difference": 3,
+      "mass": 5,
+      "status": "observed",
+      "confidence": 0.8,
+      "reason": "Жириновский строил публичный образ на личном бренде, подчеркивал свою исключительность и долгую политическую карьеру, что указывает на выраженную персонализацию.",
+      "sources": [
+        "https://www.bbc.com/russian/features-60873381"
+      ],
+      "evidence_indices": [
+        7
+      ],
+      "model": "gpt-4.1",
+      "at": "2026-10-14T21:43:34.676775+00:00",
+      "evidence_file": "evidence/vladimir-zhirinovsky.json",
+      "evidence_basis": "616bd9dc87d1043f2501ed54a243d3995498e5487c9c5caaf6ea964c24b812f4",
+      "rating_pass": "initial",
+      "measurement_note": "LLM-оценка по извлечённому досье; ссылки не означают независимую экспертную верификацию"
+    },
+    {
+      "object_id": "vladimir-zhirinovsky",
+      "scale_id": "antiwesternism",
+      "positive": 4,
+      "negative": 0,
+      "difference": 4,
+      "mass": 4,
+      "status": "observed",
+      "confidence": 0.8,
+      "reason": "В риторике Жириновского регулярно присутствовали антизападные мотивы, жёсткая критика западных стран и их политики, особенно в контексте украинского кризиса и вопросов безопасности.",
+      "sources": [
+        "https://govoritmoskva.ru/interviews/1023/",
+        "https://ldpr.ru/party/history/",
+        "https://www.svoboda.org/a/umer-lider-partii-ldpr-vladimir-zhirinovskiy-nekrolog/31770134.html"
+      ],
+      "evidence_indices": [
+        3,
+        6,
+        8
+      ],
+      "model": "gpt-4.1",
+      "at": "2026-10-14T21:43:34.676775+00:00",
+      "evidence_file": "evidence/vladimir-zhirinovsky.json",
+      "evidence_basis": "616bd9dc87d1043f2501ed54a243d3995498e5487c9c5caaf6ea964c24b812f4",
+      "rating_pass": "initial",
+      "measurement_note": "LLM-оценка по извлечённому досье; ссылки не означают независимую экспертную верификацию"
+    },
+    {
+      "object_id": "vladimir-zhirinovsky",
+      "scale_id": "party-leadership",
+      "positive": 5,
+      "negative": 0,
+      "difference": 5,
+      "mass": 5,
+      "status": "observed",
+      "confidence": 0.9,
+      "reason": "Жириновский был основателем, бессменным лидером и главным публичным лицом ЛДПР, партия рассматривалась как основной инструмент его политической деятельности.",
+      "sources": [
+        "https://www.bbc.com/russian/features-60873381",
+        "https://www.rbc.ru/politics/06/04/2022/624d661b9a79473f7416fe26"
+      ],
+      "evidence_indices": [
+        7,
+        9
+      ],
+      "model": "gpt-4.1",
+      "at": "2026-10-14T21:43:34.676775+00:00",
+      "evidence_file": "evidence/vladimir-zhirinovsky.json",
+      "evidence_basis": "616bd9dc87d1043f2501ed54a243d3995498e5487c9c5caaf6ea964c24b812f4",
+      "rating_pass": "initial",
+      "measurement_note": "LLM-оценка по извлечённому досье; ссылки не означают независимую экспертную верификацию"
+    },
+    {
+      "object_id": "vladimir-zhirinovsky",
+      "scale_id": "public-transparency",
+      "positive": 1,
+      "negative": 1,
+      "difference": 0,
+      "mass": 2,
+      "status": "observed",
+      "confidence": 0.6,
+      "reason": "Жириновский использовал лозунги о борьбе с коррупцией и преступностью, но затем ограничивал смысл заявлений, не делая прозрачность определяющим акцентом. Прямых программных требований к прозрачности решений или общественному контролю не выявлено.",
+      "sources": [
+        "https://www.gazeta.ru/politics/2017/03/17_a_10580999.shtml"
+      ],
+      "evidence_indices": [
+        0,
+        1
+      ],
+      "model": "gpt-4.1",
+      "at": "2026-10-14T21:43:44.031153+00:00",
+      "evidence_file": "evidence/vladimir-zhirinovsky.json",
+      "evidence_basis": "616bd9dc87d1043f2501ed54a243d3995498e5487c9c5caaf6ea964c24b812f4",
+      "rating_pass": "initial",
+      "measurement_note": "LLM-оценка по извлечённому досье; ссылки не означают независимую экспертную верификацию"
+    },
+    {
+      "object_id": "vladimir-zhirinovsky",
+      "scale_id": "family-values",
+      "positive": null,
+      "negative": null,
+      "difference": null,
+      "mass": null,
+      "status": "unknown",
+      "confidence": 0.2,
+      "reason": "В предоставленных материалах отсутствуют сведения о программных позициях Жириновского по вопросам семейных или моральных норм.",
+      "sources": [],
+      "evidence_indices": [],
+      "model": "gpt-4.1",
+      "at": "2026-10-14T21:43:44.031153+00:00",
+      "evidence_file": "evidence/vladimir-zhirinovsky.json",
+      "evidence_basis": "616bd9dc87d1043f2501ed54a243d3995498e5487c9c5caaf6ea964c24b812f4",
+      "rating_pass": "initial",
+      "measurement_note": "LLM-оценка по извлечённому досье; ссылки не означают независимую экспертную верификацию"
+    },
+    {
+      "object_id": "vladimir-zhirinovsky",
+      "scale_id": "international-activity",
+      "positive": 3,
+      "negative": 1,
+      "difference": 2,
+      "mass": 4,
+      "status": "observed",
+      "confidence": 0.8,
+      "reason": "В риторике Жириновского устойчиво присутствует акцент на внешнеполитических вопросах: защита русскоязычных за рубежом, предложения по гражданству для беженцев, поддержка идей территориальных изменений на Украине, эскалационная риторика по отношению к Западу.",
+      "sources": [
+        "https://govoritmoskva.ru/interviews/1023/",
+        "https://www.pnp.ru/politics/2016/06/28/v-centre-predvybornoy-programmy-ldpr-russkiy-vopros.html",
+        "https://ldpr.ru/party/history/",
+        "https://www.svoboda.org/a/umer-lider-partii-ldpr-vladimir-zhirinovskiy-nekrolog/31770134.html"
+      ],
+      "evidence_indices": [
+        3,
+        4,
+        6,
+        8
+      ],
+      "model": "gpt-4.1",
+      "at": "2026-10-14T21:43:44.031153+00:00",
+      "evidence_file": "evidence/vladimir-zhirinovsky.json",
+      "evidence_basis": "616bd9dc87d1043f2501ed54a243d3995498e5487c9c5caaf6ea964c24b812f4",
+      "rating_pass": "initial",
+      "measurement_note": "LLM-оценка по извлечённому досье; ссылки не означают независимую экспертную верификацию"
+    },
+    {
+      "object_id": "vladimir-zhirinovsky",
+      "scale_id": "antiwar-rhetoric",
+      "positive": 0,
+      "negative": 3,
+      "difference": -3,
+      "mass": 3,
+      "status": "observed",
+      "confidence": 0.7,
+      "reason": "В публичных заявлениях Жириновского фиксируется поддержка жёстких внешнеполитических решений и предсказания немирного сценария, отсутствуют призывы к прекращению военных действий.",
+      "sources": [
+        "https://www.svoboda.org/a/umer-lider-partii-ldpr-vladimir-zhirinovskiy-nekrolog/31770134.html"
+      ],
+      "evidence_indices": [
+        8
+      ],
+      "model": "gpt-4.1",
+      "at": "2026-10-14T21:43:44.031153+00:00",
+      "evidence_file": "evidence/vladimir-zhirinovsky.json",
+      "evidence_basis": "616bd9dc87d1043f2501ed54a243d3995498e5487c9c5caaf6ea964c24b812f4",
+      "rating_pass": "initial",
+      "measurement_note": "LLM-оценка по извлечённому досье; ссылки не означают независимую экспертную верификацию"
+    },
+    {
+      "object_id": "vladimir-zhirinovsky",
+      "scale_id": "electoral-legitimacy",
+      "positive": 1,
+      "negative": 1,
+      "difference": 0,
+      "mass": 2,
+      "status": "observed",
+      "confidence": 0.5,
+      "reason": "Жириновский подчёркивал участие в выборах и длительность политической карьеры, но не делал устойчивого акцента на конкурентности выборов или административной легитимации.",
+      "sources": [
+        "https://www.bbc.com/russian/features-60873381"
+      ],
+      "evidence_indices": [
+        7
+      ],
+      "model": "gpt-4.1",
+      "at": "2026-10-14T21:43:44.031153+00:00",
+      "evidence_file": "evidence/vladimir-zhirinovsky.json",
+      "evidence_basis": "616bd9dc87d1043f2501ed54a243d3995498e5487c9c5caaf6ea964c24b812f4",
+      "rating_pass": "initial",
+      "measurement_note": "LLM-оценка по извлечённому досье; ссылки не означают независимую экспертную верификацию"
+    },
+    {
+      "object_id": "vladimir-zhirinovsky",
+      "scale_id": "economic-ownership",
+      "positive": 1,
+      "negative": 1,
+      "difference": 0,
+      "mass": 2,
+      "status": "observed",
+      "confidence": 0.6,
+      "reason": "В экономической программе ЛДПР отмечена поддержка частного сектора и одновременно предложения по увеличению госрасходов и социальной поддержке. Явного доминирования одного из полюсов нет.",
+      "sources": [
+        "https://govoritmoskva.ru/interviews/1023/",
+        "https://www.pnp.ru/politics/2016/06/28/v-centre-predvybornoy-programmy-ldpr-russkiy-vopros.html"
+      ],
+      "evidence_indices": [
+        2,
+        5
+      ],
+      "model": "gpt-4.1",
+      "at": "2026-10-14T21:43:44.031153+00:00",
+      "evidence_file": "evidence/vladimir-zhirinovsky.json",
+      "evidence_basis": "616bd9dc87d1043f2501ed54a243d3995498e5487c9c5caaf6ea964c24b812f4",
+      "rating_pass": "initial",
+      "measurement_note": "LLM-оценка по извлечённому досье; ссылки не означают независимую экспертную верификацию"
+    },
+    {
+      "object_id": "vladimir-zhirinovsky",
+      "scale_id": "economic-modernization",
+      "positive": null,
+      "negative": null,
+      "difference": null,
+      "mass": null,
+      "status": "unknown",
+      "confidence": 0.2,
+      "reason": "В предоставленных материалах отсутствуют сведения о позиции Жириновского по вопросам технологического обновления или сохранения освоенных моделей.",
+      "sources": [],
+      "evidence_indices": [],
+      "model": "gpt-4.1",
+      "at": "2026-10-14T21:43:44.031153+00:00",
+      "evidence_file": "evidence/vladimir-zhirinovsky.json",
+      "evidence_basis": "616bd9dc87d1043f2501ed54a243d3995498e5487c9c5caaf6ea964c24b812f4",
+      "rating_pass": "initial",
+      "measurement_note": "LLM-оценка по извлечённому досье; ссылки не означают независимую экспертную верификацию"
+    },
+    {
+      "object_id": "vladimir-zhirinovsky",
+      "scale_id": "media-control",
+      "positive": 1,
+      "negative": 1,
+      "difference": 0,
+      "mass": 2,
+      "status": "observed",
+      "confidence": 0.5,
+      "reason": "В самопредставлении ЛДПР упоминалась поддержка свободной прессы, но нет устойчивого акцента ни на контроле, ни на свободе СМИ.",
+      "sources": [
+        "https://govoritmoskva.ru/interviews/1023/"
+      ],
+      "evidence_indices": [
+        2
+      ],
+      "model": "gpt-4.1",
+      "at": "2026-10-14T21:43:44.031153+00:00",
+      "evidence_file": "evidence/vladimir-zhirinovsky.json",
+      "evidence_basis": "616bd9dc87d1043f2501ed54a243d3995498e5487c9c5caaf6ea964c24b812f4",
+      "rating_pass": "initial",
+      "measurement_note": "LLM-оценка по извлечённому досье; ссылки не означают независимую экспертную верификацию"
+    },
+    {
+      "object_id": "vladimir-zhirinovsky",
+      "scale_id": "territorial-policy",
+      "positive": 0,
+      "negative": 3,
+      "difference": -3,
+      "mass": 3,
+      "status": "observed",
+      "confidence": 0.8,
+      "reason": "Публичная поддержка идей пересмотра границ (создание «Малороссии», включение территорий Украины) свидетельствует о выраженном акценте на территориальном пересмотре.",
+      "sources": [
+        "https://ldpr.ru/party/history/"
+      ],
+      "evidence_indices": [
+        6
+      ],
+      "model": "gpt-4.1",
+      "at": "2026-10-14T21:43:44.031153+00:00",
+      "evidence_file": "evidence/vladimir-zhirinovsky.json",
+      "evidence_basis": "616bd9dc87d1043f2501ed54a243d3995498e5487c9c5caaf6ea964c24b812f4",
+      "rating_pass": "initial",
+      "measurement_note": "LLM-оценка по извлечённому досье; ссылки не означают независимую экспертную верификацию"
+    },
+    {
+      "object_id": "vladimir-zhirinovsky",
+      "scale_id": "rhetorical-simplicity",
+      "positive": 3,
+      "negative": 1,
+      "difference": 2,
+      "mass": 4,
+      "status": "observed",
+      "confidence": 0.8,
+      "reason": "Публичная риторика Жириновского отличалась лозунговой простотой, резкими формулировками и образными заявлениями, что устойчиво отмечается в источниках.",
+      "sources": [
+        "https://www.gazeta.ru/politics/2017/03/17_a_10580999.shtml",
+        "https://www.pnp.ru/politics/2016/06/28/v-centre-predvybornoy-programmy-ldpr-russkiy-vopros.html"
+      ],
+      "evidence_indices": [
+        0,
+        1,
+        4
+      ],
+      "model": "gpt-4.1",
+      "at": "2026-10-14T21:43:44.031153+00:00",
+      "evidence_file": "evidence/vladimir-zhirinovsky.json",
+      "evidence_basis": "616bd9dc87d1043f2501ed54a243d3995498e5487c9c5caaf6ea964c24b812f4",
+      "rating_pass": "initial",
+      "measurement_note": "LLM-оценка по извлечённому досье; ссылки не означают независимую экспертную верификацию"
+    },
+    {
+      "object_id": "vladimir-zhirinovsky",
+      "scale_id": "anti-bureaucracy",
+      "positive": 1,
+      "negative": 1,
+      "difference": 0,
+      "mass": 2,
+      "status": "observed",
+      "confidence": 0.6,
+      "reason": "В экономической программе ЛДПР отмечено требование уменьшить бюрократические ограничения, но это не является определяющим акцентом образа.",
+      "sources": [
+        "https://www.pnp.ru/politics/2016/06/28/v-centre-predvybornoy-programmy-ldpr-russkiy-vopros.html"
+      ],
+      "evidence_indices": [
+        5
+      ],
+      "model": "gpt-4.1",
+      "at": "2026-10-14T21:43:44.031153+00:00",
+      "evidence_file": "evidence/vladimir-zhirinovsky.json",
+      "evidence_basis": "616bd9dc87d1043f2501ed54a243d3995498e5487c9c5caaf6ea964c24b812f4",
+      "rating_pass": "initial",
+      "measurement_note": "LLM-оценка по извлечённому досье; ссылки не означают независимую экспертную верификацию"
+    },
+    {
+      "object_id": "vladimir-zhirinovsky",
+      "scale_id": "national-patriotism",
+      "positive": 5,
+      "negative": 0,
+      "difference": 5,
+      "mass": 5,
+      "status": "observed",
+      "confidence": 0.9,
+      "reason": "Центральным элементом публичного образа Жириновского был акцент на защите национальных интересов, «русском вопросе» и особых правах русскоязычных, что подтверждается программными и риторическими материалами.",
+      "sources": [
+        "https://govoritmoskva.ru/interviews/1023/",
+        "https://www.pnp.ru/politics/2016/06/28/v-centre-predvybornoy-programmy-ldpr-russkiy-vopros.html"
+      ],
+      "evidence_indices": [
+        2,
+        3,
+        4,
+        5
+      ],
+      "model": "gpt-4.1",
+      "at": "2026-10-14T21:43:44.031153+00:00",
+      "evidence_file": "evidence/vladimir-zhirinovsky.json",
+      "evidence_basis": "616bd9dc87d1043f2501ed54a243d3995498e5487c9c5caaf6ea964c24b812f4",
+      "rating_pass": "initial",
+      "measurement_note": "LLM-оценка по извлечённому досье; ссылки не означают независимую экспертную верификацию"
+    },
+    {
+      "object_id": "vladimir-zhirinovsky",
+      "scale_id": "coalitionality",
+      "positive": null,
+      "negative": null,
+      "difference": null,
+      "mass": null,
+      "status": "unknown",
+      "confidence": 0.8,
+      "reason": "В предоставленных фактах нет сведений о создании коалиций или объединительных инициатив с другими партиями. Напротив, отмечается акцент на самостоятельной политической активности, подчёркивание исключительности и продолжительности собственной политической карьеры, а также резкая конфронтационная риторика по отношению к оппонентам. Это указывает на устойчивую стратегию самостоятельной конкуренции и организационной обособленности.",
+      "sources": [
+        "https://www.gazeta.ru/politics/2017/03/17_a_10580999.shtml",
+        "https://www.bbc.com/russian/features-60873381"
+      ],
+      "evidence_indices": [
+        1,
+        7
+      ],
+      "model": "gpt-4.1",
+      "at": "2026-10-14T21:43:47.186400+00:00",
+      "evidence_file": "evidence/vladimir-zhirinovsky.json",
+      "evidence_basis": "616bd9dc87d1043f2501ed54a243d3995498e5487c9c5caaf6ea964c24b812f4",
+      "rating_pass": "initial",
+      "measurement_note": "LLM-оценка по извлечённому досье; ссылки не означают независимую экспертную верификацию"
+    },
+    {
+      "object_id": "vladimir-zhirinovsky",
+      "scale_id": "civil-liberties",
+      "positive": 2,
+      "negative": 3,
+      "difference": -1,
+      "mass": 5,
+      "status": "observed",
+      "confidence": 0.7,
+      "reason": "В риторике Жириновского отмечались заявления о поддержке свободной прессы и судов, а также о необходимости уменьшения бюрократических ограничений, что может трактоваться как частичная поддержка гражданских свобод. Однако одновременно присутствует акцент на борьбе с преступностью и коррупцией с использованием провокационной и жёсткой риторики, а также поддержка эскалационных мер в политике, что указывает на выраженность полюса ограничений ради порядка.",
+      "sources": [
+        "https://www.gazeta.ru/politics/2017/03/17_a_10580999.shtml",
+        "https://govoritmoskva.ru/interviews/1023/",
+        "https://www.pnp.ru/politics/2016/06/28/v-centre-predvybornoy-programmy-ldpr-russkiy-vopros.html",
+        "https://www.svoboda.org/a/umer-lider-partii-ldpr-vladimir-zhirinovskiy-nekrolog/31770134.html"
+      ],
+      "evidence_indices": [
+        0,
+        2,
+        5,
+        8
+      ],
+      "model": "gpt-4.1",
+      "at": "2026-10-14T21:43:47.186400+00:00",
+      "evidence_file": "evidence/vladimir-zhirinovsky.json",
+      "evidence_basis": "616bd9dc87d1043f2501ed54a243d3995498e5487c9c5caaf6ea964c24b812f4",
+      "rating_pass": "initial",
+      "measurement_note": "LLM-оценка по извлечённому досье; ссылки не означают независимую экспертную верификацию"
+    }
+  ],
+  "unknown_scale_ids": [
+    "family-values",
+    "economic-modernization",
+    "coalitionality"
+  ]
+}

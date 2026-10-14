@@ -12,7 +12,7 @@ from pathlib import Path
 from urllib.parse import unquote, urlparse
 
 from .providers import ModelProvider
-from .store import BUSY, StudyStore, fingerprint, validate_objects
+from .store import BUSY, StudyStore, fingerprint, ratings_basis, validate_objects
 
 
 ROOT = Path(__file__).resolve().parents[2]
@@ -33,7 +33,8 @@ class Application:
         self.import_seed()
         self.configure_export_runtime()
 
-    def configure_export_runtime(self):
+    @staticmethod
+    def configure_export_runtime():
         dependency = Path.home() / ".cache/codex-runtimes/codex-primary-runtime/dependencies"
         defaults = {"SEMANTIC_EXPORT_PYTHON": dependency / "python/python.exe",
                     "SEMANTIC_NODE": dependency / "node/bin/node.exe",
@@ -125,9 +126,32 @@ class Application:
                     raise ValueError("Импортированные оценки относятся к другой версии объектов или шкал; импортируйте их заново")
                 ratings = json.loads(ratings_path.read_text(encoding="utf-8"))
             else:
-                self.store.log(identifier, "Начато оценивание по утверждённым шкалам", "ratings", 0, len(study["objects"]))
-                ratings = self.provider.rate_all(study, progress=lambda message, current, total:
-                                                self.store.log(identifier, message, "ratings", current, total))
+                basis = ratings_basis(study)
+                receipt = study.get("ratings_cache")
+                ratings = None
+                if (options.get("force_rerate") is not True and isinstance(receipt, dict)
+                        and receipt.get("basis") == basis and ratings_path.is_file()):
+                    try:
+                        saved = json.loads(ratings_path.read_text(encoding="utf-8"))
+                        if isinstance(saved, list) and receipt.get("ratings_sha256") == fingerprint(saved):
+                            ratings = saved
+                    except (OSError, ValueError):
+                        # Missing, malformed or stale material cannot authorize reuse.
+                        pass
+                if ratings is None:
+                    # Invalidate the old receipt before the provider writes progress.
+                    self.store.update(identifier, ratings_cache=None)
+                    self.store.log(identifier, "Начато оценивание по утверждённым шкалам", "ratings", 0, len(study["objects"]))
+                    ratings = self.provider.rate_all(study, progress=lambda message, current, total:
+                                                    self.store.log(identifier, message, "ratings", current, total))
+                    pending = ratings_path.with_suffix(".json.tmp")
+                    pending.write_text(json.dumps(ratings, ensure_ascii=False, indent=2, allow_nan=False), encoding="utf-8")
+                    pending.replace(ratings_path)
+                    self.store.update(identifier, ratings_cache={"basis": basis,
+                                      "ratings_sha256": fingerprint(ratings), "mode": "provider_ratings"})
+                else:
+                    self.store.log(identifier, "Сохранённая матрица оценок проверена и используется повторно", "ratings",
+                                   len(study["objects"]), len(study["objects"]))
             self.store.log(identifier, "Проверка матрицы, факторный и кластерный анализ", "analysis", 0, 1)
             from .analysis import analyze_study
             output = self.store.directory(identifier) / "output"
@@ -177,6 +201,7 @@ class Application:
         destination = self.store.directory(identifier) / "ratings.json"
         destination.write_text(json.dumps(ratings, ensure_ascii=False, indent=2, allow_nan=False), encoding="utf-8")
         self.store.update(identifier, measurement_mode="imported_ratings", imported_ratings_count=len(ratings),
+                          ratings_cache=None,
                           imported_ratings_basis={"objects": fingerprint(study["objects"]), "scales": fingerprint(study["scales"])})
         return self.store.get(identifier)
 

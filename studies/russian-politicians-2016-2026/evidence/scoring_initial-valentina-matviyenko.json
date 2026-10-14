@@ -1,0 +1,688 @@
+{
+  "object_id": "valentina-matviyenko",
+  "scales_basis": "2bee01a202c39ee721dfa985f553d5ce4502c74051ebe616ba3acc72ad80c440",
+  "dossier_basis": "c14ae27f9649b625b5d9f9ec3c565db75483f88de70bd6d19a6770cc2ad9b714",
+  "evidence_file": "evidence/valentina-matviyenko.json",
+  "period": [
+    "2016-10-15",
+    "2026-10-15"
+  ],
+  "ratings": [
+    {
+      "object_id": "valentina-matviyenko",
+      "scale_id": "security-sovereignty",
+      "positive": 3,
+      "negative": 1,
+      "difference": 2,
+      "mass": 4,
+      "status": "observed",
+      "confidence": 0.8,
+      "reason": "Матвиенко публично поддерживала решения о признании новых территорий, обосновывала их исторической ответственностью и моральным долгом, участвовала в институциональном оформлении решений по безопасности. Однако есть эпизоды, где она выступала за сотрудничество с европейскими парламентами.",
+      "sources": [
+        "https://interaffairs.ru/news/show/16199",
+        "https://www.rbc.ru/person/617fb5ef9a79475c6cfc4502"
+      ],
+      "evidence_indices": [
+        0,
+        2,
+        4,
+        5,
+        6,
+        7
+      ],
+      "model": "gpt-4.1",
+      "at": "2026-10-14T21:43:02.660991+00:00",
+      "evidence_file": "evidence/valentina-matviyenko.json",
+      "evidence_basis": "c14ae27f9649b625b5d9f9ec3c565db75483f88de70bd6d19a6770cc2ad9b714",
+      "rating_pass": "initial",
+      "measurement_note": "LLM-оценка по извлечённому досье; ссылки не означают независимую экспертную верификацию"
+    },
+    {
+      "object_id": "valentina-matviyenko",
+      "scale_id": "historical-memory",
+      "positive": 3,
+      "negative": 1,
+      "difference": 2,
+      "mass": 4,
+      "status": "observed",
+      "confidence": 0.8,
+      "reason": "В риторике Матвиенко устойчиво присутствует апелляция к исторической памяти (Крым, Вторая мировая война, включение новых территорий как историческое событие), однако есть и отдельные высказывания о необходимости обновления (например, по вопросам регулирования образования).",
+      "sources": [
+        "https://www.rbc.ru/person/617fb5ef9a79475c6cfc4502",
+        "https://vksrs.com/publications/matvienko-rasskazala-o-neobkhodimosti-protivostoyat-geroizatsii-natsistov/",
+        "https://www.rbc.ru/society/14/10/2026/6acf597c9a794743e0478a15?from=short_news"
+      ],
+      "evidence_indices": [
+        2,
+        3,
+        4,
+        6,
+        7,
+        11
+      ],
+      "model": "gpt-4.1",
+      "at": "2026-10-14T21:43:02.660991+00:00",
+      "evidence_file": "evidence/valentina-matviyenko.json",
+      "evidence_basis": "c14ae27f9649b625b5d9f9ec3c565db75483f88de70bd6d19a6770cc2ad9b714",
+      "rating_pass": "initial",
+      "measurement_note": "LLM-оценка по извлечённому досье; ссылки не означают независимую экспертную верификацию"
+    },
+    {
+      "object_id": "valentina-matviyenko",
+      "scale_id": "technocratic-management",
+      "positive": 3,
+      "negative": 1,
+      "difference": 2,
+      "mass": 4,
+      "status": "observed",
+      "confidence": 0.7,
+      "reason": "Матвиенко демонстрирует управленческий стиль, акцент на институциональной ответственности и контроле (образование, демографическая политика), но также использует идеологические и моральные аргументы.",
+      "sources": [
+        "http://council.gov.ru/structure/persons/257/",
+        "https://www.rbc.ru/person/617fb5ef9a79475c6cfc4502",
+        "https://absatz.media/politika/158438-valentine-matvienko-77-istoriya-uspeha-put-k-vershine-i-samye-yarkie-zayavleniya",
+        "https://www.rbc.ru/society/14/10/2026/6acf597c9a794743e0478a15?from=short_news"
+      ],
+      "evidence_indices": [
+        1,
+        5,
+        9,
+        10,
+        11
+      ],
+      "model": "gpt-4.1",
+      "at": "2026-10-14T21:43:02.660991+00:00",
+      "evidence_file": "evidence/valentina-matviyenko.json",
+      "evidence_basis": "c14ae27f9649b625b5d9f9ec3c565db75483f88de70bd6d19a6770cc2ad9b714",
+      "rating_pass": "initial",
+      "measurement_note": "LLM-оценка по извлечённому досье; ссылки не означают независимую экспертную верификацию"
+    },
+    {
+      "object_id": "valentina-matviyenko",
+      "scale_id": "parliamentary-institutional",
+      "positive": 5,
+      "negative": 0,
+      "difference": 5,
+      "mass": 5,
+      "status": "observed",
+      "confidence": 0.9,
+      "reason": "Публичный образ Матвиенко устойчиво строится вокруг руководства федеральным парламентским институтом и институционального оформления решений.",
+      "sources": [
+        "http://council.gov.ru/structure/persons/257/",
+        "https://www.rbc.ru/person/617fb5ef9a79475c6cfc4502"
+      ],
+      "evidence_indices": [
+        1,
+        5,
+        6,
+        7,
+        8
+      ],
+      "model": "gpt-4.1",
+      "at": "2026-10-14T21:43:02.660991+00:00",
+      "evidence_file": "evidence/valentina-matviyenko.json",
+      "evidence_basis": "c14ae27f9649b625b5d9f9ec3c565db75483f88de70bd6d19a6770cc2ad9b714",
+      "rating_pass": "initial",
+      "measurement_note": "LLM-оценка по извлечённому досье; ссылки не означают независимую экспертную верификацию"
+    },
+    {
+      "object_id": "valentina-matviyenko",
+      "scale_id": "oppositionality",
+      "positive": 0,
+      "negative": 5,
+      "difference": -5,
+      "mass": 5,
+      "status": "observed",
+      "confidence": 0.9,
+      "reason": "Нет свидетельств публичной критики федеральной власти; напротив, Матвиенко демонстрирует последовательную поддержку курса и решений федерального руководства.",
+      "sources": [
+        "http://council.gov.ru/structure/persons/257/",
+        "https://www.rbc.ru/person/617fb5ef9a79475c6cfc4502"
+      ],
+      "evidence_indices": [
+        1,
+        5,
+        6,
+        7,
+        8
+      ],
+      "model": "gpt-4.1",
+      "at": "2026-10-14T21:43:02.660991+00:00",
+      "evidence_file": "evidence/valentina-matviyenko.json",
+      "evidence_basis": "c14ae27f9649b625b5d9f9ec3c565db75483f88de70bd6d19a6770cc2ad9b714",
+      "rating_pass": "initial",
+      "measurement_note": "LLM-оценка по извлечённому досье; ссылки не означают независимую экспертную верификацию"
+    },
+    {
+      "object_id": "valentina-matviyenko",
+      "scale_id": "social-policy",
+      "positive": 2,
+      "negative": 1,
+      "difference": 1,
+      "mass": 3,
+      "status": "observed",
+      "confidence": 0.6,
+      "reason": "Есть эпизоды участия в координации демографической и семейной политики, а также высказывания о границах государственного вмешательства (аборты), однако выраженность акцентов ограничена.",
+      "sources": [
+        "https://www.rbc.ru/person/617fb5ef9a79475c6cfc4502",
+        "https://absatz.media/politika/158438-valentine-matvienko-77-istoriya-uspeha-put-k-vershine-i-samye-yarkie-zayavleniya"
+      ],
+      "evidence_indices": [
+        9,
+        10
+      ],
+      "model": "gpt-4.1",
+      "at": "2026-10-14T21:43:02.660991+00:00",
+      "evidence_file": "evidence/valentina-matviyenko.json",
+      "evidence_basis": "c14ae27f9649b625b5d9f9ec3c565db75483f88de70bd6d19a6770cc2ad9b714",
+      "rating_pass": "initial",
+      "measurement_note": "LLM-оценка по извлечённому досье; ссылки не означают независимую экспертную верификацию"
+    },
+    {
+      "object_id": "valentina-matviyenko",
+      "scale_id": "federal-loyalty",
+      "positive": 3,
+      "negative": 0,
+      "difference": 3,
+      "mass": 3,
+      "status": "observed",
+      "confidence": 0.7,
+      "reason": "Публичная роль Матвиенко связана с поддержкой федеральной вертикали и оформлением решений центра, без акцентов на региональной автономии.",
+      "sources": [
+        "http://council.gov.ru/structure/persons/257/",
+        "https://www.rbc.ru/person/617fb5ef9a79475c6cfc4502"
+      ],
+      "evidence_indices": [
+        1,
+        5,
+        6,
+        7,
+        8
+      ],
+      "model": "gpt-4.1",
+      "at": "2026-10-14T21:43:02.660991+00:00",
+      "evidence_file": "evidence/valentina-matviyenko.json",
+      "evidence_basis": "c14ae27f9649b625b5d9f9ec3c565db75483f88de70bd6d19a6770cc2ad9b714",
+      "rating_pass": "initial",
+      "measurement_note": "LLM-оценка по извлечённому досье; ссылки не означают независимую экспертную верификацию"
+    },
+    {
+      "object_id": "valentina-matviyenko",
+      "scale_id": "mobilization-rhetoric",
+      "positive": 1,
+      "negative": 1,
+      "difference": 0,
+      "mass": 2,
+      "status": "observed",
+      "confidence": 0.5,
+      "reason": "В риторике Матвиенко встречаются как призывы к единству (например, по вопросам войны и исторической памяти), так и элементы обсуждения и обращения к процедурам.",
+      "sources": [
+        "https://vksrs.com/publications/matvienko-rasskazala-o-neobkhodimosti-protivostoyat-geroizatsii-natsistov/",
+        "https://www.rbc.ru/person/617fb5ef9a79475c6cfc4502"
+      ],
+      "evidence_indices": [
+        3,
+        4,
+        5,
+        6
+      ],
+      "model": "gpt-4.1",
+      "at": "2026-10-14T21:43:02.660991+00:00",
+      "evidence_file": "evidence/valentina-matviyenko.json",
+      "evidence_basis": "c14ae27f9649b625b5d9f9ec3c565db75483f88de70bd6d19a6770cc2ad9b714",
+      "rating_pass": "initial",
+      "measurement_note": "LLM-оценка по извлечённому досье; ссылки не означают независимую экспертную верификацию"
+    },
+    {
+      "object_id": "valentina-matviyenko",
+      "scale_id": "conflictuality",
+      "positive": 1,
+      "negative": 2,
+      "difference": -1,
+      "mass": 3,
+      "status": "observed",
+      "confidence": 0.5,
+      "reason": "Преобладает институциональный и согласительный стиль, однако в отдельных случаях присутствует жёсткая риторика по вопросам внешней политики и исторической памяти.",
+      "sources": [
+        "https://vksrs.com/publications/matvienko-rasskazala-o-neobkhodimosti-protivostoyat-geroizatsii-natsistov/",
+        "https://www.rbc.ru/person/617fb5ef9a79475c6cfc4502",
+        "https://www.rbc.ru/society/14/10/2026/6acf597c9a794743e0478a15?from=short_news"
+      ],
+      "evidence_indices": [
+        3,
+        4,
+        5,
+        6,
+        11
+      ],
+      "model": "gpt-4.1",
+      "at": "2026-10-14T21:43:02.660991+00:00",
+      "evidence_file": "evidence/valentina-matviyenko.json",
+      "evidence_basis": "c14ae27f9649b625b5d9f9ec3c565db75483f88de70bd6d19a6770cc2ad9b714",
+      "rating_pass": "initial",
+      "measurement_note": "LLM-оценка по извлечённому досье; ссылки не означают независимую экспертную верификацию"
+    },
+    {
+      "object_id": "valentina-matviyenko",
+      "scale_id": "media-personalization",
+      "positive": 1,
+      "negative": 3,
+      "difference": -2,
+      "mass": 4,
+      "status": "observed",
+      "confidence": 0.7,
+      "reason": "Публичная активность Матвиенко преимущественно институциональна, от имени Совета Федерации и государственных органов, с редкими элементами персонального бренда.",
+      "sources": [
+        "http://council.gov.ru/structure/persons/257/",
+        "https://www.rbc.ru/person/617fb5ef9a79475c6cfc4502"
+      ],
+      "evidence_indices": [
+        1,
+        5,
+        6,
+        7,
+        8,
+        9
+      ],
+      "model": "gpt-4.1",
+      "at": "2026-10-14T21:43:02.660991+00:00",
+      "evidence_file": "evidence/valentina-matviyenko.json",
+      "evidence_basis": "c14ae27f9649b625b5d9f9ec3c565db75483f88de70bd6d19a6770cc2ad9b714",
+      "rating_pass": "initial",
+      "measurement_note": "LLM-оценка по извлечённому досье; ссылки не означают независимую экспертную верификацию"
+    },
+    {
+      "object_id": "valentina-matviyenko",
+      "scale_id": "antiwesternism",
+      "positive": 2,
+      "negative": 1,
+      "difference": 1,
+      "mass": 3,
+      "status": "observed",
+      "confidence": 0.6,
+      "reason": "В риторике Матвиенко присутствует критика пересмотра итогов Второй мировой войны и отдельных западных позиций, но также отмечены эпизоды парламентского сотрудничества с европейскими странами.",
+      "sources": [
+        "https://interaffairs.ru/news/show/16199",
+        "https://vksrs.com/publications/matvienko-rasskazala-o-neobkhodimosti-protivostoyat-geroizatsii-natsistov/",
+        "https://www.rbc.ru/person/617fb5ef9a79475c6cfc4502"
+      ],
+      "evidence_indices": [
+        0,
+        3,
+        4,
+        5
+      ],
+      "model": "gpt-4.1",
+      "at": "2026-10-14T21:43:02.660991+00:00",
+      "evidence_file": "evidence/valentina-matviyenko.json",
+      "evidence_basis": "c14ae27f9649b625b5d9f9ec3c565db75483f88de70bd6d19a6770cc2ad9b714",
+      "rating_pass": "initial",
+      "measurement_note": "LLM-оценка по извлечённому досье; ссылки не означают независимую экспертную верификацию"
+    },
+    {
+      "object_id": "valentina-matviyenko",
+      "scale_id": "party-leadership",
+      "positive": null,
+      "negative": null,
+      "difference": null,
+      "mass": null,
+      "status": "unknown",
+      "confidence": 0.3,
+      "reason": "Нет достаточных сведений о публичном продвижении партийной организации или независимых инициатив в исследуемый период.",
+      "sources": [],
+      "evidence_indices": [],
+      "model": "gpt-4.1",
+      "at": "2026-10-14T21:43:02.660991+00:00",
+      "evidence_file": "evidence/valentina-matviyenko.json",
+      "evidence_basis": "c14ae27f9649b625b5d9f9ec3c565db75483f88de70bd6d19a6770cc2ad9b714",
+      "rating_pass": "initial",
+      "measurement_note": "LLM-оценка по извлечённому досье; ссылки не означают независимую экспертную верификацию"
+    },
+    {
+      "object_id": "valentina-matviyenko",
+      "scale_id": "public-transparency",
+      "positive": null,
+      "negative": null,
+      "difference": null,
+      "mass": null,
+      "status": "unknown",
+      "confidence": 0.5,
+      "reason": "В предоставленных материалах нет прямых заявлений Матвиенко о прозрачности или закрытости принятия решений, а также о механизмах общественного контроля.",
+      "sources": [],
+      "evidence_indices": [],
+      "model": "gpt-4.1",
+      "at": "2026-10-14T21:43:10.397900+00:00",
+      "evidence_file": "evidence/valentina-matviyenko.json",
+      "evidence_basis": "c14ae27f9649b625b5d9f9ec3c565db75483f88de70bd6d19a6770cc2ad9b714",
+      "rating_pass": "initial",
+      "measurement_note": "LLM-оценка по извлечённому досье; ссылки не означают независимую экспертную верификацию"
+    },
+    {
+      "object_id": "valentina-matviyenko",
+      "scale_id": "family-values",
+      "positive": 1,
+      "negative": 1,
+      "difference": 0,
+      "mass": 2,
+      "status": "observed",
+      "confidence": 0.7,
+      "reason": "Назначение главой совета по демографической и семейной политике (факт 9) указывает на некоторый акцент на традиционных ценностях, однако заявление о недопустимости полного запрета абортов и вмешательства государства в частную жизнь (факт 10) демонстрирует проявление плюрализма и индивидуального самоопределения.",
+      "sources": [
+        "https://www.rbc.ru/person/617fb5ef9a79475c6cfc4502",
+        "https://absatz.media/politika/158438-valentine-matvienko-77-istoriya-uspeha-put-k-vershine-i-samye-yarkie-zayavleniya"
+      ],
+      "evidence_indices": [
+        9,
+        10
+      ],
+      "model": "gpt-4.1",
+      "at": "2026-10-14T21:43:10.397900+00:00",
+      "evidence_file": "evidence/valentina-matviyenko.json",
+      "evidence_basis": "c14ae27f9649b625b5d9f9ec3c565db75483f88de70bd6d19a6770cc2ad9b714",
+      "rating_pass": "initial",
+      "measurement_note": "LLM-оценка по извлечённому досье; ссылки не означают независимую экспертную верификацию"
+    },
+    {
+      "object_id": "valentina-matviyenko",
+      "scale_id": "international-activity",
+      "positive": 3,
+      "negative": 1,
+      "difference": 2,
+      "mass": 4,
+      "status": "observed",
+      "confidence": 0.8,
+      "reason": "Матвиенко активно участвовала в межпарламентских контактах с зарубежными странами (факт 0), а также публично обосновывала внешнеполитические решения (факты 4,5,6,7,8), что свидетельствует об устойчивом акценте на международной повестке. В то же время есть эпизоды, связанные с внутренней социальной политикой (факт 9), но они не доминируют.",
+      "sources": [
+        "https://interaffairs.ru/news/show/16199",
+        "https://www.rbc.ru/person/617fb5ef9a79475c6cfc4502"
+      ],
+      "evidence_indices": [
+        0,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ],
+      "model": "gpt-4.1",
+      "at": "2026-10-14T21:43:10.397900+00:00",
+      "evidence_file": "evidence/valentina-matviyenko.json",
+      "evidence_basis": "c14ae27f9649b625b5d9f9ec3c565db75483f88de70bd6d19a6770cc2ad9b714",
+      "rating_pass": "initial",
+      "measurement_note": "LLM-оценка по извлечённому досье; ссылки не означают независимую экспертную верификацию"
+    },
+    {
+      "object_id": "valentina-matviyenko",
+      "scale_id": "antiwar-rhetoric",
+      "positive": 0,
+      "negative": 3,
+      "difference": -3,
+      "mass": 3,
+      "status": "observed",
+      "confidence": 0.8,
+      "reason": "Матвиенко публично поддерживала решения о применении вооружённых сил за рубежом и признание новых территорий (факты 4,5,6,7,8), что отражает акцент на продолжении военных действий ради заявленных целей. Призывов к прекращению военных действий не зафиксировано.",
+      "sources": [
+        "https://www.rbc.ru/person/617fb5ef9a79475c6cfc4502"
+      ],
+      "evidence_indices": [
+        4,
+        5,
+        6,
+        7,
+        8
+      ],
+      "model": "gpt-4.1",
+      "at": "2026-10-14T21:43:10.397900+00:00",
+      "evidence_file": "evidence/valentina-matviyenko.json",
+      "evidence_basis": "c14ae27f9649b625b5d9f9ec3c565db75483f88de70bd6d19a6770cc2ad9b714",
+      "rating_pass": "initial",
+      "measurement_note": "LLM-оценка по извлечённому досье; ссылки не означают независимую экспертную верификацию"
+    },
+    {
+      "object_id": "valentina-matviyenko",
+      "scale_id": "electoral-legitimacy",
+      "positive": null,
+      "negative": null,
+      "difference": null,
+      "mass": null,
+      "status": "unknown",
+      "confidence": 0.5,
+      "reason": "В материалах нет прямых заявлений о приоритете электорального или административного мандата как источника легитимности.",
+      "sources": [],
+      "evidence_indices": [],
+      "model": "gpt-4.1",
+      "at": "2026-10-14T21:43:10.397900+00:00",
+      "evidence_file": "evidence/valentina-matviyenko.json",
+      "evidence_basis": "c14ae27f9649b625b5d9f9ec3c565db75483f88de70bd6d19a6770cc2ad9b714",
+      "rating_pass": "initial",
+      "measurement_note": "LLM-оценка по извлечённому досье; ссылки не означают независимую экспертную верификацию"
+    },
+    {
+      "object_id": "valentina-matviyenko",
+      "scale_id": "economic-ownership",
+      "positive": null,
+      "negative": null,
+      "difference": null,
+      "mass": null,
+      "status": "unknown",
+      "confidence": 0.5,
+      "reason": "Нет данных о публичных позициях Матвиенко по вопросам роли государства или частного капитала в экономике.",
+      "sources": [],
+      "evidence_indices": [],
+      "model": "gpt-4.1",
+      "at": "2026-10-14T21:43:10.397900+00:00",
+      "evidence_file": "evidence/valentina-matviyenko.json",
+      "evidence_basis": "c14ae27f9649b625b5d9f9ec3c565db75483f88de70bd6d19a6770cc2ad9b714",
+      "rating_pass": "initial",
+      "measurement_note": "LLM-оценка по извлечённому досье; ссылки не означают независимую экспертную верификацию"
+    },
+    {
+      "object_id": "valentina-matviyenko",
+      "scale_id": "economic-modernization",
+      "positive": null,
+      "negative": null,
+      "difference": null,
+      "mass": null,
+      "status": "unknown",
+      "confidence": 0.5,
+      "reason": "В материалах отсутствуют явные предложения о технологическом обновлении или сохранении существующих моделей.",
+      "sources": [],
+      "evidence_indices": [],
+      "model": "gpt-4.1",
+      "at": "2026-10-14T21:43:10.397900+00:00",
+      "evidence_file": "evidence/valentina-matviyenko.json",
+      "evidence_basis": "c14ae27f9649b625b5d9f9ec3c565db75483f88de70bd6d19a6770cc2ad9b714",
+      "rating_pass": "initial",
+      "measurement_note": "LLM-оценка по извлечённому досье; ссылки не означают независимую экспертную верификацию"
+    },
+    {
+      "object_id": "valentina-matviyenko",
+      "scale_id": "media-control",
+      "positive": null,
+      "negative": null,
+      "difference": null,
+      "mass": null,
+      "status": "unknown",
+      "confidence": 0.5,
+      "reason": "Нет сведений о публичных позициях Матвиенко по вопросам регулирования информации или свободы выражения.",
+      "sources": [],
+      "evidence_indices": [],
+      "model": "gpt-4.1",
+      "at": "2026-10-14T21:43:10.397900+00:00",
+      "evidence_file": "evidence/valentina-matviyenko.json",
+      "evidence_basis": "c14ae27f9649b625b5d9f9ec3c565db75483f88de70bd6d19a6770cc2ad9b714",
+      "rating_pass": "initial",
+      "measurement_note": "LLM-оценка по извлечённому досье; ссылки не означают независимую экспертную верификацию"
+    },
+    {
+      "object_id": "valentina-matviyenko",
+      "scale_id": "territorial-policy",
+      "positive": 0,
+      "negative": 5,
+      "difference": -5,
+      "mass": 5,
+      "status": "observed",
+      "confidence": 0.9,
+      "reason": "Матвиенко последовательно публично поддерживала пересмотр границ (Крым, ДНР, ЛНР, Херсонская и Запорожская области) и называла эти решения историческими (факты 2,5,6,7,8), что делает территориальное переустройство определяющей чертой публичного образа.",
+      "sources": [
+        "https://www.rbc.ru/person/617fb5ef9a79475c6cfc4502"
+      ],
+      "evidence_indices": [
+        2,
+        5,
+        6,
+        7,
+        8
+      ],
+      "model": "gpt-4.1",
+      "at": "2026-10-14T21:43:10.397900+00:00",
+      "evidence_file": "evidence/valentina-matviyenko.json",
+      "evidence_basis": "c14ae27f9649b625b5d9f9ec3c565db75483f88de70bd6d19a6770cc2ad9b714",
+      "rating_pass": "initial",
+      "measurement_note": "LLM-оценка по извлечённому досье; ссылки не означают независимую экспертную верификацию"
+    },
+    {
+      "object_id": "valentina-matviyenko",
+      "scale_id": "rhetorical-simplicity",
+      "positive": 1,
+      "negative": 1,
+      "difference": 0,
+      "mass": 2,
+      "status": "observed",
+      "confidence": 0.6,
+      "reason": "В ряде случаев риторика Матвиенко строится на исторических и моральных обоснованиях (факты 3,5,7), что не является простым лозунгом, но и не всегда сопровождается развёрнутой аргументацией. Присутствуют как краткие формулы, так и более сложные объяснения.",
+      "sources": [
+        "https://vksrs.com/publications/matvienko-rasskazala-o-neobkhodimosti-protivostoyat-geroizatsii-natsistov/",
+        "https://www.rbc.ru/person/617fb5ef9a79475c6cfc4502"
+      ],
+      "evidence_indices": [
+        3,
+        5,
+        7
+      ],
+      "model": "gpt-4.1",
+      "at": "2026-10-14T21:43:10.397900+00:00",
+      "evidence_file": "evidence/valentina-matviyenko.json",
+      "evidence_basis": "c14ae27f9649b625b5d9f9ec3c565db75483f88de70bd6d19a6770cc2ad9b714",
+      "rating_pass": "initial",
+      "measurement_note": "LLM-оценка по извлечённому досье; ссылки не означают независимую экспертную верификацию"
+    },
+    {
+      "object_id": "valentina-matviyenko",
+      "scale_id": "anti-bureaucracy",
+      "positive": 0,
+      "negative": 1,
+      "difference": -1,
+      "mass": 1,
+      "status": "observed",
+      "confidence": 0.6,
+      "reason": "В эпизоде с предложением приостановить лицензирование частных вузов (факт 11) проявляется акцент на усилении государственного контроля и регулирования.",
+      "sources": [
+        "https://www.rbc.ru/society/14/10/2026/6acf597c9a794743e0478a15?from=short_news"
+      ],
+      "evidence_indices": [
+        11
+      ],
+      "model": "gpt-4.1",
+      "at": "2026-10-14T21:43:10.397900+00:00",
+      "evidence_file": "evidence/valentina-matviyenko.json",
+      "evidence_basis": "c14ae27f9649b625b5d9f9ec3c565db75483f88de70bd6d19a6770cc2ad9b714",
+      "rating_pass": "initial",
+      "measurement_note": "LLM-оценка по извлечённому досье; ссылки не означают независимую экспертную верификацию"
+    },
+    {
+      "object_id": "valentina-matviyenko",
+      "scale_id": "national-patriotism",
+      "positive": 3,
+      "negative": 0,
+      "difference": 3,
+      "mass": 3,
+      "status": "observed",
+      "confidence": 0.8,
+      "reason": "Публичная риторика Матвиенко часто строится на исторической ответственности России, защите памяти о войне и национально-исторических интерпретациях (факты 3,5,7,8), что свидетельствует об устойчивом акценте на национальной идентичности.",
+      "sources": [
+        "https://vksrs.com/publications/matvienko-rasskazala-o-neobkhodimosti-protivostoyat-geroizatsii-natsistov/",
+        "https://www.rbc.ru/person/617fb5ef9a79475c6cfc4502"
+      ],
+      "evidence_indices": [
+        3,
+        5,
+        7,
+        8
+      ],
+      "model": "gpt-4.1",
+      "at": "2026-10-14T21:43:10.397900+00:00",
+      "evidence_file": "evidence/valentina-matviyenko.json",
+      "evidence_basis": "c14ae27f9649b625b5d9f9ec3c565db75483f88de70bd6d19a6770cc2ad9b714",
+      "rating_pass": "initial",
+      "measurement_note": "LLM-оценка по извлечённому досье; ссылки не означают независимую экспертную верификацию"
+    },
+    {
+      "object_id": "valentina-matviyenko",
+      "scale_id": "coalitionality",
+      "positive": 3,
+      "negative": 1,
+      "difference": 2,
+      "mass": 4,
+      "status": "observed",
+      "confidence": 0.8,
+      "reason": "Матвиенко последовательно выступала как руководитель парламентского органа, продвигая межпарламентские контакты (факт 0), координируя социально-демографическую повестку (факт 9), а также демонстрируя объединяющую риторику на международных и федеральных площадках. Однако нет признаков, что самостоятельная конкуренция или изоляция были определяющими чертами её публичного образа, хотя элементы самостоятельного институционального лидерства присутствуют.",
+      "sources": [
+        "https://interaffairs.ru/news/show/16199",
+        "http://council.gov.ru/structure/persons/257/",
+        "https://www.rbc.ru/person/617fb5ef9a79475c6cfc4502"
+      ],
+      "evidence_indices": [
+        0,
+        1,
+        9
+      ],
+      "model": "gpt-4.1",
+      "at": "2026-10-14T21:43:13.575337+00:00",
+      "evidence_file": "evidence/valentina-matviyenko.json",
+      "evidence_basis": "c14ae27f9649b625b5d9f9ec3c565db75483f88de70bd6d19a6770cc2ad9b714",
+      "rating_pass": "initial",
+      "measurement_note": "LLM-оценка по извлечённому досье; ссылки не означают независимую экспертную верификацию"
+    },
+    {
+      "object_id": "valentina-matviyenko",
+      "scale_id": "civil-liberties",
+      "positive": 1,
+      "negative": 3,
+      "difference": -2,
+      "mass": 4,
+      "status": "observed",
+      "confidence": 0.7,
+      "reason": "Публичная позиция Матвиенко по вопросам гражданских свобод выражена слабо: отмечено заявление о недопустимости полного запрета абортов как вмешательства в частную жизнь (факт 10), что свидетельствует о единичном проявлении защиты отдельных свобод. В то же время, её участие в институциональном оформлении решений по использованию вооружённых сил (факты 4,6,7), поддержка расширения государственного контроля (факт 11), а также акцент на исторической ответственности и безопасности (факт 3) указывают на устойчивый акцент на ограничениях ради порядка.",
+      "sources": [
+        "https://vksrs.com/publications/matvienko-rasskazala-o-neobkhodimosti-protivostoyat-geroizatsii-natsistov/",
+        "https://www.rbc.ru/person/617fb5ef9a79475c6cfc4502",
+        "https://absatz.media/politika/158438-valentine-matvienko-77-istoriya-uspeha-put-k-vershine-i-samye-yarkie-zayavleniya",
+        "https://www.rbc.ru/society/14/10/2026/6acf597c9a794743e0478a15?from=short_news"
+      ],
+      "evidence_indices": [
+        3,
+        4,
+        6,
+        7,
+        10,
+        11
+      ],
+      "model": "gpt-4.1",
+      "at": "2026-10-14T21:43:13.575337+00:00",
+      "evidence_file": "evidence/valentina-matviyenko.json",
+      "evidence_basis": "c14ae27f9649b625b5d9f9ec3c565db75483f88de70bd6d19a6770cc2ad9b714",
+      "rating_pass": "initial",
+      "measurement_note": "LLM-оценка по извлечённому досье; ссылки не означают независимую экспертную верификацию"
+    }
+  ],
+  "unknown_scale_ids": [
+    "party-leadership",
+    "public-transparency",
+    "electoral-legitimacy",
+    "economic-ownership",
+    "economic-modernization",
+    "media-control"
+  ]
+}

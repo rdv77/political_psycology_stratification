@@ -295,6 +295,7 @@ class ModelProvider:
             absence = re.compile(r"^(?:отсутствие\b|молчание\b|невыраженность\b|"
                                  r"(?:слабая|низкая)\s+выраженность\b|"
                                  r"(?:нет|недостаток)\s+(?:данных|сведений|выраженности|акцента)\b|"
+                                 r"не\s+(?:делает\s+акцент|акцентирует|обсуждает|выражает|проявляет|артикулирует)\b|"
                                  r"не\s+выражен(?:а|о|ы)?\b)", re.IGNORECASE)
             for scale in scales:
                 for pole in ("positive", "negative"):
@@ -517,10 +518,9 @@ class ModelProvider:
         eligible = stable or [c for c in candidates if c["min_size"] >= minimum] or candidates
         valid = {c["k"] for c in eligible}
         all_k = sorted({c["k"] for c in candidates})
-        review = object_schema({"k": {"type": "integer", "enum": all_k}, "interpretation": TEXT})
         schema = object_schema({"recommended_k": {"type": "integer", "enum": sorted(valid)},
-                                "reason": TEXT, "alternatives": {"type": "array", "items": review,
-                                                                  "minItems": len(all_k), "maxItems": len(all_k)},
+                                "reason": TEXT,
+                                "alternatives_by_k": object_schema({f"k_{k}": TEXT for k in all_k}),
                                 "discrete_structure_supported": {"type": "boolean"}})
         material = {"scope": study["scope"], "factors": analysis["factors"],
                     "numeric_recommendation": numerical["recommended_k"], "eligible_k": sorted(valid),
@@ -533,9 +533,13 @@ class ModelProvider:
                   "difference в последних выражено в стандартных отклонениях. Оценки — разведочные LLM-измерения. "
                   "Учитывай silhouette, размеры и resampling ARI/Jaccard. Рекомендуй k только из eligible_k: "
                   "это кандидаты с приемлемыми размером/устойчивостью либо явно обозначенная резервная группа. "
-                  "Дай reason в 2 абзацах и краткую содержательную оценку КАЖДОГО k в alternatives. "
+                  "Дай reason в 2 абзацах и краткую содержательную оценку КАЖДОГО k в alternatives_by_k под его отдельным ключом. "
+                  "В reason описывай ТОЛЬКО содержательную различимость профилей и цену дополнительного дробления. "
+                  "Не заявляй в reason превосходство по силуэту, ARI или Jaccard: точная численная сводка добавляется программно. "
                   "Если пространство скорее непрерывно, discrete_structure_supported=false; "
                   "в этом случае рекомендуемое k — удобное описательное разбиение, не доказанные естественные классы. "
+                  "Не называй различия статистически значимыми: здесь нет соответствующего теста. "
+                  "Не объявляй единственное объективно оптимальное k; объясняй предпочтение в рамках этой модели. "
                   "Не меняй состав групп и не придумывай внешние факты. Данные:\n" + json.dumps(material, ensure_ascii=False))
         result = self.request(study["id"], "cluster-content-review", prompt, schema, max_tokens=6000)
         data = dict(result["data"])
@@ -549,7 +553,9 @@ class ModelProvider:
         # A partial secondary explanation must remain visible as partial without
         # discarding an otherwise valid choice or fabricating the missing prose.
         # Keep the first nonempty explanation per k; placeholders are explicit.
-        received = data.get("alternatives")
+        keyed = data.pop("alternatives_by_k", None)
+        received = ([{"k": k, "interpretation": keyed.get(f"k_{k}")} for k in all_k]
+                    if isinstance(keyed, dict) else data.get("alternatives"))
         warnings, unique, seen, duplicates = [], {}, set(), set()
         ignored = 0
         if not isinstance(received, list):
@@ -585,17 +591,41 @@ class ModelProvider:
             # The report already publishes reason, so incompleteness is visible
             # there as well as in machine-readable review metadata.
             data["reason"] += "\n\n" + data["quality_warning"]
+        selected = next(candidate for candidate in candidates if candidate["k"] == recommended)
+        best_silhouette = max(candidates, key=lambda candidate: candidate["silhouette"])
+        data["numeric_comparison"] = {"selected_k": recommended, "silhouette": selected["silhouette"],
+            "highest_silhouette_k": best_silhouette["k"], "highest_silhouette": best_silhouette["silhouette"],
+            "median_ari": selected["stability"]["median_ari"],
+            "min_cluster_median_jaccard": selected["stability"]["min_cluster_median_jaccard"]}
+        if "mean_ari" in selected["stability"]:
+            data["numeric_comparison"].update(mean_ari=selected["stability"]["mean_ari"],
+                                               min_ari=selected["stability"]["min_ari"])
+        data["reason_semantic"] = data["reason"]
+        data["reason"] += (f"\n\nЧисленная сводка из расчёта: у k={recommended} силуэт {selected['silhouette']:.3f}; "
+                           f"наибольший силуэт среди проверенных вариантов — {best_silhouette['silhouette']:.3f} при k={best_silhouette['k']}. "
+                           f"Медианный ARI выбранного разбиения — {selected['stability']['median_ari']:.3f}, "
+                           f"минимальный по группам медианный Jaccard — {selected['stability']['min_cluster_median_jaccard']:.3f}. "
+                           "Содержательное предпочтение не означает максимума всех численных показателей или доказательства естественных классов.")
+        if "mean_ari" in selected["stability"]:
+            data["reason"] += (f" Средний ARI — {selected['stability']['mean_ari']:.3f}, "
+                               f"минимальный ARI — {selected['stability']['min_ari']:.3f}; "
+                               "устойчивость оценена при фиксированных факторных координатах, без повторного сбора досье и оценивания.")
         data["provenance"] = {"model": result["model"], "at": result["at"],
                               "method": "LLM comparison of computed profiles; not an independent validation"}
         return data
 
     def interpret(self, study: dict, analysis: dict) -> dict:
         """Narrative grounded in computed profiles; membership and numbers stay fixed."""
+        retained_ids = {row["id"] for row in analysis.get("loading_table", [])}
+        if not retained_ids:
+            retained_ids = {trait["id"] for factor in analysis["factors"]
+                            for key in ("positive_traits", "negative_traits") for trait in factor.get(key, [])}
         material = {"scope": study["scope"], "aspect": study["aspect"],
-                    "period": [study["date_from"], study["date_to"]], "scales": study["scales"],
+                    "period": [study["date_from"], study["date_to"]],
+                    "scales": [scale for scale in study["scales"] if scale["id"] in retained_ids],
                     "factors": analysis["factors"], "clusters": analysis["clusters"],
                     "warnings": analysis.get("warnings", [])}
-        narrative = object_schema({"id": TEXT, "label": TEXT, "interpretation": TEXT})
+        narrative = object_schema({"id": TEXT, "label": {"type": "string", "maxLength": 90}, "interpretation": TEXT})
         schema = object_schema({"factors": {"type": "array", "items": narrative},
                                 "clusters": {"type": "array", "items": narrative}, "space_interpretation": TEXT})
         prompt = ("Интерпретируй РАСЧЁТНОЕ семантическое пространство, не меняя числа, состав групп или шкалы. "
@@ -603,15 +633,21 @@ class ModelProvider:
                   "При положительной нагрузке высокий фактор означает положительное свойство шкалы, "
                   "при отрицательной — отрицательное; низкий фактор меняет эту ориентацию. "
                   "Учитывай только реально сильные нагрузки и не придумывай второй полюс, если его не поддерживают данные. "
+                  "На входе только шкалы, вошедшие в расчёт. Не приписывай группам свойства исключённых или не измеренных шкал. "
+                  "Не усиливай исходные определения: защита культурной идентичности не означает национального превосходства или исключительности; "
+                  "универсальные права не доказывают позицию по каждому отдельному гражданскому праву или прозрачности. "
                   "Дай каждой оси короткое понятное label и 2 содержательных абзаца: определяющие свойства, "
                   "полюса, отличия от других осей и осторожное предметное прочтение в заданной области. "
                   "Каждому кластеру — название и 2 абзаца: общность по отличительным шкалам относительно всей выборки, "
+                  "Название оси или группы — 2–7 слов, до 90 символов. Не повторяй служебные названия 'Группа 1', 'F1', 'C1'; "
+                  "назови реальное сочетание свойств, например организационный стиль и программный акцент, если это подтверждено профилем. "
                   "типичные представители, внутренние различия и пограничность. Интерпретация не должна основываться "
                   "только на партийных ярлыках или именах: объясняй вычисленный профиль, оставляй неудобные сочетания. "
                   "Общая интерпретация пространства 4–6 абзацев: какие сочетания представлены, основные противопоставления, "
                   "что модель позволяет сказать и что не позволяет. Нельзя утверждать общий электорат, личные свойства, "
                   "отсутствие идей во всей России или общественный спрос; нет международной выборки. "
                   "Не выдавай модельные оценки за объективное установление свойств. Не добавляй неподтверждённых событий. "
+                  "Не заявляй статистическую значимость различий или причинность: таких тестов и дизайна нет. "
                   "id должны точно совпадать с входом. Данные:\n" + json.dumps(material, ensure_ascii=False))
         result = self.request(study["id"], "interpretation", prompt, schema, max_tokens=13000)
         for field in ("factors", "clusters"):
