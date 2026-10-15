@@ -1,5 +1,5 @@
 {
-  "checked_at": "2026-10-15T07:41:35.831413+00:00",
+  "checked_at": "2026-10-15T08:24:37.163124+00:00",
   "numerical": {
     "n_objects": 63,
     "n_scales": 17,
@@ -38,7 +38,7 @@
   "artifact_qa": {
     "pdf_pages": 107,
     "pdf_rendered_and_reviewed": true,
-    "pptx_slides": 43,
+    "pptx_slides": 22,
     "pptx_rendered_and_reviewed": true,
     "pptx_package_layout_import_passed": true,
     "docx_structure_and_title_check_passed": true,
@@ -51,14 +51,13 @@
     "pptx_package_checks": true,
     "pptx_all_slides_rendered": true,
     "pptx_all_slides_reviewed": true,
-    "pptx_loadings_cells_verified": 119,
     "pptx_native_powerpoint_opened": false,
     "docx_structure_checked": true,
     "docx_tables": 67,
     "docx_images": 14,
     "docx_visual_render": false,
     "browser_visual": false,
-    "bundle_files": 363,
+    "bundle_files": 370,
     "bundle_matches_current_files": true,
     "http_all_six_200": true,
     "http_checks": [
@@ -101,8 +100,8 @@
     "report.html": "b0d08334948cef66baa7a83f065d113776a3462478bdbb654e22bd293ad16ffd",
     "report.pdf": "95dd3008a9041a24b1def3d9deee57d1238ea5f8e3e15164ca0131b8fa21c997",
     "report.docx": "f913ad79c689a96a07048cf6bdcc53cd724335388eb07ab7c2a818990bebb0c4",
-    "slides.pptx": "d9a6f2625c9ecc212ab45cd183fb174781f678583627a69a408c15fd74cb58c0",
-    "report_bundle.zip": "8d1867a37dfb59a4e94478eae4de6ddb350a267461b1e7065138992b45b2c5e7"
+    "slides.pptx": "a78e893e5da0e509e58dfc31ca549b24980573d250e0341d744ddfe9302c8cce",
+    "report_bundle.zip": "a26817093bb4233cfa484cbdd068a5193088528657906021c120a1dff8102072"
   },
   "model_comparison": {
     "input_measurement_unchanged": true,
@@ -330,5 +329,57 @@
     "baseline_snapshot": "studies/russian-politicians-2016-2026/output/models/q2",
     "baseline_git_commit": "d5b34b37dd08de8061872d940890d4332730c633",
     "narrative_review": "assistant_review_of_computed_profiles; not independent human validation"
+  },
+  "presentation": {
+    "profile": "interpretive_q4_only",
+    "factor_count": 4,
+    "cluster_count": 4,
+    "source_model": "output/models/q4/selected_k4",
+    "cluster_sizes": [
+      9,
+      10,
+      31,
+      13
+    ],
+    "slides": 22,
+    "all_approved_scales": 26,
+    "scale_slides": [
+      4,
+      5
+    ],
+    "plotted_scales": 17,
+    "trait_map_slides": [
+      10,
+      14
+    ],
+    "trait_map_explanation_slides": [
+      11,
+      12,
+      13
+    ],
+    "object_map_slides": [
+      15,
+      16,
+      17
+    ],
+    "object_points_per_map": 63,
+    "surname_labels_per_map": [
+      35,
+      35,
+      35
+    ],
+    "unique_objects_labelled_across_maps": 63,
+    "technical_method_explanations_removed": true,
+    "full_cluster_memberships_present": true,
+    "full_report_preserved_sha256": {
+      "report.md": "bb8f685d7ec777e8580dc2062d97731faa193821630960180662dd8f928d87d0",
+      "report.html": "b0d08334948cef66baa7a83f065d113776a3462478bdbb654e22bd293ad16ffd",
+      "report.pdf": "95dd3008a9041a24b1def3d9deee57d1238ea5f8e3e15164ca0131b8fa21c997",
+      "report.docx": "f913ad79c689a96a07048cf6bdcc53cd724335388eb07ab7c2a818990bebb0c4"
+    },
+    "ratings_unchanged": true,
+    "model_parameters_unchanged": true,
+    "previous_comparison_deck_git_commit": "2696b1b9ab1e07d457b26aed6ff5864e63d14c2b",
+    "reviewer": "assistant; not independent human validation"
   }
 }

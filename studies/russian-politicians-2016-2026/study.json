@@ -23160,7 +23160,7 @@
       "url": "/api/studies/russian-politicians-2016-2026/files/report.docx"
     },
     {
-      "label": "Слайды PowerPoint",
+      "label": "Презентация: четыре фактора",
       "format": "pptx",
       "url": "/api/studies/russian-politicians-2016-2026/files/slides.pptx"
     },
@@ -23983,7 +23983,7 @@
     "estimated_usd": 13.510185,
     "pricing_note": "Оценка по заданным ставкам; фактический счёт определяется провайдером"
   },
-  "updated_at": "2026-10-15T07:35:10.301712+00:00",
+  "updated_at": "2026-10-15T08:22:54.333276+00:00",
   "selection_method": {
     "type": "purposive_diversity_sample",
     "description": "Исследовательская целевая выборка с покрытием федерального управления, парламентских партий, регионов, оппозиции, избирательных кампаний и иных публичных политических акторов. Первичный состав предложен исследователем, биографические основания проверяются вебпоиском. Категории помогают согласовать покрытие и не являются кластерами.",
@@ -24112,5 +24112,25 @@
     "basis": "14d19d2c964e09a4cdee72c41745a75b7ef5a1106678d87eb350ab57a54c8deb",
     "ratings_sha256": "45771eea376eb10f931efa6c0dc70f28402172377dedd646be09fed18cda36d8",
     "mode": "llm_exploratory_with_bounded_coverage_audit"
+  },
+  "presentation_config": {
+    "mode": "interpretive",
+    "factor_count": 4,
+    "cluster_count": 4,
+    "model_file": "models/q4/selected_k4/metadata.json",
+    "narrative_file": "presentation_content.json",
+    "narrative_sha256": "584860345600eac17212eb326eeeb0115a3cf08decb52535c84eb124d12d16a5",
+    "chart_manifest": "assets/presentation_q4/manifest.json",
+    "input_receipts": {
+      "objects": "5ac9b4d697fad8462b1c0014ad03beb44ffb2ed9665b2d9b31419499fb525479",
+      "scales": "2bee01a202c39ee721dfa985f553d5ce4502c74051ebe616ba3acc72ad80c440"
+    },
+    "input_scope": {
+      "scope": "Публичный политический образ российских политиков и иных заметных политических акторов, включая деятелей за рубежом, активных хотя бы в части периода. Не рейтинг популярности.",
+      "aspect": "Публичный политический образ",
+      "date_from": "2016-10-15",
+      "date_to": "2026-10-15"
+    },
+    "matrix_sha256": "d12a8c604bc83a17f0b48e33523da79ed2151be2ec15f3aff1a1cd7f8d71f37d"
   }
 }

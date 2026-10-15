@@ -466,7 +466,7 @@ def write_report_bundle(output: Path) -> None:
             if file.is_file() and not file.is_symlink() and file.resolve().is_relative_to(output):
                 archive.write(file, name)
 
-        for name in ("report.md", "report.html", "report.pdf", "report.docx", "slides.pptx", "report_content.json"):
+        for name in ("report.md", "report.html", "report.pdf", "report.docx", "slides.pptx", "report_content.json", "presentation_content.json"):
             add(output / name, name)
         for folder in ("assets", "models"):
             directory = output / folder

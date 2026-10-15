@@ -96,7 +96,9 @@ async function main() {
     ...(content.blocks || []).filter(block => block.type === "link").map(block => block.url),
     ...(study.objects || []).flatMap(object => (object.sources || []).map(source => typeof source === "string" ? source : source.url)),
   ].filter(value => typeof value === "string" && /^https?:\/\//.test(value)))];
-  const commonNotes = `Числа: metadata.json, scores.csv, loadings.csv и утверждённая матрица оценок.\n` +
+  const interpretive = study.presentation_config?.mode === "interpretive";
+  const commonNotes = (interpretive ? "Публичные образы участников исследования.\n" :
+    `Числа: metadata.json, scores.csv, loadings.csv и утверждённая матрица оценок.\n`) +
     `Изучаемое пространство: ${clean(study.scope || study.title)}.\n` +
     `Оценщик: ${clean(study.measurement_mode || "llm_exploratory")}.\n` +
     (study.example ? `Демонстрационный пример: ${clean(study.example_note || study.note || "ранее собранная матрица, а не новое исследование политиков")}.\n` : "") +
@@ -250,6 +252,11 @@ async function main() {
       72, 630, 1136, 45, { size: 18, color: MUTED });
   }
 
+  if (interpretive) {
+    const { buildInterpretiveSlides } = await import("./presentation_interpretive.mjs");
+    await buildInterpretiveSlides({ sourceDir, study, slide, text, table, lines, narrativeSlides,
+      addImage: comparisonImage });
+  } else {
   const focus = clean(study.focus || study.focus_object_id).toLocaleLowerCase("ru");
   const focusIds = new Set((study.focus_object_ids || []).map(String));
   const focused = (analysis.object_profiles || []).filter(object => focusIds.has(object.id) ||
@@ -497,6 +504,7 @@ async function main() {
       72, 154, 1120, 26, 27);
   }
 
+  }
   const candidatePath = path.join(draftDir, "candidate.pptx");
   await (await PresentationFile.exportPptx(presentation)).save(candidatePath);
   const validatedPath = path.join(validatedDir, "slides.pptx");

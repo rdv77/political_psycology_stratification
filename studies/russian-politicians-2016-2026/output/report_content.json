@@ -27320,6 +27320,26 @@
     "evidence_summary": {
       "supplement_objects": 67,
       "completion_objects": 13
+    },
+    "presentation_config": {
+      "mode": "interpretive",
+      "factor_count": 4,
+      "cluster_count": 4,
+      "model_file": "models/q4/selected_k4/metadata.json",
+      "narrative_file": "presentation_content.json",
+      "narrative_sha256": "584860345600eac17212eb326eeeb0115a3cf08decb52535c84eb124d12d16a5",
+      "chart_manifest": "assets/presentation_q4/manifest.json",
+      "input_receipts": {
+        "objects": "5ac9b4d697fad8462b1c0014ad03beb44ffb2ed9665b2d9b31419499fb525479",
+        "scales": "2bee01a202c39ee721dfa985f553d5ce4502c74051ebe616ba3acc72ad80c440"
+      },
+      "input_scope": {
+        "scope": "Публичный политический образ российских политиков и иных заметных политических акторов, включая деятелей за рубежом, активных хотя бы в части периода. Не рейтинг популярности.",
+        "aspect": "Публичный политический образ",
+        "date_from": "2016-10-15",
+        "date_to": "2026-10-15"
+      },
+      "matrix_sha256": "d12a8c604bc83a17f0b48e33523da79ed2151be2ec15f3aff1a1cd7f8d71f37d"
     }
   },
   "analysis": {
