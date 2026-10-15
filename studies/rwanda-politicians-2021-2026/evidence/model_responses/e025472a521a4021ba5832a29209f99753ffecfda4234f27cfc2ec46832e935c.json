@@ -1,0 +1,125 @@
+{
+  "data": {
+    "ratings": [
+      {
+        "scale_id": "government-course-assessment",
+        "positive": null,
+        "negative": null,
+        "status": "unknown",
+        "confidence": 0.7,
+        "reason": "Нет прямых персональных публичных заявлений Муджавамарии, выражающих поддержку или критику действующего государственного курса в целом. Описания административных приоритетов и кадровые назначения не являются достаточным основанием.",
+        "evidence_indices": []
+      },
+      {
+        "scale_id": "participation-administrative-direction",
+        "positive": 0,
+        "negative": 3,
+        "status": "observed",
+        "confidence": 0.8,
+        "reason": "В публичных заявлениях Муджавамария акцентирует административную координацию, постановку задач и контроль исполнения (например, передача лесов частным операторам, повышение результативности госслужбы). Признаков приглашения граждан к совместному обсуждению решений не обнаружено.",
+        "evidence_indices": [
+          2,
+          13
+        ]
+      },
+      {
+        "scale_id": "accessibility-growth-priorities",
+        "positive": 1,
+        "negative": 3,
+        "status": "observed",
+        "confidence": 0.8,
+        "reason": "Муджавамария связывает экологическую политику с инвестициями и конкурентоспособностью (привлечение зелёных инвестиций, облегчение доступа частного сектора к финансированию), а также упоминает расширение доступа к благам (благосостояние, средства к существованию), но последний акцент выражен слабее.",
+        "evidence_indices": [
+          11,
+          12,
+          14
+        ]
+      },
+      {
+        "scale_id": "external-domestic-resources",
+        "positive": 3,
+        "negative": 0,
+        "status": "observed",
+        "confidence": 0.8,
+        "reason": "Публично подчёркивается привлечение внешнего финансирования и международных партнёров (соглашения с Италией, призыв к зелёным инвестициям, климатическое финансирование). Признаков акцента на внутренние ресурсы не выявлено.",
+        "evidence_indices": [
+          3,
+          4,
+          11
+        ]
+      },
+      {
+        "scale_id": "international-rules-autonomy",
+        "positive": 1,
+        "negative": 0,
+        "status": "observed",
+        "confidence": 0.7,
+        "reason": "Есть единичное подтверждение участия в продвижении международных обязательств (резолюция по пластику), но нет выраженного акцента на защите национальной самостоятельности.",
+        "evidence_indices": [
+          15
+        ]
+      },
+      {
+        "scale_id": "mediation-adversarial-communication",
+        "positive": null,
+        "negative": null,
+        "status": "unknown",
+        "confidence": 0.6,
+        "reason": "Нет прямых персональных публичных проявлений посредничества, согласования интересов или полемической защиты собственной стороны.",
+        "evidence_indices": []
+      },
+      {
+        "scale_id": "cultural-openness-national-transmission",
+        "positive": 0,
+        "negative": 1,
+        "status": "observed",
+        "confidence": 0.7,
+        "reason": "Муджавамария призывает сохранять и передавать традицию посадки деревьев как часть национальной культуры. Признаков акцента на межкультурном обмене не выявлено.",
+        "evidence_indices": [
+          1
+        ]
+      },
+      {
+        "scale_id": "problem-disclosure-reputation-defence",
+        "positive": 0,
+        "negative": 0,
+        "status": "observed",
+        "confidence": 0.7,
+        "reason": "Нет подтверждённых публичных заявлений о раскрытии проблем или защите репутации страны/политики. Обычные отчёты и кадровые решения не дают оснований для оценки.",
+        "evidence_indices": []
+      },
+      {
+        "scale_id": "procedural-guarantees-enforcement",
+        "positive": 0,
+        "negative": 1,
+        "status": "observed",
+        "confidence": 0.7,
+        "reason": "Есть единичное персональное заявление о необходимости защищать водно-болотные угодья на основе нормативной базы и плана управления, что указывает на акцент на административном исполнении правил.",
+        "evidence_indices": [
+          10
+        ]
+      }
+    ]
+  },
+  "model": "gpt-4.1",
+  "task": "ratings-supplement-jeanne-darc-mujawamariya-0",
+  "at": "2026-10-15T15:12:45.898053+00:00",
+  "usage": {
+    "prompt_tokens": 6204,
+    "completion_tokens": 1009,
+    "total_tokens": 7213,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "audio_tokens": 0
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "audio_tokens": 0,
+      "accepted_prediction_tokens": 0,
+      "rejected_prediction_tokens": 0
+    }
+  },
+  "citations": [],
+  "system_fingerprint": "fp_fdb93a2b37",
+  "cache_key": "e025472a521a4021ba5832a29209f99753ffecfda4234f27cfc2ec46832e935c"
+}

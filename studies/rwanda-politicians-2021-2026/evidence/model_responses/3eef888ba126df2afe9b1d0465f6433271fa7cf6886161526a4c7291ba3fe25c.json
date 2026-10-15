@@ -1,0 +1,192 @@
+{
+  "data": {
+    "ratings": [
+      {
+        "scale_id": "programmatic-renewal",
+        "positive": 3,
+        "negative": 3,
+        "status": "observed",
+        "confidence": 0.9,
+        "reason": "Есть повторяющиеся акценты на институциональных реформах, инновациях и использовании новых стратегий (например, реформы в образовании, внедрение рекомендаций Всемирного банка, климатическая повестка), что указывает на выраженность программного обновления. Одновременно присутствуют призывы ускорить реализацию действующей национальной стратегии (NST2), что свидетельствует о закреплении курса.",
+        "evidence_indices": [
+          0,
+          1,
+          3,
+          4,
+          5,
+          6,
+          11
+        ]
+      },
+      {
+        "scale_id": "government-course-assessment",
+        "positive": 3,
+        "negative": 0,
+        "status": "observed",
+        "confidence": 0.8,
+        "reason": "Публично поддерживает действующий курс, благодарит президента, подчёркивает достижения и призывает к реализации национальных стратегий. Прямой критики курса не выявлено.",
+        "evidence_indices": [
+          1,
+          3,
+          5,
+          11
+        ]
+      },
+      {
+        "scale_id": "participation-administrative-direction",
+        "positive": 1,
+        "negative": 3,
+        "status": "observed",
+        "confidence": 0.7,
+        "reason": "Есть единичные призывы к диалогу и инклюзивности (COP26), но преобладает административная постановка задач, контроль исполнения, акцент на реализации государственных стратегий и поручениях.",
+        "evidence_indices": [
+          1,
+          3,
+          5,
+          11
+        ]
+      },
+      {
+        "scale_id": "argumentation-evidence-values",
+        "positive": 3,
+        "negative": 3,
+        "status": "observed",
+        "confidence": 0.9,
+        "reason": "Использует как данные и аналитические доклады (например, экономический меморандум, статистика), так и ценностные аргументы (патриотизм, гражданская ответственность, коллективные символы).",
+        "evidence_indices": [
+          1,
+          3,
+          5,
+          6,
+          11
+        ]
+      },
+      {
+        "scale_id": "market-state-instruments",
+        "positive": 1,
+        "negative": 3,
+        "status": "observed",
+        "confidence": 0.7,
+        "reason": "Есть отдельные упоминания о привлечении молодёжи и инновациях, но основной акцент на государственных программах, планировании и регулировании.",
+        "evidence_indices": [
+          3,
+          4,
+          5,
+          11
+        ]
+      },
+      {
+        "scale_id": "accessibility-growth-priorities",
+        "positive": 3,
+        "negative": 3,
+        "status": "observed",
+        "confidence": 0.8,
+        "reason": "Публично подчёркивает как расширение доступа к образованию и базовым услугам, так и приоритеты экономического роста, конкурентоспособности и инвестиций.",
+        "evidence_indices": [
+          3,
+          4,
+          5,
+          6,
+          11
+        ]
+      },
+      {
+        "scale_id": "external-domestic-resources",
+        "positive": 3,
+        "negative": 1,
+        "status": "observed",
+        "confidence": 0.8,
+        "reason": "Регулярно подчёркивает привлечение внешних ресурсов и партнёрство (Всемирный банк, международные форумы), но также отмечает развитие внутренних институтов и кадров.",
+        "evidence_indices": [
+          0,
+          1,
+          5,
+          6
+        ]
+      },
+      {
+        "scale_id": "international-rules-autonomy",
+        "positive": 3,
+        "negative": 1,
+        "status": "observed",
+        "confidence": 0.7,
+        "reason": "Акцент на международных обязательствах (AfCFTA, климатические соглашения), но есть и элементы национальной самостоятельности в реализации реформ.",
+        "evidence_indices": [
+          0,
+          1,
+          5
+        ]
+      },
+      {
+        "scale_id": "mediation-adversarial-communication",
+        "positive": 1,
+        "negative": 0,
+        "status": "observed",
+        "confidence": 0.6,
+        "reason": "Есть единичные призывы к диалогу и сотрудничеству на международных площадках, но нет выраженной полемики или защиты собственной стороны.",
+        "evidence_indices": [
+          1
+        ]
+      },
+      {
+        "scale_id": "cultural-openness-national-transmission",
+        "positive": 1,
+        "negative": 3,
+        "status": "observed",
+        "confidence": 0.7,
+        "reason": "Отмечает важность инноваций и открытости (образование, международное сотрудничество), но делает акцент на патриотизме и национальных ценностях.",
+        "evidence_indices": [
+          3,
+          4
+        ]
+      },
+      {
+        "scale_id": "problem-disclosure-reputation-defence",
+        "positive": 1,
+        "negative": 3,
+        "status": "observed",
+        "confidence": 0.7,
+        "reason": "Есть отдельные упоминания о необходимости учитывать уроки пандемии и вызовы, но преобладает защита репутации страны, продвижение достижений и благодарности.",
+        "evidence_indices": [
+          0,
+          1,
+          5,
+          11
+        ]
+      },
+      {
+        "scale_id": "procedural-guarantees-enforcement",
+        "positive": 0,
+        "negative": 1,
+        "status": "observed",
+        "confidence": 0.5,
+        "reason": "Нет прямых свидетельств расширения процедурных гарантий; есть отдельные признаки акцента на исполнении обязательных требований (реализация стратегий, контроль исполнения), но выраженность невысока.",
+        "evidence_indices": [
+          5,
+          11
+        ]
+      }
+    ]
+  },
+  "model": "gpt-4.1",
+  "task": "ratings-edouard-ngirente-0",
+  "at": "2026-10-15T15:09:27.860008+00:00",
+  "usage": {
+    "prompt_tokens": 6133,
+    "completion_tokens": 1023,
+    "total_tokens": 7156,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "audio_tokens": 0
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "audio_tokens": 0,
+      "accepted_prediction_tokens": 0,
+      "rejected_prediction_tokens": 0
+    }
+  },
+  "citations": [],
+  "system_fingerprint": "fp_6d7f4b5803",
+  "cache_key": "3eef888ba126df2afe9b1d0465f6433271fa7cf6886161526a4c7291ba3fe25c"
+}

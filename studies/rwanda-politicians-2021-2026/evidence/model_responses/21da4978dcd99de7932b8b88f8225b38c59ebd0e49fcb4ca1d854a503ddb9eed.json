@@ -1,0 +1,181 @@
+{
+  "data": {
+    "ratings": [
+      {
+        "scale_id": "programmatic-renewal",
+        "positive": 1,
+        "negative": 3,
+        "status": "observed",
+        "confidence": 0.8,
+        "reason": "Есть отдельные заявления о реформе (ускорение выдачи разрешений), но основной акцент на продолжении действующих приоритетов (реализация Master Plan 2050, административный контроль, поддержка чистоты и порядка).",
+        "evidence_indices": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          10
+        ]
+      },
+      {
+        "scale_id": "government-course-assessment",
+        "positive": 3,
+        "negative": 0,
+        "status": "observed",
+        "confidence": 0.7,
+        "reason": "Публично связывает работу администрации с приоритетами правительства, не выявлено критики действующего курса.",
+        "evidence_indices": [
+          0,
+          1
+        ]
+      },
+      {
+        "scale_id": "participation-administrative-direction",
+        "positive": 0,
+        "negative": 5,
+        "status": "observed",
+        "confidence": 0.9,
+        "reason": "Преобладает административный стиль: поручения, контроль исполнения, мобилизация, ответственность руководителей ячеек.",
+        "evidence_indices": [
+          1,
+          2,
+          3,
+          10
+        ]
+      },
+      {
+        "scale_id": "argumentation-evidence-values",
+        "positive": 1,
+        "negative": 3,
+        "status": "observed",
+        "confidence": 0.7,
+        "reason": "Использует данные (спутниковые изображения), но чаще апеллирует к ценностям (этика, чистота, порядок, ответственность).",
+        "evidence_indices": [
+          0,
+          1,
+          4,
+          5,
+          10
+        ]
+      },
+      {
+        "scale_id": "market-state-instruments",
+        "positive": 1,
+        "negative": 3,
+        "status": "observed",
+        "confidence": 0.7,
+        "reason": "Есть элементы поддержки инвестиций и частной инициативы, но основной акцент на государственном контроле и регулировании.",
+        "evidence_indices": [
+          2,
+          3,
+          6,
+          7
+        ]
+      },
+      {
+        "scale_id": "accessibility-growth-priorities",
+        "positive": 1,
+        "negative": 3,
+        "status": "observed",
+        "confidence": 0.7,
+        "reason": "В риторике присутствует обещание улучшения услуг для жителей, но основной акцент на инвестициях, росте и конкурентоспособности.",
+        "evidence_indices": [
+          3,
+          6,
+          7,
+          9
+        ]
+      },
+      {
+        "scale_id": "external-domestic-resources",
+        "positive": 3,
+        "negative": 0,
+        "status": "observed",
+        "confidence": 0.7,
+        "reason": "Явно выражен поиск внешних партнёров и инвестиций (Пусан, международные контакты), не выявлено акцента на внутренние ресурсы.",
+        "evidence_indices": [
+          6,
+          7,
+          8
+        ]
+      },
+      {
+        "scale_id": "international-rules-autonomy",
+        "positive": null,
+        "negative": null,
+        "status": "unknown",
+        "confidence": 0.3,
+        "reason": "Нет прямых заявлений о международных обязательствах или защите самостоятельности решений.",
+        "evidence_indices": []
+      },
+      {
+        "scale_id": "mediation-adversarial-communication",
+        "positive": null,
+        "negative": null,
+        "status": "unknown",
+        "confidence": 0.3,
+        "reason": "Нет данных о посредничестве или полемике; публичные заявления не содержат таких элементов.",
+        "evidence_indices": []
+      },
+      {
+        "scale_id": "cultural-openness-national-transmission",
+        "positive": 1,
+        "negative": 0,
+        "status": "observed",
+        "confidence": 0.5,
+        "reason": "Есть упоминание об интересе к зарубежному опыту (Пусан), но без акцента на национальных ценностях.",
+        "evidence_indices": [
+          8
+        ]
+      },
+      {
+        "scale_id": "problem-disclosure-reputation-defence",
+        "positive": 1,
+        "negative": 1,
+        "status": "observed",
+        "confidence": 0.6,
+        "reason": "Публично раскрывает проблемы (незаконное строительство), но также присутствует защитная риторика (мобилизация за чистоту, порядок).",
+        "evidence_indices": [
+          2,
+          3,
+          10
+        ]
+      },
+      {
+        "scale_id": "procedural-guarantees-enforcement",
+        "positive": 1,
+        "negative": 3,
+        "status": "observed",
+        "confidence": 0.7,
+        "reason": "Есть обещание ускорить административные процедуры (разрешения), но основной акцент на принудительном исполнении и контроле.",
+        "evidence_indices": [
+          2,
+          3,
+          4
+        ]
+      }
+    ]
+  },
+  "model": "gpt-4.1",
+  "task": "ratings-samuel-dusengiyumva-0",
+  "at": "2026-10-15T15:17:05.094274+00:00",
+  "usage": {
+    "prompt_tokens": 5922,
+    "completion_tokens": 1139,
+    "total_tokens": 7061,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "audio_tokens": 0
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "audio_tokens": 0,
+      "accepted_prediction_tokens": 0,
+      "rejected_prediction_tokens": 0
+    }
+  },
+  "citations": [],
+  "system_fingerprint": "fp_6d7f4b5803",
+  "cache_key": "21da4978dcd99de7932b8b88f8225b38c59ebd0e49fcb4ca1d854a503ddb9eed"
+}

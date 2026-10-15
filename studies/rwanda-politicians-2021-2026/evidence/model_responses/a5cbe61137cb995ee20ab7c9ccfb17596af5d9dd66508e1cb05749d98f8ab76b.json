@@ -1,0 +1,96 @@
+{
+  "data": {
+    "ratings": [
+      {
+        "scale_id": "prevention-crisis-response",
+        "positive": 3,
+        "negative": 3,
+        "status": "observed",
+        "confidence": 0.9,
+        "reason": "Мушикивабо регулярно подчёркивает необходимость консультаций, мониторинга и профилактики (например, дополнительные встречи министров для оценки вызовов), а также участвует в реагировании на кризисы (создание комитета по Гаити, заявления по Украине и ДРК). Оба подхода представлены в публичных действиях и заявлениях.",
+        "evidence_indices": [
+          5,
+          6,
+          7,
+          8,
+          10,
+          12,
+          13,
+          14
+        ]
+      },
+      {
+        "scale_id": "electoral-access",
+        "positive": 3,
+        "negative": null,
+        "status": "unknown",
+        "confidence": 0.8,
+        "reason": "Есть персонально приписанная поддержка расширения процедурной конкуренции при выборах руководителя МОФ (открытый призыв, программы, формальные выборы), но нет оснований для оценки ограничения доступа или повышения барьеров.",
+        "evidence_indices": [
+          15
+        ]
+      },
+      {
+        "scale_id": "institutional-autonomy-coordination",
+        "positive": null,
+        "negative": 3,
+        "status": "unknown",
+        "confidence": 0.8,
+        "reason": "Публичные заявления и реформы Мушикивабо акцентируют координацию, регулярные консультации и единую управленческую линию (децентрализация, сокращение программ, встречи министров), но нет прямых оснований для оценки гарантий самостоятельности институтов.",
+        "evidence_indices": [
+          12,
+          13,
+          14
+        ]
+      },
+      {
+        "scale_id": "taxation-burden-public-revenue",
+        "positive": null,
+        "negative": null,
+        "status": "unknown",
+        "confidence": 0.7,
+        "reason": "Нет прямых персональных заявлений или действий по снижению налоговой нагрузки или увеличению налоговых поступлений для публичного развития.",
+        "evidence_indices": []
+      },
+      {
+        "scale_id": "universal-targeted-provision",
+        "positive": null,
+        "negative": null,
+        "status": "unknown",
+        "confidence": 0.7,
+        "reason": "Нет прямых оснований для оценки приоритета универсальных стандартов или адресной поддержки в социальной политике.",
+        "evidence_indices": []
+      },
+      {
+        "scale_id": "ecological-limits-resource-use",
+        "positive": null,
+        "negative": null,
+        "status": "unknown",
+        "confidence": 0.7,
+        "reason": "Нет прямых персональных заявлений или действий по усилению экологических ограничений или расширению хозяйственного использования ресурсов.",
+        "evidence_indices": []
+      }
+    ]
+  },
+  "model": "gpt-4.1",
+  "task": "ratings-supplement-louise-mushikiwabo-12",
+  "at": "2026-10-15T15:19:39.287236+00:00",
+  "usage": {
+    "prompt_tokens": 5839,
+    "completion_tokens": 646,
+    "total_tokens": 6485,
+    "prompt_tokens_details": {
+      "cached_tokens": 3968,
+      "audio_tokens": 0
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "audio_tokens": 0,
+      "accepted_prediction_tokens": 0,
+      "rejected_prediction_tokens": 0
+    }
+  },
+  "citations": [],
+  "system_fingerprint": "fp_233583e333",
+  "cache_key": "a5cbe61137cb995ee20ab7c9ccfb17596af5d9dd66508e1cb05749d98f8ab76b"
+}

@@ -1,0 +1,170 @@
+{
+  "data": {
+    "ratings": [
+      {
+        "scale_id": "programmatic-renewal",
+        "positive": 3,
+        "negative": 3,
+        "status": "observed",
+        "confidence": 0.8,
+        "reason": "Мусафири инициировал подготовку новой стратегической программы (PSTA 5), что указывает на программное обновление, но также участвовал в обеспечении институциональной преемственности (передача полномочий в RAB), что свидетельствует о закреплении курса.",
+        "evidence_indices": [
+          2,
+          5
+        ]
+      },
+      {
+        "scale_id": "government-course-assessment",
+        "positive": null,
+        "negative": null,
+        "status": "unknown",
+        "confidence": 0.3,
+        "reason": "Нет прямых публичных оценок действующего государственного курса (поддержки или критики) в представленных фактах.",
+        "evidence_indices": []
+      },
+      {
+        "scale_id": "participation-administrative-direction",
+        "positive": 3,
+        "negative": 3,
+        "status": "observed",
+        "confidence": 0.7,
+        "reason": "Созыв координационного формата с обратной связью (PSTA 5) и взаимодействие с отраслевыми группами указывают на элементы совместного обсуждения, но также присутствует административное руководство и контроль исполнения (кадровые процессы, рекомендации животноводам).",
+        "evidence_indices": [
+          2,
+          3,
+          5,
+          6
+        ]
+      },
+      {
+        "scale_id": "argumentation-evidence-values",
+        "positive": 3,
+        "negative": 1,
+        "status": "observed",
+        "confidence": 0.7,
+        "reason": "В публичных заявлениях акцент на продовольственной безопасности, решении отраслевых проблем и использовании исследований (IITA) указывает на доказательную аргументацию; ценностная аргументация выражена слабо.",
+        "evidence_indices": [
+          1,
+          2,
+          7
+        ]
+      },
+      {
+        "scale_id": "market-state-instruments",
+        "positive": 2,
+        "negative": 2,
+        "status": "observed",
+        "confidence": 0.6,
+        "reason": "Есть признаки взаимодействия с частными и внешними партнёрами (Wood Foundation, Inyange Industries), но также сохраняется государственная координация и планирование. Оба полюса выражены умеренно.",
+        "evidence_indices": [
+          2,
+          4,
+          5,
+          6
+        ]
+      },
+      {
+        "scale_id": "accessibility-growth-priorities",
+        "positive": 3,
+        "negative": 2,
+        "status": "observed",
+        "confidence": 0.7,
+        "reason": "Публичный акцент на продовольственной безопасности и доступности благ, но также отмечено участие в инвестиционных проектах (чай, молоко), что указывает на оба полюса с преобладанием первого.",
+        "evidence_indices": [
+          1,
+          2,
+          4,
+          5,
+          6
+        ]
+      },
+      {
+        "scale_id": "external-domestic-resources",
+        "positive": 3,
+        "negative": 1,
+        "status": "observed",
+        "confidence": 0.7,
+        "reason": "Регулярное взаимодействие с международными и внешними партнёрами (FAO, Wood Foundation, IITA) свидетельствует о привлечении внешних ресурсов; акцент на внутренних ресурсах выражен слабо.",
+        "evidence_indices": [
+          2,
+          4,
+          5,
+          7
+        ]
+      },
+      {
+        "scale_id": "international-rules-autonomy",
+        "positive": null,
+        "negative": null,
+        "status": "unknown",
+        "confidence": 0.3,
+        "reason": "Нет прямых публичных заявлений о международных обязательствах или защите национальной самостоятельности решений.",
+        "evidence_indices": []
+      },
+      {
+        "scale_id": "mediation-adversarial-communication",
+        "positive": 2,
+        "negative": 0,
+        "status": "observed",
+        "confidence": 0.5,
+        "reason": "Созыв координационных форматов и взаимодействие с разными группами указывает на элементы согласования, но нет свидетельств полемической защиты или конфронтации.",
+        "evidence_indices": [
+          2,
+          4,
+          5
+        ]
+      },
+      {
+        "scale_id": "cultural-openness-national-transmission",
+        "positive": null,
+        "negative": null,
+        "status": "unknown",
+        "confidence": 0.2,
+        "reason": "В предоставленных фактах отсутствуют прямые проявления культурного обмена или акцента на национальных ценностях.",
+        "evidence_indices": []
+      },
+      {
+        "scale_id": "problem-disclosure-reputation-defence",
+        "positive": 2,
+        "negative": 0,
+        "status": "observed",
+        "confidence": 0.5,
+        "reason": "Публичное обсуждение отраслевых проблем и рисков (например, сезонные риски для животноводов) указывает на частичное раскрытие проблем; защиты репутации не выявлено.",
+        "evidence_indices": [
+          1,
+          3
+        ]
+      },
+      {
+        "scale_id": "procedural-guarantees-enforcement",
+        "positive": null,
+        "negative": null,
+        "status": "unknown",
+        "confidence": 0.2,
+        "reason": "Нет прямых свидетельств расширения процедурных гарантий или акцента на принудительном исполнении.",
+        "evidence_indices": []
+      }
+    ]
+  },
+  "model": "gpt-4.1",
+  "task": "ratings-ildephonse-musafiri-0",
+  "at": "2026-10-15T15:12:27.285304+00:00",
+  "usage": {
+    "prompt_tokens": 5791,
+    "completion_tokens": 966,
+    "total_tokens": 6757,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "audio_tokens": 0
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "audio_tokens": 0,
+      "accepted_prediction_tokens": 0,
+      "rejected_prediction_tokens": 0
+    }
+  },
+  "citations": [],
+  "system_fingerprint": "fp_6d7f4b5803",
+  "cache_key": "7468545d60709e712ccbd825b72b4c140c3aa8fd0c0f001bc510f6eff34e96a8"
+}

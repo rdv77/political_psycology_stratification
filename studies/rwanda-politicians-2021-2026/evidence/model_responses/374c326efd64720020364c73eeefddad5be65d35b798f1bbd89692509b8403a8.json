@@ -1,0 +1,177 @@
+{
+  "data": {
+    "ratings": [
+      {
+        "scale_id": "programmatic-renewal",
+        "positive": null,
+        "negative": null,
+        "status": "unknown",
+        "confidence": 0.6,
+        "reason": "Нет прямых заявлений о необходимости программного пересмотра или закрепления существующего курса; представление пятилетней программы и благодарность президенту не раскрывают личную позицию по обновлению или преемственности.",
+        "evidence_indices": [
+          0,
+          1
+        ]
+      },
+      {
+        "scale_id": "government-course-assessment",
+        "positive": null,
+        "negative": null,
+        "status": "unknown",
+        "confidence": 0.7,
+        "reason": "Нет прямых оценок действующего курса; публичные выступления и представление программ отражают служебную роль, но не содержат выраженной поддержки или критики.",
+        "evidence_indices": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8
+        ]
+      },
+      {
+        "scale_id": "participation-administrative-direction",
+        "positive": 1,
+        "negative": 1,
+        "status": "observed",
+        "confidence": 0.8,
+        "reason": "Призыв к сотрудничеству с частным сектором, НПО и гражданами (эпизод 1) указывает на единичное проявление совместного обсуждения; представление решений и распространение официальной повестки (эпизоды 1,8) — на административную координацию.",
+        "evidence_indices": [
+          1,
+          8
+        ]
+      },
+      {
+        "scale_id": "argumentation-evidence-values",
+        "positive": 1,
+        "negative": 1,
+        "status": "observed",
+        "confidence": 0.8,
+        "reason": "В риторике о сельском хозяйстве и развитии (эпизоды 2,3) присутствует количественная цель и технологические аргументы (positive=1), а также призывы к национальным ценностям в обращении к диаспоре (эпизоды 4,5) (negative=1).",
+        "evidence_indices": [
+          2,
+          3,
+          4,
+          5
+        ]
+      },
+      {
+        "scale_id": "market-state-instruments",
+        "positive": 1,
+        "negative": 1,
+        "status": "observed",
+        "confidence": 0.8,
+        "reason": "Призыв к сотрудничеству с частным сектором (эпизод 1) — единичное проявление поддержки частной инициативы; акцент на государственных услугах и программах (эпизоды 1,2,3) — единичное проявление государственного регулирования.",
+        "evidence_indices": [
+          1,
+          2,
+          3
+        ]
+      },
+      {
+        "scale_id": "accessibility-growth-priorities",
+        "positive": 1,
+        "negative": 1,
+        "status": "observed",
+        "confidence": 0.8,
+        "reason": "В приоритетах программы названы как расширение доступа к базовым услугам (питание, образование), так и рост экспорта и производительной занятости (эпизод 1). Оба полюса проявлены единично.",
+        "evidence_indices": [
+          1
+        ]
+      },
+      {
+        "scale_id": "external-domestic-resources",
+        "positive": 1,
+        "negative": 1,
+        "status": "observed",
+        "confidence": 0.8,
+        "reason": "В публичных заявлениях отмечено значение внутренних доходов и самодостаточности (эпизод 7, negative=1), а также упоминается сотрудничество с внешними организациями (эпизод 1, positive=1).",
+        "evidence_indices": [
+          1,
+          7
+        ]
+      },
+      {
+        "scale_id": "international-rules-autonomy",
+        "positive": null,
+        "negative": null,
+        "status": "unknown",
+        "confidence": 0.6,
+        "reason": "Нет прямых заявлений о международных обязательствах или защите самостоятельности решений; дипломатические выступления не раскрывают позицию по шкале.",
+        "evidence_indices": [
+          6
+        ]
+      },
+      {
+        "scale_id": "mediation-adversarial-communication",
+        "positive": null,
+        "negative": null,
+        "status": "unknown",
+        "confidence": 0.6,
+        "reason": "Нет прямых примеров посредничества или полемической защиты в переговорах; обращение к диаспоре носит мобилизационный характер, но не содержит переговорной или конфликтной риторики.",
+        "evidence_indices": [
+          4,
+          5
+        ]
+      },
+      {
+        "scale_id": "cultural-openness-national-transmission",
+        "positive": null,
+        "negative": 1,
+        "status": "observed",
+        "confidence": 0.7,
+        "reason": "Призыв сохранять национальные ценности за рубежом и предупреждение о риске внешнего влияния (эпизоды 4,5) — единичное проявление передачи национальных ценностей; прямых заявлений о межкультурном обмене нет.",
+        "evidence_indices": [
+          4,
+          5
+        ]
+      },
+      {
+        "scale_id": "problem-disclosure-reputation-defence",
+        "positive": null,
+        "negative": 1,
+        "status": "observed",
+        "confidence": 0.7,
+        "reason": "Призыв защищать \"правдивую историю\" Руанды и противостоять ложным рассказам (эпизод 4) — единичное проявление защитной коммуникации; открытого признания проблем не выявлено.",
+        "evidence_indices": [
+          4
+        ]
+      },
+      {
+        "scale_id": "procedural-guarantees-enforcement",
+        "positive": null,
+        "negative": null,
+        "status": "unknown",
+        "confidence": 0.6,
+        "reason": "Нет прямых заявлений о расширении процедурных гарантий или принудительном исполнении; распространение решений кабинета не раскрывает позицию по шкале.",
+        "evidence_indices": [
+          8
+        ]
+      }
+    ]
+  },
+  "model": "gpt-4.1",
+  "task": "ratings-justin-nsengiyumva-0",
+  "at": "2026-10-15T15:09:28.594855+00:00",
+  "usage": {
+    "prompt_tokens": 5959,
+    "completion_tokens": 1083,
+    "total_tokens": 7042,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "audio_tokens": 0
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "audio_tokens": 0,
+      "accepted_prediction_tokens": 0,
+      "rejected_prediction_tokens": 0
+    }
+  },
+  "citations": [],
+  "system_fingerprint": "fp_6d7f4b5803",
+  "cache_key": "374c326efd64720020364c73eeefddad5be65d35b798f1bbd89692509b8403a8"
+}

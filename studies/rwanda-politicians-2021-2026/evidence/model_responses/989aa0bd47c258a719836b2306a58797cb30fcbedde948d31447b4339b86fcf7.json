@@ -1,0 +1,97 @@
+{
+  "data": {
+    "ratings": [
+      {
+        "scale_id": "prevention-crisis-response",
+        "positive": null,
+        "negative": null,
+        "status": "unknown",
+        "confidence": 0,
+        "reason": "В предоставленных фактах отсутствуют прямые или косвенные сведения о публичных акцентах Мпайиманы на упреждающем снижении рисков или оперативном реагировании на кризисы.",
+        "evidence_indices": []
+      },
+      {
+        "scale_id": "electoral-access",
+        "positive": 3,
+        "negative": null,
+        "status": "unknown",
+        "confidence": 0.8,
+        "reason": "Мпайимана неоднократно публично позиционировал себя как альтернативу на выборах, предлагал реформу парламента с расширением представительства (включение диаспоры, молодёжи, людей с инвалидностью), а также отмену отдельной квоты для женщин при введении гендерного паритета. Это подтверждает повторяющийся акцент на расширении доступа к политическому участию. Однако нет оснований для оценки выраженности противоположного полюса (усиление барьеров).",
+        "evidence_indices": [
+          2,
+          10,
+          12,
+          13,
+          14,
+          20
+        ]
+      },
+      {
+        "scale_id": "institutional-autonomy-coordination",
+        "positive": null,
+        "negative": null,
+        "status": "unknown",
+        "confidence": 0,
+        "reason": "В материалах нет прямых или косвенных заявлений Мпайиманы о гарантиях самостоятельности институтов или о согласовании их работы единой управленческой линией.",
+        "evidence_indices": []
+      },
+      {
+        "scale_id": "taxation-burden-public-revenue",
+        "positive": null,
+        "negative": null,
+        "status": "unknown",
+        "confidence": 0,
+        "reason": "В предоставленных фактах отсутствуют предложения Мпайиманы о снижении налоговой нагрузки, расширении имущественной самостоятельности или увеличении налоговых поступлений для публичного развития.",
+        "evidence_indices": []
+      },
+      {
+        "scale_id": "universal-targeted-provision",
+        "positive": 1,
+        "negative": 1,
+        "status": "observed",
+        "confidence": 0.7,
+        "reason": "Мпайимана предлагал расширить доступ к кредитам для студентов всех университетов (единый стандарт по типу учреждения), что соответствует единичному проявлению универсального подхода. Одновременно акцент на реформе горнодобывающего сектора в интересах мелких добытчиков и включение в парламент представителей конкретных групп (диаспора, молодёжь, люди с инвалидностью) свидетельствует о единичных проявлениях адресного подхода.",
+        "evidence_indices": [
+          4,
+          5,
+          13,
+          14,
+          15,
+          16
+        ]
+      },
+      {
+        "scale_id": "ecological-limits-resource-use",
+        "positive": null,
+        "negative": null,
+        "status": "unknown",
+        "confidence": 0,
+        "reason": "В материалах есть упоминание о реформе горнодобывающего сектора, но отсутствуют сведения о предложениях по усилению экологических ограничений или расширению хозяйственного использования ресурсов.",
+        "evidence_indices": [
+          15
+        ]
+      }
+    ]
+  },
+  "model": "gpt-4.1",
+  "task": "ratings-supplement-philippe-mpayimana-12",
+  "at": "2026-10-15T15:18:13.301009+00:00",
+  "usage": {
+    "prompt_tokens": 5918,
+    "completion_tokens": 752,
+    "total_tokens": 6670,
+    "prompt_tokens_details": {
+      "cached_tokens": 2944,
+      "audio_tokens": 0
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "audio_tokens": 0,
+      "accepted_prediction_tokens": 0,
+      "rejected_prediction_tokens": 0
+    }
+  },
+  "citations": [],
+  "system_fingerprint": "fp_233583e333",
+  "cache_key": "989aa0bd47c258a719836b2306a58797cb30fcbedde948d31447b4339b86fcf7"
+}

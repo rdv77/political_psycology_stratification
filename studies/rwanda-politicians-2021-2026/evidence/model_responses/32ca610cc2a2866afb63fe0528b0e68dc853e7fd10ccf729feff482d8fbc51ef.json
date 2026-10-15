@@ -1,0 +1,38 @@
+{
+  "data": {
+    "ratings": [
+      {
+        "scale_id": "russia-economic-technology-cooperation",
+        "positive": 3,
+        "negative": null,
+        "status": "unknown",
+        "confidence": 0.7,
+        "reason": "Есть подтверждённое подписание межведомственного меморандума о сотрудничестве в здравоохранении между Руандой и Россией, включающего ядерную медицину, что свидетельствует о заметной выраженности развития экономических и технологических проектов с Россией. Однако нет данных о действиях по ограничению такого сотрудничества, поэтому этот полюс не оценивается.",
+        "evidence_indices": [
+          0
+        ]
+      }
+    ]
+  },
+  "model": "gpt-4.1",
+  "task": "ratings-supplement-sabin-nsanzimana-12-russia-economic-technology-cooperation",
+  "at": "2026-10-15T15:12:05.587335+00:00",
+  "usage": {
+    "prompt_tokens": 1328,
+    "completion_tokens": 126,
+    "total_tokens": 1454,
+    "prompt_tokens_details": {
+      "cached_tokens": 1152,
+      "audio_tokens": 0
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "audio_tokens": 0,
+      "accepted_prediction_tokens": 0,
+      "rejected_prediction_tokens": 0
+    }
+  },
+  "citations": [],
+  "system_fingerprint": "fp_136a75fece",
+  "cache_key": "32ca610cc2a2866afb63fe0528b0e68dc853e7fd10ccf729feff482d8fbc51ef"
+}

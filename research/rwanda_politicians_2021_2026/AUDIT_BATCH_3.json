@@ -1,0 +1,525 @@
+{
+  "decisions": [
+    {
+      "object_id": "mussa-fazil-harerimana",
+      "scale_id": "programmatic-renewal",
+      "decision": "reject",
+      "reason": "positive=0 обоснован отсутствием предложений изменить курс, а не подтверждённой невыраженностью; факты6/10 подтверждают только продолжение. Факт11 о культурных нормах не восполняет второй полюс."
+    },
+    {
+      "object_id": "mussa-fazil-harerimana",
+      "scale_id": "government-course-assessment",
+      "decision": "reject",
+      "reason": "negative=0 объяснён тем, что критика не выявлена; факты6/8/10 дают поддержку, отсутствие критики не устанавливает её нулевую выраженность."
+    },
+    {
+      "object_id": "mussa-fazil-harerimana",
+      "scale_id": "argumentation-evidence-values",
+      "decision": "reject",
+      "reason": "positive=0 выведен из отсутствия данных/исследований. Факт9 относится к избранию и словам другого спикера; ценностные факты8/11 не определяют неизвестный доказательный полюс."
+    },
+    {
+      "object_id": "mussa-fazil-harerimana",
+      "scale_id": "external-domestic-resources",
+      "decision": "reject",
+      "reason": "Индекс9 указывает на избрание и слова другого спикера, а призыв к вкладу граждан находится в8. В8 прямо не раскрыт механизм финансирования; positive=0 также основан лишь на отсутствии внешнего акцента. Исправления индекса недостаточно для двухполюсной разности."
+    },
+    {
+      "object_id": "mussa-fazil-harerimana",
+      "scale_id": "mediation-adversarial-communication",
+      "decision": "repair_indices",
+      "reason": "Работа с другими партиями находится в6, а осуждение политики разделения и защитная риторика — в7;8 посвящён памяти и благосостоянию. Содержание reason поддерживается6/7 того же досье.",
+      "evidence_indices": [
+        6,
+        7
+      ]
+    },
+    {
+      "object_id": "mussa-fazil-harerimana",
+      "scale_id": "problem-disclosure-reputation-defence",
+      "decision": "reject",
+      "reason": "positive=0 объяснён отсутствием раскрытия проблем. В8 памятная благодарность, в11 культурные нормы; это также не прямое опровержение внешнего описания страны по определению шкалы."
+    },
+    {
+      "object_id": "pudence-rubingisa",
+      "scale_id": "government-course-assessment",
+      "decision": "reject",
+      "reason": "Факт5 — благодарность партнёрам за развитие района, не прямая оценка действующего государственного курса; negative=0 дополнительно выведен из отсутствия критики."
+    },
+    {
+      "object_id": "pudence-rubingisa",
+      "scale_id": "argumentation-evidence-values",
+      "decision": "reject",
+      "reason": "Факты1/2/3 содержат перечисление приоритетов, пользу и профессиональную самопрезентацию; не содержат данных либо исследования как аргумента. Профподготовка не устанавливает positive=1 этой шкалы."
+    },
+    {
+      "object_id": "pudence-rubingisa",
+      "scale_id": "market-state-instruments",
+      "decision": "reject",
+      "reason": "positive=0 прямо объяснён отсутствием данных о частной инициативе, а не установленной невыраженностью."
+    },
+    {
+      "object_id": "pudence-rubingisa",
+      "scale_id": "external-domestic-resources",
+      "decision": "reject",
+      "reason": "negative=1 выведен из того, что развитие на основе результатов «может подразумевать» внутренние ресурсы. В5/6/7 нет явной стратегии внутреннего сбора средств или снижения внешней зависимости; встречи сами по себе не подтверждают финансирование."
+    },
+    {
+      "object_id": "pudence-rubingisa",
+      "scale_id": "mediation-adversarial-communication",
+      "decision": "reject",
+      "reason": "negative=0 прямо объяснён отсутствием данных о полемике; встречи и обсуждение решений не определяют этот неизвестный полюс."
+    },
+    {
+      "object_id": "pudence-rubingisa",
+      "scale_id": "cultural-openness-national-transmission",
+      "decision": "reject",
+      "reason": "Факт3 — собственная зарубежная учёба и возвращение к службе. Определение прямо запрещает выводить культурную открытость из учёбы; negative=0 дополнительно следует из отсутствия национальных акцентов."
+    },
+    {
+      "object_id": "pudence-rubingisa",
+      "scale_id": "problem-disclosure-reputation-defence",
+      "decision": "reject",
+      "reason": "positive=0 объяснён отсутствием раскрытия проблем, а благодарность партнёрам в5 не равна защите внешнего образа от искажённого описания."
+    },
+    {
+      "object_id": "pudence-rubingisa",
+      "scale_id": "prevention-crisis-response",
+      "decision": "reject",
+      "reason": "Reason о патрулях соответствует11, не12/13. Кризисный факт12 прямо помечен как интервью без установленной даты;13 также недатирован и о децентрализации. Простая перестановка индексов не делает оба полюса пригодными датированными основаниями."
+    },
+    {
+      "object_id": "pudence-rubingisa",
+      "scale_id": "participation-administrative-direction",
+      "decision": "flag",
+      "reason": "Проверить силу positive=3: взаимодействие со СМИ и встречи с жителями в1/7 не раскрывают участия граждан именно в подготовке решений/проверке результатов. Это ограничение содержательной опоры, без автоматического изменения числа."
+    },
+    {
+      "object_id": "samuel-dusengiyumva",
+      "scale_id": "government-course-assessment",
+      "decision": "reject",
+      "reason": "negative=0 прямо выведен из того, что критики не выявлено; поддержка приоритетов не подтверждает нулевую критику."
+    },
+    {
+      "object_id": "samuel-dusengiyumva",
+      "scale_id": "participation-administrative-direction",
+      "decision": "reject",
+      "reason": "Факты1/2/3/10 показывают поручения и контроль, но не устанавливают подтверждённую невыраженность участия граждан для positive=0. Преобладание директив не означает знания противоположного полюса."
+    },
+    {
+      "object_id": "samuel-dusengiyumva",
+      "scale_id": "external-domestic-resources",
+      "decision": "reject",
+      "reason": "negative=0 прямо объяснён отсутствием акцента на внутренних ресурсах. Партнёрские и инвестиционные обращения не устанавливают неизвестный внутренний полюс."
+    },
+    {
+      "object_id": "samuel-dusengiyumva",
+      "scale_id": "cultural-openness-national-transmission",
+      "decision": "reject",
+      "reason": "Факт8 — заимствование опыта AI/smart-city, не культурный обмен/разнообразие. negative=0 основан на отсутствии национальных ценностей. Оба вывода не соответствуют определению."
+    },
+    {
+      "object_id": "samuel-dusengiyumva",
+      "scale_id": "problem-disclosure-reputation-defence",
+      "decision": "reject",
+      "reason": "Раскрытие незаконного строительства в2 подтверждается, но чистота/порядок в3/10 не являются опровержением внешних репутационных описаний; negative=1 основан на подмене конструкта."
+    },
+    {
+      "object_id": "samuel-dusengiyumva",
+      "scale_id": "procedural-guarantees-enforcement",
+      "decision": "reject",
+      "reason": "Сокращение срока выдачи разрешений в3 — административная скорость, не доступ к разбирательству, открытой процедуре и обжалованию. positive=1 по указанным фактам не подтверждён; спутниковый контроль4 не восполняет его."
+    },
+    {
+      "object_id": "samuel-dusengiyumva",
+      "scale_id": "taxation-burden-public-revenue",
+      "decision": "reject",
+      "reason": "negative=0 прямо объяснён отсутствием оснований для поддержки роста доходов. Факты12/13 подтверждают только возврат переплат; разность при неизвестном противоположном полюсе не установлена."
+    },
+    {
+      "object_id": "samuel-dusengiyumva",
+      "scale_id": "ecological-limits-resource-use",
+      "decision": "reject",
+      "reason": "negative=1 выведен из недвижимости и инвестиционной риторики7. Определение прямо исключает общий рост/инвестиции как доказательство хозяйственного освоения или ослабления экологических ограничений."
+    },
+    {
+      "object_id": "samuel-dusengiyumva",
+      "scale_id": "prevention-crisis-response",
+      "decision": "flag",
+      "reason": "Сила3 обоих полюсов требует пересмотра: административное устранение незаконной застройки и ответы на обращения не обязательно кризисное реагирование; ряд ссылок — один эпизод инструктажа. Это не доказательство повторяемости независимых кризисов."
+    },
+    {
+      "object_id": "frank-habineza",
+      "scale_id": "government-course-assessment",
+      "decision": "reject",
+      "reason": "positive=0 прямо объяснён отсутствием поддержки всего государственного курса; собственные достижения не подтверждают невыраженность поддержки. Неизвестное не равно0."
+    },
+    {
+      "object_id": "frank-habineza",
+      "scale_id": "accessibility-growth-priorities",
+      "decision": "reject",
+      "reason": "negative=1 не подтверждён инвестициями/экспортом/условиями роста: в0/3/7 конкретны социальные услуги и налоги; обещание не повредить экономике не является положительной программой инвестиционного роста."
+    },
+    {
+      "object_id": "frank-habineza",
+      "scale_id": "mediation-adversarial-communication",
+      "decision": "reject",
+      "reason": "Факт16 — уверенность в победе и собственные результаты, без оспаривания обвинения/защиты требования. Не устанавливает negative=1 полемической защиты; positive=0 также не имеет подтверждения."
+    },
+    {
+      "object_id": "frank-habineza",
+      "scale_id": "problem-disclosure-reputation-defence",
+      "decision": "reject",
+      "reason": "Факт1 — сообщение о выполнении обещаний, не опровержение описаний, считаемых искажёнными. Продвижение достижений не подтверждает negative=1 репутационной защиты по определению."
+    },
+    {
+      "object_id": "frank-habineza",
+      "scale_id": "procedural-guarantees-enforcement",
+      "decision": "reject",
+      "reason": "Экологические проверки и пересмотр разрешений в2 сами по себе не подтверждают конкретные санкции/принуждение; negative=1 назван просто контролем и регулированием, что подменяет определение."
+    },
+    {
+      "object_id": "frank-habineza",
+      "scale_id": "prevention-crisis-response",
+      "decision": "reject",
+      "reason": "negative=1 обоснован косвенным обещанием не повредить экономике, а не действием в ответ на возникший кризис. Более того, факт4 — биографическая должность, не указанное обещание. Частичное исправление индекса не устанавливает кризисный полюс."
+    },
+    {
+      "object_id": "frank-habineza",
+      "scale_id": "taxation-burden-public-revenue",
+      "decision": "reject",
+      "reason": "negative=0 прямо объяснён отсутствием оснований выраженности; факты0/3 поддерживают отмену налогов, не подтверждают противоположный полюс."
+    },
+    {
+      "object_id": "frank-habineza",
+      "scale_id": "ecological-limits-resource-use",
+      "decision": "reject",
+      "reason": "negative=0 прямо объяснён отсутствием оснований для противоположного полюса; экологические предложения не означают подтверждённой нулевой выраженности хозяйственного освоения."
+    },
+    {
+      "object_id": "frank-habineza",
+      "scale_id": "universal-targeted-provision",
+      "decision": "repair_indices",
+      "reason": "Reason дословно поддерживается другими индексами того же supplement: вода —3, питание во всех школах —12, фонд выпускников —13, единая обработка отходов —14. Исходные4/15 — биография/самоотчёт и не поддерживают эти доводы.",
+      "evidence_indices": [
+        3,
+        12,
+        13,
+        14
+      ]
+    },
+    {
+      "object_id": "philippe-mpayimana",
+      "scale_id": "programmatic-renewal",
+      "decision": "reject",
+      "reason": "negative=0 прямо объяснён тем, что закрепление курса не обнаружено. Это неизвестность, не подтверждённая невыраженность."
+    },
+    {
+      "object_id": "philippe-mpayimana",
+      "scale_id": "argumentation-evidence-values",
+      "decision": "reject",
+      "reason": "positive=1 выведен из конструкции кредита/различия учреждений в18, без данных либо исследования как основания решения. Институциональный критерий меры не тождественен доказательной аргументации."
+    },
+    {
+      "object_id": "philippe-mpayimana",
+      "scale_id": "accessibility-growth-priorities",
+      "decision": "reject",
+      "reason": "negative=0 прямо объяснён отсутствием акцента на инвестициях; социальное предложение не определяет неизвестный полюс роста."
+    },
+    {
+      "object_id": "philippe-mpayimana",
+      "scale_id": "universal-targeted-provision",
+      "decision": "repair_indices",
+      "reason": "Кредит для разных типов университетов раскрыт в14, мелкие добытчики —4, представительство диаспоры/молодёжи/людей с инвалидностью —12. Исходные13 и16 — гендерные квоты/политическая зрелость, не доводы данного reason.",
+      "evidence_indices": [
+        4,
+        12,
+        14
+      ]
+    },
+    {
+      "object_id": "victoire-ingabire",
+      "scale_id": "government-course-assessment",
+      "decision": "reject",
+      "reason": "positive=0 прямо выведен из отсутствия поддержки курса, а не доказанной невыраженности. Внешние сообщения об ограничениях не дают этот полюс."
+    },
+    {
+      "object_id": "victoire-ingabire",
+      "scale_id": "participation-administrative-direction",
+      "decision": "reject",
+      "reason": "negative=0 прямо объяснён тем, что директивность не найдена. Факты13/15/19 подтверждают инклюзию, но не устанавливают нулевую административную координацию."
+    },
+    {
+      "object_id": "victoire-ingabire",
+      "scale_id": "argumentation-evidence-values",
+      "decision": "reject",
+      "reason": "positive=0 прямо объяснён отсутствием проверяемых данных/расчётов/исследований. Историко-ценностный материал14 не определяет неизвестный противоположный полюс."
+    },
+    {
+      "object_id": "victoire-ingabire",
+      "scale_id": "procedural-guarantees-enforcement",
+      "decision": "reject",
+      "reason": "negative=0 прямо объяснён отсутствием принудительного исполнения. Судебные обращения3/8/9 не подтверждают нулевую выраженность этого неизвестного свойства."
+    },
+    {
+      "object_id": "victoire-ingabire",
+      "scale_id": "mediation-adversarial-communication",
+      "decision": "repair_indices",
+      "reason": "Инклюзивные предложения находятся в13/14/19, но полемической защиты в этих ссылках нет. В11 того же supplement содержится персонально атрибутированное отрицание обвинений, прямо поддерживающее соответствующую часть reason.",
+      "evidence_indices": [
+        11,
+        13,
+        14,
+        19
+      ]
+    },
+    {
+      "object_id": "victoire-ingabire",
+      "scale_id": "cultural-openness-national-transmission",
+      "decision": "flag",
+      "reason": "Оба полюса получены из одной программной страницы14; примирение и признание жертв не автоматически культурный обмен или передача национальных традиций. Сила3 и трактовка культурного конструкта требуют отдельной содержательной проверки."
+    },
+    {
+      "object_id": "victoire-ingabire",
+      "scale_id": "problem-disclosure-reputation-defence",
+      "decision": "flag",
+      "reason": "Проверить силу negative=3:7/11 относятся к одному продолжающемуся уголовному делу/отрицанию обвинений. Несколько сообщений об одном процессе не равны независимым повторным эпизодам."
+    },
+    {
+      "object_id": "diane-rwigara",
+      "scale_id": "programmatic-renewal",
+      "decision": "flag",
+      "reason": "Обе3 опираются на один избирательный эпизод0/1. «Новый этап» без конкретного пересмотра правил не обязательно программное обновление; повторяемость не подтверждена отдельными событиями."
+    },
+    {
+      "object_id": "diane-rwigara",
+      "scale_id": "government-course-assessment",
+      "decision": "reject",
+      "reason": "positive=0 прямо объяснён отсутствием поддержки текущего курса; критические заявления не устанавливают подтверждённую нулевую поддержку."
+    },
+    {
+      "object_id": "diane-rwigara",
+      "scale_id": "participation-administrative-direction",
+      "decision": "reject",
+      "reason": "Призыв присоединиться к кампании в0 не равен участию в подготовке решений и проверке результатов; negative=0 дополнительно основан на невыявленной директивности."
+    },
+    {
+      "object_id": "diane-rwigara",
+      "scale_id": "argumentation-evidence-values",
+      "decision": "reject",
+      "reason": "positive=1 обоснован конкретностью социальных проблем/обещаний, но2/5/9 не содержат использования данных или исследования при решении. Проблемная повестка сама по себе не этот способ аргументации."
+    },
+    {
+      "object_id": "diane-rwigara",
+      "scale_id": "accessibility-growth-priorities",
+      "decision": "flag",
+      "reason": "Для negative=1 приведено только общее продолжение экономического развития1; проверить наличие конкретного механизма инвестиционного роста, которого указанное изложение не раскрывает."
+    },
+    {
+      "object_id": "diane-rwigara",
+      "scale_id": "problem-disclosure-reputation-defence",
+      "decision": "reject",
+      "reason": "negative=0 прямо объяснён отсутствием защиты репутации. Критика проблем в5/9 не даёт подтверждения неизвестного противоположного полюса."
+    },
+    {
+      "object_id": "diane-rwigara",
+      "scale_id": "mediation-adversarial-communication",
+      "decision": "flag",
+      "reason": "negative=3 опирается преимущественно на один отказ в регистрации и его освещение несколькими источниками; повторяемость независимых эпизодов не установлена. positive=0 отдельно не обоснован достаточностью материалов."
+    },
+    {
+      "object_id": "diane-rwigara",
+      "scale_id": "procedural-guarantees-enforcement",
+      "decision": "flag",
+      "reason": "Обращения к избирательной процедуре поддерживают positive=1, но reason не обосновывает negative=0 подтверждённой невыраженностью; требуется проверка этого полюса, без автозамены числа."
+    },
+    {
+      "object_id": "bernard-ntaganda",
+      "scale_id": "government-course-assessment",
+      "decision": "reject",
+      "reason": "positive=0 прямо объяснён отсутствием поддержки. Отрицательная3 дополнительно названа повторяющейся по одному событию реабилитации2024 и общему биографическому описанию3."
+    },
+    {
+      "object_id": "bernard-ntaganda",
+      "scale_id": "procedural-guarantees-enforcement",
+      "decision": "reject",
+      "reason": "negative=1 приписан Нтаганде по отказу суда в отношении него. Определение прямо требует различать автора действия: применение требований судом не доказывает предпочтения Нтаганды принуждению."
+    },
+    {
+      "object_id": "bernard-ntaganda",
+      "scale_id": "electoral-access",
+      "decision": "reject",
+      "reason": "negative=0 прямо объяснён отсутствием оснований;positive=3 не получает независимую повторяемость от пересказов одного дела в0/1/5/6/7. Никакое новое число не предлагается."
+    },
+    {
+      "object_id": "bernard-ntaganda",
+      "scale_id": "institutional-autonomy-coordination",
+      "decision": "reject",
+      "reason": "negative=0 прямо объяснён отсутствием оснований координации; критика независимости суда не устанавливает нулевую выраженность неизвестного полюса."
+    },
+    {
+      "object_id": "christopher-kayumba",
+      "scale_id": "procedural-guarantees-enforcement",
+      "decision": "reject",
+      "reason": "negative=0 прямо объяснён отсутствием признаков принудительного исполнения; требование открытого суда3 не определяет этот неизвестный полюс."
+    },
+    {
+      "object_id": "paul-rusesabagina",
+      "scale_id": "problem-disclosure-reputation-defence",
+      "decision": "reject",
+      "reason": "negative=0 прямо объяснён отсутствием защиты репутации; письмо8 позволяет фиксировать контекстное признание, но не подтверждает невыраженность противоположного свойства."
+    },
+    {
+      "object_id": "louise-mushikiwabo",
+      "scale_id": "participation-administrative-direction",
+      "decision": "flag",
+      "reason": "Для обеих3 проверить независимость эпизодов: гражданские консультации раскрыты главным образом в гаитянской миссии7; визит вежливости3 и культурное событие8 не являются административными поручениями/контролем исполнения."
+    },
+    {
+      "object_id": "louise-mushikiwabo",
+      "scale_id": "mediation-adversarial-communication",
+      "decision": "reject",
+      "reason": "negative=1 обоснован осторожным дистанцированием от обвинений. В1/5 есть посредничество и мирные призывы, в8 культурная дипломатия; отказ обвинять не является полемическим оспариванием или защитой требования."
+    },
+    {
+      "object_id": "louise-mushikiwabo",
+      "scale_id": "cultural-openness-national-transmission",
+      "decision": "flag",
+      "reason": "Индекс9 — заявление об Украине, к культурному reason не относится;4/8 — один культурный эпизод. Франкоязычная наднациональная идентичность не автоматически передача национальных традиций; обе3 требуют содержательной проверки, автоматического ремонта недостаточно."
+    },
+    {
+      "object_id": "louise-mushikiwabo",
+      "scale_id": "problem-disclosure-reputation-defence",
+      "decision": "reject",
+      "reason": "positive=0 прямо обоснован тем, что открытое признание проблем не выявлено; недостаток материала не устанавливает нулевую выраженность."
+    },
+    {
+      "object_id": "louise-mushikiwabo",
+      "scale_id": "russia-conflict-policy-evaluation",
+      "decision": "reject",
+      "reason": "Факт9 и сам reason содержат обеспокоенность российской агрессией, солидарность с Украиной и мирный призыв, но не оправдание действий России. positive=2 прямо противоречит представленному обоснованию; новое число не ставится, разность не подтверждена."
+    },
+    {
+      "object_id": "claver-gatete",
+      "scale_id": "programmatic-renewal",
+      "decision": "repair_indices",
+      "reason": "Reason о продолжении Африканской зоны свободной торговли поддерживает11, отсутствующий среди10/12. В10/12 находятся реформы; добавление11 связывает обе части reason с тем же supplement.",
+      "evidence_indices": [
+        10,
+        11,
+        12
+      ]
+    },
+    {
+      "object_id": "claver-gatete",
+      "scale_id": "participation-administrative-direction",
+      "decision": "reject",
+      "reason": "positive=1 выведен из согласования государств/частного сектора, а не участия граждан и заинтересованных групп в подготовке решений/проверке результатов. Сам факт12 прямо указывает, что встреча не доказывает участие граждан."
+    },
+    {
+      "object_id": "claver-gatete",
+      "scale_id": "market-state-instruments",
+      "decision": "flag",
+      "reason": "negative=1 основан на государственных стимулах и координации, тогда как в8 прямо не установлены обязательные правила; проверить, подтверждены ли регулирование/планирование/надзор, а не просто содействие частным инвестициям."
+    },
+    {
+      "object_id": "claver-gatete",
+      "scale_id": "international-rules-autonomy",
+      "decision": "reject",
+      "reason": "negative=1 присвоен несмотря на прямое признание reason, что явная защита национальной самостоятельности не обнаружена. Нет опоры для численной оценки этого полюса."
+    },
+    {
+      "object_id": "claver-gatete",
+      "scale_id": "mediation-adversarial-communication",
+      "decision": "reject",
+      "reason": "negative=0 прямо основан на невыявленной полемике. Дополнительно описанный обмен между государствами находится в12, а не11; исправление индекса не устанавливает неизвестный противоположный полюс."
+    },
+    {
+      "object_id": "claver-gatete",
+      "scale_id": "problem-disclosure-reputation-defence",
+      "decision": "reject",
+      "reason": "В9/10 есть признание финансовых ограничений и предложения инструментов, но нет указанного эпизода опровержения репутационных описаний; negative=1 обоснован общим продвижением позитивного образа, что подменяет определение."
+    },
+    {
+      "object_id": "claver-gatete",
+      "scale_id": "institutional-autonomy-coordination",
+      "decision": "reject",
+      "reason": "positive=0 прямо объяснён отсутствием защиты самостоятельности институтов; координационные выступления не дают знания неизвестного автономистского полюса."
+    },
+    {
+      "object_id": "valentine-rugwabiza",
+      "scale_id": "programmatic-renewal",
+      "decision": "flag",
+      "reason": "positive=3 выведен из завершения избирательного цикла/институционального обновления, без явного предложения пересмотреть действующие правила.6/7/8 также один брифинг; это ограничение смысла и повторяемости, не новое число."
+    },
+    {
+      "object_id": "valentine-rugwabiza",
+      "scale_id": "government-course-assessment",
+      "decision": "reject",
+      "reason": "negative=0 прямо объяснён отсутствием критики курса.10 — сообщение миссии без отдельного личного заявления; поддержка властей ЦАР не устанавливает неизвестную критику."
+    },
+    {
+      "object_id": "valentine-rugwabiza",
+      "scale_id": "argumentation-evidence-values",
+      "decision": "flag",
+      "reason": "positive=3 описан как частое использование данных, но числа демобилизации/документов представлены в одном брифинге6.7 — продолжение того же выступления, не независимое подтверждение устойчивой аргументации."
+    },
+    {
+      "object_id": "valentine-rugwabiza",
+      "scale_id": "accessibility-growth-priorities",
+      "decision": "reject",
+      "reason": "negative=3 обоснован институциональным ростом, расширением государственной власти и выборами. Определение требует условий экономического роста/экспорта/инвестиций; это явная подмена конструкта."
+    },
+    {
+      "object_id": "valentine-rugwabiza",
+      "scale_id": "international-rules-autonomy",
+      "decision": "reject",
+      "reason": "negative=0 прямо основан на невыявленной национальной самостоятельности. Работа по мандату ООН сама по себе не подтверждает отсутствие противоположного публичного свойства."
+    },
+    {
+      "object_id": "valentine-rugwabiza",
+      "scale_id": "mediation-adversarial-communication",
+      "decision": "flag",
+      "reason": "positive=3 повторяющегося посредничества поддержан главным образом одним брифингом6;4/5 — осуждения нападений, не новые посреднические эпизоды. Проверить силу без автоматической замены."
+    },
+    {
+      "object_id": "valentine-rugwabiza",
+      "scale_id": "problem-disclosure-reputation-defence",
+      "decision": "repair_indices",
+      "reason": "Предупреждение об откате и защита прогресса прямо содержатся в16, а результаты миссии — в19. Исходные17/22 описывают послевыборный переход/проведённые выборы и не содержат указанного предупреждения.",
+      "evidence_indices": [
+        16,
+        19
+      ]
+    },
+    {
+      "object_id": "valentine-rugwabiza",
+      "scale_id": "electoral-access",
+      "decision": "reject",
+      "reason": "negative=0 прямо обоснован отсутствием оснований усиления барьеров. Поддержка регистрации и ресурсов не определяет неизвестный противоположный полюс."
+    },
+    {
+      "object_id": "valentine-rugwabiza",
+      "scale_id": "universal-targeted-provision",
+      "decision": "flag",
+      "reason": "Адресная выдача свидетельств подтверждена6, но универсальный полюс выведен из общей инклюзивности выборов7; проверить соответствие именно устройству всеобщих социальных гарантий, а не общей электоральной риторике."
+    }
+  ],
+  "checked_objects": [
+    "mussa-fazil-harerimana",
+    "pudence-rubingisa",
+    "samuel-dusengiyumva",
+    "frank-habineza",
+    "philippe-mpayimana",
+    "victoire-ingabire",
+    "diane-rwigara",
+    "bernard-ntaganda",
+    "christopher-kayumba",
+    "paul-rusesabagina",
+    "kayumba-nyamwasa",
+    "louise-mushikiwabo",
+    "claver-gatete",
+    "valentine-rugwabiza"
+  ],
+  "checked_observed": 94
+}

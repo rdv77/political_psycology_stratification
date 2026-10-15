@@ -1,0 +1,89 @@
+{
+  "data": {
+    "ratings": [
+      {
+        "scale_id": "prevention-crisis-response",
+        "positive": 1,
+        "negative": 1,
+        "status": "observed",
+        "confidence": 0.6,
+        "reason": "Иямуремье поддержал создание специального комитета для оценки условий жизни переселённых семей, что указывает на упреждающую проверку (позитивный полюс), а также нацелил комитет на принятие мер по итогам доклада, что отражает готовность к реагированию (негативный полюс). Оба проявления единичны и не повторяются как устойчивый акцент.",
+        "evidence_indices": [
+          8
+        ]
+      },
+      {
+        "scale_id": "electoral-access",
+        "positive": null,
+        "negative": null,
+        "status": "unknown",
+        "confidence": 0.2,
+        "reason": "В предоставленных материалах отсутствуют прямые проявления или предложения Иямуремье по расширению или ограничению доступа к выборной конкуренции.",
+        "evidence_indices": []
+      },
+      {
+        "scale_id": "institutional-autonomy-coordination",
+        "positive": null,
+        "negative": null,
+        "status": "unknown",
+        "confidence": 0.3,
+        "reason": "Есть упоминание о предложении обсуждать актуализацию комиссий Сената, но содержание и последствия реформы не раскрыты. Нет достаточных оснований для оценки акцентов на самостоятельности или координации институтов.",
+        "evidence_indices": [
+          15
+        ]
+      },
+      {
+        "scale_id": "taxation-burden-public-revenue",
+        "positive": null,
+        "negative": null,
+        "status": "unknown",
+        "confidence": 0.2,
+        "reason": "Нет фактов о публичных предложениях Иямуремье по снижению налоговой нагрузки или увеличению налоговых поступлений для публичного развития.",
+        "evidence_indices": []
+      },
+      {
+        "scale_id": "universal-targeted-provision",
+        "positive": 1,
+        "negative": 1,
+        "status": "observed",
+        "confidence": 0.6,
+        "reason": "Поддержка проверки условий жизни в модельных деревнях и акцент на оценке доступа к базовым услугам указывает на единичное проявление интереса к стандартам для всех (позитивный полюс) и к адресной поддержке конкретной группы переселённых семей (негативный полюс).",
+        "evidence_indices": [
+          8
+        ]
+      },
+      {
+        "scale_id": "ecological-limits-resource-use",
+        "positive": 1,
+        "negative": 1,
+        "status": "observed",
+        "confidence": 0.5,
+        "reason": "В эпизоде с проектом Gako Иямуремье одновременно поднимал вопросы о развитии производства (негативный полюс) и упоминал природоохранные проекты (позитивный полюс), но оба акцента выражены единично и не как устойчивый приоритет.",
+        "evidence_indices": [
+          9
+        ]
+      }
+    ]
+  },
+  "model": "gpt-4.1",
+  "task": "ratings-supplement-augustin-iyamuremye-12",
+  "at": "2026-10-15T15:14:40.697701+00:00",
+  "usage": {
+    "prompt_tokens": 5856,
+    "completion_tokens": 706,
+    "total_tokens": 6562,
+    "prompt_tokens_details": {
+      "cached_tokens": 2944,
+      "audio_tokens": 0
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "audio_tokens": 0,
+      "accepted_prediction_tokens": 0,
+      "rejected_prediction_tokens": 0
+    }
+  },
+  "citations": [],
+  "system_fingerprint": "fp_233583e333",
+  "cache_key": "66e4813b3c0db2af152268389ce2993d943895a57ae094a9c818d017c749fa82"
+}

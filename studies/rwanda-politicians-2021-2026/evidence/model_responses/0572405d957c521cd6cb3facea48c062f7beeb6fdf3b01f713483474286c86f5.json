@@ -1,0 +1,75 @@
+{
+  "data": {
+    "ratings": [
+      {
+        "scale_id": "prevention-crisis-response",
+        "positive": 1,
+        "negative": null,
+        "status": "unknown",
+        "confidence": 0.5,
+        "reason": "Есть единичные прямые публичные проявления профилактической риторики (антикоррупционная консультация, профилактика идеологии геноцида), но нет оснований для оценки выраженности оперативного реагирования.",
+        "evidence_indices": [
+          9,
+          15
+        ]
+      },
+      {
+        "scale_id": "electoral-access",
+        "positive": null,
+        "negative": null,
+        "status": "unknown",
+        "confidence": 0.3,
+        "reason": "Нет прямых персональных заявлений или действий Калинды по расширению или ограничению политического допуска; риторика о демократии не содержит конкретных предложений.",
+        "evidence_indices": []
+      },
+      {
+        "scale_id": "taxation-burden-public-revenue",
+        "positive": null,
+        "negative": null,
+        "status": "unknown",
+        "confidence": 0.2,
+        "reason": "В предоставленных материалах отсутствуют прямые персональные заявления или действия по снижению налоговой нагрузки либо увеличению общественных доходов.",
+        "evidence_indices": []
+      },
+      {
+        "scale_id": "universal-targeted-provision",
+        "positive": null,
+        "negative": null,
+        "status": "unknown",
+        "confidence": 0.2,
+        "reason": "Нет прямых персональных заявлений или действий Калинды по поддержке всеобщих стандартов или адресной помощи.",
+        "evidence_indices": []
+      },
+      {
+        "scale_id": "ecological-limits-resource-use",
+        "positive": null,
+        "negative": null,
+        "status": "unknown",
+        "confidence": 0.3,
+        "reason": "Нет прямых персональных позиций Калинды по усилению природоохранных ограничений или расширению хозяйственного использования ресурсов.",
+        "evidence_indices": []
+      }
+    ]
+  },
+  "model": "gpt-4.1",
+  "task": "ratings-supplement-francois-xavier-kalinda-12",
+  "at": "2026-10-15T15:14:24.936630+00:00",
+  "usage": {
+    "prompt_tokens": 5090,
+    "completion_tokens": 458,
+    "total_tokens": 5548,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "audio_tokens": 0
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "audio_tokens": 0,
+      "accepted_prediction_tokens": 0,
+      "rejected_prediction_tokens": 0
+    }
+  },
+  "citations": [],
+  "system_fingerprint": "fp_f25d2b37b0",
+  "cache_key": "0572405d957c521cd6cb3facea48c062f7beeb6fdf3b01f713483474286c86f5"
+}

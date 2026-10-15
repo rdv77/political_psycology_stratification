@@ -1,0 +1,90 @@
+{
+  "data": {
+    "ratings": [
+      {
+        "scale_id": "prevention-crisis-response",
+        "positive": 1,
+        "negative": 3,
+        "status": "observed",
+        "confidence": 0.8,
+        "reason": "В эпизоде с докладом парламенту Бирута описывает меры по снижению тюремной нагрузки, что указывает на отдельные профилактические шаги (альтернативные наказания, условное освобождение), но основной акцент — на административном реагировании и выравнивании загрузки учреждений. В выступлении в EAPCCO подчёркивается координация и совместная защита, что также ближе к оперативному реагированию.",
+        "evidence_indices": [
+          8,
+          9
+        ]
+      },
+      {
+        "scale_id": "electoral-access",
+        "positive": null,
+        "negative": null,
+        "status": "unknown",
+        "confidence": 0.0,
+        "reason": "В предоставленных материалах отсутствуют прямые проявления или заявления Бируты по вопросам расширения или ограничения доступа к выборам и политическому участию.",
+        "evidence_indices": []
+      },
+      {
+        "scale_id": "institutional-autonomy-coordination",
+        "positive": 0,
+        "negative": 3,
+        "status": "observed",
+        "confidence": 0.8,
+        "reason": "В эпизодах с председательством в EAPCCO и докладах парламенту Бирута подчёркивает важность координации, обмена информацией и совместного исполнения задач, что свидетельствует о выраженном акценте на согласованной управленческой линии. Признаков публичной защиты автономии институтов не выявлено.",
+        "evidence_indices": [
+          8,
+          9
+        ]
+      },
+      {
+        "scale_id": "taxation-burden-public-revenue",
+        "positive": null,
+        "negative": null,
+        "status": "unknown",
+        "confidence": 0.0,
+        "reason": "В предоставленных фактах отсутствуют персональные заявления или действия Бируты, связанные с налоговой нагрузкой или политикой общественных доходов.",
+        "evidence_indices": []
+      },
+      {
+        "scale_id": "universal-targeted-provision",
+        "positive": 1,
+        "negative": 1,
+        "status": "observed",
+        "confidence": 0.6,
+        "reason": "В эпизоде о соглашении с Великобританией Бирута заявляет о предоставлении достойных условий и интеграции для просителей убежища, что указывает на адресную поддержку. В докладе парламенту отмечается применение альтернативных наказаний и общественных работ, что может рассматриваться как элемент универсализации доступа к мерам исполнения, однако оба проявления единичны и не охватывают всю социальную политику.",
+        "evidence_indices": [
+          7,
+          9
+        ]
+      },
+      {
+        "scale_id": "ecological-limits-resource-use",
+        "positive": null,
+        "negative": null,
+        "status": "unknown",
+        "confidence": 0.0,
+        "reason": "В предоставленных материалах отсутствуют прямые проявления или заявления Бируты по вопросам экологических ограничений или расширения хозяйственного использования природных ресурсов.",
+        "evidence_indices": []
+      }
+    ]
+  },
+  "model": "gpt-4.1",
+  "task": "ratings-supplement-vincent-biruta-12",
+  "at": "2026-10-15T15:10:02.150892+00:00",
+  "usage": {
+    "prompt_tokens": 4654,
+    "completion_tokens": 740,
+    "total_tokens": 5394,
+    "prompt_tokens_details": {
+      "cached_tokens": 2944,
+      "audio_tokens": 0
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "audio_tokens": 0,
+      "accepted_prediction_tokens": 0,
+      "rejected_prediction_tokens": 0
+    }
+  },
+  "citations": [],
+  "system_fingerprint": "fp_233583e333",
+  "cache_key": "008c316da800d210045f7a62a8c88f0b13c3ce738798fab4c35388bef85f5c99"
+}

@@ -164,10 +164,13 @@ class Application:
                 for chart in preview.get("charts", []):
                     artifacts.append({"label": chart["title"], "format": "png",
                                       "url": f"/api/studies/{identifier}/files/{chart['file']}"})
-                self.store.update(identifier, status="await_factor_selection", analysis=preview,
+                insufficient = preview.get("measurement_status") == "insufficient_data"
+                self.store.update(identifier, status="needs_measurement" if insufficient else "await_factor_selection", analysis=preview,
                                   artifacts=artifacts, error=None)
-                self.store.log(identifier, "Короткий отчёт готов. Выберите факторное решение перед расширенным отчётом и слайдами",
-                               "factor_selection", 1, 1)
+                self.store.log(identifier,
+                               "Недостаточно сопоставимых измерений. Короткий аудит покрытия готов" if insufficient else
+                               "Короткий отчёт готов. Выберите факторное решение перед расширенным отчётом и слайдами",
+                               "measurement_review" if insufficient else "factor_selection", 1, 1)
                 return
             self.store.log(identifier, "Проверка матрицы, факторный и кластерный анализ", "analysis", 0, 1)
             from .analysis import analyze_study

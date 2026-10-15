@@ -1,0 +1,162 @@
+{
+  "data": {
+    "ratings": [
+      {
+        "scale_id": "programmatic-renewal",
+        "positive": 0,
+        "negative": 5,
+        "status": "observed",
+        "confidence": 0.95,
+        "reason": "В публичных заявлениях Хареримана подчёркивает необходимость сохранения и продолжения курса действующего руководства, не предлагая программных изменений (факты 6, 10, 11).",
+        "evidence_indices": [
+          6,
+          10,
+          11
+        ]
+      },
+      {
+        "scale_id": "government-course-assessment",
+        "positive": 5,
+        "negative": 0,
+        "status": "observed",
+        "confidence": 0.95,
+        "reason": "Хареримана неоднократно выражал поддержку действующему курсу, руководству страны и достижениям власти, не выявлено критики (факты 6, 8, 10, 11).",
+        "evidence_indices": [
+          6,
+          8,
+          10,
+          11
+        ]
+      },
+      {
+        "scale_id": "participation-administrative-direction",
+        "positive": null,
+        "negative": null,
+        "status": "unknown",
+        "confidence": 0.3,
+        "reason": "Нет прямых свидетельств о публичных призывах к совместному обсуждению решений или административной координации в предоставленных фактах.",
+        "evidence_indices": []
+      },
+      {
+        "scale_id": "argumentation-evidence-values",
+        "positive": 0,
+        "negative": 5,
+        "status": "observed",
+        "confidence": 0.9,
+        "reason": "Аргументация Харериманы строится на ценностях, коллективной памяти и национальном единстве, без опоры на данные или исследования (факты 8, 9, 11).",
+        "evidence_indices": [
+          8,
+          9,
+          11
+        ]
+      },
+      {
+        "scale_id": "market-state-instruments",
+        "positive": null,
+        "negative": null,
+        "status": "unknown",
+        "confidence": 0.3,
+        "reason": "Нет прямых заявлений о приоритете частной инициативы или государственного регулирования в предоставленных материалах.",
+        "evidence_indices": []
+      },
+      {
+        "scale_id": "accessibility-growth-priorities",
+        "positive": null,
+        "negative": null,
+        "status": "unknown",
+        "confidence": 0.3,
+        "reason": "В материалах отсутствуют прямые заявления о приоритете расширения доступности благ или инвестиционного роста.",
+        "evidence_indices": []
+      },
+      {
+        "scale_id": "external-domestic-resources",
+        "positive": 0,
+        "negative": 1,
+        "status": "observed",
+        "confidence": 0.7,
+        "reason": "В одном эпизоде Хареримана призывает к внутреннему вкладу граждан для решения проблем, но не делает акцента на внешних ресурсах (факт 9).",
+        "evidence_indices": [
+          9
+        ]
+      },
+      {
+        "scale_id": "international-rules-autonomy",
+        "positive": null,
+        "negative": null,
+        "status": "unknown",
+        "confidence": 0.3,
+        "reason": "Нет прямых заявлений о приоритете международных обязательств или национальной автономии в предоставленных фактах.",
+        "evidence_indices": []
+      },
+      {
+        "scale_id": "mediation-adversarial-communication",
+        "positive": 1,
+        "negative": 1,
+        "status": "observed",
+        "confidence": 0.6,
+        "reason": "Есть единичные проявления координационного подхода (работа с другими партиями) и защиты собственной стороны (осуждение политики разделения), но это не устойчивый акцент (факт 6, 8).",
+        "evidence_indices": [
+          6,
+          8
+        ]
+      },
+      {
+        "scale_id": "cultural-openness-national-transmission",
+        "positive": 0,
+        "negative": 5,
+        "status": "observed",
+        "confidence": 0.9,
+        "reason": "Хареримана последовательно подчёркивает важность национальных ценностей, традиций и передачи культурных норм (факты 9, 11, 12).",
+        "evidence_indices": [
+          9,
+          11,
+          12
+        ]
+      },
+      {
+        "scale_id": "problem-disclosure-reputation-defence",
+        "positive": 0,
+        "negative": 5,
+        "status": "observed",
+        "confidence": 0.9,
+        "reason": "Преобладает защита репутации страны и политики, публичное опровержение деструктивных позиций, отсутствует раскрытие проблем (факты 8, 11).",
+        "evidence_indices": [
+          8,
+          11
+        ]
+      },
+      {
+        "scale_id": "procedural-guarantees-enforcement",
+        "positive": 0,
+        "negative": 1,
+        "status": "observed",
+        "confidence": 0.7,
+        "reason": "В одном случае Хареримана допускает возможность наказания за нарушение культурных норм по усмотрению судьи, что свидетельствует о признании принудительного исполнения, но не как устойчивый акцент (факт 12).",
+        "evidence_indices": [
+          12
+        ]
+      }
+    ]
+  },
+  "model": "gpt-4.1",
+  "task": "ratings-supplement-mussa-fazil-harerimana-0",
+  "at": "2026-10-15T15:17:08.361619+00:00",
+  "usage": {
+    "prompt_tokens": 6748,
+    "completion_tokens": 1224,
+    "total_tokens": 7972,
+    "prompt_tokens_details": {
+      "cached_tokens": 3968,
+      "audio_tokens": 0
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "audio_tokens": 0,
+      "accepted_prediction_tokens": 0,
+      "rejected_prediction_tokens": 0
+    }
+  },
+  "citations": [],
+  "system_fingerprint": "fp_6d7f4b5803",
+  "cache_key": "356626926f3d829378319ab23635a06e2d8a3c67a265262eb999ec4740a5b64d"
+}

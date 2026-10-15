@@ -11,7 +11,7 @@ import numpy as np
 from src.semantic_service.factor_preview import (
     _factor_meaning_rows, _russia_factor_review, _theme_configuration, preview_factors,
 )
-from src.semantic_service.analysis import _factor_descriptions
+from src.semantic_service.analysis import InsufficientMeasurementError, _factor_descriptions
 
 
 def fixture(n=16, p=8):
@@ -33,6 +33,74 @@ def configuration(scales, count=3):
 
 
 class FactorPreviewTests(unittest.TestCase):
+    def test_insufficient_measurements_export_counts_without_fitting_or_fake_variance(self):
+        for failure in ("minimum_retained_dimensions", "empty_matrix", "minimum_retained_coverage"):
+            with self.subTest(failure=failure):
+                n, p = (16, 8) if failure == "minimum_retained_coverage" else (42, 24)
+                study, ratings = fixture(n=n, p=p)
+                study["research_requirements"] = {"required_scales": study["scales"][:3]}
+                for row in ratings:
+                    i = int(row["object_id"].split("o")[1])
+                    j = int(row["scale_id"].removeprefix("test-s"))
+                    known = (j < 5 or (j == 5 and i < 10)) if p == 24 else (i + j) % 8 >= 3
+                    if failure == "empty_matrix":
+                        known = False
+                    if not known:
+                        row["status"] = "unknown"
+                expected_count = sum(row["status"] == "observed" for row in ratings)
+                before = deepcopy(study), deepcopy(ratings)
+                with tempfile.TemporaryDirectory() as directory, \
+                     patch("src.semantic_service.factor_preview._dimension_analysis") as fit, \
+                     patch("src.semantic_service.factor_preview._draw_loadings") as draw:
+                    result = preview_factors(study, ratings, Path(directory))
+                    saved = json.loads((Path(directory) / "factor_preview.json").read_text(encoding="utf-8"))
+                    markdown = (Path(directory) / "factor_preview.md").read_text(encoding="utf-8")
+                    self.assertEqual(sorted(path.name for path in Path(directory).iterdir()),
+                                     ["factor_preview.json", "factor_preview.md"])
+                self.assertEqual(result, saved)
+                self.assertEqual(result["measurement_status"], "insufficient_data")
+                self.assertEqual(result["models"], [])
+                self.assertEqual(result["dimension_candidates"], [])
+                self.assertIsNone(result["recommended_q"])
+                self.assertIsNone(result["dimension_selection"]["recommended_q"])
+                self.assertEqual(result["russia_review"]["status"], "insufficient_measurement")
+                self.assertNotIn("variance_total", result)
+                self.assertNotIn('"variance_share"', json.dumps(result))
+                self.assertNotIn("clusters", result)
+                diagnostics = result["diagnostics"]
+                self.assertEqual(diagnostics["failure_code"], "minimum_retained_dimensions" if failure == "empty_matrix" else failure)
+                if failure == "empty_matrix":
+                    self.assertIsNone(diagnostics["retained_coverage"])
+                    self.assertEqual((result["n_objects"], result["n_scales"]), (0, 0))
+                self.assertFalse(diagnostics["factor_analysis_started"])
+                self.assertEqual(diagnostics["observed_input_ratings"], expected_count)
+                self.assertEqual(diagnostics["unknown_input_cells"], n * p - expected_count)
+                self.assertEqual(len(diagnostics["input_object_coverage"]), n)
+                self.assertEqual(len(diagnostics["input_scale_coverage"]), p)
+                self.assertEqual(sum(item["observed_scales"] for item in diagnostics["input_object_coverage"]), expected_count)
+                self.assertEqual(sum(item["observed_objects"] for item in diagnostics["input_scale_coverage"]), expected_count)
+                self.assertIn(study["objects"][-1]["name"], markdown)
+                self.assertIn(study["scales"][-1]["name"], markdown)
+                self.assertIn("FA не запускался", markdown)
+                self.assertIn("не равны нулю", markdown)
+                fit.assert_not_called()
+                draw.assert_not_called()
+                self.assertEqual((study, ratings), before)
+
+    def test_invalid_duplicate_rating_is_not_swallowed_as_insufficient_measurement(self):
+        study, ratings = fixture()
+        for row in ratings:
+            row["status"] = "unknown"
+        ratings.append(deepcopy(ratings[0]))
+        with tempfile.TemporaryDirectory() as directory, \
+             patch("src.semantic_service.factor_preview._dimension_analysis") as fit:
+            output = Path(directory) / "should-not-exist"
+            with self.assertRaisesRegex(ValueError, "Повторная оценка") as caught:
+                preview_factors(study, ratings, output)
+            self.assertNotIsInstance(caught.exception, InsufficientMeasurementError)
+            self.assertFalse(output.exists())
+            fit.assert_not_called()
+
     def test_mixed_signed_three_family_candidate_is_numeric_not_validated(self):
         study, _ = fixture(p=6)
         vector = np.array([[.65], [-.60], [.50], [.80], [.1], [0.]])
@@ -144,14 +212,14 @@ class FactorPreviewTests(unittest.TestCase):
             result = preview_factors(study, ratings, Path(directory), make_charts=True)
             self.assertTrue((Path(directory) / "factor_preview.json").is_file())
             self.assertTrue(all((Path(directory) / chart["file"]).is_file() for chart in result["charts"]))
-        self.assertEqual([m["q"] for m in result["models"]], [2, 3, 4, 5, 6])
+        self.assertEqual([m["q"] for m in result["models"]], [2, 3])
         self.assertEqual(result["n_scales"], 7)
         self.assertEqual(result["russia_review"]["excluded_ids"], ["test-s0"])
         self.assertEqual(result["russia_review"]["status"], "insufficient_measurement")
         self.assertEqual(result["russia_review"]["scale_coverage"][0]["observed_count"], 8)
         self.assertEqual(result["russia_review"]["scale_coverage"][0]["observed_input_count"], 8)
         self.assertFalse(result["russia_review"]["scale_coverage"][0]["retained"])
-        self.assertEqual(len(result["charts"]), 5)
+        self.assertEqual(len(result["charts"]), 2)
 
 
 if __name__ == "__main__":

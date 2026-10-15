@@ -1,0 +1,83 @@
+{
+  "data": {
+    "ratings": [
+      {
+        "scale_id": "government-course-assessment",
+        "positive": 3,
+        "negative": 0,
+        "status": "observed",
+        "confidence": 0.9,
+        "reason": "В ряде публичных выступлений и официальных актов Угирасебуджа прямо поддерживал действующий курс в сфере правосудия, антикоррупционной политики, расширения доступа к правосудию и профилактики конфликтов. Прямой публичной критики курса не выявлено.",
+        "evidence_indices": [
+          9,
+          12,
+          13,
+          15
+        ]
+      },
+      {
+        "scale_id": "market-state-instruments",
+        "positive": 1,
+        "negative": 3,
+        "status": "observed",
+        "confidence": 0.8,
+        "reason": "Отмечено прямое публичное одобрение государственно-частного партнёрства и благодарность частному сектору, однако акцент в риторике делается на государственном регулировании, институциональных рамках и управлении. Независимое расширение частной инициативы вне регулируемой модели не подтверждено.",
+        "evidence_indices": [
+          9,
+          11
+        ]
+      },
+      {
+        "scale_id": "external-domestic-resources",
+        "positive": null,
+        "negative": null,
+        "status": "unknown",
+        "confidence": 0.3,
+        "reason": "В предоставленных фактах отсутствуют прямые датированные основания для оценки акцента на привлечении внешнего финансирования или опоре на внутренние ресурсы.",
+        "evidence_indices": []
+      },
+      {
+        "scale_id": "international-rules-autonomy",
+        "positive": null,
+        "negative": null,
+        "status": "unknown",
+        "confidence": 0.4,
+        "reason": "Есть участие в международных институциональных форматах и правовых спорах, но нет прямых публичных заявлений о закреплении международных обязательств или защите национальной самостоятельности как личной позиции.",
+        "evidence_indices": [
+          6,
+          14
+        ]
+      },
+      {
+        "scale_id": "cultural-openness-national-transmission",
+        "positive": null,
+        "negative": null,
+        "status": "unknown",
+        "confidence": 0.2,
+        "reason": "В материалах отсутствуют прямые публичные заявления или инициативы, позволяющие оценить акцент на межкультурном обмене либо сохранении национальных ценностей.",
+        "evidence_indices": []
+      }
+    ]
+  },
+  "model": "gpt-4.1",
+  "task": "ratings-supplement-emmanuel-ugirashebuja-0",
+  "at": "2026-10-15T15:11:21.647916+00:00",
+  "usage": {
+    "prompt_tokens": 5120,
+    "completion_tokens": 436,
+    "total_tokens": 5556,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "audio_tokens": 0
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "audio_tokens": 0,
+      "accepted_prediction_tokens": 0,
+      "rejected_prediction_tokens": 0
+    }
+  },
+  "citations": [],
+  "system_fingerprint": "fp_7b2086d4c2",
+  "cache_key": "1f074ba8cd4ac7178eb3b6291807b88f000050bf2397de1ea4867deb183107d8"
+}

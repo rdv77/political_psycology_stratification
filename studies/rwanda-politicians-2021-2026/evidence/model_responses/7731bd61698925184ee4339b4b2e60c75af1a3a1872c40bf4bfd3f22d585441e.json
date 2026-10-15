@@ -1,0 +1,96 @@
+{
+  "data": {
+    "ratings": [
+      {
+        "scale_id": "prevention-crisis-response",
+        "positive": 5,
+        "negative": 2,
+        "status": "observed",
+        "confidence": 0.95,
+        "reason": "Публичный образ Нсанзиманы устойчиво акцентирует упреждающую подготовку и профилактику: приоритет готовности к эпидемиям, профилактика НИЗ, развитие первичной помощи, международное сотрудничество для предотвращения кризисов. В то же время эпизод с реагированием на вспышку болезни Марбург подтверждает и выраженность оперативного реагирования, хотя оно не является центральным акцентом.",
+        "evidence_indices": [
+          0,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          10,
+          11
+        ]
+      },
+      {
+        "scale_id": "electoral-access",
+        "positive": null,
+        "negative": null,
+        "status": "unknown",
+        "confidence": 0,
+        "reason": "Нет прямых персональных заявлений или действий Нсанзиманы по расширению или ограничению политического допуска; все факты касаются сферы здравоохранения.",
+        "evidence_indices": []
+      },
+      {
+        "scale_id": "institutional-autonomy-coordination",
+        "positive": null,
+        "negative": null,
+        "status": "unknown",
+        "confidence": 0,
+        "reason": "Нет оснований для оценки отношения Нсанзиманы к самостоятельности или координации институтов вне сектора здравоохранения.",
+        "evidence_indices": []
+      },
+      {
+        "scale_id": "taxation-burden-public-revenue",
+        "positive": null,
+        "negative": null,
+        "status": "unknown",
+        "confidence": 0,
+        "reason": "Нет персональных позиций или действий по налоговой нагрузке или публичным доходам.",
+        "evidence_indices": []
+      },
+      {
+        "scale_id": "universal-targeted-provision",
+        "positive": 4,
+        "negative": 2,
+        "status": "observed",
+        "confidence": 0.8,
+        "reason": "Нсанзимана подчёркивал всеобщий охват услугами здравоохранения, универсальные стандарты (например, спасение матери и ребёнка как безусловная цель), но также отмечал необходимость приоритетных мер для отдельных групп (молодёжь, уязвимые).",
+        "evidence_indices": [
+          3,
+          4,
+          5,
+          6
+        ]
+      },
+      {
+        "scale_id": "ecological-limits-resource-use",
+        "positive": null,
+        "negative": null,
+        "status": "unknown",
+        "confidence": 0,
+        "reason": "Нет данных о публичных позициях или действиях Нсанзиманы по вопросам экологических ограничений или расширения использования ресурсов.",
+        "evidence_indices": []
+      }
+    ]
+  },
+  "model": "gpt-4.1",
+  "task": "ratings-sabin-nsanzimana-12",
+  "at": "2026-10-15T15:11:43.505478+00:00",
+  "usage": {
+    "prompt_tokens": 5142,
+    "completion_tokens": 500,
+    "total_tokens": 5642,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "audio_tokens": 0
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "audio_tokens": 0,
+      "accepted_prediction_tokens": 0,
+      "rejected_prediction_tokens": 0
+    }
+  },
+  "citations": [],
+  "system_fingerprint": "fp_233583e333",
+  "cache_key": "7731bd61698925184ee4339b4b2e60c75af1a3a1872c40bf4bfd3f22d585441e"
+}

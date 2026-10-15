@@ -1,0 +1,151 @@
+{
+  "data": {
+    "ratings": [
+      {
+        "scale_id": "programmatic-renewal",
+        "positive": null,
+        "negative": null,
+        "status": "unknown",
+        "confidence": 0.7,
+        "reason": "В предоставленных фактах нет прямых публичных заявлений Ингабире о необходимости программного изменения или продолжения существующего курса; описывается лишь её исключение из политического процесса и судебные споры.",
+        "evidence_indices": []
+      },
+      {
+        "scale_id": "government-course-assessment",
+        "positive": 0,
+        "negative": 3,
+        "status": "observed",
+        "confidence": 0.85,
+        "reason": "Ингабире публично связывала отказ в реабилитации с системными проблемами страны, отмеченными правозащитниками, что является повторяющимся акцентом на критике действующего курса. Прямой поддержки курса не выявлено.",
+        "evidence_indices": [
+          2,
+          4,
+          5,
+          6,
+          10,
+          11,
+          12
+        ]
+      },
+      {
+        "scale_id": "participation-administrative-direction",
+        "positive": null,
+        "negative": null,
+        "status": "unknown",
+        "confidence": 0.6,
+        "reason": "Нет данных о публичных инициативах Ингабире по совместному обсуждению решений или административной координации; факты касаются ограничений и судебных процессов.",
+        "evidence_indices": []
+      },
+      {
+        "scale_id": "argumentation-evidence-values",
+        "positive": null,
+        "negative": null,
+        "status": "unknown",
+        "confidence": 0.6,
+        "reason": "В материалах отсутствуют примеры, где Ингабире использует либо доказательную, либо ценностную аргументацию в публичных заявлениях.",
+        "evidence_indices": []
+      },
+      {
+        "scale_id": "market-state-instruments",
+        "positive": null,
+        "negative": null,
+        "status": "unknown",
+        "confidence": 0.5,
+        "reason": "Нет сведений о публичных позициях Ингабире по вопросам частной инициативы или государственного регулирования.",
+        "evidence_indices": []
+      },
+      {
+        "scale_id": "accessibility-growth-priorities",
+        "positive": null,
+        "negative": null,
+        "status": "unknown",
+        "confidence": 0.5,
+        "reason": "В источниках отсутствуют заявления Ингабире о приоритетах доступности благ или инвестиционного роста.",
+        "evidence_indices": []
+      },
+      {
+        "scale_id": "external-domestic-resources",
+        "positive": null,
+        "negative": null,
+        "status": "unknown",
+        "confidence": 0.5,
+        "reason": "Нет оснований для оценки позиций Ингабире по привлечению внешних ресурсов или опоре на внутренние.",
+        "evidence_indices": []
+      },
+      {
+        "scale_id": "international-rules-autonomy",
+        "positive": null,
+        "negative": null,
+        "status": "unknown",
+        "confidence": 0.5,
+        "reason": "Не выявлено прямых заявлений Ингабире о международных обязательствах или защите национальной самостоятельности.",
+        "evidence_indices": []
+      },
+      {
+        "scale_id": "mediation-adversarial-communication",
+        "positive": null,
+        "negative": null,
+        "status": "unknown",
+        "confidence": 0.6,
+        "reason": "Хотя Ингабире оспаривала обвинения и связывала их с системными проблемами, нет достаточных данных о её стиле коммуникации — посредничество или полемика.",
+        "evidence_indices": []
+      },
+      {
+        "scale_id": "cultural-openness-national-transmission",
+        "positive": null,
+        "negative": null,
+        "status": "unknown",
+        "confidence": 0.5,
+        "reason": "В материалах отсутствуют сведения о публичных позициях Ингабире по вопросам культурного обмена или национальных ценностей.",
+        "evidence_indices": []
+      },
+      {
+        "scale_id": "problem-disclosure-reputation-defence",
+        "positive": 1,
+        "negative": 3,
+        "status": "observed",
+        "confidence": 0.8,
+        "reason": "Ингабире публично связывала личные ограничения с системными проблемами страны (единичное раскрытие проблем), но также последовательно отрицала обвинения и защищала свою позицию (повторяющийся акцент на защите репутации).",
+        "evidence_indices": [
+          2,
+          7,
+          11
+        ]
+      },
+      {
+        "scale_id": "procedural-guarantees-enforcement",
+        "positive": 3,
+        "negative": 0,
+        "status": "observed",
+        "confidence": 0.8,
+        "reason": "Ингабире неоднократно использовала судебные и конституционные процедуры для защиты своих прав, что свидетельствует о повторяющемся акценте на процедурных гарантиях. Признаков акцента на принудительном исполнении не выявлено.",
+        "evidence_indices": [
+          3,
+          8,
+          9
+        ]
+      }
+    ]
+  },
+  "model": "gpt-4.1",
+  "task": "ratings-victoire-ingabire-0",
+  "at": "2026-10-15T15:17:29.806393+00:00",
+  "usage": {
+    "prompt_tokens": 6471,
+    "completion_tokens": 1181,
+    "total_tokens": 7652,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "audio_tokens": 0
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "audio_tokens": 0,
+      "accepted_prediction_tokens": 0,
+      "rejected_prediction_tokens": 0
+    }
+  },
+  "citations": [],
+  "system_fingerprint": "fp_6d7f4b5803",
+  "cache_key": "fbdaee32523829f66b80be67b3238490b56155dda28af0ff5b0211df88e269a4"
+}

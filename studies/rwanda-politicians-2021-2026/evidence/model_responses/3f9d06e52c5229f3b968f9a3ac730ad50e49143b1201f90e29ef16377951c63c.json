@@ -1,0 +1,162 @@
+{
+  "data": {
+    "ratings": [
+      {
+        "scale_id": "programmatic-renewal",
+        "positive": 0,
+        "negative": 3,
+        "status": "observed",
+        "confidence": 0.8,
+        "reason": "В публичных заявлениях и итогах работы в RDB и NBA Africa Акаманзи подчёркивает развитие уже созданной динамики, продолжение инвестиционного и спортивного продвижения, не предлагая пересмотра курса. Прямых призывов к программному изменению не выявлено.",
+        "evidence_indices": [
+          6,
+          7,
+          9
+        ]
+      },
+      {
+        "scale_id": "government-course-assessment",
+        "positive": null,
+        "negative": null,
+        "status": "unknown",
+        "confidence": 0.3,
+        "reason": "Нет прямых персональных оценок действующего государственного курса или его критики в предоставленных материалах.",
+        "evidence_indices": []
+      },
+      {
+        "scale_id": "participation-administrative-direction",
+        "positive": 3,
+        "negative": 3,
+        "status": "observed",
+        "confidence": 0.8,
+        "reason": "В ряде интервью и публичных описаний Акаманзи подчёркивает согласовательные механизмы (приглашение разных секторов к совместной работе), а также управленческую постановку задач (инициативы по строительству площадок, развитию инфраструктуры).",
+        "evidence_indices": [
+          10,
+          11,
+          12
+        ]
+      },
+      {
+        "scale_id": "argumentation-evidence-values",
+        "positive": 3,
+        "negative": 0,
+        "status": "observed",
+        "confidence": 0.7,
+        "reason": "В публичных заявлениях используется аргументация через данные, измеримые результаты и исследования; ценностная риторика о национальной идентичности или символах не выявлена.",
+        "evidence_indices": [
+          9,
+          10
+        ]
+      },
+      {
+        "scale_id": "market-state-instruments",
+        "positive": 3,
+        "negative": 0,
+        "status": "observed",
+        "confidence": 0.7,
+        "reason": "Акцент на поддержке частных инвестиций, создании платформ для бизнеса и расширении возможностей частного сектора; прямых призывов к расширению государственного планирования не обнаружено.",
+        "evidence_indices": [
+          1,
+          2,
+          7,
+          9
+        ]
+      },
+      {
+        "scale_id": "accessibility-growth-priorities",
+        "positive": 1,
+        "negative": 3,
+        "status": "observed",
+        "confidence": 0.8,
+        "reason": "В ряде заявлений упоминается социальный адресат (семьи, сообщества, инфраструктура), однако основной акцент — на инвестиционном росте, конкурентоспособности и деловой активности.",
+        "evidence_indices": [
+          1,
+          7,
+          9,
+          10
+        ]
+      },
+      {
+        "scale_id": "external-domestic-resources",
+        "positive": null,
+        "negative": null,
+        "status": "unknown",
+        "confidence": 0.4,
+        "reason": "Нет прямых персональных заявлений о приоритете внешнего финансирования или внутренней самостоятельности.",
+        "evidence_indices": []
+      },
+      {
+        "scale_id": "international-rules-autonomy",
+        "positive": 1,
+        "negative": 0,
+        "status": "observed",
+        "confidence": 0.6,
+        "reason": "В одном интервью упоминается облегчение визовых процедур и трансграничное сотрудничество, что может указывать на поддержку международных механизмов, но без прямых призывов к обязательным международным нормам или защите национальной самостоятельности.",
+        "evidence_indices": [
+          10
+        ]
+      },
+      {
+        "scale_id": "mediation-adversarial-communication",
+        "positive": 1,
+        "negative": 0,
+        "status": "observed",
+        "confidence": 0.6,
+        "reason": "Есть персонально атрибутированное описание согласовательного подхода (приглашение разных организаций к совместной работе), но нет признаков полемической защиты или конфронтации.",
+        "evidence_indices": [
+          11
+        ]
+      },
+      {
+        "scale_id": "cultural-openness-national-transmission",
+        "positive": 1,
+        "negative": 0,
+        "status": "observed",
+        "confidence": 0.6,
+        "reason": "В интервью отмечается содействие межкультурной мобильности и обмену, однако акцент на сохранении национальных ценностей отсутствует.",
+        "evidence_indices": [
+          10
+        ]
+      },
+      {
+        "scale_id": "problem-disclosure-reputation-defence",
+        "positive": null,
+        "negative": null,
+        "status": "unknown",
+        "confidence": 0.4,
+        "reason": "Нет прямых персональных заявлений о публичном раскрытии проблем или защите репутации страны/политики.",
+        "evidence_indices": []
+      },
+      {
+        "scale_id": "procedural-guarantees-enforcement",
+        "positive": null,
+        "negative": null,
+        "status": "unknown",
+        "confidence": 0.3,
+        "reason": "Нет прямых оснований для оценки акцентов на процедурных гарантиях или принудительном исполнении.",
+        "evidence_indices": []
+      }
+    ]
+  },
+  "model": "gpt-4.1",
+  "task": "ratings-supplement-clare-akamanzi-0",
+  "at": "2026-10-15T15:13:29.128940+00:00",
+  "usage": {
+    "prompt_tokens": 6542,
+    "completion_tokens": 923,
+    "total_tokens": 7465,
+    "prompt_tokens_details": {
+      "cached_tokens": 4992,
+      "audio_tokens": 0
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "audio_tokens": 0,
+      "accepted_prediction_tokens": 0,
+      "rejected_prediction_tokens": 0
+    }
+  },
+  "citations": [],
+  "system_fingerprint": "fp_6d7f4b5803",
+  "cache_key": "3f9d06e52c5229f3b968f9a3ac730ad50e49143b1201f90e29ef16377951c63c"
+}

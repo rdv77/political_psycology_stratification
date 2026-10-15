@@ -1,0 +1,95 @@
+{
+  "data": {
+    "ratings": [
+      {
+        "scale_id": "prevention-crisis-response",
+        "positive": null,
+        "negative": null,
+        "status": "unknown",
+        "confidence": 0.5,
+        "reason": "В предоставленных материалах нет прямых или повторяющихся публичных проявлений упреждающей профилактики рисков или оперативного реагирования на кризисы, связанных с личной позицией Жан-Клода Мусабийимана. Описанные эпизоды отражают участие в межведомственных программах и церемониях, но не дают оснований для оценки выраженности каждого полюса.",
+        "evidence_indices": [
+          3,
+          4,
+          5
+        ]
+      },
+      {
+        "scale_id": "electoral-access",
+        "positive": null,
+        "negative": null,
+        "status": "unknown",
+        "confidence": 0.5,
+        "reason": "Есть упоминание о взаимодействии с избирательной комиссией и призыве к высокой явке, однако нет прямых персональных инициатив по расширению или ограничению политического допуска. Формальное признание независимости комиссии не является выражением одного из полюсов.",
+        "evidence_indices": [
+          2
+        ]
+      },
+      {
+        "scale_id": "institutional-autonomy-coordination",
+        "positive": 1,
+        "negative": 3,
+        "status": "observed",
+        "confidence": 0.7,
+        "reason": "В ряде эпизодов подчёркивается координация между министерством, другими ведомствами и органами власти (межведомственные программы, церемонии передачи полномочий), что свидетельствует о выраженном акценте на согласованной работе институтов. При этом в одном случае публично отмечена важность сохранения независимости избирательной комиссии, что трактуется как единичное проявление поддержки автономии.",
+        "evidence_indices": [
+          1,
+          2,
+          3,
+          4
+        ]
+      },
+      {
+        "scale_id": "taxation-burden-public-revenue",
+        "positive": null,
+        "negative": null,
+        "status": "unknown",
+        "confidence": 0.5,
+        "reason": "В предоставленных материалах отсутствуют прямые публичные проявления или инициативы, связанные с налоговой нагрузкой, имущественной самостоятельностью или увеличением общественных доходов.",
+        "evidence_indices": []
+      },
+      {
+        "scale_id": "universal-targeted-provision",
+        "positive": null,
+        "negative": null,
+        "status": "unknown",
+        "confidence": 0.5,
+        "reason": "Участие в программах строительства домов и инфраструктуры для нуждающихся не сопровождается риторикой или инициативами, позволяющими отнести стиль к универсальным гарантиям или адресной поддержке как устойчивой черте публичного образа.",
+        "evidence_indices": [
+          3,
+          4
+        ]
+      },
+      {
+        "scale_id": "ecological-limits-resource-use",
+        "positive": null,
+        "negative": null,
+        "status": "unknown",
+        "confidence": 0.5,
+        "reason": "В материалах отсутствуют сведения о публичных заявлениях или инициативах, связанных с экологическими ограничениями или расширением хозяйственного использования природных ресурсов.",
+        "evidence_indices": []
+      }
+    ]
+  },
+  "model": "gpt-4.1",
+  "task": "ratings-jean-claude-musabyimana-12",
+  "at": "2026-10-15T15:12:49.492944+00:00",
+  "usage": {
+    "prompt_tokens": 4206,
+    "completion_tokens": 594,
+    "total_tokens": 4800,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "audio_tokens": 0
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "audio_tokens": 0,
+      "accepted_prediction_tokens": 0,
+      "rejected_prediction_tokens": 0
+    }
+  },
+  "citations": [],
+  "system_fingerprint": "fp_233583e333",
+  "cache_key": "c505bef6b87a531a85b5d35465c4a887bca064bf43de8d22610766dda395b07a"
+}

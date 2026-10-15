@@ -1,0 +1,80 @@
+{
+  "data": {
+    "ratings": [
+      {
+        "scale_id": "prevention-crisis-response",
+        "positive": 3,
+        "negative": 1,
+        "status": "observed",
+        "confidence": 0.8,
+        "reason": "В публичных бюджетных обращениях и презентациях неоднократно акцентировались меры по снижению рисков, устойчивости к внешним шокам, климатической адаптации и смягчению последствий конфликтов. Прямых оснований для выраженного оперативного реагирования на уже возникший кризис найдено мало, но отдельные упоминания присутствуют.",
+        "evidence_indices": [
+          1,
+          2,
+          10,
+          11,
+          12
+        ]
+      },
+      {
+        "scale_id": "electoral-access",
+        "positive": null,
+        "negative": null,
+        "status": "unknown",
+        "confidence": 0.0,
+        "reason": "В предоставленных материалах отсутствуют прямые персональные основания для оценки позиций по расширению или ограничению политического допуска.",
+        "evidence_indices": []
+      },
+      {
+        "scale_id": "institutional-autonomy-coordination",
+        "positive": 1,
+        "negative": 3,
+        "status": "observed",
+        "confidence": 0.7,
+        "reason": "Внесение законопроекта о реформе центрального банка с акцентом на независимость — единичное проявление поддержки автономии. Многократные акценты на координации межсекторальной политики и согласовании с международными и национальными стратегиями подтверждают выраженность координационного подхода.",
+        "evidence_indices": [
+          4,
+          5,
+          9,
+          13
+        ]
+      },
+      {
+        "scale_id": "universal-targeted-provision",
+        "positive": 3,
+        "negative": 3,
+        "status": "observed",
+        "confidence": 0.8,
+        "reason": "В публичных бюджетных обращениях и документах регулярно обозначаются как всеобщие стандарты (здравоохранение, образование, социальная защита), так и приоритетная поддержка уязвимых групп. Оба полюса подтверждены в разных эпизодах.",
+        "evidence_indices": [
+          2,
+          9,
+          10,
+          11,
+          12
+        ]
+      }
+    ]
+  },
+  "model": "gpt-4.1",
+  "task": "ratings-supplement-yusuf-murangwa-12",
+  "at": "2026-10-15T15:11:32.500435+00:00",
+  "usage": {
+    "prompt_tokens": 4526,
+    "completion_tokens": 515,
+    "total_tokens": 5041,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "audio_tokens": 0
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "audio_tokens": 0,
+      "accepted_prediction_tokens": 0,
+      "rejected_prediction_tokens": 0
+    }
+  },
+  "citations": [],
+  "system_fingerprint": "fp_34f8e4113f",
+  "cache_key": "819c2db175dd8c73dd6976795f8de9ea9cd3a20e6e5c14743ffee97819c9a2c6"
+}

@@ -1,0 +1,144 @@
+{
+  "data": {
+    "ratings": [
+      {
+        "scale_id": "programmatic-renewal",
+        "positive": null,
+        "negative": null,
+        "status": "unknown",
+        "confidence": 0.7,
+        "reason": "В предоставленных фактах нет прямых заявлений о необходимости программного изменения существующего курса или о его пересмотре. Также отсутствуют прямые призывы к продолжению или закреплению действующего курса как самостоятельная риторика, отличная от мемориально-исторической повестки.",
+        "evidence_indices": []
+      },
+      {
+        "scale_id": "government-course-assessment",
+        "positive": 3,
+        "negative": 0,
+        "status": "observed",
+        "confidence": 0.9,
+        "reason": "В ряде эпизодов (особенно 0, 1, 3, 4, 5, 6, 7, 8, 9, 10, 12, 13, 14, 15) Бизимана публично поддерживает государственную политику единства, памяти и профилактики геноцида, связывает свою деятельность с государственной повесткой, не фиксируется критика действующего курса.",
+        "evidence_indices": [
+          0,
+          1,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          12,
+          13,
+          14,
+          15
+        ]
+      },
+      {
+        "scale_id": "participation-administrative-direction",
+        "positive": 1,
+        "negative": 3,
+        "status": "observed",
+        "confidence": 0.85,
+        "reason": "В ряде эпизодов (4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14) зафиксированы организованные государством программы, обращения к аудитории и вовлечение в обсуждение, однако совместная выработка решений или независимый общественный контроль не установлены. Административная координация и контроль исполнения выражены устойчиво.",
+        "evidence_indices": [
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14
+        ]
+      },
+      {
+        "scale_id": "market-state-instruments",
+        "positive": null,
+        "negative": null,
+        "status": "unknown",
+        "confidence": 0.6,
+        "reason": "В материалах отсутствуют прямые заявления о расширении частной инициативы или о расширении государственного планирования и обязательных правил в экономической или социальной сфере.",
+        "evidence_indices": []
+      },
+      {
+        "scale_id": "accessibility-growth-priorities",
+        "positive": null,
+        "negative": null,
+        "status": "unknown",
+        "confidence": 0.6,
+        "reason": "В предоставленных фактах нет прямых заявлений о приоритете расширения доступности базовых благ или о приоритете инвестиционного роста и конкурентоспособности.",
+        "evidence_indices": []
+      },
+      {
+        "scale_id": "external-domestic-resources",
+        "positive": null,
+        "negative": null,
+        "status": "unknown",
+        "confidence": 0.5,
+        "reason": "Нет прямых упоминаний о привлечении внешнего финансирования или об опоре на внутренние ресурсы в деятельности Бизиманы.",
+        "evidence_indices": []
+      },
+      {
+        "scale_id": "international-rules-autonomy",
+        "positive": 1,
+        "negative": 1,
+        "status": "observed",
+        "confidence": 0.7,
+        "reason": "В эпизоде 12 Бизимана ссылается на признание геноцида международными институтами (позитивный полюс), одновременно подчёркивая недопустимость оспаривания официальной исторической рамки (негативный полюс — защита национального решения). Оба полюса выражены единично.",
+        "evidence_indices": [
+          12
+        ]
+      },
+      {
+        "scale_id": "mediation-adversarial-communication",
+        "positive": 0,
+        "negative": 3,
+        "status": "observed",
+        "confidence": 0.8,
+        "reason": "В ряде эпизодов (1, 7, 12, 15) фиксируется жёсткая защита официальной исторической рамки, опровержение отрицания геноцида, отсутствие предложений о согласовании интересов сторон или посредничестве.",
+        "evidence_indices": [
+          1,
+          7,
+          12,
+          15
+        ]
+      },
+      {
+        "scale_id": "procedural-guarantees-enforcement",
+        "positive": 0,
+        "negative": 3,
+        "status": "observed",
+        "confidence": 0.8,
+        "reason": "В эпизоде 15 прямо заявлена необходимость предотвращать и наказывать отрицание геноцида, искоренять идеологию геноцида и дискриминацию, что указывает на акцент на принудительном обеспечении обязательных требований. Расширение процедурных гарантий или права на обжалование не зафиксировано.",
+        "evidence_indices": [
+          15
+        ]
+      }
+    ]
+  },
+  "model": "gpt-4.1",
+  "task": "ratings-supplement-jean-damascene-bizimana-0",
+  "at": "2026-10-15T15:13:37.134054+00:00",
+  "usage": {
+    "prompt_tokens": 6404,
+    "completion_tokens": 1155,
+    "total_tokens": 7559,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "audio_tokens": 0
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "audio_tokens": 0,
+      "accepted_prediction_tokens": 0,
+      "rejected_prediction_tokens": 0
+    }
+  },
+  "citations": [],
+  "system_fingerprint": "fp_98b0337892",
+  "cache_key": "2055a16c41fc8a506a4e9a3e0cfdf9b6900d5b51c59f3fd307f1aa88a56c6317"
+}

@@ -1,0 +1,1246 @@
+{
+  "format_version": 1,
+  "mode": "factor_preview_only",
+  "measurement_status": "insufficient_data",
+  "measurement_failure": "Недостаточно реальных оценок: после исключения неизвестных объектов, редко измеренных и постоянных шкал нужны минимум 12 объектов и 6 шкал",
+  "n_objects": 23,
+  "n_scales": 5,
+  "recommended_q": null,
+  "measurement_context": {
+    "measurement_mode": "llm_exploratory",
+    "source_supplement": {
+      "path": "research/rwanda_politicians_2021_2026/russia_evidence_seed.json",
+      "sha256": "09ac57caea84f459d62161678e72caaa06b456e75e362ff48d5d4a45d9e40175",
+      "reviewed_thematic_only": true,
+      "verification_note": "Тематические оценки допускаются по отдельно просмотренным источникам ассистента; это не независимая человеческая экспертиза"
+    },
+    "approvals": {
+      "objects": {
+        "approved": true,
+        "at": "2026-10-15T14:33:58.177538+00:00",
+        "actor": "human_user_chat_2026-10-15_rwanda_42",
+        "fingerprint": "92b5ecf8530b1a85cc8c2ef947051d849976127aca32149f82d6fcb20ba3056d"
+      },
+      "scales": {
+        "approved": true,
+        "at": "2026-10-15T14:53:43.369347+00:00",
+        "actor": "human_user_chat_2026-10-15_rwanda_24",
+        "fingerprint": "968e884171eb9cdb80c1fc2aa813e881359b746e2a01de4b034a953908d6cf0c"
+      }
+    },
+    "expert_validation": "not_independently_validated"
+  },
+  "dimension_selection": {
+    "recommended_q": null,
+    "selection_is_exploratory": true,
+    "status": "not_started_insufficient_measurement"
+  },
+  "dimension_candidates": [],
+  "models": [],
+  "russia_review": {
+    "configured_ids": [
+      "russia-diplomatic-engagement",
+      "russia-security-cooperation",
+      "russia-economic-technology-cooperation",
+      "russia-education-cultural-cooperation",
+      "russia-conflict-policy-evaluation",
+      "russia-isolation-sanctions"
+    ],
+    "family_by_id": {
+      "russia-diplomatic-engagement": "russia_diplomacy",
+      "russia-security-cooperation": "russia_security",
+      "russia-economic-technology-cooperation": "russia_economy_technology",
+      "russia-education-cultural-cooperation": "russia_education_culture",
+      "russia-conflict-policy-evaluation": "russia_foreign_actions",
+      "russia-isolation-sanctions": "russia_sanctions_isolation"
+    },
+    "family_assignment_source": {
+      "russia-diplomatic-engagement": "declared_family",
+      "russia-security-cooperation": "declared_family",
+      "russia-economic-technology-cooperation": "declared_family",
+      "russia-education-cultural-cooperation": "declared_family",
+      "russia-conflict-policy-evaluation": "declared_family",
+      "russia-isolation-sanctions": "declared_family"
+    },
+    "duplicate_required_ids": [],
+    "required_definition_mismatches": [],
+    "instructions": [
+      "В досье каждого политика проверить все шесть аспектов отношения к России; пробелы явно отмечать.",
+      "Персонифицированные датированные позиции и действия, а не перенос позиции государства, партии или ведомства.",
+      "Различать официальное действие и частное убеждение; не выводить симпатию из должности или встречи.",
+      "Сохранить event_id, даты и противоречащие свидетельства. Несколько пересказов не являются разными событиями.",
+      "Не дополнять численные оценки ради российского фактора. Unknown остаётся пропуском.",
+      "Шесть тематических шкал входят в единый общий словарь без повышающего веса и дублирования синонимами.",
+      "Сначала короткое сравнение всех допустимых q=2..8; расширенный отчёт и презентация только после выбора решения."
+    ],
+    "loading_threshold": 0.35,
+    "minimum_explained_share": 0.02,
+    "minimum_indicators": 3,
+    "requested_definitions": {
+      "russia-diplomatic-engagement": {
+        "id": "russia-diplomatic-engagement",
+        "name": "Дипломатические отношения с Россией",
+        "positive": "Расширение дипломатического сотрудничества с Россией",
+        "negative": "Дипломатическое дистанцирование от России",
+        "definition": "Персонифицированные публичные действия или предложения по институциональному развитию отношений: соглашения, устойчивые механизмы диалога, дипломатические представительства; противоположный контраст — явное предложение понизить, приостановить или разорвать отношения. Протокольная встреча доказывает контакт, но сама по себе не доказывает предпочтение России другим партнёрам или личную симпатию. Число встреч не заменяет содержательного основания.",
+        "research_domain": "russia_relations",
+        "semantic_family_id": "russia_diplomacy",
+        "aliases": [
+          "Дипломатическое сближение с Россией",
+          "Институциональный диалог с Россией"
+        ]
+      },
+      "russia-security-cooperation": {
+        "id": "russia-security-cooperation",
+        "name": "Оборонное сотрудничество с Россией",
+        "positive": "Развитие военно-технического сотрудничества с Россией",
+        "negative": "Ограничение военно-технического сотрудничества с Россией",
+        "definition": "Явные действия или публичные предложения об оборонных соглашениях, поставках, обучении военных и сотрудничестве служб безопасности с Россией либо об ограничении этих связей. Учитывать только участие, подпись, решение или слова конкретного человека. Общая должность в оборонной сфере, многосоставное совещание с иностранными атташе и отношения Руанды с третьими странами не определяют этот признак.",
+        "research_domain": "russia_relations",
+        "semantic_family_id": "russia_security",
+        "aliases": [
+          "Военно-техническое партнёрство с Россией",
+          "Российское сотрудничество в сфере безопасности"
+        ]
+      },
+      "russia-economic-technology-cooperation": {
+        "id": "russia-economic-technology-cooperation",
+        "name": "Хозяйственное и технологическое сотрудничество с Россией",
+        "positive": "Развитие экономических и технологических проектов с Россией",
+        "negative": "Ограничение экономических и технологических проектов с Россией",
+        "definition": "Названные публичные действия или предложения по торговле, инвестициям, энергетике, гражданским ядерным технологиям, медицине и другим хозяйственным проектам с российским партнёром либо по их ограничению. Поддержка атомной энергетики вообще не равна поддержке российского поставщика. Отдельно различать намерение, подписанное соглашение, финансирование и реализованный результат. Образовательные обмены относятся к отдельной шкале.",
+        "research_domain": "russia_relations",
+        "semantic_family_id": "russia_economy_technology",
+        "aliases": [
+          "Экономическое партнёрство с Россией",
+          "Гражданские технологические проекты с Россией"
+        ]
+      },
+      "russia-education-cultural-cooperation": {
+        "id": "russia-education-cultural-cooperation",
+        "name": "Образовательные и культурные связи с Россией",
+        "positive": "Расширение образовательных и культурных обменов с Россией",
+        "negative": "Ограничение образовательных и культурных обменов с Россией",
+        "definition": "Персонифицированные действия или публичные предложения о стипендиях, обучении гражданских специалистов, языковых, научных и культурных обменах с Россией либо об их ограничении. Собственное обучение в СССР или России не считается текущей политической позицией. Военное обучение относится к оборонной шкале. Если один документ касается нескольких сфер, сохранять один event_id и не считать пересказы независимыми событиями.",
+        "research_domain": "russia_relations",
+        "semantic_family_id": "russia_education_culture",
+        "aliases": [
+          "Гуманитарное сотрудничество с Россией",
+          "Образовательные обмены с Россией"
+        ]
+      },
+      "russia-conflict-policy-evaluation": {
+        "id": "russia-conflict-policy-evaluation",
+        "name": "Оценка внешнеполитических действий России",
+        "positive": "Публичное оправдание конкретных внешнеполитических действий России",
+        "negative": "Публичная критика конкретных внешнеполитических действий России",
+        "definition": "Прямо названные оценки действий России в международных конфликтах и вопросах суверенитета, с обязательными указанием события, даты и точного говорящего. Позиции могут различаться по Украине, Африке и другим случаям; сохранять контекст и противоречия. Защита права Африки выбирать партнёров не равна одобрению российского вторжения. Голосование государства в ООН не переносится на каждого политика; персональное заявление делегата отражает его публичное служебное действие, а не частное убеждение.",
+        "research_domain": "russia_relations",
+        "semantic_family_id": "russia_foreign_actions",
+        "aliases": [
+          "Оценка российской внешней политики",
+          "Оценка действий России в конфликтах"
+        ]
+      },
+      "russia-isolation-sanctions": {
+        "id": "russia-isolation-sanctions",
+        "name": "Санкции и международная изоляция России",
+        "positive": "Противодействие санкциям и изоляции России",
+        "negative": "Поддержка санкций и изоляции России",
+        "definition": "Прямые персонифицированные предложения, действия или слова о санкциях, исключении из международных форматов и иных мерах изоляции именно России. Обычная встреча с российским представителем, критика санкций против Руанды, неприсоединение государства к санкциям без личного действия и общая риторика суверенитета не являются достаточным основанием. Это отдельный вопрос о политическом инструменте, а не повтор оценки правомерности конкретного российского действия.",
+        "research_domain": "russia_relations",
+        "semantic_family_id": "russia_sanctions_isolation",
+        "aliases": [
+          "Меры изоляции России",
+          "Отношение к санкциям против России"
+        ]
+      }
+    },
+    "retained_ids": [],
+    "excluded_ids": [
+      "russia-diplomatic-engagement",
+      "russia-security-cooperation",
+      "russia-economic-technology-cooperation",
+      "russia-education-cultural-cooperation",
+      "russia-conflict-policy-evaluation",
+      "russia-isolation-sanctions"
+    ],
+    "status": "insufficient_measurement",
+    "evidence_audit": "pending",
+    "scale_coverage": [
+      {
+        "id": "russia-diplomatic-engagement",
+        "name": "Дипломатические отношения с Россией",
+        "semantic_family_id": "russia_diplomacy",
+        "retained": false,
+        "observed_count": 0,
+        "observed_input_count": 0,
+        "exclusion_reason": "constant_or_insufficient_observations"
+      },
+      {
+        "id": "russia-security-cooperation",
+        "name": "Оборонное сотрудничество с Россией",
+        "semantic_family_id": "russia_security",
+        "retained": false,
+        "observed_count": 0,
+        "observed_input_count": 0,
+        "exclusion_reason": "constant_or_insufficient_observations"
+      },
+      {
+        "id": "russia-economic-technology-cooperation",
+        "name": "Хозяйственное и технологическое сотрудничество с Россией",
+        "semantic_family_id": "russia_economy_technology",
+        "retained": false,
+        "observed_count": 0,
+        "observed_input_count": 0,
+        "exclusion_reason": "constant_or_insufficient_observations"
+      },
+      {
+        "id": "russia-education-cultural-cooperation",
+        "name": "Образовательные и культурные связи с Россией",
+        "semantic_family_id": "russia_education_culture",
+        "retained": false,
+        "observed_count": 1,
+        "observed_input_count": 2,
+        "exclusion_reason": "constant_or_insufficient_observations"
+      },
+      {
+        "id": "russia-conflict-policy-evaluation",
+        "name": "Оценка внешнеполитических действий России",
+        "semantic_family_id": "russia_foreign_actions",
+        "retained": false,
+        "observed_count": 0,
+        "observed_input_count": 1,
+        "exclusion_reason": "constant_or_insufficient_observations"
+      },
+      {
+        "id": "russia-isolation-sanctions",
+        "name": "Санкции и международная изоляция России",
+        "semantic_family_id": "russia_sanctions_isolation",
+        "retained": false,
+        "observed_count": 0,
+        "observed_input_count": 0,
+        "exclusion_reason": "constant_or_insufficient_observations"
+      }
+    ],
+    "pairwise_observed_counts": {},
+    "candidates": [],
+    "mandatory_report_refs": [],
+    "warnings": []
+  },
+  "diagnostics": {
+    "observed_input_ratings": 342,
+    "difference_only_ratings": 0,
+    "input_objects": 42,
+    "input_scales": 24,
+    "total_input_cells": 1008,
+    "unknown_input_cells": 666,
+    "input_coverage": 0.3392857142857143,
+    "retained_objects": 23,
+    "retained_scales": 5,
+    "retained_object_ids": [
+      "vincent-biruta",
+      "albert-murasira",
+      "emmanuel-ugirashebuja",
+      "yusuf-murangwa",
+      "uzziel-ndagijimana",
+      "paula-ingabire",
+      "sabin-nsanzimana",
+      "judith-uwizeye",
+      "valentine-uwamariya",
+      "gerardine-mukeshimana",
+      "ildephonse-musafiri",
+      "jean-damascene-bizimana",
+      "francois-xavier-kalinda",
+      "augustin-iyamuremye",
+      "alvera-mukabaramba",
+      "mussa-fazil-harerimana",
+      "pudence-rubingisa",
+      "samuel-dusengiyumva",
+      "frank-habineza",
+      "victoire-ingabire",
+      "diane-rwigara",
+      "claver-gatete",
+      "valentine-rugwabiza"
+    ],
+    "retained_scale_ids": [
+      "programmatic-renewal",
+      "participation-administrative-direction",
+      "argumentation-evidence-values",
+      "mediation-adversarial-communication",
+      "problem-disclosure-reputation-defence"
+    ],
+    "input_object_coverage": [
+      {
+        "id": "paul-kagame",
+        "name": "Поль Кагаме",
+        "observed_scales": 5,
+        "total_scales": 24,
+        "coverage": 0.20833333333333334,
+        "retained": false
+      },
+      {
+        "id": "edouard-ngirente",
+        "name": "Эдуар Нгиренте",
+        "observed_scales": 6,
+        "total_scales": 24,
+        "coverage": 0.25,
+        "retained": false
+      },
+      {
+        "id": "justin-nsengiyumva",
+        "name": "Жюстен Нсенгийюмва",
+        "observed_scales": 8,
+        "total_scales": 24,
+        "coverage": 0.3333333333333333,
+        "retained": false
+      },
+      {
+        "id": "vincent-biruta",
+        "name": "Венсан Бирута",
+        "observed_scales": 13,
+        "total_scales": 24,
+        "coverage": 0.5416666666666666,
+        "retained": true
+      },
+      {
+        "id": "olivier-nduhungirehe",
+        "name": "Оливье Ндухунгирехе",
+        "observed_scales": 9,
+        "total_scales": 24,
+        "coverage": 0.375,
+        "retained": false
+      },
+      {
+        "id": "james-kabarebe",
+        "name": "Джеймс Кабаребе",
+        "observed_scales": 7,
+        "total_scales": 24,
+        "coverage": 0.2916666666666667,
+        "retained": false
+      },
+      {
+        "id": "juvenal-marizamunda",
+        "name": "Жювеналь Маризамунда",
+        "observed_scales": 1,
+        "total_scales": 24,
+        "coverage": 0.041666666666666664,
+        "retained": false
+      },
+      {
+        "id": "albert-murasira",
+        "name": "Альбер Мурасира",
+        "observed_scales": 13,
+        "total_scales": 24,
+        "coverage": 0.5416666666666666,
+        "retained": true
+      },
+      {
+        "id": "emmanuel-ugirashebuja",
+        "name": "Эмманюэль Угирасебуджа",
+        "observed_scales": 11,
+        "total_scales": 24,
+        "coverage": 0.4583333333333333,
+        "retained": true
+      },
+      {
+        "id": "yusuf-murangwa",
+        "name": "Юсуф Мурангва",
+        "observed_scales": 14,
+        "total_scales": 24,
+        "coverage": 0.5833333333333334,
+        "retained": true
+      },
+      {
+        "id": "uzziel-ndagijimana",
+        "name": "Уззиэль Ндагиджимана",
+        "observed_scales": 12,
+        "total_scales": 24,
+        "coverage": 0.5,
+        "retained": true
+      },
+      {
+        "id": "paula-ingabire",
+        "name": "Паула Ингабире",
+        "observed_scales": 15,
+        "total_scales": 24,
+        "coverage": 0.625,
+        "retained": true
+      },
+      {
+        "id": "sabin-nsanzimana",
+        "name": "Сабин Нсанзимана",
+        "observed_scales": 15,
+        "total_scales": 24,
+        "coverage": 0.625,
+        "retained": true
+      },
+      {
+        "id": "judith-uwizeye",
+        "name": "Жюдит Увизейе",
+        "observed_scales": 9,
+        "total_scales": 24,
+        "coverage": 0.375,
+        "retained": true
+      },
+      {
+        "id": "ines-mpambara",
+        "name": "Инес Мпамбара",
+        "observed_scales": 4,
+        "total_scales": 24,
+        "coverage": 0.16666666666666666,
+        "retained": false
+      },
+      {
+        "id": "valentine-uwamariya",
+        "name": "Валентин Увамария",
+        "observed_scales": 11,
+        "total_scales": 24,
+        "coverage": 0.4583333333333333,
+        "retained": true
+      },
+      {
+        "id": "jeanne-darc-mujawamariya",
+        "name": "Жанна д’Арк Муджавамария",
+        "observed_scales": 6,
+        "total_scales": 24,
+        "coverage": 0.25,
+        "retained": false
+      },
+      {
+        "id": "gerardine-mukeshimana",
+        "name": "Жерардин Мукешимана",
+        "observed_scales": 12,
+        "total_scales": 24,
+        "coverage": 0.5,
+        "retained": true
+      },
+      {
+        "id": "ildephonse-musafiri",
+        "name": "Ильдефонс Мусафири",
+        "observed_scales": 12,
+        "total_scales": 24,
+        "coverage": 0.5,
+        "retained": true
+      },
+      {
+        "id": "jean-claude-musabyimana",
+        "name": "Жан-Клод Мусабийимана",
+        "observed_scales": 5,
+        "total_scales": 24,
+        "coverage": 0.20833333333333334,
+        "retained": false
+      },
+      {
+        "id": "jean-damascene-bizimana",
+        "name": "Жан-Дамасен Бизимана",
+        "observed_scales": 9,
+        "total_scales": 24,
+        "coverage": 0.375,
+        "retained": true
+      },
+      {
+        "id": "clare-akamanzi",
+        "name": "Клэр Акаманзи",
+        "observed_scales": 7,
+        "total_scales": 24,
+        "coverage": 0.2916666666666667,
+        "retained": false
+      },
+      {
+        "id": "francis-gatare",
+        "name": "Франсис Гатаре",
+        "observed_scales": 3,
+        "total_scales": 24,
+        "coverage": 0.125,
+        "retained": false
+      },
+      {
+        "id": "gertrude-kazarwa",
+        "name": "Гертруда Казарва",
+        "observed_scales": 8,
+        "total_scales": 24,
+        "coverage": 0.3333333333333333,
+        "retained": false
+      },
+      {
+        "id": "donatille-mukabalisa",
+        "name": "Донатиль Мукабалиса",
+        "observed_scales": 2,
+        "total_scales": 24,
+        "coverage": 0.08333333333333333,
+        "retained": false
+      },
+      {
+        "id": "francois-xavier-kalinda",
+        "name": "Франсуа-Ксавье Калинда",
+        "observed_scales": 8,
+        "total_scales": 24,
+        "coverage": 0.3333333333333333,
+        "retained": true
+      },
+      {
+        "id": "augustin-iyamuremye",
+        "name": "Огюстен Иямуремье",
+        "observed_scales": 15,
+        "total_scales": 24,
+        "coverage": 0.625,
+        "retained": true
+      },
+      {
+        "id": "alvera-mukabaramba",
+        "name": "Альвера Мукабарамба",
+        "observed_scales": 8,
+        "total_scales": 24,
+        "coverage": 0.3333333333333333,
+        "retained": true
+      },
+      {
+        "id": "mussa-fazil-harerimana",
+        "name": "Мусса Фазиль Хареримана",
+        "observed_scales": 6,
+        "total_scales": 24,
+        "coverage": 0.25,
+        "retained": true
+      },
+      {
+        "id": "pudence-rubingisa",
+        "name": "Пуденс Рубингиса",
+        "observed_scales": 11,
+        "total_scales": 24,
+        "coverage": 0.4583333333333333,
+        "retained": true
+      },
+      {
+        "id": "samuel-dusengiyumva",
+        "name": "Самуэль Дусенгийюмва",
+        "observed_scales": 13,
+        "total_scales": 24,
+        "coverage": 0.5416666666666666,
+        "retained": true
+      },
+      {
+        "id": "frank-habineza",
+        "name": "Франк Хабинеза",
+        "observed_scales": 13,
+        "total_scales": 24,
+        "coverage": 0.5416666666666666,
+        "retained": true
+      },
+      {
+        "id": "philippe-mpayimana",
+        "name": "Филипп Мпайимана",
+        "observed_scales": 4,
+        "total_scales": 24,
+        "coverage": 0.16666666666666666,
+        "retained": false
+      },
+      {
+        "id": "victoire-ingabire",
+        "name": "Виктуар Ингабире Умухоза",
+        "observed_scales": 7,
+        "total_scales": 24,
+        "coverage": 0.2916666666666667,
+        "retained": true
+      },
+      {
+        "id": "diane-rwigara",
+        "name": "Диана Рвигара",
+        "observed_scales": 8,
+        "total_scales": 24,
+        "coverage": 0.3333333333333333,
+        "retained": true
+      },
+      {
+        "id": "bernard-ntaganda",
+        "name": "Бернар Нтаганда",
+        "observed_scales": 5,
+        "total_scales": 24,
+        "coverage": 0.20833333333333334,
+        "retained": false
+      },
+      {
+        "id": "christopher-kayumba",
+        "name": "Кристофер Каюмба",
+        "observed_scales": 2,
+        "total_scales": 24,
+        "coverage": 0.08333333333333333,
+        "retained": false
+      },
+      {
+        "id": "paul-rusesabagina",
+        "name": "Поль Русесабагина",
+        "observed_scales": 1,
+        "total_scales": 24,
+        "coverage": 0.041666666666666664,
+        "retained": false
+      },
+      {
+        "id": "kayumba-nyamwasa",
+        "name": "Фостен Каюмба Ньямваса",
+        "observed_scales": 0,
+        "total_scales": 24,
+        "coverage": 0.0,
+        "retained": false
+      },
+      {
+        "id": "louise-mushikiwabo",
+        "name": "Луиза Мушикивабо",
+        "observed_scales": 5,
+        "total_scales": 24,
+        "coverage": 0.20833333333333334,
+        "retained": false
+      },
+      {
+        "id": "claver-gatete",
+        "name": "Клавер Гатете",
+        "observed_scales": 8,
+        "total_scales": 24,
+        "coverage": 0.3333333333333333,
+        "retained": true
+      },
+      {
+        "id": "valentine-rugwabiza",
+        "name": "Валентин Ругвабиза",
+        "observed_scales": 11,
+        "total_scales": 24,
+        "coverage": 0.4583333333333333,
+        "retained": true
+      }
+    ],
+    "input_scale_coverage": [
+      {
+        "id": "programmatic-renewal",
+        "name": "Обновление и преемственность курса",
+        "observed_objects": 27,
+        "observed_retained_objects": 21,
+        "total_objects": 42,
+        "coverage": 0.6428571428571429,
+        "retained": true
+      },
+      {
+        "id": "government-course-assessment",
+        "name": "Поддержка и критика действующего курса",
+        "observed_objects": 23,
+        "observed_retained_objects": 19,
+        "total_objects": 42,
+        "coverage": 0.5476190476190477,
+        "retained": false
+      },
+      {
+        "id": "participation-administrative-direction",
+        "name": "Участие граждан и административная координация",
+        "observed_objects": 26,
+        "observed_retained_objects": 21,
+        "total_objects": 42,
+        "coverage": 0.6190476190476191,
+        "retained": true
+      },
+      {
+        "id": "argumentation-evidence-values",
+        "name": "Доказательная и ценностная аргументация",
+        "observed_objects": 29,
+        "observed_retained_objects": 22,
+        "total_objects": 42,
+        "coverage": 0.6904761904761905,
+        "retained": true
+      },
+      {
+        "id": "market-state-instruments",
+        "name": "Частная инициатива и государственное регулирование",
+        "observed_objects": 20,
+        "observed_retained_objects": 14,
+        "total_objects": 42,
+        "coverage": 0.47619047619047616,
+        "retained": false
+      },
+      {
+        "id": "accessibility-growth-priorities",
+        "name": "Доступность благ и инвестиционный рост",
+        "observed_objects": 22,
+        "observed_retained_objects": 17,
+        "total_objects": 42,
+        "coverage": 0.5238095238095238,
+        "retained": false
+      },
+      {
+        "id": "external-domestic-resources",
+        "name": "Внешнее сотрудничество и внутренние ресурсы",
+        "observed_objects": 17,
+        "observed_retained_objects": 14,
+        "total_objects": 42,
+        "coverage": 0.40476190476190477,
+        "retained": false
+      },
+      {
+        "id": "international-rules-autonomy",
+        "name": "Международные правила и самостоятельность решений",
+        "observed_objects": 15,
+        "observed_retained_objects": 10,
+        "total_objects": 42,
+        "coverage": 0.35714285714285715,
+        "retained": false
+      },
+      {
+        "id": "mediation-adversarial-communication",
+        "name": "Согласование и полемическая защита",
+        "observed_objects": 26,
+        "observed_retained_objects": 19,
+        "total_objects": 42,
+        "coverage": 0.6190476190476191,
+        "retained": true
+      },
+      {
+        "id": "cultural-openness-national-transmission",
+        "name": "Культурный обмен и национальные ценности",
+        "observed_objects": 19,
+        "observed_retained_objects": 12,
+        "total_objects": 42,
+        "coverage": 0.4523809523809524,
+        "retained": false
+      },
+      {
+        "id": "problem-disclosure-reputation-defence",
+        "name": "Открытое обсуждение проблем и защита репутации",
+        "observed_objects": 30,
+        "observed_retained_objects": 20,
+        "total_objects": 42,
+        "coverage": 0.7142857142857143,
+        "retained": true
+      },
+      {
+        "id": "procedural-guarantees-enforcement",
+        "name": "Процедурные гарантии и принудительное исполнение",
+        "observed_objects": 19,
+        "observed_retained_objects": 15,
+        "total_objects": 42,
+        "coverage": 0.4523809523809524,
+        "retained": false
+      },
+      {
+        "id": "prevention-crisis-response",
+        "name": "Профилактика рисков и реагирование",
+        "observed_objects": 20,
+        "observed_retained_objects": 17,
+        "total_objects": 42,
+        "coverage": 0.47619047619047616,
+        "retained": false
+      },
+      {
+        "id": "electoral-access",
+        "name": "Расширение и ограничение политического допуска",
+        "observed_objects": 3,
+        "observed_retained_objects": 1,
+        "total_objects": 42,
+        "coverage": 0.07142857142857142,
+        "retained": false
+      },
+      {
+        "id": "institutional-autonomy-coordination",
+        "name": "Самостоятельность институтов и единая координация",
+        "observed_objects": 11,
+        "observed_retained_objects": 7,
+        "total_objects": 42,
+        "coverage": 0.2619047619047619,
+        "retained": false
+      },
+      {
+        "id": "taxation-burden-public-revenue",
+        "name": "Налоговые послабления и общественные доходы",
+        "observed_objects": 5,
+        "observed_retained_objects": 4,
+        "total_objects": 42,
+        "coverage": 0.11904761904761904,
+        "retained": false
+      },
+      {
+        "id": "universal-targeted-provision",
+        "name": "Всеобщие гарантии и адресная поддержка",
+        "observed_objects": 16,
+        "observed_retained_objects": 13,
+        "total_objects": 42,
+        "coverage": 0.38095238095238093,
+        "retained": false
+      },
+      {
+        "id": "ecological-limits-resource-use",
+        "name": "Экологические ограничения и хозяйственное освоение",
+        "observed_objects": 11,
+        "observed_retained_objects": 7,
+        "total_objects": 42,
+        "coverage": 0.2619047619047619,
+        "retained": false
+      },
+      {
+        "id": "russia-diplomatic-engagement",
+        "name": "Дипломатические отношения с Россией",
+        "observed_objects": 0,
+        "observed_retained_objects": 0,
+        "total_objects": 42,
+        "coverage": 0.0,
+        "retained": false
+      },
+      {
+        "id": "russia-security-cooperation",
+        "name": "Оборонное сотрудничество с Россией",
+        "observed_objects": 0,
+        "observed_retained_objects": 0,
+        "total_objects": 42,
+        "coverage": 0.0,
+        "retained": false
+      },
+      {
+        "id": "russia-economic-technology-cooperation",
+        "name": "Хозяйственное и технологическое сотрудничество с Россией",
+        "observed_objects": 0,
+        "observed_retained_objects": 0,
+        "total_objects": 42,
+        "coverage": 0.0,
+        "retained": false
+      },
+      {
+        "id": "russia-education-cultural-cooperation",
+        "name": "Образовательные и культурные связи с Россией",
+        "observed_objects": 2,
+        "observed_retained_objects": 1,
+        "total_objects": 42,
+        "coverage": 0.047619047619047616,
+        "retained": false
+      },
+      {
+        "id": "russia-conflict-policy-evaluation",
+        "name": "Оценка внешнеполитических действий России",
+        "observed_objects": 1,
+        "observed_retained_objects": 0,
+        "total_objects": 42,
+        "coverage": 0.023809523809523808,
+        "retained": false
+      },
+      {
+        "id": "russia-isolation-sanctions",
+        "name": "Санкции и международная изоляция России",
+        "observed_objects": 0,
+        "observed_retained_objects": 0,
+        "total_objects": 42,
+        "coverage": 0.0,
+        "retained": false
+      }
+    ],
+    "retained_coverage": 0.8956521739130435,
+    "missing_retained_cells": 12,
+    "excluded_objects": [
+      {
+        "id": "paul-kagame",
+        "name": "Поль Кагаме",
+        "observed_scales": 3,
+        "required_scales": 4,
+        "original_observed_scales": 5,
+        "reason": "insufficient_coverage"
+      },
+      {
+        "id": "edouard-ngirente",
+        "name": "Эдуар Нгиренте",
+        "observed_scales": 1,
+        "required_scales": 4,
+        "original_observed_scales": 6,
+        "reason": "insufficient_coverage"
+      },
+      {
+        "id": "justin-nsengiyumva",
+        "name": "Жюстен Нсенгийюмва",
+        "observed_scales": 3,
+        "required_scales": 4,
+        "original_observed_scales": 8,
+        "reason": "insufficient_coverage"
+      },
+      {
+        "id": "olivier-nduhungirehe",
+        "name": "Оливье Ндухунгирехе",
+        "observed_scales": 3,
+        "required_scales": 4,
+        "original_observed_scales": 9,
+        "reason": "insufficient_coverage"
+      },
+      {
+        "id": "james-kabarebe",
+        "name": "Джеймс Кабаребе",
+        "observed_scales": 2,
+        "required_scales": 4,
+        "original_observed_scales": 7,
+        "reason": "insufficient_coverage"
+      },
+      {
+        "id": "juvenal-marizamunda",
+        "name": "Жювеналь Маризамунда",
+        "observed_scales": 1,
+        "required_scales": 4,
+        "original_observed_scales": 1,
+        "reason": "insufficient_coverage"
+      },
+      {
+        "id": "ines-mpambara",
+        "name": "Инес Мпамбара",
+        "observed_scales": 1,
+        "required_scales": 4,
+        "original_observed_scales": 4,
+        "reason": "insufficient_coverage"
+      },
+      {
+        "id": "jeanne-darc-mujawamariya",
+        "name": "Жанна д’Арк Муджавамария",
+        "observed_scales": 3,
+        "required_scales": 4,
+        "original_observed_scales": 6,
+        "reason": "insufficient_coverage"
+      },
+      {
+        "id": "jean-claude-musabyimana",
+        "name": "Жан-Клод Мусабийимана",
+        "observed_scales": 2,
+        "required_scales": 4,
+        "original_observed_scales": 5,
+        "reason": "insufficient_coverage"
+      },
+      {
+        "id": "clare-akamanzi",
+        "name": "Клэр Акаманзи",
+        "observed_scales": 3,
+        "required_scales": 4,
+        "original_observed_scales": 7,
+        "reason": "insufficient_coverage"
+      },
+      {
+        "id": "francis-gatare",
+        "name": "Франсис Гатаре",
+        "observed_scales": 1,
+        "required_scales": 4,
+        "original_observed_scales": 3,
+        "reason": "insufficient_coverage"
+      },
+      {
+        "id": "gertrude-kazarwa",
+        "name": "Гертруда Казарва",
+        "observed_scales": 3,
+        "required_scales": 4,
+        "original_observed_scales": 8,
+        "reason": "insufficient_coverage"
+      },
+      {
+        "id": "donatille-mukabalisa",
+        "name": "Донатиль Мукабалиса",
+        "observed_scales": 1,
+        "required_scales": 4,
+        "original_observed_scales": 2,
+        "reason": "insufficient_coverage"
+      },
+      {
+        "id": "philippe-mpayimana",
+        "name": "Филипп Мпайимана",
+        "observed_scales": 2,
+        "required_scales": 4,
+        "original_observed_scales": 4,
+        "reason": "insufficient_coverage"
+      },
+      {
+        "id": "bernard-ntaganda",
+        "name": "Бернар Нтаганда",
+        "observed_scales": 1,
+        "required_scales": 4,
+        "original_observed_scales": 5,
+        "reason": "insufficient_coverage"
+      },
+      {
+        "id": "christopher-kayumba",
+        "name": "Кристофер Каюмба",
+        "observed_scales": 1,
+        "required_scales": 4,
+        "original_observed_scales": 2,
+        "reason": "insufficient_coverage"
+      },
+      {
+        "id": "paul-rusesabagina",
+        "name": "Поль Русесабагина",
+        "observed_scales": 1,
+        "required_scales": 4,
+        "original_observed_scales": 1,
+        "reason": "insufficient_coverage"
+      },
+      {
+        "id": "kayumba-nyamwasa",
+        "name": "Фостен Каюмба Ньямваса",
+        "observed_scales": 0,
+        "required_scales": 4,
+        "original_observed_scales": 0,
+        "reason": "no_observations"
+      },
+      {
+        "id": "louise-mushikiwabo",
+        "name": "Луиза Мушикивабо",
+        "observed_scales": 3,
+        "required_scales": 4,
+        "original_observed_scales": 5,
+        "reason": "insufficient_coverage"
+      }
+    ],
+    "excluded_scales": [
+      {
+        "id": "government-course-assessment",
+        "name": "Поддержка и критика действующего курса",
+        "observed_objects": 23,
+        "required_objects": 26,
+        "reason": "constant_or_insufficient_observations"
+      },
+      {
+        "id": "market-state-instruments",
+        "name": "Частная инициатива и государственное регулирование",
+        "observed_objects": 20,
+        "required_objects": 26,
+        "reason": "constant_or_insufficient_observations"
+      },
+      {
+        "id": "accessibility-growth-priorities",
+        "name": "Доступность благ и инвестиционный рост",
+        "observed_objects": 22,
+        "required_objects": 26,
+        "reason": "constant_or_insufficient_observations"
+      },
+      {
+        "id": "external-domestic-resources",
+        "name": "Внешнее сотрудничество и внутренние ресурсы",
+        "observed_objects": 17,
+        "required_objects": 26,
+        "reason": "constant_or_insufficient_observations"
+      },
+      {
+        "id": "international-rules-autonomy",
+        "name": "Международные правила и самостоятельность решений",
+        "observed_objects": 15,
+        "required_objects": 26,
+        "reason": "constant_or_insufficient_observations"
+      },
+      {
+        "id": "cultural-openness-national-transmission",
+        "name": "Культурный обмен и национальные ценности",
+        "observed_objects": 19,
+        "required_objects": 26,
+        "reason": "constant_or_insufficient_observations"
+      },
+      {
+        "id": "procedural-guarantees-enforcement",
+        "name": "Процедурные гарантии и принудительное исполнение",
+        "observed_objects": 19,
+        "required_objects": 26,
+        "reason": "constant_or_insufficient_observations"
+      },
+      {
+        "id": "prevention-crisis-response",
+        "name": "Профилактика рисков и реагирование",
+        "observed_objects": 20,
+        "required_objects": 26,
+        "reason": "constant_or_insufficient_observations"
+      },
+      {
+        "id": "electoral-access",
+        "name": "Расширение и ограничение политического допуска",
+        "observed_objects": 3,
+        "required_objects": 26,
+        "reason": "constant_or_insufficient_observations"
+      },
+      {
+        "id": "institutional-autonomy-coordination",
+        "name": "Самостоятельность институтов и единая координация",
+        "observed_objects": 11,
+        "required_objects": 26,
+        "reason": "constant_or_insufficient_observations"
+      },
+      {
+        "id": "taxation-burden-public-revenue",
+        "name": "Налоговые послабления и общественные доходы",
+        "observed_objects": 5,
+        "required_objects": 26,
+        "reason": "constant_or_insufficient_observations"
+      },
+      {
+        "id": "universal-targeted-provision",
+        "name": "Всеобщие гарантии и адресная поддержка",
+        "observed_objects": 16,
+        "required_objects": 26,
+        "reason": "constant_or_insufficient_observations"
+      },
+      {
+        "id": "ecological-limits-resource-use",
+        "name": "Экологические ограничения и хозяйственное освоение",
+        "observed_objects": 11,
+        "required_objects": 26,
+        "reason": "constant_or_insufficient_observations"
+      },
+      {
+        "id": "russia-diplomatic-engagement",
+        "name": "Дипломатические отношения с Россией",
+        "observed_objects": 0,
+        "required_objects": 26,
+        "reason": "constant_or_insufficient_observations"
+      },
+      {
+        "id": "russia-security-cooperation",
+        "name": "Оборонное сотрудничество с Россией",
+        "observed_objects": 0,
+        "required_objects": 26,
+        "reason": "constant_or_insufficient_observations"
+      },
+      {
+        "id": "russia-economic-technology-cooperation",
+        "name": "Хозяйственное и технологическое сотрудничество с Россией",
+        "observed_objects": 0,
+        "required_objects": 26,
+        "reason": "constant_or_insufficient_observations"
+      },
+      {
+        "id": "russia-education-cultural-cooperation",
+        "name": "Образовательные и культурные связи с Россией",
+        "observed_objects": 2,
+        "required_objects": 26,
+        "reason": "constant_or_insufficient_observations"
+      },
+      {
+        "id": "russia-conflict-policy-evaluation",
+        "name": "Оценка внешнеполитических действий России",
+        "observed_objects": 1,
+        "required_objects": 26,
+        "reason": "constant_or_insufficient_observations"
+      },
+      {
+        "id": "russia-isolation-sanctions",
+        "name": "Санкции и международная изоляция России",
+        "observed_objects": 0,
+        "required_objects": 26,
+        "reason": "constant_or_insufficient_observations"
+      }
+    ],
+    "zero_differences": 34,
+    "zero_difference_with_mass": 98,
+    "mass_mean": 2.997076023391813,
+    "measurement": "primary value = positive - negative; mass = positive + negative",
+    "missing_policy": "unknown is NaN, never zero; iteratively filter scales before objects until stable; training gaps mean-imputed; posterior uses only observed coordinates",
+    "minimum_coverage_policy": "each iteration: first scales observed on at least 60% and 8 current objects and nonconstant; then objects observed on at least 60% and 4 surviving scales; repeat until stable; retained overall coverage at least 75%",
+    "preprocessing_order": "scales_then_objects_until_stable",
+    "preprocessing_iterations": [
+      {
+        "iteration": 1,
+        "input_objects": 42,
+        "input_scales": 24,
+        "required_objects_per_scale": 26,
+        "excluded_scale_ids": [
+          "government-course-assessment",
+          "market-state-instruments",
+          "accessibility-growth-priorities",
+          "external-domestic-resources",
+          "international-rules-autonomy",
+          "cultural-openness-national-transmission",
+          "procedural-guarantees-enforcement",
+          "prevention-crisis-response",
+          "electoral-access",
+          "institutional-autonomy-coordination",
+          "taxation-burden-public-revenue",
+          "universal-targeted-provision",
+          "ecological-limits-resource-use",
+          "russia-diplomatic-engagement",
+          "russia-security-cooperation",
+          "russia-economic-technology-cooperation",
+          "russia-education-cultural-cooperation",
+          "russia-conflict-policy-evaluation",
+          "russia-isolation-sanctions"
+        ],
+        "required_scales_per_object": 4,
+        "excluded_object_ids": [
+          "paul-kagame",
+          "edouard-ngirente",
+          "justin-nsengiyumva",
+          "olivier-nduhungirehe",
+          "james-kabarebe",
+          "juvenal-marizamunda",
+          "ines-mpambara",
+          "jeanne-darc-mujawamariya",
+          "jean-claude-musabyimana",
+          "clare-akamanzi",
+          "francis-gatare",
+          "gertrude-kazarwa",
+          "donatille-mukabalisa",
+          "philippe-mpayimana",
+          "bernard-ntaganda",
+          "christopher-kayumba",
+          "paul-rusesabagina",
+          "kayumba-nyamwasa",
+          "louise-mushikiwabo"
+        ],
+        "retained_objects": 23,
+        "retained_scales": 5
+      },
+      {
+        "iteration": 2,
+        "input_objects": 23,
+        "input_scales": 5,
+        "required_objects_per_scale": 14,
+        "excluded_scale_ids": [],
+        "required_scales_per_object": 4,
+        "excluded_object_ids": [],
+        "retained_objects": 23,
+        "retained_scales": 5
+      }
+    ],
+    "preprocessing_report": "На каждой итерации сначала исключаются постоянные шкалы и шкалы, измеренные менее чем у 60% текущих объектов или менее чем у 8 объектов. Затем исключаются объекты с оценками менее чем по 60% оставшихся шкал или менее чем по 4 шкалам. Процедура повторяется до стабильности состава. В итоговой матрице требуется не менее 75% известных оценок. Неизвестные значения не заменяются нулём.",
+    "failure_code": "minimum_retained_dimensions",
+    "seed": 20261015,
+    "factor_analysis_started": false,
+    "trait_order": [
+      "programmatic-renewal",
+      "participation-administrative-direction",
+      "argumentation-evidence-values",
+      "mediation-adversarial-communication",
+      "problem-disclosure-reputation-defence"
+    ],
+    "training_object_order": [
+      "vincent-biruta",
+      "albert-murasira",
+      "emmanuel-ugirashebuja",
+      "yusuf-murangwa",
+      "uzziel-ndagijimana",
+      "paula-ingabire",
+      "sabin-nsanzimana",
+      "judith-uwizeye",
+      "valentine-uwamariya",
+      "gerardine-mukeshimana",
+      "ildephonse-musafiri",
+      "jean-damascene-bizimana",
+      "francois-xavier-kalinda",
+      "augustin-iyamuremye",
+      "alvera-mukabaramba",
+      "mussa-fazil-harerimana",
+      "pudence-rubingisa",
+      "samuel-dusengiyumva",
+      "frank-habineza",
+      "victoire-ingabire",
+      "diane-rwigara",
+      "claver-gatete",
+      "valentine-rugwabiza"
+    ],
+    "input_sha256": "89090e3568c30f0d42fb791a9e8d2a3768de2185ee17f6b8fc05c27cbc496728"
+  },
+  "limitations": [
+    "Недостаточно реальных наблюдений для начала FA; факторы, нагрузки, доли дисперсии и кластеры не оценивались.",
+    "Недостаточное покрытие не доказывает отсутствия политической позиции или отдельного тематического измерения."
+  ],
+  "charts": [],
+  "artifacts": [
+    {
+      "name": "factor_preview_json",
+      "path": "factor_preview.json",
+      "type": "json"
+    },
+    {
+      "name": "factor_preview_md",
+      "path": "factor_preview.md",
+      "type": "markdown"
+    }
+  ]
+}

@@ -1,0 +1,90 @@
+{
+  "data": {
+    "ratings": [
+      {
+        "scale_id": "prevention-crisis-response",
+        "positive": null,
+        "negative": null,
+        "status": "unknown",
+        "confidence": 0.3,
+        "reason": "В предоставленных фактах отсутствуют прямые или косвенные сведения о публичных акцентах Каюмбы на упреждающем снижении рисков или оперативном реагировании на кризисы.",
+        "evidence_indices": []
+      },
+      {
+        "scale_id": "electoral-access",
+        "positive": 3,
+        "negative": 0,
+        "status": "observed",
+        "confidence": 0.7,
+        "reason": "Каюмба последовательно выступал за расширение политического участия: создание RPD, программные заявления о свободе, демократии, подотчётности и гражданах как источнике власти. Нет оснований для кодирования усиления барьеров.",
+        "evidence_indices": [
+          0,
+          9,
+          11
+        ]
+      },
+      {
+        "scale_id": "institutional-autonomy-coordination",
+        "positive": 3,
+        "negative": 0,
+        "status": "observed",
+        "confidence": 0.7,
+        "reason": "В программных заявлениях Каюмбы подчёркнуты подотчётность правительства гражданам, свободные СМИ, гражданское общество и ограниченное государство, что указывает на акцент самостоятельности институтов. Нет оснований для кодирования единой управленческой линии.",
+        "evidence_indices": [
+          9,
+          11
+        ]
+      },
+      {
+        "scale_id": "taxation-burden-public-revenue",
+        "positive": null,
+        "negative": null,
+        "status": "unknown",
+        "confidence": 0.3,
+        "reason": "В предоставленных материалах нет прямых заявлений Каюмбы о снижении налоговой нагрузки или увеличении налоговых поступлений для публичного развития.",
+        "evidence_indices": []
+      },
+      {
+        "scale_id": "universal-targeted-provision",
+        "positive": 1,
+        "negative": 1,
+        "status": "observed",
+        "confidence": 0.5,
+        "reason": "В программной декларации упомянуты гражданоцентричная политика и освобождение от бедности, что допускает единичные проявления обоих полюсов, но без конкретных механизмов или целевых групп.",
+        "evidence_indices": [
+          13
+        ]
+      },
+      {
+        "scale_id": "ecological-limits-resource-use",
+        "positive": null,
+        "negative": null,
+        "status": "unknown",
+        "confidence": 0.2,
+        "reason": "В предоставленных фактах отсутствуют сведения о позиции Каюмбы по экологическим ограничениям или расширению хозяйственного освоения ресурсов.",
+        "evidence_indices": []
+      }
+    ]
+  },
+  "model": "gpt-4.1",
+  "task": "ratings-supplement-christopher-kayumba-12",
+  "at": "2026-10-15T15:19:02.530170+00:00",
+  "usage": {
+    "prompt_tokens": 5113,
+    "completion_tokens": 639,
+    "total_tokens": 5752,
+    "prompt_tokens_details": {
+      "cached_tokens": 2944,
+      "audio_tokens": 0
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "audio_tokens": 0,
+      "accepted_prediction_tokens": 0,
+      "rejected_prediction_tokens": 0
+    }
+  },
+  "citations": [],
+  "system_fingerprint": "fp_233583e333",
+  "cache_key": "89b05c3eb530b8b31ebefd7b48bb09a8cf5c1994f22f98f03ec573d79805209a"
+}

@@ -1,0 +1,89 @@
+{
+  "data": {
+    "ratings": [
+      {
+        "scale_id": "prevention-crisis-response",
+        "positive": 3,
+        "negative": 1,
+        "status": "observed",
+        "confidence": 0.8,
+        "reason": "В ряде эпизодов (2023-10-12, 2023-10-28, 2024-03-01) наблюдается акцент на профилактике (защита лесов, реагирующая на потрясения социальная защита, предотвращение бедствий), что повторяется в разных контекстах. Оперативное реагирование проявляется в меньшей степени — через участие в программах помощи и восстановлении, но не как центральная черта.",
+        "evidence_indices": [
+          10,
+          11,
+          12,
+          13,
+          14,
+          15
+        ]
+      },
+      {
+        "scale_id": "electoral-access",
+        "positive": 1,
+        "negative": null,
+        "status": "unknown",
+        "confidence": 0.5,
+        "reason": "Есть единичное публичное проявление в пользу расширения участия граждан в выборах (2023-02-15), но нет оснований для оценки полюса усиления барьеров.",
+        "evidence_indices": [
+          2,
+          9
+        ]
+      },
+      {
+        "scale_id": "taxation-burden-public-revenue",
+        "positive": null,
+        "negative": null,
+        "status": "unknown",
+        "confidence": 0.2,
+        "reason": "В предоставленных материалах отсутствуют прямые персональные заявления или действия, связанные с налоговой нагрузкой или увеличением общественных доходов.",
+        "evidence_indices": []
+      },
+      {
+        "scale_id": "universal-targeted-provision",
+        "positive": 1,
+        "negative": 3,
+        "status": "observed",
+        "confidence": 0.7,
+        "reason": "В ряде эпизодов (2023-10-12, 2024-03-01) присутствует сочетание универсальных мер (строительство инфраструктуры, доступ к базовым благам) и акцент на адресной поддержке уязвимых групп (бедные, дети, пожилые, люди с инвалидностью). Адресная поддержка проявляется как повторяющийся акцент.",
+        "evidence_indices": [
+          11,
+          12,
+          15
+        ]
+      },
+      {
+        "scale_id": "ecological-limits-resource-use",
+        "positive": 3,
+        "negative": 0,
+        "status": "observed",
+        "confidence": 0.8,
+        "reason": "В эпизодах 2023-10-28 отмечается повторяющийся акцент на защите лесов, экологических ограничениях и предотвращении природных бедствий. Нет оснований для оценки полюса расширения хозяйственного использования ресурсов.",
+        "evidence_indices": [
+          12,
+          14
+        ]
+      }
+    ]
+  },
+  "model": "gpt-4.1",
+  "task": "ratings-supplement-jean-claude-musabyimana-12",
+  "at": "2026-10-15T15:13:20.025256+00:00",
+  "usage": {
+    "prompt_tokens": 5318,
+    "completion_tokens": 516,
+    "total_tokens": 5834,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "audio_tokens": 0
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "audio_tokens": 0,
+      "accepted_prediction_tokens": 0,
+      "rejected_prediction_tokens": 0
+    }
+  },
+  "citations": [],
+  "system_fingerprint": "fp_f25d2b37b0",
+  "cache_key": "7901005aa0a721631df99d127d15f38378d4ee2995980ac3d846935a22a5076f"
+}

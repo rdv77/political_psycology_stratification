@@ -1,0 +1,154 @@
+{
+  "data": {
+    "ratings": [
+      {
+        "scale_id": "programmatic-renewal",
+        "positive": 3,
+        "negative": 3,
+        "status": "observed",
+        "confidence": 0.8,
+        "reason": "В ряде случаев Увизейе подчёркивала продолжение реформ и улучшение предоставления услуг (факты 5, 6), что указывает на закрепление курса. Одновременно призывы ускорить ратификацию новых протоколов (факт 0) и акцент на новые программы (факт 6) свидетельствуют о программных изменениях. Оба полюса проявлены повторяющимися акцентами.",
+        "evidence_indices": [
+          0,
+          5,
+          6
+        ]
+      },
+      {
+        "scale_id": "government-course-assessment",
+        "positive": 1,
+        "negative": null,
+        "status": "unknown",
+        "confidence": 0.5,
+        "reason": "Есть единичное публичное проявление лояльности к президенту (факт 2), но нет прямых оценок всего курса власти или его критики.",
+        "evidence_indices": [
+          2
+        ]
+      },
+      {
+        "scale_id": "participation-administrative-direction",
+        "positive": null,
+        "negative": 3,
+        "status": "unknown",
+        "confidence": 0.7,
+        "reason": "Факты о руководстве совещаниями, обсуждении дисциплинарных процедур и административных приоритетах (факты 6, 7) указывают на повторяющийся акцент на административную координацию, но нет прямых данных о вовлечении граждан в подготовку решений.",
+        "evidence_indices": [
+          6,
+          7
+        ]
+      },
+      {
+        "scale_id": "argumentation-evidence-values",
+        "positive": null,
+        "negative": null,
+        "status": "unknown",
+        "confidence": 0.3,
+        "reason": "В предоставленных материалах отсутствуют прямые примеры обоснования решений через данные или ценности.",
+        "evidence_indices": []
+      },
+      {
+        "scale_id": "market-state-instruments",
+        "positive": null,
+        "negative": null,
+        "status": "unknown",
+        "confidence": 0.3,
+        "reason": "Нет прямых заявлений о приоритете частной инициативы или государственного регулирования.",
+        "evidence_indices": []
+      },
+      {
+        "scale_id": "accessibility-growth-priorities",
+        "positive": 3,
+        "negative": 3,
+        "status": "observed",
+        "confidence": 0.7,
+        "reason": "В публичных заявлениях Увизейе отмечены как поддержка программ, ориентированных на граждан и создание рабочих мест (факт 6), так и акцент на интеграцию и торговлю (факт 0), что указывает на выраженность обоих полюсов.",
+        "evidence_indices": [
+          0,
+          5,
+          6
+        ]
+      },
+      {
+        "scale_id": "external-domestic-resources",
+        "positive": 1,
+        "negative": null,
+        "status": "unknown",
+        "confidence": 0.5,
+        "reason": "Есть единичное упоминание о международной координации и приёме мигрантов (факт 1), но нет прямых заявлений о приоритете внешних или внутренних ресурсов.",
+        "evidence_indices": [
+          1
+        ]
+      },
+      {
+        "scale_id": "international-rules-autonomy",
+        "positive": 1,
+        "negative": null,
+        "status": "unknown",
+        "confidence": 0.5,
+        "reason": "Призыв к ратификации международного протокола (факт 0) — единичное проявление закрепления международных обязательств, но нет данных о защите национальной самостоятельности.",
+        "evidence_indices": [
+          0
+        ]
+      },
+      {
+        "scale_id": "mediation-adversarial-communication",
+        "positive": null,
+        "negative": null,
+        "status": "unknown",
+        "confidence": 0.3,
+        "reason": "Нет прямых примеров посредничества или полемической защиты в публичных материалах.",
+        "evidence_indices": []
+      },
+      {
+        "scale_id": "cultural-openness-national-transmission",
+        "positive": null,
+        "negative": null,
+        "status": "unknown",
+        "confidence": 0.3,
+        "reason": "В материалах отсутствуют заявления о культурном обмене или сохранении национальных ценностей.",
+        "evidence_indices": []
+      },
+      {
+        "scale_id": "problem-disclosure-reputation-defence",
+        "positive": null,
+        "negative": null,
+        "status": "unknown",
+        "confidence": 0.3,
+        "reason": "Нет прямых примеров публичного раскрытия проблем или защиты репутации.",
+        "evidence_indices": []
+      },
+      {
+        "scale_id": "procedural-guarantees-enforcement",
+        "positive": 1,
+        "negative": 3,
+        "status": "observed",
+        "confidence": 0.7,
+        "reason": "В обсуждении процедур обжалования и дисциплинарных процессов (факт 6) отмечено наличие процедурных гарантий (единичное проявление), а акцент на соблюдении законодательства и дисциплинарных мерах (факт 6) указывает на повторяющийся акцент на принудительном исполнении.",
+        "evidence_indices": [
+          6
+        ]
+      }
+    ]
+  },
+  "model": "gpt-4.1",
+  "task": "ratings-judith-uwizeye-0",
+  "at": "2026-10-15T15:11:37.822579+00:00",
+  "usage": {
+    "prompt_tokens": 5800,
+    "completion_tokens": 954,
+    "total_tokens": 6754,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "audio_tokens": 0
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "audio_tokens": 0,
+      "accepted_prediction_tokens": 0,
+      "rejected_prediction_tokens": 0
+    }
+  },
+  "citations": [],
+  "system_fingerprint": "fp_6d7f4b5803",
+  "cache_key": "b90fc27024aa5a8c05ef4062e576c4cf8a30b98d041035cd02309d73c7894969"
+}

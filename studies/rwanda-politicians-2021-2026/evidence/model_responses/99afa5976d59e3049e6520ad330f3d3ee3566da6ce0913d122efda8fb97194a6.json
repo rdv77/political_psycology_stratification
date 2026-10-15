@@ -1,0 +1,138 @@
+{
+  "data": {
+    "ratings": [
+      {
+        "scale_id": "programmatic-renewal",
+        "positive": 3,
+        "negative": 1,
+        "status": "observed",
+        "confidence": 0.8,
+        "reason": "Есть повторяющиеся персональные проявления: предложение создать новый орган контроля ветеринарных лекарств (факт 11), инициатива по пересмотру категорий Ubudehe с консультациями граждан (факт 14). Единичное поручение исполнителям без изменения курса (факт 13) и акцент на преемственности (факт 5) поддерживают слабую выраженность второго полюса.",
+        "evidence_indices": [
+          10,
+          13,
+          14,
+          4
+        ]
+      },
+      {
+        "scale_id": "government-course-assessment",
+        "positive": 3,
+        "negative": 1,
+        "status": "observed",
+        "confidence": 0.7,
+        "reason": "Публичная поддержка действующих программ социальной защиты и административных процедур (факты 13, 15, 16). Критика курса как системы не выявлена, но есть единичное предложение изменить отдельный механизм (факт 11).",
+        "evidence_indices": [
+          10,
+          13,
+          14,
+          15,
+          16
+        ]
+      },
+      {
+        "scale_id": "participation-administrative-direction",
+        "positive": 3,
+        "negative": 3,
+        "status": "observed",
+        "confidence": 0.85,
+        "reason": "Регулярно сочетаются приглашения к участию граждан (факт 14) и административная постановка задач, поручения исполнителям (факты 12, 13). Оба полюса проявляются в разных эпизодах.",
+        "evidence_indices": [
+          11,
+          12,
+          13,
+          14,
+          15,
+          16
+        ]
+      },
+      {
+        "scale_id": "market-state-instruments",
+        "positive": null,
+        "negative": 3,
+        "status": "unknown",
+        "confidence": 0.6,
+        "reason": "Есть персональное предложение усилить государственный надзор и создать новый регулирующий орган (факт 11), что подтверждает выраженность государственного регулирования. Прямых оснований для оценки поддержки частной инициативы нет.",
+        "evidence_indices": [
+          10
+        ]
+      },
+      {
+        "scale_id": "accessibility-growth-priorities",
+        "positive": 3,
+        "negative": 1,
+        "status": "observed",
+        "confidence": 0.8,
+        "reason": "Повторяющиеся акценты на обеспечении базовых потребностей, доступности административных и социальных услуг (факты 12, 13, 15, 16). Единичное упоминание о необходимости использовать доходы для улучшения условий жизни (факт 12) поддерживает слабую выраженность второго полюса.",
+        "evidence_indices": [
+          11,
+          12,
+          13,
+          15,
+          16
+        ]
+      },
+      {
+        "scale_id": "external-domestic-resources",
+        "positive": null,
+        "negative": null,
+        "status": "unknown",
+        "confidence": 0.4,
+        "reason": "Нет прямых персональных заявлений о приоритете внешнего финансирования или внутренней самостоятельности в исследуемый период.",
+        "evidence_indices": []
+      },
+      {
+        "scale_id": "international-rules-autonomy",
+        "positive": null,
+        "negative": null,
+        "status": "unknown",
+        "confidence": 0.3,
+        "reason": "Нет персональных заявлений о международных обязательствах или защите национальной автономии решений.",
+        "evidence_indices": []
+      },
+      {
+        "scale_id": "mediation-adversarial-communication",
+        "positive": 3,
+        "negative": 0,
+        "status": "observed",
+        "confidence": 0.7,
+        "reason": "В интервью (факт 10) выражена поддержка согласования интересов, инклюзивного представительства и межинституционального взаимодействия. Признаков полемической защиты или конфронтации не выявлено.",
+        "evidence_indices": [
+          9
+        ]
+      },
+      {
+        "scale_id": "procedural-guarantees-enforcement",
+        "positive": null,
+        "negative": 3,
+        "status": "unknown",
+        "confidence": 0.6,
+        "reason": "Есть предложение усилить обязательный надзор и контроль (факт 11), что подтверждает выраженность принудительного исполнения. Прямых оснований для оценки расширения процедурных гарантий нет.",
+        "evidence_indices": [
+          10
+        ]
+      }
+    ]
+  },
+  "model": "gpt-4.1",
+  "task": "ratings-supplement-alvera-mukabaramba-0",
+  "at": "2026-10-15T15:14:47.232722+00:00",
+  "usage": {
+    "prompt_tokens": 6440,
+    "completion_tokens": 815,
+    "total_tokens": 7255,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "audio_tokens": 0
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "audio_tokens": 0,
+      "accepted_prediction_tokens": 0,
+      "rejected_prediction_tokens": 0
+    }
+  },
+  "citations": [],
+  "system_fingerprint": "fp_98b0337892",
+  "cache_key": "99afa5976d59e3049e6520ad330f3d3ee3566da6ce0913d122efda8fb97194a6"
+}

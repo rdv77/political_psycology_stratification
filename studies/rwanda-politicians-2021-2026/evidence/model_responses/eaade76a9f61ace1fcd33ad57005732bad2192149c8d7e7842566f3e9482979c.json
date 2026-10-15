@@ -1,0 +1,149 @@
+{
+  "data": {
+    "ratings": [
+      {
+        "scale_id": "programmatic-renewal",
+        "positive": 1,
+        "negative": 3,
+        "status": "observed",
+        "confidence": 0.7,
+        "reason": "Есть единичное публичное проявление программного изменения (передача 80% лесов частным операторам), но также повторяющийся акцент на продолжении и закреплении традиций (призывы сохранять и передавать традицию посадки деревьев).",
+        "evidence_indices": [
+          1,
+          2
+        ]
+      },
+      {
+        "scale_id": "government-course-assessment",
+        "positive": null,
+        "negative": null,
+        "status": "unknown",
+        "confidence": 0.3,
+        "reason": "Нет прямых персональных оценок действующего курса власти или его критики.",
+        "evidence_indices": []
+      },
+      {
+        "scale_id": "participation-administrative-direction",
+        "positive": null,
+        "negative": null,
+        "status": "unknown",
+        "confidence": 0.3,
+        "reason": "Нет прямых оснований о вовлечении граждан в подготовку решений или о публичной административной постановке задач.",
+        "evidence_indices": []
+      },
+      {
+        "scale_id": "argumentation-evidence-values",
+        "positive": 1,
+        "negative": 3,
+        "status": "observed",
+        "confidence": 0.7,
+        "reason": "Есть единичное упоминание измеримого ориентира (80% лесов), но также повторяющийся акцент на ценностях и традициях (передача практики посадки деревьев следующим поколениям).",
+        "evidence_indices": [
+          1,
+          2
+        ]
+      },
+      {
+        "scale_id": "market-state-instruments",
+        "positive": 1,
+        "negative": 1,
+        "status": "observed",
+        "confidence": 0.6,
+        "reason": "Один раз обозначено расширение частной инициативы (передача лесов частным операторам), но также присутствует государственное ресурсное планирование.",
+        "evidence_indices": [
+          2
+        ]
+      },
+      {
+        "scale_id": "accessibility-growth-priorities",
+        "positive": null,
+        "negative": null,
+        "status": "unknown",
+        "confidence": 0.3,
+        "reason": "Нет прямых заявлений о приоритете расширения доступности благ или инвестиционного роста.",
+        "evidence_indices": []
+      },
+      {
+        "scale_id": "external-domestic-resources",
+        "positive": 1,
+        "negative": null,
+        "status": "unknown",
+        "confidence": 0.5,
+        "reason": "Есть единичное проявление привлечения внешних партнёров (соглашение с Италией), но нет оснований для оценки опоры на внутренние ресурсы.",
+        "evidence_indices": [
+          3
+        ]
+      },
+      {
+        "scale_id": "international-rules-autonomy",
+        "positive": null,
+        "negative": null,
+        "status": "unknown",
+        "confidence": 0.3,
+        "reason": "Нет прямых заявлений о закреплении международных обязательств или защите национальной самостоятельности.",
+        "evidence_indices": []
+      },
+      {
+        "scale_id": "mediation-adversarial-communication",
+        "positive": 1,
+        "negative": null,
+        "status": "unknown",
+        "confidence": 0.5,
+        "reason": "Есть единичное проявление переговорного стиля (подписание соглашения с Италией), но нет оснований для оценки полемической защиты.",
+        "evidence_indices": [
+          3
+        ]
+      },
+      {
+        "scale_id": "cultural-openness-national-transmission",
+        "positive": null,
+        "negative": 3,
+        "status": "unknown",
+        "confidence": 0.6,
+        "reason": "Повторяющийся акцент на передаче национальных традиций (посадка деревьев), но нет прямых проявлений расширения межкультурного обмена.",
+        "evidence_indices": [
+          1
+        ]
+      },
+      {
+        "scale_id": "problem-disclosure-reputation-defence",
+        "positive": null,
+        "negative": null,
+        "status": "unknown",
+        "confidence": 0.3,
+        "reason": "Нет прямых публичных признаний проблем или защиты репутации.",
+        "evidence_indices": []
+      },
+      {
+        "scale_id": "procedural-guarantees-enforcement",
+        "positive": null,
+        "negative": null,
+        "status": "unknown",
+        "confidence": 0.3,
+        "reason": "Нет оснований для оценки расширения процедурных гарантий или принудительного исполнения.",
+        "evidence_indices": []
+      }
+    ]
+  },
+  "model": "gpt-4.1",
+  "task": "ratings-jeanne-darc-mujawamariya-0",
+  "at": "2026-10-15T15:12:14.246252+00:00",
+  "usage": {
+    "prompt_tokens": 6021,
+    "completion_tokens": 1073,
+    "total_tokens": 7094,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "audio_tokens": 0
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "audio_tokens": 0,
+      "accepted_prediction_tokens": 0,
+      "rejected_prediction_tokens": 0
+    }
+  },
+  "citations": [],
+  "system_fingerprint": "fp_6d7f4b5803",
+  "cache_key": "eaade76a9f61ace1fcd33ad57005732bad2192149c8d7e7842566f3e9482979c"
+}

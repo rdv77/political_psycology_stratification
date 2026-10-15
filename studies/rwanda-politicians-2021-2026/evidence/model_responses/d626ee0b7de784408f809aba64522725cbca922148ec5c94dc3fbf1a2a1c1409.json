@@ -1,0 +1,61 @@
+{
+  "data": {
+    "ratings": [
+      {
+        "scale_id": "mediation-adversarial-communication",
+        "positive": null,
+        "negative": null,
+        "status": "unknown",
+        "confidence": 0.7,
+        "reason": "В предоставленных фактах нет прямых свидетельств публичного посредничества, согласования интересов сторон или полемической защиты собственной позиции Юсуфа Мурангва. Все упоминания касаются представления бюджетных и экономических инициатив, без явных признаков переговоров между сторонами или публичных споров.",
+        "evidence_indices": [
+          8,
+          10,
+          11,
+          12
+        ]
+      },
+      {
+        "scale_id": "cultural-openness-national-transmission",
+        "positive": null,
+        "negative": null,
+        "status": "unknown",
+        "confidence": 0.6,
+        "reason": "В материалах отсутствуют прямые высказывания или действия, свидетельствующие о приоритете межкультурного обмена или сохранении национальных ценностей в публичной риторике или инициативах Мурангва. Описания ограничиваются экономической и бюджетной политикой.",
+        "evidence_indices": []
+      },
+      {
+        "scale_id": "procedural-guarantees-enforcement",
+        "positive": null,
+        "negative": null,
+        "status": "unknown",
+        "confidence": 0.8,
+        "reason": "Единственный факт, связанный с реформой центрального банка, указывает на институциональную автономию, но не содержит достаточных данных о расширении процедурных гарантий или акценте на принудительном исполнении обязательных требований в публичной позиции Мурангва.",
+        "evidence_indices": [
+          13
+        ]
+      }
+    ]
+  },
+  "model": "gpt-4.1",
+  "task": "ratings-supplement-yusuf-murangwa-0",
+  "at": "2026-10-15T15:11:27.043957+00:00",
+  "usage": {
+    "prompt_tokens": 4226,
+    "completion_tokens": 310,
+    "total_tokens": 4536,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "audio_tokens": 0
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "audio_tokens": 0,
+      "accepted_prediction_tokens": 0,
+      "rejected_prediction_tokens": 0
+    }
+  },
+  "citations": [],
+  "system_fingerprint": "fp_363cf393c8",
+  "cache_key": "d626ee0b7de784408f809aba64522725cbca922148ec5c94dc3fbf1a2a1c1409"
+}

@@ -1,0 +1,105 @@
+{
+  "data": {
+    "ratings": [
+      {
+        "scale_id": "prevention-crisis-response",
+        "positive": null,
+        "negative": null,
+        "status": "unknown",
+        "confidence": 0.3,
+        "reason": "В предоставленных фактах нет прямых заявлений или действий Хабинезы, позволяющих оценить выраженность упреждающей профилактики рисков или оперативного реагирования на кризисы. Описаны программные предложения и общие направления, но не специфика управленческой стратегии по этой шкале.",
+        "evidence_indices": [
+          0,
+          1,
+          2,
+          3,
+          6,
+          7
+        ]
+      },
+      {
+        "scale_id": "electoral-access",
+        "positive": null,
+        "negative": null,
+        "status": "unknown",
+        "confidence": 0.3,
+        "reason": "В материалах отсутствуют прямые заявления или инициативы Хабинезы по расширению или ограничению политического допуска. Описаны его участие в выборах и партийная программа, но не позиция по избирательному доступу.",
+        "evidence_indices": [
+          0,
+          1,
+          6
+        ]
+      },
+      {
+        "scale_id": "institutional-autonomy-coordination",
+        "positive": null,
+        "negative": null,
+        "status": "unknown",
+        "confidence": 0.3,
+        "reason": "Нет прямых оснований для оценки отношения Хабинезы к самостоятельности институтов или координации их работы единой линией. Упоминания о парламентской и партийной деятельности не раскрывают его позицию по этой шкале.",
+        "evidence_indices": [
+          4,
+          5,
+          8
+        ]
+      },
+      {
+        "scale_id": "taxation-burden-public-revenue",
+        "positive": 3,
+        "negative": 0,
+        "status": "observed",
+        "confidence": 0.8,
+        "reason": "Хабинеза неоднократно и публично предлагал отмену земельного налога и других налогов, а также расширение имущественных прав, что свидетельствует о выраженном акценте на снижении налоговой нагрузки. Нет оснований для выраженности противоположного полюса.",
+        "evidence_indices": [
+          0,
+          3
+        ]
+      },
+      {
+        "scale_id": "universal-targeted-provision",
+        "positive": null,
+        "negative": null,
+        "status": "unknown",
+        "confidence": 0.4,
+        "reason": "В материалах есть предложения по увеличению доступности воды и медицинского страхования, но не уточняется, предполагаются ли они как универсальные меры или адресная поддержка. Недостаточно данных для оценки.",
+        "evidence_indices": [
+          0,
+          3
+        ]
+      },
+      {
+        "scale_id": "ecological-limits-resource-use",
+        "positive": 3,
+        "negative": 0,
+        "status": "observed",
+        "confidence": 0.8,
+        "reason": "Хабинеза в публичных выступлениях делал акцент на ужесточении экологических требований к добыче полезных ископаемых, защите природных объектов и пересмотре разрешительной системы, что указывает на выраженность полюса экологических ограничений. Нет оснований для выраженности противоположного полюса.",
+        "evidence_indices": [
+          2,
+          7
+        ]
+      }
+    ]
+  },
+  "model": "gpt-4.1",
+  "task": "ratings-frank-habineza-12",
+  "at": "2026-10-15T15:17:15.280555+00:00",
+  "usage": {
+    "prompt_tokens": 4162,
+    "completion_tokens": 596,
+    "total_tokens": 4758,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "audio_tokens": 0
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "audio_tokens": 0,
+      "accepted_prediction_tokens": 0,
+      "rejected_prediction_tokens": 0
+    }
+  },
+  "citations": [],
+  "system_fingerprint": "fp_233583e333",
+  "cache_key": "7b193d38c766c25b04b4b7d060e4c8dcffd5468ecf05ecbba78baf447c28288d"
+}

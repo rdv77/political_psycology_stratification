@@ -1,0 +1,179 @@
+{
+  "data": {
+    "ratings": [
+      {
+        "scale_id": "programmatic-renewal",
+        "positive": 3,
+        "negative": 3,
+        "status": "observed",
+        "confidence": 0.9,
+        "reason": "Есть повторяющиеся программные предложения по масштабированию и внедрению новых институтов (например, расширение охвата цифровыми сервисами, создание Национального агентства ИИ), а также акцент на преемственности и закреплении действующего курса цифрового развития и инноваций.",
+        "evidence_indices": [
+          1,
+          2,
+          3,
+          4,
+          10,
+          11,
+          12,
+          13,
+          14
+        ]
+      },
+      {
+        "scale_id": "government-course-assessment",
+        "positive": 3,
+        "negative": 0,
+        "status": "observed",
+        "confidence": 0.8,
+        "reason": "Публичные выступления и материалы содержат повторяющуюся поддержку действующего курса цифрового развития, однако прямой критики государственного курса не выявлено.",
+        "evidence_indices": [
+          1,
+          2,
+          3,
+          4,
+          7,
+          8,
+          10,
+          11,
+          12,
+          13,
+          14
+        ]
+      },
+      {
+        "scale_id": "participation-administrative-direction",
+        "positive": 1,
+        "negative": 3,
+        "status": "observed",
+        "confidence": 0.7,
+        "reason": "Есть единичные упоминания о расширении доступа и партнёрстве с учебными учреждениями, но основной акцент на административной координации, запуске государственных институтов и централизованном внедрении.",
+        "evidence_indices": [
+          1,
+          2,
+          3,
+          4,
+          11,
+          12,
+          13
+        ]
+      },
+      {
+        "scale_id": "market-state-instruments",
+        "positive": 3,
+        "negative": 3,
+        "status": "observed",
+        "confidence": 0.8,
+        "reason": "Публичный образ сочетает поддержку частной инициативы (инкубаторы, предприниматели, стартапы) с государственным регулированием и институциональным внедрением цифровых решений.",
+        "evidence_indices": [
+          2,
+          3,
+          4,
+          5,
+          11,
+          12,
+          13,
+          15
+        ]
+      },
+      {
+        "scale_id": "external-domestic-resources",
+        "positive": 3,
+        "negative": 1,
+        "status": "observed",
+        "confidence": 0.7,
+        "reason": "Регулярно подчёркивается привлечение внешних партнёров (ЕС, Германия, международные инициативы), но также отмечается развитие местных компетенций и экосистемы.",
+        "evidence_indices": [
+          3,
+          5,
+          7,
+          8,
+          12
+        ]
+      },
+      {
+        "scale_id": "international-rules-autonomy",
+        "positive": 3,
+        "negative": 0,
+        "status": "observed",
+        "confidence": 0.7,
+        "reason": "Есть прямые предложения по созданию трансграничных и региональных цифровых систем, что указывает на поддержку международных механизмов; защиты национальной автономии решений не выявлено.",
+        "evidence_indices": [
+          8,
+          11,
+          16
+        ]
+      },
+      {
+        "scale_id": "mediation-adversarial-communication",
+        "positive": 1,
+        "negative": 0,
+        "status": "observed",
+        "confidence": 0.6,
+        "reason": "Единично проявляется риторика согласования интересов (призывы к совместимости и сотрудничеству), но нет данных о полемической защите или оспаривании.",
+        "evidence_indices": [
+          11,
+          16
+        ]
+      },
+      {
+        "scale_id": "cultural-openness-national-transmission",
+        "positive": 1,
+        "negative": 1,
+        "status": "observed",
+        "confidence": 0.6,
+        "reason": "Есть единичные упоминания о развитии местной экосистемы и навыков, а также о региональном сотрудничестве, но оба полюса выражены слабо.",
+        "evidence_indices": [
+          4,
+          8,
+          12,
+          16
+        ]
+      },
+      {
+        "scale_id": "problem-disclosure-reputation-defence",
+        "positive": 1,
+        "negative": 1,
+        "status": "observed",
+        "confidence": 0.6,
+        "reason": "Публично раскрываются отдельные проблемы (риски кибербезопасности), но также присутствует акцент на продвижении достижений и профилактике.",
+        "evidence_indices": [
+          15
+        ]
+      },
+      {
+        "scale_id": "procedural-guarantees-enforcement",
+        "positive": 0,
+        "negative": 1,
+        "status": "observed",
+        "confidence": 0.6,
+        "reason": "Есть акцент на профилактике и обязательных мерах (кибербезопасность, защита данных), но не выявлено предложений по расширению процедур обжалования или гарантий.",
+        "evidence_indices": [
+          13,
+          15
+        ]
+      }
+    ]
+  },
+  "model": "gpt-4.1",
+  "task": "ratings-supplement-paula-ingabire-0",
+  "at": "2026-10-15T15:11:46.616000+00:00",
+  "usage": {
+    "prompt_tokens": 7191,
+    "completion_tokens": 878,
+    "total_tokens": 8069,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "audio_tokens": 0
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "audio_tokens": 0,
+      "accepted_prediction_tokens": 0,
+      "rejected_prediction_tokens": 0
+    }
+  },
+  "citations": [],
+  "system_fingerprint": "fp_98b0337892",
+  "cache_key": "4f51164900ebac2b96774521680e94c5e70c173f493586f82cd020b49adbd9d7"
+}

@@ -1,0 +1,38 @@
+{
+  "data": {
+    "ratings": [
+      {
+        "scale_id": "russia-education-cultural-cooperation",
+        "positive": 2,
+        "negative": 0,
+        "status": "observed",
+        "confidence": 0.7,
+        "reason": "Сабин Нсанзимана подписал межведомственный меморандум с Россией, предусматривающий сотрудничество в подготовке кадров и исследованиях в здравоохранении. Это свидетельствует о некоторой выраженности расширения образовательных и культурных обменов с Россией, но не делает это определяющей чертой публичного образа. Признаков ограничения обменов не обнаружено.",
+        "evidence_indices": [
+          0
+        ]
+      }
+    ]
+  },
+  "model": "gpt-4.1",
+  "task": "ratings-sabin-nsanzimana-12-russia-education-cultural-cooperation",
+  "at": "2026-10-15T15:11:47.379566+00:00",
+  "usage": {
+    "prompt_tokens": 1325,
+    "completion_tokens": 128,
+    "total_tokens": 1453,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "audio_tokens": 0
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "audio_tokens": 0,
+      "accepted_prediction_tokens": 0,
+      "rejected_prediction_tokens": 0
+    }
+  },
+  "citations": [],
+  "system_fingerprint": "fp_2f4bbfc724",
+  "cache_key": "506bd9bccc0dc464f6a986f224aebc64c4a9e618135e0a2acd73fecff0bc8764"
+}

@@ -1,0 +1,144 @@
+{
+  "data": {
+    "ratings": [
+      {
+        "scale_id": "programmatic-renewal",
+        "positive": 1,
+        "negative": 1,
+        "status": "observed",
+        "confidence": 0.7,
+        "reason": "В эпизоде по социальной защите (факт 11, 16) присутствует как признание необходимости инноваций и новых стратегий (обновление), так и продолжение действующей линии (преемственность).",
+        "evidence_indices": [
+          11,
+          16
+        ]
+      },
+      {
+        "scale_id": "government-course-assessment",
+        "positive": 1,
+        "negative": 0,
+        "status": "observed",
+        "confidence": 0.6,
+        "reason": "В эпизодах по социальной защите и реализации государственных программ (факты 11, 14, 16) есть элементы поддержки действующего курса, но нет прямой критики.",
+        "evidence_indices": [
+          11,
+          14,
+          16
+        ]
+      },
+      {
+        "scale_id": "argumentation-evidence-values",
+        "positive": 1,
+        "negative": 1,
+        "status": "observed",
+        "confidence": 0.7,
+        "reason": "В эпизоде с посадкой деревьев (факты 13, 15) используются количественные показатели и перечисление результатов (доказательная аргументация), а также ценностные формулы о природе (ценностная аргументация).",
+        "evidence_indices": [
+          13,
+          15
+        ]
+      },
+      {
+        "scale_id": "market-state-instruments",
+        "positive": null,
+        "negative": null,
+        "status": "unknown",
+        "confidence": 0.3,
+        "reason": "Нет прямых заявлений о расширении частной инициативы или государственного регулирования как самостоятельных приоритетов.",
+        "evidence_indices": []
+      },
+      {
+        "scale_id": "accessibility-growth-priorities",
+        "positive": 1,
+        "negative": 1,
+        "status": "observed",
+        "confidence": 0.7,
+        "reason": "В эпизодах по социальной защите и инфраструктурным программам (факты 11, 14, 16) есть акцент на доступности благ для нуждающихся и на экономической активности трудоспособного населения.",
+        "evidence_indices": [
+          11,
+          14,
+          16
+        ]
+      },
+      {
+        "scale_id": "external-domestic-resources",
+        "positive": null,
+        "negative": null,
+        "status": "unknown",
+        "confidence": 0.2,
+        "reason": "Нет прямых оснований для оценки приоритета внешних или внутренних ресурсов.",
+        "evidence_indices": []
+      },
+      {
+        "scale_id": "international-rules-autonomy",
+        "positive": null,
+        "negative": null,
+        "status": "unknown",
+        "confidence": 0.2,
+        "reason": "Нет прямых заявлений о международных обязательствах или защите самостоятельности решений.",
+        "evidence_indices": []
+      },
+      {
+        "scale_id": "mediation-adversarial-communication",
+        "positive": null,
+        "negative": null,
+        "status": "unknown",
+        "confidence": 0.2,
+        "reason": "Нет прямых эпизодов посредничества или полемической защиты.",
+        "evidence_indices": []
+      },
+      {
+        "scale_id": "cultural-openness-national-transmission",
+        "positive": null,
+        "negative": null,
+        "status": "unknown",
+        "confidence": 0.2,
+        "reason": "Нет прямых заявлений о культурном обмене или передаче национальных ценностей.",
+        "evidence_indices": []
+      },
+      {
+        "scale_id": "problem-disclosure-reputation-defence",
+        "positive": 1,
+        "negative": 0,
+        "status": "observed",
+        "confidence": 0.6,
+        "reason": "В эпизоде по социальной защите (факт 11) признаны сохраняющиеся проблемы; нет прямой защиты репутации.",
+        "evidence_indices": [
+          11
+        ]
+      },
+      {
+        "scale_id": "procedural-guarantees-enforcement",
+        "positive": 1,
+        "negative": 0,
+        "status": "observed",
+        "confidence": 0.6,
+        "reason": "В эпизоде с избирательной комиссией (факт 10) отмечено сохранение независимости и процедурной автономии.",
+        "evidence_indices": [
+          10
+        ]
+      }
+    ]
+  },
+  "model": "gpt-4.1",
+  "task": "ratings-supplement-jean-claude-musabyimana-0",
+  "at": "2026-10-15T15:13:15.843831+00:00",
+  "usage": {
+    "prompt_tokens": 7060,
+    "completion_tokens": 1025,
+    "total_tokens": 8085,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "audio_tokens": 0
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "audio_tokens": 0,
+      "accepted_prediction_tokens": 0,
+      "rejected_prediction_tokens": 0
+    }
+  },
+  "citations": [],
+  "system_fingerprint": "fp_5fdce29b9f",
+  "cache_key": "5dad9c7991599ad64842182c114ef3a52d5c36427f7421cd9791f24a1185d4d2"
+}

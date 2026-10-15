@@ -1,0 +1,161 @@
+{
+  "data": {
+    "ratings": [
+      {
+        "scale_id": "programmatic-renewal",
+        "positive": 1,
+        "negative": 3,
+        "status": "observed",
+        "confidence": 0.7,
+        "reason": "В эпизоде председательства в EAPCCO Бирута призвал продолжать и укреплять существующее сотрудничество (negative=3), но также отмечено создание новых механизмов и координации (positive=1).",
+        "evidence_indices": [
+          8
+        ]
+      },
+      {
+        "scale_id": "government-course-assessment",
+        "positive": 1,
+        "negative": 0,
+        "status": "observed",
+        "confidence": 0.6,
+        "reason": "В выступлении перед парламентским комитетом Бирута сообщил о снижении заполненности тюрем и мерах по улучшению, что трактуется как единичная поддержка текущего курса, без явной критики.",
+        "evidence_indices": [
+          9
+        ]
+      },
+      {
+        "scale_id": "participation-administrative-direction",
+        "positive": 0,
+        "negative": 3,
+        "status": "observed",
+        "confidence": 0.7,
+        "reason": "В эпизодах с EAPCCO и докладе парламенту акцент на административной координации, управлении исполнением и переводе заключённых; нет признаков вовлечения граждан в подготовку решений.",
+        "evidence_indices": [
+          8,
+          9
+        ]
+      },
+      {
+        "scale_id": "argumentation-evidence-values",
+        "positive": 1,
+        "negative": 0,
+        "status": "observed",
+        "confidence": 0.6,
+        "reason": "В докладе парламенту Бирута использует количественные данные о заполненности тюрем и инфраструктуре, что соответствует единичному проявлению доказательной аргументации.",
+        "evidence_indices": [
+          9
+        ]
+      },
+      {
+        "scale_id": "market-state-instruments",
+        "positive": null,
+        "negative": null,
+        "status": "unknown",
+        "confidence": 0.2,
+        "reason": "Нет прямых оснований для оценки инструментов: ни акцента на частной инициативе, ни на расширении государственного регулирования.",
+        "evidence_indices": []
+      },
+      {
+        "scale_id": "accessibility-growth-priorities",
+        "positive": 1,
+        "negative": 1,
+        "status": "observed",
+        "confidence": 0.6,
+        "reason": "В соглашении с Великобританией Бирута подчёркивает предоставление жилья и интеграцию (positive=1), а также отмечается экономическая интеграция (negative=1).",
+        "evidence_indices": [
+          7
+        ]
+      },
+      {
+        "scale_id": "external-domestic-resources",
+        "positive": 1,
+        "negative": 0,
+        "status": "observed",
+        "confidence": 0.6,
+        "reason": "Подписание меморандума с ЕС и соглашение с Великобританией свидетельствуют о привлечении внешних партнёров и ресурсов.",
+        "evidence_indices": [
+          2,
+          7
+        ]
+      },
+      {
+        "scale_id": "international-rules-autonomy",
+        "positive": 1,
+        "negative": 0,
+        "status": "observed",
+        "confidence": 0.5,
+        "reason": "Подписание меморандумов о международном сотрудничестве и регулярных консультациях указывает на поддержку международных механизмов, без явной защиты автономии.",
+        "evidence_indices": [
+          2,
+          6,
+          7
+        ]
+      },
+      {
+        "scale_id": "mediation-adversarial-communication",
+        "positive": 1,
+        "negative": 0,
+        "status": "observed",
+        "confidence": 0.6,
+        "reason": "В эпизоде с EAPCCO и дипломатическом брифинге отмечается акцент на согласовании и координации, без признаков полемики.",
+        "evidence_indices": [
+          3,
+          8
+        ]
+      },
+      {
+        "scale_id": "cultural-openness-national-transmission",
+        "positive": null,
+        "negative": null,
+        "status": "unknown",
+        "confidence": 0.2,
+        "reason": "Нет прямых оснований для оценки позиций по культурному обмену или национальным ценностям.",
+        "evidence_indices": []
+      },
+      {
+        "scale_id": "problem-disclosure-reputation-defence",
+        "positive": 1,
+        "negative": 1,
+        "status": "observed",
+        "confidence": 0.6,
+        "reason": "В докладе парламенту Бирута признаёт бюджетные ограничения и неравномерность загрузки тюрем (positive=1); в соглашении с Великобританией публично продвигает достоинства политики (negative=1).",
+        "evidence_indices": [
+          7,
+          9
+        ]
+      },
+      {
+        "scale_id": "procedural-guarantees-enforcement",
+        "positive": 0,
+        "negative": 1,
+        "status": "observed",
+        "confidence": 0.6,
+        "reason": "В докладе парламенту описаны меры по обеспечению исполнения уголовных наказаний и административное перераспределение заключённых; расширение процедур обжалования не отмечено.",
+        "evidence_indices": [
+          9
+        ]
+      }
+    ]
+  },
+  "model": "gpt-4.1",
+  "task": "ratings-supplement-vincent-biruta-0",
+  "at": "2026-10-15T15:09:55.828851+00:00",
+  "usage": {
+    "prompt_tokens": 6378,
+    "completion_tokens": 1211,
+    "total_tokens": 7589,
+    "prompt_tokens_details": {
+      "cached_tokens": 3968,
+      "audio_tokens": 0
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "audio_tokens": 0,
+      "accepted_prediction_tokens": 0,
+      "rejected_prediction_tokens": 0
+    }
+  },
+  "citations": [],
+  "system_fingerprint": "fp_6d7f4b5803",
+  "cache_key": "142a52692fb1e79b17235a2b05dcee1013db06c1ffc6b2ad512049fc025c8701"
+}

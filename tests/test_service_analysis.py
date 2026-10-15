@@ -9,7 +9,7 @@ import joblib
 import numpy as np
 import pandas as pd
 
-from scripts.latent_space_benchmark import transform_new_objects
+from scripts.latent_space_benchmark import fit_model, transform_new_objects
 from src.semantic_service.analysis import (
     _dimension_analysis, _factor_descriptions, _prepare, _tsne_initialization, analyze_study,
 )
@@ -90,6 +90,31 @@ class ServiceAnalysisTests(unittest.TestCase):
             _dimension_analysis(raw)
         self.assertEqual(_tsne_initialization(np.ones((6, 2))), "random")
         self.assertEqual(_tsne_initialization(np.array([[0., 0.], [1., 0.], [0., 1.]])), "pca")
+
+    def test_negative_nominal_df_candidates_are_never_fitted(self):
+        raw = np.random.default_rng(583).normal(size=(24, 6))
+        with patch("src.semantic_service.analysis.PARALLEL_PERMUTATIONS", 5), \
+             patch("src.semantic_service.analysis.fit_model", wraps=fit_model) as fit:
+            _, candidates, models, selection = _dimension_analysis(raw)
+        self.assertEqual([item["q"] for item in candidates], [2, 3])
+        self.assertEqual(set(models), {2, 3})
+        self.assertEqual({call.args[1] for call in fit.call_args_list}, {2, 3})
+        self.assertEqual([(item["parameter_count"], item["covariance_moments"], item["nominal_df"])
+                          for item in candidates], [(17, 21, 4), (21, 21, 0)])
+        guard = selection["parameter_count_constraint"]
+        self.assertTrue(guard["necessary_not_sufficient"])
+        self.assertEqual([(item["q"], item["nominal_df"]) for item in guard["excluded_candidates"]],
+                         [(4, -3), (5, -5)])
+
+    def test_seventeen_scales_still_allow_q2_through_q8(self):
+        raw = np.random.default_rng(584).normal(size=(24, 17))
+        with patch("src.semantic_service.analysis.PARALLEL_PERMUTATIONS", 5):
+            _, candidates, _, selection = _dimension_analysis(raw)
+        self.assertEqual([item["q"] for item in candidates], list(range(2, 9)))
+        self.assertEqual(selection["parameter_count_constraint"]["excluded_candidates"], [])
+        self.assertEqual(candidates[-1]["covariance_moments"], 153)
+        self.assertEqual(candidates[-1]["parameter_count"], 125)
+        self.assertEqual(candidates[-1]["nominal_df"], 28)
 
     def test_factor_property_orientation_follows_loading_sign(self):
         scales = [{"id": "s1", "name": "Общее имя 1", "positive": "Твёрдый", "negative": "Мягкий"},

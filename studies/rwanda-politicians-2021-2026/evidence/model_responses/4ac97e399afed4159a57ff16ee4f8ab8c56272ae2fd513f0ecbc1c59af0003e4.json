@@ -1,0 +1,119 @@
+{
+  "data": {
+    "ratings": [
+      {
+        "scale_id": "prevention-crisis-response",
+        "positive": null,
+        "negative": null,
+        "status": "unknown",
+        "confidence": 0.3,
+        "reason": "В предоставленных фактах отсутствуют прямые датированные основания для оценки выраженности упреждающей профилактики рисков или оперативного реагирования на кризисы в публичном образе. Описанные действия касаются бюджетного и экономического планирования, не раскрывая акцентов по данной шкале.",
+        "evidence_indices": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7
+        ]
+      },
+      {
+        "scale_id": "electoral-access",
+        "positive": null,
+        "negative": null,
+        "status": "unknown",
+        "confidence": 0.2,
+        "reason": "Нет сведений о публичных заявлениях или действиях, связанных с расширением или ограничением доступа к политическому участию или выборам.",
+        "evidence_indices": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7
+        ]
+      },
+      {
+        "scale_id": "institutional-autonomy-coordination",
+        "positive": null,
+        "negative": null,
+        "status": "unknown",
+        "confidence": 0.3,
+        "reason": "В материалах нет прямых проявлений акцентов на самостоятельности институтов или их координации единой управленческой линией. Описываются процедуры представления бюджета, но не отношения между институтами.",
+        "evidence_indices": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7
+        ]
+      },
+      {
+        "scale_id": "taxation-burden-public-revenue",
+        "positive": 0,
+        "negative": 3,
+        "status": "observed",
+        "confidence": 0.7,
+        "reason": "Повторяющийся публичный акцент на увеличении государственных расходов и привлечении доходов (внутренних и внешних) для финансирования программ развития и восстановления экономики. Нет оснований для выраженности снижения налоговой нагрузки.",
+        "evidence_indices": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          7
+        ]
+      },
+      {
+        "scale_id": "universal-targeted-provision",
+        "positive": 1,
+        "negative": 0,
+        "status": "observed",
+        "confidence": 0.5,
+        "reason": "Единичное публичное проявление акцента на всеобщем доступе (программа электрификации с целью 100% охвата). Нет оснований для выраженности приоритета адресной поддержки.",
+        "evidence_indices": [
+          6
+        ]
+      },
+      {
+        "scale_id": "ecological-limits-resource-use",
+        "positive": 1,
+        "negative": 0,
+        "status": "observed",
+        "confidence": 0.4,
+        "reason": "В одном эпизоде отмечено смягчение последствий изменения климата как часть публичной рамки бюджета, что может указывать на единичное проявление экологических ограничений. Нет оснований для выраженности расширения хозяйственного использования ресурсов.",
+        "evidence_indices": [
+          0
+        ]
+      }
+    ]
+  },
+  "model": "gpt-4.1",
+  "task": "ratings-uzziel-ndagijimana-12",
+  "at": "2026-10-15T15:11:05.687476+00:00",
+  "usage": {
+    "prompt_tokens": 3822,
+    "completion_tokens": 566,
+    "total_tokens": 4388,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "audio_tokens": 0
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "audio_tokens": 0,
+      "accepted_prediction_tokens": 0,
+      "rejected_prediction_tokens": 0
+    }
+  },
+  "citations": [],
+  "system_fingerprint": "fp_233583e333",
+  "cache_key": "4ac97e399afed4159a57ff16ee4f8ab8c56272ae2fd513f0ecbc1c59af0003e4"
+}

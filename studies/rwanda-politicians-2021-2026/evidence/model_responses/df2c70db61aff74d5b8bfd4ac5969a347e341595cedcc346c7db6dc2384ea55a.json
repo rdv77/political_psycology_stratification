@@ -1,0 +1,146 @@
+{
+  "data": {
+    "ratings": [
+      {
+        "scale_id": "programmatic-renewal",
+        "positive": null,
+        "negative": null,
+        "status": "unknown",
+        "confidence": 0.6,
+        "reason": "Нет прямых датированных публичных заявлений Ньямвасы о программном изменении или закреплении курса; переход к оппозиции не равен программному обновлению или преемственности.",
+        "evidence_indices": [
+          0,
+          9
+        ]
+      },
+      {
+        "scale_id": "government-course-assessment",
+        "positive": null,
+        "negative": null,
+        "status": "unknown",
+        "confidence": 0.7,
+        "reason": "Есть публичная самоатрибуция оппозиционной роли и критика авторитарного правления, но нет повторяющихся или детализированных оценок курса власти; единичное заявление не позволяет количественно оценить выраженность.",
+        "evidence_indices": [
+          2
+        ]
+      },
+      {
+        "scale_id": "participation-administrative-direction",
+        "positive": null,
+        "negative": null,
+        "status": "unknown",
+        "confidence": 0.5,
+        "reason": "Нет сведений о публичных призывах к совместному обсуждению решений или административной координации в доступных материалах.",
+        "evidence_indices": []
+      },
+      {
+        "scale_id": "argumentation-evidence-values",
+        "positive": null,
+        "negative": null,
+        "status": "unknown",
+        "confidence": 0.5,
+        "reason": "Нет оснований для оценки способов публичного обоснования (данные, ценности) по предоставленным источникам.",
+        "evidence_indices": []
+      },
+      {
+        "scale_id": "market-state-instruments",
+        "positive": null,
+        "negative": null,
+        "status": "unknown",
+        "confidence": 0.5,
+        "reason": "Нет прямых заявлений или программных позиций по инструментам регулирования или инициативы.",
+        "evidence_indices": []
+      },
+      {
+        "scale_id": "accessibility-growth-priorities",
+        "positive": null,
+        "negative": null,
+        "status": "unknown",
+        "confidence": 0.5,
+        "reason": "Нет сведений о приоритетах расширения доступности благ или инвестиционного роста в публичных заявлениях.",
+        "evidence_indices": []
+      },
+      {
+        "scale_id": "external-domestic-resources",
+        "positive": null,
+        "negative": null,
+        "status": "unknown",
+        "confidence": 0.5,
+        "reason": "Нет прямых заявлений о привлечении внешних ресурсов или опоре на внутренние доходы.",
+        "evidence_indices": []
+      },
+      {
+        "scale_id": "international-rules-autonomy",
+        "positive": null,
+        "negative": null,
+        "status": "unknown",
+        "confidence": 0.5,
+        "reason": "Нет оснований для оценки отношения к международным обязательствам или национальной самостоятельности решений.",
+        "evidence_indices": []
+      },
+      {
+        "scale_id": "mediation-adversarial-communication",
+        "positive": null,
+        "negative": null,
+        "status": "unknown",
+        "confidence": 0.6,
+        "reason": "Есть сведения о региональных спорах и оппозиционной самоидентификации, но нет прямых публичных эпизодов посредничества или полемики, позволяющих количественно оценить выраженность.",
+        "evidence_indices": [
+          1,
+          9,
+          2
+        ]
+      },
+      {
+        "scale_id": "cultural-openness-national-transmission",
+        "positive": null,
+        "negative": null,
+        "status": "unknown",
+        "confidence": 0.5,
+        "reason": "Нет данных о публичной позиции по вопросам культурного обмена или национальных ценностей.",
+        "evidence_indices": []
+      },
+      {
+        "scale_id": "problem-disclosure-reputation-defence",
+        "positive": null,
+        "negative": null,
+        "status": "unknown",
+        "confidence": 0.6,
+        "reason": "Есть эпизод публичного опровержения обвинений, но он единичен и не позволяет количественно оценить выраженность защиты репутации или раскрытия проблем.",
+        "evidence_indices": [
+          2
+        ]
+      },
+      {
+        "scale_id": "procedural-guarantees-enforcement",
+        "positive": null,
+        "negative": null,
+        "status": "unknown",
+        "confidence": 0.5,
+        "reason": "Нет сведений о публичной позиции по вопросам процедурных гарантий или принудительного исполнения.",
+        "evidence_indices": []
+      }
+    ]
+  },
+  "model": "gpt-4.1",
+  "task": "ratings-supplement-kayumba-nyamwasa-0",
+  "at": "2026-10-15T15:18:51.953911+00:00",
+  "usage": {
+    "prompt_tokens": 6041,
+    "completion_tokens": 772,
+    "total_tokens": 6813,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "audio_tokens": 0
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "audio_tokens": 0,
+      "accepted_prediction_tokens": 0,
+      "rejected_prediction_tokens": 0
+    }
+  },
+  "citations": [],
+  "system_fingerprint": "fp_6d7f4b5803",
+  "cache_key": "df2c70db61aff74d5b8bfd4ac5969a347e341595cedcc346c7db6dc2384ea55a"
+}

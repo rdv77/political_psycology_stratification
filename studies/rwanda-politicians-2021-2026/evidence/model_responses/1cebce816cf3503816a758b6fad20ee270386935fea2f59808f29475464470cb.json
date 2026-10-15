@@ -1,0 +1,174 @@
+{
+  "data": {
+    "ratings": [
+      {
+        "scale_id": "programmatic-renewal",
+        "positive": 3,
+        "negative": 3,
+        "status": "observed",
+        "confidence": 0.9,
+        "reason": "Регулярно отмечает необходимость реформ, инноваций и дальнейшего развития (факты 0, 1, 3, 4, 5, 11, 13, 15), но также акцентирует продолжение и ускорение действующего курса (факты 11, 13). Оба полюса выражены как повторяющиеся публичные акценты.",
+        "evidence_indices": [
+          0,
+          1,
+          3,
+          4,
+          5,
+          11,
+          13,
+          15
+        ]
+      },
+      {
+        "scale_id": "government-course-assessment",
+        "positive": 3,
+        "negative": 0,
+        "status": "observed",
+        "confidence": 0.8,
+        "reason": "Публично поддерживает действующий курс, призывает к его ускорению и реализации (факты 11, 13), но не выявлено прямой критики всего государственного курса.",
+        "evidence_indices": [
+          11,
+          13
+        ]
+      },
+      {
+        "scale_id": "participation-administrative-direction",
+        "positive": 1,
+        "negative": 3,
+        "status": "observed",
+        "confidence": 0.7,
+        "reason": "Есть единичные призывы к инклюзивности и диалогу (факты 1, 15), но преобладают административные постановки задач, управление исполнением и координация (факты 0, 4, 5, 11, 13).",
+        "evidence_indices": [
+          0,
+          1,
+          4,
+          5,
+          11,
+          13,
+          15
+        ]
+      },
+      {
+        "scale_id": "argumentation-evidence-values",
+        "positive": 3,
+        "negative": 3,
+        "status": "observed",
+        "confidence": 0.8,
+        "reason": "Использует как доказательную аргументацию (данные, целевые показатели, исследования — факты 5, 13, 15), так и ценностные обращения (патриотизм, служение, память — факты 3, 11, 13). Оба полюса повторяются в разных эпизодах.",
+        "evidence_indices": [
+          3,
+          5,
+          11,
+          13,
+          15
+        ]
+      },
+      {
+        "scale_id": "market-state-instruments",
+        "positive": 1,
+        "negative": 3,
+        "status": "observed",
+        "confidence": 0.7,
+        "reason": "Есть отдельные упоминания поддержки частной инициативы (факт 11), но основной акцент на государственных программах, регулировании и административной поддержке (факты 0, 4, 5, 11, 13).",
+        "evidence_indices": [
+          0,
+          4,
+          5,
+          11,
+          13
+        ]
+      },
+      {
+        "scale_id": "accessibility-growth-priorities",
+        "positive": 3,
+        "negative": 3,
+        "status": "observed",
+        "confidence": 0.8,
+        "reason": "Публично подчеркивает как расширение доступности благ (образование, поддержка фермеров — факты 4, 5, 11, 13), так и приоритет инвестиционного роста и конкурентоспособности (факты 0, 1, 5, 13). Оба полюса выражены повторяющимися акцентами.",
+        "evidence_indices": [
+          0,
+          1,
+          4,
+          5,
+          11,
+          13
+        ]
+      },
+      {
+        "scale_id": "external-domestic-resources",
+        "positive": 3,
+        "negative": 1,
+        "status": "observed",
+        "confidence": 0.8,
+        "reason": "Регулярно отмечает привлечение внешнего финансирования и партнёрств (факты 0, 1, 5, 13, 15), отдельные упоминания внутренней эффективности и самостоятельности (факт 11).",
+        "evidence_indices": [
+          0,
+          1,
+          5,
+          11,
+          13,
+          15
+        ]
+      },
+      {
+        "scale_id": "international-rules-autonomy",
+        "positive": 3,
+        "negative": 1,
+        "status": "observed",
+        "confidence": 0.8,
+        "reason": "Поддерживает международные обязательства и многосторонние соглашения (факты 1, 15), отдельные упоминания самостоятельности решений (факт 0).",
+        "evidence_indices": [
+          0,
+          1,
+          15
+        ]
+      },
+      {
+        "scale_id": "problem-disclosure-reputation-defence",
+        "positive": 1,
+        "negative": 3,
+        "status": "observed",
+        "confidence": 0.7,
+        "reason": "Есть единичные упоминания о вызовах и необходимости учитывать уроки (факты 0, 5), но преобладает защитное продвижение достижений и репутации (факты 3, 4, 11, 13).",
+        "evidence_indices": [
+          0,
+          3,
+          4,
+          5,
+          11,
+          13
+        ]
+      },
+      {
+        "scale_id": "procedural-guarantees-enforcement",
+        "positive": null,
+        "negative": null,
+        "status": "unknown",
+        "confidence": 0.3,
+        "reason": "В предоставленных фактах отсутствуют прямые основания для оценки расширения процедурных гарантий или акцента на принудительном исполнении.",
+        "evidence_indices": []
+      }
+    ]
+  },
+  "model": "gpt-4.1",
+  "task": "ratings-supplement-edouard-ngirente-0",
+  "at": "2026-10-15T15:10:03.793131+00:00",
+  "usage": {
+    "prompt_tokens": 6460,
+    "completion_tokens": 1028,
+    "total_tokens": 7488,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "audio_tokens": 0
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "audio_tokens": 0,
+      "accepted_prediction_tokens": 0,
+      "rejected_prediction_tokens": 0
+    }
+  },
+  "citations": [],
+  "system_fingerprint": "fp_6d7f4b5803",
+  "cache_key": "1cebce816cf3503816a758b6fad20ee270386935fea2f59808f29475464470cb"
+}

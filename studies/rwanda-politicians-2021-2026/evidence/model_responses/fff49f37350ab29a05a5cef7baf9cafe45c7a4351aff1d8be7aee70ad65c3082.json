@@ -1,0 +1,86 @@
+{
+  "data": {
+    "ratings": [
+      {
+        "scale_id": "market-state-instruments",
+        "positive": null,
+        "negative": null,
+        "status": "unknown",
+        "confidence": 0.8,
+        "reason": "В публичных выступлениях и коммуникациях Ругвабизы зафиксированы описания координации с государственными органами и упоминания о национальном плане развития, однако нет прямых персональных заявлений или инициатив, однозначно свидетельствующих о личной поддержке расширения частной инициативы либо государственного регулирования. Все примеры относятся к мандатной коммуникации или описанию позиций других акторов.",
+        "evidence_indices": [
+          12,
+          13,
+          14
+        ]
+      },
+      {
+        "scale_id": "external-domestic-resources",
+        "positive": 3,
+        "negative": null,
+        "status": "unknown",
+        "confidence": 0.9,
+        "reason": "Ругвабиза неоднократно публично обращалась за внешними ресурсами и поддержкой для MINUSCA, что подтверждается несколькими датированными эпизодами. Однако нет прямых персональных заявлений о стратегии опоры на внутренние доходы или снижении зависимости от внешних поступлений.",
+        "evidence_indices": [
+          15,
+          21,
+          28
+        ]
+      },
+      {
+        "scale_id": "cultural-openness-national-transmission",
+        "positive": null,
+        "negative": null,
+        "status": "unknown",
+        "confidence": 0.7,
+        "reason": "В предоставленных материалах отсутствуют прямые публичные заявления или действия Ругвабизы, связанные с расширением межкультурного обмена или сохранением национальных ценностей. Тематика культурной политики не затрагивается в доступных источниках.",
+        "evidence_indices": []
+      },
+      {
+        "scale_id": "problem-disclosure-reputation-defence",
+        "positive": 1,
+        "negative": 1,
+        "status": "observed",
+        "confidence": 0.8,
+        "reason": "В ряде выступлений Ругвабиза сочетает признание рисков отката и уязвимости достигнутого (единичные прямые проявления раскрытия проблем) с защитой результатов миссии и акцентом на прогрессе (единичные проявления репутационной защиты). Оба полюса выражены на уровне отдельных эпизодов, но не как устойчивый акцент.",
+        "evidence_indices": [
+          17,
+          22
+        ]
+      },
+      {
+        "scale_id": "procedural-guarantees-enforcement",
+        "positive": null,
+        "negative": null,
+        "status": "unknown",
+        "confidence": 0.8,
+        "reason": "В материалах нет прямых персональных заявлений или инициатив Ругвабизы по расширению гарантий обжалования либо по усилению принудительного исполнения обязательных требований. Описания касаются координации институтов и реагирования на кризисы, но не содержат персональных позиций по данной шкале.",
+        "evidence_indices": [
+          16,
+          24
+        ]
+      }
+    ]
+  },
+  "model": "gpt-4.1",
+  "task": "ratings-supplement-valentine-rugwabiza-0",
+  "at": "2026-10-15T15:19:45.898988+00:00",
+  "usage": {
+    "prompt_tokens": 7011,
+    "completion_tokens": 687,
+    "total_tokens": 7698,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "audio_tokens": 0
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "audio_tokens": 0,
+      "accepted_prediction_tokens": 0,
+      "rejected_prediction_tokens": 0
+    }
+  },
+  "citations": [],
+  "system_fingerprint": "fp_36620df7ef",
+  "cache_key": "fff49f37350ab29a05a5cef7baf9cafe45c7a4351aff1d8be7aee70ad65c3082"
+}

@@ -1,0 +1,195 @@
+{
+  "data": {
+    "ratings": [
+      {
+        "scale_id": "programmatic-renewal",
+        "positive": 3,
+        "negative": 3,
+        "status": "observed",
+        "confidence": 0.9,
+        "reason": "Нсанзимана неоднократно акцентировал программные изменения (расширение сети медпостов, усиление профилактики, новые международные проекты), но также подчёркивал продолжение и развитие действующих приоритетов (например, укрепление первичной помощи, выполнение ICPD25). Оба полюса выражены в публичных заявлениях и отчётах.",
+        "evidence_indices": [
+          0,
+          2,
+          3,
+          4,
+          5,
+          6,
+          10,
+          11,
+          12
+        ]
+      },
+      {
+        "scale_id": "government-course-assessment",
+        "positive": 3,
+        "negative": 0,
+        "status": "observed",
+        "confidence": 0.8,
+        "reason": "Публично поддерживает действующий курс в сфере здравоохранения, подчёркивает достижения и развитие системы. Прямой критики курса не выявлено.",
+        "evidence_indices": [
+          0,
+          2,
+          3,
+          4,
+          5,
+          6,
+          10,
+          11,
+          12
+        ]
+      },
+      {
+        "scale_id": "participation-administrative-direction",
+        "positive": 1,
+        "negative": 3,
+        "status": "observed",
+        "confidence": 0.7,
+        "reason": "Есть единичные призывы к участию молодёжи и медицинских работников (ICPD25), но основной стиль — административная координация, отчётность, постановка задач и контроль исполнения.",
+        "evidence_indices": [
+          3,
+          4,
+          5,
+          11
+        ]
+      },
+      {
+        "scale_id": "argumentation-evidence-values",
+        "positive": 3,
+        "negative": 1,
+        "status": "observed",
+        "confidence": 0.8,
+        "reason": "Регулярно использует количественные показатели, данные и ссылки на международные стандарты как основу аргументации. Эпизодические обращения к ценностям (например, спасение матери и ребёнка как безусловная цель).",
+        "evidence_indices": [
+          3,
+          5,
+          6,
+          11
+        ]
+      },
+      {
+        "scale_id": "market-state-instruments",
+        "positive": 1,
+        "negative": 3,
+        "status": "observed",
+        "confidence": 0.7,
+        "reason": "Преобладает акцент на государственных инструментах (развитие сети медпостов, государственная политика, международные соглашения). Есть отдельные упоминания о партнёрстве с частными производителями (BioNTech), но они не доминируют.",
+        "evidence_indices": [
+          5,
+          9,
+          10
+        ]
+      },
+      {
+        "scale_id": "accessibility-growth-priorities",
+        "positive": 3,
+        "negative": 1,
+        "status": "observed",
+        "confidence": 0.8,
+        "reason": "Основной публичный акцент — расширение доступности базовых медицинских услуг (развитие первичной помощи, снижение материнской смертности). Рост инвестиций и конкурентоспособности упоминается эпизодически (например, BioNTech), но не как центральная тема.",
+        "evidence_indices": [
+          3,
+          4,
+          5,
+          9,
+          10
+        ]
+      },
+      {
+        "scale_id": "external-domestic-resources",
+        "positive": 3,
+        "negative": 1,
+        "status": "observed",
+        "confidence": 0.8,
+        "reason": "Регулярно подчёркивает привлечение внешних ресурсов (ВОЗ, BioNTech, меморандумы с другими странами). Опора на внутренние ресурсы упоминается редко и не как основной акцент.",
+        "evidence_indices": [
+          0,
+          6,
+          9,
+          10
+        ]
+      },
+      {
+        "scale_id": "international-rules-autonomy",
+        "positive": 1,
+        "negative": 0,
+        "status": "observed",
+        "confidence": 0.6,
+        "reason": "Есть единичные проявления поддержки международных обязательств (ВОЗ, ООН, меморандумы), но нет прямых заявлений о защите национальной самостоятельности решений.",
+        "evidence_indices": [
+          0,
+          2,
+          6,
+          10
+        ]
+      },
+      {
+        "scale_id": "mediation-adversarial-communication",
+        "positive": 1,
+        "negative": 1,
+        "status": "observed",
+        "confidence": 0.6,
+        "reason": "Фиксируются отдельные эпизоды согласования (международные меморандумы, партнёрства) и единичный случай полемической защиты (оспаривание утверждений о малярии). Оба полюса выражены слабо.",
+        "evidence_indices": [
+          8,
+          10
+        ]
+      },
+      {
+        "scale_id": "cultural-openness-national-transmission",
+        "positive": 1,
+        "negative": 0,
+        "status": "observed",
+        "confidence": 0.5,
+        "reason": "Есть единичные проявления межкультурного обмена (международные соглашения, подготовка кадров), но акцент на национальных ценностях не выявлен.",
+        "evidence_indices": [
+          10
+        ]
+      },
+      {
+        "scale_id": "problem-disclosure-reputation-defence",
+        "positive": 1,
+        "negative": 1,
+        "status": "observed",
+        "confidence": 0.6,
+        "reason": "Публично признаёт отдельные проблемы исполнения (трудности функционирования медпостов), но также фиксируется эпизод защиты репутации (оспаривание утверждений о малярии).",
+        "evidence_indices": [
+          8,
+          12
+        ]
+      },
+      {
+        "scale_id": "procedural-guarantees-enforcement",
+        "positive": 0,
+        "negative": 1,
+        "status": "observed",
+        "confidence": 0.5,
+        "reason": "Нет оснований для оценки расширения процедурных гарантий; фиксируется акцент на исполнении обязательных требований и отчётности.",
+        "evidence_indices": [
+          11
+        ]
+      }
+    ]
+  },
+  "model": "gpt-4.1",
+  "task": "ratings-sabin-nsanzimana-0",
+  "at": "2026-10-15T15:11:38.681100+00:00",
+  "usage": {
+    "prompt_tokens": 6866,
+    "completion_tokens": 1101,
+    "total_tokens": 7967,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "audio_tokens": 0
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "audio_tokens": 0,
+      "accepted_prediction_tokens": 0,
+      "rejected_prediction_tokens": 0
+    }
+  },
+  "citations": [],
+  "system_fingerprint": "fp_6d7f4b5803",
+  "cache_key": "62f1ab2392de555a1931fef385183bf2f3bfe43322f77881b32f2a9a5be41c60"
+}

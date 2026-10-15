@@ -1,0 +1,81 @@
+{
+  "data": {
+    "ratings": [
+      {
+        "scale_id": "prevention-crisis-response",
+        "positive": null,
+        "negative": null,
+        "status": "unknown",
+        "confidence": 0.2,
+        "reason": "В предоставленных фактах отсутствуют прямые датированные основания для оценки выраженности упреждающей профилактики рисков или оперативного реагирования на кризисы в публичном образе Русесабагины за указанный период.",
+        "evidence_indices": []
+      },
+      {
+        "scale_id": "electoral-access",
+        "positive": null,
+        "negative": null,
+        "status": "unknown",
+        "confidence": 0.3,
+        "reason": "Нет прямых публичных заявлений или действий Русесабагины в 2021–2026 гг., направленных на расширение или ограничение доступа к выборной конкуренции; оппозиционная роль не является достаточным основанием.",
+        "evidence_indices": []
+      },
+      {
+        "scale_id": "institutional-autonomy-coordination",
+        "positive": null,
+        "negative": null,
+        "status": "unknown",
+        "confidence": 0.3,
+        "reason": "В материалах нет прямых персональных заявлений или действий Русесабагины по поводу самостоятельности институтов или координации их работы единой линией.",
+        "evidence_indices": []
+      },
+      {
+        "scale_id": "taxation-burden-public-revenue",
+        "positive": null,
+        "negative": null,
+        "status": "unknown",
+        "confidence": 0.2,
+        "reason": "В предоставленных фактах отсутствуют какие-либо датированные публичные заявления или действия Русесабагины по вопросам налоговой нагрузки или увеличения общественных доходов.",
+        "evidence_indices": []
+      },
+      {
+        "scale_id": "universal-targeted-provision",
+        "positive": null,
+        "negative": null,
+        "status": "unknown",
+        "confidence": 0.2,
+        "reason": "Нет оснований для оценки позиций Русесабагины относительно универсальных гарантий или адресной поддержки в социальной политике за указанный период.",
+        "evidence_indices": []
+      },
+      {
+        "scale_id": "ecological-limits-resource-use",
+        "positive": null,
+        "negative": null,
+        "status": "unknown",
+        "confidence": 0.2,
+        "reason": "В корпусе отсутствуют прямые датированные основания для оценки отношения Русесабагины к экологическим ограничениям или расширению хозяйственного освоения ресурсов.",
+        "evidence_indices": []
+      }
+    ]
+  },
+  "model": "gpt-4.1",
+  "task": "ratings-supplement-paul-rusesabagina-12",
+  "at": "2026-10-15T15:19:01.313903+00:00",
+  "usage": {
+    "prompt_tokens": 4865,
+    "completion_tokens": 577,
+    "total_tokens": 5442,
+    "prompt_tokens_details": {
+      "cached_tokens": 2944,
+      "audio_tokens": 0
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "audio_tokens": 0,
+      "accepted_prediction_tokens": 0,
+      "rejected_prediction_tokens": 0
+    }
+  },
+  "citations": [],
+  "system_fingerprint": "fp_233583e333",
+  "cache_key": "d7c8ee09aee74c8cd53bb4cf635333c4bebc285626ff9c980d9931704b003acf"
+}

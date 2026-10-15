@@ -1,0 +1,85 @@
+{
+  "data": {
+    "ratings": [
+      {
+        "scale_id": "programmatic-renewal",
+        "positive": 3,
+        "negative": null,
+        "status": "unknown",
+        "confidence": 0.8,
+        "reason": "Есть повторяющиеся публичные заявления о необходимости институциональных изменений на международном уровне (реформа ООН, переход от помощи к торговле), однако нет прямых оснований для оценки выраженности противоположного полюса (закрепление действующего курса).",
+        "evidence_indices": [
+          11,
+          13
+        ]
+      },
+      {
+        "scale_id": "government-course-assessment",
+        "positive": 3,
+        "negative": null,
+        "status": "unknown",
+        "confidence": 0.8,
+        "reason": "Публично выражена поддержка достигнутого курса Руанды и его преобразований, но отсутствуют прямые основания для оценки выраженности публичной критики курса Руанды.",
+        "evidence_indices": [
+          16,
+          17
+        ]
+      },
+      {
+        "scale_id": "participation-administrative-direction",
+        "positive": null,
+        "negative": null,
+        "status": "unknown",
+        "confidence": 0.5,
+        "reason": "Нет прямых персональных заявлений или действий, позволяющих оценить выраженность полюсов: ни приглашения к общественному контролю, ни акцента на административной координации.",
+        "evidence_indices": []
+      },
+      {
+        "scale_id": "accessibility-growth-priorities",
+        "positive": null,
+        "negative": 3,
+        "status": "unknown",
+        "confidence": 0.9,
+        "reason": "Повторяющиеся заявления о приоритете перехода от помощи к торговле и инвестициям, что соответствует выраженному отрицательному полюсу (рост инвестиций и деловой активности). Недостаточно оснований для оценки выраженности противоположного полюса (расширение доступности базовых благ).",
+        "evidence_indices": [
+          14,
+          17,
+          18,
+          19
+        ]
+      },
+      {
+        "scale_id": "procedural-guarantees-enforcement",
+        "positive": 1,
+        "negative": null,
+        "status": "unknown",
+        "confidence": 0.7,
+        "reason": "Есть единичное публичное требование прозрачности и подотчётности международных структур (ООН), но нет оснований для оценки выраженности противоположного полюса (принудительное исполнение).",
+        "evidence_indices": [
+          13
+        ]
+      }
+    ]
+  },
+  "model": "gpt-4.1",
+  "task": "ratings-supplement-olivier-nduhungirehe-0",
+  "at": "2026-10-15T15:10:40.785607+00:00",
+  "usage": {
+    "prompt_tokens": 6919,
+    "completion_tokens": 564,
+    "total_tokens": 7483,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "audio_tokens": 0
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "audio_tokens": 0,
+      "accepted_prediction_tokens": 0,
+      "rejected_prediction_tokens": 0
+    }
+  },
+  "citations": [],
+  "system_fingerprint": "fp_34f8e4113f",
+  "cache_key": "4283c2b74f0e2be33580daee9baff6704e8e09da11abafe3be62234ffb65eb5b"
+}

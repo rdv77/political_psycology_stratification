@@ -36,6 +36,14 @@ STABILITY_REPEATS = 30
 LOADING_THRESHOLD = .35
 
 
+class InsufficientMeasurementError(ValueError):
+    """Valid measurements fail the fixed minimum-data policy, with a coverage audit."""
+
+    def __init__(self, message, diagnostics):
+        super().__init__(message)
+        self.diagnostics = diagnostics
+
+
 def _finite_number(value, lower, upper, label):
     if isinstance(value, bool):
         raise ValueError(f"{label}: требуется числовая оценка")
@@ -57,8 +65,6 @@ def _prepare(study, ratings):
     sparse, subsequently discarded scales from excluding well-measured objects.
     """
     objects, scales = study.get("objects", []), study.get("scales", [])
-    if len(objects) < 12 or len(scales) < 6:
-        raise ValueError("Для разведочного анализа нужны минимум 12 объектов и 6 шкал")
     for label, values in (("объектов", objects), ("шкал", scales)):
         ids = [str(item.get("id", "")) for item in values]
         if any(not identity for identity in ids) or len(ids) != len(set(ids)):
@@ -135,15 +141,28 @@ def _prepare(study, ratings):
         if matrix.shape == before or matrix.empty:
             break
     n, p = matrix.shape
-    if n < 12 or p < 6:
-        raise ValueError("Недостаточно реальных оценок: после исключения неизвестных объектов, "
-                         "редко измеренных и постоянных шкал нужны минимум 12 объектов и 6 шкал")
-    coverage = float(matrix.notna().to_numpy().mean())
-    if coverage < .75:
-        raise ValueError("Для анализа требуется не менее 75% известных оценок в используемой матрице")
+    coverage = float(matrix.notna().to_numpy().mean()) if matrix.size else None
+    input_cells = len(objects) * len(scales)
     diagnostics = {
         "observed_input_ratings": observed_count, "difference_only_ratings": difference_only,
         "input_objects": len(objects), "input_scales": len(scales),
+        "total_input_cells": input_cells, "unknown_input_cells": input_cells - observed_count,
+        "input_coverage": observed_count / input_cells if input_cells else None,
+        "retained_objects": n, "retained_scales": p,
+        "retained_object_ids": matrix.index.tolist(), "retained_scale_ids": matrix.columns.tolist(),
+        "input_object_coverage": [{"id": oid, "name": item.get("name", oid),
+                                   "observed_scales": int(original.loc[oid].notna().sum()),
+                                   "total_scales": len(scales),
+                                   "coverage": float(original.loc[oid].notna().mean()) if len(scales) else None,
+                                   "retained": oid in matrix.index}
+                                  for oid, item in object_map.items()],
+        "input_scale_coverage": [{"id": sid, "name": item.get("name", sid),
+                                  "observed_objects": int(original[sid].notna().sum()),
+                                  "observed_retained_objects": int(original.loc[matrix.index, sid].notna().sum()),
+                                  "total_objects": len(objects),
+                                  "coverage": float(original[sid].notna().mean()) if len(objects) else None,
+                                  "retained": sid in matrix.columns}
+                                 for sid, item in scale_map.items()],
         "retained_coverage": coverage, "missing_retained_cells": int(matrix.isna().sum().sum()),
         "excluded_objects": excluded_objects, "excluded_scales": excluded_scales,
         "zero_differences": int((matrix == 0).sum().sum()),
@@ -156,6 +175,13 @@ def _prepare(study, ratings):
         "preprocessing_iterations": preprocessing_iterations,
         "preprocessing_report": "На каждой итерации сначала исключаются постоянные шкалы и шкалы, измеренные менее чем у 60% текущих объектов или менее чем у 8 объектов. Затем исключаются объекты с оценками менее чем по 60% оставшихся шкал или менее чем по 4 шкалам. Процедура повторяется до стабильности состава. В итоговой матрице требуется не менее 75% известных оценок. Неизвестные значения не заменяются нулём.",
     }
+    if n < 12 or p < 6:
+        raise InsufficientMeasurementError("Недостаточно реальных оценок: после исключения неизвестных объектов, "
+                                           "редко измеренных и постоянных шкал нужны минимум 12 объектов и 6 шкал",
+                                           {**diagnostics, "failure_code": "minimum_retained_dimensions"})
+    if coverage < .75:
+        raise InsufficientMeasurementError("Для анализа требуется не менее 75% известных оценок в используемой матрице",
+                                           {**diagnostics, "failure_code": "minimum_retained_coverage"})
     return matrix, mass.loc[matrix.index, matrix.columns], object_map, scale_map, diagnostics
 
 
@@ -182,10 +208,23 @@ def _dimension_analysis(raw):
     retained = _leading_count(eigenvalues, reference)
     splits = list(ShuffleSplit(n_splits=3, test_size=.25, random_state=SEED).split(raw))
     qmax = min(8, p - 1, min(len(train) for train, _ in splits) - 1)
+    covariance_moments = p * (p + 1) // 2
+    accounting = []
+    for q in range(2, qmax + 1):
+        # Subtract orthogonal rotation indeterminacy; the diagonal noise adds p.
+        # Nonnegative nominal df is necessary, not sufficient, for identification.
+        parameter_count = p * q + p - q * (q - 1) // 2
+        accounting.append({"q": q, "parameter_count": parameter_count,
+                           "covariance_moments": covariance_moments,
+                           "nominal_df": covariance_moments - parameter_count})
+    admissible = [item for item in accounting if item["nominal_df"] >= 0]
+    if not admissible:
+        raise ValueError("Нет допустимых решений FA с q>=2: число параметров превышает число ковариационных моментов")
     covariance = z.T @ z / n
     off_diagonal = ~np.eye(p, dtype=bool)
     candidates, models = [], {}
-    for q in range(2, qmax + 1):
+    for dimension in admissible:
+        q = dimension["q"]
         model, fitting = fit_model(raw, q, seed=SEED)
         models[q] = model
         rotated = model["loadings"] @ model["rotation"]
@@ -198,7 +237,7 @@ def _dimension_analysis(raw):
             values.append(float(raw_observed_log_likelihood(raw[test], trained).mean()))
             warnings_seen += int(local["convergence_warning"])
         candidates.append({
-            "q": q, "heldout_log_likelihood_mean": float(np.mean(values)),
+            **dimension, "heldout_log_likelihood_mean": float(np.mean(values)),
             "heldout_log_likelihood_sd": float(np.std(values, ddof=1)),
             "heldout_log_likelihood_splits": values,
             "residual_rms_off_diagonal": float(np.sqrt(np.mean(residual[off_diagonal] ** 2))),
@@ -221,7 +260,12 @@ def _dimension_analysis(raw):
     selection = {
         "recommended_q": chosen, "best_mean_heldout_q": best["q"],
         "parsimony_tolerance_log_likelihood": float(tolerance),
-        "rule": "Among converged candidates with at least two |loading|>=0.35 descriptors per factor, select the smallest q within max(1, SD_best/sqrt(3)) of the best three-split mean held-out likelihood; fall back to all candidates if none meet the loading criterion. This is an exploratory heuristic, not an inferential one-SE test.",
+        "rule": "Only fit q with nominal_df=p(p+1)/2-[p*q+p-q(q-1)/2]>=0, a necessary parameter-count screen, not sufficient identification. Among converged candidates with at least two |loading|>=0.35 descriptors per factor, select the smallest q within max(1, SD_best/sqrt(3)) of the best three-split mean held-out likelihood; fall back to all candidates if none meet the loading criterion. This is an exploratory heuristic, not an inferential one-SE test.",
+        "parameter_count_constraint": {"criterion": "nominal_df >= 0", "necessary_not_sufficient": True,
+                                       "parameter_count_formula": "p*q+p-q*(q-1)/2",
+                                       "covariance_moments": covariance_moments, "qmax_before_parameter_screen": qmax,
+                                       "admissible_q": [item["q"] for item in admissible],
+                                       "excluded_candidates": [item for item in accounting if item["nominal_df"] < 0]},
         "parallel_pca": {"retained_components": retained, "permutations": PARALLEL_PERMUTATIONS,
                          "quantile": .95, "observed_eigenvalues": eigenvalues.tolist(),
                          "reference_eigenvalues": reference.tolist(),

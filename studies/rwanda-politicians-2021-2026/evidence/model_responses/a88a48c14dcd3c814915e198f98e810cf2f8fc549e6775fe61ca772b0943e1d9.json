@@ -1,0 +1,38 @@
+{
+  "data": {
+    "ratings": [
+      {
+        "scale_id": "russia-economic-technology-cooperation",
+        "positive": 3,
+        "negative": null,
+        "status": "unknown",
+        "confidence": 0.7,
+        "reason": "Есть прямое публичное заявление о надежде на подготовку специалистов по ядерной энергетике при содействии России и упоминание выпускников российских вузов, что указывает на устойчивую заметность сотрудничества в экономико-технологической сфере. Однако нет данных о действиях по ограничению такого сотрудничества, поэтому оценка по негативному полюсу невозможна.",
+        "evidence_indices": [
+          0
+        ]
+      }
+    ]
+  },
+  "model": "gpt-4.1",
+  "task": "ratings-supplement-olivier-nduhungirehe-12-russia-economic-technology-cooperation",
+  "at": "2026-10-15T15:10:47.445101+00:00",
+  "usage": {
+    "prompt_tokens": 1261,
+    "completion_tokens": 119,
+    "total_tokens": 1380,
+    "prompt_tokens_details": {
+      "cached_tokens": 1024,
+      "audio_tokens": 0
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "audio_tokens": 0,
+      "accepted_prediction_tokens": 0,
+      "rejected_prediction_tokens": 0
+    }
+  },
+  "citations": [],
+  "system_fingerprint": "fp_136a75fece",
+  "cache_key": "a88a48c14dcd3c814915e198f98e810cf2f8fc549e6775fe61ca772b0943e1d9"
+}

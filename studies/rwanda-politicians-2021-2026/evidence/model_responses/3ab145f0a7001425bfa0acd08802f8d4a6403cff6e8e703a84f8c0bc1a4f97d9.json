@@ -1,0 +1,87 @@
+{
+  "data": {
+    "ratings": [
+      {
+        "scale_id": "prevention-crisis-response",
+        "positive": 3,
+        "negative": 2,
+        "status": "observed",
+        "confidence": 0.9,
+        "reason": "Публичные заявления и проекты Ингабире включают как меры упреждающей подготовки (создание агентства ИИ, регулирование, развитие навыков, кампании по кибербезопасности), так и оперативное реагирование на цифровые угрозы и риски. Превалирует акцент на институционализации и профилактике, но также присутствуют элементы реагирования.",
+        "evidence_indices": [
+          12,
+          13,
+          14,
+          15,
+          16
+        ]
+      },
+      {
+        "scale_id": "electoral-access",
+        "positive": null,
+        "negative": null,
+        "status": "unknown",
+        "confidence": 0.0,
+        "reason": "В предоставленных материалах отсутствуют прямые публичные проявления или предложения Ингабире, связанные с расширением или ограничением доступа к политической конкуренции.",
+        "evidence_indices": []
+      },
+      {
+        "scale_id": "institutional-autonomy-coordination",
+        "positive": 0,
+        "negative": 3,
+        "status": "observed",
+        "confidence": 0.8,
+        "reason": "Публичный образ Ингабире устойчиво связан с координацией государственных и международных институтов, продвижением единой линии цифрового развития и созданием новых управленческих структур. Нет свидетельств акцента на самостоятельности или взаимном контроле институтов.",
+        "evidence_indices": [
+          0,
+          1,
+          2,
+          3,
+          10,
+          12,
+          13,
+          14
+        ]
+      },
+      {
+        "scale_id": "taxation-burden-public-revenue",
+        "positive": null,
+        "negative": null,
+        "status": "unknown",
+        "confidence": 0.0,
+        "reason": "В материалах нет прямых заявлений или инициатив Ингабире по снижению налоговой нагрузки или увеличению налоговых поступлений для публичного развития.",
+        "evidence_indices": []
+      },
+      {
+        "scale_id": "ecological-limits-resource-use",
+        "positive": null,
+        "negative": null,
+        "status": "unknown",
+        "confidence": 0.0,
+        "reason": "В предоставленных фактах отсутствуют основания для оценки отношения Ингабире к экологическим ограничениям или расширению хозяйственного использования природных ресурсов.",
+        "evidence_indices": []
+      }
+    ]
+  },
+  "model": "gpt-4.1",
+  "task": "ratings-supplement-paula-ingabire-12",
+  "at": "2026-10-15T15:11:50.864583+00:00",
+  "usage": {
+    "prompt_tokens": 5769,
+    "completion_tokens": 442,
+    "total_tokens": 6211,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "audio_tokens": 0
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "audio_tokens": 0,
+      "accepted_prediction_tokens": 0,
+      "rejected_prediction_tokens": 0
+    }
+  },
+  "citations": [],
+  "system_fingerprint": "fp_233583e333",
+  "cache_key": "3ab145f0a7001425bfa0acd08802f8d4a6403cff6e8e703a84f8c0bc1a4f97d9"
+}

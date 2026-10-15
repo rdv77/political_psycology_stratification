@@ -1,0 +1,60 @@
+{
+  "data": {
+    "ratings": [
+      {
+        "scale_id": "prevention-crisis-response",
+        "positive": 3,
+        "negative": 3,
+        "status": "observed",
+        "confidence": 0.9,
+        "reason": "В публичных заявлениях и действиях Уззиэль Ндагиджимана отмечены как упреждающие меры (например, акцент на устойчивости бюджета, цифровизации закупок для снижения рисков, долгосрочные стратегии), так и оперативное реагирование на уже возникшие угрозы (например, гибкость закупочных процедур в условиях COVID-19, объяснение поддержки RwandAir в условиях пандемии). Повторяемость и тематическая широта позволяют оценить оба полюса на уровне 3.",
+        "evidence_indices": [
+          1,
+          5,
+          10,
+          12,
+          13
+        ]
+      },
+      {
+        "scale_id": "electoral-access",
+        "positive": null,
+        "negative": null,
+        "status": "unknown",
+        "confidence": 0.0,
+        "reason": "В предоставленных фактах отсутствуют прямые датированные основания для оценки расширения или ограничения политического допуска. Нет ни заявлений, ни действий, относящихся к этой шкале.",
+        "evidence_indices": []
+      },
+      {
+        "scale_id": "institutional-autonomy-coordination",
+        "positive": null,
+        "negative": null,
+        "status": "unknown",
+        "confidence": 0.0,
+        "reason": "В материалах нет прямых персональных заявлений или действий, однозначно свидетельствующих о поддержке самостоятельности институтов либо о проведении единой управленческой линии. Описанные взаимодействия с парламентом и международными институтами не дают оснований для численной оценки.",
+        "evidence_indices": []
+      }
+    ]
+  },
+  "model": "gpt-4.1",
+  "task": "ratings-supplement-uzziel-ndagijimana-12",
+  "at": "2026-10-15T15:11:27.892820+00:00",
+  "usage": {
+    "prompt_tokens": 3960,
+    "completion_tokens": 323,
+    "total_tokens": 4283,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "audio_tokens": 0
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "audio_tokens": 0,
+      "accepted_prediction_tokens": 0,
+      "rejected_prediction_tokens": 0
+    }
+  },
+  "citations": [],
+  "system_fingerprint": "fp_233583e333",
+  "cache_key": "4c446d555c46441288029d872b134e2571437c7d7d65f53e04c664328d70225f"
+}

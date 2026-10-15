@@ -1,0 +1,181 @@
+{
+  "data": {
+    "ratings": [
+      {
+        "scale_id": "programmatic-renewal",
+        "positive": 3,
+        "negative": 1,
+        "status": "observed",
+        "confidence": 0.9,
+        "reason": "Увамария неоднократно акцентировала необходимость новых международных договоров и программных изменений в экологической политике (например, юридически обязательный договор по пластику, совершенствование климатического финансирования), что указывает на выраженный программный акцент на обновление. При этом отдельные выступления содержат элементы продолжения существующих международных инициатив.",
+        "evidence_indices": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          10,
+          11
+        ]
+      },
+      {
+        "scale_id": "government-course-assessment",
+        "positive": null,
+        "negative": null,
+        "status": "unknown",
+        "confidence": 0.3,
+        "reason": "В предоставленных материалах отсутствуют прямые публичные оценки действующего государственного курса Руанды — ни поддержка, ни критика не выражены в явной форме.",
+        "evidence_indices": []
+      },
+      {
+        "scale_id": "participation-administrative-direction",
+        "positive": 1,
+        "negative": 3,
+        "status": "observed",
+        "confidence": 0.8,
+        "reason": "В ряде эпизодов отмечается участие в международных коалициях и диалогах, что подразумевает элементы совместного обсуждения. Однако преобладает административное руководство, постановка задач и координация официальных делегаций и программ.",
+        "evidence_indices": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          10
+        ]
+      },
+      {
+        "scale_id": "argumentation-evidence-values",
+        "positive": 1,
+        "negative": 1,
+        "status": "observed",
+        "confidence": 0.7,
+        "reason": "В публичных заявлениях встречаются ссылки на данные (например, рост загрязнения воздуха), а также ценностные аргументы (инклюзивность, международное сотрудничество), но ни один из способов аргументации не является устойчиво доминирующим.",
+        "evidence_indices": [
+          8,
+          5
+        ]
+      },
+      {
+        "scale_id": "market-state-instruments",
+        "positive": null,
+        "negative": null,
+        "status": "unknown",
+        "confidence": 0.2,
+        "reason": "Нет прямых свидетельств акцента на расширение частной инициативы или государственного регулирования в предоставленных материалах.",
+        "evidence_indices": []
+      },
+      {
+        "scale_id": "accessibility-growth-priorities",
+        "positive": 1,
+        "negative": 3,
+        "status": "observed",
+        "confidence": 0.7,
+        "reason": "В риторике Увамарии отмечается приоритет повышения устойчивости и доступности экологических благ (например, чистый воздух, восстановление водораздела), но также подчёркивается инвестиционный и институциональный рост через международные проекты.",
+        "evidence_indices": [
+          8,
+          9,
+          10
+        ]
+      },
+      {
+        "scale_id": "external-domestic-resources",
+        "positive": 3,
+        "negative": 1,
+        "status": "observed",
+        "confidence": 0.8,
+        "reason": "Увамария регулярно акцентирует привлечение международного финансирования и партнёрств (климатическое финансирование, международные коалиции), при этом отдельные высказывания касаются укрепления национальных систем.",
+        "evidence_indices": [
+          3,
+          4,
+          5,
+          10,
+          11
+        ]
+      },
+      {
+        "scale_id": "international-rules-autonomy",
+        "positive": 3,
+        "negative": 1,
+        "status": "observed",
+        "confidence": 0.8,
+        "reason": "Публичная поддержка юридически обязательных международных договоров и норм (например, по пластику) свидетельствует о выраженном акценте на международные правила, при этом отдельные заявления содержат элементы укрепления национальных систем.",
+        "evidence_indices": [
+          1,
+          2,
+          3,
+          4,
+          10,
+          11
+        ]
+      },
+      {
+        "scale_id": "mediation-adversarial-communication",
+        "positive": 3,
+        "negative": 0,
+        "status": "observed",
+        "confidence": 0.8,
+        "reason": "Увамария активно участвует в международных переговорах, диалогах и коалициях, что указывает на выраженный акцент на посредничество и согласование. Признаков полемической защиты или конфронтации не выявлено.",
+        "evidence_indices": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6
+        ]
+      },
+      {
+        "scale_id": "cultural-openness-national-transmission",
+        "positive": null,
+        "negative": null,
+        "status": "unknown",
+        "confidence": 0.2,
+        "reason": "В предоставленных материалах отсутствуют прямые проявления акцента на межкультурный обмен или сохранение национальных ценностей.",
+        "evidence_indices": []
+      },
+      {
+        "scale_id": "problem-disclosure-reputation-defence",
+        "positive": 1,
+        "negative": 1,
+        "status": "observed",
+        "confidence": 0.6,
+        "reason": "В ряде случаев отмечается признание экологических проблем (например, загрязнение воздуха), однако отсутствует устойчивый акцент на открытое обсуждение проблем или защиту репутации.",
+        "evidence_indices": [
+          8
+        ]
+      },
+      {
+        "scale_id": "procedural-guarantees-enforcement",
+        "positive": null,
+        "negative": null,
+        "status": "unknown",
+        "confidence": 0.2,
+        "reason": "Нет прямых свидетельств акцента на расширение процедурных гарантий или принудительное исполнение в предоставленных материалах.",
+        "evidence_indices": []
+      }
+    ]
+  },
+  "model": "gpt-4.1",
+  "task": "ratings-valentine-uwamariya-0",
+  "at": "2026-10-15T15:12:01.332448+00:00",
+  "usage": {
+    "prompt_tokens": 6306,
+    "completion_tokens": 1370,
+    "total_tokens": 7676,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "audio_tokens": 0
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "audio_tokens": 0,
+      "accepted_prediction_tokens": 0,
+      "rejected_prediction_tokens": 0
+    }
+  },
+  "citations": [],
+  "system_fingerprint": "fp_6d7f4b5803",
+  "cache_key": "0f52bd4470b0e725c7e844635a7cb5ea69dfdf8aacfbe2fd24ce6fb7551578ca"
+}

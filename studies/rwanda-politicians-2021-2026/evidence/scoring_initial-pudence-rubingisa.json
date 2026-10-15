@@ -1,0 +1,601 @@
+{
+  "object_id": "pudence-rubingisa",
+  "scales_basis": "968e884171eb9cdb80c1fc2aa813e881359b746e2a01de4b034a953908d6cf0c",
+  "dossier_basis": "7dd5895afc018884a732cfc2a3203ebfc0ea724feed2d86b1cc063a8886ed8e8",
+  "evidence_file": "evidence/pudence-rubingisa.json",
+  "period": [
+    "2021-10-15",
+    "2026-10-15"
+  ],
+  "ratings": [
+    {
+      "object_id": "pudence-rubingisa",
+      "scale_id": "programmatic-renewal",
+      "positive": 3,
+      "negative": 3,
+      "difference": 0,
+      "mass": 6,
+      "status": "observed",
+      "confidence": 0.8,
+      "reason": "Рубингиса как мэр Кигали и губернатор Восточной провинции акцентировал модернизацию транспорта, обновление поселений, внедрение новых программ (например, климатическая устойчивость, развитие инфраструктуры), что указывает на программное обновление. Одновременно он связывал развитие с продолжением и расширением уже достигнутых результатов, что отражает преемственность.",
+      "sources": [
+        "https://www.minecofin.gov.rw/index.php?eID=dumpFile&t=f&f=64959&token=15c961bd512d380625054db8481df2552e67a69d",
+        "https://www.kigalicity.gov.rw/news-detail/the-city-of-kigali-held-a-press-conference-with-journalists-on-citys-development",
+        "https://www.shiftcities.org/post/kigali-path-toward-green-climate-resilient-growth",
+        "https://www.easternprovince.gov.rw/ibindi/guverineri-wintara-yiburasirazuba-yasoje-imurikabikorwa-rya-jadf-mu-karere-ka-bugesera-1",
+        "https://www.kayonza.gov.rw/soma-ibindi/world-bank-delegation-commends-districts-progress-in-stunting-prevention-and-early-childhood-development",
+        "https://www.undp.org/rwanda/blog/scaling-sustainable-solutions-gatsibo-community-rooted-step-forward"
+      ],
+      "evidence_indices": [
+        0,
+        1,
+        2,
+        5,
+        6,
+        7
+      ],
+      "model": "gpt-4.1",
+      "at": "2026-10-15T15:14:34.200776+00:00",
+      "evidence_file": "evidence/pudence-rubingisa.json",
+      "evidence_basis": "7dd5895afc018884a732cfc2a3203ebfc0ea724feed2d86b1cc063a8886ed8e8",
+      "rating_pass": "initial",
+      "measurement_note": "LLM-оценка по извлечённому досье; ссылки не означают независимую экспертную верификацию"
+    },
+    {
+      "object_id": "pudence-rubingisa",
+      "scale_id": "government-course-assessment",
+      "positive": 1,
+      "negative": 0,
+      "difference": 1,
+      "mass": 1,
+      "status": "observed",
+      "confidence": 0.5,
+      "reason": "Есть единичные проявления поддержки действующего курса через благодарность партнёрам и акцент на достижениях, но нет прямой критики или систематической поддержки.",
+      "sources": [
+        "https://www.easternprovince.gov.rw/ibindi/guverineri-wintara-yiburasirazuba-yasoje-imurikabikorwa-rya-jadf-mu-karere-ka-bugesera-1"
+      ],
+      "evidence_indices": [
+        5
+      ],
+      "model": "gpt-4.1",
+      "at": "2026-10-15T15:14:34.200776+00:00",
+      "evidence_file": "evidence/pudence-rubingisa.json",
+      "evidence_basis": "7dd5895afc018884a732cfc2a3203ebfc0ea724feed2d86b1cc063a8886ed8e8",
+      "rating_pass": "initial",
+      "measurement_note": "LLM-оценка по извлечённому досье; ссылки не означают независимую экспертную верификацию"
+    },
+    {
+      "object_id": "pudence-rubingisa",
+      "scale_id": "participation-administrative-direction",
+      "positive": 3,
+      "negative": 3,
+      "difference": 0,
+      "mass": 6,
+      "status": "observed",
+      "confidence": 0.8,
+      "reason": "Рубингиса подчёркивал взаимодействие с гражданами, СМИ, международными и местными партнёрами, а также использовал административные инструменты (формализованные цели, коллективная ответственность, координация с государственными структурами).",
+      "sources": [
+        "https://www.minecofin.gov.rw/index.php?eID=dumpFile&t=f&f=64959&token=15c961bd512d380625054db8481df2552e67a69d",
+        "https://www.kigalicity.gov.rw/news-detail/the-city-of-kigali-held-a-press-conference-with-journalists-on-citys-development",
+        "https://www.easternprovince.gov.rw/ibindi/guverineri-wintara-yiburasirazuba-yasoje-imurikabikorwa-rya-jadf-mu-karere-ka-bugesera-1",
+        "https://www.kayonza.gov.rw/soma-ibindi/world-bank-delegation-commends-districts-progress-in-stunting-prevention-and-early-childhood-development",
+        "https://www.undp.org/rwanda/blog/scaling-sustainable-solutions-gatsibo-community-rooted-step-forward"
+      ],
+      "evidence_indices": [
+        0,
+        1,
+        5,
+        6,
+        7
+      ],
+      "model": "gpt-4.1",
+      "at": "2026-10-15T15:14:34.200776+00:00",
+      "evidence_file": "evidence/pudence-rubingisa.json",
+      "evidence_basis": "7dd5895afc018884a732cfc2a3203ebfc0ea724feed2d86b1cc063a8886ed8e8",
+      "rating_pass": "initial",
+      "measurement_note": "LLM-оценка по извлечённому досье; ссылки не означают независимую экспертную верификацию"
+    },
+    {
+      "object_id": "pudence-rubingisa",
+      "scale_id": "argumentation-evidence-values",
+      "positive": 1,
+      "negative": 1,
+      "difference": 0,
+      "mass": 2,
+      "status": "observed",
+      "confidence": 0.5,
+      "reason": "В публичных выступлениях встречаются ссылки на социальную пользу, модернизацию и профессиональную подготовку, но нет систематического использования ни доказательной, ни ценностной аргументации.",
+      "sources": [
+        "https://www.kigalicity.gov.rw/news-detail/the-city-of-kigali-held-a-press-conference-with-journalists-on-citys-development",
+        "https://www.shiftcities.org/post/kigali-path-toward-green-climate-resilient-growth"
+      ],
+      "evidence_indices": [
+        1,
+        2,
+        3
+      ],
+      "model": "gpt-4.1",
+      "at": "2026-10-15T15:14:34.200776+00:00",
+      "evidence_file": "evidence/pudence-rubingisa.json",
+      "evidence_basis": "7dd5895afc018884a732cfc2a3203ebfc0ea724feed2d86b1cc063a8886ed8e8",
+      "rating_pass": "initial",
+      "measurement_note": "LLM-оценка по извлечённому досье; ссылки не означают независимую экспертную верификацию"
+    },
+    {
+      "object_id": "pudence-rubingisa",
+      "scale_id": "market-state-instruments",
+      "positive": 0,
+      "negative": 1,
+      "difference": -1,
+      "mass": 1,
+      "status": "observed",
+      "confidence": 0.5,
+      "reason": "Есть единичные проявления акцента на государственных инструментах (модернизация транспорта, формализованные цели), но нет данных о продвижении частной инициативы.",
+      "sources": [
+        "https://www.minecofin.gov.rw/index.php?eID=dumpFile&t=f&f=64959&token=15c961bd512d380625054db8481df2552e67a69d",
+        "https://www.shiftcities.org/post/kigali-path-toward-green-climate-resilient-growth"
+      ],
+      "evidence_indices": [
+        0,
+        2
+      ],
+      "model": "gpt-4.1",
+      "at": "2026-10-15T15:14:34.200776+00:00",
+      "evidence_file": "evidence/pudence-rubingisa.json",
+      "evidence_basis": "7dd5895afc018884a732cfc2a3203ebfc0ea724feed2d86b1cc063a8886ed8e8",
+      "rating_pass": "initial",
+      "measurement_note": "LLM-оценка по извлечённому досье; ссылки не означают независимую экспертную верификацию"
+    },
+    {
+      "object_id": "pudence-rubingisa",
+      "scale_id": "accessibility-growth-priorities",
+      "positive": 3,
+      "negative": 3,
+      "difference": 0,
+      "mass": 6,
+      "status": "observed",
+      "confidence": 0.8,
+      "reason": "Рубингиса акцентировал расширение доступа к базовым услугам (детское развитие, обновление поселений) и одновременно развитие инфраструктуры, экономики и инвестиционной привлекательности.",
+      "sources": [
+        "https://www.kigalicity.gov.rw/news-detail/the-city-of-kigali-held-a-press-conference-with-journalists-on-citys-development",
+        "https://www.shiftcities.org/post/kigali-path-toward-green-climate-resilient-growth",
+        "https://www.kayonza.gov.rw/soma-ibindi/world-bank-delegation-commends-districts-progress-in-stunting-prevention-and-early-childhood-development"
+      ],
+      "evidence_indices": [
+        1,
+        2,
+        6
+      ],
+      "model": "gpt-4.1",
+      "at": "2026-10-15T15:14:34.200776+00:00",
+      "evidence_file": "evidence/pudence-rubingisa.json",
+      "evidence_basis": "7dd5895afc018884a732cfc2a3203ebfc0ea724feed2d86b1cc063a8886ed8e8",
+      "rating_pass": "initial",
+      "measurement_note": "LLM-оценка по извлечённому досье; ссылки не означают независимую экспертную верификацию"
+    },
+    {
+      "object_id": "pudence-rubingisa",
+      "scale_id": "external-domestic-resources",
+      "positive": 3,
+      "negative": 1,
+      "difference": 2,
+      "mass": 4,
+      "status": "observed",
+      "confidence": 0.7,
+      "reason": "Регулярное взаимодействие с международными организациями (Всемирный банк, ПРООН) и благодарность партнёрам указывают на привлечение внешних ресурсов; отдельные упоминания о развитии на основе достигнутых результатов могут подразумевать опору на внутренние ресурсы, но это не центральный акцент.",
+      "sources": [
+        "https://www.easternprovince.gov.rw/ibindi/guverineri-wintara-yiburasirazuba-yasoje-imurikabikorwa-rya-jadf-mu-karere-ka-bugesera-1",
+        "https://www.kayonza.gov.rw/soma-ibindi/world-bank-delegation-commends-districts-progress-in-stunting-prevention-and-early-childhood-development",
+        "https://www.undp.org/rwanda/blog/scaling-sustainable-solutions-gatsibo-community-rooted-step-forward"
+      ],
+      "evidence_indices": [
+        5,
+        6,
+        7
+      ],
+      "model": "gpt-4.1",
+      "at": "2026-10-15T15:14:34.200776+00:00",
+      "evidence_file": "evidence/pudence-rubingisa.json",
+      "evidence_basis": "7dd5895afc018884a732cfc2a3203ebfc0ea724feed2d86b1cc063a8886ed8e8",
+      "rating_pass": "initial",
+      "measurement_note": "LLM-оценка по извлечённому досье; ссылки не означают независимую экспертную верификацию"
+    },
+    {
+      "object_id": "pudence-rubingisa",
+      "scale_id": "international-rules-autonomy",
+      "positive": null,
+      "negative": null,
+      "difference": null,
+      "mass": null,
+      "status": "unknown",
+      "confidence": 0.2,
+      "reason": "Нет прямых публичных заявлений о международных обязательствах или защите национальной самостоятельности решений.",
+      "sources": [],
+      "evidence_indices": [],
+      "model": "gpt-4.1",
+      "at": "2026-10-15T15:14:34.200776+00:00",
+      "evidence_file": "evidence/pudence-rubingisa.json",
+      "evidence_basis": "7dd5895afc018884a732cfc2a3203ebfc0ea724feed2d86b1cc063a8886ed8e8",
+      "rating_pass": "initial",
+      "measurement_note": "LLM-оценка по извлечённому досье; ссылки не означают независимую экспертную верификацию"
+    },
+    {
+      "object_id": "pudence-rubingisa",
+      "scale_id": "mediation-adversarial-communication",
+      "positive": 1,
+      "negative": 0,
+      "difference": 1,
+      "mass": 1,
+      "status": "observed",
+      "confidence": 0.5,
+      "reason": "Есть единичные проявления поиска согласования интересов через взаимодействие с разными группами, но нет данных о полемике или защите собственной стороны.",
+      "sources": [
+        "https://www.kigalicity.gov.rw/news-detail/the-city-of-kigali-held-a-press-conference-with-journalists-on-citys-development",
+        "https://www.undp.org/rwanda/blog/scaling-sustainable-solutions-gatsibo-community-rooted-step-forward"
+      ],
+      "evidence_indices": [
+        1,
+        7
+      ],
+      "model": "gpt-4.1",
+      "at": "2026-10-15T15:14:34.200776+00:00",
+      "evidence_file": "evidence/pudence-rubingisa.json",
+      "evidence_basis": "7dd5895afc018884a732cfc2a3203ebfc0ea724feed2d86b1cc063a8886ed8e8",
+      "rating_pass": "initial",
+      "measurement_note": "LLM-оценка по извлечённому досье; ссылки не означают независимую экспертную верификацию"
+    },
+    {
+      "object_id": "pudence-rubingisa",
+      "scale_id": "cultural-openness-national-transmission",
+      "positive": 1,
+      "negative": 0,
+      "difference": 1,
+      "mass": 1,
+      "status": "observed",
+      "confidence": 0.4,
+      "reason": "Есть единичное упоминание возвращения после зарубежного обучения и служения стране, что может указывать на открытость к культурному обмену, но нет акцентов на национальных ценностях.",
+      "sources": [
+        "https://www.shiftcities.org/post/kigali-path-toward-green-climate-resilient-growth"
+      ],
+      "evidence_indices": [
+        3
+      ],
+      "model": "gpt-4.1",
+      "at": "2026-10-15T15:14:34.200776+00:00",
+      "evidence_file": "evidence/pudence-rubingisa.json",
+      "evidence_basis": "7dd5895afc018884a732cfc2a3203ebfc0ea724feed2d86b1cc063a8886ed8e8",
+      "rating_pass": "initial",
+      "measurement_note": "LLM-оценка по извлечённому досье; ссылки не означают независимую экспертную верификацию"
+    },
+    {
+      "object_id": "pudence-rubingisa",
+      "scale_id": "problem-disclosure-reputation-defence",
+      "positive": 0,
+      "negative": 1,
+      "difference": -1,
+      "mass": 1,
+      "status": "observed",
+      "confidence": 0.5,
+      "reason": "Нет признаков публичного раскрытия проблем; есть единичные проявления защиты репутации через акцент на достижениях и благодарности партнёрам.",
+      "sources": [
+        "https://www.easternprovince.gov.rw/ibindi/guverineri-wintara-yiburasirazuba-yasoje-imurikabikorwa-rya-jadf-mu-karere-ka-bugesera-1"
+      ],
+      "evidence_indices": [
+        5
+      ],
+      "model": "gpt-4.1",
+      "at": "2026-10-15T15:14:34.200776+00:00",
+      "evidence_file": "evidence/pudence-rubingisa.json",
+      "evidence_basis": "7dd5895afc018884a732cfc2a3203ebfc0ea724feed2d86b1cc063a8886ed8e8",
+      "rating_pass": "initial",
+      "measurement_note": "LLM-оценка по извлечённому досье; ссылки не означают независимую экспертную верификацию"
+    },
+    {
+      "object_id": "pudence-rubingisa",
+      "scale_id": "procedural-guarantees-enforcement",
+      "positive": null,
+      "negative": null,
+      "difference": null,
+      "mass": null,
+      "status": "unknown",
+      "confidence": 0.2,
+      "reason": "Нет прямых данных о расширении процедурных гарантий или акценте на принудительном исполнении.",
+      "sources": [],
+      "evidence_indices": [],
+      "model": "gpt-4.1",
+      "at": "2026-10-15T15:14:34.200776+00:00",
+      "evidence_file": "evidence/pudence-rubingisa.json",
+      "evidence_basis": "7dd5895afc018884a732cfc2a3203ebfc0ea724feed2d86b1cc063a8886ed8e8",
+      "rating_pass": "initial",
+      "measurement_note": "LLM-оценка по извлечённому досье; ссылки не означают независимую экспертную верификацию"
+    },
+    {
+      "object_id": "pudence-rubingisa",
+      "scale_id": "prevention-crisis-response",
+      "positive": null,
+      "negative": null,
+      "difference": null,
+      "mass": null,
+      "status": "unknown",
+      "confidence": 0.6,
+      "reason": "В предоставленных фактах нет прямых датированных свидетельств, позволяющих оценить выраженность упреждающей профилактики или оперативного реагирования на кризисы как устойчивую черту публичного образа Рубингисы. Описаны управленческие и координационные действия, но они не раскрывают специфику стратегии по шкале.",
+      "sources": [
+        "https://www.minecofin.gov.rw/index.php?eID=dumpFile&t=f&f=64959&token=15c961bd512d380625054db8481df2552e67a69d",
+        "https://www.kigalicity.gov.rw/news-detail/the-city-of-kigali-held-a-press-conference-with-journalists-on-citys-development",
+        "https://www.shiftcities.org/post/kigali-path-toward-green-climate-resilient-growth",
+        "https://www.easternprovince.gov.rw/ibindi/guverineri-wintara-yiburasirazuba-yasoje-imurikabikorwa-rya-jadf-mu-karere-ka-bugesera-1",
+        "https://www.kayonza.gov.rw/soma-ibindi/world-bank-delegation-commends-districts-progress-in-stunting-prevention-and-early-childhood-development",
+        "https://www.undp.org/rwanda/blog/scaling-sustainable-solutions-gatsibo-community-rooted-step-forward"
+      ],
+      "evidence_indices": [
+        0,
+        1,
+        2,
+        5,
+        6,
+        7
+      ],
+      "model": "gpt-4.1",
+      "at": "2026-10-15T15:14:39.964387+00:00",
+      "evidence_file": "evidence/pudence-rubingisa.json",
+      "evidence_basis": "7dd5895afc018884a732cfc2a3203ebfc0ea724feed2d86b1cc063a8886ed8e8",
+      "rating_pass": "initial",
+      "measurement_note": "LLM-оценка по извлечённому досье; ссылки не означают независимую экспертную верификацию"
+    },
+    {
+      "object_id": "pudence-rubingisa",
+      "scale_id": "electoral-access",
+      "positive": null,
+      "negative": null,
+      "difference": null,
+      "mass": null,
+      "status": "unknown",
+      "confidence": 0.7,
+      "reason": "Нет фактов, прямо отражающих публичные заявления или действия Рубингисы по расширению или ограничению доступа к политической конкуренции. Должностные переходы и участие в органах не дают оснований для оценки.",
+      "sources": [
+        "https://www.newtimes.co.rw/article/13112/news/rwanda/rubingisa-mpabwanamaguru-exit-city-of-kigali-council"
+      ],
+      "evidence_indices": [
+        8
+      ],
+      "model": "gpt-4.1",
+      "at": "2026-10-15T15:14:39.964387+00:00",
+      "evidence_file": "evidence/pudence-rubingisa.json",
+      "evidence_basis": "7dd5895afc018884a732cfc2a3203ebfc0ea724feed2d86b1cc063a8886ed8e8",
+      "rating_pass": "initial",
+      "measurement_note": "LLM-оценка по извлечённому досье; ссылки не означают независимую экспертную верификацию"
+    },
+    {
+      "object_id": "pudence-rubingisa",
+      "scale_id": "institutional-autonomy-coordination",
+      "positive": null,
+      "negative": null,
+      "difference": null,
+      "mass": null,
+      "status": "unknown",
+      "confidence": 0.7,
+      "reason": "Факты фиксируют координацию с партнёрами и органами, но не дают прямых свидетельств акцента на самостоятельности институтов или на единой управленческой линии как устойчивой публичной черты.",
+      "sources": [
+        "https://www.minecofin.gov.rw/index.php?eID=dumpFile&t=f&f=64959&token=15c961bd512d380625054db8481df2552e67a69d",
+        "https://www.kigalicity.gov.rw/news-detail/the-city-of-kigali-held-a-press-conference-with-journalists-on-citys-development",
+        "https://www.easternprovince.gov.rw/ibindi/guverineri-wintara-yiburasirazuba-yasoje-imurikabikorwa-rya-jadf-mu-karere-ka-bugesera-1",
+        "https://www.kayonza.gov.rw/soma-ibindi/world-bank-delegation-commends-districts-progress-in-stunting-prevention-and-early-childhood-development",
+        "https://www.undp.org/rwanda/blog/scaling-sustainable-solutions-gatsibo-community-rooted-step-forward"
+      ],
+      "evidence_indices": [
+        0,
+        1,
+        5,
+        6,
+        7
+      ],
+      "model": "gpt-4.1",
+      "at": "2026-10-15T15:14:39.964387+00:00",
+      "evidence_file": "evidence/pudence-rubingisa.json",
+      "evidence_basis": "7dd5895afc018884a732cfc2a3203ebfc0ea724feed2d86b1cc063a8886ed8e8",
+      "rating_pass": "initial",
+      "measurement_note": "LLM-оценка по извлечённому досье; ссылки не означают независимую экспертную верификацию"
+    },
+    {
+      "object_id": "pudence-rubingisa",
+      "scale_id": "taxation-burden-public-revenue",
+      "positive": null,
+      "negative": null,
+      "difference": null,
+      "mass": null,
+      "status": "unknown",
+      "confidence": 0.7,
+      "reason": "В материалах отсутствуют прямые публичные заявления или инициативы Рубингисы по снижению налоговой нагрузки или увеличению общественных доходов для развития.",
+      "sources": [
+        "https://www.minecofin.gov.rw/index.php?eID=dumpFile&t=f&f=64959&token=15c961bd512d380625054db8481df2552e67a69d"
+      ],
+      "evidence_indices": [
+        0
+      ],
+      "model": "gpt-4.1",
+      "at": "2026-10-15T15:14:39.964387+00:00",
+      "evidence_file": "evidence/pudence-rubingisa.json",
+      "evidence_basis": "7dd5895afc018884a732cfc2a3203ebfc0ea724feed2d86b1cc063a8886ed8e8",
+      "rating_pass": "initial",
+      "measurement_note": "LLM-оценка по извлечённому досье; ссылки не означают независимую экспертную верификацию"
+    },
+    {
+      "object_id": "pudence-rubingisa",
+      "scale_id": "universal-targeted-provision",
+      "positive": null,
+      "negative": null,
+      "difference": null,
+      "mass": null,
+      "status": "unknown",
+      "confidence": 0.7,
+      "reason": "Хотя упоминаются программы раннего развития и улучшения условий жизни, нет прямых указаний на акцент Рубингисы на универсальных стандартах или приоритетной адресной поддержке как устойчивой публичной позиции.",
+      "sources": [
+        "https://www.shiftcities.org/post/kigali-path-toward-green-climate-resilient-growth",
+        "https://www.kayonza.gov.rw/soma-ibindi/world-bank-delegation-commends-districts-progress-in-stunting-prevention-and-early-childhood-development"
+      ],
+      "evidence_indices": [
+        2,
+        6
+      ],
+      "model": "gpt-4.1",
+      "at": "2026-10-15T15:14:39.964387+00:00",
+      "evidence_file": "evidence/pudence-rubingisa.json",
+      "evidence_basis": "7dd5895afc018884a732cfc2a3203ebfc0ea724feed2d86b1cc063a8886ed8e8",
+      "rating_pass": "initial",
+      "measurement_note": "LLM-оценка по извлечённому досье; ссылки не означают независимую экспертную верификацию"
+    },
+    {
+      "object_id": "pudence-rubingisa",
+      "scale_id": "ecological-limits-resource-use",
+      "positive": null,
+      "negative": null,
+      "difference": null,
+      "mass": null,
+      "status": "unknown",
+      "confidence": 0.7,
+      "reason": "Несмотря на упоминание климатической устойчивости и модернизации транспорта, нет прямых датированных заявлений или действий, позволяющих оценить выраженность экологических ограничений или расширения хозяйственного использования ресурсов как черты публичного образа.",
+      "sources": [
+        "https://www.shiftcities.org/post/kigali-path-toward-green-climate-resilient-growth"
+      ],
+      "evidence_indices": [
+        2
+      ],
+      "model": "gpt-4.1",
+      "at": "2026-10-15T15:14:39.964387+00:00",
+      "evidence_file": "evidence/pudence-rubingisa.json",
+      "evidence_basis": "7dd5895afc018884a732cfc2a3203ebfc0ea724feed2d86b1cc063a8886ed8e8",
+      "rating_pass": "initial",
+      "measurement_note": "LLM-оценка по извлечённому досье; ссылки не означают независимую экспертную верификацию"
+    },
+    {
+      "object_id": "pudence-rubingisa",
+      "scale_id": "russia-diplomatic-engagement",
+      "positive": null,
+      "negative": null,
+      "difference": null,
+      "mass": null,
+      "status": "unknown",
+      "confidence": 0,
+      "reason": "Нет проверенного датированного свидетельства по этой обязательной теме; модельная оценка не запрашивалась.",
+      "sources": [],
+      "evidence_indices": [],
+      "model": "not_scored_no_eligible_evidence",
+      "at": "2026-10-15T15:14:39.966649+00:00",
+      "evidence_file": "evidence/pudence-rubingisa.json",
+      "evidence_basis": "7dd5895afc018884a732cfc2a3203ebfc0ea724feed2d86b1cc063a8886ed8e8",
+      "rating_pass": "initial",
+      "measurement_note": "Unknown сохраняется без подстановки нейтральной или государственной позиции"
+    },
+    {
+      "object_id": "pudence-rubingisa",
+      "scale_id": "russia-security-cooperation",
+      "positive": null,
+      "negative": null,
+      "difference": null,
+      "mass": null,
+      "status": "unknown",
+      "confidence": 0,
+      "reason": "Нет проверенного датированного свидетельства по этой обязательной теме; модельная оценка не запрашивалась.",
+      "sources": [],
+      "evidence_indices": [],
+      "model": "not_scored_no_eligible_evidence",
+      "at": "2026-10-15T15:14:39.966649+00:00",
+      "evidence_file": "evidence/pudence-rubingisa.json",
+      "evidence_basis": "7dd5895afc018884a732cfc2a3203ebfc0ea724feed2d86b1cc063a8886ed8e8",
+      "rating_pass": "initial",
+      "measurement_note": "Unknown сохраняется без подстановки нейтральной или государственной позиции"
+    },
+    {
+      "object_id": "pudence-rubingisa",
+      "scale_id": "russia-economic-technology-cooperation",
+      "positive": null,
+      "negative": null,
+      "difference": null,
+      "mass": null,
+      "status": "unknown",
+      "confidence": 0,
+      "reason": "Нет проверенного датированного свидетельства по этой обязательной теме; модельная оценка не запрашивалась.",
+      "sources": [],
+      "evidence_indices": [],
+      "model": "not_scored_no_eligible_evidence",
+      "at": "2026-10-15T15:14:39.966649+00:00",
+      "evidence_file": "evidence/pudence-rubingisa.json",
+      "evidence_basis": "7dd5895afc018884a732cfc2a3203ebfc0ea724feed2d86b1cc063a8886ed8e8",
+      "rating_pass": "initial",
+      "measurement_note": "Unknown сохраняется без подстановки нейтральной или государственной позиции"
+    },
+    {
+      "object_id": "pudence-rubingisa",
+      "scale_id": "russia-education-cultural-cooperation",
+      "positive": null,
+      "negative": null,
+      "difference": null,
+      "mass": null,
+      "status": "unknown",
+      "confidence": 0,
+      "reason": "Нет проверенного датированного свидетельства по этой обязательной теме; модельная оценка не запрашивалась.",
+      "sources": [],
+      "evidence_indices": [],
+      "model": "not_scored_no_eligible_evidence",
+      "at": "2026-10-15T15:14:39.966649+00:00",
+      "evidence_file": "evidence/pudence-rubingisa.json",
+      "evidence_basis": "7dd5895afc018884a732cfc2a3203ebfc0ea724feed2d86b1cc063a8886ed8e8",
+      "rating_pass": "initial",
+      "measurement_note": "Unknown сохраняется без подстановки нейтральной или государственной позиции"
+    },
+    {
+      "object_id": "pudence-rubingisa",
+      "scale_id": "russia-conflict-policy-evaluation",
+      "positive": null,
+      "negative": null,
+      "difference": null,
+      "mass": null,
+      "status": "unknown",
+      "confidence": 0,
+      "reason": "Нет проверенного датированного свидетельства по этой обязательной теме; модельная оценка не запрашивалась.",
+      "sources": [],
+      "evidence_indices": [],
+      "model": "not_scored_no_eligible_evidence",
+      "at": "2026-10-15T15:14:39.966649+00:00",
+      "evidence_file": "evidence/pudence-rubingisa.json",
+      "evidence_basis": "7dd5895afc018884a732cfc2a3203ebfc0ea724feed2d86b1cc063a8886ed8e8",
+      "rating_pass": "initial",
+      "measurement_note": "Unknown сохраняется без подстановки нейтральной или государственной позиции"
+    },
+    {
+      "object_id": "pudence-rubingisa",
+      "scale_id": "russia-isolation-sanctions",
+      "positive": null,
+      "negative": null,
+      "difference": null,
+      "mass": null,
+      "status": "unknown",
+      "confidence": 0,
+      "reason": "Нет проверенного датированного свидетельства по этой обязательной теме; модельная оценка не запрашивалась.",
+      "sources": [],
+      "evidence_indices": [],
+      "model": "not_scored_no_eligible_evidence",
+      "at": "2026-10-15T15:14:39.966649+00:00",
+      "evidence_file": "evidence/pudence-rubingisa.json",
+      "evidence_basis": "7dd5895afc018884a732cfc2a3203ebfc0ea724feed2d86b1cc063a8886ed8e8",
+      "rating_pass": "initial",
+      "measurement_note": "Unknown сохраняется без подстановки нейтральной или государственной позиции"
+    }
+  ],
+  "unknown_scale_ids": [
+    "international-rules-autonomy",
+    "procedural-guarantees-enforcement",
+    "prevention-crisis-response",
+    "electoral-access",
+    "institutional-autonomy-coordination",
+    "taxation-burden-public-revenue",
+    "universal-targeted-provision",
+    "ecological-limits-resource-use",
+    "russia-diplomatic-engagement",
+    "russia-security-cooperation",
+    "russia-economic-technology-cooperation",
+    "russia-education-cultural-cooperation",
+    "russia-conflict-policy-evaluation",
+    "russia-isolation-sanctions"
+  ]
+}

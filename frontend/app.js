@@ -17,12 +17,14 @@
     error: "Требуется внимание", failed: "Требуется внимание",
     interrupted: "Этап прерван",
     await_factor_selection: "Выбор факторного решения",
+    needs_measurement: "Недостаточно сопоставимых оценок",
   };
   const FORMAT_NAMES = { md: "MD", markdown: "MD", pdf: "PDF", pptx: "PPTX", docx: "DOCX", html: "HTML", zip: "ZIP", csv: "CSV", json: "JSON" };
   const STAGE_NAMES = { draft: "Постановка", discover: "Подбор объектов", objects: "Проверка объектов",
     sources: "Сбор материалов", scales: "Проверка шкал", ratings: "Оценивание объектов",
     analysis: "Факторный и кластерный анализ", cluster_review: "Сравнение группировок", coverage_completion: "Уточнение неполных профилей",
     factor_preview: "Сравнение факторных решений", factor_selection: "Короткий отчёт готов",
+    measurement_review: "Аудит покрытия готов",
     interpretation: "Интерпретация", export: "Подготовка файлов", complete: "Отчёт подготовлен" };
   const state = {
     config: {}, studies: [], study: null, step: 1, busy: false, error: "",
@@ -585,6 +587,7 @@
   function renderRun() {
     const study = state.study;
     const previewOnly = study.delivery_mode === "factor_preview";
+    const measurementFailed = study.analysis?.measurement_status === "insufficient_data";
     const running = study.status === "running";
     const complete = isComplete();
     const stopped = ["error", "failed", "interrupted"].includes(study.status);
@@ -600,11 +603,17 @@
       el("h2", { text: running ? "Строим семантическое пространство" : complete ? "Анализ завершён" : stopped ? "Выполнение остановлено" : "Всё готово к анализу" }),
       el("p", { class: "run-message", text: running ? progress.message || "Оценивание объектов и анализ выполняются на сервере." : complete ? (previewOnly ? "Сравните факторные решения в коротком отчёте. Расширенный отчёт и презентация появятся после выбора решения." : "Результаты сохранены. Откройте отчёт, сравните оси и профили групп или скачайте материалы исследования.") : stopped ? "Причина остановки указана выше. После её устранения можно запустить этап повторно; сохранённые исходные данные доступны." : previewOnly ? "Программа оценит объекты и сравнит допустимые решения с 2–8 факторами. Первый результат — короткий отчёт для выбора числа факторов." : "Программа оценит объекты по общим шкалам, выделит факторные оси и сравнит варианты группировки." }));
     if (missing.length) main.append(notice(`До запуска нужно утвердить: ${missing.join(" и ")}.`, "warning", { label: "Проверить →", fn: () => { state.step = !approved("objects") ? 2 : 3; renderMain(); } }));
+    if (complete && measurementFailed) {
+      main.querySelector("h2").textContent = "Аудит данных завершён";
+      main.querySelector(".run-message").textContent = "Сопоставимых измерений недостаточно для факторного анализа. Короткий отчёт показывает покрытие и основания исключений; выбор числа факторов пока недоступен.";
+    }
     if (running || complete) main.append(el("div", { class: "progress-track", role: "progressbar", "aria-label": "Ход анализа", "aria-valuemin": 0, "aria-valuemax": 100, "aria-valuenow": complete ? 100 : total ? percent : null },
       el("div", { class: `progress-fill${running && !total ? " indeterminate" : ""}`, style: complete ? "width:100%" : total ? `width:${percent}%` : null })),
       el("div", { class: "progress-caption" }, el("span", { text: STAGE_NAMES[progress.stage] || (complete ? "Отчёт подготовлен" : "Выполняется этап") }), el("span", { text: complete ? "Готово" : total ? `${current} / ${total}` : "В процессе" })));
     const stageIndex = stagePosition(progress.stage);
-    const stages = previewOnly
+    const stages = measurementFailed && complete
+      ? [["Оценивание объектов", "Исходные предложения модели"], ["Проверка оснований", "Согласованность с выписками"], ["Аудит покрытия", "Недостаточно сопоставимых измерений"]]
+      : previewOnly
       ? [["Оценивание объектов", "Общий словарь и источники"], ["Проверка измерения", "Покрытие и пропуски"], ["Сравнение факторов", "Решения с 2–8 осями"], ["Короткий отчёт", "Выбор решения пользователем"]]
       : [ ["Оценивание объектов", "Общий словарь и основания оценок"], ["Проверка измерения", "Покрытие, полюса и пропуски"], ["Выделение факторов", "Размерность, нагрузки и баллы"], ["Сравнение группировок", "Устойчивость и интерпретируемость"], ["Интерпретация", "Оси, группы и выбранный объект"], ["Подготовка отчёта", "Карты и файлы для скачивания"] ];
     main.append(el("div", { class: "run-stages" }, stages.map(([name, note], i) => {
@@ -694,9 +703,10 @@
   }
 
   function renderFactorPreview(study, analysis) {
+    const insufficient = analysis.measurement_status === "insufficient_data";
     const container = el("div", { class: "panel" },
-      el("h2", { text: "Сравнение факторных решений" }),
-      el("p", { text: "Это первый этап. Сравните смысл осей и доли дисперсии; выбранное решение станет основой расширенного отчёта и презентации." }));
+      el("h2", { text: insufficient ? "Аудит сопоставимости данных" : "Сравнение факторных решений" }),
+      el("p", { text: insufficient ? "Факторные оси не оценивались: матрица пока не прошла заранее заданные требования к покрытию. Короткий отчёт показывает, каких измерений не хватает." : "Это первый этап. Сравните смысл осей и доли дисперсии; выбранное решение станет основой расширенного отчёта и презентации." }));
     const links = el("div", { class: "downloads" });
     for (const artifact of study.artifacts) {
       const url = safeArtifactUrl(artifact.url);
@@ -714,6 +724,10 @@
     if (theme.configured_ids?.length) container.append(el("div", { class: "report-warning" },
       el("strong", { text: "Отношение к России. " }),
       `${themeNames[theme.status] || theme.status}. В словаре ${theme.configured_ids.length} шкал; в пригодной матрице ${theme.retained_ids?.length || 0}. Порог показа кандидата — 2% общей дисперсии.`));
+    if (insufficient) for (const chart of analysis.charts || []) {
+      const url = safeArtifactUrl(`${studyPath("/files/")}${chart.file}`);
+      if (url) container.append(el("img", { src: url, alt: chart.title, loading: "lazy", style: "width:100%;height:auto;margin-top:16px" }));
+    }
     for (const model of analysis.models || []) {
       const card = el("section", { class: "run-side-card", style: "margin-top:20px" },
         el("h3", { text: `${model.q} фактора: ${percent(model.variance_total)} общей дисперсии` }));

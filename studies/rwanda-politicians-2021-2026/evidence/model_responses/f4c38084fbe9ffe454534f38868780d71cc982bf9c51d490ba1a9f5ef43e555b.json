@@ -1,0 +1,94 @@
+{
+  "data": {
+    "ratings": [
+      {
+        "scale_id": "prevention-crisis-response",
+        "positive": 3,
+        "negative": 3,
+        "status": "observed",
+        "confidence": 0.9,
+        "reason": "Публичные выступления и доклады Бизиманы регулярно содержат профилактическую риторику (призыв к изучению истории, предотвращению геноцида, укреплению единства), а также акцент на необходимости реагировать на угрозы (противодействие отрицанию, наказание за преступления, поддержка памяти). Оба полюса устойчиво выражены в ряде эпизодов.",
+        "evidence_indices": [
+          0,
+          1,
+          3,
+          4,
+          5,
+          7,
+          8,
+          9,
+          11,
+          12,
+          13,
+          14
+        ]
+      },
+      {
+        "scale_id": "electoral-access",
+        "positive": null,
+        "negative": null,
+        "status": "unknown",
+        "confidence": 0.2,
+        "reason": "В предоставленных материалах отсутствуют прямые проявления расширения или ограничения политического допуска, выдвижения или участия в выборах.",
+        "evidence_indices": []
+      },
+      {
+        "scale_id": "institutional-autonomy-coordination",
+        "positive": null,
+        "negative": null,
+        "status": "unknown",
+        "confidence": 0.4,
+        "reason": "Несмотря на упоминания административной координации и передачи государственной повестки, нет прямых оснований для оценки выраженности гарантий самостоятельности институтов или единой управленческой линии.",
+        "evidence_indices": []
+      },
+      {
+        "scale_id": "taxation-burden-public-revenue",
+        "positive": null,
+        "negative": null,
+        "status": "unknown",
+        "confidence": 0.1,
+        "reason": "В материалах отсутствуют сведения о позиции Бизиманы по вопросам налоговой нагрузки или общественных доходов.",
+        "evidence_indices": []
+      },
+      {
+        "scale_id": "universal-targeted-provision",
+        "positive": null,
+        "negative": null,
+        "status": "unknown",
+        "confidence": 0.2,
+        "reason": "Нет прямых проявлений политики всеобщих гарантий или адресной поддержки в предоставленных фактах.",
+        "evidence_indices": []
+      },
+      {
+        "scale_id": "ecological-limits-resource-use",
+        "positive": null,
+        "negative": null,
+        "status": "unknown",
+        "confidence": 0.1,
+        "reason": "В материалах отсутствуют сведения о позиции Бизиманы по вопросам экологических ограничений или хозяйственного освоения.",
+        "evidence_indices": []
+      }
+    ]
+  },
+  "model": "gpt-4.1",
+  "task": "ratings-supplement-jean-damascene-bizimana-12",
+  "at": "2026-10-15T15:13:41.242057+00:00",
+  "usage": {
+    "prompt_tokens": 5604,
+    "completion_tokens": 612,
+    "total_tokens": 6216,
+    "prompt_tokens_details": {
+      "cached_tokens": 3968,
+      "audio_tokens": 0
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "audio_tokens": 0,
+      "accepted_prediction_tokens": 0,
+      "rejected_prediction_tokens": 0
+    }
+  },
+  "citations": [],
+  "system_fingerprint": "fp_233583e333",
+  "cache_key": "f4c38084fbe9ffe454534f38868780d71cc982bf9c51d490ba1a9f5ef43e555b"
+}

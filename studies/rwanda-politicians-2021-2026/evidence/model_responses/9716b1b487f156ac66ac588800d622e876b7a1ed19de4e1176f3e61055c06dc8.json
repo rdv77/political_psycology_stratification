@@ -1,0 +1,116 @@
+{
+  "data": {
+    "ratings": [
+      {
+        "scale_id": "prevention-crisis-response",
+        "positive": null,
+        "negative": null,
+        "status": "unknown",
+        "confidence": 0.3,
+        "reason": "В предоставленных фактах нет прямых публичных проявлений или заявлений Юсуфа Мурангва, позволяющих оценить выраженность упреждающей профилактики рисков или оперативного реагирования на кризисы. Описаны управленческие и плановые действия, но они не содержат персонально атрибутированных позиций по данной шкале.",
+        "evidence_indices": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7
+        ]
+      },
+      {
+        "scale_id": "electoral-access",
+        "positive": null,
+        "negative": null,
+        "status": "unknown",
+        "confidence": 0.2,
+        "reason": "В материалах отсутствуют сведения о публичных действиях или заявлениях Юсуфа Мурангва, связанных с расширением или ограничением доступа к политическому участию и выборам.",
+        "evidence_indices": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7
+        ]
+      },
+      {
+        "scale_id": "institutional-autonomy-coordination",
+        "positive": null,
+        "negative": null,
+        "status": "unknown",
+        "confidence": 0.3,
+        "reason": "Нет прямых оснований для оценки выраженности гарантий самостоятельности институтов или акцента на единой координации между ними в публичных выступлениях или документах Мурангва.",
+        "evidence_indices": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7
+        ]
+      },
+      {
+        "scale_id": "taxation-burden-public-revenue",
+        "positive": 0,
+        "negative": 1,
+        "status": "observed",
+        "confidence": 0.5,
+        "reason": "В публичных бюджетных заявлениях Мурангва акцентировано увеличение государственных доходов и расходов, что указывает на единичное проявление поддержки увеличения налоговых поступлений для публичного развития. Прямых предложений по снижению налоговой нагрузки не выявлено.",
+        "evidence_indices": [
+          0
+        ]
+      },
+      {
+        "scale_id": "universal-targeted-provision",
+        "positive": null,
+        "negative": null,
+        "status": "unknown",
+        "confidence": 0.3,
+        "reason": "В материалах нет конкретных персональных заявлений или действий Мурангва, позволяющих оценить приоритет всеобщих гарантий или адресной поддержки.",
+        "evidence_indices": [
+          1,
+          2
+        ]
+      },
+      {
+        "scale_id": "ecological-limits-resource-use",
+        "positive": 1,
+        "negative": 0,
+        "status": "observed",
+        "confidence": 0.4,
+        "reason": "В бюджетных и стратегических документах под руководством Мурангва упоминаются меры по поддержке климатической адаптации и устойчивости, что свидетельствует о единичном публичном проявлении акцента на экологических ограничениях хозяйственной деятельности. Признаков расширения хозяйственного использования ресурсов не обнаружено.",
+        "evidence_indices": [
+          1,
+          2
+        ]
+      }
+    ]
+  },
+  "model": "gpt-4.1",
+  "task": "ratings-yusuf-murangwa-12",
+  "at": "2026-10-15T15:10:59.936563+00:00",
+  "usage": {
+    "prompt_tokens": 3824,
+    "completion_tokens": 588,
+    "total_tokens": 4412,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "audio_tokens": 0
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "audio_tokens": 0,
+      "accepted_prediction_tokens": 0,
+      "rejected_prediction_tokens": 0
+    }
+  },
+  "citations": [],
+  "system_fingerprint": "fp_233583e333",
+  "cache_key": "9716b1b487f156ac66ac588800d622e876b7a1ed19de4e1176f3e61055c06dc8"
+}

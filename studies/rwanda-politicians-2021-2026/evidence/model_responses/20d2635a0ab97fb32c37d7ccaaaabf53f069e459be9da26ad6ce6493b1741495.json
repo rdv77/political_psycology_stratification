@@ -1,0 +1,155 @@
+{
+  "data": {
+    "ratings": [
+      {
+        "scale_id": "programmatic-renewal",
+        "positive": null,
+        "negative": null,
+        "status": "unknown",
+        "confidence": 0.5,
+        "reason": "Нет прямых публичных заявлений о необходимости программного изменения или закрепления существующего курса; благодарность за назначение и общие формулировки не являются достаточным основанием.",
+        "evidence_indices": [
+          0
+        ]
+      },
+      {
+        "scale_id": "government-course-assessment",
+        "positive": null,
+        "negative": null,
+        "status": "unknown",
+        "confidence": 0.5,
+        "reason": "Нет прямых оценок действующего курса Руанды; благодарность президенту не равна поддержке всех решений, а критика не зафиксирована.",
+        "evidence_indices": [
+          0
+        ]
+      },
+      {
+        "scale_id": "participation-administrative-direction",
+        "positive": null,
+        "negative": null,
+        "status": "unknown",
+        "confidence": 0.5,
+        "reason": "Нет оснований для оценки: не выявлено ни призывов к общественному участию, ни акцента на административном контроле.",
+        "evidence_indices": []
+      },
+      {
+        "scale_id": "argumentation-evidence-values",
+        "positive": 1,
+        "negative": 0,
+        "status": "observed",
+        "confidence": 0.7,
+        "reason": "В интервью о ядерной энергетике Ндухунгирехе ссылается на практические потребности и подготовку специалистов, что является единичным примером обоснования через данные и результаты. Не выявлено апелляций к ценностям или символам.",
+        "evidence_indices": [
+          10
+        ]
+      },
+      {
+        "scale_id": "market-state-instruments",
+        "positive": 1,
+        "negative": 0,
+        "status": "observed",
+        "confidence": 0.7,
+        "reason": "В интервью о сотрудничестве с Россией по подготовке специалистов и ядерной энергетике отмечен акцент на практическом обучении и технологическом партнёрстве, что можно трактовать как единичное проявление поддержки частной инициативы и внешнего партнёрства. Не выявлено акцентов на государственном регулировании.",
+        "evidence_indices": [
+          10
+        ]
+      },
+      {
+        "scale_id": "accessibility-growth-priorities",
+        "positive": null,
+        "negative": null,
+        "status": "unknown",
+        "confidence": 0.5,
+        "reason": "Нет прямых заявлений о приоритете доступности благ или инвестиционного роста.",
+        "evidence_indices": []
+      },
+      {
+        "scale_id": "external-domestic-resources",
+        "positive": 1,
+        "negative": 0,
+        "status": "observed",
+        "confidence": 0.7,
+        "reason": "В интервью о ядерной энергетике и подготовке специалистов с помощью России зафиксировано единичное проявление ориентации на привлечение внешних ресурсов. Нет оснований для оценки опоры на внутренние ресурсы.",
+        "evidence_indices": [
+          10
+        ]
+      },
+      {
+        "scale_id": "international-rules-autonomy",
+        "positive": 1,
+        "negative": 1,
+        "status": "observed",
+        "confidence": 0.7,
+        "reason": "На форуме в Анталье Ндухунгирехе призывал к более сильному африканскому представительству (ориентация на международные механизмы), а в интервью по ДРК защищал свободу действий Руанды (защита автономии). Оба полюса проявлены по одному разу.",
+        "evidence_indices": [
+          2,
+          4
+        ]
+      },
+      {
+        "scale_id": "mediation-adversarial-communication",
+        "positive": 1,
+        "negative": 1,
+        "status": "observed",
+        "confidence": 0.7,
+        "reason": "На международных форумах и встречах отмечено участие в дипломатических переговорах (единичное проявление посредничества), а в интервью по ДРК — защита позиции Руанды и опровержение обвинений (единичное проявление полемики).",
+        "evidence_indices": [
+          2,
+          4
+        ]
+      },
+      {
+        "scale_id": "cultural-openness-national-transmission",
+        "positive": 1,
+        "negative": 0,
+        "status": "observed",
+        "confidence": 0.7,
+        "reason": "В интервью о подготовке специалистов и упоминании выпускников российских вузов проявлен единичный акцент на межкультурном обмене. Нет оснований для оценки акцента на национальных ценностях.",
+        "evidence_indices": [
+          10
+        ]
+      },
+      {
+        "scale_id": "problem-disclosure-reputation-defence",
+        "positive": 0,
+        "negative": 1,
+        "status": "observed",
+        "confidence": 0.7,
+        "reason": "В интервью по ДРК проявлена защита репутации Руанды и опровержение обвинений; не выявлено публичного раскрытия проблем.",
+        "evidence_indices": [
+          4
+        ]
+      },
+      {
+        "scale_id": "procedural-guarantees-enforcement",
+        "positive": null,
+        "negative": null,
+        "status": "unknown",
+        "confidence": 0.5,
+        "reason": "Нет оснований для оценки: не выявлено ни акцентов на расширении процедурных гарантий, ни на принудительном исполнении.",
+        "evidence_indices": []
+      }
+    ]
+  },
+  "model": "gpt-4.1",
+  "task": "ratings-olivier-nduhungirehe-0",
+  "at": "2026-10-15T15:10:05.959297+00:00",
+  "usage": {
+    "prompt_tokens": 6896,
+    "completion_tokens": 983,
+    "total_tokens": 7879,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "audio_tokens": 0
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "audio_tokens": 0,
+      "accepted_prediction_tokens": 0,
+      "rejected_prediction_tokens": 0
+    }
+  },
+  "citations": [],
+  "system_fingerprint": "fp_6d7f4b5803",
+  "cache_key": "20d2635a0ab97fb32c37d7ccaaaabf53f069e459be9da26ad6ce6493b1741495"
+}

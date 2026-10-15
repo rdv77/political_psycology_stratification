@@ -1,0 +1,95 @@
+{
+  "data": {
+    "ratings": [
+      {
+        "scale_id": "prevention-crisis-response",
+        "positive": null,
+        "negative": null,
+        "status": "unknown",
+        "confidence": 0,
+        "reason": "В предоставленных фактах отсутствуют прямые датированные публичные заявления или действия Кагаме, однозначно характеризующие его акцент на упреждающей профилактике рисков либо на оперативном реагировании на кризисы в исследуемый период.",
+        "evidence_indices": []
+      },
+      {
+        "scale_id": "electoral-access",
+        "positive": 0,
+        "negative": 3,
+        "status": "observed",
+        "confidence": 0.9,
+        "reason": "В материалах фиксируются неоднократные эпизоды ограничения допуска оппозиционных кандидатов к выборам (отстранение восьми претендентов, запрет на участие отдельных оппозиционеров), что отражает повторяющийся акцент на усилении барьеров политического участия. Прямых заявлений Кагаме о расширении доступа к конкуренции не обнаружено при наличии достаточных материалов.",
+        "evidence_indices": [
+          2,
+          4,
+          5,
+          13,
+          14,
+          16,
+          17,
+          18
+        ]
+      },
+      {
+        "scale_id": "institutional-autonomy-coordination",
+        "positive": null,
+        "negative": 3,
+        "status": "unknown",
+        "confidence": 0.7,
+        "reason": "В материалах содержатся сведения о согласованной линии между институтами (ограничения для оппозиции, недопуск кандидатов), однако отсутствуют прямые датированные публичные заявления Кагаме, однозначно подтверждающие его личный акцент на координации или самостоятельности институтов. Поэтому оценка обоих полюсов невозможна.",
+        "evidence_indices": [
+          13,
+          14,
+          16,
+          17
+        ]
+      },
+      {
+        "scale_id": "taxation-burden-public-revenue",
+        "positive": null,
+        "negative": null,
+        "status": "unknown",
+        "confidence": 0,
+        "reason": "В предоставленных фактах отсутствуют прямые датированные публичные заявления или действия Кагаме, связанные с налоговой политикой, снижением или увеличением налоговой нагрузки, либо расширением общественных доходов.",
+        "evidence_indices": []
+      },
+      {
+        "scale_id": "universal-targeted-provision",
+        "positive": null,
+        "negative": null,
+        "status": "unknown",
+        "confidence": 0,
+        "reason": "В предоставленных материалах нет прямых датированных публичных заявлений или действий Кагаме, однозначно отражающих акцент на универсальных стандартах или адресной поддержке.",
+        "evidence_indices": []
+      },
+      {
+        "scale_id": "ecological-limits-resource-use",
+        "positive": null,
+        "negative": null,
+        "status": "unknown",
+        "confidence": 0,
+        "reason": "В предоставленных фактах отсутствуют прямые датированные публичные заявления или действия Кагаме, связанные с усилением экологических ограничений либо расширением хозяйственного использования природных ресурсов.",
+        "evidence_indices": []
+      }
+    ]
+  },
+  "model": "gpt-4.1",
+  "task": "ratings-supplement-paul-kagame-12",
+  "at": "2026-10-15T15:09:52.542709+00:00",
+  "usage": {
+    "prompt_tokens": 7103,
+    "completion_tokens": 565,
+    "total_tokens": 7668,
+    "prompt_tokens_details": {
+      "cached_tokens": 3968,
+      "audio_tokens": 0
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "audio_tokens": 0,
+      "accepted_prediction_tokens": 0,
+      "rejected_prediction_tokens": 0
+    }
+  },
+  "citations": [],
+  "system_fingerprint": "fp_233583e333",
+  "cache_key": "88d38f96577f8fb8ebe21a038c19f71030e90bc7f4ea1e01e3d1b93b11075146"
+}

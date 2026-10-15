@@ -1,0 +1,148 @@
+{
+  "data": {
+    "ratings": [
+      {
+        "scale_id": "programmatic-renewal",
+        "positive": null,
+        "negative": null,
+        "status": "unknown",
+        "confidence": 0.7,
+        "reason": "Нет прямых датированных публичных заявлений Русесабагины в 2021-2026 о необходимости программного изменения или закрепления существующего курса. Оппозиционный статус и критика не равны программному пересмотру или поддержке курса.",
+        "evidence_indices": [
+          0,
+          1,
+          4,
+          10
+        ]
+      },
+      {
+        "scale_id": "government-course-assessment",
+        "positive": null,
+        "negative": null,
+        "status": "unknown",
+        "confidence": 0.8,
+        "reason": "Русесабагина описан как критик правительства, но нет прямых цитат или заявлений в 2021-2026, где он выражает поддержку или критику действующего курса в явной форме. Оценка оппозиционности не заменяет персональную оценку курса.",
+        "evidence_indices": [
+          0,
+          1,
+          10
+        ]
+      },
+      {
+        "scale_id": "participation-administrative-direction",
+        "positive": null,
+        "negative": null,
+        "status": "unknown",
+        "confidence": 0.6,
+        "reason": "Нет сведений о публичных предложениях Русесабагины по вовлечению граждан в принятие решений или о его акцентах на административном управлении и контроле исполнения в 2021-2026.",
+        "evidence_indices": []
+      },
+      {
+        "scale_id": "argumentation-evidence-values",
+        "positive": null,
+        "negative": null,
+        "status": "unknown",
+        "confidence": 0.6,
+        "reason": "В предоставленных материалах отсутствуют примеры, где Русесабагина обосновывает свою позицию через данные, расчёты или ценностные призывы в 2021-2026.",
+        "evidence_indices": []
+      },
+      {
+        "scale_id": "market-state-instruments",
+        "positive": null,
+        "negative": null,
+        "status": "unknown",
+        "confidence": 0.6,
+        "reason": "Нет фактов о публичных заявлениях Русесабагины по вопросам частной инициативы или государственного регулирования в 2021-2026.",
+        "evidence_indices": []
+      },
+      {
+        "scale_id": "accessibility-growth-priorities",
+        "positive": null,
+        "negative": null,
+        "status": "unknown",
+        "confidence": 0.6,
+        "reason": "В материалах отсутствуют прямые заявления Русесабагины о приоритетах расширения доступности благ или инвестиционного роста в 2021-2026.",
+        "evidence_indices": []
+      },
+      {
+        "scale_id": "external-domestic-resources",
+        "positive": null,
+        "negative": null,
+        "status": "unknown",
+        "confidence": 0.6,
+        "reason": "Нет сведений о публичных предложениях Русесабагины по привлечению внешних ресурсов или опоре на внутренние в 2021-2026.",
+        "evidence_indices": []
+      },
+      {
+        "scale_id": "international-rules-autonomy",
+        "positive": null,
+        "negative": null,
+        "status": "unknown",
+        "confidence": 0.7,
+        "reason": "Международный контекст дела подтверждён, но нет прямых заявлений Русесабагины о поддержке международных обязательств или защите национальной самостоятельности в 2021-2026.",
+        "evidence_indices": [
+          5,
+          13,
+          14
+        ]
+      },
+      {
+        "scale_id": "mediation-adversarial-communication",
+        "positive": null,
+        "negative": null,
+        "status": "unknown",
+        "confidence": 0.7,
+        "reason": "Нет прямых публичных примеров посредничества или полемической защиты позиций Русесабагиной в 2021-2026; оппозиционный статус не доказывает конфронтацию.",
+        "evidence_indices": [
+          0,
+          1,
+          4,
+          10
+        ]
+      },
+      {
+        "scale_id": "cultural-openness-national-transmission",
+        "positive": null,
+        "negative": null,
+        "status": "unknown",
+        "confidence": 0.6,
+        "reason": "В материалах нет сведений о публичных акцентах Русесабагины на межкультурном обмене или национальных ценностях в 2021-2026.",
+        "evidence_indices": []
+      },
+      {
+        "scale_id": "procedural-guarantees-enforcement",
+        "positive": null,
+        "negative": null,
+        "status": "unknown",
+        "confidence": 0.7,
+        "reason": "Судебный процесс и его критика описаны внешними организациями, но нет прямых заявлений Русесабагины о приоритетах процедурных гарантий или принудительного исполнения в 2021-2026.",
+        "evidence_indices": [
+          2,
+          3,
+          11
+        ]
+      }
+    ]
+  },
+  "model": "gpt-4.1",
+  "task": "ratings-supplement-paul-rusesabagina-0",
+  "at": "2026-10-15T15:18:55.408777+00:00",
+  "usage": {
+    "prompt_tokens": 6274,
+    "completion_tokens": 894,
+    "total_tokens": 7168,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "audio_tokens": 0
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "audio_tokens": 0,
+      "accepted_prediction_tokens": 0,
+      "rejected_prediction_tokens": 0
+    }
+  },
+  "citations": [],
+  "system_fingerprint": "fp_6d7f4b5803",
+  "cache_key": "6840faf9151e543f61c1fe8ecc54e5279aadb0bfaa70061bb96fc879a860bf0a"
+}

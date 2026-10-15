@@ -1,0 +1,112 @@
+{
+  "data": {
+    "ratings": [
+      {
+        "scale_id": "programmatic-renewal",
+        "positive": null,
+        "negative": null,
+        "status": "unknown",
+        "confidence": 0.7,
+        "reason": "В предоставленных фактах есть указание на сочетание преемственности и программного развития (факт 9), но прямо выраженной устойчивой доминанты ни одного полюса не зафиксировано. Нет достаточных оснований для численной оценки силы выраженности каждого полюса.",
+        "evidence_indices": [
+          9
+        ]
+      },
+      {
+        "scale_id": "government-course-assessment",
+        "positive": null,
+        "negative": null,
+        "status": "unknown",
+        "confidence": 0.7,
+        "reason": "Факты содержат описание представления и продвижения правительственной программы, однако нет прямых публичных оценок (ни поддержки, ни критики) действующего курса в личной риторике Нсенгийюмвы. Оценка невозможна.",
+        "evidence_indices": [
+          1,
+          2,
+          9
+        ]
+      },
+      {
+        "scale_id": "international-rules-autonomy",
+        "positive": null,
+        "negative": null,
+        "status": "unknown",
+        "confidence": 0.7,
+        "reason": "Есть эпизоды, где отмечается признательность международным партнёрам и предостережение от внешнего манипулирования, но нет прямых заявлений о закреплении международных обязательств или защите национальной самостоятельности решений. Оценка невозможна.",
+        "evidence_indices": [
+          6,
+          10,
+          11
+        ]
+      },
+      {
+        "scale_id": "mediation-adversarial-communication",
+        "positive": null,
+        "negative": null,
+        "status": "unknown",
+        "confidence": 0.6,
+        "reason": "В материалах есть призывы к сотрудничеству и совместной работе, а также эпизоды защитной риторики в адрес диаспоры, но нет устойчивых или повторяющихся прямых проявлений ни посредничества, ни полемической защиты. Оценка невозможна.",
+        "evidence_indices": [
+          1,
+          4,
+          10,
+          11
+        ]
+      },
+      {
+        "scale_id": "cultural-openness-national-transmission",
+        "positive": 0,
+        "negative": 3,
+        "status": "observed",
+        "confidence": 0.9,
+        "reason": "В ряде эпизодов (факты 10, 12, 13) прямо выражен акцент на сохранении и передаче национальных ценностей, особенно в обращениях к диаспоре. Признаков публичного продвижения межкультурного обмена или разнообразия не выявлено.",
+        "evidence_indices": [
+          10,
+          12,
+          13
+        ]
+      },
+      {
+        "scale_id": "problem-disclosure-reputation-defence",
+        "positive": 0,
+        "negative": 3,
+        "status": "observed",
+        "confidence": 0.9,
+        "reason": "В публичных выступлениях (факты 10, 11) зафиксирована защита репутации страны, опровержение ложных рассказов и продвижение позитивного образа. Прямого раскрытия проблем или недостатков исполнения не обнаружено.",
+        "evidence_indices": [
+          10,
+          11
+        ]
+      },
+      {
+        "scale_id": "procedural-guarantees-enforcement",
+        "positive": null,
+        "negative": null,
+        "status": "unknown",
+        "confidence": 0.6,
+        "reason": "В предоставленных материалах отсутствуют прямые заявления или действия, позволяющие оценить выраженность полюсов расширения процедурных гарантий или принудительного исполнения.",
+        "evidence_indices": []
+      }
+    ]
+  },
+  "model": "gpt-4.1",
+  "task": "ratings-supplement-justin-nsengiyumva-0",
+  "at": "2026-10-15T15:09:56.986365+00:00",
+  "usage": {
+    "prompt_tokens": 5409,
+    "completion_tokens": 673,
+    "total_tokens": 6082,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "audio_tokens": 0
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "audio_tokens": 0,
+      "accepted_prediction_tokens": 0,
+      "rejected_prediction_tokens": 0
+    }
+  },
+  "citations": [],
+  "system_fingerprint": "fp_363cf393c8",
+  "cache_key": "062be889721066b8c7464750ddc5598b296c9829703323b2f9be45b92dd5d840"
+}

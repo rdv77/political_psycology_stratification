@@ -1,0 +1,87 @@
+{
+  "data": {
+    "ratings": [
+      {
+        "scale_id": "prevention-crisis-response",
+        "positive": null,
+        "negative": null,
+        "status": "unknown",
+        "confidence": 0.2,
+        "reason": "В предоставленных фактах отсутствуют прямые или косвенные публичные проявления или заявления Акаманзи, позволяющие оценить выраженность упреждающей профилактики либо оперативного реагирования на кризисы.",
+        "evidence_indices": []
+      },
+      {
+        "scale_id": "electoral-access",
+        "positive": null,
+        "negative": null,
+        "status": "unknown",
+        "confidence": 0.2,
+        "reason": "Нет оснований для оценки отношения Акаманзи к расширению или ограничению политического допуска; ни один из фактов не содержит прямых заявлений или действий по этой теме.",
+        "evidence_indices": []
+      },
+      {
+        "scale_id": "institutional-autonomy-coordination",
+        "positive": null,
+        "negative": null,
+        "status": "unknown",
+        "confidence": 0.4,
+        "reason": "В ряде эпизодов (например, межсекторное сотрудничество, координация с частным и государственным секторами) описывается согласование действий, но нет прямых заявлений о приоритете единой управленческой линии или гарантиях самостоятельности институтов. Недостаточно оснований для численной оценки любого полюса.",
+        "evidence_indices": [
+          11,
+          12
+        ]
+      },
+      {
+        "scale_id": "taxation-burden-public-revenue",
+        "positive": null,
+        "negative": null,
+        "status": "unknown",
+        "confidence": 0.2,
+        "reason": "В предоставленных материалах отсутствуют заявления или действия Акаманзи, связанные с налоговой политикой, снижением или увеличением налоговой нагрузки.",
+        "evidence_indices": []
+      },
+      {
+        "scale_id": "universal-targeted-provision",
+        "positive": null,
+        "negative": null,
+        "status": "unknown",
+        "confidence": 0.3,
+        "reason": "Несмотря на упоминание социальных выгод для семей и сообществ, нет конкретных механизмов или программ, позволяющих отнести позицию к универсальным гарантиям или адресной поддержке.",
+        "evidence_indices": [
+          8,
+          9
+        ]
+      },
+      {
+        "scale_id": "ecological-limits-resource-use",
+        "positive": null,
+        "negative": null,
+        "status": "unknown",
+        "confidence": 0.2,
+        "reason": "В материалах отсутствуют высказывания или действия Акаманзи, позволяющие оценить отношение к экологическим ограничениям или расширению хозяйственного использования природных ресурсов.",
+        "evidence_indices": []
+      }
+    ]
+  },
+  "model": "gpt-4.1",
+  "task": "ratings-supplement-clare-akamanzi-12",
+  "at": "2026-10-15T15:13:34.171905+00:00",
+  "usage": {
+    "prompt_tokens": 4818,
+    "completion_tokens": 624,
+    "total_tokens": 5442,
+    "prompt_tokens_details": {
+      "cached_tokens": 2944,
+      "audio_tokens": 0
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "audio_tokens": 0,
+      "accepted_prediction_tokens": 0,
+      "rejected_prediction_tokens": 0
+    }
+  },
+  "citations": [],
+  "system_fingerprint": "fp_233583e333",
+  "cache_key": "b9d50bd99748fd8b2024fbf79b4390bba49d2fd9375bfacf98d00dd78492ed24"
+}

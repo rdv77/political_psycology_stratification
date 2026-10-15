@@ -1,0 +1,152 @@
+{
+  "data": {
+    "ratings": [
+      {
+        "scale_id": "programmatic-renewal",
+        "positive": null,
+        "negative": null,
+        "status": "unknown",
+        "confidence": 0.7,
+        "reason": "Нет прямых публичных заявлений Иямуремье о необходимости программного изменения или закрепления существующего курса; присутствуют только формальные благодарности и объяснения ухода по состоянию здоровья.",
+        "evidence_indices": [
+          6
+        ]
+      },
+      {
+        "scale_id": "government-course-assessment",
+        "positive": null,
+        "negative": null,
+        "status": "unknown",
+        "confidence": 0.8,
+        "reason": "Нет прямых персональных оценок действующего курса власти; благодарность за доверие и поздравления не равны поддержке или критике курса.",
+        "evidence_indices": [
+          4,
+          6
+        ]
+      },
+      {
+        "scale_id": "participation-administrative-direction",
+        "positive": null,
+        "negative": null,
+        "status": "unknown",
+        "confidence": 0.7,
+        "reason": "Нет данных о призывах к общественному участию или административной координации в принятии решений.",
+        "evidence_indices": []
+      },
+      {
+        "scale_id": "argumentation-evidence-values",
+        "positive": null,
+        "negative": null,
+        "status": "unknown",
+        "confidence": 0.7,
+        "reason": "В публичных заявлениях отсутствует обоснование решений через данные или ценности; риторика ограничивается имиджем страны и благодарностями.",
+        "evidence_indices": [
+          0,
+          2,
+          6
+        ]
+      },
+      {
+        "scale_id": "market-state-instruments",
+        "positive": null,
+        "negative": null,
+        "status": "unknown",
+        "confidence": 0.7,
+        "reason": "Нет прямых заявлений о приоритете частной инициативы или государственного регулирования.",
+        "evidence_indices": []
+      },
+      {
+        "scale_id": "accessibility-growth-priorities",
+        "positive": null,
+        "negative": null,
+        "status": "unknown",
+        "confidence": 0.7,
+        "reason": "Нет прямых заявлений о приоритете доступности благ или инвестиционного роста.",
+        "evidence_indices": []
+      },
+      {
+        "scale_id": "external-domestic-resources",
+        "positive": null,
+        "negative": null,
+        "status": "unknown",
+        "confidence": 0.7,
+        "reason": "Нет прямых заявлений о привлечении внешних ресурсов или опоре на внутренние.",
+        "evidence_indices": []
+      },
+      {
+        "scale_id": "international-rules-autonomy",
+        "positive": null,
+        "negative": null,
+        "status": "unknown",
+        "confidence": 0.7,
+        "reason": "Нет прямых заявлений о поддержке международных обязательств или защите национальной самостоятельности.",
+        "evidence_indices": [
+          1,
+          7
+        ]
+      },
+      {
+        "scale_id": "mediation-adversarial-communication",
+        "positive": null,
+        "negative": null,
+        "status": "unknown",
+        "confidence": 0.7,
+        "reason": "Нет данных о посредничестве или полемической защите интересов.",
+        "evidence_indices": []
+      },
+      {
+        "scale_id": "cultural-openness-national-transmission",
+        "positive": null,
+        "negative": null,
+        "status": "unknown",
+        "confidence": 0.7,
+        "reason": "Нет прямых заявлений о культурном обмене или сохранении национальных ценностей.",
+        "evidence_indices": [
+          3
+        ]
+      },
+      {
+        "scale_id": "problem-disclosure-reputation-defence",
+        "positive": 0,
+        "negative": 3,
+        "status": "observed",
+        "confidence": 0.8,
+        "reason": "Публичная риторика Иямуремье в контексте международного форума подчёркивает управляемую репрезентацию Руанды и акцент на внешней легитимации, без признаков раскрытия проблем.",
+        "evidence_indices": [
+          0,
+          2
+        ]
+      },
+      {
+        "scale_id": "procedural-guarantees-enforcement",
+        "positive": null,
+        "negative": null,
+        "status": "unknown",
+        "confidence": 0.7,
+        "reason": "Нет данных о публичных заявлениях по вопросам процедурных гарантий или принудительного исполнения.",
+        "evidence_indices": []
+      }
+    ]
+  },
+  "model": "gpt-4.1",
+  "task": "ratings-augustin-iyamuremye-0",
+  "at": "2026-10-15T15:13:58.635905+00:00",
+  "usage": {
+    "prompt_tokens": 5595,
+    "completion_tokens": 1021,
+    "total_tokens": 6616,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "audio_tokens": 0
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "audio_tokens": 0,
+      "accepted_prediction_tokens": 0,
+      "rejected_prediction_tokens": 0
+    }
+  },
+  "citations": [],
+  "system_fingerprint": "fp_6d7f4b5803",
+  "cache_key": "f8b76c6bde695147bd4c49ad0c6ec921bfd2fb491156845f7eee2e74d8205d7f"
+}

@@ -1,0 +1,146 @@
+{
+  "data": {
+    "ratings": [
+      {
+        "scale_id": "programmatic-renewal",
+        "positive": 0,
+        "negative": 5,
+        "status": "observed",
+        "confidence": 0.9,
+        "reason": "В публичных заявлениях Кагаме (2023-09-20) прямо выражено намерение продолжать действующий курс, без предложений его пересмотра. Факты о выборах и ограничении конкуренции подтверждают акцент на преемственности, но не содержат признаков программного обновления.",
+        "evidence_indices": [
+          1,
+          13,
+          14
+        ]
+      },
+      {
+        "scale_id": "government-course-assessment",
+        "positive": 5,
+        "negative": null,
+        "status": "unknown",
+        "confidence": 0.8,
+        "reason": "Есть прямые публичные заявления Кагаме о продолжении служения и доверии граждан, что фиксирует поддержку курса. Однако отсутствуют его датированные публичные критические оценки действующего курса.",
+        "evidence_indices": [
+          1,
+          13
+        ]
+      },
+      {
+        "scale_id": "participation-administrative-direction",
+        "positive": null,
+        "negative": 3,
+        "status": "unknown",
+        "confidence": 0.7,
+        "reason": "В материалах фиксируется ограничение участия оппозиции и гражданского общества, но нет прямых публичных заявлений Кагаме о приоритете административной координации или приглашении к совместному обсуждению.",
+        "evidence_indices": [
+          4,
+          5,
+          17
+        ]
+      },
+      {
+        "scale_id": "argumentation-evidence-values",
+        "positive": null,
+        "negative": null,
+        "status": "unknown",
+        "confidence": 0.5,
+        "reason": "В предоставленных материалах отсутствуют примеры, где Кагаме обосновывает решения либо через данные, либо через ценностные аргументы.",
+        "evidence_indices": []
+      },
+      {
+        "scale_id": "market-state-instruments",
+        "positive": null,
+        "negative": null,
+        "status": "unknown",
+        "confidence": 0.5,
+        "reason": "Нет прямых публичных заявлений Кагаме о приоритете частной инициативы или государственного регулирования.",
+        "evidence_indices": []
+      },
+      {
+        "scale_id": "accessibility-growth-priorities",
+        "positive": null,
+        "negative": null,
+        "status": "unknown",
+        "confidence": 0.5,
+        "reason": "В материалах отсутствуют датированные заявления Кагаме о приоритете расширения доступности благ или инвестиционного роста.",
+        "evidence_indices": []
+      },
+      {
+        "scale_id": "external-domestic-resources",
+        "positive": null,
+        "negative": null,
+        "status": "unknown",
+        "confidence": 0.5,
+        "reason": "Нет прямых публичных заявлений Кагаме о приоритете внешних или внутренних ресурсов для развития.",
+        "evidence_indices": []
+      },
+      {
+        "scale_id": "mediation-adversarial-communication",
+        "positive": 0,
+        "negative": 3,
+        "status": "observed",
+        "confidence": 0.8,
+        "reason": "Кагаме последовательно отвергал обвинения в поддержке повстанцев в ДРК, что фиксирует полемическую защиту своей стороны. Признаков посредничества или поиска согласования в этих эпизодах не выявлено.",
+        "evidence_indices": [
+          5,
+          15
+        ]
+      },
+      {
+        "scale_id": "cultural-openness-national-transmission",
+        "positive": null,
+        "negative": null,
+        "status": "unknown",
+        "confidence": 0.5,
+        "reason": "В материалах нет датированных публичных заявлений Кагаме о приоритете межкультурного обмена или национальных ценностей.",
+        "evidence_indices": []
+      },
+      {
+        "scale_id": "problem-disclosure-reputation-defence",
+        "positive": 0,
+        "negative": 3,
+        "status": "observed",
+        "confidence": 0.8,
+        "reason": "Кагаме публично защищал свою позицию по обвинениям в поддержке повстанцев, что отражает защиту репутации. Признаков открытого признания проблем или недостатков исполнения не обнаружено.",
+        "evidence_indices": [
+          5,
+          15
+        ]
+      },
+      {
+        "scale_id": "procedural-guarantees-enforcement",
+        "positive": null,
+        "negative": null,
+        "status": "unknown",
+        "confidence": 0.7,
+        "reason": "В материалах описаны ограничения доступа оппозиции и заключения, но нет прямых публичных заявлений Кагаме о приоритете процедурных гарантий или принудительного исполнения.",
+        "evidence_indices": [
+          4,
+          17
+        ]
+      }
+    ]
+  },
+  "model": "gpt-4.1",
+  "task": "ratings-supplement-paul-kagame-0",
+  "at": "2026-10-15T15:09:46.922671+00:00",
+  "usage": {
+    "prompt_tokens": 8528,
+    "completion_tokens": 845,
+    "total_tokens": 9373,
+    "prompt_tokens_details": {
+      "cached_tokens": 4992,
+      "audio_tokens": 0
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "audio_tokens": 0,
+      "accepted_prediction_tokens": 0,
+      "rejected_prediction_tokens": 0
+    }
+  },
+  "citations": [],
+  "system_fingerprint": "fp_6d7f4b5803",
+  "cache_key": "68d655373c023a56bd586b46c33b52a7b565a705029d2ace898e7f594ccc148b"
+}

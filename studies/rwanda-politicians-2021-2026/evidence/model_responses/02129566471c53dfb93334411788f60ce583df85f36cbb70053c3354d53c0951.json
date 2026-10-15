@@ -1,0 +1,85 @@
+{
+  "data": {
+    "ratings": [
+      {
+        "scale_id": "prevention-crisis-response",
+        "positive": 3,
+        "negative": 1,
+        "status": "observed",
+        "confidence": 0.9,
+        "reason": "Публичные заявления и инициативы Угирасебуджи неоднократно акцентируют упреждающую профилактику (например, развитие альтернативных способов разрешения споров, антикоррупционные меры, профилактика преступности), что подтверждается несколькими эпизодами. Оперативное реагирование упоминается реже и не является центральной темой.",
+        "evidence_indices": [
+          0,
+          2,
+          3,
+          4,
+          10,
+          12,
+          13,
+          14
+        ]
+      },
+      {
+        "scale_id": "electoral-access",
+        "positive": null,
+        "negative": null,
+        "status": "unknown",
+        "confidence": 0.0,
+        "reason": "В предоставленных материалах отсутствуют прямые или косвенные основания для оценки позиций по расширению или ограничению политического допуска.",
+        "evidence_indices": []
+      },
+      {
+        "scale_id": "institutional-autonomy-coordination",
+        "positive": null,
+        "negative": null,
+        "status": "unknown",
+        "confidence": 0.3,
+        "reason": "Есть отдельные упоминания о межинституциональном взаимодействии и подотчётности, но нет достаточных оснований для численной оценки выраженности гарантий самостоятельности или единой координации институтов.",
+        "evidence_indices": [
+          0,
+          6,
+          12
+        ]
+      },
+      {
+        "scale_id": "taxation-burden-public-revenue",
+        "positive": null,
+        "negative": null,
+        "status": "unknown",
+        "confidence": 0.0,
+        "reason": "В материалах отсутствуют основания для оценки позиций по налоговой нагрузке или общественным доходам.",
+        "evidence_indices": []
+      },
+      {
+        "scale_id": "ecological-limits-resource-use",
+        "positive": null,
+        "negative": null,
+        "status": "unknown",
+        "confidence": 0.0,
+        "reason": "В предоставленных фактах нет информации о позиции по экологическим ограничениям или хозяйственному освоению.",
+        "evidence_indices": []
+      }
+    ]
+  },
+  "model": "gpt-4.1",
+  "task": "ratings-supplement-emmanuel-ugirashebuja-12",
+  "at": "2026-10-15T15:11:26.837387+00:00",
+  "usage": {
+    "prompt_tokens": 5208,
+    "completion_tokens": 522,
+    "total_tokens": 5730,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "audio_tokens": 0
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "audio_tokens": 0,
+      "accepted_prediction_tokens": 0,
+      "rejected_prediction_tokens": 0
+    }
+  },
+  "citations": [],
+  "system_fingerprint": "fp_233583e333",
+  "cache_key": "02129566471c53dfb93334411788f60ce583df85f36cbb70053c3354d53c0951"
+}

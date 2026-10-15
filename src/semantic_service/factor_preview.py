@@ -25,7 +25,8 @@ if __package__ in (None, ""):
     sys.path.insert(0, str(Path(__file__).resolve().parents[2]))
 
 from src.semantic_service.analysis import (
-    LOADING_THRESHOLD, SEED, _dimension_analysis, _factor_descriptions, _prepare,
+    InsufficientMeasurementError, LOADING_THRESHOLD, SEED,
+    _dimension_analysis, _factor_descriptions, _prepare,
 )
 
 
@@ -203,7 +204,90 @@ def _factor_meaning_rows(model):
     return rows
 
 
+def _render_coverage_audit(result):
+    diagnostics = result["diagnostics"]
+    percent = lambda value: f"{value:.1%}" if value is not None else "не определено для пустой матрицы"
+    lines = ["# Короткий аудит покрытия: данных для факторного анализа недостаточно", "",
+             "FA не запускался. " + result["measurement_failure"], "",
+             f"Входная выборка: {diagnostics['input_objects']} объектов × {diagnostics['input_scales']} шкал. "
+             f"Наблюдаемых разностей: {diagnostics['observed_input_ratings']} из {diagnostics['total_input_cells']} "
+             f"({percent(diagnostics['input_coverage'])}). Неизвестных ячеек: {diagnostics['unknown_input_cells']}.", "",
+             f"После фиксированного отбора: {result['n_objects']} объектов × {result['n_scales']} шкал; "
+             f"покрытие — {percent(diagnostics['retained_coverage'])}.", "",
+             diagnostics["preprocessing_report"], "",
+             "Неизвестное не означает нейтральность или невыраженность свойства. Если один полюс известен, "
+             "а другой неизвестен, точная разность не установлена. Пороги ради получения модели не понижались.", "",
+             "## Наблюдения по всем входным шкалам", "",
+             "Числа относятся к полной входной выборке до отбора, а не только к оставшимся объектам.", "",
+             "| ID | Шкала | Наблюдений | Всего объектов | Покрытие | Осталась |", "|---|---|---|---|---|---|"]
+    for item in diagnostics["input_scale_coverage"]:
+        row = [item["id"], item["name"], item["observed_objects"], item["total_objects"],
+               percent(item["coverage"]), "да" if item["retained"] else "нет"]
+        lines.append("| " + " | ".join(_md_cell(value) for value in row) + " |")
+    lines += ["", "## Наблюдения по всем входным объектам", "",
+              "| ID | Объект | Наблюдаемых шкал | Всего шкал | Покрытие | Остался |", "|---|---|---|---|---|---|"]
+    for item in diagnostics["input_object_coverage"]:
+        row = [item["id"], item["name"], item["observed_scales"], item["total_scales"],
+               percent(item["coverage"]), "да" if item["retained"] else "нет"]
+        lines.append("| " + " | ".join(_md_cell(value) for value in row) + " |")
+    lines += ["", "## Тема России и пределы выводов", "",
+              "Статус: `insufficient_measurement`. Ни наличие, ни отсутствие отдельного российского фактора "
+              "по этой матрице установить нельзя. Нагрузки и доли дисперсии не оценивались; они не равны нулю.", "",
+              "Дальнейший шаг — собрать дополнительные датированные свидетельства по недостающим свойствам "
+              "и повторить проверку покрытия. Подробные причины исключения и все итерации отбора сохранены в JSON."]
+    return "\n".join(lines).strip() + "\n"
+
+
+def _insufficient_preview(study, ratings, configuration, error):
+    diagnostics = error.diagnostics
+    configured = configuration["configured_ids"]
+    retained = set(diagnostics["retained_scale_ids"])
+    scale_coverage = {item["id"]: item for item in diagnostics["input_scale_coverage"]}
+    reasons = {item["id"]: item["reason"] for item in diagnostics["excluded_scales"]}
+    coverage = []
+    for identity in configured:
+        item = scale_coverage.get(identity, {})
+        coverage.append({"id": identity, "name": item.get("name", configuration["requested_definitions"][identity].get("name", identity)),
+                         "semantic_family_id": configuration["family_by_id"][identity],
+                         "retained": identity in retained,
+                         "observed_count": item.get("observed_retained_objects", 0),
+                         "observed_input_count": item.get("observed_objects", 0),
+                         "exclusion_reason": None if identity in retained else reasons.get(identity, "not_in_approved_dictionary")})
+    return {"format_version": 1, "mode": "factor_preview_only", "measurement_status": "insufficient_data",
+            "measurement_failure": str(error), "n_objects": diagnostics["retained_objects"],
+            "n_scales": diagnostics["retained_scales"], "recommended_q": None,
+            "measurement_context": {"measurement_mode": study.get("measurement_mode", "unspecified"),
+                                    "source_supplement": study.get("source_supplement"),
+                                    "approvals": study.get("approvals", {}),
+                                    "expert_validation": "not_independently_validated"},
+            "dimension_selection": {"recommended_q": None, "selection_is_exploratory": True,
+                                    "status": "not_started_insufficient_measurement"},
+            "dimension_candidates": [], "models": [],
+            "russia_review": {**configuration, "retained_ids": [identity for identity in configured if identity in retained],
+                              "excluded_ids": [identity for identity in configured if identity not in retained],
+                              "status": "insufficient_measurement", "evidence_audit": "pending", "scale_coverage": coverage,
+                              "pairwise_observed_counts": {}, "candidates": [], "mandatory_report_refs": [], "warnings": []},
+            "diagnostics": {**diagnostics, "seed": SEED, "factor_analysis_started": False,
+                            "trait_order": diagnostics["retained_scale_ids"],
+                            "training_object_order": diagnostics["retained_object_ids"],
+                            "input_sha256": hashlib.sha256(json.dumps({"study": study, "ratings": ratings}, sort_keys=True,
+                                                                      ensure_ascii=False).encode("utf-8")).hexdigest()},
+            "limitations": ["Недостаточно реальных наблюдений для начала FA; факторы, нагрузки, доли дисперсии и кластеры не оценивались.",
+                            "Недостаточное покрытие не доказывает отсутствия политической позиции или отдельного тематического измерения."],
+            "charts": [], "artifacts": [{"name": "factor_preview_json", "path": "factor_preview.json", "type": "json"},
+                                        {"name": "factor_preview_md", "path": "factor_preview.md", "type": "markdown"}]}
+
+
+def _save_preview(result, output_dir):
+    output = Path(output_dir)
+    output.mkdir(parents=True, exist_ok=True)
+    (output / "factor_preview.md").write_text(_render_markdown(result), encoding="utf-8")
+    (output / "factor_preview.json").write_text(json.dumps(result, ensure_ascii=False, indent=2, allow_nan=False), encoding="utf-8")
+
+
 def _render_markdown(result):
+    if result.get("measurement_status") == "insufficient_data":
+        return _render_coverage_audit(result)
     review = result["russia_review"]
     selection = result["dimension_selection"]
     lines = ["# Предварительное сравнение факторных решений", "",
@@ -287,7 +371,12 @@ def preview_factors(study: dict, ratings: list[dict], output_dir: Path, *, make_
     round of FA. No cluster, LLM, study-state mutation or automatic final q choice.
     """
     configuration = _theme_configuration(study)
-    frame, _, _, scale_map, diagnostics = _prepare(study, ratings)
+    try:
+        frame, _, _, scale_map, diagnostics = _prepare(study, ratings)
+    except InsufficientMeasurementError as error:
+        result = _insufficient_preview(study, ratings, configuration, error)
+        _save_preview(result, output_dir)
+        return result
     raw = frame.to_numpy()
     scales = [scale_map[identity] for identity in frame.columns]
     with threadpool_limits(limits=1):
@@ -373,9 +462,7 @@ def preview_factors(study: dict, ratings: list[dict], output_dir: Path, *, make_
             _draw_loadings(output / file, model, scales, set(configured))
             result["charts"].append({"q": model["q"], "file": file, "title": f"Полные нагрузки q={model['q']}"})
             result["artifacts"].append({"name": f"factor_preview_q{model['q']}", "path": file, "type": "image/png"})
-    markdown = _render_markdown(result)
-    (output / "factor_preview.md").write_text(markdown, encoding="utf-8")
-    (output / "factor_preview.json").write_text(json.dumps(result, ensure_ascii=False, indent=2, allow_nan=False), encoding="utf-8")
+    _save_preview(result, output)
     return result
 
 

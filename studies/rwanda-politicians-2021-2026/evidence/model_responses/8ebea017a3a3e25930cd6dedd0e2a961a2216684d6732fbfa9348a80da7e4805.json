@@ -1,0 +1,155 @@
+{
+  "data": {
+    "ratings": [
+      {
+        "scale_id": "programmatic-renewal",
+        "positive": 0,
+        "negative": 3,
+        "status": "observed",
+        "confidence": 0.8,
+        "reason": "В публичных заявлениях Кабаребе акцентирует продолжение и закрепление курса региональной интеграции, не предлагая программных изменений.",
+        "evidence_indices": [
+          10,
+          11
+        ]
+      },
+      {
+        "scale_id": "government-course-assessment",
+        "positive": 3,
+        "negative": 0,
+        "status": "observed",
+        "confidence": 0.7,
+        "reason": "Кабаребе подтверждает действующую повестку интеграции и поддерживает текущий курс, не высказывая публичной критики.",
+        "evidence_indices": [
+          10,
+          11
+        ]
+      },
+      {
+        "scale_id": "participation-administrative-direction",
+        "positive": null,
+        "negative": null,
+        "status": "unknown",
+        "confidence": 0.3,
+        "reason": "Нет прямых оснований для оценки степени вовлечения граждан или административной координации в публичных заявлениях Кабаребе.",
+        "evidence_indices": []
+      },
+      {
+        "scale_id": "argumentation-evidence-values",
+        "positive": null,
+        "negative": null,
+        "status": "unknown",
+        "confidence": 0.3,
+        "reason": "Недостаточно данных о способах публичного обоснования решений Кабаребе.",
+        "evidence_indices": []
+      },
+      {
+        "scale_id": "market-state-instruments",
+        "positive": 1,
+        "negative": 1,
+        "status": "observed",
+        "confidence": 0.5,
+        "reason": "В заявлениях Кабаребе упоминаются инвестиции и устранение барьеров для торговли, что может указывать на элементы обоих полюсов, но выраженность невысока.",
+        "evidence_indices": [
+          11
+        ]
+      },
+      {
+        "scale_id": "accessibility-growth-priorities",
+        "positive": 0,
+        "negative": 3,
+        "status": "observed",
+        "confidence": 0.7,
+        "reason": "Кабаребе делает акцент на росте инвестиций и торговых связей, не выделяя расширение доступности базовых благ.",
+        "evidence_indices": [
+          11
+        ]
+      },
+      {
+        "scale_id": "external-domestic-resources",
+        "positive": null,
+        "negative": null,
+        "status": "unknown",
+        "confidence": 0.4,
+        "reason": "Нет прямых заявлений Кабаребе о приоритетах внешнего финансирования или опоре на внутренние ресурсы.",
+        "evidence_indices": []
+      },
+      {
+        "scale_id": "international-rules-autonomy",
+        "positive": 3,
+        "negative": 0,
+        "status": "observed",
+        "confidence": 0.7,
+        "reason": "Кабаребе публично поддерживает механизмы международной интеграции и общие правила в рамках EAC.",
+        "evidence_indices": [
+          9,
+          10,
+          11
+        ]
+      },
+      {
+        "scale_id": "mediation-adversarial-communication",
+        "positive": 1,
+        "negative": 1,
+        "status": "observed",
+        "confidence": 0.5,
+        "reason": "В публичных материалах отмечены рабочие контакты и дипломатический стиль, а также наличие конфликтно-ориентированных внешних оценок, но выраженность обоих полюсов невысока.",
+        "evidence_indices": [
+          2,
+          3,
+          4,
+          6,
+          12
+        ]
+      },
+      {
+        "scale_id": "cultural-openness-national-transmission",
+        "positive": null,
+        "negative": null,
+        "status": "unknown",
+        "confidence": 0.2,
+        "reason": "Нет оснований для оценки позиций Кабаребе по вопросам культурного обмена или национальных ценностей.",
+        "evidence_indices": []
+      },
+      {
+        "scale_id": "problem-disclosure-reputation-defence",
+        "positive": null,
+        "negative": null,
+        "status": "unknown",
+        "confidence": 0.3,
+        "reason": "Нет прямых публичных заявлений Кабаребе о признании проблем или защите репутации.",
+        "evidence_indices": []
+      },
+      {
+        "scale_id": "procedural-guarantees-enforcement",
+        "positive": null,
+        "negative": null,
+        "status": "unknown",
+        "confidence": 0.3,
+        "reason": "Недостаточно данных о публичной позиции Кабаребе по вопросам процедурных гарантий или принудительного исполнения.",
+        "evidence_indices": []
+      }
+    ]
+  },
+  "model": "gpt-4.1",
+  "task": "ratings-supplement-james-kabarebe-0",
+  "at": "2026-10-15T15:10:47.312646+00:00",
+  "usage": {
+    "prompt_tokens": 6966,
+    "completion_tokens": 1084,
+    "total_tokens": 8050,
+    "prompt_tokens_details": {
+      "cached_tokens": 4992,
+      "audio_tokens": 0
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "audio_tokens": 0,
+      "accepted_prediction_tokens": 0,
+      "rejected_prediction_tokens": 0
+    }
+  },
+  "citations": [],
+  "system_fingerprint": "fp_6d7f4b5803",
+  "cache_key": "8ebea017a3a3e25930cd6dedd0e2a961a2216684d6732fbfa9348a80da7e4805"
+}

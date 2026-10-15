@@ -1,0 +1,132 @@
+{
+  "data": {
+    "ratings": [
+      {
+        "scale_id": "programmatic-renewal",
+        "positive": null,
+        "negative": null,
+        "status": "unknown",
+        "confidence": 0.6,
+        "reason": "В предоставленных фактах отсутствуют прямые публичные заявления или действия Маризамунды, свидетельствующие о программном изменении или закреплении существующего курса в оборонной политике.",
+        "evidence_indices": []
+      },
+      {
+        "scale_id": "government-course-assessment",
+        "positive": null,
+        "negative": null,
+        "status": "unknown",
+        "confidence": 0.6,
+        "reason": "Нет прямых публичных оценок действующего государственного курса, его поддержки или критики со стороны Маризамунды в указанный период.",
+        "evidence_indices": []
+      },
+      {
+        "scale_id": "participation-administrative-direction",
+        "positive": null,
+        "negative": null,
+        "status": "unknown",
+        "confidence": 0.6,
+        "reason": "Факты фиксируют участие в официальных мероприятиях и переговорах, но не содержат данных о поощрении общественного контроля или административной директивности в принятии решений.",
+        "evidence_indices": []
+      },
+      {
+        "scale_id": "argumentation-evidence-values",
+        "positive": null,
+        "negative": null,
+        "status": "unknown",
+        "confidence": 0.6,
+        "reason": "В материалах отсутствуют примеры обоснования решений Маризамунды через данные, расчёты или ценностные аргументы.",
+        "evidence_indices": []
+      },
+      {
+        "scale_id": "market-state-instruments",
+        "positive": null,
+        "negative": null,
+        "status": "unknown",
+        "confidence": 0.6,
+        "reason": "Нет сведений о публичных заявлениях или действиях Маризамунды, прямо поддерживающих расширение частной инициативы или государственного регулирования.",
+        "evidence_indices": []
+      },
+      {
+        "scale_id": "accessibility-growth-priorities",
+        "positive": null,
+        "negative": null,
+        "status": "unknown",
+        "confidence": 0.6,
+        "reason": "В предоставленных фактах отсутствуют заявления о приоритетах расширения доступности благ или инвестиционного роста.",
+        "evidence_indices": []
+      },
+      {
+        "scale_id": "external-domestic-resources",
+        "positive": 1,
+        "negative": null,
+        "status": "unknown",
+        "confidence": 0.7,
+        "reason": "Есть единичное подтверждение участия в межгосударственных переговорах о военном сотрудничестве (с Россией и Алжиром), что может свидетельствовать о привлечении внешних партнёров, но нет данных о стратегии опоры на внутренние ресурсы.",
+        "evidence_indices": [
+          2,
+          4,
+          5
+        ]
+      },
+      {
+        "scale_id": "international-rules-autonomy",
+        "positive": null,
+        "negative": 1,
+        "status": "unknown",
+        "confidence": 0.7,
+        "reason": "На форуме Сяншань Маризамунда выступил за решения под африканским руководством, что указывает на единичное публичное проявление акцента на самостоятельности региональных решений, но нет данных о поддержке международных обязательств.",
+        "evidence_indices": [
+          1
+        ]
+      },
+      {
+        "scale_id": "cultural-openness-national-transmission",
+        "positive": null,
+        "negative": null,
+        "status": "unknown",
+        "confidence": 0.6,
+        "reason": "В предоставленных материалах отсутствуют высказывания или действия, относящиеся к культурному обмену или сохранению национальных ценностей.",
+        "evidence_indices": []
+      },
+      {
+        "scale_id": "problem-disclosure-reputation-defence",
+        "positive": null,
+        "negative": null,
+        "status": "unknown",
+        "confidence": 0.6,
+        "reason": "Нет примеров публичного раскрытия проблем или защиты репутации в анализируемых источниках.",
+        "evidence_indices": []
+      },
+      {
+        "scale_id": "procedural-guarantees-enforcement",
+        "positive": null,
+        "negative": null,
+        "status": "unknown",
+        "confidence": 0.6,
+        "reason": "Факты не содержат информации о расширении процедурных гарантий или акценте на принудительном исполнении требований.",
+        "evidence_indices": []
+      }
+    ]
+  },
+  "model": "gpt-4.1",
+  "task": "ratings-supplement-juvenal-marizamunda-0",
+  "at": "2026-10-15T15:10:39.681959+00:00",
+  "usage": {
+    "prompt_tokens": 5444,
+    "completion_tokens": 1025,
+    "total_tokens": 6469,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "audio_tokens": 0
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "audio_tokens": 0,
+      "accepted_prediction_tokens": 0,
+      "rejected_prediction_tokens": 0
+    }
+  },
+  "citations": [],
+  "system_fingerprint": "fp_6d7f4b5803",
+  "cache_key": "0150a468c0f1420175176f446170c0dde160a06fb2e63b626fe241d156c52768"
+}

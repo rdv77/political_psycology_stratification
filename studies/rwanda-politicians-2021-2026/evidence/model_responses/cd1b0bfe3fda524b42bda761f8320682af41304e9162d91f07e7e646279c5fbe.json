@@ -1,0 +1,140 @@
+{
+  "data": {
+    "ratings": [
+      {
+        "scale_id": "programmatic-renewal",
+        "positive": null,
+        "negative": null,
+        "status": "unknown",
+        "confidence": 0.5,
+        "reason": "Нет прямых датированных заявлений Мукабалисы о необходимости программного пересмотра или закрепления существующего курса за исследуемый период.",
+        "evidence_indices": []
+      },
+      {
+        "scale_id": "government-course-assessment",
+        "positive": null,
+        "negative": null,
+        "status": "unknown",
+        "confidence": 0.5,
+        "reason": "В предоставленных материалах отсутствуют прямые публичные оценки Мукабалисой действующего государственного курса, его достижений или проблем.",
+        "evidence_indices": []
+      },
+      {
+        "scale_id": "participation-administrative-direction",
+        "positive": 1,
+        "negative": 3,
+        "status": "observed",
+        "confidence": 0.8,
+        "reason": "В выступлении на семинаре по гендерно-ориентированному бюджетированию Мукабалиса призвала к контролю исполнения и оценке результатов (административная координация), а также поставила вопросы о достигнутом и необходимых мерах (элементы совместного обсуждения). В заявлении о восстановлении экономики отмечен акцент на парламентском контроле и планировании.",
+        "evidence_indices": [
+          11,
+          12
+        ]
+      },
+      {
+        "scale_id": "argumentation-evidence-values",
+        "positive": 1,
+        "negative": 3,
+        "status": "observed",
+        "confidence": 0.8,
+        "reason": "В ряде выступлений Мукабалиса использует как проверяемые показатели (гендерная инклюзия, бюджет, контроль результатов), так и ценностно-историческую аргументацию (память о геноциде, национальное единство).",
+        "evidence_indices": [
+          10,
+          11,
+          12
+        ]
+      },
+      {
+        "scale_id": "market-state-instruments",
+        "positive": null,
+        "negative": 3,
+        "status": "unknown",
+        "confidence": 0.7,
+        "reason": "Есть признаки акцента на государственном бюджетном планировании и контроле, но нет прямых заявлений о расширении частной инициативы или полномасштабного государственного регулирования.",
+        "evidence_indices": [
+          12
+        ]
+      },
+      {
+        "scale_id": "accessibility-growth-priorities",
+        "positive": 1,
+        "negative": 3,
+        "status": "observed",
+        "confidence": 0.7,
+        "reason": "В риторике Мукабалисы отмечается поддержка расширения доступа женщин к финансам и образованию (доступность), а также приоритет экономического восстановления и распределения ресурсов (рост и конкурентоспособность).",
+        "evidence_indices": [
+          11,
+          12
+        ]
+      },
+      {
+        "scale_id": "external-domestic-resources",
+        "positive": null,
+        "negative": null,
+        "status": "unknown",
+        "confidence": 0.5,
+        "reason": "Нет прямых заявлений о приоритете внешнего финансирования или опоре на внутренние ресурсы.",
+        "evidence_indices": []
+      },
+      {
+        "scale_id": "international-rules-autonomy",
+        "positive": null,
+        "negative": null,
+        "status": "unknown",
+        "confidence": 0.5,
+        "reason": "В материалах отсутствуют прямые высказывания Мукабалисы о международных обязательствах или защите национальной самостоятельности решений.",
+        "evidence_indices": []
+      },
+      {
+        "scale_id": "mediation-adversarial-communication",
+        "positive": null,
+        "negative": null,
+        "status": "unknown",
+        "confidence": 0.5,
+        "reason": "Нет данных о публичных инициативах по посредничеству или полемической защите интересов.",
+        "evidence_indices": []
+      },
+      {
+        "scale_id": "cultural-openness-national-transmission",
+        "positive": null,
+        "negative": 3,
+        "status": "unknown",
+        "confidence": 0.7,
+        "reason": "В риторике о противодействии идеологии геноцида и призывах к национальному единству прослеживается акцент на сохранении и передаче национальных ценностей, однако нет прямых заявлений о межкультурном обмене.",
+        "evidence_indices": [
+          10
+        ]
+      },
+      {
+        "scale_id": "procedural-guarantees-enforcement",
+        "positive": null,
+        "negative": null,
+        "status": "unknown",
+        "confidence": 0.5,
+        "reason": "В материалах нет прямых заявлений о расширении процедурных гарантий или акценте на принудительном исполнении.",
+        "evidence_indices": []
+      }
+    ]
+  },
+  "model": "gpt-4.1",
+  "task": "ratings-supplement-donatille-mukabalisa-0",
+  "at": "2026-10-15T15:14:12.942784+00:00",
+  "usage": {
+    "prompt_tokens": 6679,
+    "completion_tokens": 1108,
+    "total_tokens": 7787,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "audio_tokens": 0
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "audio_tokens": 0,
+      "accepted_prediction_tokens": 0,
+      "rejected_prediction_tokens": 0
+    }
+  },
+  "citations": [],
+  "system_fingerprint": "fp_6d7f4b5803",
+  "cache_key": "cd1b0bfe3fda524b42bda761f8320682af41304e9162d91f07e7e646279c5fbe"
+}

@@ -1,0 +1,88 @@
+{
+  "data": {
+    "ratings": [
+      {
+        "scale_id": "prevention-crisis-response",
+        "positive": null,
+        "negative": null,
+        "status": "unknown",
+        "confidence": 0.0,
+        "reason": "В предоставленных фактах отсутствуют прямые или косвенные сведения о публичных заявлениях или действиях Харериманы, позволяющих оценить выраженность упреждающей профилактики рисков либо оперативного реагирования на кризисы в исследуемый период.",
+        "evidence_indices": []
+      },
+      {
+        "scale_id": "electoral-access",
+        "positive": null,
+        "negative": null,
+        "status": "unknown",
+        "confidence": 0.2,
+        "reason": "В источниках зафиксированы высказывания Харериманы о поддержке действующего курса, конституционной поправки и неприятии политики разделения, однако нет персонально атрибутированных предложений или действий по расширению или ограничению доступа к выборной конкуренции.",
+        "evidence_indices": [
+          7
+        ]
+      },
+      {
+        "scale_id": "institutional-autonomy-coordination",
+        "positive": null,
+        "negative": null,
+        "status": "unknown",
+        "confidence": 0.4,
+        "reason": "В ряде источников Хареримана прямо заявляет о поддержке действующего курса, сотрудничестве с правящей партией и сохранении единства, что может указывать на координационный подход, однако отсутствуют повторяющиеся или устойчиво центральные высказывания, позволяющие количественно оценить выраженность полюсов.",
+        "evidence_indices": [
+          6,
+          10
+        ]
+      },
+      {
+        "scale_id": "taxation-burden-public-revenue",
+        "positive": null,
+        "negative": null,
+        "status": "unknown",
+        "confidence": 0.0,
+        "reason": "Нет фактов, позволяющих судить о позиции Харериманы по снижению налоговой нагрузки или увеличению общественных доходов для публичного развития.",
+        "evidence_indices": []
+      },
+      {
+        "scale_id": "universal-targeted-provision",
+        "positive": null,
+        "negative": null,
+        "status": "unknown",
+        "confidence": 0.2,
+        "reason": "В одном эпизоде Хареримана говорит о стремлении государства улучшать социальное благосостояние граждан и о коллективном вкладе, но не конкретизирует механизм (универсальный или адресный), что не позволяет количественно оценить выраженность полюсов.",
+        "evidence_indices": [
+          8
+        ]
+      },
+      {
+        "scale_id": "ecological-limits-resource-use",
+        "positive": null,
+        "negative": null,
+        "status": "unknown",
+        "confidence": 0.0,
+        "reason": "В предоставленных материалах отсутствуют сведения о публичной позиции Харериманы по вопросам экологических ограничений или расширения хозяйственного использования природных ресурсов.",
+        "evidence_indices": []
+      }
+    ]
+  },
+  "model": "gpt-4.1",
+  "task": "ratings-supplement-mussa-fazil-harerimana-12",
+  "at": "2026-10-15T15:17:18.126549+00:00",
+  "usage": {
+    "prompt_tokens": 5024,
+    "completion_tokens": 668,
+    "total_tokens": 5692,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "audio_tokens": 0
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "audio_tokens": 0,
+      "accepted_prediction_tokens": 0,
+      "rejected_prediction_tokens": 0
+    }
+  },
+  "citations": [],
+  "system_fingerprint": "fp_233583e333",
+  "cache_key": "9bcc209cb45e7ce9f67f5c9b5eade8d2b29b3ec3f263ce544820767ba680d20c"
+}

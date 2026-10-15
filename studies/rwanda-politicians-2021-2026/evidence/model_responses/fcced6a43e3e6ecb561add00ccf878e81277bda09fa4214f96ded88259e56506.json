@@ -1,0 +1,210 @@
+{
+  "data": {
+    "ratings": [
+      {
+        "scale_id": "programmatic-renewal",
+        "positive": 3,
+        "negative": 3,
+        "status": "observed",
+        "confidence": 0.9,
+        "reason": "В ряде материалов Ингабире акцентирует внедрение новых институтов (ИИ, центр 4-й промышленной революции, Digital Transformation Center), что указывает на программное обновление. Одновременно профиль и описания связывают её деятельность с преемственностью национальных программ (электронное правительство, кибербезопасность, Kigali Innovation City, Smart Africa). Оба полюса повторяются в разных эпизодах.",
+        "evidence_indices": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11
+        ]
+      },
+      {
+        "scale_id": "government-course-assessment",
+        "positive": 3,
+        "negative": 0,
+        "status": "observed",
+        "confidence": 0.8,
+        "reason": "Публичные материалы и профили содержат повторяющуюся поддержку действующего курса в сфере цифровизации, инноваций и национальных программ. Прямой критики курса не выявлено.",
+        "evidence_indices": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11
+        ]
+      },
+      {
+        "scale_id": "participation-administrative-direction",
+        "positive": 1,
+        "negative": 3,
+        "status": "observed",
+        "confidence": 0.7,
+        "reason": "В ряде случаев отмечается административная координация, запуск государственных и международных проектов, что указывает на выраженность административного полюса. Эпизоды с акцентом на доступность для предпринимателей и молодых новаторов допускают единичное проявление вовлечения заинтересованных групп.",
+        "evidence_indices": [
+          2,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11
+        ]
+      },
+      {
+        "scale_id": "argumentation-evidence-values",
+        "positive": 1,
+        "negative": 1,
+        "status": "observed",
+        "confidence": 0.5,
+        "reason": "В материалах встречаются отдельные ссылки на экономическую устойчивость, общественный эффект и базовую необходимость цифровых услуг, что допускает единичные проявления как доказательной, так и ценностной аргументации, но без устойчивого акцента на одном из способов.",
+        "evidence_indices": [
+          0,
+          3,
+          5,
+          8
+        ]
+      },
+      {
+        "scale_id": "market-state-instruments",
+        "positive": 3,
+        "negative": 3,
+        "status": "observed",
+        "confidence": 0.8,
+        "reason": "Публичный образ сочетает поддержку инновационной экосистемы, предпринимательства и частных решений (Digital Transformation Center, Hanga Hubs), а также координацию государственных программ и регулирования (электронное правительство, кибербезопасность). Оба полюса выражены повторяющимися акцентами.",
+        "evidence_indices": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11
+        ]
+      },
+      {
+        "scale_id": "accessibility-growth-priorities",
+        "positive": 3,
+        "negative": 3,
+        "status": "observed",
+        "confidence": 0.8,
+        "reason": "В публичных заявлениях и проектах сочетаются приоритеты расширения доступа к технологиям (широкополосный интернет, инкубация стартапов, доступность для молодых новаторов) и акцент на превращение Руанды в инновационный центр, экономический рост и конкурентоспособность.",
+        "evidence_indices": [
+          2,
+          4,
+          5,
+          6,
+          8,
+          9
+        ]
+      },
+      {
+        "scale_id": "external-domestic-resources",
+        "positive": 3,
+        "negative": 1,
+        "status": "observed",
+        "confidence": 0.8,
+        "reason": "Регулярно отмечается привлечение внешних партнёров и финансирования (ЕС, Германия, международные инициативы). Опора на внутренние ресурсы упоминается косвенно через национальные программы, но не как самостоятельная стратегия.",
+        "evidence_indices": [
+          2,
+          4,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11
+        ]
+      },
+      {
+        "scale_id": "international-rules-autonomy",
+        "positive": 1,
+        "negative": 1,
+        "status": "observed",
+        "confidence": 0.5,
+        "reason": "Есть единичные проявления участия в международных инициативах и площадках, однако прямых заявлений о приоритете международных обязательств или защите национальной самостоятельности не выявлено.",
+        "evidence_indices": [
+          0,
+          6,
+          7,
+          8,
+          9,
+          11
+        ]
+      },
+      {
+        "scale_id": "mediation-adversarial-communication",
+        "positive": null,
+        "negative": null,
+        "status": "unknown",
+        "confidence": 0.0,
+        "reason": "В предоставленных материалах отсутствуют прямые основания для оценки выраженности посредничества или полемической защиты.",
+        "evidence_indices": []
+      },
+      {
+        "scale_id": "cultural-openness-national-transmission",
+        "positive": null,
+        "negative": null,
+        "status": "unknown",
+        "confidence": 0.0,
+        "reason": "В материалах нет прямых проявлений акцентов на межкультурном обмене или сохранении национальных ценностей.",
+        "evidence_indices": []
+      },
+      {
+        "scale_id": "problem-disclosure-reputation-defence",
+        "positive": null,
+        "negative": null,
+        "status": "unknown",
+        "confidence": 0.0,
+        "reason": "Нет прямых публичных заявлений о раскрытии проблем или защите репутации в предоставленных материалах.",
+        "evidence_indices": []
+      },
+      {
+        "scale_id": "procedural-guarantees-enforcement",
+        "positive": null,
+        "negative": null,
+        "status": "unknown",
+        "confidence": 0.0,
+        "reason": "В материалах отсутствуют основания для оценки акцентов на процедурных гарантиях или принудительном исполнении.",
+        "evidence_indices": []
+      }
+    ]
+  },
+  "model": "gpt-4.1",
+  "task": "ratings-paula-ingabire-0",
+  "at": "2026-10-15T15:11:06.721890+00:00",
+  "usage": {
+    "prompt_tokens": 6112,
+    "completion_tokens": 1147,
+    "total_tokens": 7259,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "audio_tokens": 0
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "audio_tokens": 0,
+      "accepted_prediction_tokens": 0,
+      "rejected_prediction_tokens": 0
+    }
+  },
+  "citations": [],
+  "system_fingerprint": "fp_6d7f4b5803",
+  "cache_key": "fcced6a43e3e6ecb561add00ccf878e81277bda09fa4214f96ded88259e56506"
+}

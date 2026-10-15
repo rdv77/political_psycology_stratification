@@ -1,0 +1,167 @@
+{
+  "data": {
+    "ratings": [
+      {
+        "scale_id": "programmatic-renewal",
+        "positive": 3,
+        "negative": 3,
+        "status": "observed",
+        "confidence": 0.9,
+        "reason": "Рвигара одновременно заявляла о начале нового этапа для Руанды (факт 0) и делала акцент на продолжении экономического развития (факт 1), что указывает на выраженность обоих полюсов.",
+        "evidence_indices": [
+          0,
+          1
+        ]
+      },
+      {
+        "scale_id": "government-course-assessment",
+        "positive": 0,
+        "negative": 3,
+        "status": "observed",
+        "confidence": 0.85,
+        "reason": "Рвигара в публичных выступлениях критиковала ограничения свобод и проблемы доступа к базовым благам, а также оспаривала решения избирательной комиссии (факты 4, 5, 6, 8, 9). Прямой поддержки действующего курса не выявлено.",
+        "evidence_indices": [
+          4,
+          5,
+          6,
+          8,
+          9
+        ]
+      },
+      {
+        "scale_id": "participation-administrative-direction",
+        "positive": 1,
+        "negative": 0,
+        "status": "observed",
+        "confidence": 0.7,
+        "reason": "Призыв граждан присоединиться к кампании (факт 0) трактуется как единичное проявление приглашения к участию. Признаков административной директивности не обнаружено.",
+        "evidence_indices": [
+          0
+        ]
+      },
+      {
+        "scale_id": "argumentation-evidence-values",
+        "positive": 1,
+        "negative": 3,
+        "status": "observed",
+        "confidence": 0.8,
+        "reason": "В программах Рвигара связывала обещания с конкретными социальными проблемами (факт 2), но в публичных заявлениях делала акцент на ценностях свободы и справедливости (факт 5, 9).",
+        "evidence_indices": [
+          2,
+          5,
+          9
+        ]
+      },
+      {
+        "scale_id": "market-state-instruments",
+        "positive": 0,
+        "negative": 0,
+        "status": "unknown",
+        "confidence": 0.3,
+        "reason": "Нет прямых оснований для оценки инструментов — ни акцента на частной инициативе, ни на государственном регулировании.",
+        "evidence_indices": []
+      },
+      {
+        "scale_id": "accessibility-growth-priorities",
+        "positive": 3,
+        "negative": 1,
+        "status": "observed",
+        "confidence": 0.8,
+        "reason": "Рвигара делала акцент на доступе к базовым благам (продовольствие, жильё, образование — факт 2, 5), но также упоминала продолжение экономического развития (факт 1).",
+        "evidence_indices": [
+          1,
+          2,
+          5
+        ]
+      },
+      {
+        "scale_id": "external-domestic-resources",
+        "positive": null,
+        "negative": null,
+        "status": "unknown",
+        "confidence": 0.2,
+        "reason": "Нет прямых заявлений о приоритетах внешних или внутренних ресурсов.",
+        "evidence_indices": []
+      },
+      {
+        "scale_id": "international-rules-autonomy",
+        "positive": null,
+        "negative": null,
+        "status": "unknown",
+        "confidence": 0.2,
+        "reason": "Нет прямых заявлений о международных обязательствах или защите национальной самостоятельности.",
+        "evidence_indices": []
+      },
+      {
+        "scale_id": "mediation-adversarial-communication",
+        "positive": 0,
+        "negative": 3,
+        "status": "observed",
+        "confidence": 0.8,
+        "reason": "Рвигара публично оспаривала решения и высказывала несогласие с действиями властей (факты 4, 5, 6, 8, 9), что указывает на выраженность полемической защиты.",
+        "evidence_indices": [
+          4,
+          5,
+          6,
+          8,
+          9
+        ]
+      },
+      {
+        "scale_id": "cultural-openness-national-transmission",
+        "positive": null,
+        "negative": null,
+        "status": "unknown",
+        "confidence": 0.2,
+        "reason": "Нет оснований для оценки позиций по культурному обмену или национальным ценностям.",
+        "evidence_indices": []
+      },
+      {
+        "scale_id": "problem-disclosure-reputation-defence",
+        "positive": 3,
+        "negative": 0,
+        "status": "observed",
+        "confidence": 0.8,
+        "reason": "Рвигара акцентировала внимание на проблемах доступа к благам и ограничениях свобод (факт 5, 9), не выявлено защиты репутации страны или своей политики.",
+        "evidence_indices": [
+          5,
+          9
+        ]
+      },
+      {
+        "scale_id": "procedural-guarantees-enforcement",
+        "positive": 1,
+        "negative": 0,
+        "status": "observed",
+        "confidence": 0.7,
+        "reason": "Рвигара оспаривала отказ в регистрации и выражала надежду на включение в список кандидатов (факты 3, 4, 6), что трактуется как единичное проявление обращения к процедурам.",
+        "evidence_indices": [
+          3,
+          4,
+          6
+        ]
+      }
+    ]
+  },
+  "model": "gpt-4.1",
+  "task": "ratings-diane-rwigara-0",
+  "at": "2026-10-15T15:17:45.123903+00:00",
+  "usage": {
+    "prompt_tokens": 5579,
+    "completion_tokens": 964,
+    "total_tokens": 6543,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "audio_tokens": 0
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "audio_tokens": 0,
+      "accepted_prediction_tokens": 0,
+      "rejected_prediction_tokens": 0
+    }
+  },
+  "citations": [],
+  "system_fingerprint": "fp_6d7f4b5803",
+  "cache_key": "29f4ea983aceb88d86ace682d37b03c284f814548cb9c6e9ec119b0bc40b5a26"
+}

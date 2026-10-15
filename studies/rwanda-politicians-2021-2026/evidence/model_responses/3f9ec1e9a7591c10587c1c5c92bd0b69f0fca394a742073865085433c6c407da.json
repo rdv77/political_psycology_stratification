@@ -1,0 +1,89 @@
+{
+  "data": {
+    "ratings": [
+      {
+        "scale_id": "prevention-crisis-response",
+        "positive": 3,
+        "negative": 3,
+        "status": "observed",
+        "confidence": 0.8,
+        "reason": "В ряде эпизодов (например, парламентское выступление по аграрным цепочкам и восстановлению после пандемии) одновременно акцентируется упреждающее снижение рисков (поддержка страхования, подготовка кадров, инвестиции в устойчивость) и оперативное реагирование на вызовы (меры восстановления после COVID-19, поддержка продовольственной безопасности). Оба полюса проявляются повторяющимися акцентами.",
+        "evidence_indices": [
+          0,
+          1,
+          4,
+          5,
+          11,
+          13
+        ]
+      },
+      {
+        "scale_id": "electoral-access",
+        "positive": null,
+        "negative": null,
+        "status": "unknown",
+        "confidence": 0.2,
+        "reason": "В предоставленных фактах отсутствуют прямые персональные проявления, связанные с расширением или ограничением политического допуска, выдвижения или участия в выборах.",
+        "evidence_indices": []
+      },
+      {
+        "scale_id": "institutional-autonomy-coordination",
+        "positive": 0,
+        "negative": 3,
+        "status": "observed",
+        "confidence": 0.7,
+        "reason": "В публичных выступлениях (например, Unity Club, парламент, экономический меморандум) прослеживается акцент на согласовании работы институтов единой управленческой линией, призывы к ускорению реализации государственных стратегий, без прямых гарантий самостоятельности институтов.",
+        "evidence_indices": [
+          5,
+          11,
+          12,
+          13
+        ]
+      },
+      {
+        "scale_id": "taxation-burden-public-revenue",
+        "positive": null,
+        "negative": null,
+        "status": "unknown",
+        "confidence": 0.2,
+        "reason": "Нет прямых персональных заявлений или инициатив по снижению налоговой нагрузки или увеличению налоговых поступлений для публичного развития.",
+        "evidence_indices": []
+      },
+      {
+        "scale_id": "universal-targeted-provision",
+        "positive": 1,
+        "negative": 1,
+        "status": "observed",
+        "confidence": 0.5,
+        "reason": "В ряде эпизодов упоминаются как единые стандарты (например, целевые показатели охвата профессиональным образованием), так и меры поддержки отдельных групп (молодёжь в сельском хозяйстве, фермеры), однако оба полюса проявляются единично и не являются устойчивым акцентом.",
+        "evidence_indices": [
+          4,
+          9,
+          11,
+          13
+        ]
+      }
+    ]
+  },
+  "model": "gpt-4.1",
+  "task": "ratings-supplement-edouard-ngirente-12",
+  "at": "2026-10-15T15:10:09.091800+00:00",
+  "usage": {
+    "prompt_tokens": 5029,
+    "completion_tokens": 627,
+    "total_tokens": 5656,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "audio_tokens": 0
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "audio_tokens": 0,
+      "accepted_prediction_tokens": 0,
+      "rejected_prediction_tokens": 0
+    }
+  },
+  "citations": [],
+  "system_fingerprint": "fp_233583e333",
+  "cache_key": "3f9ec1e9a7591c10587c1c5c92bd0b69f0fca394a742073865085433c6c407da"
+}

@@ -1,0 +1,61 @@
+{
+  "data": {
+    "ratings": [
+      {
+        "scale_id": "international-rules-autonomy",
+        "positive": null,
+        "negative": null,
+        "status": "unknown",
+        "confidence": 0.4,
+        "reason": "В предоставленных фактах нет прямых публичных заявлений Дусенгийюмвы о поддержке обязательных международных норм или о защите национальной самостоятельности решений. Международное сотрудничество и обмен опытом с Пусаном (факты 6–9) не содержат прямых позиций по шкале, а лишь описывают поиск партнёрств и заимствование опыта. Нет оснований для численной оценки ни одного полюса.",
+        "evidence_indices": [
+          6,
+          7,
+          8,
+          9
+        ]
+      },
+      {
+        "scale_id": "mediation-adversarial-communication",
+        "positive": null,
+        "negative": null,
+        "status": "unknown",
+        "confidence": 0.4,
+        "reason": "В материалах отсутствуют прямые публичные проявления посредничества, поиска согласования между сторонами или полемической защиты интересов одной стороны. Административные поручения, мобилизация и риторика по городским вопросам (факты 0–5, 10–13) не содержат эпизодов, позволяющих оценить выраженность ни одного из полюсов данной шкалы.",
+        "evidence_indices": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          10,
+          11,
+          12,
+          13
+        ]
+      }
+    ]
+  },
+  "model": "gpt-4.1",
+  "task": "ratings-supplement-samuel-dusengiyumva-0",
+  "at": "2026-10-15T15:17:30.488367+00:00",
+  "usage": {
+    "prompt_tokens": 3613,
+    "completion_tokens": 287,
+    "total_tokens": 3900,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "audio_tokens": 0
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "audio_tokens": 0,
+      "accepted_prediction_tokens": 0,
+      "rejected_prediction_tokens": 0
+    }
+  },
+  "citations": [],
+  "system_fingerprint": "fp_04d28f6feb",
+  "cache_key": "a65921bba16b7b0499d478644cec847d3512359788bde353ca33899a58d868a6"
+}

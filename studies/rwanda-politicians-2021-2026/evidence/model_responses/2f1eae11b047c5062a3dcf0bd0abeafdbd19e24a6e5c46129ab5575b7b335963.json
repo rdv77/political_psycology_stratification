@@ -1,0 +1,149 @@
+{
+  "data": {
+    "ratings": [
+      {
+        "scale_id": "programmatic-renewal",
+        "positive": 3,
+        "negative": 0,
+        "status": "observed",
+        "confidence": 0.8,
+        "reason": "Русесабагина характеризуется как оппозиционный политик, критик действующего режима и лидер коалиции, призывавший к смене курса, что подтверждает выраженность программного обновления. Признаков публичного закрепления действующего курса не выявлено.",
+        "evidence_indices": [
+          0,
+          1,
+          4,
+          9
+        ]
+      },
+      {
+        "scale_id": "government-course-assessment",
+        "positive": 0,
+        "negative": 3,
+        "status": "observed",
+        "confidence": 0.8,
+        "reason": "Русесабагина неоднократно публично критиковал действующий государственный курс Руанды, что подтверждается его позицией оппозиционного лидера и критика президента Кагаме. Признаков публичной поддержки курса не выявлено.",
+        "evidence_indices": [
+          0,
+          1,
+          4,
+          9
+        ]
+      },
+      {
+        "scale_id": "participation-administrative-direction",
+        "positive": null,
+        "negative": null,
+        "status": "unknown",
+        "confidence": 0.2,
+        "reason": "Нет прямых данных о публичных призывах к совместному обсуждению решений или административной координации в предоставленных фактах.",
+        "evidence_indices": []
+      },
+      {
+        "scale_id": "argumentation-evidence-values",
+        "positive": null,
+        "negative": null,
+        "status": "unknown",
+        "confidence": 0.2,
+        "reason": "В материалах отсутствуют сведения о способах публичного обоснования (доказательная или ценностная аргументация).",
+        "evidence_indices": []
+      },
+      {
+        "scale_id": "market-state-instruments",
+        "positive": null,
+        "negative": null,
+        "status": "unknown",
+        "confidence": 0.2,
+        "reason": "Нет информации о публичных заявлениях Русесабагины относительно инструментов частной инициативы или государственного регулирования.",
+        "evidence_indices": []
+      },
+      {
+        "scale_id": "accessibility-growth-priorities",
+        "positive": null,
+        "negative": null,
+        "status": "unknown",
+        "confidence": 0.2,
+        "reason": "В предоставленных фактах отсутствуют прямые приоритеты относительно доступности благ или инвестиционного роста.",
+        "evidence_indices": []
+      },
+      {
+        "scale_id": "external-domestic-resources",
+        "positive": null,
+        "negative": null,
+        "status": "unknown",
+        "confidence": 0.2,
+        "reason": "Нет данных о публичных заявлениях по поводу привлечения внешних ресурсов или опоры на внутренние.",
+        "evidence_indices": []
+      },
+      {
+        "scale_id": "international-rules-autonomy",
+        "positive": null,
+        "negative": null,
+        "status": "unknown",
+        "confidence": 0.2,
+        "reason": "В материалах не содержится информации о позиции Русесабагины по международным обязательствам или национальной самостоятельности решений.",
+        "evidence_indices": []
+      },
+      {
+        "scale_id": "mediation-adversarial-communication",
+        "positive": 0,
+        "negative": 1,
+        "status": "observed",
+        "confidence": 0.5,
+        "reason": "Видеозапись с призывом к смене режима и критика власти указывают на элементы полемической защиты, однако прямых данных о посредничестве или переговорах нет.",
+        "evidence_indices": [
+          4
+        ]
+      },
+      {
+        "scale_id": "cultural-openness-national-transmission",
+        "positive": null,
+        "negative": null,
+        "status": "unknown",
+        "confidence": 0.2,
+        "reason": "Нет сведений о публичных заявлениях по вопросам культурного обмена или национальных ценностей.",
+        "evidence_indices": []
+      },
+      {
+        "scale_id": "problem-disclosure-reputation-defence",
+        "positive": 1,
+        "negative": 0,
+        "status": "observed",
+        "confidence": 0.5,
+        "reason": "В письме о помиловании Русесабагина выразил сожаление по поводу возможной связи с насильственными действиями, что можно трактовать как единичное публичное признание проблемы. Признаков защиты репутации страны или политики не выявлено.",
+        "evidence_indices": [
+          8
+        ]
+      },
+      {
+        "scale_id": "procedural-guarantees-enforcement",
+        "positive": null,
+        "negative": null,
+        "status": "unknown",
+        "confidence": 0.2,
+        "reason": "Нет прямых данных о публичной позиции Русесабагины по вопросам процедурных гарантий или принудительного исполнения.",
+        "evidence_indices": []
+      }
+    ]
+  },
+  "model": "gpt-4.1",
+  "task": "ratings-paul-rusesabagina-0",
+  "at": "2026-10-15T15:18:21.209250+00:00",
+  "usage": {
+    "prompt_tokens": 5848,
+    "completion_tokens": 851,
+    "total_tokens": 6699,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "audio_tokens": 0
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "audio_tokens": 0,
+      "accepted_prediction_tokens": 0,
+      "rejected_prediction_tokens": 0
+    }
+  },
+  "citations": [],
+  "system_fingerprint": "fp_6d7f4b5803",
+  "cache_key": "2f1eae11b047c5062a3dcf0bd0abeafdbd19e24a6e5c46129ab5575b7b335963"
+}

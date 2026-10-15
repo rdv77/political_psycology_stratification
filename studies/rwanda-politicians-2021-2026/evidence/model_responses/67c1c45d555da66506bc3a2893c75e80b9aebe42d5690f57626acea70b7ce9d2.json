@@ -1,0 +1,229 @@
+{
+  "data": {
+    "ratings": [
+      {
+        "scale_id": "programmatic-renewal",
+        "positive": null,
+        "negative": null,
+        "status": "unknown",
+        "confidence": 0.7,
+        "reason": "Нет прямых публичных заявлений или действий, однозначно свидетельствующих о программном изменении или закреплении курса. Все эпизоды отражают исполнение должностных обязанностей и институциональную преемственность без явной политической риторики.",
+        "evidence_indices": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8
+        ]
+      },
+      {
+        "scale_id": "government-course-assessment",
+        "positive": null,
+        "negative": null,
+        "status": "unknown",
+        "confidence": 0.7,
+        "reason": "В предоставленных материалах отсутствуют прямые публичные оценки действующего государственного курса — ни поддержки, ни критики.",
+        "evidence_indices": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8
+        ]
+      },
+      {
+        "scale_id": "participation-administrative-direction",
+        "positive": 1,
+        "negative": 3,
+        "status": "observed",
+        "confidence": 0.9,
+        "reason": "Есть единичные призывы к участию граждан (например, акцент на явке и вовлечённости в выборах), но преобладает административная координация, формализованное исполнение и межведомственная мобилизация.",
+        "evidence_indices": [
+          1,
+          2,
+          3,
+          4,
+          6,
+          8
+        ]
+      },
+      {
+        "scale_id": "argumentation-evidence-values",
+        "positive": null,
+        "negative": null,
+        "status": "unknown",
+        "confidence": 0.6,
+        "reason": "Нет оснований для оценки: отсутствуют примеры обоснования решений через данные или ценности.",
+        "evidence_indices": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8
+        ]
+      },
+      {
+        "scale_id": "market-state-instruments",
+        "positive": null,
+        "negative": null,
+        "status": "unknown",
+        "confidence": 0.6,
+        "reason": "В материалах нет прямых заявлений или действий, позволяющих судить о приоритете частной инициативы или государственного регулирования.",
+        "evidence_indices": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8
+        ]
+      },
+      {
+        "scale_id": "accessibility-growth-priorities",
+        "positive": 1,
+        "negative": null,
+        "status": "unknown",
+        "confidence": 0.7,
+        "reason": "Есть единичный эпизод с акцентом на расширение доступности базовых благ (строительство домов, инфраструктуры), но нет данных о приоритете инвестиционного роста.",
+        "evidence_indices": [
+          3
+        ]
+      },
+      {
+        "scale_id": "external-domestic-resources",
+        "positive": null,
+        "negative": null,
+        "status": "unknown",
+        "confidence": 0.6,
+        "reason": "Нет сведений о публичных заявлениях или действиях по привлечению внешних ресурсов или опоре на внутренние.",
+        "evidence_indices": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8
+        ]
+      },
+      {
+        "scale_id": "international-rules-autonomy",
+        "positive": null,
+        "negative": null,
+        "status": "unknown",
+        "confidence": 0.6,
+        "reason": "В материалах отсутствуют прямые высказывания или действия по закреплению международных обязательств или защите самостоятельности решений.",
+        "evidence_indices": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8
+        ]
+      },
+      {
+        "scale_id": "mediation-adversarial-communication",
+        "positive": null,
+        "negative": null,
+        "status": "unknown",
+        "confidence": 0.6,
+        "reason": "Нет оснований для оценки: не выявлено ни предложений посредничества, ни полемической защиты.",
+        "evidence_indices": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8
+        ]
+      },
+      {
+        "scale_id": "cultural-openness-national-transmission",
+        "positive": null,
+        "negative": 1,
+        "status": "unknown",
+        "confidence": 0.7,
+        "reason": "В эпизоде с реинтеграцией бывших членов вооружённых групп присутствует риторика национального воссоединения, но нет повторяемости или центральности этого акцента.",
+        "evidence_indices": [
+          5
+        ]
+      },
+      {
+        "scale_id": "problem-disclosure-reputation-defence",
+        "positive": null,
+        "negative": null,
+        "status": "unknown",
+        "confidence": 0.6,
+        "reason": "Нет прямых примеров публичного раскрытия проблем или защиты репутации.",
+        "evidence_indices": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8
+        ]
+      },
+      {
+        "scale_id": "procedural-guarantees-enforcement",
+        "positive": null,
+        "negative": null,
+        "status": "unknown",
+        "confidence": 0.7,
+        "reason": "Фиксируется исполнение формальных административных процедур, но нет данных о расширении гарантий или акценте на принудительном исполнении.",
+        "evidence_indices": [
+          6,
+          8
+        ]
+      }
+    ]
+  },
+  "model": "gpt-4.1",
+  "task": "ratings-jean-claude-musabyimana-0",
+  "at": "2026-10-15T15:12:37.456549+00:00",
+  "usage": {
+    "prompt_tokens": 5930,
+    "completion_tokens": 971,
+    "total_tokens": 6901,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "audio_tokens": 0
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "audio_tokens": 0,
+      "accepted_prediction_tokens": 0,
+      "rejected_prediction_tokens": 0
+    }
+  },
+  "citations": [],
+  "system_fingerprint": "fp_6d7f4b5803",
+  "cache_key": "67c1c45d555da66506bc3a2893c75e80b9aebe42d5690f57626acea70b7ce9d2"
+}

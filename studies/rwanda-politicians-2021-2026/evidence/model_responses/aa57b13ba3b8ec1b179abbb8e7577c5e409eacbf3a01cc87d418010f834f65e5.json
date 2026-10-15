@@ -1,0 +1,93 @@
+{
+  "data": {
+    "ratings": [
+      {
+        "scale_id": "prevention-crisis-response",
+        "positive": 1,
+        "negative": 1,
+        "status": "observed",
+        "confidence": 0.7,
+        "reason": "В ряде эпизодов (особенно обсуждение профилактики сексуальных домогательств, безопасной среды, прозрачного найма, дисциплинарных процедур) зафиксированы как упреждающие меры, так и процедуры реагирования на уже возникшие нарушения. Оба полюса проявлены единично и в рамках административной сферы.",
+        "evidence_indices": [
+          6,
+          7,
+          14,
+          15,
+          16,
+          19,
+          22
+        ]
+      },
+      {
+        "scale_id": "electoral-access",
+        "positive": null,
+        "negative": null,
+        "status": "unknown",
+        "confidence": 0.0,
+        "reason": "В предоставленных материалах отсутствуют прямые персональные высказывания или действия Увизейе, связанные с расширением или ограничением политического допуска, избирательной конкуренции или барьеров участия.",
+        "evidence_indices": []
+      },
+      {
+        "scale_id": "institutional-autonomy-coordination",
+        "positive": null,
+        "negative": null,
+        "status": "unknown",
+        "confidence": 0.0,
+        "reason": "Нет прямых персональных заявлений или действий, однозначно подтверждающих либо защиту автономии институтов, либо акцент на единой управленческой линии вне рамок административной координации. Оценка невозможна без дополнительных оснований.",
+        "evidence_indices": []
+      },
+      {
+        "scale_id": "taxation-burden-public-revenue",
+        "positive": null,
+        "negative": null,
+        "status": "unknown",
+        "confidence": 0.0,
+        "reason": "В материалах отсутствуют высказывания или действия Увизейе, связанные с налоговой политикой, снижением или увеличением налоговой нагрузки, имущественной самостоятельностью или расширением общественных доходов.",
+        "evidence_indices": []
+      },
+      {
+        "scale_id": "universal-targeted-provision",
+        "positive": null,
+        "negative": 1,
+        "status": "unknown",
+        "confidence": 0.5,
+        "reason": "Есть единичное подтверждение адресной защиты работников как обозначенной группы (например, предупреждение сексуальных домогательств и улучшение условий труда), но нет оснований для оценки всеобщих стандартов. Поскольку один полюс неизвестен, статус unknown.",
+        "evidence_indices": [
+          7,
+          19,
+          22
+        ]
+      },
+      {
+        "scale_id": "ecological-limits-resource-use",
+        "positive": null,
+        "negative": null,
+        "status": "unknown",
+        "confidence": 0.0,
+        "reason": "В предоставленных материалах отсутствуют высказывания или действия Увизейе, связанные с экологическими ограничениями или расширением хозяйственного использования природных ресурсов.",
+        "evidence_indices": []
+      }
+    ]
+  },
+  "model": "gpt-4.1",
+  "task": "ratings-supplement-judith-uwizeye-12",
+  "at": "2026-10-15T15:12:17.218754+00:00",
+  "usage": {
+    "prompt_tokens": 6691,
+    "completion_tokens": 690,
+    "total_tokens": 7381,
+    "prompt_tokens_details": {
+      "cached_tokens": 2944,
+      "audio_tokens": 0
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "audio_tokens": 0,
+      "accepted_prediction_tokens": 0,
+      "rejected_prediction_tokens": 0
+    }
+  },
+  "citations": [],
+  "system_fingerprint": "fp_233583e333",
+  "cache_key": "aa57b13ba3b8ec1b179abbb8e7577c5e409eacbf3a01cc87d418010f834f65e5"
+}

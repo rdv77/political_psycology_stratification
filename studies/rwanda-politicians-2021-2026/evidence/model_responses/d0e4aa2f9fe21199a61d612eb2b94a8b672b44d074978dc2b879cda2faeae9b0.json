@@ -1,0 +1,85 @@
+{
+  "data": {
+    "ratings": [
+      {
+        "scale_id": "electoral-access",
+        "positive": null,
+        "negative": null,
+        "status": "unknown",
+        "confidence": 0.6,
+        "reason": "Нет прямых персональных заявлений или действий Дусенгийюмвы по расширению доступа к выборной конкуренции или усилению квалификационных барьеров. Единственное упоминание участия граждан (факт 11) не касается формального доступа к выборам или барьеров.",
+        "evidence_indices": [
+          11
+        ]
+      },
+      {
+        "scale_id": "institutional-autonomy-coordination",
+        "positive": null,
+        "negative": null,
+        "status": "unknown",
+        "confidence": 0.7,
+        "reason": "В предоставленных фактах нет прямых персональных заявлений или действий по защите автономии институтов либо по согласованию их работы единой управленческой линией. Описанные эпизоды касаются административных поручений и контроля, но не межинституциональных отношений.",
+        "evidence_indices": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13
+        ]
+      },
+      {
+        "scale_id": "taxation-burden-public-revenue",
+        "positive": 1,
+        "negative": 0,
+        "status": "observed",
+        "confidence": 0.8,
+        "reason": "Есть конкретное действие по возврату избыточно начисленных сборов за разрешения на строительство и возможность зачёта переплаты в счёт будущих налогов (факты 12, 13). Это единичное проявление снижения индивидуальной фискальной нагрузки, но не общая программа. Нет оснований для кодирования поддержки увеличения налоговых поступлений для публичного развития.",
+        "evidence_indices": [
+          12,
+          13
+        ]
+      },
+      {
+        "scale_id": "universal-targeted-provision",
+        "positive": null,
+        "negative": null,
+        "status": "unknown",
+        "confidence": 0.6,
+        "reason": "Нет прямых персональных заявлений или действий Дусенгийюмвы, однозначно относящихся к универсальным стандартам или приоритетной адресной поддержке. Упоминания о развитии услуг и участии граждан (факт 11) не дают оснований для кодирования по шкале.",
+        "evidence_indices": [
+          11
+        ]
+      }
+    ]
+  },
+  "model": "gpt-4.1",
+  "task": "ratings-supplement-samuel-dusengiyumva-12",
+  "at": "2026-10-15T15:17:34.916330+00:00",
+  "usage": {
+    "prompt_tokens": 4264,
+    "completion_tokens": 451,
+    "total_tokens": 4715,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "audio_tokens": 0
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "audio_tokens": 0,
+      "accepted_prediction_tokens": 0,
+      "rejected_prediction_tokens": 0
+    }
+  },
+  "citations": [],
+  "system_fingerprint": "fp_f25d2b37b0",
+  "cache_key": "d0e4aa2f9fe21199a61d612eb2b94a8b672b44d074978dc2b879cda2faeae9b0"
+}

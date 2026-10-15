@@ -1,0 +1,219 @@
+{
+  "data": {
+    "ratings": [
+      {
+        "scale_id": "programmatic-renewal",
+        "positive": null,
+        "negative": null,
+        "status": "unknown",
+        "confidence": 0.7,
+        "reason": "Нет прямых публичных заявлений Мурасиры о необходимости программного изменения или закрепления существующего курса; все эпизоды отражают исполнение государственных программ и участие в реализации действующих стратегий, но не содержат личных инициатив по изменению или сохранению курса.",
+        "evidence_indices": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8
+        ]
+      },
+      {
+        "scale_id": "government-course-assessment",
+        "positive": null,
+        "negative": null,
+        "status": "unknown",
+        "confidence": 0.7,
+        "reason": "В предоставленных материалах отсутствуют прямые публичные оценки Мурасирой действующего государственного курса, его достижений или проблем. Все высказывания и действия связаны с исполнением государственных функций.",
+        "evidence_indices": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8
+        ]
+      },
+      {
+        "scale_id": "participation-administrative-direction",
+        "positive": 1,
+        "negative": 3,
+        "status": "observed",
+        "confidence": 0.85,
+        "reason": "В эпизодах с программой взаимодействия с гражданами отмечено приглашение к сотрудничеству и межведомственное партнёрство (positive=1), однако основной акцент делается на административной координации, межведомственных поручениях и контроле исполнения (negative=3).",
+        "evidence_indices": [
+          2,
+          4,
+          8
+        ]
+      },
+      {
+        "scale_id": "argumentation-evidence-values",
+        "positive": 1,
+        "negative": 1,
+        "status": "observed",
+        "confidence": 0.7,
+        "reason": "В ряде эпизодов Мурасира ссылается на инновации, цифровые и медицинские возможности (positive=1), а также на ценности международного мира, защиту гражданских лиц и устойчивость (negative=1), однако оба типа обоснования встречаются единично и не являются центральными.",
+        "evidence_indices": [
+          0,
+          1,
+          3,
+          4
+        ]
+      },
+      {
+        "scale_id": "market-state-instruments",
+        "positive": null,
+        "negative": null,
+        "status": "unknown",
+        "confidence": 0.6,
+        "reason": "Нет прямых заявлений или действий, однозначно свидетельствующих о приоритете частной инициативы или государственного регулирования; все эпизоды отражают государственную управленческую деятельность.",
+        "evidence_indices": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8
+        ]
+      },
+      {
+        "scale_id": "accessibility-growth-priorities",
+        "positive": 1,
+        "negative": 1,
+        "status": "observed",
+        "confidence": 0.7,
+        "reason": "В эпизодах с запуском социальных объектов и программ отмечается расширение доступности благ (positive=1), а также упоминание реализации национальной стратегии трансформации, что связано с инвестиционным ростом (negative=1), но оба полюса выражены единично.",
+        "evidence_indices": [
+          2,
+          4,
+          8
+        ]
+      },
+      {
+        "scale_id": "external-domestic-resources",
+        "positive": 1,
+        "negative": null,
+        "status": "unknown",
+        "confidence": 0.7,
+        "reason": "Есть единичное упоминание международных партнёров и многосторонних институтов (positive=1), но нет прямых заявлений о приоритете внутренних ресурсов или снижении зависимости от внешних поступлений (negative=null).",
+        "evidence_indices": [
+          0,
+          1,
+          4
+        ]
+      },
+      {
+        "scale_id": "international-rules-autonomy",
+        "positive": 1,
+        "negative": null,
+        "status": "unknown",
+        "confidence": 0.7,
+        "reason": "Мурасира подчёркивает приверженность международным обязательствам и принципам (positive=1), однако нет прямых заявлений о защите национальной самостоятельности решений (negative=null).",
+        "evidence_indices": [
+          0,
+          1,
+          7
+        ]
+      },
+      {
+        "scale_id": "mediation-adversarial-communication",
+        "positive": 1,
+        "negative": null,
+        "status": "unknown",
+        "confidence": 0.6,
+        "reason": "В ряде эпизодов отмечается акцент на сотрудничестве и партнёрстве между институтами (positive=1), но отсутствуют данные о полемической защите или оспаривании позиций (negative=null).",
+        "evidence_indices": [
+          4,
+          7
+        ]
+      },
+      {
+        "scale_id": "cultural-openness-national-transmission",
+        "positive": null,
+        "negative": null,
+        "status": "unknown",
+        "confidence": 0.5,
+        "reason": "В предоставленных материалах отсутствуют прямые высказывания или действия, связанные с культурным обменом или сохранением национальных ценностей.",
+        "evidence_indices": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8
+        ]
+      },
+      {
+        "scale_id": "problem-disclosure-reputation-defence",
+        "positive": null,
+        "negative": null,
+        "status": "unknown",
+        "confidence": 0.6,
+        "reason": "Нет прямых публичных признаний проблем или акцентов на защите репутации; все эпизоды связаны с презентацией программ и достижений.",
+        "evidence_indices": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8
+        ]
+      },
+      {
+        "scale_id": "procedural-guarantees-enforcement",
+        "positive": null,
+        "negative": null,
+        "status": "unknown",
+        "confidence": 0.6,
+        "reason": "В материалах отсутствуют прямые заявления или действия, связанные с расширением процедурных гарантий или принудительным исполнением требований.",
+        "evidence_indices": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8
+        ]
+      }
+    ]
+  },
+  "model": "gpt-4.1",
+  "task": "ratings-albert-murasira-0",
+  "at": "2026-10-15T15:10:20.554040+00:00",
+  "usage": {
+    "prompt_tokens": 5695,
+    "completion_tokens": 1140,
+    "total_tokens": 6835,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "audio_tokens": 0
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "audio_tokens": 0,
+      "accepted_prediction_tokens": 0,
+      "rejected_prediction_tokens": 0
+    }
+  },
+  "citations": [],
+  "system_fingerprint": "fp_6d7f4b5803",
+  "cache_key": "010dbc69c9d4cfa0bee9a0b77eec55b262bbe7c1115526ee67bed17d76e5b545"
+}

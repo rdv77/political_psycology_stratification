@@ -1,0 +1,159 @@
+{
+  "data": {
+    "ratings": [
+      {
+        "scale_id": "programmatic-renewal",
+        "positive": 1,
+        "negative": 3,
+        "status": "observed",
+        "confidence": 0.7,
+        "reason": "Есть единичное упоминание о консультациях и обещании соответствовать ожиданиям граждан (факт 11), что даёт минимальную выраженность программного обновления. Повторяющийся акцент на продолжении исполнения существующих обязанностей и институциональной преемственности (факты 0, 3, 11) подтверждает выраженность второго полюса.",
+        "evidence_indices": [
+          0,
+          3,
+          11
+        ]
+      },
+      {
+        "scale_id": "government-course-assessment",
+        "positive": 1,
+        "negative": 0,
+        "status": "observed",
+        "confidence": 0.6,
+        "reason": "Есть единичное прямое позитивное описание действующей модели управления (факт 10), но нет выраженной критики курса.",
+        "evidence_indices": [
+          10
+        ]
+      },
+      {
+        "scale_id": "participation-administrative-direction",
+        "positive": 1,
+        "negative": 3,
+        "status": "observed",
+        "confidence": 0.8,
+        "reason": "Факты 1, 9, 11, 12 подтверждают административную координацию и постановку задач, а также единичные проявления консультаций и совместного обсуждения (факты 11, 8, 12).",
+        "evidence_indices": [
+          1,
+          9,
+          11,
+          12,
+          8
+        ]
+      },
+      {
+        "scale_id": "argumentation-evidence-values",
+        "positive": 1,
+        "negative": 1,
+        "status": "observed",
+        "confidence": 0.6,
+        "reason": "В эпизоде по профилактике идеологии геноцида (факт 12) присутствует профилактическая и ценностная аргументация, а также упоминание оценки действующих правил (факт 8), что даёт минимальную выраженность обоих полюсов.",
+        "evidence_indices": [
+          12,
+          8
+        ]
+      },
+      {
+        "scale_id": "market-state-instruments",
+        "positive": null,
+        "negative": null,
+        "status": "unknown",
+        "confidence": 0.3,
+        "reason": "Нет прямых персональных оснований для оценки отношения к частной инициативе или государственному регулированию.",
+        "evidence_indices": []
+      },
+      {
+        "scale_id": "accessibility-growth-priorities",
+        "positive": 1,
+        "negative": null,
+        "status": "unknown",
+        "confidence": 0.4,
+        "reason": "Есть единичное упоминание приоритета потребностей граждан (факт 10), но нет оснований для оценки второго полюса.",
+        "evidence_indices": [
+          10
+        ]
+      },
+      {
+        "scale_id": "external-domestic-resources",
+        "positive": null,
+        "negative": null,
+        "status": "unknown",
+        "confidence": 0.2,
+        "reason": "Нет прямых персональных оснований для оценки отношения к внешним или внутренним ресурсам.",
+        "evidence_indices": []
+      },
+      {
+        "scale_id": "international-rules-autonomy",
+        "positive": null,
+        "negative": null,
+        "status": "unknown",
+        "confidence": 0.3,
+        "reason": "Международные контакты и участие в конференциях не содержат прямых персональных позиций по обязательным международным нормам или национальной самостоятельности.",
+        "evidence_indices": []
+      },
+      {
+        "scale_id": "mediation-adversarial-communication",
+        "positive": 1,
+        "negative": 0,
+        "status": "observed",
+        "confidence": 0.5,
+        "reason": "Есть единичные эпизоды диалоговой дипломатии и обсуждения сотрудничества (факты 4, 13), но нет выраженной полемики или защиты собственной стороны.",
+        "evidence_indices": [
+          4,
+          13
+        ]
+      },
+      {
+        "scale_id": "cultural-openness-national-transmission",
+        "positive": 1,
+        "negative": 1,
+        "status": "observed",
+        "confidence": 0.5,
+        "reason": "В эпизоде по профилактике идеологии геноцида (факт 12) присутствует акцент на национальных ценностях и обмене, что даёт минимальную выраженность обоих полюсов.",
+        "evidence_indices": [
+          12
+        ]
+      },
+      {
+        "scale_id": "problem-disclosure-reputation-defence",
+        "positive": null,
+        "negative": null,
+        "status": "unknown",
+        "confidence": 0.2,
+        "reason": "Нет прямых персональных оснований для оценки публичного раскрытия проблем или защиты репутации.",
+        "evidence_indices": []
+      },
+      {
+        "scale_id": "procedural-guarantees-enforcement",
+        "positive": 1,
+        "negative": 1,
+        "status": "observed",
+        "confidence": 0.6,
+        "reason": "В эпизоде по борьбе с коррупцией (факт 8) присутствует акцент на оценке действующих правил (процедурные гарантии) и продолжении информационной работы (принудительное обеспечение), что даёт минимальную выраженность обоих полюсов.",
+        "evidence_indices": [
+          8
+        ]
+      }
+    ]
+  },
+  "model": "gpt-4.1",
+  "task": "ratings-supplement-francois-xavier-kalinda-0",
+  "at": "2026-10-15T15:14:21.012687+00:00",
+  "usage": {
+    "prompt_tokens": 7124,
+    "completion_tokens": 957,
+    "total_tokens": 8081,
+    "prompt_tokens_details": {
+      "cached_tokens": 4992,
+      "audio_tokens": 0
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "audio_tokens": 0,
+      "accepted_prediction_tokens": 0,
+      "rejected_prediction_tokens": 0
+    }
+  },
+  "citations": [],
+  "system_fingerprint": "fp_6d7f4b5803",
+  "cache_key": "4263be9e171261fe107035ed2ed32ae170ce045f84c2253f0d374dc7532d78c0"
+}

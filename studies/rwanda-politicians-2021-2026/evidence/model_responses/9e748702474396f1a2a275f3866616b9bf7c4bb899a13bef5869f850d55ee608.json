@@ -1,0 +1,173 @@
+{
+  "data": {
+    "ratings": [
+      {
+        "scale_id": "programmatic-renewal",
+        "positive": 1,
+        "negative": 1,
+        "status": "observed",
+        "confidence": 0.7,
+        "reason": "Есть единичные проявления как инициатив по изменению (цифровизация, ADR), так и акцента на повышение качества исполнения действующего законодательства и профессиональной подготовки, но нет устойчивого доминирования одного полюса.",
+        "evidence_indices": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          7,
+          8
+        ]
+      },
+      {
+        "scale_id": "government-course-assessment",
+        "positive": null,
+        "negative": null,
+        "status": "unknown",
+        "confidence": 0.3,
+        "reason": "Нет прямых публичных оценок действующего курса власти — ни поддержки, ни критики; служебные выступления не содержат явных оценочных суждений.",
+        "evidence_indices": []
+      },
+      {
+        "scale_id": "participation-administrative-direction",
+        "positive": 1,
+        "negative": 3,
+        "status": "observed",
+        "confidence": 0.8,
+        "reason": "Преобладает административный стиль (совещания, поручения, контроль исполнения), но есть отдельные упоминания о расширении доступа и вовлечении уязвимых групп через ADR и цифровые сервисы.",
+        "evidence_indices": [
+          0,
+          1,
+          2,
+          3,
+          7,
+          8
+        ]
+      },
+      {
+        "scale_id": "argumentation-evidence-values",
+        "positive": 3,
+        "negative": 1,
+        "status": "observed",
+        "confidence": 0.8,
+        "reason": "Регулярно обосновывает инициативы через эффективность, доступность, цифровизацию, приводя примеры систем и результатов; ценностная риторика встречается эпизодически (доверие, сотрудничество).",
+        "evidence_indices": [
+          1,
+          2,
+          3,
+          7,
+          8
+        ]
+      },
+      {
+        "scale_id": "market-state-instruments",
+        "positive": null,
+        "negative": null,
+        "status": "unknown",
+        "confidence": 0.2,
+        "reason": "Нет прямых заявлений о приоритете частной инициативы или государственного регулирования; цифровизация и ADR не раскрывают инструментальный выбор между этими полюсами.",
+        "evidence_indices": []
+      },
+      {
+        "scale_id": "accessibility-growth-priorities",
+        "positive": 3,
+        "negative": 1,
+        "status": "observed",
+        "confidence": 0.8,
+        "reason": "Повторяющийся акцент на расширении доступа к правосудию для уязвимых групп и населения; рост инвестиций и конкурентоспособности прямо не заявлен.",
+        "evidence_indices": [
+          1,
+          2,
+          3,
+          7,
+          8
+        ]
+      },
+      {
+        "scale_id": "external-domestic-resources",
+        "positive": null,
+        "negative": null,
+        "status": "unknown",
+        "confidence": 0.3,
+        "reason": "Нет прямых заявлений о привлечении внешних ресурсов или опоре на внутренние; международные контакты не раскрывают ресурсную стратегию.",
+        "evidence_indices": []
+      },
+      {
+        "scale_id": "international-rules-autonomy",
+        "positive": null,
+        "negative": null,
+        "status": "unknown",
+        "confidence": 0.3,
+        "reason": "Нет прямых заявлений о приоритете международных обязательств или национальной самостоятельности; участие в международных мероприятиях не раскрывает позицию по шкале.",
+        "evidence_indices": []
+      },
+      {
+        "scale_id": "mediation-adversarial-communication",
+        "positive": 1,
+        "negative": 1,
+        "status": "observed",
+        "confidence": 0.7,
+        "reason": "Есть единичные проявления поддержки посредничества (ADR) и эпизод конфронтационной защиты позиции государства в международном споре.",
+        "evidence_indices": [
+          3,
+          9
+        ]
+      },
+      {
+        "scale_id": "cultural-openness-national-transmission",
+        "positive": null,
+        "negative": null,
+        "status": "unknown",
+        "confidence": 0.2,
+        "reason": "Нет прямых публичных заявлений о культурном обмене или сохранении национальных ценностей.",
+        "evidence_indices": []
+      },
+      {
+        "scale_id": "problem-disclosure-reputation-defence",
+        "positive": 1,
+        "negative": 1,
+        "status": "observed",
+        "confidence": 0.6,
+        "reason": "Есть единичные проявления раскрытия проблем (необходимость повышения качества, доступности) и защиты репутации (отстаивание позиции Руанды в международном споре).",
+        "evidence_indices": [
+          0,
+          9
+        ]
+      },
+      {
+        "scale_id": "procedural-guarantees-enforcement",
+        "positive": 1,
+        "negative": 3,
+        "status": "observed",
+        "confidence": 0.7,
+        "reason": "Преобладает акцент на прикладном исполнении законодательства и административном контроле, но есть отдельные инициативы по расширению доступа к правосудию и альтернативным процедурам.",
+        "evidence_indices": [
+          0,
+          1,
+          2,
+          3
+        ]
+      }
+    ]
+  },
+  "model": "gpt-4.1",
+  "task": "ratings-emmanuel-ugirashebuja-0",
+  "at": "2026-10-15T15:10:56.427953+00:00",
+  "usage": {
+    "prompt_tokens": 5913,
+    "completion_tokens": 1240,
+    "total_tokens": 7153,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "audio_tokens": 0
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "audio_tokens": 0,
+      "accepted_prediction_tokens": 0,
+      "rejected_prediction_tokens": 0
+    }
+  },
+  "citations": [],
+  "system_fingerprint": "fp_6d7f4b5803",
+  "cache_key": "9e748702474396f1a2a275f3866616b9bf7c4bb899a13bef5869f850d55ee608"
+}

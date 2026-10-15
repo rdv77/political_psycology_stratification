@@ -1,0 +1,88 @@
+{
+  "data": {
+    "ratings": [
+      {
+        "scale_id": "prevention-crisis-response",
+        "positive": 1,
+        "negative": 1,
+        "status": "observed",
+        "confidence": 0.7,
+        "reason": "Есть единичные проявления как упреждающей профилактики (трансграничные механизмы, совместные патрули и информирование для предотвращения незаконной деятельности), так и реагирования на возникший кризис (упоминание о действиях в ответ на пандемию COVID-19). Оба полюса проявлены, но не являются устойчиво центральными.",
+        "evidence_indices": [
+          12,
+          13
+        ]
+      },
+      {
+        "scale_id": "electoral-access",
+        "positive": null,
+        "negative": null,
+        "status": "unknown",
+        "confidence": 0.0,
+        "reason": "В предоставленных материалах отсутствуют прямые датированные основания для оценки расширения или ограничения политического допуска.",
+        "evidence_indices": []
+      },
+      {
+        "scale_id": "institutional-autonomy-coordination",
+        "positive": null,
+        "negative": null,
+        "status": "unknown",
+        "confidence": 0.0,
+        "reason": "Нет достаточных прямых высказываний или действий, позволяющих оценить гарантии самостоятельности институтов или акцент на единой координации.",
+        "evidence_indices": []
+      },
+      {
+        "scale_id": "taxation-burden-public-revenue",
+        "positive": null,
+        "negative": null,
+        "status": "unknown",
+        "confidence": 0.0,
+        "reason": "В материалах отсутствуют основания для оценки позиций по снижению налоговой нагрузки или увеличению общественных доходов.",
+        "evidence_indices": []
+      },
+      {
+        "scale_id": "universal-targeted-provision",
+        "positive": 1,
+        "negative": null,
+        "status": "unknown",
+        "confidence": 0.5,
+        "reason": "Есть единичное высказывание о цели обеспечить каждому ребёнку доступ к основным услугам, но оно ограничено контекстом программ раннего развития и не позволяет оценить второй полюс или сделать вывод о всеобщей социальной политике в целом.",
+        "evidence_indices": [
+          10
+        ]
+      },
+      {
+        "scale_id": "ecological-limits-resource-use",
+        "positive": 1,
+        "negative": null,
+        "status": "unknown",
+        "confidence": 0.5,
+        "reason": "Есть единичное подтверждение поддержки экологически ограничивающей меры (расширение гидропонной и биогазовой программы с акцентом на защиту окружающей среды), но нет данных о позиции по расширению хозяйственного освоения.",
+        "evidence_indices": [
+          11
+        ]
+      }
+    ]
+  },
+  "model": "gpt-4.1",
+  "task": "ratings-supplement-pudence-rubingisa-12",
+  "at": "2026-10-15T15:17:19.635774+00:00",
+  "usage": {
+    "prompt_tokens": 5105,
+    "completion_tokens": 628,
+    "total_tokens": 5733,
+    "prompt_tokens_details": {
+      "cached_tokens": 2944,
+      "audio_tokens": 0
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "audio_tokens": 0,
+      "accepted_prediction_tokens": 0,
+      "rejected_prediction_tokens": 0
+    }
+  },
+  "citations": [],
+  "system_fingerprint": "fp_233583e333",
+  "cache_key": "b14a4db0aa7904420d51a9916e18e7ee5f66d994d006b3016a18ab5981b5a623"
+}

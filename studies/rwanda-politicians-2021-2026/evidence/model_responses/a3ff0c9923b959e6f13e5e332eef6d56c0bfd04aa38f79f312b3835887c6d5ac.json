@@ -1,0 +1,94 @@
+{
+  "data": {
+    "ratings": [
+      {
+        "scale_id": "prevention-crisis-response",
+        "positive": 2,
+        "negative": 1,
+        "status": "observed",
+        "confidence": 0.7,
+        "reason": "Есть персональные публичные заявления о необходимости профилактики идеологии геноцида и поддержки уязвимых выживших (эпизод 3, 15), а также предложение усилить контроль за ветеринарными лекарствами (эпизод 11). Это указывает на выраженность упреждающей позиции и отдельные элементы реагирования, но не делает их определяющей чертой образа.",
+        "evidence_indices": [
+          3,
+          11,
+          15
+        ]
+      },
+      {
+        "scale_id": "electoral-access",
+        "positive": null,
+        "negative": null,
+        "status": "unknown",
+        "confidence": 0.3,
+        "reason": "В исследуемый период отсутствуют персональные заявления или действия, прямо относящиеся к расширению или ограничению политического допуска. Данные о прежнем участии в выборах и партийной деятельности относятся к более раннему периоду и не могут быть использованы для оценки.",
+        "evidence_indices": []
+      },
+      {
+        "scale_id": "institutional-autonomy-coordination",
+        "positive": 1,
+        "negative": 2,
+        "status": "observed",
+        "confidence": 0.7,
+        "reason": "В интервью (эпизод 10) Мукабарамба подчёркивает важность разделения власти и инклюзивного представительства, что поддерживает некоторую выраженность автономии институтов. Одновременно её публичные заявления и действия (эпизоды 3, 11, 13) указывают на акцент на координацию и административное согласование.",
+        "evidence_indices": [
+          3,
+          10,
+          11,
+          13
+        ]
+      },
+      {
+        "scale_id": "taxation-burden-public-revenue",
+        "positive": null,
+        "negative": null,
+        "status": "unknown",
+        "confidence": 0.2,
+        "reason": "Нет персональных заявлений или предложений по снижению налоговой нагрузки или увеличению общественных доходов в исследуемый период.",
+        "evidence_indices": []
+      },
+      {
+        "scale_id": "universal-targeted-provision",
+        "positive": 1,
+        "negative": 2,
+        "status": "observed",
+        "confidence": 0.7,
+        "reason": "Есть персональные заявления о необходимости охвата населения базовыми услугами (эпизоды 12, 14), а также конкретный акцент на поддержке уязвимых выживших (эпизод 15), что указывает на сочетание элементов универсального и адресного подхода.",
+        "evidence_indices": [
+          12,
+          14,
+          15
+        ]
+      },
+      {
+        "scale_id": "ecological-limits-resource-use",
+        "positive": null,
+        "negative": null,
+        "status": "unknown",
+        "confidence": 0.2,
+        "reason": "В исследуемый период отсутствуют персональные заявления или действия, прямо относящиеся к экологическим ограничениям или расширению хозяйственного использования ресурсов.",
+        "evidence_indices": []
+      }
+    ]
+  },
+  "model": "gpt-4.1",
+  "task": "ratings-supplement-alvera-mukabaramba-12",
+  "at": "2026-10-15T15:16:51.406933+00:00",
+  "usage": {
+    "prompt_tokens": 5640,
+    "completion_tokens": 580,
+    "total_tokens": 6220,
+    "prompt_tokens_details": {
+      "cached_tokens": 2944,
+      "audio_tokens": 0
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "audio_tokens": 0,
+      "accepted_prediction_tokens": 0,
+      "rejected_prediction_tokens": 0
+    }
+  },
+  "citations": [],
+  "system_fingerprint": "fp_233583e333",
+  "cache_key": "a3ff0c9923b959e6f13e5e332eef6d56c0bfd04aa38f79f312b3835887c6d5ac"
+}

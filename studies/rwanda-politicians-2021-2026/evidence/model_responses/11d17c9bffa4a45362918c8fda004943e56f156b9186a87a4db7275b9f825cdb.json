@@ -1,0 +1,170 @@
+{
+  "data": {
+    "ratings": [
+      {
+        "scale_id": "programmatic-renewal",
+        "positive": null,
+        "negative": null,
+        "status": "unknown",
+        "confidence": 0.4,
+        "reason": "Нет прямых персональных заявлений Казарвы о необходимости программного изменения или закрепления существующего курса; доступные материалы фиксируют институциональное руководство и участие в мероприятиях, но не содержат её индивидуальных программных формулировок.",
+        "evidence_indices": [
+          0,
+          6,
+          7,
+          10
+        ]
+      },
+      {
+        "scale_id": "government-course-assessment",
+        "positive": null,
+        "negative": null,
+        "status": "unknown",
+        "confidence": 0.4,
+        "reason": "В предоставленных источниках отсутствуют прямые публичные оценки Казарвы в адрес действующего государственного курса — ни поддержка, ни критика не зафиксированы.",
+        "evidence_indices": [
+          0,
+          1,
+          6,
+          7,
+          10
+        ]
+      },
+      {
+        "scale_id": "participation-administrative-direction",
+        "positive": 1,
+        "negative": 3,
+        "status": "observed",
+        "confidence": 0.7,
+        "reason": "В эпизоде с обучением по гендерному равенству (факт 1) Казарва призывала к коллективным действиям и проверке результатов, что указывает на элемент совместного обсуждения (positive=1). В ряде других эпизодов (факты 0, 6, 7, 10) преобладает административный формат руководства и постановки задач, что соответствует повторяющемуся акценту на административной координации (negative=3).",
+        "evidence_indices": [
+          0,
+          1,
+          6,
+          7,
+          10
+        ]
+      },
+      {
+        "scale_id": "argumentation-evidence-values",
+        "positive": 1,
+        "negative": 1,
+        "status": "observed",
+        "confidence": 0.6,
+        "reason": "В эпизоде с обучением по гендерному равенству (факт 1) отмечено сочетание признания проблем (элемент обоснования через данные) и риторики о ценностях равенства (элемент ценностной аргументации). Повторяемость или доминирование одного из способов не подтверждены.",
+        "evidence_indices": [
+          1
+        ]
+      },
+      {
+        "scale_id": "market-state-instruments",
+        "positive": null,
+        "negative": null,
+        "status": "unknown",
+        "confidence": 0.3,
+        "reason": "Нет прямых заявлений или действий Казарвы, однозначно указывающих на приоритет частной инициативы или государственного регулирования.",
+        "evidence_indices": [
+          10
+        ]
+      },
+      {
+        "scale_id": "accessibility-growth-priorities",
+        "positive": 1,
+        "negative": 1,
+        "status": "observed",
+        "confidence": 0.5,
+        "reason": "В эпизоде с призывом к фермерам увеличить производство (факт 10) можно усмотреть акцент и на расширении доступности (через сельское производство), и на росте деловой активности, но ни один из полюсов не является устойчиво выраженным.",
+        "evidence_indices": [
+          10
+        ]
+      },
+      {
+        "scale_id": "external-domestic-resources",
+        "positive": 1,
+        "negative": null,
+        "status": "unknown",
+        "confidence": 0.5,
+        "reason": "В эпизоде с ПРООН (факт 3) зафиксировано взаимодействие с международной организацией по вопросам цифровизации, что указывает на привлечение внешних партнёров (positive=1). Однако отсутствуют прямые заявления о стратегии опоры на внутренние ресурсы (negative=null).",
+        "evidence_indices": [
+          3
+        ]
+      },
+      {
+        "scale_id": "international-rules-autonomy",
+        "positive": null,
+        "negative": null,
+        "status": "unknown",
+        "confidence": 0.3,
+        "reason": "Нет данных о публичных заявлениях Казарвы по поводу международных обязательств или защиты национальной самостоятельности.",
+        "evidence_indices": [
+          2,
+          4
+        ]
+      },
+      {
+        "scale_id": "mediation-adversarial-communication",
+        "positive": null,
+        "negative": null,
+        "status": "unknown",
+        "confidence": 0.3,
+        "reason": "В предоставленных материалах отсутствуют примеры посредничества или полемической защиты со стороны Казарвы.",
+        "evidence_indices": [
+          2,
+          4
+        ]
+      },
+      {
+        "scale_id": "cultural-openness-national-transmission",
+        "positive": null,
+        "negative": 1,
+        "status": "unknown",
+        "confidence": 0.5,
+        "reason": "Участие в мемориальном мероприятии (факт 5) указывает на связь с национальной памятью, но нет прямых заявлений о приоритете сохранения национальных ценностей или о расширении межкультурного обмена.",
+        "evidence_indices": [
+          5
+        ]
+      },
+      {
+        "scale_id": "problem-disclosure-reputation-defence",
+        "positive": 1,
+        "negative": null,
+        "status": "unknown",
+        "confidence": 0.5,
+        "reason": "В эпизоде с обучением по гендерному равенству (факт 1) отмечено признание сохраняющихся проблем, что соответствует единичному проявлению раскрытия проблем (positive=1). Признаков защитной репутационной риторики не выявлено.",
+        "evidence_indices": [
+          1
+        ]
+      },
+      {
+        "scale_id": "procedural-guarantees-enforcement",
+        "positive": null,
+        "negative": null,
+        "status": "unknown",
+        "confidence": 0.3,
+        "reason": "Нет оснований для оценки акцентов Казарвы на расширении процедурных гарантий или принудительном исполнении.",
+        "evidence_indices": []
+      }
+    ]
+  },
+  "model": "gpt-4.1",
+  "task": "ratings-gertrude-kazarwa-0",
+  "at": "2026-10-15T15:13:28.754821+00:00",
+  "usage": {
+    "prompt_tokens": 6010,
+    "completion_tokens": 1082,
+    "total_tokens": 7092,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "audio_tokens": 0
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "audio_tokens": 0,
+      "accepted_prediction_tokens": 0,
+      "rejected_prediction_tokens": 0
+    }
+  },
+  "citations": [],
+  "system_fingerprint": "fp_6d7f4b5803",
+  "cache_key": "11d17c9bffa4a45362918c8fda004943e56f156b9186a87a4db7275b9f825cdb"
+}

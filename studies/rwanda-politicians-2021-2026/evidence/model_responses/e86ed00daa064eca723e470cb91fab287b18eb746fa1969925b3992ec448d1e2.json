@@ -1,0 +1,79 @@
+{
+  "data": {
+    "ratings": [
+      {
+        "scale_id": "government-course-assessment",
+        "positive": 3,
+        "negative": 0,
+        "status": "observed",
+        "confidence": 0.9,
+        "reason": "В ряде публичных выступлений и официальных действий Увамария акцентировала достижения и меры действующего государственного курса, особенно в области гендерной политики, расширения участия женщин и экологических инициатив. Прямой критики курса или отдельных решений в предоставленных материалах не обнаружено.",
+        "evidence_indices": [
+          13,
+          14,
+          15,
+          16,
+          17,
+          18,
+          19
+        ]
+      },
+      {
+        "scale_id": "market-state-instruments",
+        "positive": 3,
+        "negative": 3,
+        "status": "observed",
+        "confidence": 0.8,
+        "reason": "В публичных заявлениях и официальных документах Увамария поддерживала сочетание частной инициативы (например, программы сертификации компаний, участие женщин в бизнесе и кооперативах) с государственным регулированием (квоты, институциональные механизмы, обязательные стандарты). Оба полюса выражены повторяющимися акцентами.",
+        "evidence_indices": [
+          14,
+          16,
+          17,
+          18,
+          19
+        ]
+      },
+      {
+        "scale_id": "cultural-openness-national-transmission",
+        "positive": null,
+        "negative": null,
+        "status": "unknown",
+        "confidence": 0.2,
+        "reason": "В предоставленных материалах отсутствуют прямые публичные заявления или действия Увамарии, позволяющие оценить выраженность акцентов на межкультурном обмене или сохранении национальных ценностей.",
+        "evidence_indices": []
+      },
+      {
+        "scale_id": "procedural-guarantees-enforcement",
+        "positive": 1,
+        "negative": 1,
+        "status": "observed",
+        "confidence": 0.5,
+        "reason": "В одном эпизоде Увамария публично обозначила защиту пострадавших от гендерного насилия и доступ к правам, однако конкретных предложений по процедурам обжалования или принудительному исполнению обязательных требований не зафиксировано. Оба полюса проявлены единично и не системно.",
+        "evidence_indices": [
+          17
+        ]
+      }
+    ]
+  },
+  "model": "gpt-4.1",
+  "task": "ratings-supplement-valentine-uwamariya-0",
+  "at": "2026-10-15T15:12:24.671905+00:00",
+  "usage": {
+    "prompt_tokens": 5639,
+    "completion_tokens": 432,
+    "total_tokens": 6071,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "audio_tokens": 0
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "audio_tokens": 0,
+      "accepted_prediction_tokens": 0,
+      "rejected_prediction_tokens": 0
+    }
+  },
+  "citations": [],
+  "system_fingerprint": "fp_04d28f6feb",
+  "cache_key": "e86ed00daa064eca723e470cb91fab287b18eb746fa1969925b3992ec448d1e2"
+}

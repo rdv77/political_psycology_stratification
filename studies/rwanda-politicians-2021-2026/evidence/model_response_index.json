@@ -1,0 +1,964 @@
+{
+  "purpose": "Raw model proposals, including partial poles; not accepted measurements. Canonical ratings.json and source audit determine usable cells.",
+  "responses": [
+    {
+      "model": "gpt-4.1",
+      "at": "2026-10-15T15:07:08.611715+00:00",
+      "task": "ratings-paul-kagame-0",
+      "file": "evidence/model_responses/7891ae9303ec39547362d79d3bc7275476d30f435a3c9fcb3e658c56d564ce59.json",
+      "cache_key": "7891ae9303ec39547362d79d3bc7275476d30f435a3c9fcb3e658c56d564ce59"
+    },
+    {
+      "model": "gpt-4.1",
+      "at": "2026-10-15T15:09:27.860008+00:00",
+      "task": "ratings-edouard-ngirente-0",
+      "file": "evidence/model_responses/3eef888ba126df2afe9b1d0465f6433271fa7cf6886161526a4c7291ba3fe25c.json",
+      "cache_key": "3eef888ba126df2afe9b1d0465f6433271fa7cf6886161526a4c7291ba3fe25c"
+    },
+    {
+      "model": "gpt-4.1",
+      "at": "2026-10-15T15:09:28.594855+00:00",
+      "task": "ratings-justin-nsengiyumva-0",
+      "file": "evidence/model_responses/374c326efd64720020364c73eeefddad5be65d35b798f1bbd89692509b8403a8.json",
+      "cache_key": "374c326efd64720020364c73eeefddad5be65d35b798f1bbd89692509b8403a8"
+    },
+    {
+      "model": "gpt-4.1",
+      "at": "2026-10-15T15:09:32.338482+00:00",
+      "task": "ratings-edouard-ngirente-12",
+      "file": "evidence/model_responses/f995f498c857324d83aabe057f80b275bfcd25c0317d69072ae9b45efd822cdf.json",
+      "cache_key": "f995f498c857324d83aabe057f80b275bfcd25c0317d69072ae9b45efd822cdf"
+    },
+    {
+      "model": "gpt-4.1",
+      "at": "2026-10-15T15:09:33.826570+00:00",
+      "task": "ratings-justin-nsengiyumva-12",
+      "file": "evidence/model_responses/dcf20f6b3fe8ad9c18fe7035f9b455472b6eba7c2c2af1993aa2169daa654bde.json",
+      "cache_key": "dcf20f6b3fe8ad9c18fe7035f9b455472b6eba7c2c2af1993aa2169daa654bde"
+    },
+    {
+      "model": "gpt-4.1",
+      "at": "2026-10-15T15:09:46.922671+00:00",
+      "task": "ratings-supplement-paul-kagame-0",
+      "file": "evidence/model_responses/68d655373c023a56bd586b46c33b52a7b565a705029d2ace898e7f594ccc148b.json",
+      "cache_key": "68d655373c023a56bd586b46c33b52a7b565a705029d2ace898e7f594ccc148b"
+    },
+    {
+      "model": "gpt-4.1",
+      "at": "2026-10-15T15:09:52.542709+00:00",
+      "task": "ratings-supplement-paul-kagame-12",
+      "file": "evidence/model_responses/88d38f96577f8fb8ebe21a038c19f71030e90bc7f4ea1e01e3d1b93b11075146.json",
+      "cache_key": "88d38f96577f8fb8ebe21a038c19f71030e90bc7f4ea1e01e3d1b93b11075146"
+    },
+    {
+      "model": "gpt-4.1",
+      "at": "2026-10-15T15:09:55.828851+00:00",
+      "task": "ratings-supplement-vincent-biruta-0",
+      "file": "evidence/model_responses/142a52692fb1e79b17235a2b05dcee1013db06c1ffc6b2ad512049fc025c8701.json",
+      "cache_key": "142a52692fb1e79b17235a2b05dcee1013db06c1ffc6b2ad512049fc025c8701"
+    },
+    {
+      "model": "gpt-4.1",
+      "at": "2026-10-15T15:09:56.986365+00:00",
+      "task": "ratings-supplement-justin-nsengiyumva-0",
+      "file": "evidence/model_responses/062be889721066b8c7464750ddc5598b296c9829703323b2f9be45b92dd5d840.json",
+      "cache_key": "062be889721066b8c7464750ddc5598b296c9829703323b2f9be45b92dd5d840"
+    },
+    {
+      "model": "gpt-4.1",
+      "at": "2026-10-15T15:10:00.803747+00:00",
+      "task": "ratings-supplement-justin-nsengiyumva-12",
+      "file": "evidence/model_responses/3e5ce6c3ae5fb5a21af9b3cb801a1e4a21e3f027303a55c924ee5d219912d06f.json",
+      "cache_key": "3e5ce6c3ae5fb5a21af9b3cb801a1e4a21e3f027303a55c924ee5d219912d06f"
+    },
+    {
+      "model": "gpt-4.1",
+      "at": "2026-10-15T15:10:02.150892+00:00",
+      "task": "ratings-supplement-vincent-biruta-12",
+      "file": "evidence/model_responses/008c316da800d210045f7a62a8c88f0b13c3ce738798fab4c35388bef85f5c99.json",
+      "cache_key": "008c316da800d210045f7a62a8c88f0b13c3ce738798fab4c35388bef85f5c99"
+    },
+    {
+      "model": "gpt-4.1",
+      "at": "2026-10-15T15:10:03.793131+00:00",
+      "task": "ratings-supplement-edouard-ngirente-0",
+      "file": "evidence/model_responses/1cebce816cf3503816a758b6fad20ee270386935fea2f59808f29475464470cb.json",
+      "cache_key": "1cebce816cf3503816a758b6fad20ee270386935fea2f59808f29475464470cb"
+    },
+    {
+      "model": "gpt-4.1",
+      "at": "2026-10-15T15:10:05.959297+00:00",
+      "task": "ratings-olivier-nduhungirehe-0",
+      "file": "evidence/model_responses/20d2635a0ab97fb32c37d7ccaaaabf53f069e459be9da26ad6ce6493b1741495.json",
+      "cache_key": "20d2635a0ab97fb32c37d7ccaaaabf53f069e459be9da26ad6ce6493b1741495"
+    },
+    {
+      "model": "gpt-4.1",
+      "at": "2026-10-15T15:10:09.091800+00:00",
+      "task": "ratings-supplement-edouard-ngirente-12",
+      "file": "evidence/model_responses/3f9ec1e9a7591c10587c1c5c92bd0b69f0fca394a742073865085433c6c407da.json",
+      "cache_key": "3f9ec1e9a7591c10587c1c5c92bd0b69f0fca394a742073865085433c6c407da"
+    },
+    {
+      "model": "gpt-4.1",
+      "at": "2026-10-15T15:10:11.089706+00:00",
+      "task": "ratings-juvenal-marizamunda-0",
+      "file": "evidence/model_responses/0fbaab6e692f2fe442db8e680c9c3021d309968211e4334097bb87c949629be5.json",
+      "cache_key": "0fbaab6e692f2fe442db8e680c9c3021d309968211e4334097bb87c949629be5"
+    },
+    {
+      "model": "gpt-4.1",
+      "at": "2026-10-15T15:10:14.130242+00:00",
+      "task": "ratings-olivier-nduhungirehe-12-russia-education-cultural-cooperation",
+      "file": "evidence/model_responses/ade0850caa7fa4bc6d2099f4780830dcfb4a40f3fe686a1dfeb78fbf96e1b112.json",
+      "cache_key": "ade0850caa7fa4bc6d2099f4780830dcfb4a40f3fe686a1dfeb78fbf96e1b112"
+    },
+    {
+      "model": "gpt-4.1",
+      "at": "2026-10-15T15:10:20.554040+00:00",
+      "task": "ratings-albert-murasira-0",
+      "file": "evidence/model_responses/010dbc69c9d4cfa0bee9a0b77eec55b262bbe7c1115526ee67bed17d76e5b545.json",
+      "cache_key": "010dbc69c9d4cfa0bee9a0b77eec55b262bbe7c1115526ee67bed17d76e5b545"
+    },
+    {
+      "model": "gpt-4.1",
+      "at": "2026-10-15T15:10:24.931207+00:00",
+      "task": "ratings-albert-murasira-12",
+      "file": "evidence/model_responses/a4a6072bb72fef56d862b1ce7e64dfd4189b1b8b55ecf4d759480fe3fadef280.json",
+      "cache_key": "a4a6072bb72fef56d862b1ce7e64dfd4189b1b8b55ecf4d759480fe3fadef280"
+    },
+    {
+      "model": "gpt-4.1",
+      "at": "2026-10-15T15:10:39.681959+00:00",
+      "task": "ratings-supplement-juvenal-marizamunda-0",
+      "file": "evidence/model_responses/0150a468c0f1420175176f446170c0dde160a06fb2e63b626fe241d156c52768.json",
+      "cache_key": "0150a468c0f1420175176f446170c0dde160a06fb2e63b626fe241d156c52768"
+    },
+    {
+      "model": "gpt-4.1",
+      "at": "2026-10-15T15:10:40.785607+00:00",
+      "task": "ratings-supplement-olivier-nduhungirehe-0",
+      "file": "evidence/model_responses/4283c2b74f0e2be33580daee9baff6704e8e09da11abafe3be62234ffb65eb5b.json",
+      "cache_key": "4283c2b74f0e2be33580daee9baff6704e8e09da11abafe3be62234ffb65eb5b"
+    },
+    {
+      "model": "gpt-4.1",
+      "at": "2026-10-15T15:10:44.266701+00:00",
+      "task": "ratings-supplement-juvenal-marizamunda-12",
+      "file": "evidence/model_responses/1cce392a6f32f6515a74001d3b1de625aa0e9beeccd6866109c0ed01b8f2d3fb.json",
+      "cache_key": "1cce392a6f32f6515a74001d3b1de625aa0e9beeccd6866109c0ed01b8f2d3fb"
+    },
+    {
+      "model": "gpt-4.1",
+      "at": "2026-10-15T15:10:45.085984+00:00",
+      "task": "ratings-supplement-olivier-nduhungirehe-12",
+      "file": "evidence/model_responses/0e2d119d053a779bba420d403a39ff150dd75496fe94fdbd70a97e3a5ca9570f.json",
+      "cache_key": "0e2d119d053a779bba420d403a39ff150dd75496fe94fdbd70a97e3a5ca9570f"
+    },
+    {
+      "model": "gpt-4.1",
+      "at": "2026-10-15T15:10:45.836904+00:00",
+      "task": "ratings-supplement-juvenal-marizamunda-12-russia-security-cooperation",
+      "file": "evidence/model_responses/2c8ebaad52b7559fd38b6dc04682d11340c4055a979c9def7264d760d7de0bf9.json",
+      "cache_key": "2c8ebaad52b7559fd38b6dc04682d11340c4055a979c9def7264d760d7de0bf9"
+    },
+    {
+      "model": "gpt-4.1",
+      "at": "2026-10-15T15:10:47.312646+00:00",
+      "task": "ratings-supplement-james-kabarebe-0",
+      "file": "evidence/model_responses/8ebea017a3a3e25930cd6dedd0e2a961a2216684d6732fbfa9348a80da7e4805.json",
+      "cache_key": "8ebea017a3a3e25930cd6dedd0e2a961a2216684d6732fbfa9348a80da7e4805"
+    },
+    {
+      "model": "gpt-4.1",
+      "at": "2026-10-15T15:10:47.445101+00:00",
+      "task": "ratings-supplement-olivier-nduhungirehe-12-russia-economic-technology-cooperation",
+      "file": "evidence/model_responses/a88a48c14dcd3c814915e198f98e810cf2f8fc549e6775fe61ca772b0943e1d9.json",
+      "cache_key": "a88a48c14dcd3c814915e198f98e810cf2f8fc549e6775fe61ca772b0943e1d9"
+    },
+    {
+      "model": "gpt-4.1",
+      "at": "2026-10-15T15:10:50.090285+00:00",
+      "task": "ratings-supplement-albert-murasira-0",
+      "file": "evidence/model_responses/927096b3d06229cad4ab46c0f06a626204ce536bea5f06ce4aedc320a275424c.json",
+      "cache_key": "927096b3d06229cad4ab46c0f06a626204ce536bea5f06ce4aedc320a275424c"
+    },
+    {
+      "model": "gpt-4.1",
+      "at": "2026-10-15T15:10:52.582303+00:00",
+      "task": "ratings-supplement-james-kabarebe-12",
+      "file": "evidence/model_responses/8879c70241b6e39b82d86fef624f1d7a5bdcb7c235d710f2b85b5e104b3d2af8.json",
+      "cache_key": "8879c70241b6e39b82d86fef624f1d7a5bdcb7c235d710f2b85b5e104b3d2af8"
+    },
+    {
+      "model": "gpt-4.1",
+      "at": "2026-10-15T15:10:54.902100+00:00",
+      "task": "ratings-yusuf-murangwa-0",
+      "file": "evidence/model_responses/b0f55829aa9b9eec70286f2197f18d8b7a6d971fb18fba3b2d37c03ab2e7734e.json",
+      "cache_key": "b0f55829aa9b9eec70286f2197f18d8b7a6d971fb18fba3b2d37c03ab2e7734e"
+    },
+    {
+      "model": "gpt-4.1",
+      "at": "2026-10-15T15:10:56.216292+00:00",
+      "task": "ratings-supplement-albert-murasira-12",
+      "file": "evidence/model_responses/235ebf4defcb44b5bbff285bb54ec3bd555c0498c3a6875383171d4076cbabaf.json",
+      "cache_key": "235ebf4defcb44b5bbff285bb54ec3bd555c0498c3a6875383171d4076cbabaf"
+    },
+    {
+      "model": "gpt-4.1",
+      "at": "2026-10-15T15:10:56.427953+00:00",
+      "task": "ratings-emmanuel-ugirashebuja-0",
+      "file": "evidence/model_responses/9e748702474396f1a2a275f3866616b9bf7c4bb899a13bef5869f850d55ee608.json",
+      "cache_key": "9e748702474396f1a2a275f3866616b9bf7c4bb899a13bef5869f850d55ee608"
+    },
+    {
+      "model": "gpt-4.1",
+      "at": "2026-10-15T15:10:59.936563+00:00",
+      "task": "ratings-yusuf-murangwa-12",
+      "file": "evidence/model_responses/9716b1b487f156ac66ac588800d622e876b7a1ed19de4e1176f3e61055c06dc8.json",
+      "cache_key": "9716b1b487f156ac66ac588800d622e876b7a1ed19de4e1176f3e61055c06dc8"
+    },
+    {
+      "model": "gpt-4.1",
+      "at": "2026-10-15T15:11:00.961709+00:00",
+      "task": "ratings-emmanuel-ugirashebuja-12",
+      "file": "evidence/model_responses/8ea79161e882cb0cbcd5407c1127d83e8a8255f1a77cc8ad49764129143e0578.json",
+      "cache_key": "8ea79161e882cb0cbcd5407c1127d83e8a8255f1a77cc8ad49764129143e0578"
+    },
+    {
+      "model": "gpt-4.1",
+      "at": "2026-10-15T15:11:01.319489+00:00",
+      "task": "ratings-uzziel-ndagijimana-0",
+      "file": "evidence/model_responses/d477aa8a7202499347ecdf0da06692ebfd12ece7b29e815907c8bfee461fab38.json",
+      "cache_key": "d477aa8a7202499347ecdf0da06692ebfd12ece7b29e815907c8bfee461fab38"
+    },
+    {
+      "model": "gpt-4.1",
+      "at": "2026-10-15T15:11:05.687476+00:00",
+      "task": "ratings-uzziel-ndagijimana-12",
+      "file": "evidence/model_responses/4ac97e399afed4159a57ff16ee4f8ab8c56272ae2fd513f0ecbc1c59af0003e4.json",
+      "cache_key": "4ac97e399afed4159a57ff16ee4f8ab8c56272ae2fd513f0ecbc1c59af0003e4"
+    },
+    {
+      "model": "gpt-4.1",
+      "at": "2026-10-15T15:11:06.721890+00:00",
+      "task": "ratings-paula-ingabire-0",
+      "file": "evidence/model_responses/fcced6a43e3e6ecb561add00ccf878e81277bda09fa4214f96ded88259e56506.json",
+      "cache_key": "fcced6a43e3e6ecb561add00ccf878e81277bda09fa4214f96ded88259e56506"
+    },
+    {
+      "model": "gpt-4.1",
+      "at": "2026-10-15T15:11:13.956810+00:00",
+      "task": "ratings-paula-ingabire-12",
+      "file": "evidence/model_responses/3a6b689abb5afb2b0b1a99c96e311c8e64c41eb4cb280bee7f505da156649a05.json",
+      "cache_key": "3a6b689abb5afb2b0b1a99c96e311c8e64c41eb4cb280bee7f505da156649a05"
+    },
+    {
+      "model": "gpt-4.1",
+      "at": "2026-10-15T15:11:21.647916+00:00",
+      "task": "ratings-supplement-emmanuel-ugirashebuja-0",
+      "file": "evidence/model_responses/1f074ba8cd4ac7178eb3b6291807b88f000050bf2397de1ea4867deb183107d8.json",
+      "cache_key": "1f074ba8cd4ac7178eb3b6291807b88f000050bf2397de1ea4867deb183107d8"
+    },
+    {
+      "model": "gpt-4.1",
+      "at": "2026-10-15T15:11:23.378648+00:00",
+      "task": "ratings-supplement-uzziel-ndagijimana-0",
+      "file": "evidence/model_responses/b50af7659c669b8d9d329278f833949f57fdfce319fd81d0f54be030c1acfe32.json",
+      "cache_key": "b50af7659c669b8d9d329278f833949f57fdfce319fd81d0f54be030c1acfe32"
+    },
+    {
+      "model": "gpt-4.1",
+      "at": "2026-10-15T15:11:26.837387+00:00",
+      "task": "ratings-supplement-emmanuel-ugirashebuja-12",
+      "file": "evidence/model_responses/02129566471c53dfb93334411788f60ce583df85f36cbb70053c3354d53c0951.json",
+      "cache_key": "02129566471c53dfb93334411788f60ce583df85f36cbb70053c3354d53c0951"
+    },
+    {
+      "model": "gpt-4.1",
+      "at": "2026-10-15T15:11:27.043957+00:00",
+      "task": "ratings-supplement-yusuf-murangwa-0",
+      "file": "evidence/model_responses/d626ee0b7de784408f809aba64522725cbca922148ec5c94dc3fbf1a2a1c1409.json",
+      "cache_key": "d626ee0b7de784408f809aba64522725cbca922148ec5c94dc3fbf1a2a1c1409"
+    },
+    {
+      "model": "gpt-4.1",
+      "at": "2026-10-15T15:11:27.892820+00:00",
+      "task": "ratings-supplement-uzziel-ndagijimana-12",
+      "file": "evidence/model_responses/4c446d555c46441288029d872b134e2571437c7d7d65f53e04c664328d70225f.json",
+      "cache_key": "4c446d555c46441288029d872b134e2571437c7d7d65f53e04c664328d70225f"
+    },
+    {
+      "model": "gpt-4.1",
+      "at": "2026-10-15T15:11:32.500435+00:00",
+      "task": "ratings-supplement-yusuf-murangwa-12",
+      "file": "evidence/model_responses/819c2db175dd8c73dd6976795f8de9ea9cd3a20e6e5c14743ffee97819c9a2c6.json",
+      "cache_key": "819c2db175dd8c73dd6976795f8de9ea9cd3a20e6e5c14743ffee97819c9a2c6"
+    },
+    {
+      "model": "gpt-4.1",
+      "at": "2026-10-15T15:11:37.822579+00:00",
+      "task": "ratings-judith-uwizeye-0",
+      "file": "evidence/model_responses/b90fc27024aa5a8c05ef4062e576c4cf8a30b98d041035cd02309d73c7894969.json",
+      "cache_key": "b90fc27024aa5a8c05ef4062e576c4cf8a30b98d041035cd02309d73c7894969"
+    },
+    {
+      "model": "gpt-4.1",
+      "at": "2026-10-15T15:11:38.681100+00:00",
+      "task": "ratings-sabin-nsanzimana-0",
+      "file": "evidence/model_responses/62f1ab2392de555a1931fef385183bf2f3bfe43322f77881b32f2a9a5be41c60.json",
+      "cache_key": "62f1ab2392de555a1931fef385183bf2f3bfe43322f77881b32f2a9a5be41c60"
+    },
+    {
+      "model": "gpt-4.1",
+      "at": "2026-10-15T15:11:43.505478+00:00",
+      "task": "ratings-sabin-nsanzimana-12",
+      "file": "evidence/model_responses/7731bd61698925184ee4339b4b2e60c75af1a3a1872c40bf4bfd3f22d585441e.json",
+      "cache_key": "7731bd61698925184ee4339b4b2e60c75af1a3a1872c40bf4bfd3f22d585441e"
+    },
+    {
+      "model": "gpt-4.1",
+      "at": "2026-10-15T15:11:46.616000+00:00",
+      "task": "ratings-supplement-paula-ingabire-0",
+      "file": "evidence/model_responses/4f51164900ebac2b96774521680e94c5e70c173f493586f82cd020b49adbd9d7.json",
+      "cache_key": "4f51164900ebac2b96774521680e94c5e70c173f493586f82cd020b49adbd9d7"
+    },
+    {
+      "model": "gpt-4.1",
+      "at": "2026-10-15T15:11:47.379566+00:00",
+      "task": "ratings-sabin-nsanzimana-12-russia-education-cultural-cooperation",
+      "file": "evidence/model_responses/506bd9bccc0dc464f6a986f224aebc64c4a9e618135e0a2acd73fecff0bc8764.json",
+      "cache_key": "506bd9bccc0dc464f6a986f224aebc64c4a9e618135e0a2acd73fecff0bc8764"
+    },
+    {
+      "model": "gpt-4.1",
+      "at": "2026-10-15T15:11:50.864583+00:00",
+      "task": "ratings-supplement-paula-ingabire-12",
+      "file": "evidence/model_responses/3ab145f0a7001425bfa0acd08802f8d4a6403cff6e8e703a84f8c0bc1a4f97d9.json",
+      "cache_key": "3ab145f0a7001425bfa0acd08802f8d4a6403cff6e8e703a84f8c0bc1a4f97d9"
+    },
+    {
+      "model": "gpt-4.1",
+      "at": "2026-10-15T15:12:01.332448+00:00",
+      "task": "ratings-valentine-uwamariya-0",
+      "file": "evidence/model_responses/0f52bd4470b0e725c7e844635a7cb5ea69dfdf8aacfbe2fd24ce6fb7551578ca.json",
+      "cache_key": "0f52bd4470b0e725c7e844635a7cb5ea69dfdf8aacfbe2fd24ce6fb7551578ca"
+    },
+    {
+      "model": "gpt-4.1",
+      "at": "2026-10-15T15:12:03.365033+00:00",
+      "task": "ratings-supplement-sabin-nsanzimana-12",
+      "file": "evidence/model_responses/878c33fab35dc28c991d477e8d2bacd5bc91c6252ef480d9328899a421284921.json",
+      "cache_key": "878c33fab35dc28c991d477e8d2bacd5bc91c6252ef480d9328899a421284921"
+    },
+    {
+      "model": "gpt-4.1",
+      "at": "2026-10-15T15:12:05.496239+00:00",
+      "task": "ratings-valentine-uwamariya-12",
+      "file": "evidence/model_responses/ceb5de499b181cf06609b7b2f19c795f7bd8d3cc9d10863afeda2650eba193b2.json",
+      "cache_key": "ceb5de499b181cf06609b7b2f19c795f7bd8d3cc9d10863afeda2650eba193b2"
+    },
+    {
+      "model": "gpt-4.1",
+      "at": "2026-10-15T15:12:05.587335+00:00",
+      "task": "ratings-supplement-sabin-nsanzimana-12-russia-economic-technology-cooperation",
+      "file": "evidence/model_responses/32ca610cc2a2866afb63fe0528b0e68dc853e7fd10ccf729feff482d8fbc51ef.json",
+      "cache_key": "32ca610cc2a2866afb63fe0528b0e68dc853e7fd10ccf729feff482d8fbc51ef"
+    },
+    {
+      "model": "gpt-4.1",
+      "at": "2026-10-15T15:12:10.713441+00:00",
+      "task": "ratings-supplement-ines-mpambara-0",
+      "file": "evidence/model_responses/621b0bc04b97e8c00e688666a459c696a103aa4f8b5d52549908bfdf9c9eb1d9.json",
+      "cache_key": "621b0bc04b97e8c00e688666a459c696a103aa4f8b5d52549908bfdf9c9eb1d9"
+    },
+    {
+      "model": "gpt-4.1",
+      "at": "2026-10-15T15:12:11.218458+00:00",
+      "task": "ratings-supplement-judith-uwizeye-0",
+      "file": "evidence/model_responses/e3d351debbdc03b815967f7628dfeed6c29607299ca284a8808777ea9a716623.json",
+      "cache_key": "e3d351debbdc03b815967f7628dfeed6c29607299ca284a8808777ea9a716623"
+    },
+    {
+      "model": "gpt-4.1",
+      "at": "2026-10-15T15:12:14.246252+00:00",
+      "task": "ratings-jeanne-darc-mujawamariya-0",
+      "file": "evidence/model_responses/eaade76a9f61ace1fcd33ad57005732bad2192149c8d7e7842566f3e9482979c.json",
+      "cache_key": "eaade76a9f61ace1fcd33ad57005732bad2192149c8d7e7842566f3e9482979c"
+    },
+    {
+      "model": "gpt-4.1",
+      "at": "2026-10-15T15:12:14.771183+00:00",
+      "task": "ratings-supplement-ines-mpambara-12",
+      "file": "evidence/model_responses/ee61d9fbdab0700c8d8fcf03bd49b9b7f30b2cfd0c3a202c7d78e0ea7dfc4ff7.json",
+      "cache_key": "ee61d9fbdab0700c8d8fcf03bd49b9b7f30b2cfd0c3a202c7d78e0ea7dfc4ff7"
+    },
+    {
+      "model": "gpt-4.1",
+      "at": "2026-10-15T15:12:17.218754+00:00",
+      "task": "ratings-supplement-judith-uwizeye-12",
+      "file": "evidence/model_responses/aa57b13ba3b8ec1b179abbb8e7577c5e409eacbf3a01cc87d418010f834f65e5.json",
+      "cache_key": "aa57b13ba3b8ec1b179abbb8e7577c5e409eacbf3a01cc87d418010f834f65e5"
+    },
+    {
+      "model": "gpt-4.1",
+      "at": "2026-10-15T15:12:24.671905+00:00",
+      "task": "ratings-supplement-valentine-uwamariya-0",
+      "file": "evidence/model_responses/e86ed00daa064eca723e470cb91fab287b18eb746fa1969925b3992ec448d1e2.json",
+      "cache_key": "e86ed00daa064eca723e470cb91fab287b18eb746fa1969925b3992ec448d1e2"
+    },
+    {
+      "model": "gpt-4.1",
+      "at": "2026-10-15T15:12:27.285304+00:00",
+      "task": "ratings-ildephonse-musafiri-0",
+      "file": "evidence/model_responses/7468545d60709e712ccbd825b72b4c140c3aa8fd0c0f001bc510f6eff34e96a8.json",
+      "cache_key": "7468545d60709e712ccbd825b72b4c140c3aa8fd0c0f001bc510f6eff34e96a8"
+    },
+    {
+      "model": "gpt-4.1",
+      "at": "2026-10-15T15:12:28.542465+00:00",
+      "task": "ratings-supplement-valentine-uwamariya-12",
+      "file": "evidence/model_responses/31ccb380f31c2dee873a3f3195031a54710a323f2ba3785d824100c71c8a1961.json",
+      "cache_key": "31ccb380f31c2dee873a3f3195031a54710a323f2ba3785d824100c71c8a1961"
+    },
+    {
+      "model": "gpt-4.1",
+      "at": "2026-10-15T15:12:29.208535+00:00",
+      "task": "ratings-gerardine-mukeshimana-0",
+      "file": "evidence/model_responses/238c996f42fd24578cd837ebbbe8f50b7a5a09cee1645c7b7b8158d96c5bbbfc.json",
+      "cache_key": "238c996f42fd24578cd837ebbbe8f50b7a5a09cee1645c7b7b8158d96c5bbbfc"
+    },
+    {
+      "model": "gpt-4.1",
+      "at": "2026-10-15T15:12:32.355690+00:00",
+      "task": "ratings-ildephonse-musafiri-12",
+      "file": "evidence/model_responses/fceb3107c999909f12e109c36287f4142bb0c523930e35846760d06874099b46.json",
+      "cache_key": "fceb3107c999909f12e109c36287f4142bb0c523930e35846760d06874099b46"
+    },
+    {
+      "model": "gpt-4.1",
+      "at": "2026-10-15T15:12:37.456549+00:00",
+      "task": "ratings-jean-claude-musabyimana-0",
+      "file": "evidence/model_responses/67c1c45d555da66506bc3a2893c75e80b9aebe42d5690f57626acea70b7ce9d2.json",
+      "cache_key": "67c1c45d555da66506bc3a2893c75e80b9aebe42d5690f57626acea70b7ce9d2"
+    },
+    {
+      "model": "gpt-4.1",
+      "at": "2026-10-15T15:12:45.898053+00:00",
+      "task": "ratings-supplement-jeanne-darc-mujawamariya-0",
+      "file": "evidence/model_responses/e025472a521a4021ba5832a29209f99753ffecfda4234f27cfc2ec46832e935c.json",
+      "cache_key": "e025472a521a4021ba5832a29209f99753ffecfda4234f27cfc2ec46832e935c"
+    },
+    {
+      "model": "gpt-4.1",
+      "at": "2026-10-15T15:12:47.897024+00:00",
+      "task": "ratings-supplement-ildephonse-musafiri-0",
+      "file": "evidence/model_responses/7cb4549d19a8fa88eff9d30b6bf67be2286f2e0944d686dc61fb9ee6b5e02cb5.json",
+      "cache_key": "7cb4549d19a8fa88eff9d30b6bf67be2286f2e0944d686dc61fb9ee6b5e02cb5"
+    },
+    {
+      "model": "gpt-4.1",
+      "at": "2026-10-15T15:12:49.492944+00:00",
+      "task": "ratings-jean-claude-musabyimana-12",
+      "file": "evidence/model_responses/c505bef6b87a531a85b5d35465c4a887bca064bf43de8d22610766dda395b07a.json",
+      "cache_key": "c505bef6b87a531a85b5d35465c4a887bca064bf43de8d22610766dda395b07a"
+    },
+    {
+      "model": "gpt-4.1",
+      "at": "2026-10-15T15:12:51.813690+00:00",
+      "task": "ratings-supplement-ildephonse-musafiri-12",
+      "file": "evidence/model_responses/504fd9d7b2a1fbc4aeddf594325fd6d14f40d77eb649f0c4465a5963f12cd2d5.json",
+      "cache_key": "504fd9d7b2a1fbc4aeddf594325fd6d14f40d77eb649f0c4465a5963f12cd2d5"
+    },
+    {
+      "model": "gpt-4.1",
+      "at": "2026-10-15T15:12:52.622698+00:00",
+      "task": "ratings-supplement-jeanne-darc-mujawamariya-12",
+      "file": "evidence/model_responses/eaa7920a3a43793ad29548005214815c947e20ab73973b8044c9b7162e9a6eaf.json",
+      "cache_key": "eaa7920a3a43793ad29548005214815c947e20ab73973b8044c9b7162e9a6eaf"
+    },
+    {
+      "model": "gpt-4.1",
+      "at": "2026-10-15T15:12:58.430574+00:00",
+      "task": "ratings-supplement-gerardine-mukeshimana-0",
+      "file": "evidence/model_responses/a13f4038414a4f8dfac86f02b5fa757a5a3c0e9cb12ac4432cc56b9b6212bbec.json",
+      "cache_key": "a13f4038414a4f8dfac86f02b5fa757a5a3c0e9cb12ac4432cc56b9b6212bbec"
+    },
+    {
+      "model": "gpt-4.1",
+      "at": "2026-10-15T15:13:03.080985+00:00",
+      "task": "ratings-jean-damascene-bizimana-0",
+      "file": "evidence/model_responses/35e93f312cfc34dd873ed27e4f5eb9935c547eafdfb4612b06a1f456fcade12b.json",
+      "cache_key": "35e93f312cfc34dd873ed27e4f5eb9935c547eafdfb4612b06a1f456fcade12b"
+    },
+    {
+      "model": "gpt-4.1",
+      "at": "2026-10-15T15:13:05.617840+00:00",
+      "task": "ratings-supplement-gerardine-mukeshimana-12",
+      "file": "evidence/model_responses/f536c4adb0f319ad5fdd3605637b0b79952068b701255310ea0071c10163995e.json",
+      "cache_key": "f536c4adb0f319ad5fdd3605637b0b79952068b701255310ea0071c10163995e"
+    },
+    {
+      "model": "gpt-4.1",
+      "at": "2026-10-15T15:13:15.465665+00:00",
+      "task": "ratings-francis-gatare-0",
+      "file": "evidence/model_responses/ee35d3288cee9f72f7b3abd763b9486bc9a876ce4370a223e8d6164951b87d79.json",
+      "cache_key": "ee35d3288cee9f72f7b3abd763b9486bc9a876ce4370a223e8d6164951b87d79"
+    },
+    {
+      "model": "gpt-4.1",
+      "at": "2026-10-15T15:13:15.843831+00:00",
+      "task": "ratings-supplement-jean-claude-musabyimana-0",
+      "file": "evidence/model_responses/5dad9c7991599ad64842182c114ef3a52d5c36427f7421cd9791f24a1185d4d2.json",
+      "cache_key": "5dad9c7991599ad64842182c114ef3a52d5c36427f7421cd9791f24a1185d4d2"
+    },
+    {
+      "model": "gpt-4.1",
+      "at": "2026-10-15T15:13:20.025256+00:00",
+      "task": "ratings-supplement-jean-claude-musabyimana-12",
+      "file": "evidence/model_responses/7901005aa0a721631df99d127d15f38378d4ee2995980ac3d846935a22a5076f.json",
+      "cache_key": "7901005aa0a721631df99d127d15f38378d4ee2995980ac3d846935a22a5076f"
+    },
+    {
+      "model": "gpt-4.1",
+      "at": "2026-10-15T15:13:28.754821+00:00",
+      "task": "ratings-gertrude-kazarwa-0",
+      "file": "evidence/model_responses/11d17c9bffa4a45362918c8fda004943e56f156b9186a87a4db7275b9f825cdb.json",
+      "cache_key": "11d17c9bffa4a45362918c8fda004943e56f156b9186a87a4db7275b9f825cdb"
+    },
+    {
+      "model": "gpt-4.1",
+      "at": "2026-10-15T15:13:29.128940+00:00",
+      "task": "ratings-supplement-clare-akamanzi-0",
+      "file": "evidence/model_responses/3f9d06e52c5229f3b968f9a3ac730ad50e49143b1201f90e29ef16377951c63c.json",
+      "cache_key": "3f9d06e52c5229f3b968f9a3ac730ad50e49143b1201f90e29ef16377951c63c"
+    },
+    {
+      "model": "gpt-4.1",
+      "at": "2026-10-15T15:13:34.171905+00:00",
+      "task": "ratings-supplement-clare-akamanzi-12",
+      "file": "evidence/model_responses/b9d50bd99748fd8b2024fbf79b4390bba49d2fd9375bfacf98d00dd78492ed24.json",
+      "cache_key": "b9d50bd99748fd8b2024fbf79b4390bba49d2fd9375bfacf98d00dd78492ed24"
+    },
+    {
+      "model": "gpt-4.1",
+      "at": "2026-10-15T15:13:37.134054+00:00",
+      "task": "ratings-supplement-jean-damascene-bizimana-0",
+      "file": "evidence/model_responses/2055a16c41fc8a506a4e9a3e0cfdf9b6900d5b51c59f3fd307f1aa88a56c6317.json",
+      "cache_key": "2055a16c41fc8a506a4e9a3e0cfdf9b6900d5b51c59f3fd307f1aa88a56c6317"
+    },
+    {
+      "model": "gpt-4.1",
+      "at": "2026-10-15T15:13:41.242057+00:00",
+      "task": "ratings-supplement-jean-damascene-bizimana-12",
+      "file": "evidence/model_responses/f4c38084fbe9ffe454534f38868780d71cc982bf9c51d490ba1a9f5ef43e555b.json",
+      "cache_key": "f4c38084fbe9ffe454534f38868780d71cc982bf9c51d490ba1a9f5ef43e555b"
+    },
+    {
+      "model": "gpt-4.1",
+      "at": "2026-10-15T15:13:42.165351+00:00",
+      "task": "ratings-donatille-mukabalisa-0",
+      "file": "evidence/model_responses/fabdb9b4523edc0907c10ac55e7cce491bcb78553e2f0cecf67c6975c2456310.json",
+      "cache_key": "fabdb9b4523edc0907c10ac55e7cce491bcb78553e2f0cecf67c6975c2456310"
+    },
+    {
+      "model": "gpt-4.1",
+      "at": "2026-10-15T15:13:51.926325+00:00",
+      "task": "ratings-supplement-francis-gatare-12",
+      "file": "evidence/model_responses/6043809f8aaf98c6681b6f400ba7b2c015d88d487d191b850b6a66b842529a47.json",
+      "cache_key": "6043809f8aaf98c6681b6f400ba7b2c015d88d487d191b850b6a66b842529a47"
+    },
+    {
+      "model": "gpt-4.1",
+      "at": "2026-10-15T15:13:52.990002+00:00",
+      "task": "ratings-francois-xavier-kalinda-12",
+      "file": "evidence/model_responses/85abb5aa59183bcd36531b7535bdb3fc06b913eb2a4ccae179ab87496f86eedb.json",
+      "cache_key": "85abb5aa59183bcd36531b7535bdb3fc06b913eb2a4ccae179ab87496f86eedb"
+    },
+    {
+      "model": "gpt-4.1",
+      "at": "2026-10-15T15:13:57.801142+00:00",
+      "task": "ratings-supplement-gertrude-kazarwa-0",
+      "file": "evidence/model_responses/71b1013333a377259792943e6090799636e104d2d81d2ba0568351c40fc11db2.json",
+      "cache_key": "71b1013333a377259792943e6090799636e104d2d81d2ba0568351c40fc11db2"
+    },
+    {
+      "model": "gpt-4.1",
+      "at": "2026-10-15T15:13:58.635905+00:00",
+      "task": "ratings-augustin-iyamuremye-0",
+      "file": "evidence/model_responses/f8b76c6bde695147bd4c49ad0c6ec921bfd2fb491156845f7eee2e74d8205d7f.json",
+      "cache_key": "f8b76c6bde695147bd4c49ad0c6ec921bfd2fb491156845f7eee2e74d8205d7f"
+    },
+    {
+      "model": "gpt-4.1",
+      "at": "2026-10-15T15:14:03.802802+00:00",
+      "task": "ratings-supplement-gertrude-kazarwa-12",
+      "file": "evidence/model_responses/c651125d4411d7d957e41d03f0fcbe899a136acd80611691de0b3c6ae4a773ce.json",
+      "cache_key": "c651125d4411d7d957e41d03f0fcbe899a136acd80611691de0b3c6ae4a773ce"
+    },
+    {
+      "model": "gpt-4.1",
+      "at": "2026-10-15T15:14:11.198289+00:00",
+      "task": "ratings-alvera-mukabaramba-0",
+      "file": "evidence/model_responses/727b2b423454860d3f03d17b0a915587b00dc59bdb12da7ef9697014860516fb.json",
+      "cache_key": "727b2b423454860d3f03d17b0a915587b00dc59bdb12da7ef9697014860516fb"
+    },
+    {
+      "model": "gpt-4.1",
+      "at": "2026-10-15T15:14:12.942784+00:00",
+      "task": "ratings-supplement-donatille-mukabalisa-0",
+      "file": "evidence/model_responses/cd1b0bfe3fda524b42bda761f8320682af41304e9162d91f07e7e646279c5fbe.json",
+      "cache_key": "cd1b0bfe3fda524b42bda761f8320682af41304e9162d91f07e7e646279c5fbe"
+    },
+    {
+      "model": "gpt-4.1",
+      "at": "2026-10-15T15:14:17.716811+00:00",
+      "task": "ratings-supplement-donatille-mukabalisa-12",
+      "file": "evidence/model_responses/dfbea4d830ede10991f5543785a549625c3042a59ad991b8c8351d7597a80731.json",
+      "cache_key": "dfbea4d830ede10991f5543785a549625c3042a59ad991b8c8351d7597a80731"
+    },
+    {
+      "model": "gpt-4.1",
+      "at": "2026-10-15T15:14:21.012687+00:00",
+      "task": "ratings-supplement-francois-xavier-kalinda-0",
+      "file": "evidence/model_responses/4263be9e171261fe107035ed2ed32ae170ce045f84c2253f0d374dc7532d78c0.json",
+      "cache_key": "4263be9e171261fe107035ed2ed32ae170ce045f84c2253f0d374dc7532d78c0"
+    },
+    {
+      "model": "gpt-4.1",
+      "at": "2026-10-15T15:14:24.936630+00:00",
+      "task": "ratings-supplement-francois-xavier-kalinda-12",
+      "file": "evidence/model_responses/0572405d957c521cd6cb3facea48c062f7beeb6fdf3b01f713483474286c86f5.json",
+      "cache_key": "0572405d957c521cd6cb3facea48c062f7beeb6fdf3b01f713483474286c86f5"
+    },
+    {
+      "model": "gpt-4.1",
+      "at": "2026-10-15T15:14:34.200776+00:00",
+      "task": "ratings-pudence-rubingisa-0",
+      "file": "evidence/model_responses/e3375c21c48378c3402364148e96dd5df41816d99b0ea409899053ad6de1f9fd.json",
+      "cache_key": "e3375c21c48378c3402364148e96dd5df41816d99b0ea409899053ad6de1f9fd"
+    },
+    {
+      "model": "gpt-4.1",
+      "at": "2026-10-15T15:14:34.412264+00:00",
+      "task": "ratings-supplement-augustin-iyamuremye-0",
+      "file": "evidence/model_responses/4ab433208784fe70ef71306e970c8038c6468a786e072154e7d615a9006817af.json",
+      "cache_key": "4ab433208784fe70ef71306e970c8038c6468a786e072154e7d615a9006817af"
+    },
+    {
+      "model": "gpt-4.1",
+      "at": "2026-10-15T15:14:40.697701+00:00",
+      "task": "ratings-supplement-augustin-iyamuremye-12",
+      "file": "evidence/model_responses/66e4813b3c0db2af152268389ce2993d943895a57ae094a9c818d017c749fa82.json",
+      "cache_key": "66e4813b3c0db2af152268389ce2993d943895a57ae094a9c818d017c749fa82"
+    },
+    {
+      "model": "gpt-4.1",
+      "at": "2026-10-15T15:14:47.232722+00:00",
+      "task": "ratings-supplement-alvera-mukabaramba-0",
+      "file": "evidence/model_responses/99afa5976d59e3049e6520ad330f3d3ee3566da6ce0913d122efda8fb97194a6.json",
+      "cache_key": "99afa5976d59e3049e6520ad330f3d3ee3566da6ce0913d122efda8fb97194a6"
+    },
+    {
+      "model": "gpt-4.1",
+      "at": "2026-10-15T15:16:51.406933+00:00",
+      "task": "ratings-supplement-alvera-mukabaramba-12",
+      "file": "evidence/model_responses/a3ff0c9923b959e6f13e5e332eef6d56c0bfd04aa38f79f312b3835887c6d5ac.json",
+      "cache_key": "a3ff0c9923b959e6f13e5e332eef6d56c0bfd04aa38f79f312b3835887c6d5ac"
+    },
+    {
+      "model": "gpt-4.1",
+      "at": "2026-10-15T15:17:05.094274+00:00",
+      "task": "ratings-samuel-dusengiyumva-0",
+      "file": "evidence/model_responses/21da4978dcd99de7932b8b88f8225b38c59ebd0e49fcb4ca1d854a503ddb9eed.json",
+      "cache_key": "21da4978dcd99de7932b8b88f8225b38c59ebd0e49fcb4ca1d854a503ddb9eed"
+    },
+    {
+      "model": "gpt-4.1",
+      "at": "2026-10-15T15:17:05.206493+00:00",
+      "task": "ratings-frank-habineza-0",
+      "file": "evidence/model_responses/4a8fa4b9828386882721d0edee84a0300e04a70679b4166b0560ba85bfe81118.json",
+      "cache_key": "4a8fa4b9828386882721d0edee84a0300e04a70679b4166b0560ba85bfe81118"
+    },
+    {
+      "model": "gpt-4.1",
+      "at": "2026-10-15T15:17:08.361619+00:00",
+      "task": "ratings-supplement-mussa-fazil-harerimana-0",
+      "file": "evidence/model_responses/356626926f3d829378319ab23635a06e2d8a3c67a265262eb999ec4740a5b64d.json",
+      "cache_key": "356626926f3d829378319ab23635a06e2d8a3c67a265262eb999ec4740a5b64d"
+    },
+    {
+      "model": "gpt-4.1",
+      "at": "2026-10-15T15:17:10.524876+00:00",
+      "task": "ratings-supplement-pudence-rubingisa-0",
+      "file": "evidence/model_responses/a72e5105b295d2881b5af0ec69f48856abbff1eda3a19ce9c975058a7e3caeac.json",
+      "cache_key": "a72e5105b295d2881b5af0ec69f48856abbff1eda3a19ce9c975058a7e3caeac"
+    },
+    {
+      "model": "gpt-4.1",
+      "at": "2026-10-15T15:17:11.324544+00:00",
+      "task": "ratings-samuel-dusengiyumva-12",
+      "file": "evidence/model_responses/f0d3a8bcef58c6fe827d70d5efdfafe3a18380aed2a0f4c9ccc469bd13e14952.json",
+      "cache_key": "f0d3a8bcef58c6fe827d70d5efdfafe3a18380aed2a0f4c9ccc469bd13e14952"
+    },
+    {
+      "model": "gpt-4.1",
+      "at": "2026-10-15T15:17:15.280555+00:00",
+      "task": "ratings-frank-habineza-12",
+      "file": "evidence/model_responses/7b193d38c766c25b04b4b7d060e4c8dcffd5468ecf05ecbba78baf447c28288d.json",
+      "cache_key": "7b193d38c766c25b04b4b7d060e4c8dcffd5468ecf05ecbba78baf447c28288d"
+    },
+    {
+      "model": "gpt-4.1",
+      "at": "2026-10-15T15:17:18.126549+00:00",
+      "task": "ratings-supplement-mussa-fazil-harerimana-12",
+      "file": "evidence/model_responses/9bcc209cb45e7ce9f67f5c9b5eade8d2b29b3ec3f263ce544820767ba680d20c.json",
+      "cache_key": "9bcc209cb45e7ce9f67f5c9b5eade8d2b29b3ec3f263ce544820767ba680d20c"
+    },
+    {
+      "model": "gpt-4.1",
+      "at": "2026-10-15T15:17:19.635774+00:00",
+      "task": "ratings-supplement-pudence-rubingisa-12",
+      "file": "evidence/model_responses/b14a4db0aa7904420d51a9916e18e7ee5f66d994d006b3016a18ab5981b5a623.json",
+      "cache_key": "b14a4db0aa7904420d51a9916e18e7ee5f66d994d006b3016a18ab5981b5a623"
+    },
+    {
+      "model": "gpt-4.1",
+      "at": "2026-10-15T15:17:26.104358+00:00",
+      "task": "ratings-philippe-mpayimana-0",
+      "file": "evidence/model_responses/6ec5bfdff3090050a6d893424000dae409b263a51166b83a7e547aae7a0fc34e.json",
+      "cache_key": "6ec5bfdff3090050a6d893424000dae409b263a51166b83a7e547aae7a0fc34e"
+    },
+    {
+      "model": "gpt-4.1",
+      "at": "2026-10-15T15:17:29.806393+00:00",
+      "task": "ratings-victoire-ingabire-0",
+      "file": "evidence/model_responses/fbdaee32523829f66b80be67b3238490b56155dda28af0ff5b0211df88e269a4.json",
+      "cache_key": "fbdaee32523829f66b80be67b3238490b56155dda28af0ff5b0211df88e269a4"
+    },
+    {
+      "model": "gpt-4.1",
+      "at": "2026-10-15T15:17:30.488367+00:00",
+      "task": "ratings-supplement-samuel-dusengiyumva-0",
+      "file": "evidence/model_responses/a65921bba16b7b0499d478644cec847d3512359788bde353ca33899a58d868a6.json",
+      "cache_key": "a65921bba16b7b0499d478644cec847d3512359788bde353ca33899a58d868a6"
+    },
+    {
+      "model": "gpt-4.1",
+      "at": "2026-10-15T15:17:34.916330+00:00",
+      "task": "ratings-supplement-samuel-dusengiyumva-12",
+      "file": "evidence/model_responses/d0e4aa2f9fe21199a61d612eb2b94a8b672b44d074978dc2b879cda2faeae9b0.json",
+      "cache_key": "d0e4aa2f9fe21199a61d612eb2b94a8b672b44d074978dc2b879cda2faeae9b0"
+    },
+    {
+      "model": "gpt-4.1",
+      "at": "2026-10-15T15:17:45.123903+00:00",
+      "task": "ratings-diane-rwigara-0",
+      "file": "evidence/model_responses/29f4ea983aceb88d86ace682d37b03c284f814548cb9c6e9ec119b0bc40b5a26.json",
+      "cache_key": "29f4ea983aceb88d86ace682d37b03c284f814548cb9c6e9ec119b0bc40b5a26"
+    },
+    {
+      "model": "gpt-4.1",
+      "at": "2026-10-15T15:18:00.287644+00:00",
+      "task": "ratings-supplement-frank-habineza-0",
+      "file": "evidence/model_responses/1a6202f3be87cbb2f2c1394096fbb7762de0fdb72a5d45d9d975aeb301bc6f39.json",
+      "cache_key": "1a6202f3be87cbb2f2c1394096fbb7762de0fdb72a5d45d9d975aeb301bc6f39"
+    },
+    {
+      "model": "gpt-4.1",
+      "at": "2026-10-15T15:18:01.019040+00:00",
+      "task": "ratings-supplement-victoire-ingabire-0",
+      "file": "evidence/model_responses/1b53a827dd312faf179a9511ee6952f4b40898f360f434e63ee4a1732265414e.json",
+      "cache_key": "1b53a827dd312faf179a9511ee6952f4b40898f360f434e63ee4a1732265414e"
+    },
+    {
+      "model": "gpt-4.1",
+      "at": "2026-10-15T15:18:02.291133+00:00",
+      "task": "ratings-supplement-philippe-mpayimana-0",
+      "file": "evidence/model_responses/ed02101e4479797b6eeb78d24808bc27839d958667161d0306e5a1e5cecadc90.json",
+      "cache_key": "ed02101e4479797b6eeb78d24808bc27839d958667161d0306e5a1e5cecadc90"
+    },
+    {
+      "model": "gpt-4.1",
+      "at": "2026-10-15T15:18:04.882933+00:00",
+      "task": "ratings-supplement-frank-habineza-12",
+      "file": "evidence/model_responses/b9ad567de008f646fed3f4225c7c5fce24f3541e8f5906da4559c88aa43d23bc.json",
+      "cache_key": "b9ad567de008f646fed3f4225c7c5fce24f3541e8f5906da4559c88aa43d23bc"
+    },
+    {
+      "model": "gpt-4.1",
+      "at": "2026-10-15T15:18:06.018004+00:00",
+      "task": "ratings-supplement-diane-rwigara-0",
+      "file": "evidence/model_responses/6eeb014c65acf3270804a78cbfc988d59a256f19c175404aed89a7f26bacc4a8.json",
+      "cache_key": "6eeb014c65acf3270804a78cbfc988d59a256f19c175404aed89a7f26bacc4a8"
+    },
+    {
+      "model": "gpt-4.1",
+      "at": "2026-10-15T15:18:09.297529+00:00",
+      "task": "ratings-supplement-victoire-ingabire-12",
+      "file": "evidence/model_responses/082cc83ed8f778bcf24504a9dd1e1e868a9810ca2e055ac5371b1a61ac24a0a6.json",
+      "cache_key": "082cc83ed8f778bcf24504a9dd1e1e868a9810ca2e055ac5371b1a61ac24a0a6"
+    },
+    {
+      "model": "gpt-4.1",
+      "at": "2026-10-15T15:18:12.891787+00:00",
+      "task": "ratings-supplement-diane-rwigara-12",
+      "file": "evidence/model_responses/03d46391aea8bca8d0043abafa0057241058edcea238ce6bfa2131e039330766.json",
+      "cache_key": "03d46391aea8bca8d0043abafa0057241058edcea238ce6bfa2131e039330766"
+    },
+    {
+      "model": "gpt-4.1",
+      "at": "2026-10-15T15:18:13.301009+00:00",
+      "task": "ratings-supplement-philippe-mpayimana-12",
+      "file": "evidence/model_responses/989aa0bd47c258a719836b2306a58797cb30fcbedde948d31447b4339b86fcf7.json",
+      "cache_key": "989aa0bd47c258a719836b2306a58797cb30fcbedde948d31447b4339b86fcf7"
+    },
+    {
+      "model": "gpt-4.1",
+      "at": "2026-10-15T15:18:14.297965+00:00",
+      "task": "ratings-bernard-ntaganda-0",
+      "file": "evidence/model_responses/7682c389a1a85ae3646c0ade41ec7c5f6222049ca69a2161df978415f2d7978e.json",
+      "cache_key": "7682c389a1a85ae3646c0ade41ec7c5f6222049ca69a2161df978415f2d7978e"
+    },
+    {
+      "model": "gpt-4.1",
+      "at": "2026-10-15T15:18:18.338233+00:00",
+      "task": "ratings-christopher-kayumba-0",
+      "file": "evidence/model_responses/42ec3d5c7d6cb266a9975c23e6c726c49192c83a0d2dec9a14f53b5ec1e8823d.json",
+      "cache_key": "42ec3d5c7d6cb266a9975c23e6c726c49192c83a0d2dec9a14f53b5ec1e8823d"
+    },
+    {
+      "model": "gpt-4.1",
+      "at": "2026-10-15T15:18:21.209250+00:00",
+      "task": "ratings-paul-rusesabagina-0",
+      "file": "evidence/model_responses/2f1eae11b047c5062a3dcf0bd0abeafdbd19e24a6e5c46129ab5575b7b335963.json",
+      "cache_key": "2f1eae11b047c5062a3dcf0bd0abeafdbd19e24a6e5c46129ab5575b7b335963"
+    },
+    {
+      "model": "gpt-4.1",
+      "at": "2026-10-15T15:18:40.969190+00:00",
+      "task": "ratings-supplement-bernard-ntaganda-0",
+      "file": "evidence/model_responses/6ad57afde50399e31d0056d1bc727c8101d0e6dcc673622b54de0e34af081c0a.json",
+      "cache_key": "6ad57afde50399e31d0056d1bc727c8101d0e6dcc673622b54de0e34af081c0a"
+    },
+    {
+      "model": "gpt-4.1",
+      "at": "2026-10-15T15:18:46.658323+00:00",
+      "task": "ratings-supplement-bernard-ntaganda-12",
+      "file": "evidence/model_responses/0b92d38f8addd3f98955850a9231e6771b92e0e6928044ff3e1863ca54e7a7f7.json",
+      "cache_key": "0b92d38f8addd3f98955850a9231e6771b92e0e6928044ff3e1863ca54e7a7f7"
+    },
+    {
+      "model": "gpt-4.1",
+      "at": "2026-10-15T15:18:51.953911+00:00",
+      "task": "ratings-supplement-kayumba-nyamwasa-0",
+      "file": "evidence/model_responses/df2c70db61aff74d5b8bfd4ac5969a347e341595cedcc346c7db6dc2384ea55a.json",
+      "cache_key": "df2c70db61aff74d5b8bfd4ac5969a347e341595cedcc346c7db6dc2384ea55a"
+    },
+    {
+      "model": "gpt-4.1",
+      "at": "2026-10-15T15:18:55.408777+00:00",
+      "task": "ratings-supplement-paul-rusesabagina-0",
+      "file": "evidence/model_responses/6840faf9151e543f61c1fe8ecc54e5279aadb0bfaa70061bb96fc879a860bf0a.json",
+      "cache_key": "6840faf9151e543f61c1fe8ecc54e5279aadb0bfaa70061bb96fc879a860bf0a"
+    },
+    {
+      "model": "gpt-4.1",
+      "at": "2026-10-15T15:18:56.658284+00:00",
+      "task": "ratings-supplement-christopher-kayumba-0",
+      "file": "evidence/model_responses/261de5c3695187e32b87d9a7d75e6d8692cc1baff1b5ca39c1c8ed09023785a3.json",
+      "cache_key": "261de5c3695187e32b87d9a7d75e6d8692cc1baff1b5ca39c1c8ed09023785a3"
+    },
+    {
+      "model": "gpt-4.1",
+      "at": "2026-10-15T15:18:56.961409+00:00",
+      "task": "ratings-louise-mushikiwabo-0",
+      "file": "evidence/model_responses/64b7fdc9e416c2a93835ac337da4a23dabc278507583a20023fdbea703c19663.json",
+      "cache_key": "64b7fdc9e416c2a93835ac337da4a23dabc278507583a20023fdbea703c19663"
+    },
+    {
+      "model": "gpt-4.1",
+      "at": "2026-10-15T15:18:57.763590+00:00",
+      "task": "ratings-supplement-kayumba-nyamwasa-12",
+      "file": "evidence/model_responses/cfac195a295853a80a9024a71e3137d4a65396ed0be5032a9932845e19696f90.json",
+      "cache_key": "cfac195a295853a80a9024a71e3137d4a65396ed0be5032a9932845e19696f90"
+    },
+    {
+      "model": "gpt-4.1",
+      "at": "2026-10-15T15:19:01.313903+00:00",
+      "task": "ratings-supplement-paul-rusesabagina-12",
+      "file": "evidence/model_responses/d7c8ee09aee74c8cd53bb4cf635333c4bebc285626ff9c980d9931704b003acf.json",
+      "cache_key": "d7c8ee09aee74c8cd53bb4cf635333c4bebc285626ff9c980d9931704b003acf"
+    },
+    {
+      "model": "gpt-4.1",
+      "at": "2026-10-15T15:19:02.530170+00:00",
+      "task": "ratings-supplement-christopher-kayumba-12",
+      "file": "evidence/model_responses/89b05c3eb530b8b31ebefd7b48bb09a8cf5c1994f22f98f03ec573d79805209a.json",
+      "cache_key": "89b05c3eb530b8b31ebefd7b48bb09a8cf5c1994f22f98f03ec573d79805209a"
+    },
+    {
+      "model": "gpt-4.1",
+      "at": "2026-10-15T15:19:04.541647+00:00",
+      "task": "ratings-louise-mushikiwabo-12-russia-conflict-policy-evaluation",
+      "file": "evidence/model_responses/e256524982bc89f26dc05d0cf2487b6e25e3afe560a92aec6007517732aabd17.json",
+      "cache_key": "e256524982bc89f26dc05d0cf2487b6e25e3afe560a92aec6007517732aabd17"
+    },
+    {
+      "model": "gpt-4.1",
+      "at": "2026-10-15T15:19:11.496567+00:00",
+      "task": "ratings-valentine-rugwabiza-0",
+      "file": "evidence/model_responses/727ff3bd363df763e43ad39832226c7687204fd06332b3cae8ac38261554a8ac.json",
+      "cache_key": "727ff3bd363df763e43ad39832226c7687204fd06332b3cae8ac38261554a8ac"
+    },
+    {
+      "model": "gpt-4.1",
+      "at": "2026-10-15T15:19:18.632016+00:00",
+      "task": "ratings-valentine-rugwabiza-12",
+      "file": "evidence/model_responses/d409383265d29b4ceabf3c5845472290be226728420c54c56eeb7b07b2215506.json",
+      "cache_key": "d409383265d29b4ceabf3c5845472290be226728420c54c56eeb7b07b2215506"
+    },
+    {
+      "model": "gpt-4.1",
+      "at": "2026-10-15T15:19:32.619010+00:00",
+      "task": "ratings-supplement-louise-mushikiwabo-0",
+      "file": "evidence/model_responses/5ddbc06ef5c75afe4a9500a7c1f6f300e97bd1cd3b9f814e6a009c06adb3ddea.json",
+      "cache_key": "5ddbc06ef5c75afe4a9500a7c1f6f300e97bd1cd3b9f814e6a009c06adb3ddea"
+    },
+    {
+      "model": "gpt-4.1",
+      "at": "2026-10-15T15:19:39.287236+00:00",
+      "task": "ratings-supplement-louise-mushikiwabo-12",
+      "file": "evidence/model_responses/a5cbe61137cb995ee20ab7c9ccfb17596af5d9dd66508e1cb05749d98f8ab76b.json",
+      "cache_key": "a5cbe61137cb995ee20ab7c9ccfb17596af5d9dd66508e1cb05749d98f8ab76b"
+    },
+    {
+      "model": "gpt-4.1",
+      "at": "2026-10-15T15:19:45.898988+00:00",
+      "task": "ratings-supplement-valentine-rugwabiza-0",
+      "file": "evidence/model_responses/fff49f37350ab29a05a5cef7baf9cafe45c7a4351aff1d8be7aee70ad65c3082.json",
+      "cache_key": "fff49f37350ab29a05a5cef7baf9cafe45c7a4351aff1d8be7aee70ad65c3082"
+    },
+    {
+      "model": "gpt-4.1",
+      "at": "2026-10-15T15:19:46.534499+00:00",
+      "task": "ratings-supplement-claver-gatete-0",
+      "file": "evidence/model_responses/b69e60a85bae22632099d61d89ac4b31649a472221abacfdd997c1b4c8db2e36.json",
+      "cache_key": "b69e60a85bae22632099d61d89ac4b31649a472221abacfdd997c1b4c8db2e36"
+    },
+    {
+      "model": "gpt-4.1",
+      "at": "2026-10-15T15:19:54.063428+00:00",
+      "task": "ratings-supplement-valentine-rugwabiza-12",
+      "file": "evidence/model_responses/8d837111f2db3f90fcf569f3c7bf284ba3b3aca74ebdf8896a7c08c35bfeb415.json",
+      "cache_key": "8d837111f2db3f90fcf569f3c7bf284ba3b3aca74ebdf8896a7c08c35bfeb415"
+    },
+    {
+      "model": "gpt-4.1",
+      "at": "2026-10-15T15:19:54.160273+00:00",
+      "task": "ratings-supplement-claver-gatete-12",
+      "file": "evidence/model_responses/1757328c780ddafbca6fd2df57626a817663da0e483d5d5a6bc89d507f585166.json",
+      "cache_key": "1757328c780ddafbca6fd2df57626a817663da0e483d5d5a6bc89d507f585166"
+    }
+  ]
+}

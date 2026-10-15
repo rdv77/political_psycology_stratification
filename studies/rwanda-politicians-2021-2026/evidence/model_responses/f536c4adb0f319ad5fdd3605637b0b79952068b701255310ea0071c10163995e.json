@@ -1,0 +1,99 @@
+{
+  "data": {
+    "ratings": [
+      {
+        "scale_id": "prevention-crisis-response",
+        "positive": 3,
+        "negative": 1,
+        "status": "observed",
+        "confidence": 0.8,
+        "reason": "Многократные публичные заявления и управленческие действия Мукешиманы связывают развитие аграрного сектора с подготовкой кадров, инновациями, привлечением инвестиций и климатическим финансированием, что указывает на акцент на упреждающую подготовку и снижение рисков. В то же время есть отдельные призывы к ускорению трансформации и оперативному реагированию на вызовы.",
+        "evidence_indices": [
+          0,
+          1,
+          2,
+          5,
+          10,
+          12,
+          13,
+          14,
+          15
+        ]
+      },
+      {
+        "scale_id": "electoral-access",
+        "positive": null,
+        "negative": null,
+        "status": "unknown",
+        "confidence": 0.0,
+        "reason": "В предоставленных фактах отсутствуют персональные публичные заявления или действия Мукешиманы, прямо связанные с расширением или ограничением политического допуска.",
+        "evidence_indices": []
+      },
+      {
+        "scale_id": "institutional-autonomy-coordination",
+        "positive": null,
+        "negative": null,
+        "status": "unknown",
+        "confidence": 0.0,
+        "reason": "Нет прямых персональных заявлений или действий, позволяющих оценить отношение к самостоятельности институтов или координации единой линией.",
+        "evidence_indices": []
+      },
+      {
+        "scale_id": "taxation-burden-public-revenue",
+        "positive": null,
+        "negative": null,
+        "status": "unknown",
+        "confidence": 0.0,
+        "reason": "В материалах нет прямых предложений или заявлений Мукешиманы о снижении налоговой нагрузки или увеличении налоговых поступлений.",
+        "evidence_indices": []
+      },
+      {
+        "scale_id": "universal-targeted-provision",
+        "positive": 1,
+        "negative": 3,
+        "status": "observed",
+        "confidence": 0.7,
+        "reason": "Есть единичные призывы к равному доступу (например, для женщин), но преобладают акценты на адресной поддержке конкретных групп: женщин, молодёжи, мелких фермеров.",
+        "evidence_indices": [
+          8,
+          13,
+          14
+        ]
+      },
+      {
+        "scale_id": "ecological-limits-resource-use",
+        "positive": 1,
+        "negative": 0,
+        "status": "observed",
+        "confidence": 0.6,
+        "reason": "В ряде источников упоминается использование климатического финансирования и адаптационных мер, что указывает на отдельные проявления поддержки экологических ограничений, но нет устойчивого центрального акцента или призывов к расширению хозяйственного освоения.",
+        "evidence_indices": [
+          5,
+          12,
+          15
+        ]
+      }
+    ]
+  },
+  "model": "gpt-4.1",
+  "task": "ratings-supplement-gerardine-mukeshimana-12",
+  "at": "2026-10-15T15:13:05.617840+00:00",
+  "usage": {
+    "prompt_tokens": 5405,
+    "completion_tokens": 685,
+    "total_tokens": 6090,
+    "prompt_tokens_details": {
+      "cached_tokens": 2944,
+      "audio_tokens": 0
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "audio_tokens": 0,
+      "accepted_prediction_tokens": 0,
+      "rejected_prediction_tokens": 0
+    }
+  },
+  "citations": [],
+  "system_fingerprint": "fp_233583e333",
+  "cache_key": "f536c4adb0f319ad5fdd3605637b0b79952068b701255310ea0071c10163995e"
+}

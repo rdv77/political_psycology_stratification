@@ -1,0 +1,89 @@
+{
+  "data": {
+    "ratings": [
+      {
+        "scale_id": "prevention-crisis-response",
+        "positive": null,
+        "negative": null,
+        "status": "unknown",
+        "confidence": 0.4,
+        "reason": "Нет прямых персональных заявлений или программных акцентов Кабаребе, позволяющих оценить выраженность упреждающей профилактики или оперативного реагирования. Отдельные упоминания участия в форумах и обсуждениях безопасности не раскрывают его личную стратегию или приоритеты.",
+        "evidence_indices": [
+          11,
+          12
+        ]
+      },
+      {
+        "scale_id": "electoral-access",
+        "positive": null,
+        "negative": null,
+        "status": "unknown",
+        "confidence": 0.2,
+        "reason": "В предоставленных материалах отсутствуют персональные заявления или действия Кабаребе, связанные с расширением или ограничением политического допуска.",
+        "evidence_indices": []
+      },
+      {
+        "scale_id": "institutional-autonomy-coordination",
+        "positive": 0,
+        "negative": 3,
+        "status": "observed",
+        "confidence": 0.7,
+        "reason": "В публичных заявлениях Кабаребе акцентирует продолжение интеграционного курса, единую координацию и развитие общих механизмов в рамках Восточноафриканского сообщества. Нет оснований для выраженности гарантий самостоятельности институтов.",
+        "evidence_indices": [
+          8,
+          9,
+          10,
+          11
+        ]
+      },
+      {
+        "scale_id": "taxation-burden-public-revenue",
+        "positive": null,
+        "negative": null,
+        "status": "unknown",
+        "confidence": 0.2,
+        "reason": "Нет персональных заявлений или инициатив Кабаребе по снижению налоговой нагрузки или увеличению публичных доходов.",
+        "evidence_indices": []
+      },
+      {
+        "scale_id": "universal-targeted-provision",
+        "positive": null,
+        "negative": null,
+        "status": "unknown",
+        "confidence": 0.2,
+        "reason": "В материалах отсутствуют персональные заявления или действия Кабаребе, связанные с универсальными стандартами или адресной поддержкой.",
+        "evidence_indices": []
+      },
+      {
+        "scale_id": "ecological-limits-resource-use",
+        "positive": null,
+        "negative": null,
+        "status": "unknown",
+        "confidence": 0.2,
+        "reason": "Нет оснований для оценки отношения Кабаребе к экологическим ограничениям или расширению использования природных ресурсов.",
+        "evidence_indices": []
+      }
+    ]
+  },
+  "model": "gpt-4.1",
+  "task": "ratings-supplement-james-kabarebe-12",
+  "at": "2026-10-15T15:10:52.582303+00:00",
+  "usage": {
+    "prompt_tokens": 5242,
+    "completion_tokens": 449,
+    "total_tokens": 5691,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "audio_tokens": 0
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "audio_tokens": 0,
+      "accepted_prediction_tokens": 0,
+      "rejected_prediction_tokens": 0
+    }
+  },
+  "citations": [],
+  "system_fingerprint": "fp_233583e333",
+  "cache_key": "8879c70241b6e39b82d86fef624f1d7a5bdcb7c235d710f2b85b5e104b3d2af8"
+}

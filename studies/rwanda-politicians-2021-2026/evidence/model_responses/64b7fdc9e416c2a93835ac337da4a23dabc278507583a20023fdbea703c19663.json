@@ -1,0 +1,176 @@
+{
+  "data": {
+    "ratings": [
+      {
+        "scale_id": "programmatic-renewal",
+        "positive": null,
+        "negative": null,
+        "status": "unknown",
+        "confidence": 0.7,
+        "reason": "Нет прямых заявлений Мушикивабо о программном изменении или закреплении курса МОФ или других организаций; её публичные заявления касаются текущих событий и дипломатических задач, но не содержат явных предложений о пересмотре или закреплении программных приоритетов.",
+        "evidence_indices": [
+          0,
+          6,
+          7
+        ]
+      },
+      {
+        "scale_id": "government-course-assessment",
+        "positive": null,
+        "negative": null,
+        "status": "unknown",
+        "confidence": 0.7,
+        "reason": "В предоставленных материалах отсутствуют прямые оценки действующего курса какого-либо правительства; заявления носят институциональный и дипломатический характер.",
+        "evidence_indices": [
+          0,
+          1,
+          6
+        ]
+      },
+      {
+        "scale_id": "participation-administrative-direction",
+        "positive": 3,
+        "negative": 3,
+        "status": "observed",
+        "confidence": 0.9,
+        "reason": "Мушикивабо регулярно подчёркивает консультации, обмен мнениями, создание комитетов и контакты с гражданскими и политическими участниками (например, по Гаити), что указывает на выраженность совместного обсуждения. Одновременно отмечается административная координация и протокольный стиль (например, встречи с главами государств, призывы к исполнению решений), что отражает выраженность административного подхода.",
+        "evidence_indices": [
+          3,
+          7,
+          8
+        ]
+      },
+      {
+        "scale_id": "argumentation-evidence-values",
+        "positive": null,
+        "negative": null,
+        "status": "unknown",
+        "confidence": 0.7,
+        "reason": "В публичных заявлениях Мушикивабо отсутствуют примеры обоснования через конкретные данные или расчёты, а также прямые апелляции к ценностям, памяти или символам; риторика преимущественно институциональная и дипломатическая.",
+        "evidence_indices": [
+          6,
+          7
+        ]
+      },
+      {
+        "scale_id": "market-state-instruments",
+        "positive": null,
+        "negative": null,
+        "status": "unknown",
+        "confidence": 0.6,
+        "reason": "Нет прямых заявлений о приоритете частной инициативы или государственного регулирования в предоставленных материалах.",
+        "evidence_indices": [
+          6,
+          7
+        ]
+      },
+      {
+        "scale_id": "accessibility-growth-priorities",
+        "positive": null,
+        "negative": null,
+        "status": "unknown",
+        "confidence": 0.6,
+        "reason": "В материалах отсутствуют заявления о приоритете расширения доступности благ или инвестиционного роста.",
+        "evidence_indices": [
+          6,
+          7
+        ]
+      },
+      {
+        "scale_id": "external-domestic-resources",
+        "positive": null,
+        "negative": null,
+        "status": "unknown",
+        "confidence": 0.6,
+        "reason": "Нет прямых заявлений о приоритете внешнего финансирования или внутренней самостоятельности в ресурсном обеспечении.",
+        "evidence_indices": [
+          6,
+          7
+        ]
+      },
+      {
+        "scale_id": "international-rules-autonomy",
+        "positive": 3,
+        "negative": 1,
+        "status": "observed",
+        "confidence": 0.85,
+        "reason": "Мушикивабо неоднократно подчёркивает важность выполнения международных договорённостей и решений (например, призывы к исполнению посреднических решений по ДРК, солидарность с Украиной), что указывает на выраженность полюса международных правил. Защита национальной самостоятельности решений выражена слабо — только в форме передачи ответственности субрегиональным структурам.",
+        "evidence_indices": [
+          1,
+          5,
+          10
+        ]
+      },
+      {
+        "scale_id": "mediation-adversarial-communication",
+        "positive": 3,
+        "negative": 1,
+        "status": "observed",
+        "confidence": 0.85,
+        "reason": "Мушикивабо регулярно выступает с предложениями посредничества, передачи сообщений между сторонами, создания консультативных комитетов, что указывает на выраженность посреднической линии. Полемическая защита выражена слабо — эпизодически через осторожное дистанцирование от обвинительных выводов.",
+        "evidence_indices": [
+          1,
+          5,
+          8
+        ]
+      },
+      {
+        "scale_id": "cultural-openness-national-transmission",
+        "positive": 3,
+        "negative": 3,
+        "status": "observed",
+        "confidence": 0.9,
+        "reason": "Мушикивабо подчёркивает значение культурного обмена, разнообразия и продвижения французского языка как инструмента международного общения, одновременно акцентируя франкоязычную идентичность и культурную специфику.",
+        "evidence_indices": [
+          4,
+          9
+        ]
+      },
+      {
+        "scale_id": "problem-disclosure-reputation-defence",
+        "positive": 1,
+        "negative": 3,
+        "status": "observed",
+        "confidence": 0.8,
+        "reason": "Мушикивабо в отдельных случаях признаёт наличие кризисов и проблем (например, обеспокоенность ситуацией в Украине, призывы к миру в ДРК), однако основной акцент делается на поддержании репутации организации, продвижении позитивного образа и дипломатической корректности.",
+        "evidence_indices": [
+          5,
+          10
+        ]
+      },
+      {
+        "scale_id": "procedural-guarantees-enforcement",
+        "positive": null,
+        "negative": null,
+        "status": "unknown",
+        "confidence": 0.6,
+        "reason": "В материалах отсутствуют прямые заявления о расширении процедурных гарантий или о приоритете принудительного исполнения требований.",
+        "evidence_indices": [
+          6,
+          7
+        ]
+      }
+    ]
+  },
+  "model": "gpt-4.1",
+  "task": "ratings-louise-mushikiwabo-0",
+  "at": "2026-10-15T15:18:56.961409+00:00",
+  "usage": {
+    "prompt_tokens": 6424,
+    "completion_tokens": 1086,
+    "total_tokens": 7510,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "audio_tokens": 0
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "audio_tokens": 0,
+      "accepted_prediction_tokens": 0,
+      "rejected_prediction_tokens": 0
+    }
+  },
+  "citations": [],
+  "system_fingerprint": "fp_6d7f4b5803",
+  "cache_key": "64b7fdc9e416c2a93835ac337da4a23dabc278507583a20023fdbea703c19663"
+}

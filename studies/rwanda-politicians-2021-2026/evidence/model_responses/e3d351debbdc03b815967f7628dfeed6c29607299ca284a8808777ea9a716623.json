@@ -1,0 +1,132 @@
+{
+  "data": {
+    "ratings": [
+      {
+        "scale_id": "government-course-assessment",
+        "positive": 3,
+        "negative": 0,
+        "status": "observed",
+        "confidence": 0.9,
+        "reason": "Есть повторяющиеся публичные заявления о продолжении реформ, поддержке действующего курса и благодарности президенту, без признаков критики курса.",
+        "evidence_indices": [
+          2,
+          10,
+          11,
+          13,
+          15,
+          17
+        ]
+      },
+      {
+        "scale_id": "participation-administrative-direction",
+        "positive": 0,
+        "negative": 3,
+        "status": "observed",
+        "confidence": 0.85,
+        "reason": "Публичные материалы фиксируют административную координацию, постановку задач и контроль исполнения, без признаков совместного обсуждения с гражданами.",
+        "evidence_indices": [
+          10,
+          11,
+          13,
+          15,
+          18
+        ]
+      },
+      {
+        "scale_id": "argumentation-evidence-values",
+        "positive": 1,
+        "negative": 3,
+        "status": "observed",
+        "confidence": 0.8,
+        "reason": "Встречаются единичные ссылки на административные процедуры и профилактику (ограниченно доказательный подход), но основной акцент на ценностных и программных формулировках.",
+        "evidence_indices": [
+          15,
+          16,
+          17,
+          18
+        ]
+      },
+      {
+        "scale_id": "market-state-instruments",
+        "positive": 0,
+        "negative": 3,
+        "status": "observed",
+        "confidence": 0.8,
+        "reason": "Подчёркивается усиление обязательных административных правил и государственного регулирования; отсутствуют признаки расширения частной инициативы.",
+        "evidence_indices": [
+          18
+        ]
+      },
+      {
+        "scale_id": "external-domestic-resources",
+        "positive": null,
+        "negative": null,
+        "status": "unknown",
+        "confidence": 0.3,
+        "reason": "Нет прямых оснований для оценки опоры на внешние или внутренние ресурсы в публичных заявлениях.",
+        "evidence_indices": []
+      },
+      {
+        "scale_id": "international-rules-autonomy",
+        "positive": null,
+        "negative": null,
+        "status": "unknown",
+        "confidence": 0.3,
+        "reason": "Нет прямых публичных заявлений о закреплении международных обязательств или защите национальной самостоятельности решений.",
+        "evidence_indices": []
+      },
+      {
+        "scale_id": "mediation-adversarial-communication",
+        "positive": null,
+        "negative": null,
+        "status": "unknown",
+        "confidence": 0.3,
+        "reason": "Нет оснований для оценки по признакам посредничества или полемической защиты.",
+        "evidence_indices": []
+      },
+      {
+        "scale_id": "cultural-openness-national-transmission",
+        "positive": null,
+        "negative": null,
+        "status": "unknown",
+        "confidence": 0.3,
+        "reason": "Нет публичных заявлений о культурном обмене или сохранении национальных ценностей.",
+        "evidence_indices": []
+      },
+      {
+        "scale_id": "problem-disclosure-reputation-defence",
+        "positive": 1,
+        "negative": 3,
+        "status": "observed",
+        "confidence": 0.8,
+        "reason": "Ограниченное признание административных рисков и профилактики, но основной акцент на поддержке репутации и достижений без раскрытия конкретных проблем.",
+        "evidence_indices": [
+          13,
+          15,
+          16
+        ]
+      }
+    ]
+  },
+  "model": "gpt-4.1",
+  "task": "ratings-supplement-judith-uwizeye-0",
+  "at": "2026-10-15T15:12:11.218458+00:00",
+  "usage": {
+    "prompt_tokens": 7514,
+    "completion_tokens": 827,
+    "total_tokens": 8341,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "audio_tokens": 0
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "audio_tokens": 0,
+      "accepted_prediction_tokens": 0,
+      "rejected_prediction_tokens": 0
+    }
+  },
+  "citations": [],
+  "system_fingerprint": "fp_bee1fbc891",
+  "cache_key": "e3d351debbdc03b815967f7628dfeed6c29607299ca284a8808777ea9a716623"
+}

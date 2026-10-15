@@ -1,0 +1,172 @@
+{
+  "data": {
+    "ratings": [
+      {
+        "scale_id": "programmatic-renewal",
+        "positive": 3,
+        "negative": 3,
+        "status": "observed",
+        "confidence": 0.8,
+        "reason": "Рубингиса как мэр Кигали и губернатор Восточной провинции акцентировал модернизацию транспорта, обновление поселений, внедрение новых программ (например, климатическая устойчивость, развитие инфраструктуры), что указывает на программное обновление. Одновременно он связывал развитие с продолжением и расширением уже достигнутых результатов, что отражает преемственность.",
+        "evidence_indices": [
+          0,
+          1,
+          2,
+          5,
+          6,
+          7
+        ]
+      },
+      {
+        "scale_id": "government-course-assessment",
+        "positive": 1,
+        "negative": 0,
+        "status": "observed",
+        "confidence": 0.5,
+        "reason": "Есть единичные проявления поддержки действующего курса через благодарность партнёрам и акцент на достижениях, но нет прямой критики или систематической поддержки.",
+        "evidence_indices": [
+          5
+        ]
+      },
+      {
+        "scale_id": "participation-administrative-direction",
+        "positive": 3,
+        "negative": 3,
+        "status": "observed",
+        "confidence": 0.8,
+        "reason": "Рубингиса подчёркивал взаимодействие с гражданами, СМИ, международными и местными партнёрами, а также использовал административные инструменты (формализованные цели, коллективная ответственность, координация с государственными структурами).",
+        "evidence_indices": [
+          0,
+          1,
+          5,
+          6,
+          7
+        ]
+      },
+      {
+        "scale_id": "argumentation-evidence-values",
+        "positive": 1,
+        "negative": 1,
+        "status": "observed",
+        "confidence": 0.5,
+        "reason": "В публичных выступлениях встречаются ссылки на социальную пользу, модернизацию и профессиональную подготовку, но нет систематического использования ни доказательной, ни ценностной аргументации.",
+        "evidence_indices": [
+          1,
+          2,
+          3
+        ]
+      },
+      {
+        "scale_id": "market-state-instruments",
+        "positive": 0,
+        "negative": 1,
+        "status": "observed",
+        "confidence": 0.5,
+        "reason": "Есть единичные проявления акцента на государственных инструментах (модернизация транспорта, формализованные цели), но нет данных о продвижении частной инициативы.",
+        "evidence_indices": [
+          0,
+          2
+        ]
+      },
+      {
+        "scale_id": "accessibility-growth-priorities",
+        "positive": 3,
+        "negative": 3,
+        "status": "observed",
+        "confidence": 0.8,
+        "reason": "Рубингиса акцентировал расширение доступа к базовым услугам (детское развитие, обновление поселений) и одновременно развитие инфраструктуры, экономики и инвестиционной привлекательности.",
+        "evidence_indices": [
+          1,
+          2,
+          6
+        ]
+      },
+      {
+        "scale_id": "external-domestic-resources",
+        "positive": 3,
+        "negative": 1,
+        "status": "observed",
+        "confidence": 0.7,
+        "reason": "Регулярное взаимодействие с международными организациями (Всемирный банк, ПРООН) и благодарность партнёрам указывают на привлечение внешних ресурсов; отдельные упоминания о развитии на основе достигнутых результатов могут подразумевать опору на внутренние ресурсы, но это не центральный акцент.",
+        "evidence_indices": [
+          5,
+          6,
+          7
+        ]
+      },
+      {
+        "scale_id": "international-rules-autonomy",
+        "positive": null,
+        "negative": null,
+        "status": "unknown",
+        "confidence": 0.2,
+        "reason": "Нет прямых публичных заявлений о международных обязательствах или защите национальной самостоятельности решений.",
+        "evidence_indices": []
+      },
+      {
+        "scale_id": "mediation-adversarial-communication",
+        "positive": 1,
+        "negative": 0,
+        "status": "observed",
+        "confidence": 0.5,
+        "reason": "Есть единичные проявления поиска согласования интересов через взаимодействие с разными группами, но нет данных о полемике или защите собственной стороны.",
+        "evidence_indices": [
+          1,
+          7
+        ]
+      },
+      {
+        "scale_id": "cultural-openness-national-transmission",
+        "positive": 1,
+        "negative": 0,
+        "status": "observed",
+        "confidence": 0.4,
+        "reason": "Есть единичное упоминание возвращения после зарубежного обучения и служения стране, что может указывать на открытость к культурному обмену, но нет акцентов на национальных ценностях.",
+        "evidence_indices": [
+          3
+        ]
+      },
+      {
+        "scale_id": "problem-disclosure-reputation-defence",
+        "positive": 0,
+        "negative": 1,
+        "status": "observed",
+        "confidence": 0.5,
+        "reason": "Нет признаков публичного раскрытия проблем; есть единичные проявления защиты репутации через акцент на достижениях и благодарности партнёрам.",
+        "evidence_indices": [
+          5
+        ]
+      },
+      {
+        "scale_id": "procedural-guarantees-enforcement",
+        "positive": null,
+        "negative": null,
+        "status": "unknown",
+        "confidence": 0.2,
+        "reason": "Нет прямых данных о расширении процедурных гарантий или акценте на принудительном исполнении.",
+        "evidence_indices": []
+      }
+    ]
+  },
+  "model": "gpt-4.1",
+  "task": "ratings-pudence-rubingisa-0",
+  "at": "2026-10-15T15:14:34.200776+00:00",
+  "usage": {
+    "prompt_tokens": 5688,
+    "completion_tokens": 1003,
+    "total_tokens": 6691,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "audio_tokens": 0
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "audio_tokens": 0,
+      "accepted_prediction_tokens": 0,
+      "rejected_prediction_tokens": 0
+    }
+  },
+  "citations": [],
+  "system_fingerprint": "fp_6d7f4b5803",
+  "cache_key": "e3375c21c48378c3402364148e96dd5df41816d99b0ea409899053ad6de1f9fd"
+}

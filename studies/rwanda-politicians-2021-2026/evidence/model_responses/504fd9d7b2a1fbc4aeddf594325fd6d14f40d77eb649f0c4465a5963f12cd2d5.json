@@ -1,0 +1,74 @@
+{
+  "data": {
+    "ratings": [
+      {
+        "scale_id": "electoral-access",
+        "positive": null,
+        "negative": null,
+        "status": "unknown",
+        "confidence": 0.2,
+        "reason": "В предоставленных фактах отсутствуют прямые или косвенные сведения о публичных действиях или заявлениях Мусафири, связанных с расширением или ограничением политического допуска.",
+        "evidence_indices": []
+      },
+      {
+        "scale_id": "institutional-autonomy-coordination",
+        "positive": null,
+        "negative": null,
+        "status": "unknown",
+        "confidence": 0.4,
+        "reason": "Факты фиксируют участие Мусафири в координационных и кадровых процессах в аграрном секторе, однако нет прямых персональных заявлений или действий, однозначно свидетельствующих о позиции по автономии или координации институтов в целом.",
+        "evidence_indices": []
+      },
+      {
+        "scale_id": "taxation-burden-public-revenue",
+        "positive": null,
+        "negative": null,
+        "status": "unknown",
+        "confidence": 0.5,
+        "reason": "Есть эпизод о публичном объявлении адресной поддержки рисоводов за счёт государственных закупок (факт 10), что может косвенно указывать на использование публичных доходов, но нет прямых персональных заявлений о поддержке увеличения налоговых поступлений или снижении налоговой нагрузки.",
+        "evidence_indices": []
+      },
+      {
+        "scale_id": "universal-targeted-provision",
+        "positive": 1,
+        "negative": 1,
+        "status": "observed",
+        "confidence": 0.6,
+        "reason": "В эпизоде с выкупом риса (факт 10) отражена адресная поддержка конкретной группы (рисоводы), а также перераспределение продукции в школьное питание, что может трактоваться как элемент универсального охвата. Оба полюса проявлены единично.",
+        "evidence_indices": [
+          10
+        ]
+      },
+      {
+        "scale_id": "ecological-limits-resource-use",
+        "positive": null,
+        "negative": null,
+        "status": "unknown",
+        "confidence": 0.4,
+        "reason": "В публичных заявлениях о внедрении агробиотехнологий (факт 12) упоминается соблюдение требований биобезопасности, но нет прямых персональных предложений по усилению или ослаблению экологических ограничений.",
+        "evidence_indices": []
+      }
+    ]
+  },
+  "model": "gpt-4.1",
+  "task": "ratings-supplement-ildephonse-musafiri-12",
+  "at": "2026-10-15T15:12:51.813690+00:00",
+  "usage": {
+    "prompt_tokens": 4859,
+    "completion_tokens": 578,
+    "total_tokens": 5437,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "audio_tokens": 0
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "audio_tokens": 0,
+      "accepted_prediction_tokens": 0,
+      "rejected_prediction_tokens": 0
+    }
+  },
+  "citations": [],
+  "system_fingerprint": "fp_f25d2b37b0",
+  "cache_key": "504fd9d7b2a1fbc4aeddf594325fd6d14f40d77eb649f0c4465a5963f12cd2d5"
+}

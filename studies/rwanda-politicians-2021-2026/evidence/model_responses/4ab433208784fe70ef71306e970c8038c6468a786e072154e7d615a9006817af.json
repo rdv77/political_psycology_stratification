@@ -1,0 +1,164 @@
+{
+  "data": {
+    "ratings": [
+      {
+        "scale_id": "programmatic-renewal",
+        "positive": 1,
+        "negative": 1,
+        "status": "observed",
+        "confidence": 0.5,
+        "reason": "Есть единичные проявления: упоминание необходимости учиться у других стран и обсуждение актуализации комиссий Сената (факты 10, 14), что может указывать на программное обновление, но без детализации. Также присутствует публичная благодарность за преемственность и продолжение курса (факт 6, 7).",
+        "evidence_indices": [
+          10,
+          14,
+          6,
+          7
+        ]
+      },
+      {
+        "scale_id": "government-course-assessment",
+        "positive": 1,
+        "negative": 0,
+        "status": "observed",
+        "confidence": 0.5,
+        "reason": "Есть единичное публичное проявление поддержки действующего курса — поздравительное обращение Сената и благодарность президенту (факты 4, 5, 6, 7, 13). Прямой критики курса не выявлено.",
+        "evidence_indices": [
+          4,
+          5,
+          6,
+          7,
+          13
+        ]
+      },
+      {
+        "scale_id": "participation-administrative-direction",
+        "positive": 1,
+        "negative": 1,
+        "status": "observed",
+        "confidence": 0.5,
+        "reason": "Создание специального комитета Сената с элементами проверки и обсуждения (факт 8) — единичное проявление совместного обсуждения. Одновременно присутствует административная координация и поручения (тот же факт).",
+        "evidence_indices": [
+          8
+        ]
+      },
+      {
+        "scale_id": "argumentation-evidence-values",
+        "positive": 1,
+        "negative": 1,
+        "status": "observed",
+        "confidence": 0.5,
+        "reason": "В эпизоде с мясным проектом Gako (факт 9) Иямуремье ссылается на данные и отчёты, что указывает на единичное проявление доказательной аргументации. В риторике о международном имидже Руанды (факт 2, 3, 12) присутствует апелляция к символическим ценностям и репутации.",
+        "evidence_indices": [
+          9,
+          2,
+          3,
+          12
+        ]
+      },
+      {
+        "scale_id": "market-state-instruments",
+        "positive": 1,
+        "negative": 1,
+        "status": "observed",
+        "confidence": 0.5,
+        "reason": "В случае с Gako Meat Company (факт 9) отмечено предложение использовать опыт частных операторов и развивать экспорт (частная инициатива), а также упор на государственное вмешательство и контроль (государственное регулирование).",
+        "evidence_indices": [
+          9
+        ]
+      },
+      {
+        "scale_id": "accessibility-growth-priorities",
+        "positive": 1,
+        "negative": 1,
+        "status": "observed",
+        "confidence": 0.5,
+        "reason": "В эпизоде с модельными деревнями (факт 8) акцент на проверке доступности базовых благ. В случае Gako Meat Company (факт 9) — наращивание производства и экспорта, что связано с инвестиционным ростом.",
+        "evidence_indices": [
+          8,
+          9
+        ]
+      },
+      {
+        "scale_id": "external-domestic-resources",
+        "positive": 1,
+        "negative": 1,
+        "status": "observed",
+        "confidence": 0.5,
+        "reason": "В эпизоде с Gako Meat Company (факт 9) предложено использовать опыт и практики других стран (внешние ресурсы), а также развивать местное производство и снижать зависимость от импорта (внутренние ресурсы).",
+        "evidence_indices": [
+          9
+        ]
+      },
+      {
+        "scale_id": "international-rules-autonomy",
+        "positive": 1,
+        "negative": 1,
+        "status": "observed",
+        "confidence": 0.5,
+        "reason": "В риторике о международных форумах (факты 2, 3, 12, 13, 15, 16) есть акцент на международных контактах и легитимации (позитивный полюс), но также подчёркивается самостоятельная репрезентация Руанды и недопустимость искажения образа (негативный полюс).",
+        "evidence_indices": [
+          2,
+          3,
+          12,
+          13,
+          15,
+          16
+        ]
+      },
+      {
+        "scale_id": "mediation-adversarial-communication",
+        "positive": 1,
+        "negative": 0,
+        "status": "observed",
+        "confidence": 0.4,
+        "reason": "В риторике о международных форумах (факт 12) есть элемент посредничества и обмена мнениями, но нет прямых проявлений полемики или защиты собственной стороны.",
+        "evidence_indices": [
+          12
+        ]
+      },
+      {
+        "scale_id": "cultural-openness-national-transmission",
+        "positive": 1,
+        "negative": 0,
+        "status": "observed",
+        "confidence": 0.4,
+        "reason": "В публичных заявлениях о гендерном равенстве и обмене парламентскими практиками (факт 10) отмечается поддержка межкультурного обмена. Признаков акцента на сохранении национальных ценностей не выявлено.",
+        "evidence_indices": [
+          10
+        ]
+      },
+      {
+        "scale_id": "procedural-guarantees-enforcement",
+        "positive": 1,
+        "negative": 1,
+        "status": "observed",
+        "confidence": 0.5,
+        "reason": "Создание специального комитета для проверки условий жизни (факт 8) — проявление процедурных гарантий. Одновременно присутствует административное поручение и контроль исполнения (тот же факт).",
+        "evidence_indices": [
+          8
+        ]
+      }
+    ]
+  },
+  "model": "gpt-4.1",
+  "task": "ratings-supplement-augustin-iyamuremye-0",
+  "at": "2026-10-15T15:14:34.412264+00:00",
+  "usage": {
+    "prompt_tokens": 7265,
+    "completion_tokens": 1393,
+    "total_tokens": 8658,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "audio_tokens": 0
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "audio_tokens": 0,
+      "accepted_prediction_tokens": 0,
+      "rejected_prediction_tokens": 0
+    }
+  },
+  "citations": [],
+  "system_fingerprint": "fp_6d7f4b5803",
+  "cache_key": "4ab433208784fe70ef71306e970c8038c6468a786e072154e7d615a9006817af"
+}

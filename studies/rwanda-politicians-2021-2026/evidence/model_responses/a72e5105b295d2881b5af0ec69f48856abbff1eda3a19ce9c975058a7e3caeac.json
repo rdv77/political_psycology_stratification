@@ -1,0 +1,56 @@
+{
+  "data": {
+    "ratings": [
+      {
+        "scale_id": "international-rules-autonomy",
+        "positive": 3,
+        "negative": null,
+        "status": "unknown",
+        "confidence": 0.7,
+        "reason": "Есть повторяющиеся эпизоды публичного продвижения международных механизмов и сотрудничества (например, трансграничные встречи, участие в международных программах и конкурсах, благодарность международным партнёрам). Однако нет прямых датированных заявлений о закреплении обязательных международных норм или о защите национальной самостоятельности решений, поэтому второй полюс не может быть оценён.",
+        "evidence_indices": [
+          4,
+          5,
+          6,
+          7,
+          11,
+          12,
+          15,
+          16
+        ]
+      },
+      {
+        "scale_id": "procedural-guarantees-enforcement",
+        "positive": 1,
+        "negative": null,
+        "status": "unknown",
+        "confidence": 0.5,
+        "reason": "Есть единичное прямое публичное высказывание о цели обеспечить каждому ребёнку доступ к основным услугам (расширение гарантий), но нет оснований для оценки полюса принудительного исполнения и недостаточно эпизодов для более высокой оценки.",
+        "evidence_indices": [
+          10
+        ]
+      }
+    ]
+  },
+  "model": "gpt-4.1",
+  "task": "ratings-supplement-pudence-rubingisa-0",
+  "at": "2026-10-15T15:17:10.524876+00:00",
+  "usage": {
+    "prompt_tokens": 3846,
+    "completion_tokens": 229,
+    "total_tokens": 4075,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "audio_tokens": 0
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "audio_tokens": 0,
+      "accepted_prediction_tokens": 0,
+      "rejected_prediction_tokens": 0
+    }
+  },
+  "citations": [],
+  "system_fingerprint": "fp_3dbcf02e48",
+  "cache_key": "a72e5105b295d2881b5af0ec69f48856abbff1eda3a19ce9c975058a7e3caeac"
+}

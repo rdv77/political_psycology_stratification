@@ -1,0 +1,164 @@
+{
+  "data": {
+    "ratings": [
+      {
+        "scale_id": "programmatic-renewal",
+        "positive": 3,
+        "negative": 1,
+        "status": "observed",
+        "confidence": 0.8,
+        "reason": "Хабинеза неоднократно выдвигал предложения по пересмотру действующих правил (отмена земельного налога, изменение регулирования добычи, отмена 30-дневного срока предварительного заключения), что указывает на выраженный программный акцент на изменениях. Одновременно он ссылается на преемственность и выполнение прежних манифестов, что свидетельствует о некоторой опоре на продолжение курса.",
+        "evidence_indices": [
+          0,
+          1,
+          2,
+          3,
+          6,
+          7
+        ]
+      },
+      {
+        "scale_id": "government-course-assessment",
+        "positive": null,
+        "negative": null,
+        "status": "unknown",
+        "confidence": 0.5,
+        "reason": "Нет прямых датированных публичных оценок действующего государственного курса (ни поддержки, ни критики) в приведённых материалах.",
+        "evidence_indices": []
+      },
+      {
+        "scale_id": "participation-administrative-direction",
+        "positive": 3,
+        "negative": 1,
+        "status": "observed",
+        "confidence": 0.8,
+        "reason": "Указано, что манифест разрабатывался после консультаций во всех районах страны, что свидетельствует о вовлечении граждан. Одновременно есть элементы административного подхода (предложения по регулированию и контролю), но они не доминируют.",
+        "evidence_indices": [
+          0,
+          2,
+          6
+        ]
+      },
+      {
+        "scale_id": "argumentation-evidence-values",
+        "positive": 1,
+        "negative": 1,
+        "status": "observed",
+        "confidence": 0.7,
+        "reason": "Есть ссылка на измеримые результаты прежних манифестов (использование количественных данных), а также на ценностные ориентиры (образование, справедливость, защита природы), но оба полюса выражены единично.",
+        "evidence_indices": [
+          1,
+          2,
+          3
+        ]
+      },
+      {
+        "scale_id": "market-state-instruments",
+        "positive": 1,
+        "negative": 3,
+        "status": "observed",
+        "confidence": 0.7,
+        "reason": "Есть предложения по расширению прав собственности (элемент частной инициативы), но основной акцент на государственном регулировании (экологический контроль, отмена налогов, пересмотр разрешений).",
+        "evidence_indices": [
+          0,
+          2,
+          3
+        ]
+      },
+      {
+        "scale_id": "accessibility-growth-priorities",
+        "positive": 3,
+        "negative": 1,
+        "status": "observed",
+        "confidence": 0.8,
+        "reason": "Повторяющийся акцент на расширении доступа к воде, здравоохранению, отмене налогов для населения. Рост инвестиций и деловой активности упоминается лишь как сопутствующее условие.",
+        "evidence_indices": [
+          0,
+          3,
+          7
+        ]
+      },
+      {
+        "scale_id": "external-domestic-resources",
+        "positive": null,
+        "negative": null,
+        "status": "unknown",
+        "confidence": 0.5,
+        "reason": "Нет прямых заявлений о приоритете внешних или внутренних ресурсов в обеспечении программ.",
+        "evidence_indices": []
+      },
+      {
+        "scale_id": "international-rules-autonomy",
+        "positive": null,
+        "negative": null,
+        "status": "unknown",
+        "confidence": 0.5,
+        "reason": "Нет прямых заявлений о международных обязательствах или защите национальной самостоятельности решений.",
+        "evidence_indices": []
+      },
+      {
+        "scale_id": "mediation-adversarial-communication",
+        "positive": null,
+        "negative": null,
+        "status": "unknown",
+        "confidence": 0.5,
+        "reason": "Нет прямых примеров ни посредничества, ни полемической защиты в публичных заявлениях.",
+        "evidence_indices": []
+      },
+      {
+        "scale_id": "cultural-openness-national-transmission",
+        "positive": null,
+        "negative": null,
+        "status": "unknown",
+        "confidence": 0.5,
+        "reason": "Нет прямых заявлений о культурном обмене или сохранении национальных ценностей.",
+        "evidence_indices": []
+      },
+      {
+        "scale_id": "problem-disclosure-reputation-defence",
+        "positive": 1,
+        "negative": 1,
+        "status": "observed",
+        "confidence": 0.7,
+        "reason": "Есть единичное признание проблем (например, с предварительным заключением), а также продвижение репутации через ссылку на выполнение прежних обещаний.",
+        "evidence_indices": [
+          0,
+          1
+        ]
+      },
+      {
+        "scale_id": "procedural-guarantees-enforcement",
+        "positive": 1,
+        "negative": 1,
+        "status": "observed",
+        "confidence": 0.7,
+        "reason": "Есть предложение об отмене 30-дневного срока предварительного заключения (расширение гарантий), а также предложения по усилению контроля и регулирования (элемент принудительного исполнения), но оба полюса выражены единично.",
+        "evidence_indices": [
+          0,
+          2
+        ]
+      }
+    ]
+  },
+  "model": "gpt-4.1",
+  "task": "ratings-frank-habineza-0",
+  "at": "2026-10-15T15:17:05.206493+00:00",
+  "usage": {
+    "prompt_tokens": 5886,
+    "completion_tokens": 950,
+    "total_tokens": 6836,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "audio_tokens": 0
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "audio_tokens": 0,
+      "accepted_prediction_tokens": 0,
+      "rejected_prediction_tokens": 0
+    }
+  },
+  "citations": [],
+  "system_fingerprint": "fp_6d7f4b5803",
+  "cache_key": "4a8fa4b9828386882721d0edee84a0300e04a70679b4166b0560ba85bfe81118"
+}

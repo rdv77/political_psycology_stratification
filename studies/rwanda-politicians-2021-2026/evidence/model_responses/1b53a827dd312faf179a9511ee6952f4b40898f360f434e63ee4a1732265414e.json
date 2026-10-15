@@ -1,0 +1,134 @@
+{
+  "data": {
+    "ratings": [
+      {
+        "scale_id": "programmatic-renewal",
+        "positive": 5,
+        "negative": 0,
+        "status": "observed",
+        "confidence": 1,
+        "reason": "Публичная программа и заявления Ингабире содержат устойчивый акцент на институциональных реформах, инклюзивном диалоге, смене власти и изменении действующего курса. Призывов к продолжению или закреплению текущей политики не обнаружено.",
+        "evidence_indices": [
+          13,
+          15,
+          17,
+          21
+        ]
+      },
+      {
+        "scale_id": "participation-administrative-direction",
+        "positive": 5,
+        "negative": 0,
+        "status": "observed",
+        "confidence": 1,
+        "reason": "Ингабире последовательно выступает за инклюзивный диалог, децентрализацию, подотчётность лидеров гражданам и учёт интересов различных групп. Признаков административной директивности или управления исполнителями не найдено.",
+        "evidence_indices": [
+          13,
+          15,
+          17,
+          19
+        ]
+      },
+      {
+        "scale_id": "argumentation-evidence-values",
+        "positive": 0,
+        "negative": 3,
+        "status": "observed",
+        "confidence": 0.8,
+        "reason": "В программных заявлениях Ингабире обоснование строится на ценностях, исторической памяти и коллективных символах (признание всех жертв, комиссия примирения). Проверяемых данных, расчётов или ссылок на исследования не найдено.",
+        "evidence_indices": [
+          14
+        ]
+      },
+      {
+        "scale_id": "market-state-instruments",
+        "positive": 3,
+        "negative": 3,
+        "status": "observed",
+        "confidence": 0.8,
+        "reason": "Ингабире одновременно предлагает государственные инвестиции в производственные отрасли (госрегулирование) и ограничение участия государства в бизнесе для усиления частного сектора (частная инициатива). Оба полюса выражены на уровне повторяющихся программных акцентов.",
+        "evidence_indices": [
+          18
+        ]
+      },
+      {
+        "scale_id": "accessibility-growth-priorities",
+        "positive": 3,
+        "negative": 3,
+        "status": "observed",
+        "confidence": 0.8,
+        "reason": "В программе Ингабире одновременно присутствуют приоритеты расширения доступности базовых благ (поддержка малых предприятий, удовлетворение потребностей населения) и создания условий для инвестиций и роста конкурентоспособности.",
+        "evidence_indices": [
+          18,
+          20
+        ]
+      },
+      {
+        "scale_id": "external-domestic-resources",
+        "positive": 1,
+        "negative": 0,
+        "status": "observed",
+        "confidence": 0.7,
+        "reason": "Ингабире программно упоминает внутренние и иностранные инвестиции как источники развития, однако конкретных реализованных проектов или акцента на внутренней самостоятельности не найдено.",
+        "evidence_indices": [
+          18,
+          19
+        ]
+      },
+      {
+        "scale_id": "international-rules-autonomy",
+        "positive": null,
+        "negative": null,
+        "status": "unknown",
+        "confidence": 0.3,
+        "reason": "В предоставленных материалах отсутствуют прямые заявления Ингабире о международных обязательствах или защите национальной самостоятельности решений.",
+        "evidence_indices": []
+      },
+      {
+        "scale_id": "mediation-adversarial-communication",
+        "positive": 3,
+        "negative": 1,
+        "status": "observed",
+        "confidence": 0.8,
+        "reason": "Ингабире делает акцент на инклюзивном диалоге, переговорах и согласовании интересов (комиссия примирения, учёт голосов беженцев и оппозиции). Эпизоды полемической защиты собственной позиции встречаются, но не являются центральными.",
+        "evidence_indices": [
+          13,
+          14,
+          19
+        ]
+      },
+      {
+        "scale_id": "cultural-openness-national-transmission",
+        "positive": 1,
+        "negative": 3,
+        "status": "observed",
+        "confidence": 0.7,
+        "reason": "В программных заявлениях Ингабире присутствует предложение прояснить общую историю и признать всех жертв (ценностная преемственность), а также элементы межкультурного диалога, но акцент на сохранении и передаче национальных ценностей выражен сильнее.",
+        "evidence_indices": [
+          14
+        ]
+      }
+    ]
+  },
+  "model": "gpt-4.1",
+  "task": "ratings-supplement-victoire-ingabire-0",
+  "at": "2026-10-15T15:18:01.019040+00:00",
+  "usage": {
+    "prompt_tokens": 7033,
+    "completion_tokens": 1061,
+    "total_tokens": 8094,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "audio_tokens": 0
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "audio_tokens": 0,
+      "accepted_prediction_tokens": 0,
+      "rejected_prediction_tokens": 0
+    }
+  },
+  "citations": [],
+  "system_fingerprint": "fp_ea96bef74f",
+  "cache_key": "1b53a827dd312faf179a9511ee6952f4b40898f360f434e63ee4a1732265414e"
+}

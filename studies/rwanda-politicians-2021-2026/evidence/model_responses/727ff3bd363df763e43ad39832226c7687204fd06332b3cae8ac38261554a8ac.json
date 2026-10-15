@@ -1,0 +1,172 @@
+{
+  "data": {
+    "ratings": [
+      {
+        "scale_id": "programmatic-renewal",
+        "positive": 3,
+        "negative": 3,
+        "status": "observed",
+        "confidence": 0.9,
+        "reason": "В публичных выступлениях Ругвабиза отмечает необходимость завершения избирательного цикла и институционального обновления (факты 6,7), одновременно подчеркивая важность консолидации и продолжения достигнутого (факт 8). Оба полюса выражены как повторяющиеся акценты.",
+        "evidence_indices": [
+          6,
+          7,
+          8
+        ]
+      },
+      {
+        "scale_id": "government-course-assessment",
+        "positive": 3,
+        "negative": 0,
+        "status": "observed",
+        "confidence": 0.8,
+        "reason": "В публичных заявлениях она связывает прогресс с усилиями властей ЦАР и поддержкой MINUSCA, что трактуется как повторяющаяся поддержка действующего курса (факты 6,9,10). Прямой критики курса не выявлено.",
+        "evidence_indices": [
+          6,
+          9,
+          10
+        ]
+      },
+      {
+        "scale_id": "participation-administrative-direction",
+        "positive": 1,
+        "negative": 3,
+        "status": "observed",
+        "confidence": 0.7,
+        "reason": "В ряде выступлений отмечается поддержка инклюзивных и прозрачных выборов (факт 7), что трактуется как единичное проявление приглашения к участию. В то же время акцент на восстановлении и расширении государственной власти, управлении процессами и контроле исполнения выражен устойчиво (факты 2,3,6,8,10).",
+        "evidence_indices": [
+          2,
+          3,
+          6,
+          7,
+          8,
+          10
+        ]
+      },
+      {
+        "scale_id": "argumentation-evidence-values",
+        "positive": 3,
+        "negative": 1,
+        "status": "observed",
+        "confidence": 0.7,
+        "reason": "В публичных коммуникациях часто используются данные о демобилизации, выдаче документов, ходе выборов (факт 6), что указывает на повторяющееся использование доказательной аргументации. Призыв к ценностям и символам встречается эпизодически, например, в контексте институциональной стабильности (факт 7).",
+        "evidence_indices": [
+          6,
+          7
+        ]
+      },
+      {
+        "scale_id": "market-state-instruments",
+        "positive": null,
+        "negative": null,
+        "status": "unknown",
+        "confidence": 0.3,
+        "reason": "В предоставленных материалах отсутствуют прямые заявления о приоритете частной инициативы или государственного регулирования.",
+        "evidence_indices": []
+      },
+      {
+        "scale_id": "accessibility-growth-priorities",
+        "positive": 1,
+        "negative": 3,
+        "status": "observed",
+        "confidence": 0.7,
+        "reason": "Единично отмечено расширение доступа к базовым благам (выдача свидетельств о рождении уязвимым группам, факт 6). Приоритетом чаще выступает институциональный рост, расширение государственного присутствия и проведение выборов (факты 6,7,8,10).",
+        "evidence_indices": [
+          6,
+          7,
+          8,
+          10
+        ]
+      },
+      {
+        "scale_id": "external-domestic-resources",
+        "positive": null,
+        "negative": null,
+        "status": "unknown",
+        "confidence": 0.3,
+        "reason": "Нет прямых публичных заявлений о привлечении внешних ресурсов или опоре на внутренние доходы.",
+        "evidence_indices": []
+      },
+      {
+        "scale_id": "international-rules-autonomy",
+        "positive": 3,
+        "negative": 0,
+        "status": "observed",
+        "confidence": 0.8,
+        "reason": "Вся деятельность и публичные заявления строятся на выполнении международного мандата ООН, акцентируется реализация резолюций и обязательств (факты 2,3,7,8). Защита национальной самостоятельности решений не выявлена.",
+        "evidence_indices": [
+          2,
+          3,
+          7,
+          8
+        ]
+      },
+      {
+        "scale_id": "mediation-adversarial-communication",
+        "positive": 3,
+        "negative": 1,
+        "status": "observed",
+        "confidence": 0.7,
+        "reason": "Регулярно подчеркивается роль диалога, посредничества и согласования между сторонами (факт 6). Эпизодически встречается защита позиции MINUSCA и осуждение нападений (факты 4,5), что трактуется как единичное проявление полемической защиты.",
+        "evidence_indices": [
+          4,
+          5,
+          6
+        ]
+      },
+      {
+        "scale_id": "cultural-openness-national-transmission",
+        "positive": null,
+        "negative": null,
+        "status": "unknown",
+        "confidence": 0.2,
+        "reason": "В материалах отсутствуют прямые высказывания о культурном обмене или сохранении национальных ценностей.",
+        "evidence_indices": []
+      },
+      {
+        "scale_id": "problem-disclosure-reputation-defence",
+        "positive": 1,
+        "negative": 3,
+        "status": "observed",
+        "confidence": 0.7,
+        "reason": "Единично отмечено публичное сообщение об инцидентах с персоналом (факты 4,11), но чаще преобладает защитная коммуникация, направленная на поддержание репутации миссии и осуждение нападений (факты 5,8).",
+        "evidence_indices": [
+          4,
+          5,
+          8,
+          11
+        ]
+      },
+      {
+        "scale_id": "procedural-guarantees-enforcement",
+        "positive": null,
+        "negative": null,
+        "status": "unknown",
+        "confidence": 0.3,
+        "reason": "Нет прямых публичных заявлений о расширении процедурных гарантий или акценте на принудительном исполнении.",
+        "evidence_indices": []
+      }
+    ]
+  },
+  "model": "gpt-4.1",
+  "task": "ratings-valentine-rugwabiza-0",
+  "at": "2026-10-15T15:19:11.496567+00:00",
+  "usage": {
+    "prompt_tokens": 6209,
+    "completion_tokens": 1134,
+    "total_tokens": 7343,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "audio_tokens": 0
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "audio_tokens": 0,
+      "accepted_prediction_tokens": 0,
+      "rejected_prediction_tokens": 0
+    }
+  },
+  "citations": [],
+  "system_fingerprint": "fp_6d7f4b5803",
+  "cache_key": "727ff3bd363df763e43ad39832226c7687204fd06332b3cae8ac38261554a8ac"
+}

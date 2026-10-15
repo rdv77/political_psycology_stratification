@@ -1,0 +1,38 @@
+{
+  "data": {
+    "ratings": [
+      {
+        "scale_id": "russia-conflict-policy-evaluation",
+        "positive": 2,
+        "negative": 3,
+        "status": "observed",
+        "confidence": 0.8,
+        "reason": "В публичном заявлении от 24 февраля 2023 года Луиза Мушикивабо выразила обеспокоенность российской агрессией против Украины, солидарность с украинским народом и призыв к мирному урегулированию. Это выражает умеренную публичную критику конкретных действий России (negative=3) и в меньшей степени — оправдание (positive=2), поскольку речь идёт о негативной оценке, а не поддержке.",
+        "evidence_indices": [
+          0
+        ]
+      }
+    ]
+  },
+  "model": "gpt-4.1",
+  "task": "ratings-louise-mushikiwabo-12-russia-conflict-policy-evaluation",
+  "at": "2026-10-15T15:19:04.541647+00:00",
+  "usage": {
+    "prompt_tokens": 1312,
+    "completion_tokens": 144,
+    "total_tokens": 1456,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "audio_tokens": 0
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "audio_tokens": 0,
+      "accepted_prediction_tokens": 0,
+      "rejected_prediction_tokens": 0
+    }
+  },
+  "citations": [],
+  "system_fingerprint": "fp_ea96bef74f",
+  "cache_key": "e256524982bc89f26dc05d0cf2487b6e25e3afe560a92aec6007517732aabd17"
+}

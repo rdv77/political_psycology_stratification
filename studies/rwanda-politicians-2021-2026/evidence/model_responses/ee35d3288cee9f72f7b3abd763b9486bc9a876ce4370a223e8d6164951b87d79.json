@@ -1,0 +1,142 @@
+{
+  "data": {
+    "ratings": [
+      {
+        "scale_id": "programmatic-renewal",
+        "positive": null,
+        "negative": null,
+        "status": "unknown",
+        "confidence": 0.5,
+        "reason": "Нет прямых публичных заявлений Гатаре о необходимости пересмотра или закрепления существующего курса; все высказывания носят служебный характер и не содержат явных программных акцентов.",
+        "evidence_indices": []
+      },
+      {
+        "scale_id": "government-course-assessment",
+        "positive": null,
+        "negative": null,
+        "status": "unknown",
+        "confidence": 0.5,
+        "reason": "В предоставленных материалах отсутствуют прямые публичные оценки действующего государственного курса — ни поддержка, ни критика не зафиксированы.",
+        "evidence_indices": []
+      },
+      {
+        "scale_id": "participation-administrative-direction",
+        "positive": 1,
+        "negative": 1,
+        "status": "observed",
+        "confidence": 0.7,
+        "reason": "В публичном заявлении о работе в новой команде (факт 1) отмечено намерение слушать и учиться, что может трактоваться как единичное проявление ориентации на совместную работу. Одновременно в риторике о государственно-частном партнёрстве (факт 0) присутствует административный акцент на координацию и управление.",
+        "evidence_indices": [
+          0,
+          1
+        ]
+      },
+      {
+        "scale_id": "argumentation-evidence-values",
+        "positive": null,
+        "negative": null,
+        "status": "unknown",
+        "confidence": 0.5,
+        "reason": "Нет прямых примеров использования ни доказательной, ни ценностной аргументации в публичных заявлениях; описания носят общий служебный характер.",
+        "evidence_indices": []
+      },
+      {
+        "scale_id": "market-state-instruments",
+        "positive": 1,
+        "negative": 1,
+        "status": "observed",
+        "confidence": 0.7,
+        "reason": "В публичном сообщении (факт 0) подчёркнуто значение государственно-частного партнёрства, что свидетельствует о признании роли как частной инициативы, так и государственного регулирования, но только на уровне единичного проявления.",
+        "evidence_indices": [
+          0
+        ]
+      },
+      {
+        "scale_id": "accessibility-growth-priorities",
+        "positive": null,
+        "negative": null,
+        "status": "unknown",
+        "confidence": 0.5,
+        "reason": "Нет прямых заявлений о приоритете расширения доступности благ или инвестиционного роста; упоминание экономического роста связано с партнёрством, но не раскрывает приоритеты.",
+        "evidence_indices": []
+      },
+      {
+        "scale_id": "external-domestic-resources",
+        "positive": 1,
+        "negative": null,
+        "status": "unknown",
+        "confidence": 0.6,
+        "reason": "Есть единичное публичное упоминание о привлечении российских инвестиций (факт 2), что указывает на проявление первого полюса, но нет данных о позиции по внутренним ресурсам.",
+        "evidence_indices": [
+          2
+        ]
+      },
+      {
+        "scale_id": "international-rules-autonomy",
+        "positive": null,
+        "negative": null,
+        "status": "unknown",
+        "confidence": 0.5,
+        "reason": "Нет прямых публичных заявлений о поддержке международных обязательств или защите национальной самостоятельности.",
+        "evidence_indices": []
+      },
+      {
+        "scale_id": "mediation-adversarial-communication",
+        "positive": null,
+        "negative": null,
+        "status": "unknown",
+        "confidence": 0.5,
+        "reason": "В материалах отсутствуют примеры публичного посредничества или полемической защиты интересов.",
+        "evidence_indices": []
+      },
+      {
+        "scale_id": "cultural-openness-national-transmission",
+        "positive": null,
+        "negative": null,
+        "status": "unknown",
+        "confidence": 0.5,
+        "reason": "Нет оснований для оценки ориентации на межкультурный обмен или передачу национальных ценностей.",
+        "evidence_indices": []
+      },
+      {
+        "scale_id": "problem-disclosure-reputation-defence",
+        "positive": null,
+        "negative": null,
+        "status": "unknown",
+        "confidence": 0.5,
+        "reason": "В публичных заявлениях отсутствует как признание проблем, так и защита репутации.",
+        "evidence_indices": []
+      },
+      {
+        "scale_id": "procedural-guarantees-enforcement",
+        "positive": null,
+        "negative": null,
+        "status": "unknown",
+        "confidence": 0.5,
+        "reason": "Нет прямых публичных высказываний о расширении процедурных гарантий или акценте на принудительном исполнении.",
+        "evidence_indices": []
+      }
+    ]
+  },
+  "model": "gpt-4.1",
+  "task": "ratings-francis-gatare-0",
+  "at": "2026-10-15T15:13:15.465665+00:00",
+  "usage": {
+    "prompt_tokens": 5538,
+    "completion_tokens": 1147,
+    "total_tokens": 6685,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "audio_tokens": 0
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "audio_tokens": 0,
+      "accepted_prediction_tokens": 0,
+      "rejected_prediction_tokens": 0
+    }
+  },
+  "citations": [],
+  "system_fingerprint": "fp_6d7f4b5803",
+  "cache_key": "ee35d3288cee9f72f7b3abd763b9486bc9a876ce4370a223e8d6164951b87d79"
+}

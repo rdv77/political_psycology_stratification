@@ -1,0 +1,38 @@
+{
+  "data": {
+    "ratings": [
+      {
+        "scale_id": "russia-security-cooperation",
+        "positive": null,
+        "negative": null,
+        "status": "unknown",
+        "confidence": 0.5,
+        "reason": "Имеется подтверждение официального контакта Жювеналя Маризамунды с российской делегацией на мероприятии по военно-техническому сотрудничеству, однако отсутствуют сведения о его личных заявлениях, решениях или инициативах, позволяющих оценить выраженность как развития, так и ограничения сотрудничества с Россией.",
+        "evidence_indices": [
+          0
+        ]
+      }
+    ]
+  },
+  "model": "gpt-4.1",
+  "task": "ratings-supplement-juvenal-marizamunda-12-russia-security-cooperation",
+  "at": "2026-10-15T15:10:45.836904+00:00",
+  "usage": {
+    "prompt_tokens": 1314,
+    "completion_tokens": 112,
+    "total_tokens": 1426,
+    "prompt_tokens_details": {
+      "cached_tokens": 1152,
+      "audio_tokens": 0
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "audio_tokens": 0,
+      "accepted_prediction_tokens": 0,
+      "rejected_prediction_tokens": 0
+    }
+  },
+  "citations": [],
+  "system_fingerprint": "fp_8d3244826b",
+  "cache_key": "2c8ebaad52b7559fd38b6dc04682d11340c4055a979c9def7264d760d7de0bf9"
+}

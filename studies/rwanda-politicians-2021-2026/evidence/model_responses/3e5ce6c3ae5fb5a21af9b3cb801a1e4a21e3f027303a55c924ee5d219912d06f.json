@@ -1,0 +1,85 @@
+{
+  "data": {
+    "ratings": [
+      {
+        "scale_id": "prevention-crisis-response",
+        "positive": null,
+        "negative": null,
+        "status": "unknown",
+        "confidence": 0.7,
+        "reason": "В предоставленных фактах нет прямых персональных заявлений или действий Нсенгийюмвы, однозначно относящихся к упреждающему снижению рисков или оперативному реагированию на кризисы. Описания программ и стратегий развития не содержат конкретных эпизодов, позволяющих оценить выраженность этих полюсов.",
+        "evidence_indices": [
+          2,
+          3,
+          5,
+          11,
+          12
+        ]
+      },
+      {
+        "scale_id": "electoral-access",
+        "positive": null,
+        "negative": null,
+        "status": "unknown",
+        "confidence": 0.8,
+        "reason": "В материалах отсутствуют прямые публичные заявления или действия Нсенгийюмвы по расширению или ограничению политического допуска. Нет оснований для выставления оценки по обоим полюсам.",
+        "evidence_indices": [
+          0,
+          1,
+          8,
+          11
+        ]
+      },
+      {
+        "scale_id": "institutional-autonomy-coordination",
+        "positive": null,
+        "negative": null,
+        "status": "unknown",
+        "confidence": 0.8,
+        "reason": "Хотя в ряде эпизодов упоминается координация между правительством, парламентом и другими институтами, нет прямых персональных заявлений или действий Нсенгийюмвы, позволяющих однозначно оценить выраженность гарантий самостоятельности или единой управленческой линии.",
+        "evidence_indices": [
+          1,
+          2,
+          9,
+          11,
+          13
+        ]
+      },
+      {
+        "scale_id": "universal-targeted-provision",
+        "positive": null,
+        "negative": null,
+        "status": "unknown",
+        "confidence": 0.8,
+        "reason": "В изложении программ и приоритетов правительства упоминаются как общие стандарты (например, повышение качества образования и услуг), так и меры по улучшению благосостояния, но нет прямых персональных заявлений или действий Нсенгийюмвы, позволяющих оценить выраженность универсальных или адресных подходов.",
+        "evidence_indices": [
+          1,
+          2,
+          3,
+          9
+        ]
+      }
+    ]
+  },
+  "model": "gpt-4.1",
+  "task": "ratings-supplement-justin-nsengiyumva-12",
+  "at": "2026-10-15T15:10:00.803747+00:00",
+  "usage": {
+    "prompt_tokens": 4525,
+    "completion_tokens": 428,
+    "total_tokens": 4953,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "audio_tokens": 0
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "audio_tokens": 0,
+      "accepted_prediction_tokens": 0,
+      "rejected_prediction_tokens": 0
+    }
+  },
+  "citations": [],
+  "system_fingerprint": "fp_34f8e4113f",
+  "cache_key": "3e5ce6c3ae5fb5a21af9b3cb801a1e4a21e3f027303a55c924ee5d219912d06f"
+}

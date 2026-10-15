@@ -1,0 +1,63 @@
+{
+  "data": {
+    "ratings": [
+      {
+        "scale_id": "electoral-access",
+        "positive": null,
+        "negative": null,
+        "status": "unknown",
+        "confidence": 0.2,
+        "reason": "В предоставленных фактах отсутствуют прямые или косвенные сведения о публичных действиях или заявлениях Сабин Нсанзиманы, связанных с расширением или ограничением политического допуска, избирательной конкуренции или квалификационных барьеров участия.",
+        "evidence_indices": []
+      },
+      {
+        "scale_id": "institutional-autonomy-coordination",
+        "positive": null,
+        "negative": null,
+        "status": "unknown",
+        "confidence": 0.3,
+        "reason": "Факты описывают управленческие и координационные действия в сфере здравоохранения, взаимодействие с международными и национальными институтами, но не содержат прямых заявлений или действий, однозначно относящихся к гарантии самостоятельности институтов или их согласованию единой линией вне сектора здравоохранения.",
+        "evidence_indices": []
+      },
+      {
+        "scale_id": "taxation-burden-public-revenue",
+        "positive": null,
+        "negative": null,
+        "status": "unknown",
+        "confidence": 0.2,
+        "reason": "В материалах нет сведений о публичных предложениях или действиях Сабин Нсанзиманы, направленных на изменение налоговой нагрузки, имущественной самостоятельности или увеличения налоговых поступлений для публичного развития.",
+        "evidence_indices": []
+      },
+      {
+        "scale_id": "ecological-limits-resource-use",
+        "positive": null,
+        "negative": null,
+        "status": "unknown",
+        "confidence": 0.2,
+        "reason": "В предоставленных источниках отсутствуют сведения о позиции Сабин Нсанзиманы по вопросам экологических ограничений или расширения хозяйственного использования природных ресурсов.",
+        "evidence_indices": []
+      }
+    ]
+  },
+  "model": "gpt-4.1",
+  "task": "ratings-supplement-sabin-nsanzimana-12",
+  "at": "2026-10-15T15:12:03.365033+00:00",
+  "usage": {
+    "prompt_tokens": 4742,
+    "completion_tokens": 352,
+    "total_tokens": 5094,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "audio_tokens": 0
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "audio_tokens": 0,
+      "accepted_prediction_tokens": 0,
+      "rejected_prediction_tokens": 0
+    }
+  },
+  "citations": [],
+  "system_fingerprint": "fp_abd46bb020",
+  "cache_key": "878c33fab35dc28c991d477e8d2bacd5bc91c6252ef480d9328899a421284921"
+}

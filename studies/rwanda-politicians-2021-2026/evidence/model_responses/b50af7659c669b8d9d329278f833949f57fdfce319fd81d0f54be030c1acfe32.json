@@ -1,0 +1,59 @@
+{
+  "data": {
+    "ratings": [
+      {
+        "scale_id": "international-rules-autonomy",
+        "positive": 1,
+        "negative": 0,
+        "status": "observed",
+        "confidence": 0.6,
+        "reason": "Подписал соглашения с Африканским банком развития, что указывает на институциональное закрепление международных финансовых механизмов, однако отсутствуют прямые заявления о всеобщих обязательных международных правилах. Нет оснований для выраженности защиты национальной самостоятельности решений.",
+        "evidence_indices": [
+          6,
+          12
+        ]
+      },
+      {
+        "scale_id": "mediation-adversarial-communication",
+        "positive": 0,
+        "negative": 1,
+        "status": "observed",
+        "confidence": 0.5,
+        "reason": "В публичном интервью объяснял и защищал решение о сохранении RwandAir, что является примером защиты собственной позиции и ответа на критику. Прямых проявлений посредничества или поиска согласования интересов сторон не выявлено.",
+        "evidence_indices": [
+          13
+        ]
+      },
+      {
+        "scale_id": "cultural-openness-national-transmission",
+        "positive": null,
+        "negative": null,
+        "status": "unknown",
+        "confidence": 0.0,
+        "reason": "В предоставленных фактах отсутствуют прямые основания для оценки выраженности как расширения межкультурного обмена, так и сохранения национальных ценностей.",
+        "evidence_indices": []
+      }
+    ]
+  },
+  "model": "gpt-4.1",
+  "task": "ratings-supplement-uzziel-ndagijimana-0",
+  "at": "2026-10-15T15:11:23.378648+00:00",
+  "usage": {
+    "prompt_tokens": 3949,
+    "completion_tokens": 338,
+    "total_tokens": 4287,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "audio_tokens": 0
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "audio_tokens": 0,
+      "accepted_prediction_tokens": 0,
+      "rejected_prediction_tokens": 0
+    }
+  },
+  "citations": [],
+  "system_fingerprint": "fp_136a75fece",
+  "cache_key": "b50af7659c669b8d9d329278f833949f57fdfce319fd81d0f54be030c1acfe32"
+}

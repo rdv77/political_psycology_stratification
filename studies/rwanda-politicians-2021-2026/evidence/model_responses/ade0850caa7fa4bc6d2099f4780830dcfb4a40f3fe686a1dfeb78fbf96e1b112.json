@@ -1,0 +1,38 @@
+{
+  "data": {
+    "ratings": [
+      {
+        "scale_id": "russia-education-cultural-cooperation",
+        "positive": 3,
+        "negative": 0,
+        "status": "observed",
+        "confidence": 0.8,
+        "reason": "В интервью на форуме Россия–Африка Оливье Ндухунгирехе прямо заявил о надежде на подготовку специалистов в ядерной энергетике при содействии России и упомянул выпускников российских вузов, что свидетельствует о поддержке образовательных обменов с Россией. Нет данных о действиях по ограничению таких обменов.",
+        "evidence_indices": [
+          0
+        ]
+      }
+    ]
+  },
+  "model": "gpt-4.1",
+  "task": "ratings-olivier-nduhungirehe-12-russia-education-cultural-cooperation",
+  "at": "2026-10-15T15:10:14.130242+00:00",
+  "usage": {
+    "prompt_tokens": 1258,
+    "completion_tokens": 120,
+    "total_tokens": 1378,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "audio_tokens": 0
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "audio_tokens": 0,
+      "accepted_prediction_tokens": 0,
+      "rejected_prediction_tokens": 0
+    }
+  },
+  "citations": [],
+  "system_fingerprint": "fp_2f4bbfc724",
+  "cache_key": "ade0850caa7fa4bc6d2099f4780830dcfb4a40f3fe686a1dfeb78fbf96e1b112"
+}
