@@ -24,6 +24,231 @@ def table(headers, rows) -> dict:
             "rows": [[str(v) for v in row] for row in rows]}
 
 
+def _comparison_prose(value) -> list[dict]:
+    if isinstance(value, str):
+        return [paragraph(value)] if value.strip() else []
+    if isinstance(value, list):
+        blocks = []
+        for item in value:
+            if isinstance(item, dict):
+                text = item.get("text") or item.get("description") or item.get("summary")
+                label = item.get("factor_id") or item.get("label")
+                item = f"{label}: {text}" if label and text else text
+            blocks.extend(_comparison_prose(item))
+        return blocks
+    return []
+
+
+def _comparison_number(value, specification=".3f") -> str:
+    return format(value, specification) if isinstance(value, (int, float)) and not isinstance(value, bool) else "—"
+
+
+def comparison_overview(comparison: dict) -> list[dict]:
+    """Make alternatives visible without overwriting the frozen q=2 baseline."""
+    if not comparison or not comparison.get("models"):
+        return []
+    scope = comparison.get("scope", {})
+    blocks = [heading("Сравнение моделей q=2, q=3 и q=4: краткий итог", 2),
+              paragraph("Базовое решение прежнего отчёта q=2 сохранено для сопоставления. Ниже сравниваются модели q=2, q=3 и q=4 "
+                        "на одной матрице. Увеличение q само по себе не доказывает более содержательное решение."),
+              paragraph(f"Общая матрица сравнения: {scope.get('n_objects', '—')} объектов и {scope.get('n_scales', '—')} шкал. "
+                        f"Для сопоставления составов групп используется одинаковое k={scope.get('fixed_cluster_count', 3)}; "
+                        "численное и содержательное предпочтение k рассматриваются отдельно.")]
+    if scope.get("ratings_reused") is True:
+        blocks.append(paragraph("Во всех моделях повторно использована одна сохранённая матрица оценок; нового оценивания объектов не проводилось."))
+    blocks.extend(_comparison_prose(comparison.get("executive_summary")))
+    preferred = {row["q"]: row["k"] for row in comparison.get("selected_k", [])}
+    blocks.append(table(["Факторов q", "Общая дисперсия", "CV log likelihood", "RMS остатков", "Численное / рабочее k"],
+                        [[model.get("q", model.get("factor_count")), _comparison_number(model.get("variance_total"), ".1%"),
+                          _comparison_number(model.get("dimension_fit", {}).get("heldout_log_likelihood_mean")),
+                          _comparison_number(model.get("dimension_fit", {}).get("residual_rms_off_diagonal")),
+                          f"{model.get('numerical_recommended_k', '—')} / " +
+                          str(preferred.get(model.get("q"), model.get("cluster_count") if model.get("q") == 2 else "не выбрано"))]
+                         for model in comparison["models"]]))
+    blocks.extend(_comparison_prose(comparison.get("recommendation")))
+    return blocks
+
+
+def _comparison_contingency(matrix: dict, caption: str) -> list[dict]:
+    if not matrix or not matrix.get("values"):
+        return []
+    return [paragraph(caption), table(["Исходная / новая группа"] + matrix["columns"],
+                                     [[identity] + values for identity, values in zip(matrix["rows"], matrix["values"])])]
+
+
+def _comparison_clusters(clusters: list[dict]) -> list[dict]:
+    blocks = []
+    for cluster in clusters:
+        members = cluster.get("members", [])
+        blocks += [heading(f"{cluster['id']} {cluster.get('name', '')}: {cluster.get('count', len(members))} объектов", 3)]
+        blocks.extend(_comparison_prose(cluster.get("interpretation")))
+        if cluster.get("factor_center"):
+            blocks.append(paragraph("Центр в факторных координатах: " + "; ".join(
+                f"{identity}={_comparison_number(value, '+.3f')}" for identity, value in cluster["factor_center"].items()) + "."))
+        blocks.append(paragraph("Полный состав: " + ", ".join(item["name"] if isinstance(item, dict) else str(item) for item in members)))
+        if cluster.get("representatives"):
+            blocks.append(paragraph("Ближайшие к центру: " + ", ".join(item["name"] for item in cluster["representatives"])))
+        traits = cluster.get("distinguishing_scales", [])
+        if traits:
+            blocks.append(table(["Шкала", "Среднее группы", "Среднее выборки", "Различие в σ"],
+                                [[trait["name"], _comparison_number(trait.get("group_mean"), "+.2f"),
+                                  _comparison_number(trait.get("overall_mean"), "+.2f"),
+                                  _comparison_number(trait.get("difference"), "+.2f")] for trait in traits]))
+    return blocks
+
+
+def _comparison_changes(pair: dict) -> list[dict]:
+    changed = [row for row in pair.get("transitions", []) if row.get("changed") is True]
+    if pair.get("moved_count") is not None and len(changed) != pair["moved_count"]:
+        raise ValueError("Число переходов не совпадает с полным списком изменивших группу объектов")
+    if not changed:
+        return [paragraph("После согласования меток переходов между группами нет.")]
+    return [table(["Объект", "Исходная группа", "Согласованная новая группа"],
+                  [[row["name"], row["from_cluster"], row["to_cluster_aligned"]] for row in changed])]
+
+
+def comparison_details(comparison: dict) -> list[dict]:
+    if not comparison or not comparison.get("models"):
+        return []
+    blocks = [heading("Сравнение факторных моделей: подробности"),
+              paragraph("Номер и знак оси условны. При изменении q нагрузки поворачиваются заново: оси могут менять порядок, "
+                        "направление и распределение содержания. F1 модели q=3 нельзя автоматически считать той же осью, "
+                        "что F1 модели q=2. Соответствие проверяется по полным векторам нагрузок, а не по одинаковому номеру."),
+              paragraph("Доли дисперсии относятся к модельному описанию стандартизованных шкал. Изменения разбиений "
+                        "сопоставляются при фиксированном числе групп k. Метки групп согласованы по максимальному "
+                        "пересечению составов; простая перестановка C1/C2/C3 не считается переходом объекта.")]
+    for model in comparison["models"]:
+        q = model.get("q", model.get("factor_count"))
+        if q == 2:
+            continue
+        blocks.append(heading(f"Альтернативная модель q={q}", 2))
+        narrative = model.get("narrative", {})
+        blocks.extend(_comparison_prose(narrative.get("summary")))
+        blocks.extend(_comparison_prose(narrative.get("new_meanings")))
+        factors = model.get("factors", [])
+        if factors:
+            blocks.append(table(["Ось", "Интерпретация", "Доля дисперсии"],
+                                [[factor["id"], factor.get("label") or factor.get("name", ""),
+                                  _comparison_number(factor.get("variance_share"), ".1%")]
+                                 for factor in factors]))
+        for factor in factors:
+            blocks.append(heading(f"q={q}, {factor['id']}: {factor.get('label') or factor.get('name', '')}", 3))
+            blocks.extend(_comparison_prose(factor.get("interpretation")))
+            rows = [[pole, trait["name"], _comparison_number(trait.get("loading"), "+.3f")]
+                    for pole, key in (("Положительный", "positive_traits"), ("Отрицательный", "negative_traits"))
+                    for trait in factor.get(key, [])]
+            if rows:
+                blocks.append(table(["Полюс", "Шкала", "Нагрузка"], rows))
+        if model.get("loading_table"):
+            identities = [factor["id"] for factor in factors] or list(model["loading_table"][0]["loadings"])
+            blocks += [heading(f"Полная матрица нагрузок q={q}", 3),
+                       table(["Шкала"] + identities,
+                             [[row["name"]] + [_comparison_number(row["loadings"].get(identity), "+.3f") for identity in identities]
+                              for row in model["loading_table"]])]
+        blocks.extend(_comparison_prose(narrative.get("cluster_changes")))
+        if model.get("clusters"):
+            blocks.append(heading(f"Профили групп q={q} при фиксированном k={model.get('cluster_count', 3)}", 3))
+            blocks.extend(_comparison_clusters(model["clusters"]))
+    for match in comparison.get("factor_comparisons", []):
+        source, target = match["reference_q"], match["target_q"]
+        blocks.append(heading(f"Соответствие осей: q={source} и q={target}", 2))
+        if match.get("matched_factors"):
+            blocks.append(table([f"Ось q={source}", f"Ось q={target}", "Конгруэнтность", "Согласование знака"],
+                                [[row["reference_factor"], row["target_factor"], _comparison_number(row.get("congruence")),
+                                  "Обратное направление" if row.get("sign", 1) < 0 else "Одинаковое направление"]
+                                 for row in match["matched_factors"]]))
+        matrix = match.get("congruence_matrix", {})
+        if matrix.get("values"):
+            blocks.append(table([f"q={source} / q={target}"] + matrix["column_factors"],
+                                [[identity] + [_comparison_number(value) for value in row]
+                                 for identity, row in zip(matrix["row_factors"], matrix["values"])]))
+        if match.get("unmatched_target_factors"):
+            blocks.append(paragraph(f"Оси q={target} без отдельной пары в q={source}: " + ", ".join(match["unmatched_target_factors"]) +
+                                    ". Отсутствие пары отражает различие размерности; содержательная новизна оценивается по нагрузкам."))
+        if match.get("principal_angles_degrees"):
+            blocks.append(paragraph("Главные углы между факторными подпространствами: " +
+                                    ", ".join(_comparison_number(angle, ".1f") + "°" for angle in match["principal_angles_degrees"]) +
+                                    ". Это геометрическая диагностика близости подпространств."))
+        if match.get("procrustes", {}).get("relative_loading_residual") is not None:
+            blocks.append(paragraph("Относительный остаток нагрузок после отображения Прокруста: " +
+                                    _comparison_number(match["procrustes"]["relative_loading_residual"]) +
+                                    ". Отображение сопоставляет подпространства и не заменяет исходные именованные оси varimax."))
+    fixed = comparison.get("fixed_k3", [])
+    if fixed:
+        blocks += [heading("Составы групп при одинаковом k=3", 2),
+                   table(["Модели q", "ARI", "NMI", "Сохранили группу", "Сменили группу"],
+                         [[f"{row['reference_q']} → {row['target_q']}", _comparison_number(row.get("ari")),
+                           _comparison_number(row.get("nmi")), row.get("unchanged_count", "—"), row.get("moved_count", "—")]
+                          for row in fixed])]
+        for row in fixed:
+            blocks.extend(_comparison_contingency(row.get("contingency_aligned", {}),
+                          f"Пересечение составов q={row['reference_q']} и q={row['target_q']} после согласования меток, k={row.get('k', 3)}."))
+            blocks.append(heading(f"Все переходы: q={row['reference_q']} → q={row['target_q']}, k={row.get('k', 3)}", 3))
+            blocks.extend(_comparison_changes(row))
+    free = comparison.get("numerical_free_k", [])
+    if free:
+        blocks += [heading("Свободный выбор числа групп", 2),
+                   paragraph("Численное предпочтение k — диагностическая рекомендация. Рабочий выбор дополнительно учитывает "
+                             "содержательную различимость полных профилей; увеличение числа групп может лишь дробить близкие сочетания свойств.")]
+        for row in free:
+            blocks += [heading(f"Кандидаты k при q={row['q']}", 3),
+                       paragraph(f"Численная рекомендация: k={row['recommended_k']}. " + str(row.get("selection_rule", ""))),
+                       table(["k", "Силуэт", "Мин. группа", "Макс. группа", "Средний ARI", "Мин. медианный Jaccard"],
+                             [[item["k"], _comparison_number(item.get("silhouette")), item.get("min_size", "—"),
+                               item.get("max_size", "—"), _comparison_number(item.get("stability", {}).get("mean_ari")),
+                               _comparison_number(item.get("stability", {}).get("min_cluster_median_jaccard"))]
+                              for item in row.get("candidates", [])])]
+            model = next((model for model in comparison["models"] if model.get("q") == row["q"]), {})
+            if model.get("candidate_review"):
+                blocks.append(table(["k", f"Содержательное сравнение при q={row['q']}"],
+                                    [[item["k"], item["interpretation"]] for item in model["candidate_review"]]))
+    selected = comparison.get("selected_k", [])
+    if selected:
+        blocks += [heading("Рабочие варианты с отдельно выбранным k", 2),
+                   paragraph("Эти варианты дополняют сравнение при фиксированном k=3. Если число групп различается, "
+                             "таблицы пересечений показывают дробление и объединение составов. Частичное сопоставление групп "
+                             "не превращается в число объектов, якобы сменивших группу; ARI и NMI сравнивают разбиения целиком.")]
+        for row in selected:
+            q, k = row["q"], row["k"]
+            blocks.append(heading(f"Рабочая типология q={q}, k={k}", 3))
+            blocks.extend(_comparison_prose(row.get("selection_reason")))
+            quality = row.get("quality", {})
+            blocks.append(table(["Силуэт", "Средний ARI", "Медианный ARI", "Минимальный ARI", "Мин. медианный Jaccard"],
+                                [[_comparison_number(quality.get(key)) for key in
+                                  ("silhouette", "mean_ari", "median_ari", "min_ari", "min_cluster_median_jaccard")]]))
+            for key, caption in (("relative_to_q2", "С базовой моделью q=2, k=3"),
+                                 ("relative_to_fixed_k3", f"С моделью q={q} при фиксированном k=3")):
+                relative = row.get(key, {})
+                if relative:
+                    blocks.append(paragraph(f"{caption}: ARI={_comparison_number(relative.get('ari'))}; "
+                                            f"NMI={_comparison_number(relative.get('nmi'))}."))
+                    blocks.extend(_comparison_contingency(relative.get("overlap", {}), caption + ": пересечение составов."))
+            fixed_model = next((model for model in comparison["models"] if model.get("q") == q), {})
+            if k == fixed_model.get("cluster_count"):
+                blocks.append(paragraph("Рабочее k совпадает с фиксированным: полный состав и профили групп приведены выше для этой модели."))
+            elif row.get("clusters"):
+                blocks.extend(_comparison_clusters(row["clusters"]))
+    preferred_pair = comparison.get("preferred_k4_comparison")
+    if preferred_pair:
+        source, target, k = preferred_pair["reference_q"], preferred_pair["target_q"], preferred_pair.get("k", 4)
+        blocks += [heading(f"Согласованность рабочих типологий: q={source} и q={target}, k={k}", 2),
+                   table(["ARI", "NMI", "Сохранили группу", "Сменили группу"],
+                         [[_comparison_number(preferred_pair.get("ari")), _comparison_number(preferred_pair.get("nmi")),
+                           preferred_pair.get("unchanged_count", "—"), preferred_pair.get("moved_count", "—")]])]
+        blocks.extend(_comparison_contingency(preferred_pair.get("contingency_aligned", {}),
+                      f"Пересечение рабочих типологий q={source} и q={target}, k={k}, после согласования меток."))
+        blocks.append(heading(f"Все переходы между рабочими типологиями q={source} и q={target}, k={k}", 3))
+        blocks.extend(_comparison_changes(preferred_pair))
+    for chart in comparison.get("charts", []):
+        file = str(chart["file"]).replace("\\", "/")
+        if file.startswith("/") or ":" in file or ".." in file.split("/"):
+            raise ValueError("Сравнительная диаграмма должна находиться внутри output")
+        blocks += [heading(chart.get("title", "Сравнение моделей"), 2),
+                   {"type": "image", "file": file, "caption": chart.get("caption") or chart.get("title", "")}]
+    blocks.extend(_comparison_prose(comparison.get("limitations")))
+    return blocks
+
+
 def report_blocks(study: dict, analysis: dict, ratings: list[dict]) -> list[dict]:
     objects, scales = study["objects"], study["scales"]
     observed = sum(r.get("status") == "observed" for r in ratings)
@@ -55,6 +280,9 @@ def report_blocks(study: dict, analysis: dict, ratings: list[dict]) -> list[dict
               heading("Факторная структура"),
               table(["Ось", "Интерпретация", "Доля дисперсии"], [[f["id"], f.get("label") or f.get("name"), f"{f['variance_share']:.1%}"] for f in analysis["factors"]])]
     diagnostics = analysis.get("diagnostics", {})
+    overview_at = next(index for index, block in enumerate(blocks)
+                       if block.get("type") == "heading" and block.get("text") == "Методика")
+    blocks[overview_at:overview_at] = comparison_overview(analysis.get("model_comparison", {}))
     insert_at = next(index for index, block in enumerate(blocks)
                      if block.get("type") == "heading" and block.get("text") == "Словарь измерительных шкал")
     provenance = study.get("scale_provenance", {})
@@ -169,6 +397,7 @@ def report_blocks(study: dict, analysis: dict, ratings: list[dict]) -> list[dict
             blocks.extend([heading(obj["name"], 2), paragraph(str(obj.get("profile", ""))),
                            paragraph(f"Кластер: {obj.get('cluster_id')}. Оценено шкал: {obj.get('observed_scales')}; пропусков: {obj.get('missing_scales')}."),
                            table(["Фактор", "Координата"], [[k, f"{v:+.3f}"] for k, v in obj["factor_scores"].items()])])
+    blocks.extend(comparison_details(analysis.get("model_comparison", {})))
     blocks.extend([heading("Ограничения и воспроизводимость"),
                    paragraph("Выборка целевая и ограничена заданными критериями. Агрегирование десятилетнего периода может скрыть смену образа. Зависимые источники, смещения поисковой выдачи и оценщика могут влиять на результат. "
                              "Пропуски могут быть систематическими: публичные роли и тематическая освещённость влияют на доступность оценок. Заполнение средним не устраняет это смещение. "
@@ -229,6 +458,42 @@ def html_document(blocks: list[dict]) -> str:
     return "<!doctype html><html lang='ru'><meta charset='utf-8'><meta name='viewport' content='width=device-width'><title>Отчёт исследования</title><style>" + css + "</style><body>" + "\n".join(result) + "</body></html>"
 
 
+def write_report_bundle(output: Path) -> None:
+    """Keep model-relative assets intact in the reproducibility download."""
+    output = Path(output).resolve()
+    with zipfile.ZipFile(output / "report_bundle.zip", "w", compression=zipfile.ZIP_DEFLATED) as archive:
+        def add(file: Path, name: str) -> None:
+            if file.is_file() and not file.is_symlink() and file.resolve().is_relative_to(output):
+                archive.write(file, name)
+
+        for name in ("report.md", "report.html", "report.pdf", "report.docx", "slides.pptx", "report_content.json"):
+            add(output / name, name)
+        for folder in ("assets", "models"):
+            directory = output / folder
+            if directory.is_symlink():
+                continue
+            for file in sorted(directory.rglob("*")):
+                relative = file.relative_to(output)
+                # Exclude hidden runtime material and nested archives, including
+                # an old bundle that would recursively inflate the next export.
+                if any(part.startswith(".") for part in relative.parts) or file.suffix.lower() in {".zip", ".7z", ".tar", ".gz"}:
+                    continue
+                add(file, relative.as_posix())
+        for file in sorted(output.iterdir()):
+            if file.suffix in {".csv", ".joblib"} or file.name == "metadata.json":
+                add(file, "analysis/" + file.name)
+        # Research records live beside output by design; scope these reads to
+        # the study directory rather than the report's nested model folders.
+        study_directory = output.parent.resolve()
+        for name in ("study.json", "ratings.json"):
+            file = study_directory / name
+            if file.is_file() and not file.is_symlink() and file.resolve().is_relative_to(study_directory):
+                archive.write(file, "research/" + name)
+        for file in sorted((study_directory / "evidence").glob("*.json")):
+            if file.is_file() and not file.is_symlink() and file.resolve().is_relative_to(study_directory):
+                archive.write(file, "research/evidence/" + file.name)
+
+
 def export_report(study: dict, analysis: dict, ratings: list[dict], output: Path,
                   root: Path, runtime_python: str | None = None, runtime_node: str | None = None) -> list[dict]:
     output.mkdir(parents=True, exist_ok=True)
@@ -268,22 +533,7 @@ def export_report(study: dict, analysis: dict, ratings: list[dict], output: Path
                           capture_output=True, text=True, encoding="utf-8", timeout=420)
     if deck.returncode:
         raise ValueError("Ошибка экспорта презентации: " + deck.stderr[-1800:])
-    with zipfile.ZipFile(output / "report_bundle.zip", "w", compression=zipfile.ZIP_DEFLATED) as archive:
-        for name in ("report.md", "report.html", "report.pdf", "report.docx", "slides.pptx", "report_content.json"):
-            file = output / name
-            if file.exists():
-                archive.write(file, name)
-        for file in (output / "assets").glob("*.png"):
-            archive.write(file, "assets/" + file.name)
-        for file in output.iterdir():
-            if file.is_file() and (file.suffix in {".csv", ".joblib"} or file.name == "metadata.json"):
-                archive.write(file, "analysis/" + file.name)
-        for name in ("study.json", "ratings.json"):
-            file = output.parent / name
-            if file.exists():
-                archive.write(file, "research/" + name)
-        for file in (output.parent / "evidence").glob("*.json"):
-            archive.write(file, "research/evidence/" + file.name)
+    write_report_bundle(output)
     label = {"md": "Отчёт Markdown", "html": "Открыть отчёт", "pdf": "Отчёт PDF", "docx": "Для Google Docs с диаграммами",
              "pptx": "Слайды PowerPoint", "zip": "Все форматы и диаграммы"}
     names = ["report.md", "report.html", "report.pdf", "report.docx", "slides.pptx", "report_bundle.zip"]

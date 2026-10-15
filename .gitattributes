@@ -5,3 +5,10 @@
 *.png binary
 *.zip binary
 *.joblib binary
+
+# Research receipts contain byte-level SHA256 values. Preserve exported bytes
+# across checkouts instead of converting their line endings on another host.
+/studies/russian-politicians-2016-2026/study.json -text
+/studies/russian-politicians-2016-2026/ratings.json -text
+/studies/russian-politicians-2016-2026/output/** -text
+/research/russian_politicians_2016_2026/FACTOR_COMPARISON_INTERPRETATION.json -text

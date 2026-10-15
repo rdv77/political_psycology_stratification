@@ -224,52 +224,15 @@ async function main() {
     return chart;
   }
 
-  const focus = clean(study.focus || study.focus_object_id).toLocaleLowerCase("ru");
-  const focusIds = new Set((study.focus_object_ids || []).map(String));
-  const focused = (analysis.object_profiles || []).filter(object => focusIds.has(object.id) ||
-    (focus && (object.id.toLocaleLowerCase("ru") === focus || object.name.toLocaleLowerCase("ru").includes(focus))));
-  const showScalesSlide = true;
+  async function comparisonImage(current, chart, geometry) {
+    const filename = path.resolve(sourceDir, chart.file);
+    if (!filename.startsWith(`${sourceDir}${path.sep}`)) throw new Error("Comparison chart is outside the report directory");
+    current.images.add({ blob: await fs.readFile(filename), contentType: "image/png",
+      alt: chart.title || "Сравнение моделей", fit: "contain", position: geometry });
+  }
 
-  {
-    const current = slide(short(study.title || "Структура семантического пространства", 135));
-    lines(current, [short(study.scope || "", 220),
-      `Период: ${clean(study.period_label) || `${clean(study.date_from)} – ${clean(study.date_to)}`}`], 72, 180, 1075, 29, 20);
-    text(current, `${analysis.n_objects} объектов`, 72, 440, 345, 58, { size: 40, bold: true, color: TEAL });
-    text(current, `${analysis.n_scales} шкал`, 455, 440, 345, 58, { size: 40, bold: true, color: TEAL });
-    text(current, `${analysis.factor_count} факторов`, 838, 440, 345, 58, { size: 40, bold: true, color: TEAL });
-    text(current, study.example ?
-      "Технический пример: повторный анализ прежних оценок партий. Эти данные не являются новым исследованием политиков." :
-      "Разведочное исследование оценённых публичных образов", 72, 570, 1100, 75, { size: 23, color: MUTED });
-  }
-  {
-    const current = slide("Выборка и способ измерения", JSON.stringify(analysis.diagnostics?.dimension_selection || {}, null, 2));
-    const coverage = analysis.diagnostics?.retained_coverage;
-    const selectionMethod = typeof study.selection_method === "string" ? study.selection_method : study.selection_method?.description;
-    lines(current, [short(selectionMethod || "Целевая выборка по утверждённым пользователем критериям", 230),
-      study.legacy_import ? "Прежние оценки 0–10 преобразованы как x − 5. Два полюса отдельно не измерялись. Пропуски сохранены." :
-        "Каждый полюс: от 0 до 5. Разность: от −5 до +5. Неизвестное остаётся пропуском.",
-      "Gaussian FA и согласованное вращение varimax. Группы определяются по всем выбранным факторам.",
-      `${analysis.cluster_count} групп. Описанная общая дисперсия: ${pct(analysis.variance_total)}.` +
-        (coverage == null ? "" : ` Полнота матрицы: ${pct(coverage)}.`)], 72, 155, 1120, 26, 27);
-  }
-  if (showScalesSlide) {
-    const current = slide("Измерительные шкалы", JSON.stringify(study.scales || [], null, 2));
-    const examples = (study.scales || []).slice(0, 6);
-    table(current, ["Шкала", "Положительный полюс", "Отрицательный полюс"],
-      examples.map(item => [short(item.name, 32), short(item.positive, 32), short(item.negative, 32)]),
-      { left: 72, top: 155, width: 1136, height: 410, fontSize: 20 }, [360, 388, 388]);
-    text(current, `Примеры ${examples.length} из ${(study.scales || []).length} утверждённых шкал. Полный словарь и определения включены в отчёт.`,
-      72, 600, 1130, 53, { size: 21, color: MUTED });
-  }
-  {
-    const current = slide("Описанная дисперсия факторов");
-    await image(current, "variance.png", { left: 65, top: 145, width: 810, height: 470 });
-    text(current, pct(analysis.variance_total), 925, 225, 270, 78, { size: 57, bold: true, color: TEAL });
-    text(current, "Общая описанная дисперсия выбранного решения", 925, 325, 265, 110, { size: 26 });
-    text(current, "Доли FA описывают модель оценок. Их нельзя трактовать как доли населения.", 72, 625, 1136, 40, { size: 20, color: MUTED });
-  }
-  for (const factor of analysis.factors) {
-    const current = slide(`${factor.id} ${short(factor.label || factor.name, 150)}`, JSON.stringify(factor, null, 2));
+  function factorSlide(factor, prefix = "") {
+    const current = slide(`${prefix}${factor.id} ${short(factor.label || factor.name, 150)}`, JSON.stringify(factor, null, 2));
     text(current, `Доля наблюдаемой дисперсии: ${pct(factor.variance_share)}`, 72, 144, 1136, 37,
       { size: 25, bold: true, color: TEAL });
     text(current, summary(factor.interpretation, 280), 72, 196, 1136, 115, { size: 23 });
@@ -286,16 +249,176 @@ async function main() {
       "Нагрузки преимущественно одного знака. Противоположные свойства взяты только из заданных шкал. Биполярность требует проверки.",
       72, 630, 1136, 45, { size: 18, color: MUTED });
   }
+
+  const focus = clean(study.focus || study.focus_object_id).toLocaleLowerCase("ru");
+  const focusIds = new Set((study.focus_object_ids || []).map(String));
+  const focused = (analysis.object_profiles || []).filter(object => focusIds.has(object.id) ||
+    (focus && (object.id.toLocaleLowerCase("ru") === focus || object.name.toLocaleLowerCase("ru").includes(focus))));
+  const showScalesSlide = true;
+
+  {
+    const current = slide(short(study.title || "Структура семантического пространства", 135));
+    lines(current, [short(study.scope || "", 220),
+      `Период: ${clean(study.period_label) || `${clean(study.date_from)} – ${clean(study.date_to)}`}`], 72, 180, 1075, 29, 20);
+    text(current, `${analysis.n_objects} объектов`, 72, 440, 345, 58, { size: 40, bold: true, color: TEAL });
+    text(current, `${analysis.n_scales} шкал`, 455, 440, 345, 58, { size: 40, bold: true, color: TEAL });
+    text(current, analysis.model_comparison ? "2, 3 и 4 фактора" : `${analysis.factor_count} факторов`,
+      838, 440, 345, 58, { size: analysis.model_comparison ? 34 : 40, bold: true, color: TEAL });
+    text(current, study.example ?
+      "Технический пример: повторный анализ прежних оценок партий. Эти данные не являются новым исследованием политиков." :
+      "Разведочное исследование оценённых публичных образов", 72, 570, 1100, 75, { size: 23, color: MUTED });
+  }
+  {
+    const current = slide("Выборка и способ измерения", JSON.stringify(analysis.diagnostics?.dimension_selection || {}, null, 2));
+    const coverage = analysis.diagnostics?.retained_coverage;
+    const selectionMethod = typeof study.selection_method === "string" ? study.selection_method : study.selection_method?.description;
+    lines(current, [short(selectionMethod || "Целевая выборка по утверждённым пользователем критериям", 230),
+      study.legacy_import ? "Прежние оценки 0–10 преобразованы как x − 5. Два полюса отдельно не измерялись. Пропуски сохранены." :
+        "Каждый полюс: от 0 до 5. Разность: от −5 до +5. Неизвестное остаётся пропуском.",
+      "Gaussian FA и согласованное вращение varimax. Группы определяются по всем выбранным факторам.",
+      `${analysis.model_comparison ? "Базовое решение q=2: " : ""}${analysis.cluster_count} групп. Описанная общая дисперсия: ${pct(analysis.variance_total)}.` +
+        (coverage == null ? "" : ` Полнота матрицы: ${pct(coverage)}.`)], 72, 155, 1120, 26, 27);
+  }
+  if (showScalesSlide) {
+    const current = slide("Измерительные шкалы", JSON.stringify(study.scales || [], null, 2));
+    const examples = (study.scales || []).slice(0, 6);
+    table(current, ["Шкала", "Положительный полюс", "Отрицательный полюс"],
+      examples.map(item => [short(item.name, 32), short(item.positive, 32), short(item.negative, 32)]),
+      { left: 72, top: 155, width: 1136, height: 410, fontSize: 20 }, [360, 388, 388]);
+    text(current, `Примеры ${examples.length} из ${(study.scales || []).length} утверждённых шкал. Полный словарь и определения включены в отчёт.`,
+      72, 600, 1130, 53, { size: 21, color: MUTED });
+  }
+  {
+    const current = slide(analysis.model_comparison ? "Дисперсия базовой модели q=2" : "Описанная дисперсия факторов");
+    await image(current, "variance.png", { left: 65, top: 145, width: 810, height: 470 });
+    text(current, pct(analysis.variance_total), 925, 225, 270, 78, { size: 57, bold: true, color: TEAL });
+    text(current, "Общая описанная дисперсия выбранного решения", 925, 325, 265, 110, { size: 26 });
+    text(current, "Доли FA описывают модель оценок. Их нельзя трактовать как доли населения.", 72, 625, 1136, 40, { size: 20, color: MUTED });
+  }
+  for (const factor of analysis.factors) factorSlide(factor, analysis.model_comparison ? "q=2 · " : "");
+  if (analysis.model_comparison) {
+    const comparison = analysis.model_comparison;
+    narrativeSlides("Сравнение двух, трёх и четырёх факторов", comparison.executive_summary);
+    {
+      const current = slide("Дисперсия и качество альтернативных моделей");
+      const rows = comparison.models.map(model => [model.q, pct(model.variance_total),
+        model.gain_percentage_points == null ? "База" : `+${num(model.gain_percentage_points, 2)} п. п.`,
+        num(model.dimension_fit?.heldout_log_likelihood_mean, 3), num(model.dimension_fit?.residual_rms_off_diagonal, 3)]);
+      table(current, ["Факторов", "Дисперсия", "Прирост", "Отлож. log L", "Остаток RMS"], rows,
+        { left: 72, top: 174, width: 1136, height: 240, fontSize: 22 }, [145, 220, 235, 268, 268]);
+      text(current, "Один корпус: 63 объекта и 17 шкал. Большее log L лучше, меньший остаток лучше. Прирост рассчитан относительно предыдущей размерности.",
+        72, 465, 1136, 110, { size: 24 });
+      text(current, "Оси после вращения меняют порядок и знак. Их смысл сопоставляется по всему профилю нагрузок.",
+        72, 608, 1136, 52, { size: 21, color: MUTED });
+    }
+    for (const model of comparison.models.filter(item => Number(item.q) > 2)) {
+      narrativeSlides(`Новые смыслы при q=${model.q}`, model.narrative?.new_meanings || model.narrative?.summary);
+      for (const factor of model.factors || []) factorSlide(factor, `q=${model.q} · `);
+    }
+    for (const filename of ["loadings_models_q3_q4.png", "new_factor_planes.png"]) {
+      const chart = (comparison.charts || []).find(item => path.basename(item.file) === filename);
+      if (!chart) continue;
+      if (filename === "loadings_models_q3_q4.png") {
+        const three = comparison.models.find(item => item.q === 3);
+        const four = comparison.models.find(item => item.q === 4);
+        const fourRows = new Map(four.loading_table.map(item => [item.id, item]));
+        const labels = {
+          "security-sovereignty": "Суверенитет / интеграция",
+          "technocratic-management": "Результаты / идеологические принципы",
+          "parliamentary-institutional": "Институциональная / протестная работа",
+          "oppositionality": "Критика / поддержка курса",
+          "social-policy": "Перераспределение / личная ответственность",
+          "federal-loyalty": "Централизация / децентрализация",
+          "mobilization-rhetoric": "Мобилизация / обсуждение",
+          "conflictuality": "Конфронтация / компромисс",
+          "media-personalization": "Персональный / коллективный образ",
+          "antiwesternism": "Противостояние / сближение с Западом",
+          "party-leadership": "Партийная / независимая организация",
+          "international-activity": "Внешняя / внутренняя повестка",
+          "antiwar-rhetoric": "Прекращение / продолжение войны",
+          "electoral-legitimacy": "Выборный / административный мандат",
+          "rhetorical-simplicity": "Лозунг / развёрнутая аргументация",
+          "national-patriotism": "Национальная общность / универсальные права",
+          "coalitionality": "Коалиция / самостоятельная конкуренция",
+        };
+        const headers = ["Шкала", "q3 F1", "q3 F2", "q3 F3", "q4 F1", "q4 F2", "q4 F3", "q4 F4"];
+        const rowPages = chunks(three.loading_table, 9);
+        rowPages.forEach((page, pageIndex) => {
+          const current = slide(`Нагрузки шкал в моделях q=3 и q=4 (${pageIndex + 1}/${rowPages.length})`, chart.caption);
+          const rows = page.map(item => [labels[item.id] || item.name,
+            ...["F1", "F2", "F3"].map(id => signed(item.loadings[id])),
+            ...["F1", "F2", "F3", "F4"].map(id => signed(fourRows.get(item.id).loadings[id]))]);
+          table(current, headers, rows, { left: 72, top: 157, width: 1136, height: 420,
+            fontSize: 22, padding: 3 }, [541, 85, 85, 85, 85, 85, 85, 85]);
+          text(current, "Подписи шкал сокращены. Знак относится к первому полюсу шкалы. Полные определения и исходная матрица приведены в отчёте.",
+            72, 610, 1136, 58, { size: 21, color: MUTED });
+        });
+        continue;
+      }
+      const current = slide(chart.title, chart.caption);
+      await comparisonImage(current, chart, { left: 65, top: 140, width: 1150, height: 465 });
+      text(current, chart.caption, 72, 617, 1136, 53, { size: 18, color: MUTED });
+    }
+    for (const transition of (comparison.fixed_k3 || []).filter(item => item.reference_q === 2)) {
+      const current = slide(`Изменение групп: q=${transition.reference_q} и q=${transition.target_q}, k=3`,
+        JSON.stringify(transition, null, 2));
+      const chart = (comparison.charts || []).find(item => item.reference_q === transition.reference_q &&
+        item.target_q === transition.target_q && item.kind === "transition");
+      if (chart) await comparisonImage(current, chart, { left: 65, top: 142, width: 740, height: 430 });
+      else {
+        const matrix = transition.contingency_aligned;
+        if (matrix?.values) table(current, ["q=2", ...matrix.columns],
+          matrix.values.map((row, index) => [matrix.rows[index], ...row]),
+          { left: 72, top: 170, width: 710, height: 300, fontSize: 23 }, [170, 180, 180, 180]);
+      }
+      text(current, `${transition.moved_count} из ${comparison.scope.n_objects}`, 840, 185, 365, 70,
+        { size: 44, bold: true, color: TEAL });
+      text(current, "сменили группу после сопоставления меток", 840, 275, 365, 98, { size: 25 });
+      text(current, `ARI ${num(transition.ari, 3)}\nNMI ${num(transition.nmi, 3)}`, 840, 417, 365, 100, { size: 26 });
+      text(current, "Метки базовой модели: C1 — институциональная поддержка курса, C2 — антивоенная оппозиция, C3 — конфронтационная мобилизация.",
+        72, 507, 710, 80, { size: 19, color: MUTED });
+      text(current, "Число групп фиксировано. Метки сопоставлены по максимальному пересечению составов. Полный список переходов включён в отчёт.",
+        72, 606, 1136, 62, { size: 21, color: MUTED });
+      const model = comparison.models.find(item => item.q === transition.target_q);
+      narrativeSlides(`Состав групп при q=${transition.target_q}`, model?.narrative?.cluster_changes);
+    }
+    for (const selected of comparison.selected_k || []) {
+      const current = slide(`Самостоятельный выбор числа групп при q=${selected.q}`, JSON.stringify(selected, null, 2));
+      table(current, ["Группа", "Размер", "Близкие к центру представители"],
+        (selected.clusters || []).map(item => [`${item.id} ${short(item.name || item.label || item.id, 54)}`, item.count,
+          (item.representatives || []).slice(0, 2).map(person => person.name || person).join(", ")]),
+        { left: 72, top: 152, width: 1136, height: Math.min(355, 60 * (selected.clusters.length + 1)), fontSize: 20 },
+        [550, 130, 456]);
+      text(current, summary(selected.selection_reason, 450), 72, 535, 1136, 111, { size: 22 });
+    }
+    if (comparison.preferred_k4_comparison) {
+      const pair = comparison.preferred_k4_comparison;
+      const current = slide("Сходство рабочих типологий при k=4", JSON.stringify(pair, null, 2));
+      const chart = pair.chart && { ...pair.chart,
+        file: pair.chart.file.startsWith("models/") ? pair.chart.file : `models/${pair.chart.file}` };
+      if (chart) await comparisonImage(current, chart, { left: 65, top: 145, width: 740, height: 440 });
+      text(current, `${pair.unchanged_count} из ${comparison.scope.n_objects}`, 840, 165, 365, 68,
+        { size: 44, bold: true, color: TEAL });
+      text(current, "сохранили группу между q=3 и q=4", 840, 242, 365, 85, { size: 25 });
+      text(current, `ARI ${num(pair.ari, 3)}\nNMI ${num(pair.nmi, 3)}`, 840, 338, 365, 77, { size: 24 });
+      text(current, (pair.transitions || []).filter(item => item.changed).map(item => item.name).join("\n"),
+        840, 445, 365, 145, { size: 22 });
+      text(current, "Справа перечислены все изменившие группу объекты. Метки новой модели сопоставлены с q=3 по максимальному пересечению составов.",
+        72, 614, 1136, 56, { size: 20, color: MUTED });
+    }
+    narrativeSlides("Рабочая интерпретация размерности", comparison.recommendation);
+  }
   for (const [filename, title, caption] of [
     ["objects_f1_f2.png", "Объекты в факторном пространстве", "F1/F2 показывают проекцию. Группы рассчитаны по всем выбранным факторам."],
     ["traits_f1_f2.png", "Признаки в факторном пространстве", "Точки обозначают шкалы. Их координаты — нагрузки, а не факторные баллы объектов."],
   ]) {
-    const current = slide(title);
+    const current = slide(analysis.model_comparison ? `${title}, q=2` : title);
     await image(current, filename, { left: 105, top: 135, width: 1070, height: 485 });
     text(current, caption, 72, 632, 1136, 40, { size: 21, color: MUTED });
   }
   {
-    const current = slide("Локальное соседство на картах t-SNE", JSON.stringify(analysis.diagnostics?.tsne || {}));
+    const current = slide(analysis.model_comparison ? "Локальное соседство t-SNE базовой модели q=2" : "Локальное соседство на картах t-SNE",
+      JSON.stringify(analysis.diagnostics?.tsne || {}));
     await image(current, "tsne_objects.png", { left: 60, top: 175, width: 565, height: 390 });
     await image(current, "tsne_traits.png", { left: 655, top: 175, width: 565, height: 390 });
     text(current, "Объекты", 72, 136, 500, 34, { size: 25, bold: true, color: TEAL });
@@ -304,7 +427,8 @@ async function main() {
       72, 605, 1136, 64, { size: 22, color: MUTED });
   }
   {
-    const current = slide("Сравнение числа групп", JSON.stringify(analysis.diagnostics?.cluster_selection || {}, null, 2));
+    const current = slide(analysis.model_comparison ? "Сравнение числа групп базовой модели q=2" : "Сравнение числа групп",
+      JSON.stringify(analysis.diagnostics?.cluster_selection || {}, null, 2));
     const rows = (analysis.cluster_candidates || []).map(item => [item.k,
       num(item.silhouette, 3), `${item.min_size}–${item.max_size}`,
       num(item.stability_mean_ari ?? item.stability?.mean_ari, 3)]);
@@ -314,11 +438,11 @@ async function main() {
     text(current, `Рабочее решение: ${analysis.cluster_count} групп. Устойчивость оценена на подвыборках при фиксированных факторных координатах.`,
       72, 610, 1136, 57, { size: 22, color: MUTED });
   }
-  narrativeSlides(`Почему выбрано решение с k=${analysis.cluster_count}`,
+  narrativeSlides(`${analysis.model_comparison ? "Базовая модель q=2: " : ""}почему k=${analysis.cluster_count}`,
     analysis.cluster_selection_reason || analysis.diagnostics?.cluster_selection?.reason ||
     "Число групп зафиксировано в настройках этого расчёта. Это рабочая типология, которую следует сопоставить с содержанием альтернативных решений. Численные критерии приведены на предыдущем слайде.");
   for (const cluster of analysis.clusters) {
-    const current = slide(`${cluster.id} ${short(cluster.label || cluster.name || "Группа", 150)}`,
+    const current = slide(`${analysis.model_comparison ? "q=2 · " : ""}${cluster.id} ${short(cluster.label || cluster.name || "Группа", 150)}`,
       JSON.stringify(cluster, null, 2));
     text(current, `${cluster.count} объектов (${pct(cluster.count / analysis.n_objects)} выборки)`,
       72, 145, 1136, 40, { size: 26, bold: true, color: TEAL });
@@ -359,7 +483,7 @@ async function main() {
   }
   {
     const boundary = (analysis.object_profiles || []).filter(item => item.mixed_or_boundary).length;
-    narrativeSlides("Интерпретация изученного пространства", [analysis.space_interpretation ||
+    narrativeSlides(analysis.model_comparison ? "Интерпретация базового пространства q=2" : "Интерпретация изученного пространства", [analysis.space_interpretation ||
       "Факторы описывают совместное изменение семантических шкал. Группы объединяют объекты с похожими сочетаниями этих свойств.",
       `Пограничных профилей: ${boundary} из ${analysis.n_objects}. Их свойства могут сочетать признаки нескольких групп.`,
       "Незаполненный сектор означает отсутствие такого профиля в выбранной выборке и корпусе. Международное сравнение требует единого словаря и сопоставимого отбора."].join("\n\n"));

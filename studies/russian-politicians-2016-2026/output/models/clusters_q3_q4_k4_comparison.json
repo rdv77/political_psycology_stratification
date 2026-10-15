@@ -1,0 +1,615 @@
+{
+  "reference_q": 3,
+  "target_q": 4,
+  "k": 4,
+  "ari": 0.8127937760008644,
+  "nmi": 0.8368485297105085,
+  "moved_count": 4,
+  "unchanged_count": 59,
+  "overlap_alignment": {
+    "C4": "C1",
+    "C3": "C2",
+    "C1": "C3",
+    "C2": "C4"
+  },
+  "contingency_raw": {
+    "rows": [
+      "C1",
+      "C2",
+      "C3",
+      "C4"
+    ],
+    "columns": [
+      "C1",
+      "C2",
+      "C3",
+      "C4"
+    ],
+    "values": [
+      [
+        0,
+        0,
+        0,
+        10
+      ],
+      [
+        1,
+        0,
+        31,
+        3
+      ],
+      [
+        8,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        10,
+        0,
+        0
+      ]
+    ]
+  },
+  "contingency_aligned": {
+    "rows": [
+      "C1",
+      "C2",
+      "C3",
+      "C4"
+    ],
+    "columns": [
+      "C1",
+      "C2",
+      "C3",
+      "C4"
+    ],
+    "values": [
+      [
+        10,
+        0,
+        0,
+        0
+      ],
+      [
+        3,
+        31,
+        1,
+        0
+      ],
+      [
+        0,
+        0,
+        8,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        10
+      ]
+    ]
+  },
+  "transitions": [
+    {
+      "object_id": "vladimir-putin",
+      "name": "Владимир Путин",
+      "from_cluster": "C2",
+      "to_cluster_raw": "C1",
+      "to_cluster_aligned": "C3",
+      "changed": true
+    },
+    {
+      "object_id": "dmitry-medvedev",
+      "name": "Дмитрий Медведев",
+      "from_cluster": "C2",
+      "to_cluster_raw": "C3",
+      "to_cluster_aligned": "C2",
+      "changed": false
+    },
+    {
+      "object_id": "mikhail-mishustin",
+      "name": "Михаил Мишустин",
+      "from_cluster": "C2",
+      "to_cluster_raw": "C3",
+      "to_cluster_aligned": "C2",
+      "changed": false
+    },
+    {
+      "object_id": "sergey-lavrov",
+      "name": "Сергей Лавров",
+      "from_cluster": "C2",
+      "to_cluster_raw": "C3",
+      "to_cluster_aligned": "C2",
+      "changed": false
+    },
+    {
+      "object_id": "sergey-shoigu",
+      "name": "Сергей Шойгу",
+      "from_cluster": "C2",
+      "to_cluster_raw": "C3",
+      "to_cluster_aligned": "C2",
+      "changed": false
+    },
+    {
+      "object_id": "andrey-belousov",
+      "name": "Андрей Белоусов",
+      "from_cluster": "C2",
+      "to_cluster_raw": "C3",
+      "to_cluster_aligned": "C2",
+      "changed": false
+    },
+    {
+      "object_id": "nikolay-patrushev",
+      "name": "Николай Патрушев",
+      "from_cluster": "C2",
+      "to_cluster_raw": "C3",
+      "to_cluster_aligned": "C2",
+      "changed": false
+    },
+    {
+      "object_id": "alexander-bortnikov",
+      "name": "Александр Бортников",
+      "from_cluster": "C2",
+      "to_cluster_raw": "C3",
+      "to_cluster_aligned": "C2",
+      "changed": false
+    },
+    {
+      "object_id": "sergey-kiriyenko",
+      "name": "Сергей Кириенко",
+      "from_cluster": "C2",
+      "to_cluster_raw": "C3",
+      "to_cluster_aligned": "C2",
+      "changed": false
+    },
+    {
+      "object_id": "vyacheslav-volodin",
+      "name": "Вячеслав Володин",
+      "from_cluster": "C2",
+      "to_cluster_raw": "C3",
+      "to_cluster_aligned": "C2",
+      "changed": false
+    },
+    {
+      "object_id": "valentina-matviyenko",
+      "name": "Валентина Матвиенко",
+      "from_cluster": "C2",
+      "to_cluster_raw": "C3",
+      "to_cluster_aligned": "C2",
+      "changed": false
+    },
+    {
+      "object_id": "dmitry-peskov",
+      "name": "Дмитрий Песков",
+      "from_cluster": "C2",
+      "to_cluster_raw": "C3",
+      "to_cluster_aligned": "C2",
+      "changed": false
+    },
+    {
+      "object_id": "elvira-nabiullina",
+      "name": "Эльвира Набиуллина",
+      "from_cluster": "C2",
+      "to_cluster_raw": "C3",
+      "to_cluster_aligned": "C2",
+      "changed": false
+    },
+    {
+      "object_id": "anton-siluanov",
+      "name": "Антон Силуанов",
+      "from_cluster": "C2",
+      "to_cluster_raw": "C3",
+      "to_cluster_aligned": "C2",
+      "changed": false
+    },
+    {
+      "object_id": "tatyana-golikova",
+      "name": "Татьяна Голикова",
+      "from_cluster": "C2",
+      "to_cluster_raw": "C3",
+      "to_cluster_aligned": "C2",
+      "changed": false
+    },
+    {
+      "object_id": "gennady-zyuganov",
+      "name": "Геннадий Зюганов",
+      "from_cluster": "C1",
+      "to_cluster_raw": "C4",
+      "to_cluster_aligned": "C1",
+      "changed": false
+    },
+    {
+      "object_id": "vladimir-zhirinovsky",
+      "name": "Владимир Жириновский",
+      "from_cluster": "C3",
+      "to_cluster_raw": "C1",
+      "to_cluster_aligned": "C3",
+      "changed": false
+    },
+    {
+      "object_id": "leonid-slutsky",
+      "name": "Леонид Слуцкий",
+      "from_cluster": "C2",
+      "to_cluster_raw": "C4",
+      "to_cluster_aligned": "C1",
+      "changed": true
+    },
+    {
+      "object_id": "sergey-mironov",
+      "name": "Сергей Миронов",
+      "from_cluster": "C1",
+      "to_cluster_raw": "C4",
+      "to_cluster_aligned": "C1",
+      "changed": false
+    },
+    {
+      "object_id": "alexey-nechayev",
+      "name": "Алексей Нечаев",
+      "from_cluster": "C2",
+      "to_cluster_raw": "C4",
+      "to_cluster_aligned": "C1",
+      "changed": true
+    },
+    {
+      "object_id": "vladislav-davankov",
+      "name": "Владислав Даванков",
+      "from_cluster": "C2",
+      "to_cluster_raw": "C4",
+      "to_cluster_aligned": "C1",
+      "changed": true
+    },
+    {
+      "object_id": "zakhar-prilepin",
+      "name": "Захар Прилепин",
+      "from_cluster": "C3",
+      "to_cluster_raw": "C1",
+      "to_cluster_aligned": "C3",
+      "changed": false
+    },
+    {
+      "object_id": "natalya-poklonskaya",
+      "name": "Наталья Поклонская",
+      "from_cluster": "C2",
+      "to_cluster_raw": "C3",
+      "to_cluster_aligned": "C2",
+      "changed": false
+    },
+    {
+      "object_id": "elena-mizulina",
+      "name": "Елена Мизулина",
+      "from_cluster": "C2",
+      "to_cluster_raw": "C3",
+      "to_cluster_aligned": "C2",
+      "changed": false
+    },
+    {
+      "object_id": "vitaly-milonov",
+      "name": "Виталий Милонов",
+      "from_cluster": "C2",
+      "to_cluster_raw": "C3",
+      "to_cluster_aligned": "C2",
+      "changed": false
+    },
+    {
+      "object_id": "nina-ostanina",
+      "name": "Нина Останина",
+      "from_cluster": "C2",
+      "to_cluster_raw": "C3",
+      "to_cluster_aligned": "C2",
+      "changed": false
+    },
+    {
+      "object_id": "valentina-tereshkova",
+      "name": "Валентина Терешкова",
+      "from_cluster": "C2",
+      "to_cluster_raw": "C3",
+      "to_cluster_aligned": "C2",
+      "changed": false
+    },
+    {
+      "object_id": "alexander-khinshtein",
+      "name": "Александр Хинштейн",
+      "from_cluster": "C2",
+      "to_cluster_raw": "C3",
+      "to_cluster_aligned": "C2",
+      "changed": false
+    },
+    {
+      "object_id": "alexey-pushkov",
+      "name": "Алексей Пушков",
+      "from_cluster": "C2",
+      "to_cluster_raw": "C3",
+      "to_cluster_aligned": "C2",
+      "changed": false
+    },
+    {
+      "object_id": "konstantin-kosachev",
+      "name": "Константин Косачёв",
+      "from_cluster": "C2",
+      "to_cluster_raw": "C3",
+      "to_cluster_aligned": "C2",
+      "changed": false
+    },
+    {
+      "object_id": "sergey-sobyanin",
+      "name": "Сергей Собянин",
+      "from_cluster": "C2",
+      "to_cluster_raw": "C3",
+      "to_cluster_aligned": "C2",
+      "changed": false
+    },
+    {
+      "object_id": "alexander-beglov",
+      "name": "Александр Беглов",
+      "from_cluster": "C2",
+      "to_cluster_raw": "C3",
+      "to_cluster_aligned": "C2",
+      "changed": false
+    },
+    {
+      "object_id": "ramzan-kadyrov",
+      "name": "Рамзан Кадыров",
+      "from_cluster": "C3",
+      "to_cluster_raw": "C1",
+      "to_cluster_aligned": "C3",
+      "changed": false
+    },
+    {
+      "object_id": "rustam-minnikhanov",
+      "name": "Рустам Минниханов",
+      "from_cluster": "C2",
+      "to_cluster_raw": "C3",
+      "to_cluster_aligned": "C2",
+      "changed": false
+    },
+    {
+      "object_id": "mikhail-degtyarev",
+      "name": "Михаил Дегтярёв",
+      "from_cluster": "C2",
+      "to_cluster_raw": "C3",
+      "to_cluster_aligned": "C2",
+      "changed": false
+    },
+    {
+      "object_id": "sergey-levchenko",
+      "name": "Сергей Левченко",
+      "from_cluster": "C1",
+      "to_cluster_raw": "C4",
+      "to_cluster_aligned": "C1",
+      "changed": false
+    },
+    {
+      "object_id": "sergey-aksyonov",
+      "name": "Сергей Аксёнов",
+      "from_cluster": "C2",
+      "to_cluster_raw": "C3",
+      "to_cluster_aligned": "C2",
+      "changed": false
+    },
+    {
+      "object_id": "mikhail-razvozhayev",
+      "name": "Михаил Развожаев",
+      "from_cluster": "C2",
+      "to_cluster_raw": "C3",
+      "to_cluster_aligned": "C2",
+      "changed": false
+    },
+    {
+      "object_id": "vyacheslav-gladkov",
+      "name": "Вячеслав Гладков",
+      "from_cluster": "C2",
+      "to_cluster_raw": "C3",
+      "to_cluster_aligned": "C2",
+      "changed": false
+    },
+    {
+      "object_id": "andrey-chibis",
+      "name": "Андрей Чибис",
+      "from_cluster": "C2",
+      "to_cluster_raw": "C3",
+      "to_cluster_aligned": "C2",
+      "changed": false
+    },
+    {
+      "object_id": "yevgeny-royzman",
+      "name": "Евгений Ройзман",
+      "from_cluster": "C4",
+      "to_cluster_raw": "C2",
+      "to_cluster_aligned": "C4",
+      "changed": false
+    },
+    {
+      "object_id": "vadim-shumkov",
+      "name": "Вадим Шумков",
+      "from_cluster": "C2",
+      "to_cluster_raw": "C3",
+      "to_cluster_aligned": "C2",
+      "changed": false
+    },
+    {
+      "object_id": "alexey-navalny",
+      "name": "Алексей Навальный",
+      "from_cluster": "C4",
+      "to_cluster_raw": "C2",
+      "to_cluster_aligned": "C4",
+      "changed": false
+    },
+    {
+      "object_id": "ilya-yashin",
+      "name": "Илья Яшин",
+      "from_cluster": "C4",
+      "to_cluster_raw": "C2",
+      "to_cluster_aligned": "C4",
+      "changed": false
+    },
+    {
+      "object_id": "vladimir-kara-murza",
+      "name": "Владимир Кара-Мурза",
+      "from_cluster": "C4",
+      "to_cluster_raw": "C2",
+      "to_cluster_aligned": "C4",
+      "changed": false
+    },
+    {
+      "object_id": "grigory-yavlinsky",
+      "name": "Григорий Явлинский",
+      "from_cluster": "C1",
+      "to_cluster_raw": "C4",
+      "to_cluster_aligned": "C1",
+      "changed": false
+    },
+    {
+      "object_id": "lev-shlosberg",
+      "name": "Лев Шлосберг",
+      "from_cluster": "C1",
+      "to_cluster_raw": "C4",
+      "to_cluster_aligned": "C1",
+      "changed": false
+    },
+    {
+      "object_id": "boris-vishnevsky",
+      "name": "Борис Вишневский",
+      "from_cluster": "C1",
+      "to_cluster_raw": "C4",
+      "to_cluster_aligned": "C1",
+      "changed": false
+    },
+    {
+      "object_id": "gennady-gudkov",
+      "name": "Геннадий Гудков",
+      "from_cluster": "C4",
+      "to_cluster_raw": "C2",
+      "to_cluster_aligned": "C4",
+      "changed": false
+    },
+    {
+      "object_id": "garry-kasparov",
+      "name": "Гарри Каспаров",
+      "from_cluster": "C4",
+      "to_cluster_raw": "C2",
+      "to_cluster_aligned": "C4",
+      "changed": false
+    },
+    {
+      "object_id": "mikhail-khodorkovsky",
+      "name": "Михаил Ходорковский",
+      "from_cluster": "C4",
+      "to_cluster_raw": "C2",
+      "to_cluster_aligned": "C4",
+      "changed": false
+    },
+    {
+      "object_id": "vladimir-milov",
+      "name": "Владимир Милов",
+      "from_cluster": "C4",
+      "to_cluster_raw": "C2",
+      "to_cluster_aligned": "C4",
+      "changed": false
+    },
+    {
+      "object_id": "lyubov-sobol",
+      "name": "Любовь Соболь",
+      "from_cluster": "C4",
+      "to_cluster_raw": "C2",
+      "to_cluster_aligned": "C4",
+      "changed": false
+    },
+    {
+      "object_id": "yekaterina-duntsova",
+      "name": "Екатерина Дунцова",
+      "from_cluster": "C1",
+      "to_cluster_raw": "C4",
+      "to_cluster_aligned": "C1",
+      "changed": false
+    },
+    {
+      "object_id": "pavel-grudinin",
+      "name": "Павел Грудинин",
+      "from_cluster": "C1",
+      "to_cluster_raw": "C4",
+      "to_cluster_aligned": "C1",
+      "changed": false
+    },
+    {
+      "object_id": "nikolay-platoshkin",
+      "name": "Николай Платошкин",
+      "from_cluster": "C1",
+      "to_cluster_raw": "C4",
+      "to_cluster_aligned": "C1",
+      "changed": false
+    },
+    {
+      "object_id": "ilya-ponomarev",
+      "name": "Илья Пономарёв",
+      "from_cluster": "C3",
+      "to_cluster_raw": "C1",
+      "to_cluster_aligned": "C3",
+      "changed": false
+    },
+    {
+      "object_id": "leonid-gozman",
+      "name": "Леонид Гозман",
+      "from_cluster": "C4",
+      "to_cluster_raw": "C2",
+      "to_cluster_aligned": "C4",
+      "changed": false
+    },
+    {
+      "object_id": "sergey-udaltsov",
+      "name": "Сергей Удальцов",
+      "from_cluster": "C3",
+      "to_cluster_raw": "C1",
+      "to_cluster_aligned": "C3",
+      "changed": false
+    },
+    {
+      "object_id": "eduard-limonov",
+      "name": "Эдуард Лимонов",
+      "from_cluster": "C3",
+      "to_cluster_raw": "C1",
+      "to_cluster_aligned": "C3",
+      "changed": false
+    },
+    {
+      "object_id": "igor-strelkov",
+      "name": "Игорь Стрелков (Гиркин)",
+      "from_cluster": "C3",
+      "to_cluster_raw": "C1",
+      "to_cluster_aligned": "C3",
+      "changed": false
+    },
+    {
+      "object_id": "yevgeny-prigozhin",
+      "name": "Евгений Пригожин",
+      "from_cluster": "C3",
+      "to_cluster_raw": "C1",
+      "to_cluster_aligned": "C3",
+      "changed": false
+    },
+    {
+      "object_id": "oksana-dmitriyeva",
+      "name": "Оксана Дмитриева",
+      "from_cluster": "C1",
+      "to_cluster_raw": "C4",
+      "to_cluster_aligned": "C1",
+      "changed": false
+    }
+  ],
+  "scope": "Same objects and fixed k; maximum-overlap label permutation only, no model refit or forced memberships",
+  "artifact_files": {
+    "all_objects_csv": "clusters_q3_q4_k4_all_objects.csv",
+    "changed_objects_csv": "clusters_q3_q4_k4_changed_objects.csv",
+    "contingency_raw_csv": "clusters_q3_q4_k4_contingency_raw.csv",
+    "contingency_aligned_csv": "clusters_q3_q4_k4_contingency_aligned.csv",
+    "chart_png": "assets/clusters_q3_q4_k4.png",
+    "comparison_json": "clusters_q3_q4_k4_comparison.json"
+  },
+  "chart": {
+    "title": "Переходы q3→q4 при k=4",
+    "file": "assets/clusters_q3_q4_k4.png",
+    "caption": "После max-overlap выравнивания меток; исходные номера кластеров и полный список всех объектов сохранены в CSV."
+  }
+}

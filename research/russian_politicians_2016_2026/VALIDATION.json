@@ -1,5 +1,5 @@
 {
-  "checked_at": "2026-10-14T22:23:23.125803+00:00",
+  "checked_at": "2026-10-15T07:41:35.831413+00:00",
   "numerical": {
     "n_objects": 63,
     "n_scales": 17,
@@ -31,27 +31,304 @@
   ],
   "interpretation_revisions": 10,
   "software_tests": {
-    "passed": 82,
-    "failed": 0
+    "passed": 101,
+    "failed": 0,
+    "command": "python -m unittest discover -s tests"
   },
   "artifact_qa": {
-    "pdf_pages": 72,
+    "pdf_pages": 107,
     "pdf_rendered_and_reviewed": true,
-    "pptx_slides": 21,
+    "pptx_slides": 43,
     "pptx_rendered_and_reviewed": true,
     "pptx_package_layout_import_passed": true,
     "docx_structure_and_title_check_passed": true,
     "docx_visual_rendered": false,
     "browser_visual_tested": false,
     "http_all_six_artifacts": 200,
-    "reviewer_type": "assistant; not independent human validation"
+    "reviewer_type": "assistant; not independent human validation",
+    "pdf_render_review": true,
+    "pdf_review_scope": "All107pages rendered at2x and reviewed in sequence on contact sheets; fullsize pages1/2,33/35/36,55-60. No material layout defects.",
+    "pptx_package_checks": true,
+    "pptx_all_slides_rendered": true,
+    "pptx_all_slides_reviewed": true,
+    "pptx_loadings_cells_verified": 119,
+    "pptx_native_powerpoint_opened": false,
+    "docx_structure_checked": true,
+    "docx_tables": 67,
+    "docx_images": 14,
+    "docx_visual_render": false,
+    "browser_visual": false,
+    "bundle_files": 363,
+    "bundle_matches_current_files": true,
+    "http_all_six_200": true,
+    "http_checks": [
+      {
+        "file": "report.md",
+        "status": 200
+      },
+      {
+        "file": "report.html",
+        "status": 200
+      },
+      {
+        "file": "report.pdf",
+        "status": 200
+      },
+      {
+        "file": "report.docx",
+        "status": 200
+      },
+      {
+        "file": "slides.pptx",
+        "status": 200
+      },
+      {
+        "file": "report_bundle.zip",
+        "status": 200
+      },
+      {
+        "file": "models/q3/selected_k4/metadata.json",
+        "status": 200
+      },
+      {
+        "file": "models/q4/selected_k4/metadata.json",
+        "status": 200
+      }
+    ]
   },
   "sha256": {
-    "report.md": "771ad43f9d9f4d54b84eb4e76228f2fa92839f1127c6c9f85207cce683e8eb04",
-    "report.html": "fdbfb70d3483689ac6d39d41d06914018ed21ae2babe0b54a0d90f753350e04e",
-    "report.pdf": "4f2b9ddca6b78606b737808d3706e65c5fd1a6113833b6026beeaabbe5cda08b",
-    "report.docx": "005772f0f53479b7199b5aa7d2bef1b54cd7839590dd2445815507f171fb1fd6",
-    "slides.pptx": "e246b94ad70cedc3b95c8dacb36ca46ee7694b7f34b1205f1949bc1ee03e0f43",
-    "report_bundle.zip": "4ad57d553b537f97bc2df4c1d860b37987f03aec1eece152f28103370566c91f"
+    "report.md": "bb8f685d7ec777e8580dc2062d97731faa193821630960180662dd8f928d87d0",
+    "report.html": "b0d08334948cef66baa7a83f065d113776a3462478bdbb654e22bd293ad16ffd",
+    "report.pdf": "95dd3008a9041a24b1def3d9deee57d1238ea5f8e3e15164ca0131b8fa21c997",
+    "report.docx": "f913ad79c689a96a07048cf6bdcc53cd724335388eb07ab7c2a818990bebb0c4",
+    "slides.pptx": "d9a6f2625c9ecc212ab45cd183fb174781f678583627a69a408c15fd74cb58c0",
+    "report_bundle.zip": "8d1867a37dfb59a4e94478eae4de6ddb350a267461b1e7065138992b45b2c5e7"
+  },
+  "model_comparison": {
+    "input_measurement_unchanged": true,
+    "new_api_calls": 0,
+    "frozen_inputs": {
+      "study": {
+        "file": "input_study.json",
+        "sha256": "8495f70304b46860c54cc5d59e53ff8dbd3bb59b80b5215bde8d2775fda2641a"
+      },
+      "ratings": {
+        "file": "input_ratings.json",
+        "sha256": "c18be0e7a11a30c1afcb3e07628b148d6108ae25ff61e252b54db0049ab9442a"
+      }
+    },
+    "models": [
+      {
+        "q": 2,
+        "variance_total": 0.4709415442381143,
+        "factor_shares": [
+          {
+            "id": "F1",
+            "share": 0.2882609657389838
+          },
+          {
+            "id": "F2",
+            "share": 0.18268057849913052
+          }
+        ],
+        "dimension_fit": {
+          "q": 2,
+          "heldout_log_likelihood_mean": -31.47573656130737,
+          "heldout_log_likelihood_sd": 0.8734670494913137,
+          "heldout_log_likelihood_splits": [
+            -31.076907242084687,
+            -30.872875665299986,
+            -32.47742677653744
+          ],
+          "residual_rms_off_diagonal": 0.08764394104380233,
+          "residual_max_abs_off_diagonal": 0.287860438721026,
+          "residual_fraction_abs_above_010": 0.21323529411764705,
+          "strong_traits_per_factor": [
+            10,
+            8
+          ],
+          "all_factors_have_two_strong_traits": true,
+          "convergence_warnings": 0,
+          "common_variance_share": 0.4709415442381144
+        },
+        "numerical_recommended_k": 3
+      },
+      {
+        "q": 3,
+        "variance_total": 0.5360074563556878,
+        "factor_shares": [
+          {
+            "id": "F1",
+            "share": 0.27081301011618447
+          },
+          {
+            "id": "F2",
+            "share": 0.17814606012931034
+          },
+          {
+            "id": "F3",
+            "share": 0.08704838611019304
+          }
+        ],
+        "dimension_fit": {
+          "q": 3,
+          "heldout_log_likelihood_mean": -31.23663322943459,
+          "heldout_log_likelihood_sd": 0.94563992210289,
+          "heldout_log_likelihood_splits": [
+            -31.215770335368596,
+            -30.30159737559825,
+            -32.19253197733693
+          ],
+          "residual_rms_off_diagonal": 0.06719778307410607,
+          "residual_max_abs_off_diagonal": 0.25080970456913704,
+          "residual_fraction_abs_above_010": 0.11029411764705882,
+          "strong_traits_per_factor": [
+            10,
+            7,
+            4
+          ],
+          "all_factors_have_two_strong_traits": true,
+          "convergence_warnings": 0,
+          "common_variance_share": 0.5360074563556879
+        },
+        "numerical_recommended_k": 4
+      },
+      {
+        "q": 4,
+        "variance_total": 0.5882273563671548,
+        "factor_shares": [
+          {
+            "id": "F1",
+            "share": 0.10975322248076926
+          },
+          {
+            "id": "F2",
+            "share": 0.2463978444117229
+          },
+          {
+            "id": "F3",
+            "share": 0.1641592793189825
+          },
+          {
+            "id": "F4",
+            "share": 0.06791701015568022
+          }
+        ],
+        "dimension_fit": {
+          "q": 4,
+          "heldout_log_likelihood_mean": -31.529205405754592,
+          "heldout_log_likelihood_sd": 0.8894311301238353,
+          "heldout_log_likelihood_splits": [
+            -31.792286482452585,
+            -30.537909672279717,
+            -32.257420062531466
+          ],
+          "residual_rms_off_diagonal": 0.054626495493595294,
+          "residual_max_abs_off_diagonal": 0.20841167190414814,
+          "residual_fraction_abs_above_010": 0.07352941176470588,
+          "strong_traits_per_factor": [
+            4,
+            9,
+            7,
+            2
+          ],
+          "all_factors_have_two_strong_traits": true,
+          "convergence_warnings": 0,
+          "common_variance_share": 0.588227356367155
+        },
+        "numerical_recommended_k": 3
+      }
+    ],
+    "fixed_k3": [
+      {
+        "reference_q": 2,
+        "target_q": 3,
+        "ari": 0.7768764994858905,
+        "nmi": 0.8002678042971674,
+        "moved_count": 5,
+        "unchanged_count": 58
+      },
+      {
+        "reference_q": 2,
+        "target_q": 4,
+        "ari": 0.549213296801467,
+        "nmi": 0.6029104105703763,
+        "moved_count": 10,
+        "unchanged_count": 53
+      },
+      {
+        "reference_q": 3,
+        "target_q": 4,
+        "ari": 0.753176111256175,
+        "nmi": 0.7650689140856929,
+        "moved_count": 5,
+        "unchanged_count": 58
+      }
+    ],
+    "preferred_k": [
+      {
+        "q": 3,
+        "k": 4,
+        "cluster_sizes": [
+          10,
+          35,
+          8,
+          10
+        ],
+        "quality": {
+          "silhouette": 0.42845647241631407,
+          "mean_ari": 0.9042748287361841,
+          "median_ari": 1.0,
+          "min_ari": 0.4061669398041673,
+          "per_cluster_median_jaccard": [
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ],
+          "min_cluster_median_jaccard": 1.0,
+          "repeats": 30,
+          "scope": "80% objects, shared sampled objects, fixed factor scores; conditional cluster stability, not whole-pipeline validation"
+        }
+      },
+      {
+        "q": 4,
+        "k": 4,
+        "cluster_sizes": [
+          9,
+          10,
+          31,
+          13
+        ],
+        "quality": {
+          "silhouette": 0.3264567208937163,
+          "mean_ari": 0.8557870577763491,
+          "median_ari": 0.8627003848212922,
+          "min_ari": 0.44402202103079175,
+          "per_cluster_median_jaccard": [
+            0.7571428571428571,
+            1.0,
+            0.9583333333333334,
+            0.8397435897435898
+          ],
+          "min_cluster_median_jaccard": 0.7571428571428571,
+          "repeats": 30,
+          "scope": "80% objects, shared sampled objects, fixed factor scores; conditional cluster stability, not whole-pipeline validation"
+        }
+      }
+    ],
+    "preferred_k4_comparison": {
+      "reference_q": 3,
+      "target_q": 4,
+      "ari": 0.8127937760008644,
+      "nmi": 0.8368485297105085,
+      "moved_count": 4,
+      "unchanged_count": 59
+    },
+    "comparison_charts": 7,
+    "all_object_transitions_complete": true,
+    "baseline_snapshot": "studies/russian-politicians-2016-2026/output/models/q2",
+    "baseline_git_commit": "d5b34b37dd08de8061872d940890d4332730c633",
+    "narrative_review": "assistant_review_of_computed_profiles; not independent human validation"
   }
 }
