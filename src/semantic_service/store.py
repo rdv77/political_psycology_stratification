@@ -24,8 +24,13 @@ def fingerprint(value) -> str:
 
 def ratings_basis(study: dict) -> str:
     """Bind reusable measurements to the exact space, period and approved rubric."""
-    return fingerprint({key: study.get(key) for key in
-                        ("scope", "aspect", "date_from", "date_to", "objects", "scales")})
+    basis = {key: study.get(key) for key in
+             ("scope", "aspect", "date_from", "date_to", "objects", "scales")}
+    if study.get("research_requirements"):
+        basis["research_requirements"] = study["research_requirements"]
+    if study.get("source_supplement"):
+        basis["source_supplement"] = study["source_supplement"]
+    return fingerprint(basis)
 
 
 def validate_objects(objects: list[dict]) -> list[dict]:
@@ -70,6 +75,17 @@ def validate_scales(scales: list[dict]) -> list[dict]:
         pairs.add(pair)
         result.append(item)
     return result
+
+
+def validate_required_scales(study: dict) -> None:
+    lookup = {scale["id"]: scale for scale in study.get("scales", [])}
+    for required in study.get("research_requirements", {}).get("required_scales", []):
+        identifier = required["id"] if isinstance(required, dict) else required
+        if identifier not in lookup:
+            raise ValueError(f"В словаре отсутствует обязательная шкала {identifier}; сначала согласуйте изменение тематического протокола")
+        if isinstance(required, dict) and any(required.get(key) != lookup[identifier].get(key)
+                                              for key in ("positive", "negative", "definition") if key in required):
+            raise ValueError(f"Изменено определение обязательной шкалы {identifier}; сначала согласуйте изменение тематического протокола")
 
 
 class StudyStore:
@@ -181,6 +197,8 @@ class StudyStore:
             if field == "scales" and not self.is_approved(study, "objects"):
                 raise ValueError("Сначала утвердите список объектов")
             (validate_objects if field == "objects" else validate_scales)(study[field])
+            if field == "scales":
+                validate_required_scales(study)
             study["approvals"][field] = {"approved": True, "at": now(), "actor": actor,
                                          "fingerprint": fingerprint(study[field])}
             study.update(status="objects_approved" if field == "objects" else "ready", error=None)
@@ -195,4 +213,5 @@ class StudyStore:
         study = self.get(identifier)
         if not self.is_approved(study, "objects") or not self.is_approved(study, "scales"):
             raise ValueError("До оценивания нужно утвердить список объектов и словарь шкал")
+        validate_required_scales(study)
         return study

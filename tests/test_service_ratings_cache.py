@@ -88,6 +88,36 @@ class RatingsCacheTests(unittest.TestCase):
         self.assertEqual(current["ratings_cache"], self.receipt)
         self.assertEqual(sum(row["status"] == "observed" for row in analyze.call_args.args[1]), 38)
 
+    def test_changed_research_requirements_invalidate_measurement_cache(self):
+        self.app.store.update(self.identifier, research_requirements={
+            "required_scales": ["s0"], "instructions": ["Use only personally attributed dated actions"]})
+        _, analyze, _ = self.run_analysis()
+        self.provider.rate_all.assert_called_once()
+        self.assertEqual(analyze.call_args.args[1], self.baseline)
+
+    def test_preview_stage_never_runs_clusters_or_full_export(self):
+        self.app.store.update(self.identifier, delivery_mode="factor_preview")
+        result = {"models": [{"q": 2}], "russia_review": {"status": "insufficient_measurement"}}
+        preview, full, export = Mock(return_value=result), Mock(), Mock()
+        with patch.dict(sys.modules, {
+            "src.semantic_service.factor_preview": SimpleNamespace(preview_factors=preview),
+            "src.semantic_service.analysis": SimpleNamespace(analyze_study=full),
+            "src.semantic_service.reports": SimpleNamespace(export_report=export),
+        }):
+            self.app.run_analysis(self.identifier, {"factor_count": 4})
+            self.app.jobs[self.identifier].join(timeout=3)
+        self.assertFalse(self.app.jobs[self.identifier].is_alive())
+        current = self.app.store.get(self.identifier)
+        self.assertEqual(current["status"], "await_factor_selection", current.get("error"))
+        self.assertEqual(current["analysis"], result)
+        self.assertEqual([a["format"] for a in current["artifacts"]], ["md", "json"])
+        preview.assert_called_once()
+        full.assert_not_called()
+        export.assert_not_called()
+        self.provider.choose_clusters.assert_not_called()
+        self.provider.interpret.assert_not_called()
+        self.provider.rate_all.assert_not_called()
+
     def test_stale_checksum_falls_back_and_binds_the_new_matrix(self):
         altered = copy.deepcopy(self.audited)
         altered[0]["reason"] = "Content changed after receipt"

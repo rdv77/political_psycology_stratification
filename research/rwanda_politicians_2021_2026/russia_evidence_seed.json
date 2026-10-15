@@ -1,0 +1,212 @@
+{
+  "format_version": 1,
+  "status": "manually_checked_source_supplement",
+  "date_checked": "2026-10-15",
+  "research_period": {
+    "date_from": "2021-10-15",
+    "date_to": "2026-10-15"
+  },
+  "scope_note": "Только источниковые факты, без оценок и без изменения утверждённых объектов или исходных retrieval-досье. period внутри факта — дата события в формате ISO. capacity — должностная роль на дату. topic_ids — исследовательские вопросы, не знак позиции. Публичная именная речь не означает частного убеждения. Один event_id может иметь несколько тем, но остаётся одним событием. Для Biruta проверен первичный индексируемый текст, полное открытие страницы было недоступно; этот статус явно сохранён в sources.",
+  "objects": [
+    {
+      "object_id": "paul-kagame",
+      "facts": [
+        {
+          "text": "На совместной пресс-конференции с президентом Бенина 17 апреля 2023 года Поль Кагаме, прямо называя Россию и Китай, защищал право африканских стран самостоятельно выбирать партнёров исходя из своих потребностей. Это публичная позиция об автономии выбора партнёров; в приведённом фрагменте нет одобрения российского вторжения в Украину или заявления об исключительном союзе с Россией.",
+          "source_url": "https://www.paulkagame.rw/president-kagame-visits-benin-cotonou-15-17-april-2023/",
+          "period": "2023-04-17",
+          "event_id": "kagame-benin-partner-choice-2023-04-17",
+          "capacity": "Президент Руанды, совместная публичная пресс-конференция с президентом Бенина",
+          "channel": "personal_public_rhetoric",
+          "topic_ids": [
+            "russia-diplomatic-engagement"
+          ],
+          "measurement_status": "context_only",
+          "measurement_review_note": "Контекст выбора партнёров или протокольный контакт сам по себе не выражает расширение двустороннего сотрудничества; численная оценка этой шкалы не назначается."
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://www.paulkagame.rw/president-kagame-visits-benin-cotonou-15-17-april-2023/",
+          "title": "President Kagame visits Benin | Cotonou, 15-17 April 2023",
+          "date": "2023-04-17",
+          "source_type": "primary_official_personal_website",
+          "verification": "full_page_read; dated statement directly attributed to Kagame"
+        },
+        {
+          "url": "https://amp.dw.com/en/rwandas-kagame-defends-russias-presence-in-africa/a-65372509",
+          "title": "Rwanda's Kagame defends Russia's presence in Africa",
+          "date": "2023-04-19",
+          "source_type": "independent_media_cross_check",
+          "verification": "indexed report corroborates the same position; photo dated 2019 is not a new event"
+        }
+      ]
+    },
+    {
+      "object_id": "vincent-biruta",
+      "facts": [
+        {
+          "text": "MINAFFET Руанды сообщает, что 31 января 2022 года министр Венсан Бирута встретился с руководителем Россотрудничества Евгением Примаковым. Обсуждалось укрепление сотрудничества России и Руанды в образовании, окружающей среде, дипломатии и по Expo 2030. Это персонифицированное участие в обсуждении, а не подтверждение реализации проектов или согласия с российскими действиями в конфликтах.",
+          "source_url": "https://www.minaffet.gov.rw/updates/news-details/minister-vincent-biruta-meets-mr-evgeny-a-primakov-head-of-the-federal-agency-for-the-commonwealth-of-independent-states-affairs-compatriots-living-abroad-and-international-humanitarian-cooperation",
+          "period": "2022-01-31",
+          "event_id": "biruta-primakov-meeting-2022-01-31",
+          "capacity": "Министр иностранных дел и международного сотрудничества Руанды",
+          "channel": "official_act",
+          "topic_ids": [
+            "russia-diplomatic-engagement",
+            "russia-education-cultural-cooperation"
+          ],
+          "measurement_status": "eligible_position_to_score",
+          "measurement_review_note": "Материал содержит содержательную именованную позицию или действие; конкретную оценку даёт отдельная разметка, недостаточное чтение остаётся pending."
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://www.minaffet.gov.rw/updates/news-details/minister-vincent-biruta-meets-mr-evgeny-a-primakov-head-of-the-federal-agency-for-the-commonwealth-of-independent-states-affairs-compatriots-living-abroad-and-international-humanitarian-cooperation",
+          "title": "MINISTER VINCENT BIRUTA MEETS MR. EVGENY A. PRIMAKOV",
+          "date": "2022-01-31",
+          "source_type": "primary_rwandan_foreign_ministry",
+          "verification": "primary_search_index_excerpt_checked; full page repeatedly returned fetch error; preserve this limitation and retrieve a full copy before treating it as full-document verification"
+        }
+      ]
+    },
+    {
+      "object_id": "olivier-nduhungirehe",
+      "facts": [
+        {
+          "text": "В прямом интервью AFP на форуме Россия–Африка в Сочи 9 ноября 2024 года Оливье Ндухунгирехе заявил о потребности Руанды в ядерной энергетике и надежде подготовить специалистов при содействии России; он также упомянул выпускников российских вузов, включая специалистов по ядерным наукам. Это именованное высказывание о практическом обучении и энергетике, не позиция о войне в Украине.",
+          "source_url": "https://www.themoscowtimes.com/2024/11/09/rwanda-counting-on-russia-to-train-nuclear-power-specialists-a86964/pdf",
+          "period": "2024-11-09",
+          "event_id": "nduhungirehe-afp-sochi-training-2024-11-09",
+          "capacity": "Министр иностранных дел Руанды, интервью AFP на форуме в Сочи",
+          "channel": "personal_public_rhetoric",
+          "topic_ids": [
+            "russia-economic-technology-cooperation",
+            "russia-education-cultural-cooperation"
+          ],
+          "measurement_status": "eligible_position_to_score",
+          "measurement_review_note": "Материал содержит содержательную именованную позицию или действие; конкретную оценку даёт отдельная разметка, недостаточное чтение остаётся pending."
+        },
+        {
+          "text": "Официальное посольство Руанды в России сообщает, что Оливье Ндухунгирехе встретился с Сергеем Лавровым 19 декабря 2025 года в Каире на второй министерской конференции Россия–Африка. Этот факт подтверждает личное участие в дипломатическом контакте; статья не содержит полной стенограммы его слов.",
+          "source_url": "https://www.rwandainrussia.gov.rw/info/info-details?cHash=f16d397d5a5a23a2705acb619e74a537&tx_news_pi1%5Baction%5D=detail&tx_news_pi1%5Bcontroller%5D=News&tx_news_pi1%5Bnews%5D=56199",
+          "period": "2025-12-19",
+          "event_id": "nduhungirehe-lavrov-cairo-2025-12-19",
+          "capacity": "Министр иностранных дел Руанды, участник министерской конференции Россия–Африка",
+          "channel": "official_act",
+          "topic_ids": [
+            "russia-diplomatic-engagement"
+          ],
+          "measurement_status": "context_only",
+          "measurement_review_note": "Контекст выбора партнёров или протокольный контакт сам по себе не выражает расширение двустороннего сотрудничества; численная оценка этой шкалы не назначается."
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://www.themoscowtimes.com/2024/11/09/rwanda-counting-on-russia-to-train-nuclear-power-specialists-a86964/pdf",
+          "title": "AFP: Rwanda Counting on Russia to Train Nuclear Power Specialists",
+          "date": "2024-11-09",
+          "source_type": "direct_interview_independent_news_agency",
+          "verification": "full two-page AFP article read; named direct interview; editorial account of the 2019 agreement is not substituted for its treaty text"
+        },
+        {
+          "url": "https://www.rwandainrussia.gov.rw/info/info-details?cHash=f16d397d5a5a23a2705acb619e74a537&tx_news_pi1%5Baction%5D=detail&tx_news_pi1%5Bcontroller%5D=News&tx_news_pi1%5Bnews%5D=56199",
+          "title": "Ambassador Nzabamwita Presents Letters of Credence to President Vladimir Putin at the Kremlin",
+          "date": "2026-01-15",
+          "source_type": "primary_rwandan_embassy",
+          "verification": "full page read; retrospectively states the exact 2025-12-19 event date; article describes its principal ceremony as 2026-01-15, not an independently visible publication timestamp"
+        }
+      ]
+    },
+    {
+      "object_id": "juvenal-marizamunda",
+      "facts": [
+        {
+          "text": "MOD Руанды сообщает, что на полях седьмого заседания российско-руандийской межправительственной комиссии по военно-техническому сотрудничеству 20–22 мая 2026 года российская делегация посетила министра обороны Жювеналя Маризамунду для обмена мнениями о приоритетах двустороннего партнёрства. Первичный релиз подтверждает контакт, но не содержит прямой речи министра или перечня лично принятых им решений.",
+          "source_url": "https://www.mod.gov.rw/docs-media/news-detail/rrdf-hosts-the-7th-meeting-of-the-rwanda-russia-joint-commission-on-military-technical-cooperation?cHash=3be790fd61fd1553005cd0bdb3260a7d&tx_news_pi1%5BcurrentPage%5D=2",
+          "period": "2026-05-20",
+          "event_id": "rwanda-russia-military-commission-2026-05-20",
+          "capacity": "Министр обороны Руанды; визит делегации на полях комиссии 20–22 мая 2026 года",
+          "channel": "official_act",
+          "topic_ids": [
+            "russia-security-cooperation"
+          ],
+          "measurement_status": "eligible_position_to_score",
+          "measurement_review_note": "Материал содержит содержательную именованную позицию или действие; конкретную оценку даёт отдельная разметка, недостаточное чтение остаётся pending."
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://www.mod.gov.rw/docs-media/news-detail/rrdf-hosts-the-7th-meeting-of-the-rwanda-russia-joint-commission-on-military-technical-cooperation?cHash=3be790fd61fd1553005cd0bdb3260a7d&tx_news_pi1%5BcurrentPage%5D=2",
+          "title": "RDF HOSTS THE 7th MEETING OF THE RWANDA-RUSSIA JOINT COMMISSION ON MILITARY TECHNICAL COOPERATION",
+          "date": "2026-05-20",
+          "source_type": "primary_rwandan_ministry_of_defence",
+          "verification": "full page read; date of specific courtesy call not separately stated within 20–22 May meeting; period uses the release date"
+        }
+      ]
+    },
+    {
+      "object_id": "sabin-nsanzimana",
+      "facts": [
+        {
+          "text": "На полях Всемирной ассамблеи здравоохранения в Женеве Сабин Нсанзимана и Михаил Мурашко встретились и подписали межведомственный меморандум о сотрудничестве в здравоохранении. Официальный российский канал подтверждает подписание; местное сообщение датирует его 19 мая 2026 года. Среди направлений названы исследования, подготовка кадров и ядерная медицина. Подписание не подтверждает выполненные результаты соглашения.",
+          "source_url": "https://t.me/minzdrav_ru/14879",
+          "period": "2026-05-19",
+          "event_id": "nsanzimana-murashko-health-mou-2026-05-19",
+          "capacity": "Министр здравоохранения Руанды, двусторонний контакт на Всемирной ассамблее здравоохранения",
+          "channel": "official_act",
+          "topic_ids": [
+            "russia-economic-technology-cooperation",
+            "russia-education-cultural-cooperation"
+          ],
+          "measurement_status": "eligible_position_to_score",
+          "measurement_review_note": "Материал содержит содержательную именованную позицию или действие; конкретную оценку даёт отдельная разметка, недостаточное чтение остаётся pending."
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://t.me/minzdrav_ru/14879",
+          "title": "Минздрав России: Россия и Руанда подписали меморандум о сотрудничестве в сфере здравоохранения",
+          "date": "2026-05-19",
+          "source_type": "primary_official_public_channel",
+          "verification": "full relevant post text read in official web feed; direct post fetch returned cache miss; exact event date cross-checked in Imvaho Nshya",
+          "accessible_feed_url": "https://t.me/s/minzdrav_ru/13274?q=%23%D0%9C%D0%B5%D0%B6%D0%B4%D1%83%D0%BD%D0%B0%D1%80%D0%BE%D0%B4%D0%BD%D0%BE%D0%B5%D0%A1%D0%BE%D1%82%D1%80%D1%83%D0%B4%D0%BD%D0%B8%D1%87%D0%B5%D1%81%D1%82%D0%B2%D0%BE"
+        },
+        {
+          "url": "https://imvahonshya.co.rw/u-rwanda-nu-burusiya-byatangije-ubutwererane-mu-buvuzi/",
+          "title": "U Rwanda n’u Burusiya basinyanye amasezerano y’ubutwererane mu buvuzi",
+          "date": "2026-05-20",
+          "source_type": "local_media_event_date_cross_check",
+          "verification": "named participants and event date 2026-05-19 checked in indexed article text; not treated as an independent second event"
+        }
+      ]
+    },
+    {
+      "object_id": "louise-mushikiwabo",
+      "facts": [
+        {
+          "text": "В именном заявлении на официальном сайте OIF 24 февраля 2023 года генеральному секретарю Луизе Мушикивабо прямо приписаны обеспокоенность продолжением российской агрессии против Украины, внимание к гражданским жертвам, солидарность с украинским народом и призыв к мирному урегулированию. Это её публичная позиция в роли главы OIF, а не заявление от имени правительства Руанды; текст сам по себе не устанавливает отношение к санкциям или двусторонним обменам.",
+          "source_url": "https://www.francophonie.org/la-secretaire-generale-de-la-francophonie-demeure-extremement-preoccupee-par-la-persistance-de-2636",
+          "period": "2023-02-24",
+          "event_id": "mushikiwabo-oif-ukraine-statement-2023-02-24",
+          "capacity": "Генеральный секретарь Международной организации Франкофонии (OIF)",
+          "channel": "personal_public_rhetoric",
+          "topic_ids": [
+            "russia-conflict-policy-evaluation"
+          ],
+          "measurement_status": "eligible_position_to_score",
+          "measurement_review_note": "Материал содержит содержательную именованную позицию или действие; конкретную оценку даёт отдельная разметка, недостаточное чтение остаётся pending."
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://www.francophonie.org/la-secretaire-generale-de-la-francophonie-demeure-extremement-preoccupee-par-la-persistance-de-2636",
+          "title": "La Secrétaire générale de la Francophonie demeure extrêmement préoccupée par la persistance de l’agression de la Fédération de Russie contre l’Ukraine",
+          "date": "2023-02-24",
+          "source_type": "primary_international_organization_named_statement",
+          "verification": "full statement read; opening paragraph explicitly supplies date and name; official-capacity statement, not private belief"
+        }
+      ]
+    }
+  ]
+}

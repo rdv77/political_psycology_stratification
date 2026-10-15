@@ -76,6 +76,23 @@ class StudyStoreTests(unittest.TestCase):
         with self.assertRaises(ValueError):
             self.store.edit(identifier, "objects", self.objects)
 
+    def test_required_topic_cannot_be_removed_or_redefined_before_approval(self):
+        identifier = self.study["id"]
+        self.store.edit(identifier, "objects", self.objects)
+        self.store.approve(identifier, "objects")
+        self.store.edit(identifier, "scales", self.scales)
+        self.store.update(identifier, research_requirements={"required_scales": [dict(self.scales[0])]})
+        changed = [dict(scale) for scale in self.scales]
+        changed[0]["definition"] = "An unrelated observable construct"
+        self.store.edit(identifier, "scales", changed)
+        with self.assertRaisesRegex(ValueError, "обязательной шкалы"):
+            self.store.approve(identifier, "scales")
+        changed[0] = dict(self.scales[0], id="replacement")
+        self.store.edit(identifier, "scales", changed)
+        with self.assertRaisesRegex(ValueError, "отсутствует обязательная"):
+            self.store.approve(identifier, "scales")
+        self.assertFalse(self.store.get(identifier)["approvals"]["scales"]["approved"])
+
 
 if __name__ == "__main__":
     unittest.main()

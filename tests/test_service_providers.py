@@ -16,7 +16,7 @@ from pathlib import Path
 from types import SimpleNamespace
 from unittest.mock import Mock, patch
 
-from src.semantic_service.providers import ModelProvider, TEXT, grounded_facts, object_schema
+from src.semantic_service.providers import ModelProvider, TEXT, fact_within_period, grounded_facts, object_schema
 from src.semantic_service.server import Application
 from src.semantic_service.store import StudyStore, fingerprint
 
@@ -90,6 +90,16 @@ class ServiceProviderTests(unittest.TestCase):
         transport.post.side_effect = post_side_effect
         return transport, response
 
+    @staticmethod
+    def ratings_for_requested_schema(response):
+        def answer(_identifier, _task, _prompt, schema, **_kwargs):
+            result = copy.deepcopy(response)
+            ids = schema["properties"]["ratings"]["items"]["properties"]["scale_id"].get("enum")
+            if ids is not None:
+                result["data"]["ratings"] = [row for row in result["data"]["ratings"] if row["scale_id"] in ids]
+            return result
+        return answer
+
     def test_model_sources_cannot_authorize_their_own_fact_urls(self):
         invented = {"text": "Synthetic invented claim", "source_url": "https://invented.invalid/source"}
         data = {"facts": [invented],
@@ -103,6 +113,189 @@ class ServiceProviderTests(unittest.TestCase):
         data = {"facts": [retrieved, {"text": "", "source_url": retrieved["source_url"]},
                           {"text": "Unsafe scheme", "source_url": "file:///private"}]}
         self.assertEqual(grounded_facts(data, ["https://retrieved.example/document"]), [retrieved])
+        self.client.assert_not_called()
+
+    def test_required_topics_do_not_convert_unverified_urls_to_measurements(self):
+        self.study["research_requirements"] = {"required_scales": [
+            {"id": "ru_security", "name": "Security"}, {"id": "ru_trade", "name": "Trade"}]}
+        response = {"data": {"facts": [{"text": "Dated individual action", "period": "2025",
+                                             "source_url": "https://retrieved.example/action"}],
+                              "sources": [], "descriptors": [], "limitations": "Fixture",
+                              "required_topic_review": [
+                                  {"scale_id": "ru_security", "source_urls": ["https://invented.invalid/fact"], "note": "Unverified"},
+                                  {"scale_id": "ru_trade", "source_urls": ["https://retrieved.example/action"], "note": "Needs reading"}]},
+                    "citations": ["https://retrieved.example/action"], "model": "fixture", "at": "fixture-time"}
+        obj = self.objects()[0]
+        with patch.object(self.provider, "request", return_value=response) as request:
+            dossier = self.provider.dossier(self.study, obj)
+        self.assertEqual(dossier["required_topic_review"][0]["status"], "unknown")
+        self.assertEqual(dossier["required_topic_review"][0]["source_urls"], [])
+        self.assertEqual(dossier["required_topic_review"][1]["status"], "evidence_to_review")
+        self.assertNotIn("ratings", dossier)
+        self.assertIn("официальное действие не означает личной симпатии", request.call_args.args[2])
+        before = dossier["basis"]
+        self.study["research_requirements"]["instructions"] = ["A new source requirement"]
+        with patch.object(self.provider, "request", return_value=response) as revised:
+            fresh = self.provider.dossier(self.study, obj)
+        self.assertNotEqual(before, fresh["basis"])
+        revised.assert_called_once()
+        self.client.assert_not_called()
+
+    def test_thematic_evidence_requires_dates_inside_actual_five_year_window(self):
+        study = {"date_from": "2021-10-15", "date_to": "2026-10-15"}
+        for period, expected in (("2021-06-03", False), ("2021", False), ("2022", True),
+                                 ("2026", False), ("2026-05-22", True), ("2026-10-16", False),
+                                 ("2024-02-30", False), ("unknown", False),
+                                 ("2023-01-01—2024-02-24", True)):
+            with self.subTest(period=period):
+                self.assertEqual(fact_within_period({"period": period}, study), expected)
+
+    def test_required_topic_cannot_be_scored_using_an_unrelated_fact(self):
+        self.study["scales"] = self.scales()
+        self.study["research_requirements"] = {"required_scales": [dict(self.study["scales"][0])]}
+        obj = self.objects()[0]
+        evidence = {"object_id": obj["id"], "basis": "fixture", "facts": [
+            {"text": "Unrelated domestic announcement", "source_url": "https://fixture.example/fact",
+             "period": "2024-03-01", "topic_ids": []}]}
+        response = {"data": {"ratings": [{"scale_id": s["id"], "positive": 4, "negative": 1,
+                    "status": "observed", "confidence": .8, "reason": "Model guessed from a domestic fact",
+                    "evidence_indices": [0]} for s in self.study["scales"]]}, "model": "fixture", "at": "fixture-time"}
+        with patch.object(self.provider, "dossier", return_value=evidence), \
+             patch.object(self.provider, "request", side_effect=self.ratings_for_requested_schema(response)), \
+             patch.object(self.provider, "enrich_dossier", return_value={"supplement_facts": []}):
+            ratings = self.provider.rate_object(self.study, obj)
+        self.assertEqual(ratings[0]["status"], "unknown")
+        self.assertIsNone(ratings[0]["positive"])
+        self.assertEqual(ratings[0]["evidence_indices"], [])
+        self.assertTrue(all(row["status"] == "observed" for row in ratings[1:]))
+        self.client.assert_not_called()
+
+    def test_reviewed_thematic_policy_rejects_unchecked_topic_mentions(self):
+        self.study["scales"] = self.scales()
+        self.study["research_requirements"] = {"required_scales": [dict(self.study["scales"][0])]}
+        self.study["source_supplement"] = {"reviewed_thematic_only": True}
+        obj = self.objects()[0]
+        fact = {"text": "A topic mention is not yet a checked substantive position",
+                "source_url": "https://fixture.example/fact", "period": "2024-03-01", "topic_ids": ["s0"]}
+        response = {"data": {"ratings": [{"scale_id": s["id"], "positive": 4, "negative": 1,
+                    "status": "observed", "confidence": .8, "reason": "Synthetic fixture", "evidence_indices": [0]}
+                    for s in self.study["scales"]]}, "model": "fixture", "at": "fixture-time"}
+        for reviewed, expected in ((False, "unknown"), (True, "observed")):
+            with self.subTest(reviewed=reviewed):
+                item = dict(fact, **({"evidence_origin": "assistant_verified_source"} if reviewed else {}))
+                with patch.object(self.provider, "dossier", return_value={"basis": "fixture", "facts": [item]}), \
+                     patch.object(self.provider, "request", side_effect=self.ratings_for_requested_schema(response)), \
+                     patch.object(self.provider, "enrich_dossier", return_value={"supplement_facts": []}):
+                    ratings = self.provider.rate_object(self.study, obj)
+                self.assertEqual(ratings[0]["status"], expected)
+        self.client.assert_not_called()
+
+    def test_research_rating_response_must_match_requested_scale_ids_exactly(self):
+        self.study["scales"] = self.scales()
+        self.study["research_requirements"] = {"required_scales": [dict(self.study["scales"][0])]}
+        obj = self.objects()[0]
+        dossier = {"basis": "fixture", "facts": [
+            {"text": "Synthetic dated domestic fact", "source_url": "https://fixture.example/domestic",
+             "period": "2024-03-01", "topic_ids": []}]}
+        ordinary_ids = [scale["id"] for scale in self.study["scales"][1:]]
+        for malformed in ("foreign", "missing", "duplicate"):
+            with self.subTest(malformed=malformed):
+                def answer(_identifier, _task, prompt, schema, **_kwargs):
+                    allowed = schema["properties"]["ratings"]["items"]["properties"]["scale_id"]["enum"]
+                    self.assertEqual(allowed, ordinary_ids)
+                    self.assertIn(json.dumps(ordinary_ids, ensure_ascii=False), prompt.rsplit("\n", 1)[-1])
+                    response = self.fixture_ratings(self.study["scales"][1:])
+                    if malformed == "foreign":
+                        # Reproduce the protocol's mandatory ID replacing a requested core ID.
+                        response["data"]["ratings"][0]["scale_id"] = self.study["scales"][0]["id"]
+                    elif malformed == "missing":
+                        response["data"]["ratings"].pop()
+                    else:
+                        response["data"]["ratings"][-1]["scale_id"] = ordinary_ids[0]
+                    return response
+                with patch.object(self.provider, "dossier", return_value=dossier), \
+                     patch.object(self.provider, "request", side_effect=answer) as request, \
+                     patch.object(self.provider, "enrich_dossier") as enrich:
+                    with self.assertRaisesRegex(ValueError, "id шкал"):
+                        self.provider.rate_object(self.study, obj)
+                request.assert_called_once()
+                enrich.assert_not_called()
+        self.client.assert_not_called()
+
+    def test_required_prompt_is_isolated_and_local_index_maps_to_reviewed_dossier(self):
+        self.study["scales"] = self.scales()
+        self.study["date_from"], self.study["date_to"] = "2021-10-15", "2026-10-15"
+        self.study["research_requirements"] = {
+            "required_scales": [dict(self.study["scales"][0])], "require_reviewed_thematic_evidence": True}
+        obj = self.objects()[0]
+        facts = [
+            {"text": "Wrong construct", "period": "2024-03-01", "topic_ids": [],
+             "evidence_origin": "assistant_verified_source"},
+            {"text": "Outside the study period", "period": "2020-03-01", "topic_ids": ["s0"],
+             "evidence_origin": "assistant_verified_source"},
+            {"text": "Unreviewed topic mention", "period": "2024-03-01", "topic_ids": ["s0"]},
+            {"text": "Eligible reviewed dated position", "period": "2024-03-01", "topic_ids": ["s0"],
+             "evidence_origin": "assistant_verified_source"},
+            {"text": "Context is not a measurement", "period": "2024-03-01", "topic_ids": ["s0"],
+             "evidence_origin": "assistant_verified_source", "measurement_status": "context_only"},
+        ]
+        for index, fact in enumerate(facts):
+            fact["source_url"] = f"https://fixture.example/fact-{index}"
+        evidence_file = "evidence/reviewed-" + obj["id"] + ".json"
+        dossier = {"object_id": obj["id"], "basis": "reviewed-fixture-basis",
+                   "evidence_file": evidence_file, "facts": facts}
+        directory = self.store.directory(self.study["id"]) / "evidence"
+        directory.mkdir(exist_ok=True)
+        original = self.store.directory(self.study["id"]) / evidence_file
+        original.write_text(json.dumps(dossier), encoding="utf-8")
+        original_bytes = original.read_bytes()
+        calls = []
+        def answer(_identifier, task, prompt, schema, **_kwargs):
+            allowed = schema["properties"]["ratings"]["items"]["properties"]["scale_id"]["enum"]
+            supplied, _ = json.JSONDecoder().raw_decode(prompt.split("\nФакты: ", 1)[1])
+            calls.append((task, allowed))
+            if allowed == ["s0"]:
+                self.assertEqual(supplied, [facts[3]])
+            else:
+                self.assertEqual(allowed, ["s1", "s2", "s3", "s4", "s5"])
+                self.assertEqual(supplied, facts)
+            return self.fixture_ratings(self.prompt_scales(prompt), evidence_index=0)
+        with patch.object(self.provider, "dossier", return_value=dossier), \
+             patch.object(self.provider, "request", side_effect=answer), \
+             patch.object(self.provider, "enrich_dossier") as enrich:
+            rows = self.provider.rate_object(self.study, obj)
+        self.assertEqual(len(calls), 2)
+        self.assertEqual([row["scale_id"] for row in rows], [scale["id"] for scale in self.study["scales"]])
+        self.assertTrue(all(row["status"] == "observed" for row in rows))
+        self.assertEqual(rows[0]["evidence_indices"], [3])
+        self.assertEqual(rows[0]["sources"], [facts[3]["source_url"]])
+        self.assertEqual(rows[0]["evidence_file"], evidence_file)
+        self.assertEqual(rows[0]["evidence_basis"], fingerprint({"basis": dossier["basis"], "facts": facts}))
+        self.assertEqual(original.read_bytes(), original_bytes)
+        enrich.assert_not_called()
+        self.client.assert_not_called()
+
+    def test_invalid_support_index_makes_required_rating_unknown(self):
+        scale = self.scales()[0]
+        self.study["scales"] = [scale]
+        self.study["research_requirements"] = {
+            "required_scales": [dict(scale)], "require_reviewed_thematic_evidence": True}
+        obj = self.objects()[0]
+        dossier = {"basis": "fixture", "facts": [
+            {"text": "Eligible reviewed position", "source_url": "https://fixture.example/reviewed",
+             "period": "2024-03-01", "topic_ids": [scale["id"]],
+             "evidence_origin": "assistant_verified_source"}]}
+        response = self.fixture_ratings([scale])
+        response["data"]["ratings"][0]["evidence_indices"] = [0, 99]
+        with patch.object(self.provider, "dossier", return_value=dossier), \
+             patch.object(self.provider, "request", side_effect=self.ratings_for_requested_schema(response)) as request, \
+             patch.object(self.provider, "enrich_dossier", return_value={"supplement_facts": []}):
+            rows = self.provider.rate_object(self.study, obj)
+        self.assertEqual(rows[0]["status"], "unknown")
+        for field in ("positive", "negative", "difference", "mass"):
+            self.assertIsNone(rows[0][field])
+        self.assertEqual(rows[0]["evidence_indices"], [0])
+        request.assert_called_once()
         self.client.assert_not_called()
 
     def test_identical_concurrent_requests_make_one_provider_call(self):

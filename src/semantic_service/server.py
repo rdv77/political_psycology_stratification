@@ -152,6 +152,23 @@ class Application:
                 else:
                     self.store.log(identifier, "Сохранённая матрица оценок проверена и используется повторно", "ratings",
                                    len(study["objects"]), len(study["objects"]))
+            if study.get("delivery_mode") == "factor_preview":
+                self.store.log(identifier, "Сравниваются факторные решения; готовится короткий отчёт", "factor_preview", 0, 1)
+                from .factor_preview import preview_factors
+                output = self.store.directory(identifier) / "output"
+                preview = preview_factors(study, ratings, output)
+                artifacts = [{"label": "Короткий отчёт: сравнение факторов", "format": "md",
+                              "url": f"/api/studies/{identifier}/files/factor_preview.md"},
+                             {"label": "Нагрузки и диагностика всех решений", "format": "json",
+                              "url": f"/api/studies/{identifier}/files/factor_preview.json"}]
+                for chart in preview.get("charts", []):
+                    artifacts.append({"label": chart["title"], "format": "png",
+                                      "url": f"/api/studies/{identifier}/files/{chart['file']}"})
+                self.store.update(identifier, status="await_factor_selection", analysis=preview,
+                                  artifacts=artifacts, error=None)
+                self.store.log(identifier, "Короткий отчёт готов. Выберите факторное решение перед расширенным отчётом и слайдами",
+                               "factor_selection", 1, 1)
+                return
             self.store.log(identifier, "Проверка матрицы, факторный и кластерный анализ", "analysis", 0, 1)
             from .analysis import analyze_study
             output = self.store.directory(identifier) / "output"

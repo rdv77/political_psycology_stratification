@@ -128,6 +128,28 @@ class ScaleNormalizationTests(unittest.TestCase):
         self.assertEqual(len(record["normalized_proposal"]["scales"]), 5)
         self.assert_unapproved()
 
+    def test_preregistered_topics_survive_normalization_without_invented_support(self):
+        initial, normalized = self.proposals()
+        required = {"id": "ru_security", "name": "Сотрудничество в безопасности с Россией",
+                    "positive": "Расширение сотрудничества", "negative": "Ограничение сотрудничества",
+                    "definition": "Только собственные датированные заявления или действия",
+                    "research_domain": "russia_relations", "semantic_family_id": "security"}
+        self.study["research_requirements"] = {"required_scales": [required],
+                                               "instructions": ["Не переносить позицию государства на человека"]}
+        with patch.object(self.provider, "request", side_effect=[initial, normalized]) as request:
+            scales, provenance = self.provider.generate_scales(self.study)
+        topic = next(scale for scale in scales if scale["id"] == "ru_security")
+        self.assertEqual(topic["definition"], required["definition"])
+        self.assertEqual(topic["semantic_family_id"], "security")
+        self.assertEqual(topic["source_object_ids"], [])
+        self.assertEqual(topic["descriptor_object_count"], 0)
+        self.assertEqual(topic["scale_origin"], "preregistered_research_question")
+        self.assertEqual(provenance["review_status"], "normalized_unapproved")
+        for call in request.call_args_list:
+            self.assertIn("ru_security", call.args[2])
+            self.assertIn("Не переносить позицию государства", call.args[2])
+        self.assert_unapproved()
+
     def test_normalization_outage_keeps_initial_provenance_and_does_not_approve(self):
         initial, _ = self.proposals()
         with patch.object(self.provider, "request", side_effect=[initial, ValueError("Synthetic normalization outage")]), \

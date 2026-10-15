@@ -9,12 +9,14 @@ import re
 import threading
 import time
 import uuid
+from datetime import date
 from pathlib import Path
 
 import httpx
 from dotenv import load_dotenv
 
 from .store import StudyStore, fingerprint, now, validate_objects, validate_scales
+from .source_supplement import attach_source_supplement
 
 
 def object_schema(properties: dict) -> dict:
@@ -42,6 +44,50 @@ def grounded_facts(data: dict, retrieval_citations: list[str]) -> list[dict]:
                if isinstance(url, str) and url.startswith(("http://", "https://"))}
     return [fact for fact in data.get("facts", [])
             if str(fact.get("source_url", "")).rstrip("/") in allowed and fact.get("text")]
+
+
+def research_context(study: dict, *, scoring: bool = False) -> str:
+    """Optional preregistered topics; an obligation to search is never an observed score."""
+    requirements = study.get("research_requirements")
+    if not requirements:
+        return ""
+    if scoring:
+        return ("\nОграничения текущей разметки: оцениваются только шкалы текущего запроса, только по "
+                "предоставленным ниже фактам о данном человеке. Позиция государства, должность, общий контекст, "
+                "протокольный контакт, молчание и косвенное предположение не дают численного ответа. "
+                "Различай публичную служебную позицию и личное убеждение. Если прямых оснований нет — unknown. "
+                "Не используй примеры других политиков как доказательства об этом человеке. ")
+    return ("\nОбязательный тематический протокол этого исследования:\n" +
+            json.dumps(requirements, ensure_ascii=False) +
+            "\nДля КАЖДОГО объекта отдельно проверь все обязательные темы, включая противоположные свидетельства. "
+            "Только датированные высказывания или действия именно этого человека в исследуемом периоде. "
+            "Укажи, действует ли он в официальном качестве; официальное действие не означает личной симпатии. "
+            "Позиция государства, партийность, должность, участие во встрече и молчание сами по себе не дают оценки. "
+            "При отсутствии прямых оснований оставь unknown, а не слабую положительную оценку или ноль. "
+            "Один эпизод, пересказанный несколькими источниками, не является независимыми свидетельствами. ")
+
+
+def evidence_fact_schema(study: dict) -> dict:
+    properties = {"text": TEXT, "source_url": TEXT, "period": TEXT}
+    if study.get("research_requirements"):
+        properties.update(event_id=TEXT, capacity=TEXT,
+                          channel={"type": "string", "enum": ["official_act", "public_statement", "attributed_report"]},
+                          topic_ids={"type": "array", "items": TEXT})
+    return object_schema(properties)
+
+
+def fact_within_period(fact: dict, study: dict) -> bool:
+    """Require unambiguous dated thematic evidence; boundary-year guesses are unknown."""
+    period = str(fact.get("period", ""))
+    matches = re.findall(r"\b\d{4}-\d{2}-\d{2}\b", period)
+    try:
+        start, end = date.fromisoformat(study["date_from"]), date.fromisoformat(study["date_to"])
+        if matches:
+            return all(start <= date.fromisoformat(value) <= end for value in matches)
+        years = re.findall(r"\b(?:19|20)\d{2}\b", period)
+        return bool(years) and all(start <= date(int(year), 1, 1) and date(int(year), 12, 31) <= end for year in years)
+    except ValueError:
+        return False
 
 
 class ModelProvider:
@@ -177,16 +223,19 @@ class ModelProvider:
         evidence_dir = self.store.directory(study["id"]) / "evidence"
         evidence_dir.mkdir(exist_ok=True)
         evidence_file = evidence_dir / (obj["id"] + ".json")
-        basis = fingerprint({"version": 2, "object": obj, "period": [study["date_from"], study["date_to"]], "aspect": study["aspect"]})
+        basis_data = {"version": 2, "object": obj, "period": [study["date_from"], study["date_to"]], "aspect": study["aspect"]}
+        if study.get("research_requirements"):
+            basis_data["research_requirements"] = study["research_requirements"]
+        basis = fingerprint(basis_data)
         if evidence_file.exists():
             saved = json.loads(evidence_file.read_text(encoding="utf-8"))
             if saved.get("basis") == basis:
-                return saved
+                return attach_source_supplement(study, obj, saved, self.root, evidence_dir)
         if not self.search_key:
             return {"object_id": obj["id"], "basis": basis, "facts": [],
                     "sources": obj.get("sources", []), "context": obj.get("context", ""),
                     "limitations": "Веб-провайдер не настроен; только исходное досье", "descriptors": []}
-        fact = object_schema({"text": TEXT, "source_url": TEXT, "period": TEXT})
+        fact = evidence_fact_schema(study)
         prompt = (f"Подготовь исследовательское досье на объект {obj['name']}. "
                   f"Область {study['scope']}; аспект {study['aspect']}; период {study['date_from']}—{study['date_to']}. "
                   "Опиши 10–14 проверяемых эпизодов, позиций и особенностей объекта применительно к указанному аспекту. "
@@ -200,13 +249,38 @@ class ModelProvider:
         schema = object_schema({"facts": {"type": "array", "items": fact},
                                 "sources": {"type": "array", "items": SOURCE},
                                 "descriptors": {"type": "array", "items": TEXT}, "limitations": TEXT})
-        result = self.request(study["id"], "dossier-" + obj["id"], prompt, schema, search=True, max_tokens=4500)
+        if study.get("research_requirements"):
+            prompt += research_context(study)
+            prompt += ("Для каждой обязательной шкалы верни required_topic_review: scale_id, найденные "
+                       "source_urls и пробелы в note. Пустой source_urls означает, что оценивать пока нечего; "
+                       "не заполняй пробел общими отношениями двух государств. Помимо обязательной темы "
+                       "сохрани широкий охват остальных публичных политических характеристик объекта.")
+            prompt += ("В каждом факте сохрани event_id одного реального эпизода (общий для его пересказов), "
+                       "channel (official_act/public_statement/attributed_report), capacity (должность/роль и "
+                       "служебный либо иной контекст высказывания) и topic_ids подходящих обязательных шкал. "
+                       "Для прочих политических признаков topic_ids=[]; публичное заявление не считается частным убеждением.")
+            schema["properties"]["required_topic_review"] = {"type": "array", "items": object_schema({
+                "scale_id": TEXT, "source_urls": {"type": "array", "items": TEXT}, "note": TEXT})}
+            schema["required"].append("required_topic_review")
+        result = self.request(study["id"], "dossier-" + obj["id"], prompt, schema, search=True,
+                              max_tokens=6500 if study.get("research_requirements") else 4500)
         data = result["data"]
         data["facts"] = grounded_facts(data, result.get("citations", []))
+        if study.get("research_requirements"):
+            allowed = {fact["source_url"].rstrip("/") for fact in data["facts"]}
+            reviews = {row.get("scale_id"): row for row in data.get("required_topic_review", [])}
+            data["required_topic_review"] = []
+            for scale in study["research_requirements"].get("required_scales", []):
+                sid = scale["id"] if isinstance(scale, dict) else scale
+                review = reviews.get(sid, {})
+                urls = [url for url in review.get("source_urls", []) if url.rstrip("/") in allowed]
+                data["required_topic_review"].append({"scale_id": sid, "source_urls": urls,
+                    "status": "evidence_to_review" if urls else "unknown",
+                    "note": review.get("note", "Нет подтверждённых персонифицированных материалов")})
         data.update(object_id=obj["id"], basis=basis, model=result["model"], generated_at=result["at"],
                     retrieval_citations=result.get("citations", []))
         evidence_file.write_text(json.dumps(data, ensure_ascii=False, indent=2), encoding="utf-8")
-        return data
+        return attach_source_supplement(study, obj, data, self.root, evidence_dir)
 
     def generate_scales(self, study: dict, progress=None) -> tuple[list[dict], dict]:
         dossiers = []
@@ -227,7 +301,8 @@ class ModelProvider:
         if sum(bool(d.get("facts")) for d in dossiers) < max(8, int(.6 * total)):
             raise ValueError("Недостаточно досье с извлечёнными источниками для построения общего словаря; проверьте поиск и повторите этап")
         condensed = [{"id": d["object_id"], "descriptors": d.get("descriptors", []),
-                      "facts": d.get("facts", [])[:5]} for d in dossiers]
+                      "facts": d.get("facts", []) if study.get("research_requirements") else d.get("facts", [])[:5]}
+                     for d in dossiers]
         prompt = (f"Построй словарь 24–36 семантических шкал для аспекта {study['aspect']} пространства {study['scope']}. "
                   "Основание — общие смысловые свойства в материалах объектов ниже. Каждая шкала применима ко всем объектам. "
                   "Объедини только почти одинаковые синонимы, сохрани алиасы. Исключи имена, конкретные должности, "
@@ -238,6 +313,12 @@ class ModelProvider:
                   "definition: наблюдаемые индикаторы и якоря оценок, единый уровень заданного пользователем аспекта. "
                   "Название без уничижительной или диагностической лексики. id латиницей; source_object_ids только из материалов. "
                   "Данные: " + json.dumps(condensed, ensure_ascii=False))
+        required_scales = [dict(scale) for scale in study.get("research_requirements", {}).get("required_scales", [])
+                           if isinstance(scale, dict)]
+        if required_scales:
+            prompt += (research_context(study) + "Сохрани обязательные шкалы с исходными id и определениями. "
+                       "Они заданы исследовательским вопросом, а не частотой в досье; не выдумывай source_object_ids. "
+                       "Не добавляй их синонимы как новые шкалы. Общий словарь 24–36 шкал включает обязательный блок.")
         result = self.request(study["id"], "scales", prompt,
                               object_schema({"scales": {"type": "array", "items": SCALE},
                                              "normalization_notes": {"type": "array", "items": TEXT}}), max_tokens=13000)
@@ -274,6 +355,10 @@ class ModelProvider:
             "definition должна объяснять наблюдаемые индикаторы, границы смысла и рубрику. "
             "Не требуй ложного противопоставления ради сохранения числа шкал. Исходные данные:\n" +
             json.dumps(normalization_material, ensure_ascii=False))
+        if required_scales:
+            normalization_prompt += (research_context(study) + "Обязательные шкалы сохраняются с точными id и "
+                                     "определениями как предварительно заданный блок; не удаляй их из-за пробелов в данных. "
+                                     "Пробелы будут проверены до анализа. Не дублируй эти смыслы другими шкалами.")
         proposal_directory = self.store.directory(study["id"]) / "scale_proposals"
         proposal_directory.mkdir(exist_ok=True)
         proposal_file = proposal_directory / ("proposal-" + fingerprint(normalization_material)[:20] + ".json")
@@ -315,6 +400,20 @@ class ModelProvider:
                 scale["descriptor_object_count"] = len(scale["source_object_ids"])
                 scale["source_scale_ids"] = [item["id"] for item in origins]
                 scale["frequency_note"] = "Число объектов в материалах генерации словаря, не независимые экспертные измерения и не вес в матрице"
+            if required_scales:
+                # Preserve the user's research question without inventing its empirical support.
+                required_ids = {scale["id"] for scale in required_scales}
+                generated = {scale["id"]: scale for scale in scales}
+                scales = [scale for scale in scales if scale["id"] not in required_ids]
+                for required in required_scales:
+                    source = generated.get(required["id"], {})
+                    required.update(source_object_ids=source.get("source_object_ids", []),
+                                    descriptor_object_count=source.get("descriptor_object_count", 0),
+                                    source_scale_ids=source.get("source_scale_ids", []),
+                                    scale_origin="preregistered_research_question",
+                                    frequency_note="Обязательная тема исследования; включение не означает наличие измерений")
+                    scales.append(required)
+                scales = validate_scales(scales)
             proposal_record["status"] = "normalized_unapproved"
             proposal_record["final_scales"] = scales
         except Exception as exc:
@@ -342,16 +441,18 @@ class ModelProvider:
         destination = evidence_dir / ("dossier_supplement-" + obj["id"] + ".json")
         scales_basis = fingerprint(study["scales"])
         original_basis = fingerprint({"basis": dossier.get("basis"), "facts": dossier.get("facts", [])})
-        basis = fingerprint({"version": 1, "object": obj, "original_dossier": original_basis,
+        basis = fingerprint({"version": 2 if study.get("research_requirements") else 1, "object": obj, "original_dossier": original_basis,
                              "scales": scales_basis, "scope": study["scope"], "aspect": study["aspect"],
                              "period": [study["date_from"], study["date_to"]], "search_model": self.search_model})
         if destination.exists():
             saved = json.loads(destination.read_text(encoding="utf-8"))
             if saved.get("basis") == basis:
                 return saved
-        fact = object_schema({"text": TEXT, "source_url": TEXT, "period": TEXT})
+        fact = evidence_fact_schema(study)
         schema = object_schema({"facts": {"type": "array", "items": fact},
                                 "sources": {"type": "array", "items": SOURCE}, "limitations": TEXT})
+        search_scales = ([{key: scale[key] for key in ("id", "name", "positive", "negative", "definition") if key in scale}
+                          for scale in unknown_scales] if study.get("research_requirements") else unknown_scales)
         prompt = (f"Дополни исследовательское досье объекта {obj['name']} только для недостаточно покрытых шкал. "
                   f"Область: {study['scope']}; аспект: {study['aspect']}; период {study['date_from']}—{study['date_to']}. "
                   "Найди реальные публичные заявления, документы и наблюдаемые действия, позволяющие оценить "
@@ -361,8 +462,19 @@ class ModelProvider:
                   "Не выводи свойство из отсутствия сведений, должности или общей репутации; не ставь оценки. "
                   "Не выдумывай сведения и ссылки ради покрытия шкал: если данных нет, опиши пробел в limitations. "
                   "Не повторяй уже приведённые факты. Пересказывай без длинных цитат. "
-                  f"Недостаточно покрытые шкалы: {json.dumps(unknown_scales, ensure_ascii=False)}\n"
+                  f"Недостаточно покрытые шкалы: {json.dumps(search_scales, ensure_ascii=False)}\n"
                   f"Исходные факты: {json.dumps(dossier.get('facts', []), ensure_ascii=False)}")
+        prompt += research_context(study)
+        if study.get("research_requirements"):
+            prompt += ("Для каждого факта сохрани event_id реального эпизода, channel "
+                       "(official_act/public_statement/attributed_report), capacity (роль и контекст) и topic_ids. "
+                       "Пересказы одного эпизода имеют общий event_id. Для прочих тем topic_ids=[].")
+            prompt += ("\nЗадача этого запроса — найти содержательные позиции и действия ТОЛЬКО по шкалам " +
+                       json.dumps([scale["id"] for scale in unknown_scales], ensure_ascii=False) +
+                       ". Общие инструкции не расширяют этот список. Для общих политических шкал ищи "
+                       "программы, выступления, интервью, предложения и реализованные решения с датами, "
+                       "а не список должностей или только российскую тематику. Найди как подтверждения, так и "
+                       "контрпримеры. Где возможно, охвати несколько разных политических сфер и эпизодов.")
         response = self.request(study["id"], "dossier-supplement-" + obj["id"], prompt,
                                 schema, search=True, max_tokens=8000)
         citations = response.get("citations", [])
@@ -387,7 +499,7 @@ class ModelProvider:
                 sources.append(source)
                 known_urls.add(url)
         enriched = dict(dossier, object_id=obj["id"], basis=basis, scales_basis=scales_basis,
-                        original_dossier_file="evidence/" + obj["id"] + ".json",
+                        original_dossier_file=dossier.get("evidence_file", "evidence/" + obj["id"] + ".json"),
                         original_dossier_basis=original_basis, facts=merged, sources=sources,
                         supplement_facts=additions,
                         supplement_provenance={"model": response["model"], "at": response["at"],
@@ -407,16 +519,48 @@ class ModelProvider:
         facts = dossier.get("facts", [])
         if not facts:
             raise ValueError(f"Для {obj['name']} нет фактов с источниками; сначала настройте поиск или импортируйте доказательное досье")
-        original_file = "evidence/" + obj["id"] + ".json"
+        original_file = dossier.get("evidence_file", "evidence/" + obj["id"] + ".json")
         original_basis = fingerprint({"basis": dossier.get("basis"), "facts": facts})
+        required_ids = {scale["id"] if isinstance(scale, dict) else scale
+                        for scale in study.get("research_requirements", {}).get("required_scales", [])}
 
         def score(scales: list[dict], evidence: list[dict], start: int,
-                  supplemental: bool = False, evidence_basis: str = original_basis) -> list[dict]:
+                  supplemental: bool = False, evidence_basis: str = original_basis,
+                  thematic_slice: bool = False) -> list[dict]:
+            if not thematic_slice and any(scale["id"] in required_ids for scale in scales):
+                # A post-hoc citation filter cannot undo a score influenced by unrelated facts.
+                # Give each mandatory construct its own admissible evidence before requesting a score.
+                ordinary = [scale for scale in scales if scale["id"] not in required_ids]
+                grouped = {row["scale_id"]: row for row in score(ordinary, evidence, start, supplemental, evidence_basis)} if ordinary else {}
+                reviewed_only = (study.get("research_requirements", {}).get("require_reviewed_thematic_evidence") or
+                                 study.get("source_supplement", {}).get("reviewed_thematic_only"))
+                for scale in (scale for scale in scales if scale["id"] in required_ids):
+                    positions = [i for i, fact in enumerate(evidence) if scale["id"] in fact.get("topic_ids", [])
+                                 and fact_within_period(fact, study)
+                                 and fact.get("measurement_status") != "context_only"
+                                 and (not reviewed_only or fact.get("evidence_origin") == "assistant_verified_source")]
+                    if positions:
+                        rows = score([scale], [evidence[i] for i in positions], str(start) + "-" + scale["id"],
+                                     supplemental, evidence_basis, True)
+                        row = rows[0]
+                        row["evidence_indices"] = [positions[i] for i in row["evidence_indices"]]
+                    else:
+                        row = {"object_id": obj["id"], "scale_id": scale["id"], "positive": None, "negative": None,
+                               "difference": None, "mass": None, "status": "unknown", "confidence": 0,
+                               "reason": "Нет проверенного датированного свидетельства по этой обязательной теме; модельная оценка не запрашивалась.",
+                               "sources": [], "evidence_indices": [], "model": "not_scored_no_eligible_evidence", "at": now(),
+                               "evidence_file": "evidence/dossier_supplement-" + obj["id"] + ".json" if supplemental else original_file,
+                               "evidence_basis": evidence_basis, "rating_pass": "supplement" if supplemental else "initial",
+                               "measurement_note": "Unknown сохраняется без подстановки нейтральной или государственной позиции"}
+                    grouped[scale["id"]] = row
+                return [grouped[scale["id"]] for scale in scales]
             # Keep the original political-image prompt byte-for-byte for existing request-cache entries.
             if study["aspect"] in ("Публичный образ", "Публичный политический образ"):
                 prefix = f"Разведочная оценка публичного образа {obj['name']}. Период {study['date_from']}—{study['date_to']}. "
             else:
                 prefix = f"Разведочная оценка объекта {obj['name']}; область: {study['scope']}; аспект: {study['aspect']}. Период {study['date_from']}—{study['date_to']}. "
+            rating_scales = ([{key: scale[key] for key in ("id", "name", "positive", "negative", "definition", "anchors") if key in scale}
+                              for scale in scales] if study.get("research_requirements") else scales)
             prompt = (prefix +
                       "По каждой шкале оцени отдельно выраженность двух свойств 0..5. 0 означает подтверждённую "
                       "невыраженность, 5 — определяющую черту образа. Оба полюса могут быть выражены. "
@@ -424,11 +568,28 @@ class ModelProvider:
                       "status=unknown, оба числа=null. Для observed укажи evidence_indices — номера фактов с нуля, "
                       "которые поддерживают оценку; reason — краткое обоснование, не психодиагноз. "
                       "Уверенность 0..1 описывает достаточность материалов, не вероятность истины. "
-                      f"Шкалы: {json.dumps(scales, ensure_ascii=False)}\n"
+                      f"Шкалы: {json.dumps(rating_scales, ensure_ascii=False)}\n"
                       f"Факты: {json.dumps(evidence, ensure_ascii=False)}")
+            prompt += research_context(study, scoring=True)
+            rating_schema = RATING
+            if study.get("research_requirements"):
+                requested_ids = [scale["id"] for scale in scales]
+                prompt += ("\nТематический протокол не расширяет список шкал этого запроса. "
+                           "Сейчас верни ровно одну оценку ДЛЯ КАЖДОГО id только из этого списка: " +
+                           json.dumps(requested_ids, ensure_ascii=False) +
+                           ". Не возвращай другие обязательные шкалы, даже если они перечислены в протоколе. "
+                           "Контракт ответа: status=observed допустим ТОЛЬКО когда positive и negative оба числа 0..5. "
+                           "Если хотя бы один полюс нельзя оценить, status=unknown и оба числа=null; "
+                           "не возвращай observed с одним null. Не превращай неизвестный полюс в ноль ради заполнения матрицы.")
+                rating_schema = json.loads(json.dumps(RATING))
+                rating_schema["properties"]["scale_id"] = {"type": "string", "enum": requested_ids}
             task = ("ratings-supplement-" if supplemental else "ratings-") + obj["id"] + "-" + str(start)
             data = self.request(study["id"], task, prompt,
-                                object_schema({"ratings": {"type": "array", "items": RATING}}), max_tokens=6500)
+                                object_schema({"ratings": {"type": "array", "items": rating_schema}}), max_tokens=6500)
+            if study.get("research_requirements"):
+                returned_ids = [row["scale_id"] for row in data["data"]["ratings"]]
+                if len(returned_ids) != len(scales) or set(returned_ids) != {scale["id"] for scale in scales}:
+                    raise ValueError("Ответ оценивания не соответствует запрошенным id шкал; это ошибка формата, а не отсутствие данных")
             lookup = {row["scale_id"]: row for row in data["data"]["ratings"]}
             rows = []
             for scale in scales:
@@ -436,13 +597,26 @@ class ModelProvider:
                                               "reason": "Модель не вернула оценку", "confidence": 0, "evidence_indices": []})
                 indices = [i for i in row.get("evidence_indices", [])
                            if isinstance(i, int) and not isinstance(i, bool) and 0 <= i < len(evidence)]
+                invalid_support = len(indices) != len(row.get("evidence_indices", []))
+                original_indices = list(indices)
+                if study.get("research_requirements"):
+                    indices = [i for i in indices if fact_within_period(evidence[i], study)]
+                if scale["id"] in required_ids:
+                    indices = [i for i in indices if scale["id"] in evidence[i].get("topic_ids", [])
+                               and fact_within_period(evidence[i], study)]
+                    if (study.get("research_requirements", {}).get("require_reviewed_thematic_evidence") or
+                            study.get("source_supplement", {}).get("reviewed_thematic_only")):
+                        indices = [i for i in indices if evidence[i].get("evidence_origin") == "assistant_verified_source"]
                 positive, negative = row.get("positive"), row.get("negative")
-                valid = row.get("status") == "observed" and indices and all(isinstance(v, (int, float)) and not isinstance(v, bool) and 0 <= v <= 5 for v in (positive, negative))
+                changed_support = bool(study.get("research_requirements")) and (invalid_support or indices != original_indices)
+                valid = row.get("status") == "observed" and indices and not changed_support and all(isinstance(v, (int, float)) and not isinstance(v, bool) and 0 <= v <= 5 for v in (positive, negative))
                 status = "observed" if valid else "unknown"
                 rows.append({"object_id": obj["id"], "scale_id": scale["id"], "positive": positive if valid else None,
                              "negative": negative if valid else None, "difference": positive-negative if valid else None,
                              "mass": positive+negative if valid else None, "status": status,
-                             "confidence": row.get("confidence", 0), "reason": row.get("reason", ""),
+                             "confidence": row.get("confidence", 0),
+                             "reason": ("Нет пригодного датированного свидетельства по обязательной теме. " if
+                                        row.get("status") == "observed" and scale["id"] in required_ids and not valid else "") + row.get("reason", ""),
                              "sources": list(dict.fromkeys(evidence[i]["source_url"] for i in indices)),
                              "evidence_indices": indices, "model": data["model"], "at": data["at"],
                              "evidence_file": "evidence/dossier_supplement-" + obj["id"] + ".json" if supplemental else original_file,
@@ -464,9 +638,15 @@ class ModelProvider:
         temporary = initial_file.with_name(initial_file.name + "." + uuid.uuid4().hex + ".tmp")
         temporary.write_text(json.dumps(initial, ensure_ascii=False, indent=2, allow_nan=False), encoding="utf-8")
         temporary.replace(initial_file)
-        if not unknown_ids or len(unknown_ids) * 5 < len(results):
+        if not unknown_ids or (len(unknown_ids) * 5 < len(results) and not unknown_ids.intersection(required_ids)):
             return results
         unknown_scales = [scale for scale in study["scales"] if scale["id"] in unknown_ids]
+        if study.get("source_supplement", {}).get("reviewed_thematic_only"):
+            # All mandatory topics were already searched uniformly in the original dossiers.
+            # This pass repairs general coverage; new thematic assertions need separate source review.
+            unknown_scales = [scale for scale in unknown_scales if scale["id"] not in required_ids]
+            if not unknown_scales:
+                return results
         try:
             enriched = self.enrich_dossier(study, obj, dossier, unknown_scales)
         except Exception as exc:

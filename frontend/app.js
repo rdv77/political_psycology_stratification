@@ -16,11 +16,13 @@
     completed: "Анализ завершён", done: "Анализ завершён",
     error: "Требуется внимание", failed: "Требуется внимание",
     interrupted: "Этап прерван",
+    await_factor_selection: "Выбор факторного решения",
   };
   const FORMAT_NAMES = { md: "MD", markdown: "MD", pdf: "PDF", pptx: "PPTX", docx: "DOCX", html: "HTML", zip: "ZIP", csv: "CSV", json: "JSON" };
   const STAGE_NAMES = { draft: "Постановка", discover: "Подбор объектов", objects: "Проверка объектов",
     sources: "Сбор материалов", scales: "Проверка шкал", ratings: "Оценивание объектов",
     analysis: "Факторный и кластерный анализ", cluster_review: "Сравнение группировок", coverage_completion: "Уточнение неполных профилей",
+    factor_preview: "Сравнение факторных решений", factor_selection: "Короткий отчёт готов",
     interpretation: "Интерпретация", export: "Подготовка файлов", complete: "Отчёт подготовлен" };
   const state = {
     config: {}, studies: [], study: null, step: 1, busy: false, error: "",
@@ -582,6 +584,7 @@
 
   function renderRun() {
     const study = state.study;
+    const previewOnly = study.delivery_mode === "factor_preview";
     const running = study.status === "running";
     const complete = isComplete();
     const stopped = ["error", "failed", "interrupted"].includes(study.status);
@@ -595,13 +598,15 @@
     const main = el("section", { class: "panel run-panel" },
       el("div", { class: "run-eyebrow", text: running ? "ИССЛЕДОВАНИЕ В ПРОЦЕССЕ" : complete ? "ГОТОВЫЙ РЕЗУЛЬТАТ" : stopped ? "ТРЕБУЕТСЯ ВНИМАНИЕ" : "ПАРАМЕТРЫ ПОДГОТОВЛЕНЫ" }),
       el("h2", { text: running ? "Строим семантическое пространство" : complete ? "Анализ завершён" : stopped ? "Выполнение остановлено" : "Всё готово к анализу" }),
-      el("p", { class: "run-message", text: running ? progress.message || "Оценивание объектов и анализ выполняются на сервере." : complete ? "Результаты сохранены. Откройте отчёт, сравните оси и профили групп или скачайте материалы исследования." : stopped ? "Причина остановки указана выше. После её устранения можно запустить этап повторно; сохранённые исходные данные доступны." : "Программа оценит объекты по общим шкалам, выделит факторные оси и сравнит варианты группировки." }));
+      el("p", { class: "run-message", text: running ? progress.message || "Оценивание объектов и анализ выполняются на сервере." : complete ? (previewOnly ? "Сравните факторные решения в коротком отчёте. Расширенный отчёт и презентация появятся после выбора решения." : "Результаты сохранены. Откройте отчёт, сравните оси и профили групп или скачайте материалы исследования.") : stopped ? "Причина остановки указана выше. После её устранения можно запустить этап повторно; сохранённые исходные данные доступны." : previewOnly ? "Программа оценит объекты и сравнит допустимые решения с 2–8 факторами. Первый результат — короткий отчёт для выбора числа факторов." : "Программа оценит объекты по общим шкалам, выделит факторные оси и сравнит варианты группировки." }));
     if (missing.length) main.append(notice(`До запуска нужно утвердить: ${missing.join(" и ")}.`, "warning", { label: "Проверить →", fn: () => { state.step = !approved("objects") ? 2 : 3; renderMain(); } }));
     if (running || complete) main.append(el("div", { class: "progress-track", role: "progressbar", "aria-label": "Ход анализа", "aria-valuemin": 0, "aria-valuemax": 100, "aria-valuenow": complete ? 100 : total ? percent : null },
       el("div", { class: `progress-fill${running && !total ? " indeterminate" : ""}`, style: complete ? "width:100%" : total ? `width:${percent}%` : null })),
       el("div", { class: "progress-caption" }, el("span", { text: STAGE_NAMES[progress.stage] || (complete ? "Отчёт подготовлен" : "Выполняется этап") }), el("span", { text: complete ? "Готово" : total ? `${current} / ${total}` : "В процессе" })));
     const stageIndex = stagePosition(progress.stage);
-    const stages = [ ["Оценивание объектов", "Общий словарь и основания оценок"], ["Проверка измерения", "Покрытие, полюса и пропуски"], ["Выделение факторов", "Размерность, нагрузки и баллы"], ["Сравнение группировок", "Устойчивость и интерпретируемость"], ["Интерпретация", "Оси, группы и выбранный объект"], ["Подготовка отчёта", "Карты и файлы для скачивания"] ];
+    const stages = previewOnly
+      ? [["Оценивание объектов", "Общий словарь и источники"], ["Проверка измерения", "Покрытие и пропуски"], ["Сравнение факторов", "Решения с 2–8 осями"], ["Короткий отчёт", "Выбор решения пользователем"]]
+      : [ ["Оценивание объектов", "Общий словарь и основания оценок"], ["Проверка измерения", "Покрытие, полюса и пропуски"], ["Выделение факторов", "Размерность, нагрузки и баллы"], ["Сравнение группировок", "Устойчивость и интерпретируемость"], ["Интерпретация", "Оси, группы и выбранный объект"], ["Подготовка отчёта", "Карты и файлы для скачивания"] ];
     main.append(el("div", { class: "run-stages" }, stages.map(([name, note], i) => {
       const done = complete || (running && i < stageIndex);
       const active = running && i === stageIndex;
@@ -625,7 +630,7 @@
       field("Число факторов", state.factorCount, (value) => { state.factorCount = value; }, { type: "number", min: 2, max: 8, placeholder: "Автоматический подбор" }),
       field("Число кластеров", state.clusterCount, (value) => { state.clusterCount = value; }, { type: "number", min: 2, max: 10, placeholder: "Сравнить варианты" }),
       el("p", { class: "advanced-note", text: "Пустые поля оставляют автоматический выбор. Решение оценивается по устойчивости, качеству и содержательной интерпретации." }));
-    summary.append(advanced);
+    summary.append(previewOnly ? el("p", { class: "advanced-note", text: "Сейчас сравниваются все допустимые решения с 2–8 факторами. Выбор решения — после короткого отчёта." }) : advanced);
     const aside = el("aside", {}, summary, el("div", { class: "aside-below" }, el("p", { text: "Модельные оценки — разведочный материал. Сходство профилей не доказывает совпадение электоратов, а пустая область карты — наличие общественного спроса." })));
     return el("div", { class: "run-layout" }, main, aside);
   }
@@ -657,6 +662,7 @@
     const study = state.study;
     const analysis = study.analysis || {};
     if (!study.artifacts?.length) return el("div", { class: "panel" }, emptyState("Отчёт ещё не подготовлен", "После завершения анализа здесь появятся карты, интерпретация пространства и файлы исследования.", [button("К анализу →", () => { state.step = 4; renderMain(); }, { primary: true })]));
+    if (study.delivery_mode === "factor_preview") return renderFactorPreview(study, analysis);
     const container = el("div");
     const variance = Number(analysis.variance_total);
     const varianceText = Number.isFinite(variance) ? `${(variance <= 1 ? variance * 100 : variance).toLocaleString("ru-RU", { maximumFractionDigits: 1 })}%` : "—";
@@ -684,6 +690,43 @@
     extras.forEach((artifact) => footer.append(el("a", { class: "button button-small", href: artifact.safeUrl, download: "", text: `↓ ${artifact.label || FORMAT_NAMES[artifact.format] || artifact.format || "Файл"}` })));
     footer.append(button("Параметры и пересчёт", () => { state.step = 4; renderMain(); }, { small: true, quiet: true }));
     container.append(footer);
+    return container;
+  }
+
+  function renderFactorPreview(study, analysis) {
+    const container = el("div", { class: "panel" },
+      el("h2", { text: "Сравнение факторных решений" }),
+      el("p", { text: "Это первый этап. Сравните смысл осей и доли дисперсии; выбранное решение станет основой расширенного отчёта и презентации." }));
+    const links = el("div", { class: "downloads" });
+    for (const artifact of study.artifacts) {
+      const url = safeArtifactUrl(artifact.url);
+      if (url) links.append(el("a", { class: "button download-button", href: url, download: "", text: `↓ ${artifact.label || artifact.format}` }));
+    }
+    container.append(links);
+    const percent = (value) => Number.isFinite(Number(value)) ? `${(100 * Number(value)).toLocaleString("ru-RU", { maximumFractionDigits: 2 })}%` : "—";
+    const theme = analysis.russia_review || {};
+    const themeNames = {
+      insufficient_measurement: "Недостаточно измерений для вывода об отдельном факторе",
+      numeric_candidates_pending_audit: "Есть численные кандидаты; требуется проверка содержания и устойчивости",
+      conditional_two_indicator_candidates: "Есть условные кандидаты с двумя индикаторами",
+      no_numeric_candidate: "В просмотренных решениях подходящий численный кандидат не найден",
+    };
+    if (theme.configured_ids?.length) container.append(el("div", { class: "report-warning" },
+      el("strong", { text: "Отношение к России. " }),
+      `${themeNames[theme.status] || theme.status}. В словаре ${theme.configured_ids.length} шкал; в пригодной матрице ${theme.retained_ids?.length || 0}. Порог показа кандидата — 2% общей дисперсии.`));
+    for (const model of analysis.models || []) {
+      const card = el("section", { class: "run-side-card", style: "margin-top:20px" },
+        el("h3", { text: `${model.q} фактора: ${percent(model.variance_total)} общей дисперсии` }));
+      for (const factor of model.factors || []) card.append(el("p", {},
+        el("strong", { text: `${factor.id}: ${factor.name || factor.label}. ` }),
+        `${percent(factor.variance_share)}. ${factor.interpretation || ""}`));
+      const chart = (analysis.charts || []).find((item) => item.q === model.q);
+      const chartUrl = chart && safeArtifactUrl(`${studyPath("/files/")}${chart.file}`);
+      if (chartUrl) card.append(el("img", { src: chartUrl, alt: chart.title, loading: "lazy", style: "width:100%;height:auto;margin-top:12px" }));
+      container.append(card);
+    }
+    for (const limitation of analysis.limitations || []) container.append(el("p", { class: "report-warning", text: limitation }));
+    container.append(button("Вернуться к анализу", () => { state.step = 4; renderMain(); }, { quiet: true }));
     return container;
   }
 
