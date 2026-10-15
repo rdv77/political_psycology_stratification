@@ -1,0 +1,1498 @@
+{
+  "format_version": 1,
+  "title": "Краткие справки 42 утверждённых политических акторов Руанды",
+  "prepared_on": "2026-10-16",
+  "period": {
+    "date_from": "2021-10-15",
+    "date_to": "2026-10-15"
+  },
+  "status": "reader_context_not_new_ratings",
+  "roster_file": "objects.json",
+  "roster_sha256": "640bbbd2333843b17171138c090fcbb0cdec60c101dfa89c43ddbd5014685b9b",
+  "profile_count": 42,
+  "editorial_notes": [
+    "Порядок, идентификаторы и имена утверждённой выборки сохранены. Категории — слои целевого отбора, не статистические кластеры.",
+    "Должности описаны исторически. Опорная дата исполнения не доказывает занятие поста в течение всего окна или на дату составления справки.",
+    "Справки объясняют институциональное место и включение в выборку; не измеряют популярность, степень влияния или частные убеждения.",
+    "Биографическое описание не заменяет источники собственных публичных заявлений и действий при оценивании признаков.",
+    "Проверки официальных биографий, международных мандатов и спорных дат дополнены чтением источников. Прочие источники опираются на верификацию утверждённого реестра; способ проверки сохранён.",
+    "Уточнение 16.10.2026: назначение Нсенгийюмвы 23.07.2025 отделено от присяги и передачи полномочий Нгиренте 25.07.2025 по двум официальным страницам."
+  ],
+  "profiles": [
+    {
+      "id": "paul-kagame",
+      "order": 1,
+      "name": "Поль Кагаме",
+      "original_name": "Paul Kagame",
+      "category": "Центральное руководство",
+      "historical_role": "Президент Руанды; участник президентских выборов 2024 года",
+      "role_period": "Инаугурация: 11.08.2024",
+      "brief_profile": "Глава государства, с которым связаны президентские выборы 2024 года и новый пятилетний мандат. Включён как центральный участник национальной политики, а не как представитель всех взглядов населения.",
+      "inclusion_reason": "Глава государства и центральный участник президентской политики.",
+      "role_context": "national_public_actor",
+      "international_mandate": null,
+      "sources": [
+        {
+          "title": "President Kagame sworn-in for a five-year term",
+          "url": "https://www.rwandainghana.gov.rw/actualites/info-details/president-kagame-sworn-in-for-a-five-year-term",
+          "source_type": "official_government",
+          "published_on": "2024-08-11",
+          "verification_method": "web_search_index",
+          "verification_basis": "approved_roster_source; original verification method retained"
+        },
+        {
+          "title": "Rwanda: Respect Rights During Elections",
+          "url": "https://www.hrw.org/news/2024/06/14/rwanda-respect-rights-during-elections",
+          "source_type": "international_human_rights_organization",
+          "published_on": "2024-06-14",
+          "verification_method": "web_open",
+          "verification_basis": "approved_roster_source; original verification method retained"
+        }
+      ],
+      "slide_role": "Президент; инаугурация на новый пятилетний срок 11.08.2024",
+      "slide_bio": "Центральный участник президентской и государственной политики; его позиция не заменяет взгляды всего населения."
+    },
+    {
+      "id": "edouard-ngirente",
+      "order": 2,
+      "name": "Эдуар Нгиренте",
+      "original_name": "Edouard Ngirente",
+      "category": "Центральное руководство",
+      "historical_role": "Премьер-министр в первой части исследуемого периода",
+      "role_period": "Роль подтверждена 25.02.2025; преемник назначен 23.07.2025; церемония передачи полномочий 25.07.2025",
+      "brief_profile": "Руководил правительством в первой части исследуемого окна и передал полномочия преемнику на церемонии 25 июля 2025 года. Его присутствие позволяет учитывать правительственную политику до смены премьер-министра.",
+      "inclusion_reason": "Представляет руководство правительством до смены премьера в 2025 году.",
+      "role_context": "national_public_actor",
+      "international_mandate": null,
+      "sources": [
+        {
+          "title": "Prime Minister’s Office: appointments at the National Bank of Rwanda",
+          "url": "https://www.primature.gov.rw/index.php?eID=dumpFile&f=120236&t=f&token=7de66acf7742c515b4ac9071f0ea51fa31d4451e",
+          "source_type": "official_government",
+          "published_on": "2025-02-25",
+          "verification_method": "web_search_index",
+          "verification_basis": "approved_roster_source; original verification method retained"
+        },
+        {
+          "title": "Office of the Prime Minister — About: Justin Nsengiyumva and Ines Mpambara",
+          "url": "https://www.primature.gov.rw/about",
+          "source_type": "official_government",
+          "published_on": null,
+          "verification_method": "web_open",
+          "verification_basis": "approved_roster_source; original verification method retained"
+        },
+        {
+          "title": "PM Nsengiyumva officially sworn-in as Prime Minister — oath and handover, 25 July 2025",
+          "url": "https://primature.prod.risa.rw/news-detail/pm-nsengiyumva-officially-sworn-in-as-prime-minister",
+          "source_type": "official_government",
+          "published_on": "2025-07-25",
+          "verification_method": "web_open",
+          "verification_basis": "Full official article read on 2026-10-16. It explicitly dates the oath and afternoon handover to 25 July 2025; does not date the appointment to that day."
+        }
+      ],
+      "slide_role": "Премьер-министр; передал полномочия преемнику 25.07.2025",
+      "slide_bio": "Представляет руководство правительством до смены премьера в 2025 году.",
+      "role_events": [
+        {
+          "event": "successor_appointment",
+          "date": "2025-07-23",
+          "source_url": "https://www.primature.gov.rw/about"
+        },
+        {
+          "event": "handover_to_successor",
+          "date": "2025-07-25",
+          "source_url": "https://primature.prod.risa.rw/news-detail/pm-nsengiyumva-officially-sworn-in-as-prime-minister"
+        }
+      ]
+    },
+    {
+      "id": "justin-nsengiyumva",
+      "order": 3,
+      "name": "Жюстен Нсенгийюмва",
+      "original_name": "Justin Nsengiyumva",
+      "category": "Центральное руководство",
+      "historical_role": "Назначен премьер-министром в июле 2025 года",
+      "role_period": "Назначение 23.07.2025; присяга и передача полномочий 25.07.2025",
+      "brief_profile": "Назначен главой правительства 23 июля 2025 года; принёс присягу и принял полномочия на церемонии 25 июля. Включён для представления смены руководителя исполнительной координации внутри исследуемого периода.",
+      "inclusion_reason": "Представляет новое руководство правительством внутри пятилетнего окна.",
+      "role_context": "national_public_actor",
+      "international_mandate": null,
+      "sources": [
+        {
+          "title": "Office of the Prime Minister — About: Justin Nsengiyumva and Ines Mpambara",
+          "url": "https://www.primature.gov.rw/about",
+          "source_type": "official_government",
+          "published_on": null,
+          "verification_method": "web_open",
+          "verification_basis": "approved_roster_source; re-opened 2026-10-16"
+        },
+        {
+          "title": "PM Nsengiyumva officially sworn-in as Prime Minister — oath and handover, 25 July 2025",
+          "url": "https://primature.prod.risa.rw/news-detail/pm-nsengiyumva-officially-sworn-in-as-prime-minister",
+          "source_type": "official_government",
+          "published_on": "2025-07-25",
+          "verification_method": "web_open",
+          "verification_basis": "Full official article read on 2026-10-16. It explicitly dates the oath and afternoon handover to 25 July 2025; does not date the appointment to that day."
+        }
+      ],
+      "slide_role": "Премьер-министр: назначен 23.07.2025; принёс присягу 25.07.2025",
+      "slide_bio": "Позволяет учесть смену главы правительства внутри исследуемого периода.",
+      "role_events": [
+        {
+          "event": "appointment",
+          "date": "2025-07-23",
+          "source_url": "https://www.primature.gov.rw/about"
+        },
+        {
+          "event": "oath",
+          "date": "2025-07-25",
+          "source_url": "https://primature.prod.risa.rw/news-detail/pm-nsengiyumva-officially-sworn-in-as-prime-minister"
+        },
+        {
+          "event": "handover_from_predecessor",
+          "date": "2025-07-25",
+          "source_url": "https://primature.prod.risa.rw/news-detail/pm-nsengiyumva-officially-sworn-in-as-prime-minister"
+        }
+      ]
+    },
+    {
+      "id": "vincent-biruta",
+      "order": 4,
+      "name": "Венсан Бирута",
+      "original_name": "Vincent Biruta",
+      "category": "Министры и руководители государственной политики",
+      "historical_role": "Министр иностранных дел в апреле 2024 года; назначен министром внутренних дел в августе 2024 года",
+      "role_period": "Подтверждённые роли: апрель и август 2024",
+      "brief_profile": "Представляет внешнеполитическое руководство первой части окна и переход к внутреннему управлению в августе 2024 года. Смена портфеля важна для датировки его публичных выступлений.",
+      "inclusion_reason": "Связывает внешнеполитическую и внутреннюю управленческую повестку.",
+      "role_context": "national_public_actor",
+      "international_mandate": null,
+      "sources": [
+        {
+          "title": "MINAFFET news archive: Rwanda and Ukraine discuss bilateral relations, 18 April 2024",
+          "url": "https://www.minaffet.gov.rw/updates/news/page?cHash=764ee7520c0d7693c560332fdd905b60&tx_news_pi1%5BcurrentPage%5D=17",
+          "source_type": "official_government",
+          "published_on": "2024-04-24",
+          "verification_method": "web_search_index",
+          "verification_basis": "approved_roster_source; original verification method retained"
+        },
+        {
+          "title": "Prime Minister’s Office: appointment of ministers, 16 August 2024",
+          "url": "https://www.primature.gov.rw/index.php?eID=dumpFile&f=103921&t=f&token=674c3d927f1443e0309c38a0fffb76c2e7e273c3",
+          "source_type": "official_government",
+          "published_on": "2024-08-16",
+          "verification_method": "web_search_index_and_pdf_open",
+          "verification_basis": "approved_roster_source; original verification method retained"
+        }
+      ],
+      "slide_role": "Глава МИД в апреле 2024; министр внутренних дел в августе 2024",
+      "slide_bio": "Два разных портфеля требуют различать даты и служебный контекст его выступлений."
+    },
+    {
+      "id": "olivier-nduhungirehe",
+      "order": 5,
+      "name": "Оливье Ндухунгирехе",
+      "original_name": "Olivier J. P. Nduhungirehe",
+      "category": "Министры и руководители государственной политики",
+      "historical_role": "Министр иностранных дел и международного сотрудничества в правительстве августа 2024 года",
+      "role_period": "Подтверждённая роль: 16.08.2024",
+      "brief_profile": "Представлял министерство иностранных дел и международного сотрудничества в составе правительства августа 2024 года. Включён как один из участников публичной дипломатии Руанды; служебные выступления рассматриваются в соответствующей роли.",
+      "inclusion_reason": "Руководитель внешнеполитического ведомства.",
+      "role_context": "national_public_actor",
+      "international_mandate": null,
+      "sources": [
+        {
+          "title": "Prime Minister’s Office: appointment of ministers, 16 August 2024",
+          "url": "https://www.primature.gov.rw/index.php?eID=dumpFile&f=103921&t=f&token=674c3d927f1443e0309c38a0fffb76c2e7e273c3",
+          "source_type": "official_government",
+          "published_on": "2024-08-16",
+          "verification_method": "web_search_index_and_pdf_open",
+          "verification_basis": "approved_roster_source; original verification method retained"
+        }
+      ],
+      "slide_role": "Министр иностранных дел в составе правительства от 16.08.2024",
+      "slide_bio": "Представляет публичную дипломатию Руанды в датированной государственной роли."
+    },
+    {
+      "id": "james-kabarebe",
+      "order": 6,
+      "name": "Джеймс Кабаребе",
+      "original_name": "James Kabarebe",
+      "category": "Министры и руководители государственной политики",
+      "historical_role": "Государственный министр по региональному сотрудничеству, вступивший в должность в 2023 году",
+      "role_period": "Передача полномочий: 04.10.2023",
+      "brief_profile": "Принял портфель регионального сотрудничества в октябре 2023 года. Его включение добавляет к общему внешнеполитическому руководству уровень региональной дипломатии.",
+      "inclusion_reason": "Представляет региональную дипломатию и переход заметной военной фигуры на дипломатический пост.",
+      "role_context": "national_public_actor",
+      "international_mandate": null,
+      "sources": [
+        {
+          "title": "Prof. Manasseh hands over to Gen. (Rtd) Kabarebe",
+          "url": "https://www.minaffet.gov.rw/updates/news-details/prof-manasseh-hands-over-to-gen-rtd-kabarebe",
+          "source_type": "official_government",
+          "published_on": "2023-10-04",
+          "verification_method": "web_search_index",
+          "verification_basis": "approved_roster_source; original verification method retained"
+        }
+      ],
+      "slide_role": "Государственный министр регионального сотрудничества: с 04.10.2023",
+      "slide_bio": "Добавляет к общей внешней политике уровень регионального сотрудничества."
+    },
+    {
+      "id": "juvenal-marizamunda",
+      "order": 7,
+      "name": "Жювеналь Маризамунда",
+      "original_name": "Juvenal Marizamunda",
+      "category": "Министры и руководители государственной политики",
+      "historical_role": "Министр обороны, принявший полномочия в июне 2023 года",
+      "role_period": "Вступление в должность: 07.06.2023; подтверждён в августе 2024",
+      "brief_profile": "Принял полномочия министра обороны в июне 2023 года. Представляет руководство оборонным ведомством в части исследуемого периода; должность сама по себе не задаёт оценок по политическим шкалам.",
+      "inclusion_reason": "Руководитель оборонного ведомства.",
+      "role_context": "national_public_actor",
+      "international_mandate": null,
+      "sources": [
+        {
+          "title": "Newly appointed Minister of Defence assumes responsibilities",
+          "url": "https://www.mod.gov.rw/docs-media/news-detail/newly-appointed-minister-of-defence-assumes-responsibilities",
+          "source_type": "official_government",
+          "published_on": "2023-06-07",
+          "verification_method": "web_search_index",
+          "verification_basis": "approved_roster_source; original verification method retained"
+        },
+        {
+          "title": "Prime Minister’s Office: appointment of ministers, 16 August 2024",
+          "url": "https://www.primature.gov.rw/index.php?eID=dumpFile&f=103921&t=f&token=674c3d927f1443e0309c38a0fffb76c2e7e273c3",
+          "source_type": "official_government",
+          "published_on": "2024-08-16",
+          "verification_method": "web_search_index_and_pdf_open",
+          "verification_basis": "approved_roster_source; original verification method retained"
+        }
+      ],
+      "slide_role": "Министр обороны: принял полномочия 07.06.2023; подтверждён в 2024",
+      "slide_bio": "Представляет оборонное ведомство; сам пост не определяет содержание его взглядов."
+    },
+    {
+      "id": "albert-murasira",
+      "order": 8,
+      "name": "Альбер Мурасира",
+      "original_name": "Albert Murasira",
+      "category": "Министры и руководители государственной политики",
+      "historical_role": "Министр по чрезвычайным ситуациям в правительстве августа 2024 года",
+      "role_period": "Подтверждённая роль: 16.08.2024",
+      "brief_profile": "В исследуемом окне связан с оборонным ведомством, а в составе правительства августа 2024 года — с чрезвычайными ситуациями. Позволяет учитывать разные направления государственной безопасности и гражданской защиты, сохраняя их датировку.",
+      "inclusion_reason": "Добавляет повестку безопасности населения и реагирования на чрезвычайные ситуации.",
+      "role_context": "national_public_actor",
+      "international_mandate": null,
+      "sources": [
+        {
+          "title": "Prime Minister’s Office: appointment of ministers, 16 August 2024",
+          "url": "https://www.primature.gov.rw/index.php?eID=dumpFile&f=103921&t=f&token=674c3d927f1443e0309c38a0fffb76c2e7e273c3",
+          "source_type": "official_government",
+          "published_on": "2024-08-16",
+          "verification_method": "web_search_index_and_pdf_open",
+          "verification_basis": "approved_roster_source; original verification method retained"
+        },
+        {
+          "title": "Rwanda Defence Minister addresses UN Peacekeeping Ministerial Conference in Seoul",
+          "url": "https://www.mod.gov.rw/docs-media/news-detail/rwanda-defence-minister-addresses-un-peacekeeping-ministerial-conference-in-seoul-2",
+          "published_on": "2021-12-08",
+          "verification_basis": "existing dossier source; dated official role",
+          "source_type": "official_government"
+        }
+      ],
+      "slide_role": "Министр обороны в 2021; министр чрезвычайных ситуаций в августе 2024",
+      "slide_bio": "Соединяет в биографии оборонное управление и гражданскую защиту, в разные годы."
+    },
+    {
+      "id": "emmanuel-ugirashebuja",
+      "order": 9,
+      "name": "Эмманюэль Угирасебуджа",
+      "original_name": "Emmanuel Ugirashebuja",
+      "category": "Министры и руководители государственной политики",
+      "historical_role": "Министр юстиции и генеральный прокурор в 2022 и 2024 годах",
+      "role_period": "Подтверждённые роли: 28.09.2022 и 16.08.2024",
+      "brief_profile": "Представлял Министерство юстиции и должность Attorney General в датированных официальных материалах 2022–2024 годов. Включён как участник правового и административного направления государственной политики.",
+      "inclusion_reason": "Руководитель государственной правовой политики.",
+      "role_context": "national_public_actor",
+      "international_mandate": null,
+      "sources": [
+        {
+          "title": "Minister of Justice / Attorney General met with Government legal advisors",
+          "url": "https://www.minijust.gov.rw/news-detail/minister-of-justice-attorney-general-met-with-government-legal-advisors",
+          "source_type": "official_government",
+          "published_on": "2022-09-28",
+          "verification_method": "web_search_index",
+          "verification_basis": "approved_roster_source; original verification method retained"
+        },
+        {
+          "title": "Prime Minister’s Office: appointment of ministers, 16 August 2024",
+          "url": "https://www.primature.gov.rw/index.php?eID=dumpFile&f=103921&t=f&token=674c3d927f1443e0309c38a0fffb76c2e7e273c3",
+          "source_type": "official_government",
+          "published_on": "2024-08-16",
+          "verification_method": "web_search_index_and_pdf_open",
+          "verification_basis": "approved_roster_source; original verification method retained"
+        }
+      ],
+      "slide_role": "Министр юстиции и Attorney General: подтверждён в 2022 и августе 2024",
+      "slide_bio": "Представляет правовое направление государственной политики и юридическое управление."
+    },
+    {
+      "id": "yusuf-murangwa",
+      "order": 10,
+      "name": "Юсуф Мурангва",
+      "original_name": "Yusuf Murangwa",
+      "category": "Министры и руководители государственной политики",
+      "historical_role": "Министр финансов и экономического планирования, вступивший в должность в июне 2024 года",
+      "role_period": "Начало роли по EADB: 12.06.2024",
+      "brief_profile": "Возглавил финансово-экономический портфель в июне 2024 года. Включён для представления бюджетной и экономической политики второй части окна без переноса на него всех решений государства.",
+      "inclusion_reason": "Представляет экономическую и бюджетную политику после смены руководства ведомства.",
+      "role_context": "national_public_actor",
+      "international_mandate": null,
+      "sources": [
+        {
+          "title": "96% of Rwandans are financially included — FinScope Survey 2024",
+          "url": "https://www.minecofin.gov.rw/news-detail/96-of-rwandans-are-financially-included-finscope-survey-2024",
+          "source_type": "official_government",
+          "published_on": "2024-06-20",
+          "verification_method": "web_search_index",
+          "verification_basis": "approved_roster_source; original verification method retained"
+        },
+        {
+          "title": "East African Development Bank Annual Report 2024 — Governing Council",
+          "url": "https://www.eadb.org/site/assets/files/2279/2024_annual_report.pdf",
+          "source_type": "official_international_financial_institution",
+          "published_on": null,
+          "verification_method": "web_search_index",
+          "verification_basis": "approved_roster_source; original verification method retained"
+        }
+      ],
+      "slide_role": "Министр финансов и экономического планирования: назначение 12.06.2024",
+      "slide_bio": "Представляет финансово-экономический портфель после смены министра в 2024 году."
+    },
+    {
+      "id": "uzziel-ndagijimana",
+      "order": 11,
+      "name": "Уззиэль Ндагиджимана",
+      "original_name": "Uzziel Ndagijimana",
+      "category": "Министры и руководители государственной политики",
+      "historical_role": "Министр финансов и экономического планирования до июня 2024 года",
+      "role_period": "Завершение роли по EADB: 12.06.2024",
+      "brief_profile": "Руководил финансово-экономическим портфелем до июня 2024 года. Позволяет учитывать публичное обоснование бюджета и приоритетов до смены министра.",
+      "inclusion_reason": "Представляет предшествующее руководство финансовой политикой.",
+      "role_context": "national_public_actor",
+      "international_mandate": null,
+      "sources": [
+        {
+          "title": "East African Development Bank Annual Report 2024 — Governing Council",
+          "url": "https://www.eadb.org/site/assets/files/2279/2024_annual_report.pdf",
+          "source_type": "official_international_financial_institution",
+          "published_on": null,
+          "verification_method": "web_search_index",
+          "verification_basis": "approved_roster_source; original verification method retained"
+        }
+      ],
+      "slide_role": "Министр финансов и экономического планирования до 12.06.2024",
+      "slide_bio": "Позволяет учесть бюджетную и экономическую повестку до смены руководителя ведомства."
+    },
+    {
+      "id": "paula-ingabire",
+      "order": 12,
+      "name": "Паула Ингабире",
+      "original_name": "Paula Ingabire",
+      "category": "Министры и руководители государственной политики",
+      "historical_role": "Министр информационно-коммуникационных технологий и инноваций в правительстве 2024 года",
+      "role_period": "Подтверждённая роль: 16.08.2024",
+      "brief_profile": "Представляла министерство ИКТ и инноваций в правительстве августа 2024 года. Включена как публичный участник цифрового и технологического направления государственной политики.",
+      "inclusion_reason": "Представляет цифровую модернизацию и инновационную политику.",
+      "role_context": "national_public_actor",
+      "international_mandate": null,
+      "sources": [
+        {
+          "title": "Prime Minister’s Office: appointment of ministers, 16 August 2024",
+          "url": "https://www.primature.gov.rw/index.php?eID=dumpFile&f=103921&t=f&token=674c3d927f1443e0309c38a0fffb76c2e7e273c3",
+          "source_type": "official_government",
+          "published_on": "2024-08-16",
+          "verification_method": "web_search_index_and_pdf_open",
+          "verification_basis": "approved_roster_source; original verification method retained"
+        }
+      ],
+      "slide_role": "Министр ИКТ и инноваций в составе правительства от 16.08.2024",
+      "slide_bio": "Представляет цифровое и технологическое направление государственной политики."
+    },
+    {
+      "id": "sabin-nsanzimana",
+      "order": 13,
+      "name": "Сабин Нсанзимана",
+      "original_name": "Sabin Nsanzimana",
+      "category": "Министры и руководители государственной политики",
+      "historical_role": "Министр здравоохранения в 2023 году",
+      "role_period": "Публичное выступление: 13.02.2023",
+      "brief_profile": "Выступал как министр здравоохранения, в частности при оформлении сотрудничества с ВОЗ в феврале 2023 года. Включён для представления вопросов здоровья населения и готовности системы к эпидемиям.",
+      "inclusion_reason": "Представляет здравоохранение и управление эпидемическими рисками.",
+      "role_context": "national_public_actor",
+      "international_mandate": null,
+      "sources": [
+        {
+          "title": "Rwanda, WHO join forces to boost epidemic preparedness",
+          "url": "https://www.moh.gov.rw/news-detail/rwanda-who-join-forces-to-boost-epidemic-preparedness",
+          "source_type": "official_government",
+          "published_on": "2023-02-13",
+          "verification_method": "web_search_index",
+          "verification_basis": "approved_roster_source; re-opened 2026-10-16"
+        }
+      ],
+      "slide_role": "Министр здравоохранения: датированное выступление 13.02.2023",
+      "slide_bio": "Его публичные выступления дают материал о здравоохранении и готовности к эпидемиям."
+    },
+    {
+      "id": "judith-uwizeye",
+      "order": 14,
+      "name": "Жюдит Увизейе",
+      "original_name": "Judith Uwizeye",
+      "category": "Министры и руководители государственной политики",
+      "historical_role": "Министр в канцелярии президента в правительстве августа 2024 года",
+      "role_period": "Подтверждённая роль: 16.08.2024",
+      "brief_profile": "Входила в правительство августа 2024 года как министр в канцелярии президента. Её включение отражает уровень президентской администрации; содержание позиций устанавливается по собственным публичным материалам.",
+      "inclusion_reason": "Представляет политико-административное ядро президентской канцелярии.",
+      "role_context": "national_public_actor",
+      "international_mandate": null,
+      "sources": [
+        {
+          "title": "Prime Minister’s Office: appointment of ministers, 16 August 2024",
+          "url": "https://www.primature.gov.rw/index.php?eID=dumpFile&f=103921&t=f&token=674c3d927f1443e0309c38a0fffb76c2e7e273c3",
+          "source_type": "official_government",
+          "published_on": "2024-08-16",
+          "verification_method": "web_search_index_and_pdf_open",
+          "verification_basis": "approved_roster_source; original verification method retained"
+        }
+      ],
+      "slide_role": "Министр в канцелярии президента: состав правительства 16.08.2024",
+      "slide_bio": "Представляет уровень президентской администрации; взгляды устанавливаются отдельно по собственным заявлениям."
+    },
+    {
+      "id": "ines-mpambara",
+      "order": 15,
+      "name": "Инес Мпамбара",
+      "original_name": "Inès Mpambara",
+      "category": "Министры и руководители государственной политики",
+      "historical_role": "Министр в канцелярии премьер-министра",
+      "role_period": "Назначение: 26.02.2020; роль повторно подтверждена 16.08.2024",
+      "brief_profile": "Назначена министром в канцелярии премьер-министра в феврале 2020 года; роль подтверждается внутри исследуемого окна. Представляет аппарат координации правительственной работы.",
+      "inclusion_reason": "Представляет координацию правительственного управления.",
+      "role_context": "national_public_actor",
+      "international_mandate": null,
+      "sources": [
+        {
+          "title": "Office of the Prime Minister — About: Justin Nsengiyumva and Ines Mpambara",
+          "url": "https://www.primature.gov.rw/about",
+          "source_type": "official_government",
+          "published_on": null,
+          "verification_method": "web_open",
+          "verification_basis": "approved_roster_source; re-opened 2026-10-16"
+        },
+        {
+          "title": "Prime Minister’s Office: appointment of ministers, 16 August 2024",
+          "url": "https://www.primature.gov.rw/index.php?eID=dumpFile&f=103921&t=f&token=674c3d927f1443e0309c38a0fffb76c2e7e273c3",
+          "source_type": "official_government",
+          "published_on": "2024-08-16",
+          "verification_method": "web_search_index_and_pdf_open",
+          "verification_basis": "approved_roster_source; re-opened 2026-10-16"
+        }
+      ],
+      "slide_role": "Министр в канцелярии премьера: с 26.02.2020, подтверждение в 2024",
+      "slide_bio": "Представляет аппарат координации правительственной работы в исследуемом окне."
+    },
+    {
+      "id": "valentine-uwamariya",
+      "order": 16,
+      "name": "Валентин Увамария",
+      "original_name": "Valentine Uwamariya",
+      "category": "Министры и руководители государственной политики",
+      "historical_role": "Министр окружающей среды в правительстве августа 2024 года",
+      "role_period": "Подтверждённая роль: 16.08.2024",
+      "brief_profile": "Представляла природоохранный портфель в составе правительства августа 2024 года. Включена для охвата экологической и климатической повестки, отличаемой от других направлений управления.",
+      "inclusion_reason": "Добавляет экологическую повестку на уровне руководства министерством.",
+      "role_context": "national_public_actor",
+      "international_mandate": null,
+      "sources": [
+        {
+          "title": "Prime Minister’s Office: appointment of ministers, 16 August 2024",
+          "url": "https://www.primature.gov.rw/index.php?eID=dumpFile&f=103921&t=f&token=674c3d927f1443e0309c38a0fffb76c2e7e273c3",
+          "source_type": "official_government",
+          "published_on": "2024-08-16",
+          "verification_method": "web_search_index_and_pdf_open",
+          "verification_basis": "approved_roster_source; original verification method retained"
+        }
+      ],
+      "slide_role": "Министр окружающей среды: состав правительства от 16.08.2024",
+      "slide_bio": "Включена для охвата экологической и климатической повестки государственного управления."
+    },
+    {
+      "id": "jeanne-darc-mujawamariya",
+      "order": 17,
+      "name": "Жанна д’Арк Муджавамария",
+      "original_name": "Jeanne d'Arc Mujawamariya",
+      "category": "Министры и руководители государственной политики",
+      "historical_role": "Назначена министром государственной службы и труда в июне 2024 года",
+      "role_period": "Назначение: 12.06.2024; передача полномочий: 14.06.2024",
+      "brief_profile": "В окне исследования выступала по экологической политике, затем в июне 2024 года приняла портфель государственной службы и труда. Справка фиксирует эти исторические роли и не утверждает сохранение июньской должности после 2024 года.",
+      "inclusion_reason": "Заметная бывшая министерская фигура; фиксируется историческая роль без утверждения о её продолжении.",
+      "role_context": "national_public_actor",
+      "international_mandate": null,
+      "sources": [
+        {
+          "title": "Handover ceremony of new Minister of MIFOTRA Hon. Dr Jeanne d’Arc Mujawamariya",
+          "url": "https://www.mifotra.gov.rw/news-detail/handover-ceremony-of-new-minister-of-mifotra-hon-dr-jeanne-darc-mujawamariya",
+          "source_type": "official_government",
+          "published_on": "2024-06-14",
+          "verification_method": "web_search_index",
+          "verification_basis": "approved_roster_source; re-opened 2026-10-16"
+        }
+      ],
+      "slide_role": "Экологический портфель в 2022–2024; госслужба и труд в июне 2024",
+      "slide_bio": "Смена портфеля не означает, что июньская должность сохранялась до конца окна."
+    },
+    {
+      "id": "gerardine-mukeshimana",
+      "order": 18,
+      "name": "Жерардин Мукешимана",
+      "original_name": "Gérardine Mukeshimana",
+      "category": "Министры и руководители государственной политики",
+      "historical_role": "Министр сельского хозяйства и животноводства в декабре 2022 года",
+      "role_period": "Подтверждённая роль: 01.12.2022",
+      "brief_profile": "Представляла министерство сельского хозяйства и животноводства в 2022 году. Включена для учёта аграрной политики и публичной работы с сельскохозяйственным сектором до смены руководителя.",
+      "inclusion_reason": "Представляет аграрную политику в ранней части окна и смену руководства ведомства.",
+      "role_context": "national_public_actor",
+      "international_mandate": null,
+      "sources": [
+        {
+          "title": "MINAGRI news archive: Musafiri appointment, 2 March 2023; Mukeshimana activity, 1 December 2022",
+          "url": "https://www.minagri.gov.rw/updates/news/page?cHash=49ecfd44c04f184493dc7133cc4ed740&tx_news_pi1%5BcurrentPage%5D=6",
+          "source_type": "official_government",
+          "published_on": null,
+          "verification_method": "web_search_index",
+          "verification_basis": "approved_roster_source; original verification method retained"
+        }
+      ],
+      "slide_role": "Министр сельского хозяйства и животноводства: подтверждение 01.12.2022",
+      "slide_bio": "Представляет аграрное направление государственной политики в первой части окна."
+    },
+    {
+      "id": "ildephonse-musafiri",
+      "order": 19,
+      "name": "Ильдефонс Мусафири",
+      "original_name": "Ildephonse Musafiri",
+      "category": "Министры и руководители государственной политики",
+      "historical_role": "Назначен министром сельского хозяйства и животноводства в 2023 году; подтверждён в августе 2024 года",
+      "role_period": "Сообщение о назначении: 02.03.2023; подтверждение: 16.08.2024",
+      "brief_profile": "Назначен руководителем аграрного ведомства в марте 2023 года и включён в состав правительства августа 2024 года. Позволяет сопоставлять аграрное направление на разных этапах окна.",
+      "inclusion_reason": "Представляет следующее руководство аграрной политикой.",
+      "role_context": "national_public_actor",
+      "international_mandate": null,
+      "sources": [
+        {
+          "title": "MINAGRI news archive: Musafiri appointment, 2 March 2023; Mukeshimana activity, 1 December 2022",
+          "url": "https://www.minagri.gov.rw/updates/news/page?cHash=49ecfd44c04f184493dc7133cc4ed740&tx_news_pi1%5BcurrentPage%5D=6",
+          "source_type": "official_government",
+          "published_on": null,
+          "verification_method": "web_search_index",
+          "verification_basis": "approved_roster_source; original verification method retained"
+        },
+        {
+          "title": "Prime Minister’s Office: appointment of ministers, 16 August 2024",
+          "url": "https://www.primature.gov.rw/index.php?eID=dumpFile&f=103921&t=f&token=674c3d927f1443e0309c38a0fffb76c2e7e273c3",
+          "source_type": "official_government",
+          "published_on": "2024-08-16",
+          "verification_method": "web_search_index_and_pdf_open",
+          "verification_basis": "approved_roster_source; original verification method retained"
+        }
+      ],
+      "slide_role": "Аграрный министр: назначение 02.03.2023, подтверждён в августе 2024",
+      "slide_bio": "Позволяет учесть аграрное управление после смены руководителя ведомства."
+    },
+    {
+      "id": "jean-claude-musabyimana",
+      "order": 20,
+      "name": "Жан-Клод Мусабийимана",
+      "original_name": "Jean Claude Musabyimana",
+      "category": "Министры и руководители государственной политики",
+      "historical_role": "Министр местного самоуправления в декабре 2023 и августе 2024 года",
+      "role_period": "Подтверждённые роли: 15.12.2023 и 16.08.2024",
+      "brief_profile": "Представлял министерство местного самоуправления в датированных материалах 2023–2024 годов. Включён как участник связки между центральным правительством и территориальным управлением.",
+      "inclusion_reason": "Представляет связь центрального управления с местными органами власти.",
+      "role_context": "national_public_actor",
+      "international_mandate": null,
+      "sources": [
+        {
+          "title": "Dusengiyumva Samuel sworn in as the new City of Kigali Mayor",
+          "url": "https://www.kigalicity.gov.rw/news-detail/dusengiyumva-samuel-sworn-in-as-the-new-city-of-kigali-mayor",
+          "source_type": "official_government",
+          "published_on": "2023-12-16",
+          "verification_method": "web_open",
+          "verification_basis": "approved_roster_source; original verification method retained"
+        },
+        {
+          "title": "Prime Minister’s Office: appointment of ministers, 16 August 2024",
+          "url": "https://www.primature.gov.rw/index.php?eID=dumpFile&f=103921&t=f&token=674c3d927f1443e0309c38a0fffb76c2e7e273c3",
+          "source_type": "official_government",
+          "published_on": "2024-08-16",
+          "verification_method": "web_search_index_and_pdf_open",
+          "verification_basis": "approved_roster_source; original verification method retained"
+        }
+      ],
+      "slide_role": "Министр местного самоуправления: подтверждён в декабре 2023 и 2024",
+      "slide_bio": "Представляет связь центрального правительства с территориальным управлением."
+    },
+    {
+      "id": "jean-damascene-bizimana",
+      "order": 21,
+      "name": "Жан-Дамасен Бизимана",
+      "original_name": "Jean-Damascène Bizimana",
+      "category": "Министры и руководители государственной политики",
+      "historical_role": "Министр национального единства и гражданской активности в правительстве 2024 года",
+      "role_period": "Подтверждённая роль: 16.08.2024",
+      "brief_profile": "Представлял министерство национального единства и гражданской активности в правительстве августа 2024 года. Включён для охвата публичной повестки памяти, единства и гражданского участия.",
+      "inclusion_reason": "Представляет государственную повестку единства, исторической памяти и гражданского участия.",
+      "role_context": "national_public_actor",
+      "international_mandate": null,
+      "sources": [
+        {
+          "title": "Prime Minister’s Office: appointment of ministers, 16 August 2024",
+          "url": "https://www.primature.gov.rw/index.php?eID=dumpFile&f=103921&t=f&token=674c3d927f1443e0309c38a0fffb76c2e7e273c3",
+          "source_type": "official_government",
+          "published_on": "2024-08-16",
+          "verification_method": "web_search_index_and_pdf_open",
+          "verification_basis": "approved_roster_source; original verification method retained"
+        }
+      ],
+      "slide_role": "Министр национального единства и гражданской активности в августе 2024",
+      "slide_bio": "Включён для охвата публичной повестки памяти, национального единства и гражданского участия."
+    },
+    {
+      "id": "clare-akamanzi",
+      "order": 22,
+      "name": "Клэр Акаманзи",
+      "original_name": "Clare Akamanzi",
+      "category": "Министры и руководители государственной политики",
+      "historical_role": "Руководитель Rwanda Development Board до сентября 2023 года",
+      "role_period": "CEO RDB: 03.02.2017–27.09.2023",
+      "brief_profile": "Возглавляла Rwanda Development Board до сентября 2023 года, а в январе 2024 года перешла на пост генерального директора NBA Africa. Для исследования важна её прежняя государственная работа по инвестициям и развитию; последующие заявления отмечаются как сделанные в иной профессиональной роли.",
+      "inclusion_reason": "Руководитель инвестиционной и туристической политики; управленческая элита включена в границы пространства.",
+      "role_context": "national_public_actor",
+      "international_mandate": null,
+      "sources": [
+        {
+          "title": "Rwanda Development Board audit, year ended 30 June 2023 — Board and management",
+          "url": "https://documents1.worldbank.org/curated/en/099053024072067506/pdf/P2523501b4222a08919ccf1c337cb47a5bb.pdf",
+          "source_type": "official_public_audit_hosted_by_world_bank",
+          "published_on": null,
+          "verification_method": "web_search_index",
+          "verification_basis": "approved_roster_source; original verification method retained"
+        },
+        {
+          "title": "NBA names Clare Akamanzi CEO of NBA Africa",
+          "url": "https://pr.nba.com/clare-akamanzi-ceo-nba-africa/",
+          "published_on": "2023-12-27",
+          "verification_basis": "full web page read in research workflow; appointment page may require browser verification",
+          "source_type": "primary_or_attributed_interview"
+        }
+      ],
+      "slide_role": "Руководитель RDB до сентября 2023; назначение в NBA Africa — 2024",
+      "slide_bio": "Прежняя государственная работа и последующая деловая роль в NBA Africa рассматриваются раздельно."
+    },
+    {
+      "id": "francis-gatare",
+      "order": 23,
+      "name": "Франсис Гатаре",
+      "original_name": "Francis Gatare",
+      "category": "Министры и руководители государственной политики",
+      "historical_role": "Руководитель Rwanda Development Board с сентября 2023 года на дату аудита",
+      "role_period": "Назначение: 27.09.2023; роль подтверждена аудитом ноября 2023",
+      "brief_profile": "Назначен руководителем Rwanda Development Board в сентябре 2023 года; эта роль подтверждена документом аудита того периода. Включён как представитель института продвижения инвестиций и экономического развития, без предположения о неизменности должности до конца окна.",
+      "inclusion_reason": "Представляет смену руководства политикой инвестиций и развития.",
+      "role_context": "national_public_actor",
+      "international_mandate": null,
+      "sources": [
+        {
+          "title": "Rwanda Development Board audit, year ended 30 June 2023 — Board and management",
+          "url": "https://documents1.worldbank.org/curated/en/099053024072067506/pdf/P2523501b4222a08919ccf1c337cb47a5bb.pdf",
+          "source_type": "official_public_audit_hosted_by_world_bank",
+          "published_on": null,
+          "verification_method": "web_search_index",
+          "verification_basis": "approved_roster_source; original verification method retained"
+        }
+      ],
+      "slide_role": "Руководитель Rwanda Development Board: назначение 27.09.2023",
+      "slide_bio": "Представляет институт продвижения инвестиций; должность не продлевается автоматически до конца окна."
+    },
+    {
+      "id": "gertrude-kazarwa",
+      "order": 24,
+      "name": "Гертруда Казарва",
+      "original_name": "Gertrude Kazarwa",
+      "category": "Руководство парламента",
+      "historical_role": "Спикер Палаты депутатов с августа 2024 года по официальной биографии",
+      "role_period": "Начало роли: 14.08.2024",
+      "brief_profile": "Избрана спикером Палаты депутатов в августе 2024 года. Представляет руководство нижней палаты нового созыва, а не весь парламентский спектр.",
+      "inclusion_reason": "Руководитель нижней палаты парламента нового созыва.",
+      "role_context": "national_public_actor",
+      "international_mandate": null,
+      "sources": [
+        {
+          "title": "Parliament of Rwanda — About: presidents of the two chambers",
+          "url": "https://www.parliament.gov.rw/about-1",
+          "source_type": "official_government",
+          "published_on": null,
+          "verification_method": "web_open",
+          "verification_basis": "approved_roster_source; re-opened 2026-10-16"
+        }
+      ],
+      "slide_role": "Спикер Палаты депутатов: избрана 14.08.2024 на новый созыв",
+      "slide_bio": "Представляет руководство нижней палаты нового созыва, а не весь спектр парламентских позиций."
+    },
+    {
+      "id": "donatille-mukabalisa",
+      "order": 25,
+      "name": "Донатиль Мукабалиса",
+      "original_name": "Donatille Mukabalisa",
+      "category": "Руководство парламента",
+      "historical_role": "Спикер Палаты депутатов в 2023 году",
+      "role_period": "Официальное событие: 12.09.2023",
+      "brief_profile": "Возглавляла Палату депутатов в датированных парламентских материалах 2023 года. Её включение позволяет учесть руководство предыдущего созыва внутри исследуемого периода.",
+      "inclusion_reason": "Представляет руководство Палаты депутатов до выборов 2024 года.",
+      "role_context": "national_public_actor",
+      "international_mandate": null,
+      "sources": [
+        {
+          "title": "Parliament news archive: visit of the Vérificateur Général of Mali",
+          "url": "https://www.parliament.gov.rw/updates/news/page?cHash=1a73af6616bebe583f8e229a45ea6028&tx_news_pi1%5BcurrentPage%5D=31",
+          "source_type": "official_government",
+          "published_on": "2023-09-12",
+          "verification_method": "web_search_index",
+          "verification_basis": "approved_roster_source; original verification method retained"
+        }
+      ],
+      "slide_role": "Спикер Палаты депутатов в предыдущем созыве: подтверждение 12.09.2023",
+      "slide_bio": "Позволяет учесть руководство предыдущего парламентского созыва внутри пятилетнего окна."
+    },
+    {
+      "id": "francois-xavier-kalinda",
+      "order": 26,
+      "name": "Франсуа-Ксавье Калинда",
+      "original_name": "François-Xavier Kalinda",
+      "category": "Руководство парламента",
+      "historical_role": "Председатель Сената с января 2023 года, переизбран в сентябре 2024 года",
+      "role_period": "09.01.2023–25.09.2024; следующий срок с 26.09.2024",
+      "brief_profile": "Возглавил Сенат в январе 2023 года и был избран на следующий срок в сентябре 2024 года. Представляет руководство верхней палаты на двух последовательных этапах окна.",
+      "inclusion_reason": "Руководитель верхней палаты парламента.",
+      "role_context": "national_public_actor",
+      "international_mandate": null,
+      "sources": [
+        {
+          "title": "Parliament of Rwanda — About: presidents of the two chambers",
+          "url": "https://www.parliament.gov.rw/about-1",
+          "source_type": "official_government",
+          "published_on": null,
+          "verification_method": "web_open",
+          "verification_basis": "approved_roster_source; re-opened 2026-10-16"
+        }
+      ],
+      "slide_role": "Глава Сената с 09.01.2023; избран на следующий срок 26.09.2024",
+      "slide_bio": "Представляет руководство верхней палаты на двух последовательных этапах окна."
+    },
+    {
+      "id": "augustin-iyamuremye",
+      "order": 27,
+      "name": "Огюстен Иямуремье",
+      "original_name": "Augustin Iyamuremye",
+      "category": "Руководство парламента",
+      "historical_role": "Председатель Сената в первой части исследуемого периода",
+      "role_period": "17.10.2019–09.12.2022",
+      "brief_profile": "Возглавлял Сенат до декабря 2022 года. Включён как предшествующий руководитель верхней палаты, действовавший в начале исследуемого периода.",
+      "inclusion_reason": "Представляет прежнее руководство Сената, активное внутри окна.",
+      "role_context": "national_public_actor",
+      "international_mandate": null,
+      "sources": [
+        {
+          "title": "Inter-Parliamentary Union Parline — Rwanda Senate: historical presidents",
+          "url": "https://data.ipu.org/fr/parliament/RW/RW-UC01/",
+          "source_type": "official_interparliamentary_institution",
+          "published_on": null,
+          "verification_method": "web_search_index",
+          "verification_basis": "approved_roster_source; original verification method retained"
+        }
+      ],
+      "slide_role": "Председатель Сената в начале окна: роль до 09.12.2022",
+      "slide_bio": "Позволяет учесть предшествующее руководство Сената, действовавшее в начале окна."
+    },
+    {
+      "id": "alvera-mukabaramba",
+      "order": 28,
+      "name": "Альвера Мукабарамба",
+      "original_name": "Alvera Mukabaramba",
+      "category": "Руководство парламента",
+      "historical_role": "Вице-президент Сената, избрана в руководящий состав в сентябре 2024 года",
+      "role_period": "Выборы руководства: 26.09.2024",
+      "brief_profile": "Избрана вице-президентом Сената в сентябре 2024 года. Включена как представитель парламентского руководства; факт избрания не используется как свидетельство самостоятельной программы.",
+      "inclusion_reason": "Добавляет вторую руководящую позицию в верхней палате.",
+      "role_context": "national_public_actor",
+      "international_mandate": null,
+      "sources": [
+        {
+          "title": "Rwandan Embassy in DRC: Dr Kalinda reconduit à la présidence du Sénat Rwandais",
+          "url": "https://www.rwandaincongo.gov.rw/actualites/info-details/dr-kalinda-reconduit-a-la-presidence-du-senat-rwandais",
+          "source_type": "official_government",
+          "published_on": "2024-09-26",
+          "verification_method": "web_search_index",
+          "verification_basis": "approved_roster_source; original verification method retained"
+        }
+      ],
+      "slide_role": "Вице-президент Сената: избрана в руководство 26.09.2024",
+      "slide_bio": "Представляет руководство верхней палаты; факт избрания не заменяет собственной программы."
+    },
+    {
+      "id": "mussa-fazil-harerimana",
+      "order": 29,
+      "name": "Мусса Фазиль Хареримана",
+      "original_name": "Mussa Fazil Harerimana",
+      "category": "Руководство парламента",
+      "historical_role": "Заместитель спикера Палаты депутатов в 2023 году",
+      "role_period": "Официальное событие: 12.09.2023",
+      "brief_profile": "Представлял руководство Палаты депутатов как заместитель спикера в 2023 году. Включён для охвата парламентского управления за пределами фигуры спикера.",
+      "inclusion_reason": "Добавляет парламентское руководство за пределами председателей палат.",
+      "role_context": "national_public_actor",
+      "international_mandate": null,
+      "sources": [
+        {
+          "title": "Parliament news archive: visit of the Vérificateur Général of Mali",
+          "url": "https://www.parliament.gov.rw/updates/news/page?cHash=1a73af6616bebe583f8e229a45ea6028&tx_news_pi1%5BcurrentPage%5D=31",
+          "source_type": "official_government",
+          "published_on": "2023-09-12",
+          "verification_method": "web_search_index",
+          "verification_basis": "approved_roster_source; original verification method retained"
+        }
+      ],
+      "slide_role": "Заместитель спикера Палаты депутатов: подтверждение 12.09.2023",
+      "slide_bio": "Добавляет к фигуре спикера другой уровень руководства нижней палаты."
+    },
+    {
+      "id": "pudence-rubingisa",
+      "order": 30,
+      "name": "Пуденс Рубингиса",
+      "original_name": "Pudence Rubingisa",
+      "category": "Региональное и столичное управление",
+      "historical_role": "Мэр Кигали до перехода на пост губернатора Восточной провинции в декабре 2023 года",
+      "role_period": "Переход между ролями: декабрь 2023",
+      "brief_profile": "Был мэром Кигали, затем в декабре 2023 года перешёл к руководству Восточной провинцией. Его траектория позволяет учесть столичное и провинциальное управление внутри одного окна.",
+      "inclusion_reason": "Представляет столичное и региональное управление, а не только национальный кабинет.",
+      "role_context": "national_public_actor",
+      "international_mandate": null,
+      "sources": [
+        {
+          "title": "Dusengiyumva Samuel sworn in as the new City of Kigali Mayor",
+          "url": "https://www.kigalicity.gov.rw/news-detail/dusengiyumva-samuel-sworn-in-as-the-new-city-of-kigali-mayor",
+          "source_type": "official_government",
+          "published_on": "2023-12-16",
+          "verification_method": "web_open",
+          "verification_basis": "approved_roster_source; original verification method retained"
+        },
+        {
+          "title": "Guverineri Rubingisa yatangiye inshingano, yizeza ubufatanye mu kwihutisha iterambere rishingiye ku muturage",
+          "url": "https://www.easternprovince.gov.rw/ibindi/guverineri-rubingisa-yatangiye-inshingano-yizeza-ubufatanye-mu-kwihutisha-iterambere-rishingiye-ku-muturage",
+          "source_type": "official_government",
+          "published_on": "2023-12-22",
+          "verification_method": "web_search_index",
+          "verification_basis": "approved_roster_source; original verification method retained"
+        }
+      ],
+      "slide_role": "Мэр Кигали, затем губернатор Восточной провинции в декабре 2023",
+      "slide_bio": "Его переход между столицей и провинцией отражает два уровня территориального управления."
+    },
+    {
+      "id": "samuel-dusengiyumva",
+      "order": 31,
+      "name": "Самуэль Дусенгийюмва",
+      "original_name": "Samuel Dusengiyumva",
+      "category": "Региональное и столичное управление",
+      "historical_role": "Избран мэром Кигали в декабре 2023 года",
+      "role_period": "Избрание: 15.12.2023",
+      "brief_profile": "Избран мэром Кигали в декабре 2023 года. Включён как участник управления столицей, без предположения, что городская повестка представляет все регионы страны.",
+      "inclusion_reason": "Представляет публичное руководство столицей после смены мэра.",
+      "role_context": "national_public_actor",
+      "international_mandate": null,
+      "sources": [
+        {
+          "title": "Dusengiyumva Samuel sworn in as the new City of Kigali Mayor",
+          "url": "https://www.kigalicity.gov.rw/news-detail/dusengiyumva-samuel-sworn-in-as-the-new-city-of-kigali-mayor",
+          "source_type": "official_government",
+          "published_on": "2023-12-16",
+          "verification_method": "web_open",
+          "verification_basis": "approved_roster_source; original verification method retained"
+        }
+      ],
+      "slide_role": "Мэр столицы Кигали: избран на эту должность 15.12.2023",
+      "slide_bio": "Представляет управление столицей; городская повестка не приравнивается к повестке всех регионов."
+    },
+    {
+      "id": "frank-habineza",
+      "order": 32,
+      "name": "Франк Хабинеза",
+      "original_name": "Frank Habineza",
+      "category": "Легальная оппозиция и независимые кандидаты",
+      "historical_role": "Лидер Демократической зелёной партии; кандидат в президенты в 2024 году",
+      "role_period": "Кандидатура подтверждена в июне–июле 2024",
+      "brief_profile": "Лидер Демократической зелёной партии и один из трёх допущенных кандидатов в президенты на выборах 2024 года. Его участие позволяет учитывать легальную партийную альтернативу и собственные программные предложения.",
+      "inclusion_reason": "Один из трёх допущенных кандидатов; отдельная партийная политическая позиция.",
+      "role_context": "national_public_actor",
+      "international_mandate": null,
+      "sources": [
+        {
+          "title": "Rwanda: Respect Rights During Elections",
+          "url": "https://www.hrw.org/news/2024/06/14/rwanda-respect-rights-during-elections",
+          "source_type": "international_human_rights_organization",
+          "published_on": "2024-06-14",
+          "verification_method": "web_open",
+          "verification_basis": "approved_roster_source; original verification method retained"
+        },
+        {
+          "title": "Rwanda: Repression in the context of elections, AFR 47/8275/2024",
+          "url": "https://www.amnesty.org/ar/wp-content/uploads/2024/07/AFR4782752024ENGLISH.pdf",
+          "source_type": "international_human_rights_organization",
+          "published_on": "2024-07-08",
+          "verification_method": "web_open",
+          "verification_basis": "approved_roster_source; original verification method retained"
+        }
+      ],
+      "slide_role": "Лидер Демократической зелёной партии; кандидат в президенты в 2024",
+      "slide_bio": "Представляет допущенную партийную альтернативу и собственные программные предложения."
+    },
+    {
+      "id": "philippe-mpayimana",
+      "order": 33,
+      "name": "Филипп Мпайимана",
+      "original_name": "Philippe Mpayimana",
+      "category": "Легальная оппозиция и независимые кандидаты",
+      "historical_role": "Независимый кандидат в президенты в 2024 году",
+      "role_period": "Кандидатура подтверждена в июне–июле 2024",
+      "brief_profile": "Независимый кандидат, допущенный к президентским выборам 2024 года. Включён как участник электоральной конкуренции; независимый статус не означает оппозиционности каждой его позиции.",
+      "inclusion_reason": "Представляет независимое участие в выборах; независимость кандидатуры не приравнивается к оппозиционности всех взглядов.",
+      "role_context": "national_public_actor",
+      "international_mandate": null,
+      "sources": [
+        {
+          "title": "Rwanda: Respect Rights During Elections",
+          "url": "https://www.hrw.org/news/2024/06/14/rwanda-respect-rights-during-elections",
+          "source_type": "international_human_rights_organization",
+          "published_on": "2024-06-14",
+          "verification_method": "web_open",
+          "verification_basis": "approved_roster_source; original verification method retained"
+        }
+      ],
+      "slide_role": "Независимый кандидат, допущенный к президентским выборам 2024 года",
+      "slide_bio": "Независимый статус означает форму выдвижения, а не оппозиционность всех его взглядов."
+    },
+    {
+      "id": "victoire-ingabire",
+      "order": 34,
+      "name": "Виктуар Ингабире Умухоза",
+      "original_name": "Victoire Ingabire Umuhoza",
+      "category": "Незарегистрированная и ограниченная в участии оппозиция",
+      "historical_role": "Руководитель незарегистрированной DALFA-Umurinzi; пыталась добиться допуска к выборам 2024 года",
+      "role_period": "Политическая активность и судебное ограничение кандидатуры: 2024",
+      "brief_profile": "Руководительница DALFA-Umurinzi, добивавшаяся возможности участвовать в выборах 2024 года. Включена для учёта политической альтернативы за пределами списка допущенных кандидатов; судебный статус не определяет её оценки по содержательным шкалам.",
+      "inclusion_reason": "Заметная внепарламентская оппозиционная фигура, не допущенная к выборам.",
+      "role_context": "national_public_actor",
+      "international_mandate": null,
+      "sources": [
+        {
+          "title": "Rwanda: Respect Rights During Elections",
+          "url": "https://www.hrw.org/news/2024/06/14/rwanda-respect-rights-during-elections",
+          "source_type": "international_human_rights_organization",
+          "published_on": "2024-06-14",
+          "verification_method": "web_open",
+          "verification_basis": "approved_roster_source; original verification method retained"
+        },
+        {
+          "title": "Rwanda: Repression in the context of elections, AFR 47/8275/2024",
+          "url": "https://www.amnesty.org/ar/wp-content/uploads/2024/07/AFR4782752024ENGLISH.pdf",
+          "source_type": "international_human_rights_organization",
+          "published_on": "2024-07-08",
+          "verification_method": "web_open",
+          "verification_basis": "approved_roster_source; original verification method retained"
+        }
+      ],
+      "slide_role": "Руководительница DALFA-Umurinzi; добивалась участия в выборах 2024",
+      "slide_bio": "Представляет политическую альтернативу за пределами списка допущенных кандидатов."
+    },
+    {
+      "id": "diane-rwigara",
+      "order": 35,
+      "name": "Диана Рвигара",
+      "original_name": "Diane Shima Rwigara",
+      "category": "Незарегистрированная и ограниченная в участии оппозиция",
+      "historical_role": "Руководитель People Salvation Movement; её кандидатура не допущена на выборы 2024 года",
+      "role_period": "Выдвижение и отказ в регистрации: 2024",
+      "brief_profile": "Общественно-политическая деятельница и инициатор независимого выдвижения на президентских выборах 2024 года, не включённая в окончательный список кандидатов. Представляет часть публичного пространства вне допущенной электоральной конкуренции.",
+      "inclusion_reason": "Публичная оппозиционная претендентка на президентский пост.",
+      "role_context": "national_public_actor",
+      "international_mandate": null,
+      "sources": [
+        {
+          "title": "Rwanda: Respect Rights During Elections",
+          "url": "https://www.hrw.org/news/2024/06/14/rwanda-respect-rights-during-elections",
+          "source_type": "international_human_rights_organization",
+          "published_on": "2024-06-14",
+          "verification_method": "web_open",
+          "verification_basis": "approved_roster_source; original verification method retained"
+        }
+      ],
+      "slide_role": "Независимая претендентка на президентских выборах 2024; не допущена",
+      "slide_bio": "Представляет часть публичного пространства вне допущенной президентской конкуренции."
+    },
+    {
+      "id": "bernard-ntaganda",
+      "order": 36,
+      "name": "Бернар Нтаганда",
+      "original_name": "Bernard Ntaganda",
+      "category": "Незарегистрированная и ограниченная в участии оппозиция",
+      "historical_role": "Основатель PS-Imberakuri; добивался восстановления права выдвижения в 2024 году",
+      "role_period": "Отказ в судебной реабилитации: май 2024",
+      "brief_profile": "Основатель PS-Imberakuri, добивавшийся восстановления права выдвижения в 2024 году. Его политическая траектория не отождествляется с другой фракцией под тем же партийным названием, участвовавшей в официальных выборах.",
+      "inclusion_reason": "Отдельная оппозиционная траектория; не отождествляется с допущенной к выборам фракцией PS-Imberakuri.",
+      "role_context": "national_public_actor",
+      "international_mandate": null,
+      "sources": [
+        {
+          "title": "Rwanda: Repression in the context of elections, AFR 47/8275/2024",
+          "url": "https://www.amnesty.org/ar/wp-content/uploads/2024/07/AFR4782752024ENGLISH.pdf",
+          "source_type": "international_human_rights_organization",
+          "published_on": "2024-07-08",
+          "verification_method": "web_open",
+          "verification_basis": "approved_roster_source; original verification method retained"
+        }
+      ],
+      "slide_role": "Основатель PS-Imberakuri; отказ в судебной реабилитации в мае 2024",
+      "slide_bio": "Не отождествляется с другой фракцией того же названия, участвовавшей в официальных выборах."
+    },
+    {
+      "id": "christopher-kayumba",
+      "order": 37,
+      "name": "Кристофер Каюмба",
+      "original_name": "Christopher Kayumba",
+      "category": "Незарегистрированная и ограниченная в участии оппозиция",
+      "historical_role": "Основатель Rwandese Platform for Democracy; политическая и судебная история освещалась в 2023–2024 годах",
+      "role_period": "Основание партии: 2021; публичные процессы: 2023; описание статуса: 2024",
+      "brief_profile": "Основатель Rwandese Platform for Democracy, чья политическая деятельность и судебные процессы освещались в 2023–2024 годах. Включён как отдельный публичный актор; категория отбора не предполагает неизменную оппозиционность всех его последующих высказываний.",
+      "inclusion_reason": "Представляет попытку создания новой политической организации внутри страны.",
+      "role_context": "national_public_actor",
+      "international_mandate": null,
+      "sources": [
+        {
+          "title": "Rwanda: Respect Rights During Elections",
+          "url": "https://www.hrw.org/news/2024/06/14/rwanda-respect-rights-during-elections",
+          "source_type": "international_human_rights_organization",
+          "published_on": "2024-06-14",
+          "verification_method": "web_open",
+          "verification_basis": "approved_roster_source; original verification method retained"
+        },
+        {
+          "title": "Rwanda: Repression in the context of elections, AFR 47/8275/2024",
+          "url": "https://www.amnesty.org/ar/wp-content/uploads/2024/07/AFR4782752024ENGLISH.pdf",
+          "source_type": "international_human_rights_organization",
+          "published_on": "2024-07-08",
+          "verification_method": "web_open",
+          "verification_basis": "approved_roster_source; original verification method retained"
+        },
+        {
+          "title": "RDF is a people’s army deserving a Nobel Peace Prize, not sanctions — signed opinion",
+          "url": "https://www.newtimes.co.rw/article/35672/opinions/rdf-is-a-peoples-army-deserving-a-nobel-peace-prize-not-sanctions/amp",
+          "published_on": "2026-05-15",
+          "verification_basis": "full web page read in research workflow; appointment page may require browser verification",
+          "source_type": "primary_or_attributed_interview"
+        }
+      ],
+      "slide_role": "Основатель Rwandese Platform for Democracy; публичная роль в 2023–2024",
+      "slide_bio": "Категория отбора не предполагает неизменную оппозиционность его высказываний за все пять лет."
+    },
+    {
+      "id": "paul-rusesabagina",
+      "order": 38,
+      "name": "Поль Русесабагина",
+      "original_name": "Paul Rusesabagina",
+      "category": "Оппозиция в эмиграции и транснациональные политические фигуры",
+      "historical_role": "Оппозиционный критик правительства; освобождён из заключения в марте 2023 года",
+      "role_period": "Публичная политическая и судебная история: 2021–2023",
+      "brief_profile": "Публичный критик правительства, освобождённый из заключения в марте 2023 года и вновь дававший интервью после освобождения. Включён как транснациональный участник политической дискуссии; его известность за рубежом не измеряет поддержку внутри страны.",
+      "inclusion_reason": "Международно заметная оппозиционная фигура с самостоятельной политической организационной траекторией.",
+      "role_context": "national_public_actor",
+      "international_mandate": null,
+      "sources": [
+        {
+          "title": "World Report 2024 — Rwanda",
+          "url": "https://www.hrw.org/world-report/2024/country-chapters/rwanda",
+          "source_type": "international_human_rights_organization",
+          "published_on": "2024-01-11",
+          "verification_method": "web_search_index",
+          "verification_basis": "approved_roster_source; original verification method retained"
+        },
+        {
+          "title": "Join Us or Die: Rwanda’s Extraterritorial Repression",
+          "url": "https://www.hrw.org/report/2023/10/10/join-us-or-die/rwandas-extraterritorial-repression",
+          "source_type": "international_human_rights_organization",
+          "published_on": "2023-10-10",
+          "verification_method": "web_open",
+          "verification_basis": "approved_roster_source; original verification method retained"
+        },
+        {
+          "title": "His story inspired Hotel Rwanda. Now he’s speaking out against the government — NPR interview",
+          "url": "https://www.wlrn.org/npr-breaking-news/2024-04-15/his-story-inspired-hotel-rwanda-now-hes-speaking-out-against-the-government",
+          "published_on": "2024-04-15",
+          "verification_basis": "full web page read in research workflow; appointment page may require browser verification",
+          "source_type": "primary_or_attributed_interview"
+        }
+      ],
+      "slide_role": "Критик правительства; освобождён в марте 2023, давал интервью в 2024",
+      "slide_bio": "Представляет транснациональную политическую дискуссию; известность за рубежом не измеряет поддержку дома."
+    },
+    {
+      "id": "kayumba-nyamwasa",
+      "order": 39,
+      "name": "Фостен Каюмба Ньямваса",
+      "original_name": "Faustin Kayumba Nyamwasa",
+      "category": "Оппозиция в эмиграции и транснациональные политические фигуры",
+      "historical_role": "Бывший глава военного штаба; сооснователь оппозиционного Rwanda National Congress в эмиграции",
+      "role_period": "Оппозиционная роль рассматривается в отчёте HRW 2023 года",
+      "brief_profile": "Бывший руководитель военного штаба и сооснователь Rwanda National Congress в эмиграции. Включён для охвата политических акторов вне национальных государственных институтов; биографическая военная роль не заменяет собственных заявлений в исследуемом окне.",
+      "inclusion_reason": "Представляет оппозицию в эмиграции, вышедшую из прежней правящей элиты.",
+      "role_context": "national_public_actor",
+      "international_mandate": null,
+      "sources": [
+        {
+          "title": "Join Us or Die: Rwanda’s Extraterritorial Repression",
+          "url": "https://www.hrw.org/report/2023/10/10/join-us-or-die/rwandas-extraterritorial-repression",
+          "source_type": "international_human_rights_organization",
+          "published_on": "2023-10-10",
+          "verification_method": "web_open",
+          "verification_basis": "approved_roster_source; original verification method retained"
+        }
+      ],
+      "slide_role": "Бывший глава военного штаба; сооснователь RNC в эмиграции — срез 2023",
+      "slide_bio": "Представляет эмигрантскую политическую организацию; военная биография не задаёт текущие взгляды."
+    },
+    {
+      "id": "louise-mushikiwabo",
+      "order": 40,
+      "name": "Луиза Мушикивабо",
+      "original_name": "Louise Mushikiwabo",
+      "category": "Международная дипломатия",
+      "historical_role": "Бывший министр иностранных дел Руанды; генеральный секретарь Франкофонии, переизбрана в 2022 году",
+      "role_period": "Международная роль с января 2019; переизбрание: ноябрь 2022",
+      "brief_profile": "Бывшая глава внешнеполитического ведомства Руанды, возглавившая Международную организацию Франкофонии с января 2019 года и переизбранная в 2022 году. В исследуемом окне её действия в OIF относятся к международному мандату и не приписываются автоматически правительству Руанды.",
+      "inclusion_reason": "Пограничный случай: заметная руандийская политическая фигура на международной должности, а не представитель правительства Руанды в этой роли.",
+      "role_context": "international_organization",
+      "international_mandate": {
+        "organization": "Organisation internationale de la Francophonie (OIF)",
+        "role": "Генеральный секретарь",
+        "period": "Начало исполнения январь 2019; переизбрание ноябрь 2022",
+        "note": "Мандат OIF; не национальный внешнеполитический портфель Руанды в исследуемом окне."
+      },
+      "sources": [
+        {
+          "title": "Louise Mushikiwabo — Biographie",
+          "url": "https://www.francophonie.org/louise-mushikiwabo-2894",
+          "source_type": "official_international_organization",
+          "published_on": null,
+          "verification_method": "web_open",
+          "verification_basis": "approved_roster_source; re-opened 2026-10-16"
+        }
+      ],
+      "slide_role": "Генсек международной OIF с января 2019; переизбрана в ноябре 2022",
+      "slide_bio": "Действия в OIF относятся к её международному мандату, а не автоматически к позиции правительства Руанды."
+    },
+    {
+      "id": "claver-gatete",
+      "order": 41,
+      "name": "Клавер Гатете",
+      "original_name": "Claver Gatete",
+      "category": "Международная дипломатия",
+      "historical_role": "Постоянный представитель Руанды при ООН в 2023 году; назначен исполнительным секретарём ЭКА ООН 6 октября 2023 года",
+      "role_period": "Представительство Руанды подтверждено 01.02.2023; международное назначение 06.10.2023",
+      "brief_profile": "Представлял Руанду при ООН, затем в октябре 2023 года был назначен исполнительным секретарём Экономической комиссии ООН для Африки. Национальный дипломатический пост и последующий международный мандат различаются при интерпретации его публичных выступлений.",
+      "inclusion_reason": "Представляет переход от национальной дипломатии к международному экономическому управлению.",
+      "role_context": "international_organization",
+      "international_mandate": {
+        "organization": "United Nations Economic Commission for Africa (ECA/ЭКА ООН)",
+        "role": "Исполнительный секретарь; ранг Under-Secretary-General",
+        "date": "2023-10-06",
+        "note": "Ранг Under-Secretary-General не равен отдельной должности заместителя генерального секретаря ООН (Deputy Secretary-General)."
+      },
+      "sources": [
+        {
+          "title": "Secretary-General’s Daily Schedule, 1 February 2023",
+          "url": "https://www.un.org/sg/en/sg-daily-schedules/2023-02-01",
+          "source_type": "official_united_nations",
+          "published_on": "2023-02-01",
+          "verification_method": "web_search_index",
+          "verification_basis": "approved_roster_source; original verification method retained"
+        },
+        {
+          "title": "UN appointment of Claver Gatete to ECA, 6 October 2023",
+          "url": "https://www.un.org/sg/en/content/sg/personnel-appointments/2023-10-06/mr-claver-gatete-of-rwanda-executive-secretary-of-the-united-nations-economic-commission-for-africa-(eca)",
+          "published_on": "2023-10-06",
+          "verification_basis": "Official UN appointment release body verified in web search text on 2026-10-16; direct URL requires JavaScript anti-bot verification.",
+          "source_type": "primary_or_attributed_interview"
+        },
+        {
+          "title": "ECA SPORD update June–October 2023: appointment and rank of Under-Secretary-General",
+          "url": "https://www.uneca.org/sites/default/files/documents/spord-brochure-2023_v03.pdf",
+          "published_on": "2023",
+          "verification_basis": "official source text verified in web index 2026-10-16",
+          "source_type": "official_un"
+        }
+      ],
+      "slide_role": "Представитель Руанды при ООН; назначен главой ЭКА ООН 06.10.2023",
+      "slide_bio": "Национальная дипломатическая роль отделяется от последующей работы в международной структуре ООН."
+    },
+    {
+      "id": "valentine-rugwabiza",
+      "order": 42,
+      "name": "Валентин Ругвабиза",
+      "original_name": "Valentine Rugwabiza",
+      "category": "Международная дипломатия",
+      "historical_role": "Постоянный представитель Руанды при ООН до назначения специальным представителем генсека ООН по ЦАР в феврале 2022 года",
+      "role_period": "Назначение на международный пост: 23.02.2022",
+      "brief_profile": "Представляла Руанду при ООН до назначения в феврале 2022 года специальным представителем генерального секретаря и руководителем MINUSCA в Центральноафриканской Республике. Включена как пограничный международный актор; работа миссии ООН не является автоматически внешней политикой Руанды.",
+      "inclusion_reason": "Представляет дипломатическую элиту и переход к руководству международной миротворческой миссией; этот пост не является голосом правительства Руанды.",
+      "role_context": "international_organization",
+      "international_mandate": {
+        "organization": "United Nations / MINUSCA",
+        "role": "Специальный представитель генсека по ЦАР и руководитель MINUSCA",
+        "date": "2022-02-23",
+        "note": "Мандат миссии ООН в ЦАР; не представительство национальной позиции Руанды."
+      },
+      "sources": [
+        {
+          "title": "Secretary-General appoints Valentine Rugwabiza as Special Representative and Head of MINUSCA",
+          "url": "https://press.un.org/en/2022/sga2101.doc.htm",
+          "published_on": "2022-02-23",
+          "verification_basis": "Official UN release body verified in web search text on 2026-10-16; direct retrieval was unavailable.",
+          "source_type": "primary_or_attributed_interview"
+        }
+      ],
+      "slide_role": "Представитель Руанды при ООН; назначена главой MINUSCA 23.02.2022",
+      "slide_bio": "Руководство миссией ООН в ЦАР не означает выражения национальной внешней политики Руанды."
+    }
+  ],
+  "dossier_inputs": [
+    {
+      "object_id": "paul-kagame",
+      "file": "studies/rwanda-politicians-2021-2026/evidence/independent-dossier-paul-kagame.json",
+      "sha256": "a798b512ce8be9e25faa5d4045ec156d46e39236872d87c231d52c02de7143ff"
+    },
+    {
+      "object_id": "edouard-ngirente",
+      "file": "studies/rwanda-politicians-2021-2026/evidence/independent-dossier-edouard-ngirente.json",
+      "sha256": "c0a18155c3f7d4e867975383f04bdc4e8e8d32a46d88e05d39468c20e91f39a8"
+    },
+    {
+      "object_id": "justin-nsengiyumva",
+      "file": "studies/rwanda-politicians-2021-2026/evidence/independent-dossier-justin-nsengiyumva.json",
+      "sha256": "a68e2cc93f86b70e0ed4950992355b26cfebdede95e3b61fff7881e6b3368628"
+    },
+    {
+      "object_id": "vincent-biruta",
+      "file": "studies/rwanda-politicians-2021-2026/evidence/independent-dossier-vincent-biruta.json",
+      "sha256": "d76a8bb0360a0168911d4216eda2d2633f05d4c500edacbe52738617249218cc"
+    },
+    {
+      "object_id": "olivier-nduhungirehe",
+      "file": "studies/rwanda-politicians-2021-2026/evidence/independent-dossier-olivier-nduhungirehe.json",
+      "sha256": "6beef22c79f76ec297df8ebfc0240d7e41b68ffb724f0b062a1ffe47afcf2aa5"
+    },
+    {
+      "object_id": "james-kabarebe",
+      "file": "studies/rwanda-politicians-2021-2026/evidence/independent-dossier-james-kabarebe.json",
+      "sha256": "d75539deb666f212d725ffc44aeaaa850d55d047934c848696d9d7173e52ccdf"
+    },
+    {
+      "object_id": "juvenal-marizamunda",
+      "file": "studies/rwanda-politicians-2021-2026/evidence/independent-dossier-juvenal-marizamunda.json",
+      "sha256": "f4148e01019372da57768c3207f9062abd27632706b55a215a4435066a8c85ed"
+    },
+    {
+      "object_id": "albert-murasira",
+      "file": "studies/rwanda-politicians-2021-2026/evidence/independent-dossier-albert-murasira.json",
+      "sha256": "204fe4ec38ca272526ded4ec64eac834a8c1fff7b9b58605bf88311c05b4b4ae"
+    },
+    {
+      "object_id": "emmanuel-ugirashebuja",
+      "file": "studies/rwanda-politicians-2021-2026/evidence/independent-dossier-emmanuel-ugirashebuja.json",
+      "sha256": "b9fec7b594467f1bf4cdf8f7dda7a32ac2c28dc5791dbca01c72330de558a034"
+    },
+    {
+      "object_id": "yusuf-murangwa",
+      "file": "studies/rwanda-politicians-2021-2026/evidence/independent-dossier-yusuf-murangwa.json",
+      "sha256": "9b35d313af1eb6f0de57a65591fd15597f13b7ffbfa02e294c84ce68074fb082"
+    },
+    {
+      "object_id": "uzziel-ndagijimana",
+      "file": "studies/rwanda-politicians-2021-2026/evidence/independent-dossier-uzziel-ndagijimana.json",
+      "sha256": "757d20c5504868f3980bd7579a16b9cfcfb4495b921bc5805e6bc974e58a643d"
+    },
+    {
+      "object_id": "paula-ingabire",
+      "file": "studies/rwanda-politicians-2021-2026/evidence/independent-dossier-paula-ingabire.json",
+      "sha256": "a77264b46d246014272f91886dd6acbb111416b6e2b3dca66780766182a46006"
+    },
+    {
+      "object_id": "sabin-nsanzimana",
+      "file": "studies/rwanda-politicians-2021-2026/evidence/independent-dossier-sabin-nsanzimana.json",
+      "sha256": "4650d49857cc0eed348f6fe66932af63f293d61c58ce85714e66a3e3621d88dd"
+    },
+    {
+      "object_id": "judith-uwizeye",
+      "file": "studies/rwanda-politicians-2021-2026/evidence/independent-dossier-judith-uwizeye.json",
+      "sha256": "aa81249d840a2a5a3e2a9bb3edf1e680376803892bfb8bfee6b6b5d09a47fe88"
+    },
+    {
+      "object_id": "ines-mpambara",
+      "file": "studies/rwanda-politicians-2021-2026/evidence/independent-dossier-ines-mpambara.json",
+      "sha256": "f083df0561b7f55f796f8f3bdddc764048a3c3bc019e0a0897c1bf2f827cdada"
+    },
+    {
+      "object_id": "valentine-uwamariya",
+      "file": "studies/rwanda-politicians-2021-2026/evidence/independent-dossier-valentine-uwamariya.json",
+      "sha256": "2e207523c82c79d61b5da38fc316e1b9e3e1ec1dce62c7777e1fef555769994f"
+    },
+    {
+      "object_id": "jeanne-darc-mujawamariya",
+      "file": "studies/rwanda-politicians-2021-2026/evidence/independent-dossier-jeanne-darc-mujawamariya.json",
+      "sha256": "92c1c30b271a6f17b21edd76b9cee4584082a9a222d32f8c6e6bc5cc4d6cf497"
+    },
+    {
+      "object_id": "gerardine-mukeshimana",
+      "file": "studies/rwanda-politicians-2021-2026/evidence/independent-dossier-gerardine-mukeshimana.json",
+      "sha256": "dde6c4aa723f76f37f3a8724cce5d437160fef91c70d6811c31b80966d8ae5ba"
+    },
+    {
+      "object_id": "ildephonse-musafiri",
+      "file": "studies/rwanda-politicians-2021-2026/evidence/independent-dossier-ildephonse-musafiri.json",
+      "sha256": "53ad7f87c35808a073d1d163d0a377a1517b73361854f620ee5d64b1d24dd21a"
+    },
+    {
+      "object_id": "jean-claude-musabyimana",
+      "file": "studies/rwanda-politicians-2021-2026/evidence/independent-dossier-jean-claude-musabyimana.json",
+      "sha256": "059b75eff3631e8803745d11c7a634dc92e6bbfcd2b5b7e845fc6d068175a3a5"
+    },
+    {
+      "object_id": "jean-damascene-bizimana",
+      "file": "studies/rwanda-politicians-2021-2026/evidence/independent-dossier-jean-damascene-bizimana.json",
+      "sha256": "98de21aaecb4e96454f847becfaffa0c5defb086743c023e12a1b7c18e770f0a"
+    },
+    {
+      "object_id": "clare-akamanzi",
+      "file": "studies/rwanda-politicians-2021-2026/evidence/independent-dossier-clare-akamanzi.json",
+      "sha256": "486623046448feb0d7b662c359a3c526258067b33489f006787e3acd9fe37aef"
+    },
+    {
+      "object_id": "francis-gatare",
+      "file": "studies/rwanda-politicians-2021-2026/evidence/independent-dossier-francis-gatare.json",
+      "sha256": "a738356c61b495517101d774b54d678d79eba50554eea7ef1b329fd8a381d0ca"
+    },
+    {
+      "object_id": "gertrude-kazarwa",
+      "file": "studies/rwanda-politicians-2021-2026/evidence/independent-dossier-gertrude-kazarwa.json",
+      "sha256": "503d20698504407c8f2d439844d20666bdb892bf6b10557a508e933efb76e133"
+    },
+    {
+      "object_id": "donatille-mukabalisa",
+      "file": "studies/rwanda-politicians-2021-2026/evidence/independent-dossier-donatille-mukabalisa.json",
+      "sha256": "6d9733061ecbfda4470715511d5f8f91ed8f01ee1c55225056a071c2779ad283"
+    },
+    {
+      "object_id": "francois-xavier-kalinda",
+      "file": "studies/rwanda-politicians-2021-2026/evidence/independent-dossier-francois-xavier-kalinda.json",
+      "sha256": "15c8edfd2f3ee8e33ef87a4c201eb5853ee29e35daa05e45cac4f480ad423b94"
+    },
+    {
+      "object_id": "augustin-iyamuremye",
+      "file": "studies/rwanda-politicians-2021-2026/evidence/independent-dossier-augustin-iyamuremye.json",
+      "sha256": "2e6ad6972a8eb992de72c99d7af1aecdf90fc39ec09c722bf601b3f0c0565fc9"
+    },
+    {
+      "object_id": "alvera-mukabaramba",
+      "file": "studies/rwanda-politicians-2021-2026/evidence/independent-dossier-alvera-mukabaramba.json",
+      "sha256": "e1edba5fb257a9a0f56cee061c18181b9a1f34f3f323c64ce736a4389a242596"
+    },
+    {
+      "object_id": "mussa-fazil-harerimana",
+      "file": "studies/rwanda-politicians-2021-2026/evidence/independent-dossier-mussa-fazil-harerimana.json",
+      "sha256": "67e369e02969879a75f0c8bdf53798c523b6ed3568f4e400e6afa4c76b44afbe"
+    },
+    {
+      "object_id": "pudence-rubingisa",
+      "file": "studies/rwanda-politicians-2021-2026/evidence/independent-dossier-pudence-rubingisa.json",
+      "sha256": "4c29a861599d826c8dc277e3717b04ace7fe7b8313ef191934578abd5e0e8fc5"
+    },
+    {
+      "object_id": "samuel-dusengiyumva",
+      "file": "studies/rwanda-politicians-2021-2026/evidence/independent-dossier-samuel-dusengiyumva.json",
+      "sha256": "fb920e4b71fb11d9ce3ca99d76b2c0c9ff0df52c9e5a79319d74f94e527670b8"
+    },
+    {
+      "object_id": "frank-habineza",
+      "file": "studies/rwanda-politicians-2021-2026/evidence/independent-dossier-frank-habineza.json",
+      "sha256": "5e6b2041e266f39c5a63719a92ca4f85f5b06054c2649941f01e3cc44129f5c5"
+    },
+    {
+      "object_id": "philippe-mpayimana",
+      "file": "studies/rwanda-politicians-2021-2026/evidence/independent-dossier-philippe-mpayimana.json",
+      "sha256": "7d2a5a3c3421764b98bbad08e379d1f024f55ef9bc5dedd369ee4ea551296ae6"
+    },
+    {
+      "object_id": "victoire-ingabire",
+      "file": "studies/rwanda-politicians-2021-2026/evidence/independent-dossier-victoire-ingabire.json",
+      "sha256": "d86f176ea10dc865a36d675086a1711dc255d8eeb1ee11003166390ed505d510"
+    },
+    {
+      "object_id": "diane-rwigara",
+      "file": "studies/rwanda-politicians-2021-2026/evidence/independent-dossier-diane-rwigara.json",
+      "sha256": "d6c898cbed0aff28dd851b3070efc1d8a485e5597fb76614a2e3136c3e66d271"
+    },
+    {
+      "object_id": "bernard-ntaganda",
+      "file": "studies/rwanda-politicians-2021-2026/evidence/independent-dossier-bernard-ntaganda.json",
+      "sha256": "9617ed6aa1cdae8599380b08aba31e3ec398c16e8100f926192f713edb820cc8"
+    },
+    {
+      "object_id": "christopher-kayumba",
+      "file": "studies/rwanda-politicians-2021-2026/evidence/independent-dossier-christopher-kayumba.json",
+      "sha256": "cc31c45c9abd333660c33bbd214e39749c70a20e8f934298c201a6dc2efb4c12"
+    },
+    {
+      "object_id": "paul-rusesabagina",
+      "file": "studies/rwanda-politicians-2021-2026/evidence/independent-dossier-paul-rusesabagina.json",
+      "sha256": "54ef2d7e06910726fd14ca4ffa2d17c12357699efd276b1222e990eda2862d82"
+    },
+    {
+      "object_id": "kayumba-nyamwasa",
+      "file": "studies/rwanda-politicians-2021-2026/evidence/independent-dossier-kayumba-nyamwasa.json",
+      "sha256": "6bf82c3fb148a202e88bb79937627ebf6f94d742c07bd9e9d11528593b3015c7"
+    },
+    {
+      "object_id": "louise-mushikiwabo",
+      "file": "studies/rwanda-politicians-2021-2026/evidence/independent-dossier-louise-mushikiwabo.json",
+      "sha256": "49b3cf06773563caf45b1889c679d7c5fe11b6d911617869b7bae396a9a79d35"
+    },
+    {
+      "object_id": "claver-gatete",
+      "file": "studies/rwanda-politicians-2021-2026/evidence/independent-dossier-claver-gatete.json",
+      "sha256": "07d0af6053f3c45d298912ae688f632321c14bdd54ec328abb9b72eb5736f9e2"
+    },
+    {
+      "object_id": "valentine-rugwabiza",
+      "file": "studies/rwanda-politicians-2021-2026/evidence/independent-dossier-valentine-rugwabiza.json",
+      "sha256": "fcb52728153370e30e641381baafebdfacf895197eb0d490b4b68074fc0369d5"
+    }
+  ]
+}

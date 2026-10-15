@@ -1,0 +1,958 @@
+{
+  "schema_version": "1.0",
+  "study_id": "rwanda-politicians-2021-2026",
+  "title": "Россия в публичных действиях и заявлениях семи участников руандийского исследования",
+  "prepared_at": "2026-10-16",
+  "period": {
+    "date_from": "2021-10-15",
+    "date_to": "2026-10-15"
+  },
+  "status": "qualitative_context_only_no_new_scores",
+  "measurement_snapshot": {
+    "known_russia_properties": 14,
+    "total_russia_properties": 504,
+    "actors_with_known_russia_properties": 7,
+    "unknown_properties": 490,
+    "ratings_sha256": "e43727c8437c87108d1e5bb954e2eaf5f852096becd734777a14abcad1988687",
+    "meaning": "Индивидуальные проявления по независимым свойствам; не рейтинг симпатии и не выделенный фактор."
+  },
+  "method": {
+    "author": "assistant_source_review_not_independent_human_expertise",
+    "web_rechecked": true,
+    "canonical_mutations": false,
+    "new_numeric_scores": false,
+    "scope": "Повторная проверка источников всех 14 известных российских свойств и дополнительного контекста Кагаме. Новая биографическая или событийная разметка не применялась.",
+    "quote_policy": "Не более 25 слов на источник с подсчётом оригинала, русского перевода и повторения в двух новых файлах. В Markdown повторены только короткие персонально атрибутированные фрагменты; ведомственные формулировки о Маризамунде и Нсанзимане оставлены только в JSON и прямо помечены как не их речь. Для последующих отчёта и слайдов не выдаётся новая квота: использовать выбранные фрагменты без накопления новых цитат.",
+    "existing_quote_scan": "Поиск выбранных дословных фрагментов в research/rwanda_politicians_2021_2026 и текущем output не выявил прежних цитат. Существующие пересказы не превращены в новые события.",
+    "access_note": "Часть официальных Telegram-постов не открывается отдельно, но полный текст доступен в публичной ленте. Персональная речь отличена от редакции ведомства и слов российского собеседника."
+  },
+  "key_findings": [
+    {
+      "text": "В проверенных эпизодах сотрудничество с Россией и несогласие с вторжением в Украину сосуществуют; их нельзя свести к единой шкале симпатии.",
+      "source_ids": [
+        "ru01",
+        "ru03",
+        "ru04"
+      ],
+      "status": "comparative_inference_from_attributed_statements"
+    },
+    {
+      "text": "У Бируты есть конкретные направления двусторонней работы, а у Ндухунгирехе — последовательность дипломатических действий и отраслевых переговоров. Подтверждены разные степени обязательств: намерение, обсуждение, подписание; не все проекты реализованы.",
+      "source_ids": [
+        "ru03",
+        "ru05",
+        "ru06",
+        "ru07",
+        "ru08"
+      ],
+      "status": "qualitative_synthesis"
+    },
+    {
+      "text": "Кагаме формулирует принцип неприятия вторжения одновременно с нейтралитетом; Мушикивабо выступает с более прямым критическим заявлением в международной роли OIF.",
+      "source_ids": [
+        "ru01",
+        "ru11"
+      ],
+      "status": "comparison_with_capacity_limits"
+    },
+    {
+      "text": "Маризамунда и Нсанзимана представлены подтверждёнными служебными действиями. Личные мотивы, поддержка войны и отношение к санкциям из этих действий не следуют.",
+      "source_ids": [
+        "ru09",
+        "ru10"
+      ],
+      "status": "attribution_boundary"
+    },
+    {
+      "text": "Российский блок остаётся разреженным: 14 известных свойств из 504. Качественная сводка дополняет модель, но не создаёт российского фактора.",
+      "source_ids": [],
+      "status": "saved_data_snapshot"
+    }
+  ],
+  "sources": [
+    {
+      "id": "ru01",
+      "title": "Кагаме: интервью Франсуа Судану, раздел об Украине",
+      "url": "https://www.newtimes.co.rw/article/10916/news/politics/kagame-the-problem-is-not-between-me-and-tshisekedi/amp",
+      "original_url": "https://www.jeuneafrique.com/1483925/politique/paul-kagame-le-probleme-nest-pas-entre-moi-et-tshisekedi-mais-entre-tshisekedi-et-le-m23/",
+      "event_date": "2023-09-12",
+      "publication_date": "2023-09-20",
+      "accessed_at": "2026-10-16",
+      "source_type": "attributed_interview_reprint",
+      "language": "en",
+      "verification": "Полный доступный репринт интервью; дата разговора названа во введении. Последний вопрос об Украине и ответ прочитаны. Оригинал Jeune Afrique ранее возвращал 403; английский опубликованный текст не выдаётся за звуковую стенограмму.",
+      "locator": "Введение; последний вопрос об Украине перед вопросом о G20.",
+      "quote_budget": {
+        "max_words_original_and_translation_combined_across_both_files": 25,
+        "words_unique_pair": 10,
+        "words_counting_occurrences_in_JSON_and_MD": 20,
+        "quote_ids": [
+          "q01"
+        ],
+        "previous_selected_verbatim_found_in_project": 0
+      }
+    },
+    {
+      "id": "ru02",
+      "title": "Кагаме о выборе африканских партнёров, пресс-конференция в Бенине",
+      "url": "https://www.paulkagame.rw/president-kagame-visits-benin-cotonou-15-17-april-2023/",
+      "event_date": "2023-04-17",
+      "publication_date": "2023-04-17",
+      "accessed_at": "2026-10-16",
+      "source_type": "primary_presidential_website_attributed_excerpt",
+      "language": "en",
+      "verification": "Полная короткая страница с цитатой и датой; это официальный фрагмент, не полный протокол пресс-конференции.",
+      "locator": "Основной абзац под датой.",
+      "quote_budget": {
+        "max_words_original_and_translation_combined_across_both_files": 25,
+        "words_unique_pair": 11,
+        "words_counting_occurrences_in_JSON_and_MD": 22,
+        "quote_ids": [
+          "q02"
+        ],
+        "previous_selected_verbatim_found_in_project": 0
+      }
+    },
+    {
+      "id": "ru03",
+      "title": "Бирута на Дне России: дипломатия, образование и отраслевые переговоры",
+      "url": "https://rwandaises.com/2023/06/la-russie-et-le-rwanda-sengagent-a-renforcer-les-liens-diplomatiques-existants/",
+      "original_url": "https://fr.igihe.com/La-Russie-et-le-Rwanda-s-engagent-a-renforcer-les-liens-diplomatiques-existants.html",
+      "event_date": "2023-06-12",
+      "publication_date": "2023-06-18",
+      "accessed_at": "2026-10-16",
+      "source_type": "attributed_news_report_reprint",
+      "language": "fr",
+      "verification": "Полный репринт с разграничением реплик Бируты и посла Чальяна. Указан исходник Igihe; исходная страница сейчас недоступна. Французская версия — язык публикации, исходный язык выступления не проверен.",
+      "locator": "Абзацы о министре Бируте после описания выступления посла; итоговая реплика министра.",
+      "quote_budget": {
+        "max_words_original_and_translation_combined_across_both_files": 25,
+        "words_unique_pair": 12,
+        "words_counting_occurrences_in_JSON_and_MD": 24,
+        "quote_ids": [
+          "q03"
+        ],
+        "previous_selected_verbatim_found_in_project": 0
+      }
+    },
+    {
+      "id": "ru04",
+      "title": "Бирута и Муджавамария: ответы на вопросы Atlantic Council",
+      "url": "https://www.topafricanews.com/2022/03/31/washington-here-are-q-a-from-dr-vincent-biruta-and-dr-mujawamariya-about-geopolitical-and-climate-issues/",
+      "event_date": "2022-03-30",
+      "publication_date": "2022-03-31",
+      "accessed_at": "2026-10-16",
+      "source_type": "journalistic_transcript_with_named_speakers",
+      "language": "en",
+      "verification": "Полная размеченная по выступающим расшифровка журналиста Ange de la Victoire. Ответы по Украине прочитаны отдельно от вопросов ведущего. Первичная запись Atlantic Council в этой проверке не найдена.",
+      "locator": "Вопрос о влиянии войны на экономику; ответ Муджавамарии о голосовании; уточнение Бируты перед блоком soft power.",
+      "quote_budget": {
+        "max_words_original_and_translation_combined_across_both_files": 25,
+        "words_unique_pair": 12,
+        "words_counting_occurrences_in_JSON_and_MD": 24,
+        "quote_ids": [
+          "q04",
+          "q05"
+        ],
+        "previous_selected_verbatim_found_in_project": 0
+      }
+    },
+    {
+      "id": "ru05",
+      "title": "AFP: Ндухунгирехе о подготовке специалистов для атомной энергетики",
+      "url": "https://www.themoscowtimes.com/2024/11/09/rwanda-counting-on-russia-to-train-nuclear-power-specialists-a86964",
+      "same_source_pdf": "https://www.themoscowtimes.com/2024/11/09/rwanda-counting-on-russia-to-train-nuclear-power-specialists-a86964/pdf",
+      "event_date": "2024-11-09",
+      "publication_date": "2024-11-09",
+      "accessed_at": "2026-10-16",
+      "source_type": "attributed_direct_interview_AFP_reprint",
+      "language": "en",
+      "verification": "Полная короткая статья AFP: прямо указаны интервьюируемый, форум в Сочи и авторство агентства. HTML и PDF — один источник, не два эпизода.",
+      "locator": "Первые три именные реплики министра.",
+      "quote_budget": {
+        "max_words_original_and_translation_combined_across_both_files": 25,
+        "words_unique_pair": 8,
+        "words_counting_occurrences_in_JSON_and_MD": 16,
+        "quote_ids": [
+          "q06"
+        ],
+        "previous_selected_verbatim_found_in_project": 0
+      }
+    },
+    {
+      "id": "ru06",
+      "title": "Официальное сообщение о соглашении для дипломатических и служебных паспортов",
+      "url": "https://t.me/rusembrwanda/129",
+      "accessible_url": "https://t.me/s/rusembrwanda/304?q=%23RussiaAfrica",
+      "event_date": "2024-11-09",
+      "publication_date": null,
+      "accessed_at": "2026-10-16",
+      "source_type": "primary_official_embassy_channel_act_report",
+      "language": "en",
+      "verification": "В публичной ленте прочитан полный текст о подписании с явной датой 09.11.2024; указано видео MINAFFET. Отдельный пост даёт cache miss; видео не просматривалось.",
+      "locator": "Пост с подписью о bilateral Agreement on Visa-Free travels, перед совместными заявлениями 10 ноября.",
+      "quote_budget": {
+        "max_words_original_and_translation_combined_across_both_files": 25,
+        "words_unique_pair": 0,
+        "words_counting_occurrences_in_JSON_and_MD": 0,
+        "quote_ids": [],
+        "previous_selected_verbatim_found_in_project": 0
+      }
+    },
+    {
+      "id": "ru07",
+      "title": "Официальный итог переговоров Ндухунгирехе и Лаврова в Каире",
+      "url": "https://mid.ru/ru/foreign_policy/news/2067378/",
+      "accessible_url": "https://t.me/s/rusembrwanda?after=341",
+      "post_url": "https://t.me/rusembrwanda/345",
+      "event_date": "2025-12-19",
+      "publication_date": null,
+      "accessed_at": "2026-10-16",
+      "source_type": "primary_Russian_MFA_readout_reposted_by_embassy",
+      "language": "en",
+      "verification": "Полный итоговый текст прочитан в официальной ленте; исходная страница MID возвращает 502, отдельный Telegram-пост — cache miss. Сверен с ru12, подтверждающим дату и участие. Приведённая ниже в посте прямая речь принадлежит Лаврову, не Ндухунгирехе.",
+      "locator": "Пост о встрече 19 декабря: два абзаца перед Opening remarks by Sergey Lavrov.",
+      "quote_budget": {
+        "max_words_original_and_translation_combined_across_both_files": 25,
+        "words_unique_pair": 0,
+        "words_counting_occurrences_in_JSON_and_MD": 0,
+        "quote_ids": [],
+        "previous_selected_verbatim_found_in_project": 0
+      }
+    },
+    {
+      "id": "ru08",
+      "title": "Официальный итог встречи Ндухунгирехе и Лаврова в Анталье",
+      "url": "https://t.me/rusembrwanda/396",
+      "accessible_url": "https://t.me/s/rusembrwanda/304?q=%23RussiaAfrica",
+      "corroborating_url": "https://t.me/s/MID_Russia?before=78116",
+      "event_date": "2026-04-18",
+      "publication_date": null,
+      "accessed_at": "2026-10-16",
+      "source_type": "primary_official_embassy_and_MFA_readout",
+      "language": "en",
+      "verification": "Полный именной релиз доступен в официальной ленте посольства; русский текст и 2026 год подтверждены лентой MID_Russia. Отдельный пост возвращает cache miss.",
+      "locator": "Пост On April 18, on the margins of the Antalya Diplomacy Forum.",
+      "quote_budget": {
+        "max_words_original_and_translation_combined_across_both_files": 25,
+        "words_unique_pair": 0,
+        "words_counting_occurrences_in_JSON_and_MD": 0,
+        "quote_ids": [],
+        "previous_selected_verbatim_found_in_project": 0
+      }
+    },
+    {
+      "id": "ru09",
+      "title": "MOD Руанды: седьмая российско-руандийская военно-техническая комиссия",
+      "url": "https://www.mod.gov.rw/docs-media/news-detail/rrdf-hosts-the-7th-meeting-of-the-rwanda-russia-joint-commission-on-military-technical-cooperation",
+      "event_date_from": "2026-05-20",
+      "event_date_to": "2026-05-22",
+      "publication_date": "2026-05-20",
+      "accessed_at": "2026-10-16",
+      "source_type": "primary_Rwandan_MOD_act_report",
+      "language": "en",
+      "verification": "Полная страница прочитана. Названы сопредседатели Каруретва и Пунчук, отдельно — визит к министру Маризамунде. Точная дата личного приёма внутри трёхдневного заседания не указана.",
+      "locator": "Последний содержательный абзац перед фотографиями.",
+      "quote_budget": {
+        "max_words_original_and_translation_combined_across_both_files": 25,
+        "words_unique_pair": 13,
+        "words_counting_occurrences_in_JSON_and_MD": 13,
+        "quote_ids": [
+          "q07"
+        ],
+        "previous_selected_verbatim_found_in_project": 0
+      }
+    },
+    {
+      "id": "ru10",
+      "title": "Минздрав России: меморандум с министерством Нсанзиманы",
+      "url": "https://t.me/minzdrav_ru/14879",
+      "accessible_url": "https://t.me/s/minzdrav_ru?before=14893",
+      "corroborating_url": "https://allafrica.com/stories/202605200385.html",
+      "event_date": "2026-05-19",
+      "date_precision": "official_announcement_date",
+      "publication_date": "2026-05-19",
+      "accessed_at": "2026-10-16",
+      "source_type": "primary_Russian_Ministry_of_Health_act_report",
+      "language": "ru",
+      "verification": "Полный пост прочитан в публичной официальной ленте, включая список направлений. Отдельный пост не открывается. Статья The New Times в репринте allAfrica от 20 мая подтверждает подписи и объявление 19 мая; точное время подписания не устанавливается.",
+      "locator": "Пост о России и Руанде между материалами о ночных пробуждениях и соглашении с Тунисом.",
+      "quote_budget": {
+        "max_words_original_and_translation_combined_across_both_files": 25,
+        "words_unique_pair": 2,
+        "words_counting_occurrences_in_JSON_and_MD": 2,
+        "quote_ids": [
+          "q08"
+        ],
+        "previous_selected_verbatim_found_in_project": 0
+      }
+    },
+    {
+      "id": "ru11",
+      "title": "Именное заявление Мушикивабо по Украине на сайте OIF",
+      "url": "https://www.francophonie.org/la-secretaire-generale-de-la-francophonie-demeure-extremement-preoccupee-par-la-persistance-de-2636",
+      "event_date": "2023-02-24",
+      "publication_date": "2023-02-24",
+      "accessed_at": "2026-10-16",
+      "source_type": "primary_international_organization_named_statement",
+      "language": "fr",
+      "verification": "Полное заявление из пяти абзацев прочитано. В первом названы дата и Мушикивабо. Это именное институциональное заявление от третьего лица, не стенограмма личного интервью.",
+      "locator": "Первый абзац; далее солидарность, гражданские жертвы и продовольственные последствия.",
+      "quote_budget": {
+        "max_words_original_and_translation_combined_across_both_files": 25,
+        "words_unique_pair": 11,
+        "words_counting_occurrences_in_JSON_and_MD": 22,
+        "quote_ids": [
+          "q09"
+        ],
+        "previous_selected_verbatim_found_in_project": 0
+      }
+    },
+    {
+      "id": "ru12",
+      "title": "Посольство Руанды о вручении верительных грамот и дипломатических контактах",
+      "url": "https://www.rwandainrussia.gov.rw/info/info-details?cHash=f16d397d5a5a23a2705acb619e74a537&tx_news_pi1%5Baction%5D=detail&tx_news_pi1%5Bcontroller%5D=News&tx_news_pi1%5Bnews%5D=56199",
+      "event_date": "2026-01-15",
+      "publication_date": null,
+      "accessed_at": "2026-10-16",
+      "source_type": "primary_Rwandan_embassy_report",
+      "language": "en",
+      "verification": "Полная страница прочитана. 15 января — дата церемонии в тексте, не доказанный timestamp публикации. Содержимое переданного послания Кагаме не раскрыто.",
+      "locator": "Абзац после описания обращения Путина; далее ретроспективная дата встречи министров 19 декабря 2025.",
+      "quote_budget": {
+        "max_words_original_and_translation_combined_across_both_files": 25,
+        "words_unique_pair": 0,
+        "words_counting_occurrences_in_JSON_and_MD": 0,
+        "quote_ids": [],
+        "previous_selected_verbatim_found_in_project": 0
+      }
+    }
+  ],
+  "quotes": [
+    {
+      "id": "q01",
+      "source_id": "ru01",
+      "actor_id": "paul-kagame",
+      "attribution": "Собственный ответ в опубликованном интервью",
+      "original_language": "en",
+      "original": "we can’t support the invasion",
+      "translation_ru": "мы не можем поддержать вторжение",
+      "translation_label": "Перевод ассистента на русский",
+      "context": "Фрагмент принципиального объяснения голосования. В том же ответе Кагаме заявляет нейтралитет; этот контекст обязателен.",
+      "use_in_presentation": true,
+      "word_count_original": 5,
+      "word_count_translation_ru": 5,
+      "word_count_combined": 10,
+      "occurrences_in_delivered_artifacts": 2
+    },
+    {
+      "id": "q02",
+      "source_id": "ru02",
+      "actor_id": "paul-kagame",
+      "attribution": "Официально опубликованный фрагмент собственной речи",
+      "original_language": "en",
+      "original": "who offers what we need",
+      "translation_ru": "кто предлагает то, что нам нужно",
+      "translation_label": "Перевод ассистента на русский",
+      "context": "Часть аргумента о праве Африки выбирать партнёров, где непосредственно названы Россия и Китай.",
+      "use_in_presentation": true,
+      "word_count_original": 5,
+      "word_count_translation_ru": 6,
+      "word_count_combined": 11,
+      "occurrences_in_delivered_artifacts": 2
+    },
+    {
+      "id": "q03",
+      "source_id": "ru03",
+      "actor_id": "vincent-biruta",
+      "attribution": "Прямая реплика в журналистском французском репринте; исходный язык выступления не установлен",
+      "original_language": "fr",
+      "original": "continuer à travailler étroitement avec la Russie",
+      "translation_ru": "продолжать тесно работать с Россией",
+      "translation_label": "Перевод ассистента с французской публикации",
+      "context": "Намерение многосторонней совместной работы. Это не слова об оправдании войны.",
+      "use_in_presentation": true,
+      "word_count_original": 7,
+      "word_count_translation_ru": 5,
+      "word_count_combined": 12,
+      "occurrences_in_delivered_artifacts": 2
+    },
+    {
+      "id": "q04",
+      "source_id": "ru04",
+      "actor_id": "vincent-biruta",
+      "attribution": "Собственные слова в журналистской расшифровке",
+      "original_language": "en",
+      "original": "territorial integrity, sovereignty",
+      "translation_ru": "территориальная целостность, суверенитет",
+      "translation_label": "Перевод ассистента на русский",
+      "context": "Названные им принципы, которыми он объясняет голосование по Украине; фрагмент не является самостоятельной полной фразой.",
+      "use_in_presentation": false,
+      "word_count_original": 3,
+      "word_count_translation_ru": 3,
+      "word_count_combined": 6,
+      "occurrences_in_delivered_artifacts": 2
+    },
+    {
+      "id": "q05",
+      "source_id": "ru04",
+      "actor_id": "jeanne-darc-mujawamariya",
+      "attribution": "Собственный ответ в журналистской расшифровке",
+      "original_language": "en",
+      "original": "we didn’t abstain",
+      "translation_ru": "Мы не воздержались",
+      "translation_label": "Перевод ассистента на русский",
+      "context": "Она сама разъясняет голосование Руанды в ответ на вопрос о российском вторжении; речь не выводится из её прежней посольской должности.",
+      "use_in_presentation": true,
+      "word_count_original": 3,
+      "word_count_translation_ru": 3,
+      "word_count_combined": 6,
+      "occurrences_in_delivered_artifacts": 2
+    },
+    {
+      "id": "q06",
+      "source_id": "ru05",
+      "actor_id": "olivier-nduhungirehe",
+      "attribution": "Собственные слова в прямом интервью AFP",
+      "original_language": "en",
+      "original": "Rwanda needs nuclear energy",
+      "translation_ru": "Руанде нужна ядерная энергия",
+      "translation_label": "Перевод ассистента на русский",
+      "context": "Потребность в энергетике сопровождается надеждой на российскую подготовку специалистов; не подтверждение действующей АЭС.",
+      "use_in_presentation": true,
+      "word_count_original": 4,
+      "word_count_translation_ru": 4,
+      "word_count_combined": 8,
+      "occurrences_in_delivered_artifacts": 2
+    },
+    {
+      "id": "q07",
+      "source_id": "ru09",
+      "actor_id": "juvenal-marizamunda",
+      "attribution": "Текст MOD о событии; НЕ прямая речь Маризамунды",
+      "original_language": "en",
+      "original": "to exchange views on bilateral partnership priorities",
+      "translation_ru": "обменяться мнениями о приоритетах двустороннего партнёрства",
+      "translation_label": "Перевод ассистента на русский",
+      "context": "Ведомственное описание цели визита делегации к министру.",
+      "use_in_presentation": false,
+      "word_count_original": 7,
+      "word_count_translation_ru": 6,
+      "word_count_combined": 13,
+      "occurrences_in_delivered_artifacts": 1
+    },
+    {
+      "id": "q08",
+      "source_id": "ru10",
+      "actor_id": "sabin-nsanzimana",
+      "attribution": "Пункт официального сообщения российского министерства; НЕ прямая речь Нсанзиманы",
+      "original_language": "ru",
+      "original": "ядерная медицина",
+      "translation_ru": null,
+      "translation_label": "Оригинал на русском; перевод не требуется",
+      "context": "Один из заявленных предметов подписанного меморандума.",
+      "use_in_presentation": false,
+      "word_count_original": 2,
+      "word_count_translation_ru": 0,
+      "word_count_combined": 2,
+      "occurrences_in_delivered_artifacts": 1
+    },
+    {
+      "id": "q09",
+      "source_id": "ru11",
+      "actor_id": "louise-mushikiwabo",
+      "attribution": "Фрагмент именного официального заявления OIF; не устная цитата",
+      "original_language": "fr",
+      "original": "l’agression militaire de la Fédération de Russie",
+      "translation_ru": "военная агрессия Российской Федерации",
+      "translation_label": "Перевод ассистента на русский",
+      "context": "Слова официального заявления, прямо связанного с именем генерального секретаря OIF.",
+      "use_in_presentation": true,
+      "word_count_original": 7,
+      "word_count_translation_ru": 4,
+      "word_count_combined": 11,
+      "occurrences_in_delivered_artifacts": 2
+    }
+  ],
+  "profiles": [
+    {
+      "object_id": "paul-kagame",
+      "name_ru": "Поль Кагаме",
+      "role_at_events": "Президент Руанды",
+      "summary": "Кагаме сочетает принципиальное неприятие вторжения с дистанцированием от выбора геополитической стороны. Отдельное высказывание о выборе партнёров делает его публичную позицию сложнее простой классификации по симпатии к Москве.",
+      "events": [
+        {
+          "event_id": "kagame-soudan-interview-2023-09-12",
+          "date": "2023-09-12",
+          "source_ids": [
+            "ru01"
+          ],
+          "attribution_type": "personal_public_statement",
+          "facts": "В интервью он сам объясняет поддержку резолюции ООН запретом вторжения государства в другое, называя Россию и Украину. Одновременно подчёркивает возможность нейтралитета и отсутствие своей роли в конфликте.",
+          "quote_ids": [
+            "q01"
+          ],
+          "inference_limits": [
+            "Голосование не просто приписано президенту: он сам его объясняет. Но из этого не следуют поддержка санкций или разрыв двусторонних связей.",
+            "Нейтралитет не отменяет названного принципа, а формулировка принципа не доказывает присоединения к западному лагерю."
+          ]
+        },
+        {
+          "event_id": "kagame-benin-partner-choice-2023-04-17",
+          "date": "2023-04-17",
+          "source_ids": [
+            "ru02"
+          ],
+          "attribution_type": "personal_public_statement",
+          "facts": "На пресс-конференции с Патрисом Талоном Кагаме отвергал исключительное право одних внешних игроков присутствовать в Африке и защищал выбор партнёров по африканским потребностям, прямо упомянув Россию и Китай.",
+          "quote_ids": [
+            "q02"
+          ],
+          "inference_limits": [
+            "Это аргумент об автономии выбора партнёров, а не документ о расширении российско-руандийских отношений.",
+            "Не превращать его в одобрение вторжения или доказательство противодействия санкциям."
+          ]
+        },
+        {
+          "event_id": "kagame-message-via-nzabamwita-2026-01-15",
+          "date": "2026-01-15",
+          "source_ids": [
+            "ru12"
+          ],
+          "attribution_type": "institutional_report_of_message_delivery",
+          "facts": "Посольство Руанды сообщает о передаче послом Нзабамвитой послания Кагаме Путину после церемонии верительных грамот. Содержание послания не опубликовано.",
+          "quote_ids": [],
+          "inference_limits": [
+            "Подтверждён дипломатический канал связи, но неизвестный текст нельзя кодировать как определённую политическую позицию.",
+            "Это дополнительный контекст качественной сводки; новая оценка не предлагается."
+          ]
+        }
+      ],
+      "unknown_note": "По остальным российским свойствам персональная позиция в матрице неизвестна; глава государства не получает автоматически оценки за все государственные действия."
+    },
+    {
+      "object_id": "vincent-biruta",
+      "name_ru": "Венсан Бирута",
+      "role_at_events": "Министр иностранных дел и международного сотрудничества Руанды",
+      "summary": "Из проверенных материалов Бирута даёт наиболее многотемное собственное описание двусторонней работы: образование, безопасность и новые отрасли. Это совместимо с его объяснением украинского голосования принципами суверенитета.",
+      "events": [
+        {
+          "event_id": "biruta-russia-day-kigali-2023-06-12",
+          "date": "2023-06-12",
+          "source_ids": [
+            "ru03"
+          ],
+          "attribution_type": "personally_attributed_speech_in_news",
+          "facts": "Бирута подтвердил курс на укрепление отношений. Положительно оценил план бесплатного дистанционного изучения русского языка и назвал работу HEC и University of Rwanda по обеспечению доступа. Сообщил о переговорах по торговле, умным городам, космическим технологиям, здравоохранению и спорту; выразил готовность к сотрудничеству против угроз безопасности и терроризма.",
+          "quote_ids": [
+            "q03"
+          ],
+          "inference_limits": [
+            "Образовательный механизм описан конкретнее, чем большинство перечисленных отраслевых идей. Переговоры и готовность не доказывают вложений, поставок или реализации проектов.",
+            "Удвоение стипендий и оправдание российской войны в том же материале принадлежат послу Карену Чальяну. Их нельзя цитировать как позицию Бируты.",
+            "Четыре тематических свойства опираются на один приём, а не на четыре независимых события."
+          ]
+        },
+        {
+          "event_id": "atlantic-council-rwanda-conversation-2022-03-30",
+          "date": "2022-03-30",
+          "source_ids": [
+            "ru04"
+          ],
+          "attribution_type": "personal_public_answer",
+          "facts": "Бирута сам пояснил украинское голосование ссылкой на Устав ООН и суверенные права, одновременно признавая самостоятельность других государств при голосовании. В другом ответе описал угрозы для цен топлива, удобрений и поставок продовольствия и поиск альтернатив.",
+          "quote_ids": [
+            "q04"
+          ],
+          "inference_limits": [
+            "Это принципиальное обоснование позиции, а не самостоятельная развёрнутая формула осуждения российского руководства.",
+            "Обсуждение издержек санкций не равно ни требованию снять санкции с России, ни их поддержке.",
+            "Конкретная цифра импорта пшеницы — утверждение министра в марте 2022 года, а не независимо проверенная современная статистика; в слайд её лучше не переносить."
+          ]
+        }
+      ],
+      "unknown_note": "Доказанное сотрудничество не даёт оценки частной симпатии к России или поддержки всех её внешнеполитических действий."
+    },
+    {
+      "object_id": "olivier-nduhungirehe",
+      "name_ru": "Оливье Ндухунгирехе",
+      "role_at_events": "Министр иностранных дел и международного сотрудничества Руанды",
+      "summary": "Его российский профиль имеет наиболее отчётливую последовательность практических контактов. Однако лишь интервью даёт собственные слова; содержание позднейших переговоров известно в редакции официальных ведомств.",
+      "events": [
+        {
+          "event_id": "nduhungirehe-sochi-2024-11-09",
+          "date": "2024-11-09",
+          "source_ids": [
+            "ru05",
+            "ru06"
+          ],
+          "attribution_type": "personal_interview_and_official_signed_act",
+          "facts": "В Сочи подписал с Лавровым соглашение об освобождении от виз владельцев дипломатических и служебных паспортов. В интервью AFP заявил о потребности в атомной энергетике и надежде готовить специалистов при содействии России; упомянул выпускников российских вузов.",
+          "quote_ids": [
+            "q06"
+          ],
+          "inference_limits": [
+            "Безвизовое соглашение не распространяется автоматически на всех граждан.",
+            "Официальный акт подписания и интервью в тот же день описываются отдельно, но не изображаются двумя независимыми поездками.",
+            "Редакционное упоминание договорённости 2019 года не является новым собственным заявлением министра или доказательством действующей станции."
+          ]
+        },
+        {
+          "event_id": "nduhungirehe-lavrov-cairo-2025-12-19",
+          "date": "2025-12-19",
+          "source_ids": [
+            "ru07",
+            "ru12"
+          ],
+          "attribution_type": "official_readout_of_named_meeting",
+          "facts": "Итоговый релиз о встрече в Каире описывает поиск расширения торгово-экономического и гуманитарного взаимодействия, а также политического диалога и многосторонней координации. Руандийское посольство независимо подтверждает дату и участие министров.",
+          "quote_ids": [],
+          "inference_limits": [
+            "Формулировки о взаимной готовности — текст официального итога, а не дословное выступление Ндухунгирехе.",
+            "Прямая речь Лаврова, приведённая в том же посте, не используется как его цитата."
+          ]
+        },
+        {
+          "event_id": "nduhungirehe-lavrov-antalya-2026-04-18",
+          "date": "2026-04-18",
+          "source_ids": [
+            "ru08"
+          ],
+          "attribution_type": "official_readout_of_named_meeting",
+          "facts": "Официальное сообщение о встрече в Анталье конкретизирует направления: торговля, мирное применение атомных технологий, образование и подготовка кадров; отмечает намерение продолжать политическое взаимодействие.",
+          "quote_ids": [],
+          "inference_limits": [
+            "Это повторный межгосударственный эпизод, но не перечень подписанных отраслевых контрактов.",
+            "Координация в ООН не доказывает совпадения по каждому голосованию, отношению к войне или санкциям."
+          ]
+        }
+      ],
+      "unknown_note": "Найденные источники не дают собственной оценки войны в Украине или персональной позиции по санкциям против России."
+    },
+    {
+      "object_id": "juvenal-marizamunda",
+      "name_ru": "Жювеналь Маризамунда",
+      "role_at_events": "Министр обороны Руанды",
+      "summary": "Российская связь подтверждена конкретным ведомственным механизмом, но собственные слова министра в релизе отсутствуют.",
+      "events": [
+        {
+          "event_id": "rwanda-russia-military-commission-2026-05-20",
+          "date_from": "2026-05-20",
+          "date_to": "2026-05-22",
+          "source_ids": [
+            "ru09"
+          ],
+          "attribution_type": "official_act_report_not_personal_quote",
+          "facts": "Во время седьмого заседания ежегодной военно-технической комиссии российская делегация посетила Маризамунду и руководство RDF. Встреча описана как обмен мнениями о приоритетах партнёрства. Заседание комиссии возглавляли Каруретва и Пунчук.",
+          "quote_ids": [
+            "q07"
+          ],
+          "inference_limits": [
+            "Маризамунду нельзя называть сопредседателем этого заседания: источник называет других лиц.",
+            "Подтверждены участие и предмет разговора, но не конкретная поставка оружия, подписанный им договор или собственная речь.",
+            "Точный день его приёма в интервале 20–22 мая не назван."
+          ]
+        }
+      ],
+      "unknown_note": "Должность министра не заменяет сведения о его отношении к российским международным действиям и санкциям."
+    },
+    {
+      "object_id": "sabin-nsanzimana",
+      "name_ru": "Сабин Нсанзимана",
+      "role_at_events": "Министр здравоохранения Руанды",
+      "summary": "Его профиль связан с прикладным гражданским сотрудничеством, закреплённым меморандумом. Это более конкретное действие, чем общая дипломатическая встреча, но итоговые результаты ещё не следуют из документа.",
+      "events": [
+        {
+          "event_id": "nsanzimana-murashko-health-mou-2026-05-19",
+          "date": "2026-05-19",
+          "date_note": "Дата официального объявления; подписание на полях 79-й Всемирной ассамблеи здравоохранения в Женеве.",
+          "source_ids": [
+            "ru10"
+          ],
+          "attribution_type": "named_signing_report_not_personal_quote",
+          "facts": "Нсанзимана и Михаил Мурашко подписали межведомственный меморандум. В сообщении перечислены развитие систем здравоохранения, подготовка медработников, исследования, регулирование медицинской продукции, здоровье матери и ребёнка и ядерная медицина.",
+          "quote_ids": [
+            "q08"
+          ],
+          "inference_limits": [
+            "Нет найденной собственной цитаты Нсанзиманы о подписании; список направлений принадлежит ведомственному сообщению.",
+            "Подготовка гражданских медработников отличается от военного обучения.",
+            "Ядерная медицина не является синонимом строительства атомной электростанции.",
+            "Две известные тематические оценки относятся к одному документу, а не к двум соглашениям."
+          ]
+        }
+      ],
+      "unknown_note": "Не установлены выполненные поставки, бюджет и результаты меморандума; отношение к войне и санкциям не выводится."
+    },
+    {
+      "object_id": "jeanne-darc-mujawamariya",
+      "name_ru": "Жанна д’Арк Муджавамария",
+      "role_at_events": "Министр окружающей среды Руанды",
+      "summary": "Её собственный ответ по украинскому голосованию содержательнее биографической связи с Россией: он подтверждает публичную принципиальную позицию, но остаётся кратким.",
+      "events": [
+        {
+          "event_id": "atlantic-council-rwanda-conversation-2022-03-30",
+          "date": "2022-03-30",
+          "source_ids": [
+            "ru04"
+          ],
+          "attribution_type": "personal_public_answer",
+          "facts": "В ответ на вопрос о воздержании африканских стран она сама подчеркнула, что Руанда голосовала, руководствуясь принципами, и далее говорила о трансграничных последствиях конфликта.",
+          "quote_ids": [
+            "q05"
+          ],
+          "inference_limits": [
+            "Это собственное объяснение, а не автоматическое перенесение национального голоса на человека.",
+            "В ответе нет столь же прямой формулы осуждения, как в заявлении OIF; не усиливать его до лозунга об антироссийской ориентации.",
+            "Прежняя работа послом в России и Беларуси — биографический контекст, а не доказательство современной симпатии или текущего проекта."
+          ]
+        }
+      ],
+      "unknown_note": "Её отношение к двусторонним проектам и санкциям не устанавливается из прежней дипломатической должности."
+    },
+    {
+      "object_id": "louise-mushikiwabo",
+      "name_ru": "Луиза Мушикивабо",
+      "role_at_events": "Генеральный секретарь Международной организации Франкофонии (OIF)",
+      "summary": "Среди выбранных источников её именное заявление наиболее прямо квалифицирует российское действие. Однако она выступает как глава международной организации.",
+      "events": [
+        {
+          "event_id": "mushikiwabo-oif-ukraine-2023-02-24",
+          "date": "2023-02-24",
+          "source_ids": [
+            "ru11"
+          ],
+          "attribution_type": "named_institutional_statement",
+          "facts": "Заявление связывает с именем Мушикивабо обеспокоенность продолжением российского нападения, внимание к гражданским жертвам и солидарность с украинским населением; отдельно отмечены беженцы, продовольственные последствия и необходимость мирного урегулирования.",
+          "quote_ids": [
+            "q09"
+          ],
+          "inference_limits": [
+            "Это публичная позиция в роли OIF, не заявление от правительства Руанды и не частное убеждение, установленное интервью.",
+            "Из критики конкретного действия не следуют санкционная политика или прекращение всех обменов.",
+            "Текст не даёт оснований приписывать её позицию всем членам OIF, правительству Руанды либо её факторной группе."
+          ]
+        }
+      ],
+      "unknown_note": "Российская тема не делает остальные её международные позиции российско-руандийской двусторонней политикой."
+    }
+  ],
+  "exclusions": [
+    {
+      "case": "Слова посла Чальяна об оправдании войны",
+      "source_ids": [
+        "ru03"
+      ],
+      "reason": "Другой говорящий. Не приписываются Бируте, находившемуся на том же мероприятии."
+    },
+    {
+      "case": "Самостоятельное голосование Руанды в ООН",
+      "source_ids": [
+        "ru04"
+      ],
+      "reason": "Не заполняет персональные позиции всех 42 участников. Здесь использованы только собственные объяснения названных выступающих."
+    },
+    {
+      "case": "Договорённости 2018–2019 годов",
+      "source_ids": [
+        "ru05",
+        "ru12"
+      ],
+      "reason": "Предыстория за границами окна; перепечатка старого события в новой статье не переносит его во временной интервал."
+    },
+    {
+      "case": "Персональные цитаты Маризамунды и Нсанзиманы",
+      "source_ids": [
+        "ru09",
+        "ru10"
+      ],
+      "reason": "Не найдены в проверенных сообщениях; редакционные формулировки ведомств помечены отдельно."
+    },
+    {
+      "case": "Санкции и изоляция России",
+      "source_ids": [
+        "ru01",
+        "ru02",
+        "ru04"
+      ],
+      "reason": "Нейтралитет, автономия партнёров и описание издержек не заменяют собственной позиции о применении или отмене российских санкций."
+    }
+  ],
+  "presentation_suggestions": [
+    {
+      "id": "slide-russia-multidimensional",
+      "title": "Сотрудничество и несогласие могут сочетаться",
+      "body": "Бирута обсуждает образование, безопасность и отраслевые связи с Россией; по Украине объясняет позицию принципами суверенитета. Это разные направления политики, а не взаимоисключающие ярлыки.",
+      "source_ids": [
+        "ru03",
+        "ru04"
+      ],
+      "quote_ids": [
+        "q03"
+      ],
+      "caveat": "Без вывода о единой позиции всей группы или населения."
+    },
+    {
+      "id": "slide-kagame",
+      "title": "Кагаме: принцип невторжения и нейтралитет",
+      "body": "В одном интервью он отвергает поддержку вторжения и отказывается выбирать сторону конфликта. В отдельном выступлении защищает право Африки самостоятельно выбирать внешних партнёров.",
+      "source_ids": [
+        "ru01",
+        "ru02"
+      ],
+      "quote_ids": [
+        "q01"
+      ],
+      "caveat": "Нейтралитет не равен одобрению вторжения; отсутствует подтверждённая позиция о санкциях."
+    },
+    {
+      "id": "slide-concrete-cooperation",
+      "title": "Что подтверждено практически",
+      "body": "Ндухунгирехе: визовое соглашение для служебных категорий и переговоры об энергетике и кадрах. Нсанзимана: медицинский меморандум. Маризамунда: участие в оборонном диалоге.",
+      "source_ids": [
+        "ru06",
+        "ru07",
+        "ru08",
+        "ru09",
+        "ru10"
+      ],
+      "quote_ids": [],
+      "caveat": "Подписание и обсуждение отличаются от выполненного проекта; собственные слова не заменяются текстом ведомства."
+    },
+    {
+      "id": "slide-international-role",
+      "title": "Мушикивабо: прямое заявление в роли OIF",
+      "body": "Именной текст OIF прямо квалифицирует российское нападение и выражает солидарность с украинским населением. Её международная должность должна оставаться в подписи.",
+      "source_ids": [
+        "ru11"
+      ],
+      "quote_ids": [
+        "q09"
+      ],
+      "caveat": "Не позиция правительства Руанды и не общий голос факторной группы."
+    }
+  ],
+  "limitations": [
+    "Все выводы относятся к публичным заявлениям и служебным действиям конкретных лиц в указанных ролях, а не к частным мотивам и убеждениям населения.",
+    "14 известных свойств — число ячеек, а не число независимых источников, событий или политиков. Несколько свойств могут происходить из одного документа.",
+    "Сравнение источников — качественное дополнение; здесь не обучались факторы, не назначались новые баллы и не интерпретировалась позиция кластеров.",
+    "Публичные ленты Telegram и репринты обеспечивают доступность текста, но не заменяют полный договор, стенограмму или вторую независимую экспертизу.",
+    "Прочитанный источник подтверждает факт высказывания или сообщения, а не истинность каждого аргумента и не реализацию заявленного намерения.",
+    "Проверены необходимые уже найденные источники; отсутствие другого высказывания в этой подборке не доказывает его отсутствия в принципе.",
+    "В отчёте и слайдах следует выбрать цитаты из единого реестра, а не повторно расходовать по 25 слов на каждое место публикации."
+  ],
+  "input_hashes": {
+    "studies/rwanda-politicians-2021-2026/study.json": "9f3933dc6393ac4bfa6a551dae00c1589342a3cc76fd6949e8c0f30179b77214",
+    "studies/rwanda-politicians-2021-2026/ratings.json": "e43727c8437c87108d1e5bb954e2eaf5f852096becd734777a14abcad1988687",
+    "studies/rwanda-politicians-2021-2026/output/russia_profile_evidence.md": "b44ba4546ff7be90e60a24b15cd8c1dd5ce0652cab5d95de997a725c6aee8889",
+    "research/rwanda_politicians_2021_2026/russia_evidence_seed.json": "09ac57caea84f459d62161678e72caaa06b456e75e362ff48d5d4a45d9e40175",
+    "research/rwanda_politicians_2021_2026/russia_independent_poles_supplement.json": "94dfb6115a1031c4594341ba121dbce1eb6c458e67aff2e9bfe4264bf806af50",
+    "studies/rwanda-politicians-2021-2026/evidence/independent-dossier-paul-kagame.json": "a798b512ce8be9e25faa5d4045ec156d46e39236872d87c231d52c02de7143ff",
+    "studies/rwanda-politicians-2021-2026/evidence/independent-dossier-vincent-biruta.json": "d76a8bb0360a0168911d4216eda2d2633f05d4c500edacbe52738617249218cc",
+    "studies/rwanda-politicians-2021-2026/evidence/independent-dossier-olivier-nduhungirehe.json": "6beef22c79f76ec297df8ebfc0240d7e41b68ffb724f0b062a1ffe47afcf2aa5",
+    "studies/rwanda-politicians-2021-2026/evidence/independent-dossier-juvenal-marizamunda.json": "f4148e01019372da57768c3207f9062abd27632706b55a215a4435066a8c85ed",
+    "studies/rwanda-politicians-2021-2026/evidence/independent-dossier-sabin-nsanzimana.json": "4650d49857cc0eed348f6fe66932af63f293d61c58ce85714e66a3e3621d88dd",
+    "studies/rwanda-politicians-2021-2026/evidence/independent-dossier-jeanne-darc-mujawamariya.json": "92c1c30b271a6f17b21edd76b9cee4584082a9a222d32f8c6e6bc5cc4d6cf497",
+    "studies/rwanda-politicians-2021-2026/evidence/independent-dossier-louise-mushikiwabo.json": "49b3cf06773563caf45b1889c679d7c5fe11b6d911617869b7bae396a9a79d35"
+  },
+  "existing_measurement_links": [
+    {
+      "object_id": "paul-kagame",
+      "scale_id": "russia-conflict-policy-evaluation",
+      "pole": "negative",
+      "existing_value": 2,
+      "new_score_assigned": false
+    },
+    {
+      "object_id": "vincent-biruta",
+      "scale_id": "russia-diplomatic-engagement",
+      "pole": "positive",
+      "existing_value": 2,
+      "new_score_assigned": false
+    },
+    {
+      "object_id": "vincent-biruta",
+      "scale_id": "russia-security-cooperation",
+      "pole": "positive",
+      "existing_value": 1,
+      "new_score_assigned": false
+    },
+    {
+      "object_id": "vincent-biruta",
+      "scale_id": "russia-economic-technology-cooperation",
+      "pole": "positive",
+      "existing_value": 1,
+      "new_score_assigned": false
+    },
+    {
+      "object_id": "vincent-biruta",
+      "scale_id": "russia-education-cultural-cooperation",
+      "pole": "positive",
+      "existing_value": 2,
+      "new_score_assigned": false
+    },
+    {
+      "object_id": "vincent-biruta",
+      "scale_id": "russia-conflict-policy-evaluation",
+      "pole": "negative",
+      "existing_value": 1,
+      "new_score_assigned": false
+    },
+    {
+      "object_id": "olivier-nduhungirehe",
+      "scale_id": "russia-diplomatic-engagement",
+      "pole": "positive",
+      "existing_value": 3,
+      "new_score_assigned": false
+    },
+    {
+      "object_id": "olivier-nduhungirehe",
+      "scale_id": "russia-economic-technology-cooperation",
+      "pole": "positive",
+      "existing_value": 3,
+      "new_score_assigned": false
+    },
+    {
+      "object_id": "olivier-nduhungirehe",
+      "scale_id": "russia-education-cultural-cooperation",
+      "pole": "positive",
+      "existing_value": 3,
+      "new_score_assigned": false
+    },
+    {
+      "object_id": "juvenal-marizamunda",
+      "scale_id": "russia-security-cooperation",
+      "pole": "positive",
+      "existing_value": 1,
+      "new_score_assigned": false
+    },
+    {
+      "object_id": "sabin-nsanzimana",
+      "scale_id": "russia-economic-technology-cooperation",
+      "pole": "positive",
+      "existing_value": 2,
+      "new_score_assigned": false
+    },
+    {
+      "object_id": "sabin-nsanzimana",
+      "scale_id": "russia-education-cultural-cooperation",
+      "pole": "positive",
+      "existing_value": 1,
+      "new_score_assigned": false
+    },
+    {
+      "object_id": "jeanne-darc-mujawamariya",
+      "scale_id": "russia-conflict-policy-evaluation",
+      "pole": "negative",
+      "existing_value": 1,
+      "new_score_assigned": false
+    },
+    {
+      "object_id": "louise-mushikiwabo",
+      "scale_id": "russia-conflict-policy-evaluation",
+      "pole": "negative",
+      "existing_value": 2,
+      "new_score_assigned": false
+    }
+  ]
+}

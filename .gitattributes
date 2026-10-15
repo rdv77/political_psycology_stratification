@@ -15,3 +15,15 @@
 /research/russian_politicians_2016_2026/PRESENTATION_Q4_CONTENT.json -text
 /research/rwanda_politicians_2021_2026/*.json -text whitespace=trailing-space,space-before-tab,cr-at-eol
 /studies/rwanda-politicians-2021-2026/** -text whitespace=trailing-space,space-before-tab,cr-at-eol
+
+# These source bytes are recorded in the Rwanda technical provenance receipt.
+/scripts/latent_space_benchmark.py -text
+/src/semantic_service/analysis.py -text
+/src/semantic_service/factor_preview.py -text
+/src/semantic_service/imputation_review.py -text
+/src/semantic_service/ward_review.py -text
+/scripts/compare_rwanda_ward_q3.py -text
+/scripts/compare_rwanda_strict_flags.py -text
+/scripts/compare_rwanda_imputation.py -text
+/scripts/write_rwanda_q3_technical.py -text whitespace=trailing-space,space-before-tab,cr-at-eol
+/tests/test_ward_review.py -text

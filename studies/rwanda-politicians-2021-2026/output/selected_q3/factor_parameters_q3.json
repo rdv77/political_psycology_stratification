@@ -1,0 +1,164 @@
+{
+  "format_version": 1,
+  "q": 3,
+  "training_imputation": [
+    2.185185185185185,
+    2.1818181818181817,
+    2.2666666666666666,
+    2.033333333333333,
+    2.0606060606060606,
+    2.3714285714285714,
+    1.8275862068965518,
+    1.9642857142857142
+  ],
+  "training_mean": [
+    2.185185185185185,
+    2.1818181818181817,
+    2.2666666666666666,
+    2.0333333333333328,
+    2.060606060606061,
+    2.3714285714285714,
+    1.8275862068965516,
+    1.9642857142857144
+  ],
+  "training_scale": [
+    0.6591164043129517,
+    0.7517383621384272,
+    0.768759384327106,
+    0.5444229940004338,
+    0.8363173437318513,
+    0.8725766220739365,
+    0.4072959955106279,
+    0.6359560947425178
+  ],
+  "standardized_model_mean": [
+    9.00180830777154e-17,
+    1.50030138462859e-16,
+    7.50150692314295e-17,
+    1.002201324931898e-15,
+    -5.318568408508351e-16,
+    -2.100421938480026e-17,
+    3.270657018490326e-16,
+    -2.880578658486893e-16
+  ],
+  "loadings": [
+    [
+      0.1803065489355926,
+      0.9305902669495253,
+      0.045192435499150876
+    ],
+    [
+      -0.9729768513593774,
+      0.054247246798253594,
+      0.018382305645570203
+    ],
+    [
+      -0.6126807211902612,
+      0.16464207270847944,
+      0.17683088879099298
+    ],
+    [
+      -0.2977308057342653,
+      0.08829787359901949,
+      0.29650496810531374
+    ],
+    [
+      -0.43727045872651676,
+      0.345052158090457,
+      -0.6235535794265368
+    ],
+    [
+      -0.14033163107806576,
+      0.36263964651154723,
+      0.5422809062954401
+    ],
+    [
+      0.21429365199013742,
+      0.4601558958098504,
+      -0.14171816137311233
+    ],
+    [
+      -0.22526594493491667,
+      -0.11004722482764315,
+      0.4795593416662978
+    ]
+  ],
+  "noise_variance": [
+    0.09957550526455661,
+    0.05012962908014995,
+    0.566204638380281,
+    0.8156378604944613,
+    0.30077856339785736,
+    0.5547353306603225,
+    0.7222238172585309,
+    0.707194849301181
+  ],
+  "rotation": [
+    [
+      0.9833599228281062,
+      0.14753416298221364,
+      0.10600440051544568
+    ],
+    [
+      -0.13333240840440233,
+      0.9824457400131918,
+      -0.1304715938394806
+    ],
+    [
+      -0.12339258909911481,
+      0.1141667144270627,
+      0.9857688523545198
+    ]
+  ],
+  "noise_floor": 1e-06,
+  "projection": "posterior mean; missing input features marginalized",
+  "trait_order": [
+    "programmatic-renewal__positive",
+    "programmatic-renewal__negative",
+    "government-course-assessment__positive",
+    "participation-administrative-direction__negative",
+    "argumentation-evidence-values__negative",
+    "accessibility-growth-priorities__positive",
+    "problem-disclosure-reputation-defence__positive",
+    "prevention-crisis-response__positive"
+  ],
+  "training_object_order": [
+    "paul-kagame",
+    "edouard-ngirente",
+    "justin-nsengiyumva",
+    "vincent-biruta",
+    "olivier-nduhungirehe",
+    "james-kabarebe",
+    "juvenal-marizamunda",
+    "albert-murasira",
+    "emmanuel-ugirashebuja",
+    "yusuf-murangwa",
+    "uzziel-ndagijimana",
+    "paula-ingabire",
+    "sabin-nsanzimana",
+    "judith-uwizeye",
+    "valentine-uwamariya",
+    "jeanne-darc-mujawamariya",
+    "gerardine-mukeshimana",
+    "ildephonse-musafiri",
+    "jean-claude-musabyimana",
+    "jean-damascene-bizimana",
+    "clare-akamanzi",
+    "francis-gatare",
+    "gertrude-kazarwa",
+    "donatille-mukabalisa",
+    "francois-xavier-kalinda",
+    "augustin-iyamuremye",
+    "alvera-mukabaramba",
+    "mussa-fazil-harerimana",
+    "pudence-rubingisa",
+    "samuel-dusengiyumva",
+    "frank-habineza",
+    "philippe-mpayimana",
+    "victoire-ingabire",
+    "diane-rwigara",
+    "louise-mushikiwabo",
+    "claver-gatete",
+    "valentine-rugwabiza"
+  ]
+}

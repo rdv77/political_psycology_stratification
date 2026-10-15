@@ -7,6 +7,8 @@ cache/
 studies/*/last_error.log
 studies/*/output/.build/
 studies/*/output/.privatebuild/
+studies/*/output/**/.privatebuild/
+studies/*/output/.chart-data-*/
 logs/
 logs/*.log
 __pycache__/

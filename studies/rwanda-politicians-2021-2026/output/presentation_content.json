@@ -1,0 +1,2668 @@
+{
+  "factor_count": 3,
+  "cluster_count": 4,
+  "n_objects": 37,
+  "catalogue_count": 42,
+  "period": "2021-10-15/2026-10-15",
+  "native_chart_coordinate_rounding_decimals": 8,
+  "full_precision_source": "selected_q3/metadata.json and projections.json",
+  "slides": [
+    {
+      "kind": "cover",
+      "title": "Политическое пространство Руанды",
+      "subtitle": "Три смысловые оси и четыре группы",
+      "body": "42 участника в справочнике\n37 публичных профилей на картах"
+    },
+    {
+      "kind": "text",
+      "title": "Основные выводы",
+      "paragraphs": [
+        "Преемственность, обновление программ и разные способы обосновывать политику образуют самостоятельные линии различий.",
+        "Социальные задачи и язык памяти могут поддерживать общий государственный курс в разных публичных формах.",
+        "Четыре группы описывают сходство акцентов. Их состав нельзя читать как список политических союзов."
+      ]
+    },
+    {
+      "kind": "text",
+      "title": "Кто вошёл в исследование",
+      "paragraphs": [
+        "Руководство страны, министры, парламент и местное управление, кандидаты, оппозиционные фигуры и международные дипломаты.",
+        "Период: 15 октября 2021 — 15 октября 2026 года. Список охватывает разные публичные роли и не является рейтингом популярности.",
+        "Все 42 участника описаны в справочнике. На картах размещены 37 достаточно описанных профилей."
+      ]
+    },
+    {
+      "kind": "text",
+      "title": "Политическая среда Руанды",
+      "paragraphs": [
+        "По окончательным результатам NEC, на выборах 2024 года Кагаме получил 99,18% голосов. Список FPR-Inkotanyi получил 37 из 53 напрямую избираемых мест.",
+        "HRW описывает ограничения публичной конкуренции и участия оппозиции. Официальный результат нельзя считать измерением всех частных убеждений населения.",
+        "В этой среде государственная преемственность и предложения политических изменений имеют разные институциональные возможности."
+      ],
+      "sources": [
+        "https://www.nec.gov.rw/fileadmin/user_upload/NEC/Publications/Elections_Results/Elections-Results-1.pdf",
+        "https://www.hrw.org/news/2024/06/14/rwanda-respect-rights-during-elections"
+      ]
+    },
+    {
+      "kind": "text",
+      "title": "Почему различаются публичные акценты",
+      "paragraphs": [
+        "Долгосрочная стратегия развития позволяет сохранять общие цели и пересматривать способы их достижения. Так устроена заявленная логика NST2 на 2024–2029 годы.",
+        "Память о геноциде 1994 года и язык единства задают самостоятельную рамку публичного обоснования политики.",
+        "Служебные задачи тоже различаются: здравоохранение требует говорить об услугах и готовности к рискам, политика памяти — об истории и ответственности."
+      ],
+      "caption": "Это объяснение в контексте источников. Карта сама по себе не устанавливает причин поведения.",
+      "sources": [
+        "https://www.paulkagame.rw/kwibuka-30-address-by-president-kagame/",
+        "https://www.minecofin.gov.rw/fileadmin/user_upload/Minecofin/Publications/STRATEGIES/NST_2/NST2_2024-2029_Abridged.pdf"
+      ]
+    },
+    {
+      "kind": "table",
+      "title": "Признаки итоговой карты 1–4",
+      "headers": [
+        "Свойство",
+        "Какой публичный акцент описывает"
+      ],
+      "rows": [
+        [
+          "Обновление программ",
+          "Программное изменение существующего курса"
+        ],
+        [
+          "Продолжение курса",
+          "Продолжение и закрепление действующего курса"
+        ],
+        [
+          "Поддержка курса",
+          "Публичная поддержка действующего государственного курса"
+        ],
+        [
+          "Поручения и контроль",
+          "Административная постановка задач и контроль исполнения"
+        ]
+      ],
+      "widths": [
+        370,
+        778
+      ],
+      "height": 425,
+      "fontSize": 25,
+      "caption": "У одного человека могут сочетаться разные свойства. Меньшая выраженность не создаёт противоположного убеждения."
+    },
+    {
+      "kind": "table",
+      "title": "Признаки итоговой карты 5–8",
+      "headers": [
+        "Свойство",
+        "Какой публичный акцент описывает"
+      ],
+      "rows": [
+        [
+          "Память и ценности",
+          "Обоснование через ценности, память и коллективные символы"
+        ],
+        [
+          "Доступность благ",
+          "Расширение доступности базовых благ для населения"
+        ],
+        [
+          "Раскрытие проблем",
+          "Публичное раскрытие проблем и недостатков исполнения"
+        ],
+        [
+          "Предупреждение рисков",
+          "Упреждающее снижение рисков и подготовка"
+        ]
+      ],
+      "widths": [
+        370,
+        778
+      ],
+      "height": 425,
+      "fontSize": 25,
+      "caption": "У одного человека могут сочетаться разные свойства. Меньшая выраженность не создаёт противоположного убеждения."
+    },
+    {
+      "kind": "text",
+      "title": "Преемственность и поддержка курса",
+      "paragraphs": [
+        "Связанные акценты: продолжать принятую линию, поддерживать государственный курс, обращаться к единству и коллективной памяти.",
+        "Политический смысл: преемственность служит способом обосновать управление и придать общую рамку работе разных институтов.",
+        "Более слабая выраженность этой связки сама по себе не означает оппозиционности."
+      ],
+      "sources": [
+        "https://www.minecofin.gov.rw/fileadmin/user_upload/Minecofin/Publications/STRATEGIES/NST_2/NST2_2024-2029_Abridged.pdf",
+        "https://www.worldbank.org/en/news/press-release/2025/04/01/rwandas-afe-economy-registers-robust-growth-in-2024-despite-global-challenges"
+      ]
+    },
+    {
+      "kind": "text",
+      "title": "Обновление и обсуждение проблем",
+      "paragraphs": [
+        "Рядом оказались предложения изменить программы и открытое обсуждение недостатков исполнения.",
+        "Изменения предлагают и оппозиционные фигуры, и действующие руководители в своих отраслях.",
+        "Общий акцент на обновлении ещё не означает общей программы или политического союза."
+      ],
+      "sources": [
+        "https://www.minecofin.gov.rw/fileadmin/user_upload/Minecofin/Publications/STRATEGIES/NST_2/NST2_2024-2029_Abridged.pdf",
+        "https://www.worldbank.org/en/news/press-release/2025/04/01/rwandas-afe-economy-registers-robust-growth-in-2024-despite-global-challenges"
+      ]
+    },
+    {
+      "kind": "text",
+      "title": "Социальные задачи и профилактика",
+      "paragraphs": [
+        "Один акцент связан с доступностью благ и подготовкой к рискам. Другой сильнее связан с памятью, ценностями и коллективными символами.",
+        "Часть различий объяснима служебными задачами: министр здравоохранения и руководитель политики памяти говорят о разных вопросах.",
+        "У одного человека эти акценты могут сочетаться. Карта не означает, что социальные задачи противоречат ценностям."
+      ],
+      "sources": [
+        "https://www.minecofin.gov.rw/fileadmin/user_upload/Minecofin/Publications/STRATEGIES/NST_2/NST2_2024-2029_Abridged.pdf",
+        "https://www.worldbank.org/en/news/press-release/2025/04/01/rwandas-afe-economy-registers-robust-growth-in-2024-despite-global-challenges"
+      ]
+    },
+    {
+      "kind": "quote",
+      "title": "Единство в президентской публичной речи",
+      "quote": "Основа всего — единство.",
+      "attribution": "Поль Кагаме, Kwibuka 30, 7 апреля 2024 года. Перевод с английского.",
+      "body": "Память и единство служат способом объяснять преемственность. Эта речь иллюстрирует политический контекст, а не взгляды всех участников.",
+      "sources": [
+        "https://www.paulkagame.rw/kwibuka-30-address-by-president-kagame/"
+      ]
+    },
+    {
+      "kind": "quote",
+      "title": "Профилактика в отраслевой политике",
+      "quote": "Это возможность построить более сильную систему здравоохранения.",
+      "attribution": "Сабин Нсанзимана, министр здравоохранения, 13 февраля 2023 года. Перевод с английского.",
+      "body": "При подписании меморандума с ВОЗ министр связывает готовность к эпидемиям с укреплением системы здравоохранения. Это пример практического обоснования профилактики.",
+      "sources": [
+        "https://www.moh.gov.rw/news-detail/rwanda-who-join-forces-to-boost-epidemic-preparedness"
+      ]
+    },
+    {
+      "kind": "text",
+      "title": "Как читать карту признаков",
+      "paragraphs": [
+        "Точка обозначает свойство публичной речи. Близкие точки показывают похожую связь с выбранными осями.",
+        "Продолжение и поддержка курса сближаются по первой оси. Обновление программ и раскрытие проблем — по второй.",
+        "Одна картинка показывает две оси. Третья может раскрыть различие, которое в этой плоскости незаметно."
+      ]
+    },
+    {
+      "kind": "chart",
+      "title": "Признаки в смысловом пространстве",
+      "chart": {
+        "type": "scatter",
+        "config": {
+          "series": [
+            {
+              "name": "Признаки",
+              "xValues": [
+                -0.04765198,
+                0.9662876,
+                0.64625741,
+                0.34113603,
+                0.39905899,
+                0.25326156,
+                -0.16686107,
+                0.26601871
+              ],
+              "values": [
+                0.94601529,
+                -0.0881537,
+                0.09154877,
+                0.0766734,
+                0.20329363,
+                0.3974805,
+                0.46751434,
+                -0.08660014
+              ],
+              "categories": [
+                "Обновление программ",
+                "Продолжение курса",
+                "Поддержка курса",
+                "Поручения и контроль",
+                "Память и ценности",
+                "Доступность благ",
+                "Раскрытие проблем",
+                "Предупреждение рисков"
+              ],
+              "marker": {
+                "symbol": "circle",
+                "size": 7,
+                "fill": "#147B79"
+              },
+              "line": {
+                "fill": "none",
+                "width": 0
+              },
+              "dataLabels": {
+                "showValue": false,
+                "showCategoryName": false,
+                "textStyle": {
+                  "fontSize": 16,
+                  "fill": "#142B35"
+                }
+              },
+              "dataLabelOverrides": [
+                {
+                  "idx": 0,
+                  "text": "Обновление программ",
+                  "showValue": false,
+                  "showCategoryName": true,
+                  "position": "right"
+                },
+                {
+                  "idx": 1,
+                  "text": "Продолжение курса",
+                  "showValue": false,
+                  "showCategoryName": true,
+                  "position": "right"
+                },
+                {
+                  "idx": 2,
+                  "text": "Поддержка курса",
+                  "showValue": false,
+                  "showCategoryName": true,
+                  "position": "right"
+                },
+                {
+                  "idx": 3,
+                  "text": "Поручения и контроль",
+                  "showValue": false,
+                  "showCategoryName": true,
+                  "position": "left"
+                },
+                {
+                  "idx": 4,
+                  "text": "Память и ценности",
+                  "showValue": false,
+                  "showCategoryName": true,
+                  "position": "top"
+                },
+                {
+                  "idx": 5,
+                  "text": "Доступность благ",
+                  "showValue": false,
+                  "showCategoryName": true,
+                  "position": "top"
+                },
+                {
+                  "idx": 6,
+                  "text": "Раскрытие проблем",
+                  "showValue": false,
+                  "showCategoryName": true,
+                  "position": "left"
+                },
+                {
+                  "idx": 7,
+                  "text": "Предупреждение рисков",
+                  "showValue": false,
+                  "showCategoryName": true,
+                  "position": "bottom"
+                }
+              ]
+            }
+          ],
+          "scatterOptions": {
+            "style": "marker"
+          },
+          "hasLegend": false,
+          "legend": {
+            "position": "top",
+            "textStyle": {
+              "fontSize": 17
+            }
+          },
+          "xAxis": {
+            "title": {
+              "text": "Преемственность и поддержка курса",
+              "textStyle": {
+                "fontSize": 19
+              }
+            },
+            "min": -1.35,
+            "max": 1.35,
+            "numberFormatCode": "0.0",
+            "textStyle": {
+              "fontSize": 14,
+              "fill": "#56656E"
+            },
+            "majorGridlines": {
+              "fill": "#E3E9ED",
+              "width": 0.6
+            }
+          },
+          "yAxis": {
+            "title": {
+              "text": "Обновление и обсуждение проблем",
+              "textStyle": {
+                "fontSize": 19
+              }
+            },
+            "min": -1.35,
+            "max": 1.35,
+            "numberFormatCode": "0.0",
+            "textStyle": {
+              "fontSize": 14,
+              "fill": "#56656E"
+            },
+            "majorGridlines": {
+              "fill": "#E3E9ED",
+              "width": 0.6
+            }
+          }
+        }
+      },
+      "caption": "Точки обозначают свойства публичной речи. Каждая карта показывает две из трёх осей.",
+      "notes": "Точные координаты: selected_q3/metadata.json. Число подписей статической карты 8/8."
+    },
+    {
+      "kind": "chart",
+      "title": "Признаки в смысловом пространстве",
+      "chart": {
+        "type": "scatter",
+        "config": {
+          "series": [
+            {
+              "name": "Признаки",
+              "xValues": [
+                0.94601529,
+                -0.0881537,
+                0.09154877,
+                0.0766734,
+                0.20329363,
+                0.3974805,
+                0.46751434,
+                -0.08660014
+              ],
+              "values": [
+                -0.05775301,
+                -0.09209685,
+                0.08788642,
+                0.24920422,
+                -0.70605179,
+                0.47237368,
+                -0.17702255,
+                0.46321352
+              ],
+              "categories": [
+                "Обновление программ",
+                "Продолжение курса",
+                "Поддержка курса",
+                "Поручения и контроль",
+                "Память и ценности",
+                "Доступность благ",
+                "Раскрытие проблем",
+                "Предупреждение рисков"
+              ],
+              "marker": {
+                "symbol": "circle",
+                "size": 7,
+                "fill": "#147B79"
+              },
+              "line": {
+                "fill": "none",
+                "width": 0
+              },
+              "dataLabels": {
+                "showValue": false,
+                "showCategoryName": false,
+                "textStyle": {
+                  "fontSize": 16,
+                  "fill": "#142B35"
+                }
+              },
+              "dataLabelOverrides": [
+                {
+                  "idx": 0,
+                  "text": "Обновление программ",
+                  "showValue": false,
+                  "showCategoryName": true,
+                  "position": "right"
+                },
+                {
+                  "idx": 1,
+                  "text": "Продолжение курса",
+                  "showValue": false,
+                  "showCategoryName": true,
+                  "position": "right"
+                },
+                {
+                  "idx": 2,
+                  "text": "Поддержка курса",
+                  "showValue": false,
+                  "showCategoryName": true,
+                  "position": "right"
+                },
+                {
+                  "idx": 3,
+                  "text": "Поручения и контроль",
+                  "showValue": false,
+                  "showCategoryName": true,
+                  "position": "left"
+                },
+                {
+                  "idx": 4,
+                  "text": "Память и ценности",
+                  "showValue": false,
+                  "showCategoryName": true,
+                  "position": "right"
+                },
+                {
+                  "idx": 5,
+                  "text": "Доступность благ",
+                  "showValue": false,
+                  "showCategoryName": true,
+                  "position": "right"
+                },
+                {
+                  "idx": 6,
+                  "text": "Раскрытие проблем",
+                  "showValue": false,
+                  "showCategoryName": true,
+                  "position": "right"
+                },
+                {
+                  "idx": 7,
+                  "text": "Предупреждение рисков",
+                  "showValue": false,
+                  "showCategoryName": true,
+                  "position": "left"
+                }
+              ]
+            }
+          ],
+          "scatterOptions": {
+            "style": "marker"
+          },
+          "hasLegend": false,
+          "legend": {
+            "position": "top",
+            "textStyle": {
+              "fontSize": 17
+            }
+          },
+          "xAxis": {
+            "title": {
+              "text": "Обновление и обсуждение проблем",
+              "textStyle": {
+                "fontSize": 19
+              }
+            },
+            "min": -1.35,
+            "max": 1.35,
+            "numberFormatCode": "0.0",
+            "textStyle": {
+              "fontSize": 14,
+              "fill": "#56656E"
+            },
+            "majorGridlines": {
+              "fill": "#E3E9ED",
+              "width": 0.6
+            }
+          },
+          "yAxis": {
+            "title": {
+              "text": "Социальные задачи и профилактика",
+              "textStyle": {
+                "fontSize": 19
+              }
+            },
+            "min": -1.35,
+            "max": 1.35,
+            "numberFormatCode": "0.0",
+            "textStyle": {
+              "fontSize": 14,
+              "fill": "#56656E"
+            },
+            "majorGridlines": {
+              "fill": "#E3E9ED",
+              "width": 0.6
+            }
+          }
+        }
+      },
+      "caption": "Точки обозначают свойства публичной речи. Каждая карта показывает две из трёх осей.",
+      "notes": "Точные координаты: selected_q3/metadata.json. Число подписей статической карты 8/8."
+    },
+    {
+      "kind": "chart",
+      "title": "Политики в смысловом пространстве",
+      "chart": {
+        "type": "scatter",
+        "config": {
+          "series": [
+            {
+              "name": "C1",
+              "xValues": [
+                2.15386301,
+                2.32951431
+              ],
+              "values": [
+                0.21007993,
+                -0.09077381
+              ],
+              "categories": [
+                "Бизимана",
+                "Фазиль Хареримана"
+              ],
+              "marker": {
+                "symbol": "circle",
+                "size": 7,
+                "fill": "#B56A19"
+              },
+              "line": {
+                "fill": "none",
+                "width": 0
+              },
+              "dataLabels": {
+                "showValue": false,
+                "showCategoryName": false,
+                "textStyle": {
+                  "fontSize": 13,
+                  "fill": "#142B35"
+                }
+              },
+              "dataLabelOverrides": [
+                {
+                  "idx": 0,
+                  "text": "Бизимана",
+                  "showValue": false,
+                  "showCategoryName": true,
+                  "position": "right"
+                },
+                {
+                  "idx": 1,
+                  "text": "Фазиль Хареримана",
+                  "showValue": false,
+                  "showCategoryName": true,
+                  "position": "bottom"
+                }
+              ]
+            },
+            {
+              "name": "C2",
+              "xValues": [
+                1.25393684,
+                -0.22067476,
+                1.29858072,
+                1.15224221,
+                1.07415897,
+                1.18120192,
+                -0.10762874,
+                0.93386672,
+                -0.20704271,
+                1.19312941
+              ],
+              "values": [
+                -0.05041807,
+                -0.32904866,
+                -0.10730361,
+                -0.24924947,
+                -0.18306019,
+                -0.06991612,
+                -0.17595661,
+                -0.33629142,
+                -0.18844754,
+                1.12389335
+              ],
+              "categories": [
+                "Нгиренте",
+                "Мурасира",
+                "Угирасебуджа",
+                "Мурангва",
+                "Ндагиджимана",
+                "Ингабире",
+                "Нсанзимана",
+                "Акаманзи",
+                "Рубингиса",
+                "Ругвабиза"
+              ],
+              "marker": {
+                "symbol": "circle",
+                "size": 7,
+                "fill": "#147B79"
+              },
+              "line": {
+                "fill": "none",
+                "width": 0
+              },
+              "dataLabels": {
+                "showValue": false,
+                "showCategoryName": false,
+                "textStyle": {
+                  "fontSize": 13,
+                  "fill": "#142B35"
+                }
+              },
+              "dataLabelOverrides": [
+                {
+                  "idx": 0,
+                  "text": "Нгиренте",
+                  "showValue": false,
+                  "showCategoryName": true,
+                  "position": "right"
+                },
+                {
+                  "idx": 6,
+                  "text": "Нсанзимана",
+                  "showValue": false,
+                  "showCategoryName": true,
+                  "position": "right"
+                },
+                {
+                  "idx": 7,
+                  "text": "Акаманзи",
+                  "showValue": false,
+                  "showCategoryName": true,
+                  "position": "right"
+                },
+                {
+                  "idx": 9,
+                  "text": "Ругвабиза",
+                  "showValue": false,
+                  "showCategoryName": true,
+                  "position": "right"
+                }
+              ]
+            },
+            {
+              "name": "C3",
+              "xValues": [
+                -1.21363249,
+                0.35549455
+              ],
+              "values": [
+                2.60605733,
+                4.15035711
+              ],
+              "categories": [
+                "Хабинеза",
+                "Ингабире Умухоза"
+              ],
+              "marker": {
+                "symbol": "circle",
+                "size": 7,
+                "fill": "#8250A7"
+              },
+              "line": {
+                "fill": "none",
+                "width": 0
+              },
+              "dataLabels": {
+                "showValue": false,
+                "showCategoryName": false,
+                "textStyle": {
+                  "fontSize": 13,
+                  "fill": "#142B35"
+                }
+              },
+              "dataLabelOverrides": [
+                {
+                  "idx": 0,
+                  "text": "Хабинеза",
+                  "showValue": false,
+                  "showCategoryName": true,
+                  "position": "right"
+                },
+                {
+                  "idx": 1,
+                  "text": "Ингабире Умухоза",
+                  "showValue": false,
+                  "showCategoryName": true,
+                  "position": "right"
+                }
+              ]
+            },
+            {
+              "name": "C4",
+              "xValues": [
+                -1.54799131,
+                -0.39447145,
+                -0.3653385,
+                -0.26213873,
+                0.82719643,
+                -1.65201108,
+                -0.24472709,
+                -0.13725737,
+                -0.43034313,
+                0.10404951,
+                -0.33546556,
+                -0.16316094,
+                -0.42446484,
+                -0.29081209,
+                -0.3056508,
+                -1.44676768,
+                -0.36042691,
+                -0.30672755,
+                -0.27733372,
+                -1.53921587,
+                -1.58155457,
+                -0.29776742,
+                -0.33628212
+              ],
+              "values": [
+                -0.28489949,
+                -0.34042222,
+                -0.39027201,
+                -0.36662891,
+                -1.64703567,
+                -0.18726618,
+                -0.0123781,
+                -0.12856597,
+                -0.41508259,
+                -0.58454267,
+                -0.2023398,
+                -0.13109297,
+                -1.78492908,
+                -0.2730704,
+                -0.02594297,
+                0.41429267,
+                -1.6211154,
+                -0.3842774,
+                -0.24228022,
+                1.06019702,
+                0.2145912,
+                -0.24485042,
+                -0.30589042
+              ],
+              "categories": [
+                "Кагаме",
+                "Нсенгийюмва",
+                "Бирута",
+                "Ндухунгирехе",
+                "Кабаребе",
+                "Маризамунда",
+                "Увизейе",
+                "Увамария",
+                "д’Арк Муджавамария",
+                "Мукешимана",
+                "Мусафири",
+                "Мусабийимана",
+                "Гатаре",
+                "Казарва",
+                "Мукабалиса",
+                "Калинда",
+                "Иямуремье",
+                "Мукабарамба",
+                "Дусенгийюмва",
+                "Мпайимана",
+                "Рвигара",
+                "Мушикивабо",
+                "Гатете"
+              ],
+              "marker": {
+                "symbol": "circle",
+                "size": 7,
+                "fill": "#3E6A9B"
+              },
+              "line": {
+                "fill": "none",
+                "width": 0
+              },
+              "dataLabels": {
+                "showValue": false,
+                "showCategoryName": false,
+                "textStyle": {
+                  "fontSize": 13,
+                  "fill": "#142B35"
+                }
+              },
+              "dataLabelOverrides": [
+                {
+                  "idx": 0,
+                  "text": "Кагаме",
+                  "showValue": false,
+                  "showCategoryName": true,
+                  "position": "right"
+                },
+                {
+                  "idx": 1,
+                  "text": "Нсенгийюмва",
+                  "showValue": false,
+                  "showCategoryName": true,
+                  "position": "bottom"
+                },
+                {
+                  "idx": 4,
+                  "text": "Кабаребе",
+                  "showValue": false,
+                  "showCategoryName": true,
+                  "position": "right"
+                },
+                {
+                  "idx": 5,
+                  "text": "Маризамунда",
+                  "showValue": false,
+                  "showCategoryName": true,
+                  "position": "left"
+                },
+                {
+                  "idx": 6,
+                  "text": "Увизейе",
+                  "showValue": false,
+                  "showCategoryName": true,
+                  "position": "top"
+                },
+                {
+                  "idx": 19,
+                  "text": "Мпайимана",
+                  "showValue": false,
+                  "showCategoryName": true,
+                  "position": "right"
+                },
+                {
+                  "idx": 20,
+                  "text": "Рвигара",
+                  "showValue": false,
+                  "showCategoryName": true,
+                  "position": "right"
+                },
+                {
+                  "idx": 21,
+                  "text": "Мушикивабо",
+                  "showValue": false,
+                  "showCategoryName": true,
+                  "position": "left"
+                }
+              ]
+            }
+          ],
+          "scatterOptions": {
+            "style": "marker"
+          },
+          "hasLegend": true,
+          "legend": {
+            "position": "top",
+            "textStyle": {
+              "fontSize": 17
+            }
+          },
+          "xAxis": {
+            "title": {
+              "text": "Преемственность и поддержка курса",
+              "textStyle": {
+                "fontSize": 19
+              }
+            },
+            "min": -2.3020110750837257,
+            "max": 2.9795143135218747,
+            "numberFormatCode": "0.0",
+            "textStyle": {
+              "fontSize": 14,
+              "fill": "#56656E"
+            },
+            "majorGridlines": {
+              "fill": "#E3E9ED",
+              "width": 0.6
+            }
+          },
+          "yAxis": {
+            "title": {
+              "text": "Обновление и обсуждение проблем",
+              "textStyle": {
+                "fontSize": 19
+              }
+            },
+            "min": -2.4349290798990433,
+            "max": 4.800357114051033,
+            "numberFormatCode": "0.0",
+            "textStyle": {
+              "fontSize": 14,
+              "fill": "#56656E"
+            },
+            "majorGridlines": {
+              "fill": "#E3E9ED",
+              "width": 0.6
+            }
+          }
+        }
+      },
+      "caption": "Все 37 показаны точками, часть профилей совпадает. Полные составы и должности даны далее.",
+      "notes": "Точные координаты: selected_q3/metadata.json. Число подписей статической карты 37/37."
+    },
+    {
+      "kind": "chart",
+      "title": "Политики в смысловом пространстве",
+      "chart": {
+        "type": "scatter",
+        "config": {
+          "series": [
+            {
+              "name": "C1",
+              "xValues": [
+                0.21007993,
+                -0.09077381
+              ],
+              "values": [
+                -2.39085373,
+                -1.61235008
+              ],
+              "categories": [
+                "Бизимана",
+                "Фазиль Хареримана"
+              ],
+              "marker": {
+                "symbol": "circle",
+                "size": 7,
+                "fill": "#B56A19"
+              },
+              "line": {
+                "fill": "none",
+                "width": 0
+              },
+              "dataLabels": {
+                "showValue": false,
+                "showCategoryName": false,
+                "textStyle": {
+                  "fontSize": 13,
+                  "fill": "#142B35"
+                }
+              },
+              "dataLabelOverrides": [
+                {
+                  "idx": 0,
+                  "text": "Бизимана",
+                  "showValue": false,
+                  "showCategoryName": true,
+                  "position": "right"
+                },
+                {
+                  "idx": 1,
+                  "text": "Фазиль Хареримана",
+                  "showValue": false,
+                  "showCategoryName": true,
+                  "position": "right"
+                }
+              ]
+            },
+            {
+              "name": "C2",
+              "xValues": [
+                -0.05041807,
+                -0.32904866,
+                -0.10730361,
+                -0.24924947,
+                -0.18306019,
+                -0.06991612,
+                -0.17595661,
+                -0.33629142,
+                -0.18844754,
+                1.12389335
+              ],
+              "values": [
+                1.16898973,
+                0.97813536,
+                1.06522756,
+                0.60662759,
+                0.08472945,
+                1.67514255,
+                1.56303576,
+                -0.04508895,
+                0.96060687,
+                0.52182598
+              ],
+              "categories": [
+                "Нгиренте",
+                "Мурасира",
+                "Угирасебуджа",
+                "Мурангва",
+                "Ндагиджимана",
+                "Ингабире",
+                "Нсанзимана",
+                "Акаманзи",
+                "Рубингиса",
+                "Ругвабиза"
+              ],
+              "marker": {
+                "symbol": "circle",
+                "size": 7,
+                "fill": "#147B79"
+              },
+              "line": {
+                "fill": "none",
+                "width": 0
+              },
+              "dataLabels": {
+                "showValue": false,
+                "showCategoryName": false,
+                "textStyle": {
+                  "fontSize": 13,
+                  "fill": "#142B35"
+                }
+              },
+              "dataLabelOverrides": [
+                {
+                  "idx": 0,
+                  "text": "Нгиренте",
+                  "showValue": false,
+                  "showCategoryName": true,
+                  "position": "right"
+                },
+                {
+                  "idx": 6,
+                  "text": "Нсанзимана",
+                  "showValue": false,
+                  "showCategoryName": true,
+                  "position": "right"
+                },
+                {
+                  "idx": 7,
+                  "text": "Акаманзи",
+                  "showValue": false,
+                  "showCategoryName": true,
+                  "position": "right"
+                },
+                {
+                  "idx": 9,
+                  "text": "Ругвабиза",
+                  "showValue": false,
+                  "showCategoryName": true,
+                  "position": "right"
+                }
+              ]
+            },
+            {
+              "name": "C3",
+              "xValues": [
+                2.60605733,
+                4.15035711
+              ],
+              "values": [
+                1.33455539,
+                -1.24879914
+              ],
+              "categories": [
+                "Хабинеза",
+                "Ингабире Умухоза"
+              ],
+              "marker": {
+                "symbol": "circle",
+                "size": 7,
+                "fill": "#8250A7"
+              },
+              "line": {
+                "fill": "none",
+                "width": 0
+              },
+              "dataLabels": {
+                "showValue": false,
+                "showCategoryName": false,
+                "textStyle": {
+                  "fontSize": 13,
+                  "fill": "#142B35"
+                }
+              },
+              "dataLabelOverrides": [
+                {
+                  "idx": 0,
+                  "text": "Хабинеза",
+                  "showValue": false,
+                  "showCategoryName": true,
+                  "position": "right"
+                },
+                {
+                  "idx": 1,
+                  "text": "Ингабире Умухоза",
+                  "showValue": false,
+                  "showCategoryName": true,
+                  "position": "left"
+                }
+              ]
+            },
+            {
+              "name": "C4",
+              "xValues": [
+                -0.28489949,
+                -0.34042222,
+                -0.39027201,
+                -0.36662891,
+                -1.64703567,
+                -0.18726618,
+                -0.0123781,
+                -0.12856597,
+                -0.41508259,
+                -0.58454267,
+                -0.2023398,
+                -0.13109297,
+                -1.78492908,
+                -0.2730704,
+                -0.02594297,
+                0.41429267,
+                -1.6211154,
+                -0.3842774,
+                -0.24228022,
+                1.06019702,
+                0.2145912,
+                -0.24485042,
+                -0.30589042
+              ],
+              "values": [
+                0.30727131,
+                -0.60778489,
+                -0.81259046,
+                -0.32393817,
+                0.45954847,
+                -0.94450755,
+                0.0011035,
+                0.29393057,
+                -0.55631386,
+                0.17592676,
+                -0.00346687,
+                0.37626637,
+                -0.17107722,
+                -0.16858207,
+                -0.12329796,
+                -0.10975614,
+                0.16212947,
+                -1.03851454,
+                -0.24386412,
+                -0.42133384,
+                -0.4174905,
+                -0.9927188,
+                -0.3149567
+              ],
+              "categories": [
+                "Кагаме",
+                "Нсенгийюмва",
+                "Бирута",
+                "Ндухунгирехе",
+                "Кабаребе",
+                "Маризамунда",
+                "Увизейе",
+                "Увамария",
+                "д’Арк Муджавамария",
+                "Мукешимана",
+                "Мусафири",
+                "Мусабийимана",
+                "Гатаре",
+                "Казарва",
+                "Мукабалиса",
+                "Калинда",
+                "Иямуремье",
+                "Мукабарамба",
+                "Дусенгийюмва",
+                "Мпайимана",
+                "Рвигара",
+                "Мушикивабо",
+                "Гатете"
+              ],
+              "marker": {
+                "symbol": "circle",
+                "size": 7,
+                "fill": "#3E6A9B"
+              },
+              "line": {
+                "fill": "none",
+                "width": 0
+              },
+              "dataLabels": {
+                "showValue": false,
+                "showCategoryName": false,
+                "textStyle": {
+                  "fontSize": 13,
+                  "fill": "#142B35"
+                }
+              },
+              "dataLabelOverrides": [
+                {
+                  "idx": 0,
+                  "text": "Кагаме",
+                  "showValue": false,
+                  "showCategoryName": true,
+                  "position": "right"
+                },
+                {
+                  "idx": 1,
+                  "text": "Нсенгийюмва",
+                  "showValue": false,
+                  "showCategoryName": true,
+                  "position": "right"
+                },
+                {
+                  "idx": 2,
+                  "text": "Бирута",
+                  "showValue": false,
+                  "showCategoryName": true,
+                  "position": "left"
+                },
+                {
+                  "idx": 3,
+                  "text": "Ндухунгирехе",
+                  "showValue": false,
+                  "showCategoryName": true,
+                  "position": "left"
+                },
+                {
+                  "idx": 4,
+                  "text": "Кабаребе",
+                  "showValue": false,
+                  "showCategoryName": true,
+                  "position": "right"
+                },
+                {
+                  "idx": 19,
+                  "text": "Мпайимана",
+                  "showValue": false,
+                  "showCategoryName": true,
+                  "position": "right"
+                },
+                {
+                  "idx": 20,
+                  "text": "Рвигара",
+                  "showValue": false,
+                  "showCategoryName": true,
+                  "position": "right"
+                },
+                {
+                  "idx": 21,
+                  "text": "Мушикивабо",
+                  "showValue": false,
+                  "showCategoryName": true,
+                  "position": "right"
+                }
+              ]
+            }
+          ],
+          "scatterOptions": {
+            "style": "marker"
+          },
+          "hasLegend": true,
+          "legend": {
+            "position": "top",
+            "textStyle": {
+              "fontSize": 17
+            }
+          },
+          "xAxis": {
+            "title": {
+              "text": "Обновление и обсуждение проблем",
+              "textStyle": {
+                "fontSize": 19
+              }
+            },
+            "min": -2.4349290798990433,
+            "max": 4.800357114051033,
+            "numberFormatCode": "0.0",
+            "textStyle": {
+              "fontSize": 14,
+              "fill": "#56656E"
+            },
+            "majorGridlines": {
+              "fill": "#E3E9ED",
+              "width": 0.6
+            }
+          },
+          "yAxis": {
+            "title": {
+              "text": "Социальные задачи и профилактика",
+              "textStyle": {
+                "fontSize": 19
+              }
+            },
+            "min": -3.040853728953952,
+            "max": 2.325142552327864,
+            "numberFormatCode": "0.0",
+            "textStyle": {
+              "fontSize": 14,
+              "fill": "#56656E"
+            },
+            "majorGridlines": {
+              "fill": "#E3E9ED",
+              "width": 0.6
+            }
+          }
+        }
+      },
+      "caption": "Все 37 показаны точками, часть профилей совпадает. Полные составы и должности даны далее.",
+      "notes": "Точные координаты: selected_q3/metadata.json. Число подписей статической карты 37/37."
+    },
+    {
+      "kind": "table",
+      "title": "Четыре группы публичных профилей",
+      "headers": [
+        "Группа",
+        "Число",
+        "Смысл"
+      ],
+      "rows": [
+        [
+          "C1",
+          2,
+          "Ценностное обоснование преемственности курса"
+        ],
+        [
+          "C2",
+          10,
+          "Практическое управление: услуги и предупреждение рисков"
+        ],
+        [
+          "C3",
+          2,
+          "Программные альтернативы и доступность благ"
+        ],
+        [
+          "C4",
+          23,
+          "Смешанные публичные профили"
+        ]
+      ],
+      "widths": [
+        130,
+        130,
+        888
+      ],
+      "height": 400,
+      "fontSize": 26
+    },
+    {
+      "kind": "text",
+      "title": "C1 Ценностное обоснование преемственности курса",
+      "paragraphs": [
+        "Бизиману и Харериману сближают ценностная аргументация, единство, память и продолжение принятого курса.",
+        "Разные политические роли соединены сходным способом публично обосновывать сохранение достигнутого.",
+        "Неизвестная оценка программных изменений не означает отказа от реформ. Пара не является доказанной коалицией."
+      ],
+      "sources": [
+        "https://www.minubumwe.gov.rw/news-detail/min-dr-bizimana-yasabye-abiga-muri-seminari-nkuru-ya-kabgayi-kwimakaza-ndi-umunyarwanda",
+        "https://www.ktpress.rw/2021/12/pdi-party-marks-30-years-with-pledge-of-allegiance-to-ruling-party/"
+      ]
+    },
+    {
+      "kind": "text",
+      "title": "C2 Практическое управление: услуги и предупреждение рисков",
+      "paragraphs": [
+        "Продолжение программ сочетается с доступностью услуг, управленческими задачами и подготовкой к рискам.",
+        "Нгиренте, Мурангва, Нсанзимана и другие описывают организацию работы для конкретных получателей.",
+        "Профиль объединяет разные отрасли и международную роль Ругвабизы. Он не измеряет эффективность или экспертную компетентность."
+      ],
+      "sources": [
+        "https://www.primature.gov.rw/news-detail/the-prime-minister-presented-government-actions-related-to-achievements-in-basic-education-primary-secondary",
+        "https://primature.prod.risa.rw/news-detail/pm-nsengiyumva-officially-sworn-in-as-prime-minister"
+      ]
+    },
+    {
+      "kind": "table",
+      "title": "C2 Состав группы 1–7",
+      "headers": [
+        "Участник",
+        "Роль в исследуемый период"
+      ],
+      "rows": [
+        [
+          "Эдуар Нгиренте",
+          "Премьер-министр; передал полномочия преемнику 25.07.2025"
+        ],
+        [
+          "Альбер Мурасира",
+          "Министр обороны в 2021; министр чрезвычайных ситуаций в августе 2024"
+        ],
+        [
+          "Эмманюэль Угирасебуджа",
+          "Министр юстиции и Attorney General: подтверждён в 2022 и августе 2024"
+        ],
+        [
+          "Юсуф Мурангва",
+          "Министр финансов и экономического планирования: назначение 12.06.2024"
+        ],
+        [
+          "Уззиэль Ндагиджимана",
+          "Министр финансов и экономического планирования до 12.06.2024"
+        ],
+        [
+          "Паула Ингабире",
+          "Министр ИКТ и инноваций в составе правительства от 16.08.2024"
+        ],
+        [
+          "Сабин Нсанзимана",
+          "Министр здравоохранения: датированное выступление 13.02.2023"
+        ]
+      ],
+      "widths": [
+        440,
+        708
+      ],
+      "height": 465,
+      "fontSize": 23,
+      "padding": 4
+    },
+    {
+      "kind": "table",
+      "title": "C2 Состав группы 8–10",
+      "headers": [
+        "Участник",
+        "Роль в исследуемый период"
+      ],
+      "rows": [
+        [
+          "Клэр Акаманзи",
+          "Руководитель RDB до сентября 2023; назначение в NBA Africa — 2024"
+        ],
+        [
+          "Пуденс Рубингиса",
+          "Мэр Кигали, затем губернатор Восточной провинции в декабре 2023"
+        ],
+        [
+          "Валентин Ругвабиза",
+          "Представитель Руанды при ООН; назначена главой MINUSCA 23.02.2022"
+        ]
+      ],
+      "widths": [
+        440,
+        708
+      ],
+      "height": 465,
+      "fontSize": 23,
+      "padding": 4
+    },
+    {
+      "kind": "text",
+      "title": "C3 Программные альтернативы и доступность благ",
+      "paragraphs": [
+        "Хабинеза и Ингабире выделяются программными альтернативами и приоритетом доступности базовых благ.",
+        "Общность части предложений не означает одинаковой идеологии, условий участия или политического союза.",
+        "Эта пара не равна всей оппозиции: другие альтернативные политики находятся вне неё, а часть участников не включена из-за пропусков."
+      ],
+      "sources": [
+        "https://www.newtimes.co.rw/article/18346/news/elections/frank-habineza-campaigns-in-muhanga-promises-changes-in-mining-sector/amp"
+      ]
+    },
+    {
+      "kind": "text",
+      "title": "C4 Смешанные публичные профили",
+      "paragraphs": [
+        "Кагаме, руководители, дипломаты и часть альтернативных политиков объединены сходством ограниченного набора оценок.",
+        "Кагаме и Рвигара политически различны. Критика власти и доступ к выборам не входят в восемь оставшихся переменных.",
+        "Большая разнородная группа не имеет установленной общей идеологии, коалиции или одинакового отношения к власти."
+      ],
+      "sources": [
+        "https://www.paulkagame.rw/remarks-by-the-president-of-the-republic-during-the-swearing-in-ceremony-of-new-government-officials-kigali-23-december-2024/",
+        "https://www.bbc.com/news/articles/cw007n5pn4wo"
+      ]
+    },
+    {
+      "kind": "table",
+      "title": "C4 Состав группы 1–7",
+      "headers": [
+        "Участник",
+        "Роль в исследуемый период"
+      ],
+      "rows": [
+        [
+          "Поль Кагаме",
+          "Президент; инаугурация на новый пятилетний срок 11.08.2024"
+        ],
+        [
+          "Жюстен Нсенгийюмва",
+          "Премьер-министр: назначен 23.07.2025; принёс присягу 25.07.2025"
+        ],
+        [
+          "Венсан Бирута",
+          "Глава МИД в апреле 2024; министр внутренних дел в августе 2024"
+        ],
+        [
+          "Оливье Ндухунгирехе",
+          "Министр иностранных дел в составе правительства от 16.08.2024"
+        ],
+        [
+          "Джеймс Кабаребе",
+          "Государственный министр регионального сотрудничества: с 04.10.2023"
+        ],
+        [
+          "Жювеналь Маризамунда",
+          "Министр обороны: принял полномочия 07.06.2023; подтверждён в 2024"
+        ],
+        [
+          "Жюдит Увизейе",
+          "Министр в канцелярии президента: состав правительства 16.08.2024"
+        ]
+      ],
+      "widths": [
+        440,
+        708
+      ],
+      "height": 465,
+      "fontSize": 23,
+      "padding": 4
+    },
+    {
+      "kind": "table",
+      "title": "C4 Состав группы 8–14",
+      "headers": [
+        "Участник",
+        "Роль в исследуемый период"
+      ],
+      "rows": [
+        [
+          "Валентин Увамария",
+          "Министр окружающей среды: состав правительства от 16.08.2024"
+        ],
+        [
+          "Жанна д’Арк Муджавамария",
+          "Экологический портфель в 2022–2024; госслужба и труд в июне 2024"
+        ],
+        [
+          "Жерардин Мукешимана",
+          "Министр сельского хозяйства и животноводства: подтверждение 01.12.2022"
+        ],
+        [
+          "Ильдефонс Мусафири",
+          "Аграрный министр: назначение 02.03.2023, подтверждён в августе 2024"
+        ],
+        [
+          "Жан-Клод Мусабийимана",
+          "Министр местного самоуправления: подтверждён в декабре 2023 и 2024"
+        ],
+        [
+          "Франсис Гатаре",
+          "Руководитель Rwanda Development Board: назначение 27.09.2023"
+        ],
+        [
+          "Гертруда Казарва",
+          "Спикер Палаты депутатов: избрана 14.08.2024 на новый созыв"
+        ]
+      ],
+      "widths": [
+        440,
+        708
+      ],
+      "height": 465,
+      "fontSize": 23,
+      "padding": 4
+    },
+    {
+      "kind": "table",
+      "title": "C4 Состав группы 15–21",
+      "headers": [
+        "Участник",
+        "Роль в исследуемый период"
+      ],
+      "rows": [
+        [
+          "Донатиль Мукабалиса",
+          "Спикер Палаты депутатов в предыдущем созыве: подтверждение 12.09.2023"
+        ],
+        [
+          "Франсуа-Ксавье Калинда",
+          "Глава Сената с 09.01.2023; избран на следующий срок 26.09.2024"
+        ],
+        [
+          "Огюстен Иямуремье",
+          "Председатель Сената в начале окна: роль до 09.12.2022"
+        ],
+        [
+          "Альвера Мукабарамба",
+          "Вице-президент Сената: избрана в руководство 26.09.2024"
+        ],
+        [
+          "Самуэль Дусенгийюмва",
+          "Мэр столицы Кигали: избран на эту должность 15.12.2023"
+        ],
+        [
+          "Филипп Мпайимана",
+          "Независимый кандидат, допущенный к президентским выборам 2024 года"
+        ],
+        [
+          "Диана Рвигара",
+          "Независимая претендентка на президентских выборах 2024; не допущена"
+        ]
+      ],
+      "widths": [
+        440,
+        708
+      ],
+      "height": 465,
+      "fontSize": 23,
+      "padding": 4
+    },
+    {
+      "kind": "table",
+      "title": "C4 Состав группы 22–23",
+      "headers": [
+        "Участник",
+        "Роль в исследуемый период"
+      ],
+      "rows": [
+        [
+          "Луиза Мушикивабо",
+          "Генсек международной OIF с января 2019; переизбрана в ноябре 2022"
+        ],
+        [
+          "Клавер Гатете",
+          "Представитель Руанды при ООН; назначен главой ЭКА ООН 06.10.2023"
+        ]
+      ],
+      "widths": [
+        440,
+        708
+      ],
+      "height": 465,
+      "fontSize": 23,
+      "padding": 4
+    },
+    {
+      "kind": "text",
+      "title": "Кагаме и Рвигара в одной группе",
+      "paragraphs": [
+        "Кагаме и Диана Рвигара вошли в большой разнородный круг C4. По этим восьми свойствам у них нет профиля двух малых крайних групп.",
+        "Состав C4 не означает общей программы. Президентская власть и критика действующей власти остаются принципиально разными политическими ролями.",
+        "Карта публичных акцентов помогает сравнивать речь, но не заменяет анализ институтов и политических отношений."
+      ]
+    },
+    {
+      "kind": "text",
+      "title": "Политическое влияние",
+      "paragraphs": [
+        "Политический вес связан с полномочиями и доступом к государственным решениям, а не с количеством участников кластера.",
+        "Президентская и правительственные должности дают иной ресурс, чем международная дипломатическая роль или публичная критика.",
+        "Малый размер группы не доказывает слабого влияния. Поддержка избирателей, сети и реальные результаты здесь отдельно не измерялись."
+      ]
+    },
+    {
+      "kind": "chart",
+      "title": "Дополнительная карта соседства политиков",
+      "chart": {
+        "type": "scatter",
+        "config": {
+          "series": [
+            {
+              "name": "C1",
+              "xValues": [
+                -3.05481696,
+                -3.00121331
+              ],
+              "values": [
+                10.57779026,
+                10.62193108
+              ],
+              "categories": [
+                "Бизимана",
+                "Фазиль Хареримана"
+              ],
+              "marker": {
+                "symbol": "circle",
+                "size": 7,
+                "fill": "#B56A19"
+              },
+              "line": {
+                "fill": "none",
+                "width": 0
+              },
+              "dataLabels": {
+                "showValue": false,
+                "showCategoryName": false,
+                "textStyle": {
+                  "fontSize": 13,
+                  "fill": "#142B35"
+                }
+              },
+              "dataLabelOverrides": [
+                {
+                  "idx": 0,
+                  "text": "Бизимана",
+                  "showValue": false,
+                  "showCategoryName": true,
+                  "position": "right"
+                }
+              ]
+            },
+            {
+              "name": "C2",
+              "xValues": [
+                1.76930225,
+                2.86159253,
+                1.48007822,
+                0.70826137,
+                -0.00981931,
+                2.38794684,
+                3.20203304,
+                -0.25531989,
+                2.6407423,
+                1.45419621
+              ],
+              "values": [
+                11.94225883,
+                8.53226757,
+                12.13284779,
+                11.7990942,
+                11.35700703,
+                12.06010532,
+                9.27089882,
+                11.18034077,
+                8.65243626,
+                10.86563587
+              ],
+              "categories": [
+                "Нгиренте",
+                "Мурасира",
+                "Угирасебуджа",
+                "Мурангва",
+                "Ндагиджимана",
+                "Ингабире",
+                "Нсанзимана",
+                "Акаманзи",
+                "Рубингиса",
+                "Ругвабиза"
+              ],
+              "marker": {
+                "symbol": "circle",
+                "size": 7,
+                "fill": "#147B79"
+              },
+              "line": {
+                "fill": "none",
+                "width": 0
+              },
+              "dataLabels": {
+                "showValue": false,
+                "showCategoryName": false,
+                "textStyle": {
+                  "fontSize": 13,
+                  "fill": "#142B35"
+                }
+              },
+              "dataLabelOverrides": [
+                {
+                  "idx": 0,
+                  "text": "Нгиренте",
+                  "showValue": false,
+                  "showCategoryName": true,
+                  "position": "right"
+                },
+                {
+                  "idx": 6,
+                  "text": "Нсанзимана",
+                  "showValue": false,
+                  "showCategoryName": true,
+                  "position": "right"
+                },
+                {
+                  "idx": 7,
+                  "text": "Акаманзи",
+                  "showValue": false,
+                  "showCategoryName": true,
+                  "position": "right"
+                },
+                {
+                  "idx": 9,
+                  "text": "Ругвабиза",
+                  "showValue": false,
+                  "showCategoryName": true,
+                  "position": "right"
+                }
+              ]
+            },
+            {
+              "name": "C3",
+              "xValues": [
+                4.10400534,
+                4.77439213
+              ],
+              "values": [
+                4.01410294,
+                4.6948781
+              ],
+              "categories": [
+                "Хабинеза",
+                "Ингабире Умухоза"
+              ],
+              "marker": {
+                "symbol": "circle",
+                "size": 7,
+                "fill": "#8250A7"
+              },
+              "line": {
+                "fill": "none",
+                "width": 0
+              },
+              "dataLabels": {
+                "showValue": false,
+                "showCategoryName": false,
+                "textStyle": {
+                  "fontSize": 13,
+                  "fill": "#142B35"
+                }
+              },
+              "dataLabelOverrides": [
+                {
+                  "idx": 0,
+                  "text": "Хабинеза",
+                  "showValue": false,
+                  "showCategoryName": true,
+                  "position": "right"
+                },
+                {
+                  "idx": 1,
+                  "text": "Ингабире Умухоза",
+                  "showValue": false,
+                  "showCategoryName": true,
+                  "position": "top"
+                }
+              ]
+            },
+            {
+              "name": "C4",
+              "xValues": [
+                2.45900917,
+                -1.97606993,
+                -2.6079042,
+                -0.77773267,
+                -2.3230176,
+                1.435045,
+                0.64047462,
+                0.98246861,
+                -1.75293791,
+                1.62162161,
+                0.073515,
+                1.48060346,
+                -3.1957047,
+                -0.23832101,
+                0.43246189,
+                2.67982936,
+                -3.10599637,
+                -3.24418664,
+                -0.78374362,
+                3.16002178,
+                2.1990993,
+                -2.94442773,
+                -1.02277887
+              ],
+              "values": [
+                1.90828681,
+                6.0741396,
+                5.46259785,
+                5.43640184,
+                1.88288546,
+                2.73262382,
+                6.58998775,
+                7.67031002,
+                5.25404406,
+                6.88712597,
+                7.00811481,
+                7.78613997,
+                2.68197036,
+                6.13212585,
+                5.85627604,
+                2.7080121,
+                2.59957147,
+                5.83841658,
+                6.70749331,
+                3.3362577,
+                2.70226908,
+                6.43349695,
+                6.06414175
+              ],
+              "categories": [
+                "Кагаме",
+                "Нсенгийюмва",
+                "Бирута",
+                "Ндухунгирехе",
+                "Кабаребе",
+                "Маризамунда",
+                "Увизейе",
+                "Увамария",
+                "д’Арк Муджавамария",
+                "Мукешимана",
+                "Мусафири",
+                "Мусабийимана",
+                "Гатаре",
+                "Казарва",
+                "Мукабалиса",
+                "Калинда",
+                "Иямуремье",
+                "Мукабарамба",
+                "Дусенгийюмва",
+                "Мпайимана",
+                "Рвигара",
+                "Мушикивабо",
+                "Гатете"
+              ],
+              "marker": {
+                "symbol": "circle",
+                "size": 7,
+                "fill": "#3E6A9B"
+              },
+              "line": {
+                "fill": "none",
+                "width": 0
+              },
+              "dataLabels": {
+                "showValue": false,
+                "showCategoryName": false,
+                "textStyle": {
+                  "fontSize": 13,
+                  "fill": "#142B35"
+                }
+              },
+              "dataLabelOverrides": [
+                {
+                  "idx": 0,
+                  "text": "Кагаме",
+                  "showValue": false,
+                  "showCategoryName": true,
+                  "position": "right"
+                },
+                {
+                  "idx": 1,
+                  "text": "Нсенгийюмва",
+                  "showValue": false,
+                  "showCategoryName": true,
+                  "position": "right"
+                },
+                {
+                  "idx": 2,
+                  "text": "Бирута",
+                  "showValue": false,
+                  "showCategoryName": true,
+                  "position": "right"
+                },
+                {
+                  "idx": 3,
+                  "text": "Ндухунгирехе",
+                  "showValue": false,
+                  "showCategoryName": true,
+                  "position": "right"
+                },
+                {
+                  "idx": 4,
+                  "text": "Кабаребе",
+                  "showValue": false,
+                  "showCategoryName": true,
+                  "position": "right"
+                },
+                {
+                  "idx": 5,
+                  "text": "Маризамунда",
+                  "showValue": false,
+                  "showCategoryName": true,
+                  "position": "bottom"
+                },
+                {
+                  "idx": 19,
+                  "text": "Мпайимана",
+                  "showValue": false,
+                  "showCategoryName": true,
+                  "position": "right"
+                },
+                {
+                  "idx": 20,
+                  "text": "Рвигара",
+                  "showValue": false,
+                  "showCategoryName": true,
+                  "position": "top"
+                },
+                {
+                  "idx": 21,
+                  "text": "Мушикивабо",
+                  "showValue": false,
+                  "showCategoryName": true,
+                  "position": "right"
+                }
+              ]
+            }
+          ],
+          "scatterOptions": {
+            "style": "marker"
+          },
+          "hasLegend": true,
+          "legend": {
+            "position": "top",
+            "textStyle": {
+              "fontSize": 17
+            }
+          },
+          "xAxis": {
+            "title": {
+              "text": "Направление 1",
+              "textStyle": {
+                "fontSize": 19
+              }
+            },
+            "min": -3.8941866397857665,
+            "max": 5.424392127990723,
+            "numberFormatCode": "0.0",
+            "textStyle": {
+              "fontSize": 14,
+              "fill": "#56656E"
+            },
+            "majorGridlines": {
+              "fill": "#E3E9ED",
+              "width": 0.6
+            }
+          },
+          "yAxis": {
+            "title": {
+              "text": "Направление 2",
+              "textStyle": {
+                "fontSize": 19
+              }
+            },
+            "min": 1.2328854560852052,
+            "max": 12.782847785949707,
+            "numberFormatCode": "0.0",
+            "textStyle": {
+              "fontSize": 14,
+              "fill": "#56656E"
+            },
+            "majorGridlines": {
+              "fill": "#E3E9ED",
+              "width": 0.6
+            }
+          }
+        }
+      },
+      "caption": "Оси этой карты не имеют политического смысла. Она помогает рассмотреть соседство профилей.",
+      "notes": "{\"method\": \"t-SNE\", \"seed\": 20261015, \"perplexity\": 12.0, \"init\": \"pca\", \"iterations\": 1000, \"input_dimensions\": 3, \"coordinates\": [[2.4590091705322266, 1.9082868099212646], [1.769302248954773, 11.942258834838867], [-1.9760699272155762, 6.074139595031738], [-2.6079041957855225, 5.462597846984863], [-0.7777326703071594, 5.436401844024658], [-2.3230175971984863, 1.882885456085205], [1.4350450038909912, 2.732623815536499], [2.8615925312042236, 8.532267570495605], [1.4800782203674316, 12.132847785949707], [0.7082613706588745, 11.799094200134277], [-0.009819313883781433, 11.357007026672363], [2.387946844100952, 12.060105323791504], [3.202033042907715, 9.270898818969727], [0.6404746174812317, 6.589987754821777], [0.9824686050415039, 7.670310020446777], [-1.752937912940979, 5.254044055938721], [1.6216216087341309, 6.8871259689331055], [0.07351499795913696, 7.008114814758301], [1.4806034564971924, 7.786139965057373], [-3.054816961288452, 10.577790260314941], [-0.25531989336013794, 11.180340766906738], [-3.195704698562622, 2.6819703578948975], [-0.23832100629806519, 6.1321258544921875], [0.4324618875980377, 5.856276035308838], [2.6798293590545654, 2.708012104034424], [-3.1059963703155518, 2.599571466445923], [-3.2441866397857666, 5.838416576385498], [-3.001213312149048, 10.621931076049805], [2.640742301940918, 8.652436256408691], [-0.7837436199188232, 6.707493305206299], [4.104005336761475, 4.014102935791016], [3.1600217819213867, 3.3362576961517334], [4.774392127990723, 4.694878101348877], [2.19909930229187, 2.7022690773010254], [-2.944427728652954, 6.433496952056885], [-1.022778868675232, 6.064141750335693], [1.4541962146759033, 10.865635871887207]]}"
+    },
+    {
+      "kind": "text",
+      "title": "Отношения с Россией",
+      "paragraphs": [
+        "Дипломатическое и отраслевое сотрудничество может сочетаться с критикой конкретных внешнеполитических действий.",
+        "Для понимания позиции важны точное высказывание, дата и роль говорящего. Действие министра и речь главы международной организации имеют разный статус.",
+        "Следующие примеры относятся к названным людям и эпизодам. Они не задают общую позицию всей группы."
+      ]
+    },
+    {
+      "kind": "quote",
+      "title": "Сотрудничество и несогласие могут сочетаться",
+      "quote": "продолжать тесно работать с Россией",
+      "attribution": "Венсан Бирута, 2023-06-12. Перевод ассистента с французской публикации",
+      "body": "Бирута обсуждает образование, безопасность и отраслевые связи с Россией; по Украине объясняет позицию принципами суверенитета. Это разные направления политики, а не взаимоисключающие ярлыки.",
+      "sources": [
+        "https://rwandaises.com/2023/06/la-russie-et-le-rwanda-sengagent-a-renforcer-les-liens-diplomatiques-existants/",
+        "https://www.topafricanews.com/2022/03/31/washington-here-are-q-a-from-dr-vincent-biruta-and-dr-mujawamariya-about-geopolitical-and-climate-issues/"
+      ]
+    },
+    {
+      "kind": "quote",
+      "title": "Кагаме: принцип невторжения и нейтралитет",
+      "quote": "мы не можем поддержать вторжение",
+      "attribution": "Поль Кагаме, 2023-09-12. Перевод ассистента на русский",
+      "body": "В одном интервью он отвергает поддержку вторжения и отказывается выбирать сторону конфликта. В отдельном выступлении защищает право Африки самостоятельно выбирать внешних партнёров.",
+      "sources": [
+        "https://www.newtimes.co.rw/article/10916/news/politics/kagame-the-problem-is-not-between-me-and-tshisekedi/amp",
+        "https://www.paulkagame.rw/president-kagame-visits-benin-cotonou-15-17-april-2023/"
+      ]
+    },
+    {
+      "kind": "text",
+      "title": "Что подтверждено практически",
+      "paragraphs": [
+        "Ндухунгирехе: визовое соглашение для служебных категорий и переговоры об энергетике и кадрах. Нсанзимана: медицинский меморандум. Маризамунда: участие в оборонном диалоге.",
+        "Подписание и обсуждение отличаются от выполненного проекта; собственные слова не заменяются текстом ведомства."
+      ],
+      "sources": [
+        "https://t.me/rusembrwanda/129",
+        "https://mid.ru/ru/foreign_policy/news/2067378/",
+        "https://t.me/rusembrwanda/396",
+        "https://www.mod.gov.rw/docs-media/news-detail/rrdf-hosts-the-7th-meeting-of-the-rwanda-russia-joint-commission-on-military-technical-cooperation",
+        "https://t.me/minzdrav_ru/14879"
+      ]
+    },
+    {
+      "kind": "quote",
+      "title": "Мушикивабо: прямое заявление в роли OIF",
+      "quote": "военная агрессия Российской Федерации",
+      "attribution": "Луиза Мушикивабо, генеральный секретарь OIF, 2023-02-24. Перевод ассистента на русский",
+      "body": "Именной текст OIF прямо квалифицирует российское нападение и выражает солидарность с украинским населением. Она выступает как глава OIF, а не от имени правительства Руанды.",
+      "sources": [
+        "https://www.francophonie.org/la-secretaire-generale-de-la-francophonie-demeure-extremement-preoccupee-par-la-persistance-de-2636"
+      ]
+    },
+    {
+      "kind": "quote",
+      "title": "Муджавамария о голосовании по Украине",
+      "quote": "Мы не воздержались",
+      "attribution": "Жанна д’Арк Муджавамария, 2022-03-30. Перевод ассистента на русский",
+      "body": "В публичном ответе она сама разъясняет голосование Руанды. Это конкретный эпизод собственной речи, который не даёт общей позиции о санкциях или разрыве сотрудничества.",
+      "sources": [
+        "https://www.topafricanews.com/2022/03/31/washington-here-are-q-a-from-dr-vincent-biruta-and-dr-mujawamariya-about-geopolitical-and-climate-issues/"
+      ]
+    },
+    {
+      "kind": "quote",
+      "title": "Ндухунгирехе об энергетике и подготовке кадров",
+      "quote": "Руанде нужна ядерная энергия",
+      "attribution": "Оливье Ндухунгирехе, 2024-11-09. Перевод ассистента на русский",
+      "body": "В интервью AFP министр говорит о потребности в ядерной энергии и российской подготовке специалистов. Заявленное намерение не означает, что АЭС уже построена или работает.",
+      "sources": [
+        "https://www.themoscowtimes.com/2024/11/09/rwanda-counting-on-russia-to-train-nuclear-power-specialists-a86964"
+      ]
+    },
+    {
+      "kind": "table",
+      "title": "Справочник участников 1–4",
+      "headers": [
+        "Имя",
+        "Должность и период",
+        "Краткая справка"
+      ],
+      "rows": [
+        [
+          "Поль Кагаме",
+          "Президент; инаугурация на новый пятилетний срок 11.08.2024",
+          "Центральный участник президентской и государственной политики; его позиция не заменяет взгляды всего населения."
+        ],
+        [
+          "Эдуар Нгиренте",
+          "Премьер-министр; передал полномочия преемнику 25.07.2025",
+          "Представляет руководство правительством до смены премьера в 2025 году."
+        ],
+        [
+          "Жюстен Нсенгийюмва",
+          "Премьер-министр: назначен 23.07.2025; принёс присягу 25.07.2025",
+          "Позволяет учесть смену главы правительства внутри исследуемого периода."
+        ],
+        [
+          "Венсан Бирута",
+          "Глава МИД в апреле 2024; министр внутренних дел в августе 2024",
+          "Два разных портфеля требуют различать даты и служебный контекст его выступлений."
+        ]
+      ],
+      "widths": [
+        270,
+        355,
+        523
+      ],
+      "height": 470,
+      "fontSize": 23,
+      "padding": 5,
+      "caption": "Должности указаны для исторического периода. Пять участников пока не размещены на картах.",
+      "sources": [
+        "https://www.rwandainghana.gov.rw/actualites/info-details/president-kagame-sworn-in-for-a-five-year-term",
+        "https://www.hrw.org/news/2024/06/14/rwanda-respect-rights-during-elections",
+        "https://www.primature.gov.rw/index.php?eID=dumpFile&f=120236&t=f&token=7de66acf7742c515b4ac9071f0ea51fa31d4451e",
+        "https://www.primature.gov.rw/about",
+        "https://primature.prod.risa.rw/news-detail/pm-nsengiyumva-officially-sworn-in-as-prime-minister",
+        "https://www.primature.gov.rw/about",
+        "https://primature.prod.risa.rw/news-detail/pm-nsengiyumva-officially-sworn-in-as-prime-minister",
+        "https://www.minaffet.gov.rw/updates/news/page?cHash=764ee7520c0d7693c560332fdd905b60&tx_news_pi1%5BcurrentPage%5D=17",
+        "https://www.primature.gov.rw/index.php?eID=dumpFile&f=103921&t=f&token=674c3d927f1443e0309c38a0fffb76c2e7e273c3"
+      ]
+    },
+    {
+      "kind": "table",
+      "title": "Справочник участников 5–8",
+      "headers": [
+        "Имя",
+        "Должность и период",
+        "Краткая справка"
+      ],
+      "rows": [
+        [
+          "Оливье Ндухунгирехе",
+          "Министр иностранных дел в составе правительства от 16.08.2024",
+          "Представляет публичную дипломатию Руанды в датированной государственной роли."
+        ],
+        [
+          "Джеймс Кабаребе",
+          "Государственный министр регионального сотрудничества: с 04.10.2023",
+          "Добавляет к общей внешней политике уровень регионального сотрудничества."
+        ],
+        [
+          "Жювеналь Маризамунда",
+          "Министр обороны: принял полномочия 07.06.2023; подтверждён в 2024",
+          "Представляет оборонное ведомство; сам пост не определяет содержание его взглядов."
+        ],
+        [
+          "Альбер Мурасира",
+          "Министр обороны в 2021; министр чрезвычайных ситуаций в августе 2024",
+          "Соединяет в биографии оборонное управление и гражданскую защиту, в разные годы."
+        ]
+      ],
+      "widths": [
+        270,
+        355,
+        523
+      ],
+      "height": 470,
+      "fontSize": 23,
+      "padding": 5,
+      "caption": "Должности указаны для исторического периода. Пять участников пока не размещены на картах.",
+      "sources": [
+        "https://www.primature.gov.rw/index.php?eID=dumpFile&f=103921&t=f&token=674c3d927f1443e0309c38a0fffb76c2e7e273c3",
+        "https://www.minaffet.gov.rw/updates/news-details/prof-manasseh-hands-over-to-gen-rtd-kabarebe",
+        "https://www.mod.gov.rw/docs-media/news-detail/newly-appointed-minister-of-defence-assumes-responsibilities",
+        "https://www.primature.gov.rw/index.php?eID=dumpFile&f=103921&t=f&token=674c3d927f1443e0309c38a0fffb76c2e7e273c3",
+        "https://www.primature.gov.rw/index.php?eID=dumpFile&f=103921&t=f&token=674c3d927f1443e0309c38a0fffb76c2e7e273c3",
+        "https://www.mod.gov.rw/docs-media/news-detail/rwanda-defence-minister-addresses-un-peacekeeping-ministerial-conference-in-seoul-2"
+      ]
+    },
+    {
+      "kind": "table",
+      "title": "Справочник участников 9–12",
+      "headers": [
+        "Имя",
+        "Должность и период",
+        "Краткая справка"
+      ],
+      "rows": [
+        [
+          "Эмманюэль Угирасебуджа",
+          "Министр юстиции и Attorney General: подтверждён в 2022 и августе 2024",
+          "Представляет правовое направление государственной политики и юридическое управление."
+        ],
+        [
+          "Юсуф Мурангва",
+          "Министр финансов и экономического планирования: назначение 12.06.2024",
+          "Представляет финансово-экономический портфель после смены министра в 2024 году."
+        ],
+        [
+          "Уззиэль Ндагиджимана",
+          "Министр финансов и экономического планирования до 12.06.2024",
+          "Позволяет учесть бюджетную и экономическую повестку до смены руководителя ведомства."
+        ],
+        [
+          "Паула Ингабире",
+          "Министр ИКТ и инноваций в составе правительства от 16.08.2024",
+          "Представляет цифровое и технологическое направление государственной политики."
+        ]
+      ],
+      "widths": [
+        270,
+        355,
+        523
+      ],
+      "height": 470,
+      "fontSize": 23,
+      "padding": 5,
+      "caption": "Должности указаны для исторического периода. Пять участников пока не размещены на картах.",
+      "sources": [
+        "https://www.minijust.gov.rw/news-detail/minister-of-justice-attorney-general-met-with-government-legal-advisors",
+        "https://www.primature.gov.rw/index.php?eID=dumpFile&f=103921&t=f&token=674c3d927f1443e0309c38a0fffb76c2e7e273c3",
+        "https://www.minecofin.gov.rw/news-detail/96-of-rwandans-are-financially-included-finscope-survey-2024",
+        "https://www.eadb.org/site/assets/files/2279/2024_annual_report.pdf",
+        "https://www.eadb.org/site/assets/files/2279/2024_annual_report.pdf",
+        "https://www.primature.gov.rw/index.php?eID=dumpFile&f=103921&t=f&token=674c3d927f1443e0309c38a0fffb76c2e7e273c3"
+      ]
+    },
+    {
+      "kind": "table",
+      "title": "Справочник участников 13–16",
+      "headers": [
+        "Имя",
+        "Должность и период",
+        "Краткая справка"
+      ],
+      "rows": [
+        [
+          "Сабин Нсанзимана",
+          "Министр здравоохранения: датированное выступление 13.02.2023",
+          "Его публичные выступления дают материал о здравоохранении и готовности к эпидемиям."
+        ],
+        [
+          "Жюдит Увизейе",
+          "Министр в канцелярии президента: состав правительства 16.08.2024",
+          "Представляет уровень президентской администрации; взгляды устанавливаются отдельно по собственным заявлениям."
+        ],
+        [
+          "Инес Мпамбара",
+          "Министр в канцелярии премьера: с 26.02.2020, подтверждение в 2024",
+          "Представляет аппарат координации правительственной работы в исследуемом окне."
+        ],
+        [
+          "Валентин Увамария",
+          "Министр окружающей среды: состав правительства от 16.08.2024",
+          "Включена для охвата экологической и климатической повестки государственного управления."
+        ]
+      ],
+      "widths": [
+        270,
+        355,
+        523
+      ],
+      "height": 470,
+      "fontSize": 23,
+      "padding": 5,
+      "caption": "Должности указаны для исторического периода. Пять участников пока не размещены на картах.",
+      "sources": [
+        "https://www.moh.gov.rw/news-detail/rwanda-who-join-forces-to-boost-epidemic-preparedness",
+        "https://www.primature.gov.rw/index.php?eID=dumpFile&f=103921&t=f&token=674c3d927f1443e0309c38a0fffb76c2e7e273c3",
+        "https://www.primature.gov.rw/about",
+        "https://www.primature.gov.rw/index.php?eID=dumpFile&f=103921&t=f&token=674c3d927f1443e0309c38a0fffb76c2e7e273c3",
+        "https://www.primature.gov.rw/index.php?eID=dumpFile&f=103921&t=f&token=674c3d927f1443e0309c38a0fffb76c2e7e273c3"
+      ]
+    },
+    {
+      "kind": "table",
+      "title": "Справочник участников 17–20",
+      "headers": [
+        "Имя",
+        "Должность и период",
+        "Краткая справка"
+      ],
+      "rows": [
+        [
+          "Жанна д’Арк Муджавамария",
+          "Экологический портфель в 2022–2024; госслужба и труд в июне 2024",
+          "Смена портфеля не означает, что июньская должность сохранялась до конца окна."
+        ],
+        [
+          "Жерардин Мукешимана",
+          "Министр сельского хозяйства и животноводства: подтверждение 01.12.2022",
+          "Представляет аграрное направление государственной политики в первой части окна."
+        ],
+        [
+          "Ильдефонс Мусафири",
+          "Аграрный министр: назначение 02.03.2023, подтверждён в августе 2024",
+          "Позволяет учесть аграрное управление после смены руководителя ведомства."
+        ],
+        [
+          "Жан-Клод Мусабийимана",
+          "Министр местного самоуправления: подтверждён в декабре 2023 и 2024",
+          "Представляет связь центрального правительства с территориальным управлением."
+        ]
+      ],
+      "widths": [
+        270,
+        355,
+        523
+      ],
+      "height": 470,
+      "fontSize": 23,
+      "padding": 5,
+      "caption": "Должности указаны для исторического периода. Пять участников пока не размещены на картах.",
+      "sources": [
+        "https://www.mifotra.gov.rw/news-detail/handover-ceremony-of-new-minister-of-mifotra-hon-dr-jeanne-darc-mujawamariya",
+        "https://www.minagri.gov.rw/updates/news/page?cHash=49ecfd44c04f184493dc7133cc4ed740&tx_news_pi1%5BcurrentPage%5D=6",
+        "https://www.minagri.gov.rw/updates/news/page?cHash=49ecfd44c04f184493dc7133cc4ed740&tx_news_pi1%5BcurrentPage%5D=6",
+        "https://www.primature.gov.rw/index.php?eID=dumpFile&f=103921&t=f&token=674c3d927f1443e0309c38a0fffb76c2e7e273c3",
+        "https://www.kigalicity.gov.rw/news-detail/dusengiyumva-samuel-sworn-in-as-the-new-city-of-kigali-mayor",
+        "https://www.primature.gov.rw/index.php?eID=dumpFile&f=103921&t=f&token=674c3d927f1443e0309c38a0fffb76c2e7e273c3"
+      ]
+    },
+    {
+      "kind": "table",
+      "title": "Справочник участников 21–24",
+      "headers": [
+        "Имя",
+        "Должность и период",
+        "Краткая справка"
+      ],
+      "rows": [
+        [
+          "Жан-Дамасен Бизимана",
+          "Министр национального единства и гражданской активности в августе 2024",
+          "Включён для охвата публичной повестки памяти, национального единства и гражданского участия."
+        ],
+        [
+          "Клэр Акаманзи",
+          "Руководитель RDB до сентября 2023; назначение в NBA Africa — 2024",
+          "Прежняя государственная работа и последующая деловая роль в NBA Africa рассматриваются раздельно."
+        ],
+        [
+          "Франсис Гатаре",
+          "Руководитель Rwanda Development Board: назначение 27.09.2023",
+          "Представляет институт продвижения инвестиций; должность не продлевается автоматически до конца окна."
+        ],
+        [
+          "Гертруда Казарва",
+          "Спикер Палаты депутатов: избрана 14.08.2024 на новый созыв",
+          "Представляет руководство нижней палаты нового созыва, а не весь спектр парламентских позиций."
+        ]
+      ],
+      "widths": [
+        270,
+        355,
+        523
+      ],
+      "height": 470,
+      "fontSize": 23,
+      "padding": 5,
+      "caption": "Должности указаны для исторического периода. Пять участников пока не размещены на картах.",
+      "sources": [
+        "https://www.primature.gov.rw/index.php?eID=dumpFile&f=103921&t=f&token=674c3d927f1443e0309c38a0fffb76c2e7e273c3",
+        "https://documents1.worldbank.org/curated/en/099053024072067506/pdf/P2523501b4222a08919ccf1c337cb47a5bb.pdf",
+        "https://pr.nba.com/clare-akamanzi-ceo-nba-africa/",
+        "https://documents1.worldbank.org/curated/en/099053024072067506/pdf/P2523501b4222a08919ccf1c337cb47a5bb.pdf",
+        "https://www.parliament.gov.rw/about-1"
+      ]
+    },
+    {
+      "kind": "table",
+      "title": "Справочник участников 25–28",
+      "headers": [
+        "Имя",
+        "Должность и период",
+        "Краткая справка"
+      ],
+      "rows": [
+        [
+          "Донатиль Мукабалиса",
+          "Спикер Палаты депутатов в предыдущем созыве: подтверждение 12.09.2023",
+          "Позволяет учесть руководство предыдущего парламентского созыва внутри пятилетнего окна."
+        ],
+        [
+          "Франсуа-Ксавье Калинда",
+          "Глава Сената с 09.01.2023; избран на следующий срок 26.09.2024",
+          "Представляет руководство верхней палаты на двух последовательных этапах окна."
+        ],
+        [
+          "Огюстен Иямуремье",
+          "Председатель Сената в начале окна: роль до 09.12.2022",
+          "Позволяет учесть предшествующее руководство Сената, действовавшее в начале окна."
+        ],
+        [
+          "Альвера Мукабарамба",
+          "Вице-президент Сената: избрана в руководство 26.09.2024",
+          "Представляет руководство верхней палаты; факт избрания не заменяет собственной программы."
+        ]
+      ],
+      "widths": [
+        270,
+        355,
+        523
+      ],
+      "height": 470,
+      "fontSize": 23,
+      "padding": 5,
+      "caption": "Должности указаны для исторического периода. Пять участников пока не размещены на картах.",
+      "sources": [
+        "https://www.parliament.gov.rw/updates/news/page?cHash=1a73af6616bebe583f8e229a45ea6028&tx_news_pi1%5BcurrentPage%5D=31",
+        "https://www.parliament.gov.rw/about-1",
+        "https://data.ipu.org/fr/parliament/RW/RW-UC01/",
+        "https://www.rwandaincongo.gov.rw/actualites/info-details/dr-kalinda-reconduit-a-la-presidence-du-senat-rwandais"
+      ]
+    },
+    {
+      "kind": "table",
+      "title": "Справочник участников 29–32",
+      "headers": [
+        "Имя",
+        "Должность и период",
+        "Краткая справка"
+      ],
+      "rows": [
+        [
+          "Мусса Фазиль Хареримана",
+          "Заместитель спикера Палаты депутатов: подтверждение 12.09.2023",
+          "Добавляет к фигуре спикера другой уровень руководства нижней палаты."
+        ],
+        [
+          "Пуденс Рубингиса",
+          "Мэр Кигали, затем губернатор Восточной провинции в декабре 2023",
+          "Его переход между столицей и провинцией отражает два уровня территориального управления."
+        ],
+        [
+          "Самуэль Дусенгийюмва",
+          "Мэр столицы Кигали: избран на эту должность 15.12.2023",
+          "Представляет управление столицей; городская повестка не приравнивается к повестке всех регионов."
+        ],
+        [
+          "Франк Хабинеза",
+          "Лидер Демократической зелёной партии; кандидат в президенты в 2024",
+          "Представляет допущенную партийную альтернативу и собственные программные предложения."
+        ]
+      ],
+      "widths": [
+        270,
+        355,
+        523
+      ],
+      "height": 470,
+      "fontSize": 23,
+      "padding": 5,
+      "caption": "Должности указаны для исторического периода. Пять участников пока не размещены на картах.",
+      "sources": [
+        "https://www.parliament.gov.rw/updates/news/page?cHash=1a73af6616bebe583f8e229a45ea6028&tx_news_pi1%5BcurrentPage%5D=31",
+        "https://www.kigalicity.gov.rw/news-detail/dusengiyumva-samuel-sworn-in-as-the-new-city-of-kigali-mayor",
+        "https://www.easternprovince.gov.rw/ibindi/guverineri-rubingisa-yatangiye-inshingano-yizeza-ubufatanye-mu-kwihutisha-iterambere-rishingiye-ku-muturage",
+        "https://www.kigalicity.gov.rw/news-detail/dusengiyumva-samuel-sworn-in-as-the-new-city-of-kigali-mayor",
+        "https://www.hrw.org/news/2024/06/14/rwanda-respect-rights-during-elections",
+        "https://www.amnesty.org/ar/wp-content/uploads/2024/07/AFR4782752024ENGLISH.pdf"
+      ]
+    },
+    {
+      "kind": "table",
+      "title": "Справочник участников 33–36",
+      "headers": [
+        "Имя",
+        "Должность и период",
+        "Краткая справка"
+      ],
+      "rows": [
+        [
+          "Филипп Мпайимана",
+          "Независимый кандидат, допущенный к президентским выборам 2024 года",
+          "Независимый статус означает форму выдвижения, а не оппозиционность всех его взглядов."
+        ],
+        [
+          "Виктуар Ингабире Умухоза",
+          "Руководительница DALFA-Umurinzi; добивалась участия в выборах 2024",
+          "Представляет политическую альтернативу за пределами списка допущенных кандидатов."
+        ],
+        [
+          "Диана Рвигара",
+          "Независимая претендентка на президентских выборах 2024; не допущена",
+          "Представляет часть публичного пространства вне допущенной президентской конкуренции."
+        ],
+        [
+          "Бернар Нтаганда",
+          "Основатель PS-Imberakuri; отказ в судебной реабилитации в мае 2024",
+          "Не отождествляется с другой фракцией того же названия, участвовавшей в официальных выборах."
+        ]
+      ],
+      "widths": [
+        270,
+        355,
+        523
+      ],
+      "height": 470,
+      "fontSize": 23,
+      "padding": 5,
+      "caption": "Должности указаны для исторического периода. Пять участников пока не размещены на картах.",
+      "sources": [
+        "https://www.hrw.org/news/2024/06/14/rwanda-respect-rights-during-elections",
+        "https://www.hrw.org/news/2024/06/14/rwanda-respect-rights-during-elections",
+        "https://www.amnesty.org/ar/wp-content/uploads/2024/07/AFR4782752024ENGLISH.pdf",
+        "https://www.hrw.org/news/2024/06/14/rwanda-respect-rights-during-elections",
+        "https://www.amnesty.org/ar/wp-content/uploads/2024/07/AFR4782752024ENGLISH.pdf"
+      ]
+    },
+    {
+      "kind": "table",
+      "title": "Справочник участников 37–40",
+      "headers": [
+        "Имя",
+        "Должность и период",
+        "Краткая справка"
+      ],
+      "rows": [
+        [
+          "Кристофер Каюмба",
+          "Основатель Rwandese Platform for Democracy; публичная роль в 2023–2024",
+          "Категория отбора не предполагает неизменную оппозиционность его высказываний за все пять лет."
+        ],
+        [
+          "Поль Русесабагина",
+          "Критик правительства; освобождён в марте 2023, давал интервью в 2024",
+          "Представляет транснациональную политическую дискуссию; известность за рубежом не измеряет поддержку дома."
+        ],
+        [
+          "Фостен Каюмба Ньямваса",
+          "Бывший глава военного штаба; сооснователь RNC в эмиграции — срез 2023",
+          "Представляет эмигрантскую политическую организацию; военная биография не задаёт текущие взгляды."
+        ],
+        [
+          "Луиза Мушикивабо",
+          "Генсек международной OIF с января 2019; переизбрана в ноябре 2022",
+          "Действия в OIF относятся к её международному мандату, а не автоматически к позиции правительства Руанды."
+        ]
+      ],
+      "widths": [
+        270,
+        355,
+        523
+      ],
+      "height": 470,
+      "fontSize": 23,
+      "padding": 5,
+      "caption": "Должности указаны для исторического периода. Пять участников пока не размещены на картах.",
+      "sources": [
+        "https://www.hrw.org/news/2024/06/14/rwanda-respect-rights-during-elections",
+        "https://www.amnesty.org/ar/wp-content/uploads/2024/07/AFR4782752024ENGLISH.pdf",
+        "https://www.newtimes.co.rw/article/35672/opinions/rdf-is-a-peoples-army-deserving-a-nobel-peace-prize-not-sanctions/amp",
+        "https://www.hrw.org/world-report/2024/country-chapters/rwanda",
+        "https://www.hrw.org/report/2023/10/10/join-us-or-die/rwandas-extraterritorial-repression",
+        "https://www.wlrn.org/npr-breaking-news/2024-04-15/his-story-inspired-hotel-rwanda-now-hes-speaking-out-against-the-government",
+        "https://www.hrw.org/report/2023/10/10/join-us-or-die/rwandas-extraterritorial-repression",
+        "https://www.francophonie.org/louise-mushikiwabo-2894"
+      ]
+    },
+    {
+      "kind": "table",
+      "title": "Справочник участников 41–42",
+      "headers": [
+        "Имя",
+        "Должность и период",
+        "Краткая справка"
+      ],
+      "rows": [
+        [
+          "Клавер Гатете",
+          "Представитель Руанды при ООН; назначен главой ЭКА ООН 06.10.2023",
+          "Национальная дипломатическая роль отделяется от последующей работы в международной структуре ООН."
+        ],
+        [
+          "Валентин Ругвабиза",
+          "Представитель Руанды при ООН; назначена главой MINUSCA 23.02.2022",
+          "Руководство миссией ООН в ЦАР не означает выражения национальной внешней политики Руанды."
+        ]
+      ],
+      "widths": [
+        270,
+        355,
+        523
+      ],
+      "height": 470,
+      "fontSize": 23,
+      "padding": 5,
+      "caption": "Должности указаны для исторического периода. Пять участников пока не размещены на картах.",
+      "sources": [
+        "https://www.un.org/sg/en/sg-daily-schedules/2023-02-01",
+        "https://www.un.org/sg/en/content/sg/personnel-appointments/2023-10-06/mr-claver-gatete-of-rwanda-executive-secretary-of-the-united-nations-economic-commission-for-africa-(eca)",
+        "https://www.uneca.org/sites/default/files/documents/spord-brochure-2023_v03.pdf",
+        "https://press.un.org/en/2022/sga2101.doc.htm"
+      ]
+    },
+    {
+      "kind": "text",
+      "title": "Содержание политического пространства",
+      "paragraphs": [
+        "Общая государственная линия допускает разные формы публичного обоснования и изменения конкретных программ.",
+        "Должностные задачи помогают объяснить различие акцентов. Часть сходства может отражать особенности найденных материалов.",
+        "Группы остаются рабочей типологией. Подробные основания и источники приведены в отчёте, проверки расчётов — в отдельном техническом приложении."
+      ]
+    }
+  ],
+  "source_sha256": {
+    "selected_q3/metadata.json": "7e9aae8bf951a51994c701472c4b2269c58da8ad12f3da1f6ec255dcfa0ce0ed",
+    "selected_q3/projections.json": "2cb0759fba90fef6b4efd004f0a3c16fa4eee54874166f30cf35bd2da924f56d"
+  }
+}

@@ -296,12 +296,18 @@ def _export_docx(content, base, output):
             for index, value in enumerate(headers):
                 table.rows[0].cells[index].text = str(value)
             repeat = OxmlElement("w:tblHeader")
+            repeat.set(qn("w:val"), "true")
             table.rows[0]._tr.get_or_add_trPr().append(repeat)
             for values in rows:
                 cells = table.add_row().cells
                 for index in range(len(headers)):
                     cells[index].text = str(values[index]) if index < len(values) else ""
             for row_index, row in enumerate(table.rows):
+                # Keep each record (and its repeated header) intact across pages.
+                # Splitting a row can leave orphaned values in a continuation row.
+                cant_split = OxmlElement("w:cantSplit")
+                cant_split.set(qn("w:val"), "true")
+                row._tr.get_or_add_trPr().append(cant_split)
                 for column, cell in enumerate(row.cells):
                     cell.width = Inches(widths[column])
                     cell.vertical_alignment = WD_CELL_VERTICAL_ALIGNMENT.CENTER

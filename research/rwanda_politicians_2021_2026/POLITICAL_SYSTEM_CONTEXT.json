@@ -1,0 +1,267 @@
+{
+  "format_version": 1,
+  "title": "Политическая система Руанды: факты и контекст интерпретации публичных осей",
+  "prepared_on": "2026-10-16",
+  "period": {
+    "date_from": "2021-10-15",
+    "date_to": "2026-10-15"
+  },
+  "purpose": "Reader-facing historical context, without new ratings, cluster labels or causal identification",
+  "facts": [
+    {
+      "id": "institutions",
+      "title": "Формальное устройство",
+      "text": "Конституция 2023 года разделяет законодательную, исполнительную и судебную власть. Исполнительную власть осуществляют президент и кабинет; президент назначает премьер-министра. Парламент двухпалатный: 80 депутатов и 26 избираемых или назначаемых сенаторов. Из депутатов 53 избираются напрямую, 24 места предназначены женщинам, два — молодёжи, одно — людям с инвалидностью.",
+      "source_ids": [
+        "constitution_2023"
+      ],
+      "status": "verified_formal_rule"
+    },
+    {
+      "id": "presidency_power_sharing",
+      "title": "Президент и распределение должностей",
+      "text": "Президент — глава государства; предусмотрен пятилетний срок с одним переизбранием. Президент и спикер Палаты депутатов не могут представлять одну партию; партия парламентского большинства не может занимать более половины мест кабинета. Эти формальные правила не измеряют фактическую независимость институтов.",
+      "source_ids": [
+        "constitution_2023"
+      ],
+      "status": "verified_formal_rule"
+    },
+    {
+      "id": "election2024",
+      "title": "Выборы 2024 года и положение RPF",
+      "text": "В окончательной таблице NEC по выборам 2024 года национальный результат Кагаме — 99,18%, Хабинезы — 0,50%, Мпайиманы — 0,32%. Список FPR-Inkotanyi получил 37 из 53 напрямую избираемых мест. Это подтверждает преобладание президентского кандидата и ведущего партийного списка в официальных результатах, но не измеряет свободное распределение частных убеждений.",
+      "source_ids": [
+        "nec_final_2024"
+      ],
+      "status": "verified_official_results",
+      "numeric_caution": "99,17% в таблице относится к колонке города Кигали, а не к общенациональному результату. 37/53 нельзя представлять как 37/80 или приписывать партийность всем косвенно избранным депутатам."
+    },
+    {
+      "id": "parliament_government",
+      "title": "Роли парламента и правительства",
+      "text": "Парламент описывает свою работу как принятие законов и надзор за исполнительной властью; Сенат также контролирует соблюдение основополагающих принципов и функционирование политических организаций. В сентябре 2024 года Нгиренте представил обеим палатам пятилетнюю NST2 на 2024–2029 годы.",
+      "source_ids": [
+        "parliament_about",
+        "nst2_presentation"
+      ],
+      "status": "verified_official_roles_and_event"
+    },
+    {
+      "id": "development_agenda",
+      "title": "Развитие и социальные услуги в официальной программе",
+      "text": "При представлении NST2 правительство одновременно объявило цели экономического роста, производительных рабочих мест, частных инвестиций, образования и здравоохранения. Это разные элементы одной программы. Объявленные цели не равны фактически достигнутым результатам и не подтверждают автоматически позиции каждого министра.",
+      "source_ids": [
+        "nst2_presentation"
+      ],
+      "status": "verified_announced_programme"
+    },
+    {
+      "id": "memory_unity",
+      "title": "Память и единство как публичная президентская повестка",
+      "text": "На 30-й годовщине памяти геноцида против тутси 7 апреля 2024 года Кагаме связывал поминовение, примирение, единство и восстановление страны. Это конкретная публичная речь главы государства, а не свидетельство единогласия общества или всех участников исследования.",
+      "source_ids": [
+        "kwibuka30_kagame"
+      ],
+      "status": "verified_personal_public_speech"
+    },
+    {
+      "id": "opposition_constraints",
+      "title": "Ограничения публичной конкуренции",
+      "text": "В июне 2024 года HRW описала давление на оппозицию, журналистов и гражданское общество, а также недопуск Ингабире после отказа суда снять ограничения. В июне 2025 года организация сообщила о её новом аресте. Это независимая оценка среды публичного участия; отдельное судебное дело не доказывает программных взглядов человека.",
+      "source_ids": [
+        "hrw_elections_2024",
+        "hrw_ingabire_2025"
+      ],
+      "status": "attributed_independent_assessment"
+    }
+  ],
+  "interpretive_hypotheses": [
+    {
+      "id": "continuity_renewal",
+      "title": "Почему может проявиться ось преемственности и обновления",
+      "text": "При сильном президентском центре и общей программе развития одни публичные выступления могут подчёркивать достигнутые результаты и сохранение курса, другие — конкретные изменения правил и услуг. Эти акценты способны различать и представителей одной институциональной среды. Поддержка курса и предложение реформы не обязательно исключают друг друга.",
+      "based_on_fact_ids": [
+        "presidency_power_sharing",
+        "election2024",
+        "development_agenda"
+      ],
+      "epistemic_status": "contextual_explanatory_hypothesis_not_causal_test",
+      "test_needed": "Сопоставить реальные нагрузки и полные профили с датированными высказываниями; проверить устойчивость к составу выборки, спорным оценкам и заполнению пропусков."
+    },
+    {
+      "id": "social_memory",
+      "title": "Почему возможны социальные и мемориальные акценты",
+      "text": "Повестка восстановления и национального единства делает память политически заметной, а отраслевые программы дают материал о здоровье, образовании и доступе к возможностям. Их совместная вариация может отражать публичные жанры и портфели. Это не делает заботу о памяти противоположностью социальной политики и не устанавливает тип личности.",
+      "based_on_fact_ids": [
+        "memory_unity",
+        "development_agenda"
+      ],
+      "epistemic_status": "contextual_explanatory_hypothesis_not_causal_test",
+      "test_needed": "Проверять знак и сочетание нагрузок по отдельным независимым свойствам, не навязывать исторический рассказ фактору заранее."
+    },
+    {
+      "id": "public_visibility",
+      "title": "Почему наблюдаемая карта может быть уже политического пространства",
+      "text": "Численное преобладание управленцев в целевой выборке, ограничения конкуренции и неравный доступ к публичной речи могут усиливать официальный язык и скрывать часть альтернатив. Такой механизм правдоподобен, однако его доля в полученной структуре не измерена. Пустой сектор не доказывает отсутствия идей или общественного спроса.",
+      "based_on_fact_ids": [
+        "opposition_constraints",
+        "election2024"
+      ],
+      "epistemic_status": "sampling_and_visibility_hypothesis",
+      "test_needed": "Отдельный анализ доступности источников, расширение акторов и временных срезов без подбора ради желаемых факторов."
+    },
+    {
+      "id": "portfolio_time",
+      "title": "Почему важны должность, международный мандат и время",
+      "text": "Социальная, аграрная, дипломатическая и мемориальная речь может зависеть от служебной задачи. Объединение пяти лет также способно смешивать смены должностей и публичных позиций. Поэтому близость на карте не означает политический союз, общий электорат или одинаковые частные взгляды. Международные роли OIF и ООН анализируются с собственным мандатом.",
+      "based_on_fact_ids": [
+        "institutions",
+        "parliament_government"
+      ],
+      "epistemic_status": "measurement_context_hypothesis",
+      "test_needed": "Связывать каждое свидетельство с датой и capacity; при накоплении данных проверять отдельные временные и ролевые подвыборки."
+    }
+  ],
+  "illustrative_quotes": [
+    {
+      "actor_id": "paul-kagame",
+      "theme": "Память и единство",
+      "original_quote": "The foundation of everything is unity.",
+      "ru_translation": "Основа всего — единство.",
+      "source_id": "kwibuka30_kagame",
+      "source_url": "https://www.paulkagame.rw/kwibuka-30-address-by-president-kagame/",
+      "event_date": "2024-04-07",
+      "capacity": "Президент Руанды; выступление Kwibuka 30",
+      "qualification": "Иллюстрация собственного публичного тезиса; не объясняет автоматически координаты фактора или мнения населения.",
+      "quote_words": 6,
+      "translation_words": 4
+    },
+    {
+      "actor_id": "sabin-nsanzimana",
+      "theme": "Социальная услуга и профилактика",
+      "original_quote": "This is an opportunity to build a stronger health system",
+      "ru_translation": "Это возможность построить более сильную систему здравоохранения.",
+      "source_id": "moh_nsanzimana",
+      "source_url": "https://www.moh.gov.rw/news-detail/rwanda-who-join-forces-to-boost-epidemic-preparedness",
+      "event_date": "2023-02-13",
+      "capacity": "Министр здравоохранения; подписание меморандума с ВОЗ",
+      "qualification": "Точный непрерывный фрагмент атрибутированного выступления о готовности к эпидемиям; не независимая оценка результатов системы.",
+      "quote_words": 10,
+      "translation_words": 7
+    },
+    {
+      "actor_id": "clare-akamanzi",
+      "theme": "Конкретный инструмент аграрной политики",
+      "original_quote": "organising bulk purchasing of inputs",
+      "ru_translation": "организуя оптовую закупку ресурсов",
+      "source_id": "gleaner_akamanzi",
+      "source_url": "https://jamaica-gleaner.com/article/news/20220520/rwanda-shares-secrets-agricultural-success",
+      "event_date": null,
+      "publication_date": "2022-05-20",
+      "event_date_precision": "interview_day_unspecified",
+      "capacity": "Руководитель Rwanda Development Board; интервью The Gleaner",
+      "qualification": "Короткий фрагмент точной цитаты о поддержке фермеров закупками. Дата публикации не выдаётся за день интервью или дату начала реформы; сам инструмент мог существовать до окна. Не добавляет новой числовой оценки.",
+      "quote_words": 5,
+      "translation_words": 4
+    }
+  ],
+  "sources": [
+    {
+      "id": "constitution_2023",
+      "title": "Constitution of the Republic of Rwanda — Official Gazette, 04.08.2023",
+      "url": "https://www.minijust.gov.rw/fileadmin/user_upload/Minijust/Publications/Laws/Constitution.pdf",
+      "type": "primary_constitution",
+      "date": "2023-08-04",
+      "verification": "Full relevant constitutional articles read as PDF text: 61,62,64,75,80,97,98,101,116,117,119.",
+      "locators": [
+        "Articles 61–62",
+        "Articles 64,75,80",
+        "Articles 97–101",
+        "Articles 116–119"
+      ]
+    },
+    {
+      "id": "nec_final_2024",
+      "title": "NEC: final presidential and legislative election results, 22 July 2024",
+      "url": "https://www.nec.gov.rw/fileadmin/user_upload/NEC/Publications/Elections_Results/Elections-Results-1.pdf",
+      "type": "primary_electoral_commission",
+      "date": "2024-07-22",
+      "verification": "PDF cover and results table read. National presidential percentage distinguished from Kigali column.",
+      "locators": [
+        "PDF page 1: final results announcement, date",
+        "PDF page 2: national presidential and direct parliamentary results"
+      ]
+    },
+    {
+      "id": "parliament_about",
+      "title": "Parliament of Rwanda — institutional responsibilities and leadership",
+      "url": "https://www.parliament.gov.rw/about-1",
+      "type": "primary_official",
+      "date": null,
+      "verification": "Full page read 2026-10-16; historical 2024–2029 legislature and dated leadership statements used."
+    },
+    {
+      "id": "nst2_presentation",
+      "title": "Prime Minister presented to Parliament Government’s five-year programme NST2",
+      "url": "https://www.primature.gov.rw/news-detail/prime-minister-presented-to-parliament-governments-five-year-program-nst2",
+      "type": "primary_government",
+      "date": "2024-09-09",
+      "verification": "Full dated report read; programme targets treated as announced commitments, not achieved results."
+    },
+    {
+      "id": "kwibuka30_kagame",
+      "title": "Kwibuka 30 — address by President Kagame",
+      "url": "https://www.paulkagame.rw/kwibuka-30-address-by-president-kagame/",
+      "type": "primary_speech",
+      "date": "2024-04-07",
+      "verification": "Full relevant speech passage read; paragraph beginning The foundation of everything is unity."
+    },
+    {
+      "id": "moh_nsanzimana",
+      "title": "Rwanda, WHO join forces to boost epidemic preparedness",
+      "url": "https://www.moh.gov.rw/news-detail/rwanda-who-join-forces-to-boost-epidemic-preparedness",
+      "type": "primary_ministry_attributed_remarks",
+      "date": "2023-02-13",
+      "verification": "Full article read; own attributed remarks at MoU signing."
+    },
+    {
+      "id": "gleaner_akamanzi",
+      "title": "Rwanda shares secrets to agricultural success — interview with Clare Akamanzi",
+      "url": "https://jamaica-gleaner.com/article/news/20220520/rwanda-shares-secrets-agricultural-success",
+      "type": "independent_media_direct_interview",
+      "date": "2022-05-20",
+      "verification": "Full article read; publication date verified, exact interview day not supplied. Exact quotation attributed to Akamanzi distinguished from interviewer narration."
+    },
+    {
+      "id": "hrw_elections_2024",
+      "title": "Human Rights Watch: Rwanda — Respect Rights During Elections",
+      "url": "https://www.hrw.org/news/2024/06/14/rwanda-respect-rights-during-elections",
+      "type": "independent_human_rights_assessment",
+      "date": "2024-06-14",
+      "verification": "Full article read; descriptions explicitly attributed to HRW rather than presented as constitutional rules."
+    },
+    {
+      "id": "hrw_ingabire_2025",
+      "title": "Human Rights Watch: Rwanda — Opposition Leader Arrested",
+      "url": "https://www.hrw.org/news/2025/06/24/rwanda-opposition-leader-arrested",
+      "type": "independent_human_rights_assessment",
+      "date": "2025-06-24",
+      "verification": "Report on June 2025 arrest, verified web source text."
+    }
+  ],
+  "limitations": [
+    "Это контекст к разведочному анализу публичных проявлений, а не причинное доказательство факторов и не исследование политического сознания всего населения.",
+    "Из 42 утверждённых участников 23 представляют центральное руководство и государственную политику, шесть — парламентское руководство, два — территориальное управление, восемь — оппозиционных акторов и независимых кандидатов, три — международную дипломатию. Это целевой, а не вероятностный отбор.",
+    "Публичные служебные действия допустимы как действия в указанной роли. Они не доказывают частной симпатии, согласия с любыми действиями государства или позиции всех коллег.",
+    "Неизвестное значение не равно нулю. Полюса измеряются независимо: положительная выраженность одного не определяет автоматически оценку второго.",
+    "Редкость российской темы в доступных индивидуальных материалах не позволяет назвать политиков нейтральными или антироссийскими. В текущем исследовании российские свойства не вошли в общую факторную матрицу по покрытию; долю отдельного российского фактора ≥2% проверить нельзя.",
+    "Ни один кластер не назван и не ранжирован в этом справочном контексте. Число групп и их смысл требуют отдельной оценки математики и содержательных профилей.",
+    "Официальные результаты выборов, конституционные нормы, объявленные программы и независимые оценки ограничений — разные типы свидетельств; их статус сохранён явно."
+  ],
+  "local_inputs": [
+    "objects.json",
+    "README.md",
+    "ACTOR_PROFILES.json"
+  ],
+  "roster_sha256": "640bbbd2333843b17171138c090fcbb0cdec60c101dfa89c43ddbd5014685b9b"
+}

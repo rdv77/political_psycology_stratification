@@ -1,0 +1,78 @@
+{
+  "factor_count": 3,
+  "cluster_count": 4,
+  "charts": [
+    {
+      "file": "assets/q3_political/objects_x1_x2.png",
+      "label_count": 37,
+      "point_count": 37,
+      "title": "Политики в смысловом пространстве",
+      "axes": [
+        "Преемственность и поддержка курса",
+        "Обновление и обсуждение проблем"
+      ]
+    },
+    {
+      "file": "assets/q3_political/traits_x1_x2.png",
+      "label_count": 8,
+      "point_count": 8,
+      "title": "Признаки в смысловом пространстве",
+      "axes": [
+        "Преемственность и поддержка курса",
+        "Обновление и обсуждение проблем"
+      ]
+    },
+    {
+      "file": "assets/q3_political/objects_x2_x3.png",
+      "label_count": 37,
+      "point_count": 37,
+      "title": "Политики в смысловом пространстве",
+      "axes": [
+        "Обновление и обсуждение проблем",
+        "Социальные задачи и профилактика"
+      ]
+    },
+    {
+      "file": "assets/q3_political/traits_x2_x3.png",
+      "label_count": 8,
+      "point_count": 8,
+      "title": "Признаки в смысловом пространстве",
+      "axes": [
+        "Обновление и обсуждение проблем",
+        "Социальные задачи и профилактика"
+      ]
+    },
+    {
+      "file": "assets/q3_political/objects_x1_x3.png",
+      "label_count": 37,
+      "point_count": 37,
+      "title": "Политики в смысловом пространстве",
+      "axes": [
+        "Преемственность и поддержка курса",
+        "Социальные задачи и профилактика"
+      ]
+    },
+    {
+      "file": "assets/q3_political/traits_x1_x3.png",
+      "label_count": 8,
+      "point_count": 8,
+      "title": "Признаки в смысловом пространстве",
+      "axes": [
+        "Преемственность и поддержка курса",
+        "Социальные задачи и профилактика"
+      ]
+    },
+    {
+      "file": "assets/q3_political/neighbours_objects.png",
+      "label_count": 37,
+      "point_count": 37
+    },
+    {
+      "file": "assets/q3_political/neighbours_traits.png",
+      "label_count": 8,
+      "point_count": 8
+    }
+  ],
+  "model_sha256": "7e9aae8bf951a51994c701472c4b2269c58da8ad12f3da1f6ec255dcfa0ce0ed",
+  "reflection": "X1=-F1; X2=F2; X3=F3"
+}

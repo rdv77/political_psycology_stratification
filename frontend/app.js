@@ -685,9 +685,13 @@
     const report = artifacts.find((artifact) => artifact.format?.toLowerCase() === "html" && artifact.safeUrl && /report/i.test(artifact.url)) || artifacts.find((artifact) => artifact.format?.toLowerCase() === "html" && artifact.safeUrl);
     const downloads = el("div", { class: "downloads", "aria-label": "Скачать материалы исследования" });
     const formatOrder = ["md", "pdf", "pptx", "docx", "html", "zip"];
+    const primaryDownloadUrls = new Set();
     formatOrder.forEach((format) => {
       const artifact = artifacts.find((item) => (item.format?.toLowerCase() === format || (format === "md" && item.format === "markdown")) && item.safeUrl);
-      if (artifact) downloads.append(el("a", { class: "button download-button", href: artifact.safeUrl, download: "", title: artifact.label || `Скачать ${FORMAT_NAMES[format]}`, text: `↓ ${FORMAT_NAMES[format]}` }));
+      if (artifact) {
+        primaryDownloadUrls.add(artifact.safeUrl);
+        downloads.append(el("a", { class: "button download-button", href: artifact.safeUrl, download: "", title: artifact.label || `Скачать ${FORMAT_NAMES[format]}`, text: `↓ ${FORMAT_NAMES[format]}` }));
+      }
       else downloads.append(el("button", { class: "button download-button", type: "button", disabled: true, title: "Файл пока не создан", text: FORMAT_NAMES[format] }));
     });
     const toolbar = el("div", { class: "report-toolbar" }, el("div", {}, el("h3", { text: "Отчёт о семантическом пространстве" }), el("p", { text: study.focus ? `Подробный разбор: ${study.focus}` : "Карты, факторы, профили групп и ограничения" })), downloads);
@@ -697,7 +701,7 @@
     panel.append(el("div", { class: "report-warning" }, "Модель описывает объекты выбранной выборки и периода. Положения на картах и названия групп следует читать вместе с исходными шкалами и диагностикой устойчивости."));
     if (state.config.markdown_note) panel.append(el("div", { class: "report-warning", text: state.config.markdown_note }));
     container.append(panel);
-    const extras = artifacts.filter((artifact) => artifact.safeUrl && !formatOrder.includes(artifact.format?.toLowerCase()) && artifact.format !== "markdown");
+    const extras = artifacts.filter((artifact) => artifact.safeUrl && !primaryDownloadUrls.has(artifact.safeUrl));
     const footer = el("div", { style: "margin-top:18px;display:flex;gap:9px;align-items:center;flex-wrap:wrap" });
     if (report) footer.append(el("a", { class: "button button-small", href: report.safeUrl, target: "_blank", rel: "noopener noreferrer", text: "Открыть отчёт отдельно ↗" }));
     extras.forEach((artifact) => footer.append(el("a", { class: "button button-small", href: artifact.safeUrl, download: "", text: `↓ ${artifact.label || FORMAT_NAMES[artifact.format] || artifact.format || "Файл"}` })));
