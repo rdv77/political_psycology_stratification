@@ -1,0 +1,1796 @@
+[
+  {
+    "object_id": "gertrude-kazarwa",
+    "scale_id": "programmatic-renewal",
+    "pole_scores": {
+      "positive": {
+        "status": "observed",
+        "value": 2,
+        "confidence": 0.7,
+        "evidence_indices": [
+          0,
+          9,
+          10
+        ],
+        "source_urls": [
+          "https://africa.unwomen.org/en/stories/news/2025/03/empowering-rwandas-parliamentarians-training-on-gender-equality-for-stronger-leadership",
+          "https://www.parliament.gov.rw/news-details/mps-commit-to-further-promoting-gender-equality"
+        ],
+        "event_ids": [
+          "gk-2025-03-06-gender-training",
+          "gk-2025-02-08-gender-oversight"
+        ],
+        "rationale": "Казарва на обучающем мероприятии по гендерному равенству призывала к включению новых приоритетов (гендерное равенство, расширение прав женщин) в политику, программы и бюджетный контроль, а также к корректировке программ при выявлении пробелов. Это свидетельствует о ясном, но ограниченном программном изменении существующего курса в части социальной политики.",
+        "support_type": "positive_manifestation",
+        "provenance": {
+          "raw_response_file": "evidence/independent_responses/0a5bdd482b0bfe34a35c2744191696091ddfef466b6e21c781133e4608a695da.json",
+          "model": "gpt-4.1",
+          "at": "2026-10-15T17:31:03.431103+00:00",
+          "cache_key": "0a5bdd482b0bfe34a35c2744191696091ddfef466b6e21c781133e4608a695da",
+          "original_proposal": {
+            "variable_id": "programmatic-renewal__positive",
+            "status": "observed",
+            "value": 2,
+            "confidence": 0.7,
+            "support_type": "positive_manifestation",
+            "rationale": "Казарва на обучающем мероприятии по гендерному равенству призывала к включению новых приоритетов (гендерное равенство, расширение прав женщин) в политику, программы и бюджетный контроль, а также к корректировке программ при выявлении пробелов. Это свидетельствует о ясном, но ограниченном программном изменении существующего курса в части социальной политики.",
+            "evidence_indices": [
+              0,
+              9,
+              10
+            ]
+          }
+        },
+        "evidence_file": "evidence/independent-dossier-gertrude-kazarwa.json",
+        "evidence_basis": "59d276dc3a42d93f28f96dd9ec12954bf3a2175a434badb6ddba6bcc5edb242a"
+      },
+      "negative": {
+        "status": "observed",
+        "value": 2,
+        "confidence": 0.7,
+        "evidence_indices": [
+          10,
+          15,
+          18
+        ],
+        "source_urls": [
+          "https://africa.unwomen.org/en/stories/news/2025/03/empowering-rwandas-parliamentarians-training-on-gender-equality-for-stronger-leadership",
+          "https://parliament.gov.rw/news-detail",
+          "https://www.parliament.gov.rw/news-details/rwanda-celebrates-international-day-of-democracy"
+        ],
+        "event_ids": [
+          "gk-2025-03-06-gender-training",
+          "gk-2026-06-01-democracy-day",
+          "kazarwa-democracy-technology-2024-10-31"
+        ],
+        "rationale": "В ряде выступлений Казарва призывала продолжать работу в рамках действующих политик и программ, а также выражала гордость выбранной Руандой системой управления. Это указывает на ограниченное, но явное публичное закрепление действующего курса.",
+        "support_type": "positive_manifestation",
+        "provenance": {
+          "raw_response_file": "evidence/independent_responses/0a5bdd482b0bfe34a35c2744191696091ddfef466b6e21c781133e4608a695da.json",
+          "model": "gpt-4.1",
+          "at": "2026-10-15T17:31:03.431103+00:00",
+          "cache_key": "0a5bdd482b0bfe34a35c2744191696091ddfef466b6e21c781133e4608a695da",
+          "original_proposal": {
+            "variable_id": "programmatic-renewal__negative",
+            "status": "observed",
+            "value": 2,
+            "confidence": 0.7,
+            "support_type": "positive_manifestation",
+            "rationale": "В ряде выступлений Казарва призывала продолжать работу в рамках действующих политик и программ, а также выражала гордость выбранной Руандой системой управления. Это указывает на ограниченное, но явное публичное закрепление действующего курса.",
+            "evidence_indices": [
+              10,
+              15,
+              18
+            ]
+          }
+        },
+        "evidence_file": "evidence/independent-dossier-gertrude-kazarwa.json",
+        "evidence_basis": "59d276dc3a42d93f28f96dd9ec12954bf3a2175a434badb6ddba6bcc5edb242a"
+      }
+    },
+    "positive": 2,
+    "negative": 2,
+    "value": null,
+    "status": "observed",
+    "difference": null,
+    "mass": null,
+    "measurement_model": "independent_poles",
+    "evidence_file": "evidence/independent-dossier-gertrude-kazarwa.json",
+    "evidence_basis": "59d276dc3a42d93f28f96dd9ec12954bf3a2175a434badb6ddba6bcc5edb242a",
+    "at": "2026-10-15T17:31:12.381441+00:00",
+    "reason": "Каждое свойство оценивается независимо; разность и искусственное дополнение до пяти не вычисляются"
+  },
+  {
+    "object_id": "gertrude-kazarwa",
+    "scale_id": "government-course-assessment",
+    "pole_scores": {
+      "positive": {
+        "status": "observed",
+        "value": 2,
+        "confidence": 0.7,
+        "evidence_indices": [
+          15,
+          18
+        ],
+        "source_urls": [
+          "https://parliament.gov.rw/news-detail",
+          "https://www.parliament.gov.rw/news-details/rwanda-celebrates-international-day-of-democracy"
+        ],
+        "event_ids": [
+          "gk-2026-06-01-democracy-day",
+          "kazarwa-democracy-technology-2024-10-31"
+        ],
+        "rationale": "Казарва в публичных выступлениях призывала гордиться выбранной Руандой системой управления и отмечала достижения в области гендерного равенства, что свидетельствует о поддержке отдельных аспектов государственного курса.",
+        "support_type": "positive_manifestation",
+        "provenance": {
+          "raw_response_file": "evidence/independent_responses/0a5bdd482b0bfe34a35c2744191696091ddfef466b6e21c781133e4608a695da.json",
+          "model": "gpt-4.1",
+          "at": "2026-10-15T17:31:03.431103+00:00",
+          "cache_key": "0a5bdd482b0bfe34a35c2744191696091ddfef466b6e21c781133e4608a695da",
+          "original_proposal": {
+            "variable_id": "government-course-assessment__positive",
+            "status": "observed",
+            "value": 2,
+            "confidence": 0.7,
+            "support_type": "positive_manifestation",
+            "rationale": "Казарва в публичных выступлениях призывала гордиться выбранной Руандой системой управления и отмечала достижения в области гендерного равенства, что свидетельствует о поддержке отдельных аспектов государственного курса.",
+            "evidence_indices": [
+              15,
+              18
+            ]
+          }
+        },
+        "evidence_file": "evidence/independent-dossier-gertrude-kazarwa.json",
+        "evidence_basis": "59d276dc3a42d93f28f96dd9ec12954bf3a2175a434badb6ddba6bcc5edb242a"
+      },
+      "negative": {
+        "status": "observed",
+        "value": 1,
+        "confidence": 0.6,
+        "evidence_indices": [
+          0,
+          10
+        ],
+        "source_urls": [
+          "https://africa.unwomen.org/en/stories/news/2025/03/empowering-rwandas-parliamentarians-training-on-gender-equality-for-stronger-leadership"
+        ],
+        "event_ids": [
+          "gk-2025-03-06-gender-training"
+        ],
+        "rationale": "Казарва признаёт сохраняющиеся проблемы и препятствия в реализации государственных программ по гендерному равенству, что можно трактовать как единичное слабое проявление критики отдельных аспектов курса, но не всей политики в целом.",
+        "support_type": "positive_manifestation",
+        "provenance": {
+          "raw_response_file": "evidence/independent_responses/0a5bdd482b0bfe34a35c2744191696091ddfef466b6e21c781133e4608a695da.json",
+          "model": "gpt-4.1",
+          "at": "2026-10-15T17:31:03.431103+00:00",
+          "cache_key": "0a5bdd482b0bfe34a35c2744191696091ddfef466b6e21c781133e4608a695da",
+          "original_proposal": {
+            "variable_id": "government-course-assessment__negative",
+            "status": "observed",
+            "value": 1,
+            "confidence": 0.6,
+            "support_type": "positive_manifestation",
+            "rationale": "Казарва признаёт сохраняющиеся проблемы и препятствия в реализации государственных программ по гендерному равенству, что можно трактовать как единичное слабое проявление критики отдельных аспектов курса, но не всей политики в целом.",
+            "evidence_indices": [
+              0,
+              10
+            ]
+          }
+        },
+        "evidence_file": "evidence/independent-dossier-gertrude-kazarwa.json",
+        "evidence_basis": "59d276dc3a42d93f28f96dd9ec12954bf3a2175a434badb6ddba6bcc5edb242a"
+      }
+    },
+    "positive": 2,
+    "negative": 1,
+    "value": null,
+    "status": "observed",
+    "difference": null,
+    "mass": null,
+    "measurement_model": "independent_poles",
+    "evidence_file": "evidence/independent-dossier-gertrude-kazarwa.json",
+    "evidence_basis": "59d276dc3a42d93f28f96dd9ec12954bf3a2175a434badb6ddba6bcc5edb242a",
+    "at": "2026-10-15T17:31:12.381441+00:00",
+    "reason": "Каждое свойство оценивается независимо; разность и искусственное дополнение до пяти не вычисляются"
+  },
+  {
+    "object_id": "gertrude-kazarwa",
+    "scale_id": "participation-administrative-direction",
+    "pole_scores": {
+      "positive": {
+        "status": "observed",
+        "value": 2,
+        "confidence": 0.7,
+        "evidence_indices": [
+          12,
+          15,
+          18
+        ],
+        "source_urls": [
+          "https://therealcontentrwanda.com/2026/05/28/rwanda-mps-begin-nationwide-field-visits-to-assess-agricultural-productivity/",
+          "https://parliament.gov.rw/news-detail",
+          "https://www.parliament.gov.rw/news-details/rwanda-celebrates-international-day-of-democracy"
+        ],
+        "event_ids": [
+          "gk-2026-05-28-agricultural-field-visits",
+          "gk-2026-06-01-democracy-day",
+          "kazarwa-democracy-technology-2024-10-31"
+        ],
+        "rationale": "Казарва подчёркивала важность вовлечения граждан в инициативы развития, получения обратной связи от местных сообществ и проверки результатов программ, что свидетельствует о ясном, но ограниченном проявлении совместного обсуждения и общественного контроля.",
+        "support_type": "positive_manifestation",
+        "provenance": {
+          "raw_response_file": "evidence/independent_responses/0a5bdd482b0bfe34a35c2744191696091ddfef466b6e21c781133e4608a695da.json",
+          "model": "gpt-4.1",
+          "at": "2026-10-15T17:31:03.431103+00:00",
+          "cache_key": "0a5bdd482b0bfe34a35c2744191696091ddfef466b6e21c781133e4608a695da",
+          "original_proposal": {
+            "variable_id": "participation-administrative-direction__positive",
+            "status": "observed",
+            "value": 2,
+            "confidence": 0.7,
+            "support_type": "positive_manifestation",
+            "rationale": "Казарва подчёркивала важность вовлечения граждан в инициативы развития, получения обратной связи от местных сообществ и проверки результатов программ, что свидетельствует о ясном, но ограниченном проявлении совместного обсуждения и общественного контроля.",
+            "evidence_indices": [
+              12,
+              15,
+              18
+            ]
+          }
+        },
+        "evidence_file": "evidence/independent-dossier-gertrude-kazarwa.json",
+        "evidence_basis": "59d276dc3a42d93f28f96dd9ec12954bf3a2175a434badb6ddba6bcc5edb242a"
+      },
+      "negative": {
+        "status": "observed",
+        "value": 2,
+        "confidence": 0.7,
+        "evidence_indices": [
+          7,
+          9,
+          11,
+          13
+        ],
+        "source_urls": [
+          "https://www.parliament.gov.rw/home",
+          "https://www.parliament.gov.rw/news-details/mps-commit-to-further-promoting-gender-equality",
+          "https://www.parliament.gov.rw/news-details/mps-open-the-second-ordinary-session-of-2025-2026"
+        ],
+        "event_ids": [
+          "gk-2026-10-10-agricultural-season",
+          "gk-2025-02-08-gender-oversight",
+          "gk-2025-06-05-session-opening"
+        ],
+        "rationale": "Казарва акцентировала надзорные и контрольные функции парламента, а также административное руководство и постановку задач (например, призыв увеличить производство), что указывает на ограниченное проявление административной постановки задач и контроля исполнения.",
+        "support_type": "positive_manifestation",
+        "provenance": {
+          "raw_response_file": "evidence/independent_responses/0a5bdd482b0bfe34a35c2744191696091ddfef466b6e21c781133e4608a695da.json",
+          "model": "gpt-4.1",
+          "at": "2026-10-15T17:31:03.431103+00:00",
+          "cache_key": "0a5bdd482b0bfe34a35c2744191696091ddfef466b6e21c781133e4608a695da",
+          "original_proposal": {
+            "variable_id": "participation-administrative-direction__negative",
+            "status": "observed",
+            "value": 2,
+            "confidence": 0.7,
+            "support_type": "positive_manifestation",
+            "rationale": "Казарва акцентировала надзорные и контрольные функции парламента, а также административное руководство и постановку задач (например, призыв увеличить производство), что указывает на ограниченное проявление административной постановки задач и контроля исполнения.",
+            "evidence_indices": [
+              7,
+              9,
+              11,
+              13
+            ]
+          }
+        },
+        "evidence_file": "evidence/independent-dossier-gertrude-kazarwa.json",
+        "evidence_basis": "59d276dc3a42d93f28f96dd9ec12954bf3a2175a434badb6ddba6bcc5edb242a"
+      }
+    },
+    "positive": 2,
+    "negative": 2,
+    "value": null,
+    "status": "observed",
+    "difference": null,
+    "mass": null,
+    "measurement_model": "independent_poles",
+    "evidence_file": "evidence/independent-dossier-gertrude-kazarwa.json",
+    "evidence_basis": "59d276dc3a42d93f28f96dd9ec12954bf3a2175a434badb6ddba6bcc5edb242a",
+    "at": "2026-10-15T17:31:12.381441+00:00",
+    "reason": "Каждое свойство оценивается независимо; разность и искусственное дополнение до пяти не вычисляются"
+  },
+  {
+    "object_id": "gertrude-kazarwa",
+    "scale_id": "argumentation-evidence-values",
+    "pole_scores": {
+      "positive": {
+        "status": "observed",
+        "value": 2,
+        "confidence": 0.7,
+        "evidence_indices": [
+          0,
+          9,
+          12
+        ],
+        "source_urls": [
+          "https://africa.unwomen.org/en/stories/news/2025/03/empowering-rwandas-parliamentarians-training-on-gender-equality-for-stronger-leadership",
+          "https://www.parliament.gov.rw/news-details/mps-commit-to-further-promoting-gender-equality",
+          "https://therealcontentrwanda.com/2026/05/28/rwanda-mps-begin-nationwide-field-visits-to-assess-agricultural-productivity/"
+        ],
+        "event_ids": [
+          "gk-2025-03-06-gender-training",
+          "gk-2025-02-08-gender-oversight",
+          "gk-2026-05-28-agricultural-field-visits"
+        ],
+        "rationale": "В ряде случаев Казарва обосновывала необходимость проверки результатов государственных программ и сбора информации от граждан для оценки эффективности, что свидетельствует о ясном, но ограниченном использовании данных и проверяемых результатов.",
+        "support_type": "positive_manifestation",
+        "provenance": {
+          "raw_response_file": "evidence/independent_responses/0a5bdd482b0bfe34a35c2744191696091ddfef466b6e21c781133e4608a695da.json",
+          "model": "gpt-4.1",
+          "at": "2026-10-15T17:31:03.431103+00:00",
+          "cache_key": "0a5bdd482b0bfe34a35c2744191696091ddfef466b6e21c781133e4608a695da",
+          "original_proposal": {
+            "variable_id": "argumentation-evidence-values__positive",
+            "status": "observed",
+            "value": 2,
+            "confidence": 0.7,
+            "support_type": "positive_manifestation",
+            "rationale": "В ряде случаев Казарва обосновывала необходимость проверки результатов государственных программ и сбора информации от граждан для оценки эффективности, что свидетельствует о ясном, но ограниченном использовании данных и проверяемых результатов.",
+            "evidence_indices": [
+              0,
+              9,
+              12
+            ]
+          }
+        },
+        "evidence_file": "evidence/independent-dossier-gertrude-kazarwa.json",
+        "evidence_basis": "59d276dc3a42d93f28f96dd9ec12954bf3a2175a434badb6ddba6bcc5edb242a"
+      },
+      "negative": {
+        "status": "observed",
+        "value": 2,
+        "confidence": 0.7,
+        "evidence_indices": [
+          15,
+          18,
+          19
+        ],
+        "source_urls": [
+          "https://parliament.gov.rw/news-detail",
+          "https://www.parliament.gov.rw/news-details/rwanda-celebrates-international-day-of-democracy",
+          "https://taarifa.rw/2024/09/30/president-of-the-chamber-of-deputies-participates-in-23rd-general-assembly-of-the-national-womens-council/"
+        ],
+        "event_ids": [
+          "gk-2026-06-01-democracy-day",
+          "kazarwa-democracy-technology-2024-10-31",
+          "kazarwa-women-development-2024-09-30"
+        ],
+        "rationale": "Казарва использовала риторику коллективной ответственности, гордости за систему управления и призывы к ценностям, что указывает на ясное, но ограниченное обоснование через ценности и коллективные символы.",
+        "support_type": "positive_manifestation",
+        "provenance": {
+          "raw_response_file": "evidence/independent_responses/0a5bdd482b0bfe34a35c2744191696091ddfef466b6e21c781133e4608a695da.json",
+          "model": "gpt-4.1",
+          "at": "2026-10-15T17:31:03.431103+00:00",
+          "cache_key": "0a5bdd482b0bfe34a35c2744191696091ddfef466b6e21c781133e4608a695da",
+          "original_proposal": {
+            "variable_id": "argumentation-evidence-values__negative",
+            "status": "observed",
+            "value": 2,
+            "confidence": 0.7,
+            "support_type": "positive_manifestation",
+            "rationale": "Казарва использовала риторику коллективной ответственности, гордости за систему управления и призывы к ценностям, что указывает на ясное, но ограниченное обоснование через ценности и коллективные символы.",
+            "evidence_indices": [
+              15,
+              18,
+              19
+            ]
+          }
+        },
+        "evidence_file": "evidence/independent-dossier-gertrude-kazarwa.json",
+        "evidence_basis": "59d276dc3a42d93f28f96dd9ec12954bf3a2175a434badb6ddba6bcc5edb242a"
+      }
+    },
+    "positive": 2,
+    "negative": 2,
+    "value": null,
+    "status": "observed",
+    "difference": null,
+    "mass": null,
+    "measurement_model": "independent_poles",
+    "evidence_file": "evidence/independent-dossier-gertrude-kazarwa.json",
+    "evidence_basis": "59d276dc3a42d93f28f96dd9ec12954bf3a2175a434badb6ddba6bcc5edb242a",
+    "at": "2026-10-15T17:31:12.381441+00:00",
+    "reason": "Каждое свойство оценивается независимо; разность и искусственное дополнение до пяти не вычисляются"
+  },
+  {
+    "object_id": "gertrude-kazarwa",
+    "scale_id": "market-state-instruments",
+    "pole_scores": {
+      "positive": {
+        "status": "unknown",
+        "value": null,
+        "confidence": 0,
+        "evidence_indices": [],
+        "source_urls": [],
+        "event_ids": [],
+        "rationale": "Нет прямых персональных заявлений Казарвы о расширении частной инициативы и управления; институциональные решения палаты не могут быть автоматически приписаны её личной позиции.",
+        "support_type": "unknown",
+        "provenance": {
+          "raw_response_file": "evidence/independent_responses/0a5bdd482b0bfe34a35c2744191696091ddfef466b6e21c781133e4608a695da.json",
+          "model": "gpt-4.1",
+          "at": "2026-10-15T17:31:03.431103+00:00",
+          "cache_key": "0a5bdd482b0bfe34a35c2744191696091ddfef466b6e21c781133e4608a695da",
+          "original_proposal": {
+            "variable_id": "market-state-instruments__positive",
+            "status": "unknown",
+            "value": null,
+            "confidence": 0.3,
+            "support_type": "unknown",
+            "rationale": "Нет прямых персональных заявлений Казарвы о расширении частной инициативы и управления; институциональные решения палаты не могут быть автоматически приписаны её личной позиции.",
+            "evidence_indices": []
+          }
+        },
+        "evidence_file": "evidence/independent-dossier-gertrude-kazarwa.json",
+        "evidence_basis": "59d276dc3a42d93f28f96dd9ec12954bf3a2175a434badb6ddba6bcc5edb242a"
+      },
+      "negative": {
+        "status": "unknown",
+        "value": null,
+        "confidence": 0,
+        "evidence_indices": [],
+        "source_urls": [],
+        "event_ids": [],
+        "rationale": "Нет прямых персональных заявлений Казарвы о расширении государственного планирования и обязательных правил; институциональные решения палаты не могут быть автоматически приписаны её личной позиции.",
+        "support_type": "unknown",
+        "provenance": {
+          "raw_response_file": "evidence/independent_responses/0a5bdd482b0bfe34a35c2744191696091ddfef466b6e21c781133e4608a695da.json",
+          "model": "gpt-4.1",
+          "at": "2026-10-15T17:31:03.431103+00:00",
+          "cache_key": "0a5bdd482b0bfe34a35c2744191696091ddfef466b6e21c781133e4608a695da",
+          "original_proposal": {
+            "variable_id": "market-state-instruments__negative",
+            "status": "unknown",
+            "value": null,
+            "confidence": 0.3,
+            "support_type": "unknown",
+            "rationale": "Нет прямых персональных заявлений Казарвы о расширении государственного планирования и обязательных правил; институциональные решения палаты не могут быть автоматически приписаны её личной позиции.",
+            "evidence_indices": []
+          }
+        },
+        "evidence_file": "evidence/independent-dossier-gertrude-kazarwa.json",
+        "evidence_basis": "59d276dc3a42d93f28f96dd9ec12954bf3a2175a434badb6ddba6bcc5edb242a"
+      }
+    },
+    "positive": null,
+    "negative": null,
+    "value": null,
+    "status": "unknown",
+    "difference": null,
+    "mass": null,
+    "measurement_model": "independent_poles",
+    "evidence_file": "evidence/independent-dossier-gertrude-kazarwa.json",
+    "evidence_basis": "59d276dc3a42d93f28f96dd9ec12954bf3a2175a434badb6ddba6bcc5edb242a",
+    "at": "2026-10-15T17:31:12.381441+00:00",
+    "reason": "Каждое свойство оценивается независимо; разность и искусственное дополнение до пяти не вычисляются"
+  },
+  {
+    "object_id": "gertrude-kazarwa",
+    "scale_id": "accessibility-growth-priorities",
+    "pole_scores": {
+      "positive": {
+        "status": "observed",
+        "value": 2,
+        "confidence": 0.7,
+        "evidence_indices": [
+          15,
+          18
+        ],
+        "source_urls": [
+          "https://parliament.gov.rw/news-detail",
+          "https://www.parliament.gov.rw/news-details/rwanda-celebrates-international-day-of-democracy"
+        ],
+        "event_ids": [
+          "gk-2026-06-01-democracy-day",
+          "kazarwa-democracy-technology-2024-10-31"
+        ],
+        "rationale": "Казарва призывала обеспечить каждому гражданину доступ к технологиям и акцентировала расширение доступа к благам, что свидетельствует о ясном, но ограниченном приоритете доступности.",
+        "support_type": "positive_manifestation",
+        "provenance": {
+          "raw_response_file": "evidence/independent_responses/0a5bdd482b0bfe34a35c2744191696091ddfef466b6e21c781133e4608a695da.json",
+          "model": "gpt-4.1",
+          "at": "2026-10-15T17:31:03.431103+00:00",
+          "cache_key": "0a5bdd482b0bfe34a35c2744191696091ddfef466b6e21c781133e4608a695da",
+          "original_proposal": {
+            "variable_id": "accessibility-growth-priorities__positive",
+            "status": "observed",
+            "value": 2,
+            "confidence": 0.7,
+            "support_type": "positive_manifestation",
+            "rationale": "Казарва призывала обеспечить каждому гражданину доступ к технологиям и акцентировала расширение доступа к благам, что свидетельствует о ясном, но ограниченном приоритете доступности.",
+            "evidence_indices": [
+              15,
+              18
+            ]
+          }
+        },
+        "evidence_file": "evidence/independent-dossier-gertrude-kazarwa.json",
+        "evidence_basis": "59d276dc3a42d93f28f96dd9ec12954bf3a2175a434badb6ddba6bcc5edb242a"
+      },
+      "negative": {
+        "status": "observed",
+        "value": 1,
+        "confidence": 0.6,
+        "evidence_indices": [
+          7,
+          13
+        ],
+        "source_urls": [
+          "https://www.parliament.gov.rw/home"
+        ],
+        "event_ids": [
+          "gk-2026-10-10-agricultural-season"
+        ],
+        "rationale": "Призыв Казарвы увеличить производство в сельском хозяйстве можно трактовать как единичное слабое проявление приоритета роста производства и деловой активности.",
+        "support_type": "positive_manifestation",
+        "provenance": {
+          "raw_response_file": "evidence/independent_responses/0a5bdd482b0bfe34a35c2744191696091ddfef466b6e21c781133e4608a695da.json",
+          "model": "gpt-4.1",
+          "at": "2026-10-15T17:31:03.431103+00:00",
+          "cache_key": "0a5bdd482b0bfe34a35c2744191696091ddfef466b6e21c781133e4608a695da",
+          "original_proposal": {
+            "variable_id": "accessibility-growth-priorities__negative",
+            "status": "observed",
+            "value": 1,
+            "confidence": 0.6,
+            "support_type": "positive_manifestation",
+            "rationale": "Призыв Казарвы увеличить производство в сельском хозяйстве можно трактовать как единичное слабое проявление приоритета роста производства и деловой активности.",
+            "evidence_indices": [
+              7,
+              13
+            ]
+          }
+        },
+        "evidence_file": "evidence/independent-dossier-gertrude-kazarwa.json",
+        "evidence_basis": "59d276dc3a42d93f28f96dd9ec12954bf3a2175a434badb6ddba6bcc5edb242a"
+      }
+    },
+    "positive": 2,
+    "negative": 1,
+    "value": null,
+    "status": "observed",
+    "difference": null,
+    "mass": null,
+    "measurement_model": "independent_poles",
+    "evidence_file": "evidence/independent-dossier-gertrude-kazarwa.json",
+    "evidence_basis": "59d276dc3a42d93f28f96dd9ec12954bf3a2175a434badb6ddba6bcc5edb242a",
+    "at": "2026-10-15T17:31:12.381441+00:00",
+    "reason": "Каждое свойство оценивается независимо; разность и искусственное дополнение до пяти не вычисляются"
+  },
+  {
+    "object_id": "gertrude-kazarwa",
+    "scale_id": "external-domestic-resources",
+    "pole_scores": {
+      "positive": {
+        "status": "observed",
+        "value": 2,
+        "confidence": 0.7,
+        "evidence_indices": [
+          2,
+          17
+        ],
+        "source_urls": [
+          "https://www.parliament.gov.rw/read-more?category=0&page=34&q=",
+          "https://www.parlamento.mz/?p=14248"
+        ],
+        "event_ids": [
+          "gk-2026-06-18-undp-digital",
+          "kazarwa-mozambique-cooperation-2025-12-08"
+        ],
+        "rationale": "Казарва демонстрировала открытость к международному сотрудничеству и обмену опытом, а также взаимодействовала с ПРООН по вопросам цифровой трансформации парламента, что свидетельствует о ясном, но ограниченном привлечении внешних партнёров.",
+        "support_type": "positive_manifestation",
+        "provenance": {
+          "raw_response_file": "evidence/independent_responses/0a5bdd482b0bfe34a35c2744191696091ddfef466b6e21c781133e4608a695da.json",
+          "model": "gpt-4.1",
+          "at": "2026-10-15T17:31:03.431103+00:00",
+          "cache_key": "0a5bdd482b0bfe34a35c2744191696091ddfef466b6e21c781133e4608a695da",
+          "original_proposal": {
+            "variable_id": "external-domestic-resources__positive",
+            "status": "observed",
+            "value": 2,
+            "confidence": 0.7,
+            "support_type": "positive_manifestation",
+            "rationale": "Казарва демонстрировала открытость к международному сотрудничеству и обмену опытом, а также взаимодействовала с ПРООН по вопросам цифровой трансформации парламента, что свидетельствует о ясном, но ограниченном привлечении внешних партнёров.",
+            "evidence_indices": [
+              2,
+              17
+            ]
+          }
+        },
+        "evidence_file": "evidence/independent-dossier-gertrude-kazarwa.json",
+        "evidence_basis": "59d276dc3a42d93f28f96dd9ec12954bf3a2175a434badb6ddba6bcc5edb242a"
+      },
+      "negative": {
+        "status": "unknown",
+        "value": null,
+        "confidence": 0,
+        "evidence_indices": [],
+        "source_urls": [],
+        "event_ids": [],
+        "rationale": "Нет прямых персональных заявлений Казарвы о приоритете внутренних доходов или снижении зависимости от внешних поступлений.",
+        "support_type": "unknown",
+        "provenance": {
+          "raw_response_file": "evidence/independent_responses/0a5bdd482b0bfe34a35c2744191696091ddfef466b6e21c781133e4608a695da.json",
+          "model": "gpt-4.1",
+          "at": "2026-10-15T17:31:03.431103+00:00",
+          "cache_key": "0a5bdd482b0bfe34a35c2744191696091ddfef466b6e21c781133e4608a695da",
+          "original_proposal": {
+            "variable_id": "external-domestic-resources__negative",
+            "status": "unknown",
+            "value": null,
+            "confidence": 0.3,
+            "support_type": "unknown",
+            "rationale": "Нет прямых персональных заявлений Казарвы о приоритете внутренних доходов или снижении зависимости от внешних поступлений.",
+            "evidence_indices": []
+          }
+        },
+        "evidence_file": "evidence/independent-dossier-gertrude-kazarwa.json",
+        "evidence_basis": "59d276dc3a42d93f28f96dd9ec12954bf3a2175a434badb6ddba6bcc5edb242a"
+      }
+    },
+    "positive": 2,
+    "negative": null,
+    "value": null,
+    "status": "partial",
+    "difference": null,
+    "mass": null,
+    "measurement_model": "independent_poles",
+    "evidence_file": "evidence/independent-dossier-gertrude-kazarwa.json",
+    "evidence_basis": "59d276dc3a42d93f28f96dd9ec12954bf3a2175a434badb6ddba6bcc5edb242a",
+    "at": "2026-10-15T17:31:12.381441+00:00",
+    "reason": "Каждое свойство оценивается независимо; разность и искусственное дополнение до пяти не вычисляются"
+  },
+  {
+    "object_id": "gertrude-kazarwa",
+    "scale_id": "international-rules-autonomy",
+    "pole_scores": {
+      "positive": {
+        "status": "unknown",
+        "value": null,
+        "confidence": 0,
+        "evidence_indices": [],
+        "source_urls": [],
+        "event_ids": [],
+        "rationale": "Нет прямых персональных заявлений Казарвы о закреплении обязательных международных норм или договоров.",
+        "support_type": "unknown",
+        "provenance": {
+          "raw_response_file": "evidence/independent_responses/0a5bdd482b0bfe34a35c2744191696091ddfef466b6e21c781133e4608a695da.json",
+          "model": "gpt-4.1",
+          "at": "2026-10-15T17:31:03.431103+00:00",
+          "cache_key": "0a5bdd482b0bfe34a35c2744191696091ddfef466b6e21c781133e4608a695da",
+          "original_proposal": {
+            "variable_id": "international-rules-autonomy__positive",
+            "status": "unknown",
+            "value": null,
+            "confidence": 0.3,
+            "support_type": "unknown",
+            "rationale": "Нет прямых персональных заявлений Казарвы о закреплении обязательных международных норм или договоров.",
+            "evidence_indices": []
+          }
+        },
+        "evidence_file": "evidence/independent-dossier-gertrude-kazarwa.json",
+        "evidence_basis": "59d276dc3a42d93f28f96dd9ec12954bf3a2175a434badb6ddba6bcc5edb242a"
+      },
+      "negative": {
+        "status": "unknown",
+        "value": null,
+        "confidence": 0,
+        "evidence_indices": [],
+        "source_urls": [],
+        "event_ids": [],
+        "rationale": "Нет прямых персональных заявлений Казарвы о защите национальной самостоятельности решений или возражениях против внешнего навязывания.",
+        "support_type": "unknown",
+        "provenance": {
+          "raw_response_file": "evidence/independent_responses/0a5bdd482b0bfe34a35c2744191696091ddfef466b6e21c781133e4608a695da.json",
+          "model": "gpt-4.1",
+          "at": "2026-10-15T17:31:03.431103+00:00",
+          "cache_key": "0a5bdd482b0bfe34a35c2744191696091ddfef466b6e21c781133e4608a695da",
+          "original_proposal": {
+            "variable_id": "international-rules-autonomy__negative",
+            "status": "unknown",
+            "value": null,
+            "confidence": 0.3,
+            "support_type": "unknown",
+            "rationale": "Нет прямых персональных заявлений Казарвы о защите национальной самостоятельности решений или возражениях против внешнего навязывания.",
+            "evidence_indices": []
+          }
+        },
+        "evidence_file": "evidence/independent-dossier-gertrude-kazarwa.json",
+        "evidence_basis": "59d276dc3a42d93f28f96dd9ec12954bf3a2175a434badb6ddba6bcc5edb242a"
+      }
+    },
+    "positive": null,
+    "negative": null,
+    "value": null,
+    "status": "unknown",
+    "difference": null,
+    "mass": null,
+    "measurement_model": "independent_poles",
+    "evidence_file": "evidence/independent-dossier-gertrude-kazarwa.json",
+    "evidence_basis": "59d276dc3a42d93f28f96dd9ec12954bf3a2175a434badb6ddba6bcc5edb242a",
+    "at": "2026-10-15T17:31:12.381441+00:00",
+    "reason": "Каждое свойство оценивается независимо; разность и искусственное дополнение до пяти не вычисляются"
+  },
+  {
+    "object_id": "gertrude-kazarwa",
+    "scale_id": "mediation-adversarial-communication",
+    "pole_scores": {
+      "positive": {
+        "status": "observed",
+        "value": 1,
+        "confidence": 0.6,
+        "evidence_indices": [
+          17
+        ],
+        "source_urls": [
+          "https://www.parlamento.mz/?p=14248"
+        ],
+        "event_ids": [
+          "kazarwa-mozambique-cooperation-2025-12-08"
+        ],
+        "rationale": "Во время визита в Мозамбик Казарва подчёркивала важность межпарламентских отношений и обмена опытом, что можно трактовать как единичное проявление посредничества и поиска согласования.",
+        "support_type": "positive_manifestation",
+        "provenance": {
+          "raw_response_file": "evidence/independent_responses/0a5bdd482b0bfe34a35c2744191696091ddfef466b6e21c781133e4608a695da.json",
+          "model": "gpt-4.1",
+          "at": "2026-10-15T17:31:03.431103+00:00",
+          "cache_key": "0a5bdd482b0bfe34a35c2744191696091ddfef466b6e21c781133e4608a695da",
+          "original_proposal": {
+            "variable_id": "mediation-adversarial-communication__positive",
+            "status": "observed",
+            "value": 1,
+            "confidence": 0.6,
+            "support_type": "positive_manifestation",
+            "rationale": "Во время визита в Мозамбик Казарва подчёркивала важность межпарламентских отношений и обмена опытом, что можно трактовать как единичное проявление посредничества и поиска согласования.",
+            "evidence_indices": [
+              17
+            ]
+          }
+        },
+        "evidence_file": "evidence/independent-dossier-gertrude-kazarwa.json",
+        "evidence_basis": "59d276dc3a42d93f28f96dd9ec12954bf3a2175a434badb6ddba6bcc5edb242a"
+      },
+      "negative": {
+        "status": "unknown",
+        "value": null,
+        "confidence": 0,
+        "evidence_indices": [],
+        "source_urls": [],
+        "event_ids": [],
+        "rationale": "Нет прямых персональных заявлений Казарвы, содержащих полемическое оспаривание или защиту только своей стороны.",
+        "support_type": "unknown",
+        "provenance": {
+          "raw_response_file": "evidence/independent_responses/0a5bdd482b0bfe34a35c2744191696091ddfef466b6e21c781133e4608a695da.json",
+          "model": "gpt-4.1",
+          "at": "2026-10-15T17:31:03.431103+00:00",
+          "cache_key": "0a5bdd482b0bfe34a35c2744191696091ddfef466b6e21c781133e4608a695da",
+          "original_proposal": {
+            "variable_id": "mediation-adversarial-communication__negative",
+            "status": "unknown",
+            "value": null,
+            "confidence": 0.3,
+            "support_type": "unknown",
+            "rationale": "Нет прямых персональных заявлений Казарвы, содержащих полемическое оспаривание или защиту только своей стороны.",
+            "evidence_indices": []
+          }
+        },
+        "evidence_file": "evidence/independent-dossier-gertrude-kazarwa.json",
+        "evidence_basis": "59d276dc3a42d93f28f96dd9ec12954bf3a2175a434badb6ddba6bcc5edb242a"
+      }
+    },
+    "positive": 1,
+    "negative": null,
+    "value": null,
+    "status": "partial",
+    "difference": null,
+    "mass": null,
+    "measurement_model": "independent_poles",
+    "evidence_file": "evidence/independent-dossier-gertrude-kazarwa.json",
+    "evidence_basis": "59d276dc3a42d93f28f96dd9ec12954bf3a2175a434badb6ddba6bcc5edb242a",
+    "at": "2026-10-15T17:31:12.381441+00:00",
+    "reason": "Каждое свойство оценивается независимо; разность и искусственное дополнение до пяти не вычисляются"
+  },
+  {
+    "object_id": "gertrude-kazarwa",
+    "scale_id": "cultural-openness-national-transmission",
+    "pole_scores": {
+      "positive": {
+        "status": "observed",
+        "value": 2,
+        "confidence": 0.7,
+        "evidence_indices": [
+          17
+        ],
+        "source_urls": [
+          "https://www.parlamento.mz/?p=14248"
+        ],
+        "event_ids": [
+          "kazarwa-mozambique-cooperation-2025-12-08"
+        ],
+        "rationale": "В эпизоде с визитом в Мозамбик Казарва прямо заявила о намерении учиться и обмениваться опытом с зарубежным парламентом, а также выделила межпарламентские отношения как опору сотрудничества. Это персональное проявление поддержки межкультурного обмена и разнообразия, хотя выраженность ограничена отдельными эпизодами и не является устойчивой чертой.",
+        "support_type": "positive_manifestation",
+        "provenance": {
+          "raw_response_file": "evidence/independent_responses/efc1b23591763ac0d10d8a980afed1f6a5f6046a0237f085cb2ca2e88bc08494.json",
+          "model": "gpt-4.1",
+          "at": "2026-10-15T17:31:12.376965+00:00",
+          "cache_key": "efc1b23591763ac0d10d8a980afed1f6a5f6046a0237f085cb2ca2e88bc08494",
+          "original_proposal": {
+            "variable_id": "cultural-openness-national-transmission__positive",
+            "status": "observed",
+            "value": 2,
+            "confidence": 0.7,
+            "support_type": "positive_manifestation",
+            "rationale": "В эпизоде с визитом в Мозамбик Казарва прямо заявила о намерении учиться и обмениваться опытом с зарубежным парламентом, а также выделила межпарламентские отношения как опору сотрудничества. Это персональное проявление поддержки межкультурного обмена и разнообразия, хотя выраженность ограничена отдельными эпизодами и не является устойчивой чертой.",
+            "evidence_indices": [
+              17
+            ]
+          }
+        },
+        "evidence_file": "evidence/independent-dossier-gertrude-kazarwa.json",
+        "evidence_basis": "59d276dc3a42d93f28f96dd9ec12954bf3a2175a434badb6ddba6bcc5edb242a"
+      },
+      "negative": {
+        "status": "observed",
+        "value": 2,
+        "confidence": 0.6,
+        "evidence_indices": [
+          4,
+          19
+        ],
+        "source_urls": [
+          "https://www.parliament.gov.rw/read-more?category=0&page=19&q=",
+          "https://taarifa.rw/2024/09/30/president-of-the-chamber-of-deputies-participates-in-23rd-general-assembly-of-the-national-womens-council/"
+        ],
+        "event_ids": [
+          "gk-2026-04-18-kwibuka32",
+          "kazarwa-women-development-2024-09-30"
+        ],
+        "rationale": "Казарва участвовала в мемориальных мероприятиях, связанных с геноцидом против тутси, и подчеркивала коллективную ответственность за общественные проблемы, а также связь развития женщин с национальным развитием. Это указывает на акцент на национальной идентичности и преемственности, хотя не является определяющей чертой.",
+        "support_type": "positive_manifestation",
+        "provenance": {
+          "raw_response_file": "evidence/independent_responses/efc1b23591763ac0d10d8a980afed1f6a5f6046a0237f085cb2ca2e88bc08494.json",
+          "model": "gpt-4.1",
+          "at": "2026-10-15T17:31:12.376965+00:00",
+          "cache_key": "efc1b23591763ac0d10d8a980afed1f6a5f6046a0237f085cb2ca2e88bc08494",
+          "original_proposal": {
+            "variable_id": "cultural-openness-national-transmission__negative",
+            "status": "observed",
+            "value": 2,
+            "confidence": 0.6,
+            "support_type": "positive_manifestation",
+            "rationale": "Казарва участвовала в мемориальных мероприятиях, связанных с геноцидом против тутси, и подчеркивала коллективную ответственность за общественные проблемы, а также связь развития женщин с национальным развитием. Это указывает на акцент на национальной идентичности и преемственности, хотя не является определяющей чертой.",
+            "evidence_indices": [
+              4,
+              19
+            ]
+          }
+        },
+        "evidence_file": "evidence/independent-dossier-gertrude-kazarwa.json",
+        "evidence_basis": "59d276dc3a42d93f28f96dd9ec12954bf3a2175a434badb6ddba6bcc5edb242a"
+      }
+    },
+    "positive": 2,
+    "negative": 2,
+    "value": null,
+    "status": "observed",
+    "difference": null,
+    "mass": null,
+    "measurement_model": "independent_poles",
+    "evidence_file": "evidence/independent-dossier-gertrude-kazarwa.json",
+    "evidence_basis": "59d276dc3a42d93f28f96dd9ec12954bf3a2175a434badb6ddba6bcc5edb242a",
+    "at": "2026-10-15T17:31:12.381441+00:00",
+    "reason": "Каждое свойство оценивается независимо; разность и искусственное дополнение до пяти не вычисляются"
+  },
+  {
+    "object_id": "gertrude-kazarwa",
+    "scale_id": "problem-disclosure-reputation-defence",
+    "pole_scores": {
+      "positive": {
+        "status": "observed",
+        "value": 3,
+        "confidence": 0.9,
+        "evidence_indices": [
+          0,
+          9,
+          10,
+          12
+        ],
+        "source_urls": [
+          "https://africa.unwomen.org/en/stories/news/2025/03/empowering-rwandas-parliamentarians-training-on-gender-equality-for-stronger-leadership",
+          "https://www.parliament.gov.rw/news-details/mps-commit-to-further-promoting-gender-equality",
+          "https://therealcontentrwanda.com/2026/05/28/rwanda-mps-begin-nationwide-field-visits-to-assess-agricultural-productivity/"
+        ],
+        "event_ids": [
+          "gk-2025-03-06-gender-training",
+          "gk-2025-02-08-gender-oversight",
+          "gk-2026-05-28-agricultural-field-visits"
+        ],
+        "rationale": "Казарва неоднократно признавала существование проблем и недостатков в обеспечении гендерного равенства, призывала к проверке результатов государственных программ и корректирующим мерам. Это устойчивое публичное признание проблем исполнения.",
+        "support_type": "positive_manifestation",
+        "provenance": {
+          "raw_response_file": "evidence/independent_responses/efc1b23591763ac0d10d8a980afed1f6a5f6046a0237f085cb2ca2e88bc08494.json",
+          "model": "gpt-4.1",
+          "at": "2026-10-15T17:31:12.376965+00:00",
+          "cache_key": "efc1b23591763ac0d10d8a980afed1f6a5f6046a0237f085cb2ca2e88bc08494",
+          "original_proposal": {
+            "variable_id": "problem-disclosure-reputation-defence__positive",
+            "status": "observed",
+            "value": 3,
+            "confidence": 0.9,
+            "support_type": "positive_manifestation",
+            "rationale": "Казарва неоднократно признавала существование проблем и недостатков в обеспечении гендерного равенства, призывала к проверке результатов государственных программ и корректирующим мерам. Это устойчивое публичное признание проблем исполнения.",
+            "evidence_indices": [
+              0,
+              9,
+              10,
+              12
+            ]
+          }
+        },
+        "evidence_file": "evidence/independent-dossier-gertrude-kazarwa.json",
+        "evidence_basis": "59d276dc3a42d93f28f96dd9ec12954bf3a2175a434badb6ddba6bcc5edb242a"
+      },
+      "negative": {
+        "status": "observed",
+        "value": 2,
+        "confidence": 0.7,
+        "evidence_indices": [
+          15,
+          18
+        ],
+        "source_urls": [
+          "https://parliament.gov.rw/news-detail",
+          "https://www.parliament.gov.rw/news-details/rwanda-celebrates-international-day-of-democracy"
+        ],
+        "event_ids": [
+          "gk-2026-06-01-democracy-day",
+          "kazarwa-democracy-technology-2024-10-31"
+        ],
+        "rationale": "В ряде выступлений Казарва призывала гордиться выбранной Руандой системой управления, что свидетельствует о защитном продвижении репутации действующей политики, хотя это не является доминирующей чертой.",
+        "support_type": "positive_manifestation",
+        "provenance": {
+          "raw_response_file": "evidence/independent_responses/efc1b23591763ac0d10d8a980afed1f6a5f6046a0237f085cb2ca2e88bc08494.json",
+          "model": "gpt-4.1",
+          "at": "2026-10-15T17:31:12.376965+00:00",
+          "cache_key": "efc1b23591763ac0d10d8a980afed1f6a5f6046a0237f085cb2ca2e88bc08494",
+          "original_proposal": {
+            "variable_id": "problem-disclosure-reputation-defence__negative",
+            "status": "observed",
+            "value": 2,
+            "confidence": 0.7,
+            "support_type": "positive_manifestation",
+            "rationale": "В ряде выступлений Казарва призывала гордиться выбранной Руандой системой управления, что свидетельствует о защитном продвижении репутации действующей политики, хотя это не является доминирующей чертой.",
+            "evidence_indices": [
+              15,
+              18
+            ]
+          }
+        },
+        "evidence_file": "evidence/independent-dossier-gertrude-kazarwa.json",
+        "evidence_basis": "59d276dc3a42d93f28f96dd9ec12954bf3a2175a434badb6ddba6bcc5edb242a"
+      }
+    },
+    "positive": 3,
+    "negative": 2,
+    "value": null,
+    "status": "observed",
+    "difference": null,
+    "mass": null,
+    "measurement_model": "independent_poles",
+    "evidence_file": "evidence/independent-dossier-gertrude-kazarwa.json",
+    "evidence_basis": "59d276dc3a42d93f28f96dd9ec12954bf3a2175a434badb6ddba6bcc5edb242a",
+    "at": "2026-10-15T17:31:12.381441+00:00",
+    "reason": "Каждое свойство оценивается независимо; разность и искусственное дополнение до пяти не вычисляются"
+  },
+  {
+    "object_id": "gertrude-kazarwa",
+    "scale_id": "procedural-guarantees-enforcement",
+    "pole_scores": {
+      "positive": {
+        "status": "observed",
+        "value": 2,
+        "confidence": 0.7,
+        "evidence_indices": [
+          9,
+          11,
+          12,
+          15
+        ],
+        "source_urls": [
+          "https://www.parliament.gov.rw/news-details/mps-commit-to-further-promoting-gender-equality",
+          "https://www.parliament.gov.rw/news-details/mps-open-the-second-ordinary-session-of-2025-2026",
+          "https://therealcontentrwanda.com/2026/05/28/rwanda-mps-begin-nationwide-field-visits-to-assess-agricultural-productivity/",
+          "https://parliament.gov.rw/news-detail"
+        ],
+        "event_ids": [
+          "gk-2025-02-08-gender-oversight",
+          "gk-2025-06-05-session-opening",
+          "gk-2026-05-28-agricultural-field-visits",
+          "gk-2026-06-01-democracy-day"
+        ],
+        "rationale": "Казарва подчеркивала важность парламентского надзора, проверки исполнения государственных программ и права граждан высказывать обеспокоенность, что указывает на поддержку процедурных гарантий и контроля, но не на их расширение как устойчивую черту.",
+        "support_type": "positive_manifestation",
+        "provenance": {
+          "raw_response_file": "evidence/independent_responses/efc1b23591763ac0d10d8a980afed1f6a5f6046a0237f085cb2ca2e88bc08494.json",
+          "model": "gpt-4.1",
+          "at": "2026-10-15T17:31:12.376965+00:00",
+          "cache_key": "efc1b23591763ac0d10d8a980afed1f6a5f6046a0237f085cb2ca2e88bc08494",
+          "original_proposal": {
+            "variable_id": "procedural-guarantees-enforcement__positive",
+            "status": "observed",
+            "value": 2,
+            "confidence": 0.7,
+            "support_type": "positive_manifestation",
+            "rationale": "Казарва подчеркивала важность парламентского надзора, проверки исполнения государственных программ и права граждан высказывать обеспокоенность, что указывает на поддержку процедурных гарантий и контроля, но не на их расширение как устойчивую черту.",
+            "evidence_indices": [
+              9,
+              11,
+              12,
+              15
+            ]
+          }
+        },
+        "evidence_file": "evidence/independent-dossier-gertrude-kazarwa.json",
+        "evidence_basis": "59d276dc3a42d93f28f96dd9ec12954bf3a2175a434badb6ddba6bcc5edb242a"
+      },
+      "negative": {
+        "status": "unknown",
+        "value": null,
+        "confidence": 0,
+        "evidence_indices": [],
+        "source_urls": [],
+        "event_ids": [],
+        "rationale": "Нет персональных заявлений или действий, прямо свидетельствующих о приоритете принудительного исполнения обязательных требований.",
+        "support_type": "unknown",
+        "provenance": {
+          "raw_response_file": "evidence/independent_responses/efc1b23591763ac0d10d8a980afed1f6a5f6046a0237f085cb2ca2e88bc08494.json",
+          "model": "gpt-4.1",
+          "at": "2026-10-15T17:31:12.376965+00:00",
+          "cache_key": "efc1b23591763ac0d10d8a980afed1f6a5f6046a0237f085cb2ca2e88bc08494",
+          "original_proposal": {
+            "variable_id": "procedural-guarantees-enforcement__negative",
+            "status": "unknown",
+            "value": null,
+            "confidence": 0.3,
+            "support_type": "unknown",
+            "rationale": "Нет персональных заявлений или действий, прямо свидетельствующих о приоритете принудительного исполнения обязательных требований.",
+            "evidence_indices": []
+          }
+        },
+        "evidence_file": "evidence/independent-dossier-gertrude-kazarwa.json",
+        "evidence_basis": "59d276dc3a42d93f28f96dd9ec12954bf3a2175a434badb6ddba6bcc5edb242a"
+      }
+    },
+    "positive": 2,
+    "negative": null,
+    "value": null,
+    "status": "partial",
+    "difference": null,
+    "mass": null,
+    "measurement_model": "independent_poles",
+    "evidence_file": "evidence/independent-dossier-gertrude-kazarwa.json",
+    "evidence_basis": "59d276dc3a42d93f28f96dd9ec12954bf3a2175a434badb6ddba6bcc5edb242a",
+    "at": "2026-10-15T17:31:12.381441+00:00",
+    "reason": "Каждое свойство оценивается независимо; разность и искусственное дополнение до пяти не вычисляются"
+  },
+  {
+    "object_id": "gertrude-kazarwa",
+    "scale_id": "prevention-crisis-response",
+    "pole_scores": {
+      "positive": {
+        "status": "observed",
+        "value": 2,
+        "confidence": 0.6,
+        "evidence_indices": [
+          9,
+          10,
+          12
+        ],
+        "source_urls": [
+          "https://www.parliament.gov.rw/news-details/mps-commit-to-further-promoting-gender-equality",
+          "https://africa.unwomen.org/en/stories/news/2025/03/empowering-rwandas-parliamentarians-training-on-gender-equality-for-stronger-leadership",
+          "https://therealcontentrwanda.com/2026/05/28/rwanda-mps-begin-nationwide-field-visits-to-assess-agricultural-productivity/"
+        ],
+        "event_ids": [
+          "gk-2025-02-08-gender-oversight",
+          "gk-2025-03-06-gender-training",
+          "gk-2026-05-28-agricultural-field-visits"
+        ],
+        "rationale": "В ряде эпизодов Казарва подчеркивала необходимость проверки и корректировки государственных программ до достижения целей, что указывает на элементы упреждающей подготовки, но не является устойчивой чертой.",
+        "support_type": "positive_manifestation",
+        "provenance": {
+          "raw_response_file": "evidence/independent_responses/efc1b23591763ac0d10d8a980afed1f6a5f6046a0237f085cb2ca2e88bc08494.json",
+          "model": "gpt-4.1",
+          "at": "2026-10-15T17:31:12.376965+00:00",
+          "cache_key": "efc1b23591763ac0d10d8a980afed1f6a5f6046a0237f085cb2ca2e88bc08494",
+          "original_proposal": {
+            "variable_id": "prevention-crisis-response__positive",
+            "status": "observed",
+            "value": 2,
+            "confidence": 0.6,
+            "support_type": "positive_manifestation",
+            "rationale": "В ряде эпизодов Казарва подчеркивала необходимость проверки и корректировки государственных программ до достижения целей, что указывает на элементы упреждающей подготовки, но не является устойчивой чертой.",
+            "evidence_indices": [
+              9,
+              10,
+              12
+            ]
+          }
+        },
+        "evidence_file": "evidence/independent-dossier-gertrude-kazarwa.json",
+        "evidence_basis": "59d276dc3a42d93f28f96dd9ec12954bf3a2175a434badb6ddba6bcc5edb242a"
+      },
+      "negative": {
+        "status": "unknown",
+        "value": null,
+        "confidence": 0,
+        "evidence_indices": [],
+        "source_urls": [],
+        "event_ids": [],
+        "rationale": "Нет прямых свидетельств, что Казарва делала акцент на действиях только в ответ на уже возникшие угрозы.",
+        "support_type": "unknown",
+        "provenance": {
+          "raw_response_file": "evidence/independent_responses/efc1b23591763ac0d10d8a980afed1f6a5f6046a0237f085cb2ca2e88bc08494.json",
+          "model": "gpt-4.1",
+          "at": "2026-10-15T17:31:12.376965+00:00",
+          "cache_key": "efc1b23591763ac0d10d8a980afed1f6a5f6046a0237f085cb2ca2e88bc08494",
+          "original_proposal": {
+            "variable_id": "prevention-crisis-response__negative",
+            "status": "unknown",
+            "value": null,
+            "confidence": 0.3,
+            "support_type": "unknown",
+            "rationale": "Нет прямых свидетельств, что Казарва делала акцент на действиях только в ответ на уже возникшие угрозы.",
+            "evidence_indices": []
+          }
+        },
+        "evidence_file": "evidence/independent-dossier-gertrude-kazarwa.json",
+        "evidence_basis": "59d276dc3a42d93f28f96dd9ec12954bf3a2175a434badb6ddba6bcc5edb242a"
+      }
+    },
+    "positive": 2,
+    "negative": null,
+    "value": null,
+    "status": "partial",
+    "difference": null,
+    "mass": null,
+    "measurement_model": "independent_poles",
+    "evidence_file": "evidence/independent-dossier-gertrude-kazarwa.json",
+    "evidence_basis": "59d276dc3a42d93f28f96dd9ec12954bf3a2175a434badb6ddba6bcc5edb242a",
+    "at": "2026-10-15T17:31:12.381441+00:00",
+    "reason": "Каждое свойство оценивается независимо; разность и искусственное дополнение до пяти не вычисляются"
+  },
+  {
+    "object_id": "gertrude-kazarwa",
+    "scale_id": "electoral-access",
+    "pole_scores": {
+      "positive": {
+        "status": "unknown",
+        "value": null,
+        "confidence": 0,
+        "evidence_indices": [],
+        "source_urls": [],
+        "event_ids": [],
+        "rationale": "Нет персональных заявлений или действий Казарвы, прямо направленных на расширение доступа к выборной конкуренции.",
+        "support_type": "unknown",
+        "provenance": {
+          "raw_response_file": "evidence/independent_responses/efc1b23591763ac0d10d8a980afed1f6a5f6046a0237f085cb2ca2e88bc08494.json",
+          "model": "gpt-4.1",
+          "at": "2026-10-15T17:31:12.376965+00:00",
+          "cache_key": "efc1b23591763ac0d10d8a980afed1f6a5f6046a0237f085cb2ca2e88bc08494",
+          "original_proposal": {
+            "variable_id": "electoral-access__positive",
+            "status": "unknown",
+            "value": null,
+            "confidence": 0.2,
+            "support_type": "unknown",
+            "rationale": "Нет персональных заявлений или действий Казарвы, прямо направленных на расширение доступа к выборной конкуренции.",
+            "evidence_indices": []
+          }
+        },
+        "evidence_file": "evidence/independent-dossier-gertrude-kazarwa.json",
+        "evidence_basis": "59d276dc3a42d93f28f96dd9ec12954bf3a2175a434badb6ddba6bcc5edb242a"
+      },
+      "negative": {
+        "status": "unknown",
+        "value": null,
+        "confidence": 0,
+        "evidence_indices": [],
+        "source_urls": [],
+        "event_ids": [],
+        "rationale": "Нет персональных заявлений или действий Казарвы, прямо направленных на усиление барьеров политического участия.",
+        "support_type": "unknown",
+        "provenance": {
+          "raw_response_file": "evidence/independent_responses/efc1b23591763ac0d10d8a980afed1f6a5f6046a0237f085cb2ca2e88bc08494.json",
+          "model": "gpt-4.1",
+          "at": "2026-10-15T17:31:12.376965+00:00",
+          "cache_key": "efc1b23591763ac0d10d8a980afed1f6a5f6046a0237f085cb2ca2e88bc08494",
+          "original_proposal": {
+            "variable_id": "electoral-access__negative",
+            "status": "unknown",
+            "value": null,
+            "confidence": 0.2,
+            "support_type": "unknown",
+            "rationale": "Нет персональных заявлений или действий Казарвы, прямо направленных на усиление барьеров политического участия.",
+            "evidence_indices": []
+          }
+        },
+        "evidence_file": "evidence/independent-dossier-gertrude-kazarwa.json",
+        "evidence_basis": "59d276dc3a42d93f28f96dd9ec12954bf3a2175a434badb6ddba6bcc5edb242a"
+      }
+    },
+    "positive": null,
+    "negative": null,
+    "value": null,
+    "status": "unknown",
+    "difference": null,
+    "mass": null,
+    "measurement_model": "independent_poles",
+    "evidence_file": "evidence/independent-dossier-gertrude-kazarwa.json",
+    "evidence_basis": "59d276dc3a42d93f28f96dd9ec12954bf3a2175a434badb6ddba6bcc5edb242a",
+    "at": "2026-10-15T17:31:12.381441+00:00",
+    "reason": "Каждое свойство оценивается независимо; разность и искусственное дополнение до пяти не вычисляются"
+  },
+  {
+    "object_id": "gertrude-kazarwa",
+    "scale_id": "institutional-autonomy-coordination",
+    "pole_scores": {
+      "positive": {
+        "status": "observed",
+        "value": 2,
+        "confidence": 0.7,
+        "evidence_indices": [
+          11
+        ],
+        "source_urls": [
+          "https://www.parliament.gov.rw/news-details/mps-open-the-second-ordinary-session-of-2025-2026"
+        ],
+        "event_ids": [
+          "gk-2025-06-05-session-opening"
+        ],
+        "rationale": "Казарва подчеркивала роль парламента в надзоре за действиями правительства и межинституциональном контроле, что свидетельствует о поддержке автономии и контроля между институтами, хотя выраженность ограничена.",
+        "support_type": "positive_manifestation",
+        "provenance": {
+          "raw_response_file": "evidence/independent_responses/efc1b23591763ac0d10d8a980afed1f6a5f6046a0237f085cb2ca2e88bc08494.json",
+          "model": "gpt-4.1",
+          "at": "2026-10-15T17:31:12.376965+00:00",
+          "cache_key": "efc1b23591763ac0d10d8a980afed1f6a5f6046a0237f085cb2ca2e88bc08494",
+          "original_proposal": {
+            "variable_id": "institutional-autonomy-coordination__positive",
+            "status": "observed",
+            "value": 2,
+            "confidence": 0.7,
+            "support_type": "positive_manifestation",
+            "rationale": "Казарва подчеркивала роль парламента в надзоре за действиями правительства и межинституциональном контроле, что свидетельствует о поддержке автономии и контроля между институтами, хотя выраженность ограничена.",
+            "evidence_indices": [
+              11
+            ]
+          }
+        },
+        "evidence_file": "evidence/independent-dossier-gertrude-kazarwa.json",
+        "evidence_basis": "59d276dc3a42d93f28f96dd9ec12954bf3a2175a434badb6ddba6bcc5edb242a"
+      },
+      "negative": {
+        "status": "unknown",
+        "value": null,
+        "confidence": 0,
+        "evidence_indices": [],
+        "source_urls": [],
+        "event_ids": [],
+        "rationale": "Нет прямых свидетельств, что Казарва делала акцент на согласовании работы институтов единой управленческой линией.",
+        "support_type": "unknown",
+        "provenance": {
+          "raw_response_file": "evidence/independent_responses/efc1b23591763ac0d10d8a980afed1f6a5f6046a0237f085cb2ca2e88bc08494.json",
+          "model": "gpt-4.1",
+          "at": "2026-10-15T17:31:12.376965+00:00",
+          "cache_key": "efc1b23591763ac0d10d8a980afed1f6a5f6046a0237f085cb2ca2e88bc08494",
+          "original_proposal": {
+            "variable_id": "institutional-autonomy-coordination__negative",
+            "status": "unknown",
+            "value": null,
+            "confidence": 0.3,
+            "support_type": "unknown",
+            "rationale": "Нет прямых свидетельств, что Казарва делала акцент на согласовании работы институтов единой управленческой линией.",
+            "evidence_indices": []
+          }
+        },
+        "evidence_file": "evidence/independent-dossier-gertrude-kazarwa.json",
+        "evidence_basis": "59d276dc3a42d93f28f96dd9ec12954bf3a2175a434badb6ddba6bcc5edb242a"
+      }
+    },
+    "positive": 2,
+    "negative": null,
+    "value": null,
+    "status": "partial",
+    "difference": null,
+    "mass": null,
+    "measurement_model": "independent_poles",
+    "evidence_file": "evidence/independent-dossier-gertrude-kazarwa.json",
+    "evidence_basis": "59d276dc3a42d93f28f96dd9ec12954bf3a2175a434badb6ddba6bcc5edb242a",
+    "at": "2026-10-15T17:31:12.381441+00:00",
+    "reason": "Каждое свойство оценивается независимо; разность и искусственное дополнение до пяти не вычисляются"
+  },
+  {
+    "object_id": "gertrude-kazarwa",
+    "scale_id": "taxation-burden-public-revenue",
+    "pole_scores": {
+      "positive": {
+        "status": "unknown",
+        "value": null,
+        "confidence": 0,
+        "evidence_indices": [],
+        "source_urls": [],
+        "event_ids": [],
+        "rationale": "Нет персональных заявлений или действий Казарвы, прямо направленных на снижение налоговой нагрузки или расширение имущественной самостоятельности.",
+        "support_type": "unknown",
+        "provenance": {
+          "raw_response_file": "evidence/independent_responses/efc1b23591763ac0d10d8a980afed1f6a5f6046a0237f085cb2ca2e88bc08494.json",
+          "model": "gpt-4.1",
+          "at": "2026-10-15T17:31:12.376965+00:00",
+          "cache_key": "efc1b23591763ac0d10d8a980afed1f6a5f6046a0237f085cb2ca2e88bc08494",
+          "original_proposal": {
+            "variable_id": "taxation-burden-public-revenue__positive",
+            "status": "unknown",
+            "value": null,
+            "confidence": 0.2,
+            "support_type": "unknown",
+            "rationale": "Нет персональных заявлений или действий Казарвы, прямо направленных на снижение налоговой нагрузки или расширение имущественной самостоятельности.",
+            "evidence_indices": []
+          }
+        },
+        "evidence_file": "evidence/independent-dossier-gertrude-kazarwa.json",
+        "evidence_basis": "59d276dc3a42d93f28f96dd9ec12954bf3a2175a434badb6ddba6bcc5edb242a"
+      },
+      "negative": {
+        "status": "unknown",
+        "value": null,
+        "confidence": 0,
+        "evidence_indices": [],
+        "source_urls": [],
+        "event_ids": [],
+        "rationale": "Нет персональных заявлений или действий Казарвы, прямо направленных на увеличение налоговых поступлений для публичного развития.",
+        "support_type": "unknown",
+        "provenance": {
+          "raw_response_file": "evidence/independent_responses/efc1b23591763ac0d10d8a980afed1f6a5f6046a0237f085cb2ca2e88bc08494.json",
+          "model": "gpt-4.1",
+          "at": "2026-10-15T17:31:12.376965+00:00",
+          "cache_key": "efc1b23591763ac0d10d8a980afed1f6a5f6046a0237f085cb2ca2e88bc08494",
+          "original_proposal": {
+            "variable_id": "taxation-burden-public-revenue__negative",
+            "status": "unknown",
+            "value": null,
+            "confidence": 0.2,
+            "support_type": "unknown",
+            "rationale": "Нет персональных заявлений или действий Казарвы, прямо направленных на увеличение налоговых поступлений для публичного развития.",
+            "evidence_indices": []
+          }
+        },
+        "evidence_file": "evidence/independent-dossier-gertrude-kazarwa.json",
+        "evidence_basis": "59d276dc3a42d93f28f96dd9ec12954bf3a2175a434badb6ddba6bcc5edb242a"
+      }
+    },
+    "positive": null,
+    "negative": null,
+    "value": null,
+    "status": "unknown",
+    "difference": null,
+    "mass": null,
+    "measurement_model": "independent_poles",
+    "evidence_file": "evidence/independent-dossier-gertrude-kazarwa.json",
+    "evidence_basis": "59d276dc3a42d93f28f96dd9ec12954bf3a2175a434badb6ddba6bcc5edb242a",
+    "at": "2026-10-15T17:31:12.381441+00:00",
+    "reason": "Каждое свойство оценивается независимо; разность и искусственное дополнение до пяти не вычисляются"
+  },
+  {
+    "object_id": "gertrude-kazarwa",
+    "scale_id": "universal-targeted-provision",
+    "pole_scores": {
+      "positive": {
+        "status": "observed",
+        "value": 2,
+        "confidence": 0.7,
+        "evidence_indices": [
+          15,
+          18
+        ],
+        "source_urls": [
+          "https://parliament.gov.rw/news-detail",
+          "https://www.parliament.gov.rw/news-details/rwanda-celebrates-international-day-of-democracy"
+        ],
+        "event_ids": [
+          "gk-2026-06-01-democracy-day",
+          "kazarwa-democracy-technology-2024-10-31"
+        ],
+        "rationale": "Казарва заявляла о необходимости предоставить каждому гражданину доступ к технологиям и вовлекать всех граждан в инициативы развития, что указывает на поддержку универсальных стандартов доступности благ.",
+        "support_type": "positive_manifestation",
+        "provenance": {
+          "raw_response_file": "evidence/independent_responses/efc1b23591763ac0d10d8a980afed1f6a5f6046a0237f085cb2ca2e88bc08494.json",
+          "model": "gpt-4.1",
+          "at": "2026-10-15T17:31:12.376965+00:00",
+          "cache_key": "efc1b23591763ac0d10d8a980afed1f6a5f6046a0237f085cb2ca2e88bc08494",
+          "original_proposal": {
+            "variable_id": "universal-targeted-provision__positive",
+            "status": "observed",
+            "value": 2,
+            "confidence": 0.7,
+            "support_type": "positive_manifestation",
+            "rationale": "Казарва заявляла о необходимости предоставить каждому гражданину доступ к технологиям и вовлекать всех граждан в инициативы развития, что указывает на поддержку универсальных стандартов доступности благ.",
+            "evidence_indices": [
+              15,
+              18
+            ]
+          }
+        },
+        "evidence_file": "evidence/independent-dossier-gertrude-kazarwa.json",
+        "evidence_basis": "59d276dc3a42d93f28f96dd9ec12954bf3a2175a434badb6ddba6bcc5edb242a"
+      },
+      "negative": {
+        "status": "observed",
+        "value": 2,
+        "confidence": 0.6,
+        "evidence_indices": [
+          0,
+          9,
+          10,
+          19
+        ],
+        "source_urls": [
+          "https://africa.unwomen.org/en/stories/news/2025/03/empowering-rwandas-parliamentarians-training-on-gender-equality-for-stronger-leadership",
+          "https://www.parliament.gov.rw/news-details/mps-commit-to-further-promoting-gender-equality",
+          "https://taarifa.rw/2024/09/30/president-of-the-chamber-of-deputies-participates-in-23rd-general-assembly-of-the-national-womens-council/"
+        ],
+        "event_ids": [
+          "gk-2025-03-06-gender-training",
+          "gk-2025-02-08-gender-oversight",
+          "kazarwa-women-development-2024-09-30"
+        ],
+        "rationale": "Казарва делала акцент на гендерном равенстве и расширении прав женщин, а также на необходимости учитывать проблемы конкретных групп (женщины, сельские жители), что указывает на элементы приоритетной помощи уязвимым группам.",
+        "support_type": "positive_manifestation",
+        "provenance": {
+          "raw_response_file": "evidence/independent_responses/efc1b23591763ac0d10d8a980afed1f6a5f6046a0237f085cb2ca2e88bc08494.json",
+          "model": "gpt-4.1",
+          "at": "2026-10-15T17:31:12.376965+00:00",
+          "cache_key": "efc1b23591763ac0d10d8a980afed1f6a5f6046a0237f085cb2ca2e88bc08494",
+          "original_proposal": {
+            "variable_id": "universal-targeted-provision__negative",
+            "status": "observed",
+            "value": 2,
+            "confidence": 0.6,
+            "support_type": "positive_manifestation",
+            "rationale": "Казарва делала акцент на гендерном равенстве и расширении прав женщин, а также на необходимости учитывать проблемы конкретных групп (женщины, сельские жители), что указывает на элементы приоритетной помощи уязвимым группам.",
+            "evidence_indices": [
+              0,
+              9,
+              10,
+              19
+            ]
+          }
+        },
+        "evidence_file": "evidence/independent-dossier-gertrude-kazarwa.json",
+        "evidence_basis": "59d276dc3a42d93f28f96dd9ec12954bf3a2175a434badb6ddba6bcc5edb242a"
+      }
+    },
+    "positive": 2,
+    "negative": 2,
+    "value": null,
+    "status": "observed",
+    "difference": null,
+    "mass": null,
+    "measurement_model": "independent_poles",
+    "evidence_file": "evidence/independent-dossier-gertrude-kazarwa.json",
+    "evidence_basis": "59d276dc3a42d93f28f96dd9ec12954bf3a2175a434badb6ddba6bcc5edb242a",
+    "at": "2026-10-15T17:31:12.381441+00:00",
+    "reason": "Каждое свойство оценивается независимо; разность и искусственное дополнение до пяти не вычисляются"
+  },
+  {
+    "object_id": "gertrude-kazarwa",
+    "scale_id": "ecological-limits-resource-use",
+    "pole_scores": {
+      "positive": {
+        "status": "unknown",
+        "value": null,
+        "confidence": 0,
+        "evidence_indices": [],
+        "source_urls": [],
+        "event_ids": [],
+        "rationale": "Нет персональных заявлений или действий Казарвы, прямо направленных на усиление природоохранных ограничений хозяйственной деятельности.",
+        "support_type": "unknown",
+        "provenance": {
+          "raw_response_file": "evidence/independent_responses/efc1b23591763ac0d10d8a980afed1f6a5f6046a0237f085cb2ca2e88bc08494.json",
+          "model": "gpt-4.1",
+          "at": "2026-10-15T17:31:12.376965+00:00",
+          "cache_key": "efc1b23591763ac0d10d8a980afed1f6a5f6046a0237f085cb2ca2e88bc08494",
+          "original_proposal": {
+            "variable_id": "ecological-limits-resource-use__positive",
+            "status": "unknown",
+            "value": null,
+            "confidence": 0.3,
+            "support_type": "unknown",
+            "rationale": "Нет персональных заявлений или действий Казарвы, прямо направленных на усиление природоохранных ограничений хозяйственной деятельности.",
+            "evidence_indices": []
+          }
+        },
+        "evidence_file": "evidence/independent-dossier-gertrude-kazarwa.json",
+        "evidence_basis": "59d276dc3a42d93f28f96dd9ec12954bf3a2175a434badb6ddba6bcc5edb242a"
+      },
+      "negative": {
+        "status": "observed",
+        "value": 1,
+        "confidence": 0.5,
+        "evidence_indices": [
+          7,
+          13
+        ],
+        "source_urls": [
+          "https://www.parliament.gov.rw/home"
+        ],
+        "event_ids": [
+          "gk-2026-10-10-agricultural-season"
+        ],
+        "rationale": "В эпизоде с запуском сельскохозяйственного сезона Казарва призывала увеличить производство, что может свидетельствовать о поддержке расширения хозяйственного использования ресурсов, однако выраженность ограничена и не содержит прямого противопоставления экологическим ограничениям.",
+        "support_type": "positive_manifestation",
+        "provenance": {
+          "raw_response_file": "evidence/independent_responses/efc1b23591763ac0d10d8a980afed1f6a5f6046a0237f085cb2ca2e88bc08494.json",
+          "model": "gpt-4.1",
+          "at": "2026-10-15T17:31:12.376965+00:00",
+          "cache_key": "efc1b23591763ac0d10d8a980afed1f6a5f6046a0237f085cb2ca2e88bc08494",
+          "original_proposal": {
+            "variable_id": "ecological-limits-resource-use__negative",
+            "status": "observed",
+            "value": 1,
+            "confidence": 0.5,
+            "support_type": "positive_manifestation",
+            "rationale": "В эпизоде с запуском сельскохозяйственного сезона Казарва призывала увеличить производство, что может свидетельствовать о поддержке расширения хозяйственного использования ресурсов, однако выраженность ограничена и не содержит прямого противопоставления экологическим ограничениям.",
+            "evidence_indices": [
+              7,
+              13
+            ]
+          }
+        },
+        "evidence_file": "evidence/independent-dossier-gertrude-kazarwa.json",
+        "evidence_basis": "59d276dc3a42d93f28f96dd9ec12954bf3a2175a434badb6ddba6bcc5edb242a"
+      }
+    },
+    "positive": null,
+    "negative": 1,
+    "value": null,
+    "status": "partial",
+    "difference": null,
+    "mass": null,
+    "measurement_model": "independent_poles",
+    "evidence_file": "evidence/independent-dossier-gertrude-kazarwa.json",
+    "evidence_basis": "59d276dc3a42d93f28f96dd9ec12954bf3a2175a434badb6ddba6bcc5edb242a",
+    "at": "2026-10-15T17:31:12.381441+00:00",
+    "reason": "Каждое свойство оценивается независимо; разность и искусственное дополнение до пяти не вычисляются"
+  },
+  {
+    "object_id": "gertrude-kazarwa",
+    "scale_id": "russia-diplomatic-engagement",
+    "pole_scores": {
+      "positive": {
+        "status": "unknown",
+        "value": null,
+        "confidence": 0,
+        "evidence_indices": [],
+        "source_urls": [],
+        "event_ids": [],
+        "rationale": "Нет допустимых датированных персональных свидетельств по этому свойству",
+        "support_type": "unknown"
+      },
+      "negative": {
+        "status": "unknown",
+        "value": null,
+        "confidence": 0,
+        "evidence_indices": [],
+        "source_urls": [],
+        "event_ids": [],
+        "rationale": "Нет допустимых датированных персональных свидетельств по этому свойству",
+        "support_type": "unknown"
+      }
+    },
+    "positive": null,
+    "negative": null,
+    "value": null,
+    "status": "unknown",
+    "difference": null,
+    "mass": null,
+    "measurement_model": "independent_poles",
+    "evidence_file": "evidence/independent-dossier-gertrude-kazarwa.json",
+    "evidence_basis": "59d276dc3a42d93f28f96dd9ec12954bf3a2175a434badb6ddba6bcc5edb242a",
+    "at": "2026-10-15T17:31:12.381441+00:00",
+    "reason": "Каждое свойство оценивается независимо; разность и искусственное дополнение до пяти не вычисляются"
+  },
+  {
+    "object_id": "gertrude-kazarwa",
+    "scale_id": "russia-security-cooperation",
+    "pole_scores": {
+      "positive": {
+        "status": "unknown",
+        "value": null,
+        "confidence": 0,
+        "evidence_indices": [],
+        "source_urls": [],
+        "event_ids": [],
+        "rationale": "Нет допустимых датированных персональных свидетельств по этому свойству",
+        "support_type": "unknown"
+      },
+      "negative": {
+        "status": "unknown",
+        "value": null,
+        "confidence": 0,
+        "evidence_indices": [],
+        "source_urls": [],
+        "event_ids": [],
+        "rationale": "Нет допустимых датированных персональных свидетельств по этому свойству",
+        "support_type": "unknown"
+      }
+    },
+    "positive": null,
+    "negative": null,
+    "value": null,
+    "status": "unknown",
+    "difference": null,
+    "mass": null,
+    "measurement_model": "independent_poles",
+    "evidence_file": "evidence/independent-dossier-gertrude-kazarwa.json",
+    "evidence_basis": "59d276dc3a42d93f28f96dd9ec12954bf3a2175a434badb6ddba6bcc5edb242a",
+    "at": "2026-10-15T17:31:12.381441+00:00",
+    "reason": "Каждое свойство оценивается независимо; разность и искусственное дополнение до пяти не вычисляются"
+  },
+  {
+    "object_id": "gertrude-kazarwa",
+    "scale_id": "russia-economic-technology-cooperation",
+    "pole_scores": {
+      "positive": {
+        "status": "unknown",
+        "value": null,
+        "confidence": 0,
+        "evidence_indices": [],
+        "source_urls": [],
+        "event_ids": [],
+        "rationale": "Нет допустимых датированных персональных свидетельств по этому свойству",
+        "support_type": "unknown"
+      },
+      "negative": {
+        "status": "unknown",
+        "value": null,
+        "confidence": 0,
+        "evidence_indices": [],
+        "source_urls": [],
+        "event_ids": [],
+        "rationale": "Нет допустимых датированных персональных свидетельств по этому свойству",
+        "support_type": "unknown"
+      }
+    },
+    "positive": null,
+    "negative": null,
+    "value": null,
+    "status": "unknown",
+    "difference": null,
+    "mass": null,
+    "measurement_model": "independent_poles",
+    "evidence_file": "evidence/independent-dossier-gertrude-kazarwa.json",
+    "evidence_basis": "59d276dc3a42d93f28f96dd9ec12954bf3a2175a434badb6ddba6bcc5edb242a",
+    "at": "2026-10-15T17:31:12.381441+00:00",
+    "reason": "Каждое свойство оценивается независимо; разность и искусственное дополнение до пяти не вычисляются"
+  },
+  {
+    "object_id": "gertrude-kazarwa",
+    "scale_id": "russia-education-cultural-cooperation",
+    "pole_scores": {
+      "positive": {
+        "status": "unknown",
+        "value": null,
+        "confidence": 0,
+        "evidence_indices": [],
+        "source_urls": [],
+        "event_ids": [],
+        "rationale": "Нет допустимых датированных персональных свидетельств по этому свойству",
+        "support_type": "unknown"
+      },
+      "negative": {
+        "status": "unknown",
+        "value": null,
+        "confidence": 0,
+        "evidence_indices": [],
+        "source_urls": [],
+        "event_ids": [],
+        "rationale": "Нет допустимых датированных персональных свидетельств по этому свойству",
+        "support_type": "unknown"
+      }
+    },
+    "positive": null,
+    "negative": null,
+    "value": null,
+    "status": "unknown",
+    "difference": null,
+    "mass": null,
+    "measurement_model": "independent_poles",
+    "evidence_file": "evidence/independent-dossier-gertrude-kazarwa.json",
+    "evidence_basis": "59d276dc3a42d93f28f96dd9ec12954bf3a2175a434badb6ddba6bcc5edb242a",
+    "at": "2026-10-15T17:31:12.381441+00:00",
+    "reason": "Каждое свойство оценивается независимо; разность и искусственное дополнение до пяти не вычисляются"
+  },
+  {
+    "object_id": "gertrude-kazarwa",
+    "scale_id": "russia-conflict-policy-evaluation",
+    "pole_scores": {
+      "positive": {
+        "status": "unknown",
+        "value": null,
+        "confidence": 0,
+        "evidence_indices": [],
+        "source_urls": [],
+        "event_ids": [],
+        "rationale": "Нет допустимых датированных персональных свидетельств по этому свойству",
+        "support_type": "unknown"
+      },
+      "negative": {
+        "status": "unknown",
+        "value": null,
+        "confidence": 0,
+        "evidence_indices": [],
+        "source_urls": [],
+        "event_ids": [],
+        "rationale": "Нет допустимых датированных персональных свидетельств по этому свойству",
+        "support_type": "unknown"
+      }
+    },
+    "positive": null,
+    "negative": null,
+    "value": null,
+    "status": "unknown",
+    "difference": null,
+    "mass": null,
+    "measurement_model": "independent_poles",
+    "evidence_file": "evidence/independent-dossier-gertrude-kazarwa.json",
+    "evidence_basis": "59d276dc3a42d93f28f96dd9ec12954bf3a2175a434badb6ddba6bcc5edb242a",
+    "at": "2026-10-15T17:31:12.381441+00:00",
+    "reason": "Каждое свойство оценивается независимо; разность и искусственное дополнение до пяти не вычисляются"
+  },
+  {
+    "object_id": "gertrude-kazarwa",
+    "scale_id": "russia-isolation-sanctions",
+    "pole_scores": {
+      "positive": {
+        "status": "unknown",
+        "value": null,
+        "confidence": 0,
+        "evidence_indices": [],
+        "source_urls": [],
+        "event_ids": [],
+        "rationale": "Нет допустимых датированных персональных свидетельств по этому свойству",
+        "support_type": "unknown"
+      },
+      "negative": {
+        "status": "unknown",
+        "value": null,
+        "confidence": 0,
+        "evidence_indices": [],
+        "source_urls": [],
+        "event_ids": [],
+        "rationale": "Нет допустимых датированных персональных свидетельств по этому свойству",
+        "support_type": "unknown"
+      }
+    },
+    "positive": null,
+    "negative": null,
+    "value": null,
+    "status": "unknown",
+    "difference": null,
+    "mass": null,
+    "measurement_model": "independent_poles",
+    "evidence_file": "evidence/independent-dossier-gertrude-kazarwa.json",
+    "evidence_basis": "59d276dc3a42d93f28f96dd9ec12954bf3a2175a434badb6ddba6bcc5edb242a",
+    "at": "2026-10-15T17:31:12.381441+00:00",
+    "reason": "Каждое свойство оценивается независимо; разность и искусственное дополнение до пяти не вычисляются"
+  }
+]

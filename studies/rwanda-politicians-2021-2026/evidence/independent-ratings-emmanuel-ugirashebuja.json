@@ -1,0 +1,1988 @@
+[
+  {
+    "object_id": "emmanuel-ugirashebuja",
+    "scale_id": "programmatic-renewal",
+    "pole_scores": {
+      "positive": {
+        "status": "observed",
+        "value": 2,
+        "confidence": 0.7,
+        "evidence_indices": [
+          0,
+          1,
+          3,
+          10,
+          19,
+          21
+        ],
+        "source_urls": [
+          "https://www.minijust.gov.rw/news-detail/minister-of-justice-attorney-general-met-with-government-legal-advisors",
+          "https://www.minijust.gov.rw/news-detail/technology-plays-a-big-role-in-enhancing-access-to-justice",
+          "https://rwanda.un.org/en/282786-rwanda-ushers-new-era-justice-inauguration-adr-center",
+          "https://www.minijust.gov.rw/news-detail/alternative-dispute-resolution-and-criminal-justice-policies-will-significantly-promote-rule-of-law",
+          "https://www.minijust.gov.rw/news-detail/our-commitment-to-upholding-human-rights-is-unwavering-min-emmanuel-ugirashebuja",
+          "https://www.minijust.gov.rw/news-detail/justice-demands-more-it-requires-tangible-actions-and-unwarering-commitment"
+        ],
+        "event_ids": [
+          "ugirashebuja-2022-09-28-legal-advisers",
+          "ugirashebuja-2024-03-13-technology-justice",
+          "ugirashebuja-2024-11-04-adr-center",
+          "ugirashebuja-2023-01-10-adr-criminal-justice-policies",
+          "ugirashebuja-2023-11-13-human-rights-priorities",
+          "ugirashebuja-2023-05-29-jrlos-policy-implementation"
+        ],
+        "rationale": "В ряде эпизодов (например, обсуждение изменений в регулировании земельных отношений, цифровизация правосудия, внедрение новых политик в сфере уголовного правосудия и альтернативного разрешения споров) фиксируются предложения и действия по обновлению и адаптации существующих программ и нормативных рамок. Однако эти проявления ограничены рамками сектора правосудия и не носят характер радикального пересмотра всего курса.",
+        "support_type": "positive_manifestation",
+        "provenance": {
+          "raw_response_file": "evidence/independent_responses/c895d63d123a9ae254a035d37f72dd2369540b020bf6a8ff06e19795d109d2ab.json",
+          "model": "gpt-4.1",
+          "at": "2026-10-15T17:29:48.325057+00:00",
+          "cache_key": "c895d63d123a9ae254a035d37f72dd2369540b020bf6a8ff06e19795d109d2ab",
+          "original_proposal": {
+            "variable_id": "programmatic-renewal__positive",
+            "status": "observed",
+            "value": 2,
+            "confidence": 0.7,
+            "support_type": "positive_manifestation",
+            "rationale": "В ряде эпизодов (например, обсуждение изменений в регулировании земельных отношений, цифровизация правосудия, внедрение новых политик в сфере уголовного правосудия и альтернативного разрешения споров) фиксируются предложения и действия по обновлению и адаптации существующих программ и нормативных рамок. Однако эти проявления ограничены рамками сектора правосудия и не носят характер радикального пересмотра всего курса.",
+            "evidence_indices": [
+              0,
+              1,
+              3,
+              10,
+              19,
+              21
+            ]
+          }
+        },
+        "evidence_file": "evidence/independent-dossier-emmanuel-ugirashebuja.json",
+        "evidence_basis": "428ce7f34039ea4f4536007f9d040fef4f12dba20f64d6ffc22b9de8f8164fbe"
+      },
+      "negative": {
+        "status": "observed",
+        "value": 3,
+        "confidence": 0.8,
+        "evidence_indices": [
+          10,
+          12,
+          15,
+          16,
+          17,
+          18,
+          19,
+          21
+        ],
+        "source_urls": [
+          "https://www.minijust.gov.rw/news-detail/alternative-dispute-resolution-and-criminal-justice-policies-will-significantly-promote-rule-of-law",
+          "https://www.minijust.gov.rw/news-detail/launch-of-the-2025-2026-judicial-year",
+          "https://www.minijust.gov.rw/news-detail/rwanda-marks-international-anti-corruption-day-empowering-youth-for-a-future-of-integrity",
+          "https://www.minijust.gov.rw/news-detail/our-commitment-to-upholding-human-rights-is-unwavering-min-emmanuel-ugirashebuja",
+          "https://www.minijust.gov.rw/fileadmin/user_upload/Minijust/Speeches/20.01.2026-DETAILED_VERSION_OPENING_STATEMENT_RWANDA_4TH_UPR_REVIEW.pdf",
+          "https://www.minijust.gov.rw/news-detail/justice-demands-more-it-requires-tangible-actions-and-unwarering-commitment"
+        ],
+        "event_ids": [
+          "ugirashebuja-2023-01-10-adr-criminal-justice-policies",
+          "ugirashebuja-2026-09-24-judicial-year",
+          "ugirashebuja-2025-12-09-anti-corruption-day",
+          "ugirashebuja-2023-11-13-national-dialogue-human-rights",
+          "ugirashebuja-2026-01-20-upr-opening-statement",
+          "ugirashebuja-2026-01-20-upr-social-service-deployment",
+          "ugirashebuja-2023-11-13-human-rights-priorities",
+          "ugirashebuja-2023-05-29-jrlos-policy-implementation"
+        ],
+        "rationale": "Многочисленные публичные заявления и действия направлены на закрепление и развитие действующего курса в сфере правосудия, антикоррупционной политики, прав человека и доступа к правосудию. Подчёркивается преемственность и институциональная устойчивость, в том числе через ссылки на национальные, региональные и международные стандарты.",
+        "support_type": "positive_manifestation",
+        "provenance": {
+          "raw_response_file": "evidence/independent_responses/c895d63d123a9ae254a035d37f72dd2369540b020bf6a8ff06e19795d109d2ab.json",
+          "model": "gpt-4.1",
+          "at": "2026-10-15T17:29:48.325057+00:00",
+          "cache_key": "c895d63d123a9ae254a035d37f72dd2369540b020bf6a8ff06e19795d109d2ab",
+          "original_proposal": {
+            "variable_id": "programmatic-renewal__negative",
+            "status": "observed",
+            "value": 3,
+            "confidence": 0.8,
+            "support_type": "positive_manifestation",
+            "rationale": "Многочисленные публичные заявления и действия направлены на закрепление и развитие действующего курса в сфере правосудия, антикоррупционной политики, прав человека и доступа к правосудию. Подчёркивается преемственность и институциональная устойчивость, в том числе через ссылки на национальные, региональные и международные стандарты.",
+            "evidence_indices": [
+              10,
+              12,
+              15,
+              16,
+              17,
+              18,
+              19,
+              21
+            ]
+          }
+        },
+        "evidence_file": "evidence/independent-dossier-emmanuel-ugirashebuja.json",
+        "evidence_basis": "428ce7f34039ea4f4536007f9d040fef4f12dba20f64d6ffc22b9de8f8164fbe"
+      }
+    },
+    "positive": 2,
+    "negative": 3,
+    "value": null,
+    "status": "observed",
+    "difference": null,
+    "mass": null,
+    "measurement_model": "independent_poles",
+    "evidence_file": "evidence/independent-dossier-emmanuel-ugirashebuja.json",
+    "evidence_basis": "428ce7f34039ea4f4536007f9d040fef4f12dba20f64d6ffc22b9de8f8164fbe",
+    "at": "2026-10-15T17:29:58.021688+00:00",
+    "reason": "Каждое свойство оценивается независимо; разность и искусственное дополнение до пяти не вычисляются"
+  },
+  {
+    "object_id": "emmanuel-ugirashebuja",
+    "scale_id": "government-course-assessment",
+    "pole_scores": {
+      "positive": {
+        "status": "observed",
+        "value": 4,
+        "confidence": 0.9,
+        "evidence_indices": [
+          10,
+          12,
+          15,
+          16,
+          17,
+          18,
+          19,
+          21
+        ],
+        "source_urls": [
+          "https://www.minijust.gov.rw/news-detail/alternative-dispute-resolution-and-criminal-justice-policies-will-significantly-promote-rule-of-law",
+          "https://www.minijust.gov.rw/news-detail/launch-of-the-2025-2026-judicial-year",
+          "https://www.minijust.gov.rw/news-detail/rwanda-marks-international-anti-corruption-day-empowering-youth-for-a-future-of-integrity",
+          "https://www.minijust.gov.rw/news-detail/our-commitment-to-upholding-human-rights-is-unwavering-min-emmanuel-ugirashebuja",
+          "https://www.minijust.gov.rw/fileadmin/user_upload/Minijust/Speeches/20.01.2026-DETAILED_VERSION_OPENING_STATEMENT_RWANDA_4TH_UPR_REVIEW.pdf",
+          "https://www.minijust.gov.rw/news-detail/justice-demands-more-it-requires-tangible-actions-and-unwarering-commitment"
+        ],
+        "event_ids": [
+          "ugirashebuja-2023-01-10-adr-criminal-justice-policies",
+          "ugirashebuja-2026-09-24-judicial-year",
+          "ugirashebuja-2025-12-09-anti-corruption-day",
+          "ugirashebuja-2023-11-13-national-dialogue-human-rights",
+          "ugirashebuja-2026-01-20-upr-opening-statement",
+          "ugirashebuja-2026-01-20-upr-social-service-deployment",
+          "ugirashebuja-2023-11-13-human-rights-priorities",
+          "ugirashebuja-2023-05-29-jrlos-policy-implementation"
+        ],
+        "rationale": "Публично поддерживает действующий курс правительства в сфере правосудия, антикоррупционной политики, развития правовых и социальных услуг, подчёркивает достижения и необходимость дальнейшего следования этим направлениям.",
+        "support_type": "positive_manifestation",
+        "provenance": {
+          "raw_response_file": "evidence/independent_responses/c895d63d123a9ae254a035d37f72dd2369540b020bf6a8ff06e19795d109d2ab.json",
+          "model": "gpt-4.1",
+          "at": "2026-10-15T17:29:48.325057+00:00",
+          "cache_key": "c895d63d123a9ae254a035d37f72dd2369540b020bf6a8ff06e19795d109d2ab",
+          "original_proposal": {
+            "variable_id": "government-course-assessment__positive",
+            "status": "observed",
+            "value": 4,
+            "confidence": 0.9,
+            "support_type": "positive_manifestation",
+            "rationale": "Публично поддерживает действующий курс правительства в сфере правосудия, антикоррупционной политики, развития правовых и социальных услуг, подчёркивает достижения и необходимость дальнейшего следования этим направлениям.",
+            "evidence_indices": [
+              10,
+              12,
+              15,
+              16,
+              17,
+              18,
+              19,
+              21
+            ]
+          }
+        },
+        "evidence_file": "evidence/independent-dossier-emmanuel-ugirashebuja.json",
+        "evidence_basis": "428ce7f34039ea4f4536007f9d040fef4f12dba20f64d6ffc22b9de8f8164fbe"
+      },
+      "negative": {
+        "status": "observed",
+        "value": 0,
+        "confidence": 0.95,
+        "evidence_indices": [
+          10,
+          12,
+          15,
+          16,
+          19,
+          21
+        ],
+        "source_urls": [
+          "https://www.minijust.gov.rw/news-detail/alternative-dispute-resolution-and-criminal-justice-policies-will-significantly-promote-rule-of-law",
+          "https://www.minijust.gov.rw/news-detail/launch-of-the-2025-2026-judicial-year",
+          "https://www.minijust.gov.rw/news-detail/rwanda-marks-international-anti-corruption-day-empowering-youth-for-a-future-of-integrity",
+          "https://www.minijust.gov.rw/news-detail/our-commitment-to-upholding-human-rights-is-unwavering-min-emmanuel-ugirashebuja",
+          "https://www.minijust.gov.rw/news-detail/justice-demands-more-it-requires-tangible-actions-and-unwarering-commitment"
+        ],
+        "event_ids": [
+          "ugirashebuja-2023-01-10-adr-criminal-justice-policies",
+          "ugirashebuja-2026-09-24-judicial-year",
+          "ugirashebuja-2025-12-09-anti-corruption-day",
+          "ugirashebuja-2023-11-13-national-dialogue-human-rights",
+          "ugirashebuja-2023-11-13-human-rights-priorities",
+          "ugirashebuja-2023-05-29-jrlos-policy-implementation"
+        ],
+        "rationale": "В имеющихся материалах отсутствует прямая критика действующего государственного курса; все публичные заявления и действия направлены на поддержку и развитие существующих приоритетов.",
+        "support_type": "explicit_absence",
+        "provenance": {
+          "raw_response_file": "evidence/independent_responses/c895d63d123a9ae254a035d37f72dd2369540b020bf6a8ff06e19795d109d2ab.json",
+          "model": "gpt-4.1",
+          "at": "2026-10-15T17:29:48.325057+00:00",
+          "cache_key": "c895d63d123a9ae254a035d37f72dd2369540b020bf6a8ff06e19795d109d2ab",
+          "original_proposal": {
+            "variable_id": "government-course-assessment__negative",
+            "status": "observed",
+            "value": 0,
+            "confidence": 0.95,
+            "support_type": "explicit_absence",
+            "rationale": "В имеющихся материалах отсутствует прямая критика действующего государственного курса; все публичные заявления и действия направлены на поддержку и развитие существующих приоритетов.",
+            "evidence_indices": [
+              10,
+              12,
+              15,
+              16,
+              19,
+              21
+            ]
+          }
+        },
+        "evidence_file": "evidence/independent-dossier-emmanuel-ugirashebuja.json",
+        "evidence_basis": "428ce7f34039ea4f4536007f9d040fef4f12dba20f64d6ffc22b9de8f8164fbe"
+      }
+    },
+    "positive": 4,
+    "negative": 0,
+    "value": null,
+    "status": "observed",
+    "difference": null,
+    "mass": null,
+    "measurement_model": "independent_poles",
+    "evidence_file": "evidence/independent-dossier-emmanuel-ugirashebuja.json",
+    "evidence_basis": "428ce7f34039ea4f4536007f9d040fef4f12dba20f64d6ffc22b9de8f8164fbe",
+    "at": "2026-10-15T17:29:58.021688+00:00",
+    "reason": "Каждое свойство оценивается независимо; разность и искусственное дополнение до пяти не вычисляются"
+  },
+  {
+    "object_id": "emmanuel-ugirashebuja",
+    "scale_id": "participation-administrative-direction",
+    "pole_scores": {
+      "positive": {
+        "status": "observed",
+        "value": 2,
+        "confidence": 0.7,
+        "evidence_indices": [
+          10,
+          20,
+          22
+        ],
+        "source_urls": [
+          "https://www.minijust.gov.rw/news-detail/alternative-dispute-resolution-and-criminal-justice-policies-will-significantly-promote-rule-of-law",
+          "https://www.minijust.gov.rw/news-detail/justice-demands-more-it-requires-tangible-actions-and-unwarering-commitment"
+        ],
+        "event_ids": [
+          "ugirashebuja-2023-01-10-adr-criminal-justice-policies",
+          "ugirashebuja-2023-05-29-jrlos-peer-review",
+          "ugirashebuja-2023-05-29-jrlos-citizen-role"
+        ],
+        "rationale": "В ряде эпизодов отмечается признание роли граждан и заинтересованных сторон в обсуждении и реализации политик сектора правосудия, а также благодарность за участие в разработке документов. Однако эти проявления имеют ограниченный масштаб и не свидетельствуют о системном совместном управлении.",
+        "support_type": "positive_manifestation",
+        "provenance": {
+          "raw_response_file": "evidence/independent_responses/c895d63d123a9ae254a035d37f72dd2369540b020bf6a8ff06e19795d109d2ab.json",
+          "model": "gpt-4.1",
+          "at": "2026-10-15T17:29:48.325057+00:00",
+          "cache_key": "c895d63d123a9ae254a035d37f72dd2369540b020bf6a8ff06e19795d109d2ab",
+          "original_proposal": {
+            "variable_id": "participation-administrative-direction__positive",
+            "status": "observed",
+            "value": 2,
+            "confidence": 0.7,
+            "support_type": "positive_manifestation",
+            "rationale": "В ряде эпизодов отмечается признание роли граждан и заинтересованных сторон в обсуждении и реализации политик сектора правосудия, а также благодарность за участие в разработке документов. Однако эти проявления имеют ограниченный масштаб и не свидетельствуют о системном совместном управлении.",
+            "evidence_indices": [
+              10,
+              20,
+              22
+            ]
+          }
+        },
+        "evidence_file": "evidence/independent-dossier-emmanuel-ugirashebuja.json",
+        "evidence_basis": "428ce7f34039ea4f4536007f9d040fef4f12dba20f64d6ffc22b9de8f8164fbe"
+      },
+      "negative": {
+        "status": "observed",
+        "value": 3,
+        "confidence": 0.8,
+        "evidence_indices": [
+          0,
+          20,
+          21
+        ],
+        "source_urls": [
+          "https://www.minijust.gov.rw/news-detail/minister-of-justice-attorney-general-met-with-government-legal-advisors",
+          "https://www.minijust.gov.rw/news-detail/justice-demands-more-it-requires-tangible-actions-and-unwarering-commitment"
+        ],
+        "event_ids": [
+          "ugirashebuja-2022-09-28-legal-advisers",
+          "ugirashebuja-2023-05-29-jrlos-peer-review",
+          "ugirashebuja-2023-05-29-jrlos-policy-implementation"
+        ],
+        "rationale": "Преобладают управленческие подходы: постановка задач, контроль исполнения, акцент на институциональной ответственности и прикладных результатах. Совещания с государственными советниками и управленческие требования подтверждают административный стиль руководства.",
+        "support_type": "positive_manifestation",
+        "provenance": {
+          "raw_response_file": "evidence/independent_responses/c895d63d123a9ae254a035d37f72dd2369540b020bf6a8ff06e19795d109d2ab.json",
+          "model": "gpt-4.1",
+          "at": "2026-10-15T17:29:48.325057+00:00",
+          "cache_key": "c895d63d123a9ae254a035d37f72dd2369540b020bf6a8ff06e19795d109d2ab",
+          "original_proposal": {
+            "variable_id": "participation-administrative-direction__negative",
+            "status": "observed",
+            "value": 3,
+            "confidence": 0.8,
+            "support_type": "positive_manifestation",
+            "rationale": "Преобладают управленческие подходы: постановка задач, контроль исполнения, акцент на институциональной ответственности и прикладных результатах. Совещания с государственными советниками и управленческие требования подтверждают административный стиль руководства.",
+            "evidence_indices": [
+              0,
+              20,
+              21
+            ]
+          }
+        },
+        "evidence_file": "evidence/independent-dossier-emmanuel-ugirashebuja.json",
+        "evidence_basis": "428ce7f34039ea4f4536007f9d040fef4f12dba20f64d6ffc22b9de8f8164fbe"
+      }
+    },
+    "positive": 2,
+    "negative": 3,
+    "value": null,
+    "status": "observed",
+    "difference": null,
+    "mass": null,
+    "measurement_model": "independent_poles",
+    "evidence_file": "evidence/independent-dossier-emmanuel-ugirashebuja.json",
+    "evidence_basis": "428ce7f34039ea4f4536007f9d040fef4f12dba20f64d6ffc22b9de8f8164fbe",
+    "at": "2026-10-15T17:29:58.021688+00:00",
+    "reason": "Каждое свойство оценивается независимо; разность и искусственное дополнение до пяти не вычисляются"
+  },
+  {
+    "object_id": "emmanuel-ugirashebuja",
+    "scale_id": "argumentation-evidence-values",
+    "pole_scores": {
+      "positive": {
+        "status": "observed",
+        "value": 3,
+        "confidence": 0.8,
+        "evidence_indices": [
+          1,
+          2,
+          4,
+          7,
+          8,
+          17,
+          18
+        ],
+        "source_urls": [
+          "https://www.minijust.gov.rw/news-detail/technology-plays-a-big-role-in-enhancing-access-to-justice",
+          "https://www.minijust.gov.rw/news-detail/rwanda-wins-commonwealth-access-to-justice-innovation-awards",
+          "https://www.minijust.gov.rw/fileadmin/user_upload/Minijust/Speeches/06.12.2024_GoH_Speech_at_the_13th_Graduation_at_ILPD.pdf",
+          "https://www.africa-press.net/rwanda/policy/rwanda-awarded-for-using-tech-innovation-to-improve-justice",
+          "https://www.africa-press.net/rwanda/policy/justice-minister-calls-for-adoption-of-technology-to-enhance-access-to-justice",
+          "https://www.minijust.gov.rw/fileadmin/user_upload/Minijust/Speeches/20.01.2026-DETAILED_VERSION_OPENING_STATEMENT_RWANDA_4TH_UPR_REVIEW.pdf"
+        ],
+        "event_ids": [
+          "ugirashebuja-2024-03-13-technology-justice",
+          "ugirashebuja-2024-03-07-commonwealth-award",
+          "ugirashebuja-2024-12-06-ilpd-graduation",
+          "ugirashebuja-2024-03-07-innovation-rationale",
+          "ugirashebuja-2024-03-13-legal-tech-rhetoric",
+          "ugirashebuja-2026-01-20-upr-opening-statement",
+          "ugirashebuja-2026-01-20-upr-social-service-deployment"
+        ],
+        "rationale": "В публичных выступлениях и объяснениях решений часто используются ссылки на данные, цифровые системы, эффективность, прозрачность, профессиональную подготовку и проверяемые результаты.",
+        "support_type": "positive_manifestation",
+        "provenance": {
+          "raw_response_file": "evidence/independent_responses/c895d63d123a9ae254a035d37f72dd2369540b020bf6a8ff06e19795d109d2ab.json",
+          "model": "gpt-4.1",
+          "at": "2026-10-15T17:29:48.325057+00:00",
+          "cache_key": "c895d63d123a9ae254a035d37f72dd2369540b020bf6a8ff06e19795d109d2ab",
+          "original_proposal": {
+            "variable_id": "argumentation-evidence-values__positive",
+            "status": "observed",
+            "value": 3,
+            "confidence": 0.8,
+            "support_type": "positive_manifestation",
+            "rationale": "В публичных выступлениях и объяснениях решений часто используются ссылки на данные, цифровые системы, эффективность, прозрачность, профессиональную подготовку и проверяемые результаты.",
+            "evidence_indices": [
+              1,
+              2,
+              4,
+              7,
+              8,
+              17,
+              18
+            ]
+          }
+        },
+        "evidence_file": "evidence/independent-dossier-emmanuel-ugirashebuja.json",
+        "evidence_basis": "428ce7f34039ea4f4536007f9d040fef4f12dba20f64d6ffc22b9de8f8164fbe"
+      },
+      "negative": {
+        "status": "observed",
+        "value": 2,
+        "confidence": 0.6,
+        "evidence_indices": [
+          3,
+          15,
+          16,
+          19
+        ],
+        "source_urls": [
+          "https://rwanda.un.org/en/282786-rwanda-ushers-new-era-justice-inauguration-adr-center",
+          "https://www.minijust.gov.rw/news-detail/rwanda-marks-international-anti-corruption-day-empowering-youth-for-a-future-of-integrity",
+          "https://www.minijust.gov.rw/news-detail/our-commitment-to-upholding-human-rights-is-unwavering-min-emmanuel-ugirashebuja"
+        ],
+        "event_ids": [
+          "ugirashebuja-2024-11-04-adr-center",
+          "ugirashebuja-2025-12-09-anti-corruption-day",
+          "ugirashebuja-2023-11-13-national-dialogue-human-rights",
+          "ugirashebuja-2023-11-13-human-rights-priorities"
+        ],
+        "rationale": "В ряде случаев обоснование решений сопровождается ссылками на ценности, достоинство, равенство, доверие, служение гражданам и коллективные стандарты, однако эти элементы не доминируют.",
+        "support_type": "positive_manifestation",
+        "provenance": {
+          "raw_response_file": "evidence/independent_responses/c895d63d123a9ae254a035d37f72dd2369540b020bf6a8ff06e19795d109d2ab.json",
+          "model": "gpt-4.1",
+          "at": "2026-10-15T17:29:48.325057+00:00",
+          "cache_key": "c895d63d123a9ae254a035d37f72dd2369540b020bf6a8ff06e19795d109d2ab",
+          "original_proposal": {
+            "variable_id": "argumentation-evidence-values__negative",
+            "status": "observed",
+            "value": 2,
+            "confidence": 0.6,
+            "support_type": "positive_manifestation",
+            "rationale": "В ряде случаев обоснование решений сопровождается ссылками на ценности, достоинство, равенство, доверие, служение гражданам и коллективные стандарты, однако эти элементы не доминируют.",
+            "evidence_indices": [
+              3,
+              15,
+              16,
+              19
+            ]
+          }
+        },
+        "evidence_file": "evidence/independent-dossier-emmanuel-ugirashebuja.json",
+        "evidence_basis": "428ce7f34039ea4f4536007f9d040fef4f12dba20f64d6ffc22b9de8f8164fbe"
+      }
+    },
+    "positive": 3,
+    "negative": 2,
+    "value": null,
+    "status": "observed",
+    "difference": null,
+    "mass": null,
+    "measurement_model": "independent_poles",
+    "evidence_file": "evidence/independent-dossier-emmanuel-ugirashebuja.json",
+    "evidence_basis": "428ce7f34039ea4f4536007f9d040fef4f12dba20f64d6ffc22b9de8f8164fbe",
+    "at": "2026-10-15T17:29:58.021688+00:00",
+    "reason": "Каждое свойство оценивается независимо; разность и искусственное дополнение до пяти не вычисляются"
+  },
+  {
+    "object_id": "emmanuel-ugirashebuja",
+    "scale_id": "market-state-instruments",
+    "pole_scores": {
+      "positive": {
+        "status": "observed",
+        "value": 2,
+        "confidence": 0.7,
+        "evidence_indices": [
+          10,
+          11
+        ],
+        "source_urls": [
+          "https://www.minijust.gov.rw/news-detail/alternative-dispute-resolution-and-criminal-justice-policies-will-significantly-promote-rule-of-law",
+          "https://www.minijust.gov.rw/news-detail/rwanda-hosts-africas-attorneys-general-forum-on-strengthening-public-private-partnerships-for-development"
+        ],
+        "event_ids": [
+          "ugirashebuja-2023-01-10-adr-criminal-justice-policies",
+          "ugirashebuja-2026-09-25-ppp-for-development"
+        ],
+        "rationale": "Публично поддерживает государственно-частное партнёрство как инструмент развития, отмечает роль частного сектора и гражданского общества в реализации политик, но не делает акцент на самостоятельной частной инициативе вне регулируемой модели.",
+        "support_type": "positive_manifestation",
+        "provenance": {
+          "raw_response_file": "evidence/independent_responses/c895d63d123a9ae254a035d37f72dd2369540b020bf6a8ff06e19795d109d2ab.json",
+          "model": "gpt-4.1",
+          "at": "2026-10-15T17:29:48.325057+00:00",
+          "cache_key": "c895d63d123a9ae254a035d37f72dd2369540b020bf6a8ff06e19795d109d2ab",
+          "original_proposal": {
+            "variable_id": "market-state-instruments__positive",
+            "status": "observed",
+            "value": 2,
+            "confidence": 0.7,
+            "support_type": "positive_manifestation",
+            "rationale": "Публично поддерживает государственно-частное партнёрство как инструмент развития, отмечает роль частного сектора и гражданского общества в реализации политик, но не делает акцент на самостоятельной частной инициативе вне регулируемой модели.",
+            "evidence_indices": [
+              10,
+              11
+            ]
+          }
+        },
+        "evidence_file": "evidence/independent-dossier-emmanuel-ugirashebuja.json",
+        "evidence_basis": "428ce7f34039ea4f4536007f9d040fef4f12dba20f64d6ffc22b9de8f8164fbe"
+      },
+      "negative": {
+        "status": "observed",
+        "value": 3,
+        "confidence": 0.8,
+        "evidence_indices": [
+          0,
+          10,
+          12,
+          15,
+          19,
+          21
+        ],
+        "source_urls": [
+          "https://www.minijust.gov.rw/news-detail/minister-of-justice-attorney-general-met-with-government-legal-advisors",
+          "https://www.minijust.gov.rw/news-detail/alternative-dispute-resolution-and-criminal-justice-policies-will-significantly-promote-rule-of-law",
+          "https://www.minijust.gov.rw/news-detail/launch-of-the-2025-2026-judicial-year",
+          "https://www.minijust.gov.rw/news-detail/rwanda-marks-international-anti-corruption-day-empowering-youth-for-a-future-of-integrity",
+          "https://www.minijust.gov.rw/news-detail/our-commitment-to-upholding-human-rights-is-unwavering-min-emmanuel-ugirashebuja",
+          "https://www.minijust.gov.rw/news-detail/justice-demands-more-it-requires-tangible-actions-and-unwarering-commitment"
+        ],
+        "event_ids": [
+          "ugirashebuja-2022-09-28-legal-advisers",
+          "ugirashebuja-2023-01-10-adr-criminal-justice-policies",
+          "ugirashebuja-2026-09-24-judicial-year",
+          "ugirashebuja-2025-12-09-anti-corruption-day",
+          "ugirashebuja-2023-11-13-human-rights-priorities",
+          "ugirashebuja-2023-05-29-jrlos-policy-implementation"
+        ],
+        "rationale": "Подчёркивает роль государственных институтов, правовых рамок, обязательных стандартов и контроля исполнения в реализации реформ и предоставлении услуг.",
+        "support_type": "positive_manifestation",
+        "provenance": {
+          "raw_response_file": "evidence/independent_responses/c895d63d123a9ae254a035d37f72dd2369540b020bf6a8ff06e19795d109d2ab.json",
+          "model": "gpt-4.1",
+          "at": "2026-10-15T17:29:48.325057+00:00",
+          "cache_key": "c895d63d123a9ae254a035d37f72dd2369540b020bf6a8ff06e19795d109d2ab",
+          "original_proposal": {
+            "variable_id": "market-state-instruments__negative",
+            "status": "observed",
+            "value": 3,
+            "confidence": 0.8,
+            "support_type": "positive_manifestation",
+            "rationale": "Подчёркивает роль государственных институтов, правовых рамок, обязательных стандартов и контроля исполнения в реализации реформ и предоставлении услуг.",
+            "evidence_indices": [
+              0,
+              10,
+              12,
+              15,
+              19,
+              21
+            ]
+          }
+        },
+        "evidence_file": "evidence/independent-dossier-emmanuel-ugirashebuja.json",
+        "evidence_basis": "428ce7f34039ea4f4536007f9d040fef4f12dba20f64d6ffc22b9de8f8164fbe"
+      }
+    },
+    "positive": 2,
+    "negative": 3,
+    "value": null,
+    "status": "observed",
+    "difference": null,
+    "mass": null,
+    "measurement_model": "independent_poles",
+    "evidence_file": "evidence/independent-dossier-emmanuel-ugirashebuja.json",
+    "evidence_basis": "428ce7f34039ea4f4536007f9d040fef4f12dba20f64d6ffc22b9de8f8164fbe",
+    "at": "2026-10-15T17:29:58.021688+00:00",
+    "reason": "Каждое свойство оценивается независимо; разность и искусственное дополнение до пяти не вычисляются"
+  },
+  {
+    "object_id": "emmanuel-ugirashebuja",
+    "scale_id": "accessibility-growth-priorities",
+    "pole_scores": {
+      "positive": {
+        "status": "observed",
+        "value": 4,
+        "confidence": 0.9,
+        "evidence_indices": [
+          1,
+          2,
+          3,
+          7,
+          17,
+          18
+        ],
+        "source_urls": [
+          "https://www.minijust.gov.rw/news-detail/technology-plays-a-big-role-in-enhancing-access-to-justice",
+          "https://www.minijust.gov.rw/news-detail/rwanda-wins-commonwealth-access-to-justice-innovation-awards",
+          "https://rwanda.un.org/en/282786-rwanda-ushers-new-era-justice-inauguration-adr-center",
+          "https://www.africa-press.net/rwanda/policy/rwanda-awarded-for-using-tech-innovation-to-improve-justice",
+          "https://www.minijust.gov.rw/fileadmin/user_upload/Minijust/Speeches/20.01.2026-DETAILED_VERSION_OPENING_STATEMENT_RWANDA_4TH_UPR_REVIEW.pdf"
+        ],
+        "event_ids": [
+          "ugirashebuja-2024-03-13-technology-justice",
+          "ugirashebuja-2024-03-07-commonwealth-award",
+          "ugirashebuja-2024-11-04-adr-center",
+          "ugirashebuja-2024-03-07-innovation-rationale",
+          "ugirashebuja-2026-01-20-upr-opening-statement",
+          "ugirashebuja-2026-01-20-upr-social-service-deployment"
+        ],
+        "rationale": "Постоянно акцентирует расширение доступа к правосудию, социальной и правовой помощи, особенно для уязвимых и недостаточно обслуживаемых групп.",
+        "support_type": "positive_manifestation",
+        "provenance": {
+          "raw_response_file": "evidence/independent_responses/c895d63d123a9ae254a035d37f72dd2369540b020bf6a8ff06e19795d109d2ab.json",
+          "model": "gpt-4.1",
+          "at": "2026-10-15T17:29:48.325057+00:00",
+          "cache_key": "c895d63d123a9ae254a035d37f72dd2369540b020bf6a8ff06e19795d109d2ab",
+          "original_proposal": {
+            "variable_id": "accessibility-growth-priorities__positive",
+            "status": "observed",
+            "value": 4,
+            "confidence": 0.9,
+            "support_type": "positive_manifestation",
+            "rationale": "Постоянно акцентирует расширение доступа к правосудию, социальной и правовой помощи, особенно для уязвимых и недостаточно обслуживаемых групп.",
+            "evidence_indices": [
+              1,
+              2,
+              3,
+              7,
+              17,
+              18
+            ]
+          }
+        },
+        "evidence_file": "evidence/independent-dossier-emmanuel-ugirashebuja.json",
+        "evidence_basis": "428ce7f34039ea4f4536007f9d040fef4f12dba20f64d6ffc22b9de8f8164fbe"
+      },
+      "negative": {
+        "status": "observed",
+        "value": 2,
+        "confidence": 0.6,
+        "evidence_indices": [
+          4,
+          8,
+          11
+        ],
+        "source_urls": [
+          "https://www.minijust.gov.rw/fileadmin/user_upload/Minijust/Speeches/06.12.2024_GoH_Speech_at_the_13th_Graduation_at_ILPD.pdf",
+          "https://www.africa-press.net/rwanda/policy/justice-minister-calls-for-adoption-of-technology-to-enhance-access-to-justice",
+          "https://www.minijust.gov.rw/news-detail/rwanda-hosts-africas-attorneys-general-forum-on-strengthening-public-private-partnerships-for-development"
+        ],
+        "event_ids": [
+          "ugirashebuja-2024-12-06-ilpd-graduation",
+          "ugirashebuja-2024-03-13-legal-tech-rhetoric",
+          "ugirashebuja-2026-09-25-ppp-for-development"
+        ],
+        "rationale": "В ряде эпизодов отмечается значение эффективности, инноваций, конкурентоспособности и развития профессиональных кадров, однако эти приоритеты не доминируют над задачей расширения доступности.",
+        "support_type": "positive_manifestation",
+        "provenance": {
+          "raw_response_file": "evidence/independent_responses/c895d63d123a9ae254a035d37f72dd2369540b020bf6a8ff06e19795d109d2ab.json",
+          "model": "gpt-4.1",
+          "at": "2026-10-15T17:29:48.325057+00:00",
+          "cache_key": "c895d63d123a9ae254a035d37f72dd2369540b020bf6a8ff06e19795d109d2ab",
+          "original_proposal": {
+            "variable_id": "accessibility-growth-priorities__negative",
+            "status": "observed",
+            "value": 2,
+            "confidence": 0.6,
+            "support_type": "positive_manifestation",
+            "rationale": "В ряде эпизодов отмечается значение эффективности, инноваций, конкурентоспособности и развития профессиональных кадров, однако эти приоритеты не доминируют над задачей расширения доступности.",
+            "evidence_indices": [
+              4,
+              8,
+              11
+            ]
+          }
+        },
+        "evidence_file": "evidence/independent-dossier-emmanuel-ugirashebuja.json",
+        "evidence_basis": "428ce7f34039ea4f4536007f9d040fef4f12dba20f64d6ffc22b9de8f8164fbe"
+      }
+    },
+    "positive": 4,
+    "negative": 2,
+    "value": null,
+    "status": "observed",
+    "difference": null,
+    "mass": null,
+    "measurement_model": "independent_poles",
+    "evidence_file": "evidence/independent-dossier-emmanuel-ugirashebuja.json",
+    "evidence_basis": "428ce7f34039ea4f4536007f9d040fef4f12dba20f64d6ffc22b9de8f8164fbe",
+    "at": "2026-10-15T17:29:58.021688+00:00",
+    "reason": "Каждое свойство оценивается независимо; разность и искусственное дополнение до пяти не вычисляются"
+  },
+  {
+    "object_id": "emmanuel-ugirashebuja",
+    "scale_id": "external-domestic-resources",
+    "pole_scores": {
+      "positive": {
+        "status": "observed",
+        "value": 2,
+        "confidence": 0.7,
+        "evidence_indices": [
+          2,
+          3,
+          6,
+          10
+        ],
+        "source_urls": [
+          "https://www.minijust.gov.rw/news-detail/rwanda-wins-commonwealth-access-to-justice-innovation-awards",
+          "https://rwanda.un.org/en/282786-rwanda-ushers-new-era-justice-inauguration-adr-center",
+          "https://www.minijust.gov.rw/news-detail/alternative-dispute-resolution-and-criminal-justice-policies-will-significantly-promote-rule-of-law"
+        ],
+        "event_ids": [
+          "ugirashebuja-2024-03-07-commonwealth-award",
+          "ugirashebuja-2024-11-04-adr-center",
+          "ugirashebuja-2024-11-04-un-partners",
+          "ugirashebuja-2023-01-10-adr-criminal-justice-policies"
+        ],
+        "rationale": "В ряде эпизодов выражает благодарность международным и внешним партнёрам за поддержку и участие в развитии сектора правосудия, однако нет акцента на зависимости от внешнего финансирования.",
+        "support_type": "positive_manifestation",
+        "provenance": {
+          "raw_response_file": "evidence/independent_responses/c895d63d123a9ae254a035d37f72dd2369540b020bf6a8ff06e19795d109d2ab.json",
+          "model": "gpt-4.1",
+          "at": "2026-10-15T17:29:48.325057+00:00",
+          "cache_key": "c895d63d123a9ae254a035d37f72dd2369540b020bf6a8ff06e19795d109d2ab",
+          "original_proposal": {
+            "variable_id": "external-domestic-resources__positive",
+            "status": "observed",
+            "value": 2,
+            "confidence": 0.7,
+            "support_type": "positive_manifestation",
+            "rationale": "В ряде эпизодов выражает благодарность международным и внешним партнёрам за поддержку и участие в развитии сектора правосудия, однако нет акцента на зависимости от внешнего финансирования.",
+            "evidence_indices": [
+              2,
+              3,
+              6,
+              10
+            ]
+          }
+        },
+        "evidence_file": "evidence/independent-dossier-emmanuel-ugirashebuja.json",
+        "evidence_basis": "428ce7f34039ea4f4536007f9d040fef4f12dba20f64d6ffc22b9de8f8164fbe"
+      },
+      "negative": {
+        "status": "observed",
+        "value": 2,
+        "confidence": 0.6,
+        "evidence_indices": [
+          4,
+          17,
+          18
+        ],
+        "source_urls": [
+          "https://www.minijust.gov.rw/fileadmin/user_upload/Minijust/Speeches/06.12.2024_GoH_Speech_at_the_13th_Graduation_at_ILPD.pdf",
+          "https://www.minijust.gov.rw/fileadmin/user_upload/Minijust/Speeches/20.01.2026-DETAILED_VERSION_OPENING_STATEMENT_RWANDA_4TH_UPR_REVIEW.pdf"
+        ],
+        "event_ids": [
+          "ugirashebuja-2024-12-06-ilpd-graduation",
+          "ugirashebuja-2026-01-20-upr-opening-statement",
+          "ugirashebuja-2026-01-20-upr-social-service-deployment"
+        ],
+        "rationale": "В ряде случаев подчёркивается развитие национальных кадров, институтов и инфраструктуры, однако нет явной стратегии полного отказа от внешних ресурсов.",
+        "support_type": "positive_manifestation",
+        "provenance": {
+          "raw_response_file": "evidence/independent_responses/c895d63d123a9ae254a035d37f72dd2369540b020bf6a8ff06e19795d109d2ab.json",
+          "model": "gpt-4.1",
+          "at": "2026-10-15T17:29:48.325057+00:00",
+          "cache_key": "c895d63d123a9ae254a035d37f72dd2369540b020bf6a8ff06e19795d109d2ab",
+          "original_proposal": {
+            "variable_id": "external-domestic-resources__negative",
+            "status": "observed",
+            "value": 2,
+            "confidence": 0.6,
+            "support_type": "positive_manifestation",
+            "rationale": "В ряде случаев подчёркивается развитие национальных кадров, институтов и инфраструктуры, однако нет явной стратегии полного отказа от внешних ресурсов.",
+            "evidence_indices": [
+              4,
+              17,
+              18
+            ]
+          }
+        },
+        "evidence_file": "evidence/independent-dossier-emmanuel-ugirashebuja.json",
+        "evidence_basis": "428ce7f34039ea4f4536007f9d040fef4f12dba20f64d6ffc22b9de8f8164fbe"
+      }
+    },
+    "positive": 2,
+    "negative": 2,
+    "value": null,
+    "status": "observed",
+    "difference": null,
+    "mass": null,
+    "measurement_model": "independent_poles",
+    "evidence_file": "evidence/independent-dossier-emmanuel-ugirashebuja.json",
+    "evidence_basis": "428ce7f34039ea4f4536007f9d040fef4f12dba20f64d6ffc22b9de8f8164fbe",
+    "at": "2026-10-15T17:29:58.021688+00:00",
+    "reason": "Каждое свойство оценивается независимо; разность и искусственное дополнение до пяти не вычисляются"
+  },
+  {
+    "object_id": "emmanuel-ugirashebuja",
+    "scale_id": "international-rules-autonomy",
+    "pole_scores": {
+      "positive": {
+        "status": "observed",
+        "value": 2,
+        "confidence": 0.6,
+        "evidence_indices": [
+          14,
+          16,
+          19
+        ],
+        "source_urls": [
+          "https://www.minijust.gov.rw/fileadmin/user_upload/Minijust/Speeches/20.01.2026-DETAILED_VERSION_OPENING_STATEMENT_RWANDA_4TH_UPR_REVIEW.pdf",
+          "https://www.minijust.gov.rw/news-detail/our-commitment-to-upholding-human-rights-is-unwavering-min-emmanuel-ugirashebuja"
+        ],
+        "event_ids": [
+          "ugirashebuja-2026-01-21-upr",
+          "ugirashebuja-2023-11-13-national-dialogue-human-rights",
+          "ugirashebuja-2023-11-13-human-rights-priorities"
+        ],
+        "rationale": "В ряде выступлений отмечает соответствие национальных рамок международным и региональным стандартам, участвует в институциональных международных форматах, однако не делает акцент на закреплении новых международных обязательств.",
+        "support_type": "positive_manifestation",
+        "provenance": {
+          "raw_response_file": "evidence/independent_responses/c895d63d123a9ae254a035d37f72dd2369540b020bf6a8ff06e19795d109d2ab.json",
+          "model": "gpt-4.1",
+          "at": "2026-10-15T17:29:48.325057+00:00",
+          "cache_key": "c895d63d123a9ae254a035d37f72dd2369540b020bf6a8ff06e19795d109d2ab",
+          "original_proposal": {
+            "variable_id": "international-rules-autonomy__positive",
+            "status": "observed",
+            "value": 2,
+            "confidence": 0.6,
+            "support_type": "positive_manifestation",
+            "rationale": "В ряде выступлений отмечает соответствие национальных рамок международным и региональным стандартам, участвует в институциональных международных форматах, однако не делает акцент на закреплении новых международных обязательств.",
+            "evidence_indices": [
+              14,
+              16,
+              19
+            ]
+          }
+        },
+        "evidence_file": "evidence/independent-dossier-emmanuel-ugirashebuja.json",
+        "evidence_basis": "428ce7f34039ea4f4536007f9d040fef4f12dba20f64d6ffc22b9de8f8164fbe"
+      },
+      "negative": {
+        "status": "unknown",
+        "value": null,
+        "confidence": 0,
+        "evidence_indices": [],
+        "source_urls": [],
+        "event_ids": [],
+        "rationale": "Нет прямых заявлений о защите национальной самостоятельности решений или возражений против международных обязательств.",
+        "support_type": "unknown",
+        "provenance": {
+          "raw_response_file": "evidence/independent_responses/c895d63d123a9ae254a035d37f72dd2369540b020bf6a8ff06e19795d109d2ab.json",
+          "model": "gpt-4.1",
+          "at": "2026-10-15T17:29:48.325057+00:00",
+          "cache_key": "c895d63d123a9ae254a035d37f72dd2369540b020bf6a8ff06e19795d109d2ab",
+          "original_proposal": {
+            "variable_id": "international-rules-autonomy__negative",
+            "status": "unknown",
+            "value": null,
+            "confidence": 0.4,
+            "support_type": "unknown",
+            "rationale": "Нет прямых заявлений о защите национальной самостоятельности решений или возражений против международных обязательств.",
+            "evidence_indices": []
+          }
+        },
+        "evidence_file": "evidence/independent-dossier-emmanuel-ugirashebuja.json",
+        "evidence_basis": "428ce7f34039ea4f4536007f9d040fef4f12dba20f64d6ffc22b9de8f8164fbe"
+      }
+    },
+    "positive": 2,
+    "negative": null,
+    "value": null,
+    "status": "partial",
+    "difference": null,
+    "mass": null,
+    "measurement_model": "independent_poles",
+    "evidence_file": "evidence/independent-dossier-emmanuel-ugirashebuja.json",
+    "evidence_basis": "428ce7f34039ea4f4536007f9d040fef4f12dba20f64d6ffc22b9de8f8164fbe",
+    "at": "2026-10-15T17:29:58.021688+00:00",
+    "reason": "Каждое свойство оценивается независимо; разность и искусственное дополнение до пяти не вычисляются"
+  },
+  {
+    "object_id": "emmanuel-ugirashebuja",
+    "scale_id": "mediation-adversarial-communication",
+    "pole_scores": {
+      "positive": {
+        "status": "observed",
+        "value": 3,
+        "confidence": 0.8,
+        "evidence_indices": [
+          3,
+          10,
+          12
+        ],
+        "source_urls": [
+          "https://rwanda.un.org/en/282786-rwanda-ushers-new-era-justice-inauguration-adr-center",
+          "https://www.minijust.gov.rw/news-detail/alternative-dispute-resolution-and-criminal-justice-policies-will-significantly-promote-rule-of-law",
+          "https://www.minijust.gov.rw/news-detail/launch-of-the-2025-2026-judicial-year"
+        ],
+        "event_ids": [
+          "ugirashebuja-2024-11-04-adr-center",
+          "ugirashebuja-2023-01-10-adr-criminal-justice-policies",
+          "ugirashebuja-2026-09-24-judicial-year"
+        ],
+        "rationale": "Публично поддерживает развитие альтернативного разрешения споров, посредничество, диалог и согласование интересов как приоритетные подходы в секторе правосудия.",
+        "support_type": "positive_manifestation",
+        "provenance": {
+          "raw_response_file": "evidence/independent_responses/c895d63d123a9ae254a035d37f72dd2369540b020bf6a8ff06e19795d109d2ab.json",
+          "model": "gpt-4.1",
+          "at": "2026-10-15T17:29:48.325057+00:00",
+          "cache_key": "c895d63d123a9ae254a035d37f72dd2369540b020bf6a8ff06e19795d109d2ab",
+          "original_proposal": {
+            "variable_id": "mediation-adversarial-communication__positive",
+            "status": "observed",
+            "value": 3,
+            "confidence": 0.8,
+            "support_type": "positive_manifestation",
+            "rationale": "Публично поддерживает развитие альтернативного разрешения споров, посредничество, диалог и согласование интересов как приоритетные подходы в секторе правосудия.",
+            "evidence_indices": [
+              3,
+              10,
+              12
+            ]
+          }
+        },
+        "evidence_file": "evidence/independent-dossier-emmanuel-ugirashebuja.json",
+        "evidence_basis": "428ce7f34039ea4f4536007f9d040fef4f12dba20f64d6ffc22b9de8f8164fbe"
+      },
+      "negative": {
+        "status": "observed",
+        "value": 2,
+        "confidence": 0.7,
+        "evidence_indices": [
+          9
+        ],
+        "source_urls": [
+          "https://www.bbc.com/gahuza/articles/cwyxy54y4d9o"
+        ],
+        "event_ids": [
+          "ugirashebuja-2026-03-18-rwanda-uk-arbitration"
+        ],
+        "rationale": "В международном арбитраже с Великобританией занимал защитную и полемическую позицию, оспаривая действия другой стороны; однако это проявление ограничено служебным контекстом.",
+        "support_type": "positive_manifestation",
+        "provenance": {
+          "raw_response_file": "evidence/independent_responses/c895d63d123a9ae254a035d37f72dd2369540b020bf6a8ff06e19795d109d2ab.json",
+          "model": "gpt-4.1",
+          "at": "2026-10-15T17:29:48.325057+00:00",
+          "cache_key": "c895d63d123a9ae254a035d37f72dd2369540b020bf6a8ff06e19795d109d2ab",
+          "original_proposal": {
+            "variable_id": "mediation-adversarial-communication__negative",
+            "status": "observed",
+            "value": 2,
+            "confidence": 0.7,
+            "support_type": "positive_manifestation",
+            "rationale": "В международном арбитраже с Великобританией занимал защитную и полемическую позицию, оспаривая действия другой стороны; однако это проявление ограничено служебным контекстом.",
+            "evidence_indices": [
+              9
+            ]
+          }
+        },
+        "evidence_file": "evidence/independent-dossier-emmanuel-ugirashebuja.json",
+        "evidence_basis": "428ce7f34039ea4f4536007f9d040fef4f12dba20f64d6ffc22b9de8f8164fbe"
+      }
+    },
+    "positive": 3,
+    "negative": 2,
+    "value": null,
+    "status": "observed",
+    "difference": null,
+    "mass": null,
+    "measurement_model": "independent_poles",
+    "evidence_file": "evidence/independent-dossier-emmanuel-ugirashebuja.json",
+    "evidence_basis": "428ce7f34039ea4f4536007f9d040fef4f12dba20f64d6ffc22b9de8f8164fbe",
+    "at": "2026-10-15T17:29:58.021688+00:00",
+    "reason": "Каждое свойство оценивается независимо; разность и искусственное дополнение до пяти не вычисляются"
+  },
+  {
+    "object_id": "emmanuel-ugirashebuja",
+    "scale_id": "cultural-openness-national-transmission",
+    "pole_scores": {
+      "positive": {
+        "status": "unknown",
+        "value": null,
+        "confidence": 0,
+        "evidence_indices": [],
+        "source_urls": [],
+        "event_ids": [],
+        "rationale": "В имеющихся материалах отсутствуют прямые факты о публичных действиях или заявлениях Угирасебуджи, направленных на расширение межкультурного обмена или культурного разнообразия.",
+        "support_type": "unknown",
+        "provenance": {
+          "raw_response_file": "evidence/independent_responses/89b38c10a7695f7189df8d792fa385cc00461eaec969d30e22bee160e62ac757.json",
+          "model": "gpt-4.1",
+          "at": "2026-10-15T17:29:58.017171+00:00",
+          "cache_key": "89b38c10a7695f7189df8d792fa385cc00461eaec969d30e22bee160e62ac757",
+          "original_proposal": {
+            "variable_id": "cultural-openness-national-transmission__positive",
+            "status": "unknown",
+            "value": null,
+            "confidence": 0,
+            "support_type": "unknown",
+            "rationale": "В имеющихся материалах отсутствуют прямые факты о публичных действиях или заявлениях Угирасебуджи, направленных на расширение межкультурного обмена или культурного разнообразия.",
+            "evidence_indices": []
+          }
+        },
+        "evidence_file": "evidence/independent-dossier-emmanuel-ugirashebuja.json",
+        "evidence_basis": "428ce7f34039ea4f4536007f9d040fef4f12dba20f64d6ffc22b9de8f8164fbe"
+      },
+      "negative": {
+        "status": "observed",
+        "value": 2,
+        "confidence": 0.6,
+        "evidence_indices": [
+          19
+        ],
+        "source_urls": [
+          "https://www.minijust.gov.rw/news-detail/our-commitment-to-upholding-human-rights-is-unwavering-min-emmanuel-ugirashebuja"
+        ],
+        "event_ids": [
+          "ugirashebuja-2023-11-13-human-rights-priorities"
+        ],
+        "rationale": "В ряде выступлений (например, на национальном диалоге по правам человека) подчёркивалась преемственность национальных, региональных и международных стандартов справедливости, а также сохранение национальных ценностей. Это ограниченное, но прямое проявление ориентации на преемственность национальных рамок.",
+        "support_type": "positive_manifestation",
+        "provenance": {
+          "raw_response_file": "evidence/independent_responses/89b38c10a7695f7189df8d792fa385cc00461eaec969d30e22bee160e62ac757.json",
+          "model": "gpt-4.1",
+          "at": "2026-10-15T17:29:58.017171+00:00",
+          "cache_key": "89b38c10a7695f7189df8d792fa385cc00461eaec969d30e22bee160e62ac757",
+          "original_proposal": {
+            "variable_id": "cultural-openness-national-transmission__negative",
+            "status": "observed",
+            "value": 2,
+            "confidence": 0.6,
+            "support_type": "positive_manifestation",
+            "rationale": "В ряде выступлений (например, на национальном диалоге по правам человека) подчёркивалась преемственность национальных, региональных и международных стандартов справедливости, а также сохранение национальных ценностей. Это ограниченное, но прямое проявление ориентации на преемственность национальных рамок.",
+            "evidence_indices": [
+              19
+            ]
+          }
+        },
+        "evidence_file": "evidence/independent-dossier-emmanuel-ugirashebuja.json",
+        "evidence_basis": "428ce7f34039ea4f4536007f9d040fef4f12dba20f64d6ffc22b9de8f8164fbe"
+      }
+    },
+    "positive": null,
+    "negative": 2,
+    "value": null,
+    "status": "partial",
+    "difference": null,
+    "mass": null,
+    "measurement_model": "independent_poles",
+    "evidence_file": "evidence/independent-dossier-emmanuel-ugirashebuja.json",
+    "evidence_basis": "428ce7f34039ea4f4536007f9d040fef4f12dba20f64d6ffc22b9de8f8164fbe",
+    "at": "2026-10-15T17:29:58.021688+00:00",
+    "reason": "Каждое свойство оценивается независимо; разность и искусственное дополнение до пяти не вычисляются"
+  },
+  {
+    "object_id": "emmanuel-ugirashebuja",
+    "scale_id": "problem-disclosure-reputation-defence",
+    "pole_scores": {
+      "positive": {
+        "status": "observed",
+        "value": 2,
+        "confidence": 0.6,
+        "evidence_indices": [
+          20
+        ],
+        "source_urls": [
+          "https://www.minijust.gov.rw/news-detail/justice-demands-more-it-requires-tangible-actions-and-unwarering-commitment"
+        ],
+        "event_ids": [
+          "ugirashebuja-2023-05-29-jrlos-peer-review"
+        ],
+        "rationale": "На обзоре сектора правосудия и UPR призывал к обсуждению проблем и реализации рекомендаций, что свидетельствует о признании необходимости публичного обсуждения проблем исполнения.",
+        "support_type": "positive_manifestation",
+        "provenance": {
+          "raw_response_file": "evidence/independent_responses/89b38c10a7695f7189df8d792fa385cc00461eaec969d30e22bee160e62ac757.json",
+          "model": "gpt-4.1",
+          "at": "2026-10-15T17:29:58.017171+00:00",
+          "cache_key": "89b38c10a7695f7189df8d792fa385cc00461eaec969d30e22bee160e62ac757",
+          "original_proposal": {
+            "variable_id": "problem-disclosure-reputation-defence__positive",
+            "status": "observed",
+            "value": 2,
+            "confidence": 0.6,
+            "support_type": "positive_manifestation",
+            "rationale": "На обзоре сектора правосудия и UPR призывал к обсуждению проблем и реализации рекомендаций, что свидетельствует о признании необходимости публичного обсуждения проблем исполнения.",
+            "evidence_indices": [
+              20
+            ]
+          }
+        },
+        "evidence_file": "evidence/independent-dossier-emmanuel-ugirashebuja.json",
+        "evidence_basis": "428ce7f34039ea4f4536007f9d040fef4f12dba20f64d6ffc22b9de8f8164fbe"
+      },
+      "negative": {
+        "status": "observed",
+        "value": 2,
+        "confidence": 0.6,
+        "evidence_indices": [
+          9
+        ],
+        "source_urls": [
+          "https://www.bbc.com/gahuza/articles/cwyxy54y4d9o"
+        ],
+        "event_ids": [
+          "ugirashebuja-2026-03-18-rwanda-uk-arbitration"
+        ],
+        "rationale": "В международном арбитраже с Великобританией занимал защитную позицию, обвиняя другую сторону в нарушении обязательств, что отражает защиту репутации страны в международном споре.",
+        "support_type": "positive_manifestation",
+        "provenance": {
+          "raw_response_file": "evidence/independent_responses/89b38c10a7695f7189df8d792fa385cc00461eaec969d30e22bee160e62ac757.json",
+          "model": "gpt-4.1",
+          "at": "2026-10-15T17:29:58.017171+00:00",
+          "cache_key": "89b38c10a7695f7189df8d792fa385cc00461eaec969d30e22bee160e62ac757",
+          "original_proposal": {
+            "variable_id": "problem-disclosure-reputation-defence__negative",
+            "status": "observed",
+            "value": 2,
+            "confidence": 0.6,
+            "support_type": "positive_manifestation",
+            "rationale": "В международном арбитраже с Великобританией занимал защитную позицию, обвиняя другую сторону в нарушении обязательств, что отражает защиту репутации страны в международном споре.",
+            "evidence_indices": [
+              9
+            ]
+          }
+        },
+        "evidence_file": "evidence/independent-dossier-emmanuel-ugirashebuja.json",
+        "evidence_basis": "428ce7f34039ea4f4536007f9d040fef4f12dba20f64d6ffc22b9de8f8164fbe"
+      }
+    },
+    "positive": 2,
+    "negative": 2,
+    "value": null,
+    "status": "observed",
+    "difference": null,
+    "mass": null,
+    "measurement_model": "independent_poles",
+    "evidence_file": "evidence/independent-dossier-emmanuel-ugirashebuja.json",
+    "evidence_basis": "428ce7f34039ea4f4536007f9d040fef4f12dba20f64d6ffc22b9de8f8164fbe",
+    "at": "2026-10-15T17:29:58.021688+00:00",
+    "reason": "Каждое свойство оценивается независимо; разность и искусственное дополнение до пяти не вычисляются"
+  },
+  {
+    "object_id": "emmanuel-ugirashebuja",
+    "scale_id": "procedural-guarantees-enforcement",
+    "pole_scores": {
+      "positive": {
+        "status": "observed",
+        "value": 3,
+        "confidence": 0.8,
+        "evidence_indices": [
+          1,
+          2,
+          3,
+          4,
+          7,
+          8,
+          10,
+          16,
+          18
+        ],
+        "source_urls": [
+          "https://www.minijust.gov.rw/news-detail/technology-plays-a-big-role-in-enhancing-access-to-justice",
+          "https://www.minijust.gov.rw/news-detail/rwanda-wins-commonwealth-access-to-justice-innovation-awards",
+          "https://rwanda.un.org/en/282786-rwanda-ushers-new-era-justice-inauguration-adr-center",
+          "https://www.minijust.gov.rw/fileadmin/user_upload/Minijust/Speeches/06.12.2024_GoH_Speech_at_the_13th_Graduation_at_ILPD.pdf",
+          "https://www.africa-press.net/rwanda/policy/rwanda-awarded-for-using-tech-innovation-to-improve-justice",
+          "https://www.africa-press.net/rwanda/policy/justice-minister-calls-for-adoption-of-technology-to-enhance-access-to-justice",
+          "https://www.minijust.gov.rw/news-detail/alternative-dispute-resolution-and-criminal-justice-policies-will-significantly-promote-rule-of-law",
+          "https://www.minijust.gov.rw/news-detail/our-commitment-to-upholding-human-rights-is-unwavering-min-emmanuel-ugirashebuja",
+          "https://www.minijust.gov.rw/fileadmin/user_upload/Minijust/Speeches/20.01.2026-DETAILED_VERSION_OPENING_STATEMENT_RWANDA_4TH_UPR_REVIEW.pdf"
+        ],
+        "event_ids": [
+          "ugirashebuja-2024-03-13-technology-justice",
+          "ugirashebuja-2024-03-07-commonwealth-award",
+          "ugirashebuja-2024-11-04-adr-center",
+          "ugirashebuja-2024-12-06-ilpd-graduation",
+          "ugirashebuja-2024-03-07-innovation-rationale",
+          "ugirashebuja-2024-03-13-legal-tech-rhetoric",
+          "ugirashebuja-2023-01-10-adr-criminal-justice-policies",
+          "ugirashebuja-2023-11-13-national-dialogue-human-rights",
+          "ugirashebuja-2026-01-20-upr-social-service-deployment"
+        ],
+        "rationale": "Многократно выступал за расширение доступа к правосудию, цифровизацию судебных услуг, развитие альтернативных процедур разрешения споров и подготовку специалистов, что подтверждает устойчивый акцент на расширении возможностей защиты и обжалования.",
+        "support_type": "positive_manifestation",
+        "provenance": {
+          "raw_response_file": "evidence/independent_responses/89b38c10a7695f7189df8d792fa385cc00461eaec969d30e22bee160e62ac757.json",
+          "model": "gpt-4.1",
+          "at": "2026-10-15T17:29:58.017171+00:00",
+          "cache_key": "89b38c10a7695f7189df8d792fa385cc00461eaec969d30e22bee160e62ac757",
+          "original_proposal": {
+            "variable_id": "procedural-guarantees-enforcement__positive",
+            "status": "observed",
+            "value": 3,
+            "confidence": 0.8,
+            "support_type": "positive_manifestation",
+            "rationale": "Многократно выступал за расширение доступа к правосудию, цифровизацию судебных услуг, развитие альтернативных процедур разрешения споров и подготовку специалистов, что подтверждает устойчивый акцент на расширении возможностей защиты и обжалования.",
+            "evidence_indices": [
+              1,
+              2,
+              3,
+              4,
+              7,
+              8,
+              10,
+              16,
+              18
+            ]
+          }
+        },
+        "evidence_file": "evidence/independent-dossier-emmanuel-ugirashebuja.json",
+        "evidence_basis": "428ce7f34039ea4f4536007f9d040fef4f12dba20f64d6ffc22b9de8f8164fbe"
+      },
+      "negative": {
+        "status": "observed",
+        "value": 2,
+        "confidence": 0.6,
+        "evidence_indices": [
+          0,
+          21
+        ],
+        "source_urls": [
+          "https://www.minijust.gov.rw/news-detail/minister-of-justice-attorney-general-met-with-government-legal-advisors",
+          "https://www.minijust.gov.rw/news-detail/justice-demands-more-it-requires-tangible-actions-and-unwarering-commitment"
+        ],
+        "event_ids": [
+          "ugirashebuja-2022-09-28-legal-advisers",
+          "ugirashebuja-2023-05-29-jrlos-policy-implementation"
+        ],
+        "rationale": "В ряде эпизодов подчёркивал необходимость укреплять способность государственных органов применять законодательство и добиваться исполнения, что отражает акцент на прикладном исполнении обязательных требований.",
+        "support_type": "positive_manifestation",
+        "provenance": {
+          "raw_response_file": "evidence/independent_responses/89b38c10a7695f7189df8d792fa385cc00461eaec969d30e22bee160e62ac757.json",
+          "model": "gpt-4.1",
+          "at": "2026-10-15T17:29:58.017171+00:00",
+          "cache_key": "89b38c10a7695f7189df8d792fa385cc00461eaec969d30e22bee160e62ac757",
+          "original_proposal": {
+            "variable_id": "procedural-guarantees-enforcement__negative",
+            "status": "observed",
+            "value": 2,
+            "confidence": 0.6,
+            "support_type": "positive_manifestation",
+            "rationale": "В ряде эпизодов подчёркивал необходимость укреплять способность государственных органов применять законодательство и добиваться исполнения, что отражает акцент на прикладном исполнении обязательных требований.",
+            "evidence_indices": [
+              0,
+              21
+            ]
+          }
+        },
+        "evidence_file": "evidence/independent-dossier-emmanuel-ugirashebuja.json",
+        "evidence_basis": "428ce7f34039ea4f4536007f9d040fef4f12dba20f64d6ffc22b9de8f8164fbe"
+      }
+    },
+    "positive": 3,
+    "negative": 2,
+    "value": null,
+    "status": "observed",
+    "difference": null,
+    "mass": null,
+    "measurement_model": "independent_poles",
+    "evidence_file": "evidence/independent-dossier-emmanuel-ugirashebuja.json",
+    "evidence_basis": "428ce7f34039ea4f4536007f9d040fef4f12dba20f64d6ffc22b9de8f8164fbe",
+    "at": "2026-10-15T17:29:58.021688+00:00",
+    "reason": "Каждое свойство оценивается независимо; разность и искусственное дополнение до пяти не вычисляются"
+  },
+  {
+    "object_id": "emmanuel-ugirashebuja",
+    "scale_id": "prevention-crisis-response",
+    "pole_scores": {
+      "positive": {
+        "status": "observed",
+        "value": 2,
+        "confidence": 0.6,
+        "evidence_indices": [
+          12,
+          15
+        ],
+        "source_urls": [
+          "https://www.minijust.gov.rw/news-detail/launch-of-the-2025-2026-judicial-year",
+          "https://www.minijust.gov.rw/news-detail/rwanda-marks-international-anti-corruption-day-empowering-youth-for-a-future-of-integrity"
+        ],
+        "event_ids": [
+          "ugirashebuja-2026-09-24-judicial-year",
+          "ugirashebuja-2025-12-09-anti-corruption-day"
+        ],
+        "rationale": "В ряде выступлений подчёркивалась важность профилактики конфликтов, антикоррупционных стратегий и предупреждения преступности, что свидетельствует о наличии упреждающего компонента.",
+        "support_type": "positive_manifestation",
+        "provenance": {
+          "raw_response_file": "evidence/independent_responses/89b38c10a7695f7189df8d792fa385cc00461eaec969d30e22bee160e62ac757.json",
+          "model": "gpt-4.1",
+          "at": "2026-10-15T17:29:58.017171+00:00",
+          "cache_key": "89b38c10a7695f7189df8d792fa385cc00461eaec969d30e22bee160e62ac757",
+          "original_proposal": {
+            "variable_id": "prevention-crisis-response__positive",
+            "status": "observed",
+            "value": 2,
+            "confidence": 0.6,
+            "support_type": "positive_manifestation",
+            "rationale": "В ряде выступлений подчёркивалась важность профилактики конфликтов, антикоррупционных стратегий и предупреждения преступности, что свидетельствует о наличии упреждающего компонента.",
+            "evidence_indices": [
+              12,
+              15
+            ]
+          }
+        },
+        "evidence_file": "evidence/independent-dossier-emmanuel-ugirashebuja.json",
+        "evidence_basis": "428ce7f34039ea4f4536007f9d040fef4f12dba20f64d6ffc22b9de8f8164fbe"
+      },
+      "negative": {
+        "status": "unknown",
+        "value": null,
+        "confidence": 0,
+        "evidence_indices": [],
+        "source_urls": [],
+        "event_ids": [],
+        "rationale": "Нет прямых фактов о действиях или заявлениях, акцентирующих исключительно реагирование на уже возникшие кризисы.",
+        "support_type": "unknown",
+        "provenance": {
+          "raw_response_file": "evidence/independent_responses/89b38c10a7695f7189df8d792fa385cc00461eaec969d30e22bee160e62ac757.json",
+          "model": "gpt-4.1",
+          "at": "2026-10-15T17:29:58.017171+00:00",
+          "cache_key": "89b38c10a7695f7189df8d792fa385cc00461eaec969d30e22bee160e62ac757",
+          "original_proposal": {
+            "variable_id": "prevention-crisis-response__negative",
+            "status": "unknown",
+            "value": null,
+            "confidence": 0,
+            "support_type": "unknown",
+            "rationale": "Нет прямых фактов о действиях или заявлениях, акцентирующих исключительно реагирование на уже возникшие кризисы.",
+            "evidence_indices": []
+          }
+        },
+        "evidence_file": "evidence/independent-dossier-emmanuel-ugirashebuja.json",
+        "evidence_basis": "428ce7f34039ea4f4536007f9d040fef4f12dba20f64d6ffc22b9de8f8164fbe"
+      }
+    },
+    "positive": 2,
+    "negative": null,
+    "value": null,
+    "status": "partial",
+    "difference": null,
+    "mass": null,
+    "measurement_model": "independent_poles",
+    "evidence_file": "evidence/independent-dossier-emmanuel-ugirashebuja.json",
+    "evidence_basis": "428ce7f34039ea4f4536007f9d040fef4f12dba20f64d6ffc22b9de8f8164fbe",
+    "at": "2026-10-15T17:29:58.021688+00:00",
+    "reason": "Каждое свойство оценивается независимо; разность и искусственное дополнение до пяти не вычисляются"
+  },
+  {
+    "object_id": "emmanuel-ugirashebuja",
+    "scale_id": "electoral-access",
+    "pole_scores": {
+      "positive": {
+        "status": "unknown",
+        "value": null,
+        "confidence": 0,
+        "evidence_indices": [],
+        "source_urls": [],
+        "event_ids": [],
+        "rationale": "В материалах отсутствуют сведения о действиях или заявлениях, направленных на расширение доступа к электоральной конкуренции.",
+        "support_type": "unknown",
+        "provenance": {
+          "raw_response_file": "evidence/independent_responses/89b38c10a7695f7189df8d792fa385cc00461eaec969d30e22bee160e62ac757.json",
+          "model": "gpt-4.1",
+          "at": "2026-10-15T17:29:58.017171+00:00",
+          "cache_key": "89b38c10a7695f7189df8d792fa385cc00461eaec969d30e22bee160e62ac757",
+          "original_proposal": {
+            "variable_id": "electoral-access__positive",
+            "status": "unknown",
+            "value": null,
+            "confidence": 0,
+            "support_type": "unknown",
+            "rationale": "В материалах отсутствуют сведения о действиях или заявлениях, направленных на расширение доступа к электоральной конкуренции.",
+            "evidence_indices": []
+          }
+        },
+        "evidence_file": "evidence/independent-dossier-emmanuel-ugirashebuja.json",
+        "evidence_basis": "428ce7f34039ea4f4536007f9d040fef4f12dba20f64d6ffc22b9de8f8164fbe"
+      },
+      "negative": {
+        "status": "unknown",
+        "value": null,
+        "confidence": 0,
+        "evidence_indices": [],
+        "source_urls": [],
+        "event_ids": [],
+        "rationale": "Нет фактов о предложениях или решениях, направленных на усиление барьеров политического участия.",
+        "support_type": "unknown",
+        "provenance": {
+          "raw_response_file": "evidence/independent_responses/89b38c10a7695f7189df8d792fa385cc00461eaec969d30e22bee160e62ac757.json",
+          "model": "gpt-4.1",
+          "at": "2026-10-15T17:29:58.017171+00:00",
+          "cache_key": "89b38c10a7695f7189df8d792fa385cc00461eaec969d30e22bee160e62ac757",
+          "original_proposal": {
+            "variable_id": "electoral-access__negative",
+            "status": "unknown",
+            "value": null,
+            "confidence": 0,
+            "support_type": "unknown",
+            "rationale": "Нет фактов о предложениях или решениях, направленных на усиление барьеров политического участия.",
+            "evidence_indices": []
+          }
+        },
+        "evidence_file": "evidence/independent-dossier-emmanuel-ugirashebuja.json",
+        "evidence_basis": "428ce7f34039ea4f4536007f9d040fef4f12dba20f64d6ffc22b9de8f8164fbe"
+      }
+    },
+    "positive": null,
+    "negative": null,
+    "value": null,
+    "status": "unknown",
+    "difference": null,
+    "mass": null,
+    "measurement_model": "independent_poles",
+    "evidence_file": "evidence/independent-dossier-emmanuel-ugirashebuja.json",
+    "evidence_basis": "428ce7f34039ea4f4536007f9d040fef4f12dba20f64d6ffc22b9de8f8164fbe",
+    "at": "2026-10-15T17:29:58.021688+00:00",
+    "reason": "Каждое свойство оценивается независимо; разность и искусственное дополнение до пяти не вычисляются"
+  },
+  {
+    "object_id": "emmanuel-ugirashebuja",
+    "scale_id": "institutional-autonomy-coordination",
+    "pole_scores": {
+      "positive": {
+        "status": "unknown",
+        "value": null,
+        "confidence": 0,
+        "evidence_indices": [],
+        "source_urls": [],
+        "event_ids": [],
+        "rationale": "Нет прямых фактов о публичных действиях или заявлениях, направленных на защиту автономии институтов или межинституциональный контроль.",
+        "support_type": "unknown",
+        "provenance": {
+          "raw_response_file": "evidence/independent_responses/89b38c10a7695f7189df8d792fa385cc00461eaec969d30e22bee160e62ac757.json",
+          "model": "gpt-4.1",
+          "at": "2026-10-15T17:29:58.017171+00:00",
+          "cache_key": "89b38c10a7695f7189df8d792fa385cc00461eaec969d30e22bee160e62ac757",
+          "original_proposal": {
+            "variable_id": "institutional-autonomy-coordination__positive",
+            "status": "unknown",
+            "value": null,
+            "confidence": 0,
+            "support_type": "unknown",
+            "rationale": "Нет прямых фактов о публичных действиях или заявлениях, направленных на защиту автономии институтов или межинституциональный контроль.",
+            "evidence_indices": []
+          }
+        },
+        "evidence_file": "evidence/independent-dossier-emmanuel-ugirashebuja.json",
+        "evidence_basis": "428ce7f34039ea4f4536007f9d040fef4f12dba20f64d6ffc22b9de8f8164fbe"
+      },
+      "negative": {
+        "status": "observed",
+        "value": 2,
+        "confidence": 0.6,
+        "evidence_indices": [
+          10,
+          15,
+          21
+        ],
+        "source_urls": [
+          "https://www.minijust.gov.rw/news-detail/alternative-dispute-resolution-and-criminal-justice-policies-will-significantly-promote-rule-of-law",
+          "https://www.minijust.gov.rw/news-detail/rwanda-marks-international-anti-corruption-day-empowering-youth-for-a-future-of-integrity",
+          "https://www.minijust.gov.rw/news-detail/justice-demands-more-it-requires-tangible-actions-and-unwarering-commitment"
+        ],
+        "event_ids": [
+          "ugirashebuja-2023-01-10-adr-criminal-justice-policies",
+          "ugirashebuja-2025-12-09-anti-corruption-day",
+          "ugirashebuja-2023-05-29-jrlos-policy-implementation"
+        ],
+        "rationale": "В ряде эпизодов поддерживалась координация между государственными органами, подчёркивалась роль единой государственной политики и межведомственного взаимодействия, что свидетельствует об акценте на согласовании работы институтов.",
+        "support_type": "positive_manifestation",
+        "provenance": {
+          "raw_response_file": "evidence/independent_responses/89b38c10a7695f7189df8d792fa385cc00461eaec969d30e22bee160e62ac757.json",
+          "model": "gpt-4.1",
+          "at": "2026-10-15T17:29:58.017171+00:00",
+          "cache_key": "89b38c10a7695f7189df8d792fa385cc00461eaec969d30e22bee160e62ac757",
+          "original_proposal": {
+            "variable_id": "institutional-autonomy-coordination__negative",
+            "status": "observed",
+            "value": 2,
+            "confidence": 0.6,
+            "support_type": "positive_manifestation",
+            "rationale": "В ряде эпизодов поддерживалась координация между государственными органами, подчёркивалась роль единой государственной политики и межведомственного взаимодействия, что свидетельствует об акценте на согласовании работы институтов.",
+            "evidence_indices": [
+              10,
+              15,
+              21
+            ]
+          }
+        },
+        "evidence_file": "evidence/independent-dossier-emmanuel-ugirashebuja.json",
+        "evidence_basis": "428ce7f34039ea4f4536007f9d040fef4f12dba20f64d6ffc22b9de8f8164fbe"
+      }
+    },
+    "positive": null,
+    "negative": 2,
+    "value": null,
+    "status": "partial",
+    "difference": null,
+    "mass": null,
+    "measurement_model": "independent_poles",
+    "evidence_file": "evidence/independent-dossier-emmanuel-ugirashebuja.json",
+    "evidence_basis": "428ce7f34039ea4f4536007f9d040fef4f12dba20f64d6ffc22b9de8f8164fbe",
+    "at": "2026-10-15T17:29:58.021688+00:00",
+    "reason": "Каждое свойство оценивается независимо; разность и искусственное дополнение до пяти не вычисляются"
+  },
+  {
+    "object_id": "emmanuel-ugirashebuja",
+    "scale_id": "taxation-burden-public-revenue",
+    "pole_scores": {
+      "positive": {
+        "status": "unknown",
+        "value": null,
+        "confidence": 0,
+        "evidence_indices": [],
+        "source_urls": [],
+        "event_ids": [],
+        "rationale": "Нет фактов о предложениях по снижению налоговой нагрузки или расширению имущественной самостоятельности.",
+        "support_type": "unknown",
+        "provenance": {
+          "raw_response_file": "evidence/independent_responses/89b38c10a7695f7189df8d792fa385cc00461eaec969d30e22bee160e62ac757.json",
+          "model": "gpt-4.1",
+          "at": "2026-10-15T17:29:58.017171+00:00",
+          "cache_key": "89b38c10a7695f7189df8d792fa385cc00461eaec969d30e22bee160e62ac757",
+          "original_proposal": {
+            "variable_id": "taxation-burden-public-revenue__positive",
+            "status": "unknown",
+            "value": null,
+            "confidence": 0,
+            "support_type": "unknown",
+            "rationale": "Нет фактов о предложениях по снижению налоговой нагрузки или расширению имущественной самостоятельности.",
+            "evidence_indices": []
+          }
+        },
+        "evidence_file": "evidence/independent-dossier-emmanuel-ugirashebuja.json",
+        "evidence_basis": "428ce7f34039ea4f4536007f9d040fef4f12dba20f64d6ffc22b9de8f8164fbe"
+      },
+      "negative": {
+        "status": "unknown",
+        "value": null,
+        "confidence": 0,
+        "evidence_indices": [],
+        "source_urls": [],
+        "event_ids": [],
+        "rationale": "Нет фактов о поддержке увеличения налоговых поступлений для публичного развития.",
+        "support_type": "unknown",
+        "provenance": {
+          "raw_response_file": "evidence/independent_responses/89b38c10a7695f7189df8d792fa385cc00461eaec969d30e22bee160e62ac757.json",
+          "model": "gpt-4.1",
+          "at": "2026-10-15T17:29:58.017171+00:00",
+          "cache_key": "89b38c10a7695f7189df8d792fa385cc00461eaec969d30e22bee160e62ac757",
+          "original_proposal": {
+            "variable_id": "taxation-burden-public-revenue__negative",
+            "status": "unknown",
+            "value": null,
+            "confidence": 0,
+            "support_type": "unknown",
+            "rationale": "Нет фактов о поддержке увеличения налоговых поступлений для публичного развития.",
+            "evidence_indices": []
+          }
+        },
+        "evidence_file": "evidence/independent-dossier-emmanuel-ugirashebuja.json",
+        "evidence_basis": "428ce7f34039ea4f4536007f9d040fef4f12dba20f64d6ffc22b9de8f8164fbe"
+      }
+    },
+    "positive": null,
+    "negative": null,
+    "value": null,
+    "status": "unknown",
+    "difference": null,
+    "mass": null,
+    "measurement_model": "independent_poles",
+    "evidence_file": "evidence/independent-dossier-emmanuel-ugirashebuja.json",
+    "evidence_basis": "428ce7f34039ea4f4536007f9d040fef4f12dba20f64d6ffc22b9de8f8164fbe",
+    "at": "2026-10-15T17:29:58.021688+00:00",
+    "reason": "Каждое свойство оценивается независимо; разность и искусственное дополнение до пяти не вычисляются"
+  },
+  {
+    "object_id": "emmanuel-ugirashebuja",
+    "scale_id": "universal-targeted-provision",
+    "pole_scores": {
+      "positive": {
+        "status": "observed",
+        "value": 2,
+        "confidence": 0.6,
+        "evidence_indices": [
+          17,
+          18
+        ],
+        "source_urls": [
+          "https://www.minijust.gov.rw/fileadmin/user_upload/Minijust/Speeches/20.01.2026-DETAILED_VERSION_OPENING_STATEMENT_RWANDA_4TH_UPR_REVIEW.pdf"
+        ],
+        "event_ids": [
+          "ugirashebuja-2026-01-20-upr-opening-statement",
+          "ugirashebuja-2026-01-20-upr-social-service-deployment"
+        ],
+        "rationale": "В ряде эпизодов подчёркивалась ориентация на доступность правосудия и социальных услуг для всего населения, в том числе через развертывание парасоциальных работников.",
+        "support_type": "positive_manifestation",
+        "provenance": {
+          "raw_response_file": "evidence/independent_responses/89b38c10a7695f7189df8d792fa385cc00461eaec969d30e22bee160e62ac757.json",
+          "model": "gpt-4.1",
+          "at": "2026-10-15T17:29:58.017171+00:00",
+          "cache_key": "89b38c10a7695f7189df8d792fa385cc00461eaec969d30e22bee160e62ac757",
+          "original_proposal": {
+            "variable_id": "universal-targeted-provision__positive",
+            "status": "observed",
+            "value": 2,
+            "confidence": 0.6,
+            "support_type": "positive_manifestation",
+            "rationale": "В ряде эпизодов подчёркивалась ориентация на доступность правосудия и социальных услуг для всего населения, в том числе через развертывание парасоциальных работников.",
+            "evidence_indices": [
+              17,
+              18
+            ]
+          }
+        },
+        "evidence_file": "evidence/independent-dossier-emmanuel-ugirashebuja.json",
+        "evidence_basis": "428ce7f34039ea4f4536007f9d040fef4f12dba20f64d6ffc22b9de8f8164fbe"
+      },
+      "negative": {
+        "status": "observed",
+        "value": 2,
+        "confidence": 0.6,
+        "evidence_indices": [
+          2,
+          3
+        ],
+        "source_urls": [
+          "https://www.minijust.gov.rw/news-detail/rwanda-wins-commonwealth-access-to-justice-innovation-awards",
+          "https://rwanda.un.org/en/282786-rwanda-ushers-new-era-justice-inauguration-adr-center"
+        ],
+        "event_ids": [
+          "ugirashebuja-2024-03-07-commonwealth-award",
+          "ugirashebuja-2024-11-04-adr-center"
+        ],
+        "rationale": "В ряде случаев подчёркивалась поддержка уязвимых и недостаточно обслуживаемых групп через специальные механизмы доступа к правосудию (например, Abunzi, ADR-центр).",
+        "support_type": "positive_manifestation",
+        "provenance": {
+          "raw_response_file": "evidence/independent_responses/89b38c10a7695f7189df8d792fa385cc00461eaec969d30e22bee160e62ac757.json",
+          "model": "gpt-4.1",
+          "at": "2026-10-15T17:29:58.017171+00:00",
+          "cache_key": "89b38c10a7695f7189df8d792fa385cc00461eaec969d30e22bee160e62ac757",
+          "original_proposal": {
+            "variable_id": "universal-targeted-provision__negative",
+            "status": "observed",
+            "value": 2,
+            "confidence": 0.6,
+            "support_type": "positive_manifestation",
+            "rationale": "В ряде случаев подчёркивалась поддержка уязвимых и недостаточно обслуживаемых групп через специальные механизмы доступа к правосудию (например, Abunzi, ADR-центр).",
+            "evidence_indices": [
+              2,
+              3
+            ]
+          }
+        },
+        "evidence_file": "evidence/independent-dossier-emmanuel-ugirashebuja.json",
+        "evidence_basis": "428ce7f34039ea4f4536007f9d040fef4f12dba20f64d6ffc22b9de8f8164fbe"
+      }
+    },
+    "positive": 2,
+    "negative": 2,
+    "value": null,
+    "status": "observed",
+    "difference": null,
+    "mass": null,
+    "measurement_model": "independent_poles",
+    "evidence_file": "evidence/independent-dossier-emmanuel-ugirashebuja.json",
+    "evidence_basis": "428ce7f34039ea4f4536007f9d040fef4f12dba20f64d6ffc22b9de8f8164fbe",
+    "at": "2026-10-15T17:29:58.021688+00:00",
+    "reason": "Каждое свойство оценивается независимо; разность и искусственное дополнение до пяти не вычисляются"
+  },
+  {
+    "object_id": "emmanuel-ugirashebuja",
+    "scale_id": "ecological-limits-resource-use",
+    "pole_scores": {
+      "positive": {
+        "status": "unknown",
+        "value": null,
+        "confidence": 0,
+        "evidence_indices": [],
+        "source_urls": [],
+        "event_ids": [],
+        "rationale": "Нет фактов о публичных действиях или заявлениях, направленных на усиление природоохранных ограничений.",
+        "support_type": "unknown",
+        "provenance": {
+          "raw_response_file": "evidence/independent_responses/89b38c10a7695f7189df8d792fa385cc00461eaec969d30e22bee160e62ac757.json",
+          "model": "gpt-4.1",
+          "at": "2026-10-15T17:29:58.017171+00:00",
+          "cache_key": "89b38c10a7695f7189df8d792fa385cc00461eaec969d30e22bee160e62ac757",
+          "original_proposal": {
+            "variable_id": "ecological-limits-resource-use__positive",
+            "status": "unknown",
+            "value": null,
+            "confidence": 0,
+            "support_type": "unknown",
+            "rationale": "Нет фактов о публичных действиях или заявлениях, направленных на усиление природоохранных ограничений.",
+            "evidence_indices": []
+          }
+        },
+        "evidence_file": "evidence/independent-dossier-emmanuel-ugirashebuja.json",
+        "evidence_basis": "428ce7f34039ea4f4536007f9d040fef4f12dba20f64d6ffc22b9de8f8164fbe"
+      },
+      "negative": {
+        "status": "unknown",
+        "value": null,
+        "confidence": 0,
+        "evidence_indices": [],
+        "source_urls": [],
+        "event_ids": [],
+        "rationale": "Нет фактов о публичных действиях или заявлениях, направленных на расширение хозяйственного использования природных ресурсов.",
+        "support_type": "unknown",
+        "provenance": {
+          "raw_response_file": "evidence/independent_responses/89b38c10a7695f7189df8d792fa385cc00461eaec969d30e22bee160e62ac757.json",
+          "model": "gpt-4.1",
+          "at": "2026-10-15T17:29:58.017171+00:00",
+          "cache_key": "89b38c10a7695f7189df8d792fa385cc00461eaec969d30e22bee160e62ac757",
+          "original_proposal": {
+            "variable_id": "ecological-limits-resource-use__negative",
+            "status": "unknown",
+            "value": null,
+            "confidence": 0,
+            "support_type": "unknown",
+            "rationale": "Нет фактов о публичных действиях или заявлениях, направленных на расширение хозяйственного использования природных ресурсов.",
+            "evidence_indices": []
+          }
+        },
+        "evidence_file": "evidence/independent-dossier-emmanuel-ugirashebuja.json",
+        "evidence_basis": "428ce7f34039ea4f4536007f9d040fef4f12dba20f64d6ffc22b9de8f8164fbe"
+      }
+    },
+    "positive": null,
+    "negative": null,
+    "value": null,
+    "status": "unknown",
+    "difference": null,
+    "mass": null,
+    "measurement_model": "independent_poles",
+    "evidence_file": "evidence/independent-dossier-emmanuel-ugirashebuja.json",
+    "evidence_basis": "428ce7f34039ea4f4536007f9d040fef4f12dba20f64d6ffc22b9de8f8164fbe",
+    "at": "2026-10-15T17:29:58.021688+00:00",
+    "reason": "Каждое свойство оценивается независимо; разность и искусственное дополнение до пяти не вычисляются"
+  },
+  {
+    "object_id": "emmanuel-ugirashebuja",
+    "scale_id": "russia-diplomatic-engagement",
+    "pole_scores": {
+      "positive": {
+        "status": "unknown",
+        "value": null,
+        "confidence": 0,
+        "evidence_indices": [],
+        "source_urls": [],
+        "event_ids": [],
+        "rationale": "Нет допустимых датированных персональных свидетельств по этому свойству",
+        "support_type": "unknown"
+      },
+      "negative": {
+        "status": "unknown",
+        "value": null,
+        "confidence": 0,
+        "evidence_indices": [],
+        "source_urls": [],
+        "event_ids": [],
+        "rationale": "Нет допустимых датированных персональных свидетельств по этому свойству",
+        "support_type": "unknown"
+      }
+    },
+    "positive": null,
+    "negative": null,
+    "value": null,
+    "status": "unknown",
+    "difference": null,
+    "mass": null,
+    "measurement_model": "independent_poles",
+    "evidence_file": "evidence/independent-dossier-emmanuel-ugirashebuja.json",
+    "evidence_basis": "428ce7f34039ea4f4536007f9d040fef4f12dba20f64d6ffc22b9de8f8164fbe",
+    "at": "2026-10-15T17:29:58.021688+00:00",
+    "reason": "Каждое свойство оценивается независимо; разность и искусственное дополнение до пяти не вычисляются"
+  },
+  {
+    "object_id": "emmanuel-ugirashebuja",
+    "scale_id": "russia-security-cooperation",
+    "pole_scores": {
+      "positive": {
+        "status": "unknown",
+        "value": null,
+        "confidence": 0,
+        "evidence_indices": [],
+        "source_urls": [],
+        "event_ids": [],
+        "rationale": "Нет допустимых датированных персональных свидетельств по этому свойству",
+        "support_type": "unknown"
+      },
+      "negative": {
+        "status": "unknown",
+        "value": null,
+        "confidence": 0,
+        "evidence_indices": [],
+        "source_urls": [],
+        "event_ids": [],
+        "rationale": "Нет допустимых датированных персональных свидетельств по этому свойству",
+        "support_type": "unknown"
+      }
+    },
+    "positive": null,
+    "negative": null,
+    "value": null,
+    "status": "unknown",
+    "difference": null,
+    "mass": null,
+    "measurement_model": "independent_poles",
+    "evidence_file": "evidence/independent-dossier-emmanuel-ugirashebuja.json",
+    "evidence_basis": "428ce7f34039ea4f4536007f9d040fef4f12dba20f64d6ffc22b9de8f8164fbe",
+    "at": "2026-10-15T17:29:58.021688+00:00",
+    "reason": "Каждое свойство оценивается независимо; разность и искусственное дополнение до пяти не вычисляются"
+  },
+  {
+    "object_id": "emmanuel-ugirashebuja",
+    "scale_id": "russia-economic-technology-cooperation",
+    "pole_scores": {
+      "positive": {
+        "status": "unknown",
+        "value": null,
+        "confidence": 0,
+        "evidence_indices": [],
+        "source_urls": [],
+        "event_ids": [],
+        "rationale": "Нет допустимых датированных персональных свидетельств по этому свойству",
+        "support_type": "unknown"
+      },
+      "negative": {
+        "status": "unknown",
+        "value": null,
+        "confidence": 0,
+        "evidence_indices": [],
+        "source_urls": [],
+        "event_ids": [],
+        "rationale": "Нет допустимых датированных персональных свидетельств по этому свойству",
+        "support_type": "unknown"
+      }
+    },
+    "positive": null,
+    "negative": null,
+    "value": null,
+    "status": "unknown",
+    "difference": null,
+    "mass": null,
+    "measurement_model": "independent_poles",
+    "evidence_file": "evidence/independent-dossier-emmanuel-ugirashebuja.json",
+    "evidence_basis": "428ce7f34039ea4f4536007f9d040fef4f12dba20f64d6ffc22b9de8f8164fbe",
+    "at": "2026-10-15T17:29:58.021688+00:00",
+    "reason": "Каждое свойство оценивается независимо; разность и искусственное дополнение до пяти не вычисляются"
+  },
+  {
+    "object_id": "emmanuel-ugirashebuja",
+    "scale_id": "russia-education-cultural-cooperation",
+    "pole_scores": {
+      "positive": {
+        "status": "unknown",
+        "value": null,
+        "confidence": 0,
+        "evidence_indices": [],
+        "source_urls": [],
+        "event_ids": [],
+        "rationale": "Нет допустимых датированных персональных свидетельств по этому свойству",
+        "support_type": "unknown"
+      },
+      "negative": {
+        "status": "unknown",
+        "value": null,
+        "confidence": 0,
+        "evidence_indices": [],
+        "source_urls": [],
+        "event_ids": [],
+        "rationale": "Нет допустимых датированных персональных свидетельств по этому свойству",
+        "support_type": "unknown"
+      }
+    },
+    "positive": null,
+    "negative": null,
+    "value": null,
+    "status": "unknown",
+    "difference": null,
+    "mass": null,
+    "measurement_model": "independent_poles",
+    "evidence_file": "evidence/independent-dossier-emmanuel-ugirashebuja.json",
+    "evidence_basis": "428ce7f34039ea4f4536007f9d040fef4f12dba20f64d6ffc22b9de8f8164fbe",
+    "at": "2026-10-15T17:29:58.021688+00:00",
+    "reason": "Каждое свойство оценивается независимо; разность и искусственное дополнение до пяти не вычисляются"
+  },
+  {
+    "object_id": "emmanuel-ugirashebuja",
+    "scale_id": "russia-conflict-policy-evaluation",
+    "pole_scores": {
+      "positive": {
+        "status": "unknown",
+        "value": null,
+        "confidence": 0,
+        "evidence_indices": [],
+        "source_urls": [],
+        "event_ids": [],
+        "rationale": "Нет допустимых датированных персональных свидетельств по этому свойству",
+        "support_type": "unknown"
+      },
+      "negative": {
+        "status": "unknown",
+        "value": null,
+        "confidence": 0,
+        "evidence_indices": [],
+        "source_urls": [],
+        "event_ids": [],
+        "rationale": "Нет допустимых датированных персональных свидетельств по этому свойству",
+        "support_type": "unknown"
+      }
+    },
+    "positive": null,
+    "negative": null,
+    "value": null,
+    "status": "unknown",
+    "difference": null,
+    "mass": null,
+    "measurement_model": "independent_poles",
+    "evidence_file": "evidence/independent-dossier-emmanuel-ugirashebuja.json",
+    "evidence_basis": "428ce7f34039ea4f4536007f9d040fef4f12dba20f64d6ffc22b9de8f8164fbe",
+    "at": "2026-10-15T17:29:58.021688+00:00",
+    "reason": "Каждое свойство оценивается независимо; разность и искусственное дополнение до пяти не вычисляются"
+  },
+  {
+    "object_id": "emmanuel-ugirashebuja",
+    "scale_id": "russia-isolation-sanctions",
+    "pole_scores": {
+      "positive": {
+        "status": "unknown",
+        "value": null,
+        "confidence": 0,
+        "evidence_indices": [],
+        "source_urls": [],
+        "event_ids": [],
+        "rationale": "Нет допустимых датированных персональных свидетельств по этому свойству",
+        "support_type": "unknown"
+      },
+      "negative": {
+        "status": "unknown",
+        "value": null,
+        "confidence": 0,
+        "evidence_indices": [],
+        "source_urls": [],
+        "event_ids": [],
+        "rationale": "Нет допустимых датированных персональных свидетельств по этому свойству",
+        "support_type": "unknown"
+      }
+    },
+    "positive": null,
+    "negative": null,
+    "value": null,
+    "status": "unknown",
+    "difference": null,
+    "mass": null,
+    "measurement_model": "independent_poles",
+    "evidence_file": "evidence/independent-dossier-emmanuel-ugirashebuja.json",
+    "evidence_basis": "428ce7f34039ea4f4536007f9d040fef4f12dba20f64d6ffc22b9de8f8164fbe",
+    "at": "2026-10-15T17:29:58.021688+00:00",
+    "reason": "Каждое свойство оценивается независимо; разность и искусственное дополнение до пяти не вычисляются"
+  }
+]

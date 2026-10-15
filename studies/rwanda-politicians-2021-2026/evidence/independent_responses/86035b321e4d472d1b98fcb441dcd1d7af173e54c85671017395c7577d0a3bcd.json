@@ -1,0 +1,274 @@
+{
+  "data": {
+    "ratings": [
+      {
+        "variable_id": "programmatic-renewal__positive",
+        "status": "observed",
+        "value": 5,
+        "confidence": 1,
+        "support_type": "positive_manifestation",
+        "rationale": "Ингабире неоднократно и последовательно предлагала институциональные реформы, инклюзивный диалог, демократизацию, расширение политического пространства, реформу правосудия и смену власти мирным путём. Это подтверждается программными заявлениями, публичными статьями и платформой, охватывающими весь период.",
+        "evidence_indices": [
+          13,
+          14,
+          15,
+          16,
+          18,
+          19,
+          20,
+          21,
+          22,
+          23,
+          24
+        ]
+      },
+      {
+        "variable_id": "programmatic-renewal__negative",
+        "status": "observed",
+        "value": 0,
+        "confidence": 1,
+        "support_type": "explicit_absence",
+        "rationale": "В публичных заявлениях и программе Ингабире отсутствуют призывы к продолжению или закреплению действующего курса; напротив, она прямо противопоставляет себя существующей политике.",
+        "evidence_indices": [
+          13,
+          14,
+          15,
+          16,
+          18,
+          19,
+          20,
+          21,
+          22,
+          23,
+          24
+        ]
+      },
+      {
+        "variable_id": "government-course-assessment__positive",
+        "status": "observed",
+        "value": 0,
+        "confidence": 1,
+        "support_type": "explicit_absence",
+        "rationale": "Нет оснований считать, что Ингабире публично поддерживала действующий государственный курс; её заявления и программа содержат системную критику.",
+        "evidence_indices": [
+          2,
+          13,
+          19,
+          20,
+          21,
+          23
+        ]
+      },
+      {
+        "variable_id": "government-course-assessment__negative",
+        "status": "observed",
+        "value": 5,
+        "confidence": 1,
+        "support_type": "positive_manifestation",
+        "rationale": "Ингабире системно и последовательно критикует действующий государственный курс, ограничение политического пространства, проблемы с верховенством права, расследованием преступлений и развитием образования.",
+        "evidence_indices": [
+          2,
+          13,
+          19,
+          20,
+          21,
+          22,
+          23,
+          24,
+          25
+        ]
+      },
+      {
+        "variable_id": "participation-administrative-direction__positive",
+        "status": "observed",
+        "value": 5,
+        "confidence": 1,
+        "support_type": "positive_manifestation",
+        "rationale": "Ингабире последовательно выступает за инклюзивный диалог, децентрализацию, подотчётность, расширение участия граждан и создание комиссий по примирению.",
+        "evidence_indices": [
+          13,
+          15,
+          18,
+          19,
+          24
+        ]
+      },
+      {
+        "variable_id": "participation-administrative-direction__negative",
+        "status": "observed",
+        "value": 0,
+        "confidence": 1,
+        "support_type": "explicit_absence",
+        "rationale": "В найденных материалах отсутствуют призывы к административному управлению, централизованному контролю или единой линии исполнения.",
+        "evidence_indices": [
+          13,
+          15,
+          18
+        ]
+      },
+      {
+        "variable_id": "argumentation-evidence-values__positive",
+        "status": "observed",
+        "value": 1,
+        "confidence": 0.7,
+        "support_type": "positive_manifestation",
+        "rationale": "В ряде материалов Ингабире ссылается на необходимость инвестиций в образование и развитие человеческого капитала, однако количественные данные или расчёты используются ограниченно.",
+        "evidence_indices": [
+          21
+        ]
+      },
+      {
+        "variable_id": "argumentation-evidence-values__negative",
+        "status": "observed",
+        "value": 4,
+        "confidence": 1,
+        "support_type": "positive_manifestation",
+        "rationale": "В программных и публичных заявлениях Ингабире часто использует ценностные и исторические аргументы: примирение, признание всех жертв, историческая ответственность, верховенство права.",
+        "evidence_indices": [
+          14,
+          22,
+          23,
+          24
+        ]
+      },
+      {
+        "variable_id": "market-state-instruments__positive",
+        "status": "observed",
+        "value": 3,
+        "confidence": 0.9,
+        "support_type": "positive_manifestation",
+        "rationale": "Ингабире предлагает законы, ограничивающие участие государства и партий в бизнесе, и подчёркивает роль частного сектора и инвестиций как внутренних, так и иностранных.",
+        "evidence_indices": [
+          16,
+          17
+        ]
+      },
+      {
+        "variable_id": "market-state-instruments__negative",
+        "status": "observed",
+        "value": 2,
+        "confidence": 0.8,
+        "support_type": "positive_manifestation",
+        "rationale": "В программе содержится предложение о государственных инвестициях в производительные отрасли и регулировании участия правительства в экономике, что указывает на сочетание инструментов.",
+        "evidence_indices": [
+          16
+        ]
+      },
+      {
+        "variable_id": "accessibility-growth-priorities__positive",
+        "status": "observed",
+        "value": 4,
+        "confidence": 1,
+        "support_type": "positive_manifestation",
+        "rationale": "Ингабире подчёркивает приоритет удовлетворения базовых потребностей населения, доступ к образованию, правосудию и политическому участию.",
+        "evidence_indices": [
+          16,
+          19,
+          21
+        ]
+      },
+      {
+        "variable_id": "accessibility-growth-priorities__negative",
+        "status": "observed",
+        "value": 3,
+        "confidence": 0.9,
+        "support_type": "positive_manifestation",
+        "rationale": "В программе и публичных заявлениях Ингабире также отмечает важность роста инвестиций, конкурентоспособности и привлечения капитала для развития страны.",
+        "evidence_indices": [
+          16,
+          17,
+          21
+        ]
+      },
+      {
+        "variable_id": "external-domestic-resources__positive",
+        "status": "observed",
+        "value": 2,
+        "confidence": 0.7,
+        "support_type": "positive_manifestation",
+        "rationale": "Ингабире программно поддерживает привлечение иностранных инвестиций, однако конкретных реализованных соглашений или проектов не выявлено.",
+        "evidence_indices": [
+          17
+        ]
+      },
+      {
+        "variable_id": "external-domestic-resources__negative",
+        "status": "observed",
+        "value": 2,
+        "confidence": 0.7,
+        "support_type": "positive_manifestation",
+        "rationale": "В программе Ингабире также подчёркивает роль внутренних инвестиций и самостоятельности, однако не делает это единственным приоритетом.",
+        "evidence_indices": [
+          17
+        ]
+      },
+      {
+        "variable_id": "international-rules-autonomy__positive",
+        "status": "unknown",
+        "value": null,
+        "confidence": 0,
+        "support_type": "unknown",
+        "rationale": "В найденных материалах отсутствуют прямые предложения о закреплении обязательных международных норм или договоров.",
+        "evidence_indices": []
+      },
+      {
+        "variable_id": "international-rules-autonomy__negative",
+        "status": "unknown",
+        "value": null,
+        "confidence": 0,
+        "support_type": "unknown",
+        "rationale": "Нет прямых заявлений о защите национальной самостоятельности решений в противовес международным обязательствам.",
+        "evidence_indices": []
+      },
+      {
+        "variable_id": "mediation-adversarial-communication__positive",
+        "status": "observed",
+        "value": 4,
+        "confidence": 1,
+        "support_type": "positive_manifestation",
+        "rationale": "Ингабире неоднократно выступала за инклюзивный диалог, переговоры, учёт интересов разных групп, создание комиссий по примирению и мирное согласование позиций.",
+        "evidence_indices": [
+          13,
+          14,
+          18,
+          24
+        ]
+      },
+      {
+        "variable_id": "mediation-adversarial-communication__negative",
+        "status": "observed",
+        "value": 2,
+        "confidence": 0.7,
+        "support_type": "positive_manifestation",
+        "rationale": "В ряде эпизодов Ингабире публично оспаривала решения властей, связывала личные ограничения с институциональными проблемами, критиковала государственную политику и обвинения в свой адрес.",
+        "evidence_indices": [
+          2,
+          7,
+          11,
+          25
+        ]
+      }
+    ]
+  },
+  "model": "gpt-4.1",
+  "task": "independent-ratings-victoire-ingabire-0",
+  "at": "2026-10-15T17:31:51.276031+00:00",
+  "usage": {
+    "prompt_tokens": 8651,
+    "completion_tokens": 2018,
+    "total_tokens": 10669,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "audio_tokens": 0
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "audio_tokens": 0,
+      "accepted_prediction_tokens": 0,
+      "rejected_prediction_tokens": 0
+    }
+  },
+  "citations": [],
+  "system_fingerprint": "fp_801d3b7b5c",
+  "cache_key": "86035b321e4d472d1b98fcb441dcd1d7af173e54c85671017395c7577d0a3bcd"
+}

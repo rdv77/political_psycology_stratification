@@ -1,0 +1,1822 @@
+[
+  {
+    "object_id": "frank-habineza",
+    "scale_id": "programmatic-renewal",
+    "pole_scores": {
+      "positive": {
+        "status": "observed",
+        "value": 4,
+        "confidence": 0.95,
+        "evidence_indices": [
+          0,
+          2,
+          3,
+          11,
+          12,
+          13
+        ],
+        "source_urls": [
+          "https://www.newtimes.co.rw/article/18011/news/elections/i-will-be-the-president-of-rwanda-claims-green-partys-habineza/amp",
+          "https://www.newtimes.co.rw/article/18346/news/elections/frank-habineza-campaigns-in-muhanga-promises-changes-in-mining-sector/amp",
+          "https://www.newtimes.co.rw/article/18148/news/elections/democratic-green-party-of-rwandas-habineza-promises-to-improve-school-feeding-if-elected/amp",
+          "https://www.universityworldnews.com/post.php?story=20240710093845978"
+        ],
+        "event_ids": [
+          "fh-2024-06-27-manifesto",
+          "fh-2024-07-09-mining",
+          "fh-2024-07-09-social-economic",
+          "fh-2024-07-03-school-feeding",
+          "fh-2024-07-10-higher-education"
+        ],
+        "rationale": "Хабинеза неоднократно предлагал изменить существующие правила и приоритеты: отмена земельного налога, пересмотр регулирования добычи, отмена 30-дневного срока предварительного заключения, новые меры по школьному питанию, реформы в высшем образовании. Эти предложения повторяются в разных эпизодах и охватывают несколько сфер, что соответствует сильному повторяющемуся акценту на программных изменениях.",
+        "support_type": "positive_manifestation",
+        "provenance": {
+          "raw_response_file": "evidence/independent_responses/bc6d3096b2bab4ca90f2db22d478db338379766fad962579fc586421ab6ac4b3.json",
+          "model": "gpt-4.1",
+          "at": "2026-10-15T17:31:39.747539+00:00",
+          "cache_key": "bc6d3096b2bab4ca90f2db22d478db338379766fad962579fc586421ab6ac4b3",
+          "original_proposal": {
+            "variable_id": "programmatic-renewal__positive",
+            "status": "observed",
+            "value": 4,
+            "confidence": 0.95,
+            "support_type": "positive_manifestation",
+            "rationale": "Хабинеза неоднократно предлагал изменить существующие правила и приоритеты: отмена земельного налога, пересмотр регулирования добычи, отмена 30-дневного срока предварительного заключения, новые меры по школьному питанию, реформы в высшем образовании. Эти предложения повторяются в разных эпизодах и охватывают несколько сфер, что соответствует сильному повторяющемуся акценту на программных изменениях.",
+            "evidence_indices": [
+              0,
+              2,
+              3,
+              11,
+              12,
+              13
+            ]
+          }
+        },
+        "evidence_file": "evidence/independent-dossier-frank-habineza.json",
+        "evidence_basis": "77deb6495161c2ade564630a0bc034b81cbcbd7163299e36ea5c44d0d063bf46"
+      },
+      "negative": {
+        "status": "observed",
+        "value": 1,
+        "confidence": 0.6,
+        "evidence_indices": [
+          1,
+          15,
+          16
+        ],
+        "source_urls": [
+          "https://www.newtimes.co.rw/article/18011/news/elections/i-will-be-the-president-of-rwanda-claims-green-partys-habineza/amp"
+        ],
+        "event_ids": [
+          "fh-2024-06-27-manifesto",
+          "fh-2024-06-27-manifesto-confidence"
+        ],
+        "rationale": "В риторике Хабинезы присутствует ссылка на прежние достижения и выполнение прошлых манифестов, что можно трактовать как единичное слабое проявление закрепления отдельных элементов прежнего курса, однако основной акцент на изменениях.",
+        "support_type": "positive_manifestation",
+        "provenance": {
+          "raw_response_file": "evidence/independent_responses/bc6d3096b2bab4ca90f2db22d478db338379766fad962579fc586421ab6ac4b3.json",
+          "model": "gpt-4.1",
+          "at": "2026-10-15T17:31:39.747539+00:00",
+          "cache_key": "bc6d3096b2bab4ca90f2db22d478db338379766fad962579fc586421ab6ac4b3",
+          "original_proposal": {
+            "variable_id": "programmatic-renewal__negative",
+            "status": "observed",
+            "value": 1,
+            "confidence": 0.6,
+            "support_type": "positive_manifestation",
+            "rationale": "В риторике Хабинезы присутствует ссылка на прежние достижения и выполнение прошлых манифестов, что можно трактовать как единичное слабое проявление закрепления отдельных элементов прежнего курса, однако основной акцент на изменениях.",
+            "evidence_indices": [
+              1,
+              15,
+              16
+            ]
+          }
+        },
+        "evidence_file": "evidence/independent-dossier-frank-habineza.json",
+        "evidence_basis": "77deb6495161c2ade564630a0bc034b81cbcbd7163299e36ea5c44d0d063bf46"
+      }
+    },
+    "positive": 4,
+    "negative": 1,
+    "value": null,
+    "status": "observed",
+    "difference": null,
+    "mass": null,
+    "measurement_model": "independent_poles",
+    "evidence_file": "evidence/independent-dossier-frank-habineza.json",
+    "evidence_basis": "77deb6495161c2ade564630a0bc034b81cbcbd7163299e36ea5c44d0d063bf46",
+    "at": "2026-10-15T17:31:48.379345+00:00",
+    "reason": "Каждое свойство оценивается независимо; разность и искусственное дополнение до пяти не вычисляются"
+  },
+  {
+    "object_id": "frank-habineza",
+    "scale_id": "government-course-assessment",
+    "pole_scores": {
+      "positive": {
+        "status": "unknown",
+        "value": null,
+        "confidence": 0,
+        "evidence_indices": [],
+        "source_urls": [],
+        "event_ids": [],
+        "rationale": "Нет прямых высказываний о поддержке действующего государственного курса в целом; ссылки на успехи партии не эквивалентны поддержке государственной политики.",
+        "support_type": "unknown",
+        "provenance": {
+          "raw_response_file": "evidence/independent_responses/bc6d3096b2bab4ca90f2db22d478db338379766fad962579fc586421ab6ac4b3.json",
+          "model": "gpt-4.1",
+          "at": "2026-10-15T17:31:39.747539+00:00",
+          "cache_key": "bc6d3096b2bab4ca90f2db22d478db338379766fad962579fc586421ab6ac4b3",
+          "original_proposal": {
+            "variable_id": "government-course-assessment__positive",
+            "status": "unknown",
+            "value": null,
+            "confidence": 0.3,
+            "support_type": "unknown",
+            "rationale": "Нет прямых высказываний о поддержке действующего государственного курса в целом; ссылки на успехи партии не эквивалентны поддержке государственной политики.",
+            "evidence_indices": []
+          }
+        },
+        "evidence_file": "evidence/independent-dossier-frank-habineza.json",
+        "evidence_basis": "77deb6495161c2ade564630a0bc034b81cbcbd7163299e36ea5c44d0d063bf46"
+      },
+      "negative": {
+        "status": "observed",
+        "value": 2,
+        "confidence": 0.8,
+        "evidence_indices": [
+          0,
+          2,
+          11
+        ],
+        "source_urls": [
+          "https://www.newtimes.co.rw/article/18011/news/elections/i-will-be-the-president-of-rwanda-claims-green-partys-habineza/amp",
+          "https://www.newtimes.co.rw/article/18346/news/elections/frank-habineza-campaigns-in-muhanga-promises-changes-in-mining-sector/amp"
+        ],
+        "event_ids": [
+          "fh-2024-06-27-manifesto",
+          "fh-2024-07-09-mining"
+        ],
+        "rationale": "Программная критика отдельных элементов действующего курса (налогообложение, предварительное заключение, регулирование добычи) присутствует явно, но нет последовательной критики всего государственного порядка.",
+        "support_type": "positive_manifestation",
+        "provenance": {
+          "raw_response_file": "evidence/independent_responses/bc6d3096b2bab4ca90f2db22d478db338379766fad962579fc586421ab6ac4b3.json",
+          "model": "gpt-4.1",
+          "at": "2026-10-15T17:31:39.747539+00:00",
+          "cache_key": "bc6d3096b2bab4ca90f2db22d478db338379766fad962579fc586421ab6ac4b3",
+          "original_proposal": {
+            "variable_id": "government-course-assessment__negative",
+            "status": "observed",
+            "value": 2,
+            "confidence": 0.8,
+            "support_type": "positive_manifestation",
+            "rationale": "Программная критика отдельных элементов действующего курса (налогообложение, предварительное заключение, регулирование добычи) присутствует явно, но нет последовательной критики всего государственного порядка.",
+            "evidence_indices": [
+              0,
+              2,
+              11
+            ]
+          }
+        },
+        "evidence_file": "evidence/independent-dossier-frank-habineza.json",
+        "evidence_basis": "77deb6495161c2ade564630a0bc034b81cbcbd7163299e36ea5c44d0d063bf46"
+      }
+    },
+    "positive": null,
+    "negative": 2,
+    "value": null,
+    "status": "partial",
+    "difference": null,
+    "mass": null,
+    "measurement_model": "independent_poles",
+    "evidence_file": "evidence/independent-dossier-frank-habineza.json",
+    "evidence_basis": "77deb6495161c2ade564630a0bc034b81cbcbd7163299e36ea5c44d0d063bf46",
+    "at": "2026-10-15T17:31:48.379345+00:00",
+    "reason": "Каждое свойство оценивается независимо; разность и искусственное дополнение до пяти не вычисляются"
+  },
+  {
+    "object_id": "frank-habineza",
+    "scale_id": "participation-administrative-direction",
+    "pole_scores": {
+      "positive": {
+        "status": "observed",
+        "value": 3,
+        "confidence": 0.9,
+        "evidence_indices": [
+          0,
+          6,
+          9,
+          17,
+          19,
+          22
+        ],
+        "source_urls": [
+          "https://www.newtimes.co.rw/article/18011/news/elections/i-will-be-the-president-of-rwanda-claims-green-partys-habineza/amp",
+          "https://www.ktpress.rw/2024/05/elections-2024-surge-in-number-of-independent-candidates-signals-inclusiveness-as-greens-eye-more-seats/",
+          "https://rwandagreendemocrats.org/",
+          "https://www.ktpress.rw/2025/07/green-party-sets-sights-on-government-come-2029-elections-plans-candidate-for-all-seats/",
+          "https://www.ktpress.rw/2025/09/democratic-green-party-holds-eastern-congress-inaugurates-new-party-office-in-rwamagana/"
+        ],
+        "event_ids": [
+          "fh-2024-06-27-manifesto",
+          "fh-2024-election-candidacy",
+          "fh-2024-05-20-inclusive-polls",
+          "fh-2025-05-24-party-bureau-meeting",
+          "fh-2025-07-20-grassroots-party-expansion",
+          "fh-2025-09-26-grassroots-mobilization"
+        ],
+        "rationale": "Хабинеза подчеркивал консультации по районам при подготовке манифеста, обсуждение приоритетов на партийных заседаниях, расширение участия через партийные структуры и призывы к инклюзивности выборов. Это несколько последовательных эпизодов с устойчивым акцентом на совместное обсуждение.",
+        "support_type": "positive_manifestation",
+        "provenance": {
+          "raw_response_file": "evidence/independent_responses/bc6d3096b2bab4ca90f2db22d478db338379766fad962579fc586421ab6ac4b3.json",
+          "model": "gpt-4.1",
+          "at": "2026-10-15T17:31:39.747539+00:00",
+          "cache_key": "bc6d3096b2bab4ca90f2db22d478db338379766fad962579fc586421ab6ac4b3",
+          "original_proposal": {
+            "variable_id": "participation-administrative-direction__positive",
+            "status": "observed",
+            "value": 3,
+            "confidence": 0.9,
+            "support_type": "positive_manifestation",
+            "rationale": "Хабинеза подчеркивал консультации по районам при подготовке манифеста, обсуждение приоритетов на партийных заседаниях, расширение участия через партийные структуры и призывы к инклюзивности выборов. Это несколько последовательных эпизодов с устойчивым акцентом на совместное обсуждение.",
+            "evidence_indices": [
+              0,
+              6,
+              9,
+              17,
+              19,
+              22
+            ]
+          }
+        },
+        "evidence_file": "evidence/independent-dossier-frank-habineza.json",
+        "evidence_basis": "77deb6495161c2ade564630a0bc034b81cbcbd7163299e36ea5c44d0d063bf46"
+      },
+      "negative": {
+        "status": "observed",
+        "value": 2,
+        "confidence": 0.7,
+        "evidence_indices": [
+          12,
+          14
+        ],
+        "source_urls": [
+          "https://www.newtimes.co.rw/article/18148/news/elections/democratic-green-party-of-rwandas-habineza-promises-to-improve-school-feeding-if-elected/amp",
+          "https://umwezi.rw/?p=14888"
+        ],
+        "event_ids": [
+          "fh-2024-07-03-school-feeding",
+          "fh-2024-05-11-waste-policy"
+        ],
+        "rationale": "В ряде программных предложений (например, единая система обращения с отходами, общенациональные стандарты школьного питания) прослеживается элемент административной постановки задач и координации исполнения, но это не основной акцент.",
+        "support_type": "positive_manifestation",
+        "provenance": {
+          "raw_response_file": "evidence/independent_responses/bc6d3096b2bab4ca90f2db22d478db338379766fad962579fc586421ab6ac4b3.json",
+          "model": "gpt-4.1",
+          "at": "2026-10-15T17:31:39.747539+00:00",
+          "cache_key": "bc6d3096b2bab4ca90f2db22d478db338379766fad962579fc586421ab6ac4b3",
+          "original_proposal": {
+            "variable_id": "participation-administrative-direction__negative",
+            "status": "observed",
+            "value": 2,
+            "confidence": 0.7,
+            "support_type": "positive_manifestation",
+            "rationale": "В ряде программных предложений (например, единая система обращения с отходами, общенациональные стандарты школьного питания) прослеживается элемент административной постановки задач и координации исполнения, но это не основной акцент.",
+            "evidence_indices": [
+              12,
+              14
+            ]
+          }
+        },
+        "evidence_file": "evidence/independent-dossier-frank-habineza.json",
+        "evidence_basis": "77deb6495161c2ade564630a0bc034b81cbcbd7163299e36ea5c44d0d063bf46"
+      }
+    },
+    "positive": 3,
+    "negative": 2,
+    "value": null,
+    "status": "observed",
+    "difference": null,
+    "mass": null,
+    "measurement_model": "independent_poles",
+    "evidence_file": "evidence/independent-dossier-frank-habineza.json",
+    "evidence_basis": "77deb6495161c2ade564630a0bc034b81cbcbd7163299e36ea5c44d0d063bf46",
+    "at": "2026-10-15T17:31:48.379345+00:00",
+    "reason": "Каждое свойство оценивается независимо; разность и искусственное дополнение до пяти не вычисляются"
+  },
+  {
+    "object_id": "frank-habineza",
+    "scale_id": "argumentation-evidence-values",
+    "pole_scores": {
+      "positive": {
+        "status": "observed",
+        "value": 2,
+        "confidence": 0.7,
+        "evidence_indices": [
+          1,
+          2,
+          15
+        ],
+        "source_urls": [
+          "https://www.newtimes.co.rw/article/18011/news/elections/i-will-be-the-president-of-rwanda-claims-green-partys-habineza/amp",
+          "https://www.newtimes.co.rw/article/18346/news/elections/frank-habineza-campaigns-in-muhanga-promises-changes-in-mining-sector/amp"
+        ],
+        "event_ids": [
+          "fh-2024-06-27-manifesto",
+          "fh-2024-07-09-mining"
+        ],
+        "rationale": "Хабинеза ссылается на измеримые результаты прежних манифестов, выполнение обещаний, а также на необходимость прозрачных проверок в добывающей отрасли. Это ограниченное, но явное использование данных и проверяемых результатов.",
+        "support_type": "positive_manifestation",
+        "provenance": {
+          "raw_response_file": "evidence/independent_responses/bc6d3096b2bab4ca90f2db22d478db338379766fad962579fc586421ab6ac4b3.json",
+          "model": "gpt-4.1",
+          "at": "2026-10-15T17:31:39.747539+00:00",
+          "cache_key": "bc6d3096b2bab4ca90f2db22d478db338379766fad962579fc586421ab6ac4b3",
+          "original_proposal": {
+            "variable_id": "argumentation-evidence-values__positive",
+            "status": "observed",
+            "value": 2,
+            "confidence": 0.7,
+            "support_type": "positive_manifestation",
+            "rationale": "Хабинеза ссылается на измеримые результаты прежних манифестов, выполнение обещаний, а также на необходимость прозрачных проверок в добывающей отрасли. Это ограниченное, но явное использование данных и проверяемых результатов.",
+            "evidence_indices": [
+              1,
+              2,
+              15
+            ]
+          }
+        },
+        "evidence_file": "evidence/independent-dossier-frank-habineza.json",
+        "evidence_basis": "77deb6495161c2ade564630a0bc034b81cbcbd7163299e36ea5c44d0d063bf46"
+      },
+      "negative": {
+        "status": "observed",
+        "value": 1,
+        "confidence": 0.5,
+        "evidence_indices": [
+          25,
+          26
+        ],
+        "source_urls": [
+          "https://www.ktpress.rw/2025/12/we-will-seek-power-through-an-electoral-vote-dgpr-president/"
+        ],
+        "event_ids": [
+          "fh-2025-12-01-karongi-electoral-power",
+          "fh-2025-12-01-rejection-violence"
+        ],
+        "rationale": "В материалах встречаются отдельные обращения к ценностям (например, демократические выборы, отказ от насилия), но они не являются основным способом обоснования.",
+        "support_type": "positive_manifestation",
+        "provenance": {
+          "raw_response_file": "evidence/independent_responses/bc6d3096b2bab4ca90f2db22d478db338379766fad962579fc586421ab6ac4b3.json",
+          "model": "gpt-4.1",
+          "at": "2026-10-15T17:31:39.747539+00:00",
+          "cache_key": "bc6d3096b2bab4ca90f2db22d478db338379766fad962579fc586421ab6ac4b3",
+          "original_proposal": {
+            "variable_id": "argumentation-evidence-values__negative",
+            "status": "observed",
+            "value": 1,
+            "confidence": 0.5,
+            "support_type": "positive_manifestation",
+            "rationale": "В материалах встречаются отдельные обращения к ценностям (например, демократические выборы, отказ от насилия), но они не являются основным способом обоснования.",
+            "evidence_indices": [
+              25,
+              26
+            ]
+          }
+        },
+        "evidence_file": "evidence/independent-dossier-frank-habineza.json",
+        "evidence_basis": "77deb6495161c2ade564630a0bc034b81cbcbd7163299e36ea5c44d0d063bf46"
+      }
+    },
+    "positive": 2,
+    "negative": 1,
+    "value": null,
+    "status": "observed",
+    "difference": null,
+    "mass": null,
+    "measurement_model": "independent_poles",
+    "evidence_file": "evidence/independent-dossier-frank-habineza.json",
+    "evidence_basis": "77deb6495161c2ade564630a0bc034b81cbcbd7163299e36ea5c44d0d063bf46",
+    "at": "2026-10-15T17:31:48.379345+00:00",
+    "reason": "Каждое свойство оценивается независимо; разность и искусственное дополнение до пяти не вычисляются"
+  },
+  {
+    "object_id": "frank-habineza",
+    "scale_id": "market-state-instruments",
+    "pole_scores": {
+      "positive": {
+        "status": "observed",
+        "value": 2,
+        "confidence": 0.7,
+        "evidence_indices": [
+          0,
+          13
+        ],
+        "source_urls": [
+          "https://www.newtimes.co.rw/article/18011/news/elections/i-will-be-the-president-of-rwanda-claims-green-partys-habineza/amp",
+          "https://www.universityworldnews.com/post.php?story=20240710093845978"
+        ],
+        "event_ids": [
+          "fh-2024-06-27-manifesto",
+          "fh-2024-07-10-higher-education"
+        ],
+        "rationale": "В программе присутствуют предложения по созданию предпринимательского фонда для выпускников и расширению прав собственности на землю, что указывает на ограниченное продвижение частной инициативы.",
+        "support_type": "positive_manifestation",
+        "provenance": {
+          "raw_response_file": "evidence/independent_responses/bc6d3096b2bab4ca90f2db22d478db338379766fad962579fc586421ab6ac4b3.json",
+          "model": "gpt-4.1",
+          "at": "2026-10-15T17:31:39.747539+00:00",
+          "cache_key": "bc6d3096b2bab4ca90f2db22d478db338379766fad962579fc586421ab6ac4b3",
+          "original_proposal": {
+            "variable_id": "market-state-instruments__positive",
+            "status": "observed",
+            "value": 2,
+            "confidence": 0.7,
+            "support_type": "positive_manifestation",
+            "rationale": "В программе присутствуют предложения по созданию предпринимательского фонда для выпускников и расширению прав собственности на землю, что указывает на ограниченное продвижение частной инициативы.",
+            "evidence_indices": [
+              0,
+              13
+            ]
+          }
+        },
+        "evidence_file": "evidence/independent-dossier-frank-habineza.json",
+        "evidence_basis": "77deb6495161c2ade564630a0bc034b81cbcbd7163299e36ea5c44d0d063bf46"
+      },
+      "negative": {
+        "status": "observed",
+        "value": 3,
+        "confidence": 0.8,
+        "evidence_indices": [
+          2,
+          12,
+          14,
+          3
+        ],
+        "source_urls": [
+          "https://www.newtimes.co.rw/article/18346/news/elections/frank-habineza-campaigns-in-muhanga-promises-changes-in-mining-sector/amp",
+          "https://www.newtimes.co.rw/article/18148/news/elections/democratic-green-party-of-rwandas-habineza-promises-to-improve-school-feeding-if-elected/amp",
+          "https://umwezi.rw/?p=14888"
+        ],
+        "event_ids": [
+          "fh-2024-07-09-mining",
+          "fh-2024-07-03-school-feeding",
+          "fh-2024-05-11-waste-policy",
+          "fh-2024-07-09-social-economic"
+        ],
+        "rationale": "Предложения о введении общенациональных стандартов (школьное питание, централизованная обработка отходов), регулировании добычи и увеличении бюджетов на медстрахование указывают на устойчивый акцент на государственном планировании и обязательных правилах.",
+        "support_type": "positive_manifestation",
+        "provenance": {
+          "raw_response_file": "evidence/independent_responses/bc6d3096b2bab4ca90f2db22d478db338379766fad962579fc586421ab6ac4b3.json",
+          "model": "gpt-4.1",
+          "at": "2026-10-15T17:31:39.747539+00:00",
+          "cache_key": "bc6d3096b2bab4ca90f2db22d478db338379766fad962579fc586421ab6ac4b3",
+          "original_proposal": {
+            "variable_id": "market-state-instruments__negative",
+            "status": "observed",
+            "value": 3,
+            "confidence": 0.8,
+            "support_type": "positive_manifestation",
+            "rationale": "Предложения о введении общенациональных стандартов (школьное питание, централизованная обработка отходов), регулировании добычи и увеличении бюджетов на медстрахование указывают на устойчивый акцент на государственном планировании и обязательных правилах.",
+            "evidence_indices": [
+              2,
+              12,
+              14,
+              3
+            ]
+          }
+        },
+        "evidence_file": "evidence/independent-dossier-frank-habineza.json",
+        "evidence_basis": "77deb6495161c2ade564630a0bc034b81cbcbd7163299e36ea5c44d0d063bf46"
+      }
+    },
+    "positive": 2,
+    "negative": 3,
+    "value": null,
+    "status": "observed",
+    "difference": null,
+    "mass": null,
+    "measurement_model": "independent_poles",
+    "evidence_file": "evidence/independent-dossier-frank-habineza.json",
+    "evidence_basis": "77deb6495161c2ade564630a0bc034b81cbcbd7163299e36ea5c44d0d063bf46",
+    "at": "2026-10-15T17:31:48.379345+00:00",
+    "reason": "Каждое свойство оценивается независимо; разность и искусственное дополнение до пяти не вычисляются"
+  },
+  {
+    "object_id": "frank-habineza",
+    "scale_id": "accessibility-growth-priorities",
+    "pole_scores": {
+      "positive": {
+        "status": "observed",
+        "value": 4,
+        "confidence": 0.95,
+        "evidence_indices": [
+          0,
+          3,
+          12,
+          13
+        ],
+        "source_urls": [
+          "https://www.newtimes.co.rw/article/18011/news/elections/i-will-be-the-president-of-rwanda-claims-green-partys-habineza/amp",
+          "https://www.newtimes.co.rw/article/18346/news/elections/frank-habineza-campaigns-in-muhanga-promises-changes-in-mining-sector/amp",
+          "https://www.newtimes.co.rw/article/18148/news/elections/democratic-green-party-of-rwandas-habineza-promises-to-improve-school-feeding-if-elected/amp",
+          "https://www.universityworldnews.com/post.php?story=20240710093845978"
+        ],
+        "event_ids": [
+          "fh-2024-06-27-manifesto",
+          "fh-2024-07-09-social-economic",
+          "fh-2024-07-03-school-feeding",
+          "fh-2024-07-10-higher-education"
+        ],
+        "rationale": "Многократно заявлены меры по расширению доступности базовых благ: школьное питание, вода, здравоохранение, отмена земельного налога, повышение зарплат преподавателям, создание исследовательских центров в каждом районе. Это сильный повторяющийся акцент.",
+        "support_type": "positive_manifestation",
+        "provenance": {
+          "raw_response_file": "evidence/independent_responses/bc6d3096b2bab4ca90f2db22d478db338379766fad962579fc586421ab6ac4b3.json",
+          "model": "gpt-4.1",
+          "at": "2026-10-15T17:31:39.747539+00:00",
+          "cache_key": "bc6d3096b2bab4ca90f2db22d478db338379766fad962579fc586421ab6ac4b3",
+          "original_proposal": {
+            "variable_id": "accessibility-growth-priorities__positive",
+            "status": "observed",
+            "value": 4,
+            "confidence": 0.95,
+            "support_type": "positive_manifestation",
+            "rationale": "Многократно заявлены меры по расширению доступности базовых благ: школьное питание, вода, здравоохранение, отмена земельного налога, повышение зарплат преподавателям, создание исследовательских центров в каждом районе. Это сильный повторяющийся акцент.",
+            "evidence_indices": [
+              0,
+              3,
+              12,
+              13
+            ]
+          }
+        },
+        "evidence_file": "evidence/independent-dossier-frank-habineza.json",
+        "evidence_basis": "77deb6495161c2ade564630a0bc034b81cbcbd7163299e36ea5c44d0d063bf46"
+      },
+      "negative": {
+        "status": "observed",
+        "value": 2,
+        "confidence": 0.6,
+        "evidence_indices": [
+          0,
+          13
+        ],
+        "source_urls": [
+          "https://www.newtimes.co.rw/article/18011/news/elections/i-will-be-the-president-of-rwanda-claims-green-partys-habineza/amp",
+          "https://www.universityworldnews.com/post.php?story=20240710093845978"
+        ],
+        "event_ids": [
+          "fh-2024-06-27-manifesto",
+          "fh-2024-07-10-higher-education"
+        ],
+        "rationale": "В программе есть элементы поддержки роста инвестиций и предпринимательства (предпринимательский фонд, экономические меры), но основной акцент на доступности благ.",
+        "support_type": "positive_manifestation",
+        "provenance": {
+          "raw_response_file": "evidence/independent_responses/bc6d3096b2bab4ca90f2db22d478db338379766fad962579fc586421ab6ac4b3.json",
+          "model": "gpt-4.1",
+          "at": "2026-10-15T17:31:39.747539+00:00",
+          "cache_key": "bc6d3096b2bab4ca90f2db22d478db338379766fad962579fc586421ab6ac4b3",
+          "original_proposal": {
+            "variable_id": "accessibility-growth-priorities__negative",
+            "status": "observed",
+            "value": 2,
+            "confidence": 0.6,
+            "support_type": "positive_manifestation",
+            "rationale": "В программе есть элементы поддержки роста инвестиций и предпринимательства (предпринимательский фонд, экономические меры), но основной акцент на доступности благ.",
+            "evidence_indices": [
+              0,
+              13
+            ]
+          }
+        },
+        "evidence_file": "evidence/independent-dossier-frank-habineza.json",
+        "evidence_basis": "77deb6495161c2ade564630a0bc034b81cbcbd7163299e36ea5c44d0d063bf46"
+      }
+    },
+    "positive": 4,
+    "negative": 2,
+    "value": null,
+    "status": "observed",
+    "difference": null,
+    "mass": null,
+    "measurement_model": "independent_poles",
+    "evidence_file": "evidence/independent-dossier-frank-habineza.json",
+    "evidence_basis": "77deb6495161c2ade564630a0bc034b81cbcbd7163299e36ea5c44d0d063bf46",
+    "at": "2026-10-15T17:31:48.379345+00:00",
+    "reason": "Каждое свойство оценивается независимо; разность и искусственное дополнение до пяти не вычисляются"
+  },
+  {
+    "object_id": "frank-habineza",
+    "scale_id": "external-domestic-resources",
+    "pole_scores": {
+      "positive": {
+        "status": "unknown",
+        "value": null,
+        "confidence": 0,
+        "evidence_indices": [],
+        "source_urls": [],
+        "event_ids": [],
+        "rationale": "Нет прямых сведений о привлечении внешнего финансирования или ресурсных партнёров в анализируемых эпизодах.",
+        "support_type": "unknown",
+        "provenance": {
+          "raw_response_file": "evidence/independent_responses/bc6d3096b2bab4ca90f2db22d478db338379766fad962579fc586421ab6ac4b3.json",
+          "model": "gpt-4.1",
+          "at": "2026-10-15T17:31:39.747539+00:00",
+          "cache_key": "bc6d3096b2bab4ca90f2db22d478db338379766fad962579fc586421ab6ac4b3",
+          "original_proposal": {
+            "variable_id": "external-domestic-resources__positive",
+            "status": "unknown",
+            "value": null,
+            "confidence": 0.3,
+            "support_type": "unknown",
+            "rationale": "Нет прямых сведений о привлечении внешнего финансирования или ресурсных партнёров в анализируемых эпизодах.",
+            "evidence_indices": []
+          }
+        },
+        "evidence_file": "evidence/independent-dossier-frank-habineza.json",
+        "evidence_basis": "77deb6495161c2ade564630a0bc034b81cbcbd7163299e36ea5c44d0d063bf46"
+      },
+      "negative": {
+        "status": "unknown",
+        "value": null,
+        "confidence": 0,
+        "evidence_indices": [],
+        "source_urls": [],
+        "event_ids": [],
+        "rationale": "Нет прямых заявлений о приоритете внутренних доходов или снижении зависимости от внешних поступлений.",
+        "support_type": "unknown",
+        "provenance": {
+          "raw_response_file": "evidence/independent_responses/bc6d3096b2bab4ca90f2db22d478db338379766fad962579fc586421ab6ac4b3.json",
+          "model": "gpt-4.1",
+          "at": "2026-10-15T17:31:39.747539+00:00",
+          "cache_key": "bc6d3096b2bab4ca90f2db22d478db338379766fad962579fc586421ab6ac4b3",
+          "original_proposal": {
+            "variable_id": "external-domestic-resources__negative",
+            "status": "unknown",
+            "value": null,
+            "confidence": 0.3,
+            "support_type": "unknown",
+            "rationale": "Нет прямых заявлений о приоритете внутренних доходов или снижении зависимости от внешних поступлений.",
+            "evidence_indices": []
+          }
+        },
+        "evidence_file": "evidence/independent-dossier-frank-habineza.json",
+        "evidence_basis": "77deb6495161c2ade564630a0bc034b81cbcbd7163299e36ea5c44d0d063bf46"
+      }
+    },
+    "positive": null,
+    "negative": null,
+    "value": null,
+    "status": "unknown",
+    "difference": null,
+    "mass": null,
+    "measurement_model": "independent_poles",
+    "evidence_file": "evidence/independent-dossier-frank-habineza.json",
+    "evidence_basis": "77deb6495161c2ade564630a0bc034b81cbcbd7163299e36ea5c44d0d063bf46",
+    "at": "2026-10-15T17:31:48.379345+00:00",
+    "reason": "Каждое свойство оценивается независимо; разность и искусственное дополнение до пяти не вычисляются"
+  },
+  {
+    "object_id": "frank-habineza",
+    "scale_id": "international-rules-autonomy",
+    "pole_scores": {
+      "positive": {
+        "status": "unknown",
+        "value": null,
+        "confidence": 0,
+        "evidence_indices": [],
+        "source_urls": [],
+        "event_ids": [],
+        "rationale": "Нет прямых предложений о закреплении международных обязательств или норм.",
+        "support_type": "unknown",
+        "provenance": {
+          "raw_response_file": "evidence/independent_responses/bc6d3096b2bab4ca90f2db22d478db338379766fad962579fc586421ab6ac4b3.json",
+          "model": "gpt-4.1",
+          "at": "2026-10-15T17:31:39.747539+00:00",
+          "cache_key": "bc6d3096b2bab4ca90f2db22d478db338379766fad962579fc586421ab6ac4b3",
+          "original_proposal": {
+            "variable_id": "international-rules-autonomy__positive",
+            "status": "unknown",
+            "value": null,
+            "confidence": 0.3,
+            "support_type": "unknown",
+            "rationale": "Нет прямых предложений о закреплении международных обязательств или норм.",
+            "evidence_indices": []
+          }
+        },
+        "evidence_file": "evidence/independent-dossier-frank-habineza.json",
+        "evidence_basis": "77deb6495161c2ade564630a0bc034b81cbcbd7163299e36ea5c44d0d063bf46"
+      },
+      "negative": {
+        "status": "observed",
+        "value": 2,
+        "confidence": 0.7,
+        "evidence_indices": [
+          25,
+          26
+        ],
+        "source_urls": [
+          "https://www.ktpress.rw/2025/12/we-will-seek-power-through-an-electoral-vote-dgpr-president/"
+        ],
+        "event_ids": [
+          "fh-2025-12-01-karongi-electoral-power",
+          "fh-2025-12-01-rejection-violence"
+        ],
+        "rationale": "Публичный отказ от недемократических путей прихода к власти и акцент на национальных выборах указывает на ограниченное проявление защиты национальной самостоятельности решений.",
+        "support_type": "positive_manifestation",
+        "provenance": {
+          "raw_response_file": "evidence/independent_responses/bc6d3096b2bab4ca90f2db22d478db338379766fad962579fc586421ab6ac4b3.json",
+          "model": "gpt-4.1",
+          "at": "2026-10-15T17:31:39.747539+00:00",
+          "cache_key": "bc6d3096b2bab4ca90f2db22d478db338379766fad962579fc586421ab6ac4b3",
+          "original_proposal": {
+            "variable_id": "international-rules-autonomy__negative",
+            "status": "observed",
+            "value": 2,
+            "confidence": 0.7,
+            "support_type": "positive_manifestation",
+            "rationale": "Публичный отказ от недемократических путей прихода к власти и акцент на национальных выборах указывает на ограниченное проявление защиты национальной самостоятельности решений.",
+            "evidence_indices": [
+              25,
+              26
+            ]
+          }
+        },
+        "evidence_file": "evidence/independent-dossier-frank-habineza.json",
+        "evidence_basis": "77deb6495161c2ade564630a0bc034b81cbcbd7163299e36ea5c44d0d063bf46"
+      }
+    },
+    "positive": null,
+    "negative": 2,
+    "value": null,
+    "status": "partial",
+    "difference": null,
+    "mass": null,
+    "measurement_model": "independent_poles",
+    "evidence_file": "evidence/independent-dossier-frank-habineza.json",
+    "evidence_basis": "77deb6495161c2ade564630a0bc034b81cbcbd7163299e36ea5c44d0d063bf46",
+    "at": "2026-10-15T17:31:48.379345+00:00",
+    "reason": "Каждое свойство оценивается независимо; разность и искусственное дополнение до пяти не вычисляются"
+  },
+  {
+    "object_id": "frank-habineza",
+    "scale_id": "mediation-adversarial-communication",
+    "pole_scores": {
+      "positive": {
+        "status": "observed",
+        "value": 2,
+        "confidence": 0.7,
+        "evidence_indices": [
+          9,
+          10
+        ],
+        "source_urls": [
+          "https://www.ktpress.rw/2024/05/elections-2024-surge-in-number-of-independent-candidates-signals-inclusiveness-as-greens-eye-more-seats/",
+          "https://www.ktpress.rw/2024/07/frank-habineza-anticipates-55-of-votes/"
+        ],
+        "event_ids": [
+          "fh-2024-05-20-inclusive-polls",
+          "fh-2024-07-15-free-fair-results"
+        ],
+        "rationale": "В риторике Хабинезы присутствует призыв к инклюзивности, признание результатов честных выборов и стремление к расширению участия, что соответствует ограниченному проявлению поиска согласования.",
+        "support_type": "positive_manifestation",
+        "provenance": {
+          "raw_response_file": "evidence/independent_responses/bc6d3096b2bab4ca90f2db22d478db338379766fad962579fc586421ab6ac4b3.json",
+          "model": "gpt-4.1",
+          "at": "2026-10-15T17:31:39.747539+00:00",
+          "cache_key": "bc6d3096b2bab4ca90f2db22d478db338379766fad962579fc586421ab6ac4b3",
+          "original_proposal": {
+            "variable_id": "mediation-adversarial-communication__positive",
+            "status": "observed",
+            "value": 2,
+            "confidence": 0.7,
+            "support_type": "positive_manifestation",
+            "rationale": "В риторике Хабинезы присутствует призыв к инклюзивности, признание результатов честных выборов и стремление к расширению участия, что соответствует ограниченному проявлению поиска согласования.",
+            "evidence_indices": [
+              9,
+              10
+            ]
+          }
+        },
+        "evidence_file": "evidence/independent-dossier-frank-habineza.json",
+        "evidence_basis": "77deb6495161c2ade564630a0bc034b81cbcbd7163299e36ea5c44d0d063bf46"
+      },
+      "negative": {
+        "status": "observed",
+        "value": 1,
+        "confidence": 0.5,
+        "evidence_indices": [
+          16,
+          23
+        ],
+        "source_urls": [
+          "https://www.newtimes.co.rw/article/18011/news/elections/i-will-be-the-president-of-rwanda-claims-green-partys-habineza/amp",
+          "https://frankhabineza.com/hon-dr-frank-habineza-interview/"
+        ],
+        "event_ids": [
+          "fh-2024-06-27-manifesto-confidence",
+          "fh-2025-11-09-manifesto-implementation-confidence"
+        ],
+        "rationale": "Зафиксированы единичные эпизоды защиты собственной политической линии и результатов партии, но нет устойчивого акцента на полемике или конфронтации.",
+        "support_type": "positive_manifestation",
+        "provenance": {
+          "raw_response_file": "evidence/independent_responses/bc6d3096b2bab4ca90f2db22d478db338379766fad962579fc586421ab6ac4b3.json",
+          "model": "gpt-4.1",
+          "at": "2026-10-15T17:31:39.747539+00:00",
+          "cache_key": "bc6d3096b2bab4ca90f2db22d478db338379766fad962579fc586421ab6ac4b3",
+          "original_proposal": {
+            "variable_id": "mediation-adversarial-communication__negative",
+            "status": "observed",
+            "value": 1,
+            "confidence": 0.5,
+            "support_type": "positive_manifestation",
+            "rationale": "Зафиксированы единичные эпизоды защиты собственной политической линии и результатов партии, но нет устойчивого акцента на полемике или конфронтации.",
+            "evidence_indices": [
+              16,
+              23
+            ]
+          }
+        },
+        "evidence_file": "evidence/independent-dossier-frank-habineza.json",
+        "evidence_basis": "77deb6495161c2ade564630a0bc034b81cbcbd7163299e36ea5c44d0d063bf46"
+      }
+    },
+    "positive": 2,
+    "negative": 1,
+    "value": null,
+    "status": "observed",
+    "difference": null,
+    "mass": null,
+    "measurement_model": "independent_poles",
+    "evidence_file": "evidence/independent-dossier-frank-habineza.json",
+    "evidence_basis": "77deb6495161c2ade564630a0bc034b81cbcbd7163299e36ea5c44d0d063bf46",
+    "at": "2026-10-15T17:31:48.379345+00:00",
+    "reason": "Каждое свойство оценивается независимо; разность и искусственное дополнение до пяти не вычисляются"
+  },
+  {
+    "object_id": "frank-habineza",
+    "scale_id": "cultural-openness-national-transmission",
+    "pole_scores": {
+      "positive": {
+        "status": "observed",
+        "value": 2,
+        "confidence": 0.7,
+        "evidence_indices": [
+          28
+        ],
+        "source_urls": [
+          "https://frankhabineza.com/hon-dr-frank-habineza-elected-as-global-greens-co-convenor/"
+        ],
+        "event_ids": [
+          "fh-2026-01-02-global-greens-convenor"
+        ],
+        "rationale": "Избрание Хабинезы сопредседателем Global Greens (evidence_index 28) и регулярное участие в международных зелёных инициативах указывает на выраженное, но не определяющее расширение межкультурного обмена и разнообразия. Прямых программных заявлений о культурном обмене не выявлено, но международная партийная координация подтверждена.",
+        "support_type": "positive_manifestation",
+        "provenance": {
+          "raw_response_file": "evidence/independent_responses/3dbc889c906deeaea7202e8c6c8fefc4e7b5c7e47bfc54ad2f9ce517aa1ded26.json",
+          "model": "gpt-4.1",
+          "at": "2026-10-15T17:31:48.375953+00:00",
+          "cache_key": "3dbc889c906deeaea7202e8c6c8fefc4e7b5c7e47bfc54ad2f9ce517aa1ded26",
+          "original_proposal": {
+            "variable_id": "cultural-openness-national-transmission__positive",
+            "status": "observed",
+            "value": 2,
+            "confidence": 0.7,
+            "support_type": "positive_manifestation",
+            "rationale": "Избрание Хабинезы сопредседателем Global Greens (evidence_index 28) и регулярное участие в международных зелёных инициативах указывает на выраженное, но не определяющее расширение межкультурного обмена и разнообразия. Прямых программных заявлений о культурном обмене не выявлено, но международная партийная координация подтверждена.",
+            "evidence_indices": [
+              28
+            ]
+          }
+        },
+        "evidence_file": "evidence/independent-dossier-frank-habineza.json",
+        "evidence_basis": "77deb6495161c2ade564630a0bc034b81cbcbd7163299e36ea5c44d0d063bf46"
+      },
+      "negative": {
+        "status": "unknown",
+        "value": null,
+        "confidence": 0,
+        "evidence_indices": [],
+        "source_urls": [],
+        "event_ids": [],
+        "rationale": "Нет прямых заявлений или действий, направленных на сохранение и передачу национальных ценностей как самостоятельного публичного акцента. Материал не содержит отрицания этого полюса, но и не подтверждает его.",
+        "support_type": "unknown",
+        "provenance": {
+          "raw_response_file": "evidence/independent_responses/3dbc889c906deeaea7202e8c6c8fefc4e7b5c7e47bfc54ad2f9ce517aa1ded26.json",
+          "model": "gpt-4.1",
+          "at": "2026-10-15T17:31:48.375953+00:00",
+          "cache_key": "3dbc889c906deeaea7202e8c6c8fefc4e7b5c7e47bfc54ad2f9ce517aa1ded26",
+          "original_proposal": {
+            "variable_id": "cultural-openness-national-transmission__negative",
+            "status": "unknown",
+            "value": null,
+            "confidence": 0.3,
+            "support_type": "unknown",
+            "rationale": "Нет прямых заявлений или действий, направленных на сохранение и передачу национальных ценностей как самостоятельного публичного акцента. Материал не содержит отрицания этого полюса, но и не подтверждает его.",
+            "evidence_indices": []
+          }
+        },
+        "evidence_file": "evidence/independent-dossier-frank-habineza.json",
+        "evidence_basis": "77deb6495161c2ade564630a0bc034b81cbcbd7163299e36ea5c44d0d063bf46"
+      }
+    },
+    "positive": 2,
+    "negative": null,
+    "value": null,
+    "status": "partial",
+    "difference": null,
+    "mass": null,
+    "measurement_model": "independent_poles",
+    "evidence_file": "evidence/independent-dossier-frank-habineza.json",
+    "evidence_basis": "77deb6495161c2ade564630a0bc034b81cbcbd7163299e36ea5c44d0d063bf46",
+    "at": "2026-10-15T17:31:48.379345+00:00",
+    "reason": "Каждое свойство оценивается независимо; разность и искусственное дополнение до пяти не вычисляются"
+  },
+  {
+    "object_id": "frank-habineza",
+    "scale_id": "problem-disclosure-reputation-defence",
+    "pole_scores": {
+      "positive": {
+        "status": "observed",
+        "value": 2,
+        "confidence": 0.7,
+        "evidence_indices": [
+          0,
+          2
+        ],
+        "source_urls": [
+          "https://www.newtimes.co.rw/article/18011/news/elections/i-will-be-the-president-of-rwanda-claims-green-partys-habineza/amp",
+          "https://www.newtimes.co.rw/article/18346/news/elections/frank-habineza-campaigns-in-muhanga-promises-changes-in-mining-sector/amp"
+        ],
+        "event_ids": [
+          "fh-2024-06-27-manifesto",
+          "fh-2024-07-09-mining"
+        ],
+        "rationale": "В ряде эпизодов Хабинеза публично обозначал проблемы действующего порядка (например, отмена 30-дневного срока предварительного заключения, критика хаотичной добычи полезных ископаемых, evidence_indices 0, 2). Это ограниченное, но ясное признание отдельных проблем.",
+        "support_type": "positive_manifestation",
+        "provenance": {
+          "raw_response_file": "evidence/independent_responses/3dbc889c906deeaea7202e8c6c8fefc4e7b5c7e47bfc54ad2f9ce517aa1ded26.json",
+          "model": "gpt-4.1",
+          "at": "2026-10-15T17:31:48.375953+00:00",
+          "cache_key": "3dbc889c906deeaea7202e8c6c8fefc4e7b5c7e47bfc54ad2f9ce517aa1ded26",
+          "original_proposal": {
+            "variable_id": "problem-disclosure-reputation-defence__positive",
+            "status": "observed",
+            "value": 2,
+            "confidence": 0.7,
+            "support_type": "positive_manifestation",
+            "rationale": "В ряде эпизодов Хабинеза публично обозначал проблемы действующего порядка (например, отмена 30-дневного срока предварительного заключения, критика хаотичной добычи полезных ископаемых, evidence_indices 0, 2). Это ограниченное, но ясное признание отдельных проблем.",
+            "evidence_indices": [
+              0,
+              2
+            ]
+          }
+        },
+        "evidence_file": "evidence/independent-dossier-frank-habineza.json",
+        "evidence_basis": "77deb6495161c2ade564630a0bc034b81cbcbd7163299e36ea5c44d0d063bf46"
+      },
+      "negative": {
+        "status": "observed",
+        "value": 2,
+        "confidence": 0.7,
+        "evidence_indices": [
+          1,
+          15,
+          16
+        ],
+        "source_urls": [
+          "https://www.newtimes.co.rw/article/18011/news/elections/i-will-be-the-president-of-rwanda-claims-green-partys-habineza/amp"
+        ],
+        "event_ids": [
+          "fh-2024-06-27-manifesto",
+          "fh-2024-06-27-manifesto-confidence"
+        ],
+        "rationale": "Хабинеза публично защищал репутацию собственной политической линии, заявляя о выполнении 70% прежних манифестов и связывая успех с программой партии (evidence_indices 1, 15, 16). Это ограниченное, но явное продвижение собственной репутации.",
+        "support_type": "positive_manifestation",
+        "provenance": {
+          "raw_response_file": "evidence/independent_responses/3dbc889c906deeaea7202e8c6c8fefc4e7b5c7e47bfc54ad2f9ce517aa1ded26.json",
+          "model": "gpt-4.1",
+          "at": "2026-10-15T17:31:48.375953+00:00",
+          "cache_key": "3dbc889c906deeaea7202e8c6c8fefc4e7b5c7e47bfc54ad2f9ce517aa1ded26",
+          "original_proposal": {
+            "variable_id": "problem-disclosure-reputation-defence__negative",
+            "status": "observed",
+            "value": 2,
+            "confidence": 0.7,
+            "support_type": "positive_manifestation",
+            "rationale": "Хабинеза публично защищал репутацию собственной политической линии, заявляя о выполнении 70% прежних манифестов и связывая успех с программой партии (evidence_indices 1, 15, 16). Это ограниченное, но явное продвижение собственной репутации.",
+            "evidence_indices": [
+              1,
+              15,
+              16
+            ]
+          }
+        },
+        "evidence_file": "evidence/independent-dossier-frank-habineza.json",
+        "evidence_basis": "77deb6495161c2ade564630a0bc034b81cbcbd7163299e36ea5c44d0d063bf46"
+      }
+    },
+    "positive": 2,
+    "negative": 2,
+    "value": null,
+    "status": "observed",
+    "difference": null,
+    "mass": null,
+    "measurement_model": "independent_poles",
+    "evidence_file": "evidence/independent-dossier-frank-habineza.json",
+    "evidence_basis": "77deb6495161c2ade564630a0bc034b81cbcbd7163299e36ea5c44d0d063bf46",
+    "at": "2026-10-15T17:31:48.379345+00:00",
+    "reason": "Каждое свойство оценивается независимо; разность и искусственное дополнение до пяти не вычисляются"
+  },
+  {
+    "object_id": "frank-habineza",
+    "scale_id": "procedural-guarantees-enforcement",
+    "pole_scores": {
+      "positive": {
+        "status": "observed",
+        "value": 2,
+        "confidence": 0.7,
+        "evidence_indices": [
+          0
+        ],
+        "source_urls": [
+          "https://www.newtimes.co.rw/article/18011/news/elections/i-will-be-the-president-of-rwanda-claims-green-partys-habineza/amp"
+        ],
+        "event_ids": [
+          "fh-2024-06-27-manifesto"
+        ],
+        "rationale": "В программе Хабинезы содержится предложение отменить 30-дневный срок предварительного заключения, что указывает на расширение возможностей защиты и обжалования (evidence_index 0).",
+        "support_type": "positive_manifestation",
+        "provenance": {
+          "raw_response_file": "evidence/independent_responses/3dbc889c906deeaea7202e8c6c8fefc4e7b5c7e47bfc54ad2f9ce517aa1ded26.json",
+          "model": "gpt-4.1",
+          "at": "2026-10-15T17:31:48.375953+00:00",
+          "cache_key": "3dbc889c906deeaea7202e8c6c8fefc4e7b5c7e47bfc54ad2f9ce517aa1ded26",
+          "original_proposal": {
+            "variable_id": "procedural-guarantees-enforcement__positive",
+            "status": "observed",
+            "value": 2,
+            "confidence": 0.7,
+            "support_type": "positive_manifestation",
+            "rationale": "В программе Хабинезы содержится предложение отменить 30-дневный срок предварительного заключения, что указывает на расширение возможностей защиты и обжалования (evidence_index 0).",
+            "evidence_indices": [
+              0
+            ]
+          }
+        },
+        "evidence_file": "evidence/independent-dossier-frank-habineza.json",
+        "evidence_basis": "77deb6495161c2ade564630a0bc034b81cbcbd7163299e36ea5c44d0d063bf46"
+      },
+      "negative": {
+        "status": "unknown",
+        "value": null,
+        "confidence": 0,
+        "evidence_indices": [],
+        "source_urls": [],
+        "event_ids": [],
+        "rationale": "Нет прямых заявлений или действий, направленных на усиление принудительного исполнения обязательных требований. Материал не содержит отрицания этого полюса, но и не подтверждает его.",
+        "support_type": "unknown",
+        "provenance": {
+          "raw_response_file": "evidence/independent_responses/3dbc889c906deeaea7202e8c6c8fefc4e7b5c7e47bfc54ad2f9ce517aa1ded26.json",
+          "model": "gpt-4.1",
+          "at": "2026-10-15T17:31:48.375953+00:00",
+          "cache_key": "3dbc889c906deeaea7202e8c6c8fefc4e7b5c7e47bfc54ad2f9ce517aa1ded26",
+          "original_proposal": {
+            "variable_id": "procedural-guarantees-enforcement__negative",
+            "status": "unknown",
+            "value": null,
+            "confidence": 0.3,
+            "support_type": "unknown",
+            "rationale": "Нет прямых заявлений или действий, направленных на усиление принудительного исполнения обязательных требований. Материал не содержит отрицания этого полюса, но и не подтверждает его.",
+            "evidence_indices": []
+          }
+        },
+        "evidence_file": "evidence/independent-dossier-frank-habineza.json",
+        "evidence_basis": "77deb6495161c2ade564630a0bc034b81cbcbd7163299e36ea5c44d0d063bf46"
+      }
+    },
+    "positive": 2,
+    "negative": null,
+    "value": null,
+    "status": "partial",
+    "difference": null,
+    "mass": null,
+    "measurement_model": "independent_poles",
+    "evidence_file": "evidence/independent-dossier-frank-habineza.json",
+    "evidence_basis": "77deb6495161c2ade564630a0bc034b81cbcbd7163299e36ea5c44d0d063bf46",
+    "at": "2026-10-15T17:31:48.379345+00:00",
+    "reason": "Каждое свойство оценивается независимо; разность и искусственное дополнение до пяти не вычисляются"
+  },
+  {
+    "object_id": "frank-habineza",
+    "scale_id": "prevention-crisis-response",
+    "pole_scores": {
+      "positive": {
+        "status": "unknown",
+        "value": null,
+        "confidence": 0,
+        "evidence_indices": [],
+        "source_urls": [],
+        "event_ids": [],
+        "rationale": "Нет прямых свидетельств упреждающего снижения рисков или подготовки к кризисам как самостоятельного публичного акцента.",
+        "support_type": "unknown",
+        "provenance": {
+          "raw_response_file": "evidence/independent_responses/3dbc889c906deeaea7202e8c6c8fefc4e7b5c7e47bfc54ad2f9ce517aa1ded26.json",
+          "model": "gpt-4.1",
+          "at": "2026-10-15T17:31:48.375953+00:00",
+          "cache_key": "3dbc889c906deeaea7202e8c6c8fefc4e7b5c7e47bfc54ad2f9ce517aa1ded26",
+          "original_proposal": {
+            "variable_id": "prevention-crisis-response__positive",
+            "status": "unknown",
+            "value": null,
+            "confidence": 0.3,
+            "support_type": "unknown",
+            "rationale": "Нет прямых свидетельств упреждающего снижения рисков или подготовки к кризисам как самостоятельного публичного акцента.",
+            "evidence_indices": []
+          }
+        },
+        "evidence_file": "evidence/independent-dossier-frank-habineza.json",
+        "evidence_basis": "77deb6495161c2ade564630a0bc034b81cbcbd7163299e36ea5c44d0d063bf46"
+      },
+      "negative": {
+        "status": "unknown",
+        "value": null,
+        "confidence": 0,
+        "evidence_indices": [],
+        "source_urls": [],
+        "event_ids": [],
+        "rationale": "Нет прямых свидетельств акцента на оперативном реагировании на возникшие угрозы.",
+        "support_type": "unknown",
+        "provenance": {
+          "raw_response_file": "evidence/independent_responses/3dbc889c906deeaea7202e8c6c8fefc4e7b5c7e47bfc54ad2f9ce517aa1ded26.json",
+          "model": "gpt-4.1",
+          "at": "2026-10-15T17:31:48.375953+00:00",
+          "cache_key": "3dbc889c906deeaea7202e8c6c8fefc4e7b5c7e47bfc54ad2f9ce517aa1ded26",
+          "original_proposal": {
+            "variable_id": "prevention-crisis-response__negative",
+            "status": "unknown",
+            "value": null,
+            "confidence": 0.3,
+            "support_type": "unknown",
+            "rationale": "Нет прямых свидетельств акцента на оперативном реагировании на возникшие угрозы.",
+            "evidence_indices": []
+          }
+        },
+        "evidence_file": "evidence/independent-dossier-frank-habineza.json",
+        "evidence_basis": "77deb6495161c2ade564630a0bc034b81cbcbd7163299e36ea5c44d0d063bf46"
+      }
+    },
+    "positive": null,
+    "negative": null,
+    "value": null,
+    "status": "unknown",
+    "difference": null,
+    "mass": null,
+    "measurement_model": "independent_poles",
+    "evidence_file": "evidence/independent-dossier-frank-habineza.json",
+    "evidence_basis": "77deb6495161c2ade564630a0bc034b81cbcbd7163299e36ea5c44d0d063bf46",
+    "at": "2026-10-15T17:31:48.379345+00:00",
+    "reason": "Каждое свойство оценивается независимо; разность и искусственное дополнение до пяти не вычисляются"
+  },
+  {
+    "object_id": "frank-habineza",
+    "scale_id": "electoral-access",
+    "pole_scores": {
+      "positive": {
+        "status": "observed",
+        "value": 3,
+        "confidence": 0.8,
+        "evidence_indices": [
+          9,
+          25,
+          26
+        ],
+        "source_urls": [
+          "https://www.ktpress.rw/2024/05/elections-2024-surge-in-number-of-independent-candidates-signals-inclusiveness-as-greens-eye-more-seats/",
+          "https://www.ktpress.rw/2025/12/we-will-seek-power-through-an-electoral-vote-dgpr-president/"
+        ],
+        "event_ids": [
+          "fh-2024-05-20-inclusive-polls",
+          "fh-2025-12-01-karongi-electoral-power",
+          "fh-2025-12-01-rejection-violence"
+        ],
+        "rationale": "Хабинеза неоднократно публично заявлял о необходимости инклюзивных выборов, расширения представительства партии и участия через демократические процедуры (evidence_indices 9, 25, 26).",
+        "support_type": "positive_manifestation",
+        "provenance": {
+          "raw_response_file": "evidence/independent_responses/3dbc889c906deeaea7202e8c6c8fefc4e7b5c7e47bfc54ad2f9ce517aa1ded26.json",
+          "model": "gpt-4.1",
+          "at": "2026-10-15T17:31:48.375953+00:00",
+          "cache_key": "3dbc889c906deeaea7202e8c6c8fefc4e7b5c7e47bfc54ad2f9ce517aa1ded26",
+          "original_proposal": {
+            "variable_id": "electoral-access__positive",
+            "status": "observed",
+            "value": 3,
+            "confidence": 0.8,
+            "support_type": "positive_manifestation",
+            "rationale": "Хабинеза неоднократно публично заявлял о необходимости инклюзивных выборов, расширения представительства партии и участия через демократические процедуры (evidence_indices 9, 25, 26).",
+            "evidence_indices": [
+              9,
+              25,
+              26
+            ]
+          }
+        },
+        "evidence_file": "evidence/independent-dossier-frank-habineza.json",
+        "evidence_basis": "77deb6495161c2ade564630a0bc034b81cbcbd7163299e36ea5c44d0d063bf46"
+      },
+      "negative": {
+        "status": "unknown",
+        "value": null,
+        "confidence": 0,
+        "evidence_indices": [],
+        "source_urls": [],
+        "event_ids": [],
+        "rationale": "Нет прямых заявлений или действий по усилению квалификационных барьеров политического участия.",
+        "support_type": "unknown",
+        "provenance": {
+          "raw_response_file": "evidence/independent_responses/3dbc889c906deeaea7202e8c6c8fefc4e7b5c7e47bfc54ad2f9ce517aa1ded26.json",
+          "model": "gpt-4.1",
+          "at": "2026-10-15T17:31:48.375953+00:00",
+          "cache_key": "3dbc889c906deeaea7202e8c6c8fefc4e7b5c7e47bfc54ad2f9ce517aa1ded26",
+          "original_proposal": {
+            "variable_id": "electoral-access__negative",
+            "status": "unknown",
+            "value": null,
+            "confidence": 0.3,
+            "support_type": "unknown",
+            "rationale": "Нет прямых заявлений или действий по усилению квалификационных барьеров политического участия.",
+            "evidence_indices": []
+          }
+        },
+        "evidence_file": "evidence/independent-dossier-frank-habineza.json",
+        "evidence_basis": "77deb6495161c2ade564630a0bc034b81cbcbd7163299e36ea5c44d0d063bf46"
+      }
+    },
+    "positive": 3,
+    "negative": null,
+    "value": null,
+    "status": "partial",
+    "difference": null,
+    "mass": null,
+    "measurement_model": "independent_poles",
+    "evidence_file": "evidence/independent-dossier-frank-habineza.json",
+    "evidence_basis": "77deb6495161c2ade564630a0bc034b81cbcbd7163299e36ea5c44d0d063bf46",
+    "at": "2026-10-15T17:31:48.379345+00:00",
+    "reason": "Каждое свойство оценивается независимо; разность и искусственное дополнение до пяти не вычисляются"
+  },
+  {
+    "object_id": "frank-habineza",
+    "scale_id": "institutional-autonomy-coordination",
+    "pole_scores": {
+      "positive": {
+        "status": "unknown",
+        "value": null,
+        "confidence": 0,
+        "evidence_indices": [],
+        "source_urls": [],
+        "event_ids": [],
+        "rationale": "Нет прямых свидетельств публичных требований или действий по обеспечению автономии и межинституционального контроля.",
+        "support_type": "unknown",
+        "provenance": {
+          "raw_response_file": "evidence/independent_responses/3dbc889c906deeaea7202e8c6c8fefc4e7b5c7e47bfc54ad2f9ce517aa1ded26.json",
+          "model": "gpt-4.1",
+          "at": "2026-10-15T17:31:48.375953+00:00",
+          "cache_key": "3dbc889c906deeaea7202e8c6c8fefc4e7b5c7e47bfc54ad2f9ce517aa1ded26",
+          "original_proposal": {
+            "variable_id": "institutional-autonomy-coordination__positive",
+            "status": "unknown",
+            "value": null,
+            "confidence": 0.3,
+            "support_type": "unknown",
+            "rationale": "Нет прямых свидетельств публичных требований или действий по обеспечению автономии и межинституционального контроля.",
+            "evidence_indices": []
+          }
+        },
+        "evidence_file": "evidence/independent-dossier-frank-habineza.json",
+        "evidence_basis": "77deb6495161c2ade564630a0bc034b81cbcbd7163299e36ea5c44d0d063bf46"
+      },
+      "negative": {
+        "status": "unknown",
+        "value": null,
+        "confidence": 0,
+        "evidence_indices": [],
+        "source_urls": [],
+        "event_ids": [],
+        "rationale": "Нет прямых свидетельств акцента на согласовании работы институтов единой управленческой линией.",
+        "support_type": "unknown",
+        "provenance": {
+          "raw_response_file": "evidence/independent_responses/3dbc889c906deeaea7202e8c6c8fefc4e7b5c7e47bfc54ad2f9ce517aa1ded26.json",
+          "model": "gpt-4.1",
+          "at": "2026-10-15T17:31:48.375953+00:00",
+          "cache_key": "3dbc889c906deeaea7202e8c6c8fefc4e7b5c7e47bfc54ad2f9ce517aa1ded26",
+          "original_proposal": {
+            "variable_id": "institutional-autonomy-coordination__negative",
+            "status": "unknown",
+            "value": null,
+            "confidence": 0.3,
+            "support_type": "unknown",
+            "rationale": "Нет прямых свидетельств акцента на согласовании работы институтов единой управленческой линией.",
+            "evidence_indices": []
+          }
+        },
+        "evidence_file": "evidence/independent-dossier-frank-habineza.json",
+        "evidence_basis": "77deb6495161c2ade564630a0bc034b81cbcbd7163299e36ea5c44d0d063bf46"
+      }
+    },
+    "positive": null,
+    "negative": null,
+    "value": null,
+    "status": "unknown",
+    "difference": null,
+    "mass": null,
+    "measurement_model": "independent_poles",
+    "evidence_file": "evidence/independent-dossier-frank-habineza.json",
+    "evidence_basis": "77deb6495161c2ade564630a0bc034b81cbcbd7163299e36ea5c44d0d063bf46",
+    "at": "2026-10-15T17:31:48.379345+00:00",
+    "reason": "Каждое свойство оценивается независимо; разность и искусственное дополнение до пяти не вычисляются"
+  },
+  {
+    "object_id": "frank-habineza",
+    "scale_id": "taxation-burden-public-revenue",
+    "pole_scores": {
+      "positive": {
+        "status": "observed",
+        "value": 2,
+        "confidence": 0.7,
+        "evidence_indices": [
+          0,
+          3,
+          11
+        ],
+        "source_urls": [
+          "https://www.newtimes.co.rw/article/18011/news/elections/i-will-be-the-president-of-rwanda-claims-green-partys-habineza/amp",
+          "https://www.newtimes.co.rw/article/18346/news/elections/frank-habineza-campaigns-in-muhanga-promises-changes-in-mining-sector/amp"
+        ],
+        "event_ids": [
+          "fh-2024-06-27-manifesto",
+          "fh-2024-07-09-social-economic"
+        ],
+        "rationale": "В программе Хабинезы содержится предложение отменить земельный налог и расширить имущественные права (evidence_indices 0, 3, 11). Это ограниченное, но ясное проявление снижения налоговой нагрузки.",
+        "support_type": "positive_manifestation",
+        "provenance": {
+          "raw_response_file": "evidence/independent_responses/3dbc889c906deeaea7202e8c6c8fefc4e7b5c7e47bfc54ad2f9ce517aa1ded26.json",
+          "model": "gpt-4.1",
+          "at": "2026-10-15T17:31:48.375953+00:00",
+          "cache_key": "3dbc889c906deeaea7202e8c6c8fefc4e7b5c7e47bfc54ad2f9ce517aa1ded26",
+          "original_proposal": {
+            "variable_id": "taxation-burden-public-revenue__positive",
+            "status": "observed",
+            "value": 2,
+            "confidence": 0.7,
+            "support_type": "positive_manifestation",
+            "rationale": "В программе Хабинезы содержится предложение отменить земельный налог и расширить имущественные права (evidence_indices 0, 3, 11). Это ограниченное, но ясное проявление снижения налоговой нагрузки.",
+            "evidence_indices": [
+              0,
+              3,
+              11
+            ]
+          }
+        },
+        "evidence_file": "evidence/independent-dossier-frank-habineza.json",
+        "evidence_basis": "77deb6495161c2ade564630a0bc034b81cbcbd7163299e36ea5c44d0d063bf46"
+      },
+      "negative": {
+        "status": "unknown",
+        "value": null,
+        "confidence": 0,
+        "evidence_indices": [],
+        "source_urls": [],
+        "event_ids": [],
+        "rationale": "Нет прямых заявлений или действий по увеличению налоговых поступлений для публичного развития.",
+        "support_type": "unknown",
+        "provenance": {
+          "raw_response_file": "evidence/independent_responses/3dbc889c906deeaea7202e8c6c8fefc4e7b5c7e47bfc54ad2f9ce517aa1ded26.json",
+          "model": "gpt-4.1",
+          "at": "2026-10-15T17:31:48.375953+00:00",
+          "cache_key": "3dbc889c906deeaea7202e8c6c8fefc4e7b5c7e47bfc54ad2f9ce517aa1ded26",
+          "original_proposal": {
+            "variable_id": "taxation-burden-public-revenue__negative",
+            "status": "unknown",
+            "value": null,
+            "confidence": 0.3,
+            "support_type": "unknown",
+            "rationale": "Нет прямых заявлений или действий по увеличению налоговых поступлений для публичного развития.",
+            "evidence_indices": []
+          }
+        },
+        "evidence_file": "evidence/independent-dossier-frank-habineza.json",
+        "evidence_basis": "77deb6495161c2ade564630a0bc034b81cbcbd7163299e36ea5c44d0d063bf46"
+      }
+    },
+    "positive": 2,
+    "negative": null,
+    "value": null,
+    "status": "partial",
+    "difference": null,
+    "mass": null,
+    "measurement_model": "independent_poles",
+    "evidence_file": "evidence/independent-dossier-frank-habineza.json",
+    "evidence_basis": "77deb6495161c2ade564630a0bc034b81cbcbd7163299e36ea5c44d0d063bf46",
+    "at": "2026-10-15T17:31:48.379345+00:00",
+    "reason": "Каждое свойство оценивается независимо; разность и искусственное дополнение до пяти не вычисляются"
+  },
+  {
+    "object_id": "frank-habineza",
+    "scale_id": "universal-targeted-provision",
+    "pole_scores": {
+      "positive": {
+        "status": "observed",
+        "value": 2,
+        "confidence": 0.7,
+        "evidence_indices": [
+          12,
+          14
+        ],
+        "source_urls": [
+          "https://www.newtimes.co.rw/article/18148/news/elections/democratic-green-party-of-rwandas-habineza-promises-to-improve-school-feeding-if-elected/amp",
+          "https://umwezi.rw/?p=14888"
+        ],
+        "event_ids": [
+          "fh-2024-07-03-school-feeding",
+          "fh-2024-05-11-waste-policy"
+        ],
+        "rationale": "Обещание улучшить школьное питание и построить столовые во всех школах (evidence_index 12), а также предложение по единой инфраструктуре обращения с отходами (evidence_index 14) — примеры общенациональных мер с единым стандартом.",
+        "support_type": "positive_manifestation",
+        "provenance": {
+          "raw_response_file": "evidence/independent_responses/3dbc889c906deeaea7202e8c6c8fefc4e7b5c7e47bfc54ad2f9ce517aa1ded26.json",
+          "model": "gpt-4.1",
+          "at": "2026-10-15T17:31:48.375953+00:00",
+          "cache_key": "3dbc889c906deeaea7202e8c6c8fefc4e7b5c7e47bfc54ad2f9ce517aa1ded26",
+          "original_proposal": {
+            "variable_id": "universal-targeted-provision__positive",
+            "status": "observed",
+            "value": 2,
+            "confidence": 0.7,
+            "support_type": "positive_manifestation",
+            "rationale": "Обещание улучшить школьное питание и построить столовые во всех школах (evidence_index 12), а также предложение по единой инфраструктуре обращения с отходами (evidence_index 14) — примеры общенациональных мер с единым стандартом.",
+            "evidence_indices": [
+              12,
+              14
+            ]
+          }
+        },
+        "evidence_file": "evidence/independent-dossier-frank-habineza.json",
+        "evidence_basis": "77deb6495161c2ade564630a0bc034b81cbcbd7163299e36ea5c44d0d063bf46"
+      },
+      "negative": {
+        "status": "observed",
+        "value": 1,
+        "confidence": 0.6,
+        "evidence_indices": [
+          13
+        ],
+        "source_urls": [
+          "https://www.universityworldnews.com/post.php?story=20240710093845978"
+        ],
+        "event_ids": [
+          "fh-2024-07-10-higher-education"
+        ],
+        "rationale": "Создание предпринимательского фонда для выпускников политехнических колледжей (evidence_index 13) — пример адресной поддержки конкретной группы, но масштаб и повторяемость ограничены.",
+        "support_type": "positive_manifestation",
+        "provenance": {
+          "raw_response_file": "evidence/independent_responses/3dbc889c906deeaea7202e8c6c8fefc4e7b5c7e47bfc54ad2f9ce517aa1ded26.json",
+          "model": "gpt-4.1",
+          "at": "2026-10-15T17:31:48.375953+00:00",
+          "cache_key": "3dbc889c906deeaea7202e8c6c8fefc4e7b5c7e47bfc54ad2f9ce517aa1ded26",
+          "original_proposal": {
+            "variable_id": "universal-targeted-provision__negative",
+            "status": "observed",
+            "value": 1,
+            "confidence": 0.6,
+            "support_type": "positive_manifestation",
+            "rationale": "Создание предпринимательского фонда для выпускников политехнических колледжей (evidence_index 13) — пример адресной поддержки конкретной группы, но масштаб и повторяемость ограничены.",
+            "evidence_indices": [
+              13
+            ]
+          }
+        },
+        "evidence_file": "evidence/independent-dossier-frank-habineza.json",
+        "evidence_basis": "77deb6495161c2ade564630a0bc034b81cbcbd7163299e36ea5c44d0d063bf46"
+      }
+    },
+    "positive": 2,
+    "negative": 1,
+    "value": null,
+    "status": "observed",
+    "difference": null,
+    "mass": null,
+    "measurement_model": "independent_poles",
+    "evidence_file": "evidence/independent-dossier-frank-habineza.json",
+    "evidence_basis": "77deb6495161c2ade564630a0bc034b81cbcbd7163299e36ea5c44d0d063bf46",
+    "at": "2026-10-15T17:31:48.379345+00:00",
+    "reason": "Каждое свойство оценивается независимо; разность и искусственное дополнение до пяти не вычисляются"
+  },
+  {
+    "object_id": "frank-habineza",
+    "scale_id": "ecological-limits-resource-use",
+    "pole_scores": {
+      "positive": {
+        "status": "observed",
+        "value": 3,
+        "confidence": 0.8,
+        "evidence_indices": [
+          2,
+          14,
+          20
+        ],
+        "source_urls": [
+          "https://www.newtimes.co.rw/article/18346/news/elections/frank-habineza-campaigns-in-muhanga-promises-changes-in-mining-sector/amp",
+          "https://umwezi.rw/?p=14888",
+          "https://www.ktpress.rw/2025/07/green-party-sets-sights-on-government-come-2029-elections-plans-candidate-for-all-seats/"
+        ],
+        "event_ids": [
+          "fh-2024-07-09-mining",
+          "fh-2024-05-11-waste-policy",
+          "fh-2025-07-20-environment-peace-role"
+        ],
+        "rationale": "Хабинеза последовательно выдвигал инициативы по ужесточению экологического регулирования добычи полезных ископаемых, защите природных объектов, развитию инфраструктуры обращения с отходами (evidence_indices 2, 14, 20).",
+        "support_type": "positive_manifestation",
+        "provenance": {
+          "raw_response_file": "evidence/independent_responses/3dbc889c906deeaea7202e8c6c8fefc4e7b5c7e47bfc54ad2f9ce517aa1ded26.json",
+          "model": "gpt-4.1",
+          "at": "2026-10-15T17:31:48.375953+00:00",
+          "cache_key": "3dbc889c906deeaea7202e8c6c8fefc4e7b5c7e47bfc54ad2f9ce517aa1ded26",
+          "original_proposal": {
+            "variable_id": "ecological-limits-resource-use__positive",
+            "status": "observed",
+            "value": 3,
+            "confidence": 0.8,
+            "support_type": "positive_manifestation",
+            "rationale": "Хабинеза последовательно выдвигал инициативы по ужесточению экологического регулирования добычи полезных ископаемых, защите природных объектов, развитию инфраструктуры обращения с отходами (evidence_indices 2, 14, 20).",
+            "evidence_indices": [
+              2,
+              14,
+              20
+            ]
+          }
+        },
+        "evidence_file": "evidence/independent-dossier-frank-habineza.json",
+        "evidence_basis": "77deb6495161c2ade564630a0bc034b81cbcbd7163299e36ea5c44d0d063bf46"
+      },
+      "negative": {
+        "status": "unknown",
+        "value": null,
+        "confidence": 0,
+        "evidence_indices": [],
+        "source_urls": [],
+        "event_ids": [],
+        "rationale": "Нет прямых заявлений или действий по расширению хозяйственного использования природных ресурсов или ослаблению экологических ограничений.",
+        "support_type": "unknown",
+        "provenance": {
+          "raw_response_file": "evidence/independent_responses/3dbc889c906deeaea7202e8c6c8fefc4e7b5c7e47bfc54ad2f9ce517aa1ded26.json",
+          "model": "gpt-4.1",
+          "at": "2026-10-15T17:31:48.375953+00:00",
+          "cache_key": "3dbc889c906deeaea7202e8c6c8fefc4e7b5c7e47bfc54ad2f9ce517aa1ded26",
+          "original_proposal": {
+            "variable_id": "ecological-limits-resource-use__negative",
+            "status": "unknown",
+            "value": null,
+            "confidence": 0.3,
+            "support_type": "unknown",
+            "rationale": "Нет прямых заявлений или действий по расширению хозяйственного использования природных ресурсов или ослаблению экологических ограничений.",
+            "evidence_indices": []
+          }
+        },
+        "evidence_file": "evidence/independent-dossier-frank-habineza.json",
+        "evidence_basis": "77deb6495161c2ade564630a0bc034b81cbcbd7163299e36ea5c44d0d063bf46"
+      }
+    },
+    "positive": 3,
+    "negative": null,
+    "value": null,
+    "status": "partial",
+    "difference": null,
+    "mass": null,
+    "measurement_model": "independent_poles",
+    "evidence_file": "evidence/independent-dossier-frank-habineza.json",
+    "evidence_basis": "77deb6495161c2ade564630a0bc034b81cbcbd7163299e36ea5c44d0d063bf46",
+    "at": "2026-10-15T17:31:48.379345+00:00",
+    "reason": "Каждое свойство оценивается независимо; разность и искусственное дополнение до пяти не вычисляются"
+  },
+  {
+    "object_id": "frank-habineza",
+    "scale_id": "russia-diplomatic-engagement",
+    "pole_scores": {
+      "positive": {
+        "status": "unknown",
+        "value": null,
+        "confidence": 0,
+        "evidence_indices": [],
+        "source_urls": [],
+        "event_ids": [],
+        "rationale": "Нет допустимых датированных персональных свидетельств по этому свойству",
+        "support_type": "unknown"
+      },
+      "negative": {
+        "status": "unknown",
+        "value": null,
+        "confidence": 0,
+        "evidence_indices": [],
+        "source_urls": [],
+        "event_ids": [],
+        "rationale": "Нет допустимых датированных персональных свидетельств по этому свойству",
+        "support_type": "unknown"
+      }
+    },
+    "positive": null,
+    "negative": null,
+    "value": null,
+    "status": "unknown",
+    "difference": null,
+    "mass": null,
+    "measurement_model": "independent_poles",
+    "evidence_file": "evidence/independent-dossier-frank-habineza.json",
+    "evidence_basis": "77deb6495161c2ade564630a0bc034b81cbcbd7163299e36ea5c44d0d063bf46",
+    "at": "2026-10-15T17:31:48.379345+00:00",
+    "reason": "Каждое свойство оценивается независимо; разность и искусственное дополнение до пяти не вычисляются"
+  },
+  {
+    "object_id": "frank-habineza",
+    "scale_id": "russia-security-cooperation",
+    "pole_scores": {
+      "positive": {
+        "status": "unknown",
+        "value": null,
+        "confidence": 0,
+        "evidence_indices": [],
+        "source_urls": [],
+        "event_ids": [],
+        "rationale": "Нет допустимых датированных персональных свидетельств по этому свойству",
+        "support_type": "unknown"
+      },
+      "negative": {
+        "status": "unknown",
+        "value": null,
+        "confidence": 0,
+        "evidence_indices": [],
+        "source_urls": [],
+        "event_ids": [],
+        "rationale": "Нет допустимых датированных персональных свидетельств по этому свойству",
+        "support_type": "unknown"
+      }
+    },
+    "positive": null,
+    "negative": null,
+    "value": null,
+    "status": "unknown",
+    "difference": null,
+    "mass": null,
+    "measurement_model": "independent_poles",
+    "evidence_file": "evidence/independent-dossier-frank-habineza.json",
+    "evidence_basis": "77deb6495161c2ade564630a0bc034b81cbcbd7163299e36ea5c44d0d063bf46",
+    "at": "2026-10-15T17:31:48.379345+00:00",
+    "reason": "Каждое свойство оценивается независимо; разность и искусственное дополнение до пяти не вычисляются"
+  },
+  {
+    "object_id": "frank-habineza",
+    "scale_id": "russia-economic-technology-cooperation",
+    "pole_scores": {
+      "positive": {
+        "status": "unknown",
+        "value": null,
+        "confidence": 0,
+        "evidence_indices": [],
+        "source_urls": [],
+        "event_ids": [],
+        "rationale": "Нет допустимых датированных персональных свидетельств по этому свойству",
+        "support_type": "unknown"
+      },
+      "negative": {
+        "status": "unknown",
+        "value": null,
+        "confidence": 0,
+        "evidence_indices": [],
+        "source_urls": [],
+        "event_ids": [],
+        "rationale": "Нет допустимых датированных персональных свидетельств по этому свойству",
+        "support_type": "unknown"
+      }
+    },
+    "positive": null,
+    "negative": null,
+    "value": null,
+    "status": "unknown",
+    "difference": null,
+    "mass": null,
+    "measurement_model": "independent_poles",
+    "evidence_file": "evidence/independent-dossier-frank-habineza.json",
+    "evidence_basis": "77deb6495161c2ade564630a0bc034b81cbcbd7163299e36ea5c44d0d063bf46",
+    "at": "2026-10-15T17:31:48.379345+00:00",
+    "reason": "Каждое свойство оценивается независимо; разность и искусственное дополнение до пяти не вычисляются"
+  },
+  {
+    "object_id": "frank-habineza",
+    "scale_id": "russia-education-cultural-cooperation",
+    "pole_scores": {
+      "positive": {
+        "status": "unknown",
+        "value": null,
+        "confidence": 0,
+        "evidence_indices": [],
+        "source_urls": [],
+        "event_ids": [],
+        "rationale": "Нет допустимых датированных персональных свидетельств по этому свойству",
+        "support_type": "unknown"
+      },
+      "negative": {
+        "status": "unknown",
+        "value": null,
+        "confidence": 0,
+        "evidence_indices": [],
+        "source_urls": [],
+        "event_ids": [],
+        "rationale": "Нет допустимых датированных персональных свидетельств по этому свойству",
+        "support_type": "unknown"
+      }
+    },
+    "positive": null,
+    "negative": null,
+    "value": null,
+    "status": "unknown",
+    "difference": null,
+    "mass": null,
+    "measurement_model": "independent_poles",
+    "evidence_file": "evidence/independent-dossier-frank-habineza.json",
+    "evidence_basis": "77deb6495161c2ade564630a0bc034b81cbcbd7163299e36ea5c44d0d063bf46",
+    "at": "2026-10-15T17:31:48.379345+00:00",
+    "reason": "Каждое свойство оценивается независимо; разность и искусственное дополнение до пяти не вычисляются"
+  },
+  {
+    "object_id": "frank-habineza",
+    "scale_id": "russia-conflict-policy-evaluation",
+    "pole_scores": {
+      "positive": {
+        "status": "unknown",
+        "value": null,
+        "confidence": 0,
+        "evidence_indices": [],
+        "source_urls": [],
+        "event_ids": [],
+        "rationale": "Нет допустимых датированных персональных свидетельств по этому свойству",
+        "support_type": "unknown"
+      },
+      "negative": {
+        "status": "unknown",
+        "value": null,
+        "confidence": 0,
+        "evidence_indices": [],
+        "source_urls": [],
+        "event_ids": [],
+        "rationale": "Нет допустимых датированных персональных свидетельств по этому свойству",
+        "support_type": "unknown"
+      }
+    },
+    "positive": null,
+    "negative": null,
+    "value": null,
+    "status": "unknown",
+    "difference": null,
+    "mass": null,
+    "measurement_model": "independent_poles",
+    "evidence_file": "evidence/independent-dossier-frank-habineza.json",
+    "evidence_basis": "77deb6495161c2ade564630a0bc034b81cbcbd7163299e36ea5c44d0d063bf46",
+    "at": "2026-10-15T17:31:48.379345+00:00",
+    "reason": "Каждое свойство оценивается независимо; разность и искусственное дополнение до пяти не вычисляются"
+  },
+  {
+    "object_id": "frank-habineza",
+    "scale_id": "russia-isolation-sanctions",
+    "pole_scores": {
+      "positive": {
+        "status": "unknown",
+        "value": null,
+        "confidence": 0,
+        "evidence_indices": [],
+        "source_urls": [],
+        "event_ids": [],
+        "rationale": "Нет допустимых датированных персональных свидетельств по этому свойству",
+        "support_type": "unknown"
+      },
+      "negative": {
+        "status": "unknown",
+        "value": null,
+        "confidence": 0,
+        "evidence_indices": [],
+        "source_urls": [],
+        "event_ids": [],
+        "rationale": "Нет допустимых датированных персональных свидетельств по этому свойству",
+        "support_type": "unknown"
+      }
+    },
+    "positive": null,
+    "negative": null,
+    "value": null,
+    "status": "unknown",
+    "difference": null,
+    "mass": null,
+    "measurement_model": "independent_poles",
+    "evidence_file": "evidence/independent-dossier-frank-habineza.json",
+    "evidence_basis": "77deb6495161c2ade564630a0bc034b81cbcbd7163299e36ea5c44d0d063bf46",
+    "at": "2026-10-15T17:31:48.379345+00:00",
+    "reason": "Каждое свойство оценивается независимо; разность и искусственное дополнение до пяти не вычисляются"
+  }
+]

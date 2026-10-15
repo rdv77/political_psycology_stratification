@@ -1,0 +1,259 @@
+{
+  "data": {
+    "ratings": [
+      {
+        "variable_id": "programmatic-renewal__positive",
+        "status": "observed",
+        "value": 2,
+        "confidence": 0.8,
+        "support_type": "positive_manifestation",
+        "rationale": "Ингабире участвовала в обсуждении перехода от национальной стратегии ИИ к созданию новых институтов (evidence_index: 0), а также представляла планы по масштабированию охвата сельскохозяйственным консультированием (evidence_index: 11). Это свидетельствует о программных предложениях по развитию и внедрению новых механизмов, но не о радикальном пересмотре всего курса.",
+        "evidence_indices": [
+          0,
+          11
+        ]
+      },
+      {
+        "variable_id": "programmatic-renewal__negative",
+        "status": "observed",
+        "value": 3,
+        "confidence": 0.9,
+        "support_type": "positive_manifestation",
+        "rationale": "Публичные выступления и профили (evidence_indices: 1,2,3,12) показывают акцент на продолжении и институционализации действующего курса цифровизации, инноваций и государственного регулирования, без признаков отказа от этих приоритетов.",
+        "evidence_indices": [
+          1,
+          2,
+          3,
+          12
+        ]
+      },
+      {
+        "variable_id": "government-course-assessment__positive",
+        "status": "observed",
+        "value": 3,
+        "confidence": 0.85,
+        "support_type": "positive_manifestation",
+        "rationale": "Ингабире неоднократно связывала успехи цифровизации с национальными стратегическими целями (evidence_indices: 3,12,22), поддерживала государственные инициативы и не высказывала публичной критики.",
+        "evidence_indices": [
+          3,
+          12,
+          22
+        ]
+      },
+      {
+        "variable_id": "government-course-assessment__negative",
+        "status": "observed",
+        "value": 0,
+        "confidence": 0.95,
+        "support_type": "explicit_absence",
+        "rationale": "В доступных материалах нет примеров публичной критики действующего государственного курса; все выступления и комментарии поддерживают текущую политику или развивают её.",
+        "evidence_indices": [
+          3,
+          12,
+          22
+        ]
+      },
+      {
+        "variable_id": "participation-administrative-direction__positive",
+        "status": "observed",
+        "value": 2,
+        "confidence": 0.7,
+        "support_type": "positive_manifestation",
+        "rationale": "В ряде случаев Ингабире подчёркивала роль партнёрств (evidence_indices: 2,21) и инклюзивности, однако прямых примеров приглашения граждан к совместному принятию решений немного.",
+        "evidence_indices": [
+          2,
+          21
+        ]
+      },
+      {
+        "variable_id": "participation-administrative-direction__negative",
+        "status": "observed",
+        "value": 3,
+        "confidence": 0.85,
+        "support_type": "positive_manifestation",
+        "rationale": "Многочисленные эпизоды демонстрируют административную координацию, постановку задач и контроль исполнения (evidence_indices: 1,12,14), что соответствует устойчивому акценту на административном управлении.",
+        "evidence_indices": [
+          1,
+          12,
+          14
+        ]
+      },
+      {
+        "variable_id": "argumentation-evidence-values__positive",
+        "status": "observed",
+        "value": 3,
+        "confidence": 0.85,
+        "support_type": "positive_manifestation",
+        "rationale": "Ингабире часто обосновывает решения через данные, показатели охвата, измерение прогресса и результаты (evidence_indices: 11,20,24), что свидетельствует о регулярном использовании эмпирических аргументов.",
+        "evidence_indices": [
+          11,
+          20,
+          24
+        ]
+      },
+      {
+        "variable_id": "argumentation-evidence-values__negative",
+        "status": "observed",
+        "value": 2,
+        "confidence": 0.7,
+        "support_type": "positive_manifestation",
+        "rationale": "В ряде выступлений присутствует риторика о процветании Африки, инклюзивности, коллективных целях (evidence_indices: 8,21), что указывает на сочетание ценностных и прагматических обоснований.",
+        "evidence_indices": [
+          8,
+          21
+        ]
+      },
+      {
+        "variable_id": "market-state-instruments__positive",
+        "status": "observed",
+        "value": 2,
+        "confidence": 0.7,
+        "support_type": "positive_manifestation",
+        "rationale": "Ингабире связывала Digital Transformation Center с поддержкой предпринимателей и инноваций (evidence_index: 2), а запуск Starlink — с расширением частного доступа (evidence_index: 5), однако основной акцент остаётся на государственном регулировании.",
+        "evidence_indices": [
+          2,
+          5
+        ]
+      },
+      {
+        "variable_id": "market-state-instruments__negative",
+        "status": "observed",
+        "value": 3,
+        "confidence": 0.85,
+        "support_type": "positive_manifestation",
+        "rationale": "Постоянно подчёркивается роль государства в регулировании, институционализации и координации цифровых инициатив (evidence_indices: 1,12,14), что указывает на устойчивый акцент на государственных инструментах.",
+        "evidence_indices": [
+          1,
+          12,
+          14
+        ]
+      },
+      {
+        "variable_id": "accessibility-growth-priorities__positive",
+        "status": "observed",
+        "value": 4,
+        "confidence": 0.9,
+        "support_type": "positive_manifestation",
+        "rationale": "Многочисленные выступления и проекты направлены на расширение доступа к технологиям, интернету и базовым цифровым услугам для широких слоёв населения (evidence_indices: 4,5,18,19,23).",
+        "evidence_indices": [
+          4,
+          5,
+          18,
+          19,
+          23
+        ]
+      },
+      {
+        "variable_id": "accessibility-growth-priorities__negative",
+        "status": "observed",
+        "value": 3,
+        "confidence": 0.8,
+        "support_type": "positive_manifestation",
+        "rationale": "Параллельно с доступностью Ингабире подчёркивает цели роста, инноваций, конкурентоспособности и превращения Руанды в технологический центр (evidence_indices: 2,3,12).",
+        "evidence_indices": [
+          2,
+          3,
+          12
+        ]
+      },
+      {
+        "variable_id": "external-domestic-resources__positive",
+        "status": "observed",
+        "value": 3,
+        "confidence": 0.85,
+        "support_type": "positive_manifestation",
+        "rationale": "Регулярно отмечается привлечение внешних партнёров и финансирования (ЕС, GIZ, международные инициативы) для реализации цифровых проектов (evidence_indices: 2,4,6,7,21).",
+        "evidence_indices": [
+          2,
+          4,
+          6,
+          7,
+          21
+        ]
+      },
+      {
+        "variable_id": "external-domestic-resources__negative",
+        "status": "observed",
+        "value": 2,
+        "confidence": 0.7,
+        "support_type": "positive_manifestation",
+        "rationale": "В ряде случаев подчёркивается развитие местных компетенций, навыков и экосистемы (evidence_indices: 13,24), однако стратегия снижения внешней зависимости не является доминирующей.",
+        "evidence_indices": [
+          13,
+          24
+        ]
+      },
+      {
+        "variable_id": "international-rules-autonomy__positive",
+        "status": "observed",
+        "value": 3,
+        "confidence": 0.85,
+        "support_type": "positive_manifestation",
+        "rationale": "Ингабире прямо призывала к созданию совместимых трансграничных систем и поддерживала международные механизмы и обязательства (evidence_indices: 15,18,19).",
+        "evidence_indices": [
+          15,
+          18,
+          19
+        ]
+      },
+      {
+        "variable_id": "international-rules-autonomy__negative",
+        "status": "observed",
+        "value": 0,
+        "confidence": 0.95,
+        "support_type": "explicit_absence",
+        "rationale": "В доступных материалах отсутствуют примеры защиты национальной самостоятельности решений или возражений против международных обязательств.",
+        "evidence_indices": [
+          15,
+          18,
+          19
+        ]
+      },
+      {
+        "variable_id": "mediation-adversarial-communication__positive",
+        "status": "observed",
+        "value": 2,
+        "confidence": 0.7,
+        "support_type": "positive_manifestation",
+        "rationale": "В отдельных случаях Ингабире призывала к консенсусу и партнёрству (evidence_indices: 18,21), однако устойчивого акцента на посредничестве не выявлено.",
+        "evidence_indices": [
+          18,
+          21
+        ]
+      },
+      {
+        "variable_id": "mediation-adversarial-communication__negative",
+        "status": "observed",
+        "value": 0,
+        "confidence": 0.95,
+        "support_type": "explicit_absence",
+        "rationale": "Нет примеров публичного оспаривания, защиты только своей стороны или полемической коммуникации в доступных материалах.",
+        "evidence_indices": [
+          18,
+          21
+        ]
+      }
+    ]
+  },
+  "model": "gpt-4.1",
+  "task": "independent-ratings-paula-ingabire-0",
+  "at": "2026-10-15T17:29:59.111186+00:00",
+  "usage": {
+    "prompt_tokens": 8786,
+    "completion_tokens": 1730,
+    "total_tokens": 10516,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "audio_tokens": 0
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "audio_tokens": 0,
+      "accepted_prediction_tokens": 0,
+      "rejected_prediction_tokens": 0
+    }
+  },
+  "citations": [],
+  "system_fingerprint": "fp_801d3b7b5c",
+  "cache_key": "1a808f153fef5d4b35d0c52f82e9cd47f61ba680d7764d27b2f669b8f94b9592"
+}

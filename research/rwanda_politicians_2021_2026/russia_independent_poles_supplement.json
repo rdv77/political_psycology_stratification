@@ -1,0 +1,3763 @@
+{
+  "format_version": 1,
+  "status": "source_supplement_for_independent_poles_review",
+  "created_at": "2026-10-15",
+  "research_period": {
+    "date_from": "2021-10-15",
+    "date_to": "2026-10-15"
+  },
+  "measurement_mode": "independent_poles",
+  "roster": {
+    "path": "research/rwanda_politicians_2021_2026/objects.json",
+    "sha256": "640bbbd2333843b17171138c090fcbb0cdec60c101dfa89c43ddbd5014685b9b",
+    "count": 42
+  },
+  "scale_basis": {
+    "path": "research/rwanda_politicians_2021_2026/russia_scales_proposal.json",
+    "sha256": "bc83ae82cb1d02dc6dba1b2b0ef3af92bd0d535a2058e8cf1067134fdd4ed802",
+    "ids": [
+      "russia-diplomatic-engagement",
+      "russia-security-cooperation",
+      "russia-economic-technology-cooperation",
+      "russia-education-cultural-cooperation",
+      "russia-conflict-policy-evaluation",
+      "russia-isolation-sanctions"
+    ]
+  },
+  "scope_note": "Источниковый слой без баллов. У всех 42 выполнен явный поиск по имени. Публичная служебная речь и действие не означают частного убеждения. polarity_hint обозначает только направление потенциально поддержанного полюса, не силу, а unknown противоположного полюса не превращается в 0. Одно событие с несколькими темами не становится несколькими независимыми событиями.",
+  "eligibility_rules": {
+    "eligible_direct": "Relevant primary text or named direct interview read in full; dated and personally attributed; downstream independent-pole grading must still respect its scope.",
+    "pending": "Not imported: index-only, unverified full primary speech or unresolved source verification.",
+    "context_only": "Not imported: contact, role, background or general autonomy without the scale's substantive action.",
+    "unknown": "No score and no inference of neutrality/absence; limited search found no eligible personal evidence."
+  },
+  "facts": [
+    {
+      "id": "ru-independent-001",
+      "actor_id": "paul-kagame",
+      "date": "2023-04-17",
+      "period": "2023-04-17",
+      "event_id": "kagame-benin-partner-choice-2023-04-17",
+      "source_url": "https://www.paulkagame.rw/president-kagame-visits-benin-cotonou-15-17-april-2023/",
+      "source_title": "President Kagame visits Benin | Cotonou, 15-17 April 2023",
+      "text": "Кагаме на совместной пресс-конференции в Бенине, прямо упоминая Россию и Китай, защищал самостоятельный выбор африканскими странами нужных им партнёров.",
+      "topic_ids": [
+        "russia-diplomatic-engagement"
+      ],
+      "capacity": "Президент Руанды, публичная пресс-конференция",
+      "channel": "public_statement",
+      "eligibility": "context_only",
+      "polarity_hint": "not_assignable",
+      "notes": "Полная первичная страница прочитана. Автономия выбора партнёров не доказывает расширение двусторонних отношений, одобрение вторжения, противодействие санкциям или личную симпатию.",
+      "verification_date": "2026-10-15",
+      "evidence_origin": "assistant_verified_source",
+      "source_type": "primary_official_personal_website",
+      "verification": "full_relevant_primary_read"
+    },
+    {
+      "id": "ru-independent-002",
+      "actor_id": "paul-kagame",
+      "date": "2024-08-28",
+      "period": "2024-08-28",
+      "event_id": "kagame-polyakov-credentials-2024-08-28",
+      "source_url": "https://www.newtimes.co.rw/article/19609/news/rwanda/eight-new-envoys-present-credentials-to-kagame-vow-to-deepen-bilateral-ties",
+      "source_title": "Eight new envoys present credentials to Kagame, vow to deepen bilateral ties",
+      "text": "Кагаме принял верительные грамоты российского посла Александра Полякова вместе с грамотами представителей ещё семи государств.",
+      "topic_ids": [
+        "russia-diplomatic-engagement"
+      ],
+      "capacity": "Президент Руанды, приём верительных грамот",
+      "channel": "official_act",
+      "eligibility": "context_only",
+      "polarity_hint": "not_assignable",
+      "notes": "Протокольное действие подтверждает контакт и аккредитацию; слова Полякова о сотрудничестве не являются словами Кагаме. Сохранение отношений не приравнивается к их расширению.",
+      "verification_date": "2026-10-15",
+      "evidence_origin": "assistant_verified_source",
+      "source_type": "news_report",
+      "verification": "named_event_report_checked"
+    },
+    {
+      "id": "ru-independent-003",
+      "actor_id": "paul-kagame",
+      "date": "2026-01-15",
+      "period": "2026-01-15",
+      "event_id": "kagame-putin-message-via-nzabamwita-2026-01-15",
+      "source_url": "https://www.rwandainrussia.gov.rw/info/info-details?cHash=f16d397d5a5a23a2705acb619e74a537&tx_news_pi1%5Baction%5D=detail&tx_news_pi1%5Bcontroller%5D=News&tx_news_pi1%5Bnews%5D=56199",
+      "source_title": "Ambassador Nzabamwita Presents Letters of Credence to President Vladimir Putin at the Kremlin",
+      "text": "Официальное посольство сообщает, что 15 января 2026 года посол Нзабамвита передал Путину послание Кагаме после церемонии вручения грамот.",
+      "topic_ids": [
+        "russia-diplomatic-engagement"
+      ],
+      "capacity": "Президент Руанды; послание передано назначенным послом",
+      "channel": "official_act",
+      "eligibility": "context_only",
+      "polarity_hint": "not_assignable",
+      "notes": "Полная первичная страница прочитана. Содержание послания не опубликовано; из факта его передачи нельзя вывести предложение расширять сотрудничество.",
+      "verification_date": "2026-10-15",
+      "evidence_origin": "assistant_verified_source",
+      "source_type": "primary_rwandan_embassy",
+      "verification": "full_relevant_primary_read"
+    },
+    {
+      "id": "ru-independent-004",
+      "actor_id": "vincent-biruta",
+      "date": "2022-01-31",
+      "period": "2022-01-31",
+      "event_id": "biruta-primakov-meeting-2022-01-31",
+      "source_url": "https://www.minaffet.gov.rw/updates/news-details/minister-vincent-biruta-meets-mr-evgeny-a-primakov-head-of-the-federal-agency-for-the-commonwealth-of-independent-states-affairs-compatriots-living-abroad-and-international-humanitarian-cooperation",
+      "source_title": "Minister Vincent Biruta meets Mr. Evgeny A. Primakov",
+      "text": "Официальный индекс MINAFFET сообщает об обсуждении Бирутой и Примаковым укрепления сотрудничества в образовании, окружающей среде, дипломатии и Expo 2030.",
+      "topic_ids": [
+        "russia-diplomatic-engagement",
+        "russia-education-cultural-cooperation"
+      ],
+      "capacity": "Министр иностранных дел Руанды",
+      "channel": "official_act",
+      "eligibility": "pending",
+      "polarity_hint": "positive",
+      "notes": "Короткий релиз полностью виден в поисковом индексе, но сама страница неоднократно не открылась. До чтения первичного полного материала не импортировать в оценивание.",
+      "verification_date": "2026-10-15",
+      "evidence_origin": "assistant_verified_source",
+      "source_type": "primary_rwandan_foreign_ministry",
+      "verification": "primary_index_only_full_page_fetch_failed"
+    },
+    {
+      "id": "ru-independent-005",
+      "actor_id": "vincent-biruta",
+      "date": "2023-10-17",
+      "period": "2023-10-17",
+      "event_id": "biruta-lavrov-anniversary-messages-2023-10-17",
+      "source_url": "https://t.me/s/MFARussia/17972",
+      "source_title": "Russian MFA: Russia–Rwanda 60th anniversary, exchanged ministerial messages",
+      "text": "Индекс официального MFA Telegram сообщает об обмене посланиями Бируты и Лаврова 17 октября 2023 года и подтверждении взаимного интереса к расширению сотрудничества.",
+      "topic_ids": [
+        "russia-diplomatic-engagement"
+      ],
+      "capacity": "Министр иностранных дел Руанды, обмен официальными посланиями",
+      "channel": "official_act",
+      "eligibility": "pending",
+      "polarity_hint": "positive",
+      "notes": "Поиск показал целый относящийся к Руанде пост; открытый непрофильтрованный feed перешёл к 19 октября и нужного поста не показал. Полное первичное чтение не подтверждено, оставить pending.",
+      "verification_date": "2026-10-15",
+      "evidence_origin": "assistant_verified_source",
+      "source_type": "primary_russian_foreign_ministry",
+      "verification": "primary_index_only_wrong_feed_range"
+    },
+    {
+      "id": "ru-independent-006",
+      "actor_id": "olivier-nduhungirehe",
+      "date": "2024-11-09",
+      "period": "2024-11-09",
+      "event_id": "nduhungirehe-sochi-2024-11-09",
+      "source_url": "https://t.me/s/rusembrwanda/304?q=%23RussiaAfrica",
+      "source_title": "Russian Embassy in Rwanda: signing visa-free diplomatic/service passport agreement",
+      "text": "9 ноября 2024 года в Сочи Ндухунгирехе и Лавров подписали соглашение о безвизовых поездках владельцев дипломатических и служебных паспортов.",
+      "topic_ids": [
+        "russia-diplomatic-engagement"
+      ],
+      "capacity": "Министр иностранных дел Руанды, подписант соглашения",
+      "channel": "official_act",
+      "eligibility": "eligible_direct",
+      "polarity_hint": "positive",
+      "notes": "Прочитан полный относящийся к событию пост официального посольства, видео обозначено как материал RwandaMFA. Конкретное институциональное действие; не всеобщий безвиз и не свидетельство о войне или санкциях.",
+      "verification_date": "2026-10-15",
+      "evidence_origin": "assistant_verified_source",
+      "source_type": "primary_official_embassy_channel",
+      "verification": "full_relevant_primary_read",
+      "corroborating_sources": [
+        {
+          "url": "https://x.com/RwandaMFA/status/1855207167906783647",
+          "status": "original_post_link_from_news_report; web_open_empty"
+        },
+        {
+          "url": "https://www.newtimes.co.rw/article/21690/news/rwanda/rwanda-russia-sign-visa-waiver-deal-for-service-diplomatic-passport-holders/amp",
+          "status": "full_report_read; exact_event_date_and_signatories"
+        }
+      ],
+      "accessible_post_url": "https://t.me/s/rusembrwanda/304?q=%23RussiaAfrica"
+    },
+    {
+      "id": "ru-independent-007",
+      "actor_id": "olivier-nduhungirehe",
+      "date": "2024-11-09",
+      "period": "2024-11-09",
+      "event_id": "nduhungirehe-sochi-2024-11-09",
+      "source_url": "https://www.themoscowtimes.com/2024/11/09/rwanda-counting-on-russia-to-train-nuclear-power-specialists-a86964/pdf",
+      "source_title": "AFP: Rwanda Counting on Russia to Train Nuclear Power Specialists",
+      "text": "В интервью AFP на сочинском форуме Ндухунгирехе выразил надежду на российское содействие в подготовке специалистов для будущей атомной энергетики Руанды и упомянул выпускников российских вузов.",
+      "topic_ids": [
+        "russia-education-cultural-cooperation"
+      ],
+      "capacity": "Министр иностранных дел Руанды, прямое интервью AFP",
+      "channel": "public_statement",
+      "eligibility": "eligible_direct",
+      "polarity_hint": "positive",
+      "notes": "Две страницы прямого интервью прочитаны. Это основание для полюса гражданского обучения. Общая потребность в атомной энергии и журналистская справка о договоре 2019 года не превращены в новое личное действие по российскому экономическому проекту. С подписанием визового соглашения используется общий event_id форума.",
+      "verification_date": "2026-10-15",
+      "evidence_origin": "assistant_verified_source",
+      "source_type": "primary_journalism_named_direct_interview",
+      "verification": "full_direct_interview_read"
+    },
+    {
+      "id": "ru-independent-008",
+      "actor_id": "olivier-nduhungirehe",
+      "date": "2025-12-19",
+      "period": "2025-12-19",
+      "event_id": "nduhungirehe-lavrov-cairo-2025-12-19",
+      "source_url": "https://t.me/s/rusembrwanda?after=341",
+      "source_title": "Russian Embassy in Rwanda / Russian MFA: Lavrov–Nduhungirehe meeting in Cairo",
+      "text": "На переговорах в Каире 19 декабря 2025 года Ндухунгирехе и Лавров обсуждали расширение торгово-экономического и гуманитарного сотрудничества. Официальный двусторонний релиз сообщает о взаимной готовности углублять политический диалог и координацию на многосторонних площадках.",
+      "topic_ids": [
+        "russia-diplomatic-engagement",
+        "russia-economic-technology-cooperation"
+      ],
+      "capacity": "Министр иностранных дел Руанды, участник двусторонних переговоров",
+      "channel": "official_act",
+      "eligibility": "eligible_direct",
+      "polarity_hint": "positive",
+      "notes": "Полный относящийся к встрече первичный пост прочитан в официальном посольском feed, источник пересылает MFA. Это согласованная служебная позиция в изложении российской стороны, не дословная личная речь Ндухунгирехе; стадия обсуждения и намерений, не реализации. Гуманитарная сфера без конкретизации не приравнена к образованию.",
+      "verification_date": "2026-10-15",
+      "evidence_origin": "assistant_verified_source",
+      "source_type": "primary_official_embassy_channel_forwarding_mfa",
+      "verification": "full_relevant_primary_read",
+      "accessible_post_url": "https://t.me/rusembrwanda/345",
+      "corroborating_sources": [
+        {
+          "url": "https://www.rwandainrussia.gov.rw/info/info-details?cHash=f16d397d5a5a23a2705acb619e74a537&tx_news_pi1%5Baction%5D=detail&tx_news_pi1%5Bcontroller%5D=News&tx_news_pi1%5Bnews%5D=56199",
+          "status": "full_rwandan_primary_read; confirms_exact_event_date"
+        }
+      ]
+    },
+    {
+      "id": "ru-independent-009",
+      "actor_id": "olivier-nduhungirehe",
+      "date": "2026-04-18",
+      "period": "2026-04-18",
+      "event_id": "nduhungirehe-lavrov-antalya-2026-04-18",
+      "source_url": "https://t.me/s/rusembrwanda/304?q=%23RussiaAfrica",
+      "source_title": "Russian Embassy in Rwanda: Lavrov–Nduhungirehe at Antalya Diplomacy Forum",
+      "text": "18 апреля 2026 года в Анталье Ндухунгирехе и Лавров подтвердили курс на развитие двустороннего сотрудничества. Релиз прямо называет торгово-экономические связи, мирное использование атомной энергии, образование и подготовку кадров.",
+      "topic_ids": [
+        "russia-diplomatic-engagement",
+        "russia-economic-technology-cooperation",
+        "russia-education-cultural-cooperation"
+      ],
+      "capacity": "Министр иностранных дел Руанды, участник двусторонних переговоров",
+      "channel": "official_act",
+      "eligibility": "eligible_direct",
+      "polarity_hint": "positive",
+      "notes": "Полный относящийся к эпизоду первичный пост прочитан в официальном посольском feed. Прямо названы направления сотрудничества; это намерение и переговоры, не уже введённый объект или финансирование. Международная координация не равна одобрению конкретного российского вооружённого действия.",
+      "verification_date": "2026-10-15",
+      "evidence_origin": "assistant_verified_source",
+      "source_type": "primary_official_embassy_channel",
+      "verification": "full_relevant_primary_read",
+      "corroborating_sources": [
+        {
+          "url": "https://www.globalsecurity.org/wmd/library/news/russia/2026/04/russia-260418-russia-mfa02.htm",
+          "status": "full_republication_of_MFA_release_603-18-04-2026_read; same_event_not_independent"
+        }
+      ]
+    },
+    {
+      "id": "ru-independent-010",
+      "actor_id": "olivier-nduhungirehe",
+      "date": "2026-06-12",
+      "period": "2026-06-12",
+      "event_id": "nduhungirehe-russia-day-2026-06-12",
+      "source_url": "https://m.lanouvellereleve.co.rw/2026/06/12/rwanda-le-ministre-des-affaires-etrangeres-salue-le-renforcement-de-la-cooperation-avec-la-russie/",
+      "source_title": "Rwanda : Le ministre des Affaires étrangères salue le renforcement de la coopération avec la Russie",
+      "text": "Газета La Nouvelle Releve сообщает, что вечером 12 июня 2026 года на приёме посольства России Ндухунгирехе положительно отозвался о развитии отношений. В сообщении названы образование, ядерные науки и технологии, оборона и безопасность.",
+      "topic_ids": [
+        "russia-diplomatic-engagement",
+        "russia-security-cooperation",
+        "russia-economic-technology-cooperation",
+        "russia-education-cultural-cooperation"
+      ],
+      "capacity": "Министр иностранных дел Руанды, выступление на приёме",
+      "channel": "public_statement",
+      "eligibility": "pending",
+      "polarity_hint": "positive",
+      "notes": "Полный короткий газетный материал прочитан, однако нет первичной стенограммы или полностью прочитанного официального выступления. Перечень сфер может быть изложением редакции. До проверки речи не добавлять новые числа по всем четырём темам.",
+      "verification_date": "2026-10-15",
+      "evidence_origin": "assistant_verified_source",
+      "source_type": "rwandan_news_report_named_public_speech",
+      "verification": "full_news_report_read_primary_speech_pending"
+    },
+    {
+      "id": "ru-independent-011",
+      "actor_id": "juvenal-marizamunda",
+      "date": "2026-05-20",
+      "period": "2026-05-20",
+      "event_id": "rwanda-russia-military-commission-2026-05-20",
+      "source_url": "https://www.mod.gov.rw/docs-media/news-detail/rrdf-hosts-the-7th-meeting-of-the-rwanda-russia-joint-commission-on-military-technical-cooperation?cHash=3be790fd61fd1553005cd0bdb3260a7d&tx_news_pi1%5BcurrentPage%5D=2",
+      "source_title": "RDF hosts the 7th meeting of the Rwanda–Russia Joint Commission on Military Technical Cooperation",
+      "text": "По релизу MOD, на полях комиссии 20–22 мая 2026 года российская делегация встретилась с министром Маризамундой и обсуждала приоритеты двустороннего оборонного партнёрства.",
+      "topic_ids": [
+        "russia-security-cooperation"
+      ],
+      "capacity": "Министр обороны Руанды, приём профильной российской делегации",
+      "channel": "official_act",
+      "eligibility": "eligible_direct",
+      "polarity_hint": "positive",
+      "notes": "Первичный релиз полностью прочитан. Именованное служебное участие в обсуждении оборонного сотрудничества; нет прямой речи министра, поставок или доказательства реализации. Дата 20 мая — дата релиза и начала комиссии, день отдельной встречи внутри 20–22 мая не указан. Не выдавать 20 мая за точно установленный день личного визита.",
+      "verification_date": "2026-10-15",
+      "evidence_origin": "assistant_verified_source",
+      "source_type": "primary_rwandan_ministry_of_defence",
+      "verification": "full_relevant_primary_read",
+      "date_precision": "episode_interval",
+      "event_date_from": "2026-05-20",
+      "event_date_to": "2026-05-22",
+      "publication_date": "2026-05-20"
+    },
+    {
+      "id": "ru-independent-012",
+      "actor_id": "sabin-nsanzimana",
+      "date": "2026-05-19",
+      "period": "2026-05-19",
+      "event_id": "nsanzimana-murashko-health-mou-2026-05-19",
+      "source_url": "https://t.me/minzdrav_ru/14879",
+      "source_title": "Минздрав России: Россия и Руанда подписали меморандум о сотрудничестве в сфере здравоохранения",
+      "text": "На полях Всемирной ассамблеи здравоохранения Нсанзимана и Мурашко встретились и подписали межведомственный меморандум. В нём названы медицинские исследования, ядерная медицина и профессиональное развитие медицинских работников.",
+      "topic_ids": [
+        "russia-economic-technology-cooperation",
+        "russia-education-cultural-cooperation"
+      ],
+      "capacity": "Министр здравоохранения Руанды, подписант меморандума",
+      "channel": "official_act",
+      "eligibility": "eligible_direct",
+      "polarity_hint": "positive",
+      "notes": "Полный относящийся к событию текст первичного официального поста прочитан в feed. Дата события 19 мая проверена местным сообщением от 20 мая. Одно соглашение поддерживает два тематических направления, но остаётся одним событием; результаты исполнения не установлены.",
+      "verification_date": "2026-10-15",
+      "evidence_origin": "assistant_verified_source",
+      "source_type": "primary_russian_health_ministry_public_channel",
+      "verification": "full_relevant_primary_read",
+      "accessible_feed_url": "https://t.me/s/minzdrav_ru/13274?q=%23%D0%9C%D0%B5%D0%B6%D0%B4%D1%83%D0%BD%D0%B0%D1%80%D0%BE%D0%B4%D0%BD%D0%BE%D0%B5%D0%A1%D0%BE%D1%82%D1%80%D1%83%D0%B4%D0%BD%D0%B8%D1%87%D0%B5%D1%81%D1%82%D0%B2%D0%BE",
+      "corroborating_sources": [
+        {
+          "url": "https://imvahonshya.co.rw/u-rwanda-nu-burusiya-byatangije-ubutwererane-mu-buvuzi/",
+          "status": "exact_event_date_cross_check_2026-05-19"
+        }
+      ]
+    },
+    {
+      "id": "ru-independent-013",
+      "actor_id": "louise-mushikiwabo",
+      "date": "2023-02-24",
+      "period": "2023-02-24",
+      "event_id": "mushikiwabo-oif-ukraine-statement-2023-02-24",
+      "source_url": "https://www.francophonie.org/la-secretaire-generale-de-la-francophonie-demeure-extremement-preoccupee-par-la-persistance-de-2636",
+      "source_title": "La Secrétaire générale de la Francophonie demeure extrêmement préoccupée par la persistance de l’agression de la Fédération de Russie contre l’Ukraine",
+      "text": "В официальном заявлении Мушикивабо назвала российское нападение на Украину агрессией, выразила солидарность с украинским населением и указала на гражданские жертвы и последствия агрессии для продовольственной безопасности.",
+      "topic_ids": [
+        "russia-conflict-policy-evaluation"
+      ],
+      "capacity": "Генеральный секретарь OIF; публичная институциональная речь",
+      "channel": "public_statement",
+      "eligibility": "eligible_direct",
+      "polarity_hint": "negative",
+      "notes": "Полный первичный текст прочитан. Конкретная критика действий России в Украине; это публичная роль OIF, не автоматически позиция правительства Руанды и не частное убеждение. Заявление не поддерживает отдельную оценку санкций.",
+      "verification_date": "2026-10-15",
+      "evidence_origin": "assistant_verified_source",
+      "source_type": "primary_organisation_own_statement",
+      "verification": "full_relevant_primary_read"
+    },
+    {
+      "id": "ru-independent-014",
+      "actor_id": "louise-mushikiwabo",
+      "date": "2022-03-16",
+      "period": "2022-03-16",
+      "event_id": "mushikiwabo-oif-cmf40-2022-03-16",
+      "source_url": "https://www.francophonie.org/40e-session-de-la-cmf",
+      "source_title": "40e CMF : Une résolution sur l’Ukraine adoptée avec unité et fermeté",
+      "text": "По официальному отчёту OIF, 16 марта 2022 года Мушикивабо выразила солидарность с пострадавшим украинским населением и желание единого голоса Франкофонии; министры приняли резолюцию об Украине.",
+      "topic_ids": [
+        "russia-conflict-policy-evaluation"
+      ],
+      "capacity": "Генеральный секретарь OIF, заседание министерской конференции",
+      "channel": "public_statement",
+      "eligibility": "context_only",
+      "polarity_hint": "not_assignable",
+      "notes": "Полный первичный отчёт прочитан. Сам текст отчёта не приводит её прямого суждения о конкретных действиях России, а коллективная резолюция не превращена во все индивидуальные позиции; для измерения критики использовать самостоятельное заявление 24.02.2023.",
+      "verification_date": "2026-10-15",
+      "evidence_origin": "assistant_verified_source",
+      "source_type": "primary_organisation_event_report",
+      "verification": "full_relevant_primary_read"
+    }
+  ],
+  "search_log": [
+    {
+      "actor_id": "paul-kagame",
+      "queries": [
+        "\"Paul Kagame\" (Russia OR Russie OR Russian) 2022 2023 2024 2025 2026",
+        "\"Kagame\" \"Polyakov\" \"2024\""
+      ],
+      "checked_at": "2026-10-15",
+      "name": "Поль Кагаме",
+      "name_original": "Paul Kagame",
+      "search_method": "Explicit actor-name query plus Russia/Russie/Russian/Ukraine; selected follow-ups and primary-page checks. Search scope is limited to indexed public web; not proof of universal absence.",
+      "result": "context_or_pending_only",
+      "summary": "Найдены персонифицированные эпизоды выбора партнёров, аккредитации и передачи послания. Они оставлены контекстом: конкретное расширение отношений или оценка войны/санкций не доказаны.",
+      "fact_ids": [
+        "ru-independent-001",
+        "ru-independent-002",
+        "ru-independent-003"
+      ],
+      "candidate_sources": [],
+      "uncovered_poles": [
+        {
+          "scale_id": "russia-diplomatic-engagement",
+          "pole": "positive",
+          "status": "unknown"
+        },
+        {
+          "scale_id": "russia-diplomatic-engagement",
+          "pole": "negative",
+          "status": "unknown"
+        },
+        {
+          "scale_id": "russia-security-cooperation",
+          "pole": "positive",
+          "status": "unknown"
+        },
+        {
+          "scale_id": "russia-security-cooperation",
+          "pole": "negative",
+          "status": "unknown"
+        },
+        {
+          "scale_id": "russia-economic-technology-cooperation",
+          "pole": "positive",
+          "status": "unknown"
+        },
+        {
+          "scale_id": "russia-economic-technology-cooperation",
+          "pole": "negative",
+          "status": "unknown"
+        },
+        {
+          "scale_id": "russia-education-cultural-cooperation",
+          "pole": "positive",
+          "status": "unknown"
+        },
+        {
+          "scale_id": "russia-education-cultural-cooperation",
+          "pole": "negative",
+          "status": "unknown"
+        },
+        {
+          "scale_id": "russia-conflict-policy-evaluation",
+          "pole": "positive",
+          "status": "unknown"
+        },
+        {
+          "scale_id": "russia-conflict-policy-evaluation",
+          "pole": "negative",
+          "status": "unknown"
+        },
+        {
+          "scale_id": "russia-isolation-sanctions",
+          "pole": "positive",
+          "status": "unknown"
+        },
+        {
+          "scale_id": "russia-isolation-sanctions",
+          "pole": "negative",
+          "status": "unknown"
+        }
+      ]
+    },
+    {
+      "actor_id": "edouard-ngirente",
+      "queries": [
+        "\"Edouard Ngirente\" (Russia OR Russian OR Russie) 2022 2023 2024 2025 2026",
+        "\"Ngirente\" \"Russian\" \"2022\" \"2023\" \"2024\""
+      ],
+      "checked_at": "2026-10-15",
+      "name": "Эдуар Нгиренте",
+      "name_original": "Edouard Ngirente",
+      "search_method": "Explicit actor-name query plus Russia/Russie/Russian/Ukraine; selected follow-ups and primary-page checks. Search scope is limited to indexed public web; not proof of universal absence.",
+      "result": "unknown_after_explicit_search",
+      "summary": "Сильный материал SPIEF датирован 03.06.2021, вне окна; актуального персонифицированного основания в выполненном поиске не найдено.",
+      "fact_ids": [],
+      "candidate_sources": [
+        {
+          "url": "https://www.primature.gov.rw/news-detail/prime-minister-ngirente-attends-the-24th-st-petersburg-international-economic-forum",
+          "decision": "excluded",
+          "reason": "Event 2021-06-03 precedes 2021-10-15."
+        }
+      ],
+      "uncovered_poles": [
+        {
+          "scale_id": "russia-diplomatic-engagement",
+          "pole": "positive",
+          "status": "unknown"
+        },
+        {
+          "scale_id": "russia-diplomatic-engagement",
+          "pole": "negative",
+          "status": "unknown"
+        },
+        {
+          "scale_id": "russia-security-cooperation",
+          "pole": "positive",
+          "status": "unknown"
+        },
+        {
+          "scale_id": "russia-security-cooperation",
+          "pole": "negative",
+          "status": "unknown"
+        },
+        {
+          "scale_id": "russia-economic-technology-cooperation",
+          "pole": "positive",
+          "status": "unknown"
+        },
+        {
+          "scale_id": "russia-economic-technology-cooperation",
+          "pole": "negative",
+          "status": "unknown"
+        },
+        {
+          "scale_id": "russia-education-cultural-cooperation",
+          "pole": "positive",
+          "status": "unknown"
+        },
+        {
+          "scale_id": "russia-education-cultural-cooperation",
+          "pole": "negative",
+          "status": "unknown"
+        },
+        {
+          "scale_id": "russia-conflict-policy-evaluation",
+          "pole": "positive",
+          "status": "unknown"
+        },
+        {
+          "scale_id": "russia-conflict-policy-evaluation",
+          "pole": "negative",
+          "status": "unknown"
+        },
+        {
+          "scale_id": "russia-isolation-sanctions",
+          "pole": "positive",
+          "status": "unknown"
+        },
+        {
+          "scale_id": "russia-isolation-sanctions",
+          "pole": "negative",
+          "status": "unknown"
+        }
+      ]
+    },
+    {
+      "actor_id": "justin-nsengiyumva",
+      "queries": [
+        "\"Justin Nsengiyumva\" (Russia OR Russian OR Russie OR Ukraine)",
+        "\"Nsengiyumva\" \"Russia\" \"2025\" \"2026\" minister"
+      ],
+      "checked_at": "2026-10-15",
+      "name": "Жюстен Нсенгийюмва",
+      "name_original": "Justin Nsengiyumva",
+      "search_method": "Explicit actor-name query plus Russia/Russie/Russian/Ukraine; selected follow-ups and primary-page checks. Search scope is limited to indexed public web; not proof of universal absence.",
+      "result": "unknown_after_explicit_search",
+      "summary": "Результаты о назначении и составе международных мероприятий; прямого российского эпизода не найдено.",
+      "fact_ids": [],
+      "candidate_sources": [],
+      "uncovered_poles": [
+        {
+          "scale_id": "russia-diplomatic-engagement",
+          "pole": "positive",
+          "status": "unknown"
+        },
+        {
+          "scale_id": "russia-diplomatic-engagement",
+          "pole": "negative",
+          "status": "unknown"
+        },
+        {
+          "scale_id": "russia-security-cooperation",
+          "pole": "positive",
+          "status": "unknown"
+        },
+        {
+          "scale_id": "russia-security-cooperation",
+          "pole": "negative",
+          "status": "unknown"
+        },
+        {
+          "scale_id": "russia-economic-technology-cooperation",
+          "pole": "positive",
+          "status": "unknown"
+        },
+        {
+          "scale_id": "russia-economic-technology-cooperation",
+          "pole": "negative",
+          "status": "unknown"
+        },
+        {
+          "scale_id": "russia-education-cultural-cooperation",
+          "pole": "positive",
+          "status": "unknown"
+        },
+        {
+          "scale_id": "russia-education-cultural-cooperation",
+          "pole": "negative",
+          "status": "unknown"
+        },
+        {
+          "scale_id": "russia-conflict-policy-evaluation",
+          "pole": "positive",
+          "status": "unknown"
+        },
+        {
+          "scale_id": "russia-conflict-policy-evaluation",
+          "pole": "negative",
+          "status": "unknown"
+        },
+        {
+          "scale_id": "russia-isolation-sanctions",
+          "pole": "positive",
+          "status": "unknown"
+        },
+        {
+          "scale_id": "russia-isolation-sanctions",
+          "pole": "negative",
+          "status": "unknown"
+        }
+      ]
+    },
+    {
+      "actor_id": "vincent-biruta",
+      "queries": [
+        "\"Vincent Biruta\" (Russia OR Russie OR Lavrov) 2022 2023 2024",
+        "\"Vincent Biruta\" Russia Africa summit July 2023",
+        "site:mid.ru Бирута 2023 Лавров",
+        "\"Biruta\" \"2023\" Russia site:minaффet.gov.rw",
+        "\"Бирута\" \"Петербург\" \"2023\"",
+        "\"Biruta\" Russia site:minaffet.gov.rw",
+        "\"Vincent Biruta\" \"Russia\" \"July 2023\" Rwanda",
+        "\"Biruta\" \"Russia\" \"Primakov\" site:x.com",
+        "\"Biruta\" \"Russia\" \"2023\" site:x.com/RwandaMFA",
+        "Примаков Бирута 31 января 2022 Россотрудничество",
+        "\"Biruta\" \"St. Petersburg\" \"2023\" Rwanda",
+        "\"Biruta\" \"2023\" site:summitafrica.ru"
+      ],
+      "checked_at": "2026-10-15",
+      "name": "Венсан Бирута",
+      "name_original": "Vincent Biruta",
+      "search_method": "Explicit actor-name query plus Russia/Russie/Russian/Ukraine; selected follow-ups and primary-page checks. Search scope is limited to indexed public web; not proof of universal absence.",
+      "result": "context_or_pending_only",
+      "summary": "Два содержательных официальных индексируемых сообщения сохранены pending до полного первичного чтения; участие в саммите-2023 не расширено до поддержки войны.",
+      "fact_ids": [
+        "ru-independent-004",
+        "ru-independent-005"
+      ],
+      "candidate_sources": [
+        {
+          "url": "https://www.minaffet.gov.rw/updates/news-details/minister-vincent-biruta-meets-mr-evgeny-a-primakov-head-of-the-federal-agency-for-the-commonwealth-of-independent-states-affairs-compatriots-living-abroad-and-international-humanitarian-cooperation",
+          "decision": "pending",
+          "reason": "Only official search-index text read; full source failed."
+        },
+        {
+          "url": "https://t.me/s/MFARussia/17972",
+          "decision": "pending",
+          "reason": "Anniversary post visible in search index but not in opened feed range."
+        },
+        {
+          "url": "https://tespa-strategy.com/research/the-russia-africa-summit-2023-select-countries/",
+          "decision": "pending",
+          "reason": "Secondary summary of 2023 summit attendance; exact actor event date and primary full text still required."
+        }
+      ],
+      "uncovered_poles": [
+        {
+          "scale_id": "russia-diplomatic-engagement",
+          "pole": "positive",
+          "status": "unknown"
+        },
+        {
+          "scale_id": "russia-diplomatic-engagement",
+          "pole": "negative",
+          "status": "unknown"
+        },
+        {
+          "scale_id": "russia-security-cooperation",
+          "pole": "positive",
+          "status": "unknown"
+        },
+        {
+          "scale_id": "russia-security-cooperation",
+          "pole": "negative",
+          "status": "unknown"
+        },
+        {
+          "scale_id": "russia-economic-technology-cooperation",
+          "pole": "positive",
+          "status": "unknown"
+        },
+        {
+          "scale_id": "russia-economic-technology-cooperation",
+          "pole": "negative",
+          "status": "unknown"
+        },
+        {
+          "scale_id": "russia-education-cultural-cooperation",
+          "pole": "positive",
+          "status": "unknown"
+        },
+        {
+          "scale_id": "russia-education-cultural-cooperation",
+          "pole": "negative",
+          "status": "unknown"
+        },
+        {
+          "scale_id": "russia-conflict-policy-evaluation",
+          "pole": "positive",
+          "status": "unknown"
+        },
+        {
+          "scale_id": "russia-conflict-policy-evaluation",
+          "pole": "negative",
+          "status": "unknown"
+        },
+        {
+          "scale_id": "russia-isolation-sanctions",
+          "pole": "positive",
+          "status": "unknown"
+        },
+        {
+          "scale_id": "russia-isolation-sanctions",
+          "pole": "negative",
+          "status": "unknown"
+        }
+      ]
+    },
+    {
+      "actor_id": "olivier-nduhungirehe",
+      "queries": [
+        "\"Olivier Nduhungirehe\" Russia Lavrov",
+        "\"Nduhungirehe\" Russia June 2026",
+        "\"Nduhungirehe\" \"18 April 2026\"",
+        "\"Nduhungirehe\" \"12 juin\" \"2026\" Russie",
+        "\"Nduhungirehe\" \"18\" \"2026\" site:t.me/s/MFARussia"
+      ],
+      "checked_at": "2026-10-15",
+      "name": "Оливье Ндухунгирехе",
+      "name_original": "Olivier J. P. Nduhungirehe",
+      "search_method": "Explicit actor-name query plus Russia/Russie/Russian/Ukraine; selected follow-ups and primary-page checks. Search scope is limited to indexed public web; not proof of universal absence.",
+      "result": "eligible_evidence_found",
+      "summary": "Найдены подписанный визовый договор и прямое интервью в Сочи, содержательные двусторонние релизы Каира и Антальи. Позднее выступление Russia Day — pending. Противоположные полюса не заполняются автоматически.",
+      "fact_ids": [
+        "ru-independent-006",
+        "ru-independent-007",
+        "ru-independent-008",
+        "ru-independent-009",
+        "ru-independent-010"
+      ],
+      "candidate_sources": [],
+      "uncovered_poles": [
+        {
+          "scale_id": "russia-diplomatic-engagement",
+          "pole": "negative",
+          "status": "unknown"
+        },
+        {
+          "scale_id": "russia-security-cooperation",
+          "pole": "positive",
+          "status": "unknown"
+        },
+        {
+          "scale_id": "russia-security-cooperation",
+          "pole": "negative",
+          "status": "unknown"
+        },
+        {
+          "scale_id": "russia-economic-technology-cooperation",
+          "pole": "negative",
+          "status": "unknown"
+        },
+        {
+          "scale_id": "russia-education-cultural-cooperation",
+          "pole": "negative",
+          "status": "unknown"
+        },
+        {
+          "scale_id": "russia-conflict-policy-evaluation",
+          "pole": "positive",
+          "status": "unknown"
+        },
+        {
+          "scale_id": "russia-conflict-policy-evaluation",
+          "pole": "negative",
+          "status": "unknown"
+        },
+        {
+          "scale_id": "russia-isolation-sanctions",
+          "pole": "positive",
+          "status": "unknown"
+        },
+        {
+          "scale_id": "russia-isolation-sanctions",
+          "pole": "negative",
+          "status": "unknown"
+        }
+      ]
+    },
+    {
+      "actor_id": "james-kabarebe",
+      "queries": [
+        "\"James Kabarebe\" Russia",
+        "\"Kabarebe\" \"Russia\" \"Moscow\" 2022 2023 2024 2025 2026"
+      ],
+      "checked_at": "2026-10-15",
+      "name": "Джеймс Кабаребе",
+      "name_original": "James Kabarebe",
+      "search_method": "Explicit actor-name query plus Russia/Russie/Russian/Ukraine; selected follow-ups and primary-page checks. Search scope is limited to indexed public web; not proof of universal absence.",
+      "result": "unknown_after_explicit_search",
+      "summary": "Материалы о санкциях против него и о региональном конфликте не являются его отношением к России; прямого российского действия в окне не найдено.",
+      "fact_ids": [],
+      "candidate_sources": [],
+      "uncovered_poles": [
+        {
+          "scale_id": "russia-diplomatic-engagement",
+          "pole": "positive",
+          "status": "unknown"
+        },
+        {
+          "scale_id": "russia-diplomatic-engagement",
+          "pole": "negative",
+          "status": "unknown"
+        },
+        {
+          "scale_id": "russia-security-cooperation",
+          "pole": "positive",
+          "status": "unknown"
+        },
+        {
+          "scale_id": "russia-security-cooperation",
+          "pole": "negative",
+          "status": "unknown"
+        },
+        {
+          "scale_id": "russia-economic-technology-cooperation",
+          "pole": "positive",
+          "status": "unknown"
+        },
+        {
+          "scale_id": "russia-economic-technology-cooperation",
+          "pole": "negative",
+          "status": "unknown"
+        },
+        {
+          "scale_id": "russia-education-cultural-cooperation",
+          "pole": "positive",
+          "status": "unknown"
+        },
+        {
+          "scale_id": "russia-education-cultural-cooperation",
+          "pole": "negative",
+          "status": "unknown"
+        },
+        {
+          "scale_id": "russia-conflict-policy-evaluation",
+          "pole": "positive",
+          "status": "unknown"
+        },
+        {
+          "scale_id": "russia-conflict-policy-evaluation",
+          "pole": "negative",
+          "status": "unknown"
+        },
+        {
+          "scale_id": "russia-isolation-sanctions",
+          "pole": "positive",
+          "status": "unknown"
+        },
+        {
+          "scale_id": "russia-isolation-sanctions",
+          "pole": "negative",
+          "status": "unknown"
+        }
+      ]
+    },
+    {
+      "actor_id": "juvenal-marizamunda",
+      "queries": [
+        "\"Juvenal Marizamunda\" Russia"
+      ],
+      "checked_at": "2026-10-15",
+      "name": "Жювеналь Маризамунда",
+      "name_original": "Juvenal Marizamunda",
+      "search_method": "Explicit actor-name query plus Russia/Russie/Russian/Ukraine; selected follow-ups and primary-page checks. Search scope is limited to indexed public web; not proof of universal absence.",
+      "result": "eligible_evidence_found",
+      "summary": "Именован приём профильной делегации в рамках оборонной комиссии. День конкретного приёма не выделен внутри 20–22.05.2026.",
+      "fact_ids": [
+        "ru-independent-011"
+      ],
+      "candidate_sources": [],
+      "uncovered_poles": [
+        {
+          "scale_id": "russia-diplomatic-engagement",
+          "pole": "positive",
+          "status": "unknown"
+        },
+        {
+          "scale_id": "russia-diplomatic-engagement",
+          "pole": "negative",
+          "status": "unknown"
+        },
+        {
+          "scale_id": "russia-security-cooperation",
+          "pole": "negative",
+          "status": "unknown"
+        },
+        {
+          "scale_id": "russia-economic-technology-cooperation",
+          "pole": "positive",
+          "status": "unknown"
+        },
+        {
+          "scale_id": "russia-economic-technology-cooperation",
+          "pole": "negative",
+          "status": "unknown"
+        },
+        {
+          "scale_id": "russia-education-cultural-cooperation",
+          "pole": "positive",
+          "status": "unknown"
+        },
+        {
+          "scale_id": "russia-education-cultural-cooperation",
+          "pole": "negative",
+          "status": "unknown"
+        },
+        {
+          "scale_id": "russia-conflict-policy-evaluation",
+          "pole": "positive",
+          "status": "unknown"
+        },
+        {
+          "scale_id": "russia-conflict-policy-evaluation",
+          "pole": "negative",
+          "status": "unknown"
+        },
+        {
+          "scale_id": "russia-isolation-sanctions",
+          "pole": "positive",
+          "status": "unknown"
+        },
+        {
+          "scale_id": "russia-isolation-sanctions",
+          "pole": "negative",
+          "status": "unknown"
+        }
+      ]
+    },
+    {
+      "actor_id": "albert-murasira",
+      "queries": [
+        "\"Albert Murasira\" Russia",
+        "\"Murasira\" Russia cooperation 2022 2023"
+      ],
+      "checked_at": "2026-10-15",
+      "name": "Альбер Мурасира",
+      "name_original": "Albert Murasira",
+      "search_method": "Explicit actor-name query plus Russia/Russie/Russian/Ukraine; selected follow-ups and primary-page checks. Search scope is limited to indexed public web; not proof of universal absence.",
+      "result": "unknown_after_explicit_search",
+      "summary": "Найдены оборонные встречи с Нидерландами и Индией. Упоминания России в журналистском фоне не являются российской позицией Мурасиры.",
+      "fact_ids": [],
+      "candidate_sources": [],
+      "uncovered_poles": [
+        {
+          "scale_id": "russia-diplomatic-engagement",
+          "pole": "positive",
+          "status": "unknown"
+        },
+        {
+          "scale_id": "russia-diplomatic-engagement",
+          "pole": "negative",
+          "status": "unknown"
+        },
+        {
+          "scale_id": "russia-security-cooperation",
+          "pole": "positive",
+          "status": "unknown"
+        },
+        {
+          "scale_id": "russia-security-cooperation",
+          "pole": "negative",
+          "status": "unknown"
+        },
+        {
+          "scale_id": "russia-economic-technology-cooperation",
+          "pole": "positive",
+          "status": "unknown"
+        },
+        {
+          "scale_id": "russia-economic-technology-cooperation",
+          "pole": "negative",
+          "status": "unknown"
+        },
+        {
+          "scale_id": "russia-education-cultural-cooperation",
+          "pole": "positive",
+          "status": "unknown"
+        },
+        {
+          "scale_id": "russia-education-cultural-cooperation",
+          "pole": "negative",
+          "status": "unknown"
+        },
+        {
+          "scale_id": "russia-conflict-policy-evaluation",
+          "pole": "positive",
+          "status": "unknown"
+        },
+        {
+          "scale_id": "russia-conflict-policy-evaluation",
+          "pole": "negative",
+          "status": "unknown"
+        },
+        {
+          "scale_id": "russia-isolation-sanctions",
+          "pole": "positive",
+          "status": "unknown"
+        },
+        {
+          "scale_id": "russia-isolation-sanctions",
+          "pole": "negative",
+          "status": "unknown"
+        }
+      ]
+    },
+    {
+      "actor_id": "emmanuel-ugirashebuja",
+      "queries": [
+        "\"Emmanuel Ugirashebuja\" Russia"
+      ],
+      "checked_at": "2026-10-15",
+      "name": "Эмманюэль Угирасебуджа",
+      "name_original": "Emmanuel Ugirashebuja",
+      "search_method": "Explicit actor-name query plus Russia/Russie/Russian/Ukraine; selected follow-ups and primary-page checks. Search scope is limited to indexed public web; not proof of universal absence.",
+      "result": "unknown_after_explicit_search",
+      "summary": "Прямых российских высказываний или действий не найдено.",
+      "fact_ids": [],
+      "candidate_sources": [],
+      "uncovered_poles": [
+        {
+          "scale_id": "russia-diplomatic-engagement",
+          "pole": "positive",
+          "status": "unknown"
+        },
+        {
+          "scale_id": "russia-diplomatic-engagement",
+          "pole": "negative",
+          "status": "unknown"
+        },
+        {
+          "scale_id": "russia-security-cooperation",
+          "pole": "positive",
+          "status": "unknown"
+        },
+        {
+          "scale_id": "russia-security-cooperation",
+          "pole": "negative",
+          "status": "unknown"
+        },
+        {
+          "scale_id": "russia-economic-technology-cooperation",
+          "pole": "positive",
+          "status": "unknown"
+        },
+        {
+          "scale_id": "russia-economic-technology-cooperation",
+          "pole": "negative",
+          "status": "unknown"
+        },
+        {
+          "scale_id": "russia-education-cultural-cooperation",
+          "pole": "positive",
+          "status": "unknown"
+        },
+        {
+          "scale_id": "russia-education-cultural-cooperation",
+          "pole": "negative",
+          "status": "unknown"
+        },
+        {
+          "scale_id": "russia-conflict-policy-evaluation",
+          "pole": "positive",
+          "status": "unknown"
+        },
+        {
+          "scale_id": "russia-conflict-policy-evaluation",
+          "pole": "negative",
+          "status": "unknown"
+        },
+        {
+          "scale_id": "russia-isolation-sanctions",
+          "pole": "positive",
+          "status": "unknown"
+        },
+        {
+          "scale_id": "russia-isolation-sanctions",
+          "pole": "negative",
+          "status": "unknown"
+        }
+      ]
+    },
+    {
+      "actor_id": "yusuf-murangwa",
+      "queries": [
+        "\"Yusuf Murangwa\" Russia"
+      ],
+      "checked_at": "2026-10-15",
+      "name": "Юсуф Мурангва",
+      "name_original": "Yusuf Murangwa",
+      "search_method": "Explicit actor-name query plus Russia/Russie/Russian/Ukraine; selected follow-ups and primary-page checks. Search scope is limited to indexed public web; not proof of universal absence.",
+      "result": "unknown_after_explicit_search",
+      "summary": "Прямых российских высказываний или действий не найдено.",
+      "fact_ids": [],
+      "candidate_sources": [],
+      "uncovered_poles": [
+        {
+          "scale_id": "russia-diplomatic-engagement",
+          "pole": "positive",
+          "status": "unknown"
+        },
+        {
+          "scale_id": "russia-diplomatic-engagement",
+          "pole": "negative",
+          "status": "unknown"
+        },
+        {
+          "scale_id": "russia-security-cooperation",
+          "pole": "positive",
+          "status": "unknown"
+        },
+        {
+          "scale_id": "russia-security-cooperation",
+          "pole": "negative",
+          "status": "unknown"
+        },
+        {
+          "scale_id": "russia-economic-technology-cooperation",
+          "pole": "positive",
+          "status": "unknown"
+        },
+        {
+          "scale_id": "russia-economic-technology-cooperation",
+          "pole": "negative",
+          "status": "unknown"
+        },
+        {
+          "scale_id": "russia-education-cultural-cooperation",
+          "pole": "positive",
+          "status": "unknown"
+        },
+        {
+          "scale_id": "russia-education-cultural-cooperation",
+          "pole": "negative",
+          "status": "unknown"
+        },
+        {
+          "scale_id": "russia-conflict-policy-evaluation",
+          "pole": "positive",
+          "status": "unknown"
+        },
+        {
+          "scale_id": "russia-conflict-policy-evaluation",
+          "pole": "negative",
+          "status": "unknown"
+        },
+        {
+          "scale_id": "russia-isolation-sanctions",
+          "pole": "positive",
+          "status": "unknown"
+        },
+        {
+          "scale_id": "russia-isolation-sanctions",
+          "pole": "negative",
+          "status": "unknown"
+        }
+      ]
+    },
+    {
+      "actor_id": "uzziel-ndagijimana",
+      "queries": [
+        "\"Uzziel Ndagijimana\" Russia"
+      ],
+      "checked_at": "2026-10-15",
+      "name": "Уззиэль Ндагиджимана",
+      "name_original": "Uzziel Ndagijimana",
+      "search_method": "Explicit actor-name query plus Russia/Russie/Russian/Ukraine; selected follow-ups and primary-page checks. Search scope is limited to indexed public web; not proof of universal absence.",
+      "result": "unknown_after_explicit_search",
+      "summary": "Встречается обсуждение экономических последствий войны. Признание внешнего шока не равно оценке правомерности действий России или предпочтению российского партнёра.",
+      "fact_ids": [],
+      "candidate_sources": [
+        {
+          "url": "https://www.kigalitoday.com/ubukungu/iterambere/article/ingengo-y-imari-y-umwaka-wa-2023-2024-yariyongereye-ugereranyije-n-iy-umwaka-wa-2022-2023",
+          "decision": "context_only",
+          "reason": "Macroeconomic impact of war is not a bilateral cooperation action or an explicit evaluation of Russian conduct."
+        }
+      ],
+      "uncovered_poles": [
+        {
+          "scale_id": "russia-diplomatic-engagement",
+          "pole": "positive",
+          "status": "unknown"
+        },
+        {
+          "scale_id": "russia-diplomatic-engagement",
+          "pole": "negative",
+          "status": "unknown"
+        },
+        {
+          "scale_id": "russia-security-cooperation",
+          "pole": "positive",
+          "status": "unknown"
+        },
+        {
+          "scale_id": "russia-security-cooperation",
+          "pole": "negative",
+          "status": "unknown"
+        },
+        {
+          "scale_id": "russia-economic-technology-cooperation",
+          "pole": "positive",
+          "status": "unknown"
+        },
+        {
+          "scale_id": "russia-economic-technology-cooperation",
+          "pole": "negative",
+          "status": "unknown"
+        },
+        {
+          "scale_id": "russia-education-cultural-cooperation",
+          "pole": "positive",
+          "status": "unknown"
+        },
+        {
+          "scale_id": "russia-education-cultural-cooperation",
+          "pole": "negative",
+          "status": "unknown"
+        },
+        {
+          "scale_id": "russia-conflict-policy-evaluation",
+          "pole": "positive",
+          "status": "unknown"
+        },
+        {
+          "scale_id": "russia-conflict-policy-evaluation",
+          "pole": "negative",
+          "status": "unknown"
+        },
+        {
+          "scale_id": "russia-isolation-sanctions",
+          "pole": "positive",
+          "status": "unknown"
+        },
+        {
+          "scale_id": "russia-isolation-sanctions",
+          "pole": "negative",
+          "status": "unknown"
+        }
+      ]
+    },
+    {
+      "actor_id": "paula-ingabire",
+      "queries": [
+        "\"Paula Ingabire\" Russia",
+        "\"Paula Ingabire\" \"Russia\" cooperation"
+      ],
+      "checked_at": "2026-10-15",
+      "name": "Паула Ингабире",
+      "name_original": "Paula Ingabire",
+      "search_method": "Explicit actor-name query plus Russia/Russie/Russian/Ukraine; selected follow-ups and primary-page checks. Search scope is limited to indexed public web; not proof of universal absence.",
+      "result": "unknown_after_explicit_search",
+      "summary": "Общая атомная/цифровая повестка и участие в многосторонних форумах без конкретного российского предложения не использованы.",
+      "fact_ids": [],
+      "candidate_sources": [],
+      "uncovered_poles": [
+        {
+          "scale_id": "russia-diplomatic-engagement",
+          "pole": "positive",
+          "status": "unknown"
+        },
+        {
+          "scale_id": "russia-diplomatic-engagement",
+          "pole": "negative",
+          "status": "unknown"
+        },
+        {
+          "scale_id": "russia-security-cooperation",
+          "pole": "positive",
+          "status": "unknown"
+        },
+        {
+          "scale_id": "russia-security-cooperation",
+          "pole": "negative",
+          "status": "unknown"
+        },
+        {
+          "scale_id": "russia-economic-technology-cooperation",
+          "pole": "positive",
+          "status": "unknown"
+        },
+        {
+          "scale_id": "russia-economic-technology-cooperation",
+          "pole": "negative",
+          "status": "unknown"
+        },
+        {
+          "scale_id": "russia-education-cultural-cooperation",
+          "pole": "positive",
+          "status": "unknown"
+        },
+        {
+          "scale_id": "russia-education-cultural-cooperation",
+          "pole": "negative",
+          "status": "unknown"
+        },
+        {
+          "scale_id": "russia-conflict-policy-evaluation",
+          "pole": "positive",
+          "status": "unknown"
+        },
+        {
+          "scale_id": "russia-conflict-policy-evaluation",
+          "pole": "negative",
+          "status": "unknown"
+        },
+        {
+          "scale_id": "russia-isolation-sanctions",
+          "pole": "positive",
+          "status": "unknown"
+        },
+        {
+          "scale_id": "russia-isolation-sanctions",
+          "pole": "negative",
+          "status": "unknown"
+        }
+      ]
+    },
+    {
+      "actor_id": "sabin-nsanzimana",
+      "queries": [
+        "\"Sabin Nsanzimana\" Russia"
+      ],
+      "checked_at": "2026-10-15",
+      "name": "Сабин Нсанзимана",
+      "name_original": "Sabin Nsanzimana",
+      "search_method": "Explicit actor-name query plus Russia/Russie/Russian/Ukraine; selected follow-ups and primary-page checks. Search scope is limited to indexed public web; not proof of universal absence.",
+      "result": "eligible_evidence_found",
+      "summary": "Подписанный меморандум о медицине и подготовке кадров; одно событие, две темы, не два независимых подтверждения.",
+      "fact_ids": [
+        "ru-independent-012"
+      ],
+      "candidate_sources": [],
+      "uncovered_poles": [
+        {
+          "scale_id": "russia-diplomatic-engagement",
+          "pole": "positive",
+          "status": "unknown"
+        },
+        {
+          "scale_id": "russia-diplomatic-engagement",
+          "pole": "negative",
+          "status": "unknown"
+        },
+        {
+          "scale_id": "russia-security-cooperation",
+          "pole": "positive",
+          "status": "unknown"
+        },
+        {
+          "scale_id": "russia-security-cooperation",
+          "pole": "negative",
+          "status": "unknown"
+        },
+        {
+          "scale_id": "russia-economic-technology-cooperation",
+          "pole": "negative",
+          "status": "unknown"
+        },
+        {
+          "scale_id": "russia-education-cultural-cooperation",
+          "pole": "negative",
+          "status": "unknown"
+        },
+        {
+          "scale_id": "russia-conflict-policy-evaluation",
+          "pole": "positive",
+          "status": "unknown"
+        },
+        {
+          "scale_id": "russia-conflict-policy-evaluation",
+          "pole": "negative",
+          "status": "unknown"
+        },
+        {
+          "scale_id": "russia-isolation-sanctions",
+          "pole": "positive",
+          "status": "unknown"
+        },
+        {
+          "scale_id": "russia-isolation-sanctions",
+          "pole": "negative",
+          "status": "unknown"
+        }
+      ]
+    },
+    {
+      "actor_id": "judith-uwizeye",
+      "queries": [
+        "\"Judith Uwizeye\" Russia"
+      ],
+      "checked_at": "2026-10-15",
+      "name": "Жюдит Увизейе",
+      "name_original": "Judith Uwizeye",
+      "search_method": "Explicit actor-name query plus Russia/Russie/Russian/Ukraine; selected follow-ups and primary-page checks. Search scope is limited to indexed public web; not proof of universal absence.",
+      "result": "unknown_after_explicit_search",
+      "summary": "Позиция кабинета не перенесена на каждого его члена; прямого российского эпизода не найдено.",
+      "fact_ids": [],
+      "candidate_sources": [],
+      "uncovered_poles": [
+        {
+          "scale_id": "russia-diplomatic-engagement",
+          "pole": "positive",
+          "status": "unknown"
+        },
+        {
+          "scale_id": "russia-diplomatic-engagement",
+          "pole": "negative",
+          "status": "unknown"
+        },
+        {
+          "scale_id": "russia-security-cooperation",
+          "pole": "positive",
+          "status": "unknown"
+        },
+        {
+          "scale_id": "russia-security-cooperation",
+          "pole": "negative",
+          "status": "unknown"
+        },
+        {
+          "scale_id": "russia-economic-technology-cooperation",
+          "pole": "positive",
+          "status": "unknown"
+        },
+        {
+          "scale_id": "russia-economic-technology-cooperation",
+          "pole": "negative",
+          "status": "unknown"
+        },
+        {
+          "scale_id": "russia-education-cultural-cooperation",
+          "pole": "positive",
+          "status": "unknown"
+        },
+        {
+          "scale_id": "russia-education-cultural-cooperation",
+          "pole": "negative",
+          "status": "unknown"
+        },
+        {
+          "scale_id": "russia-conflict-policy-evaluation",
+          "pole": "positive",
+          "status": "unknown"
+        },
+        {
+          "scale_id": "russia-conflict-policy-evaluation",
+          "pole": "negative",
+          "status": "unknown"
+        },
+        {
+          "scale_id": "russia-isolation-sanctions",
+          "pole": "positive",
+          "status": "unknown"
+        },
+        {
+          "scale_id": "russia-isolation-sanctions",
+          "pole": "negative",
+          "status": "unknown"
+        }
+      ]
+    },
+    {
+      "actor_id": "ines-mpambara",
+      "queries": [
+        "\"Ines Mpambara\" Russia"
+      ],
+      "checked_at": "2026-10-15",
+      "name": "Инес Мпамбара",
+      "name_original": "Inès Mpambara",
+      "search_method": "Explicit actor-name query plus Russia/Russie/Russian/Ukraine; selected follow-ups and primary-page checks. Search scope is limited to indexed public web; not proof of universal absence.",
+      "result": "unknown_after_explicit_search",
+      "summary": "Аналогии внешних авторов с российской политикой и биографические сведения не являются её российской позицией.",
+      "fact_ids": [],
+      "candidate_sources": [],
+      "uncovered_poles": [
+        {
+          "scale_id": "russia-diplomatic-engagement",
+          "pole": "positive",
+          "status": "unknown"
+        },
+        {
+          "scale_id": "russia-diplomatic-engagement",
+          "pole": "negative",
+          "status": "unknown"
+        },
+        {
+          "scale_id": "russia-security-cooperation",
+          "pole": "positive",
+          "status": "unknown"
+        },
+        {
+          "scale_id": "russia-security-cooperation",
+          "pole": "negative",
+          "status": "unknown"
+        },
+        {
+          "scale_id": "russia-economic-technology-cooperation",
+          "pole": "positive",
+          "status": "unknown"
+        },
+        {
+          "scale_id": "russia-economic-technology-cooperation",
+          "pole": "negative",
+          "status": "unknown"
+        },
+        {
+          "scale_id": "russia-education-cultural-cooperation",
+          "pole": "positive",
+          "status": "unknown"
+        },
+        {
+          "scale_id": "russia-education-cultural-cooperation",
+          "pole": "negative",
+          "status": "unknown"
+        },
+        {
+          "scale_id": "russia-conflict-policy-evaluation",
+          "pole": "positive",
+          "status": "unknown"
+        },
+        {
+          "scale_id": "russia-conflict-policy-evaluation",
+          "pole": "negative",
+          "status": "unknown"
+        },
+        {
+          "scale_id": "russia-isolation-sanctions",
+          "pole": "positive",
+          "status": "unknown"
+        },
+        {
+          "scale_id": "russia-isolation-sanctions",
+          "pole": "negative",
+          "status": "unknown"
+        }
+      ]
+    },
+    {
+      "actor_id": "valentine-uwamariya",
+      "queries": [
+        "\"Valentine Uwamariya\" Russia",
+        "\"Uwamariya\" Russia 2022 2023 education"
+      ],
+      "checked_at": "2026-10-15",
+      "name": "Валентин Увамария",
+      "name_original": "Valentine Uwamariya",
+      "search_method": "Explicit actor-name query plus Russia/Russie/Russian/Ukraine; selected follow-ups and primary-page checks. Search scope is limited to indexed public web; not proof of universal absence.",
+      "result": "unknown_after_explicit_search",
+      "summary": "Найдены образовательные мероприятия с другими странами; должность министра образования не присваивает российские обмены.",
+      "fact_ids": [],
+      "candidate_sources": [],
+      "uncovered_poles": [
+        {
+          "scale_id": "russia-diplomatic-engagement",
+          "pole": "positive",
+          "status": "unknown"
+        },
+        {
+          "scale_id": "russia-diplomatic-engagement",
+          "pole": "negative",
+          "status": "unknown"
+        },
+        {
+          "scale_id": "russia-security-cooperation",
+          "pole": "positive",
+          "status": "unknown"
+        },
+        {
+          "scale_id": "russia-security-cooperation",
+          "pole": "negative",
+          "status": "unknown"
+        },
+        {
+          "scale_id": "russia-economic-technology-cooperation",
+          "pole": "positive",
+          "status": "unknown"
+        },
+        {
+          "scale_id": "russia-economic-technology-cooperation",
+          "pole": "negative",
+          "status": "unknown"
+        },
+        {
+          "scale_id": "russia-education-cultural-cooperation",
+          "pole": "positive",
+          "status": "unknown"
+        },
+        {
+          "scale_id": "russia-education-cultural-cooperation",
+          "pole": "negative",
+          "status": "unknown"
+        },
+        {
+          "scale_id": "russia-conflict-policy-evaluation",
+          "pole": "positive",
+          "status": "unknown"
+        },
+        {
+          "scale_id": "russia-conflict-policy-evaluation",
+          "pole": "negative",
+          "status": "unknown"
+        },
+        {
+          "scale_id": "russia-isolation-sanctions",
+          "pole": "positive",
+          "status": "unknown"
+        },
+        {
+          "scale_id": "russia-isolation-sanctions",
+          "pole": "negative",
+          "status": "unknown"
+        }
+      ]
+    },
+    {
+      "actor_id": "jeanne-darc-mujawamariya",
+      "queries": [
+        "\"Jeanne d’Arc Mujawamariya\" Russia",
+        "\"Mujawamariya\" \"Russia\" \"2022\" \"2023\""
+      ],
+      "checked_at": "2026-10-15",
+      "name": "Жанна д’Арк Муджавамария",
+      "name_original": "Jeanne d'Arc Mujawamariya",
+      "search_method": "Explicit actor-name query plus Russia/Russie/Russian/Ukraine; selected follow-ups and primary-page checks. Search scope is limited to indexed public web; not proof of universal absence.",
+      "result": "unknown_after_explicit_search",
+      "summary": "Русский язык, обучение в России и бывшая посольская служба — биография до/вне окна, не текущая политическая позиция.",
+      "fact_ids": [],
+      "candidate_sources": [],
+      "uncovered_poles": [
+        {
+          "scale_id": "russia-diplomatic-engagement",
+          "pole": "positive",
+          "status": "unknown"
+        },
+        {
+          "scale_id": "russia-diplomatic-engagement",
+          "pole": "negative",
+          "status": "unknown"
+        },
+        {
+          "scale_id": "russia-security-cooperation",
+          "pole": "positive",
+          "status": "unknown"
+        },
+        {
+          "scale_id": "russia-security-cooperation",
+          "pole": "negative",
+          "status": "unknown"
+        },
+        {
+          "scale_id": "russia-economic-technology-cooperation",
+          "pole": "positive",
+          "status": "unknown"
+        },
+        {
+          "scale_id": "russia-economic-technology-cooperation",
+          "pole": "negative",
+          "status": "unknown"
+        },
+        {
+          "scale_id": "russia-education-cultural-cooperation",
+          "pole": "positive",
+          "status": "unknown"
+        },
+        {
+          "scale_id": "russia-education-cultural-cooperation",
+          "pole": "negative",
+          "status": "unknown"
+        },
+        {
+          "scale_id": "russia-conflict-policy-evaluation",
+          "pole": "positive",
+          "status": "unknown"
+        },
+        {
+          "scale_id": "russia-conflict-policy-evaluation",
+          "pole": "negative",
+          "status": "unknown"
+        },
+        {
+          "scale_id": "russia-isolation-sanctions",
+          "pole": "positive",
+          "status": "unknown"
+        },
+        {
+          "scale_id": "russia-isolation-sanctions",
+          "pole": "negative",
+          "status": "unknown"
+        }
+      ]
+    },
+    {
+      "actor_id": "gerardine-mukeshimana",
+      "queries": [
+        "\"Gerardine Mukeshimana\" Russia"
+      ],
+      "checked_at": "2026-10-15",
+      "name": "Жерардин Мукешимана",
+      "name_original": "Gérardine Mukeshimana",
+      "search_method": "Explicit actor-name query plus Russia/Russie/Russian/Ukraine; selected follow-ups and primary-page checks. Search scope is limited to indexed public web; not proof of universal absence.",
+      "result": "unknown_after_explicit_search",
+      "summary": "Прямых российских высказываний или действий не найдено.",
+      "fact_ids": [],
+      "candidate_sources": [],
+      "uncovered_poles": [
+        {
+          "scale_id": "russia-diplomatic-engagement",
+          "pole": "positive",
+          "status": "unknown"
+        },
+        {
+          "scale_id": "russia-diplomatic-engagement",
+          "pole": "negative",
+          "status": "unknown"
+        },
+        {
+          "scale_id": "russia-security-cooperation",
+          "pole": "positive",
+          "status": "unknown"
+        },
+        {
+          "scale_id": "russia-security-cooperation",
+          "pole": "negative",
+          "status": "unknown"
+        },
+        {
+          "scale_id": "russia-economic-technology-cooperation",
+          "pole": "positive",
+          "status": "unknown"
+        },
+        {
+          "scale_id": "russia-economic-technology-cooperation",
+          "pole": "negative",
+          "status": "unknown"
+        },
+        {
+          "scale_id": "russia-education-cultural-cooperation",
+          "pole": "positive",
+          "status": "unknown"
+        },
+        {
+          "scale_id": "russia-education-cultural-cooperation",
+          "pole": "negative",
+          "status": "unknown"
+        },
+        {
+          "scale_id": "russia-conflict-policy-evaluation",
+          "pole": "positive",
+          "status": "unknown"
+        },
+        {
+          "scale_id": "russia-conflict-policy-evaluation",
+          "pole": "negative",
+          "status": "unknown"
+        },
+        {
+          "scale_id": "russia-isolation-sanctions",
+          "pole": "positive",
+          "status": "unknown"
+        },
+        {
+          "scale_id": "russia-isolation-sanctions",
+          "pole": "negative",
+          "status": "unknown"
+        }
+      ]
+    },
+    {
+      "actor_id": "ildephonse-musafiri",
+      "queries": [
+        "\"Ildephonse Musafiri\" Russia"
+      ],
+      "checked_at": "2026-10-15",
+      "name": "Ильдефонс Мусафири",
+      "name_original": "Ildephonse Musafiri",
+      "search_method": "Explicit actor-name query plus Russia/Russie/Russian/Ukraine; selected follow-ups and primary-page checks. Search scope is limited to indexed public web; not proof of universal absence.",
+      "result": "unknown_after_explicit_search",
+      "summary": "Исключены однофамильцы/тёзки, в том числе более молодой человек в судебных материалах; оснований по министру не найдено.",
+      "fact_ids": [],
+      "candidate_sources": [],
+      "uncovered_poles": [
+        {
+          "scale_id": "russia-diplomatic-engagement",
+          "pole": "positive",
+          "status": "unknown"
+        },
+        {
+          "scale_id": "russia-diplomatic-engagement",
+          "pole": "negative",
+          "status": "unknown"
+        },
+        {
+          "scale_id": "russia-security-cooperation",
+          "pole": "positive",
+          "status": "unknown"
+        },
+        {
+          "scale_id": "russia-security-cooperation",
+          "pole": "negative",
+          "status": "unknown"
+        },
+        {
+          "scale_id": "russia-economic-technology-cooperation",
+          "pole": "positive",
+          "status": "unknown"
+        },
+        {
+          "scale_id": "russia-economic-technology-cooperation",
+          "pole": "negative",
+          "status": "unknown"
+        },
+        {
+          "scale_id": "russia-education-cultural-cooperation",
+          "pole": "positive",
+          "status": "unknown"
+        },
+        {
+          "scale_id": "russia-education-cultural-cooperation",
+          "pole": "negative",
+          "status": "unknown"
+        },
+        {
+          "scale_id": "russia-conflict-policy-evaluation",
+          "pole": "positive",
+          "status": "unknown"
+        },
+        {
+          "scale_id": "russia-conflict-policy-evaluation",
+          "pole": "negative",
+          "status": "unknown"
+        },
+        {
+          "scale_id": "russia-isolation-sanctions",
+          "pole": "positive",
+          "status": "unknown"
+        },
+        {
+          "scale_id": "russia-isolation-sanctions",
+          "pole": "negative",
+          "status": "unknown"
+        }
+      ]
+    },
+    {
+      "actor_id": "jean-claude-musabyimana",
+      "queries": [
+        "\"Jean Claude Musabyimana\" Russia"
+      ],
+      "checked_at": "2026-10-15",
+      "name": "Жан-Клод Мусабийимана",
+      "name_original": "Jean Claude Musabyimana",
+      "search_method": "Explicit actor-name query plus Russia/Russie/Russian/Ukraine; selected follow-ups and primary-page checks. Search scope is limited to indexed public web; not proof of universal absence.",
+      "result": "unknown_after_explicit_search",
+      "summary": "Коммерческие записи и тёзки не используются как действия политика; прямого основания не найдено.",
+      "fact_ids": [],
+      "candidate_sources": [],
+      "uncovered_poles": [
+        {
+          "scale_id": "russia-diplomatic-engagement",
+          "pole": "positive",
+          "status": "unknown"
+        },
+        {
+          "scale_id": "russia-diplomatic-engagement",
+          "pole": "negative",
+          "status": "unknown"
+        },
+        {
+          "scale_id": "russia-security-cooperation",
+          "pole": "positive",
+          "status": "unknown"
+        },
+        {
+          "scale_id": "russia-security-cooperation",
+          "pole": "negative",
+          "status": "unknown"
+        },
+        {
+          "scale_id": "russia-economic-technology-cooperation",
+          "pole": "positive",
+          "status": "unknown"
+        },
+        {
+          "scale_id": "russia-economic-technology-cooperation",
+          "pole": "negative",
+          "status": "unknown"
+        },
+        {
+          "scale_id": "russia-education-cultural-cooperation",
+          "pole": "positive",
+          "status": "unknown"
+        },
+        {
+          "scale_id": "russia-education-cultural-cooperation",
+          "pole": "negative",
+          "status": "unknown"
+        },
+        {
+          "scale_id": "russia-conflict-policy-evaluation",
+          "pole": "positive",
+          "status": "unknown"
+        },
+        {
+          "scale_id": "russia-conflict-policy-evaluation",
+          "pole": "negative",
+          "status": "unknown"
+        },
+        {
+          "scale_id": "russia-isolation-sanctions",
+          "pole": "positive",
+          "status": "unknown"
+        },
+        {
+          "scale_id": "russia-isolation-sanctions",
+          "pole": "negative",
+          "status": "unknown"
+        }
+      ]
+    },
+    {
+      "actor_id": "jean-damascene-bizimana",
+      "queries": [
+        "\"Jean Damascene Bizimana\" Russia"
+      ],
+      "checked_at": "2026-10-15",
+      "name": "Жан-Дамасен Бизимана",
+      "name_original": "Jean-Damascène Bizimana",
+      "search_method": "Explicit actor-name query plus Russia/Russie/Russian/Ukraine; selected follow-ups and primary-page checks. Search scope is limited to indexed public web; not proof of universal absence.",
+      "result": "unknown_after_explicit_search",
+      "summary": "Исключён одноимённый бывший посол в ООН 1994 года; это не утверждённый объект — министр национального единства.",
+      "fact_ids": [],
+      "candidate_sources": [],
+      "uncovered_poles": [
+        {
+          "scale_id": "russia-diplomatic-engagement",
+          "pole": "positive",
+          "status": "unknown"
+        },
+        {
+          "scale_id": "russia-diplomatic-engagement",
+          "pole": "negative",
+          "status": "unknown"
+        },
+        {
+          "scale_id": "russia-security-cooperation",
+          "pole": "positive",
+          "status": "unknown"
+        },
+        {
+          "scale_id": "russia-security-cooperation",
+          "pole": "negative",
+          "status": "unknown"
+        },
+        {
+          "scale_id": "russia-economic-technology-cooperation",
+          "pole": "positive",
+          "status": "unknown"
+        },
+        {
+          "scale_id": "russia-economic-technology-cooperation",
+          "pole": "negative",
+          "status": "unknown"
+        },
+        {
+          "scale_id": "russia-education-cultural-cooperation",
+          "pole": "positive",
+          "status": "unknown"
+        },
+        {
+          "scale_id": "russia-education-cultural-cooperation",
+          "pole": "negative",
+          "status": "unknown"
+        },
+        {
+          "scale_id": "russia-conflict-policy-evaluation",
+          "pole": "positive",
+          "status": "unknown"
+        },
+        {
+          "scale_id": "russia-conflict-policy-evaluation",
+          "pole": "negative",
+          "status": "unknown"
+        },
+        {
+          "scale_id": "russia-isolation-sanctions",
+          "pole": "positive",
+          "status": "unknown"
+        },
+        {
+          "scale_id": "russia-isolation-sanctions",
+          "pole": "negative",
+          "status": "unknown"
+        }
+      ]
+    },
+    {
+      "actor_id": "clare-akamanzi",
+      "queries": [
+        "\"Clare Akamanzi\" Russia",
+        "\"Akamanzi\" \"Russia\" cooperation 2021 2022 2023"
+      ],
+      "checked_at": "2026-10-15",
+      "name": "Клэр Акаманзи",
+      "name_original": "Clare Akamanzi",
+      "search_method": "Explicit actor-name query plus Russia/Russie/Russian/Ukraine; selected follow-ups and primary-page checks. Search scope is limited to indexed public web; not proof of universal absence.",
+      "result": "unknown_after_explicit_search",
+      "summary": "Панель о новых партнёрах Африки упоминает Россию в редакционном описании; не найдена её собственная российская позиция.",
+      "fact_ids": [],
+      "candidate_sources": [
+        {
+          "url": "https://milkeninstitute.org/content-hub/event-panels/africa-drivers-seat-new-rush-africa-invite-only",
+          "decision": "context_only",
+          "reason": "Panel description names Russia; no Akamanzi transcript or specific bilateral commitment."
+        }
+      ],
+      "uncovered_poles": [
+        {
+          "scale_id": "russia-diplomatic-engagement",
+          "pole": "positive",
+          "status": "unknown"
+        },
+        {
+          "scale_id": "russia-diplomatic-engagement",
+          "pole": "negative",
+          "status": "unknown"
+        },
+        {
+          "scale_id": "russia-security-cooperation",
+          "pole": "positive",
+          "status": "unknown"
+        },
+        {
+          "scale_id": "russia-security-cooperation",
+          "pole": "negative",
+          "status": "unknown"
+        },
+        {
+          "scale_id": "russia-economic-technology-cooperation",
+          "pole": "positive",
+          "status": "unknown"
+        },
+        {
+          "scale_id": "russia-economic-technology-cooperation",
+          "pole": "negative",
+          "status": "unknown"
+        },
+        {
+          "scale_id": "russia-education-cultural-cooperation",
+          "pole": "positive",
+          "status": "unknown"
+        },
+        {
+          "scale_id": "russia-education-cultural-cooperation",
+          "pole": "negative",
+          "status": "unknown"
+        },
+        {
+          "scale_id": "russia-conflict-policy-evaluation",
+          "pole": "positive",
+          "status": "unknown"
+        },
+        {
+          "scale_id": "russia-conflict-policy-evaluation",
+          "pole": "negative",
+          "status": "unknown"
+        },
+        {
+          "scale_id": "russia-isolation-sanctions",
+          "pole": "positive",
+          "status": "unknown"
+        },
+        {
+          "scale_id": "russia-isolation-sanctions",
+          "pole": "negative",
+          "status": "unknown"
+        }
+      ]
+    },
+    {
+      "actor_id": "francis-gatare",
+      "queries": [
+        "\"Francis Gatare\" Russia",
+        "\"Gatare\" \"Russia\" cooperation 2023 2024 2025"
+      ],
+      "checked_at": "2026-10-15",
+      "name": "Франсис Гатаре",
+      "name_original": "Francis Gatare",
+      "search_method": "Explicit actor-name query plus Russia/Russie/Russian/Ukraine; selected follow-ups and primary-page checks. Search scope is limited to indexed public web; not proof of universal absence.",
+      "result": "unknown_after_explicit_search",
+      "summary": "Прямое соглашение RosGeo обнаружено, но событие относится к 23.10.2019 и вне окна; не переносить в актуальную оценку.",
+      "fact_ids": [],
+      "candidate_sources": [
+        {
+          "url": "https://rusgeology.ru/en/press/news/rosgeologiya-planiruet-realizovat-ryad-proektov-v-ruande/",
+          "decision": "excluded",
+          "reason": "2019 Russia–Africa Forum agreement, corroborated by contemporary 2019 reporting; page crawl is not event date."
+        }
+      ],
+      "uncovered_poles": [
+        {
+          "scale_id": "russia-diplomatic-engagement",
+          "pole": "positive",
+          "status": "unknown"
+        },
+        {
+          "scale_id": "russia-diplomatic-engagement",
+          "pole": "negative",
+          "status": "unknown"
+        },
+        {
+          "scale_id": "russia-security-cooperation",
+          "pole": "positive",
+          "status": "unknown"
+        },
+        {
+          "scale_id": "russia-security-cooperation",
+          "pole": "negative",
+          "status": "unknown"
+        },
+        {
+          "scale_id": "russia-economic-technology-cooperation",
+          "pole": "positive",
+          "status": "unknown"
+        },
+        {
+          "scale_id": "russia-economic-technology-cooperation",
+          "pole": "negative",
+          "status": "unknown"
+        },
+        {
+          "scale_id": "russia-education-cultural-cooperation",
+          "pole": "positive",
+          "status": "unknown"
+        },
+        {
+          "scale_id": "russia-education-cultural-cooperation",
+          "pole": "negative",
+          "status": "unknown"
+        },
+        {
+          "scale_id": "russia-conflict-policy-evaluation",
+          "pole": "positive",
+          "status": "unknown"
+        },
+        {
+          "scale_id": "russia-conflict-policy-evaluation",
+          "pole": "negative",
+          "status": "unknown"
+        },
+        {
+          "scale_id": "russia-isolation-sanctions",
+          "pole": "positive",
+          "status": "unknown"
+        },
+        {
+          "scale_id": "russia-isolation-sanctions",
+          "pole": "negative",
+          "status": "unknown"
+        }
+      ]
+    },
+    {
+      "actor_id": "gertrude-kazarwa",
+      "queries": [
+        "\"Gertrude Kazarwa\" Russia",
+        "\"Kazarwa\" Russia ambassador Polyakov"
+      ],
+      "checked_at": "2026-10-15",
+      "name": "Гертруда Казарва",
+      "name_original": "Gertrude Kazarwa",
+      "search_method": "Explicit actor-name query plus Russia/Russie/Russian/Ukraine; selected follow-ups and primary-page checks. Search scope is limited to indexed public web; not proof of universal absence.",
+      "result": "unknown_after_explicit_search",
+      "summary": "Прямых российских высказываний или действий не найдено.",
+      "fact_ids": [],
+      "candidate_sources": [],
+      "uncovered_poles": [
+        {
+          "scale_id": "russia-diplomatic-engagement",
+          "pole": "positive",
+          "status": "unknown"
+        },
+        {
+          "scale_id": "russia-diplomatic-engagement",
+          "pole": "negative",
+          "status": "unknown"
+        },
+        {
+          "scale_id": "russia-security-cooperation",
+          "pole": "positive",
+          "status": "unknown"
+        },
+        {
+          "scale_id": "russia-security-cooperation",
+          "pole": "negative",
+          "status": "unknown"
+        },
+        {
+          "scale_id": "russia-economic-technology-cooperation",
+          "pole": "positive",
+          "status": "unknown"
+        },
+        {
+          "scale_id": "russia-economic-technology-cooperation",
+          "pole": "negative",
+          "status": "unknown"
+        },
+        {
+          "scale_id": "russia-education-cultural-cooperation",
+          "pole": "positive",
+          "status": "unknown"
+        },
+        {
+          "scale_id": "russia-education-cultural-cooperation",
+          "pole": "negative",
+          "status": "unknown"
+        },
+        {
+          "scale_id": "russia-conflict-policy-evaluation",
+          "pole": "positive",
+          "status": "unknown"
+        },
+        {
+          "scale_id": "russia-conflict-policy-evaluation",
+          "pole": "negative",
+          "status": "unknown"
+        },
+        {
+          "scale_id": "russia-isolation-sanctions",
+          "pole": "positive",
+          "status": "unknown"
+        },
+        {
+          "scale_id": "russia-isolation-sanctions",
+          "pole": "negative",
+          "status": "unknown"
+        }
+      ]
+    },
+    {
+      "actor_id": "donatille-mukabalisa",
+      "queries": [
+        "\"Donatille Mukabalisa\" Russia",
+        "\"Mukabalisa\" Russian ambassador 2022 2023 2024"
+      ],
+      "checked_at": "2026-10-15",
+      "name": "Донатиль Мукабалиса",
+      "name_original": "Donatille Mukabalisa",
+      "search_method": "Explicit actor-name query plus Russia/Russie/Russian/Ukraine; selected follow-ups and primary-page checks. Search scope is limited to indexed public web; not proof of universal absence.",
+      "result": "unknown_after_explicit_search",
+      "summary": "Повестка межпарламентской конференции об Украине не заменяет её собственного суждения; старые визиты вне окна исключены.",
+      "fact_ids": [],
+      "candidate_sources": [
+        {
+          "url": "https://www.newtimes.co.rw/article/201021/News/la-francophonie-mps-to-discuss-alasting-peacea-at-kigali-meet/amp",
+          "decision": "context_only",
+          "reason": "Conference agenda about Ukraine is not her direct evaluation of Russia."
+        }
+      ],
+      "uncovered_poles": [
+        {
+          "scale_id": "russia-diplomatic-engagement",
+          "pole": "positive",
+          "status": "unknown"
+        },
+        {
+          "scale_id": "russia-diplomatic-engagement",
+          "pole": "negative",
+          "status": "unknown"
+        },
+        {
+          "scale_id": "russia-security-cooperation",
+          "pole": "positive",
+          "status": "unknown"
+        },
+        {
+          "scale_id": "russia-security-cooperation",
+          "pole": "negative",
+          "status": "unknown"
+        },
+        {
+          "scale_id": "russia-economic-technology-cooperation",
+          "pole": "positive",
+          "status": "unknown"
+        },
+        {
+          "scale_id": "russia-economic-technology-cooperation",
+          "pole": "negative",
+          "status": "unknown"
+        },
+        {
+          "scale_id": "russia-education-cultural-cooperation",
+          "pole": "positive",
+          "status": "unknown"
+        },
+        {
+          "scale_id": "russia-education-cultural-cooperation",
+          "pole": "negative",
+          "status": "unknown"
+        },
+        {
+          "scale_id": "russia-conflict-policy-evaluation",
+          "pole": "positive",
+          "status": "unknown"
+        },
+        {
+          "scale_id": "russia-conflict-policy-evaluation",
+          "pole": "negative",
+          "status": "unknown"
+        },
+        {
+          "scale_id": "russia-isolation-sanctions",
+          "pole": "positive",
+          "status": "unknown"
+        },
+        {
+          "scale_id": "russia-isolation-sanctions",
+          "pole": "negative",
+          "status": "unknown"
+        }
+      ]
+    },
+    {
+      "actor_id": "francois-xavier-kalinda",
+      "queries": [
+        "\"Francois Xavier Kalinda\" Russia",
+        "\"Kalinda\" Russia ambassador parliament"
+      ],
+      "checked_at": "2026-10-15",
+      "name": "Франсуа-Ксавье Калинда",
+      "name_original": "François-Xavier Kalinda",
+      "search_method": "Explicit actor-name query plus Russia/Russie/Russian/Ukraine; selected follow-ups and primary-page checks. Search scope is limited to indexed public web; not proof of universal absence.",
+      "result": "unknown_after_explicit_search",
+      "summary": "Прямых российских высказываний или действий не найдено.",
+      "fact_ids": [],
+      "candidate_sources": [],
+      "uncovered_poles": [
+        {
+          "scale_id": "russia-diplomatic-engagement",
+          "pole": "positive",
+          "status": "unknown"
+        },
+        {
+          "scale_id": "russia-diplomatic-engagement",
+          "pole": "negative",
+          "status": "unknown"
+        },
+        {
+          "scale_id": "russia-security-cooperation",
+          "pole": "positive",
+          "status": "unknown"
+        },
+        {
+          "scale_id": "russia-security-cooperation",
+          "pole": "negative",
+          "status": "unknown"
+        },
+        {
+          "scale_id": "russia-economic-technology-cooperation",
+          "pole": "positive",
+          "status": "unknown"
+        },
+        {
+          "scale_id": "russia-economic-technology-cooperation",
+          "pole": "negative",
+          "status": "unknown"
+        },
+        {
+          "scale_id": "russia-education-cultural-cooperation",
+          "pole": "positive",
+          "status": "unknown"
+        },
+        {
+          "scale_id": "russia-education-cultural-cooperation",
+          "pole": "negative",
+          "status": "unknown"
+        },
+        {
+          "scale_id": "russia-conflict-policy-evaluation",
+          "pole": "positive",
+          "status": "unknown"
+        },
+        {
+          "scale_id": "russia-conflict-policy-evaluation",
+          "pole": "negative",
+          "status": "unknown"
+        },
+        {
+          "scale_id": "russia-isolation-sanctions",
+          "pole": "positive",
+          "status": "unknown"
+        },
+        {
+          "scale_id": "russia-isolation-sanctions",
+          "pole": "negative",
+          "status": "unknown"
+        }
+      ]
+    },
+    {
+      "actor_id": "augustin-iyamuremye",
+      "queries": [
+        "\"Augustin Iyamuremye\" Russia"
+      ],
+      "checked_at": "2026-10-15",
+      "name": "Огюстен Иямуремье",
+      "name_original": "Augustin Iyamuremye",
+      "search_method": "Explicit actor-name query plus Russia/Russie/Russian/Ukraine; selected follow-ups and primary-page checks. Search scope is limited to indexed public web; not proof of universal absence.",
+      "result": "unknown_after_explicit_search",
+      "summary": "Парламентские упоминания российских дипломатических назначений 2019 года вне окна; прямого актуального основания не найдено.",
+      "fact_ids": [],
+      "candidate_sources": [],
+      "uncovered_poles": [
+        {
+          "scale_id": "russia-diplomatic-engagement",
+          "pole": "positive",
+          "status": "unknown"
+        },
+        {
+          "scale_id": "russia-diplomatic-engagement",
+          "pole": "negative",
+          "status": "unknown"
+        },
+        {
+          "scale_id": "russia-security-cooperation",
+          "pole": "positive",
+          "status": "unknown"
+        },
+        {
+          "scale_id": "russia-security-cooperation",
+          "pole": "negative",
+          "status": "unknown"
+        },
+        {
+          "scale_id": "russia-economic-technology-cooperation",
+          "pole": "positive",
+          "status": "unknown"
+        },
+        {
+          "scale_id": "russia-economic-technology-cooperation",
+          "pole": "negative",
+          "status": "unknown"
+        },
+        {
+          "scale_id": "russia-education-cultural-cooperation",
+          "pole": "positive",
+          "status": "unknown"
+        },
+        {
+          "scale_id": "russia-education-cultural-cooperation",
+          "pole": "negative",
+          "status": "unknown"
+        },
+        {
+          "scale_id": "russia-conflict-policy-evaluation",
+          "pole": "positive",
+          "status": "unknown"
+        },
+        {
+          "scale_id": "russia-conflict-policy-evaluation",
+          "pole": "negative",
+          "status": "unknown"
+        },
+        {
+          "scale_id": "russia-isolation-sanctions",
+          "pole": "positive",
+          "status": "unknown"
+        },
+        {
+          "scale_id": "russia-isolation-sanctions",
+          "pole": "negative",
+          "status": "unknown"
+        }
+      ]
+    },
+    {
+      "actor_id": "alvera-mukabaramba",
+      "queries": [
+        "\"Alvera Mukabaramba\" Russia"
+      ],
+      "checked_at": "2026-10-15",
+      "name": "Альвера Мукабарамба",
+      "name_original": "Alvera Mukabaramba",
+      "search_method": "Explicit actor-name query plus Russia/Russie/Russian/Ukraine; selected follow-ups and primary-page checks. Search scope is limited to indexed public web; not proof of universal absence.",
+      "result": "unknown_after_explicit_search",
+      "summary": "Обучение в СССР/России не является действием или позицией 2021–2026 годов.",
+      "fact_ids": [],
+      "candidate_sources": [],
+      "uncovered_poles": [
+        {
+          "scale_id": "russia-diplomatic-engagement",
+          "pole": "positive",
+          "status": "unknown"
+        },
+        {
+          "scale_id": "russia-diplomatic-engagement",
+          "pole": "negative",
+          "status": "unknown"
+        },
+        {
+          "scale_id": "russia-security-cooperation",
+          "pole": "positive",
+          "status": "unknown"
+        },
+        {
+          "scale_id": "russia-security-cooperation",
+          "pole": "negative",
+          "status": "unknown"
+        },
+        {
+          "scale_id": "russia-economic-technology-cooperation",
+          "pole": "positive",
+          "status": "unknown"
+        },
+        {
+          "scale_id": "russia-economic-technology-cooperation",
+          "pole": "negative",
+          "status": "unknown"
+        },
+        {
+          "scale_id": "russia-education-cultural-cooperation",
+          "pole": "positive",
+          "status": "unknown"
+        },
+        {
+          "scale_id": "russia-education-cultural-cooperation",
+          "pole": "negative",
+          "status": "unknown"
+        },
+        {
+          "scale_id": "russia-conflict-policy-evaluation",
+          "pole": "positive",
+          "status": "unknown"
+        },
+        {
+          "scale_id": "russia-conflict-policy-evaluation",
+          "pole": "negative",
+          "status": "unknown"
+        },
+        {
+          "scale_id": "russia-isolation-sanctions",
+          "pole": "positive",
+          "status": "unknown"
+        },
+        {
+          "scale_id": "russia-isolation-sanctions",
+          "pole": "negative",
+          "status": "unknown"
+        }
+      ]
+    },
+    {
+      "actor_id": "mussa-fazil-harerimana",
+      "queries": [
+        "\"Mussa Fazil Harerimana\" Russia"
+      ],
+      "checked_at": "2026-10-15",
+      "name": "Мусса Фазиль Хареримана",
+      "name_original": "Mussa Fazil Harerimana",
+      "search_method": "Explicit actor-name query plus Russia/Russie/Russian/Ukraine; selected follow-ups and primary-page checks. Search scope is limited to indexed public web; not proof of universal absence.",
+      "result": "unknown_after_explicit_search",
+      "summary": "Прямых российских высказываний или действий не найдено.",
+      "fact_ids": [],
+      "candidate_sources": [],
+      "uncovered_poles": [
+        {
+          "scale_id": "russia-diplomatic-engagement",
+          "pole": "positive",
+          "status": "unknown"
+        },
+        {
+          "scale_id": "russia-diplomatic-engagement",
+          "pole": "negative",
+          "status": "unknown"
+        },
+        {
+          "scale_id": "russia-security-cooperation",
+          "pole": "positive",
+          "status": "unknown"
+        },
+        {
+          "scale_id": "russia-security-cooperation",
+          "pole": "negative",
+          "status": "unknown"
+        },
+        {
+          "scale_id": "russia-economic-technology-cooperation",
+          "pole": "positive",
+          "status": "unknown"
+        },
+        {
+          "scale_id": "russia-economic-technology-cooperation",
+          "pole": "negative",
+          "status": "unknown"
+        },
+        {
+          "scale_id": "russia-education-cultural-cooperation",
+          "pole": "positive",
+          "status": "unknown"
+        },
+        {
+          "scale_id": "russia-education-cultural-cooperation",
+          "pole": "negative",
+          "status": "unknown"
+        },
+        {
+          "scale_id": "russia-conflict-policy-evaluation",
+          "pole": "positive",
+          "status": "unknown"
+        },
+        {
+          "scale_id": "russia-conflict-policy-evaluation",
+          "pole": "negative",
+          "status": "unknown"
+        },
+        {
+          "scale_id": "russia-isolation-sanctions",
+          "pole": "positive",
+          "status": "unknown"
+        },
+        {
+          "scale_id": "russia-isolation-sanctions",
+          "pole": "negative",
+          "status": "unknown"
+        }
+      ]
+    },
+    {
+      "actor_id": "pudence-rubingisa",
+      "queries": [
+        "\"Pudence Rubingisa\" Russia"
+      ],
+      "checked_at": "2026-10-15",
+      "name": "Пуденс Рубингиса",
+      "name_original": "Pudence Rubingisa",
+      "search_method": "Explicit actor-name query plus Russia/Russie/Russian/Ukraine; selected follow-ups and primary-page checks. Search scope is limited to indexed public web; not proof of universal absence.",
+      "result": "unknown_after_explicit_search",
+      "summary": "Прямых российских высказываний или действий не найдено.",
+      "fact_ids": [],
+      "candidate_sources": [],
+      "uncovered_poles": [
+        {
+          "scale_id": "russia-diplomatic-engagement",
+          "pole": "positive",
+          "status": "unknown"
+        },
+        {
+          "scale_id": "russia-diplomatic-engagement",
+          "pole": "negative",
+          "status": "unknown"
+        },
+        {
+          "scale_id": "russia-security-cooperation",
+          "pole": "positive",
+          "status": "unknown"
+        },
+        {
+          "scale_id": "russia-security-cooperation",
+          "pole": "negative",
+          "status": "unknown"
+        },
+        {
+          "scale_id": "russia-economic-technology-cooperation",
+          "pole": "positive",
+          "status": "unknown"
+        },
+        {
+          "scale_id": "russia-economic-technology-cooperation",
+          "pole": "negative",
+          "status": "unknown"
+        },
+        {
+          "scale_id": "russia-education-cultural-cooperation",
+          "pole": "positive",
+          "status": "unknown"
+        },
+        {
+          "scale_id": "russia-education-cultural-cooperation",
+          "pole": "negative",
+          "status": "unknown"
+        },
+        {
+          "scale_id": "russia-conflict-policy-evaluation",
+          "pole": "positive",
+          "status": "unknown"
+        },
+        {
+          "scale_id": "russia-conflict-policy-evaluation",
+          "pole": "negative",
+          "status": "unknown"
+        },
+        {
+          "scale_id": "russia-isolation-sanctions",
+          "pole": "positive",
+          "status": "unknown"
+        },
+        {
+          "scale_id": "russia-isolation-sanctions",
+          "pole": "negative",
+          "status": "unknown"
+        }
+      ]
+    },
+    {
+      "actor_id": "samuel-dusengiyumva",
+      "queries": [
+        "\"Samuel Dusengiyumva\" Russia"
+      ],
+      "checked_at": "2026-10-15",
+      "name": "Самуэль Дусенгийюмва",
+      "name_original": "Samuel Dusengiyumva",
+      "search_method": "Explicit actor-name query plus Russia/Russie/Russian/Ukraine; selected follow-ups and primary-page checks. Search scope is limited to indexed public web; not proof of universal absence.",
+      "result": "unknown_after_explicit_search",
+      "summary": "Отчёт министерства о войне как внешнем шоке и должность руководителя не являются персональной российской позицией.",
+      "fact_ids": [],
+      "candidate_sources": [],
+      "uncovered_poles": [
+        {
+          "scale_id": "russia-diplomatic-engagement",
+          "pole": "positive",
+          "status": "unknown"
+        },
+        {
+          "scale_id": "russia-diplomatic-engagement",
+          "pole": "negative",
+          "status": "unknown"
+        },
+        {
+          "scale_id": "russia-security-cooperation",
+          "pole": "positive",
+          "status": "unknown"
+        },
+        {
+          "scale_id": "russia-security-cooperation",
+          "pole": "negative",
+          "status": "unknown"
+        },
+        {
+          "scale_id": "russia-economic-technology-cooperation",
+          "pole": "positive",
+          "status": "unknown"
+        },
+        {
+          "scale_id": "russia-economic-technology-cooperation",
+          "pole": "negative",
+          "status": "unknown"
+        },
+        {
+          "scale_id": "russia-education-cultural-cooperation",
+          "pole": "positive",
+          "status": "unknown"
+        },
+        {
+          "scale_id": "russia-education-cultural-cooperation",
+          "pole": "negative",
+          "status": "unknown"
+        },
+        {
+          "scale_id": "russia-conflict-policy-evaluation",
+          "pole": "positive",
+          "status": "unknown"
+        },
+        {
+          "scale_id": "russia-conflict-policy-evaluation",
+          "pole": "negative",
+          "status": "unknown"
+        },
+        {
+          "scale_id": "russia-isolation-sanctions",
+          "pole": "positive",
+          "status": "unknown"
+        },
+        {
+          "scale_id": "russia-isolation-sanctions",
+          "pole": "negative",
+          "status": "unknown"
+        }
+      ]
+    },
+    {
+      "actor_id": "frank-habineza",
+      "queries": [
+        "\"Frank Habineza\" Russia Ukraine",
+        "\"Habineza\" \"Ukraine\" \"Russia\" -site:reddit.com -site:wikipedia.org"
+      ],
+      "checked_at": "2026-10-15",
+      "name": "Франк Хабинеза",
+      "name_original": "Frank Habineza",
+      "search_method": "Explicit actor-name query plus Russia/Russie/Russian/Ukraine; selected follow-ups and primary-page checks. Search scope is limited to indexed public web; not proof of universal absence.",
+      "result": "unknown_after_explicit_search",
+      "summary": "Критика ядерного соглашения найдена в июне 2020 года и исключена по периоду. Возражение по безопасности технологии само по себе не равно общему антироссийскому отношению.",
+      "fact_ids": [],
+      "candidate_sources": [
+        {
+          "url": "https://www.newtimes.co.rw/article/177509/News/use-of-nuclear-technology-gets-green-light-in-rwanda/amp",
+          "decision": "excluded",
+          "reason": "Event 2020-06-15, outside window."
+        }
+      ],
+      "uncovered_poles": [
+        {
+          "scale_id": "russia-diplomatic-engagement",
+          "pole": "positive",
+          "status": "unknown"
+        },
+        {
+          "scale_id": "russia-diplomatic-engagement",
+          "pole": "negative",
+          "status": "unknown"
+        },
+        {
+          "scale_id": "russia-security-cooperation",
+          "pole": "positive",
+          "status": "unknown"
+        },
+        {
+          "scale_id": "russia-security-cooperation",
+          "pole": "negative",
+          "status": "unknown"
+        },
+        {
+          "scale_id": "russia-economic-technology-cooperation",
+          "pole": "positive",
+          "status": "unknown"
+        },
+        {
+          "scale_id": "russia-economic-technology-cooperation",
+          "pole": "negative",
+          "status": "unknown"
+        },
+        {
+          "scale_id": "russia-education-cultural-cooperation",
+          "pole": "positive",
+          "status": "unknown"
+        },
+        {
+          "scale_id": "russia-education-cultural-cooperation",
+          "pole": "negative",
+          "status": "unknown"
+        },
+        {
+          "scale_id": "russia-conflict-policy-evaluation",
+          "pole": "positive",
+          "status": "unknown"
+        },
+        {
+          "scale_id": "russia-conflict-policy-evaluation",
+          "pole": "negative",
+          "status": "unknown"
+        },
+        {
+          "scale_id": "russia-isolation-sanctions",
+          "pole": "positive",
+          "status": "unknown"
+        },
+        {
+          "scale_id": "russia-isolation-sanctions",
+          "pole": "negative",
+          "status": "unknown"
+        }
+      ]
+    },
+    {
+      "actor_id": "philippe-mpayimana",
+      "queries": [
+        "\"Philippe Mpayimana\" Russia",
+        "\"Mpayimana\" \"Russie\""
+      ],
+      "checked_at": "2026-10-15",
+      "name": "Филипп Мпайимана",
+      "name_original": "Philippe Mpayimana",
+      "search_method": "Explicit actor-name query plus Russia/Russie/Russian/Ukraine; selected follow-ups and primary-page checks. Search scope is limited to indexed public web; not proof of universal absence.",
+      "result": "unknown_after_explicit_search",
+      "summary": "Прямых российских высказываний или действий не найдено.",
+      "fact_ids": [],
+      "candidate_sources": [],
+      "uncovered_poles": [
+        {
+          "scale_id": "russia-diplomatic-engagement",
+          "pole": "positive",
+          "status": "unknown"
+        },
+        {
+          "scale_id": "russia-diplomatic-engagement",
+          "pole": "negative",
+          "status": "unknown"
+        },
+        {
+          "scale_id": "russia-security-cooperation",
+          "pole": "positive",
+          "status": "unknown"
+        },
+        {
+          "scale_id": "russia-security-cooperation",
+          "pole": "negative",
+          "status": "unknown"
+        },
+        {
+          "scale_id": "russia-economic-technology-cooperation",
+          "pole": "positive",
+          "status": "unknown"
+        },
+        {
+          "scale_id": "russia-economic-technology-cooperation",
+          "pole": "negative",
+          "status": "unknown"
+        },
+        {
+          "scale_id": "russia-education-cultural-cooperation",
+          "pole": "positive",
+          "status": "unknown"
+        },
+        {
+          "scale_id": "russia-education-cultural-cooperation",
+          "pole": "negative",
+          "status": "unknown"
+        },
+        {
+          "scale_id": "russia-conflict-policy-evaluation",
+          "pole": "positive",
+          "status": "unknown"
+        },
+        {
+          "scale_id": "russia-conflict-policy-evaluation",
+          "pole": "negative",
+          "status": "unknown"
+        },
+        {
+          "scale_id": "russia-isolation-sanctions",
+          "pole": "positive",
+          "status": "unknown"
+        },
+        {
+          "scale_id": "russia-isolation-sanctions",
+          "pole": "negative",
+          "status": "unknown"
+        }
+      ]
+    },
+    {
+      "actor_id": "victoire-ingabire",
+      "queries": [
+        "\"Victoire Ingabire\" Russia Ukraine",
+        "\"Victoire Ingabire\" \"Russie\""
+      ],
+      "checked_at": "2026-10-15",
+      "name": "Виктуар Ингабире Умухоза",
+      "name_original": "Victoire Ingabire Umuhoza",
+      "search_method": "Explicit actor-name query plus Russia/Russie/Russian/Ukraine; selected follow-ups and primary-page checks. Search scope is limited to indexed public web; not proof of universal absence.",
+      "result": "unknown_after_explicit_search",
+      "summary": "Высказывания её сторонников и лауреатов премии её имени о России не перенесены на неё. Собственной позиции в выполненном поиске не найдено.",
+      "fact_ids": [],
+      "candidate_sources": [
+        {
+          "url": "https://www.justpeaceadvocates.ca/wp-content/uploads/2020/05/Discours-Philpot-19-3-2022.pdf",
+          "decision": "excluded",
+          "reason": "Speech by John Philpot, not Victoire Ingabire."
+        },
+        {
+          "url": "https://l-hora.org/fr/discours-dacceptation-du-prix-victoire-ingabire-umuhoza-2025-jooned-khan-22-03-2025/",
+          "decision": "excluded",
+          "reason": "Speech by Jooneed Khan; award bears actor's name but does not establish her view."
+        }
+      ],
+      "uncovered_poles": [
+        {
+          "scale_id": "russia-diplomatic-engagement",
+          "pole": "positive",
+          "status": "unknown"
+        },
+        {
+          "scale_id": "russia-diplomatic-engagement",
+          "pole": "negative",
+          "status": "unknown"
+        },
+        {
+          "scale_id": "russia-security-cooperation",
+          "pole": "positive",
+          "status": "unknown"
+        },
+        {
+          "scale_id": "russia-security-cooperation",
+          "pole": "negative",
+          "status": "unknown"
+        },
+        {
+          "scale_id": "russia-economic-technology-cooperation",
+          "pole": "positive",
+          "status": "unknown"
+        },
+        {
+          "scale_id": "russia-economic-technology-cooperation",
+          "pole": "negative",
+          "status": "unknown"
+        },
+        {
+          "scale_id": "russia-education-cultural-cooperation",
+          "pole": "positive",
+          "status": "unknown"
+        },
+        {
+          "scale_id": "russia-education-cultural-cooperation",
+          "pole": "negative",
+          "status": "unknown"
+        },
+        {
+          "scale_id": "russia-conflict-policy-evaluation",
+          "pole": "positive",
+          "status": "unknown"
+        },
+        {
+          "scale_id": "russia-conflict-policy-evaluation",
+          "pole": "negative",
+          "status": "unknown"
+        },
+        {
+          "scale_id": "russia-isolation-sanctions",
+          "pole": "positive",
+          "status": "unknown"
+        },
+        {
+          "scale_id": "russia-isolation-sanctions",
+          "pole": "negative",
+          "status": "unknown"
+        }
+      ]
+    },
+    {
+      "actor_id": "diane-rwigara",
+      "queries": [
+        "\"Diane Rwigara\" Russia Ukraine",
+        "\"Diane Rwigara\" \"Russie\""
+      ],
+      "checked_at": "2026-10-15",
+      "name": "Диана Рвигара",
+      "name_original": "Diane Shima Rwigara",
+      "search_method": "Explicit actor-name query plus Russia/Russie/Russian/Ukraine; selected follow-ups and primary-page checks. Search scope is limited to indexed public web; not proof of universal absence.",
+      "result": "unknown_after_explicit_search",
+      "summary": "Обзоры политических репрессий и совместные упоминания России не являются её российской позицией.",
+      "fact_ids": [],
+      "candidate_sources": [],
+      "uncovered_poles": [
+        {
+          "scale_id": "russia-diplomatic-engagement",
+          "pole": "positive",
+          "status": "unknown"
+        },
+        {
+          "scale_id": "russia-diplomatic-engagement",
+          "pole": "negative",
+          "status": "unknown"
+        },
+        {
+          "scale_id": "russia-security-cooperation",
+          "pole": "positive",
+          "status": "unknown"
+        },
+        {
+          "scale_id": "russia-security-cooperation",
+          "pole": "negative",
+          "status": "unknown"
+        },
+        {
+          "scale_id": "russia-economic-technology-cooperation",
+          "pole": "positive",
+          "status": "unknown"
+        },
+        {
+          "scale_id": "russia-economic-technology-cooperation",
+          "pole": "negative",
+          "status": "unknown"
+        },
+        {
+          "scale_id": "russia-education-cultural-cooperation",
+          "pole": "positive",
+          "status": "unknown"
+        },
+        {
+          "scale_id": "russia-education-cultural-cooperation",
+          "pole": "negative",
+          "status": "unknown"
+        },
+        {
+          "scale_id": "russia-conflict-policy-evaluation",
+          "pole": "positive",
+          "status": "unknown"
+        },
+        {
+          "scale_id": "russia-conflict-policy-evaluation",
+          "pole": "negative",
+          "status": "unknown"
+        },
+        {
+          "scale_id": "russia-isolation-sanctions",
+          "pole": "positive",
+          "status": "unknown"
+        },
+        {
+          "scale_id": "russia-isolation-sanctions",
+          "pole": "negative",
+          "status": "unknown"
+        }
+      ]
+    },
+    {
+      "actor_id": "bernard-ntaganda",
+      "queries": [
+        "\"Bernard Ntaganda\" Russia Ukraine",
+        "\"Ntaganda\" \"Russie\" Rwanda"
+      ],
+      "checked_at": "2026-10-15",
+      "name": "Бернар Нтаганда",
+      "name_original": "Bernard Ntaganda",
+      "search_method": "Explicit actor-name query plus Russia/Russie/Russian/Ukraine; selected follow-ups and primary-page checks. Search scope is limited to indexed public web; not proof of universal absence.",
+      "result": "unknown_after_explicit_search",
+      "summary": "Исключены результаты о Bosco Ntaganda; прямых российских высказываний утверждённого Bernard Ntaganda не найдено.",
+      "fact_ids": [],
+      "candidate_sources": [],
+      "uncovered_poles": [
+        {
+          "scale_id": "russia-diplomatic-engagement",
+          "pole": "positive",
+          "status": "unknown"
+        },
+        {
+          "scale_id": "russia-diplomatic-engagement",
+          "pole": "negative",
+          "status": "unknown"
+        },
+        {
+          "scale_id": "russia-security-cooperation",
+          "pole": "positive",
+          "status": "unknown"
+        },
+        {
+          "scale_id": "russia-security-cooperation",
+          "pole": "negative",
+          "status": "unknown"
+        },
+        {
+          "scale_id": "russia-economic-technology-cooperation",
+          "pole": "positive",
+          "status": "unknown"
+        },
+        {
+          "scale_id": "russia-economic-technology-cooperation",
+          "pole": "negative",
+          "status": "unknown"
+        },
+        {
+          "scale_id": "russia-education-cultural-cooperation",
+          "pole": "positive",
+          "status": "unknown"
+        },
+        {
+          "scale_id": "russia-education-cultural-cooperation",
+          "pole": "negative",
+          "status": "unknown"
+        },
+        {
+          "scale_id": "russia-conflict-policy-evaluation",
+          "pole": "positive",
+          "status": "unknown"
+        },
+        {
+          "scale_id": "russia-conflict-policy-evaluation",
+          "pole": "negative",
+          "status": "unknown"
+        },
+        {
+          "scale_id": "russia-isolation-sanctions",
+          "pole": "positive",
+          "status": "unknown"
+        },
+        {
+          "scale_id": "russia-isolation-sanctions",
+          "pole": "negative",
+          "status": "unknown"
+        }
+      ]
+    },
+    {
+      "actor_id": "christopher-kayumba",
+      "queries": [
+        "\"Christopher Kayumba\" (Russia OR Russie OR Russian OR Ukraine)",
+        "\"Kayumba\" \"Ukraine\" \"Chronicles\""
+      ],
+      "checked_at": "2026-10-15",
+      "name": "Кристофер Каюмба",
+      "name_original": "Christopher Kayumba",
+      "search_method": "Explicit actor-name query plus Russia/Russie/Russian/Ukraine; selected follow-ups and primary-page checks. Search scope is limited to indexed public web; not proof of universal absence.",
+      "result": "unknown_after_explicit_search",
+      "summary": "Биографии, архивы задержаний и профиль Chronicles не дали прямого российского суждения в окне.",
+      "fact_ids": [],
+      "candidate_sources": [],
+      "uncovered_poles": [
+        {
+          "scale_id": "russia-diplomatic-engagement",
+          "pole": "positive",
+          "status": "unknown"
+        },
+        {
+          "scale_id": "russia-diplomatic-engagement",
+          "pole": "negative",
+          "status": "unknown"
+        },
+        {
+          "scale_id": "russia-security-cooperation",
+          "pole": "positive",
+          "status": "unknown"
+        },
+        {
+          "scale_id": "russia-security-cooperation",
+          "pole": "negative",
+          "status": "unknown"
+        },
+        {
+          "scale_id": "russia-economic-technology-cooperation",
+          "pole": "positive",
+          "status": "unknown"
+        },
+        {
+          "scale_id": "russia-economic-technology-cooperation",
+          "pole": "negative",
+          "status": "unknown"
+        },
+        {
+          "scale_id": "russia-education-cultural-cooperation",
+          "pole": "positive",
+          "status": "unknown"
+        },
+        {
+          "scale_id": "russia-education-cultural-cooperation",
+          "pole": "negative",
+          "status": "unknown"
+        },
+        {
+          "scale_id": "russia-conflict-policy-evaluation",
+          "pole": "positive",
+          "status": "unknown"
+        },
+        {
+          "scale_id": "russia-conflict-policy-evaluation",
+          "pole": "negative",
+          "status": "unknown"
+        },
+        {
+          "scale_id": "russia-isolation-sanctions",
+          "pole": "positive",
+          "status": "unknown"
+        },
+        {
+          "scale_id": "russia-isolation-sanctions",
+          "pole": "negative",
+          "status": "unknown"
+        }
+      ]
+    },
+    {
+      "actor_id": "paul-rusesabagina",
+      "queries": [
+        "\"Paul Rusesabagina\" (Russia OR Russie OR Russian OR Ukraine)",
+        "\"Rusesabagina\" \"Ukraine\" \"2023\" \"2024\""
+      ],
+      "checked_at": "2026-10-15",
+      "name": "Поль Русесабагина",
+      "name_original": "Paul Rusesabagina",
+      "search_method": "Explicit actor-name query plus Russia/Russie/Russian/Ukraine; selected follow-ups and primary-page checks. Search scope is limited to indexed public web; not proof of universal absence.",
+      "result": "unknown_after_explicit_search",
+      "summary": "HRF рассказывает и о нём, и о российских политзаключённых; позиция HRF не приписывается Русесабагине.",
+      "fact_ids": [],
+      "candidate_sources": [
+        {
+          "url": "https://hrf.org/latest/thank-you-for-supporting-hrf-in-2023/",
+          "decision": "excluded",
+          "reason": "Organisational annual review; statements about Russia are not by Rusesabagina."
+        }
+      ],
+      "uncovered_poles": [
+        {
+          "scale_id": "russia-diplomatic-engagement",
+          "pole": "positive",
+          "status": "unknown"
+        },
+        {
+          "scale_id": "russia-diplomatic-engagement",
+          "pole": "negative",
+          "status": "unknown"
+        },
+        {
+          "scale_id": "russia-security-cooperation",
+          "pole": "positive",
+          "status": "unknown"
+        },
+        {
+          "scale_id": "russia-security-cooperation",
+          "pole": "negative",
+          "status": "unknown"
+        },
+        {
+          "scale_id": "russia-economic-technology-cooperation",
+          "pole": "positive",
+          "status": "unknown"
+        },
+        {
+          "scale_id": "russia-economic-technology-cooperation",
+          "pole": "negative",
+          "status": "unknown"
+        },
+        {
+          "scale_id": "russia-education-cultural-cooperation",
+          "pole": "positive",
+          "status": "unknown"
+        },
+        {
+          "scale_id": "russia-education-cultural-cooperation",
+          "pole": "negative",
+          "status": "unknown"
+        },
+        {
+          "scale_id": "russia-conflict-policy-evaluation",
+          "pole": "positive",
+          "status": "unknown"
+        },
+        {
+          "scale_id": "russia-conflict-policy-evaluation",
+          "pole": "negative",
+          "status": "unknown"
+        },
+        {
+          "scale_id": "russia-isolation-sanctions",
+          "pole": "positive",
+          "status": "unknown"
+        },
+        {
+          "scale_id": "russia-isolation-sanctions",
+          "pole": "negative",
+          "status": "unknown"
+        }
+      ]
+    },
+    {
+      "actor_id": "kayumba-nyamwasa",
+      "queries": [
+        "\"Kayumba Nyamwasa\" (Russia OR Russie OR Russian OR Ukraine)"
+      ],
+      "checked_at": "2026-10-15",
+      "name": "Фостен Каюмба Ньямваса",
+      "name_original": "Faustin Kayumba Nyamwasa",
+      "search_method": "Explicit actor-name query plus Russia/Russie/Russian/Ukraine; selected follow-ups and primary-page checks. Search scope is limited to indexed public web; not proof of universal absence.",
+      "result": "unknown_after_explicit_search",
+      "summary": "Биографии, материалы об изгнании и региональных конфликтах не дали прямой российской позиции.",
+      "fact_ids": [],
+      "candidate_sources": [],
+      "uncovered_poles": [
+        {
+          "scale_id": "russia-diplomatic-engagement",
+          "pole": "positive",
+          "status": "unknown"
+        },
+        {
+          "scale_id": "russia-diplomatic-engagement",
+          "pole": "negative",
+          "status": "unknown"
+        },
+        {
+          "scale_id": "russia-security-cooperation",
+          "pole": "positive",
+          "status": "unknown"
+        },
+        {
+          "scale_id": "russia-security-cooperation",
+          "pole": "negative",
+          "status": "unknown"
+        },
+        {
+          "scale_id": "russia-economic-technology-cooperation",
+          "pole": "positive",
+          "status": "unknown"
+        },
+        {
+          "scale_id": "russia-economic-technology-cooperation",
+          "pole": "negative",
+          "status": "unknown"
+        },
+        {
+          "scale_id": "russia-education-cultural-cooperation",
+          "pole": "positive",
+          "status": "unknown"
+        },
+        {
+          "scale_id": "russia-education-cultural-cooperation",
+          "pole": "negative",
+          "status": "unknown"
+        },
+        {
+          "scale_id": "russia-conflict-policy-evaluation",
+          "pole": "positive",
+          "status": "unknown"
+        },
+        {
+          "scale_id": "russia-conflict-policy-evaluation",
+          "pole": "negative",
+          "status": "unknown"
+        },
+        {
+          "scale_id": "russia-isolation-sanctions",
+          "pole": "positive",
+          "status": "unknown"
+        },
+        {
+          "scale_id": "russia-isolation-sanctions",
+          "pole": "negative",
+          "status": "unknown"
+        }
+      ]
+    },
+    {
+      "actor_id": "louise-mushikiwabo",
+      "queries": [
+        "\"Louise Mushikiwabo\" Russia Ukraine 2022 2023 2024 2025 2026",
+        "\"Mushikiwabo\" \"Russie\" site:francophonie.org 2022 2023 2024",
+        "\"Louise Mushikiwabo\" \"Ukraine\" \"2022\" site:francophonie.org"
+      ],
+      "checked_at": "2026-10-15",
+      "name": "Луиза Мушикивабо",
+      "name_original": "Louise Mushikiwabo",
+      "search_method": "Explicit actor-name query plus Russia/Russie/Russian/Ukraine; selected follow-ups and primary-page checks. Search scope is limited to indexed public web; not proof of universal absence.",
+      "result": "eligible_evidence_found",
+      "summary": "Есть прямое критическое заявление OIF об агрессии России против Украины; её международная служебная роль сохранена отдельно от правительства Руанды.",
+      "fact_ids": [
+        "ru-independent-013",
+        "ru-independent-014"
+      ],
+      "candidate_sources": [],
+      "uncovered_poles": [
+        {
+          "scale_id": "russia-diplomatic-engagement",
+          "pole": "positive",
+          "status": "unknown"
+        },
+        {
+          "scale_id": "russia-diplomatic-engagement",
+          "pole": "negative",
+          "status": "unknown"
+        },
+        {
+          "scale_id": "russia-security-cooperation",
+          "pole": "positive",
+          "status": "unknown"
+        },
+        {
+          "scale_id": "russia-security-cooperation",
+          "pole": "negative",
+          "status": "unknown"
+        },
+        {
+          "scale_id": "russia-economic-technology-cooperation",
+          "pole": "positive",
+          "status": "unknown"
+        },
+        {
+          "scale_id": "russia-economic-technology-cooperation",
+          "pole": "negative",
+          "status": "unknown"
+        },
+        {
+          "scale_id": "russia-education-cultural-cooperation",
+          "pole": "positive",
+          "status": "unknown"
+        },
+        {
+          "scale_id": "russia-education-cultural-cooperation",
+          "pole": "negative",
+          "status": "unknown"
+        },
+        {
+          "scale_id": "russia-conflict-policy-evaluation",
+          "pole": "positive",
+          "status": "unknown"
+        },
+        {
+          "scale_id": "russia-isolation-sanctions",
+          "pole": "positive",
+          "status": "unknown"
+        },
+        {
+          "scale_id": "russia-isolation-sanctions",
+          "pole": "negative",
+          "status": "unknown"
+        }
+      ]
+    },
+    {
+      "actor_id": "claver-gatete",
+      "queries": [
+        "\"Claver Gatete\" (Russia OR Russie OR Russian OR Ukraine) 2022 2023 2024 2025 2026",
+        "\"Gatete\" Russia 2024 2025 forum",
+        "\"Gatete\" \"Ukraine\" \"Russia\" \"2023\" statement",
+        "\"Claver Gatete\" \"Russia\" site:uneca.org"
+      ],
+      "checked_at": "2026-10-15",
+      "name": "Клавер Гатете",
+      "name_original": "Claver Gatete",
+      "search_method": "Explicit actor-name query plus Russia/Russie/Russian/Ukraine; selected follow-ups and primary-page checks. Search scope is limited to indexed public web; not proof of universal absence.",
+      "result": "unknown_after_explicit_search",
+      "summary": "Общие страницы UNECA, национальный голос Руанды в ООН и речь другого участника заседания не присвоены Гатете.",
+      "fact_ids": [],
+      "candidate_sources": [],
+      "uncovered_poles": [
+        {
+          "scale_id": "russia-diplomatic-engagement",
+          "pole": "positive",
+          "status": "unknown"
+        },
+        {
+          "scale_id": "russia-diplomatic-engagement",
+          "pole": "negative",
+          "status": "unknown"
+        },
+        {
+          "scale_id": "russia-security-cooperation",
+          "pole": "positive",
+          "status": "unknown"
+        },
+        {
+          "scale_id": "russia-security-cooperation",
+          "pole": "negative",
+          "status": "unknown"
+        },
+        {
+          "scale_id": "russia-economic-technology-cooperation",
+          "pole": "positive",
+          "status": "unknown"
+        },
+        {
+          "scale_id": "russia-economic-technology-cooperation",
+          "pole": "negative",
+          "status": "unknown"
+        },
+        {
+          "scale_id": "russia-education-cultural-cooperation",
+          "pole": "positive",
+          "status": "unknown"
+        },
+        {
+          "scale_id": "russia-education-cultural-cooperation",
+          "pole": "negative",
+          "status": "unknown"
+        },
+        {
+          "scale_id": "russia-conflict-policy-evaluation",
+          "pole": "positive",
+          "status": "unknown"
+        },
+        {
+          "scale_id": "russia-conflict-policy-evaluation",
+          "pole": "negative",
+          "status": "unknown"
+        },
+        {
+          "scale_id": "russia-isolation-sanctions",
+          "pole": "positive",
+          "status": "unknown"
+        },
+        {
+          "scale_id": "russia-isolation-sanctions",
+          "pole": "negative",
+          "status": "unknown"
+        }
+      ]
+    },
+    {
+      "actor_id": "valentine-rugwabiza",
+      "queries": [
+        "\"Valentine Rugwabiza\" (Russia OR Russie OR Russian OR Ukraine) 2022 2023 2024 2025 2026",
+        "\"Rugwabiza\" Russie ambassadeur 2023 2024 2025",
+        "\"Rugwabiza\" \"Ukraine\" \"2022\""
+      ],
+      "checked_at": "2026-10-15",
+      "name": "Валентин Ругвабиза",
+      "name_original": "Valentine Rugwabiza",
+      "search_method": "Explicit actor-name query plus Russia/Russie/Russian/Ukraine; selected follow-ups and primary-page checks. Search scope is limited to indexed public web; not proof of universal absence.",
+      "result": "unknown_after_explicit_search",
+      "summary": "Российские представители и другие делегаты упоминают её брифинги; их слова о России/Украине не являются словами Ругвабизы. Прямого российского суждения не найдено.",
+      "fact_ids": [],
+      "candidate_sources": [
+        {
+          "url": "https://www.gov.uk/government/speeches/food-and-fuel-shortages-hampering-the-un-response-in-central-african-republic",
+          "decision": "excluded",
+          "reason": "Russia/Ukraine condemnation belongs to UK Ambassador James Kariuki, not Rugwabiza."
+        },
+        {
+          "url": "https://documents.un.org/api/symbol/access?l=fr&s=S%2FPV.9074&t=pdf",
+          "decision": "not_attributed",
+          "reason": "Multi-speaker UN record: Russian delegate's remarks thanking Rugwabiza must not be assigned to Rugwabiza."
+        }
+      ],
+      "uncovered_poles": [
+        {
+          "scale_id": "russia-diplomatic-engagement",
+          "pole": "positive",
+          "status": "unknown"
+        },
+        {
+          "scale_id": "russia-diplomatic-engagement",
+          "pole": "negative",
+          "status": "unknown"
+        },
+        {
+          "scale_id": "russia-security-cooperation",
+          "pole": "positive",
+          "status": "unknown"
+        },
+        {
+          "scale_id": "russia-security-cooperation",
+          "pole": "negative",
+          "status": "unknown"
+        },
+        {
+          "scale_id": "russia-economic-technology-cooperation",
+          "pole": "positive",
+          "status": "unknown"
+        },
+        {
+          "scale_id": "russia-economic-technology-cooperation",
+          "pole": "negative",
+          "status": "unknown"
+        },
+        {
+          "scale_id": "russia-education-cultural-cooperation",
+          "pole": "positive",
+          "status": "unknown"
+        },
+        {
+          "scale_id": "russia-education-cultural-cooperation",
+          "pole": "negative",
+          "status": "unknown"
+        },
+        {
+          "scale_id": "russia-conflict-policy-evaluation",
+          "pole": "positive",
+          "status": "unknown"
+        },
+        {
+          "scale_id": "russia-conflict-policy-evaluation",
+          "pole": "negative",
+          "status": "unknown"
+        },
+        {
+          "scale_id": "russia-isolation-sanctions",
+          "pole": "positive",
+          "status": "unknown"
+        },
+        {
+          "scale_id": "russia-isolation-sanctions",
+          "pole": "negative",
+          "status": "unknown"
+        }
+      ]
+    }
+  ],
+  "coverage": {
+    "checked_actor_count": 42,
+    "explicit_query_count": 84,
+    "actors_with_any_record": [
+      "paul-kagame",
+      "vincent-biruta",
+      "olivier-nduhungirehe",
+      "juvenal-marizamunda",
+      "sabin-nsanzimana",
+      "louise-mushikiwabo"
+    ],
+    "actors_with_eligible_evidence": [
+      "olivier-nduhungirehe",
+      "juvenal-marizamunda",
+      "sabin-nsanzimana",
+      "louise-mushikiwabo"
+    ],
+    "eligible_fact_count": 7,
+    "unique_eligible_event_count": 6,
+    "actor_pole_coverage": [
+      {
+        "scale_id": "russia-diplomatic-engagement",
+        "positive_actor_ids": [
+          "olivier-nduhungirehe"
+        ],
+        "negative_actor_ids": []
+      },
+      {
+        "scale_id": "russia-security-cooperation",
+        "positive_actor_ids": [
+          "juvenal-marizamunda"
+        ],
+        "negative_actor_ids": []
+      },
+      {
+        "scale_id": "russia-economic-technology-cooperation",
+        "positive_actor_ids": [
+          "olivier-nduhungirehe",
+          "sabin-nsanzimana"
+        ],
+        "negative_actor_ids": []
+      },
+      {
+        "scale_id": "russia-education-cultural-cooperation",
+        "positive_actor_ids": [
+          "olivier-nduhungirehe",
+          "sabin-nsanzimana"
+        ],
+        "negative_actor_ids": []
+      },
+      {
+        "scale_id": "russia-conflict-policy-evaluation",
+        "positive_actor_ids": [],
+        "negative_actor_ids": [
+          "louise-mushikiwabo"
+        ]
+      },
+      {
+        "scale_id": "russia-isolation-sanctions",
+        "positive_actor_ids": [],
+        "negative_actor_ids": []
+      }
+    ]
+  },
+  "limitations": [
+    "Выполненный поиск не установил масштабного персонального российского профиля у большинства 42 участников; разреженность сохраняется.",
+    "Нет найденного пригодного основания для шкалы санкций/изоляции; встреча с Россией не заполняет эту шкалу.",
+    "Первичное официальное сообщение второй стороны переговоров может описывать согласованную служебную позицию, но не частную мотивацию.",
+    "Критика войны в международной роли OIF не является доказательством отношения всех членов правительства Руанды.",
+    "Дата конкретного личного приёма Маризамунды внутри 20–22.05.2026 не выделена; хранится интервал, а 20.05 явно помечено как дата релиза/начала комиссии.",
+    "Недоступность страницы, неполная индексация, языки и отсутствие систематического просмотра полных персональных архивов ограничивают полноту поиска.",
+    "Заранее гарантировать российский фактор ≥2% дисперсии нельзя; отсутствие факторного результата не должно исправляться заполнением пропусков нулями или повторением синонимов."
+  ],
+  "scores_assigned": false,
+  "canonical_data_modified": false
+}

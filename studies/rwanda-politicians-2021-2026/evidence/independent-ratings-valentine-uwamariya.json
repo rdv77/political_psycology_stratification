@@ -1,0 +1,1929 @@
+[
+  {
+    "object_id": "valentine-uwamariya",
+    "scale_id": "programmatic-renewal",
+    "pole_scores": {
+      "positive": {
+        "status": "observed",
+        "value": 2,
+        "confidence": 0.7,
+        "evidence_indices": [
+          1,
+          10,
+          23
+        ],
+        "source_urls": [
+          "https://www.environment.gov.rw/news-detail/green-rwanda-at-unga79-ending-plastic-pollution-and-advancing-climate-action",
+          "https://www.rema.gov.rw/updates/news-details/rwanda-advocates-for-ending-plastic-pollution-and-climate-action-at-unga79",
+          "https://www.rema.gov.rw/updates/news-details/vhfa"
+        ],
+        "event_ids": [
+          "uwamariya-unga79-plastic-treaty-2024-09",
+          "uwamariya-plastics-life-cycle-2024-09",
+          "uwamariya-2025-01-24-ndc3-consultations"
+        ],
+        "rationale": "Увамария в ряде эпизодов (например, на консультациях по глобальному договору о пластике и запуске обновления NDC 3.0) выступала за новые рамки регулирования и инклюзивные процессы, что свидетельствует о программных предложениях по изменению существующих правил, но не фиксируется как устойчивый или определяющий акцент.",
+        "support_type": "positive_manifestation",
+        "provenance": {
+          "raw_response_file": "evidence/independent_responses/12576cf41f92dc70b4a7a1f946b545bcbab6f27fb7be6a3b60fc4c29ea083721.json",
+          "model": "gpt-4.1",
+          "at": "2026-10-15T17:30:20.235421+00:00",
+          "cache_key": "12576cf41f92dc70b4a7a1f946b545bcbab6f27fb7be6a3b60fc4c29ea083721",
+          "original_proposal": {
+            "variable_id": "programmatic-renewal__positive",
+            "status": "observed",
+            "value": 2,
+            "confidence": 0.7,
+            "support_type": "positive_manifestation",
+            "rationale": "Увамария в ряде эпизодов (например, на консультациях по глобальному договору о пластике и запуске обновления NDC 3.0) выступала за новые рамки регулирования и инклюзивные процессы, что свидетельствует о программных предложениях по изменению существующих правил, но не фиксируется как устойчивый или определяющий акцент.",
+            "evidence_indices": [
+              1,
+              10,
+              23
+            ]
+          }
+        },
+        "evidence_file": "evidence/independent-dossier-valentine-uwamariya.json",
+        "evidence_basis": "24fbf682049f02898c38121c4cea0834824d5311580773a960b94f9288ed434f"
+      },
+      "negative": {
+        "status": "observed",
+        "value": 3,
+        "confidence": 0.8,
+        "evidence_indices": [
+          14,
+          16,
+          24
+        ],
+        "source_urls": [
+          "https://www.ungeneva.org/en/news-media/meeting-summary/2024/05/examen-du-rwanda-devant-le-comite-cedaw-tout-en-saluant-les",
+          "https://www.africa-press.net/rwanda/policy/minister-uwamariya-on-rwandas-30-year-gender-equality-journey",
+          "https://www.rema.gov.rw/updates/news-details/vhfa"
+        ],
+        "event_ids": [
+          "uwamariya-cedaw-institutions-2024-05-24",
+          "uwamariya-gender-education-women-lead-2024-04-04",
+          "uwamariya-2025-01-24-ndc3-whole-of-government"
+        ],
+        "rationale": "В ряде выступлений Увамария подчёркивала продолжение и развитие действующих программ (например, обновление NDC как задача всего правительства и общества, поддержка существующих институтов гендерной политики, акцент на исполнимости климатических планов), что указывает на последовательное подтверждение и закрепление текущего курса.",
+        "support_type": "positive_manifestation",
+        "provenance": {
+          "raw_response_file": "evidence/independent_responses/12576cf41f92dc70b4a7a1f946b545bcbab6f27fb7be6a3b60fc4c29ea083721.json",
+          "model": "gpt-4.1",
+          "at": "2026-10-15T17:30:20.235421+00:00",
+          "cache_key": "12576cf41f92dc70b4a7a1f946b545bcbab6f27fb7be6a3b60fc4c29ea083721",
+          "original_proposal": {
+            "variable_id": "programmatic-renewal__negative",
+            "status": "observed",
+            "value": 3,
+            "confidence": 0.8,
+            "support_type": "positive_manifestation",
+            "rationale": "В ряде выступлений Увамария подчёркивала продолжение и развитие действующих программ (например, обновление NDC как задача всего правительства и общества, поддержка существующих институтов гендерной политики, акцент на исполнимости климатических планов), что указывает на последовательное подтверждение и закрепление текущего курса.",
+            "evidence_indices": [
+              14,
+              16,
+              24
+            ]
+          }
+        },
+        "evidence_file": "evidence/independent-dossier-valentine-uwamariya.json",
+        "evidence_basis": "24fbf682049f02898c38121c4cea0834824d5311580773a960b94f9288ed434f"
+      }
+    },
+    "positive": 2,
+    "negative": 3,
+    "value": null,
+    "status": "observed",
+    "difference": null,
+    "mass": null,
+    "measurement_model": "independent_poles",
+    "evidence_file": "evidence/independent-dossier-valentine-uwamariya.json",
+    "evidence_basis": "24fbf682049f02898c38121c4cea0834824d5311580773a960b94f9288ed434f",
+    "at": "2026-10-15T17:30:31.187559+00:00",
+    "reason": "Каждое свойство оценивается независимо; разность и искусственное дополнение до пяти не вычисляются"
+  },
+  {
+    "object_id": "valentine-uwamariya",
+    "scale_id": "government-course-assessment",
+    "pole_scores": {
+      "positive": {
+        "status": "observed",
+        "value": 3,
+        "confidence": 0.8,
+        "evidence_indices": [
+          12,
+          16,
+          17,
+          22
+        ],
+        "source_urls": [
+          "https://www.ungeneva.org/en/news-media/meeting-summary/2024/05/examen-du-rwanda-devant-le-comite-cedaw-tout-en-saluant-les",
+          "https://www.africa-press.net/rwanda/policy/minister-uwamariya-on-rwandas-30-year-gender-equality-journey",
+          "https://www.ncda.gov.rw/updates/news-detail/minister-valentine-calls-girl-child-to-take-lead-in-own-development"
+        ],
+        "event_ids": [
+          "uwamariya-cedaw-gender-representation-2024-05-24",
+          "uwamariya-gender-education-women-lead-2024-04-04",
+          "uwamariya-cedaw-2024-05-24",
+          "uwamariya-2023-10-11-international-girl-child-day"
+        ],
+        "rationale": "Увамария в публичных заявлениях и официальных актах неоднократно представляла и поддерживала действующую государственную политику в сферах гендерного равенства, образования и экологии, без признаков критики общего курса.",
+        "support_type": "positive_manifestation",
+        "provenance": {
+          "raw_response_file": "evidence/independent_responses/12576cf41f92dc70b4a7a1f946b545bcbab6f27fb7be6a3b60fc4c29ea083721.json",
+          "model": "gpt-4.1",
+          "at": "2026-10-15T17:30:20.235421+00:00",
+          "cache_key": "12576cf41f92dc70b4a7a1f946b545bcbab6f27fb7be6a3b60fc4c29ea083721",
+          "original_proposal": {
+            "variable_id": "government-course-assessment__positive",
+            "status": "observed",
+            "value": 3,
+            "confidence": 0.8,
+            "support_type": "positive_manifestation",
+            "rationale": "Увамария в публичных заявлениях и официальных актах неоднократно представляла и поддерживала действующую государственную политику в сферах гендерного равенства, образования и экологии, без признаков критики общего курса.",
+            "evidence_indices": [
+              12,
+              16,
+              17,
+              22
+            ]
+          }
+        },
+        "evidence_file": "evidence/independent-dossier-valentine-uwamariya.json",
+        "evidence_basis": "24fbf682049f02898c38121c4cea0834824d5311580773a960b94f9288ed434f"
+      },
+      "negative": {
+        "status": "observed",
+        "value": 1,
+        "confidence": 0.5,
+        "evidence_indices": [
+          20
+        ],
+        "source_urls": [
+          "https://www.realrwanda.rw/uburezi-buriya-nitwe-dusigaye-tutarasa-nu-rwanda-min-dr-uwamariya"
+        ],
+        "event_ids": [
+          "uwamariya-2022-09-18-eastern-province-education-training"
+        ],
+        "rationale": "В одном эпизоде (совещание по образованию Восточной провинции) зафиксировано признание отставания и проблем в секторе, что можно трактовать как ограниченную критику исполнения, но не отрицание всего курса.",
+        "support_type": "positive_manifestation",
+        "provenance": {
+          "raw_response_file": "evidence/independent_responses/12576cf41f92dc70b4a7a1f946b545bcbab6f27fb7be6a3b60fc4c29ea083721.json",
+          "model": "gpt-4.1",
+          "at": "2026-10-15T17:30:20.235421+00:00",
+          "cache_key": "12576cf41f92dc70b4a7a1f946b545bcbab6f27fb7be6a3b60fc4c29ea083721",
+          "original_proposal": {
+            "variable_id": "government-course-assessment__negative",
+            "status": "observed",
+            "value": 1,
+            "confidence": 0.5,
+            "support_type": "positive_manifestation",
+            "rationale": "В одном эпизоде (совещание по образованию Восточной провинции) зафиксировано признание отставания и проблем в секторе, что можно трактовать как ограниченную критику исполнения, но не отрицание всего курса.",
+            "evidence_indices": [
+              20
+            ]
+          }
+        },
+        "evidence_file": "evidence/independent-dossier-valentine-uwamariya.json",
+        "evidence_basis": "24fbf682049f02898c38121c4cea0834824d5311580773a960b94f9288ed434f"
+      }
+    },
+    "positive": 3,
+    "negative": 1,
+    "value": null,
+    "status": "observed",
+    "difference": null,
+    "mass": null,
+    "measurement_model": "independent_poles",
+    "evidence_file": "evidence/independent-dossier-valentine-uwamariya.json",
+    "evidence_basis": "24fbf682049f02898c38121c4cea0834824d5311580773a960b94f9288ed434f",
+    "at": "2026-10-15T17:30:31.187559+00:00",
+    "reason": "Каждое свойство оценивается независимо; разность и искусственное дополнение до пяти не вычисляются"
+  },
+  {
+    "object_id": "valentine-uwamariya",
+    "scale_id": "participation-administrative-direction",
+    "pole_scores": {
+      "positive": {
+        "status": "observed",
+        "value": 2,
+        "confidence": 0.7,
+        "evidence_indices": [
+          5,
+          23
+        ],
+        "source_urls": [
+          "https://www.climatechange.gov.rw/updates/news-details/rwanda-and-germany-host-second-kigali-climate-talks-1",
+          "https://www.rema.gov.rw/updates/news-details/vhfa"
+        ],
+        "event_ids": [
+          "uwamariya-kigali-climate-talks-2024-10-04",
+          "uwamariya-2025-01-24-ndc3-consultations"
+        ],
+        "rationale": "В ряде случаев Увамария призывала к инклюзивности и участию различных сторон в подготовке решений (например, консультации по NDC 3.0, Kigali Climate Talks), однако эти эпизоды не носят устойчивого характера и не фиксируют системного акцента на совместном контроле.",
+        "support_type": "positive_manifestation",
+        "provenance": {
+          "raw_response_file": "evidence/independent_responses/12576cf41f92dc70b4a7a1f946b545bcbab6f27fb7be6a3b60fc4c29ea083721.json",
+          "model": "gpt-4.1",
+          "at": "2026-10-15T17:30:20.235421+00:00",
+          "cache_key": "12576cf41f92dc70b4a7a1f946b545bcbab6f27fb7be6a3b60fc4c29ea083721",
+          "original_proposal": {
+            "variable_id": "participation-administrative-direction__positive",
+            "status": "observed",
+            "value": 2,
+            "confidence": 0.7,
+            "support_type": "positive_manifestation",
+            "rationale": "В ряде случаев Увамария призывала к инклюзивности и участию различных сторон в подготовке решений (например, консультации по NDC 3.0, Kigali Climate Talks), однако эти эпизоды не носят устойчивого характера и не фиксируют системного акцента на совместном контроле.",
+            "evidence_indices": [
+              5,
+              23
+            ]
+          }
+        },
+        "evidence_file": "evidence/independent-dossier-valentine-uwamariya.json",
+        "evidence_basis": "24fbf682049f02898c38121c4cea0834824d5311580773a960b94f9288ed434f"
+      },
+      "negative": {
+        "status": "observed",
+        "value": 2,
+        "confidence": 0.7,
+        "evidence_indices": [
+          19,
+          20
+        ],
+        "source_urls": [
+          "https://www.newtimes.co.rw/article/201329/News/education-minister-warns-against-malpractices-as-national-exams-begin/amp",
+          "https://www.realrwanda.rw/uburezi-buriya-nitwe-dusigaye-tutarasa-nu-rwanda-min-dr-uwamariya"
+        ],
+        "event_ids": [
+          "uwamariya-2022-07-18-national-exams-integrity",
+          "uwamariya-2022-09-18-eastern-province-education-training"
+        ],
+        "rationale": "В ряде эпизодов (например, требования к исполнителям образования, административные поручения) проявляется директивный стиль постановки задач и контроля исполнения, но не как определяющая черта.",
+        "support_type": "positive_manifestation",
+        "provenance": {
+          "raw_response_file": "evidence/independent_responses/12576cf41f92dc70b4a7a1f946b545bcbab6f27fb7be6a3b60fc4c29ea083721.json",
+          "model": "gpt-4.1",
+          "at": "2026-10-15T17:30:20.235421+00:00",
+          "cache_key": "12576cf41f92dc70b4a7a1f946b545bcbab6f27fb7be6a3b60fc4c29ea083721",
+          "original_proposal": {
+            "variable_id": "participation-administrative-direction__negative",
+            "status": "observed",
+            "value": 2,
+            "confidence": 0.7,
+            "support_type": "positive_manifestation",
+            "rationale": "В ряде эпизодов (например, требования к исполнителям образования, административные поручения) проявляется директивный стиль постановки задач и контроля исполнения, но не как определяющая черта.",
+            "evidence_indices": [
+              19,
+              20
+            ]
+          }
+        },
+        "evidence_file": "evidence/independent-dossier-valentine-uwamariya.json",
+        "evidence_basis": "24fbf682049f02898c38121c4cea0834824d5311580773a960b94f9288ed434f"
+      }
+    },
+    "positive": 2,
+    "negative": 2,
+    "value": null,
+    "status": "observed",
+    "difference": null,
+    "mass": null,
+    "measurement_model": "independent_poles",
+    "evidence_file": "evidence/independent-dossier-valentine-uwamariya.json",
+    "evidence_basis": "24fbf682049f02898c38121c4cea0834824d5311580773a960b94f9288ed434f",
+    "at": "2026-10-15T17:30:31.187559+00:00",
+    "reason": "Каждое свойство оценивается независимо; разность и искусственное дополнение до пяти не вычисляются"
+  },
+  {
+    "object_id": "valentine-uwamariya",
+    "scale_id": "argumentation-evidence-values",
+    "pole_scores": {
+      "positive": {
+        "status": "observed",
+        "value": 2,
+        "confidence": 0.7,
+        "evidence_indices": [
+          8,
+          12,
+          16
+        ],
+        "source_urls": [
+          "https://www.rema.gov.rw/updates/news-details/rwandans-urged-to-double-efforts-in-combating-rising-air-pollution",
+          "https://www.ungeneva.org/en/news-media/meeting-summary/2024/05/examen-du-rwanda-devant-le-comite-cedaw-tout-en-saluant-les",
+          "https://www.africa-press.net/rwanda/policy/minister-uwamariya-on-rwandas-30-year-gender-equality-journey"
+        ],
+        "event_ids": [
+          "uwamariya-clean-air-day-2024-09-10",
+          "uwamariya-cedaw-gender-representation-2024-05-24",
+          "uwamariya-gender-education-women-lead-2024-04-04"
+        ],
+        "rationale": "В ряде публичных выступлений Увамария использовала ссылки на данные (например, загрязнение воздуха, квоты женщин), однако систематического акцента на доказательной аргументации не выявлено.",
+        "support_type": "positive_manifestation",
+        "provenance": {
+          "raw_response_file": "evidence/independent_responses/12576cf41f92dc70b4a7a1f946b545bcbab6f27fb7be6a3b60fc4c29ea083721.json",
+          "model": "gpt-4.1",
+          "at": "2026-10-15T17:30:20.235421+00:00",
+          "cache_key": "12576cf41f92dc70b4a7a1f946b545bcbab6f27fb7be6a3b60fc4c29ea083721",
+          "original_proposal": {
+            "variable_id": "argumentation-evidence-values__positive",
+            "status": "observed",
+            "value": 2,
+            "confidence": 0.7,
+            "support_type": "positive_manifestation",
+            "rationale": "В ряде публичных выступлений Увамария использовала ссылки на данные (например, загрязнение воздуха, квоты женщин), однако систематического акцента на доказательной аргументации не выявлено.",
+            "evidence_indices": [
+              8,
+              12,
+              16
+            ]
+          }
+        },
+        "evidence_file": "evidence/independent-dossier-valentine-uwamariya.json",
+        "evidence_basis": "24fbf682049f02898c38121c4cea0834824d5311580773a960b94f9288ed434f"
+      },
+      "negative": {
+        "status": "observed",
+        "value": 2,
+        "confidence": 0.7,
+        "evidence_indices": [
+          15,
+          22
+        ],
+        "source_urls": [
+          "https://www.ungeneva.org/en/news-media/meeting-summary/2024/05/examen-du-rwanda-devant-le-comite-cedaw-tout-en-saluant-les",
+          "https://www.ncda.gov.rw/updates/news-detail/minister-valentine-calls-girl-child-to-take-lead-in-own-development"
+        ],
+        "event_ids": [
+          "uwamariya-cedaw-justice-gbv-2024-05-24",
+          "uwamariya-2023-10-11-international-girl-child-day"
+        ],
+        "rationale": "В ряде случаев обоснование строилось на ценностях равенства, инклюзивности, коллективных целях (например, расширение участия женщин, защита пострадавших от насилия), но без устойчивого доминирования этого подхода.",
+        "support_type": "positive_manifestation",
+        "provenance": {
+          "raw_response_file": "evidence/independent_responses/12576cf41f92dc70b4a7a1f946b545bcbab6f27fb7be6a3b60fc4c29ea083721.json",
+          "model": "gpt-4.1",
+          "at": "2026-10-15T17:30:20.235421+00:00",
+          "cache_key": "12576cf41f92dc70b4a7a1f946b545bcbab6f27fb7be6a3b60fc4c29ea083721",
+          "original_proposal": {
+            "variable_id": "argumentation-evidence-values__negative",
+            "status": "observed",
+            "value": 2,
+            "confidence": 0.7,
+            "support_type": "positive_manifestation",
+            "rationale": "В ряде случаев обоснование строилось на ценностях равенства, инклюзивности, коллективных целях (например, расширение участия женщин, защита пострадавших от насилия), но без устойчивого доминирования этого подхода.",
+            "evidence_indices": [
+              15,
+              22
+            ]
+          }
+        },
+        "evidence_file": "evidence/independent-dossier-valentine-uwamariya.json",
+        "evidence_basis": "24fbf682049f02898c38121c4cea0834824d5311580773a960b94f9288ed434f"
+      }
+    },
+    "positive": 2,
+    "negative": 2,
+    "value": null,
+    "status": "observed",
+    "difference": null,
+    "mass": null,
+    "measurement_model": "independent_poles",
+    "evidence_file": "evidence/independent-dossier-valentine-uwamariya.json",
+    "evidence_basis": "24fbf682049f02898c38121c4cea0834824d5311580773a960b94f9288ed434f",
+    "at": "2026-10-15T17:30:31.187559+00:00",
+    "reason": "Каждое свойство оценивается независимо; разность и искусственное дополнение до пяти не вычисляются"
+  },
+  {
+    "object_id": "valentine-uwamariya",
+    "scale_id": "market-state-instruments",
+    "pole_scores": {
+      "positive": {
+        "status": "observed",
+        "value": 2,
+        "confidence": 0.7,
+        "evidence_indices": [
+          13,
+          16
+        ],
+        "source_urls": [
+          "https://www.ungeneva.org/en/news-media/meeting-summary/2024/05/examen-du-rwanda-devant-le-comite-cedaw-tout-en-saluant-les",
+          "https://www.africa-press.net/rwanda/policy/minister-uwamariya-on-rwandas-30-year-gender-equality-journey"
+        ],
+        "event_ids": [
+          "uwamariya-cedaw-private-sector-gender-seal-2024-05-24",
+          "uwamariya-gender-education-women-lead-2024-04-04"
+        ],
+        "rationale": "Увамария поддерживала программы, сочетающие частную инициативу с государственным регулированием (например, Gender Equality Seal, мобилизация частного сектора), но не делала акцента на полном приоритете частного управления.",
+        "support_type": "positive_manifestation",
+        "provenance": {
+          "raw_response_file": "evidence/independent_responses/12576cf41f92dc70b4a7a1f946b545bcbab6f27fb7be6a3b60fc4c29ea083721.json",
+          "model": "gpt-4.1",
+          "at": "2026-10-15T17:30:20.235421+00:00",
+          "cache_key": "12576cf41f92dc70b4a7a1f946b545bcbab6f27fb7be6a3b60fc4c29ea083721",
+          "original_proposal": {
+            "variable_id": "market-state-instruments__positive",
+            "status": "observed",
+            "value": 2,
+            "confidence": 0.7,
+            "support_type": "positive_manifestation",
+            "rationale": "Увамария поддерживала программы, сочетающие частную инициативу с государственным регулированием (например, Gender Equality Seal, мобилизация частного сектора), но не делала акцента на полном приоритете частного управления.",
+            "evidence_indices": [
+              13,
+              16
+            ]
+          }
+        },
+        "evidence_file": "evidence/independent-dossier-valentine-uwamariya.json",
+        "evidence_basis": "24fbf682049f02898c38121c4cea0834824d5311580773a960b94f9288ed434f"
+      },
+      "negative": {
+        "status": "observed",
+        "value": 2,
+        "confidence": 0.7,
+        "evidence_indices": [
+          12,
+          14
+        ],
+        "source_urls": [
+          "https://www.ungeneva.org/en/news-media/meeting-summary/2024/05/examen-du-rwanda-devant-le-comite-cedaw-tout-en-saluant-les"
+        ],
+        "event_ids": [
+          "uwamariya-cedaw-gender-representation-2024-05-24",
+          "uwamariya-cedaw-institutions-2024-05-24"
+        ],
+        "rationale": "В ряде эпизодов фиксируется поддержка государственных институтов и обязательных правил (например, квоты, государственные программы), однако не как доминирующая или исключительная стратегия.",
+        "support_type": "positive_manifestation",
+        "provenance": {
+          "raw_response_file": "evidence/independent_responses/12576cf41f92dc70b4a7a1f946b545bcbab6f27fb7be6a3b60fc4c29ea083721.json",
+          "model": "gpt-4.1",
+          "at": "2026-10-15T17:30:20.235421+00:00",
+          "cache_key": "12576cf41f92dc70b4a7a1f946b545bcbab6f27fb7be6a3b60fc4c29ea083721",
+          "original_proposal": {
+            "variable_id": "market-state-instruments__negative",
+            "status": "observed",
+            "value": 2,
+            "confidence": 0.7,
+            "support_type": "positive_manifestation",
+            "rationale": "В ряде эпизодов фиксируется поддержка государственных институтов и обязательных правил (например, квоты, государственные программы), однако не как доминирующая или исключительная стратегия.",
+            "evidence_indices": [
+              12,
+              14
+            ]
+          }
+        },
+        "evidence_file": "evidence/independent-dossier-valentine-uwamariya.json",
+        "evidence_basis": "24fbf682049f02898c38121c4cea0834824d5311580773a960b94f9288ed434f"
+      }
+    },
+    "positive": 2,
+    "negative": 2,
+    "value": null,
+    "status": "observed",
+    "difference": null,
+    "mass": null,
+    "measurement_model": "independent_poles",
+    "evidence_file": "evidence/independent-dossier-valentine-uwamariya.json",
+    "evidence_basis": "24fbf682049f02898c38121c4cea0834824d5311580773a960b94f9288ed434f",
+    "at": "2026-10-15T17:30:31.187559+00:00",
+    "reason": "Каждое свойство оценивается независимо; разность и искусственное дополнение до пяти не вычисляются"
+  },
+  {
+    "object_id": "valentine-uwamariya",
+    "scale_id": "accessibility-growth-priorities",
+    "pole_scores": {
+      "positive": {
+        "status": "observed",
+        "value": 3,
+        "confidence": 0.8,
+        "evidence_indices": [
+          12,
+          18,
+          22
+        ],
+        "source_urls": [
+          "https://www.ungeneva.org/en/news-media/meeting-summary/2024/05/examen-du-rwanda-devant-le-comite-cedaw-tout-en-saluant-les",
+          "https://www.migeprof.gov.rw/fileadmin/user_upload/Migeprof/Publications/Guidelines/WOMEN_EMPOWERMENT_THROUGH_DIGITAL_TECHNOLOGIES__WEM-TECH__STRATEGY.pdf",
+          "https://www.ncda.gov.rw/updates/news-detail/minister-valentine-calls-girl-child-to-take-lead-in-own-development"
+        ],
+        "event_ids": [
+          "uwamariya-cedaw-gender-representation-2024-05-24",
+          "uwamariya-wem-tech-2021-2026",
+          "uwamariya-2023-10-11-international-girl-child-day"
+        ],
+        "rationale": "В ряде программ и заявлений Увамария подчёркивала расширение доступа к базовым благам для обозначенных групп (например, женщин, девочек, доступ к образованию и цифровым технологиям), что фиксируется как устойчивый акцент.",
+        "support_type": "positive_manifestation",
+        "provenance": {
+          "raw_response_file": "evidence/independent_responses/12576cf41f92dc70b4a7a1f946b545bcbab6f27fb7be6a3b60fc4c29ea083721.json",
+          "model": "gpt-4.1",
+          "at": "2026-10-15T17:30:20.235421+00:00",
+          "cache_key": "12576cf41f92dc70b4a7a1f946b545bcbab6f27fb7be6a3b60fc4c29ea083721",
+          "original_proposal": {
+            "variable_id": "accessibility-growth-priorities__positive",
+            "status": "observed",
+            "value": 3,
+            "confidence": 0.8,
+            "support_type": "positive_manifestation",
+            "rationale": "В ряде программ и заявлений Увамария подчёркивала расширение доступа к базовым благам для обозначенных групп (например, женщин, девочек, доступ к образованию и цифровым технологиям), что фиксируется как устойчивый акцент.",
+            "evidence_indices": [
+              12,
+              18,
+              22
+            ]
+          }
+        },
+        "evidence_file": "evidence/independent-dossier-valentine-uwamariya.json",
+        "evidence_basis": "24fbf682049f02898c38121c4cea0834824d5311580773a960b94f9288ed434f"
+      },
+      "negative": {
+        "status": "observed",
+        "value": 2,
+        "confidence": 0.7,
+        "evidence_indices": [
+          13,
+          16
+        ],
+        "source_urls": [
+          "https://www.ungeneva.org/en/news-media/meeting-summary/2024/05/examen-du-rwanda-devant-le-comite-cedaw-tout-en-saluant-les",
+          "https://www.africa-press.net/rwanda/policy/minister-uwamariya-on-rwandas-30-year-gender-equality-journey"
+        ],
+        "event_ids": [
+          "uwamariya-cedaw-private-sector-gender-seal-2024-05-24",
+          "uwamariya-gender-education-women-lead-2024-04-04"
+        ],
+        "rationale": "В ряде эпизодов отмечалось содействие инвестициям, развитию частного сектора и экспортному сельскому хозяйству, однако это не основной акцент публичной политики Увамарии.",
+        "support_type": "positive_manifestation",
+        "provenance": {
+          "raw_response_file": "evidence/independent_responses/12576cf41f92dc70b4a7a1f946b545bcbab6f27fb7be6a3b60fc4c29ea083721.json",
+          "model": "gpt-4.1",
+          "at": "2026-10-15T17:30:20.235421+00:00",
+          "cache_key": "12576cf41f92dc70b4a7a1f946b545bcbab6f27fb7be6a3b60fc4c29ea083721",
+          "original_proposal": {
+            "variable_id": "accessibility-growth-priorities__negative",
+            "status": "observed",
+            "value": 2,
+            "confidence": 0.7,
+            "support_type": "positive_manifestation",
+            "rationale": "В ряде эпизодов отмечалось содействие инвестициям, развитию частного сектора и экспортному сельскому хозяйству, однако это не основной акцент публичной политики Увамарии.",
+            "evidence_indices": [
+              13,
+              16
+            ]
+          }
+        },
+        "evidence_file": "evidence/independent-dossier-valentine-uwamariya.json",
+        "evidence_basis": "24fbf682049f02898c38121c4cea0834824d5311580773a960b94f9288ed434f"
+      }
+    },
+    "positive": 3,
+    "negative": 2,
+    "value": null,
+    "status": "observed",
+    "difference": null,
+    "mass": null,
+    "measurement_model": "independent_poles",
+    "evidence_file": "evidence/independent-dossier-valentine-uwamariya.json",
+    "evidence_basis": "24fbf682049f02898c38121c4cea0834824d5311580773a960b94f9288ed434f",
+    "at": "2026-10-15T17:30:31.187559+00:00",
+    "reason": "Каждое свойство оценивается независимо; разность и искусственное дополнение до пяти не вычисляются"
+  },
+  {
+    "object_id": "valentine-uwamariya",
+    "scale_id": "external-domestic-resources",
+    "pole_scores": {
+      "positive": {
+        "status": "observed",
+        "value": 3,
+        "confidence": 0.8,
+        "evidence_indices": [
+          4,
+          5,
+          6,
+          9
+        ],
+        "source_urls": [
+          "https://www.rema.gov.rw/updates/news-details/rwanda-advocates-for-ending-plastic-pollution-and-climate-action-at-unga79",
+          "https://www.climatechange.gov.rw/updates/news-details/rwanda-and-germany-host-second-kigali-climate-talks-1",
+          "https://www.environment.gov.rw/news-detail/rwandas-2024-achievements-in-climate-action-and-sustainability"
+        ],
+        "event_ids": [
+          "uwamariya-ndc-partnership-climate-finance-2024-09-25",
+          "uwamariya-kigali-climate-talks-2024-10-04",
+          "uwamariya-kigali-climate-talks-diplomatic-dialogue-2024-10-04",
+          "rwanda-congo-nile-restoration-2024"
+        ],
+        "rationale": "Увамария последовательно выступала за привлечение международного финансирования и партнёрства (например, климатическое финансирование, проекты с Германией и ЕС, международные коалиции), что фиксируется как устойчивый акцент.",
+        "support_type": "positive_manifestation",
+        "provenance": {
+          "raw_response_file": "evidence/independent_responses/12576cf41f92dc70b4a7a1f946b545bcbab6f27fb7be6a3b60fc4c29ea083721.json",
+          "model": "gpt-4.1",
+          "at": "2026-10-15T17:30:20.235421+00:00",
+          "cache_key": "12576cf41f92dc70b4a7a1f946b545bcbab6f27fb7be6a3b60fc4c29ea083721",
+          "original_proposal": {
+            "variable_id": "external-domestic-resources__positive",
+            "status": "observed",
+            "value": 3,
+            "confidence": 0.8,
+            "support_type": "positive_manifestation",
+            "rationale": "Увамария последовательно выступала за привлечение международного финансирования и партнёрства (например, климатическое финансирование, проекты с Германией и ЕС, международные коалиции), что фиксируется как устойчивый акцент.",
+            "evidence_indices": [
+              4,
+              5,
+              6,
+              9
+            ]
+          }
+        },
+        "evidence_file": "evidence/independent-dossier-valentine-uwamariya.json",
+        "evidence_basis": "24fbf682049f02898c38121c4cea0834824d5311580773a960b94f9288ed434f"
+      },
+      "negative": {
+        "status": "observed",
+        "value": 1,
+        "confidence": 0.5,
+        "evidence_indices": [
+          4
+        ],
+        "source_urls": [
+          "https://www.rema.gov.rw/updates/news-details/rwanda-advocates-for-ending-plastic-pollution-and-climate-action-at-unga79"
+        ],
+        "event_ids": [
+          "uwamariya-ndc-partnership-climate-finance-2024-09-25"
+        ],
+        "rationale": "В отдельных эпизодах (например, акцент на усилении национальных систем в рамках климатического финансирования) отмечалась важность внутренних механизмов, однако это не устойчивый акцент.",
+        "support_type": "positive_manifestation",
+        "provenance": {
+          "raw_response_file": "evidence/independent_responses/12576cf41f92dc70b4a7a1f946b545bcbab6f27fb7be6a3b60fc4c29ea083721.json",
+          "model": "gpt-4.1",
+          "at": "2026-10-15T17:30:20.235421+00:00",
+          "cache_key": "12576cf41f92dc70b4a7a1f946b545bcbab6f27fb7be6a3b60fc4c29ea083721",
+          "original_proposal": {
+            "variable_id": "external-domestic-resources__negative",
+            "status": "observed",
+            "value": 1,
+            "confidence": 0.5,
+            "support_type": "positive_manifestation",
+            "rationale": "В отдельных эпизодах (например, акцент на усилении национальных систем в рамках климатического финансирования) отмечалась важность внутренних механизмов, однако это не устойчивый акцент.",
+            "evidence_indices": [
+              4
+            ]
+          }
+        },
+        "evidence_file": "evidence/independent-dossier-valentine-uwamariya.json",
+        "evidence_basis": "24fbf682049f02898c38121c4cea0834824d5311580773a960b94f9288ed434f"
+      }
+    },
+    "positive": 3,
+    "negative": 1,
+    "value": null,
+    "status": "observed",
+    "difference": null,
+    "mass": null,
+    "measurement_model": "independent_poles",
+    "evidence_file": "evidence/independent-dossier-valentine-uwamariya.json",
+    "evidence_basis": "24fbf682049f02898c38121c4cea0834824d5311580773a960b94f9288ed434f",
+    "at": "2026-10-15T17:30:31.187559+00:00",
+    "reason": "Каждое свойство оценивается независимо; разность и искусственное дополнение до пяти не вычисляются"
+  },
+  {
+    "object_id": "valentine-uwamariya",
+    "scale_id": "international-rules-autonomy",
+    "pole_scores": {
+      "positive": {
+        "status": "observed",
+        "value": 3,
+        "confidence": 0.8,
+        "evidence_indices": [
+          1,
+          2,
+          3,
+          10
+        ],
+        "source_urls": [
+          "https://www.environment.gov.rw/news-detail/green-rwanda-at-unga79-ending-plastic-pollution-and-advancing-climate-action",
+          "https://www.rema.gov.rw/updates/news-details/rwanda-advocates-for-ending-plastic-pollution-and-climate-action-at-unga79"
+        ],
+        "event_ids": [
+          "uwamariya-unga79-plastic-treaty-2024-09",
+          "uwamariya-plastic-coalition-2024-09",
+          "uwamariya-ndc-partnership-2024-09-25",
+          "uwamariya-plastics-life-cycle-2024-09"
+        ],
+        "rationale": "Увамария активно продвигала международные договоры и обязательства (например, юридически обязательный договор по пластику, участие в международных коалициях), что фиксируется как устойчивый акцент на закреплении международных норм.",
+        "support_type": "positive_manifestation",
+        "provenance": {
+          "raw_response_file": "evidence/independent_responses/12576cf41f92dc70b4a7a1f946b545bcbab6f27fb7be6a3b60fc4c29ea083721.json",
+          "model": "gpt-4.1",
+          "at": "2026-10-15T17:30:20.235421+00:00",
+          "cache_key": "12576cf41f92dc70b4a7a1f946b545bcbab6f27fb7be6a3b60fc4c29ea083721",
+          "original_proposal": {
+            "variable_id": "international-rules-autonomy__positive",
+            "status": "observed",
+            "value": 3,
+            "confidence": 0.8,
+            "support_type": "positive_manifestation",
+            "rationale": "Увамария активно продвигала международные договоры и обязательства (например, юридически обязательный договор по пластику, участие в международных коалициях), что фиксируется как устойчивый акцент на закреплении международных норм.",
+            "evidence_indices": [
+              1,
+              2,
+              3,
+              10
+            ]
+          }
+        },
+        "evidence_file": "evidence/independent-dossier-valentine-uwamariya.json",
+        "evidence_basis": "24fbf682049f02898c38121c4cea0834824d5311580773a960b94f9288ed434f"
+      },
+      "negative": {
+        "status": "observed",
+        "value": 1,
+        "confidence": 0.5,
+        "evidence_indices": [
+          4
+        ],
+        "source_urls": [
+          "https://www.rema.gov.rw/updates/news-details/rwanda-advocates-for-ending-plastic-pollution-and-climate-action-at-unga79"
+        ],
+        "event_ids": [
+          "uwamariya-ndc-partnership-climate-finance-2024-09-25"
+        ],
+        "rationale": "В отдельных случаях (например, призыв к усилению национальных систем в климатическом финансировании) отмечалась важность национального подхода, но без устойчивого противостояния международным нормам.",
+        "support_type": "positive_manifestation",
+        "provenance": {
+          "raw_response_file": "evidence/independent_responses/12576cf41f92dc70b4a7a1f946b545bcbab6f27fb7be6a3b60fc4c29ea083721.json",
+          "model": "gpt-4.1",
+          "at": "2026-10-15T17:30:20.235421+00:00",
+          "cache_key": "12576cf41f92dc70b4a7a1f946b545bcbab6f27fb7be6a3b60fc4c29ea083721",
+          "original_proposal": {
+            "variable_id": "international-rules-autonomy__negative",
+            "status": "observed",
+            "value": 1,
+            "confidence": 0.5,
+            "support_type": "positive_manifestation",
+            "rationale": "В отдельных случаях (например, призыв к усилению национальных систем в климатическом финансировании) отмечалась важность национального подхода, но без устойчивого противостояния международным нормам.",
+            "evidence_indices": [
+              4
+            ]
+          }
+        },
+        "evidence_file": "evidence/independent-dossier-valentine-uwamariya.json",
+        "evidence_basis": "24fbf682049f02898c38121c4cea0834824d5311580773a960b94f9288ed434f"
+      }
+    },
+    "positive": 3,
+    "negative": 1,
+    "value": null,
+    "status": "observed",
+    "difference": null,
+    "mass": null,
+    "measurement_model": "independent_poles",
+    "evidence_file": "evidence/independent-dossier-valentine-uwamariya.json",
+    "evidence_basis": "24fbf682049f02898c38121c4cea0834824d5311580773a960b94f9288ed434f",
+    "at": "2026-10-15T17:30:31.187559+00:00",
+    "reason": "Каждое свойство оценивается независимо; разность и искусственное дополнение до пяти не вычисляются"
+  },
+  {
+    "object_id": "valentine-uwamariya",
+    "scale_id": "mediation-adversarial-communication",
+    "pole_scores": {
+      "positive": {
+        "status": "observed",
+        "value": 3,
+        "confidence": 0.8,
+        "evidence_indices": [
+          2,
+          3,
+          5,
+          6,
+          23
+        ],
+        "source_urls": [
+          "https://www.rema.gov.rw/updates/news-details/rwanda-advocates-for-ending-plastic-pollution-and-climate-action-at-unga79",
+          "https://www.environment.gov.rw/news-detail/green-rwanda-at-unga79-ending-plastic-pollution-and-advancing-climate-action",
+          "https://www.climatechange.gov.rw/updates/news-details/rwanda-and-germany-host-second-kigali-climate-talks-1",
+          "https://www.rema.gov.rw/updates/news-details/vhfa"
+        ],
+        "event_ids": [
+          "uwamariya-plastic-coalition-2024-09",
+          "uwamariya-ndc-partnership-2024-09-25",
+          "uwamariya-kigali-climate-talks-2024-10-04",
+          "uwamariya-kigali-climate-talks-diplomatic-dialogue-2024-10-04",
+          "uwamariya-2025-01-24-ndc3-consultations"
+        ],
+        "rationale": "Увамария регулярно участвовала в переговорах, коалициях и диалогах, направленных на согласование позиций и посредничество (например, международные климатические переговоры, Kigali Climate Talks, консультации по NDC 3.0).",
+        "support_type": "positive_manifestation",
+        "provenance": {
+          "raw_response_file": "evidence/independent_responses/12576cf41f92dc70b4a7a1f946b545bcbab6f27fb7be6a3b60fc4c29ea083721.json",
+          "model": "gpt-4.1",
+          "at": "2026-10-15T17:30:20.235421+00:00",
+          "cache_key": "12576cf41f92dc70b4a7a1f946b545bcbab6f27fb7be6a3b60fc4c29ea083721",
+          "original_proposal": {
+            "variable_id": "mediation-adversarial-communication__positive",
+            "status": "observed",
+            "value": 3,
+            "confidence": 0.8,
+            "support_type": "positive_manifestation",
+            "rationale": "Увамария регулярно участвовала в переговорах, коалициях и диалогах, направленных на согласование позиций и посредничество (например, международные климатические переговоры, Kigali Climate Talks, консультации по NDC 3.0).",
+            "evidence_indices": [
+              2,
+              3,
+              5,
+              6,
+              23
+            ]
+          }
+        },
+        "evidence_file": "evidence/independent-dossier-valentine-uwamariya.json",
+        "evidence_basis": "24fbf682049f02898c38121c4cea0834824d5311580773a960b94f9288ed434f"
+      },
+      "negative": {
+        "status": "unknown",
+        "value": null,
+        "confidence": 0,
+        "evidence_indices": [],
+        "source_urls": [],
+        "event_ids": [],
+        "rationale": "В доступных материалах не выявлено эпизодов, где Увамария занимала бы полемическую или конфронтационную позицию в публичной коммуникации.",
+        "support_type": "unknown",
+        "provenance": {
+          "raw_response_file": "evidence/independent_responses/12576cf41f92dc70b4a7a1f946b545bcbab6f27fb7be6a3b60fc4c29ea083721.json",
+          "model": "gpt-4.1",
+          "at": "2026-10-15T17:30:20.235421+00:00",
+          "cache_key": "12576cf41f92dc70b4a7a1f946b545bcbab6f27fb7be6a3b60fc4c29ea083721",
+          "original_proposal": {
+            "variable_id": "mediation-adversarial-communication__negative",
+            "status": "unknown",
+            "value": null,
+            "confidence": 0.3,
+            "support_type": "unknown",
+            "rationale": "В доступных материалах не выявлено эпизодов, где Увамария занимала бы полемическую или конфронтационную позицию в публичной коммуникации.",
+            "evidence_indices": []
+          }
+        },
+        "evidence_file": "evidence/independent-dossier-valentine-uwamariya.json",
+        "evidence_basis": "24fbf682049f02898c38121c4cea0834824d5311580773a960b94f9288ed434f"
+      }
+    },
+    "positive": 3,
+    "negative": null,
+    "value": null,
+    "status": "partial",
+    "difference": null,
+    "mass": null,
+    "measurement_model": "independent_poles",
+    "evidence_file": "evidence/independent-dossier-valentine-uwamariya.json",
+    "evidence_basis": "24fbf682049f02898c38121c4cea0834824d5311580773a960b94f9288ed434f",
+    "at": "2026-10-15T17:30:31.187559+00:00",
+    "reason": "Каждое свойство оценивается независимо; разность и искусственное дополнение до пяти не вычисляются"
+  },
+  {
+    "object_id": "valentine-uwamariya",
+    "scale_id": "cultural-openness-national-transmission",
+    "pole_scores": {
+      "positive": {
+        "status": "observed",
+        "value": 2,
+        "confidence": 0.7,
+        "evidence_indices": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          23
+        ],
+        "source_urls": [
+          "https://www.environment.gov.rw/news-detail/green-rwanda-at-unga79-ending-plastic-pollution-and-advancing-climate-action",
+          "https://www.rema.gov.rw/updates/news-details/rwanda-advocates-for-ending-plastic-pollution-and-climate-action-at-unga79",
+          "https://www.climatechange.gov.rw/updates/news-details/rwanda-and-germany-host-second-kigali-climate-talks-1",
+          "https://www.rema.gov.rw/updates/news-details/vhfa"
+        ],
+        "event_ids": [
+          "uwamariya-unga79-plastics-climate-2024-09",
+          "uwamariya-unga79-plastic-treaty-2024-09",
+          "uwamariya-plastic-coalition-2024-09",
+          "uwamariya-ndc-partnership-2024-09-25",
+          "uwamariya-ndc-partnership-climate-finance-2024-09-25",
+          "uwamariya-kigali-climate-talks-2024-10-04",
+          "uwamariya-kigali-climate-talks-diplomatic-dialogue-2024-10-04",
+          "uwamariya-2025-01-24-ndc3-consultations"
+        ],
+        "rationale": "Увамария неоднократно участвовала в международных экологических и гендерных инициативах, акцентируя сотрудничество с зарубежными организациями (ООН, ЕС, Германия) и инклюзивность в климатической политике. Это фиксирует ограниченное, но последовательное проявление расширения межкультурного обмена и разнообразия.",
+        "support_type": "positive_manifestation",
+        "provenance": {
+          "raw_response_file": "evidence/independent_responses/eeb874f39d954f640fdc25d9bdc9c911c44164c5d267a63be2ac8e48c2a93580.json",
+          "model": "gpt-4.1",
+          "at": "2026-10-15T17:30:31.183367+00:00",
+          "cache_key": "eeb874f39d954f640fdc25d9bdc9c911c44164c5d267a63be2ac8e48c2a93580",
+          "original_proposal": {
+            "variable_id": "cultural-openness-national-transmission__positive",
+            "status": "observed",
+            "value": 2,
+            "confidence": 0.7,
+            "support_type": "positive_manifestation",
+            "rationale": "Увамария неоднократно участвовала в международных экологических и гендерных инициативах, акцентируя сотрудничество с зарубежными организациями (ООН, ЕС, Германия) и инклюзивность в климатической политике. Это фиксирует ограниченное, но последовательное проявление расширения межкультурного обмена и разнообразия.",
+            "evidence_indices": [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5,
+              6,
+              23
+            ]
+          }
+        },
+        "evidence_file": "evidence/independent-dossier-valentine-uwamariya.json",
+        "evidence_basis": "24fbf682049f02898c38121c4cea0834824d5311580773a960b94f9288ed434f"
+      },
+      "negative": {
+        "status": "unknown",
+        "value": null,
+        "confidence": 0,
+        "evidence_indices": [],
+        "source_urls": [],
+        "event_ids": [],
+        "rationale": "Нет прямых эпизодов, где Увамария делала акцент на сохранении и передаче национальных ценностей как самостоятельной публичной позиции, отличной от международного сотрудничества.",
+        "support_type": "unknown",
+        "provenance": {
+          "raw_response_file": "evidence/independent_responses/eeb874f39d954f640fdc25d9bdc9c911c44164c5d267a63be2ac8e48c2a93580.json",
+          "model": "gpt-4.1",
+          "at": "2026-10-15T17:30:31.183367+00:00",
+          "cache_key": "eeb874f39d954f640fdc25d9bdc9c911c44164c5d267a63be2ac8e48c2a93580",
+          "original_proposal": {
+            "variable_id": "cultural-openness-national-transmission__negative",
+            "status": "unknown",
+            "value": null,
+            "confidence": 0.3,
+            "support_type": "unknown",
+            "rationale": "Нет прямых эпизодов, где Увамария делала акцент на сохранении и передаче национальных ценностей как самостоятельной публичной позиции, отличной от международного сотрудничества.",
+            "evidence_indices": []
+          }
+        },
+        "evidence_file": "evidence/independent-dossier-valentine-uwamariya.json",
+        "evidence_basis": "24fbf682049f02898c38121c4cea0834824d5311580773a960b94f9288ed434f"
+      }
+    },
+    "positive": 2,
+    "negative": null,
+    "value": null,
+    "status": "partial",
+    "difference": null,
+    "mass": null,
+    "measurement_model": "independent_poles",
+    "evidence_file": "evidence/independent-dossier-valentine-uwamariya.json",
+    "evidence_basis": "24fbf682049f02898c38121c4cea0834824d5311580773a960b94f9288ed434f",
+    "at": "2026-10-15T17:30:31.187559+00:00",
+    "reason": "Каждое свойство оценивается независимо; разность и искусственное дополнение до пяти не вычисляются"
+  },
+  {
+    "object_id": "valentine-uwamariya",
+    "scale_id": "problem-disclosure-reputation-defence",
+    "pole_scores": {
+      "positive": {
+        "status": "observed",
+        "value": 2,
+        "confidence": 0.7,
+        "evidence_indices": [
+          8,
+          15,
+          20
+        ],
+        "source_urls": [
+          "https://www.rema.gov.rw/updates/news-details/rwandans-urged-to-double-efforts-in-combating-rising-air-pollution",
+          "https://www.ungeneva.org/en/news-media/meeting-summary/2024/05/examen-du-rwanda-devant-le-comite-cedaw-tout-en-saluant-les",
+          "https://www.realrwanda.rw/uburezi-buriya-nitwe-dusigaye-tutarasa-nu-rwanda-min-dr-uwamariya"
+        ],
+        "event_ids": [
+          "uwamariya-clean-air-day-2024-09-10",
+          "uwamariya-cedaw-justice-gbv-2024-05-24",
+          "uwamariya-2022-09-18-eastern-province-education-training"
+        ],
+        "rationale": "В ряде случаев Увамария публично признаёт существование проблем, например, загрязнение воздуха, отставание образования в провинции, последствия гендерного насилия. Это ограниченное, но ясное проявление публичного раскрытия проблем.",
+        "support_type": "positive_manifestation",
+        "provenance": {
+          "raw_response_file": "evidence/independent_responses/eeb874f39d954f640fdc25d9bdc9c911c44164c5d267a63be2ac8e48c2a93580.json",
+          "model": "gpt-4.1",
+          "at": "2026-10-15T17:30:31.183367+00:00",
+          "cache_key": "eeb874f39d954f640fdc25d9bdc9c911c44164c5d267a63be2ac8e48c2a93580",
+          "original_proposal": {
+            "variable_id": "problem-disclosure-reputation-defence__positive",
+            "status": "observed",
+            "value": 2,
+            "confidence": 0.7,
+            "support_type": "positive_manifestation",
+            "rationale": "В ряде случаев Увамария публично признаёт существование проблем, например, загрязнение воздуха, отставание образования в провинции, последствия гендерного насилия. Это ограниченное, но ясное проявление публичного раскрытия проблем.",
+            "evidence_indices": [
+              8,
+              15,
+              20
+            ]
+          }
+        },
+        "evidence_file": "evidence/independent-dossier-valentine-uwamariya.json",
+        "evidence_basis": "24fbf682049f02898c38121c4cea0834824d5311580773a960b94f9288ed434f"
+      },
+      "negative": {
+        "status": "observed",
+        "value": 2,
+        "confidence": 0.6,
+        "evidence_indices": [
+          7,
+          12,
+          13,
+          17
+        ],
+        "source_urls": [
+          "https://www.environment.gov.rw/news-detail/rwandas-2024-achievements-in-climate-action-and-sustainability",
+          "https://www.ungeneva.org/en/news-media/meeting-summary/2024/05/examen-du-rwanda-devant-le-comite-cedaw-tout-en-saluant-les"
+        ],
+        "event_ids": [
+          "uwamariya-cop29-national-statement-2024-11-19",
+          "uwamariya-cedaw-gender-representation-2024-05-24",
+          "uwamariya-cedaw-private-sector-gender-seal-2024-05-24",
+          "uwamariya-cedaw-2024-05-24"
+        ],
+        "rationale": "В ряде эпизодов Увамария выступает как официальный представитель государственной линии, акцентируя достижения и продвижение политики Руанды (например, на CEDAW, COP29, UNGA79), что фиксирует ограниченное проявление защитного продвижения репутации.",
+        "support_type": "positive_manifestation",
+        "provenance": {
+          "raw_response_file": "evidence/independent_responses/eeb874f39d954f640fdc25d9bdc9c911c44164c5d267a63be2ac8e48c2a93580.json",
+          "model": "gpt-4.1",
+          "at": "2026-10-15T17:30:31.183367+00:00",
+          "cache_key": "eeb874f39d954f640fdc25d9bdc9c911c44164c5d267a63be2ac8e48c2a93580",
+          "original_proposal": {
+            "variable_id": "problem-disclosure-reputation-defence__negative",
+            "status": "observed",
+            "value": 2,
+            "confidence": 0.6,
+            "support_type": "positive_manifestation",
+            "rationale": "В ряде эпизодов Увамария выступает как официальный представитель государственной линии, акцентируя достижения и продвижение политики Руанды (например, на CEDAW, COP29, UNGA79), что фиксирует ограниченное проявление защитного продвижения репутации.",
+            "evidence_indices": [
+              7,
+              12,
+              13,
+              17
+            ]
+          }
+        },
+        "evidence_file": "evidence/independent-dossier-valentine-uwamariya.json",
+        "evidence_basis": "24fbf682049f02898c38121c4cea0834824d5311580773a960b94f9288ed434f"
+      }
+    },
+    "positive": 2,
+    "negative": 2,
+    "value": null,
+    "status": "observed",
+    "difference": null,
+    "mass": null,
+    "measurement_model": "independent_poles",
+    "evidence_file": "evidence/independent-dossier-valentine-uwamariya.json",
+    "evidence_basis": "24fbf682049f02898c38121c4cea0834824d5311580773a960b94f9288ed434f",
+    "at": "2026-10-15T17:30:31.187559+00:00",
+    "reason": "Каждое свойство оценивается независимо; разность и искусственное дополнение до пяти не вычисляются"
+  },
+  {
+    "object_id": "valentine-uwamariya",
+    "scale_id": "procedural-guarantees-enforcement",
+    "pole_scores": {
+      "positive": {
+        "status": "unknown",
+        "value": null,
+        "confidence": 0,
+        "evidence_indices": [],
+        "source_urls": [],
+        "event_ids": [],
+        "rationale": "Нет прямых эпизодов, где Увамария выступала с инициативами по расширению процедур защиты или обжалования. Описание последствий насилия и упоминание институтов не содержат конкретных предложений по процедурам.",
+        "support_type": "unknown",
+        "provenance": {
+          "raw_response_file": "evidence/independent_responses/eeb874f39d954f640fdc25d9bdc9c911c44164c5d267a63be2ac8e48c2a93580.json",
+          "model": "gpt-4.1",
+          "at": "2026-10-15T17:30:31.183367+00:00",
+          "cache_key": "eeb874f39d954f640fdc25d9bdc9c911c44164c5d267a63be2ac8e48c2a93580",
+          "original_proposal": {
+            "variable_id": "procedural-guarantees-enforcement__positive",
+            "status": "unknown",
+            "value": null,
+            "confidence": 0.3,
+            "support_type": "unknown",
+            "rationale": "Нет прямых эпизодов, где Увамария выступала с инициативами по расширению процедур защиты или обжалования. Описание последствий насилия и упоминание институтов не содержат конкретных предложений по процедурам.",
+            "evidence_indices": []
+          }
+        },
+        "evidence_file": "evidence/independent-dossier-valentine-uwamariya.json",
+        "evidence_basis": "24fbf682049f02898c38121c4cea0834824d5311580773a960b94f9288ed434f"
+      },
+      "negative": {
+        "status": "observed",
+        "value": 1,
+        "confidence": 0.5,
+        "evidence_indices": [
+          19
+        ],
+        "source_urls": [
+          "https://www.newtimes.co.rw/article/201329/News/education-minister-warns-against-malpractices-as-national-exams-begin/amp"
+        ],
+        "event_ids": [
+          "uwamariya-2022-07-18-national-exams-integrity"
+        ],
+        "rationale": "В эпизоде с национальными экзаменами Увамария требовала строгого соблюдения процедур и недопустимости помощи учащимся, что фиксирует единичное проявление принудительного обеспечения обязательных требований.",
+        "support_type": "positive_manifestation",
+        "provenance": {
+          "raw_response_file": "evidence/independent_responses/eeb874f39d954f640fdc25d9bdc9c911c44164c5d267a63be2ac8e48c2a93580.json",
+          "model": "gpt-4.1",
+          "at": "2026-10-15T17:30:31.183367+00:00",
+          "cache_key": "eeb874f39d954f640fdc25d9bdc9c911c44164c5d267a63be2ac8e48c2a93580",
+          "original_proposal": {
+            "variable_id": "procedural-guarantees-enforcement__negative",
+            "status": "observed",
+            "value": 1,
+            "confidence": 0.5,
+            "support_type": "positive_manifestation",
+            "rationale": "В эпизоде с национальными экзаменами Увамария требовала строгого соблюдения процедур и недопустимости помощи учащимся, что фиксирует единичное проявление принудительного обеспечения обязательных требований.",
+            "evidence_indices": [
+              19
+            ]
+          }
+        },
+        "evidence_file": "evidence/independent-dossier-valentine-uwamariya.json",
+        "evidence_basis": "24fbf682049f02898c38121c4cea0834824d5311580773a960b94f9288ed434f"
+      }
+    },
+    "positive": null,
+    "negative": 1,
+    "value": null,
+    "status": "partial",
+    "difference": null,
+    "mass": null,
+    "measurement_model": "independent_poles",
+    "evidence_file": "evidence/independent-dossier-valentine-uwamariya.json",
+    "evidence_basis": "24fbf682049f02898c38121c4cea0834824d5311580773a960b94f9288ed434f",
+    "at": "2026-10-15T17:30:31.187559+00:00",
+    "reason": "Каждое свойство оценивается независимо; разность и искусственное дополнение до пяти не вычисляются"
+  },
+  {
+    "object_id": "valentine-uwamariya",
+    "scale_id": "prevention-crisis-response",
+    "pole_scores": {
+      "positive": {
+        "status": "observed",
+        "value": 2,
+        "confidence": 0.7,
+        "evidence_indices": [
+          9,
+          23,
+          24
+        ],
+        "source_urls": [
+          "https://www.environment.gov.rw/news-detail/rwandas-2024-achievements-in-climate-action-and-sustainability",
+          "https://www.rema.gov.rw/updates/news-details/vhfa"
+        ],
+        "event_ids": [
+          "rwanda-congo-nile-restoration-2024",
+          "uwamariya-2025-01-24-ndc3-consultations",
+          "uwamariya-2025-01-24-ndc3-whole-of-government"
+        ],
+        "rationale": "Увамария акцентирует упреждающие меры в климатической политике (восстановление водораздела, подготовка к климатическим рискам, стратегическое планирование NDC), что фиксирует ограниченное, но последовательное проявление профилактики.",
+        "support_type": "positive_manifestation",
+        "provenance": {
+          "raw_response_file": "evidence/independent_responses/eeb874f39d954f640fdc25d9bdc9c911c44164c5d267a63be2ac8e48c2a93580.json",
+          "model": "gpt-4.1",
+          "at": "2026-10-15T17:30:31.183367+00:00",
+          "cache_key": "eeb874f39d954f640fdc25d9bdc9c911c44164c5d267a63be2ac8e48c2a93580",
+          "original_proposal": {
+            "variable_id": "prevention-crisis-response__positive",
+            "status": "observed",
+            "value": 2,
+            "confidence": 0.7,
+            "support_type": "positive_manifestation",
+            "rationale": "Увамария акцентирует упреждающие меры в климатической политике (восстановление водораздела, подготовка к климатическим рискам, стратегическое планирование NDC), что фиксирует ограниченное, но последовательное проявление профилактики.",
+            "evidence_indices": [
+              9,
+              23,
+              24
+            ]
+          }
+        },
+        "evidence_file": "evidence/independent-dossier-valentine-uwamariya.json",
+        "evidence_basis": "24fbf682049f02898c38121c4cea0834824d5311580773a960b94f9288ed434f"
+      },
+      "negative": {
+        "status": "unknown",
+        "value": null,
+        "confidence": 0,
+        "evidence_indices": [],
+        "source_urls": [],
+        "event_ids": [],
+        "rationale": "Нет прямых эпизодов, где Увамария делала акцент на действиях только в ответ на уже возникший кризис.",
+        "support_type": "unknown",
+        "provenance": {
+          "raw_response_file": "evidence/independent_responses/eeb874f39d954f640fdc25d9bdc9c911c44164c5d267a63be2ac8e48c2a93580.json",
+          "model": "gpt-4.1",
+          "at": "2026-10-15T17:30:31.183367+00:00",
+          "cache_key": "eeb874f39d954f640fdc25d9bdc9c911c44164c5d267a63be2ac8e48c2a93580",
+          "original_proposal": {
+            "variable_id": "prevention-crisis-response__negative",
+            "status": "unknown",
+            "value": null,
+            "confidence": 0.3,
+            "support_type": "unknown",
+            "rationale": "Нет прямых эпизодов, где Увамария делала акцент на действиях только в ответ на уже возникший кризис.",
+            "evidence_indices": []
+          }
+        },
+        "evidence_file": "evidence/independent-dossier-valentine-uwamariya.json",
+        "evidence_basis": "24fbf682049f02898c38121c4cea0834824d5311580773a960b94f9288ed434f"
+      }
+    },
+    "positive": 2,
+    "negative": null,
+    "value": null,
+    "status": "partial",
+    "difference": null,
+    "mass": null,
+    "measurement_model": "independent_poles",
+    "evidence_file": "evidence/independent-dossier-valentine-uwamariya.json",
+    "evidence_basis": "24fbf682049f02898c38121c4cea0834824d5311580773a960b94f9288ed434f",
+    "at": "2026-10-15T17:30:31.187559+00:00",
+    "reason": "Каждое свойство оценивается независимо; разность и искусственное дополнение до пяти не вычисляются"
+  },
+  {
+    "object_id": "valentine-uwamariya",
+    "scale_id": "electoral-access",
+    "pole_scores": {
+      "positive": {
+        "status": "observed",
+        "value": 2,
+        "confidence": 0.7,
+        "evidence_indices": [
+          12,
+          22
+        ],
+        "source_urls": [
+          "https://www.ungeneva.org/en/news-media/meeting-summary/2024/05/examen-du-rwanda-devant-le-comite-cedaw-tout-en-saluant-les",
+          "https://www.ncda.gov.rw/updates/news-detail/minister-valentine-calls-girl-child-to-take-lead-in-own-development"
+        ],
+        "event_ids": [
+          "uwamariya-cedaw-gender-representation-2024-05-24",
+          "uwamariya-2023-10-11-international-girl-child-day"
+        ],
+        "rationale": "Увамария публично поддерживала расширение политического участия женщин через квоты и мобилизацию к выборам, что фиксирует ограниченное проявление расширения доступа к конкуренции для обозначенной группы.",
+        "support_type": "positive_manifestation",
+        "provenance": {
+          "raw_response_file": "evidence/independent_responses/eeb874f39d954f640fdc25d9bdc9c911c44164c5d267a63be2ac8e48c2a93580.json",
+          "model": "gpt-4.1",
+          "at": "2026-10-15T17:30:31.183367+00:00",
+          "cache_key": "eeb874f39d954f640fdc25d9bdc9c911c44164c5d267a63be2ac8e48c2a93580",
+          "original_proposal": {
+            "variable_id": "electoral-access__positive",
+            "status": "observed",
+            "value": 2,
+            "confidence": 0.7,
+            "support_type": "positive_manifestation",
+            "rationale": "Увамария публично поддерживала расширение политического участия женщин через квоты и мобилизацию к выборам, что фиксирует ограниченное проявление расширения доступа к конкуренции для обозначенной группы.",
+            "evidence_indices": [
+              12,
+              22
+            ]
+          }
+        },
+        "evidence_file": "evidence/independent-dossier-valentine-uwamariya.json",
+        "evidence_basis": "24fbf682049f02898c38121c4cea0834824d5311580773a960b94f9288ed434f"
+      },
+      "negative": {
+        "status": "unknown",
+        "value": null,
+        "confidence": 0,
+        "evidence_indices": [],
+        "source_urls": [],
+        "event_ids": [],
+        "rationale": "Нет эпизодов, где Увамария предлагала или поддерживала усиление барьеров для политического участия.",
+        "support_type": "unknown",
+        "provenance": {
+          "raw_response_file": "evidence/independent_responses/eeb874f39d954f640fdc25d9bdc9c911c44164c5d267a63be2ac8e48c2a93580.json",
+          "model": "gpt-4.1",
+          "at": "2026-10-15T17:30:31.183367+00:00",
+          "cache_key": "eeb874f39d954f640fdc25d9bdc9c911c44164c5d267a63be2ac8e48c2a93580",
+          "original_proposal": {
+            "variable_id": "electoral-access__negative",
+            "status": "unknown",
+            "value": null,
+            "confidence": 0.3,
+            "support_type": "unknown",
+            "rationale": "Нет эпизодов, где Увамария предлагала или поддерживала усиление барьеров для политического участия.",
+            "evidence_indices": []
+          }
+        },
+        "evidence_file": "evidence/independent-dossier-valentine-uwamariya.json",
+        "evidence_basis": "24fbf682049f02898c38121c4cea0834824d5311580773a960b94f9288ed434f"
+      }
+    },
+    "positive": 2,
+    "negative": null,
+    "value": null,
+    "status": "partial",
+    "difference": null,
+    "mass": null,
+    "measurement_model": "independent_poles",
+    "evidence_file": "evidence/independent-dossier-valentine-uwamariya.json",
+    "evidence_basis": "24fbf682049f02898c38121c4cea0834824d5311580773a960b94f9288ed434f",
+    "at": "2026-10-15T17:30:31.187559+00:00",
+    "reason": "Каждое свойство оценивается независимо; разность и искусственное дополнение до пяти не вычисляются"
+  },
+  {
+    "object_id": "valentine-uwamariya",
+    "scale_id": "institutional-autonomy-coordination",
+    "pole_scores": {
+      "positive": {
+        "status": "unknown",
+        "value": null,
+        "confidence": 0,
+        "evidence_indices": [],
+        "source_urls": [],
+        "event_ids": [],
+        "rationale": "Нет прямых эпизодов, где Увамария выступала за автономию или независимый контроль институтов.",
+        "support_type": "unknown",
+        "provenance": {
+          "raw_response_file": "evidence/independent_responses/eeb874f39d954f640fdc25d9bdc9c911c44164c5d267a63be2ac8e48c2a93580.json",
+          "model": "gpt-4.1",
+          "at": "2026-10-15T17:30:31.183367+00:00",
+          "cache_key": "eeb874f39d954f640fdc25d9bdc9c911c44164c5d267a63be2ac8e48c2a93580",
+          "original_proposal": {
+            "variable_id": "institutional-autonomy-coordination__positive",
+            "status": "unknown",
+            "value": null,
+            "confidence": 0.3,
+            "support_type": "unknown",
+            "rationale": "Нет прямых эпизодов, где Увамария выступала за автономию или независимый контроль институтов.",
+            "evidence_indices": []
+          }
+        },
+        "evidence_file": "evidence/independent-dossier-valentine-uwamariya.json",
+        "evidence_basis": "24fbf682049f02898c38121c4cea0834824d5311580773a960b94f9288ed434f"
+      },
+      "negative": {
+        "status": "observed",
+        "value": 2,
+        "confidence": 0.6,
+        "evidence_indices": [
+          14,
+          17,
+          24
+        ],
+        "source_urls": [
+          "https://www.ungeneva.org/en/news-media/meeting-summary/2024/05/examen-du-rwanda-devant-le-comite-cedaw-tout-en-saluant-les",
+          "https://www.rema.gov.rw/updates/news-details/vhfa"
+        ],
+        "event_ids": [
+          "uwamariya-cedaw-institutions-2024-05-24",
+          "uwamariya-cedaw-2024-05-24",
+          "uwamariya-2025-01-24-ndc3-whole-of-government"
+        ],
+        "rationale": "В ряде случаев Увамария представляла согласованную государственную линию и координацию между институтами (например, в гендерной политике и климатическом курсе), что фиксирует ограниченное проявление согласования работы институтов.",
+        "support_type": "positive_manifestation",
+        "provenance": {
+          "raw_response_file": "evidence/independent_responses/eeb874f39d954f640fdc25d9bdc9c911c44164c5d267a63be2ac8e48c2a93580.json",
+          "model": "gpt-4.1",
+          "at": "2026-10-15T17:30:31.183367+00:00",
+          "cache_key": "eeb874f39d954f640fdc25d9bdc9c911c44164c5d267a63be2ac8e48c2a93580",
+          "original_proposal": {
+            "variable_id": "institutional-autonomy-coordination__negative",
+            "status": "observed",
+            "value": 2,
+            "confidence": 0.6,
+            "support_type": "positive_manifestation",
+            "rationale": "В ряде случаев Увамария представляла согласованную государственную линию и координацию между институтами (например, в гендерной политике и климатическом курсе), что фиксирует ограниченное проявление согласования работы институтов.",
+            "evidence_indices": [
+              14,
+              17,
+              24
+            ]
+          }
+        },
+        "evidence_file": "evidence/independent-dossier-valentine-uwamariya.json",
+        "evidence_basis": "24fbf682049f02898c38121c4cea0834824d5311580773a960b94f9288ed434f"
+      }
+    },
+    "positive": null,
+    "negative": 2,
+    "value": null,
+    "status": "partial",
+    "difference": null,
+    "mass": null,
+    "measurement_model": "independent_poles",
+    "evidence_file": "evidence/independent-dossier-valentine-uwamariya.json",
+    "evidence_basis": "24fbf682049f02898c38121c4cea0834824d5311580773a960b94f9288ed434f",
+    "at": "2026-10-15T17:30:31.187559+00:00",
+    "reason": "Каждое свойство оценивается независимо; разность и искусственное дополнение до пяти не вычисляются"
+  },
+  {
+    "object_id": "valentine-uwamariya",
+    "scale_id": "taxation-burden-public-revenue",
+    "pole_scores": {
+      "positive": {
+        "status": "unknown",
+        "value": null,
+        "confidence": 0,
+        "evidence_indices": [],
+        "source_urls": [],
+        "event_ids": [],
+        "rationale": "Нет эпизодов, где Увамария выступала за снижение налоговой нагрузки или расширение имущественной самостоятельности.",
+        "support_type": "unknown",
+        "provenance": {
+          "raw_response_file": "evidence/independent_responses/eeb874f39d954f640fdc25d9bdc9c911c44164c5d267a63be2ac8e48c2a93580.json",
+          "model": "gpt-4.1",
+          "at": "2026-10-15T17:30:31.183367+00:00",
+          "cache_key": "eeb874f39d954f640fdc25d9bdc9c911c44164c5d267a63be2ac8e48c2a93580",
+          "original_proposal": {
+            "variable_id": "taxation-burden-public-revenue__positive",
+            "status": "unknown",
+            "value": null,
+            "confidence": 0.3,
+            "support_type": "unknown",
+            "rationale": "Нет эпизодов, где Увамария выступала за снижение налоговой нагрузки или расширение имущественной самостоятельности.",
+            "evidence_indices": []
+          }
+        },
+        "evidence_file": "evidence/independent-dossier-valentine-uwamariya.json",
+        "evidence_basis": "24fbf682049f02898c38121c4cea0834824d5311580773a960b94f9288ed434f"
+      },
+      "negative": {
+        "status": "unknown",
+        "value": null,
+        "confidence": 0,
+        "evidence_indices": [],
+        "source_urls": [],
+        "event_ids": [],
+        "rationale": "Нет эпизодов, где Увамария прямо поддерживала увеличение налоговых поступлений для публичного развития.",
+        "support_type": "unknown",
+        "provenance": {
+          "raw_response_file": "evidence/independent_responses/eeb874f39d954f640fdc25d9bdc9c911c44164c5d267a63be2ac8e48c2a93580.json",
+          "model": "gpt-4.1",
+          "at": "2026-10-15T17:30:31.183367+00:00",
+          "cache_key": "eeb874f39d954f640fdc25d9bdc9c911c44164c5d267a63be2ac8e48c2a93580",
+          "original_proposal": {
+            "variable_id": "taxation-burden-public-revenue__negative",
+            "status": "unknown",
+            "value": null,
+            "confidence": 0.3,
+            "support_type": "unknown",
+            "rationale": "Нет эпизодов, где Увамария прямо поддерживала увеличение налоговых поступлений для публичного развития.",
+            "evidence_indices": []
+          }
+        },
+        "evidence_file": "evidence/independent-dossier-valentine-uwamariya.json",
+        "evidence_basis": "24fbf682049f02898c38121c4cea0834824d5311580773a960b94f9288ed434f"
+      }
+    },
+    "positive": null,
+    "negative": null,
+    "value": null,
+    "status": "unknown",
+    "difference": null,
+    "mass": null,
+    "measurement_model": "independent_poles",
+    "evidence_file": "evidence/independent-dossier-valentine-uwamariya.json",
+    "evidence_basis": "24fbf682049f02898c38121c4cea0834824d5311580773a960b94f9288ed434f",
+    "at": "2026-10-15T17:30:31.187559+00:00",
+    "reason": "Каждое свойство оценивается независимо; разность и искусственное дополнение до пяти не вычисляются"
+  },
+  {
+    "object_id": "valentine-uwamariya",
+    "scale_id": "universal-targeted-provision",
+    "pole_scores": {
+      "positive": {
+        "status": "observed",
+        "value": 1,
+        "confidence": 0.5,
+        "evidence_indices": [
+          18
+        ],
+        "source_urls": [
+          "https://www.migeprof.gov.rw/fileadmin/user_upload/Migeprof/Publications/Guidelines/WOMEN_EMPOWERMENT_THROUGH_DIGITAL_TECHNOLOGIES__WEM-TECH__STRATEGY.pdf"
+        ],
+        "event_ids": [
+          "uwamariya-wem-tech-2021-2026"
+        ],
+        "rationale": "В ряде программ (например, цифровая стратегия для женщин) фиксируется расширение доступа к инфраструктуре, но всегда с акцентом на адресную группу, а не на всеобщие стандарты. Единичное проявление универсального компонента.",
+        "support_type": "positive_manifestation",
+        "provenance": {
+          "raw_response_file": "evidence/independent_responses/eeb874f39d954f640fdc25d9bdc9c911c44164c5d267a63be2ac8e48c2a93580.json",
+          "model": "gpt-4.1",
+          "at": "2026-10-15T17:30:31.183367+00:00",
+          "cache_key": "eeb874f39d954f640fdc25d9bdc9c911c44164c5d267a63be2ac8e48c2a93580",
+          "original_proposal": {
+            "variable_id": "universal-targeted-provision__positive",
+            "status": "observed",
+            "value": 1,
+            "confidence": 0.5,
+            "support_type": "positive_manifestation",
+            "rationale": "В ряде программ (например, цифровая стратегия для женщин) фиксируется расширение доступа к инфраструктуре, но всегда с акцентом на адресную группу, а не на всеобщие стандарты. Единичное проявление универсального компонента.",
+            "evidence_indices": [
+              18
+            ]
+          }
+        },
+        "evidence_file": "evidence/independent-dossier-valentine-uwamariya.json",
+        "evidence_basis": "24fbf682049f02898c38121c4cea0834824d5311580773a960b94f9288ed434f"
+      },
+      "negative": {
+        "status": "observed",
+        "value": 4,
+        "confidence": 0.9,
+        "evidence_indices": [
+          12,
+          13,
+          16,
+          18,
+          22
+        ],
+        "source_urls": [
+          "https://www.ungeneva.org/en/news-media/meeting-summary/2024/05/examen-du-rwanda-devant-le-comite-cedaw-tout-en-saluant-les",
+          "https://www.africa-press.net/rwanda/policy/minister-uwamariya-on-rwandas-30-year-gender-equality-journey",
+          "https://www.migeprof.gov.rw/fileadmin/user_upload/Migeprof/Publications/Guidelines/WOMEN_EMPOWERMENT_THROUGH_DIGITAL_TECHNOLOGIES__WEM-TECH__STRATEGY.pdf",
+          "https://www.ncda.gov.rw/updates/news-detail/minister-valentine-calls-girl-child-to-take-lead-in-own-development"
+        ],
+        "event_ids": [
+          "uwamariya-cedaw-gender-representation-2024-05-24",
+          "uwamariya-cedaw-private-sector-gender-seal-2024-05-24",
+          "uwamariya-gender-education-women-lead-2024-04-04",
+          "uwamariya-wem-tech-2021-2026",
+          "uwamariya-2023-10-11-international-girl-child-day"
+        ],
+        "rationale": "Увамария систематически продвигает адресные меры для женщин и девочек (квоты, специальные программы, мобилизация к участию), что фиксирует сильный повторяющийся акцент на приоритетной помощи конкретным недостаточно обеспеченным группам.",
+        "support_type": "positive_manifestation",
+        "provenance": {
+          "raw_response_file": "evidence/independent_responses/eeb874f39d954f640fdc25d9bdc9c911c44164c5d267a63be2ac8e48c2a93580.json",
+          "model": "gpt-4.1",
+          "at": "2026-10-15T17:30:31.183367+00:00",
+          "cache_key": "eeb874f39d954f640fdc25d9bdc9c911c44164c5d267a63be2ac8e48c2a93580",
+          "original_proposal": {
+            "variable_id": "universal-targeted-provision__negative",
+            "status": "observed",
+            "value": 4,
+            "confidence": 0.9,
+            "support_type": "positive_manifestation",
+            "rationale": "Увамария систематически продвигает адресные меры для женщин и девочек (квоты, специальные программы, мобилизация к участию), что фиксирует сильный повторяющийся акцент на приоритетной помощи конкретным недостаточно обеспеченным группам.",
+            "evidence_indices": [
+              12,
+              13,
+              16,
+              18,
+              22
+            ]
+          }
+        },
+        "evidence_file": "evidence/independent-dossier-valentine-uwamariya.json",
+        "evidence_basis": "24fbf682049f02898c38121c4cea0834824d5311580773a960b94f9288ed434f"
+      }
+    },
+    "positive": 1,
+    "negative": 4,
+    "value": null,
+    "status": "observed",
+    "difference": null,
+    "mass": null,
+    "measurement_model": "independent_poles",
+    "evidence_file": "evidence/independent-dossier-valentine-uwamariya.json",
+    "evidence_basis": "24fbf682049f02898c38121c4cea0834824d5311580773a960b94f9288ed434f",
+    "at": "2026-10-15T17:30:31.187559+00:00",
+    "reason": "Каждое свойство оценивается независимо; разность и искусственное дополнение до пяти не вычисляются"
+  },
+  {
+    "object_id": "valentine-uwamariya",
+    "scale_id": "ecological-limits-resource-use",
+    "pole_scores": {
+      "positive": {
+        "status": "observed",
+        "value": 5,
+        "confidence": 1.0,
+        "evidence_indices": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          9,
+          10,
+          23,
+          24
+        ],
+        "source_urls": [
+          "https://www.environment.gov.rw/news-detail/green-rwanda-at-unga79-ending-plastic-pollution-and-advancing-climate-action",
+          "https://www.rema.gov.rw/updates/news-details/rwanda-advocates-for-ending-plastic-pollution-and-climate-action-at-unga79",
+          "https://www.climatechange.gov.rw/updates/news-details/rwanda-and-germany-host-second-kigali-climate-talks-1",
+          "https://www.environment.gov.rw/news-detail/rwandas-2024-achievements-in-climate-action-and-sustainability",
+          "https://www.rema.gov.rw/updates/news-details/vhfa"
+        ],
+        "event_ids": [
+          "uwamariya-unga79-plastics-climate-2024-09",
+          "uwamariya-unga79-plastic-treaty-2024-09",
+          "uwamariya-plastic-coalition-2024-09",
+          "uwamariya-ndc-partnership-2024-09-25",
+          "uwamariya-ndc-partnership-climate-finance-2024-09-25",
+          "uwamariya-kigali-climate-talks-2024-10-04",
+          "uwamariya-kigali-climate-talks-diplomatic-dialogue-2024-10-04",
+          "rwanda-congo-nile-restoration-2024",
+          "uwamariya-plastics-life-cycle-2024-09",
+          "uwamariya-2025-01-24-ndc3-consultations",
+          "uwamariya-2025-01-24-ndc3-whole-of-government"
+        ],
+        "rationale": "Увамария последовательно и многократно акцентирует усиление природоохранных ограничений (борьба с пластиком, климатические действия, восстановление лесов, международные договоры), что подтверждается несколькими независимыми эпизодами и определяет её публичную позицию.",
+        "support_type": "positive_manifestation",
+        "provenance": {
+          "raw_response_file": "evidence/independent_responses/eeb874f39d954f640fdc25d9bdc9c911c44164c5d267a63be2ac8e48c2a93580.json",
+          "model": "gpt-4.1",
+          "at": "2026-10-15T17:30:31.183367+00:00",
+          "cache_key": "eeb874f39d954f640fdc25d9bdc9c911c44164c5d267a63be2ac8e48c2a93580",
+          "original_proposal": {
+            "variable_id": "ecological-limits-resource-use__positive",
+            "status": "observed",
+            "value": 5,
+            "confidence": 1.0,
+            "support_type": "positive_manifestation",
+            "rationale": "Увамария последовательно и многократно акцентирует усиление природоохранных ограничений (борьба с пластиком, климатические действия, восстановление лесов, международные договоры), что подтверждается несколькими независимыми эпизодами и определяет её публичную позицию.",
+            "evidence_indices": [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5,
+              6,
+              9,
+              10,
+              23,
+              24
+            ]
+          }
+        },
+        "evidence_file": "evidence/independent-dossier-valentine-uwamariya.json",
+        "evidence_basis": "24fbf682049f02898c38121c4cea0834824d5311580773a960b94f9288ed434f"
+      },
+      "negative": {
+        "status": "unknown",
+        "value": null,
+        "confidence": 0,
+        "evidence_indices": [],
+        "source_urls": [],
+        "event_ids": [],
+        "rationale": "Нет эпизодов, где Увамария прямо поддерживала расширение хозяйственного использования природных ресурсов или ослабление экологических ограничений.",
+        "support_type": "unknown",
+        "provenance": {
+          "raw_response_file": "evidence/independent_responses/eeb874f39d954f640fdc25d9bdc9c911c44164c5d267a63be2ac8e48c2a93580.json",
+          "model": "gpt-4.1",
+          "at": "2026-10-15T17:30:31.183367+00:00",
+          "cache_key": "eeb874f39d954f640fdc25d9bdc9c911c44164c5d267a63be2ac8e48c2a93580",
+          "original_proposal": {
+            "variable_id": "ecological-limits-resource-use__negative",
+            "status": "unknown",
+            "value": null,
+            "confidence": 0.3,
+            "support_type": "unknown",
+            "rationale": "Нет эпизодов, где Увамария прямо поддерживала расширение хозяйственного использования природных ресурсов или ослабление экологических ограничений.",
+            "evidence_indices": []
+          }
+        },
+        "evidence_file": "evidence/independent-dossier-valentine-uwamariya.json",
+        "evidence_basis": "24fbf682049f02898c38121c4cea0834824d5311580773a960b94f9288ed434f"
+      }
+    },
+    "positive": 5,
+    "negative": null,
+    "value": null,
+    "status": "partial",
+    "difference": null,
+    "mass": null,
+    "measurement_model": "independent_poles",
+    "evidence_file": "evidence/independent-dossier-valentine-uwamariya.json",
+    "evidence_basis": "24fbf682049f02898c38121c4cea0834824d5311580773a960b94f9288ed434f",
+    "at": "2026-10-15T17:30:31.187559+00:00",
+    "reason": "Каждое свойство оценивается независимо; разность и искусственное дополнение до пяти не вычисляются"
+  },
+  {
+    "object_id": "valentine-uwamariya",
+    "scale_id": "russia-diplomatic-engagement",
+    "pole_scores": {
+      "positive": {
+        "status": "unknown",
+        "value": null,
+        "confidence": 0,
+        "evidence_indices": [],
+        "source_urls": [],
+        "event_ids": [],
+        "rationale": "Нет допустимых датированных персональных свидетельств по этому свойству",
+        "support_type": "unknown"
+      },
+      "negative": {
+        "status": "unknown",
+        "value": null,
+        "confidence": 0,
+        "evidence_indices": [],
+        "source_urls": [],
+        "event_ids": [],
+        "rationale": "Нет допустимых датированных персональных свидетельств по этому свойству",
+        "support_type": "unknown"
+      }
+    },
+    "positive": null,
+    "negative": null,
+    "value": null,
+    "status": "unknown",
+    "difference": null,
+    "mass": null,
+    "measurement_model": "independent_poles",
+    "evidence_file": "evidence/independent-dossier-valentine-uwamariya.json",
+    "evidence_basis": "24fbf682049f02898c38121c4cea0834824d5311580773a960b94f9288ed434f",
+    "at": "2026-10-15T17:30:31.187559+00:00",
+    "reason": "Каждое свойство оценивается независимо; разность и искусственное дополнение до пяти не вычисляются"
+  },
+  {
+    "object_id": "valentine-uwamariya",
+    "scale_id": "russia-security-cooperation",
+    "pole_scores": {
+      "positive": {
+        "status": "unknown",
+        "value": null,
+        "confidence": 0,
+        "evidence_indices": [],
+        "source_urls": [],
+        "event_ids": [],
+        "rationale": "Нет допустимых датированных персональных свидетельств по этому свойству",
+        "support_type": "unknown"
+      },
+      "negative": {
+        "status": "unknown",
+        "value": null,
+        "confidence": 0,
+        "evidence_indices": [],
+        "source_urls": [],
+        "event_ids": [],
+        "rationale": "Нет допустимых датированных персональных свидетельств по этому свойству",
+        "support_type": "unknown"
+      }
+    },
+    "positive": null,
+    "negative": null,
+    "value": null,
+    "status": "unknown",
+    "difference": null,
+    "mass": null,
+    "measurement_model": "independent_poles",
+    "evidence_file": "evidence/independent-dossier-valentine-uwamariya.json",
+    "evidence_basis": "24fbf682049f02898c38121c4cea0834824d5311580773a960b94f9288ed434f",
+    "at": "2026-10-15T17:30:31.187559+00:00",
+    "reason": "Каждое свойство оценивается независимо; разность и искусственное дополнение до пяти не вычисляются"
+  },
+  {
+    "object_id": "valentine-uwamariya",
+    "scale_id": "russia-economic-technology-cooperation",
+    "pole_scores": {
+      "positive": {
+        "status": "unknown",
+        "value": null,
+        "confidence": 0,
+        "evidence_indices": [],
+        "source_urls": [],
+        "event_ids": [],
+        "rationale": "Нет допустимых датированных персональных свидетельств по этому свойству",
+        "support_type": "unknown"
+      },
+      "negative": {
+        "status": "unknown",
+        "value": null,
+        "confidence": 0,
+        "evidence_indices": [],
+        "source_urls": [],
+        "event_ids": [],
+        "rationale": "Нет допустимых датированных персональных свидетельств по этому свойству",
+        "support_type": "unknown"
+      }
+    },
+    "positive": null,
+    "negative": null,
+    "value": null,
+    "status": "unknown",
+    "difference": null,
+    "mass": null,
+    "measurement_model": "independent_poles",
+    "evidence_file": "evidence/independent-dossier-valentine-uwamariya.json",
+    "evidence_basis": "24fbf682049f02898c38121c4cea0834824d5311580773a960b94f9288ed434f",
+    "at": "2026-10-15T17:30:31.187559+00:00",
+    "reason": "Каждое свойство оценивается независимо; разность и искусственное дополнение до пяти не вычисляются"
+  },
+  {
+    "object_id": "valentine-uwamariya",
+    "scale_id": "russia-education-cultural-cooperation",
+    "pole_scores": {
+      "positive": {
+        "status": "unknown",
+        "value": null,
+        "confidence": 0,
+        "evidence_indices": [],
+        "source_urls": [],
+        "event_ids": [],
+        "rationale": "Нет допустимых датированных персональных свидетельств по этому свойству",
+        "support_type": "unknown"
+      },
+      "negative": {
+        "status": "unknown",
+        "value": null,
+        "confidence": 0,
+        "evidence_indices": [],
+        "source_urls": [],
+        "event_ids": [],
+        "rationale": "Нет допустимых датированных персональных свидетельств по этому свойству",
+        "support_type": "unknown"
+      }
+    },
+    "positive": null,
+    "negative": null,
+    "value": null,
+    "status": "unknown",
+    "difference": null,
+    "mass": null,
+    "measurement_model": "independent_poles",
+    "evidence_file": "evidence/independent-dossier-valentine-uwamariya.json",
+    "evidence_basis": "24fbf682049f02898c38121c4cea0834824d5311580773a960b94f9288ed434f",
+    "at": "2026-10-15T17:30:31.187559+00:00",
+    "reason": "Каждое свойство оценивается независимо; разность и искусственное дополнение до пяти не вычисляются"
+  },
+  {
+    "object_id": "valentine-uwamariya",
+    "scale_id": "russia-conflict-policy-evaluation",
+    "pole_scores": {
+      "positive": {
+        "status": "unknown",
+        "value": null,
+        "confidence": 0,
+        "evidence_indices": [],
+        "source_urls": [],
+        "event_ids": [],
+        "rationale": "Нет допустимых датированных персональных свидетельств по этому свойству",
+        "support_type": "unknown"
+      },
+      "negative": {
+        "status": "unknown",
+        "value": null,
+        "confidence": 0,
+        "evidence_indices": [],
+        "source_urls": [],
+        "event_ids": [],
+        "rationale": "Нет допустимых датированных персональных свидетельств по этому свойству",
+        "support_type": "unknown"
+      }
+    },
+    "positive": null,
+    "negative": null,
+    "value": null,
+    "status": "unknown",
+    "difference": null,
+    "mass": null,
+    "measurement_model": "independent_poles",
+    "evidence_file": "evidence/independent-dossier-valentine-uwamariya.json",
+    "evidence_basis": "24fbf682049f02898c38121c4cea0834824d5311580773a960b94f9288ed434f",
+    "at": "2026-10-15T17:30:31.187559+00:00",
+    "reason": "Каждое свойство оценивается независимо; разность и искусственное дополнение до пяти не вычисляются"
+  },
+  {
+    "object_id": "valentine-uwamariya",
+    "scale_id": "russia-isolation-sanctions",
+    "pole_scores": {
+      "positive": {
+        "status": "unknown",
+        "value": null,
+        "confidence": 0,
+        "evidence_indices": [],
+        "source_urls": [],
+        "event_ids": [],
+        "rationale": "Нет допустимых датированных персональных свидетельств по этому свойству",
+        "support_type": "unknown"
+      },
+      "negative": {
+        "status": "unknown",
+        "value": null,
+        "confidence": 0,
+        "evidence_indices": [],
+        "source_urls": [],
+        "event_ids": [],
+        "rationale": "Нет допустимых датированных персональных свидетельств по этому свойству",
+        "support_type": "unknown"
+      }
+    },
+    "positive": null,
+    "negative": null,
+    "value": null,
+    "status": "unknown",
+    "difference": null,
+    "mass": null,
+    "measurement_model": "independent_poles",
+    "evidence_file": "evidence/independent-dossier-valentine-uwamariya.json",
+    "evidence_basis": "24fbf682049f02898c38121c4cea0834824d5311580773a960b94f9288ed434f",
+    "at": "2026-10-15T17:30:31.187559+00:00",
+    "reason": "Каждое свойство оценивается независимо; разность и искусственное дополнение до пяти не вычисляются"
+  }
+]

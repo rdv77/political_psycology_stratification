@@ -1,0 +1,221 @@
+{
+  "data": {
+    "ratings": [
+      {
+        "variable_id": "programmatic-renewal__positive",
+        "status": "observed",
+        "value": 2,
+        "confidence": 0.7,
+        "support_type": "positive_manifestation",
+        "rationale": "На церемонии передачи полномочий Увизейе заявила о продолжении реформ государственного сектора и улучшении предоставления услуг, что указывает на ограниченное программное обновление в рамках действующего курса, а не радикальный пересмотр. Эпизод фиксирует ясное ограниченное проявление.",
+        "evidence_indices": [
+          5,
+          10
+        ]
+      },
+      {
+        "variable_id": "programmatic-renewal__negative",
+        "status": "observed",
+        "value": 3,
+        "confidence": 0.8,
+        "support_type": "positive_manifestation",
+        "rationale": "В ряде эпизодов (передача полномочий, благодарность президенту, акцент на продолжении реформ и улучшении услуг) Увизейе прямо подтверждает продолжение и закрепление действующего курса, без критики или предложения пересмотра приоритетов.",
+        "evidence_indices": [
+          2,
+          5,
+          10,
+          13
+        ]
+      },
+      {
+        "variable_id": "government-course-assessment__positive",
+        "status": "observed",
+        "value": 3,
+        "confidence": 0.8,
+        "support_type": "positive_manifestation",
+        "rationale": "Публичная благодарность президенту за доверие и акцент на продолжении реформ и достижениях государственного сектора демонстрируют устойчивую поддержку действующего курса.",
+        "evidence_indices": [
+          2,
+          5,
+          10,
+          13
+        ]
+      },
+      {
+        "variable_id": "government-course-assessment__negative",
+        "status": "observed",
+        "value": 1,
+        "confidence": 0.5,
+        "support_type": "positive_manifestation",
+        "rationale": "Упоминание необходимости усилить профессионализм, прозрачность и процедуры обжалования раскрывает отдельные административные риски и меры их предупреждения, что можно трактовать как единичное слабое проявление ограниченной критики.",
+        "evidence_indices": [
+          14
+        ]
+      },
+      {
+        "variable_id": "participation-administrative-direction__positive",
+        "status": "unknown",
+        "value": null,
+        "confidence": 0.3,
+        "support_type": "unknown",
+        "rationale": "Нет прямых свидетельств приглашения граждан или заинтересованных групп к совместной подготовке решений или общественному контролю.",
+        "evidence_indices": []
+      },
+      {
+        "variable_id": "participation-administrative-direction__negative",
+        "status": "observed",
+        "value": 3,
+        "confidence": 0.8,
+        "support_type": "positive_manifestation",
+        "rationale": "Совещания с Национальной комиссией госслужбы, обсуждение дисциплинарных процедур, контроль найма и административные поручения подтверждают устойчивый акцент на административной постановке задач и контроле исполнения.",
+        "evidence_indices": [
+          6,
+          11,
+          19
+        ]
+      },
+      {
+        "variable_id": "argumentation-evidence-values__positive",
+        "status": "observed",
+        "value": 1,
+        "confidence": 0.5,
+        "support_type": "positive_manifestation",
+        "rationale": "В совещаниях упоминаются проверяемые административные процедуры, однако нет приведённых данных, расчётов или результатов. Это ограниченное проявление обращения к процедурам.",
+        "evidence_indices": [
+          17
+        ]
+      },
+      {
+        "variable_id": "argumentation-evidence-values__negative",
+        "status": "observed",
+        "value": 2,
+        "confidence": 0.7,
+        "support_type": "positive_manifestation",
+        "rationale": "Публичные заявления опираются на ценностные формулы (права работников, профессионализм, этика), что подтверждает ограниченное использование ценностных обоснований.",
+        "evidence_indices": [
+          16,
+          18
+        ]
+      },
+      {
+        "variable_id": "market-state-instruments__positive",
+        "status": "unknown",
+        "value": null,
+        "confidence": 0.3,
+        "support_type": "unknown",
+        "rationale": "Нет прямых свидетельств расширения частной инициативы или управления.",
+        "evidence_indices": []
+      },
+      {
+        "variable_id": "market-state-instruments__negative",
+        "status": "observed",
+        "value": 2,
+        "confidence": 0.7,
+        "support_type": "positive_manifestation",
+        "rationale": "Обсуждение единых правил госслужбы, контроля найма, дисциплинарных процессов и соблюдения законодательства указывает на ограниченное расширение обязательных административных правил.",
+        "evidence_indices": [
+          19
+        ]
+      },
+      {
+        "variable_id": "accessibility-growth-priorities__positive",
+        "status": "observed",
+        "value": 2,
+        "confidence": 0.6,
+        "support_type": "positive_manifestation",
+        "rationale": "Заявления о поддержке создания рабочих мест, улучшении условий труда и программ для граждан подтверждают ограниченный акцент на расширении доступности благ для определённых групп.",
+        "evidence_indices": [
+          5,
+          7,
+          12
+        ]
+      },
+      {
+        "variable_id": "accessibility-growth-priorities__negative",
+        "status": "unknown",
+        "value": null,
+        "confidence": 0.3,
+        "support_type": "unknown",
+        "rationale": "Нет прямых заявлений о приоритете роста инвестиций, экспорта или деловой активности.",
+        "evidence_indices": []
+      },
+      {
+        "variable_id": "external-domestic-resources__positive",
+        "status": "unknown",
+        "value": null,
+        "confidence": 0.3,
+        "support_type": "unknown",
+        "rationale": "Нет прямых свидетельств о привлечении внешнего финансирования или ресурсных партнёров в персональных заявлениях Увизейе.",
+        "evidence_indices": []
+      },
+      {
+        "variable_id": "external-domestic-resources__negative",
+        "status": "unknown",
+        "value": null,
+        "confidence": 0.3,
+        "support_type": "unknown",
+        "rationale": "Нет прямых свидетельств об опоре на внутренние доходы или стратегию снижения зависимости от внешних поступлений.",
+        "evidence_indices": []
+      },
+      {
+        "variable_id": "international-rules-autonomy__positive",
+        "status": "observed",
+        "value": 2,
+        "confidence": 0.7,
+        "support_type": "positive_manifestation",
+        "rationale": "Призыв ускорить ратификацию протокола о свободе передвижения в Африке — прямое предложение закрепить международные обязательства в региональном контексте.",
+        "evidence_indices": [
+          0
+        ]
+      },
+      {
+        "variable_id": "international-rules-autonomy__negative",
+        "status": "unknown",
+        "value": null,
+        "confidence": 0.3,
+        "support_type": "unknown",
+        "rationale": "Нет прямых заявлений о защите национальной самостоятельности решений или возражений против внешнего навязывания.",
+        "evidence_indices": []
+      },
+      {
+        "variable_id": "mediation-adversarial-communication__positive",
+        "status": "unknown",
+        "value": null,
+        "confidence": 0.3,
+        "support_type": "unknown",
+        "rationale": "Нет прямых свидетельств предложения посредничества, переговоров или поиска согласования интересов сторон.",
+        "evidence_indices": []
+      },
+      {
+        "variable_id": "mediation-adversarial-communication__negative",
+        "status": "unknown",
+        "value": null,
+        "confidence": 0.3,
+        "support_type": "unknown",
+        "rationale": "Нет прямых свидетельств публичного опровержения обвинений, спора с другой стороной или защиты собственного требования.",
+        "evidence_indices": []
+      }
+    ]
+  },
+  "model": "gpt-4.1",
+  "task": "independent-ratings-judith-uwizeye-0",
+  "at": "2026-10-15T17:30:12.232464+00:00",
+  "usage": {
+    "prompt_tokens": 8425,
+    "completion_tokens": 1830,
+    "total_tokens": 10255,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "audio_tokens": 0
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "audio_tokens": 0,
+      "accepted_prediction_tokens": 0,
+      "rejected_prediction_tokens": 0
+    }
+  },
+  "citations": [],
+  "system_fingerprint": "fp_801d3b7b5c",
+  "cache_key": "ec6879c6afa8156416b03256bb876c9d6fa0cb6ee293c890705477c936483f5e"
+}

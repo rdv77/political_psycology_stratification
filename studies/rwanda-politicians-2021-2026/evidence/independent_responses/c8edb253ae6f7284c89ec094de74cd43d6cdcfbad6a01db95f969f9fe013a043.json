@@ -1,0 +1,204 @@
+{
+  "data": {
+    "ratings": [
+      {
+        "variable_id": "programmatic-renewal__positive",
+        "status": "observed",
+        "value": 2,
+        "confidence": 0.7,
+        "support_type": "positive_manifestation",
+        "rationale": "Ньямваса в публичных заявлениях (evidence_index: 2, 14) прямо позиционирует себя как оппонента действующего режима Руанды, утверждая, что его преследуют за противодействие авторитарному правлению. Это свидетельствует о явном, но ограниченном по детализации предложении изменить существующий курс, хотя конкретная программа изменений не представлена.",
+        "evidence_indices": [
+          2,
+          14
+        ]
+      },
+      {
+        "variable_id": "programmatic-renewal__negative",
+        "status": "unknown",
+        "value": null,
+        "confidence": 0.0,
+        "support_type": "unknown",
+        "rationale": "Нет сведений о призывах Ньямвасы к продолжению или закреплению действующего курса Руанды.",
+        "evidence_indices": []
+      },
+      {
+        "variable_id": "government-course-assessment__positive",
+        "status": "unknown",
+        "value": null,
+        "confidence": 0.0,
+        "support_type": "unknown",
+        "rationale": "Нет фактов, свидетельствующих о публичной поддержке Ньямвасой действующего государственного курса Руанды.",
+        "evidence_indices": []
+      },
+      {
+        "variable_id": "government-course-assessment__negative",
+        "status": "observed",
+        "value": 2,
+        "confidence": 0.7,
+        "support_type": "positive_manifestation",
+        "rationale": "В публичных заявлениях (evidence_index: 2, 14) Ньямваса прямо критикует действующий государственный курс Руанды, называя его авторитарным и диктаторским. Это ограниченное, но явное проявление публичной критики.",
+        "evidence_indices": [
+          2,
+          14
+        ]
+      },
+      {
+        "variable_id": "participation-administrative-direction__positive",
+        "status": "unknown",
+        "value": null,
+        "confidence": 0.0,
+        "support_type": "unknown",
+        "rationale": "Нет сведений о приглашении Ньямвасой граждан или групп к совместному обсуждению решений или общественному контролю.",
+        "evidence_indices": []
+      },
+      {
+        "variable_id": "participation-administrative-direction__negative",
+        "status": "unknown",
+        "value": null,
+        "confidence": 0.0,
+        "support_type": "unknown",
+        "rationale": "Нет фактов о публичной административной постановке задач или контроле исполнения со стороны Ньямвасы в исследуемый период.",
+        "evidence_indices": []
+      },
+      {
+        "variable_id": "argumentation-evidence-values__positive",
+        "status": "unknown",
+        "value": null,
+        "confidence": 0.0,
+        "support_type": "unknown",
+        "rationale": "Нет данных о том, что Ньямваса обосновывает свои позиции через данные, расчёты или проверяемые результаты.",
+        "evidence_indices": []
+      },
+      {
+        "variable_id": "argumentation-evidence-values__negative",
+        "status": "observed",
+        "value": 1,
+        "confidence": 0.5,
+        "support_type": "positive_manifestation",
+        "rationale": "В публичных заявлениях (evidence_index: 2, 14) Ньямваса апеллирует к ценностям (противодействие диктатуре, защита от преследования), что является единичным слабым проявлением обоснования через коллективные символы и ценности.",
+        "evidence_indices": [
+          2,
+          14
+        ]
+      },
+      {
+        "variable_id": "market-state-instruments__positive",
+        "status": "unknown",
+        "value": null,
+        "confidence": 0.0,
+        "support_type": "unknown",
+        "rationale": "Нет сведений о поддержке или продвижении Ньямвасой расширения частной инициативы или управления.",
+        "evidence_indices": []
+      },
+      {
+        "variable_id": "market-state-instruments__negative",
+        "status": "unknown",
+        "value": null,
+        "confidence": 0.0,
+        "support_type": "unknown",
+        "rationale": "Нет данных о поддержке Ньямвасой расширения государственного планирования или обязательных правил.",
+        "evidence_indices": []
+      },
+      {
+        "variable_id": "accessibility-growth-priorities__positive",
+        "status": "unknown",
+        "value": null,
+        "confidence": 0.0,
+        "support_type": "unknown",
+        "rationale": "Нет сведений о приоритетах Ньямвасы в части расширения доступности базовых благ.",
+        "evidence_indices": []
+      },
+      {
+        "variable_id": "accessibility-growth-priorities__negative",
+        "status": "unknown",
+        "value": null,
+        "confidence": 0.0,
+        "support_type": "unknown",
+        "rationale": "Нет сведений о приоритетах Ньямвасы в части роста инвестиций, конкурентоспособности или деловой активности.",
+        "evidence_indices": []
+      },
+      {
+        "variable_id": "external-domestic-resources__positive",
+        "status": "unknown",
+        "value": null,
+        "confidence": 0.0,
+        "support_type": "unknown",
+        "rationale": "Нет фактов о публичном привлечении Ньямвасой внешнего финансирования или ресурсных партнёров.",
+        "evidence_indices": []
+      },
+      {
+        "variable_id": "external-domestic-resources__negative",
+        "status": "unknown",
+        "value": null,
+        "confidence": 0.0,
+        "support_type": "unknown",
+        "rationale": "Нет сведений о публичной опоре Ньямвасы на внутренние доходы или самостоятельность.",
+        "evidence_indices": []
+      },
+      {
+        "variable_id": "international-rules-autonomy__positive",
+        "status": "unknown",
+        "value": null,
+        "confidence": 0.0,
+        "support_type": "unknown",
+        "rationale": "Нет фактов о публичных предложениях Ньямвасы закрепить международные обязательства или нормы.",
+        "evidence_indices": []
+      },
+      {
+        "variable_id": "international-rules-autonomy__negative",
+        "status": "observed",
+        "value": 1,
+        "confidence": 0.5,
+        "support_type": "positive_manifestation",
+        "rationale": "В публичных заявлениях (evidence_index: 2, 14) Ньямваса защищает свою самостоятельную политическую позицию против давления руандийских властей, что можно трактовать как единичное слабое проявление защиты национальной самостоятельности решений.",
+        "evidence_indices": [
+          2,
+          14
+        ]
+      },
+      {
+        "variable_id": "mediation-adversarial-communication__positive",
+        "status": "unknown",
+        "value": null,
+        "confidence": 0.0,
+        "support_type": "unknown",
+        "rationale": "Нет сведений о предложениях Ньямвасы по посредничеству или согласованию интересов сторон.",
+        "evidence_indices": []
+      },
+      {
+        "variable_id": "mediation-adversarial-communication__negative",
+        "status": "observed",
+        "value": 2,
+        "confidence": 0.7,
+        "support_type": "positive_manifestation",
+        "rationale": "В публичных заявлениях (evidence_index: 2, 14) Ньямваса отвергает обвинения в терроризме и прямо оспаривает позицию властей, что является ясным ограниченным проявлением полемического оспаривания и защиты собственной стороны.",
+        "evidence_indices": [
+          2,
+          14
+        ]
+      }
+    ]
+  },
+  "model": "gpt-4.1",
+  "task": "independent-ratings-kayumba-nyamwasa-0",
+  "at": "2026-10-15T17:32:10.260618+00:00",
+  "usage": {
+    "prompt_tokens": 7097,
+    "completion_tokens": 1377,
+    "total_tokens": 8474,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "audio_tokens": 0
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "audio_tokens": 0,
+      "accepted_prediction_tokens": 0,
+      "rejected_prediction_tokens": 0
+    }
+  },
+  "citations": [],
+  "system_fingerprint": "fp_801d3b7b5c",
+  "cache_key": "c8edb253ae6f7284c89ec094de74cd43d6cdcfbad6a01db95f969f9fe013a043"
+}

@@ -1,0 +1,53 @@
+{
+  "data": {
+    "ratings": [
+      {
+        "variable_id": "russia-diplomatic-engagement__positive",
+        "status": "observed",
+        "value": 3,
+        "confidence": 0.9,
+        "support_type": "positive_manifestation",
+        "rationale": "В течение анализируемого периода зафиксированы как минимум три последовательных эпизода: подписание соглашения о безвизовых поездках (2024), обсуждение расширения сотрудничества и политического диалога (2025), подтверждение курса на развитие двусторонних связей в различных сферах (2026). Все эпизоды — официальные публичные действия, направленные на институциональное развитие отношений между Руандой и Россией. Это соответствует устойчивому публичному акценту на расширение дипломатического сотрудничества, но не позволяет утверждать, что это определяющая черта (уровень 5), так как нет сведений о независимых инициативах или уникальных механизмах.",
+        "evidence_indices": [
+          29,
+          31,
+          32
+        ]
+      },
+      {
+        "variable_id": "russia-diplomatic-engagement__negative",
+        "status": "observed",
+        "value": 0,
+        "confidence": 1,
+        "support_type": "explicit_absence",
+        "rationale": "В представленных фактах отсутствуют какие-либо публичные действия или заявления Ндухунгирехе, направленные на понижение, приостановку или разрыв дипломатических отношений с Россией. Напротив, все зафиксированные эпизоды свидетельствуют о расширении сотрудничества.",
+        "evidence_indices": [
+          29,
+          31,
+          32
+        ]
+      }
+    ]
+  },
+  "model": "gpt-4.1",
+  "task": "independent-ratings-olivier-nduhungirehe-2",
+  "at": "2026-10-15T17:29:42.845936+00:00",
+  "usage": {
+    "prompt_tokens": 1473,
+    "completion_tokens": 311,
+    "total_tokens": 1784,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "audio_tokens": 0
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "audio_tokens": 0,
+      "accepted_prediction_tokens": 0,
+      "rejected_prediction_tokens": 0
+    }
+  },
+  "citations": [],
+  "system_fingerprint": "fp_10687f7978",
+  "cache_key": "349cf53411a8d2cbe2ddb8f2298ed740ac264a0760acfc56a61960141163c5e5"
+}

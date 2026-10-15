@@ -1,0 +1,219 @@
+{
+  "data": {
+    "ratings": [
+      {
+        "variable_id": "programmatic-renewal__positive",
+        "status": "observed",
+        "value": 2,
+        "confidence": 0.7,
+        "support_type": "positive_manifestation",
+        "rationale": "Мукабарамба предложила создать отдельный орган по контролю ветеринарных лекарств, что является инициативой по изменению действующего регулирования (эпизод 11). Также в эпизоде 13 она сообщила о сборе идей граждан перед пересмотром категорий Ubudehe, что указывает на готовность к программным изменениям. Оба эпизода ограничены по масштабу, но подтверждают наличие инициатив по пересмотру отдельных правил.",
+        "evidence_indices": [
+          11,
+          13
+        ]
+      },
+      {
+        "variable_id": "programmatic-renewal__negative",
+        "status": "observed",
+        "value": 2,
+        "confidence": 0.7,
+        "support_type": "positive_manifestation",
+        "rationale": "В эпизодах 12 и 10 Мукабарамба делает публичные поручения исполнителям и подчеркивает важность выполнения действующих программ социальной защиты и обеспечения базовых потребностей, что свидетельствует о поддержке и закреплении текущего курса в социальной политике. Масштаб проявления ограничен социальной сферой.",
+        "evidence_indices": [
+          10,
+          12
+        ]
+      },
+      {
+        "variable_id": "government-course-assessment__positive",
+        "status": "observed",
+        "value": 2,
+        "confidence": 0.7,
+        "support_type": "positive_manifestation",
+        "rationale": "В эпизоде 12 Мукабарамба поддерживает действующее направление социальной защиты, поручая исполнителям приложить особые усилия для реализации программ. В эпизоде 15 она подчеркивает важность регистрации актов гражданского состояния в рамках законодательства, что также поддерживает действующий курс.",
+        "evidence_indices": [
+          12,
+          15
+        ]
+      },
+      {
+        "variable_id": "government-course-assessment__negative",
+        "status": "unknown",
+        "value": null,
+        "confidence": 0.5,
+        "support_type": "unknown",
+        "rationale": "Нет прямых публичных заявлений Мукабарамбы, содержащих критику действующего государственного курса за исследуемый период.",
+        "evidence_indices": []
+      },
+      {
+        "variable_id": "participation-administrative-direction__positive",
+        "status": "observed",
+        "value": 2,
+        "confidence": 0.7,
+        "support_type": "positive_manifestation",
+        "rationale": "В эпизоде 13 Мукабарамба сообщает о сборе идей граждан перед пересмотром категорий Ubudehe, что является примером приглашения к участию граждан в подготовке решений.",
+        "evidence_indices": [
+          13
+        ]
+      },
+      {
+        "variable_id": "participation-administrative-direction__negative",
+        "status": "observed",
+        "value": 3,
+        "confidence": 0.8,
+        "support_type": "positive_manifestation",
+        "rationale": "В эпизодах 10 и 12 Мукабарамба делает публичные поручения исполнителям и подчеркивает административную ответственность за выполнение программ, что соответствует административной постановке задач и контролю исполнения. В эпизоде 15 она также говорит о важности регистрации актов в рамках законодательства, что подтверждает административный подход.",
+        "evidence_indices": [
+          10,
+          12,
+          15
+        ]
+      },
+      {
+        "variable_id": "argumentation-evidence-values__positive",
+        "status": "unknown",
+        "value": null,
+        "confidence": 0.5,
+        "support_type": "unknown",
+        "rationale": "Нет прямых примеров использования данных, расчётов или ссылок на исследования в публичных заявлениях Мукабарамбы за исследуемый период.",
+        "evidence_indices": []
+      },
+      {
+        "variable_id": "argumentation-evidence-values__negative",
+        "status": "observed",
+        "value": 3,
+        "confidence": 0.8,
+        "support_type": "positive_manifestation",
+        "rationale": "В эпизодах 3, 14 и 20 Мукабарамба использует аргументацию через коллективную память, ценности и национальные символы: призывает передавать детям историю, противостоять идеологии геноцида, поддерживать уязвимых выживших, а также не допускать искажения истории страны.",
+        "evidence_indices": [
+          3,
+          14,
+          20
+        ]
+      },
+      {
+        "variable_id": "market-state-instruments__positive",
+        "status": "unknown",
+        "value": null,
+        "confidence": 0.5,
+        "support_type": "unknown",
+        "rationale": "Нет прямых заявлений или инициатив Мукабарамбы, направленных на расширение частной инициативы или управления.",
+        "evidence_indices": []
+      },
+      {
+        "variable_id": "market-state-instruments__negative",
+        "status": "observed",
+        "value": 2,
+        "confidence": 0.7,
+        "support_type": "positive_manifestation",
+        "rationale": "В эпизоде 11 Мукабарамба предложила создать отдельный орган по контролю ветеринарных лекарств, что усиливает государственный надзор и обязательные правила. В эпизоде 12 она поддерживает административный контроль в социальной политике.",
+        "evidence_indices": [
+          11,
+          12
+        ]
+      },
+      {
+        "variable_id": "accessibility-growth-priorities__positive",
+        "status": "observed",
+        "value": 2,
+        "confidence": 0.7,
+        "support_type": "positive_manifestation",
+        "rationale": "В эпизодах 12 и 14 Мукабарамба подчеркивает приоритет охвата населения базовыми услугами и поддержкой уязвимых групп, что свидетельствует о выраженности этого полюса, хотя и не на уровне всеобщей гарантии.",
+        "evidence_indices": [
+          12,
+          14
+        ]
+      },
+      {
+        "variable_id": "accessibility-growth-priorities__negative",
+        "status": "unknown",
+        "value": null,
+        "confidence": 0.5,
+        "support_type": "unknown",
+        "rationale": "Нет прямых заявлений о приоритете роста инвестиций, конкурентоспособности или деловой активности в публичных выступлениях Мукабарамбы.",
+        "evidence_indices": []
+      },
+      {
+        "variable_id": "external-domestic-resources__positive",
+        "status": "unknown",
+        "value": null,
+        "confidence": 0.5,
+        "support_type": "unknown",
+        "rationale": "Нет прямых заявлений Мукабарамбы о привлечении внешнего финансирования или ресурсных партнёров за исследуемый период.",
+        "evidence_indices": []
+      },
+      {
+        "variable_id": "external-domestic-resources__negative",
+        "status": "unknown",
+        "value": null,
+        "confidence": 0.5,
+        "support_type": "unknown",
+        "rationale": "Нет прямых заявлений Мукабарамбы о приоритете внутренних доходов или снижении зависимости от внешних поступлений.",
+        "evidence_indices": []
+      },
+      {
+        "variable_id": "international-rules-autonomy__positive",
+        "status": "unknown",
+        "value": null,
+        "confidence": 0.5,
+        "support_type": "unknown",
+        "rationale": "Нет прямых заявлений Мукабарамбы о закреплении международных обязательств или поддержке общих международных норм.",
+        "evidence_indices": []
+      },
+      {
+        "variable_id": "international-rules-autonomy__negative",
+        "status": "unknown",
+        "value": null,
+        "confidence": 0.5,
+        "support_type": "unknown",
+        "rationale": "Нет прямых заявлений Мукабарамбы о защите национальной самостоятельности решений или возражениях против внешнего навязывания.",
+        "evidence_indices": []
+      },
+      {
+        "variable_id": "mediation-adversarial-communication__positive",
+        "status": "observed",
+        "value": 2,
+        "confidence": 0.7,
+        "support_type": "positive_manifestation",
+        "rationale": "В эпизодах 9 и 16 Мукабарамба публично поддерживает межинституциональное согласование, разделение власти и инклюзивное представительство, что свидетельствует о склонности к поиску согласования и посредничеству.",
+        "evidence_indices": [
+          9,
+          16
+        ]
+      },
+      {
+        "variable_id": "mediation-adversarial-communication__negative",
+        "status": "observed",
+        "value": 1,
+        "confidence": 0.6,
+        "support_type": "positive_manifestation",
+        "rationale": "В эпизоде 17 Мукабарамба отмечает, что сенаторы не рассматривают себя через партийные линзы, что минимально указывает на отсутствие полемического оспаривания, но не содержит прямой конфронтации.",
+        "evidence_indices": [
+          17
+        ]
+      }
+    ]
+  },
+  "model": "gpt-4.1",
+  "task": "independent-ratings-alvera-mukabaramba-0",
+  "at": "2026-10-15T17:31:21.676118+00:00",
+  "usage": {
+    "prompt_tokens": 8217,
+    "completion_tokens": 1648,
+    "total_tokens": 9865,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "audio_tokens": 0
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "audio_tokens": 0,
+      "accepted_prediction_tokens": 0,
+      "rejected_prediction_tokens": 0
+    }
+  },
+  "citations": [],
+  "system_fingerprint": "fp_801d3b7b5c",
+  "cache_key": "863b9e9a951239cb233735486f6a13f1917e6b6f42c9b3f5bfbc5f86eb3fdb7d"
+}

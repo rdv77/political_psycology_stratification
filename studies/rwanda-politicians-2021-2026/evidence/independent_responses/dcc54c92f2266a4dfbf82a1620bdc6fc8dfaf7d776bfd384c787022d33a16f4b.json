@@ -1,0 +1,232 @@
+{
+  "data": {
+    "ratings": [
+      {
+        "variable_id": "programmatic-renewal__positive",
+        "status": "observed",
+        "value": 3,
+        "confidence": 0.9,
+        "support_type": "positive_manifestation",
+        "rationale": "Мпайимана неоднократно публично заявлял о необходимости нового видения, предлагал реформу парламентского устройства, изменение механизма допуска кандидатов, реформу горнодобывающего сектора и расширение доступа к образовательным кредитам. Это подтверждает устойчивый акцент на программных изменениях, хотя масштаб и детализация предложений ограничены.",
+        "evidence_indices": [
+          2,
+          11,
+          12,
+          13,
+          14,
+          21,
+          27,
+          28,
+          29,
+          31
+        ]
+      },
+      {
+        "variable_id": "programmatic-renewal__negative",
+        "status": "observed",
+        "value": 1,
+        "confidence": 0.5,
+        "support_type": "positive_manifestation",
+        "rationale": "В интервью Мпайимана отмечал, что может учиться на опыте действующего президента и брать его за источник вдохновения, что указывает на отдельные элементы преемственности, но не на устойчивую установку на продолжение курса.",
+        "evidence_indices": [
+          23
+        ]
+      },
+      {
+        "variable_id": "government-course-assessment__positive",
+        "status": "observed",
+        "value": 1,
+        "confidence": 0.5,
+        "support_type": "positive_manifestation",
+        "rationale": "Мпайимана публично признавал опыт и достижения действующего президента как источник вдохновения, однако не делал прямых заявлений о поддержке всего государственного курса.",
+        "evidence_indices": [
+          23
+        ]
+      },
+      {
+        "variable_id": "government-course-assessment__negative",
+        "status": "unknown",
+        "value": null,
+        "confidence": 0,
+        "support_type": "unknown",
+        "rationale": "Нет прямых публичных заявлений Мпайиманы, в которых он бы критиковал весь действующий государственный курс Руанды.",
+        "evidence_indices": []
+      },
+      {
+        "variable_id": "participation-administrative-direction__positive",
+        "status": "observed",
+        "value": 2,
+        "confidence": 0.7,
+        "support_type": "positive_manifestation",
+        "rationale": "Предложения по реформе парламента включали расширение представительства (диаспора, молодёжь, люди с инвалидностью) и гендерный паритет, что свидетельствует о стремлении к более широкому участию различных групп в принятии решений.",
+        "evidence_indices": [
+          12,
+          13,
+          27,
+          28,
+          29
+        ]
+      },
+      {
+        "variable_id": "participation-administrative-direction__negative",
+        "status": "unknown",
+        "value": null,
+        "confidence": 0,
+        "support_type": "unknown",
+        "rationale": "Нет данных о том, что Мпайимана делал акцент на административном управлении или директивном контроле исполнения.",
+        "evidence_indices": []
+      },
+      {
+        "variable_id": "argumentation-evidence-values__positive",
+        "status": "observed",
+        "value": 1,
+        "confidence": 0.5,
+        "support_type": "positive_manifestation",
+        "rationale": "В обосновании расширения кредитов Мпайимана ссылался на институциональные различия и возвратный характер займа, что указывает на частичное использование институциональных аргументов, но без подробных данных или расчётов.",
+        "evidence_indices": [
+          18,
+          30
+        ]
+      },
+      {
+        "variable_id": "argumentation-evidence-values__negative",
+        "status": "observed",
+        "value": 2,
+        "confidence": 0.7,
+        "support_type": "positive_manifestation",
+        "rationale": "В кампании Мпайимана делался акцент на ценностях политической зрелости и патриотизма, особенно среди диаспоры, что подтверждает использование ценностной аргументации.",
+        "evidence_indices": [
+          16,
+          17,
+          26,
+          33
+        ]
+      },
+      {
+        "variable_id": "market-state-instruments__positive",
+        "status": "unknown",
+        "value": null,
+        "confidence": 0,
+        "support_type": "unknown",
+        "rationale": "Нет прямых данных о предложениях Мпайиманы по расширению частной инициативы или дерегулированию.",
+        "evidence_indices": []
+      },
+      {
+        "variable_id": "market-state-instruments__negative",
+        "status": "unknown",
+        "value": null,
+        "confidence": 0,
+        "support_type": "unknown",
+        "rationale": "Нет прямых данных о предложениях Мпайиманы по усилению государственного планирования или обязательных правил.",
+        "evidence_indices": []
+      },
+      {
+        "variable_id": "accessibility-growth-priorities__positive",
+        "status": "observed",
+        "value": 2,
+        "confidence": 0.7,
+        "support_type": "positive_manifestation",
+        "rationale": "Мпайимана предлагал расширить доступ студентов к образовательным кредитам, включая студентов частных вузов, и обещал своевременные выплаты на проживание, что свидетельствует о приоритете доступности базовых благ.",
+        "evidence_indices": [
+          5,
+          14,
+          18,
+          24,
+          25,
+          30
+        ]
+      },
+      {
+        "variable_id": "accessibility-growth-priorities__negative",
+        "status": "unknown",
+        "value": null,
+        "confidence": 0,
+        "support_type": "unknown",
+        "rationale": "Нет прямых заявлений о приоритете роста инвестиций, экспорта или деловой активности как основной цели.",
+        "evidence_indices": []
+      },
+      {
+        "variable_id": "external-domestic-resources__positive",
+        "status": "unknown",
+        "value": null,
+        "confidence": 0,
+        "support_type": "unknown",
+        "rationale": "Нет данных о предложениях Мпайиманы по привлечению внешнего финансирования или ресурсных партнёров.",
+        "evidence_indices": []
+      },
+      {
+        "variable_id": "external-domestic-resources__negative",
+        "status": "unknown",
+        "value": null,
+        "confidence": 0,
+        "support_type": "unknown",
+        "rationale": "Нет данных о предложениях Мпайиманы по опоре на внутренние доходы или снижению зависимости от внешних поступлений.",
+        "evidence_indices": []
+      },
+      {
+        "variable_id": "international-rules-autonomy__positive",
+        "status": "unknown",
+        "value": null,
+        "confidence": 0,
+        "support_type": "unknown",
+        "rationale": "Нет сведений о публичных предложениях Мпайиманы по закреплению международных обязательств или норм.",
+        "evidence_indices": []
+      },
+      {
+        "variable_id": "international-rules-autonomy__negative",
+        "status": "unknown",
+        "value": null,
+        "confidence": 0,
+        "support_type": "unknown",
+        "rationale": "Нет сведений о публичных заявлениях Мпайиманы в защиту национальной самостоятельности решений.",
+        "evidence_indices": []
+      },
+      {
+        "variable_id": "mediation-adversarial-communication__positive",
+        "status": "observed",
+        "value": 2,
+        "confidence": 0.7,
+        "support_type": "positive_manifestation",
+        "rationale": "Мпайимана определял свою оппозиционность как возможность представлять свою позицию без нападок на других, а после выборов выражал готовность содействовать развитию страны в любой роли, что свидетельствует о склонности к поиску согласования.",
+        "evidence_indices": [
+          19,
+          22,
+          36,
+          37
+        ]
+      },
+      {
+        "variable_id": "mediation-adversarial-communication__negative",
+        "status": "observed",
+        "value": 1,
+        "confidence": 0.5,
+        "support_type": "positive_manifestation",
+        "rationale": "Мпайимана публично называл себя оппонентом действующего президента, что фиксирует элемент соперничества, однако он ограничивал свою оппозицию отсутствием нападок и конфронтации.",
+        "evidence_indices": [
+          22
+        ]
+      }
+    ]
+  },
+  "model": "gpt-4.1",
+  "task": "independent-ratings-philippe-mpayimana-0",
+  "at": "2026-10-15T17:31:48.621019+00:00",
+  "usage": {
+    "prompt_tokens": 10347,
+    "completion_tokens": 1893,
+    "total_tokens": 12240,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "audio_tokens": 0
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "audio_tokens": 0,
+      "accepted_prediction_tokens": 0,
+      "rejected_prediction_tokens": 0
+    }
+  },
+  "citations": [],
+  "system_fingerprint": "fp_801d3b7b5c",
+  "cache_key": "dcc54c92f2266a4dfbf82a1620bdc6fc8dfaf7d776bfd384c787022d33a16f4b"
+}

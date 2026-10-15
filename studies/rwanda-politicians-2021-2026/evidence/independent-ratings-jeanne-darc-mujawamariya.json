@@ -1,0 +1,1795 @@
+[
+  {
+    "object_id": "jeanne-darc-mujawamariya",
+    "scale_id": "programmatic-renewal",
+    "pole_scores": {
+      "positive": {
+        "status": "observed",
+        "value": 2,
+        "confidence": 0.8,
+        "evidence_indices": [
+          12,
+          18
+        ],
+        "source_urls": [
+          "https://www.rema.gov.rw/fileadmin/user_upload/REMA/Newsletters/REMA_Quarterly_Newsletter_April_-_June_2023.pdf"
+        ],
+        "event_ids": [
+          "mujawamariya-2023-06-05-green-growth-strategy",
+          "mujawamariya-2023-06-05-climate-resilience"
+        ],
+        "rationale": "Муджавамария участвовала в запуске пересмотренной Стратегии зелёного роста и климатической устойчивости, которая была представлена как инструмент достижения новых климатических целей и построения низкоуглеродной экономики. Это пример программного изменения курса в экологической политике, хотя речь идёт о пересмотре и обновлении, а не о полном отказе от прежнего направления.",
+        "support_type": "positive_manifestation",
+        "provenance": {
+          "raw_response_file": "evidence/independent_responses/be2501510d422fa19ec99df6e5164bfd08f66358257697640fbaa0ee080232fd.json",
+          "model": "gpt-4.1",
+          "at": "2026-10-15T17:30:28.537507+00:00",
+          "cache_key": "be2501510d422fa19ec99df6e5164bfd08f66358257697640fbaa0ee080232fd",
+          "original_proposal": {
+            "variable_id": "programmatic-renewal__positive",
+            "status": "observed",
+            "value": 2,
+            "confidence": 0.8,
+            "support_type": "positive_manifestation",
+            "rationale": "Муджавамария участвовала в запуске пересмотренной Стратегии зелёного роста и климатической устойчивости, которая была представлена как инструмент достижения новых климатических целей и построения низкоуглеродной экономики. Это пример программного изменения курса в экологической политике, хотя речь идёт о пересмотре и обновлении, а не о полном отказе от прежнего направления.",
+            "evidence_indices": [
+              12,
+              18
+            ]
+          }
+        },
+        "evidence_file": "evidence/independent-dossier-jeanne-darc-mujawamariya.json",
+        "evidence_basis": "a7a64c76bd837d20a97e9cb2f620721ab3fdeb48d5d5df7f179f1f9303f1fbf4"
+      },
+      "negative": {
+        "status": "observed",
+        "value": 2,
+        "confidence": 0.7,
+        "evidence_indices": [
+          28
+        ],
+        "source_urls": [
+          "https://www.rema.gov.rw/fileadmin/user_upload/REMA/Newsletters/REMA_Quarterly_Newsletter_April_-_June_2023.pdf"
+        ],
+        "event_ids": [
+          "mujawamariya-2023-06-05-resilient-development"
+        ],
+        "rationale": "В ряде эпизодов пересмотренная стратегия и другие инициативы Муджавамарии описываются как продолжение и развитие существующего государственного курса устойчивого развития, а не его отмена. Это выражено через институциональное обновление стратегических документов.",
+        "support_type": "positive_manifestation",
+        "provenance": {
+          "raw_response_file": "evidence/independent_responses/be2501510d422fa19ec99df6e5164bfd08f66358257697640fbaa0ee080232fd.json",
+          "model": "gpt-4.1",
+          "at": "2026-10-15T17:30:28.537507+00:00",
+          "cache_key": "be2501510d422fa19ec99df6e5164bfd08f66358257697640fbaa0ee080232fd",
+          "original_proposal": {
+            "variable_id": "programmatic-renewal__negative",
+            "status": "observed",
+            "value": 2,
+            "confidence": 0.7,
+            "support_type": "positive_manifestation",
+            "rationale": "В ряде эпизодов пересмотренная стратегия и другие инициативы Муджавамарии описываются как продолжение и развитие существующего государственного курса устойчивого развития, а не его отмена. Это выражено через институциональное обновление стратегических документов.",
+            "evidence_indices": [
+              28
+            ]
+          }
+        },
+        "evidence_file": "evidence/independent-dossier-jeanne-darc-mujawamariya.json",
+        "evidence_basis": "a7a64c76bd837d20a97e9cb2f620721ab3fdeb48d5d5df7f179f1f9303f1fbf4"
+      }
+    },
+    "positive": 2,
+    "negative": 2,
+    "value": null,
+    "status": "observed",
+    "difference": null,
+    "mass": null,
+    "measurement_model": "independent_poles",
+    "evidence_file": "evidence/independent-dossier-jeanne-darc-mujawamariya.json",
+    "evidence_basis": "a7a64c76bd837d20a97e9cb2f620721ab3fdeb48d5d5df7f179f1f9303f1fbf4",
+    "at": "2026-10-15T17:30:37.859180+00:00",
+    "reason": "Каждое свойство оценивается независимо; разность и искусственное дополнение до пяти не вычисляются"
+  },
+  {
+    "object_id": "jeanne-darc-mujawamariya",
+    "scale_id": "government-course-assessment",
+    "pole_scores": {
+      "positive": {
+        "status": "unknown",
+        "value": null,
+        "confidence": 0,
+        "evidence_indices": [],
+        "source_urls": [],
+        "event_ids": [],
+        "rationale": "Нет прямых публичных высказываний Муджавамарии, однозначно оценивающих весь государственный курс Руанды. Описания достижений и приоритетов касаются отдельных сфер, а не общего курса.",
+        "support_type": "unknown",
+        "provenance": {
+          "raw_response_file": "evidence/independent_responses/be2501510d422fa19ec99df6e5164bfd08f66358257697640fbaa0ee080232fd.json",
+          "model": "gpt-4.1",
+          "at": "2026-10-15T17:30:28.537507+00:00",
+          "cache_key": "be2501510d422fa19ec99df6e5164bfd08f66358257697640fbaa0ee080232fd",
+          "original_proposal": {
+            "variable_id": "government-course-assessment__positive",
+            "status": "unknown",
+            "value": null,
+            "confidence": 0.5,
+            "support_type": "unknown",
+            "rationale": "Нет прямых публичных высказываний Муджавамарии, однозначно оценивающих весь государственный курс Руанды. Описания достижений и приоритетов касаются отдельных сфер, а не общего курса.",
+            "evidence_indices": []
+          }
+        },
+        "evidence_file": "evidence/independent-dossier-jeanne-darc-mujawamariya.json",
+        "evidence_basis": "a7a64c76bd837d20a97e9cb2f620721ab3fdeb48d5d5df7f179f1f9303f1fbf4"
+      },
+      "negative": {
+        "status": "unknown",
+        "value": null,
+        "confidence": 0,
+        "evidence_indices": [],
+        "source_urls": [],
+        "event_ids": [],
+        "rationale": "Нет прямых публичных высказываний Муджавамарии, однозначно критикующих весь государственный курс Руанды. Признание отдельных проблем не является критикой общего курса.",
+        "support_type": "unknown",
+        "provenance": {
+          "raw_response_file": "evidence/independent_responses/be2501510d422fa19ec99df6e5164bfd08f66358257697640fbaa0ee080232fd.json",
+          "model": "gpt-4.1",
+          "at": "2026-10-15T17:30:28.537507+00:00",
+          "cache_key": "be2501510d422fa19ec99df6e5164bfd08f66358257697640fbaa0ee080232fd",
+          "original_proposal": {
+            "variable_id": "government-course-assessment__negative",
+            "status": "unknown",
+            "value": null,
+            "confidence": 0.5,
+            "support_type": "unknown",
+            "rationale": "Нет прямых публичных высказываний Муджавамарии, однозначно критикующих весь государственный курс Руанды. Признание отдельных проблем не является критикой общего курса.",
+            "evidence_indices": []
+          }
+        },
+        "evidence_file": "evidence/independent-dossier-jeanne-darc-mujawamariya.json",
+        "evidence_basis": "a7a64c76bd837d20a97e9cb2f620721ab3fdeb48d5d5df7f179f1f9303f1fbf4"
+      }
+    },
+    "positive": null,
+    "negative": null,
+    "value": null,
+    "status": "unknown",
+    "difference": null,
+    "mass": null,
+    "measurement_model": "independent_poles",
+    "evidence_file": "evidence/independent-dossier-jeanne-darc-mujawamariya.json",
+    "evidence_basis": "a7a64c76bd837d20a97e9cb2f620721ab3fdeb48d5d5df7f179f1f9303f1fbf4",
+    "at": "2026-10-15T17:30:37.859180+00:00",
+    "reason": "Каждое свойство оценивается независимо; разность и искусственное дополнение до пяти не вычисляются"
+  },
+  {
+    "object_id": "jeanne-darc-mujawamariya",
+    "scale_id": "participation-administrative-direction",
+    "pole_scores": {
+      "positive": {
+        "status": "observed",
+        "value": 2,
+        "confidence": 0.7,
+        "evidence_indices": [
+          13,
+          19,
+          21
+        ],
+        "source_urls": [
+          "https://www.rema.gov.rw/updates/news-details/rwanda-celebrates-world-environment-day-after-week-of-restoration-efforts"
+        ],
+        "event_ids": [
+          "mujawamariya-2023-06-05-world-environment-day",
+          "mujawamariya-2024-06-05-land-restoration",
+          "mujawamariya-2024-06-05-collective-action"
+        ],
+        "rationale": "Муджавамария публично призывала к совместной работе государства, гражданского общества, частного сектора и граждан по восстановлению земель и защите природы, а также описывала экологические задачи как требующие коллективных действий. Это приглашение к совместному обсуждению и участию, хотя конкретные процедуры общественного контроля не указаны.",
+        "support_type": "positive_manifestation",
+        "provenance": {
+          "raw_response_file": "evidence/independent_responses/be2501510d422fa19ec99df6e5164bfd08f66358257697640fbaa0ee080232fd.json",
+          "model": "gpt-4.1",
+          "at": "2026-10-15T17:30:28.537507+00:00",
+          "cache_key": "be2501510d422fa19ec99df6e5164bfd08f66358257697640fbaa0ee080232fd",
+          "original_proposal": {
+            "variable_id": "participation-administrative-direction__positive",
+            "status": "observed",
+            "value": 2,
+            "confidence": 0.7,
+            "support_type": "positive_manifestation",
+            "rationale": "Муджавамария публично призывала к совместной работе государства, гражданского общества, частного сектора и граждан по восстановлению земель и защите природы, а также описывала экологические задачи как требующие коллективных действий. Это приглашение к совместному обсуждению и участию, хотя конкретные процедуры общественного контроля не указаны.",
+            "evidence_indices": [
+              13,
+              19,
+              21
+            ]
+          }
+        },
+        "evidence_file": "evidence/independent-dossier-jeanne-darc-mujawamariya.json",
+        "evidence_basis": "a7a64c76bd837d20a97e9cb2f620721ab3fdeb48d5d5df7f179f1f9303f1fbf4"
+      },
+      "negative": {
+        "status": "observed",
+        "value": 2,
+        "confidence": 0.7,
+        "evidence_indices": [
+          1,
+          11,
+          14,
+          30
+        ],
+        "source_urls": [
+          "https://www.meteorwanda.gov.rw/publications-1/news/news-detail?tx_news_pi1[action]=detail&tx_news_pi1[controller]=News&tx_news_pi1[news]=42078&cHash=db045c6820db7fefc407c3496689b681",
+          "https://www.rema.gov.rw/fileadmin/user_upload/REMA/Newsletters/REMA_Quarterly_Newsletter_April_-_June_2023.pdf"
+        ],
+        "event_ids": [
+          "mujawamariya-forest-management-2022",
+          "mujawamariya-2023-05-03-lpg-schools",
+          "mujawamariya-2023-06-05-lpg-schools",
+          "mujawamariya-2023-06-05-private-sector-school-energy"
+        ],
+        "rationale": "В ряде эпизодов Муджавамария формулирует задачи в виде государственных программ, целевых показателей и административных поручений (например, передача лесов частным операторам, внедрение технологий в школах), что отражает административную постановку задач и контроль исполнения.",
+        "support_type": "positive_manifestation",
+        "provenance": {
+          "raw_response_file": "evidence/independent_responses/be2501510d422fa19ec99df6e5164bfd08f66358257697640fbaa0ee080232fd.json",
+          "model": "gpt-4.1",
+          "at": "2026-10-15T17:30:28.537507+00:00",
+          "cache_key": "be2501510d422fa19ec99df6e5164bfd08f66358257697640fbaa0ee080232fd",
+          "original_proposal": {
+            "variable_id": "participation-administrative-direction__negative",
+            "status": "observed",
+            "value": 2,
+            "confidence": 0.7,
+            "support_type": "positive_manifestation",
+            "rationale": "В ряде эпизодов Муджавамария формулирует задачи в виде государственных программ, целевых показателей и административных поручений (например, передача лесов частным операторам, внедрение технологий в школах), что отражает административную постановку задач и контроль исполнения.",
+            "evidence_indices": [
+              1,
+              11,
+              14,
+              30
+            ]
+          }
+        },
+        "evidence_file": "evidence/independent-dossier-jeanne-darc-mujawamariya.json",
+        "evidence_basis": "a7a64c76bd837d20a97e9cb2f620721ab3fdeb48d5d5df7f179f1f9303f1fbf4"
+      }
+    },
+    "positive": 2,
+    "negative": 2,
+    "value": null,
+    "status": "observed",
+    "difference": null,
+    "mass": null,
+    "measurement_model": "independent_poles",
+    "evidence_file": "evidence/independent-dossier-jeanne-darc-mujawamariya.json",
+    "evidence_basis": "a7a64c76bd837d20a97e9cb2f620721ab3fdeb48d5d5df7f179f1f9303f1fbf4",
+    "at": "2026-10-15T17:30:37.859180+00:00",
+    "reason": "Каждое свойство оценивается независимо; разность и искусственное дополнение до пяти не вычисляются"
+  },
+  {
+    "object_id": "jeanne-darc-mujawamariya",
+    "scale_id": "argumentation-evidence-values",
+    "pole_scores": {
+      "positive": {
+        "status": "observed",
+        "value": 2,
+        "confidence": 0.7,
+        "evidence_indices": [
+          1,
+          9,
+          12
+        ],
+        "source_urls": [
+          "https://www.meteorwanda.gov.rw/publications-1/news/news-detail?tx_news_pi1[action]=detail&tx_news_pi1[controller]=News&tx_news_pi1[news]=42078&cHash=db045c6820db7fefc407c3496689b681",
+          "https://rdb.rw/rwanda-showcases-green-investment-opportunities-at-cop26-in-glasgow/",
+          "https://www.rema.gov.rw/fileadmin/user_upload/REMA/Newsletters/REMA_Quarterly_Newsletter_April_-_June_2023.pdf"
+        ],
+        "event_ids": [
+          "mujawamariya-forest-management-2022",
+          "mujawamariya-cop26-green-investment-2021",
+          "mujawamariya-2023-06-05-green-growth-strategy"
+        ],
+        "rationale": "В ряде публичных заявлений Муджавамария использует количественные ориентиры (например, 80% лесов передать частным операторам, 11 млрд долларов для климатических целей), что свидетельствует об опоре на данные и измеримые цели.",
+        "support_type": "positive_manifestation",
+        "provenance": {
+          "raw_response_file": "evidence/independent_responses/be2501510d422fa19ec99df6e5164bfd08f66358257697640fbaa0ee080232fd.json",
+          "model": "gpt-4.1",
+          "at": "2026-10-15T17:30:28.537507+00:00",
+          "cache_key": "be2501510d422fa19ec99df6e5164bfd08f66358257697640fbaa0ee080232fd",
+          "original_proposal": {
+            "variable_id": "argumentation-evidence-values__positive",
+            "status": "observed",
+            "value": 2,
+            "confidence": 0.7,
+            "support_type": "positive_manifestation",
+            "rationale": "В ряде публичных заявлений Муджавамария использует количественные ориентиры (например, 80% лесов передать частным операторам, 11 млрд долларов для климатических целей), что свидетельствует об опоре на данные и измеримые цели.",
+            "evidence_indices": [
+              1,
+              9,
+              12
+            ]
+          }
+        },
+        "evidence_file": "evidence/independent-dossier-jeanne-darc-mujawamariya.json",
+        "evidence_basis": "a7a64c76bd837d20a97e9cb2f620721ab3fdeb48d5d5df7f179f1f9303f1fbf4"
+      },
+      "negative": {
+        "status": "observed",
+        "value": 2,
+        "confidence": 0.7,
+        "evidence_indices": [
+          0
+        ],
+        "source_urls": [
+          "https://umwezi.rw/?p=10907"
+        ],
+        "event_ids": [
+          "mujawamariya-forest-day-2022"
+        ],
+        "rationale": "В публичной риторике Муджавамарии присутствует апелляция к национальным традициям, коллективной памяти и ценностям (например, сохранение традиции посадки деревьев, передача практики следующим поколениям).",
+        "support_type": "positive_manifestation",
+        "provenance": {
+          "raw_response_file": "evidence/independent_responses/be2501510d422fa19ec99df6e5164bfd08f66358257697640fbaa0ee080232fd.json",
+          "model": "gpt-4.1",
+          "at": "2026-10-15T17:30:28.537507+00:00",
+          "cache_key": "be2501510d422fa19ec99df6e5164bfd08f66358257697640fbaa0ee080232fd",
+          "original_proposal": {
+            "variable_id": "argumentation-evidence-values__negative",
+            "status": "observed",
+            "value": 2,
+            "confidence": 0.7,
+            "support_type": "positive_manifestation",
+            "rationale": "В публичной риторике Муджавамарии присутствует апелляция к национальным традициям, коллективной памяти и ценностям (например, сохранение традиции посадки деревьев, передача практики следующим поколениям).",
+            "evidence_indices": [
+              0
+            ]
+          }
+        },
+        "evidence_file": "evidence/independent-dossier-jeanne-darc-mujawamariya.json",
+        "evidence_basis": "a7a64c76bd837d20a97e9cb2f620721ab3fdeb48d5d5df7f179f1f9303f1fbf4"
+      }
+    },
+    "positive": 2,
+    "negative": 2,
+    "value": null,
+    "status": "observed",
+    "difference": null,
+    "mass": null,
+    "measurement_model": "independent_poles",
+    "evidence_file": "evidence/independent-dossier-jeanne-darc-mujawamariya.json",
+    "evidence_basis": "a7a64c76bd837d20a97e9cb2f620721ab3fdeb48d5d5df7f179f1f9303f1fbf4",
+    "at": "2026-10-15T17:30:37.860185+00:00",
+    "reason": "Каждое свойство оценивается независимо; разность и искусственное дополнение до пяти не вычисляются"
+  },
+  {
+    "object_id": "jeanne-darc-mujawamariya",
+    "scale_id": "market-state-instruments",
+    "pole_scores": {
+      "positive": {
+        "status": "observed",
+        "value": 2,
+        "confidence": 0.7,
+        "evidence_indices": [
+          1,
+          9
+        ],
+        "source_urls": [
+          "https://www.meteorwanda.gov.rw/publications-1/news/news-detail?tx_news_pi1[action]=detail&tx_news_pi1[controller]=News&tx_news_pi1[news]=42078&cHash=db045c6820db7fefc407c3496689b681",
+          "https://rdb.rw/rwanda-showcases-green-investment-opportunities-at-cop26-in-glasgow/"
+        ],
+        "event_ids": [
+          "mujawamariya-forest-management-2022",
+          "mujawamariya-cop26-green-investment-2021"
+        ],
+        "rationale": "Муджавамария поддерживала передачу 80% государственных лесов частным операторам, а также облегчение доступа частного сектора к климатическому финансированию, что свидетельствует о расширении частной инициативы.",
+        "support_type": "positive_manifestation",
+        "provenance": {
+          "raw_response_file": "evidence/independent_responses/be2501510d422fa19ec99df6e5164bfd08f66358257697640fbaa0ee080232fd.json",
+          "model": "gpt-4.1",
+          "at": "2026-10-15T17:30:28.537507+00:00",
+          "cache_key": "be2501510d422fa19ec99df6e5164bfd08f66358257697640fbaa0ee080232fd",
+          "original_proposal": {
+            "variable_id": "market-state-instruments__positive",
+            "status": "observed",
+            "value": 2,
+            "confidence": 0.7,
+            "support_type": "positive_manifestation",
+            "rationale": "Муджавамария поддерживала передачу 80% государственных лесов частным операторам, а также облегчение доступа частного сектора к климатическому финансированию, что свидетельствует о расширении частной инициативы.",
+            "evidence_indices": [
+              1,
+              9
+            ]
+          }
+        },
+        "evidence_file": "evidence/independent-dossier-jeanne-darc-mujawamariya.json",
+        "evidence_basis": "a7a64c76bd837d20a97e9cb2f620721ab3fdeb48d5d5df7f179f1f9303f1fbf4"
+      },
+      "negative": {
+        "status": "observed",
+        "value": 2,
+        "confidence": 0.7,
+        "evidence_indices": [
+          11,
+          14,
+          30
+        ],
+        "source_urls": [
+          "https://www.rema.gov.rw/fileadmin/user_upload/REMA/Newsletters/REMA_Quarterly_Newsletter_April_-_June_2023.pdf"
+        ],
+        "event_ids": [
+          "mujawamariya-2023-05-03-lpg-schools",
+          "mujawamariya-2023-06-05-lpg-schools",
+          "mujawamariya-2023-06-05-private-sector-school-energy"
+        ],
+        "rationale": "В ряде эпизодов реализуются государственные программы и проекты (например, внедрение сжиженного газа в школах), что отражает элементы государственного планирования и обязательных правил.",
+        "support_type": "positive_manifestation",
+        "provenance": {
+          "raw_response_file": "evidence/independent_responses/be2501510d422fa19ec99df6e5164bfd08f66358257697640fbaa0ee080232fd.json",
+          "model": "gpt-4.1",
+          "at": "2026-10-15T17:30:28.537507+00:00",
+          "cache_key": "be2501510d422fa19ec99df6e5164bfd08f66358257697640fbaa0ee080232fd",
+          "original_proposal": {
+            "variable_id": "market-state-instruments__negative",
+            "status": "observed",
+            "value": 2,
+            "confidence": 0.7,
+            "support_type": "positive_manifestation",
+            "rationale": "В ряде эпизодов реализуются государственные программы и проекты (например, внедрение сжиженного газа в школах), что отражает элементы государственного планирования и обязательных правил.",
+            "evidence_indices": [
+              11,
+              14,
+              30
+            ]
+          }
+        },
+        "evidence_file": "evidence/independent-dossier-jeanne-darc-mujawamariya.json",
+        "evidence_basis": "a7a64c76bd837d20a97e9cb2f620721ab3fdeb48d5d5df7f179f1f9303f1fbf4"
+      }
+    },
+    "positive": 2,
+    "negative": 2,
+    "value": null,
+    "status": "observed",
+    "difference": null,
+    "mass": null,
+    "measurement_model": "independent_poles",
+    "evidence_file": "evidence/independent-dossier-jeanne-darc-mujawamariya.json",
+    "evidence_basis": "a7a64c76bd837d20a97e9cb2f620721ab3fdeb48d5d5df7f179f1f9303f1fbf4",
+    "at": "2026-10-15T17:30:37.860185+00:00",
+    "reason": "Каждое свойство оценивается независимо; разность и искусственное дополнение до пяти не вычисляются"
+  },
+  {
+    "object_id": "jeanne-darc-mujawamariya",
+    "scale_id": "accessibility-growth-priorities",
+    "pole_scores": {
+      "positive": {
+        "status": "observed",
+        "value": 1,
+        "confidence": 0.6,
+        "evidence_indices": [
+          11,
+          14,
+          20
+        ],
+        "source_urls": [
+          "https://www.rema.gov.rw/fileadmin/user_upload/REMA/Newsletters/REMA_Quarterly_Newsletter_April_-_June_2023.pdf"
+        ],
+        "event_ids": [
+          "mujawamariya-2023-05-03-lpg-schools",
+          "mujawamariya-2023-06-05-lpg-schools",
+          "mujawamariya-2023-05-03-school-energy"
+        ],
+        "rationale": "Есть эпизоды адресного внедрения экологических и энергетических решений (например, сжиженный газ в школах), что свидетельствует о расширении доступности базовых благ, но масштаб ограничен конкретными учреждениями.",
+        "support_type": "positive_manifestation",
+        "provenance": {
+          "raw_response_file": "evidence/independent_responses/be2501510d422fa19ec99df6e5164bfd08f66358257697640fbaa0ee080232fd.json",
+          "model": "gpt-4.1",
+          "at": "2026-10-15T17:30:28.537507+00:00",
+          "cache_key": "be2501510d422fa19ec99df6e5164bfd08f66358257697640fbaa0ee080232fd",
+          "original_proposal": {
+            "variable_id": "accessibility-growth-priorities__positive",
+            "status": "observed",
+            "value": 1,
+            "confidence": 0.6,
+            "support_type": "positive_manifestation",
+            "rationale": "Есть эпизоды адресного внедрения экологических и энергетических решений (например, сжиженный газ в школах), что свидетельствует о расширении доступности базовых благ, но масштаб ограничен конкретными учреждениями.",
+            "evidence_indices": [
+              11,
+              14,
+              20
+            ]
+          }
+        },
+        "evidence_file": "evidence/independent-dossier-jeanne-darc-mujawamariya.json",
+        "evidence_basis": "a7a64c76bd837d20a97e9cb2f620721ab3fdeb48d5d5df7f179f1f9303f1fbf4"
+      },
+      "negative": {
+        "status": "observed",
+        "value": 2,
+        "confidence": 0.7,
+        "evidence_indices": [
+          9,
+          23
+        ],
+        "source_urls": [
+          "https://rdb.rw/rwanda-showcases-green-investment-opportunities-at-cop26-in-glasgow/",
+          "https://www.rema.gov.rw/fileadmin/user_upload/REMA/Newsletters/REMA_Quarterly_Newsletter_April_-_June_2023.pdf"
+        ],
+        "event_ids": [
+          "mujawamariya-cop26-green-investment-2021",
+          "mujawamariya-2023-06-05-low-carbon-economy"
+        ],
+        "rationale": "Муджавамария акцентировала необходимость привлечения инвестиций, роста конкурентоспособности и развития низкоуглеродной экономики, что соответствует приоритету роста инвестиций и деловой активности.",
+        "support_type": "positive_manifestation",
+        "provenance": {
+          "raw_response_file": "evidence/independent_responses/be2501510d422fa19ec99df6e5164bfd08f66358257697640fbaa0ee080232fd.json",
+          "model": "gpt-4.1",
+          "at": "2026-10-15T17:30:28.537507+00:00",
+          "cache_key": "be2501510d422fa19ec99df6e5164bfd08f66358257697640fbaa0ee080232fd",
+          "original_proposal": {
+            "variable_id": "accessibility-growth-priorities__negative",
+            "status": "observed",
+            "value": 2,
+            "confidence": 0.7,
+            "support_type": "positive_manifestation",
+            "rationale": "Муджавамария акцентировала необходимость привлечения инвестиций, роста конкурентоспособности и развития низкоуглеродной экономики, что соответствует приоритету роста инвестиций и деловой активности.",
+            "evidence_indices": [
+              9,
+              23
+            ]
+          }
+        },
+        "evidence_file": "evidence/independent-dossier-jeanne-darc-mujawamariya.json",
+        "evidence_basis": "a7a64c76bd837d20a97e9cb2f620721ab3fdeb48d5d5df7f179f1f9303f1fbf4"
+      }
+    },
+    "positive": 1,
+    "negative": 2,
+    "value": null,
+    "status": "observed",
+    "difference": null,
+    "mass": null,
+    "measurement_model": "independent_poles",
+    "evidence_file": "evidence/independent-dossier-jeanne-darc-mujawamariya.json",
+    "evidence_basis": "a7a64c76bd837d20a97e9cb2f620721ab3fdeb48d5d5df7f179f1f9303f1fbf4",
+    "at": "2026-10-15T17:30:37.860185+00:00",
+    "reason": "Каждое свойство оценивается независимо; разность и искусственное дополнение до пяти не вычисляются"
+  },
+  {
+    "object_id": "jeanne-darc-mujawamariya",
+    "scale_id": "external-domestic-resources",
+    "pole_scores": {
+      "positive": {
+        "status": "observed",
+        "value": 3,
+        "confidence": 0.8,
+        "evidence_indices": [
+          2,
+          9,
+          15,
+          16,
+          17
+        ],
+        "source_urls": [
+          "https://www.environment.gov.rw/news-detail/rwanda-and-italy-partner-on-sustainable-development",
+          "https://rdb.rw/rwanda-showcases-green-investment-opportunities-at-cop26-in-glasgow/",
+          "https://www.environment.gov.rw/news-detail/rwanda-calls-for-greater-accountability-on-climate-action-and-adaptation-financing-at-stockholm-50"
+        ],
+        "event_ids": [
+          "mujawamariya-rwanda-italy-mou-2021",
+          "mujawamariya-cop26-green-investment-2021",
+          "mujawamariya-2022-06-02-stockholm50",
+          "mujawamariya-2022-06-02-plastic-treaty",
+          "mujawamariya-2022-06-02-accountability-finance"
+        ],
+        "rationale": "Муджавамария неоднократно выступала за привлечение внешнего финансирования, международных партнёрств и инвестиций для достижения климатических целей, в том числе на COP26 и Stockholm+50.",
+        "support_type": "positive_manifestation",
+        "provenance": {
+          "raw_response_file": "evidence/independent_responses/be2501510d422fa19ec99df6e5164bfd08f66358257697640fbaa0ee080232fd.json",
+          "model": "gpt-4.1",
+          "at": "2026-10-15T17:30:28.537507+00:00",
+          "cache_key": "be2501510d422fa19ec99df6e5164bfd08f66358257697640fbaa0ee080232fd",
+          "original_proposal": {
+            "variable_id": "external-domestic-resources__positive",
+            "status": "observed",
+            "value": 3,
+            "confidence": 0.8,
+            "support_type": "positive_manifestation",
+            "rationale": "Муджавамария неоднократно выступала за привлечение внешнего финансирования, международных партнёрств и инвестиций для достижения климатических целей, в том числе на COP26 и Stockholm+50.",
+            "evidence_indices": [
+              2,
+              9,
+              15,
+              16,
+              17
+            ]
+          }
+        },
+        "evidence_file": "evidence/independent-dossier-jeanne-darc-mujawamariya.json",
+        "evidence_basis": "a7a64c76bd837d20a97e9cb2f620721ab3fdeb48d5d5df7f179f1f9303f1fbf4"
+      },
+      "negative": {
+        "status": "unknown",
+        "value": null,
+        "confidence": 0,
+        "evidence_indices": [],
+        "source_urls": [],
+        "event_ids": [],
+        "rationale": "Нет прямых заявлений Муджавамарии о приоритете внутренних доходов или снижении зависимости от внешних поступлений.",
+        "support_type": "unknown",
+        "provenance": {
+          "raw_response_file": "evidence/independent_responses/be2501510d422fa19ec99df6e5164bfd08f66358257697640fbaa0ee080232fd.json",
+          "model": "gpt-4.1",
+          "at": "2026-10-15T17:30:28.537507+00:00",
+          "cache_key": "be2501510d422fa19ec99df6e5164bfd08f66358257697640fbaa0ee080232fd",
+          "original_proposal": {
+            "variable_id": "external-domestic-resources__negative",
+            "status": "unknown",
+            "value": null,
+            "confidence": 0.5,
+            "support_type": "unknown",
+            "rationale": "Нет прямых заявлений Муджавамарии о приоритете внутренних доходов или снижении зависимости от внешних поступлений.",
+            "evidence_indices": []
+          }
+        },
+        "evidence_file": "evidence/independent-dossier-jeanne-darc-mujawamariya.json",
+        "evidence_basis": "a7a64c76bd837d20a97e9cb2f620721ab3fdeb48d5d5df7f179f1f9303f1fbf4"
+      }
+    },
+    "positive": 3,
+    "negative": null,
+    "value": null,
+    "status": "partial",
+    "difference": null,
+    "mass": null,
+    "measurement_model": "independent_poles",
+    "evidence_file": "evidence/independent-dossier-jeanne-darc-mujawamariya.json",
+    "evidence_basis": "a7a64c76bd837d20a97e9cb2f620721ab3fdeb48d5d5df7f179f1f9303f1fbf4",
+    "at": "2026-10-15T17:30:37.860185+00:00",
+    "reason": "Каждое свойство оценивается независимо; разность и искусственное дополнение до пяти не вычисляются"
+  },
+  {
+    "object_id": "jeanne-darc-mujawamariya",
+    "scale_id": "international-rules-autonomy",
+    "pole_scores": {
+      "positive": {
+        "status": "observed",
+        "value": 3,
+        "confidence": 0.8,
+        "evidence_indices": [
+          16,
+          24,
+          26,
+          29
+        ],
+        "source_urls": [
+          "https://www.environment.gov.rw/news-detail/rwanda-calls-for-greater-accountability-on-climate-action-and-adaptation-financing-at-stockholm-50",
+          "https://www.rema.gov.rw/fileadmin/user_upload/REMA/Newsletters/REMA_Quarterly_Newsletter_April_-_June_2023.pdf"
+        ],
+        "event_ids": [
+          "mujawamariya-2022-06-02-plastic-treaty",
+          "mujawamariya-2022-06-02-kigali-amendment",
+          "mujawamariya-2023-06-05-global-alignment",
+          "mujawamariya-2022-06-02-paris-accountability"
+        ],
+        "rationale": "Муджавамария публично поддерживала закрепление обязательных международных норм (например, призыв к юридически обязательному договору по пластику, всеобщая ратификация Kigali Amendment, согласование национальных целей с глобальными приоритетами).",
+        "support_type": "positive_manifestation",
+        "provenance": {
+          "raw_response_file": "evidence/independent_responses/be2501510d422fa19ec99df6e5164bfd08f66358257697640fbaa0ee080232fd.json",
+          "model": "gpt-4.1",
+          "at": "2026-10-15T17:30:28.537507+00:00",
+          "cache_key": "be2501510d422fa19ec99df6e5164bfd08f66358257697640fbaa0ee080232fd",
+          "original_proposal": {
+            "variable_id": "international-rules-autonomy__positive",
+            "status": "observed",
+            "value": 3,
+            "confidence": 0.8,
+            "support_type": "positive_manifestation",
+            "rationale": "Муджавамария публично поддерживала закрепление обязательных международных норм (например, призыв к юридически обязательному договору по пластику, всеобщая ратификация Kigali Amendment, согласование национальных целей с глобальными приоритетами).",
+            "evidence_indices": [
+              16,
+              24,
+              26,
+              29
+            ]
+          }
+        },
+        "evidence_file": "evidence/independent-dossier-jeanne-darc-mujawamariya.json",
+        "evidence_basis": "a7a64c76bd837d20a97e9cb2f620721ab3fdeb48d5d5df7f179f1f9303f1fbf4"
+      },
+      "negative": {
+        "status": "unknown",
+        "value": null,
+        "confidence": 0,
+        "evidence_indices": [],
+        "source_urls": [],
+        "event_ids": [],
+        "rationale": "Нет прямых заявлений Муджавамарии о защите национальной самостоятельности решений или возражениях против международных обязательств.",
+        "support_type": "unknown",
+        "provenance": {
+          "raw_response_file": "evidence/independent_responses/be2501510d422fa19ec99df6e5164bfd08f66358257697640fbaa0ee080232fd.json",
+          "model": "gpt-4.1",
+          "at": "2026-10-15T17:30:28.537507+00:00",
+          "cache_key": "be2501510d422fa19ec99df6e5164bfd08f66358257697640fbaa0ee080232fd",
+          "original_proposal": {
+            "variable_id": "international-rules-autonomy__negative",
+            "status": "unknown",
+            "value": null,
+            "confidence": 0.5,
+            "support_type": "unknown",
+            "rationale": "Нет прямых заявлений Муджавамарии о защите национальной самостоятельности решений или возражениях против международных обязательств.",
+            "evidence_indices": []
+          }
+        },
+        "evidence_file": "evidence/independent-dossier-jeanne-darc-mujawamariya.json",
+        "evidence_basis": "a7a64c76bd837d20a97e9cb2f620721ab3fdeb48d5d5df7f179f1f9303f1fbf4"
+      }
+    },
+    "positive": 3,
+    "negative": null,
+    "value": null,
+    "status": "partial",
+    "difference": null,
+    "mass": null,
+    "measurement_model": "independent_poles",
+    "evidence_file": "evidence/independent-dossier-jeanne-darc-mujawamariya.json",
+    "evidence_basis": "a7a64c76bd837d20a97e9cb2f620721ab3fdeb48d5d5df7f179f1f9303f1fbf4",
+    "at": "2026-10-15T17:30:37.860185+00:00",
+    "reason": "Каждое свойство оценивается независимо; разность и искусственное дополнение до пяти не вычисляются"
+  },
+  {
+    "object_id": "jeanne-darc-mujawamariya",
+    "scale_id": "mediation-adversarial-communication",
+    "pole_scores": {
+      "positive": {
+        "status": "unknown",
+        "value": null,
+        "confidence": 0,
+        "evidence_indices": [],
+        "source_urls": [],
+        "event_ids": [],
+        "rationale": "Нет эпизодов, где Муджавамария выступала бы посредником или инициировала переговоры между конфликтующими сторонами.",
+        "support_type": "unknown",
+        "provenance": {
+          "raw_response_file": "evidence/independent_responses/be2501510d422fa19ec99df6e5164bfd08f66358257697640fbaa0ee080232fd.json",
+          "model": "gpt-4.1",
+          "at": "2026-10-15T17:30:28.537507+00:00",
+          "cache_key": "be2501510d422fa19ec99df6e5164bfd08f66358257697640fbaa0ee080232fd",
+          "original_proposal": {
+            "variable_id": "mediation-adversarial-communication__positive",
+            "status": "unknown",
+            "value": null,
+            "confidence": 0.5,
+            "support_type": "unknown",
+            "rationale": "Нет эпизодов, где Муджавамария выступала бы посредником или инициировала переговоры между конфликтующими сторонами.",
+            "evidence_indices": []
+          }
+        },
+        "evidence_file": "evidence/independent-dossier-jeanne-darc-mujawamariya.json",
+        "evidence_basis": "a7a64c76bd837d20a97e9cb2f620721ab3fdeb48d5d5df7f179f1f9303f1fbf4"
+      },
+      "negative": {
+        "status": "unknown",
+        "value": null,
+        "confidence": 0,
+        "evidence_indices": [],
+        "source_urls": [],
+        "event_ids": [],
+        "rationale": "Нет эпизодов, где Муджавамария публично оспаривала обвинения, вела полемику или защищала только свою сторону в конфликте.",
+        "support_type": "unknown",
+        "provenance": {
+          "raw_response_file": "evidence/independent_responses/be2501510d422fa19ec99df6e5164bfd08f66358257697640fbaa0ee080232fd.json",
+          "model": "gpt-4.1",
+          "at": "2026-10-15T17:30:28.537507+00:00",
+          "cache_key": "be2501510d422fa19ec99df6e5164bfd08f66358257697640fbaa0ee080232fd",
+          "original_proposal": {
+            "variable_id": "mediation-adversarial-communication__negative",
+            "status": "unknown",
+            "value": null,
+            "confidence": 0.5,
+            "support_type": "unknown",
+            "rationale": "Нет эпизодов, где Муджавамария публично оспаривала обвинения, вела полемику или защищала только свою сторону в конфликте.",
+            "evidence_indices": []
+          }
+        },
+        "evidence_file": "evidence/independent-dossier-jeanne-darc-mujawamariya.json",
+        "evidence_basis": "a7a64c76bd837d20a97e9cb2f620721ab3fdeb48d5d5df7f179f1f9303f1fbf4"
+      }
+    },
+    "positive": null,
+    "negative": null,
+    "value": null,
+    "status": "unknown",
+    "difference": null,
+    "mass": null,
+    "measurement_model": "independent_poles",
+    "evidence_file": "evidence/independent-dossier-jeanne-darc-mujawamariya.json",
+    "evidence_basis": "a7a64c76bd837d20a97e9cb2f620721ab3fdeb48d5d5df7f179f1f9303f1fbf4",
+    "at": "2026-10-15T17:30:37.860185+00:00",
+    "reason": "Каждое свойство оценивается независимо; разность и искусственное дополнение до пяти не вычисляются"
+  },
+  {
+    "object_id": "jeanne-darc-mujawamariya",
+    "scale_id": "cultural-openness-national-transmission",
+    "pole_scores": {
+      "positive": {
+        "status": "observed",
+        "value": 1,
+        "confidence": 0.6,
+        "evidence_indices": [
+          2,
+          3,
+          9,
+          26
+        ],
+        "source_urls": [
+          "https://www.environment.gov.rw/news-detail/rwanda-and-italy-partner-on-sustainable-development",
+          "https://rdb.rw/rwanda-showcases-green-investment-opportunities-at-cop26-in-glasgow/",
+          "https://www.rema.gov.rw/fileadmin/user_upload/REMA/Newsletters/REMA_Quarterly_Newsletter_April_-_June_2023.pdf"
+        ],
+        "event_ids": [
+          "mujawamariya-rwanda-italy-mou-2021",
+          "mujawamariya-cop26-green-investment-2021",
+          "mujawamariya-2023-06-05-global-alignment"
+        ],
+        "rationale": "Муджавамария участвовала в международных экологических соглашениях и партнёрствах (например, с Италией, COP26), что свидетельствует о некотором расширении межкультурного обмена в рамках служебной деятельности. Однако акцент на национальной традиции (см. следующий полюс) ограничивает выраженность этого свойства.",
+        "support_type": "positive_manifestation",
+        "provenance": {
+          "raw_response_file": "evidence/independent_responses/391f6a02261749cfe6a46209ec571bea670ca603160d1904953b99604960864a.json",
+          "model": "gpt-4.1",
+          "at": "2026-10-15T17:30:37.856750+00:00",
+          "cache_key": "391f6a02261749cfe6a46209ec571bea670ca603160d1904953b99604960864a",
+          "original_proposal": {
+            "variable_id": "cultural-openness-national-transmission__positive",
+            "status": "observed",
+            "value": 1,
+            "confidence": 0.6,
+            "support_type": "positive_manifestation",
+            "rationale": "Муджавамария участвовала в международных экологических соглашениях и партнёрствах (например, с Италией, COP26), что свидетельствует о некотором расширении межкультурного обмена в рамках служебной деятельности. Однако акцент на национальной традиции (см. следующий полюс) ограничивает выраженность этого свойства.",
+            "evidence_indices": [
+              2,
+              3,
+              9,
+              26
+            ]
+          }
+        },
+        "evidence_file": "evidence/independent-dossier-jeanne-darc-mujawamariya.json",
+        "evidence_basis": "a7a64c76bd837d20a97e9cb2f620721ab3fdeb48d5d5df7f179f1f9303f1fbf4"
+      },
+      "negative": {
+        "status": "observed",
+        "value": 2,
+        "confidence": 0.7,
+        "evidence_indices": [
+          0
+        ],
+        "source_urls": [
+          "https://umwezi.rw/?p=10907"
+        ],
+        "event_ids": [
+          "mujawamariya-forest-day-2022"
+        ],
+        "rationale": "В риторике Муджавамарии на национальном Дне дерева подчёркивалась передача экологических практик как национальной традиции и их сохранение для будущих поколений. Это прямое проявление ориентации на преемственность национальных ценностей.",
+        "support_type": "positive_manifestation",
+        "provenance": {
+          "raw_response_file": "evidence/independent_responses/391f6a02261749cfe6a46209ec571bea670ca603160d1904953b99604960864a.json",
+          "model": "gpt-4.1",
+          "at": "2026-10-15T17:30:37.856750+00:00",
+          "cache_key": "391f6a02261749cfe6a46209ec571bea670ca603160d1904953b99604960864a",
+          "original_proposal": {
+            "variable_id": "cultural-openness-national-transmission__negative",
+            "status": "observed",
+            "value": 2,
+            "confidence": 0.7,
+            "support_type": "positive_manifestation",
+            "rationale": "В риторике Муджавамарии на национальном Дне дерева подчёркивалась передача экологических практик как национальной традиции и их сохранение для будущих поколений. Это прямое проявление ориентации на преемственность национальных ценностей.",
+            "evidence_indices": [
+              0
+            ]
+          }
+        },
+        "evidence_file": "evidence/independent-dossier-jeanne-darc-mujawamariya.json",
+        "evidence_basis": "a7a64c76bd837d20a97e9cb2f620721ab3fdeb48d5d5df7f179f1f9303f1fbf4"
+      }
+    },
+    "positive": 1,
+    "negative": 2,
+    "value": null,
+    "status": "observed",
+    "difference": null,
+    "mass": null,
+    "measurement_model": "independent_poles",
+    "evidence_file": "evidence/independent-dossier-jeanne-darc-mujawamariya.json",
+    "evidence_basis": "a7a64c76bd837d20a97e9cb2f620721ab3fdeb48d5d5df7f179f1f9303f1fbf4",
+    "at": "2026-10-15T17:30:37.860185+00:00",
+    "reason": "Каждое свойство оценивается независимо; разность и искусственное дополнение до пяти не вычисляются"
+  },
+  {
+    "object_id": "jeanne-darc-mujawamariya",
+    "scale_id": "problem-disclosure-reputation-defence",
+    "pole_scores": {
+      "positive": {
+        "status": "observed",
+        "value": 2,
+        "confidence": 0.7,
+        "evidence_indices": [
+          13,
+          19,
+          27
+        ],
+        "source_urls": [
+          "https://www.rema.gov.rw/updates/news-details/rwanda-celebrates-world-environment-day-after-week-of-restoration-efforts"
+        ],
+        "event_ids": [
+          "mujawamariya-2023-06-05-world-environment-day",
+          "mujawamariya-2024-06-05-land-restoration",
+          "mujawamariya-2024-06-05-environmental-achievements"
+        ],
+        "rationale": "В публичных заявлениях Муджавамария отмечала достижения Руанды, но также признавалась в наличии сохраняющихся проблем и вызовов в экологической сфере. Это ограниченное, но прямое признание проблем исполнения.",
+        "support_type": "positive_manifestation",
+        "provenance": {
+          "raw_response_file": "evidence/independent_responses/391f6a02261749cfe6a46209ec571bea670ca603160d1904953b99604960864a.json",
+          "model": "gpt-4.1",
+          "at": "2026-10-15T17:30:37.856750+00:00",
+          "cache_key": "391f6a02261749cfe6a46209ec571bea670ca603160d1904953b99604960864a",
+          "original_proposal": {
+            "variable_id": "problem-disclosure-reputation-defence__positive",
+            "status": "observed",
+            "value": 2,
+            "confidence": 0.7,
+            "support_type": "positive_manifestation",
+            "rationale": "В публичных заявлениях Муджавамария отмечала достижения Руанды, но также признавалась в наличии сохраняющихся проблем и вызовов в экологической сфере. Это ограниченное, но прямое признание проблем исполнения.",
+            "evidence_indices": [
+              13,
+              19,
+              27
+            ]
+          }
+        },
+        "evidence_file": "evidence/independent-dossier-jeanne-darc-mujawamariya.json",
+        "evidence_basis": "a7a64c76bd837d20a97e9cb2f620721ab3fdeb48d5d5df7f179f1f9303f1fbf4"
+      },
+      "negative": {
+        "status": "observed",
+        "value": 2,
+        "confidence": 0.7,
+        "evidence_indices": [
+          13,
+          19,
+          27
+        ],
+        "source_urls": [
+          "https://www.rema.gov.rw/updates/news-details/rwanda-celebrates-world-environment-day-after-week-of-restoration-efforts"
+        ],
+        "event_ids": [
+          "mujawamariya-2023-06-05-world-environment-day",
+          "mujawamariya-2024-06-05-land-restoration",
+          "mujawamariya-2024-06-05-environmental-achievements"
+        ],
+        "rationale": "В ряде выступлений Муджавамария подчёркивала успехи Руанды в экологической политике, что служит защитой репутации страны. Однако это не доминирующая черта, а часть сбалансированной риторики.",
+        "support_type": "positive_manifestation",
+        "provenance": {
+          "raw_response_file": "evidence/independent_responses/391f6a02261749cfe6a46209ec571bea670ca603160d1904953b99604960864a.json",
+          "model": "gpt-4.1",
+          "at": "2026-10-15T17:30:37.856750+00:00",
+          "cache_key": "391f6a02261749cfe6a46209ec571bea670ca603160d1904953b99604960864a",
+          "original_proposal": {
+            "variable_id": "problem-disclosure-reputation-defence__negative",
+            "status": "observed",
+            "value": 2,
+            "confidence": 0.7,
+            "support_type": "positive_manifestation",
+            "rationale": "В ряде выступлений Муджавамария подчёркивала успехи Руанды в экологической политике, что служит защитой репутации страны. Однако это не доминирующая черта, а часть сбалансированной риторики.",
+            "evidence_indices": [
+              13,
+              19,
+              27
+            ]
+          }
+        },
+        "evidence_file": "evidence/independent-dossier-jeanne-darc-mujawamariya.json",
+        "evidence_basis": "a7a64c76bd837d20a97e9cb2f620721ab3fdeb48d5d5df7f179f1f9303f1fbf4"
+      }
+    },
+    "positive": 2,
+    "negative": 2,
+    "value": null,
+    "status": "observed",
+    "difference": null,
+    "mass": null,
+    "measurement_model": "independent_poles",
+    "evidence_file": "evidence/independent-dossier-jeanne-darc-mujawamariya.json",
+    "evidence_basis": "a7a64c76bd837d20a97e9cb2f620721ab3fdeb48d5d5df7f179f1f9303f1fbf4",
+    "at": "2026-10-15T17:30:37.860185+00:00",
+    "reason": "Каждое свойство оценивается независимо; разность и искусственное дополнение до пяти не вычисляются"
+  },
+  {
+    "object_id": "jeanne-darc-mujawamariya",
+    "scale_id": "procedural-guarantees-enforcement",
+    "pole_scores": {
+      "positive": {
+        "status": "observed",
+        "value": 1,
+        "confidence": 0.6,
+        "evidence_indices": [
+          17,
+          29
+        ],
+        "source_urls": [
+          "https://www.environment.gov.rw/news-detail/rwanda-calls-for-greater-accountability-on-climate-action-and-adaptation-financing-at-stockholm-50"
+        ],
+        "event_ids": [
+          "mujawamariya-2022-06-02-accountability-finance",
+          "mujawamariya-2022-06-02-paris-accountability"
+        ],
+        "rationale": "В международных заявлениях Муджавамария призывала к подотчётности и контролю исполнения климатических обязательств, что свидетельствует о некотором акценте на механизмах обжалования и проверяемости.",
+        "support_type": "positive_manifestation",
+        "provenance": {
+          "raw_response_file": "evidence/independent_responses/391f6a02261749cfe6a46209ec571bea670ca603160d1904953b99604960864a.json",
+          "model": "gpt-4.1",
+          "at": "2026-10-15T17:30:37.856750+00:00",
+          "cache_key": "391f6a02261749cfe6a46209ec571bea670ca603160d1904953b99604960864a",
+          "original_proposal": {
+            "variable_id": "procedural-guarantees-enforcement__positive",
+            "status": "observed",
+            "value": 1,
+            "confidence": 0.6,
+            "support_type": "positive_manifestation",
+            "rationale": "В международных заявлениях Муджавамария призывала к подотчётности и контролю исполнения климатических обязательств, что свидетельствует о некотором акценте на механизмах обжалования и проверяемости.",
+            "evidence_indices": [
+              17,
+              29
+            ]
+          }
+        },
+        "evidence_file": "evidence/independent-dossier-jeanne-darc-mujawamariya.json",
+        "evidence_basis": "a7a64c76bd837d20a97e9cb2f620721ab3fdeb48d5d5df7f179f1f9303f1fbf4"
+      },
+      "negative": {
+        "status": "unknown",
+        "value": null,
+        "confidence": 0,
+        "evidence_indices": [],
+        "source_urls": [],
+        "event_ids": [],
+        "rationale": "Нет прямых фактов о действиях Муджавамарии по принудительному обеспечению обязательных требований или санкциям.",
+        "support_type": "unknown",
+        "provenance": {
+          "raw_response_file": "evidence/independent_responses/391f6a02261749cfe6a46209ec571bea670ca603160d1904953b99604960864a.json",
+          "model": "gpt-4.1",
+          "at": "2026-10-15T17:30:37.856750+00:00",
+          "cache_key": "391f6a02261749cfe6a46209ec571bea670ca603160d1904953b99604960864a",
+          "original_proposal": {
+            "variable_id": "procedural-guarantees-enforcement__negative",
+            "status": "unknown",
+            "value": null,
+            "confidence": 0.3,
+            "support_type": "unknown",
+            "rationale": "Нет прямых фактов о действиях Муджавамарии по принудительному обеспечению обязательных требований или санкциям.",
+            "evidence_indices": []
+          }
+        },
+        "evidence_file": "evidence/independent-dossier-jeanne-darc-mujawamariya.json",
+        "evidence_basis": "a7a64c76bd837d20a97e9cb2f620721ab3fdeb48d5d5df7f179f1f9303f1fbf4"
+      }
+    },
+    "positive": 1,
+    "negative": null,
+    "value": null,
+    "status": "partial",
+    "difference": null,
+    "mass": null,
+    "measurement_model": "independent_poles",
+    "evidence_file": "evidence/independent-dossier-jeanne-darc-mujawamariya.json",
+    "evidence_basis": "a7a64c76bd837d20a97e9cb2f620721ab3fdeb48d5d5df7f179f1f9303f1fbf4",
+    "at": "2026-10-15T17:30:37.860185+00:00",
+    "reason": "Каждое свойство оценивается независимо; разность и искусственное дополнение до пяти не вычисляются"
+  },
+  {
+    "object_id": "jeanne-darc-mujawamariya",
+    "scale_id": "prevention-crisis-response",
+    "pole_scores": {
+      "positive": {
+        "status": "observed",
+        "value": 2,
+        "confidence": 0.7,
+        "evidence_indices": [
+          13,
+          25
+        ],
+        "source_urls": [
+          "https://www.rema.gov.rw/updates/news-details/rwanda-celebrates-world-environment-day-after-week-of-restoration-efforts"
+        ],
+        "event_ids": [
+          "mujawamariya-2023-06-05-world-environment-day",
+          "mujawamariya-2024-06-05-drought-resilience"
+        ],
+        "rationale": "В ряде выступлений Муджавамария связывала восстановление земель и устойчивость к засухе с упреждающим снижением климатических рисков, что отражает ограниченное проявление профилактической стратегии.",
+        "support_type": "positive_manifestation",
+        "provenance": {
+          "raw_response_file": "evidence/independent_responses/391f6a02261749cfe6a46209ec571bea670ca603160d1904953b99604960864a.json",
+          "model": "gpt-4.1",
+          "at": "2026-10-15T17:30:37.856750+00:00",
+          "cache_key": "391f6a02261749cfe6a46209ec571bea670ca603160d1904953b99604960864a",
+          "original_proposal": {
+            "variable_id": "prevention-crisis-response__positive",
+            "status": "observed",
+            "value": 2,
+            "confidence": 0.7,
+            "support_type": "positive_manifestation",
+            "rationale": "В ряде выступлений Муджавамария связывала восстановление земель и устойчивость к засухе с упреждающим снижением климатических рисков, что отражает ограниченное проявление профилактической стратегии.",
+            "evidence_indices": [
+              13,
+              25
+            ]
+          }
+        },
+        "evidence_file": "evidence/independent-dossier-jeanne-darc-mujawamariya.json",
+        "evidence_basis": "a7a64c76bd837d20a97e9cb2f620721ab3fdeb48d5d5df7f179f1f9303f1fbf4"
+      },
+      "negative": {
+        "status": "unknown",
+        "value": null,
+        "confidence": 0,
+        "evidence_indices": [],
+        "source_urls": [],
+        "event_ids": [],
+        "rationale": "Нет прямых эпизодов, где Муджавамария делала акцент на реагировании на уже возникшие кризисы без профилактики.",
+        "support_type": "unknown",
+        "provenance": {
+          "raw_response_file": "evidence/independent_responses/391f6a02261749cfe6a46209ec571bea670ca603160d1904953b99604960864a.json",
+          "model": "gpt-4.1",
+          "at": "2026-10-15T17:30:37.856750+00:00",
+          "cache_key": "391f6a02261749cfe6a46209ec571bea670ca603160d1904953b99604960864a",
+          "original_proposal": {
+            "variable_id": "prevention-crisis-response__negative",
+            "status": "unknown",
+            "value": null,
+            "confidence": 0.3,
+            "support_type": "unknown",
+            "rationale": "Нет прямых эпизодов, где Муджавамария делала акцент на реагировании на уже возникшие кризисы без профилактики.",
+            "evidence_indices": []
+          }
+        },
+        "evidence_file": "evidence/independent-dossier-jeanne-darc-mujawamariya.json",
+        "evidence_basis": "a7a64c76bd837d20a97e9cb2f620721ab3fdeb48d5d5df7f179f1f9303f1fbf4"
+      }
+    },
+    "positive": 2,
+    "negative": null,
+    "value": null,
+    "status": "partial",
+    "difference": null,
+    "mass": null,
+    "measurement_model": "independent_poles",
+    "evidence_file": "evidence/independent-dossier-jeanne-darc-mujawamariya.json",
+    "evidence_basis": "a7a64c76bd837d20a97e9cb2f620721ab3fdeb48d5d5df7f179f1f9303f1fbf4",
+    "at": "2026-10-15T17:30:37.860185+00:00",
+    "reason": "Каждое свойство оценивается независимо; разность и искусственное дополнение до пяти не вычисляются"
+  },
+  {
+    "object_id": "jeanne-darc-mujawamariya",
+    "scale_id": "electoral-access",
+    "pole_scores": {
+      "positive": {
+        "status": "unknown",
+        "value": null,
+        "confidence": 0,
+        "evidence_indices": [],
+        "source_urls": [],
+        "event_ids": [],
+        "rationale": "Нет данных о публичных действиях или заявлениях Муджавамарии по расширению доступа к выборной конкуренции.",
+        "support_type": "unknown",
+        "provenance": {
+          "raw_response_file": "evidence/independent_responses/391f6a02261749cfe6a46209ec571bea670ca603160d1904953b99604960864a.json",
+          "model": "gpt-4.1",
+          "at": "2026-10-15T17:30:37.856750+00:00",
+          "cache_key": "391f6a02261749cfe6a46209ec571bea670ca603160d1904953b99604960864a",
+          "original_proposal": {
+            "variable_id": "electoral-access__positive",
+            "status": "unknown",
+            "value": null,
+            "confidence": 0.2,
+            "support_type": "unknown",
+            "rationale": "Нет данных о публичных действиях или заявлениях Муджавамарии по расширению доступа к выборной конкуренции.",
+            "evidence_indices": []
+          }
+        },
+        "evidence_file": "evidence/independent-dossier-jeanne-darc-mujawamariya.json",
+        "evidence_basis": "a7a64c76bd837d20a97e9cb2f620721ab3fdeb48d5d5df7f179f1f9303f1fbf4"
+      },
+      "negative": {
+        "status": "unknown",
+        "value": null,
+        "confidence": 0,
+        "evidence_indices": [],
+        "source_urls": [],
+        "event_ids": [],
+        "rationale": "Нет данных о действиях или заявлениях Муджавамарии по усилению политических барьеров.",
+        "support_type": "unknown",
+        "provenance": {
+          "raw_response_file": "evidence/independent_responses/391f6a02261749cfe6a46209ec571bea670ca603160d1904953b99604960864a.json",
+          "model": "gpt-4.1",
+          "at": "2026-10-15T17:30:37.856750+00:00",
+          "cache_key": "391f6a02261749cfe6a46209ec571bea670ca603160d1904953b99604960864a",
+          "original_proposal": {
+            "variable_id": "electoral-access__negative",
+            "status": "unknown",
+            "value": null,
+            "confidence": 0.2,
+            "support_type": "unknown",
+            "rationale": "Нет данных о действиях или заявлениях Муджавамарии по усилению политических барьеров.",
+            "evidence_indices": []
+          }
+        },
+        "evidence_file": "evidence/independent-dossier-jeanne-darc-mujawamariya.json",
+        "evidence_basis": "a7a64c76bd837d20a97e9cb2f620721ab3fdeb48d5d5df7f179f1f9303f1fbf4"
+      }
+    },
+    "positive": null,
+    "negative": null,
+    "value": null,
+    "status": "unknown",
+    "difference": null,
+    "mass": null,
+    "measurement_model": "independent_poles",
+    "evidence_file": "evidence/independent-dossier-jeanne-darc-mujawamariya.json",
+    "evidence_basis": "a7a64c76bd837d20a97e9cb2f620721ab3fdeb48d5d5df7f179f1f9303f1fbf4",
+    "at": "2026-10-15T17:30:37.860185+00:00",
+    "reason": "Каждое свойство оценивается независимо; разность и искусственное дополнение до пяти не вычисляются"
+  },
+  {
+    "object_id": "jeanne-darc-mujawamariya",
+    "scale_id": "institutional-autonomy-coordination",
+    "pole_scores": {
+      "positive": {
+        "status": "unknown",
+        "value": null,
+        "confidence": 0,
+        "evidence_indices": [],
+        "source_urls": [],
+        "event_ids": [],
+        "rationale": "Нет прямых эпизодов, где Муджавамария выступала за институциональную автономию или контроль между органами.",
+        "support_type": "unknown",
+        "provenance": {
+          "raw_response_file": "evidence/independent_responses/391f6a02261749cfe6a46209ec571bea670ca603160d1904953b99604960864a.json",
+          "model": "gpt-4.1",
+          "at": "2026-10-15T17:30:37.856750+00:00",
+          "cache_key": "391f6a02261749cfe6a46209ec571bea670ca603160d1904953b99604960864a",
+          "original_proposal": {
+            "variable_id": "institutional-autonomy-coordination__positive",
+            "status": "unknown",
+            "value": null,
+            "confidence": 0.3,
+            "support_type": "unknown",
+            "rationale": "Нет прямых эпизодов, где Муджавамария выступала за институциональную автономию или контроль между органами.",
+            "evidence_indices": []
+          }
+        },
+        "evidence_file": "evidence/independent-dossier-jeanne-darc-mujawamariya.json",
+        "evidence_basis": "a7a64c76bd837d20a97e9cb2f620721ab3fdeb48d5d5df7f179f1f9303f1fbf4"
+      },
+      "negative": {
+        "status": "observed",
+        "value": 1,
+        "confidence": 0.6,
+        "evidence_indices": [
+          10
+        ],
+        "source_urls": [
+          "https://www.mifotra.gov.rw/news-detail/handover-ceremony-of-new-minister-of-mifotra-hon-dr-jeanne-darc-mujawamariya"
+        ],
+        "event_ids": [
+          "mujawamariya-mifotra-appointment-handover"
+        ],
+        "rationale": "В публичных заявлениях о приоритетах на посту министра госслужбы Муджавамария подчёркивала единую управленческую линию и профессионализм, что свидетельствует о некотором акценте на согласовании работы институтов.",
+        "support_type": "positive_manifestation",
+        "provenance": {
+          "raw_response_file": "evidence/independent_responses/391f6a02261749cfe6a46209ec571bea670ca603160d1904953b99604960864a.json",
+          "model": "gpt-4.1",
+          "at": "2026-10-15T17:30:37.856750+00:00",
+          "cache_key": "391f6a02261749cfe6a46209ec571bea670ca603160d1904953b99604960864a",
+          "original_proposal": {
+            "variable_id": "institutional-autonomy-coordination__negative",
+            "status": "observed",
+            "value": 1,
+            "confidence": 0.6,
+            "support_type": "positive_manifestation",
+            "rationale": "В публичных заявлениях о приоритетах на посту министра госслужбы Муджавамария подчёркивала единую управленческую линию и профессионализм, что свидетельствует о некотором акценте на согласовании работы институтов.",
+            "evidence_indices": [
+              10
+            ]
+          }
+        },
+        "evidence_file": "evidence/independent-dossier-jeanne-darc-mujawamariya.json",
+        "evidence_basis": "a7a64c76bd837d20a97e9cb2f620721ab3fdeb48d5d5df7f179f1f9303f1fbf4"
+      }
+    },
+    "positive": null,
+    "negative": 1,
+    "value": null,
+    "status": "partial",
+    "difference": null,
+    "mass": null,
+    "measurement_model": "independent_poles",
+    "evidence_file": "evidence/independent-dossier-jeanne-darc-mujawamariya.json",
+    "evidence_basis": "a7a64c76bd837d20a97e9cb2f620721ab3fdeb48d5d5df7f179f1f9303f1fbf4",
+    "at": "2026-10-15T17:30:37.860185+00:00",
+    "reason": "Каждое свойство оценивается независимо; разность и искусственное дополнение до пяти не вычисляются"
+  },
+  {
+    "object_id": "jeanne-darc-mujawamariya",
+    "scale_id": "taxation-burden-public-revenue",
+    "pole_scores": {
+      "positive": {
+        "status": "unknown",
+        "value": null,
+        "confidence": 0,
+        "evidence_indices": [],
+        "source_urls": [],
+        "event_ids": [],
+        "rationale": "Нет данных о предложениях Муджавамарии по снижению налоговой нагрузки или расширению имущественной самостоятельности.",
+        "support_type": "unknown",
+        "provenance": {
+          "raw_response_file": "evidence/independent_responses/391f6a02261749cfe6a46209ec571bea670ca603160d1904953b99604960864a.json",
+          "model": "gpt-4.1",
+          "at": "2026-10-15T17:30:37.856750+00:00",
+          "cache_key": "391f6a02261749cfe6a46209ec571bea670ca603160d1904953b99604960864a",
+          "original_proposal": {
+            "variable_id": "taxation-burden-public-revenue__positive",
+            "status": "unknown",
+            "value": null,
+            "confidence": 0.2,
+            "support_type": "unknown",
+            "rationale": "Нет данных о предложениях Муджавамарии по снижению налоговой нагрузки или расширению имущественной самостоятельности.",
+            "evidence_indices": []
+          }
+        },
+        "evidence_file": "evidence/independent-dossier-jeanne-darc-mujawamariya.json",
+        "evidence_basis": "a7a64c76bd837d20a97e9cb2f620721ab3fdeb48d5d5df7f179f1f9303f1fbf4"
+      },
+      "negative": {
+        "status": "unknown",
+        "value": null,
+        "confidence": 0,
+        "evidence_indices": [],
+        "source_urls": [],
+        "event_ids": [],
+        "rationale": "Нет данных о поддержке Муджавамарией увеличения налоговых поступлений для публичного развития.",
+        "support_type": "unknown",
+        "provenance": {
+          "raw_response_file": "evidence/independent_responses/391f6a02261749cfe6a46209ec571bea670ca603160d1904953b99604960864a.json",
+          "model": "gpt-4.1",
+          "at": "2026-10-15T17:30:37.856750+00:00",
+          "cache_key": "391f6a02261749cfe6a46209ec571bea670ca603160d1904953b99604960864a",
+          "original_proposal": {
+            "variable_id": "taxation-burden-public-revenue__negative",
+            "status": "unknown",
+            "value": null,
+            "confidence": 0.2,
+            "support_type": "unknown",
+            "rationale": "Нет данных о поддержке Муджавамарией увеличения налоговых поступлений для публичного развития.",
+            "evidence_indices": []
+          }
+        },
+        "evidence_file": "evidence/independent-dossier-jeanne-darc-mujawamariya.json",
+        "evidence_basis": "a7a64c76bd837d20a97e9cb2f620721ab3fdeb48d5d5df7f179f1f9303f1fbf4"
+      }
+    },
+    "positive": null,
+    "negative": null,
+    "value": null,
+    "status": "unknown",
+    "difference": null,
+    "mass": null,
+    "measurement_model": "independent_poles",
+    "evidence_file": "evidence/independent-dossier-jeanne-darc-mujawamariya.json",
+    "evidence_basis": "a7a64c76bd837d20a97e9cb2f620721ab3fdeb48d5d5df7f179f1f9303f1fbf4",
+    "at": "2026-10-15T17:30:37.860185+00:00",
+    "reason": "Каждое свойство оценивается независимо; разность и искусственное дополнение до пяти не вычисляются"
+  },
+  {
+    "object_id": "jeanne-darc-mujawamariya",
+    "scale_id": "universal-targeted-provision",
+    "pole_scores": {
+      "positive": {
+        "status": "unknown",
+        "value": null,
+        "confidence": 0,
+        "evidence_indices": [],
+        "source_urls": [],
+        "event_ids": [],
+        "rationale": "Нет фактов о действиях Муджавамарии по обеспечению единых стандартов доступности благ для всего населения.",
+        "support_type": "unknown",
+        "provenance": {
+          "raw_response_file": "evidence/independent_responses/391f6a02261749cfe6a46209ec571bea670ca603160d1904953b99604960864a.json",
+          "model": "gpt-4.1",
+          "at": "2026-10-15T17:30:37.856750+00:00",
+          "cache_key": "391f6a02261749cfe6a46209ec571bea670ca603160d1904953b99604960864a",
+          "original_proposal": {
+            "variable_id": "universal-targeted-provision__positive",
+            "status": "unknown",
+            "value": null,
+            "confidence": 0.3,
+            "support_type": "unknown",
+            "rationale": "Нет фактов о действиях Муджавамарии по обеспечению единых стандартов доступности благ для всего населения.",
+            "evidence_indices": []
+          }
+        },
+        "evidence_file": "evidence/independent-dossier-jeanne-darc-mujawamariya.json",
+        "evidence_basis": "a7a64c76bd837d20a97e9cb2f620721ab3fdeb48d5d5df7f179f1f9303f1fbf4"
+      },
+      "negative": {
+        "status": "observed",
+        "value": 1,
+        "confidence": 0.6,
+        "evidence_indices": [
+          11,
+          14,
+          20,
+          30
+        ],
+        "source_urls": [
+          "https://www.rema.gov.rw/fileadmin/user_upload/REMA/Newsletters/REMA_Quarterly_Newsletter_April_-_June_2023.pdf"
+        ],
+        "event_ids": [
+          "mujawamariya-2023-05-03-lpg-schools",
+          "mujawamariya-2023-06-05-lpg-schools",
+          "mujawamariya-2023-05-03-school-energy",
+          "mujawamariya-2023-06-05-private-sector-school-energy"
+        ],
+        "rationale": "Внедрение сжиженного газа в 20 школах — пример адресного решения для конкретных учреждений, а не универсального охвата.",
+        "support_type": "positive_manifestation",
+        "provenance": {
+          "raw_response_file": "evidence/independent_responses/391f6a02261749cfe6a46209ec571bea670ca603160d1904953b99604960864a.json",
+          "model": "gpt-4.1",
+          "at": "2026-10-15T17:30:37.856750+00:00",
+          "cache_key": "391f6a02261749cfe6a46209ec571bea670ca603160d1904953b99604960864a",
+          "original_proposal": {
+            "variable_id": "universal-targeted-provision__negative",
+            "status": "observed",
+            "value": 1,
+            "confidence": 0.6,
+            "support_type": "positive_manifestation",
+            "rationale": "Внедрение сжиженного газа в 20 школах — пример адресного решения для конкретных учреждений, а не универсального охвата.",
+            "evidence_indices": [
+              11,
+              14,
+              20,
+              30
+            ]
+          }
+        },
+        "evidence_file": "evidence/independent-dossier-jeanne-darc-mujawamariya.json",
+        "evidence_basis": "a7a64c76bd837d20a97e9cb2f620721ab3fdeb48d5d5df7f179f1f9303f1fbf4"
+      }
+    },
+    "positive": null,
+    "negative": 1,
+    "value": null,
+    "status": "partial",
+    "difference": null,
+    "mass": null,
+    "measurement_model": "independent_poles",
+    "evidence_file": "evidence/independent-dossier-jeanne-darc-mujawamariya.json",
+    "evidence_basis": "a7a64c76bd837d20a97e9cb2f620721ab3fdeb48d5d5df7f179f1f9303f1fbf4",
+    "at": "2026-10-15T17:30:37.860185+00:00",
+    "reason": "Каждое свойство оценивается независимо; разность и искусственное дополнение до пяти не вычисляются"
+  },
+  {
+    "object_id": "jeanne-darc-mujawamariya",
+    "scale_id": "ecological-limits-resource-use",
+    "pole_scores": {
+      "positive": {
+        "status": "observed",
+        "value": 3,
+        "confidence": 0.8,
+        "evidence_indices": [
+          12,
+          13,
+          16,
+          18,
+          23,
+          25
+        ],
+        "source_urls": [
+          "https://www.rema.gov.rw/fileadmin/user_upload/REMA/Newsletters/REMA_Quarterly_Newsletter_April_-_June_2023.pdf",
+          "https://www.rema.gov.rw/updates/news-details/rwanda-celebrates-world-environment-day-after-week-of-restoration-efforts",
+          "https://www.environment.gov.rw/news-detail/rwanda-calls-for-greater-accountability-on-climate-action-and-adaptation-financing-at-stockholm-50"
+        ],
+        "event_ids": [
+          "mujawamariya-2023-06-05-green-growth-strategy",
+          "mujawamariya-2023-06-05-world-environment-day",
+          "mujawamariya-2022-06-02-plastic-treaty",
+          "mujawamariya-2023-06-05-climate-resilience",
+          "mujawamariya-2023-06-05-low-carbon-economy",
+          "mujawamariya-2024-06-05-drought-resilience"
+        ],
+        "rationale": "Муджавамария неоднократно публично поддерживала усиление природоохранных ограничений: призывы к обязательному международному договору по пластику, продвижение низкоуглеродной экономики, восстановление земель, коллективная мобилизация для защиты природы. Это устойчивый акцент в ряде независимых эпизодов.",
+        "support_type": "positive_manifestation",
+        "provenance": {
+          "raw_response_file": "evidence/independent_responses/391f6a02261749cfe6a46209ec571bea670ca603160d1904953b99604960864a.json",
+          "model": "gpt-4.1",
+          "at": "2026-10-15T17:30:37.856750+00:00",
+          "cache_key": "391f6a02261749cfe6a46209ec571bea670ca603160d1904953b99604960864a",
+          "original_proposal": {
+            "variable_id": "ecological-limits-resource-use__positive",
+            "status": "observed",
+            "value": 3,
+            "confidence": 0.8,
+            "support_type": "positive_manifestation",
+            "rationale": "Муджавамария неоднократно публично поддерживала усиление природоохранных ограничений: призывы к обязательному международному договору по пластику, продвижение низкоуглеродной экономики, восстановление земель, коллективная мобилизация для защиты природы. Это устойчивый акцент в ряде независимых эпизодов.",
+            "evidence_indices": [
+              12,
+              13,
+              16,
+              18,
+              23,
+              25
+            ]
+          }
+        },
+        "evidence_file": "evidence/independent-dossier-jeanne-darc-mujawamariya.json",
+        "evidence_basis": "a7a64c76bd837d20a97e9cb2f620721ab3fdeb48d5d5df7f179f1f9303f1fbf4"
+      },
+      "negative": {
+        "status": "unknown",
+        "value": null,
+        "confidence": 0,
+        "evidence_indices": [],
+        "source_urls": [],
+        "event_ids": [],
+        "rationale": "Нет фактов о публичной поддержке Муджавамарией расширения хозяйственного использования природных ресурсов или ослабления экологических ограничений.",
+        "support_type": "unknown",
+        "provenance": {
+          "raw_response_file": "evidence/independent_responses/391f6a02261749cfe6a46209ec571bea670ca603160d1904953b99604960864a.json",
+          "model": "gpt-4.1",
+          "at": "2026-10-15T17:30:37.856750+00:00",
+          "cache_key": "391f6a02261749cfe6a46209ec571bea670ca603160d1904953b99604960864a",
+          "original_proposal": {
+            "variable_id": "ecological-limits-resource-use__negative",
+            "status": "unknown",
+            "value": null,
+            "confidence": 0.3,
+            "support_type": "unknown",
+            "rationale": "Нет фактов о публичной поддержке Муджавамарией расширения хозяйственного использования природных ресурсов или ослабления экологических ограничений.",
+            "evidence_indices": []
+          }
+        },
+        "evidence_file": "evidence/independent-dossier-jeanne-darc-mujawamariya.json",
+        "evidence_basis": "a7a64c76bd837d20a97e9cb2f620721ab3fdeb48d5d5df7f179f1f9303f1fbf4"
+      }
+    },
+    "positive": 3,
+    "negative": null,
+    "value": null,
+    "status": "partial",
+    "difference": null,
+    "mass": null,
+    "measurement_model": "independent_poles",
+    "evidence_file": "evidence/independent-dossier-jeanne-darc-mujawamariya.json",
+    "evidence_basis": "a7a64c76bd837d20a97e9cb2f620721ab3fdeb48d5d5df7f179f1f9303f1fbf4",
+    "at": "2026-10-15T17:30:37.860185+00:00",
+    "reason": "Каждое свойство оценивается независимо; разность и искусственное дополнение до пяти не вычисляются"
+  },
+  {
+    "object_id": "jeanne-darc-mujawamariya",
+    "scale_id": "russia-diplomatic-engagement",
+    "pole_scores": {
+      "positive": {
+        "status": "unknown",
+        "value": null,
+        "confidence": 0,
+        "evidence_indices": [],
+        "source_urls": [],
+        "event_ids": [],
+        "rationale": "Нет допустимых датированных персональных свидетельств по этому свойству",
+        "support_type": "unknown"
+      },
+      "negative": {
+        "status": "unknown",
+        "value": null,
+        "confidence": 0,
+        "evidence_indices": [],
+        "source_urls": [],
+        "event_ids": [],
+        "rationale": "Нет допустимых датированных персональных свидетельств по этому свойству",
+        "support_type": "unknown"
+      }
+    },
+    "positive": null,
+    "negative": null,
+    "value": null,
+    "status": "unknown",
+    "difference": null,
+    "mass": null,
+    "measurement_model": "independent_poles",
+    "evidence_file": "evidence/independent-dossier-jeanne-darc-mujawamariya.json",
+    "evidence_basis": "a7a64c76bd837d20a97e9cb2f620721ab3fdeb48d5d5df7f179f1f9303f1fbf4",
+    "at": "2026-10-15T17:30:37.860185+00:00",
+    "reason": "Каждое свойство оценивается независимо; разность и искусственное дополнение до пяти не вычисляются"
+  },
+  {
+    "object_id": "jeanne-darc-mujawamariya",
+    "scale_id": "russia-security-cooperation",
+    "pole_scores": {
+      "positive": {
+        "status": "unknown",
+        "value": null,
+        "confidence": 0,
+        "evidence_indices": [],
+        "source_urls": [],
+        "event_ids": [],
+        "rationale": "Нет допустимых датированных персональных свидетельств по этому свойству",
+        "support_type": "unknown"
+      },
+      "negative": {
+        "status": "unknown",
+        "value": null,
+        "confidence": 0,
+        "evidence_indices": [],
+        "source_urls": [],
+        "event_ids": [],
+        "rationale": "Нет допустимых датированных персональных свидетельств по этому свойству",
+        "support_type": "unknown"
+      }
+    },
+    "positive": null,
+    "negative": null,
+    "value": null,
+    "status": "unknown",
+    "difference": null,
+    "mass": null,
+    "measurement_model": "independent_poles",
+    "evidence_file": "evidence/independent-dossier-jeanne-darc-mujawamariya.json",
+    "evidence_basis": "a7a64c76bd837d20a97e9cb2f620721ab3fdeb48d5d5df7f179f1f9303f1fbf4",
+    "at": "2026-10-15T17:30:37.860185+00:00",
+    "reason": "Каждое свойство оценивается независимо; разность и искусственное дополнение до пяти не вычисляются"
+  },
+  {
+    "object_id": "jeanne-darc-mujawamariya",
+    "scale_id": "russia-economic-technology-cooperation",
+    "pole_scores": {
+      "positive": {
+        "status": "unknown",
+        "value": null,
+        "confidence": 0,
+        "evidence_indices": [],
+        "source_urls": [],
+        "event_ids": [],
+        "rationale": "Нет допустимых датированных персональных свидетельств по этому свойству",
+        "support_type": "unknown"
+      },
+      "negative": {
+        "status": "unknown",
+        "value": null,
+        "confidence": 0,
+        "evidence_indices": [],
+        "source_urls": [],
+        "event_ids": [],
+        "rationale": "Нет допустимых датированных персональных свидетельств по этому свойству",
+        "support_type": "unknown"
+      }
+    },
+    "positive": null,
+    "negative": null,
+    "value": null,
+    "status": "unknown",
+    "difference": null,
+    "mass": null,
+    "measurement_model": "independent_poles",
+    "evidence_file": "evidence/independent-dossier-jeanne-darc-mujawamariya.json",
+    "evidence_basis": "a7a64c76bd837d20a97e9cb2f620721ab3fdeb48d5d5df7f179f1f9303f1fbf4",
+    "at": "2026-10-15T17:30:37.860185+00:00",
+    "reason": "Каждое свойство оценивается независимо; разность и искусственное дополнение до пяти не вычисляются"
+  },
+  {
+    "object_id": "jeanne-darc-mujawamariya",
+    "scale_id": "russia-education-cultural-cooperation",
+    "pole_scores": {
+      "positive": {
+        "status": "unknown",
+        "value": null,
+        "confidence": 0,
+        "evidence_indices": [],
+        "source_urls": [],
+        "event_ids": [],
+        "rationale": "Нет допустимых датированных персональных свидетельств по этому свойству",
+        "support_type": "unknown"
+      },
+      "negative": {
+        "status": "unknown",
+        "value": null,
+        "confidence": 0,
+        "evidence_indices": [],
+        "source_urls": [],
+        "event_ids": [],
+        "rationale": "Нет допустимых датированных персональных свидетельств по этому свойству",
+        "support_type": "unknown"
+      }
+    },
+    "positive": null,
+    "negative": null,
+    "value": null,
+    "status": "unknown",
+    "difference": null,
+    "mass": null,
+    "measurement_model": "independent_poles",
+    "evidence_file": "evidence/independent-dossier-jeanne-darc-mujawamariya.json",
+    "evidence_basis": "a7a64c76bd837d20a97e9cb2f620721ab3fdeb48d5d5df7f179f1f9303f1fbf4",
+    "at": "2026-10-15T17:30:37.860185+00:00",
+    "reason": "Каждое свойство оценивается независимо; разность и искусственное дополнение до пяти не вычисляются"
+  },
+  {
+    "object_id": "jeanne-darc-mujawamariya",
+    "scale_id": "russia-conflict-policy-evaluation",
+    "pole_scores": {
+      "positive": {
+        "status": "unknown",
+        "value": null,
+        "confidence": 0,
+        "evidence_indices": [],
+        "source_urls": [],
+        "event_ids": [],
+        "rationale": "Нет допустимых датированных персональных свидетельств по этому свойству",
+        "support_type": "unknown"
+      },
+      "negative": {
+        "status": "unknown",
+        "value": null,
+        "confidence": 0,
+        "evidence_indices": [],
+        "source_urls": [],
+        "event_ids": [],
+        "rationale": "Нет допустимых датированных персональных свидетельств по этому свойству",
+        "support_type": "unknown"
+      }
+    },
+    "positive": null,
+    "negative": null,
+    "value": null,
+    "status": "unknown",
+    "difference": null,
+    "mass": null,
+    "measurement_model": "independent_poles",
+    "evidence_file": "evidence/independent-dossier-jeanne-darc-mujawamariya.json",
+    "evidence_basis": "a7a64c76bd837d20a97e9cb2f620721ab3fdeb48d5d5df7f179f1f9303f1fbf4",
+    "at": "2026-10-15T17:30:37.860185+00:00",
+    "reason": "Каждое свойство оценивается независимо; разность и искусственное дополнение до пяти не вычисляются"
+  },
+  {
+    "object_id": "jeanne-darc-mujawamariya",
+    "scale_id": "russia-isolation-sanctions",
+    "pole_scores": {
+      "positive": {
+        "status": "unknown",
+        "value": null,
+        "confidence": 0,
+        "evidence_indices": [],
+        "source_urls": [],
+        "event_ids": [],
+        "rationale": "Нет допустимых датированных персональных свидетельств по этому свойству",
+        "support_type": "unknown"
+      },
+      "negative": {
+        "status": "unknown",
+        "value": null,
+        "confidence": 0,
+        "evidence_indices": [],
+        "source_urls": [],
+        "event_ids": [],
+        "rationale": "Нет допустимых датированных персональных свидетельств по этому свойству",
+        "support_type": "unknown"
+      }
+    },
+    "positive": null,
+    "negative": null,
+    "value": null,
+    "status": "unknown",
+    "difference": null,
+    "mass": null,
+    "measurement_model": "independent_poles",
+    "evidence_file": "evidence/independent-dossier-jeanne-darc-mujawamariya.json",
+    "evidence_basis": "a7a64c76bd837d20a97e9cb2f620721ab3fdeb48d5d5df7f179f1f9303f1fbf4",
+    "at": "2026-10-15T17:30:37.860185+00:00",
+    "reason": "Каждое свойство оценивается независимо; разность и искусственное дополнение до пяти не вычисляются"
+  }
+]

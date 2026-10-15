@@ -1,0 +1,1857 @@
+[
+  {
+    "object_id": "pudence-rubingisa",
+    "scale_id": "programmatic-renewal",
+    "pole_scores": {
+      "positive": {
+        "status": "observed",
+        "value": 2,
+        "confidence": 0.7,
+        "evidence_indices": [
+          2,
+          16,
+          17,
+          27
+        ],
+        "source_urls": [
+          "https://www.shiftcities.org/post/kigali-path-toward-green-climate-resilient-growth",
+          "https://bloombergcities.jhu.edu/mayors-challenge/2022/kigali-rwanda"
+        ],
+        "event_ids": [
+          "kigali-urbanpriorities-2022",
+          "rubingisa-2022-07-14-green-growth-interview",
+          "rubingisa-2022-07-14-partner-capacity-platform",
+          "rubingisa-2022-06-01-rainwater-waste"
+        ],
+        "rationale": "Рубингиса неоднократно высказывался за модернизацию транспорта, обновление неформальных поселений, внедрение новых экологических и социальных программ (эпизоды 2, 16, 17, 27). Это фиксирует ясное ограниченное проявление программных изменений, но не устойчивую доминанту или радикальный пересмотр курса.",
+        "support_type": "positive_manifestation",
+        "provenance": {
+          "raw_response_file": "evidence/independent_responses/b1dc2fa27588bccaa54921a05e511947b39f21f50b481a163c21a8077919ac49.json",
+          "model": "gpt-4.1",
+          "at": "2026-10-15T17:31:29.161478+00:00",
+          "cache_key": "b1dc2fa27588bccaa54921a05e511947b39f21f50b481a163c21a8077919ac49",
+          "original_proposal": {
+            "variable_id": "programmatic-renewal__positive",
+            "status": "observed",
+            "value": 2,
+            "confidence": 0.7,
+            "support_type": "positive_manifestation",
+            "rationale": "Рубингиса неоднократно высказывался за модернизацию транспорта, обновление неформальных поселений, внедрение новых экологических и социальных программ (эпизоды 2, 16, 17, 27). Это фиксирует ясное ограниченное проявление программных изменений, но не устойчивую доминанту или радикальный пересмотр курса.",
+            "evidence_indices": [
+              2,
+              16,
+              17,
+              27
+            ]
+          }
+        },
+        "evidence_file": "evidence/independent-dossier-pudence-rubingisa.json",
+        "evidence_basis": "d29326332bb0b90c9ecdc2a067ac8f5a711f86a550b7f6a5522ca5afbd16ae08"
+      },
+      "negative": {
+        "status": "observed",
+        "value": 2,
+        "confidence": 0.7,
+        "evidence_indices": [
+          0,
+          6,
+          20
+        ],
+        "source_urls": [
+          "https://www.minecofin.gov.rw/index.php?eID=dumpFile&t=f&f=64959&token=15c961bd512d380625054db8481df2552e67a69d",
+          "https://www.kayonza.gov.rw/soma-ibindi/world-bank-delegation-commends-districts-progress-in-stunting-prevention-and-early-childhood-development",
+          "https://www.kigalicity.gov.rw/news-detail/the-city-of-kigali-held-a-press-conference-with-journalists-on-citys-development"
+        ],
+        "event_ids": [
+          "kigali-imihigo-2023",
+          "kayonza-worldbank-2025",
+          "rubingisa-2022-08-03-road-program"
+        ],
+        "rationale": "В ряде случаев Рубингиса акцентировал продолжение и закрепление действующих программ, например, в сотрудничестве с международными партнёрами по уже существующим направлениям (эпизоды 0, 6, 20). Это ограниченное проявление продолжения курса, но не его определяющая черта.",
+        "support_type": "positive_manifestation",
+        "provenance": {
+          "raw_response_file": "evidence/independent_responses/b1dc2fa27588bccaa54921a05e511947b39f21f50b481a163c21a8077919ac49.json",
+          "model": "gpt-4.1",
+          "at": "2026-10-15T17:31:29.161478+00:00",
+          "cache_key": "b1dc2fa27588bccaa54921a05e511947b39f21f50b481a163c21a8077919ac49",
+          "original_proposal": {
+            "variable_id": "programmatic-renewal__negative",
+            "status": "observed",
+            "value": 2,
+            "confidence": 0.7,
+            "support_type": "positive_manifestation",
+            "rationale": "В ряде случаев Рубингиса акцентировал продолжение и закрепление действующих программ, например, в сотрудничестве с международными партнёрами по уже существующим направлениям (эпизоды 0, 6, 20). Это ограниченное проявление продолжения курса, но не его определяющая черта.",
+            "evidence_indices": [
+              0,
+              6,
+              20
+            ]
+          }
+        },
+        "evidence_file": "evidence/independent-dossier-pudence-rubingisa.json",
+        "evidence_basis": "d29326332bb0b90c9ecdc2a067ac8f5a711f86a550b7f6a5522ca5afbd16ae08"
+      }
+    },
+    "positive": 2,
+    "negative": 2,
+    "value": null,
+    "status": "observed",
+    "difference": null,
+    "mass": null,
+    "measurement_model": "independent_poles",
+    "evidence_file": "evidence/independent-dossier-pudence-rubingisa.json",
+    "evidence_basis": "d29326332bb0b90c9ecdc2a067ac8f5a711f86a550b7f6a5522ca5afbd16ae08",
+    "at": "2026-10-15T17:31:38.885411+00:00",
+    "reason": "Каждое свойство оценивается независимо; разность и искусственное дополнение до пяти не вычисляются"
+  },
+  {
+    "object_id": "pudence-rubingisa",
+    "scale_id": "government-course-assessment",
+    "pole_scores": {
+      "positive": {
+        "status": "observed",
+        "value": 2,
+        "confidence": 0.7,
+        "evidence_indices": [
+          5,
+          19,
+          21
+        ],
+        "source_urls": [
+          "https://www.easternprovince.gov.rw/ibindi/guverineri-wintara-yiburasirazuba-yasoje-imurikabikorwa-rya-jadf-mu-karere-ka-bugesera-1",
+          "https://www.kigalicity.gov.rw/news-detail/the-city-of-kigali-held-a-press-conference-with-journalists-on-citys-development"
+        ],
+        "event_ids": [
+          "bugesera-jadf-exhibition-2025",
+          "rubingisa-2022-08-03-media-development",
+          "rubingisa-2022-08-03-street-vendors-markets"
+        ],
+        "rationale": "Рубингиса публично связывал успехи города и провинции с координацией администрации, благодарил партнёров за вклад в развитие, отмечал достижения в инфраструктуре и социальных программах (эпизоды 5, 19, 21). Это ограниченное, но явное проявление поддержки действующего курса.",
+        "support_type": "positive_manifestation",
+        "provenance": {
+          "raw_response_file": "evidence/independent_responses/b1dc2fa27588bccaa54921a05e511947b39f21f50b481a163c21a8077919ac49.json",
+          "model": "gpt-4.1",
+          "at": "2026-10-15T17:31:29.161478+00:00",
+          "cache_key": "b1dc2fa27588bccaa54921a05e511947b39f21f50b481a163c21a8077919ac49",
+          "original_proposal": {
+            "variable_id": "government-course-assessment__positive",
+            "status": "observed",
+            "value": 2,
+            "confidence": 0.7,
+            "support_type": "positive_manifestation",
+            "rationale": "Рубингиса публично связывал успехи города и провинции с координацией администрации, благодарил партнёров за вклад в развитие, отмечал достижения в инфраструктуре и социальных программах (эпизоды 5, 19, 21). Это ограниченное, но явное проявление поддержки действующего курса.",
+            "evidence_indices": [
+              5,
+              19,
+              21
+            ]
+          }
+        },
+        "evidence_file": "evidence/independent-dossier-pudence-rubingisa.json",
+        "evidence_basis": "d29326332bb0b90c9ecdc2a067ac8f5a711f86a550b7f6a5522ca5afbd16ae08"
+      },
+      "negative": {
+        "status": "unknown",
+        "value": null,
+        "confidence": 0,
+        "evidence_indices": [],
+        "source_urls": [],
+        "event_ids": [],
+        "rationale": "Нет прямых эпизодов публичной критики действующего государственного курса в доступных материалах.",
+        "support_type": "unknown",
+        "provenance": {
+          "raw_response_file": "evidence/independent_responses/b1dc2fa27588bccaa54921a05e511947b39f21f50b481a163c21a8077919ac49.json",
+          "model": "gpt-4.1",
+          "at": "2026-10-15T17:31:29.161478+00:00",
+          "cache_key": "b1dc2fa27588bccaa54921a05e511947b39f21f50b481a163c21a8077919ac49",
+          "original_proposal": {
+            "variable_id": "government-course-assessment__negative",
+            "status": "unknown",
+            "value": null,
+            "confidence": 0.5,
+            "support_type": "unknown",
+            "rationale": "Нет прямых эпизодов публичной критики действующего государственного курса в доступных материалах.",
+            "evidence_indices": []
+          }
+        },
+        "evidence_file": "evidence/independent-dossier-pudence-rubingisa.json",
+        "evidence_basis": "d29326332bb0b90c9ecdc2a067ac8f5a711f86a550b7f6a5522ca5afbd16ae08"
+      }
+    },
+    "positive": 2,
+    "negative": null,
+    "value": null,
+    "status": "partial",
+    "difference": null,
+    "mass": null,
+    "measurement_model": "independent_poles",
+    "evidence_file": "evidence/independent-dossier-pudence-rubingisa.json",
+    "evidence_basis": "d29326332bb0b90c9ecdc2a067ac8f5a711f86a550b7f6a5522ca5afbd16ae08",
+    "at": "2026-10-15T17:31:38.885411+00:00",
+    "reason": "Каждое свойство оценивается независимо; разность и искусственное дополнение до пяти не вычисляются"
+  },
+  {
+    "object_id": "pudence-rubingisa",
+    "scale_id": "participation-administrative-direction",
+    "pole_scores": {
+      "positive": {
+        "status": "observed",
+        "value": 2,
+        "confidence": 0.7,
+        "evidence_indices": [
+          1,
+          17,
+          23
+        ],
+        "source_urls": [
+          "https://www.kigalicity.gov.rw/news-detail/the-city-of-kigali-held-a-press-conference-with-journalists-on-citys-development",
+          "https://www.shiftcities.org/post/kigali-path-toward-green-climate-resilient-growth"
+        ],
+        "event_ids": [
+          "kigali-media-development-2022",
+          "rubingisa-2022-07-14-partner-capacity-platform",
+          "rubingisa-2022-08-03-stakeholder-partnership"
+        ],
+        "rationale": "Рубингиса подчёркивал важность взаимодействия с гражданами, СМИ и заинтересованными сторонами, а также предлагал платформы для обмена опытом (эпизоды 1, 17, 23). Это фиксирует ясное ограниченное проявление совместного обсуждения.",
+        "support_type": "positive_manifestation",
+        "provenance": {
+          "raw_response_file": "evidence/independent_responses/b1dc2fa27588bccaa54921a05e511947b39f21f50b481a163c21a8077919ac49.json",
+          "model": "gpt-4.1",
+          "at": "2026-10-15T17:31:29.161478+00:00",
+          "cache_key": "b1dc2fa27588bccaa54921a05e511947b39f21f50b481a163c21a8077919ac49",
+          "original_proposal": {
+            "variable_id": "participation-administrative-direction__positive",
+            "status": "observed",
+            "value": 2,
+            "confidence": 0.7,
+            "support_type": "positive_manifestation",
+            "rationale": "Рубингиса подчёркивал важность взаимодействия с гражданами, СМИ и заинтересованными сторонами, а также предлагал платформы для обмена опытом (эпизоды 1, 17, 23). Это фиксирует ясное ограниченное проявление совместного обсуждения.",
+            "evidence_indices": [
+              1,
+              17,
+              23
+            ]
+          }
+        },
+        "evidence_file": "evidence/independent-dossier-pudence-rubingisa.json",
+        "evidence_basis": "d29326332bb0b90c9ecdc2a067ac8f5a711f86a550b7f6a5522ca5afbd16ae08"
+      },
+      "negative": {
+        "status": "observed",
+        "value": 2,
+        "confidence": 0.7,
+        "evidence_indices": [
+          0,
+          18,
+          28
+        ],
+        "source_urls": [
+          "https://www.minecofin.gov.rw/index.php?eID=dumpFile&t=f&f=64959&token=15c961bd512d380625054db8481df2552e67a69d",
+          "https://www.ktpress.rw/2022/08/city-of-kigali-to-confiscate-idle-plots-of-land/",
+          "https://www.nyarugenge.gov.rw/amakuru/soma-ibikurikira/minisitiri-wubutegetsi-bwigihugu-yifatanyije-nabatuye-nyarugenge-mu-muganda"
+        ],
+        "event_ids": [
+          "kigali-imihigo-2023",
+          "rubingisa-2022-08-04-idle-plots",
+          "rubingisa-2023-02-04-umuganda-nyarugenge"
+        ],
+        "rationale": "В ряде случаев отмечена административная постановка задач и контроль исполнения, например, через формализованные цели и коллективную ответственность (эпизоды 0, 18, 28). Это ограниченное проявление административного подхода.",
+        "support_type": "positive_manifestation",
+        "provenance": {
+          "raw_response_file": "evidence/independent_responses/b1dc2fa27588bccaa54921a05e511947b39f21f50b481a163c21a8077919ac49.json",
+          "model": "gpt-4.1",
+          "at": "2026-10-15T17:31:29.161478+00:00",
+          "cache_key": "b1dc2fa27588bccaa54921a05e511947b39f21f50b481a163c21a8077919ac49",
+          "original_proposal": {
+            "variable_id": "participation-administrative-direction__negative",
+            "status": "observed",
+            "value": 2,
+            "confidence": 0.7,
+            "support_type": "positive_manifestation",
+            "rationale": "В ряде случаев отмечена административная постановка задач и контроль исполнения, например, через формализованные цели и коллективную ответственность (эпизоды 0, 18, 28). Это ограниченное проявление административного подхода.",
+            "evidence_indices": [
+              0,
+              18,
+              28
+            ]
+          }
+        },
+        "evidence_file": "evidence/independent-dossier-pudence-rubingisa.json",
+        "evidence_basis": "d29326332bb0b90c9ecdc2a067ac8f5a711f86a550b7f6a5522ca5afbd16ae08"
+      }
+    },
+    "positive": 2,
+    "negative": 2,
+    "value": null,
+    "status": "observed",
+    "difference": null,
+    "mass": null,
+    "measurement_model": "independent_poles",
+    "evidence_file": "evidence/independent-dossier-pudence-rubingisa.json",
+    "evidence_basis": "d29326332bb0b90c9ecdc2a067ac8f5a711f86a550b7f6a5522ca5afbd16ae08",
+    "at": "2026-10-15T17:31:38.885411+00:00",
+    "reason": "Каждое свойство оценивается независимо; разность и искусственное дополнение до пяти не вычисляются"
+  },
+  {
+    "object_id": "pudence-rubingisa",
+    "scale_id": "argumentation-evidence-values",
+    "pole_scores": {
+      "positive": {
+        "status": "observed",
+        "value": 2,
+        "confidence": 0.7,
+        "evidence_indices": [
+          20,
+          25,
+          26
+        ],
+        "source_urls": [
+          "https://www.kigalicity.gov.rw/news-detail/the-city-of-kigali-held-a-press-conference-with-journalists-on-citys-development",
+          "https://www.africa-press.net/liberia/all-news/photos-nearly-200-bird-species-return-to-restored-nyandungu-eco-park"
+        ],
+        "event_ids": [
+          "rubingisa-2022-08-03-road-program",
+          "rubingisa-2023-10-20-nyandungu",
+          "rubingisa-2023-10-20-walking-cycling"
+        ],
+        "rationale": "В ряде эпизодов Рубингиса обосновывал решения через данные (построенные дороги, охват услугами, экологические результаты), что фиксирует ограниченное проявление опоры на проверяемые результаты (эпизоды 20, 25, 26).",
+        "support_type": "positive_manifestation",
+        "provenance": {
+          "raw_response_file": "evidence/independent_responses/b1dc2fa27588bccaa54921a05e511947b39f21f50b481a163c21a8077919ac49.json",
+          "model": "gpt-4.1",
+          "at": "2026-10-15T17:31:29.161478+00:00",
+          "cache_key": "b1dc2fa27588bccaa54921a05e511947b39f21f50b481a163c21a8077919ac49",
+          "original_proposal": {
+            "variable_id": "argumentation-evidence-values__positive",
+            "status": "observed",
+            "value": 2,
+            "confidence": 0.7,
+            "support_type": "positive_manifestation",
+            "rationale": "В ряде эпизодов Рубингиса обосновывал решения через данные (построенные дороги, охват услугами, экологические результаты), что фиксирует ограниченное проявление опоры на проверяемые результаты (эпизоды 20, 25, 26).",
+            "evidence_indices": [
+              20,
+              25,
+              26
+            ]
+          }
+        },
+        "evidence_file": "evidence/independent-dossier-pudence-rubingisa.json",
+        "evidence_basis": "d29326332bb0b90c9ecdc2a067ac8f5a711f86a550b7f6a5522ca5afbd16ae08"
+      },
+      "negative": {
+        "status": "observed",
+        "value": 1,
+        "confidence": 0.6,
+        "evidence_indices": [
+          15,
+          30
+        ],
+        "source_urls": [
+          "https://english.news.cn/africa/20220327/d0bc3d0ce2d541a8a25de6f18f253a01/c.html"
+        ],
+        "event_ids": [
+          "rubingisa-2022-03-26-umuganda",
+          "rubingisa-2022-03-27-umuganda-participation"
+        ],
+        "rationale": "В отдельных случаях использовались обращения к коллективным ценностям (общественный труд Umuganda, энтузиазм населения), но без устойчивого акцента на ценностной риторике (эпизоды 15, 30).",
+        "support_type": "positive_manifestation",
+        "provenance": {
+          "raw_response_file": "evidence/independent_responses/b1dc2fa27588bccaa54921a05e511947b39f21f50b481a163c21a8077919ac49.json",
+          "model": "gpt-4.1",
+          "at": "2026-10-15T17:31:29.161478+00:00",
+          "cache_key": "b1dc2fa27588bccaa54921a05e511947b39f21f50b481a163c21a8077919ac49",
+          "original_proposal": {
+            "variable_id": "argumentation-evidence-values__negative",
+            "status": "observed",
+            "value": 1,
+            "confidence": 0.6,
+            "support_type": "positive_manifestation",
+            "rationale": "В отдельных случаях использовались обращения к коллективным ценностям (общественный труд Umuganda, энтузиазм населения), но без устойчивого акцента на ценностной риторике (эпизоды 15, 30).",
+            "evidence_indices": [
+              15,
+              30
+            ]
+          }
+        },
+        "evidence_file": "evidence/independent-dossier-pudence-rubingisa.json",
+        "evidence_basis": "d29326332bb0b90c9ecdc2a067ac8f5a711f86a550b7f6a5522ca5afbd16ae08"
+      }
+    },
+    "positive": 2,
+    "negative": 1,
+    "value": null,
+    "status": "observed",
+    "difference": null,
+    "mass": null,
+    "measurement_model": "independent_poles",
+    "evidence_file": "evidence/independent-dossier-pudence-rubingisa.json",
+    "evidence_basis": "d29326332bb0b90c9ecdc2a067ac8f5a711f86a550b7f6a5522ca5afbd16ae08",
+    "at": "2026-10-15T17:31:38.885411+00:00",
+    "reason": "Каждое свойство оценивается независимо; разность и искусственное дополнение до пяти не вычисляются"
+  },
+  {
+    "object_id": "pudence-rubingisa",
+    "scale_id": "market-state-instruments",
+    "pole_scores": {
+      "positive": {
+        "status": "observed",
+        "value": 1,
+        "confidence": 0.6,
+        "evidence_indices": [
+          27,
+          17
+        ],
+        "source_urls": [
+          "https://bloombergcities.jhu.edu/mayors-challenge/2022/kigali-rwanda",
+          "https://www.shiftcities.org/post/kigali-path-toward-green-climate-resilient-growth"
+        ],
+        "event_ids": [
+          "rubingisa-2022-06-01-rainwater-waste",
+          "rubingisa-2022-07-14-partner-capacity-platform"
+        ],
+        "rationale": "Есть отдельные упоминания о вовлечении частных операторов и партнёров, однако основной акцент на частной инициативе не прослеживается (эпизоды 27, 17).",
+        "support_type": "positive_manifestation",
+        "provenance": {
+          "raw_response_file": "evidence/independent_responses/b1dc2fa27588bccaa54921a05e511947b39f21f50b481a163c21a8077919ac49.json",
+          "model": "gpt-4.1",
+          "at": "2026-10-15T17:31:29.161478+00:00",
+          "cache_key": "b1dc2fa27588bccaa54921a05e511947b39f21f50b481a163c21a8077919ac49",
+          "original_proposal": {
+            "variable_id": "market-state-instruments__positive",
+            "status": "observed",
+            "value": 1,
+            "confidence": 0.6,
+            "support_type": "positive_manifestation",
+            "rationale": "Есть отдельные упоминания о вовлечении частных операторов и партнёров, однако основной акцент на частной инициативе не прослеживается (эпизоды 27, 17).",
+            "evidence_indices": [
+              27,
+              17
+            ]
+          }
+        },
+        "evidence_file": "evidence/independent-dossier-pudence-rubingisa.json",
+        "evidence_basis": "d29326332bb0b90c9ecdc2a067ac8f5a711f86a550b7f6a5522ca5afbd16ae08"
+      },
+      "negative": {
+        "status": "observed",
+        "value": 2,
+        "confidence": 0.7,
+        "evidence_indices": [
+          0,
+          18,
+          28
+        ],
+        "source_urls": [
+          "https://www.minecofin.gov.rw/index.php?eID=dumpFile&t=f&f=64959&token=15c961bd512d380625054db8481df2552e67a69d",
+          "https://www.ktpress.rw/2022/08/city-of-kigali-to-confiscate-idle-plots-of-land/",
+          "https://www.nyarugenge.gov.rw/amakuru/soma-ibikurikira/minisitiri-wubutegetsi-bwigihugu-yifatanyije-nabatuye-nyarugenge-mu-muganda"
+        ],
+        "event_ids": [
+          "kigali-imihigo-2023",
+          "rubingisa-2022-08-04-idle-plots",
+          "rubingisa-2023-02-04-umuganda-nyarugenge"
+        ],
+        "rationale": "Рубингиса поддерживал изъятие неосвоенных земель, административное планирование и контроль, что фиксирует ограниченное проявление расширения государственных инструментов (эпизоды 0, 18, 28).",
+        "support_type": "positive_manifestation",
+        "provenance": {
+          "raw_response_file": "evidence/independent_responses/b1dc2fa27588bccaa54921a05e511947b39f21f50b481a163c21a8077919ac49.json",
+          "model": "gpt-4.1",
+          "at": "2026-10-15T17:31:29.161478+00:00",
+          "cache_key": "b1dc2fa27588bccaa54921a05e511947b39f21f50b481a163c21a8077919ac49",
+          "original_proposal": {
+            "variable_id": "market-state-instruments__negative",
+            "status": "observed",
+            "value": 2,
+            "confidence": 0.7,
+            "support_type": "positive_manifestation",
+            "rationale": "Рубингиса поддерживал изъятие неосвоенных земель, административное планирование и контроль, что фиксирует ограниченное проявление расширения государственных инструментов (эпизоды 0, 18, 28).",
+            "evidence_indices": [
+              0,
+              18,
+              28
+            ]
+          }
+        },
+        "evidence_file": "evidence/independent-dossier-pudence-rubingisa.json",
+        "evidence_basis": "d29326332bb0b90c9ecdc2a067ac8f5a711f86a550b7f6a5522ca5afbd16ae08"
+      }
+    },
+    "positive": 1,
+    "negative": 2,
+    "value": null,
+    "status": "observed",
+    "difference": null,
+    "mass": null,
+    "measurement_model": "independent_poles",
+    "evidence_file": "evidence/independent-dossier-pudence-rubingisa.json",
+    "evidence_basis": "d29326332bb0b90c9ecdc2a067ac8f5a711f86a550b7f6a5522ca5afbd16ae08",
+    "at": "2026-10-15T17:31:38.885411+00:00",
+    "reason": "Каждое свойство оценивается независимо; разность и искусственное дополнение до пяти не вычисляются"
+  },
+  {
+    "object_id": "pudence-rubingisa",
+    "scale_id": "accessibility-growth-priorities",
+    "pole_scores": {
+      "positive": {
+        "status": "observed",
+        "value": 3,
+        "confidence": 0.8,
+        "evidence_indices": [
+          6,
+          9,
+          21,
+          27
+        ],
+        "source_urls": [
+          "https://www.kayonza.gov.rw/soma-ibindi/world-bank-delegation-commends-districts-progress-in-stunting-prevention-and-early-childhood-development",
+          "https://www.kigalicity.gov.rw/news-detail/the-city-of-kigali-held-a-press-conference-with-journalists-on-citys-development",
+          "https://bloombergcities.jhu.edu/mayors-challenge/2022/kigali-rwanda"
+        ],
+        "event_ids": [
+          "kayonza-worldbank-2025",
+          "rubingisa-2022-08-03-street-vendors-markets",
+          "rubingisa-2022-06-01-rainwater-waste"
+        ],
+        "rationale": "Рубингиса неоднократно заявлял о приоритете расширения доступа к базовым услугам, особенно для детей, уличных торговцев, в рамках борьбы с бедностью и обновления поселений (эпизоды 6, 9, 21, 27). Это устойчивое проявление данного приоритета.",
+        "support_type": "positive_manifestation",
+        "provenance": {
+          "raw_response_file": "evidence/independent_responses/b1dc2fa27588bccaa54921a05e511947b39f21f50b481a163c21a8077919ac49.json",
+          "model": "gpt-4.1",
+          "at": "2026-10-15T17:31:29.161478+00:00",
+          "cache_key": "b1dc2fa27588bccaa54921a05e511947b39f21f50b481a163c21a8077919ac49",
+          "original_proposal": {
+            "variable_id": "accessibility-growth-priorities__positive",
+            "status": "observed",
+            "value": 3,
+            "confidence": 0.8,
+            "support_type": "positive_manifestation",
+            "rationale": "Рубингиса неоднократно заявлял о приоритете расширения доступа к базовым услугам, особенно для детей, уличных торговцев, в рамках борьбы с бедностью и обновления поселений (эпизоды 6, 9, 21, 27). Это устойчивое проявление данного приоритета.",
+            "evidence_indices": [
+              6,
+              9,
+              21,
+              27
+            ]
+          }
+        },
+        "evidence_file": "evidence/independent-dossier-pudence-rubingisa.json",
+        "evidence_basis": "d29326332bb0b90c9ecdc2a067ac8f5a711f86a550b7f6a5522ca5afbd16ae08"
+      },
+      "negative": {
+        "status": "observed",
+        "value": 2,
+        "confidence": 0.7,
+        "evidence_indices": [
+          2,
+          22,
+          16
+        ],
+        "source_urls": [
+          "https://www.shiftcities.org/post/kigali-path-toward-green-climate-resilient-growth",
+          "https://www.kigalicity.gov.rw/news-detail/the-city-of-kigali-held-a-press-conference-with-journalists-on-citys-development"
+        ],
+        "event_ids": [
+          "kigali-urbanpriorities-2022",
+          "rubingisa-2022-08-03-city-goals",
+          "rubingisa-2022-07-14-green-growth-interview"
+        ],
+        "rationale": "В ряде случаев отмечался приоритет модернизации, роста и развития экономики, однако без доминирующего акцента на инвестициях и конкурентоспособности (эпизоды 2, 22, 16).",
+        "support_type": "positive_manifestation",
+        "provenance": {
+          "raw_response_file": "evidence/independent_responses/b1dc2fa27588bccaa54921a05e511947b39f21f50b481a163c21a8077919ac49.json",
+          "model": "gpt-4.1",
+          "at": "2026-10-15T17:31:29.161478+00:00",
+          "cache_key": "b1dc2fa27588bccaa54921a05e511947b39f21f50b481a163c21a8077919ac49",
+          "original_proposal": {
+            "variable_id": "accessibility-growth-priorities__negative",
+            "status": "observed",
+            "value": 2,
+            "confidence": 0.7,
+            "support_type": "positive_manifestation",
+            "rationale": "В ряде случаев отмечался приоритет модернизации, роста и развития экономики, однако без доминирующего акцента на инвестициях и конкурентоспособности (эпизоды 2, 22, 16).",
+            "evidence_indices": [
+              2,
+              22,
+              16
+            ]
+          }
+        },
+        "evidence_file": "evidence/independent-dossier-pudence-rubingisa.json",
+        "evidence_basis": "d29326332bb0b90c9ecdc2a067ac8f5a711f86a550b7f6a5522ca5afbd16ae08"
+      }
+    },
+    "positive": 3,
+    "negative": 2,
+    "value": null,
+    "status": "observed",
+    "difference": null,
+    "mass": null,
+    "measurement_model": "independent_poles",
+    "evidence_file": "evidence/independent-dossier-pudence-rubingisa.json",
+    "evidence_basis": "d29326332bb0b90c9ecdc2a067ac8f5a711f86a550b7f6a5522ca5afbd16ae08",
+    "at": "2026-10-15T17:31:38.885411+00:00",
+    "reason": "Каждое свойство оценивается независимо; разность и искусственное дополнение до пяти не вычисляются"
+  },
+  {
+    "object_id": "pudence-rubingisa",
+    "scale_id": "external-domestic-resources",
+    "pole_scores": {
+      "positive": {
+        "status": "observed",
+        "value": 3,
+        "confidence": 0.8,
+        "evidence_indices": [
+          6,
+          7,
+          14
+        ],
+        "source_urls": [
+          "https://www.kayonza.gov.rw/soma-ibindi/world-bank-delegation-commends-districts-progress-in-stunting-prevention-and-early-childhood-development",
+          "https://www.undp.org/rwanda/blog/scaling-sustainable-solutions-gatsibo-community-rooted-step-forward",
+          "https://rw.china-embassy.gov.cn/eng/xwdt/202405/t20240501_11292123.htm"
+        ],
+        "event_ids": [
+          "kayonza-worldbank-2025",
+          "gatsibo-undp-community-2025",
+          "china-medical-donation-2024"
+        ],
+        "rationale": "Рубингиса регулярно участвовал в программах с международными организациями (Всемирный банк, ПРООН, Китай), что подтверждает устойчивое привлечение внешних ресурсов (эпизоды 6, 7, 14).",
+        "support_type": "positive_manifestation",
+        "provenance": {
+          "raw_response_file": "evidence/independent_responses/b1dc2fa27588bccaa54921a05e511947b39f21f50b481a163c21a8077919ac49.json",
+          "model": "gpt-4.1",
+          "at": "2026-10-15T17:31:29.161478+00:00",
+          "cache_key": "b1dc2fa27588bccaa54921a05e511947b39f21f50b481a163c21a8077919ac49",
+          "original_proposal": {
+            "variable_id": "external-domestic-resources__positive",
+            "status": "observed",
+            "value": 3,
+            "confidence": 0.8,
+            "support_type": "positive_manifestation",
+            "rationale": "Рубингиса регулярно участвовал в программах с международными организациями (Всемирный банк, ПРООН, Китай), что подтверждает устойчивое привлечение внешних ресурсов (эпизоды 6, 7, 14).",
+            "evidence_indices": [
+              6,
+              7,
+              14
+            ]
+          }
+        },
+        "evidence_file": "evidence/independent-dossier-pudence-rubingisa.json",
+        "evidence_basis": "d29326332bb0b90c9ecdc2a067ac8f5a711f86a550b7f6a5522ca5afbd16ae08"
+      },
+      "negative": {
+        "status": "unknown",
+        "value": null,
+        "confidence": 0,
+        "evidence_indices": [],
+        "source_urls": [],
+        "event_ids": [],
+        "rationale": "Нет прямых заявлений о приоритете исключительно внутренних ресурсов или снижении зависимости от внешних поступлений.",
+        "support_type": "unknown",
+        "provenance": {
+          "raw_response_file": "evidence/independent_responses/b1dc2fa27588bccaa54921a05e511947b39f21f50b481a163c21a8077919ac49.json",
+          "model": "gpt-4.1",
+          "at": "2026-10-15T17:31:29.161478+00:00",
+          "cache_key": "b1dc2fa27588bccaa54921a05e511947b39f21f50b481a163c21a8077919ac49",
+          "original_proposal": {
+            "variable_id": "external-domestic-resources__negative",
+            "status": "unknown",
+            "value": null,
+            "confidence": 0.5,
+            "support_type": "unknown",
+            "rationale": "Нет прямых заявлений о приоритете исключительно внутренних ресурсов или снижении зависимости от внешних поступлений.",
+            "evidence_indices": []
+          }
+        },
+        "evidence_file": "evidence/independent-dossier-pudence-rubingisa.json",
+        "evidence_basis": "d29326332bb0b90c9ecdc2a067ac8f5a711f86a550b7f6a5522ca5afbd16ae08"
+      }
+    },
+    "positive": 3,
+    "negative": null,
+    "value": null,
+    "status": "partial",
+    "difference": null,
+    "mass": null,
+    "measurement_model": "independent_poles",
+    "evidence_file": "evidence/independent-dossier-pudence-rubingisa.json",
+    "evidence_basis": "d29326332bb0b90c9ecdc2a067ac8f5a711f86a550b7f6a5522ca5afbd16ae08",
+    "at": "2026-10-15T17:31:38.885411+00:00",
+    "reason": "Каждое свойство оценивается независимо; разность и искусственное дополнение до пяти не вычисляются"
+  },
+  {
+    "object_id": "pudence-rubingisa",
+    "scale_id": "international-rules-autonomy",
+    "pole_scores": {
+      "positive": {
+        "status": "observed",
+        "value": 2,
+        "confidence": 0.7,
+        "evidence_indices": [
+          11,
+          14
+        ],
+        "source_urls": [
+          "https://www.linkedin.com/pulse/rwanda-uganda-strengthen-cross-border-cooperation-2f7qc",
+          "https://rw.china-embassy.gov.cn/eng/xwdt/202405/t20240501_11292123.htm"
+        ],
+        "event_ids": [
+          "rwanda-uganda-crossborder-2025",
+          "china-medical-donation-2024"
+        ],
+        "rationale": "Рубингиса выступал за трансграничные механизмы и международное сотрудничество, что фиксирует ограниченное проявление закрепления международных обязательств (эпизоды 11, 14).",
+        "support_type": "positive_manifestation",
+        "provenance": {
+          "raw_response_file": "evidence/independent_responses/b1dc2fa27588bccaa54921a05e511947b39f21f50b481a163c21a8077919ac49.json",
+          "model": "gpt-4.1",
+          "at": "2026-10-15T17:31:29.161478+00:00",
+          "cache_key": "b1dc2fa27588bccaa54921a05e511947b39f21f50b481a163c21a8077919ac49",
+          "original_proposal": {
+            "variable_id": "international-rules-autonomy__positive",
+            "status": "observed",
+            "value": 2,
+            "confidence": 0.7,
+            "support_type": "positive_manifestation",
+            "rationale": "Рубингиса выступал за трансграничные механизмы и международное сотрудничество, что фиксирует ограниченное проявление закрепления международных обязательств (эпизоды 11, 14).",
+            "evidence_indices": [
+              11,
+              14
+            ]
+          }
+        },
+        "evidence_file": "evidence/independent-dossier-pudence-rubingisa.json",
+        "evidence_basis": "d29326332bb0b90c9ecdc2a067ac8f5a711f86a550b7f6a5522ca5afbd16ae08"
+      },
+      "negative": {
+        "status": "unknown",
+        "value": null,
+        "confidence": 0,
+        "evidence_indices": [],
+        "source_urls": [],
+        "event_ids": [],
+        "rationale": "Нет прямых заявлений о защите национальной самостоятельности решений или возражении против внешнего навязывания.",
+        "support_type": "unknown",
+        "provenance": {
+          "raw_response_file": "evidence/independent_responses/b1dc2fa27588bccaa54921a05e511947b39f21f50b481a163c21a8077919ac49.json",
+          "model": "gpt-4.1",
+          "at": "2026-10-15T17:31:29.161478+00:00",
+          "cache_key": "b1dc2fa27588bccaa54921a05e511947b39f21f50b481a163c21a8077919ac49",
+          "original_proposal": {
+            "variable_id": "international-rules-autonomy__negative",
+            "status": "unknown",
+            "value": null,
+            "confidence": 0.5,
+            "support_type": "unknown",
+            "rationale": "Нет прямых заявлений о защите национальной самостоятельности решений или возражении против внешнего навязывания.",
+            "evidence_indices": []
+          }
+        },
+        "evidence_file": "evidence/independent-dossier-pudence-rubingisa.json",
+        "evidence_basis": "d29326332bb0b90c9ecdc2a067ac8f5a711f86a550b7f6a5522ca5afbd16ae08"
+      }
+    },
+    "positive": 2,
+    "negative": null,
+    "value": null,
+    "status": "partial",
+    "difference": null,
+    "mass": null,
+    "measurement_model": "independent_poles",
+    "evidence_file": "evidence/independent-dossier-pudence-rubingisa.json",
+    "evidence_basis": "d29326332bb0b90c9ecdc2a067ac8f5a711f86a550b7f6a5522ca5afbd16ae08",
+    "at": "2026-10-15T17:31:38.885411+00:00",
+    "reason": "Каждое свойство оценивается независимо; разность и искусственное дополнение до пяти не вычисляются"
+  },
+  {
+    "object_id": "pudence-rubingisa",
+    "scale_id": "mediation-adversarial-communication",
+    "pole_scores": {
+      "positive": {
+        "status": "observed",
+        "value": 2,
+        "confidence": 0.7,
+        "evidence_indices": [
+          17,
+          11,
+          23
+        ],
+        "source_urls": [
+          "https://www.shiftcities.org/post/kigali-path-toward-green-climate-resilient-growth",
+          "https://www.linkedin.com/pulse/rwanda-uganda-strengthen-cross-border-cooperation-2f7qc",
+          "https://www.kigalicity.gov.rw/news-detail/the-city-of-kigali-held-a-press-conference-with-journalists-on-citys-development"
+        ],
+        "event_ids": [
+          "rubingisa-2022-07-14-partner-capacity-platform",
+          "rwanda-uganda-crossborder-2025",
+          "rubingisa-2022-08-03-stakeholder-partnership"
+        ],
+        "rationale": "Рубингиса предлагал платформы для обмена опытом, поддерживал согласование интересов и взаимодействие с разными сторонами (эпизоды 17, 11, 23). Это ограниченное проявление посреднической коммуникации.",
+        "support_type": "positive_manifestation",
+        "provenance": {
+          "raw_response_file": "evidence/independent_responses/b1dc2fa27588bccaa54921a05e511947b39f21f50b481a163c21a8077919ac49.json",
+          "model": "gpt-4.1",
+          "at": "2026-10-15T17:31:29.161478+00:00",
+          "cache_key": "b1dc2fa27588bccaa54921a05e511947b39f21f50b481a163c21a8077919ac49",
+          "original_proposal": {
+            "variable_id": "mediation-adversarial-communication__positive",
+            "status": "observed",
+            "value": 2,
+            "confidence": 0.7,
+            "support_type": "positive_manifestation",
+            "rationale": "Рубингиса предлагал платформы для обмена опытом, поддерживал согласование интересов и взаимодействие с разными сторонами (эпизоды 17, 11, 23). Это ограниченное проявление посреднической коммуникации.",
+            "evidence_indices": [
+              17,
+              11,
+              23
+            ]
+          }
+        },
+        "evidence_file": "evidence/independent-dossier-pudence-rubingisa.json",
+        "evidence_basis": "d29326332bb0b90c9ecdc2a067ac8f5a711f86a550b7f6a5522ca5afbd16ae08"
+      },
+      "negative": {
+        "status": "unknown",
+        "value": null,
+        "confidence": 0,
+        "evidence_indices": [],
+        "source_urls": [],
+        "event_ids": [],
+        "rationale": "Нет прямых эпизодов публичного оспаривания, защиты своей стороны или конфронтационной риторики.",
+        "support_type": "unknown",
+        "provenance": {
+          "raw_response_file": "evidence/independent_responses/b1dc2fa27588bccaa54921a05e511947b39f21f50b481a163c21a8077919ac49.json",
+          "model": "gpt-4.1",
+          "at": "2026-10-15T17:31:29.161478+00:00",
+          "cache_key": "b1dc2fa27588bccaa54921a05e511947b39f21f50b481a163c21a8077919ac49",
+          "original_proposal": {
+            "variable_id": "mediation-adversarial-communication__negative",
+            "status": "unknown",
+            "value": null,
+            "confidence": 0.5,
+            "support_type": "unknown",
+            "rationale": "Нет прямых эпизодов публичного оспаривания, защиты своей стороны или конфронтационной риторики.",
+            "evidence_indices": []
+          }
+        },
+        "evidence_file": "evidence/independent-dossier-pudence-rubingisa.json",
+        "evidence_basis": "d29326332bb0b90c9ecdc2a067ac8f5a711f86a550b7f6a5522ca5afbd16ae08"
+      }
+    },
+    "positive": 2,
+    "negative": null,
+    "value": null,
+    "status": "partial",
+    "difference": null,
+    "mass": null,
+    "measurement_model": "independent_poles",
+    "evidence_file": "evidence/independent-dossier-pudence-rubingisa.json",
+    "evidence_basis": "d29326332bb0b90c9ecdc2a067ac8f5a711f86a550b7f6a5522ca5afbd16ae08",
+    "at": "2026-10-15T17:31:38.885411+00:00",
+    "reason": "Каждое свойство оценивается независимо; разность и искусственное дополнение до пяти не вычисляются"
+  },
+  {
+    "object_id": "pudence-rubingisa",
+    "scale_id": "cultural-openness-national-transmission",
+    "pole_scores": {
+      "positive": {
+        "status": "observed",
+        "value": 2,
+        "confidence": 0.7,
+        "evidence_indices": [
+          4,
+          5,
+          7,
+          14,
+          17
+        ],
+        "source_urls": [
+          "https://www.uclga.org/news/pudence-rubingisa-hardworking-and-proactive/",
+          "https://www.easternprovince.gov.rw/ibindi/guverineri-wintara-yiburasirazuba-yasoje-imurikabikorwa-rya-jadf-mu-karere-ka-bugesera-1",
+          "https://www.undp.org/rwanda/blog/scaling-sustainable-solutions-gatsibo-community-rooted-step-forward",
+          "https://rw.china-embassy.gov.cn/eng/xwdt/202405/t20240501_11292123.htm",
+          "https://www.shiftcities.org/post/kigali-path-toward-green-climate-resilient-growth"
+        ],
+        "event_ids": [
+          "kigali-bloomberg-challenge-2022",
+          "bugesera-jadf-exhibition-2025",
+          "gatsibo-undp-community-2025",
+          "china-medical-donation-2024",
+          "rubingisa-2022-07-14-partner-capacity-platform"
+        ],
+        "rationale": "Рубингиса неоднократно участвовал в международных программах, поддерживал обмен опытом между городами и сотрудничество с международными организациями (эпизоды 4, 5, 7, 14, 17). Он публично предлагал создать платформу для обмена опытом и проблемами между городами, что свидетельствует о выраженном, но не определяющем акценте на межкультурном обмене.",
+        "support_type": "positive_manifestation",
+        "provenance": {
+          "raw_response_file": "evidence/independent_responses/3aaac57186be39293b467ad5842faf5474b1a218c36150166b2845eb9a15e437.json",
+          "model": "gpt-4.1",
+          "at": "2026-10-15T17:31:38.881746+00:00",
+          "cache_key": "3aaac57186be39293b467ad5842faf5474b1a218c36150166b2845eb9a15e437",
+          "original_proposal": {
+            "variable_id": "cultural-openness-national-transmission__positive",
+            "status": "observed",
+            "value": 2,
+            "confidence": 0.7,
+            "support_type": "positive_manifestation",
+            "rationale": "Рубингиса неоднократно участвовал в международных программах, поддерживал обмен опытом между городами и сотрудничество с международными организациями (эпизоды 4, 5, 7, 14, 17). Он публично предлагал создать платформу для обмена опытом и проблемами между городами, что свидетельствует о выраженном, но не определяющем акценте на межкультурном обмене.",
+            "evidence_indices": [
+              4,
+              5,
+              7,
+              14,
+              17
+            ]
+          }
+        },
+        "evidence_file": "evidence/independent-dossier-pudence-rubingisa.json",
+        "evidence_basis": "d29326332bb0b90c9ecdc2a067ac8f5a711f86a550b7f6a5522ca5afbd16ae08"
+      },
+      "negative": {
+        "status": "observed",
+        "value": 1,
+        "confidence": 0.5,
+        "evidence_indices": [
+          3
+        ],
+        "source_urls": [
+          "https://www.shiftcities.org/post/kigali-path-toward-green-climate-resilient-growth"
+        ],
+        "event_ids": [
+          "kigali-service-background-2022"
+        ],
+        "rationale": "В интервью Рубингиса описывал возвращение после обучения за рубежом как переход к служению стране, что демонстрирует акцент на национальной идентичности, но эпизод единичный и не является устойчивой чертой публичной политики.",
+        "support_type": "positive_manifestation",
+        "provenance": {
+          "raw_response_file": "evidence/independent_responses/3aaac57186be39293b467ad5842faf5474b1a218c36150166b2845eb9a15e437.json",
+          "model": "gpt-4.1",
+          "at": "2026-10-15T17:31:38.881746+00:00",
+          "cache_key": "3aaac57186be39293b467ad5842faf5474b1a218c36150166b2845eb9a15e437",
+          "original_proposal": {
+            "variable_id": "cultural-openness-national-transmission__negative",
+            "status": "observed",
+            "value": 1,
+            "confidence": 0.5,
+            "support_type": "positive_manifestation",
+            "rationale": "В интервью Рубингиса описывал возвращение после обучения за рубежом как переход к служению стране, что демонстрирует акцент на национальной идентичности, но эпизод единичный и не является устойчивой чертой публичной политики.",
+            "evidence_indices": [
+              3
+            ]
+          }
+        },
+        "evidence_file": "evidence/independent-dossier-pudence-rubingisa.json",
+        "evidence_basis": "d29326332bb0b90c9ecdc2a067ac8f5a711f86a550b7f6a5522ca5afbd16ae08"
+      }
+    },
+    "positive": 2,
+    "negative": 1,
+    "value": null,
+    "status": "observed",
+    "difference": null,
+    "mass": null,
+    "measurement_model": "independent_poles",
+    "evidence_file": "evidence/independent-dossier-pudence-rubingisa.json",
+    "evidence_basis": "d29326332bb0b90c9ecdc2a067ac8f5a711f86a550b7f6a5522ca5afbd16ae08",
+    "at": "2026-10-15T17:31:38.885411+00:00",
+    "reason": "Каждое свойство оценивается независимо; разность и искусственное дополнение до пяти не вычисляются"
+  },
+  {
+    "object_id": "pudence-rubingisa",
+    "scale_id": "problem-disclosure-reputation-defence",
+    "pole_scores": {
+      "positive": {
+        "status": "observed",
+        "value": 1,
+        "confidence": 0.5,
+        "evidence_indices": [
+          24
+        ],
+        "source_urls": [
+          "https://www.gov.rw/fileadmin/user_upload/gov_user_upload/Publications/Newsletters/_RwandaWorks_Weekly_Digest___18_-_24_September_2023.pdf"
+        ],
+        "event_ids": [
+          "rubingisa-2023-09-21-party-tents"
+        ],
+        "rationale": "Рубингиса публично обсуждал спор вокруг запрета палаток партий, что свидетельствует о готовности к публичному обсуждению проблем, однако материал не содержит подробной аргументации или признания недостатков.",
+        "support_type": "positive_manifestation",
+        "provenance": {
+          "raw_response_file": "evidence/independent_responses/3aaac57186be39293b467ad5842faf5474b1a218c36150166b2845eb9a15e437.json",
+          "model": "gpt-4.1",
+          "at": "2026-10-15T17:31:38.881746+00:00",
+          "cache_key": "3aaac57186be39293b467ad5842faf5474b1a218c36150166b2845eb9a15e437",
+          "original_proposal": {
+            "variable_id": "problem-disclosure-reputation-defence__positive",
+            "status": "observed",
+            "value": 1,
+            "confidence": 0.5,
+            "support_type": "positive_manifestation",
+            "rationale": "Рубингиса публично обсуждал спор вокруг запрета палаток партий, что свидетельствует о готовности к публичному обсуждению проблем, однако материал не содержит подробной аргументации или признания недостатков.",
+            "evidence_indices": [
+              24
+            ]
+          }
+        },
+        "evidence_file": "evidence/independent-dossier-pudence-rubingisa.json",
+        "evidence_basis": "d29326332bb0b90c9ecdc2a067ac8f5a711f86a550b7f6a5522ca5afbd16ae08"
+      },
+      "negative": {
+        "status": "unknown",
+        "value": null,
+        "confidence": 0,
+        "evidence_indices": [],
+        "source_urls": [],
+        "event_ids": [],
+        "rationale": "Нет прямых эпизодов, где Рубингиса бы явно защищал репутацию страны или своей политики, опровергая описания проблем как искажённые. Обычная отчётность и позитивная риторика не являются достаточным основанием.",
+        "support_type": "unknown",
+        "provenance": {
+          "raw_response_file": "evidence/independent_responses/3aaac57186be39293b467ad5842faf5474b1a218c36150166b2845eb9a15e437.json",
+          "model": "gpt-4.1",
+          "at": "2026-10-15T17:31:38.881746+00:00",
+          "cache_key": "3aaac57186be39293b467ad5842faf5474b1a218c36150166b2845eb9a15e437",
+          "original_proposal": {
+            "variable_id": "problem-disclosure-reputation-defence__negative",
+            "status": "unknown",
+            "value": null,
+            "confidence": 0.3,
+            "support_type": "unknown",
+            "rationale": "Нет прямых эпизодов, где Рубингиса бы явно защищал репутацию страны или своей политики, опровергая описания проблем как искажённые. Обычная отчётность и позитивная риторика не являются достаточным основанием.",
+            "evidence_indices": []
+          }
+        },
+        "evidence_file": "evidence/independent-dossier-pudence-rubingisa.json",
+        "evidence_basis": "d29326332bb0b90c9ecdc2a067ac8f5a711f86a550b7f6a5522ca5afbd16ae08"
+      }
+    },
+    "positive": 1,
+    "negative": null,
+    "value": null,
+    "status": "partial",
+    "difference": null,
+    "mass": null,
+    "measurement_model": "independent_poles",
+    "evidence_file": "evidence/independent-dossier-pudence-rubingisa.json",
+    "evidence_basis": "d29326332bb0b90c9ecdc2a067ac8f5a711f86a550b7f6a5522ca5afbd16ae08",
+    "at": "2026-10-15T17:31:38.885411+00:00",
+    "reason": "Каждое свойство оценивается независимо; разность и искусственное дополнение до пяти не вычисляются"
+  },
+  {
+    "object_id": "pudence-rubingisa",
+    "scale_id": "procedural-guarantees-enforcement",
+    "pole_scores": {
+      "positive": {
+        "status": "unknown",
+        "value": null,
+        "confidence": 0,
+        "evidence_indices": [],
+        "source_urls": [],
+        "event_ids": [],
+        "rationale": "Нет прямых фактов о действиях или заявлениях Рубингисы по расширению возможностей обжалования или защиты в процедурах.",
+        "support_type": "unknown",
+        "provenance": {
+          "raw_response_file": "evidence/independent_responses/3aaac57186be39293b467ad5842faf5474b1a218c36150166b2845eb9a15e437.json",
+          "model": "gpt-4.1",
+          "at": "2026-10-15T17:31:38.881746+00:00",
+          "cache_key": "3aaac57186be39293b467ad5842faf5474b1a218c36150166b2845eb9a15e437",
+          "original_proposal": {
+            "variable_id": "procedural-guarantees-enforcement__positive",
+            "status": "unknown",
+            "value": null,
+            "confidence": 0.3,
+            "support_type": "unknown",
+            "rationale": "Нет прямых фактов о действиях или заявлениях Рубингисы по расширению возможностей обжалования или защиты в процедурах.",
+            "evidence_indices": []
+          }
+        },
+        "evidence_file": "evidence/independent-dossier-pudence-rubingisa.json",
+        "evidence_basis": "d29326332bb0b90c9ecdc2a067ac8f5a711f86a550b7f6a5522ca5afbd16ae08"
+      },
+      "negative": {
+        "status": "observed",
+        "value": 2,
+        "confidence": 0.7,
+        "evidence_indices": [
+          18
+        ],
+        "source_urls": [
+          "https://www.ktpress.rw/2022/08/city-of-kigali-to-confiscate-idle-plots-of-land/"
+        ],
+        "event_ids": [
+          "rubingisa-2022-08-04-idle-plots"
+        ],
+        "rationale": "Рубингиса поддержал изъятие неосвоенных земельных участков, объяснив это необходимостью заставлять владельцев использовать землю (эпизод 18). Это пример принудительного обеспечения обязательных требований, проявленный в публичном заявлении.",
+        "support_type": "positive_manifestation",
+        "provenance": {
+          "raw_response_file": "evidence/independent_responses/3aaac57186be39293b467ad5842faf5474b1a218c36150166b2845eb9a15e437.json",
+          "model": "gpt-4.1",
+          "at": "2026-10-15T17:31:38.881746+00:00",
+          "cache_key": "3aaac57186be39293b467ad5842faf5474b1a218c36150166b2845eb9a15e437",
+          "original_proposal": {
+            "variable_id": "procedural-guarantees-enforcement__negative",
+            "status": "observed",
+            "value": 2,
+            "confidence": 0.7,
+            "support_type": "positive_manifestation",
+            "rationale": "Рубингиса поддержал изъятие неосвоенных земельных участков, объяснив это необходимостью заставлять владельцев использовать землю (эпизод 18). Это пример принудительного обеспечения обязательных требований, проявленный в публичном заявлении.",
+            "evidence_indices": [
+              18
+            ]
+          }
+        },
+        "evidence_file": "evidence/independent-dossier-pudence-rubingisa.json",
+        "evidence_basis": "d29326332bb0b90c9ecdc2a067ac8f5a711f86a550b7f6a5522ca5afbd16ae08"
+      }
+    },
+    "positive": null,
+    "negative": 2,
+    "value": null,
+    "status": "partial",
+    "difference": null,
+    "mass": null,
+    "measurement_model": "independent_poles",
+    "evidence_file": "evidence/independent-dossier-pudence-rubingisa.json",
+    "evidence_basis": "d29326332bb0b90c9ecdc2a067ac8f5a711f86a550b7f6a5522ca5afbd16ae08",
+    "at": "2026-10-15T17:31:38.885411+00:00",
+    "reason": "Каждое свойство оценивается независимо; разность и искусственное дополнение до пяти не вычисляются"
+  },
+  {
+    "object_id": "pudence-rubingisa",
+    "scale_id": "prevention-crisis-response",
+    "pole_scores": {
+      "positive": {
+        "status": "observed",
+        "value": 2,
+        "confidence": 0.7,
+        "evidence_indices": [
+          10,
+          11,
+          16
+        ],
+        "source_urls": [
+          "https://www.undp.org/rwanda/blog/scaling-sustainable-solutions-gatsibo-community-rooted-step-forward",
+          "https://www.linkedin.com/pulse/rwanda-uganda-strengthen-cross-border-cooperation-2f7qc",
+          "https://www.shiftcities.org/post/kigali-path-toward-green-climate-resilient-growth"
+        ],
+        "event_ids": [
+          "gatsibo-undp-community-2025",
+          "rwanda-uganda-crossborder-2025",
+          "rubingisa-2022-07-14-green-growth-interview"
+        ],
+        "rationale": "Рубингиса выступал за упреждающие меры: профилактика незаконной деятельности через информирование и совместные патрули (эпизод 11), а также поддержка устойчивых решений и экологических технологий (эпизоды 10, 16).",
+        "support_type": "positive_manifestation",
+        "provenance": {
+          "raw_response_file": "evidence/independent_responses/3aaac57186be39293b467ad5842faf5474b1a218c36150166b2845eb9a15e437.json",
+          "model": "gpt-4.1",
+          "at": "2026-10-15T17:31:38.881746+00:00",
+          "cache_key": "3aaac57186be39293b467ad5842faf5474b1a218c36150166b2845eb9a15e437",
+          "original_proposal": {
+            "variable_id": "prevention-crisis-response__positive",
+            "status": "observed",
+            "value": 2,
+            "confidence": 0.7,
+            "support_type": "positive_manifestation",
+            "rationale": "Рубингиса выступал за упреждающие меры: профилактика незаконной деятельности через информирование и совместные патрули (эпизод 11), а также поддержка устойчивых решений и экологических технологий (эпизоды 10, 16).",
+            "evidence_indices": [
+              10,
+              11,
+              16
+            ]
+          }
+        },
+        "evidence_file": "evidence/independent-dossier-pudence-rubingisa.json",
+        "evidence_basis": "d29326332bb0b90c9ecdc2a067ac8f5a711f86a550b7f6a5522ca5afbd16ae08"
+      },
+      "negative": {
+        "status": "observed",
+        "value": 1,
+        "confidence": 0.5,
+        "evidence_indices": [
+          12
+        ],
+        "source_urls": [
+          "https://chandlergovernance.com/governancematters/getting-transformation-right"
+        ],
+        "event_ids": [
+          "kigali-covid-lessons-undated-within-period"
+        ],
+        "rationale": "В интервью Рубингиса отмечал, что город реагировал на последствия COVID-19, разрабатывая решения после возникновения кризиса (эпизод 12). Это единичное проявление оперативного реагирования.",
+        "support_type": "positive_manifestation",
+        "provenance": {
+          "raw_response_file": "evidence/independent_responses/3aaac57186be39293b467ad5842faf5474b1a218c36150166b2845eb9a15e437.json",
+          "model": "gpt-4.1",
+          "at": "2026-10-15T17:31:38.881746+00:00",
+          "cache_key": "3aaac57186be39293b467ad5842faf5474b1a218c36150166b2845eb9a15e437",
+          "original_proposal": {
+            "variable_id": "prevention-crisis-response__negative",
+            "status": "observed",
+            "value": 1,
+            "confidence": 0.5,
+            "support_type": "positive_manifestation",
+            "rationale": "В интервью Рубингиса отмечал, что город реагировал на последствия COVID-19, разрабатывая решения после возникновения кризиса (эпизод 12). Это единичное проявление оперативного реагирования.",
+            "evidence_indices": [
+              12
+            ]
+          }
+        },
+        "evidence_file": "evidence/independent-dossier-pudence-rubingisa.json",
+        "evidence_basis": "d29326332bb0b90c9ecdc2a067ac8f5a711f86a550b7f6a5522ca5afbd16ae08"
+      }
+    },
+    "positive": 2,
+    "negative": 1,
+    "value": null,
+    "status": "observed",
+    "difference": null,
+    "mass": null,
+    "measurement_model": "independent_poles",
+    "evidence_file": "evidence/independent-dossier-pudence-rubingisa.json",
+    "evidence_basis": "d29326332bb0b90c9ecdc2a067ac8f5a711f86a550b7f6a5522ca5afbd16ae08",
+    "at": "2026-10-15T17:31:38.885411+00:00",
+    "reason": "Каждое свойство оценивается независимо; разность и искусственное дополнение до пяти не вычисляются"
+  },
+  {
+    "object_id": "pudence-rubingisa",
+    "scale_id": "electoral-access",
+    "pole_scores": {
+      "positive": {
+        "status": "unknown",
+        "value": null,
+        "confidence": 0,
+        "evidence_indices": [],
+        "source_urls": [],
+        "event_ids": [],
+        "rationale": "Нет персональных заявлений или действий Рубингисы по расширению доступа к выборной конкуренции.",
+        "support_type": "unknown",
+        "provenance": {
+          "raw_response_file": "evidence/independent_responses/3aaac57186be39293b467ad5842faf5474b1a218c36150166b2845eb9a15e437.json",
+          "model": "gpt-4.1",
+          "at": "2026-10-15T17:31:38.881746+00:00",
+          "cache_key": "3aaac57186be39293b467ad5842faf5474b1a218c36150166b2845eb9a15e437",
+          "original_proposal": {
+            "variable_id": "electoral-access__positive",
+            "status": "unknown",
+            "value": null,
+            "confidence": 0.2,
+            "support_type": "unknown",
+            "rationale": "Нет персональных заявлений или действий Рубингисы по расширению доступа к выборной конкуренции.",
+            "evidence_indices": []
+          }
+        },
+        "evidence_file": "evidence/independent-dossier-pudence-rubingisa.json",
+        "evidence_basis": "d29326332bb0b90c9ecdc2a067ac8f5a711f86a550b7f6a5522ca5afbd16ae08"
+      },
+      "negative": {
+        "status": "unknown",
+        "value": null,
+        "confidence": 0,
+        "evidence_indices": [],
+        "source_urls": [],
+        "event_ids": [],
+        "rationale": "Нет персональных заявлений или действий Рубингисы по усилению барьеров политического участия. Обсуждение запрета палаток партий не содержит его личной аргументации.",
+        "support_type": "unknown",
+        "provenance": {
+          "raw_response_file": "evidence/independent_responses/3aaac57186be39293b467ad5842faf5474b1a218c36150166b2845eb9a15e437.json",
+          "model": "gpt-4.1",
+          "at": "2026-10-15T17:31:38.881746+00:00",
+          "cache_key": "3aaac57186be39293b467ad5842faf5474b1a218c36150166b2845eb9a15e437",
+          "original_proposal": {
+            "variable_id": "electoral-access__negative",
+            "status": "unknown",
+            "value": null,
+            "confidence": 0.2,
+            "support_type": "unknown",
+            "rationale": "Нет персональных заявлений или действий Рубингисы по усилению барьеров политического участия. Обсуждение запрета палаток партий не содержит его личной аргументации.",
+            "evidence_indices": []
+          }
+        },
+        "evidence_file": "evidence/independent-dossier-pudence-rubingisa.json",
+        "evidence_basis": "d29326332bb0b90c9ecdc2a067ac8f5a711f86a550b7f6a5522ca5afbd16ae08"
+      }
+    },
+    "positive": null,
+    "negative": null,
+    "value": null,
+    "status": "unknown",
+    "difference": null,
+    "mass": null,
+    "measurement_model": "independent_poles",
+    "evidence_file": "evidence/independent-dossier-pudence-rubingisa.json",
+    "evidence_basis": "d29326332bb0b90c9ecdc2a067ac8f5a711f86a550b7f6a5522ca5afbd16ae08",
+    "at": "2026-10-15T17:31:38.885411+00:00",
+    "reason": "Каждое свойство оценивается независимо; разность и искусственное дополнение до пяти не вычисляются"
+  },
+  {
+    "object_id": "pudence-rubingisa",
+    "scale_id": "institutional-autonomy-coordination",
+    "pole_scores": {
+      "positive": {
+        "status": "unknown",
+        "value": null,
+        "confidence": 0,
+        "evidence_indices": [],
+        "source_urls": [],
+        "event_ids": [],
+        "rationale": "Нет прямых эпизодов, где Рубингиса бы выступал за гарантии самостоятельности и контроля между институтами.",
+        "support_type": "unknown",
+        "provenance": {
+          "raw_response_file": "evidence/independent_responses/3aaac57186be39293b467ad5842faf5474b1a218c36150166b2845eb9a15e437.json",
+          "model": "gpt-4.1",
+          "at": "2026-10-15T17:31:38.881746+00:00",
+          "cache_key": "3aaac57186be39293b467ad5842faf5474b1a218c36150166b2845eb9a15e437",
+          "original_proposal": {
+            "variable_id": "institutional-autonomy-coordination__positive",
+            "status": "unknown",
+            "value": null,
+            "confidence": 0.3,
+            "support_type": "unknown",
+            "rationale": "Нет прямых эпизодов, где Рубингиса бы выступал за гарантии самостоятельности и контроля между институтами.",
+            "evidence_indices": []
+          }
+        },
+        "evidence_file": "evidence/independent-dossier-pudence-rubingisa.json",
+        "evidence_basis": "d29326332bb0b90c9ecdc2a067ac8f5a711f86a550b7f6a5522ca5afbd16ae08"
+      },
+      "negative": {
+        "status": "observed",
+        "value": 2,
+        "confidence": 0.6,
+        "evidence_indices": [
+          0,
+          5,
+          7,
+          23
+        ],
+        "source_urls": [
+          "https://www.minecofin.gov.rw/index.php?eID=dumpFile&t=f&f=64959&token=15c961bd512d380625054db8481df2552e67a69d",
+          "https://www.easternprovince.gov.rw/ibindi/guverineri-wintara-yiburasirazuba-yasoje-imurikabikorwa-rya-jadf-mu-karere-ka-bugesera-1",
+          "https://www.undp.org/rwanda/blog/scaling-sustainable-solutions-gatsibo-community-rooted-step-forward",
+          "https://www.kigalicity.gov.rw/news-detail/the-city-of-kigali-held-a-press-conference-with-journalists-on-citys-development"
+        ],
+        "event_ids": [
+          "kigali-imihigo-2023",
+          "bugesera-jadf-exhibition-2025",
+          "gatsibo-undp-community-2025",
+          "rubingisa-2022-08-03-stakeholder-partnership"
+        ],
+        "rationale": "Рубингиса связывал достижение целей с коллективной ответственностью администрации и партнёров (эпизод 0), а также координировал действия с другими органами и организациями (эпизоды 5, 7, 23). Это указывает на акцент на согласование работы институтов.",
+        "support_type": "positive_manifestation",
+        "provenance": {
+          "raw_response_file": "evidence/independent_responses/3aaac57186be39293b467ad5842faf5474b1a218c36150166b2845eb9a15e437.json",
+          "model": "gpt-4.1",
+          "at": "2026-10-15T17:31:38.881746+00:00",
+          "cache_key": "3aaac57186be39293b467ad5842faf5474b1a218c36150166b2845eb9a15e437",
+          "original_proposal": {
+            "variable_id": "institutional-autonomy-coordination__negative",
+            "status": "observed",
+            "value": 2,
+            "confidence": 0.6,
+            "support_type": "positive_manifestation",
+            "rationale": "Рубингиса связывал достижение целей с коллективной ответственностью администрации и партнёров (эпизод 0), а также координировал действия с другими органами и организациями (эпизоды 5, 7, 23). Это указывает на акцент на согласование работы институтов.",
+            "evidence_indices": [
+              0,
+              5,
+              7,
+              23
+            ]
+          }
+        },
+        "evidence_file": "evidence/independent-dossier-pudence-rubingisa.json",
+        "evidence_basis": "d29326332bb0b90c9ecdc2a067ac8f5a711f86a550b7f6a5522ca5afbd16ae08"
+      }
+    },
+    "positive": null,
+    "negative": 2,
+    "value": null,
+    "status": "partial",
+    "difference": null,
+    "mass": null,
+    "measurement_model": "independent_poles",
+    "evidence_file": "evidence/independent-dossier-pudence-rubingisa.json",
+    "evidence_basis": "d29326332bb0b90c9ecdc2a067ac8f5a711f86a550b7f6a5522ca5afbd16ae08",
+    "at": "2026-10-15T17:31:38.885411+00:00",
+    "reason": "Каждое свойство оценивается независимо; разность и искусственное дополнение до пяти не вычисляются"
+  },
+  {
+    "object_id": "pudence-rubingisa",
+    "scale_id": "taxation-burden-public-revenue",
+    "pole_scores": {
+      "positive": {
+        "status": "unknown",
+        "value": null,
+        "confidence": 0,
+        "evidence_indices": [],
+        "source_urls": [],
+        "event_ids": [],
+        "rationale": "Нет персональных заявлений или действий по снижению налоговой нагрузки или расширению имущественной самостоятельности.",
+        "support_type": "unknown",
+        "provenance": {
+          "raw_response_file": "evidence/independent_responses/3aaac57186be39293b467ad5842faf5474b1a218c36150166b2845eb9a15e437.json",
+          "model": "gpt-4.1",
+          "at": "2026-10-15T17:31:38.881746+00:00",
+          "cache_key": "3aaac57186be39293b467ad5842faf5474b1a218c36150166b2845eb9a15e437",
+          "original_proposal": {
+            "variable_id": "taxation-burden-public-revenue__positive",
+            "status": "unknown",
+            "value": null,
+            "confidence": 0.2,
+            "support_type": "unknown",
+            "rationale": "Нет персональных заявлений или действий по снижению налоговой нагрузки или расширению имущественной самостоятельности.",
+            "evidence_indices": []
+          }
+        },
+        "evidence_file": "evidence/independent-dossier-pudence-rubingisa.json",
+        "evidence_basis": "d29326332bb0b90c9ecdc2a067ac8f5a711f86a550b7f6a5522ca5afbd16ae08"
+      },
+      "negative": {
+        "status": "unknown",
+        "value": null,
+        "confidence": 0,
+        "evidence_indices": [],
+        "source_urls": [],
+        "event_ids": [],
+        "rationale": "Нет персональных заявлений или действий по увеличению налоговых поступлений для публичного развития.",
+        "support_type": "unknown",
+        "provenance": {
+          "raw_response_file": "evidence/independent_responses/3aaac57186be39293b467ad5842faf5474b1a218c36150166b2845eb9a15e437.json",
+          "model": "gpt-4.1",
+          "at": "2026-10-15T17:31:38.881746+00:00",
+          "cache_key": "3aaac57186be39293b467ad5842faf5474b1a218c36150166b2845eb9a15e437",
+          "original_proposal": {
+            "variable_id": "taxation-burden-public-revenue__negative",
+            "status": "unknown",
+            "value": null,
+            "confidence": 0.2,
+            "support_type": "unknown",
+            "rationale": "Нет персональных заявлений или действий по увеличению налоговых поступлений для публичного развития.",
+            "evidence_indices": []
+          }
+        },
+        "evidence_file": "evidence/independent-dossier-pudence-rubingisa.json",
+        "evidence_basis": "d29326332bb0b90c9ecdc2a067ac8f5a711f86a550b7f6a5522ca5afbd16ae08"
+      }
+    },
+    "positive": null,
+    "negative": null,
+    "value": null,
+    "status": "unknown",
+    "difference": null,
+    "mass": null,
+    "measurement_model": "independent_poles",
+    "evidence_file": "evidence/independent-dossier-pudence-rubingisa.json",
+    "evidence_basis": "d29326332bb0b90c9ecdc2a067ac8f5a711f86a550b7f6a5522ca5afbd16ae08",
+    "at": "2026-10-15T17:31:38.885411+00:00",
+    "reason": "Каждое свойство оценивается независимо; разность и искусственное дополнение до пяти не вычисляются"
+  },
+  {
+    "object_id": "pudence-rubingisa",
+    "scale_id": "universal-targeted-provision",
+    "pole_scores": {
+      "positive": {
+        "status": "observed",
+        "value": 2,
+        "confidence": 0.7,
+        "evidence_indices": [
+          9,
+          16,
+          21
+        ],
+        "source_urls": [
+          "https://www.kayonza.gov.rw/soma-ibindi/world-bank-delegation-commends-districts-progress-in-stunting-prevention-and-early-childhood-development",
+          "https://www.shiftcities.org/post/kigali-path-toward-green-climate-resilient-growth",
+          "https://www.kigalicity.gov.rw/news-detail/the-city-of-kigali-held-a-press-conference-with-journalists-on-citys-development"
+        ],
+        "event_ids": [
+          "kayonza-worldbank-2025",
+          "rubingisa-2022-07-14-green-growth-interview",
+          "rubingisa-2022-08-03-street-vendors-markets"
+        ],
+        "rationale": "Рубингиса заявлял о цели обеспечить каждому ребёнку доступ к основным услугам (эпизод 9), а также поддерживал инфраструктурные проекты для уличных торговцев и модернизацию транспорта для всех (эпизоды 21, 16). Это ограниченное, но ясное проявление ориентации на всеобщие стандарты.",
+        "support_type": "positive_manifestation",
+        "provenance": {
+          "raw_response_file": "evidence/independent_responses/3aaac57186be39293b467ad5842faf5474b1a218c36150166b2845eb9a15e437.json",
+          "model": "gpt-4.1",
+          "at": "2026-10-15T17:31:38.881746+00:00",
+          "cache_key": "3aaac57186be39293b467ad5842faf5474b1a218c36150166b2845eb9a15e437",
+          "original_proposal": {
+            "variable_id": "universal-targeted-provision__positive",
+            "status": "observed",
+            "value": 2,
+            "confidence": 0.7,
+            "support_type": "positive_manifestation",
+            "rationale": "Рубингиса заявлял о цели обеспечить каждому ребёнку доступ к основным услугам (эпизод 9), а также поддерживал инфраструктурные проекты для уличных торговцев и модернизацию транспорта для всех (эпизоды 21, 16). Это ограниченное, но ясное проявление ориентации на всеобщие стандарты.",
+            "evidence_indices": [
+              9,
+              16,
+              21
+            ]
+          }
+        },
+        "evidence_file": "evidence/independent-dossier-pudence-rubingisa.json",
+        "evidence_basis": "d29326332bb0b90c9ecdc2a067ac8f5a711f86a550b7f6a5522ca5afbd16ae08"
+      },
+      "negative": {
+        "status": "observed",
+        "value": 1,
+        "confidence": 0.5,
+        "evidence_indices": [
+          6,
+          21
+        ],
+        "source_urls": [
+          "https://www.kayonza.gov.rw/soma-ibindi/world-bank-delegation-commends-districts-progress-in-stunting-prevention-and-early-childhood-development",
+          "https://www.kigalicity.gov.rw/news-detail/the-city-of-kigali-held-a-press-conference-with-journalists-on-citys-development"
+        ],
+        "event_ids": [
+          "kayonza-worldbank-2025",
+          "rubingisa-2022-08-03-street-vendors-markets"
+        ],
+        "rationale": "В ряде эпизодов (6, 21) отмечается приоритетная помощь конкретным группам (дети, уличные торговцы), однако это не является устойчивой чертой всей политики.",
+        "support_type": "positive_manifestation",
+        "provenance": {
+          "raw_response_file": "evidence/independent_responses/3aaac57186be39293b467ad5842faf5474b1a218c36150166b2845eb9a15e437.json",
+          "model": "gpt-4.1",
+          "at": "2026-10-15T17:31:38.881746+00:00",
+          "cache_key": "3aaac57186be39293b467ad5842faf5474b1a218c36150166b2845eb9a15e437",
+          "original_proposal": {
+            "variable_id": "universal-targeted-provision__negative",
+            "status": "observed",
+            "value": 1,
+            "confidence": 0.5,
+            "support_type": "positive_manifestation",
+            "rationale": "В ряде эпизодов (6, 21) отмечается приоритетная помощь конкретным группам (дети, уличные торговцы), однако это не является устойчивой чертой всей политики.",
+            "evidence_indices": [
+              6,
+              21
+            ]
+          }
+        },
+        "evidence_file": "evidence/independent-dossier-pudence-rubingisa.json",
+        "evidence_basis": "d29326332bb0b90c9ecdc2a067ac8f5a711f86a550b7f6a5522ca5afbd16ae08"
+      }
+    },
+    "positive": 2,
+    "negative": 1,
+    "value": null,
+    "status": "observed",
+    "difference": null,
+    "mass": null,
+    "measurement_model": "independent_poles",
+    "evidence_file": "evidence/independent-dossier-pudence-rubingisa.json",
+    "evidence_basis": "d29326332bb0b90c9ecdc2a067ac8f5a711f86a550b7f6a5522ca5afbd16ae08",
+    "at": "2026-10-15T17:31:38.885411+00:00",
+    "reason": "Каждое свойство оценивается независимо; разность и искусственное дополнение до пяти не вычисляются"
+  },
+  {
+    "object_id": "pudence-rubingisa",
+    "scale_id": "ecological-limits-resource-use",
+    "pole_scores": {
+      "positive": {
+        "status": "observed",
+        "value": 3,
+        "confidence": 0.8,
+        "evidence_indices": [
+          10,
+          16,
+          22,
+          25,
+          27
+        ],
+        "source_urls": [
+          "https://www.undp.org/rwanda/blog/scaling-sustainable-solutions-gatsibo-community-rooted-step-forward",
+          "https://www.shiftcities.org/post/kigali-path-toward-green-climate-resilient-growth",
+          "https://www.kigalicity.gov.rw/news-detail/the-city-of-kigali-held-a-press-conference-with-journalists-on-citys-development",
+          "https://www.africa-press.net/liberia/all-news/photos-nearly-200-bird-species-return-to-restored-nyandungu-eco-park",
+          "https://bloombergcities.jhu.edu/mayors-challenge/2022/kigali-rwanda"
+        ],
+        "event_ids": [
+          "gatsibo-undp-community-2025",
+          "rubingisa-2022-07-14-green-growth-interview",
+          "rubingisa-2022-08-03-city-goals",
+          "rubingisa-2023-10-20-nyandungu",
+          "rubingisa-2022-06-01-rainwater-waste"
+        ],
+        "rationale": "Рубингиса неоднократно поддерживал проекты по восстановлению экосистем, зелёный транспорт, охрану природы, внедрение биогазовых технологий и управление отходами (эпизоды 10, 16, 22, 25, 27). Это последовательная линия публичной политики.",
+        "support_type": "positive_manifestation",
+        "provenance": {
+          "raw_response_file": "evidence/independent_responses/3aaac57186be39293b467ad5842faf5474b1a218c36150166b2845eb9a15e437.json",
+          "model": "gpt-4.1",
+          "at": "2026-10-15T17:31:38.881746+00:00",
+          "cache_key": "3aaac57186be39293b467ad5842faf5474b1a218c36150166b2845eb9a15e437",
+          "original_proposal": {
+            "variable_id": "ecological-limits-resource-use__positive",
+            "status": "observed",
+            "value": 3,
+            "confidence": 0.8,
+            "support_type": "positive_manifestation",
+            "rationale": "Рубингиса неоднократно поддерживал проекты по восстановлению экосистем, зелёный транспорт, охрану природы, внедрение биогазовых технологий и управление отходами (эпизоды 10, 16, 22, 25, 27). Это последовательная линия публичной политики.",
+            "evidence_indices": [
+              10,
+              16,
+              22,
+              25,
+              27
+            ]
+          }
+        },
+        "evidence_file": "evidence/independent-dossier-pudence-rubingisa.json",
+        "evidence_basis": "d29326332bb0b90c9ecdc2a067ac8f5a711f86a550b7f6a5522ca5afbd16ae08"
+      },
+      "negative": {
+        "status": "unknown",
+        "value": null,
+        "confidence": 0,
+        "evidence_indices": [],
+        "source_urls": [],
+        "event_ids": [],
+        "rationale": "Нет прямых заявлений или действий по расширению хозяйственного использования природных ресурсов или ослаблению экологических ограничений.",
+        "support_type": "unknown",
+        "provenance": {
+          "raw_response_file": "evidence/independent_responses/3aaac57186be39293b467ad5842faf5474b1a218c36150166b2845eb9a15e437.json",
+          "model": "gpt-4.1",
+          "at": "2026-10-15T17:31:38.881746+00:00",
+          "cache_key": "3aaac57186be39293b467ad5842faf5474b1a218c36150166b2845eb9a15e437",
+          "original_proposal": {
+            "variable_id": "ecological-limits-resource-use__negative",
+            "status": "unknown",
+            "value": null,
+            "confidence": 0.2,
+            "support_type": "unknown",
+            "rationale": "Нет прямых заявлений или действий по расширению хозяйственного использования природных ресурсов или ослаблению экологических ограничений.",
+            "evidence_indices": []
+          }
+        },
+        "evidence_file": "evidence/independent-dossier-pudence-rubingisa.json",
+        "evidence_basis": "d29326332bb0b90c9ecdc2a067ac8f5a711f86a550b7f6a5522ca5afbd16ae08"
+      }
+    },
+    "positive": 3,
+    "negative": null,
+    "value": null,
+    "status": "partial",
+    "difference": null,
+    "mass": null,
+    "measurement_model": "independent_poles",
+    "evidence_file": "evidence/independent-dossier-pudence-rubingisa.json",
+    "evidence_basis": "d29326332bb0b90c9ecdc2a067ac8f5a711f86a550b7f6a5522ca5afbd16ae08",
+    "at": "2026-10-15T17:31:38.885411+00:00",
+    "reason": "Каждое свойство оценивается независимо; разность и искусственное дополнение до пяти не вычисляются"
+  },
+  {
+    "object_id": "pudence-rubingisa",
+    "scale_id": "russia-diplomatic-engagement",
+    "pole_scores": {
+      "positive": {
+        "status": "unknown",
+        "value": null,
+        "confidence": 0,
+        "evidence_indices": [],
+        "source_urls": [],
+        "event_ids": [],
+        "rationale": "Нет допустимых датированных персональных свидетельств по этому свойству",
+        "support_type": "unknown"
+      },
+      "negative": {
+        "status": "unknown",
+        "value": null,
+        "confidence": 0,
+        "evidence_indices": [],
+        "source_urls": [],
+        "event_ids": [],
+        "rationale": "Нет допустимых датированных персональных свидетельств по этому свойству",
+        "support_type": "unknown"
+      }
+    },
+    "positive": null,
+    "negative": null,
+    "value": null,
+    "status": "unknown",
+    "difference": null,
+    "mass": null,
+    "measurement_model": "independent_poles",
+    "evidence_file": "evidence/independent-dossier-pudence-rubingisa.json",
+    "evidence_basis": "d29326332bb0b90c9ecdc2a067ac8f5a711f86a550b7f6a5522ca5afbd16ae08",
+    "at": "2026-10-15T17:31:38.885411+00:00",
+    "reason": "Каждое свойство оценивается независимо; разность и искусственное дополнение до пяти не вычисляются"
+  },
+  {
+    "object_id": "pudence-rubingisa",
+    "scale_id": "russia-security-cooperation",
+    "pole_scores": {
+      "positive": {
+        "status": "unknown",
+        "value": null,
+        "confidence": 0,
+        "evidence_indices": [],
+        "source_urls": [],
+        "event_ids": [],
+        "rationale": "Нет допустимых датированных персональных свидетельств по этому свойству",
+        "support_type": "unknown"
+      },
+      "negative": {
+        "status": "unknown",
+        "value": null,
+        "confidence": 0,
+        "evidence_indices": [],
+        "source_urls": [],
+        "event_ids": [],
+        "rationale": "Нет допустимых датированных персональных свидетельств по этому свойству",
+        "support_type": "unknown"
+      }
+    },
+    "positive": null,
+    "negative": null,
+    "value": null,
+    "status": "unknown",
+    "difference": null,
+    "mass": null,
+    "measurement_model": "independent_poles",
+    "evidence_file": "evidence/independent-dossier-pudence-rubingisa.json",
+    "evidence_basis": "d29326332bb0b90c9ecdc2a067ac8f5a711f86a550b7f6a5522ca5afbd16ae08",
+    "at": "2026-10-15T17:31:38.885411+00:00",
+    "reason": "Каждое свойство оценивается независимо; разность и искусственное дополнение до пяти не вычисляются"
+  },
+  {
+    "object_id": "pudence-rubingisa",
+    "scale_id": "russia-economic-technology-cooperation",
+    "pole_scores": {
+      "positive": {
+        "status": "unknown",
+        "value": null,
+        "confidence": 0,
+        "evidence_indices": [],
+        "source_urls": [],
+        "event_ids": [],
+        "rationale": "Нет допустимых датированных персональных свидетельств по этому свойству",
+        "support_type": "unknown"
+      },
+      "negative": {
+        "status": "unknown",
+        "value": null,
+        "confidence": 0,
+        "evidence_indices": [],
+        "source_urls": [],
+        "event_ids": [],
+        "rationale": "Нет допустимых датированных персональных свидетельств по этому свойству",
+        "support_type": "unknown"
+      }
+    },
+    "positive": null,
+    "negative": null,
+    "value": null,
+    "status": "unknown",
+    "difference": null,
+    "mass": null,
+    "measurement_model": "independent_poles",
+    "evidence_file": "evidence/independent-dossier-pudence-rubingisa.json",
+    "evidence_basis": "d29326332bb0b90c9ecdc2a067ac8f5a711f86a550b7f6a5522ca5afbd16ae08",
+    "at": "2026-10-15T17:31:38.885411+00:00",
+    "reason": "Каждое свойство оценивается независимо; разность и искусственное дополнение до пяти не вычисляются"
+  },
+  {
+    "object_id": "pudence-rubingisa",
+    "scale_id": "russia-education-cultural-cooperation",
+    "pole_scores": {
+      "positive": {
+        "status": "unknown",
+        "value": null,
+        "confidence": 0,
+        "evidence_indices": [],
+        "source_urls": [],
+        "event_ids": [],
+        "rationale": "Нет допустимых датированных персональных свидетельств по этому свойству",
+        "support_type": "unknown"
+      },
+      "negative": {
+        "status": "unknown",
+        "value": null,
+        "confidence": 0,
+        "evidence_indices": [],
+        "source_urls": [],
+        "event_ids": [],
+        "rationale": "Нет допустимых датированных персональных свидетельств по этому свойству",
+        "support_type": "unknown"
+      }
+    },
+    "positive": null,
+    "negative": null,
+    "value": null,
+    "status": "unknown",
+    "difference": null,
+    "mass": null,
+    "measurement_model": "independent_poles",
+    "evidence_file": "evidence/independent-dossier-pudence-rubingisa.json",
+    "evidence_basis": "d29326332bb0b90c9ecdc2a067ac8f5a711f86a550b7f6a5522ca5afbd16ae08",
+    "at": "2026-10-15T17:31:38.885411+00:00",
+    "reason": "Каждое свойство оценивается независимо; разность и искусственное дополнение до пяти не вычисляются"
+  },
+  {
+    "object_id": "pudence-rubingisa",
+    "scale_id": "russia-conflict-policy-evaluation",
+    "pole_scores": {
+      "positive": {
+        "status": "unknown",
+        "value": null,
+        "confidence": 0,
+        "evidence_indices": [],
+        "source_urls": [],
+        "event_ids": [],
+        "rationale": "Нет допустимых датированных персональных свидетельств по этому свойству",
+        "support_type": "unknown"
+      },
+      "negative": {
+        "status": "unknown",
+        "value": null,
+        "confidence": 0,
+        "evidence_indices": [],
+        "source_urls": [],
+        "event_ids": [],
+        "rationale": "Нет допустимых датированных персональных свидетельств по этому свойству",
+        "support_type": "unknown"
+      }
+    },
+    "positive": null,
+    "negative": null,
+    "value": null,
+    "status": "unknown",
+    "difference": null,
+    "mass": null,
+    "measurement_model": "independent_poles",
+    "evidence_file": "evidence/independent-dossier-pudence-rubingisa.json",
+    "evidence_basis": "d29326332bb0b90c9ecdc2a067ac8f5a711f86a550b7f6a5522ca5afbd16ae08",
+    "at": "2026-10-15T17:31:38.885411+00:00",
+    "reason": "Каждое свойство оценивается независимо; разность и искусственное дополнение до пяти не вычисляются"
+  },
+  {
+    "object_id": "pudence-rubingisa",
+    "scale_id": "russia-isolation-sanctions",
+    "pole_scores": {
+      "positive": {
+        "status": "unknown",
+        "value": null,
+        "confidence": 0,
+        "evidence_indices": [],
+        "source_urls": [],
+        "event_ids": [],
+        "rationale": "Нет допустимых датированных персональных свидетельств по этому свойству",
+        "support_type": "unknown"
+      },
+      "negative": {
+        "status": "unknown",
+        "value": null,
+        "confidence": 0,
+        "evidence_indices": [],
+        "source_urls": [],
+        "event_ids": [],
+        "rationale": "Нет допустимых датированных персональных свидетельств по этому свойству",
+        "support_type": "unknown"
+      }
+    },
+    "positive": null,
+    "negative": null,
+    "value": null,
+    "status": "unknown",
+    "difference": null,
+    "mass": null,
+    "measurement_model": "independent_poles",
+    "evidence_file": "evidence/independent-dossier-pudence-rubingisa.json",
+    "evidence_basis": "d29326332bb0b90c9ecdc2a067ac8f5a711f86a550b7f6a5522ca5afbd16ae08",
+    "at": "2026-10-15T17:31:38.885411+00:00",
+    "reason": "Каждое свойство оценивается независимо; разность и искусственное дополнение до пяти не вычисляются"
+  }
+]

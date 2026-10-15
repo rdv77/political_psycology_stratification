@@ -56,6 +56,81 @@ def _finite_number(value, lower, upper, label):
     return number
 
 
+def _measurement_model(study):
+    has_unipolar = any(scale.get("kind") == "unipolar" for scale in study.get("scales", []))
+    model = study.get("measurement_model", "independent_poles" if has_unipolar else "paired_difference")
+    if model not in {"paired_difference", "bipolar_difference", "difference", "independent_poles"}:
+        raise ValueError("Неизвестная measurement_model: " + str(model))
+    if has_unipolar and model != "independent_poles":
+        raise ValueError("Однополюсные шкалы требуют measurement_model=independent_poles")
+    return "independent_poles" if model == "independent_poles" else "paired_difference"
+
+
+def _analysis_scales(study):
+    """Expand measured properties without manufacturing an opposite property."""
+    independent = _measurement_model(study) == "independent_poles"
+    result = []
+    for scale in study.get("scales", []):
+        kind = scale.get("kind", "paired")
+        if kind not in {"paired", "bipolar", "unipolar"}:
+            raise ValueError("Неизвестный вид шкалы: " + str(kind))
+        if kind == "unipolar":
+            item = dict(scale, kind="unipolar", parent_scale_id=str(scale["id"]), pole="unipolar",
+                        positive=scale.get("name", str(scale["id"])), negative="")
+            result.append(item)
+        elif independent:
+            for pole in ("positive", "negative"):
+                prop = str(scale.get(pole) or "").strip()
+                if not prop:
+                    raise ValueError(f"Для независимого полюса {scale['id']}/{pole} нужно название свойства")
+                result.append(dict(scale, id=str(scale["id"]) + "__" + pole, name=prop,
+                                   parent_scale_id=str(scale["id"]), parent_scale_name=scale.get("name", str(scale["id"])),
+                                   pole=pole, kind="unipolar", positive=prop, negative=""))
+        else:
+            result.append(scale)
+    return result
+
+
+def _analysis_ratings(study, ratings):
+    """Read explicit pole statuses even when the legacy whole-cell status is unknown."""
+    independent = _measurement_model(study) == "independent_poles"
+    source = {str(scale["id"]): scale for scale in study.get("scales", [])}
+    if not independent and not any(scale.get("kind") == "unipolar" for scale in source.values()):
+        return ratings
+    result = []
+    for rating in ratings:
+        sid, oid = str(rating.get("scale_id", "")), str(rating.get("object_id", ""))
+        if sid not in source:
+            raise ValueError(f"Оценка ссылается на неизвестный объект или шкалу: {oid}/{sid}")
+        unipolar = source[sid].get("kind") == "unipolar"
+        if not independent and not unipolar:
+            result.append(rating)
+            continue
+        poles = rating.get("pole_scores", {})
+        if not isinstance(poles, dict):
+            raise ValueError(f"pole_scores должен быть объектом: {oid}/{sid}")
+        for pole in (("unipolar",) if unipolar else ("positive", "negative")):
+            entry = poles.get("positive", rating) if unipolar else poles.get(pole, {})
+            if not isinstance(entry, dict):
+                raise ValueError(f"Оценка полюса должна быть объектом: {oid}/{sid}/{pole}")
+            status = entry.get("status", "observed" if unipolar and "value" in entry else "unknown")
+            if status not in {"observed", "unknown"}:
+                raise ValueError(f"Неизвестный статус оценки: {status}")
+            value = _finite_number(entry.get("value"), 0, 5, f"{oid}/{sid}/{pole}") if status == "observed" else None
+            result.append({"object_id": oid, "scale_id": sid if unipolar else sid + "__" + pole,
+                           "status": status, "value": value})
+    return result
+
+
+def _trait_properties(scale, loading):
+    if scale.get("kind") == "unipolar":
+        prop = scale.get("positive") or scale.get("name", str(scale["id"]))
+        more, less = "Большая выраженность: " + prop, "Меньшая выраженность: " + prop
+        return (more, less) if loading > 0 else (less, more)
+    return ((scale.get("positive", ""), scale.get("negative", "")) if loading > 0 else
+            (scale.get("negative", ""), scale.get("positive", "")))
+
+
 def _prepare(study, ratings):
     """Apply the predeclared scale-first coverage policy to actual observations.
 
@@ -64,17 +139,21 @@ def _prepare(study, ratings):
     scales. Repeat until the retained rectangle is stable. This order prevents
     sparse, subsequently discarded scales from excluding well-measured objects.
     """
-    objects, scales = study.get("objects", []), study.get("scales", [])
-    for label, values in (("объектов", objects), ("шкал", scales)):
+    objects, source_scales = study.get("objects", []), study.get("scales", [])
+    for label, values in (("объектов", objects), ("шкал", source_scales)):
         ids = [str(item.get("id", "")) for item in values]
         if any(not identity for identity in ids) or len(ids) != len(set(ids)):
             raise ValueError(f"Идентификаторы {label} должны быть непустыми и уникальными")
+    scales = _analysis_scales(study)
+    if len({str(scale["id"]) for scale in scales}) != len(scales):
+        raise ValueError("Идентификаторы аналитических переменных должны быть уникальными после разворота полюсов")
+    analytical_ratings = _analysis_ratings(study, ratings)
     object_map = {str(item["id"]): item for item in objects}
     scale_map = {str(item["id"]): item for item in scales}
     matrix = pd.DataFrame(np.nan, index=list(object_map), columns=list(scale_map))
     mass = matrix.copy()
     seen, observed_count, difference_only = set(), 0, 0
-    for rating in ratings:
+    for rating in analytical_ratings:
         oid, sid = str(rating.get("object_id", "")), str(rating.get("scale_id", ""))
         if oid not in object_map or sid not in scale_map:
             raise ValueError(f"Оценка ссылается на неизвестный объект или шкалу: {oid}/{sid}")
@@ -143,8 +222,11 @@ def _prepare(study, ratings):
     n, p = matrix.shape
     coverage = float(matrix.notna().to_numpy().mean()) if matrix.size else None
     input_cells = len(objects) * len(scales)
+    independent = _measurement_model(study) == "independent_poles"
     diagnostics = {
-        "observed_input_ratings": observed_count, "difference_only_ratings": difference_only,
+        "observed_input_ratings": observed_count, "difference_only_ratings": 0 if independent else difference_only,
+        "measurement_model": _measurement_model(study), "input_scale_definitions": len(source_scales),
+        "analytical_variable_count": len(scales),
         "input_objects": len(objects), "input_scales": len(scales),
         "total_input_cells": input_cells, "unknown_input_cells": input_cells - observed_count,
         "input_coverage": observed_count / input_cells if input_cells else None,
@@ -165,10 +247,12 @@ def _prepare(study, ratings):
                                  for sid, item in scale_map.items()],
         "retained_coverage": coverage, "missing_retained_cells": int(matrix.isna().sum().sum()),
         "excluded_objects": excluded_objects, "excluded_scales": excluded_scales,
-        "zero_differences": int((matrix == 0).sum().sum()),
-        "zero_difference_with_mass": int(((original == 0) & (mass > 0)).sum().sum()),
+        "zero_differences": None if independent else int((matrix == 0).sum().sum()),
+        "zero_observed_variables": int((matrix == 0).sum().sum()),
+        "zero_difference_with_mass": None if independent else int(((original == 0) & (mass > 0)).sum().sum()),
         "mass_mean": float(np.nanmean(mass.to_numpy())) if mass.notna().any().any() else None,
-        "measurement": "primary value = positive - negative; mass = positive + negative",
+        "measurement": ("independent property intensities 0..5; explicit pole statuses; no subtraction or invented antonyms"
+                        if independent else "primary value = positive - negative; mass = positive + negative; unipolar variables, if present, are direct intensities 0..5"),
         "missing_policy": "unknown is NaN, never zero; iteratively filter scales before objects until stable; training gaps mean-imputed; posterior uses only observed coordinates",
         "minimum_coverage_policy": "each iteration: first scales observed on at least 60% and 8 current objects and nonconstant; then objects observed on at least 60% and 4 surviving scales; repeat until stable; retained overall coverage at least 75%",
         "preprocessing_order": "scales_then_objects_until_stable",
@@ -334,6 +418,12 @@ def _clustering(scores, requested_k):
 
 
 def _factor_descriptions(loadings, scales, denominator):
+    loadings = np.asarray(loadings, dtype=float)
+    if loadings.ndim != 2 or loadings.shape[0] != len(scales) or not np.isfinite(loadings).all():
+        raise ValueError("Finite ordered scale-by-factor loadings required")
+    if not np.isfinite(denominator) or denominator <= 0:
+        raise ValueError("A positive all-variable variance denominator is required")
+    unipolar = any(scale.get("kind") == "unipolar" for scale in scales)
     factors = []
     for column in range(loadings.shape[1]):
         positive, negative = [], []
@@ -342,15 +432,20 @@ def _factor_descriptions(loadings, scales, denominator):
             if abs(value) < LOADING_THRESHOLD:
                 continue
             scale = scales[index]
+            high, low = _trait_properties(scale, value)
             trait = {"id": str(scale["id"]), "name": scale.get("name", str(scale["id"])),
                      "positive": scale.get("positive", ""), "negative": scale.get("negative", ""),
                      "loading": value,
-                     "high_factor_property": scale.get("positive", "") if value > 0 else scale.get("negative", ""),
-                     "low_factor_property": scale.get("negative", "") if value > 0 else scale.get("positive", "")}
+                     "high_factor_property": high, "low_factor_property": low}
+            if scale.get("kind") == "unipolar":
+                trait.update(kind="unipolar", parent_scale_id=scale.get("parent_scale_id", str(scale["id"])),
+                             pole=scale.get("pole", "unipolar"))
             (positive if value > 0 else negative).append(trait)
         positive_names = ", ".join(item["positive"] or item["name"] for item in positive[:3])
         negative_names = ", ".join(item["positive"] or item["name"] for item in negative[:3])
-        if positive and negative:
+        if unipolar and positive and negative:
+            label = f"Больше: {positive[0]['positive'] or positive[0]['name']}; меньше: {negative[0]['positive'] or negative[0]['name']}"
+        elif positive and negative:
             label = f"{positive[0]['positive'] or positive[0]['name']} ↔ {negative[0]['positive'] or negative[0]['name']}"
         elif positive:
             label = ", ".join(item["positive"] or item["name"] for item in positive[:2])
@@ -367,14 +462,18 @@ def _factor_descriptions(loadings, scales, denominator):
             sentences.append("Сильных отрицательных нагрузок нет; второй полюс отдельно не именуется.")
         if not positive:
             sentences.append("Сильных положительных нагрузок нет.")
-        high_properties = [item["positive"] or item["name"] for item in positive[:3]]
-        high_properties += [item["negative"] for item in negative[:3] if item["negative"]]
+        high_properties = ([item["high_factor_property"] for item in [*positive[:3], *negative[:3]]]
+                           if unipolar else [item["positive"] or item["name"] for item in positive[:3]] +
+                           [item["negative"] for item in negative[:3] if item["negative"]])
         if high_properties:
             sentences.append("Высокая координата связана со свойствами: " + ", ".join(high_properties) + ".")
-        if positive and negative:
-            low_properties = [item["positive"] or item["name"] for item in negative[:3]]
-            low_properties += [item["negative"] for item in positive[:3] if item["negative"]]
+        if unipolar or (positive and negative):
+            low_properties = ([item["low_factor_property"] for item in [*positive[:3], *negative[:3]]]
+                              if unipolar else [item["positive"] or item["name"] for item in negative[:3]] +
+                              [item["negative"] for item in positive[:3] if item["negative"]])
             sentences.append("Низкая координата связана со свойствами: " + ", ".join(low_properties) + ".")
+        if unipolar:
+            sentences.append("Меньшая выраженность свойства не означает выраженность его антонима; полюса измерены независимо.")
         sentences.append("Знак оси условен. Названия описывают связи оценок; это не причинное объяснение.")
         factors.append({"id": f"F{column + 1}", "name": label, "label": label,
                         "positive_traits": positive, "negative_traits": negative,

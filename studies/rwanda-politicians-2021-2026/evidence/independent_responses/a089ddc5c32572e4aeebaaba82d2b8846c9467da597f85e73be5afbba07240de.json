@@ -1,0 +1,252 @@
+{
+  "data": {
+    "ratings": [
+      {
+        "variable_id": "programmatic-renewal__positive",
+        "status": "observed",
+        "value": 2,
+        "confidence": 0.7,
+        "support_type": "positive_manifestation",
+        "rationale": "В ряде эпизодов (например, приоритет профилактики, расширение сети медицинских постов, акцент на институциональной готовности и международном партнёрстве) Нсанзимана выдвигал новые акценты и инициативы в здравоохранении, что свидетельствует о ясном ограниченном проявлении программных изменений, но не о последовательном пересмотре всего курса.",
+        "evidence_indices": [
+          0,
+          2,
+          3,
+          4,
+          10
+        ]
+      },
+      {
+        "variable_id": "programmatic-renewal__negative",
+        "status": "observed",
+        "value": 2,
+        "confidence": 0.7,
+        "support_type": "positive_manifestation",
+        "rationale": "В публичных выступлениях и отчётах Нсанзимана подчёркивал продолжение и развитие существующих государственных программ (например, расширение уже действующей сети медицинских постов, выполнение международных обязательств), что указывает на ясное ограниченное проявление закрепления курса.",
+        "evidence_indices": [
+          4,
+          5,
+          10,
+          11
+        ]
+      },
+      {
+        "variable_id": "government-course-assessment__positive",
+        "status": "observed",
+        "value": 2,
+        "confidence": 0.7,
+        "support_type": "positive_manifestation",
+        "rationale": "В ряде эпизодов Нсанзимана публично представлял достижения и приоритеты государственной политики в здравоохранении, подчёркивал успехи и необходимость дальнейших усилий, что соответствует ограниченной поддержке действующего курса.",
+        "evidence_indices": [
+          3,
+          4,
+          5,
+          10,
+          11
+        ]
+      },
+      {
+        "variable_id": "government-course-assessment__negative",
+        "status": "observed",
+        "value": 1,
+        "confidence": 0.5,
+        "support_type": "positive_manifestation",
+        "rationale": "В одном эпизоде отмечено публичное признание проблем функционирования части медицинских постов, однако это не является критикой всего курса, а скорее признанием отдельных трудностей.",
+        "evidence_indices": [
+          11
+        ]
+      },
+      {
+        "variable_id": "participation-administrative-direction__positive",
+        "status": "observed",
+        "value": 1,
+        "confidence": 0.5,
+        "support_type": "positive_manifestation",
+        "rationale": "В эпизоде с обсуждением обязательств ICPD25 Нсанзимана призывал к дальнейшим действиям молодёжи и медицинских работников, что можно трактовать как единичное слабое проявление приглашения к участию заинтересованных групп.",
+        "evidence_indices": [
+          3
+        ]
+      },
+      {
+        "variable_id": "participation-administrative-direction__negative",
+        "status": "observed",
+        "value": 2,
+        "confidence": 0.7,
+        "support_type": "positive_manifestation",
+        "rationale": "В ряде эпизодов Нсанзимана выступал с отчётами, ставил задачи и представлял планы развития, что указывает на ясное ограниченное проявление административного управления и контроля исполнения.",
+        "evidence_indices": [
+          4,
+          5,
+          11
+        ]
+      },
+      {
+        "variable_id": "argumentation-evidence-values__positive",
+        "status": "observed",
+        "value": 3,
+        "confidence": 0.8,
+        "support_type": "positive_manifestation",
+        "rationale": "В нескольких эпизодах Нсанзимана обосновывал решения через данные, количественные показатели, ссылки на исследования и международные стандарты (например, отчёты с показателями, участие в круглом столе по данным и финансированию).",
+        "evidence_indices": [
+          5,
+          6,
+          11
+        ]
+      },
+      {
+        "variable_id": "argumentation-evidence-values__negative",
+        "status": "observed",
+        "value": 1,
+        "confidence": 0.5,
+        "support_type": "positive_manifestation",
+        "rationale": "В одном эпизоде (призыв сделать спасение матери и ребёнка безусловной целью) присутствует ограниченное обращение к ценностям, но в целом стиль аргументации преимущественно опирается на данные.",
+        "evidence_indices": [
+          3
+        ]
+      },
+      {
+        "variable_id": "market-state-instruments__positive",
+        "status": "unknown",
+        "value": null,
+        "confidence": 0,
+        "support_type": "unknown",
+        "rationale": "Нет прямых свидетельств расширения частной инициативы или управления в анализируемых эпизодах.",
+        "evidence_indices": []
+      },
+      {
+        "variable_id": "market-state-instruments__negative",
+        "status": "observed",
+        "value": 2,
+        "confidence": 0.7,
+        "support_type": "positive_manifestation",
+        "rationale": "В ряде эпизодов отмечено развитие государственных программ, планирование и надзор (например, расширение сети медицинских постов, государственное финансирование), что соответствует ограниченному проявлению расширения государственного планирования.",
+        "evidence_indices": [
+          4,
+          5,
+          10,
+          11
+        ]
+      },
+      {
+        "variable_id": "accessibility-growth-priorities__positive",
+        "status": "observed",
+        "value": 3,
+        "confidence": 0.8,
+        "support_type": "positive_manifestation",
+        "rationale": "В ряде эпизодов Нсанзимана подчёркивал расширение доступности медицинских услуг, развитие первичной помощи и снижение материнской смертности как приоритеты, что соответствует устойчивому публичному акценту на доступности базовых благ.",
+        "evidence_indices": [
+          3,
+          4,
+          5,
+          10
+        ]
+      },
+      {
+        "variable_id": "accessibility-growth-priorities__negative",
+        "status": "observed",
+        "value": 2,
+        "confidence": 0.6,
+        "support_type": "positive_manifestation",
+        "rationale": "В эпизодах с запуском производства вакцин и международным сотрудничеством отмечался акцент на инвестициях, инновациях и развитии, что соответствует ограниченному проявлению приоритета роста и конкурентоспособности.",
+        "evidence_indices": [
+          9,
+          12,
+          13,
+          14
+        ]
+      },
+      {
+        "variable_id": "external-domestic-resources__positive",
+        "status": "observed",
+        "value": 3,
+        "confidence": 0.8,
+        "support_type": "positive_manifestation",
+        "rationale": "Многочисленные эпизоды подтверждают привлечение внешнего финансирования и ресурсных партнёров (ВОЗ, BioNTech, Россия), что свидетельствует о нескольких последовательных эпизодах такого подхода.",
+        "evidence_indices": [
+          0,
+          6,
+          9,
+          12,
+          13,
+          14
+        ]
+      },
+      {
+        "variable_id": "external-domestic-resources__negative",
+        "status": "unknown",
+        "value": null,
+        "confidence": 0,
+        "support_type": "unknown",
+        "rationale": "Нет прямых свидетельств акцента на внутренние доходы или самостоятельность в анализируемых эпизодах.",
+        "evidence_indices": []
+      },
+      {
+        "variable_id": "international-rules-autonomy__positive",
+        "status": "observed",
+        "value": 2,
+        "confidence": 0.7,
+        "support_type": "positive_manifestation",
+        "rationale": "В ряде эпизодов Нсанзимана подчёркивал важность международных обязательств, стандартов и координации (например, сотрудничество с ВОЗ, участие в международных соглашениях), что соответствует ограниченному проявлению закрепления международных норм.",
+        "evidence_indices": [
+          0,
+          2,
+          6,
+          10,
+          12,
+          13,
+          14
+        ]
+      },
+      {
+        "variable_id": "international-rules-autonomy__negative",
+        "status": "unknown",
+        "value": null,
+        "confidence": 0,
+        "support_type": "unknown",
+        "rationale": "Нет прямых свидетельств акцента на защите национальной самостоятельности решений.",
+        "evidence_indices": []
+      },
+      {
+        "variable_id": "mediation-adversarial-communication__positive",
+        "status": "unknown",
+        "value": null,
+        "confidence": 0,
+        "support_type": "unknown",
+        "rationale": "Нет прямых свидетельств посредничества или поиска согласования интересов сторон.",
+        "evidence_indices": []
+      },
+      {
+        "variable_id": "mediation-adversarial-communication__negative",
+        "status": "observed",
+        "value": 1,
+        "confidence": 0.5,
+        "support_type": "positive_manifestation",
+        "rationale": "В одном эпизоде Нсанзимана оспаривал утверждения о медицинских рисках для просителей убежища, что можно трактовать как единичное проявление защиты своей позиции в публичной коммуникации.",
+        "evidence_indices": [
+          8
+        ]
+      }
+    ]
+  },
+  "model": "gpt-4.1",
+  "task": "independent-ratings-sabin-nsanzimana-0",
+  "at": "2026-10-15T17:30:09.592109+00:00",
+  "usage": {
+    "prompt_tokens": 7023,
+    "completion_tokens": 2114,
+    "total_tokens": 9137,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "audio_tokens": 0
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "audio_tokens": 0,
+      "accepted_prediction_tokens": 0,
+      "rejected_prediction_tokens": 0
+    }
+  },
+  "citations": [],
+  "system_fingerprint": "fp_801d3b7b5c",
+  "cache_key": "a089ddc5c32572e4aeebaaba82d2b8846c9467da597f85e73be5afbba07240de"
+}

@@ -1,0 +1,239 @@
+{
+  "data": {
+    "ratings": [
+      {
+        "variable_id": "programmatic-renewal__positive",
+        "status": "observed",
+        "value": 1,
+        "confidence": 0.4,
+        "support_type": "positive_manifestation",
+        "rationale": "В ряде заявлений Хареримана отмечал работу PDI с другими политическими организациями над стратегическими идеями и решениями (evidence_index: 12), что допускает ограниченное проявление программной координации, но не содержит прямых предложений о пересмотре действующих приоритетов или программ.",
+        "evidence_indices": [
+          12
+        ]
+      },
+      {
+        "variable_id": "programmatic-renewal__negative",
+        "status": "observed",
+        "value": 4,
+        "confidence": 0.95,
+        "support_type": "positive_manifestation",
+        "rationale": "Хареримана неоднократно публично заявлял о поддержке действующего курса, необходимости сохранять достижения, поддержке Кагаме и RPF, а также о том, что руководство Кагаме должно оставаться ориентиром для Руанды (evidence_indices: 6, 10, 13, 16, 17). Это устойчивый повторяющийся акцент на продолжении и закреплении действующего курса.",
+        "evidence_indices": [
+          6,
+          10,
+          13,
+          16,
+          17
+        ]
+      },
+      {
+        "variable_id": "government-course-assessment__positive",
+        "status": "observed",
+        "value": 5,
+        "confidence": 1.0,
+        "support_type": "positive_manifestation",
+        "rationale": "Многократные прямые заявления о поддержке действующего государственного курса, доверии к Кагаме, признании модели управления Руанды как образцовой и достойной распространения (evidence_indices: 6, 10, 13, 16, 17, 18).",
+        "evidence_indices": [
+          6,
+          10,
+          13,
+          16,
+          17,
+          18
+        ]
+      },
+      {
+        "variable_id": "government-course-assessment__negative",
+        "status": "observed",
+        "value": 0,
+        "confidence": 0.95,
+        "support_type": "explicit_absence",
+        "rationale": "В имеющихся источниках отсутствует критика действующего государственного курса; напротив, все публичные заявления Харериманы в исследуемый период содержат поддержку и одобрение курса и руководства.",
+        "evidence_indices": [
+          6,
+          10,
+          13,
+          16,
+          17,
+          18
+        ]
+      },
+      {
+        "variable_id": "participation-administrative-direction__positive",
+        "status": "observed",
+        "value": 1,
+        "confidence": 0.3,
+        "support_type": "positive_manifestation",
+        "rationale": "В одном эпизоде Хареримана упомянул о работе PDI с другими политическими организациями над стратегическими решениями (evidence_index: 12), что допускает ограниченное проявление совместного обсуждения, но не раскрывает механизм общественного контроля.",
+        "evidence_indices": [
+          12
+        ]
+      },
+      {
+        "variable_id": "participation-administrative-direction__negative",
+        "status": "observed",
+        "value": 2,
+        "confidence": 0.5,
+        "support_type": "positive_manifestation",
+        "rationale": "В ряде заявлений Хареримана акцентирует единство, единый голос партии и необходимость сохранения курса, что подразумевает административную координацию и контроль (evidence_indices: 10, 13, 16). Однако прямых поручений или директив не выявлено.",
+        "evidence_indices": [
+          10,
+          13,
+          16
+        ]
+      },
+      {
+        "variable_id": "argumentation-evidence-values__positive",
+        "status": "unknown",
+        "value": null,
+        "confidence": 0.0,
+        "support_type": "unknown",
+        "rationale": "В доступных источниках отсутствуют примеры обоснования через данные, расчёты или ссылки на исследования.",
+        "evidence_indices": []
+      },
+      {
+        "variable_id": "argumentation-evidence-values__negative",
+        "status": "observed",
+        "value": 4,
+        "confidence": 0.95,
+        "support_type": "positive_manifestation",
+        "rationale": "Хареримана регулярно использует ценностную аргументацию: ссылается на национальное единство, память о геноциде, культурные нормы, коллективную ответственность и патриотизм (evidence_indices: 7, 8, 10, 11, 14).",
+        "evidence_indices": [
+          7,
+          8,
+          10,
+          11,
+          14
+        ]
+      },
+      {
+        "variable_id": "market-state-instruments__positive",
+        "status": "unknown",
+        "value": null,
+        "confidence": 0.0,
+        "support_type": "unknown",
+        "rationale": "Нет прямых свидетельств расширения частной инициативы или управления в публичных заявлениях Харериманы.",
+        "evidence_indices": []
+      },
+      {
+        "variable_id": "market-state-instruments__negative",
+        "status": "observed",
+        "value": 1,
+        "confidence": 0.3,
+        "support_type": "positive_manifestation",
+        "rationale": "В интервью Хареримана защищал применение культурных норм с возможностью принудительного исполнения через суд (evidence_index: 11), что допускает ограниченное проявление поддержки обязательных правил.",
+        "evidence_indices": [
+          11
+        ]
+      },
+      {
+        "variable_id": "accessibility-growth-priorities__positive",
+        "status": "observed",
+        "value": 2,
+        "confidence": 0.5,
+        "support_type": "positive_manifestation",
+        "rationale": "В ряде выступлений Хареримана связывает поддержку Кагаме с развитием, инклюзивностью и улучшением благосостояния граждан (evidence_indices: 8, 13, 16), что указывает на ограниченный акцент на расширении доступности базовых благ.",
+        "evidence_indices": [
+          8,
+          13,
+          16
+        ]
+      },
+      {
+        "variable_id": "accessibility-growth-priorities__negative",
+        "status": "observed",
+        "value": 2,
+        "confidence": 0.4,
+        "support_type": "positive_manifestation",
+        "rationale": "В ряде заявлений Хареримана поддерживает цели устойчивого развития, рост и конкурентоспособность (evidence_indices: 13, 16), однако прямого приоритета роста инвестиций и деловой активности не выявлено.",
+        "evidence_indices": [
+          13,
+          16
+        ]
+      },
+      {
+        "variable_id": "external-domestic-resources__positive",
+        "status": "unknown",
+        "value": null,
+        "confidence": 0.0,
+        "support_type": "unknown",
+        "rationale": "Нет прямых свидетельств привлечения внешнего финансирования или ресурсных партнёров в публичных заявлениях Харериманы.",
+        "evidence_indices": []
+      },
+      {
+        "variable_id": "external-domestic-resources__negative",
+        "status": "observed",
+        "value": 1,
+        "confidence": 0.3,
+        "support_type": "positive_manifestation",
+        "rationale": "В одном эпизоде Хареримана призывал к мобилизации внутренних вкладов для решения проблем (evidence_index: 8), однако это единичное и ограниченное проявление.",
+        "evidence_indices": [
+          8
+        ]
+      },
+      {
+        "variable_id": "international-rules-autonomy__positive",
+        "status": "unknown",
+        "value": null,
+        "confidence": 0.0,
+        "support_type": "unknown",
+        "rationale": "Нет прямых предложений о закреплении международных обязательств или норм в публичных заявлениях Харериманы.",
+        "evidence_indices": []
+      },
+      {
+        "variable_id": "international-rules-autonomy__negative",
+        "status": "observed",
+        "value": 2,
+        "confidence": 0.5,
+        "support_type": "positive_manifestation",
+        "rationale": "В интервью Хареримана защищал национальные культурные нормы и самостоятельность их применения (evidence_index: 11), что допускает ограниченное проявление защиты национальной самостоятельности решений.",
+        "evidence_indices": [
+          11
+        ]
+      },
+      {
+        "variable_id": "mediation-adversarial-communication__positive",
+        "status": "unknown",
+        "value": null,
+        "confidence": 0.0,
+        "support_type": "unknown",
+        "rationale": "Нет прямых предложений о посредничестве или переговорах в публичных заявлениях Харериманы.",
+        "evidence_indices": []
+      },
+      {
+        "variable_id": "mediation-adversarial-communication__negative",
+        "status": "observed",
+        "value": 2,
+        "confidence": 0.5,
+        "support_type": "positive_manifestation",
+        "rationale": "В ряде заявлений Хареримана выступал с защитой государственного курса, опровергал политику разделения и выступал против использования свободы слова для разрушения страны (evidence_indices: 7, 14), что указывает на ограниченное проявление защиты собственной стороны.",
+        "evidence_indices": [
+          7,
+          14
+        ]
+      }
+    ]
+  },
+  "model": "gpt-4.1",
+  "task": "independent-ratings-mussa-fazil-harerimana-0",
+  "at": "2026-10-15T17:31:29.414884+00:00",
+  "usage": {
+    "prompt_tokens": 7806,
+    "completion_tokens": 2133,
+    "total_tokens": 9939,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "audio_tokens": 0
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "audio_tokens": 0,
+      "accepted_prediction_tokens": 0,
+      "rejected_prediction_tokens": 0
+    }
+  },
+  "citations": [],
+  "system_fingerprint": "fp_801d3b7b5c",
+  "cache_key": "10ce3dcb660a8bc37a513251763c149d84670e405b334a17661468a981bcf59d"
+}

@@ -1,0 +1,49 @@
+{
+  "data": {
+    "facts": [],
+    "limitations": "В доступной выдаче нет 18–24 новых, уникальных и датированных первичных материалов о личных публичных действиях или заявлениях Поля Кагаме в заданном периоде. Найденные результаты в основном ведут к архиву администрации президента без конкретных извлечённых эпизодов либо относятся к событиям до 15 октября 2021 года и потому исключаются. Повторно перечисленные пользователем эпизоды не использованы. Дополнительная проверка источников в этом ответе недоступна, поэтому сведения и ссылки сверх показанной выдачи не добавляются.",
+    "sources": [
+      {
+        "title": "Office of the President of Rwanda — Advanced Search",
+        "url": "http://archive.presidency.gov.rw/site/advancedsearch"
+      },
+      {
+        "title": "Office of the President of Rwanda — Media Archive",
+        "url": "http://archive.presidency.gov.rw/archive/"
+      },
+      {
+        "title": "Parliament of Rwanda — MPs step up oversight of climate and environmental policy",
+        "url": "https://www.parliament.gov.rw/read-more?category=0&page=19&q="
+      }
+    ]
+  },
+  "model": "sonar-pro",
+  "task": "independent-retrieval-paul-kagame",
+  "at": "2026-10-15T17:21:22.676588+00:00",
+  "usage": {
+    "completion_tokens": 257,
+    "cost": {
+      "input_tokens_cost": 0.00551,
+      "output_tokens_cost": 0.00092,
+      "request_cost": 0.0025,
+      "total_cost": 0.00893
+    },
+    "prompt_tokens": 3801,
+    "search_context_size": "low",
+    "total_tokens": 4058
+  },
+  "citations": [
+    "http://archive.presidency.gov.rw/site/advancedsearch",
+    "http://archive.presidency.gov.rw/archive/",
+    "https://www.parliament.gov.rw/read-more?category=0&page=19&q=",
+    "https://www.gov.rw/blog-detail/president-kagame-officiates-the-swearing-in-of-six-new-senators",
+    "https://www.gov.rw/blog-detail/government-of-rwanda-statement-on-forbidden-stories-media-campaign",
+    "http://archive.presidency.gov.rw/topic_media",
+    "https://www.gov.rw/blog-detail/president-kagame-addresses-the-climate-adaptation-summit",
+    "http://archive.presidency.gov.rw/topic_security_and_defense",
+    "https://www.gov.rw/blog-detail/prime-minister-presents-to-the-parliament-rwandas-economic-recovery-plan",
+    "https://www.gov.rw/blog-detail/ukuri-ku-ijambo-perezida-tshisekedi-yagejeje-ku-bitabiriye-inama-ya-global-gateway-2025-i-bruxelles"
+  ],
+  "system_fingerprint": null,
+  "cache_key": "a441b3458ba81aa803ddbb372bfa56f035dea6e485f66daecb29be1e2761e86e"
+}

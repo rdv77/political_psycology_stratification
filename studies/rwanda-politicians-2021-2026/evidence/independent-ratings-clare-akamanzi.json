@@ -1,0 +1,1798 @@
+[
+  {
+    "object_id": "clare-akamanzi",
+    "scale_id": "programmatic-renewal",
+    "pole_scores": {
+      "positive": {
+        "status": "observed",
+        "value": 2,
+        "confidence": 0.7,
+        "evidence_indices": [
+          17,
+          18
+        ],
+        "source_urls": [
+          "https://www.ktpress.rw/2023/10/rwanda-parliament-approves-major-changes-in-law-governing-rdb/"
+        ],
+        "event_ids": [
+          "akamanzi-2023-06-29-rdb-governance-bill",
+          "akamanzi-2023-10-09-rdb-law-approval"
+        ],
+        "rationale": "В 2023 году Акаманзи внесла в парламент законопроект об изменении полномочий и автономии RDB, аргументируя необходимостью большей гибкости для выполнения мандата (evidence_index: 17). Это явное предложение изменить действующие правила и институциональные приоритеты, хотя речь идёт о конкретном ведомстве, а не о полном курсе развития страны. Подтверждается также одобрением изменений (evidence_index: 18).",
+        "support_type": "positive_manifestation",
+        "provenance": {
+          "raw_response_file": "evidence/independent_responses/d6c13bd24b73856da3829823bba9d90eabbfee7791ce2526e753669cc972a7cd.json",
+          "model": "gpt-4.1",
+          "at": "2026-10-15T17:30:51.657153+00:00",
+          "cache_key": "d6c13bd24b73856da3829823bba9d90eabbfee7791ce2526e753669cc972a7cd",
+          "original_proposal": {
+            "variable_id": "programmatic-renewal__positive",
+            "status": "observed",
+            "value": 2,
+            "confidence": 0.7,
+            "support_type": "positive_manifestation",
+            "rationale": "В 2023 году Акаманзи внесла в парламент законопроект об изменении полномочий и автономии RDB, аргументируя необходимостью большей гибкости для выполнения мандата (evidence_index: 17). Это явное предложение изменить действующие правила и институциональные приоритеты, хотя речь идёт о конкретном ведомстве, а не о полном курсе развития страны. Подтверждается также одобрением изменений (evidence_index: 18).",
+            "evidence_indices": [
+              17,
+              18
+            ]
+          }
+        },
+        "evidence_file": "evidence/independent-dossier-clare-akamanzi.json",
+        "evidence_basis": "d5e26f8792885994d6e89e01887c0a8b42882690c3f998e86b1a8376786049a3"
+      },
+      "negative": {
+        "status": "observed",
+        "value": 3,
+        "confidence": 0.8,
+        "evidence_indices": [
+          4,
+          6,
+          15,
+          24,
+          28
+        ],
+        "source_urls": [
+          "https://pr.nba.com/clare-akamanzi-ceo-nba-africa/",
+          "https://leoafricainstitute.org/news/clare-akamanzi-chief-executive-officer-of-nba-afri",
+          "https://www.africa-press.net/rwanda/sport/akamanzi-on-sports-leadership-and-breaking-boundaries"
+        ],
+        "event_ids": [
+          "akamanzi-nba-africa-growth-vision-2023",
+          "akamanzi-2024-12-17-development-pillars",
+          "akamanzi-2025-08-18-sports-leadership",
+          "akamanzi-2024-12-17-institutions"
+        ],
+        "rationale": "В ряде публичных заявлений (evidence_indices: 4, 6, 24) Акаманзи подчёркивала намерение развивать уже созданную динамику (NBA Africa), а также продолжение действующей линии в спортивно-деловой сфере. В программной речи 2024 года поддержала действующую модель развития Руанды (evidence_index: 15, 28).",
+        "support_type": "positive_manifestation",
+        "provenance": {
+          "raw_response_file": "evidence/independent_responses/d6c13bd24b73856da3829823bba9d90eabbfee7791ce2526e753669cc972a7cd.json",
+          "model": "gpt-4.1",
+          "at": "2026-10-15T17:30:51.657153+00:00",
+          "cache_key": "d6c13bd24b73856da3829823bba9d90eabbfee7791ce2526e753669cc972a7cd",
+          "original_proposal": {
+            "variable_id": "programmatic-renewal__negative",
+            "status": "observed",
+            "value": 3,
+            "confidence": 0.8,
+            "support_type": "positive_manifestation",
+            "rationale": "В ряде публичных заявлений (evidence_indices: 4, 6, 24) Акаманзи подчёркивала намерение развивать уже созданную динамику (NBA Africa), а также продолжение действующей линии в спортивно-деловой сфере. В программной речи 2024 года поддержала действующую модель развития Руанды (evidence_index: 15, 28).",
+            "evidence_indices": [
+              4,
+              6,
+              15,
+              24,
+              28
+            ]
+          }
+        },
+        "evidence_file": "evidence/independent-dossier-clare-akamanzi.json",
+        "evidence_basis": "d5e26f8792885994d6e89e01887c0a8b42882690c3f998e86b1a8376786049a3"
+      }
+    },
+    "positive": 2,
+    "negative": 3,
+    "value": null,
+    "status": "observed",
+    "difference": null,
+    "mass": null,
+    "measurement_model": "independent_poles",
+    "evidence_file": "evidence/independent-dossier-clare-akamanzi.json",
+    "evidence_basis": "d5e26f8792885994d6e89e01887c0a8b42882690c3f998e86b1a8376786049a3",
+    "at": "2026-10-15T17:31:00.725653+00:00",
+    "reason": "Каждое свойство оценивается независимо; разность и искусственное дополнение до пяти не вычисляются"
+  },
+  {
+    "object_id": "clare-akamanzi",
+    "scale_id": "government-course-assessment",
+    "pole_scores": {
+      "positive": {
+        "status": "observed",
+        "value": 3,
+        "confidence": 0.8,
+        "evidence_indices": [
+          15,
+          27,
+          28,
+          29
+        ],
+        "source_urls": [
+          "https://leoafricainstitute.org/news/clare-akamanzi-chief-executive-officer-of-nba-afri"
+        ],
+        "event_ids": [
+          "akamanzi-2024-12-17-development-pillars",
+          "akamanzi-2024-12-17-human-capital",
+          "akamanzi-2024-12-17-institutions",
+          "akamanzi-2024-12-17-visionary-leadership"
+        ],
+        "rationale": "В программной речи 2024 года Акаманзи выделила дальновидное лидерство, сильные институты и инвестиции в человеческий капитал как опоры развития Руанды, представляя это как урок для других стран (evidence_index: 15, 27, 28, 29). Это поддержка действующего государственного курса и его достижений.",
+        "support_type": "positive_manifestation",
+        "provenance": {
+          "raw_response_file": "evidence/independent_responses/d6c13bd24b73856da3829823bba9d90eabbfee7791ce2526e753669cc972a7cd.json",
+          "model": "gpt-4.1",
+          "at": "2026-10-15T17:30:51.657153+00:00",
+          "cache_key": "d6c13bd24b73856da3829823bba9d90eabbfee7791ce2526e753669cc972a7cd",
+          "original_proposal": {
+            "variable_id": "government-course-assessment__positive",
+            "status": "observed",
+            "value": 3,
+            "confidence": 0.8,
+            "support_type": "positive_manifestation",
+            "rationale": "В программной речи 2024 года Акаманзи выделила дальновидное лидерство, сильные институты и инвестиции в человеческий капитал как опоры развития Руанды, представляя это как урок для других стран (evidence_index: 15, 27, 28, 29). Это поддержка действующего государственного курса и его достижений.",
+            "evidence_indices": [
+              15,
+              27,
+              28,
+              29
+            ]
+          }
+        },
+        "evidence_file": "evidence/independent-dossier-clare-akamanzi.json",
+        "evidence_basis": "d5e26f8792885994d6e89e01887c0a8b42882690c3f998e86b1a8376786049a3"
+      },
+      "negative": {
+        "status": "unknown",
+        "value": null,
+        "confidence": 0,
+        "evidence_indices": [],
+        "source_urls": [],
+        "event_ids": [],
+        "rationale": "Нет фактов, подтверждающих публичную критику действующего государственного курса или его институтов.",
+        "support_type": "unknown",
+        "provenance": {
+          "raw_response_file": "evidence/independent_responses/d6c13bd24b73856da3829823bba9d90eabbfee7791ce2526e753669cc972a7cd.json",
+          "model": "gpt-4.1",
+          "at": "2026-10-15T17:30:51.657153+00:00",
+          "cache_key": "d6c13bd24b73856da3829823bba9d90eabbfee7791ce2526e753669cc972a7cd",
+          "original_proposal": {
+            "variable_id": "government-course-assessment__negative",
+            "status": "unknown",
+            "value": null,
+            "confidence": 0.5,
+            "support_type": "unknown",
+            "rationale": "Нет фактов, подтверждающих публичную критику действующего государственного курса или его институтов.",
+            "evidence_indices": []
+          }
+        },
+        "evidence_file": "evidence/independent-dossier-clare-akamanzi.json",
+        "evidence_basis": "d5e26f8792885994d6e89e01887c0a8b42882690c3f998e86b1a8376786049a3"
+      }
+    },
+    "positive": 3,
+    "negative": null,
+    "value": null,
+    "status": "partial",
+    "difference": null,
+    "mass": null,
+    "measurement_model": "independent_poles",
+    "evidence_file": "evidence/independent-dossier-clare-akamanzi.json",
+    "evidence_basis": "d5e26f8792885994d6e89e01887c0a8b42882690c3f998e86b1a8376786049a3",
+    "at": "2026-10-15T17:31:00.725653+00:00",
+    "reason": "Каждое свойство оценивается независимо; разность и искусственное дополнение до пяти не вычисляются"
+  },
+  {
+    "object_id": "clare-akamanzi",
+    "scale_id": "participation-administrative-direction",
+    "pole_scores": {
+      "positive": {
+        "status": "observed",
+        "value": 2,
+        "confidence": 0.7,
+        "evidence_indices": [
+          9
+        ],
+        "source_urls": [
+          "https://www.africa-press.net/rwanda/sport/akamanzi-on-sports-leadership-and-breaking-boundaries"
+        ],
+        "event_ids": [
+          "akamanzi-sports-leadership-2025"
+        ],
+        "rationale": "В интервью 2025 года Акаманзи описала подход NBA Africa как приглашение за один стол организаций развития, финансовых учреждений, частного сектора, правительств и международных организаций (evidence_index: 9). Это согласовательный межсекторный механизм, хотя не доказывает широкое вовлечение граждан.",
+        "support_type": "positive_manifestation",
+        "provenance": {
+          "raw_response_file": "evidence/independent_responses/d6c13bd24b73856da3829823bba9d90eabbfee7791ce2526e753669cc972a7cd.json",
+          "model": "gpt-4.1",
+          "at": "2026-10-15T17:30:51.657153+00:00",
+          "cache_key": "d6c13bd24b73856da3829823bba9d90eabbfee7791ce2526e753669cc972a7cd",
+          "original_proposal": {
+            "variable_id": "participation-administrative-direction__positive",
+            "status": "observed",
+            "value": 2,
+            "confidence": 0.7,
+            "support_type": "positive_manifestation",
+            "rationale": "В интервью 2025 года Акаманзи описала подход NBA Africa как приглашение за один стол организаций развития, финансовых учреждений, частного сектора, правительств и международных организаций (evidence_index: 9). Это согласовательный межсекторный механизм, хотя не доказывает широкое вовлечение граждан.",
+            "evidence_indices": [
+              9
+            ]
+          }
+        },
+        "evidence_file": "evidence/independent-dossier-clare-akamanzi.json",
+        "evidence_basis": "d5e26f8792885994d6e89e01887c0a8b42882690c3f998e86b1a8376786049a3"
+      },
+      "negative": {
+        "status": "observed",
+        "value": 2,
+        "confidence": 0.7,
+        "evidence_indices": [
+          8,
+          19
+        ],
+        "source_urls": [
+          "https://www.africa-press.net/rwanda/sport/akamanzi-on-sports-leadership-and-breaking-boundaries",
+          "https://www.ktpress.rw/2023/10/rwanda-parliament-approves-major-changes-in-law-governing-rdb/"
+        ],
+        "event_ids": [
+          "akamanzi-sports-leadership-2025",
+          "akamanzi-2023-10-10-rdb-law-publication"
+        ],
+        "rationale": "В ряде эпизодов (evidence_indices: 8, 19) фиксируется управленческая постановка задач (например, цель построить 1 000 площадок, административная автономия RDB при сохранении президентского надзора). Это проявление административного контроля и единой линии.",
+        "support_type": "positive_manifestation",
+        "provenance": {
+          "raw_response_file": "evidence/independent_responses/d6c13bd24b73856da3829823bba9d90eabbfee7791ce2526e753669cc972a7cd.json",
+          "model": "gpt-4.1",
+          "at": "2026-10-15T17:30:51.657153+00:00",
+          "cache_key": "d6c13bd24b73856da3829823bba9d90eabbfee7791ce2526e753669cc972a7cd",
+          "original_proposal": {
+            "variable_id": "participation-administrative-direction__negative",
+            "status": "observed",
+            "value": 2,
+            "confidence": 0.7,
+            "support_type": "positive_manifestation",
+            "rationale": "В ряде эпизодов (evidence_indices: 8, 19) фиксируется управленческая постановка задач (например, цель построить 1 000 площадок, административная автономия RDB при сохранении президентского надзора). Это проявление административного контроля и единой линии.",
+            "evidence_indices": [
+              8,
+              19
+            ]
+          }
+        },
+        "evidence_file": "evidence/independent-dossier-clare-akamanzi.json",
+        "evidence_basis": "d5e26f8792885994d6e89e01887c0a8b42882690c3f998e86b1a8376786049a3"
+      }
+    },
+    "positive": 2,
+    "negative": 2,
+    "value": null,
+    "status": "observed",
+    "difference": null,
+    "mass": null,
+    "measurement_model": "independent_poles",
+    "evidence_file": "evidence/independent-dossier-clare-akamanzi.json",
+    "evidence_basis": "d5e26f8792885994d6e89e01887c0a8b42882690c3f998e86b1a8376786049a3",
+    "at": "2026-10-15T17:31:00.725653+00:00",
+    "reason": "Каждое свойство оценивается независимо; разность и искусственное дополнение до пяти не вычисляются"
+  },
+  {
+    "object_id": "clare-akamanzi",
+    "scale_id": "argumentation-evidence-values",
+    "pole_scores": {
+      "positive": {
+        "status": "observed",
+        "value": 3,
+        "confidence": 0.8,
+        "evidence_indices": [
+          0,
+          7,
+          11
+        ],
+        "source_urls": [
+          "https://rdb.rw/rdb-records-highest-investment-registration-amid-covid-19-pandemic/",
+          "https://www.espn.com/espn/story/_/id/45542530/nba-africa-boss-clare-akamanzi-hails-bal-growth-numbers-value-africa",
+          "https://theflip.africa/podcast/afrobeats-basketball-commerce"
+        ],
+        "event_ids": [
+          "akamanzi-rdb-investment-results-2021",
+          "akamanzi-bal-growth-2025",
+          "akamanzi-2024-03-28-sports-economic-development"
+        ],
+        "rationale": "Акаманзи регулярно использует данные и измеримые результаты в публичной аргументации (evidence_indices: 0, 7, 11). Примеры: ссылки на рост инвестиций, показатели BAL, экономические результаты спортивных мероприятий.",
+        "support_type": "positive_manifestation",
+        "provenance": {
+          "raw_response_file": "evidence/independent_responses/d6c13bd24b73856da3829823bba9d90eabbfee7791ce2526e753669cc972a7cd.json",
+          "model": "gpt-4.1",
+          "at": "2026-10-15T17:30:51.657153+00:00",
+          "cache_key": "d6c13bd24b73856da3829823bba9d90eabbfee7791ce2526e753669cc972a7cd",
+          "original_proposal": {
+            "variable_id": "argumentation-evidence-values__positive",
+            "status": "observed",
+            "value": 3,
+            "confidence": 0.8,
+            "support_type": "positive_manifestation",
+            "rationale": "Акаманзи регулярно использует данные и измеримые результаты в публичной аргументации (evidence_indices: 0, 7, 11). Примеры: ссылки на рост инвестиций, показатели BAL, экономические результаты спортивных мероприятий.",
+            "evidence_indices": [
+              0,
+              7,
+              11
+            ]
+          }
+        },
+        "evidence_file": "evidence/independent-dossier-clare-akamanzi.json",
+        "evidence_basis": "d5e26f8792885994d6e89e01887c0a8b42882690c3f998e86b1a8376786049a3"
+      },
+      "negative": {
+        "status": "observed",
+        "value": 2,
+        "confidence": 0.7,
+        "evidence_indices": [
+          29
+        ],
+        "source_urls": [
+          "https://leoafricainstitute.org/news/clare-akamanzi-chief-executive-officer-of-nba-afri"
+        ],
+        "event_ids": [
+          "akamanzi-2024-12-17-visionary-leadership"
+        ],
+        "rationale": "В программной речи 2024 года присутствует содержательный призыв к ценностям: дальновидное лидерство как элемент развития, нормативная поддержка управленческой модели (evidence_index: 29).",
+        "support_type": "positive_manifestation",
+        "provenance": {
+          "raw_response_file": "evidence/independent_responses/d6c13bd24b73856da3829823bba9d90eabbfee7791ce2526e753669cc972a7cd.json",
+          "model": "gpt-4.1",
+          "at": "2026-10-15T17:30:51.657153+00:00",
+          "cache_key": "d6c13bd24b73856da3829823bba9d90eabbfee7791ce2526e753669cc972a7cd",
+          "original_proposal": {
+            "variable_id": "argumentation-evidence-values__negative",
+            "status": "observed",
+            "value": 2,
+            "confidence": 0.7,
+            "support_type": "positive_manifestation",
+            "rationale": "В программной речи 2024 года присутствует содержательный призыв к ценностям: дальновидное лидерство как элемент развития, нормативная поддержка управленческой модели (evidence_index: 29).",
+            "evidence_indices": [
+              29
+            ]
+          }
+        },
+        "evidence_file": "evidence/independent-dossier-clare-akamanzi.json",
+        "evidence_basis": "d5e26f8792885994d6e89e01887c0a8b42882690c3f998e86b1a8376786049a3"
+      }
+    },
+    "positive": 3,
+    "negative": 2,
+    "value": null,
+    "status": "observed",
+    "difference": null,
+    "mass": null,
+    "measurement_model": "independent_poles",
+    "evidence_file": "evidence/independent-dossier-clare-akamanzi.json",
+    "evidence_basis": "d5e26f8792885994d6e89e01887c0a8b42882690c3f998e86b1a8376786049a3",
+    "at": "2026-10-15T17:31:00.725653+00:00",
+    "reason": "Каждое свойство оценивается независимо; разность и искусственное дополнение до пяти не вычисляются"
+  },
+  {
+    "object_id": "clare-akamanzi",
+    "scale_id": "market-state-instruments",
+    "pole_scores": {
+      "positive": {
+        "status": "observed",
+        "value": 3,
+        "confidence": 0.8,
+        "evidence_indices": [
+          1,
+          12,
+          22
+        ],
+        "source_urls": [
+          "https://www.rwandainuae.gov.rw/actualites/info-details/rwanda-private-sector-taps-into-investment-and-trade-opportunities-at-uae-rwanda-business-forum-2023",
+          "https://african.business/2024/04/technology-information/nba-launches-startup-accelerator-in-africa"
+        ],
+        "event_ids": [
+          "akamanzi-uae-rwanda-business-forum-2023",
+          "akamanzi-2024-04-26-startup-accelerator",
+          "akamanzi-2024-04-26-african-startup-talent"
+        ],
+        "rationale": "Акаманзи последовательно продвигает расширение частной инициативы: поддержка стартапов, инвестиции, предпринимательство, благоприятное регулирование для инвесторов (evidence_indices: 1, 12, 22).",
+        "support_type": "positive_manifestation",
+        "provenance": {
+          "raw_response_file": "evidence/independent_responses/d6c13bd24b73856da3829823bba9d90eabbfee7791ce2526e753669cc972a7cd.json",
+          "model": "gpt-4.1",
+          "at": "2026-10-15T17:30:51.657153+00:00",
+          "cache_key": "d6c13bd24b73856da3829823bba9d90eabbfee7791ce2526e753669cc972a7cd",
+          "original_proposal": {
+            "variable_id": "market-state-instruments__positive",
+            "status": "observed",
+            "value": 3,
+            "confidence": 0.8,
+            "support_type": "positive_manifestation",
+            "rationale": "Акаманзи последовательно продвигает расширение частной инициативы: поддержка стартапов, инвестиции, предпринимательство, благоприятное регулирование для инвесторов (evidence_indices: 1, 12, 22).",
+            "evidence_indices": [
+              1,
+              12,
+              22
+            ]
+          }
+        },
+        "evidence_file": "evidence/independent-dossier-clare-akamanzi.json",
+        "evidence_basis": "d5e26f8792885994d6e89e01887c0a8b42882690c3f998e86b1a8376786049a3"
+      },
+      "negative": {
+        "status": "observed",
+        "value": 1,
+        "confidence": 0.6,
+        "evidence_indices": [
+          18,
+          19
+        ],
+        "source_urls": [
+          "https://www.ktpress.rw/2023/10/rwanda-parliament-approves-major-changes-in-law-governing-rdb/"
+        ],
+        "event_ids": [
+          "akamanzi-2023-10-09-rdb-law-approval",
+          "akamanzi-2023-10-10-rdb-law-publication"
+        ],
+        "rationale": "В эпизодах с изменением статуса RDB (evidence_indices: 18, 19) отмечается сохранение государственного надзора и административной автономии, что указывает на элементы государственного контроля, но не на расширение обязательного планирования.",
+        "support_type": "positive_manifestation",
+        "provenance": {
+          "raw_response_file": "evidence/independent_responses/d6c13bd24b73856da3829823bba9d90eabbfee7791ce2526e753669cc972a7cd.json",
+          "model": "gpt-4.1",
+          "at": "2026-10-15T17:30:51.657153+00:00",
+          "cache_key": "d6c13bd24b73856da3829823bba9d90eabbfee7791ce2526e753669cc972a7cd",
+          "original_proposal": {
+            "variable_id": "market-state-instruments__negative",
+            "status": "observed",
+            "value": 1,
+            "confidence": 0.6,
+            "support_type": "positive_manifestation",
+            "rationale": "В эпизодах с изменением статуса RDB (evidence_indices: 18, 19) отмечается сохранение государственного надзора и административной автономии, что указывает на элементы государственного контроля, но не на расширение обязательного планирования.",
+            "evidence_indices": [
+              18,
+              19
+            ]
+          }
+        },
+        "evidence_file": "evidence/independent-dossier-clare-akamanzi.json",
+        "evidence_basis": "d5e26f8792885994d6e89e01887c0a8b42882690c3f998e86b1a8376786049a3"
+      }
+    },
+    "positive": 3,
+    "negative": 1,
+    "value": null,
+    "status": "observed",
+    "difference": null,
+    "mass": null,
+    "measurement_model": "independent_poles",
+    "evidence_file": "evidence/independent-dossier-clare-akamanzi.json",
+    "evidence_basis": "d5e26f8792885994d6e89e01887c0a8b42882690c3f998e86b1a8376786049a3",
+    "at": "2026-10-15T17:31:00.725653+00:00",
+    "reason": "Каждое свойство оценивается независимо; разность и искусственное дополнение до пяти не вычисляются"
+  },
+  {
+    "object_id": "clare-akamanzi",
+    "scale_id": "accessibility-growth-priorities",
+    "pole_scores": {
+      "positive": {
+        "status": "observed",
+        "value": 2,
+        "confidence": 0.7,
+        "evidence_indices": [
+          8,
+          10,
+          21
+        ],
+        "source_urls": [
+          "https://www.africa-press.net/rwanda/sport/akamanzi-on-sports-leadership-and-breaking-boundaries",
+          "https://theflip.africa/podcast/afrobeats-basketball-commerce"
+        ],
+        "event_ids": [
+          "akamanzi-sports-leadership-2025",
+          "akamanzi-2024-03-28-grassroots-programs",
+          "akamanzi-2024-03-28-junior-nba-skills"
+        ],
+        "rationale": "Акаманзи заявляла о необходимости спортивных программ в школах, развитии инфраструктуры, программах для детей (evidence_indices: 8, 10, 21). Это расширение доступа к возможностям, но не универсальное обеспечение базовых благ.",
+        "support_type": "positive_manifestation",
+        "provenance": {
+          "raw_response_file": "evidence/independent_responses/d6c13bd24b73856da3829823bba9d90eabbfee7791ce2526e753669cc972a7cd.json",
+          "model": "gpt-4.1",
+          "at": "2026-10-15T17:30:51.657153+00:00",
+          "cache_key": "d6c13bd24b73856da3829823bba9d90eabbfee7791ce2526e753669cc972a7cd",
+          "original_proposal": {
+            "variable_id": "accessibility-growth-priorities__positive",
+            "status": "observed",
+            "value": 2,
+            "confidence": 0.7,
+            "support_type": "positive_manifestation",
+            "rationale": "Акаманзи заявляла о необходимости спортивных программ в школах, развитии инфраструктуры, программах для детей (evidence_indices: 8, 10, 21). Это расширение доступа к возможностям, но не универсальное обеспечение базовых благ.",
+            "evidence_indices": [
+              8,
+              10,
+              21
+            ]
+          }
+        },
+        "evidence_file": "evidence/independent-dossier-clare-akamanzi.json",
+        "evidence_basis": "d5e26f8792885994d6e89e01887c0a8b42882690c3f998e86b1a8376786049a3"
+      },
+      "negative": {
+        "status": "observed",
+        "value": 3,
+        "confidence": 0.8,
+        "evidence_indices": [
+          0,
+          1,
+          7,
+          11,
+          12
+        ],
+        "source_urls": [
+          "https://rdb.rw/rdb-records-highest-investment-registration-amid-covid-19-pandemic/",
+          "https://www.rwandainuae.gov.rw/actualites/info-details/rwanda-private-sector-taps-into-investment-and-trade-opportunities-at-uae-rwanda-business-forum-2023",
+          "https://www.espn.com/espn/story/_/id/45542530/nba-africa-boss-clare-akamanzi-hails-bal-growth-numbers-value-africa",
+          "https://theflip.africa/podcast/afrobeats-basketball-commerce",
+          "https://african.business/2024/04/technology-information/nba-launches-startup-accelerator-in-africa"
+        ],
+        "event_ids": [
+          "akamanzi-rdb-investment-results-2021",
+          "akamanzi-uae-rwanda-business-forum-2023",
+          "akamanzi-bal-growth-2025",
+          "akamanzi-2024-03-28-sports-economic-development",
+          "akamanzi-2024-04-26-startup-accelerator"
+        ],
+        "rationale": "В ряде эпизодов (evidence_indices: 0, 1, 7, 11, 12) акцент на росте инвестиций, конкурентоспособности, поддержке предпринимательства и экспорта.",
+        "support_type": "positive_manifestation",
+        "provenance": {
+          "raw_response_file": "evidence/independent_responses/d6c13bd24b73856da3829823bba9d90eabbfee7791ce2526e753669cc972a7cd.json",
+          "model": "gpt-4.1",
+          "at": "2026-10-15T17:30:51.657153+00:00",
+          "cache_key": "d6c13bd24b73856da3829823bba9d90eabbfee7791ce2526e753669cc972a7cd",
+          "original_proposal": {
+            "variable_id": "accessibility-growth-priorities__negative",
+            "status": "observed",
+            "value": 3,
+            "confidence": 0.8,
+            "support_type": "positive_manifestation",
+            "rationale": "В ряде эпизодов (evidence_indices: 0, 1, 7, 11, 12) акцент на росте инвестиций, конкурентоспособности, поддержке предпринимательства и экспорта.",
+            "evidence_indices": [
+              0,
+              1,
+              7,
+              11,
+              12
+            ]
+          }
+        },
+        "evidence_file": "evidence/independent-dossier-clare-akamanzi.json",
+        "evidence_basis": "d5e26f8792885994d6e89e01887c0a8b42882690c3f998e86b1a8376786049a3"
+      }
+    },
+    "positive": 2,
+    "negative": 3,
+    "value": null,
+    "status": "observed",
+    "difference": null,
+    "mass": null,
+    "measurement_model": "independent_poles",
+    "evidence_file": "evidence/independent-dossier-clare-akamanzi.json",
+    "evidence_basis": "d5e26f8792885994d6e89e01887c0a8b42882690c3f998e86b1a8376786049a3",
+    "at": "2026-10-15T17:31:00.725653+00:00",
+    "reason": "Каждое свойство оценивается независимо; разность и искусственное дополнение до пяти не вычисляются"
+  },
+  {
+    "object_id": "clare-akamanzi",
+    "scale_id": "external-domestic-resources",
+    "pole_scores": {
+      "positive": {
+        "status": "observed",
+        "value": 3,
+        "confidence": 0.8,
+        "evidence_indices": [
+          0,
+          1,
+          5,
+          20
+        ],
+        "source_urls": [
+          "https://rdb.rw/rdb-records-highest-investment-registration-amid-covid-19-pandemic/",
+          "https://www.rwandainuae.gov.rw/actualites/info-details/rwanda-private-sector-taps-into-investment-and-trade-opportunities-at-uae-rwanda-business-forum-2023",
+          "https://www.ktpress.rw/2023/12/what-lies-ahead-of-clare-akamanzi-at-nba-africa/",
+          "https://theflip.africa/podcast/afrobeats-basketball-commerce"
+        ],
+        "event_ids": [
+          "akamanzi-rdb-investment-results-2021",
+          "akamanzi-uae-rwanda-business-forum-2023",
+          "akamanzi-rdb-investment-tourism-profile-2023",
+          "akamanzi-2024-10-06-africa-global-culture-commerce"
+        ],
+        "rationale": "Акаманзи подчёркивала привлечение иностранных инвестиций, международных партнёров, создание платформ для торговли и инвестиций (evidence_indices: 0, 1, 5, 20).",
+        "support_type": "positive_manifestation",
+        "provenance": {
+          "raw_response_file": "evidence/independent_responses/d6c13bd24b73856da3829823bba9d90eabbfee7791ce2526e753669cc972a7cd.json",
+          "model": "gpt-4.1",
+          "at": "2026-10-15T17:30:51.657153+00:00",
+          "cache_key": "d6c13bd24b73856da3829823bba9d90eabbfee7791ce2526e753669cc972a7cd",
+          "original_proposal": {
+            "variable_id": "external-domestic-resources__positive",
+            "status": "observed",
+            "value": 3,
+            "confidence": 0.8,
+            "support_type": "positive_manifestation",
+            "rationale": "Акаманзи подчёркивала привлечение иностранных инвестиций, международных партнёров, создание платформ для торговли и инвестиций (evidence_indices: 0, 1, 5, 20).",
+            "evidence_indices": [
+              0,
+              1,
+              5,
+              20
+            ]
+          }
+        },
+        "evidence_file": "evidence/independent-dossier-clare-akamanzi.json",
+        "evidence_basis": "d5e26f8792885994d6e89e01887c0a8b42882690c3f998e86b1a8376786049a3"
+      },
+      "negative": {
+        "status": "observed",
+        "value": 1,
+        "confidence": 0.6,
+        "evidence_indices": [
+          5
+        ],
+        "source_urls": [
+          "https://www.ktpress.rw/2023/12/what-lies-ahead-of-clare-akamanzi-at-nba-africa/"
+        ],
+        "event_ids": [
+          "akamanzi-rdb-investment-tourism-profile-2023"
+        ],
+        "rationale": "В публичном профиле работы в RDB отмечено развитие внутренних инвестиций (evidence_index: 5), однако явной стратегии опоры на внутренние доходы или снижения зависимости от внешних поступлений не выявлено.",
+        "support_type": "positive_manifestation",
+        "provenance": {
+          "raw_response_file": "evidence/independent_responses/d6c13bd24b73856da3829823bba9d90eabbfee7791ce2526e753669cc972a7cd.json",
+          "model": "gpt-4.1",
+          "at": "2026-10-15T17:30:51.657153+00:00",
+          "cache_key": "d6c13bd24b73856da3829823bba9d90eabbfee7791ce2526e753669cc972a7cd",
+          "original_proposal": {
+            "variable_id": "external-domestic-resources__negative",
+            "status": "observed",
+            "value": 1,
+            "confidence": 0.6,
+            "support_type": "positive_manifestation",
+            "rationale": "В публичном профиле работы в RDB отмечено развитие внутренних инвестиций (evidence_index: 5), однако явной стратегии опоры на внутренние доходы или снижения зависимости от внешних поступлений не выявлено.",
+            "evidence_indices": [
+              5
+            ]
+          }
+        },
+        "evidence_file": "evidence/independent-dossier-clare-akamanzi.json",
+        "evidence_basis": "d5e26f8792885994d6e89e01887c0a8b42882690c3f998e86b1a8376786049a3"
+      }
+    },
+    "positive": 3,
+    "negative": 1,
+    "value": null,
+    "status": "observed",
+    "difference": null,
+    "mass": null,
+    "measurement_model": "independent_poles",
+    "evidence_file": "evidence/independent-dossier-clare-akamanzi.json",
+    "evidence_basis": "d5e26f8792885994d6e89e01887c0a8b42882690c3f998e86b1a8376786049a3",
+    "at": "2026-10-15T17:31:00.725653+00:00",
+    "reason": "Каждое свойство оценивается независимо; разность и искусственное дополнение до пяти не вычисляются"
+  },
+  {
+    "object_id": "clare-akamanzi",
+    "scale_id": "international-rules-autonomy",
+    "pole_scores": {
+      "positive": {
+        "status": "observed",
+        "value": 2,
+        "confidence": 0.7,
+        "evidence_indices": [
+          1,
+          20
+        ],
+        "source_urls": [
+          "https://www.rwandainuae.gov.rw/actualites/info-details/rwanda-private-sector-taps-into-investment-and-trade-opportunities-at-uae-rwanda-business-forum-2023",
+          "https://theflip.africa/podcast/afrobeats-basketball-commerce"
+        ],
+        "event_ids": [
+          "akamanzi-uae-rwanda-business-forum-2023",
+          "akamanzi-2024-10-06-africa-global-culture-commerce"
+        ],
+        "rationale": "В ряде эпизодов (evidence_indices: 1, 20) Акаманзи аргументировала в пользу международного обмена, интеграции и деловой кооперации, что указывает на поддержку общих международных механизмов.",
+        "support_type": "positive_manifestation",
+        "provenance": {
+          "raw_response_file": "evidence/independent_responses/d6c13bd24b73856da3829823bba9d90eabbfee7791ce2526e753669cc972a7cd.json",
+          "model": "gpt-4.1",
+          "at": "2026-10-15T17:30:51.657153+00:00",
+          "cache_key": "d6c13bd24b73856da3829823bba9d90eabbfee7791ce2526e753669cc972a7cd",
+          "original_proposal": {
+            "variable_id": "international-rules-autonomy__positive",
+            "status": "observed",
+            "value": 2,
+            "confidence": 0.7,
+            "support_type": "positive_manifestation",
+            "rationale": "В ряде эпизодов (evidence_indices: 1, 20) Акаманзи аргументировала в пользу международного обмена, интеграции и деловой кооперации, что указывает на поддержку общих международных механизмов.",
+            "evidence_indices": [
+              1,
+              20
+            ]
+          }
+        },
+        "evidence_file": "evidence/independent-dossier-clare-akamanzi.json",
+        "evidence_basis": "d5e26f8792885994d6e89e01887c0a8b42882690c3f998e86b1a8376786049a3"
+      },
+      "negative": {
+        "status": "unknown",
+        "value": null,
+        "confidence": 0,
+        "evidence_indices": [],
+        "source_urls": [],
+        "event_ids": [],
+        "rationale": "Нет фактов, подтверждающих защиту национальной самостоятельности решений или возражение против международных обязательств.",
+        "support_type": "unknown",
+        "provenance": {
+          "raw_response_file": "evidence/independent_responses/d6c13bd24b73856da3829823bba9d90eabbfee7791ce2526e753669cc972a7cd.json",
+          "model": "gpt-4.1",
+          "at": "2026-10-15T17:30:51.657153+00:00",
+          "cache_key": "d6c13bd24b73856da3829823bba9d90eabbfee7791ce2526e753669cc972a7cd",
+          "original_proposal": {
+            "variable_id": "international-rules-autonomy__negative",
+            "status": "unknown",
+            "value": null,
+            "confidence": 0.5,
+            "support_type": "unknown",
+            "rationale": "Нет фактов, подтверждающих защиту национальной самостоятельности решений или возражение против международных обязательств.",
+            "evidence_indices": []
+          }
+        },
+        "evidence_file": "evidence/independent-dossier-clare-akamanzi.json",
+        "evidence_basis": "d5e26f8792885994d6e89e01887c0a8b42882690c3f998e86b1a8376786049a3"
+      }
+    },
+    "positive": 2,
+    "negative": null,
+    "value": null,
+    "status": "partial",
+    "difference": null,
+    "mass": null,
+    "measurement_model": "independent_poles",
+    "evidence_file": "evidence/independent-dossier-clare-akamanzi.json",
+    "evidence_basis": "d5e26f8792885994d6e89e01887c0a8b42882690c3f998e86b1a8376786049a3",
+    "at": "2026-10-15T17:31:00.725653+00:00",
+    "reason": "Каждое свойство оценивается независимо; разность и искусственное дополнение до пяти не вычисляются"
+  },
+  {
+    "object_id": "clare-akamanzi",
+    "scale_id": "mediation-adversarial-communication",
+    "pole_scores": {
+      "positive": {
+        "status": "observed",
+        "value": 2,
+        "confidence": 0.7,
+        "evidence_indices": [
+          9
+        ],
+        "source_urls": [
+          "https://www.africa-press.net/rwanda/sport/akamanzi-on-sports-leadership-and-breaking-boundaries"
+        ],
+        "event_ids": [
+          "akamanzi-sports-leadership-2025"
+        ],
+        "rationale": "В интервью 2025 года Акаманзи описала подход NBA Africa как согласовательный межсекторный механизм (evidence_index: 9), что свидетельствует о поиске согласования интересов различных сторон.",
+        "support_type": "positive_manifestation",
+        "provenance": {
+          "raw_response_file": "evidence/independent_responses/d6c13bd24b73856da3829823bba9d90eabbfee7791ce2526e753669cc972a7cd.json",
+          "model": "gpt-4.1",
+          "at": "2026-10-15T17:30:51.657153+00:00",
+          "cache_key": "d6c13bd24b73856da3829823bba9d90eabbfee7791ce2526e753669cc972a7cd",
+          "original_proposal": {
+            "variable_id": "mediation-adversarial-communication__positive",
+            "status": "observed",
+            "value": 2,
+            "confidence": 0.7,
+            "support_type": "positive_manifestation",
+            "rationale": "В интервью 2025 года Акаманзи описала подход NBA Africa как согласовательный межсекторный механизм (evidence_index: 9), что свидетельствует о поиске согласования интересов различных сторон.",
+            "evidence_indices": [
+              9
+            ]
+          }
+        },
+        "evidence_file": "evidence/independent-dossier-clare-akamanzi.json",
+        "evidence_basis": "d5e26f8792885994d6e89e01887c0a8b42882690c3f998e86b1a8376786049a3"
+      },
+      "negative": {
+        "status": "unknown",
+        "value": null,
+        "confidence": 0,
+        "evidence_indices": [],
+        "source_urls": [],
+        "event_ids": [],
+        "rationale": "Нет фактов, подтверждающих публичное опровержение обвинений, спор с другой стороной или защиту собственного требования в полемической форме.",
+        "support_type": "unknown",
+        "provenance": {
+          "raw_response_file": "evidence/independent_responses/d6c13bd24b73856da3829823bba9d90eabbfee7791ce2526e753669cc972a7cd.json",
+          "model": "gpt-4.1",
+          "at": "2026-10-15T17:30:51.657153+00:00",
+          "cache_key": "d6c13bd24b73856da3829823bba9d90eabbfee7791ce2526e753669cc972a7cd",
+          "original_proposal": {
+            "variable_id": "mediation-adversarial-communication__negative",
+            "status": "unknown",
+            "value": null,
+            "confidence": 0.5,
+            "support_type": "unknown",
+            "rationale": "Нет фактов, подтверждающих публичное опровержение обвинений, спор с другой стороной или защиту собственного требования в полемической форме.",
+            "evidence_indices": []
+          }
+        },
+        "evidence_file": "evidence/independent-dossier-clare-akamanzi.json",
+        "evidence_basis": "d5e26f8792885994d6e89e01887c0a8b42882690c3f998e86b1a8376786049a3"
+      }
+    },
+    "positive": 2,
+    "negative": null,
+    "value": null,
+    "status": "partial",
+    "difference": null,
+    "mass": null,
+    "measurement_model": "independent_poles",
+    "evidence_file": "evidence/independent-dossier-clare-akamanzi.json",
+    "evidence_basis": "d5e26f8792885994d6e89e01887c0a8b42882690c3f998e86b1a8376786049a3",
+    "at": "2026-10-15T17:31:00.725653+00:00",
+    "reason": "Каждое свойство оценивается независимо; разность и искусственное дополнение до пяти не вычисляются"
+  },
+  {
+    "object_id": "clare-akamanzi",
+    "scale_id": "cultural-openness-national-transmission",
+    "pole_scores": {
+      "positive": {
+        "status": "observed",
+        "value": 3,
+        "confidence": 0.8,
+        "evidence_indices": [
+          1,
+          4,
+          8,
+          9,
+          20
+        ],
+        "source_urls": [
+          "https://www.rwandainuae.gov.rw/actualites/info-details/rwanda-private-sector-taps-into-investment-and-trade-opportunities-at-uae-rwanda-business-forum-2023",
+          "https://pr.nba.com/clare-akamanzi-ceo-nba-africa/",
+          "https://www.africa-press.net/rwanda/sport/akamanzi-on-sports-leadership-and-breaking-boundaries",
+          "https://theflip.africa/podcast/afrobeats-basketball-commerce"
+        ],
+        "event_ids": [
+          "akamanzi-uae-rwanda-business-forum-2023",
+          "akamanzi-nba-africa-growth-vision-2023",
+          "akamanzi-sports-leadership-2025",
+          "akamanzi-2024-10-06-africa-global-culture-commerce"
+        ],
+        "rationale": "Акаманзи неоднократно связывала развитие спортивной и деловой платформы NBA Africa с международным обменом, культурной интеграцией и облегчением трансграничной мобильности (упоминание виз, сотрудничества авиакомпаний, банков, международных организаций, соединения Африки с внешним миром). Это подтверждается в ряде эпизодов, включая публичные заявления о роли спорта как инструмента для межкультурного обмена и экономической интеграции.",
+        "support_type": "positive_manifestation",
+        "provenance": {
+          "raw_response_file": "evidence/independent_responses/2a16288cf7a9d757cb51f6c914df313496527707f9ad0fdb611918dc06f056f2.json",
+          "model": "gpt-4.1",
+          "at": "2026-10-15T17:31:00.722647+00:00",
+          "cache_key": "2a16288cf7a9d757cb51f6c914df313496527707f9ad0fdb611918dc06f056f2",
+          "original_proposal": {
+            "variable_id": "cultural-openness-national-transmission__positive",
+            "status": "observed",
+            "value": 3,
+            "confidence": 0.8,
+            "support_type": "positive_manifestation",
+            "rationale": "Акаманзи неоднократно связывала развитие спортивной и деловой платформы NBA Africa с международным обменом, культурной интеграцией и облегчением трансграничной мобильности (упоминание виз, сотрудничества авиакомпаний, банков, международных организаций, соединения Африки с внешним миром). Это подтверждается в ряде эпизодов, включая публичные заявления о роли спорта как инструмента для межкультурного обмена и экономической интеграции.",
+            "evidence_indices": [
+              1,
+              4,
+              8,
+              9,
+              20
+            ]
+          }
+        },
+        "evidence_file": "evidence/independent-dossier-clare-akamanzi.json",
+        "evidence_basis": "d5e26f8792885994d6e89e01887c0a8b42882690c3f998e86b1a8376786049a3"
+      },
+      "negative": {
+        "status": "unknown",
+        "value": null,
+        "confidence": 0,
+        "evidence_indices": [],
+        "source_urls": [],
+        "event_ids": [],
+        "rationale": "В доступных материалах отсутствуют прямые высказывания или действия Акаманзи, направленные на акцентирование сохранения и передачи национальных ценностей как самостоятельной публичной позиции.",
+        "support_type": "unknown",
+        "provenance": {
+          "raw_response_file": "evidence/independent_responses/2a16288cf7a9d757cb51f6c914df313496527707f9ad0fdb611918dc06f056f2.json",
+          "model": "gpt-4.1",
+          "at": "2026-10-15T17:31:00.722647+00:00",
+          "cache_key": "2a16288cf7a9d757cb51f6c914df313496527707f9ad0fdb611918dc06f056f2",
+          "original_proposal": {
+            "variable_id": "cultural-openness-national-transmission__negative",
+            "status": "unknown",
+            "value": null,
+            "confidence": 0.4,
+            "support_type": "unknown",
+            "rationale": "В доступных материалах отсутствуют прямые высказывания или действия Акаманзи, направленные на акцентирование сохранения и передачи национальных ценностей как самостоятельной публичной позиции.",
+            "evidence_indices": []
+          }
+        },
+        "evidence_file": "evidence/independent-dossier-clare-akamanzi.json",
+        "evidence_basis": "d5e26f8792885994d6e89e01887c0a8b42882690c3f998e86b1a8376786049a3"
+      }
+    },
+    "positive": 3,
+    "negative": null,
+    "value": null,
+    "status": "partial",
+    "difference": null,
+    "mass": null,
+    "measurement_model": "independent_poles",
+    "evidence_file": "evidence/independent-dossier-clare-akamanzi.json",
+    "evidence_basis": "d5e26f8792885994d6e89e01887c0a8b42882690c3f998e86b1a8376786049a3",
+    "at": "2026-10-15T17:31:00.725653+00:00",
+    "reason": "Каждое свойство оценивается независимо; разность и искусственное дополнение до пяти не вычисляются"
+  },
+  {
+    "object_id": "clare-akamanzi",
+    "scale_id": "problem-disclosure-reputation-defence",
+    "pole_scores": {
+      "positive": {
+        "status": "unknown",
+        "value": null,
+        "confidence": 0,
+        "evidence_indices": [],
+        "source_urls": [],
+        "event_ids": [],
+        "rationale": "Нет прямых эпизодов, где Акаманзи признаёт конкретные проблемы или недостатки исполнения в публичных заявлениях; отчётность и позитивная аргументация не равны признанию проблем.",
+        "support_type": "unknown",
+        "provenance": {
+          "raw_response_file": "evidence/independent_responses/2a16288cf7a9d757cb51f6c914df313496527707f9ad0fdb611918dc06f056f2.json",
+          "model": "gpt-4.1",
+          "at": "2026-10-15T17:31:00.722647+00:00",
+          "cache_key": "2a16288cf7a9d757cb51f6c914df313496527707f9ad0fdb611918dc06f056f2",
+          "original_proposal": {
+            "variable_id": "problem-disclosure-reputation-defence__positive",
+            "status": "unknown",
+            "value": null,
+            "confidence": 0.4,
+            "support_type": "unknown",
+            "rationale": "Нет прямых эпизодов, где Акаманзи признаёт конкретные проблемы или недостатки исполнения в публичных заявлениях; отчётность и позитивная аргументация не равны признанию проблем.",
+            "evidence_indices": []
+          }
+        },
+        "evidence_file": "evidence/independent-dossier-clare-akamanzi.json",
+        "evidence_basis": "d5e26f8792885994d6e89e01887c0a8b42882690c3f998e86b1a8376786049a3"
+      },
+      "negative": {
+        "status": "observed",
+        "value": 2,
+        "confidence": 0.7,
+        "evidence_indices": [
+          0,
+          1,
+          4,
+          7,
+          11
+        ],
+        "source_urls": [
+          "https://rdb.rw/rdb-records-highest-investment-registration-amid-covid-19-pandemic/",
+          "https://www.rwandainuae.gov.rw/actualites/info-details/rwanda-private-sector-taps-into-investment-and-trade-opportunities-at-uae-rwanda-business-forum-2023",
+          "https://pr.nba.com/clare-akamanzi-ceo-nba-africa/",
+          "https://www.espn.com/espn/story/_/id/45542530/nba-africa-boss-clare-akamanzi-hails-bal-growth-numbers-value-africa",
+          "https://theflip.africa/podcast/afrobeats-basketball-commerce"
+        ],
+        "event_ids": [
+          "akamanzi-rdb-investment-results-2021",
+          "akamanzi-uae-rwanda-business-forum-2023",
+          "akamanzi-nba-africa-growth-vision-2023",
+          "akamanzi-bal-growth-2025",
+          "akamanzi-2024-03-28-sports-economic-development"
+        ],
+        "rationale": "В ряде публичных выступлений и отчётов Акаманзи акцентирует достижения, рост показателей и вклад в развитие, не упоминая о проблемах или ограничениях. Это проявляется в отчётах о росте инвестиций, туризма, спортивной индустрии и экономических результатах.",
+        "support_type": "positive_manifestation",
+        "provenance": {
+          "raw_response_file": "evidence/independent_responses/2a16288cf7a9d757cb51f6c914df313496527707f9ad0fdb611918dc06f056f2.json",
+          "model": "gpt-4.1",
+          "at": "2026-10-15T17:31:00.722647+00:00",
+          "cache_key": "2a16288cf7a9d757cb51f6c914df313496527707f9ad0fdb611918dc06f056f2",
+          "original_proposal": {
+            "variable_id": "problem-disclosure-reputation-defence__negative",
+            "status": "observed",
+            "value": 2,
+            "confidence": 0.7,
+            "support_type": "positive_manifestation",
+            "rationale": "В ряде публичных выступлений и отчётов Акаманзи акцентирует достижения, рост показателей и вклад в развитие, не упоминая о проблемах или ограничениях. Это проявляется в отчётах о росте инвестиций, туризма, спортивной индустрии и экономических результатах.",
+            "evidence_indices": [
+              0,
+              1,
+              4,
+              7,
+              11
+            ]
+          }
+        },
+        "evidence_file": "evidence/independent-dossier-clare-akamanzi.json",
+        "evidence_basis": "d5e26f8792885994d6e89e01887c0a8b42882690c3f998e86b1a8376786049a3"
+      }
+    },
+    "positive": null,
+    "negative": 2,
+    "value": null,
+    "status": "partial",
+    "difference": null,
+    "mass": null,
+    "measurement_model": "independent_poles",
+    "evidence_file": "evidence/independent-dossier-clare-akamanzi.json",
+    "evidence_basis": "d5e26f8792885994d6e89e01887c0a8b42882690c3f998e86b1a8376786049a3",
+    "at": "2026-10-15T17:31:00.725653+00:00",
+    "reason": "Каждое свойство оценивается независимо; разность и искусственное дополнение до пяти не вычисляются"
+  },
+  {
+    "object_id": "clare-akamanzi",
+    "scale_id": "procedural-guarantees-enforcement",
+    "pole_scores": {
+      "positive": {
+        "status": "unknown",
+        "value": null,
+        "confidence": 0,
+        "evidence_indices": [],
+        "source_urls": [],
+        "event_ids": [],
+        "rationale": "Нет прямых эпизодов, где Акаманзи выступает за расширение возможностей обжалования или правовой защиты; доступные материалы не содержат таких инициатив.",
+        "support_type": "unknown",
+        "provenance": {
+          "raw_response_file": "evidence/independent_responses/2a16288cf7a9d757cb51f6c914df313496527707f9ad0fdb611918dc06f056f2.json",
+          "model": "gpt-4.1",
+          "at": "2026-10-15T17:31:00.722647+00:00",
+          "cache_key": "2a16288cf7a9d757cb51f6c914df313496527707f9ad0fdb611918dc06f056f2",
+          "original_proposal": {
+            "variable_id": "procedural-guarantees-enforcement__positive",
+            "status": "unknown",
+            "value": null,
+            "confidence": 0.4,
+            "support_type": "unknown",
+            "rationale": "Нет прямых эпизодов, где Акаманзи выступает за расширение возможностей обжалования или правовой защиты; доступные материалы не содержат таких инициатив.",
+            "evidence_indices": []
+          }
+        },
+        "evidence_file": "evidence/independent-dossier-clare-akamanzi.json",
+        "evidence_basis": "d5e26f8792885994d6e89e01887c0a8b42882690c3f998e86b1a8376786049a3"
+      },
+      "negative": {
+        "status": "unknown",
+        "value": null,
+        "confidence": 0,
+        "evidence_indices": [],
+        "source_urls": [],
+        "event_ids": [],
+        "rationale": "Нет прямых эпизодов, где Акаманзи инициирует или поддерживает принудительное исполнение обязательных требований или санкций.",
+        "support_type": "unknown",
+        "provenance": {
+          "raw_response_file": "evidence/independent_responses/2a16288cf7a9d757cb51f6c914df313496527707f9ad0fdb611918dc06f056f2.json",
+          "model": "gpt-4.1",
+          "at": "2026-10-15T17:31:00.722647+00:00",
+          "cache_key": "2a16288cf7a9d757cb51f6c914df313496527707f9ad0fdb611918dc06f056f2",
+          "original_proposal": {
+            "variable_id": "procedural-guarantees-enforcement__negative",
+            "status": "unknown",
+            "value": null,
+            "confidence": 0.4,
+            "support_type": "unknown",
+            "rationale": "Нет прямых эпизодов, где Акаманзи инициирует или поддерживает принудительное исполнение обязательных требований или санкций.",
+            "evidence_indices": []
+          }
+        },
+        "evidence_file": "evidence/independent-dossier-clare-akamanzi.json",
+        "evidence_basis": "d5e26f8792885994d6e89e01887c0a8b42882690c3f998e86b1a8376786049a3"
+      }
+    },
+    "positive": null,
+    "negative": null,
+    "value": null,
+    "status": "unknown",
+    "difference": null,
+    "mass": null,
+    "measurement_model": "independent_poles",
+    "evidence_file": "evidence/independent-dossier-clare-akamanzi.json",
+    "evidence_basis": "d5e26f8792885994d6e89e01887c0a8b42882690c3f998e86b1a8376786049a3",
+    "at": "2026-10-15T17:31:00.725653+00:00",
+    "reason": "Каждое свойство оценивается независимо; разность и искусственное дополнение до пяти не вычисляются"
+  },
+  {
+    "object_id": "clare-akamanzi",
+    "scale_id": "prevention-crisis-response",
+    "pole_scores": {
+      "positive": {
+        "status": "unknown",
+        "value": null,
+        "confidence": 0,
+        "evidence_indices": [],
+        "source_urls": [],
+        "event_ids": [],
+        "rationale": "В материалах нет прямых заявлений или действий, свидетельствующих о приоритете упреждающего снижения рисков или подготовки к кризисам.",
+        "support_type": "unknown",
+        "provenance": {
+          "raw_response_file": "evidence/independent_responses/2a16288cf7a9d757cb51f6c914df313496527707f9ad0fdb611918dc06f056f2.json",
+          "model": "gpt-4.1",
+          "at": "2026-10-15T17:31:00.722647+00:00",
+          "cache_key": "2a16288cf7a9d757cb51f6c914df313496527707f9ad0fdb611918dc06f056f2",
+          "original_proposal": {
+            "variable_id": "prevention-crisis-response__positive",
+            "status": "unknown",
+            "value": null,
+            "confidence": 0.4,
+            "support_type": "unknown",
+            "rationale": "В материалах нет прямых заявлений или действий, свидетельствующих о приоритете упреждающего снижения рисков или подготовки к кризисам.",
+            "evidence_indices": []
+          }
+        },
+        "evidence_file": "evidence/independent-dossier-clare-akamanzi.json",
+        "evidence_basis": "d5e26f8792885994d6e89e01887c0a8b42882690c3f998e86b1a8376786049a3"
+      },
+      "negative": {
+        "status": "unknown",
+        "value": null,
+        "confidence": 0,
+        "evidence_indices": [],
+        "source_urls": [],
+        "event_ids": [],
+        "rationale": "Нет данных о действиях или заявлениях Акаманзи, связанных с оперативным реагированием на возникшие угрозы.",
+        "support_type": "unknown",
+        "provenance": {
+          "raw_response_file": "evidence/independent_responses/2a16288cf7a9d757cb51f6c914df313496527707f9ad0fdb611918dc06f056f2.json",
+          "model": "gpt-4.1",
+          "at": "2026-10-15T17:31:00.722647+00:00",
+          "cache_key": "2a16288cf7a9d757cb51f6c914df313496527707f9ad0fdb611918dc06f056f2",
+          "original_proposal": {
+            "variable_id": "prevention-crisis-response__negative",
+            "status": "unknown",
+            "value": null,
+            "confidence": 0.4,
+            "support_type": "unknown",
+            "rationale": "Нет данных о действиях или заявлениях Акаманзи, связанных с оперативным реагированием на возникшие угрозы.",
+            "evidence_indices": []
+          }
+        },
+        "evidence_file": "evidence/independent-dossier-clare-akamanzi.json",
+        "evidence_basis": "d5e26f8792885994d6e89e01887c0a8b42882690c3f998e86b1a8376786049a3"
+      }
+    },
+    "positive": null,
+    "negative": null,
+    "value": null,
+    "status": "unknown",
+    "difference": null,
+    "mass": null,
+    "measurement_model": "independent_poles",
+    "evidence_file": "evidence/independent-dossier-clare-akamanzi.json",
+    "evidence_basis": "d5e26f8792885994d6e89e01887c0a8b42882690c3f998e86b1a8376786049a3",
+    "at": "2026-10-15T17:31:00.725653+00:00",
+    "reason": "Каждое свойство оценивается независимо; разность и искусственное дополнение до пяти не вычисляются"
+  },
+  {
+    "object_id": "clare-akamanzi",
+    "scale_id": "electoral-access",
+    "pole_scores": {
+      "positive": {
+        "status": "unknown",
+        "value": null,
+        "confidence": 0,
+        "evidence_indices": [],
+        "source_urls": [],
+        "event_ids": [],
+        "rationale": "В доступных источниках отсутствуют эпизоды, связанные с расширением доступа к выборной конкуренции или политическому участию.",
+        "support_type": "unknown",
+        "provenance": {
+          "raw_response_file": "evidence/independent_responses/2a16288cf7a9d757cb51f6c914df313496527707f9ad0fdb611918dc06f056f2.json",
+          "model": "gpt-4.1",
+          "at": "2026-10-15T17:31:00.722647+00:00",
+          "cache_key": "2a16288cf7a9d757cb51f6c914df313496527707f9ad0fdb611918dc06f056f2",
+          "original_proposal": {
+            "variable_id": "electoral-access__positive",
+            "status": "unknown",
+            "value": null,
+            "confidence": 0.3,
+            "support_type": "unknown",
+            "rationale": "В доступных источниках отсутствуют эпизоды, связанные с расширением доступа к выборной конкуренции или политическому участию.",
+            "evidence_indices": []
+          }
+        },
+        "evidence_file": "evidence/independent-dossier-clare-akamanzi.json",
+        "evidence_basis": "d5e26f8792885994d6e89e01887c0a8b42882690c3f998e86b1a8376786049a3"
+      },
+      "negative": {
+        "status": "unknown",
+        "value": null,
+        "confidence": 0,
+        "evidence_indices": [],
+        "source_urls": [],
+        "event_ids": [],
+        "rationale": "Нет свидетельств, что Акаманзи инициировала или поддерживала усиление барьеров политического участия.",
+        "support_type": "unknown",
+        "provenance": {
+          "raw_response_file": "evidence/independent_responses/2a16288cf7a9d757cb51f6c914df313496527707f9ad0fdb611918dc06f056f2.json",
+          "model": "gpt-4.1",
+          "at": "2026-10-15T17:31:00.722647+00:00",
+          "cache_key": "2a16288cf7a9d757cb51f6c914df313496527707f9ad0fdb611918dc06f056f2",
+          "original_proposal": {
+            "variable_id": "electoral-access__negative",
+            "status": "unknown",
+            "value": null,
+            "confidence": 0.3,
+            "support_type": "unknown",
+            "rationale": "Нет свидетельств, что Акаманзи инициировала или поддерживала усиление барьеров политического участия.",
+            "evidence_indices": []
+          }
+        },
+        "evidence_file": "evidence/independent-dossier-clare-akamanzi.json",
+        "evidence_basis": "d5e26f8792885994d6e89e01887c0a8b42882690c3f998e86b1a8376786049a3"
+      }
+    },
+    "positive": null,
+    "negative": null,
+    "value": null,
+    "status": "unknown",
+    "difference": null,
+    "mass": null,
+    "measurement_model": "independent_poles",
+    "evidence_file": "evidence/independent-dossier-clare-akamanzi.json",
+    "evidence_basis": "d5e26f8792885994d6e89e01887c0a8b42882690c3f998e86b1a8376786049a3",
+    "at": "2026-10-15T17:31:00.725653+00:00",
+    "reason": "Каждое свойство оценивается независимо; разность и искусственное дополнение до пяти не вычисляются"
+  },
+  {
+    "object_id": "clare-akamanzi",
+    "scale_id": "institutional-autonomy-coordination",
+    "pole_scores": {
+      "positive": {
+        "status": "observed",
+        "value": 2,
+        "confidence": 0.7,
+        "evidence_indices": [
+          17,
+          18,
+          19
+        ],
+        "source_urls": [
+          "https://www.ktpress.rw/2023/10/rwanda-parliament-approves-major-changes-in-law-governing-rdb/"
+        ],
+        "event_ids": [
+          "akamanzi-2023-06-29-rdb-governance-bill",
+          "akamanzi-2023-10-09-rdb-law-approval",
+          "akamanzi-2023-10-10-rdb-law-publication"
+        ],
+        "rationale": "Акаманзи инициировала законопроект о расширении автономии RDB, который был принят парламентом и предоставил агентству административную, финансовую и кадровую самостоятельность. Однако надзор президента сохранился, что ограничивает выраженность свойства.",
+        "support_type": "positive_manifestation",
+        "provenance": {
+          "raw_response_file": "evidence/independent_responses/2a16288cf7a9d757cb51f6c914df313496527707f9ad0fdb611918dc06f056f2.json",
+          "model": "gpt-4.1",
+          "at": "2026-10-15T17:31:00.722647+00:00",
+          "cache_key": "2a16288cf7a9d757cb51f6c914df313496527707f9ad0fdb611918dc06f056f2",
+          "original_proposal": {
+            "variable_id": "institutional-autonomy-coordination__positive",
+            "status": "observed",
+            "value": 2,
+            "confidence": 0.7,
+            "support_type": "positive_manifestation",
+            "rationale": "Акаманзи инициировала законопроект о расширении автономии RDB, который был принят парламентом и предоставил агентству административную, финансовую и кадровую самостоятельность. Однако надзор президента сохранился, что ограничивает выраженность свойства.",
+            "evidence_indices": [
+              17,
+              18,
+              19
+            ]
+          }
+        },
+        "evidence_file": "evidence/independent-dossier-clare-akamanzi.json",
+        "evidence_basis": "d5e26f8792885994d6e89e01887c0a8b42882690c3f998e86b1a8376786049a3"
+      },
+      "negative": {
+        "status": "observed",
+        "value": 2,
+        "confidence": 0.7,
+        "evidence_indices": [
+          18,
+          19,
+          28
+        ],
+        "source_urls": [
+          "https://www.ktpress.rw/2023/10/rwanda-parliament-approves-major-changes-in-law-governing-rdb/",
+          "https://leoafricainstitute.org/news/clare-akamanzi-chief-executive-officer-of-nba-afri"
+        ],
+        "event_ids": [
+          "akamanzi-2023-10-09-rdb-law-approval",
+          "akamanzi-2023-10-10-rdb-law-publication",
+          "akamanzi-2024-12-17-institutions"
+        ],
+        "rationale": "Несмотря на расширение автономии RDB, в итоговом законе подчёркнута сохранённая подчинённость президентскому надзору и единая управленческая линия, что свидетельствует о согласовании работы институтов.",
+        "support_type": "positive_manifestation",
+        "provenance": {
+          "raw_response_file": "evidence/independent_responses/2a16288cf7a9d757cb51f6c914df313496527707f9ad0fdb611918dc06f056f2.json",
+          "model": "gpt-4.1",
+          "at": "2026-10-15T17:31:00.722647+00:00",
+          "cache_key": "2a16288cf7a9d757cb51f6c914df313496527707f9ad0fdb611918dc06f056f2",
+          "original_proposal": {
+            "variable_id": "institutional-autonomy-coordination__negative",
+            "status": "observed",
+            "value": 2,
+            "confidence": 0.7,
+            "support_type": "positive_manifestation",
+            "rationale": "Несмотря на расширение автономии RDB, в итоговом законе подчёркнута сохранённая подчинённость президентскому надзору и единая управленческая линия, что свидетельствует о согласовании работы институтов.",
+            "evidence_indices": [
+              18,
+              19,
+              28
+            ]
+          }
+        },
+        "evidence_file": "evidence/independent-dossier-clare-akamanzi.json",
+        "evidence_basis": "d5e26f8792885994d6e89e01887c0a8b42882690c3f998e86b1a8376786049a3"
+      }
+    },
+    "positive": 2,
+    "negative": 2,
+    "value": null,
+    "status": "observed",
+    "difference": null,
+    "mass": null,
+    "measurement_model": "independent_poles",
+    "evidence_file": "evidence/independent-dossier-clare-akamanzi.json",
+    "evidence_basis": "d5e26f8792885994d6e89e01887c0a8b42882690c3f998e86b1a8376786049a3",
+    "at": "2026-10-15T17:31:00.725653+00:00",
+    "reason": "Каждое свойство оценивается независимо; разность и искусственное дополнение до пяти не вычисляются"
+  },
+  {
+    "object_id": "clare-akamanzi",
+    "scale_id": "taxation-burden-public-revenue",
+    "pole_scores": {
+      "positive": {
+        "status": "unknown",
+        "value": null,
+        "confidence": 0,
+        "evidence_indices": [],
+        "source_urls": [],
+        "event_ids": [],
+        "rationale": "Нет прямых эпизодов, где Акаманзи выступает за снижение налоговой нагрузки или расширение имущественной самостоятельности.",
+        "support_type": "unknown",
+        "provenance": {
+          "raw_response_file": "evidence/independent_responses/2a16288cf7a9d757cb51f6c914df313496527707f9ad0fdb611918dc06f056f2.json",
+          "model": "gpt-4.1",
+          "at": "2026-10-15T17:31:00.722647+00:00",
+          "cache_key": "2a16288cf7a9d757cb51f6c914df313496527707f9ad0fdb611918dc06f056f2",
+          "original_proposal": {
+            "variable_id": "taxation-burden-public-revenue__positive",
+            "status": "unknown",
+            "value": null,
+            "confidence": 0.4,
+            "support_type": "unknown",
+            "rationale": "Нет прямых эпизодов, где Акаманзи выступает за снижение налоговой нагрузки или расширение имущественной самостоятельности.",
+            "evidence_indices": []
+          }
+        },
+        "evidence_file": "evidence/independent-dossier-clare-akamanzi.json",
+        "evidence_basis": "d5e26f8792885994d6e89e01887c0a8b42882690c3f998e86b1a8376786049a3"
+      },
+      "negative": {
+        "status": "unknown",
+        "value": null,
+        "confidence": 0,
+        "evidence_indices": [],
+        "source_urls": [],
+        "event_ids": [],
+        "rationale": "Нет данных о поддержке Акаманзи увеличения налоговых поступлений для публичного развития.",
+        "support_type": "unknown",
+        "provenance": {
+          "raw_response_file": "evidence/independent_responses/2a16288cf7a9d757cb51f6c914df313496527707f9ad0fdb611918dc06f056f2.json",
+          "model": "gpt-4.1",
+          "at": "2026-10-15T17:31:00.722647+00:00",
+          "cache_key": "2a16288cf7a9d757cb51f6c914df313496527707f9ad0fdb611918dc06f056f2",
+          "original_proposal": {
+            "variable_id": "taxation-burden-public-revenue__negative",
+            "status": "unknown",
+            "value": null,
+            "confidence": 0.4,
+            "support_type": "unknown",
+            "rationale": "Нет данных о поддержке Акаманзи увеличения налоговых поступлений для публичного развития.",
+            "evidence_indices": []
+          }
+        },
+        "evidence_file": "evidence/independent-dossier-clare-akamanzi.json",
+        "evidence_basis": "d5e26f8792885994d6e89e01887c0a8b42882690c3f998e86b1a8376786049a3"
+      }
+    },
+    "positive": null,
+    "negative": null,
+    "value": null,
+    "status": "unknown",
+    "difference": null,
+    "mass": null,
+    "measurement_model": "independent_poles",
+    "evidence_file": "evidence/independent-dossier-clare-akamanzi.json",
+    "evidence_basis": "d5e26f8792885994d6e89e01887c0a8b42882690c3f998e86b1a8376786049a3",
+    "at": "2026-10-15T17:31:00.725653+00:00",
+    "reason": "Каждое свойство оценивается независимо; разность и искусственное дополнение до пяти не вычисляются"
+  },
+  {
+    "object_id": "clare-akamanzi",
+    "scale_id": "universal-targeted-provision",
+    "pole_scores": {
+      "positive": {
+        "status": "unknown",
+        "value": null,
+        "confidence": 0,
+        "evidence_indices": [],
+        "source_urls": [],
+        "event_ids": [],
+        "rationale": "Нет прямых свидетельств, что Акаманзи поддерживала универсальные стандарты доступности благ для всего населения.",
+        "support_type": "unknown",
+        "provenance": {
+          "raw_response_file": "evidence/independent_responses/2a16288cf7a9d757cb51f6c914df313496527707f9ad0fdb611918dc06f056f2.json",
+          "model": "gpt-4.1",
+          "at": "2026-10-15T17:31:00.722647+00:00",
+          "cache_key": "2a16288cf7a9d757cb51f6c914df313496527707f9ad0fdb611918dc06f056f2",
+          "original_proposal": {
+            "variable_id": "universal-targeted-provision__positive",
+            "status": "unknown",
+            "value": null,
+            "confidence": 0.4,
+            "support_type": "unknown",
+            "rationale": "Нет прямых свидетельств, что Акаманзи поддерживала универсальные стандарты доступности благ для всего населения.",
+            "evidence_indices": []
+          }
+        },
+        "evidence_file": "evidence/independent-dossier-clare-akamanzi.json",
+        "evidence_basis": "d5e26f8792885994d6e89e01887c0a8b42882690c3f998e86b1a8376786049a3"
+      },
+      "negative": {
+        "status": "observed",
+        "value": 2,
+        "confidence": 0.7,
+        "evidence_indices": [
+          10,
+          21,
+          26
+        ],
+        "source_urls": [
+          "https://theflip.africa/podcast/afrobeats-basketball-commerce",
+          "https://www.africa-press.net/rwanda/sport/akamanzi-on-sports-leadership-and-breaking-boundaries"
+        ],
+        "event_ids": [
+          "akamanzi-2024-03-28-grassroots-programs",
+          "akamanzi-2024-03-28-junior-nba-skills",
+          "akamanzi-2025-08-18-giants-of-africa"
+        ],
+        "rationale": "В ряде эпизодов Акаманзи акцентирует программы для детей, молодёжи, предпринимателей, что свидетельствует о приоритетной поддержке отдельных групп, а не универсальном охвате.",
+        "support_type": "positive_manifestation",
+        "provenance": {
+          "raw_response_file": "evidence/independent_responses/2a16288cf7a9d757cb51f6c914df313496527707f9ad0fdb611918dc06f056f2.json",
+          "model": "gpt-4.1",
+          "at": "2026-10-15T17:31:00.722647+00:00",
+          "cache_key": "2a16288cf7a9d757cb51f6c914df313496527707f9ad0fdb611918dc06f056f2",
+          "original_proposal": {
+            "variable_id": "universal-targeted-provision__negative",
+            "status": "observed",
+            "value": 2,
+            "confidence": 0.7,
+            "support_type": "positive_manifestation",
+            "rationale": "В ряде эпизодов Акаманзи акцентирует программы для детей, молодёжи, предпринимателей, что свидетельствует о приоритетной поддержке отдельных групп, а не универсальном охвате.",
+            "evidence_indices": [
+              10,
+              21,
+              26
+            ]
+          }
+        },
+        "evidence_file": "evidence/independent-dossier-clare-akamanzi.json",
+        "evidence_basis": "d5e26f8792885994d6e89e01887c0a8b42882690c3f998e86b1a8376786049a3"
+      }
+    },
+    "positive": null,
+    "negative": 2,
+    "value": null,
+    "status": "partial",
+    "difference": null,
+    "mass": null,
+    "measurement_model": "independent_poles",
+    "evidence_file": "evidence/independent-dossier-clare-akamanzi.json",
+    "evidence_basis": "d5e26f8792885994d6e89e01887c0a8b42882690c3f998e86b1a8376786049a3",
+    "at": "2026-10-15T17:31:00.725653+00:00",
+    "reason": "Каждое свойство оценивается независимо; разность и искусственное дополнение до пяти не вычисляются"
+  },
+  {
+    "object_id": "clare-akamanzi",
+    "scale_id": "ecological-limits-resource-use",
+    "pole_scores": {
+      "positive": {
+        "status": "unknown",
+        "value": null,
+        "confidence": 0,
+        "evidence_indices": [],
+        "source_urls": [],
+        "event_ids": [],
+        "rationale": "В материалах отсутствуют эпизоды, где Акаманзи выступает за усиление природоохранных ограничений хозяйственной деятельности.",
+        "support_type": "unknown",
+        "provenance": {
+          "raw_response_file": "evidence/independent_responses/2a16288cf7a9d757cb51f6c914df313496527707f9ad0fdb611918dc06f056f2.json",
+          "model": "gpt-4.1",
+          "at": "2026-10-15T17:31:00.722647+00:00",
+          "cache_key": "2a16288cf7a9d757cb51f6c914df313496527707f9ad0fdb611918dc06f056f2",
+          "original_proposal": {
+            "variable_id": "ecological-limits-resource-use__positive",
+            "status": "unknown",
+            "value": null,
+            "confidence": 0.4,
+            "support_type": "unknown",
+            "rationale": "В материалах отсутствуют эпизоды, где Акаманзи выступает за усиление природоохранных ограничений хозяйственной деятельности.",
+            "evidence_indices": []
+          }
+        },
+        "evidence_file": "evidence/independent-dossier-clare-akamanzi.json",
+        "evidence_basis": "d5e26f8792885994d6e89e01887c0a8b42882690c3f998e86b1a8376786049a3"
+      },
+      "negative": {
+        "status": "unknown",
+        "value": null,
+        "confidence": 0,
+        "evidence_indices": [],
+        "source_urls": [],
+        "event_ids": [],
+        "rationale": "Нет данных о поддержке расширения хозяйственного использования природных ресурсов или ослабления экологических ограничений.",
+        "support_type": "unknown",
+        "provenance": {
+          "raw_response_file": "evidence/independent_responses/2a16288cf7a9d757cb51f6c914df313496527707f9ad0fdb611918dc06f056f2.json",
+          "model": "gpt-4.1",
+          "at": "2026-10-15T17:31:00.722647+00:00",
+          "cache_key": "2a16288cf7a9d757cb51f6c914df313496527707f9ad0fdb611918dc06f056f2",
+          "original_proposal": {
+            "variable_id": "ecological-limits-resource-use__negative",
+            "status": "unknown",
+            "value": null,
+            "confidence": 0.4,
+            "support_type": "unknown",
+            "rationale": "Нет данных о поддержке расширения хозяйственного использования природных ресурсов или ослабления экологических ограничений.",
+            "evidence_indices": []
+          }
+        },
+        "evidence_file": "evidence/independent-dossier-clare-akamanzi.json",
+        "evidence_basis": "d5e26f8792885994d6e89e01887c0a8b42882690c3f998e86b1a8376786049a3"
+      }
+    },
+    "positive": null,
+    "negative": null,
+    "value": null,
+    "status": "unknown",
+    "difference": null,
+    "mass": null,
+    "measurement_model": "independent_poles",
+    "evidence_file": "evidence/independent-dossier-clare-akamanzi.json",
+    "evidence_basis": "d5e26f8792885994d6e89e01887c0a8b42882690c3f998e86b1a8376786049a3",
+    "at": "2026-10-15T17:31:00.725653+00:00",
+    "reason": "Каждое свойство оценивается независимо; разность и искусственное дополнение до пяти не вычисляются"
+  },
+  {
+    "object_id": "clare-akamanzi",
+    "scale_id": "russia-diplomatic-engagement",
+    "pole_scores": {
+      "positive": {
+        "status": "unknown",
+        "value": null,
+        "confidence": 0,
+        "evidence_indices": [],
+        "source_urls": [],
+        "event_ids": [],
+        "rationale": "Нет допустимых датированных персональных свидетельств по этому свойству",
+        "support_type": "unknown"
+      },
+      "negative": {
+        "status": "unknown",
+        "value": null,
+        "confidence": 0,
+        "evidence_indices": [],
+        "source_urls": [],
+        "event_ids": [],
+        "rationale": "Нет допустимых датированных персональных свидетельств по этому свойству",
+        "support_type": "unknown"
+      }
+    },
+    "positive": null,
+    "negative": null,
+    "value": null,
+    "status": "unknown",
+    "difference": null,
+    "mass": null,
+    "measurement_model": "independent_poles",
+    "evidence_file": "evidence/independent-dossier-clare-akamanzi.json",
+    "evidence_basis": "d5e26f8792885994d6e89e01887c0a8b42882690c3f998e86b1a8376786049a3",
+    "at": "2026-10-15T17:31:00.725653+00:00",
+    "reason": "Каждое свойство оценивается независимо; разность и искусственное дополнение до пяти не вычисляются"
+  },
+  {
+    "object_id": "clare-akamanzi",
+    "scale_id": "russia-security-cooperation",
+    "pole_scores": {
+      "positive": {
+        "status": "unknown",
+        "value": null,
+        "confidence": 0,
+        "evidence_indices": [],
+        "source_urls": [],
+        "event_ids": [],
+        "rationale": "Нет допустимых датированных персональных свидетельств по этому свойству",
+        "support_type": "unknown"
+      },
+      "negative": {
+        "status": "unknown",
+        "value": null,
+        "confidence": 0,
+        "evidence_indices": [],
+        "source_urls": [],
+        "event_ids": [],
+        "rationale": "Нет допустимых датированных персональных свидетельств по этому свойству",
+        "support_type": "unknown"
+      }
+    },
+    "positive": null,
+    "negative": null,
+    "value": null,
+    "status": "unknown",
+    "difference": null,
+    "mass": null,
+    "measurement_model": "independent_poles",
+    "evidence_file": "evidence/independent-dossier-clare-akamanzi.json",
+    "evidence_basis": "d5e26f8792885994d6e89e01887c0a8b42882690c3f998e86b1a8376786049a3",
+    "at": "2026-10-15T17:31:00.725653+00:00",
+    "reason": "Каждое свойство оценивается независимо; разность и искусственное дополнение до пяти не вычисляются"
+  },
+  {
+    "object_id": "clare-akamanzi",
+    "scale_id": "russia-economic-technology-cooperation",
+    "pole_scores": {
+      "positive": {
+        "status": "unknown",
+        "value": null,
+        "confidence": 0,
+        "evidence_indices": [],
+        "source_urls": [],
+        "event_ids": [],
+        "rationale": "Нет допустимых датированных персональных свидетельств по этому свойству",
+        "support_type": "unknown"
+      },
+      "negative": {
+        "status": "unknown",
+        "value": null,
+        "confidence": 0,
+        "evidence_indices": [],
+        "source_urls": [],
+        "event_ids": [],
+        "rationale": "Нет допустимых датированных персональных свидетельств по этому свойству",
+        "support_type": "unknown"
+      }
+    },
+    "positive": null,
+    "negative": null,
+    "value": null,
+    "status": "unknown",
+    "difference": null,
+    "mass": null,
+    "measurement_model": "independent_poles",
+    "evidence_file": "evidence/independent-dossier-clare-akamanzi.json",
+    "evidence_basis": "d5e26f8792885994d6e89e01887c0a8b42882690c3f998e86b1a8376786049a3",
+    "at": "2026-10-15T17:31:00.725653+00:00",
+    "reason": "Каждое свойство оценивается независимо; разность и искусственное дополнение до пяти не вычисляются"
+  },
+  {
+    "object_id": "clare-akamanzi",
+    "scale_id": "russia-education-cultural-cooperation",
+    "pole_scores": {
+      "positive": {
+        "status": "unknown",
+        "value": null,
+        "confidence": 0,
+        "evidence_indices": [],
+        "source_urls": [],
+        "event_ids": [],
+        "rationale": "Нет допустимых датированных персональных свидетельств по этому свойству",
+        "support_type": "unknown"
+      },
+      "negative": {
+        "status": "unknown",
+        "value": null,
+        "confidence": 0,
+        "evidence_indices": [],
+        "source_urls": [],
+        "event_ids": [],
+        "rationale": "Нет допустимых датированных персональных свидетельств по этому свойству",
+        "support_type": "unknown"
+      }
+    },
+    "positive": null,
+    "negative": null,
+    "value": null,
+    "status": "unknown",
+    "difference": null,
+    "mass": null,
+    "measurement_model": "independent_poles",
+    "evidence_file": "evidence/independent-dossier-clare-akamanzi.json",
+    "evidence_basis": "d5e26f8792885994d6e89e01887c0a8b42882690c3f998e86b1a8376786049a3",
+    "at": "2026-10-15T17:31:00.725653+00:00",
+    "reason": "Каждое свойство оценивается независимо; разность и искусственное дополнение до пяти не вычисляются"
+  },
+  {
+    "object_id": "clare-akamanzi",
+    "scale_id": "russia-conflict-policy-evaluation",
+    "pole_scores": {
+      "positive": {
+        "status": "unknown",
+        "value": null,
+        "confidence": 0,
+        "evidence_indices": [],
+        "source_urls": [],
+        "event_ids": [],
+        "rationale": "Нет допустимых датированных персональных свидетельств по этому свойству",
+        "support_type": "unknown"
+      },
+      "negative": {
+        "status": "unknown",
+        "value": null,
+        "confidence": 0,
+        "evidence_indices": [],
+        "source_urls": [],
+        "event_ids": [],
+        "rationale": "Нет допустимых датированных персональных свидетельств по этому свойству",
+        "support_type": "unknown"
+      }
+    },
+    "positive": null,
+    "negative": null,
+    "value": null,
+    "status": "unknown",
+    "difference": null,
+    "mass": null,
+    "measurement_model": "independent_poles",
+    "evidence_file": "evidence/independent-dossier-clare-akamanzi.json",
+    "evidence_basis": "d5e26f8792885994d6e89e01887c0a8b42882690c3f998e86b1a8376786049a3",
+    "at": "2026-10-15T17:31:00.725653+00:00",
+    "reason": "Каждое свойство оценивается независимо; разность и искусственное дополнение до пяти не вычисляются"
+  },
+  {
+    "object_id": "clare-akamanzi",
+    "scale_id": "russia-isolation-sanctions",
+    "pole_scores": {
+      "positive": {
+        "status": "unknown",
+        "value": null,
+        "confidence": 0,
+        "evidence_indices": [],
+        "source_urls": [],
+        "event_ids": [],
+        "rationale": "Нет допустимых датированных персональных свидетельств по этому свойству",
+        "support_type": "unknown"
+      },
+      "negative": {
+        "status": "unknown",
+        "value": null,
+        "confidence": 0,
+        "evidence_indices": [],
+        "source_urls": [],
+        "event_ids": [],
+        "rationale": "Нет допустимых датированных персональных свидетельств по этому свойству",
+        "support_type": "unknown"
+      }
+    },
+    "positive": null,
+    "negative": null,
+    "value": null,
+    "status": "unknown",
+    "difference": null,
+    "mass": null,
+    "measurement_model": "independent_poles",
+    "evidence_file": "evidence/independent-dossier-clare-akamanzi.json",
+    "evidence_basis": "d5e26f8792885994d6e89e01887c0a8b42882690c3f998e86b1a8376786049a3",
+    "at": "2026-10-15T17:31:00.725653+00:00",
+    "reason": "Каждое свойство оценивается независимо; разность и искусственное дополнение до пяти не вычисляются"
+  }
+]

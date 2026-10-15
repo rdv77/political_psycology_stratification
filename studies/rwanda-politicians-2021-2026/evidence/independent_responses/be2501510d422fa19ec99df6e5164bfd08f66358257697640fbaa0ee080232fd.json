@@ -1,0 +1,234 @@
+{
+  "data": {
+    "ratings": [
+      {
+        "variable_id": "programmatic-renewal__positive",
+        "status": "observed",
+        "value": 2,
+        "confidence": 0.8,
+        "support_type": "positive_manifestation",
+        "rationale": "Муджавамария участвовала в запуске пересмотренной Стратегии зелёного роста и климатической устойчивости, которая была представлена как инструмент достижения новых климатических целей и построения низкоуглеродной экономики. Это пример программного изменения курса в экологической политике, хотя речь идёт о пересмотре и обновлении, а не о полном отказе от прежнего направления.",
+        "evidence_indices": [
+          12,
+          18
+        ]
+      },
+      {
+        "variable_id": "programmatic-renewal__negative",
+        "status": "observed",
+        "value": 2,
+        "confidence": 0.7,
+        "support_type": "positive_manifestation",
+        "rationale": "В ряде эпизодов пересмотренная стратегия и другие инициативы Муджавамарии описываются как продолжение и развитие существующего государственного курса устойчивого развития, а не его отмена. Это выражено через институциональное обновление стратегических документов.",
+        "evidence_indices": [
+          28
+        ]
+      },
+      {
+        "variable_id": "government-course-assessment__positive",
+        "status": "unknown",
+        "value": null,
+        "confidence": 0.5,
+        "support_type": "unknown",
+        "rationale": "Нет прямых публичных высказываний Муджавамарии, однозначно оценивающих весь государственный курс Руанды. Описания достижений и приоритетов касаются отдельных сфер, а не общего курса.",
+        "evidence_indices": []
+      },
+      {
+        "variable_id": "government-course-assessment__negative",
+        "status": "unknown",
+        "value": null,
+        "confidence": 0.5,
+        "support_type": "unknown",
+        "rationale": "Нет прямых публичных высказываний Муджавамарии, однозначно критикующих весь государственный курс Руанды. Признание отдельных проблем не является критикой общего курса.",
+        "evidence_indices": []
+      },
+      {
+        "variable_id": "participation-administrative-direction__positive",
+        "status": "observed",
+        "value": 2,
+        "confidence": 0.7,
+        "support_type": "positive_manifestation",
+        "rationale": "Муджавамария публично призывала к совместной работе государства, гражданского общества, частного сектора и граждан по восстановлению земель и защите природы, а также описывала экологические задачи как требующие коллективных действий. Это приглашение к совместному обсуждению и участию, хотя конкретные процедуры общественного контроля не указаны.",
+        "evidence_indices": [
+          13,
+          19,
+          21
+        ]
+      },
+      {
+        "variable_id": "participation-administrative-direction__negative",
+        "status": "observed",
+        "value": 2,
+        "confidence": 0.7,
+        "support_type": "positive_manifestation",
+        "rationale": "В ряде эпизодов Муджавамария формулирует задачи в виде государственных программ, целевых показателей и административных поручений (например, передача лесов частным операторам, внедрение технологий в школах), что отражает административную постановку задач и контроль исполнения.",
+        "evidence_indices": [
+          1,
+          11,
+          14,
+          30
+        ]
+      },
+      {
+        "variable_id": "argumentation-evidence-values__positive",
+        "status": "observed",
+        "value": 2,
+        "confidence": 0.7,
+        "support_type": "positive_manifestation",
+        "rationale": "В ряде публичных заявлений Муджавамария использует количественные ориентиры (например, 80% лесов передать частным операторам, 11 млрд долларов для климатических целей), что свидетельствует об опоре на данные и измеримые цели.",
+        "evidence_indices": [
+          1,
+          9,
+          12
+        ]
+      },
+      {
+        "variable_id": "argumentation-evidence-values__negative",
+        "status": "observed",
+        "value": 2,
+        "confidence": 0.7,
+        "support_type": "positive_manifestation",
+        "rationale": "В публичной риторике Муджавамарии присутствует апелляция к национальным традициям, коллективной памяти и ценностям (например, сохранение традиции посадки деревьев, передача практики следующим поколениям).",
+        "evidence_indices": [
+          0
+        ]
+      },
+      {
+        "variable_id": "market-state-instruments__positive",
+        "status": "observed",
+        "value": 2,
+        "confidence": 0.7,
+        "support_type": "positive_manifestation",
+        "rationale": "Муджавамария поддерживала передачу 80% государственных лесов частным операторам, а также облегчение доступа частного сектора к климатическому финансированию, что свидетельствует о расширении частной инициативы.",
+        "evidence_indices": [
+          1,
+          9
+        ]
+      },
+      {
+        "variable_id": "market-state-instruments__negative",
+        "status": "observed",
+        "value": 2,
+        "confidence": 0.7,
+        "support_type": "positive_manifestation",
+        "rationale": "В ряде эпизодов реализуются государственные программы и проекты (например, внедрение сжиженного газа в школах), что отражает элементы государственного планирования и обязательных правил.",
+        "evidence_indices": [
+          11,
+          14,
+          30
+        ]
+      },
+      {
+        "variable_id": "accessibility-growth-priorities__positive",
+        "status": "observed",
+        "value": 1,
+        "confidence": 0.6,
+        "support_type": "positive_manifestation",
+        "rationale": "Есть эпизоды адресного внедрения экологических и энергетических решений (например, сжиженный газ в школах), что свидетельствует о расширении доступности базовых благ, но масштаб ограничен конкретными учреждениями.",
+        "evidence_indices": [
+          11,
+          14,
+          20
+        ]
+      },
+      {
+        "variable_id": "accessibility-growth-priorities__negative",
+        "status": "observed",
+        "value": 2,
+        "confidence": 0.7,
+        "support_type": "positive_manifestation",
+        "rationale": "Муджавамария акцентировала необходимость привлечения инвестиций, роста конкурентоспособности и развития низкоуглеродной экономики, что соответствует приоритету роста инвестиций и деловой активности.",
+        "evidence_indices": [
+          9,
+          23
+        ]
+      },
+      {
+        "variable_id": "external-domestic-resources__positive",
+        "status": "observed",
+        "value": 3,
+        "confidence": 0.8,
+        "support_type": "positive_manifestation",
+        "rationale": "Муджавамария неоднократно выступала за привлечение внешнего финансирования, международных партнёрств и инвестиций для достижения климатических целей, в том числе на COP26 и Stockholm+50.",
+        "evidence_indices": [
+          2,
+          9,
+          15,
+          16,
+          17
+        ]
+      },
+      {
+        "variable_id": "external-domestic-resources__negative",
+        "status": "unknown",
+        "value": null,
+        "confidence": 0.5,
+        "support_type": "unknown",
+        "rationale": "Нет прямых заявлений Муджавамарии о приоритете внутренних доходов или снижении зависимости от внешних поступлений.",
+        "evidence_indices": []
+      },
+      {
+        "variable_id": "international-rules-autonomy__positive",
+        "status": "observed",
+        "value": 3,
+        "confidence": 0.8,
+        "support_type": "positive_manifestation",
+        "rationale": "Муджавамария публично поддерживала закрепление обязательных международных норм (например, призыв к юридически обязательному договору по пластику, всеобщая ратификация Kigali Amendment, согласование национальных целей с глобальными приоритетами).",
+        "evidence_indices": [
+          16,
+          24,
+          26,
+          29
+        ]
+      },
+      {
+        "variable_id": "international-rules-autonomy__negative",
+        "status": "unknown",
+        "value": null,
+        "confidence": 0.5,
+        "support_type": "unknown",
+        "rationale": "Нет прямых заявлений Муджавамарии о защите национальной самостоятельности решений или возражениях против международных обязательств.",
+        "evidence_indices": []
+      },
+      {
+        "variable_id": "mediation-adversarial-communication__positive",
+        "status": "unknown",
+        "value": null,
+        "confidence": 0.5,
+        "support_type": "unknown",
+        "rationale": "Нет эпизодов, где Муджавамария выступала бы посредником или инициировала переговоры между конфликтующими сторонами.",
+        "evidence_indices": []
+      },
+      {
+        "variable_id": "mediation-adversarial-communication__negative",
+        "status": "unknown",
+        "value": null,
+        "confidence": 0.5,
+        "support_type": "unknown",
+        "rationale": "Нет эпизодов, где Муджавамария публично оспаривала обвинения, вела полемику или защищала только свою сторону в конфликте.",
+        "evidence_indices": []
+      }
+    ]
+  },
+  "model": "gpt-4.1",
+  "task": "independent-ratings-jeanne-darc-mujawamariya-0",
+  "at": "2026-10-15T17:30:28.537507+00:00",
+  "usage": {
+    "prompt_tokens": 9686,
+    "completion_tokens": 1687,
+    "total_tokens": 11373,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "audio_tokens": 0
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "audio_tokens": 0,
+      "accepted_prediction_tokens": 0,
+      "rejected_prediction_tokens": 0
+    }
+  },
+  "citations": [],
+  "system_fingerprint": "fp_801d3b7b5c",
+  "cache_key": "be2501510d422fa19ec99df6e5164bfd08f66358257697640fbaa0ee080232fd"
+}

@@ -1,0 +1,657 @@
+{
+  "schema_version": 1,
+  "audit_kind": "independent_poles_uniform_coverage_completion",
+  "study_id": "rwanda-politicians-2021-2026",
+  "date": "2026-10-15",
+  "period": {
+    "date_from": "2021-10-15",
+    "date_to": "2026-10-15"
+  },
+  "reviewer": "assistant_direct_source_and_construct_review_not_human_expert",
+  "purpose": "Одинаковая предварительная проверка всех текущих пропусков двух заранее назначенных свойств до какого-либо факторного анализа. Никакие нагрузки, факторы или ковариации не использовались.",
+  "screened_objects": 42,
+  "existing_observed_not_reassessed": 49,
+  "checked_properties": [
+    [
+      "paul-kagame",
+      "participation-administrative-direction",
+      "negative"
+    ],
+    [
+      "olivier-nduhungirehe",
+      "participation-administrative-direction",
+      "negative"
+    ],
+    [
+      "james-kabarebe",
+      "participation-administrative-direction",
+      "negative"
+    ],
+    [
+      "juvenal-marizamunda",
+      "participation-administrative-direction",
+      "negative"
+    ],
+    [
+      "ines-mpambara",
+      "participation-administrative-direction",
+      "negative"
+    ],
+    [
+      "gerardine-mukeshimana",
+      "participation-administrative-direction",
+      "negative"
+    ],
+    [
+      "ildephonse-musafiri",
+      "participation-administrative-direction",
+      "negative"
+    ],
+    [
+      "francis-gatare",
+      "participation-administrative-direction",
+      "negative"
+    ],
+    [
+      "mussa-fazil-harerimana",
+      "participation-administrative-direction",
+      "negative"
+    ],
+    [
+      "philippe-mpayimana",
+      "participation-administrative-direction",
+      "negative"
+    ],
+    [
+      "victoire-ingabire",
+      "participation-administrative-direction",
+      "negative"
+    ],
+    [
+      "diane-rwigara",
+      "participation-administrative-direction",
+      "negative"
+    ],
+    [
+      "bernard-ntaganda",
+      "participation-administrative-direction",
+      "negative"
+    ],
+    [
+      "christopher-kayumba",
+      "participation-administrative-direction",
+      "negative"
+    ],
+    [
+      "paul-rusesabagina",
+      "participation-administrative-direction",
+      "negative"
+    ],
+    [
+      "kayumba-nyamwasa",
+      "participation-administrative-direction",
+      "negative"
+    ],
+    [
+      "claver-gatete",
+      "participation-administrative-direction",
+      "negative"
+    ],
+    [
+      "paul-kagame",
+      "prevention-crisis-response",
+      "positive"
+    ],
+    [
+      "vincent-biruta",
+      "prevention-crisis-response",
+      "positive"
+    ],
+    [
+      "olivier-nduhungirehe",
+      "prevention-crisis-response",
+      "positive"
+    ],
+    [
+      "james-kabarebe",
+      "prevention-crisis-response",
+      "positive"
+    ],
+    [
+      "ines-mpambara",
+      "prevention-crisis-response",
+      "positive"
+    ],
+    [
+      "clare-akamanzi",
+      "prevention-crisis-response",
+      "positive"
+    ],
+    [
+      "francis-gatare",
+      "prevention-crisis-response",
+      "positive"
+    ],
+    [
+      "gertrude-kazarwa",
+      "prevention-crisis-response",
+      "positive"
+    ],
+    [
+      "augustin-iyamuremye",
+      "prevention-crisis-response",
+      "positive"
+    ],
+    [
+      "mussa-fazil-harerimana",
+      "prevention-crisis-response",
+      "positive"
+    ],
+    [
+      "frank-habineza",
+      "prevention-crisis-response",
+      "positive"
+    ],
+    [
+      "philippe-mpayimana",
+      "prevention-crisis-response",
+      "positive"
+    ],
+    [
+      "victoire-ingabire",
+      "prevention-crisis-response",
+      "positive"
+    ],
+    [
+      "diane-rwigara",
+      "prevention-crisis-response",
+      "positive"
+    ],
+    [
+      "bernard-ntaganda",
+      "prevention-crisis-response",
+      "positive"
+    ],
+    [
+      "christopher-kayumba",
+      "prevention-crisis-response",
+      "positive"
+    ],
+    [
+      "kayumba-nyamwasa",
+      "prevention-crisis-response",
+      "positive"
+    ],
+    [
+      "louise-mushikiwabo",
+      "prevention-crisis-response",
+      "positive"
+    ]
+  ],
+  "observations": [
+    {
+      "object_id": "gerardine-mukeshimana",
+      "scale_id": "participation-administrative-direction",
+      "pole": "negative",
+      "value": 1,
+      "evidence_indices": [
+        0
+      ],
+      "rationale": "Новая разметка после чтения полного первичного релиза RAB: 18.03.2022 во время рабочего посещения подведомственной исследовательской организации Мукешимана прямо призвала усилить охват фермеров её работой. Это единичное адресное публичное задание организации, а не вывод из министерской должности, самого посещения или выставки. Ограниченный балл 1 не означает доказанного общего командного стиля или повторяющегося контроля исполнения.",
+      "source_urls": [
+        "https://www.rab.gov.rw/1-1/news-details/the-minister-of-agriculture-and-animal-resources-visits-rab"
+      ],
+      "source_verification": {
+        "published_or_event_date": "2022-03-18",
+        "capacity": "Министр сельского хозяйства и животноводства, рабочее обращение в RAB",
+        "topic": "participation-administrative-direction__negative",
+        "excerpt_paraphrase": "Официальный релиз описывает посещение исследовательских и производственных площадок RAB и непосредственно приписывает министру призыв расширить работу с фермерами для ускорения социально-экономического преобразования.",
+        "verification": "full_primary_release_read",
+        "novel_basis_vs_prior_rejection": "Прежний отказ опирался на обобщённое описание посещения (9), открытие выставки (16) и недатированное обращение (2). Здесь используется конкретный прямой призыв из полного текста датированного релиза, отражённый в 0; это тот же визит, а не новый независимый эпизод.",
+        "single_event": true
+      }
+    },
+    {
+      "object_id": "ildephonse-musafiri",
+      "scale_id": "participation-administrative-direction",
+      "pole": "negative",
+      "value": 1,
+      "evidence_indices": [
+        2
+      ],
+      "rationale": "11.05.2023 Мусафири лично созвал отраслевой SWAp и представил национальным и международным партнёрам план подготовки единой программы PSTA5. Это узкое проявление организации общего плана с конкретной программой и этапом подготовки, которое входит в определение второго свойства. Обратная связь партнёров одновременно совместима с первым свойством. Источник не доказывает принуждения, персональных распоряжений каждому участнику или устойчивого контроля; поэтому 1.",
+      "source_urls": [
+        "https://www.fao.org/food-systems/news/news-detail/Rwanda-Makes-Steady-Progress-on-Path-to-Food-Systems-Transformation-/"
+      ],
+      "source_verification": {
+        "published_date": "2023-06-06",
+        "event_date": "2023-05-11",
+        "capacity": "Министр сельского хозяйства и животноводства, организатор отраслевого координационного заседания",
+        "topic": "participation-administrative-direction__negative",
+        "excerpt_paraphrase": "FAO персонально сообщает, что министр созвал заседание SWAp 11 мая, представил видение министерства и план разработки PSTA5 для комментариев партнёров. Другое упомянутое совещание экспертов созывал Оливье Камана; его действие Мусафири не приписывается.",
+        "verification": "full_official_FAO_release_read",
+        "novel_basis_vs_prior_rejection": "Прежний отказ касался совета животноводам (3) и церемонии передачи полномочий (5). Новый вывод основан на организации конкретного общего плана PSTA5 (2); административное поручение подчинённым из 3/5 не восстанавливается.",
+        "single_event": true,
+        "construct_scope_limit": "Общий план и его организованная подготовка; не доказательство директивного управления всеми участниками."
+      }
+    },
+    {
+      "object_id": "claver-gatete",
+      "scale_id": "participation-administrative-direction",
+      "pole": "negative",
+      "value": 1,
+      "evidence_indices": [],
+      "rationale": "В декабрьском обзоре исполнения и подготовке годового плана UNECA на 2024 год Гатете сам обозначил приоритет экспертам: связать социальную и макроэкономическую работу, а также энергетическое, промышленное и диверсификационное направления. Собственный публичный акцент на общей работе подразделений в контексте обзора исполнения/общего плана даёт единичное проявление 1. Приказы и рекомендации других выступавших ему не приписываются.",
+      "source_urls": [
+        "https://www.uneca.org/stories/eca-concludes-review-of-achievements-and-a-forward-looking-plan-for-2024-and-beyond"
+      ],
+      "new_facts": [
+        {
+          "text": "В официальном релизе UNECA от 18 декабря 2023 года о годовом и квартальном обзоре исполнения и подготовке Annual Business Plan 2024 Гатете лично призвал усилить сопряжение социальной и макроэкономической политики, энергетики и индустриализации/диверсификации, обозначив совместную работу экспертов соответствующих направлений с партнёрами как способ реализации этого приоритета. Это ограниченное адресное направление работы в общей программе. Релиз отдельно приписывает указания по руководству управления проектами Саиду Адежумоби; они не являются высказыванием Гатете.",
+          "source_url": "https://www.uneca.org/stories/eca-concludes-review-of-achievements-and-a-forward-looking-plan-for-2024-and-beyond",
+          "period": "2023-12",
+          "published_date": "2023-12-18",
+          "event_id": "CG-2023-12-APPRM-PLAN2024",
+          "capacity": "Исполнительный секретарь UNECA, руководитель институционального обзора исполнения и подготовки плана",
+          "channel": "public_statement",
+          "topic_ids": [
+            "participation-administrative-direction__negative"
+          ],
+          "measurement_status": "reviewed",
+          "evidence_origin": "assistant_verified_primary_source",
+          "verification": "full_official_primary_release_read",
+          "date_note": "Релиз содержит противоречивую запись дней заседания «December 17–15»; точные дни события не восстановлены. Месяц/год и дата публикации установлены и входят в окно.",
+          "excerpt_paraphrase": "По собственным словам Гатете, экспертам нужно усилить сопряжение определённых политических и отраслевых направлений. Заседание посвящено обзору исполнения и подготовке единого годового плана.",
+          "single_event": true
+        }
+      ],
+      "source_verification": {
+        "novel_basis_vs_prior_rejection": "Новый первичный релиз о собственном выступлении Гатете; прежние 0/2/5 описывали только назначение, биографию и карьеру.",
+        "construct_scope_limit": "Один адресный приоритет при общем планировании; призывы Адежумоби и все коллективные решения Гатете не приписываются."
+      }
+    },
+    {
+      "object_id": "frank-habineza",
+      "scale_id": "prevention-crisis-response",
+      "pole": "positive",
+      "value": 2,
+      "evidence_indices": [
+        2
+      ],
+      "rationale": "В собственной предвыборной речи в Муханге 09.07.2024 Хабинеза связал беспорядочную добычу с эрозией и угрозами воде и плотинам и предложил прозрачную инспекцию ДО выдачи разрешений на добычу, а также картирование месторождений для предупреждения беспорядочной разработки. Это конкретный механизм предотвращения будущего вреда, а не только обсуждение уже возникшей проблемы. 2 отражает один подробно раскрытый эпизод; повторяющаяся практика и реализация предложения не установлены.",
+      "source_urls": [
+        "https://www.newtimes.co.rw/article/18346/news/elections/frank-habineza-campaigns-in-muhanga-promises-changes-in-mining-sector/amp"
+      ],
+      "source_verification": {
+        "published_date": "2024-07-10",
+        "event_date": "2024-07-09",
+        "event_id": "habineza-muhanga-2024-07-09",
+        "capacity": "Кандидат в президенты, собственное публичное программное выступление",
+        "topic": "prevention-crisis-response__positive",
+        "excerpt_paraphrase": "В репортаже приведено предложение Хабинезы изменить порядок выдачи горных разрешений: прежде проводить прозрачную инспекцию, чтобы не повреждать горы, водно-болотные угодья и реки. Дополнительно он предлагает новые карты месторождений, чтобы предотвратить беспорядочную добычу.",
+        "verification": "full_primary_speech_report_with_attributed_direct_statement_read",
+        "single_event": true
+      }
+    },
+    {
+      "object_id": "victoire-ingabire",
+      "scale_id": "prevention-crisis-response",
+      "pole": "positive",
+      "value": 1,
+      "evidence_indices": [
+        24
+      ],
+      "rationale": "В собственной статье 23.06.2023 Ингабире предлагает независимую эффективную судебную систему с санкциями за язык ненависти и ясные указания о ненасильственном содержании публичной коммуникации, прямо связывая это с предотвращением повторения ситуации перед геноцидом. Содержание относится к предупреждению дальнейшего тяжёлого вреда, даже при уже существующем языке ненависти. Это один прямой программный эпизод, поэтому 1; реализация мер не установлена.",
+      "source_urls": [
+        "https://www.theelephant.info/opinion/2023/06/23/hate-speech-rwanda-must-not-fall-back-into-the-pre-genocide-trap/"
+      ],
+      "source_verification": {
+        "published_or_event_date": "2023-06-23",
+        "event_id": "VI-2023-06-23-01",
+        "capacity": "Автор именной публичной статьи, председатель DALFA-Umurinzi",
+        "topic": "prevention-crisis-response__positive",
+        "excerpt_paraphrase": "В заключении именной статьи автор предлагает независимое судебное пресечение языка ненависти и требует, чтобы руководители ясно исключали язык ненависти из поручений молодёжи вести публичную полемику. Цель сформулирована как предотвращение возвращения к предгеноцидной ситуации.",
+        "verification": "full_authored_primary_article_read",
+        "single_event": true
+      }
+    },
+    {
+      "object_id": "paul-kagame",
+      "scale_id": "prevention-crisis-response",
+      "pole": "positive",
+      "value": 1,
+      "evidence_indices": [],
+      "rationale": "В собственной речи на AI for Good 08.07.2026 Кагаме публично описал Health Intelligence Centre, который собирает текущие медицинские данные и использует ИИ для ПРОГНОЗИРОВАНИЯ вспышек заболеваний, связывая это с политическими решениями. Это прямое публичное продвижение конкретного упреждающего инструмента, а не вывод из президентской должности или поведения других органов. Один эпизод — 1; личное авторство создания системы, её точность и фактическая эффективность источником не устанавливаются.",
+      "source_urls": [
+        "https://www.paulkagame.rw/ai-for-good-global-summit-2026-remarks-by-president-kagame-geneva-8-july-2026/"
+      ],
+      "new_facts": [
+        {
+          "text": "В опубликованной именной речи на AI for Good Global Summit в Женеве 8 июля 2026 года Поль Кагаме назвал Health Intelligence Centre примером использования данных в здравоохранении: по его словам, центр собирает данные в реальном времени и применяет ИИ для прогнозирования вспышек заболеваний, что позволяет принимать лучшие политические решения. Факт подтверждает собственное публичное продвижение упреждающего механизма. Он не устанавливает, что Кагаме лично создал центр, и не является независимой оценкой его эффективности.",
+          "source_url": "https://www.paulkagame.rw/ai-for-good-global-summit-2026-remarks-by-president-kagame-geneva-8-july-2026/",
+          "period": "2026-07-08",
+          "published_date": "2026-07-08",
+          "event_id": "PK-2026-07-08-AI-FOR-GOOD",
+          "capacity": "Президент Руанды, автор публичного выступления на международном саммите",
+          "channel": "public_statement",
+          "topic_ids": [
+            "prevention-crisis-response__positive"
+          ],
+          "measurement_status": "reviewed",
+          "evidence_origin": "assistant_verified_primary_source",
+          "verification": "full_official_authored_speech_read",
+          "excerpt_paraphrase": "Кагаме публично связывает сбор медицинских данных в реальном времени и применение ИИ с прогнозированием вспышек заболеваний и упреждающими решениями.",
+          "single_event": true
+        }
+      ]
+    }
+  ],
+  "unknown_reason_summary": {
+    "remaining_unknown_count": 29,
+    "by_variable": [
+      {
+        "variable_id": "participation-administrative-direction__negative",
+        "known_before": 25,
+        "missing_checked": 17,
+        "new_observations": 3,
+        "remaining_unknown": 14
+      },
+      {
+        "variable_id": "prevention-crisis-response__positive",
+        "known_before": 24,
+        "missing_checked": 18,
+        "new_observations": 3,
+        "remaining_unknown": 15
+      }
+    ],
+    "properties": [
+      {
+        "object_id": "paul-kagame",
+        "scale_id": "participation-administrative-direction",
+        "pole": "negative",
+        "reason": "Прежние ограничения кандидатов/судебные и правозащитные сообщения не являются собственными поручениями. Дополнительно прочитанные речи 2026 года о служении и лидерских качествах дают общие призывы, но не конкретный план исполнителей/поручение с контролем.",
+        "previous_rejection_preserved": true
+      },
+      {
+        "object_id": "olivier-nduhungirehe",
+        "scale_id": "participation-administrative-direction",
+        "pole": "negative",
+        "reason": "Дипломатические брифинги 15/25 информируют послов; стратегический диалог 24 — межгосударственное согласование. Прямого поручения исполнителям или контроля исполнения в имеющемся корпусе не обнаружено. Прежний отказ сохраняется.",
+        "previous_rejection_preserved": true
+      },
+      {
+        "object_id": "james-kabarebe",
+        "scale_id": "participation-administrative-direction",
+        "pole": "negative",
+        "reason": "Интеграционные цели 9/10, единство 12 и встречи не содержат собственных административных поручений. Обвинения OFAC и правительственные заявления не заменяют датированного личного публичного действия. Прежний отказ сохраняется.",
+        "previous_rejection_preserved": true
+      },
+      {
+        "object_id": "juvenal-marizamunda",
+        "scale_id": "participation-administrative-direction",
+        "pole": "negative",
+        "reason": "Досье фиксирует дипломатические и военные контакты, церемонии и обсуждение угроз. Новый релиз MOD от 19.12.2024 содержит призыв государствам EASF сотрудничать и улучшать реагирование, но не поручение подчинённым исполнителям; общая координация государств не кодируется как административная постановка задач.",
+        "previous_rejection_preserved": false
+      },
+      {
+        "object_id": "ines-mpambara",
+        "scale_id": "participation-administrative-direction",
+        "pole": "negative",
+        "reason": "Должность и биография 0/1/3, недатированные сообщения 2/4 и мемориальное выступление 5 не показывают конкретных поручений или контроля. Присутствие на церемонии, где выступает другой чиновник, не приписывается ей.",
+        "previous_rejection_preserved": false
+      },
+      {
+        "object_id": "francis-gatare",
+        "scale_id": "participation-administrative-direction",
+        "pole": "negative",
+        "reason": "Выражения готовности работать/учиться, инвестиционные проекты и описание будущей школы управления не показывают его персональных поручений исполнителям или контроля конкретного общего плана. Титул руководителя не подменяет действие.",
+        "previous_rejection_preserved": false
+      },
+      {
+        "object_id": "mussa-fazil-harerimana",
+        "scale_id": "participation-administrative-direction",
+        "pole": "negative",
+        "reason": "Лояльность, единство, партийная поддержка курса и присутствие на семинаре не содержат поручений/контроля. Прежние 10/13/16 не восстанавливаются.",
+        "previous_rejection_preserved": true
+      },
+      {
+        "object_id": "philippe-mpayimana",
+        "scale_id": "participation-administrative-direction",
+        "pole": "negative",
+        "reason": "Манифест, изменение представительства и студенческие займы описывают программные намерения, а не его конкретный общий план работы исполнителей/контроль. Служебная должность и агитационные поездки не являются достаточным основанием.",
+        "previous_rejection_preserved": false
+      },
+      {
+        "object_id": "victoire-ingabire",
+        "scale_id": "participation-administrative-direction",
+        "pole": "negative",
+        "reason": "Программа реформ/диалога и судебные обращения не показывают административных поручений своим исполнителям. Отсутствие таких материалов не подтверждает 0; прежний отказ сохраняется.",
+        "previous_rejection_preserved": true
+      },
+      {
+        "object_id": "diane-rwigara",
+        "scale_id": "participation-administrative-direction",
+        "pole": "negative",
+        "reason": "Самовыдвижение, требования политического допуска и социальные обещания не показывают административных поручений или управления исполнителями. Из лидерства в движении свойство не выводится.",
+        "previous_rejection_preserved": false
+      },
+      {
+        "object_id": "bernard-ntaganda",
+        "scale_id": "participation-administrative-direction",
+        "pole": "negative",
+        "reason": "Судебное оспаривание, призыв к диалогу/консенсусу и внешние описания партийного статуса не дают собственного поручения/контроля. Недатированная исходная дорожная карта 11 не образует новый эпизод в окне.",
+        "previous_rejection_preserved": false
+      },
+      {
+        "object_id": "christopher-kayumba",
+        "scale_id": "participation-administrative-direction",
+        "pole": "negative",
+        "reason": "Судебные дела, требование открытого суда и внешние описания партии не содержат административного поручения. Аналитический текст другого автора 12 и уголовное осуждение не кодируются как собственная управленческая позиция.",
+        "previous_rejection_preserved": false
+      },
+      {
+        "object_id": "paul-rusesabagina",
+        "scale_id": "participation-administrative-direction",
+        "pole": "negative",
+        "reason": "Письмо о помиловании и интервью после освобождения не дают собственного публичного распоряжения исполнителям. Сожаление о прежней деятельности коалиции не доказывает административный контроль в исследуемом окне.",
+        "previous_rejection_preserved": false
+      },
+      {
+        "object_id": "kayumba-nyamwasa",
+        "scale_id": "participation-administrative-direction",
+        "pole": "negative",
+        "reason": "Внешние характеристики лидера RNC, неподтверждённые сообщения и обвинения властей не устанавливают его собственных публичных поручений или решений об операциях. Имена организаций/должности не заменяют прямой факт.",
+        "previous_rejection_preserved": false
+      },
+      {
+        "object_id": "vincent-biruta",
+        "scale_id": "prevention-crisis-response",
+        "pole": "positive",
+        "reason": "Региональный обмен информацией 8, общие темы устойчивости 11 и посадка деревьев 12 не раскрывают собственный конкретный механизм подготовки к определённому риску. Меры 9 исправляют уже существующую переполненность тюрем; дипломатическая встреча ОЗХО 13 не раскрывает личной инициативы.",
+        "previous_rejection_preserved": false
+      },
+      {
+        "object_id": "olivier-nduhungirehe",
+        "scale_id": "prevention-crisis-response",
+        "pole": "positive",
+        "reason": "14/21 анализируют причины терроризма без конкретной подготовки; 15/16/22 относятся к уже возникшему кризису в ДРК. Нового самостоятельного основания предупреждения до ущерба не найдено, прежний отказ сохраняется.",
+        "previous_rejection_preserved": true
+      },
+      {
+        "object_id": "james-kabarebe",
+        "scale_id": "prevention-crisis-response",
+        "pole": "positive",
+        "reason": "Призыв к континентальному единству 12 и дипломатические контакты не содержат конкретной подготовки до ущерба. Интеграционные цели и внешние обвинения не являются такой инициативой.",
+        "previous_rejection_preserved": false
+      },
+      {
+        "object_id": "ines-mpambara",
+        "scale_id": "prevention-crisis-response",
+        "pole": "positive",
+        "reason": "В доступных датированных материалах есть биографический/служебный контекст и обращение к свидетельствам переживших геноцид; конкретная собственная мера подготовки к будущему риску не найдена.",
+        "previous_rejection_preserved": false
+      },
+      {
+        "object_id": "clare-akamanzi",
+        "scale_id": "prevention-crisis-response",
+        "pole": "positive",
+        "reason": "Спортивная инфраструктура, навыки, акселератор и инвестиционное продвижение описывают развитие/доступ к возможностям, а не подготовку к определённому будущему ущербу. Дальновидность как общая характеристика не кодируется как профилактический механизм.",
+        "previous_rejection_preserved": false
+      },
+      {
+        "object_id": "francis-gatare",
+        "scale_id": "prevention-crisis-response",
+        "pole": "positive",
+        "reason": "Подготовка управленческих кадров и инвестиционные/инновационные проекты не привязаны в досье к конкретному прогнозируемому ущербу и мерам его предупреждения. Общее планирование будущего не равнозначно профилактике рисков.",
+        "previous_rejection_preserved": false
+      },
+      {
+        "object_id": "gertrude-kazarwa",
+        "scale_id": "prevention-crisis-response",
+        "pole": "positive",
+        "reason": "Мониторинг и корректировка обычных государственных программ 9/10/12 не являются подготовкой к конкретной угрозе; институциональное принятие закона 14 не приписывается ей лично. Прежний отказ сохраняется.",
+        "previous_rejection_preserved": true
+      },
+      {
+        "object_id": "augustin-iyamuremye",
+        "scale_id": "prevention-crisis-response",
+        "pole": "positive",
+        "reason": "Исследования клещей и предложения 9/20/21 исправляют уже выявленную низкую отдачу проекта; визит в зелёные проекты 22 сам по себе не доказывает личной предупредительной инициативы. Прежний отказ сохраняется.",
+        "previous_rejection_preserved": true
+      },
+      {
+        "object_id": "mussa-fazil-harerimana",
+        "scale_id": "prevention-crisis-response",
+        "pole": "positive",
+        "reason": "Утверждения о единстве/мире, память о геноциде и участие в климатическом семинаре не содержат собственной конкретной меры подготовки к будущему вреду.",
+        "previous_rejection_preserved": false
+      },
+      {
+        "object_id": "philippe-mpayimana",
+        "scale_id": "prevention-crisis-response",
+        "pole": "positive",
+        "reason": "Кредиты, представительство, патриотизм и общие намерения горной реформы не раскрывают предупредительного механизма. Содержание экологической/безопасностной части горной реформы прямо не установлено; сходство темы с предложением Хабинезы не переносит чужой факт.",
+        "previous_rejection_preserved": false
+      },
+      {
+        "object_id": "diane-rwigara",
+        "scale_id": "prevention-crisis-response",
+        "pole": "positive",
+        "reason": "Продовольствие/жильё/образование и политические права обозначены как социальные требования; собственная подготовка к названному будущему риску в досье не раскрыта. Политическая критика не является автоматически профилактикой.",
+        "previous_rejection_preserved": false
+      },
+      {
+        "object_id": "bernard-ntaganda",
+        "scale_id": "prevention-crisis-response",
+        "pole": "positive",
+        "reason": "Диалог и инклюзивность в заявлении 2025 года не содержат конкретной предварительной меры; судебные действия связаны с уже возникшим недопуском. Источник 11 пересказывает прежнюю инициативу без новой датированной исходной позиции.",
+        "previous_rejection_preserved": false
+      },
+      {
+        "object_id": "christopher-kayumba",
+        "scale_id": "prevention-crisis-response",
+        "pole": "positive",
+        "reason": "В корпусе преобладают судебная история и внешние оценки. Нет надёжного собственного датированного предложения подготовки к будущему ущербу; интерпретация аналитика и обвинение не подменяют его взглядов.",
+        "previous_rejection_preserved": false
+      },
+      {
+        "object_id": "kayumba-nyamwasa",
+        "scale_id": "prevention-crisis-response",
+        "pole": "positive",
+        "reason": "Прямые тексты конкретной предупредительной меры отсутствуют; обвинения/внешние описания оппозиционной роли или предполагаемой вооружённой координации не являются собственным публичным механизмом профилактики.",
+        "previous_rejection_preserved": false
+      },
+      {
+        "object_id": "louise-mushikiwabo",
+        "scale_id": "prevention-crisis-response",
+        "pole": "positive",
+        "reason": "Гаити 7 и ДРК 5 относятся к уже возникшим кризисам. Призывы к диалогу, политическому усилению OIF и спокойному обществу не раскрывают отдельный механизм подготовки до ущерба. Прежний отказ не пересматривается.",
+        "previous_rejection_preserved": true
+      }
+    ]
+  },
+  "measurement_rules": {
+    "zero": "Ни одному пропуску не присвоен ноль; отсутствие источников и отсутствие упоминания не являются подтверждённой невыраженностью.",
+    "small_scores": "Все новые баллы 1–2 основаны на одном ясно описанном эпизоде; 3–5, повторяемость и устойчивая центральность не заявляются.",
+    "old_rejections": "Прежние основания не восстанавливаются автоматически. Для повторно рассматриваемых объектов явно выделены другие прямые основания: конкретное обращение в полном первичном релизе, самостоятельная организация общего плана или новый первичный релиз о собственном выступлении.",
+    "scope": "Оценивается публично выраженное свойство, не скрытое убеждение. Собственные публичные предложения допускаются как проявление; их осуществление и эффективность отдельно не предполагаются.",
+    "completion": "Проверены все 35 текущих пропусков, проверка не прекращалась при достижении какого-либо порога покрытия. Действующие известные значения не заменялись.",
+    "canonical_data": "Никакие канонические досье, study.json или ratings.json не изменены; это отдельный проект новой разметки для прозрачного применения родительским процессом."
+  },
+  "search_log": {
+    "search_query_count": 6,
+    "scope": "Только недостающие свойства в заданном временном окне; без факторных результатов.",
+    "queries": [
+      "site.presidency.gov.rw Kagame 2024 leaders performance contracts",
+      "site:primature.gov.rw \"Mpambara\" \"2024\" leaders",
+      "site:mod.gov.rw \"Marizamunda\" \"urged\" \"2024\"",
+      "site:uneca.org \"Gatete\" \"staff\" \"2024\" retreat",
+      "site:paulkagame.rw 2023 Imihigo leaders performance contracts",
+      "site:paulkagame.rw 2023 pandemic preparedness"
+    ],
+    "additional_browsing": "Чтение найденных официальных страниц, архива выступлений Кагаме и первичных страниц по URL из текущих досье. Дальнейшие поисковые запросы не выполнялись.",
+    "rejected_search_materials": [
+      {
+        "object_id": "juvenal-marizamunda",
+        "source_url": "https://www.mod.gov.rw/docs-media/news-detail/easf-chiefs-of-defence-convene-in-kigali-for-stronger-partnership",
+        "published_date": "2024-12-19",
+        "reason": "Призыв государствам EASF к партнёрству и улучшению реагирования не устанавливает задания своим исполнителям."
+      },
+      {
+        "object_id": "ines-mpambara",
+        "source_url": "https://mod.gov.rw/docs-media/news-detail/prime-minister-presides-over-swearing-in-ceremony-of-new-military-high-court-officials",
+        "published_date": "2024-12-10",
+        "reason": "Мпамбара присутствует, но призывы судьям произносит премьер-министр Нгиренте; чужие слова не приписываются."
+      },
+      {
+        "object_id": "paul-kagame",
+        "source_url": "https://www.paulkagame.rw/president-kagame-officiates-swearing-in-of-new-members-of-parliament-kigali-2-october-2026/",
+        "published_date": "2026-10-02",
+        "reason": "Общий призыв лидерам решать проблемы не даёт конкретного задания исполнителям/общего плана с контролем."
+      },
+      {
+        "object_id": "paul-kagame",
+        "source_url": "https://www.paulkagame.rw/president-kagame-speaks-at-africa-food-systems-forum-2026-kigali-3-september-2026/",
+        "published_date": "2026-09-03",
+        "reason": "Рассуждение об инвестиционном de-risking ради доступа к капиталу не использовано как самостоятельное доказательство подготовки к конкретному кризисному ущербу."
+      },
+      {
+        "object_id": "paul-kagame",
+        "source_url": "https://www.paulkagame.rw/14th-graduation-ceremony-of-rdf-senior-command-and-staff-course-remarks-by-president-kagame-nyakinama-12-june-2026/",
+        "published_date": "2026-06-12",
+        "reason": "Нормативные качества лидера и обучение военных без отдельного конкретного поручения не переводятся в административное свойство."
+      }
+    ]
+  },
+  "inputhashes": {
+    "algorithm": "sha256",
+    "files": {
+      "studies/rwanda-politicians-2021-2026/study.json": "375e3881412e522e5f8406b2f5640b3ea93f589a44deacbd4864ac8307983227",
+      "studies/rwanda-politicians-2021-2026/ratings.json": "045e3c56eba2e87f8e2963818ad31635f904d90f2c63804438477108606ba9f3",
+      "studies/rwanda-politicians-2021-2026/evidence/independent-dossier-paul-kagame.json": "4a7e2f061ad37f98b35777b708e0b5f4d5fe3312d7a3c48277e42561d7217cc5",
+      "studies/rwanda-politicians-2021-2026/evidence/independent-dossier-olivier-nduhungirehe.json": "73034f00293493a25318fe7880a2fe47d6d4ebe533c8b3d308ab33c208b7b6e2",
+      "studies/rwanda-politicians-2021-2026/evidence/independent-dossier-james-kabarebe.json": "5db000f0683a2e514f57f5a8daf50d59f5ee2841ae1cb9ad9bb06bbe8866b57b",
+      "studies/rwanda-politicians-2021-2026/evidence/independent-dossier-juvenal-marizamunda.json": "86e124766a98dcbaabd53018d3cd60f50ad70856146d6fa6404817bd25651522",
+      "studies/rwanda-politicians-2021-2026/evidence/independent-dossier-ines-mpambara.json": "515b98a3a419512f7212038cf423cb225ab74c93df4dffdcfb16a36ac3d5b554",
+      "studies/rwanda-politicians-2021-2026/evidence/independent-dossier-gerardine-mukeshimana.json": "85ee7fb66d429b181dfa96de29206d043b17480c1550853b4c38d919299791dd",
+      "studies/rwanda-politicians-2021-2026/evidence/independent-dossier-ildephonse-musafiri.json": "f3490cb5031748f1adce69aee27860458dc574262271dd6b9278a3a97c5515e5",
+      "studies/rwanda-politicians-2021-2026/evidence/independent-dossier-francis-gatare.json": "614886e3e8ef799eec69c17aa2770b105e163f1535f80f8ca204ad453caf6508",
+      "studies/rwanda-politicians-2021-2026/evidence/independent-dossier-mussa-fazil-harerimana.json": "9222ec42ea5873d51c33d18bbf82759ada775896adc3978cf5ff4c627973e179",
+      "studies/rwanda-politicians-2021-2026/evidence/independent-dossier-philippe-mpayimana.json": "d7093bcf5d3923953852339c541888a9cd5fcfc42ea456c198c96e9e79afc763",
+      "studies/rwanda-politicians-2021-2026/evidence/independent-dossier-victoire-ingabire.json": "a12d7cc9caec9b9c91cbf9be31c06d2484f9d7a20b0b71c176c54f8154e94c2d",
+      "studies/rwanda-politicians-2021-2026/evidence/independent-dossier-diane-rwigara.json": "6ae7aa10687c55fa629e79e30631b16578eb3e05753cfd3ba90bc95df7f7036f",
+      "studies/rwanda-politicians-2021-2026/evidence/independent-dossier-bernard-ntaganda.json": "c5c3a2f655e8cba7dc1cbe95bfdead7d496f9105f4e10d954e881786ac82d961",
+      "studies/rwanda-politicians-2021-2026/evidence/independent-dossier-christopher-kayumba.json": "97c3786beb590ec9360a5e077cf5b9da58ae50e16ff7bba9bfaee4ab2cbfbc8f",
+      "studies/rwanda-politicians-2021-2026/evidence/independent-dossier-paul-rusesabagina.json": "f3fa805418f5ad67747d4e88e4abc00b2f9495606cb8e07130ba31f0f1cea8f5",
+      "studies/rwanda-politicians-2021-2026/evidence/independent-dossier-kayumba-nyamwasa.json": "655c5c1fffe95fefd0a24c83f5c269065848333903dfce006a64fa16eb6cd989",
+      "studies/rwanda-politicians-2021-2026/evidence/independent-dossier-claver-gatete.json": "230737b5010aeb3a56bcfd1da37ad1e47644bff6b8da9b43f26df0134ef090fc",
+      "studies/rwanda-politicians-2021-2026/evidence/independent-dossier-vincent-biruta.json": "ac5294148c699e8aad4116a50f490604096188e2d8f5af05f59ca1efcfd616c1",
+      "studies/rwanda-politicians-2021-2026/evidence/independent-dossier-clare-akamanzi.json": "81b4e63914bec84899d200ab933750e82aa1ac3dc911b268e9677b869669e016",
+      "studies/rwanda-politicians-2021-2026/evidence/independent-dossier-gertrude-kazarwa.json": "8f6faf5af1b366804327599f2c64b21d89102915e8f0f07315f64bbd0ef55d5a",
+      "studies/rwanda-politicians-2021-2026/evidence/independent-dossier-augustin-iyamuremye.json": "aae35424b5a99fe037e59dd5cedf7d288b03acfc8aa6451d35a290c241a4cc66",
+      "studies/rwanda-politicians-2021-2026/evidence/independent-dossier-frank-habineza.json": "e631ffbf32bf496bb25f424d0c0c50f047d57aa5e0d5424dfc6bac1fe3dceaa2",
+      "studies/rwanda-politicians-2021-2026/evidence/independent-dossier-louise-mushikiwabo.json": "dd67587a88dd2831b8b2f3a2d59dcea6f18dfdf4476cdcd48570d20aab25b219"
+    }
+  },
+  "coverage_limits": "Дополнительная проверка ограничена доступными досье, шестью целевыми поисковыми запросами и чтением найденных первичных страниц. Сохранённые unknown означают недостаточность этих данных, а не отсутствие свойства у человека."
+}

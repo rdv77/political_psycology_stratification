@@ -1,0 +1,41 @@
+{
+  "data": {
+    "facts": [],
+    "limitations": "В доступных результатах нет дополнительных релевантных первичных материалов о Жюдит Увизейе за период 2021-10-15—2026-10-15. Единственный найденный материал African Union датирован 2019-11-07 и поэтому исключён; остальные результаты относятся к другим людям или не содержат проверяемых заявлений Увизейе. Сформировать требуемые 18–24 неповторяющихся эпизода без выдумывания данных невозможно.",
+    "sources": [
+      {
+        "title": "The Opening Remark of Hon. Judith Uwizeye, Minister in Office of the President of the Republic of Rwanda and the Chairperson of the outgoing STC",
+        "url": "https://au.int/en/speeches/20191107/opening-remark-hon-judith-uwizeye-minister-office-president-republic-rwanda-and"
+      }
+    ]
+  },
+  "model": "sonar-pro",
+  "task": "independent-retrieval-judith-uwizeye",
+  "at": "2026-10-15T17:22:00.668912+00:00",
+  "usage": {
+    "completion_tokens": 205,
+    "cost": {
+      "input_tokens_cost": 0.004739999999999999,
+      "output_tokens_cost": 0.00073,
+      "request_cost": 0.0025,
+      "total_cost": 0.00797
+    },
+    "prompt_tokens": 3884,
+    "search_context_size": "low",
+    "total_tokens": 4089
+  },
+  "citations": [
+    "https://za.ign.com/judith-hoag",
+    "https://airtime.standardmedia.co.ke/business/amp/crime-and-justice/article/2001560197/icc-deputy-prosecutor-visits-kenya-ahead-of-regional-conference-on-sexual-violence",
+    "https://auvio.rtbf.be/media/cvqld-debat-1-le-premier-debat-du-jour-3529199",
+    "https://au.int/en/speeches/20191107/opening-remark-hon-judith-uwizeye-minister-office-president-republic-rwanda-and",
+    "https://www.newtimes.co.rw/article/39699/news/featured/musanze-minister-urges-border-communities-to-strengthen-unity-through-ndi-umunyarwanda",
+    "https://airtime.standardmedia.co.ke/business/nairobi/article/2001560123/how-new-education-hub-plans-to-break-barriers-for-children-with-disabilities",
+    "https://www.theverge.com/policy",
+    "https://www.tasr.sk/priame-prenosy-tasr-a-tasrtv/tb-sas/42415-clanok.html",
+    "https://article.wn.com/view/2026/10/14/Judith_R_Wade/",
+    "https://www.pulse.ug/story/tiktoker-denied-bail-over-posts-targeting-diana-atwine-judith-nabakooba-2026101417242300734"
+  ],
+  "system_fingerprint": null,
+  "cache_key": "7867472c7b940d0d3b90e5118522755ba5f55804523671f67589414119440a8a"
+}

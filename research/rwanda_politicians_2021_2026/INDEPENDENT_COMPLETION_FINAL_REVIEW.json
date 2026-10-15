@@ -1,0 +1,457 @@
+{
+  "format_version": 1,
+  "review_id": "independent-completion-final-source-review",
+  "study_id": "rwanda-politicians-2021-2026",
+  "reviewed_at": "2026-10-15",
+  "reviewer": "service_concept",
+  "scope": "Read-only семантический аудит всех 20 дополнений по утверждённым определениям, сохранённым источниковым извлечениям и предшествующим проверкам. Полный первоисточник Гатете прочитан. Это не новая сплошная независимая верификация каждого первоисточника и не панель живых экспертов.",
+  "canonical_files_modified": false,
+  "claver_verdict": {
+    "object_id": "claver-gatete",
+    "scale_id": "market-state-instruments",
+    "pole": "negative",
+    "current_value": 1,
+    "recommended_value": 1,
+    "recommended_status": "observed",
+    "verdict": "limited_fiscal_oversight_signal",
+    "reason": "В речи 22.04.2025 Гатете лично призывает цифровизировать сбор налогов, совершенствовать налоговое администрирование, расширять налоговую базу и бороться с незаконными финансовыми потоками. Поэтому основание шире пожелания получить больше доходов: имеется узкий сигнал государственного фискального надзора. Однако не указаны конкретные новые обязательные правила, охват регулируемых субъектов или новая система публичного хозяйственного планирования. Уровень 2 чрезмерно уверенно переносит фискальную рекомендацию на весь конструкт; 1 сохраняет прямое ограниченное проявление. Это не свидетельство общего предпочтения государственного контроля над частной инициативой.",
+    "definition_scope": "Обязательные ограничения, публичное планирование и надзор. Работа в министерстве, объём бюджета и само наличие налоговых доходов недостаточны.",
+    "source_url": "https://www.uneca.org/stories/remarks-by-mr.-claver-gatete-at-the-african-consultative-group-meeting-with-the-imf-managing",
+    "source_period": "2025-04-22",
+    "source_read_status": "full_primary_text_read",
+    "model_impact": "Переменная не включена в сохранённые восемь аналитических признаков; рекомендация не меняет их геометрию и состав.",
+    "applied_by_this_review": false
+  },
+  "addition_reviews": [
+    {
+      "object_id": "gerardine-mukeshimana",
+      "scale_id": "participation-administrative-direction",
+      "pole": "negative",
+      "proposed_value": 1,
+      "current_status": "observed",
+      "current_value": 1,
+      "verdict": "retain_as_limited",
+      "qualifier": "Личное задание организации усилить работу с фермерами; не сам факт министерского визита.",
+      "basis_report": "research/rwanda_politicians_2021_2026/INDEPENDENT_COMPLETION_BATCH_1.json"
+    },
+    {
+      "object_id": "ildephonse-musafiri",
+      "scale_id": "participation-administrative-direction",
+      "pole": "negative",
+      "proposed_value": 1,
+      "current_status": "observed",
+      "current_value": 1,
+      "verdict": "retain_as_limited",
+      "qualifier": "Одно созывание и подготовка конкретного общего плана; обратная связь партнёров совместима с участием, принуждение не установлено.",
+      "basis_report": "research/rwanda_politicians_2021_2026/INDEPENDENT_COMPLETION_BATCH_1.json"
+    },
+    {
+      "object_id": "claver-gatete",
+      "scale_id": "participation-administrative-direction",
+      "pole": "negative",
+      "proposed_value": 1,
+      "current_status": "observed",
+      "current_value": 1,
+      "verdict": "retain_as_limited",
+      "qualifier": "Личное направление совместной работы подразделений; распоряжения другого сотрудника Гатете не приписываются.",
+      "basis_report": "research/rwanda_politicians_2021_2026/INDEPENDENT_COMPLETION_BATCH_1.json"
+    },
+    {
+      "object_id": "frank-habineza",
+      "scale_id": "prevention-crisis-response",
+      "pole": "positive",
+      "proposed_value": 2,
+      "current_status": "observed",
+      "current_value": 2,
+      "verdict": "retain_as_limited",
+      "qualifier": "Соответствует узкому личному публичному проявлению в сохранённом источниковом основании. Не обобщать за пределы эпизода и не считать доказательством частных убеждений.",
+      "basis_report": "research/rwanda_politicians_2021_2026/INDEPENDENT_COMPLETION_BATCH_1.json"
+    },
+    {
+      "object_id": "victoire-ingabire",
+      "scale_id": "prevention-crisis-response",
+      "pole": "positive",
+      "proposed_value": 1,
+      "current_status": "observed",
+      "current_value": 1,
+      "verdict": "retain_as_limited",
+      "qualifier": "Предотвращение дальнейшей эскалации языка ненависти; санкции как предложенный механизм, а не доказанная реализованная практика.",
+      "basis_report": "research/rwanda_politicians_2021_2026/INDEPENDENT_COMPLETION_BATCH_1.json"
+    },
+    {
+      "object_id": "paul-kagame",
+      "scale_id": "prevention-crisis-response",
+      "pole": "positive",
+      "proposed_value": 1,
+      "current_status": "observed",
+      "current_value": 1,
+      "verdict": "retain_as_limited",
+      "qualifier": "Соответствует узкому личному публичному проявлению в сохранённом источниковом основании. Не обобщать за пределы эпизода и не считать доказательством частных убеждений.",
+      "basis_report": "research/rwanda_politicians_2021_2026/INDEPENDENT_COMPLETION_BATCH_1.json"
+    },
+    {
+      "object_id": "paul-kagame",
+      "scale_id": "government-course-assessment",
+      "pole": "positive",
+      "proposed_value": 2,
+      "current_status": "observed",
+      "current_value": 2,
+      "verdict": "retain_as_limited",
+      "qualifier": "Соответствует узкому личному публичному проявлению в сохранённом источниковом основании. Не обобщать за пределы эпизода и не считать доказательством частных убеждений.",
+      "basis_report": "research/rwanda_politicians_2021_2026/INDEPENDENT_COMPLETION_BATCH_2.json"
+    },
+    {
+      "object_id": "vincent-biruta",
+      "scale_id": "government-course-assessment",
+      "pole": "positive",
+      "proposed_value": 2,
+      "current_status": "observed",
+      "current_value": 2,
+      "verdict": "retain_as_limited",
+      "qualifier": "Соответствует узкому личному публичному проявлению в сохранённом источниковом основании. Не обобщать за пределы эпизода и не считать доказательством частных убеждений.",
+      "basis_report": "research/rwanda_politicians_2021_2026/INDEPENDENT_COMPLETION_BATCH_2.json"
+    },
+    {
+      "object_id": "jeanne-darc-mujawamariya",
+      "scale_id": "government-course-assessment",
+      "pole": "positive",
+      "proposed_value": 1,
+      "current_status": "observed",
+      "current_value": 1,
+      "verdict": "retain_as_limited",
+      "qualifier": "Соответствует узкому личному публичному проявлению в сохранённом источниковом основании. Не обобщать за пределы эпизода и не считать доказательством частных убеждений.",
+      "basis_report": "research/rwanda_politicians_2021_2026/INDEPENDENT_COMPLETION_BATCH_2.json"
+    },
+    {
+      "object_id": "alvera-mukabaramba",
+      "scale_id": "government-course-assessment",
+      "pole": "positive",
+      "proposed_value": 2,
+      "current_status": "observed",
+      "current_value": 2,
+      "verdict": "retain_as_limited",
+      "qualifier": "Соответствует узкому личному публичному проявлению в сохранённом источниковом основании. Не обобщать за пределы эпизода и не считать доказательством частных убеждений.",
+      "basis_report": "research/rwanda_politicians_2021_2026/INDEPENDENT_COMPLETION_BATCH_2.json"
+    },
+    {
+      "object_id": "paul-kagame",
+      "scale_id": "problem-disclosure-reputation-defence",
+      "pole": "positive",
+      "proposed_value": 2,
+      "current_status": "observed",
+      "current_value": 2,
+      "verdict": "retain_as_limited",
+      "qualifier": "Проблемы внутриафриканской торговли с включением Руанды; не приписывать признание конкретного исключительно руандийского сбоя.",
+      "basis_report": "research/rwanda_politicians_2021_2026/INDEPENDENT_COMPLETION_BATCH_2.json"
+    },
+    {
+      "object_id": "gerardine-mukeshimana",
+      "scale_id": "problem-disclosure-reputation-defence",
+      "pole": "positive",
+      "proposed_value": 1,
+      "current_status": "observed",
+      "current_value": 1,
+      "verdict": "retain_as_limited",
+      "qualifier": "Соответствует узкому личному публичному проявлению в сохранённом источниковом основании. Не обобщать за пределы эпизода и не считать доказательством частных убеждений.",
+      "basis_report": "research/rwanda_politicians_2021_2026/INDEPENDENT_COMPLETION_BATCH_2.json"
+    },
+    {
+      "object_id": "alvera-mukabaramba",
+      "scale_id": "problem-disclosure-reputation-defence",
+      "pole": "positive",
+      "proposed_value": 1,
+      "current_status": "observed",
+      "current_value": 1,
+      "verdict": "retain_as_limited",
+      "qualifier": "Семантически допустимо только как единичная обеспокоенность конкретным надзором. Полная страница повторно недоступна: сохранённая атрибутированная выписка не равна новой независимой первичной верификации.",
+      "basis_report": "research/rwanda_politicians_2021_2026/INDEPENDENT_COMPLETION_BATCH_2.json"
+    },
+    {
+      "object_id": "pudence-rubingisa",
+      "scale_id": "problem-disclosure-reputation-defence",
+      "pole": "positive",
+      "proposed_value": 2,
+      "current_status": "observed",
+      "current_value": 2,
+      "verdict": "retain_as_limited",
+      "qualifier": "Соответствует узкому личному публичному проявлению в сохранённом источниковом основании. Не обобщать за пределы эпизода и не считать доказательством частных убеждений.",
+      "basis_report": "research/rwanda_politicians_2021_2026/INDEPENDENT_COMPLETION_BATCH_2.json"
+    },
+    {
+      "object_id": "emmanuel-ugirashebuja",
+      "scale_id": "problem-disclosure-reputation-defence",
+      "pole": "positive",
+      "proposed_value": 1,
+      "current_status": "observed",
+      "current_value": 1,
+      "verdict": "retain_as_limited",
+      "qualifier": "Узкие пробелы доступа к правосудию; не общее признание неэффективности государственного курса.",
+      "basis_report": "research/rwanda_politicians_2021_2026/INDEPENDENT_COMPLETION_BATCH_2.json"
+    },
+    {
+      "object_id": "paul-kagame",
+      "scale_id": "accessibility-growth-priorities",
+      "pole": "negative",
+      "proposed_value": 2,
+      "current_status": "observed",
+      "current_value": 2,
+      "verdict": "retain_as_limited",
+      "qualifier": "Соответствует узкому личному публичному проявлению в сохранённом источниковом основании. Не обобщать за пределы эпизода и не считать доказательством частных убеждений.",
+      "basis_report": "research/rwanda_politicians_2021_2026/INDEPENDENT_COMPLETION_BATCH_3.json"
+    },
+    {
+      "object_id": "judith-uwizeye",
+      "scale_id": "accessibility-growth-priorities",
+      "pole": "negative",
+      "proposed_value": 2,
+      "current_status": "observed",
+      "current_value": 2,
+      "verdict": "retain_as_limited",
+      "qualifier": "Соответствует узкому личному публичному проявлению в сохранённом источниковом основании. Не обобщать за пределы эпизода и не считать доказательством частных убеждений.",
+      "basis_report": "research/rwanda_politicians_2021_2026/INDEPENDENT_COMPLETION_BATCH_3.json"
+    },
+    {
+      "object_id": "sabin-nsanzimana",
+      "scale_id": "accessibility-growth-priorities",
+      "pole": "negative",
+      "proposed_value": 2,
+      "current_status": "observed",
+      "current_value": 2,
+      "verdict": "retain_as_limited",
+      "qualifier": "Собственный акцент на местном производстве, а не просто медицинский проект. Точный день неизвестен, period2023 обозначает полный год внутри окна.",
+      "basis_report": "research/rwanda_politicians_2021_2026/INDEPENDENT_COMPLETION_BATCH_3.json"
+    },
+    {
+      "object_id": "louise-mushikiwabo",
+      "scale_id": "accessibility-growth-priorities",
+      "pole": "negative",
+      "proposed_value": 2,
+      "current_status": "observed",
+      "current_value": 2,
+      "verdict": "retain_as_limited",
+      "qualifier": "Публичный хозяйственный приоритет в международной роли OIF, не заявление национального правительства.",
+      "basis_report": "research/rwanda_politicians_2021_2026/INDEPENDENT_COMPLETION_BATCH_3.json"
+    },
+    {
+      "object_id": "claver-gatete",
+      "scale_id": "market-state-instruments",
+      "pole": "negative",
+      "proposed_value": 2,
+      "current_status": "observed",
+      "current_value": 1,
+      "verdict": "recommend_recode_1",
+      "qualifier": "В речи 22.04.2025 Гатете лично призывает цифровизировать сбор налогов, совершенствовать налоговое администрирование, расширять налоговую базу и бороться с незаконными финансовыми потоками. Поэтому основание шире пожелания получить больше доходов: имеется узкий сигнал государственного фискального надзора. Однако не указаны конкретные новые обязательные правила, охват регулируемых субъектов или новая система публичного хозяйственного планирования. Уровень 2 чрезмерно уверенно переносит фискальную рекомендацию на весь конструкт; 1 сохраняет прямое ограниченное проявление. Это не свидетельство общего предпочтения государственного контроля над частной инициативой.",
+      "basis_report": "research/rwanda_politicians_2021_2026/INDEPENDENT_COMPLETION_BATCH_3.json"
+    }
+  ],
+  "russia_review": {
+    "observed_properties": 7,
+    "actors": 4,
+    "correct_count_note": "В прочитанном ratings.json семь observed-полюсов у четырёх акторов, а не восемь. Счёт определяется по текущим ячейкам; несколько индексов одного события не увеличивают число измерений.",
+    "actor_notes": [
+      {
+        "object_id": "olivier-nduhungirehe",
+        "observed_properties": 3,
+        "qualifier": "Дипломатическое, хозяйственно-технологическое и образовательное сотрудничество — служебные публичные действия министра, не частная симпатия. AFP9/30 — один эпизод, а разные темы того же события не независимые источники. Наличие ряда разных контактов поддерживает повторяемость отдельных аспектов."
+      },
+      {
+        "object_id": "juvenal-marizamunda",
+        "observed_properties": 1,
+        "qualifier": "Единичное участие в оборонном контакте в контексте комиссии; не поставка, выполненный контракт или одобрение войны."
+      },
+      {
+        "object_id": "sabin-nsanzimana",
+        "observed_properties": 2,
+        "qualifier": "Один меморандум 19.05.2026 поддерживает два разных свойства — медицинское технологическое сотрудничество и подготовку кадров. 12/13/14 не три события; подписание не доказывает реализацию."
+      },
+      {
+        "object_id": "louise-mushikiwabo",
+        "observed_properties": 1,
+        "qualifier": "Критика конкретной российской агрессии в заявлении OIF24.02.2023 относится к её международной должностной роли, не к позиции правительства Руанды, санкциям или отрицанию всех отношений с Россией."
+      }
+    ],
+    "coverage_conclusion": "Это четыре ограниченных источниковых кейса, а не распределение отношения к России среди 42 политиков или населения. Российские переменные исключены по недостаточности наблюдений/вариации. Нельзя утверждать ни отсутствие российского фактора, ни долю его дисперсии ниже 2%; проверка такого порога не идентифицирована.",
+    "observed_cells": [
+      {
+        "object_id": "olivier-nduhungirehe",
+        "scale_id": "russia-diplomatic-engagement",
+        "pole": "positive",
+        "value": 3
+      },
+      {
+        "object_id": "olivier-nduhungirehe",
+        "scale_id": "russia-economic-technology-cooperation",
+        "pole": "positive",
+        "value": 3
+      },
+      {
+        "object_id": "olivier-nduhungirehe",
+        "scale_id": "russia-education-cultural-cooperation",
+        "pole": "positive",
+        "value": 3
+      },
+      {
+        "object_id": "juvenal-marizamunda",
+        "scale_id": "russia-security-cooperation",
+        "pole": "positive",
+        "value": 1
+      },
+      {
+        "object_id": "sabin-nsanzimana",
+        "scale_id": "russia-economic-technology-cooperation",
+        "pole": "positive",
+        "value": 2
+      },
+      {
+        "object_id": "sabin-nsanzimana",
+        "scale_id": "russia-education-cultural-cooperation",
+        "pole": "positive",
+        "value": 1
+      },
+      {
+        "object_id": "louise-mushikiwabo",
+        "scale_id": "russia-conflict-policy-evaluation",
+        "pole": "negative",
+        "value": 2
+      }
+    ]
+  },
+  "general_feature_scope": {
+    "retained_features": [
+      {
+        "id": "programmatic-renewal__positive",
+        "name": "Программное изменение существующего курса",
+        "observed_objects": 26,
+        "observed_retained_objects": 23,
+        "coverage": 0.6190476190476191
+      },
+      {
+        "id": "programmatic-renewal__negative",
+        "name": "Продолжение и закрепление действующего курса",
+        "observed_objects": 28,
+        "observed_retained_objects": 24,
+        "coverage": 0.6666666666666666
+      },
+      {
+        "id": "government-course-assessment__positive",
+        "name": "Публичная поддержка действующего государственного курса",
+        "observed_objects": 27,
+        "observed_retained_objects": 22,
+        "coverage": 0.6428571428571429
+      },
+      {
+        "id": "participation-administrative-direction__negative",
+        "name": "Административная постановка задач и контроль исполнения",
+        "observed_objects": 28,
+        "observed_retained_objects": 26,
+        "coverage": 0.6666666666666666
+      },
+      {
+        "id": "argumentation-evidence-values__negative",
+        "name": "Обоснование через ценности, память и коллективные символы",
+        "observed_objects": 36,
+        "observed_retained_objects": 24,
+        "coverage": 0.8571428571428571
+      },
+      {
+        "id": "accessibility-growth-priorities__positive",
+        "name": "Расширение доступности базовых благ для населения",
+        "observed_objects": 28,
+        "observed_retained_objects": 26,
+        "coverage": 0.6666666666666666
+      },
+      {
+        "id": "problem-disclosure-reputation-defence__positive",
+        "name": "Публичное раскрытие проблем и недостатков исполнения",
+        "observed_objects": 26,
+        "observed_retained_objects": 21,
+        "coverage": 0.6190476190476191
+      },
+      {
+        "id": "prevention-crisis-response__positive",
+        "name": "Упреждающее снижение рисков и подготовка",
+        "observed_objects": 27,
+        "observed_retained_objects": 23,
+        "coverage": 0.6428571428571429
+      }
+    ],
+    "inference": "Восемь измеримых свойств описывают главным образом программно-управленческую публичную коммуникацию и отдельные инструменты исполнения: продолжение/обновление курса, его поддержку, постановку задач, ценностные обоснования, базовые услуги, оглашение проблем и профилактику. Они не образуют полного содержательного словаря идеологий и интересов страны.",
+    "asymmetry": "Независимые полюса сохранены асимметрично: есть поддержка курса, административная постановка задач, ценностная аргументация, услуги и профилактика, но не их независимые контрастные свойства. Это результат доступности измерений, а не доказательство отсутствия критики, участия, доказательной аргументации, инвестиционных или кризисных приоритетов.",
+    "overlap": "Программное продолжение, поддержка курса и административное исполнение могут опираться на близкие жанры официальных выступлений. Высокая общая доля объяснённой дисперсии не отделяет содержательную общность от жанра источников и должностных ролей.",
+    "unknowns": "Пропуски зависят от источниковой доступности и публичных ролей; считать их случайными, нулевыми или признаком нейтральности нельзя."
+  },
+  "representativeness": {
+    "roster_objects": 42,
+    "retained_objects": 28,
+    "retained_features": 8,
+    "probability_sample": false,
+    "group_coverage": [
+      {
+        "group": "Центральное управление",
+        "retained": 17,
+        "roster": 23
+      },
+      {
+        "group": "Парламентское руководство",
+        "retained": 4,
+        "roster": 6
+      },
+      {
+        "group": "Местное руководство",
+        "retained": 2,
+        "roster": 2
+      },
+      {
+        "group": "Оппозиция и независимые кандидаты",
+        "retained": 3,
+        "roster": 8
+      },
+      {
+        "group": "Международные дипломаты",
+        "retained": 2,
+        "roster": 3
+      }
+    ],
+    "key_exclusions": [
+      "paul-kagame",
+      "olivier-nduhungirehe",
+      "louise-mushikiwabo"
+    ],
+    "qualified_claim": "Разведочная факторная структура восьми публично наблюдаемых свойств у 28 участников отобранного источникового корпуса.",
+    "unsupported_claim": "Репрезентативная стратификация политического сознания всей Руанды, её населения, партийного поля или всех 42 включённых политиков.",
+    "variance_note": "Проценты объяснённой дисперсии относятся к выбранной аналитической матрице 28×8. Они не означают охват соответствующей доли всего политического пространства страны."
+  },
+  "source_warnings": [
+    {
+      "object_id": "alvera-mukabaramba",
+      "evidence_indices": [
+        10
+      ],
+      "status": "pending_date_verification",
+      "reason": "Nyundo-текст не датирован и использует прежнюю должность. По проверке root ни одна current known-ячейка больше на этот факт не ссылается; текущая модель этим фактом не обоснована. До подтверждения даты не использовать для будущей оценки."
+    },
+    {
+      "object_id": "emmanuel-ugirashebuja",
+      "evidence_indices": [
+        11
+      ],
+      "actual_period": "2026-05-05/2026-05-07",
+      "status": "within_window_metadata_qualifier",
+      "reason": "Первичный MINIJUST-текст датирует PPP-форум 5–7.05.2026, а факт содержит25.09.2026. Обе даты внутри окна; требуется поправка метаданных, но она сама по себе не меняет число."
+    }
+  ],
+  "input_hashes": {
+    "studies/rwanda-politicians-2021-2026/study.json": "4c58e36434bd968b4663ff085fd0755e2a8730b94cb3000ae344584ae99f7533",
+    "studies/rwanda-politicians-2021-2026/ratings.json": "98123f0b8acabf36e11537e1dbaf547b2cb468e22c3c8f6be9b4aa0bc5d7b5fa",
+    "studies/rwanda-politicians-2021-2026/output/factor_preview.json": "4819044bb8904f3c67fb9a7b6f763de4b1e49dab9a5d219515456f180980da4d",
+    "research/rwanda_politicians_2021_2026/INDEPENDENT_COMPLETION_BATCH_1.json": "854ccfacc546645cd504233817b79f9979f6bc29783622796f9c9d50f2cb1317",
+    "research/rwanda_politicians_2021_2026/INDEPENDENT_COMPLETION_BATCH_2.json": "5ec3371fd98835d9af2afc1a8e389dde6ff68304e09f3693368666464bb2a001",
+    "research/rwanda_politicians_2021_2026/INDEPENDENT_COMPLETION_BATCH_3.json": "ae0d2e3f0c5859ddd6699b561a8042aed135d6b51e886e26f0aeac19963e5b86"
+  },
+  "summary": {
+    "reviewed_additions": 20,
+    "retain_as_limited": 19,
+    "recommend_recode_1": 1,
+    "canonical_files_modified": false
+  }
+}

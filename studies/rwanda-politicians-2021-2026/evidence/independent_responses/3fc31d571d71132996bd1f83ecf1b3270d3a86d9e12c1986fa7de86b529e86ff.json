@@ -1,0 +1,217 @@
+{
+  "data": {
+    "ratings": [
+      {
+        "variable_id": "programmatic-renewal__positive",
+        "status": "unknown",
+        "value": null,
+        "confidence": 0,
+        "support_type": "unknown",
+        "rationale": "Нет прямых персональных заявлений Кабаребе о необходимости пересмотра действующих приоритетов, правил или программ в доступных материалах.",
+        "evidence_indices": []
+      },
+      {
+        "variable_id": "programmatic-renewal__negative",
+        "status": "observed",
+        "value": 3,
+        "confidence": 0.8,
+        "support_type": "positive_manifestation",
+        "rationale": "В интервью (evidence_index: 9) Кабаребе прямо поддержал продолжение курса региональной интеграции, назвав действующие механизмы общего рынка и таможенного союза, а также движение к валютному союзу и политической федерации. В заявлении по торговле и инвестициям (evidence_index: 10) он подтвердил обязательство закреплять достигнутый прогресс и устранять препятствия для торговли и инвестиций. Это несколько последовательных эпизодов устойчивого публичного акцента на продолжении и закреплении действующего курса.",
+        "evidence_indices": [
+          9,
+          10
+        ]
+      },
+      {
+        "variable_id": "government-course-assessment__positive",
+        "status": "observed",
+        "value": 2,
+        "confidence": 0.7,
+        "support_type": "positive_manifestation",
+        "rationale": "В публичных заявлениях (evidence_indices: 9, 10) Кабаребе поддерживает действующий курс региональной интеграции и достижения в рамках EAC, что можно трактовать как ограниченную публичную поддержку курса власти в этой сфере.",
+        "evidence_indices": [
+          9,
+          10
+        ]
+      },
+      {
+        "variable_id": "government-course-assessment__negative",
+        "status": "unknown",
+        "value": null,
+        "confidence": 0,
+        "support_type": "unknown",
+        "rationale": "Нет прямых персональных заявлений Кабаребе с критикой действующего государственного курса.",
+        "evidence_indices": []
+      },
+      {
+        "variable_id": "participation-administrative-direction__positive",
+        "status": "unknown",
+        "value": null,
+        "confidence": 0,
+        "support_type": "unknown",
+        "rationale": "Нет персональных эпизодов, где Кабаребе приглашает к совместному обсуждению или общественному контролю решений.",
+        "evidence_indices": []
+      },
+      {
+        "variable_id": "participation-administrative-direction__negative",
+        "status": "observed",
+        "value": 2,
+        "confidence": 0.6,
+        "support_type": "positive_manifestation",
+        "rationale": "В публичных заявлениях (evidence_indices: 9, 10) Кабаребе говорит о координации, устранении препятствий и закреплении прогресса, что отражает административную постановку задач и контроль исполнения, хотя прямых директивных формулировок немного.",
+        "evidence_indices": [
+          9,
+          10
+        ]
+      },
+      {
+        "variable_id": "argumentation-evidence-values__positive",
+        "status": "unknown",
+        "value": null,
+        "confidence": 0,
+        "support_type": "unknown",
+        "rationale": "Нет примеров, где Кабаребе обосновывает решения через данные, расчёты или проверяемые результаты.",
+        "evidence_indices": []
+      },
+      {
+        "variable_id": "argumentation-evidence-values__negative",
+        "status": "observed",
+        "value": 2,
+        "confidence": 0.6,
+        "support_type": "positive_manifestation",
+        "rationale": "В эпизоде с Китаем (evidence_index: 4) Кабаребе использует ценностные категории (доверие, взаимное уважение) и коллективные символы, а в ряде заявлений (evidence_indices: 9, 10) апеллирует к пользе интеграции и единству, что соответствует обоснованию через ценности.",
+        "evidence_indices": [
+          4,
+          9,
+          10
+        ]
+      },
+      {
+        "variable_id": "market-state-instruments__positive",
+        "status": "unknown",
+        "value": null,
+        "confidence": 0,
+        "support_type": "unknown",
+        "rationale": "Нет прямых заявлений Кабаребе о расширении частной инициативы и управления.",
+        "evidence_indices": []
+      },
+      {
+        "variable_id": "market-state-instruments__negative",
+        "status": "observed",
+        "value": 2,
+        "confidence": 0.6,
+        "support_type": "positive_manifestation",
+        "rationale": "В заявлениях о региональной интеграции (evidence_indices: 9, 10) Кабаребе поддерживает механизмы общего рынка, таможенного союза и координацию, что подразумевает элементы государственного планирования и обязательных правил, хотя не является их сильным акцентом.",
+        "evidence_indices": [
+          9,
+          10
+        ]
+      },
+      {
+        "variable_id": "accessibility-growth-priorities__positive",
+        "status": "unknown",
+        "value": null,
+        "confidence": 0,
+        "support_type": "unknown",
+        "rationale": "Нет прямых заявлений Кабаребе о приоритете расширения доступности базовых благ для населения.",
+        "evidence_indices": []
+      },
+      {
+        "variable_id": "accessibility-growth-priorities__negative",
+        "status": "observed",
+        "value": 2,
+        "confidence": 0.7,
+        "support_type": "positive_manifestation",
+        "rationale": "В заявлении по торговле и инвестициям (evidence_index: 10) Кабаребе обозначил цель увеличения внутриобщинной торговли и укрепления инвестиционных связей, что соответствует приоритету роста инвестиций и деловой активности.",
+        "evidence_indices": [
+          10
+        ]
+      },
+      {
+        "variable_id": "external-domestic-resources__positive",
+        "status": "observed",
+        "value": 2,
+        "confidence": 0.7,
+        "support_type": "positive_manifestation",
+        "rationale": "В эпизоде с Китаем (evidence_index: 4) Кабаребе выделяет инвестиции и международное сотрудничество как значимые направления, что свидетельствует о привлечении внешних ресурсных партнёров.",
+        "evidence_indices": [
+          4
+        ]
+      },
+      {
+        "variable_id": "external-domestic-resources__negative",
+        "status": "unknown",
+        "value": null,
+        "confidence": 0,
+        "support_type": "unknown",
+        "rationale": "Нет прямых заявлений Кабаребе о приоритете внутренней самостоятельности или снижении зависимости от внешних поступлений.",
+        "evidence_indices": []
+      },
+      {
+        "variable_id": "international-rules-autonomy__positive",
+        "status": "observed",
+        "value": 2,
+        "confidence": 0.7,
+        "support_type": "positive_manifestation",
+        "rationale": "В интервью (evidence_index: 9) Кабаребе поддерживает движение к валютному союзу и политической федерации в рамках EAC, что подразумевает закрепление общих международных обязательств.",
+        "evidence_indices": [
+          9
+        ]
+      },
+      {
+        "variable_id": "international-rules-autonomy__negative",
+        "status": "observed",
+        "value": 1,
+        "confidence": 0.5,
+        "support_type": "positive_manifestation",
+        "rationale": "В эпизоде с санкциями (evidence_index: 14) Кабаребе защищает позицию Руанды против внешнего давления, что можно трактовать как единичное проявление защиты национальной самостоятельности решений.",
+        "evidence_indices": [
+          14
+        ]
+      },
+      {
+        "variable_id": "mediation-adversarial-communication__positive",
+        "status": "observed",
+        "value": 1,
+        "confidence": 0.5,
+        "support_type": "positive_manifestation",
+        "rationale": "В эпизоде с санкциями (evidence_index: 14) Кабаребе упоминает переговоры и посредничество, однако основной акцент на согласовании интересов сторон не прослеживается явно, поэтому оценка ограничена единичным слабым проявлением.",
+        "evidence_indices": [
+          14
+        ]
+      },
+      {
+        "variable_id": "mediation-adversarial-communication__negative",
+        "status": "observed",
+        "value": 2,
+        "confidence": 0.7,
+        "support_type": "positive_manifestation",
+        "rationale": "В эпизоде с санкциями (evidence_index: 14) Кабаребе полемически оспаривает позицию ДРК и защищает требования Руанды, что соответствует ограниченному проявлению полемического стиля.",
+        "evidence_indices": [
+          14
+        ]
+      }
+    ]
+  },
+  "model": "gpt-4.1",
+  "task": "independent-ratings-james-kabarebe-0",
+  "at": "2026-10-15T17:29:24.799757+00:00",
+  "usage": {
+    "prompt_tokens": 7764,
+    "completion_tokens": 1610,
+    "total_tokens": 9374,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "audio_tokens": 0
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "audio_tokens": 0,
+      "accepted_prediction_tokens": 0,
+      "rejected_prediction_tokens": 0
+    }
+  },
+  "citations": [],
+  "system_fingerprint": "fp_801d3b7b5c",
+  "cache_key": "3fc31d571d71132996bd1f83ecf1b3270d3a86d9e12c1986fa7de86b529e86ff"
+}

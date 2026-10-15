@@ -1,0 +1,229 @@
+{
+  "data": {
+    "ratings": [
+      {
+        "variable_id": "programmatic-renewal__positive",
+        "status": "observed",
+        "value": 2,
+        "confidence": 0.8,
+        "support_type": "positive_manifestation",
+        "rationale": "Рвигара объявила о намерении баллотироваться на выборах 2024 года, представив это как начало нового этапа для Руанды и призвав граждан присоединиться к кампании. Это прямое заявление о необходимости перемен и нового этапа, что соответствует программному изменению существующего курса. Однако нет детализированной программы с конкретными предложениями по пересмотру всех приоритетов, поэтому выраженность ограничена.",
+        "evidence_indices": [
+          0
+        ]
+      },
+      {
+        "variable_id": "programmatic-renewal__negative",
+        "status": "observed",
+        "value": 1,
+        "confidence": 0.5,
+        "support_type": "positive_manifestation",
+        "rationale": "В изложении программы Рвигара заявила о продолжении экономического развития страны. Это может трактоваться как элемент продолжения действующего курса, но в контексте других заявлений о необходимости перемен и критики существующего порядка выраженность этого полюса минимальна.",
+        "evidence_indices": [
+          1,
+          10
+        ]
+      },
+      {
+        "variable_id": "government-course-assessment__positive",
+        "status": "unknown",
+        "value": null,
+        "confidence": 0.3,
+        "support_type": "unknown",
+        "rationale": "Нет прямых публичных заявлений Рвигары, выражающих поддержку действующего государственного курса в целом. Отдельные упоминания экономического развития не содержат явной положительной оценки курса власти.",
+        "evidence_indices": []
+      },
+      {
+        "variable_id": "government-course-assessment__negative",
+        "status": "observed",
+        "value": 3,
+        "confidence": 0.9,
+        "support_type": "positive_manifestation",
+        "rationale": "Рвигара публично критиковала ограничения политических прав, недопуск к выборам, противопоставляла международный имидж Руанды реальным проблемам доступа к базовым благам, а также связывала свою деятельность с борьбой против несправедливости и репрессий. Это устойчивый публичный акцент на критике действующего курса.",
+        "evidence_indices": [
+          4,
+          5,
+          8,
+          9,
+          12,
+          14,
+          15,
+          16,
+          17,
+          21,
+          22,
+          27,
+          28,
+          30
+        ]
+      },
+      {
+        "variable_id": "participation-administrative-direction__positive",
+        "status": "observed",
+        "value": 2,
+        "confidence": 0.7,
+        "support_type": "positive_manifestation",
+        "rationale": "Рвигара связывала свою кампанию с призывом к гражданам присоединиться, а также акцентировала на равных возможностях выражать мнения и участвовать в политике. Это ограниченное, но прямое проявление приглашения к общественному участию.",
+        "evidence_indices": [
+          0,
+          14,
+          15,
+          21
+        ]
+      },
+      {
+        "variable_id": "participation-administrative-direction__negative",
+        "status": "unknown",
+        "value": null,
+        "confidence": 0.3,
+        "support_type": "unknown",
+        "rationale": "Нет данных о том, чтобы Рвигара делала публичные поручения, управляла исполнителями или реализовывала административную постановку задач. Её действия и риторика не содержат признаков этого полюса.",
+        "evidence_indices": []
+      },
+      {
+        "variable_id": "argumentation-evidence-values__positive",
+        "status": "unknown",
+        "value": null,
+        "confidence": 0.3,
+        "support_type": "unknown",
+        "rationale": "Нет прямых примеров использования данных, расчётов или ссылок на исследования в публичных заявлениях Рвигары. Основная аргументация строится вокруг прав и возможностей.",
+        "evidence_indices": []
+      },
+      {
+        "variable_id": "argumentation-evidence-values__negative",
+        "status": "observed",
+        "value": 2,
+        "confidence": 0.7,
+        "support_type": "positive_manifestation",
+        "rationale": "Рвигара аргументировала свою позицию через призыв к равным возможностям, политическим правам, свободе выражения, а также ссылалась на страх и отсутствие свободы у руандийцев. Это ограниченное, но прямое использование ценностных аргументов.",
+        "evidence_indices": [
+          5,
+          14,
+          15,
+          21,
+          28
+        ]
+      },
+      {
+        "variable_id": "market-state-instruments__positive",
+        "status": "unknown",
+        "value": null,
+        "confidence": 0.2,
+        "support_type": "unknown",
+        "rationale": "Нет сведений о том, что Рвигара прямо предлагала расширять частную инициативу или предпринимательство как инструмент развития.",
+        "evidence_indices": []
+      },
+      {
+        "variable_id": "market-state-instruments__negative",
+        "status": "unknown",
+        "value": null,
+        "confidence": 0.2,
+        "support_type": "unknown",
+        "rationale": "Нет сведений о том, что Рвигара прямо предлагала усилить государственное планирование или обязательные правила как инструмент развития.",
+        "evidence_indices": []
+      },
+      {
+        "variable_id": "accessibility-growth-priorities__positive",
+        "status": "observed",
+        "value": 2,
+        "confidence": 0.7,
+        "support_type": "positive_manifestation",
+        "rationale": "В программе Рвигары акцентированы вопросы продовольственной безопасности, жилья и доступа к образованию для детей, что свидетельствует о приоритете расширения доступности базовых благ. Однако не уточняется универсальность или механизм, поэтому выраженность ограничена.",
+        "evidence_indices": [
+          2,
+          5,
+          11
+        ]
+      },
+      {
+        "variable_id": "accessibility-growth-priorities__negative",
+        "status": "unknown",
+        "value": null,
+        "confidence": 0.3,
+        "support_type": "unknown",
+        "rationale": "Хотя упоминается продолжение экономического развития, нет прямых заявлений о приоритете инвестиций, конкурентоспособности или деловой активности как самостоятельной цели.",
+        "evidence_indices": []
+      },
+      {
+        "variable_id": "external-domestic-resources__positive",
+        "status": "unknown",
+        "value": null,
+        "confidence": 0.2,
+        "support_type": "unknown",
+        "rationale": "Нет сведений о предложениях Рвигары по привлечению внешнего финансирования или ресурсных партнёров.",
+        "evidence_indices": []
+      },
+      {
+        "variable_id": "external-domestic-resources__negative",
+        "status": "unknown",
+        "value": null,
+        "confidence": 0.2,
+        "support_type": "unknown",
+        "rationale": "Нет сведений о предложениях Рвигары по опоре на внутренние доходы или снижению зависимости от внешних поступлений.",
+        "evidence_indices": []
+      },
+      {
+        "variable_id": "international-rules-autonomy__positive",
+        "status": "unknown",
+        "value": null,
+        "confidence": 0.2,
+        "support_type": "unknown",
+        "rationale": "Нет сведений о публичных предложениях Рвигары закрепить международные обязательства или нормы.",
+        "evidence_indices": []
+      },
+      {
+        "variable_id": "international-rules-autonomy__negative",
+        "status": "unknown",
+        "value": null,
+        "confidence": 0.2,
+        "support_type": "unknown",
+        "rationale": "Нет сведений о публичных заявлениях Рвигары в защиту национальной самостоятельности решений или против внешнего навязывания.",
+        "evidence_indices": []
+      },
+      {
+        "variable_id": "mediation-adversarial-communication__positive",
+        "status": "unknown",
+        "value": null,
+        "confidence": 0.2,
+        "support_type": "unknown",
+        "rationale": "Нет примеров, где Рвигара предлагала посредничество или поиск согласования интересов сторон.",
+        "evidence_indices": []
+      },
+      {
+        "variable_id": "mediation-adversarial-communication__negative",
+        "status": "observed",
+        "value": 2,
+        "confidence": 0.7,
+        "support_type": "positive_manifestation",
+        "rationale": "Рвигара публично оспаривала решения избирательной комиссии, обращалась к президенту с вопросом о недопуске, защищала свою позицию и оспаривала основания отказа. Это ограниченное, но прямое проявление полемического оспаривания и защиты собственной стороны.",
+        "evidence_indices": [
+          4,
+          16,
+          17,
+          22
+        ]
+      }
+    ]
+  },
+  "model": "gpt-4.1",
+  "task": "independent-ratings-diane-rwigara-0",
+  "at": "2026-10-15T17:31:54.128901+00:00",
+  "usage": {
+    "prompt_tokens": 8765,
+    "completion_tokens": 1580,
+    "total_tokens": 10345,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "audio_tokens": 0
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "audio_tokens": 0,
+      "accepted_prediction_tokens": 0,
+      "rejected_prediction_tokens": 0
+    }
+  },
+  "citations": [],
+  "system_fingerprint": "fp_801d3b7b5c",
+  "cache_key": "e6e15f4cb4ae18846d8d9483d57f4ac7e754b0bb096529ec7a39c172edee81fe"
+}

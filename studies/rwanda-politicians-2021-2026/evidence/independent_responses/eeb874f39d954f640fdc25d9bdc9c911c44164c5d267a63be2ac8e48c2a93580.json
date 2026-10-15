@@ -1,0 +1,240 @@
+{
+  "data": {
+    "ratings": [
+      {
+        "variable_id": "cultural-openness-national-transmission__positive",
+        "status": "observed",
+        "value": 2,
+        "confidence": 0.7,
+        "support_type": "positive_manifestation",
+        "rationale": "Увамария неоднократно участвовала в международных экологических и гендерных инициативах, акцентируя сотрудничество с зарубежными организациями (ООН, ЕС, Германия) и инклюзивность в климатической политике. Это фиксирует ограниченное, но последовательное проявление расширения межкультурного обмена и разнообразия.",
+        "evidence_indices": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          23
+        ]
+      },
+      {
+        "variable_id": "cultural-openness-national-transmission__negative",
+        "status": "unknown",
+        "value": null,
+        "confidence": 0.3,
+        "support_type": "unknown",
+        "rationale": "Нет прямых эпизодов, где Увамария делала акцент на сохранении и передаче национальных ценностей как самостоятельной публичной позиции, отличной от международного сотрудничества.",
+        "evidence_indices": []
+      },
+      {
+        "variable_id": "problem-disclosure-reputation-defence__positive",
+        "status": "observed",
+        "value": 2,
+        "confidence": 0.7,
+        "support_type": "positive_manifestation",
+        "rationale": "В ряде случаев Увамария публично признаёт существование проблем, например, загрязнение воздуха, отставание образования в провинции, последствия гендерного насилия. Это ограниченное, но ясное проявление публичного раскрытия проблем.",
+        "evidence_indices": [
+          8,
+          15,
+          20
+        ]
+      },
+      {
+        "variable_id": "problem-disclosure-reputation-defence__negative",
+        "status": "observed",
+        "value": 2,
+        "confidence": 0.6,
+        "support_type": "positive_manifestation",
+        "rationale": "В ряде эпизодов Увамария выступает как официальный представитель государственной линии, акцентируя достижения и продвижение политики Руанды (например, на CEDAW, COP29, UNGA79), что фиксирует ограниченное проявление защитного продвижения репутации.",
+        "evidence_indices": [
+          7,
+          12,
+          13,
+          17
+        ]
+      },
+      {
+        "variable_id": "procedural-guarantees-enforcement__positive",
+        "status": "unknown",
+        "value": null,
+        "confidence": 0.3,
+        "support_type": "unknown",
+        "rationale": "Нет прямых эпизодов, где Увамария выступала с инициативами по расширению процедур защиты или обжалования. Описание последствий насилия и упоминание институтов не содержат конкретных предложений по процедурам.",
+        "evidence_indices": []
+      },
+      {
+        "variable_id": "procedural-guarantees-enforcement__negative",
+        "status": "observed",
+        "value": 1,
+        "confidence": 0.5,
+        "support_type": "positive_manifestation",
+        "rationale": "В эпизоде с национальными экзаменами Увамария требовала строгого соблюдения процедур и недопустимости помощи учащимся, что фиксирует единичное проявление принудительного обеспечения обязательных требований.",
+        "evidence_indices": [
+          19
+        ]
+      },
+      {
+        "variable_id": "prevention-crisis-response__positive",
+        "status": "observed",
+        "value": 2,
+        "confidence": 0.7,
+        "support_type": "positive_manifestation",
+        "rationale": "Увамария акцентирует упреждающие меры в климатической политике (восстановление водораздела, подготовка к климатическим рискам, стратегическое планирование NDC), что фиксирует ограниченное, но последовательное проявление профилактики.",
+        "evidence_indices": [
+          9,
+          23,
+          24
+        ]
+      },
+      {
+        "variable_id": "prevention-crisis-response__negative",
+        "status": "unknown",
+        "value": null,
+        "confidence": 0.3,
+        "support_type": "unknown",
+        "rationale": "Нет прямых эпизодов, где Увамария делала акцент на действиях только в ответ на уже возникший кризис.",
+        "evidence_indices": []
+      },
+      {
+        "variable_id": "electoral-access__positive",
+        "status": "observed",
+        "value": 2,
+        "confidence": 0.7,
+        "support_type": "positive_manifestation",
+        "rationale": "Увамария публично поддерживала расширение политического участия женщин через квоты и мобилизацию к выборам, что фиксирует ограниченное проявление расширения доступа к конкуренции для обозначенной группы.",
+        "evidence_indices": [
+          12,
+          22
+        ]
+      },
+      {
+        "variable_id": "electoral-access__negative",
+        "status": "unknown",
+        "value": null,
+        "confidence": 0.3,
+        "support_type": "unknown",
+        "rationale": "Нет эпизодов, где Увамария предлагала или поддерживала усиление барьеров для политического участия.",
+        "evidence_indices": []
+      },
+      {
+        "variable_id": "institutional-autonomy-coordination__positive",
+        "status": "unknown",
+        "value": null,
+        "confidence": 0.3,
+        "support_type": "unknown",
+        "rationale": "Нет прямых эпизодов, где Увамария выступала за автономию или независимый контроль институтов.",
+        "evidence_indices": []
+      },
+      {
+        "variable_id": "institutional-autonomy-coordination__negative",
+        "status": "observed",
+        "value": 2,
+        "confidence": 0.6,
+        "support_type": "positive_manifestation",
+        "rationale": "В ряде случаев Увамария представляла согласованную государственную линию и координацию между институтами (например, в гендерной политике и климатическом курсе), что фиксирует ограниченное проявление согласования работы институтов.",
+        "evidence_indices": [
+          14,
+          17,
+          24
+        ]
+      },
+      {
+        "variable_id": "taxation-burden-public-revenue__positive",
+        "status": "unknown",
+        "value": null,
+        "confidence": 0.3,
+        "support_type": "unknown",
+        "rationale": "Нет эпизодов, где Увамария выступала за снижение налоговой нагрузки или расширение имущественной самостоятельности.",
+        "evidence_indices": []
+      },
+      {
+        "variable_id": "taxation-burden-public-revenue__negative",
+        "status": "unknown",
+        "value": null,
+        "confidence": 0.3,
+        "support_type": "unknown",
+        "rationale": "Нет эпизодов, где Увамария прямо поддерживала увеличение налоговых поступлений для публичного развития.",
+        "evidence_indices": []
+      },
+      {
+        "variable_id": "universal-targeted-provision__positive",
+        "status": "observed",
+        "value": 1,
+        "confidence": 0.5,
+        "support_type": "positive_manifestation",
+        "rationale": "В ряде программ (например, цифровая стратегия для женщин) фиксируется расширение доступа к инфраструктуре, но всегда с акцентом на адресную группу, а не на всеобщие стандарты. Единичное проявление универсального компонента.",
+        "evidence_indices": [
+          18
+        ]
+      },
+      {
+        "variable_id": "universal-targeted-provision__negative",
+        "status": "observed",
+        "value": 4,
+        "confidence": 0.9,
+        "support_type": "positive_manifestation",
+        "rationale": "Увамария систематически продвигает адресные меры для женщин и девочек (квоты, специальные программы, мобилизация к участию), что фиксирует сильный повторяющийся акцент на приоритетной помощи конкретным недостаточно обеспеченным группам.",
+        "evidence_indices": [
+          12,
+          13,
+          16,
+          18,
+          22
+        ]
+      },
+      {
+        "variable_id": "ecological-limits-resource-use__positive",
+        "status": "observed",
+        "value": 5,
+        "confidence": 1.0,
+        "support_type": "positive_manifestation",
+        "rationale": "Увамария последовательно и многократно акцентирует усиление природоохранных ограничений (борьба с пластиком, климатические действия, восстановление лесов, международные договоры), что подтверждается несколькими независимыми эпизодами и определяет её публичную позицию.",
+        "evidence_indices": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          9,
+          10,
+          23,
+          24
+        ]
+      },
+      {
+        "variable_id": "ecological-limits-resource-use__negative",
+        "status": "unknown",
+        "value": null,
+        "confidence": 0.3,
+        "support_type": "unknown",
+        "rationale": "Нет эпизодов, где Увамария прямо поддерживала расширение хозяйственного использования природных ресурсов или ослабление экологических ограничений.",
+        "evidence_indices": []
+      }
+    ]
+  },
+  "model": "gpt-4.1",
+  "task": "independent-ratings-valentine-uwamariya-1",
+  "at": "2026-10-15T17:30:31.183367+00:00",
+  "usage": {
+    "prompt_tokens": 9390,
+    "completion_tokens": 1642,
+    "total_tokens": 11032,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "audio_tokens": 0
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "audio_tokens": 0,
+      "accepted_prediction_tokens": 0,
+      "rejected_prediction_tokens": 0
+    }
+  },
+  "citations": [],
+  "system_fingerprint": "fp_c1b3c9e352",
+  "cache_key": "eeb874f39d954f640fdc25d9bdc9c911c44164c5d267a63be2ac8e48c2a93580"
+}

@@ -1,0 +1,397 @@
+{
+  "counts": {
+    "raw_responses": 137,
+    "candidate_proposals": 1629,
+    "candidate_nonzero": 1302,
+    "candidate_zero": 327,
+    "distinct_numeric_poles": 880,
+    "distinct_nonzero_valid_poles": 582
+  },
+  "candidate_coverage": [
+    {
+      "scale_id": "programmatic-renewal",
+      "pole": "positive",
+      "label": "Программное изменение существующего курса",
+      "candidate_objects": 25,
+      "n_objects": 42,
+      "candidate_threshold_26": false
+    },
+    {
+      "scale_id": "programmatic-renewal",
+      "pole": "negative",
+      "label": "Продолжение и закрепление действующего курса",
+      "candidate_objects": 26,
+      "n_objects": 42,
+      "candidate_threshold_26": true
+    },
+    {
+      "scale_id": "government-course-assessment",
+      "pole": "positive",
+      "label": "Публичная поддержка действующего государственного курса",
+      "candidate_objects": 21,
+      "n_objects": 42,
+      "candidate_threshold_26": false
+    },
+    {
+      "scale_id": "government-course-assessment",
+      "pole": "negative",
+      "label": "Публичная критика действующего государственного курса",
+      "candidate_objects": 4,
+      "n_objects": 42,
+      "candidate_threshold_26": false
+    },
+    {
+      "scale_id": "participation-administrative-direction",
+      "pole": "positive",
+      "label": "Совместное обсуждение и общественный контроль решений",
+      "candidate_objects": 23,
+      "n_objects": 42,
+      "candidate_threshold_26": false
+    },
+    {
+      "scale_id": "participation-administrative-direction",
+      "pole": "negative",
+      "label": "Административная постановка задач и контроль исполнения",
+      "candidate_objects": 25,
+      "n_objects": 42,
+      "candidate_threshold_26": false
+    },
+    {
+      "scale_id": "argumentation-evidence-values",
+      "pole": "positive",
+      "label": "Обоснование через данные, расчёты и проверяемые результаты",
+      "candidate_objects": 25,
+      "n_objects": 42,
+      "candidate_threshold_26": false
+    },
+    {
+      "scale_id": "argumentation-evidence-values",
+      "pole": "negative",
+      "label": "Обоснование через ценности, память и коллективные символы",
+      "candidate_objects": 25,
+      "n_objects": 42,
+      "candidate_threshold_26": false
+    },
+    {
+      "scale_id": "market-state-instruments",
+      "pole": "positive",
+      "label": "Расширение частной инициативы и управления",
+      "candidate_objects": 17,
+      "n_objects": 42,
+      "candidate_threshold_26": false
+    },
+    {
+      "scale_id": "market-state-instruments",
+      "pole": "negative",
+      "label": "Расширение государственного планирования и обязательных правил",
+      "candidate_objects": 19,
+      "n_objects": 42,
+      "candidate_threshold_26": false
+    },
+    {
+      "scale_id": "accessibility-growth-priorities",
+      "pole": "positive",
+      "label": "Расширение доступности базовых благ для населения",
+      "candidate_objects": 23,
+      "n_objects": 42,
+      "candidate_threshold_26": false
+    },
+    {
+      "scale_id": "accessibility-growth-priorities",
+      "pole": "negative",
+      "label": "Рост инвестиций, конкурентоспособности и деловой активности",
+      "candidate_objects": 22,
+      "n_objects": 42,
+      "candidate_threshold_26": false
+    },
+    {
+      "scale_id": "external-domestic-resources",
+      "pole": "positive",
+      "label": "Привлечение внешнего финансирования и ресурсных партнёров",
+      "candidate_objects": 20,
+      "n_objects": 42,
+      "candidate_threshold_26": false
+    },
+    {
+      "scale_id": "external-domestic-resources",
+      "pole": "negative",
+      "label": "Опора на внутренние доходы и хозяйственную самостоятельность",
+      "candidate_objects": 13,
+      "n_objects": 42,
+      "candidate_threshold_26": false
+    },
+    {
+      "scale_id": "international-rules-autonomy",
+      "pole": "positive",
+      "label": "Закрепление общих международных обязательств",
+      "candidate_objects": 15,
+      "n_objects": 42,
+      "candidate_threshold_26": false
+    },
+    {
+      "scale_id": "international-rules-autonomy",
+      "pole": "negative",
+      "label": "Защита национальной самостоятельности решений",
+      "candidate_objects": 9,
+      "n_objects": 42,
+      "candidate_threshold_26": false
+    },
+    {
+      "scale_id": "mediation-adversarial-communication",
+      "pole": "positive",
+      "label": "Посредничество, переговоры и поиск согласования",
+      "candidate_objects": 23,
+      "n_objects": 42,
+      "candidate_threshold_26": false
+    },
+    {
+      "scale_id": "mediation-adversarial-communication",
+      "pole": "negative",
+      "label": "Полемическое оспаривание и защита собственной стороны",
+      "candidate_objects": 13,
+      "n_objects": 42,
+      "candidate_threshold_26": false
+    },
+    {
+      "scale_id": "cultural-openness-national-transmission",
+      "pole": "positive",
+      "label": "Расширение межкультурного обмена и разнообразия",
+      "candidate_objects": 16,
+      "n_objects": 42,
+      "candidate_threshold_26": false
+    },
+    {
+      "scale_id": "cultural-openness-national-transmission",
+      "pole": "negative",
+      "label": "Сохранение и передача национальных ценностей",
+      "candidate_objects": 14,
+      "n_objects": 42,
+      "candidate_threshold_26": false
+    },
+    {
+      "scale_id": "problem-disclosure-reputation-defence",
+      "pole": "positive",
+      "label": "Публичное раскрытие проблем и недостатков исполнения",
+      "candidate_objects": 20,
+      "n_objects": 42,
+      "candidate_threshold_26": false
+    },
+    {
+      "scale_id": "problem-disclosure-reputation-defence",
+      "pole": "negative",
+      "label": "Защитное продвижение репутации страны или своей политики",
+      "candidate_objects": 26,
+      "n_objects": 42,
+      "candidate_threshold_26": true
+    },
+    {
+      "scale_id": "procedural-guarantees-enforcement",
+      "pole": "positive",
+      "label": "Расширение возможностей защиты и обжалования",
+      "candidate_objects": 17,
+      "n_objects": 42,
+      "candidate_threshold_26": false
+    },
+    {
+      "scale_id": "procedural-guarantees-enforcement",
+      "pole": "negative",
+      "label": "Принудительное обеспечение обязательных требований",
+      "candidate_objects": 14,
+      "n_objects": 42,
+      "candidate_threshold_26": false
+    },
+    {
+      "scale_id": "prevention-crisis-response",
+      "pole": "positive",
+      "label": "Упреждающее снижение рисков и подготовка",
+      "candidate_objects": 20,
+      "n_objects": 42,
+      "candidate_threshold_26": false
+    },
+    {
+      "scale_id": "prevention-crisis-response",
+      "pole": "negative",
+      "label": "Оперативное реагирование на возникшую угрозу",
+      "candidate_objects": 20,
+      "n_objects": 42,
+      "candidate_threshold_26": false
+    },
+    {
+      "scale_id": "electoral-access",
+      "pole": "positive",
+      "label": "Расширение доступа к выборной конкуренции",
+      "candidate_objects": 7,
+      "n_objects": 42,
+      "candidate_threshold_26": false
+    },
+    {
+      "scale_id": "electoral-access",
+      "pole": "negative",
+      "label": "Усиление квалификационных барьеров политического участия",
+      "candidate_objects": 1,
+      "n_objects": 42,
+      "candidate_threshold_26": false
+    },
+    {
+      "scale_id": "institutional-autonomy-coordination",
+      "pole": "positive",
+      "label": "Гарантии самостоятельности и контроля между институтами",
+      "candidate_objects": 7,
+      "n_objects": 42,
+      "candidate_threshold_26": false
+    },
+    {
+      "scale_id": "institutional-autonomy-coordination",
+      "pole": "negative",
+      "label": "Согласование работы институтов единой управленческой линией",
+      "candidate_objects": 14,
+      "n_objects": 42,
+      "candidate_threshold_26": false
+    },
+    {
+      "scale_id": "taxation-burden-public-revenue",
+      "pole": "positive",
+      "label": "Снижение налоговой нагрузки и расширение имущественной самостоятельности",
+      "candidate_objects": 2,
+      "n_objects": 42,
+      "candidate_threshold_26": false
+    },
+    {
+      "scale_id": "taxation-burden-public-revenue",
+      "pole": "negative",
+      "label": "Увеличение налоговых поступлений для публичного развития",
+      "candidate_objects": 3,
+      "n_objects": 42,
+      "candidate_threshold_26": false
+    },
+    {
+      "scale_id": "universal-targeted-provision",
+      "pole": "positive",
+      "label": "Единые стандарты доступности благ для всего населения",
+      "candidate_objects": 16,
+      "n_objects": 42,
+      "candidate_threshold_26": false
+    },
+    {
+      "scale_id": "universal-targeted-provision",
+      "pole": "negative",
+      "label": "Приоритетная помощь конкретным недостаточно обеспеченным группам",
+      "candidate_objects": 16,
+      "n_objects": 42,
+      "candidate_threshold_26": false
+    },
+    {
+      "scale_id": "ecological-limits-resource-use",
+      "pole": "positive",
+      "label": "Усиление природоохранных ограничений хозяйственной деятельности",
+      "candidate_objects": 11,
+      "n_objects": 42,
+      "candidate_threshold_26": false
+    },
+    {
+      "scale_id": "ecological-limits-resource-use",
+      "pole": "negative",
+      "label": "Расширение хозяйственного использования природных ресурсов",
+      "candidate_objects": 4,
+      "n_objects": 42,
+      "candidate_threshold_26": false
+    },
+    {
+      "scale_id": "russia-diplomatic-engagement",
+      "pole": "positive",
+      "label": "Расширение дипломатического сотрудничества с Россией",
+      "candidate_objects": 0,
+      "n_objects": 42,
+      "candidate_threshold_26": false
+    },
+    {
+      "scale_id": "russia-diplomatic-engagement",
+      "pole": "negative",
+      "label": "Дипломатическое дистанцирование от России",
+      "candidate_objects": 0,
+      "n_objects": 42,
+      "candidate_threshold_26": false
+    },
+    {
+      "scale_id": "russia-security-cooperation",
+      "pole": "positive",
+      "label": "Развитие военно-технического сотрудничества с Россией",
+      "candidate_objects": 0,
+      "n_objects": 42,
+      "candidate_threshold_26": false
+    },
+    {
+      "scale_id": "russia-security-cooperation",
+      "pole": "negative",
+      "label": "Ограничение военно-технического сотрудничества с Россией",
+      "candidate_objects": 0,
+      "n_objects": 42,
+      "candidate_threshold_26": false
+    },
+    {
+      "scale_id": "russia-economic-technology-cooperation",
+      "pole": "positive",
+      "label": "Развитие экономических и технологических проектов с Россией",
+      "candidate_objects": 2,
+      "n_objects": 42,
+      "candidate_threshold_26": false
+    },
+    {
+      "scale_id": "russia-economic-technology-cooperation",
+      "pole": "negative",
+      "label": "Ограничение экономических и технологических проектов с Россией",
+      "candidate_objects": 0,
+      "n_objects": 42,
+      "candidate_threshold_26": false
+    },
+    {
+      "scale_id": "russia-education-cultural-cooperation",
+      "pole": "positive",
+      "label": "Расширение образовательных и культурных обменов с Россией",
+      "candidate_objects": 2,
+      "n_objects": 42,
+      "candidate_threshold_26": false
+    },
+    {
+      "scale_id": "russia-education-cultural-cooperation",
+      "pole": "negative",
+      "label": "Ограничение образовательных и культурных обменов с Россией",
+      "candidate_objects": 0,
+      "n_objects": 42,
+      "candidate_threshold_26": false
+    },
+    {
+      "scale_id": "russia-conflict-policy-evaluation",
+      "pole": "positive",
+      "label": "Публичное оправдание конкретных внешнеполитических действий России",
+      "candidate_objects": 1,
+      "n_objects": 42,
+      "candidate_threshold_26": false
+    },
+    {
+      "scale_id": "russia-conflict-policy-evaluation",
+      "pole": "negative",
+      "label": "Публичная критика конкретных внешнеполитических действий России",
+      "candidate_objects": 1,
+      "n_objects": 42,
+      "candidate_threshold_26": false
+    },
+    {
+      "scale_id": "russia-isolation-sanctions",
+      "pole": "positive",
+      "label": "Противодействие санкциям и изоляции России",
+      "candidate_objects": 0,
+      "n_objects": 42,
+      "candidate_threshold_26": false
+    },
+    {
+      "scale_id": "russia-isolation-sanctions",
+      "pole": "negative",
+      "label": "Поддержка санкций и изоляции России",
+      "candidate_objects": 0,
+      "n_objects": 42,
+      "candidate_threshold_26": false
+    }
+  ],
+  "inventory_basis": "1e5da720d9d6717ac62c8290680f2a14f7a262c2c4c9d4cb090554307c6bc080"
+}

@@ -1,0 +1,243 @@
+{
+  "data": {
+    "ratings": [
+      {
+        "variable_id": "programmatic-renewal__positive",
+        "status": "observed",
+        "value": 2,
+        "confidence": 0.7,
+        "support_type": "positive_manifestation",
+        "rationale": "В 2023 году Акаманзи внесла в парламент законопроект об изменении полномочий и автономии RDB, аргументируя необходимостью большей гибкости для выполнения мандата (evidence_index: 17). Это явное предложение изменить действующие правила и институциональные приоритеты, хотя речь идёт о конкретном ведомстве, а не о полном курсе развития страны. Подтверждается также одобрением изменений (evidence_index: 18).",
+        "evidence_indices": [
+          17,
+          18
+        ]
+      },
+      {
+        "variable_id": "programmatic-renewal__negative",
+        "status": "observed",
+        "value": 3,
+        "confidence": 0.8,
+        "support_type": "positive_manifestation",
+        "rationale": "В ряде публичных заявлений (evidence_indices: 4, 6, 24) Акаманзи подчёркивала намерение развивать уже созданную динамику (NBA Africa), а также продолжение действующей линии в спортивно-деловой сфере. В программной речи 2024 года поддержала действующую модель развития Руанды (evidence_index: 15, 28).",
+        "evidence_indices": [
+          4,
+          6,
+          15,
+          24,
+          28
+        ]
+      },
+      {
+        "variable_id": "government-course-assessment__positive",
+        "status": "observed",
+        "value": 3,
+        "confidence": 0.8,
+        "support_type": "positive_manifestation",
+        "rationale": "В программной речи 2024 года Акаманзи выделила дальновидное лидерство, сильные институты и инвестиции в человеческий капитал как опоры развития Руанды, представляя это как урок для других стран (evidence_index: 15, 27, 28, 29). Это поддержка действующего государственного курса и его достижений.",
+        "evidence_indices": [
+          15,
+          27,
+          28,
+          29
+        ]
+      },
+      {
+        "variable_id": "government-course-assessment__negative",
+        "status": "unknown",
+        "value": null,
+        "confidence": 0.5,
+        "support_type": "unknown",
+        "rationale": "Нет фактов, подтверждающих публичную критику действующего государственного курса или его институтов.",
+        "evidence_indices": []
+      },
+      {
+        "variable_id": "participation-administrative-direction__positive",
+        "status": "observed",
+        "value": 2,
+        "confidence": 0.7,
+        "support_type": "positive_manifestation",
+        "rationale": "В интервью 2025 года Акаманзи описала подход NBA Africa как приглашение за один стол организаций развития, финансовых учреждений, частного сектора, правительств и международных организаций (evidence_index: 9). Это согласовательный межсекторный механизм, хотя не доказывает широкое вовлечение граждан.",
+        "evidence_indices": [
+          9
+        ]
+      },
+      {
+        "variable_id": "participation-administrative-direction__negative",
+        "status": "observed",
+        "value": 2,
+        "confidence": 0.7,
+        "support_type": "positive_manifestation",
+        "rationale": "В ряде эпизодов (evidence_indices: 8, 19) фиксируется управленческая постановка задач (например, цель построить 1 000 площадок, административная автономия RDB при сохранении президентского надзора). Это проявление административного контроля и единой линии.",
+        "evidence_indices": [
+          8,
+          19
+        ]
+      },
+      {
+        "variable_id": "argumentation-evidence-values__positive",
+        "status": "observed",
+        "value": 3,
+        "confidence": 0.8,
+        "support_type": "positive_manifestation",
+        "rationale": "Акаманзи регулярно использует данные и измеримые результаты в публичной аргументации (evidence_indices: 0, 7, 11). Примеры: ссылки на рост инвестиций, показатели BAL, экономические результаты спортивных мероприятий.",
+        "evidence_indices": [
+          0,
+          7,
+          11
+        ]
+      },
+      {
+        "variable_id": "argumentation-evidence-values__negative",
+        "status": "observed",
+        "value": 2,
+        "confidence": 0.7,
+        "support_type": "positive_manifestation",
+        "rationale": "В программной речи 2024 года присутствует содержательный призыв к ценностям: дальновидное лидерство как элемент развития, нормативная поддержка управленческой модели (evidence_index: 29).",
+        "evidence_indices": [
+          29
+        ]
+      },
+      {
+        "variable_id": "market-state-instruments__positive",
+        "status": "observed",
+        "value": 3,
+        "confidence": 0.8,
+        "support_type": "positive_manifestation",
+        "rationale": "Акаманзи последовательно продвигает расширение частной инициативы: поддержка стартапов, инвестиции, предпринимательство, благоприятное регулирование для инвесторов (evidence_indices: 1, 12, 22).",
+        "evidence_indices": [
+          1,
+          12,
+          22
+        ]
+      },
+      {
+        "variable_id": "market-state-instruments__negative",
+        "status": "observed",
+        "value": 1,
+        "confidence": 0.6,
+        "support_type": "positive_manifestation",
+        "rationale": "В эпизодах с изменением статуса RDB (evidence_indices: 18, 19) отмечается сохранение государственного надзора и административной автономии, что указывает на элементы государственного контроля, но не на расширение обязательного планирования.",
+        "evidence_indices": [
+          18,
+          19
+        ]
+      },
+      {
+        "variable_id": "accessibility-growth-priorities__positive",
+        "status": "observed",
+        "value": 2,
+        "confidence": 0.7,
+        "support_type": "positive_manifestation",
+        "rationale": "Акаманзи заявляла о необходимости спортивных программ в школах, развитии инфраструктуры, программах для детей (evidence_indices: 8, 10, 21). Это расширение доступа к возможностям, но не универсальное обеспечение базовых благ.",
+        "evidence_indices": [
+          8,
+          10,
+          21
+        ]
+      },
+      {
+        "variable_id": "accessibility-growth-priorities__negative",
+        "status": "observed",
+        "value": 3,
+        "confidence": 0.8,
+        "support_type": "positive_manifestation",
+        "rationale": "В ряде эпизодов (evidence_indices: 0, 1, 7, 11, 12) акцент на росте инвестиций, конкурентоспособности, поддержке предпринимательства и экспорта.",
+        "evidence_indices": [
+          0,
+          1,
+          7,
+          11,
+          12
+        ]
+      },
+      {
+        "variable_id": "external-domestic-resources__positive",
+        "status": "observed",
+        "value": 3,
+        "confidence": 0.8,
+        "support_type": "positive_manifestation",
+        "rationale": "Акаманзи подчёркивала привлечение иностранных инвестиций, международных партнёров, создание платформ для торговли и инвестиций (evidence_indices: 0, 1, 5, 20).",
+        "evidence_indices": [
+          0,
+          1,
+          5,
+          20
+        ]
+      },
+      {
+        "variable_id": "external-domestic-resources__negative",
+        "status": "observed",
+        "value": 1,
+        "confidence": 0.6,
+        "support_type": "positive_manifestation",
+        "rationale": "В публичном профиле работы в RDB отмечено развитие внутренних инвестиций (evidence_index: 5), однако явной стратегии опоры на внутренние доходы или снижения зависимости от внешних поступлений не выявлено.",
+        "evidence_indices": [
+          5
+        ]
+      },
+      {
+        "variable_id": "international-rules-autonomy__positive",
+        "status": "observed",
+        "value": 2,
+        "confidence": 0.7,
+        "support_type": "positive_manifestation",
+        "rationale": "В ряде эпизодов (evidence_indices: 1, 20) Акаманзи аргументировала в пользу международного обмена, интеграции и деловой кооперации, что указывает на поддержку общих международных механизмов.",
+        "evidence_indices": [
+          1,
+          20
+        ]
+      },
+      {
+        "variable_id": "international-rules-autonomy__negative",
+        "status": "unknown",
+        "value": null,
+        "confidence": 0.5,
+        "support_type": "unknown",
+        "rationale": "Нет фактов, подтверждающих защиту национальной самостоятельности решений или возражение против международных обязательств.",
+        "evidence_indices": []
+      },
+      {
+        "variable_id": "mediation-adversarial-communication__positive",
+        "status": "observed",
+        "value": 2,
+        "confidence": 0.7,
+        "support_type": "positive_manifestation",
+        "rationale": "В интервью 2025 года Акаманзи описала подход NBA Africa как согласовательный межсекторный механизм (evidence_index: 9), что свидетельствует о поиске согласования интересов различных сторон.",
+        "evidence_indices": [
+          9
+        ]
+      },
+      {
+        "variable_id": "mediation-adversarial-communication__negative",
+        "status": "unknown",
+        "value": null,
+        "confidence": 0.5,
+        "support_type": "unknown",
+        "rationale": "Нет фактов, подтверждающих публичное опровержение обвинений, спор с другой стороной или защиту собственного требования в полемической форме.",
+        "evidence_indices": []
+      }
+    ]
+  },
+  "model": "gpt-4.1",
+  "task": "independent-ratings-clare-akamanzi-0",
+  "at": "2026-10-15T17:30:51.657153+00:00",
+  "usage": {
+    "prompt_tokens": 8929,
+    "completion_tokens": 1791,
+    "total_tokens": 10720,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "audio_tokens": 0
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "audio_tokens": 0,
+      "accepted_prediction_tokens": 0,
+      "rejected_prediction_tokens": 0
+    }
+  },
+  "citations": [],
+  "system_fingerprint": "fp_801d3b7b5c",
+  "cache_key": "d6c13bd24b73856da3829823bba9d90eabbfee7791ce2526e753669cc972a7cd"
+}

@@ -1,0 +1,215 @@
+{
+  "data": {
+    "ratings": [
+      {
+        "variable_id": "programmatic-renewal__positive",
+        "status": "observed",
+        "value": 3,
+        "confidence": 0.8,
+        "support_type": "positive_manifestation",
+        "rationale": "В 2024 году после освобождения Русесабагина в публичных интервью продолжил критику действующего режима и выражал уверенность в необходимости демократических перемен в Руанде, а также призывал к международному вмешательству. Это свидетельствует о последовательном акценте на необходимости изменения существующего курса, несмотря на письмо о помиловании, где он заявлял об уходе из политики.",
+        "evidence_indices": [
+          5,
+          6,
+          7,
+          8,
+          9
+        ]
+      },
+      {
+        "variable_id": "programmatic-renewal__negative",
+        "status": "observed",
+        "value": 1,
+        "confidence": 0.5,
+        "support_type": "positive_manifestation",
+        "rationale": "В письме о помиловании Русесабагина заявил о намерении отойти от политики и отсутствии дальнейших политических амбиций, что может трактоваться как единичное слабое проявление согласия с продолжением существующего порядка, но последующие действия противоречат этому.",
+        "evidence_indices": [
+          2,
+          10
+        ]
+      },
+      {
+        "variable_id": "government-course-assessment__positive",
+        "status": "unknown",
+        "value": null,
+        "confidence": 0.0,
+        "support_type": "unknown",
+        "rationale": "Нет фактов о публичной поддержке действующего курса Руанды Русесабагиной в указанный период.",
+        "evidence_indices": []
+      },
+      {
+        "variable_id": "government-course-assessment__negative",
+        "status": "observed",
+        "value": 4,
+        "confidence": 0.9,
+        "support_type": "positive_manifestation",
+        "rationale": "Русесабагина в интервью 2024 года прямо и последовательно критиковал правительство Руанды, обвиняя его в нарушениях прав человека, отсутствии демократии и угрозах. Это устойчивый и повторяющийся акцент.",
+        "evidence_indices": [
+          5,
+          6,
+          7,
+          8,
+          9
+        ]
+      },
+      {
+        "variable_id": "participation-administrative-direction__positive",
+        "status": "unknown",
+        "value": null,
+        "confidence": 0.0,
+        "support_type": "unknown",
+        "rationale": "Нет сведений о призывах Русесабагины к совместному обсуждению решений или общественному контролю в указанный период.",
+        "evidence_indices": []
+      },
+      {
+        "variable_id": "participation-administrative-direction__negative",
+        "status": "unknown",
+        "value": null,
+        "confidence": 0.0,
+        "support_type": "unknown",
+        "rationale": "Нет сведений о призывах Русесабагины к административной постановке задач или контролю исполнения в указанный период.",
+        "evidence_indices": []
+      },
+      {
+        "variable_id": "argumentation-evidence-values__positive",
+        "status": "unknown",
+        "value": null,
+        "confidence": 0.0,
+        "support_type": "unknown",
+        "rationale": "Нет прямых фактов обоснования позиций Русесабагины через данные, расчёты или проверяемые результаты в указанный период.",
+        "evidence_indices": []
+      },
+      {
+        "variable_id": "argumentation-evidence-values__negative",
+        "status": "observed",
+        "value": 2,
+        "confidence": 0.7,
+        "support_type": "positive_manifestation",
+        "rationale": "В публичных заявлениях Русесабагина апеллирует к ценностям демократии, памяти о геноциде и коллективной ответственности, что является ограниченным проявлением ценностной аргументации.",
+        "evidence_indices": [
+          5,
+          8,
+          9
+        ]
+      },
+      {
+        "variable_id": "market-state-instruments__positive",
+        "status": "unknown",
+        "value": null,
+        "confidence": 0.0,
+        "support_type": "unknown",
+        "rationale": "Нет сведений о публичных предложениях Русесабагины по расширению частной инициативы или управления.",
+        "evidence_indices": []
+      },
+      {
+        "variable_id": "market-state-instruments__negative",
+        "status": "unknown",
+        "value": null,
+        "confidence": 0.0,
+        "support_type": "unknown",
+        "rationale": "Нет сведений о публичных предложениях Русесабагины по расширению государственного планирования или обязательных правил.",
+        "evidence_indices": []
+      },
+      {
+        "variable_id": "accessibility-growth-priorities__positive",
+        "status": "unknown",
+        "value": null,
+        "confidence": 0.0,
+        "support_type": "unknown",
+        "rationale": "Нет сведений о приоритетах Русесабагины в отношении расширения доступности базовых благ.",
+        "evidence_indices": []
+      },
+      {
+        "variable_id": "accessibility-growth-priorities__negative",
+        "status": "unknown",
+        "value": null,
+        "confidence": 0.0,
+        "support_type": "unknown",
+        "rationale": "Нет сведений о приоритетах Русесабагины в отношении роста инвестиций или конкурентоспособности.",
+        "evidence_indices": []
+      },
+      {
+        "variable_id": "external-domestic-resources__positive",
+        "status": "unknown",
+        "value": null,
+        "confidence": 0.0,
+        "support_type": "unknown",
+        "rationale": "Нет сведений о предложениях Русесабагины по привлечению внешнего финансирования или ресурсных партнёров.",
+        "evidence_indices": []
+      },
+      {
+        "variable_id": "external-domestic-resources__negative",
+        "status": "unknown",
+        "value": null,
+        "confidence": 0.0,
+        "support_type": "unknown",
+        "rationale": "Нет сведений о предложениях Русесабагины по опоре на внутренние доходы или хозяйственную самостоятельность.",
+        "evidence_indices": []
+      },
+      {
+        "variable_id": "international-rules-autonomy__positive",
+        "status": "observed",
+        "value": 2,
+        "confidence": 0.7,
+        "support_type": "positive_manifestation",
+        "rationale": "Русесабагина в интервью призывал к международному вмешательству и вниманию к ситуации в Руанде, что является ограниченным проявлением поддержки международных механизмов и обязательств.",
+        "evidence_indices": [
+          9
+        ]
+      },
+      {
+        "variable_id": "international-rules-autonomy__negative",
+        "status": "unknown",
+        "value": null,
+        "confidence": 0.0,
+        "support_type": "unknown",
+        "rationale": "Нет сведений о публичной защите Русесабагиной национальной самостоятельности решений в указанный период.",
+        "evidence_indices": []
+      },
+      {
+        "variable_id": "mediation-adversarial-communication__positive",
+        "status": "unknown",
+        "value": null,
+        "confidence": 0.0,
+        "support_type": "unknown",
+        "rationale": "Нет сведений о предложениях Русесабагины по посредничеству или согласованию интересов сторон.",
+        "evidence_indices": []
+      },
+      {
+        "variable_id": "mediation-adversarial-communication__negative",
+        "status": "observed",
+        "value": 3,
+        "confidence": 0.8,
+        "support_type": "positive_manifestation",
+        "rationale": "Русесабагина в ряде интервью после освобождения последовательно оспаривал действия властей Руанды, обвинял их в нарушениях и защищал свою позицию, что соответствует устойчивому полемическому стилю коммуникации.",
+        "evidence_indices": [
+          5,
+          6,
+          7,
+          8
+        ]
+      }
+    ]
+  },
+  "model": "gpt-4.1",
+  "task": "independent-ratings-paul-rusesabagina-0",
+  "at": "2026-10-15T17:32:08.305784+00:00",
+  "usage": {
+    "prompt_tokens": 6041,
+    "completion_tokens": 1386,
+    "total_tokens": 7427,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "audio_tokens": 0
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "audio_tokens": 0,
+      "accepted_prediction_tokens": 0,
+      "rejected_prediction_tokens": 0
+    }
+  },
+  "citations": [],
+  "system_fingerprint": "fp_801d3b7b5c",
+  "cache_key": "a8425c692bad6ed8191a14f135bdbb2769cb96c8a7eed0beb5d29adb11326433"
+}

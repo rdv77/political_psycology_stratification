@@ -1,0 +1,1810 @@
+[
+  {
+    "object_id": "ildephonse-musafiri",
+    "scale_id": "programmatic-renewal",
+    "pole_scores": {
+      "positive": {
+        "status": "observed",
+        "value": 2,
+        "confidence": 0.7,
+        "evidence_indices": [
+          2,
+          11
+        ],
+        "source_urls": [
+          "https://www.fao.org/food-systems/news/news-detail/Rwanda-Makes-Steady-Progress-on-Path-to-Food-Systems-Transformation-/",
+          "https://allafrica.com/stories/202410140030.html"
+        ],
+        "event_ids": [
+          "musafiri-psta5-2023-05-11",
+          "musafiri-agbiotech-2024-10-14"
+        ],
+        "rationale": "Мусафири инициировал подготовку новой стратегической программы PSTA 5 и публично обозначал внедрение инновационных технологий и институциональных изменений в агросекторе (эпизоды 2, 11). Это свидетельствует о ясном ограниченном проявлении программных изменений, но не о последовательной или определяющей черте.",
+        "support_type": "positive_manifestation",
+        "provenance": {
+          "raw_response_file": "evidence/independent_responses/a1c815e00696f75ddcec90b7594c98f00497b63500b4c3d760e32617bf26c950.json",
+          "model": "gpt-4.1",
+          "at": "2026-10-15T17:30:33.577308+00:00",
+          "cache_key": "a1c815e00696f75ddcec90b7594c98f00497b63500b4c3d760e32617bf26c950",
+          "original_proposal": {
+            "variable_id": "programmatic-renewal__positive",
+            "status": "observed",
+            "value": 2,
+            "confidence": 0.7,
+            "support_type": "positive_manifestation",
+            "rationale": "Мусафири инициировал подготовку новой стратегической программы PSTA 5 и публично обозначал внедрение инновационных технологий и институциональных изменений в агросекторе (эпизоды 2, 11). Это свидетельствует о ясном ограниченном проявлении программных изменений, но не о последовательной или определяющей черте.",
+            "evidence_indices": [
+              2,
+              11
+            ]
+          }
+        },
+        "evidence_file": "evidence/independent-dossier-ildephonse-musafiri.json",
+        "evidence_basis": "f4397af1530af93b25278451807bc69128391530ce39b00892af589b01421eb7"
+      },
+      "negative": {
+        "status": "observed",
+        "value": 2,
+        "confidence": 0.7,
+        "evidence_indices": [
+          13,
+          14
+        ],
+        "source_urls": [
+          "https://minagri.prod.risa.rw/updates/news-details/minister-musafiri-outlines-priorities-in-agriculture-sector",
+          "https://dairybusinessmea.com/2024/01/30/rwandan-milk-consumption-surges-minister-highlights-achievements/"
+        ],
+        "event_ids": [
+          "musafiri-priorities-2023-08-29",
+          "musafiri-2024-01-18-dairy-dialogue"
+        ],
+        "rationale": "Мусафири в публичных заявлениях подчеркивал преемственность и развитие действующих программ, например, продвижение результатов в молочном секторе и поддержку текущего курса (эпизоды 14, 13). Это ограниченное, но явное проявление закрепления существующего курса.",
+        "support_type": "positive_manifestation",
+        "provenance": {
+          "raw_response_file": "evidence/independent_responses/a1c815e00696f75ddcec90b7594c98f00497b63500b4c3d760e32617bf26c950.json",
+          "model": "gpt-4.1",
+          "at": "2026-10-15T17:30:33.577308+00:00",
+          "cache_key": "a1c815e00696f75ddcec90b7594c98f00497b63500b4c3d760e32617bf26c950",
+          "original_proposal": {
+            "variable_id": "programmatic-renewal__negative",
+            "status": "observed",
+            "value": 2,
+            "confidence": 0.7,
+            "support_type": "positive_manifestation",
+            "rationale": "Мусафири в публичных заявлениях подчеркивал преемственность и развитие действующих программ, например, продвижение результатов в молочном секторе и поддержку текущего курса (эпизоды 14, 13). Это ограниченное, но явное проявление закрепления существующего курса.",
+            "evidence_indices": [
+              13,
+              14
+            ]
+          }
+        },
+        "evidence_file": "evidence/independent-dossier-ildephonse-musafiri.json",
+        "evidence_basis": "f4397af1530af93b25278451807bc69128391530ce39b00892af589b01421eb7"
+      }
+    },
+    "positive": 2,
+    "negative": 2,
+    "value": null,
+    "status": "observed",
+    "difference": null,
+    "mass": null,
+    "measurement_model": "independent_poles",
+    "evidence_file": "evidence/independent-dossier-ildephonse-musafiri.json",
+    "evidence_basis": "f4397af1530af93b25278451807bc69128391530ce39b00892af589b01421eb7",
+    "at": "2026-10-15T17:30:46.496380+00:00",
+    "reason": "Каждое свойство оценивается независимо; разность и искусственное дополнение до пяти не вычисляются"
+  },
+  {
+    "object_id": "ildephonse-musafiri",
+    "scale_id": "government-course-assessment",
+    "pole_scores": {
+      "positive": {
+        "status": "observed",
+        "value": 2,
+        "confidence": 0.7,
+        "evidence_indices": [
+          10,
+          14
+        ],
+        "source_urls": [
+          "https://www.africa-press.net/rwanda/economy/govt-to-buy-26000-tonnes-of-rice-to-cushion-farmers-from-losses",
+          "https://dairybusinessmea.com/2024/01/30/rwandan-milk-consumption-surges-minister-highlights-achievements/"
+        ],
+        "event_ids": [
+          "musafiri-rice-purchase-2024-08-19",
+          "musafiri-2024-01-18-dairy-dialogue"
+        ],
+        "rationale": "В ряде публичных выступлений Мусафири отмечал достижения действующего курса (например, рост потребления молока, поддержка фермеров через госзакупки риса), что указывает на ограниченную, но явную поддержку курса правительства (эпизоды 14, 10).",
+        "support_type": "positive_manifestation",
+        "provenance": {
+          "raw_response_file": "evidence/independent_responses/a1c815e00696f75ddcec90b7594c98f00497b63500b4c3d760e32617bf26c950.json",
+          "model": "gpt-4.1",
+          "at": "2026-10-15T17:30:33.577308+00:00",
+          "cache_key": "a1c815e00696f75ddcec90b7594c98f00497b63500b4c3d760e32617bf26c950",
+          "original_proposal": {
+            "variable_id": "government-course-assessment__positive",
+            "status": "observed",
+            "value": 2,
+            "confidence": 0.7,
+            "support_type": "positive_manifestation",
+            "rationale": "В ряде публичных выступлений Мусафири отмечал достижения действующего курса (например, рост потребления молока, поддержка фермеров через госзакупки риса), что указывает на ограниченную, но явную поддержку курса правительства (эпизоды 14, 10).",
+            "evidence_indices": [
+              10,
+              14
+            ]
+          }
+        },
+        "evidence_file": "evidence/independent-dossier-ildephonse-musafiri.json",
+        "evidence_basis": "f4397af1530af93b25278451807bc69128391530ce39b00892af589b01421eb7"
+      },
+      "negative": {
+        "status": "observed",
+        "value": 0,
+        "confidence": 0.8,
+        "evidence_indices": [
+          13,
+          14,
+          10
+        ],
+        "source_urls": [
+          "https://minagri.prod.risa.rw/updates/news-details/minister-musafiri-outlines-priorities-in-agriculture-sector",
+          "https://dairybusinessmea.com/2024/01/30/rwandan-milk-consumption-surges-minister-highlights-achievements/",
+          "https://www.africa-press.net/rwanda/economy/govt-to-buy-26000-tonnes-of-rice-to-cushion-farmers-from-losses"
+        ],
+        "event_ids": [
+          "musafiri-priorities-2023-08-29",
+          "musafiri-2024-01-18-dairy-dialogue",
+          "musafiri-rice-purchase-2024-08-19"
+        ],
+        "rationale": "В доступных материалах отсутствуют эпизоды публичной критики Мусафири в адрес действующего государственного курса. Его заявления и действия направлены на поддержку и развитие существующих программ.",
+        "support_type": "explicit_absence",
+        "provenance": {
+          "raw_response_file": "evidence/independent_responses/a1c815e00696f75ddcec90b7594c98f00497b63500b4c3d760e32617bf26c950.json",
+          "model": "gpt-4.1",
+          "at": "2026-10-15T17:30:33.577308+00:00",
+          "cache_key": "a1c815e00696f75ddcec90b7594c98f00497b63500b4c3d760e32617bf26c950",
+          "original_proposal": {
+            "variable_id": "government-course-assessment__negative",
+            "status": "observed",
+            "value": 0,
+            "confidence": 0.8,
+            "support_type": "explicit_absence",
+            "rationale": "В доступных материалах отсутствуют эпизоды публичной критики Мусафири в адрес действующего государственного курса. Его заявления и действия направлены на поддержку и развитие существующих программ.",
+            "evidence_indices": [
+              13,
+              14,
+              10
+            ]
+          }
+        },
+        "evidence_file": "evidence/independent-dossier-ildephonse-musafiri.json",
+        "evidence_basis": "f4397af1530af93b25278451807bc69128391530ce39b00892af589b01421eb7"
+      }
+    },
+    "positive": 2,
+    "negative": 0,
+    "value": null,
+    "status": "observed",
+    "difference": null,
+    "mass": null,
+    "measurement_model": "independent_poles",
+    "evidence_file": "evidence/independent-dossier-ildephonse-musafiri.json",
+    "evidence_basis": "f4397af1530af93b25278451807bc69128391530ce39b00892af589b01421eb7",
+    "at": "2026-10-15T17:30:46.496380+00:00",
+    "reason": "Каждое свойство оценивается независимо; разность и искусственное дополнение до пяти не вычисляются"
+  },
+  {
+    "object_id": "ildephonse-musafiri",
+    "scale_id": "participation-administrative-direction",
+    "pole_scores": {
+      "positive": {
+        "status": "observed",
+        "value": 2,
+        "confidence": 0.7,
+        "evidence_indices": [
+          2,
+          9
+        ],
+        "source_urls": [
+          "https://www.fao.org/food-systems/news/news-detail/Rwanda-Makes-Steady-Progress-on-Path-to-Food-Systems-Transformation-/"
+        ],
+        "event_ids": [
+          "musafiri-psta5-2023-05-11"
+        ],
+        "rationale": "Мусафири созывал координационные форматы с национальными и международными партнёрами для обсуждения стратегий и получения обратной связи (эпизоды 2, 9), что свидетельствует о ясном ограниченном проявлении совместного обсуждения.",
+        "support_type": "positive_manifestation",
+        "provenance": {
+          "raw_response_file": "evidence/independent_responses/a1c815e00696f75ddcec90b7594c98f00497b63500b4c3d760e32617bf26c950.json",
+          "model": "gpt-4.1",
+          "at": "2026-10-15T17:30:33.577308+00:00",
+          "cache_key": "a1c815e00696f75ddcec90b7594c98f00497b63500b4c3d760e32617bf26c950",
+          "original_proposal": {
+            "variable_id": "participation-administrative-direction__positive",
+            "status": "observed",
+            "value": 2,
+            "confidence": 0.7,
+            "support_type": "positive_manifestation",
+            "rationale": "Мусафири созывал координационные форматы с национальными и международными партнёрами для обсуждения стратегий и получения обратной связи (эпизоды 2, 9), что свидетельствует о ясном ограниченном проявлении совместного обсуждения.",
+            "evidence_indices": [
+              2,
+              9
+            ]
+          }
+        },
+        "evidence_file": "evidence/independent-dossier-ildephonse-musafiri.json",
+        "evidence_basis": "f4397af1530af93b25278451807bc69128391530ce39b00892af589b01421eb7"
+      },
+      "negative": {
+        "status": "observed",
+        "value": 2,
+        "confidence": 0.7,
+        "evidence_indices": [
+          3,
+          5
+        ],
+        "source_urls": [
+          "https://www.minagri.gov.rw/updates/news/page?tx_news_pi1[currentPage]=6&cHash=49ecfd44c04f184493dc7133cc4ed740",
+          "https://www.rab.gov.rw/1-1/news-details/dr-ndabamenye-takes-office-as-the-director-general"
+        ],
+        "event_ids": [
+          "musafiri-eastern-province-livestock-2023-05-21",
+          "musafiri-rab-handover-2023-03-13"
+        ],
+        "rationale": "Мусафири осуществлял административное руководство, например, председательствовал на передаче полномочий в подведомственном органе и давал отраслевые поручения (эпизоды 5, 3). Это ограниченное проявление административной постановки задач.",
+        "support_type": "positive_manifestation",
+        "provenance": {
+          "raw_response_file": "evidence/independent_responses/a1c815e00696f75ddcec90b7594c98f00497b63500b4c3d760e32617bf26c950.json",
+          "model": "gpt-4.1",
+          "at": "2026-10-15T17:30:33.577308+00:00",
+          "cache_key": "a1c815e00696f75ddcec90b7594c98f00497b63500b4c3d760e32617bf26c950",
+          "original_proposal": {
+            "variable_id": "participation-administrative-direction__negative",
+            "status": "observed",
+            "value": 2,
+            "confidence": 0.7,
+            "support_type": "positive_manifestation",
+            "rationale": "Мусафири осуществлял административное руководство, например, председательствовал на передаче полномочий в подведомственном органе и давал отраслевые поручения (эпизоды 5, 3). Это ограниченное проявление административной постановки задач.",
+            "evidence_indices": [
+              3,
+              5
+            ]
+          }
+        },
+        "evidence_file": "evidence/independent-dossier-ildephonse-musafiri.json",
+        "evidence_basis": "f4397af1530af93b25278451807bc69128391530ce39b00892af589b01421eb7"
+      }
+    },
+    "positive": 2,
+    "negative": 2,
+    "value": null,
+    "status": "observed",
+    "difference": null,
+    "mass": null,
+    "measurement_model": "independent_poles",
+    "evidence_file": "evidence/independent-dossier-ildephonse-musafiri.json",
+    "evidence_basis": "f4397af1530af93b25278451807bc69128391530ce39b00892af589b01421eb7",
+    "at": "2026-10-15T17:30:46.496380+00:00",
+    "reason": "Каждое свойство оценивается независимо; разность и искусственное дополнение до пяти не вычисляются"
+  },
+  {
+    "object_id": "ildephonse-musafiri",
+    "scale_id": "argumentation-evidence-values",
+    "pole_scores": {
+      "positive": {
+        "status": "observed",
+        "value": 3,
+        "confidence": 0.8,
+        "evidence_indices": [
+          7,
+          14,
+          15
+        ],
+        "source_urls": [
+          "https://iita.org/news-item/rwanda-ministry-of-agriculture-and-iita-to-collaborate-on-innovation-scaling/",
+          "https://dairybusinessmea.com/2024/01/30/rwandan-milk-consumption-surges-minister-highlights-achievements/",
+          "https://allafrica.com/stories/202410140030.html"
+        ],
+        "event_ids": [
+          "musafiri-iita-2024-09-27",
+          "musafiri-2024-01-18-dairy-dialogue",
+          "musafiri-2024-10-14-biotech-challenges"
+        ],
+        "rationale": "Мусафири неоднократно обосновывал решения через данные, исследования и количественные показатели (например, рост потребления молока, обоснование биотехнологий через угрозы и расчёты, акцент на исследованиях и инновациях) — устойчивый публичный акцент (эпизоды 14, 15, 7).",
+        "support_type": "positive_manifestation",
+        "provenance": {
+          "raw_response_file": "evidence/independent_responses/a1c815e00696f75ddcec90b7594c98f00497b63500b4c3d760e32617bf26c950.json",
+          "model": "gpt-4.1",
+          "at": "2026-10-15T17:30:33.577308+00:00",
+          "cache_key": "a1c815e00696f75ddcec90b7594c98f00497b63500b4c3d760e32617bf26c950",
+          "original_proposal": {
+            "variable_id": "argumentation-evidence-values__positive",
+            "status": "observed",
+            "value": 3,
+            "confidence": 0.8,
+            "support_type": "positive_manifestation",
+            "rationale": "Мусафири неоднократно обосновывал решения через данные, исследования и количественные показатели (например, рост потребления молока, обоснование биотехнологий через угрозы и расчёты, акцент на исследованиях и инновациях) — устойчивый публичный акцент (эпизоды 14, 15, 7).",
+            "evidence_indices": [
+              7,
+              14,
+              15
+            ]
+          }
+        },
+        "evidence_file": "evidence/independent-dossier-ildephonse-musafiri.json",
+        "evidence_basis": "f4397af1530af93b25278451807bc69128391530ce39b00892af589b01421eb7"
+      },
+      "negative": {
+        "status": "observed",
+        "value": 2,
+        "confidence": 0.7,
+        "evidence_indices": [
+          17
+        ],
+        "source_urls": [
+          "https://www.rab.gov.rw/1-1/news-details/kwibuka30-rab-commemorates-former-employees-killed-in-the-1994-genocide-against-the-tutsi"
+        ],
+        "event_ids": [
+          "musafiri-2025-01-01-kwibuka"
+        ],
+        "rationale": "В публичных выступлениях Мусафири использовал обращения к национальной памяти и коллективным символам, например, на памятном мероприятии, что свидетельствует о ясном ограниченном проявлении ценностной аргументации (эпизод 17).",
+        "support_type": "positive_manifestation",
+        "provenance": {
+          "raw_response_file": "evidence/independent_responses/a1c815e00696f75ddcec90b7594c98f00497b63500b4c3d760e32617bf26c950.json",
+          "model": "gpt-4.1",
+          "at": "2026-10-15T17:30:33.577308+00:00",
+          "cache_key": "a1c815e00696f75ddcec90b7594c98f00497b63500b4c3d760e32617bf26c950",
+          "original_proposal": {
+            "variable_id": "argumentation-evidence-values__negative",
+            "status": "observed",
+            "value": 2,
+            "confidence": 0.7,
+            "support_type": "positive_manifestation",
+            "rationale": "В публичных выступлениях Мусафири использовал обращения к национальной памяти и коллективным символам, например, на памятном мероприятии, что свидетельствует о ясном ограниченном проявлении ценностной аргументации (эпизод 17).",
+            "evidence_indices": [
+              17
+            ]
+          }
+        },
+        "evidence_file": "evidence/independent-dossier-ildephonse-musafiri.json",
+        "evidence_basis": "f4397af1530af93b25278451807bc69128391530ce39b00892af589b01421eb7"
+      }
+    },
+    "positive": 3,
+    "negative": 2,
+    "value": null,
+    "status": "observed",
+    "difference": null,
+    "mass": null,
+    "measurement_model": "independent_poles",
+    "evidence_file": "evidence/independent-dossier-ildephonse-musafiri.json",
+    "evidence_basis": "f4397af1530af93b25278451807bc69128391530ce39b00892af589b01421eb7",
+    "at": "2026-10-15T17:30:46.496380+00:00",
+    "reason": "Каждое свойство оценивается независимо; разность и искусственное дополнение до пяти не вычисляются"
+  },
+  {
+    "object_id": "ildephonse-musafiri",
+    "scale_id": "market-state-instruments",
+    "pole_scores": {
+      "positive": {
+        "status": "observed",
+        "value": 2,
+        "confidence": 0.7,
+        "evidence_indices": [
+          13,
+          19
+        ],
+        "source_urls": [
+          "https://minagri.prod.risa.rw/updates/news-details/minister-musafiri-outlines-priorities-in-agriculture-sector",
+          "https://www.linkedin.com/posts/nepad-planning-and-coordinating-agency_agenda2063-africafoodsystemsforum2025-activity-7368922620131573761-qfQC"
+        ],
+        "event_ids": [
+          "musafiri-priorities-2023-08-29",
+          "musafiri-2025-09-03-youth-agribusiness"
+        ],
+        "rationale": "Мусафири призывал частный сектор инвестировать в сельское хозяйство и продвигал предпринимательскую инициативу среди молодежи (эпизоды 13, 19), что указывает на ограниченное проявление поддержки частной инициативы.",
+        "support_type": "positive_manifestation",
+        "provenance": {
+          "raw_response_file": "evidence/independent_responses/a1c815e00696f75ddcec90b7594c98f00497b63500b4c3d760e32617bf26c950.json",
+          "model": "gpt-4.1",
+          "at": "2026-10-15T17:30:33.577308+00:00",
+          "cache_key": "a1c815e00696f75ddcec90b7594c98f00497b63500b4c3d760e32617bf26c950",
+          "original_proposal": {
+            "variable_id": "market-state-instruments__positive",
+            "status": "observed",
+            "value": 2,
+            "confidence": 0.7,
+            "support_type": "positive_manifestation",
+            "rationale": "Мусафири призывал частный сектор инвестировать в сельское хозяйство и продвигал предпринимательскую инициативу среди молодежи (эпизоды 13, 19), что указывает на ограниченное проявление поддержки частной инициативы.",
+            "evidence_indices": [
+              13,
+              19
+            ]
+          }
+        },
+        "evidence_file": "evidence/independent-dossier-ildephonse-musafiri.json",
+        "evidence_basis": "f4397af1530af93b25278451807bc69128391530ce39b00892af589b01421eb7"
+      },
+      "negative": {
+        "status": "observed",
+        "value": 2,
+        "confidence": 0.7,
+        "evidence_indices": [
+          10
+        ],
+        "source_urls": [
+          "https://www.africa-press.net/rwanda/economy/govt-to-buy-26000-tonnes-of-rice-to-cushion-farmers-from-losses"
+        ],
+        "event_ids": [
+          "musafiri-rice-purchase-2024-08-19"
+        ],
+        "rationale": "Мусафири инициировал государственные закупки риса для поддержки фермеров и создание госагентства по закупке зерна (эпизод 10), что свидетельствует о ясном ограниченном проявлении расширения государственных инструментов.",
+        "support_type": "positive_manifestation",
+        "provenance": {
+          "raw_response_file": "evidence/independent_responses/a1c815e00696f75ddcec90b7594c98f00497b63500b4c3d760e32617bf26c950.json",
+          "model": "gpt-4.1",
+          "at": "2026-10-15T17:30:33.577308+00:00",
+          "cache_key": "a1c815e00696f75ddcec90b7594c98f00497b63500b4c3d760e32617bf26c950",
+          "original_proposal": {
+            "variable_id": "market-state-instruments__negative",
+            "status": "observed",
+            "value": 2,
+            "confidence": 0.7,
+            "support_type": "positive_manifestation",
+            "rationale": "Мусафири инициировал государственные закупки риса для поддержки фермеров и создание госагентства по закупке зерна (эпизод 10), что свидетельствует о ясном ограниченном проявлении расширения государственных инструментов.",
+            "evidence_indices": [
+              10
+            ]
+          }
+        },
+        "evidence_file": "evidence/independent-dossier-ildephonse-musafiri.json",
+        "evidence_basis": "f4397af1530af93b25278451807bc69128391530ce39b00892af589b01421eb7"
+      }
+    },
+    "positive": 2,
+    "negative": 2,
+    "value": null,
+    "status": "observed",
+    "difference": null,
+    "mass": null,
+    "measurement_model": "independent_poles",
+    "evidence_file": "evidence/independent-dossier-ildephonse-musafiri.json",
+    "evidence_basis": "f4397af1530af93b25278451807bc69128391530ce39b00892af589b01421eb7",
+    "at": "2026-10-15T17:30:46.496380+00:00",
+    "reason": "Каждое свойство оценивается независимо; разность и искусственное дополнение до пяти не вычисляются"
+  },
+  {
+    "object_id": "ildephonse-musafiri",
+    "scale_id": "accessibility-growth-priorities",
+    "pole_scores": {
+      "positive": {
+        "status": "observed",
+        "value": 3,
+        "confidence": 0.8,
+        "evidence_indices": [
+          1,
+          10,
+          11,
+          14
+        ],
+        "source_urls": [
+          "https://www.minagri.gov.rw/updates/news-details/minister-musafiri-outlines-priorities-in-agriculture-sector",
+          "https://www.africa-press.net/rwanda/economy/govt-to-buy-26000-tonnes-of-rice-to-cushion-farmers-from-losses",
+          "https://allafrica.com/stories/202410140030.html",
+          "https://dairybusinessmea.com/2024/01/30/rwandan-milk-consumption-surges-minister-highlights-achievements/"
+        ],
+        "event_ids": [
+          "musafiri-priorities-2023-08-29",
+          "musafiri-rice-purchase-2024-08-19",
+          "musafiri-agbiotech-2024-10-14",
+          "musafiri-2024-01-18-dairy-dialogue"
+        ],
+        "rationale": "Мусафири последовательно выделял расширение доступности базовых благ (продовольственная безопасность, школьное питание, доступ к молоку, повышение урожайности) как приоритет (эпизоды 1, 10, 14, 11).",
+        "support_type": "positive_manifestation",
+        "provenance": {
+          "raw_response_file": "evidence/independent_responses/a1c815e00696f75ddcec90b7594c98f00497b63500b4c3d760e32617bf26c950.json",
+          "model": "gpt-4.1",
+          "at": "2026-10-15T17:30:33.577308+00:00",
+          "cache_key": "a1c815e00696f75ddcec90b7594c98f00497b63500b4c3d760e32617bf26c950",
+          "original_proposal": {
+            "variable_id": "accessibility-growth-priorities__positive",
+            "status": "observed",
+            "value": 3,
+            "confidence": 0.8,
+            "support_type": "positive_manifestation",
+            "rationale": "Мусафири последовательно выделял расширение доступности базовых благ (продовольственная безопасность, школьное питание, доступ к молоку, повышение урожайности) как приоритет (эпизоды 1, 10, 14, 11).",
+            "evidence_indices": [
+              1,
+              10,
+              11,
+              14
+            ]
+          }
+        },
+        "evidence_file": "evidence/independent-dossier-ildephonse-musafiri.json",
+        "evidence_basis": "f4397af1530af93b25278451807bc69128391530ce39b00892af589b01421eb7"
+      },
+      "negative": {
+        "status": "observed",
+        "value": 2,
+        "confidence": 0.7,
+        "evidence_indices": [
+          16,
+          19
+        ],
+        "source_urls": [
+          "https://www.minagri.gov.rw/updates/news/page?tx_news_pi1[currentPage]=4&cHash=55264bdf9d917de0a69fbf8d25c93252",
+          "https://www.linkedin.com/posts/nepad-planning-and-coordinating-agency_agenda2063-africafoodsystemsforum2025-activity-7368922620131573761-qfQC"
+        ],
+        "event_ids": [
+          "musafiri-2024-10-15-investment-opportunities",
+          "musafiri-2025-09-03-youth-agribusiness"
+        ],
+        "rationale": "Мусафири публично продвигал инвестиционные возможности и рост агробизнеса, особенно среди молодежи (эпизоды 16, 19), что указывает на ограниченное проявление приоритета роста и конкурентоспособности.",
+        "support_type": "positive_manifestation",
+        "provenance": {
+          "raw_response_file": "evidence/independent_responses/a1c815e00696f75ddcec90b7594c98f00497b63500b4c3d760e32617bf26c950.json",
+          "model": "gpt-4.1",
+          "at": "2026-10-15T17:30:33.577308+00:00",
+          "cache_key": "a1c815e00696f75ddcec90b7594c98f00497b63500b4c3d760e32617bf26c950",
+          "original_proposal": {
+            "variable_id": "accessibility-growth-priorities__negative",
+            "status": "observed",
+            "value": 2,
+            "confidence": 0.7,
+            "support_type": "positive_manifestation",
+            "rationale": "Мусафири публично продвигал инвестиционные возможности и рост агробизнеса, особенно среди молодежи (эпизоды 16, 19), что указывает на ограниченное проявление приоритета роста и конкурентоспособности.",
+            "evidence_indices": [
+              16,
+              19
+            ]
+          }
+        },
+        "evidence_file": "evidence/independent-dossier-ildephonse-musafiri.json",
+        "evidence_basis": "f4397af1530af93b25278451807bc69128391530ce39b00892af589b01421eb7"
+      }
+    },
+    "positive": 3,
+    "negative": 2,
+    "value": null,
+    "status": "observed",
+    "difference": null,
+    "mass": null,
+    "measurement_model": "independent_poles",
+    "evidence_file": "evidence/independent-dossier-ildephonse-musafiri.json",
+    "evidence_basis": "f4397af1530af93b25278451807bc69128391530ce39b00892af589b01421eb7",
+    "at": "2026-10-15T17:30:46.496380+00:00",
+    "reason": "Каждое свойство оценивается независимо; разность и искусственное дополнение до пяти не вычисляются"
+  },
+  {
+    "object_id": "ildephonse-musafiri",
+    "scale_id": "external-domestic-resources",
+    "pole_scores": {
+      "positive": {
+        "status": "observed",
+        "value": 3,
+        "confidence": 0.8,
+        "evidence_indices": [
+          4,
+          12,
+          16
+        ],
+        "source_urls": [
+          "https://www.minagri.gov.rw/updates/news/page?tx_news_pi1[currentPage]=6&cHash=49ecfd44c04f184493dc7133cc4ed740",
+          "https://www.ktpress.rw/2024/05/rwanda-guinea-commit-to-revamping-bilateral-cooperation/",
+          "https://www.minagri.gov.rw/updates/news/page?tx_news_pi1[currentPage]=4&cHash=55264bdf9d917de0a69fbf8d25c93252"
+        ],
+        "event_ids": [
+          "musafiri-nyaruguru-tea-2023-05-24",
+          "musafiri-guinea-mou-2024-05-18",
+          "musafiri-2024-10-15-investment-opportunities"
+        ],
+        "rationale": "Мусафири активно привлекал внешних партнёров и инвестиции (международные соглашения, инвестиционные проекты, взаимодействие с фондами и компаниями) — устойчивый публичный акцент (эпизоды 4, 12, 16).",
+        "support_type": "positive_manifestation",
+        "provenance": {
+          "raw_response_file": "evidence/independent_responses/a1c815e00696f75ddcec90b7594c98f00497b63500b4c3d760e32617bf26c950.json",
+          "model": "gpt-4.1",
+          "at": "2026-10-15T17:30:33.577308+00:00",
+          "cache_key": "a1c815e00696f75ddcec90b7594c98f00497b63500b4c3d760e32617bf26c950",
+          "original_proposal": {
+            "variable_id": "external-domestic-resources__positive",
+            "status": "observed",
+            "value": 3,
+            "confidence": 0.8,
+            "support_type": "positive_manifestation",
+            "rationale": "Мусафири активно привлекал внешних партнёров и инвестиции (международные соглашения, инвестиционные проекты, взаимодействие с фондами и компаниями) — устойчивый публичный акцент (эпизоды 4, 12, 16).",
+            "evidence_indices": [
+              4,
+              12,
+              16
+            ]
+          }
+        },
+        "evidence_file": "evidence/independent-dossier-ildephonse-musafiri.json",
+        "evidence_basis": "f4397af1530af93b25278451807bc69128391530ce39b00892af589b01421eb7"
+      },
+      "negative": {
+        "status": "unknown",
+        "value": null,
+        "confidence": 0,
+        "evidence_indices": [],
+        "source_urls": [],
+        "event_ids": [],
+        "rationale": "В материалах отсутствуют прямые заявления или действия Мусафири, свидетельствующие о приоритете внутренней ресурсной самостоятельности или снижении зависимости от внешних поступлений.",
+        "support_type": "unknown",
+        "provenance": {
+          "raw_response_file": "evidence/independent_responses/a1c815e00696f75ddcec90b7594c98f00497b63500b4c3d760e32617bf26c950.json",
+          "model": "gpt-4.1",
+          "at": "2026-10-15T17:30:33.577308+00:00",
+          "cache_key": "a1c815e00696f75ddcec90b7594c98f00497b63500b4c3d760e32617bf26c950",
+          "original_proposal": {
+            "variable_id": "external-domestic-resources__negative",
+            "status": "unknown",
+            "value": null,
+            "confidence": 0.5,
+            "support_type": "unknown",
+            "rationale": "В материалах отсутствуют прямые заявления или действия Мусафири, свидетельствующие о приоритете внутренней ресурсной самостоятельности или снижении зависимости от внешних поступлений.",
+            "evidence_indices": []
+          }
+        },
+        "evidence_file": "evidence/independent-dossier-ildephonse-musafiri.json",
+        "evidence_basis": "f4397af1530af93b25278451807bc69128391530ce39b00892af589b01421eb7"
+      }
+    },
+    "positive": 3,
+    "negative": null,
+    "value": null,
+    "status": "partial",
+    "difference": null,
+    "mass": null,
+    "measurement_model": "independent_poles",
+    "evidence_file": "evidence/independent-dossier-ildephonse-musafiri.json",
+    "evidence_basis": "f4397af1530af93b25278451807bc69128391530ce39b00892af589b01421eb7",
+    "at": "2026-10-15T17:30:46.496380+00:00",
+    "reason": "Каждое свойство оценивается независимо; разность и искусственное дополнение до пяти не вычисляются"
+  },
+  {
+    "object_id": "ildephonse-musafiri",
+    "scale_id": "international-rules-autonomy",
+    "pole_scores": {
+      "positive": {
+        "status": "unknown",
+        "value": null,
+        "confidence": 0,
+        "evidence_indices": [],
+        "source_urls": [],
+        "event_ids": [],
+        "rationale": "Нет прямых свидетельств, что Мусафири публично предлагал закрепление обязательных международных норм или договоров вне рамок служебных соглашений.",
+        "support_type": "unknown",
+        "provenance": {
+          "raw_response_file": "evidence/independent_responses/a1c815e00696f75ddcec90b7594c98f00497b63500b4c3d760e32617bf26c950.json",
+          "model": "gpt-4.1",
+          "at": "2026-10-15T17:30:33.577308+00:00",
+          "cache_key": "a1c815e00696f75ddcec90b7594c98f00497b63500b4c3d760e32617bf26c950",
+          "original_proposal": {
+            "variable_id": "international-rules-autonomy__positive",
+            "status": "unknown",
+            "value": null,
+            "confidence": 0.5,
+            "support_type": "unknown",
+            "rationale": "Нет прямых свидетельств, что Мусафири публично предлагал закрепление обязательных международных норм или договоров вне рамок служебных соглашений.",
+            "evidence_indices": []
+          }
+        },
+        "evidence_file": "evidence/independent-dossier-ildephonse-musafiri.json",
+        "evidence_basis": "f4397af1530af93b25278451807bc69128391530ce39b00892af589b01421eb7"
+      },
+      "negative": {
+        "status": "unknown",
+        "value": null,
+        "confidence": 0,
+        "evidence_indices": [],
+        "source_urls": [],
+        "event_ids": [],
+        "rationale": "Нет прямых свидетельств, что Мусафири публично защищал национальную самостоятельность решений или возражал против внешнего навязывания.",
+        "support_type": "unknown",
+        "provenance": {
+          "raw_response_file": "evidence/independent_responses/a1c815e00696f75ddcec90b7594c98f00497b63500b4c3d760e32617bf26c950.json",
+          "model": "gpt-4.1",
+          "at": "2026-10-15T17:30:33.577308+00:00",
+          "cache_key": "a1c815e00696f75ddcec90b7594c98f00497b63500b4c3d760e32617bf26c950",
+          "original_proposal": {
+            "variable_id": "international-rules-autonomy__negative",
+            "status": "unknown",
+            "value": null,
+            "confidence": 0.5,
+            "support_type": "unknown",
+            "rationale": "Нет прямых свидетельств, что Мусафири публично защищал национальную самостоятельность решений или возражал против внешнего навязывания.",
+            "evidence_indices": []
+          }
+        },
+        "evidence_file": "evidence/independent-dossier-ildephonse-musafiri.json",
+        "evidence_basis": "f4397af1530af93b25278451807bc69128391530ce39b00892af589b01421eb7"
+      }
+    },
+    "positive": null,
+    "negative": null,
+    "value": null,
+    "status": "unknown",
+    "difference": null,
+    "mass": null,
+    "measurement_model": "independent_poles",
+    "evidence_file": "evidence/independent-dossier-ildephonse-musafiri.json",
+    "evidence_basis": "f4397af1530af93b25278451807bc69128391530ce39b00892af589b01421eb7",
+    "at": "2026-10-15T17:30:46.496380+00:00",
+    "reason": "Каждое свойство оценивается независимо; разность и искусственное дополнение до пяти не вычисляются"
+  },
+  {
+    "object_id": "ildephonse-musafiri",
+    "scale_id": "mediation-adversarial-communication",
+    "pole_scores": {
+      "positive": {
+        "status": "unknown",
+        "value": null,
+        "confidence": 0,
+        "evidence_indices": [],
+        "source_urls": [],
+        "event_ids": [],
+        "rationale": "В материалах отсутствуют эпизоды, где Мусафири выступал посредником или инициировал согласование интересов сторон.",
+        "support_type": "unknown",
+        "provenance": {
+          "raw_response_file": "evidence/independent_responses/a1c815e00696f75ddcec90b7594c98f00497b63500b4c3d760e32617bf26c950.json",
+          "model": "gpt-4.1",
+          "at": "2026-10-15T17:30:33.577308+00:00",
+          "cache_key": "a1c815e00696f75ddcec90b7594c98f00497b63500b4c3d760e32617bf26c950",
+          "original_proposal": {
+            "variable_id": "mediation-adversarial-communication__positive",
+            "status": "unknown",
+            "value": null,
+            "confidence": 0.5,
+            "support_type": "unknown",
+            "rationale": "В материалах отсутствуют эпизоды, где Мусафири выступал посредником или инициировал согласование интересов сторон.",
+            "evidence_indices": []
+          }
+        },
+        "evidence_file": "evidence/independent-dossier-ildephonse-musafiri.json",
+        "evidence_basis": "f4397af1530af93b25278451807bc69128391530ce39b00892af589b01421eb7"
+      },
+      "negative": {
+        "status": "unknown",
+        "value": null,
+        "confidence": 0,
+        "evidence_indices": [],
+        "source_urls": [],
+        "event_ids": [],
+        "rationale": "Нет данных о публичных полемических спорах или защите собственной стороны в противостоянии с другими акторами.",
+        "support_type": "unknown",
+        "provenance": {
+          "raw_response_file": "evidence/independent_responses/a1c815e00696f75ddcec90b7594c98f00497b63500b4c3d760e32617bf26c950.json",
+          "model": "gpt-4.1",
+          "at": "2026-10-15T17:30:33.577308+00:00",
+          "cache_key": "a1c815e00696f75ddcec90b7594c98f00497b63500b4c3d760e32617bf26c950",
+          "original_proposal": {
+            "variable_id": "mediation-adversarial-communication__negative",
+            "status": "unknown",
+            "value": null,
+            "confidence": 0.5,
+            "support_type": "unknown",
+            "rationale": "Нет данных о публичных полемических спорах или защите собственной стороны в противостоянии с другими акторами.",
+            "evidence_indices": []
+          }
+        },
+        "evidence_file": "evidence/independent-dossier-ildephonse-musafiri.json",
+        "evidence_basis": "f4397af1530af93b25278451807bc69128391530ce39b00892af589b01421eb7"
+      }
+    },
+    "positive": null,
+    "negative": null,
+    "value": null,
+    "status": "unknown",
+    "difference": null,
+    "mass": null,
+    "measurement_model": "independent_poles",
+    "evidence_file": "evidence/independent-dossier-ildephonse-musafiri.json",
+    "evidence_basis": "f4397af1530af93b25278451807bc69128391530ce39b00892af589b01421eb7",
+    "at": "2026-10-15T17:30:46.496380+00:00",
+    "reason": "Каждое свойство оценивается независимо; разность и искусственное дополнение до пяти не вычисляются"
+  },
+  {
+    "object_id": "ildephonse-musafiri",
+    "scale_id": "cultural-openness-national-transmission",
+    "pole_scores": {
+      "positive": {
+        "status": "observed",
+        "value": 2,
+        "confidence": 0.7,
+        "evidence_indices": [
+          2,
+          4,
+          7,
+          12
+        ],
+        "source_urls": [
+          "https://www.fao.org/food-systems/news/news-detail/Rwanda-Makes-Steady-Progress-on-Path-to-Food-Systems-Transformation-/",
+          "https://www.minagri.gov.rw/updates/news/page?tx_news_pi1[currentPage]=6&cHash=49ecfd44c04f184493dc7133cc4ed740",
+          "https://iita.org/news-item/rwanda-ministry-of-agriculture-and-iita-to-collaborate-on-innovation-scaling/",
+          "https://www.ktpress.rw/2024/05/rwanda-guinea-commit-to-revamping-bilateral-cooperation/"
+        ],
+        "event_ids": [
+          "musafiri-psta5-2023-05-11",
+          "musafiri-nyaruguru-tea-2023-05-24",
+          "musafiri-iita-2024-09-27",
+          "musafiri-guinea-mou-2024-05-18"
+        ],
+        "rationale": "Мусафири публично сообщал о подписании меморандума Руанды и Гвинеи по исследованиям в сельском хозяйстве, инвестициях и образовательном сотрудничестве, что подтверждает расширение межгосударственного и образовательного обмена (evidence_index: 12). Также он взаимодействовал с международными партнёрами по аграрным проектам (evidence_indices: 2, 4, 7). Однако эти эпизоды ограничены отраслевым контекстом и не доказывают устойчивого или определяющего акцента на межкультурном обмене.",
+        "support_type": "positive_manifestation",
+        "provenance": {
+          "raw_response_file": "evidence/independent_responses/489e198e8bb74f035806284fea485b5c22e82b1aaf094c96cd361774b1f5787c.json",
+          "model": "gpt-4.1",
+          "at": "2026-10-15T17:30:46.492374+00:00",
+          "cache_key": "489e198e8bb74f035806284fea485b5c22e82b1aaf094c96cd361774b1f5787c",
+          "original_proposal": {
+            "variable_id": "cultural-openness-national-transmission__positive",
+            "status": "observed",
+            "value": 2,
+            "confidence": 0.7,
+            "support_type": "positive_manifestation",
+            "rationale": "Мусафири публично сообщал о подписании меморандума Руанды и Гвинеи по исследованиям в сельском хозяйстве, инвестициях и образовательном сотрудничестве, что подтверждает расширение межгосударственного и образовательного обмена (evidence_index: 12). Также он взаимодействовал с международными партнёрами по аграрным проектам (evidence_indices: 2, 4, 7). Однако эти эпизоды ограничены отраслевым контекстом и не доказывают устойчивого или определяющего акцента на межкультурном обмене.",
+            "evidence_indices": [
+              2,
+              4,
+              7,
+              12
+            ]
+          }
+        },
+        "evidence_file": "evidence/independent-dossier-ildephonse-musafiri.json",
+        "evidence_basis": "f4397af1530af93b25278451807bc69128391530ce39b00892af589b01421eb7"
+      },
+      "negative": {
+        "status": "observed",
+        "value": 2,
+        "confidence": 0.7,
+        "evidence_indices": [
+          17
+        ],
+        "source_urls": [
+          "https://www.rab.gov.rw/1-1/news-details/kwibuka30-rab-commemorates-former-employees-killed-in-the-1994-genocide-against-the-tutsi"
+        ],
+        "event_ids": [
+          "musafiri-2025-01-01-kwibuka"
+        ],
+        "rationale": "На памятном мероприятии Мусафири говорил о необходимости противостоять последствиям геноцида, похвалил бойцов РПФ и руководство Поля Кагаме, связал национальную идентичность с преодолением этнического разделения, что является выражением сохранения и передачи национальных ценностей (evidence_index: 17). Однако это проявление ограничено одним эпизодом и не является устойчивой чертой.",
+        "support_type": "positive_manifestation",
+        "provenance": {
+          "raw_response_file": "evidence/independent_responses/489e198e8bb74f035806284fea485b5c22e82b1aaf094c96cd361774b1f5787c.json",
+          "model": "gpt-4.1",
+          "at": "2026-10-15T17:30:46.492374+00:00",
+          "cache_key": "489e198e8bb74f035806284fea485b5c22e82b1aaf094c96cd361774b1f5787c",
+          "original_proposal": {
+            "variable_id": "cultural-openness-national-transmission__negative",
+            "status": "observed",
+            "value": 2,
+            "confidence": 0.7,
+            "support_type": "positive_manifestation",
+            "rationale": "На памятном мероприятии Мусафири говорил о необходимости противостоять последствиям геноцида, похвалил бойцов РПФ и руководство Поля Кагаме, связал национальную идентичность с преодолением этнического разделения, что является выражением сохранения и передачи национальных ценностей (evidence_index: 17). Однако это проявление ограничено одним эпизодом и не является устойчивой чертой.",
+            "evidence_indices": [
+              17
+            ]
+          }
+        },
+        "evidence_file": "evidence/independent-dossier-ildephonse-musafiri.json",
+        "evidence_basis": "f4397af1530af93b25278451807bc69128391530ce39b00892af589b01421eb7"
+      }
+    },
+    "positive": 2,
+    "negative": 2,
+    "value": null,
+    "status": "observed",
+    "difference": null,
+    "mass": null,
+    "measurement_model": "independent_poles",
+    "evidence_file": "evidence/independent-dossier-ildephonse-musafiri.json",
+    "evidence_basis": "f4397af1530af93b25278451807bc69128391530ce39b00892af589b01421eb7",
+    "at": "2026-10-15T17:30:46.496380+00:00",
+    "reason": "Каждое свойство оценивается независимо; разность и искусственное дополнение до пяти не вычисляются"
+  },
+  {
+    "object_id": "ildephonse-musafiri",
+    "scale_id": "problem-disclosure-reputation-defence",
+    "pole_scores": {
+      "positive": {
+        "status": "observed",
+        "value": 2,
+        "confidence": 0.7,
+        "evidence_indices": [
+          1,
+          15
+        ],
+        "source_urls": [
+          "https://www.minagri.gov.rw/updates/news-details/minister-musafiri-outlines-priorities-in-agriculture-sector",
+          "https://allafrica.com/stories/202410140030.html"
+        ],
+        "event_ids": [
+          "musafiri-priorities-2023-08-29",
+          "musafiri-2024-10-14-biotech-challenges"
+        ],
+        "rationale": "Мусафири в публичных заявлениях раскрывал конкретные отраслевые проблемы (например, угрозы аграрному производству: армейская совка, засуха, болезни маниоки и картофеля) и обосновывал ими запуск новых программ (evidence_index: 15). Также в интервью обозначал решение текущих проблем как приоритет (evidence_index: 1). Это ограниченное, но явное проявление раскрытия проблем.",
+        "support_type": "positive_manifestation",
+        "provenance": {
+          "raw_response_file": "evidence/independent_responses/489e198e8bb74f035806284fea485b5c22e82b1aaf094c96cd361774b1f5787c.json",
+          "model": "gpt-4.1",
+          "at": "2026-10-15T17:30:46.492374+00:00",
+          "cache_key": "489e198e8bb74f035806284fea485b5c22e82b1aaf094c96cd361774b1f5787c",
+          "original_proposal": {
+            "variable_id": "problem-disclosure-reputation-defence__positive",
+            "status": "observed",
+            "value": 2,
+            "confidence": 0.7,
+            "support_type": "positive_manifestation",
+            "rationale": "Мусафири в публичных заявлениях раскрывал конкретные отраслевые проблемы (например, угрозы аграрному производству: армейская совка, засуха, болезни маниоки и картофеля) и обосновывал ими запуск новых программ (evidence_index: 15). Также в интервью обозначал решение текущих проблем как приоритет (evidence_index: 1). Это ограниченное, но явное проявление раскрытия проблем.",
+            "evidence_indices": [
+              1,
+              15
+            ]
+          }
+        },
+        "evidence_file": "evidence/independent-dossier-ildephonse-musafiri.json",
+        "evidence_basis": "f4397af1530af93b25278451807bc69128391530ce39b00892af589b01421eb7"
+      },
+      "negative": {
+        "status": "observed",
+        "value": 2,
+        "confidence": 0.7,
+        "evidence_indices": [
+          14,
+          17
+        ],
+        "source_urls": [
+          "https://dairybusinessmea.com/2024/01/30/rwandan-milk-consumption-surges-minister-highlights-achievements/",
+          "https://www.rab.gov.rw/1-1/news-details/kwibuka30-rab-commemorates-former-employees-killed-in-the-1994-genocide-against-the-tutsi"
+        ],
+        "event_ids": [
+          "musafiri-2024-01-18-dairy-dialogue",
+          "musafiri-2025-01-01-kwibuka"
+        ],
+        "rationale": "Мусафири публично продвигал достижения действующего курса (например, рост потребления молока как результат политики, evidence_index: 14) и связывал национальную идентичность с преодолением негативного прошлого (evidence_index: 17). Это ограниченное, но явное проявление защитного продвижения репутации.",
+        "support_type": "positive_manifestation",
+        "provenance": {
+          "raw_response_file": "evidence/independent_responses/489e198e8bb74f035806284fea485b5c22e82b1aaf094c96cd361774b1f5787c.json",
+          "model": "gpt-4.1",
+          "at": "2026-10-15T17:30:46.492374+00:00",
+          "cache_key": "489e198e8bb74f035806284fea485b5c22e82b1aaf094c96cd361774b1f5787c",
+          "original_proposal": {
+            "variable_id": "problem-disclosure-reputation-defence__negative",
+            "status": "observed",
+            "value": 2,
+            "confidence": 0.7,
+            "support_type": "positive_manifestation",
+            "rationale": "Мусафири публично продвигал достижения действующего курса (например, рост потребления молока как результат политики, evidence_index: 14) и связывал национальную идентичность с преодолением негативного прошлого (evidence_index: 17). Это ограниченное, но явное проявление защитного продвижения репутации.",
+            "evidence_indices": [
+              14,
+              17
+            ]
+          }
+        },
+        "evidence_file": "evidence/independent-dossier-ildephonse-musafiri.json",
+        "evidence_basis": "f4397af1530af93b25278451807bc69128391530ce39b00892af589b01421eb7"
+      }
+    },
+    "positive": 2,
+    "negative": 2,
+    "value": null,
+    "status": "observed",
+    "difference": null,
+    "mass": null,
+    "measurement_model": "independent_poles",
+    "evidence_file": "evidence/independent-dossier-ildephonse-musafiri.json",
+    "evidence_basis": "f4397af1530af93b25278451807bc69128391530ce39b00892af589b01421eb7",
+    "at": "2026-10-15T17:30:46.496380+00:00",
+    "reason": "Каждое свойство оценивается независимо; разность и искусственное дополнение до пяти не вычисляются"
+  },
+  {
+    "object_id": "ildephonse-musafiri",
+    "scale_id": "procedural-guarantees-enforcement",
+    "pole_scores": {
+      "positive": {
+        "status": "unknown",
+        "value": null,
+        "confidence": 0,
+        "evidence_indices": [],
+        "source_urls": [],
+        "event_ids": [],
+        "rationale": "В доступных материалах нет прямых свидетельств расширения возможностей защиты и обжалования, связанных с персональными действиями или заявлениями Мусафири.",
+        "support_type": "unknown",
+        "provenance": {
+          "raw_response_file": "evidence/independent_responses/489e198e8bb74f035806284fea485b5c22e82b1aaf094c96cd361774b1f5787c.json",
+          "model": "gpt-4.1",
+          "at": "2026-10-15T17:30:46.492374+00:00",
+          "cache_key": "489e198e8bb74f035806284fea485b5c22e82b1aaf094c96cd361774b1f5787c",
+          "original_proposal": {
+            "variable_id": "procedural-guarantees-enforcement__positive",
+            "status": "unknown",
+            "value": null,
+            "confidence": 0.3,
+            "support_type": "unknown",
+            "rationale": "В доступных материалах нет прямых свидетельств расширения возможностей защиты и обжалования, связанных с персональными действиями или заявлениями Мусафири.",
+            "evidence_indices": []
+          }
+        },
+        "evidence_file": "evidence/independent-dossier-ildephonse-musafiri.json",
+        "evidence_basis": "f4397af1530af93b25278451807bc69128391530ce39b00892af589b01421eb7"
+      },
+      "negative": {
+        "status": "unknown",
+        "value": null,
+        "confidence": 0,
+        "evidence_indices": [],
+        "source_urls": [],
+        "event_ids": [],
+        "rationale": "Нет прямых эпизодов, где Мусафири лично инициировал или поддержал принудительное обеспечение обязательных требований вне обычных административных функций.",
+        "support_type": "unknown",
+        "provenance": {
+          "raw_response_file": "evidence/independent_responses/489e198e8bb74f035806284fea485b5c22e82b1aaf094c96cd361774b1f5787c.json",
+          "model": "gpt-4.1",
+          "at": "2026-10-15T17:30:46.492374+00:00",
+          "cache_key": "489e198e8bb74f035806284fea485b5c22e82b1aaf094c96cd361774b1f5787c",
+          "original_proposal": {
+            "variable_id": "procedural-guarantees-enforcement__negative",
+            "status": "unknown",
+            "value": null,
+            "confidence": 0.3,
+            "support_type": "unknown",
+            "rationale": "Нет прямых эпизодов, где Мусафири лично инициировал или поддержал принудительное обеспечение обязательных требований вне обычных административных функций.",
+            "evidence_indices": []
+          }
+        },
+        "evidence_file": "evidence/independent-dossier-ildephonse-musafiri.json",
+        "evidence_basis": "f4397af1530af93b25278451807bc69128391530ce39b00892af589b01421eb7"
+      }
+    },
+    "positive": null,
+    "negative": null,
+    "value": null,
+    "status": "unknown",
+    "difference": null,
+    "mass": null,
+    "measurement_model": "independent_poles",
+    "evidence_file": "evidence/independent-dossier-ildephonse-musafiri.json",
+    "evidence_basis": "f4397af1530af93b25278451807bc69128391530ce39b00892af589b01421eb7",
+    "at": "2026-10-15T17:30:46.496380+00:00",
+    "reason": "Каждое свойство оценивается независимо; разность и искусственное дополнение до пяти не вычисляются"
+  },
+  {
+    "object_id": "ildephonse-musafiri",
+    "scale_id": "prevention-crisis-response",
+    "pole_scores": {
+      "positive": {
+        "status": "observed",
+        "value": 2,
+        "confidence": 0.7,
+        "evidence_indices": [
+          3,
+          7,
+          11
+        ],
+        "source_urls": [
+          "https://www.minagri.gov.rw/updates/news/page?tx_news_pi1[currentPage]=6&cHash=49ecfd44c04f184493dc7133cc4ed740",
+          "https://iita.org/news-item/rwanda-ministry-of-agriculture-and-iita-to-collaborate-on-innovation-scaling/",
+          "https://allafrica.com/stories/202410140030.html"
+        ],
+        "event_ids": [
+          "musafiri-eastern-province-livestock-2023-05-21",
+          "musafiri-iita-2024-09-27",
+          "musafiri-agbiotech-2024-10-14"
+        ],
+        "rationale": "Мусафири рекомендовал животноводам заранее готовиться к сухому сезону (evidence_index: 3), а также акцентировал подготовку и инновации для снижения отраслевых рисков (evidence_indices: 7, 11). Это ограниченное, но явное проявление упреждающей подготовки.",
+        "support_type": "positive_manifestation",
+        "provenance": {
+          "raw_response_file": "evidence/independent_responses/489e198e8bb74f035806284fea485b5c22e82b1aaf094c96cd361774b1f5787c.json",
+          "model": "gpt-4.1",
+          "at": "2026-10-15T17:30:46.492374+00:00",
+          "cache_key": "489e198e8bb74f035806284fea485b5c22e82b1aaf094c96cd361774b1f5787c",
+          "original_proposal": {
+            "variable_id": "prevention-crisis-response__positive",
+            "status": "observed",
+            "value": 2,
+            "confidence": 0.7,
+            "support_type": "positive_manifestation",
+            "rationale": "Мусафири рекомендовал животноводам заранее готовиться к сухому сезону (evidence_index: 3), а также акцентировал подготовку и инновации для снижения отраслевых рисков (evidence_indices: 7, 11). Это ограниченное, но явное проявление упреждающей подготовки.",
+            "evidence_indices": [
+              3,
+              7,
+              11
+            ]
+          }
+        },
+        "evidence_file": "evidence/independent-dossier-ildephonse-musafiri.json",
+        "evidence_basis": "f4397af1530af93b25278451807bc69128391530ce39b00892af589b01421eb7"
+      },
+      "negative": {
+        "status": "observed",
+        "value": 1,
+        "confidence": 0.5,
+        "evidence_indices": [
+          10
+        ],
+        "source_urls": [
+          "https://www.africa-press.net/rwanda/economy/govt-to-buy-26000-tonnes-of-rice-to-cushion-farmers-from-losses"
+        ],
+        "event_ids": [
+          "musafiri-rice-purchase-2024-08-19"
+        ],
+        "rationale": "В эпизоде с выкупом риса правительство реагировало на уже возникшую проблему отсутствия рынка (evidence_index: 10). Это единичное проявление оперативного реагирования.",
+        "support_type": "positive_manifestation",
+        "provenance": {
+          "raw_response_file": "evidence/independent_responses/489e198e8bb74f035806284fea485b5c22e82b1aaf094c96cd361774b1f5787c.json",
+          "model": "gpt-4.1",
+          "at": "2026-10-15T17:30:46.492374+00:00",
+          "cache_key": "489e198e8bb74f035806284fea485b5c22e82b1aaf094c96cd361774b1f5787c",
+          "original_proposal": {
+            "variable_id": "prevention-crisis-response__negative",
+            "status": "observed",
+            "value": 1,
+            "confidence": 0.5,
+            "support_type": "positive_manifestation",
+            "rationale": "В эпизоде с выкупом риса правительство реагировало на уже возникшую проблему отсутствия рынка (evidence_index: 10). Это единичное проявление оперативного реагирования.",
+            "evidence_indices": [
+              10
+            ]
+          }
+        },
+        "evidence_file": "evidence/independent-dossier-ildephonse-musafiri.json",
+        "evidence_basis": "f4397af1530af93b25278451807bc69128391530ce39b00892af589b01421eb7"
+      }
+    },
+    "positive": 2,
+    "negative": 1,
+    "value": null,
+    "status": "observed",
+    "difference": null,
+    "mass": null,
+    "measurement_model": "independent_poles",
+    "evidence_file": "evidence/independent-dossier-ildephonse-musafiri.json",
+    "evidence_basis": "f4397af1530af93b25278451807bc69128391530ce39b00892af589b01421eb7",
+    "at": "2026-10-15T17:30:46.496380+00:00",
+    "reason": "Каждое свойство оценивается независимо; разность и искусственное дополнение до пяти не вычисляются"
+  },
+  {
+    "object_id": "ildephonse-musafiri",
+    "scale_id": "electoral-access",
+    "pole_scores": {
+      "positive": {
+        "status": "unknown",
+        "value": null,
+        "confidence": 0,
+        "evidence_indices": [],
+        "source_urls": [],
+        "event_ids": [],
+        "rationale": "Нет сведений о персональных действиях или заявлениях Мусафири по расширению доступа к выборной конкуренции.",
+        "support_type": "unknown",
+        "provenance": {
+          "raw_response_file": "evidence/independent_responses/489e198e8bb74f035806284fea485b5c22e82b1aaf094c96cd361774b1f5787c.json",
+          "model": "gpt-4.1",
+          "at": "2026-10-15T17:30:46.492374+00:00",
+          "cache_key": "489e198e8bb74f035806284fea485b5c22e82b1aaf094c96cd361774b1f5787c",
+          "original_proposal": {
+            "variable_id": "electoral-access__positive",
+            "status": "unknown",
+            "value": null,
+            "confidence": 0.2,
+            "support_type": "unknown",
+            "rationale": "Нет сведений о персональных действиях или заявлениях Мусафири по расширению доступа к выборной конкуренции.",
+            "evidence_indices": []
+          }
+        },
+        "evidence_file": "evidence/independent-dossier-ildephonse-musafiri.json",
+        "evidence_basis": "f4397af1530af93b25278451807bc69128391530ce39b00892af589b01421eb7"
+      },
+      "negative": {
+        "status": "unknown",
+        "value": null,
+        "confidence": 0,
+        "evidence_indices": [],
+        "source_urls": [],
+        "event_ids": [],
+        "rationale": "Нет сведений о персональных действиях или заявлениях Мусафири по усилению квалификационных барьеров политического участия.",
+        "support_type": "unknown",
+        "provenance": {
+          "raw_response_file": "evidence/independent_responses/489e198e8bb74f035806284fea485b5c22e82b1aaf094c96cd361774b1f5787c.json",
+          "model": "gpt-4.1",
+          "at": "2026-10-15T17:30:46.492374+00:00",
+          "cache_key": "489e198e8bb74f035806284fea485b5c22e82b1aaf094c96cd361774b1f5787c",
+          "original_proposal": {
+            "variable_id": "electoral-access__negative",
+            "status": "unknown",
+            "value": null,
+            "confidence": 0.2,
+            "support_type": "unknown",
+            "rationale": "Нет сведений о персональных действиях или заявлениях Мусафири по усилению квалификационных барьеров политического участия.",
+            "evidence_indices": []
+          }
+        },
+        "evidence_file": "evidence/independent-dossier-ildephonse-musafiri.json",
+        "evidence_basis": "f4397af1530af93b25278451807bc69128391530ce39b00892af589b01421eb7"
+      }
+    },
+    "positive": null,
+    "negative": null,
+    "value": null,
+    "status": "unknown",
+    "difference": null,
+    "mass": null,
+    "measurement_model": "independent_poles",
+    "evidence_file": "evidence/independent-dossier-ildephonse-musafiri.json",
+    "evidence_basis": "f4397af1530af93b25278451807bc69128391530ce39b00892af589b01421eb7",
+    "at": "2026-10-15T17:30:46.496380+00:00",
+    "reason": "Каждое свойство оценивается независимо; разность и искусственное дополнение до пяти не вычисляются"
+  },
+  {
+    "object_id": "ildephonse-musafiri",
+    "scale_id": "institutional-autonomy-coordination",
+    "pole_scores": {
+      "positive": {
+        "status": "unknown",
+        "value": null,
+        "confidence": 0,
+        "evidence_indices": [],
+        "source_urls": [],
+        "event_ids": [],
+        "rationale": "Нет прямых свидетельств, что Мусафири выступал за гарантии самостоятельности и контроля между институтами.",
+        "support_type": "unknown",
+        "provenance": {
+          "raw_response_file": "evidence/independent_responses/489e198e8bb74f035806284fea485b5c22e82b1aaf094c96cd361774b1f5787c.json",
+          "model": "gpt-4.1",
+          "at": "2026-10-15T17:30:46.492374+00:00",
+          "cache_key": "489e198e8bb74f035806284fea485b5c22e82b1aaf094c96cd361774b1f5787c",
+          "original_proposal": {
+            "variable_id": "institutional-autonomy-coordination__positive",
+            "status": "unknown",
+            "value": null,
+            "confidence": 0.3,
+            "support_type": "unknown",
+            "rationale": "Нет прямых свидетельств, что Мусафири выступал за гарантии самостоятельности и контроля между институтами.",
+            "evidence_indices": []
+          }
+        },
+        "evidence_file": "evidence/independent-dossier-ildephonse-musafiri.json",
+        "evidence_basis": "f4397af1530af93b25278451807bc69128391530ce39b00892af589b01421eb7"
+      },
+      "negative": {
+        "status": "observed",
+        "value": 2,
+        "confidence": 0.6,
+        "evidence_indices": [
+          2,
+          5,
+          6,
+          9
+        ],
+        "source_urls": [
+          "https://www.fao.org/food-systems/news/news-detail/Rwanda-Makes-Steady-Progress-on-Path-to-Food-Systems-Transformation-/",
+          "https://www.rab.gov.rw/1-1/news-details/dr-ndabamenye-takes-office-as-the-director-general",
+          "https://www.minagri.gov.rw/updates/news/page?tx_news_pi1[currentPage]=6&cHash=49ecfd44c04f184493dc7133cc4ed740"
+        ],
+        "event_ids": [
+          "musafiri-psta5-2023-05-11",
+          "musafiri-rab-handover-2023-03-13",
+          "musafiri-dairy-partnerships-2023"
+        ],
+        "rationale": "Мусафири неоднократно координировал работу с национальными и международными партнёрами, созывал межсекторные форматы и обеспечивал преемственность в подведомственных органах (evidence_indices: 2, 5, 6, 9). Это проявление согласования работы институтов единой управленческой линией, хотя и в отраслевом контексте.",
+        "support_type": "positive_manifestation",
+        "provenance": {
+          "raw_response_file": "evidence/independent_responses/489e198e8bb74f035806284fea485b5c22e82b1aaf094c96cd361774b1f5787c.json",
+          "model": "gpt-4.1",
+          "at": "2026-10-15T17:30:46.492374+00:00",
+          "cache_key": "489e198e8bb74f035806284fea485b5c22e82b1aaf094c96cd361774b1f5787c",
+          "original_proposal": {
+            "variable_id": "institutional-autonomy-coordination__negative",
+            "status": "observed",
+            "value": 2,
+            "confidence": 0.6,
+            "support_type": "positive_manifestation",
+            "rationale": "Мусафири неоднократно координировал работу с национальными и международными партнёрами, созывал межсекторные форматы и обеспечивал преемственность в подведомственных органах (evidence_indices: 2, 5, 6, 9). Это проявление согласования работы институтов единой управленческой линией, хотя и в отраслевом контексте.",
+            "evidence_indices": [
+              2,
+              5,
+              6,
+              9
+            ]
+          }
+        },
+        "evidence_file": "evidence/independent-dossier-ildephonse-musafiri.json",
+        "evidence_basis": "f4397af1530af93b25278451807bc69128391530ce39b00892af589b01421eb7"
+      }
+    },
+    "positive": null,
+    "negative": 2,
+    "value": null,
+    "status": "partial",
+    "difference": null,
+    "mass": null,
+    "measurement_model": "independent_poles",
+    "evidence_file": "evidence/independent-dossier-ildephonse-musafiri.json",
+    "evidence_basis": "f4397af1530af93b25278451807bc69128391530ce39b00892af589b01421eb7",
+    "at": "2026-10-15T17:30:46.496380+00:00",
+    "reason": "Каждое свойство оценивается независимо; разность и искусственное дополнение до пяти не вычисляются"
+  },
+  {
+    "object_id": "ildephonse-musafiri",
+    "scale_id": "taxation-burden-public-revenue",
+    "pole_scores": {
+      "positive": {
+        "status": "unknown",
+        "value": null,
+        "confidence": 0,
+        "evidence_indices": [],
+        "source_urls": [],
+        "event_ids": [],
+        "rationale": "Нет сведений о персональных инициативах Мусафири по снижению налоговой нагрузки или расширению имущественной самостоятельности.",
+        "support_type": "unknown",
+        "provenance": {
+          "raw_response_file": "evidence/independent_responses/489e198e8bb74f035806284fea485b5c22e82b1aaf094c96cd361774b1f5787c.json",
+          "model": "gpt-4.1",
+          "at": "2026-10-15T17:30:46.492374+00:00",
+          "cache_key": "489e198e8bb74f035806284fea485b5c22e82b1aaf094c96cd361774b1f5787c",
+          "original_proposal": {
+            "variable_id": "taxation-burden-public-revenue__positive",
+            "status": "unknown",
+            "value": null,
+            "confidence": 0.3,
+            "support_type": "unknown",
+            "rationale": "Нет сведений о персональных инициативах Мусафири по снижению налоговой нагрузки или расширению имущественной самостоятельности.",
+            "evidence_indices": []
+          }
+        },
+        "evidence_file": "evidence/independent-dossier-ildephonse-musafiri.json",
+        "evidence_basis": "f4397af1530af93b25278451807bc69128391530ce39b00892af589b01421eb7"
+      },
+      "negative": {
+        "status": "observed",
+        "value": 2,
+        "confidence": 0.7,
+        "evidence_indices": [
+          10
+        ],
+        "source_urls": [
+          "https://www.africa-press.net/rwanda/economy/govt-to-buy-26000-tonnes-of-rice-to-cushion-farmers-from-losses"
+        ],
+        "event_ids": [
+          "musafiri-rice-purchase-2024-08-19"
+        ],
+        "rationale": "Мусафири публично поддержал использование государственных доходов для закупки риса и создания агентства по закупке зерна (evidence_index: 10), что свидетельствует о поддержке расширения сбора доходов для публичных программ. Это ограниченное, но конкретное проявление.",
+        "support_type": "positive_manifestation",
+        "provenance": {
+          "raw_response_file": "evidence/independent_responses/489e198e8bb74f035806284fea485b5c22e82b1aaf094c96cd361774b1f5787c.json",
+          "model": "gpt-4.1",
+          "at": "2026-10-15T17:30:46.492374+00:00",
+          "cache_key": "489e198e8bb74f035806284fea485b5c22e82b1aaf094c96cd361774b1f5787c",
+          "original_proposal": {
+            "variable_id": "taxation-burden-public-revenue__negative",
+            "status": "observed",
+            "value": 2,
+            "confidence": 0.7,
+            "support_type": "positive_manifestation",
+            "rationale": "Мусафири публично поддержал использование государственных доходов для закупки риса и создания агентства по закупке зерна (evidence_index: 10), что свидетельствует о поддержке расширения сбора доходов для публичных программ. Это ограниченное, но конкретное проявление.",
+            "evidence_indices": [
+              10
+            ]
+          }
+        },
+        "evidence_file": "evidence/independent-dossier-ildephonse-musafiri.json",
+        "evidence_basis": "f4397af1530af93b25278451807bc69128391530ce39b00892af589b01421eb7"
+      }
+    },
+    "positive": null,
+    "negative": 2,
+    "value": null,
+    "status": "partial",
+    "difference": null,
+    "mass": null,
+    "measurement_model": "independent_poles",
+    "evidence_file": "evidence/independent-dossier-ildephonse-musafiri.json",
+    "evidence_basis": "f4397af1530af93b25278451807bc69128391530ce39b00892af589b01421eb7",
+    "at": "2026-10-15T17:30:46.496380+00:00",
+    "reason": "Каждое свойство оценивается независимо; разность и искусственное дополнение до пяти не вычисляются"
+  },
+  {
+    "object_id": "ildephonse-musafiri",
+    "scale_id": "universal-targeted-provision",
+    "pole_scores": {
+      "positive": {
+        "status": "observed",
+        "value": 1,
+        "confidence": 0.5,
+        "evidence_indices": [
+          10
+        ],
+        "source_urls": [
+          "https://www.africa-press.net/rwanda/economy/govt-to-buy-26000-tonnes-of-rice-to-cushion-farmers-from-losses"
+        ],
+        "event_ids": [
+          "musafiri-rice-purchase-2024-08-19"
+        ],
+        "rationale": "В эпизоде с переработкой риса и его направлением в школьное питание по сниженной цене (evidence_index: 10) проявляется элемент универсального охвата, однако основной акцент на адресной поддержке.",
+        "support_type": "positive_manifestation",
+        "provenance": {
+          "raw_response_file": "evidence/independent_responses/489e198e8bb74f035806284fea485b5c22e82b1aaf094c96cd361774b1f5787c.json",
+          "model": "gpt-4.1",
+          "at": "2026-10-15T17:30:46.492374+00:00",
+          "cache_key": "489e198e8bb74f035806284fea485b5c22e82b1aaf094c96cd361774b1f5787c",
+          "original_proposal": {
+            "variable_id": "universal-targeted-provision__positive",
+            "status": "observed",
+            "value": 1,
+            "confidence": 0.5,
+            "support_type": "positive_manifestation",
+            "rationale": "В эпизоде с переработкой риса и его направлением в школьное питание по сниженной цене (evidence_index: 10) проявляется элемент универсального охвата, однако основной акцент на адресной поддержке.",
+            "evidence_indices": [
+              10
+            ]
+          }
+        },
+        "evidence_file": "evidence/independent-dossier-ildephonse-musafiri.json",
+        "evidence_basis": "f4397af1530af93b25278451807bc69128391530ce39b00892af589b01421eb7"
+      },
+      "negative": {
+        "status": "observed",
+        "value": 2,
+        "confidence": 0.7,
+        "evidence_indices": [
+          3,
+          10
+        ],
+        "source_urls": [
+          "https://www.minagri.gov.rw/updates/news/page?tx_news_pi1[currentPage]=6&cHash=49ecfd44c04f184493dc7133cc4ed740",
+          "https://www.africa-press.net/rwanda/economy/govt-to-buy-26000-tonnes-of-rice-to-cushion-farmers-from-losses"
+        ],
+        "event_ids": [
+          "musafiri-eastern-province-livestock-2023-05-21",
+          "musafiri-rice-purchase-2024-08-19"
+        ],
+        "rationale": "Мусафири поддержал адресную помощь рисоводам через государственные закупки (evidence_index: 10), а также в ряде случаев акцентировал поддержку конкретных групп (например, животноводов в сухой сезон, evidence_index: 3). Это ограниченное, но явное проявление приоритетной помощи уязвимым группам.",
+        "support_type": "positive_manifestation",
+        "provenance": {
+          "raw_response_file": "evidence/independent_responses/489e198e8bb74f035806284fea485b5c22e82b1aaf094c96cd361774b1f5787c.json",
+          "model": "gpt-4.1",
+          "at": "2026-10-15T17:30:46.492374+00:00",
+          "cache_key": "489e198e8bb74f035806284fea485b5c22e82b1aaf094c96cd361774b1f5787c",
+          "original_proposal": {
+            "variable_id": "universal-targeted-provision__negative",
+            "status": "observed",
+            "value": 2,
+            "confidence": 0.7,
+            "support_type": "positive_manifestation",
+            "rationale": "Мусафири поддержал адресную помощь рисоводам через государственные закупки (evidence_index: 10), а также в ряде случаев акцентировал поддержку конкретных групп (например, животноводов в сухой сезон, evidence_index: 3). Это ограниченное, но явное проявление приоритетной помощи уязвимым группам.",
+            "evidence_indices": [
+              3,
+              10
+            ]
+          }
+        },
+        "evidence_file": "evidence/independent-dossier-ildephonse-musafiri.json",
+        "evidence_basis": "f4397af1530af93b25278451807bc69128391530ce39b00892af589b01421eb7"
+      }
+    },
+    "positive": 1,
+    "negative": 2,
+    "value": null,
+    "status": "observed",
+    "difference": null,
+    "mass": null,
+    "measurement_model": "independent_poles",
+    "evidence_file": "evidence/independent-dossier-ildephonse-musafiri.json",
+    "evidence_basis": "f4397af1530af93b25278451807bc69128391530ce39b00892af589b01421eb7",
+    "at": "2026-10-15T17:30:46.496380+00:00",
+    "reason": "Каждое свойство оценивается независимо; разность и искусственное дополнение до пяти не вычисляются"
+  },
+  {
+    "object_id": "ildephonse-musafiri",
+    "scale_id": "ecological-limits-resource-use",
+    "pole_scores": {
+      "positive": {
+        "status": "observed",
+        "value": 1,
+        "confidence": 0.5,
+        "evidence_indices": [
+          11
+        ],
+        "source_urls": [
+          "https://allafrica.com/stories/202410140030.html"
+        ],
+        "event_ids": [
+          "musafiri-agbiotech-2024-10-14"
+        ],
+        "rationale": "Мусафири ссылался на Biosafety Act и необходимость институциональной базы для внедрения агробиотехнологий (evidence_index: 11), что подразумевает наличие формализованных экологических требований, однако прямого акцента на усиление природоохранных ограничений не выявлено.",
+        "support_type": "positive_manifestation",
+        "provenance": {
+          "raw_response_file": "evidence/independent_responses/489e198e8bb74f035806284fea485b5c22e82b1aaf094c96cd361774b1f5787c.json",
+          "model": "gpt-4.1",
+          "at": "2026-10-15T17:30:46.492374+00:00",
+          "cache_key": "489e198e8bb74f035806284fea485b5c22e82b1aaf094c96cd361774b1f5787c",
+          "original_proposal": {
+            "variable_id": "ecological-limits-resource-use__positive",
+            "status": "observed",
+            "value": 1,
+            "confidence": 0.5,
+            "support_type": "positive_manifestation",
+            "rationale": "Мусафири ссылался на Biosafety Act и необходимость институциональной базы для внедрения агробиотехнологий (evidence_index: 11), что подразумевает наличие формализованных экологических требований, однако прямого акцента на усиление природоохранных ограничений не выявлено.",
+            "evidence_indices": [
+              11
+            ]
+          }
+        },
+        "evidence_file": "evidence/independent-dossier-ildephonse-musafiri.json",
+        "evidence_basis": "f4397af1530af93b25278451807bc69128391530ce39b00892af589b01421eb7"
+      },
+      "negative": {
+        "status": "observed",
+        "value": 2,
+        "confidence": 0.7,
+        "evidence_indices": [
+          11,
+          16
+        ],
+        "source_urls": [
+          "https://allafrica.com/stories/202410140030.html",
+          "https://www.minagri.gov.rw/updates/news/page?tx_news_pi1[currentPage]=4&cHash=55264bdf9d917de0a69fbf8d25c93252"
+        ],
+        "event_ids": [
+          "musafiri-agbiotech-2024-10-14",
+          "musafiri-2024-10-15-investment-opportunities"
+        ],
+        "rationale": "Мусафири продвигал внедрение агробиотехнологий для повышения урожайности и устойчивости к климату (evidence_index: 11), а также представлял инвестиционные возможности в аграрном секторе (evidence_index: 16), что свидетельствует о поддержке расширения хозяйственного использования ресурсов, хотя и с учётом формальных ограничений.",
+        "support_type": "positive_manifestation",
+        "provenance": {
+          "raw_response_file": "evidence/independent_responses/489e198e8bb74f035806284fea485b5c22e82b1aaf094c96cd361774b1f5787c.json",
+          "model": "gpt-4.1",
+          "at": "2026-10-15T17:30:46.492374+00:00",
+          "cache_key": "489e198e8bb74f035806284fea485b5c22e82b1aaf094c96cd361774b1f5787c",
+          "original_proposal": {
+            "variable_id": "ecological-limits-resource-use__negative",
+            "status": "observed",
+            "value": 2,
+            "confidence": 0.7,
+            "support_type": "positive_manifestation",
+            "rationale": "Мусафири продвигал внедрение агробиотехнологий для повышения урожайности и устойчивости к климату (evidence_index: 11), а также представлял инвестиционные возможности в аграрном секторе (evidence_index: 16), что свидетельствует о поддержке расширения хозяйственного использования ресурсов, хотя и с учётом формальных ограничений.",
+            "evidence_indices": [
+              11,
+              16
+            ]
+          }
+        },
+        "evidence_file": "evidence/independent-dossier-ildephonse-musafiri.json",
+        "evidence_basis": "f4397af1530af93b25278451807bc69128391530ce39b00892af589b01421eb7"
+      }
+    },
+    "positive": 1,
+    "negative": 2,
+    "value": null,
+    "status": "observed",
+    "difference": null,
+    "mass": null,
+    "measurement_model": "independent_poles",
+    "evidence_file": "evidence/independent-dossier-ildephonse-musafiri.json",
+    "evidence_basis": "f4397af1530af93b25278451807bc69128391530ce39b00892af589b01421eb7",
+    "at": "2026-10-15T17:30:46.496380+00:00",
+    "reason": "Каждое свойство оценивается независимо; разность и искусственное дополнение до пяти не вычисляются"
+  },
+  {
+    "object_id": "ildephonse-musafiri",
+    "scale_id": "russia-diplomatic-engagement",
+    "pole_scores": {
+      "positive": {
+        "status": "unknown",
+        "value": null,
+        "confidence": 0,
+        "evidence_indices": [],
+        "source_urls": [],
+        "event_ids": [],
+        "rationale": "Нет допустимых датированных персональных свидетельств по этому свойству",
+        "support_type": "unknown"
+      },
+      "negative": {
+        "status": "unknown",
+        "value": null,
+        "confidence": 0,
+        "evidence_indices": [],
+        "source_urls": [],
+        "event_ids": [],
+        "rationale": "Нет допустимых датированных персональных свидетельств по этому свойству",
+        "support_type": "unknown"
+      }
+    },
+    "positive": null,
+    "negative": null,
+    "value": null,
+    "status": "unknown",
+    "difference": null,
+    "mass": null,
+    "measurement_model": "independent_poles",
+    "evidence_file": "evidence/independent-dossier-ildephonse-musafiri.json",
+    "evidence_basis": "f4397af1530af93b25278451807bc69128391530ce39b00892af589b01421eb7",
+    "at": "2026-10-15T17:30:46.496380+00:00",
+    "reason": "Каждое свойство оценивается независимо; разность и искусственное дополнение до пяти не вычисляются"
+  },
+  {
+    "object_id": "ildephonse-musafiri",
+    "scale_id": "russia-security-cooperation",
+    "pole_scores": {
+      "positive": {
+        "status": "unknown",
+        "value": null,
+        "confidence": 0,
+        "evidence_indices": [],
+        "source_urls": [],
+        "event_ids": [],
+        "rationale": "Нет допустимых датированных персональных свидетельств по этому свойству",
+        "support_type": "unknown"
+      },
+      "negative": {
+        "status": "unknown",
+        "value": null,
+        "confidence": 0,
+        "evidence_indices": [],
+        "source_urls": [],
+        "event_ids": [],
+        "rationale": "Нет допустимых датированных персональных свидетельств по этому свойству",
+        "support_type": "unknown"
+      }
+    },
+    "positive": null,
+    "negative": null,
+    "value": null,
+    "status": "unknown",
+    "difference": null,
+    "mass": null,
+    "measurement_model": "independent_poles",
+    "evidence_file": "evidence/independent-dossier-ildephonse-musafiri.json",
+    "evidence_basis": "f4397af1530af93b25278451807bc69128391530ce39b00892af589b01421eb7",
+    "at": "2026-10-15T17:30:46.496380+00:00",
+    "reason": "Каждое свойство оценивается независимо; разность и искусственное дополнение до пяти не вычисляются"
+  },
+  {
+    "object_id": "ildephonse-musafiri",
+    "scale_id": "russia-economic-technology-cooperation",
+    "pole_scores": {
+      "positive": {
+        "status": "unknown",
+        "value": null,
+        "confidence": 0,
+        "evidence_indices": [],
+        "source_urls": [],
+        "event_ids": [],
+        "rationale": "Нет допустимых датированных персональных свидетельств по этому свойству",
+        "support_type": "unknown"
+      },
+      "negative": {
+        "status": "unknown",
+        "value": null,
+        "confidence": 0,
+        "evidence_indices": [],
+        "source_urls": [],
+        "event_ids": [],
+        "rationale": "Нет допустимых датированных персональных свидетельств по этому свойству",
+        "support_type": "unknown"
+      }
+    },
+    "positive": null,
+    "negative": null,
+    "value": null,
+    "status": "unknown",
+    "difference": null,
+    "mass": null,
+    "measurement_model": "independent_poles",
+    "evidence_file": "evidence/independent-dossier-ildephonse-musafiri.json",
+    "evidence_basis": "f4397af1530af93b25278451807bc69128391530ce39b00892af589b01421eb7",
+    "at": "2026-10-15T17:30:46.496380+00:00",
+    "reason": "Каждое свойство оценивается независимо; разность и искусственное дополнение до пяти не вычисляются"
+  },
+  {
+    "object_id": "ildephonse-musafiri",
+    "scale_id": "russia-education-cultural-cooperation",
+    "pole_scores": {
+      "positive": {
+        "status": "unknown",
+        "value": null,
+        "confidence": 0,
+        "evidence_indices": [],
+        "source_urls": [],
+        "event_ids": [],
+        "rationale": "Нет допустимых датированных персональных свидетельств по этому свойству",
+        "support_type": "unknown"
+      },
+      "negative": {
+        "status": "unknown",
+        "value": null,
+        "confidence": 0,
+        "evidence_indices": [],
+        "source_urls": [],
+        "event_ids": [],
+        "rationale": "Нет допустимых датированных персональных свидетельств по этому свойству",
+        "support_type": "unknown"
+      }
+    },
+    "positive": null,
+    "negative": null,
+    "value": null,
+    "status": "unknown",
+    "difference": null,
+    "mass": null,
+    "measurement_model": "independent_poles",
+    "evidence_file": "evidence/independent-dossier-ildephonse-musafiri.json",
+    "evidence_basis": "f4397af1530af93b25278451807bc69128391530ce39b00892af589b01421eb7",
+    "at": "2026-10-15T17:30:46.496380+00:00",
+    "reason": "Каждое свойство оценивается независимо; разность и искусственное дополнение до пяти не вычисляются"
+  },
+  {
+    "object_id": "ildephonse-musafiri",
+    "scale_id": "russia-conflict-policy-evaluation",
+    "pole_scores": {
+      "positive": {
+        "status": "unknown",
+        "value": null,
+        "confidence": 0,
+        "evidence_indices": [],
+        "source_urls": [],
+        "event_ids": [],
+        "rationale": "Нет допустимых датированных персональных свидетельств по этому свойству",
+        "support_type": "unknown"
+      },
+      "negative": {
+        "status": "unknown",
+        "value": null,
+        "confidence": 0,
+        "evidence_indices": [],
+        "source_urls": [],
+        "event_ids": [],
+        "rationale": "Нет допустимых датированных персональных свидетельств по этому свойству",
+        "support_type": "unknown"
+      }
+    },
+    "positive": null,
+    "negative": null,
+    "value": null,
+    "status": "unknown",
+    "difference": null,
+    "mass": null,
+    "measurement_model": "independent_poles",
+    "evidence_file": "evidence/independent-dossier-ildephonse-musafiri.json",
+    "evidence_basis": "f4397af1530af93b25278451807bc69128391530ce39b00892af589b01421eb7",
+    "at": "2026-10-15T17:30:46.496380+00:00",
+    "reason": "Каждое свойство оценивается независимо; разность и искусственное дополнение до пяти не вычисляются"
+  },
+  {
+    "object_id": "ildephonse-musafiri",
+    "scale_id": "russia-isolation-sanctions",
+    "pole_scores": {
+      "positive": {
+        "status": "unknown",
+        "value": null,
+        "confidence": 0,
+        "evidence_indices": [],
+        "source_urls": [],
+        "event_ids": [],
+        "rationale": "Нет допустимых датированных персональных свидетельств по этому свойству",
+        "support_type": "unknown"
+      },
+      "negative": {
+        "status": "unknown",
+        "value": null,
+        "confidence": 0,
+        "evidence_indices": [],
+        "source_urls": [],
+        "event_ids": [],
+        "rationale": "Нет допустимых датированных персональных свидетельств по этому свойству",
+        "support_type": "unknown"
+      }
+    },
+    "positive": null,
+    "negative": null,
+    "value": null,
+    "status": "unknown",
+    "difference": null,
+    "mass": null,
+    "measurement_model": "independent_poles",
+    "evidence_file": "evidence/independent-dossier-ildephonse-musafiri.json",
+    "evidence_basis": "f4397af1530af93b25278451807bc69128391530ce39b00892af589b01421eb7",
+    "at": "2026-10-15T17:30:46.496380+00:00",
+    "reason": "Каждое свойство оценивается независимо; разность и искусственное дополнение до пяти не вычисляются"
+  }
+]

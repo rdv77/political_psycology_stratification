@@ -1,0 +1,104 @@
+{
+  "data": {
+    "facts": [
+      {
+        "capacity": "Государственный министр Руанды по региональной интеграции",
+        "channel": "official_act",
+        "event_id": "kabarebe-eu-envoy-2025-02-27",
+        "period": "2025-02-27",
+        "source_url": "https://www.minaffet.gov.rw/updates/news-details/visit-of-eu-special-envoy-to-the-great-lakes-region",
+        "text": "Кабаребе встретился со специальным посланником Европейского союза по региону Великих озёр Йоханом Боргстамом во время его рабочего визита в Кигали. Материал фиксирует официальную дипломатическую встречу, но не раскрывает самостоятельные тезисы Кабаребе.",
+        "topic_ids": [
+          "mediation-adversarial-communication__positive",
+          "international-rules-autonomy__positive"
+        ]
+      },
+      {
+        "capacity": "Государственный министр Руанды по региональной интеграции",
+        "channel": "public_statement",
+        "event_id": "kabarebe-sanctions-peace-talks-2025-02-25",
+        "period": "2025-02-25",
+        "source_url": "https://www.reuters.com/world/africa/rwanda-sanctions-will-undermine-push-congo-peace-talks-proscribed-minister-says-2025-02-26/",
+        "text": "В выступлении Кабаребе заявил, что международные санкции против Руанды могут уменьшить готовность Киншасы участвовать в переговорах с M23. Он обвинил президента ДРК Феликса Чисекеди в отказе от переговоров и в попытке обменять доступ к минеральным ресурсам на санкционное давление против Руанды. Это полемическое оспаривание позиции другой стороны и защита собственного государственного курса.",
+        "topic_ids": [
+          "mediation-adversarial-communication__negative",
+          "problem-disclosure-reputation-defence__negative",
+          "international-rules-autonomy__negative"
+        ]
+      },
+      {
+        "capacity": "Государственный министр Руанды по региональной интеграции",
+        "channel": "official_act",
+        "event_id": "kabarebe-ofac-response-2025-02-20",
+        "period": "2025-02-20",
+        "source_url": "https://www.minaffet.gov.rw/updates/news-details/statement-on-us-designation",
+        "text": "В официальном заявлении, опубликованном от имени правительства Руанды после включения Кабаребе в санкционный список OFAC, санкции названы необоснованными и неэффективными для прекращения конфликта. Заявление защищает безопасность границы Руанды и поддерживает африканский процесс посредничества EAC–SADC и Африканского союза. Поскольку текст оформлен как заявление Руанды, а не как личное выступление Кабаребе, он подтверждает служебную политическую линию, но не самостоятельное личное убеждение.",
+        "topic_ids": [
+          "government-course-assessment__positive",
+          "mediation-adversarial-communication__positive",
+          "international-rules-autonomy__negative",
+          "problem-disclosure-reputation-defence__negative"
+        ]
+      },
+      {
+        "capacity": "Государственный министр Руанды по региональной интеграции",
+        "channel": "official_act",
+        "event_id": "kabarebe-eacj-conference-2025-02-18",
+        "period": "2025-02-18",
+        "source_url": "https://www.judiciary.gov.rw/fileadmin/user_upload/Judiciary/Publication/Chief_Justice_Speeches/_2024-2025/18.2.2025_-_Opening_Remarks_by_the_Hon._Chief_Justice_during_the_EACJ.pdf",
+        "text": "Кабаребе указан среди официальных участников третьей ежегодной конференции Восточноафриканского суда юстиции. Документ подтверждает служебное присутствие в обсуждении судебного сотрудничества и региональной интеграции, но не содержит проверяемого персонального выступления.",
+        "topic_ids": [
+          "institutional-autonomy-coordination__negative"
+        ]
+      }
+    ],
+    "limitations": "Доступные результаты позволяют надежно добавить только четыре неповторяющихся эпизода, относящихся к заданному периоду. Они не обеспечивают требуемую выборку из 18–24 эпизодов: часть материалов фиксирует присутствие или позицию правительства, но не личное заявление Кабаребе. Поэтому недостающие события, даты и ссылки не добавлены. Источник Reuters сообщает о выступлении с датой публикации 2025-02-26 и указывает, что речь была произнесена во вторник; дата события интерпретирована как 2025-02-25. Материалы о санкциях содержат атрибуцию правительства Руанды, а не доказательство самостоятельного авторства Кабаребе.",
+    "sources": [
+      {
+        "title": "Visit of EU Special Envoy to the Great Lakes Region",
+        "url": "https://www.minaffet.gov.rw/updates/news-details/visit-of-eu-special-envoy-to-the-great-lakes-region"
+      },
+      {
+        "title": "Rwanda sanctions will undermine push for Congo peace talks, proscribed minister says",
+        "url": "https://www.reuters.com/world/africa/rwanda-sanctions-will-undermine-push-congo-peace-talks-proscribed-minister-says-2025-02-26/"
+      },
+      {
+        "title": "Statement on U.S. Designation",
+        "url": "https://www.minaffet.gov.rw/updates/news-details/statement-on-us-designation"
+      },
+      {
+        "title": "Opening of the 3rd Annual EACJ Conference 2025",
+        "url": "https://www.judiciary.gov.rw/fileadmin/user_upload/Judiciary/Publication/Chief_Justice_Speeches/_2024-2025/18.2.2025_-_Opening_Remarks_by_the_Hon._Chief_Justice_during_the_EACJ.pdf"
+      }
+    ]
+  },
+  "model": "sonar-pro",
+  "task": "independent-retrieval-james-kabarebe",
+  "at": "2026-10-15T17:21:39.429617+00:00",
+  "usage": {
+    "completion_tokens": 1375,
+    "cost": {
+      "input_tokens_cost": 0.004149999999999999,
+      "output_tokens_cost": 0.00318,
+      "request_cost": 0.0025,
+      "total_cost": 0.00983
+    },
+    "prompt_tokens": 3119,
+    "search_context_size": "low",
+    "total_tokens": 4494
+  },
+  "citations": [
+    "https://www.minaffet.gov.rw/updates/news-details/visit-of-eu-special-envoy-to-the-great-lakes-region",
+    "https://www.judiciary.gov.rw/fileadmin/user_upload/Judiciary/Publication/Chief_Justice_Speeches/_2024-2025/18.2.2025_-_Opening_Remarks_by_the_Hon._Chief_Justice_during_the_EACJ.pdf",
+    "https://www.reuters.com/world/africa/rwanda-sanctions-will-undermine-push-congo-peace-talks-proscribed-minister-says-2025-02-26/",
+    "https://home.treasury.gov/news/press-releases/sb0022",
+    "https://stratnewsglobal.com/africa/prescribed-rwanda-minister-says-sanctions-will-erode-congo-peace-talks/",
+    "https://www.minaffet.gov.rw/updates/news-details/statement-on-us-designation",
+    "https://www.minaffet.gov.rw/updates/news-details/declaration-sur-la-designation-par-les-etats-unis",
+    "https://apnews.com/article/rwanda-congo-m23-james-kabarebe-f9938ecc32c9f25c1d41428244938c5d",
+    "https://www.africa-confidential.com/profile/id/5317",
+    "https://www.minaffet.gov.rw/updates/news/page?tx_news_pi1[currentPage]=13&cHash=d69617777aa7f4bed96582a1365056f7"
+  ],
+  "system_fingerprint": null,
+  "cache_key": "801ec51549696403af98cf6fa43fd3c01fe070e96ced32fa63bc10cc8c35ac19"
+}

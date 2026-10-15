@@ -1,0 +1,49 @@
+{
+  "data": {
+    "ratings": [
+      {
+        "variable_id": "russia-economic-technology-cooperation__positive",
+        "status": "observed",
+        "value": 3,
+        "confidence": 0.9,
+        "support_type": "positive_manifestation",
+        "rationale": "В трёх независимых эпизодах (интервью AFP 2024-11-09, переговоры в Каире 2025-12-19, переговоры в Анталье 2026-04-18) Оливье Ндухунгирехе публично подтверждал заинтересованность Руанды в развитии экономических и технологических проектов с Россией, включая ядерную энергетику, подготовку специалистов и расширение торгово-экономического сотрудничества. Это устойчивый публичный акцент, но не определяющая черта, так как не зафиксировано многократных повторяющихся инициатив или реализованных крупных проектов.",
+        "evidence_indices": [
+          9,
+          31,
+          32
+        ]
+      },
+      {
+        "variable_id": "russia-economic-technology-cooperation__negative",
+        "status": "unknown",
+        "value": null,
+        "confidence": 0.0,
+        "support_type": "unknown",
+        "rationale": "В представленных фактах отсутствуют сведения о публичных действиях или заявлениях Оливье Ндухунгирехе, направленных на ограничение экономических и технологических проектов с Россией.",
+        "evidence_indices": []
+      }
+    ]
+  },
+  "model": "gpt-4.1",
+  "task": "independent-ratings-olivier-nduhungirehe-4",
+  "at": "2026-10-15T17:29:46.011241+00:00",
+  "usage": {
+    "prompt_tokens": 1556,
+    "completion_tokens": 278,
+    "total_tokens": 1834,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "audio_tokens": 0
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "audio_tokens": 0,
+      "accepted_prediction_tokens": 0,
+      "rejected_prediction_tokens": 0
+    }
+  },
+  "citations": [],
+  "system_fingerprint": "fp_3dbcf02e48",
+  "cache_key": "af5164e942743fc6882d357e92306f914f3849598479a6b22ba99ad4a62ef753"
+}

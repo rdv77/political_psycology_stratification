@@ -1,0 +1,117 @@
+{
+  "data": {
+    "facts": [
+      {
+        "capacity": "Вице-президент Сената Руанды; парламентское руководство",
+        "channel": "public_statement",
+        "event_id": "mukabaramba-2023-01-09-power-sharing",
+        "period": "2023-01-09",
+        "source_url": "https://www.africa-press.net/rwanda/policy/choice-of-new-rwanda-senate-president-reflects-power-sharing-tradition",
+        "text": "В связи с избранием нового президента Сената Альвера Мукабарамба публично заявила, что разделение власти имеет ключевое значение для управления и может снижать риск конфликтов и общественного недовольства. Она также связала равное распределение власти и расширение представительства женщин с включением большей части населения в управление.",
+        "topic_ids": [
+          "institutional-autonomy-coordination__positive",
+          "prevention-crisis-response__positive",
+          "universal-targeted-provision__positive"
+        ]
+      },
+      {
+        "capacity": "Вице-президент Сената Руанды; парламентское руководство",
+        "channel": "public_statement",
+        "event_id": "mukabaramba-2023-01-09-cross-party-parliament",
+        "period": "2023-01-09",
+        "source_url": "https://www.africa-press.net/rwanda/policy/choice-of-new-rwanda-senate-president-reflects-power-sharing-tradition",
+        "text": "Мукабарамба сказала, что сенаторы, представляющие разные политические организации, в парламенте не рассматривают себя через партийные линзы. Это публичное описание межпартийного согласования как рабочего принципа Сената, без предложения изменить существующие правила.",
+        "topic_ids": [
+          "mediation-adversarial-communication__positive",
+          "institutional-autonomy-coordination__negative"
+        ]
+      },
+      {
+        "capacity": "Вице-президент Сената Руанды; парламентская дипломатия",
+        "channel": "attributed_report",
+        "event_id": "mukabaramba-2023-03-28-namibia-parliamentary-exchange",
+        "period": "2023-03-28",
+        "source_url": "https://www.ktpress.rw/2023/03/namibia-lawmaker-in-rwanda-to-foster-parliamentary-diplomacy/",
+        "text": "Мукабарамба встретилась с представителем парламента Намибии для обмена практиками работы парламентов и обсуждения укрепления парламентской дипломатии. Источник подтверждает служебное межпарламентское действие, но не раскрывает её личную позицию по конкретной политике.",
+        "topic_ids": [
+          "mediation-adversarial-communication__positive",
+          "cultural-openness-national-transmission__positive"
+        ]
+      },
+      {
+        "capacity": "Вице-президент Сената Руанды; внешние парламентские отношения",
+        "channel": "attributed_report",
+        "event_id": "mukabaramba-2025-09-30-china-ambassador",
+        "period": "2025-09-30",
+        "source_url": "http://rwandadispatch.com/rwanda-china-strengthen-strategic-partnership/",
+        "text": "Мукабарамба участвовала во встрече руководства Сената с послом Китая в Руанде. Обсуждались парламентское сотрудничество, новые инициативы для двусторонних связей и общие интересы. Участие подтверждает внешнеполитическое парламентское взаимодействие, но не позволяет приписать ей отдельное личное заявление.",
+        "topic_ids": [
+          "external-domestic-resources__positive",
+          "international-rules-autonomy__positive",
+          "mediation-adversarial-communication__positive"
+        ]
+      },
+      {
+        "capacity": "Вице-президент Сената Руанды; государственное руководство",
+        "channel": "official_act",
+        "event_id": "mukabaramba-2023-03-20-genocide-commemoration",
+        "period": "2023-03-20",
+        "source_url": "https://www.gov.rw/fileadmin/user_upload/gov_user_upload/Publications/Newsletters/Rwanda_in_the_News_17-23_April.pdf",
+        "text": "Мукабарамба участвовала в мероприятии памяти жертв геноцида против тутси 1994 года в мемориале Сову. В сообщении ей приписан призыв не допускать искажения истории страны и продолжать курс «помнить, объединяться, обновляться». Это пример аргументации через коллективную память и национальные символы.",
+        "topic_ids": [
+          "argumentation-evidence-values__negative",
+          "cultural-openness-national-transmission__negative",
+          "government-course-assessment__positive"
+        ]
+      }
+    ],
+    "limitations": "В доступных результатах обнаружено только пять новых датированных эпизодов, соответствующих заданному периоду и не повторяющих уже найденные материалы. Большинство результатов либо дублирует ранее перечисленные события, либо подтверждает должность без самостоятельного политического заявления. Поэтому сформировать требуемые 18–24 эпизода без выдумывания сведений и ссылок невозможно.",
+    "sources": [
+      {
+        "title": "Choice of new Rwanda Senate president reflects power sharing tradition",
+        "url": "https://www.africa-press.net/rwanda/policy/choice-of-new-rwanda-senate-president-reflects-power-sharing-tradition"
+      },
+      {
+        "title": "Namibia Speaker of Parliament in Rwanda to Foster Parliamentary Diplomacy",
+        "url": "https://www.ktpress.rw/2023/03/namibia-lawmaker-in-rwanda-to-foster-parliamentary-diplomacy/"
+      },
+      {
+        "title": "Rwanda, China Strengthen Strategic Partnership",
+        "url": "http://rwandadispatch.com/rwanda-china-strengthen-strategic-partnership/"
+      },
+      {
+        "title": "Rwanda in the News, 17–23 April",
+        "url": "https://www.gov.rw/fileadmin/user_upload/gov_user_upload/Publications/Newsletters/Rwanda_in_the_News_17-23_April.pdf"
+      }
+    ]
+  },
+  "model": "sonar-pro",
+  "task": "independent-retrieval-alvera-mukabaramba",
+  "at": "2026-10-15T17:22:45.741372+00:00",
+  "usage": {
+    "completion_tokens": 1349,
+    "cost": {
+      "input_tokens_cost": 0.004169999999999999,
+      "output_tokens_cost": 0.00313,
+      "request_cost": 0.0025,
+      "total_cost": 0.0098
+    },
+    "prompt_tokens": 3440,
+    "search_context_size": "low",
+    "total_tokens": 4789
+  },
+  "citations": [
+    "https://www.linkedin.com/in/mukabaramba-alvera-5b23a132",
+    "https://www.cia.gov/resources/world-leaders/historical-data/2023-july/rwanda",
+    "https://www.ktpress.rw/2023/03/namibia-lawmaker-in-rwanda-to-foster-parliamentary-diplomacy/",
+    "https://celebrity-birthdays.com/people/alvera-mukabaramba",
+    "https://www.parliament.gov.rw/updates/news/page?tx_news_pi1[currentPage]=21&cHash=4f72c8d16e8a3aef55c0de6c26465ef2",
+    "http://rwandadispatch.com/rwanda-china-strengthen-strategic-partnership/",
+    "https://www.parliament.gov.rw/parliament/members",
+    "https://www.africa-press.net/rwanda/policy/choice-of-new-rwanda-senate-president-reflects-power-sharing-tradition",
+    "https://www.africa-press.net/rwanda/policy/re-elected-senate-president-kalinda-promises-to-deliver-for-rwandans",
+    "https://www.gov.rw/fileadmin/user_upload/gov_user_upload/Publications/Newsletters/Rwanda_in_the_News_17-23_April.pdf"
+  ],
+  "system_fingerprint": null,
+  "cache_key": "f7aa5b53fed9b88186573af50bcb995c3043c8ea7620e7824a4751bac31d448c"
+}

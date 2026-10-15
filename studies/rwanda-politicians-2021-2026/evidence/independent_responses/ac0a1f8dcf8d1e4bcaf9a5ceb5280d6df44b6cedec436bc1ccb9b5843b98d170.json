@@ -1,0 +1,105 @@
+{
+  "data": {
+    "facts": [
+      {
+        "capacity": "Министр иностранных дел и международного сотрудничества Руанды",
+        "channel": "official_act",
+        "event_id": "biruta-2022-botswana-jpc",
+        "period": "2022-04-26",
+        "source_url": "https://www.minaffet.gov.rw/updates/news-details/first-session-of-joint-permanent-commission-on-cooperation-between-rwanda-and-botswana-held-in-kigali",
+        "text": "Возглавил руандийскую делегацию на первом заседании совместной постоянной комиссии с Ботсваной и представил комиссию как механизм долгосрочного углубления двустороннего сотрудничества.",
+        "topic_ids": [
+          "institutional-autonomy-coordination__negative",
+          "international-rules-autonomy__positive",
+          "mediation-adversarial-communication__positive"
+        ]
+      },
+      {
+        "capacity": "Министр иностранных дел и международного сотрудничества Руанды",
+        "channel": "official_act",
+        "event_id": "biruta-2022-kigali-global-dialogue",
+        "period": "2022-07-11",
+        "source_url": "https://www.minaffet.gov.rw/updates/news-details/minister-biruta-speaks-at-the-second-edition-of-the-kigali-global-dialogue",
+        "text": "Выступил на форуме с участием политиков, академического сообщества, гражданского общества и частного сектора; обсуждение было посвящено росту, развитию человеческого капитала, устойчивости, климату, здравоохранению, цифровой трансформации и глобальному управлению.",
+        "topic_ids": [
+          "participation-administrative-direction__positive",
+          "accessibility-growth-priorities__negative",
+          "ecological-limits-resource-use__positive"
+        ]
+      },
+      {
+        "capacity": "Министр иностранных дел и международного сотрудничества Руанды",
+        "channel": "official_act",
+        "event_id": "biruta-2022-mburabuturo-tree-planting",
+        "period": "2022-11-26",
+        "source_url": "https://www.minaffet.gov.rw/updates/news-details/minister-biruta-joins-residents-of-kigali-city-in-a-special-umuganda",
+        "text": "Участвовал вместе с жителями Кигали, дипломатическим корпусом и государственными структурами в общественных работах по посадке деревьев; в выступлении отметил усилия организовавшего мероприятия посольства Республики Конго.",
+        "topic_ids": [
+          "ecological-limits-resource-use__positive",
+          "participation-administrative-direction__positive",
+          "cultural-openness-national-transmission__positive"
+        ]
+      },
+      {
+        "capacity": "Министр иностранных дел и международного сотрудничества Руанды",
+        "channel": "official_act",
+        "event_id": "biruta-2023-opcw-meeting",
+        "period": "2023-11-06",
+        "source_url": "https://www.opcw.org/media-centre/news/2023/11/opcw-director-general-receives-rwandas-minister-foreign-affairs-and",
+        "text": "Провёл встречу с генеральным директором Организации по запрещению химического оружия в штаб-квартире ОЗХО; материал фиксирует дипломатическое взаимодействие с международной организацией, но не раскрывает конкретные личные предложения или оценочные формулировки Бируты.",
+        "topic_ids": [
+          "international-rules-autonomy__positive",
+          "mediation-adversarial-communication__positive"
+        ]
+      }
+    ],
+    "limitations": "В доступной выдаче обнаружены только четыре дополнительных неповторяющихся эпизода, отвечающих заданному периоду и имеющих пригодные первичные или официальные материалы. Поэтому требуемые 18–24 эпизода без выдумывания сведений не сформированы. Найденные материалы преимущественно фиксируют официальные действия и форматы участия; они не позволяют надёжно кодировать многие личные убеждения, намерения, критику курса, электоральные барьеры или реализацию заявленных программ.",
+    "sources": [
+      {
+        "title": "First Session of Joint Permanent Commission on Cooperation between Rwanda and Botswana Held in Kigali",
+        "url": "https://www.minaffet.gov.rw/updates/news-details/first-session-of-joint-permanent-commission-on-cooperation-between-rwanda-and-botswana-held-in-kigali"
+      },
+      {
+        "title": "Minister Biruta Speaks at the Second Edition of the Kigali Global Dialogue",
+        "url": "https://www.minaffet.gov.rw/updates/news-details/minister-biruta-speaks-at-the-second-edition-of-the-kigali-global-dialogue"
+      },
+      {
+        "title": "Minister Biruta Joins Residents of Kigali City in a Special Umuganda",
+        "url": "https://www.minaffet.gov.rw/updates/news-details/minister-biruta-joins-residents-of-kigali-city-in-a-special-umuganda"
+      },
+      {
+        "title": "OPCW Director-General Receives Rwanda’s Minister of Foreign Affairs and International Cooperation",
+        "url": "https://www.opcw.org/media-centre/news/2023/11/opcw-director-general-receives-rwandas-minister-foreign-affairs-and"
+      }
+    ]
+  },
+  "model": "sonar-pro",
+  "task": "independent-retrieval-vincent-biruta",
+  "at": "2026-10-15T17:21:27.693883+00:00",
+  "usage": {
+    "completion_tokens": 1165,
+    "cost": {
+      "input_tokens_cost": 0.00386,
+      "output_tokens_cost": 0.00275,
+      "request_cost": 0.0025,
+      "total_cost": 0.00911
+    },
+    "prompt_tokens": 2837,
+    "search_context_size": "low",
+    "total_tokens": 4002
+  },
+  "citations": [
+    "https://www.minaffet.gov.rw/updates/news/page?tx_news_pi1[currentPage]=33&cHash=946457b2c899877ccd39b34a3dc82f70",
+    "https://www.mininter.gov.rw/about",
+    "https://www.opcw.org/media-centre/news/2023/11/opcw-director-general-receives-rwandas-minister-foreign-affairs-and",
+    "https://www.minaffet.gov.rw/updates/news-details/first-session-of-joint-permanent-commission-on-cooperation-between-rwanda-and-botswana-held-in-kigali",
+    "https://www.minaffet.gov.rw/updates/news-details/minister-biruta-speaks-at-the-second-edition-of-the-kigali-global-dialogue",
+    "https://dohaforum.org/2023/speakers/h.e.-vincent-biruta",
+    "https://www.minaffet.gov.rw/updates/news-details/minister-biruta-joins-residents-of-kigali-city-in-a-special-umuganda",
+    "https://www.rwandainindia.gov.rw/actualites/info-details/hon-vincent-biruta-minister-of-foreign-affairs-and-international-cooperation-of-rwanda-visited-india",
+    "https://www.mininter.gov.rw/news-detail/the-inspector-general-of-liberia-national-police-pays-a-courtesy-call-to-the-minister-of-interior",
+    "https://www.minaffet.gov.rw/updates/news/page?tx_news_pi1[currentPage]=32&cHash=9f0a2e40583e11be8c66d4cf449256b8"
+  ],
+  "system_fingerprint": null,
+  "cache_key": "ac0a1f8dcf8d1e4bcaf9a5ceb5280d6df44b6cedec436bc1ccb9b5843b98d170"
+}

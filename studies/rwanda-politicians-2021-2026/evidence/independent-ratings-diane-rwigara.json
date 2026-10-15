@@ -1,0 +1,1714 @@
+[
+  {
+    "object_id": "diane-rwigara",
+    "scale_id": "programmatic-renewal",
+    "pole_scores": {
+      "positive": {
+        "status": "observed",
+        "value": 2,
+        "confidence": 0.8,
+        "evidence_indices": [
+          0
+        ],
+        "source_urls": [
+          "https://forbiddenstories.org/pegasus-in-rwanda-sister-of-presidential-candidate-high-ranking-rwandan-politicians-added-to-spyware-list/"
+        ],
+        "event_ids": [
+          "rwigara-2024-candidacy-announcement"
+        ],
+        "rationale": "Рвигара объявила о намерении баллотироваться на выборах 2024 года, представив это как начало нового этапа для Руанды и призвав граждан присоединиться к кампании. Это прямое заявление о необходимости перемен и нового этапа, что соответствует программному изменению существующего курса. Однако нет детализированной программы с конкретными предложениями по пересмотру всех приоритетов, поэтому выраженность ограничена.",
+        "support_type": "positive_manifestation",
+        "provenance": {
+          "raw_response_file": "evidence/independent_responses/e6e15f4cb4ae18846d8d9483d57f4ac7e754b0bb096529ec7a39c172edee81fe.json",
+          "model": "gpt-4.1",
+          "at": "2026-10-15T17:31:54.128901+00:00",
+          "cache_key": "e6e15f4cb4ae18846d8d9483d57f4ac7e754b0bb096529ec7a39c172edee81fe",
+          "original_proposal": {
+            "variable_id": "programmatic-renewal__positive",
+            "status": "observed",
+            "value": 2,
+            "confidence": 0.8,
+            "support_type": "positive_manifestation",
+            "rationale": "Рвигара объявила о намерении баллотироваться на выборах 2024 года, представив это как начало нового этапа для Руанды и призвав граждан присоединиться к кампании. Это прямое заявление о необходимости перемен и нового этапа, что соответствует программному изменению существующего курса. Однако нет детализированной программы с конкретными предложениями по пересмотру всех приоритетов, поэтому выраженность ограничена.",
+            "evidence_indices": [
+              0
+            ]
+          }
+        },
+        "evidence_file": "evidence/independent-dossier-diane-rwigara.json",
+        "evidence_basis": "db200836d755467e1c3e8bec67d8cfa87c0ba7340b00a7789a39516d6eefa3c8"
+      },
+      "negative": {
+        "status": "observed",
+        "value": 1,
+        "confidence": 0.5,
+        "evidence_indices": [
+          1,
+          10
+        ],
+        "source_urls": [
+          "https://rwandainspirer.com/2024-elections-rwandas-nine-presidential-aspirants-at-a-glance/"
+        ],
+        "event_ids": [
+          "rwigara-2024-submission",
+          "rwigara-2024-economic-development"
+        ],
+        "rationale": "В изложении программы Рвигара заявила о продолжении экономического развития страны. Это может трактоваться как элемент продолжения действующего курса, но в контексте других заявлений о необходимости перемен и критики существующего порядка выраженность этого полюса минимальна.",
+        "support_type": "positive_manifestation",
+        "provenance": {
+          "raw_response_file": "evidence/independent_responses/e6e15f4cb4ae18846d8d9483d57f4ac7e754b0bb096529ec7a39c172edee81fe.json",
+          "model": "gpt-4.1",
+          "at": "2026-10-15T17:31:54.128901+00:00",
+          "cache_key": "e6e15f4cb4ae18846d8d9483d57f4ac7e754b0bb096529ec7a39c172edee81fe",
+          "original_proposal": {
+            "variable_id": "programmatic-renewal__negative",
+            "status": "observed",
+            "value": 1,
+            "confidence": 0.5,
+            "support_type": "positive_manifestation",
+            "rationale": "В изложении программы Рвигара заявила о продолжении экономического развития страны. Это может трактоваться как элемент продолжения действующего курса, но в контексте других заявлений о необходимости перемен и критики существующего порядка выраженность этого полюса минимальна.",
+            "evidence_indices": [
+              1,
+              10
+            ]
+          }
+        },
+        "evidence_file": "evidence/independent-dossier-diane-rwigara.json",
+        "evidence_basis": "db200836d755467e1c3e8bec67d8cfa87c0ba7340b00a7789a39516d6eefa3c8"
+      }
+    },
+    "positive": 2,
+    "negative": 1,
+    "value": null,
+    "status": "observed",
+    "difference": null,
+    "mass": null,
+    "measurement_model": "independent_poles",
+    "evidence_file": "evidence/independent-dossier-diane-rwigara.json",
+    "evidence_basis": "db200836d755467e1c3e8bec67d8cfa87c0ba7340b00a7789a39516d6eefa3c8",
+    "at": "2026-10-15T17:32:02.988874+00:00",
+    "reason": "Каждое свойство оценивается независимо; разность и искусственное дополнение до пяти не вычисляются"
+  },
+  {
+    "object_id": "diane-rwigara",
+    "scale_id": "government-course-assessment",
+    "pole_scores": {
+      "positive": {
+        "status": "unknown",
+        "value": null,
+        "confidence": 0,
+        "evidence_indices": [],
+        "source_urls": [],
+        "event_ids": [],
+        "rationale": "Нет прямых публичных заявлений Рвигары, выражающих поддержку действующего государственного курса в целом. Отдельные упоминания экономического развития не содержат явной положительной оценки курса власти.",
+        "support_type": "unknown",
+        "provenance": {
+          "raw_response_file": "evidence/independent_responses/e6e15f4cb4ae18846d8d9483d57f4ac7e754b0bb096529ec7a39c172edee81fe.json",
+          "model": "gpt-4.1",
+          "at": "2026-10-15T17:31:54.128901+00:00",
+          "cache_key": "e6e15f4cb4ae18846d8d9483d57f4ac7e754b0bb096529ec7a39c172edee81fe",
+          "original_proposal": {
+            "variable_id": "government-course-assessment__positive",
+            "status": "unknown",
+            "value": null,
+            "confidence": 0.3,
+            "support_type": "unknown",
+            "rationale": "Нет прямых публичных заявлений Рвигары, выражающих поддержку действующего государственного курса в целом. Отдельные упоминания экономического развития не содержат явной положительной оценки курса власти.",
+            "evidence_indices": []
+          }
+        },
+        "evidence_file": "evidence/independent-dossier-diane-rwigara.json",
+        "evidence_basis": "db200836d755467e1c3e8bec67d8cfa87c0ba7340b00a7789a39516d6eefa3c8"
+      },
+      "negative": {
+        "status": "observed",
+        "value": 3,
+        "confidence": 0.9,
+        "evidence_indices": [
+          4,
+          5,
+          8,
+          9,
+          12,
+          14,
+          15,
+          16,
+          17,
+          21,
+          22,
+          27,
+          28,
+          30
+        ],
+        "source_urls": [
+          "https://x.com/ShimaRwigara",
+          "https://www.bbc.com/news/articles/cw007n5pn4wo",
+          "https://letraescarlata.org/elecciones-ruanda/",
+          "https://en.wikipedia.org/wiki/Diane_Rwigara",
+          "https://www.bbc.com/gahuza/articles/cp66x9zxrw4o",
+          "https://freedomhouse.org/country/rwanda/freedom-world/2025"
+        ],
+        "event_ids": [
+          "rwigara-2024-rejection-response",
+          "rwigara-2024-bbc-interview",
+          "rwigara-2024-opposition-profile",
+          "rwigara-2024-party-profile",
+          "rwigara-2024-electoral-participation",
+          "rwigara-2024-06-19-politics-continue",
+          "rwigara-2024-06-19-equal-opportunity",
+          "rwigara-2024-06-19-kagame-appeal",
+          "rwigara-2024-06-19-documentation-dispute",
+          "rwigara-2024-06-19-rights-framing",
+          "rwigara-2024-06-19-adversarial-address",
+          "rwigara-2024-x-political-rights",
+          "rwigara-2024-bbc-fear-and-freedom",
+          "rwigara-2025-opposition-restriction"
+        ],
+        "rationale": "Рвигара публично критиковала ограничения политических прав, недопуск к выборам, противопоставляла международный имидж Руанды реальным проблемам доступа к базовым благам, а также связывала свою деятельность с борьбой против несправедливости и репрессий. Это устойчивый публичный акцент на критике действующего курса.",
+        "support_type": "positive_manifestation",
+        "provenance": {
+          "raw_response_file": "evidence/independent_responses/e6e15f4cb4ae18846d8d9483d57f4ac7e754b0bb096529ec7a39c172edee81fe.json",
+          "model": "gpt-4.1",
+          "at": "2026-10-15T17:31:54.128901+00:00",
+          "cache_key": "e6e15f4cb4ae18846d8d9483d57f4ac7e754b0bb096529ec7a39c172edee81fe",
+          "original_proposal": {
+            "variable_id": "government-course-assessment__negative",
+            "status": "observed",
+            "value": 3,
+            "confidence": 0.9,
+            "support_type": "positive_manifestation",
+            "rationale": "Рвигара публично критиковала ограничения политических прав, недопуск к выборам, противопоставляла международный имидж Руанды реальным проблемам доступа к базовым благам, а также связывала свою деятельность с борьбой против несправедливости и репрессий. Это устойчивый публичный акцент на критике действующего курса.",
+            "evidence_indices": [
+              4,
+              5,
+              8,
+              9,
+              12,
+              14,
+              15,
+              16,
+              17,
+              21,
+              22,
+              27,
+              28,
+              30
+            ]
+          }
+        },
+        "evidence_file": "evidence/independent-dossier-diane-rwigara.json",
+        "evidence_basis": "db200836d755467e1c3e8bec67d8cfa87c0ba7340b00a7789a39516d6eefa3c8"
+      }
+    },
+    "positive": null,
+    "negative": 3,
+    "value": null,
+    "status": "partial",
+    "difference": null,
+    "mass": null,
+    "measurement_model": "independent_poles",
+    "evidence_file": "evidence/independent-dossier-diane-rwigara.json",
+    "evidence_basis": "db200836d755467e1c3e8bec67d8cfa87c0ba7340b00a7789a39516d6eefa3c8",
+    "at": "2026-10-15T17:32:02.988874+00:00",
+    "reason": "Каждое свойство оценивается независимо; разность и искусственное дополнение до пяти не вычисляются"
+  },
+  {
+    "object_id": "diane-rwigara",
+    "scale_id": "participation-administrative-direction",
+    "pole_scores": {
+      "positive": {
+        "status": "observed",
+        "value": 2,
+        "confidence": 0.7,
+        "evidence_indices": [
+          0,
+          14,
+          15,
+          21
+        ],
+        "source_urls": [
+          "https://forbiddenstories.org/pegasus-in-rwanda-sister-of-presidential-candidate-high-ranking-rwandan-politicians-added-to-spyware-list/",
+          "https://www.bbc.com/gahuza/articles/cp66x9zxrw4o"
+        ],
+        "event_ids": [
+          "rwigara-2024-candidacy-announcement",
+          "rwigara-2024-06-19-politics-continue",
+          "rwigara-2024-06-19-equal-opportunity",
+          "rwigara-2024-06-19-rights-framing"
+        ],
+        "rationale": "Рвигара связывала свою кампанию с призывом к гражданам присоединиться, а также акцентировала на равных возможностях выражать мнения и участвовать в политике. Это ограниченное, но прямое проявление приглашения к общественному участию.",
+        "support_type": "positive_manifestation",
+        "provenance": {
+          "raw_response_file": "evidence/independent_responses/e6e15f4cb4ae18846d8d9483d57f4ac7e754b0bb096529ec7a39c172edee81fe.json",
+          "model": "gpt-4.1",
+          "at": "2026-10-15T17:31:54.128901+00:00",
+          "cache_key": "e6e15f4cb4ae18846d8d9483d57f4ac7e754b0bb096529ec7a39c172edee81fe",
+          "original_proposal": {
+            "variable_id": "participation-administrative-direction__positive",
+            "status": "observed",
+            "value": 2,
+            "confidence": 0.7,
+            "support_type": "positive_manifestation",
+            "rationale": "Рвигара связывала свою кампанию с призывом к гражданам присоединиться, а также акцентировала на равных возможностях выражать мнения и участвовать в политике. Это ограниченное, но прямое проявление приглашения к общественному участию.",
+            "evidence_indices": [
+              0,
+              14,
+              15,
+              21
+            ]
+          }
+        },
+        "evidence_file": "evidence/independent-dossier-diane-rwigara.json",
+        "evidence_basis": "db200836d755467e1c3e8bec67d8cfa87c0ba7340b00a7789a39516d6eefa3c8"
+      },
+      "negative": {
+        "status": "unknown",
+        "value": null,
+        "confidence": 0,
+        "evidence_indices": [],
+        "source_urls": [],
+        "event_ids": [],
+        "rationale": "Нет данных о том, чтобы Рвигара делала публичные поручения, управляла исполнителями или реализовывала административную постановку задач. Её действия и риторика не содержат признаков этого полюса.",
+        "support_type": "unknown",
+        "provenance": {
+          "raw_response_file": "evidence/independent_responses/e6e15f4cb4ae18846d8d9483d57f4ac7e754b0bb096529ec7a39c172edee81fe.json",
+          "model": "gpt-4.1",
+          "at": "2026-10-15T17:31:54.128901+00:00",
+          "cache_key": "e6e15f4cb4ae18846d8d9483d57f4ac7e754b0bb096529ec7a39c172edee81fe",
+          "original_proposal": {
+            "variable_id": "participation-administrative-direction__negative",
+            "status": "unknown",
+            "value": null,
+            "confidence": 0.3,
+            "support_type": "unknown",
+            "rationale": "Нет данных о том, чтобы Рвигара делала публичные поручения, управляла исполнителями или реализовывала административную постановку задач. Её действия и риторика не содержат признаков этого полюса.",
+            "evidence_indices": []
+          }
+        },
+        "evidence_file": "evidence/independent-dossier-diane-rwigara.json",
+        "evidence_basis": "db200836d755467e1c3e8bec67d8cfa87c0ba7340b00a7789a39516d6eefa3c8"
+      }
+    },
+    "positive": 2,
+    "negative": null,
+    "value": null,
+    "status": "partial",
+    "difference": null,
+    "mass": null,
+    "measurement_model": "independent_poles",
+    "evidence_file": "evidence/independent-dossier-diane-rwigara.json",
+    "evidence_basis": "db200836d755467e1c3e8bec67d8cfa87c0ba7340b00a7789a39516d6eefa3c8",
+    "at": "2026-10-15T17:32:02.988874+00:00",
+    "reason": "Каждое свойство оценивается независимо; разность и искусственное дополнение до пяти не вычисляются"
+  },
+  {
+    "object_id": "diane-rwigara",
+    "scale_id": "argumentation-evidence-values",
+    "pole_scores": {
+      "positive": {
+        "status": "unknown",
+        "value": null,
+        "confidence": 0,
+        "evidence_indices": [],
+        "source_urls": [],
+        "event_ids": [],
+        "rationale": "Нет прямых примеров использования данных, расчётов или ссылок на исследования в публичных заявлениях Рвигары. Основная аргументация строится вокруг прав и возможностей.",
+        "support_type": "unknown",
+        "provenance": {
+          "raw_response_file": "evidence/independent_responses/e6e15f4cb4ae18846d8d9483d57f4ac7e754b0bb096529ec7a39c172edee81fe.json",
+          "model": "gpt-4.1",
+          "at": "2026-10-15T17:31:54.128901+00:00",
+          "cache_key": "e6e15f4cb4ae18846d8d9483d57f4ac7e754b0bb096529ec7a39c172edee81fe",
+          "original_proposal": {
+            "variable_id": "argumentation-evidence-values__positive",
+            "status": "unknown",
+            "value": null,
+            "confidence": 0.3,
+            "support_type": "unknown",
+            "rationale": "Нет прямых примеров использования данных, расчётов или ссылок на исследования в публичных заявлениях Рвигары. Основная аргументация строится вокруг прав и возможностей.",
+            "evidence_indices": []
+          }
+        },
+        "evidence_file": "evidence/independent-dossier-diane-rwigara.json",
+        "evidence_basis": "db200836d755467e1c3e8bec67d8cfa87c0ba7340b00a7789a39516d6eefa3c8"
+      },
+      "negative": {
+        "status": "observed",
+        "value": 2,
+        "confidence": 0.7,
+        "evidence_indices": [
+          5,
+          14,
+          15,
+          21,
+          28
+        ],
+        "source_urls": [
+          "https://www.bbc.com/news/articles/cw007n5pn4wo",
+          "https://www.bbc.com/gahuza/articles/cp66x9zxrw4o"
+        ],
+        "event_ids": [
+          "rwigara-2024-bbc-interview",
+          "rwigara-2024-06-19-politics-continue",
+          "rwigara-2024-06-19-equal-opportunity",
+          "rwigara-2024-06-19-rights-framing",
+          "rwigara-2024-bbc-fear-and-freedom"
+        ],
+        "rationale": "Рвигара аргументировала свою позицию через призыв к равным возможностям, политическим правам, свободе выражения, а также ссылалась на страх и отсутствие свободы у руандийцев. Это ограниченное, но прямое использование ценностных аргументов.",
+        "support_type": "positive_manifestation",
+        "provenance": {
+          "raw_response_file": "evidence/independent_responses/e6e15f4cb4ae18846d8d9483d57f4ac7e754b0bb096529ec7a39c172edee81fe.json",
+          "model": "gpt-4.1",
+          "at": "2026-10-15T17:31:54.128901+00:00",
+          "cache_key": "e6e15f4cb4ae18846d8d9483d57f4ac7e754b0bb096529ec7a39c172edee81fe",
+          "original_proposal": {
+            "variable_id": "argumentation-evidence-values__negative",
+            "status": "observed",
+            "value": 2,
+            "confidence": 0.7,
+            "support_type": "positive_manifestation",
+            "rationale": "Рвигара аргументировала свою позицию через призыв к равным возможностям, политическим правам, свободе выражения, а также ссылалась на страх и отсутствие свободы у руандийцев. Это ограниченное, но прямое использование ценностных аргументов.",
+            "evidence_indices": [
+              5,
+              14,
+              15,
+              21,
+              28
+            ]
+          }
+        },
+        "evidence_file": "evidence/independent-dossier-diane-rwigara.json",
+        "evidence_basis": "db200836d755467e1c3e8bec67d8cfa87c0ba7340b00a7789a39516d6eefa3c8"
+      }
+    },
+    "positive": null,
+    "negative": 2,
+    "value": null,
+    "status": "partial",
+    "difference": null,
+    "mass": null,
+    "measurement_model": "independent_poles",
+    "evidence_file": "evidence/independent-dossier-diane-rwigara.json",
+    "evidence_basis": "db200836d755467e1c3e8bec67d8cfa87c0ba7340b00a7789a39516d6eefa3c8",
+    "at": "2026-10-15T17:32:02.988874+00:00",
+    "reason": "Каждое свойство оценивается независимо; разность и искусственное дополнение до пяти не вычисляются"
+  },
+  {
+    "object_id": "diane-rwigara",
+    "scale_id": "market-state-instruments",
+    "pole_scores": {
+      "positive": {
+        "status": "unknown",
+        "value": null,
+        "confidence": 0,
+        "evidence_indices": [],
+        "source_urls": [],
+        "event_ids": [],
+        "rationale": "Нет сведений о том, что Рвигара прямо предлагала расширять частную инициативу или предпринимательство как инструмент развития.",
+        "support_type": "unknown",
+        "provenance": {
+          "raw_response_file": "evidence/independent_responses/e6e15f4cb4ae18846d8d9483d57f4ac7e754b0bb096529ec7a39c172edee81fe.json",
+          "model": "gpt-4.1",
+          "at": "2026-10-15T17:31:54.128901+00:00",
+          "cache_key": "e6e15f4cb4ae18846d8d9483d57f4ac7e754b0bb096529ec7a39c172edee81fe",
+          "original_proposal": {
+            "variable_id": "market-state-instruments__positive",
+            "status": "unknown",
+            "value": null,
+            "confidence": 0.2,
+            "support_type": "unknown",
+            "rationale": "Нет сведений о том, что Рвигара прямо предлагала расширять частную инициативу или предпринимательство как инструмент развития.",
+            "evidence_indices": []
+          }
+        },
+        "evidence_file": "evidence/independent-dossier-diane-rwigara.json",
+        "evidence_basis": "db200836d755467e1c3e8bec67d8cfa87c0ba7340b00a7789a39516d6eefa3c8"
+      },
+      "negative": {
+        "status": "unknown",
+        "value": null,
+        "confidence": 0,
+        "evidence_indices": [],
+        "source_urls": [],
+        "event_ids": [],
+        "rationale": "Нет сведений о том, что Рвигара прямо предлагала усилить государственное планирование или обязательные правила как инструмент развития.",
+        "support_type": "unknown",
+        "provenance": {
+          "raw_response_file": "evidence/independent_responses/e6e15f4cb4ae18846d8d9483d57f4ac7e754b0bb096529ec7a39c172edee81fe.json",
+          "model": "gpt-4.1",
+          "at": "2026-10-15T17:31:54.128901+00:00",
+          "cache_key": "e6e15f4cb4ae18846d8d9483d57f4ac7e754b0bb096529ec7a39c172edee81fe",
+          "original_proposal": {
+            "variable_id": "market-state-instruments__negative",
+            "status": "unknown",
+            "value": null,
+            "confidence": 0.2,
+            "support_type": "unknown",
+            "rationale": "Нет сведений о том, что Рвигара прямо предлагала усилить государственное планирование или обязательные правила как инструмент развития.",
+            "evidence_indices": []
+          }
+        },
+        "evidence_file": "evidence/independent-dossier-diane-rwigara.json",
+        "evidence_basis": "db200836d755467e1c3e8bec67d8cfa87c0ba7340b00a7789a39516d6eefa3c8"
+      }
+    },
+    "positive": null,
+    "negative": null,
+    "value": null,
+    "status": "unknown",
+    "difference": null,
+    "mass": null,
+    "measurement_model": "independent_poles",
+    "evidence_file": "evidence/independent-dossier-diane-rwigara.json",
+    "evidence_basis": "db200836d755467e1c3e8bec67d8cfa87c0ba7340b00a7789a39516d6eefa3c8",
+    "at": "2026-10-15T17:32:02.988874+00:00",
+    "reason": "Каждое свойство оценивается независимо; разность и искусственное дополнение до пяти не вычисляются"
+  },
+  {
+    "object_id": "diane-rwigara",
+    "scale_id": "accessibility-growth-priorities",
+    "pole_scores": {
+      "positive": {
+        "status": "observed",
+        "value": 2,
+        "confidence": 0.7,
+        "evidence_indices": [
+          2,
+          5,
+          11
+        ],
+        "source_urls": [
+          "https://rwandainspirer.com/2024-elections-rwandas-nine-presidential-aspirants-at-a-glance/",
+          "https://www.bbc.com/news/articles/cw007n5pn4wo"
+        ],
+        "event_ids": [
+          "rwigara-2024-social-programme",
+          "rwigara-2024-bbc-interview"
+        ],
+        "rationale": "В программе Рвигары акцентированы вопросы продовольственной безопасности, жилья и доступа к образованию для детей, что свидетельствует о приоритете расширения доступности базовых благ. Однако не уточняется универсальность или механизм, поэтому выраженность ограничена.",
+        "support_type": "positive_manifestation",
+        "provenance": {
+          "raw_response_file": "evidence/independent_responses/e6e15f4cb4ae18846d8d9483d57f4ac7e754b0bb096529ec7a39c172edee81fe.json",
+          "model": "gpt-4.1",
+          "at": "2026-10-15T17:31:54.128901+00:00",
+          "cache_key": "e6e15f4cb4ae18846d8d9483d57f4ac7e754b0bb096529ec7a39c172edee81fe",
+          "original_proposal": {
+            "variable_id": "accessibility-growth-priorities__positive",
+            "status": "observed",
+            "value": 2,
+            "confidence": 0.7,
+            "support_type": "positive_manifestation",
+            "rationale": "В программе Рвигары акцентированы вопросы продовольственной безопасности, жилья и доступа к образованию для детей, что свидетельствует о приоритете расширения доступности базовых благ. Однако не уточняется универсальность или механизм, поэтому выраженность ограничена.",
+            "evidence_indices": [
+              2,
+              5,
+              11
+            ]
+          }
+        },
+        "evidence_file": "evidence/independent-dossier-diane-rwigara.json",
+        "evidence_basis": "db200836d755467e1c3e8bec67d8cfa87c0ba7340b00a7789a39516d6eefa3c8"
+      },
+      "negative": {
+        "status": "unknown",
+        "value": null,
+        "confidence": 0,
+        "evidence_indices": [],
+        "source_urls": [],
+        "event_ids": [],
+        "rationale": "Хотя упоминается продолжение экономического развития, нет прямых заявлений о приоритете инвестиций, конкурентоспособности или деловой активности как самостоятельной цели.",
+        "support_type": "unknown",
+        "provenance": {
+          "raw_response_file": "evidence/independent_responses/e6e15f4cb4ae18846d8d9483d57f4ac7e754b0bb096529ec7a39c172edee81fe.json",
+          "model": "gpt-4.1",
+          "at": "2026-10-15T17:31:54.128901+00:00",
+          "cache_key": "e6e15f4cb4ae18846d8d9483d57f4ac7e754b0bb096529ec7a39c172edee81fe",
+          "original_proposal": {
+            "variable_id": "accessibility-growth-priorities__negative",
+            "status": "unknown",
+            "value": null,
+            "confidence": 0.3,
+            "support_type": "unknown",
+            "rationale": "Хотя упоминается продолжение экономического развития, нет прямых заявлений о приоритете инвестиций, конкурентоспособности или деловой активности как самостоятельной цели.",
+            "evidence_indices": []
+          }
+        },
+        "evidence_file": "evidence/independent-dossier-diane-rwigara.json",
+        "evidence_basis": "db200836d755467e1c3e8bec67d8cfa87c0ba7340b00a7789a39516d6eefa3c8"
+      }
+    },
+    "positive": 2,
+    "negative": null,
+    "value": null,
+    "status": "partial",
+    "difference": null,
+    "mass": null,
+    "measurement_model": "independent_poles",
+    "evidence_file": "evidence/independent-dossier-diane-rwigara.json",
+    "evidence_basis": "db200836d755467e1c3e8bec67d8cfa87c0ba7340b00a7789a39516d6eefa3c8",
+    "at": "2026-10-15T17:32:02.988874+00:00",
+    "reason": "Каждое свойство оценивается независимо; разность и искусственное дополнение до пяти не вычисляются"
+  },
+  {
+    "object_id": "diane-rwigara",
+    "scale_id": "external-domestic-resources",
+    "pole_scores": {
+      "positive": {
+        "status": "unknown",
+        "value": null,
+        "confidence": 0,
+        "evidence_indices": [],
+        "source_urls": [],
+        "event_ids": [],
+        "rationale": "Нет сведений о предложениях Рвигары по привлечению внешнего финансирования или ресурсных партнёров.",
+        "support_type": "unknown",
+        "provenance": {
+          "raw_response_file": "evidence/independent_responses/e6e15f4cb4ae18846d8d9483d57f4ac7e754b0bb096529ec7a39c172edee81fe.json",
+          "model": "gpt-4.1",
+          "at": "2026-10-15T17:31:54.128901+00:00",
+          "cache_key": "e6e15f4cb4ae18846d8d9483d57f4ac7e754b0bb096529ec7a39c172edee81fe",
+          "original_proposal": {
+            "variable_id": "external-domestic-resources__positive",
+            "status": "unknown",
+            "value": null,
+            "confidence": 0.2,
+            "support_type": "unknown",
+            "rationale": "Нет сведений о предложениях Рвигары по привлечению внешнего финансирования или ресурсных партнёров.",
+            "evidence_indices": []
+          }
+        },
+        "evidence_file": "evidence/independent-dossier-diane-rwigara.json",
+        "evidence_basis": "db200836d755467e1c3e8bec67d8cfa87c0ba7340b00a7789a39516d6eefa3c8"
+      },
+      "negative": {
+        "status": "unknown",
+        "value": null,
+        "confidence": 0,
+        "evidence_indices": [],
+        "source_urls": [],
+        "event_ids": [],
+        "rationale": "Нет сведений о предложениях Рвигары по опоре на внутренние доходы или снижению зависимости от внешних поступлений.",
+        "support_type": "unknown",
+        "provenance": {
+          "raw_response_file": "evidence/independent_responses/e6e15f4cb4ae18846d8d9483d57f4ac7e754b0bb096529ec7a39c172edee81fe.json",
+          "model": "gpt-4.1",
+          "at": "2026-10-15T17:31:54.128901+00:00",
+          "cache_key": "e6e15f4cb4ae18846d8d9483d57f4ac7e754b0bb096529ec7a39c172edee81fe",
+          "original_proposal": {
+            "variable_id": "external-domestic-resources__negative",
+            "status": "unknown",
+            "value": null,
+            "confidence": 0.2,
+            "support_type": "unknown",
+            "rationale": "Нет сведений о предложениях Рвигары по опоре на внутренние доходы или снижению зависимости от внешних поступлений.",
+            "evidence_indices": []
+          }
+        },
+        "evidence_file": "evidence/independent-dossier-diane-rwigara.json",
+        "evidence_basis": "db200836d755467e1c3e8bec67d8cfa87c0ba7340b00a7789a39516d6eefa3c8"
+      }
+    },
+    "positive": null,
+    "negative": null,
+    "value": null,
+    "status": "unknown",
+    "difference": null,
+    "mass": null,
+    "measurement_model": "independent_poles",
+    "evidence_file": "evidence/independent-dossier-diane-rwigara.json",
+    "evidence_basis": "db200836d755467e1c3e8bec67d8cfa87c0ba7340b00a7789a39516d6eefa3c8",
+    "at": "2026-10-15T17:32:02.988874+00:00",
+    "reason": "Каждое свойство оценивается независимо; разность и искусственное дополнение до пяти не вычисляются"
+  },
+  {
+    "object_id": "diane-rwigara",
+    "scale_id": "international-rules-autonomy",
+    "pole_scores": {
+      "positive": {
+        "status": "unknown",
+        "value": null,
+        "confidence": 0,
+        "evidence_indices": [],
+        "source_urls": [],
+        "event_ids": [],
+        "rationale": "Нет сведений о публичных предложениях Рвигары закрепить международные обязательства или нормы.",
+        "support_type": "unknown",
+        "provenance": {
+          "raw_response_file": "evidence/independent_responses/e6e15f4cb4ae18846d8d9483d57f4ac7e754b0bb096529ec7a39c172edee81fe.json",
+          "model": "gpt-4.1",
+          "at": "2026-10-15T17:31:54.128901+00:00",
+          "cache_key": "e6e15f4cb4ae18846d8d9483d57f4ac7e754b0bb096529ec7a39c172edee81fe",
+          "original_proposal": {
+            "variable_id": "international-rules-autonomy__positive",
+            "status": "unknown",
+            "value": null,
+            "confidence": 0.2,
+            "support_type": "unknown",
+            "rationale": "Нет сведений о публичных предложениях Рвигары закрепить международные обязательства или нормы.",
+            "evidence_indices": []
+          }
+        },
+        "evidence_file": "evidence/independent-dossier-diane-rwigara.json",
+        "evidence_basis": "db200836d755467e1c3e8bec67d8cfa87c0ba7340b00a7789a39516d6eefa3c8"
+      },
+      "negative": {
+        "status": "unknown",
+        "value": null,
+        "confidence": 0,
+        "evidence_indices": [],
+        "source_urls": [],
+        "event_ids": [],
+        "rationale": "Нет сведений о публичных заявлениях Рвигары в защиту национальной самостоятельности решений или против внешнего навязывания.",
+        "support_type": "unknown",
+        "provenance": {
+          "raw_response_file": "evidence/independent_responses/e6e15f4cb4ae18846d8d9483d57f4ac7e754b0bb096529ec7a39c172edee81fe.json",
+          "model": "gpt-4.1",
+          "at": "2026-10-15T17:31:54.128901+00:00",
+          "cache_key": "e6e15f4cb4ae18846d8d9483d57f4ac7e754b0bb096529ec7a39c172edee81fe",
+          "original_proposal": {
+            "variable_id": "international-rules-autonomy__negative",
+            "status": "unknown",
+            "value": null,
+            "confidence": 0.2,
+            "support_type": "unknown",
+            "rationale": "Нет сведений о публичных заявлениях Рвигары в защиту национальной самостоятельности решений или против внешнего навязывания.",
+            "evidence_indices": []
+          }
+        },
+        "evidence_file": "evidence/independent-dossier-diane-rwigara.json",
+        "evidence_basis": "db200836d755467e1c3e8bec67d8cfa87c0ba7340b00a7789a39516d6eefa3c8"
+      }
+    },
+    "positive": null,
+    "negative": null,
+    "value": null,
+    "status": "unknown",
+    "difference": null,
+    "mass": null,
+    "measurement_model": "independent_poles",
+    "evidence_file": "evidence/independent-dossier-diane-rwigara.json",
+    "evidence_basis": "db200836d755467e1c3e8bec67d8cfa87c0ba7340b00a7789a39516d6eefa3c8",
+    "at": "2026-10-15T17:32:02.988874+00:00",
+    "reason": "Каждое свойство оценивается независимо; разность и искусственное дополнение до пяти не вычисляются"
+  },
+  {
+    "object_id": "diane-rwigara",
+    "scale_id": "mediation-adversarial-communication",
+    "pole_scores": {
+      "positive": {
+        "status": "unknown",
+        "value": null,
+        "confidence": 0,
+        "evidence_indices": [],
+        "source_urls": [],
+        "event_ids": [],
+        "rationale": "Нет примеров, где Рвигара предлагала посредничество или поиск согласования интересов сторон.",
+        "support_type": "unknown",
+        "provenance": {
+          "raw_response_file": "evidence/independent_responses/e6e15f4cb4ae18846d8d9483d57f4ac7e754b0bb096529ec7a39c172edee81fe.json",
+          "model": "gpt-4.1",
+          "at": "2026-10-15T17:31:54.128901+00:00",
+          "cache_key": "e6e15f4cb4ae18846d8d9483d57f4ac7e754b0bb096529ec7a39c172edee81fe",
+          "original_proposal": {
+            "variable_id": "mediation-adversarial-communication__positive",
+            "status": "unknown",
+            "value": null,
+            "confidence": 0.2,
+            "support_type": "unknown",
+            "rationale": "Нет примеров, где Рвигара предлагала посредничество или поиск согласования интересов сторон.",
+            "evidence_indices": []
+          }
+        },
+        "evidence_file": "evidence/independent-dossier-diane-rwigara.json",
+        "evidence_basis": "db200836d755467e1c3e8bec67d8cfa87c0ba7340b00a7789a39516d6eefa3c8"
+      },
+      "negative": {
+        "status": "observed",
+        "value": 2,
+        "confidence": 0.7,
+        "evidence_indices": [
+          4,
+          16,
+          17,
+          22
+        ],
+        "source_urls": [
+          "https://x.com/ShimaRwigara",
+          "https://www.bbc.com/gahuza/articles/cp66x9zxrw4o"
+        ],
+        "event_ids": [
+          "rwigara-2024-rejection-response",
+          "rwigara-2024-06-19-kagame-appeal",
+          "rwigara-2024-06-19-documentation-dispute",
+          "rwigara-2024-06-19-adversarial-address"
+        ],
+        "rationale": "Рвигара публично оспаривала решения избирательной комиссии, обращалась к президенту с вопросом о недопуске, защищала свою позицию и оспаривала основания отказа. Это ограниченное, но прямое проявление полемического оспаривания и защиты собственной стороны.",
+        "support_type": "positive_manifestation",
+        "provenance": {
+          "raw_response_file": "evidence/independent_responses/e6e15f4cb4ae18846d8d9483d57f4ac7e754b0bb096529ec7a39c172edee81fe.json",
+          "model": "gpt-4.1",
+          "at": "2026-10-15T17:31:54.128901+00:00",
+          "cache_key": "e6e15f4cb4ae18846d8d9483d57f4ac7e754b0bb096529ec7a39c172edee81fe",
+          "original_proposal": {
+            "variable_id": "mediation-adversarial-communication__negative",
+            "status": "observed",
+            "value": 2,
+            "confidence": 0.7,
+            "support_type": "positive_manifestation",
+            "rationale": "Рвигара публично оспаривала решения избирательной комиссии, обращалась к президенту с вопросом о недопуске, защищала свою позицию и оспаривала основания отказа. Это ограниченное, но прямое проявление полемического оспаривания и защиты собственной стороны.",
+            "evidence_indices": [
+              4,
+              16,
+              17,
+              22
+            ]
+          }
+        },
+        "evidence_file": "evidence/independent-dossier-diane-rwigara.json",
+        "evidence_basis": "db200836d755467e1c3e8bec67d8cfa87c0ba7340b00a7789a39516d6eefa3c8"
+      }
+    },
+    "positive": null,
+    "negative": 2,
+    "value": null,
+    "status": "partial",
+    "difference": null,
+    "mass": null,
+    "measurement_model": "independent_poles",
+    "evidence_file": "evidence/independent-dossier-diane-rwigara.json",
+    "evidence_basis": "db200836d755467e1c3e8bec67d8cfa87c0ba7340b00a7789a39516d6eefa3c8",
+    "at": "2026-10-15T17:32:02.988874+00:00",
+    "reason": "Каждое свойство оценивается независимо; разность и искусственное дополнение до пяти не вычисляются"
+  },
+  {
+    "object_id": "diane-rwigara",
+    "scale_id": "cultural-openness-national-transmission",
+    "pole_scores": {
+      "positive": {
+        "status": "unknown",
+        "value": null,
+        "confidence": 0,
+        "evidence_indices": [],
+        "source_urls": [],
+        "event_ids": [],
+        "rationale": "В доступных фактах отсутствуют прямые высказывания или действия Рвигары, однозначно свидетельствующие о расширении межкультурного обмена или поддержке культурного разнообразия.",
+        "support_type": "unknown",
+        "provenance": {
+          "raw_response_file": "evidence/independent_responses/021f244f217b551a7d7b78911c5878451ffacbc7f6f187e2508cb6932d904d4b.json",
+          "model": "gpt-4.1",
+          "at": "2026-10-15T17:32:02.980876+00:00",
+          "cache_key": "021f244f217b551a7d7b78911c5878451ffacbc7f6f187e2508cb6932d904d4b",
+          "original_proposal": {
+            "variable_id": "cultural-openness-national-transmission__positive",
+            "status": "unknown",
+            "value": null,
+            "confidence": 0,
+            "support_type": "unknown",
+            "rationale": "В доступных фактах отсутствуют прямые высказывания или действия Рвигары, однозначно свидетельствующие о расширении межкультурного обмена или поддержке культурного разнообразия.",
+            "evidence_indices": []
+          }
+        },
+        "evidence_file": "evidence/independent-dossier-diane-rwigara.json",
+        "evidence_basis": "db200836d755467e1c3e8bec67d8cfa87c0ba7340b00a7789a39516d6eefa3c8"
+      },
+      "negative": {
+        "status": "unknown",
+        "value": null,
+        "confidence": 0,
+        "evidence_indices": [],
+        "source_urls": [],
+        "event_ids": [],
+        "rationale": "Нет фактов, где Рвигара прямо акцентирует сохранение и передачу национальных ценностей как отдельную публичную позицию.",
+        "support_type": "unknown",
+        "provenance": {
+          "raw_response_file": "evidence/independent_responses/021f244f217b551a7d7b78911c5878451ffacbc7f6f187e2508cb6932d904d4b.json",
+          "model": "gpt-4.1",
+          "at": "2026-10-15T17:32:02.980876+00:00",
+          "cache_key": "021f244f217b551a7d7b78911c5878451ffacbc7f6f187e2508cb6932d904d4b",
+          "original_proposal": {
+            "variable_id": "cultural-openness-national-transmission__negative",
+            "status": "unknown",
+            "value": null,
+            "confidence": 0,
+            "support_type": "unknown",
+            "rationale": "Нет фактов, где Рвигара прямо акцентирует сохранение и передачу национальных ценностей как отдельную публичную позицию.",
+            "evidence_indices": []
+          }
+        },
+        "evidence_file": "evidence/independent-dossier-diane-rwigara.json",
+        "evidence_basis": "db200836d755467e1c3e8bec67d8cfa87c0ba7340b00a7789a39516d6eefa3c8"
+      }
+    },
+    "positive": null,
+    "negative": null,
+    "value": null,
+    "status": "unknown",
+    "difference": null,
+    "mass": null,
+    "measurement_model": "independent_poles",
+    "evidence_file": "evidence/independent-dossier-diane-rwigara.json",
+    "evidence_basis": "db200836d755467e1c3e8bec67d8cfa87c0ba7340b00a7789a39516d6eefa3c8",
+    "at": "2026-10-15T17:32:02.988874+00:00",
+    "reason": "Каждое свойство оценивается независимо; разность и искусственное дополнение до пяти не вычисляются"
+  },
+  {
+    "object_id": "diane-rwigara",
+    "scale_id": "problem-disclosure-reputation-defence",
+    "pole_scores": {
+      "positive": {
+        "status": "observed",
+        "value": 3,
+        "confidence": 0.9,
+        "evidence_indices": [
+          5,
+          9,
+          21,
+          28
+        ],
+        "source_urls": [
+          "https://www.bbc.com/news/articles/cw007n5pn4wo",
+          "https://en.wikipedia.org/wiki/Diane_Rwigara",
+          "https://www.bbc.com/gahuza/articles/cp66x9zxrw4o"
+        ],
+        "event_ids": [
+          "rwigara-2024-bbc-interview",
+          "rwigara-2024-party-profile",
+          "rwigara-2024-06-19-rights-framing",
+          "rwigara-2024-bbc-fear-and-freedom"
+        ],
+        "rationale": "Рвигара неоднократно публично указывала на проблемы доступа к продовольствию, воде, жилью, а также на страх и отсутствие свобод у руандийцев, противопоставляя это официальному имиджу страны (факты 5, 9, 21, 28). Это устойчивый публичный акцент на раскрытии проблем.",
+        "support_type": "positive_manifestation",
+        "provenance": {
+          "raw_response_file": "evidence/independent_responses/021f244f217b551a7d7b78911c5878451ffacbc7f6f187e2508cb6932d904d4b.json",
+          "model": "gpt-4.1",
+          "at": "2026-10-15T17:32:02.980876+00:00",
+          "cache_key": "021f244f217b551a7d7b78911c5878451ffacbc7f6f187e2508cb6932d904d4b",
+          "original_proposal": {
+            "variable_id": "problem-disclosure-reputation-defence__positive",
+            "status": "observed",
+            "value": 3,
+            "confidence": 0.9,
+            "support_type": "positive_manifestation",
+            "rationale": "Рвигара неоднократно публично указывала на проблемы доступа к продовольствию, воде, жилью, а также на страх и отсутствие свобод у руандийцев, противопоставляя это официальному имиджу страны (факты 5, 9, 21, 28). Это устойчивый публичный акцент на раскрытии проблем.",
+            "evidence_indices": [
+              5,
+              9,
+              21,
+              28
+            ]
+          }
+        },
+        "evidence_file": "evidence/independent-dossier-diane-rwigara.json",
+        "evidence_basis": "db200836d755467e1c3e8bec67d8cfa87c0ba7340b00a7789a39516d6eefa3c8"
+      },
+      "negative": {
+        "status": "unknown",
+        "value": null,
+        "confidence": 0,
+        "evidence_indices": [],
+        "source_urls": [],
+        "event_ids": [],
+        "rationale": "Нет эпизодов, где Рвигара бы явно защищала репутацию страны или своей политики, опровергая описания проблем как искажённые.",
+        "support_type": "unknown",
+        "provenance": {
+          "raw_response_file": "evidence/independent_responses/021f244f217b551a7d7b78911c5878451ffacbc7f6f187e2508cb6932d904d4b.json",
+          "model": "gpt-4.1",
+          "at": "2026-10-15T17:32:02.980876+00:00",
+          "cache_key": "021f244f217b551a7d7b78911c5878451ffacbc7f6f187e2508cb6932d904d4b",
+          "original_proposal": {
+            "variable_id": "problem-disclosure-reputation-defence__negative",
+            "status": "unknown",
+            "value": null,
+            "confidence": 0,
+            "support_type": "unknown",
+            "rationale": "Нет эпизодов, где Рвигара бы явно защищала репутацию страны или своей политики, опровергая описания проблем как искажённые.",
+            "evidence_indices": []
+          }
+        },
+        "evidence_file": "evidence/independent-dossier-diane-rwigara.json",
+        "evidence_basis": "db200836d755467e1c3e8bec67d8cfa87c0ba7340b00a7789a39516d6eefa3c8"
+      }
+    },
+    "positive": 3,
+    "negative": null,
+    "value": null,
+    "status": "partial",
+    "difference": null,
+    "mass": null,
+    "measurement_model": "independent_poles",
+    "evidence_file": "evidence/independent-dossier-diane-rwigara.json",
+    "evidence_basis": "db200836d755467e1c3e8bec67d8cfa87c0ba7340b00a7789a39516d6eefa3c8",
+    "at": "2026-10-15T17:32:02.988874+00:00",
+    "reason": "Каждое свойство оценивается независимо; разность и искусственное дополнение до пяти не вычисляются"
+  },
+  {
+    "object_id": "diane-rwigara",
+    "scale_id": "procedural-guarantees-enforcement",
+    "pole_scores": {
+      "positive": {
+        "status": "observed",
+        "value": 2,
+        "confidence": 0.7,
+        "evidence_indices": [
+          12,
+          14,
+          15,
+          21,
+          27
+        ],
+        "source_urls": [
+          "https://x.com/ShimaRwigara",
+          "https://www.bbc.com/gahuza/articles/cp66x9zxrw4o"
+        ],
+        "event_ids": [
+          "rwigara-2024-electoral-participation",
+          "rwigara-2024-06-19-politics-continue",
+          "rwigara-2024-06-19-equal-opportunity",
+          "rwigara-2024-06-19-rights-framing",
+          "rwigara-2024-x-political-rights"
+        ],
+        "rationale": "Рвигара связывала недопуск к выборам с нарушением права на участие и требовала равных возможностей для выражения взглядов и политической деятельности (факты 12, 14, 15, 21, 27). Это ясное ограниченное проявление требования процедурных гарантий.",
+        "support_type": "positive_manifestation",
+        "provenance": {
+          "raw_response_file": "evidence/independent_responses/021f244f217b551a7d7b78911c5878451ffacbc7f6f187e2508cb6932d904d4b.json",
+          "model": "gpt-4.1",
+          "at": "2026-10-15T17:32:02.980876+00:00",
+          "cache_key": "021f244f217b551a7d7b78911c5878451ffacbc7f6f187e2508cb6932d904d4b",
+          "original_proposal": {
+            "variable_id": "procedural-guarantees-enforcement__positive",
+            "status": "observed",
+            "value": 2,
+            "confidence": 0.7,
+            "support_type": "positive_manifestation",
+            "rationale": "Рвигара связывала недопуск к выборам с нарушением права на участие и требовала равных возможностей для выражения взглядов и политической деятельности (факты 12, 14, 15, 21, 27). Это ясное ограниченное проявление требования процедурных гарантий.",
+            "evidence_indices": [
+              12,
+              14,
+              15,
+              21,
+              27
+            ]
+          }
+        },
+        "evidence_file": "evidence/independent-dossier-diane-rwigara.json",
+        "evidence_basis": "db200836d755467e1c3e8bec67d8cfa87c0ba7340b00a7789a39516d6eefa3c8"
+      },
+      "negative": {
+        "status": "unknown",
+        "value": null,
+        "confidence": 0,
+        "evidence_indices": [],
+        "source_urls": [],
+        "event_ids": [],
+        "rationale": "Нет фактов, где Рвигара бы поддерживала усиление принудительного исполнения обязательных требований или санкций.",
+        "support_type": "unknown",
+        "provenance": {
+          "raw_response_file": "evidence/independent_responses/021f244f217b551a7d7b78911c5878451ffacbc7f6f187e2508cb6932d904d4b.json",
+          "model": "gpt-4.1",
+          "at": "2026-10-15T17:32:02.980876+00:00",
+          "cache_key": "021f244f217b551a7d7b78911c5878451ffacbc7f6f187e2508cb6932d904d4b",
+          "original_proposal": {
+            "variable_id": "procedural-guarantees-enforcement__negative",
+            "status": "unknown",
+            "value": null,
+            "confidence": 0,
+            "support_type": "unknown",
+            "rationale": "Нет фактов, где Рвигара бы поддерживала усиление принудительного исполнения обязательных требований или санкций.",
+            "evidence_indices": []
+          }
+        },
+        "evidence_file": "evidence/independent-dossier-diane-rwigara.json",
+        "evidence_basis": "db200836d755467e1c3e8bec67d8cfa87c0ba7340b00a7789a39516d6eefa3c8"
+      }
+    },
+    "positive": 2,
+    "negative": null,
+    "value": null,
+    "status": "partial",
+    "difference": null,
+    "mass": null,
+    "measurement_model": "independent_poles",
+    "evidence_file": "evidence/independent-dossier-diane-rwigara.json",
+    "evidence_basis": "db200836d755467e1c3e8bec67d8cfa87c0ba7340b00a7789a39516d6eefa3c8",
+    "at": "2026-10-15T17:32:02.988874+00:00",
+    "reason": "Каждое свойство оценивается независимо; разность и искусственное дополнение до пяти не вычисляются"
+  },
+  {
+    "object_id": "diane-rwigara",
+    "scale_id": "prevention-crisis-response",
+    "pole_scores": {
+      "positive": {
+        "status": "unknown",
+        "value": null,
+        "confidence": 0,
+        "evidence_indices": [],
+        "source_urls": [],
+        "event_ids": [],
+        "rationale": "В материалах отсутствуют прямые предложения или действия по упреждающему снижению рисков или подготовке к кризисам.",
+        "support_type": "unknown",
+        "provenance": {
+          "raw_response_file": "evidence/independent_responses/021f244f217b551a7d7b78911c5878451ffacbc7f6f187e2508cb6932d904d4b.json",
+          "model": "gpt-4.1",
+          "at": "2026-10-15T17:32:02.980876+00:00",
+          "cache_key": "021f244f217b551a7d7b78911c5878451ffacbc7f6f187e2508cb6932d904d4b",
+          "original_proposal": {
+            "variable_id": "prevention-crisis-response__positive",
+            "status": "unknown",
+            "value": null,
+            "confidence": 0,
+            "support_type": "unknown",
+            "rationale": "В материалах отсутствуют прямые предложения или действия по упреждающему снижению рисков или подготовке к кризисам.",
+            "evidence_indices": []
+          }
+        },
+        "evidence_file": "evidence/independent-dossier-diane-rwigara.json",
+        "evidence_basis": "db200836d755467e1c3e8bec67d8cfa87c0ba7340b00a7789a39516d6eefa3c8"
+      },
+      "negative": {
+        "status": "unknown",
+        "value": null,
+        "confidence": 0,
+        "evidence_indices": [],
+        "source_urls": [],
+        "event_ids": [],
+        "rationale": "Нет данных о действиях или заявлениях Рвигары, связанных с оперативным реагированием на уже возникшие угрозы.",
+        "support_type": "unknown",
+        "provenance": {
+          "raw_response_file": "evidence/independent_responses/021f244f217b551a7d7b78911c5878451ffacbc7f6f187e2508cb6932d904d4b.json",
+          "model": "gpt-4.1",
+          "at": "2026-10-15T17:32:02.980876+00:00",
+          "cache_key": "021f244f217b551a7d7b78911c5878451ffacbc7f6f187e2508cb6932d904d4b",
+          "original_proposal": {
+            "variable_id": "prevention-crisis-response__negative",
+            "status": "unknown",
+            "value": null,
+            "confidence": 0,
+            "support_type": "unknown",
+            "rationale": "Нет данных о действиях или заявлениях Рвигары, связанных с оперативным реагированием на уже возникшие угрозы.",
+            "evidence_indices": []
+          }
+        },
+        "evidence_file": "evidence/independent-dossier-diane-rwigara.json",
+        "evidence_basis": "db200836d755467e1c3e8bec67d8cfa87c0ba7340b00a7789a39516d6eefa3c8"
+      }
+    },
+    "positive": null,
+    "negative": null,
+    "value": null,
+    "status": "unknown",
+    "difference": null,
+    "mass": null,
+    "measurement_model": "independent_poles",
+    "evidence_file": "evidence/independent-dossier-diane-rwigara.json",
+    "evidence_basis": "db200836d755467e1c3e8bec67d8cfa87c0ba7340b00a7789a39516d6eefa3c8",
+    "at": "2026-10-15T17:32:02.988874+00:00",
+    "reason": "Каждое свойство оценивается независимо; разность и искусственное дополнение до пяти не вычисляются"
+  },
+  {
+    "object_id": "diane-rwigara",
+    "scale_id": "electoral-access",
+    "pole_scores": {
+      "positive": {
+        "status": "observed",
+        "value": 3,
+        "confidence": 0.85,
+        "evidence_indices": [
+          4,
+          12,
+          14,
+          15,
+          16,
+          21,
+          27
+        ],
+        "source_urls": [
+          "https://x.com/ShimaRwigara",
+          "https://www.bbc.com/gahuza/articles/cp66x9zxrw4o"
+        ],
+        "event_ids": [
+          "rwigara-2024-rejection-response",
+          "rwigara-2024-electoral-participation",
+          "rwigara-2024-06-19-politics-continue",
+          "rwigara-2024-06-19-equal-opportunity",
+          "rwigara-2024-06-19-kagame-appeal",
+          "rwigara-2024-06-19-rights-framing",
+          "rwigara-2024-x-political-rights"
+        ],
+        "rationale": "Рвигара неоднократно требовала допуска к выборам, публично оспаривала недопуск и связывала это с правом на политическую конкуренцию (факты 4, 12, 14, 15, 16, 21, 27). Это несколько последовательных эпизодов и устойчивый публичный акцент.",
+        "support_type": "positive_manifestation",
+        "provenance": {
+          "raw_response_file": "evidence/independent_responses/021f244f217b551a7d7b78911c5878451ffacbc7f6f187e2508cb6932d904d4b.json",
+          "model": "gpt-4.1",
+          "at": "2026-10-15T17:32:02.980876+00:00",
+          "cache_key": "021f244f217b551a7d7b78911c5878451ffacbc7f6f187e2508cb6932d904d4b",
+          "original_proposal": {
+            "variable_id": "electoral-access__positive",
+            "status": "observed",
+            "value": 3,
+            "confidence": 0.85,
+            "support_type": "positive_manifestation",
+            "rationale": "Рвигара неоднократно требовала допуска к выборам, публично оспаривала недопуск и связывала это с правом на политическую конкуренцию (факты 4, 12, 14, 15, 16, 21, 27). Это несколько последовательных эпизодов и устойчивый публичный акцент.",
+            "evidence_indices": [
+              4,
+              12,
+              14,
+              15,
+              16,
+              21,
+              27
+            ]
+          }
+        },
+        "evidence_file": "evidence/independent-dossier-diane-rwigara.json",
+        "evidence_basis": "db200836d755467e1c3e8bec67d8cfa87c0ba7340b00a7789a39516d6eefa3c8"
+      },
+      "negative": {
+        "status": "unknown",
+        "value": null,
+        "confidence": 0,
+        "evidence_indices": [],
+        "source_urls": [],
+        "event_ids": [],
+        "rationale": "Нет фактов, где Рвигара бы предлагала или поддерживала усиление барьеров для участия других.",
+        "support_type": "unknown",
+        "provenance": {
+          "raw_response_file": "evidence/independent_responses/021f244f217b551a7d7b78911c5878451ffacbc7f6f187e2508cb6932d904d4b.json",
+          "model": "gpt-4.1",
+          "at": "2026-10-15T17:32:02.980876+00:00",
+          "cache_key": "021f244f217b551a7d7b78911c5878451ffacbc7f6f187e2508cb6932d904d4b",
+          "original_proposal": {
+            "variable_id": "electoral-access__negative",
+            "status": "unknown",
+            "value": null,
+            "confidence": 0,
+            "support_type": "unknown",
+            "rationale": "Нет фактов, где Рвигара бы предлагала или поддерживала усиление барьеров для участия других.",
+            "evidence_indices": []
+          }
+        },
+        "evidence_file": "evidence/independent-dossier-diane-rwigara.json",
+        "evidence_basis": "db200836d755467e1c3e8bec67d8cfa87c0ba7340b00a7789a39516d6eefa3c8"
+      }
+    },
+    "positive": 3,
+    "negative": null,
+    "value": null,
+    "status": "partial",
+    "difference": null,
+    "mass": null,
+    "measurement_model": "independent_poles",
+    "evidence_file": "evidence/independent-dossier-diane-rwigara.json",
+    "evidence_basis": "db200836d755467e1c3e8bec67d8cfa87c0ba7340b00a7789a39516d6eefa3c8",
+    "at": "2026-10-15T17:32:02.988874+00:00",
+    "reason": "Каждое свойство оценивается независимо; разность и искусственное дополнение до пяти не вычисляются"
+  },
+  {
+    "object_id": "diane-rwigara",
+    "scale_id": "institutional-autonomy-coordination",
+    "pole_scores": {
+      "positive": {
+        "status": "unknown",
+        "value": null,
+        "confidence": 0,
+        "evidence_indices": [],
+        "source_urls": [],
+        "event_ids": [],
+        "rationale": "В материалах отсутствуют прямые высказывания или действия Рвигары о гарантиях самостоятельности и контроля между институтами.",
+        "support_type": "unknown",
+        "provenance": {
+          "raw_response_file": "evidence/independent_responses/021f244f217b551a7d7b78911c5878451ffacbc7f6f187e2508cb6932d904d4b.json",
+          "model": "gpt-4.1",
+          "at": "2026-10-15T17:32:02.980876+00:00",
+          "cache_key": "021f244f217b551a7d7b78911c5878451ffacbc7f6f187e2508cb6932d904d4b",
+          "original_proposal": {
+            "variable_id": "institutional-autonomy-coordination__positive",
+            "status": "unknown",
+            "value": null,
+            "confidence": 0,
+            "support_type": "unknown",
+            "rationale": "В материалах отсутствуют прямые высказывания или действия Рвигары о гарантиях самостоятельности и контроля между институтами.",
+            "evidence_indices": []
+          }
+        },
+        "evidence_file": "evidence/independent-dossier-diane-rwigara.json",
+        "evidence_basis": "db200836d755467e1c3e8bec67d8cfa87c0ba7340b00a7789a39516d6eefa3c8"
+      },
+      "negative": {
+        "status": "unknown",
+        "value": null,
+        "confidence": 0,
+        "evidence_indices": [],
+        "source_urls": [],
+        "event_ids": [],
+        "rationale": "Нет данных о поддержке Рвигарой согласования работы институтов единой управленческой линией.",
+        "support_type": "unknown",
+        "provenance": {
+          "raw_response_file": "evidence/independent_responses/021f244f217b551a7d7b78911c5878451ffacbc7f6f187e2508cb6932d904d4b.json",
+          "model": "gpt-4.1",
+          "at": "2026-10-15T17:32:02.980876+00:00",
+          "cache_key": "021f244f217b551a7d7b78911c5878451ffacbc7f6f187e2508cb6932d904d4b",
+          "original_proposal": {
+            "variable_id": "institutional-autonomy-coordination__negative",
+            "status": "unknown",
+            "value": null,
+            "confidence": 0,
+            "support_type": "unknown",
+            "rationale": "Нет данных о поддержке Рвигарой согласования работы институтов единой управленческой линией.",
+            "evidence_indices": []
+          }
+        },
+        "evidence_file": "evidence/independent-dossier-diane-rwigara.json",
+        "evidence_basis": "db200836d755467e1c3e8bec67d8cfa87c0ba7340b00a7789a39516d6eefa3c8"
+      }
+    },
+    "positive": null,
+    "negative": null,
+    "value": null,
+    "status": "unknown",
+    "difference": null,
+    "mass": null,
+    "measurement_model": "independent_poles",
+    "evidence_file": "evidence/independent-dossier-diane-rwigara.json",
+    "evidence_basis": "db200836d755467e1c3e8bec67d8cfa87c0ba7340b00a7789a39516d6eefa3c8",
+    "at": "2026-10-15T17:32:02.988874+00:00",
+    "reason": "Каждое свойство оценивается независимо; разность и искусственное дополнение до пяти не вычисляются"
+  },
+  {
+    "object_id": "diane-rwigara",
+    "scale_id": "taxation-burden-public-revenue",
+    "pole_scores": {
+      "positive": {
+        "status": "unknown",
+        "value": null,
+        "confidence": 0,
+        "evidence_indices": [],
+        "source_urls": [],
+        "event_ids": [],
+        "rationale": "Нет сведений о предложениях Рвигары по снижению налоговой нагрузки или расширению имущественной самостоятельности.",
+        "support_type": "unknown",
+        "provenance": {
+          "raw_response_file": "evidence/independent_responses/021f244f217b551a7d7b78911c5878451ffacbc7f6f187e2508cb6932d904d4b.json",
+          "model": "gpt-4.1",
+          "at": "2026-10-15T17:32:02.980876+00:00",
+          "cache_key": "021f244f217b551a7d7b78911c5878451ffacbc7f6f187e2508cb6932d904d4b",
+          "original_proposal": {
+            "variable_id": "taxation-burden-public-revenue__positive",
+            "status": "unknown",
+            "value": null,
+            "confidence": 0,
+            "support_type": "unknown",
+            "rationale": "Нет сведений о предложениях Рвигары по снижению налоговой нагрузки или расширению имущественной самостоятельности.",
+            "evidence_indices": []
+          }
+        },
+        "evidence_file": "evidence/independent-dossier-diane-rwigara.json",
+        "evidence_basis": "db200836d755467e1c3e8bec67d8cfa87c0ba7340b00a7789a39516d6eefa3c8"
+      },
+      "negative": {
+        "status": "unknown",
+        "value": null,
+        "confidence": 0,
+        "evidence_indices": [],
+        "source_urls": [],
+        "event_ids": [],
+        "rationale": "Нет фактов о поддержке Рвигарой увеличения налоговых поступлений для публичного развития.",
+        "support_type": "unknown",
+        "provenance": {
+          "raw_response_file": "evidence/independent_responses/021f244f217b551a7d7b78911c5878451ffacbc7f6f187e2508cb6932d904d4b.json",
+          "model": "gpt-4.1",
+          "at": "2026-10-15T17:32:02.980876+00:00",
+          "cache_key": "021f244f217b551a7d7b78911c5878451ffacbc7f6f187e2508cb6932d904d4b",
+          "original_proposal": {
+            "variable_id": "taxation-burden-public-revenue__negative",
+            "status": "unknown",
+            "value": null,
+            "confidence": 0,
+            "support_type": "unknown",
+            "rationale": "Нет фактов о поддержке Рвигарой увеличения налоговых поступлений для публичного развития.",
+            "evidence_indices": []
+          }
+        },
+        "evidence_file": "evidence/independent-dossier-diane-rwigara.json",
+        "evidence_basis": "db200836d755467e1c3e8bec67d8cfa87c0ba7340b00a7789a39516d6eefa3c8"
+      }
+    },
+    "positive": null,
+    "negative": null,
+    "value": null,
+    "status": "unknown",
+    "difference": null,
+    "mass": null,
+    "measurement_model": "independent_poles",
+    "evidence_file": "evidence/independent-dossier-diane-rwigara.json",
+    "evidence_basis": "db200836d755467e1c3e8bec67d8cfa87c0ba7340b00a7789a39516d6eefa3c8",
+    "at": "2026-10-15T17:32:02.988874+00:00",
+    "reason": "Каждое свойство оценивается независимо; разность и искусственное дополнение до пяти не вычисляются"
+  },
+  {
+    "object_id": "diane-rwigara",
+    "scale_id": "universal-targeted-provision",
+    "pole_scores": {
+      "positive": {
+        "status": "unknown",
+        "value": null,
+        "confidence": 0,
+        "evidence_indices": [],
+        "source_urls": [],
+        "event_ids": [],
+        "rationale": "Рвигара связывала программу с доступом к образованию, жилью и продовольствию, но источник не уточняет, универсальны ли эти меры или адресны (факты 2, 11).",
+        "support_type": "unknown",
+        "provenance": {
+          "raw_response_file": "evidence/independent_responses/021f244f217b551a7d7b78911c5878451ffacbc7f6f187e2508cb6932d904d4b.json",
+          "model": "gpt-4.1",
+          "at": "2026-10-15T17:32:02.980876+00:00",
+          "cache_key": "021f244f217b551a7d7b78911c5878451ffacbc7f6f187e2508cb6932d904d4b",
+          "original_proposal": {
+            "variable_id": "universal-targeted-provision__positive",
+            "status": "unknown",
+            "value": null,
+            "confidence": 0,
+            "support_type": "unknown",
+            "rationale": "Рвигара связывала программу с доступом к образованию, жилью и продовольствию, но источник не уточняет, универсальны ли эти меры или адресны (факты 2, 11).",
+            "evidence_indices": [
+              2,
+              11
+            ]
+          }
+        },
+        "evidence_file": "evidence/independent-dossier-diane-rwigara.json",
+        "evidence_basis": "db200836d755467e1c3e8bec67d8cfa87c0ba7340b00a7789a39516d6eefa3c8"
+      },
+      "negative": {
+        "status": "unknown",
+        "value": null,
+        "confidence": 0,
+        "evidence_indices": [],
+        "source_urls": [],
+        "event_ids": [],
+        "rationale": "Нет прямых данных о приоритете адресной помощи конкретным группам в высказываниях Рвигары.",
+        "support_type": "unknown",
+        "provenance": {
+          "raw_response_file": "evidence/independent_responses/021f244f217b551a7d7b78911c5878451ffacbc7f6f187e2508cb6932d904d4b.json",
+          "model": "gpt-4.1",
+          "at": "2026-10-15T17:32:02.980876+00:00",
+          "cache_key": "021f244f217b551a7d7b78911c5878451ffacbc7f6f187e2508cb6932d904d4b",
+          "original_proposal": {
+            "variable_id": "universal-targeted-provision__negative",
+            "status": "unknown",
+            "value": null,
+            "confidence": 0,
+            "support_type": "unknown",
+            "rationale": "Нет прямых данных о приоритете адресной помощи конкретным группам в высказываниях Рвигары.",
+            "evidence_indices": []
+          }
+        },
+        "evidence_file": "evidence/independent-dossier-diane-rwigara.json",
+        "evidence_basis": "db200836d755467e1c3e8bec67d8cfa87c0ba7340b00a7789a39516d6eefa3c8"
+      }
+    },
+    "positive": null,
+    "negative": null,
+    "value": null,
+    "status": "unknown",
+    "difference": null,
+    "mass": null,
+    "measurement_model": "independent_poles",
+    "evidence_file": "evidence/independent-dossier-diane-rwigara.json",
+    "evidence_basis": "db200836d755467e1c3e8bec67d8cfa87c0ba7340b00a7789a39516d6eefa3c8",
+    "at": "2026-10-15T17:32:02.988874+00:00",
+    "reason": "Каждое свойство оценивается независимо; разность и искусственное дополнение до пяти не вычисляются"
+  },
+  {
+    "object_id": "diane-rwigara",
+    "scale_id": "ecological-limits-resource-use",
+    "pole_scores": {
+      "positive": {
+        "status": "unknown",
+        "value": null,
+        "confidence": 0,
+        "evidence_indices": [],
+        "source_urls": [],
+        "event_ids": [],
+        "rationale": "В материалах отсутствуют заявления или действия Рвигары по усилению природоохранных ограничений.",
+        "support_type": "unknown",
+        "provenance": {
+          "raw_response_file": "evidence/independent_responses/021f244f217b551a7d7b78911c5878451ffacbc7f6f187e2508cb6932d904d4b.json",
+          "model": "gpt-4.1",
+          "at": "2026-10-15T17:32:02.980876+00:00",
+          "cache_key": "021f244f217b551a7d7b78911c5878451ffacbc7f6f187e2508cb6932d904d4b",
+          "original_proposal": {
+            "variable_id": "ecological-limits-resource-use__positive",
+            "status": "unknown",
+            "value": null,
+            "confidence": 0,
+            "support_type": "unknown",
+            "rationale": "В материалах отсутствуют заявления или действия Рвигары по усилению природоохранных ограничений.",
+            "evidence_indices": []
+          }
+        },
+        "evidence_file": "evidence/independent-dossier-diane-rwigara.json",
+        "evidence_basis": "db200836d755467e1c3e8bec67d8cfa87c0ba7340b00a7789a39516d6eefa3c8"
+      },
+      "negative": {
+        "status": "unknown",
+        "value": null,
+        "confidence": 0,
+        "evidence_indices": [],
+        "source_urls": [],
+        "event_ids": [],
+        "rationale": "Нет сведений о поддержке Рвигарой расширения хозяйственного использования природных ресурсов.",
+        "support_type": "unknown",
+        "provenance": {
+          "raw_response_file": "evidence/independent_responses/021f244f217b551a7d7b78911c5878451ffacbc7f6f187e2508cb6932d904d4b.json",
+          "model": "gpt-4.1",
+          "at": "2026-10-15T17:32:02.980876+00:00",
+          "cache_key": "021f244f217b551a7d7b78911c5878451ffacbc7f6f187e2508cb6932d904d4b",
+          "original_proposal": {
+            "variable_id": "ecological-limits-resource-use__negative",
+            "status": "unknown",
+            "value": null,
+            "confidence": 0,
+            "support_type": "unknown",
+            "rationale": "Нет сведений о поддержке Рвигарой расширения хозяйственного использования природных ресурсов.",
+            "evidence_indices": []
+          }
+        },
+        "evidence_file": "evidence/independent-dossier-diane-rwigara.json",
+        "evidence_basis": "db200836d755467e1c3e8bec67d8cfa87c0ba7340b00a7789a39516d6eefa3c8"
+      }
+    },
+    "positive": null,
+    "negative": null,
+    "value": null,
+    "status": "unknown",
+    "difference": null,
+    "mass": null,
+    "measurement_model": "independent_poles",
+    "evidence_file": "evidence/independent-dossier-diane-rwigara.json",
+    "evidence_basis": "db200836d755467e1c3e8bec67d8cfa87c0ba7340b00a7789a39516d6eefa3c8",
+    "at": "2026-10-15T17:32:02.988874+00:00",
+    "reason": "Каждое свойство оценивается независимо; разность и искусственное дополнение до пяти не вычисляются"
+  },
+  {
+    "object_id": "diane-rwigara",
+    "scale_id": "russia-diplomatic-engagement",
+    "pole_scores": {
+      "positive": {
+        "status": "unknown",
+        "value": null,
+        "confidence": 0,
+        "evidence_indices": [],
+        "source_urls": [],
+        "event_ids": [],
+        "rationale": "Нет допустимых датированных персональных свидетельств по этому свойству",
+        "support_type": "unknown"
+      },
+      "negative": {
+        "status": "unknown",
+        "value": null,
+        "confidence": 0,
+        "evidence_indices": [],
+        "source_urls": [],
+        "event_ids": [],
+        "rationale": "Нет допустимых датированных персональных свидетельств по этому свойству",
+        "support_type": "unknown"
+      }
+    },
+    "positive": null,
+    "negative": null,
+    "value": null,
+    "status": "unknown",
+    "difference": null,
+    "mass": null,
+    "measurement_model": "independent_poles",
+    "evidence_file": "evidence/independent-dossier-diane-rwigara.json",
+    "evidence_basis": "db200836d755467e1c3e8bec67d8cfa87c0ba7340b00a7789a39516d6eefa3c8",
+    "at": "2026-10-15T17:32:02.988874+00:00",
+    "reason": "Каждое свойство оценивается независимо; разность и искусственное дополнение до пяти не вычисляются"
+  },
+  {
+    "object_id": "diane-rwigara",
+    "scale_id": "russia-security-cooperation",
+    "pole_scores": {
+      "positive": {
+        "status": "unknown",
+        "value": null,
+        "confidence": 0,
+        "evidence_indices": [],
+        "source_urls": [],
+        "event_ids": [],
+        "rationale": "Нет допустимых датированных персональных свидетельств по этому свойству",
+        "support_type": "unknown"
+      },
+      "negative": {
+        "status": "unknown",
+        "value": null,
+        "confidence": 0,
+        "evidence_indices": [],
+        "source_urls": [],
+        "event_ids": [],
+        "rationale": "Нет допустимых датированных персональных свидетельств по этому свойству",
+        "support_type": "unknown"
+      }
+    },
+    "positive": null,
+    "negative": null,
+    "value": null,
+    "status": "unknown",
+    "difference": null,
+    "mass": null,
+    "measurement_model": "independent_poles",
+    "evidence_file": "evidence/independent-dossier-diane-rwigara.json",
+    "evidence_basis": "db200836d755467e1c3e8bec67d8cfa87c0ba7340b00a7789a39516d6eefa3c8",
+    "at": "2026-10-15T17:32:02.988874+00:00",
+    "reason": "Каждое свойство оценивается независимо; разность и искусственное дополнение до пяти не вычисляются"
+  },
+  {
+    "object_id": "diane-rwigara",
+    "scale_id": "russia-economic-technology-cooperation",
+    "pole_scores": {
+      "positive": {
+        "status": "unknown",
+        "value": null,
+        "confidence": 0,
+        "evidence_indices": [],
+        "source_urls": [],
+        "event_ids": [],
+        "rationale": "Нет допустимых датированных персональных свидетельств по этому свойству",
+        "support_type": "unknown"
+      },
+      "negative": {
+        "status": "unknown",
+        "value": null,
+        "confidence": 0,
+        "evidence_indices": [],
+        "source_urls": [],
+        "event_ids": [],
+        "rationale": "Нет допустимых датированных персональных свидетельств по этому свойству",
+        "support_type": "unknown"
+      }
+    },
+    "positive": null,
+    "negative": null,
+    "value": null,
+    "status": "unknown",
+    "difference": null,
+    "mass": null,
+    "measurement_model": "independent_poles",
+    "evidence_file": "evidence/independent-dossier-diane-rwigara.json",
+    "evidence_basis": "db200836d755467e1c3e8bec67d8cfa87c0ba7340b00a7789a39516d6eefa3c8",
+    "at": "2026-10-15T17:32:02.988874+00:00",
+    "reason": "Каждое свойство оценивается независимо; разность и искусственное дополнение до пяти не вычисляются"
+  },
+  {
+    "object_id": "diane-rwigara",
+    "scale_id": "russia-education-cultural-cooperation",
+    "pole_scores": {
+      "positive": {
+        "status": "unknown",
+        "value": null,
+        "confidence": 0,
+        "evidence_indices": [],
+        "source_urls": [],
+        "event_ids": [],
+        "rationale": "Нет допустимых датированных персональных свидетельств по этому свойству",
+        "support_type": "unknown"
+      },
+      "negative": {
+        "status": "unknown",
+        "value": null,
+        "confidence": 0,
+        "evidence_indices": [],
+        "source_urls": [],
+        "event_ids": [],
+        "rationale": "Нет допустимых датированных персональных свидетельств по этому свойству",
+        "support_type": "unknown"
+      }
+    },
+    "positive": null,
+    "negative": null,
+    "value": null,
+    "status": "unknown",
+    "difference": null,
+    "mass": null,
+    "measurement_model": "independent_poles",
+    "evidence_file": "evidence/independent-dossier-diane-rwigara.json",
+    "evidence_basis": "db200836d755467e1c3e8bec67d8cfa87c0ba7340b00a7789a39516d6eefa3c8",
+    "at": "2026-10-15T17:32:02.988874+00:00",
+    "reason": "Каждое свойство оценивается независимо; разность и искусственное дополнение до пяти не вычисляются"
+  },
+  {
+    "object_id": "diane-rwigara",
+    "scale_id": "russia-conflict-policy-evaluation",
+    "pole_scores": {
+      "positive": {
+        "status": "unknown",
+        "value": null,
+        "confidence": 0,
+        "evidence_indices": [],
+        "source_urls": [],
+        "event_ids": [],
+        "rationale": "Нет допустимых датированных персональных свидетельств по этому свойству",
+        "support_type": "unknown"
+      },
+      "negative": {
+        "status": "unknown",
+        "value": null,
+        "confidence": 0,
+        "evidence_indices": [],
+        "source_urls": [],
+        "event_ids": [],
+        "rationale": "Нет допустимых датированных персональных свидетельств по этому свойству",
+        "support_type": "unknown"
+      }
+    },
+    "positive": null,
+    "negative": null,
+    "value": null,
+    "status": "unknown",
+    "difference": null,
+    "mass": null,
+    "measurement_model": "independent_poles",
+    "evidence_file": "evidence/independent-dossier-diane-rwigara.json",
+    "evidence_basis": "db200836d755467e1c3e8bec67d8cfa87c0ba7340b00a7789a39516d6eefa3c8",
+    "at": "2026-10-15T17:32:02.988874+00:00",
+    "reason": "Каждое свойство оценивается независимо; разность и искусственное дополнение до пяти не вычисляются"
+  },
+  {
+    "object_id": "diane-rwigara",
+    "scale_id": "russia-isolation-sanctions",
+    "pole_scores": {
+      "positive": {
+        "status": "unknown",
+        "value": null,
+        "confidence": 0,
+        "evidence_indices": [],
+        "source_urls": [],
+        "event_ids": [],
+        "rationale": "Нет допустимых датированных персональных свидетельств по этому свойству",
+        "support_type": "unknown"
+      },
+      "negative": {
+        "status": "unknown",
+        "value": null,
+        "confidence": 0,
+        "evidence_indices": [],
+        "source_urls": [],
+        "event_ids": [],
+        "rationale": "Нет допустимых датированных персональных свидетельств по этому свойству",
+        "support_type": "unknown"
+      }
+    },
+    "positive": null,
+    "negative": null,
+    "value": null,
+    "status": "unknown",
+    "difference": null,
+    "mass": null,
+    "measurement_model": "independent_poles",
+    "evidence_file": "evidence/independent-dossier-diane-rwigara.json",
+    "evidence_basis": "db200836d755467e1c3e8bec67d8cfa87c0ba7340b00a7789a39516d6eefa3c8",
+    "at": "2026-10-15T17:32:02.988874+00:00",
+    "reason": "Каждое свойство оценивается независимо; разность и искусственное дополнение до пяти не вычисляются"
+  }
+]

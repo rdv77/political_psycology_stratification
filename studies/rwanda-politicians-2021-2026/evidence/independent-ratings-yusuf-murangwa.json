@@ -1,0 +1,1849 @@
+[
+  {
+    "object_id": "yusuf-murangwa",
+    "scale_id": "programmatic-renewal",
+    "pole_scores": {
+      "positive": {
+        "status": "observed",
+        "value": 2,
+        "confidence": 0.8,
+        "evidence_indices": [
+          0,
+          1,
+          12,
+          15
+        ],
+        "source_urls": [
+          "https://www.minecofin.gov.rw/news-detail/government-spending-to-increase-by-frw-1263-billion-in-the-2024-25-revised-budget",
+          "https://www.cabri-sbo.org/uploads/bia/Rwanda_2024_Approval_External_EnactedBudget_MinistryOfFinance_EACECCASCOMESA_English_da3647.pdf",
+          "https://allafrica.com/stories/202602130220.html",
+          "https://www.minecofin.gov.rw/news-detail/revised-fy-2025-26-budget-increases-investment-in-national-projects"
+        ],
+        "event_ids": [
+          "ym-2025-02-05-revised-budget",
+          "ym-2024-2025-budget",
+          "ym-2026-02-12-bnr-bill",
+          "murangwa-2026-02-12-revised-budget"
+        ],
+        "rationale": "В ряде эпизодов (например, представление пересмотренного бюджета на 2024/25, 2025/26, 2026/27 годы) акцентируется обновление макроэкономической рамки, пересмотр приоритетов, внедрение новых мер по климату, электромобилям, реформе центрального банка. Это ясные ограниченные проявления программного изменения.",
+        "support_type": "positive_manifestation",
+        "provenance": {
+          "raw_response_file": "evidence/independent_responses/fac17937f1c53c92cfb8dca09872f0641095880a32dbc065b2af0b17601ad356.json",
+          "model": "gpt-4.1",
+          "at": "2026-10-15T17:29:47.462834+00:00",
+          "cache_key": "fac17937f1c53c92cfb8dca09872f0641095880a32dbc065b2af0b17601ad356",
+          "original_proposal": {
+            "variable_id": "programmatic-renewal__positive",
+            "status": "observed",
+            "value": 2,
+            "confidence": 0.8,
+            "support_type": "positive_manifestation",
+            "rationale": "В ряде эпизодов (например, представление пересмотренного бюджета на 2024/25, 2025/26, 2026/27 годы) акцентируется обновление макроэкономической рамки, пересмотр приоритетов, внедрение новых мер по климату, электромобилям, реформе центрального банка. Это ясные ограниченные проявления программного изменения.",
+            "evidence_indices": [
+              0,
+              1,
+              12,
+              15
+            ]
+          }
+        },
+        "evidence_file": "evidence/independent-dossier-yusuf-murangwa.json",
+        "evidence_basis": "dc92701423c63ca3ed1d0d3d964c477051b45b993821636986d52555f489912e"
+      },
+      "negative": {
+        "status": "observed",
+        "value": 3,
+        "confidence": 0.85,
+        "evidence_indices": [
+          6,
+          16,
+          18,
+          19,
+          20
+        ],
+        "source_urls": [
+          "https://www.minecofin.gov.rw/news-detail/rwanda-registers-89-growth-confident-in-economic-outlook",
+          "https://www.minecofin.gov.rw/news-detail/rwandas-economy-surges-with-94-growth-in-2025",
+          "https://www.minecofin.gov.rw/news-detail/government-presents-medium-term-budget-framework-focused-on-sustainable-growth-and-development",
+          "https://www.minecofin.gov.rw/news-detail/rwanda-and-the-united-nations-reinforce-partnership-for-sustainable-development-at-annual-one-un-steering-committee-meeting-1"
+        ],
+        "event_ids": [
+          "ym-2026-10-06-growth",
+          "murangwa-2026-economic-growth-94",
+          "murangwa-2025-05-08-resilient-growth",
+          "murangwa-2025-12-18-un-partnership",
+          "murangwa-2025-12-18-development-cooperation-policy"
+        ],
+        "rationale": "В публичных заявлениях и бюджетных документах неоднократно подчёркивается продолжение действующего курса, макроэкономической стабильности, выполнение национальных стратегий (NST2, Vision 2050), устойчивый рост. Есть устойчивый публичный акцент на закреплении курса.",
+        "support_type": "positive_manifestation",
+        "provenance": {
+          "raw_response_file": "evidence/independent_responses/fac17937f1c53c92cfb8dca09872f0641095880a32dbc065b2af0b17601ad356.json",
+          "model": "gpt-4.1",
+          "at": "2026-10-15T17:29:47.462834+00:00",
+          "cache_key": "fac17937f1c53c92cfb8dca09872f0641095880a32dbc065b2af0b17601ad356",
+          "original_proposal": {
+            "variable_id": "programmatic-renewal__negative",
+            "status": "observed",
+            "value": 3,
+            "confidence": 0.85,
+            "support_type": "positive_manifestation",
+            "rationale": "В публичных заявлениях и бюджетных документах неоднократно подчёркивается продолжение действующего курса, макроэкономической стабильности, выполнение национальных стратегий (NST2, Vision 2050), устойчивый рост. Есть устойчивый публичный акцент на закреплении курса.",
+            "evidence_indices": [
+              6,
+              16,
+              18,
+              19,
+              20
+            ]
+          }
+        },
+        "evidence_file": "evidence/independent-dossier-yusuf-murangwa.json",
+        "evidence_basis": "dc92701423c63ca3ed1d0d3d964c477051b45b993821636986d52555f489912e"
+      }
+    },
+    "positive": 2,
+    "negative": 3,
+    "value": null,
+    "status": "observed",
+    "difference": null,
+    "mass": null,
+    "measurement_model": "independent_poles",
+    "evidence_file": "evidence/independent-dossier-yusuf-murangwa.json",
+    "evidence_basis": "dc92701423c63ca3ed1d0d3d964c477051b45b993821636986d52555f489912e",
+    "at": "2026-10-15T17:29:56.419989+00:00",
+    "reason": "Каждое свойство оценивается независимо; разность и искусственное дополнение до пяти не вычисляются"
+  },
+  {
+    "object_id": "yusuf-murangwa",
+    "scale_id": "government-course-assessment",
+    "pole_scores": {
+      "positive": {
+        "status": "observed",
+        "value": 3,
+        "confidence": 0.85,
+        "evidence_indices": [
+          6,
+          16,
+          18
+        ],
+        "source_urls": [
+          "https://www.minecofin.gov.rw/news-detail/rwanda-registers-89-growth-confident-in-economic-outlook",
+          "https://www.minecofin.gov.rw/news-detail/rwandas-economy-surges-with-94-growth-in-2025",
+          "https://www.minecofin.gov.rw/news-detail/government-presents-medium-term-budget-framework-focused-on-sustainable-growth-and-development"
+        ],
+        "event_ids": [
+          "ym-2026-10-06-growth",
+          "murangwa-2026-economic-growth-94",
+          "murangwa-2025-05-08-resilient-growth"
+        ],
+        "rationale": "В ряде публичных выступлений и бюджетных презентаций Мурангва связывает экономический рост с результатами проводимой политики, позитивно оценивает достижения и перспективы курса правительства.",
+        "support_type": "positive_manifestation",
+        "provenance": {
+          "raw_response_file": "evidence/independent_responses/fac17937f1c53c92cfb8dca09872f0641095880a32dbc065b2af0b17601ad356.json",
+          "model": "gpt-4.1",
+          "at": "2026-10-15T17:29:47.462834+00:00",
+          "cache_key": "fac17937f1c53c92cfb8dca09872f0641095880a32dbc065b2af0b17601ad356",
+          "original_proposal": {
+            "variable_id": "government-course-assessment__positive",
+            "status": "observed",
+            "value": 3,
+            "confidence": 0.85,
+            "support_type": "positive_manifestation",
+            "rationale": "В ряде публичных выступлений и бюджетных презентаций Мурангва связывает экономический рост с результатами проводимой политики, позитивно оценивает достижения и перспективы курса правительства.",
+            "evidence_indices": [
+              6,
+              16,
+              18
+            ]
+          }
+        },
+        "evidence_file": "evidence/independent-dossier-yusuf-murangwa.json",
+        "evidence_basis": "dc92701423c63ca3ed1d0d3d964c477051b45b993821636986d52555f489912e"
+      },
+      "negative": {
+        "status": "unknown",
+        "value": null,
+        "confidence": 0,
+        "evidence_indices": [],
+        "source_urls": [],
+        "event_ids": [],
+        "rationale": "Нет прямых эпизодов публичной критики действующего государственного курса в доступных материалах.",
+        "support_type": "unknown",
+        "provenance": {
+          "raw_response_file": "evidence/independent_responses/fac17937f1c53c92cfb8dca09872f0641095880a32dbc065b2af0b17601ad356.json",
+          "model": "gpt-4.1",
+          "at": "2026-10-15T17:29:47.462834+00:00",
+          "cache_key": "fac17937f1c53c92cfb8dca09872f0641095880a32dbc065b2af0b17601ad356",
+          "original_proposal": {
+            "variable_id": "government-course-assessment__negative",
+            "status": "unknown",
+            "value": null,
+            "confidence": 0.7,
+            "support_type": "unknown",
+            "rationale": "Нет прямых эпизодов публичной критики действующего государственного курса в доступных материалах.",
+            "evidence_indices": []
+          }
+        },
+        "evidence_file": "evidence/independent-dossier-yusuf-murangwa.json",
+        "evidence_basis": "dc92701423c63ca3ed1d0d3d964c477051b45b993821636986d52555f489912e"
+      }
+    },
+    "positive": 3,
+    "negative": null,
+    "value": null,
+    "status": "partial",
+    "difference": null,
+    "mass": null,
+    "measurement_model": "independent_poles",
+    "evidence_file": "evidence/independent-dossier-yusuf-murangwa.json",
+    "evidence_basis": "dc92701423c63ca3ed1d0d3d964c477051b45b993821636986d52555f489912e",
+    "at": "2026-10-15T17:29:56.419989+00:00",
+    "reason": "Каждое свойство оценивается независимо; разность и искусственное дополнение до пяти не вычисляются"
+  },
+  {
+    "object_id": "yusuf-murangwa",
+    "scale_id": "participation-administrative-direction",
+    "pole_scores": {
+      "positive": {
+        "status": "unknown",
+        "value": null,
+        "confidence": 0,
+        "evidence_indices": [],
+        "source_urls": [],
+        "event_ids": [],
+        "rationale": "Нет прямых свидетельств приглашения граждан к участию в подготовке решений или общественного контроля; упоминания о консультациях касаются межведомственной координации.",
+        "support_type": "unknown",
+        "provenance": {
+          "raw_response_file": "evidence/independent_responses/fac17937f1c53c92cfb8dca09872f0641095880a32dbc065b2af0b17601ad356.json",
+          "model": "gpt-4.1",
+          "at": "2026-10-15T17:29:47.462834+00:00",
+          "cache_key": "fac17937f1c53c92cfb8dca09872f0641095880a32dbc065b2af0b17601ad356",
+          "original_proposal": {
+            "variable_id": "participation-administrative-direction__positive",
+            "status": "unknown",
+            "value": null,
+            "confidence": 0.6,
+            "support_type": "unknown",
+            "rationale": "Нет прямых свидетельств приглашения граждан к участию в подготовке решений или общественного контроля; упоминания о консультациях касаются межведомственной координации.",
+            "evidence_indices": []
+          }
+        },
+        "evidence_file": "evidence/independent-dossier-yusuf-murangwa.json",
+        "evidence_basis": "dc92701423c63ca3ed1d0d3d964c477051b45b993821636986d52555f489912e"
+      },
+      "negative": {
+        "status": "observed",
+        "value": 3,
+        "confidence": 0.85,
+        "evidence_indices": [
+          9,
+          14,
+          21
+        ],
+        "source_urls": [
+          "https://www.minecofin.gov.rw/news-detail/government-presents-medium-term-budget-framework-focused-on-sustainable-growth-and-development",
+          "https://www.mod.gov.rw/docs-media/news-detail/minister-murangwa-presents-frw-7796-billion-budget-for-2026-27-prioritizing-agriculture-jobs-and-economic-stability",
+          "https://www.newtimes.co.rw/article/35553/news/economy/govt-projects-spending-rwf78-trillion-in-202627/amp"
+        ],
+        "event_ids": [
+          "ym-2025-05-08-bfp",
+          "murangwa-2026-06-11-budget-priorities",
+          "murangwa-2026-05-budget-consultations"
+        ],
+        "rationale": "В бюджетных и политических документах подчёркнуты административная координация, межведомственные консультации, управленческое планирование и контроль исполнения. Нет данных о независимом общественном контроле.",
+        "support_type": "positive_manifestation",
+        "provenance": {
+          "raw_response_file": "evidence/independent_responses/fac17937f1c53c92cfb8dca09872f0641095880a32dbc065b2af0b17601ad356.json",
+          "model": "gpt-4.1",
+          "at": "2026-10-15T17:29:47.462834+00:00",
+          "cache_key": "fac17937f1c53c92cfb8dca09872f0641095880a32dbc065b2af0b17601ad356",
+          "original_proposal": {
+            "variable_id": "participation-administrative-direction__negative",
+            "status": "observed",
+            "value": 3,
+            "confidence": 0.85,
+            "support_type": "positive_manifestation",
+            "rationale": "В бюджетных и политических документах подчёркнуты административная координация, межведомственные консультации, управленческое планирование и контроль исполнения. Нет данных о независимом общественном контроле.",
+            "evidence_indices": [
+              9,
+              14,
+              21
+            ]
+          }
+        },
+        "evidence_file": "evidence/independent-dossier-yusuf-murangwa.json",
+        "evidence_basis": "dc92701423c63ca3ed1d0d3d964c477051b45b993821636986d52555f489912e"
+      }
+    },
+    "positive": null,
+    "negative": 3,
+    "value": null,
+    "status": "partial",
+    "difference": null,
+    "mass": null,
+    "measurement_model": "independent_poles",
+    "evidence_file": "evidence/independent-dossier-yusuf-murangwa.json",
+    "evidence_basis": "dc92701423c63ca3ed1d0d3d964c477051b45b993821636986d52555f489912e",
+    "at": "2026-10-15T17:29:56.419989+00:00",
+    "reason": "Каждое свойство оценивается независимо; разность и искусственное дополнение до пяти не вычисляются"
+  },
+  {
+    "object_id": "yusuf-murangwa",
+    "scale_id": "argumentation-evidence-values",
+    "pole_scores": {
+      "positive": {
+        "status": "observed",
+        "value": 3,
+        "confidence": 0.85,
+        "evidence_indices": [
+          3,
+          6,
+          16,
+          17
+        ],
+        "source_urls": [
+          "https://www.imfconnect.org/content/imf/en/annual-meetings/calendar/open/2024/10/23/189694.html",
+          "https://www.minecofin.gov.rw/news-detail/rwanda-registers-89-growth-confident-in-economic-outlook",
+          "https://www.minecofin.gov.rw/news-detail/rwandas-economy-surges-with-94-growth-in-2025",
+          "https://www.minecofin.gov.rw/news-detail/government-presents-medium-term-budget-framework-focused-on-sustainable-growth-and-development"
+        ],
+        "event_ids": [
+          "ym-2024-10-23-big-data",
+          "ym-2026-10-06-growth",
+          "murangwa-2026-economic-growth-94",
+          "murangwa-2025-05-08-medium-term-framework"
+        ],
+        "rationale": "В публичных выступлениях и профиле Мурангвы акцентируется использование статистики, данных, макроэкономических показателей для обоснования решений. Примеры — ссылки на рост ВВП, развитие статистической системы, участие в мероприятиях по большим данным.",
+        "support_type": "positive_manifestation",
+        "provenance": {
+          "raw_response_file": "evidence/independent_responses/fac17937f1c53c92cfb8dca09872f0641095880a32dbc065b2af0b17601ad356.json",
+          "model": "gpt-4.1",
+          "at": "2026-10-15T17:29:47.462834+00:00",
+          "cache_key": "fac17937f1c53c92cfb8dca09872f0641095880a32dbc065b2af0b17601ad356",
+          "original_proposal": {
+            "variable_id": "argumentation-evidence-values__positive",
+            "status": "observed",
+            "value": 3,
+            "confidence": 0.85,
+            "support_type": "positive_manifestation",
+            "rationale": "В публичных выступлениях и профиле Мурангвы акцентируется использование статистики, данных, макроэкономических показателей для обоснования решений. Примеры — ссылки на рост ВВП, развитие статистической системы, участие в мероприятиях по большим данным.",
+            "evidence_indices": [
+              3,
+              6,
+              16,
+              17
+            ]
+          }
+        },
+        "evidence_file": "evidence/independent-dossier-yusuf-murangwa.json",
+        "evidence_basis": "dc92701423c63ca3ed1d0d3d964c477051b45b993821636986d52555f489912e"
+      },
+      "negative": {
+        "status": "unknown",
+        "value": null,
+        "confidence": 0,
+        "evidence_indices": [],
+        "source_urls": [],
+        "event_ids": [],
+        "rationale": "Нет прямых эпизодов, где обоснование строится на ценностях, памяти или коллективных символах.",
+        "support_type": "unknown",
+        "provenance": {
+          "raw_response_file": "evidence/independent_responses/fac17937f1c53c92cfb8dca09872f0641095880a32dbc065b2af0b17601ad356.json",
+          "model": "gpt-4.1",
+          "at": "2026-10-15T17:29:47.462834+00:00",
+          "cache_key": "fac17937f1c53c92cfb8dca09872f0641095880a32dbc065b2af0b17601ad356",
+          "original_proposal": {
+            "variable_id": "argumentation-evidence-values__negative",
+            "status": "unknown",
+            "value": null,
+            "confidence": 0.7,
+            "support_type": "unknown",
+            "rationale": "Нет прямых эпизодов, где обоснование строится на ценностях, памяти или коллективных символах.",
+            "evidence_indices": []
+          }
+        },
+        "evidence_file": "evidence/independent-dossier-yusuf-murangwa.json",
+        "evidence_basis": "dc92701423c63ca3ed1d0d3d964c477051b45b993821636986d52555f489912e"
+      }
+    },
+    "positive": 3,
+    "negative": null,
+    "value": null,
+    "status": "partial",
+    "difference": null,
+    "mass": null,
+    "measurement_model": "independent_poles",
+    "evidence_file": "evidence/independent-dossier-yusuf-murangwa.json",
+    "evidence_basis": "dc92701423c63ca3ed1d0d3d964c477051b45b993821636986d52555f489912e",
+    "at": "2026-10-15T17:29:56.419989+00:00",
+    "reason": "Каждое свойство оценивается независимо; разность и искусственное дополнение до пяти не вычисляются"
+  },
+  {
+    "object_id": "yusuf-murangwa",
+    "scale_id": "market-state-instruments",
+    "pole_scores": {
+      "positive": {
+        "status": "observed",
+        "value": 2,
+        "confidence": 0.75,
+        "evidence_indices": [
+          2,
+          1
+        ],
+        "source_urls": [
+          "https://www.minecofin.gov.rw/news-detail/government-presents-medium-term-budget-framework-focused-on-sustainable-growth-and-development",
+          "https://www.cabri-sbo.org/uploads/bia/Rwanda_2024_Approval_External_EnactedBudget_MinistryOfFinance_EACECCASCOMESA_English_da3647.pdf"
+        ],
+        "event_ids": [
+          "ym-2025-05-08-bfp",
+          "ym-2024-2025-budget"
+        ],
+        "rationale": "В ряде бюджетных документов и выступлений отмечены меры по поддержке частных инвестиций, финансовой инклюзии, цифровизации, что свидетельствует о поддержке частной инициативы, но без устойчивого акцента.",
+        "support_type": "positive_manifestation",
+        "provenance": {
+          "raw_response_file": "evidence/independent_responses/fac17937f1c53c92cfb8dca09872f0641095880a32dbc065b2af0b17601ad356.json",
+          "model": "gpt-4.1",
+          "at": "2026-10-15T17:29:47.462834+00:00",
+          "cache_key": "fac17937f1c53c92cfb8dca09872f0641095880a32dbc065b2af0b17601ad356",
+          "original_proposal": {
+            "variable_id": "market-state-instruments__positive",
+            "status": "observed",
+            "value": 2,
+            "confidence": 0.75,
+            "support_type": "positive_manifestation",
+            "rationale": "В ряде бюджетных документов и выступлений отмечены меры по поддержке частных инвестиций, финансовой инклюзии, цифровизации, что свидетельствует о поддержке частной инициативы, но без устойчивого акцента.",
+            "evidence_indices": [
+              2,
+              1
+            ]
+          }
+        },
+        "evidence_file": "evidence/independent-dossier-yusuf-murangwa.json",
+        "evidence_basis": "dc92701423c63ca3ed1d0d3d964c477051b45b993821636986d52555f489912e"
+      },
+      "negative": {
+        "status": "observed",
+        "value": 2,
+        "confidence": 0.75,
+        "evidence_indices": [
+          0,
+          13
+        ],
+        "source_urls": [
+          "https://www.minecofin.gov.rw/news-detail/government-spending-to-increase-by-frw-1263-billion-in-the-2024-25-revised-budget",
+          "https://www.minecofin.gov.rw/news-detail/government-unveils-frw-70325-billion-budget-for-fy-2025-26"
+        ],
+        "event_ids": [
+          "ym-2025-02-05-revised-budget",
+          "ym-2026-10-06-budget"
+        ],
+        "rationale": "Одновременно акцентируются меры государственного планирования, бюджетного контроля, консолидации и обязательных правил в управлении финансами.",
+        "support_type": "positive_manifestation",
+        "provenance": {
+          "raw_response_file": "evidence/independent_responses/fac17937f1c53c92cfb8dca09872f0641095880a32dbc065b2af0b17601ad356.json",
+          "model": "gpt-4.1",
+          "at": "2026-10-15T17:29:47.462834+00:00",
+          "cache_key": "fac17937f1c53c92cfb8dca09872f0641095880a32dbc065b2af0b17601ad356",
+          "original_proposal": {
+            "variable_id": "market-state-instruments__negative",
+            "status": "observed",
+            "value": 2,
+            "confidence": 0.75,
+            "support_type": "positive_manifestation",
+            "rationale": "Одновременно акцентируются меры государственного планирования, бюджетного контроля, консолидации и обязательных правил в управлении финансами.",
+            "evidence_indices": [
+              0,
+              13
+            ]
+          }
+        },
+        "evidence_file": "evidence/independent-dossier-yusuf-murangwa.json",
+        "evidence_basis": "dc92701423c63ca3ed1d0d3d964c477051b45b993821636986d52555f489912e"
+      }
+    },
+    "positive": 2,
+    "negative": 2,
+    "value": null,
+    "status": "observed",
+    "difference": null,
+    "mass": null,
+    "measurement_model": "independent_poles",
+    "evidence_file": "evidence/independent-dossier-yusuf-murangwa.json",
+    "evidence_basis": "dc92701423c63ca3ed1d0d3d964c477051b45b993821636986d52555f489912e",
+    "at": "2026-10-15T17:29:56.419989+00:00",
+    "reason": "Каждое свойство оценивается независимо; разность и искусственное дополнение до пяти не вычисляются"
+  },
+  {
+    "object_id": "yusuf-murangwa",
+    "scale_id": "accessibility-growth-priorities",
+    "pole_scores": {
+      "positive": {
+        "status": "observed",
+        "value": 3,
+        "confidence": 0.85,
+        "evidence_indices": [
+          10,
+          13,
+          17
+        ],
+        "source_urls": [
+          "https://www.mod.gov.rw/docs-media/news-detail/minister-murangwa-presents-frw-7796-billion-budget-for-2026-27-prioritizing-agriculture-jobs-and-economic-stability",
+          "https://www.minecofin.gov.rw/news-detail/government-unveils-frw-70325-billion-budget-for-fy-2025-26",
+          "https://www.minecofin.gov.rw/news-detail/government-presents-medium-term-budget-framework-focused-on-sustainable-growth-and-development"
+        ],
+        "event_ids": [
+          "ym-2026-06-11-budget",
+          "ym-2026-10-06-budget",
+          "murangwa-2025-05-08-medium-term-framework"
+        ],
+        "rationale": "В ряде бюджетных презентаций и документах подчёркнуты приоритеты расширения доступа к здравоохранению, образованию, социальной защите, питанию, защите уязвимых групп.",
+        "support_type": "positive_manifestation",
+        "provenance": {
+          "raw_response_file": "evidence/independent_responses/fac17937f1c53c92cfb8dca09872f0641095880a32dbc065b2af0b17601ad356.json",
+          "model": "gpt-4.1",
+          "at": "2026-10-15T17:29:47.462834+00:00",
+          "cache_key": "fac17937f1c53c92cfb8dca09872f0641095880a32dbc065b2af0b17601ad356",
+          "original_proposal": {
+            "variable_id": "accessibility-growth-priorities__positive",
+            "status": "observed",
+            "value": 3,
+            "confidence": 0.85,
+            "support_type": "positive_manifestation",
+            "rationale": "В ряде бюджетных презентаций и документах подчёркнуты приоритеты расширения доступа к здравоохранению, образованию, социальной защите, питанию, защите уязвимых групп.",
+            "evidence_indices": [
+              10,
+              13,
+              17
+            ]
+          }
+        },
+        "evidence_file": "evidence/independent-dossier-yusuf-murangwa.json",
+        "evidence_basis": "dc92701423c63ca3ed1d0d3d964c477051b45b993821636986d52555f489912e"
+      },
+      "negative": {
+        "status": "observed",
+        "value": 3,
+        "confidence": 0.85,
+        "evidence_indices": [
+          2,
+          10,
+          18
+        ],
+        "source_urls": [
+          "https://www.minecofin.gov.rw/news-detail/government-presents-medium-term-budget-framework-focused-on-sustainable-growth-and-development",
+          "https://www.mod.gov.rw/docs-media/news-detail/minister-murangwa-presents-frw-7796-billion-budget-for-2026-27-prioritizing-agriculture-jobs-and-economic-stability"
+        ],
+        "event_ids": [
+          "ym-2025-05-08-bfp",
+          "ym-2026-06-11-budget",
+          "murangwa-2025-05-08-resilient-growth"
+        ],
+        "rationale": "Параллельно в ряде эпизодов акцентируются рост инвестиций, экспорт, конкурентоспособность, занятость, что свидетельствует о сбалансированном приоритете роста.",
+        "support_type": "positive_manifestation",
+        "provenance": {
+          "raw_response_file": "evidence/independent_responses/fac17937f1c53c92cfb8dca09872f0641095880a32dbc065b2af0b17601ad356.json",
+          "model": "gpt-4.1",
+          "at": "2026-10-15T17:29:47.462834+00:00",
+          "cache_key": "fac17937f1c53c92cfb8dca09872f0641095880a32dbc065b2af0b17601ad356",
+          "original_proposal": {
+            "variable_id": "accessibility-growth-priorities__negative",
+            "status": "observed",
+            "value": 3,
+            "confidence": 0.85,
+            "support_type": "positive_manifestation",
+            "rationale": "Параллельно в ряде эпизодов акцентируются рост инвестиций, экспорт, конкурентоспособность, занятость, что свидетельствует о сбалансированном приоритете роста.",
+            "evidence_indices": [
+              2,
+              10,
+              18
+            ]
+          }
+        },
+        "evidence_file": "evidence/independent-dossier-yusuf-murangwa.json",
+        "evidence_basis": "dc92701423c63ca3ed1d0d3d964c477051b45b993821636986d52555f489912e"
+      }
+    },
+    "positive": 3,
+    "negative": 3,
+    "value": null,
+    "status": "observed",
+    "difference": null,
+    "mass": null,
+    "measurement_model": "independent_poles",
+    "evidence_file": "evidence/independent-dossier-yusuf-murangwa.json",
+    "evidence_basis": "dc92701423c63ca3ed1d0d3d964c477051b45b993821636986d52555f489912e",
+    "at": "2026-10-15T17:29:56.419989+00:00",
+    "reason": "Каждое свойство оценивается независимо; разность и искусственное дополнение до пяти не вычисляются"
+  },
+  {
+    "object_id": "yusuf-murangwa",
+    "scale_id": "external-domestic-resources",
+    "pole_scores": {
+      "positive": {
+        "status": "observed",
+        "value": 3,
+        "confidence": 0.85,
+        "evidence_indices": [
+          4,
+          5,
+          19,
+          20
+        ],
+        "source_urls": [
+          "https://www.minecofin.gov.rw/news-detail/un-to-mobilize-over-us-1-billion-to-finance-nst-2-under-new-5-year-cooperation-framework",
+          "https://documents1.worldbank.org/curated/en/099102224151511327/txt/P5052441d647bc0f194e51269a22382e2b.txt",
+          "https://www.minecofin.gov.rw/news-detail/rwanda-and-the-united-nations-reinforce-partnership-for-sustainable-development-at-annual-one-un-steering-committee-meeting-1"
+        ],
+        "event_ids": [
+          "ym-2024-12-16-unsdcf",
+          "ym-2024-10-22-world-bank-dpf",
+          "murangwa-2025-12-18-un-partnership",
+          "murangwa-2025-12-18-development-cooperation-policy"
+        ],
+        "rationale": "В публичных заявлениях и документах подчёркнуто привлечение внешнего финансирования (ООН, Всемирный банк), согласование международной помощи с национальными стратегиями.",
+        "support_type": "positive_manifestation",
+        "provenance": {
+          "raw_response_file": "evidence/independent_responses/fac17937f1c53c92cfb8dca09872f0641095880a32dbc065b2af0b17601ad356.json",
+          "model": "gpt-4.1",
+          "at": "2026-10-15T17:29:47.462834+00:00",
+          "cache_key": "fac17937f1c53c92cfb8dca09872f0641095880a32dbc065b2af0b17601ad356",
+          "original_proposal": {
+            "variable_id": "external-domestic-resources__positive",
+            "status": "observed",
+            "value": 3,
+            "confidence": 0.85,
+            "support_type": "positive_manifestation",
+            "rationale": "В публичных заявлениях и документах подчёркнуто привлечение внешнего финансирования (ООН, Всемирный банк), согласование международной помощи с национальными стратегиями.",
+            "evidence_indices": [
+              4,
+              5,
+              19,
+              20
+            ]
+          }
+        },
+        "evidence_file": "evidence/independent-dossier-yusuf-murangwa.json",
+        "evidence_basis": "dc92701423c63ca3ed1d0d3d964c477051b45b993821636986d52555f489912e"
+      },
+      "negative": {
+        "status": "observed",
+        "value": 2,
+        "confidence": 0.75,
+        "evidence_indices": [
+          11,
+          22
+        ],
+        "source_urls": [
+          "https://www.minecofin.gov.rw/fileadmin/user_upload/Minecofin/Publications/REPORTS/National_Budget/Budget_Speech/Budget_Speech_2026-2027/Budget__Speech__2026-2027__English_version.pdf",
+          "https://www.newtimes.co.rw/article/35553/news/economy/govt-projects-spending-rwf78-trillion-in-202627/amp"
+        ],
+        "event_ids": [
+          "ym-2026-06-11-budget",
+          "murangwa-2026-05-domestic-revenue"
+        ],
+        "rationale": "В ряде бюджетных обращений отмечена мобилизация внутренних доходов, повышение эффективности использования внутренних ресурсов, но без устойчивого доминирования этого полюса.",
+        "support_type": "positive_manifestation",
+        "provenance": {
+          "raw_response_file": "evidence/independent_responses/fac17937f1c53c92cfb8dca09872f0641095880a32dbc065b2af0b17601ad356.json",
+          "model": "gpt-4.1",
+          "at": "2026-10-15T17:29:47.462834+00:00",
+          "cache_key": "fac17937f1c53c92cfb8dca09872f0641095880a32dbc065b2af0b17601ad356",
+          "original_proposal": {
+            "variable_id": "external-domestic-resources__negative",
+            "status": "observed",
+            "value": 2,
+            "confidence": 0.75,
+            "support_type": "positive_manifestation",
+            "rationale": "В ряде бюджетных обращений отмечена мобилизация внутренних доходов, повышение эффективности использования внутренних ресурсов, но без устойчивого доминирования этого полюса.",
+            "evidence_indices": [
+              11,
+              22
+            ]
+          }
+        },
+        "evidence_file": "evidence/independent-dossier-yusuf-murangwa.json",
+        "evidence_basis": "dc92701423c63ca3ed1d0d3d964c477051b45b993821636986d52555f489912e"
+      }
+    },
+    "positive": 3,
+    "negative": 2,
+    "value": null,
+    "status": "observed",
+    "difference": null,
+    "mass": null,
+    "measurement_model": "independent_poles",
+    "evidence_file": "evidence/independent-dossier-yusuf-murangwa.json",
+    "evidence_basis": "dc92701423c63ca3ed1d0d3d964c477051b45b993821636986d52555f489912e",
+    "at": "2026-10-15T17:29:56.419989+00:00",
+    "reason": "Каждое свойство оценивается независимо; разность и искусственное дополнение до пяти не вычисляются"
+  },
+  {
+    "object_id": "yusuf-murangwa",
+    "scale_id": "international-rules-autonomy",
+    "pole_scores": {
+      "positive": {
+        "status": "observed",
+        "value": 2,
+        "confidence": 0.75,
+        "evidence_indices": [
+          4,
+          19
+        ],
+        "source_urls": [
+          "https://www.minecofin.gov.rw/news-detail/un-to-mobilize-over-us-1-billion-to-finance-nst-2-under-new-5-year-cooperation-framework",
+          "https://www.minecofin.gov.rw/news-detail/rwanda-and-the-united-nations-reinforce-partnership-for-sustainable-development-at-annual-one-un-steering-committee-meeting-1"
+        ],
+        "event_ids": [
+          "ym-2024-12-16-unsdcf",
+          "murangwa-2025-12-18-un-partnership"
+        ],
+        "rationale": "В эпизодах сотрудничества с ООН и международными организациями подчёркнуто согласование с международными стандартами и обязательствами, но без сильного повторяющегося акцента.",
+        "support_type": "positive_manifestation",
+        "provenance": {
+          "raw_response_file": "evidence/independent_responses/fac17937f1c53c92cfb8dca09872f0641095880a32dbc065b2af0b17601ad356.json",
+          "model": "gpt-4.1",
+          "at": "2026-10-15T17:29:47.462834+00:00",
+          "cache_key": "fac17937f1c53c92cfb8dca09872f0641095880a32dbc065b2af0b17601ad356",
+          "original_proposal": {
+            "variable_id": "international-rules-autonomy__positive",
+            "status": "observed",
+            "value": 2,
+            "confidence": 0.75,
+            "support_type": "positive_manifestation",
+            "rationale": "В эпизодах сотрудничества с ООН и международными организациями подчёркнуто согласование с международными стандартами и обязательствами, но без сильного повторяющегося акцента.",
+            "evidence_indices": [
+              4,
+              19
+            ]
+          }
+        },
+        "evidence_file": "evidence/independent-dossier-yusuf-murangwa.json",
+        "evidence_basis": "dc92701423c63ca3ed1d0d3d964c477051b45b993821636986d52555f489912e"
+      },
+      "negative": {
+        "status": "observed",
+        "value": 2,
+        "confidence": 0.75,
+        "evidence_indices": [
+          12,
+          4
+        ],
+        "source_urls": [
+          "https://allafrica.com/stories/202602130220.html",
+          "https://www.minecofin.gov.rw/news-detail/un-to-mobilize-over-us-1-billion-to-finance-nst-2-under-new-5-year-cooperation-framework"
+        ],
+        "event_ids": [
+          "ym-2026-02-12-bnr-bill",
+          "ym-2024-12-16-unsdcf"
+        ],
+        "rationale": "В эпизоде реформы центрального банка отмечена защита институциональной самостоятельности; также акцентируется согласование международной помощи с национальными стратегиями, что подразумевает защиту национального решения.",
+        "support_type": "positive_manifestation",
+        "provenance": {
+          "raw_response_file": "evidence/independent_responses/fac17937f1c53c92cfb8dca09872f0641095880a32dbc065b2af0b17601ad356.json",
+          "model": "gpt-4.1",
+          "at": "2026-10-15T17:29:47.462834+00:00",
+          "cache_key": "fac17937f1c53c92cfb8dca09872f0641095880a32dbc065b2af0b17601ad356",
+          "original_proposal": {
+            "variable_id": "international-rules-autonomy__negative",
+            "status": "observed",
+            "value": 2,
+            "confidence": 0.75,
+            "support_type": "positive_manifestation",
+            "rationale": "В эпизоде реформы центрального банка отмечена защита институциональной самостоятельности; также акцентируется согласование международной помощи с национальными стратегиями, что подразумевает защиту национального решения.",
+            "evidence_indices": [
+              12,
+              4
+            ]
+          }
+        },
+        "evidence_file": "evidence/independent-dossier-yusuf-murangwa.json",
+        "evidence_basis": "dc92701423c63ca3ed1d0d3d964c477051b45b993821636986d52555f489912e"
+      }
+    },
+    "positive": 2,
+    "negative": 2,
+    "value": null,
+    "status": "observed",
+    "difference": null,
+    "mass": null,
+    "measurement_model": "independent_poles",
+    "evidence_file": "evidence/independent-dossier-yusuf-murangwa.json",
+    "evidence_basis": "dc92701423c63ca3ed1d0d3d964c477051b45b993821636986d52555f489912e",
+    "at": "2026-10-15T17:29:56.419989+00:00",
+    "reason": "Каждое свойство оценивается независимо; разность и искусственное дополнение до пяти не вычисляются"
+  },
+  {
+    "object_id": "yusuf-murangwa",
+    "scale_id": "mediation-adversarial-communication",
+    "pole_scores": {
+      "positive": {
+        "status": "unknown",
+        "value": null,
+        "confidence": 0,
+        "evidence_indices": [],
+        "source_urls": [],
+        "event_ids": [],
+        "rationale": "Нет прямых эпизодов посредничества или публичного предложения согласования интересов сторон.",
+        "support_type": "unknown",
+        "provenance": {
+          "raw_response_file": "evidence/independent_responses/fac17937f1c53c92cfb8dca09872f0641095880a32dbc065b2af0b17601ad356.json",
+          "model": "gpt-4.1",
+          "at": "2026-10-15T17:29:47.462834+00:00",
+          "cache_key": "fac17937f1c53c92cfb8dca09872f0641095880a32dbc065b2af0b17601ad356",
+          "original_proposal": {
+            "variable_id": "mediation-adversarial-communication__positive",
+            "status": "unknown",
+            "value": null,
+            "confidence": 0.6,
+            "support_type": "unknown",
+            "rationale": "Нет прямых эпизодов посредничества или публичного предложения согласования интересов сторон.",
+            "evidence_indices": []
+          }
+        },
+        "evidence_file": "evidence/independent-dossier-yusuf-murangwa.json",
+        "evidence_basis": "dc92701423c63ca3ed1d0d3d964c477051b45b993821636986d52555f489912e"
+      },
+      "negative": {
+        "status": "unknown",
+        "value": null,
+        "confidence": 0,
+        "evidence_indices": [],
+        "source_urls": [],
+        "event_ids": [],
+        "rationale": "Нет прямых эпизодов публичного опровержения обвинений, спора с другой стороной или защиты собственного требования в полемической форме.",
+        "support_type": "unknown",
+        "provenance": {
+          "raw_response_file": "evidence/independent_responses/fac17937f1c53c92cfb8dca09872f0641095880a32dbc065b2af0b17601ad356.json",
+          "model": "gpt-4.1",
+          "at": "2026-10-15T17:29:47.462834+00:00",
+          "cache_key": "fac17937f1c53c92cfb8dca09872f0641095880a32dbc065b2af0b17601ad356",
+          "original_proposal": {
+            "variable_id": "mediation-adversarial-communication__negative",
+            "status": "unknown",
+            "value": null,
+            "confidence": 0.6,
+            "support_type": "unknown",
+            "rationale": "Нет прямых эпизодов публичного опровержения обвинений, спора с другой стороной или защиты собственного требования в полемической форме.",
+            "evidence_indices": []
+          }
+        },
+        "evidence_file": "evidence/independent-dossier-yusuf-murangwa.json",
+        "evidence_basis": "dc92701423c63ca3ed1d0d3d964c477051b45b993821636986d52555f489912e"
+      }
+    },
+    "positive": null,
+    "negative": null,
+    "value": null,
+    "status": "unknown",
+    "difference": null,
+    "mass": null,
+    "measurement_model": "independent_poles",
+    "evidence_file": "evidence/independent-dossier-yusuf-murangwa.json",
+    "evidence_basis": "dc92701423c63ca3ed1d0d3d964c477051b45b993821636986d52555f489912e",
+    "at": "2026-10-15T17:29:56.419989+00:00",
+    "reason": "Каждое свойство оценивается независимо; разность и искусственное дополнение до пяти не вычисляются"
+  },
+  {
+    "object_id": "yusuf-murangwa",
+    "scale_id": "cultural-openness-national-transmission",
+    "pole_scores": {
+      "positive": {
+        "status": "unknown",
+        "value": null,
+        "confidence": 0,
+        "evidence_indices": [],
+        "source_urls": [],
+        "event_ids": [],
+        "rationale": "В предоставленных фактах отсутствуют сведения о публичных действиях или заявлениях Юсуфа Мурангва, прямо направленных на расширение межкультурного обмена или культурного разнообразия.",
+        "support_type": "unknown",
+        "provenance": {
+          "raw_response_file": "evidence/independent_responses/8d60c9da7826e3b7778552a3678563722312734d8909d89fb1c3dc66bbcc011a.json",
+          "model": "gpt-4.1",
+          "at": "2026-10-15T17:29:56.416991+00:00",
+          "cache_key": "8d60c9da7826e3b7778552a3678563722312734d8909d89fb1c3dc66bbcc011a",
+          "original_proposal": {
+            "variable_id": "cultural-openness-national-transmission__positive",
+            "status": "unknown",
+            "value": null,
+            "confidence": 0,
+            "support_type": "unknown",
+            "rationale": "В предоставленных фактах отсутствуют сведения о публичных действиях или заявлениях Юсуфа Мурангва, прямо направленных на расширение межкультурного обмена или культурного разнообразия.",
+            "evidence_indices": []
+          }
+        },
+        "evidence_file": "evidence/independent-dossier-yusuf-murangwa.json",
+        "evidence_basis": "dc92701423c63ca3ed1d0d3d964c477051b45b993821636986d52555f489912e"
+      },
+      "negative": {
+        "status": "unknown",
+        "value": null,
+        "confidence": 0,
+        "evidence_indices": [],
+        "source_urls": [],
+        "event_ids": [],
+        "rationale": "Нет данных о персональных инициативах или заявлениях по сохранению и передаче национальных ценностей в культурно-гражданском контексте.",
+        "support_type": "unknown",
+        "provenance": {
+          "raw_response_file": "evidence/independent_responses/8d60c9da7826e3b7778552a3678563722312734d8909d89fb1c3dc66bbcc011a.json",
+          "model": "gpt-4.1",
+          "at": "2026-10-15T17:29:56.416991+00:00",
+          "cache_key": "8d60c9da7826e3b7778552a3678563722312734d8909d89fb1c3dc66bbcc011a",
+          "original_proposal": {
+            "variable_id": "cultural-openness-national-transmission__negative",
+            "status": "unknown",
+            "value": null,
+            "confidence": 0,
+            "support_type": "unknown",
+            "rationale": "Нет данных о персональных инициативах или заявлениях по сохранению и передаче национальных ценностей в культурно-гражданском контексте.",
+            "evidence_indices": []
+          }
+        },
+        "evidence_file": "evidence/independent-dossier-yusuf-murangwa.json",
+        "evidence_basis": "dc92701423c63ca3ed1d0d3d964c477051b45b993821636986d52555f489912e"
+      }
+    },
+    "positive": null,
+    "negative": null,
+    "value": null,
+    "status": "unknown",
+    "difference": null,
+    "mass": null,
+    "measurement_model": "independent_poles",
+    "evidence_file": "evidence/independent-dossier-yusuf-murangwa.json",
+    "evidence_basis": "dc92701423c63ca3ed1d0d3d964c477051b45b993821636986d52555f489912e",
+    "at": "2026-10-15T17:29:56.419989+00:00",
+    "reason": "Каждое свойство оценивается независимо; разность и искусственное дополнение до пяти не вычисляются"
+  },
+  {
+    "object_id": "yusuf-murangwa",
+    "scale_id": "problem-disclosure-reputation-defence",
+    "pole_scores": {
+      "positive": {
+        "status": "observed",
+        "value": 1,
+        "confidence": 0.3,
+        "evidence_indices": [
+          12
+        ],
+        "source_urls": [
+          "https://allafrica.com/stories/202602130220.html"
+        ],
+        "event_ids": [
+          "ym-2026-02-12-bnr-bill"
+        ],
+        "rationale": "В эпизоде внесения законопроекта о реформе центрального банка (evidence_index: 12) Мурангва публично признал наличие пробелов в действующем законе, что является единичным слабым проявлением раскрытия проблемы.",
+        "support_type": "positive_manifestation",
+        "provenance": {
+          "raw_response_file": "evidence/independent_responses/8d60c9da7826e3b7778552a3678563722312734d8909d89fb1c3dc66bbcc011a.json",
+          "model": "gpt-4.1",
+          "at": "2026-10-15T17:29:56.416991+00:00",
+          "cache_key": "8d60c9da7826e3b7778552a3678563722312734d8909d89fb1c3dc66bbcc011a",
+          "original_proposal": {
+            "variable_id": "problem-disclosure-reputation-defence__positive",
+            "status": "observed",
+            "value": 1,
+            "confidence": 0.3,
+            "support_type": "positive_manifestation",
+            "rationale": "В эпизоде внесения законопроекта о реформе центрального банка (evidence_index: 12) Мурангва публично признал наличие пробелов в действующем законе, что является единичным слабым проявлением раскрытия проблемы.",
+            "evidence_indices": [
+              12
+            ]
+          }
+        },
+        "evidence_file": "evidence/independent-dossier-yusuf-murangwa.json",
+        "evidence_basis": "dc92701423c63ca3ed1d0d3d964c477051b45b993821636986d52555f489912e"
+      },
+      "negative": {
+        "status": "observed",
+        "value": 2,
+        "confidence": 0.5,
+        "evidence_indices": [
+          6,
+          16,
+          17,
+          18
+        ],
+        "source_urls": [
+          "https://www.minecofin.gov.rw/news-detail/rwanda-registers-89-growth-confident-in-economic-outlook",
+          "https://www.minecofin.gov.rw/news-detail/rwandas-economy-surges-with-94-growth-in-2025",
+          "https://www.minecofin.gov.rw/news-detail/government-presents-medium-term-budget-framework-focused-on-sustainable-growth-and-development"
+        ],
+        "event_ids": [
+          "ym-2026-10-06-growth",
+          "murangwa-2026-economic-growth-94",
+          "murangwa-2025-05-08-medium-term-framework",
+          "murangwa-2025-05-08-resilient-growth"
+        ],
+        "rationale": "В ряде публичных выступлений (evidence_indices: 6, 16, 17, 18) Мурангва акцентировал успехи экономической политики, связывая рост ВВП с результатами действующего курса и устойчивостью экономики, что соответствует защитной подаче репутации страны и политики. Проявление ограничено макроэкономической сферой.",
+        "support_type": "positive_manifestation",
+        "provenance": {
+          "raw_response_file": "evidence/independent_responses/8d60c9da7826e3b7778552a3678563722312734d8909d89fb1c3dc66bbcc011a.json",
+          "model": "gpt-4.1",
+          "at": "2026-10-15T17:29:56.416991+00:00",
+          "cache_key": "8d60c9da7826e3b7778552a3678563722312734d8909d89fb1c3dc66bbcc011a",
+          "original_proposal": {
+            "variable_id": "problem-disclosure-reputation-defence__negative",
+            "status": "observed",
+            "value": 2,
+            "confidence": 0.5,
+            "support_type": "positive_manifestation",
+            "rationale": "В ряде публичных выступлений (evidence_indices: 6, 16, 17, 18) Мурангва акцентировал успехи экономической политики, связывая рост ВВП с результатами действующего курса и устойчивостью экономики, что соответствует защитной подаче репутации страны и политики. Проявление ограничено макроэкономической сферой.",
+            "evidence_indices": [
+              6,
+              16,
+              17,
+              18
+            ]
+          }
+        },
+        "evidence_file": "evidence/independent-dossier-yusuf-murangwa.json",
+        "evidence_basis": "dc92701423c63ca3ed1d0d3d964c477051b45b993821636986d52555f489912e"
+      }
+    },
+    "positive": 1,
+    "negative": 2,
+    "value": null,
+    "status": "observed",
+    "difference": null,
+    "mass": null,
+    "measurement_model": "independent_poles",
+    "evidence_file": "evidence/independent-dossier-yusuf-murangwa.json",
+    "evidence_basis": "dc92701423c63ca3ed1d0d3d964c477051b45b993821636986d52555f489912e",
+    "at": "2026-10-15T17:29:56.419989+00:00",
+    "reason": "Каждое свойство оценивается независимо; разность и искусственное дополнение до пяти не вычисляются"
+  },
+  {
+    "object_id": "yusuf-murangwa",
+    "scale_id": "procedural-guarantees-enforcement",
+    "pole_scores": {
+      "positive": {
+        "status": "observed",
+        "value": 2,
+        "confidence": 0.5,
+        "evidence_indices": [
+          12
+        ],
+        "source_urls": [
+          "https://allafrica.com/stories/202602130220.html"
+        ],
+        "event_ids": [
+          "ym-2026-02-12-bnr-bill"
+        ],
+        "rationale": "В эпизоде внесения законопроекта о реформе центрального банка (evidence_index: 12) отмечено стремление к соответствию современным стандартам управления и усилению независимости, что трактуется как ограниченное проявление расширения гарантий самостоятельности и процедур.",
+        "support_type": "positive_manifestation",
+        "provenance": {
+          "raw_response_file": "evidence/independent_responses/8d60c9da7826e3b7778552a3678563722312734d8909d89fb1c3dc66bbcc011a.json",
+          "model": "gpt-4.1",
+          "at": "2026-10-15T17:29:56.416991+00:00",
+          "cache_key": "8d60c9da7826e3b7778552a3678563722312734d8909d89fb1c3dc66bbcc011a",
+          "original_proposal": {
+            "variable_id": "procedural-guarantees-enforcement__positive",
+            "status": "observed",
+            "value": 2,
+            "confidence": 0.5,
+            "support_type": "positive_manifestation",
+            "rationale": "В эпизоде внесения законопроекта о реформе центрального банка (evidence_index: 12) отмечено стремление к соответствию современным стандартам управления и усилению независимости, что трактуется как ограниченное проявление расширения гарантий самостоятельности и процедур.",
+            "evidence_indices": [
+              12
+            ]
+          }
+        },
+        "evidence_file": "evidence/independent-dossier-yusuf-murangwa.json",
+        "evidence_basis": "dc92701423c63ca3ed1d0d3d964c477051b45b993821636986d52555f489912e"
+      },
+      "negative": {
+        "status": "unknown",
+        "value": null,
+        "confidence": 0,
+        "evidence_indices": [],
+        "source_urls": [],
+        "event_ids": [],
+        "rationale": "Нет прямых фактов о действиях Мурангва по принудительному обеспечению обязательных требований или санкционному подходу.",
+        "support_type": "unknown",
+        "provenance": {
+          "raw_response_file": "evidence/independent_responses/8d60c9da7826e3b7778552a3678563722312734d8909d89fb1c3dc66bbcc011a.json",
+          "model": "gpt-4.1",
+          "at": "2026-10-15T17:29:56.416991+00:00",
+          "cache_key": "8d60c9da7826e3b7778552a3678563722312734d8909d89fb1c3dc66bbcc011a",
+          "original_proposal": {
+            "variable_id": "procedural-guarantees-enforcement__negative",
+            "status": "unknown",
+            "value": null,
+            "confidence": 0,
+            "support_type": "unknown",
+            "rationale": "Нет прямых фактов о действиях Мурангва по принудительному обеспечению обязательных требований или санкционному подходу.",
+            "evidence_indices": []
+          }
+        },
+        "evidence_file": "evidence/independent-dossier-yusuf-murangwa.json",
+        "evidence_basis": "dc92701423c63ca3ed1d0d3d964c477051b45b993821636986d52555f489912e"
+      }
+    },
+    "positive": 2,
+    "negative": null,
+    "value": null,
+    "status": "partial",
+    "difference": null,
+    "mass": null,
+    "measurement_model": "independent_poles",
+    "evidence_file": "evidence/independent-dossier-yusuf-murangwa.json",
+    "evidence_basis": "dc92701423c63ca3ed1d0d3d964c477051b45b993821636986d52555f489912e",
+    "at": "2026-10-15T17:29:56.419989+00:00",
+    "reason": "Каждое свойство оценивается независимо; разность и искусственное дополнение до пяти не вычисляются"
+  },
+  {
+    "object_id": "yusuf-murangwa",
+    "scale_id": "prevention-crisis-response",
+    "pole_scores": {
+      "positive": {
+        "status": "observed",
+        "value": 2,
+        "confidence": 0.5,
+        "evidence_indices": [
+          11,
+          13
+        ],
+        "source_urls": [
+          "https://www.minecofin.gov.rw/fileadmin/user_upload/Minecofin/Publications/REPORTS/National_Budget/Budget_Speech/Budget_Speech_2026-2027/Budget__Speech__2026-2027__English_version.pdf",
+          "https://www.minecofin.gov.rw/news-detail/government-unveils-frw-70325-billion-budget-for-fy-2025-26"
+        ],
+        "event_ids": [
+          "ym-2026-06-11-budget",
+          "ym-2026-10-06-budget"
+        ],
+        "rationale": "В ряде бюджетных обращений (evidence_indices: 11, 13) Мурангва акцентировал необходимость сокращения дефицита, стабилизации долга, повышения устойчивости к внешним шокам и планирования мер против роста цен, что трактуется как ясное ограниченное проявление профилактического управления рисками.",
+        "support_type": "positive_manifestation",
+        "provenance": {
+          "raw_response_file": "evidence/independent_responses/8d60c9da7826e3b7778552a3678563722312734d8909d89fb1c3dc66bbcc011a.json",
+          "model": "gpt-4.1",
+          "at": "2026-10-15T17:29:56.416991+00:00",
+          "cache_key": "8d60c9da7826e3b7778552a3678563722312734d8909d89fb1c3dc66bbcc011a",
+          "original_proposal": {
+            "variable_id": "prevention-crisis-response__positive",
+            "status": "observed",
+            "value": 2,
+            "confidence": 0.5,
+            "support_type": "positive_manifestation",
+            "rationale": "В ряде бюджетных обращений (evidence_indices: 11, 13) Мурангва акцентировал необходимость сокращения дефицита, стабилизации долга, повышения устойчивости к внешним шокам и планирования мер против роста цен, что трактуется как ясное ограниченное проявление профилактического управления рисками.",
+            "evidence_indices": [
+              11,
+              13
+            ]
+          }
+        },
+        "evidence_file": "evidence/independent-dossier-yusuf-murangwa.json",
+        "evidence_basis": "dc92701423c63ca3ed1d0d3d964c477051b45b993821636986d52555f489912e"
+      },
+      "negative": {
+        "status": "unknown",
+        "value": null,
+        "confidence": 0,
+        "evidence_indices": [],
+        "source_urls": [],
+        "event_ids": [],
+        "rationale": "Нет прямых фактов о действиях Мурангва, направленных на оперативное реагирование на уже возникший кризис.",
+        "support_type": "unknown",
+        "provenance": {
+          "raw_response_file": "evidence/independent_responses/8d60c9da7826e3b7778552a3678563722312734d8909d89fb1c3dc66bbcc011a.json",
+          "model": "gpt-4.1",
+          "at": "2026-10-15T17:29:56.416991+00:00",
+          "cache_key": "8d60c9da7826e3b7778552a3678563722312734d8909d89fb1c3dc66bbcc011a",
+          "original_proposal": {
+            "variable_id": "prevention-crisis-response__negative",
+            "status": "unknown",
+            "value": null,
+            "confidence": 0,
+            "support_type": "unknown",
+            "rationale": "Нет прямых фактов о действиях Мурангва, направленных на оперативное реагирование на уже возникший кризис.",
+            "evidence_indices": []
+          }
+        },
+        "evidence_file": "evidence/independent-dossier-yusuf-murangwa.json",
+        "evidence_basis": "dc92701423c63ca3ed1d0d3d964c477051b45b993821636986d52555f489912e"
+      }
+    },
+    "positive": 2,
+    "negative": null,
+    "value": null,
+    "status": "partial",
+    "difference": null,
+    "mass": null,
+    "measurement_model": "independent_poles",
+    "evidence_file": "evidence/independent-dossier-yusuf-murangwa.json",
+    "evidence_basis": "dc92701423c63ca3ed1d0d3d964c477051b45b993821636986d52555f489912e",
+    "at": "2026-10-15T17:29:56.419989+00:00",
+    "reason": "Каждое свойство оценивается независимо; разность и искусственное дополнение до пяти не вычисляются"
+  },
+  {
+    "object_id": "yusuf-murangwa",
+    "scale_id": "electoral-access",
+    "pole_scores": {
+      "positive": {
+        "status": "unknown",
+        "value": null,
+        "confidence": 0,
+        "evidence_indices": [],
+        "source_urls": [],
+        "event_ids": [],
+        "rationale": "В материалах отсутствуют сведения о персональных инициативах Мурангва по расширению доступа к выборной конкуренции.",
+        "support_type": "unknown",
+        "provenance": {
+          "raw_response_file": "evidence/independent_responses/8d60c9da7826e3b7778552a3678563722312734d8909d89fb1c3dc66bbcc011a.json",
+          "model": "gpt-4.1",
+          "at": "2026-10-15T17:29:56.416991+00:00",
+          "cache_key": "8d60c9da7826e3b7778552a3678563722312734d8909d89fb1c3dc66bbcc011a",
+          "original_proposal": {
+            "variable_id": "electoral-access__positive",
+            "status": "unknown",
+            "value": null,
+            "confidence": 0,
+            "support_type": "unknown",
+            "rationale": "В материалах отсутствуют сведения о персональных инициативах Мурангва по расширению доступа к выборной конкуренции.",
+            "evidence_indices": []
+          }
+        },
+        "evidence_file": "evidence/independent-dossier-yusuf-murangwa.json",
+        "evidence_basis": "dc92701423c63ca3ed1d0d3d964c477051b45b993821636986d52555f489912e"
+      },
+      "negative": {
+        "status": "unknown",
+        "value": null,
+        "confidence": 0,
+        "evidence_indices": [],
+        "source_urls": [],
+        "event_ids": [],
+        "rationale": "Нет данных о действиях или предложениях Мурангва по усилению квалификационных барьеров политического участия.",
+        "support_type": "unknown",
+        "provenance": {
+          "raw_response_file": "evidence/independent_responses/8d60c9da7826e3b7778552a3678563722312734d8909d89fb1c3dc66bbcc011a.json",
+          "model": "gpt-4.1",
+          "at": "2026-10-15T17:29:56.416991+00:00",
+          "cache_key": "8d60c9da7826e3b7778552a3678563722312734d8909d89fb1c3dc66bbcc011a",
+          "original_proposal": {
+            "variable_id": "electoral-access__negative",
+            "status": "unknown",
+            "value": null,
+            "confidence": 0,
+            "support_type": "unknown",
+            "rationale": "Нет данных о действиях или предложениях Мурангва по усилению квалификационных барьеров политического участия.",
+            "evidence_indices": []
+          }
+        },
+        "evidence_file": "evidence/independent-dossier-yusuf-murangwa.json",
+        "evidence_basis": "dc92701423c63ca3ed1d0d3d964c477051b45b993821636986d52555f489912e"
+      }
+    },
+    "positive": null,
+    "negative": null,
+    "value": null,
+    "status": "unknown",
+    "difference": null,
+    "mass": null,
+    "measurement_model": "independent_poles",
+    "evidence_file": "evidence/independent-dossier-yusuf-murangwa.json",
+    "evidence_basis": "dc92701423c63ca3ed1d0d3d964c477051b45b993821636986d52555f489912e",
+    "at": "2026-10-15T17:29:56.419989+00:00",
+    "reason": "Каждое свойство оценивается независимо; разность и искусственное дополнение до пяти не вычисляются"
+  },
+  {
+    "object_id": "yusuf-murangwa",
+    "scale_id": "institutional-autonomy-coordination",
+    "pole_scores": {
+      "positive": {
+        "status": "observed",
+        "value": 2,
+        "confidence": 0.5,
+        "evidence_indices": [
+          12
+        ],
+        "source_urls": [
+          "https://allafrica.com/stories/202602130220.html"
+        ],
+        "event_ids": [
+          "ym-2026-02-12-bnr-bill"
+        ],
+        "rationale": "В эпизоде внесения законопроекта о реформе центрального банка (evidence_index: 12) отмечено, что инициатива рассматривалась как усиливающая независимость центрального банка, что является ясным ограниченным проявлением поддержки институциональной автономии.",
+        "support_type": "positive_manifestation",
+        "provenance": {
+          "raw_response_file": "evidence/independent_responses/8d60c9da7826e3b7778552a3678563722312734d8909d89fb1c3dc66bbcc011a.json",
+          "model": "gpt-4.1",
+          "at": "2026-10-15T17:29:56.416991+00:00",
+          "cache_key": "8d60c9da7826e3b7778552a3678563722312734d8909d89fb1c3dc66bbcc011a",
+          "original_proposal": {
+            "variable_id": "institutional-autonomy-coordination__positive",
+            "status": "observed",
+            "value": 2,
+            "confidence": 0.5,
+            "support_type": "positive_manifestation",
+            "rationale": "В эпизоде внесения законопроекта о реформе центрального банка (evidence_index: 12) отмечено, что инициатива рассматривалась как усиливающая независимость центрального банка, что является ясным ограниченным проявлением поддержки институциональной автономии.",
+            "evidence_indices": [
+              12
+            ]
+          }
+        },
+        "evidence_file": "evidence/independent-dossier-yusuf-murangwa.json",
+        "evidence_basis": "dc92701423c63ca3ed1d0d3d964c477051b45b993821636986d52555f489912e"
+      },
+      "negative": {
+        "status": "observed",
+        "value": 3,
+        "confidence": 0.7,
+        "evidence_indices": [
+          4,
+          9,
+          14,
+          19,
+          20,
+          21
+        ],
+        "source_urls": [
+          "https://www.minecofin.gov.rw/news-detail/un-to-mobilize-over-us-1-billion-to-finance-nst-2-under-new-5-year-cooperation-framework",
+          "https://www.minecofin.gov.rw/news-detail/government-presents-medium-term-budget-framework-focused-on-sustainable-growth-and-development",
+          "https://www.mod.gov.rw/docs-media/news-detail/minister-murangwa-presents-frw-7796-billion-budget-for-2026-27-prioritizing-agriculture-jobs-and-economic-stability",
+          "https://www.minecofin.gov.rw/news-detail/rwanda-and-the-united-nations-reinforce-partnership-for-sustainable-development-at-annual-one-un-steering-committee-meeting-1",
+          "https://www.newtimes.co.rw/article/35553/news/economy/govt-projects-spending-rwf78-trillion-in-202627/amp"
+        ],
+        "event_ids": [
+          "ym-2024-12-16-unsdcf",
+          "ym-2025-05-08-bfp",
+          "murangwa-2026-06-11-budget-priorities",
+          "murangwa-2025-12-18-un-partnership",
+          "murangwa-2025-12-18-development-cooperation-policy",
+          "murangwa-2026-05-budget-consultations"
+        ],
+        "rationale": "В ряде эпизодов (evidence_indices: 4, 9, 14, 19, 20, 21) Мурангва акцентировал согласование национальных и международных стратегий, межведомственную координацию и административное согласование, что соответствует устойчивому публичному акценту на единой управленческой линии.",
+        "support_type": "positive_manifestation",
+        "provenance": {
+          "raw_response_file": "evidence/independent_responses/8d60c9da7826e3b7778552a3678563722312734d8909d89fb1c3dc66bbcc011a.json",
+          "model": "gpt-4.1",
+          "at": "2026-10-15T17:29:56.416991+00:00",
+          "cache_key": "8d60c9da7826e3b7778552a3678563722312734d8909d89fb1c3dc66bbcc011a",
+          "original_proposal": {
+            "variable_id": "institutional-autonomy-coordination__negative",
+            "status": "observed",
+            "value": 3,
+            "confidence": 0.7,
+            "support_type": "positive_manifestation",
+            "rationale": "В ряде эпизодов (evidence_indices: 4, 9, 14, 19, 20, 21) Мурангва акцентировал согласование национальных и международных стратегий, межведомственную координацию и административное согласование, что соответствует устойчивому публичному акценту на единой управленческой линии.",
+            "evidence_indices": [
+              4,
+              9,
+              14,
+              19,
+              20,
+              21
+            ]
+          }
+        },
+        "evidence_file": "evidence/independent-dossier-yusuf-murangwa.json",
+        "evidence_basis": "dc92701423c63ca3ed1d0d3d964c477051b45b993821636986d52555f489912e"
+      }
+    },
+    "positive": 2,
+    "negative": 3,
+    "value": null,
+    "status": "observed",
+    "difference": null,
+    "mass": null,
+    "measurement_model": "independent_poles",
+    "evidence_file": "evidence/independent-dossier-yusuf-murangwa.json",
+    "evidence_basis": "dc92701423c63ca3ed1d0d3d964c477051b45b993821636986d52555f489912e",
+    "at": "2026-10-15T17:29:56.419989+00:00",
+    "reason": "Каждое свойство оценивается независимо; разность и искусственное дополнение до пяти не вычисляются"
+  },
+  {
+    "object_id": "yusuf-murangwa",
+    "scale_id": "taxation-burden-public-revenue",
+    "pole_scores": {
+      "positive": {
+        "status": "unknown",
+        "value": null,
+        "confidence": 0,
+        "evidence_indices": [],
+        "source_urls": [],
+        "event_ids": [],
+        "rationale": "Нет сведений о персональных инициативах Мурангва по снижению налоговой нагрузки или расширению имущественной самостоятельности.",
+        "support_type": "unknown",
+        "provenance": {
+          "raw_response_file": "evidence/independent_responses/8d60c9da7826e3b7778552a3678563722312734d8909d89fb1c3dc66bbcc011a.json",
+          "model": "gpt-4.1",
+          "at": "2026-10-15T17:29:56.416991+00:00",
+          "cache_key": "8d60c9da7826e3b7778552a3678563722312734d8909d89fb1c3dc66bbcc011a",
+          "original_proposal": {
+            "variable_id": "taxation-burden-public-revenue__positive",
+            "status": "unknown",
+            "value": null,
+            "confidence": 0,
+            "support_type": "unknown",
+            "rationale": "Нет сведений о персональных инициативах Мурангва по снижению налоговой нагрузки или расширению имущественной самостоятельности.",
+            "evidence_indices": []
+          }
+        },
+        "evidence_file": "evidence/independent-dossier-yusuf-murangwa.json",
+        "evidence_basis": "dc92701423c63ca3ed1d0d3d964c477051b45b993821636986d52555f489912e"
+      },
+      "negative": {
+        "status": "observed",
+        "value": 2,
+        "confidence": 0.5,
+        "evidence_indices": [
+          0,
+          1,
+          2,
+          22
+        ],
+        "source_urls": [
+          "https://www.minecofin.gov.rw/news-detail/government-spending-to-increase-by-frw-1263-billion-in-the-2024-25-revised-budget",
+          "https://www.cabri-sbo.org/uploads/bia/Rwanda_2024_Approval_External_EnactedBudget_MinistryOfFinance_EACECCASCOMESA_English_da3647.pdf",
+          "https://www.minecofin.gov.rw/news-detail/government-presents-medium-term-budget-framework-focused-on-sustainable-growth-and-development",
+          "https://www.newtimes.co.rw/article/35553/news/economy/govt-projects-spending-rwf78-trillion-in-202627/amp"
+        ],
+        "event_ids": [
+          "ym-2025-02-05-revised-budget",
+          "ym-2024-2025-budget",
+          "ym-2025-05-08-bfp",
+          "murangwa-2026-05-domestic-revenue"
+        ],
+        "rationale": "В бюджетных документах и заявлениях (evidence_indices: 0,1,2,22) Мурангва акцентировал увеличение расходов и доходов, мобилизацию внутренних доходов и повышение эффективности использования публичных ресурсов, что трактуется как ясное ограниченное проявление поддержки увеличения налоговых поступлений для публичного развития.",
+        "support_type": "positive_manifestation",
+        "provenance": {
+          "raw_response_file": "evidence/independent_responses/8d60c9da7826e3b7778552a3678563722312734d8909d89fb1c3dc66bbcc011a.json",
+          "model": "gpt-4.1",
+          "at": "2026-10-15T17:29:56.416991+00:00",
+          "cache_key": "8d60c9da7826e3b7778552a3678563722312734d8909d89fb1c3dc66bbcc011a",
+          "original_proposal": {
+            "variable_id": "taxation-burden-public-revenue__negative",
+            "status": "observed",
+            "value": 2,
+            "confidence": 0.5,
+            "support_type": "positive_manifestation",
+            "rationale": "В бюджетных документах и заявлениях (evidence_indices: 0,1,2,22) Мурангва акцентировал увеличение расходов и доходов, мобилизацию внутренних доходов и повышение эффективности использования публичных ресурсов, что трактуется как ясное ограниченное проявление поддержки увеличения налоговых поступлений для публичного развития.",
+            "evidence_indices": [
+              0,
+              1,
+              2,
+              22
+            ]
+          }
+        },
+        "evidence_file": "evidence/independent-dossier-yusuf-murangwa.json",
+        "evidence_basis": "dc92701423c63ca3ed1d0d3d964c477051b45b993821636986d52555f489912e"
+      }
+    },
+    "positive": null,
+    "negative": 2,
+    "value": null,
+    "status": "partial",
+    "difference": null,
+    "mass": null,
+    "measurement_model": "independent_poles",
+    "evidence_file": "evidence/independent-dossier-yusuf-murangwa.json",
+    "evidence_basis": "dc92701423c63ca3ed1d0d3d964c477051b45b993821636986d52555f489912e",
+    "at": "2026-10-15T17:29:56.419989+00:00",
+    "reason": "Каждое свойство оценивается независимо; разность и искусственное дополнение до пяти не вычисляются"
+  },
+  {
+    "object_id": "yusuf-murangwa",
+    "scale_id": "universal-targeted-provision",
+    "pole_scores": {
+      "positive": {
+        "status": "observed",
+        "value": 2,
+        "confidence": 0.5,
+        "evidence_indices": [
+          9,
+          10,
+          13
+        ],
+        "source_urls": [
+          "https://www.minecofin.gov.rw/news-detail/government-presents-medium-term-budget-framework-focused-on-sustainable-growth-and-development",
+          "https://www.mod.gov.rw/docs-media/news-detail/minister-murangwa-presents-frw-7796-billion-budget-for-2026-27-prioritizing-agriculture-jobs-and-economic-stability",
+          "https://www.minecofin.gov.rw/news-detail/government-unveils-frw-70325-billion-budget-for-fy-2025-26"
+        ],
+        "event_ids": [
+          "ym-2025-05-08-bfp",
+          "ym-2026-06-11-budget",
+          "ym-2026-10-06-budget"
+        ],
+        "rationale": "В ряде бюджетных обращений (evidence_indices: 9,10,13) Мурангва обозначал приоритеты в здравоохранении, образовании, социальной защите и питании для всего населения, что трактуется как ясное ограниченное проявление поддержки единых стандартов доступности благ.",
+        "support_type": "positive_manifestation",
+        "provenance": {
+          "raw_response_file": "evidence/independent_responses/8d60c9da7826e3b7778552a3678563722312734d8909d89fb1c3dc66bbcc011a.json",
+          "model": "gpt-4.1",
+          "at": "2026-10-15T17:29:56.416991+00:00",
+          "cache_key": "8d60c9da7826e3b7778552a3678563722312734d8909d89fb1c3dc66bbcc011a",
+          "original_proposal": {
+            "variable_id": "universal-targeted-provision__positive",
+            "status": "observed",
+            "value": 2,
+            "confidence": 0.5,
+            "support_type": "positive_manifestation",
+            "rationale": "В ряде бюджетных обращений (evidence_indices: 9,10,13) Мурангва обозначал приоритеты в здравоохранении, образовании, социальной защите и питании для всего населения, что трактуется как ясное ограниченное проявление поддержки единых стандартов доступности благ.",
+            "evidence_indices": [
+              9,
+              10,
+              13
+            ]
+          }
+        },
+        "evidence_file": "evidence/independent-dossier-yusuf-murangwa.json",
+        "evidence_basis": "dc92701423c63ca3ed1d0d3d964c477051b45b993821636986d52555f489912e"
+      },
+      "negative": {
+        "status": "observed",
+        "value": 2,
+        "confidence": 0.5,
+        "evidence_indices": [
+          10,
+          13
+        ],
+        "source_urls": [
+          "https://www.mod.gov.rw/docs-media/news-detail/minister-murangwa-presents-frw-7796-billion-budget-for-2026-27-prioritizing-agriculture-jobs-and-economic-stability",
+          "https://www.minecofin.gov.rw/news-detail/government-unveils-frw-70325-billion-budget-for-fy-2025-26"
+        ],
+        "event_ids": [
+          "ym-2026-06-11-budget",
+          "ym-2026-10-06-budget"
+        ],
+        "rationale": "В ряде бюджетных обращений (evidence_indices: 10,13) Мурангва отдельно обозначал защиту наиболее уязвимых, что трактуется как ясное ограниченное проявление приоритетной помощи конкретным недостаточно обеспеченным группам.",
+        "support_type": "positive_manifestation",
+        "provenance": {
+          "raw_response_file": "evidence/independent_responses/8d60c9da7826e3b7778552a3678563722312734d8909d89fb1c3dc66bbcc011a.json",
+          "model": "gpt-4.1",
+          "at": "2026-10-15T17:29:56.416991+00:00",
+          "cache_key": "8d60c9da7826e3b7778552a3678563722312734d8909d89fb1c3dc66bbcc011a",
+          "original_proposal": {
+            "variable_id": "universal-targeted-provision__negative",
+            "status": "observed",
+            "value": 2,
+            "confidence": 0.5,
+            "support_type": "positive_manifestation",
+            "rationale": "В ряде бюджетных обращений (evidence_indices: 10,13) Мурангва отдельно обозначал защиту наиболее уязвимых, что трактуется как ясное ограниченное проявление приоритетной помощи конкретным недостаточно обеспеченным группам.",
+            "evidence_indices": [
+              10,
+              13
+            ]
+          }
+        },
+        "evidence_file": "evidence/independent-dossier-yusuf-murangwa.json",
+        "evidence_basis": "dc92701423c63ca3ed1d0d3d964c477051b45b993821636986d52555f489912e"
+      }
+    },
+    "positive": 2,
+    "negative": 2,
+    "value": null,
+    "status": "observed",
+    "difference": null,
+    "mass": null,
+    "measurement_model": "independent_poles",
+    "evidence_file": "evidence/independent-dossier-yusuf-murangwa.json",
+    "evidence_basis": "dc92701423c63ca3ed1d0d3d964c477051b45b993821636986d52555f489912e",
+    "at": "2026-10-15T17:29:56.419989+00:00",
+    "reason": "Каждое свойство оценивается независимо; разность и искусственное дополнение до пяти не вычисляются"
+  },
+  {
+    "object_id": "yusuf-murangwa",
+    "scale_id": "ecological-limits-resource-use",
+    "pole_scores": {
+      "positive": {
+        "status": "observed",
+        "value": 1,
+        "confidence": 0.3,
+        "evidence_indices": [
+          1,
+          2
+        ],
+        "source_urls": [
+          "https://www.cabri-sbo.org/uploads/bia/Rwanda_2024_Approval_External_EnactedBudget_MinistryOfFinance_EACECCASCOMESA_English_da3647.pdf",
+          "https://www.minecofin.gov.rw/news-detail/government-presents-medium-term-budget-framework-focused-on-sustainable-growth-and-development"
+        ],
+        "event_ids": [
+          "ym-2024-2025-budget",
+          "ym-2025-05-08-bfp"
+        ],
+        "rationale": "В бюджетных документах (evidence_indices: 1,2) упомянуты меры по поддержке климатической адаптации и климатической устойчивости, что является единичным слабым проявлением усиления природоохранных ограничений.",
+        "support_type": "positive_manifestation",
+        "provenance": {
+          "raw_response_file": "evidence/independent_responses/8d60c9da7826e3b7778552a3678563722312734d8909d89fb1c3dc66bbcc011a.json",
+          "model": "gpt-4.1",
+          "at": "2026-10-15T17:29:56.416991+00:00",
+          "cache_key": "8d60c9da7826e3b7778552a3678563722312734d8909d89fb1c3dc66bbcc011a",
+          "original_proposal": {
+            "variable_id": "ecological-limits-resource-use__positive",
+            "status": "observed",
+            "value": 1,
+            "confidence": 0.3,
+            "support_type": "positive_manifestation",
+            "rationale": "В бюджетных документах (evidence_indices: 1,2) упомянуты меры по поддержке климатической адаптации и климатической устойчивости, что является единичным слабым проявлением усиления природоохранных ограничений.",
+            "evidence_indices": [
+              1,
+              2
+            ]
+          }
+        },
+        "evidence_file": "evidence/independent-dossier-yusuf-murangwa.json",
+        "evidence_basis": "dc92701423c63ca3ed1d0d3d964c477051b45b993821636986d52555f489912e"
+      },
+      "negative": {
+        "status": "unknown",
+        "value": null,
+        "confidence": 0,
+        "evidence_indices": [],
+        "source_urls": [],
+        "event_ids": [],
+        "rationale": "Нет фактов о публичных действиях Мурангва по расширению хозяйственного использования природных ресурсов или ослаблению экологических ограничений.",
+        "support_type": "unknown",
+        "provenance": {
+          "raw_response_file": "evidence/independent_responses/8d60c9da7826e3b7778552a3678563722312734d8909d89fb1c3dc66bbcc011a.json",
+          "model": "gpt-4.1",
+          "at": "2026-10-15T17:29:56.416991+00:00",
+          "cache_key": "8d60c9da7826e3b7778552a3678563722312734d8909d89fb1c3dc66bbcc011a",
+          "original_proposal": {
+            "variable_id": "ecological-limits-resource-use__negative",
+            "status": "unknown",
+            "value": null,
+            "confidence": 0,
+            "support_type": "unknown",
+            "rationale": "Нет фактов о публичных действиях Мурангва по расширению хозяйственного использования природных ресурсов или ослаблению экологических ограничений.",
+            "evidence_indices": []
+          }
+        },
+        "evidence_file": "evidence/independent-dossier-yusuf-murangwa.json",
+        "evidence_basis": "dc92701423c63ca3ed1d0d3d964c477051b45b993821636986d52555f489912e"
+      }
+    },
+    "positive": 1,
+    "negative": null,
+    "value": null,
+    "status": "partial",
+    "difference": null,
+    "mass": null,
+    "measurement_model": "independent_poles",
+    "evidence_file": "evidence/independent-dossier-yusuf-murangwa.json",
+    "evidence_basis": "dc92701423c63ca3ed1d0d3d964c477051b45b993821636986d52555f489912e",
+    "at": "2026-10-15T17:29:56.419989+00:00",
+    "reason": "Каждое свойство оценивается независимо; разность и искусственное дополнение до пяти не вычисляются"
+  },
+  {
+    "object_id": "yusuf-murangwa",
+    "scale_id": "russia-diplomatic-engagement",
+    "pole_scores": {
+      "positive": {
+        "status": "unknown",
+        "value": null,
+        "confidence": 0,
+        "evidence_indices": [],
+        "source_urls": [],
+        "event_ids": [],
+        "rationale": "Нет допустимых датированных персональных свидетельств по этому свойству",
+        "support_type": "unknown"
+      },
+      "negative": {
+        "status": "unknown",
+        "value": null,
+        "confidence": 0,
+        "evidence_indices": [],
+        "source_urls": [],
+        "event_ids": [],
+        "rationale": "Нет допустимых датированных персональных свидетельств по этому свойству",
+        "support_type": "unknown"
+      }
+    },
+    "positive": null,
+    "negative": null,
+    "value": null,
+    "status": "unknown",
+    "difference": null,
+    "mass": null,
+    "measurement_model": "independent_poles",
+    "evidence_file": "evidence/independent-dossier-yusuf-murangwa.json",
+    "evidence_basis": "dc92701423c63ca3ed1d0d3d964c477051b45b993821636986d52555f489912e",
+    "at": "2026-10-15T17:29:56.419989+00:00",
+    "reason": "Каждое свойство оценивается независимо; разность и искусственное дополнение до пяти не вычисляются"
+  },
+  {
+    "object_id": "yusuf-murangwa",
+    "scale_id": "russia-security-cooperation",
+    "pole_scores": {
+      "positive": {
+        "status": "unknown",
+        "value": null,
+        "confidence": 0,
+        "evidence_indices": [],
+        "source_urls": [],
+        "event_ids": [],
+        "rationale": "Нет допустимых датированных персональных свидетельств по этому свойству",
+        "support_type": "unknown"
+      },
+      "negative": {
+        "status": "unknown",
+        "value": null,
+        "confidence": 0,
+        "evidence_indices": [],
+        "source_urls": [],
+        "event_ids": [],
+        "rationale": "Нет допустимых датированных персональных свидетельств по этому свойству",
+        "support_type": "unknown"
+      }
+    },
+    "positive": null,
+    "negative": null,
+    "value": null,
+    "status": "unknown",
+    "difference": null,
+    "mass": null,
+    "measurement_model": "independent_poles",
+    "evidence_file": "evidence/independent-dossier-yusuf-murangwa.json",
+    "evidence_basis": "dc92701423c63ca3ed1d0d3d964c477051b45b993821636986d52555f489912e",
+    "at": "2026-10-15T17:29:56.419989+00:00",
+    "reason": "Каждое свойство оценивается независимо; разность и искусственное дополнение до пяти не вычисляются"
+  },
+  {
+    "object_id": "yusuf-murangwa",
+    "scale_id": "russia-economic-technology-cooperation",
+    "pole_scores": {
+      "positive": {
+        "status": "unknown",
+        "value": null,
+        "confidence": 0,
+        "evidence_indices": [],
+        "source_urls": [],
+        "event_ids": [],
+        "rationale": "Нет допустимых датированных персональных свидетельств по этому свойству",
+        "support_type": "unknown"
+      },
+      "negative": {
+        "status": "unknown",
+        "value": null,
+        "confidence": 0,
+        "evidence_indices": [],
+        "source_urls": [],
+        "event_ids": [],
+        "rationale": "Нет допустимых датированных персональных свидетельств по этому свойству",
+        "support_type": "unknown"
+      }
+    },
+    "positive": null,
+    "negative": null,
+    "value": null,
+    "status": "unknown",
+    "difference": null,
+    "mass": null,
+    "measurement_model": "independent_poles",
+    "evidence_file": "evidence/independent-dossier-yusuf-murangwa.json",
+    "evidence_basis": "dc92701423c63ca3ed1d0d3d964c477051b45b993821636986d52555f489912e",
+    "at": "2026-10-15T17:29:56.419989+00:00",
+    "reason": "Каждое свойство оценивается независимо; разность и искусственное дополнение до пяти не вычисляются"
+  },
+  {
+    "object_id": "yusuf-murangwa",
+    "scale_id": "russia-education-cultural-cooperation",
+    "pole_scores": {
+      "positive": {
+        "status": "unknown",
+        "value": null,
+        "confidence": 0,
+        "evidence_indices": [],
+        "source_urls": [],
+        "event_ids": [],
+        "rationale": "Нет допустимых датированных персональных свидетельств по этому свойству",
+        "support_type": "unknown"
+      },
+      "negative": {
+        "status": "unknown",
+        "value": null,
+        "confidence": 0,
+        "evidence_indices": [],
+        "source_urls": [],
+        "event_ids": [],
+        "rationale": "Нет допустимых датированных персональных свидетельств по этому свойству",
+        "support_type": "unknown"
+      }
+    },
+    "positive": null,
+    "negative": null,
+    "value": null,
+    "status": "unknown",
+    "difference": null,
+    "mass": null,
+    "measurement_model": "independent_poles",
+    "evidence_file": "evidence/independent-dossier-yusuf-murangwa.json",
+    "evidence_basis": "dc92701423c63ca3ed1d0d3d964c477051b45b993821636986d52555f489912e",
+    "at": "2026-10-15T17:29:56.419989+00:00",
+    "reason": "Каждое свойство оценивается независимо; разность и искусственное дополнение до пяти не вычисляются"
+  },
+  {
+    "object_id": "yusuf-murangwa",
+    "scale_id": "russia-conflict-policy-evaluation",
+    "pole_scores": {
+      "positive": {
+        "status": "unknown",
+        "value": null,
+        "confidence": 0,
+        "evidence_indices": [],
+        "source_urls": [],
+        "event_ids": [],
+        "rationale": "Нет допустимых датированных персональных свидетельств по этому свойству",
+        "support_type": "unknown"
+      },
+      "negative": {
+        "status": "unknown",
+        "value": null,
+        "confidence": 0,
+        "evidence_indices": [],
+        "source_urls": [],
+        "event_ids": [],
+        "rationale": "Нет допустимых датированных персональных свидетельств по этому свойству",
+        "support_type": "unknown"
+      }
+    },
+    "positive": null,
+    "negative": null,
+    "value": null,
+    "status": "unknown",
+    "difference": null,
+    "mass": null,
+    "measurement_model": "independent_poles",
+    "evidence_file": "evidence/independent-dossier-yusuf-murangwa.json",
+    "evidence_basis": "dc92701423c63ca3ed1d0d3d964c477051b45b993821636986d52555f489912e",
+    "at": "2026-10-15T17:29:56.419989+00:00",
+    "reason": "Каждое свойство оценивается независимо; разность и искусственное дополнение до пяти не вычисляются"
+  },
+  {
+    "object_id": "yusuf-murangwa",
+    "scale_id": "russia-isolation-sanctions",
+    "pole_scores": {
+      "positive": {
+        "status": "unknown",
+        "value": null,
+        "confidence": 0,
+        "evidence_indices": [],
+        "source_urls": [],
+        "event_ids": [],
+        "rationale": "Нет допустимых датированных персональных свидетельств по этому свойству",
+        "support_type": "unknown"
+      },
+      "negative": {
+        "status": "unknown",
+        "value": null,
+        "confidence": 0,
+        "evidence_indices": [],
+        "source_urls": [],
+        "event_ids": [],
+        "rationale": "Нет допустимых датированных персональных свидетельств по этому свойству",
+        "support_type": "unknown"
+      }
+    },
+    "positive": null,
+    "negative": null,
+    "value": null,
+    "status": "unknown",
+    "difference": null,
+    "mass": null,
+    "measurement_model": "independent_poles",
+    "evidence_file": "evidence/independent-dossier-yusuf-murangwa.json",
+    "evidence_basis": "dc92701423c63ca3ed1d0d3d964c477051b45b993821636986d52555f489912e",
+    "at": "2026-10-15T17:29:56.419989+00:00",
+    "reason": "Каждое свойство оценивается независимо; разность и искусственное дополнение до пяти не вычисляются"
+  }
+]

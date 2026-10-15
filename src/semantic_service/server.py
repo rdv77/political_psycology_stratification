@@ -122,6 +122,8 @@ class Application:
                 if not ratings_path.exists():
                     raise ValueError("Нет импортированной матрицы оценок")
                 current_basis = {"objects": fingerprint(study["objects"]), "scales": fingerprint(study["scales"])}
+                if study.get("measurement_model") == "independent_poles":
+                    current_basis["measurement_model"] = "independent_poles"
                 if study.get("imported_ratings_basis") != current_basis:
                     raise ValueError("Импортированные оценки относятся к другой версии объектов или шкал; импортируйте их заново")
                 ratings = json.loads(ratings_path.read_text(encoding="utf-8"))
@@ -220,9 +222,12 @@ class Application:
             seen.add(pair)
         destination = self.store.directory(identifier) / "ratings.json"
         destination.write_text(json.dumps(ratings, ensure_ascii=False, indent=2, allow_nan=False), encoding="utf-8")
+        imported_basis = {"objects": fingerprint(study["objects"]), "scales": fingerprint(study["scales"])}
+        if study.get("measurement_model") == "independent_poles":
+            imported_basis["measurement_model"] = "independent_poles"
         self.store.update(identifier, measurement_mode="imported_ratings", imported_ratings_count=len(ratings),
                           ratings_cache=None,
-                          imported_ratings_basis={"objects": fingerprint(study["objects"]), "scales": fingerprint(study["scales"])})
+                          imported_ratings_basis=imported_basis)
         return self.store.get(identifier)
 
 

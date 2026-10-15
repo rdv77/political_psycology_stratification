@@ -1,0 +1,219 @@
+{
+  "data": {
+    "ratings": [
+      {
+        "variable_id": "cultural-openness-national-transmission__positive",
+        "status": "observed",
+        "value": 2,
+        "confidence": 0.7,
+        "support_type": "positive_manifestation",
+        "rationale": "В программных и публичных заявлениях Ингабире подчёркивает необходимость инклюзивного межруандийского диалога, признания всех жертв, создания комиссии истины и примирения, а также учёта голосов беженцев и изгнанников (evidence_indices: 14, 18). Это отражает акцент на межкультурном обмене и разнообразии, хотя не является определяющей чертой всей деятельности.",
+        "evidence_indices": [
+          14,
+          18
+        ]
+      },
+      {
+        "variable_id": "cultural-openness-national-transmission__negative",
+        "status": "observed",
+        "value": 2,
+        "confidence": 0.6,
+        "support_type": "positive_manifestation",
+        "rationale": "Ингабире в программных документах подчёркивает важность прояснения общей истории, признания всех жертв и исторической ответственности (evidence_index: 14, 24). Это свидетельствует о стремлении к сохранению и передаче национальных ценностей, хотя не является доминирующей чертой.",
+        "evidence_indices": [
+          14,
+          24
+        ]
+      },
+      {
+        "variable_id": "problem-disclosure-reputation-defence__positive",
+        "status": "observed",
+        "value": 3,
+        "confidence": 0.8,
+        "support_type": "positive_manifestation",
+        "rationale": "Ингабире неоднократно публично указывала на проблемы политического допуска, ограничения прав, необходимость расследования убийств оппозиционеров, признания ошибок прошлого и системных проблем в образовании (evidence_indices: 2, 21, 22, 23). Это устойчивый публичный акцент на раскрытии проблем.",
+        "evidence_indices": [
+          2,
+          21,
+          22,
+          23
+        ]
+      },
+      {
+        "variable_id": "problem-disclosure-reputation-defence__negative",
+        "status": "unknown",
+        "value": null,
+        "confidence": 0.5,
+        "support_type": "unknown",
+        "rationale": "Не найдено эпизодов, где Ингабире бы явно защищала репутацию страны или своей политики путём опровержения проблем или отрицания критики. Отсутствие упоминаний не доказывает ноль.",
+        "evidence_indices": []
+      },
+      {
+        "variable_id": "procedural-guarantees-enforcement__positive",
+        "status": "observed",
+        "value": 3,
+        "confidence": 0.8,
+        "support_type": "positive_manifestation",
+        "rationale": "Ингабире активно использует судебные и конституционные процедуры для защиты прав, подаёт жалобы, требует расследований и подчёркивает верховенство права (evidence_indices: 8, 14, 22, 24). Это устойчивый акцент на расширении возможностей защиты и обжалования.",
+        "evidence_indices": [
+          8,
+          14,
+          22,
+          24
+        ]
+      },
+      {
+        "variable_id": "procedural-guarantees-enforcement__negative",
+        "status": "observed",
+        "value": 1,
+        "confidence": 0.6,
+        "support_type": "positive_manifestation",
+        "rationale": "В ряде заявлений Ингабире поддерживает применение санкций к виновным в преступлениях против разных групп, подчёркивая необходимость эффективной судебной системы, способной применять санкции (evidence_index: 24). Это единичное проявление принудительного обеспечения требований.",
+        "evidence_indices": [
+          24
+        ]
+      },
+      {
+        "variable_id": "prevention-crisis-response__positive",
+        "status": "unknown",
+        "value": null,
+        "confidence": 0.5,
+        "support_type": "unknown",
+        "rationale": "В найденных материалах нет прямых эпизодов, где Ингабире делала акцент на упреждающем снижении рисков или подготовке до возникновения кризиса.",
+        "evidence_indices": []
+      },
+      {
+        "variable_id": "prevention-crisis-response__negative",
+        "status": "unknown",
+        "value": null,
+        "confidence": 0.5,
+        "support_type": "unknown",
+        "rationale": "Нет данных о публичных действиях или заявлениях Ингабире, свидетельствующих о приоритете оперативного реагирования на уже возникшие угрозы.",
+        "evidence_indices": []
+      },
+      {
+        "variable_id": "electoral-access__positive",
+        "status": "observed",
+        "value": 4,
+        "confidence": 0.9,
+        "support_type": "positive_manifestation",
+        "rationale": "Ингабире последовательно требует расширения политического пространства, допуска к выборам, демократических реформ и подотчётности руководителей (evidence_indices: 3, 13, 19, 20, 23). Это сильный повторяющийся акцент.",
+        "evidence_indices": [
+          3,
+          13,
+          19,
+          20,
+          23
+        ]
+      },
+      {
+        "variable_id": "electoral-access__negative",
+        "status": "unknown",
+        "value": null,
+        "confidence": 0.5,
+        "support_type": "unknown",
+        "rationale": "Не найдено персональных предложений Ингабире по усилению квалификационных барьеров политического участия.",
+        "evidence_indices": []
+      },
+      {
+        "variable_id": "institutional-autonomy-coordination__positive",
+        "status": "observed",
+        "value": 3,
+        "confidence": 0.8,
+        "support_type": "positive_manifestation",
+        "rationale": "Ингабире выступает за децентрализацию, институциональные реформы, подотчётность и независимость институтов (evidence_indices: 13, 15, 18). Это несколько последовательных эпизодов с устойчивым акцентом.",
+        "evidence_indices": [
+          13,
+          15,
+          18
+        ]
+      },
+      {
+        "variable_id": "institutional-autonomy-coordination__negative",
+        "status": "unknown",
+        "value": null,
+        "confidence": 0.5,
+        "support_type": "unknown",
+        "rationale": "Нет оснований считать, что Ингабире поддерживает согласование работы институтов единой управленческой линией.",
+        "evidence_indices": []
+      },
+      {
+        "variable_id": "taxation-burden-public-revenue__positive",
+        "status": "unknown",
+        "value": null,
+        "confidence": 0.5,
+        "support_type": "unknown",
+        "rationale": "В материалах нет прямых предложений Ингабире о снижении налоговой нагрузки или расширении имущественной самостоятельности.",
+        "evidence_indices": []
+      },
+      {
+        "variable_id": "taxation-burden-public-revenue__negative",
+        "status": "unknown",
+        "value": null,
+        "confidence": 0.5,
+        "support_type": "unknown",
+        "rationale": "Нет данных о поддержке Ингабире увеличения налоговых поступлений для публичного развития.",
+        "evidence_indices": []
+      },
+      {
+        "variable_id": "universal-targeted-provision__positive",
+        "status": "observed",
+        "value": 2,
+        "confidence": 0.7,
+        "support_type": "positive_manifestation",
+        "rationale": "Ингабире предлагает государственные инвестиции в производственные отрасли для удовлетворения базовых потребностей населения, что указывает на элементы универсального подхода (evidence_index: 16).",
+        "evidence_indices": [
+          16
+        ]
+      },
+      {
+        "variable_id": "universal-targeted-provision__negative",
+        "status": "unknown",
+        "value": null,
+        "confidence": 0.5,
+        "support_type": "unknown",
+        "rationale": "Нет прямых сведений о приоритетной помощи конкретным недостаточно обеспеченным группам в заявлениях Ингабире.",
+        "evidence_indices": []
+      },
+      {
+        "variable_id": "ecological-limits-resource-use__positive",
+        "status": "unknown",
+        "value": null,
+        "confidence": 0.5,
+        "support_type": "unknown",
+        "rationale": "В найденных материалах отсутствуют прямые предложения Ингабире об усилении природоохранных ограничений.",
+        "evidence_indices": []
+      },
+      {
+        "variable_id": "ecological-limits-resource-use__negative",
+        "status": "unknown",
+        "value": null,
+        "confidence": 0.5,
+        "support_type": "unknown",
+        "rationale": "Нет оснований считать, что Ингабире поддерживает расширение хозяйственного использования природных ресурсов или ослабление экологических ограничений.",
+        "evidence_indices": []
+      }
+    ]
+  },
+  "model": "gpt-4.1",
+  "task": "independent-ratings-victoire-ingabire-1",
+  "at": "2026-10-15T17:32:00.225301+00:00",
+  "usage": {
+    "prompt_tokens": 8934,
+    "completion_tokens": 1603,
+    "total_tokens": 10537,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "audio_tokens": 0
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "audio_tokens": 0,
+      "accepted_prediction_tokens": 0,
+      "rejected_prediction_tokens": 0
+    }
+  },
+  "citations": [],
+  "system_fingerprint": "fp_c1b3c9e352",
+  "cache_key": "cc684b502502982d0fb10f7023f661a4520d878af5b3f415ec5e1fc6f106cb65"
+}

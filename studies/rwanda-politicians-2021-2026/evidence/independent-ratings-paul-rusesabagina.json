@@ -1,0 +1,1658 @@
+[
+  {
+    "object_id": "paul-rusesabagina",
+    "scale_id": "programmatic-renewal",
+    "pole_scores": {
+      "positive": {
+        "status": "observed",
+        "value": 3,
+        "confidence": 0.8,
+        "evidence_indices": [
+          5,
+          6,
+          7,
+          8,
+          9
+        ],
+        "source_urls": [
+          "https://transcripts.cnn.com/show/ampr/date/2024-04-04/segment/01",
+          "https://www.npr.org/2024/04/15/1243989297/rwanda-genocide-hotel-rwanda-paul-rusesabagina",
+          "https://www.npr.org/2024/04/16/1198911260/paul-rusesabagina-hotel-rwanda-genocide",
+          "https://forbiddenstories.org/paul-rusesabagina-no-one-can-silence-me/"
+        ],
+        "event_ids": [
+          "rusesabagina-2024-04-04-amanpour",
+          "rusesabagina-2024-04-15-npr",
+          "rusesabagina-2024-04-16-npr",
+          "rusesabagina-2024-05-01-forbidden-stories",
+          "rusesabagina-2024-04-27-forbidden-stories"
+        ],
+        "rationale": "В 2024 году после освобождения Русесабагина в публичных интервью продолжил критику действующего режима и выражал уверенность в необходимости демократических перемен в Руанде, а также призывал к международному вмешательству. Это свидетельствует о последовательном акценте на необходимости изменения существующего курса, несмотря на письмо о помиловании, где он заявлял об уходе из политики.",
+        "support_type": "positive_manifestation",
+        "provenance": {
+          "raw_response_file": "evidence/independent_responses/a8425c692bad6ed8191a14f135bdbb2769cb96c8a7eed0beb5d29adb11326433.json",
+          "model": "gpt-4.1",
+          "at": "2026-10-15T17:32:08.305784+00:00",
+          "cache_key": "a8425c692bad6ed8191a14f135bdbb2769cb96c8a7eed0beb5d29adb11326433",
+          "original_proposal": {
+            "variable_id": "programmatic-renewal__positive",
+            "status": "observed",
+            "value": 3,
+            "confidence": 0.8,
+            "support_type": "positive_manifestation",
+            "rationale": "В 2024 году после освобождения Русесабагина в публичных интервью продолжил критику действующего режима и выражал уверенность в необходимости демократических перемен в Руанде, а также призывал к международному вмешательству. Это свидетельствует о последовательном акценте на необходимости изменения существующего курса, несмотря на письмо о помиловании, где он заявлял об уходе из политики.",
+            "evidence_indices": [
+              5,
+              6,
+              7,
+              8,
+              9
+            ]
+          }
+        },
+        "evidence_file": "evidence/independent-dossier-paul-rusesabagina.json",
+        "evidence_basis": "c11783b2150e64544249cdf782c50e6252408d785db8c5c4534177beee050b46"
+      },
+      "negative": {
+        "status": "observed",
+        "value": 1,
+        "confidence": 0.5,
+        "evidence_indices": [
+          2,
+          10
+        ],
+        "source_urls": [
+          "https://www.lemonde.fr/en/international/article/2023/03/24/hotel-rwanda-hero-s-jail-sentence-commuted_6020529_4.html",
+          "https://www.straitstimes.com/world/united-states/hotel-rwanda-hero-paul-rusesabagina-freed-from-rwandan-jail"
+        ],
+        "event_ids": [
+          "rusesabagina-pardon-letter",
+          "rusesabagina-2022-10-14-clemency-letter"
+        ],
+        "rationale": "В письме о помиловании Русесабагина заявил о намерении отойти от политики и отсутствии дальнейших политических амбиций, что может трактоваться как единичное слабое проявление согласия с продолжением существующего порядка, но последующие действия противоречат этому.",
+        "support_type": "positive_manifestation",
+        "provenance": {
+          "raw_response_file": "evidence/independent_responses/a8425c692bad6ed8191a14f135bdbb2769cb96c8a7eed0beb5d29adb11326433.json",
+          "model": "gpt-4.1",
+          "at": "2026-10-15T17:32:08.305784+00:00",
+          "cache_key": "a8425c692bad6ed8191a14f135bdbb2769cb96c8a7eed0beb5d29adb11326433",
+          "original_proposal": {
+            "variable_id": "programmatic-renewal__negative",
+            "status": "observed",
+            "value": 1,
+            "confidence": 0.5,
+            "support_type": "positive_manifestation",
+            "rationale": "В письме о помиловании Русесабагина заявил о намерении отойти от политики и отсутствии дальнейших политических амбиций, что может трактоваться как единичное слабое проявление согласия с продолжением существующего порядка, но последующие действия противоречат этому.",
+            "evidence_indices": [
+              2,
+              10
+            ]
+          }
+        },
+        "evidence_file": "evidence/independent-dossier-paul-rusesabagina.json",
+        "evidence_basis": "c11783b2150e64544249cdf782c50e6252408d785db8c5c4534177beee050b46"
+      }
+    },
+    "positive": 3,
+    "negative": 1,
+    "value": null,
+    "status": "observed",
+    "difference": null,
+    "mass": null,
+    "measurement_model": "independent_poles",
+    "evidence_file": "evidence/independent-dossier-paul-rusesabagina.json",
+    "evidence_basis": "c11783b2150e64544249cdf782c50e6252408d785db8c5c4534177beee050b46",
+    "at": "2026-10-15T17:32:16.030133+00:00",
+    "reason": "Каждое свойство оценивается независимо; разность и искусственное дополнение до пяти не вычисляются"
+  },
+  {
+    "object_id": "paul-rusesabagina",
+    "scale_id": "government-course-assessment",
+    "pole_scores": {
+      "positive": {
+        "status": "unknown",
+        "value": null,
+        "confidence": 0,
+        "evidence_indices": [],
+        "source_urls": [],
+        "event_ids": [],
+        "rationale": "Нет фактов о публичной поддержке действующего курса Руанды Русесабагиной в указанный период.",
+        "support_type": "unknown",
+        "provenance": {
+          "raw_response_file": "evidence/independent_responses/a8425c692bad6ed8191a14f135bdbb2769cb96c8a7eed0beb5d29adb11326433.json",
+          "model": "gpt-4.1",
+          "at": "2026-10-15T17:32:08.305784+00:00",
+          "cache_key": "a8425c692bad6ed8191a14f135bdbb2769cb96c8a7eed0beb5d29adb11326433",
+          "original_proposal": {
+            "variable_id": "government-course-assessment__positive",
+            "status": "unknown",
+            "value": null,
+            "confidence": 0.0,
+            "support_type": "unknown",
+            "rationale": "Нет фактов о публичной поддержке действующего курса Руанды Русесабагиной в указанный период.",
+            "evidence_indices": []
+          }
+        },
+        "evidence_file": "evidence/independent-dossier-paul-rusesabagina.json",
+        "evidence_basis": "c11783b2150e64544249cdf782c50e6252408d785db8c5c4534177beee050b46"
+      },
+      "negative": {
+        "status": "observed",
+        "value": 4,
+        "confidence": 0.9,
+        "evidence_indices": [
+          5,
+          6,
+          7,
+          8,
+          9
+        ],
+        "source_urls": [
+          "https://transcripts.cnn.com/show/ampr/date/2024-04-04/segment/01",
+          "https://www.npr.org/2024/04/15/1243989297/rwanda-genocide-hotel-rwanda-paul-rusesabagina",
+          "https://www.npr.org/2024/04/16/1198911260/paul-rusesabagina-hotel-rwanda-genocide",
+          "https://forbiddenstories.org/paul-rusesabagina-no-one-can-silence-me/"
+        ],
+        "event_ids": [
+          "rusesabagina-2024-04-04-amanpour",
+          "rusesabagina-2024-04-15-npr",
+          "rusesabagina-2024-04-16-npr",
+          "rusesabagina-2024-05-01-forbidden-stories",
+          "rusesabagina-2024-04-27-forbidden-stories"
+        ],
+        "rationale": "Русесабагина в интервью 2024 года прямо и последовательно критиковал правительство Руанды, обвиняя его в нарушениях прав человека, отсутствии демократии и угрозах. Это устойчивый и повторяющийся акцент.",
+        "support_type": "positive_manifestation",
+        "provenance": {
+          "raw_response_file": "evidence/independent_responses/a8425c692bad6ed8191a14f135bdbb2769cb96c8a7eed0beb5d29adb11326433.json",
+          "model": "gpt-4.1",
+          "at": "2026-10-15T17:32:08.305784+00:00",
+          "cache_key": "a8425c692bad6ed8191a14f135bdbb2769cb96c8a7eed0beb5d29adb11326433",
+          "original_proposal": {
+            "variable_id": "government-course-assessment__negative",
+            "status": "observed",
+            "value": 4,
+            "confidence": 0.9,
+            "support_type": "positive_manifestation",
+            "rationale": "Русесабагина в интервью 2024 года прямо и последовательно критиковал правительство Руанды, обвиняя его в нарушениях прав человека, отсутствии демократии и угрозах. Это устойчивый и повторяющийся акцент.",
+            "evidence_indices": [
+              5,
+              6,
+              7,
+              8,
+              9
+            ]
+          }
+        },
+        "evidence_file": "evidence/independent-dossier-paul-rusesabagina.json",
+        "evidence_basis": "c11783b2150e64544249cdf782c50e6252408d785db8c5c4534177beee050b46"
+      }
+    },
+    "positive": null,
+    "negative": 4,
+    "value": null,
+    "status": "partial",
+    "difference": null,
+    "mass": null,
+    "measurement_model": "independent_poles",
+    "evidence_file": "evidence/independent-dossier-paul-rusesabagina.json",
+    "evidence_basis": "c11783b2150e64544249cdf782c50e6252408d785db8c5c4534177beee050b46",
+    "at": "2026-10-15T17:32:16.030133+00:00",
+    "reason": "Каждое свойство оценивается независимо; разность и искусственное дополнение до пяти не вычисляются"
+  },
+  {
+    "object_id": "paul-rusesabagina",
+    "scale_id": "participation-administrative-direction",
+    "pole_scores": {
+      "positive": {
+        "status": "unknown",
+        "value": null,
+        "confidence": 0,
+        "evidence_indices": [],
+        "source_urls": [],
+        "event_ids": [],
+        "rationale": "Нет сведений о призывах Русесабагины к совместному обсуждению решений или общественному контролю в указанный период.",
+        "support_type": "unknown",
+        "provenance": {
+          "raw_response_file": "evidence/independent_responses/a8425c692bad6ed8191a14f135bdbb2769cb96c8a7eed0beb5d29adb11326433.json",
+          "model": "gpt-4.1",
+          "at": "2026-10-15T17:32:08.305784+00:00",
+          "cache_key": "a8425c692bad6ed8191a14f135bdbb2769cb96c8a7eed0beb5d29adb11326433",
+          "original_proposal": {
+            "variable_id": "participation-administrative-direction__positive",
+            "status": "unknown",
+            "value": null,
+            "confidence": 0.0,
+            "support_type": "unknown",
+            "rationale": "Нет сведений о призывах Русесабагины к совместному обсуждению решений или общественному контролю в указанный период.",
+            "evidence_indices": []
+          }
+        },
+        "evidence_file": "evidence/independent-dossier-paul-rusesabagina.json",
+        "evidence_basis": "c11783b2150e64544249cdf782c50e6252408d785db8c5c4534177beee050b46"
+      },
+      "negative": {
+        "status": "unknown",
+        "value": null,
+        "confidence": 0,
+        "evidence_indices": [],
+        "source_urls": [],
+        "event_ids": [],
+        "rationale": "Нет сведений о призывах Русесабагины к административной постановке задач или контролю исполнения в указанный период.",
+        "support_type": "unknown",
+        "provenance": {
+          "raw_response_file": "evidence/independent_responses/a8425c692bad6ed8191a14f135bdbb2769cb96c8a7eed0beb5d29adb11326433.json",
+          "model": "gpt-4.1",
+          "at": "2026-10-15T17:32:08.305784+00:00",
+          "cache_key": "a8425c692bad6ed8191a14f135bdbb2769cb96c8a7eed0beb5d29adb11326433",
+          "original_proposal": {
+            "variable_id": "participation-administrative-direction__negative",
+            "status": "unknown",
+            "value": null,
+            "confidence": 0.0,
+            "support_type": "unknown",
+            "rationale": "Нет сведений о призывах Русесабагины к административной постановке задач или контролю исполнения в указанный период.",
+            "evidence_indices": []
+          }
+        },
+        "evidence_file": "evidence/independent-dossier-paul-rusesabagina.json",
+        "evidence_basis": "c11783b2150e64544249cdf782c50e6252408d785db8c5c4534177beee050b46"
+      }
+    },
+    "positive": null,
+    "negative": null,
+    "value": null,
+    "status": "unknown",
+    "difference": null,
+    "mass": null,
+    "measurement_model": "independent_poles",
+    "evidence_file": "evidence/independent-dossier-paul-rusesabagina.json",
+    "evidence_basis": "c11783b2150e64544249cdf782c50e6252408d785db8c5c4534177beee050b46",
+    "at": "2026-10-15T17:32:16.030133+00:00",
+    "reason": "Каждое свойство оценивается независимо; разность и искусственное дополнение до пяти не вычисляются"
+  },
+  {
+    "object_id": "paul-rusesabagina",
+    "scale_id": "argumentation-evidence-values",
+    "pole_scores": {
+      "positive": {
+        "status": "unknown",
+        "value": null,
+        "confidence": 0,
+        "evidence_indices": [],
+        "source_urls": [],
+        "event_ids": [],
+        "rationale": "Нет прямых фактов обоснования позиций Русесабагины через данные, расчёты или проверяемые результаты в указанный период.",
+        "support_type": "unknown",
+        "provenance": {
+          "raw_response_file": "evidence/independent_responses/a8425c692bad6ed8191a14f135bdbb2769cb96c8a7eed0beb5d29adb11326433.json",
+          "model": "gpt-4.1",
+          "at": "2026-10-15T17:32:08.305784+00:00",
+          "cache_key": "a8425c692bad6ed8191a14f135bdbb2769cb96c8a7eed0beb5d29adb11326433",
+          "original_proposal": {
+            "variable_id": "argumentation-evidence-values__positive",
+            "status": "unknown",
+            "value": null,
+            "confidence": 0.0,
+            "support_type": "unknown",
+            "rationale": "Нет прямых фактов обоснования позиций Русесабагины через данные, расчёты или проверяемые результаты в указанный период.",
+            "evidence_indices": []
+          }
+        },
+        "evidence_file": "evidence/independent-dossier-paul-rusesabagina.json",
+        "evidence_basis": "c11783b2150e64544249cdf782c50e6252408d785db8c5c4534177beee050b46"
+      },
+      "negative": {
+        "status": "observed",
+        "value": 2,
+        "confidence": 0.7,
+        "evidence_indices": [
+          5,
+          8,
+          9
+        ],
+        "source_urls": [
+          "https://transcripts.cnn.com/show/ampr/date/2024-04-04/segment/01",
+          "https://forbiddenstories.org/paul-rusesabagina-no-one-can-silence-me/"
+        ],
+        "event_ids": [
+          "rusesabagina-2024-04-04-amanpour",
+          "rusesabagina-2024-05-01-forbidden-stories",
+          "rusesabagina-2024-04-27-forbidden-stories"
+        ],
+        "rationale": "В публичных заявлениях Русесабагина апеллирует к ценностям демократии, памяти о геноциде и коллективной ответственности, что является ограниченным проявлением ценностной аргументации.",
+        "support_type": "positive_manifestation",
+        "provenance": {
+          "raw_response_file": "evidence/independent_responses/a8425c692bad6ed8191a14f135bdbb2769cb96c8a7eed0beb5d29adb11326433.json",
+          "model": "gpt-4.1",
+          "at": "2026-10-15T17:32:08.305784+00:00",
+          "cache_key": "a8425c692bad6ed8191a14f135bdbb2769cb96c8a7eed0beb5d29adb11326433",
+          "original_proposal": {
+            "variable_id": "argumentation-evidence-values__negative",
+            "status": "observed",
+            "value": 2,
+            "confidence": 0.7,
+            "support_type": "positive_manifestation",
+            "rationale": "В публичных заявлениях Русесабагина апеллирует к ценностям демократии, памяти о геноциде и коллективной ответственности, что является ограниченным проявлением ценностной аргументации.",
+            "evidence_indices": [
+              5,
+              8,
+              9
+            ]
+          }
+        },
+        "evidence_file": "evidence/independent-dossier-paul-rusesabagina.json",
+        "evidence_basis": "c11783b2150e64544249cdf782c50e6252408d785db8c5c4534177beee050b46"
+      }
+    },
+    "positive": null,
+    "negative": 2,
+    "value": null,
+    "status": "partial",
+    "difference": null,
+    "mass": null,
+    "measurement_model": "independent_poles",
+    "evidence_file": "evidence/independent-dossier-paul-rusesabagina.json",
+    "evidence_basis": "c11783b2150e64544249cdf782c50e6252408d785db8c5c4534177beee050b46",
+    "at": "2026-10-15T17:32:16.030133+00:00",
+    "reason": "Каждое свойство оценивается независимо; разность и искусственное дополнение до пяти не вычисляются"
+  },
+  {
+    "object_id": "paul-rusesabagina",
+    "scale_id": "market-state-instruments",
+    "pole_scores": {
+      "positive": {
+        "status": "unknown",
+        "value": null,
+        "confidence": 0,
+        "evidence_indices": [],
+        "source_urls": [],
+        "event_ids": [],
+        "rationale": "Нет сведений о публичных предложениях Русесабагины по расширению частной инициативы или управления.",
+        "support_type": "unknown",
+        "provenance": {
+          "raw_response_file": "evidence/independent_responses/a8425c692bad6ed8191a14f135bdbb2769cb96c8a7eed0beb5d29adb11326433.json",
+          "model": "gpt-4.1",
+          "at": "2026-10-15T17:32:08.305784+00:00",
+          "cache_key": "a8425c692bad6ed8191a14f135bdbb2769cb96c8a7eed0beb5d29adb11326433",
+          "original_proposal": {
+            "variable_id": "market-state-instruments__positive",
+            "status": "unknown",
+            "value": null,
+            "confidence": 0.0,
+            "support_type": "unknown",
+            "rationale": "Нет сведений о публичных предложениях Русесабагины по расширению частной инициативы или управления.",
+            "evidence_indices": []
+          }
+        },
+        "evidence_file": "evidence/independent-dossier-paul-rusesabagina.json",
+        "evidence_basis": "c11783b2150e64544249cdf782c50e6252408d785db8c5c4534177beee050b46"
+      },
+      "negative": {
+        "status": "unknown",
+        "value": null,
+        "confidence": 0,
+        "evidence_indices": [],
+        "source_urls": [],
+        "event_ids": [],
+        "rationale": "Нет сведений о публичных предложениях Русесабагины по расширению государственного планирования или обязательных правил.",
+        "support_type": "unknown",
+        "provenance": {
+          "raw_response_file": "evidence/independent_responses/a8425c692bad6ed8191a14f135bdbb2769cb96c8a7eed0beb5d29adb11326433.json",
+          "model": "gpt-4.1",
+          "at": "2026-10-15T17:32:08.305784+00:00",
+          "cache_key": "a8425c692bad6ed8191a14f135bdbb2769cb96c8a7eed0beb5d29adb11326433",
+          "original_proposal": {
+            "variable_id": "market-state-instruments__negative",
+            "status": "unknown",
+            "value": null,
+            "confidence": 0.0,
+            "support_type": "unknown",
+            "rationale": "Нет сведений о публичных предложениях Русесабагины по расширению государственного планирования или обязательных правил.",
+            "evidence_indices": []
+          }
+        },
+        "evidence_file": "evidence/independent-dossier-paul-rusesabagina.json",
+        "evidence_basis": "c11783b2150e64544249cdf782c50e6252408d785db8c5c4534177beee050b46"
+      }
+    },
+    "positive": null,
+    "negative": null,
+    "value": null,
+    "status": "unknown",
+    "difference": null,
+    "mass": null,
+    "measurement_model": "independent_poles",
+    "evidence_file": "evidence/independent-dossier-paul-rusesabagina.json",
+    "evidence_basis": "c11783b2150e64544249cdf782c50e6252408d785db8c5c4534177beee050b46",
+    "at": "2026-10-15T17:32:16.030133+00:00",
+    "reason": "Каждое свойство оценивается независимо; разность и искусственное дополнение до пяти не вычисляются"
+  },
+  {
+    "object_id": "paul-rusesabagina",
+    "scale_id": "accessibility-growth-priorities",
+    "pole_scores": {
+      "positive": {
+        "status": "unknown",
+        "value": null,
+        "confidence": 0,
+        "evidence_indices": [],
+        "source_urls": [],
+        "event_ids": [],
+        "rationale": "Нет сведений о приоритетах Русесабагины в отношении расширения доступности базовых благ.",
+        "support_type": "unknown",
+        "provenance": {
+          "raw_response_file": "evidence/independent_responses/a8425c692bad6ed8191a14f135bdbb2769cb96c8a7eed0beb5d29adb11326433.json",
+          "model": "gpt-4.1",
+          "at": "2026-10-15T17:32:08.305784+00:00",
+          "cache_key": "a8425c692bad6ed8191a14f135bdbb2769cb96c8a7eed0beb5d29adb11326433",
+          "original_proposal": {
+            "variable_id": "accessibility-growth-priorities__positive",
+            "status": "unknown",
+            "value": null,
+            "confidence": 0.0,
+            "support_type": "unknown",
+            "rationale": "Нет сведений о приоритетах Русесабагины в отношении расширения доступности базовых благ.",
+            "evidence_indices": []
+          }
+        },
+        "evidence_file": "evidence/independent-dossier-paul-rusesabagina.json",
+        "evidence_basis": "c11783b2150e64544249cdf782c50e6252408d785db8c5c4534177beee050b46"
+      },
+      "negative": {
+        "status": "unknown",
+        "value": null,
+        "confidence": 0,
+        "evidence_indices": [],
+        "source_urls": [],
+        "event_ids": [],
+        "rationale": "Нет сведений о приоритетах Русесабагины в отношении роста инвестиций или конкурентоспособности.",
+        "support_type": "unknown",
+        "provenance": {
+          "raw_response_file": "evidence/independent_responses/a8425c692bad6ed8191a14f135bdbb2769cb96c8a7eed0beb5d29adb11326433.json",
+          "model": "gpt-4.1",
+          "at": "2026-10-15T17:32:08.305784+00:00",
+          "cache_key": "a8425c692bad6ed8191a14f135bdbb2769cb96c8a7eed0beb5d29adb11326433",
+          "original_proposal": {
+            "variable_id": "accessibility-growth-priorities__negative",
+            "status": "unknown",
+            "value": null,
+            "confidence": 0.0,
+            "support_type": "unknown",
+            "rationale": "Нет сведений о приоритетах Русесабагины в отношении роста инвестиций или конкурентоспособности.",
+            "evidence_indices": []
+          }
+        },
+        "evidence_file": "evidence/independent-dossier-paul-rusesabagina.json",
+        "evidence_basis": "c11783b2150e64544249cdf782c50e6252408d785db8c5c4534177beee050b46"
+      }
+    },
+    "positive": null,
+    "negative": null,
+    "value": null,
+    "status": "unknown",
+    "difference": null,
+    "mass": null,
+    "measurement_model": "independent_poles",
+    "evidence_file": "evidence/independent-dossier-paul-rusesabagina.json",
+    "evidence_basis": "c11783b2150e64544249cdf782c50e6252408d785db8c5c4534177beee050b46",
+    "at": "2026-10-15T17:32:16.030133+00:00",
+    "reason": "Каждое свойство оценивается независимо; разность и искусственное дополнение до пяти не вычисляются"
+  },
+  {
+    "object_id": "paul-rusesabagina",
+    "scale_id": "external-domestic-resources",
+    "pole_scores": {
+      "positive": {
+        "status": "unknown",
+        "value": null,
+        "confidence": 0,
+        "evidence_indices": [],
+        "source_urls": [],
+        "event_ids": [],
+        "rationale": "Нет сведений о предложениях Русесабагины по привлечению внешнего финансирования или ресурсных партнёров.",
+        "support_type": "unknown",
+        "provenance": {
+          "raw_response_file": "evidence/independent_responses/a8425c692bad6ed8191a14f135bdbb2769cb96c8a7eed0beb5d29adb11326433.json",
+          "model": "gpt-4.1",
+          "at": "2026-10-15T17:32:08.305784+00:00",
+          "cache_key": "a8425c692bad6ed8191a14f135bdbb2769cb96c8a7eed0beb5d29adb11326433",
+          "original_proposal": {
+            "variable_id": "external-domestic-resources__positive",
+            "status": "unknown",
+            "value": null,
+            "confidence": 0.0,
+            "support_type": "unknown",
+            "rationale": "Нет сведений о предложениях Русесабагины по привлечению внешнего финансирования или ресурсных партнёров.",
+            "evidence_indices": []
+          }
+        },
+        "evidence_file": "evidence/independent-dossier-paul-rusesabagina.json",
+        "evidence_basis": "c11783b2150e64544249cdf782c50e6252408d785db8c5c4534177beee050b46"
+      },
+      "negative": {
+        "status": "unknown",
+        "value": null,
+        "confidence": 0,
+        "evidence_indices": [],
+        "source_urls": [],
+        "event_ids": [],
+        "rationale": "Нет сведений о предложениях Русесабагины по опоре на внутренние доходы или хозяйственную самостоятельность.",
+        "support_type": "unknown",
+        "provenance": {
+          "raw_response_file": "evidence/independent_responses/a8425c692bad6ed8191a14f135bdbb2769cb96c8a7eed0beb5d29adb11326433.json",
+          "model": "gpt-4.1",
+          "at": "2026-10-15T17:32:08.305784+00:00",
+          "cache_key": "a8425c692bad6ed8191a14f135bdbb2769cb96c8a7eed0beb5d29adb11326433",
+          "original_proposal": {
+            "variable_id": "external-domestic-resources__negative",
+            "status": "unknown",
+            "value": null,
+            "confidence": 0.0,
+            "support_type": "unknown",
+            "rationale": "Нет сведений о предложениях Русесабагины по опоре на внутренние доходы или хозяйственную самостоятельность.",
+            "evidence_indices": []
+          }
+        },
+        "evidence_file": "evidence/independent-dossier-paul-rusesabagina.json",
+        "evidence_basis": "c11783b2150e64544249cdf782c50e6252408d785db8c5c4534177beee050b46"
+      }
+    },
+    "positive": null,
+    "negative": null,
+    "value": null,
+    "status": "unknown",
+    "difference": null,
+    "mass": null,
+    "measurement_model": "independent_poles",
+    "evidence_file": "evidence/independent-dossier-paul-rusesabagina.json",
+    "evidence_basis": "c11783b2150e64544249cdf782c50e6252408d785db8c5c4534177beee050b46",
+    "at": "2026-10-15T17:32:16.030133+00:00",
+    "reason": "Каждое свойство оценивается независимо; разность и искусственное дополнение до пяти не вычисляются"
+  },
+  {
+    "object_id": "paul-rusesabagina",
+    "scale_id": "international-rules-autonomy",
+    "pole_scores": {
+      "positive": {
+        "status": "observed",
+        "value": 2,
+        "confidence": 0.7,
+        "evidence_indices": [
+          9
+        ],
+        "source_urls": [
+          "https://forbiddenstories.org/paul-rusesabagina-no-one-can-silence-me/"
+        ],
+        "event_ids": [
+          "rusesabagina-2024-04-27-forbidden-stories"
+        ],
+        "rationale": "Русесабагина в интервью призывал к международному вмешательству и вниманию к ситуации в Руанде, что является ограниченным проявлением поддержки международных механизмов и обязательств.",
+        "support_type": "positive_manifestation",
+        "provenance": {
+          "raw_response_file": "evidence/independent_responses/a8425c692bad6ed8191a14f135bdbb2769cb96c8a7eed0beb5d29adb11326433.json",
+          "model": "gpt-4.1",
+          "at": "2026-10-15T17:32:08.305784+00:00",
+          "cache_key": "a8425c692bad6ed8191a14f135bdbb2769cb96c8a7eed0beb5d29adb11326433",
+          "original_proposal": {
+            "variable_id": "international-rules-autonomy__positive",
+            "status": "observed",
+            "value": 2,
+            "confidence": 0.7,
+            "support_type": "positive_manifestation",
+            "rationale": "Русесабагина в интервью призывал к международному вмешательству и вниманию к ситуации в Руанде, что является ограниченным проявлением поддержки международных механизмов и обязательств.",
+            "evidence_indices": [
+              9
+            ]
+          }
+        },
+        "evidence_file": "evidence/independent-dossier-paul-rusesabagina.json",
+        "evidence_basis": "c11783b2150e64544249cdf782c50e6252408d785db8c5c4534177beee050b46"
+      },
+      "negative": {
+        "status": "unknown",
+        "value": null,
+        "confidence": 0,
+        "evidence_indices": [],
+        "source_urls": [],
+        "event_ids": [],
+        "rationale": "Нет сведений о публичной защите Русесабагиной национальной самостоятельности решений в указанный период.",
+        "support_type": "unknown",
+        "provenance": {
+          "raw_response_file": "evidence/independent_responses/a8425c692bad6ed8191a14f135bdbb2769cb96c8a7eed0beb5d29adb11326433.json",
+          "model": "gpt-4.1",
+          "at": "2026-10-15T17:32:08.305784+00:00",
+          "cache_key": "a8425c692bad6ed8191a14f135bdbb2769cb96c8a7eed0beb5d29adb11326433",
+          "original_proposal": {
+            "variable_id": "international-rules-autonomy__negative",
+            "status": "unknown",
+            "value": null,
+            "confidence": 0.0,
+            "support_type": "unknown",
+            "rationale": "Нет сведений о публичной защите Русесабагиной национальной самостоятельности решений в указанный период.",
+            "evidence_indices": []
+          }
+        },
+        "evidence_file": "evidence/independent-dossier-paul-rusesabagina.json",
+        "evidence_basis": "c11783b2150e64544249cdf782c50e6252408d785db8c5c4534177beee050b46"
+      }
+    },
+    "positive": 2,
+    "negative": null,
+    "value": null,
+    "status": "partial",
+    "difference": null,
+    "mass": null,
+    "measurement_model": "independent_poles",
+    "evidence_file": "evidence/independent-dossier-paul-rusesabagina.json",
+    "evidence_basis": "c11783b2150e64544249cdf782c50e6252408d785db8c5c4534177beee050b46",
+    "at": "2026-10-15T17:32:16.030133+00:00",
+    "reason": "Каждое свойство оценивается независимо; разность и искусственное дополнение до пяти не вычисляются"
+  },
+  {
+    "object_id": "paul-rusesabagina",
+    "scale_id": "mediation-adversarial-communication",
+    "pole_scores": {
+      "positive": {
+        "status": "unknown",
+        "value": null,
+        "confidence": 0,
+        "evidence_indices": [],
+        "source_urls": [],
+        "event_ids": [],
+        "rationale": "Нет сведений о предложениях Русесабагины по посредничеству или согласованию интересов сторон.",
+        "support_type": "unknown",
+        "provenance": {
+          "raw_response_file": "evidence/independent_responses/a8425c692bad6ed8191a14f135bdbb2769cb96c8a7eed0beb5d29adb11326433.json",
+          "model": "gpt-4.1",
+          "at": "2026-10-15T17:32:08.305784+00:00",
+          "cache_key": "a8425c692bad6ed8191a14f135bdbb2769cb96c8a7eed0beb5d29adb11326433",
+          "original_proposal": {
+            "variable_id": "mediation-adversarial-communication__positive",
+            "status": "unknown",
+            "value": null,
+            "confidence": 0.0,
+            "support_type": "unknown",
+            "rationale": "Нет сведений о предложениях Русесабагины по посредничеству или согласованию интересов сторон.",
+            "evidence_indices": []
+          }
+        },
+        "evidence_file": "evidence/independent-dossier-paul-rusesabagina.json",
+        "evidence_basis": "c11783b2150e64544249cdf782c50e6252408d785db8c5c4534177beee050b46"
+      },
+      "negative": {
+        "status": "observed",
+        "value": 3,
+        "confidence": 0.8,
+        "evidence_indices": [
+          5,
+          6,
+          7,
+          8
+        ],
+        "source_urls": [
+          "https://transcripts.cnn.com/show/ampr/date/2024-04-04/segment/01",
+          "https://www.npr.org/2024/04/15/1243989297/rwanda-genocide-hotel-rwanda-paul-rusesabagina",
+          "https://www.npr.org/2024/04/16/1198911260/paul-rusesabagina-hotel-rwanda-genocide",
+          "https://forbiddenstories.org/paul-rusesabagina-no-one-can-silence-me/"
+        ],
+        "event_ids": [
+          "rusesabagina-2024-04-04-amanpour",
+          "rusesabagina-2024-04-15-npr",
+          "rusesabagina-2024-04-16-npr",
+          "rusesabagina-2024-05-01-forbidden-stories"
+        ],
+        "rationale": "Русесабагина в ряде интервью после освобождения последовательно оспаривал действия властей Руанды, обвинял их в нарушениях и защищал свою позицию, что соответствует устойчивому полемическому стилю коммуникации.",
+        "support_type": "positive_manifestation",
+        "provenance": {
+          "raw_response_file": "evidence/independent_responses/a8425c692bad6ed8191a14f135bdbb2769cb96c8a7eed0beb5d29adb11326433.json",
+          "model": "gpt-4.1",
+          "at": "2026-10-15T17:32:08.305784+00:00",
+          "cache_key": "a8425c692bad6ed8191a14f135bdbb2769cb96c8a7eed0beb5d29adb11326433",
+          "original_proposal": {
+            "variable_id": "mediation-adversarial-communication__negative",
+            "status": "observed",
+            "value": 3,
+            "confidence": 0.8,
+            "support_type": "positive_manifestation",
+            "rationale": "Русесабагина в ряде интервью после освобождения последовательно оспаривал действия властей Руанды, обвинял их в нарушениях и защищал свою позицию, что соответствует устойчивому полемическому стилю коммуникации.",
+            "evidence_indices": [
+              5,
+              6,
+              7,
+              8
+            ]
+          }
+        },
+        "evidence_file": "evidence/independent-dossier-paul-rusesabagina.json",
+        "evidence_basis": "c11783b2150e64544249cdf782c50e6252408d785db8c5c4534177beee050b46"
+      }
+    },
+    "positive": null,
+    "negative": 3,
+    "value": null,
+    "status": "partial",
+    "difference": null,
+    "mass": null,
+    "measurement_model": "independent_poles",
+    "evidence_file": "evidence/independent-dossier-paul-rusesabagina.json",
+    "evidence_basis": "c11783b2150e64544249cdf782c50e6252408d785db8c5c4534177beee050b46",
+    "at": "2026-10-15T17:32:16.030133+00:00",
+    "reason": "Каждое свойство оценивается независимо; разность и искусственное дополнение до пяти не вычисляются"
+  },
+  {
+    "object_id": "paul-rusesabagina",
+    "scale_id": "cultural-openness-national-transmission",
+    "pole_scores": {
+      "positive": {
+        "status": "unknown",
+        "value": null,
+        "confidence": 0,
+        "evidence_indices": [],
+        "source_urls": [],
+        "event_ids": [],
+        "rationale": "Нет фактов, прямо свидетельствующих о публичных действиях или заявлениях Русесабагины в 2021-2026 гг., направленных на расширение межкультурного обмена или разнообразия.",
+        "support_type": "unknown",
+        "provenance": {
+          "raw_response_file": "evidence/independent_responses/c5fd6ead473169c5827be33f0e98ac53a64d3f2342614836599b02f7a030218f.json",
+          "model": "gpt-4.1",
+          "at": "2026-10-15T17:32:16.023126+00:00",
+          "cache_key": "c5fd6ead473169c5827be33f0e98ac53a64d3f2342614836599b02f7a030218f",
+          "original_proposal": {
+            "variable_id": "cultural-openness-national-transmission__positive",
+            "status": "unknown",
+            "value": null,
+            "confidence": 0,
+            "support_type": "unknown",
+            "rationale": "Нет фактов, прямо свидетельствующих о публичных действиях или заявлениях Русесабагины в 2021-2026 гг., направленных на расширение межкультурного обмена или разнообразия.",
+            "evidence_indices": []
+          }
+        },
+        "evidence_file": "evidence/independent-dossier-paul-rusesabagina.json",
+        "evidence_basis": "c11783b2150e64544249cdf782c50e6252408d785db8c5c4534177beee050b46"
+      },
+      "negative": {
+        "status": "unknown",
+        "value": null,
+        "confidence": 0,
+        "evidence_indices": [],
+        "source_urls": [],
+        "event_ids": [],
+        "rationale": "Нет фактов, прямо свидетельствующих о публичных действиях или заявлениях Русесабагины в 2021-2026 гг., направленных на сохранение и передачу национальных ценностей.",
+        "support_type": "unknown",
+        "provenance": {
+          "raw_response_file": "evidence/independent_responses/c5fd6ead473169c5827be33f0e98ac53a64d3f2342614836599b02f7a030218f.json",
+          "model": "gpt-4.1",
+          "at": "2026-10-15T17:32:16.023126+00:00",
+          "cache_key": "c5fd6ead473169c5827be33f0e98ac53a64d3f2342614836599b02f7a030218f",
+          "original_proposal": {
+            "variable_id": "cultural-openness-national-transmission__negative",
+            "status": "unknown",
+            "value": null,
+            "confidence": 0,
+            "support_type": "unknown",
+            "rationale": "Нет фактов, прямо свидетельствующих о публичных действиях или заявлениях Русесабагины в 2021-2026 гг., направленных на сохранение и передачу национальных ценностей.",
+            "evidence_indices": []
+          }
+        },
+        "evidence_file": "evidence/independent-dossier-paul-rusesabagina.json",
+        "evidence_basis": "c11783b2150e64544249cdf782c50e6252408d785db8c5c4534177beee050b46"
+      }
+    },
+    "positive": null,
+    "negative": null,
+    "value": null,
+    "status": "unknown",
+    "difference": null,
+    "mass": null,
+    "measurement_model": "independent_poles",
+    "evidence_file": "evidence/independent-dossier-paul-rusesabagina.json",
+    "evidence_basis": "c11783b2150e64544249cdf782c50e6252408d785db8c5c4534177beee050b46",
+    "at": "2026-10-15T17:32:16.030133+00:00",
+    "reason": "Каждое свойство оценивается независимо; разность и искусственное дополнение до пяти не вычисляются"
+  },
+  {
+    "object_id": "paul-rusesabagina",
+    "scale_id": "problem-disclosure-reputation-defence",
+    "pole_scores": {
+      "positive": {
+        "status": "observed",
+        "value": 3,
+        "confidence": 0.8,
+        "evidence_indices": [
+          5,
+          6,
+          7,
+          8,
+          9
+        ],
+        "source_urls": [
+          "https://transcripts.cnn.com/show/ampr/date/2024-04-04/segment/01",
+          "https://www.npr.org/2024/04/15/1243989297/rwanda-genocide-hotel-rwanda-paul-rusesabagina",
+          "https://www.npr.org/2024/04/16/1198911260/paul-rusesabagina-hotel-rwanda-genocide",
+          "https://forbiddenstories.org/paul-rusesabagina-no-one-can-silence-me/"
+        ],
+        "event_ids": [
+          "rusesabagina-2024-04-04-amanpour",
+          "rusesabagina-2024-04-15-npr",
+          "rusesabagina-2024-04-16-npr",
+          "rusesabagina-2024-05-01-forbidden-stories",
+          "rusesabagina-2024-04-27-forbidden-stories"
+        ],
+        "rationale": "Русесабагина в ряде интервью (2024-04-04, 2024-04-15, 2024-04-16, 2024-05-01) открыто говорил о проблемах политической системы Руанды, собственном похищении, нарушениях прав, необходимости международного вмешательства и предотвращения новых жертв. Это устойчивый публичный акцент на раскрытии проблем и недостатков исполнения.",
+        "support_type": "positive_manifestation",
+        "provenance": {
+          "raw_response_file": "evidence/independent_responses/c5fd6ead473169c5827be33f0e98ac53a64d3f2342614836599b02f7a030218f.json",
+          "model": "gpt-4.1",
+          "at": "2026-10-15T17:32:16.023126+00:00",
+          "cache_key": "c5fd6ead473169c5827be33f0e98ac53a64d3f2342614836599b02f7a030218f",
+          "original_proposal": {
+            "variable_id": "problem-disclosure-reputation-defence__positive",
+            "status": "observed",
+            "value": 3,
+            "confidence": 0.8,
+            "support_type": "positive_manifestation",
+            "rationale": "Русесабагина в ряде интервью (2024-04-04, 2024-04-15, 2024-04-16, 2024-05-01) открыто говорил о проблемах политической системы Руанды, собственном похищении, нарушениях прав, необходимости международного вмешательства и предотвращения новых жертв. Это устойчивый публичный акцент на раскрытии проблем и недостатков исполнения.",
+            "evidence_indices": [
+              5,
+              6,
+              7,
+              8,
+              9
+            ]
+          }
+        },
+        "evidence_file": "evidence/independent-dossier-paul-rusesabagina.json",
+        "evidence_basis": "c11783b2150e64544249cdf782c50e6252408d785db8c5c4534177beee050b46"
+      },
+      "negative": {
+        "status": "unknown",
+        "value": null,
+        "confidence": 0,
+        "evidence_indices": [],
+        "source_urls": [],
+        "event_ids": [],
+        "rationale": "Нет фактов, свидетельствующих о действиях или заявлениях Русесабагины, направленных на защиту репутации Руанды или собственной политики в 2021-2026 гг.",
+        "support_type": "unknown",
+        "provenance": {
+          "raw_response_file": "evidence/independent_responses/c5fd6ead473169c5827be33f0e98ac53a64d3f2342614836599b02f7a030218f.json",
+          "model": "gpt-4.1",
+          "at": "2026-10-15T17:32:16.023126+00:00",
+          "cache_key": "c5fd6ead473169c5827be33f0e98ac53a64d3f2342614836599b02f7a030218f",
+          "original_proposal": {
+            "variable_id": "problem-disclosure-reputation-defence__negative",
+            "status": "unknown",
+            "value": null,
+            "confidence": 0,
+            "support_type": "unknown",
+            "rationale": "Нет фактов, свидетельствующих о действиях или заявлениях Русесабагины, направленных на защиту репутации Руанды или собственной политики в 2021-2026 гг.",
+            "evidence_indices": []
+          }
+        },
+        "evidence_file": "evidence/independent-dossier-paul-rusesabagina.json",
+        "evidence_basis": "c11783b2150e64544249cdf782c50e6252408d785db8c5c4534177beee050b46"
+      }
+    },
+    "positive": 3,
+    "negative": null,
+    "value": null,
+    "status": "partial",
+    "difference": null,
+    "mass": null,
+    "measurement_model": "independent_poles",
+    "evidence_file": "evidence/independent-dossier-paul-rusesabagina.json",
+    "evidence_basis": "c11783b2150e64544249cdf782c50e6252408d785db8c5c4534177beee050b46",
+    "at": "2026-10-15T17:32:16.030133+00:00",
+    "reason": "Каждое свойство оценивается независимо; разность и искусственное дополнение до пяти не вычисляются"
+  },
+  {
+    "object_id": "paul-rusesabagina",
+    "scale_id": "procedural-guarantees-enforcement",
+    "pole_scores": {
+      "positive": {
+        "status": "observed",
+        "value": 2,
+        "confidence": 0.6,
+        "evidence_indices": [
+          3,
+          7,
+          10
+        ],
+        "source_urls": [
+          "https://www.cnn.com/2023/03/24/africa/paul-rusesabagina-released-rwanda-intl/",
+          "https://www.npr.org/2024/04/16/1198911260/paul-rusesabagina-hotel-rwanda-genocide",
+          "https://www.straitstimes.com/world/united-states/hotel-rwanda-hero-paul-rusesabagina-freed-from-rwandan-jail"
+        ],
+        "event_ids": [
+          "rusesabagina-pardon-letter",
+          "rusesabagina-2024-04-16-npr",
+          "rusesabagina-2022-10-14-clemency-letter"
+        ],
+        "rationale": "В письме о помиловании Русесабагина выражал сожаление о недостаточном обеспечении ненасильственных принципов в MRCD и подчеркивал важность ненасильственных методов. В интервью он критиковал отсутствие справедливого суда и процедурных гарантий в отношении себя. Это ограниченное, но явное проявление акцента на защите и обжаловании.",
+        "support_type": "positive_manifestation",
+        "provenance": {
+          "raw_response_file": "evidence/independent_responses/c5fd6ead473169c5827be33f0e98ac53a64d3f2342614836599b02f7a030218f.json",
+          "model": "gpt-4.1",
+          "at": "2026-10-15T17:32:16.023126+00:00",
+          "cache_key": "c5fd6ead473169c5827be33f0e98ac53a64d3f2342614836599b02f7a030218f",
+          "original_proposal": {
+            "variable_id": "procedural-guarantees-enforcement__positive",
+            "status": "observed",
+            "value": 2,
+            "confidence": 0.6,
+            "support_type": "positive_manifestation",
+            "rationale": "В письме о помиловании Русесабагина выражал сожаление о недостаточном обеспечении ненасильственных принципов в MRCD и подчеркивал важность ненасильственных методов. В интервью он критиковал отсутствие справедливого суда и процедурных гарантий в отношении себя. Это ограниченное, но явное проявление акцента на защите и обжаловании.",
+            "evidence_indices": [
+              3,
+              7,
+              10
+            ]
+          }
+        },
+        "evidence_file": "evidence/independent-dossier-paul-rusesabagina.json",
+        "evidence_basis": "c11783b2150e64544249cdf782c50e6252408d785db8c5c4534177beee050b46"
+      },
+      "negative": {
+        "status": "unknown",
+        "value": null,
+        "confidence": 0,
+        "evidence_indices": [],
+        "source_urls": [],
+        "event_ids": [],
+        "rationale": "Нет фактов, прямо свидетельствующих о действиях или заявлениях Русесабагины, направленных на принудительное обеспечение обязательных требований.",
+        "support_type": "unknown",
+        "provenance": {
+          "raw_response_file": "evidence/independent_responses/c5fd6ead473169c5827be33f0e98ac53a64d3f2342614836599b02f7a030218f.json",
+          "model": "gpt-4.1",
+          "at": "2026-10-15T17:32:16.023126+00:00",
+          "cache_key": "c5fd6ead473169c5827be33f0e98ac53a64d3f2342614836599b02f7a030218f",
+          "original_proposal": {
+            "variable_id": "procedural-guarantees-enforcement__negative",
+            "status": "unknown",
+            "value": null,
+            "confidence": 0,
+            "support_type": "unknown",
+            "rationale": "Нет фактов, прямо свидетельствующих о действиях или заявлениях Русесабагины, направленных на принудительное обеспечение обязательных требований.",
+            "evidence_indices": []
+          }
+        },
+        "evidence_file": "evidence/independent-dossier-paul-rusesabagina.json",
+        "evidence_basis": "c11783b2150e64544249cdf782c50e6252408d785db8c5c4534177beee050b46"
+      }
+    },
+    "positive": 2,
+    "negative": null,
+    "value": null,
+    "status": "partial",
+    "difference": null,
+    "mass": null,
+    "measurement_model": "independent_poles",
+    "evidence_file": "evidence/independent-dossier-paul-rusesabagina.json",
+    "evidence_basis": "c11783b2150e64544249cdf782c50e6252408d785db8c5c4534177beee050b46",
+    "at": "2026-10-15T17:32:16.030133+00:00",
+    "reason": "Каждое свойство оценивается независимо; разность и искусственное дополнение до пяти не вычисляются"
+  },
+  {
+    "object_id": "paul-rusesabagina",
+    "scale_id": "prevention-crisis-response",
+    "pole_scores": {
+      "positive": {
+        "status": "observed",
+        "value": 1,
+        "confidence": 0.5,
+        "evidence_indices": [
+          9
+        ],
+        "source_urls": [
+          "https://forbiddenstories.org/paul-rusesabagina-no-one-can-silence-me/"
+        ],
+        "event_ids": [
+          "rusesabagina-2024-04-27-forbidden-stories"
+        ],
+        "rationale": "В интервью 2024-04-27 Русесабагина призывал к международному вмешательству для предотвращения новых жертв, что можно трактовать как единичное проявление упреждающей стратегии.",
+        "support_type": "positive_manifestation",
+        "provenance": {
+          "raw_response_file": "evidence/independent_responses/c5fd6ead473169c5827be33f0e98ac53a64d3f2342614836599b02f7a030218f.json",
+          "model": "gpt-4.1",
+          "at": "2026-10-15T17:32:16.023126+00:00",
+          "cache_key": "c5fd6ead473169c5827be33f0e98ac53a64d3f2342614836599b02f7a030218f",
+          "original_proposal": {
+            "variable_id": "prevention-crisis-response__positive",
+            "status": "observed",
+            "value": 1,
+            "confidence": 0.5,
+            "support_type": "positive_manifestation",
+            "rationale": "В интервью 2024-04-27 Русесабагина призывал к международному вмешательству для предотвращения новых жертв, что можно трактовать как единичное проявление упреждающей стратегии.",
+            "evidence_indices": [
+              9
+            ]
+          }
+        },
+        "evidence_file": "evidence/independent-dossier-paul-rusesabagina.json",
+        "evidence_basis": "c11783b2150e64544249cdf782c50e6252408d785db8c5c4534177beee050b46"
+      },
+      "negative": {
+        "status": "unknown",
+        "value": null,
+        "confidence": 0,
+        "evidence_indices": [],
+        "source_urls": [],
+        "event_ids": [],
+        "rationale": "Нет фактов, прямо свидетельствующих о действиях или заявлениях Русесабагины, направленных на оперативное реагирование на уже возникшие угрозы.",
+        "support_type": "unknown",
+        "provenance": {
+          "raw_response_file": "evidence/independent_responses/c5fd6ead473169c5827be33f0e98ac53a64d3f2342614836599b02f7a030218f.json",
+          "model": "gpt-4.1",
+          "at": "2026-10-15T17:32:16.023126+00:00",
+          "cache_key": "c5fd6ead473169c5827be33f0e98ac53a64d3f2342614836599b02f7a030218f",
+          "original_proposal": {
+            "variable_id": "prevention-crisis-response__negative",
+            "status": "unknown",
+            "value": null,
+            "confidence": 0,
+            "support_type": "unknown",
+            "rationale": "Нет фактов, прямо свидетельствующих о действиях или заявлениях Русесабагины, направленных на оперативное реагирование на уже возникшие угрозы.",
+            "evidence_indices": []
+          }
+        },
+        "evidence_file": "evidence/independent-dossier-paul-rusesabagina.json",
+        "evidence_basis": "c11783b2150e64544249cdf782c50e6252408d785db8c5c4534177beee050b46"
+      }
+    },
+    "positive": 1,
+    "negative": null,
+    "value": null,
+    "status": "partial",
+    "difference": null,
+    "mass": null,
+    "measurement_model": "independent_poles",
+    "evidence_file": "evidence/independent-dossier-paul-rusesabagina.json",
+    "evidence_basis": "c11783b2150e64544249cdf782c50e6252408d785db8c5c4534177beee050b46",
+    "at": "2026-10-15T17:32:16.030133+00:00",
+    "reason": "Каждое свойство оценивается независимо; разность и искусственное дополнение до пяти не вычисляются"
+  },
+  {
+    "object_id": "paul-rusesabagina",
+    "scale_id": "electoral-access",
+    "pole_scores": {
+      "positive": {
+        "status": "observed",
+        "value": 1,
+        "confidence": 0.5,
+        "evidence_indices": [
+          8
+        ],
+        "source_urls": [
+          "https://forbiddenstories.org/paul-rusesabagina-no-one-can-silence-me/"
+        ],
+        "event_ids": [
+          "rusesabagina-2024-05-01-forbidden-stories"
+        ],
+        "rationale": "В интервью 2024-05-01 Русесабагина выражал уверенность в будущем демократии в Руанде, что можно трактовать как единичное публичное проявление поддержки расширения доступа к выборной конкуренции.",
+        "support_type": "positive_manifestation",
+        "provenance": {
+          "raw_response_file": "evidence/independent_responses/c5fd6ead473169c5827be33f0e98ac53a64d3f2342614836599b02f7a030218f.json",
+          "model": "gpt-4.1",
+          "at": "2026-10-15T17:32:16.023126+00:00",
+          "cache_key": "c5fd6ead473169c5827be33f0e98ac53a64d3f2342614836599b02f7a030218f",
+          "original_proposal": {
+            "variable_id": "electoral-access__positive",
+            "status": "observed",
+            "value": 1,
+            "confidence": 0.5,
+            "support_type": "positive_manifestation",
+            "rationale": "В интервью 2024-05-01 Русесабагина выражал уверенность в будущем демократии в Руанде, что можно трактовать как единичное публичное проявление поддержки расширения доступа к выборной конкуренции.",
+            "evidence_indices": [
+              8
+            ]
+          }
+        },
+        "evidence_file": "evidence/independent-dossier-paul-rusesabagina.json",
+        "evidence_basis": "c11783b2150e64544249cdf782c50e6252408d785db8c5c4534177beee050b46"
+      },
+      "negative": {
+        "status": "unknown",
+        "value": null,
+        "confidence": 0,
+        "evidence_indices": [],
+        "source_urls": [],
+        "event_ids": [],
+        "rationale": "Нет фактов, прямо свидетельствующих о действиях или заявлениях Русесабагины, направленных на усиление барьеров политического участия.",
+        "support_type": "unknown",
+        "provenance": {
+          "raw_response_file": "evidence/independent_responses/c5fd6ead473169c5827be33f0e98ac53a64d3f2342614836599b02f7a030218f.json",
+          "model": "gpt-4.1",
+          "at": "2026-10-15T17:32:16.023126+00:00",
+          "cache_key": "c5fd6ead473169c5827be33f0e98ac53a64d3f2342614836599b02f7a030218f",
+          "original_proposal": {
+            "variable_id": "electoral-access__negative",
+            "status": "unknown",
+            "value": null,
+            "confidence": 0,
+            "support_type": "unknown",
+            "rationale": "Нет фактов, прямо свидетельствующих о действиях или заявлениях Русесабагины, направленных на усиление барьеров политического участия.",
+            "evidence_indices": []
+          }
+        },
+        "evidence_file": "evidence/independent-dossier-paul-rusesabagina.json",
+        "evidence_basis": "c11783b2150e64544249cdf782c50e6252408d785db8c5c4534177beee050b46"
+      }
+    },
+    "positive": 1,
+    "negative": null,
+    "value": null,
+    "status": "partial",
+    "difference": null,
+    "mass": null,
+    "measurement_model": "independent_poles",
+    "evidence_file": "evidence/independent-dossier-paul-rusesabagina.json",
+    "evidence_basis": "c11783b2150e64544249cdf782c50e6252408d785db8c5c4534177beee050b46",
+    "at": "2026-10-15T17:32:16.030133+00:00",
+    "reason": "Каждое свойство оценивается независимо; разность и искусственное дополнение до пяти не вычисляются"
+  },
+  {
+    "object_id": "paul-rusesabagina",
+    "scale_id": "institutional-autonomy-coordination",
+    "pole_scores": {
+      "positive": {
+        "status": "unknown",
+        "value": null,
+        "confidence": 0,
+        "evidence_indices": [],
+        "source_urls": [],
+        "event_ids": [],
+        "rationale": "Нет фактов, прямо свидетельствующих о действиях или заявлениях Русесабагины по вопросам автономии или координации институтов.",
+        "support_type": "unknown",
+        "provenance": {
+          "raw_response_file": "evidence/independent_responses/c5fd6ead473169c5827be33f0e98ac53a64d3f2342614836599b02f7a030218f.json",
+          "model": "gpt-4.1",
+          "at": "2026-10-15T17:32:16.023126+00:00",
+          "cache_key": "c5fd6ead473169c5827be33f0e98ac53a64d3f2342614836599b02f7a030218f",
+          "original_proposal": {
+            "variable_id": "institutional-autonomy-coordination__positive",
+            "status": "unknown",
+            "value": null,
+            "confidence": 0,
+            "support_type": "unknown",
+            "rationale": "Нет фактов, прямо свидетельствующих о действиях или заявлениях Русесабагины по вопросам автономии или координации институтов.",
+            "evidence_indices": []
+          }
+        },
+        "evidence_file": "evidence/independent-dossier-paul-rusesabagina.json",
+        "evidence_basis": "c11783b2150e64544249cdf782c50e6252408d785db8c5c4534177beee050b46"
+      },
+      "negative": {
+        "status": "unknown",
+        "value": null,
+        "confidence": 0,
+        "evidence_indices": [],
+        "source_urls": [],
+        "event_ids": [],
+        "rationale": "Нет фактов, прямо свидетельствующих о действиях или заявлениях Русесабагины по вопросам согласования работы институтов единой управленческой линией.",
+        "support_type": "unknown",
+        "provenance": {
+          "raw_response_file": "evidence/independent_responses/c5fd6ead473169c5827be33f0e98ac53a64d3f2342614836599b02f7a030218f.json",
+          "model": "gpt-4.1",
+          "at": "2026-10-15T17:32:16.023126+00:00",
+          "cache_key": "c5fd6ead473169c5827be33f0e98ac53a64d3f2342614836599b02f7a030218f",
+          "original_proposal": {
+            "variable_id": "institutional-autonomy-coordination__negative",
+            "status": "unknown",
+            "value": null,
+            "confidence": 0,
+            "support_type": "unknown",
+            "rationale": "Нет фактов, прямо свидетельствующих о действиях или заявлениях Русесабагины по вопросам согласования работы институтов единой управленческой линией.",
+            "evidence_indices": []
+          }
+        },
+        "evidence_file": "evidence/independent-dossier-paul-rusesabagina.json",
+        "evidence_basis": "c11783b2150e64544249cdf782c50e6252408d785db8c5c4534177beee050b46"
+      }
+    },
+    "positive": null,
+    "negative": null,
+    "value": null,
+    "status": "unknown",
+    "difference": null,
+    "mass": null,
+    "measurement_model": "independent_poles",
+    "evidence_file": "evidence/independent-dossier-paul-rusesabagina.json",
+    "evidence_basis": "c11783b2150e64544249cdf782c50e6252408d785db8c5c4534177beee050b46",
+    "at": "2026-10-15T17:32:16.030133+00:00",
+    "reason": "Каждое свойство оценивается независимо; разность и искусственное дополнение до пяти не вычисляются"
+  },
+  {
+    "object_id": "paul-rusesabagina",
+    "scale_id": "taxation-burden-public-revenue",
+    "pole_scores": {
+      "positive": {
+        "status": "unknown",
+        "value": null,
+        "confidence": 0,
+        "evidence_indices": [],
+        "source_urls": [],
+        "event_ids": [],
+        "rationale": "Нет фактов, прямо свидетельствующих о действиях или заявлениях Русесабагины по вопросам налоговой нагрузки или имущественной самостоятельности.",
+        "support_type": "unknown",
+        "provenance": {
+          "raw_response_file": "evidence/independent_responses/c5fd6ead473169c5827be33f0e98ac53a64d3f2342614836599b02f7a030218f.json",
+          "model": "gpt-4.1",
+          "at": "2026-10-15T17:32:16.023126+00:00",
+          "cache_key": "c5fd6ead473169c5827be33f0e98ac53a64d3f2342614836599b02f7a030218f",
+          "original_proposal": {
+            "variable_id": "taxation-burden-public-revenue__positive",
+            "status": "unknown",
+            "value": null,
+            "confidence": 0,
+            "support_type": "unknown",
+            "rationale": "Нет фактов, прямо свидетельствующих о действиях или заявлениях Русесабагины по вопросам налоговой нагрузки или имущественной самостоятельности.",
+            "evidence_indices": []
+          }
+        },
+        "evidence_file": "evidence/independent-dossier-paul-rusesabagina.json",
+        "evidence_basis": "c11783b2150e64544249cdf782c50e6252408d785db8c5c4534177beee050b46"
+      },
+      "negative": {
+        "status": "unknown",
+        "value": null,
+        "confidence": 0,
+        "evidence_indices": [],
+        "source_urls": [],
+        "event_ids": [],
+        "rationale": "Нет фактов, прямо свидетельствующих о действиях или заявлениях Русесабагины по вопросам увеличения налоговых поступлений.",
+        "support_type": "unknown",
+        "provenance": {
+          "raw_response_file": "evidence/independent_responses/c5fd6ead473169c5827be33f0e98ac53a64d3f2342614836599b02f7a030218f.json",
+          "model": "gpt-4.1",
+          "at": "2026-10-15T17:32:16.023126+00:00",
+          "cache_key": "c5fd6ead473169c5827be33f0e98ac53a64d3f2342614836599b02f7a030218f",
+          "original_proposal": {
+            "variable_id": "taxation-burden-public-revenue__negative",
+            "status": "unknown",
+            "value": null,
+            "confidence": 0,
+            "support_type": "unknown",
+            "rationale": "Нет фактов, прямо свидетельствующих о действиях или заявлениях Русесабагины по вопросам увеличения налоговых поступлений.",
+            "evidence_indices": []
+          }
+        },
+        "evidence_file": "evidence/independent-dossier-paul-rusesabagina.json",
+        "evidence_basis": "c11783b2150e64544249cdf782c50e6252408d785db8c5c4534177beee050b46"
+      }
+    },
+    "positive": null,
+    "negative": null,
+    "value": null,
+    "status": "unknown",
+    "difference": null,
+    "mass": null,
+    "measurement_model": "independent_poles",
+    "evidence_file": "evidence/independent-dossier-paul-rusesabagina.json",
+    "evidence_basis": "c11783b2150e64544249cdf782c50e6252408d785db8c5c4534177beee050b46",
+    "at": "2026-10-15T17:32:16.030133+00:00",
+    "reason": "Каждое свойство оценивается независимо; разность и искусственное дополнение до пяти не вычисляются"
+  },
+  {
+    "object_id": "paul-rusesabagina",
+    "scale_id": "universal-targeted-provision",
+    "pole_scores": {
+      "positive": {
+        "status": "unknown",
+        "value": null,
+        "confidence": 0,
+        "evidence_indices": [],
+        "source_urls": [],
+        "event_ids": [],
+        "rationale": "Нет фактов, прямо свидетельствующих о действиях или заявлениях Русесабагины по вопросам универсальных стандартов доступности благ.",
+        "support_type": "unknown",
+        "provenance": {
+          "raw_response_file": "evidence/independent_responses/c5fd6ead473169c5827be33f0e98ac53a64d3f2342614836599b02f7a030218f.json",
+          "model": "gpt-4.1",
+          "at": "2026-10-15T17:32:16.023126+00:00",
+          "cache_key": "c5fd6ead473169c5827be33f0e98ac53a64d3f2342614836599b02f7a030218f",
+          "original_proposal": {
+            "variable_id": "universal-targeted-provision__positive",
+            "status": "unknown",
+            "value": null,
+            "confidence": 0,
+            "support_type": "unknown",
+            "rationale": "Нет фактов, прямо свидетельствующих о действиях или заявлениях Русесабагины по вопросам универсальных стандартов доступности благ.",
+            "evidence_indices": []
+          }
+        },
+        "evidence_file": "evidence/independent-dossier-paul-rusesabagina.json",
+        "evidence_basis": "c11783b2150e64544249cdf782c50e6252408d785db8c5c4534177beee050b46"
+      },
+      "negative": {
+        "status": "unknown",
+        "value": null,
+        "confidence": 0,
+        "evidence_indices": [],
+        "source_urls": [],
+        "event_ids": [],
+        "rationale": "Нет фактов, прямо свидетельствующих о действиях или заявлениях Русесабагины по вопросам приоритетной помощи конкретным группам.",
+        "support_type": "unknown",
+        "provenance": {
+          "raw_response_file": "evidence/independent_responses/c5fd6ead473169c5827be33f0e98ac53a64d3f2342614836599b02f7a030218f.json",
+          "model": "gpt-4.1",
+          "at": "2026-10-15T17:32:16.023126+00:00",
+          "cache_key": "c5fd6ead473169c5827be33f0e98ac53a64d3f2342614836599b02f7a030218f",
+          "original_proposal": {
+            "variable_id": "universal-targeted-provision__negative",
+            "status": "unknown",
+            "value": null,
+            "confidence": 0,
+            "support_type": "unknown",
+            "rationale": "Нет фактов, прямо свидетельствующих о действиях или заявлениях Русесабагины по вопросам приоритетной помощи конкретным группам.",
+            "evidence_indices": []
+          }
+        },
+        "evidence_file": "evidence/independent-dossier-paul-rusesabagina.json",
+        "evidence_basis": "c11783b2150e64544249cdf782c50e6252408d785db8c5c4534177beee050b46"
+      }
+    },
+    "positive": null,
+    "negative": null,
+    "value": null,
+    "status": "unknown",
+    "difference": null,
+    "mass": null,
+    "measurement_model": "independent_poles",
+    "evidence_file": "evidence/independent-dossier-paul-rusesabagina.json",
+    "evidence_basis": "c11783b2150e64544249cdf782c50e6252408d785db8c5c4534177beee050b46",
+    "at": "2026-10-15T17:32:16.030133+00:00",
+    "reason": "Каждое свойство оценивается независимо; разность и искусственное дополнение до пяти не вычисляются"
+  },
+  {
+    "object_id": "paul-rusesabagina",
+    "scale_id": "ecological-limits-resource-use",
+    "pole_scores": {
+      "positive": {
+        "status": "unknown",
+        "value": null,
+        "confidence": 0,
+        "evidence_indices": [],
+        "source_urls": [],
+        "event_ids": [],
+        "rationale": "Нет фактов, прямо свидетельствующих о действиях или заявлениях Русесабагины по вопросам природоохранных ограничений.",
+        "support_type": "unknown",
+        "provenance": {
+          "raw_response_file": "evidence/independent_responses/c5fd6ead473169c5827be33f0e98ac53a64d3f2342614836599b02f7a030218f.json",
+          "model": "gpt-4.1",
+          "at": "2026-10-15T17:32:16.023126+00:00",
+          "cache_key": "c5fd6ead473169c5827be33f0e98ac53a64d3f2342614836599b02f7a030218f",
+          "original_proposal": {
+            "variable_id": "ecological-limits-resource-use__positive",
+            "status": "unknown",
+            "value": null,
+            "confidence": 0,
+            "support_type": "unknown",
+            "rationale": "Нет фактов, прямо свидетельствующих о действиях или заявлениях Русесабагины по вопросам природоохранных ограничений.",
+            "evidence_indices": []
+          }
+        },
+        "evidence_file": "evidence/independent-dossier-paul-rusesabagina.json",
+        "evidence_basis": "c11783b2150e64544249cdf782c50e6252408d785db8c5c4534177beee050b46"
+      },
+      "negative": {
+        "status": "unknown",
+        "value": null,
+        "confidence": 0,
+        "evidence_indices": [],
+        "source_urls": [],
+        "event_ids": [],
+        "rationale": "Нет фактов, прямо свидетельствующих о действиях или заявлениях Русесабагины по вопросам расширения хозяйственного использования природных ресурсов.",
+        "support_type": "unknown",
+        "provenance": {
+          "raw_response_file": "evidence/independent_responses/c5fd6ead473169c5827be33f0e98ac53a64d3f2342614836599b02f7a030218f.json",
+          "model": "gpt-4.1",
+          "at": "2026-10-15T17:32:16.023126+00:00",
+          "cache_key": "c5fd6ead473169c5827be33f0e98ac53a64d3f2342614836599b02f7a030218f",
+          "original_proposal": {
+            "variable_id": "ecological-limits-resource-use__negative",
+            "status": "unknown",
+            "value": null,
+            "confidence": 0,
+            "support_type": "unknown",
+            "rationale": "Нет фактов, прямо свидетельствующих о действиях или заявлениях Русесабагины по вопросам расширения хозяйственного использования природных ресурсов.",
+            "evidence_indices": []
+          }
+        },
+        "evidence_file": "evidence/independent-dossier-paul-rusesabagina.json",
+        "evidence_basis": "c11783b2150e64544249cdf782c50e6252408d785db8c5c4534177beee050b46"
+      }
+    },
+    "positive": null,
+    "negative": null,
+    "value": null,
+    "status": "unknown",
+    "difference": null,
+    "mass": null,
+    "measurement_model": "independent_poles",
+    "evidence_file": "evidence/independent-dossier-paul-rusesabagina.json",
+    "evidence_basis": "c11783b2150e64544249cdf782c50e6252408d785db8c5c4534177beee050b46",
+    "at": "2026-10-15T17:32:16.030133+00:00",
+    "reason": "Каждое свойство оценивается независимо; разность и искусственное дополнение до пяти не вычисляются"
+  },
+  {
+    "object_id": "paul-rusesabagina",
+    "scale_id": "russia-diplomatic-engagement",
+    "pole_scores": {
+      "positive": {
+        "status": "unknown",
+        "value": null,
+        "confidence": 0,
+        "evidence_indices": [],
+        "source_urls": [],
+        "event_ids": [],
+        "rationale": "Нет допустимых датированных персональных свидетельств по этому свойству",
+        "support_type": "unknown"
+      },
+      "negative": {
+        "status": "unknown",
+        "value": null,
+        "confidence": 0,
+        "evidence_indices": [],
+        "source_urls": [],
+        "event_ids": [],
+        "rationale": "Нет допустимых датированных персональных свидетельств по этому свойству",
+        "support_type": "unknown"
+      }
+    },
+    "positive": null,
+    "negative": null,
+    "value": null,
+    "status": "unknown",
+    "difference": null,
+    "mass": null,
+    "measurement_model": "independent_poles",
+    "evidence_file": "evidence/independent-dossier-paul-rusesabagina.json",
+    "evidence_basis": "c11783b2150e64544249cdf782c50e6252408d785db8c5c4534177beee050b46",
+    "at": "2026-10-15T17:32:16.030133+00:00",
+    "reason": "Каждое свойство оценивается независимо; разность и искусственное дополнение до пяти не вычисляются"
+  },
+  {
+    "object_id": "paul-rusesabagina",
+    "scale_id": "russia-security-cooperation",
+    "pole_scores": {
+      "positive": {
+        "status": "unknown",
+        "value": null,
+        "confidence": 0,
+        "evidence_indices": [],
+        "source_urls": [],
+        "event_ids": [],
+        "rationale": "Нет допустимых датированных персональных свидетельств по этому свойству",
+        "support_type": "unknown"
+      },
+      "negative": {
+        "status": "unknown",
+        "value": null,
+        "confidence": 0,
+        "evidence_indices": [],
+        "source_urls": [],
+        "event_ids": [],
+        "rationale": "Нет допустимых датированных персональных свидетельств по этому свойству",
+        "support_type": "unknown"
+      }
+    },
+    "positive": null,
+    "negative": null,
+    "value": null,
+    "status": "unknown",
+    "difference": null,
+    "mass": null,
+    "measurement_model": "independent_poles",
+    "evidence_file": "evidence/independent-dossier-paul-rusesabagina.json",
+    "evidence_basis": "c11783b2150e64544249cdf782c50e6252408d785db8c5c4534177beee050b46",
+    "at": "2026-10-15T17:32:16.030133+00:00",
+    "reason": "Каждое свойство оценивается независимо; разность и искусственное дополнение до пяти не вычисляются"
+  },
+  {
+    "object_id": "paul-rusesabagina",
+    "scale_id": "russia-economic-technology-cooperation",
+    "pole_scores": {
+      "positive": {
+        "status": "unknown",
+        "value": null,
+        "confidence": 0,
+        "evidence_indices": [],
+        "source_urls": [],
+        "event_ids": [],
+        "rationale": "Нет допустимых датированных персональных свидетельств по этому свойству",
+        "support_type": "unknown"
+      },
+      "negative": {
+        "status": "unknown",
+        "value": null,
+        "confidence": 0,
+        "evidence_indices": [],
+        "source_urls": [],
+        "event_ids": [],
+        "rationale": "Нет допустимых датированных персональных свидетельств по этому свойству",
+        "support_type": "unknown"
+      }
+    },
+    "positive": null,
+    "negative": null,
+    "value": null,
+    "status": "unknown",
+    "difference": null,
+    "mass": null,
+    "measurement_model": "independent_poles",
+    "evidence_file": "evidence/independent-dossier-paul-rusesabagina.json",
+    "evidence_basis": "c11783b2150e64544249cdf782c50e6252408d785db8c5c4534177beee050b46",
+    "at": "2026-10-15T17:32:16.030133+00:00",
+    "reason": "Каждое свойство оценивается независимо; разность и искусственное дополнение до пяти не вычисляются"
+  },
+  {
+    "object_id": "paul-rusesabagina",
+    "scale_id": "russia-education-cultural-cooperation",
+    "pole_scores": {
+      "positive": {
+        "status": "unknown",
+        "value": null,
+        "confidence": 0,
+        "evidence_indices": [],
+        "source_urls": [],
+        "event_ids": [],
+        "rationale": "Нет допустимых датированных персональных свидетельств по этому свойству",
+        "support_type": "unknown"
+      },
+      "negative": {
+        "status": "unknown",
+        "value": null,
+        "confidence": 0,
+        "evidence_indices": [],
+        "source_urls": [],
+        "event_ids": [],
+        "rationale": "Нет допустимых датированных персональных свидетельств по этому свойству",
+        "support_type": "unknown"
+      }
+    },
+    "positive": null,
+    "negative": null,
+    "value": null,
+    "status": "unknown",
+    "difference": null,
+    "mass": null,
+    "measurement_model": "independent_poles",
+    "evidence_file": "evidence/independent-dossier-paul-rusesabagina.json",
+    "evidence_basis": "c11783b2150e64544249cdf782c50e6252408d785db8c5c4534177beee050b46",
+    "at": "2026-10-15T17:32:16.030133+00:00",
+    "reason": "Каждое свойство оценивается независимо; разность и искусственное дополнение до пяти не вычисляются"
+  },
+  {
+    "object_id": "paul-rusesabagina",
+    "scale_id": "russia-conflict-policy-evaluation",
+    "pole_scores": {
+      "positive": {
+        "status": "unknown",
+        "value": null,
+        "confidence": 0,
+        "evidence_indices": [],
+        "source_urls": [],
+        "event_ids": [],
+        "rationale": "Нет допустимых датированных персональных свидетельств по этому свойству",
+        "support_type": "unknown"
+      },
+      "negative": {
+        "status": "unknown",
+        "value": null,
+        "confidence": 0,
+        "evidence_indices": [],
+        "source_urls": [],
+        "event_ids": [],
+        "rationale": "Нет допустимых датированных персональных свидетельств по этому свойству",
+        "support_type": "unknown"
+      }
+    },
+    "positive": null,
+    "negative": null,
+    "value": null,
+    "status": "unknown",
+    "difference": null,
+    "mass": null,
+    "measurement_model": "independent_poles",
+    "evidence_file": "evidence/independent-dossier-paul-rusesabagina.json",
+    "evidence_basis": "c11783b2150e64544249cdf782c50e6252408d785db8c5c4534177beee050b46",
+    "at": "2026-10-15T17:32:16.030133+00:00",
+    "reason": "Каждое свойство оценивается независимо; разность и искусственное дополнение до пяти не вычисляются"
+  },
+  {
+    "object_id": "paul-rusesabagina",
+    "scale_id": "russia-isolation-sanctions",
+    "pole_scores": {
+      "positive": {
+        "status": "unknown",
+        "value": null,
+        "confidence": 0,
+        "evidence_indices": [],
+        "source_urls": [],
+        "event_ids": [],
+        "rationale": "Нет допустимых датированных персональных свидетельств по этому свойству",
+        "support_type": "unknown"
+      },
+      "negative": {
+        "status": "unknown",
+        "value": null,
+        "confidence": 0,
+        "evidence_indices": [],
+        "source_urls": [],
+        "event_ids": [],
+        "rationale": "Нет допустимых датированных персональных свидетельств по этому свойству",
+        "support_type": "unknown"
+      }
+    },
+    "positive": null,
+    "negative": null,
+    "value": null,
+    "status": "unknown",
+    "difference": null,
+    "mass": null,
+    "measurement_model": "independent_poles",
+    "evidence_file": "evidence/independent-dossier-paul-rusesabagina.json",
+    "evidence_basis": "c11783b2150e64544249cdf782c50e6252408d785db8c5c4534177beee050b46",
+    "at": "2026-10-15T17:32:16.030133+00:00",
+    "reason": "Каждое свойство оценивается независимо; разность и искусственное дополнение до пяти не вычисляются"
+  }
+]

@@ -1,0 +1,241 @@
+{
+  "data": {
+    "ratings": [
+      {
+        "variable_id": "programmatic-renewal__positive",
+        "status": "observed",
+        "value": 2,
+        "confidence": 0.8,
+        "support_type": "positive_manifestation",
+        "rationale": "В ряде эпизодов (например, представление пересмотренного бюджета на 2024/25, 2025/26, 2026/27 годы) акцентируется обновление макроэкономической рамки, пересмотр приоритетов, внедрение новых мер по климату, электромобилям, реформе центрального банка. Это ясные ограниченные проявления программного изменения.",
+        "evidence_indices": [
+          0,
+          1,
+          12,
+          15
+        ]
+      },
+      {
+        "variable_id": "programmatic-renewal__negative",
+        "status": "observed",
+        "value": 3,
+        "confidence": 0.85,
+        "support_type": "positive_manifestation",
+        "rationale": "В публичных заявлениях и бюджетных документах неоднократно подчёркивается продолжение действующего курса, макроэкономической стабильности, выполнение национальных стратегий (NST2, Vision 2050), устойчивый рост. Есть устойчивый публичный акцент на закреплении курса.",
+        "evidence_indices": [
+          6,
+          16,
+          18,
+          19,
+          20
+        ]
+      },
+      {
+        "variable_id": "government-course-assessment__positive",
+        "status": "observed",
+        "value": 3,
+        "confidence": 0.85,
+        "support_type": "positive_manifestation",
+        "rationale": "В ряде публичных выступлений и бюджетных презентаций Мурангва связывает экономический рост с результатами проводимой политики, позитивно оценивает достижения и перспективы курса правительства.",
+        "evidence_indices": [
+          6,
+          16,
+          18
+        ]
+      },
+      {
+        "variable_id": "government-course-assessment__negative",
+        "status": "unknown",
+        "value": null,
+        "confidence": 0.7,
+        "support_type": "unknown",
+        "rationale": "Нет прямых эпизодов публичной критики действующего государственного курса в доступных материалах.",
+        "evidence_indices": []
+      },
+      {
+        "variable_id": "participation-administrative-direction__positive",
+        "status": "unknown",
+        "value": null,
+        "confidence": 0.6,
+        "support_type": "unknown",
+        "rationale": "Нет прямых свидетельств приглашения граждан к участию в подготовке решений или общественного контроля; упоминания о консультациях касаются межведомственной координации.",
+        "evidence_indices": []
+      },
+      {
+        "variable_id": "participation-administrative-direction__negative",
+        "status": "observed",
+        "value": 3,
+        "confidence": 0.85,
+        "support_type": "positive_manifestation",
+        "rationale": "В бюджетных и политических документах подчёркнуты административная координация, межведомственные консультации, управленческое планирование и контроль исполнения. Нет данных о независимом общественном контроле.",
+        "evidence_indices": [
+          9,
+          14,
+          21
+        ]
+      },
+      {
+        "variable_id": "argumentation-evidence-values__positive",
+        "status": "observed",
+        "value": 3,
+        "confidence": 0.85,
+        "support_type": "positive_manifestation",
+        "rationale": "В публичных выступлениях и профиле Мурангвы акцентируется использование статистики, данных, макроэкономических показателей для обоснования решений. Примеры — ссылки на рост ВВП, развитие статистической системы, участие в мероприятиях по большим данным.",
+        "evidence_indices": [
+          3,
+          6,
+          16,
+          17
+        ]
+      },
+      {
+        "variable_id": "argumentation-evidence-values__negative",
+        "status": "unknown",
+        "value": null,
+        "confidence": 0.7,
+        "support_type": "unknown",
+        "rationale": "Нет прямых эпизодов, где обоснование строится на ценностях, памяти или коллективных символах.",
+        "evidence_indices": []
+      },
+      {
+        "variable_id": "market-state-instruments__positive",
+        "status": "observed",
+        "value": 2,
+        "confidence": 0.75,
+        "support_type": "positive_manifestation",
+        "rationale": "В ряде бюджетных документов и выступлений отмечены меры по поддержке частных инвестиций, финансовой инклюзии, цифровизации, что свидетельствует о поддержке частной инициативы, но без устойчивого акцента.",
+        "evidence_indices": [
+          2,
+          1
+        ]
+      },
+      {
+        "variable_id": "market-state-instruments__negative",
+        "status": "observed",
+        "value": 2,
+        "confidence": 0.75,
+        "support_type": "positive_manifestation",
+        "rationale": "Одновременно акцентируются меры государственного планирования, бюджетного контроля, консолидации и обязательных правил в управлении финансами.",
+        "evidence_indices": [
+          0,
+          13
+        ]
+      },
+      {
+        "variable_id": "accessibility-growth-priorities__positive",
+        "status": "observed",
+        "value": 3,
+        "confidence": 0.85,
+        "support_type": "positive_manifestation",
+        "rationale": "В ряде бюджетных презентаций и документах подчёркнуты приоритеты расширения доступа к здравоохранению, образованию, социальной защите, питанию, защите уязвимых групп.",
+        "evidence_indices": [
+          10,
+          13,
+          17
+        ]
+      },
+      {
+        "variable_id": "accessibility-growth-priorities__negative",
+        "status": "observed",
+        "value": 3,
+        "confidence": 0.85,
+        "support_type": "positive_manifestation",
+        "rationale": "Параллельно в ряде эпизодов акцентируются рост инвестиций, экспорт, конкурентоспособность, занятость, что свидетельствует о сбалансированном приоритете роста.",
+        "evidence_indices": [
+          2,
+          10,
+          18
+        ]
+      },
+      {
+        "variable_id": "external-domestic-resources__positive",
+        "status": "observed",
+        "value": 3,
+        "confidence": 0.85,
+        "support_type": "positive_manifestation",
+        "rationale": "В публичных заявлениях и документах подчёркнуто привлечение внешнего финансирования (ООН, Всемирный банк), согласование международной помощи с национальными стратегиями.",
+        "evidence_indices": [
+          4,
+          5,
+          19,
+          20
+        ]
+      },
+      {
+        "variable_id": "external-domestic-resources__negative",
+        "status": "observed",
+        "value": 2,
+        "confidence": 0.75,
+        "support_type": "positive_manifestation",
+        "rationale": "В ряде бюджетных обращений отмечена мобилизация внутренних доходов, повышение эффективности использования внутренних ресурсов, но без устойчивого доминирования этого полюса.",
+        "evidence_indices": [
+          11,
+          22
+        ]
+      },
+      {
+        "variable_id": "international-rules-autonomy__positive",
+        "status": "observed",
+        "value": 2,
+        "confidence": 0.75,
+        "support_type": "positive_manifestation",
+        "rationale": "В эпизодах сотрудничества с ООН и международными организациями подчёркнуто согласование с международными стандартами и обязательствами, но без сильного повторяющегося акцента.",
+        "evidence_indices": [
+          4,
+          19
+        ]
+      },
+      {
+        "variable_id": "international-rules-autonomy__negative",
+        "status": "observed",
+        "value": 2,
+        "confidence": 0.75,
+        "support_type": "positive_manifestation",
+        "rationale": "В эпизоде реформы центрального банка отмечена защита институциональной самостоятельности; также акцентируется согласование международной помощи с национальными стратегиями, что подразумевает защиту национального решения.",
+        "evidence_indices": [
+          12,
+          4
+        ]
+      },
+      {
+        "variable_id": "mediation-adversarial-communication__positive",
+        "status": "unknown",
+        "value": null,
+        "confidence": 0.6,
+        "support_type": "unknown",
+        "rationale": "Нет прямых эпизодов посредничества или публичного предложения согласования интересов сторон.",
+        "evidence_indices": []
+      },
+      {
+        "variable_id": "mediation-adversarial-communication__negative",
+        "status": "unknown",
+        "value": null,
+        "confidence": 0.6,
+        "support_type": "unknown",
+        "rationale": "Нет прямых эпизодов публичного опровержения обвинений, спора с другой стороной или защиты собственного требования в полемической форме.",
+        "evidence_indices": []
+      }
+    ]
+  },
+  "model": "gpt-4.1",
+  "task": "independent-ratings-yusuf-murangwa-0",
+  "at": "2026-10-15T17:29:47.462834+00:00",
+  "usage": {
+    "prompt_tokens": 8575,
+    "completion_tokens": 1563,
+    "total_tokens": 10138,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "audio_tokens": 0
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "audio_tokens": 0,
+      "accepted_prediction_tokens": 0,
+      "rejected_prediction_tokens": 0
+    }
+  },
+  "citations": [],
+  "system_fingerprint": "fp_801d3b7b5c",
+  "cache_key": "fac17937f1c53c92cfb8dca09872f0641095880a32dbc065b2af0b17601ad356"
+}

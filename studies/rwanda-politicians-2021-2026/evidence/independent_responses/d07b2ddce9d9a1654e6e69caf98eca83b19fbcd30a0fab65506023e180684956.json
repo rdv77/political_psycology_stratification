@@ -1,0 +1,207 @@
+{
+  "data": {
+    "ratings": [
+      {
+        "variable_id": "programmatic-renewal__positive",
+        "status": "unknown",
+        "value": null,
+        "confidence": 0,
+        "support_type": "unknown",
+        "rationale": "Нет прямых персональных заявлений или действий Мукабалисы, свидетельствующих о явных предложениях пересмотреть действующие приоритеты, правила или программы.",
+        "evidence_indices": []
+      },
+      {
+        "variable_id": "programmatic-renewal__negative",
+        "status": "unknown",
+        "value": null,
+        "confidence": 0,
+        "support_type": "unknown",
+        "rationale": "Нет прямых персональных заявлений или действий Мукабалисы, свидетельствующих о призывах продолжить, закрепить или ускорить уже принятый курс.",
+        "evidence_indices": []
+      },
+      {
+        "variable_id": "government-course-assessment__positive",
+        "status": "observed",
+        "value": 2,
+        "confidence": 0.7,
+        "support_type": "positive_manifestation",
+        "rationale": "В публичном выступлении Мукабалиса призвала лидеров брать ответственность за противодействие силам, стремящимся разрушить достигнутое, что указывает на поддержку достигнутых результатов государственного курса и акцент на их сохранении.",
+        "evidence_indices": [
+          1,
+          6
+        ]
+      },
+      {
+        "variable_id": "government-course-assessment__negative",
+        "status": "unknown",
+        "value": null,
+        "confidence": 0,
+        "support_type": "unknown",
+        "rationale": "Нет прямых персональных заявлений или действий, свидетельствующих о публичной критике действующего государственного курса.",
+        "evidence_indices": []
+      },
+      {
+        "variable_id": "participation-administrative-direction__positive",
+        "status": "observed",
+        "value": 2,
+        "confidence": 0.7,
+        "support_type": "positive_manifestation",
+        "rationale": "На семинаре по гендерно-ориентированному управлению Мукабалиса призвала к парламентскому контролю исполнения и оценке соответствия политики гендерным целям, что указывает на элементы совместного обсуждения и контроля.",
+        "evidence_indices": [
+          7
+        ]
+      },
+      {
+        "variable_id": "participation-administrative-direction__negative",
+        "status": "observed",
+        "value": 2,
+        "confidence": 0.7,
+        "support_type": "positive_manifestation",
+        "rationale": "В ряде случаев Мукабалиса действовала в рамках административного контроля исполнения (например, инспекция водоснабжения, призыв к ответственности лидеров), что указывает на элементы административной постановки задач и контроля.",
+        "evidence_indices": [
+          1,
+          6,
+          11
+        ]
+      },
+      {
+        "variable_id": "argumentation-evidence-values__positive",
+        "status": "observed",
+        "value": 2,
+        "confidence": 0.7,
+        "support_type": "positive_manifestation",
+        "rationale": "На семинаре по гендерно-ориентированному бюджетированию Мукабалиса призывала к контролю исполнения, использованию показателей и оценке достигнутого, что указывает на опору на данные и проверяемые результаты.",
+        "evidence_indices": [
+          7
+        ]
+      },
+      {
+        "variable_id": "argumentation-evidence-values__negative",
+        "status": "observed",
+        "value": 2,
+        "confidence": 0.7,
+        "support_type": "positive_manifestation",
+        "rationale": "В выступлении о противодействии идеологии геноцида Мукабалиса использовала ценностно-историческую аргументацию, апеллируя к памяти о геноциде и национальному единству.",
+        "evidence_indices": [
+          1,
+          6
+        ]
+      },
+      {
+        "variable_id": "market-state-instruments__positive",
+        "status": "unknown",
+        "value": null,
+        "confidence": 0,
+        "support_type": "unknown",
+        "rationale": "Нет прямых персональных заявлений или действий, свидетельствующих о расширении частной инициативы и управления.",
+        "evidence_indices": []
+      },
+      {
+        "variable_id": "market-state-instruments__negative",
+        "status": "unknown",
+        "value": null,
+        "confidence": 0,
+        "support_type": "unknown",
+        "rationale": "Нет прямых персональных заявлений или действий, свидетельствующих о расширении государственного планирования и обязательных правил.",
+        "evidence_indices": []
+      },
+      {
+        "variable_id": "accessibility-growth-priorities__positive",
+        "status": "observed",
+        "value": 2,
+        "confidence": 0.7,
+        "support_type": "positive_manifestation",
+        "rationale": "В инспекции проектов водоснабжения Мукабалиса участвовала в контроле расширения доступа к базовой услуге (питьевая вода), что указывает на приоритет доступности базовых благ.",
+        "evidence_indices": [
+          11
+        ]
+      },
+      {
+        "variable_id": "accessibility-growth-priorities__negative",
+        "status": "unknown",
+        "value": null,
+        "confidence": 0,
+        "support_type": "unknown",
+        "rationale": "Нет прямых персональных заявлений или действий, свидетельствующих о приоритете роста инвестиций, конкурентоспособности и деловой активности.",
+        "evidence_indices": []
+      },
+      {
+        "variable_id": "external-domestic-resources__positive",
+        "status": "observed",
+        "value": 2,
+        "confidence": 0.7,
+        "support_type": "positive_manifestation",
+        "rationale": "Мукабалиса публично положительно оценила поддержку ЕС развитию Руанды и парламенту, что свидетельствует о поддержке внешнего ресурсного партнёрства.",
+        "evidence_indices": [
+          10
+        ]
+      },
+      {
+        "variable_id": "external-domestic-resources__negative",
+        "status": "unknown",
+        "value": null,
+        "confidence": 0,
+        "support_type": "unknown",
+        "rationale": "Нет прямых персональных заявлений или действий, свидетельствующих о приоритете внутренней ресурсной самостоятельности.",
+        "evidence_indices": []
+      },
+      {
+        "variable_id": "international-rules-autonomy__positive",
+        "status": "unknown",
+        "value": null,
+        "confidence": 0,
+        "support_type": "unknown",
+        "rationale": "Нет прямых персональных заявлений или действий, свидетельствующих о закреплении международных обязательств.",
+        "evidence_indices": []
+      },
+      {
+        "variable_id": "international-rules-autonomy__negative",
+        "status": "unknown",
+        "value": null,
+        "confidence": 0,
+        "support_type": "unknown",
+        "rationale": "Нет прямых персональных заявлений или действий, свидетельствующих о защите национальной самостоятельности решений.",
+        "evidence_indices": []
+      },
+      {
+        "variable_id": "mediation-adversarial-communication__positive",
+        "status": "unknown",
+        "value": null,
+        "confidence": 0,
+        "support_type": "unknown",
+        "rationale": "Нет прямых персональных заявлений или действий, свидетельствующих о посредничестве, переговорах или поиске согласования.",
+        "evidence_indices": []
+      },
+      {
+        "variable_id": "mediation-adversarial-communication__negative",
+        "status": "unknown",
+        "value": null,
+        "confidence": 0,
+        "support_type": "unknown",
+        "rationale": "Нет прямых персональных заявлений или действий, свидетельствующих о полемическом оспаривании или защите собственной стороны.",
+        "evidence_indices": []
+      }
+    ]
+  },
+  "model": "gpt-4.1",
+  "task": "independent-ratings-donatille-mukabalisa-0",
+  "at": "2026-10-15T17:31:08.413882+00:00",
+  "usage": {
+    "prompt_tokens": 6635,
+    "completion_tokens": 1760,
+    "total_tokens": 8395,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "audio_tokens": 0
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "audio_tokens": 0,
+      "accepted_prediction_tokens": 0,
+      "rejected_prediction_tokens": 0
+    }
+  },
+  "citations": [],
+  "system_fingerprint": "fp_801d3b7b5c",
+  "cache_key": "d07b2ddce9d9a1654e6e69caf98eca83b19fbcd30a0fab65506023e180684956"
+}

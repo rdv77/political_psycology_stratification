@@ -1,0 +1,239 @@
+{
+  "data": {
+    "ratings": [
+      {
+        "variable_id": "programmatic-renewal__positive",
+        "status": "observed",
+        "value": 2,
+        "confidence": 0.8,
+        "support_type": "positive_manifestation",
+        "rationale": "Мурасира на конференции ООН по миротворчеству (2021-12-08) предложил развивать новые цифровые и медицинские возможности миротворческих миссий, а также увеличить участие женщин в командных должностях. Это явное предложение обновления существующих программ, но выражено в ограниченном тематическом контексте (миротворчество, инклюзивность), не как системный пересмотр всех приоритетов.",
+        "evidence_indices": [
+          0,
+          9
+        ]
+      },
+      {
+        "variable_id": "programmatic-renewal__negative",
+        "status": "observed",
+        "value": 2,
+        "confidence": 0.8,
+        "support_type": "positive_manifestation",
+        "rationale": "В эпизодах по снижению риска катастроф (2024-11-07, 2024-11-08) Мурасира подчёркивал необходимость реализации уже принятых стратегий и политик, призывал ускорить их исполнение и поддерживал действующий курс. Это ограниченное, но прямое подтверждение полюса закрепления текущего курса.",
+        "evidence_indices": [
+          4,
+          10,
+          11
+        ]
+      },
+      {
+        "variable_id": "government-course-assessment__positive",
+        "status": "observed",
+        "value": 2,
+        "confidence": 0.8,
+        "support_type": "positive_manifestation",
+        "rationale": "Мурасира публично подтверждал приверженность правительства предотвращению катастроф и готовности к ним, а также поддерживал реализацию национальных стратегий (2024-11-07, 2024-11-08). Это ограниченное, но прямое подтверждение поддержки действующего курса.",
+        "evidence_indices": [
+          3,
+          4,
+          10,
+          11
+        ]
+      },
+      {
+        "variable_id": "government-course-assessment__negative",
+        "status": "unknown",
+        "value": null,
+        "confidence": 0.5,
+        "support_type": "unknown",
+        "rationale": "Нет прямых эпизодов публичной критики действующего государственного курса или его ключевых направлений.",
+        "evidence_indices": []
+      },
+      {
+        "variable_id": "participation-administrative-direction__positive",
+        "status": "observed",
+        "value": 2,
+        "confidence": 0.7,
+        "support_type": "positive_manifestation",
+        "rationale": "Мурасира призывал к сотрудничеству, партнёрству, обмену данными между институтами и участию разных уровней в реализации политики снижения риска (2024-11-07, 2024-11-08). Это ограниченное проявление совместного обсуждения и контроля.",
+        "evidence_indices": [
+          4,
+          10,
+          11
+        ]
+      },
+      {
+        "variable_id": "participation-administrative-direction__negative",
+        "status": "observed",
+        "value": 2,
+        "confidence": 0.7,
+        "support_type": "positive_manifestation",
+        "rationale": "В тех же эпизодах Мурасира подчёркивал необходимость исполнения уже принятых решений и стратегий, что отражает административную постановку задач и контроль исполнения.",
+        "evidence_indices": [
+          4,
+          10,
+          11
+        ]
+      },
+      {
+        "variable_id": "argumentation-evidence-values__positive",
+        "status": "observed",
+        "value": 2,
+        "confidence": 0.7,
+        "support_type": "positive_manifestation",
+        "rationale": "В ряде выступлений Мурасира ссылался на национальные стратегии, международные рамочные программы (например, Сендайская рамочная программа, NST2), а также на необходимость обмена данными и мониторинга. Это ограниченное, но прямое использование данных и стратегий как обоснования.",
+        "evidence_indices": [
+          4,
+          10,
+          14
+        ]
+      },
+      {
+        "variable_id": "argumentation-evidence-values__negative",
+        "status": "observed",
+        "value": 1,
+        "confidence": 0.6,
+        "support_type": "positive_manifestation",
+        "rationale": "В эпизодах с миротворчеством и защитой гражданского населения (2021-12-08) присутствует ценностная риторика (поддержка мира, защита граждан), но без устойчивого акцента на ценностях как основном способе обоснования.",
+        "evidence_indices": [
+          0,
+          1,
+          9
+        ]
+      },
+      {
+        "variable_id": "market-state-instruments__positive",
+        "status": "observed",
+        "value": 2,
+        "confidence": 0.7,
+        "support_type": "positive_manifestation",
+        "rationale": "В стратегии по беженцам (2026-06-30) Мурасира призывал расширять доступ к предпринимательству, финансовым услугам и привлекать частный сектор, что прямо поддерживает расширение частной инициативы.",
+        "evidence_indices": [
+          12
+        ]
+      },
+      {
+        "variable_id": "market-state-instruments__negative",
+        "status": "unknown",
+        "value": null,
+        "confidence": 0.5,
+        "support_type": "unknown",
+        "rationale": "Нет прямых эпизодов, где Мурасира бы делал акцент на расширении государственного планирования или обязательных правил сверх обычной административной практики.",
+        "evidence_indices": []
+      },
+      {
+        "variable_id": "accessibility-growth-priorities__positive",
+        "status": "observed",
+        "value": 2,
+        "confidence": 0.7,
+        "support_type": "positive_manifestation",
+        "rationale": "В эпизодах по работе с беженцами (2026-06-30) и запуске центра развития детей (2024-03-01) Мурасира поддерживал расширение доступа к базовым благам для конкретных групп (беженцы, дети), но не делал это универсальным приоритетом.",
+        "evidence_indices": [
+          2,
+          8,
+          12
+        ]
+      },
+      {
+        "variable_id": "accessibility-growth-priorities__negative",
+        "status": "observed",
+        "value": 1,
+        "confidence": 0.6,
+        "support_type": "positive_manifestation",
+        "rationale": "В стратегии по беженцам (2026-06-30) упоминается поддержка предпринимательства и занятости, что связано с ростом деловой активности, но не является устойчивым акцентом на инвестициях или конкурентоспособности.",
+        "evidence_indices": [
+          12
+        ]
+      },
+      {
+        "variable_id": "external-domestic-resources__positive",
+        "status": "observed",
+        "value": 2,
+        "confidence": 0.7,
+        "support_type": "positive_manifestation",
+        "rationale": "В эпизодах по беженцам и устойчивости (2026-06-22, 2026-06-30) Мурасира опирался на международных и гуманитарных партнёров, что подтверждает привлечение внешних ресурсов.",
+        "evidence_indices": [
+          12,
+          13
+        ]
+      },
+      {
+        "variable_id": "external-domestic-resources__negative",
+        "status": "observed",
+        "value": 1,
+        "confidence": 0.6,
+        "support_type": "positive_manifestation",
+        "rationale": "В стратегии по беженцам (2026-06-30) поставлена цель перевести домохозяйства к самодостаточности, что отражает ограниченное стремление к внутренней самостоятельности, но не как устойчивый акцент.",
+        "evidence_indices": [
+          12
+        ]
+      },
+      {
+        "variable_id": "international-rules-autonomy__positive",
+        "status": "observed",
+        "value": 2,
+        "confidence": 0.8,
+        "support_type": "positive_manifestation",
+        "rationale": "Мурасира подтверждал поддержку Kigali Principles, Сендайской рамочной программы, международных гуманитарных механизмов и обязательств (2021-12-08, 2026-10-15, 2026-06-22), что прямо указывает на закрепление международных норм.",
+        "evidence_indices": [
+          0,
+          9,
+          13,
+          14
+        ]
+      },
+      {
+        "variable_id": "international-rules-autonomy__negative",
+        "status": "unknown",
+        "value": null,
+        "confidence": 0.5,
+        "support_type": "unknown",
+        "rationale": "Нет прямых эпизодов, где Мурасира бы защищал национальную самостоятельность решений или возражал против международных обязательств.",
+        "evidence_indices": []
+      },
+      {
+        "variable_id": "mediation-adversarial-communication__positive",
+        "status": "observed",
+        "value": 2,
+        "confidence": 0.7,
+        "support_type": "positive_manifestation",
+        "rationale": "В эпизодах по беженцам и снижению риска катастроф (2024-11-07, 2026-06-22) Мурасира призывал к сотрудничеству, партнёрству и согласованию между институтами и странами, что подтверждает ограниченное проявление посредничества и поиска согласования.",
+        "evidence_indices": [
+          4,
+          10,
+          13
+        ]
+      },
+      {
+        "variable_id": "mediation-adversarial-communication__negative",
+        "status": "unknown",
+        "value": null,
+        "confidence": 0.5,
+        "support_type": "unknown",
+        "rationale": "Нет прямых эпизодов публичного оспаривания, спора или защиты собственной стороны против внешних обвинений или требований.",
+        "evidence_indices": []
+      }
+    ]
+  },
+  "model": "gpt-4.1",
+  "task": "independent-ratings-albert-murasira-0",
+  "at": "2026-10-15T17:29:31.123207+00:00",
+  "usage": {
+    "prompt_tokens": 7215,
+    "completion_tokens": 1803,
+    "total_tokens": 9018,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "audio_tokens": 0
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "audio_tokens": 0,
+      "accepted_prediction_tokens": 0,
+      "rejected_prediction_tokens": 0
+    }
+  },
+  "citations": [],
+  "system_fingerprint": "fp_801d3b7b5c",
+  "cache_key": "11468b2eaa355196e4c0c1e2960885a2c75439c7a4fba4bd118b1b41671892ea"
+}

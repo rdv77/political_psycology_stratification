@@ -1,0 +1,886 @@
+{
+  "format_version": 1,
+  "study_id": "rwanda-politicians-2021-2026",
+  "batch_id": "independent-completion-batch-3",
+  "reviewed_at": "2026-10-15",
+  "reviewer": {
+    "id": "service_concept",
+    "type": "assistant_source_grounded_review",
+    "measurement_origin": "Новые прозрачные ассистентские/LLM-оценки, не первичные эмпирические человеческие измерения."
+  },
+  "scope": {
+    "properties": [
+      "market-state-instruments__negative",
+      "accessibility-growth-priorities__negative"
+    ],
+    "all_current_unknown_required": true,
+    "objects_total": 42,
+    "period": {
+      "date_from": "2021-10-15",
+      "date_to": "2026-10-15"
+    },
+    "no_factor_model_used": true,
+    "no_threshold_based_stopping": true,
+    "known_cells_untouched": true
+  },
+  "checked_properties": [
+    [
+      "paul-kagame",
+      "market-state-instruments",
+      "negative"
+    ],
+    [
+      "olivier-nduhungirehe",
+      "market-state-instruments",
+      "negative"
+    ],
+    [
+      "james-kabarebe",
+      "market-state-instruments",
+      "negative"
+    ],
+    [
+      "juvenal-marizamunda",
+      "market-state-instruments",
+      "negative"
+    ],
+    [
+      "albert-murasira",
+      "market-state-instruments",
+      "negative"
+    ],
+    [
+      "ines-mpambara",
+      "market-state-instruments",
+      "negative"
+    ],
+    [
+      "gerardine-mukeshimana",
+      "market-state-instruments",
+      "negative"
+    ],
+    [
+      "clare-akamanzi",
+      "market-state-instruments",
+      "negative"
+    ],
+    [
+      "francis-gatare",
+      "market-state-instruments",
+      "negative"
+    ],
+    [
+      "gertrude-kazarwa",
+      "market-state-instruments",
+      "negative"
+    ],
+    [
+      "donatille-mukabalisa",
+      "market-state-instruments",
+      "negative"
+    ],
+    [
+      "francois-xavier-kalinda",
+      "market-state-instruments",
+      "negative"
+    ],
+    [
+      "augustin-iyamuremye",
+      "market-state-instruments",
+      "negative"
+    ],
+    [
+      "philippe-mpayimana",
+      "market-state-instruments",
+      "negative"
+    ],
+    [
+      "diane-rwigara",
+      "market-state-instruments",
+      "negative"
+    ],
+    [
+      "bernard-ntaganda",
+      "market-state-instruments",
+      "negative"
+    ],
+    [
+      "christopher-kayumba",
+      "market-state-instruments",
+      "negative"
+    ],
+    [
+      "paul-rusesabagina",
+      "market-state-instruments",
+      "negative"
+    ],
+    [
+      "kayumba-nyamwasa",
+      "market-state-instruments",
+      "negative"
+    ],
+    [
+      "louise-mushikiwabo",
+      "market-state-instruments",
+      "negative"
+    ],
+    [
+      "claver-gatete",
+      "market-state-instruments",
+      "negative"
+    ],
+    [
+      "paul-kagame",
+      "accessibility-growth-priorities",
+      "negative"
+    ],
+    [
+      "juvenal-marizamunda",
+      "accessibility-growth-priorities",
+      "negative"
+    ],
+    [
+      "emmanuel-ugirashebuja",
+      "accessibility-growth-priorities",
+      "negative"
+    ],
+    [
+      "sabin-nsanzimana",
+      "accessibility-growth-priorities",
+      "negative"
+    ],
+    [
+      "judith-uwizeye",
+      "accessibility-growth-priorities",
+      "negative"
+    ],
+    [
+      "ines-mpambara",
+      "accessibility-growth-priorities",
+      "negative"
+    ],
+    [
+      "valentine-uwamariya",
+      "accessibility-growth-priorities",
+      "negative"
+    ],
+    [
+      "jean-claude-musabyimana",
+      "accessibility-growth-priorities",
+      "negative"
+    ],
+    [
+      "jean-damascene-bizimana",
+      "accessibility-growth-priorities",
+      "negative"
+    ],
+    [
+      "donatille-mukabalisa",
+      "accessibility-growth-priorities",
+      "negative"
+    ],
+    [
+      "francois-xavier-kalinda",
+      "accessibility-growth-priorities",
+      "negative"
+    ],
+    [
+      "alvera-mukabaramba",
+      "accessibility-growth-priorities",
+      "negative"
+    ],
+    [
+      "mussa-fazil-harerimana",
+      "accessibility-growth-priorities",
+      "negative"
+    ],
+    [
+      "philippe-mpayimana",
+      "accessibility-growth-priorities",
+      "negative"
+    ],
+    [
+      "diane-rwigara",
+      "accessibility-growth-priorities",
+      "negative"
+    ],
+    [
+      "bernard-ntaganda",
+      "accessibility-growth-priorities",
+      "negative"
+    ],
+    [
+      "christopher-kayumba",
+      "accessibility-growth-priorities",
+      "negative"
+    ],
+    [
+      "paul-rusesabagina",
+      "accessibility-growth-priorities",
+      "negative"
+    ],
+    [
+      "kayumba-nyamwasa",
+      "accessibility-growth-priorities",
+      "negative"
+    ],
+    [
+      "louise-mushikiwabo",
+      "accessibility-growth-priorities",
+      "negative"
+    ],
+    [
+      "valentine-rugwabiza",
+      "accessibility-growth-priorities",
+      "negative"
+    ]
+  ],
+  "observations": [
+    {
+      "object_id": "paul-kagame",
+      "scale_id": "accessibility-growth-priorities",
+      "pole": "negative",
+      "value": 2,
+      "evidence_indices": [],
+      "rationale": "В собственном выступлении 09.10.2024 Кагаме прямо призвал создать условия для роста бизнеса: убрать нетарифные барьеры, снизить логистические издержки и помочь МСП вырасти. Это самостоятельный приоритет деловой активности, а не вывод из должности или из международной встречи. 2 — ясное ограниченное проявление в одном выбранном эпизоде; другие прочитанные выступления здесь не повышают число.",
+      "source_urls": [
+        "https://www.paulkagame.rw/biashara-afrika-2024-remarks-by-president-kagame-kigali-9-october-2024/"
+      ],
+      "new_facts": [
+        {
+          "text": "В речи на Biashara Afrika 9 октября 2024 года Поль Кагаме призвал правительства создавать благоприятные условия для бизнеса, сохранять приоритет снятия нетарифных барьеров и облегчения трансграничного движения, снижать стоимость перевозок и логистики. Он отдельно заявил, что поддержку следует сосредоточить на малых и средних предприятиях, которые должны расти.",
+          "source_url": "https://www.paulkagame.rw/biashara-afrika-2024-remarks-by-president-kagame-kigali-9-october-2024/",
+          "source_title": "Biashara Afrika 2024 | Remarks by President Kagame | Kigali, 9 October 2024",
+          "period": "2024-10-09",
+          "event_id": "kagame-biashara-afrika-2024-10-09",
+          "capacity": "Президент Руанды; собственная публичная экономическая речь",
+          "channel": "public_statement",
+          "topic_ids": [],
+          "verification_status": "full_primary_text_read",
+          "source_date_precision": "day"
+        }
+      ],
+      "prior_unknown_rationale": "Нет прямых заявлений Кагаме о приоритете роста инвестиций, конкурентоспособности или деловой активности.",
+      "review_origin": "assistant_completion_review_not_primary_empirical",
+      "independent_episode_count_used": 1
+    },
+    {
+      "object_id": "judith-uwizeye",
+      "scale_id": "accessibility-growth-priorities",
+      "pole": "negative",
+      "value": 2,
+      "evidence_indices": [
+        5
+      ],
+      "rationale": "В 5 прямо и персонально приписана Увизейе поддержка усиления инициатив создания рабочих мест на церемонии 15.06.2026; полный MIFOTRA-текст это подтверждает. Это конкретный приоритет занятости, допустимый по уточнённому заданию, а не просто её должность или общая польза гражданам. 5/10/13 — один эпизод; 2 не означает устойчивую ориентацию по множеству случаев. Прежнее отклонение accessibility-positive касалось расширения охвата базовыми благами и сюда не переносится.",
+      "source_urls": [
+        "https://www.mifotra.gov.rw/news-detail/ministry-of-public-service-and-labour-holds-ministerial-handover-ceremony"
+      ],
+      "prior_unknown_rationale": "Нет прямых заявлений о приоритете роста инвестиций, экспорта или деловой активности.",
+      "review_origin": "assistant_completion_review_not_primary_empirical",
+      "independent_episode_count_used": 1
+    },
+    {
+      "object_id": "sabin-nsanzimana",
+      "scale_id": "accessibility-growth-priorities",
+      "pole": "negative",
+      "value": 2,
+      "evidence_indices": [],
+      "rationale": "Заново прочитанный полный первичный MOH-текст содержит другое прямое основание, которого не было в прежнем расплывчатом факте 9: собственное сожаление Нсанзиманы о более чем 90% внешних поставок и одобрение перехода к местному производству и распределению вакцин/лекарств. Это явный производственный приоритет одного эпизода (2), не вывод из медицинского соглашения или отраслевой должности. Старый отклонённый тезис о «значимом событии для здравоохранения» не восстанавливается. Точный день не установлен; 2023 полностью внутри окна.",
+      "source_urls": [
+        "https://www.moh.gov.rw/news-detail/african-health-ministers-meet-in-kigali-to-launch-biontech-manufacturing-site"
+      ],
+      "new_facts": [
+        {
+          "text": "В собственном вступительном выступлении на встрече африканских министров здравоохранения, приуроченной к открытию первой африканской производственной площадки BioNTech в Кигали, Сабин Нсанзимана выразил сожаление, что Африка получает извне более 90% вакцин, лекарств и терапевтических средств, и положительно оценил совместные усилия по их местному производству и распределению. Это его публичный приоритет развития производства, не просто наличие объекта или подписи под медицинским соглашением.",
+          "source_url": "https://www.moh.gov.rw/news-detail/african-health-ministers-meet-in-kigali-to-launch-biontech-manufacturing-site",
+          "source_title": "African health ministers meet in Kigali to launch BioNTech manufacturing site",
+          "period": "2023",
+          "source_date_precision": "year",
+          "date_note": "В существующем досье событие датировано 2023 годом; открытая первичная страница не показывает точный день. День не реконструирован.",
+          "event_id": "nsanzimana-biontech-production-priority-2023",
+          "capacity": "Министр здравоохранения Руанды; собственные вступительные замечания на отраслевой встрече",
+          "channel": "public_statement",
+          "topic_ids": [],
+          "verification_status": "full_primary_text_read"
+        }
+      ],
+      "prior_unknown_rationale": "Проверка оснований: 9/12/13/14 — производство вакцин и медицинское сотрудничество, описанные через пользу здравоохранению. Конкретный собственный приоритет инвестиций, экспорта, конкурентоспособности или роста деловой активности не назван; технологический проект не определяет этот полюс автоматически.",
+      "review_origin": "assistant_completion_review_not_primary_empirical",
+      "independent_episode_count_used": 1
+    },
+    {
+      "object_id": "louise-mushikiwabo",
+      "scale_id": "accessibility-growth-priorities",
+      "pole": "negative",
+      "value": 2,
+      "evidence_indices": [],
+      "rationale": "В первичном OIF-отчёте прямо воспроизведён тезис Мушикивабо на открытии 17.06.2025: экономические миссии помогают МСП развивать международную деловую деятельность. Это её собственный приоритет роста предприятий, а не общее международное сотрудничество или мнение правительства Руанды. 2 — ясный единичный эпизод; деятельность OIF не приписывается автоматически национальному кабинету.",
+      "source_urls": [
+        "https://www.francophonie.org/bilan-mission-economique-francophonie-afrique-ouest-8075"
+      ],
+      "new_facts": [
+        {
+          "text": "Открывая экономическую миссию OIF в Котону 17 июня 2025 года, Луиза Мушикивабо представила эти миссии как средство расширения возможностей малых и средних предприятий, уже работающих на международном рынке, и поддержки предприятий, намеренных выйти на него. Высказывание персонально приписано ей в первичном отчёте OIF и относится к её роли генерального секретаря международной организации.",
+          "source_url": "https://www.francophonie.org/bilan-mission-economique-francophonie-afrique-ouest-8075",
+          "source_title": "Bilan de la Mission économique de la Francophonie en Afrique de l’Ouest",
+          "period": "2025-06-17",
+          "source_date_precision": "day",
+          "event_id": "mushikiwabo-oif-business-mission-cotonou-2025-06-17",
+          "capacity": "Генеральный секретарь OIF; собственное публичное открытие экономической миссии",
+          "channel": "public_statement",
+          "topic_ids": [],
+          "verification_status": "full_primary_text_read"
+        }
+      ],
+      "prior_unknown_rationale": "Нет прямых заявлений о приоритете роста инвестиций, конкурентоспособности и деловой активности.",
+      "review_origin": "assistant_completion_review_not_primary_empirical",
+      "independent_episode_count_used": 1
+    },
+    {
+      "object_id": "claver-gatete",
+      "scale_id": "market-state-instruments",
+      "pole": "negative",
+      "value": 2,
+      "evidence_indices": [],
+      "rationale": "В полном именном выступлении 22.04.2025 Гатете прямо предложил расширять налоговую базу, совершенствовать налоговое администрирование и повышать сбор налогов через цифровизацию. Это конкретное расширение государственных обязательных доходных инструментов и административной способности, а не величина бюджета, роль экономиста или участие во встрече. 2 — один явный эпизод; прежние отклонённые биографические факты 0/2 и частно-инвестиционный факт 10 не используются.",
+      "source_urls": [
+        "https://www.uneca.org/stories/remarks-by-mr.-claver-gatete-at-the-african-consultative-group-meeting-with-the-imf-managing"
+      ],
+      "new_facts": [
+        {
+          "text": "В именном выступлении на встрече Африканской консультативной группы с директором-распорядителем МВФ в Вашингтоне 22 апреля 2025 года Клавер Гатете призвал расширять налоговую базу, совершенствовать налоговое администрирование и усиливать сбор налогов через цифровизацию, а также бороться с незаконными финансовыми потоками и утечками доходов. Это собственное предложение конкретных государственных доходных инструментов, а не сообщение о размере расходов.",
+          "source_url": "https://www.uneca.org/stories/remarks-by-mr.-claver-gatete-at-the-african-consultative-group-meeting-with-the-imf-managing",
+          "source_title": "Remarks by Mr. Claver Gatete at the African Consultative Group Meeting with the IMF Managing Director",
+          "period": "2025-04-22",
+          "source_date_precision": "day",
+          "event_id": "gatete-african-consultative-group-imf-2025-04-22",
+          "capacity": "Исполнительный секретарь ЭКА ООН; собственная публичная экономическая рекомендация",
+          "channel": "public_statement",
+          "topic_ids": [],
+          "verification_status": "full_primary_text_read"
+        }
+      ],
+      "prior_unknown_rationale": "Проверка оснований: 0/2 — должность/биография,10 — частное финансирование, рынки и интеграция. Предложения обязательных правил/надзора из этих ссылок не следует; управленческая роль подменяет инструмент.",
+      "review_origin": "assistant_completion_review_not_primary_empirical",
+      "independent_episode_count_used": 1
+    }
+  ],
+  "unknown_summary": [
+    {
+      "object_id": "paul-kagame",
+      "scale_id": "market-state-instruments",
+      "pole": "negative",
+      "status": "unknown",
+      "value": null,
+      "reason": "В новых полных речах имеются снятие барьеров, поддержка МСП и национальный перевозчик, но нет конкретного расширения государственного планирования или обязательных правил. Национальное наименование авиакомпании не доказывает само по себе государственный инструмент.",
+      "prior_rejection_respected": false,
+      "prior_audit_decision": null
+    },
+    {
+      "object_id": "olivier-nduhungirehe",
+      "scale_id": "market-state-instruments",
+      "pole": "negative",
+      "status": "unknown",
+      "value": null,
+      "reason": "Практические международные проекты и переход к торговле не устанавливают расширение внутреннего государственного планирования/обязательных хозяйственных правил.",
+      "prior_rejection_respected": false,
+      "prior_audit_decision": null
+    },
+    {
+      "object_id": "james-kabarebe",
+      "scale_id": "market-state-instruments",
+      "pole": "negative",
+      "status": "unknown",
+      "value": null,
+      "reason": "Ранее отклонённые 9/10 об интеграции EAC и устранении барьеров не возвращаются. Другого прямого обязательного хозяйственного инструмента нет.",
+      "prior_rejection_respected": true,
+      "prior_audit_decision": "reject"
+    },
+    {
+      "object_id": "juvenal-marizamunda",
+      "scale_id": "market-state-instruments",
+      "pole": "negative",
+      "status": "unknown",
+      "value": null,
+      "reason": "Оборонные встречи и тезис о региональном экономическом сотрудничестве не содержат личного предложения расширить хозяйственное планирование или обязательное регулирование.",
+      "prior_rejection_respected": false,
+      "prior_audit_decision": null
+    },
+    {
+      "object_id": "albert-murasira",
+      "scale_id": "market-state-instruments",
+      "pole": "negative",
+      "status": "unknown",
+      "value": null,
+      "reason": "Подготовка к бедствиям и приоритет предупредительного финансирования не устанавливают расширения обязательного хозяйственного надзора. В полном MINEMA-материале интеграция DRR в планирование приписана участникам вообще; министру нельзя автоматически приписать весь семинар.",
+      "prior_rejection_respected": false,
+      "prior_audit_decision": null
+    },
+    {
+      "object_id": "ines-mpambara",
+      "scale_id": "market-state-instruments",
+      "pole": "negative",
+      "status": "unknown",
+      "value": null,
+      "reason": "В шести фактах — должностной профиль и обращение к исторической памяти/международному правосудию; собственного хозяйственно-регуляторного предложения нет.",
+      "prior_rejection_respected": false,
+      "prior_audit_decision": null
+    },
+    {
+      "object_id": "gerardine-mukeshimana",
+      "scale_id": "market-state-instruments",
+      "pole": "negative",
+      "status": "unknown",
+      "value": null,
+      "reason": "Не возвращаются посещения государственных аграрных объектов 0/9 и обращение с неподтверждённой датой. Иные факты о инвестициях и фермерском финансировании не устанавливают расширение обязательных правил.",
+      "prior_rejection_respected": true,
+      "prior_audit_decision": "reject"
+    },
+    {
+      "object_id": "clare-akamanzi",
+      "scale_id": "market-state-instruments",
+      "pole": "negative",
+      "status": "unknown",
+      "value": null,
+      "reason": "Сохранённый президентский надзор в 18/19 не расширяет надзор. Инвестиционное продвижение, акселератор и координация спортивных партнёров не заменяют предложение обязательных ограничений/государственного планирования.",
+      "prior_rejection_respected": true,
+      "prior_audit_decision": "reject"
+    },
+    {
+      "object_id": "francis-gatare",
+      "scale_id": "market-state-instruments",
+      "pole": "negative",
+      "status": "unknown",
+      "value": null,
+      "reason": "Прежний отвергнутый факт 14 о Kigali Innovation City не используется повторно. Общая поддержка PPP не раскрывает конкретного расширения государственного планирования или обязательных правил; ROSGEO2019 вне окна.",
+      "prior_rejection_respected": true,
+      "prior_audit_decision": "reject"
+    },
+    {
+      "object_id": "gertrude-kazarwa",
+      "scale_id": "market-state-instruments",
+      "pole": "negative",
+      "status": "unknown",
+      "value": null,
+      "reason": "Аграрный закон принят палатой; личное предложение или голосование Казарвы не раскрыто. Её собственный надзор/работа с гражданами не устанавливают расширение хозяйственного вмешательства.",
+      "prior_rejection_respected": false,
+      "prior_audit_decision": null
+    },
+    {
+      "object_id": "donatille-mukabalisa",
+      "scale_id": "market-state-instruments",
+      "pole": "negative",
+      "status": "unknown",
+      "value": null,
+      "reason": "Полный материал 09.12.2021 содержит гендерный бюджетный контроль и выявление трудностей, но не конкретное личное предложение расширить хозяйственные ограничения, государственное планирование или обязательный надзор за бизнесом.",
+      "prior_rejection_respected": false,
+      "prior_audit_decision": null
+    },
+    {
+      "object_id": "francois-xavier-kalinda",
+      "scale_id": "market-state-instruments",
+      "pole": "negative",
+      "status": "unknown",
+      "value": null,
+      "reason": "Решение Сената о потенциале горнодобывающего органа коллективное. Личное требование подотчётности само по себе не расширяет государственное экономическое вмешательство.",
+      "prior_rejection_respected": false,
+      "prior_audit_decision": null
+    },
+    {
+      "object_id": "augustin-iyamuremye",
+      "scale_id": "market-state-instruments",
+      "pole": "negative",
+      "status": "unknown",
+      "value": null,
+      "reason": "Ранее отклонённые 9/20 — проверка эффективности существующего проекта. Требование разобраться с результатом и содействовать экспорту не становится расширением государственных обязательных инструментов.",
+      "prior_rejection_respected": true,
+      "prior_audit_decision": "reject"
+    },
+    {
+      "object_id": "philippe-mpayimana",
+      "scale_id": "market-state-instruments",
+      "pole": "negative",
+      "status": "unknown",
+      "value": null,
+      "reason": "Предложение горнодобывающей реформы не раскрывает инструмент регулирования; из помощи мелким добытчикам нельзя вывести расширение государства. Новые поисковые материалы остались непрочитанными полностью.",
+      "prior_rejection_respected": false,
+      "prior_audit_decision": null
+    },
+    {
+      "object_id": "diane-rwigara",
+      "scale_id": "market-state-instruments",
+      "pole": "negative",
+      "status": "unknown",
+      "value": null,
+      "reason": "Общее экономическое развитие и контекст государственного надзора не раскрывают её собственного предложения расширить планирование или обязательные правила. Институциональные факты ICNL — не её действия.",
+      "prior_rejection_respected": false,
+      "prior_audit_decision": null
+    },
+    {
+      "object_id": "bernard-ntaganda",
+      "scale_id": "market-state-instruments",
+      "pole": "negative",
+      "status": "unknown",
+      "value": null,
+      "reason": "Досье описывает электоральные требования, судебные ограничения и оппозиционную деятельность; собственное хозяйственно-регуляторное предложение не найдено.",
+      "prior_rejection_respected": false,
+      "prior_audit_decision": null
+    },
+    {
+      "object_id": "christopher-kayumba",
+      "scale_id": "market-state-instruments",
+      "pole": "negative",
+      "status": "unknown",
+      "value": null,
+      "reason": "Журналистская/партийная деятельность и сведения о преследовании не определяют инструменты хозяйственного управления; собственного предложения нет.",
+      "prior_rejection_respected": false,
+      "prior_audit_decision": null
+    },
+    {
+      "object_id": "paul-rusesabagina",
+      "scale_id": "market-state-instruments",
+      "pole": "negative",
+      "status": "unknown",
+      "value": null,
+      "reason": "Судебные и гуманитарные эпизоды не содержат личного предложения по хозяйственному планированию или обязательному экономическому регулированию.",
+      "prior_rejection_respected": false,
+      "prior_audit_decision": null
+    },
+    {
+      "object_id": "kayumba-nyamwasa",
+      "scale_id": "market-state-instruments",
+      "pole": "negative",
+      "status": "unknown",
+      "value": null,
+      "reason": "Оппозиционная риторика и деятельность за рубежом не раскрывают личный выбор государственных хозяйственных инструментов.",
+      "prior_rejection_respected": false,
+      "prior_audit_decision": null
+    },
+    {
+      "object_id": "louise-mushikiwabo",
+      "scale_id": "market-state-instruments",
+      "pole": "negative",
+      "status": "unknown",
+      "value": null,
+      "reason": "Дипломатия OIF, экономические миссии и содействие международному росту предприятий не показывают расширение обязательного государственного регулирования или хозяйственного планирования.",
+      "prior_rejection_respected": false,
+      "prior_audit_decision": null
+    },
+    {
+      "object_id": "juvenal-marizamunda",
+      "scale_id": "accessibility-growth-priorities",
+      "pole": "negative",
+      "status": "unknown",
+      "value": null,
+      "reason": "Общее экономическое сотрудничество и региональная стабильность в мюнхенском эпизоде не содержат собственного приоритета инвестиций, роста производства, занятости или деловой активности.",
+      "prior_rejection_respected": false,
+      "prior_audit_decision": null
+    },
+    {
+      "object_id": "emmanuel-ugirashebuja",
+      "scale_id": "accessibility-growth-priorities",
+      "pole": "negative",
+      "status": "unknown",
+      "value": null,
+      "reason": "Полный первичный текст форума 5–7.05.2026 приписывает ему доверие, ясные правовые рамки и эффективность PPP; приоритет разблокирования частных инвестиций описан для сессий/участников вообще. Прежние 4/8/11 не возвращаются как его самостоятельный инвестиционный приоритет.",
+      "prior_rejection_respected": true,
+      "prior_audit_decision": "reject"
+    },
+    {
+      "object_id": "ines-mpambara",
+      "scale_id": "accessibility-growth-priorities",
+      "pole": "negative",
+      "status": "unknown",
+      "value": null,
+      "reason": "Должность и обращение о свидетельствах переживших геноцид не являются основанием хозяйственного приоритета; явного собственного производственного/делового предложения нет.",
+      "prior_rejection_respected": false,
+      "prior_audit_decision": null
+    },
+    {
+      "object_id": "valentine-uwamariya",
+      "scale_id": "accessibility-growth-priorities",
+      "pole": "negative",
+      "status": "unknown",
+      "value": null,
+      "reason": "Ранее отклонённые 13/16 говорят об участии женщин и гендерной сертификации, а не о собственном приоритете роста бизнеса. Другого прямого основания в досье нет.",
+      "prior_rejection_respected": true,
+      "prior_audit_decision": "reject"
+    },
+    {
+      "object_id": "jean-claude-musabyimana",
+      "scale_id": "accessibility-growth-priorities",
+      "pole": "negative",
+      "status": "unknown",
+      "value": null,
+      "reason": "Ранее отклонённый 14 касается социально-экономических возможностей трудоспособных и социальной защиты, но не явного приоритета роста производства, инвестиций или деловой активности. Нового прямого тезиса нет.",
+      "prior_rejection_respected": true,
+      "prior_audit_decision": "reject"
+    },
+    {
+      "object_id": "jean-damascene-bizimana",
+      "scale_id": "accessibility-growth-priorities",
+      "pole": "negative",
+      "status": "unknown",
+      "value": null,
+      "reason": "Политика памяти, единства и гражданского воспитания в досье не содержит самостоятельной производственной/инвестиционной программы.",
+      "prior_rejection_respected": false,
+      "prior_audit_decision": null
+    },
+    {
+      "object_id": "donatille-mukabalisa",
+      "scale_id": "accessibility-growth-priorities",
+      "pole": "negative",
+      "status": "unknown",
+      "value": null,
+      "reason": "В полном KTPress-материале её замечание о низком финансовом включении женщин в МСП задаёт проблему гендерного участия; самостоятельный приоритет роста производства, инвестиций или деловой активности не сформулирован. Общие экономические тезисы представителя ООН ей не приписываются.",
+      "prior_rejection_respected": false,
+      "prior_audit_decision": null
+    },
+    {
+      "object_id": "francois-xavier-kalinda",
+      "scale_id": "accessibility-growth-priorities",
+      "pole": "negative",
+      "status": "unknown",
+      "value": null,
+      "reason": "Темы торговли и инвестиций в парламентском визите не раскрывают его личного хозяйственного приоритета; поручение контролировать использование ресурсов не определяет инвестиционный рост.",
+      "prior_rejection_respected": false,
+      "prior_audit_decision": null
+    },
+    {
+      "object_id": "alvera-mukabaramba",
+      "scale_id": "accessibility-growth-priorities",
+      "pole": "negative",
+      "status": "unknown",
+      "value": null,
+      "reason": "Улучшение семейных условий за счёт заработанного не равно собственной программе роста деловой активности. Дата эпизода Nyundo также не подтверждена; он не используется для нового числа.",
+      "prior_rejection_respected": false,
+      "prior_audit_decision": null
+    },
+    {
+      "object_id": "mussa-fazil-harerimana",
+      "scale_id": "accessibility-growth-priorities",
+      "pole": "negative",
+      "status": "unknown",
+      "value": null,
+      "reason": "Общие тезисы о развитии и ЦУР, ранее отвергнутые 13/16, не содержат явного приоритета инвестиций, производства, экспорта или занятости. Нового прямого основания нет.",
+      "prior_rejection_respected": true,
+      "prior_audit_decision": "reject"
+    },
+    {
+      "object_id": "philippe-mpayimana",
+      "scale_id": "accessibility-growth-priorities",
+      "pole": "negative",
+      "status": "unknown",
+      "value": null,
+      "reason": "В текущем досье раскрыта помощь мелким добытчикам без роста производства/занятости как самостоятельного приоритета. Найденные дополнительные сообщения о программе не прошли чтение полного текста и не превращены в оценку.",
+      "prior_rejection_respected": false,
+      "prior_audit_decision": null
+    },
+    {
+      "object_id": "diane-rwigara",
+      "scale_id": "accessibility-growth-priorities",
+      "pole": "negative",
+      "status": "unknown",
+      "value": null,
+      "reason": "Общее продолжение экономического развития не устанавливает нужный приоритет. Упоминание создания рабочих мест в сводной Wikipedia-биографии не заменяет датированного собственного высказывания/действия.",
+      "prior_rejection_respected": false,
+      "prior_audit_decision": null
+    },
+    {
+      "object_id": "bernard-ntaganda",
+      "scale_id": "accessibility-growth-priorities",
+      "pole": "negative",
+      "status": "unknown",
+      "value": null,
+      "reason": "В досье имеются политико-правовые требования, но нет собственного датированного производственного, инвестиционного или предпринимательского приоритета.",
+      "prior_rejection_respected": false,
+      "prior_audit_decision": null
+    },
+    {
+      "object_id": "christopher-kayumba",
+      "scale_id": "accessibility-growth-priorities",
+      "pole": "negative",
+      "status": "unknown",
+      "value": null,
+      "reason": "В досье нет прямой экономической программы; партийная и журналистская роль не определяют инвестиционные приоритеты.",
+      "prior_rejection_respected": false,
+      "prior_audit_decision": null
+    },
+    {
+      "object_id": "paul-rusesabagina",
+      "scale_id": "accessibility-growth-priorities",
+      "pole": "negative",
+      "status": "unknown",
+      "value": null,
+      "reason": "Из судебных и гуманитарных эпизодов не выводится собственная экономическая программа роста.",
+      "prior_rejection_respected": false,
+      "prior_audit_decision": null
+    },
+    {
+      "object_id": "kayumba-nyamwasa",
+      "scale_id": "accessibility-growth-priorities",
+      "pole": "negative",
+      "status": "unknown",
+      "value": null,
+      "reason": "Из оппозиционного статуса, зарубежной деятельности и политической критики не выводится самостоятельный производственный/деловой приоритет.",
+      "prior_rejection_respected": false,
+      "prior_audit_decision": null
+    },
+    {
+      "object_id": "valentine-rugwabiza",
+      "scale_id": "accessibility-growth-priorities",
+      "pole": "negative",
+      "status": "unknown",
+      "value": null,
+      "reason": "Ранее отклонённые 12/29 — национальный план и институциональная стабильность ЦАР; это не самостоятельный инвестиционный или производственный приоритет Ругвабизы. Нового прямого основания нет.",
+      "prior_rejection_respected": true,
+      "prior_audit_decision": "reject"
+    }
+  ],
+  "input_hashes": {
+    "studies/rwanda-politicians-2021-2026/study.json": "375e3881412e522e5f8406b2f5640b3ea93f589a44deacbd4864ac8307983227",
+    "studies/rwanda-politicians-2021-2026/ratings.json": "045e3c56eba2e87f8e2963818ad31635f904d90f2c63804438477108606ba9f3",
+    "research/rwanda_politicians_2021_2026/INDEPENDENT_FACT_REVIEW.json": "f1610cf0df60bb39e8cdb1c6d6b7f06ecfaaecf8f756468241fb2467a2087c3c",
+    "research/rwanda_politicians_2021_2026/INDEPENDENT_AUDIT_BATCH_1.json": "a8ee205fd8c4d68563a48d4d42ca8c19ce8860e6893da9003871ae1bb85f111d",
+    "research/rwanda_politicians_2021_2026/INDEPENDENT_AUDIT_BATCH_2.json": "ca51e6dda472815ad29d6cfb1f7a849c33d5c3a3756f8e66c4b30989685ba4b9",
+    "research/rwanda_politicians_2021_2026/INDEPENDENT_AUDIT_BATCH_3.json": "661940eec99c18b67014de860b955ff10406d56a1f4d344fbf5d910c6797d2f9",
+    "studies/rwanda-politicians-2021-2026/evidence/independent-dossier-albert-murasira.json": "7f0725ce8239ca8c8a630256d6c633757d2a617439329c686e503ff24a7e57cb",
+    "studies/rwanda-politicians-2021-2026/evidence/independent-dossier-alvera-mukabaramba.json": "b6893710c39f92c3d9ed072229737d24ee37bea1aeb6076ac7d481659a4b7c46",
+    "studies/rwanda-politicians-2021-2026/evidence/independent-dossier-augustin-iyamuremye.json": "aae35424b5a99fe037e59dd5cedf7d288b03acfc8aa6451d35a290c241a4cc66",
+    "studies/rwanda-politicians-2021-2026/evidence/independent-dossier-bernard-ntaganda.json": "c5c3a2f655e8cba7dc1cbe95bfdead7d496f9105f4e10d954e881786ac82d961",
+    "studies/rwanda-politicians-2021-2026/evidence/independent-dossier-christopher-kayumba.json": "97c3786beb590ec9360a5e077cf5b9da58ae50e16ff7bba9bfaee4ab2cbfbc8f",
+    "studies/rwanda-politicians-2021-2026/evidence/independent-dossier-clare-akamanzi.json": "81b4e63914bec84899d200ab933750e82aa1ac3dc911b268e9677b869669e016",
+    "studies/rwanda-politicians-2021-2026/evidence/independent-dossier-claver-gatete.json": "230737b5010aeb3a56bcfd1da37ad1e47644bff6b8da9b43f26df0134ef090fc",
+    "studies/rwanda-politicians-2021-2026/evidence/independent-dossier-diane-rwigara.json": "6ae7aa10687c55fa629e79e30631b16578eb3e05753cfd3ba90bc95df7f7036f",
+    "studies/rwanda-politicians-2021-2026/evidence/independent-dossier-donatille-mukabalisa.json": "9b148ee137a5acc78b0c7fb3389e8a7b03a0a5e731515f67d8eba36c3da554ee",
+    "studies/rwanda-politicians-2021-2026/evidence/independent-dossier-edouard-ngirente.json": "43985729bea8a3de42015cfefacb0e39b7dd2f5e30320e9066dd90181f80245a",
+    "studies/rwanda-politicians-2021-2026/evidence/independent-dossier-emmanuel-ugirashebuja.json": "0976640496345d317d39a87338bdb846ec936d1dd3aa56bcefae88e9ef2d2a1a",
+    "studies/rwanda-politicians-2021-2026/evidence/independent-dossier-francis-gatare.json": "614886e3e8ef799eec69c17aa2770b105e163f1535f80f8ca204ad453caf6508",
+    "studies/rwanda-politicians-2021-2026/evidence/independent-dossier-francois-xavier-kalinda.json": "da2d36c4e202dc681a2c70e5e0c949edfdf957ed414c1a3b47c0b252dac1359b",
+    "studies/rwanda-politicians-2021-2026/evidence/independent-dossier-frank-habineza.json": "e631ffbf32bf496bb25f424d0c0c50f047d57aa5e0d5424dfc6bac1fe3dceaa2",
+    "studies/rwanda-politicians-2021-2026/evidence/independent-dossier-gerardine-mukeshimana.json": "85ee7fb66d429b181dfa96de29206d043b17480c1550853b4c38d919299791dd",
+    "studies/rwanda-politicians-2021-2026/evidence/independent-dossier-gertrude-kazarwa.json": "8f6faf5af1b366804327599f2c64b21d89102915e8f0f07315f64bbd0ef55d5a",
+    "studies/rwanda-politicians-2021-2026/evidence/independent-dossier-ildephonse-musafiri.json": "f3490cb5031748f1adce69aee27860458dc574262271dd6b9278a3a97c5515e5",
+    "studies/rwanda-politicians-2021-2026/evidence/independent-dossier-ines-mpambara.json": "515b98a3a419512f7212038cf423cb225ab74c93df4dffdcfb16a36ac3d5b554",
+    "studies/rwanda-politicians-2021-2026/evidence/independent-dossier-james-kabarebe.json": "5db000f0683a2e514f57f5a8daf50d59f5ee2841ae1cb9ad9bb06bbe8866b57b",
+    "studies/rwanda-politicians-2021-2026/evidence/independent-dossier-jean-claude-musabyimana.json": "428f1f663fd28f270b76e404cf314b6636fd82b4b7d3b54a6dcb00731df40ed9",
+    "studies/rwanda-politicians-2021-2026/evidence/independent-dossier-jean-damascene-bizimana.json": "1289399f5f354d603691580f9a4ccf64e641ce902bb026006a4df582e80627d7",
+    "studies/rwanda-politicians-2021-2026/evidence/independent-dossier-jeanne-darc-mujawamariya.json": "6755578c4d56f58bbd2c8bc68bd53d74d1b0a4e74650d463f27074cc91992e32",
+    "studies/rwanda-politicians-2021-2026/evidence/independent-dossier-judith-uwizeye.json": "7189b69784c4f8b42127ccf98d90bbb6ebe899fc6d01b6d418cad4bb9c691bb3",
+    "studies/rwanda-politicians-2021-2026/evidence/independent-dossier-justin-nsengiyumva.json": "9ad620439dfdf9f52793845db5a0967004947e649f10e660006472946e85266f",
+    "studies/rwanda-politicians-2021-2026/evidence/independent-dossier-juvenal-marizamunda.json": "86e124766a98dcbaabd53018d3cd60f50ad70856146d6fa6404817bd25651522",
+    "studies/rwanda-politicians-2021-2026/evidence/independent-dossier-kayumba-nyamwasa.json": "655c5c1fffe95fefd0a24c83f5c269065848333903dfce006a64fa16eb6cd989",
+    "studies/rwanda-politicians-2021-2026/evidence/independent-dossier-louise-mushikiwabo.json": "dd67587a88dd2831b8b2f3a2d59dcea6f18dfdf4476cdcd48570d20aab25b219",
+    "studies/rwanda-politicians-2021-2026/evidence/independent-dossier-mussa-fazil-harerimana.json": "9222ec42ea5873d51c33d18bbf82759ada775896adc3978cf5ff4c627973e179",
+    "studies/rwanda-politicians-2021-2026/evidence/independent-dossier-olivier-nduhungirehe.json": "73034f00293493a25318fe7880a2fe47d6d4ebe533c8b3d308ab33c208b7b6e2",
+    "studies/rwanda-politicians-2021-2026/evidence/independent-dossier-paul-kagame.json": "4a7e2f061ad37f98b35777b708e0b5f4d5fe3312d7a3c48277e42561d7217cc5",
+    "studies/rwanda-politicians-2021-2026/evidence/independent-dossier-paul-rusesabagina.json": "f3fa805418f5ad67747d4e88e4abc00b2f9495606cb8e07130ba31f0f1cea8f5",
+    "studies/rwanda-politicians-2021-2026/evidence/independent-dossier-paula-ingabire.json": "766ba5ff3de88f01179c30ed8e7cd32b36066fcb881de25708fb8a4d26a8ea5e",
+    "studies/rwanda-politicians-2021-2026/evidence/independent-dossier-philippe-mpayimana.json": "d7093bcf5d3923953852339c541888a9cd5fcfc42ea456c198c96e9e79afc763",
+    "studies/rwanda-politicians-2021-2026/evidence/independent-dossier-pudence-rubingisa.json": "e35b7848151b89443e6648b6832d98ec948d7e6b4df968fbf9ebf72934d1be28",
+    "studies/rwanda-politicians-2021-2026/evidence/independent-dossier-sabin-nsanzimana.json": "9401c5f399de591103296d898769bb605fb3f7c16a805fdcf6acc8d6ee9405b3",
+    "studies/rwanda-politicians-2021-2026/evidence/independent-dossier-samuel-dusengiyumva.json": "27ffc6591e2edd0cc1de5b2edf01d5c2e2dee0f4431c1b4e55d49df09e4cdff5",
+    "studies/rwanda-politicians-2021-2026/evidence/independent-dossier-uzziel-ndagijimana.json": "61a538cfc7c01b05a6002b8838dce9f250d168fc1c0e77568a3ea5830b19dcbd",
+    "studies/rwanda-politicians-2021-2026/evidence/independent-dossier-valentine-rugwabiza.json": "091622e543c952fb4d39b850516074d94b89bd12e5507d9a80f85023f417e6c0",
+    "studies/rwanda-politicians-2021-2026/evidence/independent-dossier-valentine-uwamariya.json": "4aeec37cf9894ee46ede5d54c4490ae8638e89a1596b8f3710c0dcf3c78ac44c",
+    "studies/rwanda-politicians-2021-2026/evidence/independent-dossier-victoire-ingabire.json": "a12d7cc9caec9b9c91cbf9be31c06d2484f9d7a20b0b71c176c54f8154e94c2d",
+    "studies/rwanda-politicians-2021-2026/evidence/independent-dossier-vincent-biruta.json": "ac5294148c699e8aad4116a50f490604096188e2d8f5af05f59ca1efcfd616c1",
+    "studies/rwanda-politicians-2021-2026/evidence/independent-dossier-yusuf-murangwa.json": "ce5f41a0a32b19388761e21a04c973ecc3943386e4944596c5cf5bc230050978"
+  },
+  "method_notes": [
+    "Проверены текущие unknown по обоим свойствам для всей утверждённой выборки, а не только перспективные кандидаты; существующие known не меняются.",
+    "Предыдущие reject не отменяются тем же отвергнутым фактом. Для Sabin добавлен конкретный личный производственный тезис из заново прочитанного полного первичного текста вместо прежней общей характеристики медицинского проекта.",
+    "Все новые оценки равны 2 и означают ясное ограниченное проявление одного выбранного эпизода. Отсутствие источников не оценивается нулём; противоположный полюс не выводится.",
+    "Статус национального перевозчика, должность, размер бюджета и коллективное решение палаты сами по себе не устанавливают расширение государственных обязательных инструментов.",
+    "Ни ковариации, ни факторные решения, ни требуемое число допущенных переменных не использовались как основание оценок.",
+    "Государственно-доходная рекомендация Claver выбрана по полностью прочитанному имённому выступлению 22.04.2025, а не по недоступной при повторном открытии новости о водном форуме 29.04.2026."
+  ],
+  "search_log": [
+    {
+      "query": "site.paulkagame.com 2024 investment private sector industrial policy regulation",
+      "outcome": "Нерелевантные результаты; .com не правильный источник. Оценка не назначалась."
+    },
+    {
+      "query": "site.uneca.org \"Claver Gatete\" \"industrial policies\" 2024 2025",
+      "outcome": "Найдены полный именной текст 22.04.2025 и водный форум 29.04.2026; для наблюдения выбран первый, полностью открытый."
+    },
+    {
+      "query": "site.francophonie.org \"Louise Mushikiwabo\" \"entreprises\" \"2024\"",
+      "outcome": "По первичному индексу открыты подробные отчёты миссий 2024/2025; выбрано прямое выступление 17.06.2025."
+    },
+    {
+      "query": "\"Philippe Mpayimana\" 2024 programme économie emplois",
+      "outcome": "Найдены сообщения о производстве и занятости; полные материалы Africa24 и Umuseke при открытии недоступны. Не использованы для оценки."
+    },
+    {
+      "query": "site.paulkagame.com \"2024\" \"investment\" \"Remarks\"",
+      "outcome": "Неправильный домен; положительный вывод не делался. Затем root предоставил точные .rw URLs, полные тексты прочитаны."
+    },
+    {
+      "query": "site.francophonie.org \"Mushikiwabo\" \"2024\" \"mission économique\" \"déclaré\"",
+      "outcome": "Вторичные сообщения привели к первичным OIF-отчётам; наблюдение основано на первичном тексте, не на поисковом сниппете."
+    }
+  ],
+  "pending_sources": [
+    {
+      "object_id": "philippe-mpayimana",
+      "source_url": "https://africa24tv.com/rwanda-presidentielle-2024-philippe-mpayimana-candidat-independant-pour-la-reconciliation-nationale/",
+      "status": "pending_full_text",
+      "reason": "Поиск сообщает о росте производства и экономики, но полного текста при открытии нет; нет новой оценки."
+    },
+    {
+      "object_id": "philippe-mpayimana",
+      "source_url": "https://umuseke.rw/mpayimana-philippe-yijeje-abanya-kigali-kuzarandura-ubushomeri/",
+      "status": "pending_full_text",
+      "reason": "Заголовок/поиск сообщает о обещании занятости; полный текст недоступен, точный день выступления не проверен. Нет новой оценки."
+    }
+  ],
+  "canonical_files_modified": false,
+  "summary": {
+    "checked_current_unknown": 42,
+    "new_observations": 5,
+    "remain_unknown": 37,
+    "coverage": {
+      "market-state-instruments__negative": {
+        "before_known": 21,
+        "new_observations": 1,
+        "proposed_after_known": 22,
+        "unknown_remaining": 20,
+        "not_yet_applied": true
+      },
+      "accessibility-growth-priorities__negative": {
+        "before_known": 21,
+        "new_observations": 4,
+        "proposed_after_known": 25,
+        "unknown_remaining": 17,
+        "not_yet_applied": true
+      }
+    },
+    "all_unknown_reviewed": true,
+    "hypothetical_coverage_not_canonical": true
+  },
+  "source_warnings": [
+    {
+      "object_id": "alvera-mukabaramba",
+      "evidence_indices": [
+        10
+      ],
+      "source_url": "https://www.minaloc.gov.rw/news-detail/nyundo-citizens-urged-to-allow-families-to-benefit-from-their-hard-work-income",
+      "decision": "pending_date_verification",
+      "reason": "Полный первичный текст не показывает дату и называет Мукабарамбу государственным министром социальных вопросов, её прежней ролью до 2019, тогда как досье даёт 15.12.2025. Точный день и принадлежность окну не установлены. В этом дополнении не используется; канонический факт не редактировался.",
+      "eligibility": "pending_date_verification",
+      "future_grading_action": "Do not grade from this fact until event date within study window is verified; current cells unchanged."
+    },
+    {
+      "object_id": "emmanuel-ugirashebuja",
+      "evidence_indices": [
+        11
+      ],
+      "source_url": "https://www.minijust.gov.rw/news-detail/rwanda-hosts-africas-attorneys-general-forum-on-strengthening-public-private-partnerships-for-development",
+      "decision": "correct_period_metadata",
+      "actual_period": "2026-05-05/2026-05-07",
+      "reason": "Полный первичный MINIJUST-текст прямо датирует форум 5–7 мая 2026, а текущий факт 11 даёт 25.09.2026 (эта дата встречается в ленте других новостей). Событие остаётся внутри окна; само по себе исправление даты не даёт новой оценки и в этом дополнении не меняет существующие ячейки."
+    }
+  ]
+}

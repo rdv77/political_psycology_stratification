@@ -1,0 +1,228 @@
+{
+  "data": {
+    "ratings": [
+      {
+        "variable_id": "cultural-openness-national-transmission__positive",
+        "status": "unknown",
+        "value": null,
+        "confidence": 0,
+        "support_type": "unknown",
+        "rationale": "В доступных источниках отсутствуют сведения о публичных инициативах или заявлениях Ругвабизы, прямо направленных на расширение межкультурного обмена или культурного разнообразия.",
+        "evidence_indices": []
+      },
+      {
+        "variable_id": "cultural-openness-national-transmission__negative",
+        "status": "unknown",
+        "value": null,
+        "confidence": 0,
+        "support_type": "unknown",
+        "rationale": "Нет данных о публичных действиях или заявлениях Ругвабизы, направленных на сохранение и передачу национальных ценностей как самостоятельный акцент.",
+        "evidence_indices": []
+      },
+      {
+        "variable_id": "problem-disclosure-reputation-defence__positive",
+        "status": "observed",
+        "value": 2,
+        "confidence": 0.7,
+        "support_type": "positive_manifestation",
+        "rationale": "Ругвабиза публично раскрывала наличие критических пробелов в секторе безопасности и предупреждала о риске отката, что свидетельствует о признании проблем и ограничений исполнения (эпизоды 8, 16, 33).",
+        "evidence_indices": [
+          8,
+          16,
+          33
+        ]
+      },
+      {
+        "variable_id": "problem-disclosure-reputation-defence__negative",
+        "status": "observed",
+        "value": 2,
+        "confidence": 0.7,
+        "support_type": "positive_manifestation",
+        "rationale": "В ряде выступлений Ругвабиза защищала результаты миссии, подчеркивала прогресс и необходимость консолидации достигнутого, что указывает на защиту репутации политики и миссии (эпизоды 7, 9, 19, 36).",
+        "evidence_indices": [
+          7,
+          9,
+          19,
+          36
+        ]
+      },
+      {
+        "variable_id": "procedural-guarantees-enforcement__positive",
+        "status": "unknown",
+        "value": null,
+        "confidence": 0,
+        "support_type": "unknown",
+        "rationale": "Нет прямых свидетельств поддержки расширения процедур защиты или обжалования в публичных заявлениях Ругвабизы.",
+        "evidence_indices": []
+      },
+      {
+        "variable_id": "procedural-guarantees-enforcement__negative",
+        "status": "observed",
+        "value": 1,
+        "confidence": 0.5,
+        "support_type": "positive_manifestation",
+        "rationale": "Ругвабиза поддерживала обязательные меры контроля (например, пресечение незаконного оружия, профессионализация армии), однако не предлагала новые санкции или уголовные нормы (эпизод 27).",
+        "evidence_indices": [
+          27
+        ]
+      },
+      {
+        "variable_id": "prevention-crisis-response__positive",
+        "status": "observed",
+        "value": 3,
+        "confidence": 0.8,
+        "support_type": "positive_manifestation",
+        "rationale": "Ругвабиза неоднократно подчеркивала необходимость подготовки, профилактики, устранения пробелов в секторе безопасности и реформ (эпизоды 24, 28, 31, 33, 39).",
+        "evidence_indices": [
+          24,
+          28,
+          31,
+          33,
+          39
+        ]
+      },
+      {
+        "variable_id": "prevention-crisis-response__negative",
+        "status": "observed",
+        "value": 2,
+        "confidence": 0.7,
+        "support_type": "positive_manifestation",
+        "rationale": "В ряде случаев коммуникация Ругвабизы носила реактивный характер — осуждение нападений, реагирование на кризисы (эпизоды 4, 5, 20, 21).",
+        "evidence_indices": [
+          4,
+          5,
+          20,
+          21
+        ]
+      },
+      {
+        "variable_id": "electoral-access__positive",
+        "status": "observed",
+        "value": 3,
+        "confidence": 0.8,
+        "support_type": "positive_manifestation",
+        "rationale": "Ругвабиза публично поддерживала инклюзивные, прозрачные выборы, выдачу свидетельств о рождении для регистрации избирателей и проведение местных выборов (эпизоды 7, 11, 22, 25).",
+        "evidence_indices": [
+          7,
+          11,
+          22,
+          25
+        ]
+      },
+      {
+        "variable_id": "electoral-access__negative",
+        "status": "unknown",
+        "value": null,
+        "confidence": 0,
+        "support_type": "unknown",
+        "rationale": "Нет свидетельств, что Ругвабиза лично инициировала или поддерживала усиление барьеров для политического участия.",
+        "evidence_indices": []
+      },
+      {
+        "variable_id": "institutional-autonomy-coordination__positive",
+        "status": "unknown",
+        "value": null,
+        "confidence": 0,
+        "support_type": "unknown",
+        "rationale": "В материалах отсутствуют прямые заявления или действия Ругвабизы в пользу гарантий самостоятельности и контроля между институтами.",
+        "evidence_indices": []
+      },
+      {
+        "variable_id": "institutional-autonomy-coordination__negative",
+        "status": "observed",
+        "value": 2,
+        "confidence": 0.7,
+        "support_type": "positive_manifestation",
+        "rationale": "Ругвабиза акцентировала восстановление и расширение государственной власти, координацию между MINUSCA и правительством ЦАР, что указывает на приоритет единой управленческой линии (эпизоды 2, 15, 17, 29, 37).",
+        "evidence_indices": [
+          2,
+          15,
+          17,
+          29,
+          37
+        ]
+      },
+      {
+        "variable_id": "taxation-burden-public-revenue__positive",
+        "status": "unknown",
+        "value": null,
+        "confidence": 0,
+        "support_type": "unknown",
+        "rationale": "Нет данных о публичных инициативах Ругвабизы по снижению налоговой нагрузки или расширению имущественной самостоятельности.",
+        "evidence_indices": []
+      },
+      {
+        "variable_id": "taxation-burden-public-revenue__negative",
+        "status": "unknown",
+        "value": null,
+        "confidence": 0,
+        "support_type": "unknown",
+        "rationale": "Нет оснований приписывать Ругвабизе личную поддержку увеличения налоговых поступлений для публичного развития; её заявления касались внешнего финансирования миссии.",
+        "evidence_indices": []
+      },
+      {
+        "variable_id": "universal-targeted-provision__positive",
+        "status": "observed",
+        "value": 2,
+        "confidence": 0.6,
+        "support_type": "positive_manifestation",
+        "rationale": "Ругвабиза поддерживала выдачу свидетельств о рождении уязвимым группам для регистрации избирателей, что свидетельствует о стремлении к расширению охвата базовых услуг (эпизоды 6, 11).",
+        "evidence_indices": [
+          6,
+          11
+        ]
+      },
+      {
+        "variable_id": "universal-targeted-provision__negative",
+        "status": "observed",
+        "value": 1,
+        "confidence": 0.5,
+        "support_type": "positive_manifestation",
+        "rationale": "Выдача свидетельств о рождении уязвимым группам также указывает на приоритетную помощь конкретным недостаточно обеспеченным категориям (эпизоды 6, 11).",
+        "evidence_indices": [
+          6,
+          11
+        ]
+      },
+      {
+        "variable_id": "ecological-limits-resource-use__positive",
+        "status": "unknown",
+        "value": null,
+        "confidence": 0,
+        "support_type": "unknown",
+        "rationale": "В доступных источниках отсутствуют сведения о публичных инициативах или заявлениях Ругвабизы, связанных с усилением природоохранных ограничений.",
+        "evidence_indices": []
+      },
+      {
+        "variable_id": "ecological-limits-resource-use__negative",
+        "status": "unknown",
+        "value": null,
+        "confidence": 0,
+        "support_type": "unknown",
+        "rationale": "Нет данных о публичных действиях или заявлениях Ругвабизы, направленных на расширение хозяйственного использования природных ресурсов.",
+        "evidence_indices": []
+      }
+    ]
+  },
+  "model": "gpt-4.1",
+  "task": "independent-ratings-valentine-rugwabiza-1",
+  "at": "2026-10-15T17:32:39.441746+00:00",
+  "usage": {
+    "prompt_tokens": 12181,
+    "completion_tokens": 1979,
+    "total_tokens": 14160,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "audio_tokens": 0
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "audio_tokens": 0,
+      "accepted_prediction_tokens": 0,
+      "rejected_prediction_tokens": 0
+    }
+  },
+  "citations": [],
+  "system_fingerprint": "fp_c1b3c9e352",
+  "cache_key": "456903ec71a45763a3034ecddec743ab6fe07cc83fd6dd6d822c65ea14dcf2fd"
+}

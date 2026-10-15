@@ -1,0 +1,27 @@
+{
+  "version": 2,
+  "approved": true,
+  "at": "2026-10-15T17:21:16.730880+00:00",
+  "actor": "human_user_chat_2026-10-15_independent_poles",
+  "authorization": "Давай анализировать полюса как отдельные переменные. В принципе, методология должна допускать оценки по одной шкале.",
+  "model": "independent_poles",
+  "input_scale_definitions": 24,
+  "planned_variables": 48,
+  "approved_scale_fingerprint": "968e884171eb9cdb80c1fc2aa813e881359b746e2a01de4b034a953908d6cf0c",
+  "range": [
+    0,
+    5
+  ],
+  "unknown": "NaN; no inferred zero and no antipode subtraction",
+  "anchors": {
+    "0": "Explicitly evidenced absence, never lack of mentions",
+    "1": "Single weak/narrow manifestation",
+    "2": "Clear limited manifestation",
+    "3": "Several consistent episodes",
+    "4": "Strong repeated emphasis",
+    "5": "Defining persistent trait supported by independent episodes"
+  },
+  "factor_polarity": "Inferred from signed loadings; no automatic antonyms or forced bipolar factors",
+  "previous_snapshot": "attempts/paired_difference_2026-10-15",
+  "source_limitations": "Exploratory LLM measurement of public evidence, not independent human ratings or private beliefs"
+}

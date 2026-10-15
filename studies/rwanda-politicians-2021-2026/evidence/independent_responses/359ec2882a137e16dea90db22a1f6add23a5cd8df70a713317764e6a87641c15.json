@@ -1,0 +1,49 @@
+{
+  "data": {
+    "facts": [],
+    "limitations": "Доступные результаты поиска не позволяют сформировать требуемую выборку из 18–24 независимых эпизодов за период 2021-10-15—2026-10-15 без выдумывания данных. В результатах есть главным образом страницы с должностью Мурасиры, материалы 2026 года за пределами указанной конечной даты, а также уже перечисленные пользователем эпизоды. Единственный найденный материал, относящийся к допустимому периоду, — архивная страница MINEMA о реагировании на недавние бедствия; в выдаче отсутствуют точная дата события и достаточное содержание заявления или действия Мурасиры. Материалы о его вступлении в должность министра обороны датированы 2018 годом и находятся вне периода. Поэтому новые достоверные эпизоды не добавлены.",
+    "sources": [
+      {
+        "title": "Senior Management — MINEMA",
+        "url": "https://www.minema.gov.rw/senior-management"
+      },
+      {
+        "title": "Disaster Management — MINEMA",
+        "url": "https://minema.staging.risa.rw/2023-09-23"
+      },
+      {
+        "title": "Major General Murasira takes charge as the new Defence Minister",
+        "url": "https://www.mod.gov.rw/docs-media/news-detail/major-general-murasira-takes-charge-as-the-new-defence-minister-2"
+      }
+    ]
+  },
+  "model": "sonar-pro",
+  "task": "independent-retrieval-albert-murasira",
+  "at": "2026-10-15T17:21:39.589350+00:00",
+  "usage": {
+    "completion_tokens": 335,
+    "cost": {
+      "input_tokens_cost": 0.00413,
+      "output_tokens_cost": 0.00102,
+      "request_cost": 0.0025,
+      "total_cost": 0.00765
+    },
+    "prompt_tokens": 3270,
+    "search_context_size": "low",
+    "total_tokens": 3605
+  },
+  "citations": [
+    "https://www.minema.gov.rw/senior-management",
+    "https://www.rwandainswitzerland.gov.rw/actualites/info-details/rwanda-highlights-inclusive-refugee-policy-and-national-resilience-at-unhcr-excom",
+    "https://www.gov.rw/government/institutions/ministries",
+    "https://www.mod.gov.rw/docs-media/news-detail/rwanda-marks-world-refugee-day-2026-with-dialogue-on-refugee-economic-empowerment-and-self-reliance",
+    "https://www.gov.rw/cabinet",
+    "https://www.mod.gov.rw/docs-media/news-detail/rwanda-reaffirms-commitment-to-durable-refugee-solutions-at-tripartite-high-level-meeting-in-addis-ababa",
+    "https://www.mod.gov.rw/docs-media/news-detail/major-general-murasira-takes-charge-as-the-new-defence-minister-2",
+    "https://minema.prod.risa.rw/",
+    "https://x.com/RwandaEmergency/status/2071917518143275362",
+    "https://minema.staging.risa.rw/"
+  ],
+  "system_fingerprint": null,
+  "cache_key": "359ec2882a137e16dea90db22a1f6add23a5cd8df70a713317764e6a87641c15"
+}

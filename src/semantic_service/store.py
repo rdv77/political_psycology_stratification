@@ -30,6 +30,9 @@ def ratings_basis(study: dict) -> str:
         basis["research_requirements"] = study["research_requirements"]
     if study.get("source_supplement"):
         basis["source_supplement"] = study["source_supplement"]
+    for key in ("measurement_model", "independent_evidence"):
+        if study.get(key):
+            basis[key] = study[key]
     return fingerprint(basis)
 
 
@@ -61,12 +64,15 @@ def validate_scales(scales: list[dict]) -> list[dict]:
         identifier = str(item.get("id") or f"scale-{index + 1}")
         if not re.fullmatch(r"[a-zA-Z0-9_-]{1,100}", identifier) or identifier in ids:
             raise ValueError("Некорректный или повторный идентификатор шкалы")
-        for field in ("name", "positive", "negative", "definition"):
+        kind = item.get("kind", "paired")
+        if kind not in {"paired", "unipolar"}:
+            raise ValueError("Тип шкалы должен быть paired или unipolar")
+        for field in (("name", "definition") if kind == "unipolar" else ("name", "positive", "negative", "definition")):
             item[field] = str(item.get(field, "")).strip()
             if not item[field] or len(item[field]) > 1800:
                 raise ValueError(f"Заполните поле шкалы: {field}")
-        pair = tuple(sorted((item["positive"].casefold(), item["negative"].casefold())))
-        if pair[0] == pair[1] or pair in pairs:
+        pair = ("unipolar", item["name"].casefold()) if kind == "unipolar" else tuple(sorted((item["positive"].casefold(), item["negative"].casefold())))
+        if (kind != "unipolar" and pair[0] == pair[1]) or pair in pairs:
             raise ValueError("Полюса должны различаться; дублирующиеся шкалы нужно объединить")
         item["id"] = identifier
         item.setdefault("aliases", [])
@@ -151,6 +157,10 @@ class StudyStore:
         if start_date > end_date:
             raise ValueError("Начало периода должно предшествовать окончанию")
         study["date_from"], study["date_to"] = start_date.isoformat(), end_date.isoformat()
+        model = payload.get("measurement_model", "paired_difference")
+        if model not in {"independent_poles", "paired_difference"}:
+            raise ValueError("Некорректная модель измерения")
+        study["measurement_model"] = model
         return self.save(study)
 
     def update(self, identifier: str, **fields) -> dict:
@@ -178,6 +188,8 @@ class StudyStore:
             if fingerprint(validated) == fingerprint(study[field]):
                 return study
             study[field] = validated
+            if field == "scales" and any(scale.get("kind") == "unipolar" for scale in validated):
+                study["measurement_model"] = "independent_poles"
             study["approvals"][field] = {"approved": False}
             if field == "objects":
                 study["scales"] = []

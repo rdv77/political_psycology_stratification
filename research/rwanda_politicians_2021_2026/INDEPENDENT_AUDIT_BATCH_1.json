@@ -1,0 +1,5368 @@
+{
+  "format_version": 1,
+  "study_id": "rwanda-politicians-2021-2026",
+  "audit_id": "independent-poles-batch-1",
+  "reviewed_at": "2026-10-15",
+  "period": {
+    "date_from": "2021-10-15",
+    "date_to": "2026-10-15"
+  },
+  "reviewer": {
+    "id": "service_concept",
+    "type": "assistant_semantic_and_source_grounding_review",
+    "scope": "Первые 14 объектов утверждённого порядка; проверен каждый исходный observed-полюс по определению и указанным фактам досье.",
+    "recode_origin": "Новая оценка при ассистентском пересмотре источников, не первичная эмпирическая человеческая оценка."
+  },
+  "review_rules": {
+    "unknown_untouched": true,
+    "no_inverted_poles": true,
+    "zero_requires_explicit_nonexpression": true,
+    "distinct_episode_anchors": {
+      "1": "Единичное слабое проявление",
+      "2": "Ясное ограниченное проявление",
+      "3": "Повторение минимум в двух разных эпизодах",
+      "4": "Сильное повторяющееся проявление",
+      "5": "Определяющий признак по многим независимым эпизодам"
+    },
+    "reject_means": "Заменить observed на unknown/null; не ставить 0 и не выводить противоположный полюс.",
+    "flag_means": "Сохранить текущую оценку с указанным ограничением интерпретации.",
+    "repair_indices_means": "Текущий уровень сохраняется; исправляется только основание в том же досье."
+  },
+  "checked_objects": [
+    "paul-kagame",
+    "edouard-ngirente",
+    "justin-nsengiyumva",
+    "vincent-biruta",
+    "olivier-nduhungirehe",
+    "james-kabarebe",
+    "juvenal-marizamunda",
+    "albert-murasira",
+    "emmanuel-ugirashebuja",
+    "yusuf-murangwa",
+    "uzziel-ndagijimana",
+    "paula-ingabire",
+    "sabin-nsanzimana",
+    "judith-uwizeye"
+  ],
+  "checked_observed_properties": 281,
+  "decisions": [
+    {
+      "object_id": "paul-kagame",
+      "scale_id": "programmatic-renewal",
+      "pole": "negative",
+      "decision": "reject",
+      "reason": "Индексы 0/1/13/14 подтверждают намерение переизбраться и самопрезентацию кандидата. Определение явно исключает число сроков и само участие в выборах; продолжение персонального руководства не доказывает призыва продолжить конкретный курс.",
+      "original_value": 3,
+      "original_evidence_indices": [
+        0,
+        1,
+        13,
+        14
+      ]
+    },
+    {
+      "object_id": "paul-kagame",
+      "scale_id": "government-course-assessment",
+      "pole": "positive",
+      "decision": "reject",
+      "reason": "Модель прямо пишет «подразумевает». Благодарность за доверие и готовность служить при выдвижении (1/13, один эпизод) не содержат прямой оценки курса или его достижений, которую требует определение.",
+      "original_value": 2,
+      "original_evidence_indices": [
+        1,
+        13
+      ]
+    },
+    {
+      "object_id": "paul-kagame",
+      "scale_id": "participation-administrative-direction",
+      "pole": "negative",
+      "decision": "reject",
+      "reason": "Ограничения кандидатов и правозащитные сообщения описывают действия других органов. В 2/4/14/16 нет публичного поручения Кагаме исполнителям, общего плана или контроля исполнения.",
+      "original_value": 2,
+      "original_evidence_indices": [
+        2,
+        4,
+        14,
+        16
+      ]
+    },
+    {
+      "object_id": "paul-kagame",
+      "scale_id": "argumentation-evidence-values",
+      "pole": "negative",
+      "decision": "recode",
+      "reason": "Служение стране и доверие граждан в единственном интервью 20.09.2023 — узкая ценностная самопрезентация. 1 и 13 дублируют одно заявление; основание достаточно для слабого проявления, но не для более широкого акцента.",
+      "evidence_indices": [
+        1
+      ],
+      "value": 1,
+      "original_value": 2,
+      "original_evidence_indices": [
+        1,
+        13
+      ]
+    },
+    {
+      "object_id": "paul-kagame",
+      "scale_id": "electoral-access",
+      "pole": "negative",
+      "decision": "reject",
+      "reason": "Само досье 2/4/14 исключает доказательство личного решения Кагаме об отстранении. Институциональный контекст выборов не является персональным повышением квалификационных барьеров.",
+      "original_value": 2,
+      "original_evidence_indices": [
+        2,
+        4,
+        14
+      ]
+    },
+    {
+      "object_id": "paul-kagame",
+      "scale_id": "problem-disclosure-reputation-defence",
+      "pole": "negative",
+      "decision": "flag",
+      "reason": "Свойство поддержано отрицанием обвинений, оценка 2 допустима для ясного ограниченного эпизода. Однако 5 и 15 — пересказ одного Reuters от 11.08.2024, а не несколько независимых источников или повторных эпизодов.",
+      "evidence_indices": [
+        5,
+        15
+      ],
+      "original_value": 2,
+      "original_evidence_indices": [
+        5,
+        15
+      ]
+    },
+    {
+      "object_id": "edouard-ngirente",
+      "scale_id": "programmatic-renewal",
+      "pole": "positive",
+      "decision": "flag",
+      "reason": "Поддержка глобального ограничения пластика (12) — конкретное предложение, но призывы к инновациям и реформам университета (1) не устанавливают пересмотр именно действующего курса. Учитывать как ограниченное предложение и не расширять до общей реформаторской установки.",
+      "evidence_indices": [
+        12
+      ],
+      "original_value": 2,
+      "original_evidence_indices": [
+        12,
+        1
+      ]
+    },
+    {
+      "object_id": "edouard-ngirente",
+      "scale_id": "government-course-assessment",
+      "pole": "negative",
+      "decision": "reject",
+      "reason": "Призыв к инновациям/новым действиям (1/12) не содержит критической оценки курса. Рейтинг обоснован «может подразумевать», что противоречит требованию прямой оценки.",
+      "original_value": 1,
+      "original_evidence_indices": [
+        1,
+        12
+      ]
+    },
+    {
+      "object_id": "edouard-ngirente",
+      "scale_id": "participation-administrative-direction",
+      "pole": "positive",
+      "decision": "reject",
+      "reason": "Факт 0 касается инклюзивных переговоров между международными партнёрами. Нет приглашения граждан/общественных групп участвовать в подготовке решений или контролировать результаты.",
+      "original_value": 2,
+      "original_evidence_indices": [
+        0
+      ]
+    },
+    {
+      "object_id": "edouard-ngirente",
+      "scale_id": "argumentation-evidence-values",
+      "pole": "positive",
+      "decision": "repair_indices",
+      "reason": "Количественные аргументы и использование исследования прямо подтверждены 3, 9 и 13. 7/21 фиксируют лишь председательство на запуске статистического отчёта без содержания речи; удалены как несамостоятельное основание. Содержательный смысл исходного обоснования сохраняется.",
+      "evidence_indices": [
+        3,
+        9,
+        13
+      ],
+      "original_value": 4,
+      "original_evidence_indices": [
+        3,
+        13,
+        9,
+        7,
+        21
+      ]
+    },
+    {
+      "object_id": "edouard-ngirente",
+      "scale_id": "external-domestic-resources",
+      "pole": "positive",
+      "decision": "recode",
+      "reason": "Именованное внешнее финансирование CDAT и предложение фонда для экологических обязательств дают два отдельных эпизода (9 и 12). 9/20 — один CDAT-эпизод, 3/4 — один запуск доклада Всемирного банка, а не несколько финансовых решений. 3 соответствует повторению; сильная многократность 4 не установлена.",
+      "evidence_indices": [
+        9,
+        12
+      ],
+      "value": 3,
+      "original_value": 4,
+      "original_evidence_indices": [
+        3,
+        4,
+        9,
+        12,
+        20
+      ]
+    },
+    {
+      "object_id": "edouard-ngirente",
+      "scale_id": "international-rules-autonomy",
+      "pole": "positive",
+      "decision": "recode",
+      "reason": "Конкретные обязательства подтверждены COP26 (0) и UNEA (12). Открытие ATIDI (19) без собственных нормативных предложений не является третьим подтверждением общих обязательств. Два эпизода обосновывают 3, но не сильный устойчивый акцент 4.",
+      "evidence_indices": [
+        0,
+        12
+      ],
+      "value": 3,
+      "original_value": 4,
+      "original_evidence_indices": [
+        12,
+        0,
+        19
+      ]
+    },
+    {
+      "object_id": "edouard-ngirente",
+      "scale_id": "cultural-openness-national-transmission",
+      "pole": "positive",
+      "decision": "reject",
+      "reason": "0/3/4/12/17 — климат, исследование, международная экономика и инновационная площадка. Международность и сотрудничество сами по себе не доказывают культурно-гражданский обмен или поддержку разнообразия.",
+      "original_value": 2,
+      "original_evidence_indices": [
+        0,
+        3,
+        4,
+        12,
+        17
+      ]
+    },
+    {
+      "object_id": "edouard-ngirente",
+      "scale_id": "problem-disclosure-reputation-defence",
+      "pole": "negative",
+      "decision": "reject",
+      "reason": "Благодарности, достижения и продолжение стратегии (8/10) не содержат защиты от искажённых описаний либо явного продвижения репутации. Отсутствие критики не устанавливает защитный полюс.",
+      "original_value": 2,
+      "original_evidence_indices": [
+        8,
+        10
+      ]
+    },
+    {
+      "object_id": "edouard-ngirente",
+      "scale_id": "taxation-burden-public-revenue",
+      "pole": "negative",
+      "decision": "reject",
+      "reason": "9/13/20 называют государственные расходы и внешнее финансирование. Они не содержат поддержки увеличения налогового сбора; расходы не являются индикатором налоговой позиции.",
+      "original_value": 2,
+      "original_evidence_indices": [
+        9,
+        13,
+        20
+      ]
+    },
+    {
+      "object_id": "edouard-ngirente",
+      "scale_id": "universal-targeted-provision",
+      "pole": "positive",
+      "decision": "recode",
+      "reason": "Прямое обязательство всеобщего доступа к основным медицинским услугам есть в 16. Расходы на школу/аграрные программы (13/20) не устанавливают единый стандарт или универсальные гарантии. Это один ясный эпизод, поэтому 2 вместо повторяющегося 3.",
+      "evidence_indices": [
+        16
+      ],
+      "value": 2,
+      "original_value": 3,
+      "original_evidence_indices": [
+        13,
+        16,
+        20
+      ]
+    },
+    {
+      "object_id": "justin-nsengiyumva",
+      "scale_id": "participation-administrative-direction",
+      "pole": "positive",
+      "decision": "reject",
+      "reason": "1/13 призывают к межсекторному сотрудничеству для реализации программы; 17 — международное сотрудничество. Нет прямого приглашения граждан обсуждать решения или контролировать результаты; совместное исполнение не подменяет участие в решении.",
+      "original_value": 2,
+      "original_evidence_indices": [
+        1,
+        13,
+        17
+      ]
+    },
+    {
+      "object_id": "justin-nsengiyumva",
+      "scale_id": "international-rules-autonomy",
+      "pole": "negative",
+      "decision": "reject",
+      "reason": "5/10/12 — обращение к молодёжи диаспоры о сохранении ценностей и защите от манипулирования. Не установлена защита свободы национального государственного решения или возражение навязыванию конкретного решения.",
+      "original_value": 1,
+      "original_evidence_indices": [
+        5,
+        10,
+        12
+      ]
+    },
+    {
+      "object_id": "justin-nsengiyumva",
+      "scale_id": "mediation-adversarial-communication",
+      "pole": "positive",
+      "decision": "reject",
+      "reason": "17 содержит общий призыв к глобальному природоохранному сотрудничеству, но не посредничество, переговорное предложение или согласование конкретных интересов сторон.",
+      "original_value": 1,
+      "original_evidence_indices": [
+        17
+      ]
+    },
+    {
+      "object_id": "justin-nsengiyumva",
+      "scale_id": "prevention-crisis-response",
+      "pole": "positive",
+      "decision": "repair_indices",
+      "reason": "Слабое проявление подготовки поддержано прямо упомянутой климатической адаптацией в 2/3 (одно выступление). Общий дорожный план 14 без раскрытого риска не подтверждает упреждающее снижение угроз; удалён.",
+      "evidence_indices": [
+        2,
+        3
+      ],
+      "original_value": 1,
+      "original_evidence_indices": [
+        2,
+        3,
+        14
+      ]
+    },
+    {
+      "object_id": "justin-nsengiyumva",
+      "scale_id": "ecological-limits-resource-use",
+      "pole": "positive",
+      "decision": "reject",
+      "reason": "6/11/16/17 — одно международное мероприятие о консервации и восстановлении парка. Поддержка охраны природы вообще не устанавливает конкретное усиление экологических ограничений хозяйственной деятельности, условия разрешения или ограничения производства, требуемые определением.",
+      "original_value": 2,
+      "original_evidence_indices": [
+        6,
+        11,
+        16,
+        17
+      ]
+    },
+    {
+      "object_id": "vincent-biruta",
+      "scale_id": "cultural-openness-national-transmission",
+      "pole": "positive",
+      "decision": "reject",
+      "reason": "2/6/10/11 — сырьевое, дипломатическое и развивающее сотрудничество. Международный состав форума и механизмы консультаций не подтверждают культурно-гражданский обмен или разнообразие.",
+      "original_value": 2,
+      "original_evidence_indices": [
+        2,
+        6,
+        10,
+        11
+      ]
+    },
+    {
+      "object_id": "vincent-biruta",
+      "scale_id": "procedural-guarantees-enforcement",
+      "pole": "negative",
+      "decision": "reject",
+      "reason": "9 описывает снижение переполненности тюрем, альтернативные наказания, освобождение и перераспределение заключённых. Управление вместимостью само по себе не подтверждает личную поддержку применения санкций для исполнения конкретных требований; интерпретация в конце модельного факта не заменяет такое действие.",
+      "original_value": 2,
+      "original_evidence_indices": [
+        9
+      ]
+    },
+    {
+      "object_id": "vincent-biruta",
+      "scale_id": "ecological-limits-resource-use",
+      "pole": "positive",
+      "decision": "reject",
+      "reason": "12 подтверждает участие в посадке деревьев и благодарность организаторам. В нём нет природоохранного ограничения хозяйственной деятельности, производства или разрешительной процедуры.",
+      "original_value": 1,
+      "original_evidence_indices": [
+        12
+      ]
+    },
+    {
+      "object_id": "olivier-nduhungirehe",
+      "scale_id": "participation-administrative-direction",
+      "pole": "negative",
+      "decision": "reject",
+      "reason": "15/25 подтверждают брифинги для дипломатического корпуса. Информирование послов не является постановкой задач исполнителям или контролем исполнения, требуемыми определением.",
+      "original_value": 2,
+      "original_evidence_indices": [
+        25,
+        15
+      ]
+    },
+    {
+      "object_id": "olivier-nduhungirehe",
+      "scale_id": "international-rules-autonomy",
+      "pole": "negative",
+      "decision": "reject",
+      "reason": "2 содержит призыв к единому африканскому голосу и усилению представительства. Это не прямо выраженная свобода национального решения или возражение внешнему навязыванию; собственная самостоятельность государства выведена из регионального представительства.",
+      "original_value": 2,
+      "original_evidence_indices": [
+        2
+      ]
+    },
+    {
+      "object_id": "olivier-nduhungirehe",
+      "scale_id": "cultural-openness-national-transmission",
+      "pole": "positive",
+      "decision": "reject",
+      "reason": "Указаны дипломатические связи, техническое обучение и визы для служебных паспортов. Они не содержат культурно-гражданской программы межкультурного обмена/разнообразия; международность и подготовка профессионалов не заменяют этот конструкт.",
+      "original_value": 2,
+      "original_evidence_indices": [
+        0,
+        3,
+        9,
+        29,
+        30,
+        32
+      ]
+    },
+    {
+      "object_id": "olivier-nduhungirehe",
+      "scale_id": "procedural-guarantees-enforcement",
+      "pole": "positive",
+      "decision": "reject",
+      "reason": "13 — требование прозрачности и подотчётности миссии ООН. Оно поддерживает институциональный контроль, но не содержит расширения доступа к защите, разбирательству либо обжалованию, составляющих этот полюс.",
+      "original_value": 2,
+      "original_evidence_indices": [
+        13
+      ]
+    },
+    {
+      "object_id": "olivier-nduhungirehe",
+      "scale_id": "prevention-crisis-response",
+      "pole": "positive",
+      "decision": "reject",
+      "reason": "14/21 — один анализ причин терроризма. Указание на бедность/хрупкое управление не является датированным действием или предложением подготовки и предотвращения вреда; само досье отмечает отсутствие такого плана.",
+      "original_value": 1,
+      "original_evidence_indices": [
+        14,
+        21
+      ]
+    },
+    {
+      "object_id": "olivier-nduhungirehe",
+      "scale_id": "institutional-autonomy-coordination",
+      "pole": "negative",
+      "decision": "reject",
+      "reason": "24 описывает взаимные межгосударственные консультации США–Руанда, а не общую исполнительскую цепочку или согласование институтов единой управленческой линией. Международное партнёрство не подменяет межинституциональное устройство.",
+      "original_value": 2,
+      "original_evidence_indices": [
+        24
+      ]
+    },
+    {
+      "object_id": "olivier-nduhungirehe",
+      "scale_id": "ecological-limits-resource-use",
+      "pole": "negative",
+      "decision": "reject",
+      "reason": "Поддержка атомной энергетики и обучения (9/30/32) не содержит предложения расширить добычу или использование конкретного природного ресурса либо ослабить экологические ограничения. Технологический проект не является сам по себе ресурсно-экологической позицией.",
+      "original_value": 1,
+      "original_evidence_indices": [
+        9,
+        30,
+        32
+      ]
+    },
+    {
+      "object_id": "olivier-nduhungirehe",
+      "scale_id": "russia-diplomatic-engagement",
+      "pole": "negative",
+      "decision": "reject",
+      "reason": "Ноль обоснован отсутствием дистанцирования и наличием положительного полюса. При независимых полюсах это unknown: расширение контактов не доказывает явную невыраженность любого дистанцирования.",
+      "original_value": 0,
+      "original_evidence_indices": [
+        29,
+        31,
+        32
+      ]
+    },
+    {
+      "object_id": "olivier-nduhungirehe",
+      "scale_id": "russia-economic-technology-cooperation",
+      "pole": "positive",
+      "decision": "repair_indices",
+      "reason": "31 (Каир) и 32 (Анталья) прямо содержат торгово-экономическое/технологическое сотрудничество и дают два разных эпизода, достаточных для 3. 9 относится к подготовке специалистов и общей потребности в атомной энергии; его нельзя превращать в третье собственное российское проектное действие.",
+      "evidence_indices": [
+        31,
+        32
+      ],
+      "original_value": 3,
+      "original_evidence_indices": [
+        9,
+        31,
+        32
+      ]
+    },
+    {
+      "object_id": "olivier-nduhungirehe",
+      "scale_id": "russia-education-cultural-cooperation",
+      "pole": "positive",
+      "decision": "repair_indices",
+      "reason": "9 и 30 — одно интервью AFP 09.11.2024, а не два независимых эпизода. Оставлены уточнённое первичное основание 30 и Анталья 32: два разных образовательных эпизода сохраняют допустимость 3, но обоснование о трёх независимых эпизодах неверно.",
+      "evidence_indices": [
+        30,
+        32
+      ],
+      "original_value": 3,
+      "original_evidence_indices": [
+        9,
+        30,
+        32
+      ]
+    },
+    {
+      "object_id": "olivier-nduhungirehe",
+      "scale_id": "external-domestic-resources",
+      "pole": "positive",
+      "decision": "repair_indices",
+      "reason": "Оставлены конкретный египетский сердечный центр/логистический проект (3), российская подготовка кадров (30) и названные направления ядерного/кадрового партнёрства (32). 9 дублирует 30; 24 является механизмом консультаций без конкретного ресурса, 31 — общая торгово-экономическая рамка.",
+      "evidence_indices": [
+        3,
+        30,
+        32
+      ],
+      "original_value": 3,
+      "original_evidence_indices": [
+        9,
+        3,
+        24,
+        30,
+        31,
+        32
+      ]
+    },
+    {
+      "object_id": "james-kabarebe",
+      "scale_id": "participation-administrative-direction",
+      "pole": "negative",
+      "decision": "reject",
+      "reason": "9/10 — поддержка региональной интеграции, снятия торговых барьеров и общих целей. Нет персональных поручений исполнителям или контроля исполнения; координация государств не равна административной постановке задач.",
+      "original_value": 2,
+      "original_evidence_indices": [
+        9,
+        10
+      ]
+    },
+    {
+      "object_id": "james-kabarebe",
+      "scale_id": "argumentation-evidence-values",
+      "pole": "negative",
+      "decision": "recode",
+      "reason": "Явные ценностные слова о доверии и взаимном уважении есть в единственном китайском эпизоде (4). Польза общего рынка и торговая цель (9/10) не являются самостоятельными коллективными символами. Слабая формульная апелляция соответствует 1.",
+      "evidence_indices": [
+        4
+      ],
+      "value": 1,
+      "original_value": 2,
+      "original_evidence_indices": [
+        4,
+        9,
+        10
+      ]
+    },
+    {
+      "object_id": "james-kabarebe",
+      "scale_id": "market-state-instruments",
+      "pole": "negative",
+      "decision": "reject",
+      "reason": "9/10 поддерживают общий рынок и устранение барьеров. Из них не следует расширение обязательных хозяйственных ограничений, государственного планирования или надзора; ссылка на международный механизм не определяет инструмент вмешательства государства.",
+      "original_value": 2,
+      "original_evidence_indices": [
+        9,
+        10
+      ]
+    },
+    {
+      "object_id": "james-kabarebe",
+      "scale_id": "external-domestic-resources",
+      "pole": "positive",
+      "decision": "reject",
+      "reason": "4 перечисляет направления и пользу китайско-руандийских отношений. Конкретного финансирования, проекта или предложения привлечь ресурсного партнёра не названо; общая похвала отношениям недостаточна.",
+      "original_value": 2,
+      "original_evidence_indices": [
+        4
+      ]
+    },
+    {
+      "object_id": "james-kabarebe",
+      "scale_id": "prevention-crisis-response",
+      "pole": "negative",
+      "decision": "reject",
+      "reason": "12 — общий призыв к континентальному единству перед угрозами. Не названы собственные оперативные действия в ответ на конкретный уже возникший кризис; рамка безопасности и участие в форуме не определяют временную стратегию.",
+      "original_value": 1,
+      "original_evidence_indices": [
+        12
+      ]
+    },
+    {
+      "object_id": "juvenal-marizamunda",
+      "scale_id": "external-domestic-resources",
+      "pole": "positive",
+      "decision": "reject",
+      "reason": "2/11 — один алжирский визит, 4/5/13 — одна российская комиссия, 12 — китайская встреча. Обсуждение оборонных связей и доверия без конкретного финансирования или ресурсного предложения не подтверждает привлечение ресурсов.",
+      "original_value": 2,
+      "original_evidence_indices": [
+        2,
+        5,
+        11,
+        12,
+        13
+      ]
+    },
+    {
+      "object_id": "juvenal-marizamunda",
+      "scale_id": "international-rules-autonomy",
+      "pole": "negative",
+      "decision": "flag",
+      "reason": "1 поддерживает решения под африканским руководством. Это региональная самостоятельность; 11 (консультации с Алжиром) сам по себе не доказывает национальную автономию. Не расширять ограниченное региональное высказывание до всей национальной политики.",
+      "evidence_indices": [
+        1
+      ],
+      "original_value": 2,
+      "original_evidence_indices": [
+        1,
+        11
+      ]
+    },
+    {
+      "object_id": "juvenal-marizamunda",
+      "scale_id": "mediation-adversarial-communication",
+      "pole": "negative",
+      "decision": "recode",
+      "reason": "Факты 7/8/9 пересказывают одну панель Мюнхенской конференции 14–16.02.2025; 18 и 21 февраля — даты публикаций DW/VOA. Полные страницы проверены: одно публичное отрицание агрессии даёт ясное ограниченное проявление 2, но не повторяемость 3. В датировке досье требуется различать событие и публикацию.",
+      "evidence_indices": [
+        7,
+        8,
+        9
+      ],
+      "value": 2,
+      "source_urls": [
+        "https://www.dw.com/en/calls-grow-for-congo-to-resolve-conflict-through-dialogue/a-71644884",
+        "https://www.voanews.com/a/false-rwanda-denies-its-involvement-in-drc-war/7983442.html"
+      ],
+      "original_value": 3,
+      "original_evidence_indices": [
+        7,
+        8,
+        9
+      ]
+    },
+    {
+      "object_id": "juvenal-marizamunda",
+      "scale_id": "cultural-openness-national-transmission",
+      "pole": "positive",
+      "decision": "reject",
+      "reason": "1/6/11/12 — профессиональные оборонные дискуссии и дипломатическое сотрудничество. В них нет культурно-гражданского обмена или поддержки межкультурного разнообразия.",
+      "original_value": 2,
+      "original_evidence_indices": [
+        1,
+        6,
+        11,
+        12
+      ]
+    },
+    {
+      "object_id": "juvenal-marizamunda",
+      "scale_id": "cultural-openness-national-transmission",
+      "pole": "negative",
+      "decision": "reject",
+      "reason": "Африканское лидерство и защита национальной безопасности в 1/7/8/9/11 не являются передачей культурных традиций/национальной идентичности. Полюс выведен из другого уровня — внешней безопасности.",
+      "original_value": 2,
+      "original_evidence_indices": [
+        1,
+        7,
+        8,
+        9,
+        11
+      ]
+    },
+    {
+      "object_id": "juvenal-marizamunda",
+      "scale_id": "problem-disclosure-reputation-defence",
+      "pole": "positive",
+      "decision": "reject",
+      "reason": "6 перечисляет общемировые угрозы и провалы управления как общие вызовы. Конкретного собственного/государственного сбоя исполнения, ограничения либо признанного недостатка в нём нет.",
+      "original_value": 1,
+      "original_evidence_indices": [
+        6
+      ]
+    },
+    {
+      "object_id": "juvenal-marizamunda",
+      "scale_id": "problem-disclosure-reputation-defence",
+      "pole": "negative",
+      "decision": "recode",
+      "reason": "7/8/9 — один мюнхенский публичный спор, подтверждённый несколькими пересказами, а не серия разных выступлений. Проверка полных DW/VOA сохраняет защиту репутации как ясный единичный эпизод 2 и снимает повторяющийся уровень 3.",
+      "evidence_indices": [
+        7,
+        8,
+        9
+      ],
+      "value": 2,
+      "source_urls": [
+        "https://www.dw.com/en/calls-grow-for-congo-to-resolve-conflict-through-dialogue/a-71644884",
+        "https://www.voanews.com/a/false-rwanda-denies-its-involvement-in-drc-war/7983442.html"
+      ],
+      "original_value": 3,
+      "original_evidence_indices": [
+        7,
+        8,
+        9
+      ]
+    },
+    {
+      "object_id": "juvenal-marizamunda",
+      "scale_id": "prevention-crisis-response",
+      "pole": "positive",
+      "decision": "recode",
+      "reason": "В 6 есть предложение совместно разрабатывать стратегии для более безопасного будущего (проверен полный MOD). Это слабая ограниченная превентивная рамка, без конкретного плана готовности. 1/11 о мире и сотрудничестве не добавляют самостоятельной упреждающей меры.",
+      "evidence_indices": [
+        6
+      ],
+      "value": 1,
+      "source_urls": [
+        "https://www.mod.gov.rw/docs-media/news-detail/the-eleventh-national-security-symposium-opens-in-kigali-1"
+      ],
+      "original_value": 2,
+      "original_evidence_indices": [
+        1,
+        6,
+        11
+      ]
+    },
+    {
+      "object_id": "juvenal-marizamunda",
+      "scale_id": "prevention-crisis-response",
+      "pole": "negative",
+      "decision": "reject",
+      "reason": "8/9 — отрицание обвинений на одной мюнхенской панели и общая защитная аргументация. Именованного оперативного действия или предложения в ответ на уже возникший ущерб они не содержат; полемика не равна стратегии кризисного реагирования.",
+      "original_value": 2,
+      "original_evidence_indices": [
+        8,
+        9
+      ]
+    },
+    {
+      "object_id": "albert-murasira",
+      "scale_id": "participation-administrative-direction",
+      "pole": "positive",
+      "decision": "reject",
+      "reason": "4/10/11 призывают участников и институты реализовать действующую политику и обмениваться данными. Нет конкретного участия граждан/групп в подготовке решений или общественного контроля; совместное исполнение подменено совместным решением.",
+      "original_value": 2,
+      "original_evidence_indices": [
+        4,
+        10,
+        11
+      ]
+    },
+    {
+      "object_id": "albert-murasira",
+      "scale_id": "argumentation-evidence-values",
+      "pole": "positive",
+      "decision": "reject",
+      "reason": "4/10/14 содержат ссылки на стратегии и рамочные программы и призыв обмениваться данными. Самих данных, расчётов или использования исследования для решения нет; нормативный план не заменяет доказательную аргументацию.",
+      "original_value": 2,
+      "original_evidence_indices": [
+        4,
+        10,
+        14
+      ]
+    },
+    {
+      "object_id": "albert-murasira",
+      "scale_id": "external-domestic-resources",
+      "pole": "positive",
+      "decision": "reject",
+      "reason": "12/13 упоминают гуманитарных партнёров и сотрудничество, но не конкретное внешнее финансирование либо предложение ресурсного проекта. Ориентация на партнёрство сама по себе не устанавливает ресурсный способ обеспечения.",
+      "original_value": 2,
+      "original_evidence_indices": [
+        12,
+        13
+      ]
+    },
+    {
+      "object_id": "albert-murasira",
+      "scale_id": "external-domestic-resources",
+      "pole": "negative",
+      "decision": "flag",
+      "reason": "12 говорит о самообеспечении домохозяйств беженцев, не о внутренней доходной базе государства. 1 допустим лишь как узкая стратегия снижения зависимости группы от гуманитарной помощи, без вывода о национальной фискальной самостоятельности.",
+      "evidence_indices": [
+        12
+      ],
+      "original_value": 1,
+      "original_evidence_indices": [
+        12
+      ]
+    },
+    {
+      "object_id": "albert-murasira",
+      "scale_id": "mediation-adversarial-communication",
+      "pole": "positive",
+      "decision": "reject",
+      "reason": "4/10 — исполнение политики снижения риска; 13 — поддержка добровольного возвращения и интеграции. Конкретного посредничества, переговорного предложения либо согласования различных интересов не приведено.",
+      "original_value": 2,
+      "original_evidence_indices": [
+        4,
+        10,
+        13
+      ]
+    },
+    {
+      "object_id": "albert-murasira",
+      "scale_id": "cultural-openness-national-transmission",
+      "pole": "positive",
+      "decision": "reject",
+      "reason": "0/9 — участие женщин в миротворческих миссиях и развитие их возможностей. Гендерная инклюзивность профессиональной службы не является культурно-гражданским обменом или межкультурным разнообразием.",
+      "original_value": 1,
+      "original_evidence_indices": [
+        0,
+        9
+      ]
+    },
+    {
+      "object_id": "albert-murasira",
+      "scale_id": "problem-disclosure-reputation-defence",
+      "pole": "negative",
+      "decision": "reject",
+      "reason": "0/1/3/4/10/11 подтверждают поддержку миротворчества и действующих стратегий. Отсутствие признания проблем не означает защиту внешнего образа или опровержение искажённого описания.",
+      "original_value": 2,
+      "original_evidence_indices": [
+        0,
+        1,
+        3,
+        4,
+        10,
+        11
+      ]
+    },
+    {
+      "object_id": "albert-murasira",
+      "scale_id": "prevention-crisis-response",
+      "pole": "positive",
+      "decision": "recode",
+      "reason": "3/4/10/11 — один DRRM-форум ноября 2024 года, что прямо признаёт досье. 14 добавляет отдельный эпизод октября 2026 года. Два ясных эпизода дают повторение 3; представление пяти индексов как многократной сильной устойчивости 4 завышает базу.",
+      "evidence_indices": [
+        10,
+        14
+      ],
+      "value": 3,
+      "original_value": 4,
+      "original_evidence_indices": [
+        3,
+        4,
+        10,
+        11,
+        14
+      ]
+    },
+    {
+      "object_id": "albert-murasira",
+      "scale_id": "ecological-limits-resource-use",
+      "pole": "positive",
+      "decision": "reject",
+      "reason": "14 требует финансировать снижение риска, раннее предупреждение и климатическую устойчивость. Конкретное природоохранное ограничение хозяйственной деятельности/производства или условие разрешения не названо; климатическая подготовка не подменяет этот конструкт.",
+      "original_value": 2,
+      "original_evidence_indices": [
+        14
+      ]
+    },
+    {
+      "object_id": "emmanuel-ugirashebuja",
+      "scale_id": "government-course-assessment",
+      "pole": "negative",
+      "decision": "reject",
+      "reason": "Ноль прямо объяснён отсутствием критики и наличием поддержки. Независимый отрицательный полюс при таком основании остаётся unknown.",
+      "original_value": 0,
+      "original_evidence_indices": [
+        10,
+        12,
+        15,
+        16,
+        19,
+        21
+      ]
+    },
+    {
+      "object_id": "emmanuel-ugirashebuja",
+      "scale_id": "argumentation-evidence-values",
+      "pole": "positive",
+      "decision": "recode",
+      "reason": "1/2/4/7/8 описывают технологии, эффективность и обучение, а не собственно данные/исследование как обоснование. Конкретный количественный результат 14 719 работников содержится в одном заявлении 17/18. Ясная единичная отчётная аргументация даёт 2, не повторение 3.",
+      "evidence_indices": [
+        17,
+        18
+      ],
+      "value": 2,
+      "original_value": 3,
+      "original_evidence_indices": [
+        1,
+        2,
+        4,
+        7,
+        8,
+        17,
+        18
+      ]
+    },
+    {
+      "object_id": "emmanuel-ugirashebuja",
+      "scale_id": "accessibility-growth-priorities",
+      "pole": "negative",
+      "decision": "reject",
+      "reason": "4/8 — профессиональная подготовка и инновации юридических услуг; 11 — условия успешного ГЧП. Они не содержат самостоятельного приоритета инвестиций, экспорта, конкурентоспособности или роста деловой активности. Эффективность правосудия не подменяет этот полюс.",
+      "original_value": 2,
+      "original_evidence_indices": [
+        4,
+        8,
+        11
+      ]
+    },
+    {
+      "object_id": "emmanuel-ugirashebuja",
+      "scale_id": "external-domestic-resources",
+      "pole": "positive",
+      "decision": "reject",
+      "reason": "2/3/6/10 отмечают награду, партнёров, присутствие ООН и благодарность за участие в разработке политик. Конкретного внешнего финансирования либо предложения ресурсного партнёрства в них нет.",
+      "original_value": 2,
+      "original_evidence_indices": [
+        2,
+        3,
+        6,
+        10
+      ]
+    },
+    {
+      "object_id": "emmanuel-ugirashebuja",
+      "scale_id": "external-domestic-resources",
+      "pole": "negative",
+      "decision": "reject",
+      "reason": "Подготовка национальных юристов и развёртывание социальной инфраструктуры (4/17/18) не являются стратегией внутренних доходов или снижения зависимости от внешних поступлений. Кадровая национальность не определяет ресурсную модель.",
+      "original_value": 2,
+      "original_evidence_indices": [
+        4,
+        17,
+        18
+      ]
+    },
+    {
+      "object_id": "emmanuel-ugirashebuja",
+      "scale_id": "international-rules-autonomy",
+      "pole": "positive",
+      "decision": "repair_indices",
+      "reason": "16/19 одного национального диалога содержат явную связь правовой политики с региональными и международными стандартами, допустимую для ограниченного 2. 14 подтверждает лишь участие в UPR и прямо не устанавливает позицию; исключён.",
+      "evidence_indices": [
+        16,
+        19
+      ],
+      "original_value": 2,
+      "original_evidence_indices": [
+        14,
+        16,
+        19
+      ]
+    },
+    {
+      "object_id": "emmanuel-ugirashebuja",
+      "scale_id": "cultural-openness-national-transmission",
+      "pole": "negative",
+      "decision": "reject",
+      "reason": "19 касается правовых стандартов справедливости и институциональных рамок. Это не культурные традиции, национальная идентичность или их передача; нормативная преемственность другого уровня ошибочно названа культурной.",
+      "original_value": 2,
+      "original_evidence_indices": [
+        19
+      ]
+    },
+    {
+      "object_id": "emmanuel-ugirashebuja",
+      "scale_id": "problem-disclosure-reputation-defence",
+      "pole": "positive",
+      "decision": "reject",
+      "reason": "20 призывает обсуждать проблемы и выполнять рекомендации без раскрытия конкретного признанного недостатка/сбоя исполнения. Приглашение к обсуждению само по себе не устанавливает раскрытие проблем.",
+      "original_value": 2,
+      "original_evidence_indices": [
+        20
+      ]
+    },
+    {
+      "object_id": "emmanuel-ugirashebuja",
+      "scale_id": "problem-disclosure-reputation-defence",
+      "pole": "negative",
+      "decision": "reject",
+      "reason": "9 — защита юридического требования в арбитраже и обвинение контрагента в нарушении договора. Не приведены защита внешнего образа страны или опровержение искажённого описания; это полемический правовой спор, уже учитываемый другой шкалой.",
+      "original_value": 2,
+      "original_evidence_indices": [
+        9
+      ]
+    },
+    {
+      "object_id": "emmanuel-ugirashebuja",
+      "scale_id": "procedural-guarantees-enforcement",
+      "pole": "negative",
+      "decision": "reject",
+      "reason": "0/21 говорят о способности юристов применять законодательство и реализации политик. Нет персонального действия/предложения применить санкцию или принуждение для исполнения конкретного требования. Общая правоприменительная функция не определяет этот полюс.",
+      "original_value": 2,
+      "original_evidence_indices": [
+        0,
+        21
+      ]
+    },
+    {
+      "object_id": "yusuf-murangwa",
+      "scale_id": "argumentation-evidence-values",
+      "pole": "positive",
+      "decision": "repair_indices",
+      "reason": "6/16/17 содержат собственную презентацию количественных показателей и сохраняют повторяемость 3. 3 сообщает лишь участие в мероприятии и профессиональный профиль, что не доказывает конкретное использование данных в речи.",
+      "evidence_indices": [
+        6,
+        16,
+        17
+      ],
+      "original_value": 3,
+      "original_evidence_indices": [
+        3,
+        6,
+        16,
+        17
+      ]
+    },
+    {
+      "object_id": "yusuf-murangwa",
+      "scale_id": "external-domestic-resources",
+      "pole": "positive",
+      "decision": "repair_indices",
+      "reason": "4 и 20 подтверждают позицию о международной помощи/развитии и её согласовании с национальной стратегией. 5 описывает ответственность министерства, без собственного действия Мурангвы; 19 — общий формат диалога. Основание ограничивается программным партнёрством, а не доказанными личными финансовыми сделками.",
+      "evidence_indices": [
+        4,
+        20
+      ],
+      "original_value": 3,
+      "original_evidence_indices": [
+        4,
+        5,
+        19,
+        20
+      ]
+    },
+    {
+      "object_id": "yusuf-murangwa",
+      "scale_id": "international-rules-autonomy",
+      "pole": "negative",
+      "decision": "reject",
+      "reason": "12 — автономия центрального банка внутри государства, а не национальная самостоятельность во внешних решениях. 4 — согласование помощи с планом, без защиты от навязывания или прямого утверждения свободы национального решения. Перепутаны уровни автономии.",
+      "original_value": 2,
+      "original_evidence_indices": [
+        12,
+        4
+      ]
+    },
+    {
+      "object_id": "yusuf-murangwa",
+      "scale_id": "problem-disclosure-reputation-defence",
+      "pole": "negative",
+      "decision": "reject",
+      "reason": "6/16/17/18 представляют рост и устойчивость экономики. Положительная оценка результатов не равна явной защите репутации от искажений/внешних обвинений; такого действия в приведённых фактах нет.",
+      "original_value": 2,
+      "original_evidence_indices": [
+        6,
+        16,
+        17,
+        18
+      ]
+    },
+    {
+      "object_id": "yusuf-murangwa",
+      "scale_id": "procedural-guarantees-enforcement",
+      "pole": "positive",
+      "decision": "reject",
+      "reason": "12 содержит реформу управления и независимости центрального банка. Нет расширения доступа к защите, разбирательству или обжалованию; институциональная автономия ошибочно перенесена на юридические процессуальные гарантии.",
+      "original_value": 2,
+      "original_evidence_indices": [
+        12
+      ]
+    },
+    {
+      "object_id": "yusuf-murangwa",
+      "scale_id": "taxation-burden-public-revenue",
+      "pole": "negative",
+      "decision": "reject",
+      "reason": "0/1/2/22 содержат бюджетные доходы/расходы и мобилизацию внутренних ресурсов без прямо названной поддержки увеличения именно налогового сбора. Рост суммарного дохода и расхода не доказывает конкретную налоговую позицию.",
+      "original_value": 2,
+      "original_evidence_indices": [
+        0,
+        1,
+        2,
+        22
+      ]
+    },
+    {
+      "object_id": "yusuf-murangwa",
+      "scale_id": "universal-targeted-provision",
+      "pole": "positive",
+      "decision": "reject",
+      "reason": "9/10/13 перечисляют отраслевые приоритеты бюджета. Не сформулированы единые гарантии или стандарт доступности для всех; государственная отраслевая программа не устанавливает универсальность автоматически.",
+      "original_value": 2,
+      "original_evidence_indices": [
+        9,
+        10,
+        13
+      ]
+    },
+    {
+      "object_id": "yusuf-murangwa",
+      "scale_id": "ecological-limits-resource-use",
+      "pole": "positive",
+      "decision": "reject",
+      "reason": "1/2 называют климатическую адаптацию и устойчивость. Конкретные ограничения хозяйственной деятельности/производства или экологические условия разрешения не приведены.",
+      "original_value": 1,
+      "original_evidence_indices": [
+        1,
+        2
+      ]
+    },
+    {
+      "object_id": "uzziel-ndagijimana",
+      "scale_id": "cultural-openness-national-transmission",
+      "pole": "positive",
+      "decision": "reject",
+      "reason": "11/14/17 — экономическое партнёрство, навыки, цифровая экономика и частный сектор. Международность программы не устанавливает культурно-гражданский обмен или разнообразие.",
+      "original_value": 2,
+      "original_evidence_indices": [
+        11,
+        14,
+        17
+      ]
+    },
+    {
+      "object_id": "uzziel-ndagijimana",
+      "scale_id": "procedural-guarantees-enforcement",
+      "pole": "positive",
+      "decision": "reject",
+      "reason": "5 подтверждает участие граждан в бюджетном мониторинге, а не доступ к защите, разбирательству или обжалованию. Общественный контроль ошибочно перенесён на процессуально-правовой конструкт.",
+      "original_value": 1,
+      "original_evidence_indices": [
+        5
+      ]
+    },
+    {
+      "object_id": "uzziel-ndagijimana",
+      "scale_id": "taxation-burden-public-revenue",
+      "pole": "negative",
+      "decision": "reject",
+      "reason": "1/2/3/4/7 показывают расходы и структуру доходов, причём 3 прямо называет источником роста внешние гранты и займы. Нет собственного предложения увеличить именно налоговый сбор; расходы, гранты и займы не заменяют налоговую позицию.",
+      "original_value": 3,
+      "original_evidence_indices": [
+        1,
+        2,
+        3,
+        4,
+        7
+      ]
+    },
+    {
+      "object_id": "uzziel-ndagijimana",
+      "scale_id": "universal-targeted-provision",
+      "pole": "positive",
+      "decision": "repair_indices",
+      "reason": "6 прямо содержит цель всеобщего доступа к электричеству и сохраняет ограниченную оценку 2. 17 относится к навыкам/занятости молодёжи и не устанавливает одинаковые гарантии для всего населения.",
+      "evidence_indices": [
+        6
+      ],
+      "original_value": 2,
+      "original_evidence_indices": [
+        6,
+        17
+      ]
+    },
+    {
+      "object_id": "uzziel-ndagijimana",
+      "scale_id": "ecological-limits-resource-use",
+      "pole": "positive",
+      "decision": "reject",
+      "reason": "0/12/15/16 подтверждают климатическую устойчивость, экологические цели и устойчивое управление ресурсами. Конкретное ограничение хозяйственной деятельности, производства или разрешительное экологическое условие не приведено; предложение ограничений нельзя вывести из общей климатической цели.",
+      "original_value": 3,
+      "original_evidence_indices": [
+        0,
+        12,
+        15,
+        16
+      ]
+    },
+    {
+      "object_id": "uzziel-ndagijimana",
+      "scale_id": "market-state-instruments",
+      "pole": "negative",
+      "decision": "repair_indices",
+      "reason": "8 подтверждает единое публичное бюджетное планирование. 15 содержит экологические цели без конкретных обязательных ограничений; это не самостоятельное основание государственного принуждения. Ограниченный 2 сохраняется по 8.",
+      "evidence_indices": [
+        8
+      ],
+      "original_value": 2,
+      "original_evidence_indices": [
+        15,
+        8
+      ]
+    },
+    {
+      "object_id": "paula-ingabire",
+      "scale_id": "programmatic-renewal",
+      "pole": "positive",
+      "decision": "repair_indices",
+      "reason": "11 содержит собственный план расширения агроконсультирования и сохраняет ограниченный 2. 0 — лишь программа сессии/представление участника, без её произнесённого предложения; исключён.",
+      "evidence_indices": [
+        11
+      ],
+      "original_value": 2,
+      "original_evidence_indices": [
+        0,
+        11
+      ]
+    },
+    {
+      "object_id": "paula-ingabire",
+      "scale_id": "programmatic-renewal",
+      "pole": "negative",
+      "decision": "repair_indices",
+      "reason": "3 (с исправляемой датой 31.03.2022) и 12 поддерживают продвижение/институционализацию цифрового курса в разных эпизодах. 1 — биографический профиль, 2 — запуск 2019 года вне окна; они исключены.",
+      "evidence_indices": [
+        3,
+        12
+      ],
+      "original_value": 3,
+      "original_evidence_indices": [
+        1,
+        2,
+        3,
+        12
+      ]
+    },
+    {
+      "object_id": "paula-ingabire",
+      "scale_id": "government-course-assessment",
+      "pole": "negative",
+      "decision": "reject",
+      "reason": "Ноль прямо обоснован отсутствием критики. Положительная поддержка не устанавливает явную невыраженность независимого критического полюса.",
+      "original_value": 0,
+      "original_evidence_indices": [
+        3,
+        12,
+        22
+      ]
+    },
+    {
+      "object_id": "paula-ingabire",
+      "scale_id": "participation-administrative-direction",
+      "pole": "positive",
+      "decision": "reject",
+      "reason": "2 — мероприятие 2019 года вне окна; 21 — технологическая дипломатия и включение маргинализированных групп, но не их участие в подготовке решений/общественном контроле.",
+      "original_value": 2,
+      "original_evidence_indices": [
+        2,
+        21
+      ]
+    },
+    {
+      "object_id": "paula-ingabire",
+      "scale_id": "participation-administrative-direction",
+      "pole": "negative",
+      "decision": "recode",
+      "reason": "12/14 относятся к одному объяснению мандата нового агентства ИИ в июне 2026 года. 1 — биография, а не отдельное актуальное поручение. Подтверждено одно ясное ограниченное проявление административного устройства: 2 вместо повторяющегося 3.",
+      "evidence_indices": [
+        12,
+        14
+      ],
+      "value": 2,
+      "original_value": 3,
+      "original_evidence_indices": [
+        1,
+        12,
+        14
+      ]
+    },
+    {
+      "object_id": "paula-ingabire",
+      "scale_id": "argumentation-evidence-values",
+      "pole": "negative",
+      "decision": "recode",
+      "reason": "21 содержит ограниченный ценностный акцент на включении маргинализированных сообществ. 8 — программное/профильное описание, не собственная произнесённая аргументация. Слабое проявление 1 сохраняет известный акцент без расширения основания.",
+      "evidence_indices": [
+        21
+      ],
+      "value": 1,
+      "original_value": 2,
+      "original_evidence_indices": [
+        8,
+        21
+      ]
+    },
+    {
+      "object_id": "paula-ingabire",
+      "scale_id": "market-state-instruments",
+      "pole": "positive",
+      "decision": "repair_indices",
+      "reason": "Первичный PDF 5 прямо подтверждает её поддержку конкуренции и устранения регуляторных барьеров для новых интернет-операторов, что сохраняет 2. 2 — запуск GIZ 14.05.2019 вне окна.",
+      "evidence_indices": [
+        5
+      ],
+      "original_value": 2,
+      "original_evidence_indices": [
+        2,
+        5
+      ]
+    },
+    {
+      "object_id": "paula-ingabire",
+      "scale_id": "market-state-instruments",
+      "pole": "negative",
+      "decision": "recode",
+      "reason": "12/14 — один эпизод с мандатом агентства и регуляторной рамкой. 1 — профиль прежней карьеры; он не создаёт повторяемости. Ограниченное развитие регулирующих институтов обосновывает 2.",
+      "evidence_indices": [
+        12,
+        14
+      ],
+      "value": 2,
+      "original_value": 3,
+      "original_evidence_indices": [
+        1,
+        12,
+        14
+      ]
+    },
+    {
+      "object_id": "paula-ingabire",
+      "scale_id": "accessibility-growth-priorities",
+      "pole": "positive",
+      "decision": "repair_indices",
+      "reason": "5,18,19,23 сохраняют прямые повторные акценты на интернет-доступе. 4 — та же цитата из грантового релиза EEAS от 02.03.2021, до окна исследования; удалён.",
+      "evidence_indices": [
+        5,
+        18,
+        19,
+        23
+      ],
+      "original_value": 4,
+      "original_evidence_indices": [
+        4,
+        5,
+        18,
+        19,
+        23
+      ]
+    },
+    {
+      "object_id": "paula-ingabire",
+      "scale_id": "accessibility-growth-priorities",
+      "pole": "negative",
+      "decision": "repair_indices",
+      "reason": "3 (статья 31.03.2022) и 12 (агентство 2026) поддерживают рост/инвестиции/конкурентоспособность в двух эпизодах и сохраняют 3. 2 — запуск 2019 года вне периода.",
+      "evidence_indices": [
+        3,
+        12
+      ],
+      "original_value": 3,
+      "original_evidence_indices": [
+        2,
+        3,
+        12
+      ]
+    },
+    {
+      "object_id": "paula-ingabire",
+      "scale_id": "external-domestic-resources",
+      "pole": "positive",
+      "decision": "reject",
+      "reason": "Конкретные ресурсные проекты 2 (GIZ) и 4 (грант Hanga Hubs) находятся вне окна: 2019 и март 2021. 6/7 — роли в советах, 21 — общий призыв к партнёрству без конкретного ресурса. В указанных допустимых индексах основание 3 отсутствует.",
+      "original_value": 3,
+      "original_evidence_indices": [
+        2,
+        4,
+        6,
+        7,
+        21
+      ]
+    },
+    {
+      "object_id": "paula-ingabire",
+      "scale_id": "external-domestic-resources",
+      "pole": "negative",
+      "decision": "reject",
+      "reason": "13/24 говорят о местных навыках и специалистах. Это не внутренняя доходная база и не стратегия снижения зависимости от внешних поступлений; национальные кадры сами по себе не определяют финансовый способ обеспечения.",
+      "original_value": 2,
+      "original_evidence_indices": [
+        13,
+        24
+      ]
+    },
+    {
+      "object_id": "paula-ingabire",
+      "scale_id": "international-rules-autonomy",
+      "pole": "negative",
+      "decision": "reject",
+      "reason": "Ноль обоснован отсутствием возражений внешним обязательствам, что соответствует unknown, а не доказанной невыраженности полюса.",
+      "original_value": 0,
+      "original_evidence_indices": [
+        15,
+        18,
+        19
+      ]
+    },
+    {
+      "object_id": "paula-ingabire",
+      "scale_id": "mediation-adversarial-communication",
+      "pole": "negative",
+      "decision": "reject",
+      "reason": "Отсутствие найденной полемики не устанавливает явную невыраженность; независимый полюс должен остаться unknown.",
+      "original_value": 0,
+      "original_evidence_indices": [
+        18,
+        21
+      ]
+    },
+    {
+      "object_id": "paula-ingabire",
+      "scale_id": "cultural-openness-national-transmission",
+      "pole": "positive",
+      "decision": "reject",
+      "reason": "Экономические/цифровые проекты, трансграничная совместимость и международные роли не являются культурно-гражданским обменом или межкультурным разнообразием. Дополнительно 2/4 вне окна, 6/7/8/10 — профильные/программные описания, не отдельные текущие позиции.",
+      "original_value": 4,
+      "original_evidence_indices": [
+        2,
+        4,
+        6,
+        7,
+        8,
+        10,
+        15,
+        18,
+        19,
+        21
+      ]
+    },
+    {
+      "object_id": "paula-ingabire",
+      "scale_id": "cultural-openness-national-transmission",
+      "pole": "negative",
+      "decision": "reject",
+      "reason": "11/12/13/14/24 — местные технологические навыки и решение национальных экономических задач. Национальная принадлежность специалистов не является сохранением традиций/культурной идентичности или их передачей.",
+      "original_value": 2,
+      "original_evidence_indices": [
+        11,
+        12,
+        13,
+        14,
+        24
+      ]
+    },
+    {
+      "object_id": "paula-ingabire",
+      "scale_id": "problem-disclosure-reputation-defence",
+      "pole": "negative",
+      "decision": "reject",
+      "reason": "Положительная презентация развития и отсутствие критики (1/3/12/14/16) не содержат защиты внешнего образа от искажённого описания. Репутационный защитный мотив не установлен.",
+      "original_value": 2,
+      "original_evidence_indices": [
+        1,
+        3,
+        12,
+        14,
+        16
+      ]
+    },
+    {
+      "object_id": "paula-ingabire",
+      "scale_id": "procedural-guarantees-enforcement",
+      "pole": "negative",
+      "decision": "reject",
+      "reason": "12/13/14 называют законы, агентство и регулирование, но не её применение санкции/принуждения для исполнения конкретного правила. Регулирующая рамка не подменяет принудительное обеспечение.",
+      "original_value": 2,
+      "original_evidence_indices": [
+        12,
+        13,
+        14
+      ]
+    },
+    {
+      "object_id": "paula-ingabire",
+      "scale_id": "prevention-crisis-response",
+      "pole": "positive",
+      "decision": "repair_indices",
+      "reason": "14 содержит институциональную подготовку управления рисками, 17 — профилактику киберугроз в отдельном эпизоде, что сохраняет 3. 13 касается кадров/ИИ-навыков и не даёт самостоятельного рискового основания.",
+      "evidence_indices": [
+        14,
+        17
+      ],
+      "original_value": 3,
+      "original_evidence_indices": [
+        13,
+        14,
+        17
+      ]
+    },
+    {
+      "object_id": "paula-ingabire",
+      "scale_id": "prevention-crisis-response",
+      "pole": "negative",
+      "decision": "reject",
+      "reason": "17 призывает сделать киберосведомлённость постоянной профилактической практикой. Он не описывает оперативное действие по конкретному возникшему кризису или ущербу; общий рост риска не устанавливает реактивный полюс.",
+      "original_value": 1,
+      "original_evidence_indices": [
+        17
+      ]
+    },
+    {
+      "object_id": "paula-ingabire",
+      "scale_id": "institutional-autonomy-coordination",
+      "pole": "negative",
+      "decision": "recode",
+      "reason": "12/14 — одно объяснение институционального мандата агентства ИИ; 1 — биография, 3 — общая технология/регулирование без самостоятельной исполнительской цепочки. Ясная ограниченная координация 2 сохраняется, повторяющийся 3 не подтверждён.",
+      "evidence_indices": [
+        12,
+        14
+      ],
+      "value": 2,
+      "original_value": 3,
+      "original_evidence_indices": [
+        1,
+        3,
+        12,
+        14
+      ]
+    },
+    {
+      "object_id": "paula-ingabire",
+      "scale_id": "universal-targeted-provision",
+      "pole": "positive",
+      "decision": "repair_indices",
+      "reason": "5 прямо обещает доступ всем руандийцам независимо от места, 18 — подключение неохваченного населения; они поддерживают повторную универсальную направленность 3. 4 — грантовое событие марта 2021 вне окна; остальные ссылки не нужны для заявленной гарантии.",
+      "evidence_indices": [
+        5,
+        18
+      ],
+      "original_value": 3,
+      "original_evidence_indices": [
+        4,
+        5,
+        18,
+        19,
+        22,
+        23
+      ]
+    },
+    {
+      "object_id": "paula-ingabire",
+      "scale_id": "universal-targeted-provision",
+      "pole": "negative",
+      "decision": "repair_indices",
+      "reason": "11 задаёт конкретную меру расширения недостающего агроконсультирования и охват фермеров; ограниченный 2 сохраняется. 4 вне окна, 21 лишь упоминает маргинализированные группы без раскрытой отдельной меры.",
+      "evidence_indices": [
+        11
+      ],
+      "original_value": 2,
+      "original_evidence_indices": [
+        4,
+        11,
+        21
+      ]
+    },
+    {
+      "object_id": "sabin-nsanzimana",
+      "scale_id": "government-course-assessment",
+      "pole": "negative",
+      "decision": "flag",
+      "reason": "11 прямо признаёт трудности функционирования медицинских постов. 1 допустим только как узкая критическая оценка исполнения отдельной услуги; не трактовать как отрицание общего государственного курса или оппозиционность.",
+      "evidence_indices": [
+        11
+      ],
+      "original_value": 1,
+      "original_evidence_indices": [
+        11
+      ]
+    },
+    {
+      "object_id": "sabin-nsanzimana",
+      "scale_id": "participation-administrative-direction",
+      "pole": "positive",
+      "decision": "reject",
+      "reason": "3 призывает молодёжь и медицинских работников действовать для снижения материнской смертности. Это мобилизация исполнителей, без их участия в подготовке решений или общественном контроле.",
+      "original_value": 1,
+      "original_evidence_indices": [
+        3
+      ]
+    },
+    {
+      "object_id": "sabin-nsanzimana",
+      "scale_id": "argumentation-evidence-values",
+      "pole": "positive",
+      "decision": "recode",
+      "reason": "5/11 — один брифинг сенаторов 16.01.2025 с показателями и целями. 6 лишь фиксирует участие в круглом столе, название которого содержит «данные»; собственной аргументации там не приведено. Ясный единичный эпизод соответствует 2, не повторению 3.",
+      "evidence_indices": [
+        5,
+        11
+      ],
+      "value": 2,
+      "original_value": 3,
+      "original_evidence_indices": [
+        5,
+        6,
+        11
+      ]
+    },
+    {
+      "object_id": "sabin-nsanzimana",
+      "scale_id": "accessibility-growth-priorities",
+      "pole": "negative",
+      "decision": "reject",
+      "reason": "9/12/13/14 — производство вакцин и медицинское сотрудничество, описанные через пользу здравоохранению. Конкретный собственный приоритет инвестиций, экспорта, конкурентоспособности или роста деловой активности не назван; технологический проект не определяет этот полюс автоматически.",
+      "original_value": 2,
+      "original_evidence_indices": [
+        9,
+        12,
+        13,
+        14
+      ]
+    },
+    {
+      "object_id": "sabin-nsanzimana",
+      "scale_id": "external-domestic-resources",
+      "pole": "positive",
+      "decision": "repair_indices",
+      "reason": "0 — партнёрство готовности с ВОЗ, 9 — именованный производственный проект BioNTech, 14 — подписанный российский меморандум. Они сохраняют несколько ресурсных эпизодов и 3. 6 — участие в круглом столе без собственного ресурсного предложения; 12/13/14 — одно соглашение, оставлен один индекс.",
+      "evidence_indices": [
+        0,
+        9,
+        14
+      ],
+      "original_value": 3,
+      "original_evidence_indices": [
+        0,
+        6,
+        9,
+        12,
+        13,
+        14
+      ]
+    },
+    {
+      "object_id": "sabin-nsanzimana",
+      "scale_id": "cultural-openness-national-transmission",
+      "pole": "positive",
+      "decision": "reject",
+      "reason": "0/2/6/9/10/12/13/14 — профессиональное международное медицинское сотрудничество. Ни международный партнёр, ни обучение специалистов не устанавливают культурно-гражданскую ориентацию на межкультурный обмен/разнообразие.",
+      "original_value": 3,
+      "original_evidence_indices": [
+        0,
+        2,
+        6,
+        9,
+        10,
+        12,
+        13,
+        14
+      ]
+    },
+    {
+      "object_id": "sabin-nsanzimana",
+      "scale_id": "prevention-crisis-response",
+      "pole": "negative",
+      "decision": "reject",
+      "reason": "7 — общая похвала лидерству со стороны главы ВОЗ и восприятие министра как координатора. Конкретного личного оперативного действия Нсанзиманы в ответ на вспышку факт не описывает; должностная роль и внешняя похвала не заменяют наблюдаемое действие.",
+      "original_value": 2,
+      "original_evidence_indices": [
+        7
+      ]
+    },
+    {
+      "object_id": "sabin-nsanzimana",
+      "scale_id": "universal-targeted-provision",
+      "pole": "positive",
+      "decision": "reject",
+      "reason": "4/5 подтверждают расширение первичной помощи, но не одинаковую гарантию/стандарт охвата для всех. 6 сообщает только участие в мероприятии, тематически посвящённом всеобщему охвату, без его собственного заявления. Название конференции не устанавливает позицию человека.",
+      "original_value": 3,
+      "original_evidence_indices": [
+        4,
+        5,
+        6
+      ]
+    },
+    {
+      "object_id": "judith-uwizeye",
+      "scale_id": "programmatic-renewal",
+      "pole": "positive",
+      "decision": "reject",
+      "reason": "Продолжение реформ без предложения пересмотреть действующие приоритеты или правила не устанавливает программное изменение.",
+      "original_value": 2,
+      "original_evidence_indices": [
+        5,
+        10
+      ]
+    },
+    {
+      "object_id": "judith-uwizeye",
+      "scale_id": "programmatic-renewal",
+      "pole": "negative",
+      "decision": "recode",
+      "reason": "5/10/13 — одна церемония продолжения реформ; благодарность за доверие в 2 не второй эпизод этого свойства.",
+      "evidence_indices": [
+        5
+      ],
+      "value": 2,
+      "original_value": 3,
+      "original_evidence_indices": [
+        2,
+        5,
+        10,
+        13
+      ]
+    },
+    {
+      "object_id": "judith-uwizeye",
+      "scale_id": "government-course-assessment",
+      "pole": "positive",
+      "decision": "recode",
+      "reason": "5/10/13 прямо хвалят достигнутое, но относятся к одному выступлению. Благодарность за назначение в 2 не самостоятельная оценка курса.",
+      "evidence_indices": [
+        5
+      ],
+      "value": 2,
+      "original_value": 3,
+      "original_evidence_indices": [
+        2,
+        5,
+        10,
+        13
+      ]
+    },
+    {
+      "object_id": "judith-uwizeye",
+      "scale_id": "government-course-assessment",
+      "pole": "negative",
+      "decision": "reject",
+      "reason": "Обсуждение административных рисков не содержит прямо высказанной критики курса или конкретного провала.",
+      "original_value": 1,
+      "original_evidence_indices": [
+        14
+      ]
+    },
+    {
+      "object_id": "judith-uwizeye",
+      "scale_id": "participation-administrative-direction",
+      "pole": "negative",
+      "decision": "recode",
+      "reason": "6/11/19 — одно совещание и одна постановка административных приоритетов, не повторные проявления.",
+      "evidence_indices": [
+        11
+      ],
+      "value": 2,
+      "original_value": 3,
+      "original_evidence_indices": [
+        6,
+        11,
+        19
+      ]
+    },
+    {
+      "object_id": "judith-uwizeye",
+      "scale_id": "argumentation-evidence-values",
+      "pole": "positive",
+      "decision": "reject",
+      "reason": "17 прямо признаёт отсутствие данных, расчётов и результатов; проверяемость процедуры не равна аргументации данными.",
+      "original_value": 1,
+      "original_evidence_indices": [
+        17
+      ]
+    },
+    {
+      "object_id": "judith-uwizeye",
+      "scale_id": "accessibility-growth-priorities",
+      "pole": "positive",
+      "decision": "reject",
+      "reason": "Улучшение качества услуг и условий труда не содержит конкретного расширения охвата базовыми благами.",
+      "original_value": 2,
+      "original_evidence_indices": [
+        5,
+        7,
+        12
+      ]
+    },
+    {
+      "object_id": "judith-uwizeye",
+      "scale_id": "international-rules-autonomy",
+      "pole": "positive",
+      "decision": "reject",
+      "reason": "Единственный факт 0 описывает выступление AU 07.11.2019, вне утверждённого периода.",
+      "original_value": 2,
+      "original_evidence_indices": [
+        0
+      ]
+    },
+    {
+      "object_id": "judith-uwizeye",
+      "scale_id": "cultural-openness-national-transmission",
+      "pole": "positive",
+      "decision": "reject",
+      "reason": "0 вне периода; свобода передвижения ради торговли сама по себе не доказывает культурное разнообразие.",
+      "original_value": 2,
+      "original_evidence_indices": [
+        0
+      ]
+    },
+    {
+      "object_id": "judith-uwizeye",
+      "scale_id": "problem-disclosure-reputation-defence",
+      "pole": "positive",
+      "decision": "reject",
+      "reason": "Призыв укреплять прозрачность не равен признанию конкретного недостатка или сбоя.",
+      "original_value": 1,
+      "original_evidence_indices": [
+        14
+      ]
+    },
+    {
+      "object_id": "judith-uwizeye",
+      "scale_id": "problem-disclosure-reputation-defence",
+      "pole": "negative",
+      "decision": "reject",
+      "reason": "Благодарность и поддержка продолжения реформ не являются защитой внешней репутации.",
+      "original_value": 2,
+      "original_evidence_indices": [
+        2,
+        10,
+        13
+      ]
+    },
+    {
+      "object_id": "judith-uwizeye",
+      "scale_id": "procedural-guarantees-enforcement",
+      "pole": "negative",
+      "decision": "reject",
+      "reason": "Обсуждение дисциплинарных процедур без конкретного применения санкций не устанавливает принудительное обеспечение требований.",
+      "original_value": 2,
+      "original_evidence_indices": [
+        19
+      ]
+    },
+    {
+      "object_id": "judith-uwizeye",
+      "scale_id": "prevention-crisis-response",
+      "pole": "negative",
+      "decision": "reject",
+      "reason": "Общие процедуры работы с возможными жалобами не являются оперативным действием в уже возникшем кризисе.",
+      "original_value": 2,
+      "original_evidence_indices": [
+        15,
+        20
+      ]
+    },
+    {
+      "object_id": "judith-uwizeye",
+      "scale_id": "institutional-autonomy-coordination",
+      "pole": "positive",
+      "decision": "reject",
+      "reason": "Прозрачность найма и апелляции не устанавливают автономию или независимый межинституциональный контроль.",
+      "original_value": 1,
+      "original_evidence_indices": [
+        11
+      ]
+    },
+    {
+      "object_id": "judith-uwizeye",
+      "scale_id": "universal-targeted-provision",
+      "pole": "negative",
+      "decision": "reject",
+      "reason": "Защита работников вообще не доказывает дополнительные меры для обозначенной недостаточно обеспеченной группы.",
+      "original_value": 2,
+      "original_evidence_indices": [
+        12
+      ]
+    }
+  ],
+  "fact_exclusions": [
+    {
+      "object_id": "paula-ingabire",
+      "evidence_indices": [
+        2
+      ],
+      "actual_period": "2019-05-14",
+      "reason": "Запуск Digital Transformation Center MINICT/GIZ ошибочно датирован 07.10.2026. Первичный MINICT news index указывает 14.05.2019; BMZ подтверждает май 2019. Вне окна 15.10.2021–15.10.2026.",
+      "source_urls": [
+        "https://www.minict.gov.rw/news/page?cHash=251222eda06095ca0ed16a2e7163fcd4&tx_news_pi1%5BcurrentPage%5D=11",
+        "https://www.bmz-digital.global/en/initiatives/digital-transformation-center-rwanda/"
+      ]
+    },
+    {
+      "object_id": "paula-ingabire",
+      "evidence_indices": [
+        4
+      ],
+      "actual_period": "2021-03-02",
+      "reason": "Тот же грантовый эпизод Hanga Hubs и та же цитата Ингабире опубликованы первичным EEAS 02.03.2021 (соглашение к этой дате уже подписано). Дата 09.10.2026 досье неверна; событие до окна исследования.",
+      "source_urls": [
+        "https://www.eeas.europa.eu/delegations/rwanda/new-game-changing-project-support-young-entreprenuers-grow-their-businesses-kicks-rwanda_und_en"
+      ]
+    },
+    {
+      "object_id": "judith-uwizeye",
+      "evidence_indices": [
+        0
+      ],
+      "actual_period": "2019-11-07",
+      "reason": "Первичная AU-страница прямо датирует то же выступление Judith Uwizeye 07.11.2019, включая призыв ратифицировать протокол. Досье ошибочно даёт 25.05.2023. Событие вне окна исследования.",
+      "source_urls": [
+        "https://au.int/en/pressreleases/20191107/au-member-states-urged-ratify-protocol-free-movement-achieve-free-trade"
+      ]
+    }
+  ],
+  "fact_corrections": [
+    {
+      "object_id": "paula-ingabire",
+      "evidence_indices": [
+        3
+      ],
+      "corrected_period": "2022-03-31",
+      "reason": "Статья с тем же названием и авторством Paula Ingabire датирована WEF 31.03.2022; MINICT её перепечатывает без новой даты события. Дата 01.01.2026 не подтверждена. Внутри окна, содержание не исключается.",
+      "source_urls": [
+        "https://www.weforum.org/stories/2022/03/rwanda-leveraging-the-fourth-industrial-revolution-to-strengthen-post-covid-resilience/"
+      ]
+    },
+    {
+      "object_id": "paula-ingabire",
+      "evidence_indices": [
+        5
+      ],
+      "corrected_period": "2023-02-22",
+      "reason": "Сам первичный MINICT PDF прямо датирует запуск Starlink 22.02.2023. Дата 11.08.2026 досье неверна. Внутри окна, содержание и прямое высказывание сохраняются.",
+      "source_urls": [
+        "https://www.minict.gov.rw/index.php?eID=dumpFile&t=f&f=62656&token=f8da679abbb05b90f18e46d998c1ab6aa7bb22b9"
+      ]
+    }
+  ],
+  "event_groups": [
+    {
+      "object_id": "juvenal-marizamunda",
+      "evidence_indices": [
+        7,
+        8,
+        9
+      ],
+      "canonical_event_id": "marizamunda-munich-security-panel-2025-02",
+      "reason": "Полные DW и VOA описывают одну панель Мюнхенской конференции 14–16.02.2025. Даты 18 и 21 февраля — публикации пересказов, а не новые выступления. Точный день панели источниками здесь не установлен.",
+      "source_urls": [
+        "https://www.dw.com/en/calls-grow-for-congo-to-resolve-conflict-through-dialogue/a-71644884",
+        "https://www.voanews.com/a/false-rwanda-denies-its-involvement-in-drc-war/7983442.html"
+      ]
+    },
+    {
+      "object_id": "olivier-nduhungirehe",
+      "evidence_indices": [
+        9,
+        30
+      ],
+      "canonical_event_id": "nduhungirehe-afp-sochi-training-2024-11-09",
+      "reason": "Два извлечения одного интервью AFP 09.11.2024, не два независимых образовательных эпизода."
+    },
+    {
+      "object_id": "albert-murasira",
+      "evidence_indices": [
+        3,
+        4,
+        10,
+        11
+      ],
+      "canonical_event_id": "murasira-drrm-conference-2024-11",
+      "reason": "Само досье помечает их изложением одного форума 07–08.11.2024; несколько пересказов не устанавливают повторение."
+    },
+    {
+      "object_id": "sabin-nsanzimana",
+      "evidence_indices": [
+        12,
+        13,
+        14
+      ],
+      "canonical_event_id": "nsanzimana-murashko-health-mou-2026-05-19",
+      "reason": "Один меморандум 19.05.2026; 20.05 в 13 — дата пересказа. Не три независимых события."
+    },
+    {
+      "object_id": "sabin-nsanzimana",
+      "evidence_indices": [
+        4,
+        5,
+        11
+      ],
+      "canonical_event_id": "nsanzimana-senate-health-policy-2025-01-16",
+      "reason": "Одно парламентское изложение политики/показателей/проблем 16.01.2025, а не повторные эмпирические эпизоды."
+    },
+    {
+      "object_id": "paul-kagame",
+      "evidence_indices": [
+        1,
+        13
+      ],
+      "canonical_event_id": "rw-kagame-candidacy-2023",
+      "reason": "Повторное извлечение заявления о выдвижении 20.09.2023."
+    },
+    {
+      "object_id": "justin-nsengiyumva",
+      "evidence_indices": [
+        1,
+        9,
+        13
+      ],
+      "canonical_event_id": "nsengiyumva-nst2-parliament-2025-08-12",
+      "reason": "Одно представление пятилетней программы 12.08.2025, несмотря на разные префиксы event_id."
+    },
+    {
+      "object_id": "paula-ingabire",
+      "evidence_indices": [
+        12,
+        14
+      ],
+      "canonical_event_id": "pi-national-ai-agency-2026-06-23",
+      "reason": "Два фрагмента одного материала/объяснения об агентстве ИИ; не независимые повторные проявления."
+    },
+    {
+      "object_id": "judith-uwizeye",
+      "evidence_indices": [
+        5,
+        10,
+        13,
+        16
+      ],
+      "canonical_event_id": "uwizeye-mifotra-handover-2026-06-15",
+      "reason": "Фрагменты одной церемонии передачи полномочий 15.06.2026."
+    },
+    {
+      "object_id": "judith-uwizeye",
+      "evidence_indices": [
+        6,
+        7,
+        11,
+        12,
+        14,
+        15,
+        17,
+        18,
+        19,
+        20
+      ],
+      "canonical_event_id": "uwizeye-npsc-meeting-2026-08-18",
+      "reason": "Разные темы одного совещания 18.08.2026, не независимые повторные события."
+    }
+  ],
+  "full_checked_summary": [
+    {
+      "object_id": "paul-kagame",
+      "name": "Поль Кагаме",
+      "observed_checked": 8,
+      "unknown_properties_not_scored": 40,
+      "ratings_file": "studies/rwanda-politicians-2021-2026/evidence/independent-ratings-paul-kagame.json",
+      "ratings_sha256": "7a1011f31b3686bd6286afa9c224a54f57bba7dc036f5ecb0bf61ec145969bd3",
+      "dossier_file": "studies/rwanda-politicians-2021-2026/evidence/independent-dossier-paul-kagame.json",
+      "dossier_sha256": "e0dad2cade422d47f3ba40fbf92542d09d76b55b9715ebe3b2c6a8c9bccf3070",
+      "checked_properties": [
+        {
+          "scale_id": "programmatic-renewal",
+          "pole": "negative",
+          "original_value": 3,
+          "original_evidence_indices": [
+            0,
+            1,
+            13,
+            14
+          ],
+          "review_outcome": "reject"
+        },
+        {
+          "scale_id": "government-course-assessment",
+          "pole": "positive",
+          "original_value": 2,
+          "original_evidence_indices": [
+            1,
+            13
+          ],
+          "review_outcome": "reject"
+        },
+        {
+          "scale_id": "participation-administrative-direction",
+          "pole": "negative",
+          "original_value": 2,
+          "original_evidence_indices": [
+            2,
+            4,
+            14,
+            16
+          ],
+          "review_outcome": "reject"
+        },
+        {
+          "scale_id": "argumentation-evidence-values",
+          "pole": "negative",
+          "original_value": 2,
+          "original_evidence_indices": [
+            1,
+            13
+          ],
+          "review_outcome": "recode"
+        },
+        {
+          "scale_id": "international-rules-autonomy",
+          "pole": "negative",
+          "original_value": 2,
+          "original_evidence_indices": [
+            12
+          ],
+          "review_outcome": "retain"
+        },
+        {
+          "scale_id": "mediation-adversarial-communication",
+          "pole": "negative",
+          "original_value": 2,
+          "original_evidence_indices": [
+            5,
+            15
+          ],
+          "review_outcome": "retain"
+        },
+        {
+          "scale_id": "problem-disclosure-reputation-defence",
+          "pole": "negative",
+          "original_value": 2,
+          "original_evidence_indices": [
+            5,
+            15
+          ],
+          "review_outcome": "flag"
+        },
+        {
+          "scale_id": "electoral-access",
+          "pole": "negative",
+          "original_value": 2,
+          "original_evidence_indices": [
+            2,
+            4,
+            14
+          ],
+          "review_outcome": "reject"
+        }
+      ],
+      "outcome_counts": {
+        "reject": 4,
+        "recode": 1,
+        "retain": 2,
+        "flag": 1
+      }
+    },
+    {
+      "object_id": "edouard-ngirente",
+      "name": "Эдуар Нгиренте",
+      "observed_checked": 24,
+      "unknown_properties_not_scored": 24,
+      "ratings_file": "studies/rwanda-politicians-2021-2026/evidence/independent-ratings-edouard-ngirente.json",
+      "ratings_sha256": "ec878542bfea9fb6c8aefda260841ce9261fd4ead305e6e5c1033bc8fb05249c",
+      "dossier_file": "studies/rwanda-politicians-2021-2026/evidence/independent-dossier-edouard-ngirente.json",
+      "dossier_sha256": "14bb081376c10f815f73e9f6b0bd68e86aa9e195fdf58e3ebecc2f37b511bcb1",
+      "checked_properties": [
+        {
+          "scale_id": "programmatic-renewal",
+          "pole": "positive",
+          "original_value": 2,
+          "original_evidence_indices": [
+            12,
+            1
+          ],
+          "review_outcome": "flag"
+        },
+        {
+          "scale_id": "programmatic-renewal",
+          "pole": "negative",
+          "original_value": 3,
+          "original_evidence_indices": [
+            8,
+            10
+          ],
+          "review_outcome": "retain"
+        },
+        {
+          "scale_id": "government-course-assessment",
+          "pole": "positive",
+          "original_value": 3,
+          "original_evidence_indices": [
+            8,
+            10,
+            9,
+            13
+          ],
+          "review_outcome": "retain"
+        },
+        {
+          "scale_id": "government-course-assessment",
+          "pole": "negative",
+          "original_value": 1,
+          "original_evidence_indices": [
+            1,
+            12
+          ],
+          "review_outcome": "reject"
+        },
+        {
+          "scale_id": "participation-administrative-direction",
+          "pole": "positive",
+          "original_value": 2,
+          "original_evidence_indices": [
+            0
+          ],
+          "review_outcome": "reject"
+        },
+        {
+          "scale_id": "participation-administrative-direction",
+          "pole": "negative",
+          "original_value": 3,
+          "original_evidence_indices": [
+            14,
+            9,
+            20
+          ],
+          "review_outcome": "retain"
+        },
+        {
+          "scale_id": "argumentation-evidence-values",
+          "pole": "positive",
+          "original_value": 4,
+          "original_evidence_indices": [
+            3,
+            13,
+            9,
+            7,
+            21
+          ],
+          "review_outcome": "repair_indices"
+        },
+        {
+          "scale_id": "argumentation-evidence-values",
+          "pole": "negative",
+          "original_value": 2,
+          "original_evidence_indices": [
+            1,
+            10
+          ],
+          "review_outcome": "retain"
+        },
+        {
+          "scale_id": "market-state-instruments",
+          "pole": "positive",
+          "original_value": 2,
+          "original_evidence_indices": [
+            15,
+            9
+          ],
+          "review_outcome": "retain"
+        },
+        {
+          "scale_id": "market-state-instruments",
+          "pole": "negative",
+          "original_value": 3,
+          "original_evidence_indices": [
+            14,
+            9,
+            20
+          ],
+          "review_outcome": "retain"
+        },
+        {
+          "scale_id": "accessibility-growth-priorities",
+          "pole": "positive",
+          "original_value": 4,
+          "original_evidence_indices": [
+            13,
+            9,
+            16,
+            20
+          ],
+          "review_outcome": "retain"
+        },
+        {
+          "scale_id": "accessibility-growth-priorities",
+          "pole": "negative",
+          "original_value": 3,
+          "original_evidence_indices": [
+            11,
+            19,
+            17
+          ],
+          "review_outcome": "retain"
+        },
+        {
+          "scale_id": "external-domestic-resources",
+          "pole": "positive",
+          "original_value": 4,
+          "original_evidence_indices": [
+            3,
+            4,
+            9,
+            12,
+            20
+          ],
+          "review_outcome": "recode"
+        },
+        {
+          "scale_id": "international-rules-autonomy",
+          "pole": "positive",
+          "original_value": 4,
+          "original_evidence_indices": [
+            12,
+            0,
+            19
+          ],
+          "review_outcome": "recode"
+        },
+        {
+          "scale_id": "mediation-adversarial-communication",
+          "pole": "positive",
+          "original_value": 2,
+          "original_evidence_indices": [
+            0
+          ],
+          "review_outcome": "retain"
+        },
+        {
+          "scale_id": "cultural-openness-national-transmission",
+          "pole": "positive",
+          "original_value": 2,
+          "original_evidence_indices": [
+            0,
+            3,
+            4,
+            12,
+            17
+          ],
+          "review_outcome": "reject"
+        },
+        {
+          "scale_id": "cultural-openness-national-transmission",
+          "pole": "negative",
+          "original_value": 2,
+          "original_evidence_indices": [
+            1,
+            10,
+            14
+          ],
+          "review_outcome": "retain"
+        },
+        {
+          "scale_id": "problem-disclosure-reputation-defence",
+          "pole": "negative",
+          "original_value": 2,
+          "original_evidence_indices": [
+            8,
+            10
+          ],
+          "review_outcome": "reject"
+        },
+        {
+          "scale_id": "prevention-crisis-response",
+          "pole": "positive",
+          "original_value": 3,
+          "original_evidence_indices": [
+            0,
+            9,
+            11,
+            16,
+            20
+          ],
+          "review_outcome": "retain"
+        },
+        {
+          "scale_id": "institutional-autonomy-coordination",
+          "pole": "negative",
+          "original_value": 2,
+          "original_evidence_indices": [
+            8,
+            10,
+            14
+          ],
+          "review_outcome": "retain"
+        },
+        {
+          "scale_id": "taxation-burden-public-revenue",
+          "pole": "negative",
+          "original_value": 2,
+          "original_evidence_indices": [
+            9,
+            13,
+            20
+          ],
+          "review_outcome": "reject"
+        },
+        {
+          "scale_id": "universal-targeted-provision",
+          "pole": "positive",
+          "original_value": 3,
+          "original_evidence_indices": [
+            13,
+            16,
+            20
+          ],
+          "review_outcome": "recode"
+        },
+        {
+          "scale_id": "universal-targeted-provision",
+          "pole": "negative",
+          "original_value": 2,
+          "original_evidence_indices": [
+            2,
+            9,
+            20
+          ],
+          "review_outcome": "retain"
+        },
+        {
+          "scale_id": "ecological-limits-resource-use",
+          "pole": "positive",
+          "original_value": 3,
+          "original_evidence_indices": [
+            0,
+            12
+          ],
+          "review_outcome": "retain"
+        }
+      ],
+      "outcome_counts": {
+        "flag": 1,
+        "retain": 14,
+        "reject": 5,
+        "repair_indices": 1,
+        "recode": 3
+      }
+    },
+    {
+      "object_id": "justin-nsengiyumva",
+      "name": "Жюстен Нсенгийюмва",
+      "observed_checked": 22,
+      "unknown_properties_not_scored": 26,
+      "ratings_file": "studies/rwanda-politicians-2021-2026/evidence/independent-ratings-justin-nsengiyumva.json",
+      "ratings_sha256": "71b696ea312c05f34daa2a332d7c8c05e56b0296f03a49609660e79958eaf465",
+      "dossier_file": "studies/rwanda-politicians-2021-2026/evidence/independent-dossier-justin-nsengiyumva.json",
+      "dossier_sha256": "3cb0f8e21762c0269a2c2f186d8e4e50eda163bb725c314a27a49578629165d5",
+      "checked_properties": [
+        {
+          "scale_id": "programmatic-renewal",
+          "pole": "positive",
+          "original_value": 2,
+          "original_evidence_indices": [
+            1,
+            9,
+            13
+          ],
+          "review_outcome": "retain"
+        },
+        {
+          "scale_id": "programmatic-renewal",
+          "pole": "negative",
+          "original_value": 2,
+          "original_evidence_indices": [
+            1,
+            9,
+            13
+          ],
+          "review_outcome": "retain"
+        },
+        {
+          "scale_id": "government-course-assessment",
+          "pole": "positive",
+          "original_value": 2,
+          "original_evidence_indices": [
+            1,
+            9,
+            13,
+            16
+          ],
+          "review_outcome": "retain"
+        },
+        {
+          "scale_id": "participation-administrative-direction",
+          "pole": "positive",
+          "original_value": 2,
+          "original_evidence_indices": [
+            1,
+            13,
+            17
+          ],
+          "review_outcome": "reject"
+        },
+        {
+          "scale_id": "participation-administrative-direction",
+          "pole": "negative",
+          "original_value": 1,
+          "original_evidence_indices": [
+            2,
+            14
+          ],
+          "review_outcome": "retain"
+        },
+        {
+          "scale_id": "argumentation-evidence-values",
+          "pole": "positive",
+          "original_value": 2,
+          "original_evidence_indices": [
+            2,
+            3,
+            15
+          ],
+          "review_outcome": "retain"
+        },
+        {
+          "scale_id": "argumentation-evidence-values",
+          "pole": "negative",
+          "original_value": 2,
+          "original_evidence_indices": [
+            4,
+            5,
+            10,
+            12
+          ],
+          "review_outcome": "retain"
+        },
+        {
+          "scale_id": "market-state-instruments",
+          "pole": "positive",
+          "original_value": 2,
+          "original_evidence_indices": [
+            1,
+            11,
+            14
+          ],
+          "review_outcome": "retain"
+        },
+        {
+          "scale_id": "market-state-instruments",
+          "pole": "negative",
+          "original_value": 2,
+          "original_evidence_indices": [
+            2,
+            3,
+            14
+          ],
+          "review_outcome": "retain"
+        },
+        {
+          "scale_id": "accessibility-growth-priorities",
+          "pole": "positive",
+          "original_value": 2,
+          "original_evidence_indices": [
+            1,
+            2,
+            3,
+            13
+          ],
+          "review_outcome": "retain"
+        },
+        {
+          "scale_id": "accessibility-growth-priorities",
+          "pole": "negative",
+          "original_value": 2,
+          "original_evidence_indices": [
+            1,
+            2,
+            13,
+            14
+          ],
+          "review_outcome": "retain"
+        },
+        {
+          "scale_id": "external-domestic-resources",
+          "pole": "positive",
+          "original_value": 1,
+          "original_evidence_indices": [
+            14
+          ],
+          "review_outcome": "retain"
+        },
+        {
+          "scale_id": "external-domestic-resources",
+          "pole": "negative",
+          "original_value": 2,
+          "original_evidence_indices": [
+            7
+          ],
+          "review_outcome": "retain"
+        },
+        {
+          "scale_id": "international-rules-autonomy",
+          "pole": "negative",
+          "original_value": 1,
+          "original_evidence_indices": [
+            5,
+            10,
+            12
+          ],
+          "review_outcome": "reject"
+        },
+        {
+          "scale_id": "mediation-adversarial-communication",
+          "pole": "positive",
+          "original_value": 1,
+          "original_evidence_indices": [
+            17
+          ],
+          "review_outcome": "reject"
+        },
+        {
+          "scale_id": "mediation-adversarial-communication",
+          "pole": "negative",
+          "original_value": 2,
+          "original_evidence_indices": [
+            4,
+            10,
+            12
+          ],
+          "review_outcome": "retain"
+        },
+        {
+          "scale_id": "cultural-openness-national-transmission",
+          "pole": "negative",
+          "original_value": 2,
+          "original_evidence_indices": [
+            4,
+            5,
+            10,
+            12
+          ],
+          "review_outcome": "retain"
+        },
+        {
+          "scale_id": "problem-disclosure-reputation-defence",
+          "pole": "negative",
+          "original_value": 2,
+          "original_evidence_indices": [
+            4,
+            10,
+            11
+          ],
+          "review_outcome": "retain"
+        },
+        {
+          "scale_id": "prevention-crisis-response",
+          "pole": "positive",
+          "original_value": 1,
+          "original_evidence_indices": [
+            2,
+            3,
+            14
+          ],
+          "review_outcome": "repair_indices"
+        },
+        {
+          "scale_id": "institutional-autonomy-coordination",
+          "pole": "negative",
+          "original_value": 1,
+          "original_evidence_indices": [
+            1,
+            9,
+            13
+          ],
+          "review_outcome": "retain"
+        },
+        {
+          "scale_id": "taxation-burden-public-revenue",
+          "pole": "negative",
+          "original_value": 2,
+          "original_evidence_indices": [
+            7
+          ],
+          "review_outcome": "retain"
+        },
+        {
+          "scale_id": "ecological-limits-resource-use",
+          "pole": "positive",
+          "original_value": 2,
+          "original_evidence_indices": [
+            6,
+            11,
+            16,
+            17
+          ],
+          "review_outcome": "reject"
+        }
+      ],
+      "outcome_counts": {
+        "retain": 17,
+        "reject": 4,
+        "repair_indices": 1
+      }
+    },
+    {
+      "object_id": "vincent-biruta",
+      "name": "Венсан Бирута",
+      "observed_checked": 15,
+      "unknown_properties_not_scored": 33,
+      "ratings_file": "studies/rwanda-politicians-2021-2026/evidence/independent-ratings-vincent-biruta.json",
+      "ratings_sha256": "f1d5ec46eeef4e392f0d5ff51ad6d1a4727bd5d272d968de840ad8a85a065875",
+      "dossier_file": "studies/rwanda-politicians-2021-2026/evidence/independent-dossier-vincent-biruta.json",
+      "dossier_sha256": "2f7eb3047f952991247e7e9c52c124e6b61c3d75b3d452a1273a913184a2a94c",
+      "checked_properties": [
+        {
+          "scale_id": "programmatic-renewal",
+          "pole": "negative",
+          "original_value": 2,
+          "original_evidence_indices": [
+            8
+          ],
+          "review_outcome": "retain"
+        },
+        {
+          "scale_id": "participation-administrative-direction",
+          "pole": "negative",
+          "original_value": 2,
+          "original_evidence_indices": [
+            8,
+            9
+          ],
+          "review_outcome": "retain"
+        },
+        {
+          "scale_id": "argumentation-evidence-values",
+          "pole": "positive",
+          "original_value": 1,
+          "original_evidence_indices": [
+            9
+          ],
+          "review_outcome": "retain"
+        },
+        {
+          "scale_id": "market-state-instruments",
+          "pole": "negative",
+          "original_value": 2,
+          "original_evidence_indices": [
+            8,
+            9
+          ],
+          "review_outcome": "retain"
+        },
+        {
+          "scale_id": "accessibility-growth-priorities",
+          "pole": "positive",
+          "original_value": 1,
+          "original_evidence_indices": [
+            7
+          ],
+          "review_outcome": "retain"
+        },
+        {
+          "scale_id": "accessibility-growth-priorities",
+          "pole": "negative",
+          "original_value": 1,
+          "original_evidence_indices": [
+            2,
+            11
+          ],
+          "review_outcome": "retain"
+        },
+        {
+          "scale_id": "external-domestic-resources",
+          "pole": "positive",
+          "original_value": 2,
+          "original_evidence_indices": [
+            2,
+            7
+          ],
+          "review_outcome": "retain"
+        },
+        {
+          "scale_id": "international-rules-autonomy",
+          "pole": "positive",
+          "original_value": 2,
+          "original_evidence_indices": [
+            2,
+            6,
+            10,
+            13
+          ],
+          "review_outcome": "retain"
+        },
+        {
+          "scale_id": "mediation-adversarial-communication",
+          "pole": "positive",
+          "original_value": 2,
+          "original_evidence_indices": [
+            3,
+            6,
+            10,
+            11
+          ],
+          "review_outcome": "retain"
+        },
+        {
+          "scale_id": "cultural-openness-national-transmission",
+          "pole": "positive",
+          "original_value": 2,
+          "original_evidence_indices": [
+            2,
+            6,
+            10,
+            11
+          ],
+          "review_outcome": "reject"
+        },
+        {
+          "scale_id": "problem-disclosure-reputation-defence",
+          "pole": "positive",
+          "original_value": 2,
+          "original_evidence_indices": [
+            9
+          ],
+          "review_outcome": "retain"
+        },
+        {
+          "scale_id": "procedural-guarantees-enforcement",
+          "pole": "negative",
+          "original_value": 2,
+          "original_evidence_indices": [
+            9
+          ],
+          "review_outcome": "reject"
+        },
+        {
+          "scale_id": "institutional-autonomy-coordination",
+          "pole": "negative",
+          "original_value": 2,
+          "original_evidence_indices": [
+            8
+          ],
+          "review_outcome": "retain"
+        },
+        {
+          "scale_id": "universal-targeted-provision",
+          "pole": "negative",
+          "original_value": 1,
+          "original_evidence_indices": [
+            7
+          ],
+          "review_outcome": "retain"
+        },
+        {
+          "scale_id": "ecological-limits-resource-use",
+          "pole": "positive",
+          "original_value": 1,
+          "original_evidence_indices": [
+            12
+          ],
+          "review_outcome": "reject"
+        }
+      ],
+      "outcome_counts": {
+        "retain": 12,
+        "reject": 3
+      }
+    },
+    {
+      "object_id": "olivier-nduhungirehe",
+      "name": "Оливье Ндухунгирехе",
+      "observed_checked": 24,
+      "unknown_properties_not_scored": 24,
+      "ratings_file": "studies/rwanda-politicians-2021-2026/evidence/independent-ratings-olivier-nduhungirehe.json",
+      "ratings_sha256": "640c8b95d59f0b940c59c1f80c8ac3568cc34b709cfec92a5deb75e9fbe9f1fb",
+      "dossier_file": "studies/rwanda-politicians-2021-2026/evidence/independent-dossier-olivier-nduhungirehe.json",
+      "dossier_sha256": "e3ba83094b1d1cd2d49b60e51f9c1f5fe0be771e43fed2379d43d1cf295b683a",
+      "checked_properties": [
+        {
+          "scale_id": "programmatic-renewal",
+          "pole": "positive",
+          "original_value": 2,
+          "original_evidence_indices": [
+            12
+          ],
+          "review_outcome": "retain"
+        },
+        {
+          "scale_id": "government-course-assessment",
+          "pole": "positive",
+          "original_value": 3,
+          "original_evidence_indices": [
+            16,
+            17
+          ],
+          "review_outcome": "retain"
+        },
+        {
+          "scale_id": "participation-administrative-direction",
+          "pole": "negative",
+          "original_value": 2,
+          "original_evidence_indices": [
+            25,
+            15
+          ],
+          "review_outcome": "reject"
+        },
+        {
+          "scale_id": "argumentation-evidence-values",
+          "pole": "negative",
+          "original_value": 2,
+          "original_evidence_indices": [
+            27
+          ],
+          "review_outcome": "retain"
+        },
+        {
+          "scale_id": "accessibility-growth-priorities",
+          "pole": "positive",
+          "original_value": 1,
+          "original_evidence_indices": [
+            3
+          ],
+          "review_outcome": "retain"
+        },
+        {
+          "scale_id": "accessibility-growth-priorities",
+          "pole": "negative",
+          "original_value": 3,
+          "original_evidence_indices": [
+            11,
+            19,
+            20
+          ],
+          "review_outcome": "retain"
+        },
+        {
+          "scale_id": "external-domestic-resources",
+          "pole": "positive",
+          "original_value": 3,
+          "original_evidence_indices": [
+            9,
+            3,
+            24,
+            30,
+            31,
+            32
+          ],
+          "review_outcome": "repair_indices"
+        },
+        {
+          "scale_id": "international-rules-autonomy",
+          "pole": "positive",
+          "original_value": 2,
+          "original_evidence_indices": [
+            12,
+            1,
+            29
+          ],
+          "review_outcome": "retain"
+        },
+        {
+          "scale_id": "international-rules-autonomy",
+          "pole": "negative",
+          "original_value": 2,
+          "original_evidence_indices": [
+            2
+          ],
+          "review_outcome": "reject"
+        },
+        {
+          "scale_id": "mediation-adversarial-communication",
+          "pole": "positive",
+          "original_value": 2,
+          "original_evidence_indices": [
+            16,
+            22
+          ],
+          "review_outcome": "retain"
+        },
+        {
+          "scale_id": "mediation-adversarial-communication",
+          "pole": "negative",
+          "original_value": 2,
+          "original_evidence_indices": [
+            4
+          ],
+          "review_outcome": "retain"
+        },
+        {
+          "scale_id": "cultural-openness-national-transmission",
+          "pole": "positive",
+          "original_value": 2,
+          "original_evidence_indices": [
+            0,
+            3,
+            9,
+            29,
+            30,
+            32
+          ],
+          "review_outcome": "reject"
+        },
+        {
+          "scale_id": "cultural-openness-national-transmission",
+          "pole": "negative",
+          "original_value": 2,
+          "original_evidence_indices": [
+            27
+          ],
+          "review_outcome": "retain"
+        },
+        {
+          "scale_id": "problem-disclosure-reputation-defence",
+          "pole": "negative",
+          "original_value": 3,
+          "original_evidence_indices": [
+            4,
+            16,
+            17
+          ],
+          "review_outcome": "retain"
+        },
+        {
+          "scale_id": "procedural-guarantees-enforcement",
+          "pole": "positive",
+          "original_value": 2,
+          "original_evidence_indices": [
+            13
+          ],
+          "review_outcome": "reject"
+        },
+        {
+          "scale_id": "prevention-crisis-response",
+          "pole": "positive",
+          "original_value": 1,
+          "original_evidence_indices": [
+            14,
+            21
+          ],
+          "review_outcome": "reject"
+        },
+        {
+          "scale_id": "prevention-crisis-response",
+          "pole": "negative",
+          "original_value": 3,
+          "original_evidence_indices": [
+            15,
+            16,
+            22
+          ],
+          "review_outcome": "retain"
+        },
+        {
+          "scale_id": "institutional-autonomy-coordination",
+          "pole": "positive",
+          "original_value": 1,
+          "original_evidence_indices": [
+            13
+          ],
+          "review_outcome": "retain"
+        },
+        {
+          "scale_id": "institutional-autonomy-coordination",
+          "pole": "negative",
+          "original_value": 2,
+          "original_evidence_indices": [
+            24
+          ],
+          "review_outcome": "reject"
+        },
+        {
+          "scale_id": "ecological-limits-resource-use",
+          "pole": "negative",
+          "original_value": 1,
+          "original_evidence_indices": [
+            9,
+            30,
+            32
+          ],
+          "review_outcome": "reject"
+        },
+        {
+          "scale_id": "russia-diplomatic-engagement",
+          "pole": "positive",
+          "original_value": 3,
+          "original_evidence_indices": [
+            29,
+            31,
+            32
+          ],
+          "review_outcome": "retain"
+        },
+        {
+          "scale_id": "russia-diplomatic-engagement",
+          "pole": "negative",
+          "original_value": 0,
+          "original_evidence_indices": [
+            29,
+            31,
+            32
+          ],
+          "review_outcome": "reject"
+        },
+        {
+          "scale_id": "russia-economic-technology-cooperation",
+          "pole": "positive",
+          "original_value": 3,
+          "original_evidence_indices": [
+            9,
+            31,
+            32
+          ],
+          "review_outcome": "repair_indices"
+        },
+        {
+          "scale_id": "russia-education-cultural-cooperation",
+          "pole": "positive",
+          "original_value": 3,
+          "original_evidence_indices": [
+            9,
+            30,
+            32
+          ],
+          "review_outcome": "repair_indices"
+        }
+      ],
+      "outcome_counts": {
+        "retain": 13,
+        "reject": 8,
+        "repair_indices": 3
+      }
+    },
+    {
+      "object_id": "james-kabarebe",
+      "name": "Джеймс Кабаребе",
+      "observed_checked": 14,
+      "unknown_properties_not_scored": 34,
+      "ratings_file": "studies/rwanda-politicians-2021-2026/evidence/independent-ratings-james-kabarebe.json",
+      "ratings_sha256": "4a1be0a46c5a6ac637d5618b474280dab4b84b516c550e62371d1f3792b92a03",
+      "dossier_file": "studies/rwanda-politicians-2021-2026/evidence/independent-dossier-james-kabarebe.json",
+      "dossier_sha256": "9845471dc4f66b918747657c8aacf62ea78dbf00349a06fcbf36e3a9ee74ba07",
+      "checked_properties": [
+        {
+          "scale_id": "programmatic-renewal",
+          "pole": "negative",
+          "original_value": 3,
+          "original_evidence_indices": [
+            9,
+            10
+          ],
+          "review_outcome": "retain"
+        },
+        {
+          "scale_id": "government-course-assessment",
+          "pole": "positive",
+          "original_value": 2,
+          "original_evidence_indices": [
+            9,
+            10
+          ],
+          "review_outcome": "retain"
+        },
+        {
+          "scale_id": "participation-administrative-direction",
+          "pole": "negative",
+          "original_value": 2,
+          "original_evidence_indices": [
+            9,
+            10
+          ],
+          "review_outcome": "reject"
+        },
+        {
+          "scale_id": "argumentation-evidence-values",
+          "pole": "negative",
+          "original_value": 2,
+          "original_evidence_indices": [
+            4,
+            9,
+            10
+          ],
+          "review_outcome": "recode"
+        },
+        {
+          "scale_id": "market-state-instruments",
+          "pole": "negative",
+          "original_value": 2,
+          "original_evidence_indices": [
+            9,
+            10
+          ],
+          "review_outcome": "reject"
+        },
+        {
+          "scale_id": "accessibility-growth-priorities",
+          "pole": "negative",
+          "original_value": 2,
+          "original_evidence_indices": [
+            10
+          ],
+          "review_outcome": "retain"
+        },
+        {
+          "scale_id": "external-domestic-resources",
+          "pole": "positive",
+          "original_value": 2,
+          "original_evidence_indices": [
+            4
+          ],
+          "review_outcome": "reject"
+        },
+        {
+          "scale_id": "international-rules-autonomy",
+          "pole": "positive",
+          "original_value": 2,
+          "original_evidence_indices": [
+            9
+          ],
+          "review_outcome": "retain"
+        },
+        {
+          "scale_id": "international-rules-autonomy",
+          "pole": "negative",
+          "original_value": 1,
+          "original_evidence_indices": [
+            14
+          ],
+          "review_outcome": "retain"
+        },
+        {
+          "scale_id": "mediation-adversarial-communication",
+          "pole": "positive",
+          "original_value": 1,
+          "original_evidence_indices": [
+            14
+          ],
+          "review_outcome": "retain"
+        },
+        {
+          "scale_id": "mediation-adversarial-communication",
+          "pole": "negative",
+          "original_value": 2,
+          "original_evidence_indices": [
+            14
+          ],
+          "review_outcome": "retain"
+        },
+        {
+          "scale_id": "problem-disclosure-reputation-defence",
+          "pole": "negative",
+          "original_value": 2,
+          "original_evidence_indices": [
+            14
+          ],
+          "review_outcome": "retain"
+        },
+        {
+          "scale_id": "prevention-crisis-response",
+          "pole": "negative",
+          "original_value": 1,
+          "original_evidence_indices": [
+            12
+          ],
+          "review_outcome": "reject"
+        },
+        {
+          "scale_id": "institutional-autonomy-coordination",
+          "pole": "negative",
+          "original_value": 2,
+          "original_evidence_indices": [
+            9,
+            10
+          ],
+          "review_outcome": "retain"
+        }
+      ],
+      "outcome_counts": {
+        "retain": 9,
+        "reject": 4,
+        "recode": 1
+      }
+    },
+    {
+      "object_id": "juvenal-marizamunda",
+      "name": "Жювеналь Маризамунда",
+      "observed_checked": 14,
+      "unknown_properties_not_scored": 34,
+      "ratings_file": "studies/rwanda-politicians-2021-2026/evidence/independent-ratings-juvenal-marizamunda.json",
+      "ratings_sha256": "bdea22fdbd5dec9942cad5c8aa25da5341b1f4baeab4dc0189ad8c580eb99806",
+      "dossier_file": "studies/rwanda-politicians-2021-2026/evidence/independent-dossier-juvenal-marizamunda.json",
+      "dossier_sha256": "03c7f3257fef37c240352e081a6cc669cc6d1264035d52e830e9670068aaa1d5",
+      "checked_properties": [
+        {
+          "scale_id": "participation-administrative-direction",
+          "pole": "positive",
+          "original_value": 2,
+          "original_evidence_indices": [
+            6
+          ],
+          "review_outcome": "retain"
+        },
+        {
+          "scale_id": "argumentation-evidence-values",
+          "pole": "negative",
+          "original_value": 2,
+          "original_evidence_indices": [
+            10
+          ],
+          "review_outcome": "retain"
+        },
+        {
+          "scale_id": "external-domestic-resources",
+          "pole": "positive",
+          "original_value": 2,
+          "original_evidence_indices": [
+            2,
+            5,
+            11,
+            12,
+            13
+          ],
+          "review_outcome": "reject"
+        },
+        {
+          "scale_id": "international-rules-autonomy",
+          "pole": "positive",
+          "original_value": 1,
+          "original_evidence_indices": [
+            7
+          ],
+          "review_outcome": "retain"
+        },
+        {
+          "scale_id": "international-rules-autonomy",
+          "pole": "negative",
+          "original_value": 2,
+          "original_evidence_indices": [
+            1,
+            11
+          ],
+          "review_outcome": "flag"
+        },
+        {
+          "scale_id": "mediation-adversarial-communication",
+          "pole": "positive",
+          "original_value": 2,
+          "original_evidence_indices": [
+            1,
+            11
+          ],
+          "review_outcome": "retain"
+        },
+        {
+          "scale_id": "mediation-adversarial-communication",
+          "pole": "negative",
+          "original_value": 3,
+          "original_evidence_indices": [
+            7,
+            8,
+            9
+          ],
+          "review_outcome": "recode"
+        },
+        {
+          "scale_id": "cultural-openness-national-transmission",
+          "pole": "positive",
+          "original_value": 2,
+          "original_evidence_indices": [
+            1,
+            6,
+            11,
+            12
+          ],
+          "review_outcome": "reject"
+        },
+        {
+          "scale_id": "cultural-openness-national-transmission",
+          "pole": "negative",
+          "original_value": 2,
+          "original_evidence_indices": [
+            1,
+            7,
+            8,
+            9,
+            11
+          ],
+          "review_outcome": "reject"
+        },
+        {
+          "scale_id": "problem-disclosure-reputation-defence",
+          "pole": "positive",
+          "original_value": 1,
+          "original_evidence_indices": [
+            6
+          ],
+          "review_outcome": "reject"
+        },
+        {
+          "scale_id": "problem-disclosure-reputation-defence",
+          "pole": "negative",
+          "original_value": 3,
+          "original_evidence_indices": [
+            7,
+            8,
+            9
+          ],
+          "review_outcome": "recode"
+        },
+        {
+          "scale_id": "prevention-crisis-response",
+          "pole": "positive",
+          "original_value": 2,
+          "original_evidence_indices": [
+            1,
+            6,
+            11
+          ],
+          "review_outcome": "recode"
+        },
+        {
+          "scale_id": "prevention-crisis-response",
+          "pole": "negative",
+          "original_value": 2,
+          "original_evidence_indices": [
+            8,
+            9
+          ],
+          "review_outcome": "reject"
+        },
+        {
+          "scale_id": "russia-security-cooperation",
+          "pole": "positive",
+          "original_value": 1,
+          "original_evidence_indices": [
+            4,
+            13
+          ],
+          "review_outcome": "retain"
+        }
+      ],
+      "outcome_counts": {
+        "retain": 5,
+        "reject": 5,
+        "flag": 1,
+        "recode": 3
+      }
+    },
+    {
+      "object_id": "albert-murasira",
+      "name": "Альбер Мурасира",
+      "observed_checked": 20,
+      "unknown_properties_not_scored": 28,
+      "ratings_file": "studies/rwanda-politicians-2021-2026/evidence/independent-ratings-albert-murasira.json",
+      "ratings_sha256": "29135ba7fc4a055c248c409dec23a80e3692bbbf434af53a56feb2740d84fa01",
+      "dossier_file": "studies/rwanda-politicians-2021-2026/evidence/independent-dossier-albert-murasira.json",
+      "dossier_sha256": "396797dffa4196c5e0b69b4b58fa999169660bef0e34508ed570cc1154c97f1f",
+      "checked_properties": [
+        {
+          "scale_id": "programmatic-renewal",
+          "pole": "positive",
+          "original_value": 2,
+          "original_evidence_indices": [
+            0,
+            9
+          ],
+          "review_outcome": "retain"
+        },
+        {
+          "scale_id": "programmatic-renewal",
+          "pole": "negative",
+          "original_value": 2,
+          "original_evidence_indices": [
+            4,
+            10,
+            11
+          ],
+          "review_outcome": "retain"
+        },
+        {
+          "scale_id": "government-course-assessment",
+          "pole": "positive",
+          "original_value": 2,
+          "original_evidence_indices": [
+            3,
+            4,
+            10,
+            11
+          ],
+          "review_outcome": "retain"
+        },
+        {
+          "scale_id": "participation-administrative-direction",
+          "pole": "positive",
+          "original_value": 2,
+          "original_evidence_indices": [
+            4,
+            10,
+            11
+          ],
+          "review_outcome": "reject"
+        },
+        {
+          "scale_id": "participation-administrative-direction",
+          "pole": "negative",
+          "original_value": 2,
+          "original_evidence_indices": [
+            4,
+            10,
+            11
+          ],
+          "review_outcome": "retain"
+        },
+        {
+          "scale_id": "argumentation-evidence-values",
+          "pole": "positive",
+          "original_value": 2,
+          "original_evidence_indices": [
+            4,
+            10,
+            14
+          ],
+          "review_outcome": "reject"
+        },
+        {
+          "scale_id": "argumentation-evidence-values",
+          "pole": "negative",
+          "original_value": 1,
+          "original_evidence_indices": [
+            0,
+            1,
+            9
+          ],
+          "review_outcome": "retain"
+        },
+        {
+          "scale_id": "market-state-instruments",
+          "pole": "positive",
+          "original_value": 2,
+          "original_evidence_indices": [
+            12
+          ],
+          "review_outcome": "retain"
+        },
+        {
+          "scale_id": "accessibility-growth-priorities",
+          "pole": "positive",
+          "original_value": 2,
+          "original_evidence_indices": [
+            2,
+            8,
+            12
+          ],
+          "review_outcome": "retain"
+        },
+        {
+          "scale_id": "accessibility-growth-priorities",
+          "pole": "negative",
+          "original_value": 1,
+          "original_evidence_indices": [
+            12
+          ],
+          "review_outcome": "retain"
+        },
+        {
+          "scale_id": "external-domestic-resources",
+          "pole": "positive",
+          "original_value": 2,
+          "original_evidence_indices": [
+            12,
+            13
+          ],
+          "review_outcome": "reject"
+        },
+        {
+          "scale_id": "external-domestic-resources",
+          "pole": "negative",
+          "original_value": 1,
+          "original_evidence_indices": [
+            12
+          ],
+          "review_outcome": "flag"
+        },
+        {
+          "scale_id": "international-rules-autonomy",
+          "pole": "positive",
+          "original_value": 2,
+          "original_evidence_indices": [
+            0,
+            9,
+            13,
+            14
+          ],
+          "review_outcome": "retain"
+        },
+        {
+          "scale_id": "mediation-adversarial-communication",
+          "pole": "positive",
+          "original_value": 2,
+          "original_evidence_indices": [
+            4,
+            10,
+            13
+          ],
+          "review_outcome": "reject"
+        },
+        {
+          "scale_id": "cultural-openness-national-transmission",
+          "pole": "positive",
+          "original_value": 1,
+          "original_evidence_indices": [
+            0,
+            9
+          ],
+          "review_outcome": "reject"
+        },
+        {
+          "scale_id": "problem-disclosure-reputation-defence",
+          "pole": "negative",
+          "original_value": 2,
+          "original_evidence_indices": [
+            0,
+            1,
+            3,
+            4,
+            10,
+            11
+          ],
+          "review_outcome": "reject"
+        },
+        {
+          "scale_id": "prevention-crisis-response",
+          "pole": "positive",
+          "original_value": 4,
+          "original_evidence_indices": [
+            3,
+            4,
+            10,
+            11,
+            14
+          ],
+          "review_outcome": "recode"
+        },
+        {
+          "scale_id": "institutional-autonomy-coordination",
+          "pole": "negative",
+          "original_value": 2,
+          "original_evidence_indices": [
+            4,
+            10,
+            11,
+            14
+          ],
+          "review_outcome": "retain"
+        },
+        {
+          "scale_id": "universal-targeted-provision",
+          "pole": "negative",
+          "original_value": 2,
+          "original_evidence_indices": [
+            12,
+            13
+          ],
+          "review_outcome": "retain"
+        },
+        {
+          "scale_id": "ecological-limits-resource-use",
+          "pole": "positive",
+          "original_value": 2,
+          "original_evidence_indices": [
+            14
+          ],
+          "review_outcome": "reject"
+        }
+      ],
+      "outcome_counts": {
+        "retain": 11,
+        "reject": 7,
+        "flag": 1,
+        "recode": 1
+      }
+    },
+    {
+      "object_id": "emmanuel-ugirashebuja",
+      "name": "Эмманюэль Угирасебуджа",
+      "observed_checked": 26,
+      "unknown_properties_not_scored": 22,
+      "ratings_file": "studies/rwanda-politicians-2021-2026/evidence/independent-ratings-emmanuel-ugirashebuja.json",
+      "ratings_sha256": "fc6e18a4150024a4fe1e1c43ecc0cafbd701dcf671277edcc17895cc385db37d",
+      "dossier_file": "studies/rwanda-politicians-2021-2026/evidence/independent-dossier-emmanuel-ugirashebuja.json",
+      "dossier_sha256": "9159a3c6cedb8140a6fe692089f6bc3984ae9605201a8c70ff992057ca18a87f",
+      "checked_properties": [
+        {
+          "scale_id": "programmatic-renewal",
+          "pole": "positive",
+          "original_value": 2,
+          "original_evidence_indices": [
+            0,
+            1,
+            3,
+            10,
+            19,
+            21
+          ],
+          "review_outcome": "retain"
+        },
+        {
+          "scale_id": "programmatic-renewal",
+          "pole": "negative",
+          "original_value": 3,
+          "original_evidence_indices": [
+            10,
+            12,
+            15,
+            16,
+            17,
+            18,
+            19,
+            21
+          ],
+          "review_outcome": "retain"
+        },
+        {
+          "scale_id": "government-course-assessment",
+          "pole": "positive",
+          "original_value": 4,
+          "original_evidence_indices": [
+            10,
+            12,
+            15,
+            16,
+            17,
+            18,
+            19,
+            21
+          ],
+          "review_outcome": "retain"
+        },
+        {
+          "scale_id": "government-course-assessment",
+          "pole": "negative",
+          "original_value": 0,
+          "original_evidence_indices": [
+            10,
+            12,
+            15,
+            16,
+            19,
+            21
+          ],
+          "review_outcome": "reject"
+        },
+        {
+          "scale_id": "participation-administrative-direction",
+          "pole": "positive",
+          "original_value": 2,
+          "original_evidence_indices": [
+            10,
+            20,
+            22
+          ],
+          "review_outcome": "retain"
+        },
+        {
+          "scale_id": "participation-administrative-direction",
+          "pole": "negative",
+          "original_value": 3,
+          "original_evidence_indices": [
+            0,
+            20,
+            21
+          ],
+          "review_outcome": "retain"
+        },
+        {
+          "scale_id": "argumentation-evidence-values",
+          "pole": "positive",
+          "original_value": 3,
+          "original_evidence_indices": [
+            1,
+            2,
+            4,
+            7,
+            8,
+            17,
+            18
+          ],
+          "review_outcome": "recode"
+        },
+        {
+          "scale_id": "argumentation-evidence-values",
+          "pole": "negative",
+          "original_value": 2,
+          "original_evidence_indices": [
+            3,
+            15,
+            16,
+            19
+          ],
+          "review_outcome": "retain"
+        },
+        {
+          "scale_id": "market-state-instruments",
+          "pole": "positive",
+          "original_value": 2,
+          "original_evidence_indices": [
+            10,
+            11
+          ],
+          "review_outcome": "retain"
+        },
+        {
+          "scale_id": "market-state-instruments",
+          "pole": "negative",
+          "original_value": 3,
+          "original_evidence_indices": [
+            0,
+            10,
+            12,
+            15,
+            19,
+            21
+          ],
+          "review_outcome": "retain"
+        },
+        {
+          "scale_id": "accessibility-growth-priorities",
+          "pole": "positive",
+          "original_value": 4,
+          "original_evidence_indices": [
+            1,
+            2,
+            3,
+            7,
+            17,
+            18
+          ],
+          "review_outcome": "retain"
+        },
+        {
+          "scale_id": "accessibility-growth-priorities",
+          "pole": "negative",
+          "original_value": 2,
+          "original_evidence_indices": [
+            4,
+            8,
+            11
+          ],
+          "review_outcome": "reject"
+        },
+        {
+          "scale_id": "external-domestic-resources",
+          "pole": "positive",
+          "original_value": 2,
+          "original_evidence_indices": [
+            2,
+            3,
+            6,
+            10
+          ],
+          "review_outcome": "reject"
+        },
+        {
+          "scale_id": "external-domestic-resources",
+          "pole": "negative",
+          "original_value": 2,
+          "original_evidence_indices": [
+            4,
+            17,
+            18
+          ],
+          "review_outcome": "reject"
+        },
+        {
+          "scale_id": "international-rules-autonomy",
+          "pole": "positive",
+          "original_value": 2,
+          "original_evidence_indices": [
+            14,
+            16,
+            19
+          ],
+          "review_outcome": "repair_indices"
+        },
+        {
+          "scale_id": "mediation-adversarial-communication",
+          "pole": "positive",
+          "original_value": 3,
+          "original_evidence_indices": [
+            3,
+            10,
+            12
+          ],
+          "review_outcome": "retain"
+        },
+        {
+          "scale_id": "mediation-adversarial-communication",
+          "pole": "negative",
+          "original_value": 2,
+          "original_evidence_indices": [
+            9
+          ],
+          "review_outcome": "retain"
+        },
+        {
+          "scale_id": "cultural-openness-national-transmission",
+          "pole": "negative",
+          "original_value": 2,
+          "original_evidence_indices": [
+            19
+          ],
+          "review_outcome": "reject"
+        },
+        {
+          "scale_id": "problem-disclosure-reputation-defence",
+          "pole": "positive",
+          "original_value": 2,
+          "original_evidence_indices": [
+            20
+          ],
+          "review_outcome": "reject"
+        },
+        {
+          "scale_id": "problem-disclosure-reputation-defence",
+          "pole": "negative",
+          "original_value": 2,
+          "original_evidence_indices": [
+            9
+          ],
+          "review_outcome": "reject"
+        },
+        {
+          "scale_id": "procedural-guarantees-enforcement",
+          "pole": "positive",
+          "original_value": 3,
+          "original_evidence_indices": [
+            1,
+            2,
+            3,
+            4,
+            7,
+            8,
+            10,
+            16,
+            18
+          ],
+          "review_outcome": "retain"
+        },
+        {
+          "scale_id": "procedural-guarantees-enforcement",
+          "pole": "negative",
+          "original_value": 2,
+          "original_evidence_indices": [
+            0,
+            21
+          ],
+          "review_outcome": "reject"
+        },
+        {
+          "scale_id": "prevention-crisis-response",
+          "pole": "positive",
+          "original_value": 2,
+          "original_evidence_indices": [
+            12,
+            15
+          ],
+          "review_outcome": "retain"
+        },
+        {
+          "scale_id": "institutional-autonomy-coordination",
+          "pole": "negative",
+          "original_value": 2,
+          "original_evidence_indices": [
+            10,
+            15,
+            21
+          ],
+          "review_outcome": "retain"
+        },
+        {
+          "scale_id": "universal-targeted-provision",
+          "pole": "positive",
+          "original_value": 2,
+          "original_evidence_indices": [
+            17,
+            18
+          ],
+          "review_outcome": "retain"
+        },
+        {
+          "scale_id": "universal-targeted-provision",
+          "pole": "negative",
+          "original_value": 2,
+          "original_evidence_indices": [
+            2,
+            3
+          ],
+          "review_outcome": "retain"
+        }
+      ],
+      "outcome_counts": {
+        "retain": 16,
+        "reject": 8,
+        "recode": 1,
+        "repair_indices": 1
+      }
+    },
+    {
+      "object_id": "yusuf-murangwa",
+      "name": "Юсуф Мурангва",
+      "observed_checked": 23,
+      "unknown_properties_not_scored": 25,
+      "ratings_file": "studies/rwanda-politicians-2021-2026/evidence/independent-ratings-yusuf-murangwa.json",
+      "ratings_sha256": "945d34b04596ed75110a12cb724d3219828779baa8fc11b84731c6d28865acf5",
+      "dossier_file": "studies/rwanda-politicians-2021-2026/evidence/independent-dossier-yusuf-murangwa.json",
+      "dossier_sha256": "2425b2c049881466444e75d7302fdefb97fab2ad3b964737421a2b6b1ab1eedb",
+      "checked_properties": [
+        {
+          "scale_id": "programmatic-renewal",
+          "pole": "positive",
+          "original_value": 2,
+          "original_evidence_indices": [
+            0,
+            1,
+            12,
+            15
+          ],
+          "review_outcome": "retain"
+        },
+        {
+          "scale_id": "programmatic-renewal",
+          "pole": "negative",
+          "original_value": 3,
+          "original_evidence_indices": [
+            6,
+            16,
+            18,
+            19,
+            20
+          ],
+          "review_outcome": "retain"
+        },
+        {
+          "scale_id": "government-course-assessment",
+          "pole": "positive",
+          "original_value": 3,
+          "original_evidence_indices": [
+            6,
+            16,
+            18
+          ],
+          "review_outcome": "retain"
+        },
+        {
+          "scale_id": "participation-administrative-direction",
+          "pole": "negative",
+          "original_value": 3,
+          "original_evidence_indices": [
+            9,
+            14,
+            21
+          ],
+          "review_outcome": "retain"
+        },
+        {
+          "scale_id": "argumentation-evidence-values",
+          "pole": "positive",
+          "original_value": 3,
+          "original_evidence_indices": [
+            3,
+            6,
+            16,
+            17
+          ],
+          "review_outcome": "repair_indices"
+        },
+        {
+          "scale_id": "market-state-instruments",
+          "pole": "positive",
+          "original_value": 2,
+          "original_evidence_indices": [
+            2,
+            1
+          ],
+          "review_outcome": "retain"
+        },
+        {
+          "scale_id": "market-state-instruments",
+          "pole": "negative",
+          "original_value": 2,
+          "original_evidence_indices": [
+            0,
+            13
+          ],
+          "review_outcome": "retain"
+        },
+        {
+          "scale_id": "accessibility-growth-priorities",
+          "pole": "positive",
+          "original_value": 3,
+          "original_evidence_indices": [
+            10,
+            13,
+            17
+          ],
+          "review_outcome": "retain"
+        },
+        {
+          "scale_id": "accessibility-growth-priorities",
+          "pole": "negative",
+          "original_value": 3,
+          "original_evidence_indices": [
+            2,
+            10,
+            18
+          ],
+          "review_outcome": "retain"
+        },
+        {
+          "scale_id": "external-domestic-resources",
+          "pole": "positive",
+          "original_value": 3,
+          "original_evidence_indices": [
+            4,
+            5,
+            19,
+            20
+          ],
+          "review_outcome": "repair_indices"
+        },
+        {
+          "scale_id": "external-domestic-resources",
+          "pole": "negative",
+          "original_value": 2,
+          "original_evidence_indices": [
+            11,
+            22
+          ],
+          "review_outcome": "retain"
+        },
+        {
+          "scale_id": "international-rules-autonomy",
+          "pole": "positive",
+          "original_value": 2,
+          "original_evidence_indices": [
+            4,
+            19
+          ],
+          "review_outcome": "retain"
+        },
+        {
+          "scale_id": "international-rules-autonomy",
+          "pole": "negative",
+          "original_value": 2,
+          "original_evidence_indices": [
+            12,
+            4
+          ],
+          "review_outcome": "reject"
+        },
+        {
+          "scale_id": "problem-disclosure-reputation-defence",
+          "pole": "positive",
+          "original_value": 1,
+          "original_evidence_indices": [
+            12
+          ],
+          "review_outcome": "retain"
+        },
+        {
+          "scale_id": "problem-disclosure-reputation-defence",
+          "pole": "negative",
+          "original_value": 2,
+          "original_evidence_indices": [
+            6,
+            16,
+            17,
+            18
+          ],
+          "review_outcome": "reject"
+        },
+        {
+          "scale_id": "procedural-guarantees-enforcement",
+          "pole": "positive",
+          "original_value": 2,
+          "original_evidence_indices": [
+            12
+          ],
+          "review_outcome": "reject"
+        },
+        {
+          "scale_id": "prevention-crisis-response",
+          "pole": "positive",
+          "original_value": 2,
+          "original_evidence_indices": [
+            11,
+            13
+          ],
+          "review_outcome": "retain"
+        },
+        {
+          "scale_id": "institutional-autonomy-coordination",
+          "pole": "positive",
+          "original_value": 2,
+          "original_evidence_indices": [
+            12
+          ],
+          "review_outcome": "retain"
+        },
+        {
+          "scale_id": "institutional-autonomy-coordination",
+          "pole": "negative",
+          "original_value": 3,
+          "original_evidence_indices": [
+            4,
+            9,
+            14,
+            19,
+            20,
+            21
+          ],
+          "review_outcome": "retain"
+        },
+        {
+          "scale_id": "taxation-burden-public-revenue",
+          "pole": "negative",
+          "original_value": 2,
+          "original_evidence_indices": [
+            0,
+            1,
+            2,
+            22
+          ],
+          "review_outcome": "reject"
+        },
+        {
+          "scale_id": "universal-targeted-provision",
+          "pole": "positive",
+          "original_value": 2,
+          "original_evidence_indices": [
+            9,
+            10,
+            13
+          ],
+          "review_outcome": "reject"
+        },
+        {
+          "scale_id": "universal-targeted-provision",
+          "pole": "negative",
+          "original_value": 2,
+          "original_evidence_indices": [
+            10,
+            13
+          ],
+          "review_outcome": "retain"
+        },
+        {
+          "scale_id": "ecological-limits-resource-use",
+          "pole": "positive",
+          "original_value": 1,
+          "original_evidence_indices": [
+            1,
+            2
+          ],
+          "review_outcome": "reject"
+        }
+      ],
+      "outcome_counts": {
+        "retain": 15,
+        "repair_indices": 2,
+        "reject": 6
+      }
+    },
+    {
+      "object_id": "uzziel-ndagijimana",
+      "name": "Уззиэль Ндагиджимана",
+      "observed_checked": 20,
+      "unknown_properties_not_scored": 28,
+      "ratings_file": "studies/rwanda-politicians-2021-2026/evidence/independent-ratings-uzziel-ndagijimana.json",
+      "ratings_sha256": "3ef355384908d27c8758bfc707133efddf8dd7e2e43a74ec3db702e505f1edad",
+      "dossier_file": "studies/rwanda-politicians-2021-2026/evidence/independent-dossier-uzziel-ndagijimana.json",
+      "dossier_sha256": "227db4a4815722b63fbeb55e0e7bef3a7dc68dfbcc8bf0a501f59fd5bea41280",
+      "checked_properties": [
+        {
+          "scale_id": "programmatic-renewal",
+          "pole": "positive",
+          "original_value": 2,
+          "original_evidence_indices": [
+            0,
+            1,
+            3,
+            11,
+            12,
+            16
+          ],
+          "review_outcome": "retain"
+        },
+        {
+          "scale_id": "programmatic-renewal",
+          "pole": "negative",
+          "original_value": 3,
+          "original_evidence_indices": [
+            0,
+            1,
+            3,
+            4,
+            8,
+            9
+          ],
+          "review_outcome": "retain"
+        },
+        {
+          "scale_id": "government-course-assessment",
+          "pole": "positive",
+          "original_value": 3,
+          "original_evidence_indices": [
+            0,
+            1,
+            4,
+            8,
+            9
+          ],
+          "review_outcome": "retain"
+        },
+        {
+          "scale_id": "participation-administrative-direction",
+          "pole": "positive",
+          "original_value": 2,
+          "original_evidence_indices": [
+            5
+          ],
+          "review_outcome": "retain"
+        },
+        {
+          "scale_id": "participation-administrative-direction",
+          "pole": "negative",
+          "original_value": 2,
+          "original_evidence_indices": [
+            8,
+            4
+          ],
+          "review_outcome": "retain"
+        },
+        {
+          "scale_id": "argumentation-evidence-values",
+          "pole": "positive",
+          "original_value": 3,
+          "original_evidence_indices": [
+            1,
+            3,
+            7,
+            9
+          ],
+          "review_outcome": "retain"
+        },
+        {
+          "scale_id": "market-state-instruments",
+          "pole": "positive",
+          "original_value": 2,
+          "original_evidence_indices": [
+            11,
+            14
+          ],
+          "review_outcome": "retain"
+        },
+        {
+          "scale_id": "market-state-instruments",
+          "pole": "negative",
+          "original_value": 2,
+          "original_evidence_indices": [
+            15,
+            8
+          ],
+          "review_outcome": "repair_indices"
+        },
+        {
+          "scale_id": "accessibility-growth-priorities",
+          "pole": "positive",
+          "original_value": 3,
+          "original_evidence_indices": [
+            6,
+            11,
+            17,
+            4
+          ],
+          "review_outcome": "retain"
+        },
+        {
+          "scale_id": "accessibility-growth-priorities",
+          "pole": "negative",
+          "original_value": 2,
+          "original_evidence_indices": [
+            11,
+            12,
+            9
+          ],
+          "review_outcome": "retain"
+        },
+        {
+          "scale_id": "external-domestic-resources",
+          "pole": "positive",
+          "original_value": 4,
+          "original_evidence_indices": [
+            3,
+            6,
+            10,
+            11,
+            12
+          ],
+          "review_outcome": "retain"
+        },
+        {
+          "scale_id": "external-domestic-resources",
+          "pole": "negative",
+          "original_value": 2,
+          "original_evidence_indices": [
+            7,
+            4
+          ],
+          "review_outcome": "retain"
+        },
+        {
+          "scale_id": "international-rules-autonomy",
+          "pole": "positive",
+          "original_value": 2,
+          "original_evidence_indices": [
+            16
+          ],
+          "review_outcome": "retain"
+        },
+        {
+          "scale_id": "cultural-openness-national-transmission",
+          "pole": "positive",
+          "original_value": 2,
+          "original_evidence_indices": [
+            11,
+            14,
+            17
+          ],
+          "review_outcome": "reject"
+        },
+        {
+          "scale_id": "procedural-guarantees-enforcement",
+          "pole": "positive",
+          "original_value": 1,
+          "original_evidence_indices": [
+            5
+          ],
+          "review_outcome": "reject"
+        },
+        {
+          "scale_id": "prevention-crisis-response",
+          "pole": "positive",
+          "original_value": 2,
+          "original_evidence_indices": [
+            0,
+            9
+          ],
+          "review_outcome": "retain"
+        },
+        {
+          "scale_id": "institutional-autonomy-coordination",
+          "pole": "negative",
+          "original_value": 1,
+          "original_evidence_indices": [
+            8
+          ],
+          "review_outcome": "retain"
+        },
+        {
+          "scale_id": "taxation-burden-public-revenue",
+          "pole": "negative",
+          "original_value": 3,
+          "original_evidence_indices": [
+            1,
+            2,
+            3,
+            4,
+            7
+          ],
+          "review_outcome": "reject"
+        },
+        {
+          "scale_id": "universal-targeted-provision",
+          "pole": "positive",
+          "original_value": 2,
+          "original_evidence_indices": [
+            6,
+            17
+          ],
+          "review_outcome": "repair_indices"
+        },
+        {
+          "scale_id": "ecological-limits-resource-use",
+          "pole": "positive",
+          "original_value": 3,
+          "original_evidence_indices": [
+            0,
+            12,
+            15,
+            16
+          ],
+          "review_outcome": "reject"
+        }
+      ],
+      "outcome_counts": {
+        "retain": 14,
+        "repair_indices": 2,
+        "reject": 4
+      }
+    },
+    {
+      "object_id": "paula-ingabire",
+      "name": "Паула Ингабире",
+      "observed_checked": 28,
+      "unknown_properties_not_scored": 20,
+      "ratings_file": "studies/rwanda-politicians-2021-2026/evidence/independent-ratings-paula-ingabire.json",
+      "ratings_sha256": "b8140987f50b8273b89018cd90730341bb97b284fc3a48d9e4a262baa2a57c95",
+      "dossier_file": "studies/rwanda-politicians-2021-2026/evidence/independent-dossier-paula-ingabire.json",
+      "dossier_sha256": "ea8a5a4a48fe894cae23fb45f76ce8438ea7b7680799139458ddeede00f5d82e",
+      "checked_properties": [
+        {
+          "scale_id": "programmatic-renewal",
+          "pole": "positive",
+          "original_value": 2,
+          "original_evidence_indices": [
+            0,
+            11
+          ],
+          "review_outcome": "repair_indices"
+        },
+        {
+          "scale_id": "programmatic-renewal",
+          "pole": "negative",
+          "original_value": 3,
+          "original_evidence_indices": [
+            1,
+            2,
+            3,
+            12
+          ],
+          "review_outcome": "repair_indices"
+        },
+        {
+          "scale_id": "government-course-assessment",
+          "pole": "positive",
+          "original_value": 3,
+          "original_evidence_indices": [
+            3,
+            12,
+            22
+          ],
+          "review_outcome": "retain"
+        },
+        {
+          "scale_id": "government-course-assessment",
+          "pole": "negative",
+          "original_value": 0,
+          "original_evidence_indices": [
+            3,
+            12,
+            22
+          ],
+          "review_outcome": "reject"
+        },
+        {
+          "scale_id": "participation-administrative-direction",
+          "pole": "positive",
+          "original_value": 2,
+          "original_evidence_indices": [
+            2,
+            21
+          ],
+          "review_outcome": "reject"
+        },
+        {
+          "scale_id": "participation-administrative-direction",
+          "pole": "negative",
+          "original_value": 3,
+          "original_evidence_indices": [
+            1,
+            12,
+            14
+          ],
+          "review_outcome": "recode"
+        },
+        {
+          "scale_id": "argumentation-evidence-values",
+          "pole": "positive",
+          "original_value": 3,
+          "original_evidence_indices": [
+            11,
+            20,
+            24
+          ],
+          "review_outcome": "retain"
+        },
+        {
+          "scale_id": "argumentation-evidence-values",
+          "pole": "negative",
+          "original_value": 2,
+          "original_evidence_indices": [
+            8,
+            21
+          ],
+          "review_outcome": "recode"
+        },
+        {
+          "scale_id": "market-state-instruments",
+          "pole": "positive",
+          "original_value": 2,
+          "original_evidence_indices": [
+            2,
+            5
+          ],
+          "review_outcome": "repair_indices"
+        },
+        {
+          "scale_id": "market-state-instruments",
+          "pole": "negative",
+          "original_value": 3,
+          "original_evidence_indices": [
+            1,
+            12,
+            14
+          ],
+          "review_outcome": "recode"
+        },
+        {
+          "scale_id": "accessibility-growth-priorities",
+          "pole": "positive",
+          "original_value": 4,
+          "original_evidence_indices": [
+            4,
+            5,
+            18,
+            19,
+            23
+          ],
+          "review_outcome": "repair_indices"
+        },
+        {
+          "scale_id": "accessibility-growth-priorities",
+          "pole": "negative",
+          "original_value": 3,
+          "original_evidence_indices": [
+            2,
+            3,
+            12
+          ],
+          "review_outcome": "repair_indices"
+        },
+        {
+          "scale_id": "external-domestic-resources",
+          "pole": "positive",
+          "original_value": 3,
+          "original_evidence_indices": [
+            2,
+            4,
+            6,
+            7,
+            21
+          ],
+          "review_outcome": "reject"
+        },
+        {
+          "scale_id": "external-domestic-resources",
+          "pole": "negative",
+          "original_value": 2,
+          "original_evidence_indices": [
+            13,
+            24
+          ],
+          "review_outcome": "reject"
+        },
+        {
+          "scale_id": "international-rules-autonomy",
+          "pole": "positive",
+          "original_value": 3,
+          "original_evidence_indices": [
+            15,
+            18,
+            19
+          ],
+          "review_outcome": "retain"
+        },
+        {
+          "scale_id": "international-rules-autonomy",
+          "pole": "negative",
+          "original_value": 0,
+          "original_evidence_indices": [
+            15,
+            18,
+            19
+          ],
+          "review_outcome": "reject"
+        },
+        {
+          "scale_id": "mediation-adversarial-communication",
+          "pole": "positive",
+          "original_value": 2,
+          "original_evidence_indices": [
+            18,
+            21
+          ],
+          "review_outcome": "retain"
+        },
+        {
+          "scale_id": "mediation-adversarial-communication",
+          "pole": "negative",
+          "original_value": 0,
+          "original_evidence_indices": [
+            18,
+            21
+          ],
+          "review_outcome": "reject"
+        },
+        {
+          "scale_id": "cultural-openness-national-transmission",
+          "pole": "positive",
+          "original_value": 4,
+          "original_evidence_indices": [
+            2,
+            4,
+            6,
+            7,
+            8,
+            10,
+            15,
+            18,
+            19,
+            21
+          ],
+          "review_outcome": "reject"
+        },
+        {
+          "scale_id": "cultural-openness-national-transmission",
+          "pole": "negative",
+          "original_value": 2,
+          "original_evidence_indices": [
+            11,
+            12,
+            13,
+            14,
+            24
+          ],
+          "review_outcome": "reject"
+        },
+        {
+          "scale_id": "problem-disclosure-reputation-defence",
+          "pole": "positive",
+          "original_value": 2,
+          "original_evidence_indices": [
+            17
+          ],
+          "review_outcome": "retain"
+        },
+        {
+          "scale_id": "problem-disclosure-reputation-defence",
+          "pole": "negative",
+          "original_value": 2,
+          "original_evidence_indices": [
+            1,
+            3,
+            12,
+            14,
+            16
+          ],
+          "review_outcome": "reject"
+        },
+        {
+          "scale_id": "procedural-guarantees-enforcement",
+          "pole": "negative",
+          "original_value": 2,
+          "original_evidence_indices": [
+            12,
+            13,
+            14
+          ],
+          "review_outcome": "reject"
+        },
+        {
+          "scale_id": "prevention-crisis-response",
+          "pole": "positive",
+          "original_value": 3,
+          "original_evidence_indices": [
+            13,
+            14,
+            17
+          ],
+          "review_outcome": "repair_indices"
+        },
+        {
+          "scale_id": "prevention-crisis-response",
+          "pole": "negative",
+          "original_value": 1,
+          "original_evidence_indices": [
+            17
+          ],
+          "review_outcome": "reject"
+        },
+        {
+          "scale_id": "institutional-autonomy-coordination",
+          "pole": "negative",
+          "original_value": 3,
+          "original_evidence_indices": [
+            1,
+            3,
+            12,
+            14
+          ],
+          "review_outcome": "recode"
+        },
+        {
+          "scale_id": "universal-targeted-provision",
+          "pole": "positive",
+          "original_value": 3,
+          "original_evidence_indices": [
+            4,
+            5,
+            18,
+            19,
+            22,
+            23
+          ],
+          "review_outcome": "repair_indices"
+        },
+        {
+          "scale_id": "universal-targeted-provision",
+          "pole": "negative",
+          "original_value": 2,
+          "original_evidence_indices": [
+            4,
+            11,
+            21
+          ],
+          "review_outcome": "repair_indices"
+        }
+      ],
+      "outcome_counts": {
+        "repair_indices": 8,
+        "retain": 5,
+        "reject": 11,
+        "recode": 4
+      }
+    },
+    {
+      "object_id": "sabin-nsanzimana",
+      "name": "Сабин Нсанзимана",
+      "observed_checked": 23,
+      "unknown_properties_not_scored": 25,
+      "ratings_file": "studies/rwanda-politicians-2021-2026/evidence/independent-ratings-sabin-nsanzimana.json",
+      "ratings_sha256": "de0244715903fd152bdb1bfacfa90386c14e730cf8e20c495461305411c7f65b",
+      "dossier_file": "studies/rwanda-politicians-2021-2026/evidence/independent-dossier-sabin-nsanzimana.json",
+      "dossier_sha256": "494f61a71bbb351480cf91270199b311ef7a5783fc36bb3f7327b80e67fd4e44",
+      "checked_properties": [
+        {
+          "scale_id": "programmatic-renewal",
+          "pole": "positive",
+          "original_value": 2,
+          "original_evidence_indices": [
+            0,
+            2,
+            3,
+            4,
+            10
+          ],
+          "review_outcome": "retain"
+        },
+        {
+          "scale_id": "programmatic-renewal",
+          "pole": "negative",
+          "original_value": 2,
+          "original_evidence_indices": [
+            4,
+            5,
+            10,
+            11
+          ],
+          "review_outcome": "retain"
+        },
+        {
+          "scale_id": "government-course-assessment",
+          "pole": "positive",
+          "original_value": 2,
+          "original_evidence_indices": [
+            3,
+            4,
+            5,
+            10,
+            11
+          ],
+          "review_outcome": "retain"
+        },
+        {
+          "scale_id": "government-course-assessment",
+          "pole": "negative",
+          "original_value": 1,
+          "original_evidence_indices": [
+            11
+          ],
+          "review_outcome": "flag"
+        },
+        {
+          "scale_id": "participation-administrative-direction",
+          "pole": "positive",
+          "original_value": 1,
+          "original_evidence_indices": [
+            3
+          ],
+          "review_outcome": "reject"
+        },
+        {
+          "scale_id": "participation-administrative-direction",
+          "pole": "negative",
+          "original_value": 2,
+          "original_evidence_indices": [
+            4,
+            5,
+            11
+          ],
+          "review_outcome": "retain"
+        },
+        {
+          "scale_id": "argumentation-evidence-values",
+          "pole": "positive",
+          "original_value": 3,
+          "original_evidence_indices": [
+            5,
+            6,
+            11
+          ],
+          "review_outcome": "recode"
+        },
+        {
+          "scale_id": "argumentation-evidence-values",
+          "pole": "negative",
+          "original_value": 1,
+          "original_evidence_indices": [
+            3
+          ],
+          "review_outcome": "retain"
+        },
+        {
+          "scale_id": "market-state-instruments",
+          "pole": "negative",
+          "original_value": 2,
+          "original_evidence_indices": [
+            4,
+            5,
+            10,
+            11
+          ],
+          "review_outcome": "retain"
+        },
+        {
+          "scale_id": "accessibility-growth-priorities",
+          "pole": "positive",
+          "original_value": 3,
+          "original_evidence_indices": [
+            3,
+            4,
+            5,
+            10
+          ],
+          "review_outcome": "retain"
+        },
+        {
+          "scale_id": "accessibility-growth-priorities",
+          "pole": "negative",
+          "original_value": 2,
+          "original_evidence_indices": [
+            9,
+            12,
+            13,
+            14
+          ],
+          "review_outcome": "reject"
+        },
+        {
+          "scale_id": "external-domestic-resources",
+          "pole": "positive",
+          "original_value": 3,
+          "original_evidence_indices": [
+            0,
+            6,
+            9,
+            12,
+            13,
+            14
+          ],
+          "review_outcome": "repair_indices"
+        },
+        {
+          "scale_id": "international-rules-autonomy",
+          "pole": "positive",
+          "original_value": 2,
+          "original_evidence_indices": [
+            0,
+            2,
+            6,
+            10,
+            12,
+            13,
+            14
+          ],
+          "review_outcome": "retain"
+        },
+        {
+          "scale_id": "mediation-adversarial-communication",
+          "pole": "negative",
+          "original_value": 1,
+          "original_evidence_indices": [
+            8
+          ],
+          "review_outcome": "retain"
+        },
+        {
+          "scale_id": "cultural-openness-national-transmission",
+          "pole": "positive",
+          "original_value": 3,
+          "original_evidence_indices": [
+            0,
+            2,
+            6,
+            9,
+            10,
+            12,
+            13,
+            14
+          ],
+          "review_outcome": "reject"
+        },
+        {
+          "scale_id": "problem-disclosure-reputation-defence",
+          "pole": "positive",
+          "original_value": 2,
+          "original_evidence_indices": [
+            11
+          ],
+          "review_outcome": "retain"
+        },
+        {
+          "scale_id": "problem-disclosure-reputation-defence",
+          "pole": "negative",
+          "original_value": 1,
+          "original_evidence_indices": [
+            8
+          ],
+          "review_outcome": "retain"
+        },
+        {
+          "scale_id": "prevention-crisis-response",
+          "pole": "positive",
+          "original_value": 4,
+          "original_evidence_indices": [
+            0,
+            2,
+            3,
+            4,
+            5,
+            10
+          ],
+          "review_outcome": "retain"
+        },
+        {
+          "scale_id": "prevention-crisis-response",
+          "pole": "negative",
+          "original_value": 2,
+          "original_evidence_indices": [
+            7
+          ],
+          "review_outcome": "reject"
+        },
+        {
+          "scale_id": "universal-targeted-provision",
+          "pole": "positive",
+          "original_value": 3,
+          "original_evidence_indices": [
+            4,
+            5,
+            6
+          ],
+          "review_outcome": "reject"
+        },
+        {
+          "scale_id": "universal-targeted-provision",
+          "pole": "negative",
+          "original_value": 2,
+          "original_evidence_indices": [
+            3
+          ],
+          "review_outcome": "retain"
+        },
+        {
+          "scale_id": "russia-economic-technology-cooperation",
+          "pole": "positive",
+          "original_value": 2,
+          "original_evidence_indices": [
+            12,
+            14
+          ],
+          "review_outcome": "retain"
+        },
+        {
+          "scale_id": "russia-education-cultural-cooperation",
+          "pole": "positive",
+          "original_value": 1,
+          "original_evidence_indices": [
+            12,
+            14
+          ],
+          "review_outcome": "retain"
+        }
+      ],
+      "outcome_counts": {
+        "retain": 15,
+        "flag": 1,
+        "reject": 5,
+        "recode": 1,
+        "repair_indices": 1
+      }
+    },
+    {
+      "object_id": "judith-uwizeye",
+      "name": "Жюдит Увизейе",
+      "observed_checked": 20,
+      "unknown_properties_not_scored": 28,
+      "ratings_file": "studies/rwanda-politicians-2021-2026/evidence/independent-ratings-judith-uwizeye.json",
+      "ratings_sha256": "c5f7ef0aa565f2d3f1cf9a78bd347f7b0c2991dcd6cf38188043689707ca9f2d",
+      "dossier_file": "studies/rwanda-politicians-2021-2026/evidence/independent-dossier-judith-uwizeye.json",
+      "dossier_sha256": "b1db8937889f1f449827b9d97a03e59dbdfe62ec7a0bb4d6274eda1198d7148e",
+      "checked_properties": [
+        {
+          "scale_id": "programmatic-renewal",
+          "pole": "positive",
+          "original_value": 2,
+          "original_evidence_indices": [
+            5,
+            10
+          ],
+          "review_outcome": "reject"
+        },
+        {
+          "scale_id": "programmatic-renewal",
+          "pole": "negative",
+          "original_value": 3,
+          "original_evidence_indices": [
+            2,
+            5,
+            10,
+            13
+          ],
+          "review_outcome": "recode"
+        },
+        {
+          "scale_id": "government-course-assessment",
+          "pole": "positive",
+          "original_value": 3,
+          "original_evidence_indices": [
+            2,
+            5,
+            10,
+            13
+          ],
+          "review_outcome": "recode"
+        },
+        {
+          "scale_id": "government-course-assessment",
+          "pole": "negative",
+          "original_value": 1,
+          "original_evidence_indices": [
+            14
+          ],
+          "review_outcome": "reject"
+        },
+        {
+          "scale_id": "participation-administrative-direction",
+          "pole": "negative",
+          "original_value": 3,
+          "original_evidence_indices": [
+            6,
+            11,
+            19
+          ],
+          "review_outcome": "recode"
+        },
+        {
+          "scale_id": "argumentation-evidence-values",
+          "pole": "positive",
+          "original_value": 1,
+          "original_evidence_indices": [
+            17
+          ],
+          "review_outcome": "reject"
+        },
+        {
+          "scale_id": "argumentation-evidence-values",
+          "pole": "negative",
+          "original_value": 2,
+          "original_evidence_indices": [
+            16,
+            18
+          ],
+          "review_outcome": "retain"
+        },
+        {
+          "scale_id": "market-state-instruments",
+          "pole": "negative",
+          "original_value": 2,
+          "original_evidence_indices": [
+            19
+          ],
+          "review_outcome": "retain"
+        },
+        {
+          "scale_id": "accessibility-growth-priorities",
+          "pole": "positive",
+          "original_value": 2,
+          "original_evidence_indices": [
+            5,
+            7,
+            12
+          ],
+          "review_outcome": "reject"
+        },
+        {
+          "scale_id": "international-rules-autonomy",
+          "pole": "positive",
+          "original_value": 2,
+          "original_evidence_indices": [
+            0
+          ],
+          "review_outcome": "reject"
+        },
+        {
+          "scale_id": "cultural-openness-national-transmission",
+          "pole": "positive",
+          "original_value": 2,
+          "original_evidence_indices": [
+            0
+          ],
+          "review_outcome": "reject"
+        },
+        {
+          "scale_id": "problem-disclosure-reputation-defence",
+          "pole": "positive",
+          "original_value": 1,
+          "original_evidence_indices": [
+            14
+          ],
+          "review_outcome": "reject"
+        },
+        {
+          "scale_id": "problem-disclosure-reputation-defence",
+          "pole": "negative",
+          "original_value": 2,
+          "original_evidence_indices": [
+            2,
+            10,
+            13
+          ],
+          "review_outcome": "reject"
+        },
+        {
+          "scale_id": "procedural-guarantees-enforcement",
+          "pole": "positive",
+          "original_value": 2,
+          "original_evidence_indices": [
+            6,
+            14,
+            15
+          ],
+          "review_outcome": "retain"
+        },
+        {
+          "scale_id": "procedural-guarantees-enforcement",
+          "pole": "negative",
+          "original_value": 2,
+          "original_evidence_indices": [
+            19
+          ],
+          "review_outcome": "reject"
+        },
+        {
+          "scale_id": "prevention-crisis-response",
+          "pole": "positive",
+          "original_value": 2,
+          "original_evidence_indices": [
+            7,
+            14,
+            15,
+            20
+          ],
+          "review_outcome": "retain"
+        },
+        {
+          "scale_id": "prevention-crisis-response",
+          "pole": "negative",
+          "original_value": 2,
+          "original_evidence_indices": [
+            15,
+            20
+          ],
+          "review_outcome": "reject"
+        },
+        {
+          "scale_id": "institutional-autonomy-coordination",
+          "pole": "positive",
+          "original_value": 1,
+          "original_evidence_indices": [
+            11
+          ],
+          "review_outcome": "reject"
+        },
+        {
+          "scale_id": "institutional-autonomy-coordination",
+          "pole": "negative",
+          "original_value": 2,
+          "original_evidence_indices": [
+            10,
+            11
+          ],
+          "review_outcome": "retain"
+        },
+        {
+          "scale_id": "universal-targeted-provision",
+          "pole": "negative",
+          "original_value": 2,
+          "original_evidence_indices": [
+            12
+          ],
+          "review_outcome": "reject"
+        }
+      ],
+      "outcome_counts": {
+        "reject": 12,
+        "recode": 3,
+        "retain": 5
+      }
+    }
+  ],
+  "summary": {
+    "decision_counts": {
+      "reject": 86,
+      "recode": 18,
+      "flag": 5,
+      "repair_indices": 19
+    },
+    "canonical_files_modified": false,
+    "russia_notes": "Сохраняются прямые положительные действия Ндухунгирехе, Маризамунды и Нсанзиманы в соответствующих аспектах. Одно интервью AFP не становится несколькими независимыми событиями; отсутствие прекращения контактов не позволяет ставить 0 противоположному свойству.",
+    "checked_objects": 14,
+    "checked_observed_properties": 281,
+    "retained_without_change_or_flag": 153,
+    "fact_exclusion_count": 3,
+    "fact_date_correction_count": 2,
+    "event_group_count": 10
+  },
+  "limitations": [
+    "Проверка является ассистентским источниковым и семантическим пересмотром, а не независимой эмпирической панелью экспертов.",
+    "Все observed-полюса прочитаны относительно локальных досье; повторное открытие первоисточников выполнено адресно для спорных событий и дат, а не исчерпывающе для каждого факта.",
+    "Отсутствие решения по observed-полюсу означает сохранение исходной оценки только в пределах указанного досье и определения, без обобщения на личные убеждения.",
+    "Число факторов, кластеры и требование доли дисперсии не использовались как критерий принятия или отклонения оценок."
+  ],
+  "input_snapshot": {
+    "study_file": "studies/rwanda-politicians-2021-2026/study.json",
+    "study_sha256": "ecedf3cd58365e7f377dd25d794623911a6a4b03fdca44f7b2953192bace3c5b",
+    "scales_sha256": "a91eb0cf03b9280b8632786e1df3ca9e9a121f2e31749b962e221359289cb9d6",
+    "hash_note": "sha256 of study/dossier/ratings file bytes; scales hash uses compact UTF-8 JSON sorted keys."
+  }
+}

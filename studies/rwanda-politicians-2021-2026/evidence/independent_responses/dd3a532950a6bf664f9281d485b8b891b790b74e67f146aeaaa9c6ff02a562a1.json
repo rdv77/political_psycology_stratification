@@ -1,0 +1,212 @@
+{
+  "data": {
+    "ratings": [
+      {
+        "variable_id": "programmatic-renewal__positive",
+        "status": "observed",
+        "value": 1,
+        "confidence": 0.3,
+        "support_type": "positive_manifestation",
+        "rationale": "В публичных заявлениях Гатаре обозначал видение развития через государственно-частное партнёрство и инновационные проекты, однако эти приоритеты уже закреплены в национальной стратегии (NST1). Его риторика не содержит явных предложений пересмотреть действующие приоритеты, но отдельные элементы (например, запуск новой магистратуры) могут рассматриваться как ограниченное программное обновление.",
+        "evidence_indices": [
+          3
+        ]
+      },
+      {
+        "variable_id": "programmatic-renewal__negative",
+        "status": "observed",
+        "value": 3,
+        "confidence": 0.7,
+        "support_type": "positive_manifestation",
+        "rationale": "Гатаре в публичных заявлениях подчёркивал продолжение и развитие уже существующих приоритетов, таких как государственно-частное партнёрство, инвестиции и инновации, что соответствует закреплению действующего курса, отражённого в национальной стратегии трансформации (NST1).",
+        "evidence_indices": [
+          0,
+          8,
+          12,
+          14
+        ]
+      },
+      {
+        "variable_id": "government-course-assessment__positive",
+        "status": "unknown",
+        "value": null,
+        "confidence": 0,
+        "support_type": "unknown",
+        "rationale": "Нет прямых персональных оценок достижений или проблем действующего государственного курса; благодарность за назначение и риторика служения не являются оценкой курса.",
+        "evidence_indices": []
+      },
+      {
+        "variable_id": "government-course-assessment__negative",
+        "status": "unknown",
+        "value": null,
+        "confidence": 0,
+        "support_type": "unknown",
+        "rationale": "Нет прямой критики действующего государственного курса в доступных материалах.",
+        "evidence_indices": []
+      },
+      {
+        "variable_id": "participation-administrative-direction__positive",
+        "status": "observed",
+        "value": 1,
+        "confidence": 0.3,
+        "support_type": "positive_manifestation",
+        "rationale": "Гатаре публично пообещал работать, слушать и учиться в новой команде, что свидетельствует о некотором элементе совместного обсуждения, но не о системном вовлечении граждан или групп в подготовку решений.",
+        "evidence_indices": [
+          1,
+          11
+        ]
+      },
+      {
+        "variable_id": "participation-administrative-direction__negative",
+        "status": "unknown",
+        "value": null,
+        "confidence": 0,
+        "support_type": "unknown",
+        "rationale": "Нет прямых публичных поручений или акцента на административное управление исполнителями в доступных материалах.",
+        "evidence_indices": []
+      },
+      {
+        "variable_id": "argumentation-evidence-values__positive",
+        "status": "unknown",
+        "value": null,
+        "confidence": 0,
+        "support_type": "unknown",
+        "rationale": "Нет примеров обоснования решений через данные, расчёты или исследование в доступных публичных заявлениях.",
+        "evidence_indices": []
+      },
+      {
+        "variable_id": "argumentation-evidence-values__negative",
+        "status": "unknown",
+        "value": null,
+        "confidence": 0,
+        "support_type": "unknown",
+        "rationale": "Нет содержательных призывов к ценностям, памяти, патриотизму или общественным образцам в публичных заявлениях.",
+        "evidence_indices": []
+      },
+      {
+        "variable_id": "market-state-instruments__positive",
+        "status": "observed",
+        "value": 2,
+        "confidence": 0.5,
+        "support_type": "positive_manifestation",
+        "rationale": "Гатаре подчёркивал роль государственно-частного партнёрства как двигателя экономического роста, что указывает на поддержку расширения частной инициативы в сочетании с государственным участием.",
+        "evidence_indices": [
+          0,
+          8,
+          12
+        ]
+      },
+      {
+        "variable_id": "market-state-instruments__negative",
+        "status": "observed",
+        "value": 1,
+        "confidence": 0.3,
+        "support_type": "positive_manifestation",
+        "rationale": "В риторике Гатаре присутствует поддержка государственных инициатив и проектов (например, Kigali Innovation City), что указывает на ограниченное проявление государственного планирования.",
+        "evidence_indices": [
+          14
+        ]
+      },
+      {
+        "variable_id": "accessibility-growth-priorities__positive",
+        "status": "unknown",
+        "value": null,
+        "confidence": 0,
+        "support_type": "unknown",
+        "rationale": "Нет прямых заявлений о приоритете расширения доступности базовых благ для населения.",
+        "evidence_indices": []
+      },
+      {
+        "variable_id": "accessibility-growth-priorities__negative",
+        "status": "observed",
+        "value": 3,
+        "confidence": 0.7,
+        "support_type": "positive_manifestation",
+        "rationale": "Гатаре связывает развитие с инвестициями, конкурентоспособностью, инновациями и государственно-частным партнёрством, что соответствует приоритету роста инвестиций и деловой активности.",
+        "evidence_indices": [
+          0,
+          8,
+          14
+        ]
+      },
+      {
+        "variable_id": "external-domestic-resources__positive",
+        "status": "observed",
+        "value": 2,
+        "confidence": 0.5,
+        "support_type": "positive_manifestation",
+        "rationale": "Гатаре публично обозначал ожидание иностранных инвестиций (например, соглашение с ROSGEO), что свидетельствует о привлечении внешнего финансирования и партнёров.",
+        "evidence_indices": [
+          2,
+          9
+        ]
+      },
+      {
+        "variable_id": "external-domestic-resources__negative",
+        "status": "unknown",
+        "value": null,
+        "confidence": 0,
+        "support_type": "unknown",
+        "rationale": "Нет прямых заявлений о приоритете внутреннего финансирования или снижении зависимости от внешних поступлений.",
+        "evidence_indices": []
+      },
+      {
+        "variable_id": "international-rules-autonomy__positive",
+        "status": "unknown",
+        "value": null,
+        "confidence": 0,
+        "support_type": "unknown",
+        "rationale": "Нет прямых предложений о закреплении международных обязательств или норм.",
+        "evidence_indices": []
+      },
+      {
+        "variable_id": "international-rules-autonomy__negative",
+        "status": "unknown",
+        "value": null,
+        "confidence": 0,
+        "support_type": "unknown",
+        "rationale": "Нет прямых заявлений о защите национальной самостоятельности решений или возражении внешнему навязыванию.",
+        "evidence_indices": []
+      },
+      {
+        "variable_id": "mediation-adversarial-communication__positive",
+        "status": "unknown",
+        "value": null,
+        "confidence": 0,
+        "support_type": "unknown",
+        "rationale": "Нет примеров посредничества или предложения согласовать интересы сторон в публичных заявлениях.",
+        "evidence_indices": []
+      },
+      {
+        "variable_id": "mediation-adversarial-communication__negative",
+        "status": "unknown",
+        "value": null,
+        "confidence": 0,
+        "support_type": "unknown",
+        "rationale": "Нет примеров публичного опровержения обвинений, спора с другой стороной или защиты собственного требования.",
+        "evidence_indices": []
+      }
+    ]
+  },
+  "model": "gpt-4.1",
+  "task": "independent-ratings-francis-gatare-0",
+  "at": "2026-10-15T17:30:54.529505+00:00",
+  "usage": {
+    "prompt_tokens": 6965,
+    "completion_tokens": 1331,
+    "total_tokens": 8296,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "audio_tokens": 0
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "audio_tokens": 0,
+      "accepted_prediction_tokens": 0,
+      "rejected_prediction_tokens": 0
+    }
+  },
+  "citations": [],
+  "system_fingerprint": "fp_801d3b7b5c",
+  "cache_key": "dd3a532950a6bf664f9281d485b8b891b790b74e67f146aeaaa9c6ff02a562a1"
+}

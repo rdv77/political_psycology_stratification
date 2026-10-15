@@ -1,0 +1,257 @@
+{
+  "data": {
+    "ratings": [
+      {
+        "variable_id": "programmatic-renewal__positive",
+        "status": "observed",
+        "value": 2,
+        "confidence": 0.7,
+        "support_type": "positive_manifestation",
+        "rationale": "В ряде выступлений Гатете призывает к реформе глобальной финансовой архитектуры, масштабированию внутренних ресурсов, новым стимулам для частного сектора и инновационным подходам к финансированию (например, зелёные и голубые облигации). Это свидетельствует о ясном ограниченном программном изменении существующего курса, но не о последовательной или определяющей черте.",
+        "evidence_indices": [
+          8,
+          9,
+          10,
+          15
+        ]
+      },
+      {
+        "variable_id": "programmatic-renewal__negative",
+        "status": "observed",
+        "value": 3,
+        "confidence": 0.8,
+        "support_type": "positive_manifestation",
+        "rationale": "Гатете в ряде выступлений акцентирует продолжение и развитие действующих интеграционных и экономических стратегий Африки, поддержку реализации протоколов Африканской зоны свободной торговли, укрепление существующих международных и региональных механизмов. Это подтверждает несколько последовательных эпизодов устойчивого публичного акцента на закреплении курса.",
+        "evidence_indices": [
+          1,
+          10,
+          11,
+          17
+        ]
+      },
+      {
+        "variable_id": "government-course-assessment__positive",
+        "status": "observed",
+        "value": 3,
+        "confidence": 0.8,
+        "support_type": "positive_manifestation",
+        "rationale": "Гатете в публичных выступлениях поддерживает действующий курс ЭКА ООН и африканских интеграционных инициатив, подчёркивает достижения и необходимость дальнейшего развития существующих программ.",
+        "evidence_indices": [
+          1,
+          10,
+          11
+        ]
+      },
+      {
+        "variable_id": "government-course-assessment__negative",
+        "status": "observed",
+        "value": 1,
+        "confidence": 0.5,
+        "support_type": "positive_manifestation",
+        "rationale": "В отдельных выступлениях Гатете указывает на недостаточность финансирования, высокую задолженность и необходимость реформ, что можно трактовать как единичное слабое проявление критики существующего порядка, но не как устойчивую публичную оппозицию.",
+        "evidence_indices": [
+          8,
+          9
+        ]
+      },
+      {
+        "variable_id": "participation-administrative-direction__positive",
+        "status": "observed",
+        "value": 2,
+        "confidence": 0.6,
+        "support_type": "positive_manifestation",
+        "rationale": "Гатете поддерживает расширение участия молодёжи и частного сектора в принятии решений, а также призывает к согласованному участию государств в международных процессах. Однако нет данных о конкретных процедурах общественного контроля или совместной выработке решений.",
+        "evidence_indices": [
+          11,
+          13
+        ]
+      },
+      {
+        "variable_id": "participation-administrative-direction__negative",
+        "status": "observed",
+        "value": 2,
+        "confidence": 0.6,
+        "support_type": "positive_manifestation",
+        "rationale": "В ряде случаев Гатете действует в рамках административного управления, стратегического руководства и координации исполнителей, что соответствует ограниченному проявлению административной постановки задач.",
+        "evidence_indices": [
+          0,
+          2,
+          5
+        ]
+      },
+      {
+        "variable_id": "argumentation-evidence-values__positive",
+        "status": "observed",
+        "value": 3,
+        "confidence": 0.8,
+        "support_type": "positive_manifestation",
+        "rationale": "Гатете регулярно использует данные, инструменты, расчёты и аргументацию через проверяемые результаты (например, упоминание инструментов ЭКА, статистики, экономических показателей, необходимости прозрачных систем).",
+        "evidence_indices": [
+          8,
+          9,
+          10
+        ]
+      },
+      {
+        "variable_id": "argumentation-evidence-values__negative",
+        "status": "observed",
+        "value": 2,
+        "confidence": 0.6,
+        "support_type": "positive_manifestation",
+        "rationale": "В ряде случаев Гатете обосновывает решения через социальные права, коллективные интересы и ценности (например, образование как право человека, молодёжное лидерство как будущее Африки), что соответствует ясному ограниченному проявлению.",
+        "evidence_indices": [
+          8,
+          13
+        ]
+      },
+      {
+        "variable_id": "market-state-instruments__positive",
+        "status": "observed",
+        "value": 3,
+        "confidence": 0.8,
+        "support_type": "positive_manifestation",
+        "rationale": "Гатете неоднократно призывает к расширению участия частного сектора, привлечению инвестиций, развитию частных инициатив и смешанного финансирования.",
+        "evidence_indices": [
+          7,
+          8,
+          9,
+          10,
+          11
+        ]
+      },
+      {
+        "variable_id": "market-state-instruments__negative",
+        "status": "observed",
+        "value": 2,
+        "confidence": 0.6,
+        "support_type": "positive_manifestation",
+        "rationale": "В ряде выступлений Гатете поддерживает государственное стратегическое руководство, публичное планирование и координацию, но без акцента на обязательные ограничения или жёсткое регулирование.",
+        "evidence_indices": [
+          0,
+          2,
+          10
+        ]
+      },
+      {
+        "variable_id": "accessibility-growth-priorities__positive",
+        "status": "observed",
+        "value": 2,
+        "confidence": 0.7,
+        "support_type": "positive_manifestation",
+        "rationale": "Гатете подчёркивает приоритет доступности образования, инфраструктуры и базовых услуг, но основной акцент делает на инвестициях и росте.",
+        "evidence_indices": [
+          8,
+          15
+        ]
+      },
+      {
+        "variable_id": "accessibility-growth-priorities__negative",
+        "status": "observed",
+        "value": 3,
+        "confidence": 0.8,
+        "support_type": "positive_manifestation",
+        "rationale": "В ряде выступлений Гатете акцентирует рост инвестиций, конкурентоспособности, развитие рынков капитала и деловой активности как ключевые приоритеты.",
+        "evidence_indices": [
+          7,
+          9,
+          10,
+          11
+        ]
+      },
+      {
+        "variable_id": "external-domestic-resources__positive",
+        "status": "observed",
+        "value": 4,
+        "confidence": 0.9,
+        "support_type": "positive_manifestation",
+        "rationale": "Гатете последовательно и многократно выступает за привлечение внешнего финансирования, международных партнёров, реформу глобальной финансовой архитектуры и использование специальных прав заимствования.",
+        "evidence_indices": [
+          8,
+          9,
+          10,
+          11
+        ]
+      },
+      {
+        "variable_id": "external-domestic-resources__negative",
+        "status": "observed",
+        "value": 2,
+        "confidence": 0.7,
+        "support_type": "positive_manifestation",
+        "rationale": "Гатете также призывает к мобилизации внутренних ресурсов, выпуску облигаций в местной валюте и развитию внутренних рынков капитала, но это не является определяющей чертой.",
+        "evidence_indices": [
+          9,
+          10
+        ]
+      },
+      {
+        "variable_id": "international-rules-autonomy__positive",
+        "status": "observed",
+        "value": 3,
+        "confidence": 0.8,
+        "support_type": "positive_manifestation",
+        "rationale": "Гатете поддерживает закрепление международных обязательств, реализацию протоколов Африканской зоны свободной торговли, реформу глобальных правил и участие в многосторонних механизмах.",
+        "evidence_indices": [
+          10,
+          11,
+          15
+        ]
+      },
+      {
+        "variable_id": "international-rules-autonomy__negative",
+        "status": "observed",
+        "value": 1,
+        "confidence": 0.5,
+        "support_type": "positive_manifestation",
+        "rationale": "В отдельных случаях Гатете защищает самостоятельность решений (например, в ситуации с обвинениями ДРК), но это единичное проявление, не определяющее публичный профиль.",
+        "evidence_indices": [
+          12
+        ]
+      },
+      {
+        "variable_id": "mediation-adversarial-communication__positive",
+        "status": "observed",
+        "value": 2,
+        "confidence": 0.7,
+        "support_type": "positive_manifestation",
+        "rationale": "Гатете призывает к переговорам, согласованию интересов, международной координации и посредничеству в ряде случаев, но не делает это определяющей чертой.",
+        "evidence_indices": [
+          11,
+          12
+        ]
+      },
+      {
+        "variable_id": "mediation-adversarial-communication__negative",
+        "status": "observed",
+        "value": 1,
+        "confidence": 0.5,
+        "support_type": "positive_manifestation",
+        "rationale": "В единичном случае Гатете публично опровергает обвинения и защищает позицию своей стороны (эпизод с ДРК), что соответствует слабому проявлению полемического стиля.",
+        "evidence_indices": [
+          12
+        ]
+      }
+    ]
+  },
+  "model": "gpt-4.1",
+  "task": "independent-ratings-claver-gatete-0",
+  "at": "2026-10-15T17:32:22.266128+00:00",
+  "usage": {
+    "prompt_tokens": 7909,
+    "completion_tokens": 1699,
+    "total_tokens": 9608,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "audio_tokens": 0
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "audio_tokens": 0,
+      "accepted_prediction_tokens": 0,
+      "rejected_prediction_tokens": 0
+    }
+  },
+  "citations": [],
+  "system_fingerprint": "fp_801d3b7b5c",
+  "cache_key": "20eceeaefd8dca7b2dfef87f20423e5a7bb8d2241cca99187c0083642b608314"
+}

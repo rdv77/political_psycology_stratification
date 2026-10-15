@@ -1,0 +1,39 @@
+{
+  "at": "2026-10-15T18:09:41.533536+00:00",
+  "before_fingerprint": "0bb475012f9bf45ab4e21043e8914375417c36fd3d6ef7adda83a0c384fa03d5",
+  "after_fingerprint": "98c4bd857e7fae7be749378db83556936f2f2b542b4d2e4d1415e7ee6b22a802",
+  "numerical_changes": [
+    {
+      "object_id": "claver-gatete",
+      "scale_id": "market-state-instruments",
+      "pole": "negative",
+      "before": 2,
+      "after": 1,
+      "reason": "Узкое публичное предложение цифровизировать налоговое администрирование и бороться с незаконными финансовыми потоками. Это единичное проявление государственного надзора; общее расширение обязательных рыночных правил или публичный план не установлены. Поэтому1, без вывода об общей ориентации на госконтроль."
+    }
+  ],
+  "source_warnings": [
+    {
+      "object_id": "alvera-mukabaramba",
+      "evidence_indices": [
+        10
+      ],
+      "source_url": "https://www.minaloc.gov.rw/news-detail/nyundo-citizens-urged-to-allow-families-to-benefit-from-their-hard-work-income",
+      "decision": "pending_date_verification",
+      "reason": "Полный первичный текст не показывает дату и называет Мукабарамбу государственным министром социальных вопросов, её прежней ролью до 2019, тогда как досье даёт 15.12.2025. Точный день и принадлежность окну не установлены. В этом дополнении не используется; канонический факт не редактировался.",
+      "eligibility": "pending_date_verification",
+      "future_grading_action": "Do not grade from this fact until event date within study window is verified; current cells unchanged."
+    },
+    {
+      "object_id": "emmanuel-ugirashebuja",
+      "evidence_indices": [
+        11
+      ],
+      "source_url": "https://www.minijust.gov.rw/news-detail/rwanda-hosts-africas-attorneys-general-forum-on-strengthening-public-private-partnerships-for-development",
+      "decision": "correct_period_metadata",
+      "actual_period": "2026-05-05/2026-05-07",
+      "reason": "Полный первичный MINIJUST-текст прямо датирует форум 5–7 мая 2026, а текущий факт 11 даёт 25.09.2026 (эта дата встречается в ленте других новостей). Событие остаётся внутри окна; само по себе исправление даты не даёт новой оценки и в этом дополнении не меняет существующие ячейки."
+    }
+  ],
+  "note": "The changed variable is outside the retained8; factor matrix and all FA results remain numerically identical."
+}

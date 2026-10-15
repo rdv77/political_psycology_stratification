@@ -1,0 +1,1455 @@
+{
+  "version": 1,
+  "status": "completed",
+  "checked_objects": [
+    "ines-mpambara",
+    "valentine-uwamariya",
+    "jeanne-darc-mujawamariya",
+    "gerardine-mukeshimana",
+    "ildephonse-musafiri",
+    "jean-claude-musabyimana",
+    "jean-damascene-bizimana",
+    "clare-akamanzi",
+    "francis-gatare",
+    "gertrude-kazarwa",
+    "donatille-mukabalisa",
+    "francois-xavier-kalinda",
+    "augustin-iyamuremye",
+    "alvera-mukabaramba"
+  ],
+  "checked_observed_properties": 249,
+  "decisions": [
+    {
+      "object_id": "ines-mpambara",
+      "scale_id": "international-rules-autonomy",
+      "pole": "positive",
+      "decision": "reject",
+      "reason": "Факт 5 благодарит переживших насилие женщин за вклад в историческое развитие международного правосудия; прямого предложения закрепить обязательную международную норму или механизм в нём нет."
+    },
+    {
+      "object_id": "valentine-uwamariya",
+      "scale_id": "programmatic-renewal",
+      "pole": "negative",
+      "decision": "recode",
+      "reason": "Из индексов 14,16,24 только 24 прямо представляет продолжение принятого климатического курса. Перечень институтов и описание достижений не являются независимыми призывами продолжать курс; одно ясное ограниченное проявление.",
+      "evidence_indices": [
+        24
+      ],
+      "value": 2
+    },
+    {
+      "object_id": "valentine-uwamariya",
+      "scale_id": "government-course-assessment",
+      "pole": "positive",
+      "decision": "repair_indices",
+      "reason": "Оценку поддержки курса обосновывают содержательные сообщения о гендерных мерах 12,16,22; индекс 17 фиксирует главным образом официальное представительство и не добавляет самостоятельного проявления.",
+      "evidence_indices": [
+        12,
+        16,
+        22
+      ]
+    },
+    {
+      "object_id": "valentine-uwamariya",
+      "scale_id": "government-course-assessment",
+      "pole": "negative",
+      "decision": "flag",
+      "reason": "Индекс 20 относится к критике отставания образования в конкретной провинции, а не к отрицательной оценке всего государственного порядка. Допустим только этот ограниченный смысл слабого значения 1."
+    },
+    {
+      "object_id": "valentine-uwamariya",
+      "scale_id": "participation-administrative-direction",
+      "pole": "positive",
+      "decision": "repair_indices",
+      "reason": "Прямое приглашение заинтересованных групп участвовать в подготовке решения есть в 23; инклюзивность климатических действий в 5 без механизма совместного решения недостаточна.",
+      "evidence_indices": [
+        23
+      ]
+    },
+    {
+      "object_id": "valentine-uwamariya",
+      "scale_id": "argumentation-evidence-values",
+      "pole": "positive",
+      "decision": "repair_indices",
+      "reason": "Индекс 12 содержит конкретный количественный аргумент о 30%-ной квоте. В 8 перечислены причины загрязнения без данных, а 16 пересказывает направления изменений без самих расчётов.",
+      "evidence_indices": [
+        12
+      ]
+    },
+    {
+      "object_id": "valentine-uwamariya",
+      "scale_id": "market-state-instruments",
+      "pole": "positive",
+      "decision": "flag",
+      "reason": "Индексы 13,16 отражают участие частного сектора в гендерных программах, а не общее предпочтение приватизации или частного управления. Сохранять только узкую трактовку поддержки частной активности женщин."
+    },
+    {
+      "object_id": "valentine-uwamariya",
+      "scale_id": "market-state-instruments",
+      "pole": "negative",
+      "decision": "repair_indices",
+      "reason": "Обязательное правило прямо описано в 12 — квота и учёт женщин при выдвижении. Перечень учреждений 14 сам по себе не доказывает расширения обязательных правил.",
+      "evidence_indices": [
+        12
+      ]
+    },
+    {
+      "object_id": "valentine-uwamariya",
+      "scale_id": "accessibility-growth-priorities",
+      "pole": "positive",
+      "decision": "repair_indices",
+      "reason": "Конкретные механизмы доступа к образованию и цифровой инфраструктуре есть в 18,22. Доступ к выборным должностям 12 относится к другой шкале.",
+      "evidence_indices": [
+        18,
+        22
+      ]
+    },
+    {
+      "object_id": "valentine-uwamariya",
+      "scale_id": "accessibility-growth-priorities",
+      "pole": "negative",
+      "decision": "reject",
+      "reason": "Программа гендерной сертификации 13 и упоминание участия женщин в банках и экспортном сельском хозяйстве 16 не содержат явного приоритета роста инвестиций, конкурентоспособности или деловой активности как цели развития."
+    },
+    {
+      "object_id": "valentine-uwamariya",
+      "scale_id": "external-domestic-resources",
+      "pole": "positive",
+      "decision": "recode",
+      "reason": "Прямой призыв к внешнему климатическому финансированию есть в 4. Международный диалог 5,6 не доказывает ресурсного партнёрства; в 9 назван бюджет проекта без внешнего источника. Подтверждено одно ясное ограниченное проявление.",
+      "evidence_indices": [
+        4
+      ],
+      "value": 2
+    },
+    {
+      "object_id": "valentine-uwamariya",
+      "scale_id": "external-domestic-resources",
+      "pole": "negative",
+      "decision": "reject",
+      "reason": "Усиление национальных систем при внешнем климатическом финансировании 4 не означает опоры на внутренние доходы или снижения зависимости от внешних поступлений."
+    },
+    {
+      "object_id": "valentine-uwamariya",
+      "scale_id": "international-rules-autonomy",
+      "pole": "positive",
+      "decision": "recode",
+      "reason": "Индексы 1,2,10 описывают одну линию выступлений о юридически обязательном договоре по пластику наUNGA 79. Индекс 3 посвящён климатическому финансированию и сам не предлагает международного обязательства. Одно ограниченное проявление, не несколько независимых эпизодов.",
+      "evidence_indices": [
+        1,
+        2,
+        10
+      ],
+      "value": 2
+    },
+    {
+      "object_id": "valentine-uwamariya",
+      "scale_id": "international-rules-autonomy",
+      "pole": "negative",
+      "decision": "reject",
+      "reason": "Призыв укреплять национальные системы 4 в рамках международного финансирования не является защитой свободы национального решения от внешнего навязывания."
+    },
+    {
+      "object_id": "valentine-uwamariya",
+      "scale_id": "mediation-adversarial-communication",
+      "pole": "positive",
+      "decision": "repair_indices",
+      "reason": "Содержательное согласование раскрыто в сопредседательстве коалиции 2 и инклюзивных консультациях 23. Индексы 3,5,6 частично описывают выступление или дипломатическое присутствие и не добавляют самостоятельного посредничества.",
+      "evidence_indices": [
+        2,
+        23
+      ]
+    },
+    {
+      "object_id": "valentine-uwamariya",
+      "scale_id": "cultural-openness-national-transmission",
+      "pole": "positive",
+      "decision": "reject",
+      "reason": "Международные экологические коалиции, климатическое финансирование и консультации 0–6,23 не являются межкультурным обменом, языковым или культурным разнообразием."
+    },
+    {
+      "object_id": "valentine-uwamariya",
+      "scale_id": "prevention-crisis-response",
+      "pole": "positive",
+      "decision": "repair_indices",
+      "reason": "Конкретная мера повышения устойчивости к климатическому риску описана в 9. Консультации и общая исполнимость климатического плана 23,24 не доказывают отдельные профилактические механизмы.",
+      "evidence_indices": [
+        9
+      ]
+    },
+    {
+      "object_id": "valentine-uwamariya",
+      "scale_id": "electoral-access",
+      "pole": "positive",
+      "decision": "repair_indices",
+      "reason": "Расширение доступа женщин к выдвижению и выборам прямо описано в 12. Образовательное развитие девочек 22 не является доступом к выборной конкуренции.",
+      "evidence_indices": [
+        12
+      ]
+    },
+    {
+      "object_id": "valentine-uwamariya",
+      "scale_id": "institutional-autonomy-coordination",
+      "pole": "negative",
+      "decision": "repair_indices",
+      "reason": "Межсекторная координация работы всего правительства прямо названа в 24. Перечень учреждений 14 и возглавление делегации 17 сами по себе не показывают единую управленческую линию.",
+      "evidence_indices": [
+        24
+      ]
+    },
+    {
+      "object_id": "valentine-uwamariya",
+      "scale_id": "universal-targeted-provision",
+      "pole": "positive",
+      "decision": "reject",
+      "reason": "Индекс 18 прямо описывает адресную цифровую стратегию для женщин и девочек. Равный доступ внутри целевой группы не является единым стандартом для всего населения."
+    },
+    {
+      "object_id": "valentine-uwamariya",
+      "scale_id": "ecological-limits-resource-use",
+      "pole": "positive",
+      "decision": "recode",
+      "reason": "Прямое ограничение производства и обращения пластика подтверждено 1,2,10 в одном контекстеUNGA 79. Другие индексы относятся к климатическому финансированию, консультациям или восстановлению ландшафтов и не доказывают несколько независимых эпизодов усиления хозяйственных ограничений. Для точно подтверждённого свойства достаточно 2, значение 5 не обосновано.",
+      "evidence_indices": [
+        1,
+        2,
+        10
+      ],
+      "value": 2
+    },
+    {
+      "object_id": "valentine-uwamariya",
+      "scale_id": "problem-disclosure-reputation-defence",
+      "pole": "negative",
+      "decision": "reject",
+      "reason": "Индексы 7,12,13,17 показывают представительство и представление достижений, но не явную защиту внешнего образа от названного искажённого описания, как требует определение."
+    },
+    {
+      "object_id": "valentine-uwamariya",
+      "scale_id": "procedural-guarantees-enforcement",
+      "pole": "negative",
+      "decision": "reject",
+      "reason": "Индекс 19 требует не допускать нарушений экзаменационной процедуры, но не описывает применения санкции или конкретного принуждения. Требование соблюдать правила не подменяет правовой способ их принудительного исполнения."
+    },
+    {
+      "object_id": "jeanne-darc-mujawamariya",
+      "scale_id": "participation-administrative-direction",
+      "pole": "positive",
+      "decision": "reject",
+      "reason": "Индексы 13,19,21 призывают разные группы совместно восстанавливать природу; механизм участия в подготовке решений или проверке результатов не раскрыт. Коллективные действия не равны совместному решению."
+    },
+    {
+      "object_id": "jeanne-darc-mujawamariya",
+      "scale_id": "argumentation-evidence-values",
+      "pole": "positive",
+      "decision": "repair_indices",
+      "reason": "Конкретные количественные ориентиры 80% и 11 млрд есть в 1,9. Индекс 12 сообщает направление стратегии без самих данных или исследования.",
+      "evidence_indices": [
+        1,
+        9
+      ]
+    },
+    {
+      "object_id": "jeanne-darc-mujawamariya",
+      "scale_id": "accessibility-growth-priorities",
+      "pole": "negative",
+      "decision": "repair_indices",
+      "reason": "Индекс 9 прямо призывает к зелёным инвестициям и частному финансированию;23 описывает низкоуглеродную модель без конкретного роста инвестиций.",
+      "evidence_indices": [
+        9
+      ]
+    },
+    {
+      "object_id": "jeanne-darc-mujawamariya",
+      "scale_id": "external-domestic-resources",
+      "pole": "positive",
+      "decision": "repair_indices",
+      "reason": "Прямые финансовые предложения раскрыты в 9,15,16,17 и относятся кCOP 26 иStockholm+50. Меморандум 2 сам по себе не раскрывает ресурсного содержания.",
+      "evidence_indices": [
+        9,
+        15,
+        16,
+        17
+      ]
+    },
+    {
+      "object_id": "jeanne-darc-mujawamariya",
+      "scale_id": "international-rules-autonomy",
+      "pole": "positive",
+      "decision": "recode",
+      "reason": "Индексы 16,24,29 относятся к одному выступлениюStockholm+50 02.06.2022. Согласование национальных целей с глобальными приоритетами 26 не является новым обязательством. Одно ясное международно-правовое проявление оценивается 2.",
+      "evidence_indices": [
+        16,
+        24,
+        29
+      ],
+      "value": 2
+    },
+    {
+      "object_id": "jeanne-darc-mujawamariya",
+      "scale_id": "cultural-openness-national-transmission",
+      "pole": "positive",
+      "decision": "reject",
+      "reason": "Экологические соглашения, инвестиции и климатические партнёрства 2,3,9,26 не раскрывают культурно-гражданского обмена или разнообразия."
+    },
+    {
+      "object_id": "jeanne-darc-mujawamariya",
+      "scale_id": "problem-disclosure-reputation-defence",
+      "pole": "positive",
+      "decision": "repair_indices",
+      "reason": "Индексы 19,27 описывают одно выступление 05.06.2024 с признанием трудностей;13 пересказывает сходное содержание с другим годом, поэтому не принимается как независимый эпизод.",
+      "evidence_indices": [
+        19,
+        27
+      ]
+    },
+    {
+      "object_id": "jeanne-darc-mujawamariya",
+      "scale_id": "problem-disclosure-reputation-defence",
+      "pole": "negative",
+      "decision": "reject",
+      "reason": "Упоминание экологических достижений 13,19,27 не содержит явной защиты внешнего образа или опровержения названных искажённых описаний; обычное продвижение результатов не отвечает точному определению."
+    },
+    {
+      "object_id": "jeanne-darc-mujawamariya",
+      "scale_id": "procedural-guarantees-enforcement",
+      "pole": "positive",
+      "decision": "reject",
+      "reason": "Подотчётность климатических финансовых партнёрств 17,29 не раскрывает доступа к разбирательству, открытой правовой процедуре или обжалованию."
+    },
+    {
+      "object_id": "jeanne-darc-mujawamariya",
+      "scale_id": "prevention-crisis-response",
+      "pole": "positive",
+      "decision": "repair_indices",
+      "reason": "В 25 прямо связаны восстановление земель и будущая устойчивость к засухе.13 содержит сходный пересказ с несогласованной датировкой, поэтому не добавляет независимого подтверждения.",
+      "evidence_indices": [
+        25
+      ]
+    },
+    {
+      "object_id": "jeanne-darc-mujawamariya",
+      "scale_id": "institutional-autonomy-coordination",
+      "pole": "negative",
+      "decision": "reject",
+      "reason": "Индекс 10 перечисляет профессионализм, результативность, услуги и занятость после назначения. Он не раскрывает общей исполнительской цепочки или конкретного согласования приоритетов нескольких органов."
+    },
+    {
+      "object_id": "jeanne-darc-mujawamariya",
+      "scale_id": "universal-targeted-provision",
+      "pole": "negative",
+      "decision": "reject",
+      "reason": "Газовое оборудование 20 школам 11,14,20,30 — выборочный проект, но источник не обозначает эти школы недостаточно обеспеченной или исключённой группой. Само ограниченное число учреждений не доказывает адресную социальную помощь."
+    },
+    {
+      "object_id": "jeanne-darc-mujawamariya",
+      "scale_id": "ecological-limits-resource-use",
+      "pole": "positive",
+      "decision": "repair_indices",
+      "reason": "Конкретное обязательное регулирование пластика 16 и охрана/восстановление земель 25 относятся к разным эпизодам 2022 и 2024. Общие низкоуглеродные стратегии 12,18,23 не добавляют отдельных ограничений;13 имеет несогласованную датировку.",
+      "evidence_indices": [
+        16,
+        25
+      ]
+    },
+    {
+      "object_id": "gerardine-mukeshimana",
+      "scale_id": "programmatic-renewal",
+      "pole": "positive",
+      "decision": "reject",
+      "reason": "Индексы 0,1 описывают трансформацию и навыки без пересмотра конкретной программы;5 — ретроспективный профиль,11,20 — привлечение инвестиций. Индекс 2 сам признаёт неподтверждённую дату выступления, связанного с назначениями 31.05.2021. Явное персональное предложение изменить действующие правила в допустимом эпизоде не установлено."
+    },
+    {
+      "object_id": "gerardine-mukeshimana",
+      "scale_id": "programmatic-renewal",
+      "pole": "negative",
+      "decision": "reject",
+      "reason": "В 0 нет призыва продолжать уже принятый курс;5,7 — ретроспективные благоприятные описания работы отIFAD. Они не подменяют собственный призыв к продолжению курса."
+    },
+    {
+      "object_id": "gerardine-mukeshimana",
+      "scale_id": "government-course-assessment",
+      "pole": "positive",
+      "decision": "reject",
+      "reason": "Посещение объектов 0 и благоприятные биографические оценкиIFAD 5,7 не являются прямо высказанной ею оценкой действующего государственного курса."
+    },
+    {
+      "object_id": "gerardine-mukeshimana",
+      "scale_id": "participation-administrative-direction",
+      "pole": "positive",
+      "decision": "reject",
+      "reason": "Работа с фермерами 0, экономическое участие женщин 13, подготовка молодёжи 17 и обмен аграрными практиками 19 не раскрывают участия граждан в подготовке политического решения или проверке его результатов."
+    },
+    {
+      "object_id": "gerardine-mukeshimana",
+      "scale_id": "participation-administrative-direction",
+      "pole": "negative",
+      "decision": "reject",
+      "reason": "Посещение объектов 9 и открытие выставки 16 не доказывают постановки административных задач. Для обращения 2 прямо не подтверждена дата в окне; в нём упомянуты назначениямая 2021."
+    },
+    {
+      "object_id": "gerardine-mukeshimana",
+      "scale_id": "argumentation-evidence-values",
+      "pole": "positive",
+      "decision": "reject",
+      "reason": "Индексы 0,1,10 показывают научную инфраструктуру, образование и подготовку;5 — профиль. В 15 есть призыв к измеримым результатам, но сами данные или применение конкретного исследования не приведены;20 содержит общие приоритеты. Компетентность и пожелание измеримости не доказывают аргументации данными."
+    },
+    {
+      "object_id": "gerardine-mukeshimana",
+      "scale_id": "market-state-instruments",
+      "pole": "positive",
+      "decision": "recode",
+      "reason": "Прямая поддержка доступа молодых предпринимателей и предприятий женщин к финансированию есть в 15.4,5,14 ретроспективны без дат самих прежних действий;21 подтверждает приглашение на заседание без текста позиции. Подтверждено одно ясное ограниченное проявление.",
+      "evidence_indices": [
+        15
+      ],
+      "value": 2
+    },
+    {
+      "object_id": "gerardine-mukeshimana",
+      "scale_id": "market-state-instruments",
+      "pole": "negative",
+      "decision": "reject",
+      "reason": "Посещение государственных объектов 0,9 не является предложением расширить планирование или обязательные правила. Дата обращения 2 не подтверждена в окне."
+    },
+    {
+      "object_id": "gerardine-mukeshimana",
+      "scale_id": "accessibility-growth-priorities",
+      "pole": "negative",
+      "decision": "repair_indices",
+      "reason": "Прямые текущие заявления об инвестициях и экономических результатах есть в 15,20.5 — ретроспективный профиль,11 в первую очередь описывает недостаточность государственных ресурсов.",
+      "evidence_indices": [
+        15,
+        20
+      ]
+    },
+    {
+      "object_id": "gerardine-mukeshimana",
+      "scale_id": "external-domestic-resources",
+      "pole": "positive",
+      "decision": "recode",
+      "reason": "Конкретный международный механизм финансирования 200 млн описан в 12.4,5,14 повторяют биографический профиль без дат прежних действий;11 не указывает внешнего донора,20 призывает к инвестициям без ясного происхождения средств. Для надёжного отдельного эпизода достаточно 2.",
+      "evidence_indices": [
+        12
+      ],
+      "value": 2
+    },
+    {
+      "object_id": "gerardine-mukeshimana",
+      "scale_id": "external-domestic-resources",
+      "pole": "negative",
+      "decision": "reject",
+      "reason": "Внутренняя подготовка кадров 1,8 не является стратегией внутренних доходов или снижения зависимости от внешних поступлений."
+    },
+    {
+      "object_id": "gerardine-mukeshimana",
+      "scale_id": "international-rules-autonomy",
+      "pole": "positive",
+      "decision": "reject",
+      "reason": "Практическая реализация климатического финансирования 12, обмен опытом 19 и инвестиционные партнёрства 20 не содержат прямого предложения обязательной международной нормы, договора или правового механизма."
+    },
+    {
+      "object_id": "gerardine-mukeshimana",
+      "scale_id": "international-rules-autonomy",
+      "pole": "negative",
+      "decision": "reject",
+      "reason": "Адаптация практических решений к местным условиям 19 не является защитой свободы национального решения от внешнего навязывания."
+    },
+    {
+      "object_id": "gerardine-mukeshimana",
+      "scale_id": "mediation-adversarial-communication",
+      "pole": "positive",
+      "decision": "reject",
+      "reason": "В 19,20 предлагаются обмен практиками и инвестиционные партнёрства, но не раскрыты согласование интересов сторон, переговоры или посредничество."
+    },
+    {
+      "object_id": "gerardine-mukeshimana",
+      "scale_id": "cultural-openness-national-transmission",
+      "pole": "positive",
+      "decision": "reject",
+      "reason": "Подготовка аграрных кадров 1,8 и обмен хозяйственными решениями 19,20 относятся к отраслевым навыкам, а не к культурно-гражданскому обмену или разнообразию."
+    },
+    {
+      "object_id": "gerardine-mukeshimana",
+      "scale_id": "prevention-crisis-response",
+      "pole": "positive",
+      "decision": "repair_indices",
+      "reason": "Конкретный механизм адаптационного финансирования 12 направлен на снижение климатического риска. Образование 1,8 и общий призыв к устойчивым инвестициям 20 сами по себе профилактическую стратегию не устанавливают.",
+      "evidence_indices": [
+        12
+      ]
+    },
+    {
+      "object_id": "gerardine-mukeshimana",
+      "scale_id": "institutional-autonomy-coordination",
+      "pole": "negative",
+      "decision": "reject",
+      "reason": "Биографический профиль 4 и приглашение на заседаниеIFAD 21 не показывают её позиции об общей исполнительской цепочке между институтами."
+    },
+    {
+      "object_id": "gerardine-mukeshimana",
+      "scale_id": "universal-targeted-provision",
+      "pole": "negative",
+      "decision": "repair_indices",
+      "reason": "Конкретные меры помощи обозначенным группам есть в 13,15,17: земля/услуги женщинам, финансирование малым предпринимателям и подготовка молодёжи. Общая ценностная декларация 18 без механизма не добавляет отдельного случая.",
+      "evidence_indices": [
+        13,
+        15,
+        17
+      ]
+    },
+    {
+      "object_id": "gerardine-mukeshimana",
+      "scale_id": "ecological-limits-resource-use",
+      "pole": "positive",
+      "decision": "reject",
+      "reason": "Климатическое финансирование 12 и общий призыв к устойчивым продовольственным системам 20 не содержат конкретной охраны/ограничения хозяйственной деятельности или экологического условия разрешения."
+    },
+    {
+      "object_id": "ildephonse-musafiri",
+      "scale_id": "programmatic-renewal",
+      "pole": "negative",
+      "decision": "reject",
+      "reason": "Индексы 13,14 описывают отраслевые приоритеты и достигнутый рост потребления молока, но не содержат явного призыва продолжить или закрепить уже принятый курс."
+    },
+    {
+      "object_id": "ildephonse-musafiri",
+      "scale_id": "government-course-assessment",
+      "pole": "positive",
+      "decision": "repair_indices",
+      "reason": "В 14 результат прямо представлен как достижение действующего курса.10 сообщает хозяйственное решение правительства без собственной оценки всего курса.",
+      "evidence_indices": [
+        14
+      ]
+    },
+    {
+      "object_id": "ildephonse-musafiri",
+      "scale_id": "government-course-assessment",
+      "pole": "negative",
+      "decision": "reject",
+      "reason": "Ноль прямо объяснён отсутствием эпизодов критики. Поддержка других мер и молчание не доказывают невыраженности данного свойства."
+    },
+    {
+      "object_id": "ildephonse-musafiri",
+      "scale_id": "participation-administrative-direction",
+      "pole": "negative",
+      "decision": "reject",
+      "reason": "Совет животноводам подготовить корм 3 не является административным поручением подчинённым; председательство на церемонии передачи полномочий 5 само по себе не показывает постановки задач или контроля исполнения."
+    },
+    {
+      "object_id": "ildephonse-musafiri",
+      "scale_id": "argumentation-evidence-values",
+      "pole": "positive",
+      "decision": "repair_indices",
+      "reason": "Количественный показатель молочного потребления 14 и стоимость решения с перечислением угроз 15 содержательно поддерживают обоснование результатами/ресурсами. Встреча об исследованиях 7 не раскрывает самих данных или применения исследования.",
+      "evidence_indices": [
+        14,
+        15
+      ]
+    },
+    {
+      "object_id": "ildephonse-musafiri",
+      "scale_id": "external-domestic-resources",
+      "pole": "positive",
+      "decision": "repair_indices",
+      "reason": "Межгосударственное инвестиционное соглашение 12 и предложение внешнему капиталу конкретных проектов 16 — самостоятельные ресурсные эпизоды. Посещение чайного проекта 4 само по себе не раскрывает новых финансовых обязательств.",
+      "evidence_indices": [
+        12,
+        16
+      ]
+    },
+    {
+      "object_id": "ildephonse-musafiri",
+      "scale_id": "cultural-openness-national-transmission",
+      "pole": "positive",
+      "decision": "reject",
+      "reason": "Обмен аграрными исследованиями и профессиональным обучением 12, а также деловые встречи 2,4,7 не раскрывают культурно-гражданского обмена и разнообразия."
+    },
+    {
+      "object_id": "ildephonse-musafiri",
+      "scale_id": "problem-disclosure-reputation-defence",
+      "pole": "negative",
+      "decision": "reject",
+      "reason": "Рост потребления молока 14 и похвала историческим лидерам 17 не являются явным опровержением искажённого внешнего образа, как требует определение; обычная похвала результатам не подменяет репутационную защиту."
+    },
+    {
+      "object_id": "ildephonse-musafiri",
+      "scale_id": "institutional-autonomy-coordination",
+      "pole": "negative",
+      "decision": "repair_indices",
+      "reason": "Общий план и межсекторная координация прямо раскрыты в 2,9. Церемония 5 и архивный эпизод 6 без ясного индивидуального действия не являются дополнительными основаниями.",
+      "evidence_indices": [
+        2,
+        9
+      ]
+    },
+    {
+      "object_id": "ildephonse-musafiri",
+      "scale_id": "taxation-burden-public-revenue",
+      "pole": "negative",
+      "decision": "reject",
+      "reason": "Использование государственных ресурсов на закупку риса 10 является расходованием, а не поддержкой увеличения сбора налоговых доходов."
+    },
+    {
+      "object_id": "ildephonse-musafiri",
+      "scale_id": "universal-targeted-provision",
+      "pole": "positive",
+      "decision": "reject",
+      "reason": "Индекс 10 описывает выкуп риса у нуждающихся в сбыте производителей и школьное питание; единый стандарт охвата всего населения не установлен."
+    },
+    {
+      "object_id": "ildephonse-musafiri",
+      "scale_id": "universal-targeted-provision",
+      "pole": "negative",
+      "decision": "repair_indices",
+      "reason": "В 10 есть конкретная помощь рисоводам без покупателей. Совет животноводам о кормах 3 сам по себе не описывает приоритетную материальную помощь недостаточно обеспеченной группе.",
+      "evidence_indices": [
+        10
+      ]
+    },
+    {
+      "object_id": "ildephonse-musafiri",
+      "scale_id": "ecological-limits-resource-use",
+      "pole": "positive",
+      "decision": "reject",
+      "reason": "В 11 прямо указано, что предложения усилить природоохранные ограничения нет. Ссылка на действующийBiosafetyAct не позволяет подразумевать такое усиление."
+    },
+    {
+      "object_id": "ildephonse-musafiri",
+      "scale_id": "ecological-limits-resource-use",
+      "pole": "negative",
+      "decision": "reject",
+      "reason": "Биотехнологии 11 и инвестиционные проекты 16 не показывают прямо предложенного расширения природопользования или ослабления экологических ограничений; общий рост аграрной экономики недостаточен."
+    },
+    {
+      "object_id": "jean-claude-musabyimana",
+      "scale_id": "participation-administrative-direction",
+      "pole": "positive",
+      "decision": "reject",
+      "reason": "Призыв к высокой явке 2 не раскрывает участия в подготовке решений или общественной проверке результатов. Определение отдельно исключает вывод о совместном решении из массовой явки."
+    },
+    {
+      "object_id": "jean-claude-musabyimana",
+      "scale_id": "participation-administrative-direction",
+      "pole": "negative",
+      "decision": "repair_indices",
+      "reason": "Конкретная межведомственная реализация и изменение управленческого инструмента отражены в 3,4,16. Утверждение смены имён 6,8 — рутинная должностная функция; церемония 1 не добавляет постановки задач.",
+      "evidence_indices": [
+        3,
+        4,
+        16
+      ]
+    },
+    {
+      "object_id": "jean-claude-musabyimana",
+      "scale_id": "market-state-instruments",
+      "pole": "positive",
+      "decision": "flag",
+      "reason": "Подтверждено только ограниченное участие частного сектора в конкретном межсекторном партнёрстве 17. Общий приоритет частного управления или приватизации из этого не следует."
+    },
+    {
+      "object_id": "jean-claude-musabyimana",
+      "scale_id": "accessibility-growth-priorities",
+      "pole": "negative",
+      "decision": "reject",
+      "reason": "Индекс 14 прямо отмечает, что самостоятельный приоритет инвестиционного роста не подтверждён. Улучшение положения трудоспособного населения не равно росту инвестиций и конкурентоспособности."
+    },
+    {
+      "object_id": "jean-claude-musabyimana",
+      "scale_id": "mediation-adversarial-communication",
+      "pole": "positive",
+      "decision": "flag",
+      "reason": "Индексы 5,19 описывают один призыв к мирной реинтеграции бывших комбатантов. Допустима только рамка поиска примирения, не утверждение о проведённых переговорах или посредническом соглашении."
+    },
+    {
+      "object_id": "jean-claude-musabyimana",
+      "scale_id": "problem-disclosure-reputation-defence",
+      "pole": "negative",
+      "decision": "reject",
+      "reason": "Похвала чистоте, безопасности и проведению выборов 18 не содержит защиты внешнего образа от названного искажённого описания."
+    },
+    {
+      "object_id": "jean-claude-musabyimana",
+      "scale_id": "procedural-guarantees-enforcement",
+      "pole": "positive",
+      "decision": "reject",
+      "reason": "Независимость избирательной комиссии 2,9 относится к автономии института; конкретный доступ к разбирательству или обжалованию не раскрыт."
+    },
+    {
+      "object_id": "jean-claude-musabyimana",
+      "scale_id": "electoral-access",
+      "pole": "positive",
+      "decision": "reject",
+      "reason": "Призывы увеличить явку и участие 2,9 не содержат снятия барьеров допуска кандидатов/избирателей или расширения конкуренции. Определение требует именно изменения доступа, а не высокой явки."
+    },
+    {
+      "object_id": "jean-claude-musabyimana",
+      "scale_id": "institutional-autonomy-coordination",
+      "pole": "negative",
+      "decision": "repair_indices",
+      "reason": "Межведомственная программа 3,4,12 показывает общие исполнительские приоритеты. Передача полномочий 1 сама по себе не является отдельным предложением общей цепочки управления.",
+      "evidence_indices": [
+        3,
+        4,
+        12
+      ]
+    },
+    {
+      "object_id": "jean-claude-musabyimana",
+      "scale_id": "universal-targeted-provision",
+      "pole": "positive",
+      "decision": "reject",
+      "reason": "Строительство жилья нуждающимся 3,12 и предложение сделать обогащённое питание доступнее 17 не устанавливают единых гарантий и стандартов охвата для всего населения."
+    },
+    {
+      "object_id": "jean-damascene-bizimana",
+      "scale_id": "programmatic-renewal",
+      "pole": "negative",
+      "decision": "flag",
+      "reason": "Повторяющиеся призывы хранить память и укреплять единство поддерживают преемственность именно мемориально-интеграционной политики. Они не свидетельствуют о поддержке всех направлений государственного курса; отсутствие предложений пересмотра не является самостоятельным основанием."
+    },
+    {
+      "object_id": "jean-damascene-bizimana",
+      "scale_id": "government-course-assessment",
+      "pole": "positive",
+      "decision": "recode",
+      "reason": "Прямая положительная оценка состояния национального единства есть в 18.0 описывает доклад,6,9 — форум и ценность единства без собственной оценки достижения курса. Подтверждено одно ясное ограниченное проявление.",
+      "evidence_indices": [
+        18
+      ],
+      "value": 2
+    },
+    {
+      "object_id": "jean-damascene-bizimana",
+      "scale_id": "participation-administrative-direction",
+      "pole": "negative",
+      "decision": "recode",
+      "reason": "Индекс 8 подтверждает запуск организованной государственной воспитательной программы.12 — участие в обсуждении,15 — правовая лекция; они не раскрывают самостоятельной постановки административных задач. Для одного управленческого эпизода достаточно 2.",
+      "evidence_indices": [
+        8
+      ],
+      "value": 2
+    },
+    {
+      "object_id": "jean-damascene-bizimana",
+      "scale_id": "argumentation-evidence-values",
+      "pole": "positive",
+      "decision": "repair_indices",
+      "reason": "Индекс 0 прямо связывает доклад с измеряемой динамикой единства.6 описывает общую консолидационную коммуникацию без данных или исследования.",
+      "evidence_indices": [
+        0
+      ]
+    },
+    {
+      "object_id": "jean-damascene-bizimana",
+      "scale_id": "market-state-instruments",
+      "pole": "negative",
+      "decision": "recode",
+      "reason": "Государственная организованная программа прямо наблюдается в 8. Дискуссия 12 и воспроизведение правовой обязанности 15 не показывают отдельных расширений планирования или правил. Одно ясное проявление 2.",
+      "evidence_indices": [
+        8
+      ],
+      "value": 2
+    },
+    {
+      "object_id": "jean-damascene-bizimana",
+      "scale_id": "international-rules-autonomy",
+      "pole": "negative",
+      "decision": "reject",
+      "reason": "Историческая рамка 12,15 не выражает свободы национального решения от внешнего навязывания. Само обоснование признаёт косвенный вывод, который определением не допускается."
+    },
+    {
+      "object_id": "jean-damascene-bizimana",
+      "scale_id": "cultural-openness-national-transmission",
+      "pole": "positive",
+      "decision": "reject",
+      "reason": "Просвещение о национальной истории 4,11,14 не является межкультурным обменом или культурным разнообразием."
+    },
+    {
+      "object_id": "jean-damascene-bizimana",
+      "scale_id": "problem-disclosure-reputation-defence",
+      "pole": "positive",
+      "decision": "repair_indices",
+      "reason": "В 18 прямо названы сохраняющиеся препятствия единству.0 сообщает об обзоре и измеряемой динамике, но не раскрывает конкретного недостатка.",
+      "evidence_indices": [
+        18
+      ]
+    },
+    {
+      "object_id": "jean-damascene-bizimana",
+      "scale_id": "problem-disclosure-reputation-defence",
+      "pole": "negative",
+      "decision": "recode",
+      "reason": "Прямое оспаривание отрицания установленного факта отражено в 7,12, которые описывают одно событие 04.12.2024.1,10,13 — память без отдельного опровержения;18 — оценка единства. Для узкого защитного эпизода 2, а не сильного повторяющегося 4.",
+      "evidence_indices": [
+        7,
+        12
+      ],
+      "value": 2
+    },
+    {
+      "object_id": "jean-damascene-bizimana",
+      "scale_id": "prevention-crisis-response",
+      "pole": "positive",
+      "decision": "repair_indices",
+      "reason": "Прямое предотвращение разделения/отрицания и геноцида есть в 14,15. Исцеление общин 4,11 относится к последствиям прошлого и само по себе не является профилактикой будущего риска.",
+      "evidence_indices": [
+        14,
+        15
+      ]
+    },
+    {
+      "object_id": "jean-damascene-bizimana",
+      "scale_id": "prevention-crisis-response",
+      "pole": "negative",
+      "decision": "reject",
+      "reason": "Лекция 15 воспроизводит общую обязанность предотвращать и наказывать геноцид, но не описывает оперативных действий по уже возникшему кризису."
+    },
+    {
+      "object_id": "jean-damascene-bizimana",
+      "scale_id": "institutional-autonomy-coordination",
+      "pole": "negative",
+      "decision": "reject",
+      "reason": "Дискуссии 7,12 и запуск воспитательной программы 8 не раскрывают отношений между органами, общей исполнительской цепочки или согласования приоритетов нескольких институтов."
+    },
+    {
+      "object_id": "clare-akamanzi",
+      "scale_id": "programmatic-renewal",
+      "pole": "negative",
+      "decision": "repair_indices",
+      "reason": "Продолжение созданной спортивно-деловой динамики прямо описано в 4,6,24 в двух эпизодах.15,28 хвалят модель развития, но не призывают продолжать уже принятый курс.",
+      "evidence_indices": [
+        4,
+        6,
+        24
+      ]
+    },
+    {
+      "object_id": "clare-akamanzi",
+      "scale_id": "government-course-assessment",
+      "pole": "positive",
+      "decision": "recode",
+      "reason": "Индексы 15,27,28,29 — разные фрагменты одной речи 17.12.2024, а не повторяющиеся оценки в независимых событиях. Это одно ясное ограниченное проявление поддержки модели развития.",
+      "evidence_indices": [
+        15,
+        27,
+        28,
+        29
+      ],
+      "value": 2
+    },
+    {
+      "object_id": "clare-akamanzi",
+      "scale_id": "participation-administrative-direction",
+      "pole": "positive",
+      "decision": "flag",
+      "reason": "Индекс 9 описывает согласование участников профессиональной спортивно-деловой платформы. Это не свидетельство передачи политических полномочий гражданам или независимого общественного контроля."
+    },
+    {
+      "object_id": "clare-akamanzi",
+      "scale_id": "participation-administrative-direction",
+      "pole": "negative",
+      "decision": "repair_indices",
+      "reason": "Конкретная управленческая цель 1000 площадок есть в 8. Описание автономииRDB 19 относится к устройству института, а не к отдельному поручению или контролю исполнителя.",
+      "evidence_indices": [
+        8
+      ]
+    },
+    {
+      "object_id": "clare-akamanzi",
+      "scale_id": "argumentation-evidence-values",
+      "pole": "positive",
+      "decision": "repair_indices",
+      "reason": "Прямое использование измеренных результатов раскрыто в 0 и 7.11 связывает спорт с экономическими эффектами без самих данных или исследования.",
+      "evidence_indices": [
+        0,
+        7
+      ]
+    },
+    {
+      "object_id": "clare-akamanzi",
+      "scale_id": "market-state-instruments",
+      "pole": "negative",
+      "decision": "reject",
+      "reason": "Индексы 18,19 фиксируют сохранённый президентский надзор на фоне расширения автономииRDB, но не предложение расширить государственное планирование, обязательные ограничения или надзор. Наличие государственного учреждения не доказывает этот полюс."
+    },
+    {
+      "object_id": "clare-akamanzi",
+      "scale_id": "external-domestic-resources",
+      "pole": "positive",
+      "decision": "repair_indices",
+      "reason": "Прямое привлечение иностранных инвесторов и условия зарубежного капитала есть в 0,1.5 — ретроспективный профиль,20 — культурно-деловая интеграция без конкретного внешнего ресурсного механизма.",
+      "evidence_indices": [
+        0,
+        1
+      ]
+    },
+    {
+      "object_id": "clare-akamanzi",
+      "scale_id": "external-domestic-resources",
+      "pole": "negative",
+      "decision": "reject",
+      "reason": "Упоминание внутренних инвестиций в биографическом профиле 5 не содержит стратегии внутренних доходов или сокращения зависимости от внешних поступлений; это прямо признано в rationale."
+    },
+    {
+      "object_id": "clare-akamanzi",
+      "scale_id": "international-rules-autonomy",
+      "pole": "positive",
+      "decision": "reject",
+      "reason": "Торговое сотрудничество 1 и интеграция через спорт 20 не являются предложением обязательной международной нормы, договора или общего правового механизма."
+    },
+    {
+      "object_id": "clare-akamanzi",
+      "scale_id": "cultural-openness-national-transmission",
+      "pole": "positive",
+      "decision": "repair_indices",
+      "reason": "Международная спортивная мобильность 8 и явно названная связь культуры Африки с внешним миром 20 содержательно поддерживают обмен. Деловой форум 1, коммерческие возможности 4 и координация организаций 9 сами по себе культурного разнообразия не доказывают.",
+      "evidence_indices": [
+        8,
+        20
+      ]
+    },
+    {
+      "object_id": "clare-akamanzi",
+      "scale_id": "problem-disclosure-reputation-defence",
+      "pole": "negative",
+      "decision": "reject",
+      "reason": "Индексы 0,1,4,7,11 продвигают результаты и возможности, но не опровергают названный искажённый внешний образ. Отсутствие упоминания проблем также не является основанием репутационной защиты."
+    },
+    {
+      "object_id": "clare-akamanzi",
+      "scale_id": "institutional-autonomy-coordination",
+      "pole": "positive",
+      "decision": "flag",
+      "reason": "Проект 17 расширяет административную, финансовую и кадровую автономию исполнительного агентства. Это ограниченная операционная самостоятельность, а не независимый политический контроль или разделение властей; президентский надзор сохранён."
+    },
+    {
+      "object_id": "clare-akamanzi",
+      "scale_id": "institutional-autonomy-coordination",
+      "pole": "negative",
+      "decision": "repair_indices",
+      "reason": "Сохранённый президентский надзор прямо описан в 18,19 как отношение между органами. Общее одобрение сильных институтов 28 не устанавливает исполнительской цепочки.",
+      "evidence_indices": [
+        18,
+        19
+      ]
+    },
+    {
+      "object_id": "clare-akamanzi",
+      "scale_id": "universal-targeted-provision",
+      "pole": "negative",
+      "decision": "reject",
+      "reason": "Детские лагеря/тренировки 10,21 и развитие спортивного таланта 26 — конкретные возрастные программы, но не помощь обозначенной недостаточно обеспеченной или исключённой группе. Само упоминание детей и молодёжи не устанавливает адресную социальную поддержку."
+    },
+    {
+      "object_id": "francis-gatare",
+      "scale_id": "programmatic-renewal",
+      "pole": "positive",
+      "decision": "flag",
+      "reason": "Число 1 можно отнести только к новому проекту профессиональной магистратуры и первому набору в 3. Модельное rationale ошибочно обсуждаетPPP, которых в этом индексе нет; оно не доказывает пересмотрPPP-курса."
+    },
+    {
+      "object_id": "francis-gatare",
+      "scale_id": "programmatic-renewal",
+      "pole": "negative",
+      "decision": "recode",
+      "reason": "Индексы 0,8,12 описывают одно заявление 28.09.2023 о закреплённом приоритетеPPP.14 поддерживает инвестиционный проект, но не содержит отдельного призыва продолжать курс. Для одного ограниченного проявления 2.",
+      "evidence_indices": [
+        0,
+        8,
+        12
+      ],
+      "value": 2
+    },
+    {
+      "object_id": "francis-gatare",
+      "scale_id": "participation-administrative-direction",
+      "pole": "positive",
+      "decision": "reject",
+      "reason": "Обещание слушать и учиться в новой команде 1,11 не является приглашением граждан или заинтересованных групп готовить решения и проверять результаты."
+    },
+    {
+      "object_id": "francis-gatare",
+      "scale_id": "market-state-instruments",
+      "pole": "negative",
+      "decision": "reject",
+      "reason": "Индекс 14 представляет запуск инновационного проекта без конкретного расширения государственного планирования, обязательных правил или надзора. Национальная значимость проекта сама по себе не является индикатором."
+    },
+    {
+      "object_id": "francis-gatare",
+      "scale_id": "external-domestic-resources",
+      "pole": "positive",
+      "decision": "reject",
+      "reason": "Индексы 2,9 повторяют сочинское соглашениеROSGEO 2019 года, уже исключённое прежним аудитом как вне окна. Растянутый period 2023–2026 в raw-досье не исправляет историческую дату события."
+    },
+    {
+      "object_id": "francis-gatare",
+      "scale_id": "institutional-autonomy-coordination",
+      "pole": "negative",
+      "decision": "reject",
+      "reason": "Готовность работать и учиться в команде 1,5,10,11 не раскрывает общую исполнительскую цепочку или конкретное согласование приоритетов нескольких институтов."
+    },
+    {
+      "object_id": "francis-gatare",
+      "scale_id": "ecological-limits-resource-use",
+      "pole": "negative",
+      "decision": "reject",
+      "reason": "Индексы 2,9 относятся к соглашениюROSGEO 2019 года вне исследуемого окна; поздняя/растянутая метка raw-досье не делает событие допустимым."
+    },
+    {
+      "object_id": "gertrude-kazarwa",
+      "scale_id": "programmatic-renewal",
+      "pole": "negative",
+      "decision": "repair_indices",
+      "reason": "Призыв продолжать действующие политики и программы прямо дан в 10. Гордость системой 15,18 является оценкой курса, а не отдельным призывом к его продолжению.",
+      "evidence_indices": [
+        10
+      ]
+    },
+    {
+      "object_id": "gertrude-kazarwa",
+      "scale_id": "government-course-assessment",
+      "pole": "positive",
+      "decision": "flag",
+      "reason": "Индексы 15 и 18 передают почти одинаковые формулировки с разными датами. Значение 2 допускается по одному ясному высказыванию, но эти пересказы нельзя считать автоматически независимыми событиями."
+    },
+    {
+      "object_id": "gertrude-kazarwa",
+      "scale_id": "government-course-assessment",
+      "pole": "negative",
+      "decision": "flag",
+      "reason": "Индексы 0,10 критикуют результаты гендерных программ; значение 1 относится только к этому ограниченному секторному смыслу, а не к отрицанию всего порядка."
+    },
+    {
+      "object_id": "gertrude-kazarwa",
+      "scale_id": "participation-administrative-direction",
+      "pole": "negative",
+      "decision": "repair_indices",
+      "reason": "Проверка ожидаемых результатов и корректирующие меры прямо названы в 9. Призывы фермерам увеличить производство 7,13 не являются поручением подчинённым, а конституционный надзор 11 относится к межинституциональному контролю.",
+      "evidence_indices": [
+        9
+      ]
+    },
+    {
+      "object_id": "gertrude-kazarwa",
+      "scale_id": "argumentation-evidence-values",
+      "pole": "positive",
+      "decision": "reject",
+      "reason": "Индексы 0,9,12 предлагают собирать сведения и проверять результаты, но не содержат самих данных или явного применения исследования при решении. Намерение проверять не подменяет наблюдаемую аргументацию данными."
+    },
+    {
+      "object_id": "gertrude-kazarwa",
+      "scale_id": "external-domestic-resources",
+      "pole": "positive",
+      "decision": "reject",
+      "reason": "Обсуждение цифровой трансформации сПРООН 2 и обмен опытом/торговые темы 17 не раскрывают конкретного финансирования или ресурсного партнёрства."
+    },
+    {
+      "object_id": "gertrude-kazarwa",
+      "scale_id": "mediation-adversarial-communication",
+      "pole": "positive",
+      "decision": "reject",
+      "reason": "Визит 17 выражает намерение учиться и поддерживать межпарламентские отношения, но не раскрывает согласования интересов сторон или посреднического механизма."
+    },
+    {
+      "object_id": "gertrude-kazarwa",
+      "scale_id": "cultural-openness-national-transmission",
+      "pole": "positive",
+      "decision": "reject",
+      "reason": "Обмен опытом парламентского управления 17 не является культурно-гражданским обменом или разнообразием; профессиональный международный контакт сам по себе не устанавливает этот признак."
+    },
+    {
+      "object_id": "gertrude-kazarwa",
+      "scale_id": "cultural-openness-national-transmission",
+      "pole": "negative",
+      "decision": "reject",
+      "reason": "Индекс 4 фиксирует присутствие на мемориале без содержания её призыва;19 посвящён коллективной ответственности и развитию женщин, но не сохранению национальных традиций или идентичности."
+    },
+    {
+      "object_id": "gertrude-kazarwa",
+      "scale_id": "problem-disclosure-reputation-defence",
+      "pole": "positive",
+      "decision": "recode",
+      "reason": "Явное признание сохраняющихся препятствий и неудач есть в 0,10, которые описывают один эпизод 06.03.2025.9,12 предлагают проверку и сбор информации, но не раскрывают конкретного уже установленного недостатка. Для одного ясного эпизода 2.",
+      "evidence_indices": [
+        0,
+        10
+      ],
+      "value": 2
+    },
+    {
+      "object_id": "gertrude-kazarwa",
+      "scale_id": "problem-disclosure-reputation-defence",
+      "pole": "negative",
+      "decision": "reject",
+      "reason": "Призыв гордиться выбранной системой 15,18 не содержит опровержения искажённого внешнего описания; позитивная оценка модели не равна репутационной защите по определению."
+    },
+    {
+      "object_id": "gertrude-kazarwa",
+      "scale_id": "procedural-guarantees-enforcement",
+      "pole": "positive",
+      "decision": "reject",
+      "reason": "Парламентский надзор 9,11,12 и возможность высказать обеспокоенность 15 не раскрывают доступа к разбирательству, открытой правовой процедуре или обжалованию."
+    },
+    {
+      "object_id": "gertrude-kazarwa",
+      "scale_id": "prevention-crisis-response",
+      "pole": "positive",
+      "decision": "reject",
+      "reason": "Проверка и корректировка обычных программ 9,10,12 не являются подготовкой к конкретному риску до ущерба; общего стремления улучшить исполнение недостаточно."
+    },
+    {
+      "object_id": "gertrude-kazarwa",
+      "scale_id": "universal-targeted-provision",
+      "pole": "negative",
+      "decision": "repair_indices",
+      "reason": "Индексы 0,9,10 предусматривают гендерные цели программ и бюджетного контроля.19 содержит общую ценностную декларацию без конкретной дополнительной меры для недостаточно обеспеченной группы.",
+      "evidence_indices": [
+        0,
+        9,
+        10
+      ]
+    },
+    {
+      "object_id": "gertrude-kazarwa",
+      "scale_id": "ecological-limits-resource-use",
+      "pole": "negative",
+      "decision": "reject",
+      "reason": "Рост сельскохозяйственного производства 7,13 не раскрывает расширения природопользования или ослабления экологических ограничений;13 прямо указывает этот предел."
+    },
+    {
+      "object_id": "donatille-mukabalisa",
+      "scale_id": "participation-administrative-direction",
+      "pole": "positive",
+      "decision": "reject",
+      "reason": "Индекс 7 призывает парламентариев осуществлять надзор, но не приглашает граждан и заинтересованные группы участвовать в подготовке решения или общественной проверке результатов."
+    },
+    {
+      "object_id": "donatille-mukabalisa",
+      "scale_id": "participation-administrative-direction",
+      "pole": "negative",
+      "decision": "repair_indices",
+      "reason": "Прямой служебный контроль хода работ описан в 11. Историко-ценностный призыв 1,6 к ответственности лидеров не раскрывает конкретного поручения или контроля исполнителя.",
+      "evidence_indices": [
+        11
+      ]
+    },
+    {
+      "object_id": "donatille-mukabalisa",
+      "scale_id": "argumentation-evidence-values",
+      "pole": "positive",
+      "decision": "reject",
+      "reason": "Индекс 7 призывает оценивать достигнутое и проблемы, но не приводит самих показателей или применения конкретного исследования. Требование проверяемости ещё не является наблюдаемым обоснованием через данные."
+    },
+    {
+      "object_id": "donatille-mukabalisa",
+      "scale_id": "procedural-guarantees-enforcement",
+      "pole": "positive",
+      "decision": "reject",
+      "reason": "Надзор парламента за гендерным бюджетированием 7 не раскрывает доступа к разбирательству, открытой правовой процедуре или обжалованию."
+    },
+    {
+      "object_id": "francois-xavier-kalinda",
+      "scale_id": "programmatic-renewal",
+      "pole": "negative",
+      "decision": "reject",
+      "reason": "Положительная оценка модели 10 и обещание исполнять обязанности после переизбрания 11 не являются прямым призывом продолжать или закреплять определённую уже принятую программу."
+    },
+    {
+      "object_id": "francois-xavier-kalinda",
+      "scale_id": "participation-administrative-direction",
+      "pole": "positive",
+      "decision": "repair_indices",
+      "reason": "В 9 действительно участвуют гражданское общество и другие заинтересованные стороны в выработке резолюций.11 обещает консультации сенаторов без механизма участия граждан.",
+      "evidence_indices": [
+        9
+      ]
+    },
+    {
+      "object_id": "francois-xavier-kalinda",
+      "scale_id": "mediation-adversarial-communication",
+      "pole": "positive",
+      "decision": "flag",
+      "reason": "Индексы 2,4,13,17,18 подтверждают повторяющуюся межпарламентскую диалоговую дипломатию. Содержание согласованных интересов и урегулированных споров не раскрыто, поэтому значение 3 нельзя пересказывать как доказательство посредничества в конфликте."
+    },
+    {
+      "object_id": "francois-xavier-kalinda",
+      "scale_id": "mediation-adversarial-communication",
+      "pole": "negative",
+      "decision": "reject",
+      "reason": "Индекс 19 предлагает региональное сотрудничество против угрозыFDLR, но не содержит полемического оспаривания другого описания, опровержения обвинений или спора с названной стороной."
+    },
+    {
+      "object_id": "francois-xavier-kalinda",
+      "scale_id": "cultural-openness-national-transmission",
+      "pole": "positive",
+      "decision": "repair_indices",
+      "reason": "В 2 прямо названы обмены между людьми в программе возглавляемой им делегации. Остальные индексы описывают парламентские контакты или темы форума без культурно-гражданского обмена.",
+      "evidence_indices": [
+        2
+      ]
+    },
+    {
+      "object_id": "francois-xavier-kalinda",
+      "scale_id": "problem-disclosure-reputation-defence",
+      "pole": "negative",
+      "decision": "reject",
+      "reason": "Похвала модели управления 10 и координация против угрозыFDLR 19 не являются явной защитой внешнего образа от конкретного искажённого описания."
+    },
+    {
+      "object_id": "francois-xavier-kalinda",
+      "scale_id": "procedural-guarantees-enforcement",
+      "pole": "negative",
+      "decision": "reject",
+      "reason": "Проверка антикоррупционных правил 9 и требование надлежащего использования ресурсов 15 не содержат применения санкций или конкретного принуждения."
+    },
+    {
+      "object_id": "francois-xavier-kalinda",
+      "scale_id": "institutional-autonomy-coordination",
+      "pole": "negative",
+      "decision": "reject",
+      "reason": "Общая ответственность за борьбу с коррупцией 9 и консультации сенаторов 11 не раскрывают общей исполнительской цепочки между органами или единых межведомственных приоритетов."
+    },
+    {
+      "object_id": "augustin-iyamuremye",
+      "scale_id": "programmatic-renewal",
+      "pole": "positive",
+      "decision": "flag",
+      "reason": "Индекс 14 содержит только короткое предложение актуализировать комиссии; значение 1 отражает слабое ограниченное проявление. Содержание реформы, механизм и последствия из фрагмента не устанавливаются."
+    },
+    {
+      "object_id": "augustin-iyamuremye",
+      "scale_id": "programmatic-renewal",
+      "pole": "negative",
+      "decision": "repair_indices",
+      "reason": "В 13 есть пожелание продолжать подобные международные встречи. Поздравление 4 и благодарность при уходе 6 сами по себе не являются призывом продолжать конкретную политику.",
+      "evidence_indices": [
+        13
+      ]
+    },
+    {
+      "object_id": "augustin-iyamuremye",
+      "scale_id": "government-course-assessment",
+      "pole": "positive",
+      "decision": "repair_indices",
+      "reason": "Положительная оценка усилий по проведениюCHOGM дана в 4,13. Благодарность за доверие при отставке 6 не доказывает оценки курса.",
+      "evidence_indices": [
+        4,
+        13
+      ]
+    },
+    {
+      "object_id": "augustin-iyamuremye",
+      "scale_id": "participation-administrative-direction",
+      "pole": "positive",
+      "decision": "reject",
+      "reason": "Создание специального сенатского комитета 8 является межинституциональным/служебным надзором, но не приглашением граждан и заинтересованных групп участвовать в решениях или общественном контроле."
+    },
+    {
+      "object_id": "augustin-iyamuremye",
+      "scale_id": "argumentation-evidence-values",
+      "pole": "negative",
+      "decision": "reject",
+      "reason": "Индекс 3 фиксирует только присутствие на Дне героев; собственного ценностного обоснования или риторики Иямуремье источник не приводит."
+    },
+    {
+      "object_id": "augustin-iyamuremye",
+      "scale_id": "market-state-instruments",
+      "pole": "positive",
+      "decision": "reject",
+      "reason": "В 21 нет частных операторов: предложено использовать опыт Ботсваны иЮАР и развивать экспорт. Модель добавила частный характер операторов, отсутствующий в факте."
+    },
+    {
+      "object_id": "augustin-iyamuremye",
+      "scale_id": "market-state-instruments",
+      "pole": "negative",
+      "decision": "reject",
+      "reason": "Инспекция низкой результативности государственного проекта 9,20 не является предложением расширить государственное планирование, обязательные правила или надзор; служебный контроль нельзя автоматически переносить в экономический инструмент."
+    },
+    {
+      "object_id": "augustin-iyamuremye",
+      "scale_id": "mediation-adversarial-communication",
+      "pole": "positive",
+      "decision": "reject",
+      "reason": "Обмен опытом парламентской работы иИКТ 10,19 не раскрывает согласования интересов сторон, переговоров или посредничества."
+    },
+    {
+      "object_id": "augustin-iyamuremye",
+      "scale_id": "cultural-openness-national-transmission",
+      "pole": "positive",
+      "decision": "reject",
+      "reason": "Международный обмен парламентскими и техническими практиками 10,19 не является культурно-гражданским обменом или разнообразием."
+    },
+    {
+      "object_id": "augustin-iyamuremye",
+      "scale_id": "procedural-guarantees-enforcement",
+      "pole": "positive",
+      "decision": "reject",
+      "reason": "Служебная оценка условий жизни и доклад сенатского комитета 8 не раскрывают доступа к разбирательству, открытой правовой процедуре или обжалованию."
+    },
+    {
+      "object_id": "augustin-iyamuremye",
+      "scale_id": "prevention-crisis-response",
+      "pole": "positive",
+      "decision": "reject",
+      "reason": "Возобновление исследований для исправления уже установленной низкой результативности проекта 21 не является подготовкой к конкретному будущему риску до ущерба."
+    },
+    {
+      "object_id": "alvera-mukabaramba",
+      "scale_id": "programmatic-renewal",
+      "pole": "negative",
+      "decision": "repair_indices",
+      "reason": "Призыв уделить усилия реализации действующей социальной защиты прямо дан в 12.10 обращён к собственным доходам семей и не содержит призыва продолжать конкретную государственную программу.",
+      "evidence_indices": [
+        12
+      ]
+    },
+    {
+      "object_id": "alvera-mukabaramba",
+      "scale_id": "government-course-assessment",
+      "pole": "positive",
+      "decision": "reject",
+      "reason": "В 12 дано поручение исполнителям приложить усилия, а в 15 объясняется важность регистрации актов. Прямой оценки достижений, проблем или политического курса власти в этих фрагментах нет."
+    },
+    {
+      "object_id": "alvera-mukabaramba",
+      "scale_id": "participation-administrative-direction",
+      "pole": "negative",
+      "decision": "recode",
+      "reason": "Поручение местным руководителям по реализации программ прямо есть в 12.10 обращён к ответственности семьи,15 объясняет значение регистрации без поручений. Для одного ясного административного эпизода 2.",
+      "evidence_indices": [
+        12
+      ],
+      "value": 2
+    },
+    {
+      "object_id": "alvera-mukabaramba",
+      "scale_id": "market-state-instruments",
+      "pole": "negative",
+      "decision": "repair_indices",
+      "reason": "Конкретное расширение обязательного надзора предлагается в 11. Поручение о реализации социальной защиты 12 не является отдельным расширением планирования или правил.",
+      "evidence_indices": [
+        11
+      ]
+    },
+    {
+      "object_id": "alvera-mukabaramba",
+      "scale_id": "accessibility-growth-priorities",
+      "pole": "positive",
+      "decision": "flag",
+      "reason": "Подтверждён только общий приоритет материального охвата через социальную защиту 12 и помощь малоимущим выжившим 14. Конкретные размеры, услуги и фактически достигнутый охват не приведены."
+    },
+    {
+      "object_id": "alvera-mukabaramba",
+      "scale_id": "mediation-adversarial-communication",
+      "pole": "positive",
+      "decision": "flag",
+      "reason": "Индексы 9,16 отражают нормативную поддержку политического разделения/распределения власти как способа уменьшить конфликт. Это не свидетельство проведённого ею посредничества или достигнутого соглашения."
+    },
+    {
+      "object_id": "alvera-mukabaramba",
+      "scale_id": "mediation-adversarial-communication",
+      "pole": "negative",
+      "decision": "reject",
+      "reason": "Обоснование прямо выводит 1 из отсутствия партийной полемики 17. Отсутствие конфронтации не является её положительным проявлением; обратное свойство не может заполнять этот полюс."
+    },
+    {
+      "object_id": "alvera-mukabaramba",
+      "scale_id": "cultural-openness-national-transmission",
+      "pole": "positive",
+      "decision": "reject",
+      "reason": "Индексы 2,18,19 подтверждают межпарламентские встречи и профессиональный обмен, но не культурно-гражданское разнообразие или персональную инициативу культурного обмена."
+    },
+    {
+      "object_id": "alvera-mukabaramba",
+      "scale_id": "procedural-guarantees-enforcement",
+      "pole": "positive",
+      "decision": "reject",
+      "reason": "Консультации граждан перед пересмотромUbudehe 13 — участие в подготовке решения, а не доступ к разбирательству, открытой правовой процедуре или обжалованию."
+    },
+    {
+      "object_id": "alvera-mukabaramba",
+      "scale_id": "institutional-autonomy-coordination",
+      "pole": "positive",
+      "decision": "reject",
+      "reason": "Политическое распределение власти и представительство групп 9,16 не являются автономией институтов, независимой проверкой или межинституциональным контролем; сам 9 оговаривает этот предел."
+    },
+    {
+      "object_id": "alvera-mukabaramba",
+      "scale_id": "institutional-autonomy-coordination",
+      "pole": "negative",
+      "decision": "reject",
+      "reason": "Отказ сенаторов от партийных линз 17 описывает межпартийный рабочий принцип внутри одного органа, а не общую исполнительскую цепочку отношений между институтами."
+    }
+  ],
+  "fact_exclusions": [
+    {
+      "object_id": "francis-gatare",
+      "evidence_file": "evidence/independent-dossier-francis-gatare.json",
+      "evidence_indices": [
+        2,
+        9
+      ],
+      "actual_period": "2019",
+      "reason": "Соглашение ROSGEO на сочинском Russia–Africa Forum относится к 2019 году, что установлено прежним source-audit. Растянутый period 2023–2026 в raw-досье ошибочно пропускает эпизод через формальный фильтр; не использовать эти факты для будущего оценивания."
+    }
+  ],
+  "input_sha256": {
+    "studies/rwanda-politicians-2021-2026/evidence/independent-ratings-ines-mpambara.json": "48c6c31c89afe72bec8ceb235ff92c0c9d8f6019d5d6ed9d72d03b11a067cf10",
+    "studies/rwanda-politicians-2021-2026/evidence/independent-dossier-ines-mpambara.json": "fa8dc7b4651c0a53a9b33622253fa7259d0c7b1d141aa2418ce8e4f6ad18be17",
+    "studies/rwanda-politicians-2021-2026/evidence/independent-ratings-valentine-uwamariya.json": "ba27c9f37c91f44cf1ea98936c46be19532927b4572e988f0777f3536fe85434",
+    "studies/rwanda-politicians-2021-2026/evidence/independent-dossier-valentine-uwamariya.json": "26fbe68659bbe67b524fe80f019a086d1d82a112c858c49496300a4609748cbf",
+    "studies/rwanda-politicians-2021-2026/evidence/independent-ratings-jeanne-darc-mujawamariya.json": "0af3b3d9e2a5b75000963483b27b90dc771884e78f2bdccc6eb554d67fd0298d",
+    "studies/rwanda-politicians-2021-2026/evidence/independent-dossier-jeanne-darc-mujawamariya.json": "d84930062cd03ab013436d901c6c31ca5216393b376c3df8abe5338dc9846c24",
+    "studies/rwanda-politicians-2021-2026/evidence/independent-ratings-gerardine-mukeshimana.json": "9d18ff1cccde5e833ded216414989dd4690e35f0df51d7f5f4bbcdf524a51d4a",
+    "studies/rwanda-politicians-2021-2026/evidence/independent-dossier-gerardine-mukeshimana.json": "0c2760b962dec002552b685ec93853a15c179cdc47d38892c9c1835366936714",
+    "studies/rwanda-politicians-2021-2026/evidence/independent-ratings-ildephonse-musafiri.json": "d6ba88e27ac79f20be459f53da1c595001b700d7eee5db0e2288060abd9aac81",
+    "studies/rwanda-politicians-2021-2026/evidence/independent-dossier-ildephonse-musafiri.json": "8597a26d11344836c09ecbe1ebc9f74263b1ab2804625ca7345a0bd16ba84486",
+    "studies/rwanda-politicians-2021-2026/evidence/independent-ratings-jean-claude-musabyimana.json": "02b29fca4906aa9e792132b450d68c60742deae5a919bae7d639bb0d4c7128e1",
+    "studies/rwanda-politicians-2021-2026/evidence/independent-dossier-jean-claude-musabyimana.json": "877a7a8d585acf8cd9f748e722fa681f723936c75c4ef8f446544474e41f1ac2",
+    "studies/rwanda-politicians-2021-2026/evidence/independent-ratings-jean-damascene-bizimana.json": "450bda5aee90d7cafb3a36411cad798cab18eaff5e63ed7b258cc0c00d5f0caa",
+    "studies/rwanda-politicians-2021-2026/evidence/independent-dossier-jean-damascene-bizimana.json": "807abbdf2e35e4b0dd331febdf6919bb021bcf69742d14841a71dfb173da6051",
+    "studies/rwanda-politicians-2021-2026/evidence/independent-ratings-clare-akamanzi.json": "295e408484779b2b5fcdd0cc43ef36fbcf71db4397488c32a8b7f3f2db6d90cb",
+    "studies/rwanda-politicians-2021-2026/evidence/independent-dossier-clare-akamanzi.json": "47121c66a6c36bb79b74db8b0fba2994a2fe08ed562c64914d63e3f74806ac27",
+    "studies/rwanda-politicians-2021-2026/evidence/independent-ratings-francis-gatare.json": "20954393cf3e27437953e4ad410bbd56214c780320753c83e9b31c5450dbf734",
+    "studies/rwanda-politicians-2021-2026/evidence/independent-dossier-francis-gatare.json": "9dce68c33e9105e4837c4d65617bf546c07d0cdc7d64fcca89b18274f481324b",
+    "studies/rwanda-politicians-2021-2026/evidence/independent-ratings-gertrude-kazarwa.json": "4cb339944a408a1093b07ce9969025d3708248c34f631516fc75b94fcb84ab7c",
+    "studies/rwanda-politicians-2021-2026/evidence/independent-dossier-gertrude-kazarwa.json": "bc05b84a5f21132c199734f65e947164b66b4141d7f75afd0aec32273743d0ad",
+    "studies/rwanda-politicians-2021-2026/evidence/independent-ratings-donatille-mukabalisa.json": "ec4b3abd8e249474ac013fff000ad9262cd8b82c2694b2b30f7a7aad37fedc31",
+    "studies/rwanda-politicians-2021-2026/evidence/independent-dossier-donatille-mukabalisa.json": "93221990931f8cd20cfa94108fee3e5de80593006748711f4478c249db3257e6",
+    "studies/rwanda-politicians-2021-2026/evidence/independent-ratings-francois-xavier-kalinda.json": "717af87ca05757f67abec90d7dcd1f8d7c85450ed8b60f6ec7800e572eebb582",
+    "studies/rwanda-politicians-2021-2026/evidence/independent-dossier-francois-xavier-kalinda.json": "7371d88ebb11bc61e1f59ea6f81136610a8deab2006eff023738f7bbcec02652",
+    "studies/rwanda-politicians-2021-2026/evidence/independent-ratings-augustin-iyamuremye.json": "de575a25cbb3bc2acc6437a46a1b7a31c788e94f6c2fe27d17d6bfaa851a5d24",
+    "studies/rwanda-politicians-2021-2026/evidence/independent-dossier-augustin-iyamuremye.json": "2084e4d4e8855aa4e7c8e46ef2bc35d2d5ba2988ce8caf92a472d586b4563d72",
+    "studies/rwanda-politicians-2021-2026/evidence/independent-ratings-alvera-mukabaramba.json": "5fd9ba8304aa1c387450f5a35e1c9702a1151b1052f874ff6911426f9cd69727",
+    "studies/rwanda-politicians-2021-2026/evidence/independent-dossier-alvera-mukabaramba.json": "dc828797d5fe3ceaa8a0d3fcb0e7f4272988b28b40fbaea08bc5a134f0d207ee"
+  },
+  "scales_basis": "968e884171eb9cdb80c1fc2aa813e881359b746e2a01de4b034a953908d6cf0c",
+  "summary": {
+    "original_observed_properties": 249,
+    "decisions": {
+      "reject": 88,
+      "recode": 15,
+      "repair_indices": 44,
+      "flag": 14
+    },
+    "preserved_properties": 161,
+    "reviewed_retained_without_decision": 88,
+    "structural_error_properties": 0
+  },
+  "reviewer": "assistant_excerpt_consistency_review_not_independent_human_expert",
+  "scope": "Проверен каждый observed-полюс перечисленных 14 объектов по определению шкалы, отдельному обоснованию и точным индексированным выпискам. Канонические данные не изменены. Recode 1–2 — новая оценка при содержательном пересмотре по утверждённым якорям, требует сохранения исходного предложения при применении. Отсутствие решения означает проверен и сохранён.",
+  "limitations": [
+    "Проверка сохранённых выписок, без новых API-вызовов и без повторного чтения всех исходных страниц.",
+    "Неподтверждённый полюс отклоняется отдельно от подтверждённого противоположного; unknown не подменяется нулём.",
+    "Разные факты одного события не являются независимыми эпизодами; интенсивность 3+ требует повторяемости.",
+    "Служебное действие и нормативное высказывание не означают частного убеждения; служебная должность, присутствие и чужие оценки не заменяют прямого проявления."
+  ],
+  "recurring_semantic_errors": [
+    "Международные профессиональные/торговые контакты ошибочно превращались в культурно-гражданский обмен.",
+    "Парламентский надзор/консультации ошибочно превращались в доступ к разбирательству и обжалованию.",
+    "Бюджетные расходы ошибочно превращались в расширение сбора налоговых доходов.",
+    "Похвала достижениям ошибочно превращалась в опровержение искажённого внешнего образа.",
+    "Национальные системы, образование и местная адаптация ошибочно превращались во внутренние доходы или политический суверенитет."
+  ]
+}

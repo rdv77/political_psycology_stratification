@@ -1,0 +1,110 @@
+{
+  "data": {
+    "facts": [
+      {
+        "capacity": "Спикер Палаты депутатов Руанды",
+        "channel": "official_act",
+        "event_id": "kazarwa-mozambique-cooperation-2025-12-08",
+        "period": "2025-12-08",
+        "source_url": "https://www.parlamento.mz/?p=14248",
+        "text": "Во время официального визита в Мозамбик Казарва заявила о намерении учиться и обмениваться опытом с мозамбикским парламентом, назвала межпарламентские отношения опорой двустороннего сотрудничества и выделила безопасность, торговлю и управление. Она также связала торговлю, инвестиции, правосудие, окружающую среду и образование с возможностями Африканской континентальной зоны свободной торговли, а хорошее управление, ответственность и прозрачность — с устойчивым развитием и парламентским надзором.",
+        "topic_ids": [
+          "mediation-adversarial-communication__positive",
+          "external-domestic-resources__positive",
+          "international-rules-autonomy__positive",
+          "market-state-instruments__positive",
+          "institutional-autonomy-coordination__positive",
+          "ecological-limits-resource-use__positive"
+        ]
+      },
+      {
+        "capacity": "Спикер Палаты депутатов Руанды",
+        "channel": "public_statement",
+        "event_id": "kazarwa-democracy-technology-2024-10-31",
+        "period": "2024-10-31",
+        "source_url": "https://www.parliament.gov.rw/news-details/rwanda-celebrates-international-day-of-democracy",
+        "text": "На парламентской конференции ко Дню демократии Казарва призвала обеспечить каждому гражданину доступ к технологиям и заявила, что депутаты стремятся вовлекать граждан в инициативы развития и сохранять право высказывать обеспокоенность. Одновременно она призвала гордиться выбранной системой управления.",
+        "topic_ids": [
+          "accessibility-growth-priorities__positive",
+          "participation-administrative-direction__positive",
+          "government-course-assessment__positive",
+          "problem-disclosure-reputation-defence__negative"
+        ]
+      },
+      {
+        "capacity": "Спикер Палаты депутатов Руанды",
+        "channel": "public_statement",
+        "event_id": "kazarwa-women-development-2024-09-30",
+        "period": "2024-09-30",
+        "source_url": "https://taarifa.rw/2024/09/30/president-of-the-chamber-of-deputies-participates-in-23rd-general-assembly-of-the-national-womens-council/",
+        "text": "На 23-й Генеральной ассамблее Национального совета женщин Казарва связала развитие женщин с национальным развитием и призвала руководителей и родителей брать коллективную ответственность за общественные проблемы. Она подчеркнула необходимость ясных целей и сотрудничества для их достижения.",
+        "topic_ids": [
+          "accessibility-growth-priorities__positive",
+          "participation-administrative-direction__positive",
+          "programmatic-renewal__positive"
+        ]
+      },
+      {
+        "capacity": "Публично упоминаемая бывшая сенаторка и председатель парламентского комитета; источник не датирует отдельное высказывание в пределах требуемого периода",
+        "channel": "attributed_report",
+        "event_id": "kazarwa-government-course-assessment-undated",
+        "period": "дата в доступном материале не установлена; эпизод не может быть использован как датированное подтверждение",
+        "source_url": "https://paradise.rw/Kazarwa-Gertrude-Umuyobozi-Mushya-w-Umutwe-w-Abadepite-yahishuye-ko-yihebeye.html",
+        "text": "Материал передаёт положительную оценку Казарвой руководства Поля Кагаме и достигнутых Руандой преобразований, но доступный результат не устанавливает дату самого заявления. Поэтому эпизод приведён только как ограниченный материал и не засчитывается в требуемую датированную выборку.",
+        "topic_ids": [
+          "government-course-assessment__positive",
+          "programmatic-renewal__negative",
+          "problem-disclosure-reputation-defence__negative"
+        ]
+      }
+    ],
+    "limitations": "Доступные результаты поиска содержат только три дополнительных датированных эпизода, которые не дублируют явно перечисленные пользователем. Остальные найденные материалы либо повторяют уже указанные события, относятся к другим лицам, имеют дату обновления вместо даты события или не раскрывают личную позицию Казарвы. Поэтому нельзя добросовестно сформировать требуемые 18–24 эпизода без дополнительного поиска и проверки первичных документов. Материал от 2025-12-08 датирован будущим относительно текущей даты системы и находится внутри указанного пользователем интервала, но его следует отдельно перепроверить перед использованием в окончательной базе.",
+    "sources": [
+      {
+        "title": "Parliament of Mozambique: official visit of the Speaker of Rwanda’s Chamber of Deputies",
+        "url": "https://www.parlamento.mz/?p=14248"
+      },
+      {
+        "title": "Rwanda Parliament: International Day of Democracy conference",
+        "url": "https://www.parliament.gov.rw/news-details/rwanda-celebrates-international-day-of-democracy"
+      },
+      {
+        "title": "Taarifa: 23rd General Assembly of the National Women’s Council",
+        "url": "https://taarifa.rw/2024/09/30/president-of-the-chamber-of-deputies-participates-in-23rd-general-assembly-of-the-national-womens-council"
+      },
+      {
+        "title": "Paradise Rwanda: profile and attributed statements about Gertrude Kazarwa",
+        "url": "https://paradise.rw/Kazarwa-Gertrude-Umuyobozi-Mushya-w-Umutwe-w-Abadepite-yahishuye-ko-yihebeye.html"
+      }
+    ]
+  },
+  "model": "sonar-pro",
+  "task": "independent-retrieval-gertrude-kazarwa",
+  "at": "2026-10-15T17:22:34.803722+00:00",
+  "usage": {
+    "completion_tokens": 1319,
+    "cost": {
+      "input_tokens_cost": 0.0044599999999999996,
+      "output_tokens_cost": 0.00311,
+      "request_cost": 0.0025,
+      "total_cost": 0.01007
+    },
+    "prompt_tokens": 3338,
+    "search_context_size": "low",
+    "total_tokens": 4657
+  },
+  "citations": [
+    "https://www.parliament.gov.rw/news-details/mps-commit-to-further-promoting-gender-equality",
+    "https://www.parliament.gov.rw/read-more?category=0&page=34&q=",
+    "https://www.gov.rw/government/legislature/chamber-of-deputies",
+    "https://www.parliament.gov.rw/parliament/overview",
+    "https://www.parlamento.mz/?p=14248",
+    "https://www.parliament.gov.rw/home",
+    "https://www.migeprof.gov.rw/fileadmin/user_upload/Migeprof/Announcements/MIGEPROF_Newsletter_QI_2024-2025.pdf",
+    "https://paradise.rw/Kazarwa-Gertrude-Umuyobozi-Mushya-w-Umutwe-w-Abadepite-yahishuye-ko-yihebeye.html",
+    "https://www.parliament.gov.rw/news-details/rwanda-celebrates-international-day-of-democracy",
+    "https://taarifa.rw/2024/09/30/president-of-the-chamber-of-deputies-participates-in-23rd-general-assembly-of-the-national-womens-council/"
+  ],
+  "system_fingerprint": null,
+  "cache_key": "ab9d636b005544b97c8407b7708180276755d949649a4c842cfb44775b94f167"
+}

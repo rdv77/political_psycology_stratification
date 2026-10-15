@@ -1,0 +1,244 @@
+{
+  "data": {
+    "ratings": [
+      {
+        "variable_id": "programmatic-renewal__positive",
+        "status": "observed",
+        "value": 2,
+        "confidence": 0.7,
+        "support_type": "positive_manifestation",
+        "rationale": "Рубингиса неоднократно высказывался за модернизацию транспорта, обновление неформальных поселений, внедрение новых экологических и социальных программ (эпизоды 2, 16, 17, 27). Это фиксирует ясное ограниченное проявление программных изменений, но не устойчивую доминанту или радикальный пересмотр курса.",
+        "evidence_indices": [
+          2,
+          16,
+          17,
+          27
+        ]
+      },
+      {
+        "variable_id": "programmatic-renewal__negative",
+        "status": "observed",
+        "value": 2,
+        "confidence": 0.7,
+        "support_type": "positive_manifestation",
+        "rationale": "В ряде случаев Рубингиса акцентировал продолжение и закрепление действующих программ, например, в сотрудничестве с международными партнёрами по уже существующим направлениям (эпизоды 0, 6, 20). Это ограниченное проявление продолжения курса, но не его определяющая черта.",
+        "evidence_indices": [
+          0,
+          6,
+          20
+        ]
+      },
+      {
+        "variable_id": "government-course-assessment__positive",
+        "status": "observed",
+        "value": 2,
+        "confidence": 0.7,
+        "support_type": "positive_manifestation",
+        "rationale": "Рубингиса публично связывал успехи города и провинции с координацией администрации, благодарил партнёров за вклад в развитие, отмечал достижения в инфраструктуре и социальных программах (эпизоды 5, 19, 21). Это ограниченное, но явное проявление поддержки действующего курса.",
+        "evidence_indices": [
+          5,
+          19,
+          21
+        ]
+      },
+      {
+        "variable_id": "government-course-assessment__negative",
+        "status": "unknown",
+        "value": null,
+        "confidence": 0.5,
+        "support_type": "unknown",
+        "rationale": "Нет прямых эпизодов публичной критики действующего государственного курса в доступных материалах.",
+        "evidence_indices": []
+      },
+      {
+        "variable_id": "participation-administrative-direction__positive",
+        "status": "observed",
+        "value": 2,
+        "confidence": 0.7,
+        "support_type": "positive_manifestation",
+        "rationale": "Рубингиса подчёркивал важность взаимодействия с гражданами, СМИ и заинтересованными сторонами, а также предлагал платформы для обмена опытом (эпизоды 1, 17, 23). Это фиксирует ясное ограниченное проявление совместного обсуждения.",
+        "evidence_indices": [
+          1,
+          17,
+          23
+        ]
+      },
+      {
+        "variable_id": "participation-administrative-direction__negative",
+        "status": "observed",
+        "value": 2,
+        "confidence": 0.7,
+        "support_type": "positive_manifestation",
+        "rationale": "В ряде случаев отмечена административная постановка задач и контроль исполнения, например, через формализованные цели и коллективную ответственность (эпизоды 0, 18, 28). Это ограниченное проявление административного подхода.",
+        "evidence_indices": [
+          0,
+          18,
+          28
+        ]
+      },
+      {
+        "variable_id": "argumentation-evidence-values__positive",
+        "status": "observed",
+        "value": 2,
+        "confidence": 0.7,
+        "support_type": "positive_manifestation",
+        "rationale": "В ряде эпизодов Рубингиса обосновывал решения через данные (построенные дороги, охват услугами, экологические результаты), что фиксирует ограниченное проявление опоры на проверяемые результаты (эпизоды 20, 25, 26).",
+        "evidence_indices": [
+          20,
+          25,
+          26
+        ]
+      },
+      {
+        "variable_id": "argumentation-evidence-values__negative",
+        "status": "observed",
+        "value": 1,
+        "confidence": 0.6,
+        "support_type": "positive_manifestation",
+        "rationale": "В отдельных случаях использовались обращения к коллективным ценностям (общественный труд Umuganda, энтузиазм населения), но без устойчивого акцента на ценностной риторике (эпизоды 15, 30).",
+        "evidence_indices": [
+          15,
+          30
+        ]
+      },
+      {
+        "variable_id": "market-state-instruments__positive",
+        "status": "observed",
+        "value": 1,
+        "confidence": 0.6,
+        "support_type": "positive_manifestation",
+        "rationale": "Есть отдельные упоминания о вовлечении частных операторов и партнёров, однако основной акцент на частной инициативе не прослеживается (эпизоды 27, 17).",
+        "evidence_indices": [
+          27,
+          17
+        ]
+      },
+      {
+        "variable_id": "market-state-instruments__negative",
+        "status": "observed",
+        "value": 2,
+        "confidence": 0.7,
+        "support_type": "positive_manifestation",
+        "rationale": "Рубингиса поддерживал изъятие неосвоенных земель, административное планирование и контроль, что фиксирует ограниченное проявление расширения государственных инструментов (эпизоды 0, 18, 28).",
+        "evidence_indices": [
+          0,
+          18,
+          28
+        ]
+      },
+      {
+        "variable_id": "accessibility-growth-priorities__positive",
+        "status": "observed",
+        "value": 3,
+        "confidence": 0.8,
+        "support_type": "positive_manifestation",
+        "rationale": "Рубингиса неоднократно заявлял о приоритете расширения доступа к базовым услугам, особенно для детей, уличных торговцев, в рамках борьбы с бедностью и обновления поселений (эпизоды 6, 9, 21, 27). Это устойчивое проявление данного приоритета.",
+        "evidence_indices": [
+          6,
+          9,
+          21,
+          27
+        ]
+      },
+      {
+        "variable_id": "accessibility-growth-priorities__negative",
+        "status": "observed",
+        "value": 2,
+        "confidence": 0.7,
+        "support_type": "positive_manifestation",
+        "rationale": "В ряде случаев отмечался приоритет модернизации, роста и развития экономики, однако без доминирующего акцента на инвестициях и конкурентоспособности (эпизоды 2, 22, 16).",
+        "evidence_indices": [
+          2,
+          22,
+          16
+        ]
+      },
+      {
+        "variable_id": "external-domestic-resources__positive",
+        "status": "observed",
+        "value": 3,
+        "confidence": 0.8,
+        "support_type": "positive_manifestation",
+        "rationale": "Рубингиса регулярно участвовал в программах с международными организациями (Всемирный банк, ПРООН, Китай), что подтверждает устойчивое привлечение внешних ресурсов (эпизоды 6, 7, 14).",
+        "evidence_indices": [
+          6,
+          7,
+          14
+        ]
+      },
+      {
+        "variable_id": "external-domestic-resources__negative",
+        "status": "unknown",
+        "value": null,
+        "confidence": 0.5,
+        "support_type": "unknown",
+        "rationale": "Нет прямых заявлений о приоритете исключительно внутренних ресурсов или снижении зависимости от внешних поступлений.",
+        "evidence_indices": []
+      },
+      {
+        "variable_id": "international-rules-autonomy__positive",
+        "status": "observed",
+        "value": 2,
+        "confidence": 0.7,
+        "support_type": "positive_manifestation",
+        "rationale": "Рубингиса выступал за трансграничные механизмы и международное сотрудничество, что фиксирует ограниченное проявление закрепления международных обязательств (эпизоды 11, 14).",
+        "evidence_indices": [
+          11,
+          14
+        ]
+      },
+      {
+        "variable_id": "international-rules-autonomy__negative",
+        "status": "unknown",
+        "value": null,
+        "confidence": 0.5,
+        "support_type": "unknown",
+        "rationale": "Нет прямых заявлений о защите национальной самостоятельности решений или возражении против внешнего навязывания.",
+        "evidence_indices": []
+      },
+      {
+        "variable_id": "mediation-adversarial-communication__positive",
+        "status": "observed",
+        "value": 2,
+        "confidence": 0.7,
+        "support_type": "positive_manifestation",
+        "rationale": "Рубингиса предлагал платформы для обмена опытом, поддерживал согласование интересов и взаимодействие с разными сторонами (эпизоды 17, 11, 23). Это ограниченное проявление посреднической коммуникации.",
+        "evidence_indices": [
+          17,
+          11,
+          23
+        ]
+      },
+      {
+        "variable_id": "mediation-adversarial-communication__negative",
+        "status": "unknown",
+        "value": null,
+        "confidence": 0.5,
+        "support_type": "unknown",
+        "rationale": "Нет прямых эпизодов публичного оспаривания, защиты своей стороны или конфронтационной риторики.",
+        "evidence_indices": []
+      }
+    ]
+  },
+  "model": "gpt-4.1",
+  "task": "independent-ratings-pudence-rubingisa-0",
+  "at": "2026-10-15T17:31:29.161478+00:00",
+  "usage": {
+    "prompt_tokens": 9443,
+    "completion_tokens": 1717,
+    "total_tokens": 11160,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "audio_tokens": 0
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "audio_tokens": 0,
+      "accepted_prediction_tokens": 0,
+      "rejected_prediction_tokens": 0
+    }
+  },
+  "citations": [],
+  "system_fingerprint": "fp_801d3b7b5c",
+  "cache_key": "b1dc2fa27588bccaa54921a05e511947b39f21f50b481a163c21a8077919ac49"
+}

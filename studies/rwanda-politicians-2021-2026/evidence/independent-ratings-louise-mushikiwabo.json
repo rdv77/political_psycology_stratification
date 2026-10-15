@@ -1,0 +1,1777 @@
+[
+  {
+    "object_id": "louise-mushikiwabo",
+    "scale_id": "programmatic-renewal",
+    "pole_scores": {
+      "positive": {
+        "status": "observed",
+        "value": 2,
+        "confidence": 0.7,
+        "evidence_indices": [
+          6
+        ],
+        "source_urls": [
+          "https://www.assemblee-nationale.fr/dyn/opendata/CRCANR5L17S2024PO59047N003.html"
+        ],
+        "event_ids": [
+          "lm-oif-french-assembly-2024"
+        ],
+        "rationale": "В выступлении в Национальном собрании Франции Мушикивабо описала обновление политической и дипломатической деятельности МОФ, а также выступила за усиление политического измерения организации. Это фиксирует ясное ограниченное проявление программных изменений, но не устойчивый акцент на пересмотре всех приоритетов.",
+        "support_type": "positive_manifestation",
+        "provenance": {
+          "raw_response_file": "evidence/independent_responses/e1faa6fc33b18701f0351b03d2f117e8f05a858853e24563ea96fefd12822f00.json",
+          "model": "gpt-4.1",
+          "at": "2026-10-15T17:32:16.335735+00:00",
+          "cache_key": "e1faa6fc33b18701f0351b03d2f117e8f05a858853e24563ea96fefd12822f00",
+          "original_proposal": {
+            "variable_id": "programmatic-renewal__positive",
+            "status": "observed",
+            "value": 2,
+            "confidence": 0.7,
+            "support_type": "positive_manifestation",
+            "rationale": "В выступлении в Национальном собрании Франции Мушикивабо описала обновление политической и дипломатической деятельности МОФ, а также выступила за усиление политического измерения организации. Это фиксирует ясное ограниченное проявление программных изменений, но не устойчивый акцент на пересмотре всех приоритетов.",
+            "evidence_indices": [
+              6
+            ]
+          }
+        },
+        "evidence_file": "evidence/independent-dossier-louise-mushikiwabo.json",
+        "evidence_basis": "b21e90cd204397b9c91ff7c6ba97110314498bc7cbdf2a395c55461e88a0a17d"
+      },
+      "negative": {
+        "status": "observed",
+        "value": 2,
+        "confidence": 0.6,
+        "evidence_indices": [
+          0,
+          10
+        ],
+        "source_urls": [
+          "https://www.francophonie.org/louise-mushikiwabo-2894",
+          "https://www.francophonie.org/sites/default/files/2022-11/Sommet_xviii_Discours_SG_djerba_2022.pdf"
+        ],
+        "event_ids": [
+          "lm-oif-reelection-2022",
+          "mushikiwabo-2022-djerba-speech"
+        ],
+        "rationale": "Переизбрание на второй срок и выступления на саммитах сопровождались заявлениями о необходимости координации и продолжения работы МОФ, что отражает ограниченное проявление закрепления существующего курса, но не делает это определяющей чертой.",
+        "support_type": "positive_manifestation",
+        "provenance": {
+          "raw_response_file": "evidence/independent_responses/e1faa6fc33b18701f0351b03d2f117e8f05a858853e24563ea96fefd12822f00.json",
+          "model": "gpt-4.1",
+          "at": "2026-10-15T17:32:16.335735+00:00",
+          "cache_key": "e1faa6fc33b18701f0351b03d2f117e8f05a858853e24563ea96fefd12822f00",
+          "original_proposal": {
+            "variable_id": "programmatic-renewal__negative",
+            "status": "observed",
+            "value": 2,
+            "confidence": 0.6,
+            "support_type": "positive_manifestation",
+            "rationale": "Переизбрание на второй срок и выступления на саммитах сопровождались заявлениями о необходимости координации и продолжения работы МОФ, что отражает ограниченное проявление закрепления существующего курса, но не делает это определяющей чертой.",
+            "evidence_indices": [
+              0,
+              10
+            ]
+          }
+        },
+        "evidence_file": "evidence/independent-dossier-louise-mushikiwabo.json",
+        "evidence_basis": "b21e90cd204397b9c91ff7c6ba97110314498bc7cbdf2a395c55461e88a0a17d"
+      }
+    },
+    "positive": 2,
+    "negative": 2,
+    "value": null,
+    "status": "observed",
+    "difference": null,
+    "mass": null,
+    "measurement_model": "independent_poles",
+    "evidence_file": "evidence/independent-dossier-louise-mushikiwabo.json",
+    "evidence_basis": "b21e90cd204397b9c91ff7c6ba97110314498bc7cbdf2a395c55461e88a0a17d",
+    "at": "2026-10-15T17:32:27.509311+00:00",
+    "reason": "Каждое свойство оценивается независимо; разность и искусственное дополнение до пяти не вычисляются"
+  },
+  {
+    "object_id": "louise-mushikiwabo",
+    "scale_id": "government-course-assessment",
+    "pole_scores": {
+      "positive": {
+        "status": "unknown",
+        "value": null,
+        "confidence": 0,
+        "evidence_indices": [],
+        "source_urls": [],
+        "event_ids": [],
+        "rationale": "Нет прямых публичных оценок действующего государственного курса (любой страны) от имени Мушикивабо в исследуемый период.",
+        "support_type": "unknown",
+        "provenance": {
+          "raw_response_file": "evidence/independent_responses/e1faa6fc33b18701f0351b03d2f117e8f05a858853e24563ea96fefd12822f00.json",
+          "model": "gpt-4.1",
+          "at": "2026-10-15T17:32:16.335735+00:00",
+          "cache_key": "e1faa6fc33b18701f0351b03d2f117e8f05a858853e24563ea96fefd12822f00",
+          "original_proposal": {
+            "variable_id": "government-course-assessment__positive",
+            "status": "unknown",
+            "value": null,
+            "confidence": 0,
+            "support_type": "unknown",
+            "rationale": "Нет прямых публичных оценок действующего государственного курса (любой страны) от имени Мушикивабо в исследуемый период.",
+            "evidence_indices": []
+          }
+        },
+        "evidence_file": "evidence/independent-dossier-louise-mushikiwabo.json",
+        "evidence_basis": "b21e90cd204397b9c91ff7c6ba97110314498bc7cbdf2a395c55461e88a0a17d"
+      },
+      "negative": {
+        "status": "unknown",
+        "value": null,
+        "confidence": 0,
+        "evidence_indices": [],
+        "source_urls": [],
+        "event_ids": [],
+        "rationale": "Нет прямых публичных критических оценок государственного курса (любой страны) от имени Мушикивабо в исследуемый период.",
+        "support_type": "unknown",
+        "provenance": {
+          "raw_response_file": "evidence/independent_responses/e1faa6fc33b18701f0351b03d2f117e8f05a858853e24563ea96fefd12822f00.json",
+          "model": "gpt-4.1",
+          "at": "2026-10-15T17:32:16.335735+00:00",
+          "cache_key": "e1faa6fc33b18701f0351b03d2f117e8f05a858853e24563ea96fefd12822f00",
+          "original_proposal": {
+            "variable_id": "government-course-assessment__negative",
+            "status": "unknown",
+            "value": null,
+            "confidence": 0,
+            "support_type": "unknown",
+            "rationale": "Нет прямых публичных критических оценок государственного курса (любой страны) от имени Мушикивабо в исследуемый период.",
+            "evidence_indices": []
+          }
+        },
+        "evidence_file": "evidence/independent-dossier-louise-mushikiwabo.json",
+        "evidence_basis": "b21e90cd204397b9c91ff7c6ba97110314498bc7cbdf2a395c55461e88a0a17d"
+      }
+    },
+    "positive": null,
+    "negative": null,
+    "value": null,
+    "status": "unknown",
+    "difference": null,
+    "mass": null,
+    "measurement_model": "independent_poles",
+    "evidence_file": "evidence/independent-dossier-louise-mushikiwabo.json",
+    "evidence_basis": "b21e90cd204397b9c91ff7c6ba97110314498bc7cbdf2a395c55461e88a0a17d",
+    "at": "2026-10-15T17:32:27.509311+00:00",
+    "reason": "Каждое свойство оценивается независимо; разность и искусственное дополнение до пяти не вычисляются"
+  },
+  {
+    "object_id": "louise-mushikiwabo",
+    "scale_id": "participation-administrative-direction",
+    "pole_scores": {
+      "positive": {
+        "status": "observed",
+        "value": 3,
+        "confidence": 0.8,
+        "evidence_indices": [
+          7,
+          11
+        ],
+        "source_urls": [
+          "https://www.francophonie.org/haiti-louise-mushikiwabo-appelle-a-un-sursaut-mondial-8172",
+          "https://www.francophonie.org/131e-session-du-conseil-permanent-de-la-francophonie-8089"
+        ],
+        "event_ids": [
+          "lm-oif-haiti-2024-2025",
+          "mushikiwabo-2025-cpf-131"
+        ],
+        "rationale": "Создание консультативного комитета по Гаити и миссии для контактов с политическими и гражданскими участниками, а также призывы к диалогу и солидарности на сессиях МОФ, подтверждают несколько последовательных эпизодов совместного обсуждения и консультаций.",
+        "support_type": "positive_manifestation",
+        "provenance": {
+          "raw_response_file": "evidence/independent_responses/e1faa6fc33b18701f0351b03d2f117e8f05a858853e24563ea96fefd12822f00.json",
+          "model": "gpt-4.1",
+          "at": "2026-10-15T17:32:16.335735+00:00",
+          "cache_key": "e1faa6fc33b18701f0351b03d2f117e8f05a858853e24563ea96fefd12822f00",
+          "original_proposal": {
+            "variable_id": "participation-administrative-direction__positive",
+            "status": "observed",
+            "value": 3,
+            "confidence": 0.8,
+            "support_type": "positive_manifestation",
+            "rationale": "Создание консультативного комитета по Гаити и миссии для контактов с политическими и гражданскими участниками, а также призывы к диалогу и солидарности на сессиях МОФ, подтверждают несколько последовательных эпизодов совместного обсуждения и консультаций.",
+            "evidence_indices": [
+              7,
+              11
+            ]
+          }
+        },
+        "evidence_file": "evidence/independent-dossier-louise-mushikiwabo.json",
+        "evidence_basis": "b21e90cd204397b9c91ff7c6ba97110314498bc7cbdf2a395c55461e88a0a17d"
+      },
+      "negative": {
+        "status": "observed",
+        "value": 2,
+        "confidence": 0.6,
+        "evidence_indices": [
+          13,
+          11
+        ],
+        "source_urls": [
+          "https://www.francophonie.org/moldavie-declaration-preliminaire-de-la-mission-electorale-de-la-francophonie-8173",
+          "https://www.francophonie.org/131e-session-du-conseil-permanent-de-la-francophonie-8089"
+        ],
+        "event_ids": [
+          "mushikiwabo-2025-moldova-electoral-mission",
+          "mushikiwabo-2025-cpf-131"
+        ],
+        "rationale": "В ряде случаев (например, организация наблюдательной миссии в Молдове, председательство на сессиях МОФ) проявляется административная постановка задач и контроль исполнения, но без устойчивого доминирования этого подхода.",
+        "support_type": "positive_manifestation",
+        "provenance": {
+          "raw_response_file": "evidence/independent_responses/e1faa6fc33b18701f0351b03d2f117e8f05a858853e24563ea96fefd12822f00.json",
+          "model": "gpt-4.1",
+          "at": "2026-10-15T17:32:16.335735+00:00",
+          "cache_key": "e1faa6fc33b18701f0351b03d2f117e8f05a858853e24563ea96fefd12822f00",
+          "original_proposal": {
+            "variable_id": "participation-administrative-direction__negative",
+            "status": "observed",
+            "value": 2,
+            "confidence": 0.6,
+            "support_type": "positive_manifestation",
+            "rationale": "В ряде случаев (например, организация наблюдательной миссии в Молдове, председательство на сессиях МОФ) проявляется административная постановка задач и контроль исполнения, но без устойчивого доминирования этого подхода.",
+            "evidence_indices": [
+              13,
+              11
+            ]
+          }
+        },
+        "evidence_file": "evidence/independent-dossier-louise-mushikiwabo.json",
+        "evidence_basis": "b21e90cd204397b9c91ff7c6ba97110314498bc7cbdf2a395c55461e88a0a17d"
+      }
+    },
+    "positive": 3,
+    "negative": 2,
+    "value": null,
+    "status": "observed",
+    "difference": null,
+    "mass": null,
+    "measurement_model": "independent_poles",
+    "evidence_file": "evidence/independent-dossier-louise-mushikiwabo.json",
+    "evidence_basis": "b21e90cd204397b9c91ff7c6ba97110314498bc7cbdf2a395c55461e88a0a17d",
+    "at": "2026-10-15T17:32:27.509311+00:00",
+    "reason": "Каждое свойство оценивается независимо; разность и искусственное дополнение до пяти не вычисляются"
+  },
+  {
+    "object_id": "louise-mushikiwabo",
+    "scale_id": "argumentation-evidence-values",
+    "pole_scores": {
+      "positive": {
+        "status": "observed",
+        "value": 2,
+        "confidence": 0.6,
+        "evidence_indices": [
+          5,
+          10
+        ],
+        "source_urls": [
+          "https://actualite.cd/2024/07/10/louise-mushikiwabo-sur-la-guerre-dans-lest-de-la-rdc-il-faudrait-que-les-decisions",
+          "https://www.francophonie.org/sites/default/files/2022-11/Sommet_xviii_Discours_SG_djerba_2022.pdf"
+        ],
+        "event_ids": [
+          "lm-oif-drc-peace-2024",
+          "mushikiwabo-2022-djerba-speech"
+        ],
+        "rationale": "В публичных заявлениях Мушикивабо иногда ссылается на решения, принятые в рамках посреднических процессов, и на необходимость координации, что указывает на ограниченное использование данных и институциональных механизмов как аргумента.",
+        "support_type": "positive_manifestation",
+        "provenance": {
+          "raw_response_file": "evidence/independent_responses/e1faa6fc33b18701f0351b03d2f117e8f05a858853e24563ea96fefd12822f00.json",
+          "model": "gpt-4.1",
+          "at": "2026-10-15T17:32:16.335735+00:00",
+          "cache_key": "e1faa6fc33b18701f0351b03d2f117e8f05a858853e24563ea96fefd12822f00",
+          "original_proposal": {
+            "variable_id": "argumentation-evidence-values__positive",
+            "status": "observed",
+            "value": 2,
+            "confidence": 0.6,
+            "support_type": "positive_manifestation",
+            "rationale": "В публичных заявлениях Мушикивабо иногда ссылается на решения, принятые в рамках посреднических процессов, и на необходимость координации, что указывает на ограниченное использование данных и институциональных механизмов как аргумента.",
+            "evidence_indices": [
+              5,
+              10
+            ]
+          }
+        },
+        "evidence_file": "evidence/independent-dossier-louise-mushikiwabo.json",
+        "evidence_basis": "b21e90cd204397b9c91ff7c6ba97110314498bc7cbdf2a395c55461e88a0a17d"
+      },
+      "negative": {
+        "status": "observed",
+        "value": 3,
+        "confidence": 0.7,
+        "evidence_indices": [
+          11,
+          14,
+          6,
+          9
+        ],
+        "source_urls": [
+          "https://www.francophonie.org/131e-session-du-conseil-permanent-de-la-francophonie-8089",
+          "https://www.francophonie.org/la-secretaire-generale-condamne-la-tentative-de-coup-detat-au-benin-8293",
+          "https://www.assemblee-nationale.fr/dyn/opendata/CRCANR5L17S2024PO59047N003.html",
+          "https://www.francophonie.org/la-secretaire-generale-de-la-francophonie-demeure-extremement-preoccupee-par-la-persistance-de-2636"
+        ],
+        "event_ids": [
+          "mushikiwabo-2025-cpf-131",
+          "mushikiwabo-2025-benin-coup-condemnation",
+          "lm-oif-french-assembly-2024",
+          "mushikiwabo-oif-ukraine-statement-2023-02-24"
+        ],
+        "rationale": "В риторике Мушикивабо часто используются обращения к ценностям солидарности, диалога, мира, равенства и уважения разнообразия, что подтверждается в нескольких последовательных эпизодах.",
+        "support_type": "positive_manifestation",
+        "provenance": {
+          "raw_response_file": "evidence/independent_responses/e1faa6fc33b18701f0351b03d2f117e8f05a858853e24563ea96fefd12822f00.json",
+          "model": "gpt-4.1",
+          "at": "2026-10-15T17:32:16.335735+00:00",
+          "cache_key": "e1faa6fc33b18701f0351b03d2f117e8f05a858853e24563ea96fefd12822f00",
+          "original_proposal": {
+            "variable_id": "argumentation-evidence-values__negative",
+            "status": "observed",
+            "value": 3,
+            "confidence": 0.7,
+            "support_type": "positive_manifestation",
+            "rationale": "В риторике Мушикивабо часто используются обращения к ценностям солидарности, диалога, мира, равенства и уважения разнообразия, что подтверждается в нескольких последовательных эпизодах.",
+            "evidence_indices": [
+              11,
+              14,
+              6,
+              9
+            ]
+          }
+        },
+        "evidence_file": "evidence/independent-dossier-louise-mushikiwabo.json",
+        "evidence_basis": "b21e90cd204397b9c91ff7c6ba97110314498bc7cbdf2a395c55461e88a0a17d"
+      }
+    },
+    "positive": 2,
+    "negative": 3,
+    "value": null,
+    "status": "observed",
+    "difference": null,
+    "mass": null,
+    "measurement_model": "independent_poles",
+    "evidence_file": "evidence/independent-dossier-louise-mushikiwabo.json",
+    "evidence_basis": "b21e90cd204397b9c91ff7c6ba97110314498bc7cbdf2a395c55461e88a0a17d",
+    "at": "2026-10-15T17:32:27.509311+00:00",
+    "reason": "Каждое свойство оценивается независимо; разность и искусственное дополнение до пяти не вычисляются"
+  },
+  {
+    "object_id": "louise-mushikiwabo",
+    "scale_id": "market-state-instruments",
+    "pole_scores": {
+      "positive": {
+        "status": "unknown",
+        "value": null,
+        "confidence": 0,
+        "evidence_indices": [],
+        "source_urls": [],
+        "event_ids": [],
+        "rationale": "Нет прямых свидетельств акцента на расширение частной инициативы и управления в публичных действиях или заявлениях Мушикивабо.",
+        "support_type": "unknown",
+        "provenance": {
+          "raw_response_file": "evidence/independent_responses/e1faa6fc33b18701f0351b03d2f117e8f05a858853e24563ea96fefd12822f00.json",
+          "model": "gpt-4.1",
+          "at": "2026-10-15T17:32:16.335735+00:00",
+          "cache_key": "e1faa6fc33b18701f0351b03d2f117e8f05a858853e24563ea96fefd12822f00",
+          "original_proposal": {
+            "variable_id": "market-state-instruments__positive",
+            "status": "unknown",
+            "value": null,
+            "confidence": 0,
+            "support_type": "unknown",
+            "rationale": "Нет прямых свидетельств акцента на расширение частной инициативы и управления в публичных действиях или заявлениях Мушикивабо.",
+            "evidence_indices": []
+          }
+        },
+        "evidence_file": "evidence/independent-dossier-louise-mushikiwabo.json",
+        "evidence_basis": "b21e90cd204397b9c91ff7c6ba97110314498bc7cbdf2a395c55461e88a0a17d"
+      },
+      "negative": {
+        "status": "unknown",
+        "value": null,
+        "confidence": 0,
+        "evidence_indices": [],
+        "source_urls": [],
+        "event_ids": [],
+        "rationale": "Нет прямых свидетельств акцента на расширение государственного планирования и обязательных правил в публичных действиях или заявлениях Мушикивабо.",
+        "support_type": "unknown",
+        "provenance": {
+          "raw_response_file": "evidence/independent_responses/e1faa6fc33b18701f0351b03d2f117e8f05a858853e24563ea96fefd12822f00.json",
+          "model": "gpt-4.1",
+          "at": "2026-10-15T17:32:16.335735+00:00",
+          "cache_key": "e1faa6fc33b18701f0351b03d2f117e8f05a858853e24563ea96fefd12822f00",
+          "original_proposal": {
+            "variable_id": "market-state-instruments__negative",
+            "status": "unknown",
+            "value": null,
+            "confidence": 0,
+            "support_type": "unknown",
+            "rationale": "Нет прямых свидетельств акцента на расширение государственного планирования и обязательных правил в публичных действиях или заявлениях Мушикивабо.",
+            "evidence_indices": []
+          }
+        },
+        "evidence_file": "evidence/independent-dossier-louise-mushikiwabo.json",
+        "evidence_basis": "b21e90cd204397b9c91ff7c6ba97110314498bc7cbdf2a395c55461e88a0a17d"
+      }
+    },
+    "positive": null,
+    "negative": null,
+    "value": null,
+    "status": "unknown",
+    "difference": null,
+    "mass": null,
+    "measurement_model": "independent_poles",
+    "evidence_file": "evidence/independent-dossier-louise-mushikiwabo.json",
+    "evidence_basis": "b21e90cd204397b9c91ff7c6ba97110314498bc7cbdf2a395c55461e88a0a17d",
+    "at": "2026-10-15T17:32:27.509311+00:00",
+    "reason": "Каждое свойство оценивается независимо; разность и искусственное дополнение до пяти не вычисляются"
+  },
+  {
+    "object_id": "louise-mushikiwabo",
+    "scale_id": "accessibility-growth-priorities",
+    "pole_scores": {
+      "positive": {
+        "status": "observed",
+        "value": 2,
+        "confidence": 0.6,
+        "evidence_indices": [
+          12,
+          5
+        ],
+        "source_urls": [
+          "https://www.francophonie.org/index.php/debat-francophone-commission-condition-de-la-femme-ONU-7948",
+          "https://actualite.cd/2024/07/10/louise-mushikiwabo-sur-la-guerre-dans-lest-de-la-rdc-il-faudrait-que-les-decisions"
+        ],
+        "event_ids": [
+          "mushikiwabo-2025-womens-commission",
+          "lm-oif-drc-peace-2024"
+        ],
+        "rationale": "В заявлениях о правах женщин и девочек, а также в призывах к миру и солидарности, фиксируется ограниченный акцент на расширении доступности базовых благ.",
+        "support_type": "positive_manifestation",
+        "provenance": {
+          "raw_response_file": "evidence/independent_responses/e1faa6fc33b18701f0351b03d2f117e8f05a858853e24563ea96fefd12822f00.json",
+          "model": "gpt-4.1",
+          "at": "2026-10-15T17:32:16.335735+00:00",
+          "cache_key": "e1faa6fc33b18701f0351b03d2f117e8f05a858853e24563ea96fefd12822f00",
+          "original_proposal": {
+            "variable_id": "accessibility-growth-priorities__positive",
+            "status": "observed",
+            "value": 2,
+            "confidence": 0.6,
+            "support_type": "positive_manifestation",
+            "rationale": "В заявлениях о правах женщин и девочек, а также в призывах к миру и солидарности, фиксируется ограниченный акцент на расширении доступности базовых благ.",
+            "evidence_indices": [
+              12,
+              5
+            ]
+          }
+        },
+        "evidence_file": "evidence/independent-dossier-louise-mushikiwabo.json",
+        "evidence_basis": "b21e90cd204397b9c91ff7c6ba97110314498bc7cbdf2a395c55461e88a0a17d"
+      },
+      "negative": {
+        "status": "unknown",
+        "value": null,
+        "confidence": 0,
+        "evidence_indices": [],
+        "source_urls": [],
+        "event_ids": [],
+        "rationale": "Нет прямых заявлений о приоритете роста инвестиций, конкурентоспособности и деловой активности.",
+        "support_type": "unknown",
+        "provenance": {
+          "raw_response_file": "evidence/independent_responses/e1faa6fc33b18701f0351b03d2f117e8f05a858853e24563ea96fefd12822f00.json",
+          "model": "gpt-4.1",
+          "at": "2026-10-15T17:32:16.335735+00:00",
+          "cache_key": "e1faa6fc33b18701f0351b03d2f117e8f05a858853e24563ea96fefd12822f00",
+          "original_proposal": {
+            "variable_id": "accessibility-growth-priorities__negative",
+            "status": "unknown",
+            "value": null,
+            "confidence": 0,
+            "support_type": "unknown",
+            "rationale": "Нет прямых заявлений о приоритете роста инвестиций, конкурентоспособности и деловой активности.",
+            "evidence_indices": []
+          }
+        },
+        "evidence_file": "evidence/independent-dossier-louise-mushikiwabo.json",
+        "evidence_basis": "b21e90cd204397b9c91ff7c6ba97110314498bc7cbdf2a395c55461e88a0a17d"
+      }
+    },
+    "positive": 2,
+    "negative": null,
+    "value": null,
+    "status": "partial",
+    "difference": null,
+    "mass": null,
+    "measurement_model": "independent_poles",
+    "evidence_file": "evidence/independent-dossier-louise-mushikiwabo.json",
+    "evidence_basis": "b21e90cd204397b9c91ff7c6ba97110314498bc7cbdf2a395c55461e88a0a17d",
+    "at": "2026-10-15T17:32:27.509311+00:00",
+    "reason": "Каждое свойство оценивается независимо; разность и искусственное дополнение до пяти не вычисляются"
+  },
+  {
+    "object_id": "louise-mushikiwabo",
+    "scale_id": "external-domestic-resources",
+    "pole_scores": {
+      "positive": {
+        "status": "unknown",
+        "value": null,
+        "confidence": 0,
+        "evidence_indices": [],
+        "source_urls": [],
+        "event_ids": [],
+        "rationale": "Нет прямых свидетельств акцента на привлечение внешнего финансирования или ресурсных партнёров в публичных заявлениях Мушикивабо.",
+        "support_type": "unknown",
+        "provenance": {
+          "raw_response_file": "evidence/independent_responses/e1faa6fc33b18701f0351b03d2f117e8f05a858853e24563ea96fefd12822f00.json",
+          "model": "gpt-4.1",
+          "at": "2026-10-15T17:32:16.335735+00:00",
+          "cache_key": "e1faa6fc33b18701f0351b03d2f117e8f05a858853e24563ea96fefd12822f00",
+          "original_proposal": {
+            "variable_id": "external-domestic-resources__positive",
+            "status": "unknown",
+            "value": null,
+            "confidence": 0,
+            "support_type": "unknown",
+            "rationale": "Нет прямых свидетельств акцента на привлечение внешнего финансирования или ресурсных партнёров в публичных заявлениях Мушикивабо.",
+            "evidence_indices": []
+          }
+        },
+        "evidence_file": "evidence/independent-dossier-louise-mushikiwabo.json",
+        "evidence_basis": "b21e90cd204397b9c91ff7c6ba97110314498bc7cbdf2a395c55461e88a0a17d"
+      },
+      "negative": {
+        "status": "unknown",
+        "value": null,
+        "confidence": 0,
+        "evidence_indices": [],
+        "source_urls": [],
+        "event_ids": [],
+        "rationale": "Нет прямых свидетельств акцента на опору на внутренние доходы и хозяйственную самостоятельность в публичных заявлениях Мушикивабо.",
+        "support_type": "unknown",
+        "provenance": {
+          "raw_response_file": "evidence/independent_responses/e1faa6fc33b18701f0351b03d2f117e8f05a858853e24563ea96fefd12822f00.json",
+          "model": "gpt-4.1",
+          "at": "2026-10-15T17:32:16.335735+00:00",
+          "cache_key": "e1faa6fc33b18701f0351b03d2f117e8f05a858853e24563ea96fefd12822f00",
+          "original_proposal": {
+            "variable_id": "external-domestic-resources__negative",
+            "status": "unknown",
+            "value": null,
+            "confidence": 0,
+            "support_type": "unknown",
+            "rationale": "Нет прямых свидетельств акцента на опору на внутренние доходы и хозяйственную самостоятельность в публичных заявлениях Мушикивабо.",
+            "evidence_indices": []
+          }
+        },
+        "evidence_file": "evidence/independent-dossier-louise-mushikiwabo.json",
+        "evidence_basis": "b21e90cd204397b9c91ff7c6ba97110314498bc7cbdf2a395c55461e88a0a17d"
+      }
+    },
+    "positive": null,
+    "negative": null,
+    "value": null,
+    "status": "unknown",
+    "difference": null,
+    "mass": null,
+    "measurement_model": "independent_poles",
+    "evidence_file": "evidence/independent-dossier-louise-mushikiwabo.json",
+    "evidence_basis": "b21e90cd204397b9c91ff7c6ba97110314498bc7cbdf2a395c55461e88a0a17d",
+    "at": "2026-10-15T17:32:27.509311+00:00",
+    "reason": "Каждое свойство оценивается независимо; разность и искусственное дополнение до пяти не вычисляются"
+  },
+  {
+    "object_id": "louise-mushikiwabo",
+    "scale_id": "international-rules-autonomy",
+    "pole_scores": {
+      "positive": {
+        "status": "observed",
+        "value": 3,
+        "confidence": 0.8,
+        "evidence_indices": [
+          14,
+          5,
+          9
+        ],
+        "source_urls": [
+          "https://www.francophonie.org/la-secretaire-generale-condamne-la-tentative-de-coup-detat-au-benin-8293",
+          "https://actualite.cd/2024/07/10/louise-mushikiwabo-sur-la-guerre-dans-lest-de-la-rdc-il-faudrait-que-les-decisions",
+          "https://www.francophonie.org/la-secretaire-generale-de-la-francophonie-demeure-extremement-preoccupee-par-la-persistance-de-2636"
+        ],
+        "event_ids": [
+          "mushikiwabo-2025-benin-coup-condemnation",
+          "lm-oif-drc-peace-2024",
+          "mushikiwabo-oif-ukraine-statement-2023-02-24"
+        ],
+        "rationale": "Мушикивабо неоднократно подчёркивала значение международных обязательств, осуждала попытки силовой смены власти как нарушение ценностей и обязательств МОФ, призывала к исполнению международных договорённостей и решений.",
+        "support_type": "positive_manifestation",
+        "provenance": {
+          "raw_response_file": "evidence/independent_responses/e1faa6fc33b18701f0351b03d2f117e8f05a858853e24563ea96fefd12822f00.json",
+          "model": "gpt-4.1",
+          "at": "2026-10-15T17:32:16.335735+00:00",
+          "cache_key": "e1faa6fc33b18701f0351b03d2f117e8f05a858853e24563ea96fefd12822f00",
+          "original_proposal": {
+            "variable_id": "international-rules-autonomy__positive",
+            "status": "observed",
+            "value": 3,
+            "confidence": 0.8,
+            "support_type": "positive_manifestation",
+            "rationale": "Мушикивабо неоднократно подчёркивала значение международных обязательств, осуждала попытки силовой смены власти как нарушение ценностей и обязательств МОФ, призывала к исполнению международных договорённостей и решений.",
+            "evidence_indices": [
+              14,
+              5,
+              9
+            ]
+          }
+        },
+        "evidence_file": "evidence/independent-dossier-louise-mushikiwabo.json",
+        "evidence_basis": "b21e90cd204397b9c91ff7c6ba97110314498bc7cbdf2a395c55461e88a0a17d"
+      },
+      "negative": {
+        "status": "observed",
+        "value": 1,
+        "confidence": 0.5,
+        "evidence_indices": [
+          1
+        ],
+        "source_urls": [
+          "https://www.lemonde.fr/afrique/article/2023/07/27/en-rdc-des-jeux-de-la-francophonie-sans-la-secretaire-generale-de-l-oif_6183576_3212.html"
+        ],
+        "event_ids": [
+          "lm-oif-drc-rwanda-mediation-2022"
+        ],
+        "rationale": "В одном эпизоде (напряжённость между Руандой и ДРК) Мушикивабо отнесла основную ответственность за урегулирование к субрегиональным структурам, что может трактоваться как единичное слабое проявление акцента на самостоятельности региональных решений.",
+        "support_type": "positive_manifestation",
+        "provenance": {
+          "raw_response_file": "evidence/independent_responses/e1faa6fc33b18701f0351b03d2f117e8f05a858853e24563ea96fefd12822f00.json",
+          "model": "gpt-4.1",
+          "at": "2026-10-15T17:32:16.335735+00:00",
+          "cache_key": "e1faa6fc33b18701f0351b03d2f117e8f05a858853e24563ea96fefd12822f00",
+          "original_proposal": {
+            "variable_id": "international-rules-autonomy__negative",
+            "status": "observed",
+            "value": 1,
+            "confidence": 0.5,
+            "support_type": "positive_manifestation",
+            "rationale": "В одном эпизоде (напряжённость между Руандой и ДРК) Мушикивабо отнесла основную ответственность за урегулирование к субрегиональным структурам, что может трактоваться как единичное слабое проявление акцента на самостоятельности региональных решений.",
+            "evidence_indices": [
+              1
+            ]
+          }
+        },
+        "evidence_file": "evidence/independent-dossier-louise-mushikiwabo.json",
+        "evidence_basis": "b21e90cd204397b9c91ff7c6ba97110314498bc7cbdf2a395c55461e88a0a17d"
+      }
+    },
+    "positive": 3,
+    "negative": 1,
+    "value": null,
+    "status": "observed",
+    "difference": null,
+    "mass": null,
+    "measurement_model": "independent_poles",
+    "evidence_file": "evidence/independent-dossier-louise-mushikiwabo.json",
+    "evidence_basis": "b21e90cd204397b9c91ff7c6ba97110314498bc7cbdf2a395c55461e88a0a17d",
+    "at": "2026-10-15T17:32:27.509311+00:00",
+    "reason": "Каждое свойство оценивается независимо; разность и искусственное дополнение до пяти не вычисляются"
+  },
+  {
+    "object_id": "louise-mushikiwabo",
+    "scale_id": "mediation-adversarial-communication",
+    "pole_scores": {
+      "positive": {
+        "status": "observed",
+        "value": 4,
+        "confidence": 0.9,
+        "evidence_indices": [
+          1,
+          5,
+          7,
+          11
+        ],
+        "source_urls": [
+          "https://www.lemonde.fr/afrique/article/2023/07/27/en-rdc-des-jeux-de-la-francophonie-sans-la-secretaire-generale-de-l-oif_6183576_3212.html",
+          "https://actualite.cd/2024/07/10/louise-mushikiwabo-sur-la-guerre-dans-lest-de-la-rdc-il-faudrait-que-les-decisions",
+          "https://www.francophonie.org/haiti-louise-mushikiwabo-appelle-a-un-sursaut-mondial-8172",
+          "https://www.francophonie.org/131e-session-du-conseil-permanent-de-la-francophonie-8089"
+        ],
+        "event_ids": [
+          "lm-oif-drc-rwanda-mediation-2022",
+          "lm-oif-drc-peace-2024",
+          "lm-oif-haiti-2024-2025",
+          "mushikiwabo-2025-cpf-131"
+        ],
+        "rationale": "Мушикивабо регулярно выступает с инициативами посредничества, призывами к диалогу, созданием консультативных комитетов, передачей сообщений между сторонами конфликтов и содействием переговорам, что подтверждается в ряде независимых эпизодов.",
+        "support_type": "positive_manifestation",
+        "provenance": {
+          "raw_response_file": "evidence/independent_responses/e1faa6fc33b18701f0351b03d2f117e8f05a858853e24563ea96fefd12822f00.json",
+          "model": "gpt-4.1",
+          "at": "2026-10-15T17:32:16.335735+00:00",
+          "cache_key": "e1faa6fc33b18701f0351b03d2f117e8f05a858853e24563ea96fefd12822f00",
+          "original_proposal": {
+            "variable_id": "mediation-adversarial-communication__positive",
+            "status": "observed",
+            "value": 4,
+            "confidence": 0.9,
+            "support_type": "positive_manifestation",
+            "rationale": "Мушикивабо регулярно выступает с инициативами посредничества, призывами к диалогу, созданием консультативных комитетов, передачей сообщений между сторонами конфликтов и содействием переговорам, что подтверждается в ряде независимых эпизодов.",
+            "evidence_indices": [
+              1,
+              5,
+              7,
+              11
+            ]
+          }
+        },
+        "evidence_file": "evidence/independent-dossier-louise-mushikiwabo.json",
+        "evidence_basis": "b21e90cd204397b9c91ff7c6ba97110314498bc7cbdf2a395c55461e88a0a17d"
+      },
+      "negative": {
+        "status": "observed",
+        "value": 1,
+        "confidence": 0.5,
+        "evidence_indices": [
+          14
+        ],
+        "source_urls": [
+          "https://www.francophonie.org/la-secretaire-generale-condamne-la-tentative-de-coup-detat-au-benin-8293"
+        ],
+        "event_ids": [
+          "mushikiwabo-2025-benin-coup-condemnation"
+        ],
+        "rationale": "В публичных заявлениях Мушикивабо отсутствует акцент на полемическом оспаривании; однако в отдельных случаях (например, осуждение попытки переворота) проявляется единичное слабое проявление защиты собственной стороны и ценностей организации.",
+        "support_type": "positive_manifestation",
+        "provenance": {
+          "raw_response_file": "evidence/independent_responses/e1faa6fc33b18701f0351b03d2f117e8f05a858853e24563ea96fefd12822f00.json",
+          "model": "gpt-4.1",
+          "at": "2026-10-15T17:32:16.335735+00:00",
+          "cache_key": "e1faa6fc33b18701f0351b03d2f117e8f05a858853e24563ea96fefd12822f00",
+          "original_proposal": {
+            "variable_id": "mediation-adversarial-communication__negative",
+            "status": "observed",
+            "value": 1,
+            "confidence": 0.5,
+            "support_type": "positive_manifestation",
+            "rationale": "В публичных заявлениях Мушикивабо отсутствует акцент на полемическом оспаривании; однако в отдельных случаях (например, осуждение попытки переворота) проявляется единичное слабое проявление защиты собственной стороны и ценностей организации.",
+            "evidence_indices": [
+              14
+            ]
+          }
+        },
+        "evidence_file": "evidence/independent-dossier-louise-mushikiwabo.json",
+        "evidence_basis": "b21e90cd204397b9c91ff7c6ba97110314498bc7cbdf2a395c55461e88a0a17d"
+      }
+    },
+    "positive": 4,
+    "negative": 1,
+    "value": null,
+    "status": "observed",
+    "difference": null,
+    "mass": null,
+    "measurement_model": "independent_poles",
+    "evidence_file": "evidence/independent-dossier-louise-mushikiwabo.json",
+    "evidence_basis": "b21e90cd204397b9c91ff7c6ba97110314498bc7cbdf2a395c55461e88a0a17d",
+    "at": "2026-10-15T17:32:27.509311+00:00",
+    "reason": "Каждое свойство оценивается независимо; разность и искусственное дополнение до пяти не вычисляются"
+  },
+  {
+    "object_id": "louise-mushikiwabo",
+    "scale_id": "cultural-openness-national-transmission",
+    "pole_scores": {
+      "positive": {
+        "status": "observed",
+        "value": 3,
+        "confidence": 0.8,
+        "evidence_indices": [
+          2,
+          11
+        ],
+        "source_urls": [
+          "https://www.radiookapi.net/2023/07/29/actualite/politique/louise-mushikiwabo-souhaite-de-magnifiques-jeux-de-la-francophonie",
+          "https://www.francophonie.org/131e-session-du-conseil-permanent-de-la-francophonie-8089"
+        ],
+        "event_ids": [
+          "lm-oif-drc-games-2023",
+          "mushikiwabo-2025-cpf-131"
+        ],
+        "rationale": "Мушикивабо неоднократно публично подчёркивала ценность межкультурного обмена и разнообразия, например, в обращении к молодёжи по поводу Игр франкофонии (обозначая их как пространство обмена и разнообразия), а также в риторике о солидарности, диалоге и уважении разнообразия на сессии Постоянного совета МОФ. Это фиксирует устойчивый публичный акцент на расширении межкультурного обмена, хотя не является определяющей чертой всей деятельности.",
+        "support_type": "positive_manifestation",
+        "provenance": {
+          "raw_response_file": "evidence/independent_responses/f8c4ed91575e7132d3f89579b5a3629bdf37a10eadd2845168c197d9b0b8a46e.json",
+          "model": "gpt-4.1",
+          "at": "2026-10-15T17:32:24.796751+00:00",
+          "cache_key": "f8c4ed91575e7132d3f89579b5a3629bdf37a10eadd2845168c197d9b0b8a46e",
+          "original_proposal": {
+            "variable_id": "cultural-openness-national-transmission__positive",
+            "status": "observed",
+            "value": 3,
+            "confidence": 0.8,
+            "support_type": "positive_manifestation",
+            "rationale": "Мушикивабо неоднократно публично подчёркивала ценность межкультурного обмена и разнообразия, например, в обращении к молодёжи по поводу Игр франкофонии (обозначая их как пространство обмена и разнообразия), а также в риторике о солидарности, диалоге и уважении разнообразия на сессии Постоянного совета МОФ. Это фиксирует устойчивый публичный акцент на расширении межкультурного обмена, хотя не является определяющей чертой всей деятельности.",
+            "evidence_indices": [
+              2,
+              11
+            ]
+          }
+        },
+        "evidence_file": "evidence/independent-dossier-louise-mushikiwabo.json",
+        "evidence_basis": "b21e90cd204397b9c91ff7c6ba97110314498bc7cbdf2a395c55461e88a0a17d"
+      },
+      "negative": {
+        "status": "observed",
+        "value": 2,
+        "confidence": 0.7,
+        "evidence_indices": [
+          4,
+          8,
+          6
+        ],
+        "source_urls": [
+          "https://www.francophonie.org/louise-mushikiwabo-au-36e-sommet-de-lunion-africaine-2617",
+          "https://www.assemblee-nationale.fr/dyn/opendata/CRCANR5L17S2024PO59047N003.html"
+        ],
+        "event_ids": [
+          "lm-au-summit-2023",
+          "lm-oif-au-cultural-diplomacy-2023",
+          "lm-oif-french-assembly-2024"
+        ],
+        "rationale": "Мушикивабо в ряде случаев подчёркивала значение французского языка и франкоязычной идентичности, например, на культурном вечере в рамках саммита Африканского союза и в выступлениях о роли французского языка как языка равенства и мира. Это демонстрирует ограниченное публичное проявление сохранения и передачи определённых культурных ценностей, хотя не является доминирующей чертой.",
+        "support_type": "positive_manifestation",
+        "provenance": {
+          "raw_response_file": "evidence/independent_responses/f8c4ed91575e7132d3f89579b5a3629bdf37a10eadd2845168c197d9b0b8a46e.json",
+          "model": "gpt-4.1",
+          "at": "2026-10-15T17:32:24.796751+00:00",
+          "cache_key": "f8c4ed91575e7132d3f89579b5a3629bdf37a10eadd2845168c197d9b0b8a46e",
+          "original_proposal": {
+            "variable_id": "cultural-openness-national-transmission__negative",
+            "status": "observed",
+            "value": 2,
+            "confidence": 0.7,
+            "support_type": "positive_manifestation",
+            "rationale": "Мушикивабо в ряде случаев подчёркивала значение французского языка и франкоязычной идентичности, например, на культурном вечере в рамках саммита Африканского союза и в выступлениях о роли французского языка как языка равенства и мира. Это демонстрирует ограниченное публичное проявление сохранения и передачи определённых культурных ценностей, хотя не является доминирующей чертой.",
+            "evidence_indices": [
+              4,
+              8,
+              6
+            ]
+          }
+        },
+        "evidence_file": "evidence/independent-dossier-louise-mushikiwabo.json",
+        "evidence_basis": "b21e90cd204397b9c91ff7c6ba97110314498bc7cbdf2a395c55461e88a0a17d"
+      }
+    },
+    "positive": 3,
+    "negative": 2,
+    "value": null,
+    "status": "observed",
+    "difference": null,
+    "mass": null,
+    "measurement_model": "independent_poles",
+    "evidence_file": "evidence/independent-dossier-louise-mushikiwabo.json",
+    "evidence_basis": "b21e90cd204397b9c91ff7c6ba97110314498bc7cbdf2a395c55461e88a0a17d",
+    "at": "2026-10-15T17:32:27.509311+00:00",
+    "reason": "Каждое свойство оценивается независимо; разность и искусственное дополнение до пяти не вычисляются"
+  },
+  {
+    "object_id": "louise-mushikiwabo",
+    "scale_id": "problem-disclosure-reputation-defence",
+    "pole_scores": {
+      "positive": {
+        "status": "unknown",
+        "value": null,
+        "confidence": 0,
+        "evidence_indices": [],
+        "source_urls": [],
+        "event_ids": [],
+        "rationale": "Нет прямых эпизодов, где Мушикивабо признаёт конкретные проблемы или недостатки исполнения в рамках своей публичной деятельности; риторика преимущественно институциональная и дипломатическая.",
+        "support_type": "unknown",
+        "provenance": {
+          "raw_response_file": "evidence/independent_responses/f8c4ed91575e7132d3f89579b5a3629bdf37a10eadd2845168c197d9b0b8a46e.json",
+          "model": "gpt-4.1",
+          "at": "2026-10-15T17:32:24.796751+00:00",
+          "cache_key": "f8c4ed91575e7132d3f89579b5a3629bdf37a10eadd2845168c197d9b0b8a46e",
+          "original_proposal": {
+            "variable_id": "problem-disclosure-reputation-defence__positive",
+            "status": "unknown",
+            "value": null,
+            "confidence": 0.3,
+            "support_type": "unknown",
+            "rationale": "Нет прямых эпизодов, где Мушикивабо признаёт конкретные проблемы или недостатки исполнения в рамках своей публичной деятельности; риторика преимущественно институциональная и дипломатическая.",
+            "evidence_indices": []
+          }
+        },
+        "evidence_file": "evidence/independent-dossier-louise-mushikiwabo.json",
+        "evidence_basis": "b21e90cd204397b9c91ff7c6ba97110314498bc7cbdf2a395c55461e88a0a17d"
+      },
+      "negative": {
+        "status": "observed",
+        "value": 2,
+        "confidence": 0.7,
+        "evidence_indices": [
+          10,
+          6
+        ],
+        "source_urls": [
+          "https://www.francophonie.org/sites/default/files/2022-11/Sommet_xviii_Discours_SG_djerba_2022.pdf",
+          "https://www.assemblee-nationale.fr/dyn/opendata/CRCANR5L17S2024PO59047N003.html"
+        ],
+        "event_ids": [
+          "mushikiwabo-2022-djerba-speech",
+          "lm-oif-french-assembly-2024"
+        ],
+        "rationale": "В публичных заявлениях Мушикивабо часто акцентирует позитивный образ МОФ, подчёркивает ценности организации и избегает обсуждения конкретных неудач или проблем, например, в выступлениях о приоритетах МОФ и на слушаниях в Национальном собрании Франции. Это фиксирует ограниченное проявление защитного продвижения репутации.",
+        "support_type": "positive_manifestation",
+        "provenance": {
+          "raw_response_file": "evidence/independent_responses/f8c4ed91575e7132d3f89579b5a3629bdf37a10eadd2845168c197d9b0b8a46e.json",
+          "model": "gpt-4.1",
+          "at": "2026-10-15T17:32:24.796751+00:00",
+          "cache_key": "f8c4ed91575e7132d3f89579b5a3629bdf37a10eadd2845168c197d9b0b8a46e",
+          "original_proposal": {
+            "variable_id": "problem-disclosure-reputation-defence__negative",
+            "status": "observed",
+            "value": 2,
+            "confidence": 0.7,
+            "support_type": "positive_manifestation",
+            "rationale": "В публичных заявлениях Мушикивабо часто акцентирует позитивный образ МОФ, подчёркивает ценности организации и избегает обсуждения конкретных неудач или проблем, например, в выступлениях о приоритетах МОФ и на слушаниях в Национальном собрании Франции. Это фиксирует ограниченное проявление защитного продвижения репутации.",
+            "evidence_indices": [
+              10,
+              6
+            ]
+          }
+        },
+        "evidence_file": "evidence/independent-dossier-louise-mushikiwabo.json",
+        "evidence_basis": "b21e90cd204397b9c91ff7c6ba97110314498bc7cbdf2a395c55461e88a0a17d"
+      }
+    },
+    "positive": null,
+    "negative": 2,
+    "value": null,
+    "status": "partial",
+    "difference": null,
+    "mass": null,
+    "measurement_model": "independent_poles",
+    "evidence_file": "evidence/independent-dossier-louise-mushikiwabo.json",
+    "evidence_basis": "b21e90cd204397b9c91ff7c6ba97110314498bc7cbdf2a395c55461e88a0a17d",
+    "at": "2026-10-15T17:32:27.509311+00:00",
+    "reason": "Каждое свойство оценивается независимо; разность и искусственное дополнение до пяти не вычисляются"
+  },
+  {
+    "object_id": "louise-mushikiwabo",
+    "scale_id": "procedural-guarantees-enforcement",
+    "pole_scores": {
+      "positive": {
+        "status": "unknown",
+        "value": null,
+        "confidence": 0,
+        "evidence_indices": [],
+        "source_urls": [],
+        "event_ids": [],
+        "rationale": "Нет прямых фактов о действиях или заявлениях Мушикивабо по расширению возможностей защиты и обжалования в рамках её публичной деятельности.",
+        "support_type": "unknown",
+        "provenance": {
+          "raw_response_file": "evidence/independent_responses/f8c4ed91575e7132d3f89579b5a3629bdf37a10eadd2845168c197d9b0b8a46e.json",
+          "model": "gpt-4.1",
+          "at": "2026-10-15T17:32:24.796751+00:00",
+          "cache_key": "f8c4ed91575e7132d3f89579b5a3629bdf37a10eadd2845168c197d9b0b8a46e",
+          "original_proposal": {
+            "variable_id": "procedural-guarantees-enforcement__positive",
+            "status": "unknown",
+            "value": null,
+            "confidence": 0.3,
+            "support_type": "unknown",
+            "rationale": "Нет прямых фактов о действиях или заявлениях Мушикивабо по расширению возможностей защиты и обжалования в рамках её публичной деятельности.",
+            "evidence_indices": []
+          }
+        },
+        "evidence_file": "evidence/independent-dossier-louise-mushikiwabo.json",
+        "evidence_basis": "b21e90cd204397b9c91ff7c6ba97110314498bc7cbdf2a395c55461e88a0a17d"
+      },
+      "negative": {
+        "status": "unknown",
+        "value": null,
+        "confidence": 0,
+        "evidence_indices": [],
+        "source_urls": [],
+        "event_ids": [],
+        "rationale": "Нет прямых фактов о действиях или заявлениях Мушикивабо по принудительному обеспечению обязательных требований.",
+        "support_type": "unknown",
+        "provenance": {
+          "raw_response_file": "evidence/independent_responses/f8c4ed91575e7132d3f89579b5a3629bdf37a10eadd2845168c197d9b0b8a46e.json",
+          "model": "gpt-4.1",
+          "at": "2026-10-15T17:32:24.796751+00:00",
+          "cache_key": "f8c4ed91575e7132d3f89579b5a3629bdf37a10eadd2845168c197d9b0b8a46e",
+          "original_proposal": {
+            "variable_id": "procedural-guarantees-enforcement__negative",
+            "status": "unknown",
+            "value": null,
+            "confidence": 0.3,
+            "support_type": "unknown",
+            "rationale": "Нет прямых фактов о действиях или заявлениях Мушикивабо по принудительному обеспечению обязательных требований.",
+            "evidence_indices": []
+          }
+        },
+        "evidence_file": "evidence/independent-dossier-louise-mushikiwabo.json",
+        "evidence_basis": "b21e90cd204397b9c91ff7c6ba97110314498bc7cbdf2a395c55461e88a0a17d"
+      }
+    },
+    "positive": null,
+    "negative": null,
+    "value": null,
+    "status": "unknown",
+    "difference": null,
+    "mass": null,
+    "measurement_model": "independent_poles",
+    "evidence_file": "evidence/independent-dossier-louise-mushikiwabo.json",
+    "evidence_basis": "b21e90cd204397b9c91ff7c6ba97110314498bc7cbdf2a395c55461e88a0a17d",
+    "at": "2026-10-15T17:32:27.509311+00:00",
+    "reason": "Каждое свойство оценивается независимо; разность и искусственное дополнение до пяти не вычисляются"
+  },
+  {
+    "object_id": "louise-mushikiwabo",
+    "scale_id": "prevention-crisis-response",
+    "pole_scores": {
+      "positive": {
+        "status": "observed",
+        "value": 2,
+        "confidence": 0.7,
+        "evidence_indices": [
+          7,
+          5
+        ],
+        "source_urls": [
+          "https://www.francophonie.org/haiti-louise-mushikiwabo-appelle-a-un-sursaut-mondial-8172",
+          "https://actualite.cd/2024/07/10/louise-mushikiwabo-sur-la-guerre-dans-lest-de-la-rdc-il-faudrait-que-les-decisions"
+        ],
+        "event_ids": [
+          "lm-oif-haiti-2024-2025",
+          "lm-oif-drc-peace-2024"
+        ],
+        "rationale": "В ряде эпизодов Мушикивабо инициировала консультативные и превентивные меры, например, создание консультативного комитета по Гаити и призывы к выполнению решений по урегулированию конфликтов. Это ограниченное проявление упреждающей стратегии.",
+        "support_type": "positive_manifestation",
+        "provenance": {
+          "raw_response_file": "evidence/independent_responses/f8c4ed91575e7132d3f89579b5a3629bdf37a10eadd2845168c197d9b0b8a46e.json",
+          "model": "gpt-4.1",
+          "at": "2026-10-15T17:32:24.796751+00:00",
+          "cache_key": "f8c4ed91575e7132d3f89579b5a3629bdf37a10eadd2845168c197d9b0b8a46e",
+          "original_proposal": {
+            "variable_id": "prevention-crisis-response__positive",
+            "status": "observed",
+            "value": 2,
+            "confidence": 0.7,
+            "support_type": "positive_manifestation",
+            "rationale": "В ряде эпизодов Мушикивабо инициировала консультативные и превентивные меры, например, создание консультативного комитета по Гаити и призывы к выполнению решений по урегулированию конфликтов. Это ограниченное проявление упреждающей стратегии.",
+            "evidence_indices": [
+              7,
+              5
+            ]
+          }
+        },
+        "evidence_file": "evidence/independent-dossier-louise-mushikiwabo.json",
+        "evidence_basis": "b21e90cd204397b9c91ff7c6ba97110314498bc7cbdf2a395c55461e88a0a17d"
+      },
+      "negative": {
+        "status": "observed",
+        "value": 2,
+        "confidence": 0.7,
+        "evidence_indices": [
+          5,
+          14
+        ],
+        "source_urls": [
+          "https://actualite.cd/2024/07/10/louise-mushikiwabo-sur-la-guerre-dans-lest-de-la-rdc-il-faudrait-que-les-decisions",
+          "https://www.francophonie.org/la-secretaire-generale-condamne-la-tentative-de-coup-detat-au-benin-8293"
+        ],
+        "event_ids": [
+          "lm-oif-drc-peace-2024",
+          "mushikiwabo-2025-benin-coup-condemnation"
+        ],
+        "rationale": "В риторике и действиях Мушикивабо также присутствует акцент на реагировании на уже возникшие кризисы, например, в заявлениях по ситуации в ДРК и Бенине, где она призывает к выполнению решений и осуждает попытки силового захвата власти. Это ограниченное проявление оперативного реагирования.",
+        "support_type": "positive_manifestation",
+        "provenance": {
+          "raw_response_file": "evidence/independent_responses/f8c4ed91575e7132d3f89579b5a3629bdf37a10eadd2845168c197d9b0b8a46e.json",
+          "model": "gpt-4.1",
+          "at": "2026-10-15T17:32:24.796751+00:00",
+          "cache_key": "f8c4ed91575e7132d3f89579b5a3629bdf37a10eadd2845168c197d9b0b8a46e",
+          "original_proposal": {
+            "variable_id": "prevention-crisis-response__negative",
+            "status": "observed",
+            "value": 2,
+            "confidence": 0.7,
+            "support_type": "positive_manifestation",
+            "rationale": "В риторике и действиях Мушикивабо также присутствует акцент на реагировании на уже возникшие кризисы, например, в заявлениях по ситуации в ДРК и Бенине, где она призывает к выполнению решений и осуждает попытки силового захвата власти. Это ограниченное проявление оперативного реагирования.",
+            "evidence_indices": [
+              5,
+              14
+            ]
+          }
+        },
+        "evidence_file": "evidence/independent-dossier-louise-mushikiwabo.json",
+        "evidence_basis": "b21e90cd204397b9c91ff7c6ba97110314498bc7cbdf2a395c55461e88a0a17d"
+      }
+    },
+    "positive": 2,
+    "negative": 2,
+    "value": null,
+    "status": "observed",
+    "difference": null,
+    "mass": null,
+    "measurement_model": "independent_poles",
+    "evidence_file": "evidence/independent-dossier-louise-mushikiwabo.json",
+    "evidence_basis": "b21e90cd204397b9c91ff7c6ba97110314498bc7cbdf2a395c55461e88a0a17d",
+    "at": "2026-10-15T17:32:27.509311+00:00",
+    "reason": "Каждое свойство оценивается независимо; разность и искусственное дополнение до пяти не вычисляются"
+  },
+  {
+    "object_id": "louise-mushikiwabo",
+    "scale_id": "electoral-access",
+    "pole_scores": {
+      "positive": {
+        "status": "observed",
+        "value": 1,
+        "confidence": 0.6,
+        "evidence_indices": [
+          13
+        ],
+        "source_urls": [
+          "https://www.francophonie.org/moldavie-declaration-preliminaire-de-la-mission-electorale-de-la-francophonie-8173"
+        ],
+        "event_ids": [
+          "mushikiwabo-2025-moldova-electoral-mission"
+        ],
+        "rationale": "Мушикивабо направила миссию МОФ для наблюдения за выборами в Молдове, что свидетельствует о единичном слабом проявлении содействия электоральному процессу, хотя это действие институциональное и не сопровождается личной программой расширения доступа.",
+        "support_type": "positive_manifestation",
+        "provenance": {
+          "raw_response_file": "evidence/independent_responses/f8c4ed91575e7132d3f89579b5a3629bdf37a10eadd2845168c197d9b0b8a46e.json",
+          "model": "gpt-4.1",
+          "at": "2026-10-15T17:32:24.796751+00:00",
+          "cache_key": "f8c4ed91575e7132d3f89579b5a3629bdf37a10eadd2845168c197d9b0b8a46e",
+          "original_proposal": {
+            "variable_id": "electoral-access__positive",
+            "status": "observed",
+            "value": 1,
+            "confidence": 0.6,
+            "support_type": "positive_manifestation",
+            "rationale": "Мушикивабо направила миссию МОФ для наблюдения за выборами в Молдове, что свидетельствует о единичном слабом проявлении содействия электоральному процессу, хотя это действие институциональное и не сопровождается личной программой расширения доступа.",
+            "evidence_indices": [
+              13
+            ]
+          }
+        },
+        "evidence_file": "evidence/independent-dossier-louise-mushikiwabo.json",
+        "evidence_basis": "b21e90cd204397b9c91ff7c6ba97110314498bc7cbdf2a395c55461e88a0a17d"
+      },
+      "negative": {
+        "status": "unknown",
+        "value": null,
+        "confidence": 0,
+        "evidence_indices": [],
+        "source_urls": [],
+        "event_ids": [],
+        "rationale": "Нет фактов о действиях или заявлениях Мушикивабо по усилению квалификационных барьеров политического участия.",
+        "support_type": "unknown",
+        "provenance": {
+          "raw_response_file": "evidence/independent_responses/f8c4ed91575e7132d3f89579b5a3629bdf37a10eadd2845168c197d9b0b8a46e.json",
+          "model": "gpt-4.1",
+          "at": "2026-10-15T17:32:24.796751+00:00",
+          "cache_key": "f8c4ed91575e7132d3f89579b5a3629bdf37a10eadd2845168c197d9b0b8a46e",
+          "original_proposal": {
+            "variable_id": "electoral-access__negative",
+            "status": "unknown",
+            "value": null,
+            "confidence": 0.3,
+            "support_type": "unknown",
+            "rationale": "Нет фактов о действиях или заявлениях Мушикивабо по усилению квалификационных барьеров политического участия.",
+            "evidence_indices": []
+          }
+        },
+        "evidence_file": "evidence/independent-dossier-louise-mushikiwabo.json",
+        "evidence_basis": "b21e90cd204397b9c91ff7c6ba97110314498bc7cbdf2a395c55461e88a0a17d"
+      }
+    },
+    "positive": 1,
+    "negative": null,
+    "value": null,
+    "status": "partial",
+    "difference": null,
+    "mass": null,
+    "measurement_model": "independent_poles",
+    "evidence_file": "evidence/independent-dossier-louise-mushikiwabo.json",
+    "evidence_basis": "b21e90cd204397b9c91ff7c6ba97110314498bc7cbdf2a395c55461e88a0a17d",
+    "at": "2026-10-15T17:32:27.509311+00:00",
+    "reason": "Каждое свойство оценивается независимо; разность и искусственное дополнение до пяти не вычисляются"
+  },
+  {
+    "object_id": "louise-mushikiwabo",
+    "scale_id": "institutional-autonomy-coordination",
+    "pole_scores": {
+      "positive": {
+        "status": "unknown",
+        "value": null,
+        "confidence": 0,
+        "evidence_indices": [],
+        "source_urls": [],
+        "event_ids": [],
+        "rationale": "Нет прямых эпизодов, где Мушикивабо выступает за гарантии самостоятельности и контроля между институтами.",
+        "support_type": "unknown",
+        "provenance": {
+          "raw_response_file": "evidence/independent_responses/f8c4ed91575e7132d3f89579b5a3629bdf37a10eadd2845168c197d9b0b8a46e.json",
+          "model": "gpt-4.1",
+          "at": "2026-10-15T17:32:24.796751+00:00",
+          "cache_key": "f8c4ed91575e7132d3f89579b5a3629bdf37a10eadd2845168c197d9b0b8a46e",
+          "original_proposal": {
+            "variable_id": "institutional-autonomy-coordination__positive",
+            "status": "unknown",
+            "value": null,
+            "confidence": 0.3,
+            "support_type": "unknown",
+            "rationale": "Нет прямых эпизодов, где Мушикивабо выступает за гарантии самостоятельности и контроля между институтами.",
+            "evidence_indices": []
+          }
+        },
+        "evidence_file": "evidence/independent-dossier-louise-mushikiwabo.json",
+        "evidence_basis": "b21e90cd204397b9c91ff7c6ba97110314498bc7cbdf2a395c55461e88a0a17d"
+      },
+      "negative": {
+        "status": "observed",
+        "value": 2,
+        "confidence": 0.7,
+        "evidence_indices": [
+          10,
+          6
+        ],
+        "source_urls": [
+          "https://www.francophonie.org/sites/default/files/2022-11/Sommet_xviii_Discours_SG_djerba_2022.pdf",
+          "https://www.assemblee-nationale.fr/dyn/opendata/CRCANR5L17S2024PO59047N003.html"
+        ],
+        "event_ids": [
+          "mushikiwabo-2022-djerba-speech",
+          "lm-oif-french-assembly-2024"
+        ],
+        "rationale": "В ряде публичных заявлений Мушикивабо подчёркивает необходимость координации франкоязычного пространства и согласованной работы институтов, что фиксирует ограниченное проявление согласования работы единой управленческой линией.",
+        "support_type": "positive_manifestation",
+        "provenance": {
+          "raw_response_file": "evidence/independent_responses/f8c4ed91575e7132d3f89579b5a3629bdf37a10eadd2845168c197d9b0b8a46e.json",
+          "model": "gpt-4.1",
+          "at": "2026-10-15T17:32:24.796751+00:00",
+          "cache_key": "f8c4ed91575e7132d3f89579b5a3629bdf37a10eadd2845168c197d9b0b8a46e",
+          "original_proposal": {
+            "variable_id": "institutional-autonomy-coordination__negative",
+            "status": "observed",
+            "value": 2,
+            "confidence": 0.7,
+            "support_type": "positive_manifestation",
+            "rationale": "В ряде публичных заявлений Мушикивабо подчёркивает необходимость координации франкоязычного пространства и согласованной работы институтов, что фиксирует ограниченное проявление согласования работы единой управленческой линией.",
+            "evidence_indices": [
+              10,
+              6
+            ]
+          }
+        },
+        "evidence_file": "evidence/independent-dossier-louise-mushikiwabo.json",
+        "evidence_basis": "b21e90cd204397b9c91ff7c6ba97110314498bc7cbdf2a395c55461e88a0a17d"
+      }
+    },
+    "positive": null,
+    "negative": 2,
+    "value": null,
+    "status": "partial",
+    "difference": null,
+    "mass": null,
+    "measurement_model": "independent_poles",
+    "evidence_file": "evidence/independent-dossier-louise-mushikiwabo.json",
+    "evidence_basis": "b21e90cd204397b9c91ff7c6ba97110314498bc7cbdf2a395c55461e88a0a17d",
+    "at": "2026-10-15T17:32:27.509311+00:00",
+    "reason": "Каждое свойство оценивается независимо; разность и искусственное дополнение до пяти не вычисляются"
+  },
+  {
+    "object_id": "louise-mushikiwabo",
+    "scale_id": "taxation-burden-public-revenue",
+    "pole_scores": {
+      "positive": {
+        "status": "unknown",
+        "value": null,
+        "confidence": 0,
+        "evidence_indices": [],
+        "source_urls": [],
+        "event_ids": [],
+        "rationale": "Нет фактов о действиях или заявлениях Мушикивабо по снижению налоговой нагрузки или расширению имущественной самостоятельности.",
+        "support_type": "unknown",
+        "provenance": {
+          "raw_response_file": "evidence/independent_responses/f8c4ed91575e7132d3f89579b5a3629bdf37a10eadd2845168c197d9b0b8a46e.json",
+          "model": "gpt-4.1",
+          "at": "2026-10-15T17:32:24.796751+00:00",
+          "cache_key": "f8c4ed91575e7132d3f89579b5a3629bdf37a10eadd2845168c197d9b0b8a46e",
+          "original_proposal": {
+            "variable_id": "taxation-burden-public-revenue__positive",
+            "status": "unknown",
+            "value": null,
+            "confidence": 0.3,
+            "support_type": "unknown",
+            "rationale": "Нет фактов о действиях или заявлениях Мушикивабо по снижению налоговой нагрузки или расширению имущественной самостоятельности.",
+            "evidence_indices": []
+          }
+        },
+        "evidence_file": "evidence/independent-dossier-louise-mushikiwabo.json",
+        "evidence_basis": "b21e90cd204397b9c91ff7c6ba97110314498bc7cbdf2a395c55461e88a0a17d"
+      },
+      "negative": {
+        "status": "unknown",
+        "value": null,
+        "confidence": 0,
+        "evidence_indices": [],
+        "source_urls": [],
+        "event_ids": [],
+        "rationale": "Нет фактов о действиях или заявлениях Мушикивабо по увеличению налоговых поступлений для публичного развития.",
+        "support_type": "unknown",
+        "provenance": {
+          "raw_response_file": "evidence/independent_responses/f8c4ed91575e7132d3f89579b5a3629bdf37a10eadd2845168c197d9b0b8a46e.json",
+          "model": "gpt-4.1",
+          "at": "2026-10-15T17:32:24.796751+00:00",
+          "cache_key": "f8c4ed91575e7132d3f89579b5a3629bdf37a10eadd2845168c197d9b0b8a46e",
+          "original_proposal": {
+            "variable_id": "taxation-burden-public-revenue__negative",
+            "status": "unknown",
+            "value": null,
+            "confidence": 0.3,
+            "support_type": "unknown",
+            "rationale": "Нет фактов о действиях или заявлениях Мушикивабо по увеличению налоговых поступлений для публичного развития.",
+            "evidence_indices": []
+          }
+        },
+        "evidence_file": "evidence/independent-dossier-louise-mushikiwabo.json",
+        "evidence_basis": "b21e90cd204397b9c91ff7c6ba97110314498bc7cbdf2a395c55461e88a0a17d"
+      }
+    },
+    "positive": null,
+    "negative": null,
+    "value": null,
+    "status": "unknown",
+    "difference": null,
+    "mass": null,
+    "measurement_model": "independent_poles",
+    "evidence_file": "evidence/independent-dossier-louise-mushikiwabo.json",
+    "evidence_basis": "b21e90cd204397b9c91ff7c6ba97110314498bc7cbdf2a395c55461e88a0a17d",
+    "at": "2026-10-15T17:32:27.509311+00:00",
+    "reason": "Каждое свойство оценивается независимо; разность и искусственное дополнение до пяти не вычисляются"
+  },
+  {
+    "object_id": "louise-mushikiwabo",
+    "scale_id": "universal-targeted-provision",
+    "pole_scores": {
+      "positive": {
+        "status": "observed",
+        "value": 1,
+        "confidence": 0.6,
+        "evidence_indices": [
+          12
+        ],
+        "source_urls": [
+          "https://www.francophonie.org/index.php/debat-francophone-commission-condition-de-la-femme-ONU-7948"
+        ],
+        "event_ids": [
+          "mushikiwabo-2025-womens-commission"
+        ],
+        "rationale": "В ряде заявлений Мушикивабо подчёркивает важность равенства и универсальных прав, например, в контексте прав женщин и девочек, однако это единичное и слабое проявление без конкретных универсальных программ.",
+        "support_type": "positive_manifestation",
+        "provenance": {
+          "raw_response_file": "evidence/independent_responses/f8c4ed91575e7132d3f89579b5a3629bdf37a10eadd2845168c197d9b0b8a46e.json",
+          "model": "gpt-4.1",
+          "at": "2026-10-15T17:32:24.796751+00:00",
+          "cache_key": "f8c4ed91575e7132d3f89579b5a3629bdf37a10eadd2845168c197d9b0b8a46e",
+          "original_proposal": {
+            "variable_id": "universal-targeted-provision__positive",
+            "status": "observed",
+            "value": 1,
+            "confidence": 0.6,
+            "support_type": "positive_manifestation",
+            "rationale": "В ряде заявлений Мушикивабо подчёркивает важность равенства и универсальных прав, например, в контексте прав женщин и девочек, однако это единичное и слабое проявление без конкретных универсальных программ.",
+            "evidence_indices": [
+              12
+            ]
+          }
+        },
+        "evidence_file": "evidence/independent-dossier-louise-mushikiwabo.json",
+        "evidence_basis": "b21e90cd204397b9c91ff7c6ba97110314498bc7cbdf2a395c55461e88a0a17d"
+      },
+      "negative": {
+        "status": "unknown",
+        "value": null,
+        "confidence": 0,
+        "evidence_indices": [],
+        "source_urls": [],
+        "event_ids": [],
+        "rationale": "Нет прямых фактов о приоритетной помощи конкретным недостаточно обеспеченным группам в публичных действиях или заявлениях Мушикивабо.",
+        "support_type": "unknown",
+        "provenance": {
+          "raw_response_file": "evidence/independent_responses/f8c4ed91575e7132d3f89579b5a3629bdf37a10eadd2845168c197d9b0b8a46e.json",
+          "model": "gpt-4.1",
+          "at": "2026-10-15T17:32:24.796751+00:00",
+          "cache_key": "f8c4ed91575e7132d3f89579b5a3629bdf37a10eadd2845168c197d9b0b8a46e",
+          "original_proposal": {
+            "variable_id": "universal-targeted-provision__negative",
+            "status": "unknown",
+            "value": null,
+            "confidence": 0.3,
+            "support_type": "unknown",
+            "rationale": "Нет прямых фактов о приоритетной помощи конкретным недостаточно обеспеченным группам в публичных действиях или заявлениях Мушикивабо.",
+            "evidence_indices": []
+          }
+        },
+        "evidence_file": "evidence/independent-dossier-louise-mushikiwabo.json",
+        "evidence_basis": "b21e90cd204397b9c91ff7c6ba97110314498bc7cbdf2a395c55461e88a0a17d"
+      }
+    },
+    "positive": 1,
+    "negative": null,
+    "value": null,
+    "status": "partial",
+    "difference": null,
+    "mass": null,
+    "measurement_model": "independent_poles",
+    "evidence_file": "evidence/independent-dossier-louise-mushikiwabo.json",
+    "evidence_basis": "b21e90cd204397b9c91ff7c6ba97110314498bc7cbdf2a395c55461e88a0a17d",
+    "at": "2026-10-15T17:32:27.509311+00:00",
+    "reason": "Каждое свойство оценивается независимо; разность и искусственное дополнение до пяти не вычисляются"
+  },
+  {
+    "object_id": "louise-mushikiwabo",
+    "scale_id": "ecological-limits-resource-use",
+    "pole_scores": {
+      "positive": {
+        "status": "unknown",
+        "value": null,
+        "confidence": 0,
+        "evidence_indices": [],
+        "source_urls": [],
+        "event_ids": [],
+        "rationale": "Нет фактов о действиях или заявлениях Мушикивабо по усилению природоохранных ограничений хозяйственной деятельности.",
+        "support_type": "unknown",
+        "provenance": {
+          "raw_response_file": "evidence/independent_responses/f8c4ed91575e7132d3f89579b5a3629bdf37a10eadd2845168c197d9b0b8a46e.json",
+          "model": "gpt-4.1",
+          "at": "2026-10-15T17:32:24.796751+00:00",
+          "cache_key": "f8c4ed91575e7132d3f89579b5a3629bdf37a10eadd2845168c197d9b0b8a46e",
+          "original_proposal": {
+            "variable_id": "ecological-limits-resource-use__positive",
+            "status": "unknown",
+            "value": null,
+            "confidence": 0.3,
+            "support_type": "unknown",
+            "rationale": "Нет фактов о действиях или заявлениях Мушикивабо по усилению природоохранных ограничений хозяйственной деятельности.",
+            "evidence_indices": []
+          }
+        },
+        "evidence_file": "evidence/independent-dossier-louise-mushikiwabo.json",
+        "evidence_basis": "b21e90cd204397b9c91ff7c6ba97110314498bc7cbdf2a395c55461e88a0a17d"
+      },
+      "negative": {
+        "status": "unknown",
+        "value": null,
+        "confidence": 0,
+        "evidence_indices": [],
+        "source_urls": [],
+        "event_ids": [],
+        "rationale": "Нет фактов о действиях или заявлениях Мушикивабо по расширению хозяйственного использования природных ресурсов.",
+        "support_type": "unknown",
+        "provenance": {
+          "raw_response_file": "evidence/independent_responses/f8c4ed91575e7132d3f89579b5a3629bdf37a10eadd2845168c197d9b0b8a46e.json",
+          "model": "gpt-4.1",
+          "at": "2026-10-15T17:32:24.796751+00:00",
+          "cache_key": "f8c4ed91575e7132d3f89579b5a3629bdf37a10eadd2845168c197d9b0b8a46e",
+          "original_proposal": {
+            "variable_id": "ecological-limits-resource-use__negative",
+            "status": "unknown",
+            "value": null,
+            "confidence": 0.3,
+            "support_type": "unknown",
+            "rationale": "Нет фактов о действиях или заявлениях Мушикивабо по расширению хозяйственного использования природных ресурсов.",
+            "evidence_indices": []
+          }
+        },
+        "evidence_file": "evidence/independent-dossier-louise-mushikiwabo.json",
+        "evidence_basis": "b21e90cd204397b9c91ff7c6ba97110314498bc7cbdf2a395c55461e88a0a17d"
+      }
+    },
+    "positive": null,
+    "negative": null,
+    "value": null,
+    "status": "unknown",
+    "difference": null,
+    "mass": null,
+    "measurement_model": "independent_poles",
+    "evidence_file": "evidence/independent-dossier-louise-mushikiwabo.json",
+    "evidence_basis": "b21e90cd204397b9c91ff7c6ba97110314498bc7cbdf2a395c55461e88a0a17d",
+    "at": "2026-10-15T17:32:27.509311+00:00",
+    "reason": "Каждое свойство оценивается независимо; разность и искусственное дополнение до пяти не вычисляются"
+  },
+  {
+    "object_id": "louise-mushikiwabo",
+    "scale_id": "russia-diplomatic-engagement",
+    "pole_scores": {
+      "positive": {
+        "status": "unknown",
+        "value": null,
+        "confidence": 0,
+        "evidence_indices": [],
+        "source_urls": [],
+        "event_ids": [],
+        "rationale": "Нет допустимых датированных персональных свидетельств по этому свойству",
+        "support_type": "unknown"
+      },
+      "negative": {
+        "status": "unknown",
+        "value": null,
+        "confidence": 0,
+        "evidence_indices": [],
+        "source_urls": [],
+        "event_ids": [],
+        "rationale": "Нет допустимых датированных персональных свидетельств по этому свойству",
+        "support_type": "unknown"
+      }
+    },
+    "positive": null,
+    "negative": null,
+    "value": null,
+    "status": "unknown",
+    "difference": null,
+    "mass": null,
+    "measurement_model": "independent_poles",
+    "evidence_file": "evidence/independent-dossier-louise-mushikiwabo.json",
+    "evidence_basis": "b21e90cd204397b9c91ff7c6ba97110314498bc7cbdf2a395c55461e88a0a17d",
+    "at": "2026-10-15T17:32:27.509311+00:00",
+    "reason": "Каждое свойство оценивается независимо; разность и искусственное дополнение до пяти не вычисляются"
+  },
+  {
+    "object_id": "louise-mushikiwabo",
+    "scale_id": "russia-security-cooperation",
+    "pole_scores": {
+      "positive": {
+        "status": "unknown",
+        "value": null,
+        "confidence": 0,
+        "evidence_indices": [],
+        "source_urls": [],
+        "event_ids": [],
+        "rationale": "Нет допустимых датированных персональных свидетельств по этому свойству",
+        "support_type": "unknown"
+      },
+      "negative": {
+        "status": "unknown",
+        "value": null,
+        "confidence": 0,
+        "evidence_indices": [],
+        "source_urls": [],
+        "event_ids": [],
+        "rationale": "Нет допустимых датированных персональных свидетельств по этому свойству",
+        "support_type": "unknown"
+      }
+    },
+    "positive": null,
+    "negative": null,
+    "value": null,
+    "status": "unknown",
+    "difference": null,
+    "mass": null,
+    "measurement_model": "independent_poles",
+    "evidence_file": "evidence/independent-dossier-louise-mushikiwabo.json",
+    "evidence_basis": "b21e90cd204397b9c91ff7c6ba97110314498bc7cbdf2a395c55461e88a0a17d",
+    "at": "2026-10-15T17:32:27.509311+00:00",
+    "reason": "Каждое свойство оценивается независимо; разность и искусственное дополнение до пяти не вычисляются"
+  },
+  {
+    "object_id": "louise-mushikiwabo",
+    "scale_id": "russia-economic-technology-cooperation",
+    "pole_scores": {
+      "positive": {
+        "status": "unknown",
+        "value": null,
+        "confidence": 0,
+        "evidence_indices": [],
+        "source_urls": [],
+        "event_ids": [],
+        "rationale": "Нет допустимых датированных персональных свидетельств по этому свойству",
+        "support_type": "unknown"
+      },
+      "negative": {
+        "status": "unknown",
+        "value": null,
+        "confidence": 0,
+        "evidence_indices": [],
+        "source_urls": [],
+        "event_ids": [],
+        "rationale": "Нет допустимых датированных персональных свидетельств по этому свойству",
+        "support_type": "unknown"
+      }
+    },
+    "positive": null,
+    "negative": null,
+    "value": null,
+    "status": "unknown",
+    "difference": null,
+    "mass": null,
+    "measurement_model": "independent_poles",
+    "evidence_file": "evidence/independent-dossier-louise-mushikiwabo.json",
+    "evidence_basis": "b21e90cd204397b9c91ff7c6ba97110314498bc7cbdf2a395c55461e88a0a17d",
+    "at": "2026-10-15T17:32:27.509311+00:00",
+    "reason": "Каждое свойство оценивается независимо; разность и искусственное дополнение до пяти не вычисляются"
+  },
+  {
+    "object_id": "louise-mushikiwabo",
+    "scale_id": "russia-education-cultural-cooperation",
+    "pole_scores": {
+      "positive": {
+        "status": "unknown",
+        "value": null,
+        "confidence": 0,
+        "evidence_indices": [],
+        "source_urls": [],
+        "event_ids": [],
+        "rationale": "Нет допустимых датированных персональных свидетельств по этому свойству",
+        "support_type": "unknown"
+      },
+      "negative": {
+        "status": "unknown",
+        "value": null,
+        "confidence": 0,
+        "evidence_indices": [],
+        "source_urls": [],
+        "event_ids": [],
+        "rationale": "Нет допустимых датированных персональных свидетельств по этому свойству",
+        "support_type": "unknown"
+      }
+    },
+    "positive": null,
+    "negative": null,
+    "value": null,
+    "status": "unknown",
+    "difference": null,
+    "mass": null,
+    "measurement_model": "independent_poles",
+    "evidence_file": "evidence/independent-dossier-louise-mushikiwabo.json",
+    "evidence_basis": "b21e90cd204397b9c91ff7c6ba97110314498bc7cbdf2a395c55461e88a0a17d",
+    "at": "2026-10-15T17:32:27.509311+00:00",
+    "reason": "Каждое свойство оценивается независимо; разность и искусственное дополнение до пяти не вычисляются"
+  },
+  {
+    "object_id": "louise-mushikiwabo",
+    "scale_id": "russia-conflict-policy-evaluation",
+    "pole_scores": {
+      "positive": {
+        "status": "unknown",
+        "value": null,
+        "confidence": 0,
+        "evidence_indices": [],
+        "source_urls": [],
+        "event_ids": [],
+        "rationale": "В предоставленных фактах отсутствуют сведения о публичном оправдании Луизой Мушикивабо конкретных внешнеполитических действий России. Нет эпизодов, где она прямо выражала положительную оценку действий России в международных конфликтах.",
+        "support_type": "unknown",
+        "provenance": {
+          "raw_response_file": "evidence/independent_responses/d9bb24855f22491380dcf9864353f513f337805bbe0b4137018d8e3357c090a7.json",
+          "model": "gpt-4.1",
+          "at": "2026-10-15T17:32:27.506313+00:00",
+          "cache_key": "d9bb24855f22491380dcf9864353f513f337805bbe0b4137018d8e3357c090a7",
+          "original_proposal": {
+            "variable_id": "russia-conflict-policy-evaluation__positive",
+            "status": "unknown",
+            "value": null,
+            "confidence": 0,
+            "support_type": "unknown",
+            "rationale": "В предоставленных фактах отсутствуют сведения о публичном оправдании Луизой Мушикивабо конкретных внешнеполитических действий России. Нет эпизодов, где она прямо выражала положительную оценку действий России в международных конфликтах.",
+            "evidence_indices": []
+          }
+        },
+        "evidence_file": "evidence/independent-dossier-louise-mushikiwabo.json",
+        "evidence_basis": "b21e90cd204397b9c91ff7c6ba97110314498bc7cbdf2a395c55461e88a0a17d"
+      },
+      "negative": {
+        "status": "observed",
+        "value": 2,
+        "confidence": 0.85,
+        "evidence_indices": [
+          9,
+          15
+        ],
+        "source_urls": [
+          "https://www.francophonie.org/la-secretaire-generale-de-la-francophonie-demeure-extremement-preoccupee-par-la-persistance-de-2636"
+        ],
+        "event_ids": [
+          "mushikiwabo-oif-ukraine-statement-2023-02-24"
+        ],
+        "rationale": "В публичном заявлении 24 февраля 2023 года Луиза Мушикивабо в качестве генерального секретаря OIF прямо назвала российское нападение на Украину агрессией, выразила обеспокоенность и солидарность с украинским народом, а также обратила внимание на гражданские жертвы. Это соответствует ограниченному, но ясному проявлению публичной критики конкретных внешнеполитических действий России.",
+        "support_type": "positive_manifestation",
+        "provenance": {
+          "raw_response_file": "evidence/independent_responses/d9bb24855f22491380dcf9864353f513f337805bbe0b4137018d8e3357c090a7.json",
+          "model": "gpt-4.1",
+          "at": "2026-10-15T17:32:27.506313+00:00",
+          "cache_key": "d9bb24855f22491380dcf9864353f513f337805bbe0b4137018d8e3357c090a7",
+          "original_proposal": {
+            "variable_id": "russia-conflict-policy-evaluation__negative",
+            "status": "observed",
+            "value": 2,
+            "confidence": 0.85,
+            "support_type": "positive_manifestation",
+            "rationale": "В публичном заявлении 24 февраля 2023 года Луиза Мушикивабо в качестве генерального секретаря OIF прямо назвала российское нападение на Украину агрессией, выразила обеспокоенность и солидарность с украинским народом, а также обратила внимание на гражданские жертвы. Это соответствует ограниченному, но ясному проявлению публичной критики конкретных внешнеполитических действий России.",
+            "evidence_indices": [
+              9,
+              15
+            ]
+          }
+        },
+        "evidence_file": "evidence/independent-dossier-louise-mushikiwabo.json",
+        "evidence_basis": "b21e90cd204397b9c91ff7c6ba97110314498bc7cbdf2a395c55461e88a0a17d"
+      }
+    },
+    "positive": null,
+    "negative": 2,
+    "value": null,
+    "status": "partial",
+    "difference": null,
+    "mass": null,
+    "measurement_model": "independent_poles",
+    "evidence_file": "evidence/independent-dossier-louise-mushikiwabo.json",
+    "evidence_basis": "b21e90cd204397b9c91ff7c6ba97110314498bc7cbdf2a395c55461e88a0a17d",
+    "at": "2026-10-15T17:32:27.509311+00:00",
+    "reason": "Каждое свойство оценивается независимо; разность и искусственное дополнение до пяти не вычисляются"
+  },
+  {
+    "object_id": "louise-mushikiwabo",
+    "scale_id": "russia-isolation-sanctions",
+    "pole_scores": {
+      "positive": {
+        "status": "unknown",
+        "value": null,
+        "confidence": 0,
+        "evidence_indices": [],
+        "source_urls": [],
+        "event_ids": [],
+        "rationale": "Нет допустимых датированных персональных свидетельств по этому свойству",
+        "support_type": "unknown"
+      },
+      "negative": {
+        "status": "unknown",
+        "value": null,
+        "confidence": 0,
+        "evidence_indices": [],
+        "source_urls": [],
+        "event_ids": [],
+        "rationale": "Нет допустимых датированных персональных свидетельств по этому свойству",
+        "support_type": "unknown"
+      }
+    },
+    "positive": null,
+    "negative": null,
+    "value": null,
+    "status": "unknown",
+    "difference": null,
+    "mass": null,
+    "measurement_model": "independent_poles",
+    "evidence_file": "evidence/independent-dossier-louise-mushikiwabo.json",
+    "evidence_basis": "b21e90cd204397b9c91ff7c6ba97110314498bc7cbdf2a395c55461e88a0a17d",
+    "at": "2026-10-15T17:32:27.509311+00:00",
+    "reason": "Каждое свойство оценивается независимо; разность и искусственное дополнение до пяти не вычисляются"
+  }
+]

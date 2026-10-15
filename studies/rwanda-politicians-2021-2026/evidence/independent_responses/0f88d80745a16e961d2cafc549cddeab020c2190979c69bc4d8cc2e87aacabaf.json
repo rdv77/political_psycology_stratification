@@ -1,0 +1,227 @@
+{
+  "data": {
+    "ratings": [
+      {
+        "variable_id": "programmatic-renewal__positive",
+        "status": "observed",
+        "value": 2,
+        "confidence": 0.7,
+        "support_type": "positive_manifestation",
+        "rationale": "Дусенгийюмва заявлял о реформе выдачи разрешений на строительство с целью ускорения процесса (эпизод 3), что является примером программного изменения существующего порядка. Однако других примеров масштабных пересмотров курса не выявлено.",
+        "evidence_indices": [
+          3
+        ]
+      },
+      {
+        "variable_id": "programmatic-renewal__negative",
+        "status": "observed",
+        "value": 2,
+        "confidence": 0.7,
+        "support_type": "positive_manifestation",
+        "rationale": "В ряде эпизодов Дусенгийюмва связывал работу администрации с приоритетами правительства и действующими планами (эпизоды 0, 1), что свидетельствует о поддержке продолжения текущего курса.",
+        "evidence_indices": [
+          0,
+          1
+        ]
+      },
+      {
+        "variable_id": "government-course-assessment__positive",
+        "status": "observed",
+        "value": 2,
+        "confidence": 0.7,
+        "support_type": "positive_manifestation",
+        "rationale": "Дусенгийюмва публично связывал работу администрации с приоритетами правительства и реализовывал государственные программы (эпизоды 0, 1), что указывает на поддержку действующего курса.",
+        "evidence_indices": [
+          0,
+          1
+        ]
+      },
+      {
+        "variable_id": "government-course-assessment__negative",
+        "status": "unknown",
+        "value": null,
+        "confidence": 0.3,
+        "support_type": "unknown",
+        "rationale": "Не найдено прямых примеров публичной критики действующего государственного курса.",
+        "evidence_indices": []
+      },
+      {
+        "variable_id": "participation-administrative-direction__positive",
+        "status": "observed",
+        "value": 2,
+        "confidence": 0.7,
+        "support_type": "positive_manifestation",
+        "rationale": "В эпизоде 11 Дусенгийюмва прямо заявил о необходимости участия граждан в принятии решений, что подтверждает выраженность данного полюса.",
+        "evidence_indices": [
+          11
+        ]
+      },
+      {
+        "variable_id": "participation-administrative-direction__negative",
+        "status": "observed",
+        "value": 3,
+        "confidence": 0.8,
+        "support_type": "positive_manifestation",
+        "rationale": "В ряде эпизодов (1, 2, 10, 21) Дусенгийюмва использует административный стиль поручений, контроль исполнения и мобилизацию, что указывает на устойчивую выраженность этого полюса.",
+        "evidence_indices": [
+          1,
+          2,
+          10,
+          21
+        ]
+      },
+      {
+        "variable_id": "argumentation-evidence-values__positive",
+        "status": "observed",
+        "value": 2,
+        "confidence": 0.7,
+        "support_type": "positive_manifestation",
+        "rationale": "В эпизоде 4 Дусенгийюмва обосновывает контроль застройки использованием спутниковых данных, что является примером обращения к инструментам и данным.",
+        "evidence_indices": [
+          4
+        ]
+      },
+      {
+        "variable_id": "argumentation-evidence-values__negative",
+        "status": "observed",
+        "value": 2,
+        "confidence": 0.7,
+        "support_type": "positive_manifestation",
+        "rationale": "В эпизоде 23 Дусенгийюмва использует аргументацию через коллективную память и национальные символы (Kwibuka 30).",
+        "evidence_indices": [
+          23
+        ]
+      },
+      {
+        "variable_id": "market-state-instruments__positive",
+        "status": "observed",
+        "value": 2,
+        "confidence": 0.7,
+        "support_type": "positive_manifestation",
+        "rationale": "В эпизодах 6 и 7 Дусенгийюмва обращается к инвесторам, обещает содействие и использует предпринимательскую риторику, что свидетельствует о поддержке частной инициативы.",
+        "evidence_indices": [
+          6,
+          7
+        ]
+      },
+      {
+        "variable_id": "market-state-instruments__negative",
+        "status": "observed",
+        "value": 3,
+        "confidence": 0.8,
+        "support_type": "positive_manifestation",
+        "rationale": "В эпизодах 2, 3, 10, 21 Дусенгийюмва делает акцент на контроле, обязательных правилах и административных поручениях, что указывает на устойчивое использование государственных инструментов.",
+        "evidence_indices": [
+          2,
+          3,
+          10,
+          21
+        ]
+      },
+      {
+        "variable_id": "accessibility-growth-priorities__positive",
+        "status": "observed",
+        "value": 2,
+        "confidence": 0.7,
+        "support_type": "positive_manifestation",
+        "rationale": "В эпизоде 11 Дусенгийюмва обозначает развитие здравоохранения, образования и семейного благополучия как приоритеты, что соответствует расширению доступности базовых благ.",
+        "evidence_indices": [
+          11
+        ]
+      },
+      {
+        "variable_id": "accessibility-growth-priorities__negative",
+        "status": "observed",
+        "value": 2,
+        "confidence": 0.7,
+        "support_type": "positive_manifestation",
+        "rationale": "В эпизодах 6 и 7 присутствует акцент на инвестициях, рынке недвижимости и предпринимательстве, что соответствует приоритету роста и деловой активности.",
+        "evidence_indices": [
+          6,
+          7
+        ]
+      },
+      {
+        "variable_id": "external-domestic-resources__positive",
+        "status": "observed",
+        "value": 2,
+        "confidence": 0.7,
+        "support_type": "positive_manifestation",
+        "rationale": "В эпизодах 6, 8, 18 Дусенгийюмва участвует в международных партнерствах и сотрудничестве, что подтверждает привлечение внешних ресурсов, хотя конкретные финансовые соглашения не всегда раскрыты.",
+        "evidence_indices": [
+          6,
+          8,
+          18
+        ]
+      },
+      {
+        "variable_id": "external-domestic-resources__negative",
+        "status": "unknown",
+        "value": null,
+        "confidence": 0.3,
+        "support_type": "unknown",
+        "rationale": "Нет прямых заявлений о приоритете внутренней ресурсной самостоятельности или снижении зависимости от внешних поступлений.",
+        "evidence_indices": []
+      },
+      {
+        "variable_id": "international-rules-autonomy__positive",
+        "status": "unknown",
+        "value": null,
+        "confidence": 0.3,
+        "support_type": "unknown",
+        "rationale": "Нет прямых заявлений о закреплении международных обязательств или поддержке обязательных международных норм.",
+        "evidence_indices": []
+      },
+      {
+        "variable_id": "international-rules-autonomy__negative",
+        "status": "unknown",
+        "value": null,
+        "confidence": 0.3,
+        "support_type": "unknown",
+        "rationale": "Нет прямых заявлений о защите национальной самостоятельности решений или возражении против внешнего навязывания.",
+        "evidence_indices": []
+      },
+      {
+        "variable_id": "mediation-adversarial-communication__positive",
+        "status": "unknown",
+        "value": null,
+        "confidence": 0.3,
+        "support_type": "unknown",
+        "rationale": "Не найдено прямых примеров посредничества или поиска согласования интересов сторон.",
+        "evidence_indices": []
+      },
+      {
+        "variable_id": "mediation-adversarial-communication__negative",
+        "status": "observed",
+        "value": 2,
+        "confidence": 0.7,
+        "support_type": "positive_manifestation",
+        "rationale": "В эпизоде 21 Дусенгийюмва предупреждает о действиях, наносящих ущерб имиджу страны, что свидетельствует о защите собственной стороны и репутации.",
+        "evidence_indices": [
+          21
+        ]
+      }
+    ]
+  },
+  "model": "gpt-4.1",
+  "task": "independent-ratings-samuel-dusengiyumva-0",
+  "at": "2026-10-15T17:31:31.541416+00:00",
+  "usage": {
+    "prompt_tokens": 9780,
+    "completion_tokens": 1929,
+    "total_tokens": 11709,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "audio_tokens": 0
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "audio_tokens": 0,
+      "accepted_prediction_tokens": 0,
+      "rejected_prediction_tokens": 0
+    }
+  },
+  "citations": [],
+  "system_fingerprint": "fp_801d3b7b5c",
+  "cache_key": "0f88d80745a16e961d2cafc549cddeab020c2190979c69bc4d8cc2e87aacabaf"
+}

@@ -1,0 +1,272 @@
+{
+  "object_id": "paul-rusesabagina",
+  "facts": [
+    {
+      "capacity": "Осуждённый; политическая деятельность ограничена заключением",
+      "channel": "official_act",
+      "event_id": "rusesabagina-sentence-commuted-release",
+      "period": "2023-03-24",
+      "source_url": "https://www.cnn.com/2023/03/24/africa/paul-rusesabagina-released-rwanda-intl/",
+      "text": "После смягчения президентом Руанды 25-летнего приговора Русесабагина был освобождён из заключения 24 марта 2023 года. Освобождение восстановило его физическую свободу, но само по себе не доказывает возвращение к политической деятельности.",
+      "topic_ids": [],
+      "original_fact_file": "evidence/paul-rusesabagina.json",
+      "original_fact_index": 5
+    },
+    {
+      "capacity": "Освобождённый оппозиционный критик; возвращающийся в США",
+      "channel": "attributed_report",
+      "event_id": "rusesabagina-sentence-commuted-release",
+      "period": "2023-03-24",
+      "source_url": "https://www.bbc.com/news/world-africa-65062977",
+      "text": "BBC сообщила, что Русесабагина освободили одновременно с Калликстом Нсабиманой, бывшим пресс-секретарём MRCD. Источник подтверждает транснациональный характер дела и связь освобождения с оппозиционной организационной структурой.",
+      "topic_ids": [],
+      "original_fact_file": "evidence/paul-rusesabagina.json",
+      "original_fact_index": 6
+    },
+    {
+      "capacity": "Проситель о помиловании; бывший руководитель MRCD",
+      "channel": "public_statement",
+      "event_id": "rusesabagina-pardon-letter",
+      "period": "2022-10",
+      "source_url": "https://www.lemonde.fr/en/international/article/2023/03/24/hotel-rwanda-hero-s-jail-sentence-commuted_6020529_4.html",
+      "text": "В письме с просьбой о помиловании, датированном октябрём 2022 года и опубликованном властями при освобождении, Русесабагина заявил, что после освобождения будет жить в США, отойдёт от политической жизни и не имеет дальнейших личных или политических амбиций. Это публично зафиксированное заявление, сделанное в контексте ходатайства о помиловании.",
+      "topic_ids": [],
+      "original_fact_file": "evidence/paul-rusesabagina.json",
+      "original_fact_index": 7
+    },
+    {
+      "capacity": "Бывший руководитель MRCD; автор письма о помиловании",
+      "channel": "public_statement",
+      "event_id": "rusesabagina-pardon-letter",
+      "period": "2022-10",
+      "source_url": "https://www.cnn.com/2023/03/24/africa/paul-rusesabagina-released-rwanda-intl/",
+      "text": "CNN пересказала содержание того же письма: Русесабагина выразил сожаление, что работа с MRCD могла быть связана с насильственными действиями FLN, и заявил о приверженности ненасильственным принципам. Источник не доказывает, что это заявление отражало его позицию вне процедуры освобождения.",
+      "topic_ids": [],
+      "original_fact_file": "evidence/paul-rusesabagina.json",
+      "original_fact_index": 8
+    },
+    {
+      "capacity": "Освобождённый политический деятель; бывший руководитель MRCD",
+      "channel": "attributed_report",
+      "event_id": "rusesabagina-postrelease-political-status",
+      "period": "2023-03-24",
+      "source_url": "https://www.lemonde.fr/en/international/article/2023/03/24/hotel-rwanda-hero-s-jail-sentence-commuted_6020529_4.html",
+      "text": "Le Monde описала Русесабагину как резкого критика президента Кагаме, освобождённого после смягчения приговора и направляющегося в США. В сочетании с письмом о выходе из политики это указывает на изменение публично заявленной стратегии: от оппозиционной мобилизации к отказу от дальнейшей политической активности.",
+      "topic_ids": [],
+      "original_fact_file": "evidence/paul-rusesabagina.json",
+      "original_fact_index": 9
+    },
+    {
+      "capacity": "правозащитник и политический оппонент в эмиграции",
+      "channel": "public_statement",
+      "event_id": "rusesabagina-2024-04-04-amanpour",
+      "period": "2024-04-04",
+      "source_url": "https://transcripts.cnn.com/show/ampr/date/2024-04-04/segment/01",
+      "text": "В телевизионном интервью Русесабагина обсуждал геноцид, последующие отношения с государством и заключение, связывая собственный опыт с критикой политической системы Руанды.",
+      "topic_ids": [
+        "government-course-assessment__negative",
+        "problem-disclosure-reputation-defence__positive",
+        "argumentation-evidence-values__negative"
+      ],
+      "evidence_origin": "retrieval_cited_not_independently_verified",
+      "retrieval_response": "evidence/independent_responses/2729fc2f9e1ced2032f286593d9d1c68e60873bd503c6f9e2070224cae73d0a1.json"
+    },
+    {
+      "capacity": "президент и основатель фонда; эмигрантский оппозиционный публичный деятель",
+      "channel": "public_statement",
+      "event_id": "rusesabagina-2024-04-15-npr",
+      "period": "2024-04-15",
+      "source_url": "https://www.npr.org/2024/04/15/1243989297/rwanda-genocide-hotel-rwanda-paul-rusesabagina",
+      "text": "В интервью Русесабагина заявил, что был похищен, предан суду и заключён, и продолжил выступать против правительства Руанды после возвращения в США.",
+      "topic_ids": [
+        "government-course-assessment__negative",
+        "problem-disclosure-reputation-defence__positive",
+        "mediation-adversarial-communication__negative"
+      ],
+      "evidence_origin": "retrieval_cited_not_independently_verified",
+      "retrieval_response": "evidence/independent_responses/2729fc2f9e1ced2032f286593d9d1c68e60873bd503c6f9e2070224cae73d0a1.json"
+    },
+    {
+      "capacity": "правозащитник и бывший руководитель оппозиционной коалиции",
+      "channel": "public_statement",
+      "event_id": "rusesabagina-2024-04-16-npr",
+      "period": "2024-04-16",
+      "source_url": "https://www.npr.org/2024/04/16/1198911260/paul-rusesabagina-hotel-rwanda-genocide",
+      "text": "В интервью Русесабагина подтвердил, что после освобождения не отказался от критики правительства, несмотря на ранее подписанное обращение о прекращении политических заявлений, и объяснил это обязанностью продолжать говорить.",
+      "topic_ids": [
+        "government-course-assessment__negative",
+        "mediation-adversarial-communication__negative",
+        "problem-disclosure-reputation-defence__positive"
+      ],
+      "evidence_origin": "retrieval_cited_not_independently_verified",
+      "retrieval_response": "evidence/independent_responses/2729fc2f9e1ced2032f286593d9d1c68e60873bd503c6f9e2070224cae73d0a1.json"
+    },
+    {
+      "capacity": "правозащитник и эмигрантский оппозиционный деятель",
+      "channel": "public_statement",
+      "event_id": "rusesabagina-2024-05-01-forbidden-stories",
+      "period": "2024-05-01",
+      "source_url": "https://forbiddenstories.org/paul-rusesabagina-no-one-can-silence-me/",
+      "text": "В интервью европейским журналистам Русесабагина говорил о предполагаемых угрозах со стороны властей Руанды и о будущем страны, выражая уверенность, что демократия в Руанде наступит.",
+      "topic_ids": [
+        "government-course-assessment__negative",
+        "problem-disclosure-reputation-defence__positive",
+        "electoral-access__positive"
+      ],
+      "evidence_origin": "retrieval_cited_not_independently_verified",
+      "retrieval_response": "evidence/independent_responses/2729fc2f9e1ced2032f286593d9d1c68e60873bd503c6f9e2070224cae73d0a1.json"
+    },
+    {
+      "capacity": "правозащитник и эмигрантский оппозиционный деятель",
+      "channel": "public_statement",
+      "event_id": "rusesabagina-2024-04-27-forbidden-stories",
+      "period": "2024-04-27",
+      "source_url": "https://forbiddenstories.org/paul-rusesabagina-no-one-can-silence-me/",
+      "text": "В интервью в рамках расследования Rwanda Classified Русесабагина призвал международное сообщество вмешаться в происходящее в Руанде, связывая международное внимание с предотвращением новых жертв.",
+      "topic_ids": [
+        "external-domestic-resources__positive",
+        "international-rules-autonomy__positive",
+        "prevention-crisis-response__positive"
+      ],
+      "evidence_origin": "retrieval_cited_not_independently_verified",
+      "retrieval_response": "evidence/independent_responses/2729fc2f9e1ced2032f286593d9d1c68e60873bd503c6f9e2070224cae73d0a1.json"
+    },
+    {
+      "capacity": "бывший лидер MRCD и освобождённый заключённый",
+      "channel": "public_statement",
+      "event_id": "rusesabagina-2022-10-14-clemency-letter",
+      "period": "2022-10-14",
+      "source_url": "https://www.straitstimes.com/world/united-states/hotel-rwanda-hero-paul-rusesabagina-freed-from-rwandan-jail",
+      "text": "В обращении о помиловании Русесабагина выразил сожаление, что не обеспечил соблюдение коалицией MRCD принципов ненасилия, и обозначил намерение после освобождения жить в США и отойти от политических вопросов.",
+      "topic_ids": [
+        "mediation-adversarial-communication__positive",
+        "prevention-crisis-response__positive"
+      ],
+      "evidence_origin": "retrieval_cited_not_independently_verified",
+      "retrieval_response": "evidence/independent_responses/2729fc2f9e1ced2032f286593d9d1c68e60873bd503c6f9e2070224cae73d0a1.json"
+    }
+  ],
+  "sources": [
+    {
+      "title": "Rwanda: Paul Rusesabagina Convicted in Flawed Trial",
+      "url": "https://www.hrw.org/news/2021/09/20/rwanda-paul-rusesabagina-convicted-flawed-trial"
+    },
+    {
+      "title": "Rwanda: IBAHRI condemns unfair trial leading to 25-year sentence for Paul Rusesabagina",
+      "url": "https://www.ibanet.org/Rwanda-IBAHRI-condemns-unfair-trial-of-Paul-Rusesabagina"
+    },
+    {
+      "title": "‘Hotel Rwanda’ hero to be released from Rwanda prison",
+      "url": "https://www.cnn.com/2023/03/24/africa/paul-rusesabagina-released-rwanda-intl/"
+    },
+    {
+      "title": "Paul Rusesabagina: Hotel Rwanda hero set free",
+      "url": "https://www.bbc.com/news/world-africa-65062977"
+    },
+    {
+      "title": "Hotel Rwanda hero's jail sentence commuted",
+      "url": "https://www.lemonde.fr/en/international/article/2023/03/24/hotel-rwanda-hero-s-jail-sentence-commuted_6020529_4.html"
+    },
+    {
+      "title": "World Report 2024 — Rwanda",
+      "url": "https://www.hrw.org/world-report/2024/country-chapters/rwanda"
+    },
+    {
+      "title": "Join Us or Die: Rwanda’s Extraterritorial Repression",
+      "url": "https://www.hrw.org/report/2023/10/10/join-us-or-die/rwandas-extraterritorial-repression"
+    },
+    {
+      "title": "Trial Observation Report: Rwanda vs. Paul Rusesabagina",
+      "url": "https://cfj.org/wp-content/uploads/2023/07/rwanda-paul-rusesabagina.pdf"
+    },
+    {
+      "title": "Rwanda: Paul Rusesabagina Convicted in Flawed Trial",
+      "url": "https://www.hrw.org/news/2021/09/20/rwanda-paul-rusesabagina-convicted-flawed-trial"
+    },
+    {
+      "title": "Rwanda: IBAHRI condemns unfair trial leading to 25-year sentence for Paul Rusesabagina",
+      "url": "https://www.ibanet.org/Rwanda-IBAHRI-condemns-unfair-trial-of-Paul-Rusesabagina"
+    },
+    {
+      "title": "‘Hotel Rwanda’ hero to be released from Rwanda prison",
+      "url": "https://www.cnn.com/2023/03/24/africa/paul-rusesabagina-released-rwanda-intl/"
+    },
+    {
+      "title": "Paul Rusesabagina: Hotel Rwanda hero set free",
+      "url": "https://www.bbc.com/news/world-africa-65062977"
+    },
+    {
+      "title": "Hotel Rwanda hero's jail sentence commuted",
+      "url": "https://www.lemonde.fr/en/international/article/2023/03/24/hotel-rwanda-hero-s-jail-sentence-commuted_6020529_4.html"
+    },
+    {
+      "title": "World Report 2024 — Rwanda",
+      "url": "https://www.hrw.org/world-report/2024/country-chapters/rwanda"
+    },
+    {
+      "title": "Join Us or Die: Rwanda’s Extraterritorial Repression",
+      "url": "https://www.hrw.org/report/2023/10/10/join-us-or-die/rwandas-extraterritorial-repression"
+    },
+    {
+      "title": "Trial Observation Report: Rwanda vs. Paul Rusesabagina",
+      "url": "https://cfj.org/wp-content/uploads/2023/07/rwanda-paul-rusesabagina.pdf"
+    },
+    {
+      "title": "European Parliament resolution of 7 October 2021 on the case of Paul Rusesabagina in Rwanda",
+      "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/PDF/?uri=CELEX:52021IP0418"
+    },
+    {
+      "title": "European Parliament procedure document summary: Resolution on the case of Paul Rusesabagina in Rwanda",
+      "url": "https://oeil.europarl.europa.eu/oeil/en/procedure-document-summary/pdf?id=1678224"
+    }
+  ],
+  "input_files": [
+    {
+      "file": "evidence/paul-rusesabagina.json",
+      "sha256": "42bd3208f02678592f9772c2963f91d7760d51e9b2d21573b74df0bbb94f50fa"
+    },
+    {
+      "file": "evidence/dossier_supplement-paul-rusesabagina.json",
+      "sha256": "43328b3f4d553ffa830011b213202dcfd70fc1b52f31ba74d6b70b97e8d8960a"
+    }
+  ],
+  "period": [
+    "2021-10-15",
+    "2026-10-15"
+  ],
+  "measurement_model": "independent_poles",
+  "basis": "c11783b2150e64544249cdf782c50e6252408d785db8c5c4534177beee050b46",
+  "retrieval_basis": "05a3c58113872b3031e49f1cc0d98ce420838e2daae2f762ce9dfe12fe0260d1",
+  "retrieval": {
+    "response_file": "evidence/independent_responses/2729fc2f9e1ced2032f286593d9d1c68e60873bd503c6f9e2070224cae73d0a1.json",
+    "citations": [
+      "https://www.presidency.ucsb.edu/documents/statement-the-release-united-states-permanent-resident-paul-rusesabagina-from-prison",
+      "https://transcripts.cnn.com/show/ampr/date/2024-04-04/segment/01",
+      "https://www.npr.org/2024/04/15/1243989297/rwanda-genocide-hotel-rwanda-paul-rusesabagina",
+      "https://www.nytimes.com/2024/04/06/opinion/hotel-rwanda-genocide-anniversary.html?eafs_enabled=false",
+      "https://forbiddenstories.org/paul-rusesabagina-no-one-can-silence-me/",
+      "https://www.amnesty.be/IMG/pdf/20210920_public_statement_rwanda.pdf",
+      "https://en.wikipedia.org/wiki/Paul_Rusesabagina",
+      "https://www.pbs.org/video/april-4-2024-6mu2ew/",
+      "https://www.straitstimes.com/world/united-states/hotel-rwanda-hero-paul-rusesabagina-freed-from-rwandan-jail",
+      "https://www.npr.org/2024/04/16/1198911260/paul-rusesabagina-hotel-rwanda-genocide"
+    ],
+    "accepted_fact_count": 6,
+    "added_fact_count": 6,
+    "limitations": "Доступные результаты дают девять пригодных датированных эпизодов, а не требуемые 18–24. Большинство материалов относится к защите прав, критике правительства Руанды, судебному делу и публичной деятельности в эмиграции; подтверждений самостоятельных программ по экономике, налогам, экологии, социальному обеспечению или конкретной электоральной реформе недостаточно. Не следует превращать должность, обвинения властей или факт освобождения в доказательство личной политической позиции. Часть материалов вторична или журналистски пересказывает интервью; первичных официальных документов и полных стенограмм в имеющейся выдаче недостаточно. Даты 2024-04-27 и 2024-05-01 указаны как даты интервью, а не обязательно даты публикации.",
+    "at": "2026-10-15T17:23:24.277557+00:00"
+  },
+  "scope_binding_receipt": {
+    "at": "2026-10-15T17:27:42.034171+00:00",
+    "previous_retrieval_basis": "dd6be3287f3e95e42f9b003554e05b573c063f035aef5b497127f720dfdbc77b",
+    "scope": "Государственное и парламентское руководство, заметные отраслевые управленцы, столица и провинции, легальная и ограниченная в участии оппозиция, эмиграция и явно обозначенные международные дипломаты. Целевая выборка ролей, не рейтинг известности.",
+    "aspect": "Публичный политический образ",
+    "reason": "Bind already completed same-scope retrieval to its exact unchanged approved scope; no score or source changed",
+    "approved_scope_snapshot": "attempts/paired_difference_2026-10-15/study.json"
+  },
+  "reviewed_russia_supplement": {
+    "path": "research/rwanda_politicians_2021_2026/russia_independent_poles_supplement.json",
+    "sha256": "94dfb6115a1031c4594341ba121dbce1eb6c458e67aff2e9bfe4264bf806af50",
+    "selected_fact_count": 0
+  }
+}

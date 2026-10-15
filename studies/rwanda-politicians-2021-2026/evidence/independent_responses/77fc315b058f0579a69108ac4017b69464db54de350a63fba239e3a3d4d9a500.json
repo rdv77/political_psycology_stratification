@@ -1,0 +1,211 @@
+{
+  "data": {
+    "ratings": [
+      {
+        "variable_id": "programmatic-renewal__positive",
+        "status": "unknown",
+        "value": null,
+        "confidence": 0,
+        "support_type": "unknown",
+        "rationale": "Нет прямых персональных предложений Калинды о пересмотре действующих приоритетов, правил или программ в исследуемый период.",
+        "evidence_indices": []
+      },
+      {
+        "variable_id": "programmatic-renewal__negative",
+        "status": "observed",
+        "value": 2,
+        "confidence": 0.7,
+        "support_type": "positive_manifestation",
+        "rationale": "В ряде публичных выступлений Калинда подчёркивает продолжение исполнения существующих обязанностей и текущей модели управления (например, после переизбрания и на конференции ко Дню демократии), но не делает это определяющей чертой. Примеры: evidence_index 10, 11.",
+        "evidence_indices": [
+          10,
+          11
+        ]
+      },
+      {
+        "variable_id": "government-course-assessment__positive",
+        "status": "observed",
+        "value": 2,
+        "confidence": 0.7,
+        "support_type": "positive_manifestation",
+        "rationale": "Калинда публично описывает действующую модель управления как ставящую потребности граждан на первое место и связывает её с развитием и благополучием, что является позитивной оценкой курса, но без сильного повторяющегося акцента. Пример: evidence_index 10.",
+        "evidence_indices": [
+          10
+        ]
+      },
+      {
+        "variable_id": "government-course-assessment__negative",
+        "status": "unknown",
+        "value": null,
+        "confidence": 0,
+        "support_type": "unknown",
+        "rationale": "Нет прямых публичных критических оценок Калиндой действующего государственного курса в исследуемый период.",
+        "evidence_indices": []
+      },
+      {
+        "variable_id": "participation-administrative-direction__positive",
+        "status": "observed",
+        "value": 2,
+        "confidence": 0.7,
+        "support_type": "positive_manifestation",
+        "rationale": "Калинда подчёркивает важность консультаций и совместного обсуждения (например, после переизбрания и в антикоррупционной встрече), однако нет устойчивого акцента на расширении общественного контроля. Примеры: evidence_index 9, 11.",
+        "evidence_indices": [
+          9,
+          11
+        ]
+      },
+      {
+        "variable_id": "participation-administrative-direction__negative",
+        "status": "observed",
+        "value": 2,
+        "confidence": 0.7,
+        "support_type": "positive_manifestation",
+        "rationale": "В ряде случаев Калинда публично поручает контроль исполнения и административные задачи (например, контроль использования ресурсов, антикоррупционные резолюции), но это не является определяющей чертой. Примеры: evidence_index 9, 15.",
+        "evidence_indices": [
+          9,
+          15
+        ]
+      },
+      {
+        "variable_id": "argumentation-evidence-values__positive",
+        "status": "unknown",
+        "value": null,
+        "confidence": 0,
+        "support_type": "unknown",
+        "rationale": "Нет прямых примеров использования Калиндой данных, расчётов или ссылок на исследования как основы публичной аргументации.",
+        "evidence_indices": []
+      },
+      {
+        "variable_id": "argumentation-evidence-values__negative",
+        "status": "observed",
+        "value": 2,
+        "confidence": 0.7,
+        "support_type": "positive_manifestation",
+        "rationale": "В ряде случаев Калинда использует ценностную аргументацию (например, борьба с коррупцией как общая обязанность, профилактика идеологии геноцида), но не делает это устойчивым акцентом. Примеры: evidence_index 9, 14.",
+        "evidence_indices": [
+          9,
+          14
+        ]
+      },
+      {
+        "variable_id": "market-state-instruments__positive",
+        "status": "unknown",
+        "value": null,
+        "confidence": 0,
+        "support_type": "unknown",
+        "rationale": "Нет прямых персональных предложений Калинды о расширении частной инициативы или управления.",
+        "evidence_indices": []
+      },
+      {
+        "variable_id": "market-state-instruments__negative",
+        "status": "unknown",
+        "value": null,
+        "confidence": 0,
+        "support_type": "unknown",
+        "rationale": "Нет прямых персональных предложений Калинды о расширении государственного планирования и обязательных правил; действия Сената не приписываются индивидуальной позиции.",
+        "evidence_indices": []
+      },
+      {
+        "variable_id": "accessibility-growth-priorities__positive",
+        "status": "unknown",
+        "value": null,
+        "confidence": 0,
+        "support_type": "unknown",
+        "rationale": "Нет прямых заявлений Калинды о приоритете расширения доступности базовых благ для населения.",
+        "evidence_indices": []
+      },
+      {
+        "variable_id": "accessibility-growth-priorities__negative",
+        "status": "unknown",
+        "value": null,
+        "confidence": 0,
+        "support_type": "unknown",
+        "rationale": "Нет прямых заявлений Калинды о приоритете роста инвестиций, конкурентоспособности и деловой активности.",
+        "evidence_indices": []
+      },
+      {
+        "variable_id": "external-domestic-resources__positive",
+        "status": "unknown",
+        "value": null,
+        "confidence": 0,
+        "support_type": "unknown",
+        "rationale": "Нет прямых персональных предложений Калинды о привлечении внешнего финансирования или ресурсных партнёров.",
+        "evidence_indices": []
+      },
+      {
+        "variable_id": "external-domestic-resources__negative",
+        "status": "unknown",
+        "value": null,
+        "confidence": 0,
+        "support_type": "unknown",
+        "rationale": "Нет прямых персональных предложений Калинды о приоритете внутренних доходов и хозяйственной самостоятельности.",
+        "evidence_indices": []
+      },
+      {
+        "variable_id": "international-rules-autonomy__positive",
+        "status": "unknown",
+        "value": null,
+        "confidence": 0,
+        "support_type": "unknown",
+        "rationale": "Нет прямых предложений Калинды о закреплении обязательных международных норм или договоров.",
+        "evidence_indices": []
+      },
+      {
+        "variable_id": "international-rules-autonomy__negative",
+        "status": "unknown",
+        "value": null,
+        "confidence": 0,
+        "support_type": "unknown",
+        "rationale": "Нет прямых заявлений Калинды о защите национальной самостоятельности решений.",
+        "evidence_indices": []
+      },
+      {
+        "variable_id": "mediation-adversarial-communication__positive",
+        "status": "observed",
+        "value": 3,
+        "confidence": 0.8,
+        "support_type": "positive_manifestation",
+        "rationale": "Калинда регулярно участвует в переговорах, межпарламентских встречах и обсуждениях сотрудничества, что подтверждает устойчивый публичный акцент на посредничестве и согласовании (например, встречи с парламентами Танзании, Бурунди, Алжира, участие в международных форумах). Примеры: evidence_index 2, 4, 13, 17, 18.",
+        "evidence_indices": [
+          2,
+          4,
+          13,
+          17,
+          18
+        ]
+      },
+      {
+        "variable_id": "mediation-adversarial-communication__negative",
+        "status": "observed",
+        "value": 1,
+        "confidence": 0.6,
+        "support_type": "positive_manifestation",
+        "rationale": "В одном эпизоде Калинда публично защищает позицию Руанды по угрозе безопасности (FDLR), что можно трактовать как единичное проявление защиты собственной стороны. Пример: evidence_index 19.",
+        "evidence_indices": [
+          19
+        ]
+      }
+    ]
+  },
+  "model": "gpt-4.1",
+  "task": "independent-ratings-francois-xavier-kalinda-0",
+  "at": "2026-10-15T17:31:08.916098+00:00",
+  "usage": {
+    "prompt_tokens": 8499,
+    "completion_tokens": 1429,
+    "total_tokens": 9928,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "audio_tokens": 0
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "audio_tokens": 0,
+      "accepted_prediction_tokens": 0,
+      "rejected_prediction_tokens": 0
+    }
+  },
+  "citations": [],
+  "system_fingerprint": "fp_801d3b7b5c",
+  "cache_key": "77fc315b058f0579a69108ac4017b69464db54de350a63fba239e3a3d4d9a500"
+}

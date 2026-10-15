@@ -1,0 +1,1613 @@
+[
+  {
+    "object_id": "paul-kagame",
+    "scale_id": "programmatic-renewal",
+    "pole_scores": {
+      "positive": {
+        "status": "unknown",
+        "value": null,
+        "confidence": 0,
+        "evidence_indices": [],
+        "source_urls": [],
+        "event_ids": [],
+        "rationale": "В доступных фактах отсутствуют прямые датированные предложения Кагаме о пересмотре действующих приоритетов, правил или программ. Все выявленные заявления касаются продолжения курса, а не его изменения.",
+        "support_type": "unknown",
+        "provenance": {
+          "raw_response_file": "evidence/independent_responses/24e3c5bb80ed61f61e2378acfe7cdbc5c7fee3b0f0519df5d70a53b1262aaff0.json",
+          "model": "gpt-4.1",
+          "at": "2026-10-15T17:29:02.724521+00:00",
+          "cache_key": "24e3c5bb80ed61f61e2378acfe7cdbc5c7fee3b0f0519df5d70a53b1262aaff0",
+          "original_proposal": {
+            "variable_id": "programmatic-renewal__positive",
+            "status": "unknown",
+            "value": null,
+            "confidence": 0,
+            "support_type": "unknown",
+            "rationale": "В доступных фактах отсутствуют прямые датированные предложения Кагаме о пересмотре действующих приоритетов, правил или программ. Все выявленные заявления касаются продолжения курса, а не его изменения.",
+            "evidence_indices": []
+          }
+        },
+        "evidence_file": "evidence/independent-dossier-paul-kagame.json",
+        "evidence_basis": "07556b44e49568134e0b150483e9301095c2bae033b9a5bb491998b2daddf60f"
+      },
+      "negative": {
+        "status": "observed",
+        "value": 3,
+        "confidence": 0.9,
+        "evidence_indices": [
+          0,
+          1,
+          13,
+          14
+        ],
+        "source_urls": [
+          "https://en.wikipedia.org/wiki/2024_Rwandan_presidential_election",
+          "https://jp.reuters.com/article/world/rwandas-veteran-president-kagame-to-seek-re-election-in-2024-idUSKBN30Q0LL/",
+          "https://www.reuters.com/world/africa/rwandas-president-kagame-sworn-into-office-2024-08-11/"
+        ],
+        "event_ids": [
+          "rw-kagame-fourth-term-intent-2022",
+          "rw-kagame-candidacy-2023",
+          "rw-elections-2024-results"
+        ],
+        "rationale": "Кагаме неоднократно публично заявлял о намерении баллотироваться на новый срок (2022, 2023), связывая это с доверием граждан и продолжением служения. В заявлениях нет призывов к пересмотру курса, а акцент делается на преемственности и закреплении действующего порядка. Это устойчивый публичный акцент, подтверждённый несколькими эпизодами.",
+        "support_type": "positive_manifestation",
+        "provenance": {
+          "raw_response_file": "evidence/independent_responses/24e3c5bb80ed61f61e2378acfe7cdbc5c7fee3b0f0519df5d70a53b1262aaff0.json",
+          "model": "gpt-4.1",
+          "at": "2026-10-15T17:29:02.724521+00:00",
+          "cache_key": "24e3c5bb80ed61f61e2378acfe7cdbc5c7fee3b0f0519df5d70a53b1262aaff0",
+          "original_proposal": {
+            "variable_id": "programmatic-renewal__negative",
+            "status": "observed",
+            "value": 3,
+            "confidence": 0.9,
+            "support_type": "positive_manifestation",
+            "rationale": "Кагаме неоднократно публично заявлял о намерении баллотироваться на новый срок (2022, 2023), связывая это с доверием граждан и продолжением служения. В заявлениях нет призывов к пересмотру курса, а акцент делается на преемственности и закреплении действующего порядка. Это устойчивый публичный акцент, подтверждённый несколькими эпизодами.",
+            "evidence_indices": [
+              0,
+              1,
+              13,
+              14
+            ]
+          }
+        },
+        "evidence_file": "evidence/independent-dossier-paul-kagame.json",
+        "evidence_basis": "07556b44e49568134e0b150483e9301095c2bae033b9a5bb491998b2daddf60f"
+      }
+    },
+    "positive": null,
+    "negative": 3,
+    "value": null,
+    "status": "partial",
+    "difference": null,
+    "mass": null,
+    "measurement_model": "independent_poles",
+    "evidence_file": "evidence/independent-dossier-paul-kagame.json",
+    "evidence_basis": "07556b44e49568134e0b150483e9301095c2bae033b9a5bb491998b2daddf60f",
+    "at": "2026-10-15T17:29:12.851314+00:00",
+    "reason": "Каждое свойство оценивается независимо; разность и искусственное дополнение до пяти не вычисляются"
+  },
+  {
+    "object_id": "paul-kagame",
+    "scale_id": "government-course-assessment",
+    "pole_scores": {
+      "positive": {
+        "status": "observed",
+        "value": 2,
+        "confidence": 0.7,
+        "evidence_indices": [
+          1,
+          13
+        ],
+        "source_urls": [
+          "https://en.wikipedia.org/wiki/2024_Rwandan_presidential_election",
+          "https://jp.reuters.com/article/world/rwandas-veteran-president-kagame-to-seek-re-election-in-2024-idUSKBN30Q0LL/"
+        ],
+        "event_ids": [
+          "rw-kagame-candidacy-2023"
+        ],
+        "rationale": "Кагаме в публичных заявлениях связывает своё выдвижение с доверием граждан и готовностью продолжать служение, что подразумевает положительную оценку действующего курса. Однако прямых развёрнутых оценок достижений или проблем государственного курса в доступных фактах не найдено.",
+        "support_type": "positive_manifestation",
+        "provenance": {
+          "raw_response_file": "evidence/independent_responses/24e3c5bb80ed61f61e2378acfe7cdbc5c7fee3b0f0519df5d70a53b1262aaff0.json",
+          "model": "gpt-4.1",
+          "at": "2026-10-15T17:29:02.724521+00:00",
+          "cache_key": "24e3c5bb80ed61f61e2378acfe7cdbc5c7fee3b0f0519df5d70a53b1262aaff0",
+          "original_proposal": {
+            "variable_id": "government-course-assessment__positive",
+            "status": "observed",
+            "value": 2,
+            "confidence": 0.7,
+            "support_type": "positive_manifestation",
+            "rationale": "Кагаме в публичных заявлениях связывает своё выдвижение с доверием граждан и готовностью продолжать служение, что подразумевает положительную оценку действующего курса. Однако прямых развёрнутых оценок достижений или проблем государственного курса в доступных фактах не найдено.",
+            "evidence_indices": [
+              1,
+              13
+            ]
+          }
+        },
+        "evidence_file": "evidence/independent-dossier-paul-kagame.json",
+        "evidence_basis": "07556b44e49568134e0b150483e9301095c2bae033b9a5bb491998b2daddf60f"
+      },
+      "negative": {
+        "status": "unknown",
+        "value": null,
+        "confidence": 0,
+        "evidence_indices": [],
+        "source_urls": [],
+        "event_ids": [],
+        "rationale": "Нет прямых публичных заявлений Кагаме с критикой действующего государственного курса. Критика со стороны правозащитных организаций не является его личной позицией.",
+        "support_type": "unknown",
+        "provenance": {
+          "raw_response_file": "evidence/independent_responses/24e3c5bb80ed61f61e2378acfe7cdbc5c7fee3b0f0519df5d70a53b1262aaff0.json",
+          "model": "gpt-4.1",
+          "at": "2026-10-15T17:29:02.724521+00:00",
+          "cache_key": "24e3c5bb80ed61f61e2378acfe7cdbc5c7fee3b0f0519df5d70a53b1262aaff0",
+          "original_proposal": {
+            "variable_id": "government-course-assessment__negative",
+            "status": "unknown",
+            "value": null,
+            "confidence": 0,
+            "support_type": "unknown",
+            "rationale": "Нет прямых публичных заявлений Кагаме с критикой действующего государственного курса. Критика со стороны правозащитных организаций не является его личной позицией.",
+            "evidence_indices": []
+          }
+        },
+        "evidence_file": "evidence/independent-dossier-paul-kagame.json",
+        "evidence_basis": "07556b44e49568134e0b150483e9301095c2bae033b9a5bb491998b2daddf60f"
+      }
+    },
+    "positive": 2,
+    "negative": null,
+    "value": null,
+    "status": "partial",
+    "difference": null,
+    "mass": null,
+    "measurement_model": "independent_poles",
+    "evidence_file": "evidence/independent-dossier-paul-kagame.json",
+    "evidence_basis": "07556b44e49568134e0b150483e9301095c2bae033b9a5bb491998b2daddf60f",
+    "at": "2026-10-15T17:29:12.851314+00:00",
+    "reason": "Каждое свойство оценивается независимо; разность и искусственное дополнение до пяти не вычисляются"
+  },
+  {
+    "object_id": "paul-kagame",
+    "scale_id": "participation-administrative-direction",
+    "pole_scores": {
+      "positive": {
+        "status": "unknown",
+        "value": null,
+        "confidence": 0,
+        "evidence_indices": [],
+        "source_urls": [],
+        "event_ids": [],
+        "rationale": "В доступных материалах отсутствуют прямые эпизоды, где Кагаме приглашает граждан или группы к совместному обсуждению или контролю решений.",
+        "support_type": "unknown",
+        "provenance": {
+          "raw_response_file": "evidence/independent_responses/24e3c5bb80ed61f61e2378acfe7cdbc5c7fee3b0f0519df5d70a53b1262aaff0.json",
+          "model": "gpt-4.1",
+          "at": "2026-10-15T17:29:02.724521+00:00",
+          "cache_key": "24e3c5bb80ed61f61e2378acfe7cdbc5c7fee3b0f0519df5d70a53b1262aaff0",
+          "original_proposal": {
+            "variable_id": "participation-administrative-direction__positive",
+            "status": "unknown",
+            "value": null,
+            "confidence": 0,
+            "support_type": "unknown",
+            "rationale": "В доступных материалах отсутствуют прямые эпизоды, где Кагаме приглашает граждан или группы к совместному обсуждению или контролю решений.",
+            "evidence_indices": []
+          }
+        },
+        "evidence_file": "evidence/independent-dossier-paul-kagame.json",
+        "evidence_basis": "07556b44e49568134e0b150483e9301095c2bae033b9a5bb491998b2daddf60f"
+      },
+      "negative": {
+        "status": "observed",
+        "value": 2,
+        "confidence": 0.7,
+        "evidence_indices": [
+          2,
+          4,
+          14,
+          16
+        ],
+        "source_urls": [
+          "https://www.reuters.com/world/africa/rwandas-president-kagame-sworn-into-office-2024-08-11/",
+          "https://monitor.civicus.org/explore/restrictions-persist-amidst-rwandas-elections/",
+          "https://www.hrw.org/news/2024/06/14/rwanda-respect-rights-during-elections"
+        ],
+        "event_ids": [
+          "rw-elections-2024-results",
+          "rw-opposition-candidates-2024",
+          "rw-opposition-prisoners-2022-2024"
+        ],
+        "rationale": "Ограничения электоральной конкуренции (отстранение кандидатов, закрытое политическое пространство) и акцент на административном контроле над процессом выборов указывают на преобладание административной постановки задач и контроля исполнения. Однако прямых публичных поручений или командных заявлений Кагаме в доступных фактах немного.",
+        "support_type": "positive_manifestation",
+        "provenance": {
+          "raw_response_file": "evidence/independent_responses/24e3c5bb80ed61f61e2378acfe7cdbc5c7fee3b0f0519df5d70a53b1262aaff0.json",
+          "model": "gpt-4.1",
+          "at": "2026-10-15T17:29:02.724521+00:00",
+          "cache_key": "24e3c5bb80ed61f61e2378acfe7cdbc5c7fee3b0f0519df5d70a53b1262aaff0",
+          "original_proposal": {
+            "variable_id": "participation-administrative-direction__negative",
+            "status": "observed",
+            "value": 2,
+            "confidence": 0.7,
+            "support_type": "positive_manifestation",
+            "rationale": "Ограничения электоральной конкуренции (отстранение кандидатов, закрытое политическое пространство) и акцент на административном контроле над процессом выборов указывают на преобладание административной постановки задач и контроля исполнения. Однако прямых публичных поручений или командных заявлений Кагаме в доступных фактах немного.",
+            "evidence_indices": [
+              2,
+              4,
+              14,
+              16
+            ]
+          }
+        },
+        "evidence_file": "evidence/independent-dossier-paul-kagame.json",
+        "evidence_basis": "07556b44e49568134e0b150483e9301095c2bae033b9a5bb491998b2daddf60f"
+      }
+    },
+    "positive": null,
+    "negative": 2,
+    "value": null,
+    "status": "partial",
+    "difference": null,
+    "mass": null,
+    "measurement_model": "independent_poles",
+    "evidence_file": "evidence/independent-dossier-paul-kagame.json",
+    "evidence_basis": "07556b44e49568134e0b150483e9301095c2bae033b9a5bb491998b2daddf60f",
+    "at": "2026-10-15T17:29:12.851314+00:00",
+    "reason": "Каждое свойство оценивается независимо; разность и искусственное дополнение до пяти не вычисляются"
+  },
+  {
+    "object_id": "paul-kagame",
+    "scale_id": "argumentation-evidence-values",
+    "pole_scores": {
+      "positive": {
+        "status": "unknown",
+        "value": null,
+        "confidence": 0,
+        "evidence_indices": [],
+        "source_urls": [],
+        "event_ids": [],
+        "rationale": "Нет примеров, где Кагаме обосновывает решения через данные, расчёты или проверяемые результаты.",
+        "support_type": "unknown",
+        "provenance": {
+          "raw_response_file": "evidence/independent_responses/24e3c5bb80ed61f61e2378acfe7cdbc5c7fee3b0f0519df5d70a53b1262aaff0.json",
+          "model": "gpt-4.1",
+          "at": "2026-10-15T17:29:02.724521+00:00",
+          "cache_key": "24e3c5bb80ed61f61e2378acfe7cdbc5c7fee3b0f0519df5d70a53b1262aaff0",
+          "original_proposal": {
+            "variable_id": "argumentation-evidence-values__positive",
+            "status": "unknown",
+            "value": null,
+            "confidence": 0,
+            "support_type": "unknown",
+            "rationale": "Нет примеров, где Кагаме обосновывает решения через данные, расчёты или проверяемые результаты.",
+            "evidence_indices": []
+          }
+        },
+        "evidence_file": "evidence/independent-dossier-paul-kagame.json",
+        "evidence_basis": "07556b44e49568134e0b150483e9301095c2bae033b9a5bb491998b2daddf60f"
+      },
+      "negative": {
+        "status": "observed",
+        "value": 2,
+        "confidence": 0.7,
+        "evidence_indices": [
+          1,
+          13
+        ],
+        "source_urls": [
+          "https://en.wikipedia.org/wiki/2024_Rwandan_presidential_election",
+          "https://jp.reuters.com/article/world/rwandas-veteran-president-kagame-to-seek-re-election-in-2024-idUSKBN30Q0LL/"
+        ],
+        "event_ids": [
+          "rw-kagame-candidacy-2023"
+        ],
+        "rationale": "В заявлениях о выдвижении Кагаме ссылается на доверие граждан и служение стране, что является апелляцией к коллективным ценностям и символам, а не к данным или исследованиям.",
+        "support_type": "positive_manifestation",
+        "provenance": {
+          "raw_response_file": "evidence/independent_responses/24e3c5bb80ed61f61e2378acfe7cdbc5c7fee3b0f0519df5d70a53b1262aaff0.json",
+          "model": "gpt-4.1",
+          "at": "2026-10-15T17:29:02.724521+00:00",
+          "cache_key": "24e3c5bb80ed61f61e2378acfe7cdbc5c7fee3b0f0519df5d70a53b1262aaff0",
+          "original_proposal": {
+            "variable_id": "argumentation-evidence-values__negative",
+            "status": "observed",
+            "value": 2,
+            "confidence": 0.7,
+            "support_type": "positive_manifestation",
+            "rationale": "В заявлениях о выдвижении Кагаме ссылается на доверие граждан и служение стране, что является апелляцией к коллективным ценностям и символам, а не к данным или исследованиям.",
+            "evidence_indices": [
+              1,
+              13
+            ]
+          }
+        },
+        "evidence_file": "evidence/independent-dossier-paul-kagame.json",
+        "evidence_basis": "07556b44e49568134e0b150483e9301095c2bae033b9a5bb491998b2daddf60f"
+      }
+    },
+    "positive": null,
+    "negative": 2,
+    "value": null,
+    "status": "partial",
+    "difference": null,
+    "mass": null,
+    "measurement_model": "independent_poles",
+    "evidence_file": "evidence/independent-dossier-paul-kagame.json",
+    "evidence_basis": "07556b44e49568134e0b150483e9301095c2bae033b9a5bb491998b2daddf60f",
+    "at": "2026-10-15T17:29:12.851314+00:00",
+    "reason": "Каждое свойство оценивается независимо; разность и искусственное дополнение до пяти не вычисляются"
+  },
+  {
+    "object_id": "paul-kagame",
+    "scale_id": "market-state-instruments",
+    "pole_scores": {
+      "positive": {
+        "status": "unknown",
+        "value": null,
+        "confidence": 0,
+        "evidence_indices": [],
+        "source_urls": [],
+        "event_ids": [],
+        "rationale": "В доступных фактах отсутствуют прямые заявления или действия Кагаме по расширению частной инициативы и управления.",
+        "support_type": "unknown",
+        "provenance": {
+          "raw_response_file": "evidence/independent_responses/24e3c5bb80ed61f61e2378acfe7cdbc5c7fee3b0f0519df5d70a53b1262aaff0.json",
+          "model": "gpt-4.1",
+          "at": "2026-10-15T17:29:02.724521+00:00",
+          "cache_key": "24e3c5bb80ed61f61e2378acfe7cdbc5c7fee3b0f0519df5d70a53b1262aaff0",
+          "original_proposal": {
+            "variable_id": "market-state-instruments__positive",
+            "status": "unknown",
+            "value": null,
+            "confidence": 0,
+            "support_type": "unknown",
+            "rationale": "В доступных фактах отсутствуют прямые заявления или действия Кагаме по расширению частной инициативы и управления.",
+            "evidence_indices": []
+          }
+        },
+        "evidence_file": "evidence/independent-dossier-paul-kagame.json",
+        "evidence_basis": "07556b44e49568134e0b150483e9301095c2bae033b9a5bb491998b2daddf60f"
+      },
+      "negative": {
+        "status": "unknown",
+        "value": null,
+        "confidence": 0,
+        "evidence_indices": [],
+        "source_urls": [],
+        "event_ids": [],
+        "rationale": "Нет прямых эпизодов, где Кагаме бы акцентировал расширение государственного планирования или обязательных правил.",
+        "support_type": "unknown",
+        "provenance": {
+          "raw_response_file": "evidence/independent_responses/24e3c5bb80ed61f61e2378acfe7cdbc5c7fee3b0f0519df5d70a53b1262aaff0.json",
+          "model": "gpt-4.1",
+          "at": "2026-10-15T17:29:02.724521+00:00",
+          "cache_key": "24e3c5bb80ed61f61e2378acfe7cdbc5c7fee3b0f0519df5d70a53b1262aaff0",
+          "original_proposal": {
+            "variable_id": "market-state-instruments__negative",
+            "status": "unknown",
+            "value": null,
+            "confidence": 0,
+            "support_type": "unknown",
+            "rationale": "Нет прямых эпизодов, где Кагаме бы акцентировал расширение государственного планирования или обязательных правил.",
+            "evidence_indices": []
+          }
+        },
+        "evidence_file": "evidence/independent-dossier-paul-kagame.json",
+        "evidence_basis": "07556b44e49568134e0b150483e9301095c2bae033b9a5bb491998b2daddf60f"
+      }
+    },
+    "positive": null,
+    "negative": null,
+    "value": null,
+    "status": "unknown",
+    "difference": null,
+    "mass": null,
+    "measurement_model": "independent_poles",
+    "evidence_file": "evidence/independent-dossier-paul-kagame.json",
+    "evidence_basis": "07556b44e49568134e0b150483e9301095c2bae033b9a5bb491998b2daddf60f",
+    "at": "2026-10-15T17:29:12.851314+00:00",
+    "reason": "Каждое свойство оценивается независимо; разность и искусственное дополнение до пяти не вычисляются"
+  },
+  {
+    "object_id": "paul-kagame",
+    "scale_id": "accessibility-growth-priorities",
+    "pole_scores": {
+      "positive": {
+        "status": "unknown",
+        "value": null,
+        "confidence": 0,
+        "evidence_indices": [],
+        "source_urls": [],
+        "event_ids": [],
+        "rationale": "В доступных материалах нет прямых заявлений Кагаме о приоритете расширения доступности базовых благ.",
+        "support_type": "unknown",
+        "provenance": {
+          "raw_response_file": "evidence/independent_responses/24e3c5bb80ed61f61e2378acfe7cdbc5c7fee3b0f0519df5d70a53b1262aaff0.json",
+          "model": "gpt-4.1",
+          "at": "2026-10-15T17:29:02.724521+00:00",
+          "cache_key": "24e3c5bb80ed61f61e2378acfe7cdbc5c7fee3b0f0519df5d70a53b1262aaff0",
+          "original_proposal": {
+            "variable_id": "accessibility-growth-priorities__positive",
+            "status": "unknown",
+            "value": null,
+            "confidence": 0,
+            "support_type": "unknown",
+            "rationale": "В доступных материалах нет прямых заявлений Кагаме о приоритете расширения доступности базовых благ.",
+            "evidence_indices": []
+          }
+        },
+        "evidence_file": "evidence/independent-dossier-paul-kagame.json",
+        "evidence_basis": "07556b44e49568134e0b150483e9301095c2bae033b9a5bb491998b2daddf60f"
+      },
+      "negative": {
+        "status": "unknown",
+        "value": null,
+        "confidence": 0,
+        "evidence_indices": [],
+        "source_urls": [],
+        "event_ids": [],
+        "rationale": "Нет прямых заявлений Кагаме о приоритете роста инвестиций, конкурентоспособности или деловой активности.",
+        "support_type": "unknown",
+        "provenance": {
+          "raw_response_file": "evidence/independent_responses/24e3c5bb80ed61f61e2378acfe7cdbc5c7fee3b0f0519df5d70a53b1262aaff0.json",
+          "model": "gpt-4.1",
+          "at": "2026-10-15T17:29:02.724521+00:00",
+          "cache_key": "24e3c5bb80ed61f61e2378acfe7cdbc5c7fee3b0f0519df5d70a53b1262aaff0",
+          "original_proposal": {
+            "variable_id": "accessibility-growth-priorities__negative",
+            "status": "unknown",
+            "value": null,
+            "confidence": 0,
+            "support_type": "unknown",
+            "rationale": "Нет прямых заявлений Кагаме о приоритете роста инвестиций, конкурентоспособности или деловой активности.",
+            "evidence_indices": []
+          }
+        },
+        "evidence_file": "evidence/independent-dossier-paul-kagame.json",
+        "evidence_basis": "07556b44e49568134e0b150483e9301095c2bae033b9a5bb491998b2daddf60f"
+      }
+    },
+    "positive": null,
+    "negative": null,
+    "value": null,
+    "status": "unknown",
+    "difference": null,
+    "mass": null,
+    "measurement_model": "independent_poles",
+    "evidence_file": "evidence/independent-dossier-paul-kagame.json",
+    "evidence_basis": "07556b44e49568134e0b150483e9301095c2bae033b9a5bb491998b2daddf60f",
+    "at": "2026-10-15T17:29:12.851314+00:00",
+    "reason": "Каждое свойство оценивается независимо; разность и искусственное дополнение до пяти не вычисляются"
+  },
+  {
+    "object_id": "paul-kagame",
+    "scale_id": "external-domestic-resources",
+    "pole_scores": {
+      "positive": {
+        "status": "unknown",
+        "value": null,
+        "confidence": 0,
+        "evidence_indices": [],
+        "source_urls": [],
+        "event_ids": [],
+        "rationale": "Нет прямых эпизодов привлечения внешнего финансирования или ресурсных партнёров, инициированных Кагаме.",
+        "support_type": "unknown",
+        "provenance": {
+          "raw_response_file": "evidence/independent_responses/24e3c5bb80ed61f61e2378acfe7cdbc5c7fee3b0f0519df5d70a53b1262aaff0.json",
+          "model": "gpt-4.1",
+          "at": "2026-10-15T17:29:02.724521+00:00",
+          "cache_key": "24e3c5bb80ed61f61e2378acfe7cdbc5c7fee3b0f0519df5d70a53b1262aaff0",
+          "original_proposal": {
+            "variable_id": "external-domestic-resources__positive",
+            "status": "unknown",
+            "value": null,
+            "confidence": 0,
+            "support_type": "unknown",
+            "rationale": "Нет прямых эпизодов привлечения внешнего финансирования или ресурсных партнёров, инициированных Кагаме.",
+            "evidence_indices": []
+          }
+        },
+        "evidence_file": "evidence/independent-dossier-paul-kagame.json",
+        "evidence_basis": "07556b44e49568134e0b150483e9301095c2bae033b9a5bb491998b2daddf60f"
+      },
+      "negative": {
+        "status": "unknown",
+        "value": null,
+        "confidence": 0,
+        "evidence_indices": [],
+        "source_urls": [],
+        "event_ids": [],
+        "rationale": "Нет прямых заявлений Кагаме о стратегии опоры на внутренние доходы или снижении зависимости от внешних поступлений.",
+        "support_type": "unknown",
+        "provenance": {
+          "raw_response_file": "evidence/independent_responses/24e3c5bb80ed61f61e2378acfe7cdbc5c7fee3b0f0519df5d70a53b1262aaff0.json",
+          "model": "gpt-4.1",
+          "at": "2026-10-15T17:29:02.724521+00:00",
+          "cache_key": "24e3c5bb80ed61f61e2378acfe7cdbc5c7fee3b0f0519df5d70a53b1262aaff0",
+          "original_proposal": {
+            "variable_id": "external-domestic-resources__negative",
+            "status": "unknown",
+            "value": null,
+            "confidence": 0,
+            "support_type": "unknown",
+            "rationale": "Нет прямых заявлений Кагаме о стратегии опоры на внутренние доходы или снижении зависимости от внешних поступлений.",
+            "evidence_indices": []
+          }
+        },
+        "evidence_file": "evidence/independent-dossier-paul-kagame.json",
+        "evidence_basis": "07556b44e49568134e0b150483e9301095c2bae033b9a5bb491998b2daddf60f"
+      }
+    },
+    "positive": null,
+    "negative": null,
+    "value": null,
+    "status": "unknown",
+    "difference": null,
+    "mass": null,
+    "measurement_model": "independent_poles",
+    "evidence_file": "evidence/independent-dossier-paul-kagame.json",
+    "evidence_basis": "07556b44e49568134e0b150483e9301095c2bae033b9a5bb491998b2daddf60f",
+    "at": "2026-10-15T17:29:12.851314+00:00",
+    "reason": "Каждое свойство оценивается независимо; разность и искусственное дополнение до пяти не вычисляются"
+  },
+  {
+    "object_id": "paul-kagame",
+    "scale_id": "international-rules-autonomy",
+    "pole_scores": {
+      "positive": {
+        "status": "unknown",
+        "value": null,
+        "confidence": 0,
+        "evidence_indices": [],
+        "source_urls": [],
+        "event_ids": [],
+        "rationale": "Нет прямых предложений Кагаме о закреплении обязательных международных норм или договоров.",
+        "support_type": "unknown",
+        "provenance": {
+          "raw_response_file": "evidence/independent_responses/24e3c5bb80ed61f61e2378acfe7cdbc5c7fee3b0f0519df5d70a53b1262aaff0.json",
+          "model": "gpt-4.1",
+          "at": "2026-10-15T17:29:02.724521+00:00",
+          "cache_key": "24e3c5bb80ed61f61e2378acfe7cdbc5c7fee3b0f0519df5d70a53b1262aaff0",
+          "original_proposal": {
+            "variable_id": "international-rules-autonomy__positive",
+            "status": "unknown",
+            "value": null,
+            "confidence": 0,
+            "support_type": "unknown",
+            "rationale": "Нет прямых предложений Кагаме о закреплении обязательных международных норм или договоров.",
+            "evidence_indices": []
+          }
+        },
+        "evidence_file": "evidence/independent-dossier-paul-kagame.json",
+        "evidence_basis": "07556b44e49568134e0b150483e9301095c2bae033b9a5bb491998b2daddf60f"
+      },
+      "negative": {
+        "status": "observed",
+        "value": 2,
+        "confidence": 0.8,
+        "evidence_indices": [
+          12
+        ],
+        "source_urls": [
+          "https://www.paulkagame.rw/president-kagame-visits-benin-cotonou-15-17-april-2023/"
+        ],
+        "event_ids": [
+          "kagame-benin-partner-choice-2023-04-17"
+        ],
+        "rationale": "На пресс-конференции 17 апреля 2023 года Кагаме прямо защищал право африканских стран самостоятельно выбирать партнёров, что является примером защиты национальной самостоятельности решений.",
+        "support_type": "positive_manifestation",
+        "provenance": {
+          "raw_response_file": "evidence/independent_responses/24e3c5bb80ed61f61e2378acfe7cdbc5c7fee3b0f0519df5d70a53b1262aaff0.json",
+          "model": "gpt-4.1",
+          "at": "2026-10-15T17:29:02.724521+00:00",
+          "cache_key": "24e3c5bb80ed61f61e2378acfe7cdbc5c7fee3b0f0519df5d70a53b1262aaff0",
+          "original_proposal": {
+            "variable_id": "international-rules-autonomy__negative",
+            "status": "observed",
+            "value": 2,
+            "confidence": 0.8,
+            "support_type": "positive_manifestation",
+            "rationale": "На пресс-конференции 17 апреля 2023 года Кагаме прямо защищал право африканских стран самостоятельно выбирать партнёров, что является примером защиты национальной самостоятельности решений.",
+            "evidence_indices": [
+              12
+            ]
+          }
+        },
+        "evidence_file": "evidence/independent-dossier-paul-kagame.json",
+        "evidence_basis": "07556b44e49568134e0b150483e9301095c2bae033b9a5bb491998b2daddf60f"
+      }
+    },
+    "positive": null,
+    "negative": 2,
+    "value": null,
+    "status": "partial",
+    "difference": null,
+    "mass": null,
+    "measurement_model": "independent_poles",
+    "evidence_file": "evidence/independent-dossier-paul-kagame.json",
+    "evidence_basis": "07556b44e49568134e0b150483e9301095c2bae033b9a5bb491998b2daddf60f",
+    "at": "2026-10-15T17:29:12.851314+00:00",
+    "reason": "Каждое свойство оценивается независимо; разность и искусственное дополнение до пяти не вычисляются"
+  },
+  {
+    "object_id": "paul-kagame",
+    "scale_id": "mediation-adversarial-communication",
+    "pole_scores": {
+      "positive": {
+        "status": "unknown",
+        "value": null,
+        "confidence": 0,
+        "evidence_indices": [],
+        "source_urls": [],
+        "event_ids": [],
+        "rationale": "Нет прямых эпизодов, где Кагаме предлагает посредничество или согласование интересов сторон.",
+        "support_type": "unknown",
+        "provenance": {
+          "raw_response_file": "evidence/independent_responses/24e3c5bb80ed61f61e2378acfe7cdbc5c7fee3b0f0519df5d70a53b1262aaff0.json",
+          "model": "gpt-4.1",
+          "at": "2026-10-15T17:29:02.724521+00:00",
+          "cache_key": "24e3c5bb80ed61f61e2378acfe7cdbc5c7fee3b0f0519df5d70a53b1262aaff0",
+          "original_proposal": {
+            "variable_id": "mediation-adversarial-communication__positive",
+            "status": "unknown",
+            "value": null,
+            "confidence": 0,
+            "support_type": "unknown",
+            "rationale": "Нет прямых эпизодов, где Кагаме предлагает посредничество или согласование интересов сторон.",
+            "evidence_indices": []
+          }
+        },
+        "evidence_file": "evidence/independent-dossier-paul-kagame.json",
+        "evidence_basis": "07556b44e49568134e0b150483e9301095c2bae033b9a5bb491998b2daddf60f"
+      },
+      "negative": {
+        "status": "observed",
+        "value": 2,
+        "confidence": 0.8,
+        "evidence_indices": [
+          5,
+          15
+        ],
+        "source_urls": [
+          "https://www.reuters.com/world/africa/rwandas-president-kagame-sworn-into-office-2024-08-11/"
+        ],
+        "event_ids": [
+          "rw-drc-accusations-2024"
+        ],
+        "rationale": "Кагаме последовательно отвергал обвинения в поддержке повстанцев в ДРК, что является примером полемической защиты собственной стороны. Примеры посредничества не выявлены.",
+        "support_type": "positive_manifestation",
+        "provenance": {
+          "raw_response_file": "evidence/independent_responses/24e3c5bb80ed61f61e2378acfe7cdbc5c7fee3b0f0519df5d70a53b1262aaff0.json",
+          "model": "gpt-4.1",
+          "at": "2026-10-15T17:29:02.724521+00:00",
+          "cache_key": "24e3c5bb80ed61f61e2378acfe7cdbc5c7fee3b0f0519df5d70a53b1262aaff0",
+          "original_proposal": {
+            "variable_id": "mediation-adversarial-communication__negative",
+            "status": "observed",
+            "value": 2,
+            "confidence": 0.8,
+            "support_type": "positive_manifestation",
+            "rationale": "Кагаме последовательно отвергал обвинения в поддержке повстанцев в ДРК, что является примером полемической защиты собственной стороны. Примеры посредничества не выявлены.",
+            "evidence_indices": [
+              5,
+              15
+            ]
+          }
+        },
+        "evidence_file": "evidence/independent-dossier-paul-kagame.json",
+        "evidence_basis": "07556b44e49568134e0b150483e9301095c2bae033b9a5bb491998b2daddf60f"
+      }
+    },
+    "positive": null,
+    "negative": 2,
+    "value": null,
+    "status": "partial",
+    "difference": null,
+    "mass": null,
+    "measurement_model": "independent_poles",
+    "evidence_file": "evidence/independent-dossier-paul-kagame.json",
+    "evidence_basis": "07556b44e49568134e0b150483e9301095c2bae033b9a5bb491998b2daddf60f",
+    "at": "2026-10-15T17:29:12.851314+00:00",
+    "reason": "Каждое свойство оценивается независимо; разность и искусственное дополнение до пяти не вычисляются"
+  },
+  {
+    "object_id": "paul-kagame",
+    "scale_id": "cultural-openness-national-transmission",
+    "pole_scores": {
+      "positive": {
+        "status": "unknown",
+        "value": null,
+        "confidence": 0,
+        "evidence_indices": [],
+        "source_urls": [],
+        "event_ids": [],
+        "rationale": "В доступных источниках нет датированного личного заявления или действия Кагаме о поддержке межкультурного обмена, образовательных или культурных программ с Россией или иными странами в исследуемый период.",
+        "support_type": "unknown",
+        "provenance": {
+          "raw_response_file": "evidence/independent_responses/e8ae0cc3a032cf779faf3c20f27431a24772ec8676aeeea451aa7b4f3f02eeb0.json",
+          "model": "gpt-4.1",
+          "at": "2026-10-15T17:29:12.846909+00:00",
+          "cache_key": "e8ae0cc3a032cf779faf3c20f27431a24772ec8676aeeea451aa7b4f3f02eeb0",
+          "original_proposal": {
+            "variable_id": "cultural-openness-national-transmission__positive",
+            "status": "unknown",
+            "value": null,
+            "confidence": 0,
+            "support_type": "unknown",
+            "rationale": "В доступных источниках нет датированного личного заявления или действия Кагаме о поддержке межкультурного обмена, образовательных или культурных программ с Россией или иными странами в исследуемый период.",
+            "evidence_indices": [
+              9,
+              21
+            ]
+          }
+        },
+        "evidence_file": "evidence/independent-dossier-paul-kagame.json",
+        "evidence_basis": "07556b44e49568134e0b150483e9301095c2bae033b9a5bb491998b2daddf60f"
+      },
+      "negative": {
+        "status": "unknown",
+        "value": null,
+        "confidence": 0,
+        "evidence_indices": [],
+        "source_urls": [],
+        "event_ids": [],
+        "rationale": "Нет прямых эпизодов, где Кагаме бы делал акцент на сохранении или передаче национальных ценностей в противовес межкультурному обмену в исследуемый период.",
+        "support_type": "unknown",
+        "provenance": {
+          "raw_response_file": "evidence/independent_responses/e8ae0cc3a032cf779faf3c20f27431a24772ec8676aeeea451aa7b4f3f02eeb0.json",
+          "model": "gpt-4.1",
+          "at": "2026-10-15T17:29:12.846909+00:00",
+          "cache_key": "e8ae0cc3a032cf779faf3c20f27431a24772ec8676aeeea451aa7b4f3f02eeb0",
+          "original_proposal": {
+            "variable_id": "cultural-openness-national-transmission__negative",
+            "status": "unknown",
+            "value": null,
+            "confidence": 0,
+            "support_type": "unknown",
+            "rationale": "Нет прямых эпизодов, где Кагаме бы делал акцент на сохранении или передаче национальных ценностей в противовес межкультурному обмену в исследуемый период.",
+            "evidence_indices": []
+          }
+        },
+        "evidence_file": "evidence/independent-dossier-paul-kagame.json",
+        "evidence_basis": "07556b44e49568134e0b150483e9301095c2bae033b9a5bb491998b2daddf60f"
+      }
+    },
+    "positive": null,
+    "negative": null,
+    "value": null,
+    "status": "unknown",
+    "difference": null,
+    "mass": null,
+    "measurement_model": "independent_poles",
+    "evidence_file": "evidence/independent-dossier-paul-kagame.json",
+    "evidence_basis": "07556b44e49568134e0b150483e9301095c2bae033b9a5bb491998b2daddf60f",
+    "at": "2026-10-15T17:29:12.851314+00:00",
+    "reason": "Каждое свойство оценивается независимо; разность и искусственное дополнение до пяти не вычисляются"
+  },
+  {
+    "object_id": "paul-kagame",
+    "scale_id": "problem-disclosure-reputation-defence",
+    "pole_scores": {
+      "positive": {
+        "status": "unknown",
+        "value": null,
+        "confidence": 0,
+        "evidence_indices": [],
+        "source_urls": [],
+        "event_ids": [],
+        "rationale": "В материалах не найдено прямых примеров, когда Кагаме публично признавал конкретные проблемы или недостатки исполнения.",
+        "support_type": "unknown",
+        "provenance": {
+          "raw_response_file": "evidence/independent_responses/e8ae0cc3a032cf779faf3c20f27431a24772ec8676aeeea451aa7b4f3f02eeb0.json",
+          "model": "gpt-4.1",
+          "at": "2026-10-15T17:29:12.846909+00:00",
+          "cache_key": "e8ae0cc3a032cf779faf3c20f27431a24772ec8676aeeea451aa7b4f3f02eeb0",
+          "original_proposal": {
+            "variable_id": "problem-disclosure-reputation-defence__positive",
+            "status": "unknown",
+            "value": null,
+            "confidence": 0,
+            "support_type": "unknown",
+            "rationale": "В материалах не найдено прямых примеров, когда Кагаме публично признавал конкретные проблемы или недостатки исполнения.",
+            "evidence_indices": []
+          }
+        },
+        "evidence_file": "evidence/independent-dossier-paul-kagame.json",
+        "evidence_basis": "07556b44e49568134e0b150483e9301095c2bae033b9a5bb491998b2daddf60f"
+      },
+      "negative": {
+        "status": "observed",
+        "value": 2,
+        "confidence": 0.7,
+        "evidence_indices": [
+          5,
+          15
+        ],
+        "source_urls": [
+          "https://www.reuters.com/world/africa/rwandas-president-kagame-sworn-into-office-2024-08-11/"
+        ],
+        "event_ids": [
+          "rw-drc-accusations-2024"
+        ],
+        "rationale": "Кагаме последовательно отвергал обвинения в поддержке повстанцев в ДРК, что является примером защиты репутации страны и собственной политики. Это ограниченное проявление, зафиксированное в нескольких источниках.",
+        "support_type": "positive_manifestation",
+        "provenance": {
+          "raw_response_file": "evidence/independent_responses/e8ae0cc3a032cf779faf3c20f27431a24772ec8676aeeea451aa7b4f3f02eeb0.json",
+          "model": "gpt-4.1",
+          "at": "2026-10-15T17:29:12.846909+00:00",
+          "cache_key": "e8ae0cc3a032cf779faf3c20f27431a24772ec8676aeeea451aa7b4f3f02eeb0",
+          "original_proposal": {
+            "variable_id": "problem-disclosure-reputation-defence__negative",
+            "status": "observed",
+            "value": 2,
+            "confidence": 0.7,
+            "support_type": "positive_manifestation",
+            "rationale": "Кагаме последовательно отвергал обвинения в поддержке повстанцев в ДРК, что является примером защиты репутации страны и собственной политики. Это ограниченное проявление, зафиксированное в нескольких источниках.",
+            "evidence_indices": [
+              5,
+              15
+            ]
+          }
+        },
+        "evidence_file": "evidence/independent-dossier-paul-kagame.json",
+        "evidence_basis": "07556b44e49568134e0b150483e9301095c2bae033b9a5bb491998b2daddf60f"
+      }
+    },
+    "positive": null,
+    "negative": 2,
+    "value": null,
+    "status": "partial",
+    "difference": null,
+    "mass": null,
+    "measurement_model": "independent_poles",
+    "evidence_file": "evidence/independent-dossier-paul-kagame.json",
+    "evidence_basis": "07556b44e49568134e0b150483e9301095c2bae033b9a5bb491998b2daddf60f",
+    "at": "2026-10-15T17:29:12.851314+00:00",
+    "reason": "Каждое свойство оценивается независимо; разность и искусственное дополнение до пяти не вычисляются"
+  },
+  {
+    "object_id": "paul-kagame",
+    "scale_id": "procedural-guarantees-enforcement",
+    "pole_scores": {
+      "positive": {
+        "status": "unknown",
+        "value": null,
+        "confidence": 0,
+        "evidence_indices": [],
+        "source_urls": [],
+        "event_ids": [],
+        "rationale": "Нет прямых заявлений или действий Кагаме, направленных на расширение возможностей защиты и обжалования в исследуемый период.",
+        "support_type": "unknown",
+        "provenance": {
+          "raw_response_file": "evidence/independent_responses/e8ae0cc3a032cf779faf3c20f27431a24772ec8676aeeea451aa7b4f3f02eeb0.json",
+          "model": "gpt-4.1",
+          "at": "2026-10-15T17:29:12.846909+00:00",
+          "cache_key": "e8ae0cc3a032cf779faf3c20f27431a24772ec8676aeeea451aa7b4f3f02eeb0",
+          "original_proposal": {
+            "variable_id": "procedural-guarantees-enforcement__positive",
+            "status": "unknown",
+            "value": null,
+            "confidence": 0,
+            "support_type": "unknown",
+            "rationale": "Нет прямых заявлений или действий Кагаме, направленных на расширение возможностей защиты и обжалования в исследуемый период.",
+            "evidence_indices": []
+          }
+        },
+        "evidence_file": "evidence/independent-dossier-paul-kagame.json",
+        "evidence_basis": "07556b44e49568134e0b150483e9301095c2bae033b9a5bb491998b2daddf60f"
+      },
+      "negative": {
+        "status": "unknown",
+        "value": null,
+        "confidence": 0,
+        "evidence_indices": [],
+        "source_urls": [],
+        "event_ids": [],
+        "rationale": "Хотя источники фиксируют ограничения для оппозиции и СМИ, нет прямого датированного действия или заявления Кагаме о принудительном обеспечении обязательных требований.",
+        "support_type": "unknown",
+        "provenance": {
+          "raw_response_file": "evidence/independent_responses/e8ae0cc3a032cf779faf3c20f27431a24772ec8676aeeea451aa7b4f3f02eeb0.json",
+          "model": "gpt-4.1",
+          "at": "2026-10-15T17:29:12.846909+00:00",
+          "cache_key": "e8ae0cc3a032cf779faf3c20f27431a24772ec8676aeeea451aa7b4f3f02eeb0",
+          "original_proposal": {
+            "variable_id": "procedural-guarantees-enforcement__negative",
+            "status": "unknown",
+            "value": null,
+            "confidence": 0,
+            "support_type": "unknown",
+            "rationale": "Хотя источники фиксируют ограничения для оппозиции и СМИ, нет прямого датированного действия или заявления Кагаме о принудительном обеспечении обязательных требований.",
+            "evidence_indices": [
+              3,
+              16,
+              17
+            ]
+          }
+        },
+        "evidence_file": "evidence/independent-dossier-paul-kagame.json",
+        "evidence_basis": "07556b44e49568134e0b150483e9301095c2bae033b9a5bb491998b2daddf60f"
+      }
+    },
+    "positive": null,
+    "negative": null,
+    "value": null,
+    "status": "unknown",
+    "difference": null,
+    "mass": null,
+    "measurement_model": "independent_poles",
+    "evidence_file": "evidence/independent-dossier-paul-kagame.json",
+    "evidence_basis": "07556b44e49568134e0b150483e9301095c2bae033b9a5bb491998b2daddf60f",
+    "at": "2026-10-15T17:29:12.851314+00:00",
+    "reason": "Каждое свойство оценивается независимо; разность и искусственное дополнение до пяти не вычисляются"
+  },
+  {
+    "object_id": "paul-kagame",
+    "scale_id": "prevention-crisis-response",
+    "pole_scores": {
+      "positive": {
+        "status": "unknown",
+        "value": null,
+        "confidence": 0,
+        "evidence_indices": [],
+        "source_urls": [],
+        "event_ids": [],
+        "rationale": "В исследуемых материалах отсутствуют примеры, когда Кагаме делал акцент на упреждающем снижении рисков или подготовке к кризисам.",
+        "support_type": "unknown",
+        "provenance": {
+          "raw_response_file": "evidence/independent_responses/e8ae0cc3a032cf779faf3c20f27431a24772ec8676aeeea451aa7b4f3f02eeb0.json",
+          "model": "gpt-4.1",
+          "at": "2026-10-15T17:29:12.846909+00:00",
+          "cache_key": "e8ae0cc3a032cf779faf3c20f27431a24772ec8676aeeea451aa7b4f3f02eeb0",
+          "original_proposal": {
+            "variable_id": "prevention-crisis-response__positive",
+            "status": "unknown",
+            "value": null,
+            "confidence": 0,
+            "support_type": "unknown",
+            "rationale": "В исследуемых материалах отсутствуют примеры, когда Кагаме делал акцент на упреждающем снижении рисков или подготовке к кризисам.",
+            "evidence_indices": []
+          }
+        },
+        "evidence_file": "evidence/independent-dossier-paul-kagame.json",
+        "evidence_basis": "07556b44e49568134e0b150483e9301095c2bae033b9a5bb491998b2daddf60f"
+      },
+      "negative": {
+        "status": "unknown",
+        "value": null,
+        "confidence": 0,
+        "evidence_indices": [],
+        "source_urls": [],
+        "event_ids": [],
+        "rationale": "Нет прямых эпизодов, где Кагаме бы делал акцент на оперативном реагировании на возникшие угрозы.",
+        "support_type": "unknown",
+        "provenance": {
+          "raw_response_file": "evidence/independent_responses/e8ae0cc3a032cf779faf3c20f27431a24772ec8676aeeea451aa7b4f3f02eeb0.json",
+          "model": "gpt-4.1",
+          "at": "2026-10-15T17:29:12.846909+00:00",
+          "cache_key": "e8ae0cc3a032cf779faf3c20f27431a24772ec8676aeeea451aa7b4f3f02eeb0",
+          "original_proposal": {
+            "variable_id": "prevention-crisis-response__negative",
+            "status": "unknown",
+            "value": null,
+            "confidence": 0,
+            "support_type": "unknown",
+            "rationale": "Нет прямых эпизодов, где Кагаме бы делал акцент на оперативном реагировании на возникшие угрозы.",
+            "evidence_indices": []
+          }
+        },
+        "evidence_file": "evidence/independent-dossier-paul-kagame.json",
+        "evidence_basis": "07556b44e49568134e0b150483e9301095c2bae033b9a5bb491998b2daddf60f"
+      }
+    },
+    "positive": null,
+    "negative": null,
+    "value": null,
+    "status": "unknown",
+    "difference": null,
+    "mass": null,
+    "measurement_model": "independent_poles",
+    "evidence_file": "evidence/independent-dossier-paul-kagame.json",
+    "evidence_basis": "07556b44e49568134e0b150483e9301095c2bae033b9a5bb491998b2daddf60f",
+    "at": "2026-10-15T17:29:12.851314+00:00",
+    "reason": "Каждое свойство оценивается независимо; разность и искусственное дополнение до пяти не вычисляются"
+  },
+  {
+    "object_id": "paul-kagame",
+    "scale_id": "electoral-access",
+    "pole_scores": {
+      "positive": {
+        "status": "unknown",
+        "value": null,
+        "confidence": 0,
+        "evidence_indices": [],
+        "source_urls": [],
+        "event_ids": [],
+        "rationale": "В материалах нет примеров, когда Кагаме лично выступал за расширение доступа к выборной конкуренции.",
+        "support_type": "unknown",
+        "provenance": {
+          "raw_response_file": "evidence/independent_responses/e8ae0cc3a032cf779faf3c20f27431a24772ec8676aeeea451aa7b4f3f02eeb0.json",
+          "model": "gpt-4.1",
+          "at": "2026-10-15T17:29:12.846909+00:00",
+          "cache_key": "e8ae0cc3a032cf779faf3c20f27431a24772ec8676aeeea451aa7b4f3f02eeb0",
+          "original_proposal": {
+            "variable_id": "electoral-access__positive",
+            "status": "unknown",
+            "value": null,
+            "confidence": 0,
+            "support_type": "unknown",
+            "rationale": "В материалах нет примеров, когда Кагаме лично выступал за расширение доступа к выборной конкуренции.",
+            "evidence_indices": []
+          }
+        },
+        "evidence_file": "evidence/independent-dossier-paul-kagame.json",
+        "evidence_basis": "07556b44e49568134e0b150483e9301095c2bae033b9a5bb491998b2daddf60f"
+      },
+      "negative": {
+        "status": "observed",
+        "value": 2,
+        "confidence": 0.7,
+        "evidence_indices": [
+          2,
+          4,
+          14
+        ],
+        "source_urls": [
+          "https://www.reuters.com/world/africa/rwandas-president-kagame-sworn-into-office-2024-08-11/",
+          "https://monitor.civicus.org/explore/restrictions-persist-amidst-rwandas-elections/"
+        ],
+        "event_ids": [
+          "rw-elections-2024-results",
+          "rw-opposition-candidates-2024"
+        ],
+        "rationale": "В периоде 2021-2026 зафиксированы ограничения для оппозиционных кандидатов и ограниченная конкуренция на выборах, что характеризует институциональный контекст при участии Кагаме. Однако нет прямого личного заявления или решения Кагаме об этих ограничениях, поэтому выраженность ограничена.",
+        "support_type": "positive_manifestation",
+        "provenance": {
+          "raw_response_file": "evidence/independent_responses/e8ae0cc3a032cf779faf3c20f27431a24772ec8676aeeea451aa7b4f3f02eeb0.json",
+          "model": "gpt-4.1",
+          "at": "2026-10-15T17:29:12.846909+00:00",
+          "cache_key": "e8ae0cc3a032cf779faf3c20f27431a24772ec8676aeeea451aa7b4f3f02eeb0",
+          "original_proposal": {
+            "variable_id": "electoral-access__negative",
+            "status": "observed",
+            "value": 2,
+            "confidence": 0.7,
+            "support_type": "positive_manifestation",
+            "rationale": "В периоде 2021-2026 зафиксированы ограничения для оппозиционных кандидатов и ограниченная конкуренция на выборах, что характеризует институциональный контекст при участии Кагаме. Однако нет прямого личного заявления или решения Кагаме об этих ограничениях, поэтому выраженность ограничена.",
+            "evidence_indices": [
+              2,
+              4,
+              14
+            ]
+          }
+        },
+        "evidence_file": "evidence/independent-dossier-paul-kagame.json",
+        "evidence_basis": "07556b44e49568134e0b150483e9301095c2bae033b9a5bb491998b2daddf60f"
+      }
+    },
+    "positive": null,
+    "negative": 2,
+    "value": null,
+    "status": "partial",
+    "difference": null,
+    "mass": null,
+    "measurement_model": "independent_poles",
+    "evidence_file": "evidence/independent-dossier-paul-kagame.json",
+    "evidence_basis": "07556b44e49568134e0b150483e9301095c2bae033b9a5bb491998b2daddf60f",
+    "at": "2026-10-15T17:29:12.851314+00:00",
+    "reason": "Каждое свойство оценивается независимо; разность и искусственное дополнение до пяти не вычисляются"
+  },
+  {
+    "object_id": "paul-kagame",
+    "scale_id": "institutional-autonomy-coordination",
+    "pole_scores": {
+      "positive": {
+        "status": "unknown",
+        "value": null,
+        "confidence": 0,
+        "evidence_indices": [],
+        "source_urls": [],
+        "event_ids": [],
+        "rationale": "Нет прямых заявлений или действий Кагаме о гарантиях самостоятельности и контроля между институтами.",
+        "support_type": "unknown",
+        "provenance": {
+          "raw_response_file": "evidence/independent_responses/e8ae0cc3a032cf779faf3c20f27431a24772ec8676aeeea451aa7b4f3f02eeb0.json",
+          "model": "gpt-4.1",
+          "at": "2026-10-15T17:29:12.846909+00:00",
+          "cache_key": "e8ae0cc3a032cf779faf3c20f27431a24772ec8676aeeea451aa7b4f3f02eeb0",
+          "original_proposal": {
+            "variable_id": "institutional-autonomy-coordination__positive",
+            "status": "unknown",
+            "value": null,
+            "confidence": 0,
+            "support_type": "unknown",
+            "rationale": "Нет прямых заявлений или действий Кагаме о гарантиях самостоятельности и контроля между институтами.",
+            "evidence_indices": []
+          }
+        },
+        "evidence_file": "evidence/independent-dossier-paul-kagame.json",
+        "evidence_basis": "07556b44e49568134e0b150483e9301095c2bae033b9a5bb491998b2daddf60f"
+      },
+      "negative": {
+        "status": "unknown",
+        "value": null,
+        "confidence": 0,
+        "evidence_indices": [],
+        "source_urls": [],
+        "event_ids": [],
+        "rationale": "Хотя отмечается ограничение политического пространства, нет прямого датированного действия или заявления Кагаме о согласовании работы институтов единой управленческой линией.",
+        "support_type": "unknown",
+        "provenance": {
+          "raw_response_file": "evidence/independent_responses/e8ae0cc3a032cf779faf3c20f27431a24772ec8676aeeea451aa7b4f3f02eeb0.json",
+          "model": "gpt-4.1",
+          "at": "2026-10-15T17:29:12.846909+00:00",
+          "cache_key": "e8ae0cc3a032cf779faf3c20f27431a24772ec8676aeeea451aa7b4f3f02eeb0",
+          "original_proposal": {
+            "variable_id": "institutional-autonomy-coordination__negative",
+            "status": "unknown",
+            "value": null,
+            "confidence": 0,
+            "support_type": "unknown",
+            "rationale": "Хотя отмечается ограничение политического пространства, нет прямого датированного действия или заявления Кагаме о согласовании работы институтов единой управленческой линией.",
+            "evidence_indices": [
+              3,
+              16,
+              17
+            ]
+          }
+        },
+        "evidence_file": "evidence/independent-dossier-paul-kagame.json",
+        "evidence_basis": "07556b44e49568134e0b150483e9301095c2bae033b9a5bb491998b2daddf60f"
+      }
+    },
+    "positive": null,
+    "negative": null,
+    "value": null,
+    "status": "unknown",
+    "difference": null,
+    "mass": null,
+    "measurement_model": "independent_poles",
+    "evidence_file": "evidence/independent-dossier-paul-kagame.json",
+    "evidence_basis": "07556b44e49568134e0b150483e9301095c2bae033b9a5bb491998b2daddf60f",
+    "at": "2026-10-15T17:29:12.851314+00:00",
+    "reason": "Каждое свойство оценивается независимо; разность и искусственное дополнение до пяти не вычисляются"
+  },
+  {
+    "object_id": "paul-kagame",
+    "scale_id": "taxation-burden-public-revenue",
+    "pole_scores": {
+      "positive": {
+        "status": "unknown",
+        "value": null,
+        "confidence": 0,
+        "evidence_indices": [],
+        "source_urls": [],
+        "event_ids": [],
+        "rationale": "В исследуемых источниках отсутствуют примеры, когда Кагаме предлагал снижение налоговой нагрузки или расширение имущественной самостоятельности.",
+        "support_type": "unknown",
+        "provenance": {
+          "raw_response_file": "evidence/independent_responses/e8ae0cc3a032cf779faf3c20f27431a24772ec8676aeeea451aa7b4f3f02eeb0.json",
+          "model": "gpt-4.1",
+          "at": "2026-10-15T17:29:12.846909+00:00",
+          "cache_key": "e8ae0cc3a032cf779faf3c20f27431a24772ec8676aeeea451aa7b4f3f02eeb0",
+          "original_proposal": {
+            "variable_id": "taxation-burden-public-revenue__positive",
+            "status": "unknown",
+            "value": null,
+            "confidence": 0,
+            "support_type": "unknown",
+            "rationale": "В исследуемых источниках отсутствуют примеры, когда Кагаме предлагал снижение налоговой нагрузки или расширение имущественной самостоятельности.",
+            "evidence_indices": []
+          }
+        },
+        "evidence_file": "evidence/independent-dossier-paul-kagame.json",
+        "evidence_basis": "07556b44e49568134e0b150483e9301095c2bae033b9a5bb491998b2daddf60f"
+      },
+      "negative": {
+        "status": "unknown",
+        "value": null,
+        "confidence": 0,
+        "evidence_indices": [],
+        "source_urls": [],
+        "event_ids": [],
+        "rationale": "Нет сведений о предложениях Кагаме по увеличению налоговых поступлений для публичного развития.",
+        "support_type": "unknown",
+        "provenance": {
+          "raw_response_file": "evidence/independent_responses/e8ae0cc3a032cf779faf3c20f27431a24772ec8676aeeea451aa7b4f3f02eeb0.json",
+          "model": "gpt-4.1",
+          "at": "2026-10-15T17:29:12.846909+00:00",
+          "cache_key": "e8ae0cc3a032cf779faf3c20f27431a24772ec8676aeeea451aa7b4f3f02eeb0",
+          "original_proposal": {
+            "variable_id": "taxation-burden-public-revenue__negative",
+            "status": "unknown",
+            "value": null,
+            "confidence": 0,
+            "support_type": "unknown",
+            "rationale": "Нет сведений о предложениях Кагаме по увеличению налоговых поступлений для публичного развития.",
+            "evidence_indices": []
+          }
+        },
+        "evidence_file": "evidence/independent-dossier-paul-kagame.json",
+        "evidence_basis": "07556b44e49568134e0b150483e9301095c2bae033b9a5bb491998b2daddf60f"
+      }
+    },
+    "positive": null,
+    "negative": null,
+    "value": null,
+    "status": "unknown",
+    "difference": null,
+    "mass": null,
+    "measurement_model": "independent_poles",
+    "evidence_file": "evidence/independent-dossier-paul-kagame.json",
+    "evidence_basis": "07556b44e49568134e0b150483e9301095c2bae033b9a5bb491998b2daddf60f",
+    "at": "2026-10-15T17:29:12.851314+00:00",
+    "reason": "Каждое свойство оценивается независимо; разность и искусственное дополнение до пяти не вычисляются"
+  },
+  {
+    "object_id": "paul-kagame",
+    "scale_id": "universal-targeted-provision",
+    "pole_scores": {
+      "positive": {
+        "status": "unknown",
+        "value": null,
+        "confidence": 0,
+        "evidence_indices": [],
+        "source_urls": [],
+        "event_ids": [],
+        "rationale": "В материалах нет примеров, когда Кагаме делал акцент на единых стандартах доступности благ для всего населения.",
+        "support_type": "unknown",
+        "provenance": {
+          "raw_response_file": "evidence/independent_responses/e8ae0cc3a032cf779faf3c20f27431a24772ec8676aeeea451aa7b4f3f02eeb0.json",
+          "model": "gpt-4.1",
+          "at": "2026-10-15T17:29:12.846909+00:00",
+          "cache_key": "e8ae0cc3a032cf779faf3c20f27431a24772ec8676aeeea451aa7b4f3f02eeb0",
+          "original_proposal": {
+            "variable_id": "universal-targeted-provision__positive",
+            "status": "unknown",
+            "value": null,
+            "confidence": 0,
+            "support_type": "unknown",
+            "rationale": "В материалах нет примеров, когда Кагаме делал акцент на единых стандартах доступности благ для всего населения.",
+            "evidence_indices": []
+          }
+        },
+        "evidence_file": "evidence/independent-dossier-paul-kagame.json",
+        "evidence_basis": "07556b44e49568134e0b150483e9301095c2bae033b9a5bb491998b2daddf60f"
+      },
+      "negative": {
+        "status": "unknown",
+        "value": null,
+        "confidence": 0,
+        "evidence_indices": [],
+        "source_urls": [],
+        "event_ids": [],
+        "rationale": "Нет прямых эпизодов, где Кагаме бы делал акцент на приоритетной помощи конкретным недостаточно обеспеченным группам.",
+        "support_type": "unknown",
+        "provenance": {
+          "raw_response_file": "evidence/independent_responses/e8ae0cc3a032cf779faf3c20f27431a24772ec8676aeeea451aa7b4f3f02eeb0.json",
+          "model": "gpt-4.1",
+          "at": "2026-10-15T17:29:12.846909+00:00",
+          "cache_key": "e8ae0cc3a032cf779faf3c20f27431a24772ec8676aeeea451aa7b4f3f02eeb0",
+          "original_proposal": {
+            "variable_id": "universal-targeted-provision__negative",
+            "status": "unknown",
+            "value": null,
+            "confidence": 0,
+            "support_type": "unknown",
+            "rationale": "Нет прямых эпизодов, где Кагаме бы делал акцент на приоритетной помощи конкретным недостаточно обеспеченным группам.",
+            "evidence_indices": []
+          }
+        },
+        "evidence_file": "evidence/independent-dossier-paul-kagame.json",
+        "evidence_basis": "07556b44e49568134e0b150483e9301095c2bae033b9a5bb491998b2daddf60f"
+      }
+    },
+    "positive": null,
+    "negative": null,
+    "value": null,
+    "status": "unknown",
+    "difference": null,
+    "mass": null,
+    "measurement_model": "independent_poles",
+    "evidence_file": "evidence/independent-dossier-paul-kagame.json",
+    "evidence_basis": "07556b44e49568134e0b150483e9301095c2bae033b9a5bb491998b2daddf60f",
+    "at": "2026-10-15T17:29:12.851314+00:00",
+    "reason": "Каждое свойство оценивается независимо; разность и искусственное дополнение до пяти не вычисляются"
+  },
+  {
+    "object_id": "paul-kagame",
+    "scale_id": "ecological-limits-resource-use",
+    "pole_scores": {
+      "positive": {
+        "status": "unknown",
+        "value": null,
+        "confidence": 0,
+        "evidence_indices": [],
+        "source_urls": [],
+        "event_ids": [],
+        "rationale": "В исследуемых источниках отсутствуют примеры, когда Кагаме выступал за усиление природоохранных ограничений хозяйственной деятельности.",
+        "support_type": "unknown",
+        "provenance": {
+          "raw_response_file": "evidence/independent_responses/e8ae0cc3a032cf779faf3c20f27431a24772ec8676aeeea451aa7b4f3f02eeb0.json",
+          "model": "gpt-4.1",
+          "at": "2026-10-15T17:29:12.846909+00:00",
+          "cache_key": "e8ae0cc3a032cf779faf3c20f27431a24772ec8676aeeea451aa7b4f3f02eeb0",
+          "original_proposal": {
+            "variable_id": "ecological-limits-resource-use__positive",
+            "status": "unknown",
+            "value": null,
+            "confidence": 0,
+            "support_type": "unknown",
+            "rationale": "В исследуемых источниках отсутствуют примеры, когда Кагаме выступал за усиление природоохранных ограничений хозяйственной деятельности.",
+            "evidence_indices": []
+          }
+        },
+        "evidence_file": "evidence/independent-dossier-paul-kagame.json",
+        "evidence_basis": "07556b44e49568134e0b150483e9301095c2bae033b9a5bb491998b2daddf60f"
+      },
+      "negative": {
+        "status": "unknown",
+        "value": null,
+        "confidence": 0,
+        "evidence_indices": [],
+        "source_urls": [],
+        "event_ids": [],
+        "rationale": "Нет сведений о предложениях Кагаме по расширению хозяйственного использования природных ресурсов.",
+        "support_type": "unknown",
+        "provenance": {
+          "raw_response_file": "evidence/independent_responses/e8ae0cc3a032cf779faf3c20f27431a24772ec8676aeeea451aa7b4f3f02eeb0.json",
+          "model": "gpt-4.1",
+          "at": "2026-10-15T17:29:12.846909+00:00",
+          "cache_key": "e8ae0cc3a032cf779faf3c20f27431a24772ec8676aeeea451aa7b4f3f02eeb0",
+          "original_proposal": {
+            "variable_id": "ecological-limits-resource-use__negative",
+            "status": "unknown",
+            "value": null,
+            "confidence": 0,
+            "support_type": "unknown",
+            "rationale": "Нет сведений о предложениях Кагаме по расширению хозяйственного использования природных ресурсов.",
+            "evidence_indices": []
+          }
+        },
+        "evidence_file": "evidence/independent-dossier-paul-kagame.json",
+        "evidence_basis": "07556b44e49568134e0b150483e9301095c2bae033b9a5bb491998b2daddf60f"
+      }
+    },
+    "positive": null,
+    "negative": null,
+    "value": null,
+    "status": "unknown",
+    "difference": null,
+    "mass": null,
+    "measurement_model": "independent_poles",
+    "evidence_file": "evidence/independent-dossier-paul-kagame.json",
+    "evidence_basis": "07556b44e49568134e0b150483e9301095c2bae033b9a5bb491998b2daddf60f",
+    "at": "2026-10-15T17:29:12.851314+00:00",
+    "reason": "Каждое свойство оценивается независимо; разность и искусственное дополнение до пяти не вычисляются"
+  },
+  {
+    "object_id": "paul-kagame",
+    "scale_id": "russia-diplomatic-engagement",
+    "pole_scores": {
+      "positive": {
+        "status": "unknown",
+        "value": null,
+        "confidence": 0,
+        "evidence_indices": [],
+        "source_urls": [],
+        "event_ids": [],
+        "rationale": "Нет допустимых датированных персональных свидетельств по этому свойству",
+        "support_type": "unknown"
+      },
+      "negative": {
+        "status": "unknown",
+        "value": null,
+        "confidence": 0,
+        "evidence_indices": [],
+        "source_urls": [],
+        "event_ids": [],
+        "rationale": "Нет допустимых датированных персональных свидетельств по этому свойству",
+        "support_type": "unknown"
+      }
+    },
+    "positive": null,
+    "negative": null,
+    "value": null,
+    "status": "unknown",
+    "difference": null,
+    "mass": null,
+    "measurement_model": "independent_poles",
+    "evidence_file": "evidence/independent-dossier-paul-kagame.json",
+    "evidence_basis": "07556b44e49568134e0b150483e9301095c2bae033b9a5bb491998b2daddf60f",
+    "at": "2026-10-15T17:29:12.851314+00:00",
+    "reason": "Каждое свойство оценивается независимо; разность и искусственное дополнение до пяти не вычисляются"
+  },
+  {
+    "object_id": "paul-kagame",
+    "scale_id": "russia-security-cooperation",
+    "pole_scores": {
+      "positive": {
+        "status": "unknown",
+        "value": null,
+        "confidence": 0,
+        "evidence_indices": [],
+        "source_urls": [],
+        "event_ids": [],
+        "rationale": "Нет допустимых датированных персональных свидетельств по этому свойству",
+        "support_type": "unknown"
+      },
+      "negative": {
+        "status": "unknown",
+        "value": null,
+        "confidence": 0,
+        "evidence_indices": [],
+        "source_urls": [],
+        "event_ids": [],
+        "rationale": "Нет допустимых датированных персональных свидетельств по этому свойству",
+        "support_type": "unknown"
+      }
+    },
+    "positive": null,
+    "negative": null,
+    "value": null,
+    "status": "unknown",
+    "difference": null,
+    "mass": null,
+    "measurement_model": "independent_poles",
+    "evidence_file": "evidence/independent-dossier-paul-kagame.json",
+    "evidence_basis": "07556b44e49568134e0b150483e9301095c2bae033b9a5bb491998b2daddf60f",
+    "at": "2026-10-15T17:29:12.851314+00:00",
+    "reason": "Каждое свойство оценивается независимо; разность и искусственное дополнение до пяти не вычисляются"
+  },
+  {
+    "object_id": "paul-kagame",
+    "scale_id": "russia-economic-technology-cooperation",
+    "pole_scores": {
+      "positive": {
+        "status": "unknown",
+        "value": null,
+        "confidence": 0,
+        "evidence_indices": [],
+        "source_urls": [],
+        "event_ids": [],
+        "rationale": "Нет допустимых датированных персональных свидетельств по этому свойству",
+        "support_type": "unknown"
+      },
+      "negative": {
+        "status": "unknown",
+        "value": null,
+        "confidence": 0,
+        "evidence_indices": [],
+        "source_urls": [],
+        "event_ids": [],
+        "rationale": "Нет допустимых датированных персональных свидетельств по этому свойству",
+        "support_type": "unknown"
+      }
+    },
+    "positive": null,
+    "negative": null,
+    "value": null,
+    "status": "unknown",
+    "difference": null,
+    "mass": null,
+    "measurement_model": "independent_poles",
+    "evidence_file": "evidence/independent-dossier-paul-kagame.json",
+    "evidence_basis": "07556b44e49568134e0b150483e9301095c2bae033b9a5bb491998b2daddf60f",
+    "at": "2026-10-15T17:29:12.851314+00:00",
+    "reason": "Каждое свойство оценивается независимо; разность и искусственное дополнение до пяти не вычисляются"
+  },
+  {
+    "object_id": "paul-kagame",
+    "scale_id": "russia-education-cultural-cooperation",
+    "pole_scores": {
+      "positive": {
+        "status": "unknown",
+        "value": null,
+        "confidence": 0,
+        "evidence_indices": [],
+        "source_urls": [],
+        "event_ids": [],
+        "rationale": "Нет допустимых датированных персональных свидетельств по этому свойству",
+        "support_type": "unknown"
+      },
+      "negative": {
+        "status": "unknown",
+        "value": null,
+        "confidence": 0,
+        "evidence_indices": [],
+        "source_urls": [],
+        "event_ids": [],
+        "rationale": "Нет допустимых датированных персональных свидетельств по этому свойству",
+        "support_type": "unknown"
+      }
+    },
+    "positive": null,
+    "negative": null,
+    "value": null,
+    "status": "unknown",
+    "difference": null,
+    "mass": null,
+    "measurement_model": "independent_poles",
+    "evidence_file": "evidence/independent-dossier-paul-kagame.json",
+    "evidence_basis": "07556b44e49568134e0b150483e9301095c2bae033b9a5bb491998b2daddf60f",
+    "at": "2026-10-15T17:29:12.851314+00:00",
+    "reason": "Каждое свойство оценивается независимо; разность и искусственное дополнение до пяти не вычисляются"
+  },
+  {
+    "object_id": "paul-kagame",
+    "scale_id": "russia-conflict-policy-evaluation",
+    "pole_scores": {
+      "positive": {
+        "status": "unknown",
+        "value": null,
+        "confidence": 0,
+        "evidence_indices": [],
+        "source_urls": [],
+        "event_ids": [],
+        "rationale": "Нет допустимых датированных персональных свидетельств по этому свойству",
+        "support_type": "unknown"
+      },
+      "negative": {
+        "status": "unknown",
+        "value": null,
+        "confidence": 0,
+        "evidence_indices": [],
+        "source_urls": [],
+        "event_ids": [],
+        "rationale": "Нет допустимых датированных персональных свидетельств по этому свойству",
+        "support_type": "unknown"
+      }
+    },
+    "positive": null,
+    "negative": null,
+    "value": null,
+    "status": "unknown",
+    "difference": null,
+    "mass": null,
+    "measurement_model": "independent_poles",
+    "evidence_file": "evidence/independent-dossier-paul-kagame.json",
+    "evidence_basis": "07556b44e49568134e0b150483e9301095c2bae033b9a5bb491998b2daddf60f",
+    "at": "2026-10-15T17:29:12.851314+00:00",
+    "reason": "Каждое свойство оценивается независимо; разность и искусственное дополнение до пяти не вычисляются"
+  },
+  {
+    "object_id": "paul-kagame",
+    "scale_id": "russia-isolation-sanctions",
+    "pole_scores": {
+      "positive": {
+        "status": "unknown",
+        "value": null,
+        "confidence": 0,
+        "evidence_indices": [],
+        "source_urls": [],
+        "event_ids": [],
+        "rationale": "Нет допустимых датированных персональных свидетельств по этому свойству",
+        "support_type": "unknown"
+      },
+      "negative": {
+        "status": "unknown",
+        "value": null,
+        "confidence": 0,
+        "evidence_indices": [],
+        "source_urls": [],
+        "event_ids": [],
+        "rationale": "Нет допустимых датированных персональных свидетельств по этому свойству",
+        "support_type": "unknown"
+      }
+    },
+    "positive": null,
+    "negative": null,
+    "value": null,
+    "status": "unknown",
+    "difference": null,
+    "mass": null,
+    "measurement_model": "independent_poles",
+    "evidence_file": "evidence/independent-dossier-paul-kagame.json",
+    "evidence_basis": "07556b44e49568134e0b150483e9301095c2bae033b9a5bb491998b2daddf60f",
+    "at": "2026-10-15T17:29:12.851314+00:00",
+    "reason": "Каждое свойство оценивается независимо; разность и искусственное дополнение до пяти не вычисляются"
+  }
+]

@@ -402,7 +402,7 @@
     event.preventDefault();
     const draft = state.newDraft;
     if (draft.date_from > draft.date_to) { state.error = "Дата начала должна быть не позднее даты окончания периода."; renderMain(); return; }
-    const payload = { ...draft, title: draft.title.trim() || draft.scope.trim(), target_count: Number(draft.target_count) || 30,
+    const payload = { ...draft, measurement_model: "independent_poles", title: draft.title.trim() || draft.scope.trim(), target_count: Number(draft.target_count) || 30,
       query: state.inputMode === "query" ? draft.query : "", objects_text: state.inputMode === "list" ? draft.objects_text : "" };
     await perform(async () => {
       acceptStudy(await api("/api/studies", "POST", payload));
@@ -525,7 +525,7 @@
     box.append(el("div", { class: "editor-toolbar" }, el("p", { text: `${scales.length} шкал · алиасы сохраняют исходные формулировки без повторного веса в матрице.` }),
       el("div", { class: "toolbar-actions" }, button("＋ Добавить шкалу", addScale, { small: true }), button("Сформировать заново", () => perform(async () => { acceptStudy(await api(studyPath("/generate-scales"), "POST", {})); }), { small: true, disabled: !approved("objects") || isActive() }))));
     box.append(el("div", { class: "scales-grid" }, scales.map(renderScaleCard)));
-    box.append(el("p", { class: "field-hint", style: "margin-top:16px", text: study.example ? "В этом примере импортирована только старая оценка x из диапазона 0–10: координата = x−5. Полюса не оценивались независимо, сумма полюсов неизвестна. Ноль означает прежнюю оценку 5. Это не заново оценённые пары антонимов." : "Полюса оцениваются отдельно от 0 до 5. Разность задаёт координату −5…+5, а исходные оценки позволяют различить невыраженность обоих свойств и их сочетание. Недостаток данных сохраняется отдельно." }));
+    box.append(el("p", { class: "field-hint", style: "margin-top:16px", text: study.example ? "В этом примере импортирована только старая оценка x из диапазона 0–10: координата = x−5. Полюса не оценивались независимо, сумма полюсов неизвестна. Ноль означает прежнюю оценку 5. Это не заново оценённые пары антонимов." : study.measurement_model === "independent_poles" ? "Каждое свойство 0–5 входит в анализ отдельной переменной. Два свойства могут сочетаться; неизвестность одного не отменяет оценку другого. Можно добавить однополюсную шкалу. Полюса факторов определяются по нагрузкам после анализа." : "Полюса оцениваются отдельно от 0 до 5. Разность задаёт координату −5…+5, а исходные оценки позволяют различить невыраженность обоих свойств и их сочетание. Недостаток данных сохраняется отдельно." }));
     box.append(el("div", { class: "sticky-actions" }, el("div", {}, el("div", { class: "selection-count", text: `${scales.length} шкал в общем словаре` }), el("p", { class: "sticky-note", text: "После утверждения можно запускать оценивание и анализ." })),
       el("div", { class: "editor-actions" }, button("Сохранить шкалы", () => saveScales(false), { disabled: isActive() }), button("Утвердить шкалы →", () => saveScales(true), { primary: true, disabled: !approved("objects") || isActive() }))));
     return box;
@@ -541,14 +541,18 @@
 
   function renderScaleCard(scale, index) {
     const set = (key) => (value) => { scale[key] = value; state.scalesDirty = true; };
+    const independent = state.study.measurement_model === "independent_poles";
+    const single = scale.kind === "unipolar";
     const title = el("input", { class: "scale-title-input", value: scale.name || "", placeholder: "Название шкалы", "aria-label": `Название шкалы ${index + 1}`, oninput: (event) => set("name")(event.target.value) });
     const card = el("section", { class: "scale-card", "aria-label": `Шкала ${index + 1}` },
       el("div", { class: "scale-card-header" }, el("span", { class: "scale-number", text: String(index + 1).padStart(2, "0") }), title,
         el("button", { class: "icon-button", type: "button", text: "×", "aria-label": `Удалить шкалу ${scale.name || index + 1}`, onclick: () => { getScaleDraft().splice(index, 1); state.scalesDirty = true; renderMain(); } })),
-      el("div", { class: "scale-poles" },
-        el("div", {}, el("div", { class: "pole-label", text: "− ОТРИЦАТЕЛЬНЫЙ ПОЛЮС" }), el("input", { class: "table-input", value: scale.negative || "", placeholder: "Противоположное свойство", "aria-label": "Отрицательный полюс", oninput: (event) => set("negative")(event.target.value) })),
-        el("div", {}, el("div", { class: "pole-label positive", text: "+ ПОЛОЖИТЕЛЬНЫЙ ПОЛЮС" }), el("input", { class: "table-input", value: scale.positive || "", placeholder: "Выраженное свойство", "aria-label": "Положительный полюс", oninput: (event) => set("positive")(event.target.value) }))),
-      el("div", { class: "scale-range", "aria-hidden": "true" }, "−5", el("span", { class: "scale-range-line" }), "+5"),
+      independent && el("label", {}, "Тип шкалы", el("select", { class: "table-input", "aria-label": "Тип шкалы", onchange: (event) => { set("kind")(event.target.value); renderMain(); } },
+        el("option", { value: "paired", selected: !single, text: "Два независимых свойства" }), el("option", { value: "unipolar", selected: single, text: "Одно свойство" }))),
+      single ? el("p", { class: "field-hint", text: "Измеряется выраженность свойства, указанного в названии и определении. Противоположный признак не требуется." }) : el("div", { class: "scale-poles" },
+        el("div", {}, el("div", { class: "pole-label", text: independent ? "СВОЙСТВО Б · 0–5" : "− ОТРИЦАТЕЛЬНЫЙ ПОЛЮС" }), el("input", { class: "table-input", value: scale.negative || "", placeholder: "Второе свойство", "aria-label": "Второе свойство", oninput: (event) => set("negative")(event.target.value) })),
+        el("div", {}, el("div", { class: "pole-label positive", text: independent ? "СВОЙСТВО А · 0–5" : "+ ПОЛОЖИТЕЛЬНЫЙ ПОЛЮС" }), el("input", { class: "table-input", value: scale.positive || "", placeholder: "Выраженное свойство", "aria-label": "Первое свойство", oninput: (event) => set("positive")(event.target.value) }))),
+      el("div", { class: "scale-range", "aria-hidden": "true" }, independent ? "0" : "−5", el("span", { class: "scale-range-line" }), independent ? "5 · каждое свойство отдельно" : "+5"),
       field("Определение и границы смысла", scale.definition, set("definition"), { multiline: true, rows: 3, placeholder: "Как понимать признак и по каким проявлениям его оценивать" }),
       field("Исходные формулировки / алиасы", Array.isArray(scale.aliases) ? scale.aliases.join("; ") : String(scale.aliases || ""), (value) => { scale.aliases = value.split(/[;\n]/).map((item) => item.trim()).filter(Boolean); state.scalesDirty = true; }, { placeholder: "Близкие формулировки через точку с запятой" }));
     const anchors = flattenAnchors(scale.anchors);
@@ -564,8 +568,8 @@
 
   async function saveScales(approve) {
     const scales = clone(getScaleDraft()).map((scale) => ({ ...scale, name: (scale.name || "").trim() }));
-    if (scales.length < 6 || scales.length > 80 || scales.some((scale) => !scale.name || !scale.positive?.trim() || !scale.negative?.trim() || !scale.definition?.trim())) {
-      state.error = "В MVP нужно от 6 до 80 шкал. Для каждой заполните название, оба полюса и определение.";
+    if (scales.length < 6 || scales.length > 80 || scales.some((scale) => !scale.name || !scale.definition?.trim() || (scale.kind !== "unipolar" && (!scale.positive?.trim() || !scale.negative?.trim())))) {
+      state.error = "В MVP нужно от 6 до 80 шкал. Заполните название и определение; для парной шкалы — оба свойства.";
       renderMain(); return;
     }
     await perform(async () => {

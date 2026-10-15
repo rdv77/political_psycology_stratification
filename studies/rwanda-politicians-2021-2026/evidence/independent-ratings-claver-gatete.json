@@ -1,0 +1,1897 @@
+[
+  {
+    "object_id": "claver-gatete",
+    "scale_id": "programmatic-renewal",
+    "pole_scores": {
+      "positive": {
+        "status": "observed",
+        "value": 2,
+        "confidence": 0.7,
+        "evidence_indices": [
+          8,
+          9,
+          10,
+          15
+        ],
+        "source_urls": [
+          "https://www.uneca.org/stories/statement-by-claver-gatete-at-the-45th-ordinary-session-of-the-executive-council",
+          "https://www.uneca.org/eca-events/stories/statement-mr-claver-gatete-african-economic-conference-2024",
+          "https://uneca.org/stories/statement-by-mr.-claver-gatete-at-the-47th-ordinary-session-of-the-executive-council",
+          "https://www.uneca.org/stories/eca's-gatete-calls-for-urgent,-ambitious-climate-action"
+        ],
+        "event_ids": [
+          "gatete-eca-executive-council-2024",
+          "gatete-african-economic-conference-2024",
+          "gatete-eca-executive-council-2025",
+          "gatete-cop29-climate-action-2024-11-14"
+        ],
+        "rationale": "В ряде выступлений Гатете призывает к реформе глобальной финансовой архитектуры, масштабированию внутренних ресурсов, новым стимулам для частного сектора и инновационным подходам к финансированию (например, зелёные и голубые облигации). Это свидетельствует о ясном ограниченном программном изменении существующего курса, но не о последовательной или определяющей черте.",
+        "support_type": "positive_manifestation",
+        "provenance": {
+          "raw_response_file": "evidence/independent_responses/20eceeaefd8dca7b2dfef87f20423e5a7bb8d2241cca99187c0083642b608314.json",
+          "model": "gpt-4.1",
+          "at": "2026-10-15T17:32:22.266128+00:00",
+          "cache_key": "20eceeaefd8dca7b2dfef87f20423e5a7bb8d2241cca99187c0083642b608314",
+          "original_proposal": {
+            "variable_id": "programmatic-renewal__positive",
+            "status": "observed",
+            "value": 2,
+            "confidence": 0.7,
+            "support_type": "positive_manifestation",
+            "rationale": "В ряде выступлений Гатете призывает к реформе глобальной финансовой архитектуры, масштабированию внутренних ресурсов, новым стимулам для частного сектора и инновационным подходам к финансированию (например, зелёные и голубые облигации). Это свидетельствует о ясном ограниченном программном изменении существующего курса, но не о последовательной или определяющей черте.",
+            "evidence_indices": [
+              8,
+              9,
+              10,
+              15
+            ]
+          }
+        },
+        "evidence_file": "evidence/independent-dossier-claver-gatete.json",
+        "evidence_basis": "fea8a4a974b5dbbe833afa8d46505ac01c810ef09c7987d7f4c38744b42e2b59"
+      },
+      "negative": {
+        "status": "observed",
+        "value": 3,
+        "confidence": 0.8,
+        "evidence_indices": [
+          1,
+          10,
+          11,
+          17
+        ],
+        "source_urls": [
+          "https://www.uneca.org/executive-secretary",
+          "https://uneca.org/stories/statement-by-mr.-claver-gatete-at-the-47th-ordinary-session-of-the-executive-council",
+          "https://multimedia.uneca.org/handle/10855.1/4141?show=full",
+          "https://www.uneca.org/fr/node/9811"
+        ],
+        "event_ids": [
+          "gatete-eca-mandate-2023",
+          "gatete-eca-executive-council-2025",
+          "gatete-eca-ambassadors-briefing-2024",
+          "gatete-african-economic-conference-2024-11-23"
+        ],
+        "rationale": "Гатете в ряде выступлений акцентирует продолжение и развитие действующих интеграционных и экономических стратегий Африки, поддержку реализации протоколов Африканской зоны свободной торговли, укрепление существующих международных и региональных механизмов. Это подтверждает несколько последовательных эпизодов устойчивого публичного акцента на закреплении курса.",
+        "support_type": "positive_manifestation",
+        "provenance": {
+          "raw_response_file": "evidence/independent_responses/20eceeaefd8dca7b2dfef87f20423e5a7bb8d2241cca99187c0083642b608314.json",
+          "model": "gpt-4.1",
+          "at": "2026-10-15T17:32:22.266128+00:00",
+          "cache_key": "20eceeaefd8dca7b2dfef87f20423e5a7bb8d2241cca99187c0083642b608314",
+          "original_proposal": {
+            "variable_id": "programmatic-renewal__negative",
+            "status": "observed",
+            "value": 3,
+            "confidence": 0.8,
+            "support_type": "positive_manifestation",
+            "rationale": "Гатете в ряде выступлений акцентирует продолжение и развитие действующих интеграционных и экономических стратегий Африки, поддержку реализации протоколов Африканской зоны свободной торговли, укрепление существующих международных и региональных механизмов. Это подтверждает несколько последовательных эпизодов устойчивого публичного акцента на закреплении курса.",
+            "evidence_indices": [
+              1,
+              10,
+              11,
+              17
+            ]
+          }
+        },
+        "evidence_file": "evidence/independent-dossier-claver-gatete.json",
+        "evidence_basis": "fea8a4a974b5dbbe833afa8d46505ac01c810ef09c7987d7f4c38744b42e2b59"
+      }
+    },
+    "positive": 2,
+    "negative": 3,
+    "value": null,
+    "status": "observed",
+    "difference": null,
+    "mass": null,
+    "measurement_model": "independent_poles",
+    "evidence_file": "evidence/independent-dossier-claver-gatete.json",
+    "evidence_basis": "fea8a4a974b5dbbe833afa8d46505ac01c810ef09c7987d7f4c38744b42e2b59",
+    "at": "2026-10-15T17:32:31.784983+00:00",
+    "reason": "Каждое свойство оценивается независимо; разность и искусственное дополнение до пяти не вычисляются"
+  },
+  {
+    "object_id": "claver-gatete",
+    "scale_id": "government-course-assessment",
+    "pole_scores": {
+      "positive": {
+        "status": "observed",
+        "value": 3,
+        "confidence": 0.8,
+        "evidence_indices": [
+          1,
+          10,
+          11
+        ],
+        "source_urls": [
+          "https://www.uneca.org/executive-secretary",
+          "https://uneca.org/stories/statement-by-mr.-claver-gatete-at-the-47th-ordinary-session-of-the-executive-council",
+          "https://multimedia.uneca.org/handle/10855.1/4141?show=full"
+        ],
+        "event_ids": [
+          "gatete-eca-mandate-2023",
+          "gatete-eca-executive-council-2025",
+          "gatete-eca-ambassadors-briefing-2024"
+        ],
+        "rationale": "Гатете в публичных выступлениях поддерживает действующий курс ЭКА ООН и африканских интеграционных инициатив, подчёркивает достижения и необходимость дальнейшего развития существующих программ.",
+        "support_type": "positive_manifestation",
+        "provenance": {
+          "raw_response_file": "evidence/independent_responses/20eceeaefd8dca7b2dfef87f20423e5a7bb8d2241cca99187c0083642b608314.json",
+          "model": "gpt-4.1",
+          "at": "2026-10-15T17:32:22.266128+00:00",
+          "cache_key": "20eceeaefd8dca7b2dfef87f20423e5a7bb8d2241cca99187c0083642b608314",
+          "original_proposal": {
+            "variable_id": "government-course-assessment__positive",
+            "status": "observed",
+            "value": 3,
+            "confidence": 0.8,
+            "support_type": "positive_manifestation",
+            "rationale": "Гатете в публичных выступлениях поддерживает действующий курс ЭКА ООН и африканских интеграционных инициатив, подчёркивает достижения и необходимость дальнейшего развития существующих программ.",
+            "evidence_indices": [
+              1,
+              10,
+              11
+            ]
+          }
+        },
+        "evidence_file": "evidence/independent-dossier-claver-gatete.json",
+        "evidence_basis": "fea8a4a974b5dbbe833afa8d46505ac01c810ef09c7987d7f4c38744b42e2b59"
+      },
+      "negative": {
+        "status": "observed",
+        "value": 1,
+        "confidence": 0.5,
+        "evidence_indices": [
+          8,
+          9
+        ],
+        "source_urls": [
+          "https://www.uneca.org/stories/statement-by-claver-gatete-at-the-45th-ordinary-session-of-the-executive-council",
+          "https://www.uneca.org/eca-events/stories/statement-mr-claver-gatete-african-economic-conference-2024"
+        ],
+        "event_ids": [
+          "gatete-eca-executive-council-2024",
+          "gatete-african-economic-conference-2024"
+        ],
+        "rationale": "В отдельных выступлениях Гатете указывает на недостаточность финансирования, высокую задолженность и необходимость реформ, что можно трактовать как единичное слабое проявление критики существующего порядка, но не как устойчивую публичную оппозицию.",
+        "support_type": "positive_manifestation",
+        "provenance": {
+          "raw_response_file": "evidence/independent_responses/20eceeaefd8dca7b2dfef87f20423e5a7bb8d2241cca99187c0083642b608314.json",
+          "model": "gpt-4.1",
+          "at": "2026-10-15T17:32:22.266128+00:00",
+          "cache_key": "20eceeaefd8dca7b2dfef87f20423e5a7bb8d2241cca99187c0083642b608314",
+          "original_proposal": {
+            "variable_id": "government-course-assessment__negative",
+            "status": "observed",
+            "value": 1,
+            "confidence": 0.5,
+            "support_type": "positive_manifestation",
+            "rationale": "В отдельных выступлениях Гатете указывает на недостаточность финансирования, высокую задолженность и необходимость реформ, что можно трактовать как единичное слабое проявление критики существующего порядка, но не как устойчивую публичную оппозицию.",
+            "evidence_indices": [
+              8,
+              9
+            ]
+          }
+        },
+        "evidence_file": "evidence/independent-dossier-claver-gatete.json",
+        "evidence_basis": "fea8a4a974b5dbbe833afa8d46505ac01c810ef09c7987d7f4c38744b42e2b59"
+      }
+    },
+    "positive": 3,
+    "negative": 1,
+    "value": null,
+    "status": "observed",
+    "difference": null,
+    "mass": null,
+    "measurement_model": "independent_poles",
+    "evidence_file": "evidence/independent-dossier-claver-gatete.json",
+    "evidence_basis": "fea8a4a974b5dbbe833afa8d46505ac01c810ef09c7987d7f4c38744b42e2b59",
+    "at": "2026-10-15T17:32:31.784983+00:00",
+    "reason": "Каждое свойство оценивается независимо; разность и искусственное дополнение до пяти не вычисляются"
+  },
+  {
+    "object_id": "claver-gatete",
+    "scale_id": "participation-administrative-direction",
+    "pole_scores": {
+      "positive": {
+        "status": "observed",
+        "value": 2,
+        "confidence": 0.6,
+        "evidence_indices": [
+          11,
+          13
+        ],
+        "source_urls": [
+          "https://multimedia.uneca.org/handle/10855.1/4141?show=full",
+          "https://www.uneca.org/eca-events/our-world-our-future-african-youth-and-summit-future"
+        ],
+        "event_ids": [
+          "gatete-eca-ambassadors-briefing-2024",
+          "gatete-african-youth-summit-future-2024-09-21"
+        ],
+        "rationale": "Гатете поддерживает расширение участия молодёжи и частного сектора в принятии решений, а также призывает к согласованному участию государств в международных процессах. Однако нет данных о конкретных процедурах общественного контроля или совместной выработке решений.",
+        "support_type": "positive_manifestation",
+        "provenance": {
+          "raw_response_file": "evidence/independent_responses/20eceeaefd8dca7b2dfef87f20423e5a7bb8d2241cca99187c0083642b608314.json",
+          "model": "gpt-4.1",
+          "at": "2026-10-15T17:32:22.266128+00:00",
+          "cache_key": "20eceeaefd8dca7b2dfef87f20423e5a7bb8d2241cca99187c0083642b608314",
+          "original_proposal": {
+            "variable_id": "participation-administrative-direction__positive",
+            "status": "observed",
+            "value": 2,
+            "confidence": 0.6,
+            "support_type": "positive_manifestation",
+            "rationale": "Гатете поддерживает расширение участия молодёжи и частного сектора в принятии решений, а также призывает к согласованному участию государств в международных процессах. Однако нет данных о конкретных процедурах общественного контроля или совместной выработке решений.",
+            "evidence_indices": [
+              11,
+              13
+            ]
+          }
+        },
+        "evidence_file": "evidence/independent-dossier-claver-gatete.json",
+        "evidence_basis": "fea8a4a974b5dbbe833afa8d46505ac01c810ef09c7987d7f4c38744b42e2b59"
+      },
+      "negative": {
+        "status": "observed",
+        "value": 2,
+        "confidence": 0.6,
+        "evidence_indices": [
+          0,
+          2,
+          5
+        ],
+        "source_urls": [
+          "https://www.un.org/sg/en/content/sg/personnel-appointments/2023-10-06/mr-claver-gatete-of-rwanda-executive-secretary-of-the-united-nations-economic-commission-for-africa-(eca)",
+          "https://ecosoc.un.org/sites/default/files/2025-02/2025_ECOSOC_CS_Biographies.pdf"
+        ],
+        "event_ids": [
+          "gatete-appointed-eca-2023",
+          "gatete-career-profile-2025",
+          "gatete-role-transition-2023"
+        ],
+        "rationale": "В ряде случаев Гатете действует в рамках административного управления, стратегического руководства и координации исполнителей, что соответствует ограниченному проявлению административной постановки задач.",
+        "support_type": "positive_manifestation",
+        "provenance": {
+          "raw_response_file": "evidence/independent_responses/20eceeaefd8dca7b2dfef87f20423e5a7bb8d2241cca99187c0083642b608314.json",
+          "model": "gpt-4.1",
+          "at": "2026-10-15T17:32:22.266128+00:00",
+          "cache_key": "20eceeaefd8dca7b2dfef87f20423e5a7bb8d2241cca99187c0083642b608314",
+          "original_proposal": {
+            "variable_id": "participation-administrative-direction__negative",
+            "status": "observed",
+            "value": 2,
+            "confidence": 0.6,
+            "support_type": "positive_manifestation",
+            "rationale": "В ряде случаев Гатете действует в рамках административного управления, стратегического руководства и координации исполнителей, что соответствует ограниченному проявлению административной постановки задач.",
+            "evidence_indices": [
+              0,
+              2,
+              5
+            ]
+          }
+        },
+        "evidence_file": "evidence/independent-dossier-claver-gatete.json",
+        "evidence_basis": "fea8a4a974b5dbbe833afa8d46505ac01c810ef09c7987d7f4c38744b42e2b59"
+      }
+    },
+    "positive": 2,
+    "negative": 2,
+    "value": null,
+    "status": "observed",
+    "difference": null,
+    "mass": null,
+    "measurement_model": "independent_poles",
+    "evidence_file": "evidence/independent-dossier-claver-gatete.json",
+    "evidence_basis": "fea8a4a974b5dbbe833afa8d46505ac01c810ef09c7987d7f4c38744b42e2b59",
+    "at": "2026-10-15T17:32:31.784983+00:00",
+    "reason": "Каждое свойство оценивается независимо; разность и искусственное дополнение до пяти не вычисляются"
+  },
+  {
+    "object_id": "claver-gatete",
+    "scale_id": "argumentation-evidence-values",
+    "pole_scores": {
+      "positive": {
+        "status": "observed",
+        "value": 3,
+        "confidence": 0.8,
+        "evidence_indices": [
+          8,
+          9,
+          10
+        ],
+        "source_urls": [
+          "https://www.uneca.org/stories/statement-by-claver-gatete-at-the-45th-ordinary-session-of-the-executive-council",
+          "https://www.uneca.org/eca-events/stories/statement-mr-claver-gatete-african-economic-conference-2024",
+          "https://uneca.org/stories/statement-by-mr.-claver-gatete-at-the-47th-ordinary-session-of-the-executive-council"
+        ],
+        "event_ids": [
+          "gatete-eca-executive-council-2024",
+          "gatete-african-economic-conference-2024",
+          "gatete-eca-executive-council-2025"
+        ],
+        "rationale": "Гатете регулярно использует данные, инструменты, расчёты и аргументацию через проверяемые результаты (например, упоминание инструментов ЭКА, статистики, экономических показателей, необходимости прозрачных систем).",
+        "support_type": "positive_manifestation",
+        "provenance": {
+          "raw_response_file": "evidence/independent_responses/20eceeaefd8dca7b2dfef87f20423e5a7bb8d2241cca99187c0083642b608314.json",
+          "model": "gpt-4.1",
+          "at": "2026-10-15T17:32:22.266128+00:00",
+          "cache_key": "20eceeaefd8dca7b2dfef87f20423e5a7bb8d2241cca99187c0083642b608314",
+          "original_proposal": {
+            "variable_id": "argumentation-evidence-values__positive",
+            "status": "observed",
+            "value": 3,
+            "confidence": 0.8,
+            "support_type": "positive_manifestation",
+            "rationale": "Гатете регулярно использует данные, инструменты, расчёты и аргументацию через проверяемые результаты (например, упоминание инструментов ЭКА, статистики, экономических показателей, необходимости прозрачных систем).",
+            "evidence_indices": [
+              8,
+              9,
+              10
+            ]
+          }
+        },
+        "evidence_file": "evidence/independent-dossier-claver-gatete.json",
+        "evidence_basis": "fea8a4a974b5dbbe833afa8d46505ac01c810ef09c7987d7f4c38744b42e2b59"
+      },
+      "negative": {
+        "status": "observed",
+        "value": 2,
+        "confidence": 0.6,
+        "evidence_indices": [
+          8,
+          13
+        ],
+        "source_urls": [
+          "https://www.uneca.org/stories/statement-by-claver-gatete-at-the-45th-ordinary-session-of-the-executive-council",
+          "https://www.uneca.org/eca-events/our-world-our-future-african-youth-and-summit-future"
+        ],
+        "event_ids": [
+          "gatete-eca-executive-council-2024",
+          "gatete-african-youth-summit-future-2024-09-21"
+        ],
+        "rationale": "В ряде случаев Гатете обосновывает решения через социальные права, коллективные интересы и ценности (например, образование как право человека, молодёжное лидерство как будущее Африки), что соответствует ясному ограниченному проявлению.",
+        "support_type": "positive_manifestation",
+        "provenance": {
+          "raw_response_file": "evidence/independent_responses/20eceeaefd8dca7b2dfef87f20423e5a7bb8d2241cca99187c0083642b608314.json",
+          "model": "gpt-4.1",
+          "at": "2026-10-15T17:32:22.266128+00:00",
+          "cache_key": "20eceeaefd8dca7b2dfef87f20423e5a7bb8d2241cca99187c0083642b608314",
+          "original_proposal": {
+            "variable_id": "argumentation-evidence-values__negative",
+            "status": "observed",
+            "value": 2,
+            "confidence": 0.6,
+            "support_type": "positive_manifestation",
+            "rationale": "В ряде случаев Гатете обосновывает решения через социальные права, коллективные интересы и ценности (например, образование как право человека, молодёжное лидерство как будущее Африки), что соответствует ясному ограниченному проявлению.",
+            "evidence_indices": [
+              8,
+              13
+            ]
+          }
+        },
+        "evidence_file": "evidence/independent-dossier-claver-gatete.json",
+        "evidence_basis": "fea8a4a974b5dbbe833afa8d46505ac01c810ef09c7987d7f4c38744b42e2b59"
+      }
+    },
+    "positive": 3,
+    "negative": 2,
+    "value": null,
+    "status": "observed",
+    "difference": null,
+    "mass": null,
+    "measurement_model": "independent_poles",
+    "evidence_file": "evidence/independent-dossier-claver-gatete.json",
+    "evidence_basis": "fea8a4a974b5dbbe833afa8d46505ac01c810ef09c7987d7f4c38744b42e2b59",
+    "at": "2026-10-15T17:32:31.784983+00:00",
+    "reason": "Каждое свойство оценивается независимо; разность и искусственное дополнение до пяти не вычисляются"
+  },
+  {
+    "object_id": "claver-gatete",
+    "scale_id": "market-state-instruments",
+    "pole_scores": {
+      "positive": {
+        "status": "observed",
+        "value": 3,
+        "confidence": 0.8,
+        "evidence_indices": [
+          7,
+          8,
+          9,
+          10,
+          11
+        ],
+        "source_urls": [
+          "https://www.mininfra.gov.rw/updates/news-details/minister-claver-gatete-discusses-business-with-france-companies",
+          "https://www.uneca.org/stories/statement-by-claver-gatete-at-the-45th-ordinary-session-of-the-executive-council",
+          "https://www.uneca.org/eca-events/stories/statement-mr-claver-gatete-african-economic-conference-2024",
+          "https://uneca.org/stories/statement-by-mr.-claver-gatete-at-the-47th-ordinary-session-of-the-executive-council",
+          "https://multimedia.uneca.org/handle/10855.1/4141?show=full"
+        ],
+        "event_ids": [
+          "gatete-french-private-sector-2021",
+          "gatete-eca-executive-council-2024",
+          "gatete-african-economic-conference-2024",
+          "gatete-eca-executive-council-2025",
+          "gatete-eca-ambassadors-briefing-2024"
+        ],
+        "rationale": "Гатете неоднократно призывает к расширению участия частного сектора, привлечению инвестиций, развитию частных инициатив и смешанного финансирования.",
+        "support_type": "positive_manifestation",
+        "provenance": {
+          "raw_response_file": "evidence/independent_responses/20eceeaefd8dca7b2dfef87f20423e5a7bb8d2241cca99187c0083642b608314.json",
+          "model": "gpt-4.1",
+          "at": "2026-10-15T17:32:22.266128+00:00",
+          "cache_key": "20eceeaefd8dca7b2dfef87f20423e5a7bb8d2241cca99187c0083642b608314",
+          "original_proposal": {
+            "variable_id": "market-state-instruments__positive",
+            "status": "observed",
+            "value": 3,
+            "confidence": 0.8,
+            "support_type": "positive_manifestation",
+            "rationale": "Гатете неоднократно призывает к расширению участия частного сектора, привлечению инвестиций, развитию частных инициатив и смешанного финансирования.",
+            "evidence_indices": [
+              7,
+              8,
+              9,
+              10,
+              11
+            ]
+          }
+        },
+        "evidence_file": "evidence/independent-dossier-claver-gatete.json",
+        "evidence_basis": "fea8a4a974b5dbbe833afa8d46505ac01c810ef09c7987d7f4c38744b42e2b59"
+      },
+      "negative": {
+        "status": "observed",
+        "value": 2,
+        "confidence": 0.6,
+        "evidence_indices": [
+          0,
+          2,
+          10
+        ],
+        "source_urls": [
+          "https://www.un.org/sg/en/content/sg/personnel-appointments/2023-10-06/mr-claver-gatete-of-rwanda-executive-secretary-of-the-united-nations-economic-commission-for-africa-(eca)",
+          "https://ecosoc.un.org/sites/default/files/2025-02/2025_ECOSOC_CS_Biographies.pdf",
+          "https://uneca.org/stories/statement-by-mr.-claver-gatete-at-the-47th-ordinary-session-of-the-executive-council"
+        ],
+        "event_ids": [
+          "gatete-appointed-eca-2023",
+          "gatete-career-profile-2025",
+          "gatete-eca-executive-council-2025"
+        ],
+        "rationale": "В ряде выступлений Гатете поддерживает государственное стратегическое руководство, публичное планирование и координацию, но без акцента на обязательные ограничения или жёсткое регулирование.",
+        "support_type": "positive_manifestation",
+        "provenance": {
+          "raw_response_file": "evidence/independent_responses/20eceeaefd8dca7b2dfef87f20423e5a7bb8d2241cca99187c0083642b608314.json",
+          "model": "gpt-4.1",
+          "at": "2026-10-15T17:32:22.266128+00:00",
+          "cache_key": "20eceeaefd8dca7b2dfef87f20423e5a7bb8d2241cca99187c0083642b608314",
+          "original_proposal": {
+            "variable_id": "market-state-instruments__negative",
+            "status": "observed",
+            "value": 2,
+            "confidence": 0.6,
+            "support_type": "positive_manifestation",
+            "rationale": "В ряде выступлений Гатете поддерживает государственное стратегическое руководство, публичное планирование и координацию, но без акцента на обязательные ограничения или жёсткое регулирование.",
+            "evidence_indices": [
+              0,
+              2,
+              10
+            ]
+          }
+        },
+        "evidence_file": "evidence/independent-dossier-claver-gatete.json",
+        "evidence_basis": "fea8a4a974b5dbbe833afa8d46505ac01c810ef09c7987d7f4c38744b42e2b59"
+      }
+    },
+    "positive": 3,
+    "negative": 2,
+    "value": null,
+    "status": "observed",
+    "difference": null,
+    "mass": null,
+    "measurement_model": "independent_poles",
+    "evidence_file": "evidence/independent-dossier-claver-gatete.json",
+    "evidence_basis": "fea8a4a974b5dbbe833afa8d46505ac01c810ef09c7987d7f4c38744b42e2b59",
+    "at": "2026-10-15T17:32:31.784983+00:00",
+    "reason": "Каждое свойство оценивается независимо; разность и искусственное дополнение до пяти не вычисляются"
+  },
+  {
+    "object_id": "claver-gatete",
+    "scale_id": "accessibility-growth-priorities",
+    "pole_scores": {
+      "positive": {
+        "status": "observed",
+        "value": 2,
+        "confidence": 0.7,
+        "evidence_indices": [
+          8,
+          15
+        ],
+        "source_urls": [
+          "https://www.uneca.org/stories/statement-by-claver-gatete-at-the-45th-ordinary-session-of-the-executive-council",
+          "https://www.uneca.org/stories/eca's-gatete-calls-for-urgent,-ambitious-climate-action"
+        ],
+        "event_ids": [
+          "gatete-eca-executive-council-2024",
+          "gatete-cop29-climate-action-2024-11-14"
+        ],
+        "rationale": "Гатете подчёркивает приоритет доступности образования, инфраструктуры и базовых услуг, но основной акцент делает на инвестициях и росте.",
+        "support_type": "positive_manifestation",
+        "provenance": {
+          "raw_response_file": "evidence/independent_responses/20eceeaefd8dca7b2dfef87f20423e5a7bb8d2241cca99187c0083642b608314.json",
+          "model": "gpt-4.1",
+          "at": "2026-10-15T17:32:22.266128+00:00",
+          "cache_key": "20eceeaefd8dca7b2dfef87f20423e5a7bb8d2241cca99187c0083642b608314",
+          "original_proposal": {
+            "variable_id": "accessibility-growth-priorities__positive",
+            "status": "observed",
+            "value": 2,
+            "confidence": 0.7,
+            "support_type": "positive_manifestation",
+            "rationale": "Гатете подчёркивает приоритет доступности образования, инфраструктуры и базовых услуг, но основной акцент делает на инвестициях и росте.",
+            "evidence_indices": [
+              8,
+              15
+            ]
+          }
+        },
+        "evidence_file": "evidence/independent-dossier-claver-gatete.json",
+        "evidence_basis": "fea8a4a974b5dbbe833afa8d46505ac01c810ef09c7987d7f4c38744b42e2b59"
+      },
+      "negative": {
+        "status": "observed",
+        "value": 3,
+        "confidence": 0.8,
+        "evidence_indices": [
+          7,
+          9,
+          10,
+          11
+        ],
+        "source_urls": [
+          "https://www.mininfra.gov.rw/updates/news-details/minister-claver-gatete-discusses-business-with-france-companies",
+          "https://www.uneca.org/eca-events/stories/statement-mr-claver-gatete-african-economic-conference-2024",
+          "https://uneca.org/stories/statement-by-mr.-claver-gatete-at-the-47th-ordinary-session-of-the-executive-council",
+          "https://multimedia.uneca.org/handle/10855.1/4141?show=full"
+        ],
+        "event_ids": [
+          "gatete-french-private-sector-2021",
+          "gatete-african-economic-conference-2024",
+          "gatete-eca-executive-council-2025",
+          "gatete-eca-ambassadors-briefing-2024"
+        ],
+        "rationale": "В ряде выступлений Гатете акцентирует рост инвестиций, конкурентоспособности, развитие рынков капитала и деловой активности как ключевые приоритеты.",
+        "support_type": "positive_manifestation",
+        "provenance": {
+          "raw_response_file": "evidence/independent_responses/20eceeaefd8dca7b2dfef87f20423e5a7bb8d2241cca99187c0083642b608314.json",
+          "model": "gpt-4.1",
+          "at": "2026-10-15T17:32:22.266128+00:00",
+          "cache_key": "20eceeaefd8dca7b2dfef87f20423e5a7bb8d2241cca99187c0083642b608314",
+          "original_proposal": {
+            "variable_id": "accessibility-growth-priorities__negative",
+            "status": "observed",
+            "value": 3,
+            "confidence": 0.8,
+            "support_type": "positive_manifestation",
+            "rationale": "В ряде выступлений Гатете акцентирует рост инвестиций, конкурентоспособности, развитие рынков капитала и деловой активности как ключевые приоритеты.",
+            "evidence_indices": [
+              7,
+              9,
+              10,
+              11
+            ]
+          }
+        },
+        "evidence_file": "evidence/independent-dossier-claver-gatete.json",
+        "evidence_basis": "fea8a4a974b5dbbe833afa8d46505ac01c810ef09c7987d7f4c38744b42e2b59"
+      }
+    },
+    "positive": 2,
+    "negative": 3,
+    "value": null,
+    "status": "observed",
+    "difference": null,
+    "mass": null,
+    "measurement_model": "independent_poles",
+    "evidence_file": "evidence/independent-dossier-claver-gatete.json",
+    "evidence_basis": "fea8a4a974b5dbbe833afa8d46505ac01c810ef09c7987d7f4c38744b42e2b59",
+    "at": "2026-10-15T17:32:31.784983+00:00",
+    "reason": "Каждое свойство оценивается независимо; разность и искусственное дополнение до пяти не вычисляются"
+  },
+  {
+    "object_id": "claver-gatete",
+    "scale_id": "external-domestic-resources",
+    "pole_scores": {
+      "positive": {
+        "status": "observed",
+        "value": 4,
+        "confidence": 0.9,
+        "evidence_indices": [
+          8,
+          9,
+          10,
+          11
+        ],
+        "source_urls": [
+          "https://www.uneca.org/stories/statement-by-claver-gatete-at-the-45th-ordinary-session-of-the-executive-council",
+          "https://www.uneca.org/eca-events/stories/statement-mr-claver-gatete-african-economic-conference-2024",
+          "https://uneca.org/stories/statement-by-mr.-claver-gatete-at-the-47th-ordinary-session-of-the-executive-council",
+          "https://multimedia.uneca.org/handle/10855.1/4141?show=full"
+        ],
+        "event_ids": [
+          "gatete-eca-executive-council-2024",
+          "gatete-african-economic-conference-2024",
+          "gatete-eca-executive-council-2025",
+          "gatete-eca-ambassadors-briefing-2024"
+        ],
+        "rationale": "Гатете последовательно и многократно выступает за привлечение внешнего финансирования, международных партнёров, реформу глобальной финансовой архитектуры и использование специальных прав заимствования.",
+        "support_type": "positive_manifestation",
+        "provenance": {
+          "raw_response_file": "evidence/independent_responses/20eceeaefd8dca7b2dfef87f20423e5a7bb8d2241cca99187c0083642b608314.json",
+          "model": "gpt-4.1",
+          "at": "2026-10-15T17:32:22.266128+00:00",
+          "cache_key": "20eceeaefd8dca7b2dfef87f20423e5a7bb8d2241cca99187c0083642b608314",
+          "original_proposal": {
+            "variable_id": "external-domestic-resources__positive",
+            "status": "observed",
+            "value": 4,
+            "confidence": 0.9,
+            "support_type": "positive_manifestation",
+            "rationale": "Гатете последовательно и многократно выступает за привлечение внешнего финансирования, международных партнёров, реформу глобальной финансовой архитектуры и использование специальных прав заимствования.",
+            "evidence_indices": [
+              8,
+              9,
+              10,
+              11
+            ]
+          }
+        },
+        "evidence_file": "evidence/independent-dossier-claver-gatete.json",
+        "evidence_basis": "fea8a4a974b5dbbe833afa8d46505ac01c810ef09c7987d7f4c38744b42e2b59"
+      },
+      "negative": {
+        "status": "observed",
+        "value": 2,
+        "confidence": 0.7,
+        "evidence_indices": [
+          9,
+          10
+        ],
+        "source_urls": [
+          "https://www.uneca.org/eca-events/stories/statement-mr-claver-gatete-african-economic-conference-2024",
+          "https://uneca.org/stories/statement-by-mr.-claver-gatete-at-the-47th-ordinary-session-of-the-executive-council"
+        ],
+        "event_ids": [
+          "gatete-african-economic-conference-2024",
+          "gatete-eca-executive-council-2025"
+        ],
+        "rationale": "Гатете также призывает к мобилизации внутренних ресурсов, выпуску облигаций в местной валюте и развитию внутренних рынков капитала, но это не является определяющей чертой.",
+        "support_type": "positive_manifestation",
+        "provenance": {
+          "raw_response_file": "evidence/independent_responses/20eceeaefd8dca7b2dfef87f20423e5a7bb8d2241cca99187c0083642b608314.json",
+          "model": "gpt-4.1",
+          "at": "2026-10-15T17:32:22.266128+00:00",
+          "cache_key": "20eceeaefd8dca7b2dfef87f20423e5a7bb8d2241cca99187c0083642b608314",
+          "original_proposal": {
+            "variable_id": "external-domestic-resources__negative",
+            "status": "observed",
+            "value": 2,
+            "confidence": 0.7,
+            "support_type": "positive_manifestation",
+            "rationale": "Гатете также призывает к мобилизации внутренних ресурсов, выпуску облигаций в местной валюте и развитию внутренних рынков капитала, но это не является определяющей чертой.",
+            "evidence_indices": [
+              9,
+              10
+            ]
+          }
+        },
+        "evidence_file": "evidence/independent-dossier-claver-gatete.json",
+        "evidence_basis": "fea8a4a974b5dbbe833afa8d46505ac01c810ef09c7987d7f4c38744b42e2b59"
+      }
+    },
+    "positive": 4,
+    "negative": 2,
+    "value": null,
+    "status": "observed",
+    "difference": null,
+    "mass": null,
+    "measurement_model": "independent_poles",
+    "evidence_file": "evidence/independent-dossier-claver-gatete.json",
+    "evidence_basis": "fea8a4a974b5dbbe833afa8d46505ac01c810ef09c7987d7f4c38744b42e2b59",
+    "at": "2026-10-15T17:32:31.784983+00:00",
+    "reason": "Каждое свойство оценивается независимо; разность и искусственное дополнение до пяти не вычисляются"
+  },
+  {
+    "object_id": "claver-gatete",
+    "scale_id": "international-rules-autonomy",
+    "pole_scores": {
+      "positive": {
+        "status": "observed",
+        "value": 3,
+        "confidence": 0.8,
+        "evidence_indices": [
+          10,
+          11,
+          15
+        ],
+        "source_urls": [
+          "https://uneca.org/stories/statement-by-mr.-claver-gatete-at-the-47th-ordinary-session-of-the-executive-council",
+          "https://multimedia.uneca.org/handle/10855.1/4141?show=full",
+          "https://www.uneca.org/stories/eca's-gatete-calls-for-urgent,-ambitious-climate-action"
+        ],
+        "event_ids": [
+          "gatete-eca-executive-council-2025",
+          "gatete-eca-ambassadors-briefing-2024",
+          "gatete-cop29-climate-action-2024-11-14"
+        ],
+        "rationale": "Гатете поддерживает закрепление международных обязательств, реализацию протоколов Африканской зоны свободной торговли, реформу глобальных правил и участие в многосторонних механизмах.",
+        "support_type": "positive_manifestation",
+        "provenance": {
+          "raw_response_file": "evidence/independent_responses/20eceeaefd8dca7b2dfef87f20423e5a7bb8d2241cca99187c0083642b608314.json",
+          "model": "gpt-4.1",
+          "at": "2026-10-15T17:32:22.266128+00:00",
+          "cache_key": "20eceeaefd8dca7b2dfef87f20423e5a7bb8d2241cca99187c0083642b608314",
+          "original_proposal": {
+            "variable_id": "international-rules-autonomy__positive",
+            "status": "observed",
+            "value": 3,
+            "confidence": 0.8,
+            "support_type": "positive_manifestation",
+            "rationale": "Гатете поддерживает закрепление международных обязательств, реализацию протоколов Африканской зоны свободной торговли, реформу глобальных правил и участие в многосторонних механизмах.",
+            "evidence_indices": [
+              10,
+              11,
+              15
+            ]
+          }
+        },
+        "evidence_file": "evidence/independent-dossier-claver-gatete.json",
+        "evidence_basis": "fea8a4a974b5dbbe833afa8d46505ac01c810ef09c7987d7f4c38744b42e2b59"
+      },
+      "negative": {
+        "status": "observed",
+        "value": 1,
+        "confidence": 0.5,
+        "evidence_indices": [
+          12
+        ],
+        "source_urls": [
+          "https://www.rwandainun.gov.rw/index.php?eID=dumpFile&t=f&f=44560&token=6fc07edef96da8e94924efab139c5841135e5f47"
+        ],
+        "event_ids": [
+          "gatete-drc-security-council-2022-05-31"
+        ],
+        "rationale": "В отдельных случаях Гатете защищает самостоятельность решений (например, в ситуации с обвинениями ДРК), но это единичное проявление, не определяющее публичный профиль.",
+        "support_type": "positive_manifestation",
+        "provenance": {
+          "raw_response_file": "evidence/independent_responses/20eceeaefd8dca7b2dfef87f20423e5a7bb8d2241cca99187c0083642b608314.json",
+          "model": "gpt-4.1",
+          "at": "2026-10-15T17:32:22.266128+00:00",
+          "cache_key": "20eceeaefd8dca7b2dfef87f20423e5a7bb8d2241cca99187c0083642b608314",
+          "original_proposal": {
+            "variable_id": "international-rules-autonomy__negative",
+            "status": "observed",
+            "value": 1,
+            "confidence": 0.5,
+            "support_type": "positive_manifestation",
+            "rationale": "В отдельных случаях Гатете защищает самостоятельность решений (например, в ситуации с обвинениями ДРК), но это единичное проявление, не определяющее публичный профиль.",
+            "evidence_indices": [
+              12
+            ]
+          }
+        },
+        "evidence_file": "evidence/independent-dossier-claver-gatete.json",
+        "evidence_basis": "fea8a4a974b5dbbe833afa8d46505ac01c810ef09c7987d7f4c38744b42e2b59"
+      }
+    },
+    "positive": 3,
+    "negative": 1,
+    "value": null,
+    "status": "observed",
+    "difference": null,
+    "mass": null,
+    "measurement_model": "independent_poles",
+    "evidence_file": "evidence/independent-dossier-claver-gatete.json",
+    "evidence_basis": "fea8a4a974b5dbbe833afa8d46505ac01c810ef09c7987d7f4c38744b42e2b59",
+    "at": "2026-10-15T17:32:31.784983+00:00",
+    "reason": "Каждое свойство оценивается независимо; разность и искусственное дополнение до пяти не вычисляются"
+  },
+  {
+    "object_id": "claver-gatete",
+    "scale_id": "mediation-adversarial-communication",
+    "pole_scores": {
+      "positive": {
+        "status": "observed",
+        "value": 2,
+        "confidence": 0.7,
+        "evidence_indices": [
+          11,
+          12
+        ],
+        "source_urls": [
+          "https://multimedia.uneca.org/handle/10855.1/4141?show=full",
+          "https://www.rwandainun.gov.rw/index.php?eID=dumpFile&t=f&f=44560&token=6fc07edef96da8e94924efab139c5841135e5f47"
+        ],
+        "event_ids": [
+          "gatete-eca-ambassadors-briefing-2024",
+          "gatete-drc-security-council-2022-05-31"
+        ],
+        "rationale": "Гатете призывает к переговорам, согласованию интересов, международной координации и посредничеству в ряде случаев, но не делает это определяющей чертой.",
+        "support_type": "positive_manifestation",
+        "provenance": {
+          "raw_response_file": "evidence/independent_responses/20eceeaefd8dca7b2dfef87f20423e5a7bb8d2241cca99187c0083642b608314.json",
+          "model": "gpt-4.1",
+          "at": "2026-10-15T17:32:22.266128+00:00",
+          "cache_key": "20eceeaefd8dca7b2dfef87f20423e5a7bb8d2241cca99187c0083642b608314",
+          "original_proposal": {
+            "variable_id": "mediation-adversarial-communication__positive",
+            "status": "observed",
+            "value": 2,
+            "confidence": 0.7,
+            "support_type": "positive_manifestation",
+            "rationale": "Гатете призывает к переговорам, согласованию интересов, международной координации и посредничеству в ряде случаев, но не делает это определяющей чертой.",
+            "evidence_indices": [
+              11,
+              12
+            ]
+          }
+        },
+        "evidence_file": "evidence/independent-dossier-claver-gatete.json",
+        "evidence_basis": "fea8a4a974b5dbbe833afa8d46505ac01c810ef09c7987d7f4c38744b42e2b59"
+      },
+      "negative": {
+        "status": "observed",
+        "value": 1,
+        "confidence": 0.5,
+        "evidence_indices": [
+          12
+        ],
+        "source_urls": [
+          "https://www.rwandainun.gov.rw/index.php?eID=dumpFile&t=f&f=44560&token=6fc07edef96da8e94924efab139c5841135e5f47"
+        ],
+        "event_ids": [
+          "gatete-drc-security-council-2022-05-31"
+        ],
+        "rationale": "В единичном случае Гатете публично опровергает обвинения и защищает позицию своей стороны (эпизод с ДРК), что соответствует слабому проявлению полемического стиля.",
+        "support_type": "positive_manifestation",
+        "provenance": {
+          "raw_response_file": "evidence/independent_responses/20eceeaefd8dca7b2dfef87f20423e5a7bb8d2241cca99187c0083642b608314.json",
+          "model": "gpt-4.1",
+          "at": "2026-10-15T17:32:22.266128+00:00",
+          "cache_key": "20eceeaefd8dca7b2dfef87f20423e5a7bb8d2241cca99187c0083642b608314",
+          "original_proposal": {
+            "variable_id": "mediation-adversarial-communication__negative",
+            "status": "observed",
+            "value": 1,
+            "confidence": 0.5,
+            "support_type": "positive_manifestation",
+            "rationale": "В единичном случае Гатете публично опровергает обвинения и защищает позицию своей стороны (эпизод с ДРК), что соответствует слабому проявлению полемического стиля.",
+            "evidence_indices": [
+              12
+            ]
+          }
+        },
+        "evidence_file": "evidence/independent-dossier-claver-gatete.json",
+        "evidence_basis": "fea8a4a974b5dbbe833afa8d46505ac01c810ef09c7987d7f4c38744b42e2b59"
+      }
+    },
+    "positive": 2,
+    "negative": 1,
+    "value": null,
+    "status": "observed",
+    "difference": null,
+    "mass": null,
+    "measurement_model": "independent_poles",
+    "evidence_file": "evidence/independent-dossier-claver-gatete.json",
+    "evidence_basis": "fea8a4a974b5dbbe833afa8d46505ac01c810ef09c7987d7f4c38744b42e2b59",
+    "at": "2026-10-15T17:32:31.784983+00:00",
+    "reason": "Каждое свойство оценивается независимо; разность и искусственное дополнение до пяти не вычисляются"
+  },
+  {
+    "object_id": "claver-gatete",
+    "scale_id": "cultural-openness-national-transmission",
+    "pole_scores": {
+      "positive": {
+        "status": "observed",
+        "value": 2,
+        "confidence": 0.7,
+        "evidence_indices": [
+          1,
+          7,
+          10,
+          13,
+          14
+        ],
+        "source_urls": [
+          "https://www.uneca.org/executive-secretary",
+          "https://www.mininfra.gov.rw/updates/news-details/minister-claver-gatete-discusses-business-with-france-companies",
+          "https://uneca.org/stories/statement-by-mr.-claver-gatete-at-the-47th-ordinary-session-of-the-executive-council",
+          "https://www.uneca.org/eca-events/our-world-our-future-african-youth-and-summit-future",
+          "https://www.uneca.org/eca-events/eca-summit-future"
+        ],
+        "event_ids": [
+          "gatete-eca-mandate-2023",
+          "gatete-french-private-sector-2021",
+          "gatete-eca-executive-council-2025",
+          "gatete-african-youth-summit-future-2024-09-21",
+          "gatete-summit-future-opening-2024-09-20"
+        ],
+        "rationale": "Гатете в публичных выступлениях и официальных материалах ЭКА акцентирует международную координацию, обмен опытом, поддержку молодёжного лидерства и участие в многосторонних инициативах (например, Саммит будущего, взаимодействие с частным сектором Франции, продвижение региональной торговли и инвестиций). Это указывает на ясное ограниченное проявление расширения межкультурного обмена и разнообразия, но не на устойчивую определяющую черту.",
+        "support_type": "positive_manifestation",
+        "provenance": {
+          "raw_response_file": "evidence/independent_responses/d93ab68e9aa344454f3048158e92ef0a620c63cc41198038282560ea8145b0be.json",
+          "model": "gpt-4.1",
+          "at": "2026-10-15T17:32:31.781357+00:00",
+          "cache_key": "d93ab68e9aa344454f3048158e92ef0a620c63cc41198038282560ea8145b0be",
+          "original_proposal": {
+            "variable_id": "cultural-openness-national-transmission__positive",
+            "status": "observed",
+            "value": 2,
+            "confidence": 0.7,
+            "support_type": "positive_manifestation",
+            "rationale": "Гатете в публичных выступлениях и официальных материалах ЭКА акцентирует международную координацию, обмен опытом, поддержку молодёжного лидерства и участие в многосторонних инициативах (например, Саммит будущего, взаимодействие с частным сектором Франции, продвижение региональной торговли и инвестиций). Это указывает на ясное ограниченное проявление расширения межкультурного обмена и разнообразия, но не на устойчивую определяющую черту.",
+            "evidence_indices": [
+              1,
+              7,
+              10,
+              13,
+              14
+            ]
+          }
+        },
+        "evidence_file": "evidence/independent-dossier-claver-gatete.json",
+        "evidence_basis": "fea8a4a974b5dbbe833afa8d46505ac01c810ef09c7987d7f4c38744b42e2b59"
+      },
+      "negative": {
+        "status": "unknown",
+        "value": null,
+        "confidence": 0,
+        "evidence_indices": [],
+        "source_urls": [],
+        "event_ids": [],
+        "rationale": "В доступных материалах отсутствуют прямые проявления или заявления Гатете о приоритете сохранения и передачи национальных ценностей как самостоятельной публичной позиции.",
+        "support_type": "unknown",
+        "provenance": {
+          "raw_response_file": "evidence/independent_responses/d93ab68e9aa344454f3048158e92ef0a620c63cc41198038282560ea8145b0be.json",
+          "model": "gpt-4.1",
+          "at": "2026-10-15T17:32:31.781357+00:00",
+          "cache_key": "d93ab68e9aa344454f3048158e92ef0a620c63cc41198038282560ea8145b0be",
+          "original_proposal": {
+            "variable_id": "cultural-openness-national-transmission__negative",
+            "status": "unknown",
+            "value": null,
+            "confidence": 0.3,
+            "support_type": "unknown",
+            "rationale": "В доступных материалах отсутствуют прямые проявления или заявления Гатете о приоритете сохранения и передачи национальных ценностей как самостоятельной публичной позиции.",
+            "evidence_indices": []
+          }
+        },
+        "evidence_file": "evidence/independent-dossier-claver-gatete.json",
+        "evidence_basis": "fea8a4a974b5dbbe833afa8d46505ac01c810ef09c7987d7f4c38744b42e2b59"
+      }
+    },
+    "positive": 2,
+    "negative": null,
+    "value": null,
+    "status": "partial",
+    "difference": null,
+    "mass": null,
+    "measurement_model": "independent_poles",
+    "evidence_file": "evidence/independent-dossier-claver-gatete.json",
+    "evidence_basis": "fea8a4a974b5dbbe833afa8d46505ac01c810ef09c7987d7f4c38744b42e2b59",
+    "at": "2026-10-15T17:32:31.784983+00:00",
+    "reason": "Каждое свойство оценивается независимо; разность и искусственное дополнение до пяти не вычисляются"
+  },
+  {
+    "object_id": "claver-gatete",
+    "scale_id": "problem-disclosure-reputation-defence",
+    "pole_scores": {
+      "positive": {
+        "status": "observed",
+        "value": 2,
+        "confidence": 0.7,
+        "evidence_indices": [
+          8,
+          9,
+          15
+        ],
+        "source_urls": [
+          "https://www.uneca.org/stories/statement-by-claver-gatete-at-the-45th-ordinary-session-of-the-executive-council",
+          "https://www.uneca.org/eca-events/stories/statement-mr-claver-gatete-african-economic-conference-2024",
+          "https://www.uneca.org/stories/eca's-gatete-calls-for-urgent,-ambitious-climate-action"
+        ],
+        "event_ids": [
+          "gatete-eca-executive-council-2024",
+          "gatete-african-economic-conference-2024",
+          "gatete-cop29-climate-action-2024-11-14"
+        ],
+        "rationale": "Гатете в ряде выступлений признаёт конкретные проблемы: недостаточное финансирование, высокую задолженность, климатический ущерб, барьеры для инвестиций. Это ясное ограниченное проявление публичного раскрытия проблем, но не устойчивый акцент на постоянном признании недостатков.",
+        "support_type": "positive_manifestation",
+        "provenance": {
+          "raw_response_file": "evidence/independent_responses/d93ab68e9aa344454f3048158e92ef0a620c63cc41198038282560ea8145b0be.json",
+          "model": "gpt-4.1",
+          "at": "2026-10-15T17:32:31.781357+00:00",
+          "cache_key": "d93ab68e9aa344454f3048158e92ef0a620c63cc41198038282560ea8145b0be",
+          "original_proposal": {
+            "variable_id": "problem-disclosure-reputation-defence__positive",
+            "status": "observed",
+            "value": 2,
+            "confidence": 0.7,
+            "support_type": "positive_manifestation",
+            "rationale": "Гатете в ряде выступлений признаёт конкретные проблемы: недостаточное финансирование, высокую задолженность, климатический ущерб, барьеры для инвестиций. Это ясное ограниченное проявление публичного раскрытия проблем, но не устойчивый акцент на постоянном признании недостатков.",
+            "evidence_indices": [
+              8,
+              9,
+              15
+            ]
+          }
+        },
+        "evidence_file": "evidence/independent-dossier-claver-gatete.json",
+        "evidence_basis": "fea8a4a974b5dbbe833afa8d46505ac01c810ef09c7987d7f4c38744b42e2b59"
+      },
+      "negative": {
+        "status": "observed",
+        "value": 2,
+        "confidence": 0.7,
+        "evidence_indices": [
+          12
+        ],
+        "source_urls": [
+          "https://www.rwandainun.gov.rw/index.php?eID=dumpFile&t=f&f=44560&token=6fc07edef96da8e94924efab139c5841135e5f47"
+        ],
+        "event_ids": [
+          "gatete-drc-security-council-2022-05-31"
+        ],
+        "rationale": "В выступлении в Совете Безопасности ООН Гатете защищал репутацию Руанды, отвергая обвинения в поддержке M23, и подчеркивал необоснованность претензий ДРК. Это ясное ограниченное проявление защитного продвижения репутации страны.",
+        "support_type": "positive_manifestation",
+        "provenance": {
+          "raw_response_file": "evidence/independent_responses/d93ab68e9aa344454f3048158e92ef0a620c63cc41198038282560ea8145b0be.json",
+          "model": "gpt-4.1",
+          "at": "2026-10-15T17:32:31.781357+00:00",
+          "cache_key": "d93ab68e9aa344454f3048158e92ef0a620c63cc41198038282560ea8145b0be",
+          "original_proposal": {
+            "variable_id": "problem-disclosure-reputation-defence__negative",
+            "status": "observed",
+            "value": 2,
+            "confidence": 0.7,
+            "support_type": "positive_manifestation",
+            "rationale": "В выступлении в Совете Безопасности ООН Гатете защищал репутацию Руанды, отвергая обвинения в поддержке M23, и подчеркивал необоснованность претензий ДРК. Это ясное ограниченное проявление защитного продвижения репутации страны.",
+            "evidence_indices": [
+              12
+            ]
+          }
+        },
+        "evidence_file": "evidence/independent-dossier-claver-gatete.json",
+        "evidence_basis": "fea8a4a974b5dbbe833afa8d46505ac01c810ef09c7987d7f4c38744b42e2b59"
+      }
+    },
+    "positive": 2,
+    "negative": 2,
+    "value": null,
+    "status": "observed",
+    "difference": null,
+    "mass": null,
+    "measurement_model": "independent_poles",
+    "evidence_file": "evidence/independent-dossier-claver-gatete.json",
+    "evidence_basis": "fea8a4a974b5dbbe833afa8d46505ac01c810ef09c7987d7f4c38744b42e2b59",
+    "at": "2026-10-15T17:32:31.784983+00:00",
+    "reason": "Каждое свойство оценивается независимо; разность и искусственное дополнение до пяти не вычисляются"
+  },
+  {
+    "object_id": "claver-gatete",
+    "scale_id": "procedural-guarantees-enforcement",
+    "pole_scores": {
+      "positive": {
+        "status": "unknown",
+        "value": null,
+        "confidence": 0,
+        "evidence_indices": [],
+        "source_urls": [],
+        "event_ids": [],
+        "rationale": "Нет прямых фактов о действиях или заявлениях Гатете по расширению процедурных гарантий, доступа к обжалованию или правовой защите.",
+        "support_type": "unknown",
+        "provenance": {
+          "raw_response_file": "evidence/independent_responses/d93ab68e9aa344454f3048158e92ef0a620c63cc41198038282560ea8145b0be.json",
+          "model": "gpt-4.1",
+          "at": "2026-10-15T17:32:31.781357+00:00",
+          "cache_key": "d93ab68e9aa344454f3048158e92ef0a620c63cc41198038282560ea8145b0be",
+          "original_proposal": {
+            "variable_id": "procedural-guarantees-enforcement__positive",
+            "status": "unknown",
+            "value": null,
+            "confidence": 0.3,
+            "support_type": "unknown",
+            "rationale": "Нет прямых фактов о действиях или заявлениях Гатете по расширению процедурных гарантий, доступа к обжалованию или правовой защите.",
+            "evidence_indices": []
+          }
+        },
+        "evidence_file": "evidence/independent-dossier-claver-gatete.json",
+        "evidence_basis": "fea8a4a974b5dbbe833afa8d46505ac01c810ef09c7987d7f4c38744b42e2b59"
+      },
+      "negative": {
+        "status": "unknown",
+        "value": null,
+        "confidence": 0,
+        "evidence_indices": [],
+        "source_urls": [],
+        "event_ids": [],
+        "rationale": "В материалах отсутствуют сведения о персональных инициативах Гатете по принудительному обеспечению обязательных требований.",
+        "support_type": "unknown",
+        "provenance": {
+          "raw_response_file": "evidence/independent_responses/d93ab68e9aa344454f3048158e92ef0a620c63cc41198038282560ea8145b0be.json",
+          "model": "gpt-4.1",
+          "at": "2026-10-15T17:32:31.781357+00:00",
+          "cache_key": "d93ab68e9aa344454f3048158e92ef0a620c63cc41198038282560ea8145b0be",
+          "original_proposal": {
+            "variable_id": "procedural-guarantees-enforcement__negative",
+            "status": "unknown",
+            "value": null,
+            "confidence": 0.3,
+            "support_type": "unknown",
+            "rationale": "В материалах отсутствуют сведения о персональных инициативах Гатете по принудительному обеспечению обязательных требований.",
+            "evidence_indices": []
+          }
+        },
+        "evidence_file": "evidence/independent-dossier-claver-gatete.json",
+        "evidence_basis": "fea8a4a974b5dbbe833afa8d46505ac01c810ef09c7987d7f4c38744b42e2b59"
+      }
+    },
+    "positive": null,
+    "negative": null,
+    "value": null,
+    "status": "unknown",
+    "difference": null,
+    "mass": null,
+    "measurement_model": "independent_poles",
+    "evidence_file": "evidence/independent-dossier-claver-gatete.json",
+    "evidence_basis": "fea8a4a974b5dbbe833afa8d46505ac01c810ef09c7987d7f4c38744b42e2b59",
+    "at": "2026-10-15T17:32:31.784983+00:00",
+    "reason": "Каждое свойство оценивается независимо; разность и искусственное дополнение до пяти не вычисляются"
+  },
+  {
+    "object_id": "claver-gatete",
+    "scale_id": "prevention-crisis-response",
+    "pole_scores": {
+      "positive": {
+        "status": "observed",
+        "value": 2,
+        "confidence": 0.7,
+        "evidence_indices": [
+          9,
+          15
+        ],
+        "source_urls": [
+          "https://www.uneca.org/eca-events/stories/statement-mr-claver-gatete-african-economic-conference-2024",
+          "https://www.uneca.org/stories/eca's-gatete-calls-for-urgent,-ambitious-climate-action"
+        ],
+        "event_ids": [
+          "gatete-african-economic-conference-2024",
+          "gatete-cop29-climate-action-2024-11-14"
+        ],
+        "rationale": "Гатете в ряде выступлений призывает к упреждающим мерам: подготовке к климатическим рискам, снижению инвестиционных рисков, реформе финансовой архитектуры для предотвращения кризисов. Это ясное ограниченное проявление упреждающей стратегии.",
+        "support_type": "positive_manifestation",
+        "provenance": {
+          "raw_response_file": "evidence/independent_responses/d93ab68e9aa344454f3048158e92ef0a620c63cc41198038282560ea8145b0be.json",
+          "model": "gpt-4.1",
+          "at": "2026-10-15T17:32:31.781357+00:00",
+          "cache_key": "d93ab68e9aa344454f3048158e92ef0a620c63cc41198038282560ea8145b0be",
+          "original_proposal": {
+            "variable_id": "prevention-crisis-response__positive",
+            "status": "observed",
+            "value": 2,
+            "confidence": 0.7,
+            "support_type": "positive_manifestation",
+            "rationale": "Гатете в ряде выступлений призывает к упреждающим мерам: подготовке к климатическим рискам, снижению инвестиционных рисков, реформе финансовой архитектуры для предотвращения кризисов. Это ясное ограниченное проявление упреждающей стратегии.",
+            "evidence_indices": [
+              9,
+              15
+            ]
+          }
+        },
+        "evidence_file": "evidence/independent-dossier-claver-gatete.json",
+        "evidence_basis": "fea8a4a974b5dbbe833afa8d46505ac01c810ef09c7987d7f4c38744b42e2b59"
+      },
+      "negative": {
+        "status": "unknown",
+        "value": null,
+        "confidence": 0,
+        "evidence_indices": [],
+        "source_urls": [],
+        "event_ids": [],
+        "rationale": "Нет прямых фактов о действиях Гатете, направленных на оперативное реагирование на уже возникшие угрозы как самостоятельную стратегию.",
+        "support_type": "unknown",
+        "provenance": {
+          "raw_response_file": "evidence/independent_responses/d93ab68e9aa344454f3048158e92ef0a620c63cc41198038282560ea8145b0be.json",
+          "model": "gpt-4.1",
+          "at": "2026-10-15T17:32:31.781357+00:00",
+          "cache_key": "d93ab68e9aa344454f3048158e92ef0a620c63cc41198038282560ea8145b0be",
+          "original_proposal": {
+            "variable_id": "prevention-crisis-response__negative",
+            "status": "unknown",
+            "value": null,
+            "confidence": 0.3,
+            "support_type": "unknown",
+            "rationale": "Нет прямых фактов о действиях Гатете, направленных на оперативное реагирование на уже возникшие угрозы как самостоятельную стратегию.",
+            "evidence_indices": []
+          }
+        },
+        "evidence_file": "evidence/independent-dossier-claver-gatete.json",
+        "evidence_basis": "fea8a4a974b5dbbe833afa8d46505ac01c810ef09c7987d7f4c38744b42e2b59"
+      }
+    },
+    "positive": 2,
+    "negative": null,
+    "value": null,
+    "status": "partial",
+    "difference": null,
+    "mass": null,
+    "measurement_model": "independent_poles",
+    "evidence_file": "evidence/independent-dossier-claver-gatete.json",
+    "evidence_basis": "fea8a4a974b5dbbe833afa8d46505ac01c810ef09c7987d7f4c38744b42e2b59",
+    "at": "2026-10-15T17:32:31.784983+00:00",
+    "reason": "Каждое свойство оценивается независимо; разность и искусственное дополнение до пяти не вычисляются"
+  },
+  {
+    "object_id": "claver-gatete",
+    "scale_id": "electoral-access",
+    "pole_scores": {
+      "positive": {
+        "status": "unknown",
+        "value": null,
+        "confidence": 0,
+        "evidence_indices": [],
+        "source_urls": [],
+        "event_ids": [],
+        "rationale": "В доступных материалах отсутствуют сведения о публичных инициативах или заявлениях Гатете по расширению доступа к выборной конкуренции.",
+        "support_type": "unknown",
+        "provenance": {
+          "raw_response_file": "evidence/independent_responses/d93ab68e9aa344454f3048158e92ef0a620c63cc41198038282560ea8145b0be.json",
+          "model": "gpt-4.1",
+          "at": "2026-10-15T17:32:31.781357+00:00",
+          "cache_key": "d93ab68e9aa344454f3048158e92ef0a620c63cc41198038282560ea8145b0be",
+          "original_proposal": {
+            "variable_id": "electoral-access__positive",
+            "status": "unknown",
+            "value": null,
+            "confidence": 0.3,
+            "support_type": "unknown",
+            "rationale": "В доступных материалах отсутствуют сведения о публичных инициативах или заявлениях Гатете по расширению доступа к выборной конкуренции.",
+            "evidence_indices": []
+          }
+        },
+        "evidence_file": "evidence/independent-dossier-claver-gatete.json",
+        "evidence_basis": "fea8a4a974b5dbbe833afa8d46505ac01c810ef09c7987d7f4c38744b42e2b59"
+      },
+      "negative": {
+        "status": "unknown",
+        "value": null,
+        "confidence": 0,
+        "evidence_indices": [],
+        "source_urls": [],
+        "event_ids": [],
+        "rationale": "Нет данных о предложениях или решениях Гатете по усилению барьеров политического участия.",
+        "support_type": "unknown",
+        "provenance": {
+          "raw_response_file": "evidence/independent_responses/d93ab68e9aa344454f3048158e92ef0a620c63cc41198038282560ea8145b0be.json",
+          "model": "gpt-4.1",
+          "at": "2026-10-15T17:32:31.781357+00:00",
+          "cache_key": "d93ab68e9aa344454f3048158e92ef0a620c63cc41198038282560ea8145b0be",
+          "original_proposal": {
+            "variable_id": "electoral-access__negative",
+            "status": "unknown",
+            "value": null,
+            "confidence": 0.3,
+            "support_type": "unknown",
+            "rationale": "Нет данных о предложениях или решениях Гатете по усилению барьеров политического участия.",
+            "evidence_indices": []
+          }
+        },
+        "evidence_file": "evidence/independent-dossier-claver-gatete.json",
+        "evidence_basis": "fea8a4a974b5dbbe833afa8d46505ac01c810ef09c7987d7f4c38744b42e2b59"
+      }
+    },
+    "positive": null,
+    "negative": null,
+    "value": null,
+    "status": "unknown",
+    "difference": null,
+    "mass": null,
+    "measurement_model": "independent_poles",
+    "evidence_file": "evidence/independent-dossier-claver-gatete.json",
+    "evidence_basis": "fea8a4a974b5dbbe833afa8d46505ac01c810ef09c7987d7f4c38744b42e2b59",
+    "at": "2026-10-15T17:32:31.784983+00:00",
+    "reason": "Каждое свойство оценивается независимо; разность и искусственное дополнение до пяти не вычисляются"
+  },
+  {
+    "object_id": "claver-gatete",
+    "scale_id": "institutional-autonomy-coordination",
+    "pole_scores": {
+      "positive": {
+        "status": "unknown",
+        "value": null,
+        "confidence": 0,
+        "evidence_indices": [],
+        "source_urls": [],
+        "event_ids": [],
+        "rationale": "Нет прямых проявлений защиты самостоятельности или контроля между институтами в публичных действиях Гатете.",
+        "support_type": "unknown",
+        "provenance": {
+          "raw_response_file": "evidence/independent_responses/d93ab68e9aa344454f3048158e92ef0a620c63cc41198038282560ea8145b0be.json",
+          "model": "gpt-4.1",
+          "at": "2026-10-15T17:32:31.781357+00:00",
+          "cache_key": "d93ab68e9aa344454f3048158e92ef0a620c63cc41198038282560ea8145b0be",
+          "original_proposal": {
+            "variable_id": "institutional-autonomy-coordination__positive",
+            "status": "unknown",
+            "value": null,
+            "confidence": 0.3,
+            "support_type": "unknown",
+            "rationale": "Нет прямых проявлений защиты самостоятельности или контроля между институтами в публичных действиях Гатете.",
+            "evidence_indices": []
+          }
+        },
+        "evidence_file": "evidence/independent-dossier-claver-gatete.json",
+        "evidence_basis": "fea8a4a974b5dbbe833afa8d46505ac01c810ef09c7987d7f4c38744b42e2b59"
+      },
+      "negative": {
+        "status": "observed",
+        "value": 2,
+        "confidence": 0.7,
+        "evidence_indices": [
+          9,
+          10,
+          11
+        ],
+        "source_urls": [
+          "https://www.uneca.org/eca-events/stories/statement-mr-claver-gatete-african-economic-conference-2024",
+          "https://uneca.org/stories/statement-by-mr.-claver-gatete-at-the-47th-ordinary-session-of-the-executive-council",
+          "https://multimedia.uneca.org/handle/10855.1/4141?show=full"
+        ],
+        "event_ids": [
+          "gatete-african-economic-conference-2024",
+          "gatete-eca-executive-council-2025",
+          "gatete-eca-ambassadors-briefing-2024"
+        ],
+        "rationale": "Гатете в ряде случаев акцентирует согласование действий между государствами, международную координацию, продвижение единой линии в региональных и глобальных инициативах (например, призывы к согласованному участию в международных процессах, поддержка реализации протоколов зоны свободной торговли). Это ясное ограниченное проявление согласовательной управленческой линии.",
+        "support_type": "positive_manifestation",
+        "provenance": {
+          "raw_response_file": "evidence/independent_responses/d93ab68e9aa344454f3048158e92ef0a620c63cc41198038282560ea8145b0be.json",
+          "model": "gpt-4.1",
+          "at": "2026-10-15T17:32:31.781357+00:00",
+          "cache_key": "d93ab68e9aa344454f3048158e92ef0a620c63cc41198038282560ea8145b0be",
+          "original_proposal": {
+            "variable_id": "institutional-autonomy-coordination__negative",
+            "status": "observed",
+            "value": 2,
+            "confidence": 0.7,
+            "support_type": "positive_manifestation",
+            "rationale": "Гатете в ряде случаев акцентирует согласование действий между государствами, международную координацию, продвижение единой линии в региональных и глобальных инициативах (например, призывы к согласованному участию в международных процессах, поддержка реализации протоколов зоны свободной торговли). Это ясное ограниченное проявление согласовательной управленческой линии.",
+            "evidence_indices": [
+              9,
+              10,
+              11
+            ]
+          }
+        },
+        "evidence_file": "evidence/independent-dossier-claver-gatete.json",
+        "evidence_basis": "fea8a4a974b5dbbe833afa8d46505ac01c810ef09c7987d7f4c38744b42e2b59"
+      }
+    },
+    "positive": null,
+    "negative": 2,
+    "value": null,
+    "status": "partial",
+    "difference": null,
+    "mass": null,
+    "measurement_model": "independent_poles",
+    "evidence_file": "evidence/independent-dossier-claver-gatete.json",
+    "evidence_basis": "fea8a4a974b5dbbe833afa8d46505ac01c810ef09c7987d7f4c38744b42e2b59",
+    "at": "2026-10-15T17:32:31.784983+00:00",
+    "reason": "Каждое свойство оценивается независимо; разность и искусственное дополнение до пяти не вычисляются"
+  },
+  {
+    "object_id": "claver-gatete",
+    "scale_id": "taxation-burden-public-revenue",
+    "pole_scores": {
+      "positive": {
+        "status": "unknown",
+        "value": null,
+        "confidence": 0,
+        "evidence_indices": [],
+        "source_urls": [],
+        "event_ids": [],
+        "rationale": "Нет прямых фактов о предложениях Гатете по снижению налоговой нагрузки или расширению имущественной самостоятельности.",
+        "support_type": "unknown",
+        "provenance": {
+          "raw_response_file": "evidence/independent_responses/d93ab68e9aa344454f3048158e92ef0a620c63cc41198038282560ea8145b0be.json",
+          "model": "gpt-4.1",
+          "at": "2026-10-15T17:32:31.781357+00:00",
+          "cache_key": "d93ab68e9aa344454f3048158e92ef0a620c63cc41198038282560ea8145b0be",
+          "original_proposal": {
+            "variable_id": "taxation-burden-public-revenue__positive",
+            "status": "unknown",
+            "value": null,
+            "confidence": 0.3,
+            "support_type": "unknown",
+            "rationale": "Нет прямых фактов о предложениях Гатете по снижению налоговой нагрузки или расширению имущественной самостоятельности.",
+            "evidence_indices": []
+          }
+        },
+        "evidence_file": "evidence/independent-dossier-claver-gatete.json",
+        "evidence_basis": "fea8a4a974b5dbbe833afa8d46505ac01c810ef09c7987d7f4c38744b42e2b59"
+      },
+      "negative": {
+        "status": "observed",
+        "value": 2,
+        "confidence": 0.7,
+        "evidence_indices": [
+          9,
+          10,
+          11
+        ],
+        "source_urls": [
+          "https://www.uneca.org/eca-events/stories/statement-mr-claver-gatete-african-economic-conference-2024",
+          "https://uneca.org/stories/statement-by-mr.-claver-gatete-at-the-47th-ordinary-session-of-the-executive-council",
+          "https://multimedia.uneca.org/handle/10855.1/4141?show=full"
+        ],
+        "event_ids": [
+          "gatete-african-economic-conference-2024",
+          "gatete-eca-executive-council-2025",
+          "gatete-eca-ambassadors-briefing-2024"
+        ],
+        "rationale": "Гатете неоднократно призывает к мобилизации внутренних ресурсов, расширению налоговых и финансовых поступлений для развития, поддерживает выпуск облигаций и реформу финансовой архитектуры для увеличения публичных доходов. Это ясное ограниченное проявление поддержки увеличения поступлений для развития.",
+        "support_type": "positive_manifestation",
+        "provenance": {
+          "raw_response_file": "evidence/independent_responses/d93ab68e9aa344454f3048158e92ef0a620c63cc41198038282560ea8145b0be.json",
+          "model": "gpt-4.1",
+          "at": "2026-10-15T17:32:31.781357+00:00",
+          "cache_key": "d93ab68e9aa344454f3048158e92ef0a620c63cc41198038282560ea8145b0be",
+          "original_proposal": {
+            "variable_id": "taxation-burden-public-revenue__negative",
+            "status": "observed",
+            "value": 2,
+            "confidence": 0.7,
+            "support_type": "positive_manifestation",
+            "rationale": "Гатете неоднократно призывает к мобилизации внутренних ресурсов, расширению налоговых и финансовых поступлений для развития, поддерживает выпуск облигаций и реформу финансовой архитектуры для увеличения публичных доходов. Это ясное ограниченное проявление поддержки увеличения поступлений для развития.",
+            "evidence_indices": [
+              9,
+              10,
+              11
+            ]
+          }
+        },
+        "evidence_file": "evidence/independent-dossier-claver-gatete.json",
+        "evidence_basis": "fea8a4a974b5dbbe833afa8d46505ac01c810ef09c7987d7f4c38744b42e2b59"
+      }
+    },
+    "positive": null,
+    "negative": 2,
+    "value": null,
+    "status": "partial",
+    "difference": null,
+    "mass": null,
+    "measurement_model": "independent_poles",
+    "evidence_file": "evidence/independent-dossier-claver-gatete.json",
+    "evidence_basis": "fea8a4a974b5dbbe833afa8d46505ac01c810ef09c7987d7f4c38744b42e2b59",
+    "at": "2026-10-15T17:32:31.784983+00:00",
+    "reason": "Каждое свойство оценивается независимо; разность и искусственное дополнение до пяти не вычисляются"
+  },
+  {
+    "object_id": "claver-gatete",
+    "scale_id": "universal-targeted-provision",
+    "pole_scores": {
+      "positive": {
+        "status": "observed",
+        "value": 1,
+        "confidence": 0.6,
+        "evidence_indices": [
+          8
+        ],
+        "source_urls": [
+          "https://www.uneca.org/stories/statement-by-claver-gatete-at-the-45th-ordinary-session-of-the-executive-council"
+        ],
+        "event_ids": [
+          "gatete-eca-executive-council-2024"
+        ],
+        "rationale": "В ряде выступлений Гатете называет образование императивом и правом человека, а также поддерживает доступность благ для широких групп. Однако нет подтверждения устойчивой универсальной программы или стандартов для всего населения, поэтому проявление оценивается как единичное и слабое.",
+        "support_type": "positive_manifestation",
+        "provenance": {
+          "raw_response_file": "evidence/independent_responses/d93ab68e9aa344454f3048158e92ef0a620c63cc41198038282560ea8145b0be.json",
+          "model": "gpt-4.1",
+          "at": "2026-10-15T17:32:31.781357+00:00",
+          "cache_key": "d93ab68e9aa344454f3048158e92ef0a620c63cc41198038282560ea8145b0be",
+          "original_proposal": {
+            "variable_id": "universal-targeted-provision__positive",
+            "status": "observed",
+            "value": 1,
+            "confidence": 0.6,
+            "support_type": "positive_manifestation",
+            "rationale": "В ряде выступлений Гатете называет образование императивом и правом человека, а также поддерживает доступность благ для широких групп. Однако нет подтверждения устойчивой универсальной программы или стандартов для всего населения, поэтому проявление оценивается как единичное и слабое.",
+            "evidence_indices": [
+              8
+            ]
+          }
+        },
+        "evidence_file": "evidence/independent-dossier-claver-gatete.json",
+        "evidence_basis": "fea8a4a974b5dbbe833afa8d46505ac01c810ef09c7987d7f4c38744b42e2b59"
+      },
+      "negative": {
+        "status": "observed",
+        "value": 1,
+        "confidence": 0.6,
+        "evidence_indices": [
+          13
+        ],
+        "source_urls": [
+          "https://www.uneca.org/eca-events/our-world-our-future-african-youth-and-summit-future"
+        ],
+        "event_ids": [
+          "gatete-african-youth-summit-future-2024-09-21"
+        ],
+        "rationale": "Гатете поддерживает расширение участия молодёжи и частного сектора, что может указывать на приоритетные меры для отдельных групп, но без конкретных программ адресной поддержки. Проявление ограничено единичным эпизодом.",
+        "support_type": "positive_manifestation",
+        "provenance": {
+          "raw_response_file": "evidence/independent_responses/d93ab68e9aa344454f3048158e92ef0a620c63cc41198038282560ea8145b0be.json",
+          "model": "gpt-4.1",
+          "at": "2026-10-15T17:32:31.781357+00:00",
+          "cache_key": "d93ab68e9aa344454f3048158e92ef0a620c63cc41198038282560ea8145b0be",
+          "original_proposal": {
+            "variable_id": "universal-targeted-provision__negative",
+            "status": "observed",
+            "value": 1,
+            "confidence": 0.6,
+            "support_type": "positive_manifestation",
+            "rationale": "Гатете поддерживает расширение участия молодёжи и частного сектора, что может указывать на приоритетные меры для отдельных групп, но без конкретных программ адресной поддержки. Проявление ограничено единичным эпизодом.",
+            "evidence_indices": [
+              13
+            ]
+          }
+        },
+        "evidence_file": "evidence/independent-dossier-claver-gatete.json",
+        "evidence_basis": "fea8a4a974b5dbbe833afa8d46505ac01c810ef09c7987d7f4c38744b42e2b59"
+      }
+    },
+    "positive": 1,
+    "negative": 1,
+    "value": null,
+    "status": "observed",
+    "difference": null,
+    "mass": null,
+    "measurement_model": "independent_poles",
+    "evidence_file": "evidence/independent-dossier-claver-gatete.json",
+    "evidence_basis": "fea8a4a974b5dbbe833afa8d46505ac01c810ef09c7987d7f4c38744b42e2b59",
+    "at": "2026-10-15T17:32:31.784983+00:00",
+    "reason": "Каждое свойство оценивается независимо; разность и искусственное дополнение до пяти не вычисляются"
+  },
+  {
+    "object_id": "claver-gatete",
+    "scale_id": "ecological-limits-resource-use",
+    "pole_scores": {
+      "positive": {
+        "status": "observed",
+        "value": 2,
+        "confidence": 0.7,
+        "evidence_indices": [
+          15
+        ],
+        "source_urls": [
+          "https://www.uneca.org/stories/eca's-gatete-calls-for-urgent,-ambitious-climate-action"
+        ],
+        "event_ids": [
+          "gatete-cop29-climate-action-2024-11-14"
+        ],
+        "rationale": "На COP29 и в других выступлениях Гатете призывает к природоохранным ограничениям, амбициозным целям климатического финансирования, ускорению чистой энергетики и глобальным мерам по ограничению выбросов. Это ясное ограниченное проявление усиления природоохранных ограничений.",
+        "support_type": "positive_manifestation",
+        "provenance": {
+          "raw_response_file": "evidence/independent_responses/d93ab68e9aa344454f3048158e92ef0a620c63cc41198038282560ea8145b0be.json",
+          "model": "gpt-4.1",
+          "at": "2026-10-15T17:32:31.781357+00:00",
+          "cache_key": "d93ab68e9aa344454f3048158e92ef0a620c63cc41198038282560ea8145b0be",
+          "original_proposal": {
+            "variable_id": "ecological-limits-resource-use__positive",
+            "status": "observed",
+            "value": 2,
+            "confidence": 0.7,
+            "support_type": "positive_manifestation",
+            "rationale": "На COP29 и в других выступлениях Гатете призывает к природоохранным ограничениям, амбициозным целям климатического финансирования, ускорению чистой энергетики и глобальным мерам по ограничению выбросов. Это ясное ограниченное проявление усиления природоохранных ограничений.",
+            "evidence_indices": [
+              15
+            ]
+          }
+        },
+        "evidence_file": "evidence/independent-dossier-claver-gatete.json",
+        "evidence_basis": "fea8a4a974b5dbbe833afa8d46505ac01c810ef09c7987d7f4c38744b42e2b59"
+      },
+      "negative": {
+        "status": "observed",
+        "value": 1,
+        "confidence": 0.6,
+        "evidence_indices": [
+          15
+        ],
+        "source_urls": [
+          "https://www.uneca.org/stories/eca's-gatete-calls-for-urgent,-ambitious-climate-action"
+        ],
+        "event_ids": [
+          "gatete-cop29-climate-action-2024-11-14"
+        ],
+        "rationale": "Гатете одновременно призывает использовать критически важные минералы для экономической трансформации, что может указывать на расширение хозяйственного использования ресурсов, но без устойчивого акцента или конкретных мер по ослаблению ограничений. Проявление ограничено единичным эпизодом.",
+        "support_type": "positive_manifestation",
+        "provenance": {
+          "raw_response_file": "evidence/independent_responses/d93ab68e9aa344454f3048158e92ef0a620c63cc41198038282560ea8145b0be.json",
+          "model": "gpt-4.1",
+          "at": "2026-10-15T17:32:31.781357+00:00",
+          "cache_key": "d93ab68e9aa344454f3048158e92ef0a620c63cc41198038282560ea8145b0be",
+          "original_proposal": {
+            "variable_id": "ecological-limits-resource-use__negative",
+            "status": "observed",
+            "value": 1,
+            "confidence": 0.6,
+            "support_type": "positive_manifestation",
+            "rationale": "Гатете одновременно призывает использовать критически важные минералы для экономической трансформации, что может указывать на расширение хозяйственного использования ресурсов, но без устойчивого акцента или конкретных мер по ослаблению ограничений. Проявление ограничено единичным эпизодом.",
+            "evidence_indices": [
+              15
+            ]
+          }
+        },
+        "evidence_file": "evidence/independent-dossier-claver-gatete.json",
+        "evidence_basis": "fea8a4a974b5dbbe833afa8d46505ac01c810ef09c7987d7f4c38744b42e2b59"
+      }
+    },
+    "positive": 2,
+    "negative": 1,
+    "value": null,
+    "status": "observed",
+    "difference": null,
+    "mass": null,
+    "measurement_model": "independent_poles",
+    "evidence_file": "evidence/independent-dossier-claver-gatete.json",
+    "evidence_basis": "fea8a4a974b5dbbe833afa8d46505ac01c810ef09c7987d7f4c38744b42e2b59",
+    "at": "2026-10-15T17:32:31.784983+00:00",
+    "reason": "Каждое свойство оценивается независимо; разность и искусственное дополнение до пяти не вычисляются"
+  },
+  {
+    "object_id": "claver-gatete",
+    "scale_id": "russia-diplomatic-engagement",
+    "pole_scores": {
+      "positive": {
+        "status": "unknown",
+        "value": null,
+        "confidence": 0,
+        "evidence_indices": [],
+        "source_urls": [],
+        "event_ids": [],
+        "rationale": "Нет допустимых датированных персональных свидетельств по этому свойству",
+        "support_type": "unknown"
+      },
+      "negative": {
+        "status": "unknown",
+        "value": null,
+        "confidence": 0,
+        "evidence_indices": [],
+        "source_urls": [],
+        "event_ids": [],
+        "rationale": "Нет допустимых датированных персональных свидетельств по этому свойству",
+        "support_type": "unknown"
+      }
+    },
+    "positive": null,
+    "negative": null,
+    "value": null,
+    "status": "unknown",
+    "difference": null,
+    "mass": null,
+    "measurement_model": "independent_poles",
+    "evidence_file": "evidence/independent-dossier-claver-gatete.json",
+    "evidence_basis": "fea8a4a974b5dbbe833afa8d46505ac01c810ef09c7987d7f4c38744b42e2b59",
+    "at": "2026-10-15T17:32:31.784983+00:00",
+    "reason": "Каждое свойство оценивается независимо; разность и искусственное дополнение до пяти не вычисляются"
+  },
+  {
+    "object_id": "claver-gatete",
+    "scale_id": "russia-security-cooperation",
+    "pole_scores": {
+      "positive": {
+        "status": "unknown",
+        "value": null,
+        "confidence": 0,
+        "evidence_indices": [],
+        "source_urls": [],
+        "event_ids": [],
+        "rationale": "Нет допустимых датированных персональных свидетельств по этому свойству",
+        "support_type": "unknown"
+      },
+      "negative": {
+        "status": "unknown",
+        "value": null,
+        "confidence": 0,
+        "evidence_indices": [],
+        "source_urls": [],
+        "event_ids": [],
+        "rationale": "Нет допустимых датированных персональных свидетельств по этому свойству",
+        "support_type": "unknown"
+      }
+    },
+    "positive": null,
+    "negative": null,
+    "value": null,
+    "status": "unknown",
+    "difference": null,
+    "mass": null,
+    "measurement_model": "independent_poles",
+    "evidence_file": "evidence/independent-dossier-claver-gatete.json",
+    "evidence_basis": "fea8a4a974b5dbbe833afa8d46505ac01c810ef09c7987d7f4c38744b42e2b59",
+    "at": "2026-10-15T17:32:31.784983+00:00",
+    "reason": "Каждое свойство оценивается независимо; разность и искусственное дополнение до пяти не вычисляются"
+  },
+  {
+    "object_id": "claver-gatete",
+    "scale_id": "russia-economic-technology-cooperation",
+    "pole_scores": {
+      "positive": {
+        "status": "unknown",
+        "value": null,
+        "confidence": 0,
+        "evidence_indices": [],
+        "source_urls": [],
+        "event_ids": [],
+        "rationale": "Нет допустимых датированных персональных свидетельств по этому свойству",
+        "support_type": "unknown"
+      },
+      "negative": {
+        "status": "unknown",
+        "value": null,
+        "confidence": 0,
+        "evidence_indices": [],
+        "source_urls": [],
+        "event_ids": [],
+        "rationale": "Нет допустимых датированных персональных свидетельств по этому свойству",
+        "support_type": "unknown"
+      }
+    },
+    "positive": null,
+    "negative": null,
+    "value": null,
+    "status": "unknown",
+    "difference": null,
+    "mass": null,
+    "measurement_model": "independent_poles",
+    "evidence_file": "evidence/independent-dossier-claver-gatete.json",
+    "evidence_basis": "fea8a4a974b5dbbe833afa8d46505ac01c810ef09c7987d7f4c38744b42e2b59",
+    "at": "2026-10-15T17:32:31.784983+00:00",
+    "reason": "Каждое свойство оценивается независимо; разность и искусственное дополнение до пяти не вычисляются"
+  },
+  {
+    "object_id": "claver-gatete",
+    "scale_id": "russia-education-cultural-cooperation",
+    "pole_scores": {
+      "positive": {
+        "status": "unknown",
+        "value": null,
+        "confidence": 0,
+        "evidence_indices": [],
+        "source_urls": [],
+        "event_ids": [],
+        "rationale": "Нет допустимых датированных персональных свидетельств по этому свойству",
+        "support_type": "unknown"
+      },
+      "negative": {
+        "status": "unknown",
+        "value": null,
+        "confidence": 0,
+        "evidence_indices": [],
+        "source_urls": [],
+        "event_ids": [],
+        "rationale": "Нет допустимых датированных персональных свидетельств по этому свойству",
+        "support_type": "unknown"
+      }
+    },
+    "positive": null,
+    "negative": null,
+    "value": null,
+    "status": "unknown",
+    "difference": null,
+    "mass": null,
+    "measurement_model": "independent_poles",
+    "evidence_file": "evidence/independent-dossier-claver-gatete.json",
+    "evidence_basis": "fea8a4a974b5dbbe833afa8d46505ac01c810ef09c7987d7f4c38744b42e2b59",
+    "at": "2026-10-15T17:32:31.784983+00:00",
+    "reason": "Каждое свойство оценивается независимо; разность и искусственное дополнение до пяти не вычисляются"
+  },
+  {
+    "object_id": "claver-gatete",
+    "scale_id": "russia-conflict-policy-evaluation",
+    "pole_scores": {
+      "positive": {
+        "status": "unknown",
+        "value": null,
+        "confidence": 0,
+        "evidence_indices": [],
+        "source_urls": [],
+        "event_ids": [],
+        "rationale": "Нет допустимых датированных персональных свидетельств по этому свойству",
+        "support_type": "unknown"
+      },
+      "negative": {
+        "status": "unknown",
+        "value": null,
+        "confidence": 0,
+        "evidence_indices": [],
+        "source_urls": [],
+        "event_ids": [],
+        "rationale": "Нет допустимых датированных персональных свидетельств по этому свойству",
+        "support_type": "unknown"
+      }
+    },
+    "positive": null,
+    "negative": null,
+    "value": null,
+    "status": "unknown",
+    "difference": null,
+    "mass": null,
+    "measurement_model": "independent_poles",
+    "evidence_file": "evidence/independent-dossier-claver-gatete.json",
+    "evidence_basis": "fea8a4a974b5dbbe833afa8d46505ac01c810ef09c7987d7f4c38744b42e2b59",
+    "at": "2026-10-15T17:32:31.784983+00:00",
+    "reason": "Каждое свойство оценивается независимо; разность и искусственное дополнение до пяти не вычисляются"
+  },
+  {
+    "object_id": "claver-gatete",
+    "scale_id": "russia-isolation-sanctions",
+    "pole_scores": {
+      "positive": {
+        "status": "unknown",
+        "value": null,
+        "confidence": 0,
+        "evidence_indices": [],
+        "source_urls": [],
+        "event_ids": [],
+        "rationale": "Нет допустимых датированных персональных свидетельств по этому свойству",
+        "support_type": "unknown"
+      },
+      "negative": {
+        "status": "unknown",
+        "value": null,
+        "confidence": 0,
+        "evidence_indices": [],
+        "source_urls": [],
+        "event_ids": [],
+        "rationale": "Нет допустимых датированных персональных свидетельств по этому свойству",
+        "support_type": "unknown"
+      }
+    },
+    "positive": null,
+    "negative": null,
+    "value": null,
+    "status": "unknown",
+    "difference": null,
+    "mass": null,
+    "measurement_model": "independent_poles",
+    "evidence_file": "evidence/independent-dossier-claver-gatete.json",
+    "evidence_basis": "fea8a4a974b5dbbe833afa8d46505ac01c810ef09c7987d7f4c38744b42e2b59",
+    "at": "2026-10-15T17:32:31.784983+00:00",
+    "reason": "Каждое свойство оценивается независимо; разность и искусственное дополнение до пяти не вычисляются"
+  }
+]

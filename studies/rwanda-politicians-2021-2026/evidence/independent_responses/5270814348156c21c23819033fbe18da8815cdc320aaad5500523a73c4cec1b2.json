@@ -1,0 +1,36 @@
+{
+  "data": {
+    "facts": [],
+    "limitations": "Доступная выдача не содержит пригодных дополнительных материалов о Сабине Нсанзимане за период 2021-10-15—2026-10-15. Единственный релевантный результат касается передачи полномочий руководству Rwanda FDA в сентябре 2026 года, но он опубликован после окончания заданного периода и представлен как вторичный пересказ; поэтому новые эпизоды не добавлены. Остальные результаты относятся к другим лицам, другим датам или не подтверждают требуемые события. Ранее перечисленные эпизоды не повторяются.",
+    "sources": []
+  },
+  "model": "sonar-pro",
+  "task": "independent-retrieval-sabin-nsanzimana",
+  "at": "2026-10-15T17:21:59.771179+00:00",
+  "usage": {
+    "completion_tokens": 158,
+    "cost": {
+      "input_tokens_cost": 0.00397,
+      "output_tokens_cost": 0.00066,
+      "request_cost": 0.0025,
+      "total_cost": 0.00713
+    },
+    "prompt_tokens": 3000,
+    "search_context_size": "low",
+    "total_tokens": 3158
+  },
+  "citations": [
+    "https://www.newtimes.co.rw/article/39699/news/featured/musanze-minister-urges-border-communities-to-strengthen-unity-through-ndi-umunyarwanda",
+    "https://minbane.wordpress.com/2026/10/14/https-wp-me-p1xtjg-vqf-3/",
+    "https://www.enca.com/rwanda?page=16",
+    "https://www.enca.com/rwanda?page=12",
+    "https://ground.news/article/can-savings-drive-the-economy-pm-tells-parliament-rwanda-needs-more-to-create-jobs",
+    "https://www.africanews.com/2026/10/13/former-drc-president-kabila-to-lead-new-group-replacing-afcm23/",
+    "https://ground.news/article/new-rwanda-fda-leadership-takes-office-as-health-minister-pledges-support-taarifa-rwanda",
+    "https://ground.news/article/do-everything-possible-to-fulfil-your-duties-kagame-tells-new-lawmakers",
+    "https://ground.news/article/higher-incomes-alone-will-not-tame-inflation-says-pm-nsengiyumva",
+    "https://www.namibian.com.na/"
+  ],
+  "system_fingerprint": null,
+  "cache_key": "5270814348156c21c23819033fbe18da8815cdc320aaad5500523a73c4cec1b2"
+}

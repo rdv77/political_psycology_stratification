@@ -19,6 +19,7 @@ import matplotlib
 matplotlib.use("Agg")
 import matplotlib.pyplot as plt
 import numpy as np
+from scipy.optimize import linear_sum_assignment
 from threadpoolctl import threadpool_limits
 
 if __package__ in (None, ""):
@@ -26,8 +27,9 @@ if __package__ in (None, ""):
 
 from src.semantic_service.analysis import (
     InsufficientMeasurementError, LOADING_THRESHOLD, SEED,
-    _dimension_analysis, _factor_descriptions, _prepare,
+    _analysis_scales, _dimension_analysis, _factor_descriptions, _measurement_model, _prepare, _trait_properties,
 )
+from scripts.latent_space_benchmark import fit_model
 
 
 MINIMUM_SHARE = .02
@@ -67,27 +69,42 @@ def _theme_configuration(study):
         if identity in requested:
             duplicates.append(identity)
         requested[identity] = definition
-    actual = {str(item["id"]): item for item in study.get("scales", [])}
-    for identity, item in actual.items():
+    original = {str(item["id"]): item for item in study.get("scales", [])}
+    actual = {str(item["id"]): item for item in _analysis_scales(study)}
+    for identity, item in original.items():
         if _metadata_field(item, "research_domain") == "russia_relations":
             requested.setdefault(identity, item)
+    requested_original = requested
+    requested = {}
+    for identity, definition in requested_original.items():
+        variables = [item for item in actual.values()
+                     if str(item["id"]) == identity or str(item.get("parent_scale_id", "")) == identity]
+        if variables:
+            for variable in variables:
+                requested[str(variable["id"])] = {**definition, **variable}
+        else:
+            requested[identity] = definition
     families, sources = {}, {}
     for identity, definition in requested.items():
         scale = actual.get(identity, {})
         family = _metadata_field(scale, "semantic_family_id") or _metadata_field(definition, "semantic_family_id")
-        families[identity] = str(family or identity)
-        sources[identity] = "declared_family" if family else "scale_id_fallback_not_independence_verified"
+        parent = scale.get("parent_scale_id")
+        families[identity] = str(family or parent or identity)
+        sources[identity] = ("declared_family" if family else "parent_scale_id_fallback_not_independence_verified" if parent
+                             else "scale_id_fallback_not_independence_verified")
     instructions = requirements.get("instructions", [])
     if not isinstance(instructions, list) or any(not isinstance(item, str) for item in instructions):
         raise ValueError("research_requirements.instructions must be an array of strings")
     mismatches = []
-    for identity, definition in requested.items():
-        if identity in actual:
+    for identity, definition in requested_original.items():
+        if identity in original:
             fields = [field for field in ["positive", "negative", "definition"]
-                      if field in definition and definition[field] != actual[identity].get(field)]
+                      if field in definition and definition[field] != original[identity].get(field)]
             if fields:
                 mismatches.append({"id": identity, "different_fields": fields})
-    return {"configured_ids": list(requested), "family_by_id": families,
+    return {"configured_ids": list(requested), "configured_parent_ids": list(requested_original),
+            "parent_by_id": {identity: actual.get(identity, {}).get("parent_scale_id", identity) for identity in requested},
+            "family_by_id": families,
             "family_assignment_source": sources, "duplicate_required_ids": sorted(set(duplicates)),
             "required_definition_mismatches": mismatches, "instructions": instructions,
             "loading_threshold": LOADING_THRESHOLD, "minimum_explained_share": MINIMUM_SHARE,
@@ -112,10 +129,12 @@ def _russia_factor_review(loadings, scales, denominator, configuration):
         for index in np.argsort(-np.abs(vector)):
             scale = scales[index]
             identity, value = str(scale["id"]), float(vector[index])
+            high, low = _trait_properties(scale, value)
             item = {"id": identity, "name": scale.get("name", identity), "loading": value,
                     "positive": scale.get("positive", ""), "negative": scale.get("negative", ""),
-                    "high_factor_property": scale.get("positive", "") if value > 0 else scale.get("negative", ""),
-                    "low_factor_property": scale.get("negative", "") if value > 0 else scale.get("positive", "")}
+                    "high_factor_property": high, "low_factor_property": low,
+                    "parent_scale_id": scale.get("parent_scale_id", identity), "pole": scale.get("pole"),
+                    "kind": scale.get("kind", "bipolar")}
             if identity in themed:
                 item["semantic_family_id"] = families[identity]
                 all_theme.append(item)
@@ -154,6 +173,89 @@ def _russia_factor_review(loadings, scales, denominator, configuration):
                      "factor_resampling": "not_performed", "cross_q_rotation_review": "pending",
                      "claim": "Numeric screening only; indicator independence and a distinct Russia-specific construct are not verified"})
     return rows
+
+
+def _align_loading_columns(reference, candidate):
+    """Match varimax axes by absolute Tucker congruence, then align signs."""
+    reference, candidate = np.asarray(reference), np.asarray(candidate)
+    if reference.shape != candidate.shape or reference.ndim != 2 or not np.isfinite(reference).all() or not np.isfinite(candidate).all():
+        raise ValueError("Equal finite loading matrices required for alignment")
+    denominator = np.linalg.norm(reference, axis=0)[:, None] * np.linalg.norm(candidate, axis=0)[None, :]
+    congruence = np.clip(reference.T @ candidate / np.maximum(denominator, 1e-12), -1., 1.)
+    rows, columns = linear_sum_assignment(-np.abs(congruence))
+    permutation = np.empty(reference.shape[1], dtype=int)
+    permutation[rows] = columns
+    matched = congruence[np.arange(reference.shape[1]), permutation]
+    aligned = candidate[:, permutation] * np.where(matched < 0, -1., 1.)
+    return aligned, np.abs(matched)
+
+
+def _bootstrap_russia_candidates(raw, scales, configuration, models, fitted, repeats):
+    """Conditional row bootstrap, retaining the identical variables and fixed q."""
+    if isinstance(repeats, bool) or not isinstance(repeats, int) or not 0 <= repeats <= 500:
+        raise ValueError("bootstrap_repeats must be an integer from 0 to 500")
+    variable_positions = {str(scale["id"]): i for i, scale in enumerate(scales)}
+    for model in models:
+        targets = [item for item in model["russia_candidates"] if item["mandatory_report"]]
+        if not targets:
+            continue
+        if not repeats:
+            for target in targets:
+                target["bootstrap_stability"] = {"status": "not_performed", "requested_repeats": 0}
+            continue
+        q = model["q"]
+        reference = fitted[q]["loadings"] @ fitted[q]["rotation"]
+        rng = np.random.default_rng(SEED + 1000 + q)
+        records = {item["factor_id"]: [] for item in targets}
+        failed, warned = [], 0
+        for repeat in range(repeats):
+            sample = raw[rng.integers(0, len(raw), size=len(raw))]
+            try:
+                if np.isnan(sample).all(axis=0).any() or np.any(np.nanstd(sample, axis=0) <= 1e-10):
+                    raise ValueError("A fixed variable is unobserved or constant in this resample")
+                parameters, fitting = fit_model(sample, q, seed=SEED + repeat)
+                rotated = parameters["loadings"] @ parameters["rotation"]
+                aligned, congruence = _align_loading_columns(reference, rotated)
+                standardized = (np.where(np.isfinite(sample), sample, parameters["training_imputation"]) -
+                                parameters["training_mean"]) / parameters["training_scale"]
+                denominator = float(np.var(standardized, axis=0).sum())
+                screened = _russia_factor_review(aligned, scales, denominator, configuration)
+                warned += int(fitting["convergence_warning"])
+                for target in targets:
+                    column = int(target["factor_id"][1:]) - 1
+                    records[target["factor_id"]].append({"congruence": float(congruence[column]),
+                        "variance_share": screened[column]["variance_share"], "status": screened[column]["status"],
+                        "loadings": aligned[:, column].copy()})
+            except (ValueError, np.linalg.LinAlgError, FloatingPointError) as error:
+                failed.append({"repeat": repeat, "reason": str(error)})
+        for target in targets:
+            values = records[target["factor_id"]]
+            successful = len(values)
+            congruences = [item["congruence"] for item in values]
+            shares = [item["variance_share"] for item in values]
+            indicators = []
+            for indicator in target["strong_russia_indicators"]:
+                vector = np.array([item["loadings"][variable_positions[indicator["id"]]] for item in values])
+                indicators.append({"id": indicator["id"], "parent_scale_id": indicator["parent_scale_id"],
+                                   "same_sign_fraction": float(np.mean(np.sign(vector) == np.sign(indicator["loading"]))) if successful else None,
+                                   "abs_loading_ge_035_fraction": float(np.mean(np.abs(vector) >= LOADING_THRESHOLD)) if successful else None})
+            numeric = sum(item["status"] == "numeric_candidate" for item in values)
+            conditional = sum(item["status"] in {"numeric_candidate", "two_indicator_candidate"} for item in values)
+            target["factor_resampling"] = "conditional_row_bootstrap"
+            target["bootstrap_stability"] = {
+                "status": "completed" if successful else "no_successful_replicates", "requested_repeats": repeats,
+                "successful_repeats": successful, "failed_repeats": len(failed), "convergence_warning_repeats": warned,
+                "seed": SEED + 1000 + q, "median_congruence": float(np.median(congruences)) if successful else None,
+                "p10_congruence": float(np.quantile(congruences, .1)) if successful else None,
+                "fraction_congruence_ge_085": float(np.mean(np.array(congruences) >= .85)) if successful else None,
+                "numeric_candidate_fraction_successful": numeric / successful if successful else None,
+                "numeric_candidate_fraction_all_replicates": numeric / repeats,
+                "at_least_two_families_fraction_successful": conditional / successful if successful else None,
+                "variance_share_descriptive_percentiles": dict(zip(["p10", "median", "p90"],
+                    np.quantile(shares, [.1, .5, .9]).tolist())) if successful else None,
+                "initial_strong_indicators": indicators, "failures": failed,
+                "design": "n rows sampled with replacement; fixed retained variables and q; full FA and varimax refit; Hungarian absolute Tucker congruence matching and sign alignment",
+                "limitations": "Conditional descriptive sensitivity, not inferential confidence intervals, evidence validation, or whole-pipeline stability. Thirty replicates are a screening diagnostic."}
 
 
 def _draw_loadings(path, model, scales, themed_ids):
@@ -210,13 +312,16 @@ def _render_coverage_audit(result):
     lines = ["# Короткий аудит покрытия: данных для факторного анализа недостаточно", "",
              "FA не запускался. " + result["measurement_failure"], "",
              f"Входная выборка: {diagnostics['input_objects']} объектов × {diagnostics['input_scales']} шкал. "
-             f"Наблюдаемых разностей: {diagnostics['observed_input_ratings']} из {diagnostics['total_input_cells']} "
+             f"Наблюдаемых аналитических значений: {diagnostics['observed_input_ratings']} из {diagnostics['total_input_cells']} "
              f"({percent(diagnostics['input_coverage'])}). Неизвестных ячеек: {diagnostics['unknown_input_cells']}.", "",
              f"После фиксированного отбора: {result['n_objects']} объектов × {result['n_scales']} шкал; "
              f"покрытие — {percent(diagnostics['retained_coverage'])}.", "",
              diagnostics["preprocessing_report"], "",
-             "Неизвестное не означает нейтральность или невыраженность свойства. Если один полюс известен, "
-             "а другой неизвестен, точная разность не установлена. Пороги ради получения модели не понижались.", "",
+             ("Каждый известный полюс учитывался самостоятельно; неизвестный второй полюс его не скрывал. "
+              "Меньшая выраженность свойства не означает выраженность его антонима. "
+              if diagnostics.get("measurement_model") == "independent_poles" else
+              "Если один полюс известен, а другой неизвестен, точная разность не установлена. ") +
+             "Неизвестное не означает нейтральность или невыраженность свойства. Пороги ради получения модели не понижались.", "",
              "## Наблюдения по всем входным шкалам", "",
              "Числа относятся к полной входной выборке до отбора, а не только к оставшимся объектам.", "",
              "| ID | Шкала | Наблюдений | Всего объектов | Покрытие | Осталась |", "|---|---|---|---|---|---|"]
@@ -244,6 +349,8 @@ def _insufficient_preview(study, ratings, configuration, error):
     retained = set(diagnostics["retained_scale_ids"])
     scale_coverage = {item["id"]: item for item in diagnostics["input_scale_coverage"]}
     reasons = {item["id"]: item["reason"] for item in diagnostics["excluded_scales"]}
+    configured_families = {configuration["family_by_id"][identity] for identity in configured}
+    retained_families = {configuration["family_by_id"][identity] for identity in configured if identity in retained}
     coverage = []
     for identity in configured:
         item = scale_coverage.get(identity, {})
@@ -265,6 +372,9 @@ def _insufficient_preview(study, ratings, configuration, error):
             "dimension_candidates": [], "models": [],
             "russia_review": {**configuration, "retained_ids": [identity for identity in configured if identity in retained],
                               "excluded_ids": [identity for identity in configured if identity not in retained],
+                              "configured_family_count": len(configured_families), "retained_family_count": len(retained_families),
+                              "measurement_scope": "global_measurement_insufficient",
+                              "unmeasured_families": sorted(configured_families - retained_families),
                               "status": "insufficient_measurement", "evidence_audit": "pending", "scale_coverage": coverage,
                               "pairwise_observed_counts": {}, "candidates": [], "mandatory_report_refs": [], "warnings": []},
             "diagnostics": {**diagnostics, "seed": SEED, "factor_analysis_started": False,
@@ -291,7 +401,7 @@ def _render_markdown(result):
     review = result["russia_review"]
     selection = result["dimension_selection"]
     lines = ["# Предварительное сравнение факторных решений", "",
-             f"Реальная матрица: {result['n_objects']} объектов × {result['n_scales']} пригодных шкал. "
+             f"Реальная матрица: {result['n_objects']} объектов × {result['n_scales']} пригодных аналитических переменных. "
              f"Известно {result['diagnostics']['retained_coverage']:.1%} ячеек; неизвестные не считались нейтральными.", "",
              f"Численная рекомендация экономности: q={selection['recommended_q']}. Все допустимые q показаны ниже. "
              "Эта рекомендация не отменяет рассмотрение тематических кандидатов при большем q.", "",
@@ -305,6 +415,15 @@ def _render_markdown(result):
         lines.append(f"| {model['q']} | {100*model['variance_total']:.2f}% | {shares} | "
                      f"{c['heldout_log_likelihood_mean']:.3f} ± {c['heldout_log_likelihood_sd']:.3f} | "
                      f"{c['residual_rms_off_diagonal']:.4f} | {c['convergence_warnings']} |")
+    if result["diagnostics"].get("measurement_model") == "independent_poles":
+        lines += ["", "Полюса измерены как независимые свойства 0–5. Известный полюс не требует знания второго; "
+                  "низкая оценка свойства не является оценкой его антонима. Семантические семьи России считаются "
+                  "по исходным шкалам, а не по числу их полюсов."]
+    excluded = selection.get("parameter_count_constraint", {}).get("excluded_candidates", [])
+    if excluded:
+        lines += ["", "Не обучались из-за отрицательного номинального df: " +
+                  ", ".join(f"q={item['q']} (df={item['nominal_df']})" for item in excluded) +
+                  ". Неотрицательный df — необходимая, но не достаточная проверка идентифицируемости."]
     lines += ["", "SD относится к трём разделениям, а не к доверительному интервалу. Полные три значения и диагностика сохранены в JSON.", "",
               "## Смыслы всех факторов по решениям", "",
               "Номера и знаки факторов локальны для каждого q. При изменении q вся система переоценивается; "
@@ -344,9 +463,27 @@ def _render_markdown(result):
             lines.append(f"| q{item['q']}/{item['factor_id']} | {100*item['variance_share']:.2f}% | {item['status']} | {_md_cell(positives)} | {_md_cell(others)} |")
         lines += ["", "Все сильные общие шкалы, полные знаковые нагрузки и правильные свойства обоих полюсов приведены в JSON. "
                   "Смешанные знаки не позволяют автоматически назвать ось единой поддержкой России.", ""]
+        bootstrapped = [item for item in required if item.get("bootstrap_stability", {}).get("requested_repeats", 0)]
+        if bootstrapped:
+            lines += ["### Условная устойчивость тематических кандидатов", "",
+                      "Bootstrap объектов с возвращением при фиксированных переменных и q; FA и вращение обучены повторно. "
+                      "Оси сопоставлены по нагрузкам с учётом перестановки и знака. Это описательная чувствительность, "
+                      "не доверительный интервал и не проверка качества источников.", "",
+                      "| q/F | Успешных повторов | Медианная congruence | Снова ≥2% и ≥3 семьи, доля всех повторов |",
+                      "|---|---|---|---|"]
+            for item in bootstrapped:
+                b = item["bootstrap_stability"]
+                congruence = f"{b['median_congruence']:.3f}" if b["median_congruence"] is not None else "не оценено"
+                lines.append(f"| q{item['q']}/{item['factor_id']} | {b['successful_repeats']}/{b['requested_repeats']} | "
+                             f"{congruence} | {b['numeric_candidate_fraction_all_replicates']:.1%} |")
+            lines += [""]
+    elif review["configured_ids"] and review["status"] == "insufficient_measurement":
+        lines += ["Измерений российской темы недостаточно даже для численного вывода об отдельном измерении: "
+                  f"в пригодной матрице осталось {review.get('retained_family_count', 0)} семантических семей. "
+                  "Ни наличие, ни отсутствие российского фактора не установлено. Успешная общая FA не устраняет этот пробел.", ""]
     elif review["configured_ids"]:
         lines += ["Кандидатов, одновременно прошедших порог ≥2% и имевших хотя бы две разные сильные семьи российских индикаторов, не найдено. "
-                  "Это результат численного просмотра этой матрицы. При недостаточном покрытии вывод о наличии отдельного измерения невозможен.", ""]
+                  "Это результат просмотра только реально измеренной части темы, а не доказательство отсутствия российского измерения.", ""]
     else:
         lines += ["Российская тема не была настроена через required_scales или research_domain; тематические выводы не делаются.", ""]
     for warning in review["warnings"]:
@@ -364,13 +501,16 @@ def _render_markdown(result):
     return text
 
 
-def preview_factors(study: dict, ratings: list[dict], output_dir: Path, *, make_charts: bool = True) -> dict:
+def preview_factors(study: dict, ratings: list[dict], output_dir: Path, *, make_charts: bool = True,
+                    bootstrap_repeats: int = 30) -> dict:
     """Return/export all q2…qmax fits and pending-evidence thematic candidates.
 
     Uses the stable core already fitted by _dimension_analysis, not an extra
     round of FA. No cluster, LLM, study-state mutation or automatic final q choice.
     """
     configuration = _theme_configuration(study)
+    if isinstance(bootstrap_repeats, bool) or not isinstance(bootstrap_repeats, int) or not 0 <= bootstrap_repeats <= 500:
+        raise ValueError("bootstrap_repeats must be an integer from 0 to 500")
     try:
         frame, _, _, scale_map, diagnostics = _prepare(study, ratings)
     except InsufficientMeasurementError as error:
@@ -401,41 +541,60 @@ def preview_factors(study: dict, ratings: list[dict], output_dir: Path, *, make_
                        "dimension_fit": dimension, "russia_candidates": russia,
                        "loading_table": [{"id": str(scale["id"]), "name": scale.get("name", str(scale["id"])),
                                           "positive": scale.get("positive", ""), "negative": scale.get("negative", ""),
+                                          "parent_scale_id": scale.get("parent_scale_id", str(scale["id"])),
+                                          "kind": scale.get("kind", "bipolar"), "pole": scale.get("pole"),
                                           "loadings": {f["id"]: float(rotated[i, j]) for j, f in enumerate(factors)}}
                                          for i, scale in enumerate(scales)]})
+    with threadpool_limits(limits=1):
+        _bootstrap_russia_candidates(raw, scales, configuration, models, fitted, bootstrap_repeats)
     configured, retained = configuration["configured_ids"], set(frame.columns)
     retained_theme = [identity for identity in configured if identity in retained]
-    observed_keys = {(str(rating["object_id"]), str(rating["scale_id"])) for rating in ratings
-                     if rating.get("status", "observed") == "observed"}
+    measured_coverage = {item["id"]: item for item in diagnostics["input_scale_coverage"]}
     excluded_reasons = {item["id"]: item["reason"] for item in diagnostics["excluded_scales"]}
     coverage = [{"id": identity, "name": scale_map.get(identity, configuration["requested_definitions"][identity]).get("name", identity),
                  "semantic_family_id": configuration["family_by_id"][identity],
                  "retained": identity in retained,
-                 "observed_count": sum(sid == identity and oid in frame.index for oid, sid in observed_keys),
-                 "observed_input_count": sum(sid == identity for _, sid in observed_keys),
+                 "observed_count": measured_coverage.get(identity, {}).get("observed_retained_objects", 0),
+                 "observed_input_count": measured_coverage.get(identity, {}).get("observed_objects", 0),
                  "exclusion_reason": None if identity in retained else excluded_reasons.get(identity, "not_in_approved_dictionary")}
                 for identity in configured]
     warnings = []
-    if any(value == "scale_id_fallback_not_independence_verified" for value in configuration["family_assignment_source"].values()):
+    if any(value.endswith("not_independence_verified") for value in configuration["family_assignment_source"].values()):
         warnings.append("Для некоторых шкал semantic_family_id не задан: разные ID временно считаются разными семьями, их содержательная независимость не проверена.")
     if configuration["required_definition_mismatches"]:
         warnings.append("Определения части required_scales отличаются от утверждённого словаря; использованы утверждённые шкалы, требуется содержательная сверка.")
     if any(item["mandatory_report"] and item["model_convergence_warnings"] for item in registry):
         warnings.append("Часть тематических кандидатов получена в q с предупреждениями сходимости полного или отложенного fit; их численная надёжность требует проверки.")
     mandatory = [item for item in registry if item["mandatory_report"]]
+    configured_families = {configuration["family_by_id"][identity] for identity in configured}
+    retained_families = {configuration["family_by_id"][identity] for identity in retained_theme}
+    measurement_scope = ("not_configured" if not configured else "insufficient_measurement" if len(retained_families) < 2
+                         else "partial_thematic_coverage" if len(retained_theme) < len(configured)
+                         else "all_declared_variables_retained")
+    if configured and len(retained_families) < 2:
+        warnings.append("Российская тема измерена недостаточно: осталось менее двух семантических семей. "
+                        "Успешная общая FA не позволяет утверждать ни наличие, ни отсутствие российского фактора.")
+    elif configured and len(retained_theme) < len(configured):
+        warnings.append(f"Российская тема представлена частично: сохранены {len(retained_families)} из {len(configured_families)} семей "
+                        f"и {len(retained_theme)} из {len(configured)} переменных. Выводы условны только на этот измеренный фрагмент; "
+                        "неизмеренные свойства и возможные другие факторы не проверены.")
     status = ("not_configured" if not configured else "numeric_candidates_pending_audit" if any(item["status"] == "numeric_candidate" for item in mandatory)
-              else "conditional_two_indicator_candidates" if mandatory else "insufficient_measurement" if len({configuration['family_by_id'][i] for i in retained_theme}) < 2
+              else "conditional_two_indicator_candidates" if mandatory else "insufficient_measurement" if len(retained_families) < 2
               else "no_numeric_candidate")
     pair_counts = {left: {right: int((frame[left].notna() & frame[right].notna()).sum()) for right in retained_theme}
                    for left in retained_theme}
     result = {"format_version": 1, "mode": "factor_preview_only", "n_objects": len(frame), "n_scales": frame.shape[1],
               "measurement_context": {"measurement_mode": study.get("measurement_mode", "unspecified"),
+                                      "measurement_model": _measurement_model(study),
                                       "source_supplement": study.get("source_supplement"),
                                       "approvals": study.get("approvals", {}),
                                       "expert_validation": "not_independently_validated"},
               "dimension_selection": selection, "dimension_candidates": dimensions, "models": models,
               "russia_review": {**configuration, "retained_ids": retained_theme,
                                 "excluded_ids": [identity for identity in configured if identity not in retained],
+                                "configured_family_count": len(configured_families), "retained_family_count": len(retained_families),
+                                "measurement_scope": measurement_scope,
+                                "unmeasured_families": sorted(configured_families - retained_families),
                                 "status": status, "evidence_audit": "pending", "scale_coverage": coverage,
                                 "pairwise_observed_counts": pair_counts, "candidates": registry,
                                 "mandatory_report_refs": [{"q": item["q"], "factor_id": item["factor_id"], "status": item["status"]} for item in mandatory],
@@ -448,7 +607,7 @@ def preview_factors(study: dict, ratings: list[dict], output_dir: Path, *, make_
               "limitations": ["Разведочная численная модель публичных образов; не независимая оценка убеждений или причин политических позиций.",
                               "FA гауссова и линейная, оценки ограниченные и порядковые; обучающее заполнение средним не устраняет смещения пропусков.",
                               "Три сильные семантические семьи дают только numeric_candidate: независимость событий, атрибуция и специфичность темы требуют аудита.",
-                              "Подвыборочная устойчивость FA, альтернативные старты вращения и зависимость от общих событий ещё не проверены.",
+                              "Bootstrap фиксирует состав переменных и q; он не проверяет весь сбор данных, независимость общих событий и все возможные вращения.",
                               "Номера и знаки факторов локальны для q; перенос смысла между решениями требует сопоставления полных нагрузок.",
                               "Кандидат ≥2% с двумя семьями показан условно; отсутствие кандидата при недостаточном измерении не означает отсутствия соответствующих позиций."],
               "charts": [], "artifacts": [{"name": "factor_preview_json", "path": "factor_preview.json", "type": "json"},

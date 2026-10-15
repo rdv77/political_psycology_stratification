@@ -1,0 +1,260 @@
+{
+  "data": {
+    "ratings": [
+      {
+        "variable_id": "programmatic-renewal__positive",
+        "status": "observed",
+        "value": 3,
+        "confidence": 0.8,
+        "support_type": "positive_manifestation",
+        "rationale": "Ругвабиза неоднократно публично акцентировала необходимость завершения избирательного цикла, институционального перехода, устранения пробелов в секторе безопасности и реформ. Это проявляется в ряде выступлений, где она призывает к новым программным шагам и институциональным изменениям (например, реформы сектора безопасности, расширение доступа к регистрации избирателей, создание новых планов устранения пробелов).",
+        "evidence_indices": [
+          7,
+          11,
+          31,
+          33,
+          39
+        ]
+      },
+      {
+        "variable_id": "programmatic-renewal__negative",
+        "status": "observed",
+        "value": 3,
+        "confidence": 0.8,
+        "support_type": "positive_manifestation",
+        "rationale": "В ряде выступлений Ругвабиза подчеркивает необходимость консолидации достигнутого, продолжения и закрепления существующего курса, институциональной стабильности, сохранения прогресса. Это устойчивый мотив в её коммуникации, наряду с программными изменениями.",
+        "evidence_indices": [
+          8,
+          16,
+          19,
+          37
+        ]
+      },
+      {
+        "variable_id": "government-course-assessment__positive",
+        "status": "observed",
+        "value": 3,
+        "confidence": 0.7,
+        "support_type": "positive_manifestation",
+        "rationale": "Ругвабиза регулярно отмечает прогресс, достигнутый властями ЦАР, и связывает успехи с усилиями правительства и поддержкой MINUSCA. Она публично поддерживает действующий курс в части восстановления государственной власти и проведения выборов.",
+        "evidence_indices": [
+          6,
+          9,
+          19,
+          22,
+          37
+        ]
+      },
+      {
+        "variable_id": "government-course-assessment__negative",
+        "status": "observed",
+        "value": 1,
+        "confidence": 0.5,
+        "support_type": "positive_manifestation",
+        "rationale": "В отдельных случаях Ругвабиза признаёт наличие пробелов, рисков отката и недостатков в реализации, однако это не выраженная критика курса, а скорее осторожное указание на уязвимости.",
+        "evidence_indices": [
+          16,
+          33
+        ]
+      },
+      {
+        "variable_id": "participation-administrative-direction__positive",
+        "status": "observed",
+        "value": 2,
+        "confidence": 0.7,
+        "support_type": "positive_manifestation",
+        "rationale": "Есть эпизоды, где она поддерживает расширение доступа к регистрации избирателей, инклюзивные выборы и учёт приоритетов населения, что свидетельствует о поддержке элементов совместного обсуждения.",
+        "evidence_indices": [
+          11,
+          18
+        ]
+      },
+      {
+        "variable_id": "participation-administrative-direction__negative",
+        "status": "observed",
+        "value": 3,
+        "confidence": 0.8,
+        "support_type": "positive_manifestation",
+        "rationale": "Преобладающий стиль коммуникации — координация, административное управление, постановка задач и контроль исполнения, особенно в вопросах безопасности, реформ и передачи функций национальным институтам.",
+        "evidence_indices": [
+          2,
+          12,
+          15,
+          17,
+          29,
+          35,
+          38
+        ]
+      },
+      {
+        "variable_id": "argumentation-evidence-values__positive",
+        "status": "observed",
+        "value": 3,
+        "confidence": 0.8,
+        "support_type": "positive_manifestation",
+        "rationale": "В ряде выступлений Ругвабиза использует данные о количестве демобилизованных, выданных свидетельств, конкретных угрозах и пробелах, а также аргументирует решения через анализ рисков и институциональных возможностей.",
+        "evidence_indices": [
+          6,
+          11,
+          28,
+          33,
+          39
+        ]
+      },
+      {
+        "variable_id": "argumentation-evidence-values__negative",
+        "status": "observed",
+        "value": 2,
+        "confidence": 0.6,
+        "support_type": "positive_manifestation",
+        "rationale": "В ряде случаев присутствует апелляция к ценностям мира, стабильности, памяти о прошлых конфликтах, однако это не основной стиль аргументации.",
+        "evidence_indices": [
+          7,
+          29
+        ]
+      },
+      {
+        "variable_id": "market-state-instruments__positive",
+        "status": "unknown",
+        "value": null,
+        "confidence": 0.3,
+        "support_type": "unknown",
+        "rationale": "Нет прямых персональных заявлений о расширении частной инициативы, предпринимательства или самостоятельных инвестиций.",
+        "evidence_indices": []
+      },
+      {
+        "variable_id": "market-state-instruments__negative",
+        "status": "observed",
+        "value": 2,
+        "confidence": 0.6,
+        "support_type": "positive_manifestation",
+        "rationale": "Ругвабиза публично поддерживает государственное планирование, обязательные меры контроля и реформу сектора безопасности, однако не делает акцента на расширении обязательных правил вне рамок мандата.",
+        "evidence_indices": [
+          12,
+          27,
+          35
+        ]
+      },
+      {
+        "variable_id": "accessibility-growth-priorities__positive",
+        "status": "observed",
+        "value": 3,
+        "confidence": 0.8,
+        "support_type": "positive_manifestation",
+        "rationale": "Поддержка выдачи свидетельств о рождении уязвимым группам, акцент на инклюзивных выборах и учёте нужд населения свидетельствуют о приоритете расширения доступности базовых благ.",
+        "evidence_indices": [
+          6,
+          11,
+          18
+        ]
+      },
+      {
+        "variable_id": "accessibility-growth-priorities__negative",
+        "status": "observed",
+        "value": 2,
+        "confidence": 0.6,
+        "support_type": "positive_manifestation",
+        "rationale": "В ряде выступлений отмечается долгосрочная цель процветания, развития и институционального роста, однако основной акцент на базовой доступности.",
+        "evidence_indices": [
+          12,
+          29
+        ]
+      },
+      {
+        "variable_id": "external-domestic-resources__positive",
+        "status": "observed",
+        "value": 4,
+        "confidence": 0.9,
+        "support_type": "positive_manifestation",
+        "rationale": "Ругвабиза неоднократно и конкретно обращалась за внешними ресурсами, поддержкой и международным финансированием для MINUSCA и выборов, что подтверждается несколькими независимыми эпизодами.",
+        "evidence_indices": [
+          14,
+          23,
+          26
+        ]
+      },
+      {
+        "variable_id": "external-domestic-resources__negative",
+        "status": "unknown",
+        "value": null,
+        "confidence": 0.3,
+        "support_type": "unknown",
+        "rationale": "Нет прямых заявлений о приоритете внутренних доходов или снижении зависимости от внешних поступлений.",
+        "evidence_indices": []
+      },
+      {
+        "variable_id": "international-rules-autonomy__positive",
+        "status": "observed",
+        "value": 3,
+        "confidence": 0.7,
+        "support_type": "positive_manifestation",
+        "rationale": "Ругвабиза поддерживает международные механизмы, обязательства и сотрудничество, в том числе призывает к трансграничному взаимодействию и выполнению мандата ООН.",
+        "evidence_indices": [
+          2,
+          27,
+          34
+        ]
+      },
+      {
+        "variable_id": "international-rules-autonomy__negative",
+        "status": "observed",
+        "value": 2,
+        "confidence": 0.6,
+        "support_type": "positive_manifestation",
+        "rationale": "В ряде случаев она подчёркивает национальную ответственность и необходимость учитывать приоритеты самих жителей ЦАР, однако это не выраженная защита полной автономии от международных норм.",
+        "evidence_indices": [
+          18,
+          32
+        ]
+      },
+      {
+        "variable_id": "mediation-adversarial-communication__positive",
+        "status": "observed",
+        "value": 3,
+        "confidence": 0.8,
+        "support_type": "positive_manifestation",
+        "rationale": "Ругвабиза регулярно поддерживает диалог, посредничество, переговорные процессы между правительством и вооружёнными группами, а также международное сотрудничество для урегулирования конфликтов.",
+        "evidence_indices": [
+          6,
+          30,
+          34
+        ]
+      },
+      {
+        "variable_id": "mediation-adversarial-communication__negative",
+        "status": "observed",
+        "value": 2,
+        "confidence": 0.6,
+        "support_type": "positive_manifestation",
+        "rationale": "В ряде случаев она публично осуждает нападения на миротворцев и защищает мандат MINUSCA, что проявляется как защита своей стороны в кризисных ситуациях.",
+        "evidence_indices": [
+          4,
+          5,
+          20,
+          21
+        ]
+      }
+    ]
+  },
+  "model": "gpt-4.1",
+  "task": "independent-ratings-valentine-rugwabiza-0",
+  "at": "2026-10-15T17:32:28.363800+00:00",
+  "usage": {
+    "prompt_tokens": 11898,
+    "completion_tokens": 2140,
+    "total_tokens": 14038,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "audio_tokens": 0
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "audio_tokens": 0,
+      "accepted_prediction_tokens": 0,
+      "rejected_prediction_tokens": 0
+    }
+  },
+  "citations": [],
+  "system_fingerprint": "fp_801d3b7b5c",
+  "cache_key": "df11f625e160cfed97de5a0043ac0594e1eed9d6abe0ef6d86ea5f0a5171819c"
+}

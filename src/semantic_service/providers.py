@@ -224,6 +224,8 @@ class ModelProvider:
         evidence_dir.mkdir(exist_ok=True)
         evidence_file = evidence_dir / (obj["id"] + ".json")
         basis_data = {"version": 2, "object": obj, "period": [study["date_from"], study["date_to"]], "aspect": study["aspect"]}
+        if study.get("measurement_model") == "independent_poles":
+            basis_data.update(version=3, scope=study["scope"], measurement_model="independent_poles")
         if study.get("research_requirements"):
             basis_data["research_requirements"] = study["research_requirements"]
         basis = fingerprint(basis_data)
@@ -515,6 +517,9 @@ class ModelProvider:
         return enriched
 
     def rate_object(self, study: dict, obj: dict) -> list[dict]:
+        if study.get("measurement_model") == "independent_poles":
+            from .independent_poles import rate_independent_object
+            return rate_independent_object(self, study, obj)
         dossier = self.dossier(study, obj)
         facts = dossier.get("facts", [])
         if not facts:

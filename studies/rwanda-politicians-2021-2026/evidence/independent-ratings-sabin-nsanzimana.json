@@ -1,0 +1,1926 @@
+[
+  {
+    "object_id": "sabin-nsanzimana",
+    "scale_id": "programmatic-renewal",
+    "pole_scores": {
+      "positive": {
+        "status": "observed",
+        "value": 2,
+        "confidence": 0.7,
+        "evidence_indices": [
+          0,
+          2,
+          3,
+          4,
+          10
+        ],
+        "source_urls": [
+          "https://www.moh.gov.rw/news-detail/rwanda-who-join-forces-to-boost-epidemic-preparedness",
+          "https://www.gov.rw/fileadmin/user_upload/gov_user_upload/Publications/Newsletters/_RwandaWorks_Weekly_Digest___18_-_24_September_2023.pdf",
+          "https://www.ktpress.rw/2023/05/rwanda-evaluates-icpd25-commitments-with-youth-engagement/",
+          "https://www.parliament.gov.rw/news-details/minister-of-health-briefs-senators-on-health-policy-and-expansion-of-health-posts"
+        ],
+        "event_ids": [
+          "nsanzimana-who-epidemic-preparedness-2023-02-13",
+          "nsanzimana-unga-ncd-2023-09-21",
+          "nsanzimana-icpd25-followup-2023-05-18",
+          "nsanzimana-senate-health-policy-2025-01-16",
+          "nsanzimana-pandemic-preparedness-2023-02-13"
+        ],
+        "rationale": "В ряде эпизодов (например, приоритет профилактики, расширение сети медицинских постов, акцент на институциональной готовности и международном партнёрстве) Нсанзимана выдвигал новые акценты и инициативы в здравоохранении, что свидетельствует о ясном ограниченном проявлении программных изменений, но не о последовательном пересмотре всего курса.",
+        "support_type": "positive_manifestation",
+        "provenance": {
+          "raw_response_file": "evidence/independent_responses/a089ddc5c32572e4aeebaaba82d2b8846c9467da597f85e73be5afbba07240de.json",
+          "model": "gpt-4.1",
+          "at": "2026-10-15T17:30:09.592109+00:00",
+          "cache_key": "a089ddc5c32572e4aeebaaba82d2b8846c9467da597f85e73be5afbba07240de",
+          "original_proposal": {
+            "variable_id": "programmatic-renewal__positive",
+            "status": "observed",
+            "value": 2,
+            "confidence": 0.7,
+            "support_type": "positive_manifestation",
+            "rationale": "В ряде эпизодов (например, приоритет профилактики, расширение сети медицинских постов, акцент на институциональной готовности и международном партнёрстве) Нсанзимана выдвигал новые акценты и инициативы в здравоохранении, что свидетельствует о ясном ограниченном проявлении программных изменений, но не о последовательном пересмотре всего курса.",
+            "evidence_indices": [
+              0,
+              2,
+              3,
+              4,
+              10
+            ]
+          }
+        },
+        "evidence_file": "evidence/independent-dossier-sabin-nsanzimana.json",
+        "evidence_basis": "2dbeea387385aa1dd0adb96388d5f87de21e70551be32a81aa3164462550703e"
+      },
+      "negative": {
+        "status": "observed",
+        "value": 2,
+        "confidence": 0.7,
+        "evidence_indices": [
+          4,
+          5,
+          10,
+          11
+        ],
+        "source_urls": [
+          "https://www.parliament.gov.rw/news-details/minister-of-health-briefs-senators-on-health-policy-and-expansion-of-health-posts",
+          "https://www.moh.gov.rw/news-detail/rwanda-who-join-forces-to-boost-epidemic-preparedness"
+        ],
+        "event_ids": [
+          "nsanzimana-senate-health-policy-2025-01-16",
+          "nsanzimana-health-posts-data-2025-01-16",
+          "nsanzimana-pandemic-preparedness-2023-02-13",
+          "nsanzimana-senate-accountability-2025-01-16"
+        ],
+        "rationale": "В публичных выступлениях и отчётах Нсанзимана подчёркивал продолжение и развитие существующих государственных программ (например, расширение уже действующей сети медицинских постов, выполнение международных обязательств), что указывает на ясное ограниченное проявление закрепления курса.",
+        "support_type": "positive_manifestation",
+        "provenance": {
+          "raw_response_file": "evidence/independent_responses/a089ddc5c32572e4aeebaaba82d2b8846c9467da597f85e73be5afbba07240de.json",
+          "model": "gpt-4.1",
+          "at": "2026-10-15T17:30:09.592109+00:00",
+          "cache_key": "a089ddc5c32572e4aeebaaba82d2b8846c9467da597f85e73be5afbba07240de",
+          "original_proposal": {
+            "variable_id": "programmatic-renewal__negative",
+            "status": "observed",
+            "value": 2,
+            "confidence": 0.7,
+            "support_type": "positive_manifestation",
+            "rationale": "В публичных выступлениях и отчётах Нсанзимана подчёркивал продолжение и развитие существующих государственных программ (например, расширение уже действующей сети медицинских постов, выполнение международных обязательств), что указывает на ясное ограниченное проявление закрепления курса.",
+            "evidence_indices": [
+              4,
+              5,
+              10,
+              11
+            ]
+          }
+        },
+        "evidence_file": "evidence/independent-dossier-sabin-nsanzimana.json",
+        "evidence_basis": "2dbeea387385aa1dd0adb96388d5f87de21e70551be32a81aa3164462550703e"
+      }
+    },
+    "positive": 2,
+    "negative": 2,
+    "value": null,
+    "status": "observed",
+    "difference": null,
+    "mass": null,
+    "measurement_model": "independent_poles",
+    "evidence_file": "evidence/independent-dossier-sabin-nsanzimana.json",
+    "evidence_basis": "2dbeea387385aa1dd0adb96388d5f87de21e70551be32a81aa3164462550703e",
+    "at": "2026-10-15T17:30:23.142897+00:00",
+    "reason": "Каждое свойство оценивается независимо; разность и искусственное дополнение до пяти не вычисляются"
+  },
+  {
+    "object_id": "sabin-nsanzimana",
+    "scale_id": "government-course-assessment",
+    "pole_scores": {
+      "positive": {
+        "status": "observed",
+        "value": 2,
+        "confidence": 0.7,
+        "evidence_indices": [
+          3,
+          4,
+          5,
+          10,
+          11
+        ],
+        "source_urls": [
+          "https://www.ktpress.rw/2023/05/rwanda-evaluates-icpd25-commitments-with-youth-engagement/",
+          "https://www.parliament.gov.rw/news-details/minister-of-health-briefs-senators-on-health-policy-and-expansion-of-health-posts",
+          "https://www.moh.gov.rw/news-detail/rwanda-who-join-forces-to-boost-epidemic-preparedness"
+        ],
+        "event_ids": [
+          "nsanzimana-icpd25-followup-2023-05-18",
+          "nsanzimana-senate-health-policy-2025-01-16",
+          "nsanzimana-health-posts-data-2025-01-16",
+          "nsanzimana-pandemic-preparedness-2023-02-13",
+          "nsanzimana-senate-accountability-2025-01-16"
+        ],
+        "rationale": "В ряде эпизодов Нсанзимана публично представлял достижения и приоритеты государственной политики в здравоохранении, подчёркивал успехи и необходимость дальнейших усилий, что соответствует ограниченной поддержке действующего курса.",
+        "support_type": "positive_manifestation",
+        "provenance": {
+          "raw_response_file": "evidence/independent_responses/a089ddc5c32572e4aeebaaba82d2b8846c9467da597f85e73be5afbba07240de.json",
+          "model": "gpt-4.1",
+          "at": "2026-10-15T17:30:09.592109+00:00",
+          "cache_key": "a089ddc5c32572e4aeebaaba82d2b8846c9467da597f85e73be5afbba07240de",
+          "original_proposal": {
+            "variable_id": "government-course-assessment__positive",
+            "status": "observed",
+            "value": 2,
+            "confidence": 0.7,
+            "support_type": "positive_manifestation",
+            "rationale": "В ряде эпизодов Нсанзимана публично представлял достижения и приоритеты государственной политики в здравоохранении, подчёркивал успехи и необходимость дальнейших усилий, что соответствует ограниченной поддержке действующего курса.",
+            "evidence_indices": [
+              3,
+              4,
+              5,
+              10,
+              11
+            ]
+          }
+        },
+        "evidence_file": "evidence/independent-dossier-sabin-nsanzimana.json",
+        "evidence_basis": "2dbeea387385aa1dd0adb96388d5f87de21e70551be32a81aa3164462550703e"
+      },
+      "negative": {
+        "status": "observed",
+        "value": 1,
+        "confidence": 0.5,
+        "evidence_indices": [
+          11
+        ],
+        "source_urls": [
+          "https://www.parliament.gov.rw/news-details/minister-of-health-briefs-senators-on-health-policy-and-expansion-of-health-posts"
+        ],
+        "event_ids": [
+          "nsanzimana-senate-accountability-2025-01-16"
+        ],
+        "rationale": "В одном эпизоде отмечено публичное признание проблем функционирования части медицинских постов, однако это не является критикой всего курса, а скорее признанием отдельных трудностей.",
+        "support_type": "positive_manifestation",
+        "provenance": {
+          "raw_response_file": "evidence/independent_responses/a089ddc5c32572e4aeebaaba82d2b8846c9467da597f85e73be5afbba07240de.json",
+          "model": "gpt-4.1",
+          "at": "2026-10-15T17:30:09.592109+00:00",
+          "cache_key": "a089ddc5c32572e4aeebaaba82d2b8846c9467da597f85e73be5afbba07240de",
+          "original_proposal": {
+            "variable_id": "government-course-assessment__negative",
+            "status": "observed",
+            "value": 1,
+            "confidence": 0.5,
+            "support_type": "positive_manifestation",
+            "rationale": "В одном эпизоде отмечено публичное признание проблем функционирования части медицинских постов, однако это не является критикой всего курса, а скорее признанием отдельных трудностей.",
+            "evidence_indices": [
+              11
+            ]
+          }
+        },
+        "evidence_file": "evidence/independent-dossier-sabin-nsanzimana.json",
+        "evidence_basis": "2dbeea387385aa1dd0adb96388d5f87de21e70551be32a81aa3164462550703e"
+      }
+    },
+    "positive": 2,
+    "negative": 1,
+    "value": null,
+    "status": "observed",
+    "difference": null,
+    "mass": null,
+    "measurement_model": "independent_poles",
+    "evidence_file": "evidence/independent-dossier-sabin-nsanzimana.json",
+    "evidence_basis": "2dbeea387385aa1dd0adb96388d5f87de21e70551be32a81aa3164462550703e",
+    "at": "2026-10-15T17:30:23.142897+00:00",
+    "reason": "Каждое свойство оценивается независимо; разность и искусственное дополнение до пяти не вычисляются"
+  },
+  {
+    "object_id": "sabin-nsanzimana",
+    "scale_id": "participation-administrative-direction",
+    "pole_scores": {
+      "positive": {
+        "status": "observed",
+        "value": 1,
+        "confidence": 0.5,
+        "evidence_indices": [
+          3
+        ],
+        "source_urls": [
+          "https://www.ktpress.rw/2023/05/rwanda-evaluates-icpd25-commitments-with-youth-engagement/"
+        ],
+        "event_ids": [
+          "nsanzimana-icpd25-followup-2023-05-18"
+        ],
+        "rationale": "В эпизоде с обсуждением обязательств ICPD25 Нсанзимана призывал к дальнейшим действиям молодёжи и медицинских работников, что можно трактовать как единичное слабое проявление приглашения к участию заинтересованных групп.",
+        "support_type": "positive_manifestation",
+        "provenance": {
+          "raw_response_file": "evidence/independent_responses/a089ddc5c32572e4aeebaaba82d2b8846c9467da597f85e73be5afbba07240de.json",
+          "model": "gpt-4.1",
+          "at": "2026-10-15T17:30:09.592109+00:00",
+          "cache_key": "a089ddc5c32572e4aeebaaba82d2b8846c9467da597f85e73be5afbba07240de",
+          "original_proposal": {
+            "variable_id": "participation-administrative-direction__positive",
+            "status": "observed",
+            "value": 1,
+            "confidence": 0.5,
+            "support_type": "positive_manifestation",
+            "rationale": "В эпизоде с обсуждением обязательств ICPD25 Нсанзимана призывал к дальнейшим действиям молодёжи и медицинских работников, что можно трактовать как единичное слабое проявление приглашения к участию заинтересованных групп.",
+            "evidence_indices": [
+              3
+            ]
+          }
+        },
+        "evidence_file": "evidence/independent-dossier-sabin-nsanzimana.json",
+        "evidence_basis": "2dbeea387385aa1dd0adb96388d5f87de21e70551be32a81aa3164462550703e"
+      },
+      "negative": {
+        "status": "observed",
+        "value": 2,
+        "confidence": 0.7,
+        "evidence_indices": [
+          4,
+          5,
+          11
+        ],
+        "source_urls": [
+          "https://www.parliament.gov.rw/news-details/minister-of-health-briefs-senators-on-health-policy-and-expansion-of-health-posts"
+        ],
+        "event_ids": [
+          "nsanzimana-senate-health-policy-2025-01-16",
+          "nsanzimana-health-posts-data-2025-01-16",
+          "nsanzimana-senate-accountability-2025-01-16"
+        ],
+        "rationale": "В ряде эпизодов Нсанзимана выступал с отчётами, ставил задачи и представлял планы развития, что указывает на ясное ограниченное проявление административного управления и контроля исполнения.",
+        "support_type": "positive_manifestation",
+        "provenance": {
+          "raw_response_file": "evidence/independent_responses/a089ddc5c32572e4aeebaaba82d2b8846c9467da597f85e73be5afbba07240de.json",
+          "model": "gpt-4.1",
+          "at": "2026-10-15T17:30:09.592109+00:00",
+          "cache_key": "a089ddc5c32572e4aeebaaba82d2b8846c9467da597f85e73be5afbba07240de",
+          "original_proposal": {
+            "variable_id": "participation-administrative-direction__negative",
+            "status": "observed",
+            "value": 2,
+            "confidence": 0.7,
+            "support_type": "positive_manifestation",
+            "rationale": "В ряде эпизодов Нсанзимана выступал с отчётами, ставил задачи и представлял планы развития, что указывает на ясное ограниченное проявление административного управления и контроля исполнения.",
+            "evidence_indices": [
+              4,
+              5,
+              11
+            ]
+          }
+        },
+        "evidence_file": "evidence/independent-dossier-sabin-nsanzimana.json",
+        "evidence_basis": "2dbeea387385aa1dd0adb96388d5f87de21e70551be32a81aa3164462550703e"
+      }
+    },
+    "positive": 1,
+    "negative": 2,
+    "value": null,
+    "status": "observed",
+    "difference": null,
+    "mass": null,
+    "measurement_model": "independent_poles",
+    "evidence_file": "evidence/independent-dossier-sabin-nsanzimana.json",
+    "evidence_basis": "2dbeea387385aa1dd0adb96388d5f87de21e70551be32a81aa3164462550703e",
+    "at": "2026-10-15T17:30:23.142897+00:00",
+    "reason": "Каждое свойство оценивается независимо; разность и искусственное дополнение до пяти не вычисляются"
+  },
+  {
+    "object_id": "sabin-nsanzimana",
+    "scale_id": "argumentation-evidence-values",
+    "pole_scores": {
+      "positive": {
+        "status": "observed",
+        "value": 3,
+        "confidence": 0.8,
+        "evidence_indices": [
+          5,
+          6,
+          11
+        ],
+        "source_urls": [
+          "https://www.parliament.gov.rw/news-details/minister-of-health-briefs-senators-on-health-policy-and-expansion-of-health-posts",
+          "https://multimedia.who.int/asset-management/2AOJ8Z0XL6I2"
+        ],
+        "event_ids": [
+          "nsanzimana-health-posts-data-2025-01-16",
+          "nsanzimana-wha-data-financing-2025-05-21",
+          "nsanzimana-senate-accountability-2025-01-16"
+        ],
+        "rationale": "В нескольких эпизодах Нсанзимана обосновывал решения через данные, количественные показатели, ссылки на исследования и международные стандарты (например, отчёты с показателями, участие в круглом столе по данным и финансированию).",
+        "support_type": "positive_manifestation",
+        "provenance": {
+          "raw_response_file": "evidence/independent_responses/a089ddc5c32572e4aeebaaba82d2b8846c9467da597f85e73be5afbba07240de.json",
+          "model": "gpt-4.1",
+          "at": "2026-10-15T17:30:09.592109+00:00",
+          "cache_key": "a089ddc5c32572e4aeebaaba82d2b8846c9467da597f85e73be5afbba07240de",
+          "original_proposal": {
+            "variable_id": "argumentation-evidence-values__positive",
+            "status": "observed",
+            "value": 3,
+            "confidence": 0.8,
+            "support_type": "positive_manifestation",
+            "rationale": "В нескольких эпизодах Нсанзимана обосновывал решения через данные, количественные показатели, ссылки на исследования и международные стандарты (например, отчёты с показателями, участие в круглом столе по данным и финансированию).",
+            "evidence_indices": [
+              5,
+              6,
+              11
+            ]
+          }
+        },
+        "evidence_file": "evidence/independent-dossier-sabin-nsanzimana.json",
+        "evidence_basis": "2dbeea387385aa1dd0adb96388d5f87de21e70551be32a81aa3164462550703e"
+      },
+      "negative": {
+        "status": "observed",
+        "value": 1,
+        "confidence": 0.5,
+        "evidence_indices": [
+          3
+        ],
+        "source_urls": [
+          "https://www.ktpress.rw/2023/05/rwanda-evaluates-icpd25-commitments-with-youth-engagement/"
+        ],
+        "event_ids": [
+          "nsanzimana-icpd25-followup-2023-05-18"
+        ],
+        "rationale": "В одном эпизоде (призыв сделать спасение матери и ребёнка безусловной целью) присутствует ограниченное обращение к ценностям, но в целом стиль аргументации преимущественно опирается на данные.",
+        "support_type": "positive_manifestation",
+        "provenance": {
+          "raw_response_file": "evidence/independent_responses/a089ddc5c32572e4aeebaaba82d2b8846c9467da597f85e73be5afbba07240de.json",
+          "model": "gpt-4.1",
+          "at": "2026-10-15T17:30:09.592109+00:00",
+          "cache_key": "a089ddc5c32572e4aeebaaba82d2b8846c9467da597f85e73be5afbba07240de",
+          "original_proposal": {
+            "variable_id": "argumentation-evidence-values__negative",
+            "status": "observed",
+            "value": 1,
+            "confidence": 0.5,
+            "support_type": "positive_manifestation",
+            "rationale": "В одном эпизоде (призыв сделать спасение матери и ребёнка безусловной целью) присутствует ограниченное обращение к ценностям, но в целом стиль аргументации преимущественно опирается на данные.",
+            "evidence_indices": [
+              3
+            ]
+          }
+        },
+        "evidence_file": "evidence/independent-dossier-sabin-nsanzimana.json",
+        "evidence_basis": "2dbeea387385aa1dd0adb96388d5f87de21e70551be32a81aa3164462550703e"
+      }
+    },
+    "positive": 3,
+    "negative": 1,
+    "value": null,
+    "status": "observed",
+    "difference": null,
+    "mass": null,
+    "measurement_model": "independent_poles",
+    "evidence_file": "evidence/independent-dossier-sabin-nsanzimana.json",
+    "evidence_basis": "2dbeea387385aa1dd0adb96388d5f87de21e70551be32a81aa3164462550703e",
+    "at": "2026-10-15T17:30:23.142897+00:00",
+    "reason": "Каждое свойство оценивается независимо; разность и искусственное дополнение до пяти не вычисляются"
+  },
+  {
+    "object_id": "sabin-nsanzimana",
+    "scale_id": "market-state-instruments",
+    "pole_scores": {
+      "positive": {
+        "status": "unknown",
+        "value": null,
+        "confidence": 0,
+        "evidence_indices": [],
+        "source_urls": [],
+        "event_ids": [],
+        "rationale": "Нет прямых свидетельств расширения частной инициативы или управления в анализируемых эпизодах.",
+        "support_type": "unknown",
+        "provenance": {
+          "raw_response_file": "evidence/independent_responses/a089ddc5c32572e4aeebaaba82d2b8846c9467da597f85e73be5afbba07240de.json",
+          "model": "gpt-4.1",
+          "at": "2026-10-15T17:30:09.592109+00:00",
+          "cache_key": "a089ddc5c32572e4aeebaaba82d2b8846c9467da597f85e73be5afbba07240de",
+          "original_proposal": {
+            "variable_id": "market-state-instruments__positive",
+            "status": "unknown",
+            "value": null,
+            "confidence": 0,
+            "support_type": "unknown",
+            "rationale": "Нет прямых свидетельств расширения частной инициативы или управления в анализируемых эпизодах.",
+            "evidence_indices": []
+          }
+        },
+        "evidence_file": "evidence/independent-dossier-sabin-nsanzimana.json",
+        "evidence_basis": "2dbeea387385aa1dd0adb96388d5f87de21e70551be32a81aa3164462550703e"
+      },
+      "negative": {
+        "status": "observed",
+        "value": 2,
+        "confidence": 0.7,
+        "evidence_indices": [
+          4,
+          5,
+          10,
+          11
+        ],
+        "source_urls": [
+          "https://www.parliament.gov.rw/news-details/minister-of-health-briefs-senators-on-health-policy-and-expansion-of-health-posts",
+          "https://www.moh.gov.rw/news-detail/rwanda-who-join-forces-to-boost-epidemic-preparedness"
+        ],
+        "event_ids": [
+          "nsanzimana-senate-health-policy-2025-01-16",
+          "nsanzimana-health-posts-data-2025-01-16",
+          "nsanzimana-pandemic-preparedness-2023-02-13",
+          "nsanzimana-senate-accountability-2025-01-16"
+        ],
+        "rationale": "В ряде эпизодов отмечено развитие государственных программ, планирование и надзор (например, расширение сети медицинских постов, государственное финансирование), что соответствует ограниченному проявлению расширения государственного планирования.",
+        "support_type": "positive_manifestation",
+        "provenance": {
+          "raw_response_file": "evidence/independent_responses/a089ddc5c32572e4aeebaaba82d2b8846c9467da597f85e73be5afbba07240de.json",
+          "model": "gpt-4.1",
+          "at": "2026-10-15T17:30:09.592109+00:00",
+          "cache_key": "a089ddc5c32572e4aeebaaba82d2b8846c9467da597f85e73be5afbba07240de",
+          "original_proposal": {
+            "variable_id": "market-state-instruments__negative",
+            "status": "observed",
+            "value": 2,
+            "confidence": 0.7,
+            "support_type": "positive_manifestation",
+            "rationale": "В ряде эпизодов отмечено развитие государственных программ, планирование и надзор (например, расширение сети медицинских постов, государственное финансирование), что соответствует ограниченному проявлению расширения государственного планирования.",
+            "evidence_indices": [
+              4,
+              5,
+              10,
+              11
+            ]
+          }
+        },
+        "evidence_file": "evidence/independent-dossier-sabin-nsanzimana.json",
+        "evidence_basis": "2dbeea387385aa1dd0adb96388d5f87de21e70551be32a81aa3164462550703e"
+      }
+    },
+    "positive": null,
+    "negative": 2,
+    "value": null,
+    "status": "partial",
+    "difference": null,
+    "mass": null,
+    "measurement_model": "independent_poles",
+    "evidence_file": "evidence/independent-dossier-sabin-nsanzimana.json",
+    "evidence_basis": "2dbeea387385aa1dd0adb96388d5f87de21e70551be32a81aa3164462550703e",
+    "at": "2026-10-15T17:30:23.142897+00:00",
+    "reason": "Каждое свойство оценивается независимо; разность и искусственное дополнение до пяти не вычисляются"
+  },
+  {
+    "object_id": "sabin-nsanzimana",
+    "scale_id": "accessibility-growth-priorities",
+    "pole_scores": {
+      "positive": {
+        "status": "observed",
+        "value": 3,
+        "confidence": 0.8,
+        "evidence_indices": [
+          3,
+          4,
+          5,
+          10
+        ],
+        "source_urls": [
+          "https://www.ktpress.rw/2023/05/rwanda-evaluates-icpd25-commitments-with-youth-engagement/",
+          "https://www.parliament.gov.rw/news-details/minister-of-health-briefs-senators-on-health-policy-and-expansion-of-health-posts",
+          "https://www.moh.gov.rw/news-detail/rwanda-who-join-forces-to-boost-epidemic-preparedness"
+        ],
+        "event_ids": [
+          "nsanzimana-icpd25-followup-2023-05-18",
+          "nsanzimana-senate-health-policy-2025-01-16",
+          "nsanzimana-health-posts-data-2025-01-16",
+          "nsanzimana-pandemic-preparedness-2023-02-13"
+        ],
+        "rationale": "В ряде эпизодов Нсанзимана подчёркивал расширение доступности медицинских услуг, развитие первичной помощи и снижение материнской смертности как приоритеты, что соответствует устойчивому публичному акценту на доступности базовых благ.",
+        "support_type": "positive_manifestation",
+        "provenance": {
+          "raw_response_file": "evidence/independent_responses/a089ddc5c32572e4aeebaaba82d2b8846c9467da597f85e73be5afbba07240de.json",
+          "model": "gpt-4.1",
+          "at": "2026-10-15T17:30:09.592109+00:00",
+          "cache_key": "a089ddc5c32572e4aeebaaba82d2b8846c9467da597f85e73be5afbba07240de",
+          "original_proposal": {
+            "variable_id": "accessibility-growth-priorities__positive",
+            "status": "observed",
+            "value": 3,
+            "confidence": 0.8,
+            "support_type": "positive_manifestation",
+            "rationale": "В ряде эпизодов Нсанзимана подчёркивал расширение доступности медицинских услуг, развитие первичной помощи и снижение материнской смертности как приоритеты, что соответствует устойчивому публичному акценту на доступности базовых благ.",
+            "evidence_indices": [
+              3,
+              4,
+              5,
+              10
+            ]
+          }
+        },
+        "evidence_file": "evidence/independent-dossier-sabin-nsanzimana.json",
+        "evidence_basis": "2dbeea387385aa1dd0adb96388d5f87de21e70551be32a81aa3164462550703e"
+      },
+      "negative": {
+        "status": "observed",
+        "value": 2,
+        "confidence": 0.6,
+        "evidence_indices": [
+          9,
+          12,
+          13,
+          14
+        ],
+        "source_urls": [
+          "https://www.moh.gov.rw/news-detail/african-health-ministers-meet-in-kigali-to-launch-biontech-manufacturing-site",
+          "https://t.me/minzdrav_ru/14879",
+          "https://www.newtimes.co.rw/article/35854/news/health/rwanda-russia-sign-deal-in-nuclear-medicine-healthcare-systems"
+        ],
+        "event_ids": [
+          "nsanzimana-biontech-kigali-2023",
+          "nsanzimana-murashko-health-mou-2026-05-19"
+        ],
+        "rationale": "В эпизодах с запуском производства вакцин и международным сотрудничеством отмечался акцент на инвестициях, инновациях и развитии, что соответствует ограниченному проявлению приоритета роста и конкурентоспособности.",
+        "support_type": "positive_manifestation",
+        "provenance": {
+          "raw_response_file": "evidence/independent_responses/a089ddc5c32572e4aeebaaba82d2b8846c9467da597f85e73be5afbba07240de.json",
+          "model": "gpt-4.1",
+          "at": "2026-10-15T17:30:09.592109+00:00",
+          "cache_key": "a089ddc5c32572e4aeebaaba82d2b8846c9467da597f85e73be5afbba07240de",
+          "original_proposal": {
+            "variable_id": "accessibility-growth-priorities__negative",
+            "status": "observed",
+            "value": 2,
+            "confidence": 0.6,
+            "support_type": "positive_manifestation",
+            "rationale": "В эпизодах с запуском производства вакцин и международным сотрудничеством отмечался акцент на инвестициях, инновациях и развитии, что соответствует ограниченному проявлению приоритета роста и конкурентоспособности.",
+            "evidence_indices": [
+              9,
+              12,
+              13,
+              14
+            ]
+          }
+        },
+        "evidence_file": "evidence/independent-dossier-sabin-nsanzimana.json",
+        "evidence_basis": "2dbeea387385aa1dd0adb96388d5f87de21e70551be32a81aa3164462550703e"
+      }
+    },
+    "positive": 3,
+    "negative": 2,
+    "value": null,
+    "status": "observed",
+    "difference": null,
+    "mass": null,
+    "measurement_model": "independent_poles",
+    "evidence_file": "evidence/independent-dossier-sabin-nsanzimana.json",
+    "evidence_basis": "2dbeea387385aa1dd0adb96388d5f87de21e70551be32a81aa3164462550703e",
+    "at": "2026-10-15T17:30:23.142897+00:00",
+    "reason": "Каждое свойство оценивается независимо; разность и искусственное дополнение до пяти не вычисляются"
+  },
+  {
+    "object_id": "sabin-nsanzimana",
+    "scale_id": "external-domestic-resources",
+    "pole_scores": {
+      "positive": {
+        "status": "observed",
+        "value": 3,
+        "confidence": 0.8,
+        "evidence_indices": [
+          0,
+          6,
+          9,
+          12,
+          13,
+          14
+        ],
+        "source_urls": [
+          "https://www.moh.gov.rw/news-detail/rwanda-who-join-forces-to-boost-epidemic-preparedness",
+          "https://multimedia.who.int/asset-management/2AOJ8Z0XL6I2",
+          "https://www.moh.gov.rw/news-detail/african-health-ministers-meet-in-kigali-to-launch-biontech-manufacturing-site",
+          "https://t.me/minzdrav_ru/14879",
+          "https://www.newtimes.co.rw/article/35854/news/health/rwanda-russia-sign-deal-in-nuclear-medicine-healthcare-systems"
+        ],
+        "event_ids": [
+          "nsanzimana-who-epidemic-preparedness-2023-02-13",
+          "nsanzimana-wha-data-financing-2025-05-21",
+          "nsanzimana-biontech-kigali-2023",
+          "nsanzimana-murashko-health-mou-2026-05-19"
+        ],
+        "rationale": "Многочисленные эпизоды подтверждают привлечение внешнего финансирования и ресурсных партнёров (ВОЗ, BioNTech, Россия), что свидетельствует о нескольких последовательных эпизодах такого подхода.",
+        "support_type": "positive_manifestation",
+        "provenance": {
+          "raw_response_file": "evidence/independent_responses/a089ddc5c32572e4aeebaaba82d2b8846c9467da597f85e73be5afbba07240de.json",
+          "model": "gpt-4.1",
+          "at": "2026-10-15T17:30:09.592109+00:00",
+          "cache_key": "a089ddc5c32572e4aeebaaba82d2b8846c9467da597f85e73be5afbba07240de",
+          "original_proposal": {
+            "variable_id": "external-domestic-resources__positive",
+            "status": "observed",
+            "value": 3,
+            "confidence": 0.8,
+            "support_type": "positive_manifestation",
+            "rationale": "Многочисленные эпизоды подтверждают привлечение внешнего финансирования и ресурсных партнёров (ВОЗ, BioNTech, Россия), что свидетельствует о нескольких последовательных эпизодах такого подхода.",
+            "evidence_indices": [
+              0,
+              6,
+              9,
+              12,
+              13,
+              14
+            ]
+          }
+        },
+        "evidence_file": "evidence/independent-dossier-sabin-nsanzimana.json",
+        "evidence_basis": "2dbeea387385aa1dd0adb96388d5f87de21e70551be32a81aa3164462550703e"
+      },
+      "negative": {
+        "status": "unknown",
+        "value": null,
+        "confidence": 0,
+        "evidence_indices": [],
+        "source_urls": [],
+        "event_ids": [],
+        "rationale": "Нет прямых свидетельств акцента на внутренние доходы или самостоятельность в анализируемых эпизодах.",
+        "support_type": "unknown",
+        "provenance": {
+          "raw_response_file": "evidence/independent_responses/a089ddc5c32572e4aeebaaba82d2b8846c9467da597f85e73be5afbba07240de.json",
+          "model": "gpt-4.1",
+          "at": "2026-10-15T17:30:09.592109+00:00",
+          "cache_key": "a089ddc5c32572e4aeebaaba82d2b8846c9467da597f85e73be5afbba07240de",
+          "original_proposal": {
+            "variable_id": "external-domestic-resources__negative",
+            "status": "unknown",
+            "value": null,
+            "confidence": 0,
+            "support_type": "unknown",
+            "rationale": "Нет прямых свидетельств акцента на внутренние доходы или самостоятельность в анализируемых эпизодах.",
+            "evidence_indices": []
+          }
+        },
+        "evidence_file": "evidence/independent-dossier-sabin-nsanzimana.json",
+        "evidence_basis": "2dbeea387385aa1dd0adb96388d5f87de21e70551be32a81aa3164462550703e"
+      }
+    },
+    "positive": 3,
+    "negative": null,
+    "value": null,
+    "status": "partial",
+    "difference": null,
+    "mass": null,
+    "measurement_model": "independent_poles",
+    "evidence_file": "evidence/independent-dossier-sabin-nsanzimana.json",
+    "evidence_basis": "2dbeea387385aa1dd0adb96388d5f87de21e70551be32a81aa3164462550703e",
+    "at": "2026-10-15T17:30:23.142897+00:00",
+    "reason": "Каждое свойство оценивается независимо; разность и искусственное дополнение до пяти не вычисляются"
+  },
+  {
+    "object_id": "sabin-nsanzimana",
+    "scale_id": "international-rules-autonomy",
+    "pole_scores": {
+      "positive": {
+        "status": "observed",
+        "value": 2,
+        "confidence": 0.7,
+        "evidence_indices": [
+          0,
+          2,
+          6,
+          10,
+          12,
+          13,
+          14
+        ],
+        "source_urls": [
+          "https://www.moh.gov.rw/news-detail/rwanda-who-join-forces-to-boost-epidemic-preparedness",
+          "https://www.gov.rw/fileadmin/user_upload/gov_user_upload/Publications/Newsletters/_RwandaWorks_Weekly_Digest___18_-_24_September_2023.pdf",
+          "https://multimedia.who.int/asset-management/2AOJ8Z0XL6I2",
+          "https://t.me/minzdrav_ru/14879",
+          "https://www.newtimes.co.rw/article/35854/news/health/rwanda-russia-sign-deal-in-nuclear-medicine-healthcare-systems"
+        ],
+        "event_ids": [
+          "nsanzimana-who-epidemic-preparedness-2023-02-13",
+          "nsanzimana-unga-ncd-2023-09-21",
+          "nsanzimana-wha-data-financing-2025-05-21",
+          "nsanzimana-pandemic-preparedness-2023-02-13",
+          "nsanzimana-murashko-health-mou-2026-05-19"
+        ],
+        "rationale": "В ряде эпизодов Нсанзимана подчёркивал важность международных обязательств, стандартов и координации (например, сотрудничество с ВОЗ, участие в международных соглашениях), что соответствует ограниченному проявлению закрепления международных норм.",
+        "support_type": "positive_manifestation",
+        "provenance": {
+          "raw_response_file": "evidence/independent_responses/a089ddc5c32572e4aeebaaba82d2b8846c9467da597f85e73be5afbba07240de.json",
+          "model": "gpt-4.1",
+          "at": "2026-10-15T17:30:09.592109+00:00",
+          "cache_key": "a089ddc5c32572e4aeebaaba82d2b8846c9467da597f85e73be5afbba07240de",
+          "original_proposal": {
+            "variable_id": "international-rules-autonomy__positive",
+            "status": "observed",
+            "value": 2,
+            "confidence": 0.7,
+            "support_type": "positive_manifestation",
+            "rationale": "В ряде эпизодов Нсанзимана подчёркивал важность международных обязательств, стандартов и координации (например, сотрудничество с ВОЗ, участие в международных соглашениях), что соответствует ограниченному проявлению закрепления международных норм.",
+            "evidence_indices": [
+              0,
+              2,
+              6,
+              10,
+              12,
+              13,
+              14
+            ]
+          }
+        },
+        "evidence_file": "evidence/independent-dossier-sabin-nsanzimana.json",
+        "evidence_basis": "2dbeea387385aa1dd0adb96388d5f87de21e70551be32a81aa3164462550703e"
+      },
+      "negative": {
+        "status": "unknown",
+        "value": null,
+        "confidence": 0,
+        "evidence_indices": [],
+        "source_urls": [],
+        "event_ids": [],
+        "rationale": "Нет прямых свидетельств акцента на защите национальной самостоятельности решений.",
+        "support_type": "unknown",
+        "provenance": {
+          "raw_response_file": "evidence/independent_responses/a089ddc5c32572e4aeebaaba82d2b8846c9467da597f85e73be5afbba07240de.json",
+          "model": "gpt-4.1",
+          "at": "2026-10-15T17:30:09.592109+00:00",
+          "cache_key": "a089ddc5c32572e4aeebaaba82d2b8846c9467da597f85e73be5afbba07240de",
+          "original_proposal": {
+            "variable_id": "international-rules-autonomy__negative",
+            "status": "unknown",
+            "value": null,
+            "confidence": 0,
+            "support_type": "unknown",
+            "rationale": "Нет прямых свидетельств акцента на защите национальной самостоятельности решений.",
+            "evidence_indices": []
+          }
+        },
+        "evidence_file": "evidence/independent-dossier-sabin-nsanzimana.json",
+        "evidence_basis": "2dbeea387385aa1dd0adb96388d5f87de21e70551be32a81aa3164462550703e"
+      }
+    },
+    "positive": 2,
+    "negative": null,
+    "value": null,
+    "status": "partial",
+    "difference": null,
+    "mass": null,
+    "measurement_model": "independent_poles",
+    "evidence_file": "evidence/independent-dossier-sabin-nsanzimana.json",
+    "evidence_basis": "2dbeea387385aa1dd0adb96388d5f87de21e70551be32a81aa3164462550703e",
+    "at": "2026-10-15T17:30:23.142897+00:00",
+    "reason": "Каждое свойство оценивается независимо; разность и искусственное дополнение до пяти не вычисляются"
+  },
+  {
+    "object_id": "sabin-nsanzimana",
+    "scale_id": "mediation-adversarial-communication",
+    "pole_scores": {
+      "positive": {
+        "status": "unknown",
+        "value": null,
+        "confidence": 0,
+        "evidence_indices": [],
+        "source_urls": [],
+        "event_ids": [],
+        "rationale": "Нет прямых свидетельств посредничества или поиска согласования интересов сторон.",
+        "support_type": "unknown",
+        "provenance": {
+          "raw_response_file": "evidence/independent_responses/a089ddc5c32572e4aeebaaba82d2b8846c9467da597f85e73be5afbba07240de.json",
+          "model": "gpt-4.1",
+          "at": "2026-10-15T17:30:09.592109+00:00",
+          "cache_key": "a089ddc5c32572e4aeebaaba82d2b8846c9467da597f85e73be5afbba07240de",
+          "original_proposal": {
+            "variable_id": "mediation-adversarial-communication__positive",
+            "status": "unknown",
+            "value": null,
+            "confidence": 0,
+            "support_type": "unknown",
+            "rationale": "Нет прямых свидетельств посредничества или поиска согласования интересов сторон.",
+            "evidence_indices": []
+          }
+        },
+        "evidence_file": "evidence/independent-dossier-sabin-nsanzimana.json",
+        "evidence_basis": "2dbeea387385aa1dd0adb96388d5f87de21e70551be32a81aa3164462550703e"
+      },
+      "negative": {
+        "status": "observed",
+        "value": 1,
+        "confidence": 0.5,
+        "evidence_indices": [
+          8
+        ],
+        "source_urls": [
+          "https://rbc.gov.rw/wp/wp-content/uploads/2024/12/RBC-Newsletter-2023-V2C.pdf"
+        ],
+        "event_ids": [
+          "nsanzimana-malaria-uk-rwanda-2023"
+        ],
+        "rationale": "В одном эпизоде Нсанзимана оспаривал утверждения о медицинских рисках для просителей убежища, что можно трактовать как единичное проявление защиты своей позиции в публичной коммуникации.",
+        "support_type": "positive_manifestation",
+        "provenance": {
+          "raw_response_file": "evidence/independent_responses/a089ddc5c32572e4aeebaaba82d2b8846c9467da597f85e73be5afbba07240de.json",
+          "model": "gpt-4.1",
+          "at": "2026-10-15T17:30:09.592109+00:00",
+          "cache_key": "a089ddc5c32572e4aeebaaba82d2b8846c9467da597f85e73be5afbba07240de",
+          "original_proposal": {
+            "variable_id": "mediation-adversarial-communication__negative",
+            "status": "observed",
+            "value": 1,
+            "confidence": 0.5,
+            "support_type": "positive_manifestation",
+            "rationale": "В одном эпизоде Нсанзимана оспаривал утверждения о медицинских рисках для просителей убежища, что можно трактовать как единичное проявление защиты своей позиции в публичной коммуникации.",
+            "evidence_indices": [
+              8
+            ]
+          }
+        },
+        "evidence_file": "evidence/independent-dossier-sabin-nsanzimana.json",
+        "evidence_basis": "2dbeea387385aa1dd0adb96388d5f87de21e70551be32a81aa3164462550703e"
+      }
+    },
+    "positive": null,
+    "negative": 1,
+    "value": null,
+    "status": "partial",
+    "difference": null,
+    "mass": null,
+    "measurement_model": "independent_poles",
+    "evidence_file": "evidence/independent-dossier-sabin-nsanzimana.json",
+    "evidence_basis": "2dbeea387385aa1dd0adb96388d5f87de21e70551be32a81aa3164462550703e",
+    "at": "2026-10-15T17:30:23.142897+00:00",
+    "reason": "Каждое свойство оценивается независимо; разность и искусственное дополнение до пяти не вычисляются"
+  },
+  {
+    "object_id": "sabin-nsanzimana",
+    "scale_id": "cultural-openness-national-transmission",
+    "pole_scores": {
+      "positive": {
+        "status": "observed",
+        "value": 3,
+        "confidence": 0.8,
+        "evidence_indices": [
+          0,
+          2,
+          6,
+          9,
+          10,
+          12,
+          13,
+          14
+        ],
+        "source_urls": [
+          "https://www.moh.gov.rw/news-detail/rwanda-who-join-forces-to-boost-epidemic-preparedness",
+          "https://www.gov.rw/fileadmin/user_upload/gov_user_upload/Publications/Newsletters/_RwandaWorks_Weekly_Digest___18_-_24_September_2023.pdf",
+          "https://multimedia.who.int/asset-management/2AOJ8Z0XL6I2",
+          "https://www.moh.gov.rw/news-detail/african-health-ministers-meet-in-kigali-to-launch-biontech-manufacturing-site",
+          "https://t.me/minzdrav_ru/14879",
+          "https://www.newtimes.co.rw/article/35854/news/health/rwanda-russia-sign-deal-in-nuclear-medicine-healthcare-systems"
+        ],
+        "event_ids": [
+          "nsanzimana-who-epidemic-preparedness-2023-02-13",
+          "nsanzimana-unga-ncd-2023-09-21",
+          "nsanzimana-wha-data-financing-2025-05-21",
+          "nsanzimana-biontech-kigali-2023",
+          "nsanzimana-pandemic-preparedness-2023-02-13",
+          "nsanzimana-murashko-health-mou-2026-05-19"
+        ],
+        "rationale": "Нсанзимана неоднократно выступал за международное сотрудничество в здравоохранении, подписывал меморандумы с ВОЗ и Россией, подчеркивал трансграничный характер профилактики заболеваний, участвовал в запуске международного производства вакцин. Это свидетельствует о последовательном акценте на межкультурном обмене и интеграции международных практик в национальную систему.",
+        "support_type": "positive_manifestation",
+        "provenance": {
+          "raw_response_file": "evidence/independent_responses/30483f16c2525a82709c4bdf63a0f9d81cb1c8fcb9d1be1aa57458b7bad152b4.json",
+          "model": "gpt-4.1",
+          "at": "2026-10-15T17:30:18.327288+00:00",
+          "cache_key": "30483f16c2525a82709c4bdf63a0f9d81cb1c8fcb9d1be1aa57458b7bad152b4",
+          "original_proposal": {
+            "variable_id": "cultural-openness-national-transmission__positive",
+            "status": "observed",
+            "value": 3,
+            "confidence": 0.8,
+            "support_type": "positive_manifestation",
+            "rationale": "Нсанзимана неоднократно выступал за международное сотрудничество в здравоохранении, подписывал меморандумы с ВОЗ и Россией, подчеркивал трансграничный характер профилактики заболеваний, участвовал в запуске международного производства вакцин. Это свидетельствует о последовательном акценте на межкультурном обмене и интеграции международных практик в национальную систему.",
+            "evidence_indices": [
+              0,
+              2,
+              6,
+              9,
+              10,
+              12,
+              13,
+              14
+            ]
+          }
+        },
+        "evidence_file": "evidence/independent-dossier-sabin-nsanzimana.json",
+        "evidence_basis": "2dbeea387385aa1dd0adb96388d5f87de21e70551be32a81aa3164462550703e"
+      },
+      "negative": {
+        "status": "unknown",
+        "value": null,
+        "confidence": 0,
+        "evidence_indices": [],
+        "source_urls": [],
+        "event_ids": [],
+        "rationale": "Нет прямых эпизодов, где Нсанзимана делал акцент на сохранении и передаче исключительно национальных ценностей или традиций в противовес международному обмену.",
+        "support_type": "unknown",
+        "provenance": {
+          "raw_response_file": "evidence/independent_responses/30483f16c2525a82709c4bdf63a0f9d81cb1c8fcb9d1be1aa57458b7bad152b4.json",
+          "model": "gpt-4.1",
+          "at": "2026-10-15T17:30:18.327288+00:00",
+          "cache_key": "30483f16c2525a82709c4bdf63a0f9d81cb1c8fcb9d1be1aa57458b7bad152b4",
+          "original_proposal": {
+            "variable_id": "cultural-openness-national-transmission__negative",
+            "status": "unknown",
+            "value": null,
+            "confidence": 0.5,
+            "support_type": "unknown",
+            "rationale": "Нет прямых эпизодов, где Нсанзимана делал акцент на сохранении и передаче исключительно национальных ценностей или традиций в противовес международному обмену.",
+            "evidence_indices": []
+          }
+        },
+        "evidence_file": "evidence/independent-dossier-sabin-nsanzimana.json",
+        "evidence_basis": "2dbeea387385aa1dd0adb96388d5f87de21e70551be32a81aa3164462550703e"
+      }
+    },
+    "positive": 3,
+    "negative": null,
+    "value": null,
+    "status": "partial",
+    "difference": null,
+    "mass": null,
+    "measurement_model": "independent_poles",
+    "evidence_file": "evidence/independent-dossier-sabin-nsanzimana.json",
+    "evidence_basis": "2dbeea387385aa1dd0adb96388d5f87de21e70551be32a81aa3164462550703e",
+    "at": "2026-10-15T17:30:23.142897+00:00",
+    "reason": "Каждое свойство оценивается независимо; разность и искусственное дополнение до пяти не вычисляются"
+  },
+  {
+    "object_id": "sabin-nsanzimana",
+    "scale_id": "problem-disclosure-reputation-defence",
+    "pole_scores": {
+      "positive": {
+        "status": "observed",
+        "value": 2,
+        "confidence": 0.7,
+        "evidence_indices": [
+          11
+        ],
+        "source_urls": [
+          "https://www.parliament.gov.rw/news-details/minister-of-health-briefs-senators-on-health-policy-and-expansion-of-health-posts"
+        ],
+        "event_ids": [
+          "nsanzimana-senate-accountability-2025-01-16"
+        ],
+        "rationale": "В отчёте о брифинге сенаторов Нсанзимана публично признавал наличие трудностей функционирования части медицинских постов и обозначал намерение их устранять. Это ограниченное, но явное признание проблем исполнения.",
+        "support_type": "positive_manifestation",
+        "provenance": {
+          "raw_response_file": "evidence/independent_responses/30483f16c2525a82709c4bdf63a0f9d81cb1c8fcb9d1be1aa57458b7bad152b4.json",
+          "model": "gpt-4.1",
+          "at": "2026-10-15T17:30:18.327288+00:00",
+          "cache_key": "30483f16c2525a82709c4bdf63a0f9d81cb1c8fcb9d1be1aa57458b7bad152b4",
+          "original_proposal": {
+            "variable_id": "problem-disclosure-reputation-defence__positive",
+            "status": "observed",
+            "value": 2,
+            "confidence": 0.7,
+            "support_type": "positive_manifestation",
+            "rationale": "В отчёте о брифинге сенаторов Нсанзимана публично признавал наличие трудностей функционирования части медицинских постов и обозначал намерение их устранять. Это ограниченное, но явное признание проблем исполнения.",
+            "evidence_indices": [
+              11
+            ]
+          }
+        },
+        "evidence_file": "evidence/independent-dossier-sabin-nsanzimana.json",
+        "evidence_basis": "2dbeea387385aa1dd0adb96388d5f87de21e70551be32a81aa3164462550703e"
+      },
+      "negative": {
+        "status": "observed",
+        "value": 1,
+        "confidence": 0.6,
+        "evidence_indices": [
+          8
+        ],
+        "source_urls": [
+          "https://rbc.gov.rw/wp/wp-content/uploads/2024/12/RBC-Newsletter-2023-V2C.pdf"
+        ],
+        "event_ids": [
+          "nsanzimana-malaria-uk-rwanda-2023"
+        ],
+        "rationale": "В эпизоде с ответом на утверждения о рисках малярии для просителей убежища из Великобритании Нсанзимана официально оспаривал негативные утверждения о ситуации в Руандe. Это единичное проявление защитной коммуникации по репутационному вопросу.",
+        "support_type": "positive_manifestation",
+        "provenance": {
+          "raw_response_file": "evidence/independent_responses/30483f16c2525a82709c4bdf63a0f9d81cb1c8fcb9d1be1aa57458b7bad152b4.json",
+          "model": "gpt-4.1",
+          "at": "2026-10-15T17:30:18.327288+00:00",
+          "cache_key": "30483f16c2525a82709c4bdf63a0f9d81cb1c8fcb9d1be1aa57458b7bad152b4",
+          "original_proposal": {
+            "variable_id": "problem-disclosure-reputation-defence__negative",
+            "status": "observed",
+            "value": 1,
+            "confidence": 0.6,
+            "support_type": "positive_manifestation",
+            "rationale": "В эпизоде с ответом на утверждения о рисках малярии для просителей убежища из Великобритании Нсанзимана официально оспаривал негативные утверждения о ситуации в Руандe. Это единичное проявление защитной коммуникации по репутационному вопросу.",
+            "evidence_indices": [
+              8
+            ]
+          }
+        },
+        "evidence_file": "evidence/independent-dossier-sabin-nsanzimana.json",
+        "evidence_basis": "2dbeea387385aa1dd0adb96388d5f87de21e70551be32a81aa3164462550703e"
+      }
+    },
+    "positive": 2,
+    "negative": 1,
+    "value": null,
+    "status": "observed",
+    "difference": null,
+    "mass": null,
+    "measurement_model": "independent_poles",
+    "evidence_file": "evidence/independent-dossier-sabin-nsanzimana.json",
+    "evidence_basis": "2dbeea387385aa1dd0adb96388d5f87de21e70551be32a81aa3164462550703e",
+    "at": "2026-10-15T17:30:23.142897+00:00",
+    "reason": "Каждое свойство оценивается независимо; разность и искусственное дополнение до пяти не вычисляются"
+  },
+  {
+    "object_id": "sabin-nsanzimana",
+    "scale_id": "procedural-guarantees-enforcement",
+    "pole_scores": {
+      "positive": {
+        "status": "unknown",
+        "value": null,
+        "confidence": 0,
+        "evidence_indices": [],
+        "source_urls": [],
+        "event_ids": [],
+        "rationale": "Нет прямых фактов о действиях или заявлениях Нсанзиманы, направленных на расширение возможностей защиты и обжалования в правовой или административной сфере.",
+        "support_type": "unknown",
+        "provenance": {
+          "raw_response_file": "evidence/independent_responses/30483f16c2525a82709c4bdf63a0f9d81cb1c8fcb9d1be1aa57458b7bad152b4.json",
+          "model": "gpt-4.1",
+          "at": "2026-10-15T17:30:18.327288+00:00",
+          "cache_key": "30483f16c2525a82709c4bdf63a0f9d81cb1c8fcb9d1be1aa57458b7bad152b4",
+          "original_proposal": {
+            "variable_id": "procedural-guarantees-enforcement__positive",
+            "status": "unknown",
+            "value": null,
+            "confidence": 0.5,
+            "support_type": "unknown",
+            "rationale": "Нет прямых фактов о действиях или заявлениях Нсанзиманы, направленных на расширение возможностей защиты и обжалования в правовой или административной сфере.",
+            "evidence_indices": []
+          }
+        },
+        "evidence_file": "evidence/independent-dossier-sabin-nsanzimana.json",
+        "evidence_basis": "2dbeea387385aa1dd0adb96388d5f87de21e70551be32a81aa3164462550703e"
+      },
+      "negative": {
+        "status": "unknown",
+        "value": null,
+        "confidence": 0,
+        "evidence_indices": [],
+        "source_urls": [],
+        "event_ids": [],
+        "rationale": "Нет эпизодов, где Нсанзимана лично акцентировал принудительное обеспечение обязательных требований вне рамок обычной административной деятельности.",
+        "support_type": "unknown",
+        "provenance": {
+          "raw_response_file": "evidence/independent_responses/30483f16c2525a82709c4bdf63a0f9d81cb1c8fcb9d1be1aa57458b7bad152b4.json",
+          "model": "gpt-4.1",
+          "at": "2026-10-15T17:30:18.327288+00:00",
+          "cache_key": "30483f16c2525a82709c4bdf63a0f9d81cb1c8fcb9d1be1aa57458b7bad152b4",
+          "original_proposal": {
+            "variable_id": "procedural-guarantees-enforcement__negative",
+            "status": "unknown",
+            "value": null,
+            "confidence": 0.5,
+            "support_type": "unknown",
+            "rationale": "Нет эпизодов, где Нсанзимана лично акцентировал принудительное обеспечение обязательных требований вне рамок обычной административной деятельности.",
+            "evidence_indices": []
+          }
+        },
+        "evidence_file": "evidence/independent-dossier-sabin-nsanzimana.json",
+        "evidence_basis": "2dbeea387385aa1dd0adb96388d5f87de21e70551be32a81aa3164462550703e"
+      }
+    },
+    "positive": null,
+    "negative": null,
+    "value": null,
+    "status": "unknown",
+    "difference": null,
+    "mass": null,
+    "measurement_model": "independent_poles",
+    "evidence_file": "evidence/independent-dossier-sabin-nsanzimana.json",
+    "evidence_basis": "2dbeea387385aa1dd0adb96388d5f87de21e70551be32a81aa3164462550703e",
+    "at": "2026-10-15T17:30:23.142897+00:00",
+    "reason": "Каждое свойство оценивается независимо; разность и искусственное дополнение до пяти не вычисляются"
+  },
+  {
+    "object_id": "sabin-nsanzimana",
+    "scale_id": "prevention-crisis-response",
+    "pole_scores": {
+      "positive": {
+        "status": "observed",
+        "value": 4,
+        "confidence": 0.9,
+        "evidence_indices": [
+          0,
+          2,
+          3,
+          4,
+          5,
+          10
+        ],
+        "source_urls": [
+          "https://www.moh.gov.rw/news-detail/rwanda-who-join-forces-to-boost-epidemic-preparedness",
+          "https://www.gov.rw/fileadmin/user_upload/gov_user_upload/Publications/Newsletters/_RwandaWorks_Weekly_Digest___18_-_24_September_2023.pdf",
+          "https://www.ktpress.rw/2023/05/rwanda-evaluates-icpd25-commitments-with-youth-engagement/",
+          "https://www.parliament.gov.rw/news-details/minister-of-health-briefs-senators-on-health-policy-and-expansion-of-health-posts"
+        ],
+        "event_ids": [
+          "nsanzimana-who-epidemic-preparedness-2023-02-13",
+          "nsanzimana-unga-ncd-2023-09-21",
+          "nsanzimana-icpd25-followup-2023-05-18",
+          "nsanzimana-senate-health-policy-2025-01-16",
+          "nsanzimana-health-posts-data-2025-01-16",
+          "nsanzimana-pandemic-preparedness-2023-02-13"
+        ],
+        "rationale": "Нсанзимана систематически подчеркивал важность профилактики, готовности к эпидемиям, развития первичной помощи и институциональной подготовки. Это повторяющийся акцент в ряде международных и национальных выступлений.",
+        "support_type": "positive_manifestation",
+        "provenance": {
+          "raw_response_file": "evidence/independent_responses/30483f16c2525a82709c4bdf63a0f9d81cb1c8fcb9d1be1aa57458b7bad152b4.json",
+          "model": "gpt-4.1",
+          "at": "2026-10-15T17:30:18.327288+00:00",
+          "cache_key": "30483f16c2525a82709c4bdf63a0f9d81cb1c8fcb9d1be1aa57458b7bad152b4",
+          "original_proposal": {
+            "variable_id": "prevention-crisis-response__positive",
+            "status": "observed",
+            "value": 4,
+            "confidence": 0.9,
+            "support_type": "positive_manifestation",
+            "rationale": "Нсанзимана систематически подчеркивал важность профилактики, готовности к эпидемиям, развития первичной помощи и институциональной подготовки. Это повторяющийся акцент в ряде международных и национальных выступлений.",
+            "evidence_indices": [
+              0,
+              2,
+              3,
+              4,
+              5,
+              10
+            ]
+          }
+        },
+        "evidence_file": "evidence/independent-dossier-sabin-nsanzimana.json",
+        "evidence_basis": "2dbeea387385aa1dd0adb96388d5f87de21e70551be32a81aa3164462550703e"
+      },
+      "negative": {
+        "status": "observed",
+        "value": 2,
+        "confidence": 0.7,
+        "evidence_indices": [
+          7
+        ],
+        "source_urls": [
+          "https://www.who.int/news-room/speeches/item/who-director-general-s-remarks-at-the-media-briefing-on-the-outbreak-of-marburg-virus-disease----20-october-2024"
+        ],
+        "event_ids": [
+          "nsanzimana-marburg-response-2024-10-20"
+        ],
+        "rationale": "В эпизоде с реагированием на вспышку болезни Марбург Нсанзимана выступал как координатор оперативного ответа на уже возникшую угрозу. Это ограниченное, но явное проявление кризисного реагирования.",
+        "support_type": "positive_manifestation",
+        "provenance": {
+          "raw_response_file": "evidence/independent_responses/30483f16c2525a82709c4bdf63a0f9d81cb1c8fcb9d1be1aa57458b7bad152b4.json",
+          "model": "gpt-4.1",
+          "at": "2026-10-15T17:30:18.327288+00:00",
+          "cache_key": "30483f16c2525a82709c4bdf63a0f9d81cb1c8fcb9d1be1aa57458b7bad152b4",
+          "original_proposal": {
+            "variable_id": "prevention-crisis-response__negative",
+            "status": "observed",
+            "value": 2,
+            "confidence": 0.7,
+            "support_type": "positive_manifestation",
+            "rationale": "В эпизоде с реагированием на вспышку болезни Марбург Нсанзимана выступал как координатор оперативного ответа на уже возникшую угрозу. Это ограниченное, но явное проявление кризисного реагирования.",
+            "evidence_indices": [
+              7
+            ]
+          }
+        },
+        "evidence_file": "evidence/independent-dossier-sabin-nsanzimana.json",
+        "evidence_basis": "2dbeea387385aa1dd0adb96388d5f87de21e70551be32a81aa3164462550703e"
+      }
+    },
+    "positive": 4,
+    "negative": 2,
+    "value": null,
+    "status": "observed",
+    "difference": null,
+    "mass": null,
+    "measurement_model": "independent_poles",
+    "evidence_file": "evidence/independent-dossier-sabin-nsanzimana.json",
+    "evidence_basis": "2dbeea387385aa1dd0adb96388d5f87de21e70551be32a81aa3164462550703e",
+    "at": "2026-10-15T17:30:23.142897+00:00",
+    "reason": "Каждое свойство оценивается независимо; разность и искусственное дополнение до пяти не вычисляются"
+  },
+  {
+    "object_id": "sabin-nsanzimana",
+    "scale_id": "electoral-access",
+    "pole_scores": {
+      "positive": {
+        "status": "unknown",
+        "value": null,
+        "confidence": 0,
+        "evidence_indices": [],
+        "source_urls": [],
+        "event_ids": [],
+        "rationale": "Нет сведений о публичных действиях или заявлениях Нсанзиманы, связанных с расширением доступа к выборной конкуренции.",
+        "support_type": "unknown",
+        "provenance": {
+          "raw_response_file": "evidence/independent_responses/30483f16c2525a82709c4bdf63a0f9d81cb1c8fcb9d1be1aa57458b7bad152b4.json",
+          "model": "gpt-4.1",
+          "at": "2026-10-15T17:30:18.327288+00:00",
+          "cache_key": "30483f16c2525a82709c4bdf63a0f9d81cb1c8fcb9d1be1aa57458b7bad152b4",
+          "original_proposal": {
+            "variable_id": "electoral-access__positive",
+            "status": "unknown",
+            "value": null,
+            "confidence": 0.5,
+            "support_type": "unknown",
+            "rationale": "Нет сведений о публичных действиях или заявлениях Нсанзиманы, связанных с расширением доступа к выборной конкуренции.",
+            "evidence_indices": []
+          }
+        },
+        "evidence_file": "evidence/independent-dossier-sabin-nsanzimana.json",
+        "evidence_basis": "2dbeea387385aa1dd0adb96388d5f87de21e70551be32a81aa3164462550703e"
+      },
+      "negative": {
+        "status": "unknown",
+        "value": null,
+        "confidence": 0,
+        "evidence_indices": [],
+        "source_urls": [],
+        "event_ids": [],
+        "rationale": "Нет сведений о действиях или заявлениях Нсанзиманы, направленных на усиление барьеров политического участия.",
+        "support_type": "unknown",
+        "provenance": {
+          "raw_response_file": "evidence/independent_responses/30483f16c2525a82709c4bdf63a0f9d81cb1c8fcb9d1be1aa57458b7bad152b4.json",
+          "model": "gpt-4.1",
+          "at": "2026-10-15T17:30:18.327288+00:00",
+          "cache_key": "30483f16c2525a82709c4bdf63a0f9d81cb1c8fcb9d1be1aa57458b7bad152b4",
+          "original_proposal": {
+            "variable_id": "electoral-access__negative",
+            "status": "unknown",
+            "value": null,
+            "confidence": 0.5,
+            "support_type": "unknown",
+            "rationale": "Нет сведений о действиях или заявлениях Нсанзиманы, направленных на усиление барьеров политического участия.",
+            "evidence_indices": []
+          }
+        },
+        "evidence_file": "evidence/independent-dossier-sabin-nsanzimana.json",
+        "evidence_basis": "2dbeea387385aa1dd0adb96388d5f87de21e70551be32a81aa3164462550703e"
+      }
+    },
+    "positive": null,
+    "negative": null,
+    "value": null,
+    "status": "unknown",
+    "difference": null,
+    "mass": null,
+    "measurement_model": "independent_poles",
+    "evidence_file": "evidence/independent-dossier-sabin-nsanzimana.json",
+    "evidence_basis": "2dbeea387385aa1dd0adb96388d5f87de21e70551be32a81aa3164462550703e",
+    "at": "2026-10-15T17:30:23.142897+00:00",
+    "reason": "Каждое свойство оценивается независимо; разность и искусственное дополнение до пяти не вычисляются"
+  },
+  {
+    "object_id": "sabin-nsanzimana",
+    "scale_id": "institutional-autonomy-coordination",
+    "pole_scores": {
+      "positive": {
+        "status": "unknown",
+        "value": null,
+        "confidence": 0,
+        "evidence_indices": [],
+        "source_urls": [],
+        "event_ids": [],
+        "rationale": "Нет прямых эпизодов, где Нсанзимана делал акцент на гарантиях самостоятельности или независимом контроле между институтами.",
+        "support_type": "unknown",
+        "provenance": {
+          "raw_response_file": "evidence/independent_responses/30483f16c2525a82709c4bdf63a0f9d81cb1c8fcb9d1be1aa57458b7bad152b4.json",
+          "model": "gpt-4.1",
+          "at": "2026-10-15T17:30:18.327288+00:00",
+          "cache_key": "30483f16c2525a82709c4bdf63a0f9d81cb1c8fcb9d1be1aa57458b7bad152b4",
+          "original_proposal": {
+            "variable_id": "institutional-autonomy-coordination__positive",
+            "status": "unknown",
+            "value": null,
+            "confidence": 0.5,
+            "support_type": "unknown",
+            "rationale": "Нет прямых эпизодов, где Нсанзимана делал акцент на гарантиях самостоятельности или независимом контроле между институтами.",
+            "evidence_indices": []
+          }
+        },
+        "evidence_file": "evidence/independent-dossier-sabin-nsanzimana.json",
+        "evidence_basis": "2dbeea387385aa1dd0adb96388d5f87de21e70551be32a81aa3164462550703e"
+      },
+      "negative": {
+        "status": "unknown",
+        "value": null,
+        "confidence": 0,
+        "evidence_indices": [],
+        "source_urls": [],
+        "event_ids": [],
+        "rationale": "Нет фактов, свидетельствующих о персональном акценте Нсанзиманы на согласовании работы институтов единой управленческой линией.",
+        "support_type": "unknown",
+        "provenance": {
+          "raw_response_file": "evidence/independent_responses/30483f16c2525a82709c4bdf63a0f9d81cb1c8fcb9d1be1aa57458b7bad152b4.json",
+          "model": "gpt-4.1",
+          "at": "2026-10-15T17:30:18.327288+00:00",
+          "cache_key": "30483f16c2525a82709c4bdf63a0f9d81cb1c8fcb9d1be1aa57458b7bad152b4",
+          "original_proposal": {
+            "variable_id": "institutional-autonomy-coordination__negative",
+            "status": "unknown",
+            "value": null,
+            "confidence": 0.5,
+            "support_type": "unknown",
+            "rationale": "Нет фактов, свидетельствующих о персональном акценте Нсанзиманы на согласовании работы институтов единой управленческой линией.",
+            "evidence_indices": []
+          }
+        },
+        "evidence_file": "evidence/independent-dossier-sabin-nsanzimana.json",
+        "evidence_basis": "2dbeea387385aa1dd0adb96388d5f87de21e70551be32a81aa3164462550703e"
+      }
+    },
+    "positive": null,
+    "negative": null,
+    "value": null,
+    "status": "unknown",
+    "difference": null,
+    "mass": null,
+    "measurement_model": "independent_poles",
+    "evidence_file": "evidence/independent-dossier-sabin-nsanzimana.json",
+    "evidence_basis": "2dbeea387385aa1dd0adb96388d5f87de21e70551be32a81aa3164462550703e",
+    "at": "2026-10-15T17:30:23.142897+00:00",
+    "reason": "Каждое свойство оценивается независимо; разность и искусственное дополнение до пяти не вычисляются"
+  },
+  {
+    "object_id": "sabin-nsanzimana",
+    "scale_id": "taxation-burden-public-revenue",
+    "pole_scores": {
+      "positive": {
+        "status": "unknown",
+        "value": null,
+        "confidence": 0,
+        "evidence_indices": [],
+        "source_urls": [],
+        "event_ids": [],
+        "rationale": "Нет сведений о предложениях или действиях Нсанзиманы по снижению налоговой нагрузки или расширению имущественной самостоятельности.",
+        "support_type": "unknown",
+        "provenance": {
+          "raw_response_file": "evidence/independent_responses/30483f16c2525a82709c4bdf63a0f9d81cb1c8fcb9d1be1aa57458b7bad152b4.json",
+          "model": "gpt-4.1",
+          "at": "2026-10-15T17:30:18.327288+00:00",
+          "cache_key": "30483f16c2525a82709c4bdf63a0f9d81cb1c8fcb9d1be1aa57458b7bad152b4",
+          "original_proposal": {
+            "variable_id": "taxation-burden-public-revenue__positive",
+            "status": "unknown",
+            "value": null,
+            "confidence": 0.5,
+            "support_type": "unknown",
+            "rationale": "Нет сведений о предложениях или действиях Нсанзиманы по снижению налоговой нагрузки или расширению имущественной самостоятельности.",
+            "evidence_indices": []
+          }
+        },
+        "evidence_file": "evidence/independent-dossier-sabin-nsanzimana.json",
+        "evidence_basis": "2dbeea387385aa1dd0adb96388d5f87de21e70551be32a81aa3164462550703e"
+      },
+      "negative": {
+        "status": "unknown",
+        "value": null,
+        "confidence": 0,
+        "evidence_indices": [],
+        "source_urls": [],
+        "event_ids": [],
+        "rationale": "Нет сведений о публичной поддержке Нсанзиманой увеличения налоговых поступлений для публичного развития.",
+        "support_type": "unknown",
+        "provenance": {
+          "raw_response_file": "evidence/independent_responses/30483f16c2525a82709c4bdf63a0f9d81cb1c8fcb9d1be1aa57458b7bad152b4.json",
+          "model": "gpt-4.1",
+          "at": "2026-10-15T17:30:18.327288+00:00",
+          "cache_key": "30483f16c2525a82709c4bdf63a0f9d81cb1c8fcb9d1be1aa57458b7bad152b4",
+          "original_proposal": {
+            "variable_id": "taxation-burden-public-revenue__negative",
+            "status": "unknown",
+            "value": null,
+            "confidence": 0.5,
+            "support_type": "unknown",
+            "rationale": "Нет сведений о публичной поддержке Нсанзиманой увеличения налоговых поступлений для публичного развития.",
+            "evidence_indices": []
+          }
+        },
+        "evidence_file": "evidence/independent-dossier-sabin-nsanzimana.json",
+        "evidence_basis": "2dbeea387385aa1dd0adb96388d5f87de21e70551be32a81aa3164462550703e"
+      }
+    },
+    "positive": null,
+    "negative": null,
+    "value": null,
+    "status": "unknown",
+    "difference": null,
+    "mass": null,
+    "measurement_model": "independent_poles",
+    "evidence_file": "evidence/independent-dossier-sabin-nsanzimana.json",
+    "evidence_basis": "2dbeea387385aa1dd0adb96388d5f87de21e70551be32a81aa3164462550703e",
+    "at": "2026-10-15T17:30:23.142897+00:00",
+    "reason": "Каждое свойство оценивается независимо; разность и искусственное дополнение до пяти не вычисляются"
+  },
+  {
+    "object_id": "sabin-nsanzimana",
+    "scale_id": "universal-targeted-provision",
+    "pole_scores": {
+      "positive": {
+        "status": "observed",
+        "value": 3,
+        "confidence": 0.8,
+        "evidence_indices": [
+          4,
+          5,
+          6
+        ],
+        "source_urls": [
+          "https://www.parliament.gov.rw/news-details/minister-of-health-briefs-senators-on-health-policy-and-expansion-of-health-posts",
+          "https://multimedia.who.int/asset-management/2AOJ8Z0XL6I2"
+        ],
+        "event_ids": [
+          "nsanzimana-senate-health-policy-2025-01-16",
+          "nsanzimana-health-posts-data-2025-01-16",
+          "nsanzimana-wha-data-financing-2025-05-21"
+        ],
+        "rationale": "Нсанзимана акцентировал развитие первичной помощи, расширение сети медицинских постов и всеобщий охват услугами здравоохранения как стратегические цели. Это устойчивый акцент на универсальных стандартах доступности.",
+        "support_type": "positive_manifestation",
+        "provenance": {
+          "raw_response_file": "evidence/independent_responses/30483f16c2525a82709c4bdf63a0f9d81cb1c8fcb9d1be1aa57458b7bad152b4.json",
+          "model": "gpt-4.1",
+          "at": "2026-10-15T17:30:18.327288+00:00",
+          "cache_key": "30483f16c2525a82709c4bdf63a0f9d81cb1c8fcb9d1be1aa57458b7bad152b4",
+          "original_proposal": {
+            "variable_id": "universal-targeted-provision__positive",
+            "status": "observed",
+            "value": 3,
+            "confidence": 0.8,
+            "support_type": "positive_manifestation",
+            "rationale": "Нсанзимана акцентировал развитие первичной помощи, расширение сети медицинских постов и всеобщий охват услугами здравоохранения как стратегические цели. Это устойчивый акцент на универсальных стандартах доступности.",
+            "evidence_indices": [
+              4,
+              5,
+              6
+            ]
+          }
+        },
+        "evidence_file": "evidence/independent-dossier-sabin-nsanzimana.json",
+        "evidence_basis": "2dbeea387385aa1dd0adb96388d5f87de21e70551be32a81aa3164462550703e"
+      },
+      "negative": {
+        "status": "observed",
+        "value": 2,
+        "confidence": 0.7,
+        "evidence_indices": [
+          3
+        ],
+        "source_urls": [
+          "https://www.ktpress.rw/2023/05/rwanda-evaluates-icpd25-commitments-with-youth-engagement/"
+        ],
+        "event_ids": [
+          "nsanzimana-icpd25-followup-2023-05-18"
+        ],
+        "rationale": "В эпизоде с обсуждением ICPD25 Нсанзимана выделял необходимость дальнейших действий для снижения материнской смертности и вовлечения молодёжи, что указывает на приоритетные меры для отдельных уязвимых групп.",
+        "support_type": "positive_manifestation",
+        "provenance": {
+          "raw_response_file": "evidence/independent_responses/30483f16c2525a82709c4bdf63a0f9d81cb1c8fcb9d1be1aa57458b7bad152b4.json",
+          "model": "gpt-4.1",
+          "at": "2026-10-15T17:30:18.327288+00:00",
+          "cache_key": "30483f16c2525a82709c4bdf63a0f9d81cb1c8fcb9d1be1aa57458b7bad152b4",
+          "original_proposal": {
+            "variable_id": "universal-targeted-provision__negative",
+            "status": "observed",
+            "value": 2,
+            "confidence": 0.7,
+            "support_type": "positive_manifestation",
+            "rationale": "В эпизоде с обсуждением ICPD25 Нсанзимана выделял необходимость дальнейших действий для снижения материнской смертности и вовлечения молодёжи, что указывает на приоритетные меры для отдельных уязвимых групп.",
+            "evidence_indices": [
+              3
+            ]
+          }
+        },
+        "evidence_file": "evidence/independent-dossier-sabin-nsanzimana.json",
+        "evidence_basis": "2dbeea387385aa1dd0adb96388d5f87de21e70551be32a81aa3164462550703e"
+      }
+    },
+    "positive": 3,
+    "negative": 2,
+    "value": null,
+    "status": "observed",
+    "difference": null,
+    "mass": null,
+    "measurement_model": "independent_poles",
+    "evidence_file": "evidence/independent-dossier-sabin-nsanzimana.json",
+    "evidence_basis": "2dbeea387385aa1dd0adb96388d5f87de21e70551be32a81aa3164462550703e",
+    "at": "2026-10-15T17:30:23.142897+00:00",
+    "reason": "Каждое свойство оценивается независимо; разность и искусственное дополнение до пяти не вычисляются"
+  },
+  {
+    "object_id": "sabin-nsanzimana",
+    "scale_id": "ecological-limits-resource-use",
+    "pole_scores": {
+      "positive": {
+        "status": "unknown",
+        "value": null,
+        "confidence": 0,
+        "evidence_indices": [],
+        "source_urls": [],
+        "event_ids": [],
+        "rationale": "Нет сведений о публичных действиях или заявлениях Нсанзиманы, связанных с усилением природоохранных ограничений хозяйственной деятельности.",
+        "support_type": "unknown",
+        "provenance": {
+          "raw_response_file": "evidence/independent_responses/30483f16c2525a82709c4bdf63a0f9d81cb1c8fcb9d1be1aa57458b7bad152b4.json",
+          "model": "gpt-4.1",
+          "at": "2026-10-15T17:30:18.327288+00:00",
+          "cache_key": "30483f16c2525a82709c4bdf63a0f9d81cb1c8fcb9d1be1aa57458b7bad152b4",
+          "original_proposal": {
+            "variable_id": "ecological-limits-resource-use__positive",
+            "status": "unknown",
+            "value": null,
+            "confidence": 0.5,
+            "support_type": "unknown",
+            "rationale": "Нет сведений о публичных действиях или заявлениях Нсанзиманы, связанных с усилением природоохранных ограничений хозяйственной деятельности.",
+            "evidence_indices": []
+          }
+        },
+        "evidence_file": "evidence/independent-dossier-sabin-nsanzimana.json",
+        "evidence_basis": "2dbeea387385aa1dd0adb96388d5f87de21e70551be32a81aa3164462550703e"
+      },
+      "negative": {
+        "status": "unknown",
+        "value": null,
+        "confidence": 0,
+        "evidence_indices": [],
+        "source_urls": [],
+        "event_ids": [],
+        "rationale": "Нет сведений о действиях или заявлениях Нсанзиманы, направленных на расширение хозяйственного использования природных ресурсов.",
+        "support_type": "unknown",
+        "provenance": {
+          "raw_response_file": "evidence/independent_responses/30483f16c2525a82709c4bdf63a0f9d81cb1c8fcb9d1be1aa57458b7bad152b4.json",
+          "model": "gpt-4.1",
+          "at": "2026-10-15T17:30:18.327288+00:00",
+          "cache_key": "30483f16c2525a82709c4bdf63a0f9d81cb1c8fcb9d1be1aa57458b7bad152b4",
+          "original_proposal": {
+            "variable_id": "ecological-limits-resource-use__negative",
+            "status": "unknown",
+            "value": null,
+            "confidence": 0.5,
+            "support_type": "unknown",
+            "rationale": "Нет сведений о действиях или заявлениях Нсанзиманы, направленных на расширение хозяйственного использования природных ресурсов.",
+            "evidence_indices": []
+          }
+        },
+        "evidence_file": "evidence/independent-dossier-sabin-nsanzimana.json",
+        "evidence_basis": "2dbeea387385aa1dd0adb96388d5f87de21e70551be32a81aa3164462550703e"
+      }
+    },
+    "positive": null,
+    "negative": null,
+    "value": null,
+    "status": "unknown",
+    "difference": null,
+    "mass": null,
+    "measurement_model": "independent_poles",
+    "evidence_file": "evidence/independent-dossier-sabin-nsanzimana.json",
+    "evidence_basis": "2dbeea387385aa1dd0adb96388d5f87de21e70551be32a81aa3164462550703e",
+    "at": "2026-10-15T17:30:23.142897+00:00",
+    "reason": "Каждое свойство оценивается независимо; разность и искусственное дополнение до пяти не вычисляются"
+  },
+  {
+    "object_id": "sabin-nsanzimana",
+    "scale_id": "russia-diplomatic-engagement",
+    "pole_scores": {
+      "positive": {
+        "status": "unknown",
+        "value": null,
+        "confidence": 0,
+        "evidence_indices": [],
+        "source_urls": [],
+        "event_ids": [],
+        "rationale": "Нет допустимых датированных персональных свидетельств по этому свойству",
+        "support_type": "unknown"
+      },
+      "negative": {
+        "status": "unknown",
+        "value": null,
+        "confidence": 0,
+        "evidence_indices": [],
+        "source_urls": [],
+        "event_ids": [],
+        "rationale": "Нет допустимых датированных персональных свидетельств по этому свойству",
+        "support_type": "unknown"
+      }
+    },
+    "positive": null,
+    "negative": null,
+    "value": null,
+    "status": "unknown",
+    "difference": null,
+    "mass": null,
+    "measurement_model": "independent_poles",
+    "evidence_file": "evidence/independent-dossier-sabin-nsanzimana.json",
+    "evidence_basis": "2dbeea387385aa1dd0adb96388d5f87de21e70551be32a81aa3164462550703e",
+    "at": "2026-10-15T17:30:23.142897+00:00",
+    "reason": "Каждое свойство оценивается независимо; разность и искусственное дополнение до пяти не вычисляются"
+  },
+  {
+    "object_id": "sabin-nsanzimana",
+    "scale_id": "russia-security-cooperation",
+    "pole_scores": {
+      "positive": {
+        "status": "unknown",
+        "value": null,
+        "confidence": 0,
+        "evidence_indices": [],
+        "source_urls": [],
+        "event_ids": [],
+        "rationale": "Нет допустимых датированных персональных свидетельств по этому свойству",
+        "support_type": "unknown"
+      },
+      "negative": {
+        "status": "unknown",
+        "value": null,
+        "confidence": 0,
+        "evidence_indices": [],
+        "source_urls": [],
+        "event_ids": [],
+        "rationale": "Нет допустимых датированных персональных свидетельств по этому свойству",
+        "support_type": "unknown"
+      }
+    },
+    "positive": null,
+    "negative": null,
+    "value": null,
+    "status": "unknown",
+    "difference": null,
+    "mass": null,
+    "measurement_model": "independent_poles",
+    "evidence_file": "evidence/independent-dossier-sabin-nsanzimana.json",
+    "evidence_basis": "2dbeea387385aa1dd0adb96388d5f87de21e70551be32a81aa3164462550703e",
+    "at": "2026-10-15T17:30:23.142897+00:00",
+    "reason": "Каждое свойство оценивается независимо; разность и искусственное дополнение до пяти не вычисляются"
+  },
+  {
+    "object_id": "sabin-nsanzimana",
+    "scale_id": "russia-economic-technology-cooperation",
+    "pole_scores": {
+      "positive": {
+        "status": "observed",
+        "value": 2,
+        "confidence": 0.8,
+        "evidence_indices": [
+          12,
+          14
+        ],
+        "source_urls": [
+          "https://t.me/minzdrav_ru/14879"
+        ],
+        "event_ids": [
+          "nsanzimana-murashko-health-mou-2026-05-19"
+        ],
+        "rationale": "Сабин Нсанзимана в должности министра здравоохранения Руанды подписал межведомственный меморандум с российским министром здравоохранения о сотрудничестве в области медицинских исследований, ядерной медицины и подготовки кадров. Это подтверждает ясное ограниченное проявление развития экономических и технологических проектов с Россией в медицинской сфере. Подписание соглашения не свидетельствует о реализации проектов, но подтверждает официальное намерение и начало сотрудничества.",
+        "support_type": "positive_manifestation",
+        "provenance": {
+          "raw_response_file": "evidence/independent_responses/051be8751a3071847d3fa9339ee10d954019d6615472872833b5ca8515d3908a.json",
+          "model": "gpt-4.1",
+          "at": "2026-10-15T17:30:20.673805+00:00",
+          "cache_key": "051be8751a3071847d3fa9339ee10d954019d6615472872833b5ca8515d3908a",
+          "original_proposal": {
+            "variable_id": "russia-economic-technology-cooperation__positive",
+            "status": "observed",
+            "value": 2,
+            "confidence": 0.8,
+            "support_type": "positive_manifestation",
+            "rationale": "Сабин Нсанзимана в должности министра здравоохранения Руанды подписал межведомственный меморандум с российским министром здравоохранения о сотрудничестве в области медицинских исследований, ядерной медицины и подготовки кадров. Это подтверждает ясное ограниченное проявление развития экономических и технологических проектов с Россией в медицинской сфере. Подписание соглашения не свидетельствует о реализации проектов, но подтверждает официальное намерение и начало сотрудничества.",
+            "evidence_indices": [
+              12,
+              14
+            ]
+          }
+        },
+        "evidence_file": "evidence/independent-dossier-sabin-nsanzimana.json",
+        "evidence_basis": "2dbeea387385aa1dd0adb96388d5f87de21e70551be32a81aa3164462550703e"
+      },
+      "negative": {
+        "status": "unknown",
+        "value": null,
+        "confidence": 0,
+        "evidence_indices": [],
+        "source_urls": [],
+        "event_ids": [],
+        "rationale": "Нет сведений о публичных действиях или заявлениях Сабина Нсанзиманы, направленных на ограничение экономических или технологических проектов с Россией за указанный период.",
+        "support_type": "unknown",
+        "provenance": {
+          "raw_response_file": "evidence/independent_responses/051be8751a3071847d3fa9339ee10d954019d6615472872833b5ca8515d3908a.json",
+          "model": "gpt-4.1",
+          "at": "2026-10-15T17:30:20.673805+00:00",
+          "cache_key": "051be8751a3071847d3fa9339ee10d954019d6615472872833b5ca8515d3908a",
+          "original_proposal": {
+            "variable_id": "russia-economic-technology-cooperation__negative",
+            "status": "unknown",
+            "value": null,
+            "confidence": 0,
+            "support_type": "unknown",
+            "rationale": "Нет сведений о публичных действиях или заявлениях Сабина Нсанзиманы, направленных на ограничение экономических или технологических проектов с Россией за указанный период.",
+            "evidence_indices": []
+          }
+        },
+        "evidence_file": "evidence/independent-dossier-sabin-nsanzimana.json",
+        "evidence_basis": "2dbeea387385aa1dd0adb96388d5f87de21e70551be32a81aa3164462550703e"
+      }
+    },
+    "positive": 2,
+    "negative": null,
+    "value": null,
+    "status": "partial",
+    "difference": null,
+    "mass": null,
+    "measurement_model": "independent_poles",
+    "evidence_file": "evidence/independent-dossier-sabin-nsanzimana.json",
+    "evidence_basis": "2dbeea387385aa1dd0adb96388d5f87de21e70551be32a81aa3164462550703e",
+    "at": "2026-10-15T17:30:23.142897+00:00",
+    "reason": "Каждое свойство оценивается независимо; разность и искусственное дополнение до пяти не вычисляются"
+  },
+  {
+    "object_id": "sabin-nsanzimana",
+    "scale_id": "russia-education-cultural-cooperation",
+    "pole_scores": {
+      "positive": {
+        "status": "observed",
+        "value": 1,
+        "confidence": 0.7,
+        "evidence_indices": [
+          12,
+          14
+        ],
+        "source_urls": [
+          "https://t.me/minzdrav_ru/14879"
+        ],
+        "event_ids": [
+          "nsanzimana-murashko-health-mou-2026-05-19"
+        ],
+        "rationale": "Сабин Нсанзимана как министр здравоохранения Руанды подписал межведомственный меморандум с российским министром здравоохранения, в котором среди направлений сотрудничества названы подготовка кадров и профессиональное развитие медицинских работников. Это свидетельствует о единичном, но подтверждённом эпизоде содействия образовательным обменам с Россией в медицинской сфере. Данных о более широких или повторяющихся инициативах нет.",
+        "support_type": "positive_manifestation",
+        "provenance": {
+          "raw_response_file": "evidence/independent_responses/c6947076ac6cd17cfb2d71cad3c0cd06f8e5f10958888d44391b66a46245bdf2.json",
+          "model": "gpt-4.1",
+          "at": "2026-10-15T17:30:23.140304+00:00",
+          "cache_key": "c6947076ac6cd17cfb2d71cad3c0cd06f8e5f10958888d44391b66a46245bdf2",
+          "original_proposal": {
+            "variable_id": "russia-education-cultural-cooperation__positive",
+            "status": "observed",
+            "value": 1,
+            "confidence": 0.7,
+            "support_type": "positive_manifestation",
+            "rationale": "Сабин Нсанзимана как министр здравоохранения Руанды подписал межведомственный меморандум с российским министром здравоохранения, в котором среди направлений сотрудничества названы подготовка кадров и профессиональное развитие медицинских работников. Это свидетельствует о единичном, но подтверждённом эпизоде содействия образовательным обменам с Россией в медицинской сфере. Данных о более широких или повторяющихся инициативах нет.",
+            "evidence_indices": [
+              12,
+              14
+            ]
+          }
+        },
+        "evidence_file": "evidence/independent-dossier-sabin-nsanzimana.json",
+        "evidence_basis": "2dbeea387385aa1dd0adb96388d5f87de21e70551be32a81aa3164462550703e"
+      },
+      "negative": {
+        "status": "unknown",
+        "value": null,
+        "confidence": 0,
+        "evidence_indices": [],
+        "source_urls": [],
+        "event_ids": [],
+        "rationale": "Нет сведений о действиях или публичных заявлениях Сабина Нсанзиманы, направленных на ограничение образовательных или культурных обменов с Россией.",
+        "support_type": "unknown",
+        "provenance": {
+          "raw_response_file": "evidence/independent_responses/c6947076ac6cd17cfb2d71cad3c0cd06f8e5f10958888d44391b66a46245bdf2.json",
+          "model": "gpt-4.1",
+          "at": "2026-10-15T17:30:23.140304+00:00",
+          "cache_key": "c6947076ac6cd17cfb2d71cad3c0cd06f8e5f10958888d44391b66a46245bdf2",
+          "original_proposal": {
+            "variable_id": "russia-education-cultural-cooperation__negative",
+            "status": "unknown",
+            "value": null,
+            "confidence": 0.3,
+            "support_type": "unknown",
+            "rationale": "Нет сведений о действиях или публичных заявлениях Сабина Нсанзиманы, направленных на ограничение образовательных или культурных обменов с Россией.",
+            "evidence_indices": []
+          }
+        },
+        "evidence_file": "evidence/independent-dossier-sabin-nsanzimana.json",
+        "evidence_basis": "2dbeea387385aa1dd0adb96388d5f87de21e70551be32a81aa3164462550703e"
+      }
+    },
+    "positive": 1,
+    "negative": null,
+    "value": null,
+    "status": "partial",
+    "difference": null,
+    "mass": null,
+    "measurement_model": "independent_poles",
+    "evidence_file": "evidence/independent-dossier-sabin-nsanzimana.json",
+    "evidence_basis": "2dbeea387385aa1dd0adb96388d5f87de21e70551be32a81aa3164462550703e",
+    "at": "2026-10-15T17:30:23.142897+00:00",
+    "reason": "Каждое свойство оценивается независимо; разность и искусственное дополнение до пяти не вычисляются"
+  },
+  {
+    "object_id": "sabin-nsanzimana",
+    "scale_id": "russia-conflict-policy-evaluation",
+    "pole_scores": {
+      "positive": {
+        "status": "unknown",
+        "value": null,
+        "confidence": 0,
+        "evidence_indices": [],
+        "source_urls": [],
+        "event_ids": [],
+        "rationale": "Нет допустимых датированных персональных свидетельств по этому свойству",
+        "support_type": "unknown"
+      },
+      "negative": {
+        "status": "unknown",
+        "value": null,
+        "confidence": 0,
+        "evidence_indices": [],
+        "source_urls": [],
+        "event_ids": [],
+        "rationale": "Нет допустимых датированных персональных свидетельств по этому свойству",
+        "support_type": "unknown"
+      }
+    },
+    "positive": null,
+    "negative": null,
+    "value": null,
+    "status": "unknown",
+    "difference": null,
+    "mass": null,
+    "measurement_model": "independent_poles",
+    "evidence_file": "evidence/independent-dossier-sabin-nsanzimana.json",
+    "evidence_basis": "2dbeea387385aa1dd0adb96388d5f87de21e70551be32a81aa3164462550703e",
+    "at": "2026-10-15T17:30:23.142897+00:00",
+    "reason": "Каждое свойство оценивается независимо; разность и искусственное дополнение до пяти не вычисляются"
+  },
+  {
+    "object_id": "sabin-nsanzimana",
+    "scale_id": "russia-isolation-sanctions",
+    "pole_scores": {
+      "positive": {
+        "status": "unknown",
+        "value": null,
+        "confidence": 0,
+        "evidence_indices": [],
+        "source_urls": [],
+        "event_ids": [],
+        "rationale": "Нет допустимых датированных персональных свидетельств по этому свойству",
+        "support_type": "unknown"
+      },
+      "negative": {
+        "status": "unknown",
+        "value": null,
+        "confidence": 0,
+        "evidence_indices": [],
+        "source_urls": [],
+        "event_ids": [],
+        "rationale": "Нет допустимых датированных персональных свидетельств по этому свойству",
+        "support_type": "unknown"
+      }
+    },
+    "positive": null,
+    "negative": null,
+    "value": null,
+    "status": "unknown",
+    "difference": null,
+    "mass": null,
+    "measurement_model": "independent_poles",
+    "evidence_file": "evidence/independent-dossier-sabin-nsanzimana.json",
+    "evidence_basis": "2dbeea387385aa1dd0adb96388d5f87de21e70551be32a81aa3164462550703e",
+    "at": "2026-10-15T17:30:23.142897+00:00",
+    "reason": "Каждое свойство оценивается независимо; разность и искусственное дополнение до пяти не вычисляются"
+  }
+]

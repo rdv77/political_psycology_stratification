@@ -1,0 +1,224 @@
+{
+  "data": {
+    "ratings": [
+      {
+        "variable_id": "cultural-openness-national-transmission__positive",
+        "status": "observed",
+        "value": 2,
+        "confidence": 0.7,
+        "support_type": "positive_manifestation",
+        "rationale": "В эпизоде с визитом в Мозамбик Казарва прямо заявила о намерении учиться и обмениваться опытом с зарубежным парламентом, а также выделила межпарламентские отношения как опору сотрудничества. Это персональное проявление поддержки межкультурного обмена и разнообразия, хотя выраженность ограничена отдельными эпизодами и не является устойчивой чертой.",
+        "evidence_indices": [
+          17
+        ]
+      },
+      {
+        "variable_id": "cultural-openness-national-transmission__negative",
+        "status": "observed",
+        "value": 2,
+        "confidence": 0.6,
+        "support_type": "positive_manifestation",
+        "rationale": "Казарва участвовала в мемориальных мероприятиях, связанных с геноцидом против тутси, и подчеркивала коллективную ответственность за общественные проблемы, а также связь развития женщин с национальным развитием. Это указывает на акцент на национальной идентичности и преемственности, хотя не является определяющей чертой.",
+        "evidence_indices": [
+          4,
+          19
+        ]
+      },
+      {
+        "variable_id": "problem-disclosure-reputation-defence__positive",
+        "status": "observed",
+        "value": 3,
+        "confidence": 0.9,
+        "support_type": "positive_manifestation",
+        "rationale": "Казарва неоднократно признавала существование проблем и недостатков в обеспечении гендерного равенства, призывала к проверке результатов государственных программ и корректирующим мерам. Это устойчивое публичное признание проблем исполнения.",
+        "evidence_indices": [
+          0,
+          9,
+          10,
+          12
+        ]
+      },
+      {
+        "variable_id": "problem-disclosure-reputation-defence__negative",
+        "status": "observed",
+        "value": 2,
+        "confidence": 0.7,
+        "support_type": "positive_manifestation",
+        "rationale": "В ряде выступлений Казарва призывала гордиться выбранной Руандой системой управления, что свидетельствует о защитном продвижении репутации действующей политики, хотя это не является доминирующей чертой.",
+        "evidence_indices": [
+          15,
+          18
+        ]
+      },
+      {
+        "variable_id": "procedural-guarantees-enforcement__positive",
+        "status": "observed",
+        "value": 2,
+        "confidence": 0.7,
+        "support_type": "positive_manifestation",
+        "rationale": "Казарва подчеркивала важность парламентского надзора, проверки исполнения государственных программ и права граждан высказывать обеспокоенность, что указывает на поддержку процедурных гарантий и контроля, но не на их расширение как устойчивую черту.",
+        "evidence_indices": [
+          9,
+          11,
+          12,
+          15
+        ]
+      },
+      {
+        "variable_id": "procedural-guarantees-enforcement__negative",
+        "status": "unknown",
+        "value": null,
+        "confidence": 0.3,
+        "support_type": "unknown",
+        "rationale": "Нет персональных заявлений или действий, прямо свидетельствующих о приоритете принудительного исполнения обязательных требований.",
+        "evidence_indices": []
+      },
+      {
+        "variable_id": "prevention-crisis-response__positive",
+        "status": "observed",
+        "value": 2,
+        "confidence": 0.6,
+        "support_type": "positive_manifestation",
+        "rationale": "В ряде эпизодов Казарва подчеркивала необходимость проверки и корректировки государственных программ до достижения целей, что указывает на элементы упреждающей подготовки, но не является устойчивой чертой.",
+        "evidence_indices": [
+          9,
+          10,
+          12
+        ]
+      },
+      {
+        "variable_id": "prevention-crisis-response__negative",
+        "status": "unknown",
+        "value": null,
+        "confidence": 0.3,
+        "support_type": "unknown",
+        "rationale": "Нет прямых свидетельств, что Казарва делала акцент на действиях только в ответ на уже возникшие угрозы.",
+        "evidence_indices": []
+      },
+      {
+        "variable_id": "electoral-access__positive",
+        "status": "unknown",
+        "value": null,
+        "confidence": 0.2,
+        "support_type": "unknown",
+        "rationale": "Нет персональных заявлений или действий Казарвы, прямо направленных на расширение доступа к выборной конкуренции.",
+        "evidence_indices": []
+      },
+      {
+        "variable_id": "electoral-access__negative",
+        "status": "unknown",
+        "value": null,
+        "confidence": 0.2,
+        "support_type": "unknown",
+        "rationale": "Нет персональных заявлений или действий Казарвы, прямо направленных на усиление барьеров политического участия.",
+        "evidence_indices": []
+      },
+      {
+        "variable_id": "institutional-autonomy-coordination__positive",
+        "status": "observed",
+        "value": 2,
+        "confidence": 0.7,
+        "support_type": "positive_manifestation",
+        "rationale": "Казарва подчеркивала роль парламента в надзоре за действиями правительства и межинституциональном контроле, что свидетельствует о поддержке автономии и контроля между институтами, хотя выраженность ограничена.",
+        "evidence_indices": [
+          11
+        ]
+      },
+      {
+        "variable_id": "institutional-autonomy-coordination__negative",
+        "status": "unknown",
+        "value": null,
+        "confidence": 0.3,
+        "support_type": "unknown",
+        "rationale": "Нет прямых свидетельств, что Казарва делала акцент на согласовании работы институтов единой управленческой линией.",
+        "evidence_indices": []
+      },
+      {
+        "variable_id": "taxation-burden-public-revenue__positive",
+        "status": "unknown",
+        "value": null,
+        "confidence": 0.2,
+        "support_type": "unknown",
+        "rationale": "Нет персональных заявлений или действий Казарвы, прямо направленных на снижение налоговой нагрузки или расширение имущественной самостоятельности.",
+        "evidence_indices": []
+      },
+      {
+        "variable_id": "taxation-burden-public-revenue__negative",
+        "status": "unknown",
+        "value": null,
+        "confidence": 0.2,
+        "support_type": "unknown",
+        "rationale": "Нет персональных заявлений или действий Казарвы, прямо направленных на увеличение налоговых поступлений для публичного развития.",
+        "evidence_indices": []
+      },
+      {
+        "variable_id": "universal-targeted-provision__positive",
+        "status": "observed",
+        "value": 2,
+        "confidence": 0.7,
+        "support_type": "positive_manifestation",
+        "rationale": "Казарва заявляла о необходимости предоставить каждому гражданину доступ к технологиям и вовлекать всех граждан в инициативы развития, что указывает на поддержку универсальных стандартов доступности благ.",
+        "evidence_indices": [
+          15,
+          18
+        ]
+      },
+      {
+        "variable_id": "universal-targeted-provision__negative",
+        "status": "observed",
+        "value": 2,
+        "confidence": 0.6,
+        "support_type": "positive_manifestation",
+        "rationale": "Казарва делала акцент на гендерном равенстве и расширении прав женщин, а также на необходимости учитывать проблемы конкретных групп (женщины, сельские жители), что указывает на элементы приоритетной помощи уязвимым группам.",
+        "evidence_indices": [
+          0,
+          9,
+          10,
+          19
+        ]
+      },
+      {
+        "variable_id": "ecological-limits-resource-use__positive",
+        "status": "unknown",
+        "value": null,
+        "confidence": 0.3,
+        "support_type": "unknown",
+        "rationale": "Нет персональных заявлений или действий Казарвы, прямо направленных на усиление природоохранных ограничений хозяйственной деятельности.",
+        "evidence_indices": []
+      },
+      {
+        "variable_id": "ecological-limits-resource-use__negative",
+        "status": "observed",
+        "value": 1,
+        "confidence": 0.5,
+        "support_type": "positive_manifestation",
+        "rationale": "В эпизоде с запуском сельскохозяйственного сезона Казарва призывала увеличить производство, что может свидетельствовать о поддержке расширения хозяйственного использования ресурсов, однако выраженность ограничена и не содержит прямого противопоставления экологическим ограничениям.",
+        "evidence_indices": [
+          7,
+          13
+        ]
+      }
+    ]
+  },
+  "model": "gpt-4.1",
+  "task": "independent-ratings-gertrude-kazarwa-1",
+  "at": "2026-10-15T17:31:12.376965+00:00",
+  "usage": {
+    "prompt_tokens": 8125,
+    "completion_tokens": 1548,
+    "total_tokens": 9673,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "audio_tokens": 0
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "audio_tokens": 0,
+      "accepted_prediction_tokens": 0,
+      "rejected_prediction_tokens": 0
+    }
+  },
+  "citations": [],
+  "system_fingerprint": "fp_c1b3c9e352",
+  "cache_key": "efc1b23591763ac0d10d8a980afed1f6a5f6046a0237f085cb2ca2e88bc08494"
+}

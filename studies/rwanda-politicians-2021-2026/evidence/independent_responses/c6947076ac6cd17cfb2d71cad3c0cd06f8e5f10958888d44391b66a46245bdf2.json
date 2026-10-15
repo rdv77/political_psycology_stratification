@@ -1,0 +1,48 @@
+{
+  "data": {
+    "ratings": [
+      {
+        "variable_id": "russia-education-cultural-cooperation__positive",
+        "status": "observed",
+        "value": 1,
+        "confidence": 0.7,
+        "support_type": "positive_manifestation",
+        "rationale": "Сабин Нсанзимана как министр здравоохранения Руанды подписал межведомственный меморандум с российским министром здравоохранения, в котором среди направлений сотрудничества названы подготовка кадров и профессиональное развитие медицинских работников. Это свидетельствует о единичном, но подтверждённом эпизоде содействия образовательным обменам с Россией в медицинской сфере. Данных о более широких или повторяющихся инициативах нет.",
+        "evidence_indices": [
+          12,
+          14
+        ]
+      },
+      {
+        "variable_id": "russia-education-cultural-cooperation__negative",
+        "status": "unknown",
+        "value": null,
+        "confidence": 0.3,
+        "support_type": "unknown",
+        "rationale": "Нет сведений о действиях или публичных заявлениях Сабина Нсанзиманы, направленных на ограничение образовательных или культурных обменов с Россией.",
+        "evidence_indices": []
+      }
+    ]
+  },
+  "model": "gpt-4.1",
+  "task": "independent-ratings-sabin-nsanzimana-5",
+  "at": "2026-10-15T17:30:23.140304+00:00",
+  "usage": {
+    "prompt_tokens": 1351,
+    "completion_tokens": 228,
+    "total_tokens": 1579,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "audio_tokens": 0
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "audio_tokens": 0,
+      "accepted_prediction_tokens": 0,
+      "rejected_prediction_tokens": 0
+    }
+  },
+  "citations": [],
+  "system_fingerprint": "fp_363cf393c8",
+  "cache_key": "c6947076ac6cd17cfb2d71cad3c0cd06f8e5f10958888d44391b66a46245bdf2"
+}

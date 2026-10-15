@@ -1,0 +1,585 @@
+{
+  "object_id": "paula-ingabire",
+  "facts": [
+    {
+      "capacity": "Министр ИКТ и инноваций Руанды; публичный профиль международной конференции",
+      "channel": "public_statement",
+      "event_id": "pi-2026-07-07-ai-institutions",
+      "period": "2026-07-07",
+      "source_url": "https://www.itu.int/net4/wsis/forum/2026/Agenda/Session/555",
+      "text": "В программе сессии Международного союза электросвязи Ингабире представлена как министр ИКТ и инноваций и участник обсуждения перехода от национальной стратегии искусственного интеллекта к созданию институтов для практического общественного эффекта. Это показывает публичное позиционирование вокруг институционального внедрения ИИ, а не только вокруг декларативной технологической повестки.",
+      "topic_ids": [],
+      "original_fact_file": "evidence/paula-ingabire.json",
+      "original_fact_index": 0
+    },
+    {
+      "capacity": "Министр ИКТ и инноваций; официальное описание профессионального профиля",
+      "channel": "official_act",
+      "event_id": "pi-2024-profile-digitalization",
+      "period": "2024-08-16—2026-10-15",
+      "source_url": "https://www.minict.gov.rw/about",
+      "text": "Профиль министерства связывает её предыдущую работу с руководством подразделением развития ИКТ в Rwanda Development Board, реализацией национальных программ, включая электронное правительство и кибербезопасность, а также координацией Kigali Innovation City и Smart Africa. В публичном образе это создаёт линию преемственности между государственными цифровыми услугами, безопасностью цифровой среды и инновационной экосистемой.",
+      "topic_ids": [],
+      "original_fact_file": "evidence/paula-ingabire.json",
+      "original_fact_index": 1
+    },
+    {
+      "capacity": "Министр ИКТ и инноваций; служебный участник запуска совместного проекта Руанды и Германии",
+      "channel": "official_act",
+      "event_id": "pi-digital-transformation-center-germany",
+      "period": "2026-10-07",
+      "source_url": "https://www.minict.gov.rw/news-detail/minict-and-giz-officially-launch-the-digital-transformation-center",
+      "text": "На запуске Digital Transformation Center, созданного министерством совместно с GIZ Digital Solutions for Sustainable Development, Ингабире связывала проект с переходом Руанды к экономике знаний и превращением страны в инновационный центр континента. Она также описывала центр как пространство для предпринимателей и разработки, прототипирования и тестирования африканских технологических решений.",
+      "topic_ids": [],
+      "original_fact_file": "evidence/paula-ingabire.json",
+      "original_fact_index": 2,
+      "fact_review": {
+        "object_id": "paula-ingabire",
+        "source_url": "https://www.minict.gov.rw/news-detail/minict-and-giz-officially-launch-the-digital-transformation-center",
+        "text_sha256": "cb13b6f4d55630482f550aaafb34a03ef75ad0cc17c825fb2924e26b691d81ce",
+        "original_evidence_indices": [
+          2
+        ],
+        "reasons": [
+          "Запуск Digital Transformation Center MINICT/GIZ ошибочно датирован 07.10.2026. Первичный MINICT news index указывает 14.05.2019; BMZ подтверждает май 2019. Вне окна 15.10.2021–15.10.2026."
+        ],
+        "excluded": true
+      },
+      "measurement_status": "excluded_known_source_issue"
+    },
+    {
+      "capacity": "Министр ИКТ и инноваций; автор официального материала министерства",
+      "channel": "public_statement",
+      "event_id": "pi-2026-fourth-industrial-revolution",
+      "period": "2022-03-31",
+      "source_url": "https://www.minict.gov.rw/news-detail/how-rwanda-can-leverage-the-fourth-industrial-revolution-to-strengthen-post-covid-19-resilience",
+      "text": "В материале о запуске Centre for the Fourth Industrial Revolution Ингабире представляла цифровую трансформацию как инструмент экономической устойчивости и общественного развития. Для технологического управления она выделяла гибкое и ориентированное на человека регулирование, рассчитанное на национальные задачи и более широкий африканский эффект.",
+      "topic_ids": [],
+      "original_fact_file": "evidence/paula-ingabire.json",
+      "original_fact_index": 3,
+      "fact_review": {
+        "object_id": "paula-ingabire",
+        "source_url": "https://www.minict.gov.rw/news-detail/how-rwanda-can-leverage-the-fourth-industrial-revolution-to-strengthen-post-covid-19-resilience",
+        "text_sha256": "9e40f5328720acae0f8364bfa1e41903d6003647a4ac82a519467916716946f9",
+        "original_evidence_indices": [
+          3
+        ],
+        "reasons": [
+          "Статья с тем же названием и авторством Paula Ingabire датирована WEF 31.03.2022; MINICT её перепечатывает без новой даты события. Дата 01.01.2026 не подтверждена. Внутри окна, содержание не исключается."
+        ],
+        "corrected_period": "2022-03-31"
+      },
+      "original_period": "2026-01-01"
+    },
+    {
+      "capacity": "Министр ИКТ и инноваций; участник официального проекта при поддержке Европейского союза",
+      "channel": "official_act",
+      "event_id": "pi-2026-hanga-hubs-eu",
+      "period": "2026-10-09",
+      "source_url": "https://www.minict.gov.rw/news-detail/european-union-signs-grant-with-government-of-rwanda-to-support-start-up-creation-in-four-cities-in-rwanda",
+      "text": "В связи с грантом ЕС правительству Руанды на проект Hanga Hubs Ингабире подчёркивала расширение доступа к технологическим возможностям для молодых новаторов независимо от места проживания. Проект был описан как поддержка инкубации в четырёх городах и развития решений в здравоохранении, сельском хозяйстве, финансовых услугах, туризме, строительстве и образовании.",
+      "topic_ids": [],
+      "original_fact_file": "evidence/paula-ingabire.json",
+      "original_fact_index": 4,
+      "fact_review": {
+        "object_id": "paula-ingabire",
+        "source_url": "https://www.minict.gov.rw/news-detail/european-union-signs-grant-with-government-of-rwanda-to-support-start-up-creation-in-four-cities-in-rwanda",
+        "text_sha256": "d95ce0fa1a97ad8fd182623355499154d97f84014a9fb8f0d168315d6ad1527d",
+        "original_evidence_indices": [
+          4
+        ],
+        "reasons": [
+          "Тот же грантовый эпизод Hanga Hubs и та же цитата Ингабире опубликованы первичным EEAS 02.03.2021 (соглашение к этой дате уже подписано). Дата 09.10.2026 досье неверна; событие до окна исследования."
+        ],
+        "excluded": true
+      },
+      "measurement_status": "excluded_known_source_issue"
+    },
+    {
+      "capacity": "Министр ИКТ и инноваций; служебный комментарий о запуске спутникового широкополосного доступа",
+      "channel": "public_statement",
+      "event_id": "pi-starlink-rwanda",
+      "period": "2023-02-22",
+      "source_url": "https://www.minict.gov.rw/index.php?eID=dumpFile&t=f&f=62656&token=f8da679abbb05b90f18e46d998c1ab6aa7bb22b9",
+      "text": "В официальном материале министерства запуск спутникового широкополосного сервиса Starlink в Руанде представлен как дополнение к другим усилиям по развитию связи и расширение местной широкополосной отрасли. Ингабире публично связывала доступ к качественному широкополосному интернету с базовой необходимостью цифровой эпохи.",
+      "topic_ids": [],
+      "original_fact_file": "evidence/paula-ingabire.json",
+      "original_fact_index": 5,
+      "fact_review": {
+        "object_id": "paula-ingabire",
+        "source_url": "https://www.minict.gov.rw/index.php?eID=dumpFile&t=f&f=62656&token=f8da679abbb05b90f18e46d998c1ab6aa7bb22b9",
+        "text_sha256": "cc463571ed33a8ac77b1bc01c41a31e5ccbc5e2b2100ac4d7c3edb09d8f76a1f",
+        "original_evidence_indices": [
+          5
+        ],
+        "reasons": [
+          "Сам первичный MINICT PDF прямо датирует запуск Starlink 22.02.2023. Дата 11.08.2026 досье неверна. Внутри окна, содержание и прямое высказывание сохраняются."
+        ],
+        "corrected_period": "2023-02-22"
+      },
+      "original_period": "2026-08-11"
+    },
+    {
+      "capacity": "Министр ИКТ и инноваций; член консультативного совета международной инициативы",
+      "channel": "official_act",
+      "event_id": "pi-2025-pdaa-advisory",
+      "period": "2025-05-14",
+      "source_url": "https://pdaa.com/strategy/",
+      "text": "В профиле Partnership for Digital Access in Africa Ингабире указана как член консультативного совета. Описание её опыта акцентирует электронное правительство, кибербезопасность, Kigali Innovation City и Smart Africa; это расширяет её публичный образ от национального администратора до участника общеафриканской цифровой повестки.",
+      "topic_ids": [],
+      "original_fact_file": "evidence/paula-ingabire.json",
+      "original_fact_index": 6
+    },
+    {
+      "capacity": "Министр ИКТ и инноваций; участник международной экспертной площадки",
+      "channel": "official_act",
+      "event_id": "pi-2026-broadband-commission",
+      "period": "2026-10-05",
+      "source_url": "https://www.broadbandcommission.org/commissioner/paula-ingabire/",
+      "text": "Профиль Broadband Commission представляет Ингабире как комиссара и министра ИКТ и инноваций, связывая её работу с цифровыми государственными программами, Kigali Innovation City и Smart Africa. Публичная роль в такой площадке поддерживает образ международно ориентированного управленца в сфере доступа к связи.",
+      "topic_ids": [],
+      "original_fact_file": "evidence/paula-ingabire.json",
+      "original_fact_index": 7
+    },
+    {
+      "capacity": "Министр ИКТ и инноваций; участник публичной дискуссии о реализации стратегии ИИ",
+      "channel": "public_statement",
+      "event_id": "pi-2026-ai-delivery",
+      "period": "2026-07-07",
+      "source_url": "https://www.itu.int/net4/wsis/forum/2026/en/Agenda/Session/555",
+      "text": "В международной программе её профиль описан через защиту роли инноваций и новых технологий в процветании Африки. В сочетании с темой сессии это указывает на риторику, в которой технологии подаются как средство континентального развития, а не исключительно как отраслевой ресурс Руанды.",
+      "topic_ids": [],
+      "original_fact_file": "evidence/paula-ingabire.json",
+      "original_fact_index": 8
+    },
+    {
+      "capacity": "Ранее руководитель направления развития ИКТ в Rwanda Development Board и координатор Kigali Innovation City; служебный профиль",
+      "channel": "official_act",
+      "event_id": "pi-rdb-kic-career-profile",
+      "period": "2021-10-15—2024-08-15",
+      "source_url": "https://concordia.net/community/hon-paula-ingabire/",
+      "text": "Профиль Concordia описывает её прежнюю работу в Rwanda Development Board: руководство внедрением национальных ИКТ-программ, включая электронное правительство и кибербезопасность, а также координацию Kigali Innovation City. Это характеризует публичную траекторию как управленческую и проектно-ориентированную; источник не является доказательством личных убеждений.",
+      "topic_ids": [],
+      "original_fact_file": "evidence/paula-ingabire.json",
+      "original_fact_index": 9
+    },
+    {
+      "capacity": "Координатор создания Smart Africa; служебный и международный контекст",
+      "channel": "official_act",
+      "event_id": "pi-smart-africa-coordination",
+      "period": "2021-10-15—2024-08-15",
+      "source_url": "https://www.itu.int/net4/wsis/forum/2026/Agenda/Session/555",
+      "text": "Международный профиль указывает, что Ингабире координировала создание Smart Africa — инициативы, связывающей широкополосную инфраструктуру с социально-экономическим ростом Африки. Это поддерживает образ сторонника региональной координации и инфраструктурного подхода к цифровому развитию.",
+      "topic_ids": [],
+      "original_fact_file": "evidence/paula-ingabire.json",
+      "original_fact_index": 10
+    },
+    {
+      "capacity": "Министр ИКТ и инноваций Руанды; публичное выступление на Africa Food Systems Forum",
+      "channel": "public_statement",
+      "event_id": "pi-2026-ai-agriculture-extension",
+      "period": "2026-08-31—2026-09-04",
+      "source_url": "https://www.ktpress.rw/2026/09/here-is-our-ai-plan-to-reach-2-5-million-rwandan-farmers/",
+      "text": "Ингабире представила план расширить охват сельскохозяйственным консультированием с 35% в 2023 году до 69% в 2029 году и достичь более 2,5 млн фермеров. Это датированное программное предложение по масштабированию уже действующей политики цифрового и сельскохозяйственного развития; источник передаёт её выступление, но не позволяет установить наличие критики действующего государственного курса.",
+      "topic_ids": [
+        "programmatic-renewal",
+        "government-course-assessment",
+        "institutional-autonomy-coordination"
+      ],
+      "original_fact_file": "evidence/dossier_supplement-paula-ingabire.json",
+      "original_fact_index": 11
+    },
+    {
+      "capacity": "Министр ИКТ и инноваций Руанды; официальное решение правительства и публичный комментарий министра",
+      "channel": "public_statement",
+      "event_id": "pi-national-ai-agency-2026-06-23",
+      "period": "2026-06-08—2026-06-23",
+      "source_url": "https://www.newtimes.co.rw/article/36769/news/inside-the-newly-approved-national-ai-agency/amp",
+      "text": "После одобрения кабинетом создания Национального агентства искусственного интеллекта Ингабире объяснила решение тем, что ИИ становится базовой возможностью для экономического роста, государственных услуг, конкурентоспособности и будущего труда. В описании мандата названы трансформация правительства, исследования, подготовка кадров, этика и безопасность, развитие отрасли, коммерциализация и международное взаимодействие. Это подтверждает административную координацию и закрепление курса на институциональное внедрение ИИ; персональной критики этого курса в доступном материале нет.",
+      "topic_ids": [
+        "programmatic-renewal",
+        "government-course-assessment",
+        "participation-administrative-direction",
+        "market-state-instruments",
+        "institutional-autonomy-coordination",
+        "prevention-crisis-response"
+      ],
+      "original_fact_file": "evidence/dossier_supplement-paula-ingabire.json",
+      "original_fact_index": 12,
+      "fact_review": {
+        "object_id": "paula-ingabire",
+        "source_url": "https://www.newtimes.co.rw/article/36769/news/inside-the-newly-approved-national-ai-agency/amp",
+        "text_sha256": "fe59619befd9d94428ab5877bfdec7fb74bec7680ae6cae7081df2498be3686c",
+        "original_evidence_indices": [
+          12
+        ],
+        "reasons": [
+          "Два фрагмента одного материала/объяснения об агентстве ИИ; не независимые повторные проявления."
+        ],
+        "canonical_event_id": "pi-national-ai-agency-2026-06-23"
+      },
+      "original_event_id": "pi-2026-national-ai-agency"
+    },
+    {
+      "capacity": "Министр ИКТ и инноваций Руанды; выступление при запуске национальной политики ИИ",
+      "channel": "public_statement",
+      "event_id": "pi-2023-national-ai-policy-skills",
+      "period": "2023-04—2023-06-08",
+      "source_url": "https://www.ktpress.rw/2026/06/rwandas-ai-ambition-takes-shape-as-cabinet-approves-new-agency/",
+      "text": "Ингабире заявила, что 70% Национальной политики ИИ посвящено навыкам, поскольку без местных специалистов невозможно поддержать отрасль и создавать решения для местных проблем. Она также связывала политику с развитием местной экосистемы ИИ и ответственными, инклюзивными технологиями. Это свидетельствует об опоре на внутреннюю компетентность, одновременно о государственном планировании и регулировании; источник не содержит возражений против политики или предложений снизить её обязательность.",
+      "topic_ids": [
+        "programmatic-renewal",
+        "market-state-instruments",
+        "external-domestic-resources",
+        "cultural-openness-national-transmission",
+        "prevention-crisis-response"
+      ],
+      "original_fact_file": "evidence/dossier_supplement-paula-ingabire.json",
+      "original_fact_index": 13
+    },
+    {
+      "capacity": "Министр ИКТ и инноваций Руанды; публичный комментарий о создании Национального агентства ИИ",
+      "channel": "public_statement",
+      "event_id": "pi-national-ai-agency-2026-06-23",
+      "period": "2026-06-23",
+      "source_url": "https://www.newtimes.co.rw/article/36769/news/inside-the-newly-approved-national-ai-agency/amp",
+      "text": "Ингабире указала, что подготовка агентства включала Национальную политику ИИ 2023 года, усиление управления данными посредством закона о защите персональных данных и политики обмена данными, инвестиции в цифровую инфраструктуру и партнёрства с учебными учреждениями. Это конкретные меры регулирования, подготовки и профилактики рисков; доступное свидетельство не показывает её предложения расширить процедуры обжалования или автономию контролирующих институтов.",
+      "topic_ids": [
+        "programmatic-renewal",
+        "participation-administrative-direction",
+        "market-state-instruments",
+        "prevention-crisis-response",
+        "institutional-autonomy-coordination"
+      ],
+      "original_fact_file": "evidence/dossier_supplement-paula-ingabire.json",
+      "original_fact_index": 14,
+      "fact_review": {
+        "object_id": "paula-ingabire",
+        "source_url": "https://www.newtimes.co.rw/article/36769/news/inside-the-newly-approved-national-ai-agency/amp",
+        "text_sha256": "29389d38eb4a76a297cf21a82150426b1ea946139c53169422963d417372fad6",
+        "original_evidence_indices": [
+          14
+        ],
+        "reasons": [
+          "Два фрагмента одного материала/объяснения об агентстве ИИ; не независимые повторные проявления."
+        ],
+        "canonical_event_id": "pi-national-ai-agency-2026-06-23"
+      },
+      "original_event_id": "pi-2026-national-ai-agency"
+    },
+    {
+      "capacity": "Министр ИКТ и инноваций Руанды; публичное выступление о трансграничных цифровых системах",
+      "channel": "public_statement",
+      "event_id": "pi-2026-cross-border-digital-systems",
+      "period": "2026-09-21",
+      "source_url": "https://taarifa.rw/2026/09/21/paula-ingabire-calls-for-cross-border-digital-systems-to-accelerate-africas-tech-transformation/",
+      "text": "Ингабире призвала африканские страны перейти от изолированной разработки решений к совместимым трансграничным системам, позволяющим гражданам и бизнесу подключаться, совершать операции и внедрять инновации через границы. Она отдельно связала это с региональным сотрудничеством в области ИИ. Это прямое предложение общих международных и региональных механизмов; в доступном материале нет защиты свободы национального решения от внешних обязательств.",
+      "topic_ids": [
+        "international-rules-autonomy",
+        "cultural-openness-national-transmission",
+        "mediation-adversarial-communication",
+        "market-state-instruments"
+      ],
+      "original_fact_file": "evidence/dossier_supplement-paula-ingabire.json",
+      "original_fact_index": 15
+    },
+    {
+      "capacity": "Министр ИКТ и инноваций Руанды; публичная дискуссия о регулировании и инновациях",
+      "channel": "public_statement",
+      "event_id": "pi-2026-umushyikirano-regulation",
+      "period": "2026-02-06",
+      "source_url": "https://www.linkedin.com/pulse/mushyikirano-2026-where-dialogue-becomes-development-oscar-karekezi-lwkkf",
+      "text": "В доступном пересказе её выступления регулирование описано как способ защищать создание ценности, стимулировать инновации и создавать возможности, а не бюрократию; африканские креаторы представлены как производители богатства. Это поддерживает сочетание частной инициативы с регулирующей рамкой. Источник вторичный и не даёт самостоятельного основания для вывода о критике всего действующего курса.",
+      "topic_ids": [
+        "government-course-assessment",
+        "market-state-instruments",
+        "problem-disclosure-reputation-defence"
+      ],
+      "original_fact_file": "evidence/dossier_supplement-paula-ingabire.json",
+      "original_fact_index": 16
+    },
+    {
+      "capacity": "Министр ИКТ и инноваций Руанды; запуск кампании по кибербезопасности и защите данных",
+      "channel": "public_statement",
+      "event_id": "pi-2026-cybersecurity-awareness",
+      "period": "2026-10-09",
+      "source_url": "https://www.newtimes.co.rw/article/39566/news/security/cybersecurity-rwandans-urged-to-protect-private-data/amp",
+      "text": "Ингабире заявила, что рост цифровой экономики увеличивает подверженность онлайн-мошенничеству, фишингу, краже личности и более сложным схемам, и призвала сделать осведомлённость о кибербезопасности постоянной практикой. Это публичное раскрытие конкретных рисков и оперативная кампания реагирования; одновременно акцент на постоянной практике содержит профилактический компонент.",
+      "topic_ids": [
+        "problem-disclosure-reputation-defence",
+        "prevention-crisis-response",
+        "procedural-guarantees-enforcement"
+      ],
+      "original_fact_file": "evidence/dossier_supplement-paula-ingabire.json",
+      "original_fact_index": 17
+    },
+    {
+      "capacity": "Министр ИКТ и инноваций Руанды; председатель WTDC-22",
+      "channel": "official_act",
+      "event_id": "ingabire-2022-06-06-wtdc-opening",
+      "period": "2022-06-06",
+      "source_url": "https://search.itu.int/history/HistoryDigitalCollectionDocLibrary/4.463.43.en.100.pdf",
+      "text": "На открытии Всемирной конференции по развитию электросвязи Ингабире призвала делегации работать к консенсусу по вопросам подключения 2,9 млрд человек, ещё не имеющих доступа к интернету, и связала успех конференции с Целями устойчивого развития ООН.",
+      "topic_ids": [
+        "mediation-adversarial-communication__positive",
+        "accessibility-growth-priorities__positive",
+        "international-rules-autonomy__positive"
+      ],
+      "evidence_origin": "retrieval_cited_not_independently_verified",
+      "retrieval_response": "evidence/independent_responses/4d886e382ff0f4df1e8fd8cf05524aed5a65561935351cea60e0f32376adadd4.json"
+    },
+    {
+      "capacity": "Министр ИКТ и инноваций Руанды; председатель WTDC-22",
+      "channel": "official_act",
+      "event_id": "ingabire-2022-06-16-wtdc-closing",
+      "period": "2022-06-16",
+      "source_url": "https://www.itu.int/en/ITU-D/Conferences/WTDC/WTDC21/Documents/Speeches/WTDC-DBM-closing-ceremony-FINAL-FOR-POSTING.pdf",
+      "text": "В заключении WTDC-22 Ингабире участвовала в утверждении общей декларации и плана действий, ориентированных на расширение телекоммуникационной инфраструктуры, цифровых услуг и устойчивой цифровой экономики.",
+      "topic_ids": [
+        "institutional-autonomy-coordination__negative",
+        "international-rules-autonomy__positive",
+        "programmatic-renewal__negative"
+      ],
+      "evidence_origin": "retrieval_cited_not_independently_verified",
+      "retrieval_response": "evidence/independent_responses/4d886e382ff0f4df1e8fd8cf05524aed5a65561935351cea60e0f32376adadd4.json"
+    },
+    {
+      "capacity": "Министр ИКТ и инноваций Руанды; председатель WTDC-22",
+      "channel": "public_statement",
+      "event_id": "ingabire-2022-07-19-digital-gap-qa",
+      "period": "2022-07-19",
+      "source_url": "https://www.itu.int/hub/2022/07/what-it-takes-to-close-the-digital-gap-qa-with-wtdc-chair/",
+      "text": "В интервью о цифровом разрыве Ингабире обсуждала измерение прогресса, различия в зрелости цифровых экосистем и необходимость сочетать ресурсы и партнёрства с более точными критериями оценки готовности и роста.",
+      "topic_ids": [
+        "argumentation-evidence-values__positive",
+        "external-domestic-resources__positive",
+        "problem-disclosure-reputation-defence__positive"
+      ],
+      "evidence_origin": "retrieval_cited_not_independently_verified",
+      "retrieval_response": "evidence/independent_responses/4d886e382ff0f4df1e8fd8cf05524aed5a65561935351cea60e0f32376adadd4.json"
+    },
+    {
+      "capacity": "Министр ИКТ и инноваций Руанды",
+      "channel": "public_statement",
+      "event_id": "ingabire-2022-09-06-tech-diplomacy",
+      "period": "2022-09-06",
+      "source_url": "https://guardian.ng/news/takeaways-from-the-kigali-global-dialogue-2022/",
+      "text": "На Kigali Global Dialogue Ингабире представила технологическую дипломатию как новое направление экономической дипломатии, выступила за партнёрства в цифровой сфере и связала цифровую политику с включением маргинализированных сообществ.",
+      "topic_ids": [
+        "external-domestic-resources__positive",
+        "mediation-adversarial-communication__positive",
+        "accessibility-growth-priorities__positive"
+      ],
+      "evidence_origin": "retrieval_cited_not_independently_verified",
+      "retrieval_response": "evidence/independent_responses/4d886e382ff0f4df1e8fd8cf05524aed5a65561935351cea60e0f32376adadd4.json"
+    },
+    {
+      "capacity": "Министр ИКТ и инноваций Руанды",
+      "channel": "public_statement",
+      "event_id": "ingabire-2022-10-20-broadband-policy",
+      "period": "2022-10-20",
+      "source_url": "https://en.wikiquote.org/wiki/Paula_Ingabire",
+      "text": "В публичном выступлении о широкополосной связи Ингабире связывала улучшение интернет-сервисов с социально-экономическим развитием и достижением национальных стратегических целей.",
+      "topic_ids": [
+        "government-course-assessment__positive",
+        "accessibility-growth-priorities__positive",
+        "programmatic-renewal__negative"
+      ],
+      "evidence_origin": "retrieval_cited_not_independently_verified",
+      "retrieval_response": "evidence/independent_responses/4d886e382ff0f4df1e8fd8cf05524aed5a65561935351cea60e0f32376adadd4.json"
+    },
+    {
+      "capacity": "Министр ИКТ и инноваций Руанды",
+      "channel": "public_statement",
+      "event_id": "ingabire-2022-11-16-internet-governance",
+      "period": "2022-11-16",
+      "source_url": "https://en.wikiquote.org/wiki/Paula_Ingabire",
+      "text": "На открытии Internet Governance Forum в Руанде Ингабире подчёркивала необходимость сильного интернета в повседневной жизни, то есть рассматривала связность как постоянную общественную инфраструктуру, а не только отраслевой ресурс.",
+      "topic_ids": [
+        "accessibility-growth-priorities__positive",
+        "government-course-assessment__positive"
+      ],
+      "evidence_origin": "retrieval_cited_not_independently_verified",
+      "retrieval_response": "evidence/independent_responses/4d886e382ff0f4df1e8fd8cf05524aed5a65561935351cea60e0f32376adadd4.json"
+    },
+    {
+      "capacity": "Министр ИКТ и инноваций Руанды",
+      "channel": "public_statement",
+      "event_id": "ingabire-2023-10-24-ai-skills",
+      "period": "2023-10-24",
+      "source_url": "https://en.wikiquote.org/wiki/Paula_Ingabire",
+      "text": "В интервью об искусственном интеллекте Ингабире объяснила, что около 70% национальной политики ИИ посвящено навыкам; обоснование строилось на необходимости местных специалистов для поддержки отрасли и решения местных задач.",
+      "topic_ids": [
+        "argumentation-evidence-values__positive",
+        "external-domestic-resources__negative",
+        "market-state-instruments__negative"
+      ],
+      "evidence_origin": "retrieval_cited_not_independently_verified",
+      "retrieval_response": "evidence/independent_responses/4d886e382ff0f4df1e8fd8cf05524aed5a65561935351cea60e0f32376adadd4.json"
+    }
+  ],
+  "sources": [
+    {
+      "title": "Prime Minister’s Office: appointment of ministers, 16 August 2024",
+      "url": "https://www.primature.gov.rw/index.php?eID=dumpFile&f=103921&t=f&token=674c3d927f1443e0309c38a0fffb76c2e7e273c3"
+    },
+    {
+      "title": "Ministry of ICT and Innovation: About the Ministry",
+      "url": "https://www.minict.gov.rw/about"
+    },
+    {
+      "title": "MINICT and GIZ officially launch the Digital Transformation Center",
+      "url": "https://www.minict.gov.rw/news-detail/minict-and-giz-officially-launch-the-digital-transformation-center"
+    },
+    {
+      "title": "How Rwanda can leverage the Fourth Industrial Revolution to strengthen post-Covid-19 resilience",
+      "url": "https://www.minict.gov.rw/news-detail/how-rwanda-can-leverage-the-fourth-industrial-revolution-to-strengthen-post-covid-19-resilience"
+    },
+    {
+      "title": "European Union signs grant with Government of Rwanda to support start-up creation",
+      "url": "https://www.minict.gov.rw/news-detail/european-union-signs-grant-with-government-of-rwanda-to-support-start-up-creation-in-four-cities-in-rwanda"
+    },
+    {
+      "title": "Republic of Rwanda Ministry of ICT and Innovation: Starlink broadband launch material",
+      "url": "https://www.minict.gov.rw/index.php?eID=dumpFile&t=f&f=62656&token=f8da679abbb05b90f18e46d998c1ab6aa7bb22b9"
+    },
+    {
+      "title": "ITU WSIS Forum 2026: From AI Strategy to AI Delivery",
+      "url": "https://www.itu.int/net4/wsis/forum/2026/Agenda/Session/555"
+    },
+    {
+      "title": "Broadband Commission: Paula Ingabire",
+      "url": "https://www.broadbandcommission.org/commissioner/paula-ingabire/"
+    },
+    {
+      "title": "Concordia Summit: Paula Ingabire",
+      "url": "https://concordia.net/community/hon-paula-ingabire/"
+    },
+    {
+      "title": "Partnership for Digital Access in Africa: Strategy",
+      "url": "https://pdaa.com/strategy/"
+    },
+    {
+      "title": "Prime Minister’s Office: appointment of ministers, 16 August 2024",
+      "url": "https://www.primature.gov.rw/index.php?eID=dumpFile&f=103921&t=f&token=674c3d927f1443e0309c38a0fffb76c2e7e273c3"
+    },
+    {
+      "title": "Ministry of ICT and Innovation: About the Ministry",
+      "url": "https://www.minict.gov.rw/about"
+    },
+    {
+      "title": "MINICT and GIZ officially launch the Digital Transformation Center",
+      "url": "https://www.minict.gov.rw/news-detail/minict-and-giz-officially-launch-the-digital-transformation-center"
+    },
+    {
+      "title": "How Rwanda can leverage the Fourth Industrial Revolution to strengthen post-Covid-19 resilience",
+      "url": "https://www.minict.gov.rw/news-detail/how-rwanda-can-leverage-the-fourth-industrial-revolution-to-strengthen-post-covid-19-resilience"
+    },
+    {
+      "title": "European Union signs grant with Government of Rwanda to support start-up creation",
+      "url": "https://www.minict.gov.rw/news-detail/european-union-signs-grant-with-government-of-rwanda-to-support-start-up-creation-in-four-cities-in-rwanda"
+    },
+    {
+      "title": "Republic of Rwanda Ministry of ICT and Innovation: Starlink broadband launch material",
+      "url": "https://www.minict.gov.rw/index.php?eID=dumpFile&t=f&f=62656&token=f8da679abbb05b90f18e46d998c1ab6aa7bb22b9"
+    },
+    {
+      "title": "ITU WSIS Forum 2026: From AI Strategy to AI Delivery",
+      "url": "https://www.itu.int/net4/wsis/forum/2026/Agenda/Session/555"
+    },
+    {
+      "title": "Broadband Commission: Paula Ingabire",
+      "url": "https://www.broadbandcommission.org/commissioner/paula-ingabire/"
+    },
+    {
+      "title": "Concordia Summit: Paula Ingabire",
+      "url": "https://concordia.net/community/hon-paula-ingabire/"
+    },
+    {
+      "title": "Partnership for Digital Access in Africa: Strategy",
+      "url": "https://pdaa.com/strategy/"
+    },
+    {
+      "title": "Here Is Our AI Plan to Reach 2.5 Million Rwandan Farmers",
+      "url": "https://www.ktpress.rw/2026/09/here-is-our-ai-plan-to-reach-2-5-million-rwandan-farmers/"
+    },
+    {
+      "title": "Inside the newly approved National AI Agency",
+      "url": "https://www.newtimes.co.rw/article/36769/news/inside-the-newly-approved-national-ai-agency/amp"
+    },
+    {
+      "title": "Rwanda's AI Ambition Takes Shape as Cabinet Approves New Agency",
+      "url": "https://www.ktpress.rw/2026/06/rwandas-ai-ambition-takes-shape-as-cabinet-approves-new-agency/"
+    },
+    {
+      "title": "Cross-border digital systems",
+      "url": "https://taarifa.rw/2026/09/21/paula-ingabire-calls-for-cross-border-digital-systems-to-accelerate-africas-tech-transformation/"
+    },
+    {
+      "title": "Umushyikirano 2026: Where Dialogue Becomes Development",
+      "url": "https://www.linkedin.com/pulse/mushyikirano-2026-where-dialogue-becomes-development-oscar-karekezi-lwkkf"
+    },
+    {
+      "title": "Cybersecurity: Rwandans urged to protect private data",
+      "url": "https://www.newtimes.co.rw/article/39566/news/security/cybersecurity-rwandans-urged-to-protect-private-data/amp"
+    }
+  ],
+  "input_files": [
+    {
+      "file": "evidence/paula-ingabire.json",
+      "sha256": "0f680f016842b73d8b4173a14a82038437e24604b8a30d6566555108e3b17088"
+    },
+    {
+      "file": "evidence/dossier_supplement-paula-ingabire.json",
+      "sha256": "79b2d9e2d7041aa86a3a898a9a8e74dd0f6ea928d72682b4a34465a3d1b3ae15"
+    }
+  ],
+  "period": [
+    "2021-10-15",
+    "2026-10-15"
+  ],
+  "measurement_model": "independent_poles",
+  "basis": "cf7b72290bfcb4154f730c25573034ca2c295a01a5ef2331bde3d46821799321",
+  "retrieval_basis": "91b397f84564e3606427f2f7908b148c8a76fa7f8111a3c1fbac7efa26e5161c",
+  "retrieval": {
+    "response_file": "evidence/independent_responses/4d886e382ff0f4df1e8fd8cf05524aed5a65561935351cea60e0f32376adadd4.json",
+    "citations": [
+      "https://pp.itu.int/2022/en/itu_policy_statements/paula-ingabire-rwanda/",
+      "https://www.itu.int/en/ITU-D/Conferences/WTDC/WTDC21/Documents/Speeches/WTDC-DBM-closing-ceremony-FINAL-FOR-POSTING.pdf",
+      "https://www.itu.int/en/ITU-D/Conferences/WTDC/WTDC21/Documents/Speeches/ITU_SG_WTDC_2022_Closing_Remarks_16June.pdf",
+      "https://en.wikiquote.org/wiki/Paula_Ingabire",
+      "https://www.itu.int/hub/2022/07/what-it-takes-to-close-the-digital-gap-qa-with-wtdc-chair/",
+      "https://en.rcc.org.ru/events-copy/sobytiya-copy_485.html",
+      "https://www.itu.int/en/ITU-D/Conferences/WTDC/WTDC21/Pages/News.aspx",
+      "https://guardian.ng/news/takeaways-from-the-kigali-global-dialogue-2022/",
+      "https://search.itu.int/history/HistoryDigitalCollectionDocLibrary/4.463.43.en.100.pdf",
+      "https://www.gov.rw/fileadmin/user_upload/gov_user_upload/Publications/Newsletters/_RwandaWorks_Weekly_Digest___18_-_24_September_2023.pdf"
+    ],
+    "accepted_fact_count": 7,
+    "added_fact_count": 7,
+    "limitations": "Доступные результаты поиска позволяют подтвердить только 7 дополнительных неповторяющихся эпизодов, а не требуемые 18–24. Часть материалов является официальной международной документацией, но отдельные даты и формулировки представлены вторичными страницами или агрегированным пересказом; поэтому неподтверждённые эпизоды не добавлены. Уже перечисленные пользователем материалы не повторены.",
+    "at": "2026-10-15T17:21:53.948488+00:00"
+  },
+  "scope_binding_receipt": {
+    "at": "2026-10-15T17:27:41.888103+00:00",
+    "previous_retrieval_basis": "af88bedd6b0d97ebdd37a11197759cc338b29a6b5d0828049852885d619fd6b7",
+    "scope": "Государственное и парламентское руководство, заметные отраслевые управленцы, столица и провинции, легальная и ограниченная в участии оппозиция, эмиграция и явно обозначенные международные дипломаты. Целевая выборка ролей, не рейтинг известности.",
+    "aspect": "Публичный политический образ",
+    "reason": "Bind already completed same-scope retrieval to its exact unchanged approved scope; no score or source changed",
+    "approved_scope_snapshot": "attempts/paired_difference_2026-10-15/study.json"
+  },
+  "reviewed_russia_supplement": {
+    "path": "research/rwanda_politicians_2021_2026/russia_independent_poles_supplement.json",
+    "sha256": "94dfb6115a1031c4594341ba121dbce1eb6c458e67aff2e9bfe4264bf806af50",
+    "selected_fact_count": 0
+  },
+  "fact_review_registry": {
+    "path": "research/rwanda_politicians_2021_2026/INDEPENDENT_FACT_REVIEW.json",
+    "sha256": "f1610cf0df60bb39e8cdb1c6d6b7f06ecfaaecf8f756468241fb2467a2087c3c"
+  },
+  "completion_source_supplement": {
+    "path": "research/rwanda_politicians_2021_2026/INDEPENDENT_COMPLETION_SOURCES.json",
+    "sha256": "be3cf9b161585e3e0a05dd1c39256a7ad93e4ee239560f3d3df9c620cce27ab4",
+    "selected_fact_count": 0
+  }
+}

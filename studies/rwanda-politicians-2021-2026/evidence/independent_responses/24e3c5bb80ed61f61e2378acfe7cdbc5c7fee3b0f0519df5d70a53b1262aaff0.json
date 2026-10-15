@@ -1,0 +1,210 @@
+{
+  "data": {
+    "ratings": [
+      {
+        "variable_id": "programmatic-renewal__positive",
+        "status": "unknown",
+        "value": null,
+        "confidence": 0,
+        "support_type": "unknown",
+        "rationale": "В доступных фактах отсутствуют прямые датированные предложения Кагаме о пересмотре действующих приоритетов, правил или программ. Все выявленные заявления касаются продолжения курса, а не его изменения.",
+        "evidence_indices": []
+      },
+      {
+        "variable_id": "programmatic-renewal__negative",
+        "status": "observed",
+        "value": 3,
+        "confidence": 0.9,
+        "support_type": "positive_manifestation",
+        "rationale": "Кагаме неоднократно публично заявлял о намерении баллотироваться на новый срок (2022, 2023), связывая это с доверием граждан и продолжением служения. В заявлениях нет призывов к пересмотру курса, а акцент делается на преемственности и закреплении действующего порядка. Это устойчивый публичный акцент, подтверждённый несколькими эпизодами.",
+        "evidence_indices": [
+          0,
+          1,
+          13,
+          14
+        ]
+      },
+      {
+        "variable_id": "government-course-assessment__positive",
+        "status": "observed",
+        "value": 2,
+        "confidence": 0.7,
+        "support_type": "positive_manifestation",
+        "rationale": "Кагаме в публичных заявлениях связывает своё выдвижение с доверием граждан и готовностью продолжать служение, что подразумевает положительную оценку действующего курса. Однако прямых развёрнутых оценок достижений или проблем государственного курса в доступных фактах не найдено.",
+        "evidence_indices": [
+          1,
+          13
+        ]
+      },
+      {
+        "variable_id": "government-course-assessment__negative",
+        "status": "unknown",
+        "value": null,
+        "confidence": 0,
+        "support_type": "unknown",
+        "rationale": "Нет прямых публичных заявлений Кагаме с критикой действующего государственного курса. Критика со стороны правозащитных организаций не является его личной позицией.",
+        "evidence_indices": []
+      },
+      {
+        "variable_id": "participation-administrative-direction__positive",
+        "status": "unknown",
+        "value": null,
+        "confidence": 0,
+        "support_type": "unknown",
+        "rationale": "В доступных материалах отсутствуют прямые эпизоды, где Кагаме приглашает граждан или группы к совместному обсуждению или контролю решений.",
+        "evidence_indices": []
+      },
+      {
+        "variable_id": "participation-administrative-direction__negative",
+        "status": "observed",
+        "value": 2,
+        "confidence": 0.7,
+        "support_type": "positive_manifestation",
+        "rationale": "Ограничения электоральной конкуренции (отстранение кандидатов, закрытое политическое пространство) и акцент на административном контроле над процессом выборов указывают на преобладание административной постановки задач и контроля исполнения. Однако прямых публичных поручений или командных заявлений Кагаме в доступных фактах немного.",
+        "evidence_indices": [
+          2,
+          4,
+          14,
+          16
+        ]
+      },
+      {
+        "variable_id": "argumentation-evidence-values__positive",
+        "status": "unknown",
+        "value": null,
+        "confidence": 0,
+        "support_type": "unknown",
+        "rationale": "Нет примеров, где Кагаме обосновывает решения через данные, расчёты или проверяемые результаты.",
+        "evidence_indices": []
+      },
+      {
+        "variable_id": "argumentation-evidence-values__negative",
+        "status": "observed",
+        "value": 2,
+        "confidence": 0.7,
+        "support_type": "positive_manifestation",
+        "rationale": "В заявлениях о выдвижении Кагаме ссылается на доверие граждан и служение стране, что является апелляцией к коллективным ценностям и символам, а не к данным или исследованиям.",
+        "evidence_indices": [
+          1,
+          13
+        ]
+      },
+      {
+        "variable_id": "market-state-instruments__positive",
+        "status": "unknown",
+        "value": null,
+        "confidence": 0,
+        "support_type": "unknown",
+        "rationale": "В доступных фактах отсутствуют прямые заявления или действия Кагаме по расширению частной инициативы и управления.",
+        "evidence_indices": []
+      },
+      {
+        "variable_id": "market-state-instruments__negative",
+        "status": "unknown",
+        "value": null,
+        "confidence": 0,
+        "support_type": "unknown",
+        "rationale": "Нет прямых эпизодов, где Кагаме бы акцентировал расширение государственного планирования или обязательных правил.",
+        "evidence_indices": []
+      },
+      {
+        "variable_id": "accessibility-growth-priorities__positive",
+        "status": "unknown",
+        "value": null,
+        "confidence": 0,
+        "support_type": "unknown",
+        "rationale": "В доступных материалах нет прямых заявлений Кагаме о приоритете расширения доступности базовых благ.",
+        "evidence_indices": []
+      },
+      {
+        "variable_id": "accessibility-growth-priorities__negative",
+        "status": "unknown",
+        "value": null,
+        "confidence": 0,
+        "support_type": "unknown",
+        "rationale": "Нет прямых заявлений Кагаме о приоритете роста инвестиций, конкурентоспособности или деловой активности.",
+        "evidence_indices": []
+      },
+      {
+        "variable_id": "external-domestic-resources__positive",
+        "status": "unknown",
+        "value": null,
+        "confidence": 0,
+        "support_type": "unknown",
+        "rationale": "Нет прямых эпизодов привлечения внешнего финансирования или ресурсных партнёров, инициированных Кагаме.",
+        "evidence_indices": []
+      },
+      {
+        "variable_id": "external-domestic-resources__negative",
+        "status": "unknown",
+        "value": null,
+        "confidence": 0,
+        "support_type": "unknown",
+        "rationale": "Нет прямых заявлений Кагаме о стратегии опоры на внутренние доходы или снижении зависимости от внешних поступлений.",
+        "evidence_indices": []
+      },
+      {
+        "variable_id": "international-rules-autonomy__positive",
+        "status": "unknown",
+        "value": null,
+        "confidence": 0,
+        "support_type": "unknown",
+        "rationale": "Нет прямых предложений Кагаме о закреплении обязательных международных норм или договоров.",
+        "evidence_indices": []
+      },
+      {
+        "variable_id": "international-rules-autonomy__negative",
+        "status": "observed",
+        "value": 2,
+        "confidence": 0.8,
+        "support_type": "positive_manifestation",
+        "rationale": "На пресс-конференции 17 апреля 2023 года Кагаме прямо защищал право африканских стран самостоятельно выбирать партнёров, что является примером защиты национальной самостоятельности решений.",
+        "evidence_indices": [
+          12
+        ]
+      },
+      {
+        "variable_id": "mediation-adversarial-communication__positive",
+        "status": "unknown",
+        "value": null,
+        "confidence": 0,
+        "support_type": "unknown",
+        "rationale": "Нет прямых эпизодов, где Кагаме предлагает посредничество или согласование интересов сторон.",
+        "evidence_indices": []
+      },
+      {
+        "variable_id": "mediation-adversarial-communication__negative",
+        "status": "observed",
+        "value": 2,
+        "confidence": 0.8,
+        "support_type": "positive_manifestation",
+        "rationale": "Кагаме последовательно отвергал обвинения в поддержке повстанцев в ДРК, что является примером полемической защиты собственной стороны. Примеры посредничества не выявлены.",
+        "evidence_indices": [
+          5,
+          15
+        ]
+      }
+    ]
+  },
+  "model": "gpt-4.1",
+  "task": "independent-ratings-paul-kagame-0",
+  "at": "2026-10-15T17:29:02.724521+00:00",
+  "usage": {
+    "prompt_tokens": 8584,
+    "completion_tokens": 1414,
+    "total_tokens": 9998,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "audio_tokens": 0
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "audio_tokens": 0,
+      "accepted_prediction_tokens": 0,
+      "rejected_prediction_tokens": 0
+    }
+  },
+  "citations": [],
+  "system_fingerprint": "fp_801d3b7b5c",
+  "cache_key": "24e3c5bb80ed61f61e2378acfe7cdbc5c7fee3b0f0519df5d70a53b1262aaff0"
+}

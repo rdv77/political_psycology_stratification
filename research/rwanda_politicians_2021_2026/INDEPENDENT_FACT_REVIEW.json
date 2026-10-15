@@ -1,0 +1,1806 @@
+{
+  "at": "2026-10-15T17:48:44.413996+00:00",
+  "facts": [
+    {
+      "object_id": "paula-ingabire",
+      "source_url": "https://www.minict.gov.rw/news-detail/minict-and-giz-officially-launch-the-digital-transformation-center",
+      "text_sha256": "cb13b6f4d55630482f550aaafb34a03ef75ad0cc17c825fb2924e26b691d81ce",
+      "original_evidence_indices": [
+        2
+      ],
+      "reasons": [
+        "Запуск Digital Transformation Center MINICT/GIZ ошибочно датирован 07.10.2026. Первичный MINICT news index указывает 14.05.2019; BMZ подтверждает май 2019. Вне окна 15.10.2021–15.10.2026."
+      ],
+      "excluded": true
+    },
+    {
+      "object_id": "paula-ingabire",
+      "source_url": "https://www.minict.gov.rw/news-detail/european-union-signs-grant-with-government-of-rwanda-to-support-start-up-creation-in-four-cities-in-rwanda",
+      "text_sha256": "d95ce0fa1a97ad8fd182623355499154d97f84014a9fb8f0d168315d6ad1527d",
+      "original_evidence_indices": [
+        4
+      ],
+      "reasons": [
+        "Тот же грантовый эпизод Hanga Hubs и та же цитата Ингабире опубликованы первичным EEAS 02.03.2021 (соглашение к этой дате уже подписано). Дата 09.10.2026 досье неверна; событие до окна исследования."
+      ],
+      "excluded": true
+    },
+    {
+      "object_id": "judith-uwizeye",
+      "source_url": "https://au.int/en/pressreleases/20191107/au-member-states-urged-ratify-protocol-free-movement-achieve-free-trade",
+      "text_sha256": "0757bc03fc21fa0c5b7d2dff63bae2e406f5fc8269612a62db53f6fa47198cc3",
+      "original_evidence_indices": [
+        0
+      ],
+      "reasons": [
+        "Первичная AU-страница прямо датирует то же выступление Judith Uwizeye 07.11.2019, включая призыв ратифицировать протокол. Досье ошибочно даёт 25.05.2023. Событие вне окна исследования."
+      ],
+      "excluded": true
+    },
+    {
+      "object_id": "paula-ingabire",
+      "source_url": "https://www.minict.gov.rw/news-detail/how-rwanda-can-leverage-the-fourth-industrial-revolution-to-strengthen-post-covid-19-resilience",
+      "text_sha256": "9e40f5328720acae0f8364bfa1e41903d6003647a4ac82a519467916716946f9",
+      "original_evidence_indices": [
+        3
+      ],
+      "reasons": [
+        "Статья с тем же названием и авторством Paula Ingabire датирована WEF 31.03.2022; MINICT её перепечатывает без новой даты события. Дата 01.01.2026 не подтверждена. Внутри окна, содержание не исключается."
+      ],
+      "corrected_period": "2022-03-31"
+    },
+    {
+      "object_id": "paula-ingabire",
+      "source_url": "https://www.minict.gov.rw/index.php?eID=dumpFile&t=f&f=62656&token=f8da679abbb05b90f18e46d998c1ab6aa7bb22b9",
+      "text_sha256": "cc463571ed33a8ac77b1bc01c41a31e5ccbc5e2b2100ac4d7c3edb09d8f76a1f",
+      "original_evidence_indices": [
+        5
+      ],
+      "reasons": [
+        "Сам первичный MINICT PDF прямо датирует запуск Starlink 22.02.2023. Дата 11.08.2026 досье неверна. Внутри окна, содержание и прямое высказывание сохраняются."
+      ],
+      "corrected_period": "2023-02-22"
+    },
+    {
+      "object_id": "juvenal-marizamunda",
+      "source_url": "https://www.topafricanews.com/2025/02/15/rwandas-defence-minister-rejects-blame-calls-for-multilateral-approach-to-drc-crisis-at-munich-security-conference/",
+      "text_sha256": "a6acb181f7d43673e2be58e622dde8e4fd5b9d5372e19ff6c54a4026d4645637",
+      "original_evidence_indices": [
+        7
+      ],
+      "reasons": [
+        "Полные DW и VOA описывают одну панель Мюнхенской конференции 14–16.02.2025. Даты 18 и 21 февраля — публикации пересказов, а не новые выступления. Точный день панели источниками здесь не установлен."
+      ],
+      "canonical_event_id": "marizamunda-munich-security-panel-2025-02"
+    },
+    {
+      "object_id": "juvenal-marizamunda",
+      "source_url": "https://www.dw.com/en/calls-grow-for-congo-to-resolve-conflict-through-dialogue/a-71644884",
+      "text_sha256": "4a4c8e8d0e970bcbd06cb9244cb5ce4dc72445d027277e9b5f66adce0188e45c",
+      "original_evidence_indices": [
+        8
+      ],
+      "reasons": [
+        "Полные DW и VOA описывают одну панель Мюнхенской конференции 14–16.02.2025. Даты 18 и 21 февраля — публикации пересказов, а не новые выступления. Точный день панели источниками здесь не установлен."
+      ],
+      "canonical_event_id": "marizamunda-munich-security-panel-2025-02"
+    },
+    {
+      "object_id": "juvenal-marizamunda",
+      "source_url": "https://www.voanews.com/a/false-rwanda-denies-its-involvement-in-drc-war/7983442.html",
+      "text_sha256": "cd7f8c6d529616afc4878dcf4a2622f16607ceb9a3d28eaf8afc0a91cbe81487",
+      "original_evidence_indices": [
+        9
+      ],
+      "reasons": [
+        "Полные DW и VOA описывают одну панель Мюнхенской конференции 14–16.02.2025. Даты 18 и 21 февраля — публикации пересказов, а не новые выступления. Точный день панели источниками здесь не установлен."
+      ],
+      "canonical_event_id": "marizamunda-munich-security-panel-2025-02"
+    },
+    {
+      "object_id": "olivier-nduhungirehe",
+      "source_url": "https://www.themoscowtimes.com/2024/11/09/rwanda-counting-on-russia-to-train-nuclear-power-specialists-a86964/pdf",
+      "text_sha256": "909aa4546815cae151a245518b72f9fc4d2b009d13e387a6248d92454cf1d63c",
+      "original_evidence_indices": [
+        9
+      ],
+      "reasons": [
+        "Два извлечения одного интервью AFP 09.11.2024, не два независимых образовательных эпизода."
+      ],
+      "canonical_event_id": "nduhungirehe-afp-sochi-training-2024-11-09"
+    },
+    {
+      "object_id": "olivier-nduhungirehe",
+      "source_url": "https://www.themoscowtimes.com/2024/11/09/rwanda-counting-on-russia-to-train-nuclear-power-specialists-a86964/pdf",
+      "text_sha256": "87d09e08e3c93f35a6c5f7c4d1f8c8d39e6b90a7f4dddc34d9f95ed1ed8e806b",
+      "original_evidence_indices": [
+        30
+      ],
+      "reasons": [
+        "Два извлечения одного интервью AFP 09.11.2024, не два независимых образовательных эпизода."
+      ],
+      "canonical_event_id": "nduhungirehe-afp-sochi-training-2024-11-09"
+    },
+    {
+      "object_id": "albert-murasira",
+      "source_url": "https://www.minema.gov.rw/news-detail/minema-and-drrm-stakeholders-pledge-to-join-efforts-to-build-disaster-resilience",
+      "text_sha256": "561430269f637909c3bdfa7d09f932471ea6aa564d396204f82a3e824ff2c81f",
+      "original_evidence_indices": [
+        3
+      ],
+      "reasons": [
+        "Само досье помечает их изложением одного форума 07–08.11.2024; несколько пересказов не устанавливают повторение."
+      ],
+      "canonical_event_id": "murasira-drrm-conference-2024-11"
+    },
+    {
+      "object_id": "albert-murasira",
+      "source_url": "https://lecanape.rw/minema-les-partenaires-invites-a-executer-les-politiques/",
+      "text_sha256": "ab53aa3da180fd2501d8206b6099711dcbd72ebe976ddadebd8acd931c848b50",
+      "original_evidence_indices": [
+        4
+      ],
+      "reasons": [
+        "Само досье помечает их изложением одного форума 07–08.11.2024; несколько пересказов не устанавливают повторение."
+      ],
+      "canonical_event_id": "murasira-drrm-conference-2024-11"
+    },
+    {
+      "object_id": "albert-murasira",
+      "source_url": "https://lecanape.rw/minema-les-partenaires-invites-a-executer-les-politiques/",
+      "text_sha256": "37b818d2b5f11574f58cd10740393c1282fd12e10b5fc87a4f370b955152b8b7",
+      "original_evidence_indices": [
+        10
+      ],
+      "reasons": [
+        "Само досье помечает их изложением одного форума 07–08.11.2024; несколько пересказов не устанавливают повторение."
+      ],
+      "canonical_event_id": "murasira-drrm-conference-2024-11"
+    },
+    {
+      "object_id": "albert-murasira",
+      "source_url": "https://www.minema.gov.rw/news-detail/minema-and-drrm-stakeholders-pledge-to-join-efforts-to-build-disaster-resilience",
+      "text_sha256": "3a8b9726b062548fd580b3a0a3e8d96875a815c5ed21b5ce3aadf46cdb48e448",
+      "original_evidence_indices": [
+        11
+      ],
+      "reasons": [
+        "Само досье помечает их изложением одного форума 07–08.11.2024; несколько пересказов не устанавливают повторение."
+      ],
+      "canonical_event_id": "murasira-drrm-conference-2024-11"
+    },
+    {
+      "object_id": "sabin-nsanzimana",
+      "source_url": "https://t.me/minzdrav_ru/14879",
+      "text_sha256": "e88885f3be2cd05b9f6ad2eece0d16495bc47755580578da52551c8429a2434d",
+      "original_evidence_indices": [
+        12
+      ],
+      "reasons": [
+        "Один меморандум 19.05.2026; 20.05 в 13 — дата пересказа. Не три независимых события."
+      ],
+      "canonical_event_id": "nsanzimana-murashko-health-mou-2026-05-19"
+    },
+    {
+      "object_id": "sabin-nsanzimana",
+      "source_url": "https://www.newtimes.co.rw/article/35854/news/health/rwanda-russia-sign-deal-in-nuclear-medicine-healthcare-systems",
+      "text_sha256": "7bd32c6880c2dd60368707c920c2bb577f4655a0b61c17e55b7f4e8d5e5ab68d",
+      "original_evidence_indices": [
+        13
+      ],
+      "reasons": [
+        "Один меморандум 19.05.2026; 20.05 в 13 — дата пересказа. Не три независимых события."
+      ],
+      "canonical_event_id": "nsanzimana-murashko-health-mou-2026-05-19"
+    },
+    {
+      "object_id": "sabin-nsanzimana",
+      "source_url": "https://t.me/minzdrav_ru/14879",
+      "text_sha256": "a776847a9608c755b0fe6b5fa038fd59f4a7a3adbab8304b351cddb3c0f1dca2",
+      "original_evidence_indices": [
+        14
+      ],
+      "reasons": [
+        "Один меморандум 19.05.2026; 20.05 в 13 — дата пересказа. Не три независимых события."
+      ],
+      "canonical_event_id": "nsanzimana-murashko-health-mou-2026-05-19"
+    },
+    {
+      "object_id": "sabin-nsanzimana",
+      "source_url": "https://www.parliament.gov.rw/news-details/minister-of-health-briefs-senators-on-health-policy-and-expansion-of-health-posts",
+      "text_sha256": "4b0538952af528463056ffc020fb745401c2cbb4afc2e20073d05e2b85dc4f69",
+      "original_evidence_indices": [
+        4
+      ],
+      "reasons": [
+        "Одно парламентское изложение политики/показателей/проблем 16.01.2025, а не повторные эмпирические эпизоды."
+      ],
+      "canonical_event_id": "nsanzimana-senate-health-policy-2025-01-16"
+    },
+    {
+      "object_id": "sabin-nsanzimana",
+      "source_url": "https://www.parliament.gov.rw/news-details/minister-of-health-briefs-senators-on-health-policy-and-expansion-of-health-posts",
+      "text_sha256": "a2485a2d6c3595af29a1eff30272679976927d591752529a2bb9a108790a39d1",
+      "original_evidence_indices": [
+        5
+      ],
+      "reasons": [
+        "Одно парламентское изложение политики/показателей/проблем 16.01.2025, а не повторные эмпирические эпизоды."
+      ],
+      "canonical_event_id": "nsanzimana-senate-health-policy-2025-01-16"
+    },
+    {
+      "object_id": "sabin-nsanzimana",
+      "source_url": "https://www.parliament.gov.rw/news-details/minister-of-health-briefs-senators-on-health-policy-and-expansion-of-health-posts",
+      "text_sha256": "5d3ca1b5af0e439b2acae78a8ac76313e6a2a2380c8a9043f352b6b5f57426f9",
+      "original_evidence_indices": [
+        11
+      ],
+      "reasons": [
+        "Одно парламентское изложение политики/показателей/проблем 16.01.2025, а не повторные эмпирические эпизоды."
+      ],
+      "canonical_event_id": "nsanzimana-senate-health-policy-2025-01-16"
+    },
+    {
+      "object_id": "paul-kagame",
+      "source_url": "https://en.wikipedia.org/wiki/2024_Rwandan_presidential_election",
+      "text_sha256": "094b1ae0cc0252ede87efcd3b5afd87d30cc5e3edf52005aa7bf1eb421341b7b",
+      "original_evidence_indices": [
+        1
+      ],
+      "reasons": [
+        "Повторное извлечение заявления о выдвижении 20.09.2023."
+      ],
+      "canonical_event_id": "rw-kagame-candidacy-2023"
+    },
+    {
+      "object_id": "paul-kagame",
+      "source_url": "https://jp.reuters.com/article/world/rwandas-veteran-president-kagame-to-seek-re-election-in-2024-idUSKBN30Q0LL/",
+      "text_sha256": "c2930d7d463cbf4f07a1a9db44f7f2ba477e3a863c1243ae7d8f713b2d303f38",
+      "original_evidence_indices": [
+        13
+      ],
+      "reasons": [
+        "Повторное извлечение заявления о выдвижении 20.09.2023."
+      ],
+      "canonical_event_id": "rw-kagame-candidacy-2023"
+    },
+    {
+      "object_id": "justin-nsengiyumva",
+      "source_url": "https://www.primature.gov.rw/news-detail/pm-nsengiyumva-presented-to-parliament-governments-five-year-program-nst2",
+      "text_sha256": "b878b02a27694274d30b825cee16a1146bb50edc5f24660a95b7c30536f38e56",
+      "original_evidence_indices": [
+        1
+      ],
+      "reasons": [
+        "Одно представление пятилетней программы 12.08.2025, несмотря на разные префиксы event_id."
+      ],
+      "canonical_event_id": "nsengiyumva-nst2-parliament-2025-08-12"
+    },
+    {
+      "object_id": "justin-nsengiyumva",
+      "source_url": "https://www.primature.gov.rw/news-detail/pm-nsengiyumva-presented-to-parliament-governments-five-year-program-nst2",
+      "text_sha256": "793ae99e72b35676d2ffe20e9972633bacd27ee69130dd247ce906677b3b2a99",
+      "original_evidence_indices": [
+        9
+      ],
+      "reasons": [
+        "Одно представление пятилетней программы 12.08.2025, несмотря на разные префиксы event_id."
+      ],
+      "canonical_event_id": "nsengiyumva-nst2-parliament-2025-08-12"
+    },
+    {
+      "object_id": "justin-nsengiyumva",
+      "source_url": "https://www.parliament.gov.rw/news-details/mps-heard-pms-presentation-on-nst2",
+      "text_sha256": "af7fd32c9d76f466fc202ed9d3a27d460db9592cc2e63a1a0e28289efafabd55",
+      "original_evidence_indices": [
+        13
+      ],
+      "reasons": [
+        "Одно представление пятилетней программы 12.08.2025, несмотря на разные префиксы event_id."
+      ],
+      "canonical_event_id": "nsengiyumva-nst2-parliament-2025-08-12"
+    },
+    {
+      "object_id": "paula-ingabire",
+      "source_url": "https://www.newtimes.co.rw/article/36769/news/inside-the-newly-approved-national-ai-agency/amp",
+      "text_sha256": "fe59619befd9d94428ab5877bfdec7fb74bec7680ae6cae7081df2498be3686c",
+      "original_evidence_indices": [
+        12
+      ],
+      "reasons": [
+        "Два фрагмента одного материала/объяснения об агентстве ИИ; не независимые повторные проявления."
+      ],
+      "canonical_event_id": "pi-national-ai-agency-2026-06-23"
+    },
+    {
+      "object_id": "paula-ingabire",
+      "source_url": "https://www.newtimes.co.rw/article/36769/news/inside-the-newly-approved-national-ai-agency/amp",
+      "text_sha256": "29389d38eb4a76a297cf21a82150426b1ea946139c53169422963d417372fad6",
+      "original_evidence_indices": [
+        14
+      ],
+      "reasons": [
+        "Два фрагмента одного материала/объяснения об агентстве ИИ; не независимые повторные проявления."
+      ],
+      "canonical_event_id": "pi-national-ai-agency-2026-06-23"
+    },
+    {
+      "object_id": "judith-uwizeye",
+      "source_url": "https://www.mifotra.gov.rw/news-detail/ministry-of-public-service-and-labour-holds-ministerial-handover-ceremony",
+      "text_sha256": "90428a896d67b8cc0131a837969a373607d71dfa6cb12fbc29f4110830a1ce8b",
+      "original_evidence_indices": [
+        5
+      ],
+      "reasons": [
+        "Фрагменты одной церемонии передачи полномочий 15.06.2026."
+      ],
+      "canonical_event_id": "uwizeye-mifotra-handover-2026-06-15"
+    },
+    {
+      "object_id": "judith-uwizeye",
+      "source_url": "https://www.mifotra.gov.rw/news-detail/ministry-of-public-service-and-labour-holds-ministerial-handover-ceremony",
+      "text_sha256": "b764a2a8bd238f1b83ea31019a222e7ffdb9bc54407e0cf863df62b8205fa4a2",
+      "original_evidence_indices": [
+        10
+      ],
+      "reasons": [
+        "Фрагменты одной церемонии передачи полномочий 15.06.2026."
+      ],
+      "canonical_event_id": "uwizeye-mifotra-handover-2026-06-15"
+    },
+    {
+      "object_id": "judith-uwizeye",
+      "source_url": "https://www.mifotra.gov.rw/news-detail/ministry-of-public-service-and-labour-holds-ministerial-handover-ceremony",
+      "text_sha256": "df18b9c90383646a48c0b46c0b1d31519c5d822494256043ca3ef3da95979d4b",
+      "original_evidence_indices": [
+        13
+      ],
+      "reasons": [
+        "Фрагменты одной церемонии передачи полномочий 15.06.2026."
+      ],
+      "canonical_event_id": "uwizeye-mifotra-handover-2026-06-15"
+    },
+    {
+      "object_id": "judith-uwizeye",
+      "source_url": "https://www.mifotra.gov.rw/news-detail/ministry-of-public-service-and-labour-holds-ministerial-handover-ceremony",
+      "text_sha256": "b28347c23b63a5a042e12c5ecb8f343365bfb230f97d009aaaaaea1cecfbab9d",
+      "original_evidence_indices": [
+        16
+      ],
+      "reasons": [
+        "Фрагменты одной церемонии передачи полномочий 15.06.2026."
+      ],
+      "canonical_event_id": "uwizeye-mifotra-handover-2026-06-15"
+    },
+    {
+      "object_id": "judith-uwizeye",
+      "source_url": "https://www.mod.gov.rw/docs-media/news-detail/mifotra-and-npsc-discuss-measures-to-strengthen-public-service-management",
+      "text_sha256": "9227f2a1c62be63070510439f8c6c7b37822d31f5d2e3e2a247c0141d39c4d2e",
+      "original_evidence_indices": [
+        6
+      ],
+      "reasons": [
+        "Разные темы одного совещания 18.08.2026, не независимые повторные события."
+      ],
+      "canonical_event_id": "uwizeye-npsc-meeting-2026-08-18"
+    },
+    {
+      "object_id": "judith-uwizeye",
+      "source_url": "https://www.mod.gov.rw/docs-media/news-detail/mifotra-and-npsc-discuss-measures-to-strengthen-public-service-management",
+      "text_sha256": "d75291760a4a5266dacc923a903f3a68be2d1dd4497d3778ff7d21d1378ebbea",
+      "original_evidence_indices": [
+        7
+      ],
+      "reasons": [
+        "Разные темы одного совещания 18.08.2026, не независимые повторные события."
+      ],
+      "canonical_event_id": "uwizeye-npsc-meeting-2026-08-18"
+    },
+    {
+      "object_id": "judith-uwizeye",
+      "source_url": "https://www.mifotra.gov.rw/news-detail/mifotra-and-npsc-discuss-measures-to-strengthen-public-service-management",
+      "text_sha256": "b96f55f760c14398488d97fcb69b8b75e9ef8ac34094d22710f6f7f036ae2b7d",
+      "original_evidence_indices": [
+        11
+      ],
+      "reasons": [
+        "Разные темы одного совещания 18.08.2026, не независимые повторные события."
+      ],
+      "canonical_event_id": "uwizeye-npsc-meeting-2026-08-18"
+    },
+    {
+      "object_id": "judith-uwizeye",
+      "source_url": "https://www.mifotra.gov.rw/news-detail/mifotra-and-npsc-discuss-measures-to-strengthen-public-service-management",
+      "text_sha256": "32de40fbf7d5019bfc0ce761fdd0dc380526aac7f8c7e33b97e00e087c9ca700",
+      "original_evidence_indices": [
+        12
+      ],
+      "reasons": [
+        "Разные темы одного совещания 18.08.2026, не независимые повторные события."
+      ],
+      "canonical_event_id": "uwizeye-npsc-meeting-2026-08-18"
+    },
+    {
+      "object_id": "judith-uwizeye",
+      "source_url": "https://www.mifotra.gov.rw/news-detail/mifotra-and-npsc-discuss-measures-to-strengthen-public-service-management",
+      "text_sha256": "4aaa6d91eed034da4e0dd4812c141e8020783cdd96cc7497ccf42f6598b44251",
+      "original_evidence_indices": [
+        14
+      ],
+      "reasons": [
+        "Разные темы одного совещания 18.08.2026, не независимые повторные события."
+      ],
+      "canonical_event_id": "uwizeye-npsc-meeting-2026-08-18"
+    },
+    {
+      "object_id": "judith-uwizeye",
+      "source_url": "https://www.mifotra.gov.rw/news-detail/mifotra-and-npsc-discuss-measures-to-strengthen-public-service-management",
+      "text_sha256": "c963d6341f36051ebd282f04cbabf8ecdd7b32dd99388c4d43be0f82c2878453",
+      "original_evidence_indices": [
+        15
+      ],
+      "reasons": [
+        "Разные темы одного совещания 18.08.2026, не независимые повторные события."
+      ],
+      "canonical_event_id": "uwizeye-npsc-meeting-2026-08-18"
+    },
+    {
+      "object_id": "judith-uwizeye",
+      "source_url": "https://www.mifotra.gov.rw/news-detail/mifotra-and-npsc-discuss-measures-to-strengthen-public-service-management",
+      "text_sha256": "bc7a13f4eebb442802fc3591999c58f3ce07268dd88141d7ec6f83646878b1a8",
+      "original_evidence_indices": [
+        17
+      ],
+      "reasons": [
+        "Разные темы одного совещания 18.08.2026, не независимые повторные события."
+      ],
+      "canonical_event_id": "uwizeye-npsc-meeting-2026-08-18"
+    },
+    {
+      "object_id": "judith-uwizeye",
+      "source_url": "https://www.mifotra.gov.rw/news-detail/mifotra-and-npsc-discuss-measures-to-strengthen-public-service-management",
+      "text_sha256": "b9d5fa445787052d0549e931b18428031cdf2099ece1e8621c2f09c9debd82f8",
+      "original_evidence_indices": [
+        18
+      ],
+      "reasons": [
+        "Разные темы одного совещания 18.08.2026, не независимые повторные события."
+      ],
+      "canonical_event_id": "uwizeye-npsc-meeting-2026-08-18"
+    },
+    {
+      "object_id": "judith-uwizeye",
+      "source_url": "https://www.mifotra.gov.rw/news-detail/mifotra-and-npsc-discuss-measures-to-strengthen-public-service-management",
+      "text_sha256": "2173bca7b28d316c8ba9bb7bd157a3f63d71246b7a51b6d19bdc7c96a01a5a9b",
+      "original_evidence_indices": [
+        19
+      ],
+      "reasons": [
+        "Разные темы одного совещания 18.08.2026, не независимые повторные события."
+      ],
+      "canonical_event_id": "uwizeye-npsc-meeting-2026-08-18"
+    },
+    {
+      "object_id": "judith-uwizeye",
+      "source_url": "https://www.mifotra.gov.rw/news-detail/mifotra-and-npsc-discuss-measures-to-strengthen-public-service-management",
+      "text_sha256": "92eed1aa3f46f69f96beba5ccb2a26f78c8508e51b793fd9240dd94a21710e38",
+      "original_evidence_indices": [
+        20
+      ],
+      "reasons": [
+        "Разные темы одного совещания 18.08.2026, не независимые повторные события."
+      ],
+      "canonical_event_id": "uwizeye-npsc-meeting-2026-08-18"
+    },
+    {
+      "object_id": "francis-gatare",
+      "source_url": "https://x.com/Francis_Gatare",
+      "text_sha256": "e4a041b72424c54a62cc53e73b05196c731531f78eaca7cea17e22b285297dbf",
+      "original_evidence_indices": [
+        2
+      ],
+      "reasons": [
+        "Соглашение ROSGEO на сочинском Russia–Africa Forum относится к 2019 году, что установлено прежним source-audit. Растянутый period 2023–2026 в raw-досье ошибочно пропускает эпизод через формальный фильтр; не использовать эти факты для будущего оценивания."
+      ],
+      "excluded": true
+    },
+    {
+      "object_id": "francis-gatare",
+      "source_url": "https://x.com/Francis_Gatare",
+      "text_sha256": "26096b25a3b8c83f8113b71b0002928866e96f10147b5921be8f9f699f07564f",
+      "original_evidence_indices": [
+        9
+      ],
+      "reasons": [
+        "Соглашение ROSGEO на сочинском Russia–Africa Forum относится к 2019 году, что установлено прежним source-audit. Растянутый period 2023–2026 в raw-досье ошибочно пропускает эпизод через формальный фильтр; не использовать эти факты для будущего оценивания."
+      ],
+      "excluded": true
+    },
+    {
+      "object_id": "pudence-rubingisa",
+      "source_url": "https://chandlergovernance.com/governancematters/getting-transformation-right",
+      "text_sha256": "640426a784de392e4b4980863f6d1ef4e8349ab4a641d2374a17bdf2fc5ca389",
+      "original_evidence_indices": [
+        12
+      ],
+      "reasons": [
+        "Сами тексты не устанавливают дату интервью; period на всё исследовательское окно искусственно создаёт видимость датированного основания. Не использовать без первичной датировки."
+      ],
+      "excluded": true
+    },
+    {
+      "object_id": "pudence-rubingisa",
+      "source_url": "https://chandlergovernance.com/governancematters/getting-transformation-right",
+      "text_sha256": "7b6dd0a9c66cb0352d96b24a542378436028b82bfdcebcec3a1caaa1c42cd534",
+      "original_evidence_indices": [
+        13
+      ],
+      "reasons": [
+        "Сами тексты не устанавливают дату интервью; period на всё исследовательское окно искусственно создаёт видимость датированного основания. Не использовать без первичной датировки."
+      ],
+      "excluded": true
+    },
+    {
+      "object_id": "mussa-fazil-harerimana",
+      "source_url": "https://www.ktpress.rw/2021/12/pdi-party-marks-30-years-with-pledge-of-allegiance-to-ruling-party/",
+      "text_sha256": "696e01faab385e1cd6eacc62781c3bc551ca47919a7c1f6f647c5e1d19dddc27",
+      "original_evidence_indices": [
+        6
+      ],
+      "reasons": [
+        "Одно30-летиеPDI; старые30ноября и новые2декабря отражают событие/публикацию, не новые выступления."
+      ],
+      "canonical_event_id": "harerimana-pdi-30th-anniversary-2021"
+    },
+    {
+      "object_id": "mussa-fazil-harerimana",
+      "source_url": "https://www.ktpress.rw/2021/12/pdi-party-marks-30-years-with-pledge-of-allegiance-to-ruling-party/",
+      "text_sha256": "ee2d1b90f1e563a74e26b74641a53d1bdc056c796cde499316479e9c80523898",
+      "original_evidence_indices": [
+        7
+      ],
+      "reasons": [
+        "Одно30-летиеPDI; старые30ноября и новые2декабря отражают событие/публикацию, не новые выступления."
+      ],
+      "canonical_event_id": "harerimana-pdi-30th-anniversary-2021"
+    },
+    {
+      "object_id": "mussa-fazil-harerimana",
+      "source_url": "https://www.ktpress.rw/2021/12/pdi-party-marks-30-years-with-pledge-of-allegiance-to-ruling-party/",
+      "text_sha256": "af812c78be03a0994ff846fd0db63fd8773fb064e9f5bceb66aa442b0510f277",
+      "original_evidence_indices": [
+        12
+      ],
+      "reasons": [
+        "Одно30-летиеPDI; старые30ноября и новые2декабря отражают событие/публикацию, не новые выступления."
+      ],
+      "canonical_event_id": "harerimana-pdi-30th-anniversary-2021"
+    },
+    {
+      "object_id": "mussa-fazil-harerimana",
+      "source_url": "https://www.ktpress.rw/2021/12/pdi-party-marks-30-years-with-pledge-of-allegiance-to-ruling-party/",
+      "text_sha256": "2ff85e004aec2385f575faaa4389e367ca0eb2e0c9ee3c0be73123246e803485",
+      "original_evidence_indices": [
+        13
+      ],
+      "reasons": [
+        "Одно30-летиеPDI; старые30ноября и новые2декабря отражают событие/публикацию, не новые выступления."
+      ],
+      "canonical_event_id": "harerimana-pdi-30th-anniversary-2021"
+    },
+    {
+      "object_id": "mussa-fazil-harerimana",
+      "source_url": "https://www.ktpress.rw/2021/12/pdi-party-marks-30-years-with-pledge-of-allegiance-to-ruling-party/",
+      "text_sha256": "076aa6831de215cf43398a5e992b9439a90bbebf9d227cfd5310584f5c7e0332",
+      "original_evidence_indices": [
+        14
+      ],
+      "reasons": [
+        "Одно30-летиеPDI; старые30ноября и новые2декабря отражают событие/публикацию, не новые выступления."
+      ],
+      "canonical_event_id": "harerimana-pdi-30th-anniversary-2021"
+    },
+    {
+      "object_id": "mussa-fazil-harerimana",
+      "source_url": "https://www.ktpress.rw/2021/12/pdi-party-marks-30-years-with-pledge-of-allegiance-to-ruling-party/",
+      "text_sha256": "274bfed808af2820f3882a747ec6c38ebb787bad0ef962f496ff66be99eba737",
+      "original_evidence_indices": [
+        16
+      ],
+      "reasons": [
+        "Одно30-летиеPDI; старые30ноября и новые2декабря отражают событие/публикацию, не новые выступления."
+      ],
+      "canonical_event_id": "harerimana-pdi-30th-anniversary-2021"
+    },
+    {
+      "object_id": "mussa-fazil-harerimana",
+      "source_url": "https://rwandadispatch.com/charting-progress-africa-needs-rwandas-governance-model/",
+      "text_sha256": "a74e837abd7a0d43162ef4f1ed583856db059de1b038ec6fa6d9f888f27d0242",
+      "original_evidence_indices": [
+        17
+      ],
+      "reasons": [
+        "Два тезиса одного заявления."
+      ],
+      "canonical_event_id": "harerimana-endorsement-2024-07-09"
+    },
+    {
+      "object_id": "mussa-fazil-harerimana",
+      "source_url": "https://rwandadispatch.com/charting-progress-africa-needs-rwandas-governance-model/",
+      "text_sha256": "67d69a0d1088d8562a162958ff65e9c131e66716ac7dd7bec061c5b820b1a468",
+      "original_evidence_indices": [
+        18
+      ],
+      "reasons": [
+        "Два тезиса одного заявления."
+      ],
+      "canonical_event_id": "harerimana-endorsement-2024-07-09"
+    },
+    {
+      "object_id": "pudence-rubingisa",
+      "source_url": "https://www.shiftcities.org/post/kigali-path-toward-green-climate-resilient-growth",
+      "text_sha256": "a7745ec83e2356df914ab2d005dbb3b6cf88ac8d88856a544e23aa0152a324b9",
+      "original_evidence_indices": [
+        2
+      ],
+      "reasons": [
+        "Одна программная беседа, разделённая на транспорт/обмен опытом."
+      ],
+      "canonical_event_id": "rubingisa-interview-2022-07-14"
+    },
+    {
+      "object_id": "pudence-rubingisa",
+      "source_url": "https://www.shiftcities.org/post/kigali-path-toward-green-climate-resilient-growth",
+      "text_sha256": "60f7874393da60d4238aaab2d32bcf3384e3a98481330d1d0edc80fdebd222b1",
+      "original_evidence_indices": [
+        16
+      ],
+      "reasons": [
+        "Одна программная беседа, разделённая на транспорт/обмен опытом."
+      ],
+      "canonical_event_id": "rubingisa-interview-2022-07-14"
+    },
+    {
+      "object_id": "pudence-rubingisa",
+      "source_url": "https://www.shiftcities.org/post/kigali-path-toward-green-climate-resilient-growth",
+      "text_sha256": "1a5ce7f63483786aa35c0a86d09d4865ff2c07681894ce2455d8a8e10470cc85",
+      "original_evidence_indices": [
+        17
+      ],
+      "reasons": [
+        "Одна программная беседа, разделённая на транспорт/обмен опытом."
+      ],
+      "canonical_event_id": "rubingisa-interview-2022-07-14"
+    },
+    {
+      "object_id": "pudence-rubingisa",
+      "source_url": "https://www.kigalicity.gov.rw/news-detail/the-city-of-kigali-held-a-press-conference-with-journalists-on-citys-development",
+      "text_sha256": "527bfaa2ac2f279683063fea2f91a1fa83dac7404793dd36cb38dc7bef88d7da",
+      "original_evidence_indices": [
+        19
+      ],
+      "reasons": [
+        "Тематические фрагменты одной пресс-конференции."
+      ],
+      "canonical_event_id": "rubingisa-press-conference-2022-08-03"
+    },
+    {
+      "object_id": "pudence-rubingisa",
+      "source_url": "https://www.kigalicity.gov.rw/news-detail/the-city-of-kigali-held-a-press-conference-with-journalists-on-citys-development",
+      "text_sha256": "a9ee648a214f8e2db1b62898d381cd9835eec8d5f00be1ab67f2b40b41a47e69",
+      "original_evidence_indices": [
+        20
+      ],
+      "reasons": [
+        "Тематические фрагменты одной пресс-конференции."
+      ],
+      "canonical_event_id": "rubingisa-press-conference-2022-08-03"
+    },
+    {
+      "object_id": "pudence-rubingisa",
+      "source_url": "https://www.kigalicity.gov.rw/news-detail/the-city-of-kigali-held-a-press-conference-with-journalists-on-citys-development",
+      "text_sha256": "65b1adb95224a3981002a528e90b674815245e4e4128b4a80316f679b8b7dd2a",
+      "original_evidence_indices": [
+        21
+      ],
+      "reasons": [
+        "Тематические фрагменты одной пресс-конференции."
+      ],
+      "canonical_event_id": "rubingisa-press-conference-2022-08-03"
+    },
+    {
+      "object_id": "pudence-rubingisa",
+      "source_url": "https://www.kigalicity.gov.rw/news-detail/the-city-of-kigali-held-a-press-conference-with-journalists-on-citys-development",
+      "text_sha256": "a0e2972e112d21b3666d4b0c05aa894889fb5c023e65501970a1173829c6da31",
+      "original_evidence_indices": [
+        22
+      ],
+      "reasons": [
+        "Тематические фрагменты одной пресс-конференции."
+      ],
+      "canonical_event_id": "rubingisa-press-conference-2022-08-03"
+    },
+    {
+      "object_id": "pudence-rubingisa",
+      "source_url": "https://www.kigalicity.gov.rw/news-detail/the-city-of-kigali-held-a-press-conference-with-journalists-on-citys-development",
+      "text_sha256": "b30e2a7ad1df563da089303f6c8d81995978c95c240d1738f15d7cf4f35d744c",
+      "original_evidence_indices": [
+        23
+      ],
+      "reasons": [
+        "Тематические фрагменты одной пресс-конференции."
+      ],
+      "canonical_event_id": "rubingisa-press-conference-2022-08-03"
+    },
+    {
+      "object_id": "pudence-rubingisa",
+      "source_url": "https://english.news.cn/africa/20220327/d0bc3d0ce2d541a8a25de6f18f253a01/c.html",
+      "text_sha256": "1a3cfba1aaec427b00ebf998776bdcc4162c1cf322a1ddd5491b30177756b6dd",
+      "original_evidence_indices": [
+        15
+      ],
+      "reasons": [
+        "Два сообщения о возобновившемсяUmuganda; даты26/27марта не доказывают разные выступления."
+      ],
+      "canonical_event_id": "rubingisa-umuganda-march-2022"
+    },
+    {
+      "object_id": "pudence-rubingisa",
+      "source_url": "https://english.news.cn/africa/20220327/d0bc3d0ce2d541a8a25de6f18f253a01/c.html",
+      "text_sha256": "93d307637d87c7660fad241851a22cce44da4135d7604184ef449bbdb9edd98c",
+      "original_evidence_indices": [
+        30
+      ],
+      "reasons": [
+        "Два сообщения о возобновившемсяUmuganda; даты26/27марта не доказывают разные выступления."
+      ],
+      "canonical_event_id": "rubingisa-umuganda-march-2022"
+    },
+    {
+      "object_id": "samuel-dusengiyumva",
+      "source_url": "https://www.kigalicity.gov.rw/news-detail/the-city-mayor-meet-with-51-newly-cells-executive-secretaries",
+      "text_sha256": "4e8e29c1e982dac3f99c08321c8a33561bff8b4f8c0767e36c55d3bbee188c4c",
+      "original_evidence_indices": [
+        0
+      ],
+      "reasons": [
+        "Один инструктаж руководителей ячеек."
+      ],
+      "canonical_event_id": "dusengiyumva-cell-leaders-2024-04-03"
+    },
+    {
+      "object_id": "samuel-dusengiyumva",
+      "source_url": "https://www.kigalicity.gov.rw/news-detail/the-city-mayor-meet-with-51-newly-cells-executive-secretaries",
+      "text_sha256": "445224a8d2d73541bff1e6d1e59c86944401a2de1bdb58c04a0ffea0567f2332",
+      "original_evidence_indices": [
+        1
+      ],
+      "reasons": [
+        "Один инструктаж руководителей ячеек."
+      ],
+      "canonical_event_id": "dusengiyumva-cell-leaders-2024-04-03"
+    },
+    {
+      "object_id": "samuel-dusengiyumva",
+      "source_url": "https://allafrica.com/stories/202506250073.html",
+      "text_sha256": "ab05dff53f6b08224c8e629e3e8017cc8aa3fe36938a97dc84473a1ed19af043",
+      "original_evidence_indices": [
+        2
+      ],
+      "reasons": [
+        "Один доклад городской ассамблее24–25июня."
+      ],
+      "canonical_event_id": "dusengiyumva-assembly-june-2025"
+    },
+    {
+      "object_id": "samuel-dusengiyumva",
+      "source_url": "https://allafrica.com/stories/202506250073.html",
+      "text_sha256": "2a733a97b8ea41bd41195479845b6e506d8abc475ab85d69ebcea60bd8dcd277",
+      "original_evidence_indices": [
+        3
+      ],
+      "reasons": [
+        "Один доклад городской ассамблее24–25июня."
+      ],
+      "canonical_event_id": "dusengiyumva-assembly-june-2025"
+    },
+    {
+      "object_id": "samuel-dusengiyumva",
+      "source_url": "https://allafrica.com/stories/202506250073.html",
+      "text_sha256": "748436d3828cef376244a364817c8a3510c6c42559d7fe3bee7555ed54c9db8c",
+      "original_evidence_indices": [
+        4
+      ],
+      "reasons": [
+        "Один доклад городской ассамблее24–25июня."
+      ],
+      "canonical_event_id": "dusengiyumva-assembly-june-2025"
+    },
+    {
+      "object_id": "samuel-dusengiyumva",
+      "source_url": "https://allafrica.com/stories/202506250073.html",
+      "text_sha256": "b4405c0a03203ea733786ff665fa677f7509e79e4b5161b708eb142c9c932e56",
+      "original_evidence_indices": [
+        5
+      ],
+      "reasons": [
+        "Один доклад городской ассамблее24–25июня."
+      ],
+      "canonical_event_id": "dusengiyumva-assembly-june-2025"
+    },
+    {
+      "object_id": "samuel-dusengiyumva",
+      "source_url": "https://www.africa-press.net/rwanda/policy/kigali-explores-tourism-and-investment-with-korean-city",
+      "text_sha256": "9e21bc67cfbb1123ae065bd2cd1d4b8f7ff511c85eafe8fc405e73f673e09503",
+      "original_evidence_indices": [
+        6
+      ],
+      "reasons": [
+        "Аспекты одной поездки/саммита28–30октября."
+      ],
+      "canonical_event_id": "dusengiyumva-busan-october-2025"
+    },
+    {
+      "object_id": "samuel-dusengiyumva",
+      "source_url": "https://www.africa-press.net/rwanda/policy/kigali-explores-tourism-and-investment-with-korean-city",
+      "text_sha256": "2a1e3554bfade08ecbf8de81f136916f77cb259cbf3e7181daf257ded806bd37",
+      "original_evidence_indices": [
+        7
+      ],
+      "reasons": [
+        "Аспекты одной поездки/саммита28–30октября."
+      ],
+      "canonical_event_id": "dusengiyumva-busan-october-2025"
+    },
+    {
+      "object_id": "samuel-dusengiyumva",
+      "source_url": "https://www.africa-press.net/rwanda/policy/kigali-explores-tourism-and-investment-with-korean-city",
+      "text_sha256": "c9b83c7096c1da65e901c9c3a7562f35097a2b637dfa57d0a9cbc5297a343344",
+      "original_evidence_indices": [
+        8
+      ],
+      "reasons": [
+        "Аспекты одной поездки/саммита28–30октября."
+      ],
+      "canonical_event_id": "dusengiyumva-busan-october-2025"
+    },
+    {
+      "object_id": "samuel-dusengiyumva",
+      "source_url": "https://www.newtimes.co.rw/article/28156/news/housing/construction-city-to-refund-rwf120m-in-overpaid-permit-fees",
+      "text_sha256": "cf3e22dcd94f66b00bdbee0871e3d341072895a5d444febc4ffaf2e36af53b7e",
+      "original_evidence_indices": [
+        12
+      ],
+      "reasons": [
+        "Одно исправление начислений/возвратов."
+      ],
+      "canonical_event_id": "dusengiyumva-permit-refunds-2025-07-17"
+    },
+    {
+      "object_id": "samuel-dusengiyumva",
+      "source_url": "https://www.newtimes.co.rw/article/28156/news/housing/construction-city-to-refund-rwf120m-in-overpaid-permit-fees",
+      "text_sha256": "52edadb2822376d065e18a084df0a71f4a0e0c00dacfd25296b1bcea157d6a79",
+      "original_evidence_indices": [
+        13
+      ],
+      "reasons": [
+        "Одно исправление начислений/возвратов."
+      ],
+      "canonical_event_id": "dusengiyumva-permit-refunds-2025-07-17"
+    },
+    {
+      "object_id": "samuel-dusengiyumva",
+      "source_url": "https://police.gov.rw/media/news-detail/news/kigali-over-500-youth-volunteers-tipped-on-responsible-social-media-use/",
+      "text_sha256": "7433ed5afd66fa90ed683f762b6849924f7e2920317c6c4320e93b075f29ae69",
+      "original_evidence_indices": [
+        21
+      ],
+      "reasons": [
+        "Одна речь о социальных сетях/имидже."
+      ],
+      "canonical_event_id": "dusengiyumva-youth-volunteers-2025-06-27"
+    },
+    {
+      "object_id": "samuel-dusengiyumva",
+      "source_url": "https://police.gov.rw/media/news-detail/news/kigali-over-500-youth-volunteers-tipped-on-responsible-social-media-use/",
+      "text_sha256": "4b84dc5e5b763d71c97b7e3cf522ab1f227c81dbd62ad7bb5ac368b56b2f9fb4",
+      "original_evidence_indices": [
+        29
+      ],
+      "reasons": [
+        "Одна речь о социальных сетях/имидже."
+      ],
+      "canonical_event_id": "dusengiyumva-youth-volunteers-2025-06-27"
+    },
+    {
+      "object_id": "frank-habineza",
+      "source_url": "https://www.newtimes.co.rw/article/18011/news/elections/i-will-be-the-president-of-rwanda-claims-green-partys-habineza/amp",
+      "text_sha256": "fb9c375bf9b933a7cefce8d0db3d4b8c7f2d39f9a23478eaf9d4727c5f181405",
+      "original_evidence_indices": [
+        0
+      ],
+      "reasons": [
+        "Повторы одного манифеста и самооценки70%; не независимые выступления."
+      ],
+      "canonical_event_id": "habineza-manifesto-2024-06-27"
+    },
+    {
+      "object_id": "frank-habineza",
+      "source_url": "https://www.newtimes.co.rw/article/18011/news/elections/i-will-be-the-president-of-rwanda-claims-green-partys-habineza/amp",
+      "text_sha256": "e582fde7045d3b8dbcbe4ebecddf25cd98e21bf77007518cc17b27e296f5a50a",
+      "original_evidence_indices": [
+        1
+      ],
+      "reasons": [
+        "Повторы одного манифеста и самооценки70%; не независимые выступления."
+      ],
+      "canonical_event_id": "habineza-manifesto-2024-06-27"
+    },
+    {
+      "object_id": "frank-habineza",
+      "source_url": "https://www.newtimes.co.rw/article/18011/news/elections/i-will-be-the-president-of-rwanda-claims-green-partys-habineza/amp",
+      "text_sha256": "f190d3412a7ca5a133206915f36480286132edf4f40208db08f277c20d4959b3",
+      "original_evidence_indices": [
+        6
+      ],
+      "reasons": [
+        "Повторы одного манифеста и самооценки70%; не независимые выступления."
+      ],
+      "canonical_event_id": "habineza-manifesto-2024-06-27"
+    },
+    {
+      "object_id": "frank-habineza",
+      "source_url": "https://www.newtimes.co.rw/article/18011/news/elections/i-will-be-the-president-of-rwanda-claims-green-partys-habineza/amp",
+      "text_sha256": "ff576dddb912aad09eadd02420588d5200a023e4f8d0fc70e0fb898ececf0b85",
+      "original_evidence_indices": [
+        11
+      ],
+      "reasons": [
+        "Повторы одного манифеста и самооценки70%; не независимые выступления."
+      ],
+      "canonical_event_id": "habineza-manifesto-2024-06-27"
+    },
+    {
+      "object_id": "frank-habineza",
+      "source_url": "https://www.newtimes.co.rw/article/18011/news/elections/i-will-be-the-president-of-rwanda-claims-green-partys-habineza/amp",
+      "text_sha256": "b76ba4b2f49c5c80981e4602c132359dbaeb446ce6289376a3101bc347cb152e",
+      "original_evidence_indices": [
+        15
+      ],
+      "reasons": [
+        "Повторы одного манифеста и самооценки70%; не независимые выступления."
+      ],
+      "canonical_event_id": "habineza-manifesto-2024-06-27"
+    },
+    {
+      "object_id": "frank-habineza",
+      "source_url": "https://www.newtimes.co.rw/article/18011/news/elections/i-will-be-the-president-of-rwanda-claims-green-partys-habineza/amp",
+      "text_sha256": "4abc316dd088a4f16f7f7b9bfe5ab574ab2348eb2cb2b0e92821f26ea911eee3",
+      "original_evidence_indices": [
+        16
+      ],
+      "reasons": [
+        "Повторы одного манифеста и самооценки70%; не независимые выступления."
+      ],
+      "canonical_event_id": "habineza-manifesto-2024-06-27"
+    },
+    {
+      "object_id": "frank-habineza",
+      "source_url": "https://www.newtimes.co.rw/article/18346/news/elections/frank-habineza-campaigns-in-muhanga-promises-changes-in-mining-sector/amp",
+      "text_sha256": "c362241f219018573293dbb714d66076c8ec3b1c1ce632580855b47e7badbf98",
+      "original_evidence_indices": [
+        2
+      ],
+      "reasons": [
+        "Один предвыборный эпизод; социальная/экологическая части не отдельные выступления."
+      ],
+      "canonical_event_id": "habineza-muhanga-2024-07-09"
+    },
+    {
+      "object_id": "frank-habineza",
+      "source_url": "https://www.newtimes.co.rw/article/18346/news/elections/frank-habineza-campaigns-in-muhanga-promises-changes-in-mining-sector/amp",
+      "text_sha256": "4590389fa814c0ba1c4b069d31a2a2ff5695ca5a75692f88a82df17c627b9481",
+      "original_evidence_indices": [
+        3
+      ],
+      "reasons": [
+        "Один предвыборный эпизод; социальная/экологическая части не отдельные выступления."
+      ],
+      "canonical_event_id": "habineza-muhanga-2024-07-09"
+    },
+    {
+      "object_id": "frank-habineza",
+      "source_url": "https://www.newtimes.co.rw/article/18346/news/elections/frank-habineza-campaigns-in-muhanga-promises-changes-in-mining-sector/amp",
+      "text_sha256": "21e0fc6f9848022ebc96cbc09dfae172da60406670b0cb340ecba57b92932d1e",
+      "original_evidence_indices": [
+        7
+      ],
+      "reasons": [
+        "Один предвыборный эпизод; социальная/экологическая части не отдельные выступления."
+      ],
+      "canonical_event_id": "habineza-muhanga-2024-07-09"
+    },
+    {
+      "object_id": "frank-habineza",
+      "source_url": "https://www.ktpress.rw/2025/12/we-will-seek-power-through-an-electoral-vote-dgpr-president/",
+      "text_sha256": "6eb3846109e5ac20dc4764cdf37be08ee9412d4d811909d161d4246eeb4cce7c",
+      "original_evidence_indices": [
+        25
+      ],
+      "reasons": [
+        "Демократическийпуть/отказотнасилия — одна речь."
+      ],
+      "canonical_event_id": "habineza-karongi-2025-12-01"
+    },
+    {
+      "object_id": "frank-habineza",
+      "source_url": "https://www.ktpress.rw/2025/12/we-will-seek-power-through-an-electoral-vote-dgpr-president/",
+      "text_sha256": "b46db3da4bd8822ec2576616cfd5473b247d7b3de9185848c82881c7ed0e7c45",
+      "original_evidence_indices": [
+        26
+      ],
+      "reasons": [
+        "Демократическийпуть/отказотнасилия — одна речь."
+      ],
+      "canonical_event_id": "habineza-karongi-2025-12-01"
+    },
+    {
+      "object_id": "philippe-mpayimana",
+      "source_url": "https://allafrica.com/stories/202407100062.html",
+      "text_sha256": "8848c38d0d7c4cd85eec9cc4e8db14e3f4a31bbad083b36f7817d47b23957662",
+      "original_evidence_indices": [
+        12
+      ],
+      "reasons": [
+        "Один комплекс предложений о представительстве/квотах."
+      ],
+      "canonical_event_id": "mpayimana-parliament-proposal-july-2024"
+    },
+    {
+      "object_id": "philippe-mpayimana",
+      "source_url": "https://allafrica.com/stories/202407100062.html",
+      "text_sha256": "bee6eeb1db90f5784fbb68a0411f7a078098544a7a20a5fc494b906f2a6cb065",
+      "original_evidence_indices": [
+        13
+      ],
+      "reasons": [
+        "Один комплекс предложений о представительстве/квотах."
+      ],
+      "canonical_event_id": "mpayimana-parliament-proposal-july-2024"
+    },
+    {
+      "object_id": "philippe-mpayimana",
+      "source_url": "https://allafrica.com/stories/202407100062.html",
+      "text_sha256": "65eae8c709251b82e06109ea0ebfc8a451e27be7f173c9e029e8488434e96179",
+      "original_evidence_indices": [
+        27
+      ],
+      "reasons": [
+        "Один комплекс предложений о представительстве/квотах."
+      ],
+      "canonical_event_id": "mpayimana-parliament-proposal-july-2024"
+    },
+    {
+      "object_id": "philippe-mpayimana",
+      "source_url": "https://allafrica.com/stories/202407100062.html",
+      "text_sha256": "345a83fb90ef02bb939aeb81dffa37540c19dda1327f17804b4b1d7bdb36e579",
+      "original_evidence_indices": [
+        28
+      ],
+      "reasons": [
+        "Один комплекс предложений о представительстве/квотах."
+      ],
+      "canonical_event_id": "mpayimana-parliament-proposal-july-2024"
+    },
+    {
+      "object_id": "philippe-mpayimana",
+      "source_url": "https://allafrica.com/stories/202407100062.html",
+      "text_sha256": "402e22edcf732810167999c4b45e54dc5167385148f356a4adb3370051d4388d",
+      "original_evidence_indices": [
+        29
+      ],
+      "reasons": [
+        "Один комплекс предложений о представительстве/квотах."
+      ],
+      "canonical_event_id": "mpayimana-parliament-proposal-july-2024"
+    },
+    {
+      "object_id": "philippe-mpayimana",
+      "source_url": "https://allafrica.com/stories/202407100062.html",
+      "text_sha256": "78cd66c1ebf545c8b4ddb4c36bb92d6c92af734a213dd79627871cd3d935b5c9",
+      "original_evidence_indices": [
+        14
+      ],
+      "reasons": [
+        "Пересказы предложения о займах/его основания; не каждыйфакт новыйэпизод."
+      ],
+      "canonical_event_id": "mpayimana-student-loans-campaign-2024"
+    },
+    {
+      "object_id": "philippe-mpayimana",
+      "source_url": "https://allafrica.com/stories/202407100062.html",
+      "text_sha256": "73c6f551817fb48c3ba1d3b7bf05c389e8b608a9d4b4b9f0570c2ca6dad97b88",
+      "original_evidence_indices": [
+        18
+      ],
+      "reasons": [
+        "Пересказы предложения о займах/его основания; не каждыйфакт новыйэпизод."
+      ],
+      "canonical_event_id": "mpayimana-student-loans-campaign-2024"
+    },
+    {
+      "object_id": "philippe-mpayimana",
+      "source_url": "https://www.universityworldnews.com/post.php?story=20240710093845978",
+      "text_sha256": "9fded1d500c31f021d48f22a744d6b558d942bfe69058b04af0505188afb1cc8",
+      "original_evidence_indices": [
+        24
+      ],
+      "reasons": [
+        "Пересказы предложения о займах/его основания; не каждыйфакт новыйэпизод."
+      ],
+      "canonical_event_id": "mpayimana-student-loans-campaign-2024"
+    },
+    {
+      "object_id": "philippe-mpayimana",
+      "source_url": "https://www.universityworldnews.com/post.php?story=20240710093845978",
+      "text_sha256": "8ae1a89c48b3875390c0b795280bd3e7b00a01d280222961e76dbd92cd314388",
+      "original_evidence_indices": [
+        25
+      ],
+      "reasons": [
+        "Пересказы предложения о займах/его основания; не каждыйфакт новыйэпизод."
+      ],
+      "canonical_event_id": "mpayimana-student-loans-campaign-2024"
+    },
+    {
+      "object_id": "philippe-mpayimana",
+      "source_url": "https://allafrica.com/stories/202407100062.html",
+      "text_sha256": "d5a9e8a2400438b3559797fdba736391a554176ed639aed808225f83112ffd31",
+      "original_evidence_indices": [
+        30
+      ],
+      "reasons": [
+        "Пересказы предложения о займах/его основания; не каждыйфакт новыйэпизод."
+      ],
+      "canonical_event_id": "mpayimana-student-loans-campaign-2024"
+    },
+    {
+      "object_id": "victoire-ingabire",
+      "source_url": "https://www.victoireingabire.com/",
+      "text_sha256": "d9c5f0763346d01e310452d6c66897f7ac6231a38d9d82ddada53e22dbf724b6",
+      "original_evidence_indices": [
+        13
+      ],
+      "reasons": [
+        "Одна программнаястраница, несколько тем."
+      ],
+      "canonical_event_id": "ingabire-programme-2025-05-26"
+    },
+    {
+      "object_id": "victoire-ingabire",
+      "source_url": "https://www.victoireingabire.com/",
+      "text_sha256": "a2d8c0ce7d4516e48512fe5b1d64b0fcaf2a09dbf2c50fe19c11d669428efdf8",
+      "original_evidence_indices": [
+        14
+      ],
+      "reasons": [
+        "Одна программнаястраница, несколько тем."
+      ],
+      "canonical_event_id": "ingabire-programme-2025-05-26"
+    },
+    {
+      "object_id": "victoire-ingabire",
+      "source_url": "https://www.victoireingabire.com/",
+      "text_sha256": "6e3384be72af51d97592af9710f3c3a014d06a9c5f1a7cd9ea068891531d1bea",
+      "original_evidence_indices": [
+        15
+      ],
+      "reasons": [
+        "Одна программнаястраница, несколько тем."
+      ],
+      "canonical_event_id": "ingabire-programme-2025-05-26"
+    },
+    {
+      "object_id": "victoire-ingabire",
+      "source_url": "https://www.victoireingabire.com/",
+      "text_sha256": "c9aaaf9b7c3e828c4b79b9f613098265d55a9243667c8b42ad2db48bc1aed633",
+      "original_evidence_indices": [
+        16
+      ],
+      "reasons": [
+        "Одна программнаястраница, несколько тем."
+      ],
+      "canonical_event_id": "ingabire-programme-2025-05-26"
+    },
+    {
+      "object_id": "victoire-ingabire",
+      "source_url": "https://www.victoireingabire.com/",
+      "text_sha256": "553d19edf51d2de72d9a08325030c8bb758faf7c219aff27096a971d75e32f65",
+      "original_evidence_indices": [
+        17
+      ],
+      "reasons": [
+        "Одна программнаястраница, несколько тем."
+      ],
+      "canonical_event_id": "ingabire-programme-2025-05-26"
+    },
+    {
+      "object_id": "victoire-ingabire",
+      "source_url": "https://www.aljazeera.com/author/victoire-ingabire-umuhoza",
+      "text_sha256": "74c02cd69eb1f44f1066fabd1af971a70c7ab862f5c1ce2a5aa5b99ad5f60c68",
+      "original_evidence_indices": [
+        18
+      ],
+      "reasons": [
+        "Двапересказа однойавторскойстатьи."
+      ],
+      "canonical_event_id": "ingabire-peace-article-2025-06-03"
+    },
+    {
+      "object_id": "victoire-ingabire",
+      "source_url": "https://www.victoireingabire.com/",
+      "text_sha256": "d68112aa1946498252b317666b48158d195fb4efaae34de48454bd4812ef1e14",
+      "original_evidence_indices": [
+        19
+      ],
+      "reasons": [
+        "Двапересказа однойавторскойстатьи."
+      ],
+      "canonical_event_id": "ingabire-peace-article-2025-06-03"
+    },
+    {
+      "object_id": "diane-rwigara",
+      "source_url": "https://www.bbc.com/news/articles/cw007n5pn4wo",
+      "text_sha256": "c779275ebacfb06a4a0757079979f876da95e48be6636bb660117c41d26edb9d",
+      "original_evidence_indices": [
+        5
+      ],
+      "reasons": [
+        "Пересказы одногоинтервьюBBC, не новые доказательства повторяемости."
+      ],
+      "canonical_event_id": "rwigara-bbc-2024-06-19"
+    },
+    {
+      "object_id": "diane-rwigara",
+      "source_url": "https://www.bbc.com/gahuza/articles/cp66x9zxrw4o",
+      "text_sha256": "04711107d204ab57363674191a0d3c190ba56b1701845202c5ffa437b0485fde",
+      "original_evidence_indices": [
+        14
+      ],
+      "reasons": [
+        "Пересказы одногоинтервьюBBC, не новые доказательства повторяемости."
+      ],
+      "canonical_event_id": "rwigara-bbc-2024-06-19"
+    },
+    {
+      "object_id": "diane-rwigara",
+      "source_url": "https://www.bbc.com/gahuza/articles/cp66x9zxrw4o",
+      "text_sha256": "2b2233f5c8f9c90c4eee681b4699f9540c39c4f8bdce2b126f558c1bf94c5eee",
+      "original_evidence_indices": [
+        15
+      ],
+      "reasons": [
+        "Пересказы одногоинтервьюBBC, не новые доказательства повторяемости."
+      ],
+      "canonical_event_id": "rwigara-bbc-2024-06-19"
+    },
+    {
+      "object_id": "diane-rwigara",
+      "source_url": "https://www.bbc.com/gahuza/articles/cp66x9zxrw4o",
+      "text_sha256": "5aae9a03f64b0782ffe2bc7f932dcfb543fdcb1b2a1c81b934255b989511739d",
+      "original_evidence_indices": [
+        21
+      ],
+      "reasons": [
+        "Пересказы одногоинтервьюBBC, не новые доказательства повторяемости."
+      ],
+      "canonical_event_id": "rwigara-bbc-2024-06-19"
+    },
+    {
+      "object_id": "diane-rwigara",
+      "source_url": "https://www.bbc.com/gahuza/articles/cp66x9zxrw4o",
+      "text_sha256": "6978041a8b8ac45f8d871811f019358b97fb105f341f1b338bdc7cf657be72ac",
+      "original_evidence_indices": [
+        28
+      ],
+      "reasons": [
+        "Пересказы одногоинтервьюBBC, не новые доказательства повторяемости."
+      ],
+      "canonical_event_id": "rwigara-bbc-2024-06-19"
+    },
+    {
+      "object_id": "diane-rwigara",
+      "source_url": "https://www.bbc.com/gahuza/articles/cp66x9zxrw4o",
+      "text_sha256": "c5be810e627259f6d0f4d21f732c8643379af6f5e07e4b3a9a4823c9ab5b253d",
+      "original_evidence_indices": [
+        16
+      ],
+      "reasons": [
+        "Тезисы одной публикации о недопуске."
+      ],
+      "canonical_event_id": "rwigara-x-2024-06-19"
+    },
+    {
+      "object_id": "diane-rwigara",
+      "source_url": "https://www.bbc.com/gahuza/articles/cp66x9zxrw4o",
+      "text_sha256": "50cbcf9f0da7875124ad112cd9f38bd5066888d49f82579c738b1efb740df96a",
+      "original_evidence_indices": [
+        17
+      ],
+      "reasons": [
+        "Тезисы одной публикации о недопуске."
+      ],
+      "canonical_event_id": "rwigara-x-2024-06-19"
+    },
+    {
+      "object_id": "diane-rwigara",
+      "source_url": "https://www.bbc.com/gahuza/articles/cp66x9zxrw4o",
+      "text_sha256": "8b64591cd6e3b799b250dbddae60e7f90996a2bb8d3d70dc10415ebf1074c912",
+      "original_evidence_indices": [
+        22
+      ],
+      "reasons": [
+        "Тезисы одной публикации о недопуске."
+      ],
+      "canonical_event_id": "rwigara-x-2024-06-19"
+    },
+    {
+      "object_id": "diane-rwigara",
+      "source_url": "https://www.bbc.com/gahuza/articles/cp66x9zxrw4o",
+      "text_sha256": "ec7b3b699c87ca7293e1243814fc52beb28e738e3a3beeaee8d92d161a1e8b1c",
+      "original_evidence_indices": [
+        27
+      ],
+      "reasons": [
+        "Тезисы одной публикации о недопуске."
+      ],
+      "canonical_event_id": "rwigara-x-2024-06-19"
+    },
+    {
+      "object_id": "bernard-ntaganda",
+      "source_url": "https://www.voaafrica.com/a/rwanda-bars-opposition-figure-from-competing-in-elections-/7611200.html",
+      "text_sha256": "9259bd7f260ac15e6ec4d08cc3bd4ff032764c9f57d03f04ad5431f53a5f6bd0",
+      "original_evidence_indices": [
+        0
+      ],
+      "reasons": [
+        "Один процесс реабилитации/отказа; разныеисточники подтверждаютдело, не новыеегоубеждения."
+      ],
+      "canonical_event_id": "ntaganda-rehabilitation-2024"
+    },
+    {
+      "object_id": "bernard-ntaganda",
+      "source_url": "https://www.voaafrica.com/a/rwanda-bars-opposition-figure-from-competing-in-elections-/7611200.html",
+      "text_sha256": "6d664104aa0ef792b26fee7f382c1fad26ed7d7aac0b912f3e3463d8c0352d62",
+      "original_evidence_indices": [
+        4
+      ],
+      "reasons": [
+        "Один процесс реабилитации/отказа; разныеисточники подтверждаютдело, не новыеегоубеждения."
+      ],
+      "canonical_event_id": "ntaganda-rehabilitation-2024"
+    },
+    {
+      "object_id": "bernard-ntaganda",
+      "source_url": "https://www.amnesty.org/en/wp-content/uploads/2024/07/AFR4782752024ENGLISH.pdf",
+      "text_sha256": "307f425e621d1af54204c300dc86592eb0bb9c26efe1f30f86a187e878e18a1a",
+      "original_evidence_indices": [
+        5
+      ],
+      "reasons": [
+        "Один процесс реабилитации/отказа; разныеисточники подтверждаютдело, не новыеегоубеждения."
+      ],
+      "canonical_event_id": "ntaganda-rehabilitation-2024"
+    },
+    {
+      "object_id": "paul-rusesabagina",
+      "source_url": "https://www.lemonde.fr/en/international/article/2023/03/24/hotel-rwanda-hero-s-jail-sentence-commuted_6020529_4.html",
+      "text_sha256": "4f5b9caba16688c27104b426061d9c0fb7dd102790a8f525874c350c3f515b1a",
+      "original_evidence_indices": [
+        2
+      ],
+      "reasons": [
+        "Одноходатайство, поздние пересказы не новыеэпизоды."
+      ],
+      "canonical_event_id": "rusesabagina-clemency-october-2022"
+    },
+    {
+      "object_id": "paul-rusesabagina",
+      "source_url": "https://www.cnn.com/2023/03/24/africa/paul-rusesabagina-released-rwanda-intl/",
+      "text_sha256": "12e0cd914b357ee6cb32a1ed238334f5256eb4c742627a50c8b1cdb9d753bbb8",
+      "original_evidence_indices": [
+        3
+      ],
+      "reasons": [
+        "Одноходатайство, поздние пересказы не новыеэпизоды."
+      ],
+      "canonical_event_id": "rusesabagina-clemency-october-2022"
+    },
+    {
+      "object_id": "paul-rusesabagina",
+      "source_url": "https://www.straitstimes.com/world/united-states/hotel-rwanda-hero-paul-rusesabagina-freed-from-rwandan-jail",
+      "text_sha256": "f3690096b5a12c38cf1c078e79f08ac9fc90c0382ab066cba7b175992c02c014",
+      "original_evidence_indices": [
+        10
+      ],
+      "reasons": [
+        "Одноходатайство, поздние пересказы не новыеэпизоды."
+      ],
+      "canonical_event_id": "rusesabagina-clemency-october-2022"
+    },
+    {
+      "object_id": "kayumba-nyamwasa",
+      "source_url": "https://newspaper.africa/2025/11/10/terrorist-labels-ignite-debate-in-rwanda/",
+      "text_sha256": "9b6e480f044b2ef5585d53bb14daadf64a6a8d9e5c312289f9b683ab939e1f89",
+      "original_evidence_indices": [
+        2
+      ],
+      "reasons": [
+        "Одно заявлениеNewspaperAfrica. Аннотация15«послепериода»неверна:10.11.2025 входит15.10.2021–15.10.2026; не исключатьиз-занеё."
+      ],
+      "canonical_event_id": "nyamwasa-terrorism-response-2025-11-10"
+    },
+    {
+      "object_id": "kayumba-nyamwasa",
+      "source_url": "https://newspaper.africa/2025/11/10/terrorist-labels-ignite-debate-in-rwanda/",
+      "text_sha256": "3993fea4fd4801d0fe47642c322e39c272cbf2017fe53687413dc76e571fd64b",
+      "original_evidence_indices": [
+        15
+      ],
+      "reasons": [
+        "Одно заявлениеNewspaperAfrica. Аннотация15«послепериода»неверна:10.11.2025 входит15.10.2021–15.10.2026; не исключатьиз-занеё."
+      ],
+      "canonical_event_id": "nyamwasa-terrorism-response-2025-11-10"
+    },
+    {
+      "object_id": "louise-mushikiwabo",
+      "source_url": "https://www.francophonie.org/louise-mushikiwabo-au-36e-sommet-de-lunion-africaine-2617",
+      "text_sha256": "e2e746b68b68834a591e9357ab9d317b3a5c7da07c075e0906363d9cf77272ff",
+      "original_evidence_indices": [
+        4
+      ],
+      "reasons": [
+        "Однокультурноемероприятие, дваописания."
+      ],
+      "canonical_event_id": "mushikiwabo-francophone-au-event-2023"
+    },
+    {
+      "object_id": "louise-mushikiwabo",
+      "source_url": "https://www.francophonie.org/louise-mushikiwabo-au-36e-sommet-de-lunion-africaine-2617",
+      "text_sha256": "43901b9cd77bcba202b6a3739396c12923fbb9ce9a08acc385cc1e46727eca58",
+      "original_evidence_indices": [
+        8
+      ],
+      "reasons": [
+        "Однокультурноемероприятие, дваописания."
+      ],
+      "canonical_event_id": "mushikiwabo-francophone-au-event-2023"
+    },
+    {
+      "object_id": "louise-mushikiwabo",
+      "source_url": "https://www.francophonie.org/la-secretaire-generale-de-la-francophonie-demeure-extremement-preoccupee-par-la-persistance-de-2636",
+      "text_sha256": "f0a2435efef6fe54b9fb316155e8142b0442a7294b559ca6e8322533eb259e40",
+      "original_evidence_indices": [
+        9
+      ],
+      "reasons": [
+        "ОдноименноезаявлениеOIF; повтор не второероссийскоесвидетельство."
+      ],
+      "canonical_event_id": "mushikiwabo-oif-ukraine-2023-02-24"
+    },
+    {
+      "object_id": "louise-mushikiwabo",
+      "source_url": "https://www.francophonie.org/la-secretaire-generale-de-la-francophonie-demeure-extremement-preoccupee-par-la-persistance-de-2636",
+      "text_sha256": "0eaf56c7a2a32d1e5a8d46de48306768c751968cb550ad07de43659b8b24654f",
+      "original_evidence_indices": [
+        15
+      ],
+      "reasons": [
+        "ОдноименноезаявлениеOIF; повтор не второероссийскоесвидетельство."
+      ],
+      "canonical_event_id": "mushikiwabo-oif-ukraine-2023-02-24"
+    },
+    {
+      "object_id": "valentine-rugwabiza",
+      "source_url": "https://media.un.org/unifeed/en/asset/d328/d3288160",
+      "text_sha256": "4743a1f28043dbcb4d155e937e237b7951c1daa385b0ad6e159890074ca529d2",
+      "original_evidence_indices": [
+        6
+      ],
+      "reasons": [
+        "Фрагменты одного брифингаСБООН: документы,ресурсы,риски — не независимые выступления."
+      ],
+      "canonical_event_id": "rugwabiza-unsc-2024-11-22"
+    },
+    {
+      "object_id": "valentine-rugwabiza",
+      "source_url": "https://media.un.org/unifeed/en/asset/d328/d3288160",
+      "text_sha256": "a55b397467e9999f43c4fd36a9c78d3cade21eabb342a9cc62e16454b07fe91d",
+      "original_evidence_indices": [
+        7
+      ],
+      "reasons": [
+        "Фрагменты одного брифингаСБООН: документы,ресурсы,риски — не независимые выступления."
+      ],
+      "canonical_event_id": "rugwabiza-unsc-2024-11-22"
+    },
+    {
+      "object_id": "valentine-rugwabiza",
+      "source_url": "https://media.un.org/unifeed/en/asset/d328/d3288160",
+      "text_sha256": "8a515d9df3efd2eddfb07901e1999a349733601575387e2fa1e756d2f00b741f",
+      "original_evidence_indices": [
+        8
+      ],
+      "reasons": [
+        "Фрагменты одного брифингаСБООН: документы,ресурсы,риски — не независимые выступления."
+      ],
+      "canonical_event_id": "rugwabiza-unsc-2024-11-22"
+    },
+    {
+      "object_id": "valentine-rugwabiza",
+      "source_url": "https://media.un.org/unifeed/en/asset/d328/d3288160",
+      "text_sha256": "e06fa985520e6c6c40f91ba6ebc044c10813875fb61d911fc39638d1572de0be",
+      "original_evidence_indices": [
+        11
+      ],
+      "reasons": [
+        "Фрагменты одного брифингаСБООН: документы,ресурсы,риски — не независимые выступления."
+      ],
+      "canonical_event_id": "rugwabiza-unsc-2024-11-22"
+    },
+    {
+      "object_id": "valentine-rugwabiza",
+      "source_url": "https://media.un.org/unifeed/en/asset/d328/d3288160",
+      "text_sha256": "75a182a612123305985a65f34004907ca54cc23a0dac000bfc70a88e463544bd",
+      "original_evidence_indices": [
+        12
+      ],
+      "reasons": [
+        "Фрагменты одного брифингаСБООН: документы,ресурсы,риски — не независимые выступления."
+      ],
+      "canonical_event_id": "rugwabiza-unsc-2024-11-22"
+    },
+    {
+      "object_id": "valentine-rugwabiza",
+      "source_url": "https://media.un.org/unifeed/en/asset/d328/d3288160",
+      "text_sha256": "c31fa7f04ec07ed63ad80afd635c90aadd1c2bd25ad21059e208f9a4271c7a3c",
+      "original_evidence_indices": [
+        14
+      ],
+      "reasons": [
+        "Фрагменты одного брифингаСБООН: документы,ресурсы,риски — не независимые выступления."
+      ],
+      "canonical_event_id": "rugwabiza-unsc-2024-11-22"
+    },
+    {
+      "object_id": "valentine-rugwabiza",
+      "source_url": "https://media.un.org/unifeed/en/asset/d328/d3288160",
+      "text_sha256": "aedb59046367b7be60879ad0c5081abf3112dd2e9ed11d58b107a6d05a67f191",
+      "original_evidence_indices": [
+        15
+      ],
+      "reasons": [
+        "Фрагменты одного брифингаСБООН: документы,ресурсы,риски — не независимые выступления."
+      ],
+      "canonical_event_id": "rugwabiza-unsc-2024-11-22"
+    },
+    {
+      "object_id": "valentine-rugwabiza",
+      "source_url": "https://media.un.org/unifeed/en/asset/d328/d3288160",
+      "text_sha256": "5e7be149879e3b63fea6e9ef69c5bc390a8306152e738078aa20c124e346d7f2",
+      "original_evidence_indices": [
+        16
+      ],
+      "reasons": [
+        "Фрагменты одного брифингаСБООН: документы,ресурсы,риски — не независимые выступления."
+      ],
+      "canonical_event_id": "rugwabiza-unsc-2024-11-22"
+    },
+    {
+      "object_id": "valentine-rugwabiza",
+      "source_url": "https://media.un.org/unifeed/en/asset/d328/d3288160",
+      "text_sha256": "38f5fefcb3a47ab40f43131bb6b5524ef05e7aa30d821b3127b378802ab20a99",
+      "original_evidence_indices": [
+        23
+      ],
+      "reasons": [
+        "Фрагменты одного брифингаСБООН: документы,ресурсы,риски — не независимые выступления."
+      ],
+      "canonical_event_id": "rugwabiza-unsc-2024-11-22"
+    },
+    {
+      "object_id": "valentine-rugwabiza",
+      "source_url": "https://news.un.org/en/story/2024/02/1146827",
+      "text_sha256": "fdd8d0ce09ff2e1a9b273e9ba580cfa472e343e1ab0353176accc3a5046ae403",
+      "original_evidence_indices": [
+        24
+      ],
+      "reasons": [
+        "Один брифингпосле нападения; оружие/подготовка/безопасность — частиречи."
+      ],
+      "canonical_event_id": "rugwabiza-unsc-2024-02-21"
+    },
+    {
+      "object_id": "valentine-rugwabiza",
+      "source_url": "https://news.un.org/en/story/2024/02/1146827",
+      "text_sha256": "d811aebe68a7f9a53e0911a623f1fd1dd521be4800b73b9a9cb3d608944580c0",
+      "original_evidence_indices": [
+        27
+      ],
+      "reasons": [
+        "Один брифингпосле нападения; оружие/подготовка/безопасность — частиречи."
+      ],
+      "canonical_event_id": "rugwabiza-unsc-2024-02-21"
+    },
+    {
+      "object_id": "valentine-rugwabiza",
+      "source_url": "https://news.un.org/en/story/2024/02/1146827",
+      "text_sha256": "ba05301f8c1e80b54ad481c639ad0eb5d08bc7e5c9f8ecd3b4bb5e84a1680440",
+      "original_evidence_indices": [
+        28
+      ],
+      "reasons": [
+        "Один брифингпосле нападения; оружие/подготовка/безопасность — частиречи."
+      ],
+      "canonical_event_id": "rugwabiza-unsc-2024-02-21"
+    },
+    {
+      "object_id": "valentine-rugwabiza",
+      "source_url": "https://news.un.org/en/story/2024/02/1146827",
+      "text_sha256": "d78672639a8a7511e803b8f9399e62050650c8937b3175275ced112a3936ba82",
+      "original_evidence_indices": [
+        34
+      ],
+      "reasons": [
+        "Один брифингпосле нападения; оружие/подготовка/безопасность — частиречи."
+      ],
+      "canonical_event_id": "rugwabiza-unsc-2024-02-21"
+    },
+    {
+      "object_id": "valentine-rugwabiza",
+      "source_url": "https://news.un.org/en/story/2024/02/1146827",
+      "text_sha256": "bed4b1c7cb72df591c955997cfbe49cac25bfe546c3b324302eec01535c4d87d",
+      "original_evidence_indices": [
+        35
+      ],
+      "reasons": [
+        "Один брифингпосле нападения; оружие/подготовка/безопасность — частиречи."
+      ],
+      "canonical_event_id": "rugwabiza-unsc-2024-02-21"
+    },
+    {
+      "object_id": "valentine-rugwabiza",
+      "source_url": "https://news.un.org/en/story/2024/02/1146827",
+      "text_sha256": "aa46198b1e2c079e3566ec4e66abc7015b7ac48fdb0ae58fa0598ed12b71fcf8",
+      "original_evidence_indices": [
+        39
+      ],
+      "reasons": [
+        "Один брифингпосле нападения; оружие/подготовка/безопасность — частиречи."
+      ],
+      "canonical_event_id": "rugwabiza-unsc-2024-02-21"
+    },
+    {
+      "object_id": "valentine-rugwabiza",
+      "source_url": "https://media.un.org/avlibrary/en/asset/d359/d3595136",
+      "text_sha256": "05d7c066d280f1c03fd3788457f3360f903008bbecf552fd72dfcddab664fa99",
+      "original_evidence_indices": [
+        31
+      ],
+      "reasons": [
+        "Один планперехода, несколькоаспектов."
+      ],
+      "canonical_event_id": "rugwabiza-unsc-2026-07-23"
+    },
+    {
+      "object_id": "valentine-rugwabiza",
+      "source_url": "https://media.un.org/avlibrary/en/asset/d359/d3595136",
+      "text_sha256": "a7d91730cfc716a8f16cbd9baf6361c01a05fed69b75b324f506fd9769b8798f",
+      "original_evidence_indices": [
+        32
+      ],
+      "reasons": [
+        "Один планперехода, несколькоаспектов."
+      ],
+      "canonical_event_id": "rugwabiza-unsc-2026-07-23"
+    },
+    {
+      "object_id": "valentine-rugwabiza",
+      "source_url": "https://media.un.org/avlibrary/en/asset/d359/d3595136",
+      "text_sha256": "6d099ac9d6e7aecbfd51807bc6e300028822eb2cd2b8b4a9ec3bf09ab3f4d8e0",
+      "original_evidence_indices": [
+        33
+      ],
+      "reasons": [
+        "Один планперехода, несколькоаспектов."
+      ],
+      "canonical_event_id": "rugwabiza-unsc-2026-07-23"
+    },
+    {
+      "object_id": "valentine-rugwabiza",
+      "source_url": "https://media.un.org/avlibrary/en/asset/d359/d3595136",
+      "text_sha256": "5c41641d1123bbee556b13fd9666dec01b11128737ae4ab9680e3eb01a772012",
+      "original_evidence_indices": [
+        38
+      ],
+      "reasons": [
+        "Один планперехода, несколькоаспектов."
+      ],
+      "canonical_event_id": "rugwabiza-unsc-2026-07-23"
+    },
+    {
+      "object_id": "valentine-rugwabiza",
+      "source_url": "https://media.un.org/avlibrary/en/asset/d348/d3483099",
+      "text_sha256": "263bb6f88216b0e5236273969705ad5446286f6ebc0219879f109239c417183b",
+      "original_evidence_indices": [
+        29
+      ],
+      "reasons": [
+        "Один предвыборныйбрифинг."
+      ],
+      "canonical_event_id": "rugwabiza-unsc-2025-11-27"
+    },
+    {
+      "object_id": "valentine-rugwabiza",
+      "source_url": "https://media.un.org/avlibrary/en/asset/d348/d3483099",
+      "text_sha256": "03c7878f200528715df895ca9cf24c46f4810f29d4845dac3e68ce01dc3820b1",
+      "original_evidence_indices": [
+        30
+      ],
+      "reasons": [
+        "Один предвыборныйбрифинг."
+      ],
+      "canonical_event_id": "rugwabiza-unsc-2025-11-27"
+    },
+    {
+      "object_id": "valentine-rugwabiza",
+      "source_url": "https://media.un.org/avlibrary/en/asset/d348/d3483099",
+      "text_sha256": "77d6be1c8bee586c1c418eb8ff2f58558aa63180eb069e25a8414bf470f9423e",
+      "original_evidence_indices": [
+        37
+      ],
+      "reasons": [
+        "Один предвыборныйбрифинг."
+      ],
+      "canonical_event_id": "rugwabiza-unsc-2025-11-27"
+    },
+    {
+      "object_id": "valentine-rugwabiza",
+      "source_url": "https://peacekeeping.un.org/en/speeches-and-statements/security-council-briefing-on-minusca-by-special-0",
+      "text_sha256": "ca0ed47201563c5c42e933042b0b39eb147edc19cf72744af38c52ad7bbdb802",
+      "original_evidence_indices": [
+        25
+      ],
+      "reasons": [
+        "Один брифингомирномпроцессе/ресурсах/выборах."
+      ],
+      "canonical_event_id": "rugwabiza-unsc-2023-10-26"
+    },
+    {
+      "object_id": "valentine-rugwabiza",
+      "source_url": "https://news.un.org/en/story/2023/10/1142857",
+      "text_sha256": "737bf7efe9a7af9d2b2f6547dd8a012d9bdc362b367336b3f21484ae8ee604fa",
+      "original_evidence_indices": [
+        26
+      ],
+      "reasons": [
+        "Один брифингомирномпроцессе/ресурсах/выборах."
+      ],
+      "canonical_event_id": "rugwabiza-unsc-2023-10-26"
+    },
+    {
+      "object_id": "valentine-rugwabiza",
+      "source_url": "https://news.un.org/en/story/2023/10/1142857",
+      "text_sha256": "e7272840a8c266d72f891aae95a414e0673621c42a5004d75e38ccb306e0ca23",
+      "original_evidence_indices": [
+        36
+      ],
+      "reasons": [
+        "Один брифингомирномпроцессе/ресурсах/выборах."
+      ],
+      "canonical_event_id": "rugwabiza-unsc-2023-10-26"
+    }
+  ],
+  "scope": "Known source/date errors and repeated-event equivalences; original source snapshots retained"
+}

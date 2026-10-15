@@ -1,0 +1,231 @@
+{
+  "data": {
+    "ratings": [
+      {
+        "variable_id": "programmatic-renewal__positive",
+        "status": "observed",
+        "value": 2,
+        "confidence": 0.7,
+        "support_type": "positive_manifestation",
+        "rationale": "Мусафири инициировал подготовку новой стратегической программы PSTA 5 и публично обозначал внедрение инновационных технологий и институциональных изменений в агросекторе (эпизоды 2, 11). Это свидетельствует о ясном ограниченном проявлении программных изменений, но не о последовательной или определяющей черте.",
+        "evidence_indices": [
+          2,
+          11
+        ]
+      },
+      {
+        "variable_id": "programmatic-renewal__negative",
+        "status": "observed",
+        "value": 2,
+        "confidence": 0.7,
+        "support_type": "positive_manifestation",
+        "rationale": "Мусафири в публичных заявлениях подчеркивал преемственность и развитие действующих программ, например, продвижение результатов в молочном секторе и поддержку текущего курса (эпизоды 14, 13). Это ограниченное, но явное проявление закрепления существующего курса.",
+        "evidence_indices": [
+          13,
+          14
+        ]
+      },
+      {
+        "variable_id": "government-course-assessment__positive",
+        "status": "observed",
+        "value": 2,
+        "confidence": 0.7,
+        "support_type": "positive_manifestation",
+        "rationale": "В ряде публичных выступлений Мусафири отмечал достижения действующего курса (например, рост потребления молока, поддержка фермеров через госзакупки риса), что указывает на ограниченную, но явную поддержку курса правительства (эпизоды 14, 10).",
+        "evidence_indices": [
+          10,
+          14
+        ]
+      },
+      {
+        "variable_id": "government-course-assessment__negative",
+        "status": "observed",
+        "value": 0,
+        "confidence": 0.8,
+        "support_type": "explicit_absence",
+        "rationale": "В доступных материалах отсутствуют эпизоды публичной критики Мусафири в адрес действующего государственного курса. Его заявления и действия направлены на поддержку и развитие существующих программ.",
+        "evidence_indices": [
+          13,
+          14,
+          10
+        ]
+      },
+      {
+        "variable_id": "participation-administrative-direction__positive",
+        "status": "observed",
+        "value": 2,
+        "confidence": 0.7,
+        "support_type": "positive_manifestation",
+        "rationale": "Мусафири созывал координационные форматы с национальными и международными партнёрами для обсуждения стратегий и получения обратной связи (эпизоды 2, 9), что свидетельствует о ясном ограниченном проявлении совместного обсуждения.",
+        "evidence_indices": [
+          2,
+          9
+        ]
+      },
+      {
+        "variable_id": "participation-administrative-direction__negative",
+        "status": "observed",
+        "value": 2,
+        "confidence": 0.7,
+        "support_type": "positive_manifestation",
+        "rationale": "Мусафири осуществлял административное руководство, например, председательствовал на передаче полномочий в подведомственном органе и давал отраслевые поручения (эпизоды 5, 3). Это ограниченное проявление административной постановки задач.",
+        "evidence_indices": [
+          3,
+          5
+        ]
+      },
+      {
+        "variable_id": "argumentation-evidence-values__positive",
+        "status": "observed",
+        "value": 3,
+        "confidence": 0.8,
+        "support_type": "positive_manifestation",
+        "rationale": "Мусафири неоднократно обосновывал решения через данные, исследования и количественные показатели (например, рост потребления молока, обоснование биотехнологий через угрозы и расчёты, акцент на исследованиях и инновациях) — устойчивый публичный акцент (эпизоды 14, 15, 7).",
+        "evidence_indices": [
+          7,
+          14,
+          15
+        ]
+      },
+      {
+        "variable_id": "argumentation-evidence-values__negative",
+        "status": "observed",
+        "value": 2,
+        "confidence": 0.7,
+        "support_type": "positive_manifestation",
+        "rationale": "В публичных выступлениях Мусафири использовал обращения к национальной памяти и коллективным символам, например, на памятном мероприятии, что свидетельствует о ясном ограниченном проявлении ценностной аргументации (эпизод 17).",
+        "evidence_indices": [
+          17
+        ]
+      },
+      {
+        "variable_id": "market-state-instruments__positive",
+        "status": "observed",
+        "value": 2,
+        "confidence": 0.7,
+        "support_type": "positive_manifestation",
+        "rationale": "Мусафири призывал частный сектор инвестировать в сельское хозяйство и продвигал предпринимательскую инициативу среди молодежи (эпизоды 13, 19), что указывает на ограниченное проявление поддержки частной инициативы.",
+        "evidence_indices": [
+          13,
+          19
+        ]
+      },
+      {
+        "variable_id": "market-state-instruments__negative",
+        "status": "observed",
+        "value": 2,
+        "confidence": 0.7,
+        "support_type": "positive_manifestation",
+        "rationale": "Мусафири инициировал государственные закупки риса для поддержки фермеров и создание госагентства по закупке зерна (эпизод 10), что свидетельствует о ясном ограниченном проявлении расширения государственных инструментов.",
+        "evidence_indices": [
+          10
+        ]
+      },
+      {
+        "variable_id": "accessibility-growth-priorities__positive",
+        "status": "observed",
+        "value": 3,
+        "confidence": 0.8,
+        "support_type": "positive_manifestation",
+        "rationale": "Мусафири последовательно выделял расширение доступности базовых благ (продовольственная безопасность, школьное питание, доступ к молоку, повышение урожайности) как приоритет (эпизоды 1, 10, 14, 11).",
+        "evidence_indices": [
+          1,
+          10,
+          11,
+          14
+        ]
+      },
+      {
+        "variable_id": "accessibility-growth-priorities__negative",
+        "status": "observed",
+        "value": 2,
+        "confidence": 0.7,
+        "support_type": "positive_manifestation",
+        "rationale": "Мусафири публично продвигал инвестиционные возможности и рост агробизнеса, особенно среди молодежи (эпизоды 16, 19), что указывает на ограниченное проявление приоритета роста и конкурентоспособности.",
+        "evidence_indices": [
+          16,
+          19
+        ]
+      },
+      {
+        "variable_id": "external-domestic-resources__positive",
+        "status": "observed",
+        "value": 3,
+        "confidence": 0.8,
+        "support_type": "positive_manifestation",
+        "rationale": "Мусафири активно привлекал внешних партнёров и инвестиции (международные соглашения, инвестиционные проекты, взаимодействие с фондами и компаниями) — устойчивый публичный акцент (эпизоды 4, 12, 16).",
+        "evidence_indices": [
+          4,
+          12,
+          16
+        ]
+      },
+      {
+        "variable_id": "external-domestic-resources__negative",
+        "status": "unknown",
+        "value": null,
+        "confidence": 0.5,
+        "support_type": "unknown",
+        "rationale": "В материалах отсутствуют прямые заявления или действия Мусафири, свидетельствующие о приоритете внутренней ресурсной самостоятельности или снижении зависимости от внешних поступлений.",
+        "evidence_indices": []
+      },
+      {
+        "variable_id": "international-rules-autonomy__positive",
+        "status": "unknown",
+        "value": null,
+        "confidence": 0.5,
+        "support_type": "unknown",
+        "rationale": "Нет прямых свидетельств, что Мусафири публично предлагал закрепление обязательных международных норм или договоров вне рамок служебных соглашений.",
+        "evidence_indices": []
+      },
+      {
+        "variable_id": "international-rules-autonomy__negative",
+        "status": "unknown",
+        "value": null,
+        "confidence": 0.5,
+        "support_type": "unknown",
+        "rationale": "Нет прямых свидетельств, что Мусафири публично защищал национальную самостоятельность решений или возражал против внешнего навязывания.",
+        "evidence_indices": []
+      },
+      {
+        "variable_id": "mediation-adversarial-communication__positive",
+        "status": "unknown",
+        "value": null,
+        "confidence": 0.5,
+        "support_type": "unknown",
+        "rationale": "В материалах отсутствуют эпизоды, где Мусафири выступал посредником или инициировал согласование интересов сторон.",
+        "evidence_indices": []
+      },
+      {
+        "variable_id": "mediation-adversarial-communication__negative",
+        "status": "unknown",
+        "value": null,
+        "confidence": 0.5,
+        "support_type": "unknown",
+        "rationale": "Нет данных о публичных полемических спорах или защите собственной стороны в противостоянии с другими акторами.",
+        "evidence_indices": []
+      }
+    ]
+  },
+  "model": "gpt-4.1",
+  "task": "independent-ratings-ildephonse-musafiri-0",
+  "at": "2026-10-15T17:30:33.577308+00:00",
+  "usage": {
+    "prompt_tokens": 8039,
+    "completion_tokens": 1701,
+    "total_tokens": 9740,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "audio_tokens": 0
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "audio_tokens": 0,
+      "accepted_prediction_tokens": 0,
+      "rejected_prediction_tokens": 0
+    }
+  },
+  "citations": [],
+  "system_fingerprint": "fp_801d3b7b5c",
+  "cache_key": "a1c815e00696f75ddcec90b7594c98f00497b63500b4c3d760e32617bf26c950"
+}

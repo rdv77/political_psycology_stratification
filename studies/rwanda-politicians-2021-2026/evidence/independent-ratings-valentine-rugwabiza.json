@@ -1,0 +1,1907 @@
+[
+  {
+    "object_id": "valentine-rugwabiza",
+    "scale_id": "programmatic-renewal",
+    "pole_scores": {
+      "positive": {
+        "status": "observed",
+        "value": 3,
+        "confidence": 0.8,
+        "evidence_indices": [
+          7,
+          11,
+          31,
+          33,
+          39
+        ],
+        "source_urls": [
+          "https://media.un.org/unifeed/en/asset/d328/d3288160",
+          "https://media.un.org/avlibrary/en/asset/d359/d3595136",
+          "https://news.un.org/en/story/2024/02/1146827"
+        ],
+        "event_ids": [
+          "vr-2024-11-22-electoral-cycle",
+          "rugwabiza-2026-07-23-security-transfer-plan",
+          "rugwabiza-2026-07-23-capability-gaps",
+          "rugwabiza-2024-02-21-security-overhaul"
+        ],
+        "rationale": "Ругвабиза неоднократно публично акцентировала необходимость завершения избирательного цикла, институционального перехода, устранения пробелов в секторе безопасности и реформ. Это проявляется в ряде выступлений, где она призывает к новым программным шагам и институциональным изменениям (например, реформы сектора безопасности, расширение доступа к регистрации избирателей, создание новых планов устранения пробелов).",
+        "support_type": "positive_manifestation",
+        "provenance": {
+          "raw_response_file": "evidence/independent_responses/df11f625e160cfed97de5a0043ac0594e1eed9d6abe0ef6d86ea5f0a5171819c.json",
+          "model": "gpt-4.1",
+          "at": "2026-10-15T17:32:28.363800+00:00",
+          "cache_key": "df11f625e160cfed97de5a0043ac0594e1eed9d6abe0ef6d86ea5f0a5171819c",
+          "original_proposal": {
+            "variable_id": "programmatic-renewal__positive",
+            "status": "observed",
+            "value": 3,
+            "confidence": 0.8,
+            "support_type": "positive_manifestation",
+            "rationale": "Ругвабиза неоднократно публично акцентировала необходимость завершения избирательного цикла, институционального перехода, устранения пробелов в секторе безопасности и реформ. Это проявляется в ряде выступлений, где она призывает к новым программным шагам и институциональным изменениям (например, реформы сектора безопасности, расширение доступа к регистрации избирателей, создание новых планов устранения пробелов).",
+            "evidence_indices": [
+              7,
+              11,
+              31,
+              33,
+              39
+            ]
+          }
+        },
+        "evidence_file": "evidence/independent-dossier-valentine-rugwabiza.json",
+        "evidence_basis": "130d8e1e900abe25367e0ddfb5e65410702aad66d80f3cf1b92def8d030e6bcf"
+      },
+      "negative": {
+        "status": "observed",
+        "value": 3,
+        "confidence": 0.8,
+        "evidence_indices": [
+          8,
+          16,
+          19,
+          37
+        ],
+        "source_urls": [
+          "https://media.un.org/unifeed/en/asset/d328/d3288160",
+          "https://media.un.org/unifeed/en/asset/d359/d3595136",
+          "https://media.un.org/avlibrary/en/asset/d348/d3483099"
+        ],
+        "event_ids": [
+          "vr-2024-11-22-minusca-continuity",
+          "vr-2026-07-23-minusca-progress",
+          "rugwabiza-2025-11-27-state-authority"
+        ],
+        "rationale": "В ряде выступлений Ругвабиза подчеркивает необходимость консолидации достигнутого, продолжения и закрепления существующего курса, институциональной стабильности, сохранения прогресса. Это устойчивый мотив в её коммуникации, наряду с программными изменениями.",
+        "support_type": "positive_manifestation",
+        "provenance": {
+          "raw_response_file": "evidence/independent_responses/df11f625e160cfed97de5a0043ac0594e1eed9d6abe0ef6d86ea5f0a5171819c.json",
+          "model": "gpt-4.1",
+          "at": "2026-10-15T17:32:28.363800+00:00",
+          "cache_key": "df11f625e160cfed97de5a0043ac0594e1eed9d6abe0ef6d86ea5f0a5171819c",
+          "original_proposal": {
+            "variable_id": "programmatic-renewal__negative",
+            "status": "observed",
+            "value": 3,
+            "confidence": 0.8,
+            "support_type": "positive_manifestation",
+            "rationale": "В ряде выступлений Ругвабиза подчеркивает необходимость консолидации достигнутого, продолжения и закрепления существующего курса, институциональной стабильности, сохранения прогресса. Это устойчивый мотив в её коммуникации, наряду с программными изменениями.",
+            "evidence_indices": [
+              8,
+              16,
+              19,
+              37
+            ]
+          }
+        },
+        "evidence_file": "evidence/independent-dossier-valentine-rugwabiza.json",
+        "evidence_basis": "130d8e1e900abe25367e0ddfb5e65410702aad66d80f3cf1b92def8d030e6bcf"
+      }
+    },
+    "positive": 3,
+    "negative": 3,
+    "value": null,
+    "status": "observed",
+    "difference": null,
+    "mass": null,
+    "measurement_model": "independent_poles",
+    "evidence_file": "evidence/independent-dossier-valentine-rugwabiza.json",
+    "evidence_basis": "130d8e1e900abe25367e0ddfb5e65410702aad66d80f3cf1b92def8d030e6bcf",
+    "at": "2026-10-15T17:32:39.445505+00:00",
+    "reason": "Каждое свойство оценивается независимо; разность и искусственное дополнение до пяти не вычисляются"
+  },
+  {
+    "object_id": "valentine-rugwabiza",
+    "scale_id": "government-course-assessment",
+    "pole_scores": {
+      "positive": {
+        "status": "observed",
+        "value": 3,
+        "confidence": 0.7,
+        "evidence_indices": [
+          6,
+          9,
+          19,
+          22,
+          37
+        ],
+        "source_urls": [
+          "https://media.un.org/unifeed/en/asset/d328/d3288160",
+          "https://media.un.org/unifeed/en/asset/d359/d3595136",
+          "https://press.un.org/en/2026/sc16305.doc.htm",
+          "https://media.un.org/avlibrary/en/asset/d348/d3483099"
+        ],
+        "event_ids": [
+          "vr-2024-11-22-security-council-briefing",
+          "vr-2026-07-23-minusca-progress",
+          "vr-2026-02-25-electoral-transition",
+          "rugwabiza-2025-11-27-state-authority"
+        ],
+        "rationale": "Ругвабиза регулярно отмечает прогресс, достигнутый властями ЦАР, и связывает успехи с усилиями правительства и поддержкой MINUSCA. Она публично поддерживает действующий курс в части восстановления государственной власти и проведения выборов.",
+        "support_type": "positive_manifestation",
+        "provenance": {
+          "raw_response_file": "evidence/independent_responses/df11f625e160cfed97de5a0043ac0594e1eed9d6abe0ef6d86ea5f0a5171819c.json",
+          "model": "gpt-4.1",
+          "at": "2026-10-15T17:32:28.363800+00:00",
+          "cache_key": "df11f625e160cfed97de5a0043ac0594e1eed9d6abe0ef6d86ea5f0a5171819c",
+          "original_proposal": {
+            "variable_id": "government-course-assessment__positive",
+            "status": "observed",
+            "value": 3,
+            "confidence": 0.7,
+            "support_type": "positive_manifestation",
+            "rationale": "Ругвабиза регулярно отмечает прогресс, достигнутый властями ЦАР, и связывает успехи с усилиями правительства и поддержкой MINUSCA. Она публично поддерживает действующий курс в части восстановления государственной власти и проведения выборов.",
+            "evidence_indices": [
+              6,
+              9,
+              19,
+              22,
+              37
+            ]
+          }
+        },
+        "evidence_file": "evidence/independent-dossier-valentine-rugwabiza.json",
+        "evidence_basis": "130d8e1e900abe25367e0ddfb5e65410702aad66d80f3cf1b92def8d030e6bcf"
+      },
+      "negative": {
+        "status": "observed",
+        "value": 1,
+        "confidence": 0.5,
+        "evidence_indices": [
+          16,
+          33
+        ],
+        "source_urls": [
+          "https://media.un.org/unifeed/en/asset/d328/d3288160",
+          "https://media.un.org/avlibrary/en/asset/d359/d3595136"
+        ],
+        "event_ids": [
+          "vr-2024-11-22-minusca-continuity",
+          "rugwabiza-2026-07-23-capability-gaps"
+        ],
+        "rationale": "В отдельных случаях Ругвабиза признаёт наличие пробелов, рисков отката и недостатков в реализации, однако это не выраженная критика курса, а скорее осторожное указание на уязвимости.",
+        "support_type": "positive_manifestation",
+        "provenance": {
+          "raw_response_file": "evidence/independent_responses/df11f625e160cfed97de5a0043ac0594e1eed9d6abe0ef6d86ea5f0a5171819c.json",
+          "model": "gpt-4.1",
+          "at": "2026-10-15T17:32:28.363800+00:00",
+          "cache_key": "df11f625e160cfed97de5a0043ac0594e1eed9d6abe0ef6d86ea5f0a5171819c",
+          "original_proposal": {
+            "variable_id": "government-course-assessment__negative",
+            "status": "observed",
+            "value": 1,
+            "confidence": 0.5,
+            "support_type": "positive_manifestation",
+            "rationale": "В отдельных случаях Ругвабиза признаёт наличие пробелов, рисков отката и недостатков в реализации, однако это не выраженная критика курса, а скорее осторожное указание на уязвимости.",
+            "evidence_indices": [
+              16,
+              33
+            ]
+          }
+        },
+        "evidence_file": "evidence/independent-dossier-valentine-rugwabiza.json",
+        "evidence_basis": "130d8e1e900abe25367e0ddfb5e65410702aad66d80f3cf1b92def8d030e6bcf"
+      }
+    },
+    "positive": 3,
+    "negative": 1,
+    "value": null,
+    "status": "observed",
+    "difference": null,
+    "mass": null,
+    "measurement_model": "independent_poles",
+    "evidence_file": "evidence/independent-dossier-valentine-rugwabiza.json",
+    "evidence_basis": "130d8e1e900abe25367e0ddfb5e65410702aad66d80f3cf1b92def8d030e6bcf",
+    "at": "2026-10-15T17:32:39.445505+00:00",
+    "reason": "Каждое свойство оценивается независимо; разность и искусственное дополнение до пяти не вычисляются"
+  },
+  {
+    "object_id": "valentine-rugwabiza",
+    "scale_id": "participation-administrative-direction",
+    "pole_scores": {
+      "positive": {
+        "status": "observed",
+        "value": 2,
+        "confidence": 0.7,
+        "evidence_indices": [
+          11,
+          18
+        ],
+        "source_urls": [
+          "https://media.un.org/unifeed/en/asset/d328/d3288160",
+          "https://press.un.org/en/2026/sc16396.doc.htm"
+        ],
+        "event_ids": [
+          "vr-2024-11-22-electoral-cycle",
+          "vr-2026-06-23-security-gains"
+        ],
+        "rationale": "Есть эпизоды, где она поддерживает расширение доступа к регистрации избирателей, инклюзивные выборы и учёт приоритетов населения, что свидетельствует о поддержке элементов совместного обсуждения.",
+        "support_type": "positive_manifestation",
+        "provenance": {
+          "raw_response_file": "evidence/independent_responses/df11f625e160cfed97de5a0043ac0594e1eed9d6abe0ef6d86ea5f0a5171819c.json",
+          "model": "gpt-4.1",
+          "at": "2026-10-15T17:32:28.363800+00:00",
+          "cache_key": "df11f625e160cfed97de5a0043ac0594e1eed9d6abe0ef6d86ea5f0a5171819c",
+          "original_proposal": {
+            "variable_id": "participation-administrative-direction__positive",
+            "status": "observed",
+            "value": 2,
+            "confidence": 0.7,
+            "support_type": "positive_manifestation",
+            "rationale": "Есть эпизоды, где она поддерживает расширение доступа к регистрации избирателей, инклюзивные выборы и учёт приоритетов населения, что свидетельствует о поддержке элементов совместного обсуждения.",
+            "evidence_indices": [
+              11,
+              18
+            ]
+          }
+        },
+        "evidence_file": "evidence/independent-dossier-valentine-rugwabiza.json",
+        "evidence_basis": "130d8e1e900abe25367e0ddfb5e65410702aad66d80f3cf1b92def8d030e6bcf"
+      },
+      "negative": {
+        "status": "observed",
+        "value": 3,
+        "confidence": 0.8,
+        "evidence_indices": [
+          2,
+          12,
+          15,
+          17,
+          29,
+          35,
+          38
+        ],
+        "source_urls": [
+          "https://peacekeeping.un.org/en/speeches-and-statements/security-council-briefing-on-minusca-by-special-1",
+          "https://media.un.org/unifeed/en/asset/d328/d3288160",
+          "https://press.un.org/en/2026/sc16305.doc.htm",
+          "https://media.un.org/avlibrary/en/asset/d348/d3483099",
+          "https://news.un.org/en/story/2024/02/1146827",
+          "https://media.un.org/avlibrary/en/asset/d359/d3595136"
+        ],
+        "event_ids": [
+          "vr-2024-02-21-security-council-briefing",
+          "vr-2024-11-22-national-development-plan",
+          "vr-2024-11-22-electoral-cycle",
+          "vr-2026-02-25-electoral-transition",
+          "rugwabiza-2025-11-27-elections-turning-point",
+          "rugwabiza-2024-02-21-national-army",
+          "rugwabiza-2026-07-23-gradual-transfer"
+        ],
+        "rationale": "Преобладающий стиль коммуникации — координация, административное управление, постановка задач и контроль исполнения, особенно в вопросах безопасности, реформ и передачи функций национальным институтам.",
+        "support_type": "positive_manifestation",
+        "provenance": {
+          "raw_response_file": "evidence/independent_responses/df11f625e160cfed97de5a0043ac0594e1eed9d6abe0ef6d86ea5f0a5171819c.json",
+          "model": "gpt-4.1",
+          "at": "2026-10-15T17:32:28.363800+00:00",
+          "cache_key": "df11f625e160cfed97de5a0043ac0594e1eed9d6abe0ef6d86ea5f0a5171819c",
+          "original_proposal": {
+            "variable_id": "participation-administrative-direction__negative",
+            "status": "observed",
+            "value": 3,
+            "confidence": 0.8,
+            "support_type": "positive_manifestation",
+            "rationale": "Преобладающий стиль коммуникации — координация, административное управление, постановка задач и контроль исполнения, особенно в вопросах безопасности, реформ и передачи функций национальным институтам.",
+            "evidence_indices": [
+              2,
+              12,
+              15,
+              17,
+              29,
+              35,
+              38
+            ]
+          }
+        },
+        "evidence_file": "evidence/independent-dossier-valentine-rugwabiza.json",
+        "evidence_basis": "130d8e1e900abe25367e0ddfb5e65410702aad66d80f3cf1b92def8d030e6bcf"
+      }
+    },
+    "positive": 2,
+    "negative": 3,
+    "value": null,
+    "status": "observed",
+    "difference": null,
+    "mass": null,
+    "measurement_model": "independent_poles",
+    "evidence_file": "evidence/independent-dossier-valentine-rugwabiza.json",
+    "evidence_basis": "130d8e1e900abe25367e0ddfb5e65410702aad66d80f3cf1b92def8d030e6bcf",
+    "at": "2026-10-15T17:32:39.445505+00:00",
+    "reason": "Каждое свойство оценивается независимо; разность и искусственное дополнение до пяти не вычисляются"
+  },
+  {
+    "object_id": "valentine-rugwabiza",
+    "scale_id": "argumentation-evidence-values",
+    "pole_scores": {
+      "positive": {
+        "status": "observed",
+        "value": 3,
+        "confidence": 0.8,
+        "evidence_indices": [
+          6,
+          11,
+          28,
+          33,
+          39
+        ],
+        "source_urls": [
+          "https://media.un.org/unifeed/en/asset/d328/d3288160",
+          "https://news.un.org/en/story/2024/02/1146827",
+          "https://media.un.org/avlibrary/en/asset/d359/d3595136"
+        ],
+        "event_ids": [
+          "vr-2024-11-22-security-council-briefing",
+          "vr-2024-11-22-electoral-cycle",
+          "rugwabiza-2024-02-21-security-sector-capacity",
+          "rugwabiza-2026-07-23-capability-gaps",
+          "rugwabiza-2024-02-21-security-overhaul"
+        ],
+        "rationale": "В ряде выступлений Ругвабиза использует данные о количестве демобилизованных, выданных свидетельств, конкретных угрозах и пробелах, а также аргументирует решения через анализ рисков и институциональных возможностей.",
+        "support_type": "positive_manifestation",
+        "provenance": {
+          "raw_response_file": "evidence/independent_responses/df11f625e160cfed97de5a0043ac0594e1eed9d6abe0ef6d86ea5f0a5171819c.json",
+          "model": "gpt-4.1",
+          "at": "2026-10-15T17:32:28.363800+00:00",
+          "cache_key": "df11f625e160cfed97de5a0043ac0594e1eed9d6abe0ef6d86ea5f0a5171819c",
+          "original_proposal": {
+            "variable_id": "argumentation-evidence-values__positive",
+            "status": "observed",
+            "value": 3,
+            "confidence": 0.8,
+            "support_type": "positive_manifestation",
+            "rationale": "В ряде выступлений Ругвабиза использует данные о количестве демобилизованных, выданных свидетельств, конкретных угрозах и пробелах, а также аргументирует решения через анализ рисков и институциональных возможностей.",
+            "evidence_indices": [
+              6,
+              11,
+              28,
+              33,
+              39
+            ]
+          }
+        },
+        "evidence_file": "evidence/independent-dossier-valentine-rugwabiza.json",
+        "evidence_basis": "130d8e1e900abe25367e0ddfb5e65410702aad66d80f3cf1b92def8d030e6bcf"
+      },
+      "negative": {
+        "status": "observed",
+        "value": 2,
+        "confidence": 0.6,
+        "evidence_indices": [
+          7,
+          29
+        ],
+        "source_urls": [
+          "https://media.un.org/unifeed/en/asset/d328/d3288160",
+          "https://media.un.org/avlibrary/en/asset/d348/d3483099"
+        ],
+        "event_ids": [
+          "vr-2024-11-22-electoral-cycle",
+          "rugwabiza-2025-11-27-elections-turning-point"
+        ],
+        "rationale": "В ряде случаев присутствует апелляция к ценностям мира, стабильности, памяти о прошлых конфликтах, однако это не основной стиль аргументации.",
+        "support_type": "positive_manifestation",
+        "provenance": {
+          "raw_response_file": "evidence/independent_responses/df11f625e160cfed97de5a0043ac0594e1eed9d6abe0ef6d86ea5f0a5171819c.json",
+          "model": "gpt-4.1",
+          "at": "2026-10-15T17:32:28.363800+00:00",
+          "cache_key": "df11f625e160cfed97de5a0043ac0594e1eed9d6abe0ef6d86ea5f0a5171819c",
+          "original_proposal": {
+            "variable_id": "argumentation-evidence-values__negative",
+            "status": "observed",
+            "value": 2,
+            "confidence": 0.6,
+            "support_type": "positive_manifestation",
+            "rationale": "В ряде случаев присутствует апелляция к ценностям мира, стабильности, памяти о прошлых конфликтах, однако это не основной стиль аргументации.",
+            "evidence_indices": [
+              7,
+              29
+            ]
+          }
+        },
+        "evidence_file": "evidence/independent-dossier-valentine-rugwabiza.json",
+        "evidence_basis": "130d8e1e900abe25367e0ddfb5e65410702aad66d80f3cf1b92def8d030e6bcf"
+      }
+    },
+    "positive": 3,
+    "negative": 2,
+    "value": null,
+    "status": "observed",
+    "difference": null,
+    "mass": null,
+    "measurement_model": "independent_poles",
+    "evidence_file": "evidence/independent-dossier-valentine-rugwabiza.json",
+    "evidence_basis": "130d8e1e900abe25367e0ddfb5e65410702aad66d80f3cf1b92def8d030e6bcf",
+    "at": "2026-10-15T17:32:39.445505+00:00",
+    "reason": "Каждое свойство оценивается независимо; разность и искусственное дополнение до пяти не вычисляются"
+  },
+  {
+    "object_id": "valentine-rugwabiza",
+    "scale_id": "market-state-instruments",
+    "pole_scores": {
+      "positive": {
+        "status": "unknown",
+        "value": null,
+        "confidence": 0,
+        "evidence_indices": [],
+        "source_urls": [],
+        "event_ids": [],
+        "rationale": "Нет прямых персональных заявлений о расширении частной инициативы, предпринимательства или самостоятельных инвестиций.",
+        "support_type": "unknown",
+        "provenance": {
+          "raw_response_file": "evidence/independent_responses/df11f625e160cfed97de5a0043ac0594e1eed9d6abe0ef6d86ea5f0a5171819c.json",
+          "model": "gpt-4.1",
+          "at": "2026-10-15T17:32:28.363800+00:00",
+          "cache_key": "df11f625e160cfed97de5a0043ac0594e1eed9d6abe0ef6d86ea5f0a5171819c",
+          "original_proposal": {
+            "variable_id": "market-state-instruments__positive",
+            "status": "unknown",
+            "value": null,
+            "confidence": 0.3,
+            "support_type": "unknown",
+            "rationale": "Нет прямых персональных заявлений о расширении частной инициативы, предпринимательства или самостоятельных инвестиций.",
+            "evidence_indices": []
+          }
+        },
+        "evidence_file": "evidence/independent-dossier-valentine-rugwabiza.json",
+        "evidence_basis": "130d8e1e900abe25367e0ddfb5e65410702aad66d80f3cf1b92def8d030e6bcf"
+      },
+      "negative": {
+        "status": "observed",
+        "value": 2,
+        "confidence": 0.6,
+        "evidence_indices": [
+          12,
+          27,
+          35
+        ],
+        "source_urls": [
+          "https://media.un.org/unifeed/en/asset/d328/d3288160",
+          "https://news.un.org/en/story/2024/02/1146827"
+        ],
+        "event_ids": [
+          "vr-2024-11-22-national-development-plan",
+          "rugwabiza-2024-02-21-illicit-weapons",
+          "rugwabiza-2024-02-21-national-army"
+        ],
+        "rationale": "Ругвабиза публично поддерживает государственное планирование, обязательные меры контроля и реформу сектора безопасности, однако не делает акцента на расширении обязательных правил вне рамок мандата.",
+        "support_type": "positive_manifestation",
+        "provenance": {
+          "raw_response_file": "evidence/independent_responses/df11f625e160cfed97de5a0043ac0594e1eed9d6abe0ef6d86ea5f0a5171819c.json",
+          "model": "gpt-4.1",
+          "at": "2026-10-15T17:32:28.363800+00:00",
+          "cache_key": "df11f625e160cfed97de5a0043ac0594e1eed9d6abe0ef6d86ea5f0a5171819c",
+          "original_proposal": {
+            "variable_id": "market-state-instruments__negative",
+            "status": "observed",
+            "value": 2,
+            "confidence": 0.6,
+            "support_type": "positive_manifestation",
+            "rationale": "Ругвабиза публично поддерживает государственное планирование, обязательные меры контроля и реформу сектора безопасности, однако не делает акцента на расширении обязательных правил вне рамок мандата.",
+            "evidence_indices": [
+              12,
+              27,
+              35
+            ]
+          }
+        },
+        "evidence_file": "evidence/independent-dossier-valentine-rugwabiza.json",
+        "evidence_basis": "130d8e1e900abe25367e0ddfb5e65410702aad66d80f3cf1b92def8d030e6bcf"
+      }
+    },
+    "positive": null,
+    "negative": 2,
+    "value": null,
+    "status": "partial",
+    "difference": null,
+    "mass": null,
+    "measurement_model": "independent_poles",
+    "evidence_file": "evidence/independent-dossier-valentine-rugwabiza.json",
+    "evidence_basis": "130d8e1e900abe25367e0ddfb5e65410702aad66d80f3cf1b92def8d030e6bcf",
+    "at": "2026-10-15T17:32:39.445505+00:00",
+    "reason": "Каждое свойство оценивается независимо; разность и искусственное дополнение до пяти не вычисляются"
+  },
+  {
+    "object_id": "valentine-rugwabiza",
+    "scale_id": "accessibility-growth-priorities",
+    "pole_scores": {
+      "positive": {
+        "status": "observed",
+        "value": 3,
+        "confidence": 0.8,
+        "evidence_indices": [
+          6,
+          11,
+          18
+        ],
+        "source_urls": [
+          "https://media.un.org/unifeed/en/asset/d328/d3288160",
+          "https://press.un.org/en/2026/sc16396.doc.htm"
+        ],
+        "event_ids": [
+          "vr-2024-11-22-security-council-briefing",
+          "vr-2024-11-22-electoral-cycle",
+          "vr-2026-06-23-security-gains"
+        ],
+        "rationale": "Поддержка выдачи свидетельств о рождении уязвимым группам, акцент на инклюзивных выборах и учёте нужд населения свидетельствуют о приоритете расширения доступности базовых благ.",
+        "support_type": "positive_manifestation",
+        "provenance": {
+          "raw_response_file": "evidence/independent_responses/df11f625e160cfed97de5a0043ac0594e1eed9d6abe0ef6d86ea5f0a5171819c.json",
+          "model": "gpt-4.1",
+          "at": "2026-10-15T17:32:28.363800+00:00",
+          "cache_key": "df11f625e160cfed97de5a0043ac0594e1eed9d6abe0ef6d86ea5f0a5171819c",
+          "original_proposal": {
+            "variable_id": "accessibility-growth-priorities__positive",
+            "status": "observed",
+            "value": 3,
+            "confidence": 0.8,
+            "support_type": "positive_manifestation",
+            "rationale": "Поддержка выдачи свидетельств о рождении уязвимым группам, акцент на инклюзивных выборах и учёте нужд населения свидетельствуют о приоритете расширения доступности базовых благ.",
+            "evidence_indices": [
+              6,
+              11,
+              18
+            ]
+          }
+        },
+        "evidence_file": "evidence/independent-dossier-valentine-rugwabiza.json",
+        "evidence_basis": "130d8e1e900abe25367e0ddfb5e65410702aad66d80f3cf1b92def8d030e6bcf"
+      },
+      "negative": {
+        "status": "observed",
+        "value": 2,
+        "confidence": 0.6,
+        "evidence_indices": [
+          12,
+          29
+        ],
+        "source_urls": [
+          "https://media.un.org/unifeed/en/asset/d328/d3288160",
+          "https://media.un.org/avlibrary/en/asset/d348/d3483099"
+        ],
+        "event_ids": [
+          "vr-2024-11-22-national-development-plan",
+          "rugwabiza-2025-11-27-elections-turning-point"
+        ],
+        "rationale": "В ряде выступлений отмечается долгосрочная цель процветания, развития и институционального роста, однако основной акцент на базовой доступности.",
+        "support_type": "positive_manifestation",
+        "provenance": {
+          "raw_response_file": "evidence/independent_responses/df11f625e160cfed97de5a0043ac0594e1eed9d6abe0ef6d86ea5f0a5171819c.json",
+          "model": "gpt-4.1",
+          "at": "2026-10-15T17:32:28.363800+00:00",
+          "cache_key": "df11f625e160cfed97de5a0043ac0594e1eed9d6abe0ef6d86ea5f0a5171819c",
+          "original_proposal": {
+            "variable_id": "accessibility-growth-priorities__negative",
+            "status": "observed",
+            "value": 2,
+            "confidence": 0.6,
+            "support_type": "positive_manifestation",
+            "rationale": "В ряде выступлений отмечается долгосрочная цель процветания, развития и институционального роста, однако основной акцент на базовой доступности.",
+            "evidence_indices": [
+              12,
+              29
+            ]
+          }
+        },
+        "evidence_file": "evidence/independent-dossier-valentine-rugwabiza.json",
+        "evidence_basis": "130d8e1e900abe25367e0ddfb5e65410702aad66d80f3cf1b92def8d030e6bcf"
+      }
+    },
+    "positive": 3,
+    "negative": 2,
+    "value": null,
+    "status": "observed",
+    "difference": null,
+    "mass": null,
+    "measurement_model": "independent_poles",
+    "evidence_file": "evidence/independent-dossier-valentine-rugwabiza.json",
+    "evidence_basis": "130d8e1e900abe25367e0ddfb5e65410702aad66d80f3cf1b92def8d030e6bcf",
+    "at": "2026-10-15T17:32:39.445505+00:00",
+    "reason": "Каждое свойство оценивается независимо; разность и искусственное дополнение до пяти не вычисляются"
+  },
+  {
+    "object_id": "valentine-rugwabiza",
+    "scale_id": "external-domestic-resources",
+    "pole_scores": {
+      "positive": {
+        "status": "observed",
+        "value": 4,
+        "confidence": 0.9,
+        "evidence_indices": [
+          14,
+          23,
+          26
+        ],
+        "source_urls": [
+          "https://media.un.org/unifeed/en/asset/d328/d3288160",
+          "https://news.un.org/en/story/2023/10/1142857"
+        ],
+        "event_ids": [
+          "vr-2024-11-22-minusca-resources",
+          "rugwabiza-2023-10-26-international-support"
+        ],
+        "rationale": "Ругвабиза неоднократно и конкретно обращалась за внешними ресурсами, поддержкой и международным финансированием для MINUSCA и выборов, что подтверждается несколькими независимыми эпизодами.",
+        "support_type": "positive_manifestation",
+        "provenance": {
+          "raw_response_file": "evidence/independent_responses/df11f625e160cfed97de5a0043ac0594e1eed9d6abe0ef6d86ea5f0a5171819c.json",
+          "model": "gpt-4.1",
+          "at": "2026-10-15T17:32:28.363800+00:00",
+          "cache_key": "df11f625e160cfed97de5a0043ac0594e1eed9d6abe0ef6d86ea5f0a5171819c",
+          "original_proposal": {
+            "variable_id": "external-domestic-resources__positive",
+            "status": "observed",
+            "value": 4,
+            "confidence": 0.9,
+            "support_type": "positive_manifestation",
+            "rationale": "Ругвабиза неоднократно и конкретно обращалась за внешними ресурсами, поддержкой и международным финансированием для MINUSCA и выборов, что подтверждается несколькими независимыми эпизодами.",
+            "evidence_indices": [
+              14,
+              23,
+              26
+            ]
+          }
+        },
+        "evidence_file": "evidence/independent-dossier-valentine-rugwabiza.json",
+        "evidence_basis": "130d8e1e900abe25367e0ddfb5e65410702aad66d80f3cf1b92def8d030e6bcf"
+      },
+      "negative": {
+        "status": "unknown",
+        "value": null,
+        "confidence": 0,
+        "evidence_indices": [],
+        "source_urls": [],
+        "event_ids": [],
+        "rationale": "Нет прямых заявлений о приоритете внутренних доходов или снижении зависимости от внешних поступлений.",
+        "support_type": "unknown",
+        "provenance": {
+          "raw_response_file": "evidence/independent_responses/df11f625e160cfed97de5a0043ac0594e1eed9d6abe0ef6d86ea5f0a5171819c.json",
+          "model": "gpt-4.1",
+          "at": "2026-10-15T17:32:28.363800+00:00",
+          "cache_key": "df11f625e160cfed97de5a0043ac0594e1eed9d6abe0ef6d86ea5f0a5171819c",
+          "original_proposal": {
+            "variable_id": "external-domestic-resources__negative",
+            "status": "unknown",
+            "value": null,
+            "confidence": 0.3,
+            "support_type": "unknown",
+            "rationale": "Нет прямых заявлений о приоритете внутренних доходов или снижении зависимости от внешних поступлений.",
+            "evidence_indices": []
+          }
+        },
+        "evidence_file": "evidence/independent-dossier-valentine-rugwabiza.json",
+        "evidence_basis": "130d8e1e900abe25367e0ddfb5e65410702aad66d80f3cf1b92def8d030e6bcf"
+      }
+    },
+    "positive": 4,
+    "negative": null,
+    "value": null,
+    "status": "partial",
+    "difference": null,
+    "mass": null,
+    "measurement_model": "independent_poles",
+    "evidence_file": "evidence/independent-dossier-valentine-rugwabiza.json",
+    "evidence_basis": "130d8e1e900abe25367e0ddfb5e65410702aad66d80f3cf1b92def8d030e6bcf",
+    "at": "2026-10-15T17:32:39.445505+00:00",
+    "reason": "Каждое свойство оценивается независимо; разность и искусственное дополнение до пяти не вычисляются"
+  },
+  {
+    "object_id": "valentine-rugwabiza",
+    "scale_id": "international-rules-autonomy",
+    "pole_scores": {
+      "positive": {
+        "status": "observed",
+        "value": 3,
+        "confidence": 0.7,
+        "evidence_indices": [
+          2,
+          27,
+          34
+        ],
+        "source_urls": [
+          "https://peacekeeping.un.org/en/speeches-and-statements/security-council-briefing-on-minusca-by-special-1",
+          "https://news.un.org/en/story/2024/02/1146827"
+        ],
+        "event_ids": [
+          "vr-2024-02-21-security-council-briefing",
+          "rugwabiza-2024-02-21-illicit-weapons",
+          "rugwabiza-2024-02-21-cross-border-cooperation"
+        ],
+        "rationale": "Ругвабиза поддерживает международные механизмы, обязательства и сотрудничество, в том числе призывает к трансграничному взаимодействию и выполнению мандата ООН.",
+        "support_type": "positive_manifestation",
+        "provenance": {
+          "raw_response_file": "evidence/independent_responses/df11f625e160cfed97de5a0043ac0594e1eed9d6abe0ef6d86ea5f0a5171819c.json",
+          "model": "gpt-4.1",
+          "at": "2026-10-15T17:32:28.363800+00:00",
+          "cache_key": "df11f625e160cfed97de5a0043ac0594e1eed9d6abe0ef6d86ea5f0a5171819c",
+          "original_proposal": {
+            "variable_id": "international-rules-autonomy__positive",
+            "status": "observed",
+            "value": 3,
+            "confidence": 0.7,
+            "support_type": "positive_manifestation",
+            "rationale": "Ругвабиза поддерживает международные механизмы, обязательства и сотрудничество, в том числе призывает к трансграничному взаимодействию и выполнению мандата ООН.",
+            "evidence_indices": [
+              2,
+              27,
+              34
+            ]
+          }
+        },
+        "evidence_file": "evidence/independent-dossier-valentine-rugwabiza.json",
+        "evidence_basis": "130d8e1e900abe25367e0ddfb5e65410702aad66d80f3cf1b92def8d030e6bcf"
+      },
+      "negative": {
+        "status": "observed",
+        "value": 2,
+        "confidence": 0.6,
+        "evidence_indices": [
+          18,
+          32
+        ],
+        "source_urls": [
+          "https://press.un.org/en/2026/sc16396.doc.htm",
+          "https://media.un.org/avlibrary/en/asset/d359/d3595136"
+        ],
+        "event_ids": [
+          "vr-2026-06-23-security-gains",
+          "rugwabiza-2026-07-23-national-ownership"
+        ],
+        "rationale": "В ряде случаев она подчёркивает национальную ответственность и необходимость учитывать приоритеты самих жителей ЦАР, однако это не выраженная защита полной автономии от международных норм.",
+        "support_type": "positive_manifestation",
+        "provenance": {
+          "raw_response_file": "evidence/independent_responses/df11f625e160cfed97de5a0043ac0594e1eed9d6abe0ef6d86ea5f0a5171819c.json",
+          "model": "gpt-4.1",
+          "at": "2026-10-15T17:32:28.363800+00:00",
+          "cache_key": "df11f625e160cfed97de5a0043ac0594e1eed9d6abe0ef6d86ea5f0a5171819c",
+          "original_proposal": {
+            "variable_id": "international-rules-autonomy__negative",
+            "status": "observed",
+            "value": 2,
+            "confidence": 0.6,
+            "support_type": "positive_manifestation",
+            "rationale": "В ряде случаев она подчёркивает национальную ответственность и необходимость учитывать приоритеты самих жителей ЦАР, однако это не выраженная защита полной автономии от международных норм.",
+            "evidence_indices": [
+              18,
+              32
+            ]
+          }
+        },
+        "evidence_file": "evidence/independent-dossier-valentine-rugwabiza.json",
+        "evidence_basis": "130d8e1e900abe25367e0ddfb5e65410702aad66d80f3cf1b92def8d030e6bcf"
+      }
+    },
+    "positive": 3,
+    "negative": 2,
+    "value": null,
+    "status": "observed",
+    "difference": null,
+    "mass": null,
+    "measurement_model": "independent_poles",
+    "evidence_file": "evidence/independent-dossier-valentine-rugwabiza.json",
+    "evidence_basis": "130d8e1e900abe25367e0ddfb5e65410702aad66d80f3cf1b92def8d030e6bcf",
+    "at": "2026-10-15T17:32:39.445505+00:00",
+    "reason": "Каждое свойство оценивается независимо; разность и искусственное дополнение до пяти не вычисляются"
+  },
+  {
+    "object_id": "valentine-rugwabiza",
+    "scale_id": "mediation-adversarial-communication",
+    "pole_scores": {
+      "positive": {
+        "status": "observed",
+        "value": 3,
+        "confidence": 0.8,
+        "evidence_indices": [
+          6,
+          30,
+          34
+        ],
+        "source_urls": [
+          "https://media.un.org/unifeed/en/asset/d328/d3288160",
+          "https://media.un.org/avlibrary/en/asset/d348/d3483099",
+          "https://news.un.org/en/story/2024/02/1146827"
+        ],
+        "event_ids": [
+          "vr-2024-11-22-security-council-briefing",
+          "rugwabiza-2025-11-27-peace-process-momentum",
+          "rugwabiza-2024-02-21-cross-border-cooperation"
+        ],
+        "rationale": "Ругвабиза регулярно поддерживает диалог, посредничество, переговорные процессы между правительством и вооружёнными группами, а также международное сотрудничество для урегулирования конфликтов.",
+        "support_type": "positive_manifestation",
+        "provenance": {
+          "raw_response_file": "evidence/independent_responses/df11f625e160cfed97de5a0043ac0594e1eed9d6abe0ef6d86ea5f0a5171819c.json",
+          "model": "gpt-4.1",
+          "at": "2026-10-15T17:32:28.363800+00:00",
+          "cache_key": "df11f625e160cfed97de5a0043ac0594e1eed9d6abe0ef6d86ea5f0a5171819c",
+          "original_proposal": {
+            "variable_id": "mediation-adversarial-communication__positive",
+            "status": "observed",
+            "value": 3,
+            "confidence": 0.8,
+            "support_type": "positive_manifestation",
+            "rationale": "Ругвабиза регулярно поддерживает диалог, посредничество, переговорные процессы между правительством и вооружёнными группами, а также международное сотрудничество для урегулирования конфликтов.",
+            "evidence_indices": [
+              6,
+              30,
+              34
+            ]
+          }
+        },
+        "evidence_file": "evidence/independent-dossier-valentine-rugwabiza.json",
+        "evidence_basis": "130d8e1e900abe25367e0ddfb5e65410702aad66d80f3cf1b92def8d030e6bcf"
+      },
+      "negative": {
+        "status": "observed",
+        "value": 2,
+        "confidence": 0.6,
+        "evidence_indices": [
+          4,
+          5,
+          20,
+          21
+        ],
+        "source_urls": [
+          "https://minusca.unmissions.org/en/press-releases?block_config_key",
+          "https://minusca.unmissions.org/en/press-releases"
+        ],
+        "event_ids": [
+          "vr-2025-03-29-peacekeeper-ambush",
+          "vr-2025-06-17-peacekeeper-attack"
+        ],
+        "rationale": "В ряде случаев она публично осуждает нападения на миротворцев и защищает мандат MINUSCA, что проявляется как защита своей стороны в кризисных ситуациях.",
+        "support_type": "positive_manifestation",
+        "provenance": {
+          "raw_response_file": "evidence/independent_responses/df11f625e160cfed97de5a0043ac0594e1eed9d6abe0ef6d86ea5f0a5171819c.json",
+          "model": "gpt-4.1",
+          "at": "2026-10-15T17:32:28.363800+00:00",
+          "cache_key": "df11f625e160cfed97de5a0043ac0594e1eed9d6abe0ef6d86ea5f0a5171819c",
+          "original_proposal": {
+            "variable_id": "mediation-adversarial-communication__negative",
+            "status": "observed",
+            "value": 2,
+            "confidence": 0.6,
+            "support_type": "positive_manifestation",
+            "rationale": "В ряде случаев она публично осуждает нападения на миротворцев и защищает мандат MINUSCA, что проявляется как защита своей стороны в кризисных ситуациях.",
+            "evidence_indices": [
+              4,
+              5,
+              20,
+              21
+            ]
+          }
+        },
+        "evidence_file": "evidence/independent-dossier-valentine-rugwabiza.json",
+        "evidence_basis": "130d8e1e900abe25367e0ddfb5e65410702aad66d80f3cf1b92def8d030e6bcf"
+      }
+    },
+    "positive": 3,
+    "negative": 2,
+    "value": null,
+    "status": "observed",
+    "difference": null,
+    "mass": null,
+    "measurement_model": "independent_poles",
+    "evidence_file": "evidence/independent-dossier-valentine-rugwabiza.json",
+    "evidence_basis": "130d8e1e900abe25367e0ddfb5e65410702aad66d80f3cf1b92def8d030e6bcf",
+    "at": "2026-10-15T17:32:39.445505+00:00",
+    "reason": "Каждое свойство оценивается независимо; разность и искусственное дополнение до пяти не вычисляются"
+  },
+  {
+    "object_id": "valentine-rugwabiza",
+    "scale_id": "cultural-openness-national-transmission",
+    "pole_scores": {
+      "positive": {
+        "status": "unknown",
+        "value": null,
+        "confidence": 0,
+        "evidence_indices": [],
+        "source_urls": [],
+        "event_ids": [],
+        "rationale": "В доступных источниках отсутствуют сведения о публичных инициативах или заявлениях Ругвабизы, прямо направленных на расширение межкультурного обмена или культурного разнообразия.",
+        "support_type": "unknown",
+        "provenance": {
+          "raw_response_file": "evidence/independent_responses/456903ec71a45763a3034ecddec743ab6fe07cc83fd6dd6d822c65ea14dcf2fd.json",
+          "model": "gpt-4.1",
+          "at": "2026-10-15T17:32:39.441746+00:00",
+          "cache_key": "456903ec71a45763a3034ecddec743ab6fe07cc83fd6dd6d822c65ea14dcf2fd",
+          "original_proposal": {
+            "variable_id": "cultural-openness-national-transmission__positive",
+            "status": "unknown",
+            "value": null,
+            "confidence": 0,
+            "support_type": "unknown",
+            "rationale": "В доступных источниках отсутствуют сведения о публичных инициативах или заявлениях Ругвабизы, прямо направленных на расширение межкультурного обмена или культурного разнообразия.",
+            "evidence_indices": []
+          }
+        },
+        "evidence_file": "evidence/independent-dossier-valentine-rugwabiza.json",
+        "evidence_basis": "130d8e1e900abe25367e0ddfb5e65410702aad66d80f3cf1b92def8d030e6bcf"
+      },
+      "negative": {
+        "status": "unknown",
+        "value": null,
+        "confidence": 0,
+        "evidence_indices": [],
+        "source_urls": [],
+        "event_ids": [],
+        "rationale": "Нет данных о публичных действиях или заявлениях Ругвабизы, направленных на сохранение и передачу национальных ценностей как самостоятельный акцент.",
+        "support_type": "unknown",
+        "provenance": {
+          "raw_response_file": "evidence/independent_responses/456903ec71a45763a3034ecddec743ab6fe07cc83fd6dd6d822c65ea14dcf2fd.json",
+          "model": "gpt-4.1",
+          "at": "2026-10-15T17:32:39.441746+00:00",
+          "cache_key": "456903ec71a45763a3034ecddec743ab6fe07cc83fd6dd6d822c65ea14dcf2fd",
+          "original_proposal": {
+            "variable_id": "cultural-openness-national-transmission__negative",
+            "status": "unknown",
+            "value": null,
+            "confidence": 0,
+            "support_type": "unknown",
+            "rationale": "Нет данных о публичных действиях или заявлениях Ругвабизы, направленных на сохранение и передачу национальных ценностей как самостоятельный акцент.",
+            "evidence_indices": []
+          }
+        },
+        "evidence_file": "evidence/independent-dossier-valentine-rugwabiza.json",
+        "evidence_basis": "130d8e1e900abe25367e0ddfb5e65410702aad66d80f3cf1b92def8d030e6bcf"
+      }
+    },
+    "positive": null,
+    "negative": null,
+    "value": null,
+    "status": "unknown",
+    "difference": null,
+    "mass": null,
+    "measurement_model": "independent_poles",
+    "evidence_file": "evidence/independent-dossier-valentine-rugwabiza.json",
+    "evidence_basis": "130d8e1e900abe25367e0ddfb5e65410702aad66d80f3cf1b92def8d030e6bcf",
+    "at": "2026-10-15T17:32:39.445505+00:00",
+    "reason": "Каждое свойство оценивается независимо; разность и искусственное дополнение до пяти не вычисляются"
+  },
+  {
+    "object_id": "valentine-rugwabiza",
+    "scale_id": "problem-disclosure-reputation-defence",
+    "pole_scores": {
+      "positive": {
+        "status": "observed",
+        "value": 2,
+        "confidence": 0.7,
+        "evidence_indices": [
+          8,
+          16,
+          33
+        ],
+        "source_urls": [
+          "https://media.un.org/unifeed/en/asset/d328/d3288160",
+          "https://media.un.org/avlibrary/en/asset/d359/d3595136"
+        ],
+        "event_ids": [
+          "vr-2024-11-22-minusca-continuity",
+          "rugwabiza-2026-07-23-capability-gaps"
+        ],
+        "rationale": "Ругвабиза публично раскрывала наличие критических пробелов в секторе безопасности и предупреждала о риске отката, что свидетельствует о признании проблем и ограничений исполнения (эпизоды 8, 16, 33).",
+        "support_type": "positive_manifestation",
+        "provenance": {
+          "raw_response_file": "evidence/independent_responses/456903ec71a45763a3034ecddec743ab6fe07cc83fd6dd6d822c65ea14dcf2fd.json",
+          "model": "gpt-4.1",
+          "at": "2026-10-15T17:32:39.441746+00:00",
+          "cache_key": "456903ec71a45763a3034ecddec743ab6fe07cc83fd6dd6d822c65ea14dcf2fd",
+          "original_proposal": {
+            "variable_id": "problem-disclosure-reputation-defence__positive",
+            "status": "observed",
+            "value": 2,
+            "confidence": 0.7,
+            "support_type": "positive_manifestation",
+            "rationale": "Ругвабиза публично раскрывала наличие критических пробелов в секторе безопасности и предупреждала о риске отката, что свидетельствует о признании проблем и ограничений исполнения (эпизоды 8, 16, 33).",
+            "evidence_indices": [
+              8,
+              16,
+              33
+            ]
+          }
+        },
+        "evidence_file": "evidence/independent-dossier-valentine-rugwabiza.json",
+        "evidence_basis": "130d8e1e900abe25367e0ddfb5e65410702aad66d80f3cf1b92def8d030e6bcf"
+      },
+      "negative": {
+        "status": "observed",
+        "value": 2,
+        "confidence": 0.7,
+        "evidence_indices": [
+          7,
+          9,
+          19,
+          36
+        ],
+        "source_urls": [
+          "https://media.un.org/unifeed/en/asset/d328/d3288160",
+          "https://media.un.org/unifeed/en/asset/d359/d3595136",
+          "https://news.un.org/en/story/2023/10/1142857"
+        ],
+        "event_ids": [
+          "vr-2024-11-22-electoral-cycle",
+          "vr-2026-07-23-minusca-progress",
+          "rugwabiza-2023-10-26-peace-agreement"
+        ],
+        "rationale": "В ряде выступлений Ругвабиза защищала результаты миссии, подчеркивала прогресс и необходимость консолидации достигнутого, что указывает на защиту репутации политики и миссии (эпизоды 7, 9, 19, 36).",
+        "support_type": "positive_manifestation",
+        "provenance": {
+          "raw_response_file": "evidence/independent_responses/456903ec71a45763a3034ecddec743ab6fe07cc83fd6dd6d822c65ea14dcf2fd.json",
+          "model": "gpt-4.1",
+          "at": "2026-10-15T17:32:39.441746+00:00",
+          "cache_key": "456903ec71a45763a3034ecddec743ab6fe07cc83fd6dd6d822c65ea14dcf2fd",
+          "original_proposal": {
+            "variable_id": "problem-disclosure-reputation-defence__negative",
+            "status": "observed",
+            "value": 2,
+            "confidence": 0.7,
+            "support_type": "positive_manifestation",
+            "rationale": "В ряде выступлений Ругвабиза защищала результаты миссии, подчеркивала прогресс и необходимость консолидации достигнутого, что указывает на защиту репутации политики и миссии (эпизоды 7, 9, 19, 36).",
+            "evidence_indices": [
+              7,
+              9,
+              19,
+              36
+            ]
+          }
+        },
+        "evidence_file": "evidence/independent-dossier-valentine-rugwabiza.json",
+        "evidence_basis": "130d8e1e900abe25367e0ddfb5e65410702aad66d80f3cf1b92def8d030e6bcf"
+      }
+    },
+    "positive": 2,
+    "negative": 2,
+    "value": null,
+    "status": "observed",
+    "difference": null,
+    "mass": null,
+    "measurement_model": "independent_poles",
+    "evidence_file": "evidence/independent-dossier-valentine-rugwabiza.json",
+    "evidence_basis": "130d8e1e900abe25367e0ddfb5e65410702aad66d80f3cf1b92def8d030e6bcf",
+    "at": "2026-10-15T17:32:39.445505+00:00",
+    "reason": "Каждое свойство оценивается независимо; разность и искусственное дополнение до пяти не вычисляются"
+  },
+  {
+    "object_id": "valentine-rugwabiza",
+    "scale_id": "procedural-guarantees-enforcement",
+    "pole_scores": {
+      "positive": {
+        "status": "unknown",
+        "value": null,
+        "confidence": 0,
+        "evidence_indices": [],
+        "source_urls": [],
+        "event_ids": [],
+        "rationale": "Нет прямых свидетельств поддержки расширения процедур защиты или обжалования в публичных заявлениях Ругвабизы.",
+        "support_type": "unknown",
+        "provenance": {
+          "raw_response_file": "evidence/independent_responses/456903ec71a45763a3034ecddec743ab6fe07cc83fd6dd6d822c65ea14dcf2fd.json",
+          "model": "gpt-4.1",
+          "at": "2026-10-15T17:32:39.441746+00:00",
+          "cache_key": "456903ec71a45763a3034ecddec743ab6fe07cc83fd6dd6d822c65ea14dcf2fd",
+          "original_proposal": {
+            "variable_id": "procedural-guarantees-enforcement__positive",
+            "status": "unknown",
+            "value": null,
+            "confidence": 0,
+            "support_type": "unknown",
+            "rationale": "Нет прямых свидетельств поддержки расширения процедур защиты или обжалования в публичных заявлениях Ругвабизы.",
+            "evidence_indices": []
+          }
+        },
+        "evidence_file": "evidence/independent-dossier-valentine-rugwabiza.json",
+        "evidence_basis": "130d8e1e900abe25367e0ddfb5e65410702aad66d80f3cf1b92def8d030e6bcf"
+      },
+      "negative": {
+        "status": "observed",
+        "value": 1,
+        "confidence": 0.5,
+        "evidence_indices": [
+          27
+        ],
+        "source_urls": [
+          "https://news.un.org/en/story/2024/02/1146827"
+        ],
+        "event_ids": [
+          "rugwabiza-2024-02-21-illicit-weapons"
+        ],
+        "rationale": "Ругвабиза поддерживала обязательные меры контроля (например, пресечение незаконного оружия, профессионализация армии), однако не предлагала новые санкции или уголовные нормы (эпизод 27).",
+        "support_type": "positive_manifestation",
+        "provenance": {
+          "raw_response_file": "evidence/independent_responses/456903ec71a45763a3034ecddec743ab6fe07cc83fd6dd6d822c65ea14dcf2fd.json",
+          "model": "gpt-4.1",
+          "at": "2026-10-15T17:32:39.441746+00:00",
+          "cache_key": "456903ec71a45763a3034ecddec743ab6fe07cc83fd6dd6d822c65ea14dcf2fd",
+          "original_proposal": {
+            "variable_id": "procedural-guarantees-enforcement__negative",
+            "status": "observed",
+            "value": 1,
+            "confidence": 0.5,
+            "support_type": "positive_manifestation",
+            "rationale": "Ругвабиза поддерживала обязательные меры контроля (например, пресечение незаконного оружия, профессионализация армии), однако не предлагала новые санкции или уголовные нормы (эпизод 27).",
+            "evidence_indices": [
+              27
+            ]
+          }
+        },
+        "evidence_file": "evidence/independent-dossier-valentine-rugwabiza.json",
+        "evidence_basis": "130d8e1e900abe25367e0ddfb5e65410702aad66d80f3cf1b92def8d030e6bcf"
+      }
+    },
+    "positive": null,
+    "negative": 1,
+    "value": null,
+    "status": "partial",
+    "difference": null,
+    "mass": null,
+    "measurement_model": "independent_poles",
+    "evidence_file": "evidence/independent-dossier-valentine-rugwabiza.json",
+    "evidence_basis": "130d8e1e900abe25367e0ddfb5e65410702aad66d80f3cf1b92def8d030e6bcf",
+    "at": "2026-10-15T17:32:39.445505+00:00",
+    "reason": "Каждое свойство оценивается независимо; разность и искусственное дополнение до пяти не вычисляются"
+  },
+  {
+    "object_id": "valentine-rugwabiza",
+    "scale_id": "prevention-crisis-response",
+    "pole_scores": {
+      "positive": {
+        "status": "observed",
+        "value": 3,
+        "confidence": 0.8,
+        "evidence_indices": [
+          24,
+          28,
+          31,
+          33,
+          39
+        ],
+        "source_urls": [
+          "https://news.un.org/en/story/2024/02/1146827",
+          "https://media.un.org/avlibrary/en/asset/d359/d3595136"
+        ],
+        "event_ids": [
+          "rugwabiza-2024-02-21-security-sector",
+          "rugwabiza-2024-02-21-security-sector-capacity",
+          "rugwabiza-2026-07-23-security-transfer-plan",
+          "rugwabiza-2026-07-23-capability-gaps",
+          "rugwabiza-2024-02-21-security-overhaul"
+        ],
+        "rationale": "Ругвабиза неоднократно подчеркивала необходимость подготовки, профилактики, устранения пробелов в секторе безопасности и реформ (эпизоды 24, 28, 31, 33, 39).",
+        "support_type": "positive_manifestation",
+        "provenance": {
+          "raw_response_file": "evidence/independent_responses/456903ec71a45763a3034ecddec743ab6fe07cc83fd6dd6d822c65ea14dcf2fd.json",
+          "model": "gpt-4.1",
+          "at": "2026-10-15T17:32:39.441746+00:00",
+          "cache_key": "456903ec71a45763a3034ecddec743ab6fe07cc83fd6dd6d822c65ea14dcf2fd",
+          "original_proposal": {
+            "variable_id": "prevention-crisis-response__positive",
+            "status": "observed",
+            "value": 3,
+            "confidence": 0.8,
+            "support_type": "positive_manifestation",
+            "rationale": "Ругвабиза неоднократно подчеркивала необходимость подготовки, профилактики, устранения пробелов в секторе безопасности и реформ (эпизоды 24, 28, 31, 33, 39).",
+            "evidence_indices": [
+              24,
+              28,
+              31,
+              33,
+              39
+            ]
+          }
+        },
+        "evidence_file": "evidence/independent-dossier-valentine-rugwabiza.json",
+        "evidence_basis": "130d8e1e900abe25367e0ddfb5e65410702aad66d80f3cf1b92def8d030e6bcf"
+      },
+      "negative": {
+        "status": "observed",
+        "value": 2,
+        "confidence": 0.7,
+        "evidence_indices": [
+          4,
+          5,
+          20,
+          21
+        ],
+        "source_urls": [
+          "https://minusca.unmissions.org/en/press-releases?block_config_key",
+          "https://minusca.unmissions.org/en/press-releases"
+        ],
+        "event_ids": [
+          "vr-2025-03-29-peacekeeper-ambush",
+          "vr-2025-06-17-peacekeeper-attack"
+        ],
+        "rationale": "В ряде случаев коммуникация Ругвабизы носила реактивный характер — осуждение нападений, реагирование на кризисы (эпизоды 4, 5, 20, 21).",
+        "support_type": "positive_manifestation",
+        "provenance": {
+          "raw_response_file": "evidence/independent_responses/456903ec71a45763a3034ecddec743ab6fe07cc83fd6dd6d822c65ea14dcf2fd.json",
+          "model": "gpt-4.1",
+          "at": "2026-10-15T17:32:39.441746+00:00",
+          "cache_key": "456903ec71a45763a3034ecddec743ab6fe07cc83fd6dd6d822c65ea14dcf2fd",
+          "original_proposal": {
+            "variable_id": "prevention-crisis-response__negative",
+            "status": "observed",
+            "value": 2,
+            "confidence": 0.7,
+            "support_type": "positive_manifestation",
+            "rationale": "В ряде случаев коммуникация Ругвабизы носила реактивный характер — осуждение нападений, реагирование на кризисы (эпизоды 4, 5, 20, 21).",
+            "evidence_indices": [
+              4,
+              5,
+              20,
+              21
+            ]
+          }
+        },
+        "evidence_file": "evidence/independent-dossier-valentine-rugwabiza.json",
+        "evidence_basis": "130d8e1e900abe25367e0ddfb5e65410702aad66d80f3cf1b92def8d030e6bcf"
+      }
+    },
+    "positive": 3,
+    "negative": 2,
+    "value": null,
+    "status": "observed",
+    "difference": null,
+    "mass": null,
+    "measurement_model": "independent_poles",
+    "evidence_file": "evidence/independent-dossier-valentine-rugwabiza.json",
+    "evidence_basis": "130d8e1e900abe25367e0ddfb5e65410702aad66d80f3cf1b92def8d030e6bcf",
+    "at": "2026-10-15T17:32:39.445505+00:00",
+    "reason": "Каждое свойство оценивается независимо; разность и искусственное дополнение до пяти не вычисляются"
+  },
+  {
+    "object_id": "valentine-rugwabiza",
+    "scale_id": "electoral-access",
+    "pole_scores": {
+      "positive": {
+        "status": "observed",
+        "value": 3,
+        "confidence": 0.8,
+        "evidence_indices": [
+          7,
+          11,
+          22,
+          25
+        ],
+        "source_urls": [
+          "https://media.un.org/unifeed/en/asset/d328/d3288160",
+          "https://press.un.org/en/2026/sc16305.doc.htm",
+          "https://peacekeeping.un.org/en/speeches-and-statements/security-council-briefing-on-minusca-by-special-0"
+        ],
+        "event_ids": [
+          "vr-2024-11-22-electoral-cycle",
+          "vr-2026-02-25-electoral-transition",
+          "rugwabiza-2023-10-26-local-elections"
+        ],
+        "rationale": "Ругвабиза публично поддерживала инклюзивные, прозрачные выборы, выдачу свидетельств о рождении для регистрации избирателей и проведение местных выборов (эпизоды 7, 11, 22, 25).",
+        "support_type": "positive_manifestation",
+        "provenance": {
+          "raw_response_file": "evidence/independent_responses/456903ec71a45763a3034ecddec743ab6fe07cc83fd6dd6d822c65ea14dcf2fd.json",
+          "model": "gpt-4.1",
+          "at": "2026-10-15T17:32:39.441746+00:00",
+          "cache_key": "456903ec71a45763a3034ecddec743ab6fe07cc83fd6dd6d822c65ea14dcf2fd",
+          "original_proposal": {
+            "variable_id": "electoral-access__positive",
+            "status": "observed",
+            "value": 3,
+            "confidence": 0.8,
+            "support_type": "positive_manifestation",
+            "rationale": "Ругвабиза публично поддерживала инклюзивные, прозрачные выборы, выдачу свидетельств о рождении для регистрации избирателей и проведение местных выборов (эпизоды 7, 11, 22, 25).",
+            "evidence_indices": [
+              7,
+              11,
+              22,
+              25
+            ]
+          }
+        },
+        "evidence_file": "evidence/independent-dossier-valentine-rugwabiza.json",
+        "evidence_basis": "130d8e1e900abe25367e0ddfb5e65410702aad66d80f3cf1b92def8d030e6bcf"
+      },
+      "negative": {
+        "status": "unknown",
+        "value": null,
+        "confidence": 0,
+        "evidence_indices": [],
+        "source_urls": [],
+        "event_ids": [],
+        "rationale": "Нет свидетельств, что Ругвабиза лично инициировала или поддерживала усиление барьеров для политического участия.",
+        "support_type": "unknown",
+        "provenance": {
+          "raw_response_file": "evidence/independent_responses/456903ec71a45763a3034ecddec743ab6fe07cc83fd6dd6d822c65ea14dcf2fd.json",
+          "model": "gpt-4.1",
+          "at": "2026-10-15T17:32:39.441746+00:00",
+          "cache_key": "456903ec71a45763a3034ecddec743ab6fe07cc83fd6dd6d822c65ea14dcf2fd",
+          "original_proposal": {
+            "variable_id": "electoral-access__negative",
+            "status": "unknown",
+            "value": null,
+            "confidence": 0,
+            "support_type": "unknown",
+            "rationale": "Нет свидетельств, что Ругвабиза лично инициировала или поддерживала усиление барьеров для политического участия.",
+            "evidence_indices": []
+          }
+        },
+        "evidence_file": "evidence/independent-dossier-valentine-rugwabiza.json",
+        "evidence_basis": "130d8e1e900abe25367e0ddfb5e65410702aad66d80f3cf1b92def8d030e6bcf"
+      }
+    },
+    "positive": 3,
+    "negative": null,
+    "value": null,
+    "status": "partial",
+    "difference": null,
+    "mass": null,
+    "measurement_model": "independent_poles",
+    "evidence_file": "evidence/independent-dossier-valentine-rugwabiza.json",
+    "evidence_basis": "130d8e1e900abe25367e0ddfb5e65410702aad66d80f3cf1b92def8d030e6bcf",
+    "at": "2026-10-15T17:32:39.445505+00:00",
+    "reason": "Каждое свойство оценивается независимо; разность и искусственное дополнение до пяти не вычисляются"
+  },
+  {
+    "object_id": "valentine-rugwabiza",
+    "scale_id": "institutional-autonomy-coordination",
+    "pole_scores": {
+      "positive": {
+        "status": "unknown",
+        "value": null,
+        "confidence": 0,
+        "evidence_indices": [],
+        "source_urls": [],
+        "event_ids": [],
+        "rationale": "В материалах отсутствуют прямые заявления или действия Ругвабизы в пользу гарантий самостоятельности и контроля между институтами.",
+        "support_type": "unknown",
+        "provenance": {
+          "raw_response_file": "evidence/independent_responses/456903ec71a45763a3034ecddec743ab6fe07cc83fd6dd6d822c65ea14dcf2fd.json",
+          "model": "gpt-4.1",
+          "at": "2026-10-15T17:32:39.441746+00:00",
+          "cache_key": "456903ec71a45763a3034ecddec743ab6fe07cc83fd6dd6d822c65ea14dcf2fd",
+          "original_proposal": {
+            "variable_id": "institutional-autonomy-coordination__positive",
+            "status": "unknown",
+            "value": null,
+            "confidence": 0,
+            "support_type": "unknown",
+            "rationale": "В материалах отсутствуют прямые заявления или действия Ругвабизы в пользу гарантий самостоятельности и контроля между институтами.",
+            "evidence_indices": []
+          }
+        },
+        "evidence_file": "evidence/independent-dossier-valentine-rugwabiza.json",
+        "evidence_basis": "130d8e1e900abe25367e0ddfb5e65410702aad66d80f3cf1b92def8d030e6bcf"
+      },
+      "negative": {
+        "status": "observed",
+        "value": 2,
+        "confidence": 0.7,
+        "evidence_indices": [
+          2,
+          15,
+          17,
+          29,
+          37
+        ],
+        "source_urls": [
+          "https://peacekeeping.un.org/en/speeches-and-statements/security-council-briefing-on-minusca-by-special-1",
+          "https://media.un.org/unifeed/en/asset/d328/d3288160",
+          "https://press.un.org/en/2026/sc16305.doc.htm",
+          "https://media.un.org/avlibrary/en/asset/d348/d3483099"
+        ],
+        "event_ids": [
+          "vr-2024-02-21-security-council-briefing",
+          "vr-2024-11-22-electoral-cycle",
+          "vr-2026-02-25-electoral-transition",
+          "rugwabiza-2025-11-27-elections-turning-point",
+          "rugwabiza-2025-11-27-state-authority"
+        ],
+        "rationale": "Ругвабиза акцентировала восстановление и расширение государственной власти, координацию между MINUSCA и правительством ЦАР, что указывает на приоритет единой управленческой линии (эпизоды 2, 15, 17, 29, 37).",
+        "support_type": "positive_manifestation",
+        "provenance": {
+          "raw_response_file": "evidence/independent_responses/456903ec71a45763a3034ecddec743ab6fe07cc83fd6dd6d822c65ea14dcf2fd.json",
+          "model": "gpt-4.1",
+          "at": "2026-10-15T17:32:39.441746+00:00",
+          "cache_key": "456903ec71a45763a3034ecddec743ab6fe07cc83fd6dd6d822c65ea14dcf2fd",
+          "original_proposal": {
+            "variable_id": "institutional-autonomy-coordination__negative",
+            "status": "observed",
+            "value": 2,
+            "confidence": 0.7,
+            "support_type": "positive_manifestation",
+            "rationale": "Ругвабиза акцентировала восстановление и расширение государственной власти, координацию между MINUSCA и правительством ЦАР, что указывает на приоритет единой управленческой линии (эпизоды 2, 15, 17, 29, 37).",
+            "evidence_indices": [
+              2,
+              15,
+              17,
+              29,
+              37
+            ]
+          }
+        },
+        "evidence_file": "evidence/independent-dossier-valentine-rugwabiza.json",
+        "evidence_basis": "130d8e1e900abe25367e0ddfb5e65410702aad66d80f3cf1b92def8d030e6bcf"
+      }
+    },
+    "positive": null,
+    "negative": 2,
+    "value": null,
+    "status": "partial",
+    "difference": null,
+    "mass": null,
+    "measurement_model": "independent_poles",
+    "evidence_file": "evidence/independent-dossier-valentine-rugwabiza.json",
+    "evidence_basis": "130d8e1e900abe25367e0ddfb5e65410702aad66d80f3cf1b92def8d030e6bcf",
+    "at": "2026-10-15T17:32:39.445505+00:00",
+    "reason": "Каждое свойство оценивается независимо; разность и искусственное дополнение до пяти не вычисляются"
+  },
+  {
+    "object_id": "valentine-rugwabiza",
+    "scale_id": "taxation-burden-public-revenue",
+    "pole_scores": {
+      "positive": {
+        "status": "unknown",
+        "value": null,
+        "confidence": 0,
+        "evidence_indices": [],
+        "source_urls": [],
+        "event_ids": [],
+        "rationale": "Нет данных о публичных инициативах Ругвабизы по снижению налоговой нагрузки или расширению имущественной самостоятельности.",
+        "support_type": "unknown",
+        "provenance": {
+          "raw_response_file": "evidence/independent_responses/456903ec71a45763a3034ecddec743ab6fe07cc83fd6dd6d822c65ea14dcf2fd.json",
+          "model": "gpt-4.1",
+          "at": "2026-10-15T17:32:39.441746+00:00",
+          "cache_key": "456903ec71a45763a3034ecddec743ab6fe07cc83fd6dd6d822c65ea14dcf2fd",
+          "original_proposal": {
+            "variable_id": "taxation-burden-public-revenue__positive",
+            "status": "unknown",
+            "value": null,
+            "confidence": 0,
+            "support_type": "unknown",
+            "rationale": "Нет данных о публичных инициативах Ругвабизы по снижению налоговой нагрузки или расширению имущественной самостоятельности.",
+            "evidence_indices": []
+          }
+        },
+        "evidence_file": "evidence/independent-dossier-valentine-rugwabiza.json",
+        "evidence_basis": "130d8e1e900abe25367e0ddfb5e65410702aad66d80f3cf1b92def8d030e6bcf"
+      },
+      "negative": {
+        "status": "unknown",
+        "value": null,
+        "confidence": 0,
+        "evidence_indices": [],
+        "source_urls": [],
+        "event_ids": [],
+        "rationale": "Нет оснований приписывать Ругвабизе личную поддержку увеличения налоговых поступлений для публичного развития; её заявления касались внешнего финансирования миссии.",
+        "support_type": "unknown",
+        "provenance": {
+          "raw_response_file": "evidence/independent_responses/456903ec71a45763a3034ecddec743ab6fe07cc83fd6dd6d822c65ea14dcf2fd.json",
+          "model": "gpt-4.1",
+          "at": "2026-10-15T17:32:39.441746+00:00",
+          "cache_key": "456903ec71a45763a3034ecddec743ab6fe07cc83fd6dd6d822c65ea14dcf2fd",
+          "original_proposal": {
+            "variable_id": "taxation-burden-public-revenue__negative",
+            "status": "unknown",
+            "value": null,
+            "confidence": 0,
+            "support_type": "unknown",
+            "rationale": "Нет оснований приписывать Ругвабизе личную поддержку увеличения налоговых поступлений для публичного развития; её заявления касались внешнего финансирования миссии.",
+            "evidence_indices": []
+          }
+        },
+        "evidence_file": "evidence/independent-dossier-valentine-rugwabiza.json",
+        "evidence_basis": "130d8e1e900abe25367e0ddfb5e65410702aad66d80f3cf1b92def8d030e6bcf"
+      }
+    },
+    "positive": null,
+    "negative": null,
+    "value": null,
+    "status": "unknown",
+    "difference": null,
+    "mass": null,
+    "measurement_model": "independent_poles",
+    "evidence_file": "evidence/independent-dossier-valentine-rugwabiza.json",
+    "evidence_basis": "130d8e1e900abe25367e0ddfb5e65410702aad66d80f3cf1b92def8d030e6bcf",
+    "at": "2026-10-15T17:32:39.445505+00:00",
+    "reason": "Каждое свойство оценивается независимо; разность и искусственное дополнение до пяти не вычисляются"
+  },
+  {
+    "object_id": "valentine-rugwabiza",
+    "scale_id": "universal-targeted-provision",
+    "pole_scores": {
+      "positive": {
+        "status": "observed",
+        "value": 2,
+        "confidence": 0.6,
+        "evidence_indices": [
+          6,
+          11
+        ],
+        "source_urls": [
+          "https://media.un.org/unifeed/en/asset/d328/d3288160"
+        ],
+        "event_ids": [
+          "vr-2024-11-22-security-council-briefing",
+          "vr-2024-11-22-electoral-cycle"
+        ],
+        "rationale": "Ругвабиза поддерживала выдачу свидетельств о рождении уязвимым группам для регистрации избирателей, что свидетельствует о стремлении к расширению охвата базовых услуг (эпизоды 6, 11).",
+        "support_type": "positive_manifestation",
+        "provenance": {
+          "raw_response_file": "evidence/independent_responses/456903ec71a45763a3034ecddec743ab6fe07cc83fd6dd6d822c65ea14dcf2fd.json",
+          "model": "gpt-4.1",
+          "at": "2026-10-15T17:32:39.441746+00:00",
+          "cache_key": "456903ec71a45763a3034ecddec743ab6fe07cc83fd6dd6d822c65ea14dcf2fd",
+          "original_proposal": {
+            "variable_id": "universal-targeted-provision__positive",
+            "status": "observed",
+            "value": 2,
+            "confidence": 0.6,
+            "support_type": "positive_manifestation",
+            "rationale": "Ругвабиза поддерживала выдачу свидетельств о рождении уязвимым группам для регистрации избирателей, что свидетельствует о стремлении к расширению охвата базовых услуг (эпизоды 6, 11).",
+            "evidence_indices": [
+              6,
+              11
+            ]
+          }
+        },
+        "evidence_file": "evidence/independent-dossier-valentine-rugwabiza.json",
+        "evidence_basis": "130d8e1e900abe25367e0ddfb5e65410702aad66d80f3cf1b92def8d030e6bcf"
+      },
+      "negative": {
+        "status": "observed",
+        "value": 1,
+        "confidence": 0.5,
+        "evidence_indices": [
+          6,
+          11
+        ],
+        "source_urls": [
+          "https://media.un.org/unifeed/en/asset/d328/d3288160"
+        ],
+        "event_ids": [
+          "vr-2024-11-22-security-council-briefing",
+          "vr-2024-11-22-electoral-cycle"
+        ],
+        "rationale": "Выдача свидетельств о рождении уязвимым группам также указывает на приоритетную помощь конкретным недостаточно обеспеченным категориям (эпизоды 6, 11).",
+        "support_type": "positive_manifestation",
+        "provenance": {
+          "raw_response_file": "evidence/independent_responses/456903ec71a45763a3034ecddec743ab6fe07cc83fd6dd6d822c65ea14dcf2fd.json",
+          "model": "gpt-4.1",
+          "at": "2026-10-15T17:32:39.441746+00:00",
+          "cache_key": "456903ec71a45763a3034ecddec743ab6fe07cc83fd6dd6d822c65ea14dcf2fd",
+          "original_proposal": {
+            "variable_id": "universal-targeted-provision__negative",
+            "status": "observed",
+            "value": 1,
+            "confidence": 0.5,
+            "support_type": "positive_manifestation",
+            "rationale": "Выдача свидетельств о рождении уязвимым группам также указывает на приоритетную помощь конкретным недостаточно обеспеченным категориям (эпизоды 6, 11).",
+            "evidence_indices": [
+              6,
+              11
+            ]
+          }
+        },
+        "evidence_file": "evidence/independent-dossier-valentine-rugwabiza.json",
+        "evidence_basis": "130d8e1e900abe25367e0ddfb5e65410702aad66d80f3cf1b92def8d030e6bcf"
+      }
+    },
+    "positive": 2,
+    "negative": 1,
+    "value": null,
+    "status": "observed",
+    "difference": null,
+    "mass": null,
+    "measurement_model": "independent_poles",
+    "evidence_file": "evidence/independent-dossier-valentine-rugwabiza.json",
+    "evidence_basis": "130d8e1e900abe25367e0ddfb5e65410702aad66d80f3cf1b92def8d030e6bcf",
+    "at": "2026-10-15T17:32:39.445505+00:00",
+    "reason": "Каждое свойство оценивается независимо; разность и искусственное дополнение до пяти не вычисляются"
+  },
+  {
+    "object_id": "valentine-rugwabiza",
+    "scale_id": "ecological-limits-resource-use",
+    "pole_scores": {
+      "positive": {
+        "status": "unknown",
+        "value": null,
+        "confidence": 0,
+        "evidence_indices": [],
+        "source_urls": [],
+        "event_ids": [],
+        "rationale": "В доступных источниках отсутствуют сведения о публичных инициативах или заявлениях Ругвабизы, связанных с усилением природоохранных ограничений.",
+        "support_type": "unknown",
+        "provenance": {
+          "raw_response_file": "evidence/independent_responses/456903ec71a45763a3034ecddec743ab6fe07cc83fd6dd6d822c65ea14dcf2fd.json",
+          "model": "gpt-4.1",
+          "at": "2026-10-15T17:32:39.441746+00:00",
+          "cache_key": "456903ec71a45763a3034ecddec743ab6fe07cc83fd6dd6d822c65ea14dcf2fd",
+          "original_proposal": {
+            "variable_id": "ecological-limits-resource-use__positive",
+            "status": "unknown",
+            "value": null,
+            "confidence": 0,
+            "support_type": "unknown",
+            "rationale": "В доступных источниках отсутствуют сведения о публичных инициативах или заявлениях Ругвабизы, связанных с усилением природоохранных ограничений.",
+            "evidence_indices": []
+          }
+        },
+        "evidence_file": "evidence/independent-dossier-valentine-rugwabiza.json",
+        "evidence_basis": "130d8e1e900abe25367e0ddfb5e65410702aad66d80f3cf1b92def8d030e6bcf"
+      },
+      "negative": {
+        "status": "unknown",
+        "value": null,
+        "confidence": 0,
+        "evidence_indices": [],
+        "source_urls": [],
+        "event_ids": [],
+        "rationale": "Нет данных о публичных действиях или заявлениях Ругвабизы, направленных на расширение хозяйственного использования природных ресурсов.",
+        "support_type": "unknown",
+        "provenance": {
+          "raw_response_file": "evidence/independent_responses/456903ec71a45763a3034ecddec743ab6fe07cc83fd6dd6d822c65ea14dcf2fd.json",
+          "model": "gpt-4.1",
+          "at": "2026-10-15T17:32:39.441746+00:00",
+          "cache_key": "456903ec71a45763a3034ecddec743ab6fe07cc83fd6dd6d822c65ea14dcf2fd",
+          "original_proposal": {
+            "variable_id": "ecological-limits-resource-use__negative",
+            "status": "unknown",
+            "value": null,
+            "confidence": 0,
+            "support_type": "unknown",
+            "rationale": "Нет данных о публичных действиях или заявлениях Ругвабизы, направленных на расширение хозяйственного использования природных ресурсов.",
+            "evidence_indices": []
+          }
+        },
+        "evidence_file": "evidence/independent-dossier-valentine-rugwabiza.json",
+        "evidence_basis": "130d8e1e900abe25367e0ddfb5e65410702aad66d80f3cf1b92def8d030e6bcf"
+      }
+    },
+    "positive": null,
+    "negative": null,
+    "value": null,
+    "status": "unknown",
+    "difference": null,
+    "mass": null,
+    "measurement_model": "independent_poles",
+    "evidence_file": "evidence/independent-dossier-valentine-rugwabiza.json",
+    "evidence_basis": "130d8e1e900abe25367e0ddfb5e65410702aad66d80f3cf1b92def8d030e6bcf",
+    "at": "2026-10-15T17:32:39.445505+00:00",
+    "reason": "Каждое свойство оценивается независимо; разность и искусственное дополнение до пяти не вычисляются"
+  },
+  {
+    "object_id": "valentine-rugwabiza",
+    "scale_id": "russia-diplomatic-engagement",
+    "pole_scores": {
+      "positive": {
+        "status": "unknown",
+        "value": null,
+        "confidence": 0,
+        "evidence_indices": [],
+        "source_urls": [],
+        "event_ids": [],
+        "rationale": "Нет допустимых датированных персональных свидетельств по этому свойству",
+        "support_type": "unknown"
+      },
+      "negative": {
+        "status": "unknown",
+        "value": null,
+        "confidence": 0,
+        "evidence_indices": [],
+        "source_urls": [],
+        "event_ids": [],
+        "rationale": "Нет допустимых датированных персональных свидетельств по этому свойству",
+        "support_type": "unknown"
+      }
+    },
+    "positive": null,
+    "negative": null,
+    "value": null,
+    "status": "unknown",
+    "difference": null,
+    "mass": null,
+    "measurement_model": "independent_poles",
+    "evidence_file": "evidence/independent-dossier-valentine-rugwabiza.json",
+    "evidence_basis": "130d8e1e900abe25367e0ddfb5e65410702aad66d80f3cf1b92def8d030e6bcf",
+    "at": "2026-10-15T17:32:39.445505+00:00",
+    "reason": "Каждое свойство оценивается независимо; разность и искусственное дополнение до пяти не вычисляются"
+  },
+  {
+    "object_id": "valentine-rugwabiza",
+    "scale_id": "russia-security-cooperation",
+    "pole_scores": {
+      "positive": {
+        "status": "unknown",
+        "value": null,
+        "confidence": 0,
+        "evidence_indices": [],
+        "source_urls": [],
+        "event_ids": [],
+        "rationale": "Нет допустимых датированных персональных свидетельств по этому свойству",
+        "support_type": "unknown"
+      },
+      "negative": {
+        "status": "unknown",
+        "value": null,
+        "confidence": 0,
+        "evidence_indices": [],
+        "source_urls": [],
+        "event_ids": [],
+        "rationale": "Нет допустимых датированных персональных свидетельств по этому свойству",
+        "support_type": "unknown"
+      }
+    },
+    "positive": null,
+    "negative": null,
+    "value": null,
+    "status": "unknown",
+    "difference": null,
+    "mass": null,
+    "measurement_model": "independent_poles",
+    "evidence_file": "evidence/independent-dossier-valentine-rugwabiza.json",
+    "evidence_basis": "130d8e1e900abe25367e0ddfb5e65410702aad66d80f3cf1b92def8d030e6bcf",
+    "at": "2026-10-15T17:32:39.445505+00:00",
+    "reason": "Каждое свойство оценивается независимо; разность и искусственное дополнение до пяти не вычисляются"
+  },
+  {
+    "object_id": "valentine-rugwabiza",
+    "scale_id": "russia-economic-technology-cooperation",
+    "pole_scores": {
+      "positive": {
+        "status": "unknown",
+        "value": null,
+        "confidence": 0,
+        "evidence_indices": [],
+        "source_urls": [],
+        "event_ids": [],
+        "rationale": "Нет допустимых датированных персональных свидетельств по этому свойству",
+        "support_type": "unknown"
+      },
+      "negative": {
+        "status": "unknown",
+        "value": null,
+        "confidence": 0,
+        "evidence_indices": [],
+        "source_urls": [],
+        "event_ids": [],
+        "rationale": "Нет допустимых датированных персональных свидетельств по этому свойству",
+        "support_type": "unknown"
+      }
+    },
+    "positive": null,
+    "negative": null,
+    "value": null,
+    "status": "unknown",
+    "difference": null,
+    "mass": null,
+    "measurement_model": "independent_poles",
+    "evidence_file": "evidence/independent-dossier-valentine-rugwabiza.json",
+    "evidence_basis": "130d8e1e900abe25367e0ddfb5e65410702aad66d80f3cf1b92def8d030e6bcf",
+    "at": "2026-10-15T17:32:39.445505+00:00",
+    "reason": "Каждое свойство оценивается независимо; разность и искусственное дополнение до пяти не вычисляются"
+  },
+  {
+    "object_id": "valentine-rugwabiza",
+    "scale_id": "russia-education-cultural-cooperation",
+    "pole_scores": {
+      "positive": {
+        "status": "unknown",
+        "value": null,
+        "confidence": 0,
+        "evidence_indices": [],
+        "source_urls": [],
+        "event_ids": [],
+        "rationale": "Нет допустимых датированных персональных свидетельств по этому свойству",
+        "support_type": "unknown"
+      },
+      "negative": {
+        "status": "unknown",
+        "value": null,
+        "confidence": 0,
+        "evidence_indices": [],
+        "source_urls": [],
+        "event_ids": [],
+        "rationale": "Нет допустимых датированных персональных свидетельств по этому свойству",
+        "support_type": "unknown"
+      }
+    },
+    "positive": null,
+    "negative": null,
+    "value": null,
+    "status": "unknown",
+    "difference": null,
+    "mass": null,
+    "measurement_model": "independent_poles",
+    "evidence_file": "evidence/independent-dossier-valentine-rugwabiza.json",
+    "evidence_basis": "130d8e1e900abe25367e0ddfb5e65410702aad66d80f3cf1b92def8d030e6bcf",
+    "at": "2026-10-15T17:32:39.445505+00:00",
+    "reason": "Каждое свойство оценивается независимо; разность и искусственное дополнение до пяти не вычисляются"
+  },
+  {
+    "object_id": "valentine-rugwabiza",
+    "scale_id": "russia-conflict-policy-evaluation",
+    "pole_scores": {
+      "positive": {
+        "status": "unknown",
+        "value": null,
+        "confidence": 0,
+        "evidence_indices": [],
+        "source_urls": [],
+        "event_ids": [],
+        "rationale": "Нет допустимых датированных персональных свидетельств по этому свойству",
+        "support_type": "unknown"
+      },
+      "negative": {
+        "status": "unknown",
+        "value": null,
+        "confidence": 0,
+        "evidence_indices": [],
+        "source_urls": [],
+        "event_ids": [],
+        "rationale": "Нет допустимых датированных персональных свидетельств по этому свойству",
+        "support_type": "unknown"
+      }
+    },
+    "positive": null,
+    "negative": null,
+    "value": null,
+    "status": "unknown",
+    "difference": null,
+    "mass": null,
+    "measurement_model": "independent_poles",
+    "evidence_file": "evidence/independent-dossier-valentine-rugwabiza.json",
+    "evidence_basis": "130d8e1e900abe25367e0ddfb5e65410702aad66d80f3cf1b92def8d030e6bcf",
+    "at": "2026-10-15T17:32:39.445505+00:00",
+    "reason": "Каждое свойство оценивается независимо; разность и искусственное дополнение до пяти не вычисляются"
+  },
+  {
+    "object_id": "valentine-rugwabiza",
+    "scale_id": "russia-isolation-sanctions",
+    "pole_scores": {
+      "positive": {
+        "status": "unknown",
+        "value": null,
+        "confidence": 0,
+        "evidence_indices": [],
+        "source_urls": [],
+        "event_ids": [],
+        "rationale": "Нет допустимых датированных персональных свидетельств по этому свойству",
+        "support_type": "unknown"
+      },
+      "negative": {
+        "status": "unknown",
+        "value": null,
+        "confidence": 0,
+        "evidence_indices": [],
+        "source_urls": [],
+        "event_ids": [],
+        "rationale": "Нет допустимых датированных персональных свидетельств по этому свойству",
+        "support_type": "unknown"
+      }
+    },
+    "positive": null,
+    "negative": null,
+    "value": null,
+    "status": "unknown",
+    "difference": null,
+    "mass": null,
+    "measurement_model": "independent_poles",
+    "evidence_file": "evidence/independent-dossier-valentine-rugwabiza.json",
+    "evidence_basis": "130d8e1e900abe25367e0ddfb5e65410702aad66d80f3cf1b92def8d030e6bcf",
+    "at": "2026-10-15T17:32:39.445505+00:00",
+    "reason": "Каждое свойство оценивается независимо; разность и искусственное дополнение до пяти не вычисляются"
+  }
+]

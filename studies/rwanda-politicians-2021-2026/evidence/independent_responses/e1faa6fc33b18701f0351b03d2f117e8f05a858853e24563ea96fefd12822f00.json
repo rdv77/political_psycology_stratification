@@ -1,0 +1,224 @@
+{
+  "data": {
+    "ratings": [
+      {
+        "variable_id": "programmatic-renewal__positive",
+        "status": "observed",
+        "value": 2,
+        "confidence": 0.7,
+        "support_type": "positive_manifestation",
+        "rationale": "В выступлении в Национальном собрании Франции Мушикивабо описала обновление политической и дипломатической деятельности МОФ, а также выступила за усиление политического измерения организации. Это фиксирует ясное ограниченное проявление программных изменений, но не устойчивый акцент на пересмотре всех приоритетов.",
+        "evidence_indices": [
+          6
+        ]
+      },
+      {
+        "variable_id": "programmatic-renewal__negative",
+        "status": "observed",
+        "value": 2,
+        "confidence": 0.6,
+        "support_type": "positive_manifestation",
+        "rationale": "Переизбрание на второй срок и выступления на саммитах сопровождались заявлениями о необходимости координации и продолжения работы МОФ, что отражает ограниченное проявление закрепления существующего курса, но не делает это определяющей чертой.",
+        "evidence_indices": [
+          0,
+          10
+        ]
+      },
+      {
+        "variable_id": "government-course-assessment__positive",
+        "status": "unknown",
+        "value": null,
+        "confidence": 0,
+        "support_type": "unknown",
+        "rationale": "Нет прямых публичных оценок действующего государственного курса (любой страны) от имени Мушикивабо в исследуемый период.",
+        "evidence_indices": []
+      },
+      {
+        "variable_id": "government-course-assessment__negative",
+        "status": "unknown",
+        "value": null,
+        "confidence": 0,
+        "support_type": "unknown",
+        "rationale": "Нет прямых публичных критических оценок государственного курса (любой страны) от имени Мушикивабо в исследуемый период.",
+        "evidence_indices": []
+      },
+      {
+        "variable_id": "participation-administrative-direction__positive",
+        "status": "observed",
+        "value": 3,
+        "confidence": 0.8,
+        "support_type": "positive_manifestation",
+        "rationale": "Создание консультативного комитета по Гаити и миссии для контактов с политическими и гражданскими участниками, а также призывы к диалогу и солидарности на сессиях МОФ, подтверждают несколько последовательных эпизодов совместного обсуждения и консультаций.",
+        "evidence_indices": [
+          7,
+          11
+        ]
+      },
+      {
+        "variable_id": "participation-administrative-direction__negative",
+        "status": "observed",
+        "value": 2,
+        "confidence": 0.6,
+        "support_type": "positive_manifestation",
+        "rationale": "В ряде случаев (например, организация наблюдательной миссии в Молдове, председательство на сессиях МОФ) проявляется административная постановка задач и контроль исполнения, но без устойчивого доминирования этого подхода.",
+        "evidence_indices": [
+          13,
+          11
+        ]
+      },
+      {
+        "variable_id": "argumentation-evidence-values__positive",
+        "status": "observed",
+        "value": 2,
+        "confidence": 0.6,
+        "support_type": "positive_manifestation",
+        "rationale": "В публичных заявлениях Мушикивабо иногда ссылается на решения, принятые в рамках посреднических процессов, и на необходимость координации, что указывает на ограниченное использование данных и институциональных механизмов как аргумента.",
+        "evidence_indices": [
+          5,
+          10
+        ]
+      },
+      {
+        "variable_id": "argumentation-evidence-values__negative",
+        "status": "observed",
+        "value": 3,
+        "confidence": 0.7,
+        "support_type": "positive_manifestation",
+        "rationale": "В риторике Мушикивабо часто используются обращения к ценностям солидарности, диалога, мира, равенства и уважения разнообразия, что подтверждается в нескольких последовательных эпизодах.",
+        "evidence_indices": [
+          11,
+          14,
+          6,
+          9
+        ]
+      },
+      {
+        "variable_id": "market-state-instruments__positive",
+        "status": "unknown",
+        "value": null,
+        "confidence": 0,
+        "support_type": "unknown",
+        "rationale": "Нет прямых свидетельств акцента на расширение частной инициативы и управления в публичных действиях или заявлениях Мушикивабо.",
+        "evidence_indices": []
+      },
+      {
+        "variable_id": "market-state-instruments__negative",
+        "status": "unknown",
+        "value": null,
+        "confidence": 0,
+        "support_type": "unknown",
+        "rationale": "Нет прямых свидетельств акцента на расширение государственного планирования и обязательных правил в публичных действиях или заявлениях Мушикивабо.",
+        "evidence_indices": []
+      },
+      {
+        "variable_id": "accessibility-growth-priorities__positive",
+        "status": "observed",
+        "value": 2,
+        "confidence": 0.6,
+        "support_type": "positive_manifestation",
+        "rationale": "В заявлениях о правах женщин и девочек, а также в призывах к миру и солидарности, фиксируется ограниченный акцент на расширении доступности базовых благ.",
+        "evidence_indices": [
+          12,
+          5
+        ]
+      },
+      {
+        "variable_id": "accessibility-growth-priorities__negative",
+        "status": "unknown",
+        "value": null,
+        "confidence": 0,
+        "support_type": "unknown",
+        "rationale": "Нет прямых заявлений о приоритете роста инвестиций, конкурентоспособности и деловой активности.",
+        "evidence_indices": []
+      },
+      {
+        "variable_id": "external-domestic-resources__positive",
+        "status": "unknown",
+        "value": null,
+        "confidence": 0,
+        "support_type": "unknown",
+        "rationale": "Нет прямых свидетельств акцента на привлечение внешнего финансирования или ресурсных партнёров в публичных заявлениях Мушикивабо.",
+        "evidence_indices": []
+      },
+      {
+        "variable_id": "external-domestic-resources__negative",
+        "status": "unknown",
+        "value": null,
+        "confidence": 0,
+        "support_type": "unknown",
+        "rationale": "Нет прямых свидетельств акцента на опору на внутренние доходы и хозяйственную самостоятельность в публичных заявлениях Мушикивабо.",
+        "evidence_indices": []
+      },
+      {
+        "variable_id": "international-rules-autonomy__positive",
+        "status": "observed",
+        "value": 3,
+        "confidence": 0.8,
+        "support_type": "positive_manifestation",
+        "rationale": "Мушикивабо неоднократно подчёркивала значение международных обязательств, осуждала попытки силовой смены власти как нарушение ценностей и обязательств МОФ, призывала к исполнению международных договорённостей и решений.",
+        "evidence_indices": [
+          14,
+          5,
+          9
+        ]
+      },
+      {
+        "variable_id": "international-rules-autonomy__negative",
+        "status": "observed",
+        "value": 1,
+        "confidence": 0.5,
+        "support_type": "positive_manifestation",
+        "rationale": "В одном эпизоде (напряжённость между Руандой и ДРК) Мушикивабо отнесла основную ответственность за урегулирование к субрегиональным структурам, что может трактоваться как единичное слабое проявление акцента на самостоятельности региональных решений.",
+        "evidence_indices": [
+          1
+        ]
+      },
+      {
+        "variable_id": "mediation-adversarial-communication__positive",
+        "status": "observed",
+        "value": 4,
+        "confidence": 0.9,
+        "support_type": "positive_manifestation",
+        "rationale": "Мушикивабо регулярно выступает с инициативами посредничества, призывами к диалогу, созданием консультативных комитетов, передачей сообщений между сторонами конфликтов и содействием переговорам, что подтверждается в ряде независимых эпизодов.",
+        "evidence_indices": [
+          1,
+          5,
+          7,
+          11
+        ]
+      },
+      {
+        "variable_id": "mediation-adversarial-communication__negative",
+        "status": "observed",
+        "value": 1,
+        "confidence": 0.5,
+        "support_type": "positive_manifestation",
+        "rationale": "В публичных заявлениях Мушикивабо отсутствует акцент на полемическом оспаривании; однако в отдельных случаях (например, осуждение попытки переворота) проявляется единичное слабое проявление защиты собственной стороны и ценностей организации.",
+        "evidence_indices": [
+          14
+        ]
+      }
+    ]
+  },
+  "model": "gpt-4.1",
+  "task": "independent-ratings-louise-mushikiwabo-0",
+  "at": "2026-10-15T17:32:16.335735+00:00",
+  "usage": {
+    "prompt_tokens": 7299,
+    "completion_tokens": 1585,
+    "total_tokens": 8884,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "audio_tokens": 0
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "audio_tokens": 0,
+      "accepted_prediction_tokens": 0,
+      "rejected_prediction_tokens": 0
+    }
+  },
+  "citations": [],
+  "system_fingerprint": "fp_801d3b7b5c",
+  "cache_key": "e1faa6fc33b18701f0351b03d2f117e8f05a858853e24563ea96fefd12822f00"
+}

@@ -1,4 +1,5 @@
 """Offline MVP analysis checks use measured synthetic fixtures, never paid calls."""
+from copy import deepcopy
 import json
 import tempfile
 import unittest
@@ -31,6 +32,81 @@ def fixture(n=16, p=8):
 
 
 class ServiceAnalysisTests(unittest.TestCase):
+    def test_independent_poles_keep_known_property_despite_unknown_root_and_opposite(self):
+        study, ratings = fixture(p=6)
+        study["measurement_model"] = "independent_poles"
+        for row in ratings:
+            row["pole_scores"] = {pole: {"status": "observed", "value": row[pole]}
+                                  for pole in ("positive", "negative")}
+            row["status"] = "partial"
+        ratings[0]["status"] = "unknown"
+        ratings[0]["pole_scores"] = {"positive": {"status": "observed", "value": 4},
+                                     "negative": {"status": "unknown", "value": None}}
+        before = deepcopy(study), deepcopy(ratings)
+        matrix, mass, _, scales, diagnostics = _prepare(study, ratings)
+        self.assertEqual(matrix.shape, (16, 12))
+        self.assertEqual(matrix.loc["o0", "s0__positive"], 4)
+        self.assertTrue(np.isnan(matrix.loc["o0", "s0__negative"]))
+        self.assertEqual(scales["s0__negative"]["name"], "Полюс -0")
+        self.assertEqual(scales["s0__negative"]["parent_scale_id"], "s0")
+        self.assertEqual(scales["s0__negative"]["negative"], "")
+        self.assertTrue(mass.isna().all().all())
+        self.assertEqual(diagnostics["observed_input_ratings"], 16 * 12 - 1)
+        self.assertEqual(diagnostics["input_scale_definitions"], 6)
+        self.assertEqual(diagnostics["measurement_model"], "independent_poles")
+        self.assertIsNone(diagnostics["zero_differences"])
+        self.assertEqual((study, ratings), before)
+
+    def test_unipolar_values_are_direct_and_low_expression_is_not_an_antonym(self):
+        study, ratings = fixture(p=6)
+        for scale in study["scales"]:
+            scale["kind"] = "unipolar"
+            scale.pop("positive"); scale.pop("negative")
+        for row in ratings:
+            row["value"] = 2.5 + .4 * (row.pop("positive") - row.pop("negative"))
+        matrix, _, _, scale_map, diagnostics = _prepare(study, ratings)
+        self.assertEqual(matrix.columns.tolist(), [f"s{i}" for i in range(6)])
+        self.assertEqual(diagnostics["measurement_model"], "independent_poles")
+        loadings = np.zeros((6, 2)); loadings[:2, 0] = [.8, -.7]
+        factor = _factor_descriptions(loadings, list(scale_map.values()), 6.)[0]
+        negative = factor["negative_traits"][0]
+        self.assertEqual(negative["high_factor_property"], "Меньшая выраженность: Шкала 1")
+        self.assertEqual(negative["low_factor_property"], "Большая выраженность: Шкала 1")
+        self.assertIn("не означает выраженность его антонима", factor["interpretation"])
+        self.assertNotIn("↔", factor["label"])
+        self.assertAlmostEqual(factor["variance_share"], (.8 ** 2 + .7 ** 2) / 6.)
+        ratings[0]["value"] = -1
+        with self.assertRaisesRegex(ValueError, "от 0 до 5"):
+            _prepare(study, ratings)
+
+    def test_paired_alias_and_unipolar_name_match_provider_contract(self):
+        study, ratings = fixture(p=6)
+        for scale in study["scales"]:
+            scale["kind"] = "paired"
+        matrix, _, _, _, _ = _prepare(study, ratings)
+        self.assertEqual(matrix.shape, (16, 6))
+        study["measurement_model"] = "independent_poles"
+        for scale in study["scales"]:
+            scale["kind"] = "unipolar"
+        for row in ratings:
+            row["value"] = 2.5 + .4 * (row.pop("positive") - row.pop("negative"))
+        _, _, _, scale_map, _ = _prepare(study, ratings)
+        # A UI conversion can leave old pole labels; canonical meaning is name.
+        self.assertEqual(scale_map["s0"]["positive"], "Шкала 0")
+        self.assertEqual(scale_map["s0"]["negative"], "")
+
+    def test_independent_pole_observations_must_be_finite_in_range(self):
+        study, ratings = fixture(p=6)
+        study["measurement_model"] = "independent_poles"
+        for row in ratings:
+            row["pole_scores"] = {pole: {"status": "observed", "value": row[pole]}
+                                  for pole in ("positive", "negative")}
+        for invalid in (6, -1, float("nan"), float("inf"), True):
+            with self.subTest(invalid=invalid):
+                ratings[0]["pole_scores"]["positive"]["value"] = invalid
+                with self.assertRaises(ValueError):
+                    _prepare(study, ratings)
+
     def test_unknown_is_missing_and_mass_preserves_ambivalence(self):
         study, ratings = fixture()
         ratings[0].update(positive=4., negative=4.)

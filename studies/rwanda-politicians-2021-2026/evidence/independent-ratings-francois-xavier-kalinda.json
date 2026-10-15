@@ -1,0 +1,1672 @@
+[
+  {
+    "object_id": "francois-xavier-kalinda",
+    "scale_id": "programmatic-renewal",
+    "pole_scores": {
+      "positive": {
+        "status": "unknown",
+        "value": null,
+        "confidence": 0,
+        "evidence_indices": [],
+        "source_urls": [],
+        "event_ids": [],
+        "rationale": "Нет прямых персональных предложений Калинды о пересмотре действующих приоритетов, правил или программ в исследуемый период.",
+        "support_type": "unknown",
+        "provenance": {
+          "raw_response_file": "evidence/independent_responses/77fc315b058f0579a69108ac4017b69464db54de350a63fba239e3a3d4d9a500.json",
+          "model": "gpt-4.1",
+          "at": "2026-10-15T17:31:08.916098+00:00",
+          "cache_key": "77fc315b058f0579a69108ac4017b69464db54de350a63fba239e3a3d4d9a500",
+          "original_proposal": {
+            "variable_id": "programmatic-renewal__positive",
+            "status": "unknown",
+            "value": null,
+            "confidence": 0,
+            "support_type": "unknown",
+            "rationale": "Нет прямых персональных предложений Калинды о пересмотре действующих приоритетов, правил или программ в исследуемый период.",
+            "evidence_indices": []
+          }
+        },
+        "evidence_file": "evidence/independent-dossier-francois-xavier-kalinda.json",
+        "evidence_basis": "1f8a7c223adc150957f3ca121f3be31f790f8d2ecf459effc91f247023b09a86"
+      },
+      "negative": {
+        "status": "observed",
+        "value": 2,
+        "confidence": 0.7,
+        "evidence_indices": [
+          10,
+          11
+        ],
+        "source_urls": [
+          "https://parliament.gov.rw/news-detail",
+          "https://www.africa-press.net/rwanda/policy/re-elected-senate-president-kalinda-promises-to-deliver-for-rwandans"
+        ],
+        "event_ids": [
+          "kalinda-democracy-conference-2024",
+          "kalinda-reelection-speech-2024"
+        ],
+        "rationale": "В ряде публичных выступлений Калинда подчёркивает продолжение исполнения существующих обязанностей и текущей модели управления (например, после переизбрания и на конференции ко Дню демократии), но не делает это определяющей чертой. Примеры: evidence_index 10, 11.",
+        "support_type": "positive_manifestation",
+        "provenance": {
+          "raw_response_file": "evidence/independent_responses/77fc315b058f0579a69108ac4017b69464db54de350a63fba239e3a3d4d9a500.json",
+          "model": "gpt-4.1",
+          "at": "2026-10-15T17:31:08.916098+00:00",
+          "cache_key": "77fc315b058f0579a69108ac4017b69464db54de350a63fba239e3a3d4d9a500",
+          "original_proposal": {
+            "variable_id": "programmatic-renewal__negative",
+            "status": "observed",
+            "value": 2,
+            "confidence": 0.7,
+            "support_type": "positive_manifestation",
+            "rationale": "В ряде публичных выступлений Калинда подчёркивает продолжение исполнения существующих обязанностей и текущей модели управления (например, после переизбрания и на конференции ко Дню демократии), но не делает это определяющей чертой. Примеры: evidence_index 10, 11.",
+            "evidence_indices": [
+              10,
+              11
+            ]
+          }
+        },
+        "evidence_file": "evidence/independent-dossier-francois-xavier-kalinda.json",
+        "evidence_basis": "1f8a7c223adc150957f3ca121f3be31f790f8d2ecf459effc91f247023b09a86"
+      }
+    },
+    "positive": null,
+    "negative": 2,
+    "value": null,
+    "status": "partial",
+    "difference": null,
+    "mass": null,
+    "measurement_model": "independent_poles",
+    "evidence_file": "evidence/independent-dossier-francois-xavier-kalinda.json",
+    "evidence_basis": "1f8a7c223adc150957f3ca121f3be31f790f8d2ecf459effc91f247023b09a86",
+    "at": "2026-10-15T17:31:17.356521+00:00",
+    "reason": "Каждое свойство оценивается независимо; разность и искусственное дополнение до пяти не вычисляются"
+  },
+  {
+    "object_id": "francois-xavier-kalinda",
+    "scale_id": "government-course-assessment",
+    "pole_scores": {
+      "positive": {
+        "status": "observed",
+        "value": 2,
+        "confidence": 0.7,
+        "evidence_indices": [
+          10
+        ],
+        "source_urls": [
+          "https://parliament.gov.rw/news-detail"
+        ],
+        "event_ids": [
+          "kalinda-democracy-conference-2024"
+        ],
+        "rationale": "Калинда публично описывает действующую модель управления как ставящую потребности граждан на первое место и связывает её с развитием и благополучием, что является позитивной оценкой курса, но без сильного повторяющегося акцента. Пример: evidence_index 10.",
+        "support_type": "positive_manifestation",
+        "provenance": {
+          "raw_response_file": "evidence/independent_responses/77fc315b058f0579a69108ac4017b69464db54de350a63fba239e3a3d4d9a500.json",
+          "model": "gpt-4.1",
+          "at": "2026-10-15T17:31:08.916098+00:00",
+          "cache_key": "77fc315b058f0579a69108ac4017b69464db54de350a63fba239e3a3d4d9a500",
+          "original_proposal": {
+            "variable_id": "government-course-assessment__positive",
+            "status": "observed",
+            "value": 2,
+            "confidence": 0.7,
+            "support_type": "positive_manifestation",
+            "rationale": "Калинда публично описывает действующую модель управления как ставящую потребности граждан на первое место и связывает её с развитием и благополучием, что является позитивной оценкой курса, но без сильного повторяющегося акцента. Пример: evidence_index 10.",
+            "evidence_indices": [
+              10
+            ]
+          }
+        },
+        "evidence_file": "evidence/independent-dossier-francois-xavier-kalinda.json",
+        "evidence_basis": "1f8a7c223adc150957f3ca121f3be31f790f8d2ecf459effc91f247023b09a86"
+      },
+      "negative": {
+        "status": "unknown",
+        "value": null,
+        "confidence": 0,
+        "evidence_indices": [],
+        "source_urls": [],
+        "event_ids": [],
+        "rationale": "Нет прямых публичных критических оценок Калиндой действующего государственного курса в исследуемый период.",
+        "support_type": "unknown",
+        "provenance": {
+          "raw_response_file": "evidence/independent_responses/77fc315b058f0579a69108ac4017b69464db54de350a63fba239e3a3d4d9a500.json",
+          "model": "gpt-4.1",
+          "at": "2026-10-15T17:31:08.916098+00:00",
+          "cache_key": "77fc315b058f0579a69108ac4017b69464db54de350a63fba239e3a3d4d9a500",
+          "original_proposal": {
+            "variable_id": "government-course-assessment__negative",
+            "status": "unknown",
+            "value": null,
+            "confidence": 0,
+            "support_type": "unknown",
+            "rationale": "Нет прямых публичных критических оценок Калиндой действующего государственного курса в исследуемый период.",
+            "evidence_indices": []
+          }
+        },
+        "evidence_file": "evidence/independent-dossier-francois-xavier-kalinda.json",
+        "evidence_basis": "1f8a7c223adc150957f3ca121f3be31f790f8d2ecf459effc91f247023b09a86"
+      }
+    },
+    "positive": 2,
+    "negative": null,
+    "value": null,
+    "status": "partial",
+    "difference": null,
+    "mass": null,
+    "measurement_model": "independent_poles",
+    "evidence_file": "evidence/independent-dossier-francois-xavier-kalinda.json",
+    "evidence_basis": "1f8a7c223adc150957f3ca121f3be31f790f8d2ecf459effc91f247023b09a86",
+    "at": "2026-10-15T17:31:17.356521+00:00",
+    "reason": "Каждое свойство оценивается независимо; разность и искусственное дополнение до пяти не вычисляются"
+  },
+  {
+    "object_id": "francois-xavier-kalinda",
+    "scale_id": "participation-administrative-direction",
+    "pole_scores": {
+      "positive": {
+        "status": "observed",
+        "value": 2,
+        "confidence": 0.7,
+        "evidence_indices": [
+          9,
+          11
+        ],
+        "source_urls": [
+          "https://www.linkedin.com/pulse/mps-commit-raising-awareness-preventing-all-forms-corruption-bziuf",
+          "https://www.africa-press.net/rwanda/policy/re-elected-senate-president-kalinda-promises-to-deliver-for-rwandans"
+        ],
+        "event_ids": [
+          "kalinda-anti-corruption-consultation-2025",
+          "kalinda-reelection-speech-2024"
+        ],
+        "rationale": "Калинда подчёркивает важность консультаций и совместного обсуждения (например, после переизбрания и в антикоррупционной встрече), однако нет устойчивого акцента на расширении общественного контроля. Примеры: evidence_index 9, 11.",
+        "support_type": "positive_manifestation",
+        "provenance": {
+          "raw_response_file": "evidence/independent_responses/77fc315b058f0579a69108ac4017b69464db54de350a63fba239e3a3d4d9a500.json",
+          "model": "gpt-4.1",
+          "at": "2026-10-15T17:31:08.916098+00:00",
+          "cache_key": "77fc315b058f0579a69108ac4017b69464db54de350a63fba239e3a3d4d9a500",
+          "original_proposal": {
+            "variable_id": "participation-administrative-direction__positive",
+            "status": "observed",
+            "value": 2,
+            "confidence": 0.7,
+            "support_type": "positive_manifestation",
+            "rationale": "Калинда подчёркивает важность консультаций и совместного обсуждения (например, после переизбрания и в антикоррупционной встрече), однако нет устойчивого акцента на расширении общественного контроля. Примеры: evidence_index 9, 11.",
+            "evidence_indices": [
+              9,
+              11
+            ]
+          }
+        },
+        "evidence_file": "evidence/independent-dossier-francois-xavier-kalinda.json",
+        "evidence_basis": "1f8a7c223adc150957f3ca121f3be31f790f8d2ecf459effc91f247023b09a86"
+      },
+      "negative": {
+        "status": "observed",
+        "value": 2,
+        "confidence": 0.7,
+        "evidence_indices": [
+          9,
+          15
+        ],
+        "source_urls": [
+          "https://www.linkedin.com/pulse/mps-commit-raising-awareness-preventing-all-forms-corruption-bziuf",
+          "https://www.ktpress.rw/2024/09/rwandans-have-high-expectations-in-you-president-kagame-to-newly-sworn-in-senators/"
+        ],
+        "event_ids": [
+          "kalinda-anti-corruption-consultation-2025",
+          "kalinda-2024-09-26-accountability-resources"
+        ],
+        "rationale": "В ряде случаев Калинда публично поручает контроль исполнения и административные задачи (например, контроль использования ресурсов, антикоррупционные резолюции), но это не является определяющей чертой. Примеры: evidence_index 9, 15.",
+        "support_type": "positive_manifestation",
+        "provenance": {
+          "raw_response_file": "evidence/independent_responses/77fc315b058f0579a69108ac4017b69464db54de350a63fba239e3a3d4d9a500.json",
+          "model": "gpt-4.1",
+          "at": "2026-10-15T17:31:08.916098+00:00",
+          "cache_key": "77fc315b058f0579a69108ac4017b69464db54de350a63fba239e3a3d4d9a500",
+          "original_proposal": {
+            "variable_id": "participation-administrative-direction__negative",
+            "status": "observed",
+            "value": 2,
+            "confidence": 0.7,
+            "support_type": "positive_manifestation",
+            "rationale": "В ряде случаев Калинда публично поручает контроль исполнения и административные задачи (например, контроль использования ресурсов, антикоррупционные резолюции), но это не является определяющей чертой. Примеры: evidence_index 9, 15.",
+            "evidence_indices": [
+              9,
+              15
+            ]
+          }
+        },
+        "evidence_file": "evidence/independent-dossier-francois-xavier-kalinda.json",
+        "evidence_basis": "1f8a7c223adc150957f3ca121f3be31f790f8d2ecf459effc91f247023b09a86"
+      }
+    },
+    "positive": 2,
+    "negative": 2,
+    "value": null,
+    "status": "observed",
+    "difference": null,
+    "mass": null,
+    "measurement_model": "independent_poles",
+    "evidence_file": "evidence/independent-dossier-francois-xavier-kalinda.json",
+    "evidence_basis": "1f8a7c223adc150957f3ca121f3be31f790f8d2ecf459effc91f247023b09a86",
+    "at": "2026-10-15T17:31:17.356521+00:00",
+    "reason": "Каждое свойство оценивается независимо; разность и искусственное дополнение до пяти не вычисляются"
+  },
+  {
+    "object_id": "francois-xavier-kalinda",
+    "scale_id": "argumentation-evidence-values",
+    "pole_scores": {
+      "positive": {
+        "status": "unknown",
+        "value": null,
+        "confidence": 0,
+        "evidence_indices": [],
+        "source_urls": [],
+        "event_ids": [],
+        "rationale": "Нет прямых примеров использования Калиндой данных, расчётов или ссылок на исследования как основы публичной аргументации.",
+        "support_type": "unknown",
+        "provenance": {
+          "raw_response_file": "evidence/independent_responses/77fc315b058f0579a69108ac4017b69464db54de350a63fba239e3a3d4d9a500.json",
+          "model": "gpt-4.1",
+          "at": "2026-10-15T17:31:08.916098+00:00",
+          "cache_key": "77fc315b058f0579a69108ac4017b69464db54de350a63fba239e3a3d4d9a500",
+          "original_proposal": {
+            "variable_id": "argumentation-evidence-values__positive",
+            "status": "unknown",
+            "value": null,
+            "confidence": 0,
+            "support_type": "unknown",
+            "rationale": "Нет прямых примеров использования Калиндой данных, расчётов или ссылок на исследования как основы публичной аргументации.",
+            "evidence_indices": []
+          }
+        },
+        "evidence_file": "evidence/independent-dossier-francois-xavier-kalinda.json",
+        "evidence_basis": "1f8a7c223adc150957f3ca121f3be31f790f8d2ecf459effc91f247023b09a86"
+      },
+      "negative": {
+        "status": "observed",
+        "value": 2,
+        "confidence": 0.7,
+        "evidence_indices": [
+          9,
+          14
+        ],
+        "source_urls": [
+          "https://www.linkedin.com/pulse/mps-commit-raising-awareness-preventing-all-forms-corruption-bziuf",
+          "https://www.parliament.gov.rw/fileadmin/user_upload/Parliament/Resolution_de_la_reunion_consultative.pdf"
+        ],
+        "event_ids": [
+          "kalinda-anti-corruption-consultation-2025",
+          "kalinda-genocide-ideology-consultation-2025"
+        ],
+        "rationale": "В ряде случаев Калинда использует ценностную аргументацию (например, борьба с коррупцией как общая обязанность, профилактика идеологии геноцида), но не делает это устойчивым акцентом. Примеры: evidence_index 9, 14.",
+        "support_type": "positive_manifestation",
+        "provenance": {
+          "raw_response_file": "evidence/independent_responses/77fc315b058f0579a69108ac4017b69464db54de350a63fba239e3a3d4d9a500.json",
+          "model": "gpt-4.1",
+          "at": "2026-10-15T17:31:08.916098+00:00",
+          "cache_key": "77fc315b058f0579a69108ac4017b69464db54de350a63fba239e3a3d4d9a500",
+          "original_proposal": {
+            "variable_id": "argumentation-evidence-values__negative",
+            "status": "observed",
+            "value": 2,
+            "confidence": 0.7,
+            "support_type": "positive_manifestation",
+            "rationale": "В ряде случаев Калинда использует ценностную аргументацию (например, борьба с коррупцией как общая обязанность, профилактика идеологии геноцида), но не делает это устойчивым акцентом. Примеры: evidence_index 9, 14.",
+            "evidence_indices": [
+              9,
+              14
+            ]
+          }
+        },
+        "evidence_file": "evidence/independent-dossier-francois-xavier-kalinda.json",
+        "evidence_basis": "1f8a7c223adc150957f3ca121f3be31f790f8d2ecf459effc91f247023b09a86"
+      }
+    },
+    "positive": null,
+    "negative": 2,
+    "value": null,
+    "status": "partial",
+    "difference": null,
+    "mass": null,
+    "measurement_model": "independent_poles",
+    "evidence_file": "evidence/independent-dossier-francois-xavier-kalinda.json",
+    "evidence_basis": "1f8a7c223adc150957f3ca121f3be31f790f8d2ecf459effc91f247023b09a86",
+    "at": "2026-10-15T17:31:17.356521+00:00",
+    "reason": "Каждое свойство оценивается независимо; разность и искусственное дополнение до пяти не вычисляются"
+  },
+  {
+    "object_id": "francois-xavier-kalinda",
+    "scale_id": "market-state-instruments",
+    "pole_scores": {
+      "positive": {
+        "status": "unknown",
+        "value": null,
+        "confidence": 0,
+        "evidence_indices": [],
+        "source_urls": [],
+        "event_ids": [],
+        "rationale": "Нет прямых персональных предложений Калинды о расширении частной инициативы или управления.",
+        "support_type": "unknown",
+        "provenance": {
+          "raw_response_file": "evidence/independent_responses/77fc315b058f0579a69108ac4017b69464db54de350a63fba239e3a3d4d9a500.json",
+          "model": "gpt-4.1",
+          "at": "2026-10-15T17:31:08.916098+00:00",
+          "cache_key": "77fc315b058f0579a69108ac4017b69464db54de350a63fba239e3a3d4d9a500",
+          "original_proposal": {
+            "variable_id": "market-state-instruments__positive",
+            "status": "unknown",
+            "value": null,
+            "confidence": 0,
+            "support_type": "unknown",
+            "rationale": "Нет прямых персональных предложений Калинды о расширении частной инициативы или управления.",
+            "evidence_indices": []
+          }
+        },
+        "evidence_file": "evidence/independent-dossier-francois-xavier-kalinda.json",
+        "evidence_basis": "1f8a7c223adc150957f3ca121f3be31f790f8d2ecf459effc91f247023b09a86"
+      },
+      "negative": {
+        "status": "unknown",
+        "value": null,
+        "confidence": 0,
+        "evidence_indices": [],
+        "source_urls": [],
+        "event_ids": [],
+        "rationale": "Нет прямых персональных предложений Калинды о расширении государственного планирования и обязательных правил; действия Сената не приписываются индивидуальной позиции.",
+        "support_type": "unknown",
+        "provenance": {
+          "raw_response_file": "evidence/independent_responses/77fc315b058f0579a69108ac4017b69464db54de350a63fba239e3a3d4d9a500.json",
+          "model": "gpt-4.1",
+          "at": "2026-10-15T17:31:08.916098+00:00",
+          "cache_key": "77fc315b058f0579a69108ac4017b69464db54de350a63fba239e3a3d4d9a500",
+          "original_proposal": {
+            "variable_id": "market-state-instruments__negative",
+            "status": "unknown",
+            "value": null,
+            "confidence": 0,
+            "support_type": "unknown",
+            "rationale": "Нет прямых персональных предложений Калинды о расширении государственного планирования и обязательных правил; действия Сената не приписываются индивидуальной позиции.",
+            "evidence_indices": []
+          }
+        },
+        "evidence_file": "evidence/independent-dossier-francois-xavier-kalinda.json",
+        "evidence_basis": "1f8a7c223adc150957f3ca121f3be31f790f8d2ecf459effc91f247023b09a86"
+      }
+    },
+    "positive": null,
+    "negative": null,
+    "value": null,
+    "status": "unknown",
+    "difference": null,
+    "mass": null,
+    "measurement_model": "independent_poles",
+    "evidence_file": "evidence/independent-dossier-francois-xavier-kalinda.json",
+    "evidence_basis": "1f8a7c223adc150957f3ca121f3be31f790f8d2ecf459effc91f247023b09a86",
+    "at": "2026-10-15T17:31:17.356521+00:00",
+    "reason": "Каждое свойство оценивается независимо; разность и искусственное дополнение до пяти не вычисляются"
+  },
+  {
+    "object_id": "francois-xavier-kalinda",
+    "scale_id": "accessibility-growth-priorities",
+    "pole_scores": {
+      "positive": {
+        "status": "unknown",
+        "value": null,
+        "confidence": 0,
+        "evidence_indices": [],
+        "source_urls": [],
+        "event_ids": [],
+        "rationale": "Нет прямых заявлений Калинды о приоритете расширения доступности базовых благ для населения.",
+        "support_type": "unknown",
+        "provenance": {
+          "raw_response_file": "evidence/independent_responses/77fc315b058f0579a69108ac4017b69464db54de350a63fba239e3a3d4d9a500.json",
+          "model": "gpt-4.1",
+          "at": "2026-10-15T17:31:08.916098+00:00",
+          "cache_key": "77fc315b058f0579a69108ac4017b69464db54de350a63fba239e3a3d4d9a500",
+          "original_proposal": {
+            "variable_id": "accessibility-growth-priorities__positive",
+            "status": "unknown",
+            "value": null,
+            "confidence": 0,
+            "support_type": "unknown",
+            "rationale": "Нет прямых заявлений Калинды о приоритете расширения доступности базовых благ для населения.",
+            "evidence_indices": []
+          }
+        },
+        "evidence_file": "evidence/independent-dossier-francois-xavier-kalinda.json",
+        "evidence_basis": "1f8a7c223adc150957f3ca121f3be31f790f8d2ecf459effc91f247023b09a86"
+      },
+      "negative": {
+        "status": "unknown",
+        "value": null,
+        "confidence": 0,
+        "evidence_indices": [],
+        "source_urls": [],
+        "event_ids": [],
+        "rationale": "Нет прямых заявлений Калинды о приоритете роста инвестиций, конкурентоспособности и деловой активности.",
+        "support_type": "unknown",
+        "provenance": {
+          "raw_response_file": "evidence/independent_responses/77fc315b058f0579a69108ac4017b69464db54de350a63fba239e3a3d4d9a500.json",
+          "model": "gpt-4.1",
+          "at": "2026-10-15T17:31:08.916098+00:00",
+          "cache_key": "77fc315b058f0579a69108ac4017b69464db54de350a63fba239e3a3d4d9a500",
+          "original_proposal": {
+            "variable_id": "accessibility-growth-priorities__negative",
+            "status": "unknown",
+            "value": null,
+            "confidence": 0,
+            "support_type": "unknown",
+            "rationale": "Нет прямых заявлений Калинды о приоритете роста инвестиций, конкурентоспособности и деловой активности.",
+            "evidence_indices": []
+          }
+        },
+        "evidence_file": "evidence/independent-dossier-francois-xavier-kalinda.json",
+        "evidence_basis": "1f8a7c223adc150957f3ca121f3be31f790f8d2ecf459effc91f247023b09a86"
+      }
+    },
+    "positive": null,
+    "negative": null,
+    "value": null,
+    "status": "unknown",
+    "difference": null,
+    "mass": null,
+    "measurement_model": "independent_poles",
+    "evidence_file": "evidence/independent-dossier-francois-xavier-kalinda.json",
+    "evidence_basis": "1f8a7c223adc150957f3ca121f3be31f790f8d2ecf459effc91f247023b09a86",
+    "at": "2026-10-15T17:31:17.356521+00:00",
+    "reason": "Каждое свойство оценивается независимо; разность и искусственное дополнение до пяти не вычисляются"
+  },
+  {
+    "object_id": "francois-xavier-kalinda",
+    "scale_id": "external-domestic-resources",
+    "pole_scores": {
+      "positive": {
+        "status": "unknown",
+        "value": null,
+        "confidence": 0,
+        "evidence_indices": [],
+        "source_urls": [],
+        "event_ids": [],
+        "rationale": "Нет прямых персональных предложений Калинды о привлечении внешнего финансирования или ресурсных партнёров.",
+        "support_type": "unknown",
+        "provenance": {
+          "raw_response_file": "evidence/independent_responses/77fc315b058f0579a69108ac4017b69464db54de350a63fba239e3a3d4d9a500.json",
+          "model": "gpt-4.1",
+          "at": "2026-10-15T17:31:08.916098+00:00",
+          "cache_key": "77fc315b058f0579a69108ac4017b69464db54de350a63fba239e3a3d4d9a500",
+          "original_proposal": {
+            "variable_id": "external-domestic-resources__positive",
+            "status": "unknown",
+            "value": null,
+            "confidence": 0,
+            "support_type": "unknown",
+            "rationale": "Нет прямых персональных предложений Калинды о привлечении внешнего финансирования или ресурсных партнёров.",
+            "evidence_indices": []
+          }
+        },
+        "evidence_file": "evidence/independent-dossier-francois-xavier-kalinda.json",
+        "evidence_basis": "1f8a7c223adc150957f3ca121f3be31f790f8d2ecf459effc91f247023b09a86"
+      },
+      "negative": {
+        "status": "unknown",
+        "value": null,
+        "confidence": 0,
+        "evidence_indices": [],
+        "source_urls": [],
+        "event_ids": [],
+        "rationale": "Нет прямых персональных предложений Калинды о приоритете внутренних доходов и хозяйственной самостоятельности.",
+        "support_type": "unknown",
+        "provenance": {
+          "raw_response_file": "evidence/independent_responses/77fc315b058f0579a69108ac4017b69464db54de350a63fba239e3a3d4d9a500.json",
+          "model": "gpt-4.1",
+          "at": "2026-10-15T17:31:08.916098+00:00",
+          "cache_key": "77fc315b058f0579a69108ac4017b69464db54de350a63fba239e3a3d4d9a500",
+          "original_proposal": {
+            "variable_id": "external-domestic-resources__negative",
+            "status": "unknown",
+            "value": null,
+            "confidence": 0,
+            "support_type": "unknown",
+            "rationale": "Нет прямых персональных предложений Калинды о приоритете внутренних доходов и хозяйственной самостоятельности.",
+            "evidence_indices": []
+          }
+        },
+        "evidence_file": "evidence/independent-dossier-francois-xavier-kalinda.json",
+        "evidence_basis": "1f8a7c223adc150957f3ca121f3be31f790f8d2ecf459effc91f247023b09a86"
+      }
+    },
+    "positive": null,
+    "negative": null,
+    "value": null,
+    "status": "unknown",
+    "difference": null,
+    "mass": null,
+    "measurement_model": "independent_poles",
+    "evidence_file": "evidence/independent-dossier-francois-xavier-kalinda.json",
+    "evidence_basis": "1f8a7c223adc150957f3ca121f3be31f790f8d2ecf459effc91f247023b09a86",
+    "at": "2026-10-15T17:31:17.356521+00:00",
+    "reason": "Каждое свойство оценивается независимо; разность и искусственное дополнение до пяти не вычисляются"
+  },
+  {
+    "object_id": "francois-xavier-kalinda",
+    "scale_id": "international-rules-autonomy",
+    "pole_scores": {
+      "positive": {
+        "status": "unknown",
+        "value": null,
+        "confidence": 0,
+        "evidence_indices": [],
+        "source_urls": [],
+        "event_ids": [],
+        "rationale": "Нет прямых предложений Калинды о закреплении обязательных международных норм или договоров.",
+        "support_type": "unknown",
+        "provenance": {
+          "raw_response_file": "evidence/independent_responses/77fc315b058f0579a69108ac4017b69464db54de350a63fba239e3a3d4d9a500.json",
+          "model": "gpt-4.1",
+          "at": "2026-10-15T17:31:08.916098+00:00",
+          "cache_key": "77fc315b058f0579a69108ac4017b69464db54de350a63fba239e3a3d4d9a500",
+          "original_proposal": {
+            "variable_id": "international-rules-autonomy__positive",
+            "status": "unknown",
+            "value": null,
+            "confidence": 0,
+            "support_type": "unknown",
+            "rationale": "Нет прямых предложений Калинды о закреплении обязательных международных норм или договоров.",
+            "evidence_indices": []
+          }
+        },
+        "evidence_file": "evidence/independent-dossier-francois-xavier-kalinda.json",
+        "evidence_basis": "1f8a7c223adc150957f3ca121f3be31f790f8d2ecf459effc91f247023b09a86"
+      },
+      "negative": {
+        "status": "unknown",
+        "value": null,
+        "confidence": 0,
+        "evidence_indices": [],
+        "source_urls": [],
+        "event_ids": [],
+        "rationale": "Нет прямых заявлений Калинды о защите национальной самостоятельности решений.",
+        "support_type": "unknown",
+        "provenance": {
+          "raw_response_file": "evidence/independent_responses/77fc315b058f0579a69108ac4017b69464db54de350a63fba239e3a3d4d9a500.json",
+          "model": "gpt-4.1",
+          "at": "2026-10-15T17:31:08.916098+00:00",
+          "cache_key": "77fc315b058f0579a69108ac4017b69464db54de350a63fba239e3a3d4d9a500",
+          "original_proposal": {
+            "variable_id": "international-rules-autonomy__negative",
+            "status": "unknown",
+            "value": null,
+            "confidence": 0,
+            "support_type": "unknown",
+            "rationale": "Нет прямых заявлений Калинды о защите национальной самостоятельности решений.",
+            "evidence_indices": []
+          }
+        },
+        "evidence_file": "evidence/independent-dossier-francois-xavier-kalinda.json",
+        "evidence_basis": "1f8a7c223adc150957f3ca121f3be31f790f8d2ecf459effc91f247023b09a86"
+      }
+    },
+    "positive": null,
+    "negative": null,
+    "value": null,
+    "status": "unknown",
+    "difference": null,
+    "mass": null,
+    "measurement_model": "independent_poles",
+    "evidence_file": "evidence/independent-dossier-francois-xavier-kalinda.json",
+    "evidence_basis": "1f8a7c223adc150957f3ca121f3be31f790f8d2ecf459effc91f247023b09a86",
+    "at": "2026-10-15T17:31:17.356521+00:00",
+    "reason": "Каждое свойство оценивается независимо; разность и искусственное дополнение до пяти не вычисляются"
+  },
+  {
+    "object_id": "francois-xavier-kalinda",
+    "scale_id": "mediation-adversarial-communication",
+    "pole_scores": {
+      "positive": {
+        "status": "observed",
+        "value": 3,
+        "confidence": 0.8,
+        "evidence_indices": [
+          2,
+          4,
+          13,
+          17,
+          18
+        ],
+        "source_urls": [
+          "https://pid.gov.pk/site/press_detail/23808",
+          "https://www.parliament.gov.rw/news-details/senate-president-attends-the-fp-icglr-plenary-assembly",
+          "https://www.ktpress.rw/2024/01/rwanda-algeria-to-sign-trade-and-military-bilateral-cooperation-agreements/",
+          "https://m.imvahonshya.co.rw/perezida-wa-sena-yu-rwanda-yaganiriye-na-mugenzi-we-wu-burundi/"
+        ],
+        "event_ids": [
+          "kalinda-pakistan-visit-2023",
+          "kalinda-tanzania-2025",
+          "kalinda-tanzania-parliamentary-diplomacy-2025",
+          "kalinda-2024-01-09-algeria-parliamentary-exchanges",
+          "kalinda-2025-06-20-burundi-senate-talks"
+        ],
+        "rationale": "Калинда регулярно участвует в переговорах, межпарламентских встречах и обсуждениях сотрудничества, что подтверждает устойчивый публичный акцент на посредничестве и согласовании (например, встречи с парламентами Танзании, Бурунди, Алжира, участие в международных форумах). Примеры: evidence_index 2, 4, 13, 17, 18.",
+        "support_type": "positive_manifestation",
+        "provenance": {
+          "raw_response_file": "evidence/independent_responses/77fc315b058f0579a69108ac4017b69464db54de350a63fba239e3a3d4d9a500.json",
+          "model": "gpt-4.1",
+          "at": "2026-10-15T17:31:08.916098+00:00",
+          "cache_key": "77fc315b058f0579a69108ac4017b69464db54de350a63fba239e3a3d4d9a500",
+          "original_proposal": {
+            "variable_id": "mediation-adversarial-communication__positive",
+            "status": "observed",
+            "value": 3,
+            "confidence": 0.8,
+            "support_type": "positive_manifestation",
+            "rationale": "Калинда регулярно участвует в переговорах, межпарламентских встречах и обсуждениях сотрудничества, что подтверждает устойчивый публичный акцент на посредничестве и согласовании (например, встречи с парламентами Танзании, Бурунди, Алжира, участие в международных форумах). Примеры: evidence_index 2, 4, 13, 17, 18.",
+            "evidence_indices": [
+              2,
+              4,
+              13,
+              17,
+              18
+            ]
+          }
+        },
+        "evidence_file": "evidence/independent-dossier-francois-xavier-kalinda.json",
+        "evidence_basis": "1f8a7c223adc150957f3ca121f3be31f790f8d2ecf459effc91f247023b09a86"
+      },
+      "negative": {
+        "status": "observed",
+        "value": 1,
+        "confidence": 0.6,
+        "evidence_indices": [
+          19
+        ],
+        "source_urls": [
+          "https://taarifa.rw/2024/11/11/rwanda-senate-leaders-hold-talks-with-au-special-envoy-on-genocide-prevention/"
+        ],
+        "event_ids": [
+          "kalinda-2024-11-11-fdlr-regional-cooperation"
+        ],
+        "rationale": "В одном эпизоде Калинда публично защищает позицию Руанды по угрозе безопасности (FDLR), что можно трактовать как единичное проявление защиты собственной стороны. Пример: evidence_index 19.",
+        "support_type": "positive_manifestation",
+        "provenance": {
+          "raw_response_file": "evidence/independent_responses/77fc315b058f0579a69108ac4017b69464db54de350a63fba239e3a3d4d9a500.json",
+          "model": "gpt-4.1",
+          "at": "2026-10-15T17:31:08.916098+00:00",
+          "cache_key": "77fc315b058f0579a69108ac4017b69464db54de350a63fba239e3a3d4d9a500",
+          "original_proposal": {
+            "variable_id": "mediation-adversarial-communication__negative",
+            "status": "observed",
+            "value": 1,
+            "confidence": 0.6,
+            "support_type": "positive_manifestation",
+            "rationale": "В одном эпизоде Калинда публично защищает позицию Руанды по угрозе безопасности (FDLR), что можно трактовать как единичное проявление защиты собственной стороны. Пример: evidence_index 19.",
+            "evidence_indices": [
+              19
+            ]
+          }
+        },
+        "evidence_file": "evidence/independent-dossier-francois-xavier-kalinda.json",
+        "evidence_basis": "1f8a7c223adc150957f3ca121f3be31f790f8d2ecf459effc91f247023b09a86"
+      }
+    },
+    "positive": 3,
+    "negative": 1,
+    "value": null,
+    "status": "observed",
+    "difference": null,
+    "mass": null,
+    "measurement_model": "independent_poles",
+    "evidence_file": "evidence/independent-dossier-francois-xavier-kalinda.json",
+    "evidence_basis": "1f8a7c223adc150957f3ca121f3be31f790f8d2ecf459effc91f247023b09a86",
+    "at": "2026-10-15T17:31:17.356521+00:00",
+    "reason": "Каждое свойство оценивается независимо; разность и искусственное дополнение до пяти не вычисляются"
+  },
+  {
+    "object_id": "francois-xavier-kalinda",
+    "scale_id": "cultural-openness-national-transmission",
+    "pole_scores": {
+      "positive": {
+        "status": "observed",
+        "value": 2,
+        "confidence": 0.7,
+        "evidence_indices": [
+          2,
+          4,
+          5,
+          13,
+          17,
+          18
+        ],
+        "source_urls": [
+          "https://pid.gov.pk/site/press_detail/23808",
+          "https://www.parliament.gov.rw/news-details/senate-president-attends-the-fp-icglr-plenary-assembly",
+          "https://www.rwandainswitzerland.gov.rw/actualites/info-details/rwanda-participates-in-the-6th-world-conference-of-speakers-of-parliament",
+          "https://www.ktpress.rw/2024/01/rwanda-algeria-to-sign-trade-and-military-bilateral-cooperation-agreements/",
+          "https://m.imvahonshya.co.rw/perezida-wa-sena-yu-rwanda-yaganiriye-na-mugenzi-we-wu-burundi/"
+        ],
+        "event_ids": [
+          "kalinda-pakistan-visit-2023",
+          "kalinda-tanzania-2025",
+          "kalinda-speakers-conference-2026",
+          "kalinda-tanzania-parliamentary-diplomacy-2025",
+          "kalinda-2024-01-09-algeria-parliamentary-exchanges",
+          "kalinda-2025-06-20-burundi-senate-talks"
+        ],
+        "rationale": "Калинда неоднократно возглавлял парламентские делегации за рубеж (Пакистан, Алжир, Танзания, Бурунди), участвовал в международных и региональных форумах, где обсуждались обмены между людьми и межпарламентское сотрудничество. Это подтверждает ограниченное, но последовательное проявление ориентации на межкультурный обмен и разнообразие в публичной деятельности.",
+        "support_type": "positive_manifestation",
+        "provenance": {
+          "raw_response_file": "evidence/independent_responses/f0969cb98459958cc8dfb560fb4b0132fd38d31f6c53492ec8aef743a73c6b67.json",
+          "model": "gpt-4.1",
+          "at": "2026-10-15T17:31:17.352294+00:00",
+          "cache_key": "f0969cb98459958cc8dfb560fb4b0132fd38d31f6c53492ec8aef743a73c6b67",
+          "original_proposal": {
+            "variable_id": "cultural-openness-national-transmission__positive",
+            "status": "observed",
+            "value": 2,
+            "confidence": 0.7,
+            "support_type": "positive_manifestation",
+            "rationale": "Калинда неоднократно возглавлял парламентские делегации за рубеж (Пакистан, Алжир, Танзания, Бурунди), участвовал в международных и региональных форумах, где обсуждались обмены между людьми и межпарламентское сотрудничество. Это подтверждает ограниченное, но последовательное проявление ориентации на межкультурный обмен и разнообразие в публичной деятельности.",
+            "evidence_indices": [
+              2,
+              4,
+              5,
+              13,
+              17,
+              18
+            ]
+          }
+        },
+        "evidence_file": "evidence/independent-dossier-francois-xavier-kalinda.json",
+        "evidence_basis": "1f8a7c223adc150957f3ca121f3be31f790f8d2ecf459effc91f247023b09a86"
+      },
+      "negative": {
+        "status": "observed",
+        "value": 1,
+        "confidence": 0.5,
+        "evidence_indices": [
+          14
+        ],
+        "source_urls": [
+          "https://www.parliament.gov.rw/fileadmin/user_upload/Parliament/Resolution_de_la_reunion_consultative.pdf"
+        ],
+        "event_ids": [
+          "kalinda-genocide-ideology-consultation-2025"
+        ],
+        "rationale": "В эпизоде о профилактике идеологии геноцида Калинда акцентировал информационные кампании против языка ненависти и мобилизацию молодёжи, что подразумевает сохранение определённых национальных ценностей. Однако выраженность ограничена одним эпизодом и не является устойчивой чертой.",
+        "support_type": "positive_manifestation",
+        "provenance": {
+          "raw_response_file": "evidence/independent_responses/f0969cb98459958cc8dfb560fb4b0132fd38d31f6c53492ec8aef743a73c6b67.json",
+          "model": "gpt-4.1",
+          "at": "2026-10-15T17:31:17.352294+00:00",
+          "cache_key": "f0969cb98459958cc8dfb560fb4b0132fd38d31f6c53492ec8aef743a73c6b67",
+          "original_proposal": {
+            "variable_id": "cultural-openness-national-transmission__negative",
+            "status": "observed",
+            "value": 1,
+            "confidence": 0.5,
+            "support_type": "positive_manifestation",
+            "rationale": "В эпизоде о профилактике идеологии геноцида Калинда акцентировал информационные кампании против языка ненависти и мобилизацию молодёжи, что подразумевает сохранение определённых национальных ценностей. Однако выраженность ограничена одним эпизодом и не является устойчивой чертой.",
+            "evidence_indices": [
+              14
+            ]
+          }
+        },
+        "evidence_file": "evidence/independent-dossier-francois-xavier-kalinda.json",
+        "evidence_basis": "1f8a7c223adc150957f3ca121f3be31f790f8d2ecf459effc91f247023b09a86"
+      }
+    },
+    "positive": 2,
+    "negative": 1,
+    "value": null,
+    "status": "observed",
+    "difference": null,
+    "mass": null,
+    "measurement_model": "independent_poles",
+    "evidence_file": "evidence/independent-dossier-francois-xavier-kalinda.json",
+    "evidence_basis": "1f8a7c223adc150957f3ca121f3be31f790f8d2ecf459effc91f247023b09a86",
+    "at": "2026-10-15T17:31:17.356521+00:00",
+    "reason": "Каждое свойство оценивается независимо; разность и искусственное дополнение до пяти не вычисляются"
+  },
+  {
+    "object_id": "francois-xavier-kalinda",
+    "scale_id": "problem-disclosure-reputation-defence",
+    "pole_scores": {
+      "positive": {
+        "status": "unknown",
+        "value": null,
+        "confidence": 0,
+        "evidence_indices": [],
+        "source_urls": [],
+        "event_ids": [],
+        "rationale": "Нет прямых эпизодов, где Калинда признаёт конкретные проблемы или недостатки исполнения публично. Его риторика преимущественно институциональна и ориентирована на выполнение обязанностей, а не на раскрытие проблем.",
+        "support_type": "unknown",
+        "provenance": {
+          "raw_response_file": "evidence/independent_responses/f0969cb98459958cc8dfb560fb4b0132fd38d31f6c53492ec8aef743a73c6b67.json",
+          "model": "gpt-4.1",
+          "at": "2026-10-15T17:31:17.352294+00:00",
+          "cache_key": "f0969cb98459958cc8dfb560fb4b0132fd38d31f6c53492ec8aef743a73c6b67",
+          "original_proposal": {
+            "variable_id": "problem-disclosure-reputation-defence__positive",
+            "status": "unknown",
+            "value": null,
+            "confidence": 0.3,
+            "support_type": "unknown",
+            "rationale": "Нет прямых эпизодов, где Калинда признаёт конкретные проблемы или недостатки исполнения публично. Его риторика преимущественно институциональна и ориентирована на выполнение обязанностей, а не на раскрытие проблем.",
+            "evidence_indices": []
+          }
+        },
+        "evidence_file": "evidence/independent-dossier-francois-xavier-kalinda.json",
+        "evidence_basis": "1f8a7c223adc150957f3ca121f3be31f790f8d2ecf459effc91f247023b09a86"
+      },
+      "negative": {
+        "status": "observed",
+        "value": 2,
+        "confidence": 0.7,
+        "evidence_indices": [
+          10,
+          19
+        ],
+        "source_urls": [
+          "https://parliament.gov.rw/news-detail",
+          "https://taarifa.rw/2024/11/11/rwanda-senate-leaders-hold-talks-with-au-special-envoy-on-genocide-prevention/"
+        ],
+        "event_ids": [
+          "kalinda-democracy-conference-2024",
+          "kalinda-2024-11-11-fdlr-regional-cooperation"
+        ],
+        "rationale": "В ряде публичных выступлений Калинда подчёркивал достоинства действующей модели управления, связывал демократию с развитием и безопасностью, а также защищал позицию Руанды по вопросам безопасности (FDLR). Это свидетельствует о ясном, но не повторяющемся акценте на защиту репутации страны и политики.",
+        "support_type": "positive_manifestation",
+        "provenance": {
+          "raw_response_file": "evidence/independent_responses/f0969cb98459958cc8dfb560fb4b0132fd38d31f6c53492ec8aef743a73c6b67.json",
+          "model": "gpt-4.1",
+          "at": "2026-10-15T17:31:17.352294+00:00",
+          "cache_key": "f0969cb98459958cc8dfb560fb4b0132fd38d31f6c53492ec8aef743a73c6b67",
+          "original_proposal": {
+            "variable_id": "problem-disclosure-reputation-defence__negative",
+            "status": "observed",
+            "value": 2,
+            "confidence": 0.7,
+            "support_type": "positive_manifestation",
+            "rationale": "В ряде публичных выступлений Калинда подчёркивал достоинства действующей модели управления, связывал демократию с развитием и безопасностью, а также защищал позицию Руанды по вопросам безопасности (FDLR). Это свидетельствует о ясном, но не повторяющемся акценте на защиту репутации страны и политики.",
+            "evidence_indices": [
+              10,
+              19
+            ]
+          }
+        },
+        "evidence_file": "evidence/independent-dossier-francois-xavier-kalinda.json",
+        "evidence_basis": "1f8a7c223adc150957f3ca121f3be31f790f8d2ecf459effc91f247023b09a86"
+      }
+    },
+    "positive": null,
+    "negative": 2,
+    "value": null,
+    "status": "partial",
+    "difference": null,
+    "mass": null,
+    "measurement_model": "independent_poles",
+    "evidence_file": "evidence/independent-dossier-francois-xavier-kalinda.json",
+    "evidence_basis": "1f8a7c223adc150957f3ca121f3be31f790f8d2ecf459effc91f247023b09a86",
+    "at": "2026-10-15T17:31:17.356521+00:00",
+    "reason": "Каждое свойство оценивается независимо; разность и искусственное дополнение до пяти не вычисляются"
+  },
+  {
+    "object_id": "francois-xavier-kalinda",
+    "scale_id": "procedural-guarantees-enforcement",
+    "pole_scores": {
+      "positive": {
+        "status": "unknown",
+        "value": null,
+        "confidence": 0,
+        "evidence_indices": [],
+        "source_urls": [],
+        "event_ids": [],
+        "rationale": "Нет прямых фактов о расширении возможностей защиты или обжалования по инициативе Калинды в исследуемый период.",
+        "support_type": "unknown",
+        "provenance": {
+          "raw_response_file": "evidence/independent_responses/f0969cb98459958cc8dfb560fb4b0132fd38d31f6c53492ec8aef743a73c6b67.json",
+          "model": "gpt-4.1",
+          "at": "2026-10-15T17:31:17.352294+00:00",
+          "cache_key": "f0969cb98459958cc8dfb560fb4b0132fd38d31f6c53492ec8aef743a73c6b67",
+          "original_proposal": {
+            "variable_id": "procedural-guarantees-enforcement__positive",
+            "status": "unknown",
+            "value": null,
+            "confidence": 0.3,
+            "support_type": "unknown",
+            "rationale": "Нет прямых фактов о расширении возможностей защиты или обжалования по инициативе Калинды в исследуемый период.",
+            "evidence_indices": []
+          }
+        },
+        "evidence_file": "evidence/independent-dossier-francois-xavier-kalinda.json",
+        "evidence_basis": "1f8a7c223adc150957f3ca121f3be31f790f8d2ecf459effc91f247023b09a86"
+      },
+      "negative": {
+        "status": "observed",
+        "value": 2,
+        "confidence": 0.7,
+        "evidence_indices": [
+          9,
+          15
+        ],
+        "source_urls": [
+          "https://www.linkedin.com/pulse/mps-commit-raising-awareness-preventing-all-forms-corruption-bziuf",
+          "https://www.ktpress.rw/2024/09/rwandans-have-high-expectations-in-you-president-kagame-to-newly-sworn-in-senators/"
+        ],
+        "event_ids": [
+          "kalinda-anti-corruption-consultation-2025",
+          "kalinda-2024-09-26-accountability-resources"
+        ],
+        "rationale": "В эпизодах по борьбе с коррупцией и контролю за использованием государственных ресурсов Калинда делал акцент на необходимости исполнения требований и подотчётности, что соответствует принудительному обеспечению обязательных правил. Проявление ограничено, но подтверждено.",
+        "support_type": "positive_manifestation",
+        "provenance": {
+          "raw_response_file": "evidence/independent_responses/f0969cb98459958cc8dfb560fb4b0132fd38d31f6c53492ec8aef743a73c6b67.json",
+          "model": "gpt-4.1",
+          "at": "2026-10-15T17:31:17.352294+00:00",
+          "cache_key": "f0969cb98459958cc8dfb560fb4b0132fd38d31f6c53492ec8aef743a73c6b67",
+          "original_proposal": {
+            "variable_id": "procedural-guarantees-enforcement__negative",
+            "status": "observed",
+            "value": 2,
+            "confidence": 0.7,
+            "support_type": "positive_manifestation",
+            "rationale": "В эпизодах по борьбе с коррупцией и контролю за использованием государственных ресурсов Калинда делал акцент на необходимости исполнения требований и подотчётности, что соответствует принудительному обеспечению обязательных правил. Проявление ограничено, но подтверждено.",
+            "evidence_indices": [
+              9,
+              15
+            ]
+          }
+        },
+        "evidence_file": "evidence/independent-dossier-francois-xavier-kalinda.json",
+        "evidence_basis": "1f8a7c223adc150957f3ca121f3be31f790f8d2ecf459effc91f247023b09a86"
+      }
+    },
+    "positive": null,
+    "negative": 2,
+    "value": null,
+    "status": "partial",
+    "difference": null,
+    "mass": null,
+    "measurement_model": "independent_poles",
+    "evidence_file": "evidence/independent-dossier-francois-xavier-kalinda.json",
+    "evidence_basis": "1f8a7c223adc150957f3ca121f3be31f790f8d2ecf459effc91f247023b09a86",
+    "at": "2026-10-15T17:31:17.356521+00:00",
+    "reason": "Каждое свойство оценивается независимо; разность и искусственное дополнение до пяти не вычисляются"
+  },
+  {
+    "object_id": "francois-xavier-kalinda",
+    "scale_id": "prevention-crisis-response",
+    "pole_scores": {
+      "positive": {
+        "status": "observed",
+        "value": 2,
+        "confidence": 0.7,
+        "evidence_indices": [
+          9,
+          14
+        ],
+        "source_urls": [
+          "https://www.linkedin.com/pulse/mps-commit-raising-awareness-preventing-all-forms-corruption-bziuf",
+          "https://www.parliament.gov.rw/fileadmin/user_upload/Parliament/Resolution_de_la_reunion_consultative.pdf"
+        ],
+        "event_ids": [
+          "kalinda-anti-corruption-consultation-2025",
+          "kalinda-genocide-ideology-consultation-2025"
+        ],
+        "rationale": "В эпизодах о профилактике идеологии геноцида и антикоррупционной работе Калинда поддерживал упреждающие меры: информационные кампании, мобилизацию молодёжи, оценку действующих правил. Это ограниченное, но явное проявление профилактической стратегии.",
+        "support_type": "positive_manifestation",
+        "provenance": {
+          "raw_response_file": "evidence/independent_responses/f0969cb98459958cc8dfb560fb4b0132fd38d31f6c53492ec8aef743a73c6b67.json",
+          "model": "gpt-4.1",
+          "at": "2026-10-15T17:31:17.352294+00:00",
+          "cache_key": "f0969cb98459958cc8dfb560fb4b0132fd38d31f6c53492ec8aef743a73c6b67",
+          "original_proposal": {
+            "variable_id": "prevention-crisis-response__positive",
+            "status": "observed",
+            "value": 2,
+            "confidence": 0.7,
+            "support_type": "positive_manifestation",
+            "rationale": "В эпизодах о профилактике идеологии геноцида и антикоррупционной работе Калинда поддерживал упреждающие меры: информационные кампании, мобилизацию молодёжи, оценку действующих правил. Это ограниченное, но явное проявление профилактической стратегии.",
+            "evidence_indices": [
+              9,
+              14
+            ]
+          }
+        },
+        "evidence_file": "evidence/independent-dossier-francois-xavier-kalinda.json",
+        "evidence_basis": "1f8a7c223adc150957f3ca121f3be31f790f8d2ecf459effc91f247023b09a86"
+      },
+      "negative": {
+        "status": "unknown",
+        "value": null,
+        "confidence": 0,
+        "evidence_indices": [],
+        "source_urls": [],
+        "event_ids": [],
+        "rationale": "Нет прямых эпизодов, где Калинда делал акцент на действиях только в ответ на уже возникший кризис.",
+        "support_type": "unknown",
+        "provenance": {
+          "raw_response_file": "evidence/independent_responses/f0969cb98459958cc8dfb560fb4b0132fd38d31f6c53492ec8aef743a73c6b67.json",
+          "model": "gpt-4.1",
+          "at": "2026-10-15T17:31:17.352294+00:00",
+          "cache_key": "f0969cb98459958cc8dfb560fb4b0132fd38d31f6c53492ec8aef743a73c6b67",
+          "original_proposal": {
+            "variable_id": "prevention-crisis-response__negative",
+            "status": "unknown",
+            "value": null,
+            "confidence": 0.3,
+            "support_type": "unknown",
+            "rationale": "Нет прямых эпизодов, где Калинда делал акцент на действиях только в ответ на уже возникший кризис.",
+            "evidence_indices": []
+          }
+        },
+        "evidence_file": "evidence/independent-dossier-francois-xavier-kalinda.json",
+        "evidence_basis": "1f8a7c223adc150957f3ca121f3be31f790f8d2ecf459effc91f247023b09a86"
+      }
+    },
+    "positive": 2,
+    "negative": null,
+    "value": null,
+    "status": "partial",
+    "difference": null,
+    "mass": null,
+    "measurement_model": "independent_poles",
+    "evidence_file": "evidence/independent-dossier-francois-xavier-kalinda.json",
+    "evidence_basis": "1f8a7c223adc150957f3ca121f3be31f790f8d2ecf459effc91f247023b09a86",
+    "at": "2026-10-15T17:31:17.356521+00:00",
+    "reason": "Каждое свойство оценивается независимо; разность и искусственное дополнение до пяти не вычисляются"
+  },
+  {
+    "object_id": "francois-xavier-kalinda",
+    "scale_id": "electoral-access",
+    "pole_scores": {
+      "positive": {
+        "status": "unknown",
+        "value": null,
+        "confidence": 0,
+        "evidence_indices": [],
+        "source_urls": [],
+        "event_ids": [],
+        "rationale": "Нет фактов о собственных инициативах Калинды по расширению доступа к выборной конкуренции или снижению барьеров участия.",
+        "support_type": "unknown",
+        "provenance": {
+          "raw_response_file": "evidence/independent_responses/f0969cb98459958cc8dfb560fb4b0132fd38d31f6c53492ec8aef743a73c6b67.json",
+          "model": "gpt-4.1",
+          "at": "2026-10-15T17:31:17.352294+00:00",
+          "cache_key": "f0969cb98459958cc8dfb560fb4b0132fd38d31f6c53492ec8aef743a73c6b67",
+          "original_proposal": {
+            "variable_id": "electoral-access__positive",
+            "status": "unknown",
+            "value": null,
+            "confidence": 0.3,
+            "support_type": "unknown",
+            "rationale": "Нет фактов о собственных инициативах Калинды по расширению доступа к выборной конкуренции или снижению барьеров участия.",
+            "evidence_indices": []
+          }
+        },
+        "evidence_file": "evidence/independent-dossier-francois-xavier-kalinda.json",
+        "evidence_basis": "1f8a7c223adc150957f3ca121f3be31f790f8d2ecf459effc91f247023b09a86"
+      },
+      "negative": {
+        "status": "unknown",
+        "value": null,
+        "confidence": 0,
+        "evidence_indices": [],
+        "source_urls": [],
+        "event_ids": [],
+        "rationale": "Нет фактов о собственных инициативах Калинды по усилению квалификационных барьеров политического участия.",
+        "support_type": "unknown",
+        "provenance": {
+          "raw_response_file": "evidence/independent_responses/f0969cb98459958cc8dfb560fb4b0132fd38d31f6c53492ec8aef743a73c6b67.json",
+          "model": "gpt-4.1",
+          "at": "2026-10-15T17:31:17.352294+00:00",
+          "cache_key": "f0969cb98459958cc8dfb560fb4b0132fd38d31f6c53492ec8aef743a73c6b67",
+          "original_proposal": {
+            "variable_id": "electoral-access__negative",
+            "status": "unknown",
+            "value": null,
+            "confidence": 0.3,
+            "support_type": "unknown",
+            "rationale": "Нет фактов о собственных инициативах Калинды по усилению квалификационных барьеров политического участия.",
+            "evidence_indices": []
+          }
+        },
+        "evidence_file": "evidence/independent-dossier-francois-xavier-kalinda.json",
+        "evidence_basis": "1f8a7c223adc150957f3ca121f3be31f790f8d2ecf459effc91f247023b09a86"
+      }
+    },
+    "positive": null,
+    "negative": null,
+    "value": null,
+    "status": "unknown",
+    "difference": null,
+    "mass": null,
+    "measurement_model": "independent_poles",
+    "evidence_file": "evidence/independent-dossier-francois-xavier-kalinda.json",
+    "evidence_basis": "1f8a7c223adc150957f3ca121f3be31f790f8d2ecf459effc91f247023b09a86",
+    "at": "2026-10-15T17:31:17.356521+00:00",
+    "reason": "Каждое свойство оценивается независимо; разность и искусственное дополнение до пяти не вычисляются"
+  },
+  {
+    "object_id": "francois-xavier-kalinda",
+    "scale_id": "institutional-autonomy-coordination",
+    "pole_scores": {
+      "positive": {
+        "status": "unknown",
+        "value": null,
+        "confidence": 0,
+        "evidence_indices": [],
+        "source_urls": [],
+        "event_ids": [],
+        "rationale": "Нет прямых эпизодов, где Калинда выступал за расширение автономии или независимого контроля между институтами.",
+        "support_type": "unknown",
+        "provenance": {
+          "raw_response_file": "evidence/independent_responses/f0969cb98459958cc8dfb560fb4b0132fd38d31f6c53492ec8aef743a73c6b67.json",
+          "model": "gpt-4.1",
+          "at": "2026-10-15T17:31:17.352294+00:00",
+          "cache_key": "f0969cb98459958cc8dfb560fb4b0132fd38d31f6c53492ec8aef743a73c6b67",
+          "original_proposal": {
+            "variable_id": "institutional-autonomy-coordination__positive",
+            "status": "unknown",
+            "value": null,
+            "confidence": 0.3,
+            "support_type": "unknown",
+            "rationale": "Нет прямых эпизодов, где Калинда выступал за расширение автономии или независимого контроля между институтами.",
+            "evidence_indices": []
+          }
+        },
+        "evidence_file": "evidence/independent-dossier-francois-xavier-kalinda.json",
+        "evidence_basis": "1f8a7c223adc150957f3ca121f3be31f790f8d2ecf459effc91f247023b09a86"
+      },
+      "negative": {
+        "status": "observed",
+        "value": 2,
+        "confidence": 0.7,
+        "evidence_indices": [
+          9,
+          11
+        ],
+        "source_urls": [
+          "https://www.linkedin.com/pulse/mps-commit-raising-awareness-preventing-all-forms-corruption-bziuf",
+          "https://www.africa-press.net/rwanda/policy/re-elected-senate-president-kalinda-promises-to-deliver-for-rwandans"
+        ],
+        "event_ids": [
+          "kalinda-anti-corruption-consultation-2025",
+          "kalinda-reelection-speech-2024"
+        ],
+        "rationale": "Калинда в ряде случаев подчеркивал важность координации между институтами (например, борьба с коррупцией как общая обязанность всех секторов, контроль за исполнением обязанностей сенаторов), что соответствует согласованию работы институтов единой линией.",
+        "support_type": "positive_manifestation",
+        "provenance": {
+          "raw_response_file": "evidence/independent_responses/f0969cb98459958cc8dfb560fb4b0132fd38d31f6c53492ec8aef743a73c6b67.json",
+          "model": "gpt-4.1",
+          "at": "2026-10-15T17:31:17.352294+00:00",
+          "cache_key": "f0969cb98459958cc8dfb560fb4b0132fd38d31f6c53492ec8aef743a73c6b67",
+          "original_proposal": {
+            "variable_id": "institutional-autonomy-coordination__negative",
+            "status": "observed",
+            "value": 2,
+            "confidence": 0.7,
+            "support_type": "positive_manifestation",
+            "rationale": "Калинда в ряде случаев подчеркивал важность координации между институтами (например, борьба с коррупцией как общая обязанность всех секторов, контроль за исполнением обязанностей сенаторов), что соответствует согласованию работы институтов единой линией.",
+            "evidence_indices": [
+              9,
+              11
+            ]
+          }
+        },
+        "evidence_file": "evidence/independent-dossier-francois-xavier-kalinda.json",
+        "evidence_basis": "1f8a7c223adc150957f3ca121f3be31f790f8d2ecf459effc91f247023b09a86"
+      }
+    },
+    "positive": null,
+    "negative": 2,
+    "value": null,
+    "status": "partial",
+    "difference": null,
+    "mass": null,
+    "measurement_model": "independent_poles",
+    "evidence_file": "evidence/independent-dossier-francois-xavier-kalinda.json",
+    "evidence_basis": "1f8a7c223adc150957f3ca121f3be31f790f8d2ecf459effc91f247023b09a86",
+    "at": "2026-10-15T17:31:17.356521+00:00",
+    "reason": "Каждое свойство оценивается независимо; разность и искусственное дополнение до пяти не вычисляются"
+  },
+  {
+    "object_id": "francois-xavier-kalinda",
+    "scale_id": "taxation-burden-public-revenue",
+    "pole_scores": {
+      "positive": {
+        "status": "unknown",
+        "value": null,
+        "confidence": 0,
+        "evidence_indices": [],
+        "source_urls": [],
+        "event_ids": [],
+        "rationale": "Нет фактов о предложениях Калинды по снижению налоговой нагрузки или расширению имущественной самостоятельности.",
+        "support_type": "unknown",
+        "provenance": {
+          "raw_response_file": "evidence/independent_responses/f0969cb98459958cc8dfb560fb4b0132fd38d31f6c53492ec8aef743a73c6b67.json",
+          "model": "gpt-4.1",
+          "at": "2026-10-15T17:31:17.352294+00:00",
+          "cache_key": "f0969cb98459958cc8dfb560fb4b0132fd38d31f6c53492ec8aef743a73c6b67",
+          "original_proposal": {
+            "variable_id": "taxation-burden-public-revenue__positive",
+            "status": "unknown",
+            "value": null,
+            "confidence": 0.3,
+            "support_type": "unknown",
+            "rationale": "Нет фактов о предложениях Калинды по снижению налоговой нагрузки или расширению имущественной самостоятельности.",
+            "evidence_indices": []
+          }
+        },
+        "evidence_file": "evidence/independent-dossier-francois-xavier-kalinda.json",
+        "evidence_basis": "1f8a7c223adc150957f3ca121f3be31f790f8d2ecf459effc91f247023b09a86"
+      },
+      "negative": {
+        "status": "unknown",
+        "value": null,
+        "confidence": 0,
+        "evidence_indices": [],
+        "source_urls": [],
+        "event_ids": [],
+        "rationale": "Нет фактов о предложениях Калинды по увеличению налоговых поступлений для публичного развития.",
+        "support_type": "unknown",
+        "provenance": {
+          "raw_response_file": "evidence/independent_responses/f0969cb98459958cc8dfb560fb4b0132fd38d31f6c53492ec8aef743a73c6b67.json",
+          "model": "gpt-4.1",
+          "at": "2026-10-15T17:31:17.352294+00:00",
+          "cache_key": "f0969cb98459958cc8dfb560fb4b0132fd38d31f6c53492ec8aef743a73c6b67",
+          "original_proposal": {
+            "variable_id": "taxation-burden-public-revenue__negative",
+            "status": "unknown",
+            "value": null,
+            "confidence": 0.3,
+            "support_type": "unknown",
+            "rationale": "Нет фактов о предложениях Калинды по увеличению налоговых поступлений для публичного развития.",
+            "evidence_indices": []
+          }
+        },
+        "evidence_file": "evidence/independent-dossier-francois-xavier-kalinda.json",
+        "evidence_basis": "1f8a7c223adc150957f3ca121f3be31f790f8d2ecf459effc91f247023b09a86"
+      }
+    },
+    "positive": null,
+    "negative": null,
+    "value": null,
+    "status": "unknown",
+    "difference": null,
+    "mass": null,
+    "measurement_model": "independent_poles",
+    "evidence_file": "evidence/independent-dossier-francois-xavier-kalinda.json",
+    "evidence_basis": "1f8a7c223adc150957f3ca121f3be31f790f8d2ecf459effc91f247023b09a86",
+    "at": "2026-10-15T17:31:17.356521+00:00",
+    "reason": "Каждое свойство оценивается независимо; разность и искусственное дополнение до пяти не вычисляются"
+  },
+  {
+    "object_id": "francois-xavier-kalinda",
+    "scale_id": "universal-targeted-provision",
+    "pole_scores": {
+      "positive": {
+        "status": "unknown",
+        "value": null,
+        "confidence": 0,
+        "evidence_indices": [],
+        "source_urls": [],
+        "event_ids": [],
+        "rationale": "Нет прямых эпизодов, где Калинда выступал за единые стандарты доступности благ для всего населения.",
+        "support_type": "unknown",
+        "provenance": {
+          "raw_response_file": "evidence/independent_responses/f0969cb98459958cc8dfb560fb4b0132fd38d31f6c53492ec8aef743a73c6b67.json",
+          "model": "gpt-4.1",
+          "at": "2026-10-15T17:31:17.352294+00:00",
+          "cache_key": "f0969cb98459958cc8dfb560fb4b0132fd38d31f6c53492ec8aef743a73c6b67",
+          "original_proposal": {
+            "variable_id": "universal-targeted-provision__positive",
+            "status": "unknown",
+            "value": null,
+            "confidence": 0.3,
+            "support_type": "unknown",
+            "rationale": "Нет прямых эпизодов, где Калинда выступал за единые стандарты доступности благ для всего населения.",
+            "evidence_indices": []
+          }
+        },
+        "evidence_file": "evidence/independent-dossier-francois-xavier-kalinda.json",
+        "evidence_basis": "1f8a7c223adc150957f3ca121f3be31f790f8d2ecf459effc91f247023b09a86"
+      },
+      "negative": {
+        "status": "unknown",
+        "value": null,
+        "confidence": 0,
+        "evidence_indices": [],
+        "source_urls": [],
+        "event_ids": [],
+        "rationale": "Нет прямых эпизодов, где Калинда выступал за приоритетную помощь конкретным недостаточно обеспеченным группам.",
+        "support_type": "unknown",
+        "provenance": {
+          "raw_response_file": "evidence/independent_responses/f0969cb98459958cc8dfb560fb4b0132fd38d31f6c53492ec8aef743a73c6b67.json",
+          "model": "gpt-4.1",
+          "at": "2026-10-15T17:31:17.352294+00:00",
+          "cache_key": "f0969cb98459958cc8dfb560fb4b0132fd38d31f6c53492ec8aef743a73c6b67",
+          "original_proposal": {
+            "variable_id": "universal-targeted-provision__negative",
+            "status": "unknown",
+            "value": null,
+            "confidence": 0.3,
+            "support_type": "unknown",
+            "rationale": "Нет прямых эпизодов, где Калинда выступал за приоритетную помощь конкретным недостаточно обеспеченным группам.",
+            "evidence_indices": []
+          }
+        },
+        "evidence_file": "evidence/independent-dossier-francois-xavier-kalinda.json",
+        "evidence_basis": "1f8a7c223adc150957f3ca121f3be31f790f8d2ecf459effc91f247023b09a86"
+      }
+    },
+    "positive": null,
+    "negative": null,
+    "value": null,
+    "status": "unknown",
+    "difference": null,
+    "mass": null,
+    "measurement_model": "independent_poles",
+    "evidence_file": "evidence/independent-dossier-francois-xavier-kalinda.json",
+    "evidence_basis": "1f8a7c223adc150957f3ca121f3be31f790f8d2ecf459effc91f247023b09a86",
+    "at": "2026-10-15T17:31:17.356521+00:00",
+    "reason": "Каждое свойство оценивается независимо; разность и искусственное дополнение до пяти не вычисляются"
+  },
+  {
+    "object_id": "francois-xavier-kalinda",
+    "scale_id": "ecological-limits-resource-use",
+    "pole_scores": {
+      "positive": {
+        "status": "unknown",
+        "value": null,
+        "confidence": 0,
+        "evidence_indices": [],
+        "source_urls": [],
+        "event_ids": [],
+        "rationale": "Нет фактов о публичных инициативах Калинды по усилению природоохранных ограничений.",
+        "support_type": "unknown",
+        "provenance": {
+          "raw_response_file": "evidence/independent_responses/f0969cb98459958cc8dfb560fb4b0132fd38d31f6c53492ec8aef743a73c6b67.json",
+          "model": "gpt-4.1",
+          "at": "2026-10-15T17:31:17.352294+00:00",
+          "cache_key": "f0969cb98459958cc8dfb560fb4b0132fd38d31f6c53492ec8aef743a73c6b67",
+          "original_proposal": {
+            "variable_id": "ecological-limits-resource-use__positive",
+            "status": "unknown",
+            "value": null,
+            "confidence": 0.3,
+            "support_type": "unknown",
+            "rationale": "Нет фактов о публичных инициативах Калинды по усилению природоохранных ограничений.",
+            "evidence_indices": []
+          }
+        },
+        "evidence_file": "evidence/independent-dossier-francois-xavier-kalinda.json",
+        "evidence_basis": "1f8a7c223adc150957f3ca121f3be31f790f8d2ecf459effc91f247023b09a86"
+      },
+      "negative": {
+        "status": "unknown",
+        "value": null,
+        "confidence": 0,
+        "evidence_indices": [],
+        "source_urls": [],
+        "event_ids": [],
+        "rationale": "Нет фактов о публичных инициативах Калинды по расширению хозяйственного использования природных ресурсов.",
+        "support_type": "unknown",
+        "provenance": {
+          "raw_response_file": "evidence/independent_responses/f0969cb98459958cc8dfb560fb4b0132fd38d31f6c53492ec8aef743a73c6b67.json",
+          "model": "gpt-4.1",
+          "at": "2026-10-15T17:31:17.352294+00:00",
+          "cache_key": "f0969cb98459958cc8dfb560fb4b0132fd38d31f6c53492ec8aef743a73c6b67",
+          "original_proposal": {
+            "variable_id": "ecological-limits-resource-use__negative",
+            "status": "unknown",
+            "value": null,
+            "confidence": 0.3,
+            "support_type": "unknown",
+            "rationale": "Нет фактов о публичных инициативах Калинды по расширению хозяйственного использования природных ресурсов.",
+            "evidence_indices": []
+          }
+        },
+        "evidence_file": "evidence/independent-dossier-francois-xavier-kalinda.json",
+        "evidence_basis": "1f8a7c223adc150957f3ca121f3be31f790f8d2ecf459effc91f247023b09a86"
+      }
+    },
+    "positive": null,
+    "negative": null,
+    "value": null,
+    "status": "unknown",
+    "difference": null,
+    "mass": null,
+    "measurement_model": "independent_poles",
+    "evidence_file": "evidence/independent-dossier-francois-xavier-kalinda.json",
+    "evidence_basis": "1f8a7c223adc150957f3ca121f3be31f790f8d2ecf459effc91f247023b09a86",
+    "at": "2026-10-15T17:31:17.356521+00:00",
+    "reason": "Каждое свойство оценивается независимо; разность и искусственное дополнение до пяти не вычисляются"
+  },
+  {
+    "object_id": "francois-xavier-kalinda",
+    "scale_id": "russia-diplomatic-engagement",
+    "pole_scores": {
+      "positive": {
+        "status": "unknown",
+        "value": null,
+        "confidence": 0,
+        "evidence_indices": [],
+        "source_urls": [],
+        "event_ids": [],
+        "rationale": "Нет допустимых датированных персональных свидетельств по этому свойству",
+        "support_type": "unknown"
+      },
+      "negative": {
+        "status": "unknown",
+        "value": null,
+        "confidence": 0,
+        "evidence_indices": [],
+        "source_urls": [],
+        "event_ids": [],
+        "rationale": "Нет допустимых датированных персональных свидетельств по этому свойству",
+        "support_type": "unknown"
+      }
+    },
+    "positive": null,
+    "negative": null,
+    "value": null,
+    "status": "unknown",
+    "difference": null,
+    "mass": null,
+    "measurement_model": "independent_poles",
+    "evidence_file": "evidence/independent-dossier-francois-xavier-kalinda.json",
+    "evidence_basis": "1f8a7c223adc150957f3ca121f3be31f790f8d2ecf459effc91f247023b09a86",
+    "at": "2026-10-15T17:31:17.356521+00:00",
+    "reason": "Каждое свойство оценивается независимо; разность и искусственное дополнение до пяти не вычисляются"
+  },
+  {
+    "object_id": "francois-xavier-kalinda",
+    "scale_id": "russia-security-cooperation",
+    "pole_scores": {
+      "positive": {
+        "status": "unknown",
+        "value": null,
+        "confidence": 0,
+        "evidence_indices": [],
+        "source_urls": [],
+        "event_ids": [],
+        "rationale": "Нет допустимых датированных персональных свидетельств по этому свойству",
+        "support_type": "unknown"
+      },
+      "negative": {
+        "status": "unknown",
+        "value": null,
+        "confidence": 0,
+        "evidence_indices": [],
+        "source_urls": [],
+        "event_ids": [],
+        "rationale": "Нет допустимых датированных персональных свидетельств по этому свойству",
+        "support_type": "unknown"
+      }
+    },
+    "positive": null,
+    "negative": null,
+    "value": null,
+    "status": "unknown",
+    "difference": null,
+    "mass": null,
+    "measurement_model": "independent_poles",
+    "evidence_file": "evidence/independent-dossier-francois-xavier-kalinda.json",
+    "evidence_basis": "1f8a7c223adc150957f3ca121f3be31f790f8d2ecf459effc91f247023b09a86",
+    "at": "2026-10-15T17:31:17.356521+00:00",
+    "reason": "Каждое свойство оценивается независимо; разность и искусственное дополнение до пяти не вычисляются"
+  },
+  {
+    "object_id": "francois-xavier-kalinda",
+    "scale_id": "russia-economic-technology-cooperation",
+    "pole_scores": {
+      "positive": {
+        "status": "unknown",
+        "value": null,
+        "confidence": 0,
+        "evidence_indices": [],
+        "source_urls": [],
+        "event_ids": [],
+        "rationale": "Нет допустимых датированных персональных свидетельств по этому свойству",
+        "support_type": "unknown"
+      },
+      "negative": {
+        "status": "unknown",
+        "value": null,
+        "confidence": 0,
+        "evidence_indices": [],
+        "source_urls": [],
+        "event_ids": [],
+        "rationale": "Нет допустимых датированных персональных свидетельств по этому свойству",
+        "support_type": "unknown"
+      }
+    },
+    "positive": null,
+    "negative": null,
+    "value": null,
+    "status": "unknown",
+    "difference": null,
+    "mass": null,
+    "measurement_model": "independent_poles",
+    "evidence_file": "evidence/independent-dossier-francois-xavier-kalinda.json",
+    "evidence_basis": "1f8a7c223adc150957f3ca121f3be31f790f8d2ecf459effc91f247023b09a86",
+    "at": "2026-10-15T17:31:17.356521+00:00",
+    "reason": "Каждое свойство оценивается независимо; разность и искусственное дополнение до пяти не вычисляются"
+  },
+  {
+    "object_id": "francois-xavier-kalinda",
+    "scale_id": "russia-education-cultural-cooperation",
+    "pole_scores": {
+      "positive": {
+        "status": "unknown",
+        "value": null,
+        "confidence": 0,
+        "evidence_indices": [],
+        "source_urls": [],
+        "event_ids": [],
+        "rationale": "Нет допустимых датированных персональных свидетельств по этому свойству",
+        "support_type": "unknown"
+      },
+      "negative": {
+        "status": "unknown",
+        "value": null,
+        "confidence": 0,
+        "evidence_indices": [],
+        "source_urls": [],
+        "event_ids": [],
+        "rationale": "Нет допустимых датированных персональных свидетельств по этому свойству",
+        "support_type": "unknown"
+      }
+    },
+    "positive": null,
+    "negative": null,
+    "value": null,
+    "status": "unknown",
+    "difference": null,
+    "mass": null,
+    "measurement_model": "independent_poles",
+    "evidence_file": "evidence/independent-dossier-francois-xavier-kalinda.json",
+    "evidence_basis": "1f8a7c223adc150957f3ca121f3be31f790f8d2ecf459effc91f247023b09a86",
+    "at": "2026-10-15T17:31:17.356521+00:00",
+    "reason": "Каждое свойство оценивается независимо; разность и искусственное дополнение до пяти не вычисляются"
+  },
+  {
+    "object_id": "francois-xavier-kalinda",
+    "scale_id": "russia-conflict-policy-evaluation",
+    "pole_scores": {
+      "positive": {
+        "status": "unknown",
+        "value": null,
+        "confidence": 0,
+        "evidence_indices": [],
+        "source_urls": [],
+        "event_ids": [],
+        "rationale": "Нет допустимых датированных персональных свидетельств по этому свойству",
+        "support_type": "unknown"
+      },
+      "negative": {
+        "status": "unknown",
+        "value": null,
+        "confidence": 0,
+        "evidence_indices": [],
+        "source_urls": [],
+        "event_ids": [],
+        "rationale": "Нет допустимых датированных персональных свидетельств по этому свойству",
+        "support_type": "unknown"
+      }
+    },
+    "positive": null,
+    "negative": null,
+    "value": null,
+    "status": "unknown",
+    "difference": null,
+    "mass": null,
+    "measurement_model": "independent_poles",
+    "evidence_file": "evidence/independent-dossier-francois-xavier-kalinda.json",
+    "evidence_basis": "1f8a7c223adc150957f3ca121f3be31f790f8d2ecf459effc91f247023b09a86",
+    "at": "2026-10-15T17:31:17.356521+00:00",
+    "reason": "Каждое свойство оценивается независимо; разность и искусственное дополнение до пяти не вычисляются"
+  },
+  {
+    "object_id": "francois-xavier-kalinda",
+    "scale_id": "russia-isolation-sanctions",
+    "pole_scores": {
+      "positive": {
+        "status": "unknown",
+        "value": null,
+        "confidence": 0,
+        "evidence_indices": [],
+        "source_urls": [],
+        "event_ids": [],
+        "rationale": "Нет допустимых датированных персональных свидетельств по этому свойству",
+        "support_type": "unknown"
+      },
+      "negative": {
+        "status": "unknown",
+        "value": null,
+        "confidence": 0,
+        "evidence_indices": [],
+        "source_urls": [],
+        "event_ids": [],
+        "rationale": "Нет допустимых датированных персональных свидетельств по этому свойству",
+        "support_type": "unknown"
+      }
+    },
+    "positive": null,
+    "negative": null,
+    "value": null,
+    "status": "unknown",
+    "difference": null,
+    "mass": null,
+    "measurement_model": "independent_poles",
+    "evidence_file": "evidence/independent-dossier-francois-xavier-kalinda.json",
+    "evidence_basis": "1f8a7c223adc150957f3ca121f3be31f790f8d2ecf459effc91f247023b09a86",
+    "at": "2026-10-15T17:31:17.356521+00:00",
+    "reason": "Каждое свойство оценивается независимо; разность и искусственное дополнение до пяти не вычисляются"
+  }
+]

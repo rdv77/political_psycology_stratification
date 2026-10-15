@@ -1,0 +1,264 @@
+{
+  "data": {
+    "ratings": [
+      {
+        "variable_id": "programmatic-renewal__positive",
+        "status": "observed",
+        "value": 3,
+        "confidence": 0.8,
+        "support_type": "positive_manifestation",
+        "rationale": "В ряде эпизодов (например, призыв к инновационным действиям вместо рутины, акцент на трансформацию аграрного сектора, продвижение новых подходов в образовании и финансировании) Мукешимана последовательно подчеркивает необходимость изменений и обновления существующих практик. Это проявляется как в управленческих обращениях, так и в публичных заявлениях о модернизации и трансформации.",
+        "evidence_indices": [
+          2,
+          0,
+          1,
+          5,
+          11,
+          20
+        ]
+      },
+      {
+        "variable_id": "programmatic-renewal__negative",
+        "status": "observed",
+        "value": 2,
+        "confidence": 0.6,
+        "support_type": "positive_manifestation",
+        "rationale": "В ряде случаев отмечается поддержка действующих государственных программ и продолжение ранее начатых инициатив (например, акцент на устойчивости, продолжение работы с фермерами, поддержка существующих государственных механизмов), однако эти проявления не доминируют и часто сочетаются с призывами к обновлению.",
+        "evidence_indices": [
+          0,
+          7,
+          5
+        ]
+      },
+      {
+        "variable_id": "government-course-assessment__positive",
+        "status": "observed",
+        "value": 2,
+        "confidence": 0.7,
+        "support_type": "positive_manifestation",
+        "rationale": "В публичных заявлениях и официальных профилях отмечается поддержка и продвижение государственных инициатив в аграрном секторе, однако отсутствует выраженная и последовательная апология всего курса правительства.",
+        "evidence_indices": [
+          0,
+          7,
+          5
+        ]
+      },
+      {
+        "variable_id": "government-course-assessment__negative",
+        "status": "unknown",
+        "value": null,
+        "confidence": 0.5,
+        "support_type": "unknown",
+        "rationale": "Нет прямых публичных критических высказываний о государственном курсе Руанды или других странах в доступных источниках.",
+        "evidence_indices": []
+      },
+      {
+        "variable_id": "participation-administrative-direction__positive",
+        "status": "observed",
+        "value": 2,
+        "confidence": 0.7,
+        "support_type": "positive_manifestation",
+        "rationale": "Есть эпизоды, где подчёркивается необходимость работы с фермерами, вовлечения молодёжи и женщин, а также обмена опытом между странами, что свидетельствует о поддержке совместного обсуждения и вовлечения заинтересованных сторон.",
+        "evidence_indices": [
+          0,
+          13,
+          17,
+          19
+        ]
+      },
+      {
+        "variable_id": "participation-administrative-direction__negative",
+        "status": "observed",
+        "value": 2,
+        "confidence": 0.6,
+        "support_type": "positive_manifestation",
+        "rationale": "В ряде случаев проявляется административный подход: контроль объектов, постановка задач ведомству, официальное открытие мероприятий, что указывает на элементы административного управления.",
+        "evidence_indices": [
+          2,
+          9,
+          16
+        ]
+      },
+      {
+        "variable_id": "argumentation-evidence-values__positive",
+        "status": "observed",
+        "value": 3,
+        "confidence": 0.8,
+        "support_type": "positive_manifestation",
+        "rationale": "В ряде эпизодов обоснование действий строится на данных, исследованиях, необходимости измеримых результатов, научной подготовке и использовании лабораторий и технологий.",
+        "evidence_indices": [
+          0,
+          1,
+          5,
+          10,
+          15,
+          20
+        ]
+      },
+      {
+        "variable_id": "argumentation-evidence-values__negative",
+        "status": "observed",
+        "value": 2,
+        "confidence": 0.7,
+        "support_type": "positive_manifestation",
+        "rationale": "В ряде публичных заявлений используется ценностное обоснование — например, акцент на равенстве, устойчивости, роли женщин и молодёжи, что отражает апелляцию к коллективным ценностям.",
+        "evidence_indices": [
+          13,
+          18,
+          19
+        ]
+      },
+      {
+        "variable_id": "market-state-instruments__positive",
+        "status": "observed",
+        "value": 3,
+        "confidence": 0.8,
+        "support_type": "positive_manifestation",
+        "rationale": "Многократно подчёркивается привлечение частного сектора, поддержка предпринимательства, расширение доступа к финансированию для фермеров и агробизнеса.",
+        "evidence_indices": [
+          4,
+          5,
+          14,
+          21,
+          15
+        ]
+      },
+      {
+        "variable_id": "market-state-instruments__negative",
+        "status": "observed",
+        "value": 2,
+        "confidence": 0.6,
+        "support_type": "positive_manifestation",
+        "rationale": "В ряде случаев отмечается роль государства в планировании, контроле и координации, однако эти проявления не доминируют и часто сочетаются с поддержкой частной инициативы.",
+        "evidence_indices": [
+          0,
+          2,
+          9
+        ]
+      },
+      {
+        "variable_id": "accessibility-growth-priorities__positive",
+        "status": "observed",
+        "value": 3,
+        "confidence": 0.8,
+        "support_type": "positive_manifestation",
+        "rationale": "Последовательно подчёркивается расширение доступа к базовым благам: образование, профессиональные навыки, участие женщин и молодёжи, доступ к финансированию для малых фермеров.",
+        "evidence_indices": [
+          1,
+          8,
+          13,
+          15,
+          17
+        ]
+      },
+      {
+        "variable_id": "accessibility-growth-priorities__negative",
+        "status": "observed",
+        "value": 3,
+        "confidence": 0.8,
+        "support_type": "positive_manifestation",
+        "rationale": "Параллельно с акцентом на доступности, многократно подчёркивается приоритет роста инвестиций, конкурентоспособности, инноваций и экономических результатов.",
+        "evidence_indices": [
+          5,
+          11,
+          20,
+          15
+        ]
+      },
+      {
+        "variable_id": "external-domestic-resources__positive",
+        "status": "observed",
+        "value": 4,
+        "confidence": 0.9,
+        "support_type": "positive_manifestation",
+        "rationale": "Мукешимана многократно выступает за привлечение внешнего финансирования, международных партнёров, климатических фондов и координацию с международными институтами.",
+        "evidence_indices": [
+          4,
+          5,
+          11,
+          12,
+          14,
+          20
+        ]
+      },
+      {
+        "variable_id": "external-domestic-resources__negative",
+        "status": "observed",
+        "value": 2,
+        "confidence": 0.6,
+        "support_type": "positive_manifestation",
+        "rationale": "В ряде эпизодов отмечается развитие внутренних компетенций, образование и профессиональная подготовка, однако явного акцента на стратегию полной внутренней самостоятельности нет.",
+        "evidence_indices": [
+          1,
+          8
+        ]
+      },
+      {
+        "variable_id": "international-rules-autonomy__positive",
+        "status": "observed",
+        "value": 2,
+        "confidence": 0.7,
+        "support_type": "positive_manifestation",
+        "rationale": "В ряде случаев поддерживает международные обязательства, климатические соглашения, координацию и обмен опытом, однако не делает это определяющей чертой.",
+        "evidence_indices": [
+          12,
+          19,
+          20
+        ]
+      },
+      {
+        "variable_id": "international-rules-autonomy__negative",
+        "status": "observed",
+        "value": 1,
+        "confidence": 0.6,
+        "support_type": "positive_manifestation",
+        "rationale": "В отдельных случаях подчёркивается важность локальной адаптации и самостоятельности решений в рамках международного сотрудничества, но это не доминирующий мотив.",
+        "evidence_indices": [
+          19
+        ]
+      },
+      {
+        "variable_id": "mediation-adversarial-communication__positive",
+        "status": "observed",
+        "value": 2,
+        "confidence": 0.7,
+        "support_type": "positive_manifestation",
+        "rationale": "Есть эпизоды, где подчёркивается необходимость согласования интересов, обмена опытом и поиска совместных решений (например, Юг—Юг, международные партнёрства).",
+        "evidence_indices": [
+          19,
+          20
+        ]
+      },
+      {
+        "variable_id": "mediation-adversarial-communication__negative",
+        "status": "unknown",
+        "value": null,
+        "confidence": 0.5,
+        "support_type": "unknown",
+        "rationale": "Нет подтверждённых эпизодов публичного полемического оспаривания или защиты только своей стороны в доступных источниках.",
+        "evidence_indices": []
+      }
+    ]
+  },
+  "model": "gpt-4.1",
+  "task": "independent-ratings-gerardine-mukeshimana-0",
+  "at": "2026-10-15T17:30:30.501806+00:00",
+  "usage": {
+    "prompt_tokens": 8390,
+    "completion_tokens": 1638,
+    "total_tokens": 10028,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "audio_tokens": 0
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "audio_tokens": 0,
+      "accepted_prediction_tokens": 0,
+      "rejected_prediction_tokens": 0
+    }
+  },
+  "citations": [],
+  "system_fingerprint": "fp_801d3b7b5c",
+  "cache_key": "d37f4e96dc57dca5f9c0a4473f55d3c95309b674eb4d31b86869650d39136cae"
+}

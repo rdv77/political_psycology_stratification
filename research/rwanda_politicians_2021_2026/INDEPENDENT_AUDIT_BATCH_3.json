@@ -1,0 +1,1093 @@
+{
+  "checked_objects": [
+    "mussa-fazil-harerimana",
+    "pudence-rubingisa",
+    "samuel-dusengiyumva",
+    "frank-habineza",
+    "philippe-mpayimana",
+    "victoire-ingabire",
+    "diane-rwigara",
+    "bernard-ntaganda",
+    "christopher-kayumba",
+    "paul-rusesabagina",
+    "kayumba-nyamwasa",
+    "louise-mushikiwabo",
+    "claver-gatete",
+    "valentine-rugwabiza"
+  ],
+  "checked_observed_properties": 244,
+  "decisions": [
+    {
+      "object_id": "mussa-fazil-harerimana",
+      "scale_id": "programmatic-renewal",
+      "pole": "positive",
+      "decision": "reject",
+      "reason": "Факт12 — межпартийная координация. Reason прямо признаёт отсутствие предложения пересмотреть приоритеты/программы; это не программное обновление."
+    },
+    {
+      "object_id": "mussa-fazil-harerimana",
+      "scale_id": "government-course-assessment",
+      "pole": "negative",
+      "decision": "reject",
+      "reason": "0 обоснован отсутствием критики и наличием поддержки. Молчание и противоположное свойство не подтверждают explicit_absence."
+    },
+    {
+      "object_id": "mussa-fazil-harerimana",
+      "scale_id": "government-course-assessment",
+      "pole": "positive",
+      "decision": "flag",
+      "reason": "Для5 проверить максимальную силу:6/13/16 — одно30-летиеPDI;17/18 — одно высказывание2024. Остаются три события2021/2024/2026, а не шесть независимых эпизодов."
+    },
+    {
+      "object_id": "mussa-fazil-harerimana",
+      "scale_id": "participation-administrative-direction",
+      "pole": "positive",
+      "decision": "flag",
+      "reason": "12 — межпартийный контакт, без ясного механизма участия граждан/заинтересованных групп в подготовке решений. Не приравнивать партийное согласование общественному контролю."
+    },
+    {
+      "object_id": "mussa-fazil-harerimana",
+      "scale_id": "participation-administrative-direction",
+      "pole": "negative",
+      "decision": "reject",
+      "reason": "10/13/16 об единстве и поддержке курса, без поручений, планов исполнителей и контроля. Reason сам отмечает отсутствие директив и делает вывод по подразумеванию."
+    },
+    {
+      "object_id": "mussa-fazil-harerimana",
+      "scale_id": "market-state-instruments",
+      "pole": "negative",
+      "decision": "flag",
+      "reason": "11 подтверждает собственную поддержку культурно-правового принуждения; проверить соответствие экономическим обязательным инструментам рыночно-государственной шкалы."
+    },
+    {
+      "object_id": "mussa-fazil-harerimana",
+      "scale_id": "accessibility-growth-priorities",
+      "pole": "positive",
+      "decision": "reject",
+      "reason": "8/13/16 — общее благосостояние, развитие и инклюзивность без конкретного механизма/адресата базовых благ. Определение исключает общую обещанную пользу."
+    },
+    {
+      "object_id": "mussa-fazil-harerimana",
+      "scale_id": "accessibility-growth-priorities",
+      "pole": "negative",
+      "decision": "reject",
+      "reason": "13/16 о развитии/ЦУР, без заявленного приоритета инвестиций, экспорта или деловой активности; reason признаёт отсутствие этого приоритета."
+    },
+    {
+      "object_id": "mussa-fazil-harerimana",
+      "scale_id": "external-domestic-resources",
+      "pole": "negative",
+      "decision": "reject",
+      "reason": "8 — общий призыв каждому внести вклад, без раскрытого механизма финансирования. Не установлены стратегия внутреннего сбора средств или снижение внешней зависимости."
+    },
+    {
+      "object_id": "mussa-fazil-harerimana",
+      "scale_id": "international-rules-autonomy",
+      "pole": "negative",
+      "decision": "reject",
+      "reason": "11 о культурных нормах и публичной наготе не содержит защиты национального решения от внешнего навязывания. Суверенитет подменён культурно-правовой темой."
+    },
+    {
+      "object_id": "mussa-fazil-harerimana",
+      "scale_id": "problem-disclosure-reputation-defence",
+      "pole": "negative",
+      "decision": "recode",
+      "reason": "Новая LLM-переоценка, не первичное число: прямой защитный довод против использования медиа для разрушения страны есть в одном событии30-летияPDI7/14. Остальные ссылки — поддержка/самопрезентация, не независимые репутационные опровержения. Ясное ограниченное проявление2 вместо4.",
+      "evidence_indices": [
+        7,
+        14
+      ],
+      "value": 2
+    },
+    {
+      "object_id": "mussa-fazil-harerimana",
+      "scale_id": "institutional-autonomy-coordination",
+      "pole": "negative",
+      "decision": "reject",
+      "reason": "СотрудничествоPDI/RPF и партийная поддержка курса не устанавливают единую исполнительскую цепочку государственных органов; партийность подменяет институциональные отношения."
+    },
+    {
+      "object_id": "mussa-fazil-harerimana",
+      "scale_id": "ecological-limits-resource-use",
+      "pole": "positive",
+      "decision": "reject",
+      "reason": "19 — участие в семинаре без собственного предложения/решения о защите ресурсов или экологическом ограничении. Тематика мероприятия не устанавливает позицию."
+    },
+    {
+      "object_id": "pudence-rubingisa",
+      "scale_id": "government-course-assessment",
+      "pole": "positive",
+      "decision": "reject",
+      "reason": "5/19/21 — благодарность партнёрам и инфраструктурный отчёт, без прямой оценки государственного курса. Обычная благодарность/отчёт не заменяют измеряемого суждения."
+    },
+    {
+      "object_id": "pudence-rubingisa",
+      "scale_id": "argumentation-evidence-values",
+      "pole": "negative",
+      "decision": "flag",
+      "reason": "15/30 — описание участия и энтузиазмаUmuganda, не явное обоснование решения коллективной ценностью; это один эпизод с ограниченной смысловой опорой."
+    },
+    {
+      "object_id": "pudence-rubingisa",
+      "scale_id": "market-state-instruments",
+      "pole": "positive",
+      "decision": "reject",
+      "reason": "17 — межгородская платформа,27 — проект мэрии/вовлечение жителей; частные операторы и содействие предпринимательству в этих фактах не названы."
+    },
+    {
+      "object_id": "pudence-rubingisa",
+      "scale_id": "external-domestic-resources",
+      "pole": "positive",
+      "decision": "flag",
+      "reason": "6/7 преимущественно визитыВБ/ПРООН без раскрытого финансирования;14 — более прямое медицинское ресурсное содействиеКитая. Для3 не считать встречи несколькими подтверждёнными привлечениями ресурсов."
+    },
+    {
+      "object_id": "pudence-rubingisa",
+      "scale_id": "cultural-openness-national-transmission",
+      "pole": "positive",
+      "decision": "reject",
+      "reason": "Международное управленческое сотрудничество, обмен технологиями/опытом и визиты организаций4/5/7/14/17 не равны культурно-гражданскому обмену и разнообразию."
+    },
+    {
+      "object_id": "pudence-rubingisa",
+      "scale_id": "cultural-openness-national-transmission",
+      "pole": "negative",
+      "decision": "reject",
+      "reason": "3 — зарубежная учёба и возвращение на службу. Определение прямо исключает вывод из обучения; служение стране не доказывает передачу национальных традиций."
+    },
+    {
+      "object_id": "pudence-rubingisa",
+      "scale_id": "problem-disclosure-reputation-defence",
+      "pole": "positive",
+      "decision": "reject",
+      "reason": "24 фиксирует обсуждение спора о палатках и прямо не даёт достаточного текста личной аргументации. Персональное признание проблемы/сбоя не подтверждено."
+    },
+    {
+      "object_id": "pudence-rubingisa",
+      "scale_id": "prevention-crisis-response",
+      "pole": "negative",
+      "decision": "reject",
+      "reason": "12 имеет period на всёокно, хотя сам текст прямо говорит о неустановленной дате интервью. Датированное проявление кризисного ответа в окне не подтверждено."
+    },
+    {
+      "object_id": "samuel-dusengiyumva",
+      "scale_id": "government-course-assessment",
+      "pole": "positive",
+      "decision": "reject",
+      "reason": "0/1 — поручения и привязка администрации к государственным планам, без прямой оценки курса/его достижений. Исполнение служебной программы само по себе не такое суждение."
+    },
+    {
+      "object_id": "samuel-dusengiyumva",
+      "scale_id": "external-domestic-resources",
+      "pole": "positive",
+      "decision": "flag",
+      "reason": "6/8/18 — технологические/партнёрские контакты;18 прямо без финансового соглашения. Проверить конкретное ресурсное предложение, не выдавать визит за привлечённое финансирование."
+    },
+    {
+      "object_id": "samuel-dusengiyumva",
+      "scale_id": "cultural-openness-national-transmission",
+      "pole": "positive",
+      "decision": "reject",
+      "reason": "Пусан и заимствованиеAI/smart-city управления6/8 — технологический/административный опыт, без культурно-гражданского содержания."
+    },
+    {
+      "object_id": "samuel-dusengiyumva",
+      "scale_id": "procedural-guarantees-enforcement",
+      "pole": "positive",
+      "decision": "reject",
+      "reason": "3/13 — сокращение сроков разрешений и исправление начислений. Не указаны возможности обжалования/открытого разбирательства; reason добавляет отсутствующее основание."
+    },
+    {
+      "object_id": "samuel-dusengiyumva",
+      "scale_id": "prevention-crisis-response",
+      "pole": "negative",
+      "decision": "reject",
+      "reason": "0/4 — обычные обращения и спутниковый контроль нарушений, без наступившего кризиса. Оперативность надзора не равна кризисному реагированию."
+    },
+    {
+      "object_id": "samuel-dusengiyumva",
+      "scale_id": "ecological-limits-resource-use",
+      "pole": "positive",
+      "decision": "flag",
+      "reason": "Собственный экологический призыв есть в5(сады);17 — участие без установленной личной инициативы,0 — строительный контроль. Отделить конкретное озеленение от вывода об ограничении хозяйственной деятельности."
+    },
+    {
+      "object_id": "frank-habineza",
+      "scale_id": "international-rules-autonomy",
+      "pole": "negative",
+      "decision": "reject",
+      "reason": "25/26 — отказ от насилия и обещание демократического пути, без внешнего навязывания/суверенных решений. Национальные выборы не устанавливают защиту национальной самостоятельности."
+    },
+    {
+      "object_id": "frank-habineza",
+      "scale_id": "mediation-adversarial-communication",
+      "pole": "positive",
+      "decision": "reject",
+      "reason": "9/10 — ожидание инклюзивных выборов и готовность признать честный результат, без предложения согласовать интересы сторон/посредничества."
+    },
+    {
+      "object_id": "frank-habineza",
+      "scale_id": "mediation-adversarial-communication",
+      "pole": "negative",
+      "decision": "reject",
+      "reason": "16/23 — защита перспектив собственной программы, но не оспаривание обвинения или защита требования в споре. Самопрезентация не подтверждает полемический конструкт."
+    },
+    {
+      "object_id": "frank-habineza",
+      "scale_id": "cultural-openness-national-transmission",
+      "pole": "positive",
+      "decision": "reject",
+      "reason": "28 — избрание сопредседателемGlobalGreens. Международная должность/партийная координация не устанавливают культурный обмен; reason признаёт отсутствие культурной программы."
+    },
+    {
+      "object_id": "frank-habineza",
+      "scale_id": "problem-disclosure-reputation-defence",
+      "pole": "negative",
+      "decision": "reject",
+      "reason": "1/15/16 повторяют один самоотчёт о70% выполненных манифестов. Нет опровержения внешнего описания как искажённого; продвижение достижений не равно репутационной защите."
+    },
+    {
+      "object_id": "frank-habineza",
+      "scale_id": "electoral-access",
+      "pole": "positive",
+      "decision": "recode",
+      "reason": "Новая LLM-переоценка: прямое требование более инклюзивных выборов/расширения представительства есть в9(20.05.2024).25/26 — один конгресс об отказе от насилия, не дополнительные действия расширения доступа. Известен один ясный ограниченный эпизод2 вместо повторяющейся3.",
+      "evidence_indices": [
+        9
+      ],
+      "value": 2
+    },
+    {
+      "object_id": "philippe-mpayimana",
+      "scale_id": "programmatic-renewal",
+      "pole": "positive",
+      "decision": "flag",
+      "reason": "Для3 проверить повторяемость: конкретные парламентские/кредитные изменения12/13/14/27/28/29 принадлежат одному программному комплексу кампании2024;2/21 — новое видение без конкретного изменения правил. Пункты манифеста не автоматически разные эпизоды."
+    },
+    {
+      "object_id": "philippe-mpayimana",
+      "scale_id": "government-course-assessment",
+      "pole": "positive",
+      "decision": "flag",
+      "reason": "23 признаёт личный опытКагаме источником вдохновения; сам факт предупреждает об отсутствии поддержки всего курса. Уточнить предмет измерения: опыт человека либо конкретная политика."
+    },
+    {
+      "object_id": "philippe-mpayimana",
+      "scale_id": "argumentation-evidence-values",
+      "pole": "positive",
+      "decision": "reject",
+      "reason": "18/30 — финансовая конструкция и различие учреждений, без данных/исследования как обоснования решения. Конкретность меры не устанавливает доказательную аргументацию."
+    },
+    {
+      "object_id": "philippe-mpayimana",
+      "scale_id": "mediation-adversarial-communication",
+      "pole": "positive",
+      "decision": "reject",
+      "reason": "Ненападение и готовность содействовать стране19/22/36/37 не содержат предложения посредничества/согласования интересов сторон. Неконфронтационность не доказывает самостоятельное свойство."
+    },
+    {
+      "object_id": "philippe-mpayimana",
+      "scale_id": "mediation-adversarial-communication",
+      "pole": "negative",
+      "decision": "reject",
+      "reason": "22 называет его оппонентом, одновременно ограничивая вывод о конфронтации. Оппозиционный статус не равен полемическому оспариванию."
+    },
+    {
+      "object_id": "philippe-mpayimana",
+      "scale_id": "universal-targeted-provision",
+      "pole": "negative",
+      "decision": "reject",
+      "reason": "4/15/31 называют реформу для мелких добытчиков, но прямо не раскрывают меры поддержки; недостаточная обеспеченность группы добавлена моделью. Упоминание группы не устанавливает адресную помощь."
+    },
+    {
+      "object_id": "victoire-ingabire",
+      "scale_id": "programmatic-renewal",
+      "pole": "negative",
+      "decision": "reject",
+      "reason": "0 выведен из отсутствия призывов продолжать курс и противопоставления политике. Это не explicit_absence самостоятельного свойства."
+    },
+    {
+      "object_id": "victoire-ingabire",
+      "scale_id": "government-course-assessment",
+      "pole": "positive",
+      "decision": "reject",
+      "reason": "0 прямо объяснён «нет оснований» и наличием критики. При независимых свойствах критика не доказывает отсутствия поддержки отдельных решений."
+    },
+    {
+      "object_id": "victoire-ingabire",
+      "scale_id": "participation-administrative-direction",
+      "pole": "negative",
+      "decision": "reject",
+      "reason": "0 прямо выведен из отсутствия найденных административных призывов. Инклюзивная программа не подтверждает explicit_absence другого свойства."
+    },
+    {
+      "object_id": "victoire-ingabire",
+      "scale_id": "participation-administrative-direction",
+      "pole": "positive",
+      "decision": "flag",
+      "reason": "Для максимальной5 проверить независимость:13/15 — одна программная страница,18/19 — одна статья,24 в основном историческое примирение. Участие известно, но определяющая сила с множеством эпизодов не полностью показана."
+    },
+    {
+      "object_id": "victoire-ingabire",
+      "scale_id": "argumentation-evidence-values",
+      "pole": "positive",
+      "decision": "reject",
+      "reason": "21 о необходимости инвестиций/проблемах образования, без самих данных или использования исследования как обоснования. Доказательность выведена из темы образования."
+    },
+    {
+      "object_id": "victoire-ingabire",
+      "scale_id": "market-state-instruments",
+      "pole": "positive",
+      "decision": "recode",
+      "reason": "Новая LLM-переоценка:16/17 — одна программа26.05.2025 с предложением ограничить государственный/партийный бизнес и усилить частный сектор. Два фрагмента одной программы не дают нескольких эпизодов для3; ясное ограниченное проявление2.",
+      "evidence_indices": [
+        16,
+        17
+      ],
+      "value": 2
+    },
+    {
+      "object_id": "victoire-ingabire",
+      "scale_id": "accessibility-growth-priorities",
+      "pole": "positive",
+      "decision": "flag",
+      "reason": "Для4:16 — инвестиции в непосредственные нужды,21 — образование,19 — политический голос беженцев/оппозиции. Последнее не базовые услуги; сильная повторяемость приоритета требует большей опоры."
+    },
+    {
+      "object_id": "victoire-ingabire",
+      "scale_id": "external-domestic-resources",
+      "pole": "positive",
+      "decision": "reject",
+      "reason": "17 называет иностранные инвестиции вообще и прямо не раскрывает партнёрство/фонд/соглашение. По определению общей желательности инвестиций недостаточно для ресурсного механизма."
+    },
+    {
+      "object_id": "victoire-ingabire",
+      "scale_id": "external-domestic-resources",
+      "pole": "negative",
+      "decision": "reject",
+      "reason": "17 упоминает внутренние инвестиции, но не явную стратегию внутреннего сбора средств/снижения внешней зависимости; добавленная reason самостоятельность не раскрыта."
+    },
+    {
+      "object_id": "victoire-ingabire",
+      "scale_id": "cultural-openness-national-transmission",
+      "pole": "positive",
+      "decision": "flag",
+      "reason": "14/18 — межруандийское примирение и политическое участие беженцев/оппозиции. Проверить именно культурно-гражданской обмен/разнообразие, а не другой конструкт инклюзии."
+    },
+    {
+      "object_id": "victoire-ingabire",
+      "scale_id": "cultural-openness-national-transmission",
+      "pole": "negative",
+      "decision": "flag",
+      "reason": "История/ответственность14/24 могут быть ценностной аргументацией; отдельно проверить передачу национальных традиций/идентичности, не выводить её автоматически из примирения."
+    },
+    {
+      "object_id": "victoire-ingabire",
+      "scale_id": "institutional-autonomy-coordination",
+      "pole": "positive",
+      "decision": "recode",
+      "reason": "Новая LLM-переоценка:13/15 — одна программа26.05.2025 с реформами/децентрализацией.18 о голосах беженцев, не дополнительный эпизод автономии органов. Ограниченное программное проявление2; повторяемость3 не установлена.",
+      "evidence_indices": [
+        13,
+        15
+      ],
+      "value": 2
+    },
+    {
+      "object_id": "victoire-ingabire",
+      "scale_id": "universal-targeted-provision",
+      "pole": "positive",
+      "decision": "reject",
+      "reason": "16 — государственные инвестиции для нужд населения, без одинаковых гарантий/стандартов охвата для всех. Общее удовлетворение нужд не устанавливает универсальное устройство предоставления."
+    },
+    {
+      "object_id": "diane-rwigara",
+      "scale_id": "programmatic-renewal",
+      "pole": "positive",
+      "decision": "reject",
+      "reason": "0 — объявление кандидатуры как нового этапа, без конкретного пересмотра правил/программ. Определение прямо исключает само участие в выборах как показатель свойства."
+    },
+    {
+      "object_id": "diane-rwigara",
+      "scale_id": "participation-administrative-direction",
+      "pole": "positive",
+      "decision": "reject",
+      "reason": "0/14/15/21 о кампании и свободе политической деятельности, без участия групп в подготовке решений/проверке результатов. Общий политический допуск не равен партисипаторному механизму."
+    },
+    {
+      "object_id": "diane-rwigara",
+      "scale_id": "problem-disclosure-reputation-defence",
+      "pole": "positive",
+      "decision": "recode",
+      "reason": "Новая LLM-переоценка: конкретные проблемы еды/воды/жилья/страха названы в5(BBC19.06.2024);21/28 пересказывают тот же материал/политические права,9 — сводный профиль без нового датированного высказывания. Один ясный ограниченный эпизод2 вместо3.",
+      "evidence_indices": [
+        5
+      ],
+      "value": 2
+    },
+    {
+      "object_id": "bernard-ntaganda",
+      "scale_id": "programmatic-renewal",
+      "pole": "positive",
+      "decision": "reject",
+      "reason": "4 — использование существующей процедуры реабилитации для своей кандидатуры, не предложение изменить правила. Обращение по делу не устанавливает программную реформу."
+    },
+    {
+      "object_id": "bernard-ntaganda",
+      "scale_id": "accessibility-growth-priorities",
+      "pole": "positive",
+      "decision": "reject",
+      "reason": "7 — общие справедливость/инклюзивный рост в академической атрибуции, без механизма/адресата базовых благ. Общая обещанная польза исключена определением."
+    },
+    {
+      "object_id": "bernard-ntaganda",
+      "scale_id": "international-rules-autonomy",
+      "pole": "negative",
+      "decision": "reject",
+      "reason": "0/4 о независимости суда от партии, а не национального решения от внешнего навязывания. Институциональная независимость подменяет суверенитет."
+    },
+    {
+      "object_id": "bernard-ntaganda",
+      "scale_id": "universal-targeted-provision",
+      "pole": "positive",
+      "decision": "reject",
+      "reason": "7 — общая гражданская страна/справедливость без мер всеобщих гарантий. Reason сам признаёт отсутствие программы; ценность не является устройством социальной политики."
+    },
+    {
+      "object_id": "bernard-ntaganda",
+      "scale_id": "argumentation-evidence-values",
+      "pole": "negative",
+      "decision": "flag",
+      "reason": "Часть опоры7 — академическая атрибуция без даты исходных слов.8 даёт собственный диалог/инклюзию; не считать7 новым датированным эпизодом."
+    },
+    {
+      "object_id": "christopher-kayumba",
+      "scale_id": "programmatic-renewal",
+      "pole": "positive",
+      "decision": "reject",
+      "reason": "12 приписывает пересмотр модели автору аналитического материала; объект служит примером.6 не устанавливает личный авторский вклад. Чужой анализ не его программное требование."
+    },
+    {
+      "object_id": "christopher-kayumba",
+      "scale_id": "government-course-assessment",
+      "pole": "negative",
+      "decision": "reject",
+      "reason": "6/12 — аналитические тексты с неустановленным личным вкладом,5 — внешняя оценка репрессий.7 оспаривает обвинения, но reason приписывает критику политической модели по чужим текстам/статусу."
+    },
+    {
+      "object_id": "christopher-kayumba",
+      "scale_id": "participation-administrative-direction",
+      "pole": "positive",
+      "decision": "reject",
+      "reason": "0 — требование открытого суда, относящееся к процедурным гарантиям, без приглашения граждан готовить решения/проверять управление."
+    },
+    {
+      "object_id": "christopher-kayumba",
+      "scale_id": "problem-disclosure-reputation-defence",
+      "pole": "positive",
+      "decision": "reject",
+      "reason": "Коррупция/репрессии в1/5/6 переданы критиками/организациями/аналитиком, не установленными собственными заявлениями.0 — открытый суд,7 — отрицание обвинений; заявленное reason собственное раскрытие коррупции не подтверждено."
+    },
+    {
+      "object_id": "paul-rusesabagina",
+      "scale_id": "programmatic-renewal",
+      "pole": "positive",
+      "decision": "reject",
+      "reason": "5–9 — критика, уверенность в демократии и призыв к международному вниманию, без собственного предложения пересмотреть приоритеты/правила/программы. Реформа выведена из критики."
+    },
+    {
+      "object_id": "paul-rusesabagina",
+      "scale_id": "programmatic-renewal",
+      "pole": "negative",
+      "decision": "reject",
+      "reason": "2/10 — обещание уйти из политики при помиловании, не поддержка продолжения государственного курса. Отказ от амбиций не означает согласия с порядком."
+    },
+    {
+      "object_id": "paul-rusesabagina",
+      "scale_id": "international-rules-autonomy",
+      "pole": "positive",
+      "decision": "reject",
+      "reason": "9 — общий призыв международному сообществу вмешаться/предотвратить жертвы, без предложенных обязательных норм, договоров или общего механизма."
+    },
+    {
+      "object_id": "paul-rusesabagina",
+      "scale_id": "procedural-guarantees-enforcement",
+      "pole": "positive",
+      "decision": "reject",
+      "reason": "3/10 — письмо о ненасилии,7 — продолжение критики; ни одна указанная ссылка не содержит заявленного reason требования справедливого суда/обжалования. Ненасилие подменяет гарантию."
+    },
+    {
+      "object_id": "paul-rusesabagina",
+      "scale_id": "electoral-access",
+      "pole": "positive",
+      "decision": "reject",
+      "reason": "8 — уверенность в будущем демократии, без своего требования/действия расширить возможность выдвижения/участия. Общая надежда не устанавливает механизм допуска."
+    },
+    {
+      "object_id": "kayumba-nyamwasa",
+      "scale_id": "programmatic-renewal",
+      "pole": "positive",
+      "decision": "reject",
+      "reason": "2/14 — самоописание оппонента и сообщения о преследовании, без конкретной программы изменения правил. Оппозиционная роль не программное предложение."
+    },
+    {
+      "object_id": "kayumba-nyamwasa",
+      "scale_id": "international-rules-autonomy",
+      "pole": "negative",
+      "decision": "reject",
+      "reason": "2/14 о личной позиции против внутренних властей, а не национальном решении против внешнего навязывания. Личная свобода подменяет суверенитет."
+    },
+    {
+      "object_id": "kayumba-nyamwasa",
+      "scale_id": "government-course-assessment",
+      "pole": "negative",
+      "decision": "flag",
+      "reason": "2 — вторичный пересказNewspaperAfrica,14 — прежнее утверждение без даты исходных слов. Критика2 атрибутирована, но14 не доказывает новый эпизод целевого периода."
+    },
+    {
+      "object_id": "kayumba-nyamwasa",
+      "scale_id": "problem-disclosure-reputation-defence",
+      "pole": "positive",
+      "decision": "flag",
+      "reason": "14 пересказывает прежнее утверждение без его датировки. ПубликациюHRW2025 нельзя автоматически считать новым собственным заявлением/действием."
+    },
+    {
+      "object_id": "louise-mushikiwabo",
+      "scale_id": "programmatic-renewal",
+      "pole": "negative",
+      "decision": "reject",
+      "reason": "0 — переизбрание, не программная позиция;10 — приоритеты/координация без призыва закрепить текущий курс. Должность и срок не устанавливают это свойство."
+    },
+    {
+      "object_id": "louise-mushikiwabo",
+      "scale_id": "argumentation-evidence-values",
+      "pole": "positive",
+      "decision": "reject",
+      "reason": "5/10 ссылаются на политические решения и координацию, без самих данных либо исследования. Институциональный механизм не тождественен доказательной аргументации."
+    },
+    {
+      "object_id": "louise-mushikiwabo",
+      "scale_id": "accessibility-growth-priorities",
+      "pole": "positive",
+      "decision": "reject",
+      "reason": "12/5 — общие права женщин, мир, солидарность без механизма предоставления базовых благ. Общая декларируемая польза недостаточна."
+    },
+    {
+      "object_id": "louise-mushikiwabo",
+      "scale_id": "international-rules-autonomy",
+      "pole": "negative",
+      "decision": "reject",
+      "reason": "1 относит урегулирование к субрегиональным структурам. Это распределение международных ролей, не защита национального решения от внешнего навязывания."
+    },
+    {
+      "object_id": "louise-mushikiwabo",
+      "scale_id": "cultural-openness-national-transmission",
+      "pole": "negative",
+      "decision": "flag",
+      "reason": "Франкоязычная наднациональная идентичность4/8/6 не автоматически национальная преемственность конкретной страны. Сохранить оговорку о культурной организации; не приписывать Руанде национальную идеологию."
+    },
+    {
+      "object_id": "louise-mushikiwabo",
+      "scale_id": "problem-disclosure-reputation-defence",
+      "pole": "negative",
+      "decision": "reject",
+      "reason": "10/6 позитивно представляют приоритетыМОФ. Избегание проблем/самопрезентация не доказывают опровержения искажённого внешнего описания."
+    },
+    {
+      "object_id": "louise-mushikiwabo",
+      "scale_id": "prevention-crisis-response",
+      "pole": "positive",
+      "decision": "reject",
+      "reason": "7 — действия во время уже возникшего гаитянского кризиса,5 — реакция на войнуДРК. Не раскрыта подготовка до ущерба; кризисная координация автоматически названа превенцией."
+    },
+    {
+      "object_id": "louise-mushikiwabo",
+      "scale_id": "electoral-access",
+      "pole": "positive",
+      "decision": "reject",
+      "reason": "13 — наблюдательная миссия, без своего требования/решения расширить выдвижение или доступ. Содействие обычному процессу не доказывает устранения барьеров."
+    },
+    {
+      "object_id": "louise-mushikiwabo",
+      "scale_id": "universal-targeted-provision",
+      "pole": "positive",
+      "decision": "reject",
+      "reason": "12 — общий призыв осуществлять права женщин/девочек, без конкретной всеобщей гарантии/стандарта охвата. Упоминание группы без меры недостаточно."
+    },
+    {
+      "object_id": "claver-gatete",
+      "scale_id": "programmatic-renewal",
+      "pole": "negative",
+      "decision": "recode",
+      "reason": "Новая LLM-переоценка: прямое продвижение действующих протоколовAfCFTA есть в одном выступлении10(10.07.2025).1 — профиль,17 — участие без конкретных мер,11 — новые финансовые предложения. Ясный ограниченный эпизод2 вместо недоказанной повторяемости3.",
+      "evidence_indices": [
+        10
+      ],
+      "value": 2
+    },
+    {
+      "object_id": "claver-gatete",
+      "scale_id": "government-course-assessment",
+      "pole": "positive",
+      "decision": "reject",
+      "reason": "1 — профиль;10/11 — предложения об инструментах/реформах, без указанной reason оценки достижений власти. Работа вЭКА/продвижение инициатив не сами по себе оценка государственного курса."
+    },
+    {
+      "object_id": "claver-gatete",
+      "scale_id": "government-course-assessment",
+      "pole": "negative",
+      "decision": "flag",
+      "reason": "8/9 критикуют международное финансовое устройство; уточнить, какой курс власти измеряется. Не переносить автоматически на правительствоРуанды."
+    },
+    {
+      "object_id": "claver-gatete",
+      "scale_id": "participation-administrative-direction",
+      "pole": "negative",
+      "decision": "reject",
+      "reason": "0 — назначение,2 — биография,5 — карьерный переход. Собственных поручений и контроля в ссылках нет; административный стиль выведен из должности."
+    },
+    {
+      "object_id": "claver-gatete",
+      "scale_id": "argumentation-evidence-values",
+      "pole": "positive",
+      "decision": "reject",
+      "reason": "8/9 о проблемах/финансировании,10 о готовности предоставлять данные другим. Не представлены использованные при своём решении данные/исследование; инструментыЭКА не доказывают регулярную аргументацию3."
+    },
+    {
+      "object_id": "claver-gatete",
+      "scale_id": "market-state-instruments",
+      "pole": "negative",
+      "decision": "reject",
+      "reason": "0/2 — должность/биография,10 — частное финансирование, рынки и интеграция. Предложения обязательных правил/надзора из этих ссылок не следует; управленческая роль подменяет инструмент."
+    },
+    {
+      "object_id": "claver-gatete",
+      "scale_id": "international-rules-autonomy",
+      "pole": "negative",
+      "decision": "reject",
+      "reason": "12 отрицает обвиненияДРК и призывает к деэскалации, без защиты свободы национального решения от внешнего навязывания. Полемика не суверенитет."
+    },
+    {
+      "object_id": "claver-gatete",
+      "scale_id": "cultural-openness-national-transmission",
+      "pole": "positive",
+      "decision": "reject",
+      "reason": "1/7/10/13/14 — экономика, частный сектор, молодёжное лидерство/встречи без культурного обмена. Международность должности не устанавливает этот конструкт."
+    },
+    {
+      "object_id": "claver-gatete",
+      "scale_id": "taxation-burden-public-revenue",
+      "pole": "negative",
+      "decision": "flag",
+      "reason": "9/10/11 об облигациях/капитальных рынках/внутренних ресурсах. Проверить, что это публичные доходы для общих программ, а не частное финансирование/долг; налоговое расширение не названо."
+    },
+    {
+      "object_id": "claver-gatete",
+      "scale_id": "universal-targeted-provision",
+      "pole": "positive",
+      "decision": "reject",
+      "reason": "8 называет образование правом, но прямо не устанавливает универсальную программу. Нормативное право без механизма одинаковых гарантий не наблюдаемое устройство предоставления."
+    },
+    {
+      "object_id": "claver-gatete",
+      "scale_id": "universal-targeted-provision",
+      "pole": "negative",
+      "decision": "reject",
+      "reason": "13 — молодёжные инициативы, без конкретной дополнительной помощи уязвимой группе. Reason признаёт отсутствие адресной программы."
+    },
+    {
+      "object_id": "valentine-rugwabiza",
+      "scale_id": "government-course-assessment",
+      "pole": "positive",
+      "decision": "flag",
+      "reason": "Оценён прогресс именно властейЦАР в служебной ролиMINUSCA. При чтении пространстваРуанды не представлять эту3 поддержкой правительстваРуанды."
+    },
+    {
+      "object_id": "valentine-rugwabiza",
+      "scale_id": "government-course-assessment",
+      "pole": "negative",
+      "decision": "reject",
+      "reason": "16/33 — риски/пробелы возможностей; reason сам говорит, что это не критика курса. Ограничения исполнения не автоматически негативная оценка курса власти."
+    },
+    {
+      "object_id": "valentine-rugwabiza",
+      "scale_id": "market-state-instruments",
+      "pole": "negative",
+      "decision": "flag",
+      "reason": "12/27/35 о планировании/оружии/безопасности, без расширения экономических государственных инструментов относительно частной инициативы. Проверить перенос уровня исходной шкалы."
+    },
+    {
+      "object_id": "valentine-rugwabiza",
+      "scale_id": "accessibility-growth-priorities",
+      "pole": "positive",
+      "decision": "recode",
+      "reason": "Новая LLM-переоценка:30тыс.свидетельств/регистрация6/11 — один брифинг22.11.2024;18 — общие нужды без нового механизма услуг. Одно ясное ограниченное предоставление2 вместо повторяющейся3.",
+      "evidence_indices": [
+        6,
+        11
+      ],
+      "value": 2
+    },
+    {
+      "object_id": "valentine-rugwabiza",
+      "scale_id": "accessibility-growth-priorities",
+      "pole": "negative",
+      "decision": "reject",
+      "reason": "12/29 о национальном плане и государственной власти/институциональной стабильности. Институциональный рост не экономический инвестиционный рост, экспорт и деловая активность."
+    },
+    {
+      "object_id": "valentine-rugwabiza",
+      "scale_id": "external-domestic-resources",
+      "pole": "positive",
+      "decision": "flag",
+      "reason": "14/23 — один запрос22.11.2024;26 — отдельный призыв26.10.2023. Для4 не считать дубликаты независимыми обращениями; это финансирование миссии, не обязательно экономикиЦАР."
+    },
+    {
+      "object_id": "valentine-rugwabiza",
+      "scale_id": "problem-disclosure-reputation-defence",
+      "pole": "negative",
+      "decision": "reject",
+      "reason": "7/9/19/36 описывают прогресс и поддержку, без опровержения внешнего описания как искажённого. Самопрезентация успеха не доказывает требуемую репутационную защиту."
+    },
+    {
+      "object_id": "valentine-rugwabiza",
+      "scale_id": "electoral-access",
+      "pole": "positive",
+      "decision": "recode",
+      "reason": "Новая LLM-переоценка: конкретное расширение регистрации и призыв к инклюзивным выборам7/11 — один брифинг22.11.2024.22/25 сообщают о проведённых/планируемых выборах, не новых личных действиях устранения барьеров. Ясное ограниченное проявление2 вместо3.",
+      "evidence_indices": [
+        7,
+        11
+      ],
+      "value": 2
+    },
+    {
+      "object_id": "valentine-rugwabiza",
+      "scale_id": "universal-targeted-provision",
+      "pole": "positive",
+      "decision": "reject",
+      "reason": "6/11 — специальная выдача документов уязвимым группам. Она подтверждает адресность, но не одинаковую гарантию/стандарт для всех; расширение адресного охвата не автоматически универсальность."
+    }
+  ],
+  "fact_exclusions": [
+    {
+      "object_id": "pudence-rubingisa",
+      "evidence_indices": [
+        12,
+        13
+      ],
+      "reason": "Сами тексты не устанавливают дату интервью; period на всё исследовательское окно искусственно создаёт видимость датированного основания. Не использовать без первичной датировки.",
+      "actual_period": "not_established"
+    }
+  ],
+  "event_groups": [
+    {
+      "object_id": "mussa-fazil-harerimana",
+      "evidence_indices": [
+        6,
+        7,
+        12,
+        13,
+        14,
+        16
+      ],
+      "canonical_event_id": "harerimana-pdi-30th-anniversary-2021",
+      "reason": "Одно30-летиеPDI; старые30ноября и новые2декабря отражают событие/публикацию, не новые выступления."
+    },
+    {
+      "object_id": "mussa-fazil-harerimana",
+      "evidence_indices": [
+        17,
+        18
+      ],
+      "canonical_event_id": "harerimana-endorsement-2024-07-09",
+      "reason": "Два тезиса одного заявления."
+    },
+    {
+      "object_id": "pudence-rubingisa",
+      "evidence_indices": [
+        2,
+        16,
+        17
+      ],
+      "canonical_event_id": "rubingisa-interview-2022-07-14",
+      "reason": "Одна программная беседа, разделённая на транспорт/обмен опытом."
+    },
+    {
+      "object_id": "pudence-rubingisa",
+      "evidence_indices": [
+        19,
+        20,
+        21,
+        22,
+        23
+      ],
+      "canonical_event_id": "rubingisa-press-conference-2022-08-03",
+      "reason": "Тематические фрагменты одной пресс-конференции."
+    },
+    {
+      "object_id": "pudence-rubingisa",
+      "evidence_indices": [
+        15,
+        30
+      ],
+      "canonical_event_id": "rubingisa-umuganda-march-2022",
+      "reason": "Два сообщения о возобновившемсяUmuganda; даты26/27марта не доказывают разные выступления."
+    },
+    {
+      "object_id": "samuel-dusengiyumva",
+      "evidence_indices": [
+        0,
+        1
+      ],
+      "canonical_event_id": "dusengiyumva-cell-leaders-2024-04-03",
+      "reason": "Один инструктаж руководителей ячеек."
+    },
+    {
+      "object_id": "samuel-dusengiyumva",
+      "evidence_indices": [
+        2,
+        3,
+        4,
+        5
+      ],
+      "canonical_event_id": "dusengiyumva-assembly-june-2025",
+      "reason": "Один доклад городской ассамблее24–25июня."
+    },
+    {
+      "object_id": "samuel-dusengiyumva",
+      "evidence_indices": [
+        6,
+        7,
+        8
+      ],
+      "canonical_event_id": "dusengiyumva-busan-october-2025",
+      "reason": "Аспекты одной поездки/саммита28–30октября."
+    },
+    {
+      "object_id": "samuel-dusengiyumva",
+      "evidence_indices": [
+        12,
+        13
+      ],
+      "canonical_event_id": "dusengiyumva-permit-refunds-2025-07-17",
+      "reason": "Одно исправление начислений/возвратов."
+    },
+    {
+      "object_id": "samuel-dusengiyumva",
+      "evidence_indices": [
+        21,
+        29
+      ],
+      "canonical_event_id": "dusengiyumva-youth-volunteers-2025-06-27",
+      "reason": "Одна речь о социальных сетях/имидже."
+    },
+    {
+      "object_id": "frank-habineza",
+      "evidence_indices": [
+        0,
+        1,
+        6,
+        11,
+        15,
+        16
+      ],
+      "canonical_event_id": "habineza-manifesto-2024-06-27",
+      "reason": "Повторы одного манифеста и самооценки70%; не независимые выступления."
+    },
+    {
+      "object_id": "frank-habineza",
+      "evidence_indices": [
+        2,
+        3,
+        7
+      ],
+      "canonical_event_id": "habineza-muhanga-2024-07-09",
+      "reason": "Один предвыборный эпизод; социальная/экологическая части не отдельные выступления."
+    },
+    {
+      "object_id": "frank-habineza",
+      "evidence_indices": [
+        25,
+        26
+      ],
+      "canonical_event_id": "habineza-karongi-2025-12-01",
+      "reason": "Демократическийпуть/отказотнасилия — одна речь."
+    },
+    {
+      "object_id": "philippe-mpayimana",
+      "evidence_indices": [
+        12,
+        13,
+        27,
+        28,
+        29
+      ],
+      "canonical_event_id": "mpayimana-parliament-proposal-july-2024",
+      "reason": "Один комплекс предложений о представительстве/квотах."
+    },
+    {
+      "object_id": "philippe-mpayimana",
+      "evidence_indices": [
+        14,
+        18,
+        24,
+        25,
+        30
+      ],
+      "canonical_event_id": "mpayimana-student-loans-campaign-2024",
+      "reason": "Пересказы предложения о займах/его основания; не каждыйфакт новыйэпизод."
+    },
+    {
+      "object_id": "victoire-ingabire",
+      "evidence_indices": [
+        13,
+        14,
+        15,
+        16,
+        17
+      ],
+      "canonical_event_id": "ingabire-programme-2025-05-26",
+      "reason": "Одна программнаястраница, несколько тем."
+    },
+    {
+      "object_id": "victoire-ingabire",
+      "evidence_indices": [
+        18,
+        19
+      ],
+      "canonical_event_id": "ingabire-peace-article-2025-06-03",
+      "reason": "Двапересказа однойавторскойстатьи."
+    },
+    {
+      "object_id": "diane-rwigara",
+      "evidence_indices": [
+        5,
+        14,
+        15,
+        21,
+        28
+      ],
+      "canonical_event_id": "rwigara-bbc-2024-06-19",
+      "reason": "Пересказы одногоинтервьюBBC, не новые доказательства повторяемости."
+    },
+    {
+      "object_id": "diane-rwigara",
+      "evidence_indices": [
+        16,
+        17,
+        22,
+        27
+      ],
+      "canonical_event_id": "rwigara-x-2024-06-19",
+      "reason": "Тезисы одной публикации о недопуске."
+    },
+    {
+      "object_id": "bernard-ntaganda",
+      "evidence_indices": [
+        0,
+        4,
+        5
+      ],
+      "canonical_event_id": "ntaganda-rehabilitation-2024",
+      "reason": "Один процесс реабилитации/отказа; разныеисточники подтверждаютдело, не новыеегоубеждения."
+    },
+    {
+      "object_id": "paul-rusesabagina",
+      "evidence_indices": [
+        2,
+        3,
+        10
+      ],
+      "canonical_event_id": "rusesabagina-clemency-october-2022",
+      "reason": "Одноходатайство, поздние пересказы не новыеэпизоды."
+    },
+    {
+      "object_id": "kayumba-nyamwasa",
+      "evidence_indices": [
+        2,
+        15
+      ],
+      "canonical_event_id": "nyamwasa-terrorism-response-2025-11-10",
+      "reason": "Одно заявлениеNewspaperAfrica. Аннотация15«послепериода»неверна:10.11.2025 входит15.10.2021–15.10.2026; не исключатьиз-занеё."
+    },
+    {
+      "object_id": "louise-mushikiwabo",
+      "evidence_indices": [
+        4,
+        8
+      ],
+      "canonical_event_id": "mushikiwabo-francophone-au-event-2023",
+      "reason": "Однокультурноемероприятие, дваописания."
+    },
+    {
+      "object_id": "louise-mushikiwabo",
+      "evidence_indices": [
+        9,
+        15
+      ],
+      "canonical_event_id": "mushikiwabo-oif-ukraine-2023-02-24",
+      "reason": "ОдноименноезаявлениеOIF; повтор не второероссийскоесвидетельство."
+    },
+    {
+      "object_id": "valentine-rugwabiza",
+      "evidence_indices": [
+        6,
+        7,
+        8,
+        11,
+        12,
+        14,
+        15,
+        16,
+        23
+      ],
+      "canonical_event_id": "rugwabiza-unsc-2024-11-22",
+      "reason": "Фрагменты одного брифингаСБООН: документы,ресурсы,риски — не независимые выступления."
+    },
+    {
+      "object_id": "valentine-rugwabiza",
+      "evidence_indices": [
+        24,
+        27,
+        28,
+        34,
+        35,
+        39
+      ],
+      "canonical_event_id": "rugwabiza-unsc-2024-02-21",
+      "reason": "Один брифингпосле нападения; оружие/подготовка/безопасность — частиречи."
+    },
+    {
+      "object_id": "valentine-rugwabiza",
+      "evidence_indices": [
+        31,
+        32,
+        33,
+        38
+      ],
+      "canonical_event_id": "rugwabiza-unsc-2026-07-23",
+      "reason": "Один планперехода, несколькоаспектов."
+    },
+    {
+      "object_id": "valentine-rugwabiza",
+      "evidence_indices": [
+        29,
+        30,
+        37
+      ],
+      "canonical_event_id": "rugwabiza-unsc-2025-11-27",
+      "reason": "Один предвыборныйбрифинг."
+    },
+    {
+      "object_id": "valentine-rugwabiza",
+      "evidence_indices": [
+        25,
+        26,
+        36
+      ],
+      "canonical_event_id": "rugwabiza-unsc-2023-10-26",
+      "reason": "Один брифингомирномпроцессе/ресурсах/выборах."
+    }
+  ]
+}

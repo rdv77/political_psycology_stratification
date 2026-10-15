@@ -1,0 +1,240 @@
+{
+  "data": {
+    "ratings": [
+      {
+        "variable_id": "programmatic-renewal__positive",
+        "status": "unknown",
+        "value": null,
+        "confidence": 0,
+        "support_type": "unknown",
+        "rationale": "Нет прямых предложений пересмотреть действующие приоритеты, правила или программы в доступных эпизодах.",
+        "evidence_indices": []
+      },
+      {
+        "variable_id": "programmatic-renewal__negative",
+        "status": "observed",
+        "value": 4,
+        "confidence": 0.9,
+        "support_type": "positive_manifestation",
+        "rationale": "Многократные публичные выступления и официальные действия Бизиманы направлены на закрепление и продвижение действующего мемориально-интеграционного курса, без признаков пересмотра приоритетов (эпизоды 1, 2, 3, 4, 5, 6, 7, 9, 10, 12, 13, 14, 15, 18).",
+        "evidence_indices": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          9,
+          10,
+          12,
+          13,
+          14,
+          15,
+          18
+        ]
+      },
+      {
+        "variable_id": "government-course-assessment__positive",
+        "status": "observed",
+        "value": 3,
+        "confidence": 0.8,
+        "support_type": "positive_manifestation",
+        "rationale": "Публичные оценки состояния национального единства и достижений курса, а также акцент на успехах интеграционной политики (эпизоды 0, 6, 9, 18).",
+        "evidence_indices": [
+          0,
+          6,
+          9,
+          18
+        ]
+      },
+      {
+        "variable_id": "government-course-assessment__negative",
+        "status": "unknown",
+        "value": null,
+        "confidence": 0,
+        "support_type": "unknown",
+        "rationale": "Нет прямой критики действующего государственного курса в доступных эпизодах.",
+        "evidence_indices": []
+      },
+      {
+        "variable_id": "participation-administrative-direction__positive",
+        "status": "unknown",
+        "value": null,
+        "confidence": 0,
+        "support_type": "unknown",
+        "rationale": "Нет подтверждённых случаев приглашения граждан к совместной выработке решений или общественному контролю.",
+        "evidence_indices": []
+      },
+      {
+        "variable_id": "participation-administrative-direction__negative",
+        "status": "observed",
+        "value": 4,
+        "confidence": 0.9,
+        "support_type": "positive_manifestation",
+        "rationale": "Преобладает административная постановка задач, централизованное управление программами гражданского воспитания и мемориальной политики (эпизоды 8, 12, 15).",
+        "evidence_indices": [
+          8,
+          12,
+          15
+        ]
+      },
+      {
+        "variable_id": "argumentation-evidence-values__positive",
+        "status": "observed",
+        "value": 2,
+        "confidence": 0.7,
+        "support_type": "positive_manifestation",
+        "rationale": "В ряде эпизодов используется ссылка на измеряемые показатели единства и устойчивости, а также на официальные доклады (эпизоды 0, 6).",
+        "evidence_indices": [
+          0,
+          6
+        ]
+      },
+      {
+        "variable_id": "argumentation-evidence-values__negative",
+        "status": "observed",
+        "value": 5,
+        "confidence": 1,
+        "support_type": "positive_manifestation",
+        "rationale": "Постоянный акцент на ценностях единства, патриотизма, памяти о геноциде, коллективных символах и исторических примерах (эпизоды 1, 2, 3, 4, 5, 7, 9, 10, 11, 12, 13, 14, 15).",
+        "evidence_indices": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          7,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15
+        ]
+      },
+      {
+        "variable_id": "market-state-instruments__positive",
+        "status": "unknown",
+        "value": null,
+        "confidence": 0,
+        "support_type": "unknown",
+        "rationale": "Нет сведений о расширении частной инициативы или управлении частными операторами.",
+        "evidence_indices": []
+      },
+      {
+        "variable_id": "market-state-instruments__negative",
+        "status": "observed",
+        "value": 3,
+        "confidence": 0.7,
+        "support_type": "positive_manifestation",
+        "rationale": "Организация и запуск государственных программ гражданского воспитания и мемориальной политики с централизованным управлением (эпизоды 8, 12, 15).",
+        "evidence_indices": [
+          8,
+          12,
+          15
+        ]
+      },
+      {
+        "variable_id": "accessibility-growth-priorities__positive",
+        "status": "unknown",
+        "value": null,
+        "confidence": 0,
+        "support_type": "unknown",
+        "rationale": "Нет прямых заявлений о расширении доступности базовых благ для населения.",
+        "evidence_indices": []
+      },
+      {
+        "variable_id": "accessibility-growth-priorities__negative",
+        "status": "unknown",
+        "value": null,
+        "confidence": 0,
+        "support_type": "unknown",
+        "rationale": "Нет прямых заявлений о приоритете роста инвестиций, конкурентоспособности и деловой активности.",
+        "evidence_indices": []
+      },
+      {
+        "variable_id": "external-domestic-resources__positive",
+        "status": "unknown",
+        "value": null,
+        "confidence": 0,
+        "support_type": "unknown",
+        "rationale": "Нет сведений о привлечении внешнего финансирования или ресурсных партнёров.",
+        "evidence_indices": []
+      },
+      {
+        "variable_id": "external-domestic-resources__negative",
+        "status": "unknown",
+        "value": null,
+        "confidence": 0,
+        "support_type": "unknown",
+        "rationale": "Нет сведений о приоритете внутренней ресурсной самостоятельности.",
+        "evidence_indices": []
+      },
+      {
+        "variable_id": "international-rules-autonomy__positive",
+        "status": "unknown",
+        "value": null,
+        "confidence": 0,
+        "support_type": "unknown",
+        "rationale": "Нет прямых предложений о закреплении международных обязательств.",
+        "evidence_indices": []
+      },
+      {
+        "variable_id": "international-rules-autonomy__negative",
+        "status": "observed",
+        "value": 2,
+        "confidence": 0.6,
+        "support_type": "positive_manifestation",
+        "rationale": "В ряде эпизодов зафиксирована защита официальной исторической рамки и недопустимость оспаривания национального нарратива, что косвенно свидетельствует о защите самостоятельности решений (эпизоды 12, 15).",
+        "evidence_indices": [
+          12,
+          15
+        ]
+      },
+      {
+        "variable_id": "mediation-adversarial-communication__positive",
+        "status": "unknown",
+        "value": null,
+        "confidence": 0,
+        "support_type": "unknown",
+        "rationale": "Нет предложений о посредничестве или согласовании интересов сторон.",
+        "evidence_indices": []
+      },
+      {
+        "variable_id": "mediation-adversarial-communication__negative",
+        "status": "observed",
+        "value": 3,
+        "confidence": 0.7,
+        "support_type": "positive_manifestation",
+        "rationale": "Публичная защита официальной исторической рамки, недопустимость оспаривания факта геноцида, профилактика отрицания и минимизации (эпизоды 12, 15).",
+        "evidence_indices": [
+          12,
+          15
+        ]
+      }
+    ]
+  },
+  "model": "gpt-4.1",
+  "task": "independent-ratings-jean-damascene-bizimana-0",
+  "at": "2026-10-15T17:30:49.323385+00:00",
+  "usage": {
+    "prompt_tokens": 7917,
+    "completion_tokens": 1815,
+    "total_tokens": 9732,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "audio_tokens": 0
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "audio_tokens": 0,
+      "accepted_prediction_tokens": 0,
+      "rejected_prediction_tokens": 0
+    }
+  },
+  "citations": [],
+  "system_fingerprint": "fp_801d3b7b5c",
+  "cache_key": "461d16e4c054a94d8aed6f002e85f5157c92fe282ebb5e62a426ff785f621336"
+}

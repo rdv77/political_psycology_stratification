@@ -1,0 +1,250 @@
+{
+  "data": {
+    "ratings": [
+      {
+        "variable_id": "programmatic-renewal__positive",
+        "status": "observed",
+        "value": 2,
+        "confidence": 0.7,
+        "support_type": "positive_manifestation",
+        "rationale": "Увамария в ряде эпизодов (например, на консультациях по глобальному договору о пластике и запуске обновления NDC 3.0) выступала за новые рамки регулирования и инклюзивные процессы, что свидетельствует о программных предложениях по изменению существующих правил, но не фиксируется как устойчивый или определяющий акцент.",
+        "evidence_indices": [
+          1,
+          10,
+          23
+        ]
+      },
+      {
+        "variable_id": "programmatic-renewal__negative",
+        "status": "observed",
+        "value": 3,
+        "confidence": 0.8,
+        "support_type": "positive_manifestation",
+        "rationale": "В ряде выступлений Увамария подчёркивала продолжение и развитие действующих программ (например, обновление NDC как задача всего правительства и общества, поддержка существующих институтов гендерной политики, акцент на исполнимости климатических планов), что указывает на последовательное подтверждение и закрепление текущего курса.",
+        "evidence_indices": [
+          14,
+          16,
+          24
+        ]
+      },
+      {
+        "variable_id": "government-course-assessment__positive",
+        "status": "observed",
+        "value": 3,
+        "confidence": 0.8,
+        "support_type": "positive_manifestation",
+        "rationale": "Увамария в публичных заявлениях и официальных актах неоднократно представляла и поддерживала действующую государственную политику в сферах гендерного равенства, образования и экологии, без признаков критики общего курса.",
+        "evidence_indices": [
+          12,
+          16,
+          17,
+          22
+        ]
+      },
+      {
+        "variable_id": "government-course-assessment__negative",
+        "status": "observed",
+        "value": 1,
+        "confidence": 0.5,
+        "support_type": "positive_manifestation",
+        "rationale": "В одном эпизоде (совещание по образованию Восточной провинции) зафиксировано признание отставания и проблем в секторе, что можно трактовать как ограниченную критику исполнения, но не отрицание всего курса.",
+        "evidence_indices": [
+          20
+        ]
+      },
+      {
+        "variable_id": "participation-administrative-direction__positive",
+        "status": "observed",
+        "value": 2,
+        "confidence": 0.7,
+        "support_type": "positive_manifestation",
+        "rationale": "В ряде случаев Увамария призывала к инклюзивности и участию различных сторон в подготовке решений (например, консультации по NDC 3.0, Kigali Climate Talks), однако эти эпизоды не носят устойчивого характера и не фиксируют системного акцента на совместном контроле.",
+        "evidence_indices": [
+          5,
+          23
+        ]
+      },
+      {
+        "variable_id": "participation-administrative-direction__negative",
+        "status": "observed",
+        "value": 2,
+        "confidence": 0.7,
+        "support_type": "positive_manifestation",
+        "rationale": "В ряде эпизодов (например, требования к исполнителям образования, административные поручения) проявляется директивный стиль постановки задач и контроля исполнения, но не как определяющая черта.",
+        "evidence_indices": [
+          19,
+          20
+        ]
+      },
+      {
+        "variable_id": "argumentation-evidence-values__positive",
+        "status": "observed",
+        "value": 2,
+        "confidence": 0.7,
+        "support_type": "positive_manifestation",
+        "rationale": "В ряде публичных выступлений Увамария использовала ссылки на данные (например, загрязнение воздуха, квоты женщин), однако систематического акцента на доказательной аргументации не выявлено.",
+        "evidence_indices": [
+          8,
+          12,
+          16
+        ]
+      },
+      {
+        "variable_id": "argumentation-evidence-values__negative",
+        "status": "observed",
+        "value": 2,
+        "confidence": 0.7,
+        "support_type": "positive_manifestation",
+        "rationale": "В ряде случаев обоснование строилось на ценностях равенства, инклюзивности, коллективных целях (например, расширение участия женщин, защита пострадавших от насилия), но без устойчивого доминирования этого подхода.",
+        "evidence_indices": [
+          15,
+          22
+        ]
+      },
+      {
+        "variable_id": "market-state-instruments__positive",
+        "status": "observed",
+        "value": 2,
+        "confidence": 0.7,
+        "support_type": "positive_manifestation",
+        "rationale": "Увамария поддерживала программы, сочетающие частную инициативу с государственным регулированием (например, Gender Equality Seal, мобилизация частного сектора), но не делала акцента на полном приоритете частного управления.",
+        "evidence_indices": [
+          13,
+          16
+        ]
+      },
+      {
+        "variable_id": "market-state-instruments__negative",
+        "status": "observed",
+        "value": 2,
+        "confidence": 0.7,
+        "support_type": "positive_manifestation",
+        "rationale": "В ряде эпизодов фиксируется поддержка государственных институтов и обязательных правил (например, квоты, государственные программы), однако не как доминирующая или исключительная стратегия.",
+        "evidence_indices": [
+          12,
+          14
+        ]
+      },
+      {
+        "variable_id": "accessibility-growth-priorities__positive",
+        "status": "observed",
+        "value": 3,
+        "confidence": 0.8,
+        "support_type": "positive_manifestation",
+        "rationale": "В ряде программ и заявлений Увамария подчёркивала расширение доступа к базовым благам для обозначенных групп (например, женщин, девочек, доступ к образованию и цифровым технологиям), что фиксируется как устойчивый акцент.",
+        "evidence_indices": [
+          12,
+          18,
+          22
+        ]
+      },
+      {
+        "variable_id": "accessibility-growth-priorities__negative",
+        "status": "observed",
+        "value": 2,
+        "confidence": 0.7,
+        "support_type": "positive_manifestation",
+        "rationale": "В ряде эпизодов отмечалось содействие инвестициям, развитию частного сектора и экспортному сельскому хозяйству, однако это не основной акцент публичной политики Увамарии.",
+        "evidence_indices": [
+          13,
+          16
+        ]
+      },
+      {
+        "variable_id": "external-domestic-resources__positive",
+        "status": "observed",
+        "value": 3,
+        "confidence": 0.8,
+        "support_type": "positive_manifestation",
+        "rationale": "Увамария последовательно выступала за привлечение международного финансирования и партнёрства (например, климатическое финансирование, проекты с Германией и ЕС, международные коалиции), что фиксируется как устойчивый акцент.",
+        "evidence_indices": [
+          4,
+          5,
+          6,
+          9
+        ]
+      },
+      {
+        "variable_id": "external-domestic-resources__negative",
+        "status": "observed",
+        "value": 1,
+        "confidence": 0.5,
+        "support_type": "positive_manifestation",
+        "rationale": "В отдельных эпизодах (например, акцент на усилении национальных систем в рамках климатического финансирования) отмечалась важность внутренних механизмов, однако это не устойчивый акцент.",
+        "evidence_indices": [
+          4
+        ]
+      },
+      {
+        "variable_id": "international-rules-autonomy__positive",
+        "status": "observed",
+        "value": 3,
+        "confidence": 0.8,
+        "support_type": "positive_manifestation",
+        "rationale": "Увамария активно продвигала международные договоры и обязательства (например, юридически обязательный договор по пластику, участие в международных коалициях), что фиксируется как устойчивый акцент на закреплении международных норм.",
+        "evidence_indices": [
+          1,
+          2,
+          3,
+          10
+        ]
+      },
+      {
+        "variable_id": "international-rules-autonomy__negative",
+        "status": "observed",
+        "value": 1,
+        "confidence": 0.5,
+        "support_type": "positive_manifestation",
+        "rationale": "В отдельных случаях (например, призыв к усилению национальных систем в климатическом финансировании) отмечалась важность национального подхода, но без устойчивого противостояния международным нормам.",
+        "evidence_indices": [
+          4
+        ]
+      },
+      {
+        "variable_id": "mediation-adversarial-communication__positive",
+        "status": "observed",
+        "value": 3,
+        "confidence": 0.8,
+        "support_type": "positive_manifestation",
+        "rationale": "Увамария регулярно участвовала в переговорах, коалициях и диалогах, направленных на согласование позиций и посредничество (например, международные климатические переговоры, Kigali Climate Talks, консультации по NDC 3.0).",
+        "evidence_indices": [
+          2,
+          3,
+          5,
+          6,
+          23
+        ]
+      },
+      {
+        "variable_id": "mediation-adversarial-communication__negative",
+        "status": "unknown",
+        "value": null,
+        "confidence": 0.3,
+        "support_type": "unknown",
+        "rationale": "В доступных материалах не выявлено эпизодов, где Увамария занимала бы полемическую или конфронтационную позицию в публичной коммуникации.",
+        "evidence_indices": []
+      }
+    ]
+  },
+  "model": "gpt-4.1",
+  "task": "independent-ratings-valentine-uwamariya-0",
+  "at": "2026-10-15T17:30:20.235421+00:00",
+  "usage": {
+    "prompt_tokens": 9107,
+    "completion_tokens": 1775,
+    "total_tokens": 10882,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "audio_tokens": 0
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "audio_tokens": 0,
+      "accepted_prediction_tokens": 0,
+      "rejected_prediction_tokens": 0
+    }
+  },
+  "citations": [],
+  "system_fingerprint": "fp_801d3b7b5c",
+  "cache_key": "12576cf41f92dc70b4a7a1f946b545bcbab6f27fb7be6a3b60fc4c29ea083721"
+}

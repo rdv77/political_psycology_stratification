@@ -1,0 +1,221 @@
+{
+  "data": {
+    "ratings": [
+      {
+        "variable_id": "cultural-openness-national-transmission__positive",
+        "status": "unknown",
+        "value": null,
+        "confidence": 0,
+        "support_type": "unknown",
+        "rationale": "В имеющихся материалах отсутствуют прямые факты о публичных действиях или заявлениях Угирасебуджи, направленных на расширение межкультурного обмена или культурного разнообразия.",
+        "evidence_indices": []
+      },
+      {
+        "variable_id": "cultural-openness-national-transmission__negative",
+        "status": "observed",
+        "value": 2,
+        "confidence": 0.6,
+        "support_type": "positive_manifestation",
+        "rationale": "В ряде выступлений (например, на национальном диалоге по правам человека) подчёркивалась преемственность национальных, региональных и международных стандартов справедливости, а также сохранение национальных ценностей. Это ограниченное, но прямое проявление ориентации на преемственность национальных рамок.",
+        "evidence_indices": [
+          19
+        ]
+      },
+      {
+        "variable_id": "problem-disclosure-reputation-defence__positive",
+        "status": "observed",
+        "value": 2,
+        "confidence": 0.6,
+        "support_type": "positive_manifestation",
+        "rationale": "На обзоре сектора правосудия и UPR призывал к обсуждению проблем и реализации рекомендаций, что свидетельствует о признании необходимости публичного обсуждения проблем исполнения.",
+        "evidence_indices": [
+          20
+        ]
+      },
+      {
+        "variable_id": "problem-disclosure-reputation-defence__negative",
+        "status": "observed",
+        "value": 2,
+        "confidence": 0.6,
+        "support_type": "positive_manifestation",
+        "rationale": "В международном арбитраже с Великобританией занимал защитную позицию, обвиняя другую сторону в нарушении обязательств, что отражает защиту репутации страны в международном споре.",
+        "evidence_indices": [
+          9
+        ]
+      },
+      {
+        "variable_id": "procedural-guarantees-enforcement__positive",
+        "status": "observed",
+        "value": 3,
+        "confidence": 0.8,
+        "support_type": "positive_manifestation",
+        "rationale": "Многократно выступал за расширение доступа к правосудию, цифровизацию судебных услуг, развитие альтернативных процедур разрешения споров и подготовку специалистов, что подтверждает устойчивый акцент на расширении возможностей защиты и обжалования.",
+        "evidence_indices": [
+          1,
+          2,
+          3,
+          4,
+          7,
+          8,
+          10,
+          16,
+          18
+        ]
+      },
+      {
+        "variable_id": "procedural-guarantees-enforcement__negative",
+        "status": "observed",
+        "value": 2,
+        "confidence": 0.6,
+        "support_type": "positive_manifestation",
+        "rationale": "В ряде эпизодов подчёркивал необходимость укреплять способность государственных органов применять законодательство и добиваться исполнения, что отражает акцент на прикладном исполнении обязательных требований.",
+        "evidence_indices": [
+          0,
+          21
+        ]
+      },
+      {
+        "variable_id": "prevention-crisis-response__positive",
+        "status": "observed",
+        "value": 2,
+        "confidence": 0.6,
+        "support_type": "positive_manifestation",
+        "rationale": "В ряде выступлений подчёркивалась важность профилактики конфликтов, антикоррупционных стратегий и предупреждения преступности, что свидетельствует о наличии упреждающего компонента.",
+        "evidence_indices": [
+          12,
+          15
+        ]
+      },
+      {
+        "variable_id": "prevention-crisis-response__negative",
+        "status": "unknown",
+        "value": null,
+        "confidence": 0,
+        "support_type": "unknown",
+        "rationale": "Нет прямых фактов о действиях или заявлениях, акцентирующих исключительно реагирование на уже возникшие кризисы.",
+        "evidence_indices": []
+      },
+      {
+        "variable_id": "electoral-access__positive",
+        "status": "unknown",
+        "value": null,
+        "confidence": 0,
+        "support_type": "unknown",
+        "rationale": "В материалах отсутствуют сведения о действиях или заявлениях, направленных на расширение доступа к электоральной конкуренции.",
+        "evidence_indices": []
+      },
+      {
+        "variable_id": "electoral-access__negative",
+        "status": "unknown",
+        "value": null,
+        "confidence": 0,
+        "support_type": "unknown",
+        "rationale": "Нет фактов о предложениях или решениях, направленных на усиление барьеров политического участия.",
+        "evidence_indices": []
+      },
+      {
+        "variable_id": "institutional-autonomy-coordination__positive",
+        "status": "unknown",
+        "value": null,
+        "confidence": 0,
+        "support_type": "unknown",
+        "rationale": "Нет прямых фактов о публичных действиях или заявлениях, направленных на защиту автономии институтов или межинституциональный контроль.",
+        "evidence_indices": []
+      },
+      {
+        "variable_id": "institutional-autonomy-coordination__negative",
+        "status": "observed",
+        "value": 2,
+        "confidence": 0.6,
+        "support_type": "positive_manifestation",
+        "rationale": "В ряде эпизодов поддерживалась координация между государственными органами, подчёркивалась роль единой государственной политики и межведомственного взаимодействия, что свидетельствует об акценте на согласовании работы институтов.",
+        "evidence_indices": [
+          10,
+          15,
+          21
+        ]
+      },
+      {
+        "variable_id": "taxation-burden-public-revenue__positive",
+        "status": "unknown",
+        "value": null,
+        "confidence": 0,
+        "support_type": "unknown",
+        "rationale": "Нет фактов о предложениях по снижению налоговой нагрузки или расширению имущественной самостоятельности.",
+        "evidence_indices": []
+      },
+      {
+        "variable_id": "taxation-burden-public-revenue__negative",
+        "status": "unknown",
+        "value": null,
+        "confidence": 0,
+        "support_type": "unknown",
+        "rationale": "Нет фактов о поддержке увеличения налоговых поступлений для публичного развития.",
+        "evidence_indices": []
+      },
+      {
+        "variable_id": "universal-targeted-provision__positive",
+        "status": "observed",
+        "value": 2,
+        "confidence": 0.6,
+        "support_type": "positive_manifestation",
+        "rationale": "В ряде эпизодов подчёркивалась ориентация на доступность правосудия и социальных услуг для всего населения, в том числе через развертывание парасоциальных работников.",
+        "evidence_indices": [
+          17,
+          18
+        ]
+      },
+      {
+        "variable_id": "universal-targeted-provision__negative",
+        "status": "observed",
+        "value": 2,
+        "confidence": 0.6,
+        "support_type": "positive_manifestation",
+        "rationale": "В ряде случаев подчёркивалась поддержка уязвимых и недостаточно обслуживаемых групп через специальные механизмы доступа к правосудию (например, Abunzi, ADR-центр).",
+        "evidence_indices": [
+          2,
+          3
+        ]
+      },
+      {
+        "variable_id": "ecological-limits-resource-use__positive",
+        "status": "unknown",
+        "value": null,
+        "confidence": 0,
+        "support_type": "unknown",
+        "rationale": "Нет фактов о публичных действиях или заявлениях, направленных на усиление природоохранных ограничений.",
+        "evidence_indices": []
+      },
+      {
+        "variable_id": "ecological-limits-resource-use__negative",
+        "status": "unknown",
+        "value": null,
+        "confidence": 0,
+        "support_type": "unknown",
+        "rationale": "Нет фактов о публичных действиях или заявлениях, направленных на расширение хозяйственного использования природных ресурсов.",
+        "evidence_indices": []
+      }
+    ]
+  },
+  "model": "gpt-4.1",
+  "task": "independent-ratings-emmanuel-ugirashebuja-1",
+  "at": "2026-10-15T17:29:58.017171+00:00",
+  "usage": {
+    "prompt_tokens": 8953,
+    "completion_tokens": 1867,
+    "total_tokens": 10820,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "audio_tokens": 0
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "audio_tokens": 0,
+      "accepted_prediction_tokens": 0,
+      "rejected_prediction_tokens": 0
+    }
+  },
+  "citations": [],
+  "system_fingerprint": "fp_c1b3c9e352",
+  "cache_key": "89b38c10a7695f7189df8d792fa385cc00461eaec969d30e22bee160e62ac757"
+}

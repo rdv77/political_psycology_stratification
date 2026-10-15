@@ -11,6 +11,8 @@ from src.semantic_service.store import StudyStore
 def main():
     store = StudyStore(ROOT / "studies")
     study = store.get("rwanda-politicians-2021-2026")
+    if study.get("measurement_model") == "independent_poles":
+        raise ValueError("This writer describes the archived paired-difference run; use the independent comparison writer")
     output = store.directory(study["id"]) / "output"
     result = json.loads((output / "factor_preview.json").read_text(encoding="utf-8"))
     audit = study["source_audit"]

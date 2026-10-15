@@ -1,0 +1,230 @@
+{
+  "data": {
+    "ratings": [
+      {
+        "variable_id": "cultural-openness-national-transmission__positive",
+        "status": "observed",
+        "value": 1,
+        "confidence": 0.5,
+        "support_type": "positive_manifestation",
+        "rationale": "В ряде эпизодов (например, образовательные обращения к молодёжи и будущим священнослужителям) фиксируется элемент просвещения и передачи исторических знаний, однако основной акцент делается на интеграцию в рамках национальной идентичности, а не на расширение межкультурного обмена. Прямых инициатив по развитию культурного разнообразия не выявлено, но отдельные элементы образовательного обмена присутствуют.",
+        "evidence_indices": [
+          4,
+          11,
+          14
+        ]
+      },
+      {
+        "variable_id": "cultural-openness-national-transmission__negative",
+        "status": "observed",
+        "value": 4,
+        "confidence": 0.95,
+        "support_type": "positive_manifestation",
+        "rationale": "Почти во всех публичных выступлениях и инициативах Бизиманы акцент делается на сохранении и передаче национальных ценностей, памяти о геноциде, укреплении единства и патриотизма. Это подтверждается как в мемориальных, так и в образовательных и просветительских программах, где национальная идентичность и официальная историческая рамка занимают центральное место.",
+        "evidence_indices": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          9,
+          10,
+          12,
+          13,
+          14,
+          18
+        ]
+      },
+      {
+        "variable_id": "problem-disclosure-reputation-defence__positive",
+        "status": "observed",
+        "value": 2,
+        "confidence": 0.6,
+        "support_type": "positive_manifestation",
+        "rationale": "В ряде случаев Бизимана признаёт наличие препятствий для национального единства (например, игнорирование истории Руанды), что свидетельствует о частичном публичном признании проблем. Однако эти признания ограничены рамками официальной повестки и не сопровождаются раскрытием конкретных недостатков исполнения или критикой действующего курса.",
+        "evidence_indices": [
+          0,
+          18
+        ]
+      },
+      {
+        "variable_id": "problem-disclosure-reputation-defence__negative",
+        "status": "observed",
+        "value": 4,
+        "confidence": 0.9,
+        "support_type": "positive_manifestation",
+        "rationale": "Преобладающий стиль публичных выступлений Бизиманы — защита официальной исторической рамки, продвижение образа национального единства и опровержение альтернативных трактовок геноцида. В ряде эпизодов прямо подчеркивается недопустимость оспаривания официальной версии истории.",
+        "evidence_indices": [
+          1,
+          7,
+          10,
+          12,
+          13,
+          18
+        ]
+      },
+      {
+        "variable_id": "procedural-guarantees-enforcement__positive",
+        "status": "unknown",
+        "value": null,
+        "confidence": 0.2,
+        "support_type": "unknown",
+        "rationale": "Нет прямых свидетельств расширения возможностей обжалования или независимой проверки в доступных материалах. Упоминания о профилактике и просвещении не содержат информации о правовых гарантиях или процедурах.",
+        "evidence_indices": []
+      },
+      {
+        "variable_id": "procedural-guarantees-enforcement__negative",
+        "status": "observed",
+        "value": 2,
+        "confidence": 0.7,
+        "support_type": "positive_manifestation",
+        "rationale": "В ряде эпизодов (например, лекция о необходимости предотвращения и наказания геноцида, противодействие отрицанию) фиксируется поддержка принудительного обеспечения обязательных требований, однако систематической риторики о приоритете санкций не выявлено.",
+        "evidence_indices": [
+          15
+        ]
+      },
+      {
+        "variable_id": "prevention-crisis-response__positive",
+        "status": "observed",
+        "value": 2,
+        "confidence": 0.6,
+        "support_type": "positive_manifestation",
+        "rationale": "В ряде публичных обращений к молодёжи и будущим священнослужителям акцент делается на профилактике идеологии геноцида и просвещении как способе предотвращения социальных угроз. Однако эти меры не носят системного характера упреждающего управления рисками.",
+        "evidence_indices": [
+          4,
+          11,
+          14,
+          15
+        ]
+      },
+      {
+        "variable_id": "prevention-crisis-response__negative",
+        "status": "observed",
+        "value": 2,
+        "confidence": 0.6,
+        "support_type": "positive_manifestation",
+        "rationale": "В ряде эпизодов отмечается акцент на необходимости реагирования на проявления отрицания и минимизации геноцида, а также на наказании за подобные действия. Однако нет свидетельств, что кризисное реагирование является определяющей чертой управленческой стратегии.",
+        "evidence_indices": [
+          15
+        ]
+      },
+      {
+        "variable_id": "electoral-access__positive",
+        "status": "unknown",
+        "value": null,
+        "confidence": 0.1,
+        "support_type": "unknown",
+        "rationale": "Нет сведений о публичных инициативах Бизиманы по расширению доступа к выборной конкуренции или снижению политических барьеров.",
+        "evidence_indices": []
+      },
+      {
+        "variable_id": "electoral-access__negative",
+        "status": "unknown",
+        "value": null,
+        "confidence": 0.1,
+        "support_type": "unknown",
+        "rationale": "Нет сведений о предложениях или решениях Бизиманы, направленных на усиление квалификационных барьеров политического участия.",
+        "evidence_indices": []
+      },
+      {
+        "variable_id": "institutional-autonomy-coordination__positive",
+        "status": "unknown",
+        "value": null,
+        "confidence": 0.1,
+        "support_type": "unknown",
+        "rationale": "Нет свидетельств публичных действий или заявлений Бизиманы, направленных на расширение автономии или независимого контроля между институтами.",
+        "evidence_indices": []
+      },
+      {
+        "variable_id": "institutional-autonomy-coordination__negative",
+        "status": "observed",
+        "value": 2,
+        "confidence": 0.7,
+        "support_type": "positive_manifestation",
+        "rationale": "В ряде эпизодов фиксируется административная координация гражданского воспитания и продвижение единой государственной линии в вопросах исторической памяти и идентичности. Однако нет признаков тотального подчинения всех институтов единой управленческой линии.",
+        "evidence_indices": [
+          7,
+          8,
+          12
+        ]
+      },
+      {
+        "variable_id": "taxation-burden-public-revenue__positive",
+        "status": "unknown",
+        "value": null,
+        "confidence": 0.1,
+        "support_type": "unknown",
+        "rationale": "Нет сведений о публичных инициативах Бизиманы по снижению налоговой нагрузки или расширению имущественной самостоятельности.",
+        "evidence_indices": []
+      },
+      {
+        "variable_id": "taxation-burden-public-revenue__negative",
+        "status": "unknown",
+        "value": null,
+        "confidence": 0.1,
+        "support_type": "unknown",
+        "rationale": "Нет сведений о публичных инициативах Бизиманы по увеличению налоговых поступлений для публичного развития.",
+        "evidence_indices": []
+      },
+      {
+        "variable_id": "universal-targeted-provision__positive",
+        "status": "unknown",
+        "value": null,
+        "confidence": 0.1,
+        "support_type": "unknown",
+        "rationale": "Нет сведений о предложениях Бизиманы по единым стандартам доступности благ для всего населения.",
+        "evidence_indices": []
+      },
+      {
+        "variable_id": "universal-targeted-provision__negative",
+        "status": "unknown",
+        "value": null,
+        "confidence": 0.1,
+        "support_type": "unknown",
+        "rationale": "Нет сведений о предложениях Бизиманы по приоритетной помощи конкретным недостаточно обеспеченным группам.",
+        "evidence_indices": []
+      },
+      {
+        "variable_id": "ecological-limits-resource-use__positive",
+        "status": "unknown",
+        "value": null,
+        "confidence": 0.1,
+        "support_type": "unknown",
+        "rationale": "Нет сведений о публичных инициативах Бизиманы по усилению природоохранных ограничений хозяйственной деятельности.",
+        "evidence_indices": []
+      },
+      {
+        "variable_id": "ecological-limits-resource-use__negative",
+        "status": "unknown",
+        "value": null,
+        "confidence": 0.1,
+        "support_type": "unknown",
+        "rationale": "Нет сведений о публичных инициативах Бизиманы по расширению хозяйственного использования природных ресурсов.",
+        "evidence_indices": []
+      }
+    ]
+  },
+  "model": "gpt-4.1",
+  "task": "independent-ratings-jean-damascene-bizimana-1",
+  "at": "2026-10-15T17:30:58.902853+00:00",
+  "usage": {
+    "prompt_tokens": 8200,
+    "completion_tokens": 1638,
+    "total_tokens": 9838,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "audio_tokens": 0
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "audio_tokens": 0,
+      "accepted_prediction_tokens": 0,
+      "rejected_prediction_tokens": 0
+    }
+  },
+  "citations": [],
+  "system_fingerprint": "fp_c1b3c9e352",
+  "cache_key": "52b16e6a3084788c399c49a8d99c1ec10df0d9a7bef86793c9dbc6539ee596bf"
+}

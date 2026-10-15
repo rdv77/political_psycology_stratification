@@ -1,0 +1,250 @@
+{
+  "data": {
+    "ratings": [
+      {
+        "variable_id": "programmatic-renewal__positive",
+        "status": "observed",
+        "value": 2,
+        "confidence": 0.8,
+        "support_type": "positive_manifestation",
+        "rationale": "В представлении пятилетней программы правительства NST2 Нсенгийюмва обозначил новые приоритеты (расширение экспорта, создание производительной занятости, повышение качества образования, улучшение питания и услуг), что свидетельствует о программном обновлении при сохранении преемственности. Эпизоды 1, 9, 13 подтверждают ограниченное, но явное проявление этого полюса.",
+        "evidence_indices": [
+          1,
+          9,
+          13
+        ]
+      },
+      {
+        "variable_id": "programmatic-renewal__negative",
+        "status": "observed",
+        "value": 2,
+        "confidence": 0.8,
+        "support_type": "positive_manifestation",
+        "rationale": "В тех же эпизодах (1, 9, 13) подчёркивается продолжение курса NST1 и ориентация на Vision 2050, что свидетельствует о закреплении действующего курса наряду с элементами обновления.",
+        "evidence_indices": [
+          1,
+          9,
+          13
+        ]
+      },
+      {
+        "variable_id": "government-course-assessment__positive",
+        "status": "observed",
+        "value": 2,
+        "confidence": 0.7,
+        "support_type": "positive_manifestation",
+        "rationale": "В публичных выступлениях (1, 9, 13, 16) Нсенгийюмва продвигает достижения и стратегию правительства, связывает успехи с действующим курсом, но не делает это основным или повторяющимся мотивом.",
+        "evidence_indices": [
+          1,
+          9,
+          13,
+          16
+        ]
+      },
+      {
+        "variable_id": "government-course-assessment__negative",
+        "status": "unknown",
+        "value": null,
+        "confidence": 0.9,
+        "support_type": "unknown",
+        "rationale": "Нет эпизодов с прямой критикой действующего государственного курса или его результатов.",
+        "evidence_indices": []
+      },
+      {
+        "variable_id": "participation-administrative-direction__positive",
+        "status": "observed",
+        "value": 2,
+        "confidence": 0.7,
+        "support_type": "positive_manifestation",
+        "rationale": "В ряде выступлений (1, 13, 17) Нсенгийюмва призывает к сотрудничеству правительства, частного сектора, гражданского общества, религиозных организаций и граждан, что свидетельствует о приглашении к совместному обсуждению и межсекторному взаимодействию.",
+        "evidence_indices": [
+          1,
+          13,
+          17
+        ]
+      },
+      {
+        "variable_id": "participation-administrative-direction__negative",
+        "status": "observed",
+        "value": 1,
+        "confidence": 0.6,
+        "support_type": "positive_manifestation",
+        "rationale": "В эпизодах 2 и 14 проявляется административное планирование (например, постановка задач по увеличению сельскохозяйственного выпуска, планирование строительства дорог), однако выраженность ограничена и не сопровождается жёстким контролем исполнения.",
+        "evidence_indices": [
+          2,
+          14
+        ]
+      },
+      {
+        "variable_id": "argumentation-evidence-values__positive",
+        "status": "observed",
+        "value": 2,
+        "confidence": 0.7,
+        "support_type": "positive_manifestation",
+        "rationale": "В эпизодах 2, 3, 15 Нсенгийюмва обосновывает решения через количественные цели, технологические подходы, необходимость исследований и проверяемые результаты.",
+        "evidence_indices": [
+          2,
+          3,
+          15
+        ]
+      },
+      {
+        "variable_id": "argumentation-evidence-values__negative",
+        "status": "observed",
+        "value": 2,
+        "confidence": 0.7,
+        "support_type": "positive_manifestation",
+        "rationale": "В эпизодах 4, 5, 10, 12 Нсенгийюмва апеллирует к национальным ценностям, коллективной памяти и защите репутации страны, что свидетельствует о ценностном обосновании.",
+        "evidence_indices": [
+          4,
+          5,
+          10,
+          12
+        ]
+      },
+      {
+        "variable_id": "market-state-instruments__positive",
+        "status": "observed",
+        "value": 2,
+        "confidence": 0.7,
+        "support_type": "positive_manifestation",
+        "rationale": "В эпизодах 1, 14, 11 отмечается привлечение частного сектора и государственно-частных партнёрств (например, в инфраструктуре и охране природы), что указывает на ограниченное расширение частной инициативы.",
+        "evidence_indices": [
+          1,
+          11,
+          14
+        ]
+      },
+      {
+        "variable_id": "market-state-instruments__negative",
+        "status": "observed",
+        "value": 2,
+        "confidence": 0.7,
+        "support_type": "positive_manifestation",
+        "rationale": "В эпизодах 2, 14, 3 проявляется государственное планирование (например, постановка количественных целей, управление инфраструктурными проектами), однако без признаков жёсткой централизации.",
+        "evidence_indices": [
+          2,
+          3,
+          14
+        ]
+      },
+      {
+        "variable_id": "accessibility-growth-priorities__positive",
+        "status": "observed",
+        "value": 2,
+        "confidence": 0.7,
+        "support_type": "positive_manifestation",
+        "rationale": "В эпизодах 2, 3, 1, 13 подчёркивается улучшение питания, повышение качества образования, расширение доступа к услугам и благосостояния граждан.",
+        "evidence_indices": [
+          1,
+          2,
+          3,
+          13
+        ]
+      },
+      {
+        "variable_id": "accessibility-growth-priorities__negative",
+        "status": "observed",
+        "value": 2,
+        "confidence": 0.7,
+        "support_type": "positive_manifestation",
+        "rationale": "В тех же эпизодах (1, 2, 13, 14) отмечается приоритет роста экспорта, конкурентоспособности и инвестиций, что свидетельствует о сбалансированном акценте на оба полюса.",
+        "evidence_indices": [
+          1,
+          2,
+          13,
+          14
+        ]
+      },
+      {
+        "variable_id": "external-domestic-resources__positive",
+        "status": "observed",
+        "value": 1,
+        "confidence": 0.6,
+        "support_type": "positive_manifestation",
+        "rationale": "В эпизоде 14 упоминается привлечение внешних партнёров для финансирования инфраструктуры, однако выраженность ограничена.",
+        "evidence_indices": [
+          14
+        ]
+      },
+      {
+        "variable_id": "external-domestic-resources__negative",
+        "status": "observed",
+        "value": 2,
+        "confidence": 0.7,
+        "support_type": "positive_manifestation",
+        "rationale": "В эпизоде 7 Нсенгийюмва подчёркивает значение внутренних доходов и снижение зависимости от внешних грантов, что свидетельствует о приоритете внутренней ресурсной базы.",
+        "evidence_indices": [
+          7
+        ]
+      },
+      {
+        "variable_id": "international-rules-autonomy__positive",
+        "status": "unknown",
+        "value": null,
+        "confidence": 0.8,
+        "support_type": "unknown",
+        "rationale": "Нет прямых заявлений о закреплении обязательных международных норм или договоров от имени Нсенгийюмва.",
+        "evidence_indices": []
+      },
+      {
+        "variable_id": "international-rules-autonomy__negative",
+        "status": "observed",
+        "value": 1,
+        "confidence": 0.6,
+        "support_type": "positive_manifestation",
+        "rationale": "В эпизодах 5, 10, 12 Нсенгийюмва предупреждает о риске внешнего манипулирования и подчёркивает сохранение национальных ценностей, что указывает на ограниченное проявление защиты самостоятельности решений.",
+        "evidence_indices": [
+          5,
+          10,
+          12
+        ]
+      },
+      {
+        "variable_id": "mediation-adversarial-communication__positive",
+        "status": "observed",
+        "value": 1,
+        "confidence": 0.6,
+        "support_type": "positive_manifestation",
+        "rationale": "В эпизоде 17 Нсенгийюмва призывает к глобальному сотрудничеству и единству для решения международных задач, однако выраженность ограничена одним эпизодом.",
+        "evidence_indices": [
+          17
+        ]
+      },
+      {
+        "variable_id": "mediation-adversarial-communication__negative",
+        "status": "observed",
+        "value": 2,
+        "confidence": 0.7,
+        "support_type": "positive_manifestation",
+        "rationale": "В эпизодах 4, 10, 12 Нсенгийюмва призывает диаспору опровергать ложные рассказы о стране и защищать её репутацию, что свидетельствует о защитном и полемическом стиле коммуникации.",
+        "evidence_indices": [
+          4,
+          10,
+          12
+        ]
+      }
+    ]
+  },
+  "model": "gpt-4.1",
+  "task": "independent-ratings-justin-nsengiyumva-0",
+  "at": "2026-10-15T17:29:04.549786+00:00",
+  "usage": {
+    "prompt_tokens": 7931,
+    "completion_tokens": 1709,
+    "total_tokens": 9640,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "audio_tokens": 0
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "audio_tokens": 0,
+      "accepted_prediction_tokens": 0,
+      "rejected_prediction_tokens": 0
+    }
+  },
+  "citations": [],
+  "system_fingerprint": "fp_801d3b7b5c",
+  "cache_key": "ade7200ca96df3039662fabebde975a07b1946c34782e1ca42c9023aaed4aa5c"
+}

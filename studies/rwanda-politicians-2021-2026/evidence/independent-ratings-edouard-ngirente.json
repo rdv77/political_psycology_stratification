@@ -1,0 +1,1873 @@
+[
+  {
+    "object_id": "edouard-ngirente",
+    "scale_id": "programmatic-renewal",
+    "pole_scores": {
+      "positive": {
+        "status": "observed",
+        "value": 2,
+        "confidence": 0.7,
+        "evidence_indices": [
+          12,
+          1
+        ],
+        "source_urls": [
+          "https://www.primature.gov.rw/fileadmin/user_upload/Primature/Publications/Speeches/English/Prime_Minister_s_National_Statement_at_UNEA.pdf",
+          "https://www.primature.gov.rw/news-detail/prime-minister-presided-over-the-10th-graduation-ceremony-of-the-university-of-rwanda"
+        ],
+        "event_ids": [
+          "ngirente-unea-2024",
+          "ngirente-university-rwanda-graduation-2024"
+        ],
+        "rationale": "В национальном заявлении на UNEA-6 (2024-02-29) обозначил необходимость новых многосторонних действий и поддержки глобальных целей, что выходит за рамки простого продолжения курса. Также в ряде эпизодов (например, выпуск Университета Руанды 2024-10-25) отмечал инновации и реформы. Однако устойчивого и определяющего акцента на пересмотре курса не выявлено.",
+        "support_type": "positive_manifestation",
+        "provenance": {
+          "raw_response_file": "evidence/independent_responses/7ddcec181034f8f5157ff9a57ef13bbdf0fe3f1978374aa2b45774282e266674.json",
+          "model": "gpt-4.1",
+          "at": "2026-10-15T17:29:07.834915+00:00",
+          "cache_key": "7ddcec181034f8f5157ff9a57ef13bbdf0fe3f1978374aa2b45774282e266674",
+          "original_proposal": {
+            "variable_id": "programmatic-renewal__positive",
+            "status": "observed",
+            "value": 2,
+            "confidence": 0.7,
+            "support_type": "positive_manifestation",
+            "rationale": "В национальном заявлении на UNEA-6 (2024-02-29) обозначил необходимость новых многосторонних действий и поддержки глобальных целей, что выходит за рамки простого продолжения курса. Также в ряде эпизодов (например, выпуск Университета Руанды 2024-10-25) отмечал инновации и реформы. Однако устойчивого и определяющего акцента на пересмотре курса не выявлено.",
+            "evidence_indices": [
+              12,
+              1
+            ]
+          }
+        },
+        "evidence_file": "evidence/independent-dossier-edouard-ngirente.json",
+        "evidence_basis": "df76c81a51b8427d7a869abebf448a6fb817c9eb1a0e147e8cdfda2bedaf52db"
+      },
+      "negative": {
+        "status": "observed",
+        "value": 3,
+        "confidence": 0.8,
+        "evidence_indices": [
+          8,
+          10
+        ],
+        "source_urls": [
+          "https://primature.prod.risa.rw/news-detail/pm-nsengiyumva-officially-sworn-in-as-prime-minister",
+          "https://www.africa-press.net/rwanda/policy/pm-ngirente-urges-officials-to-prioritize-public-service-over-self-interest"
+        ],
+        "event_ids": [
+          "ngirente-handover-2025",
+          "ngirente-unity-club-2023"
+        ],
+        "rationale": "В ряде эпизодов (например, прощальное выступление 2025-07-23, форум Unity Club 2023-10-29) прямо призывал ускорить реализацию уже принятой стратегии NST2, отмечал продолжение и закрепление действующего курса. Призыв к дальнейшему развитию строится на существующих приоритетах.",
+        "support_type": "positive_manifestation",
+        "provenance": {
+          "raw_response_file": "evidence/independent_responses/7ddcec181034f8f5157ff9a57ef13bbdf0fe3f1978374aa2b45774282e266674.json",
+          "model": "gpt-4.1",
+          "at": "2026-10-15T17:29:07.834915+00:00",
+          "cache_key": "7ddcec181034f8f5157ff9a57ef13bbdf0fe3f1978374aa2b45774282e266674",
+          "original_proposal": {
+            "variable_id": "programmatic-renewal__negative",
+            "status": "observed",
+            "value": 3,
+            "confidence": 0.8,
+            "support_type": "positive_manifestation",
+            "rationale": "В ряде эпизодов (например, прощальное выступление 2025-07-23, форум Unity Club 2023-10-29) прямо призывал ускорить реализацию уже принятой стратегии NST2, отмечал продолжение и закрепление действующего курса. Призыв к дальнейшему развитию строится на существующих приоритетах.",
+            "evidence_indices": [
+              8,
+              10
+            ]
+          }
+        },
+        "evidence_file": "evidence/independent-dossier-edouard-ngirente.json",
+        "evidence_basis": "df76c81a51b8427d7a869abebf448a6fb817c9eb1a0e147e8cdfda2bedaf52db"
+      }
+    },
+    "positive": 2,
+    "negative": 3,
+    "value": null,
+    "status": "observed",
+    "difference": null,
+    "mass": null,
+    "measurement_model": "independent_poles",
+    "evidence_file": "evidence/independent-dossier-edouard-ngirente.json",
+    "evidence_basis": "df76c81a51b8427d7a869abebf448a6fb817c9eb1a0e147e8cdfda2bedaf52db",
+    "at": "2026-10-15T17:29:17.042498+00:00",
+    "reason": "Каждое свойство оценивается независимо; разность и искусственное дополнение до пяти не вычисляются"
+  },
+  {
+    "object_id": "edouard-ngirente",
+    "scale_id": "government-course-assessment",
+    "pole_scores": {
+      "positive": {
+        "status": "observed",
+        "value": 3,
+        "confidence": 0.8,
+        "evidence_indices": [
+          8,
+          10,
+          9,
+          13
+        ],
+        "source_urls": [
+          "https://primature.prod.risa.rw/news-detail/pm-nsengiyumva-officially-sworn-in-as-prime-minister",
+          "https://www.africa-press.net/rwanda/policy/pm-ngirente-urges-officials-to-prioritize-public-service-over-self-interest",
+          "https://www.primature.gov.rw/news-detail/prime-minister-presented-to-parliament-governments-actions-related-to-de-risking-agricultural-value-chains-to-increase-production",
+          "https://www.primature.gov.rw/news-detail/the-prime-minister-presented-government-actions-related-to-achievements-in-basic-education-primary-secondary"
+        ],
+        "event_ids": [
+          "ngirente-handover-2025",
+          "ngirente-unity-club-2023",
+          "ngirente-agriculture-parliament-2023",
+          "ngirente-2022-08-01-basic-education"
+        ],
+        "rationale": "В публичных выступлениях (например, передача полномочий 2025-07-23, форум Unity Club 2023-10-29, отчёты перед парламентом) выражал поддержку действующему курсу, отмечал достижения и призывал к продолжению работы.",
+        "support_type": "positive_manifestation",
+        "provenance": {
+          "raw_response_file": "evidence/independent_responses/7ddcec181034f8f5157ff9a57ef13bbdf0fe3f1978374aa2b45774282e266674.json",
+          "model": "gpt-4.1",
+          "at": "2026-10-15T17:29:07.834915+00:00",
+          "cache_key": "7ddcec181034f8f5157ff9a57ef13bbdf0fe3f1978374aa2b45774282e266674",
+          "original_proposal": {
+            "variable_id": "government-course-assessment__positive",
+            "status": "observed",
+            "value": 3,
+            "confidence": 0.8,
+            "support_type": "positive_manifestation",
+            "rationale": "В публичных выступлениях (например, передача полномочий 2025-07-23, форум Unity Club 2023-10-29, отчёты перед парламентом) выражал поддержку действующему курсу, отмечал достижения и призывал к продолжению работы.",
+            "evidence_indices": [
+              8,
+              10,
+              9,
+              13
+            ]
+          }
+        },
+        "evidence_file": "evidence/independent-dossier-edouard-ngirente.json",
+        "evidence_basis": "df76c81a51b8427d7a869abebf448a6fb817c9eb1a0e147e8cdfda2bedaf52db"
+      },
+      "negative": {
+        "status": "observed",
+        "value": 1,
+        "confidence": 0.5,
+        "evidence_indices": [
+          1,
+          12
+        ],
+        "source_urls": [
+          "https://www.primature.gov.rw/news-detail/prime-minister-presided-over-the-10th-graduation-ceremony-of-the-university-of-rwanda",
+          "https://www.primature.gov.rw/fileadmin/user_upload/Primature/Publications/Speeches/English/Prime_Minister_s_National_Statement_at_UNEA.pdf"
+        ],
+        "event_ids": [
+          "ngirente-university-rwanda-graduation-2024",
+          "ngirente-unea-2024"
+        ],
+        "rationale": "В доступных материалах нет прямой критики всего государственного курса, однако отдельные эпизоды содержат призывы к реформам и инновациям, что может подразумевать ограниченную критику отдельных аспектов.",
+        "support_type": "positive_manifestation",
+        "provenance": {
+          "raw_response_file": "evidence/independent_responses/7ddcec181034f8f5157ff9a57ef13bbdf0fe3f1978374aa2b45774282e266674.json",
+          "model": "gpt-4.1",
+          "at": "2026-10-15T17:29:07.834915+00:00",
+          "cache_key": "7ddcec181034f8f5157ff9a57ef13bbdf0fe3f1978374aa2b45774282e266674",
+          "original_proposal": {
+            "variable_id": "government-course-assessment__negative",
+            "status": "observed",
+            "value": 1,
+            "confidence": 0.5,
+            "support_type": "positive_manifestation",
+            "rationale": "В доступных материалах нет прямой критики всего государственного курса, однако отдельные эпизоды содержат призывы к реформам и инновациям, что может подразумевать ограниченную критику отдельных аспектов.",
+            "evidence_indices": [
+              1,
+              12
+            ]
+          }
+        },
+        "evidence_file": "evidence/independent-dossier-edouard-ngirente.json",
+        "evidence_basis": "df76c81a51b8427d7a869abebf448a6fb817c9eb1a0e147e8cdfda2bedaf52db"
+      }
+    },
+    "positive": 3,
+    "negative": 1,
+    "value": null,
+    "status": "observed",
+    "difference": null,
+    "mass": null,
+    "measurement_model": "independent_poles",
+    "evidence_file": "evidence/independent-dossier-edouard-ngirente.json",
+    "evidence_basis": "df76c81a51b8427d7a869abebf448a6fb817c9eb1a0e147e8cdfda2bedaf52db",
+    "at": "2026-10-15T17:29:17.042498+00:00",
+    "reason": "Каждое свойство оценивается независимо; разность и искусственное дополнение до пяти не вычисляются"
+  },
+  {
+    "object_id": "edouard-ngirente",
+    "scale_id": "participation-administrative-direction",
+    "pole_scores": {
+      "positive": {
+        "status": "observed",
+        "value": 2,
+        "confidence": 0.6,
+        "evidence_indices": [
+          0
+        ],
+        "source_urls": [
+          "https://unfccc.int/sites/default/files/resource/RWANDA_cop26cmp16cma3_HLS_EN.pdf"
+        ],
+        "event_ids": [
+          "ngirente-cop26-2021"
+        ],
+        "rationale": "В ряде эпизодов (например, национальное заявление на COP26 2021-11-02) отмечал важность инклюзивных и прозрачных переговоров, а также сотрудничества. Однако устойчивого акцента на совместном обсуждении решений не выявлено.",
+        "support_type": "positive_manifestation",
+        "provenance": {
+          "raw_response_file": "evidence/independent_responses/7ddcec181034f8f5157ff9a57ef13bbdf0fe3f1978374aa2b45774282e266674.json",
+          "model": "gpt-4.1",
+          "at": "2026-10-15T17:29:07.834915+00:00",
+          "cache_key": "7ddcec181034f8f5157ff9a57ef13bbdf0fe3f1978374aa2b45774282e266674",
+          "original_proposal": {
+            "variable_id": "participation-administrative-direction__positive",
+            "status": "observed",
+            "value": 2,
+            "confidence": 0.6,
+            "support_type": "positive_manifestation",
+            "rationale": "В ряде эпизодов (например, национальное заявление на COP26 2021-11-02) отмечал важность инклюзивных и прозрачных переговоров, а также сотрудничества. Однако устойчивого акцента на совместном обсуждении решений не выявлено.",
+            "evidence_indices": [
+              0
+            ]
+          }
+        },
+        "evidence_file": "evidence/independent-dossier-edouard-ngirente.json",
+        "evidence_basis": "df76c81a51b8427d7a869abebf448a6fb817c9eb1a0e147e8cdfda2bedaf52db"
+      },
+      "negative": {
+        "status": "observed",
+        "value": 3,
+        "confidence": 0.8,
+        "evidence_indices": [
+          14,
+          9,
+          20
+        ],
+        "source_urls": [
+          "https://www.primature.gov.rw/news-detail/prime-minister-officiated-the-celebration-of-the-national-umuganura-day",
+          "https://www.primature.gov.rw/news-detail/prime-minister-presented-to-parliament-governments-actions-related-to-de-risking-agricultural-value-chains-to-increase-production"
+        ],
+        "event_ids": [
+          "ngirente-2022-08-05-umuganura",
+          "ngirente-agriculture-parliament-2023",
+          "ngirente-2023-04-03-agricultural-value-chains"
+        ],
+        "rationale": "В ряде эпизодов (например, поручения органам на Umuganura 2022-08-05, отчёты перед парламентом) проявлял административный стиль постановки задач и контроля исполнения.",
+        "support_type": "positive_manifestation",
+        "provenance": {
+          "raw_response_file": "evidence/independent_responses/7ddcec181034f8f5157ff9a57ef13bbdf0fe3f1978374aa2b45774282e266674.json",
+          "model": "gpt-4.1",
+          "at": "2026-10-15T17:29:07.834915+00:00",
+          "cache_key": "7ddcec181034f8f5157ff9a57ef13bbdf0fe3f1978374aa2b45774282e266674",
+          "original_proposal": {
+            "variable_id": "participation-administrative-direction__negative",
+            "status": "observed",
+            "value": 3,
+            "confidence": 0.8,
+            "support_type": "positive_manifestation",
+            "rationale": "В ряде эпизодов (например, поручения органам на Umuganura 2022-08-05, отчёты перед парламентом) проявлял административный стиль постановки задач и контроля исполнения.",
+            "evidence_indices": [
+              14,
+              9,
+              20
+            ]
+          }
+        },
+        "evidence_file": "evidence/independent-dossier-edouard-ngirente.json",
+        "evidence_basis": "df76c81a51b8427d7a869abebf448a6fb817c9eb1a0e147e8cdfda2bedaf52db"
+      }
+    },
+    "positive": 2,
+    "negative": 3,
+    "value": null,
+    "status": "observed",
+    "difference": null,
+    "mass": null,
+    "measurement_model": "independent_poles",
+    "evidence_file": "evidence/independent-dossier-edouard-ngirente.json",
+    "evidence_basis": "df76c81a51b8427d7a869abebf448a6fb817c9eb1a0e147e8cdfda2bedaf52db",
+    "at": "2026-10-15T17:29:17.042498+00:00",
+    "reason": "Каждое свойство оценивается независимо; разность и искусственное дополнение до пяти не вычисляются"
+  },
+  {
+    "object_id": "edouard-ngirente",
+    "scale_id": "argumentation-evidence-values",
+    "pole_scores": {
+      "positive": {
+        "status": "observed",
+        "value": 4,
+        "confidence": 0.9,
+        "evidence_indices": [
+          3,
+          13,
+          9,
+          7,
+          21
+        ],
+        "source_urls": [
+          "https://www.primature.gov.rw/news-detail/prime-minister-officiated-the-launch-of-the-country-economic-memorandum",
+          "https://www.primature.gov.rw/news-detail/the-prime-minister-presented-government-actions-related-to-achievements-in-basic-education-primary-secondary",
+          "https://www.primature.gov.rw/news-detail/prime-minister-presented-to-parliament-governments-actions-related-to-de-risking-agricultural-value-chains-to-increase-production",
+          "https://www.primature.gov.rw/news-detail/prime-minister-presided-over-the-10th-graduation-ceremony-of-the-university-of-rwanda",
+          "https://www.primature.gov.rw/news-detail/prime-minister-officially-launched-the-report-of-the-7th-integrated-household-living-conditions-survey-eicv7"
+        ],
+        "event_ids": [
+          "ngirente-economic-memorandum-2024",
+          "ngirente-2022-08-01-basic-education",
+          "ngirente-agriculture-parliament-2023",
+          "ngirente-household-living-standards-2025",
+          "ngirente-2025-04-16-eicv7"
+        ],
+        "rationale": "Регулярно использует данные, количественные показатели и ссылки на исследования (например, запуск Country Economic Memorandum 2024-11-13, отчёты о результатах в образовании и аграрном секторе, запуск обследования условий жизни).",
+        "support_type": "positive_manifestation",
+        "provenance": {
+          "raw_response_file": "evidence/independent_responses/7ddcec181034f8f5157ff9a57ef13bbdf0fe3f1978374aa2b45774282e266674.json",
+          "model": "gpt-4.1",
+          "at": "2026-10-15T17:29:07.834915+00:00",
+          "cache_key": "7ddcec181034f8f5157ff9a57ef13bbdf0fe3f1978374aa2b45774282e266674",
+          "original_proposal": {
+            "variable_id": "argumentation-evidence-values__positive",
+            "status": "observed",
+            "value": 4,
+            "confidence": 0.9,
+            "support_type": "positive_manifestation",
+            "rationale": "Регулярно использует данные, количественные показатели и ссылки на исследования (например, запуск Country Economic Memorandum 2024-11-13, отчёты о результатах в образовании и аграрном секторе, запуск обследования условий жизни).",
+            "evidence_indices": [
+              3,
+              13,
+              9,
+              7,
+              21
+            ]
+          }
+        },
+        "evidence_file": "evidence/independent-dossier-edouard-ngirente.json",
+        "evidence_basis": "df76c81a51b8427d7a869abebf448a6fb817c9eb1a0e147e8cdfda2bedaf52db"
+      },
+      "negative": {
+        "status": "observed",
+        "value": 2,
+        "confidence": 0.6,
+        "evidence_indices": [
+          1,
+          10
+        ],
+        "source_urls": [
+          "https://www.primature.gov.rw/news-detail/prime-minister-presided-over-the-10th-graduation-ceremony-of-the-university-of-rwanda",
+          "https://www.africa-press.net/rwanda/policy/pm-ngirente-urges-officials-to-prioritize-public-service-over-self-interest"
+        ],
+        "event_ids": [
+          "ngirente-university-rwanda-graduation-2024",
+          "ngirente-unity-club-2023"
+        ],
+        "rationale": "В ряде выступлений (например, призывы к патриотизму и гражданской ответственности на выпуске Университета Руанды 2024-10-25, форуме Unity Club 2023-10-29) использует ценностную риторику наряду с рациональными аргументами.",
+        "support_type": "positive_manifestation",
+        "provenance": {
+          "raw_response_file": "evidence/independent_responses/7ddcec181034f8f5157ff9a57ef13bbdf0fe3f1978374aa2b45774282e266674.json",
+          "model": "gpt-4.1",
+          "at": "2026-10-15T17:29:07.834915+00:00",
+          "cache_key": "7ddcec181034f8f5157ff9a57ef13bbdf0fe3f1978374aa2b45774282e266674",
+          "original_proposal": {
+            "variable_id": "argumentation-evidence-values__negative",
+            "status": "observed",
+            "value": 2,
+            "confidence": 0.6,
+            "support_type": "positive_manifestation",
+            "rationale": "В ряде выступлений (например, призывы к патриотизму и гражданской ответственности на выпуске Университета Руанды 2024-10-25, форуме Unity Club 2023-10-29) использует ценностную риторику наряду с рациональными аргументами.",
+            "evidence_indices": [
+              1,
+              10
+            ]
+          }
+        },
+        "evidence_file": "evidence/independent-dossier-edouard-ngirente.json",
+        "evidence_basis": "df76c81a51b8427d7a869abebf448a6fb817c9eb1a0e147e8cdfda2bedaf52db"
+      }
+    },
+    "positive": 4,
+    "negative": 2,
+    "value": null,
+    "status": "observed",
+    "difference": null,
+    "mass": null,
+    "measurement_model": "independent_poles",
+    "evidence_file": "evidence/independent-dossier-edouard-ngirente.json",
+    "evidence_basis": "df76c81a51b8427d7a869abebf448a6fb817c9eb1a0e147e8cdfda2bedaf52db",
+    "at": "2026-10-15T17:29:17.042498+00:00",
+    "reason": "Каждое свойство оценивается независимо; разность и искусственное дополнение до пяти не вычисляются"
+  },
+  {
+    "object_id": "edouard-ngirente",
+    "scale_id": "market-state-instruments",
+    "pole_scores": {
+      "positive": {
+        "status": "observed",
+        "value": 2,
+        "confidence": 0.7,
+        "evidence_indices": [
+          15,
+          9
+        ],
+        "source_urls": [
+          "https://www.primature.gov.rw/fileadmin/user_upload/Primature/Publications/Speeches/English/2022_Speeches/Keynote_address_at_the_launch_of_BPR_Bank_Rwanda_.pdf",
+          "https://www.primature.gov.rw/news-detail/prime-minister-presented-to-parliament-governments-actions-related-to-de-risking-agricultural-value-chains-to-increase-production"
+        ],
+        "event_ids": [
+          "ngirente-2022-05-04-bpr-bank",
+          "ngirente-agriculture-parliament-2023"
+        ],
+        "rationale": "Поддержка частных инициатив и финансового посредничества отмечена на запуске BPR Bank Rwanda (2022-05-04), а также в аграрных цепочках (доступ к финансированию, поддержка молодёжи). Однако устойчивого акцента на расширении частной инициативы не выявлено.",
+        "support_type": "positive_manifestation",
+        "provenance": {
+          "raw_response_file": "evidence/independent_responses/7ddcec181034f8f5157ff9a57ef13bbdf0fe3f1978374aa2b45774282e266674.json",
+          "model": "gpt-4.1",
+          "at": "2026-10-15T17:29:07.834915+00:00",
+          "cache_key": "7ddcec181034f8f5157ff9a57ef13bbdf0fe3f1978374aa2b45774282e266674",
+          "original_proposal": {
+            "variable_id": "market-state-instruments__positive",
+            "status": "observed",
+            "value": 2,
+            "confidence": 0.7,
+            "support_type": "positive_manifestation",
+            "rationale": "Поддержка частных инициатив и финансового посредничества отмечена на запуске BPR Bank Rwanda (2022-05-04), а также в аграрных цепочках (доступ к финансированию, поддержка молодёжи). Однако устойчивого акцента на расширении частной инициативы не выявлено.",
+            "evidence_indices": [
+              15,
+              9
+            ]
+          }
+        },
+        "evidence_file": "evidence/independent-dossier-edouard-ngirente.json",
+        "evidence_basis": "df76c81a51b8427d7a869abebf448a6fb817c9eb1a0e147e8cdfda2bedaf52db"
+      },
+      "negative": {
+        "status": "observed",
+        "value": 3,
+        "confidence": 0.8,
+        "evidence_indices": [
+          14,
+          9,
+          20
+        ],
+        "source_urls": [
+          "https://www.primature.gov.rw/news-detail/prime-minister-officiated-the-celebration-of-the-national-umuganura-day",
+          "https://www.primature.gov.rw/news-detail/prime-minister-presented-to-parliament-governments-actions-related-to-de-risking-agricultural-value-chains-to-increase-production"
+        ],
+        "event_ids": [
+          "ngirente-2022-08-05-umuganura",
+          "ngirente-agriculture-parliament-2023",
+          "ngirente-2023-04-03-agricultural-value-chains"
+        ],
+        "rationale": "В ряде эпизодов (например, поручения органам, административное повышение эффективности, контроль исполнения) проявляется акцент на государственном планировании и обязательных правилах.",
+        "support_type": "positive_manifestation",
+        "provenance": {
+          "raw_response_file": "evidence/independent_responses/7ddcec181034f8f5157ff9a57ef13bbdf0fe3f1978374aa2b45774282e266674.json",
+          "model": "gpt-4.1",
+          "at": "2026-10-15T17:29:07.834915+00:00",
+          "cache_key": "7ddcec181034f8f5157ff9a57ef13bbdf0fe3f1978374aa2b45774282e266674",
+          "original_proposal": {
+            "variable_id": "market-state-instruments__negative",
+            "status": "observed",
+            "value": 3,
+            "confidence": 0.8,
+            "support_type": "positive_manifestation",
+            "rationale": "В ряде эпизодов (например, поручения органам, административное повышение эффективности, контроль исполнения) проявляется акцент на государственном планировании и обязательных правилах.",
+            "evidence_indices": [
+              14,
+              9,
+              20
+            ]
+          }
+        },
+        "evidence_file": "evidence/independent-dossier-edouard-ngirente.json",
+        "evidence_basis": "df76c81a51b8427d7a869abebf448a6fb817c9eb1a0e147e8cdfda2bedaf52db"
+      }
+    },
+    "positive": 2,
+    "negative": 3,
+    "value": null,
+    "status": "observed",
+    "difference": null,
+    "mass": null,
+    "measurement_model": "independent_poles",
+    "evidence_file": "evidence/independent-dossier-edouard-ngirente.json",
+    "evidence_basis": "df76c81a51b8427d7a869abebf448a6fb817c9eb1a0e147e8cdfda2bedaf52db",
+    "at": "2026-10-15T17:29:17.042498+00:00",
+    "reason": "Каждое свойство оценивается независимо; разность и искусственное дополнение до пяти не вычисляются"
+  },
+  {
+    "object_id": "edouard-ngirente",
+    "scale_id": "accessibility-growth-priorities",
+    "pole_scores": {
+      "positive": {
+        "status": "observed",
+        "value": 4,
+        "confidence": 0.9,
+        "evidence_indices": [
+          13,
+          9,
+          16,
+          20
+        ],
+        "source_urls": [
+          "https://www.primature.gov.rw/news-detail/the-prime-minister-presented-government-actions-related-to-achievements-in-basic-education-primary-secondary",
+          "https://www.primature.gov.rw/news-detail/prime-minister-presented-to-parliament-governments-actions-related-to-de-risking-agricultural-value-chains-to-increase-production",
+          "https://www.primature.gov.rw/news-detail/prime-minister-presided-over-the-opening-ceremony-of-the-2nd-international-conference-on-public-health-in-africa"
+        ],
+        "event_ids": [
+          "ngirente-2022-08-01-basic-education",
+          "ngirente-agriculture-parliament-2023",
+          "ngirente-2022-12-13-public-health-africa",
+          "ngirente-2023-04-03-agricultural-value-chains"
+        ],
+        "rationale": "Регулярно подчёркивает расширение доступности базовых благ: образование, здравоохранение, продовольственная безопасность, инфраструктура (отчёты перед парламентом, меры в образовании, аграрные проекты).",
+        "support_type": "positive_manifestation",
+        "provenance": {
+          "raw_response_file": "evidence/independent_responses/7ddcec181034f8f5157ff9a57ef13bbdf0fe3f1978374aa2b45774282e266674.json",
+          "model": "gpt-4.1",
+          "at": "2026-10-15T17:29:07.834915+00:00",
+          "cache_key": "7ddcec181034f8f5157ff9a57ef13bbdf0fe3f1978374aa2b45774282e266674",
+          "original_proposal": {
+            "variable_id": "accessibility-growth-priorities__positive",
+            "status": "observed",
+            "value": 4,
+            "confidence": 0.9,
+            "support_type": "positive_manifestation",
+            "rationale": "Регулярно подчёркивает расширение доступности базовых благ: образование, здравоохранение, продовольственная безопасность, инфраструктура (отчёты перед парламентом, меры в образовании, аграрные проекты).",
+            "evidence_indices": [
+              13,
+              9,
+              16,
+              20
+            ]
+          }
+        },
+        "evidence_file": "evidence/independent-dossier-edouard-ngirente.json",
+        "evidence_basis": "df76c81a51b8427d7a869abebf448a6fb817c9eb1a0e147e8cdfda2bedaf52db"
+      },
+      "negative": {
+        "status": "observed",
+        "value": 3,
+        "confidence": 0.8,
+        "evidence_indices": [
+          11,
+          19,
+          17
+        ],
+        "source_urls": [
+          "https://www.africa-press.net/rwanda/policy/education-research-key-to-global-green-digital-transition-pm-ngirente",
+          "https://www.primature.gov.rw/news-detail/pm-opens-the-23rd-annual-general-assembly-of-the-african-trade-and-investment-development-insurance-atidi",
+          "https://www.primature.gov.rw/news-detail/prime-minister-ngirente-officiated-the-unleash-innovation-lab-2023"
+        ],
+        "event_ids": [
+          "ngirente-global-gateway-2023",
+          "ngirente-2023-07-06-atidi",
+          "ngirente-2023-12-01-unleash-innovation"
+        ],
+        "rationale": "Одновременно отмечает приоритеты роста инвестиций, конкурентоспособности, инноваций (например, Global Gateway Forum 2023-10-25, поддержка инвестиционного страхования, инновационные площадки).",
+        "support_type": "positive_manifestation",
+        "provenance": {
+          "raw_response_file": "evidence/independent_responses/7ddcec181034f8f5157ff9a57ef13bbdf0fe3f1978374aa2b45774282e266674.json",
+          "model": "gpt-4.1",
+          "at": "2026-10-15T17:29:07.834915+00:00",
+          "cache_key": "7ddcec181034f8f5157ff9a57ef13bbdf0fe3f1978374aa2b45774282e266674",
+          "original_proposal": {
+            "variable_id": "accessibility-growth-priorities__negative",
+            "status": "observed",
+            "value": 3,
+            "confidence": 0.8,
+            "support_type": "positive_manifestation",
+            "rationale": "Одновременно отмечает приоритеты роста инвестиций, конкурентоспособности, инноваций (например, Global Gateway Forum 2023-10-25, поддержка инвестиционного страхования, инновационные площадки).",
+            "evidence_indices": [
+              11,
+              19,
+              17
+            ]
+          }
+        },
+        "evidence_file": "evidence/independent-dossier-edouard-ngirente.json",
+        "evidence_basis": "df76c81a51b8427d7a869abebf448a6fb817c9eb1a0e147e8cdfda2bedaf52db"
+      }
+    },
+    "positive": 4,
+    "negative": 3,
+    "value": null,
+    "status": "observed",
+    "difference": null,
+    "mass": null,
+    "measurement_model": "independent_poles",
+    "evidence_file": "evidence/independent-dossier-edouard-ngirente.json",
+    "evidence_basis": "df76c81a51b8427d7a869abebf448a6fb817c9eb1a0e147e8cdfda2bedaf52db",
+    "at": "2026-10-15T17:29:17.042498+00:00",
+    "reason": "Каждое свойство оценивается независимо; разность и искусственное дополнение до пяти не вычисляются"
+  },
+  {
+    "object_id": "edouard-ngirente",
+    "scale_id": "external-domestic-resources",
+    "pole_scores": {
+      "positive": {
+        "status": "observed",
+        "value": 4,
+        "confidence": 0.9,
+        "evidence_indices": [
+          3,
+          4,
+          9,
+          12,
+          20
+        ],
+        "source_urls": [
+          "https://www.primature.gov.rw/news-detail/prime-minister-officiated-the-launch-of-the-country-economic-memorandum",
+          "https://www.primature.gov.rw/news-detail/prime-minister-presented-to-parliament-governments-actions-related-to-de-risking-agricultural-value-chains-to-increase-production",
+          "https://www.primature.gov.rw/fileadmin/user_upload/Primature/Publications/Speeches/English/Prime_Minister_s_National_Statement_at_UNEA.pdf"
+        ],
+        "event_ids": [
+          "ngirente-economic-memorandum-2024",
+          "ngirente-economic-memorandum-partnership-2024",
+          "ngirente-agriculture-parliament-2023",
+          "ngirente-unea-2024",
+          "ngirente-2023-04-03-agricultural-value-chains"
+        ],
+        "rationale": "Многократно подчёркивает привлечение внешнего финансирования и партнёрств (например, сотрудничество со Всемирным банком, финансирование CDAT, участие в многосторонних фондах).",
+        "support_type": "positive_manifestation",
+        "provenance": {
+          "raw_response_file": "evidence/independent_responses/7ddcec181034f8f5157ff9a57ef13bbdf0fe3f1978374aa2b45774282e266674.json",
+          "model": "gpt-4.1",
+          "at": "2026-10-15T17:29:07.834915+00:00",
+          "cache_key": "7ddcec181034f8f5157ff9a57ef13bbdf0fe3f1978374aa2b45774282e266674",
+          "original_proposal": {
+            "variable_id": "external-domestic-resources__positive",
+            "status": "observed",
+            "value": 4,
+            "confidence": 0.9,
+            "support_type": "positive_manifestation",
+            "rationale": "Многократно подчёркивает привлечение внешнего финансирования и партнёрств (например, сотрудничество со Всемирным банком, финансирование CDAT, участие в многосторонних фондах).",
+            "evidence_indices": [
+              3,
+              4,
+              9,
+              12,
+              20
+            ]
+          }
+        },
+        "evidence_file": "evidence/independent-dossier-edouard-ngirente.json",
+        "evidence_basis": "df76c81a51b8427d7a869abebf448a6fb817c9eb1a0e147e8cdfda2bedaf52db"
+      },
+      "negative": {
+        "status": "unknown",
+        "value": null,
+        "confidence": 0,
+        "evidence_indices": [],
+        "source_urls": [],
+        "event_ids": [],
+        "rationale": "Нет прямых заявлений о приоритете внутренней самостоятельности или снижении зависимости от внешних поступлений.",
+        "support_type": "unknown",
+        "provenance": {
+          "raw_response_file": "evidence/independent_responses/7ddcec181034f8f5157ff9a57ef13bbdf0fe3f1978374aa2b45774282e266674.json",
+          "model": "gpt-4.1",
+          "at": "2026-10-15T17:29:07.834915+00:00",
+          "cache_key": "7ddcec181034f8f5157ff9a57ef13bbdf0fe3f1978374aa2b45774282e266674",
+          "original_proposal": {
+            "variable_id": "external-domestic-resources__negative",
+            "status": "unknown",
+            "value": null,
+            "confidence": 0.3,
+            "support_type": "unknown",
+            "rationale": "Нет прямых заявлений о приоритете внутренней самостоятельности или снижении зависимости от внешних поступлений.",
+            "evidence_indices": []
+          }
+        },
+        "evidence_file": "evidence/independent-dossier-edouard-ngirente.json",
+        "evidence_basis": "df76c81a51b8427d7a869abebf448a6fb817c9eb1a0e147e8cdfda2bedaf52db"
+      }
+    },
+    "positive": 4,
+    "negative": null,
+    "value": null,
+    "status": "partial",
+    "difference": null,
+    "mass": null,
+    "measurement_model": "independent_poles",
+    "evidence_file": "evidence/independent-dossier-edouard-ngirente.json",
+    "evidence_basis": "df76c81a51b8427d7a869abebf448a6fb817c9eb1a0e147e8cdfda2bedaf52db",
+    "at": "2026-10-15T17:29:17.042498+00:00",
+    "reason": "Каждое свойство оценивается независимо; разность и искусственное дополнение до пяти не вычисляются"
+  },
+  {
+    "object_id": "edouard-ngirente",
+    "scale_id": "international-rules-autonomy",
+    "pole_scores": {
+      "positive": {
+        "status": "observed",
+        "value": 4,
+        "confidence": 0.9,
+        "evidence_indices": [
+          12,
+          0,
+          19
+        ],
+        "source_urls": [
+          "https://www.primature.gov.rw/fileadmin/user_upload/Primature/Publications/Speeches/English/Prime_Minister_s_National_Statement_at_UNEA.pdf",
+          "https://unfccc.int/sites/default/files/resource/RWANDA_cop26cmp16cma3_HLS_EN.pdf",
+          "https://www.primature.gov.rw/news-detail/pm-opens-the-23rd-annual-general-assembly-of-the-african-trade-and-investment-development-insurance-atidi"
+        ],
+        "event_ids": [
+          "ngirente-unea-2024",
+          "ngirente-cop26-2021",
+          "ngirente-2023-07-06-atidi"
+        ],
+        "rationale": "Регулярно подчёркивает выполнение международных обязательств, участие в многосторонних соглашениях и продвижение глобальных целей (напр., UNEA-6, COP26, поддержка международных механизмов).",
+        "support_type": "positive_manifestation",
+        "provenance": {
+          "raw_response_file": "evidence/independent_responses/7ddcec181034f8f5157ff9a57ef13bbdf0fe3f1978374aa2b45774282e266674.json",
+          "model": "gpt-4.1",
+          "at": "2026-10-15T17:29:07.834915+00:00",
+          "cache_key": "7ddcec181034f8f5157ff9a57ef13bbdf0fe3f1978374aa2b45774282e266674",
+          "original_proposal": {
+            "variable_id": "international-rules-autonomy__positive",
+            "status": "observed",
+            "value": 4,
+            "confidence": 0.9,
+            "support_type": "positive_manifestation",
+            "rationale": "Регулярно подчёркивает выполнение международных обязательств, участие в многосторонних соглашениях и продвижение глобальных целей (напр., UNEA-6, COP26, поддержка международных механизмов).",
+            "evidence_indices": [
+              12,
+              0,
+              19
+            ]
+          }
+        },
+        "evidence_file": "evidence/independent-dossier-edouard-ngirente.json",
+        "evidence_basis": "df76c81a51b8427d7a869abebf448a6fb817c9eb1a0e147e8cdfda2bedaf52db"
+      },
+      "negative": {
+        "status": "unknown",
+        "value": null,
+        "confidence": 0,
+        "evidence_indices": [],
+        "source_urls": [],
+        "event_ids": [],
+        "rationale": "Нет прямых заявлений о защите национальной самостоятельности решений или возражениях против внешнего навязывания.",
+        "support_type": "unknown",
+        "provenance": {
+          "raw_response_file": "evidence/independent_responses/7ddcec181034f8f5157ff9a57ef13bbdf0fe3f1978374aa2b45774282e266674.json",
+          "model": "gpt-4.1",
+          "at": "2026-10-15T17:29:07.834915+00:00",
+          "cache_key": "7ddcec181034f8f5157ff9a57ef13bbdf0fe3f1978374aa2b45774282e266674",
+          "original_proposal": {
+            "variable_id": "international-rules-autonomy__negative",
+            "status": "unknown",
+            "value": null,
+            "confidence": 0.3,
+            "support_type": "unknown",
+            "rationale": "Нет прямых заявлений о защите национальной самостоятельности решений или возражениях против внешнего навязывания.",
+            "evidence_indices": []
+          }
+        },
+        "evidence_file": "evidence/independent-dossier-edouard-ngirente.json",
+        "evidence_basis": "df76c81a51b8427d7a869abebf448a6fb817c9eb1a0e147e8cdfda2bedaf52db"
+      }
+    },
+    "positive": 4,
+    "negative": null,
+    "value": null,
+    "status": "partial",
+    "difference": null,
+    "mass": null,
+    "measurement_model": "independent_poles",
+    "evidence_file": "evidence/independent-dossier-edouard-ngirente.json",
+    "evidence_basis": "df76c81a51b8427d7a869abebf448a6fb817c9eb1a0e147e8cdfda2bedaf52db",
+    "at": "2026-10-15T17:29:17.042498+00:00",
+    "reason": "Каждое свойство оценивается независимо; разность и искусственное дополнение до пяти не вычисляются"
+  },
+  {
+    "object_id": "edouard-ngirente",
+    "scale_id": "mediation-adversarial-communication",
+    "pole_scores": {
+      "positive": {
+        "status": "observed",
+        "value": 2,
+        "confidence": 0.6,
+        "evidence_indices": [
+          0
+        ],
+        "source_urls": [
+          "https://unfccc.int/sites/default/files/resource/RWANDA_cop26cmp16cma3_HLS_EN.pdf"
+        ],
+        "event_ids": [
+          "ngirente-cop26-2021"
+        ],
+        "rationale": "В ряде эпизодов (например, COP26 2021-11-02) отмечал важность диалога, сотрудничества и инклюзивных переговоров, однако устойчивого акцента на посредничестве не выявлено.",
+        "support_type": "positive_manifestation",
+        "provenance": {
+          "raw_response_file": "evidence/independent_responses/7ddcec181034f8f5157ff9a57ef13bbdf0fe3f1978374aa2b45774282e266674.json",
+          "model": "gpt-4.1",
+          "at": "2026-10-15T17:29:07.834915+00:00",
+          "cache_key": "7ddcec181034f8f5157ff9a57ef13bbdf0fe3f1978374aa2b45774282e266674",
+          "original_proposal": {
+            "variable_id": "mediation-adversarial-communication__positive",
+            "status": "observed",
+            "value": 2,
+            "confidence": 0.6,
+            "support_type": "positive_manifestation",
+            "rationale": "В ряде эпизодов (например, COP26 2021-11-02) отмечал важность диалога, сотрудничества и инклюзивных переговоров, однако устойчивого акцента на посредничестве не выявлено.",
+            "evidence_indices": [
+              0
+            ]
+          }
+        },
+        "evidence_file": "evidence/independent-dossier-edouard-ngirente.json",
+        "evidence_basis": "df76c81a51b8427d7a869abebf448a6fb817c9eb1a0e147e8cdfda2bedaf52db"
+      },
+      "negative": {
+        "status": "unknown",
+        "value": null,
+        "confidence": 0,
+        "evidence_indices": [],
+        "source_urls": [],
+        "event_ids": [],
+        "rationale": "Нет прямых эпизодов публичного оспаривания, защиты только своей стороны или полемики с другими странами/акторами.",
+        "support_type": "unknown",
+        "provenance": {
+          "raw_response_file": "evidence/independent_responses/7ddcec181034f8f5157ff9a57ef13bbdf0fe3f1978374aa2b45774282e266674.json",
+          "model": "gpt-4.1",
+          "at": "2026-10-15T17:29:07.834915+00:00",
+          "cache_key": "7ddcec181034f8f5157ff9a57ef13bbdf0fe3f1978374aa2b45774282e266674",
+          "original_proposal": {
+            "variable_id": "mediation-adversarial-communication__negative",
+            "status": "unknown",
+            "value": null,
+            "confidence": 0.3,
+            "support_type": "unknown",
+            "rationale": "Нет прямых эпизодов публичного оспаривания, защиты только своей стороны или полемики с другими странами/акторами.",
+            "evidence_indices": []
+          }
+        },
+        "evidence_file": "evidence/independent-dossier-edouard-ngirente.json",
+        "evidence_basis": "df76c81a51b8427d7a869abebf448a6fb817c9eb1a0e147e8cdfda2bedaf52db"
+      }
+    },
+    "positive": 2,
+    "negative": null,
+    "value": null,
+    "status": "partial",
+    "difference": null,
+    "mass": null,
+    "measurement_model": "independent_poles",
+    "evidence_file": "evidence/independent-dossier-edouard-ngirente.json",
+    "evidence_basis": "df76c81a51b8427d7a869abebf448a6fb817c9eb1a0e147e8cdfda2bedaf52db",
+    "at": "2026-10-15T17:29:17.042498+00:00",
+    "reason": "Каждое свойство оценивается независимо; разность и искусственное дополнение до пяти не вычисляются"
+  },
+  {
+    "object_id": "edouard-ngirente",
+    "scale_id": "cultural-openness-national-transmission",
+    "pole_scores": {
+      "positive": {
+        "status": "observed",
+        "value": 2,
+        "confidence": 0.7,
+        "evidence_indices": [
+          0,
+          3,
+          4,
+          12,
+          17
+        ],
+        "source_urls": [
+          "https://unfccc.int/sites/default/files/resource/RWANDA_cop26cmp16cma3_HLS_EN.pdf",
+          "https://www.primature.gov.rw/news-detail/prime-minister-officiated-the-launch-of-the-country-economic-memorandum",
+          "https://www.primature.gov.rw/fileadmin/user_upload/Primature/Publications/Speeches/English/Prime_Minister_s_National_Statement_at_UNEA.pdf",
+          "https://www.primature.gov.rw/news-detail/prime-minister-ngirente-officiated-the-unleash-innovation-lab-2023"
+        ],
+        "event_ids": [
+          "ngirente-cop26-2021",
+          "ngirente-economic-memorandum-2024",
+          "ngirente-economic-memorandum-partnership-2024",
+          "ngirente-unea-2024",
+          "ngirente-2023-12-01-unleash-innovation"
+        ],
+        "rationale": "Публично поддерживал международное сотрудничество, инклюзивный диалог и участие в глобальных инициативах (COP26, Всемирный банк, UNEA, Unleash Innovation Lab), что свидетельствует о выраженном, но не определяющем акценте на межкультурном обмене и разнообразии.",
+        "support_type": "positive_manifestation",
+        "provenance": {
+          "raw_response_file": "evidence/independent_responses/738f478e7a6683b922fe45e5e1285c153df8c1e593a03d87501dafef0e139835.json",
+          "model": "gpt-4.1",
+          "at": "2026-10-15T17:29:17.038501+00:00",
+          "cache_key": "738f478e7a6683b922fe45e5e1285c153df8c1e593a03d87501dafef0e139835",
+          "original_proposal": {
+            "variable_id": "cultural-openness-national-transmission__positive",
+            "status": "observed",
+            "value": 2,
+            "confidence": 0.7,
+            "support_type": "positive_manifestation",
+            "rationale": "Публично поддерживал международное сотрудничество, инклюзивный диалог и участие в глобальных инициативах (COP26, Всемирный банк, UNEA, Unleash Innovation Lab), что свидетельствует о выраженном, но не определяющем акценте на межкультурном обмене и разнообразии.",
+            "evidence_indices": [
+              0,
+              3,
+              4,
+              12,
+              17
+            ]
+          }
+        },
+        "evidence_file": "evidence/independent-dossier-edouard-ngirente.json",
+        "evidence_basis": "df76c81a51b8427d7a869abebf448a6fb817c9eb1a0e147e8cdfda2bedaf52db"
+      },
+      "negative": {
+        "status": "observed",
+        "value": 2,
+        "confidence": 0.6,
+        "evidence_indices": [
+          1,
+          10,
+          14
+        ],
+        "source_urls": [
+          "https://www.primature.gov.rw/news-detail/prime-minister-presided-over-the-10th-graduation-ceremony-of-the-university-of-rwanda",
+          "https://www.africa-press.net/rwanda/policy/pm-ngirente-urges-officials-to-prioritize-public-service-over-self-interest",
+          "https://www.primature.gov.rw/news-detail/prime-minister-officiated-the-celebration-of-the-national-umuganura-day"
+        ],
+        "event_ids": [
+          "ngirente-university-rwanda-graduation-2024",
+          "ngirente-unity-club-2023",
+          "ngirente-2022-08-05-umuganura"
+        ],
+        "rationale": "В ряде выступлений подчёркивал патриотизм, национальные ценности, преемственность и мобилизацию на основе национальных традиций (выпускные речи, Umuganura, призывы к патриотизму), что указывает на ограниченное, но явное проявление сохранения и передачи национальных ценностей.",
+        "support_type": "positive_manifestation",
+        "provenance": {
+          "raw_response_file": "evidence/independent_responses/738f478e7a6683b922fe45e5e1285c153df8c1e593a03d87501dafef0e139835.json",
+          "model": "gpt-4.1",
+          "at": "2026-10-15T17:29:17.038501+00:00",
+          "cache_key": "738f478e7a6683b922fe45e5e1285c153df8c1e593a03d87501dafef0e139835",
+          "original_proposal": {
+            "variable_id": "cultural-openness-national-transmission__negative",
+            "status": "observed",
+            "value": 2,
+            "confidence": 0.6,
+            "support_type": "positive_manifestation",
+            "rationale": "В ряде выступлений подчёркивал патриотизм, национальные ценности, преемственность и мобилизацию на основе национальных традиций (выпускные речи, Umuganura, призывы к патриотизму), что указывает на ограниченное, но явное проявление сохранения и передачи национальных ценностей.",
+            "evidence_indices": [
+              1,
+              10,
+              14
+            ]
+          }
+        },
+        "evidence_file": "evidence/independent-dossier-edouard-ngirente.json",
+        "evidence_basis": "df76c81a51b8427d7a869abebf448a6fb817c9eb1a0e147e8cdfda2bedaf52db"
+      }
+    },
+    "positive": 2,
+    "negative": 2,
+    "value": null,
+    "status": "observed",
+    "difference": null,
+    "mass": null,
+    "measurement_model": "independent_poles",
+    "evidence_file": "evidence/independent-dossier-edouard-ngirente.json",
+    "evidence_basis": "df76c81a51b8427d7a869abebf448a6fb817c9eb1a0e147e8cdfda2bedaf52db",
+    "at": "2026-10-15T17:29:17.042498+00:00",
+    "reason": "Каждое свойство оценивается независимо; разность и искусственное дополнение до пяти не вычисляются"
+  },
+  {
+    "object_id": "edouard-ngirente",
+    "scale_id": "problem-disclosure-reputation-defence",
+    "pole_scores": {
+      "positive": {
+        "status": "unknown",
+        "value": null,
+        "confidence": 0,
+        "evidence_indices": [],
+        "source_urls": [],
+        "event_ids": [],
+        "rationale": "Нет прямых эпизодов, где он бы публично признавал конкретные проблемы или недостатки исполнения; отчётность и доклады не содержат явного раскрытия сбоев.",
+        "support_type": "unknown",
+        "provenance": {
+          "raw_response_file": "evidence/independent_responses/738f478e7a6683b922fe45e5e1285c153df8c1e593a03d87501dafef0e139835.json",
+          "model": "gpt-4.1",
+          "at": "2026-10-15T17:29:17.038501+00:00",
+          "cache_key": "738f478e7a6683b922fe45e5e1285c153df8c1e593a03d87501dafef0e139835",
+          "original_proposal": {
+            "variable_id": "problem-disclosure-reputation-defence__positive",
+            "status": "unknown",
+            "value": null,
+            "confidence": 0.3,
+            "support_type": "unknown",
+            "rationale": "Нет прямых эпизодов, где он бы публично признавал конкретные проблемы или недостатки исполнения; отчётность и доклады не содержат явного раскрытия сбоев.",
+            "evidence_indices": []
+          }
+        },
+        "evidence_file": "evidence/independent-dossier-edouard-ngirente.json",
+        "evidence_basis": "df76c81a51b8427d7a869abebf448a6fb817c9eb1a0e147e8cdfda2bedaf52db"
+      },
+      "negative": {
+        "status": "observed",
+        "value": 2,
+        "confidence": 0.6,
+        "evidence_indices": [
+          8,
+          10
+        ],
+        "source_urls": [
+          "https://primature.prod.risa.rw/news-detail/pm-nsengiyumva-officially-sworn-in-as-prime-minister",
+          "https://www.africa-press.net/rwanda/policy/pm-ngirente-urges-officials-to-prioritize-public-service-over-self-interest"
+        ],
+        "event_ids": [
+          "ngirente-handover-2025",
+          "ngirente-unity-club-2023"
+        ],
+        "rationale": "Публичные выступления строятся на продвижении достижений, благодарностях и призывах к ускорению реализации действующей линии без публичной критики или раскрытия проблем; акцент на защите репутации и имиджа страны.",
+        "support_type": "positive_manifestation",
+        "provenance": {
+          "raw_response_file": "evidence/independent_responses/738f478e7a6683b922fe45e5e1285c153df8c1e593a03d87501dafef0e139835.json",
+          "model": "gpt-4.1",
+          "at": "2026-10-15T17:29:17.038501+00:00",
+          "cache_key": "738f478e7a6683b922fe45e5e1285c153df8c1e593a03d87501dafef0e139835",
+          "original_proposal": {
+            "variable_id": "problem-disclosure-reputation-defence__negative",
+            "status": "observed",
+            "value": 2,
+            "confidence": 0.6,
+            "support_type": "positive_manifestation",
+            "rationale": "Публичные выступления строятся на продвижении достижений, благодарностях и призывах к ускорению реализации действующей линии без публичной критики или раскрытия проблем; акцент на защите репутации и имиджа страны.",
+            "evidence_indices": [
+              8,
+              10
+            ]
+          }
+        },
+        "evidence_file": "evidence/independent-dossier-edouard-ngirente.json",
+        "evidence_basis": "df76c81a51b8427d7a869abebf448a6fb817c9eb1a0e147e8cdfda2bedaf52db"
+      }
+    },
+    "positive": null,
+    "negative": 2,
+    "value": null,
+    "status": "partial",
+    "difference": null,
+    "mass": null,
+    "measurement_model": "independent_poles",
+    "evidence_file": "evidence/independent-dossier-edouard-ngirente.json",
+    "evidence_basis": "df76c81a51b8427d7a869abebf448a6fb817c9eb1a0e147e8cdfda2bedaf52db",
+    "at": "2026-10-15T17:29:17.042498+00:00",
+    "reason": "Каждое свойство оценивается независимо; разность и искусственное дополнение до пяти не вычисляются"
+  },
+  {
+    "object_id": "edouard-ngirente",
+    "scale_id": "procedural-guarantees-enforcement",
+    "pole_scores": {
+      "positive": {
+        "status": "unknown",
+        "value": null,
+        "confidence": 0,
+        "evidence_indices": [],
+        "source_urls": [],
+        "event_ids": [],
+        "rationale": "Нет прямых фактов о расширении возможностей обжалования или защиты; участие в кадровых процедурах не свидетельствует о позиции по устройству правосудия.",
+        "support_type": "unknown",
+        "provenance": {
+          "raw_response_file": "evidence/independent_responses/738f478e7a6683b922fe45e5e1285c153df8c1e593a03d87501dafef0e139835.json",
+          "model": "gpt-4.1",
+          "at": "2026-10-15T17:29:17.038501+00:00",
+          "cache_key": "738f478e7a6683b922fe45e5e1285c153df8c1e593a03d87501dafef0e139835",
+          "original_proposal": {
+            "variable_id": "procedural-guarantees-enforcement__positive",
+            "status": "unknown",
+            "value": null,
+            "confidence": 0.3,
+            "support_type": "unknown",
+            "rationale": "Нет прямых фактов о расширении возможностей обжалования или защиты; участие в кадровых процедурах не свидетельствует о позиции по устройству правосудия.",
+            "evidence_indices": []
+          }
+        },
+        "evidence_file": "evidence/independent-dossier-edouard-ngirente.json",
+        "evidence_basis": "df76c81a51b8427d7a869abebf448a6fb817c9eb1a0e147e8cdfda2bedaf52db"
+      },
+      "negative": {
+        "status": "unknown",
+        "value": null,
+        "confidence": 0,
+        "evidence_indices": [],
+        "source_urls": [],
+        "event_ids": [],
+        "rationale": "Нет оснований приписывать акцент на принудительном обеспечении требований; кадровые и административные действия не содержат прямых указаний на такую позицию.",
+        "support_type": "unknown",
+        "provenance": {
+          "raw_response_file": "evidence/independent_responses/738f478e7a6683b922fe45e5e1285c153df8c1e593a03d87501dafef0e139835.json",
+          "model": "gpt-4.1",
+          "at": "2026-10-15T17:29:17.038501+00:00",
+          "cache_key": "738f478e7a6683b922fe45e5e1285c153df8c1e593a03d87501dafef0e139835",
+          "original_proposal": {
+            "variable_id": "procedural-guarantees-enforcement__negative",
+            "status": "unknown",
+            "value": null,
+            "confidence": 0.3,
+            "support_type": "unknown",
+            "rationale": "Нет оснований приписывать акцент на принудительном обеспечении требований; кадровые и административные действия не содержат прямых указаний на такую позицию.",
+            "evidence_indices": []
+          }
+        },
+        "evidence_file": "evidence/independent-dossier-edouard-ngirente.json",
+        "evidence_basis": "df76c81a51b8427d7a869abebf448a6fb817c9eb1a0e147e8cdfda2bedaf52db"
+      }
+    },
+    "positive": null,
+    "negative": null,
+    "value": null,
+    "status": "unknown",
+    "difference": null,
+    "mass": null,
+    "measurement_model": "independent_poles",
+    "evidence_file": "evidence/independent-dossier-edouard-ngirente.json",
+    "evidence_basis": "df76c81a51b8427d7a869abebf448a6fb817c9eb1a0e147e8cdfda2bedaf52db",
+    "at": "2026-10-15T17:29:17.042498+00:00",
+    "reason": "Каждое свойство оценивается независимо; разность и искусственное дополнение до пяти не вычисляются"
+  },
+  {
+    "object_id": "edouard-ngirente",
+    "scale_id": "prevention-crisis-response",
+    "pole_scores": {
+      "positive": {
+        "status": "observed",
+        "value": 3,
+        "confidence": 0.8,
+        "evidence_indices": [
+          0,
+          9,
+          11,
+          16,
+          20
+        ],
+        "source_urls": [
+          "https://unfccc.int/sites/default/files/resource/RWANDA_cop26cmp16cma3_HLS_EN.pdf",
+          "https://www.primature.gov.rw/news-detail/prime-minister-presented-to-parliament-governments-actions-related-to-de-risking-agricultural-value-chains-to-increase-production",
+          "https://www.africa-press.net/rwanda/policy/education-research-key-to-global-green-digital-transition-pm-ngirente",
+          "https://www.primature.gov.rw/news-detail/prime-minister-presided-over-the-opening-ceremony-of-the-2nd-international-conference-on-public-health-in-africa"
+        ],
+        "event_ids": [
+          "ngirente-cop26-2021",
+          "ngirente-agriculture-parliament-2023",
+          "ngirente-global-gateway-2023",
+          "ngirente-2022-12-13-public-health-africa",
+          "ngirente-2023-04-03-agricultural-value-chains"
+        ],
+        "rationale": "Многократно подчёркивал упреждающее снижение рисков, подготовку к кризисам (аграрные цепочки, здравоохранение, климатическая политика), что подтверждается последовательными эпизодами с акцентом на профилактику и подготовку.",
+        "support_type": "positive_manifestation",
+        "provenance": {
+          "raw_response_file": "evidence/independent_responses/738f478e7a6683b922fe45e5e1285c153df8c1e593a03d87501dafef0e139835.json",
+          "model": "gpt-4.1",
+          "at": "2026-10-15T17:29:17.038501+00:00",
+          "cache_key": "738f478e7a6683b922fe45e5e1285c153df8c1e593a03d87501dafef0e139835",
+          "original_proposal": {
+            "variable_id": "prevention-crisis-response__positive",
+            "status": "observed",
+            "value": 3,
+            "confidence": 0.8,
+            "support_type": "positive_manifestation",
+            "rationale": "Многократно подчёркивал упреждающее снижение рисков, подготовку к кризисам (аграрные цепочки, здравоохранение, климатическая политика), что подтверждается последовательными эпизодами с акцентом на профилактику и подготовку.",
+            "evidence_indices": [
+              0,
+              9,
+              11,
+              16,
+              20
+            ]
+          }
+        },
+        "evidence_file": "evidence/independent-dossier-edouard-ngirente.json",
+        "evidence_basis": "df76c81a51b8427d7a869abebf448a6fb817c9eb1a0e147e8cdfda2bedaf52db"
+      },
+      "negative": {
+        "status": "unknown",
+        "value": null,
+        "confidence": 0,
+        "evidence_indices": [],
+        "source_urls": [],
+        "event_ids": [],
+        "rationale": "Нет прямых эпизодов, где бы акцент делался на реагировании после возникновения угрозы; профилактика и подготовка преобладают.",
+        "support_type": "unknown",
+        "provenance": {
+          "raw_response_file": "evidence/independent_responses/738f478e7a6683b922fe45e5e1285c153df8c1e593a03d87501dafef0e139835.json",
+          "model": "gpt-4.1",
+          "at": "2026-10-15T17:29:17.038501+00:00",
+          "cache_key": "738f478e7a6683b922fe45e5e1285c153df8c1e593a03d87501dafef0e139835",
+          "original_proposal": {
+            "variable_id": "prevention-crisis-response__negative",
+            "status": "unknown",
+            "value": null,
+            "confidence": 0.3,
+            "support_type": "unknown",
+            "rationale": "Нет прямых эпизодов, где бы акцент делался на реагировании после возникновения угрозы; профилактика и подготовка преобладают.",
+            "evidence_indices": []
+          }
+        },
+        "evidence_file": "evidence/independent-dossier-edouard-ngirente.json",
+        "evidence_basis": "df76c81a51b8427d7a869abebf448a6fb817c9eb1a0e147e8cdfda2bedaf52db"
+      }
+    },
+    "positive": 3,
+    "negative": null,
+    "value": null,
+    "status": "partial",
+    "difference": null,
+    "mass": null,
+    "measurement_model": "independent_poles",
+    "evidence_file": "evidence/independent-dossier-edouard-ngirente.json",
+    "evidence_basis": "df76c81a51b8427d7a869abebf448a6fb817c9eb1a0e147e8cdfda2bedaf52db",
+    "at": "2026-10-15T17:29:17.042498+00:00",
+    "reason": "Каждое свойство оценивается независимо; разность и искусственное дополнение до пяти не вычисляются"
+  },
+  {
+    "object_id": "edouard-ngirente",
+    "scale_id": "electoral-access",
+    "pole_scores": {
+      "positive": {
+        "status": "unknown",
+        "value": null,
+        "confidence": 0,
+        "evidence_indices": [],
+        "source_urls": [],
+        "event_ids": [],
+        "rationale": "Нет персональных эпизодов расширения доступа к выборной конкуренции или выдвижения требований по снижению барьеров.",
+        "support_type": "unknown",
+        "provenance": {
+          "raw_response_file": "evidence/independent_responses/738f478e7a6683b922fe45e5e1285c153df8c1e593a03d87501dafef0e139835.json",
+          "model": "gpt-4.1",
+          "at": "2026-10-15T17:29:17.038501+00:00",
+          "cache_key": "738f478e7a6683b922fe45e5e1285c153df8c1e593a03d87501dafef0e139835",
+          "original_proposal": {
+            "variable_id": "electoral-access__positive",
+            "status": "unknown",
+            "value": null,
+            "confidence": 0.2,
+            "support_type": "unknown",
+            "rationale": "Нет персональных эпизодов расширения доступа к выборной конкуренции или выдвижения требований по снижению барьеров.",
+            "evidence_indices": []
+          }
+        },
+        "evidence_file": "evidence/independent-dossier-edouard-ngirente.json",
+        "evidence_basis": "df76c81a51b8427d7a869abebf448a6fb817c9eb1a0e147e8cdfda2bedaf52db"
+      },
+      "negative": {
+        "status": "unknown",
+        "value": null,
+        "confidence": 0,
+        "evidence_indices": [],
+        "source_urls": [],
+        "event_ids": [],
+        "rationale": "Нет персональных эпизодов предложения или поддержки усиления политических барьеров.",
+        "support_type": "unknown",
+        "provenance": {
+          "raw_response_file": "evidence/independent_responses/738f478e7a6683b922fe45e5e1285c153df8c1e593a03d87501dafef0e139835.json",
+          "model": "gpt-4.1",
+          "at": "2026-10-15T17:29:17.038501+00:00",
+          "cache_key": "738f478e7a6683b922fe45e5e1285c153df8c1e593a03d87501dafef0e139835",
+          "original_proposal": {
+            "variable_id": "electoral-access__negative",
+            "status": "unknown",
+            "value": null,
+            "confidence": 0.2,
+            "support_type": "unknown",
+            "rationale": "Нет персональных эпизодов предложения или поддержки усиления политических барьеров.",
+            "evidence_indices": []
+          }
+        },
+        "evidence_file": "evidence/independent-dossier-edouard-ngirente.json",
+        "evidence_basis": "df76c81a51b8427d7a869abebf448a6fb817c9eb1a0e147e8cdfda2bedaf52db"
+      }
+    },
+    "positive": null,
+    "negative": null,
+    "value": null,
+    "status": "unknown",
+    "difference": null,
+    "mass": null,
+    "measurement_model": "independent_poles",
+    "evidence_file": "evidence/independent-dossier-edouard-ngirente.json",
+    "evidence_basis": "df76c81a51b8427d7a869abebf448a6fb817c9eb1a0e147e8cdfda2bedaf52db",
+    "at": "2026-10-15T17:29:17.042498+00:00",
+    "reason": "Каждое свойство оценивается независимо; разность и искусственное дополнение до пяти не вычисляются"
+  },
+  {
+    "object_id": "edouard-ngirente",
+    "scale_id": "institutional-autonomy-coordination",
+    "pole_scores": {
+      "positive": {
+        "status": "unknown",
+        "value": null,
+        "confidence": 0,
+        "evidence_indices": [],
+        "source_urls": [],
+        "event_ids": [],
+        "rationale": "Нет прямых эпизодов, где бы он публично защищал автономию институтов или межинституциональный контроль.",
+        "support_type": "unknown",
+        "provenance": {
+          "raw_response_file": "evidence/independent_responses/738f478e7a6683b922fe45e5e1285c153df8c1e593a03d87501dafef0e139835.json",
+          "model": "gpt-4.1",
+          "at": "2026-10-15T17:29:17.038501+00:00",
+          "cache_key": "738f478e7a6683b922fe45e5e1285c153df8c1e593a03d87501dafef0e139835",
+          "original_proposal": {
+            "variable_id": "institutional-autonomy-coordination__positive",
+            "status": "unknown",
+            "value": null,
+            "confidence": 0.3,
+            "support_type": "unknown",
+            "rationale": "Нет прямых эпизодов, где бы он публично защищал автономию институтов или межинституциональный контроль.",
+            "evidence_indices": []
+          }
+        },
+        "evidence_file": "evidence/independent-dossier-edouard-ngirente.json",
+        "evidence_basis": "df76c81a51b8427d7a869abebf448a6fb817c9eb1a0e147e8cdfda2bedaf52db"
+      },
+      "negative": {
+        "status": "observed",
+        "value": 2,
+        "confidence": 0.6,
+        "evidence_indices": [
+          8,
+          10,
+          14
+        ],
+        "source_urls": [
+          "https://primature.prod.risa.rw/news-detail/pm-nsengiyumva-officially-sworn-in-as-prime-minister",
+          "https://www.africa-press.net/rwanda/policy/pm-ngirente-urges-officials-to-prioritize-public-service-over-self-interest",
+          "https://www.primature.gov.rw/news-detail/prime-minister-officiated-the-celebration-of-the-national-umuganura-day"
+        ],
+        "event_ids": [
+          "ngirente-handover-2025",
+          "ngirente-unity-club-2023",
+          "ngirente-2022-08-05-umuganura"
+        ],
+        "rationale": "Публичные призывы к ускорению реализации национальной стратегии, координация работы органов и административное управление указывают на согласование работы институтов единой линией.",
+        "support_type": "positive_manifestation",
+        "provenance": {
+          "raw_response_file": "evidence/independent_responses/738f478e7a6683b922fe45e5e1285c153df8c1e593a03d87501dafef0e139835.json",
+          "model": "gpt-4.1",
+          "at": "2026-10-15T17:29:17.038501+00:00",
+          "cache_key": "738f478e7a6683b922fe45e5e1285c153df8c1e593a03d87501dafef0e139835",
+          "original_proposal": {
+            "variable_id": "institutional-autonomy-coordination__negative",
+            "status": "observed",
+            "value": 2,
+            "confidence": 0.6,
+            "support_type": "positive_manifestation",
+            "rationale": "Публичные призывы к ускорению реализации национальной стратегии, координация работы органов и административное управление указывают на согласование работы институтов единой линией.",
+            "evidence_indices": [
+              8,
+              10,
+              14
+            ]
+          }
+        },
+        "evidence_file": "evidence/independent-dossier-edouard-ngirente.json",
+        "evidence_basis": "df76c81a51b8427d7a869abebf448a6fb817c9eb1a0e147e8cdfda2bedaf52db"
+      }
+    },
+    "positive": null,
+    "negative": 2,
+    "value": null,
+    "status": "partial",
+    "difference": null,
+    "mass": null,
+    "measurement_model": "independent_poles",
+    "evidence_file": "evidence/independent-dossier-edouard-ngirente.json",
+    "evidence_basis": "df76c81a51b8427d7a869abebf448a6fb817c9eb1a0e147e8cdfda2bedaf52db",
+    "at": "2026-10-15T17:29:17.042498+00:00",
+    "reason": "Каждое свойство оценивается независимо; разность и искусственное дополнение до пяти не вычисляются"
+  },
+  {
+    "object_id": "edouard-ngirente",
+    "scale_id": "taxation-burden-public-revenue",
+    "pole_scores": {
+      "positive": {
+        "status": "unknown",
+        "value": null,
+        "confidence": 0,
+        "evidence_indices": [],
+        "source_urls": [],
+        "event_ids": [],
+        "rationale": "Нет персональных предложений по снижению налоговой нагрузки или расширению имущественной самостоятельности.",
+        "support_type": "unknown",
+        "provenance": {
+          "raw_response_file": "evidence/independent_responses/738f478e7a6683b922fe45e5e1285c153df8c1e593a03d87501dafef0e139835.json",
+          "model": "gpt-4.1",
+          "at": "2026-10-15T17:29:17.038501+00:00",
+          "cache_key": "738f478e7a6683b922fe45e5e1285c153df8c1e593a03d87501dafef0e139835",
+          "original_proposal": {
+            "variable_id": "taxation-burden-public-revenue__positive",
+            "status": "unknown",
+            "value": null,
+            "confidence": 0.3,
+            "support_type": "unknown",
+            "rationale": "Нет персональных предложений по снижению налоговой нагрузки или расширению имущественной самостоятельности.",
+            "evidence_indices": []
+          }
+        },
+        "evidence_file": "evidence/independent-dossier-edouard-ngirente.json",
+        "evidence_basis": "df76c81a51b8427d7a869abebf448a6fb817c9eb1a0e147e8cdfda2bedaf52db"
+      },
+      "negative": {
+        "status": "observed",
+        "value": 2,
+        "confidence": 0.6,
+        "evidence_indices": [
+          9,
+          13,
+          20
+        ],
+        "source_urls": [
+          "https://www.primature.gov.rw/news-detail/prime-minister-presented-to-parliament-governments-actions-related-to-de-risking-agricultural-value-chains-to-increase-production",
+          "https://www.primature.gov.rw/news-detail/the-prime-minister-presented-government-actions-related-to-achievements-in-basic-education-primary-secondary"
+        ],
+        "event_ids": [
+          "ngirente-agriculture-parliament-2023",
+          "ngirente-2022-08-01-basic-education",
+          "ngirente-2023-04-03-agricultural-value-chains"
+        ],
+        "rationale": "Публично сообщал об увеличении финансирования образования, питания, поддержки аграрных проектов, что подразумевает акцент на расширении публичных доходов для развития, хотя прямых заявлений о налогах не найдено.",
+        "support_type": "positive_manifestation",
+        "provenance": {
+          "raw_response_file": "evidence/independent_responses/738f478e7a6683b922fe45e5e1285c153df8c1e593a03d87501dafef0e139835.json",
+          "model": "gpt-4.1",
+          "at": "2026-10-15T17:29:17.038501+00:00",
+          "cache_key": "738f478e7a6683b922fe45e5e1285c153df8c1e593a03d87501dafef0e139835",
+          "original_proposal": {
+            "variable_id": "taxation-burden-public-revenue__negative",
+            "status": "observed",
+            "value": 2,
+            "confidence": 0.6,
+            "support_type": "positive_manifestation",
+            "rationale": "Публично сообщал об увеличении финансирования образования, питания, поддержки аграрных проектов, что подразумевает акцент на расширении публичных доходов для развития, хотя прямых заявлений о налогах не найдено.",
+            "evidence_indices": [
+              9,
+              13,
+              20
+            ]
+          }
+        },
+        "evidence_file": "evidence/independent-dossier-edouard-ngirente.json",
+        "evidence_basis": "df76c81a51b8427d7a869abebf448a6fb817c9eb1a0e147e8cdfda2bedaf52db"
+      }
+    },
+    "positive": null,
+    "negative": 2,
+    "value": null,
+    "status": "partial",
+    "difference": null,
+    "mass": null,
+    "measurement_model": "independent_poles",
+    "evidence_file": "evidence/independent-dossier-edouard-ngirente.json",
+    "evidence_basis": "df76c81a51b8427d7a869abebf448a6fb817c9eb1a0e147e8cdfda2bedaf52db",
+    "at": "2026-10-15T17:29:17.042498+00:00",
+    "reason": "Каждое свойство оценивается независимо; разность и искусственное дополнение до пяти не вычисляются"
+  },
+  {
+    "object_id": "edouard-ngirente",
+    "scale_id": "universal-targeted-provision",
+    "pole_scores": {
+      "positive": {
+        "status": "observed",
+        "value": 3,
+        "confidence": 0.8,
+        "evidence_indices": [
+          13,
+          16,
+          20
+        ],
+        "source_urls": [
+          "https://www.primature.gov.rw/news-detail/the-prime-minister-presented-government-actions-related-to-achievements-in-basic-education-primary-secondary",
+          "https://www.primature.gov.rw/news-detail/prime-minister-presided-over-the-opening-ceremony-of-the-2nd-international-conference-on-public-health-in-africa",
+          "https://www.primature.gov.rw/news-detail/prime-minister-presented-to-parliament-governments-actions-related-to-de-risking-agricultural-value-chains-to-increase-production"
+        ],
+        "event_ids": [
+          "ngirente-2022-08-01-basic-education",
+          "ngirente-2022-12-13-public-health-africa",
+          "ngirente-2023-04-03-agricultural-value-chains"
+        ],
+        "rationale": "Многократно подчёркивал расширение всеобщего доступа к базовым благам (образование, здравоохранение, питание), приводил количественные показатели охвата и инвестиций.",
+        "support_type": "positive_manifestation",
+        "provenance": {
+          "raw_response_file": "evidence/independent_responses/738f478e7a6683b922fe45e5e1285c153df8c1e593a03d87501dafef0e139835.json",
+          "model": "gpt-4.1",
+          "at": "2026-10-15T17:29:17.038501+00:00",
+          "cache_key": "738f478e7a6683b922fe45e5e1285c153df8c1e593a03d87501dafef0e139835",
+          "original_proposal": {
+            "variable_id": "universal-targeted-provision__positive",
+            "status": "observed",
+            "value": 3,
+            "confidence": 0.8,
+            "support_type": "positive_manifestation",
+            "rationale": "Многократно подчёркивал расширение всеобщего доступа к базовым благам (образование, здравоохранение, питание), приводил количественные показатели охвата и инвестиций.",
+            "evidence_indices": [
+              13,
+              16,
+              20
+            ]
+          }
+        },
+        "evidence_file": "evidence/independent-dossier-edouard-ngirente.json",
+        "evidence_basis": "df76c81a51b8427d7a869abebf448a6fb817c9eb1a0e147e8cdfda2bedaf52db"
+      },
+      "negative": {
+        "status": "observed",
+        "value": 2,
+        "confidence": 0.6,
+        "evidence_indices": [
+          2,
+          9,
+          20
+        ],
+        "source_urls": [
+          "https://www.rica.rw/wp-content/uploads/2025/09/RICA-Focus_20-Dec-2024.pdf",
+          "https://www.primature.gov.rw/news-detail/prime-minister-presented-to-parliament-governments-actions-related-to-de-risking-agricultural-value-chains-to-increase-production"
+        ],
+        "event_ids": [
+          "ngirente-rica-graduation-2024",
+          "ngirente-agriculture-parliament-2023",
+          "ngirente-2023-04-03-agricultural-value-chains"
+        ],
+        "rationale": "В ряде эпизодов отмечал приоритетную поддержку молодёжи, учителей, отдельных групп в аграрном секторе, что указывает на ограниченное проявление адресных мер.",
+        "support_type": "positive_manifestation",
+        "provenance": {
+          "raw_response_file": "evidence/independent_responses/738f478e7a6683b922fe45e5e1285c153df8c1e593a03d87501dafef0e139835.json",
+          "model": "gpt-4.1",
+          "at": "2026-10-15T17:29:17.038501+00:00",
+          "cache_key": "738f478e7a6683b922fe45e5e1285c153df8c1e593a03d87501dafef0e139835",
+          "original_proposal": {
+            "variable_id": "universal-targeted-provision__negative",
+            "status": "observed",
+            "value": 2,
+            "confidence": 0.6,
+            "support_type": "positive_manifestation",
+            "rationale": "В ряде эпизодов отмечал приоритетную поддержку молодёжи, учителей, отдельных групп в аграрном секторе, что указывает на ограниченное проявление адресных мер.",
+            "evidence_indices": [
+              2,
+              9,
+              20
+            ]
+          }
+        },
+        "evidence_file": "evidence/independent-dossier-edouard-ngirente.json",
+        "evidence_basis": "df76c81a51b8427d7a869abebf448a6fb817c9eb1a0e147e8cdfda2bedaf52db"
+      }
+    },
+    "positive": 3,
+    "negative": 2,
+    "value": null,
+    "status": "observed",
+    "difference": null,
+    "mass": null,
+    "measurement_model": "independent_poles",
+    "evidence_file": "evidence/independent-dossier-edouard-ngirente.json",
+    "evidence_basis": "df76c81a51b8427d7a869abebf448a6fb817c9eb1a0e147e8cdfda2bedaf52db",
+    "at": "2026-10-15T17:29:17.042498+00:00",
+    "reason": "Каждое свойство оценивается независимо; разность и искусственное дополнение до пяти не вычисляются"
+  },
+  {
+    "object_id": "edouard-ngirente",
+    "scale_id": "ecological-limits-resource-use",
+    "pole_scores": {
+      "positive": {
+        "status": "observed",
+        "value": 3,
+        "confidence": 0.8,
+        "evidence_indices": [
+          0,
+          12
+        ],
+        "source_urls": [
+          "https://unfccc.int/sites/default/files/resource/RWANDA_cop26cmp16cma3_HLS_EN.pdf",
+          "https://www.primature.gov.rw/fileadmin/user_upload/Primature/Publications/Speeches/English/Prime_Minister_s_National_Statement_at_UNEA.pdf"
+        ],
+        "event_ids": [
+          "ngirente-cop26-2021",
+          "ngirente-unea-2024"
+        ],
+        "rationale": "Публично заявлял о жёстких климатических целях, поддержке международных экологических соглашений, сокращении выбросов и ограничении производства пластика; устойчивый акцент на природоохранных ограничениях.",
+        "support_type": "positive_manifestation",
+        "provenance": {
+          "raw_response_file": "evidence/independent_responses/738f478e7a6683b922fe45e5e1285c153df8c1e593a03d87501dafef0e139835.json",
+          "model": "gpt-4.1",
+          "at": "2026-10-15T17:29:17.038501+00:00",
+          "cache_key": "738f478e7a6683b922fe45e5e1285c153df8c1e593a03d87501dafef0e139835",
+          "original_proposal": {
+            "variable_id": "ecological-limits-resource-use__positive",
+            "status": "observed",
+            "value": 3,
+            "confidence": 0.8,
+            "support_type": "positive_manifestation",
+            "rationale": "Публично заявлял о жёстких климатических целях, поддержке международных экологических соглашений, сокращении выбросов и ограничении производства пластика; устойчивый акцент на природоохранных ограничениях.",
+            "evidence_indices": [
+              0,
+              12
+            ]
+          }
+        },
+        "evidence_file": "evidence/independent-dossier-edouard-ngirente.json",
+        "evidence_basis": "df76c81a51b8427d7a869abebf448a6fb817c9eb1a0e147e8cdfda2bedaf52db"
+      },
+      "negative": {
+        "status": "unknown",
+        "value": null,
+        "confidence": 0,
+        "evidence_indices": [],
+        "source_urls": [],
+        "event_ids": [],
+        "rationale": "Нет эпизодов, где бы он прямо выступал за расширение хозяйственного использования природных ресурсов или ослабление экологических ограничений.",
+        "support_type": "unknown",
+        "provenance": {
+          "raw_response_file": "evidence/independent_responses/738f478e7a6683b922fe45e5e1285c153df8c1e593a03d87501dafef0e139835.json",
+          "model": "gpt-4.1",
+          "at": "2026-10-15T17:29:17.038501+00:00",
+          "cache_key": "738f478e7a6683b922fe45e5e1285c153df8c1e593a03d87501dafef0e139835",
+          "original_proposal": {
+            "variable_id": "ecological-limits-resource-use__negative",
+            "status": "unknown",
+            "value": null,
+            "confidence": 0.3,
+            "support_type": "unknown",
+            "rationale": "Нет эпизодов, где бы он прямо выступал за расширение хозяйственного использования природных ресурсов или ослабление экологических ограничений.",
+            "evidence_indices": []
+          }
+        },
+        "evidence_file": "evidence/independent-dossier-edouard-ngirente.json",
+        "evidence_basis": "df76c81a51b8427d7a869abebf448a6fb817c9eb1a0e147e8cdfda2bedaf52db"
+      }
+    },
+    "positive": 3,
+    "negative": null,
+    "value": null,
+    "status": "partial",
+    "difference": null,
+    "mass": null,
+    "measurement_model": "independent_poles",
+    "evidence_file": "evidence/independent-dossier-edouard-ngirente.json",
+    "evidence_basis": "df76c81a51b8427d7a869abebf448a6fb817c9eb1a0e147e8cdfda2bedaf52db",
+    "at": "2026-10-15T17:29:17.042498+00:00",
+    "reason": "Каждое свойство оценивается независимо; разность и искусственное дополнение до пяти не вычисляются"
+  },
+  {
+    "object_id": "edouard-ngirente",
+    "scale_id": "russia-diplomatic-engagement",
+    "pole_scores": {
+      "positive": {
+        "status": "unknown",
+        "value": null,
+        "confidence": 0,
+        "evidence_indices": [],
+        "source_urls": [],
+        "event_ids": [],
+        "rationale": "Нет допустимых датированных персональных свидетельств по этому свойству",
+        "support_type": "unknown"
+      },
+      "negative": {
+        "status": "unknown",
+        "value": null,
+        "confidence": 0,
+        "evidence_indices": [],
+        "source_urls": [],
+        "event_ids": [],
+        "rationale": "Нет допустимых датированных персональных свидетельств по этому свойству",
+        "support_type": "unknown"
+      }
+    },
+    "positive": null,
+    "negative": null,
+    "value": null,
+    "status": "unknown",
+    "difference": null,
+    "mass": null,
+    "measurement_model": "independent_poles",
+    "evidence_file": "evidence/independent-dossier-edouard-ngirente.json",
+    "evidence_basis": "df76c81a51b8427d7a869abebf448a6fb817c9eb1a0e147e8cdfda2bedaf52db",
+    "at": "2026-10-15T17:29:17.042498+00:00",
+    "reason": "Каждое свойство оценивается независимо; разность и искусственное дополнение до пяти не вычисляются"
+  },
+  {
+    "object_id": "edouard-ngirente",
+    "scale_id": "russia-security-cooperation",
+    "pole_scores": {
+      "positive": {
+        "status": "unknown",
+        "value": null,
+        "confidence": 0,
+        "evidence_indices": [],
+        "source_urls": [],
+        "event_ids": [],
+        "rationale": "Нет допустимых датированных персональных свидетельств по этому свойству",
+        "support_type": "unknown"
+      },
+      "negative": {
+        "status": "unknown",
+        "value": null,
+        "confidence": 0,
+        "evidence_indices": [],
+        "source_urls": [],
+        "event_ids": [],
+        "rationale": "Нет допустимых датированных персональных свидетельств по этому свойству",
+        "support_type": "unknown"
+      }
+    },
+    "positive": null,
+    "negative": null,
+    "value": null,
+    "status": "unknown",
+    "difference": null,
+    "mass": null,
+    "measurement_model": "independent_poles",
+    "evidence_file": "evidence/independent-dossier-edouard-ngirente.json",
+    "evidence_basis": "df76c81a51b8427d7a869abebf448a6fb817c9eb1a0e147e8cdfda2bedaf52db",
+    "at": "2026-10-15T17:29:17.042498+00:00",
+    "reason": "Каждое свойство оценивается независимо; разность и искусственное дополнение до пяти не вычисляются"
+  },
+  {
+    "object_id": "edouard-ngirente",
+    "scale_id": "russia-economic-technology-cooperation",
+    "pole_scores": {
+      "positive": {
+        "status": "unknown",
+        "value": null,
+        "confidence": 0,
+        "evidence_indices": [],
+        "source_urls": [],
+        "event_ids": [],
+        "rationale": "Нет допустимых датированных персональных свидетельств по этому свойству",
+        "support_type": "unknown"
+      },
+      "negative": {
+        "status": "unknown",
+        "value": null,
+        "confidence": 0,
+        "evidence_indices": [],
+        "source_urls": [],
+        "event_ids": [],
+        "rationale": "Нет допустимых датированных персональных свидетельств по этому свойству",
+        "support_type": "unknown"
+      }
+    },
+    "positive": null,
+    "negative": null,
+    "value": null,
+    "status": "unknown",
+    "difference": null,
+    "mass": null,
+    "measurement_model": "independent_poles",
+    "evidence_file": "evidence/independent-dossier-edouard-ngirente.json",
+    "evidence_basis": "df76c81a51b8427d7a869abebf448a6fb817c9eb1a0e147e8cdfda2bedaf52db",
+    "at": "2026-10-15T17:29:17.042498+00:00",
+    "reason": "Каждое свойство оценивается независимо; разность и искусственное дополнение до пяти не вычисляются"
+  },
+  {
+    "object_id": "edouard-ngirente",
+    "scale_id": "russia-education-cultural-cooperation",
+    "pole_scores": {
+      "positive": {
+        "status": "unknown",
+        "value": null,
+        "confidence": 0,
+        "evidence_indices": [],
+        "source_urls": [],
+        "event_ids": [],
+        "rationale": "Нет допустимых датированных персональных свидетельств по этому свойству",
+        "support_type": "unknown"
+      },
+      "negative": {
+        "status": "unknown",
+        "value": null,
+        "confidence": 0,
+        "evidence_indices": [],
+        "source_urls": [],
+        "event_ids": [],
+        "rationale": "Нет допустимых датированных персональных свидетельств по этому свойству",
+        "support_type": "unknown"
+      }
+    },
+    "positive": null,
+    "negative": null,
+    "value": null,
+    "status": "unknown",
+    "difference": null,
+    "mass": null,
+    "measurement_model": "independent_poles",
+    "evidence_file": "evidence/independent-dossier-edouard-ngirente.json",
+    "evidence_basis": "df76c81a51b8427d7a869abebf448a6fb817c9eb1a0e147e8cdfda2bedaf52db",
+    "at": "2026-10-15T17:29:17.042498+00:00",
+    "reason": "Каждое свойство оценивается независимо; разность и искусственное дополнение до пяти не вычисляются"
+  },
+  {
+    "object_id": "edouard-ngirente",
+    "scale_id": "russia-conflict-policy-evaluation",
+    "pole_scores": {
+      "positive": {
+        "status": "unknown",
+        "value": null,
+        "confidence": 0,
+        "evidence_indices": [],
+        "source_urls": [],
+        "event_ids": [],
+        "rationale": "Нет допустимых датированных персональных свидетельств по этому свойству",
+        "support_type": "unknown"
+      },
+      "negative": {
+        "status": "unknown",
+        "value": null,
+        "confidence": 0,
+        "evidence_indices": [],
+        "source_urls": [],
+        "event_ids": [],
+        "rationale": "Нет допустимых датированных персональных свидетельств по этому свойству",
+        "support_type": "unknown"
+      }
+    },
+    "positive": null,
+    "negative": null,
+    "value": null,
+    "status": "unknown",
+    "difference": null,
+    "mass": null,
+    "measurement_model": "independent_poles",
+    "evidence_file": "evidence/independent-dossier-edouard-ngirente.json",
+    "evidence_basis": "df76c81a51b8427d7a869abebf448a6fb817c9eb1a0e147e8cdfda2bedaf52db",
+    "at": "2026-10-15T17:29:17.042498+00:00",
+    "reason": "Каждое свойство оценивается независимо; разность и искусственное дополнение до пяти не вычисляются"
+  },
+  {
+    "object_id": "edouard-ngirente",
+    "scale_id": "russia-isolation-sanctions",
+    "pole_scores": {
+      "positive": {
+        "status": "unknown",
+        "value": null,
+        "confidence": 0,
+        "evidence_indices": [],
+        "source_urls": [],
+        "event_ids": [],
+        "rationale": "Нет допустимых датированных персональных свидетельств по этому свойству",
+        "support_type": "unknown"
+      },
+      "negative": {
+        "status": "unknown",
+        "value": null,
+        "confidence": 0,
+        "evidence_indices": [],
+        "source_urls": [],
+        "event_ids": [],
+        "rationale": "Нет допустимых датированных персональных свидетельств по этому свойству",
+        "support_type": "unknown"
+      }
+    },
+    "positive": null,
+    "negative": null,
+    "value": null,
+    "status": "unknown",
+    "difference": null,
+    "mass": null,
+    "measurement_model": "independent_poles",
+    "evidence_file": "evidence/independent-dossier-edouard-ngirente.json",
+    "evidence_basis": "df76c81a51b8427d7a869abebf448a6fb817c9eb1a0e147e8cdfda2bedaf52db",
+    "at": "2026-10-15T17:29:17.042498+00:00",
+    "reason": "Каждое свойство оценивается независимо; разность и искусственное дополнение до пяти не вычисляются"
+  }
+]

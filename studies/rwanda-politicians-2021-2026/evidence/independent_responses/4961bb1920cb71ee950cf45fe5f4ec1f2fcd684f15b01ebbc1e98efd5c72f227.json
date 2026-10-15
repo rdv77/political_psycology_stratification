@@ -1,0 +1,48 @@
+{
+  "data": {
+    "ratings": [
+      {
+        "variable_id": "russia-security-cooperation__positive",
+        "status": "observed",
+        "value": 1,
+        "confidence": 0.6,
+        "support_type": "positive_manifestation",
+        "rationale": "Факты подтверждают, что Жювеналь Маризамунда как министр обороны Руанды лично встретился с российской делегацией на полях межправительственной комиссии по военно-техническому сотрудничеству и обсуждал приоритеты двустороннего оборонного партнёрства. Это свидетельствует о единичном публичном проявлении участия в развитии военно-технического сотрудничества с Россией, однако отсутствует информация о его личных заявлениях или решениях, что ограничивает выраженность до уровня 1.",
+        "evidence_indices": [
+          4,
+          13
+        ]
+      },
+      {
+        "variable_id": "russia-security-cooperation__negative",
+        "status": "unknown",
+        "value": null,
+        "confidence": 0.2,
+        "support_type": "unknown",
+        "rationale": "Нет сведений о действиях или публичных заявлениях Жювеналя Маризамунды, направленных на ограничение военно-технического сотрудничества с Россией в указанный период.",
+        "evidence_indices": []
+      }
+    ]
+  },
+  "model": "gpt-4.1",
+  "task": "independent-ratings-juvenal-marizamunda-3",
+  "at": "2026-10-15T17:29:35.815737+00:00",
+  "usage": {
+    "prompt_tokens": 1461,
+    "completion_tokens": 241,
+    "total_tokens": 1702,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "audio_tokens": 0
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "audio_tokens": 0,
+      "accepted_prediction_tokens": 0,
+      "rejected_prediction_tokens": 0
+    }
+  },
+  "citations": [],
+  "system_fingerprint": "fp_bf68c0ffb5",
+  "cache_key": "4961bb1920cb71ee950cf45fe5f4ec1f2fcd684f15b01ebbc1e98efd5c72f227"
+}

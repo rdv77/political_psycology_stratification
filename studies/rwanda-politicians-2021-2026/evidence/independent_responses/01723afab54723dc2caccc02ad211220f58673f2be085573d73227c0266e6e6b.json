@@ -1,0 +1,55 @@
+{
+  "data": {
+    "facts": [
+      {
+        "capacity": "CEO Rwanda Development Board",
+        "channel": "official_act",
+        "event_id": "gatare-kic-groundbreaking-2024-09-11",
+        "period": "2024-09-11",
+        "source_url": "https://rdb.rw/the-government-of-rwanda-africa50-and-badea-break-ground-on-the-construction-of-kigali-innovation-city/",
+        "text": "На церемонии начала строительства Kigali Innovation City Гатаре представил проект как коллективную национальную цель и связал его с инновациями, образованием и технологиями как основами будущего Руанды. Это публичная поддержка инвестиционно-инновационного курса и конкретного проекта; источник подтверждает объявление и запуск строительства, но не завершение проекта и не личную позицию вне должностной роли.",
+        "topic_ids": [
+          "accessibility-growth-priorities__negative",
+          "programmatic-renewal__negative",
+          "external-domestic-resources__positive"
+        ]
+      }
+    ],
+    "limitations": "Доступные результаты поиска дали только один пригодный, датированный и не повторяющий уже перечисленные эпизод первичный материал в пределах заданного периода. Остальные результаты либо относятся к периоду после 2026-10-15, либо к более ранним годам, либо не являются первичными материалами. Поэтому требуемые 18–24 эпизода без выдумывания сведений составить нельзя.",
+    "sources": [
+      {
+        "title": "The Government of Rwanda, Africa50 and BADEA break ground on the construction of Kigali Innovation City",
+        "url": "https://rdb.rw/the-government-of-rwanda-africa50-and-badea-break-ground-on-the-construction-of-kigali-innovation-city/"
+      }
+    ]
+  },
+  "model": "sonar-pro",
+  "task": "independent-retrieval-francis-gatare",
+  "at": "2026-10-15T17:22:29.327563+00:00",
+  "usage": {
+    "completion_tokens": 399,
+    "cost": {
+      "input_tokens_cost": 0.00426,
+      "output_tokens_cost": 0.0012,
+      "request_cost": 0.0025,
+      "total_cost": 0.00796
+    },
+    "prompt_tokens": 3161,
+    "search_context_size": "low",
+    "total_tokens": 3560
+  },
+  "citations": [
+    "https://thedawnrwanda.com/index.php/2026/08/25/asg-chief-calls-for-mindset-shift-to-drive-africas-development/politics/national/",
+    "https://www.newtimes.co.rw/article/38376/news/rwanda/africa-must-overcome-mindset-that-settles-for-less-asg-president-gatare",
+    "https://rdb.rw/the-government-of-rwanda-africa50-and-badea-break-ground-on-the-construction-of-kigali-innovation-city/",
+    "https://businessrwanda.wordpress.com/2008/05/27/the-power-of-five/",
+    "https://x.com/NewTimesRwanda/status/2091763961205076187",
+    "https://www.newtimes.co.rw/article/38412/news/rwanda/gatare-calls-for-meta-africanism-to-drive-africas-next-step/amp",
+    "https://knowledge.wharton.upenn.edu/article/rebuilding-rwandas-shattered-economy-from-the-ground-up/",
+    "https://businessrwanda.wordpress.com/category/business-acumen/",
+    "https://ffnews.com/news/summit-concludes-drawing-attention-to-africas-potential",
+    "https://studentreview.hks.harvard.edu/how-africa-can-be-the-source-of-global-economic-growth/"
+  ],
+  "system_fingerprint": null,
+  "cache_key": "01723afab54723dc2caccc02ad211220f58673f2be085573d73227c0266e6e6b"
+}

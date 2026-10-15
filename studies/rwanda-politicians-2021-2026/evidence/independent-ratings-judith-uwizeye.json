@@ -1,0 +1,1721 @@
+[
+  {
+    "object_id": "judith-uwizeye",
+    "scale_id": "programmatic-renewal",
+    "pole_scores": {
+      "positive": {
+        "status": "observed",
+        "value": 2,
+        "confidence": 0.7,
+        "evidence_indices": [
+          5,
+          10
+        ],
+        "source_urls": [
+          "https://www.mifotra.gov.rw/news-detail/ministry-of-public-service-and-labour-holds-ministerial-handover-ceremony"
+        ],
+        "event_ids": [
+          "uwizeye-mifotra-handover-2026"
+        ],
+        "rationale": "На церемонии передачи полномочий Увизейе заявила о продолжении реформ государственного сектора и улучшении предоставления услуг, что указывает на ограниченное программное обновление в рамках действующего курса, а не радикальный пересмотр. Эпизод фиксирует ясное ограниченное проявление.",
+        "support_type": "positive_manifestation",
+        "provenance": {
+          "raw_response_file": "evidence/independent_responses/ec6879c6afa8156416b03256bb876c9d6fa0cb6ee293c890705477c936483f5e.json",
+          "model": "gpt-4.1",
+          "at": "2026-10-15T17:30:12.232464+00:00",
+          "cache_key": "ec6879c6afa8156416b03256bb876c9d6fa0cb6ee293c890705477c936483f5e",
+          "original_proposal": {
+            "variable_id": "programmatic-renewal__positive",
+            "status": "observed",
+            "value": 2,
+            "confidence": 0.7,
+            "support_type": "positive_manifestation",
+            "rationale": "На церемонии передачи полномочий Увизейе заявила о продолжении реформ государственного сектора и улучшении предоставления услуг, что указывает на ограниченное программное обновление в рамках действующего курса, а не радикальный пересмотр. Эпизод фиксирует ясное ограниченное проявление.",
+            "evidence_indices": [
+              5,
+              10
+            ]
+          }
+        },
+        "evidence_file": "evidence/independent-dossier-judith-uwizeye.json",
+        "evidence_basis": "10a986459c53c84745dcf9e7a536797727f95e3f7aba3df154ca1f4743d56b15"
+      },
+      "negative": {
+        "status": "observed",
+        "value": 3,
+        "confidence": 0.8,
+        "evidence_indices": [
+          2,
+          5,
+          10,
+          13
+        ],
+        "source_urls": [
+          "https://x.com/J_Uwizeye",
+          "https://www.mifotra.gov.rw/news-detail/ministry-of-public-service-and-labour-holds-ministerial-handover-ceremony"
+        ],
+        "event_ids": [
+          "uwizeye-presidential-trust-2025",
+          "uwizeye-mifotra-handover-2026"
+        ],
+        "rationale": "В ряде эпизодов (передача полномочий, благодарность президенту, акцент на продолжении реформ и улучшении услуг) Увизейе прямо подтверждает продолжение и закрепление действующего курса, без критики или предложения пересмотра приоритетов.",
+        "support_type": "positive_manifestation",
+        "provenance": {
+          "raw_response_file": "evidence/independent_responses/ec6879c6afa8156416b03256bb876c9d6fa0cb6ee293c890705477c936483f5e.json",
+          "model": "gpt-4.1",
+          "at": "2026-10-15T17:30:12.232464+00:00",
+          "cache_key": "ec6879c6afa8156416b03256bb876c9d6fa0cb6ee293c890705477c936483f5e",
+          "original_proposal": {
+            "variable_id": "programmatic-renewal__negative",
+            "status": "observed",
+            "value": 3,
+            "confidence": 0.8,
+            "support_type": "positive_manifestation",
+            "rationale": "В ряде эпизодов (передача полномочий, благодарность президенту, акцент на продолжении реформ и улучшении услуг) Увизейе прямо подтверждает продолжение и закрепление действующего курса, без критики или предложения пересмотра приоритетов.",
+            "evidence_indices": [
+              2,
+              5,
+              10,
+              13
+            ]
+          }
+        },
+        "evidence_file": "evidence/independent-dossier-judith-uwizeye.json",
+        "evidence_basis": "10a986459c53c84745dcf9e7a536797727f95e3f7aba3df154ca1f4743d56b15"
+      }
+    },
+    "positive": 2,
+    "negative": 3,
+    "value": null,
+    "status": "observed",
+    "difference": null,
+    "mass": null,
+    "measurement_model": "independent_poles",
+    "evidence_file": "evidence/independent-dossier-judith-uwizeye.json",
+    "evidence_basis": "10a986459c53c84745dcf9e7a536797727f95e3f7aba3df154ca1f4743d56b15",
+    "at": "2026-10-15T17:30:20.002381+00:00",
+    "reason": "Каждое свойство оценивается независимо; разность и искусственное дополнение до пяти не вычисляются"
+  },
+  {
+    "object_id": "judith-uwizeye",
+    "scale_id": "government-course-assessment",
+    "pole_scores": {
+      "positive": {
+        "status": "observed",
+        "value": 3,
+        "confidence": 0.8,
+        "evidence_indices": [
+          2,
+          5,
+          10,
+          13
+        ],
+        "source_urls": [
+          "https://x.com/J_Uwizeye",
+          "https://www.mifotra.gov.rw/news-detail/ministry-of-public-service-and-labour-holds-ministerial-handover-ceremony"
+        ],
+        "event_ids": [
+          "uwizeye-presidential-trust-2025",
+          "uwizeye-mifotra-handover-2026"
+        ],
+        "rationale": "Публичная благодарность президенту за доверие и акцент на продолжении реформ и достижениях государственного сектора демонстрируют устойчивую поддержку действующего курса.",
+        "support_type": "positive_manifestation",
+        "provenance": {
+          "raw_response_file": "evidence/independent_responses/ec6879c6afa8156416b03256bb876c9d6fa0cb6ee293c890705477c936483f5e.json",
+          "model": "gpt-4.1",
+          "at": "2026-10-15T17:30:12.232464+00:00",
+          "cache_key": "ec6879c6afa8156416b03256bb876c9d6fa0cb6ee293c890705477c936483f5e",
+          "original_proposal": {
+            "variable_id": "government-course-assessment__positive",
+            "status": "observed",
+            "value": 3,
+            "confidence": 0.8,
+            "support_type": "positive_manifestation",
+            "rationale": "Публичная благодарность президенту за доверие и акцент на продолжении реформ и достижениях государственного сектора демонстрируют устойчивую поддержку действующего курса.",
+            "evidence_indices": [
+              2,
+              5,
+              10,
+              13
+            ]
+          }
+        },
+        "evidence_file": "evidence/independent-dossier-judith-uwizeye.json",
+        "evidence_basis": "10a986459c53c84745dcf9e7a536797727f95e3f7aba3df154ca1f4743d56b15"
+      },
+      "negative": {
+        "status": "observed",
+        "value": 1,
+        "confidence": 0.5,
+        "evidence_indices": [
+          14
+        ],
+        "source_urls": [
+          "https://www.mifotra.gov.rw/news-detail/mifotra-and-npsc-discuss-measures-to-strengthen-public-service-management"
+        ],
+        "event_ids": [
+          "uwizeye-public-service-management-2026"
+        ],
+        "rationale": "Упоминание необходимости усилить профессионализм, прозрачность и процедуры обжалования раскрывает отдельные административные риски и меры их предупреждения, что можно трактовать как единичное слабое проявление ограниченной критики.",
+        "support_type": "positive_manifestation",
+        "provenance": {
+          "raw_response_file": "evidence/independent_responses/ec6879c6afa8156416b03256bb876c9d6fa0cb6ee293c890705477c936483f5e.json",
+          "model": "gpt-4.1",
+          "at": "2026-10-15T17:30:12.232464+00:00",
+          "cache_key": "ec6879c6afa8156416b03256bb876c9d6fa0cb6ee293c890705477c936483f5e",
+          "original_proposal": {
+            "variable_id": "government-course-assessment__negative",
+            "status": "observed",
+            "value": 1,
+            "confidence": 0.5,
+            "support_type": "positive_manifestation",
+            "rationale": "Упоминание необходимости усилить профессионализм, прозрачность и процедуры обжалования раскрывает отдельные административные риски и меры их предупреждения, что можно трактовать как единичное слабое проявление ограниченной критики.",
+            "evidence_indices": [
+              14
+            ]
+          }
+        },
+        "evidence_file": "evidence/independent-dossier-judith-uwizeye.json",
+        "evidence_basis": "10a986459c53c84745dcf9e7a536797727f95e3f7aba3df154ca1f4743d56b15"
+      }
+    },
+    "positive": 3,
+    "negative": 1,
+    "value": null,
+    "status": "observed",
+    "difference": null,
+    "mass": null,
+    "measurement_model": "independent_poles",
+    "evidence_file": "evidence/independent-dossier-judith-uwizeye.json",
+    "evidence_basis": "10a986459c53c84745dcf9e7a536797727f95e3f7aba3df154ca1f4743d56b15",
+    "at": "2026-10-15T17:30:20.002381+00:00",
+    "reason": "Каждое свойство оценивается независимо; разность и искусственное дополнение до пяти не вычисляются"
+  },
+  {
+    "object_id": "judith-uwizeye",
+    "scale_id": "participation-administrative-direction",
+    "pole_scores": {
+      "positive": {
+        "status": "unknown",
+        "value": null,
+        "confidence": 0,
+        "evidence_indices": [],
+        "source_urls": [],
+        "event_ids": [],
+        "rationale": "Нет прямых свидетельств приглашения граждан или заинтересованных групп к совместной подготовке решений или общественному контролю.",
+        "support_type": "unknown",
+        "provenance": {
+          "raw_response_file": "evidence/independent_responses/ec6879c6afa8156416b03256bb876c9d6fa0cb6ee293c890705477c936483f5e.json",
+          "model": "gpt-4.1",
+          "at": "2026-10-15T17:30:12.232464+00:00",
+          "cache_key": "ec6879c6afa8156416b03256bb876c9d6fa0cb6ee293c890705477c936483f5e",
+          "original_proposal": {
+            "variable_id": "participation-administrative-direction__positive",
+            "status": "unknown",
+            "value": null,
+            "confidence": 0.3,
+            "support_type": "unknown",
+            "rationale": "Нет прямых свидетельств приглашения граждан или заинтересованных групп к совместной подготовке решений или общественному контролю.",
+            "evidence_indices": []
+          }
+        },
+        "evidence_file": "evidence/independent-dossier-judith-uwizeye.json",
+        "evidence_basis": "10a986459c53c84745dcf9e7a536797727f95e3f7aba3df154ca1f4743d56b15"
+      },
+      "negative": {
+        "status": "observed",
+        "value": 3,
+        "confidence": 0.8,
+        "evidence_indices": [
+          6,
+          11,
+          19
+        ],
+        "source_urls": [
+          "https://www.mod.gov.rw/docs-media/news-detail/mifotra-and-npsc-discuss-measures-to-strengthen-public-service-management",
+          "https://www.mifotra.gov.rw/news-detail/mifotra-and-npsc-discuss-measures-to-strengthen-public-service-management"
+        ],
+        "event_ids": [
+          "uwizeye-public-service-management-2026"
+        ],
+        "rationale": "Совещания с Национальной комиссией госслужбы, обсуждение дисциплинарных процедур, контроль найма и административные поручения подтверждают устойчивый акцент на административной постановке задач и контроле исполнения.",
+        "support_type": "positive_manifestation",
+        "provenance": {
+          "raw_response_file": "evidence/independent_responses/ec6879c6afa8156416b03256bb876c9d6fa0cb6ee293c890705477c936483f5e.json",
+          "model": "gpt-4.1",
+          "at": "2026-10-15T17:30:12.232464+00:00",
+          "cache_key": "ec6879c6afa8156416b03256bb876c9d6fa0cb6ee293c890705477c936483f5e",
+          "original_proposal": {
+            "variable_id": "participation-administrative-direction__negative",
+            "status": "observed",
+            "value": 3,
+            "confidence": 0.8,
+            "support_type": "positive_manifestation",
+            "rationale": "Совещания с Национальной комиссией госслужбы, обсуждение дисциплинарных процедур, контроль найма и административные поручения подтверждают устойчивый акцент на административной постановке задач и контроле исполнения.",
+            "evidence_indices": [
+              6,
+              11,
+              19
+            ]
+          }
+        },
+        "evidence_file": "evidence/independent-dossier-judith-uwizeye.json",
+        "evidence_basis": "10a986459c53c84745dcf9e7a536797727f95e3f7aba3df154ca1f4743d56b15"
+      }
+    },
+    "positive": null,
+    "negative": 3,
+    "value": null,
+    "status": "partial",
+    "difference": null,
+    "mass": null,
+    "measurement_model": "independent_poles",
+    "evidence_file": "evidence/independent-dossier-judith-uwizeye.json",
+    "evidence_basis": "10a986459c53c84745dcf9e7a536797727f95e3f7aba3df154ca1f4743d56b15",
+    "at": "2026-10-15T17:30:20.002381+00:00",
+    "reason": "Каждое свойство оценивается независимо; разность и искусственное дополнение до пяти не вычисляются"
+  },
+  {
+    "object_id": "judith-uwizeye",
+    "scale_id": "argumentation-evidence-values",
+    "pole_scores": {
+      "positive": {
+        "status": "observed",
+        "value": 1,
+        "confidence": 0.5,
+        "evidence_indices": [
+          17
+        ],
+        "source_urls": [
+          "https://www.mifotra.gov.rw/news-detail/mifotra-and-npsc-discuss-measures-to-strengthen-public-service-management"
+        ],
+        "event_ids": [
+          "uwizeye-public-service-management-2026"
+        ],
+        "rationale": "В совещаниях упоминаются проверяемые административные процедуры, однако нет приведённых данных, расчётов или результатов. Это ограниченное проявление обращения к процедурам.",
+        "support_type": "positive_manifestation",
+        "provenance": {
+          "raw_response_file": "evidence/independent_responses/ec6879c6afa8156416b03256bb876c9d6fa0cb6ee293c890705477c936483f5e.json",
+          "model": "gpt-4.1",
+          "at": "2026-10-15T17:30:12.232464+00:00",
+          "cache_key": "ec6879c6afa8156416b03256bb876c9d6fa0cb6ee293c890705477c936483f5e",
+          "original_proposal": {
+            "variable_id": "argumentation-evidence-values__positive",
+            "status": "observed",
+            "value": 1,
+            "confidence": 0.5,
+            "support_type": "positive_manifestation",
+            "rationale": "В совещаниях упоминаются проверяемые административные процедуры, однако нет приведённых данных, расчётов или результатов. Это ограниченное проявление обращения к процедурам.",
+            "evidence_indices": [
+              17
+            ]
+          }
+        },
+        "evidence_file": "evidence/independent-dossier-judith-uwizeye.json",
+        "evidence_basis": "10a986459c53c84745dcf9e7a536797727f95e3f7aba3df154ca1f4743d56b15"
+      },
+      "negative": {
+        "status": "observed",
+        "value": 2,
+        "confidence": 0.7,
+        "evidence_indices": [
+          16,
+          18
+        ],
+        "source_urls": [
+          "https://www.mifotra.gov.rw/news-detail/ministry-of-public-service-and-labour-holds-ministerial-handover-ceremony",
+          "https://www.mifotra.gov.rw/news-detail/mifotra-and-npsc-discuss-measures-to-strengthen-public-service-management"
+        ],
+        "event_ids": [
+          "uwizeye-mifotra-handover-2026",
+          "uwizeye-public-service-management-2026"
+        ],
+        "rationale": "Публичные заявления опираются на ценностные формулы (права работников, профессионализм, этика), что подтверждает ограниченное использование ценностных обоснований.",
+        "support_type": "positive_manifestation",
+        "provenance": {
+          "raw_response_file": "evidence/independent_responses/ec6879c6afa8156416b03256bb876c9d6fa0cb6ee293c890705477c936483f5e.json",
+          "model": "gpt-4.1",
+          "at": "2026-10-15T17:30:12.232464+00:00",
+          "cache_key": "ec6879c6afa8156416b03256bb876c9d6fa0cb6ee293c890705477c936483f5e",
+          "original_proposal": {
+            "variable_id": "argumentation-evidence-values__negative",
+            "status": "observed",
+            "value": 2,
+            "confidence": 0.7,
+            "support_type": "positive_manifestation",
+            "rationale": "Публичные заявления опираются на ценностные формулы (права работников, профессионализм, этика), что подтверждает ограниченное использование ценностных обоснований.",
+            "evidence_indices": [
+              16,
+              18
+            ]
+          }
+        },
+        "evidence_file": "evidence/independent-dossier-judith-uwizeye.json",
+        "evidence_basis": "10a986459c53c84745dcf9e7a536797727f95e3f7aba3df154ca1f4743d56b15"
+      }
+    },
+    "positive": 1,
+    "negative": 2,
+    "value": null,
+    "status": "observed",
+    "difference": null,
+    "mass": null,
+    "measurement_model": "independent_poles",
+    "evidence_file": "evidence/independent-dossier-judith-uwizeye.json",
+    "evidence_basis": "10a986459c53c84745dcf9e7a536797727f95e3f7aba3df154ca1f4743d56b15",
+    "at": "2026-10-15T17:30:20.002381+00:00",
+    "reason": "Каждое свойство оценивается независимо; разность и искусственное дополнение до пяти не вычисляются"
+  },
+  {
+    "object_id": "judith-uwizeye",
+    "scale_id": "market-state-instruments",
+    "pole_scores": {
+      "positive": {
+        "status": "unknown",
+        "value": null,
+        "confidence": 0,
+        "evidence_indices": [],
+        "source_urls": [],
+        "event_ids": [],
+        "rationale": "Нет прямых свидетельств расширения частной инициативы или управления.",
+        "support_type": "unknown",
+        "provenance": {
+          "raw_response_file": "evidence/independent_responses/ec6879c6afa8156416b03256bb876c9d6fa0cb6ee293c890705477c936483f5e.json",
+          "model": "gpt-4.1",
+          "at": "2026-10-15T17:30:12.232464+00:00",
+          "cache_key": "ec6879c6afa8156416b03256bb876c9d6fa0cb6ee293c890705477c936483f5e",
+          "original_proposal": {
+            "variable_id": "market-state-instruments__positive",
+            "status": "unknown",
+            "value": null,
+            "confidence": 0.3,
+            "support_type": "unknown",
+            "rationale": "Нет прямых свидетельств расширения частной инициативы или управления.",
+            "evidence_indices": []
+          }
+        },
+        "evidence_file": "evidence/independent-dossier-judith-uwizeye.json",
+        "evidence_basis": "10a986459c53c84745dcf9e7a536797727f95e3f7aba3df154ca1f4743d56b15"
+      },
+      "negative": {
+        "status": "observed",
+        "value": 2,
+        "confidence": 0.7,
+        "evidence_indices": [
+          19
+        ],
+        "source_urls": [
+          "https://www.mifotra.gov.rw/news-detail/mifotra-and-npsc-discuss-measures-to-strengthen-public-service-management"
+        ],
+        "event_ids": [
+          "uwizeye-public-service-management-2026"
+        ],
+        "rationale": "Обсуждение единых правил госслужбы, контроля найма, дисциплинарных процессов и соблюдения законодательства указывает на ограниченное расширение обязательных административных правил.",
+        "support_type": "positive_manifestation",
+        "provenance": {
+          "raw_response_file": "evidence/independent_responses/ec6879c6afa8156416b03256bb876c9d6fa0cb6ee293c890705477c936483f5e.json",
+          "model": "gpt-4.1",
+          "at": "2026-10-15T17:30:12.232464+00:00",
+          "cache_key": "ec6879c6afa8156416b03256bb876c9d6fa0cb6ee293c890705477c936483f5e",
+          "original_proposal": {
+            "variable_id": "market-state-instruments__negative",
+            "status": "observed",
+            "value": 2,
+            "confidence": 0.7,
+            "support_type": "positive_manifestation",
+            "rationale": "Обсуждение единых правил госслужбы, контроля найма, дисциплинарных процессов и соблюдения законодательства указывает на ограниченное расширение обязательных административных правил.",
+            "evidence_indices": [
+              19
+            ]
+          }
+        },
+        "evidence_file": "evidence/independent-dossier-judith-uwizeye.json",
+        "evidence_basis": "10a986459c53c84745dcf9e7a536797727f95e3f7aba3df154ca1f4743d56b15"
+      }
+    },
+    "positive": null,
+    "negative": 2,
+    "value": null,
+    "status": "partial",
+    "difference": null,
+    "mass": null,
+    "measurement_model": "independent_poles",
+    "evidence_file": "evidence/independent-dossier-judith-uwizeye.json",
+    "evidence_basis": "10a986459c53c84745dcf9e7a536797727f95e3f7aba3df154ca1f4743d56b15",
+    "at": "2026-10-15T17:30:20.002381+00:00",
+    "reason": "Каждое свойство оценивается независимо; разность и искусственное дополнение до пяти не вычисляются"
+  },
+  {
+    "object_id": "judith-uwizeye",
+    "scale_id": "accessibility-growth-priorities",
+    "pole_scores": {
+      "positive": {
+        "status": "observed",
+        "value": 2,
+        "confidence": 0.6,
+        "evidence_indices": [
+          5,
+          7,
+          12
+        ],
+        "source_urls": [
+          "https://www.mifotra.gov.rw/news-detail/ministry-of-public-service-and-labour-holds-ministerial-handover-ceremony",
+          "https://www.mod.gov.rw/docs-media/news-detail/mifotra-and-npsc-discuss-measures-to-strengthen-public-service-management",
+          "https://www.mifotra.gov.rw/news-detail/mifotra-and-npsc-discuss-measures-to-strengthen-public-service-management"
+        ],
+        "event_ids": [
+          "uwizeye-mifotra-handover-2026",
+          "uwizeye-workplace-protection-2026"
+        ],
+        "rationale": "Заявления о поддержке создания рабочих мест, улучшении условий труда и программ для граждан подтверждают ограниченный акцент на расширении доступности благ для определённых групп.",
+        "support_type": "positive_manifestation",
+        "provenance": {
+          "raw_response_file": "evidence/independent_responses/ec6879c6afa8156416b03256bb876c9d6fa0cb6ee293c890705477c936483f5e.json",
+          "model": "gpt-4.1",
+          "at": "2026-10-15T17:30:12.232464+00:00",
+          "cache_key": "ec6879c6afa8156416b03256bb876c9d6fa0cb6ee293c890705477c936483f5e",
+          "original_proposal": {
+            "variable_id": "accessibility-growth-priorities__positive",
+            "status": "observed",
+            "value": 2,
+            "confidence": 0.6,
+            "support_type": "positive_manifestation",
+            "rationale": "Заявления о поддержке создания рабочих мест, улучшении условий труда и программ для граждан подтверждают ограниченный акцент на расширении доступности благ для определённых групп.",
+            "evidence_indices": [
+              5,
+              7,
+              12
+            ]
+          }
+        },
+        "evidence_file": "evidence/independent-dossier-judith-uwizeye.json",
+        "evidence_basis": "10a986459c53c84745dcf9e7a536797727f95e3f7aba3df154ca1f4743d56b15"
+      },
+      "negative": {
+        "status": "unknown",
+        "value": null,
+        "confidence": 0,
+        "evidence_indices": [],
+        "source_urls": [],
+        "event_ids": [],
+        "rationale": "Нет прямых заявлений о приоритете роста инвестиций, экспорта или деловой активности.",
+        "support_type": "unknown",
+        "provenance": {
+          "raw_response_file": "evidence/independent_responses/ec6879c6afa8156416b03256bb876c9d6fa0cb6ee293c890705477c936483f5e.json",
+          "model": "gpt-4.1",
+          "at": "2026-10-15T17:30:12.232464+00:00",
+          "cache_key": "ec6879c6afa8156416b03256bb876c9d6fa0cb6ee293c890705477c936483f5e",
+          "original_proposal": {
+            "variable_id": "accessibility-growth-priorities__negative",
+            "status": "unknown",
+            "value": null,
+            "confidence": 0.3,
+            "support_type": "unknown",
+            "rationale": "Нет прямых заявлений о приоритете роста инвестиций, экспорта или деловой активности.",
+            "evidence_indices": []
+          }
+        },
+        "evidence_file": "evidence/independent-dossier-judith-uwizeye.json",
+        "evidence_basis": "10a986459c53c84745dcf9e7a536797727f95e3f7aba3df154ca1f4743d56b15"
+      }
+    },
+    "positive": 2,
+    "negative": null,
+    "value": null,
+    "status": "partial",
+    "difference": null,
+    "mass": null,
+    "measurement_model": "independent_poles",
+    "evidence_file": "evidence/independent-dossier-judith-uwizeye.json",
+    "evidence_basis": "10a986459c53c84745dcf9e7a536797727f95e3f7aba3df154ca1f4743d56b15",
+    "at": "2026-10-15T17:30:20.002381+00:00",
+    "reason": "Каждое свойство оценивается независимо; разность и искусственное дополнение до пяти не вычисляются"
+  },
+  {
+    "object_id": "judith-uwizeye",
+    "scale_id": "external-domestic-resources",
+    "pole_scores": {
+      "positive": {
+        "status": "unknown",
+        "value": null,
+        "confidence": 0,
+        "evidence_indices": [],
+        "source_urls": [],
+        "event_ids": [],
+        "rationale": "Нет прямых свидетельств о привлечении внешнего финансирования или ресурсных партнёров в персональных заявлениях Увизейе.",
+        "support_type": "unknown",
+        "provenance": {
+          "raw_response_file": "evidence/independent_responses/ec6879c6afa8156416b03256bb876c9d6fa0cb6ee293c890705477c936483f5e.json",
+          "model": "gpt-4.1",
+          "at": "2026-10-15T17:30:12.232464+00:00",
+          "cache_key": "ec6879c6afa8156416b03256bb876c9d6fa0cb6ee293c890705477c936483f5e",
+          "original_proposal": {
+            "variable_id": "external-domestic-resources__positive",
+            "status": "unknown",
+            "value": null,
+            "confidence": 0.3,
+            "support_type": "unknown",
+            "rationale": "Нет прямых свидетельств о привлечении внешнего финансирования или ресурсных партнёров в персональных заявлениях Увизейе.",
+            "evidence_indices": []
+          }
+        },
+        "evidence_file": "evidence/independent-dossier-judith-uwizeye.json",
+        "evidence_basis": "10a986459c53c84745dcf9e7a536797727f95e3f7aba3df154ca1f4743d56b15"
+      },
+      "negative": {
+        "status": "unknown",
+        "value": null,
+        "confidence": 0,
+        "evidence_indices": [],
+        "source_urls": [],
+        "event_ids": [],
+        "rationale": "Нет прямых свидетельств об опоре на внутренние доходы или стратегию снижения зависимости от внешних поступлений.",
+        "support_type": "unknown",
+        "provenance": {
+          "raw_response_file": "evidence/independent_responses/ec6879c6afa8156416b03256bb876c9d6fa0cb6ee293c890705477c936483f5e.json",
+          "model": "gpt-4.1",
+          "at": "2026-10-15T17:30:12.232464+00:00",
+          "cache_key": "ec6879c6afa8156416b03256bb876c9d6fa0cb6ee293c890705477c936483f5e",
+          "original_proposal": {
+            "variable_id": "external-domestic-resources__negative",
+            "status": "unknown",
+            "value": null,
+            "confidence": 0.3,
+            "support_type": "unknown",
+            "rationale": "Нет прямых свидетельств об опоре на внутренние доходы или стратегию снижения зависимости от внешних поступлений.",
+            "evidence_indices": []
+          }
+        },
+        "evidence_file": "evidence/independent-dossier-judith-uwizeye.json",
+        "evidence_basis": "10a986459c53c84745dcf9e7a536797727f95e3f7aba3df154ca1f4743d56b15"
+      }
+    },
+    "positive": null,
+    "negative": null,
+    "value": null,
+    "status": "unknown",
+    "difference": null,
+    "mass": null,
+    "measurement_model": "independent_poles",
+    "evidence_file": "evidence/independent-dossier-judith-uwizeye.json",
+    "evidence_basis": "10a986459c53c84745dcf9e7a536797727f95e3f7aba3df154ca1f4743d56b15",
+    "at": "2026-10-15T17:30:20.002381+00:00",
+    "reason": "Каждое свойство оценивается независимо; разность и искусственное дополнение до пяти не вычисляются"
+  },
+  {
+    "object_id": "judith-uwizeye",
+    "scale_id": "international-rules-autonomy",
+    "pole_scores": {
+      "positive": {
+        "status": "observed",
+        "value": 2,
+        "confidence": 0.7,
+        "evidence_indices": [
+          0
+        ],
+        "source_urls": [
+          "https://au.int/en/pressreleases/20191107/au-member-states-urged-ratify-protocol-free-movement-achieve-free-trade"
+        ],
+        "event_ids": [
+          "uwizeye-au-free-movement-2023"
+        ],
+        "rationale": "Призыв ускорить ратификацию протокола о свободе передвижения в Африке — прямое предложение закрепить международные обязательства в региональном контексте.",
+        "support_type": "positive_manifestation",
+        "provenance": {
+          "raw_response_file": "evidence/independent_responses/ec6879c6afa8156416b03256bb876c9d6fa0cb6ee293c890705477c936483f5e.json",
+          "model": "gpt-4.1",
+          "at": "2026-10-15T17:30:12.232464+00:00",
+          "cache_key": "ec6879c6afa8156416b03256bb876c9d6fa0cb6ee293c890705477c936483f5e",
+          "original_proposal": {
+            "variable_id": "international-rules-autonomy__positive",
+            "status": "observed",
+            "value": 2,
+            "confidence": 0.7,
+            "support_type": "positive_manifestation",
+            "rationale": "Призыв ускорить ратификацию протокола о свободе передвижения в Африке — прямое предложение закрепить международные обязательства в региональном контексте.",
+            "evidence_indices": [
+              0
+            ]
+          }
+        },
+        "evidence_file": "evidence/independent-dossier-judith-uwizeye.json",
+        "evidence_basis": "10a986459c53c84745dcf9e7a536797727f95e3f7aba3df154ca1f4743d56b15"
+      },
+      "negative": {
+        "status": "unknown",
+        "value": null,
+        "confidence": 0,
+        "evidence_indices": [],
+        "source_urls": [],
+        "event_ids": [],
+        "rationale": "Нет прямых заявлений о защите национальной самостоятельности решений или возражений против внешнего навязывания.",
+        "support_type": "unknown",
+        "provenance": {
+          "raw_response_file": "evidence/independent_responses/ec6879c6afa8156416b03256bb876c9d6fa0cb6ee293c890705477c936483f5e.json",
+          "model": "gpt-4.1",
+          "at": "2026-10-15T17:30:12.232464+00:00",
+          "cache_key": "ec6879c6afa8156416b03256bb876c9d6fa0cb6ee293c890705477c936483f5e",
+          "original_proposal": {
+            "variable_id": "international-rules-autonomy__negative",
+            "status": "unknown",
+            "value": null,
+            "confidence": 0.3,
+            "support_type": "unknown",
+            "rationale": "Нет прямых заявлений о защите национальной самостоятельности решений или возражений против внешнего навязывания.",
+            "evidence_indices": []
+          }
+        },
+        "evidence_file": "evidence/independent-dossier-judith-uwizeye.json",
+        "evidence_basis": "10a986459c53c84745dcf9e7a536797727f95e3f7aba3df154ca1f4743d56b15"
+      }
+    },
+    "positive": 2,
+    "negative": null,
+    "value": null,
+    "status": "partial",
+    "difference": null,
+    "mass": null,
+    "measurement_model": "independent_poles",
+    "evidence_file": "evidence/independent-dossier-judith-uwizeye.json",
+    "evidence_basis": "10a986459c53c84745dcf9e7a536797727f95e3f7aba3df154ca1f4743d56b15",
+    "at": "2026-10-15T17:30:20.002381+00:00",
+    "reason": "Каждое свойство оценивается независимо; разность и искусственное дополнение до пяти не вычисляются"
+  },
+  {
+    "object_id": "judith-uwizeye",
+    "scale_id": "mediation-adversarial-communication",
+    "pole_scores": {
+      "positive": {
+        "status": "unknown",
+        "value": null,
+        "confidence": 0,
+        "evidence_indices": [],
+        "source_urls": [],
+        "event_ids": [],
+        "rationale": "Нет прямых свидетельств предложения посредничества, переговоров или поиска согласования интересов сторон.",
+        "support_type": "unknown",
+        "provenance": {
+          "raw_response_file": "evidence/independent_responses/ec6879c6afa8156416b03256bb876c9d6fa0cb6ee293c890705477c936483f5e.json",
+          "model": "gpt-4.1",
+          "at": "2026-10-15T17:30:12.232464+00:00",
+          "cache_key": "ec6879c6afa8156416b03256bb876c9d6fa0cb6ee293c890705477c936483f5e",
+          "original_proposal": {
+            "variable_id": "mediation-adversarial-communication__positive",
+            "status": "unknown",
+            "value": null,
+            "confidence": 0.3,
+            "support_type": "unknown",
+            "rationale": "Нет прямых свидетельств предложения посредничества, переговоров или поиска согласования интересов сторон.",
+            "evidence_indices": []
+          }
+        },
+        "evidence_file": "evidence/independent-dossier-judith-uwizeye.json",
+        "evidence_basis": "10a986459c53c84745dcf9e7a536797727f95e3f7aba3df154ca1f4743d56b15"
+      },
+      "negative": {
+        "status": "unknown",
+        "value": null,
+        "confidence": 0,
+        "evidence_indices": [],
+        "source_urls": [],
+        "event_ids": [],
+        "rationale": "Нет прямых свидетельств публичного опровержения обвинений, спора с другой стороной или защиты собственного требования.",
+        "support_type": "unknown",
+        "provenance": {
+          "raw_response_file": "evidence/independent_responses/ec6879c6afa8156416b03256bb876c9d6fa0cb6ee293c890705477c936483f5e.json",
+          "model": "gpt-4.1",
+          "at": "2026-10-15T17:30:12.232464+00:00",
+          "cache_key": "ec6879c6afa8156416b03256bb876c9d6fa0cb6ee293c890705477c936483f5e",
+          "original_proposal": {
+            "variable_id": "mediation-adversarial-communication__negative",
+            "status": "unknown",
+            "value": null,
+            "confidence": 0.3,
+            "support_type": "unknown",
+            "rationale": "Нет прямых свидетельств публичного опровержения обвинений, спора с другой стороной или защиты собственного требования.",
+            "evidence_indices": []
+          }
+        },
+        "evidence_file": "evidence/independent-dossier-judith-uwizeye.json",
+        "evidence_basis": "10a986459c53c84745dcf9e7a536797727f95e3f7aba3df154ca1f4743d56b15"
+      }
+    },
+    "positive": null,
+    "negative": null,
+    "value": null,
+    "status": "unknown",
+    "difference": null,
+    "mass": null,
+    "measurement_model": "independent_poles",
+    "evidence_file": "evidence/independent-dossier-judith-uwizeye.json",
+    "evidence_basis": "10a986459c53c84745dcf9e7a536797727f95e3f7aba3df154ca1f4743d56b15",
+    "at": "2026-10-15T17:30:20.002381+00:00",
+    "reason": "Каждое свойство оценивается независимо; разность и искусственное дополнение до пяти не вычисляются"
+  },
+  {
+    "object_id": "judith-uwizeye",
+    "scale_id": "cultural-openness-national-transmission",
+    "pole_scores": {
+      "positive": {
+        "status": "observed",
+        "value": 2,
+        "confidence": 0.7,
+        "evidence_indices": [
+          0
+        ],
+        "source_urls": [
+          "https://au.int/en/pressreleases/20191107/au-member-states-urged-ratify-protocol-free-movement-achieve-free-trade"
+        ],
+        "event_ids": [
+          "uwizeye-au-free-movement-2023"
+        ],
+        "rationale": "Призыв ускорить ратификацию протокола о свободе передвижения людей в Африке и представление мобильности как условия интеграции (2023-05-25) — это ясное ограниченное проявление поддержки межкультурного обмена и разнообразия в региональном контексте.",
+        "support_type": "positive_manifestation",
+        "provenance": {
+          "raw_response_file": "evidence/independent_responses/ceb33c1276034e0463b20d4587157b734e75898e928aa680f9d04f20b1a57a55.json",
+          "model": "gpt-4.1",
+          "at": "2026-10-15T17:30:19.999381+00:00",
+          "cache_key": "ceb33c1276034e0463b20d4587157b734e75898e928aa680f9d04f20b1a57a55",
+          "original_proposal": {
+            "variable_id": "cultural-openness-national-transmission__positive",
+            "status": "observed",
+            "value": 2,
+            "confidence": 0.7,
+            "support_type": "positive_manifestation",
+            "rationale": "Призыв ускорить ратификацию протокола о свободе передвижения людей в Африке и представление мобильности как условия интеграции (2023-05-25) — это ясное ограниченное проявление поддержки межкультурного обмена и разнообразия в региональном контексте.",
+            "evidence_indices": [
+              0
+            ]
+          }
+        },
+        "evidence_file": "evidence/independent-dossier-judith-uwizeye.json",
+        "evidence_basis": "10a986459c53c84745dcf9e7a536797727f95e3f7aba3df154ca1f4743d56b15"
+      },
+      "negative": {
+        "status": "unknown",
+        "value": null,
+        "confidence": 0,
+        "evidence_indices": [],
+        "source_urls": [],
+        "event_ids": [],
+        "rationale": "Нет прямых фактов о публичной поддержке сохранения и передачи национальных ценностей как самостоятельной позиции.",
+        "support_type": "unknown",
+        "provenance": {
+          "raw_response_file": "evidence/independent_responses/ceb33c1276034e0463b20d4587157b734e75898e928aa680f9d04f20b1a57a55.json",
+          "model": "gpt-4.1",
+          "at": "2026-10-15T17:30:19.999381+00:00",
+          "cache_key": "ceb33c1276034e0463b20d4587157b734e75898e928aa680f9d04f20b1a57a55",
+          "original_proposal": {
+            "variable_id": "cultural-openness-national-transmission__negative",
+            "status": "unknown",
+            "value": null,
+            "confidence": 0.3,
+            "support_type": "unknown",
+            "rationale": "Нет прямых фактов о публичной поддержке сохранения и передачи национальных ценностей как самостоятельной позиции.",
+            "evidence_indices": []
+          }
+        },
+        "evidence_file": "evidence/independent-dossier-judith-uwizeye.json",
+        "evidence_basis": "10a986459c53c84745dcf9e7a536797727f95e3f7aba3df154ca1f4743d56b15"
+      }
+    },
+    "positive": 2,
+    "negative": null,
+    "value": null,
+    "status": "partial",
+    "difference": null,
+    "mass": null,
+    "measurement_model": "independent_poles",
+    "evidence_file": "evidence/independent-dossier-judith-uwizeye.json",
+    "evidence_basis": "10a986459c53c84745dcf9e7a536797727f95e3f7aba3df154ca1f4743d56b15",
+    "at": "2026-10-15T17:30:20.002381+00:00",
+    "reason": "Каждое свойство оценивается независимо; разность и искусственное дополнение до пяти не вычисляются"
+  },
+  {
+    "object_id": "judith-uwizeye",
+    "scale_id": "problem-disclosure-reputation-defence",
+    "pole_scores": {
+      "positive": {
+        "status": "observed",
+        "value": 1,
+        "confidence": 0.6,
+        "evidence_indices": [
+          14
+        ],
+        "source_urls": [
+          "https://www.mifotra.gov.rw/news-detail/mifotra-and-npsc-discuss-measures-to-strengthen-public-service-management"
+        ],
+        "event_ids": [
+          "uwizeye-public-service-management-2026"
+        ],
+        "rationale": "Упоминание необходимости прозрачности, справедливости найма, процедур обжалования и дисциплинарных процессов (2026-08-18) раскрывает отдельные административные риски и меры их предупреждения, что допускает единичное слабое проявление публичного раскрытия проблем.",
+        "support_type": "positive_manifestation",
+        "provenance": {
+          "raw_response_file": "evidence/independent_responses/ceb33c1276034e0463b20d4587157b734e75898e928aa680f9d04f20b1a57a55.json",
+          "model": "gpt-4.1",
+          "at": "2026-10-15T17:30:19.999381+00:00",
+          "cache_key": "ceb33c1276034e0463b20d4587157b734e75898e928aa680f9d04f20b1a57a55",
+          "original_proposal": {
+            "variable_id": "problem-disclosure-reputation-defence__positive",
+            "status": "observed",
+            "value": 1,
+            "confidence": 0.6,
+            "support_type": "positive_manifestation",
+            "rationale": "Упоминание необходимости прозрачности, справедливости найма, процедур обжалования и дисциплинарных процессов (2026-08-18) раскрывает отдельные административные риски и меры их предупреждения, что допускает единичное слабое проявление публичного раскрытия проблем.",
+            "evidence_indices": [
+              14
+            ]
+          }
+        },
+        "evidence_file": "evidence/independent-dossier-judith-uwizeye.json",
+        "evidence_basis": "10a986459c53c84745dcf9e7a536797727f95e3f7aba3df154ca1f4743d56b15"
+      },
+      "negative": {
+        "status": "observed",
+        "value": 2,
+        "confidence": 0.7,
+        "evidence_indices": [
+          2,
+          10,
+          13
+        ],
+        "source_urls": [
+          "https://x.com/J_Uwizeye",
+          "https://www.mifotra.gov.rw/news-detail/ministry-of-public-service-and-labour-holds-ministerial-handover-ceremony"
+        ],
+        "event_ids": [
+          "uwizeye-presidential-trust-2025",
+          "uwizeye-mifotra-handover-2026"
+        ],
+        "rationale": "Публичная благодарность президенту за доверие и акцент на продолжении курса без критики (2025-07-25, 2026-06-15) демонстрируют лояльный стиль коммуникации и защиту репутации действующей политики.",
+        "support_type": "positive_manifestation",
+        "provenance": {
+          "raw_response_file": "evidence/independent_responses/ceb33c1276034e0463b20d4587157b734e75898e928aa680f9d04f20b1a57a55.json",
+          "model": "gpt-4.1",
+          "at": "2026-10-15T17:30:19.999381+00:00",
+          "cache_key": "ceb33c1276034e0463b20d4587157b734e75898e928aa680f9d04f20b1a57a55",
+          "original_proposal": {
+            "variable_id": "problem-disclosure-reputation-defence__negative",
+            "status": "observed",
+            "value": 2,
+            "confidence": 0.7,
+            "support_type": "positive_manifestation",
+            "rationale": "Публичная благодарность президенту за доверие и акцент на продолжении курса без критики (2025-07-25, 2026-06-15) демонстрируют лояльный стиль коммуникации и защиту репутации действующей политики.",
+            "evidence_indices": [
+              2,
+              10,
+              13
+            ]
+          }
+        },
+        "evidence_file": "evidence/independent-dossier-judith-uwizeye.json",
+        "evidence_basis": "10a986459c53c84745dcf9e7a536797727f95e3f7aba3df154ca1f4743d56b15"
+      }
+    },
+    "positive": 1,
+    "negative": 2,
+    "value": null,
+    "status": "observed",
+    "difference": null,
+    "mass": null,
+    "measurement_model": "independent_poles",
+    "evidence_file": "evidence/independent-dossier-judith-uwizeye.json",
+    "evidence_basis": "10a986459c53c84745dcf9e7a536797727f95e3f7aba3df154ca1f4743d56b15",
+    "at": "2026-10-15T17:30:20.002381+00:00",
+    "reason": "Каждое свойство оценивается независимо; разность и искусственное дополнение до пяти не вычисляются"
+  },
+  {
+    "object_id": "judith-uwizeye",
+    "scale_id": "procedural-guarantees-enforcement",
+    "pole_scores": {
+      "positive": {
+        "status": "observed",
+        "value": 2,
+        "confidence": 0.7,
+        "evidence_indices": [
+          6,
+          14,
+          15
+        ],
+        "source_urls": [
+          "https://www.mod.gov.rw/docs-media/news-detail/mifotra-and-npsc-discuss-measures-to-strengthen-public-service-management",
+          "https://www.mifotra.gov.rw/news-detail/mifotra-and-npsc-discuss-measures-to-strengthen-public-service-management"
+        ],
+        "event_ids": [
+          "uwizeye-public-service-management-2026"
+        ],
+        "rationale": "Обсуждение прозрачности найма, процедур обжалования и дисциплинарных процессов (2026-08-18) — ясное ограниченное проявление расширения возможностей защиты и обжалования в административной сфере.",
+        "support_type": "positive_manifestation",
+        "provenance": {
+          "raw_response_file": "evidence/independent_responses/ceb33c1276034e0463b20d4587157b734e75898e928aa680f9d04f20b1a57a55.json",
+          "model": "gpt-4.1",
+          "at": "2026-10-15T17:30:19.999381+00:00",
+          "cache_key": "ceb33c1276034e0463b20d4587157b734e75898e928aa680f9d04f20b1a57a55",
+          "original_proposal": {
+            "variable_id": "procedural-guarantees-enforcement__positive",
+            "status": "observed",
+            "value": 2,
+            "confidence": 0.7,
+            "support_type": "positive_manifestation",
+            "rationale": "Обсуждение прозрачности найма, процедур обжалования и дисциплинарных процессов (2026-08-18) — ясное ограниченное проявление расширения возможностей защиты и обжалования в административной сфере.",
+            "evidence_indices": [
+              6,
+              14,
+              15
+            ]
+          }
+        },
+        "evidence_file": "evidence/independent-dossier-judith-uwizeye.json",
+        "evidence_basis": "10a986459c53c84745dcf9e7a536797727f95e3f7aba3df154ca1f4743d56b15"
+      },
+      "negative": {
+        "status": "observed",
+        "value": 2,
+        "confidence": 0.7,
+        "evidence_indices": [
+          19
+        ],
+        "source_urls": [
+          "https://www.mifotra.gov.rw/news-detail/mifotra-and-npsc-discuss-measures-to-strengthen-public-service-management"
+        ],
+        "event_ids": [
+          "uwizeye-public-service-management-2026"
+        ],
+        "rationale": "Усиление обязательных административных правил, контроль найма, дисциплинарные процессы (2026-08-18) — ясное ограниченное проявление принудительного обеспечения требований.",
+        "support_type": "positive_manifestation",
+        "provenance": {
+          "raw_response_file": "evidence/independent_responses/ceb33c1276034e0463b20d4587157b734e75898e928aa680f9d04f20b1a57a55.json",
+          "model": "gpt-4.1",
+          "at": "2026-10-15T17:30:19.999381+00:00",
+          "cache_key": "ceb33c1276034e0463b20d4587157b734e75898e928aa680f9d04f20b1a57a55",
+          "original_proposal": {
+            "variable_id": "procedural-guarantees-enforcement__negative",
+            "status": "observed",
+            "value": 2,
+            "confidence": 0.7,
+            "support_type": "positive_manifestation",
+            "rationale": "Усиление обязательных административных правил, контроль найма, дисциплинарные процессы (2026-08-18) — ясное ограниченное проявление принудительного обеспечения требований.",
+            "evidence_indices": [
+              19
+            ]
+          }
+        },
+        "evidence_file": "evidence/independent-dossier-judith-uwizeye.json",
+        "evidence_basis": "10a986459c53c84745dcf9e7a536797727f95e3f7aba3df154ca1f4743d56b15"
+      }
+    },
+    "positive": 2,
+    "negative": 2,
+    "value": null,
+    "status": "observed",
+    "difference": null,
+    "mass": null,
+    "measurement_model": "independent_poles",
+    "evidence_file": "evidence/independent-dossier-judith-uwizeye.json",
+    "evidence_basis": "10a986459c53c84745dcf9e7a536797727f95e3f7aba3df154ca1f4743d56b15",
+    "at": "2026-10-15T17:30:20.002381+00:00",
+    "reason": "Каждое свойство оценивается независимо; разность и искусственное дополнение до пяти не вычисляются"
+  },
+  {
+    "object_id": "judith-uwizeye",
+    "scale_id": "prevention-crisis-response",
+    "pole_scores": {
+      "positive": {
+        "status": "observed",
+        "value": 2,
+        "confidence": 0.7,
+        "evidence_indices": [
+          7,
+          14,
+          15,
+          20
+        ],
+        "source_urls": [
+          "https://www.mod.gov.rw/docs-media/news-detail/mifotra-and-npsc-discuss-measures-to-strengthen-public-service-management",
+          "https://www.mifotra.gov.rw/news-detail/mifotra-and-npsc-discuss-measures-to-strengthen-public-service-management"
+        ],
+        "event_ids": [
+          "uwizeye-workplace-protection-2026",
+          "uwizeye-public-service-management-2026"
+        ],
+        "rationale": "Обсуждение профилактики сексуальных домогательств, создания безопасной среды и прозрачного найма (2026-08-18) — ясное ограниченное проявление упреждающих мер.",
+        "support_type": "positive_manifestation",
+        "provenance": {
+          "raw_response_file": "evidence/independent_responses/ceb33c1276034e0463b20d4587157b734e75898e928aa680f9d04f20b1a57a55.json",
+          "model": "gpt-4.1",
+          "at": "2026-10-15T17:30:19.999381+00:00",
+          "cache_key": "ceb33c1276034e0463b20d4587157b734e75898e928aa680f9d04f20b1a57a55",
+          "original_proposal": {
+            "variable_id": "prevention-crisis-response__positive",
+            "status": "observed",
+            "value": 2,
+            "confidence": 0.7,
+            "support_type": "positive_manifestation",
+            "rationale": "Обсуждение профилактики сексуальных домогательств, создания безопасной среды и прозрачного найма (2026-08-18) — ясное ограниченное проявление упреждающих мер.",
+            "evidence_indices": [
+              7,
+              14,
+              15,
+              20
+            ]
+          }
+        },
+        "evidence_file": "evidence/independent-dossier-judith-uwizeye.json",
+        "evidence_basis": "10a986459c53c84745dcf9e7a536797727f95e3f7aba3df154ca1f4743d56b15"
+      },
+      "negative": {
+        "status": "observed",
+        "value": 2,
+        "confidence": 0.7,
+        "evidence_indices": [
+          15,
+          20
+        ],
+        "source_urls": [
+          "https://www.mifotra.gov.rw/news-detail/mifotra-and-npsc-discuss-measures-to-strengthen-public-service-management"
+        ],
+        "event_ids": [
+          "uwizeye-public-service-management-2026"
+        ],
+        "rationale": "Параллельно с профилактикой обсуждаются процедуры реагирования на жалобы и дисциплинарные процессы (2026-08-18), что подтверждает ограниченное проявление оперативного реагирования.",
+        "support_type": "positive_manifestation",
+        "provenance": {
+          "raw_response_file": "evidence/independent_responses/ceb33c1276034e0463b20d4587157b734e75898e928aa680f9d04f20b1a57a55.json",
+          "model": "gpt-4.1",
+          "at": "2026-10-15T17:30:19.999381+00:00",
+          "cache_key": "ceb33c1276034e0463b20d4587157b734e75898e928aa680f9d04f20b1a57a55",
+          "original_proposal": {
+            "variable_id": "prevention-crisis-response__negative",
+            "status": "observed",
+            "value": 2,
+            "confidence": 0.7,
+            "support_type": "positive_manifestation",
+            "rationale": "Параллельно с профилактикой обсуждаются процедуры реагирования на жалобы и дисциплинарные процессы (2026-08-18), что подтверждает ограниченное проявление оперативного реагирования.",
+            "evidence_indices": [
+              15,
+              20
+            ]
+          }
+        },
+        "evidence_file": "evidence/independent-dossier-judith-uwizeye.json",
+        "evidence_basis": "10a986459c53c84745dcf9e7a536797727f95e3f7aba3df154ca1f4743d56b15"
+      }
+    },
+    "positive": 2,
+    "negative": 2,
+    "value": null,
+    "status": "observed",
+    "difference": null,
+    "mass": null,
+    "measurement_model": "independent_poles",
+    "evidence_file": "evidence/independent-dossier-judith-uwizeye.json",
+    "evidence_basis": "10a986459c53c84745dcf9e7a536797727f95e3f7aba3df154ca1f4743d56b15",
+    "at": "2026-10-15T17:30:20.002381+00:00",
+    "reason": "Каждое свойство оценивается независимо; разность и искусственное дополнение до пяти не вычисляются"
+  },
+  {
+    "object_id": "judith-uwizeye",
+    "scale_id": "electoral-access",
+    "pole_scores": {
+      "positive": {
+        "status": "unknown",
+        "value": null,
+        "confidence": 0,
+        "evidence_indices": [],
+        "source_urls": [],
+        "event_ids": [],
+        "rationale": "Нет фактов о собственных инициативах по расширению доступа к выборной конкуренции.",
+        "support_type": "unknown",
+        "provenance": {
+          "raw_response_file": "evidence/independent_responses/ceb33c1276034e0463b20d4587157b734e75898e928aa680f9d04f20b1a57a55.json",
+          "model": "gpt-4.1",
+          "at": "2026-10-15T17:30:19.999381+00:00",
+          "cache_key": "ceb33c1276034e0463b20d4587157b734e75898e928aa680f9d04f20b1a57a55",
+          "original_proposal": {
+            "variable_id": "electoral-access__positive",
+            "status": "unknown",
+            "value": null,
+            "confidence": 0.3,
+            "support_type": "unknown",
+            "rationale": "Нет фактов о собственных инициативах по расширению доступа к выборной конкуренции.",
+            "evidence_indices": []
+          }
+        },
+        "evidence_file": "evidence/independent-dossier-judith-uwizeye.json",
+        "evidence_basis": "10a986459c53c84745dcf9e7a536797727f95e3f7aba3df154ca1f4743d56b15"
+      },
+      "negative": {
+        "status": "unknown",
+        "value": null,
+        "confidence": 0,
+        "evidence_indices": [],
+        "source_urls": [],
+        "event_ids": [],
+        "rationale": "Нет фактов о собственных инициативах по усилению политических барьеров.",
+        "support_type": "unknown",
+        "provenance": {
+          "raw_response_file": "evidence/independent_responses/ceb33c1276034e0463b20d4587157b734e75898e928aa680f9d04f20b1a57a55.json",
+          "model": "gpt-4.1",
+          "at": "2026-10-15T17:30:19.999381+00:00",
+          "cache_key": "ceb33c1276034e0463b20d4587157b734e75898e928aa680f9d04f20b1a57a55",
+          "original_proposal": {
+            "variable_id": "electoral-access__negative",
+            "status": "unknown",
+            "value": null,
+            "confidence": 0.3,
+            "support_type": "unknown",
+            "rationale": "Нет фактов о собственных инициативах по усилению политических барьеров.",
+            "evidence_indices": []
+          }
+        },
+        "evidence_file": "evidence/independent-dossier-judith-uwizeye.json",
+        "evidence_basis": "10a986459c53c84745dcf9e7a536797727f95e3f7aba3df154ca1f4743d56b15"
+      }
+    },
+    "positive": null,
+    "negative": null,
+    "value": null,
+    "status": "unknown",
+    "difference": null,
+    "mass": null,
+    "measurement_model": "independent_poles",
+    "evidence_file": "evidence/independent-dossier-judith-uwizeye.json",
+    "evidence_basis": "10a986459c53c84745dcf9e7a536797727f95e3f7aba3df154ca1f4743d56b15",
+    "at": "2026-10-15T17:30:20.002381+00:00",
+    "reason": "Каждое свойство оценивается независимо; разность и искусственное дополнение до пяти не вычисляются"
+  },
+  {
+    "object_id": "judith-uwizeye",
+    "scale_id": "institutional-autonomy-coordination",
+    "pole_scores": {
+      "positive": {
+        "status": "observed",
+        "value": 1,
+        "confidence": 0.6,
+        "evidence_indices": [
+          11
+        ],
+        "source_urls": [
+          "https://www.mifotra.gov.rw/news-detail/mifotra-and-npsc-discuss-measures-to-strengthen-public-service-management"
+        ],
+        "event_ids": [
+          "uwizeye-public-service-management-2026"
+        ],
+        "rationale": "Обсуждение прозрачности, процедур обжалования и дисциплинарных процессов (2026-08-18) содержит отдельные элементы институционального контроля, но не доказывает устойчивую автономистскую позицию.",
+        "support_type": "positive_manifestation",
+        "provenance": {
+          "raw_response_file": "evidence/independent_responses/ceb33c1276034e0463b20d4587157b734e75898e928aa680f9d04f20b1a57a55.json",
+          "model": "gpt-4.1",
+          "at": "2026-10-15T17:30:19.999381+00:00",
+          "cache_key": "ceb33c1276034e0463b20d4587157b734e75898e928aa680f9d04f20b1a57a55",
+          "original_proposal": {
+            "variable_id": "institutional-autonomy-coordination__positive",
+            "status": "observed",
+            "value": 1,
+            "confidence": 0.6,
+            "support_type": "positive_manifestation",
+            "rationale": "Обсуждение прозрачности, процедур обжалования и дисциплинарных процессов (2026-08-18) содержит отдельные элементы институционального контроля, но не доказывает устойчивую автономистскую позицию.",
+            "evidence_indices": [
+              11
+            ]
+          }
+        },
+        "evidence_file": "evidence/independent-dossier-judith-uwizeye.json",
+        "evidence_basis": "10a986459c53c84745dcf9e7a536797727f95e3f7aba3df154ca1f4743d56b15"
+      },
+      "negative": {
+        "status": "observed",
+        "value": 2,
+        "confidence": 0.7,
+        "evidence_indices": [
+          10,
+          11
+        ],
+        "source_urls": [
+          "https://www.mifotra.gov.rw/news-detail/ministry-of-public-service-and-labour-holds-ministerial-handover-ceremony",
+          "https://www.mifotra.gov.rw/news-detail/mifotra-and-npsc-discuss-measures-to-strengthen-public-service-management"
+        ],
+        "event_ids": [
+          "uwizeye-mifotra-handover-2026",
+          "uwizeye-public-service-management-2026"
+        ],
+        "rationale": "Публичное подтверждение продолжения курса, административная координация и отсутствие критики действующего курса (2026-06-15, 2026-08-18) — ясное ограниченное проявление согласования работы институтов единой управленческой линией.",
+        "support_type": "positive_manifestation",
+        "provenance": {
+          "raw_response_file": "evidence/independent_responses/ceb33c1276034e0463b20d4587157b734e75898e928aa680f9d04f20b1a57a55.json",
+          "model": "gpt-4.1",
+          "at": "2026-10-15T17:30:19.999381+00:00",
+          "cache_key": "ceb33c1276034e0463b20d4587157b734e75898e928aa680f9d04f20b1a57a55",
+          "original_proposal": {
+            "variable_id": "institutional-autonomy-coordination__negative",
+            "status": "observed",
+            "value": 2,
+            "confidence": 0.7,
+            "support_type": "positive_manifestation",
+            "rationale": "Публичное подтверждение продолжения курса, административная координация и отсутствие критики действующего курса (2026-06-15, 2026-08-18) — ясное ограниченное проявление согласования работы институтов единой управленческой линией.",
+            "evidence_indices": [
+              10,
+              11
+            ]
+          }
+        },
+        "evidence_file": "evidence/independent-dossier-judith-uwizeye.json",
+        "evidence_basis": "10a986459c53c84745dcf9e7a536797727f95e3f7aba3df154ca1f4743d56b15"
+      }
+    },
+    "positive": 1,
+    "negative": 2,
+    "value": null,
+    "status": "observed",
+    "difference": null,
+    "mass": null,
+    "measurement_model": "independent_poles",
+    "evidence_file": "evidence/independent-dossier-judith-uwizeye.json",
+    "evidence_basis": "10a986459c53c84745dcf9e7a536797727f95e3f7aba3df154ca1f4743d56b15",
+    "at": "2026-10-15T17:30:20.002381+00:00",
+    "reason": "Каждое свойство оценивается независимо; разность и искусственное дополнение до пяти не вычисляются"
+  },
+  {
+    "object_id": "judith-uwizeye",
+    "scale_id": "taxation-burden-public-revenue",
+    "pole_scores": {
+      "positive": {
+        "status": "unknown",
+        "value": null,
+        "confidence": 0,
+        "evidence_indices": [],
+        "source_urls": [],
+        "event_ids": [],
+        "rationale": "Нет фактов о предложениях по снижению налоговой нагрузки или расширению имущественной самостоятельности.",
+        "support_type": "unknown",
+        "provenance": {
+          "raw_response_file": "evidence/independent_responses/ceb33c1276034e0463b20d4587157b734e75898e928aa680f9d04f20b1a57a55.json",
+          "model": "gpt-4.1",
+          "at": "2026-10-15T17:30:19.999381+00:00",
+          "cache_key": "ceb33c1276034e0463b20d4587157b734e75898e928aa680f9d04f20b1a57a55",
+          "original_proposal": {
+            "variable_id": "taxation-burden-public-revenue__positive",
+            "status": "unknown",
+            "value": null,
+            "confidence": 0.3,
+            "support_type": "unknown",
+            "rationale": "Нет фактов о предложениях по снижению налоговой нагрузки или расширению имущественной самостоятельности.",
+            "evidence_indices": []
+          }
+        },
+        "evidence_file": "evidence/independent-dossier-judith-uwizeye.json",
+        "evidence_basis": "10a986459c53c84745dcf9e7a536797727f95e3f7aba3df154ca1f4743d56b15"
+      },
+      "negative": {
+        "status": "unknown",
+        "value": null,
+        "confidence": 0,
+        "evidence_indices": [],
+        "source_urls": [],
+        "event_ids": [],
+        "rationale": "Нет фактов о предложениях по увеличению налоговых поступлений для публичного развития.",
+        "support_type": "unknown",
+        "provenance": {
+          "raw_response_file": "evidence/independent_responses/ceb33c1276034e0463b20d4587157b734e75898e928aa680f9d04f20b1a57a55.json",
+          "model": "gpt-4.1",
+          "at": "2026-10-15T17:30:19.999381+00:00",
+          "cache_key": "ceb33c1276034e0463b20d4587157b734e75898e928aa680f9d04f20b1a57a55",
+          "original_proposal": {
+            "variable_id": "taxation-burden-public-revenue__negative",
+            "status": "unknown",
+            "value": null,
+            "confidence": 0.3,
+            "support_type": "unknown",
+            "rationale": "Нет фактов о предложениях по увеличению налоговых поступлений для публичного развития.",
+            "evidence_indices": []
+          }
+        },
+        "evidence_file": "evidence/independent-dossier-judith-uwizeye.json",
+        "evidence_basis": "10a986459c53c84745dcf9e7a536797727f95e3f7aba3df154ca1f4743d56b15"
+      }
+    },
+    "positive": null,
+    "negative": null,
+    "value": null,
+    "status": "unknown",
+    "difference": null,
+    "mass": null,
+    "measurement_model": "independent_poles",
+    "evidence_file": "evidence/independent-dossier-judith-uwizeye.json",
+    "evidence_basis": "10a986459c53c84745dcf9e7a536797727f95e3f7aba3df154ca1f4743d56b15",
+    "at": "2026-10-15T17:30:20.002381+00:00",
+    "reason": "Каждое свойство оценивается независимо; разность и искусственное дополнение до пяти не вычисляются"
+  },
+  {
+    "object_id": "judith-uwizeye",
+    "scale_id": "universal-targeted-provision",
+    "pole_scores": {
+      "positive": {
+        "status": "unknown",
+        "value": null,
+        "confidence": 0,
+        "evidence_indices": [],
+        "source_urls": [],
+        "event_ids": [],
+        "rationale": "Нет фактов о продвижении единых стандартов доступности благ для всего населения.",
+        "support_type": "unknown",
+        "provenance": {
+          "raw_response_file": "evidence/independent_responses/ceb33c1276034e0463b20d4587157b734e75898e928aa680f9d04f20b1a57a55.json",
+          "model": "gpt-4.1",
+          "at": "2026-10-15T17:30:19.999381+00:00",
+          "cache_key": "ceb33c1276034e0463b20d4587157b734e75898e928aa680f9d04f20b1a57a55",
+          "original_proposal": {
+            "variable_id": "universal-targeted-provision__positive",
+            "status": "unknown",
+            "value": null,
+            "confidence": 0.3,
+            "support_type": "unknown",
+            "rationale": "Нет фактов о продвижении единых стандартов доступности благ для всего населения.",
+            "evidence_indices": []
+          }
+        },
+        "evidence_file": "evidence/independent-dossier-judith-uwizeye.json",
+        "evidence_basis": "10a986459c53c84745dcf9e7a536797727f95e3f7aba3df154ca1f4743d56b15"
+      },
+      "negative": {
+        "status": "observed",
+        "value": 2,
+        "confidence": 0.7,
+        "evidence_indices": [
+          12
+        ],
+        "source_urls": [
+          "https://www.mifotra.gov.rw/news-detail/mifotra-and-npsc-discuss-measures-to-strengthen-public-service-management"
+        ],
+        "event_ids": [
+          "uwizeye-workplace-protection-2026"
+        ],
+        "rationale": "Обсуждение защиты прав работников, предупреждения домогательств и улучшения условий труда (2026-08-18) — ясное ограниченное проявление приоритетной помощи конкретной группе (работники).",
+        "support_type": "positive_manifestation",
+        "provenance": {
+          "raw_response_file": "evidence/independent_responses/ceb33c1276034e0463b20d4587157b734e75898e928aa680f9d04f20b1a57a55.json",
+          "model": "gpt-4.1",
+          "at": "2026-10-15T17:30:19.999381+00:00",
+          "cache_key": "ceb33c1276034e0463b20d4587157b734e75898e928aa680f9d04f20b1a57a55",
+          "original_proposal": {
+            "variable_id": "universal-targeted-provision__negative",
+            "status": "observed",
+            "value": 2,
+            "confidence": 0.7,
+            "support_type": "positive_manifestation",
+            "rationale": "Обсуждение защиты прав работников, предупреждения домогательств и улучшения условий труда (2026-08-18) — ясное ограниченное проявление приоритетной помощи конкретной группе (работники).",
+            "evidence_indices": [
+              12
+            ]
+          }
+        },
+        "evidence_file": "evidence/independent-dossier-judith-uwizeye.json",
+        "evidence_basis": "10a986459c53c84745dcf9e7a536797727f95e3f7aba3df154ca1f4743d56b15"
+      }
+    },
+    "positive": null,
+    "negative": 2,
+    "value": null,
+    "status": "partial",
+    "difference": null,
+    "mass": null,
+    "measurement_model": "independent_poles",
+    "evidence_file": "evidence/independent-dossier-judith-uwizeye.json",
+    "evidence_basis": "10a986459c53c84745dcf9e7a536797727f95e3f7aba3df154ca1f4743d56b15",
+    "at": "2026-10-15T17:30:20.002381+00:00",
+    "reason": "Каждое свойство оценивается независимо; разность и искусственное дополнение до пяти не вычисляются"
+  },
+  {
+    "object_id": "judith-uwizeye",
+    "scale_id": "ecological-limits-resource-use",
+    "pole_scores": {
+      "positive": {
+        "status": "unknown",
+        "value": null,
+        "confidence": 0,
+        "evidence_indices": [],
+        "source_urls": [],
+        "event_ids": [],
+        "rationale": "Нет фактов о поддержке усиления природоохранных ограничений.",
+        "support_type": "unknown",
+        "provenance": {
+          "raw_response_file": "evidence/independent_responses/ceb33c1276034e0463b20d4587157b734e75898e928aa680f9d04f20b1a57a55.json",
+          "model": "gpt-4.1",
+          "at": "2026-10-15T17:30:19.999381+00:00",
+          "cache_key": "ceb33c1276034e0463b20d4587157b734e75898e928aa680f9d04f20b1a57a55",
+          "original_proposal": {
+            "variable_id": "ecological-limits-resource-use__positive",
+            "status": "unknown",
+            "value": null,
+            "confidence": 0.3,
+            "support_type": "unknown",
+            "rationale": "Нет фактов о поддержке усиления природоохранных ограничений.",
+            "evidence_indices": []
+          }
+        },
+        "evidence_file": "evidence/independent-dossier-judith-uwizeye.json",
+        "evidence_basis": "10a986459c53c84745dcf9e7a536797727f95e3f7aba3df154ca1f4743d56b15"
+      },
+      "negative": {
+        "status": "unknown",
+        "value": null,
+        "confidence": 0,
+        "evidence_indices": [],
+        "source_urls": [],
+        "event_ids": [],
+        "rationale": "Нет фактов о поддержке расширения хозяйственного использования природных ресурсов.",
+        "support_type": "unknown",
+        "provenance": {
+          "raw_response_file": "evidence/independent_responses/ceb33c1276034e0463b20d4587157b734e75898e928aa680f9d04f20b1a57a55.json",
+          "model": "gpt-4.1",
+          "at": "2026-10-15T17:30:19.999381+00:00",
+          "cache_key": "ceb33c1276034e0463b20d4587157b734e75898e928aa680f9d04f20b1a57a55",
+          "original_proposal": {
+            "variable_id": "ecological-limits-resource-use__negative",
+            "status": "unknown",
+            "value": null,
+            "confidence": 0.3,
+            "support_type": "unknown",
+            "rationale": "Нет фактов о поддержке расширения хозяйственного использования природных ресурсов.",
+            "evidence_indices": []
+          }
+        },
+        "evidence_file": "evidence/independent-dossier-judith-uwizeye.json",
+        "evidence_basis": "10a986459c53c84745dcf9e7a536797727f95e3f7aba3df154ca1f4743d56b15"
+      }
+    },
+    "positive": null,
+    "negative": null,
+    "value": null,
+    "status": "unknown",
+    "difference": null,
+    "mass": null,
+    "measurement_model": "independent_poles",
+    "evidence_file": "evidence/independent-dossier-judith-uwizeye.json",
+    "evidence_basis": "10a986459c53c84745dcf9e7a536797727f95e3f7aba3df154ca1f4743d56b15",
+    "at": "2026-10-15T17:30:20.002381+00:00",
+    "reason": "Каждое свойство оценивается независимо; разность и искусственное дополнение до пяти не вычисляются"
+  },
+  {
+    "object_id": "judith-uwizeye",
+    "scale_id": "russia-diplomatic-engagement",
+    "pole_scores": {
+      "positive": {
+        "status": "unknown",
+        "value": null,
+        "confidence": 0,
+        "evidence_indices": [],
+        "source_urls": [],
+        "event_ids": [],
+        "rationale": "Нет допустимых датированных персональных свидетельств по этому свойству",
+        "support_type": "unknown"
+      },
+      "negative": {
+        "status": "unknown",
+        "value": null,
+        "confidence": 0,
+        "evidence_indices": [],
+        "source_urls": [],
+        "event_ids": [],
+        "rationale": "Нет допустимых датированных персональных свидетельств по этому свойству",
+        "support_type": "unknown"
+      }
+    },
+    "positive": null,
+    "negative": null,
+    "value": null,
+    "status": "unknown",
+    "difference": null,
+    "mass": null,
+    "measurement_model": "independent_poles",
+    "evidence_file": "evidence/independent-dossier-judith-uwizeye.json",
+    "evidence_basis": "10a986459c53c84745dcf9e7a536797727f95e3f7aba3df154ca1f4743d56b15",
+    "at": "2026-10-15T17:30:20.002381+00:00",
+    "reason": "Каждое свойство оценивается независимо; разность и искусственное дополнение до пяти не вычисляются"
+  },
+  {
+    "object_id": "judith-uwizeye",
+    "scale_id": "russia-security-cooperation",
+    "pole_scores": {
+      "positive": {
+        "status": "unknown",
+        "value": null,
+        "confidence": 0,
+        "evidence_indices": [],
+        "source_urls": [],
+        "event_ids": [],
+        "rationale": "Нет допустимых датированных персональных свидетельств по этому свойству",
+        "support_type": "unknown"
+      },
+      "negative": {
+        "status": "unknown",
+        "value": null,
+        "confidence": 0,
+        "evidence_indices": [],
+        "source_urls": [],
+        "event_ids": [],
+        "rationale": "Нет допустимых датированных персональных свидетельств по этому свойству",
+        "support_type": "unknown"
+      }
+    },
+    "positive": null,
+    "negative": null,
+    "value": null,
+    "status": "unknown",
+    "difference": null,
+    "mass": null,
+    "measurement_model": "independent_poles",
+    "evidence_file": "evidence/independent-dossier-judith-uwizeye.json",
+    "evidence_basis": "10a986459c53c84745dcf9e7a536797727f95e3f7aba3df154ca1f4743d56b15",
+    "at": "2026-10-15T17:30:20.002381+00:00",
+    "reason": "Каждое свойство оценивается независимо; разность и искусственное дополнение до пяти не вычисляются"
+  },
+  {
+    "object_id": "judith-uwizeye",
+    "scale_id": "russia-economic-technology-cooperation",
+    "pole_scores": {
+      "positive": {
+        "status": "unknown",
+        "value": null,
+        "confidence": 0,
+        "evidence_indices": [],
+        "source_urls": [],
+        "event_ids": [],
+        "rationale": "Нет допустимых датированных персональных свидетельств по этому свойству",
+        "support_type": "unknown"
+      },
+      "negative": {
+        "status": "unknown",
+        "value": null,
+        "confidence": 0,
+        "evidence_indices": [],
+        "source_urls": [],
+        "event_ids": [],
+        "rationale": "Нет допустимых датированных персональных свидетельств по этому свойству",
+        "support_type": "unknown"
+      }
+    },
+    "positive": null,
+    "negative": null,
+    "value": null,
+    "status": "unknown",
+    "difference": null,
+    "mass": null,
+    "measurement_model": "independent_poles",
+    "evidence_file": "evidence/independent-dossier-judith-uwizeye.json",
+    "evidence_basis": "10a986459c53c84745dcf9e7a536797727f95e3f7aba3df154ca1f4743d56b15",
+    "at": "2026-10-15T17:30:20.002381+00:00",
+    "reason": "Каждое свойство оценивается независимо; разность и искусственное дополнение до пяти не вычисляются"
+  },
+  {
+    "object_id": "judith-uwizeye",
+    "scale_id": "russia-education-cultural-cooperation",
+    "pole_scores": {
+      "positive": {
+        "status": "unknown",
+        "value": null,
+        "confidence": 0,
+        "evidence_indices": [],
+        "source_urls": [],
+        "event_ids": [],
+        "rationale": "Нет допустимых датированных персональных свидетельств по этому свойству",
+        "support_type": "unknown"
+      },
+      "negative": {
+        "status": "unknown",
+        "value": null,
+        "confidence": 0,
+        "evidence_indices": [],
+        "source_urls": [],
+        "event_ids": [],
+        "rationale": "Нет допустимых датированных персональных свидетельств по этому свойству",
+        "support_type": "unknown"
+      }
+    },
+    "positive": null,
+    "negative": null,
+    "value": null,
+    "status": "unknown",
+    "difference": null,
+    "mass": null,
+    "measurement_model": "independent_poles",
+    "evidence_file": "evidence/independent-dossier-judith-uwizeye.json",
+    "evidence_basis": "10a986459c53c84745dcf9e7a536797727f95e3f7aba3df154ca1f4743d56b15",
+    "at": "2026-10-15T17:30:20.002381+00:00",
+    "reason": "Каждое свойство оценивается независимо; разность и искусственное дополнение до пяти не вычисляются"
+  },
+  {
+    "object_id": "judith-uwizeye",
+    "scale_id": "russia-conflict-policy-evaluation",
+    "pole_scores": {
+      "positive": {
+        "status": "unknown",
+        "value": null,
+        "confidence": 0,
+        "evidence_indices": [],
+        "source_urls": [],
+        "event_ids": [],
+        "rationale": "Нет допустимых датированных персональных свидетельств по этому свойству",
+        "support_type": "unknown"
+      },
+      "negative": {
+        "status": "unknown",
+        "value": null,
+        "confidence": 0,
+        "evidence_indices": [],
+        "source_urls": [],
+        "event_ids": [],
+        "rationale": "Нет допустимых датированных персональных свидетельств по этому свойству",
+        "support_type": "unknown"
+      }
+    },
+    "positive": null,
+    "negative": null,
+    "value": null,
+    "status": "unknown",
+    "difference": null,
+    "mass": null,
+    "measurement_model": "independent_poles",
+    "evidence_file": "evidence/independent-dossier-judith-uwizeye.json",
+    "evidence_basis": "10a986459c53c84745dcf9e7a536797727f95e3f7aba3df154ca1f4743d56b15",
+    "at": "2026-10-15T17:30:20.002381+00:00",
+    "reason": "Каждое свойство оценивается независимо; разность и искусственное дополнение до пяти не вычисляются"
+  },
+  {
+    "object_id": "judith-uwizeye",
+    "scale_id": "russia-isolation-sanctions",
+    "pole_scores": {
+      "positive": {
+        "status": "unknown",
+        "value": null,
+        "confidence": 0,
+        "evidence_indices": [],
+        "source_urls": [],
+        "event_ids": [],
+        "rationale": "Нет допустимых датированных персональных свидетельств по этому свойству",
+        "support_type": "unknown"
+      },
+      "negative": {
+        "status": "unknown",
+        "value": null,
+        "confidence": 0,
+        "evidence_indices": [],
+        "source_urls": [],
+        "event_ids": [],
+        "rationale": "Нет допустимых датированных персональных свидетельств по этому свойству",
+        "support_type": "unknown"
+      }
+    },
+    "positive": null,
+    "negative": null,
+    "value": null,
+    "status": "unknown",
+    "difference": null,
+    "mass": null,
+    "measurement_model": "independent_poles",
+    "evidence_file": "evidence/independent-dossier-judith-uwizeye.json",
+    "evidence_basis": "10a986459c53c84745dcf9e7a536797727f95e3f7aba3df154ca1f4743d56b15",
+    "at": "2026-10-15T17:30:20.002381+00:00",
+    "reason": "Каждое свойство оценивается независимо; разность и искусственное дополнение до пяти не вычисляются"
+  }
+]

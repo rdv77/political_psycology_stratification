@@ -1,0 +1,49 @@
+{
+  "data": {
+    "ratings": [
+      {
+        "variable_id": "russia-education-cultural-cooperation__positive",
+        "status": "observed",
+        "value": 3,
+        "confidence": 0.9,
+        "support_type": "positive_manifestation",
+        "rationale": "В трёх независимых эпизодах (интервью AFP на форуме Россия–Африка 9 ноября 2024 года, где Ндухунгирехе заявил о надежде на подготовку специалистов при содействии России и упомянул выпускников российских вузов, а также в официальном релизе по итогам переговоров с Лавровым 18 апреля 2026 года, где подтверждён курс на развитие сотрудничества в области образования и подготовки кадров) зафиксированы последовательные публичные акценты на образовательном и кадровом сотрудничестве с Россией. Это соответствует уровню 3 — несколько последовательных эпизодов/устойчивый публичный акцент.",
+        "evidence_indices": [
+          9,
+          30,
+          32
+        ]
+      },
+      {
+        "variable_id": "russia-education-cultural-cooperation__negative",
+        "status": "unknown",
+        "value": null,
+        "confidence": 0.7,
+        "support_type": "unknown",
+        "rationale": "В предоставленных фактах отсутствуют сведения о действиях или публичных заявлениях Оливье Ндухунгирехе, направленных на ограничение образовательных и культурных обменов с Россией.",
+        "evidence_indices": []
+      }
+    ]
+  },
+  "model": "gpt-4.1",
+  "task": "independent-ratings-olivier-nduhungirehe-5",
+  "at": "2026-10-15T17:29:48.060664+00:00",
+  "usage": {
+    "prompt_tokens": 1532,
+    "completion_tokens": 288,
+    "total_tokens": 1820,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "audio_tokens": 0
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "audio_tokens": 0,
+      "accepted_prediction_tokens": 0,
+      "rejected_prediction_tokens": 0
+    }
+  },
+  "citations": [],
+  "system_fingerprint": "fp_363cf393c8",
+  "cache_key": "d10aaa2262cc7a795e641392be2ef9ae139600e37d1cf7c9a9b7ba15255da191"
+}

@@ -1,0 +1,223 @@
+{
+  "data": {
+    "ratings": [
+      {
+        "variable_id": "programmatic-renewal__positive",
+        "status": "observed",
+        "value": 2,
+        "confidence": 0.8,
+        "support_type": "positive_manifestation",
+        "rationale": "В выступлении на Генассамблее ООН Ндухунгирехе прямо поддержал реформу Совета Безопасности и институциональное изменение международных структур (evidence_index: 12). Это ясное ограниченное проявление программного изменения на международном уровне, но не по внутренней политике Руанды.",
+        "evidence_indices": [
+          12
+        ]
+      },
+      {
+        "variable_id": "programmatic-renewal__negative",
+        "status": "unknown",
+        "value": null,
+        "confidence": 0.5,
+        "support_type": "unknown",
+        "rationale": "Нет прямых заявлений о закреплении или продолжении существующего курса как самостоятельной темы. Благодарность за назначение и поддержка отдельных направлений не равны программному акценту на неизменности.",
+        "evidence_indices": []
+      },
+      {
+        "variable_id": "government-course-assessment__positive",
+        "status": "observed",
+        "value": 3,
+        "confidence": 0.9,
+        "support_type": "positive_manifestation",
+        "rationale": "В интервью и публичных заявлениях Ндухунгирехе выражал гордость преобразованиями Руанды, поддерживал действующий курс по переходу от помощи к торговле и инвестициям, а также оправдывал действия Руанды в конфликте с ДРК (evidence_indices: 16, 17). Несколько последовательных эпизодов устойчивой поддержки.",
+        "evidence_indices": [
+          16,
+          17
+        ]
+      },
+      {
+        "variable_id": "government-course-assessment__negative",
+        "status": "unknown",
+        "value": null,
+        "confidence": 0.7,
+        "support_type": "unknown",
+        "rationale": "Нет прямых персональных заявлений Ндухунгирехе с критикой всего государственного курса Руанды. Критика внешней политики других стран не относится к этому свойству.",
+        "evidence_indices": []
+      },
+      {
+        "variable_id": "participation-administrative-direction__positive",
+        "status": "unknown",
+        "value": null,
+        "confidence": 0.5,
+        "support_type": "unknown",
+        "rationale": "Нет прямых свидетельств приглашения граждан или групп к совместному обсуждению или контролю решений в доступных материалах.",
+        "evidence_indices": []
+      },
+      {
+        "variable_id": "participation-administrative-direction__negative",
+        "status": "observed",
+        "value": 2,
+        "confidence": 0.7,
+        "support_type": "positive_manifestation",
+        "rationale": "Проведение регулярных дипломатических брифингов и административное управление внешнеполитической коммуникацией (evidence_indices: 25, 15) свидетельствуют о практике административной постановки задач и контроля исполнения, но без устойчивого повторяющегося акцента.",
+        "evidence_indices": [
+          25,
+          15
+        ]
+      },
+      {
+        "variable_id": "argumentation-evidence-values__positive",
+        "status": "unknown",
+        "value": null,
+        "confidence": 0.5,
+        "support_type": "unknown",
+        "rationale": "Нет прямых примеров использования данных, расчётов или ссылок на исследования в публичных обоснованиях.",
+        "evidence_indices": []
+      },
+      {
+        "variable_id": "argumentation-evidence-values__negative",
+        "status": "observed",
+        "value": 2,
+        "confidence": 0.7,
+        "support_type": "positive_manifestation",
+        "rationale": "В речи ко Дню освобождения Руанды использованы национальная память и государственные символы для передачи ценностей (evidence_index: 27). Это ясное ограниченное проявление ценностного обоснования.",
+        "evidence_indices": [
+          27
+        ]
+      },
+      {
+        "variable_id": "market-state-instruments__positive",
+        "status": "unknown",
+        "value": null,
+        "confidence": 0.5,
+        "support_type": "unknown",
+        "rationale": "Нет прямых заявлений о расширении частной инициативы или управления как самостоятельной темы.",
+        "evidence_indices": []
+      },
+      {
+        "variable_id": "market-state-instruments__negative",
+        "status": "unknown",
+        "value": null,
+        "confidence": 0.5,
+        "support_type": "unknown",
+        "rationale": "Нет прямых заявлений о расширении государственного планирования или обязательных правил.",
+        "evidence_indices": []
+      },
+      {
+        "variable_id": "accessibility-growth-priorities__positive",
+        "status": "observed",
+        "value": 1,
+        "confidence": 0.6,
+        "support_type": "positive_manifestation",
+        "rationale": "В ряде заявлений упоминается развитие медицинской инфраструктуры (логистическая зона, сердечный центр с Египтом, evidence_index: 3), что может свидетельствовать о некотором приоритете доступности, но выраженность ограничена.",
+        "evidence_indices": [
+          3
+        ]
+      },
+      {
+        "variable_id": "accessibility-growth-priorities__negative",
+        "status": "observed",
+        "value": 3,
+        "confidence": 0.9,
+        "support_type": "positive_manifestation",
+        "rationale": "Многократные заявления о переходе от помощи к торговле и инвестициям, приоритете роста и деловой активности (evidence_indices: 11, 19, 20). Несколько последовательных эпизодов устойчивого акцента.",
+        "evidence_indices": [
+          11,
+          19,
+          20
+        ]
+      },
+      {
+        "variable_id": "external-domestic-resources__positive",
+        "status": "observed",
+        "value": 3,
+        "confidence": 0.9,
+        "support_type": "positive_manifestation",
+        "rationale": "Подтверждены неоднократные действия по привлечению внешних партнёров и ресурсов: соглашения с Россией по подготовке специалистов, логистические проекты с Египтом, стратегический диалог с США (evidence_indices: 9, 3, 24, 30, 31, 32).",
+        "evidence_indices": [
+          9,
+          3,
+          24,
+          30,
+          31,
+          32
+        ]
+      },
+      {
+        "variable_id": "external-domestic-resources__negative",
+        "status": "unknown",
+        "value": null,
+        "confidence": 0.5,
+        "support_type": "unknown",
+        "rationale": "Нет прямых заявлений о приоритете внутренней ресурсной самостоятельности или снижении зависимости от внешних поступлений.",
+        "evidence_indices": []
+      },
+      {
+        "variable_id": "international-rules-autonomy__positive",
+        "status": "observed",
+        "value": 2,
+        "confidence": 0.8,
+        "support_type": "positive_manifestation",
+        "rationale": "Поддержка реформы ООН, миротворчества, многосторонних обязательств и институционального оформления международных соглашений (evidence_indices: 12, 1, 29). Ясное ограниченное проявление.",
+        "evidence_indices": [
+          12,
+          1,
+          29
+        ]
+      },
+      {
+        "variable_id": "international-rules-autonomy__negative",
+        "status": "observed",
+        "value": 2,
+        "confidence": 0.7,
+        "support_type": "positive_manifestation",
+        "rationale": "В ряде интервью Ндухунгирехе подчеркивал необходимость более сильного африканского представительства, защиты интересов Африки и самостоятельности решений (evidence_index: 2). Ясное ограниченное проявление.",
+        "evidence_indices": [
+          2
+        ]
+      },
+      {
+        "variable_id": "mediation-adversarial-communication__positive",
+        "status": "observed",
+        "value": 2,
+        "confidence": 0.7,
+        "support_type": "positive_manifestation",
+        "rationale": "В публичных заявлениях и брифингах Ндухунгирехе поддерживал прямые переговоры между сторонами конфликта в ДРК (evidence_indices: 16, 22). Ясное ограниченное проявление посреднической линии.",
+        "evidence_indices": [
+          16,
+          22
+        ]
+      },
+      {
+        "variable_id": "mediation-adversarial-communication__negative",
+        "status": "observed",
+        "value": 2,
+        "confidence": 0.7,
+        "support_type": "positive_manifestation",
+        "rationale": "В интервью по конфликту в ДРК Ндухунгирехе использовал защитную и оспаривающую риторику, отрицал обвинения в адрес Руанды (evidence_index: 4). Ясное ограниченное проявление полемической коммуникации.",
+        "evidence_indices": [
+          4
+        ]
+      }
+    ]
+  },
+  "model": "gpt-4.1",
+  "task": "independent-ratings-olivier-nduhungirehe-0",
+  "at": "2026-10-15T17:29:29.545679+00:00",
+  "usage": {
+    "prompt_tokens": 10659,
+    "completion_tokens": 2052,
+    "total_tokens": 12711,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "audio_tokens": 0
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "audio_tokens": 0,
+      "accepted_prediction_tokens": 0,
+      "rejected_prediction_tokens": 0
+    }
+  },
+  "citations": [],
+  "system_fingerprint": "fp_801d3b7b5c",
+  "cache_key": "070fd09a73e99713a794d04f948e77d472ef19ab3f338c7f39a866b380acf530"
+}

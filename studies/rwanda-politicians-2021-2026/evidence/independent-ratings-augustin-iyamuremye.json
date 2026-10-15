@@ -1,0 +1,1693 @@
+[
+  {
+    "object_id": "augustin-iyamuremye",
+    "scale_id": "programmatic-renewal",
+    "pole_scores": {
+      "positive": {
+        "status": "observed",
+        "value": 1,
+        "confidence": 0.5,
+        "evidence_indices": [
+          14
+        ],
+        "source_urls": [
+          "https://www.parliament.gov.rw/fileadmin/user_upload/Parliament/HANSARDS_Senate/3rd_Legislature_2019-2024/2021-2022/INYANDIKOMVUGO_Y_IKIGANIRO_KU_NSHINGANO_YA_SENA_21_02_2022.pdf"
+        ],
+        "event_ids": [
+          "iyamuremye-senate-commission-2022"
+        ],
+        "rationale": "Иямуремье предлагал обсуждать актуализацию комиссий Сената (фрагмент в парламентском документе), однако содержание реформы и её последствия не раскрыты. Это единичное и слабое проявление программного изменения.",
+        "support_type": "positive_manifestation",
+        "provenance": {
+          "raw_response_file": "evidence/independent_responses/8e90794f3d36b26a7cb45d80d17e65f974c10d1b2a10654902fe6026d82b102c.json",
+          "model": "gpt-4.1",
+          "at": "2026-10-15T17:31:13.302409+00:00",
+          "cache_key": "8e90794f3d36b26a7cb45d80d17e65f974c10d1b2a10654902fe6026d82b102c",
+          "original_proposal": {
+            "variable_id": "programmatic-renewal__positive",
+            "status": "observed",
+            "value": 1,
+            "confidence": 0.5,
+            "support_type": "positive_manifestation",
+            "rationale": "Иямуремье предлагал обсуждать актуализацию комиссий Сената (фрагмент в парламентском документе), однако содержание реформы и её последствия не раскрыты. Это единичное и слабое проявление программного изменения.",
+            "evidence_indices": [
+              14
+            ]
+          }
+        },
+        "evidence_file": "evidence/independent-dossier-augustin-iyamuremye.json",
+        "evidence_basis": "c58a997ac65514a6fe684f6c0a2fcd1bb4235a106756cce6d8e8890eb6ae953a"
+      },
+      "negative": {
+        "status": "observed",
+        "value": 2,
+        "confidence": 0.6,
+        "evidence_indices": [
+          4,
+          6,
+          13
+        ],
+        "source_urls": [
+          "https://www.rwanda-podium.org/RWANDA-SENATE-SENATORS-CONGRATULATE-THE-PRESIDENT-KAGAME-ON-THE-SUCCESSFUL",
+          "https://www.ktpress.rw/2022/12/outgoing-senate-president-iyamuremye-speaks-out-on-his-resignation-health/"
+        ],
+        "event_ids": [
+          "iyamuremye-chogm-congratulation-2022",
+          "iyamuremye-resignation-health-2022"
+        ],
+        "rationale": "В публичных заявлениях при отставке и поздравительном обращении после CHOGM Иямуремье подчёркивал преемственность, признание усилий и продолжение работы. Это указывает на ограниченное, но явное проявление поддержки продолжения курса.",
+        "support_type": "positive_manifestation",
+        "provenance": {
+          "raw_response_file": "evidence/independent_responses/8e90794f3d36b26a7cb45d80d17e65f974c10d1b2a10654902fe6026d82b102c.json",
+          "model": "gpt-4.1",
+          "at": "2026-10-15T17:31:13.302409+00:00",
+          "cache_key": "8e90794f3d36b26a7cb45d80d17e65f974c10d1b2a10654902fe6026d82b102c",
+          "original_proposal": {
+            "variable_id": "programmatic-renewal__negative",
+            "status": "observed",
+            "value": 2,
+            "confidence": 0.6,
+            "support_type": "positive_manifestation",
+            "rationale": "В публичных заявлениях при отставке и поздравительном обращении после CHOGM Иямуремье подчёркивал преемственность, признание усилий и продолжение работы. Это указывает на ограниченное, но явное проявление поддержки продолжения курса.",
+            "evidence_indices": [
+              4,
+              6,
+              13
+            ]
+          }
+        },
+        "evidence_file": "evidence/independent-dossier-augustin-iyamuremye.json",
+        "evidence_basis": "c58a997ac65514a6fe684f6c0a2fcd1bb4235a106756cce6d8e8890eb6ae953a"
+      }
+    },
+    "positive": 1,
+    "negative": 2,
+    "value": null,
+    "status": "observed",
+    "difference": null,
+    "mass": null,
+    "measurement_model": "independent_poles",
+    "evidence_file": "evidence/independent-dossier-augustin-iyamuremye.json",
+    "evidence_basis": "c58a997ac65514a6fe684f6c0a2fcd1bb4235a106756cce6d8e8890eb6ae953a",
+    "at": "2026-10-15T17:31:20.723873+00:00",
+    "reason": "Каждое свойство оценивается независимо; разность и искусственное дополнение до пяти не вычисляются"
+  },
+  {
+    "object_id": "augustin-iyamuremye",
+    "scale_id": "government-course-assessment",
+    "pole_scores": {
+      "positive": {
+        "status": "observed",
+        "value": 2,
+        "confidence": 0.6,
+        "evidence_indices": [
+          4,
+          6,
+          13
+        ],
+        "source_urls": [
+          "https://www.rwanda-podium.org/RWANDA-SENATE-SENATORS-CONGRATULATE-THE-PRESIDENT-KAGAME-ON-THE-SUCCESSFUL",
+          "https://www.ktpress.rw/2022/12/outgoing-senate-president-iyamuremye-speaks-out-on-his-resignation-health/"
+        ],
+        "event_ids": [
+          "iyamuremye-chogm-congratulation-2022",
+          "iyamuremye-resignation-health-2022"
+        ],
+        "rationale": "Поздравительное обращение Сената после CHOGM и благодарность президенту при отставке содержат публичное признание усилий и достижений власти, что свидетельствует о поддержке курса, но не на уровне устойчивой черты.",
+        "support_type": "positive_manifestation",
+        "provenance": {
+          "raw_response_file": "evidence/independent_responses/8e90794f3d36b26a7cb45d80d17e65f974c10d1b2a10654902fe6026d82b102c.json",
+          "model": "gpt-4.1",
+          "at": "2026-10-15T17:31:13.302409+00:00",
+          "cache_key": "8e90794f3d36b26a7cb45d80d17e65f974c10d1b2a10654902fe6026d82b102c",
+          "original_proposal": {
+            "variable_id": "government-course-assessment__positive",
+            "status": "observed",
+            "value": 2,
+            "confidence": 0.6,
+            "support_type": "positive_manifestation",
+            "rationale": "Поздравительное обращение Сената после CHOGM и благодарность президенту при отставке содержат публичное признание усилий и достижений власти, что свидетельствует о поддержке курса, но не на уровне устойчивой черты.",
+            "evidence_indices": [
+              4,
+              6,
+              13
+            ]
+          }
+        },
+        "evidence_file": "evidence/independent-dossier-augustin-iyamuremye.json",
+        "evidence_basis": "c58a997ac65514a6fe684f6c0a2fcd1bb4235a106756cce6d8e8890eb6ae953a"
+      },
+      "negative": {
+        "status": "unknown",
+        "value": null,
+        "confidence": 0,
+        "evidence_indices": [],
+        "source_urls": [],
+        "event_ids": [],
+        "rationale": "Нет фактов, где Иямуремье прямо критиковал бы действующий государственный курс.",
+        "support_type": "unknown",
+        "provenance": {
+          "raw_response_file": "evidence/independent_responses/8e90794f3d36b26a7cb45d80d17e65f974c10d1b2a10654902fe6026d82b102c.json",
+          "model": "gpt-4.1",
+          "at": "2026-10-15T17:31:13.302409+00:00",
+          "cache_key": "8e90794f3d36b26a7cb45d80d17e65f974c10d1b2a10654902fe6026d82b102c",
+          "original_proposal": {
+            "variable_id": "government-course-assessment__negative",
+            "status": "unknown",
+            "value": null,
+            "confidence": 0,
+            "support_type": "unknown",
+            "rationale": "Нет фактов, где Иямуремье прямо критиковал бы действующий государственный курс.",
+            "evidence_indices": []
+          }
+        },
+        "evidence_file": "evidence/independent-dossier-augustin-iyamuremye.json",
+        "evidence_basis": "c58a997ac65514a6fe684f6c0a2fcd1bb4235a106756cce6d8e8890eb6ae953a"
+      }
+    },
+    "positive": 2,
+    "negative": null,
+    "value": null,
+    "status": "partial",
+    "difference": null,
+    "mass": null,
+    "measurement_model": "independent_poles",
+    "evidence_file": "evidence/independent-dossier-augustin-iyamuremye.json",
+    "evidence_basis": "c58a997ac65514a6fe684f6c0a2fcd1bb4235a106756cce6d8e8890eb6ae953a",
+    "at": "2026-10-15T17:31:20.723873+00:00",
+    "reason": "Каждое свойство оценивается независимо; разность и искусственное дополнение до пяти не вычисляются"
+  },
+  {
+    "object_id": "augustin-iyamuremye",
+    "scale_id": "participation-administrative-direction",
+    "pole_scores": {
+      "positive": {
+        "status": "observed",
+        "value": 2,
+        "confidence": 0.7,
+        "evidence_indices": [
+          8
+        ],
+        "source_urls": [
+          "https://www.ktpress.rw/2021/12/special-senate-committee-to-evaluate-idp-model-villages/"
+        ],
+        "event_ids": [
+          "iyamuremye-idp-committee-2021"
+        ],
+        "rationale": "Создание специального сенатского комитета для оценки условий жизни переселённых семей и поручение рассмотреть выводы указывает на ограниченное, но явное привлечение к совместному обсуждению и контролю.",
+        "support_type": "positive_manifestation",
+        "provenance": {
+          "raw_response_file": "evidence/independent_responses/8e90794f3d36b26a7cb45d80d17e65f974c10d1b2a10654902fe6026d82b102c.json",
+          "model": "gpt-4.1",
+          "at": "2026-10-15T17:31:13.302409+00:00",
+          "cache_key": "8e90794f3d36b26a7cb45d80d17e65f974c10d1b2a10654902fe6026d82b102c",
+          "original_proposal": {
+            "variable_id": "participation-administrative-direction__positive",
+            "status": "observed",
+            "value": 2,
+            "confidence": 0.7,
+            "support_type": "positive_manifestation",
+            "rationale": "Создание специального сенатского комитета для оценки условий жизни переселённых семей и поручение рассмотреть выводы указывает на ограниченное, но явное привлечение к совместному обсуждению и контролю.",
+            "evidence_indices": [
+              8
+            ]
+          }
+        },
+        "evidence_file": "evidence/independent-dossier-augustin-iyamuremye.json",
+        "evidence_basis": "c58a997ac65514a6fe684f6c0a2fcd1bb4235a106756cce6d8e8890eb6ae953a"
+      },
+      "negative": {
+        "status": "observed",
+        "value": 2,
+        "confidence": 0.6,
+        "evidence_indices": [
+          9,
+          20
+        ],
+        "source_urls": [
+          "https://www.ktpress.rw/2022/07/senate-president-concerned-with-gako-meat-company-low-production/"
+        ],
+        "event_ids": [
+          "iyamuremye-gako-2022",
+          "iyamuremye-2022-07-14-gako-performance-review"
+        ],
+        "rationale": "В ряде случаев (например, инспекция Gako Meat Company) Иямуремье выступал с административными требованиями и поручениями, что указывает на ограниченное проявление административного контроля.",
+        "support_type": "positive_manifestation",
+        "provenance": {
+          "raw_response_file": "evidence/independent_responses/8e90794f3d36b26a7cb45d80d17e65f974c10d1b2a10654902fe6026d82b102c.json",
+          "model": "gpt-4.1",
+          "at": "2026-10-15T17:31:13.302409+00:00",
+          "cache_key": "8e90794f3d36b26a7cb45d80d17e65f974c10d1b2a10654902fe6026d82b102c",
+          "original_proposal": {
+            "variable_id": "participation-administrative-direction__negative",
+            "status": "observed",
+            "value": 2,
+            "confidence": 0.6,
+            "support_type": "positive_manifestation",
+            "rationale": "В ряде случаев (например, инспекция Gako Meat Company) Иямуремье выступал с административными требованиями и поручениями, что указывает на ограниченное проявление административного контроля.",
+            "evidence_indices": [
+              9,
+              20
+            ]
+          }
+        },
+        "evidence_file": "evidence/independent-dossier-augustin-iyamuremye.json",
+        "evidence_basis": "c58a997ac65514a6fe684f6c0a2fcd1bb4235a106756cce6d8e8890eb6ae953a"
+      }
+    },
+    "positive": 2,
+    "negative": 2,
+    "value": null,
+    "status": "observed",
+    "difference": null,
+    "mass": null,
+    "measurement_model": "independent_poles",
+    "evidence_file": "evidence/independent-dossier-augustin-iyamuremye.json",
+    "evidence_basis": "c58a997ac65514a6fe684f6c0a2fcd1bb4235a106756cce6d8e8890eb6ae953a",
+    "at": "2026-10-15T17:31:20.723873+00:00",
+    "reason": "Каждое свойство оценивается независимо; разность и искусственное дополнение до пяти не вычисляются"
+  },
+  {
+    "object_id": "augustin-iyamuremye",
+    "scale_id": "argumentation-evidence-values",
+    "pole_scores": {
+      "positive": {
+        "status": "observed",
+        "value": 2,
+        "confidence": 0.7,
+        "evidence_indices": [
+          9,
+          20,
+          21
+        ],
+        "source_urls": [
+          "https://www.ktpress.rw/2022/07/senate-president-concerned-with-gako-meat-company-low-production/"
+        ],
+        "event_ids": [
+          "iyamuremye-gako-2022",
+          "iyamuremye-2022-07-14-gako-performance-review",
+          "iyamuremye-2022-07-14-gako-research-and-export"
+        ],
+        "rationale": "В инспекции Gako Meat Company он ссылался на данные аудиторских и парламентских отчётов, а также на опыт других стран, что свидетельствует о ясном, но не устойчивом использовании данных и проверяемых результатов.",
+        "support_type": "positive_manifestation",
+        "provenance": {
+          "raw_response_file": "evidence/independent_responses/8e90794f3d36b26a7cb45d80d17e65f974c10d1b2a10654902fe6026d82b102c.json",
+          "model": "gpt-4.1",
+          "at": "2026-10-15T17:31:13.302409+00:00",
+          "cache_key": "8e90794f3d36b26a7cb45d80d17e65f974c10d1b2a10654902fe6026d82b102c",
+          "original_proposal": {
+            "variable_id": "argumentation-evidence-values__positive",
+            "status": "observed",
+            "value": 2,
+            "confidence": 0.7,
+            "support_type": "positive_manifestation",
+            "rationale": "В инспекции Gako Meat Company он ссылался на данные аудиторских и парламентских отчётов, а также на опыт других стран, что свидетельствует о ясном, но не устойчивом использовании данных и проверяемых результатов.",
+            "evidence_indices": [
+              9,
+              20,
+              21
+            ]
+          }
+        },
+        "evidence_file": "evidence/independent-dossier-augustin-iyamuremye.json",
+        "evidence_basis": "c58a997ac65514a6fe684f6c0a2fcd1bb4235a106756cce6d8e8890eb6ae953a"
+      },
+      "negative": {
+        "status": "observed",
+        "value": 1,
+        "confidence": 0.5,
+        "evidence_indices": [
+          3
+        ],
+        "source_urls": [
+          "https://www.newtimes.co.rw/article/193187/News/heroes-day-kagame-tasks-youth-to-sustain-the-rwandan-spirit/amp"
+        ],
+        "event_ids": [
+          "iyamuremye-heroes-day-2022"
+        ],
+        "rationale": "Присутствие на Дне героев и участие в символических мероприятиях указывает на единичное слабое проявление обращения к коллективным символам, но без самостоятельной риторики.",
+        "support_type": "positive_manifestation",
+        "provenance": {
+          "raw_response_file": "evidence/independent_responses/8e90794f3d36b26a7cb45d80d17e65f974c10d1b2a10654902fe6026d82b102c.json",
+          "model": "gpt-4.1",
+          "at": "2026-10-15T17:31:13.302409+00:00",
+          "cache_key": "8e90794f3d36b26a7cb45d80d17e65f974c10d1b2a10654902fe6026d82b102c",
+          "original_proposal": {
+            "variable_id": "argumentation-evidence-values__negative",
+            "status": "observed",
+            "value": 1,
+            "confidence": 0.5,
+            "support_type": "positive_manifestation",
+            "rationale": "Присутствие на Дне героев и участие в символических мероприятиях указывает на единичное слабое проявление обращения к коллективным символам, но без самостоятельной риторики.",
+            "evidence_indices": [
+              3
+            ]
+          }
+        },
+        "evidence_file": "evidence/independent-dossier-augustin-iyamuremye.json",
+        "evidence_basis": "c58a997ac65514a6fe684f6c0a2fcd1bb4235a106756cce6d8e8890eb6ae953a"
+      }
+    },
+    "positive": 2,
+    "negative": 1,
+    "value": null,
+    "status": "observed",
+    "difference": null,
+    "mass": null,
+    "measurement_model": "independent_poles",
+    "evidence_file": "evidence/independent-dossier-augustin-iyamuremye.json",
+    "evidence_basis": "c58a997ac65514a6fe684f6c0a2fcd1bb4235a106756cce6d8e8890eb6ae953a",
+    "at": "2026-10-15T17:31:20.723873+00:00",
+    "reason": "Каждое свойство оценивается независимо; разность и искусственное дополнение до пяти не вычисляются"
+  },
+  {
+    "object_id": "augustin-iyamuremye",
+    "scale_id": "market-state-instruments",
+    "pole_scores": {
+      "positive": {
+        "status": "observed",
+        "value": 1,
+        "confidence": 0.5,
+        "evidence_indices": [
+          21
+        ],
+        "source_urls": [
+          "https://www.ktpress.rw/2022/07/senate-president-concerned-with-gako-meat-company-low-production/"
+        ],
+        "event_ids": [
+          "iyamuremye-2022-07-14-gako-research-and-export"
+        ],
+        "rationale": "В инспекции Gako Meat Company он предлагал использовать опыт частных операторов из других стран и развивать экспорт, что указывает на единичное проявление поддержки частной инициативы.",
+        "support_type": "positive_manifestation",
+        "provenance": {
+          "raw_response_file": "evidence/independent_responses/8e90794f3d36b26a7cb45d80d17e65f974c10d1b2a10654902fe6026d82b102c.json",
+          "model": "gpt-4.1",
+          "at": "2026-10-15T17:31:13.302409+00:00",
+          "cache_key": "8e90794f3d36b26a7cb45d80d17e65f974c10d1b2a10654902fe6026d82b102c",
+          "original_proposal": {
+            "variable_id": "market-state-instruments__positive",
+            "status": "observed",
+            "value": 1,
+            "confidence": 0.5,
+            "support_type": "positive_manifestation",
+            "rationale": "В инспекции Gako Meat Company он предлагал использовать опыт частных операторов из других стран и развивать экспорт, что указывает на единичное проявление поддержки частной инициативы.",
+            "evidence_indices": [
+              21
+            ]
+          }
+        },
+        "evidence_file": "evidence/independent-dossier-augustin-iyamuremye.json",
+        "evidence_basis": "c58a997ac65514a6fe684f6c0a2fcd1bb4235a106756cce6d8e8890eb6ae953a"
+      },
+      "negative": {
+        "status": "observed",
+        "value": 2,
+        "confidence": 0.6,
+        "evidence_indices": [
+          9,
+          20
+        ],
+        "source_urls": [
+          "https://www.ktpress.rw/2022/07/senate-president-concerned-with-gako-meat-company-low-production/"
+        ],
+        "event_ids": [
+          "iyamuremye-gako-2022",
+          "iyamuremye-2022-07-14-gako-performance-review"
+        ],
+        "rationale": "Контроль исполнения государственных проектов и поручения по исправлению недостатков указывают на ограниченное, но явное использование административных инструментов.",
+        "support_type": "positive_manifestation",
+        "provenance": {
+          "raw_response_file": "evidence/independent_responses/8e90794f3d36b26a7cb45d80d17e65f974c10d1b2a10654902fe6026d82b102c.json",
+          "model": "gpt-4.1",
+          "at": "2026-10-15T17:31:13.302409+00:00",
+          "cache_key": "8e90794f3d36b26a7cb45d80d17e65f974c10d1b2a10654902fe6026d82b102c",
+          "original_proposal": {
+            "variable_id": "market-state-instruments__negative",
+            "status": "observed",
+            "value": 2,
+            "confidence": 0.6,
+            "support_type": "positive_manifestation",
+            "rationale": "Контроль исполнения государственных проектов и поручения по исправлению недостатков указывают на ограниченное, но явное использование административных инструментов.",
+            "evidence_indices": [
+              9,
+              20
+            ]
+          }
+        },
+        "evidence_file": "evidence/independent-dossier-augustin-iyamuremye.json",
+        "evidence_basis": "c58a997ac65514a6fe684f6c0a2fcd1bb4235a106756cce6d8e8890eb6ae953a"
+      }
+    },
+    "positive": 1,
+    "negative": 2,
+    "value": null,
+    "status": "observed",
+    "difference": null,
+    "mass": null,
+    "measurement_model": "independent_poles",
+    "evidence_file": "evidence/independent-dossier-augustin-iyamuremye.json",
+    "evidence_basis": "c58a997ac65514a6fe684f6c0a2fcd1bb4235a106756cce6d8e8890eb6ae953a",
+    "at": "2026-10-15T17:31:20.723873+00:00",
+    "reason": "Каждое свойство оценивается независимо; разность и искусственное дополнение до пяти не вычисляются"
+  },
+  {
+    "object_id": "augustin-iyamuremye",
+    "scale_id": "accessibility-growth-priorities",
+    "pole_scores": {
+      "positive": {
+        "status": "observed",
+        "value": 2,
+        "confidence": 0.7,
+        "evidence_indices": [
+          8
+        ],
+        "source_urls": [
+          "https://www.ktpress.rw/2021/12/special-senate-committee-to-evaluate-idp-model-villages/"
+        ],
+        "event_ids": [
+          "iyamuremye-idp-committee-2021"
+        ],
+        "rationale": "Создание сенатского комитета для оценки условий жизни в модельных деревнях и контроль доступа к базовым услугам свидетельствуют о ясном, но не устойчивом акценте на доступности благ.",
+        "support_type": "positive_manifestation",
+        "provenance": {
+          "raw_response_file": "evidence/independent_responses/8e90794f3d36b26a7cb45d80d17e65f974c10d1b2a10654902fe6026d82b102c.json",
+          "model": "gpt-4.1",
+          "at": "2026-10-15T17:31:13.302409+00:00",
+          "cache_key": "8e90794f3d36b26a7cb45d80d17e65f974c10d1b2a10654902fe6026d82b102c",
+          "original_proposal": {
+            "variable_id": "accessibility-growth-priorities__positive",
+            "status": "observed",
+            "value": 2,
+            "confidence": 0.7,
+            "support_type": "positive_manifestation",
+            "rationale": "Создание сенатского комитета для оценки условий жизни в модельных деревнях и контроль доступа к базовым услугам свидетельствуют о ясном, но не устойчивом акценте на доступности благ.",
+            "evidence_indices": [
+              8
+            ]
+          }
+        },
+        "evidence_file": "evidence/independent-dossier-augustin-iyamuremye.json",
+        "evidence_basis": "c58a997ac65514a6fe684f6c0a2fcd1bb4235a106756cce6d8e8890eb6ae953a"
+      },
+      "negative": {
+        "status": "observed",
+        "value": 2,
+        "confidence": 0.6,
+        "evidence_indices": [
+          18,
+          21
+        ],
+        "source_urls": [
+          "https://www.ktpress.rw/2022/10/145th-ipu-assembly-rwanda-set-to-reap-benefits-from-hosting-global-meet/",
+          "https://www.ktpress.rw/2022/07/senate-president-concerned-with-gako-meat-company-low-production/"
+        ],
+        "event_ids": [
+          "iyamuremye-2022-10-10-ipu-hosting-image",
+          "iyamuremye-2022-07-14-gako-research-and-export"
+        ],
+        "rationale": "В ряде случаев (например, развитие экспорта мясной продукции, поддержка туризма) отмечен акцент на росте конкурентоспособности и деловой активности.",
+        "support_type": "positive_manifestation",
+        "provenance": {
+          "raw_response_file": "evidence/independent_responses/8e90794f3d36b26a7cb45d80d17e65f974c10d1b2a10654902fe6026d82b102c.json",
+          "model": "gpt-4.1",
+          "at": "2026-10-15T17:31:13.302409+00:00",
+          "cache_key": "8e90794f3d36b26a7cb45d80d17e65f974c10d1b2a10654902fe6026d82b102c",
+          "original_proposal": {
+            "variable_id": "accessibility-growth-priorities__negative",
+            "status": "observed",
+            "value": 2,
+            "confidence": 0.6,
+            "support_type": "positive_manifestation",
+            "rationale": "В ряде случаев (например, развитие экспорта мясной продукции, поддержка туризма) отмечен акцент на росте конкурентоспособности и деловой активности.",
+            "evidence_indices": [
+              18,
+              21
+            ]
+          }
+        },
+        "evidence_file": "evidence/independent-dossier-augustin-iyamuremye.json",
+        "evidence_basis": "c58a997ac65514a6fe684f6c0a2fcd1bb4235a106756cce6d8e8890eb6ae953a"
+      }
+    },
+    "positive": 2,
+    "negative": 2,
+    "value": null,
+    "status": "observed",
+    "difference": null,
+    "mass": null,
+    "measurement_model": "independent_poles",
+    "evidence_file": "evidence/independent-dossier-augustin-iyamuremye.json",
+    "evidence_basis": "c58a997ac65514a6fe684f6c0a2fcd1bb4235a106756cce6d8e8890eb6ae953a",
+    "at": "2026-10-15T17:31:20.723873+00:00",
+    "reason": "Каждое свойство оценивается независимо; разность и искусственное дополнение до пяти не вычисляются"
+  },
+  {
+    "object_id": "augustin-iyamuremye",
+    "scale_id": "external-domestic-resources",
+    "pole_scores": {
+      "positive": {
+        "status": "unknown",
+        "value": null,
+        "confidence": 0,
+        "evidence_indices": [],
+        "source_urls": [],
+        "event_ids": [],
+        "rationale": "Нет фактов о конкретных инициативах Иямуремье по привлечению внешнего финансирования или ресурсных партнёров.",
+        "support_type": "unknown",
+        "provenance": {
+          "raw_response_file": "evidence/independent_responses/8e90794f3d36b26a7cb45d80d17e65f974c10d1b2a10654902fe6026d82b102c.json",
+          "model": "gpt-4.1",
+          "at": "2026-10-15T17:31:13.302409+00:00",
+          "cache_key": "8e90794f3d36b26a7cb45d80d17e65f974c10d1b2a10654902fe6026d82b102c",
+          "original_proposal": {
+            "variable_id": "external-domestic-resources__positive",
+            "status": "unknown",
+            "value": null,
+            "confidence": 0,
+            "support_type": "unknown",
+            "rationale": "Нет фактов о конкретных инициативах Иямуремье по привлечению внешнего финансирования или ресурсных партнёров.",
+            "evidence_indices": []
+          }
+        },
+        "evidence_file": "evidence/independent-dossier-augustin-iyamuremye.json",
+        "evidence_basis": "c58a997ac65514a6fe684f6c0a2fcd1bb4235a106756cce6d8e8890eb6ae953a"
+      },
+      "negative": {
+        "status": "observed",
+        "value": 1,
+        "confidence": 0.5,
+        "evidence_indices": [
+          21
+        ],
+        "source_urls": [
+          "https://www.ktpress.rw/2022/07/senate-president-concerned-with-gako-meat-company-low-production/"
+        ],
+        "event_ids": [
+          "iyamuremye-2022-07-14-gako-research-and-export"
+        ],
+        "rationale": "В контексте мясного проекта он говорил о снижении зависимости от импортного мяса, что указывает на единичное проявление акцента на внутренние ресурсы.",
+        "support_type": "positive_manifestation",
+        "provenance": {
+          "raw_response_file": "evidence/independent_responses/8e90794f3d36b26a7cb45d80d17e65f974c10d1b2a10654902fe6026d82b102c.json",
+          "model": "gpt-4.1",
+          "at": "2026-10-15T17:31:13.302409+00:00",
+          "cache_key": "8e90794f3d36b26a7cb45d80d17e65f974c10d1b2a10654902fe6026d82b102c",
+          "original_proposal": {
+            "variable_id": "external-domestic-resources__negative",
+            "status": "observed",
+            "value": 1,
+            "confidence": 0.5,
+            "support_type": "positive_manifestation",
+            "rationale": "В контексте мясного проекта он говорил о снижении зависимости от импортного мяса, что указывает на единичное проявление акцента на внутренние ресурсы.",
+            "evidence_indices": [
+              21
+            ]
+          }
+        },
+        "evidence_file": "evidence/independent-dossier-augustin-iyamuremye.json",
+        "evidence_basis": "c58a997ac65514a6fe684f6c0a2fcd1bb4235a106756cce6d8e8890eb6ae953a"
+      }
+    },
+    "positive": null,
+    "negative": 1,
+    "value": null,
+    "status": "partial",
+    "difference": null,
+    "mass": null,
+    "measurement_model": "independent_poles",
+    "evidence_file": "evidence/independent-dossier-augustin-iyamuremye.json",
+    "evidence_basis": "c58a997ac65514a6fe684f6c0a2fcd1bb4235a106756cce6d8e8890eb6ae953a",
+    "at": "2026-10-15T17:31:20.723873+00:00",
+    "reason": "Каждое свойство оценивается независимо; разность и искусственное дополнение до пяти не вычисляются"
+  },
+  {
+    "object_id": "augustin-iyamuremye",
+    "scale_id": "international-rules-autonomy",
+    "pole_scores": {
+      "positive": {
+        "status": "unknown",
+        "value": null,
+        "confidence": 0,
+        "evidence_indices": [],
+        "source_urls": [],
+        "event_ids": [],
+        "rationale": "Нет фактов о предложениях Иямуремье закрепить международные обязательства или нормы.",
+        "support_type": "unknown",
+        "provenance": {
+          "raw_response_file": "evidence/independent_responses/8e90794f3d36b26a7cb45d80d17e65f974c10d1b2a10654902fe6026d82b102c.json",
+          "model": "gpt-4.1",
+          "at": "2026-10-15T17:31:13.302409+00:00",
+          "cache_key": "8e90794f3d36b26a7cb45d80d17e65f974c10d1b2a10654902fe6026d82b102c",
+          "original_proposal": {
+            "variable_id": "international-rules-autonomy__positive",
+            "status": "unknown",
+            "value": null,
+            "confidence": 0,
+            "support_type": "unknown",
+            "rationale": "Нет фактов о предложениях Иямуремье закрепить международные обязательства или нормы.",
+            "evidence_indices": []
+          }
+        },
+        "evidence_file": "evidence/independent-dossier-augustin-iyamuremye.json",
+        "evidence_basis": "c58a997ac65514a6fe684f6c0a2fcd1bb4235a106756cce6d8e8890eb6ae953a"
+      },
+      "negative": {
+        "status": "unknown",
+        "value": null,
+        "confidence": 0,
+        "evidence_indices": [],
+        "source_urls": [],
+        "event_ids": [],
+        "rationale": "Нет фактов о публичной защите национальной самостоятельности решений.",
+        "support_type": "unknown",
+        "provenance": {
+          "raw_response_file": "evidence/independent_responses/8e90794f3d36b26a7cb45d80d17e65f974c10d1b2a10654902fe6026d82b102c.json",
+          "model": "gpt-4.1",
+          "at": "2026-10-15T17:31:13.302409+00:00",
+          "cache_key": "8e90794f3d36b26a7cb45d80d17e65f974c10d1b2a10654902fe6026d82b102c",
+          "original_proposal": {
+            "variable_id": "international-rules-autonomy__negative",
+            "status": "unknown",
+            "value": null,
+            "confidence": 0,
+            "support_type": "unknown",
+            "rationale": "Нет фактов о публичной защите национальной самостоятельности решений.",
+            "evidence_indices": []
+          }
+        },
+        "evidence_file": "evidence/independent-dossier-augustin-iyamuremye.json",
+        "evidence_basis": "c58a997ac65514a6fe684f6c0a2fcd1bb4235a106756cce6d8e8890eb6ae953a"
+      }
+    },
+    "positive": null,
+    "negative": null,
+    "value": null,
+    "status": "unknown",
+    "difference": null,
+    "mass": null,
+    "measurement_model": "independent_poles",
+    "evidence_file": "evidence/independent-dossier-augustin-iyamuremye.json",
+    "evidence_basis": "c58a997ac65514a6fe684f6c0a2fcd1bb4235a106756cce6d8e8890eb6ae953a",
+    "at": "2026-10-15T17:31:20.723873+00:00",
+    "reason": "Каждое свойство оценивается независимо; разность и искусственное дополнение до пяти не вычисляются"
+  },
+  {
+    "object_id": "augustin-iyamuremye",
+    "scale_id": "mediation-adversarial-communication",
+    "pole_scores": {
+      "positive": {
+        "status": "observed",
+        "value": 1,
+        "confidence": 0.5,
+        "evidence_indices": [
+          10,
+          19
+        ],
+        "source_urls": [
+          "https://www.ktpress.rw/2022/10/145th-ipu-assembly-rwanda-set-to-reap-benefits-from-hosting-global-meet/"
+        ],
+        "event_ids": [
+          "iyamuremye-gender-ipu-2022",
+          "iyamuremye-2022-10-10-learning-from-other-parliaments"
+        ],
+        "rationale": "В риторике о международных форумах он подчёркивал важность обмена опытом и согласования позиций, что указывает на единичное проявление поиска согласования.",
+        "support_type": "positive_manifestation",
+        "provenance": {
+          "raw_response_file": "evidence/independent_responses/8e90794f3d36b26a7cb45d80d17e65f974c10d1b2a10654902fe6026d82b102c.json",
+          "model": "gpt-4.1",
+          "at": "2026-10-15T17:31:13.302409+00:00",
+          "cache_key": "8e90794f3d36b26a7cb45d80d17e65f974c10d1b2a10654902fe6026d82b102c",
+          "original_proposal": {
+            "variable_id": "mediation-adversarial-communication__positive",
+            "status": "observed",
+            "value": 1,
+            "confidence": 0.5,
+            "support_type": "positive_manifestation",
+            "rationale": "В риторике о международных форумах он подчёркивал важность обмена опытом и согласования позиций, что указывает на единичное проявление поиска согласования.",
+            "evidence_indices": [
+              10,
+              19
+            ]
+          }
+        },
+        "evidence_file": "evidence/independent-dossier-augustin-iyamuremye.json",
+        "evidence_basis": "c58a997ac65514a6fe684f6c0a2fcd1bb4235a106756cce6d8e8890eb6ae953a"
+      },
+      "negative": {
+        "status": "unknown",
+        "value": null,
+        "confidence": 0,
+        "evidence_indices": [],
+        "source_urls": [],
+        "event_ids": [],
+        "rationale": "Нет фактов о публичном оспаривании или защите собственной стороны в полемической форме.",
+        "support_type": "unknown",
+        "provenance": {
+          "raw_response_file": "evidence/independent_responses/8e90794f3d36b26a7cb45d80d17e65f974c10d1b2a10654902fe6026d82b102c.json",
+          "model": "gpt-4.1",
+          "at": "2026-10-15T17:31:13.302409+00:00",
+          "cache_key": "8e90794f3d36b26a7cb45d80d17e65f974c10d1b2a10654902fe6026d82b102c",
+          "original_proposal": {
+            "variable_id": "mediation-adversarial-communication__negative",
+            "status": "unknown",
+            "value": null,
+            "confidence": 0,
+            "support_type": "unknown",
+            "rationale": "Нет фактов о публичном оспаривании или защите собственной стороны в полемической форме.",
+            "evidence_indices": []
+          }
+        },
+        "evidence_file": "evidence/independent-dossier-augustin-iyamuremye.json",
+        "evidence_basis": "c58a997ac65514a6fe684f6c0a2fcd1bb4235a106756cce6d8e8890eb6ae953a"
+      }
+    },
+    "positive": 1,
+    "negative": null,
+    "value": null,
+    "status": "partial",
+    "difference": null,
+    "mass": null,
+    "measurement_model": "independent_poles",
+    "evidence_file": "evidence/independent-dossier-augustin-iyamuremye.json",
+    "evidence_basis": "c58a997ac65514a6fe684f6c0a2fcd1bb4235a106756cce6d8e8890eb6ae953a",
+    "at": "2026-10-15T17:31:20.723873+00:00",
+    "reason": "Каждое свойство оценивается независимо; разность и искусственное дополнение до пяти не вычисляются"
+  },
+  {
+    "object_id": "augustin-iyamuremye",
+    "scale_id": "cultural-openness-national-transmission",
+    "pole_scores": {
+      "positive": {
+        "status": "observed",
+        "value": 2,
+        "confidence": 0.7,
+        "evidence_indices": [
+          10,
+          19
+        ],
+        "source_urls": [
+          "https://www.ktpress.rw/2022/10/145th-ipu-assembly-rwanda-set-to-reap-benefits-from-hosting-global-meet/"
+        ],
+        "event_ids": [
+          "iyamuremye-gender-ipu-2022",
+          "iyamuremye-2022-10-10-learning-from-other-parliaments"
+        ],
+        "rationale": "Иямуремье публично поддерживал обмен парламентскими практиками, отмечал возможность Руанды учиться у других стран в сфере ИКТ и парламентской работы, а также ставил целью сокращение гендерного разрыва во всех странах. Это указывает на ограниченное, но явное проявление ориентации на межкультурный обмен и разнообразие.",
+        "support_type": "positive_manifestation",
+        "provenance": {
+          "raw_response_file": "evidence/independent_responses/d5bc6c2fc80145e2cb221fed8d9702cecebdc0f7182248255293ada8b4af19d3.json",
+          "model": "gpt-4.1",
+          "at": "2026-10-15T17:31:20.719953+00:00",
+          "cache_key": "d5bc6c2fc80145e2cb221fed8d9702cecebdc0f7182248255293ada8b4af19d3",
+          "original_proposal": {
+            "variable_id": "cultural-openness-national-transmission__positive",
+            "status": "observed",
+            "value": 2,
+            "confidence": 0.7,
+            "support_type": "positive_manifestation",
+            "rationale": "Иямуремье публично поддерживал обмен парламентскими практиками, отмечал возможность Руанды учиться у других стран в сфере ИКТ и парламентской работы, а также ставил целью сокращение гендерного разрыва во всех странах. Это указывает на ограниченное, но явное проявление ориентации на межкультурный обмен и разнообразие.",
+            "evidence_indices": [
+              10,
+              19
+            ]
+          }
+        },
+        "evidence_file": "evidence/independent-dossier-augustin-iyamuremye.json",
+        "evidence_basis": "c58a997ac65514a6fe684f6c0a2fcd1bb4235a106756cce6d8e8890eb6ae953a"
+      },
+      "negative": {
+        "status": "unknown",
+        "value": null,
+        "confidence": 0,
+        "evidence_indices": [],
+        "source_urls": [],
+        "event_ids": [],
+        "rationale": "Нет прямых фактов, свидетельствующих о публичном акценте на сохранении и передаче национальных ценностей как самостоятельной политической линии.",
+        "support_type": "unknown",
+        "provenance": {
+          "raw_response_file": "evidence/independent_responses/d5bc6c2fc80145e2cb221fed8d9702cecebdc0f7182248255293ada8b4af19d3.json",
+          "model": "gpt-4.1",
+          "at": "2026-10-15T17:31:20.719953+00:00",
+          "cache_key": "d5bc6c2fc80145e2cb221fed8d9702cecebdc0f7182248255293ada8b4af19d3",
+          "original_proposal": {
+            "variable_id": "cultural-openness-national-transmission__negative",
+            "status": "unknown",
+            "value": null,
+            "confidence": 0,
+            "support_type": "unknown",
+            "rationale": "Нет прямых фактов, свидетельствующих о публичном акценте на сохранении и передаче национальных ценностей как самостоятельной политической линии.",
+            "evidence_indices": []
+          }
+        },
+        "evidence_file": "evidence/independent-dossier-augustin-iyamuremye.json",
+        "evidence_basis": "c58a997ac65514a6fe684f6c0a2fcd1bb4235a106756cce6d8e8890eb6ae953a"
+      }
+    },
+    "positive": 2,
+    "negative": null,
+    "value": null,
+    "status": "partial",
+    "difference": null,
+    "mass": null,
+    "measurement_model": "independent_poles",
+    "evidence_file": "evidence/independent-dossier-augustin-iyamuremye.json",
+    "evidence_basis": "c58a997ac65514a6fe684f6c0a2fcd1bb4235a106756cce6d8e8890eb6ae953a",
+    "at": "2026-10-15T17:31:20.723873+00:00",
+    "reason": "Каждое свойство оценивается независимо; разность и искусственное дополнение до пяти не вычисляются"
+  },
+  {
+    "object_id": "augustin-iyamuremye",
+    "scale_id": "problem-disclosure-reputation-defence",
+    "pole_scores": {
+      "positive": {
+        "status": "observed",
+        "value": 2,
+        "confidence": 0.7,
+        "evidence_indices": [
+          9,
+          20
+        ],
+        "source_urls": [
+          "https://www.ktpress.rw/2022/07/senate-president-concerned-with-gako-meat-company-low-production/"
+        ],
+        "event_ids": [
+          "iyamuremye-gako-2022",
+          "iyamuremye-2022-07-14-gako-performance-review"
+        ],
+        "rationale": "Иямуремье публично выявлял проблему низкой производительности мясного проекта Gako, ссылался на отчёты о недостаточной результативности и требовал разобраться с ситуацией. Это ограниченное, но явное признание проблемы исполнения.",
+        "support_type": "positive_manifestation",
+        "provenance": {
+          "raw_response_file": "evidence/independent_responses/d5bc6c2fc80145e2cb221fed8d9702cecebdc0f7182248255293ada8b4af19d3.json",
+          "model": "gpt-4.1",
+          "at": "2026-10-15T17:31:20.719953+00:00",
+          "cache_key": "d5bc6c2fc80145e2cb221fed8d9702cecebdc0f7182248255293ada8b4af19d3",
+          "original_proposal": {
+            "variable_id": "problem-disclosure-reputation-defence__positive",
+            "status": "observed",
+            "value": 2,
+            "confidence": 0.7,
+            "support_type": "positive_manifestation",
+            "rationale": "Иямуремье публично выявлял проблему низкой производительности мясного проекта Gako, ссылался на отчёты о недостаточной результативности и требовал разобраться с ситуацией. Это ограниченное, но явное признание проблемы исполнения.",
+            "evidence_indices": [
+              9,
+              20
+            ]
+          }
+        },
+        "evidence_file": "evidence/independent-dossier-augustin-iyamuremye.json",
+        "evidence_basis": "c58a997ac65514a6fe684f6c0a2fcd1bb4235a106756cce6d8e8890eb6ae953a"
+      },
+      "negative": {
+        "status": "observed",
+        "value": 2,
+        "confidence": 0.7,
+        "evidence_indices": [
+          0,
+          2,
+          11,
+          18
+        ],
+        "source_urls": [
+          "https://www.ktpress.rw/2022/10/145th-ipu-assembly-rwanda-set-to-reap-benefits-from-hosting-global-meet/"
+        ],
+        "event_ids": [
+          "iyamuremye-ipU-hosting-2022",
+          "iyamuremye-ipU-rwanda-image-2022",
+          "iyamuremye-2022-10-10-ipu-hosting-image"
+        ],
+        "rationale": "В риторике о международных форумах он подчёркивал важность управляемой публичной репрезентации Руанды, акцентировал на необходимости передачи делегатами позитивного и реалистичного образа страны. Это ограниченное проявление защитного продвижения репутации.",
+        "support_type": "positive_manifestation",
+        "provenance": {
+          "raw_response_file": "evidence/independent_responses/d5bc6c2fc80145e2cb221fed8d9702cecebdc0f7182248255293ada8b4af19d3.json",
+          "model": "gpt-4.1",
+          "at": "2026-10-15T17:31:20.719953+00:00",
+          "cache_key": "d5bc6c2fc80145e2cb221fed8d9702cecebdc0f7182248255293ada8b4af19d3",
+          "original_proposal": {
+            "variable_id": "problem-disclosure-reputation-defence__negative",
+            "status": "observed",
+            "value": 2,
+            "confidence": 0.7,
+            "support_type": "positive_manifestation",
+            "rationale": "В риторике о международных форумах он подчёркивал важность управляемой публичной репрезентации Руанды, акцентировал на необходимости передачи делегатами позитивного и реалистичного образа страны. Это ограниченное проявление защитного продвижения репутации.",
+            "evidence_indices": [
+              0,
+              2,
+              11,
+              18
+            ]
+          }
+        },
+        "evidence_file": "evidence/independent-dossier-augustin-iyamuremye.json",
+        "evidence_basis": "c58a997ac65514a6fe684f6c0a2fcd1bb4235a106756cce6d8e8890eb6ae953a"
+      }
+    },
+    "positive": 2,
+    "negative": 2,
+    "value": null,
+    "status": "observed",
+    "difference": null,
+    "mass": null,
+    "measurement_model": "independent_poles",
+    "evidence_file": "evidence/independent-dossier-augustin-iyamuremye.json",
+    "evidence_basis": "c58a997ac65514a6fe684f6c0a2fcd1bb4235a106756cce6d8e8890eb6ae953a",
+    "at": "2026-10-15T17:31:20.723873+00:00",
+    "reason": "Каждое свойство оценивается независимо; разность и искусственное дополнение до пяти не вычисляются"
+  },
+  {
+    "object_id": "augustin-iyamuremye",
+    "scale_id": "procedural-guarantees-enforcement",
+    "pole_scores": {
+      "positive": {
+        "status": "observed",
+        "value": 2,
+        "confidence": 0.6,
+        "evidence_indices": [
+          8
+        ],
+        "source_urls": [
+          "https://www.ktpress.rw/2021/12/special-senate-committee-to-evaluate-idp-model-villages/"
+        ],
+        "event_ids": [
+          "iyamuremye-idp-committee-2021"
+        ],
+        "rationale": "Иямуремье поддержал создание специального комитета Сената для оценки условий жизни переселённых семей, поручил проверить ряд аспектов и рассмотреть выводы для принятия мер. Это ограниченное проявление расширения возможностей контроля и рассмотрения жалоб.",
+        "support_type": "positive_manifestation",
+        "provenance": {
+          "raw_response_file": "evidence/independent_responses/d5bc6c2fc80145e2cb221fed8d9702cecebdc0f7182248255293ada8b4af19d3.json",
+          "model": "gpt-4.1",
+          "at": "2026-10-15T17:31:20.719953+00:00",
+          "cache_key": "d5bc6c2fc80145e2cb221fed8d9702cecebdc0f7182248255293ada8b4af19d3",
+          "original_proposal": {
+            "variable_id": "procedural-guarantees-enforcement__positive",
+            "status": "observed",
+            "value": 2,
+            "confidence": 0.6,
+            "support_type": "positive_manifestation",
+            "rationale": "Иямуремье поддержал создание специального комитета Сената для оценки условий жизни переселённых семей, поручил проверить ряд аспектов и рассмотреть выводы для принятия мер. Это ограниченное проявление расширения возможностей контроля и рассмотрения жалоб.",
+            "evidence_indices": [
+              8
+            ]
+          }
+        },
+        "evidence_file": "evidence/independent-dossier-augustin-iyamuremye.json",
+        "evidence_basis": "c58a997ac65514a6fe684f6c0a2fcd1bb4235a106756cce6d8e8890eb6ae953a"
+      },
+      "negative": {
+        "status": "unknown",
+        "value": null,
+        "confidence": 0,
+        "evidence_indices": [],
+        "source_urls": [],
+        "event_ids": [],
+        "rationale": "Нет прямых фактов о действиях по принудительному обеспечению обязательных требований или санкционному подходу.",
+        "support_type": "unknown",
+        "provenance": {
+          "raw_response_file": "evidence/independent_responses/d5bc6c2fc80145e2cb221fed8d9702cecebdc0f7182248255293ada8b4af19d3.json",
+          "model": "gpt-4.1",
+          "at": "2026-10-15T17:31:20.719953+00:00",
+          "cache_key": "d5bc6c2fc80145e2cb221fed8d9702cecebdc0f7182248255293ada8b4af19d3",
+          "original_proposal": {
+            "variable_id": "procedural-guarantees-enforcement__negative",
+            "status": "unknown",
+            "value": null,
+            "confidence": 0,
+            "support_type": "unknown",
+            "rationale": "Нет прямых фактов о действиях по принудительному обеспечению обязательных требований или санкционному подходу.",
+            "evidence_indices": []
+          }
+        },
+        "evidence_file": "evidence/independent-dossier-augustin-iyamuremye.json",
+        "evidence_basis": "c58a997ac65514a6fe684f6c0a2fcd1bb4235a106756cce6d8e8890eb6ae953a"
+      }
+    },
+    "positive": 2,
+    "negative": null,
+    "value": null,
+    "status": "partial",
+    "difference": null,
+    "mass": null,
+    "measurement_model": "independent_poles",
+    "evidence_file": "evidence/independent-dossier-augustin-iyamuremye.json",
+    "evidence_basis": "c58a997ac65514a6fe684f6c0a2fcd1bb4235a106756cce6d8e8890eb6ae953a",
+    "at": "2026-10-15T17:31:20.723873+00:00",
+    "reason": "Каждое свойство оценивается независимо; разность и искусственное дополнение до пяти не вычисляются"
+  },
+  {
+    "object_id": "augustin-iyamuremye",
+    "scale_id": "prevention-crisis-response",
+    "pole_scores": {
+      "positive": {
+        "status": "observed",
+        "value": 1,
+        "confidence": 0.5,
+        "evidence_indices": [
+          21
+        ],
+        "source_urls": [
+          "https://www.ktpress.rw/2022/07/senate-president-concerned-with-gako-meat-company-low-production/"
+        ],
+        "event_ids": [
+          "iyamuremye-2022-07-14-gako-research-and-export"
+        ],
+        "rationale": "В публичных заявлениях о необходимости возобновления исследований и использования опыта других стран для повышения эффективности мясного проекта содержится элемент упреждающей подготовки, но проявление единичное и узкое.",
+        "support_type": "positive_manifestation",
+        "provenance": {
+          "raw_response_file": "evidence/independent_responses/d5bc6c2fc80145e2cb221fed8d9702cecebdc0f7182248255293ada8b4af19d3.json",
+          "model": "gpt-4.1",
+          "at": "2026-10-15T17:31:20.719953+00:00",
+          "cache_key": "d5bc6c2fc80145e2cb221fed8d9702cecebdc0f7182248255293ada8b4af19d3",
+          "original_proposal": {
+            "variable_id": "prevention-crisis-response__positive",
+            "status": "observed",
+            "value": 1,
+            "confidence": 0.5,
+            "support_type": "positive_manifestation",
+            "rationale": "В публичных заявлениях о необходимости возобновления исследований и использования опыта других стран для повышения эффективности мясного проекта содержится элемент упреждающей подготовки, но проявление единичное и узкое.",
+            "evidence_indices": [
+              21
+            ]
+          }
+        },
+        "evidence_file": "evidence/independent-dossier-augustin-iyamuremye.json",
+        "evidence_basis": "c58a997ac65514a6fe684f6c0a2fcd1bb4235a106756cce6d8e8890eb6ae953a"
+      },
+      "negative": {
+        "status": "unknown",
+        "value": null,
+        "confidence": 0,
+        "evidence_indices": [],
+        "source_urls": [],
+        "event_ids": [],
+        "rationale": "Нет прямых фактов о действиях, направленных преимущественно на реагирование на уже возникший кризис.",
+        "support_type": "unknown",
+        "provenance": {
+          "raw_response_file": "evidence/independent_responses/d5bc6c2fc80145e2cb221fed8d9702cecebdc0f7182248255293ada8b4af19d3.json",
+          "model": "gpt-4.1",
+          "at": "2026-10-15T17:31:20.719953+00:00",
+          "cache_key": "d5bc6c2fc80145e2cb221fed8d9702cecebdc0f7182248255293ada8b4af19d3",
+          "original_proposal": {
+            "variable_id": "prevention-crisis-response__negative",
+            "status": "unknown",
+            "value": null,
+            "confidence": 0,
+            "support_type": "unknown",
+            "rationale": "Нет прямых фактов о действиях, направленных преимущественно на реагирование на уже возникший кризис.",
+            "evidence_indices": []
+          }
+        },
+        "evidence_file": "evidence/independent-dossier-augustin-iyamuremye.json",
+        "evidence_basis": "c58a997ac65514a6fe684f6c0a2fcd1bb4235a106756cce6d8e8890eb6ae953a"
+      }
+    },
+    "positive": 1,
+    "negative": null,
+    "value": null,
+    "status": "partial",
+    "difference": null,
+    "mass": null,
+    "measurement_model": "independent_poles",
+    "evidence_file": "evidence/independent-dossier-augustin-iyamuremye.json",
+    "evidence_basis": "c58a997ac65514a6fe684f6c0a2fcd1bb4235a106756cce6d8e8890eb6ae953a",
+    "at": "2026-10-15T17:31:20.723873+00:00",
+    "reason": "Каждое свойство оценивается независимо; разность и искусственное дополнение до пяти не вычисляются"
+  },
+  {
+    "object_id": "augustin-iyamuremye",
+    "scale_id": "electoral-access",
+    "pole_scores": {
+      "positive": {
+        "status": "unknown",
+        "value": null,
+        "confidence": 0,
+        "evidence_indices": [],
+        "source_urls": [],
+        "event_ids": [],
+        "rationale": "Нет сведений о собственных инициативах или заявлениях Иямуремье по расширению доступа к выборной конкуренции.",
+        "support_type": "unknown",
+        "provenance": {
+          "raw_response_file": "evidence/independent_responses/d5bc6c2fc80145e2cb221fed8d9702cecebdc0f7182248255293ada8b4af19d3.json",
+          "model": "gpt-4.1",
+          "at": "2026-10-15T17:31:20.719953+00:00",
+          "cache_key": "d5bc6c2fc80145e2cb221fed8d9702cecebdc0f7182248255293ada8b4af19d3",
+          "original_proposal": {
+            "variable_id": "electoral-access__positive",
+            "status": "unknown",
+            "value": null,
+            "confidence": 0,
+            "support_type": "unknown",
+            "rationale": "Нет сведений о собственных инициативах или заявлениях Иямуремье по расширению доступа к выборной конкуренции.",
+            "evidence_indices": []
+          }
+        },
+        "evidence_file": "evidence/independent-dossier-augustin-iyamuremye.json",
+        "evidence_basis": "c58a997ac65514a6fe684f6c0a2fcd1bb4235a106756cce6d8e8890eb6ae953a"
+      },
+      "negative": {
+        "status": "unknown",
+        "value": null,
+        "confidence": 0,
+        "evidence_indices": [],
+        "source_urls": [],
+        "event_ids": [],
+        "rationale": "Нет сведений о собственных инициативах или заявлениях по усилению квалификационных барьеров политического участия.",
+        "support_type": "unknown",
+        "provenance": {
+          "raw_response_file": "evidence/independent_responses/d5bc6c2fc80145e2cb221fed8d9702cecebdc0f7182248255293ada8b4af19d3.json",
+          "model": "gpt-4.1",
+          "at": "2026-10-15T17:31:20.719953+00:00",
+          "cache_key": "d5bc6c2fc80145e2cb221fed8d9702cecebdc0f7182248255293ada8b4af19d3",
+          "original_proposal": {
+            "variable_id": "electoral-access__negative",
+            "status": "unknown",
+            "value": null,
+            "confidence": 0,
+            "support_type": "unknown",
+            "rationale": "Нет сведений о собственных инициативах или заявлениях по усилению квалификационных барьеров политического участия.",
+            "evidence_indices": []
+          }
+        },
+        "evidence_file": "evidence/independent-dossier-augustin-iyamuremye.json",
+        "evidence_basis": "c58a997ac65514a6fe684f6c0a2fcd1bb4235a106756cce6d8e8890eb6ae953a"
+      }
+    },
+    "positive": null,
+    "negative": null,
+    "value": null,
+    "status": "unknown",
+    "difference": null,
+    "mass": null,
+    "measurement_model": "independent_poles",
+    "evidence_file": "evidence/independent-dossier-augustin-iyamuremye.json",
+    "evidence_basis": "c58a997ac65514a6fe684f6c0a2fcd1bb4235a106756cce6d8e8890eb6ae953a",
+    "at": "2026-10-15T17:31:20.723873+00:00",
+    "reason": "Каждое свойство оценивается независимо; разность и искусственное дополнение до пяти не вычисляются"
+  },
+  {
+    "object_id": "augustin-iyamuremye",
+    "scale_id": "institutional-autonomy-coordination",
+    "pole_scores": {
+      "positive": {
+        "status": "unknown",
+        "value": null,
+        "confidence": 0,
+        "evidence_indices": [],
+        "source_urls": [],
+        "event_ids": [],
+        "rationale": "Нет прямых фактов о действиях или заявлениях, направленных на гарантии самостоятельности и контроля между институтами.",
+        "support_type": "unknown",
+        "provenance": {
+          "raw_response_file": "evidence/independent_responses/d5bc6c2fc80145e2cb221fed8d9702cecebdc0f7182248255293ada8b4af19d3.json",
+          "model": "gpt-4.1",
+          "at": "2026-10-15T17:31:20.719953+00:00",
+          "cache_key": "d5bc6c2fc80145e2cb221fed8d9702cecebdc0f7182248255293ada8b4af19d3",
+          "original_proposal": {
+            "variable_id": "institutional-autonomy-coordination__positive",
+            "status": "unknown",
+            "value": null,
+            "confidence": 0,
+            "support_type": "unknown",
+            "rationale": "Нет прямых фактов о действиях или заявлениях, направленных на гарантии самостоятельности и контроля между институтами.",
+            "evidence_indices": []
+          }
+        },
+        "evidence_file": "evidence/independent-dossier-augustin-iyamuremye.json",
+        "evidence_basis": "c58a997ac65514a6fe684f6c0a2fcd1bb4235a106756cce6d8e8890eb6ae953a"
+      },
+      "negative": {
+        "status": "unknown",
+        "value": null,
+        "confidence": 0,
+        "evidence_indices": [],
+        "source_urls": [],
+        "event_ids": [],
+        "rationale": "Нет прямых фактов о действиях по согласованию работы институтов единой управленческой линией.",
+        "support_type": "unknown",
+        "provenance": {
+          "raw_response_file": "evidence/independent_responses/d5bc6c2fc80145e2cb221fed8d9702cecebdc0f7182248255293ada8b4af19d3.json",
+          "model": "gpt-4.1",
+          "at": "2026-10-15T17:31:20.719953+00:00",
+          "cache_key": "d5bc6c2fc80145e2cb221fed8d9702cecebdc0f7182248255293ada8b4af19d3",
+          "original_proposal": {
+            "variable_id": "institutional-autonomy-coordination__negative",
+            "status": "unknown",
+            "value": null,
+            "confidence": 0,
+            "support_type": "unknown",
+            "rationale": "Нет прямых фактов о действиях по согласованию работы институтов единой управленческой линией.",
+            "evidence_indices": []
+          }
+        },
+        "evidence_file": "evidence/independent-dossier-augustin-iyamuremye.json",
+        "evidence_basis": "c58a997ac65514a6fe684f6c0a2fcd1bb4235a106756cce6d8e8890eb6ae953a"
+      }
+    },
+    "positive": null,
+    "negative": null,
+    "value": null,
+    "status": "unknown",
+    "difference": null,
+    "mass": null,
+    "measurement_model": "independent_poles",
+    "evidence_file": "evidence/independent-dossier-augustin-iyamuremye.json",
+    "evidence_basis": "c58a997ac65514a6fe684f6c0a2fcd1bb4235a106756cce6d8e8890eb6ae953a",
+    "at": "2026-10-15T17:31:20.723873+00:00",
+    "reason": "Каждое свойство оценивается независимо; разность и искусственное дополнение до пяти не вычисляются"
+  },
+  {
+    "object_id": "augustin-iyamuremye",
+    "scale_id": "taxation-burden-public-revenue",
+    "pole_scores": {
+      "positive": {
+        "status": "unknown",
+        "value": null,
+        "confidence": 0,
+        "evidence_indices": [],
+        "source_urls": [],
+        "event_ids": [],
+        "rationale": "Нет сведений о предложениях по снижению налоговой нагрузки или расширению имущественной самостоятельности.",
+        "support_type": "unknown",
+        "provenance": {
+          "raw_response_file": "evidence/independent_responses/d5bc6c2fc80145e2cb221fed8d9702cecebdc0f7182248255293ada8b4af19d3.json",
+          "model": "gpt-4.1",
+          "at": "2026-10-15T17:31:20.719953+00:00",
+          "cache_key": "d5bc6c2fc80145e2cb221fed8d9702cecebdc0f7182248255293ada8b4af19d3",
+          "original_proposal": {
+            "variable_id": "taxation-burden-public-revenue__positive",
+            "status": "unknown",
+            "value": null,
+            "confidence": 0,
+            "support_type": "unknown",
+            "rationale": "Нет сведений о предложениях по снижению налоговой нагрузки или расширению имущественной самостоятельности.",
+            "evidence_indices": []
+          }
+        },
+        "evidence_file": "evidence/independent-dossier-augustin-iyamuremye.json",
+        "evidence_basis": "c58a997ac65514a6fe684f6c0a2fcd1bb4235a106756cce6d8e8890eb6ae953a"
+      },
+      "negative": {
+        "status": "unknown",
+        "value": null,
+        "confidence": 0,
+        "evidence_indices": [],
+        "source_urls": [],
+        "event_ids": [],
+        "rationale": "Нет сведений о поддержке увеличения налоговых поступлений для публичного развития.",
+        "support_type": "unknown",
+        "provenance": {
+          "raw_response_file": "evidence/independent_responses/d5bc6c2fc80145e2cb221fed8d9702cecebdc0f7182248255293ada8b4af19d3.json",
+          "model": "gpt-4.1",
+          "at": "2026-10-15T17:31:20.719953+00:00",
+          "cache_key": "d5bc6c2fc80145e2cb221fed8d9702cecebdc0f7182248255293ada8b4af19d3",
+          "original_proposal": {
+            "variable_id": "taxation-burden-public-revenue__negative",
+            "status": "unknown",
+            "value": null,
+            "confidence": 0,
+            "support_type": "unknown",
+            "rationale": "Нет сведений о поддержке увеличения налоговых поступлений для публичного развития.",
+            "evidence_indices": []
+          }
+        },
+        "evidence_file": "evidence/independent-dossier-augustin-iyamuremye.json",
+        "evidence_basis": "c58a997ac65514a6fe684f6c0a2fcd1bb4235a106756cce6d8e8890eb6ae953a"
+      }
+    },
+    "positive": null,
+    "negative": null,
+    "value": null,
+    "status": "unknown",
+    "difference": null,
+    "mass": null,
+    "measurement_model": "independent_poles",
+    "evidence_file": "evidence/independent-dossier-augustin-iyamuremye.json",
+    "evidence_basis": "c58a997ac65514a6fe684f6c0a2fcd1bb4235a106756cce6d8e8890eb6ae953a",
+    "at": "2026-10-15T17:31:20.723873+00:00",
+    "reason": "Каждое свойство оценивается независимо; разность и искусственное дополнение до пяти не вычисляются"
+  },
+  {
+    "object_id": "augustin-iyamuremye",
+    "scale_id": "universal-targeted-provision",
+    "pole_scores": {
+      "positive": {
+        "status": "unknown",
+        "value": null,
+        "confidence": 0,
+        "evidence_indices": [],
+        "source_urls": [],
+        "event_ids": [],
+        "rationale": "Нет прямых фактов о поддержке единых стандартов доступности благ для всего населения.",
+        "support_type": "unknown",
+        "provenance": {
+          "raw_response_file": "evidence/independent_responses/d5bc6c2fc80145e2cb221fed8d9702cecebdc0f7182248255293ada8b4af19d3.json",
+          "model": "gpt-4.1",
+          "at": "2026-10-15T17:31:20.719953+00:00",
+          "cache_key": "d5bc6c2fc80145e2cb221fed8d9702cecebdc0f7182248255293ada8b4af19d3",
+          "original_proposal": {
+            "variable_id": "universal-targeted-provision__positive",
+            "status": "unknown",
+            "value": null,
+            "confidence": 0,
+            "support_type": "unknown",
+            "rationale": "Нет прямых фактов о поддержке единых стандартов доступности благ для всего населения.",
+            "evidence_indices": []
+          }
+        },
+        "evidence_file": "evidence/independent-dossier-augustin-iyamuremye.json",
+        "evidence_basis": "c58a997ac65514a6fe684f6c0a2fcd1bb4235a106756cce6d8e8890eb6ae953a"
+      },
+      "negative": {
+        "status": "unknown",
+        "value": null,
+        "confidence": 0,
+        "evidence_indices": [],
+        "source_urls": [],
+        "event_ids": [],
+        "rationale": "Нет прямых фактов о приоритете помощи конкретным недостаточно обеспеченным группам.",
+        "support_type": "unknown",
+        "provenance": {
+          "raw_response_file": "evidence/independent_responses/d5bc6c2fc80145e2cb221fed8d9702cecebdc0f7182248255293ada8b4af19d3.json",
+          "model": "gpt-4.1",
+          "at": "2026-10-15T17:31:20.719953+00:00",
+          "cache_key": "d5bc6c2fc80145e2cb221fed8d9702cecebdc0f7182248255293ada8b4af19d3",
+          "original_proposal": {
+            "variable_id": "universal-targeted-provision__negative",
+            "status": "unknown",
+            "value": null,
+            "confidence": 0,
+            "support_type": "unknown",
+            "rationale": "Нет прямых фактов о приоритете помощи конкретным недостаточно обеспеченным группам.",
+            "evidence_indices": []
+          }
+        },
+        "evidence_file": "evidence/independent-dossier-augustin-iyamuremye.json",
+        "evidence_basis": "c58a997ac65514a6fe684f6c0a2fcd1bb4235a106756cce6d8e8890eb6ae953a"
+      }
+    },
+    "positive": null,
+    "negative": null,
+    "value": null,
+    "status": "unknown",
+    "difference": null,
+    "mass": null,
+    "measurement_model": "independent_poles",
+    "evidence_file": "evidence/independent-dossier-augustin-iyamuremye.json",
+    "evidence_basis": "c58a997ac65514a6fe684f6c0a2fcd1bb4235a106756cce6d8e8890eb6ae953a",
+    "at": "2026-10-15T17:31:20.723873+00:00",
+    "reason": "Каждое свойство оценивается независимо; разность и искусственное дополнение до пяти не вычисляются"
+  },
+  {
+    "object_id": "augustin-iyamuremye",
+    "scale_id": "ecological-limits-resource-use",
+    "pole_scores": {
+      "positive": {
+        "status": "unknown",
+        "value": null,
+        "confidence": 0,
+        "evidence_indices": [],
+        "source_urls": [],
+        "event_ids": [],
+        "rationale": "Участие в инспекции проектов устойчивого сельского хозяйства и переработки отходов подтверждает контроль государственных приоритетов, но не позволяет приписать личную программу по усилению природоохранных ограничений.",
+        "support_type": "unknown",
+        "provenance": {
+          "raw_response_file": "evidence/independent_responses/d5bc6c2fc80145e2cb221fed8d9702cecebdc0f7182248255293ada8b4af19d3.json",
+          "model": "gpt-4.1",
+          "at": "2026-10-15T17:31:20.719953+00:00",
+          "cache_key": "d5bc6c2fc80145e2cb221fed8d9702cecebdc0f7182248255293ada8b4af19d3",
+          "original_proposal": {
+            "variable_id": "ecological-limits-resource-use__positive",
+            "status": "unknown",
+            "value": null,
+            "confidence": 0,
+            "support_type": "unknown",
+            "rationale": "Участие в инспекции проектов устойчивого сельского хозяйства и переработки отходов подтверждает контроль государственных приоритетов, но не позволяет приписать личную программу по усилению природоохранных ограничений.",
+            "evidence_indices": [
+              22
+            ]
+          }
+        },
+        "evidence_file": "evidence/independent-dossier-augustin-iyamuremye.json",
+        "evidence_basis": "c58a997ac65514a6fe684f6c0a2fcd1bb4235a106756cce6d8e8890eb6ae953a"
+      },
+      "negative": {
+        "status": "unknown",
+        "value": null,
+        "confidence": 0,
+        "evidence_indices": [],
+        "source_urls": [],
+        "event_ids": [],
+        "rationale": "Нет фактов о предложениях по расширению хозяйственного использования природных ресурсов или ослаблению экологических ограничений.",
+        "support_type": "unknown",
+        "provenance": {
+          "raw_response_file": "evidence/independent_responses/d5bc6c2fc80145e2cb221fed8d9702cecebdc0f7182248255293ada8b4af19d3.json",
+          "model": "gpt-4.1",
+          "at": "2026-10-15T17:31:20.719953+00:00",
+          "cache_key": "d5bc6c2fc80145e2cb221fed8d9702cecebdc0f7182248255293ada8b4af19d3",
+          "original_proposal": {
+            "variable_id": "ecological-limits-resource-use__negative",
+            "status": "unknown",
+            "value": null,
+            "confidence": 0,
+            "support_type": "unknown",
+            "rationale": "Нет фактов о предложениях по расширению хозяйственного использования природных ресурсов или ослаблению экологических ограничений.",
+            "evidence_indices": []
+          }
+        },
+        "evidence_file": "evidence/independent-dossier-augustin-iyamuremye.json",
+        "evidence_basis": "c58a997ac65514a6fe684f6c0a2fcd1bb4235a106756cce6d8e8890eb6ae953a"
+      }
+    },
+    "positive": null,
+    "negative": null,
+    "value": null,
+    "status": "unknown",
+    "difference": null,
+    "mass": null,
+    "measurement_model": "independent_poles",
+    "evidence_file": "evidence/independent-dossier-augustin-iyamuremye.json",
+    "evidence_basis": "c58a997ac65514a6fe684f6c0a2fcd1bb4235a106756cce6d8e8890eb6ae953a",
+    "at": "2026-10-15T17:31:20.723873+00:00",
+    "reason": "Каждое свойство оценивается независимо; разность и искусственное дополнение до пяти не вычисляются"
+  },
+  {
+    "object_id": "augustin-iyamuremye",
+    "scale_id": "russia-diplomatic-engagement",
+    "pole_scores": {
+      "positive": {
+        "status": "unknown",
+        "value": null,
+        "confidence": 0,
+        "evidence_indices": [],
+        "source_urls": [],
+        "event_ids": [],
+        "rationale": "Нет допустимых датированных персональных свидетельств по этому свойству",
+        "support_type": "unknown"
+      },
+      "negative": {
+        "status": "unknown",
+        "value": null,
+        "confidence": 0,
+        "evidence_indices": [],
+        "source_urls": [],
+        "event_ids": [],
+        "rationale": "Нет допустимых датированных персональных свидетельств по этому свойству",
+        "support_type": "unknown"
+      }
+    },
+    "positive": null,
+    "negative": null,
+    "value": null,
+    "status": "unknown",
+    "difference": null,
+    "mass": null,
+    "measurement_model": "independent_poles",
+    "evidence_file": "evidence/independent-dossier-augustin-iyamuremye.json",
+    "evidence_basis": "c58a997ac65514a6fe684f6c0a2fcd1bb4235a106756cce6d8e8890eb6ae953a",
+    "at": "2026-10-15T17:31:20.723873+00:00",
+    "reason": "Каждое свойство оценивается независимо; разность и искусственное дополнение до пяти не вычисляются"
+  },
+  {
+    "object_id": "augustin-iyamuremye",
+    "scale_id": "russia-security-cooperation",
+    "pole_scores": {
+      "positive": {
+        "status": "unknown",
+        "value": null,
+        "confidence": 0,
+        "evidence_indices": [],
+        "source_urls": [],
+        "event_ids": [],
+        "rationale": "Нет допустимых датированных персональных свидетельств по этому свойству",
+        "support_type": "unknown"
+      },
+      "negative": {
+        "status": "unknown",
+        "value": null,
+        "confidence": 0,
+        "evidence_indices": [],
+        "source_urls": [],
+        "event_ids": [],
+        "rationale": "Нет допустимых датированных персональных свидетельств по этому свойству",
+        "support_type": "unknown"
+      }
+    },
+    "positive": null,
+    "negative": null,
+    "value": null,
+    "status": "unknown",
+    "difference": null,
+    "mass": null,
+    "measurement_model": "independent_poles",
+    "evidence_file": "evidence/independent-dossier-augustin-iyamuremye.json",
+    "evidence_basis": "c58a997ac65514a6fe684f6c0a2fcd1bb4235a106756cce6d8e8890eb6ae953a",
+    "at": "2026-10-15T17:31:20.723873+00:00",
+    "reason": "Каждое свойство оценивается независимо; разность и искусственное дополнение до пяти не вычисляются"
+  },
+  {
+    "object_id": "augustin-iyamuremye",
+    "scale_id": "russia-economic-technology-cooperation",
+    "pole_scores": {
+      "positive": {
+        "status": "unknown",
+        "value": null,
+        "confidence": 0,
+        "evidence_indices": [],
+        "source_urls": [],
+        "event_ids": [],
+        "rationale": "Нет допустимых датированных персональных свидетельств по этому свойству",
+        "support_type": "unknown"
+      },
+      "negative": {
+        "status": "unknown",
+        "value": null,
+        "confidence": 0,
+        "evidence_indices": [],
+        "source_urls": [],
+        "event_ids": [],
+        "rationale": "Нет допустимых датированных персональных свидетельств по этому свойству",
+        "support_type": "unknown"
+      }
+    },
+    "positive": null,
+    "negative": null,
+    "value": null,
+    "status": "unknown",
+    "difference": null,
+    "mass": null,
+    "measurement_model": "independent_poles",
+    "evidence_file": "evidence/independent-dossier-augustin-iyamuremye.json",
+    "evidence_basis": "c58a997ac65514a6fe684f6c0a2fcd1bb4235a106756cce6d8e8890eb6ae953a",
+    "at": "2026-10-15T17:31:20.723873+00:00",
+    "reason": "Каждое свойство оценивается независимо; разность и искусственное дополнение до пяти не вычисляются"
+  },
+  {
+    "object_id": "augustin-iyamuremye",
+    "scale_id": "russia-education-cultural-cooperation",
+    "pole_scores": {
+      "positive": {
+        "status": "unknown",
+        "value": null,
+        "confidence": 0,
+        "evidence_indices": [],
+        "source_urls": [],
+        "event_ids": [],
+        "rationale": "Нет допустимых датированных персональных свидетельств по этому свойству",
+        "support_type": "unknown"
+      },
+      "negative": {
+        "status": "unknown",
+        "value": null,
+        "confidence": 0,
+        "evidence_indices": [],
+        "source_urls": [],
+        "event_ids": [],
+        "rationale": "Нет допустимых датированных персональных свидетельств по этому свойству",
+        "support_type": "unknown"
+      }
+    },
+    "positive": null,
+    "negative": null,
+    "value": null,
+    "status": "unknown",
+    "difference": null,
+    "mass": null,
+    "measurement_model": "independent_poles",
+    "evidence_file": "evidence/independent-dossier-augustin-iyamuremye.json",
+    "evidence_basis": "c58a997ac65514a6fe684f6c0a2fcd1bb4235a106756cce6d8e8890eb6ae953a",
+    "at": "2026-10-15T17:31:20.723873+00:00",
+    "reason": "Каждое свойство оценивается независимо; разность и искусственное дополнение до пяти не вычисляются"
+  },
+  {
+    "object_id": "augustin-iyamuremye",
+    "scale_id": "russia-conflict-policy-evaluation",
+    "pole_scores": {
+      "positive": {
+        "status": "unknown",
+        "value": null,
+        "confidence": 0,
+        "evidence_indices": [],
+        "source_urls": [],
+        "event_ids": [],
+        "rationale": "Нет допустимых датированных персональных свидетельств по этому свойству",
+        "support_type": "unknown"
+      },
+      "negative": {
+        "status": "unknown",
+        "value": null,
+        "confidence": 0,
+        "evidence_indices": [],
+        "source_urls": [],
+        "event_ids": [],
+        "rationale": "Нет допустимых датированных персональных свидетельств по этому свойству",
+        "support_type": "unknown"
+      }
+    },
+    "positive": null,
+    "negative": null,
+    "value": null,
+    "status": "unknown",
+    "difference": null,
+    "mass": null,
+    "measurement_model": "independent_poles",
+    "evidence_file": "evidence/independent-dossier-augustin-iyamuremye.json",
+    "evidence_basis": "c58a997ac65514a6fe684f6c0a2fcd1bb4235a106756cce6d8e8890eb6ae953a",
+    "at": "2026-10-15T17:31:20.723873+00:00",
+    "reason": "Каждое свойство оценивается независимо; разность и искусственное дополнение до пяти не вычисляются"
+  },
+  {
+    "object_id": "augustin-iyamuremye",
+    "scale_id": "russia-isolation-sanctions",
+    "pole_scores": {
+      "positive": {
+        "status": "unknown",
+        "value": null,
+        "confidence": 0,
+        "evidence_indices": [],
+        "source_urls": [],
+        "event_ids": [],
+        "rationale": "Нет допустимых датированных персональных свидетельств по этому свойству",
+        "support_type": "unknown"
+      },
+      "negative": {
+        "status": "unknown",
+        "value": null,
+        "confidence": 0,
+        "evidence_indices": [],
+        "source_urls": [],
+        "event_ids": [],
+        "rationale": "Нет допустимых датированных персональных свидетельств по этому свойству",
+        "support_type": "unknown"
+      }
+    },
+    "positive": null,
+    "negative": null,
+    "value": null,
+    "status": "unknown",
+    "difference": null,
+    "mass": null,
+    "measurement_model": "independent_poles",
+    "evidence_file": "evidence/independent-dossier-augustin-iyamuremye.json",
+    "evidence_basis": "c58a997ac65514a6fe684f6c0a2fcd1bb4235a106756cce6d8e8890eb6ae953a",
+    "at": "2026-10-15T17:31:20.723873+00:00",
+    "reason": "Каждое свойство оценивается независимо; разность и искусственное дополнение до пяти не вычисляются"
+  }
+]

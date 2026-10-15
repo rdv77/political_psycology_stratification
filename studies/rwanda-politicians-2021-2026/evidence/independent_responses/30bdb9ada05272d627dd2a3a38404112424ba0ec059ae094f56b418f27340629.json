@@ -1,0 +1,97 @@
+{
+  "data": {
+    "facts": [
+      {
+        "capacity": "Министр национального единства и гражданской активности",
+        "channel": "official_act",
+        "event_id": "bizimana-2023-09-18-gdp-context",
+        "period": "2023-09-18",
+        "source_url": "https://www.gov.rw/fileadmin/user_upload/gov_user_upload/Publications/Newsletters/_RwandaWorks_Weekly_Digest___18_-_24_September_2023.pdf",
+        "text": "В официальном правительственном дайджесте зафиксировано заявление Бизиманы на мероприятии, связанном с развитием и будущими поколениями. По доступному фрагменту нельзя надежно восстановить полный предмет, формулировки или конкретное управленческое решение; эпизод не позволяет уверенно кодировать отдельное свойство.",
+        "topic_ids": []
+      },
+      {
+        "capacity": "Министр национального единства и гражданской активности",
+        "channel": "official_act",
+        "event_id": "bizimana-2023-05-23-training-genocide-convicts",
+        "period": "2023-05-23",
+        "source_url": "https://www.gov.rw/fileadmin/user_upload/gov_user_upload/Publications/Newsletters/__RwandaWorks_Weekly_Digest___22_-_28_May_2023.pdf",
+        "text": "Правительственный дайджест сообщает о введении специального обучения для осужденных за геноцид и связывает событие с министерством Бизиманы. Доступный результат не содержит достаточно подробного описания его личного решения или аргументации; поэтому эпизод подтверждает только служебное участие, а не личное политическое убеждение.",
+        "topic_ids": []
+      },
+      {
+        "capacity": "Министр национального единства и гражданской активности",
+        "channel": "public_statement",
+        "event_id": "bizimana-2023-08-11-unity-assessment",
+        "period": "2023-08-11",
+        "source_url": "https://imvahonshya.co.rw/minubumwe-yagaragaje-uko-ubumwe-bwabanyarwanda-buhagaze-nikibubangamira/",
+        "text": "Бизимана заявил, что национальное единство находится на хорошем уровне, но еще не достигло 100 процентов; среди препятствий он назвал игнорирование истории Руанды. Это публичная оценка действующего курса через состояние национального единства и защиту официальной исторической рамки, но материал не содержит измеримого плана реформ или независимой проверки оценки.",
+        "topic_ids": [
+          "government-course-assessment__positive",
+          "argumentation-evidence-values__negative",
+          "problem-disclosure-reputation-defence__positive"
+        ]
+      },
+      {
+        "capacity": "Министр национального единства и гражданской активности",
+        "channel": "official_act",
+        "event_id": "bizimana-2023-12-08-inteko-izirikana",
+        "period": "2023-12-08",
+        "source_url": "https://www.minubumwe.gov.rw/news-detail/minubumwe-yashimye-uruhare-rw-inteko-izirikana-mu-kubumbatira-ubunyarwanda",
+        "text": "Бизимана участвовал в двадцатилетии неправительственной организации Inteko Izirikana и публично отметил ее роль в укреплении руандийской идентичности, развитии культуры и изучении истории Руанды. Это поддержка взаимодействия государства с общественной организацией, но источник не показывает совместного принятия решений или критики государственного курса.",
+        "topic_ids": [
+          "participation-administrative-direction__positive",
+          "cultural-openness-national-transmission__negative"
+        ]
+      }
+    ],
+    "limitations": "Доступные результаты содержат лишь четыре пригодных для описания дополнительных эпизода, причем два из них дают недостаточно деталей для надежного кодирования политических свойств. Поэтому требуемые 18–24 неповторяющихся эпизода составить без выдумывания сведений и ссылок невозможно. Период до 2026-10-15 также не может быть полностью проверен по представленным материалам. Повторяющиеся эпизоды Kwibuka, Ndi Umunyarwanda, мемориальных мероприятий, Unity Club и Itorero Imbuto Zitoshye не включены.",
+    "sources": [
+      {
+        "title": "RwandaWorks Weekly Digest, 18–24 September 2023",
+        "url": "https://www.gov.rw/fileadmin/user_upload/gov_user_upload/Publications/Newsletters/_RwandaWorks_Weekly_Digest___18_-_24_September_2023.pdf"
+      },
+      {
+        "title": "RwandaWorks Weekly Digest, 22–28 May 2023",
+        "url": "https://www.gov.rw/fileadmin/user_upload/gov_user_upload/Publications/Newsletters/__RwandaWorks_Weekly_Digest___22_-_28_May_2023.pdf"
+      },
+      {
+        "title": "MINUBUMWE: оценка состояния единства руандийцев",
+        "url": "https://imvahonshya.co.rw/minubumwe-yagaragaje-uko-ubumwe-bwabanyarwanda-buhagaze-nikibubangamira/"
+      },
+      {
+        "title": "MINUBUMWE: двадцатилетие Inteko Izirikana",
+        "url": "https://www.minubumwe.gov.rw/news-detail/minubumwe-yashimye-uruhare-rw-inteko-izirikana-mu-kubumbatira-ubunyarwanda"
+      }
+    ]
+  },
+  "model": "sonar-pro",
+  "task": "independent-retrieval-jean-damascene-bizimana",
+  "at": "2026-10-15T17:22:25.265522+00:00",
+  "usage": {
+    "completion_tokens": 1249,
+    "cost": {
+      "input_tokens_cost": 0.00424,
+      "output_tokens_cost": 0.00298,
+      "request_cost": 0.0025,
+      "total_cost": 0.00972
+    },
+    "prompt_tokens": 3118,
+    "search_context_size": "low",
+    "total_tokens": 4367
+  },
+  "citations": [
+    "https://www.minubumwe.gov.rw/fileadmin/user_upload/MINUBUMWE/Publications/Minister_s_Speechs/Kwibuka31-_Min_Bizimana_ENGLISH_Speech_Final.pdf",
+    "https://www.gov.rw/fileadmin/user_upload/gov_user_upload/Publications/Newsletters/_RwandaWorks_Weekly_Digest___18_-_24_September_2023.pdf",
+    "https://www.gov.rw/fileadmin/user_upload/gov_user_upload/Publications/Newsletters/__RwandaWorks_Weekly_Digest___22_-_28_May_2023.pdf",
+    "https://imvahonshya.co.rw/minubumwe-yagaragaje-uko-ubumwe-bwabanyarwanda-buhagaze-nikibubangamira/",
+    "https://francegenocidetutsi.org/Kwibuka31BizimanaSpeechFr.pdf",
+    "https://www.gov.rw/cabinet",
+    "https://www.minubumwe.gov.rw/news-detail/minubumwe-yashimye-uruhare-rwinteko-izirikana-mu-kubumbatira-ubunyarwanda",
+    "https://www.minubumwe.gov.rw/news-detail/minisitiri-wubumwe-bwabanyarwanda-ninshingano-mboneragihugu-yasabye-ababyeyi-gutoza-ubupfura-abakiri-bato",
+    "https://francegenocidetutsi.org/fgtshow.php?num=34992",
+    "https://x.com/DrDamascene"
+  ],
+  "system_fingerprint": null,
+  "cache_key": "30bdb9ada05272d627dd2a3a38404112424ba0ec059ae094f56b418f27340629"
+}

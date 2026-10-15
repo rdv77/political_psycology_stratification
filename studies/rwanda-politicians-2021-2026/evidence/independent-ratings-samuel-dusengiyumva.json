@@ -1,0 +1,1763 @@
+[
+  {
+    "object_id": "samuel-dusengiyumva",
+    "scale_id": "programmatic-renewal",
+    "pole_scores": {
+      "positive": {
+        "status": "observed",
+        "value": 2,
+        "confidence": 0.7,
+        "evidence_indices": [
+          3
+        ],
+        "source_urls": [
+          "https://allafrica.com/stories/202506250073.html"
+        ],
+        "event_ids": [
+          "kigali-illegal-construction-2025-06-24"
+        ],
+        "rationale": "Дусенгийюмва заявлял о реформе выдачи разрешений на строительство с целью ускорения процесса (эпизод 3), что является примером программного изменения существующего порядка. Однако других примеров масштабных пересмотров курса не выявлено.",
+        "support_type": "positive_manifestation",
+        "provenance": {
+          "raw_response_file": "evidence/independent_responses/0f88d80745a16e961d2cafc549cddeab020c2190979c69bc4d8cc2e87aacabaf.json",
+          "model": "gpt-4.1",
+          "at": "2026-10-15T17:31:31.541416+00:00",
+          "cache_key": "0f88d80745a16e961d2cafc549cddeab020c2190979c69bc4d8cc2e87aacabaf",
+          "original_proposal": {
+            "variable_id": "programmatic-renewal__positive",
+            "status": "observed",
+            "value": 2,
+            "confidence": 0.7,
+            "support_type": "positive_manifestation",
+            "rationale": "Дусенгийюмва заявлял о реформе выдачи разрешений на строительство с целью ускорения процесса (эпизод 3), что является примером программного изменения существующего порядка. Однако других примеров масштабных пересмотров курса не выявлено.",
+            "evidence_indices": [
+              3
+            ]
+          }
+        },
+        "evidence_file": "evidence/independent-dossier-samuel-dusengiyumva.json",
+        "evidence_basis": "8ea7fc7b375471af475bf643b1e417ba9655b51c67195dee63e37db162ce64cc"
+      },
+      "negative": {
+        "status": "observed",
+        "value": 2,
+        "confidence": 0.7,
+        "evidence_indices": [
+          0,
+          1
+        ],
+        "source_urls": [
+          "https://www.kigalicity.gov.rw/news-detail/the-city-mayor-meet-with-51-newly-cells-executive-secretaries"
+        ],
+        "event_ids": [
+          "kigali-cell-secretaries-induction-2024-04-03"
+        ],
+        "rationale": "В ряде эпизодов Дусенгийюмва связывал работу администрации с приоритетами правительства и действующими планами (эпизоды 0, 1), что свидетельствует о поддержке продолжения текущего курса.",
+        "support_type": "positive_manifestation",
+        "provenance": {
+          "raw_response_file": "evidence/independent_responses/0f88d80745a16e961d2cafc549cddeab020c2190979c69bc4d8cc2e87aacabaf.json",
+          "model": "gpt-4.1",
+          "at": "2026-10-15T17:31:31.541416+00:00",
+          "cache_key": "0f88d80745a16e961d2cafc549cddeab020c2190979c69bc4d8cc2e87aacabaf",
+          "original_proposal": {
+            "variable_id": "programmatic-renewal__negative",
+            "status": "observed",
+            "value": 2,
+            "confidence": 0.7,
+            "support_type": "positive_manifestation",
+            "rationale": "В ряде эпизодов Дусенгийюмва связывал работу администрации с приоритетами правительства и действующими планами (эпизоды 0, 1), что свидетельствует о поддержке продолжения текущего курса.",
+            "evidence_indices": [
+              0,
+              1
+            ]
+          }
+        },
+        "evidence_file": "evidence/independent-dossier-samuel-dusengiyumva.json",
+        "evidence_basis": "8ea7fc7b375471af475bf643b1e417ba9655b51c67195dee63e37db162ce64cc"
+      }
+    },
+    "positive": 2,
+    "negative": 2,
+    "value": null,
+    "status": "observed",
+    "difference": null,
+    "mass": null,
+    "measurement_model": "independent_poles",
+    "evidence_file": "evidence/independent-dossier-samuel-dusengiyumva.json",
+    "evidence_basis": "8ea7fc7b375471af475bf643b1e417ba9655b51c67195dee63e37db162ce64cc",
+    "at": "2026-10-15T17:31:41.694123+00:00",
+    "reason": "Каждое свойство оценивается независимо; разность и искусственное дополнение до пяти не вычисляются"
+  },
+  {
+    "object_id": "samuel-dusengiyumva",
+    "scale_id": "government-course-assessment",
+    "pole_scores": {
+      "positive": {
+        "status": "observed",
+        "value": 2,
+        "confidence": 0.7,
+        "evidence_indices": [
+          0,
+          1
+        ],
+        "source_urls": [
+          "https://www.kigalicity.gov.rw/news-detail/the-city-mayor-meet-with-51-newly-cells-executive-secretaries"
+        ],
+        "event_ids": [
+          "kigali-cell-secretaries-induction-2024-04-03"
+        ],
+        "rationale": "Дусенгийюмва публично связывал работу администрации с приоритетами правительства и реализовывал государственные программы (эпизоды 0, 1), что указывает на поддержку действующего курса.",
+        "support_type": "positive_manifestation",
+        "provenance": {
+          "raw_response_file": "evidence/independent_responses/0f88d80745a16e961d2cafc549cddeab020c2190979c69bc4d8cc2e87aacabaf.json",
+          "model": "gpt-4.1",
+          "at": "2026-10-15T17:31:31.541416+00:00",
+          "cache_key": "0f88d80745a16e961d2cafc549cddeab020c2190979c69bc4d8cc2e87aacabaf",
+          "original_proposal": {
+            "variable_id": "government-course-assessment__positive",
+            "status": "observed",
+            "value": 2,
+            "confidence": 0.7,
+            "support_type": "positive_manifestation",
+            "rationale": "Дусенгийюмва публично связывал работу администрации с приоритетами правительства и реализовывал государственные программы (эпизоды 0, 1), что указывает на поддержку действующего курса.",
+            "evidence_indices": [
+              0,
+              1
+            ]
+          }
+        },
+        "evidence_file": "evidence/independent-dossier-samuel-dusengiyumva.json",
+        "evidence_basis": "8ea7fc7b375471af475bf643b1e417ba9655b51c67195dee63e37db162ce64cc"
+      },
+      "negative": {
+        "status": "unknown",
+        "value": null,
+        "confidence": 0,
+        "evidence_indices": [],
+        "source_urls": [],
+        "event_ids": [],
+        "rationale": "Не найдено прямых примеров публичной критики действующего государственного курса.",
+        "support_type": "unknown",
+        "provenance": {
+          "raw_response_file": "evidence/independent_responses/0f88d80745a16e961d2cafc549cddeab020c2190979c69bc4d8cc2e87aacabaf.json",
+          "model": "gpt-4.1",
+          "at": "2026-10-15T17:31:31.541416+00:00",
+          "cache_key": "0f88d80745a16e961d2cafc549cddeab020c2190979c69bc4d8cc2e87aacabaf",
+          "original_proposal": {
+            "variable_id": "government-course-assessment__negative",
+            "status": "unknown",
+            "value": null,
+            "confidence": 0.3,
+            "support_type": "unknown",
+            "rationale": "Не найдено прямых примеров публичной критики действующего государственного курса.",
+            "evidence_indices": []
+          }
+        },
+        "evidence_file": "evidence/independent-dossier-samuel-dusengiyumva.json",
+        "evidence_basis": "8ea7fc7b375471af475bf643b1e417ba9655b51c67195dee63e37db162ce64cc"
+      }
+    },
+    "positive": 2,
+    "negative": null,
+    "value": null,
+    "status": "partial",
+    "difference": null,
+    "mass": null,
+    "measurement_model": "independent_poles",
+    "evidence_file": "evidence/independent-dossier-samuel-dusengiyumva.json",
+    "evidence_basis": "8ea7fc7b375471af475bf643b1e417ba9655b51c67195dee63e37db162ce64cc",
+    "at": "2026-10-15T17:31:41.694123+00:00",
+    "reason": "Каждое свойство оценивается независимо; разность и искусственное дополнение до пяти не вычисляются"
+  },
+  {
+    "object_id": "samuel-dusengiyumva",
+    "scale_id": "participation-administrative-direction",
+    "pole_scores": {
+      "positive": {
+        "status": "observed",
+        "value": 2,
+        "confidence": 0.7,
+        "evidence_indices": [
+          11
+        ],
+        "source_urls": [
+          "https://www.africa-press.net/rwanda/policy/rpf-leaders-at-provincial-level-urged-to-have-agency-solving-issues"
+        ],
+        "event_ids": [
+          "rpf-kigali-chair-election-2025-02-09"
+        ],
+        "rationale": "В эпизоде 11 Дусенгийюмва прямо заявил о необходимости участия граждан в принятии решений, что подтверждает выраженность данного полюса.",
+        "support_type": "positive_manifestation",
+        "provenance": {
+          "raw_response_file": "evidence/independent_responses/0f88d80745a16e961d2cafc549cddeab020c2190979c69bc4d8cc2e87aacabaf.json",
+          "model": "gpt-4.1",
+          "at": "2026-10-15T17:31:31.541416+00:00",
+          "cache_key": "0f88d80745a16e961d2cafc549cddeab020c2190979c69bc4d8cc2e87aacabaf",
+          "original_proposal": {
+            "variable_id": "participation-administrative-direction__positive",
+            "status": "observed",
+            "value": 2,
+            "confidence": 0.7,
+            "support_type": "positive_manifestation",
+            "rationale": "В эпизоде 11 Дусенгийюмва прямо заявил о необходимости участия граждан в принятии решений, что подтверждает выраженность данного полюса.",
+            "evidence_indices": [
+              11
+            ]
+          }
+        },
+        "evidence_file": "evidence/independent-dossier-samuel-dusengiyumva.json",
+        "evidence_basis": "8ea7fc7b375471af475bf643b1e417ba9655b51c67195dee63e37db162ce64cc"
+      },
+      "negative": {
+        "status": "observed",
+        "value": 3,
+        "confidence": 0.8,
+        "evidence_indices": [
+          1,
+          2,
+          10,
+          21
+        ],
+        "source_urls": [
+          "https://www.kigalicity.gov.rw/news-detail/the-city-mayor-meet-with-51-newly-cells-executive-secretaries",
+          "https://allafrica.com/stories/202506250073.html",
+          "https://www.ktpress.rw/2026/09/in-rwanda-umuganda-turns-into-a-national-push-for-a-sober-generation/",
+          "https://police.gov.rw/media/news-detail/news/kigali-over-500-youth-volunteers-tipped-on-responsible-social-media-use/"
+        ],
+        "event_ids": [
+          "kigali-cell-secretaries-induction-2024-04-03",
+          "kigali-illegal-construction-2025-06-24",
+          "kigali-umuganda-sober-generation-2026-09-26",
+          "dusengiyumva-2025-06-27-youth-social-media"
+        ],
+        "rationale": "В ряде эпизодов (1, 2, 10, 21) Дусенгийюмва использует административный стиль поручений, контроль исполнения и мобилизацию, что указывает на устойчивую выраженность этого полюса.",
+        "support_type": "positive_manifestation",
+        "provenance": {
+          "raw_response_file": "evidence/independent_responses/0f88d80745a16e961d2cafc549cddeab020c2190979c69bc4d8cc2e87aacabaf.json",
+          "model": "gpt-4.1",
+          "at": "2026-10-15T17:31:31.541416+00:00",
+          "cache_key": "0f88d80745a16e961d2cafc549cddeab020c2190979c69bc4d8cc2e87aacabaf",
+          "original_proposal": {
+            "variable_id": "participation-administrative-direction__negative",
+            "status": "observed",
+            "value": 3,
+            "confidence": 0.8,
+            "support_type": "positive_manifestation",
+            "rationale": "В ряде эпизодов (1, 2, 10, 21) Дусенгийюмва использует административный стиль поручений, контроль исполнения и мобилизацию, что указывает на устойчивую выраженность этого полюса.",
+            "evidence_indices": [
+              1,
+              2,
+              10,
+              21
+            ]
+          }
+        },
+        "evidence_file": "evidence/independent-dossier-samuel-dusengiyumva.json",
+        "evidence_basis": "8ea7fc7b375471af475bf643b1e417ba9655b51c67195dee63e37db162ce64cc"
+      }
+    },
+    "positive": 2,
+    "negative": 3,
+    "value": null,
+    "status": "observed",
+    "difference": null,
+    "mass": null,
+    "measurement_model": "independent_poles",
+    "evidence_file": "evidence/independent-dossier-samuel-dusengiyumva.json",
+    "evidence_basis": "8ea7fc7b375471af475bf643b1e417ba9655b51c67195dee63e37db162ce64cc",
+    "at": "2026-10-15T17:31:41.694123+00:00",
+    "reason": "Каждое свойство оценивается независимо; разность и искусственное дополнение до пяти не вычисляются"
+  },
+  {
+    "object_id": "samuel-dusengiyumva",
+    "scale_id": "argumentation-evidence-values",
+    "pole_scores": {
+      "positive": {
+        "status": "observed",
+        "value": 2,
+        "confidence": 0.7,
+        "evidence_indices": [
+          4
+        ],
+        "source_urls": [
+          "https://allafrica.com/stories/202506250073.html"
+        ],
+        "event_ids": [
+          "kigali-illegal-construction-2025-06-24"
+        ],
+        "rationale": "В эпизоде 4 Дусенгийюмва обосновывает контроль застройки использованием спутниковых данных, что является примером обращения к инструментам и данным.",
+        "support_type": "positive_manifestation",
+        "provenance": {
+          "raw_response_file": "evidence/independent_responses/0f88d80745a16e961d2cafc549cddeab020c2190979c69bc4d8cc2e87aacabaf.json",
+          "model": "gpt-4.1",
+          "at": "2026-10-15T17:31:31.541416+00:00",
+          "cache_key": "0f88d80745a16e961d2cafc549cddeab020c2190979c69bc4d8cc2e87aacabaf",
+          "original_proposal": {
+            "variable_id": "argumentation-evidence-values__positive",
+            "status": "observed",
+            "value": 2,
+            "confidence": 0.7,
+            "support_type": "positive_manifestation",
+            "rationale": "В эпизоде 4 Дусенгийюмва обосновывает контроль застройки использованием спутниковых данных, что является примером обращения к инструментам и данным.",
+            "evidence_indices": [
+              4
+            ]
+          }
+        },
+        "evidence_file": "evidence/independent-dossier-samuel-dusengiyumva.json",
+        "evidence_basis": "8ea7fc7b375471af475bf643b1e417ba9655b51c67195dee63e37db162ce64cc"
+      },
+      "negative": {
+        "status": "observed",
+        "value": 2,
+        "confidence": 0.7,
+        "evidence_indices": [
+          23
+        ],
+        "source_urls": [
+          "https://x.com/dusengiyumvas"
+        ],
+        "event_ids": [
+          "dusengiyumva-2024-04-11-kwibuka30"
+        ],
+        "rationale": "В эпизоде 23 Дусенгийюмва использует аргументацию через коллективную память и национальные символы (Kwibuka 30).",
+        "support_type": "positive_manifestation",
+        "provenance": {
+          "raw_response_file": "evidence/independent_responses/0f88d80745a16e961d2cafc549cddeab020c2190979c69bc4d8cc2e87aacabaf.json",
+          "model": "gpt-4.1",
+          "at": "2026-10-15T17:31:31.541416+00:00",
+          "cache_key": "0f88d80745a16e961d2cafc549cddeab020c2190979c69bc4d8cc2e87aacabaf",
+          "original_proposal": {
+            "variable_id": "argumentation-evidence-values__negative",
+            "status": "observed",
+            "value": 2,
+            "confidence": 0.7,
+            "support_type": "positive_manifestation",
+            "rationale": "В эпизоде 23 Дусенгийюмва использует аргументацию через коллективную память и национальные символы (Kwibuka 30).",
+            "evidence_indices": [
+              23
+            ]
+          }
+        },
+        "evidence_file": "evidence/independent-dossier-samuel-dusengiyumva.json",
+        "evidence_basis": "8ea7fc7b375471af475bf643b1e417ba9655b51c67195dee63e37db162ce64cc"
+      }
+    },
+    "positive": 2,
+    "negative": 2,
+    "value": null,
+    "status": "observed",
+    "difference": null,
+    "mass": null,
+    "measurement_model": "independent_poles",
+    "evidence_file": "evidence/independent-dossier-samuel-dusengiyumva.json",
+    "evidence_basis": "8ea7fc7b375471af475bf643b1e417ba9655b51c67195dee63e37db162ce64cc",
+    "at": "2026-10-15T17:31:41.694123+00:00",
+    "reason": "Каждое свойство оценивается независимо; разность и искусственное дополнение до пяти не вычисляются"
+  },
+  {
+    "object_id": "samuel-dusengiyumva",
+    "scale_id": "market-state-instruments",
+    "pole_scores": {
+      "positive": {
+        "status": "observed",
+        "value": 2,
+        "confidence": 0.7,
+        "evidence_indices": [
+          6,
+          7
+        ],
+        "source_urls": [
+          "https://www.africa-press.net/rwanda/policy/kigali-explores-tourism-and-investment-with-korean-city"
+        ],
+        "event_ids": [
+          "kigali-busan-summit-2025-10-28"
+        ],
+        "rationale": "В эпизодах 6 и 7 Дусенгийюмва обращается к инвесторам, обещает содействие и использует предпринимательскую риторику, что свидетельствует о поддержке частной инициативы.",
+        "support_type": "positive_manifestation",
+        "provenance": {
+          "raw_response_file": "evidence/independent_responses/0f88d80745a16e961d2cafc549cddeab020c2190979c69bc4d8cc2e87aacabaf.json",
+          "model": "gpt-4.1",
+          "at": "2026-10-15T17:31:31.541416+00:00",
+          "cache_key": "0f88d80745a16e961d2cafc549cddeab020c2190979c69bc4d8cc2e87aacabaf",
+          "original_proposal": {
+            "variable_id": "market-state-instruments__positive",
+            "status": "observed",
+            "value": 2,
+            "confidence": 0.7,
+            "support_type": "positive_manifestation",
+            "rationale": "В эпизодах 6 и 7 Дусенгийюмва обращается к инвесторам, обещает содействие и использует предпринимательскую риторику, что свидетельствует о поддержке частной инициативы.",
+            "evidence_indices": [
+              6,
+              7
+            ]
+          }
+        },
+        "evidence_file": "evidence/independent-dossier-samuel-dusengiyumva.json",
+        "evidence_basis": "8ea7fc7b375471af475bf643b1e417ba9655b51c67195dee63e37db162ce64cc"
+      },
+      "negative": {
+        "status": "observed",
+        "value": 3,
+        "confidence": 0.8,
+        "evidence_indices": [
+          2,
+          3,
+          10,
+          21
+        ],
+        "source_urls": [
+          "https://allafrica.com/stories/202506250073.html",
+          "https://www.ktpress.rw/2026/09/in-rwanda-umuganda-turns-into-a-national-push-for-a-sober-generation/",
+          "https://police.gov.rw/media/news-detail/news/kigali-over-500-youth-volunteers-tipped-on-responsible-social-media-use/"
+        ],
+        "event_ids": [
+          "kigali-illegal-construction-2025-06-24",
+          "kigali-umuganda-sober-generation-2026-09-26",
+          "dusengiyumva-2025-06-27-youth-social-media"
+        ],
+        "rationale": "В эпизодах 2, 3, 10, 21 Дусенгийюмва делает акцент на контроле, обязательных правилах и административных поручениях, что указывает на устойчивое использование государственных инструментов.",
+        "support_type": "positive_manifestation",
+        "provenance": {
+          "raw_response_file": "evidence/independent_responses/0f88d80745a16e961d2cafc549cddeab020c2190979c69bc4d8cc2e87aacabaf.json",
+          "model": "gpt-4.1",
+          "at": "2026-10-15T17:31:31.541416+00:00",
+          "cache_key": "0f88d80745a16e961d2cafc549cddeab020c2190979c69bc4d8cc2e87aacabaf",
+          "original_proposal": {
+            "variable_id": "market-state-instruments__negative",
+            "status": "observed",
+            "value": 3,
+            "confidence": 0.8,
+            "support_type": "positive_manifestation",
+            "rationale": "В эпизодах 2, 3, 10, 21 Дусенгийюмва делает акцент на контроле, обязательных правилах и административных поручениях, что указывает на устойчивое использование государственных инструментов.",
+            "evidence_indices": [
+              2,
+              3,
+              10,
+              21
+            ]
+          }
+        },
+        "evidence_file": "evidence/independent-dossier-samuel-dusengiyumva.json",
+        "evidence_basis": "8ea7fc7b375471af475bf643b1e417ba9655b51c67195dee63e37db162ce64cc"
+      }
+    },
+    "positive": 2,
+    "negative": 3,
+    "value": null,
+    "status": "observed",
+    "difference": null,
+    "mass": null,
+    "measurement_model": "independent_poles",
+    "evidence_file": "evidence/independent-dossier-samuel-dusengiyumva.json",
+    "evidence_basis": "8ea7fc7b375471af475bf643b1e417ba9655b51c67195dee63e37db162ce64cc",
+    "at": "2026-10-15T17:31:41.694123+00:00",
+    "reason": "Каждое свойство оценивается независимо; разность и искусственное дополнение до пяти не вычисляются"
+  },
+  {
+    "object_id": "samuel-dusengiyumva",
+    "scale_id": "accessibility-growth-priorities",
+    "pole_scores": {
+      "positive": {
+        "status": "observed",
+        "value": 2,
+        "confidence": 0.7,
+        "evidence_indices": [
+          11
+        ],
+        "source_urls": [
+          "https://www.africa-press.net/rwanda/policy/rpf-leaders-at-provincial-level-urged-to-have-agency-solving-issues"
+        ],
+        "event_ids": [
+          "rpf-kigali-chair-election-2025-02-09"
+        ],
+        "rationale": "В эпизоде 11 Дусенгийюмва обозначает развитие здравоохранения, образования и семейного благополучия как приоритеты, что соответствует расширению доступности базовых благ.",
+        "support_type": "positive_manifestation",
+        "provenance": {
+          "raw_response_file": "evidence/independent_responses/0f88d80745a16e961d2cafc549cddeab020c2190979c69bc4d8cc2e87aacabaf.json",
+          "model": "gpt-4.1",
+          "at": "2026-10-15T17:31:31.541416+00:00",
+          "cache_key": "0f88d80745a16e961d2cafc549cddeab020c2190979c69bc4d8cc2e87aacabaf",
+          "original_proposal": {
+            "variable_id": "accessibility-growth-priorities__positive",
+            "status": "observed",
+            "value": 2,
+            "confidence": 0.7,
+            "support_type": "positive_manifestation",
+            "rationale": "В эпизоде 11 Дусенгийюмва обозначает развитие здравоохранения, образования и семейного благополучия как приоритеты, что соответствует расширению доступности базовых благ.",
+            "evidence_indices": [
+              11
+            ]
+          }
+        },
+        "evidence_file": "evidence/independent-dossier-samuel-dusengiyumva.json",
+        "evidence_basis": "8ea7fc7b375471af475bf643b1e417ba9655b51c67195dee63e37db162ce64cc"
+      },
+      "negative": {
+        "status": "observed",
+        "value": 2,
+        "confidence": 0.7,
+        "evidence_indices": [
+          6,
+          7
+        ],
+        "source_urls": [
+          "https://www.africa-press.net/rwanda/policy/kigali-explores-tourism-and-investment-with-korean-city"
+        ],
+        "event_ids": [
+          "kigali-busan-summit-2025-10-28"
+        ],
+        "rationale": "В эпизодах 6 и 7 присутствует акцент на инвестициях, рынке недвижимости и предпринимательстве, что соответствует приоритету роста и деловой активности.",
+        "support_type": "positive_manifestation",
+        "provenance": {
+          "raw_response_file": "evidence/independent_responses/0f88d80745a16e961d2cafc549cddeab020c2190979c69bc4d8cc2e87aacabaf.json",
+          "model": "gpt-4.1",
+          "at": "2026-10-15T17:31:31.541416+00:00",
+          "cache_key": "0f88d80745a16e961d2cafc549cddeab020c2190979c69bc4d8cc2e87aacabaf",
+          "original_proposal": {
+            "variable_id": "accessibility-growth-priorities__negative",
+            "status": "observed",
+            "value": 2,
+            "confidence": 0.7,
+            "support_type": "positive_manifestation",
+            "rationale": "В эпизодах 6 и 7 присутствует акцент на инвестициях, рынке недвижимости и предпринимательстве, что соответствует приоритету роста и деловой активности.",
+            "evidence_indices": [
+              6,
+              7
+            ]
+          }
+        },
+        "evidence_file": "evidence/independent-dossier-samuel-dusengiyumva.json",
+        "evidence_basis": "8ea7fc7b375471af475bf643b1e417ba9655b51c67195dee63e37db162ce64cc"
+      }
+    },
+    "positive": 2,
+    "negative": 2,
+    "value": null,
+    "status": "observed",
+    "difference": null,
+    "mass": null,
+    "measurement_model": "independent_poles",
+    "evidence_file": "evidence/independent-dossier-samuel-dusengiyumva.json",
+    "evidence_basis": "8ea7fc7b375471af475bf643b1e417ba9655b51c67195dee63e37db162ce64cc",
+    "at": "2026-10-15T17:31:41.694123+00:00",
+    "reason": "Каждое свойство оценивается независимо; разность и искусственное дополнение до пяти не вычисляются"
+  },
+  {
+    "object_id": "samuel-dusengiyumva",
+    "scale_id": "external-domestic-resources",
+    "pole_scores": {
+      "positive": {
+        "status": "observed",
+        "value": 2,
+        "confidence": 0.7,
+        "evidence_indices": [
+          6,
+          8,
+          18
+        ],
+        "source_urls": [
+          "https://www.africa-press.net/rwanda/policy/kigali-explores-tourism-and-investment-with-korean-city",
+          "https://www.kigalicity.gov.rw/news"
+        ],
+        "event_ids": [
+          "kigali-busan-summit-2025-10-28",
+          "dusengiyumva-2025-06-04-bloomberg-undp"
+        ],
+        "rationale": "В эпизодах 6, 8, 18 Дусенгийюмва участвует в международных партнерствах и сотрудничестве, что подтверждает привлечение внешних ресурсов, хотя конкретные финансовые соглашения не всегда раскрыты.",
+        "support_type": "positive_manifestation",
+        "provenance": {
+          "raw_response_file": "evidence/independent_responses/0f88d80745a16e961d2cafc549cddeab020c2190979c69bc4d8cc2e87aacabaf.json",
+          "model": "gpt-4.1",
+          "at": "2026-10-15T17:31:31.541416+00:00",
+          "cache_key": "0f88d80745a16e961d2cafc549cddeab020c2190979c69bc4d8cc2e87aacabaf",
+          "original_proposal": {
+            "variable_id": "external-domestic-resources__positive",
+            "status": "observed",
+            "value": 2,
+            "confidence": 0.7,
+            "support_type": "positive_manifestation",
+            "rationale": "В эпизодах 6, 8, 18 Дусенгийюмва участвует в международных партнерствах и сотрудничестве, что подтверждает привлечение внешних ресурсов, хотя конкретные финансовые соглашения не всегда раскрыты.",
+            "evidence_indices": [
+              6,
+              8,
+              18
+            ]
+          }
+        },
+        "evidence_file": "evidence/independent-dossier-samuel-dusengiyumva.json",
+        "evidence_basis": "8ea7fc7b375471af475bf643b1e417ba9655b51c67195dee63e37db162ce64cc"
+      },
+      "negative": {
+        "status": "unknown",
+        "value": null,
+        "confidence": 0,
+        "evidence_indices": [],
+        "source_urls": [],
+        "event_ids": [],
+        "rationale": "Нет прямых заявлений о приоритете внутренней ресурсной самостоятельности или снижении зависимости от внешних поступлений.",
+        "support_type": "unknown",
+        "provenance": {
+          "raw_response_file": "evidence/independent_responses/0f88d80745a16e961d2cafc549cddeab020c2190979c69bc4d8cc2e87aacabaf.json",
+          "model": "gpt-4.1",
+          "at": "2026-10-15T17:31:31.541416+00:00",
+          "cache_key": "0f88d80745a16e961d2cafc549cddeab020c2190979c69bc4d8cc2e87aacabaf",
+          "original_proposal": {
+            "variable_id": "external-domestic-resources__negative",
+            "status": "unknown",
+            "value": null,
+            "confidence": 0.3,
+            "support_type": "unknown",
+            "rationale": "Нет прямых заявлений о приоритете внутренней ресурсной самостоятельности или снижении зависимости от внешних поступлений.",
+            "evidence_indices": []
+          }
+        },
+        "evidence_file": "evidence/independent-dossier-samuel-dusengiyumva.json",
+        "evidence_basis": "8ea7fc7b375471af475bf643b1e417ba9655b51c67195dee63e37db162ce64cc"
+      }
+    },
+    "positive": 2,
+    "negative": null,
+    "value": null,
+    "status": "partial",
+    "difference": null,
+    "mass": null,
+    "measurement_model": "independent_poles",
+    "evidence_file": "evidence/independent-dossier-samuel-dusengiyumva.json",
+    "evidence_basis": "8ea7fc7b375471af475bf643b1e417ba9655b51c67195dee63e37db162ce64cc",
+    "at": "2026-10-15T17:31:41.694123+00:00",
+    "reason": "Каждое свойство оценивается независимо; разность и искусственное дополнение до пяти не вычисляются"
+  },
+  {
+    "object_id": "samuel-dusengiyumva",
+    "scale_id": "international-rules-autonomy",
+    "pole_scores": {
+      "positive": {
+        "status": "unknown",
+        "value": null,
+        "confidence": 0,
+        "evidence_indices": [],
+        "source_urls": [],
+        "event_ids": [],
+        "rationale": "Нет прямых заявлений о закреплении международных обязательств или поддержке обязательных международных норм.",
+        "support_type": "unknown",
+        "provenance": {
+          "raw_response_file": "evidence/independent_responses/0f88d80745a16e961d2cafc549cddeab020c2190979c69bc4d8cc2e87aacabaf.json",
+          "model": "gpt-4.1",
+          "at": "2026-10-15T17:31:31.541416+00:00",
+          "cache_key": "0f88d80745a16e961d2cafc549cddeab020c2190979c69bc4d8cc2e87aacabaf",
+          "original_proposal": {
+            "variable_id": "international-rules-autonomy__positive",
+            "status": "unknown",
+            "value": null,
+            "confidence": 0.3,
+            "support_type": "unknown",
+            "rationale": "Нет прямых заявлений о закреплении международных обязательств или поддержке обязательных международных норм.",
+            "evidence_indices": []
+          }
+        },
+        "evidence_file": "evidence/independent-dossier-samuel-dusengiyumva.json",
+        "evidence_basis": "8ea7fc7b375471af475bf643b1e417ba9655b51c67195dee63e37db162ce64cc"
+      },
+      "negative": {
+        "status": "unknown",
+        "value": null,
+        "confidence": 0,
+        "evidence_indices": [],
+        "source_urls": [],
+        "event_ids": [],
+        "rationale": "Нет прямых заявлений о защите национальной самостоятельности решений или возражении против внешнего навязывания.",
+        "support_type": "unknown",
+        "provenance": {
+          "raw_response_file": "evidence/independent_responses/0f88d80745a16e961d2cafc549cddeab020c2190979c69bc4d8cc2e87aacabaf.json",
+          "model": "gpt-4.1",
+          "at": "2026-10-15T17:31:31.541416+00:00",
+          "cache_key": "0f88d80745a16e961d2cafc549cddeab020c2190979c69bc4d8cc2e87aacabaf",
+          "original_proposal": {
+            "variable_id": "international-rules-autonomy__negative",
+            "status": "unknown",
+            "value": null,
+            "confidence": 0.3,
+            "support_type": "unknown",
+            "rationale": "Нет прямых заявлений о защите национальной самостоятельности решений или возражении против внешнего навязывания.",
+            "evidence_indices": []
+          }
+        },
+        "evidence_file": "evidence/independent-dossier-samuel-dusengiyumva.json",
+        "evidence_basis": "8ea7fc7b375471af475bf643b1e417ba9655b51c67195dee63e37db162ce64cc"
+      }
+    },
+    "positive": null,
+    "negative": null,
+    "value": null,
+    "status": "unknown",
+    "difference": null,
+    "mass": null,
+    "measurement_model": "independent_poles",
+    "evidence_file": "evidence/independent-dossier-samuel-dusengiyumva.json",
+    "evidence_basis": "8ea7fc7b375471af475bf643b1e417ba9655b51c67195dee63e37db162ce64cc",
+    "at": "2026-10-15T17:31:41.694123+00:00",
+    "reason": "Каждое свойство оценивается независимо; разность и искусственное дополнение до пяти не вычисляются"
+  },
+  {
+    "object_id": "samuel-dusengiyumva",
+    "scale_id": "mediation-adversarial-communication",
+    "pole_scores": {
+      "positive": {
+        "status": "unknown",
+        "value": null,
+        "confidence": 0,
+        "evidence_indices": [],
+        "source_urls": [],
+        "event_ids": [],
+        "rationale": "Не найдено прямых примеров посредничества или поиска согласования интересов сторон.",
+        "support_type": "unknown",
+        "provenance": {
+          "raw_response_file": "evidence/independent_responses/0f88d80745a16e961d2cafc549cddeab020c2190979c69bc4d8cc2e87aacabaf.json",
+          "model": "gpt-4.1",
+          "at": "2026-10-15T17:31:31.541416+00:00",
+          "cache_key": "0f88d80745a16e961d2cafc549cddeab020c2190979c69bc4d8cc2e87aacabaf",
+          "original_proposal": {
+            "variable_id": "mediation-adversarial-communication__positive",
+            "status": "unknown",
+            "value": null,
+            "confidence": 0.3,
+            "support_type": "unknown",
+            "rationale": "Не найдено прямых примеров посредничества или поиска согласования интересов сторон.",
+            "evidence_indices": []
+          }
+        },
+        "evidence_file": "evidence/independent-dossier-samuel-dusengiyumva.json",
+        "evidence_basis": "8ea7fc7b375471af475bf643b1e417ba9655b51c67195dee63e37db162ce64cc"
+      },
+      "negative": {
+        "status": "observed",
+        "value": 2,
+        "confidence": 0.7,
+        "evidence_indices": [
+          21
+        ],
+        "source_urls": [
+          "https://police.gov.rw/media/news-detail/news/kigali-over-500-youth-volunteers-tipped-on-responsible-social-media-use/"
+        ],
+        "event_ids": [
+          "dusengiyumva-2025-06-27-youth-social-media"
+        ],
+        "rationale": "В эпизоде 21 Дусенгийюмва предупреждает о действиях, наносящих ущерб имиджу страны, что свидетельствует о защите собственной стороны и репутации.",
+        "support_type": "positive_manifestation",
+        "provenance": {
+          "raw_response_file": "evidence/independent_responses/0f88d80745a16e961d2cafc549cddeab020c2190979c69bc4d8cc2e87aacabaf.json",
+          "model": "gpt-4.1",
+          "at": "2026-10-15T17:31:31.541416+00:00",
+          "cache_key": "0f88d80745a16e961d2cafc549cddeab020c2190979c69bc4d8cc2e87aacabaf",
+          "original_proposal": {
+            "variable_id": "mediation-adversarial-communication__negative",
+            "status": "observed",
+            "value": 2,
+            "confidence": 0.7,
+            "support_type": "positive_manifestation",
+            "rationale": "В эпизоде 21 Дусенгийюмва предупреждает о действиях, наносящих ущерб имиджу страны, что свидетельствует о защите собственной стороны и репутации.",
+            "evidence_indices": [
+              21
+            ]
+          }
+        },
+        "evidence_file": "evidence/independent-dossier-samuel-dusengiyumva.json",
+        "evidence_basis": "8ea7fc7b375471af475bf643b1e417ba9655b51c67195dee63e37db162ce64cc"
+      }
+    },
+    "positive": null,
+    "negative": 2,
+    "value": null,
+    "status": "partial",
+    "difference": null,
+    "mass": null,
+    "measurement_model": "independent_poles",
+    "evidence_file": "evidence/independent-dossier-samuel-dusengiyumva.json",
+    "evidence_basis": "8ea7fc7b375471af475bf643b1e417ba9655b51c67195dee63e37db162ce64cc",
+    "at": "2026-10-15T17:31:41.694123+00:00",
+    "reason": "Каждое свойство оценивается независимо; разность и искусственное дополнение до пяти не вычисляются"
+  },
+  {
+    "object_id": "samuel-dusengiyumva",
+    "scale_id": "cultural-openness-national-transmission",
+    "pole_scores": {
+      "positive": {
+        "status": "observed",
+        "value": 2,
+        "confidence": 0.7,
+        "evidence_indices": [
+          6,
+          8
+        ],
+        "source_urls": [
+          "https://www.africa-press.net/rwanda/policy/kigali-explores-tourism-and-investment-with-korean-city"
+        ],
+        "event_ids": [
+          "kigali-busan-summit-2025-10-28"
+        ],
+        "rationale": "В эпизодах международного сотрудничества (Пусан, обмен опытом smart-city, интерес к зарубежным практикам управления и концепции 15-минутного города) Дусенгийюмва прямо связывает развитие Кигали с заимствованием и адаптацией зарубежного опыта. Это ограниченное, но явное проявление расширения межкультурного обмена.",
+        "support_type": "positive_manifestation",
+        "provenance": {
+          "raw_response_file": "evidence/independent_responses/cb6eb7ff8e5b8adaf84544075f08826fc5015f1c0592b1563cddfa43c452a026.json",
+          "model": "gpt-4.1",
+          "at": "2026-10-15T17:31:41.691122+00:00",
+          "cache_key": "cb6eb7ff8e5b8adaf84544075f08826fc5015f1c0592b1563cddfa43c452a026",
+          "original_proposal": {
+            "variable_id": "cultural-openness-national-transmission__positive",
+            "status": "observed",
+            "value": 2,
+            "confidence": 0.7,
+            "support_type": "positive_manifestation",
+            "rationale": "В эпизодах международного сотрудничества (Пусан, обмен опытом smart-city, интерес к зарубежным практикам управления и концепции 15-минутного города) Дусенгийюмва прямо связывает развитие Кигали с заимствованием и адаптацией зарубежного опыта. Это ограниченное, но явное проявление расширения межкультурного обмена.",
+            "evidence_indices": [
+              6,
+              8
+            ]
+          }
+        },
+        "evidence_file": "evidence/independent-dossier-samuel-dusengiyumva.json",
+        "evidence_basis": "8ea7fc7b375471af475bf643b1e417ba9655b51c67195dee63e37db162ce64cc"
+      },
+      "negative": {
+        "status": "observed",
+        "value": 2,
+        "confidence": 0.7,
+        "evidence_indices": [
+          23
+        ],
+        "source_urls": [
+          "https://x.com/dusengiyumvas"
+        ],
+        "event_ids": [
+          "dusengiyumva-2024-04-11-kwibuka30"
+        ],
+        "rationale": "В публичном поминовении Kwibuka 30 Дусенгийюмва подчеркивает сохранение исторической памяти и национальных символов, что является примером акцента на преемственности национальных ценностей.",
+        "support_type": "positive_manifestation",
+        "provenance": {
+          "raw_response_file": "evidence/independent_responses/cb6eb7ff8e5b8adaf84544075f08826fc5015f1c0592b1563cddfa43c452a026.json",
+          "model": "gpt-4.1",
+          "at": "2026-10-15T17:31:41.691122+00:00",
+          "cache_key": "cb6eb7ff8e5b8adaf84544075f08826fc5015f1c0592b1563cddfa43c452a026",
+          "original_proposal": {
+            "variable_id": "cultural-openness-national-transmission__negative",
+            "status": "observed",
+            "value": 2,
+            "confidence": 0.7,
+            "support_type": "positive_manifestation",
+            "rationale": "В публичном поминовении Kwibuka 30 Дусенгийюмва подчеркивает сохранение исторической памяти и национальных символов, что является примером акцента на преемственности национальных ценностей.",
+            "evidence_indices": [
+              23
+            ]
+          }
+        },
+        "evidence_file": "evidence/independent-dossier-samuel-dusengiyumva.json",
+        "evidence_basis": "8ea7fc7b375471af475bf643b1e417ba9655b51c67195dee63e37db162ce64cc"
+      }
+    },
+    "positive": 2,
+    "negative": 2,
+    "value": null,
+    "status": "observed",
+    "difference": null,
+    "mass": null,
+    "measurement_model": "independent_poles",
+    "evidence_file": "evidence/independent-dossier-samuel-dusengiyumva.json",
+    "evidence_basis": "8ea7fc7b375471af475bf643b1e417ba9655b51c67195dee63e37db162ce64cc",
+    "at": "2026-10-15T17:31:41.694123+00:00",
+    "reason": "Каждое свойство оценивается независимо; разность и искусственное дополнение до пяти не вычисляются"
+  },
+  {
+    "object_id": "samuel-dusengiyumva",
+    "scale_id": "problem-disclosure-reputation-defence",
+    "pole_scores": {
+      "positive": {
+        "status": "observed",
+        "value": 2,
+        "confidence": 0.7,
+        "evidence_indices": [
+          2,
+          12
+        ],
+        "source_urls": [
+          "https://allafrica.com/stories/202506250073.html",
+          "https://www.newtimes.co.rw/article/28156/news/housing/construction-city-to-refund-rwf120m-in-overpaid-permit-fees"
+        ],
+        "event_ids": [
+          "kigali-illegal-construction-2025-06-24",
+          "kigali-construction-permit-refunds-2025-07-17"
+        ],
+        "rationale": "Дусенгийюмва публично сообщает о выявленных незаконных постройках и ошибках в системе расчёта сборов, а также о возврате переплаченных средств, что свидетельствует о признании конкретных проблем и недостатков исполнения.",
+        "support_type": "positive_manifestation",
+        "provenance": {
+          "raw_response_file": "evidence/independent_responses/cb6eb7ff8e5b8adaf84544075f08826fc5015f1c0592b1563cddfa43c452a026.json",
+          "model": "gpt-4.1",
+          "at": "2026-10-15T17:31:41.691122+00:00",
+          "cache_key": "cb6eb7ff8e5b8adaf84544075f08826fc5015f1c0592b1563cddfa43c452a026",
+          "original_proposal": {
+            "variable_id": "problem-disclosure-reputation-defence__positive",
+            "status": "observed",
+            "value": 2,
+            "confidence": 0.7,
+            "support_type": "positive_manifestation",
+            "rationale": "Дусенгийюмва публично сообщает о выявленных незаконных постройках и ошибках в системе расчёта сборов, а также о возврате переплаченных средств, что свидетельствует о признании конкретных проблем и недостатков исполнения.",
+            "evidence_indices": [
+              2,
+              12
+            ]
+          }
+        },
+        "evidence_file": "evidence/independent-dossier-samuel-dusengiyumva.json",
+        "evidence_basis": "8ea7fc7b375471af475bf643b1e417ba9655b51c67195dee63e37db162ce64cc"
+      },
+      "negative": {
+        "status": "observed",
+        "value": 2,
+        "confidence": 0.7,
+        "evidence_indices": [
+          21,
+          29
+        ],
+        "source_urls": [
+          "https://police.gov.rw/media/news-detail/news/kigali-over-500-youth-volunteers-tipped-on-responsible-social-media-use/"
+        ],
+        "event_ids": [
+          "dusengiyumva-2025-06-27-youth-social-media",
+          "dusengiyumva-2025-06-27-national-image"
+        ],
+        "rationale": "В обращениях к молодежи и в риторике о социальных сетях Дусенгийюмва делает акцент на защите имиджа страны и предупреждает о действиях, которые могут нанести ущерб репутации Руанды. Это явное проявление защитного продвижения репутации.",
+        "support_type": "positive_manifestation",
+        "provenance": {
+          "raw_response_file": "evidence/independent_responses/cb6eb7ff8e5b8adaf84544075f08826fc5015f1c0592b1563cddfa43c452a026.json",
+          "model": "gpt-4.1",
+          "at": "2026-10-15T17:31:41.691122+00:00",
+          "cache_key": "cb6eb7ff8e5b8adaf84544075f08826fc5015f1c0592b1563cddfa43c452a026",
+          "original_proposal": {
+            "variable_id": "problem-disclosure-reputation-defence__negative",
+            "status": "observed",
+            "value": 2,
+            "confidence": 0.7,
+            "support_type": "positive_manifestation",
+            "rationale": "В обращениях к молодежи и в риторике о социальных сетях Дусенгийюмва делает акцент на защите имиджа страны и предупреждает о действиях, которые могут нанести ущерб репутации Руанды. Это явное проявление защитного продвижения репутации.",
+            "evidence_indices": [
+              21,
+              29
+            ]
+          }
+        },
+        "evidence_file": "evidence/independent-dossier-samuel-dusengiyumva.json",
+        "evidence_basis": "8ea7fc7b375471af475bf643b1e417ba9655b51c67195dee63e37db162ce64cc"
+      }
+    },
+    "positive": 2,
+    "negative": 2,
+    "value": null,
+    "status": "observed",
+    "difference": null,
+    "mass": null,
+    "measurement_model": "independent_poles",
+    "evidence_file": "evidence/independent-dossier-samuel-dusengiyumva.json",
+    "evidence_basis": "8ea7fc7b375471af475bf643b1e417ba9655b51c67195dee63e37db162ce64cc",
+    "at": "2026-10-15T17:31:41.694123+00:00",
+    "reason": "Каждое свойство оценивается независимо; разность и искусственное дополнение до пяти не вычисляются"
+  },
+  {
+    "object_id": "samuel-dusengiyumva",
+    "scale_id": "procedural-guarantees-enforcement",
+    "pole_scores": {
+      "positive": {
+        "status": "observed",
+        "value": 1,
+        "confidence": 0.5,
+        "evidence_indices": [
+          3,
+          13
+        ],
+        "source_urls": [
+          "https://allafrica.com/stories/202506250073.html",
+          "https://www.newtimes.co.rw/article/28156/news/housing/construction-city-to-refund-rwf120m-in-overpaid-permit-fees"
+        ],
+        "event_ids": [
+          "kigali-illegal-construction-2025-06-24",
+          "kigali-construction-permit-refunds-2025-07-17"
+        ],
+        "rationale": "Обещание реформировать выдачу разрешений для сокращения сроков и устранения несогласованности начислений указывает на ограниченное проявление расширения возможностей обжалования и защиты, но не на устойчивую правозащитную стратегию.",
+        "support_type": "positive_manifestation",
+        "provenance": {
+          "raw_response_file": "evidence/independent_responses/cb6eb7ff8e5b8adaf84544075f08826fc5015f1c0592b1563cddfa43c452a026.json",
+          "model": "gpt-4.1",
+          "at": "2026-10-15T17:31:41.691122+00:00",
+          "cache_key": "cb6eb7ff8e5b8adaf84544075f08826fc5015f1c0592b1563cddfa43c452a026",
+          "original_proposal": {
+            "variable_id": "procedural-guarantees-enforcement__positive",
+            "status": "observed",
+            "value": 1,
+            "confidence": 0.5,
+            "support_type": "positive_manifestation",
+            "rationale": "Обещание реформировать выдачу разрешений для сокращения сроков и устранения несогласованности начислений указывает на ограниченное проявление расширения возможностей обжалования и защиты, но не на устойчивую правозащитную стратегию.",
+            "evidence_indices": [
+              3,
+              13
+            ]
+          }
+        },
+        "evidence_file": "evidence/independent-dossier-samuel-dusengiyumva.json",
+        "evidence_basis": "8ea7fc7b375471af475bf643b1e417ba9655b51c67195dee63e37db162ce64cc"
+      },
+      "negative": {
+        "status": "observed",
+        "value": 2,
+        "confidence": 0.7,
+        "evidence_indices": [
+          2,
+          4
+        ],
+        "source_urls": [
+          "https://allafrica.com/stories/202506250073.html"
+        ],
+        "event_ids": [
+          "kigali-illegal-construction-2025-06-24"
+        ],
+        "rationale": "Дусенгийюмва делает акцент на контроле соблюдения строительных требований, оперативном выявлении нарушений и сносе незаконных построек, что свидетельствует о принудительном обеспечении обязательных требований.",
+        "support_type": "positive_manifestation",
+        "provenance": {
+          "raw_response_file": "evidence/independent_responses/cb6eb7ff8e5b8adaf84544075f08826fc5015f1c0592b1563cddfa43c452a026.json",
+          "model": "gpt-4.1",
+          "at": "2026-10-15T17:31:41.691122+00:00",
+          "cache_key": "cb6eb7ff8e5b8adaf84544075f08826fc5015f1c0592b1563cddfa43c452a026",
+          "original_proposal": {
+            "variable_id": "procedural-guarantees-enforcement__negative",
+            "status": "observed",
+            "value": 2,
+            "confidence": 0.7,
+            "support_type": "positive_manifestation",
+            "rationale": "Дусенгийюмва делает акцент на контроле соблюдения строительных требований, оперативном выявлении нарушений и сносе незаконных построек, что свидетельствует о принудительном обеспечении обязательных требований.",
+            "evidence_indices": [
+              2,
+              4
+            ]
+          }
+        },
+        "evidence_file": "evidence/independent-dossier-samuel-dusengiyumva.json",
+        "evidence_basis": "8ea7fc7b375471af475bf643b1e417ba9655b51c67195dee63e37db162ce64cc"
+      }
+    },
+    "positive": 1,
+    "negative": 2,
+    "value": null,
+    "status": "observed",
+    "difference": null,
+    "mass": null,
+    "measurement_model": "independent_poles",
+    "evidence_file": "evidence/independent-dossier-samuel-dusengiyumva.json",
+    "evidence_basis": "8ea7fc7b375471af475bf643b1e417ba9655b51c67195dee63e37db162ce64cc",
+    "at": "2026-10-15T17:31:41.694123+00:00",
+    "reason": "Каждое свойство оценивается независимо; разность и искусственное дополнение до пяти не вычисляются"
+  },
+  {
+    "object_id": "samuel-dusengiyumva",
+    "scale_id": "prevention-crisis-response",
+    "pole_scores": {
+      "positive": {
+        "status": "observed",
+        "value": 1,
+        "confidence": 0.5,
+        "evidence_indices": [
+          5,
+          10
+        ],
+        "source_urls": [
+          "https://allafrica.com/stories/202506250073.html",
+          "https://www.ktpress.rw/2026/09/in-rwanda-umuganda-turns-into-a-national-push-for-a-sober-generation/"
+        ],
+        "event_ids": [
+          "kigali-illegal-construction-2025-06-24",
+          "kigali-umuganda-sober-generation-2026-09-26"
+        ],
+        "rationale": "Призыв к высадке садов и мерам по озеленению города, а также предупреждения о гигиене и осторожности во время дождей, указывают на ограниченное проявление упреждающей подготовки.",
+        "support_type": "positive_manifestation",
+        "provenance": {
+          "raw_response_file": "evidence/independent_responses/cb6eb7ff8e5b8adaf84544075f08826fc5015f1c0592b1563cddfa43c452a026.json",
+          "model": "gpt-4.1",
+          "at": "2026-10-15T17:31:41.691122+00:00",
+          "cache_key": "cb6eb7ff8e5b8adaf84544075f08826fc5015f1c0592b1563cddfa43c452a026",
+          "original_proposal": {
+            "variable_id": "prevention-crisis-response__positive",
+            "status": "observed",
+            "value": 1,
+            "confidence": 0.5,
+            "support_type": "positive_manifestation",
+            "rationale": "Призыв к высадке садов и мерам по озеленению города, а также предупреждения о гигиене и осторожности во время дождей, указывают на ограниченное проявление упреждающей подготовки.",
+            "evidence_indices": [
+              5,
+              10
+            ]
+          }
+        },
+        "evidence_file": "evidence/independent-dossier-samuel-dusengiyumva.json",
+        "evidence_basis": "8ea7fc7b375471af475bf643b1e417ba9655b51c67195dee63e37db162ce64cc"
+      },
+      "negative": {
+        "status": "observed",
+        "value": 2,
+        "confidence": 0.7,
+        "evidence_indices": [
+          0,
+          4
+        ],
+        "source_urls": [
+          "https://www.kigalicity.gov.rw/news-detail/the-city-mayor-meet-with-51-newly-cells-executive-secretaries",
+          "https://allafrica.com/stories/202506250073.html"
+        ],
+        "event_ids": [
+          "kigali-cell-secretaries-induction-2024-04-03",
+          "kigali-illegal-construction-2025-06-24"
+        ],
+        "rationale": "Использование спутниковых изображений для выявления нарушений и оперативное реагирование на обращения жителей свидетельствуют о проявлении стратегии реагирования на уже возникшие угрозы.",
+        "support_type": "positive_manifestation",
+        "provenance": {
+          "raw_response_file": "evidence/independent_responses/cb6eb7ff8e5b8adaf84544075f08826fc5015f1c0592b1563cddfa43c452a026.json",
+          "model": "gpt-4.1",
+          "at": "2026-10-15T17:31:41.691122+00:00",
+          "cache_key": "cb6eb7ff8e5b8adaf84544075f08826fc5015f1c0592b1563cddfa43c452a026",
+          "original_proposal": {
+            "variable_id": "prevention-crisis-response__negative",
+            "status": "observed",
+            "value": 2,
+            "confidence": 0.7,
+            "support_type": "positive_manifestation",
+            "rationale": "Использование спутниковых изображений для выявления нарушений и оперативное реагирование на обращения жителей свидетельствуют о проявлении стратегии реагирования на уже возникшие угрозы.",
+            "evidence_indices": [
+              0,
+              4
+            ]
+          }
+        },
+        "evidence_file": "evidence/independent-dossier-samuel-dusengiyumva.json",
+        "evidence_basis": "8ea7fc7b375471af475bf643b1e417ba9655b51c67195dee63e37db162ce64cc"
+      }
+    },
+    "positive": 1,
+    "negative": 2,
+    "value": null,
+    "status": "observed",
+    "difference": null,
+    "mass": null,
+    "measurement_model": "independent_poles",
+    "evidence_file": "evidence/independent-dossier-samuel-dusengiyumva.json",
+    "evidence_basis": "8ea7fc7b375471af475bf643b1e417ba9655b51c67195dee63e37db162ce64cc",
+    "at": "2026-10-15T17:31:41.694123+00:00",
+    "reason": "Каждое свойство оценивается независимо; разность и искусственное дополнение до пяти не вычисляются"
+  },
+  {
+    "object_id": "samuel-dusengiyumva",
+    "scale_id": "electoral-access",
+    "pole_scores": {
+      "positive": {
+        "status": "unknown",
+        "value": null,
+        "confidence": 0,
+        "evidence_indices": [],
+        "source_urls": [],
+        "event_ids": [],
+        "rationale": "Нет персональных датированных оснований для вывода о расширении доступа к выборной конкуренции.",
+        "support_type": "unknown",
+        "provenance": {
+          "raw_response_file": "evidence/independent_responses/cb6eb7ff8e5b8adaf84544075f08826fc5015f1c0592b1563cddfa43c452a026.json",
+          "model": "gpt-4.1",
+          "at": "2026-10-15T17:31:41.691122+00:00",
+          "cache_key": "cb6eb7ff8e5b8adaf84544075f08826fc5015f1c0592b1563cddfa43c452a026",
+          "original_proposal": {
+            "variable_id": "electoral-access__positive",
+            "status": "unknown",
+            "value": null,
+            "confidence": 0,
+            "support_type": "unknown",
+            "rationale": "Нет персональных датированных оснований для вывода о расширении доступа к выборной конкуренции.",
+            "evidence_indices": []
+          }
+        },
+        "evidence_file": "evidence/independent-dossier-samuel-dusengiyumva.json",
+        "evidence_basis": "8ea7fc7b375471af475bf643b1e417ba9655b51c67195dee63e37db162ce64cc"
+      },
+      "negative": {
+        "status": "unknown",
+        "value": null,
+        "confidence": 0,
+        "evidence_indices": [],
+        "source_urls": [],
+        "event_ids": [],
+        "rationale": "Нет персональных датированных оснований для вывода об усилении квалификационных барьеров политического участия.",
+        "support_type": "unknown",
+        "provenance": {
+          "raw_response_file": "evidence/independent_responses/cb6eb7ff8e5b8adaf84544075f08826fc5015f1c0592b1563cddfa43c452a026.json",
+          "model": "gpt-4.1",
+          "at": "2026-10-15T17:31:41.691122+00:00",
+          "cache_key": "cb6eb7ff8e5b8adaf84544075f08826fc5015f1c0592b1563cddfa43c452a026",
+          "original_proposal": {
+            "variable_id": "electoral-access__negative",
+            "status": "unknown",
+            "value": null,
+            "confidence": 0,
+            "support_type": "unknown",
+            "rationale": "Нет персональных датированных оснований для вывода об усилении квалификационных барьеров политического участия.",
+            "evidence_indices": []
+          }
+        },
+        "evidence_file": "evidence/independent-dossier-samuel-dusengiyumva.json",
+        "evidence_basis": "8ea7fc7b375471af475bf643b1e417ba9655b51c67195dee63e37db162ce64cc"
+      }
+    },
+    "positive": null,
+    "negative": null,
+    "value": null,
+    "status": "unknown",
+    "difference": null,
+    "mass": null,
+    "measurement_model": "independent_poles",
+    "evidence_file": "evidence/independent-dossier-samuel-dusengiyumva.json",
+    "evidence_basis": "8ea7fc7b375471af475bf643b1e417ba9655b51c67195dee63e37db162ce64cc",
+    "at": "2026-10-15T17:31:41.694123+00:00",
+    "reason": "Каждое свойство оценивается независимо; разность и искусственное дополнение до пяти не вычисляются"
+  },
+  {
+    "object_id": "samuel-dusengiyumva",
+    "scale_id": "institutional-autonomy-coordination",
+    "pole_scores": {
+      "positive": {
+        "status": "unknown",
+        "value": null,
+        "confidence": 0,
+        "evidence_indices": [],
+        "source_urls": [],
+        "event_ids": [],
+        "rationale": "Нет достаточных персональных оснований для вывода о гарантиях самостоятельности и контроля между институтами.",
+        "support_type": "unknown",
+        "provenance": {
+          "raw_response_file": "evidence/independent_responses/cb6eb7ff8e5b8adaf84544075f08826fc5015f1c0592b1563cddfa43c452a026.json",
+          "model": "gpt-4.1",
+          "at": "2026-10-15T17:31:41.691122+00:00",
+          "cache_key": "cb6eb7ff8e5b8adaf84544075f08826fc5015f1c0592b1563cddfa43c452a026",
+          "original_proposal": {
+            "variable_id": "institutional-autonomy-coordination__positive",
+            "status": "unknown",
+            "value": null,
+            "confidence": 0,
+            "support_type": "unknown",
+            "rationale": "Нет достаточных персональных оснований для вывода о гарантиях самостоятельности и контроля между институтами.",
+            "evidence_indices": []
+          }
+        },
+        "evidence_file": "evidence/independent-dossier-samuel-dusengiyumva.json",
+        "evidence_basis": "8ea7fc7b375471af475bf643b1e417ba9655b51c67195dee63e37db162ce64cc"
+      },
+      "negative": {
+        "status": "observed",
+        "value": 2,
+        "confidence": 0.7,
+        "evidence_indices": [
+          0,
+          1
+        ],
+        "source_urls": [
+          "https://www.kigalicity.gov.rw/news-detail/the-city-mayor-meet-with-51-newly-cells-executive-secretaries"
+        ],
+        "event_ids": [
+          "kigali-cell-secretaries-induction-2024-04-03"
+        ],
+        "rationale": "Дусенгийюмва требует согласовывать работу местных руководителей с приоритетами правительства и связывает городские задачи с работой низовых органов, что указывает на согласование работы институтов единой управленческой линией.",
+        "support_type": "positive_manifestation",
+        "provenance": {
+          "raw_response_file": "evidence/independent_responses/cb6eb7ff8e5b8adaf84544075f08826fc5015f1c0592b1563cddfa43c452a026.json",
+          "model": "gpt-4.1",
+          "at": "2026-10-15T17:31:41.691122+00:00",
+          "cache_key": "cb6eb7ff8e5b8adaf84544075f08826fc5015f1c0592b1563cddfa43c452a026",
+          "original_proposal": {
+            "variable_id": "institutional-autonomy-coordination__negative",
+            "status": "observed",
+            "value": 2,
+            "confidence": 0.7,
+            "support_type": "positive_manifestation",
+            "rationale": "Дусенгийюмва требует согласовывать работу местных руководителей с приоритетами правительства и связывает городские задачи с работой низовых органов, что указывает на согласование работы институтов единой управленческой линией.",
+            "evidence_indices": [
+              0,
+              1
+            ]
+          }
+        },
+        "evidence_file": "evidence/independent-dossier-samuel-dusengiyumva.json",
+        "evidence_basis": "8ea7fc7b375471af475bf643b1e417ba9655b51c67195dee63e37db162ce64cc"
+      }
+    },
+    "positive": null,
+    "negative": 2,
+    "value": null,
+    "status": "partial",
+    "difference": null,
+    "mass": null,
+    "measurement_model": "independent_poles",
+    "evidence_file": "evidence/independent-dossier-samuel-dusengiyumva.json",
+    "evidence_basis": "8ea7fc7b375471af475bf643b1e417ba9655b51c67195dee63e37db162ce64cc",
+    "at": "2026-10-15T17:31:41.694123+00:00",
+    "reason": "Каждое свойство оценивается независимо; разность и искусственное дополнение до пяти не вычисляются"
+  },
+  {
+    "object_id": "samuel-dusengiyumva",
+    "scale_id": "taxation-burden-public-revenue",
+    "pole_scores": {
+      "positive": {
+        "status": "observed",
+        "value": 1,
+        "confidence": 0.5,
+        "evidence_indices": [
+          12
+        ],
+        "source_urls": [
+          "https://www.newtimes.co.rw/article/28156/news/housing/construction-city-to-refund-rwf120m-in-overpaid-permit-fees"
+        ],
+        "event_ids": [
+          "kigali-construction-permit-refunds-2025-07-17"
+        ],
+        "rationale": "Сообщение о возврате переплаченных сборов за разрешения на строительство — единичное проявление снижения индивидуальной фискальной нагрузки, но не общей программы.",
+        "support_type": "positive_manifestation",
+        "provenance": {
+          "raw_response_file": "evidence/independent_responses/cb6eb7ff8e5b8adaf84544075f08826fc5015f1c0592b1563cddfa43c452a026.json",
+          "model": "gpt-4.1",
+          "at": "2026-10-15T17:31:41.691122+00:00",
+          "cache_key": "cb6eb7ff8e5b8adaf84544075f08826fc5015f1c0592b1563cddfa43c452a026",
+          "original_proposal": {
+            "variable_id": "taxation-burden-public-revenue__positive",
+            "status": "observed",
+            "value": 1,
+            "confidence": 0.5,
+            "support_type": "positive_manifestation",
+            "rationale": "Сообщение о возврате переплаченных сборов за разрешения на строительство — единичное проявление снижения индивидуальной фискальной нагрузки, но не общей программы.",
+            "evidence_indices": [
+              12
+            ]
+          }
+        },
+        "evidence_file": "evidence/independent-dossier-samuel-dusengiyumva.json",
+        "evidence_basis": "8ea7fc7b375471af475bf643b1e417ba9655b51c67195dee63e37db162ce64cc"
+      },
+      "negative": {
+        "status": "unknown",
+        "value": null,
+        "confidence": 0,
+        "evidence_indices": [],
+        "source_urls": [],
+        "event_ids": [],
+        "rationale": "Нет персональных датированных оснований для вывода о поддержке увеличения налоговых поступлений для публичного развития.",
+        "support_type": "unknown",
+        "provenance": {
+          "raw_response_file": "evidence/independent_responses/cb6eb7ff8e5b8adaf84544075f08826fc5015f1c0592b1563cddfa43c452a026.json",
+          "model": "gpt-4.1",
+          "at": "2026-10-15T17:31:41.691122+00:00",
+          "cache_key": "cb6eb7ff8e5b8adaf84544075f08826fc5015f1c0592b1563cddfa43c452a026",
+          "original_proposal": {
+            "variable_id": "taxation-burden-public-revenue__negative",
+            "status": "unknown",
+            "value": null,
+            "confidence": 0,
+            "support_type": "unknown",
+            "rationale": "Нет персональных датированных оснований для вывода о поддержке увеличения налоговых поступлений для публичного развития.",
+            "evidence_indices": []
+          }
+        },
+        "evidence_file": "evidence/independent-dossier-samuel-dusengiyumva.json",
+        "evidence_basis": "8ea7fc7b375471af475bf643b1e417ba9655b51c67195dee63e37db162ce64cc"
+      }
+    },
+    "positive": 1,
+    "negative": null,
+    "value": null,
+    "status": "partial",
+    "difference": null,
+    "mass": null,
+    "measurement_model": "independent_poles",
+    "evidence_file": "evidence/independent-dossier-samuel-dusengiyumva.json",
+    "evidence_basis": "8ea7fc7b375471af475bf643b1e417ba9655b51c67195dee63e37db162ce64cc",
+    "at": "2026-10-15T17:31:41.694123+00:00",
+    "reason": "Каждое свойство оценивается независимо; разность и искусственное дополнение до пяти не вычисляются"
+  },
+  {
+    "object_id": "samuel-dusengiyumva",
+    "scale_id": "universal-targeted-provision",
+    "pole_scores": {
+      "positive": {
+        "status": "unknown",
+        "value": null,
+        "confidence": 0,
+        "evidence_indices": [],
+        "source_urls": [],
+        "event_ids": [],
+        "rationale": "Нет достаточных оснований для вывода о поддержке единых стандартов доступности благ для всего населения.",
+        "support_type": "unknown",
+        "provenance": {
+          "raw_response_file": "evidence/independent_responses/cb6eb7ff8e5b8adaf84544075f08826fc5015f1c0592b1563cddfa43c452a026.json",
+          "model": "gpt-4.1",
+          "at": "2026-10-15T17:31:41.691122+00:00",
+          "cache_key": "cb6eb7ff8e5b8adaf84544075f08826fc5015f1c0592b1563cddfa43c452a026",
+          "original_proposal": {
+            "variable_id": "universal-targeted-provision__positive",
+            "status": "unknown",
+            "value": null,
+            "confidence": 0,
+            "support_type": "unknown",
+            "rationale": "Нет достаточных оснований для вывода о поддержке единых стандартов доступности благ для всего населения.",
+            "evidence_indices": []
+          }
+        },
+        "evidence_file": "evidence/independent-dossier-samuel-dusengiyumva.json",
+        "evidence_basis": "8ea7fc7b375471af475bf643b1e417ba9655b51c67195dee63e37db162ce64cc"
+      },
+      "negative": {
+        "status": "unknown",
+        "value": null,
+        "confidence": 0,
+        "evidence_indices": [],
+        "source_urls": [],
+        "event_ids": [],
+        "rationale": "Нет достаточных оснований для вывода о приоритетной помощи конкретным недостаточно обеспеченным группам.",
+        "support_type": "unknown",
+        "provenance": {
+          "raw_response_file": "evidence/independent_responses/cb6eb7ff8e5b8adaf84544075f08826fc5015f1c0592b1563cddfa43c452a026.json",
+          "model": "gpt-4.1",
+          "at": "2026-10-15T17:31:41.691122+00:00",
+          "cache_key": "cb6eb7ff8e5b8adaf84544075f08826fc5015f1c0592b1563cddfa43c452a026",
+          "original_proposal": {
+            "variable_id": "universal-targeted-provision__negative",
+            "status": "unknown",
+            "value": null,
+            "confidence": 0,
+            "support_type": "unknown",
+            "rationale": "Нет достаточных оснований для вывода о приоритетной помощи конкретным недостаточно обеспеченным группам.",
+            "evidence_indices": []
+          }
+        },
+        "evidence_file": "evidence/independent-dossier-samuel-dusengiyumva.json",
+        "evidence_basis": "8ea7fc7b375471af475bf643b1e417ba9655b51c67195dee63e37db162ce64cc"
+      }
+    },
+    "positive": null,
+    "negative": null,
+    "value": null,
+    "status": "unknown",
+    "difference": null,
+    "mass": null,
+    "measurement_model": "independent_poles",
+    "evidence_file": "evidence/independent-dossier-samuel-dusengiyumva.json",
+    "evidence_basis": "8ea7fc7b375471af475bf643b1e417ba9655b51c67195dee63e37db162ce64cc",
+    "at": "2026-10-15T17:31:41.694123+00:00",
+    "reason": "Каждое свойство оценивается независимо; разность и искусственное дополнение до пяти не вычисляются"
+  },
+  {
+    "object_id": "samuel-dusengiyumva",
+    "scale_id": "ecological-limits-resource-use",
+    "pole_scores": {
+      "positive": {
+        "status": "observed",
+        "value": 2,
+        "confidence": 0.7,
+        "evidence_indices": [
+          0,
+          5,
+          17
+        ],
+        "source_urls": [
+          "https://www.kigalicity.gov.rw/news-detail/the-city-mayor-meet-with-51-newly-cells-executive-secretaries",
+          "https://allafrica.com/stories/202506250073.html",
+          "https://www.kigalicity.gov.rw/news/page?tx_news_pi1[currentPage]=5&cHash=bca3a7e36b555a92839db43a46d8df1d"
+        ],
+        "event_ids": [
+          "kigali-cell-secretaries-induction-2024-04-03",
+          "kigali-illegal-construction-2025-06-24",
+          "dusengiyumva-2023-12-06-climate-air-pollution"
+        ],
+        "rationale": "Противодействие незаконному строительству, поддержка чистоты и озеленения города, а также участие в мероприятиях по климату и загрязнению воздуха — это проявления усиления природоохранных ограничений хозяйственной деятельности.",
+        "support_type": "positive_manifestation",
+        "provenance": {
+          "raw_response_file": "evidence/independent_responses/cb6eb7ff8e5b8adaf84544075f08826fc5015f1c0592b1563cddfa43c452a026.json",
+          "model": "gpt-4.1",
+          "at": "2026-10-15T17:31:41.691122+00:00",
+          "cache_key": "cb6eb7ff8e5b8adaf84544075f08826fc5015f1c0592b1563cddfa43c452a026",
+          "original_proposal": {
+            "variable_id": "ecological-limits-resource-use__positive",
+            "status": "observed",
+            "value": 2,
+            "confidence": 0.7,
+            "support_type": "positive_manifestation",
+            "rationale": "Противодействие незаконному строительству, поддержка чистоты и озеленения города, а также участие в мероприятиях по климату и загрязнению воздуха — это проявления усиления природоохранных ограничений хозяйственной деятельности.",
+            "evidence_indices": [
+              0,
+              5,
+              17
+            ]
+          }
+        },
+        "evidence_file": "evidence/independent-dossier-samuel-dusengiyumva.json",
+        "evidence_basis": "8ea7fc7b375471af475bf643b1e417ba9655b51c67195dee63e37db162ce64cc"
+      },
+      "negative": {
+        "status": "unknown",
+        "value": null,
+        "confidence": 0,
+        "evidence_indices": [],
+        "source_urls": [],
+        "event_ids": [],
+        "rationale": "Нет оснований для вывода о расширении хозяйственного использования природных ресурсов.",
+        "support_type": "unknown",
+        "provenance": {
+          "raw_response_file": "evidence/independent_responses/cb6eb7ff8e5b8adaf84544075f08826fc5015f1c0592b1563cddfa43c452a026.json",
+          "model": "gpt-4.1",
+          "at": "2026-10-15T17:31:41.691122+00:00",
+          "cache_key": "cb6eb7ff8e5b8adaf84544075f08826fc5015f1c0592b1563cddfa43c452a026",
+          "original_proposal": {
+            "variable_id": "ecological-limits-resource-use__negative",
+            "status": "unknown",
+            "value": null,
+            "confidence": 0,
+            "support_type": "unknown",
+            "rationale": "Нет оснований для вывода о расширении хозяйственного использования природных ресурсов.",
+            "evidence_indices": []
+          }
+        },
+        "evidence_file": "evidence/independent-dossier-samuel-dusengiyumva.json",
+        "evidence_basis": "8ea7fc7b375471af475bf643b1e417ba9655b51c67195dee63e37db162ce64cc"
+      }
+    },
+    "positive": 2,
+    "negative": null,
+    "value": null,
+    "status": "partial",
+    "difference": null,
+    "mass": null,
+    "measurement_model": "independent_poles",
+    "evidence_file": "evidence/independent-dossier-samuel-dusengiyumva.json",
+    "evidence_basis": "8ea7fc7b375471af475bf643b1e417ba9655b51c67195dee63e37db162ce64cc",
+    "at": "2026-10-15T17:31:41.694123+00:00",
+    "reason": "Каждое свойство оценивается независимо; разность и искусственное дополнение до пяти не вычисляются"
+  },
+  {
+    "object_id": "samuel-dusengiyumva",
+    "scale_id": "russia-diplomatic-engagement",
+    "pole_scores": {
+      "positive": {
+        "status": "unknown",
+        "value": null,
+        "confidence": 0,
+        "evidence_indices": [],
+        "source_urls": [],
+        "event_ids": [],
+        "rationale": "Нет допустимых датированных персональных свидетельств по этому свойству",
+        "support_type": "unknown"
+      },
+      "negative": {
+        "status": "unknown",
+        "value": null,
+        "confidence": 0,
+        "evidence_indices": [],
+        "source_urls": [],
+        "event_ids": [],
+        "rationale": "Нет допустимых датированных персональных свидетельств по этому свойству",
+        "support_type": "unknown"
+      }
+    },
+    "positive": null,
+    "negative": null,
+    "value": null,
+    "status": "unknown",
+    "difference": null,
+    "mass": null,
+    "measurement_model": "independent_poles",
+    "evidence_file": "evidence/independent-dossier-samuel-dusengiyumva.json",
+    "evidence_basis": "8ea7fc7b375471af475bf643b1e417ba9655b51c67195dee63e37db162ce64cc",
+    "at": "2026-10-15T17:31:41.694123+00:00",
+    "reason": "Каждое свойство оценивается независимо; разность и искусственное дополнение до пяти не вычисляются"
+  },
+  {
+    "object_id": "samuel-dusengiyumva",
+    "scale_id": "russia-security-cooperation",
+    "pole_scores": {
+      "positive": {
+        "status": "unknown",
+        "value": null,
+        "confidence": 0,
+        "evidence_indices": [],
+        "source_urls": [],
+        "event_ids": [],
+        "rationale": "Нет допустимых датированных персональных свидетельств по этому свойству",
+        "support_type": "unknown"
+      },
+      "negative": {
+        "status": "unknown",
+        "value": null,
+        "confidence": 0,
+        "evidence_indices": [],
+        "source_urls": [],
+        "event_ids": [],
+        "rationale": "Нет допустимых датированных персональных свидетельств по этому свойству",
+        "support_type": "unknown"
+      }
+    },
+    "positive": null,
+    "negative": null,
+    "value": null,
+    "status": "unknown",
+    "difference": null,
+    "mass": null,
+    "measurement_model": "independent_poles",
+    "evidence_file": "evidence/independent-dossier-samuel-dusengiyumva.json",
+    "evidence_basis": "8ea7fc7b375471af475bf643b1e417ba9655b51c67195dee63e37db162ce64cc",
+    "at": "2026-10-15T17:31:41.694123+00:00",
+    "reason": "Каждое свойство оценивается независимо; разность и искусственное дополнение до пяти не вычисляются"
+  },
+  {
+    "object_id": "samuel-dusengiyumva",
+    "scale_id": "russia-economic-technology-cooperation",
+    "pole_scores": {
+      "positive": {
+        "status": "unknown",
+        "value": null,
+        "confidence": 0,
+        "evidence_indices": [],
+        "source_urls": [],
+        "event_ids": [],
+        "rationale": "Нет допустимых датированных персональных свидетельств по этому свойству",
+        "support_type": "unknown"
+      },
+      "negative": {
+        "status": "unknown",
+        "value": null,
+        "confidence": 0,
+        "evidence_indices": [],
+        "source_urls": [],
+        "event_ids": [],
+        "rationale": "Нет допустимых датированных персональных свидетельств по этому свойству",
+        "support_type": "unknown"
+      }
+    },
+    "positive": null,
+    "negative": null,
+    "value": null,
+    "status": "unknown",
+    "difference": null,
+    "mass": null,
+    "measurement_model": "independent_poles",
+    "evidence_file": "evidence/independent-dossier-samuel-dusengiyumva.json",
+    "evidence_basis": "8ea7fc7b375471af475bf643b1e417ba9655b51c67195dee63e37db162ce64cc",
+    "at": "2026-10-15T17:31:41.694123+00:00",
+    "reason": "Каждое свойство оценивается независимо; разность и искусственное дополнение до пяти не вычисляются"
+  },
+  {
+    "object_id": "samuel-dusengiyumva",
+    "scale_id": "russia-education-cultural-cooperation",
+    "pole_scores": {
+      "positive": {
+        "status": "unknown",
+        "value": null,
+        "confidence": 0,
+        "evidence_indices": [],
+        "source_urls": [],
+        "event_ids": [],
+        "rationale": "Нет допустимых датированных персональных свидетельств по этому свойству",
+        "support_type": "unknown"
+      },
+      "negative": {
+        "status": "unknown",
+        "value": null,
+        "confidence": 0,
+        "evidence_indices": [],
+        "source_urls": [],
+        "event_ids": [],
+        "rationale": "Нет допустимых датированных персональных свидетельств по этому свойству",
+        "support_type": "unknown"
+      }
+    },
+    "positive": null,
+    "negative": null,
+    "value": null,
+    "status": "unknown",
+    "difference": null,
+    "mass": null,
+    "measurement_model": "independent_poles",
+    "evidence_file": "evidence/independent-dossier-samuel-dusengiyumva.json",
+    "evidence_basis": "8ea7fc7b375471af475bf643b1e417ba9655b51c67195dee63e37db162ce64cc",
+    "at": "2026-10-15T17:31:41.694123+00:00",
+    "reason": "Каждое свойство оценивается независимо; разность и искусственное дополнение до пяти не вычисляются"
+  },
+  {
+    "object_id": "samuel-dusengiyumva",
+    "scale_id": "russia-conflict-policy-evaluation",
+    "pole_scores": {
+      "positive": {
+        "status": "unknown",
+        "value": null,
+        "confidence": 0,
+        "evidence_indices": [],
+        "source_urls": [],
+        "event_ids": [],
+        "rationale": "Нет допустимых датированных персональных свидетельств по этому свойству",
+        "support_type": "unknown"
+      },
+      "negative": {
+        "status": "unknown",
+        "value": null,
+        "confidence": 0,
+        "evidence_indices": [],
+        "source_urls": [],
+        "event_ids": [],
+        "rationale": "Нет допустимых датированных персональных свидетельств по этому свойству",
+        "support_type": "unknown"
+      }
+    },
+    "positive": null,
+    "negative": null,
+    "value": null,
+    "status": "unknown",
+    "difference": null,
+    "mass": null,
+    "measurement_model": "independent_poles",
+    "evidence_file": "evidence/independent-dossier-samuel-dusengiyumva.json",
+    "evidence_basis": "8ea7fc7b375471af475bf643b1e417ba9655b51c67195dee63e37db162ce64cc",
+    "at": "2026-10-15T17:31:41.694123+00:00",
+    "reason": "Каждое свойство оценивается независимо; разность и искусственное дополнение до пяти не вычисляются"
+  },
+  {
+    "object_id": "samuel-dusengiyumva",
+    "scale_id": "russia-isolation-sanctions",
+    "pole_scores": {
+      "positive": {
+        "status": "unknown",
+        "value": null,
+        "confidence": 0,
+        "evidence_indices": [],
+        "source_urls": [],
+        "event_ids": [],
+        "rationale": "Нет допустимых датированных персональных свидетельств по этому свойству",
+        "support_type": "unknown"
+      },
+      "negative": {
+        "status": "unknown",
+        "value": null,
+        "confidence": 0,
+        "evidence_indices": [],
+        "source_urls": [],
+        "event_ids": [],
+        "rationale": "Нет допустимых датированных персональных свидетельств по этому свойству",
+        "support_type": "unknown"
+      }
+    },
+    "positive": null,
+    "negative": null,
+    "value": null,
+    "status": "unknown",
+    "difference": null,
+    "mass": null,
+    "measurement_model": "independent_poles",
+    "evidence_file": "evidence/independent-dossier-samuel-dusengiyumva.json",
+    "evidence_basis": "8ea7fc7b375471af475bf643b1e417ba9655b51c67195dee63e37db162ce64cc",
+    "at": "2026-10-15T17:31:41.694123+00:00",
+    "reason": "Каждое свойство оценивается независимо; разность и искусственное дополнение до пяти не вычисляются"
+  }
+]

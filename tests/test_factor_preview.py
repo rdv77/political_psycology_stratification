@@ -9,9 +9,11 @@ from unittest.mock import patch
 import numpy as np
 
 from src.semantic_service.factor_preview import (
-    _factor_meaning_rows, _russia_factor_review, _theme_configuration, preview_factors,
+    _align_loading_columns, _bootstrap_russia_candidates, _factor_meaning_rows,
+    _russia_factor_review, _theme_configuration, preview_factors,
 )
-from src.semantic_service.analysis import InsufficientMeasurementError, _factor_descriptions
+from src.semantic_service.analysis import InsufficientMeasurementError, _analysis_scales, _factor_descriptions
+from scripts.latent_space_benchmark import fit_model
 
 
 def fixture(n=16, p=8):
@@ -33,6 +35,75 @@ def configuration(scales, count=3):
 
 
 class FactorPreviewTests(unittest.TestCase):
+    def test_opposite_properties_of_same_scale_are_one_thematic_family(self):
+        study, _ = fixture(p=6)
+        study["measurement_model"] = "independent_poles"
+        study["research_requirements"] = {"required_scales": study["scales"][:3]}
+        config, scales = _theme_configuration(study), _analysis_scales(study)
+        self.assertEqual(len(config["configured_ids"]), 6)
+        self.assertEqual(config["configured_parent_ids"], [f"test-s{i}" for i in range(3)])
+        self.assertEqual(config["family_by_id"]["test-s0__positive"], config["family_by_id"]["test-s0__negative"])
+        loadings = np.zeros((12, 1)); loadings[:3, 0] = [.8, -.7, .6]
+        candidate = _russia_factor_review(loadings, scales, 12., config)[0]
+        self.assertEqual(candidate["strong_indicator_count"], 3)
+        self.assertEqual(candidate["distinct_family_count"], 2)
+        self.assertEqual(candidate["status"], "two_indicator_candidate")
+        self.assertEqual(candidate["strong_russia_indicators"][1]["high_factor_property"],
+                         "Меньшая выраженность: Второй полюс 0")
+        loadings[4, 0] = .6
+        self.assertEqual(_russia_factor_review(loadings, scales, 12., config)[0]["status"], "numeric_candidate")
+
+    def test_independent_preview_all_q_use_all_variables_and_actual_pole_coverage(self):
+        study, ratings = fixture(n=24, p=6)
+        study["measurement_model"] = "independent_poles"
+        study["research_requirements"] = {"required_scales": study["scales"][:3]}
+        rng = np.random.default_rng(501)
+        for row in ratings:
+            v = row["value"]
+            row["status"] = "partial"
+            row["pole_scores"] = {"positive": {"status": "observed", "value": float(np.clip(2.5 + .4 * v, 0, 5))},
+                                 "negative": {"status": "observed", "value": float(np.clip(2.5 - .3 * v + rng.normal(scale=.3), 0, 5))}}
+        before = deepcopy(study), deepcopy(ratings)
+        with tempfile.TemporaryDirectory() as directory, patch("src.semantic_service.analysis.PARALLEL_PERMUTATIONS", 5):
+            result = preview_factors(study, ratings, Path(directory), make_charts=False, bootstrap_repeats=2)
+            markdown = (Path(directory) / "factor_preview.md").read_text(encoding="utf-8")
+        self.assertEqual(result["n_scales"], 12)
+        self.assertEqual([m["q"] for m in result["models"]], [2, 3, 4, 5, 6, 7])
+        self.assertTrue(all(item["nominal_df"] >= 0 for item in result["dimension_candidates"]))
+        for model in result["models"]:
+            self.assertAlmostEqual(model["variance_denominator"], 12.)
+            self.assertEqual(len(model["loading_table"]), 12)
+            self.assertTrue(all(row["parent_scale_id"].startswith("test-s") for row in model["loading_table"]))
+            self.assertAlmostEqual(model["variance_total"], sum(f["variance_share"] for f in model["factors"]))
+        self.assertTrue(all(row["observed_input_count"] == 24 for row in result["russia_review"]["scale_coverage"]))
+        self.assertEqual(result["diagnostics"]["observed_input_ratings"], 24 * 12)
+        self.assertIn("Полюса измерены как независимые свойства", markdown)
+        json.dumps(result, allow_nan=False)
+        self.assertEqual((study, ratings), before)
+
+    def test_conditional_bootstrap_refits_and_matches_permuted_signed_axes(self):
+        study, _ = fixture(n=80, p=8)
+        rng = np.random.default_rng(503)
+        latent = rng.normal(size=(80, 2))
+        raw = np.column_stack([latent[:, 0]] * 3 + [latent[:, 1]] * 5) + rng.normal(scale=.2, size=(80, 8))
+        parameters, _ = fit_model(raw, 2)
+        reference = parameters["loadings"] @ parameters["rotation"]
+        aligned, congruence = _align_loading_columns(reference, reference[:, ::-1] * [-1, 1])
+        np.testing.assert_allclose(aligned, reference)
+        np.testing.assert_allclose(congruence, [1., 1.])
+        config = configuration(study["scales"])
+        review = _russia_factor_review(reference, study["scales"], 8., config)
+        targets = [item for item in review if item["status"] == "numeric_candidate"]
+        self.assertEqual(len(targets), 1)
+        _bootstrap_russia_candidates(raw, study["scales"], config,
+                                    [{"q": 2, "russia_candidates": review}], {2: parameters}, 5)
+        stability = targets[0]["bootstrap_stability"]
+        self.assertEqual(stability["successful_repeats"], 5)
+        self.assertGreater(stability["median_congruence"], .9)
+        self.assertGreaterEqual(stability["numeric_candidate_fraction_all_replicates"], .8)
+        self.assertIn("not inferential confidence intervals", stability["limitations"])
+        self.assertEqual(len(stability["initial_strong_indicators"]), 3)
+
     def test_insufficient_measurements_export_counts_without_fitting_or_fake_variance(self):
         for failure in ("minimum_retained_dimensions", "empty_matrix", "minimum_retained_coverage"):
             with self.subTest(failure=failure):
@@ -185,7 +256,7 @@ class FactorPreviewTests(unittest.TestCase):
         before = deepcopy(study), deepcopy(ratings)
         with tempfile.TemporaryDirectory() as directory, patch("src.semantic_service.factor_preview._dimension_analysis",
                     return_value=(2, dimensions, models, {"recommended_q": 2})):
-            result = preview_factors(study, ratings, Path(directory), make_charts=False)
+            result = preview_factors(study, ratings, Path(directory), make_charts=False, bootstrap_repeats=0)
             markdown = (Path(directory) / "factor_preview.md").read_text(encoding="utf-8")
             saved = json.loads((Path(directory) / "factor_preview.json").read_text(encoding="utf-8"))
         self.assertIn({"q": 3, "factor_id": "F3", "status": "numeric_candidate"}, result["russia_review"]["mandatory_report_refs"])
@@ -216,10 +287,27 @@ class FactorPreviewTests(unittest.TestCase):
         self.assertEqual(result["n_scales"], 7)
         self.assertEqual(result["russia_review"]["excluded_ids"], ["test-s0"])
         self.assertEqual(result["russia_review"]["status"], "insufficient_measurement")
+        self.assertTrue(any("менее двух семантических семей" in warning for warning in result["russia_review"]["warnings"]))
         self.assertEqual(result["russia_review"]["scale_coverage"][0]["observed_count"], 8)
         self.assertEqual(result["russia_review"]["scale_coverage"][0]["observed_input_count"], 8)
         self.assertFalse(result["russia_review"]["scale_coverage"][0]["retained"])
         self.assertEqual(len(result["charts"]), 2)
+
+    def test_two_of_six_retained_families_are_explicitly_partial_measurement(self):
+        study, ratings = fixture(p=12)
+        study["research_requirements"] = {"required_scales": study["scales"][:6]}
+        for row in ratings:
+            if int(row["scale_id"].removeprefix("test-s")) < 4:
+                row["status"] = "unknown"
+        with tempfile.TemporaryDirectory() as directory, patch("src.semantic_service.analysis.PARALLEL_PERMUTATIONS", 5):
+            result = preview_factors(study, ratings, Path(directory), make_charts=False, bootstrap_repeats=0)
+        review = result["russia_review"]
+        self.assertTrue(result["models"])
+        self.assertEqual(review["configured_family_count"], 6)
+        self.assertEqual(review["retained_family_count"], 2)
+        self.assertEqual(review["measurement_scope"], "partial_thematic_coverage")
+        self.assertEqual(len(review["unmeasured_families"]), 4)
+        self.assertTrue(any("2 из 6 семей" in warning and "Выводы условны" in warning for warning in review["warnings"]))
 
 
 if __name__ == "__main__":

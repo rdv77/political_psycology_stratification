@@ -1,0 +1,48 @@
+{
+  "data": {
+    "ratings": [
+      {
+        "variable_id": "russia-conflict-policy-evaluation__positive",
+        "status": "unknown",
+        "value": null,
+        "confidence": 0,
+        "support_type": "unknown",
+        "rationale": "В предоставленных фактах отсутствуют сведения о публичном оправдании Луизой Мушикивабо конкретных внешнеполитических действий России. Нет эпизодов, где она прямо выражала положительную оценку действий России в международных конфликтах.",
+        "evidence_indices": []
+      },
+      {
+        "variable_id": "russia-conflict-policy-evaluation__negative",
+        "status": "observed",
+        "value": 2,
+        "confidence": 0.85,
+        "support_type": "positive_manifestation",
+        "rationale": "В публичном заявлении 24 февраля 2023 года Луиза Мушикивабо в качестве генерального секретаря OIF прямо назвала российское нападение на Украину агрессией, выразила обеспокоенность и солидарность с украинским народом, а также обратила внимание на гражданские жертвы. Это соответствует ограниченному, но ясному проявлению публичной критики конкретных внешнеполитических действий России.",
+        "evidence_indices": [
+          9,
+          15
+        ]
+      }
+    ]
+  },
+  "model": "gpt-4.1",
+  "task": "independent-ratings-louise-mushikiwabo-6",
+  "at": "2026-10-15T17:32:27.506313+00:00",
+  "usage": {
+    "prompt_tokens": 1466,
+    "completion_tokens": 238,
+    "total_tokens": 1704,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "audio_tokens": 0
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "audio_tokens": 0,
+      "accepted_prediction_tokens": 0,
+      "rejected_prediction_tokens": 0
+    }
+  },
+  "citations": [],
+  "system_fingerprint": "fp_bee1fbc891",
+  "cache_key": "d9bb24855f22491380dcf9864353f513f337805bbe0b4137018d8e3357c090a7"
+}

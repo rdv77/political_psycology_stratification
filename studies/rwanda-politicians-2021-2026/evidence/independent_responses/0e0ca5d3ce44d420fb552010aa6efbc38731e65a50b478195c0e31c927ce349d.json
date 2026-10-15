@@ -1,0 +1,199 @@
+{
+  "data": {
+    "ratings": [
+      {
+        "variable_id": "programmatic-renewal__positive",
+        "status": "observed",
+        "value": 2,
+        "confidence": 0.7,
+        "support_type": "positive_manifestation",
+        "rationale": "В двух аналитических материалах (2022-09-15 и 2024-09-15) Каюмба прямо ассоциируется с критикой и призывом к пересмотру модели \"консенсусной демократии\" в Руанде, что свидетельствует о явном, но ограниченном по объёму проявлении программного требования изменений существующего курса.",
+        "evidence_indices": [
+          6,
+          12
+        ]
+      },
+      {
+        "variable_id": "programmatic-renewal__negative",
+        "status": "unknown",
+        "value": null,
+        "confidence": 0.2,
+        "support_type": "unknown",
+        "rationale": "Нет прямых эпизодов, где Каюмба призывал бы к продолжению или закреплению действующего курса. Отсутствие таких заявлений не доказывает нулевую выраженность.",
+        "evidence_indices": []
+      },
+      {
+        "variable_id": "government-course-assessment__positive",
+        "status": "unknown",
+        "value": null,
+        "confidence": 0.2,
+        "support_type": "unknown",
+        "rationale": "Нет прямых публичных заявлений Каюмбы о поддержке действующего государственного курса.",
+        "evidence_indices": []
+      },
+      {
+        "variable_id": "government-course-assessment__negative",
+        "status": "observed",
+        "value": 2,
+        "confidence": 0.7,
+        "support_type": "positive_manifestation",
+        "rationale": "В материалах 2022-09-15 и 2024-09-15 Каюмба представлен как критик существующей политической системы и курса, а также в ряде источников описан как оппозиционный деятель, что подтверждает ограниченное, но явное проявление публичной критики.",
+        "evidence_indices": [
+          6,
+          12,
+          5,
+          7
+        ]
+      },
+      {
+        "variable_id": "participation-administrative-direction__positive",
+        "status": "observed",
+        "value": 1,
+        "confidence": 0.5,
+        "support_type": "positive_manifestation",
+        "rationale": "Требование Каюмбы о рассмотрении дела в открытом суде (2022-09) свидетельствует о единичном публичном проявлении требования открытости и, косвенно, общественного контроля.",
+        "evidence_indices": [
+          0
+        ]
+      },
+      {
+        "variable_id": "participation-administrative-direction__negative",
+        "status": "unknown",
+        "value": null,
+        "confidence": 0.2,
+        "support_type": "unknown",
+        "rationale": "Нет прямых эпизодов, где Каюмба проявлял бы административную постановку задач или контроль исполнения.",
+        "evidence_indices": []
+      },
+      {
+        "variable_id": "argumentation-evidence-values__positive",
+        "status": "unknown",
+        "value": null,
+        "confidence": 0.2,
+        "support_type": "unknown",
+        "rationale": "Нет прямых эпизодов, где Каюмба обосновывал бы свои позиции через данные, расчёты или проверяемые результаты.",
+        "evidence_indices": []
+      },
+      {
+        "variable_id": "argumentation-evidence-values__negative",
+        "status": "unknown",
+        "value": null,
+        "confidence": 0.2,
+        "support_type": "unknown",
+        "rationale": "Нет прямых эпизодов, где Каюмба строил бы публичную аргументацию на ценностях, памяти или коллективных символах.",
+        "evidence_indices": []
+      },
+      {
+        "variable_id": "market-state-instruments__positive",
+        "status": "unknown",
+        "value": null,
+        "confidence": 0.2,
+        "support_type": "unknown",
+        "rationale": "Нет сведений о публичных предложениях Каюмбы по расширению частной инициативы или управления.",
+        "evidence_indices": []
+      },
+      {
+        "variable_id": "market-state-instruments__negative",
+        "status": "unknown",
+        "value": null,
+        "confidence": 0.2,
+        "support_type": "unknown",
+        "rationale": "Нет сведений о публичных предложениях Каюмбы по расширению государственного планирования или обязательных правил.",
+        "evidence_indices": []
+      },
+      {
+        "variable_id": "accessibility-growth-priorities__positive",
+        "status": "unknown",
+        "value": null,
+        "confidence": 0.2,
+        "support_type": "unknown",
+        "rationale": "Нет сведений о приоритетах Каюмбы в части расширения доступности базовых благ.",
+        "evidence_indices": []
+      },
+      {
+        "variable_id": "accessibility-growth-priorities__negative",
+        "status": "unknown",
+        "value": null,
+        "confidence": 0.2,
+        "support_type": "unknown",
+        "rationale": "Нет сведений о приоритетах Каюмбы в части роста инвестиций, конкурентоспособности и деловой активности.",
+        "evidence_indices": []
+      },
+      {
+        "variable_id": "external-domestic-resources__positive",
+        "status": "unknown",
+        "value": null,
+        "confidence": 0.2,
+        "support_type": "unknown",
+        "rationale": "Нет сведений о предложениях Каюмбы по привлечению внешнего финансирования или ресурсных партнёров.",
+        "evidence_indices": []
+      },
+      {
+        "variable_id": "external-domestic-resources__negative",
+        "status": "unknown",
+        "value": null,
+        "confidence": 0.2,
+        "support_type": "unknown",
+        "rationale": "Нет сведений о предложениях Каюмбы по опоре на внутренние доходы или хозяйственную самостоятельность.",
+        "evidence_indices": []
+      },
+      {
+        "variable_id": "international-rules-autonomy__positive",
+        "status": "unknown",
+        "value": null,
+        "confidence": 0.2,
+        "support_type": "unknown",
+        "rationale": "Нет сведений о предложениях Каюмбы по закреплению международных обязательств.",
+        "evidence_indices": []
+      },
+      {
+        "variable_id": "international-rules-autonomy__negative",
+        "status": "unknown",
+        "value": null,
+        "confidence": 0.2,
+        "support_type": "unknown",
+        "rationale": "Нет сведений о публичной защите Каюмбой национальной самостоятельности решений.",
+        "evidence_indices": []
+      },
+      {
+        "variable_id": "mediation-adversarial-communication__positive",
+        "status": "unknown",
+        "value": null,
+        "confidence": 0.2,
+        "support_type": "unknown",
+        "rationale": "Нет сведений о публичных инициативах Каюмбы по посредничеству или согласованию интересов сторон.",
+        "evidence_indices": []
+      },
+      {
+        "variable_id": "mediation-adversarial-communication__negative",
+        "status": "unknown",
+        "value": null,
+        "confidence": 0.2,
+        "support_type": "unknown",
+        "rationale": "Нет сведений о публичных эпизодах полемического оспаривания или защиты собственной стороны вне судебного контекста.",
+        "evidence_indices": []
+      }
+    ]
+  },
+  "model": "gpt-4.1",
+  "task": "independent-ratings-christopher-kayumba-0",
+  "at": "2026-10-15T17:32:04.362881+00:00",
+  "usage": {
+    "prompt_tokens": 6368,
+    "completion_tokens": 1288,
+    "total_tokens": 7656,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "audio_tokens": 0
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "audio_tokens": 0,
+      "accepted_prediction_tokens": 0,
+      "rejected_prediction_tokens": 0
+    }
+  },
+  "citations": [],
+  "system_fingerprint": "fp_801d3b7b5c",
+  "cache_key": "0e0ca5d3ce44d420fb552010aa6efbc38731e65a50b478195c0e31c927ce349d"
+}

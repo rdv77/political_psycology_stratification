@@ -1,0 +1,84 @@
+{
+  "data": {
+    "facts": [
+      {
+        "capacity": "Председатель Палаты депутатов Руанды",
+        "channel": "official_act",
+        "event_id": "mukabalisa-2021-10-13-eurasia-parliamentary-assembly",
+        "period": "2021-10-13—2021-10-15",
+        "source_url": "https://www.parliament.gov.rw/updates/news/page?tx_news_pi1[currentPage]=38&cHash=0a92a1cf237d221becbffae4bea",
+        "text": "Официальный парламентский архив сообщает об участии Мукабалисы в третьей Евразийской женской ассамблее вместе с другим депутатом. Доступный результат не содержит полного выступления, резолюций или конкретных предложений, поэтому эпизод подтверждает международное парламентское участие, но не конкретную программную позицию.",
+        "topic_ids": []
+      },
+      {
+        "capacity": "Председатель Палаты депутатов Руанды",
+        "channel": "official_act",
+        "event_id": "mukabalisa-2022-12-22-eu-support",
+        "period": "2022-12-22",
+        "source_url": "https://www.parliament.gov.rw/news-details/he-belen-calvo-pays-courtesy-call-on-the-speaker",
+        "text": "Во время встречи с послом Европейского союза Белен Кальво Мукабалиса положительно оценила поддержку ЕС различным секторам развития Руанды и парламенту. Это публичная поддержка внешнего ресурсного партнёрства; результат не показывает, сопровождалось ли заявление конкретными условиями или решениями.",
+        "topic_ids": [
+          "external-domestic-resources__positive",
+          "international-rules-autonomy__positive"
+        ]
+      },
+      {
+        "capacity": "Сенатор Руанды",
+        "channel": "official_act",
+        "event_id": "mukabalisa-2025-12-05-water-infrastructure-oversight",
+        "period": "2025-12-05",
+        "source_url": "https://www.musanze.gov.rw/ibigezweho/inkuru-irambuye/abasenateri-basuye-imirenge-ya-gataraga-na-shingiro",
+        "text": "В составе комиссии Сената по экономическому развитию и финансам Мукабалиса посетила проекты водоснабжения в районах Гатарaга и Шингиро, проверила ход работ и обсудила с жителями доступ к питьевой воде. Материал сообщает также о рекомендациях по устранению препятствий и сохранению инфраструктуры. Это служебный контроль исполнения и расширение доступа к базовой услуге, но не доказательство личного авторства проекта.",
+        "topic_ids": [
+          "participation-administrative-direction__positive",
+          "problem-disclosure-reputation-defence__positive",
+          "accessibility-growth-priorities__positive"
+        ]
+      }
+    ],
+    "limitations": "В доступных результатах обнаружены только три дополнительных эпизода, пригодных для осторожного включения без повторения уже найденного материала. Они не позволяют добросовестно сформировать требуемые 18–24 эпизода: часть результатов является вторичной или содержит лишь краткие анонсы без текста выступления, а некоторые даты и страницы относятся к материалам, опубликованным позднее периода исследования. Не назначались свойства, которые прямо не подтверждены содержанием источника. Ссылки и факты, отсутствующие в результатах, не добавлялись.",
+    "sources": [
+      {
+        "title": "The Speaker of the Chamber of Deputies attends the 3rd Eurasia parliamentary event",
+        "url": "https://www.parliament.gov.rw/updates/news/page?tx_news_pi1[currentPage]=38&cHash=0a92a1cf237d221becbffae4bea"
+      },
+      {
+        "title": "HE Belen Calvo pays courtesy call on the Speaker",
+        "url": "https://www.parliament.gov.rw/news-details/he-belen-calvo-pays-courtesy-call-on-the-speaker"
+      },
+      {
+        "title": "Senators visit Gataraga and Shingiro sectors",
+        "url": "https://www.musanze.gov.rw/ibigezweho/inkuru-irambuye/abasenateri-basuye-imirenge-ya-gataraga-na-shingiro"
+      }
+    ]
+  },
+  "model": "sonar-pro",
+  "task": "independent-retrieval-donatille-mukabalisa",
+  "at": "2026-10-15T17:22:35.914863+00:00",
+  "usage": {
+    "completion_tokens": 962,
+    "cost": {
+      "input_tokens_cost": 0.0039299999999999995,
+      "output_tokens_cost": 0.00237,
+      "request_cost": 0.0025,
+      "total_cost": 0.0088
+    },
+    "prompt_tokens": 2777,
+    "search_context_size": "low",
+    "total_tokens": 3739
+  },
+  "citations": [
+    "https://www.parliament.gov.rw/updates/news/page?tx_news_pi1[currentPage]=89&cHash=a06f29a7a56ae2b99d7e4fc64895408d",
+    "https://edolences.com/en/lights/donatille-mukabalisa-life-of-service-51",
+    "https://www.parliament.gov.rw/updates/news/page?tx_news_pi1[currentPage]=38&cHash=0a92a1cf237d221bec1a3dcbfaae4bea",
+    "https://www.parliament.gov.rw/news-details/he-belen-calvo-pays-courtesy-call-on-the-speaker",
+    "https://en.wikipedia.org/wiki/Donatille_Mukabalisa",
+    "https://parliament.gov.rw/updates/news/page?tx_news_pi1[currentPage]=75&cHash=063d0f15440ed8822ae2e7d80f04cffb",
+    "https://www.musanze.gov.rw/ibigezweho/inkuru-irambuye/abasenateri-basuye-imirenge-ya-gataraga-na-shingiro",
+    "https://taarifa.rw/2026/08/08/senator-mukabalisa-donatille-remembered-for-integrity-justice-and-service-to-rwanda/",
+    "https://www.parliament.gov.rw/read-more?category=0&page=34&q=",
+    "https://allafrica.com/stories/202607300260.html"
+  ],
+  "system_fingerprint": null,
+  "cache_key": "a528a41c0bb9854d79988151b0ce11f3d175e8c488df1533f2b2d40abf6f083e"
+}

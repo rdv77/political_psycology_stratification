@@ -1,0 +1,819 @@
+{
+  "version": 1,
+  "status": "completed_proposal_not_applied",
+  "reviewer": "assistant_evidence_review_and_anchor_scoring_not_independent_human_expert",
+  "study_id": "rwanda-politicians-2021-2026",
+  "measurement_model": "independent_poles",
+  "period": [
+    "2021-10-15",
+    "2026-10-15"
+  ],
+  "checked_properties": [
+    [
+      "paul-kagame",
+      "government-course-assessment",
+      "positive"
+    ],
+    [
+      "paul-kagame",
+      "problem-disclosure-reputation-defence",
+      "positive"
+    ],
+    [
+      "edouard-ngirente",
+      "problem-disclosure-reputation-defence",
+      "positive"
+    ],
+    [
+      "justin-nsengiyumva",
+      "problem-disclosure-reputation-defence",
+      "positive"
+    ],
+    [
+      "vincent-biruta",
+      "government-course-assessment",
+      "positive"
+    ],
+    [
+      "olivier-nduhungirehe",
+      "problem-disclosure-reputation-defence",
+      "positive"
+    ],
+    [
+      "james-kabarebe",
+      "problem-disclosure-reputation-defence",
+      "positive"
+    ],
+    [
+      "juvenal-marizamunda",
+      "government-course-assessment",
+      "positive"
+    ],
+    [
+      "juvenal-marizamunda",
+      "problem-disclosure-reputation-defence",
+      "positive"
+    ],
+    [
+      "albert-murasira",
+      "problem-disclosure-reputation-defence",
+      "positive"
+    ],
+    [
+      "emmanuel-ugirashebuja",
+      "problem-disclosure-reputation-defence",
+      "positive"
+    ],
+    [
+      "uzziel-ndagijimana",
+      "problem-disclosure-reputation-defence",
+      "positive"
+    ],
+    [
+      "judith-uwizeye",
+      "problem-disclosure-reputation-defence",
+      "positive"
+    ],
+    [
+      "ines-mpambara",
+      "government-course-assessment",
+      "positive"
+    ],
+    [
+      "ines-mpambara",
+      "problem-disclosure-reputation-defence",
+      "positive"
+    ],
+    [
+      "jeanne-darc-mujawamariya",
+      "government-course-assessment",
+      "positive"
+    ],
+    [
+      "gerardine-mukeshimana",
+      "government-course-assessment",
+      "positive"
+    ],
+    [
+      "gerardine-mukeshimana",
+      "problem-disclosure-reputation-defence",
+      "positive"
+    ],
+    [
+      "clare-akamanzi",
+      "problem-disclosure-reputation-defence",
+      "positive"
+    ],
+    [
+      "francis-gatare",
+      "government-course-assessment",
+      "positive"
+    ],
+    [
+      "francis-gatare",
+      "problem-disclosure-reputation-defence",
+      "positive"
+    ],
+    [
+      "francois-xavier-kalinda",
+      "problem-disclosure-reputation-defence",
+      "positive"
+    ],
+    [
+      "alvera-mukabaramba",
+      "government-course-assessment",
+      "positive"
+    ],
+    [
+      "alvera-mukabaramba",
+      "problem-disclosure-reputation-defence",
+      "positive"
+    ],
+    [
+      "mussa-fazil-harerimana",
+      "problem-disclosure-reputation-defence",
+      "positive"
+    ],
+    [
+      "pudence-rubingisa",
+      "government-course-assessment",
+      "positive"
+    ],
+    [
+      "pudence-rubingisa",
+      "problem-disclosure-reputation-defence",
+      "positive"
+    ],
+    [
+      "samuel-dusengiyumva",
+      "government-course-assessment",
+      "positive"
+    ],
+    [
+      "frank-habineza",
+      "government-course-assessment",
+      "positive"
+    ],
+    [
+      "philippe-mpayimana",
+      "problem-disclosure-reputation-defence",
+      "positive"
+    ],
+    [
+      "victoire-ingabire",
+      "government-course-assessment",
+      "positive"
+    ],
+    [
+      "diane-rwigara",
+      "government-course-assessment",
+      "positive"
+    ],
+    [
+      "bernard-ntaganda",
+      "government-course-assessment",
+      "positive"
+    ],
+    [
+      "christopher-kayumba",
+      "government-course-assessment",
+      "positive"
+    ],
+    [
+      "christopher-kayumba",
+      "problem-disclosure-reputation-defence",
+      "positive"
+    ],
+    [
+      "paul-rusesabagina",
+      "government-course-assessment",
+      "positive"
+    ],
+    [
+      "kayumba-nyamwasa",
+      "government-course-assessment",
+      "positive"
+    ],
+    [
+      "louise-mushikiwabo",
+      "government-course-assessment",
+      "positive"
+    ],
+    [
+      "louise-mushikiwabo",
+      "problem-disclosure-reputation-defence",
+      "positive"
+    ],
+    [
+      "claver-gatete",
+      "government-course-assessment",
+      "positive"
+    ]
+  ],
+  "observations": [
+    {
+      "object_id": "paul-kagame",
+      "scale_id": "government-course-assessment",
+      "pole": "positive",
+      "value": 2,
+      "evidence_indices": [],
+      "source_urls": [
+        "https://www.paulkagame.rw/address-by-president-kagame-kwibohora-30-kigali-4-july-2024/"
+      ],
+      "rationale": "В одном официальном выступлении прямо положительно оценена существующая политическая система и служение правительства гражданам. Это ясное ограниченное проявление 2, а не вывод из президентской должности или благодарности избирателям.",
+      "new_facts": [
+        {
+          "text": "4 июля 2024 года в речи Kwibohora 30 Кагаме положительно оценил нынешнюю политику Руанды как основанную на подотчётности и стремлении улучшать жизнь, описал правительство как служащее всем гражданам и призвал сохранять созданную политическую модель.",
+          "source_url": "https://www.paulkagame.rw/address-by-president-kagame-kwibohora-30-kigali-4-july-2024/",
+          "period": "2024-07-04",
+          "event_id": "kagame-kwibohora30-political-model-2024-07-04",
+          "capacity": "Президент Руанды; официальная праздничная речь",
+          "channel": "public_statement",
+          "topic_ids": []
+        }
+      ],
+      "evidence_file": "evidence/independent-dossier-paul-kagame.json"
+    },
+    {
+      "object_id": "vincent-biruta",
+      "scale_id": "government-course-assessment",
+      "pole": "positive",
+      "value": 2,
+      "evidence_indices": [],
+      "source_urls": [
+        "https://www.ktpress.rw/2024/06/day-3-biruta-reiterates-psds-support-for-rpf-inkotanyi-candidate/",
+        "https://police.gov.rw/media/news-detail/news/minister-biruta-meets-rnp-leadership/"
+      ],
+      "rationale": "Прямое собственное одобрение действующего руководства обосновано названными достижениями государственного курса. Это отличается от должностного исполнения и простого обещания продолжать работу; ограниченная оценка 2.",
+      "new_facts": [
+        {
+          "text": "На выступлении в Нгорorero, о котором KTPress сообщил 24 июня 2024, Бирута объяснил поддержку Кагаме достижениями правительства RPF и положительно оценил его результаты в единстве, продовольствии, гендерном равенстве, здравоохранении и образовании.",
+          "source_url": "https://www.ktpress.rw/2024/06/day-3-biruta-reiterates-psds-support-for-rpf-inkotanyi-candidate/",
+          "period": "2024-06-24",
+          "event_id": "biruta-ngororero-government-achievements-2024-06-24",
+          "capacity": "Председатель PSD и министр; публичное выступление в кампании",
+          "channel": "attributed_report",
+          "topic_ids": [],
+          "source_type": "original_journalistic_report_of_named_personal_speech"
+        },
+        {
+          "text": "27 августа 2024 официальный сайт полиции передал положительную оценку Бирутой профессионализма полиции и её вклада в национальную повестку развития; он отдельно отметил достигнутую безопасность жителей.",
+          "source_url": "https://police.gov.rw/media/news-detail/news/minister-biruta-meets-rnp-leadership/",
+          "period": "2024-08-27",
+          "event_id": "biruta-rnp-assessment-2024-08-27",
+          "capacity": "Министр внутренних дел; встреча с руководством полиции",
+          "channel": "public_statement",
+          "topic_ids": [],
+          "source_type": "primary_official_attributed_statement"
+        }
+      ],
+      "evidence_file": "evidence/independent-dossier-vincent-biruta.json"
+    },
+    {
+      "object_id": "jeanne-darc-mujawamariya",
+      "scale_id": "government-course-assessment",
+      "pole": "positive",
+      "value": 1,
+      "evidence_indices": [
+        19,
+        27
+      ],
+      "source_urls": [
+        "https://www.rema.gov.rw/updates/news-details/rwanda-celebrates-world-environment-day-after-week-of-restoration-efforts"
+      ],
+      "rationale": "Полный официальный материал прямо приписывает ей положительную оценку достижений экологической политики Руанды. Один узкий секторный эпизод 1; не утверждается поддержка всех решений правительства. Это оценка достигнутого, а не простое участие или продолжение сектора.",
+      "evidence_file": "evidence/independent-dossier-jeanne-darc-mujawamariya.json"
+    },
+    {
+      "object_id": "alvera-mukabaramba",
+      "scale_id": "government-course-assessment",
+      "pole": "positive",
+      "value": 2,
+      "evidence_indices": [
+        9,
+        16
+      ],
+      "source_urls": [
+        "https://www.africa-press.net/rwanda/policy/choice-of-new-rwanda-senate-president-reflects-power-sharing-tradition"
+      ],
+      "rationale": "В полном тексте интервью она прямо положительно противопоставляет существующую модель руководства RPF прежним республикам и оценивает её институциональные результаты. Это другое прямое основание, чем отвергнутые поручения 12/15; один ограниченный эпизод 2.",
+      "new_facts": [
+        {
+          "text": "В интервью, опубликованном 12 января 2023, Мукабарамба положительно оценила действующее распределение политической власти в Руанде: назвала его существенным отличием руководства RPF от прежних республик и связала представительство женщин и групп населения с улучшением управления.",
+          "source_url": "https://www.africa-press.net/rwanda/policy/choice-of-new-rwanda-senate-president-reflects-power-sharing-tradition",
+          "period": "2023-01-12",
+          "event_id": "mukabaramba-power-sharing-assessment-2023-01",
+          "capacity": "Вице-председатель Сената; именное интервью",
+          "channel": "attributed_report",
+          "topic_ids": [],
+          "period_basis": "publication_date_of_interview",
+          "source_type": "republished_report_with_direct_personal_quotations"
+        }
+      ],
+      "evidence_file": "evidence/independent-dossier-alvera-mukabaramba.json"
+    },
+    {
+      "object_id": "paul-kagame",
+      "scale_id": "problem-disclosure-reputation-defence",
+      "pole": "positive",
+      "value": 2,
+      "evidence_indices": [],
+      "source_urls": [
+        "https://www.paulkagame.rw/biashara-afrika-2024-remarks-by-president-kagame-kigali-9-october-2024/"
+      ],
+      "rationale": "Одно прямое проявление 2. Контекст—общие африканские препятствия с включением Руанды; конкретный исключительно руандийский сбой не приписывается.",
+      "new_facts": [
+        {
+          "text": "Кагаме назвал управленческие барьеры, ограничения передвижения и высокую стоимость логистики препятствиями внутриафриканской торговли.",
+          "source_url": "https://www.paulkagame.rw/biashara-afrika-2024-remarks-by-president-kagame-kigali-9-october-2024/",
+          "period": "2024-10-09",
+          "event_id": "kagame-biashara-afrika-2024-10-09",
+          "capacity": "Президент Руанды; выступление на BiasharaAfrika",
+          "channel": "public_statement",
+          "topic_ids": [],
+          "context_scope": "Africa_including_Rwanda_not_a_claim_of_Rwanda_specific_failure"
+        }
+      ],
+      "evidence_file": "evidence/independent-dossier-paul-kagame.json"
+    },
+    {
+      "object_id": "gerardine-mukeshimana",
+      "scale_id": "problem-disclosure-reputation-defence",
+      "pole": "positive",
+      "value": 1,
+      "evidence_indices": [],
+      "source_urls": [
+        "https://www.dlg.org/en/magazine/small-scale-farmers-need-access-to-innovative-technology"
+      ],
+      "rationale": "Она самостоятельно называет конкретный барьер доступа к программам—бюрократию при заявках. Одно узкое проявление 1; это не утверждение о провале всей политики IFAD или Руанды.",
+      "new_facts": [
+        {
+          "text": "В выступлении на GFFA 2025 Мукешимана обозначила бюрократические препятствия, включая заполнение заявок, как барьер для фермеров при доступе к кредитам и грантам.",
+          "source_url": "https://www.dlg.org/en/magazine/small-scale-farmers-need-access-to-innovative-technology",
+          "period": "2025",
+          "event_id": "mukeshimana-gffa-berlin-2025-funding-access",
+          "capacity": "Вице-президент IFAD; участница экспертной панели",
+          "channel": "public_statement",
+          "topic_ids": [],
+          "period_precision": "event_year",
+          "source_type": "primary_event_organizer_report",
+          "date_note": "Страница прямо относит панель к Green Week 2025; точный день не установлен.24.10.2025 в боковой панели относится к другой статье."
+        }
+      ],
+      "evidence_file": "evidence/independent-dossier-gerardine-mukeshimana.json"
+    },
+    {
+      "object_id": "alvera-mukabaramba",
+      "scale_id": "problem-disclosure-reputation-defence",
+      "pole": "positive",
+      "value": 1,
+      "evidence_indices": [
+        11
+      ],
+      "source_urls": [
+        "https://kiny.taarifa.rw/sena-yatumije-minisitiri-wintebe/"
+      ],
+      "rationale": "Индекс 11 прямо передаёт её обеспокоенность контролем ветеринарных лекарств и конкретизирует проблемную функцию надзора. Одно узкое проявление 1. Полная страница повторно недоступна; основание ограничено сохранённой атрибутированной выпиской.",
+      "evidence_file": "evidence/independent-dossier-alvera-mukabaramba.json"
+    },
+    {
+      "object_id": "pudence-rubingisa",
+      "scale_id": "problem-disclosure-reputation-defence",
+      "pole": "positive",
+      "value": 2,
+      "evidence_indices": [
+        18
+      ],
+      "source_urls": [
+        "https://www.ktpress.rw/2022/08/city-of-kigali-to-confiscate-idle-plots-of-land/"
+      ],
+      "rationale": "Полный текст прямо приписывает мэру признание конкретного препятствия городской программе—скупленных, но неосвоенных участков. Это другое основание, чем ранее отвергнутое обсуждение палаток 24; одно ясное ограниченное проявление 2.",
+      "new_facts": [
+        {
+          "text": "В опубликованном 5 августа 2022 сообщении Рубингиса прямо назвал длительно неосвоенные участки препятствием развитию Кигали и объяснил, что часть владельцев удерживает землю ради будущей перепродажи.",
+          "source_url": "https://www.ktpress.rw/2022/08/city-of-kigali-to-confiscate-idle-plots-of-land/",
+          "period": "2022-08-05",
+          "event_id": "rubingisa-idle-plots-2022-08",
+          "capacity": "Мэр Кигали; публичный комментарий о землепользовании",
+          "channel": "attributed_report",
+          "topic_ids": [],
+          "period_basis": "publication_of_personal_statement",
+          "source_type": "original_journalistic_report_of_named_personal_statement"
+        }
+      ],
+      "evidence_file": "evidence/independent-dossier-pudence-rubingisa.json"
+    },
+    {
+      "object_id": "emmanuel-ugirashebuja",
+      "scale_id": "problem-disclosure-reputation-defence",
+      "pole": "positive",
+      "value": 1,
+      "evidence_indices": [],
+      "source_urls": [
+        "https://rwanda.un.org/en/282786-rwanda-ushers-new-era-justice-inauguration-adr-center"
+      ],
+      "rationale": "Официальное сообщение прямо приписывает ему указание на пробелы доступа к правосудию для недостаточно обслуживаемых групп. Одно узкое проявление 1; общие призывы обсуждать проблемы из ранее отклонённого 20 не используются.",
+      "new_facts": [
+        {
+          "text": "В сообщении ООН от 4 ноября 2024 об открытии ADR-центра в августе 2024 Угирасебудже прямо приписано указание на пробелы доступа к правосудию, особенно для недостаточно обслуживаемых групп, которые новый центр должен уменьшить.",
+          "source_url": "https://rwanda.un.org/en/282786-rwanda-ushers-new-era-justice-inauguration-adr-center",
+          "period": "2024-08",
+          "event_id": "ugirashebuja-adr-center-access-gaps-2024-08",
+          "capacity": "Министр юстиции; выступление при открытии ADR-центра",
+          "channel": "public_statement",
+          "topic_ids": [],
+          "period_precision": "event_month",
+          "source_type": "primary_official_event_report",
+          "date_note": "Дата публикации 04.11.2024, событие отнесено источником к августу 2024; точный день не заявляется."
+        }
+      ],
+      "evidence_file": "evidence/independent-dossier-emmanuel-ugirashebuja.json"
+    }
+  ],
+  "unknown_summary": [
+    {
+      "object_id": "edouard-ngirente",
+      "scale_id": "problem-disclosure-reputation-defence",
+      "pole": "positive",
+      "reason": "Новое прямое основание не установлено. Нет прямых эпизодов, где он бы публично признавал конкретные проблемы или недостатки исполнения; отчётность и доклады не содержат явного раскрытия сбоев.",
+      "source_audit_rechecked": false
+    },
+    {
+      "object_id": "justin-nsengiyumva",
+      "scale_id": "problem-disclosure-reputation-defence",
+      "pole": "positive",
+      "reason": "Полный источник о сокращении грантов прямо передаёт его слова, что для Руанды это не проблема; объективное изменение доходов не перекодируется вопреки собственной оценке.",
+      "source_audit_rechecked": false
+    },
+    {
+      "object_id": "olivier-nduhungirehe",
+      "scale_id": "problem-disclosure-reputation-defence",
+      "pole": "positive",
+      "reason": "Новое прямое основание не установлено. Нет прямых эпизодов, где Ндухунгирехе признавал бы конкретные проблемы или недостатки исполнения Руандой или собственной политики.",
+      "source_audit_rechecked": false
+    },
+    {
+      "object_id": "james-kabarebe",
+      "scale_id": "problem-disclosure-reputation-defence",
+      "pole": "positive",
+      "reason": "Новое прямое основание не установлено. Нет прямых эпизодов признания Кабаребе конкретных проблем или ограничений в исполнении политики.",
+      "source_audit_rechecked": false
+    },
+    {
+      "object_id": "juvenal-marizamunda",
+      "scale_id": "government-course-assessment",
+      "pole": "positive",
+      "reason": "Новое прямое основание не установлено. В доступных фактах отсутствуют прямые публичные оценки Маризамунды в поддержку всего государственного курса Руанды.",
+      "source_audit_rechecked": false
+    },
+    {
+      "object_id": "juvenal-marizamunda",
+      "scale_id": "problem-disclosure-reputation-defence",
+      "pole": "positive",
+      "reason": "Новое прямое основание не установлено. Проверка оснований: 6 перечисляет общемировые угрозы и провалы управления как общие вызовы. Конкретного собственного/государственного сбоя исполнения, ограничения либо признанного недостатка в нём нет.",
+      "source_audit_rechecked": true
+    },
+    {
+      "object_id": "albert-murasira",
+      "scale_id": "problem-disclosure-reputation-defence",
+      "pole": "positive",
+      "reason": "Новое прямое основание не установлено. Нет прямых фактов о признании конкретных проблем или недостатков исполнения в публичных заявлениях Мурасиры.",
+      "source_audit_rechecked": false
+    },
+    {
+      "object_id": "uzziel-ndagijimana",
+      "scale_id": "problem-disclosure-reputation-defence",
+      "pole": "positive",
+      "reason": "Новое прямое основание не установлено. Нет прямых эпизодов, где Ндагиджимана признаёт конкретные проблемы, ограничения или сбои исполнения публично.",
+      "source_audit_rechecked": false
+    },
+    {
+      "object_id": "judith-uwizeye",
+      "scale_id": "problem-disclosure-reputation-defence",
+      "pole": "positive",
+      "reason": "Новое прямое основание не установлено. Проверка оснований: Призыв укреплять прозрачность не равен признанию конкретного недостатка или сбоя.",
+      "source_audit_rechecked": true
+    },
+    {
+      "object_id": "ines-mpambara",
+      "scale_id": "government-course-assessment",
+      "pole": "positive",
+      "reason": "Новое прямое основание не установлено. Нет персональных публичных оценок курса власти, достижений или проблем, высказанных Инес Мпамбарой в исследуемый период.",
+      "source_audit_rechecked": false
+    },
+    {
+      "object_id": "ines-mpambara",
+      "scale_id": "problem-disclosure-reputation-defence",
+      "pole": "positive",
+      "reason": "Новое прямое основание не установлено. Нет сведений о публичном признании конкретных проблем или недостатков исполнения со стороны Мпамбары в исследуемый период.",
+      "source_audit_rechecked": false
+    },
+    {
+      "object_id": "gerardine-mukeshimana",
+      "scale_id": "government-course-assessment",
+      "pole": "positive",
+      "reason": "Новое прямое основание не установлено. Проверка оснований: Посещение объектов 0 и благоприятные биографические оценкиIFAD 5,7 не являются прямо высказанной ею оценкой действующего государственного курса.",
+      "source_audit_rechecked": true
+    },
+    {
+      "object_id": "clare-akamanzi",
+      "scale_id": "problem-disclosure-reputation-defence",
+      "pole": "positive",
+      "reason": "Новое прямое основание не установлено. Нет прямых эпизодов, где Акаманзи признаёт конкретные проблемы или недостатки исполнения в публичных заявлениях; отчётность и позитивная аргументация не равны признанию проблем.",
+      "source_audit_rechecked": false
+    },
+    {
+      "object_id": "francis-gatare",
+      "scale_id": "government-course-assessment",
+      "pole": "positive",
+      "reason": "Новое прямое основание не установлено. Нет прямых персональных оценок достижений или проблем действующего государственного курса; благодарность за назначение и риторика служения не являются оценкой курса.",
+      "source_audit_rechecked": false
+    },
+    {
+      "object_id": "francis-gatare",
+      "scale_id": "problem-disclosure-reputation-defence",
+      "pole": "positive",
+      "reason": "Новое прямое основание не установлено. В материалах не зафиксировано персональных публичных признаний конкретных проблем или недостатков исполнения со стороны Гатаре.",
+      "source_audit_rechecked": false
+    },
+    {
+      "object_id": "francois-xavier-kalinda",
+      "scale_id": "problem-disclosure-reputation-defence",
+      "pole": "positive",
+      "reason": "Новое прямое основание не установлено. Нет прямых эпизодов, где Калинда признаёт конкретные проблемы или недостатки исполнения публично. Его риторика преимущественно институциональна и ориентирована на выполнение обязанностей, а не на раскрытие проблем.",
+      "source_audit_rechecked": false
+    },
+    {
+      "object_id": "mussa-fazil-harerimana",
+      "scale_id": "problem-disclosure-reputation-defence",
+      "pole": "positive",
+      "reason": "Новое прямое основание не установлено. Нет прямых свидетельств публичного признания Харериманой конкретных проблем, ограничений или сбоев в исполнении политики или управления.",
+      "source_audit_rechecked": false
+    },
+    {
+      "object_id": "pudence-rubingisa",
+      "scale_id": "government-course-assessment",
+      "pole": "positive",
+      "reason": "Новое прямое основание не установлено. Проверка оснований: 5/19/21 — благодарность партнёрам и инфраструктурный отчёт, без прямой оценки государственного курса. Обычная благодарность/отчёт не заменяют измеряемого суждения.",
+      "source_audit_rechecked": true
+    },
+    {
+      "object_id": "samuel-dusengiyumva",
+      "scale_id": "government-course-assessment",
+      "pole": "positive",
+      "reason": "Новое прямое основание не установлено. Проверка оснований: 0/1 — поручения и привязка администрации к государственным планам, без прямой оценки курса/его достижений. Исполнение служебной программы само по себе не такое суждение.",
+      "source_audit_rechecked": true
+    },
+    {
+      "object_id": "frank-habineza",
+      "scale_id": "government-course-assessment",
+      "pole": "positive",
+      "reason": "Он положительно оценивает условия кампании и зрелость граждан, но эти слова не превращаются автоматически в поддержку курса правительства. Прямого одобрения государственных решений не найдено.",
+      "source_audit_rechecked": false
+    },
+    {
+      "object_id": "philippe-mpayimana",
+      "scale_id": "problem-disclosure-reputation-defence",
+      "pole": "positive",
+      "reason": "Обещание своевременных студенческих выплат не доказывает признание фактически происходящих задержек; полный источник UniversityWorldNews повторно недоступен.",
+      "source_audit_rechecked": false
+    },
+    {
+      "object_id": "victoire-ingabire",
+      "scale_id": "government-course-assessment",
+      "pole": "positive",
+      "reason": "Новое прямое основание не установлено. Проверка оснований: 0 прямо объяснён «нет оснований» и наличием критики. При независимых свойствах критика не доказывает отсутствия поддержки отдельных решений.",
+      "source_audit_rechecked": true
+    },
+    {
+      "object_id": "diane-rwigara",
+      "scale_id": "government-course-assessment",
+      "pole": "positive",
+      "reason": "Новое прямое основание не установлено. Нет прямых публичных заявлений Рвигары, выражающих поддержку действующего государственного курса в целом. Отдельные упоминания экономического развития не содержат явной положительной оценки курса власти.",
+      "source_audit_rechecked": false
+    },
+    {
+      "object_id": "bernard-ntaganda",
+      "scale_id": "government-course-assessment",
+      "pole": "positive",
+      "reason": "Новое прямое основание не установлено. Нет обнаруженных прямых публичных заявлений Нтаганды о поддержке действующего государственного курса в исследуемый период.",
+      "source_audit_rechecked": false
+    },
+    {
+      "object_id": "christopher-kayumba",
+      "scale_id": "government-course-assessment",
+      "pole": "positive",
+      "reason": "Прежние основания были чужими оценками. Новое прямое подтверждение личного раскрытия конкретного недостатка не получено; исходный первичный отчёт Госдепартамента сейчас недоступен.",
+      "source_audit_rechecked": false
+    },
+    {
+      "object_id": "christopher-kayumba",
+      "scale_id": "problem-disclosure-reputation-defence",
+      "pole": "positive",
+      "reason": "Прежние основания были чужими оценками. Новое прямое подтверждение личного раскрытия конкретного недостатка не получено; исходный первичный отчёт Госдепартамента сейчас недоступен.",
+      "source_audit_rechecked": true
+    },
+    {
+      "object_id": "paul-rusesabagina",
+      "scale_id": "government-course-assessment",
+      "pole": "positive",
+      "reason": "Новое прямое основание не установлено. Нет фактов о публичной поддержке действующего курса Руанды Русесабагиной в указанный период.",
+      "source_audit_rechecked": false
+    },
+    {
+      "object_id": "kayumba-nyamwasa",
+      "scale_id": "government-course-assessment",
+      "pole": "positive",
+      "reason": "Новое прямое основание не установлено. Нет фактов, свидетельствующих о публичной поддержке Ньямвасой действующего государственного курса Руанды.",
+      "source_audit_rechecked": false
+    },
+    {
+      "object_id": "louise-mushikiwabo",
+      "scale_id": "government-course-assessment",
+      "pole": "positive",
+      "reason": "Не найдено прямой оценки курса Руанды либо конкретного собственного ограничения исполнения. Общая обеспокоенность некоторыми регионами и успехиOIF не подменяют эти свойства.",
+      "source_audit_rechecked": false
+    },
+    {
+      "object_id": "louise-mushikiwabo",
+      "scale_id": "problem-disclosure-reputation-defence",
+      "pole": "positive",
+      "reason": "Не найдено прямой оценки курса Руанды либо конкретного собственного ограничения исполнения. Общая обеспокоенность некоторыми регионами и успехиOIF не подменяют эти свойства.",
+      "source_audit_rechecked": false
+    },
+    {
+      "object_id": "claver-gatete",
+      "scale_id": "government-course-assessment",
+      "pole": "positive",
+      "reason": "Новое прямое основание не установлено. Проверка оснований: 1 — профиль;10/11 — предложения об инструментах/реформах, без указанной reason оценки достижений власти. Работа вЭКА/продвижение инициатив не сами по себе оценка государственного курса.",
+      "source_audit_rechecked": true
+    }
+  ],
+  "input_hashes": {
+    "studies/rwanda-politicians-2021-2026/study.json": "375e3881412e522e5f8406b2f5640b3ea93f589a44deacbd4864ac8307983227",
+    "studies/rwanda-politicians-2021-2026/ratings.json": "045e3c56eba2e87f8e2963818ad31635f904d90f2c63804438477108606ba9f3",
+    "studies/rwanda-politicians-2021-2026/evidence/independent-dossier-paul-kagame.json": "4a7e2f061ad37f98b35777b708e0b5f4d5fe3312d7a3c48277e42561d7217cc5",
+    "studies/rwanda-politicians-2021-2026/evidence/independent-dossier-edouard-ngirente.json": "43985729bea8a3de42015cfefacb0e39b7dd2f5e30320e9066dd90181f80245a",
+    "studies/rwanda-politicians-2021-2026/evidence/independent-dossier-justin-nsengiyumva.json": "9ad620439dfdf9f52793845db5a0967004947e649f10e660006472946e85266f",
+    "studies/rwanda-politicians-2021-2026/evidence/independent-dossier-vincent-biruta.json": "ac5294148c699e8aad4116a50f490604096188e2d8f5af05f59ca1efcfd616c1",
+    "studies/rwanda-politicians-2021-2026/evidence/independent-dossier-olivier-nduhungirehe.json": "73034f00293493a25318fe7880a2fe47d6d4ebe533c8b3d308ab33c208b7b6e2",
+    "studies/rwanda-politicians-2021-2026/evidence/independent-dossier-james-kabarebe.json": "5db000f0683a2e514f57f5a8daf50d59f5ee2841ae1cb9ad9bb06bbe8866b57b",
+    "studies/rwanda-politicians-2021-2026/evidence/independent-dossier-juvenal-marizamunda.json": "86e124766a98dcbaabd53018d3cd60f50ad70856146d6fa6404817bd25651522",
+    "studies/rwanda-politicians-2021-2026/evidence/independent-dossier-albert-murasira.json": "7f0725ce8239ca8c8a630256d6c633757d2a617439329c686e503ff24a7e57cb",
+    "studies/rwanda-politicians-2021-2026/evidence/independent-dossier-emmanuel-ugirashebuja.json": "0976640496345d317d39a87338bdb846ec936d1dd3aa56bcefae88e9ef2d2a1a",
+    "studies/rwanda-politicians-2021-2026/evidence/independent-dossier-uzziel-ndagijimana.json": "61a538cfc7c01b05a6002b8838dce9f250d168fc1c0e77568a3ea5830b19dcbd",
+    "studies/rwanda-politicians-2021-2026/evidence/independent-dossier-judith-uwizeye.json": "7189b69784c4f8b42127ccf98d90bbb6ebe899fc6d01b6d418cad4bb9c691bb3",
+    "studies/rwanda-politicians-2021-2026/evidence/independent-dossier-ines-mpambara.json": "515b98a3a419512f7212038cf423cb225ab74c93df4dffdcfb16a36ac3d5b554",
+    "studies/rwanda-politicians-2021-2026/evidence/independent-dossier-jeanne-darc-mujawamariya.json": "6755578c4d56f58bbd2c8bc68bd53d74d1b0a4e74650d463f27074cc91992e32",
+    "studies/rwanda-politicians-2021-2026/evidence/independent-dossier-gerardine-mukeshimana.json": "85ee7fb66d429b181dfa96de29206d043b17480c1550853b4c38d919299791dd",
+    "studies/rwanda-politicians-2021-2026/evidence/independent-dossier-clare-akamanzi.json": "81b4e63914bec84899d200ab933750e82aa1ac3dc911b268e9677b869669e016",
+    "studies/rwanda-politicians-2021-2026/evidence/independent-dossier-francis-gatare.json": "614886e3e8ef799eec69c17aa2770b105e163f1535f80f8ca204ad453caf6508",
+    "studies/rwanda-politicians-2021-2026/evidence/independent-dossier-francois-xavier-kalinda.json": "da2d36c4e202dc681a2c70e5e0c949edfdf957ed414c1a3b47c0b252dac1359b",
+    "studies/rwanda-politicians-2021-2026/evidence/independent-dossier-alvera-mukabaramba.json": "b6893710c39f92c3d9ed072229737d24ee37bea1aeb6076ac7d481659a4b7c46",
+    "studies/rwanda-politicians-2021-2026/evidence/independent-dossier-mussa-fazil-harerimana.json": "9222ec42ea5873d51c33d18bbf82759ada775896adc3978cf5ff4c627973e179",
+    "studies/rwanda-politicians-2021-2026/evidence/independent-dossier-pudence-rubingisa.json": "e35b7848151b89443e6648b6832d98ec948d7e6b4df968fbf9ebf72934d1be28",
+    "studies/rwanda-politicians-2021-2026/evidence/independent-dossier-samuel-dusengiyumva.json": "27ffc6591e2edd0cc1de5b2edf01d5c2e2dee0f4431c1b4e55d49df09e4cdff5",
+    "studies/rwanda-politicians-2021-2026/evidence/independent-dossier-frank-habineza.json": "e631ffbf32bf496bb25f424d0c0c50f047d57aa5e0d5424dfc6bac1fe3dceaa2",
+    "studies/rwanda-politicians-2021-2026/evidence/independent-dossier-philippe-mpayimana.json": "d7093bcf5d3923953852339c541888a9cd5fcfc42ea456c198c96e9e79afc763",
+    "studies/rwanda-politicians-2021-2026/evidence/independent-dossier-victoire-ingabire.json": "a12d7cc9caec9b9c91cbf9be31c06d2484f9d7a20b0b71c176c54f8154e94c2d",
+    "studies/rwanda-politicians-2021-2026/evidence/independent-dossier-diane-rwigara.json": "6ae7aa10687c55fa629e79e30631b16578eb3e05753cfd3ba90bc95df7f7036f",
+    "studies/rwanda-politicians-2021-2026/evidence/independent-dossier-bernard-ntaganda.json": "c5c3a2f655e8cba7dc1cbe95bfdead7d496f9105f4e10d954e881786ac82d961",
+    "studies/rwanda-politicians-2021-2026/evidence/independent-dossier-christopher-kayumba.json": "97c3786beb590ec9360a5e077cf5b9da58ae50e16ff7bba9bfaee4ab2cbfbc8f",
+    "studies/rwanda-politicians-2021-2026/evidence/independent-dossier-paul-rusesabagina.json": "f3fa805418f5ad67747d4e88e4abc00b2f9495606cb8e07130ba31f0f1cea8f5",
+    "studies/rwanda-politicians-2021-2026/evidence/independent-dossier-kayumba-nyamwasa.json": "655c5c1fffe95fefd0a24c83f5c269065848333903dfce006a64fa16eb6cd989",
+    "studies/rwanda-politicians-2021-2026/evidence/independent-dossier-louise-mushikiwabo.json": "dd67587a88dd2831b8b2f3a2d59dcea6f18dfdf4476cdcd48570d20aab25b219",
+    "studies/rwanda-politicians-2021-2026/evidence/independent-dossier-claver-gatete.json": "230737b5010aeb3a56bcfd1da37ad1e47644bff6b8da9b43f26df0134ef090fc"
+  },
+  "summary": {
+    "checked_missing_properties": 40,
+    "checked_missing_by_variable": {
+      "government-course-assessment__positive": 19,
+      "problem-disclosure-reputation-defence__positive": 21
+    },
+    "new_observations": 9,
+    "remaining_unknown_in_scope": 31,
+    "proposed_new_by_variable": {
+      "government-course-assessment__positive": 4,
+      "problem-disclosure-reputation-defence__positive": 5
+    },
+    "baseline_observed_by_variable": {
+      "government-course-assessment__positive": 23,
+      "problem-disclosure-reputation-defence__positive": 21
+    },
+    "proposed_observed_after_acceptance": {
+      "government-course-assessment__positive": 27,
+      "problem-disclosure-reputation-defence__positive": 26
+    },
+    "note": "Counts describe proposals, not accepted measurements; no factor model was inspected or fitted."
+  },
+  "source_reviews": [
+    {
+      "url": "https://www.paulkagame.rw/address-by-president-kagame-kwibohora-30-kigali-4-july-2024/",
+      "title": "Address by President Kagame | Kwibohora 30 | Kigali, 4 July 2024",
+      "source_type": "primary_official_speech",
+      "verification": "full_page_read_2026-10-15",
+      "event_date": "2024-07-04"
+    },
+    {
+      "url": "https://www.paulkagame.rw/biashara-afrika-2024-remarks-by-president-kagame-kigali-9-october-2024/",
+      "title": "Biashara Afrika 2024 | Remarks by President Kagame",
+      "source_type": "primary_official_speech",
+      "verification": "full_page_read_2026-10-15",
+      "event_date": "2024-10-09",
+      "context_limit": "Continental barriers including Rwanda, not an exclusive admission of a Rwandan governance failure."
+    },
+    {
+      "url": "https://www.ktpress.rw/2024/06/day-3-biruta-reiterates-psds-support-for-rpf-inkotanyi-candidate/",
+      "title": "Day 3: Biruta Reiterates PSD’s Support For RPF-Inkotanyi Candidate",
+      "source_type": "original_journalistic_report_with_direct_named_personal_quotations",
+      "verification": "full_page_read_2026-10-15",
+      "event_date": "2024-06-24"
+    },
+    {
+      "url": "https://police.gov.rw/media/news-detail/news/minister-biruta-meets-rnp-leadership/",
+      "title": "Minister Biruta meets RNP leadership",
+      "source_type": "primary_official_attributed_statement",
+      "verification": "full_page_read_2026-10-15",
+      "event_date": "2024-08-27"
+    },
+    {
+      "url": "https://www.rema.gov.rw/updates/news-details/rwanda-celebrates-world-environment-day-after-week-of-restoration-efforts",
+      "title": "Rwanda Celebrates World Environment Day After Week of Restoration Efforts",
+      "source_type": "primary_official_event_report",
+      "verification": "full_page_read_2026-10-15",
+      "event_date": "2024-06-05"
+    },
+    {
+      "url": "https://www.africa-press.net/rwanda/policy/choice-of-new-rwanda-senate-president-reflects-power-sharing-tradition",
+      "title": "Choice of new Rwanda Senate president ‘reflects power sharing tradition’",
+      "source_type": "republished_journalistic_report_with_direct_named_personal_quotations",
+      "verification": "full_page_read_2026-10-15",
+      "publication_date": "2023-01-12",
+      "event_date_precision": "Interview published three days after the election; exact interview day not asserted."
+    },
+    {
+      "url": "https://www.dlg.org/en/magazine/small-scale-farmers-need-access-to-innovative-technology",
+      "title": "Small-scale farmers need access to innovative technology",
+      "source_type": "primary_event_organizer_report",
+      "verification": "full_relevant_page_read_2026-10-15",
+      "event_year": 2025,
+      "event_date_precision": "GFFA at beginning of Green Week2025; exact day not established."
+    },
+    {
+      "url": "https://kiny.taarifa.rw/sena-yatumije-minisitiri-wintebe/",
+      "title": "Sena yatumije Minisitiri w’Intebe",
+      "source_type": "existing_retrieval_cited_attributed_report",
+      "verification": "frozen_excerpt_only; repeat_full_page_fetch_failed_cache_miss",
+      "event_date": "2026-03-04"
+    },
+    {
+      "url": "https://www.ktpress.rw/2022/08/city-of-kigali-to-confiscate-idle-plots-of-land/",
+      "title": "City of Kigali To Confiscate Idle Plots of Land",
+      "source_type": "original_journalistic_report_with_direct_named_personal_quotations",
+      "verification": "full_page_read_2026-10-15",
+      "publication_date": "2022-08-05"
+    },
+    {
+      "url": "https://rwanda.un.org/en/282786-rwanda-ushers-new-era-justice-inauguration-adr-center",
+      "title": "Rwanda ushers in new era of justice with the inauguration of the ADR Center",
+      "source_type": "primary_official_event_report_UN",
+      "verification": "full_page_read_2026-10-15",
+      "publication_date": "2024-11-04",
+      "event_period": "2024-08"
+    }
+  ],
+  "methods": {
+    "scope": "Checked every current unknown cell of both assigned variables; known cells were excluded from modification.",
+    "scoring": "New transparent assistant scores1–2 using approved anchors; no zero, reverse-pole inference, role inference or coefficient optimisation.",
+    "rejected_history": "Previously rejected bases not repeated. New support uses another direct statement or the newly read substantive portion of an existing source.",
+    "sampling_stop_rule": "All40 missing properties checked; review did not stop when either proposed count crossed26.",
+    "web_search_queries": 6,
+    "paid_model_api_calls": 0,
+    "canonical_files_written": false,
+    "source_policy": "Official own speeches/event reports preferred; original named quotations in journalism are explicitly labelled. Existing indexed excerpt used only where identified, with fetch limitation disclosed.",
+    "limitation": "Semantic review of frozen dossiers plus bounded source verification; not a comprehensive biographical search or independent human measurement."
+  },
+  "data_quality_notes": [
+    {
+      "object_id": "gerardine-mukeshimana",
+      "evidence_indices": [
+        22
+      ],
+      "note": "Saved period2025-10-24 derives from an unrelated sidebar article dated24 October2025. Main DLG text places the panel at GFFA/Green Week2025. The claim that October2025 lies nine days outside the study ending15 October2026 is also false. Canonical dossier unchanged; proposal uses a separately stated event-year fact."
+    },
+    {
+      "object_id": "emmanuel-ugirashebuja",
+      "evidence_indices": [
+        3
+      ],
+      "note": "UN article publication is04 November2024 but the reported inauguration occurred in August2024. New fact distinguishes publication and event month."
+    },
+    {
+      "object_id": "pudence-rubingisa",
+      "evidence_indices": [
+        18
+      ],
+      "note": "Verified KTPress page publication is05 August2022; it reports comments from that week. New fact uses the publication date and does not claim that the speech itself occurred on05 August."
+    }
+  ]
+}

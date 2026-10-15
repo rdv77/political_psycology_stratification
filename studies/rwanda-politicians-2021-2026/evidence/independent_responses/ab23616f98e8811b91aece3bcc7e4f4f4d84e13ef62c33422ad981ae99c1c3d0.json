@@ -1,0 +1,36 @@
+{
+  "data": {
+    "facts": [],
+    "limitations": "Найденные результаты не содержат проверяемых материалов об Инес Мпамбаре, относящихся к требуемому периоду 2021-10-15—2026-10-15. Единственный результат с близким совпадением по имени не связан с ней: он касается авторов The New Times, а остальные результаты относятся к другим должностным лицам или событиям. Поэтому 18–24 неповторяющихся эпизода без выдумывания сведений сформировать нельзя.",
+    "sources": []
+  },
+  "model": "sonar-pro",
+  "task": "independent-retrieval-ines-mpambara",
+  "at": "2026-10-15T17:22:02.040105+00:00",
+  "usage": {
+    "completion_tokens": 137,
+    "cost": {
+      "input_tokens_cost": 0.00345,
+      "output_tokens_cost": 0.00058,
+      "request_cost": 0.0025,
+      "total_cost": 0.00653
+    },
+    "prompt_tokens": 2263,
+    "search_context_size": "low",
+    "total_tokens": 2400
+  },
+  "citations": [
+    "https://www.newtimes.co.rw/article/39699/news/featured/musanze-minister-urges-border-communities-to-strengthen-unity-through-ndi-umunyarwanda",
+    "https://allafrica.com/stories/202610150145.html",
+    "https://ground.news/article/rwanda-joins-mozambique-conference-as-africa-steps-up-efforts-to-prepare-for-floods-droughts-and-cyclones-taarifa-rwanda",
+    "https://www.newtimes.co.rw/author/-905345/bertrand-byishimo-ines-rutayisire-umurerwa",
+    "https://www.enca.com/rwanda?page=17",
+    "https://politics.princeton.edu/events/africa-impact-lecture-kyagulanyi-ssentamu-bobi-wine",
+    "https://minbane.wordpress.com/2026/10/14/https-wp-me-p1xtjg-vqf-3/",
+    "https://article.wn.com/view/2026/10/14/Kemenkeu_diminta_perbesar_anggaran_untuk_pemberdayaan_masyar/",
+    "https://syndication.nation.co.ke/product/at-parliament-buildings-nairobi-3/",
+    "https://www.formula1.com/en/latest/article/formula-1-returns-to-africa-with-10-year-agreement-to-race-in-rwanda.13xs9VMK7cGFiBd2IplyES"
+  ],
+  "system_fingerprint": null,
+  "cache_key": "ab23616f98e8811b91aece3bcc7e4f4f4d84e13ef62c33422ad981ae99c1c3d0"
+}

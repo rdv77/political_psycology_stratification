@@ -1,0 +1,111 @@
+{
+  "data": {
+    "facts": [
+      {
+        "capacity": "Лидер оппозиционной Rwanda National Congress (RNC) в эмиграции; бывший высокопоставленный военный руководитель",
+        "channel": "attributed_report",
+        "event_id": "nyamwasa-2022-04-11-rnc-exile-opposition",
+        "period": "2022-04-11",
+        "source_url": "https://www.africa-confidential.com/profile/id/4004/faustin-kayumba-nyamwasa",
+        "text": "Africa Confidential описывает Ньямвасу как одного из основателей RNC и руководителя базирующейся в эмиграции руандийской оппозиции. Материал подтверждает политическую роль и контекст эмиграции, но не приводит его собственного датированного заявления или конкретной программы.",
+        "topic_ids": [
+          "programmatic-renewal__positive",
+          "electoral-access__positive"
+        ]
+      },
+      {
+        "capacity": "Лидер RNC, действующий через эмиграционную оппозиционную сеть",
+        "channel": "attributed_report",
+        "event_id": "nyamwasa-2022-12-01-regional-opposition",
+        "period": "2022-12-01",
+        "source_url": "https://www.africa-confidential.com/profile/id/4004/faustin-kayumba-nyamwasa",
+        "text": "В контексте кризиса в восточной части Демократической Республики Конго Africa Confidential относит RNC к руандийской оппозиции, базирующейся в регионе, и называет Ньямвасу её лидером. Это фиксирует трансграничный политический контекст, но не доказывает его личное решение о военных или иных операциях.",
+        "topic_ids": [
+          "international-rules-autonomy__positive",
+          "mediation-adversarial-communication__negative"
+        ]
+      },
+      {
+        "capacity": "Руководитель RNC в публичном политическом контексте",
+        "channel": "attributed_report",
+        "event_id": "nyamwasa-2023-10-30-rnc-fdlr-meeting-context",
+        "period": "2023-10-30",
+        "source_url": "https://www.africa-confidential.com/profile/id/4004/faustin-kayumba-nyamwasa",
+        "text": "Africa Confidential сообщила, что представители RNC участвовали в контактах с представителями FDLR. Публикация не устанавливает, что Ньямваса лично присутствовал, санкционировал встречу или принял конкретное решение; эпизод поэтому является ограниченным контрпримером для приписывания ему прямого посредничества или оперативного руководства.",
+        "topic_ids": [
+          "mediation-adversarial-communication__positive"
+        ]
+      },
+      {
+        "capacity": "Политический лидер RNC в эмиграции; публичный оппонент президента Руанды",
+        "channel": "official_act",
+        "event_id": "nyamwasa-2025-07-18-political-activity-context",
+        "period": "2025-07-18",
+        "source_url": "https://www.hrw.org/news/2025/07/18/submission-to-the-universal-periodic-review-of-rwanda",
+        "text": "В материалах Human Rights Watch для универсального периодического обзора ООН упомянуто прежнее утверждение Ньямвасы о том, что представители руандийского правительства угрожали криминально его уничтожить, если он не прекратит политическую деятельность. Это подтверждает публичное описание им давления из-за оппозиционной активности, но не устанавливает независимую достоверность всех деталей угроз.",
+        "topic_ids": [
+          "government-course-assessment__negative",
+          "problem-disclosure-reputation-defence__positive",
+          "procedural-guarantees-enforcement__positive"
+        ]
+      },
+      {
+        "capacity": "Эмиграционный оппозиционный деятель и представитель RNC",
+        "channel": "public_statement",
+        "event_id": "nyamwasa-2025-11-10-authoritarian-rule-claim",
+        "period": "2025-11-10",
+        "source_url": "https://newspaper.africa/2025/11/10/terrorist-labels-ignite-debate-in-rwanda/",
+        "text": "В пересказе NewsPaper Africa Ньямваса заявил, что его преследуют за противодействие диктаторскому правлению в Руанде, и отверг обозначение себя как террориста. Это прямая публичная критика государственного курса и защита собственной политической репутации; публикация датирована после заданного периода и потому не может использоваться как эпизод целевой выборки.",
+        "topic_ids": [
+          "government-course-assessment__negative",
+          "problem-disclosure-reputation-defence__negative",
+          "mediation-adversarial-communication__negative"
+        ]
+      }
+    ],
+    "limitations": "Доступные результаты поиска не дают 18–24 пригодных неповторяющихся эпизода в пределах 2021-10-15—2026-10-15. Большинство найденных материалов являются вторичными профилями, атрибутированными пересказами или описаниями роли, а не первичными датированными заявлениями самого Ньямвасы. Один из наиболее конкретных найденных материалов датирован 2025-11-10 и выходит за пределы заданного периода; он включён только для прозрачности и не должен считаться подходящим эпизодом. Приведённые источники не позволяют надёжно заполнить требуемый объём без выдумывания фактов, дат или ссылок.",
+    "sources": [
+      {
+        "title": "Faustin Kayumba Nyamwasa | Profile — Africa Confidential",
+        "url": "https://www.africa-confidential.com/profile/id/4004/faustin-kayumba-nyamwasa"
+      },
+      {
+        "title": "Submission to the Universal Periodic Review of Rwanda — Human Rights Watch",
+        "url": "https://www.hrw.org/news/2025/07/18/submission-to-the-universal-periodic-review-of-rwanda"
+      },
+      {
+        "title": "Terrorist labels ignite debate in Rwanda — NewsPaper Africa",
+        "url": "https://newspaper.africa/2025/11/10/terrorist-labels-ignite-debate-in-rwanda/"
+      }
+    ]
+  },
+  "model": "sonar-pro",
+  "task": "independent-retrieval-kayumba-nyamwasa",
+  "at": "2026-10-15T17:23:32.375084+00:00",
+  "usage": {
+    "completion_tokens": 1398,
+    "cost": {
+      "input_tokens_cost": 0.00379,
+      "output_tokens_cost": 0.00328,
+      "request_cost": 0.0025,
+      "total_cost": 0.00957
+    },
+    "prompt_tokens": 2657,
+    "search_context_size": "low",
+    "total_tokens": 4055
+  },
+  "citations": [
+    "https://newspaper.africa/2025/11/10/terrorist-labels-ignite-debate-in-rwanda/",
+    "https://my250tv.com/2025/11/17/abakoresha-imbuga-nkoranyambaga-bari-gukubita-batababarira-ikihebe-kayumbaa-nyamwasa/",
+    "https://www.newtimes.co.rw/author/602/bertrand-kayumba",
+    "https://www.africa-confidential.com/profile/id/4004/faustin-kayumba-nyamwasa",
+    "https://taarifa.rw/2025/11/17/kayumba-nyamwasa-the-lost-general/",
+    "https://x.com/onduhungirehe/status/1800880895517229152",
+    "https://www.africa-confidential.com/profile/id/4004/page/1",
+    "https://www.newvision.co.ug/news/1499909/nyamwasa-fell-paul-kagame",
+    "https://theafricancriminologyjournal.wordpress.com/tag/kayumba-nyamwasa/",
+    "https://www.hrw.org/news/2025/07/18/submission-to-the-universal-periodic-review-of-rwanda"
+  ],
+  "system_fingerprint": null,
+  "cache_key": "3ece59bb40dee4d8df9c8afed8b6b991f32a829bfbc2ac4d4b6011c54db04735"
+}

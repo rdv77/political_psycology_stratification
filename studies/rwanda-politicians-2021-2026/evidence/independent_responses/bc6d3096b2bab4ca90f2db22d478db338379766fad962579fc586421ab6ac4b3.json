@@ -1,0 +1,246 @@
+{
+  "data": {
+    "ratings": [
+      {
+        "variable_id": "programmatic-renewal__positive",
+        "status": "observed",
+        "value": 4,
+        "confidence": 0.95,
+        "support_type": "positive_manifestation",
+        "rationale": "Хабинеза неоднократно предлагал изменить существующие правила и приоритеты: отмена земельного налога, пересмотр регулирования добычи, отмена 30-дневного срока предварительного заключения, новые меры по школьному питанию, реформы в высшем образовании. Эти предложения повторяются в разных эпизодах и охватывают несколько сфер, что соответствует сильному повторяющемуся акценту на программных изменениях.",
+        "evidence_indices": [
+          0,
+          2,
+          3,
+          11,
+          12,
+          13
+        ]
+      },
+      {
+        "variable_id": "programmatic-renewal__negative",
+        "status": "observed",
+        "value": 1,
+        "confidence": 0.6,
+        "support_type": "positive_manifestation",
+        "rationale": "В риторике Хабинезы присутствует ссылка на прежние достижения и выполнение прошлых манифестов, что можно трактовать как единичное слабое проявление закрепления отдельных элементов прежнего курса, однако основной акцент на изменениях.",
+        "evidence_indices": [
+          1,
+          15,
+          16
+        ]
+      },
+      {
+        "variable_id": "government-course-assessment__positive",
+        "status": "unknown",
+        "value": null,
+        "confidence": 0.3,
+        "support_type": "unknown",
+        "rationale": "Нет прямых высказываний о поддержке действующего государственного курса в целом; ссылки на успехи партии не эквивалентны поддержке государственной политики.",
+        "evidence_indices": []
+      },
+      {
+        "variable_id": "government-course-assessment__negative",
+        "status": "observed",
+        "value": 2,
+        "confidence": 0.8,
+        "support_type": "positive_manifestation",
+        "rationale": "Программная критика отдельных элементов действующего курса (налогообложение, предварительное заключение, регулирование добычи) присутствует явно, но нет последовательной критики всего государственного порядка.",
+        "evidence_indices": [
+          0,
+          2,
+          11
+        ]
+      },
+      {
+        "variable_id": "participation-administrative-direction__positive",
+        "status": "observed",
+        "value": 3,
+        "confidence": 0.9,
+        "support_type": "positive_manifestation",
+        "rationale": "Хабинеза подчеркивал консультации по районам при подготовке манифеста, обсуждение приоритетов на партийных заседаниях, расширение участия через партийные структуры и призывы к инклюзивности выборов. Это несколько последовательных эпизодов с устойчивым акцентом на совместное обсуждение.",
+        "evidence_indices": [
+          0,
+          6,
+          9,
+          17,
+          19,
+          22
+        ]
+      },
+      {
+        "variable_id": "participation-administrative-direction__negative",
+        "status": "observed",
+        "value": 2,
+        "confidence": 0.7,
+        "support_type": "positive_manifestation",
+        "rationale": "В ряде программных предложений (например, единая система обращения с отходами, общенациональные стандарты школьного питания) прослеживается элемент административной постановки задач и координации исполнения, но это не основной акцент.",
+        "evidence_indices": [
+          12,
+          14
+        ]
+      },
+      {
+        "variable_id": "argumentation-evidence-values__positive",
+        "status": "observed",
+        "value": 2,
+        "confidence": 0.7,
+        "support_type": "positive_manifestation",
+        "rationale": "Хабинеза ссылается на измеримые результаты прежних манифестов, выполнение обещаний, а также на необходимость прозрачных проверок в добывающей отрасли. Это ограниченное, но явное использование данных и проверяемых результатов.",
+        "evidence_indices": [
+          1,
+          2,
+          15
+        ]
+      },
+      {
+        "variable_id": "argumentation-evidence-values__negative",
+        "status": "observed",
+        "value": 1,
+        "confidence": 0.5,
+        "support_type": "positive_manifestation",
+        "rationale": "В материалах встречаются отдельные обращения к ценностям (например, демократические выборы, отказ от насилия), но они не являются основным способом обоснования.",
+        "evidence_indices": [
+          25,
+          26
+        ]
+      },
+      {
+        "variable_id": "market-state-instruments__positive",
+        "status": "observed",
+        "value": 2,
+        "confidence": 0.7,
+        "support_type": "positive_manifestation",
+        "rationale": "В программе присутствуют предложения по созданию предпринимательского фонда для выпускников и расширению прав собственности на землю, что указывает на ограниченное продвижение частной инициативы.",
+        "evidence_indices": [
+          0,
+          13
+        ]
+      },
+      {
+        "variable_id": "market-state-instruments__negative",
+        "status": "observed",
+        "value": 3,
+        "confidence": 0.8,
+        "support_type": "positive_manifestation",
+        "rationale": "Предложения о введении общенациональных стандартов (школьное питание, централизованная обработка отходов), регулировании добычи и увеличении бюджетов на медстрахование указывают на устойчивый акцент на государственном планировании и обязательных правилах.",
+        "evidence_indices": [
+          2,
+          12,
+          14,
+          3
+        ]
+      },
+      {
+        "variable_id": "accessibility-growth-priorities__positive",
+        "status": "observed",
+        "value": 4,
+        "confidence": 0.95,
+        "support_type": "positive_manifestation",
+        "rationale": "Многократно заявлены меры по расширению доступности базовых благ: школьное питание, вода, здравоохранение, отмена земельного налога, повышение зарплат преподавателям, создание исследовательских центров в каждом районе. Это сильный повторяющийся акцент.",
+        "evidence_indices": [
+          0,
+          3,
+          12,
+          13
+        ]
+      },
+      {
+        "variable_id": "accessibility-growth-priorities__negative",
+        "status": "observed",
+        "value": 2,
+        "confidence": 0.6,
+        "support_type": "positive_manifestation",
+        "rationale": "В программе есть элементы поддержки роста инвестиций и предпринимательства (предпринимательский фонд, экономические меры), но основной акцент на доступности благ.",
+        "evidence_indices": [
+          0,
+          13
+        ]
+      },
+      {
+        "variable_id": "external-domestic-resources__positive",
+        "status": "unknown",
+        "value": null,
+        "confidence": 0.3,
+        "support_type": "unknown",
+        "rationale": "Нет прямых сведений о привлечении внешнего финансирования или ресурсных партнёров в анализируемых эпизодах.",
+        "evidence_indices": []
+      },
+      {
+        "variable_id": "external-domestic-resources__negative",
+        "status": "unknown",
+        "value": null,
+        "confidence": 0.3,
+        "support_type": "unknown",
+        "rationale": "Нет прямых заявлений о приоритете внутренних доходов или снижении зависимости от внешних поступлений.",
+        "evidence_indices": []
+      },
+      {
+        "variable_id": "international-rules-autonomy__positive",
+        "status": "unknown",
+        "value": null,
+        "confidence": 0.3,
+        "support_type": "unknown",
+        "rationale": "Нет прямых предложений о закреплении международных обязательств или норм.",
+        "evidence_indices": []
+      },
+      {
+        "variable_id": "international-rules-autonomy__negative",
+        "status": "observed",
+        "value": 2,
+        "confidence": 0.7,
+        "support_type": "positive_manifestation",
+        "rationale": "Публичный отказ от недемократических путей прихода к власти и акцент на национальных выборах указывает на ограниченное проявление защиты национальной самостоятельности решений.",
+        "evidence_indices": [
+          25,
+          26
+        ]
+      },
+      {
+        "variable_id": "mediation-adversarial-communication__positive",
+        "status": "observed",
+        "value": 2,
+        "confidence": 0.7,
+        "support_type": "positive_manifestation",
+        "rationale": "В риторике Хабинезы присутствует призыв к инклюзивности, признание результатов честных выборов и стремление к расширению участия, что соответствует ограниченному проявлению поиска согласования.",
+        "evidence_indices": [
+          9,
+          10
+        ]
+      },
+      {
+        "variable_id": "mediation-adversarial-communication__negative",
+        "status": "observed",
+        "value": 1,
+        "confidence": 0.5,
+        "support_type": "positive_manifestation",
+        "rationale": "Зафиксированы единичные эпизоды защиты собственной политической линии и результатов партии, но нет устойчивого акцента на полемике или конфронтации.",
+        "evidence_indices": [
+          16,
+          23
+        ]
+      }
+    ]
+  },
+  "model": "gpt-4.1",
+  "task": "independent-ratings-frank-habineza-0",
+  "at": "2026-10-15T17:31:39.747539+00:00",
+  "usage": {
+    "prompt_tokens": 9345,
+    "completion_tokens": 1630,
+    "total_tokens": 10975,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "audio_tokens": 0
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "audio_tokens": 0,
+      "accepted_prediction_tokens": 0,
+      "rejected_prediction_tokens": 0
+    }
+  },
+  "citations": [],
+  "system_fingerprint": "fp_801d3b7b5c",
+  "cache_key": "bc6d3096b2bab4ca90f2db22d478db338379766fad962579fc586421ab6ac4b3"
+}

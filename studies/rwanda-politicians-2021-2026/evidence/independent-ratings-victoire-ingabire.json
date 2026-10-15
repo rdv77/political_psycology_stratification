@@ -1,0 +1,1922 @@
+[
+  {
+    "object_id": "victoire-ingabire",
+    "scale_id": "programmatic-renewal",
+    "pole_scores": {
+      "positive": {
+        "status": "observed",
+        "value": 5,
+        "confidence": 1.0,
+        "evidence_indices": [
+          13,
+          14,
+          15,
+          16,
+          18,
+          19,
+          20,
+          21,
+          22,
+          23,
+          24
+        ],
+        "source_urls": [
+          "https://www.victoireingabire.com/",
+          "https://www.aljazeera.com/author/victoire-ingabire-umuhoza",
+          "https://www.aljazeera.com/opinions/2022/4/20/my-story-being-an-opposition-figure-in-rwanda",
+          "https://storage.googleapis.com/qurium/theelephant.info/2023-01-27-education-in-rwanda-a-long-walk-to-the-knowledge-economy.html",
+          "https://africanarguments.org/2023/04/rwanda-too-needs-to-make-amends/",
+          "https://www.theelephant.info/opinion/2023/06/23/hate-speech-rwanda-must-not-fall-back-into-the-pre-genocide-trap/"
+        ],
+        "event_ids": [
+          "vi-2025-policy-platform",
+          "vi-2025-great-lakes-dialogue",
+          "VI-2022-04-20-01",
+          "VI-2023-01-27-01",
+          "VI-2023-03-24-01",
+          "VI-2023-04-25-01",
+          "VI-2023-06-23-01"
+        ],
+        "rationale": "Ингабире неоднократно и последовательно предлагала институциональные реформы, инклюзивный диалог, демократизацию, расширение политического пространства, реформу правосудия и смену власти мирным путём. Это подтверждается программными заявлениями, публичными статьями и платформой, охватывающими весь период.",
+        "support_type": "positive_manifestation",
+        "provenance": {
+          "raw_response_file": "evidence/independent_responses/86035b321e4d472d1b98fcb441dcd1d7af173e54c85671017395c7577d0a3bcd.json",
+          "model": "gpt-4.1",
+          "at": "2026-10-15T17:31:51.276031+00:00",
+          "cache_key": "86035b321e4d472d1b98fcb441dcd1d7af173e54c85671017395c7577d0a3bcd",
+          "original_proposal": {
+            "variable_id": "programmatic-renewal__positive",
+            "status": "observed",
+            "value": 5,
+            "confidence": 1,
+            "support_type": "positive_manifestation",
+            "rationale": "Ингабире неоднократно и последовательно предлагала институциональные реформы, инклюзивный диалог, демократизацию, расширение политического пространства, реформу правосудия и смену власти мирным путём. Это подтверждается программными заявлениями, публичными статьями и платформой, охватывающими весь период.",
+            "evidence_indices": [
+              13,
+              14,
+              15,
+              16,
+              18,
+              19,
+              20,
+              21,
+              22,
+              23,
+              24
+            ]
+          }
+        },
+        "evidence_file": "evidence/independent-dossier-victoire-ingabire.json",
+        "evidence_basis": "ea0d1f731f5541911dff7214f16e55b8bcbd8a28b5737f8455a417ab8b360b6b"
+      },
+      "negative": {
+        "status": "observed",
+        "value": 0,
+        "confidence": 1.0,
+        "evidence_indices": [
+          13,
+          14,
+          15,
+          16,
+          18,
+          19,
+          20,
+          21,
+          22,
+          23,
+          24
+        ],
+        "source_urls": [
+          "https://www.victoireingabire.com/",
+          "https://www.aljazeera.com/author/victoire-ingabire-umuhoza",
+          "https://www.aljazeera.com/opinions/2022/4/20/my-story-being-an-opposition-figure-in-rwanda",
+          "https://storage.googleapis.com/qurium/theelephant.info/2023-01-27-education-in-rwanda-a-long-walk-to-the-knowledge-economy.html",
+          "https://africanarguments.org/2023/04/rwanda-too-needs-to-make-amends/",
+          "https://www.theelephant.info/opinion/2023/06/23/hate-speech-rwanda-must-not-fall-back-into-the-pre-genocide-trap/"
+        ],
+        "event_ids": [
+          "vi-2025-policy-platform",
+          "vi-2025-great-lakes-dialogue",
+          "VI-2022-04-20-01",
+          "VI-2023-01-27-01",
+          "VI-2023-03-24-01",
+          "VI-2023-04-25-01",
+          "VI-2023-06-23-01"
+        ],
+        "rationale": "В публичных заявлениях и программе Ингабире отсутствуют призывы к продолжению или закреплению действующего курса; напротив, она прямо противопоставляет себя существующей политике.",
+        "support_type": "explicit_absence",
+        "provenance": {
+          "raw_response_file": "evidence/independent_responses/86035b321e4d472d1b98fcb441dcd1d7af173e54c85671017395c7577d0a3bcd.json",
+          "model": "gpt-4.1",
+          "at": "2026-10-15T17:31:51.276031+00:00",
+          "cache_key": "86035b321e4d472d1b98fcb441dcd1d7af173e54c85671017395c7577d0a3bcd",
+          "original_proposal": {
+            "variable_id": "programmatic-renewal__negative",
+            "status": "observed",
+            "value": 0,
+            "confidence": 1,
+            "support_type": "explicit_absence",
+            "rationale": "В публичных заявлениях и программе Ингабире отсутствуют призывы к продолжению или закреплению действующего курса; напротив, она прямо противопоставляет себя существующей политике.",
+            "evidence_indices": [
+              13,
+              14,
+              15,
+              16,
+              18,
+              19,
+              20,
+              21,
+              22,
+              23,
+              24
+            ]
+          }
+        },
+        "evidence_file": "evidence/independent-dossier-victoire-ingabire.json",
+        "evidence_basis": "ea0d1f731f5541911dff7214f16e55b8bcbd8a28b5737f8455a417ab8b360b6b"
+      }
+    },
+    "positive": 5,
+    "negative": 0,
+    "value": null,
+    "status": "observed",
+    "difference": null,
+    "mass": null,
+    "measurement_model": "independent_poles",
+    "evidence_file": "evidence/independent-dossier-victoire-ingabire.json",
+    "evidence_basis": "ea0d1f731f5541911dff7214f16e55b8bcbd8a28b5737f8455a417ab8b360b6b",
+    "at": "2026-10-15T17:32:00.228562+00:00",
+    "reason": "Каждое свойство оценивается независимо; разность и искусственное дополнение до пяти не вычисляются"
+  },
+  {
+    "object_id": "victoire-ingabire",
+    "scale_id": "government-course-assessment",
+    "pole_scores": {
+      "positive": {
+        "status": "observed",
+        "value": 0,
+        "confidence": 1.0,
+        "evidence_indices": [
+          2,
+          13,
+          19,
+          20,
+          21,
+          23
+        ],
+        "source_urls": [
+          "https://www.bbc.com/news/world-africa-68552517",
+          "https://www.victoireingabire.com/",
+          "https://www.aljazeera.com/opinions/2022/4/20/my-story-being-an-opposition-figure-in-rwanda",
+          "https://storage.googleapis.com/qurium/theelephant.info/2023-01-27-education-in-rwanda-a-long-walk-to-the-knowledge-economy.html",
+          "https://africanarguments.org/2023/04/rwanda-too-needs-to-make-amends/"
+        ],
+        "event_ids": [
+          "vi-2024-rehabilitation-refusal",
+          "vi-2025-policy-platform",
+          "VI-2022-04-20-01",
+          "VI-2023-01-27-01",
+          "VI-2023-04-25-01"
+        ],
+        "rationale": "Нет оснований считать, что Ингабире публично поддерживала действующий государственный курс; её заявления и программа содержат системную критику.",
+        "support_type": "explicit_absence",
+        "provenance": {
+          "raw_response_file": "evidence/independent_responses/86035b321e4d472d1b98fcb441dcd1d7af173e54c85671017395c7577d0a3bcd.json",
+          "model": "gpt-4.1",
+          "at": "2026-10-15T17:31:51.276031+00:00",
+          "cache_key": "86035b321e4d472d1b98fcb441dcd1d7af173e54c85671017395c7577d0a3bcd",
+          "original_proposal": {
+            "variable_id": "government-course-assessment__positive",
+            "status": "observed",
+            "value": 0,
+            "confidence": 1,
+            "support_type": "explicit_absence",
+            "rationale": "Нет оснований считать, что Ингабире публично поддерживала действующий государственный курс; её заявления и программа содержат системную критику.",
+            "evidence_indices": [
+              2,
+              13,
+              19,
+              20,
+              21,
+              23
+            ]
+          }
+        },
+        "evidence_file": "evidence/independent-dossier-victoire-ingabire.json",
+        "evidence_basis": "ea0d1f731f5541911dff7214f16e55b8bcbd8a28b5737f8455a417ab8b360b6b"
+      },
+      "negative": {
+        "status": "observed",
+        "value": 5,
+        "confidence": 1.0,
+        "evidence_indices": [
+          2,
+          13,
+          19,
+          20,
+          21,
+          22,
+          23,
+          24,
+          25
+        ],
+        "source_urls": [
+          "https://www.bbc.com/news/world-africa-68552517",
+          "https://www.victoireingabire.com/",
+          "https://www.aljazeera.com/opinions/2022/4/20/my-story-being-an-opposition-figure-in-rwanda",
+          "https://storage.googleapis.com/qurium/theelephant.info/2023-01-27-education-in-rwanda-a-long-walk-to-the-knowledge-economy.html",
+          "https://www.aljazeera.com/author/victoire-ingabire-umuhoza",
+          "https://africanarguments.org/2023/04/rwanda-too-needs-to-make-amends/",
+          "https://www.theelephant.info/opinion/2023/06/23/hate-speech-rwanda-must-not-fall-back-into-the-pre-genocide-trap/",
+          "https://english.elpais.com/international/2024-04-08/rwanda-30-years-on-from-genocide-security-cleanliness-modernity-and-a-heavy-hand.html"
+        ],
+        "event_ids": [
+          "vi-2024-rehabilitation-refusal",
+          "vi-2025-policy-platform",
+          "VI-2022-04-20-01",
+          "VI-2023-01-27-01",
+          "VI-2023-03-24-01",
+          "VI-2023-04-25-01",
+          "VI-2023-06-23-01",
+          "VI-2023-06-01"
+        ],
+        "rationale": "Ингабире системно и последовательно критикует действующий государственный курс, ограничение политического пространства, проблемы с верховенством права, расследованием преступлений и развитием образования.",
+        "support_type": "positive_manifestation",
+        "provenance": {
+          "raw_response_file": "evidence/independent_responses/86035b321e4d472d1b98fcb441dcd1d7af173e54c85671017395c7577d0a3bcd.json",
+          "model": "gpt-4.1",
+          "at": "2026-10-15T17:31:51.276031+00:00",
+          "cache_key": "86035b321e4d472d1b98fcb441dcd1d7af173e54c85671017395c7577d0a3bcd",
+          "original_proposal": {
+            "variable_id": "government-course-assessment__negative",
+            "status": "observed",
+            "value": 5,
+            "confidence": 1,
+            "support_type": "positive_manifestation",
+            "rationale": "Ингабире системно и последовательно критикует действующий государственный курс, ограничение политического пространства, проблемы с верховенством права, расследованием преступлений и развитием образования.",
+            "evidence_indices": [
+              2,
+              13,
+              19,
+              20,
+              21,
+              22,
+              23,
+              24,
+              25
+            ]
+          }
+        },
+        "evidence_file": "evidence/independent-dossier-victoire-ingabire.json",
+        "evidence_basis": "ea0d1f731f5541911dff7214f16e55b8bcbd8a28b5737f8455a417ab8b360b6b"
+      }
+    },
+    "positive": 0,
+    "negative": 5,
+    "value": null,
+    "status": "observed",
+    "difference": null,
+    "mass": null,
+    "measurement_model": "independent_poles",
+    "evidence_file": "evidence/independent-dossier-victoire-ingabire.json",
+    "evidence_basis": "ea0d1f731f5541911dff7214f16e55b8bcbd8a28b5737f8455a417ab8b360b6b",
+    "at": "2026-10-15T17:32:00.228562+00:00",
+    "reason": "Каждое свойство оценивается независимо; разность и искусственное дополнение до пяти не вычисляются"
+  },
+  {
+    "object_id": "victoire-ingabire",
+    "scale_id": "participation-administrative-direction",
+    "pole_scores": {
+      "positive": {
+        "status": "observed",
+        "value": 5,
+        "confidence": 1.0,
+        "evidence_indices": [
+          13,
+          15,
+          18,
+          19,
+          24
+        ],
+        "source_urls": [
+          "https://www.victoireingabire.com/",
+          "https://www.aljazeera.com/author/victoire-ingabire-umuhoza",
+          "https://www.theelephant.info/opinion/2023/06/23/hate-speech-rwanda-must-not-fall-back-into-the-pre-genocide-trap/"
+        ],
+        "event_ids": [
+          "vi-2025-policy-platform",
+          "vi-2025-great-lakes-dialogue",
+          "VI-2023-06-23-01"
+        ],
+        "rationale": "Ингабире последовательно выступает за инклюзивный диалог, децентрализацию, подотчётность, расширение участия граждан и создание комиссий по примирению.",
+        "support_type": "positive_manifestation",
+        "provenance": {
+          "raw_response_file": "evidence/independent_responses/86035b321e4d472d1b98fcb441dcd1d7af173e54c85671017395c7577d0a3bcd.json",
+          "model": "gpt-4.1",
+          "at": "2026-10-15T17:31:51.276031+00:00",
+          "cache_key": "86035b321e4d472d1b98fcb441dcd1d7af173e54c85671017395c7577d0a3bcd",
+          "original_proposal": {
+            "variable_id": "participation-administrative-direction__positive",
+            "status": "observed",
+            "value": 5,
+            "confidence": 1,
+            "support_type": "positive_manifestation",
+            "rationale": "Ингабире последовательно выступает за инклюзивный диалог, децентрализацию, подотчётность, расширение участия граждан и создание комиссий по примирению.",
+            "evidence_indices": [
+              13,
+              15,
+              18,
+              19,
+              24
+            ]
+          }
+        },
+        "evidence_file": "evidence/independent-dossier-victoire-ingabire.json",
+        "evidence_basis": "ea0d1f731f5541911dff7214f16e55b8bcbd8a28b5737f8455a417ab8b360b6b"
+      },
+      "negative": {
+        "status": "observed",
+        "value": 0,
+        "confidence": 1.0,
+        "evidence_indices": [
+          13,
+          15,
+          18
+        ],
+        "source_urls": [
+          "https://www.victoireingabire.com/",
+          "https://www.aljazeera.com/author/victoire-ingabire-umuhoza"
+        ],
+        "event_ids": [
+          "vi-2025-policy-platform",
+          "vi-2025-great-lakes-dialogue"
+        ],
+        "rationale": "В найденных материалах отсутствуют призывы к административному управлению, централизованному контролю или единой линии исполнения.",
+        "support_type": "explicit_absence",
+        "provenance": {
+          "raw_response_file": "evidence/independent_responses/86035b321e4d472d1b98fcb441dcd1d7af173e54c85671017395c7577d0a3bcd.json",
+          "model": "gpt-4.1",
+          "at": "2026-10-15T17:31:51.276031+00:00",
+          "cache_key": "86035b321e4d472d1b98fcb441dcd1d7af173e54c85671017395c7577d0a3bcd",
+          "original_proposal": {
+            "variable_id": "participation-administrative-direction__negative",
+            "status": "observed",
+            "value": 0,
+            "confidence": 1,
+            "support_type": "explicit_absence",
+            "rationale": "В найденных материалах отсутствуют призывы к административному управлению, централизованному контролю или единой линии исполнения.",
+            "evidence_indices": [
+              13,
+              15,
+              18
+            ]
+          }
+        },
+        "evidence_file": "evidence/independent-dossier-victoire-ingabire.json",
+        "evidence_basis": "ea0d1f731f5541911dff7214f16e55b8bcbd8a28b5737f8455a417ab8b360b6b"
+      }
+    },
+    "positive": 5,
+    "negative": 0,
+    "value": null,
+    "status": "observed",
+    "difference": null,
+    "mass": null,
+    "measurement_model": "independent_poles",
+    "evidence_file": "evidence/independent-dossier-victoire-ingabire.json",
+    "evidence_basis": "ea0d1f731f5541911dff7214f16e55b8bcbd8a28b5737f8455a417ab8b360b6b",
+    "at": "2026-10-15T17:32:00.228562+00:00",
+    "reason": "Каждое свойство оценивается независимо; разность и искусственное дополнение до пяти не вычисляются"
+  },
+  {
+    "object_id": "victoire-ingabire",
+    "scale_id": "argumentation-evidence-values",
+    "pole_scores": {
+      "positive": {
+        "status": "observed",
+        "value": 1,
+        "confidence": 0.7,
+        "evidence_indices": [
+          21
+        ],
+        "source_urls": [
+          "https://storage.googleapis.com/qurium/theelephant.info/2023-01-27-education-in-rwanda-a-long-walk-to-the-knowledge-economy.html"
+        ],
+        "event_ids": [
+          "VI-2023-01-27-01"
+        ],
+        "rationale": "В ряде материалов Ингабире ссылается на необходимость инвестиций в образование и развитие человеческого капитала, однако количественные данные или расчёты используются ограниченно.",
+        "support_type": "positive_manifestation",
+        "provenance": {
+          "raw_response_file": "evidence/independent_responses/86035b321e4d472d1b98fcb441dcd1d7af173e54c85671017395c7577d0a3bcd.json",
+          "model": "gpt-4.1",
+          "at": "2026-10-15T17:31:51.276031+00:00",
+          "cache_key": "86035b321e4d472d1b98fcb441dcd1d7af173e54c85671017395c7577d0a3bcd",
+          "original_proposal": {
+            "variable_id": "argumentation-evidence-values__positive",
+            "status": "observed",
+            "value": 1,
+            "confidence": 0.7,
+            "support_type": "positive_manifestation",
+            "rationale": "В ряде материалов Ингабире ссылается на необходимость инвестиций в образование и развитие человеческого капитала, однако количественные данные или расчёты используются ограниченно.",
+            "evidence_indices": [
+              21
+            ]
+          }
+        },
+        "evidence_file": "evidence/independent-dossier-victoire-ingabire.json",
+        "evidence_basis": "ea0d1f731f5541911dff7214f16e55b8bcbd8a28b5737f8455a417ab8b360b6b"
+      },
+      "negative": {
+        "status": "observed",
+        "value": 4,
+        "confidence": 1.0,
+        "evidence_indices": [
+          14,
+          22,
+          23,
+          24
+        ],
+        "source_urls": [
+          "https://www.victoireingabire.com/",
+          "https://www.aljazeera.com/author/victoire-ingabire-umuhoza",
+          "https://africanarguments.org/2023/04/rwanda-too-needs-to-make-amends/",
+          "https://www.theelephant.info/opinion/2023/06/23/hate-speech-rwanda-must-not-fall-back-into-the-pre-genocide-trap/"
+        ],
+        "event_ids": [
+          "vi-2025-policy-platform",
+          "VI-2023-03-24-01",
+          "VI-2023-04-25-01",
+          "VI-2023-06-23-01"
+        ],
+        "rationale": "В программных и публичных заявлениях Ингабире часто использует ценностные и исторические аргументы: примирение, признание всех жертв, историческая ответственность, верховенство права.",
+        "support_type": "positive_manifestation",
+        "provenance": {
+          "raw_response_file": "evidence/independent_responses/86035b321e4d472d1b98fcb441dcd1d7af173e54c85671017395c7577d0a3bcd.json",
+          "model": "gpt-4.1",
+          "at": "2026-10-15T17:31:51.276031+00:00",
+          "cache_key": "86035b321e4d472d1b98fcb441dcd1d7af173e54c85671017395c7577d0a3bcd",
+          "original_proposal": {
+            "variable_id": "argumentation-evidence-values__negative",
+            "status": "observed",
+            "value": 4,
+            "confidence": 1,
+            "support_type": "positive_manifestation",
+            "rationale": "В программных и публичных заявлениях Ингабире часто использует ценностные и исторические аргументы: примирение, признание всех жертв, историческая ответственность, верховенство права.",
+            "evidence_indices": [
+              14,
+              22,
+              23,
+              24
+            ]
+          }
+        },
+        "evidence_file": "evidence/independent-dossier-victoire-ingabire.json",
+        "evidence_basis": "ea0d1f731f5541911dff7214f16e55b8bcbd8a28b5737f8455a417ab8b360b6b"
+      }
+    },
+    "positive": 1,
+    "negative": 4,
+    "value": null,
+    "status": "observed",
+    "difference": null,
+    "mass": null,
+    "measurement_model": "independent_poles",
+    "evidence_file": "evidence/independent-dossier-victoire-ingabire.json",
+    "evidence_basis": "ea0d1f731f5541911dff7214f16e55b8bcbd8a28b5737f8455a417ab8b360b6b",
+    "at": "2026-10-15T17:32:00.228562+00:00",
+    "reason": "Каждое свойство оценивается независимо; разность и искусственное дополнение до пяти не вычисляются"
+  },
+  {
+    "object_id": "victoire-ingabire",
+    "scale_id": "market-state-instruments",
+    "pole_scores": {
+      "positive": {
+        "status": "observed",
+        "value": 3,
+        "confidence": 0.9,
+        "evidence_indices": [
+          16,
+          17
+        ],
+        "source_urls": [
+          "https://www.victoireingabire.com/"
+        ],
+        "event_ids": [
+          "vi-2025-policy-platform"
+        ],
+        "rationale": "Ингабире предлагает законы, ограничивающие участие государства и партий в бизнесе, и подчёркивает роль частного сектора и инвестиций как внутренних, так и иностранных.",
+        "support_type": "positive_manifestation",
+        "provenance": {
+          "raw_response_file": "evidence/independent_responses/86035b321e4d472d1b98fcb441dcd1d7af173e54c85671017395c7577d0a3bcd.json",
+          "model": "gpt-4.1",
+          "at": "2026-10-15T17:31:51.276031+00:00",
+          "cache_key": "86035b321e4d472d1b98fcb441dcd1d7af173e54c85671017395c7577d0a3bcd",
+          "original_proposal": {
+            "variable_id": "market-state-instruments__positive",
+            "status": "observed",
+            "value": 3,
+            "confidence": 0.9,
+            "support_type": "positive_manifestation",
+            "rationale": "Ингабире предлагает законы, ограничивающие участие государства и партий в бизнесе, и подчёркивает роль частного сектора и инвестиций как внутренних, так и иностранных.",
+            "evidence_indices": [
+              16,
+              17
+            ]
+          }
+        },
+        "evidence_file": "evidence/independent-dossier-victoire-ingabire.json",
+        "evidence_basis": "ea0d1f731f5541911dff7214f16e55b8bcbd8a28b5737f8455a417ab8b360b6b"
+      },
+      "negative": {
+        "status": "observed",
+        "value": 2,
+        "confidence": 0.8,
+        "evidence_indices": [
+          16
+        ],
+        "source_urls": [
+          "https://www.victoireingabire.com/"
+        ],
+        "event_ids": [
+          "vi-2025-policy-platform"
+        ],
+        "rationale": "В программе содержится предложение о государственных инвестициях в производительные отрасли и регулировании участия правительства в экономике, что указывает на сочетание инструментов.",
+        "support_type": "positive_manifestation",
+        "provenance": {
+          "raw_response_file": "evidence/independent_responses/86035b321e4d472d1b98fcb441dcd1d7af173e54c85671017395c7577d0a3bcd.json",
+          "model": "gpt-4.1",
+          "at": "2026-10-15T17:31:51.276031+00:00",
+          "cache_key": "86035b321e4d472d1b98fcb441dcd1d7af173e54c85671017395c7577d0a3bcd",
+          "original_proposal": {
+            "variable_id": "market-state-instruments__negative",
+            "status": "observed",
+            "value": 2,
+            "confidence": 0.8,
+            "support_type": "positive_manifestation",
+            "rationale": "В программе содержится предложение о государственных инвестициях в производительные отрасли и регулировании участия правительства в экономике, что указывает на сочетание инструментов.",
+            "evidence_indices": [
+              16
+            ]
+          }
+        },
+        "evidence_file": "evidence/independent-dossier-victoire-ingabire.json",
+        "evidence_basis": "ea0d1f731f5541911dff7214f16e55b8bcbd8a28b5737f8455a417ab8b360b6b"
+      }
+    },
+    "positive": 3,
+    "negative": 2,
+    "value": null,
+    "status": "observed",
+    "difference": null,
+    "mass": null,
+    "measurement_model": "independent_poles",
+    "evidence_file": "evidence/independent-dossier-victoire-ingabire.json",
+    "evidence_basis": "ea0d1f731f5541911dff7214f16e55b8bcbd8a28b5737f8455a417ab8b360b6b",
+    "at": "2026-10-15T17:32:00.228562+00:00",
+    "reason": "Каждое свойство оценивается независимо; разность и искусственное дополнение до пяти не вычисляются"
+  },
+  {
+    "object_id": "victoire-ingabire",
+    "scale_id": "accessibility-growth-priorities",
+    "pole_scores": {
+      "positive": {
+        "status": "observed",
+        "value": 4,
+        "confidence": 1.0,
+        "evidence_indices": [
+          16,
+          19,
+          21
+        ],
+        "source_urls": [
+          "https://www.victoireingabire.com/",
+          "https://storage.googleapis.com/qurium/theelephant.info/2023-01-27-education-in-rwanda-a-long-walk-to-the-knowledge-economy.html"
+        ],
+        "event_ids": [
+          "vi-2025-policy-platform",
+          "VI-2023-01-27-01"
+        ],
+        "rationale": "Ингабире подчёркивает приоритет удовлетворения базовых потребностей населения, доступ к образованию, правосудию и политическому участию.",
+        "support_type": "positive_manifestation",
+        "provenance": {
+          "raw_response_file": "evidence/independent_responses/86035b321e4d472d1b98fcb441dcd1d7af173e54c85671017395c7577d0a3bcd.json",
+          "model": "gpt-4.1",
+          "at": "2026-10-15T17:31:51.276031+00:00",
+          "cache_key": "86035b321e4d472d1b98fcb441dcd1d7af173e54c85671017395c7577d0a3bcd",
+          "original_proposal": {
+            "variable_id": "accessibility-growth-priorities__positive",
+            "status": "observed",
+            "value": 4,
+            "confidence": 1,
+            "support_type": "positive_manifestation",
+            "rationale": "Ингабире подчёркивает приоритет удовлетворения базовых потребностей населения, доступ к образованию, правосудию и политическому участию.",
+            "evidence_indices": [
+              16,
+              19,
+              21
+            ]
+          }
+        },
+        "evidence_file": "evidence/independent-dossier-victoire-ingabire.json",
+        "evidence_basis": "ea0d1f731f5541911dff7214f16e55b8bcbd8a28b5737f8455a417ab8b360b6b"
+      },
+      "negative": {
+        "status": "observed",
+        "value": 3,
+        "confidence": 0.9,
+        "evidence_indices": [
+          16,
+          17,
+          21
+        ],
+        "source_urls": [
+          "https://www.victoireingabire.com/",
+          "https://storage.googleapis.com/qurium/theelephant.info/2023-01-27-education-in-rwanda-a-long-walk-to-the-knowledge-economy.html"
+        ],
+        "event_ids": [
+          "vi-2025-policy-platform",
+          "VI-2023-01-27-01"
+        ],
+        "rationale": "В программе и публичных заявлениях Ингабире также отмечает важность роста инвестиций, конкурентоспособности и привлечения капитала для развития страны.",
+        "support_type": "positive_manifestation",
+        "provenance": {
+          "raw_response_file": "evidence/independent_responses/86035b321e4d472d1b98fcb441dcd1d7af173e54c85671017395c7577d0a3bcd.json",
+          "model": "gpt-4.1",
+          "at": "2026-10-15T17:31:51.276031+00:00",
+          "cache_key": "86035b321e4d472d1b98fcb441dcd1d7af173e54c85671017395c7577d0a3bcd",
+          "original_proposal": {
+            "variable_id": "accessibility-growth-priorities__negative",
+            "status": "observed",
+            "value": 3,
+            "confidence": 0.9,
+            "support_type": "positive_manifestation",
+            "rationale": "В программе и публичных заявлениях Ингабире также отмечает важность роста инвестиций, конкурентоспособности и привлечения капитала для развития страны.",
+            "evidence_indices": [
+              16,
+              17,
+              21
+            ]
+          }
+        },
+        "evidence_file": "evidence/independent-dossier-victoire-ingabire.json",
+        "evidence_basis": "ea0d1f731f5541911dff7214f16e55b8bcbd8a28b5737f8455a417ab8b360b6b"
+      }
+    },
+    "positive": 4,
+    "negative": 3,
+    "value": null,
+    "status": "observed",
+    "difference": null,
+    "mass": null,
+    "measurement_model": "independent_poles",
+    "evidence_file": "evidence/independent-dossier-victoire-ingabire.json",
+    "evidence_basis": "ea0d1f731f5541911dff7214f16e55b8bcbd8a28b5737f8455a417ab8b360b6b",
+    "at": "2026-10-15T17:32:00.228562+00:00",
+    "reason": "Каждое свойство оценивается независимо; разность и искусственное дополнение до пяти не вычисляются"
+  },
+  {
+    "object_id": "victoire-ingabire",
+    "scale_id": "external-domestic-resources",
+    "pole_scores": {
+      "positive": {
+        "status": "observed",
+        "value": 2,
+        "confidence": 0.7,
+        "evidence_indices": [
+          17
+        ],
+        "source_urls": [
+          "https://www.victoireingabire.com/"
+        ],
+        "event_ids": [
+          "vi-2025-policy-platform"
+        ],
+        "rationale": "Ингабире программно поддерживает привлечение иностранных инвестиций, однако конкретных реализованных соглашений или проектов не выявлено.",
+        "support_type": "positive_manifestation",
+        "provenance": {
+          "raw_response_file": "evidence/independent_responses/86035b321e4d472d1b98fcb441dcd1d7af173e54c85671017395c7577d0a3bcd.json",
+          "model": "gpt-4.1",
+          "at": "2026-10-15T17:31:51.276031+00:00",
+          "cache_key": "86035b321e4d472d1b98fcb441dcd1d7af173e54c85671017395c7577d0a3bcd",
+          "original_proposal": {
+            "variable_id": "external-domestic-resources__positive",
+            "status": "observed",
+            "value": 2,
+            "confidence": 0.7,
+            "support_type": "positive_manifestation",
+            "rationale": "Ингабире программно поддерживает привлечение иностранных инвестиций, однако конкретных реализованных соглашений или проектов не выявлено.",
+            "evidence_indices": [
+              17
+            ]
+          }
+        },
+        "evidence_file": "evidence/independent-dossier-victoire-ingabire.json",
+        "evidence_basis": "ea0d1f731f5541911dff7214f16e55b8bcbd8a28b5737f8455a417ab8b360b6b"
+      },
+      "negative": {
+        "status": "observed",
+        "value": 2,
+        "confidence": 0.7,
+        "evidence_indices": [
+          17
+        ],
+        "source_urls": [
+          "https://www.victoireingabire.com/"
+        ],
+        "event_ids": [
+          "vi-2025-policy-platform"
+        ],
+        "rationale": "В программе Ингабире также подчёркивает роль внутренних инвестиций и самостоятельности, однако не делает это единственным приоритетом.",
+        "support_type": "positive_manifestation",
+        "provenance": {
+          "raw_response_file": "evidence/independent_responses/86035b321e4d472d1b98fcb441dcd1d7af173e54c85671017395c7577d0a3bcd.json",
+          "model": "gpt-4.1",
+          "at": "2026-10-15T17:31:51.276031+00:00",
+          "cache_key": "86035b321e4d472d1b98fcb441dcd1d7af173e54c85671017395c7577d0a3bcd",
+          "original_proposal": {
+            "variable_id": "external-domestic-resources__negative",
+            "status": "observed",
+            "value": 2,
+            "confidence": 0.7,
+            "support_type": "positive_manifestation",
+            "rationale": "В программе Ингабире также подчёркивает роль внутренних инвестиций и самостоятельности, однако не делает это единственным приоритетом.",
+            "evidence_indices": [
+              17
+            ]
+          }
+        },
+        "evidence_file": "evidence/independent-dossier-victoire-ingabire.json",
+        "evidence_basis": "ea0d1f731f5541911dff7214f16e55b8bcbd8a28b5737f8455a417ab8b360b6b"
+      }
+    },
+    "positive": 2,
+    "negative": 2,
+    "value": null,
+    "status": "observed",
+    "difference": null,
+    "mass": null,
+    "measurement_model": "independent_poles",
+    "evidence_file": "evidence/independent-dossier-victoire-ingabire.json",
+    "evidence_basis": "ea0d1f731f5541911dff7214f16e55b8bcbd8a28b5737f8455a417ab8b360b6b",
+    "at": "2026-10-15T17:32:00.228562+00:00",
+    "reason": "Каждое свойство оценивается независимо; разность и искусственное дополнение до пяти не вычисляются"
+  },
+  {
+    "object_id": "victoire-ingabire",
+    "scale_id": "international-rules-autonomy",
+    "pole_scores": {
+      "positive": {
+        "status": "unknown",
+        "value": null,
+        "confidence": 0,
+        "evidence_indices": [],
+        "source_urls": [],
+        "event_ids": [],
+        "rationale": "В найденных материалах отсутствуют прямые предложения о закреплении обязательных международных норм или договоров.",
+        "support_type": "unknown",
+        "provenance": {
+          "raw_response_file": "evidence/independent_responses/86035b321e4d472d1b98fcb441dcd1d7af173e54c85671017395c7577d0a3bcd.json",
+          "model": "gpt-4.1",
+          "at": "2026-10-15T17:31:51.276031+00:00",
+          "cache_key": "86035b321e4d472d1b98fcb441dcd1d7af173e54c85671017395c7577d0a3bcd",
+          "original_proposal": {
+            "variable_id": "international-rules-autonomy__positive",
+            "status": "unknown",
+            "value": null,
+            "confidence": 0,
+            "support_type": "unknown",
+            "rationale": "В найденных материалах отсутствуют прямые предложения о закреплении обязательных международных норм или договоров.",
+            "evidence_indices": []
+          }
+        },
+        "evidence_file": "evidence/independent-dossier-victoire-ingabire.json",
+        "evidence_basis": "ea0d1f731f5541911dff7214f16e55b8bcbd8a28b5737f8455a417ab8b360b6b"
+      },
+      "negative": {
+        "status": "unknown",
+        "value": null,
+        "confidence": 0,
+        "evidence_indices": [],
+        "source_urls": [],
+        "event_ids": [],
+        "rationale": "Нет прямых заявлений о защите национальной самостоятельности решений в противовес международным обязательствам.",
+        "support_type": "unknown",
+        "provenance": {
+          "raw_response_file": "evidence/independent_responses/86035b321e4d472d1b98fcb441dcd1d7af173e54c85671017395c7577d0a3bcd.json",
+          "model": "gpt-4.1",
+          "at": "2026-10-15T17:31:51.276031+00:00",
+          "cache_key": "86035b321e4d472d1b98fcb441dcd1d7af173e54c85671017395c7577d0a3bcd",
+          "original_proposal": {
+            "variable_id": "international-rules-autonomy__negative",
+            "status": "unknown",
+            "value": null,
+            "confidence": 0,
+            "support_type": "unknown",
+            "rationale": "Нет прямых заявлений о защите национальной самостоятельности решений в противовес международным обязательствам.",
+            "evidence_indices": []
+          }
+        },
+        "evidence_file": "evidence/independent-dossier-victoire-ingabire.json",
+        "evidence_basis": "ea0d1f731f5541911dff7214f16e55b8bcbd8a28b5737f8455a417ab8b360b6b"
+      }
+    },
+    "positive": null,
+    "negative": null,
+    "value": null,
+    "status": "unknown",
+    "difference": null,
+    "mass": null,
+    "measurement_model": "independent_poles",
+    "evidence_file": "evidence/independent-dossier-victoire-ingabire.json",
+    "evidence_basis": "ea0d1f731f5541911dff7214f16e55b8bcbd8a28b5737f8455a417ab8b360b6b",
+    "at": "2026-10-15T17:32:00.228562+00:00",
+    "reason": "Каждое свойство оценивается независимо; разность и искусственное дополнение до пяти не вычисляются"
+  },
+  {
+    "object_id": "victoire-ingabire",
+    "scale_id": "mediation-adversarial-communication",
+    "pole_scores": {
+      "positive": {
+        "status": "observed",
+        "value": 4,
+        "confidence": 1.0,
+        "evidence_indices": [
+          13,
+          14,
+          18,
+          24
+        ],
+        "source_urls": [
+          "https://www.victoireingabire.com/",
+          "https://www.aljazeera.com/author/victoire-ingabire-umuhoza",
+          "https://www.theelephant.info/opinion/2023/06/23/hate-speech-rwanda-must-not-fall-back-into-the-pre-genocide-trap/"
+        ],
+        "event_ids": [
+          "vi-2025-policy-platform",
+          "vi-2025-great-lakes-dialogue",
+          "VI-2023-06-23-01"
+        ],
+        "rationale": "Ингабире неоднократно выступала за инклюзивный диалог, переговоры, учёт интересов разных групп, создание комиссий по примирению и мирное согласование позиций.",
+        "support_type": "positive_manifestation",
+        "provenance": {
+          "raw_response_file": "evidence/independent_responses/86035b321e4d472d1b98fcb441dcd1d7af173e54c85671017395c7577d0a3bcd.json",
+          "model": "gpt-4.1",
+          "at": "2026-10-15T17:31:51.276031+00:00",
+          "cache_key": "86035b321e4d472d1b98fcb441dcd1d7af173e54c85671017395c7577d0a3bcd",
+          "original_proposal": {
+            "variable_id": "mediation-adversarial-communication__positive",
+            "status": "observed",
+            "value": 4,
+            "confidence": 1,
+            "support_type": "positive_manifestation",
+            "rationale": "Ингабире неоднократно выступала за инклюзивный диалог, переговоры, учёт интересов разных групп, создание комиссий по примирению и мирное согласование позиций.",
+            "evidence_indices": [
+              13,
+              14,
+              18,
+              24
+            ]
+          }
+        },
+        "evidence_file": "evidence/independent-dossier-victoire-ingabire.json",
+        "evidence_basis": "ea0d1f731f5541911dff7214f16e55b8bcbd8a28b5737f8455a417ab8b360b6b"
+      },
+      "negative": {
+        "status": "observed",
+        "value": 2,
+        "confidence": 0.7,
+        "evidence_indices": [
+          2,
+          7,
+          11,
+          25
+        ],
+        "source_urls": [
+          "https://www.bbc.com/news/world-africa-68552517",
+          "https://www.amnesty.ch/fr/participer/ecrire-des-lettres/actions-urgentes/annees/2026/ua-013-26-rwanda/e_ua_013_26_rwanda.docx",
+          "https://www.dailymaverick.co.za/article/2026-05-19-relentless-persecution-of-rwandan-opposition-leader-victoire-ingabire-continues/",
+          "https://english.elpais.com/international/2024-04-08/rwanda-30-years-on-from-genocide-security-cleanliness-modernity-and-a-heavy-hand.html"
+        ],
+        "event_ids": [
+          "vi-2024-rehabilitation-refusal",
+          "vi-2025-arrest",
+          "vi-2026-detention-case",
+          "VI-2023-06-01"
+        ],
+        "rationale": "В ряде эпизодов Ингабире публично оспаривала решения властей, связывала личные ограничения с институциональными проблемами, критиковала государственную политику и обвинения в свой адрес.",
+        "support_type": "positive_manifestation",
+        "provenance": {
+          "raw_response_file": "evidence/independent_responses/86035b321e4d472d1b98fcb441dcd1d7af173e54c85671017395c7577d0a3bcd.json",
+          "model": "gpt-4.1",
+          "at": "2026-10-15T17:31:51.276031+00:00",
+          "cache_key": "86035b321e4d472d1b98fcb441dcd1d7af173e54c85671017395c7577d0a3bcd",
+          "original_proposal": {
+            "variable_id": "mediation-adversarial-communication__negative",
+            "status": "observed",
+            "value": 2,
+            "confidence": 0.7,
+            "support_type": "positive_manifestation",
+            "rationale": "В ряде эпизодов Ингабире публично оспаривала решения властей, связывала личные ограничения с институциональными проблемами, критиковала государственную политику и обвинения в свой адрес.",
+            "evidence_indices": [
+              2,
+              7,
+              11,
+              25
+            ]
+          }
+        },
+        "evidence_file": "evidence/independent-dossier-victoire-ingabire.json",
+        "evidence_basis": "ea0d1f731f5541911dff7214f16e55b8bcbd8a28b5737f8455a417ab8b360b6b"
+      }
+    },
+    "positive": 4,
+    "negative": 2,
+    "value": null,
+    "status": "observed",
+    "difference": null,
+    "mass": null,
+    "measurement_model": "independent_poles",
+    "evidence_file": "evidence/independent-dossier-victoire-ingabire.json",
+    "evidence_basis": "ea0d1f731f5541911dff7214f16e55b8bcbd8a28b5737f8455a417ab8b360b6b",
+    "at": "2026-10-15T17:32:00.228562+00:00",
+    "reason": "Каждое свойство оценивается независимо; разность и искусственное дополнение до пяти не вычисляются"
+  },
+  {
+    "object_id": "victoire-ingabire",
+    "scale_id": "cultural-openness-national-transmission",
+    "pole_scores": {
+      "positive": {
+        "status": "observed",
+        "value": 2,
+        "confidence": 0.7,
+        "evidence_indices": [
+          14,
+          18
+        ],
+        "source_urls": [
+          "https://www.victoireingabire.com/",
+          "https://www.aljazeera.com/author/victoire-ingabire-umuhoza"
+        ],
+        "event_ids": [
+          "vi-2025-policy-platform",
+          "vi-2025-great-lakes-dialogue"
+        ],
+        "rationale": "В программных и публичных заявлениях Ингабире подчёркивает необходимость инклюзивного межруандийского диалога, признания всех жертв, создания комиссии истины и примирения, а также учёта голосов беженцев и изгнанников (evidence_indices: 14, 18). Это отражает акцент на межкультурном обмене и разнообразии, хотя не является определяющей чертой всей деятельности.",
+        "support_type": "positive_manifestation",
+        "provenance": {
+          "raw_response_file": "evidence/independent_responses/cc684b502502982d0fb10f7023f661a4520d878af5b3f415ec5e1fc6f106cb65.json",
+          "model": "gpt-4.1",
+          "at": "2026-10-15T17:32:00.225301+00:00",
+          "cache_key": "cc684b502502982d0fb10f7023f661a4520d878af5b3f415ec5e1fc6f106cb65",
+          "original_proposal": {
+            "variable_id": "cultural-openness-national-transmission__positive",
+            "status": "observed",
+            "value": 2,
+            "confidence": 0.7,
+            "support_type": "positive_manifestation",
+            "rationale": "В программных и публичных заявлениях Ингабире подчёркивает необходимость инклюзивного межруандийского диалога, признания всех жертв, создания комиссии истины и примирения, а также учёта голосов беженцев и изгнанников (evidence_indices: 14, 18). Это отражает акцент на межкультурном обмене и разнообразии, хотя не является определяющей чертой всей деятельности.",
+            "evidence_indices": [
+              14,
+              18
+            ]
+          }
+        },
+        "evidence_file": "evidence/independent-dossier-victoire-ingabire.json",
+        "evidence_basis": "ea0d1f731f5541911dff7214f16e55b8bcbd8a28b5737f8455a417ab8b360b6b"
+      },
+      "negative": {
+        "status": "observed",
+        "value": 2,
+        "confidence": 0.6,
+        "evidence_indices": [
+          14,
+          24
+        ],
+        "source_urls": [
+          "https://www.victoireingabire.com/",
+          "https://www.theelephant.info/opinion/2023/06/23/hate-speech-rwanda-must-not-fall-back-into-the-pre-genocide-trap/"
+        ],
+        "event_ids": [
+          "vi-2025-policy-platform",
+          "VI-2023-06-23-01"
+        ],
+        "rationale": "Ингабире в программных документах подчёркивает важность прояснения общей истории, признания всех жертв и исторической ответственности (evidence_index: 14, 24). Это свидетельствует о стремлении к сохранению и передаче национальных ценностей, хотя не является доминирующей чертой.",
+        "support_type": "positive_manifestation",
+        "provenance": {
+          "raw_response_file": "evidence/independent_responses/cc684b502502982d0fb10f7023f661a4520d878af5b3f415ec5e1fc6f106cb65.json",
+          "model": "gpt-4.1",
+          "at": "2026-10-15T17:32:00.225301+00:00",
+          "cache_key": "cc684b502502982d0fb10f7023f661a4520d878af5b3f415ec5e1fc6f106cb65",
+          "original_proposal": {
+            "variable_id": "cultural-openness-national-transmission__negative",
+            "status": "observed",
+            "value": 2,
+            "confidence": 0.6,
+            "support_type": "positive_manifestation",
+            "rationale": "Ингабире в программных документах подчёркивает важность прояснения общей истории, признания всех жертв и исторической ответственности (evidence_index: 14, 24). Это свидетельствует о стремлении к сохранению и передаче национальных ценностей, хотя не является доминирующей чертой.",
+            "evidence_indices": [
+              14,
+              24
+            ]
+          }
+        },
+        "evidence_file": "evidence/independent-dossier-victoire-ingabire.json",
+        "evidence_basis": "ea0d1f731f5541911dff7214f16e55b8bcbd8a28b5737f8455a417ab8b360b6b"
+      }
+    },
+    "positive": 2,
+    "negative": 2,
+    "value": null,
+    "status": "observed",
+    "difference": null,
+    "mass": null,
+    "measurement_model": "independent_poles",
+    "evidence_file": "evidence/independent-dossier-victoire-ingabire.json",
+    "evidence_basis": "ea0d1f731f5541911dff7214f16e55b8bcbd8a28b5737f8455a417ab8b360b6b",
+    "at": "2026-10-15T17:32:00.228562+00:00",
+    "reason": "Каждое свойство оценивается независимо; разность и искусственное дополнение до пяти не вычисляются"
+  },
+  {
+    "object_id": "victoire-ingabire",
+    "scale_id": "problem-disclosure-reputation-defence",
+    "pole_scores": {
+      "positive": {
+        "status": "observed",
+        "value": 3,
+        "confidence": 0.8,
+        "evidence_indices": [
+          2,
+          21,
+          22,
+          23
+        ],
+        "source_urls": [
+          "https://www.bbc.com/news/world-africa-68552517",
+          "https://storage.googleapis.com/qurium/theelephant.info/2023-01-27-education-in-rwanda-a-long-walk-to-the-knowledge-economy.html",
+          "https://www.aljazeera.com/author/victoire-ingabire-umuhoza",
+          "https://africanarguments.org/2023/04/rwanda-too-needs-to-make-amends/"
+        ],
+        "event_ids": [
+          "vi-2024-rehabilitation-refusal",
+          "VI-2023-01-27-01",
+          "VI-2023-03-24-01",
+          "VI-2023-04-25-01"
+        ],
+        "rationale": "Ингабире неоднократно публично указывала на проблемы политического допуска, ограничения прав, необходимость расследования убийств оппозиционеров, признания ошибок прошлого и системных проблем в образовании (evidence_indices: 2, 21, 22, 23). Это устойчивый публичный акцент на раскрытии проблем.",
+        "support_type": "positive_manifestation",
+        "provenance": {
+          "raw_response_file": "evidence/independent_responses/cc684b502502982d0fb10f7023f661a4520d878af5b3f415ec5e1fc6f106cb65.json",
+          "model": "gpt-4.1",
+          "at": "2026-10-15T17:32:00.225301+00:00",
+          "cache_key": "cc684b502502982d0fb10f7023f661a4520d878af5b3f415ec5e1fc6f106cb65",
+          "original_proposal": {
+            "variable_id": "problem-disclosure-reputation-defence__positive",
+            "status": "observed",
+            "value": 3,
+            "confidence": 0.8,
+            "support_type": "positive_manifestation",
+            "rationale": "Ингабире неоднократно публично указывала на проблемы политического допуска, ограничения прав, необходимость расследования убийств оппозиционеров, признания ошибок прошлого и системных проблем в образовании (evidence_indices: 2, 21, 22, 23). Это устойчивый публичный акцент на раскрытии проблем.",
+            "evidence_indices": [
+              2,
+              21,
+              22,
+              23
+            ]
+          }
+        },
+        "evidence_file": "evidence/independent-dossier-victoire-ingabire.json",
+        "evidence_basis": "ea0d1f731f5541911dff7214f16e55b8bcbd8a28b5737f8455a417ab8b360b6b"
+      },
+      "negative": {
+        "status": "unknown",
+        "value": null,
+        "confidence": 0,
+        "evidence_indices": [],
+        "source_urls": [],
+        "event_ids": [],
+        "rationale": "Не найдено эпизодов, где Ингабире бы явно защищала репутацию страны или своей политики путём опровержения проблем или отрицания критики. Отсутствие упоминаний не доказывает ноль.",
+        "support_type": "unknown",
+        "provenance": {
+          "raw_response_file": "evidence/independent_responses/cc684b502502982d0fb10f7023f661a4520d878af5b3f415ec5e1fc6f106cb65.json",
+          "model": "gpt-4.1",
+          "at": "2026-10-15T17:32:00.225301+00:00",
+          "cache_key": "cc684b502502982d0fb10f7023f661a4520d878af5b3f415ec5e1fc6f106cb65",
+          "original_proposal": {
+            "variable_id": "problem-disclosure-reputation-defence__negative",
+            "status": "unknown",
+            "value": null,
+            "confidence": 0.5,
+            "support_type": "unknown",
+            "rationale": "Не найдено эпизодов, где Ингабире бы явно защищала репутацию страны или своей политики путём опровержения проблем или отрицания критики. Отсутствие упоминаний не доказывает ноль.",
+            "evidence_indices": []
+          }
+        },
+        "evidence_file": "evidence/independent-dossier-victoire-ingabire.json",
+        "evidence_basis": "ea0d1f731f5541911dff7214f16e55b8bcbd8a28b5737f8455a417ab8b360b6b"
+      }
+    },
+    "positive": 3,
+    "negative": null,
+    "value": null,
+    "status": "partial",
+    "difference": null,
+    "mass": null,
+    "measurement_model": "independent_poles",
+    "evidence_file": "evidence/independent-dossier-victoire-ingabire.json",
+    "evidence_basis": "ea0d1f731f5541911dff7214f16e55b8bcbd8a28b5737f8455a417ab8b360b6b",
+    "at": "2026-10-15T17:32:00.228562+00:00",
+    "reason": "Каждое свойство оценивается независимо; разность и искусственное дополнение до пяти не вычисляются"
+  },
+  {
+    "object_id": "victoire-ingabire",
+    "scale_id": "procedural-guarantees-enforcement",
+    "pole_scores": {
+      "positive": {
+        "status": "observed",
+        "value": 3,
+        "confidence": 0.8,
+        "evidence_indices": [
+          8,
+          14,
+          22,
+          24
+        ],
+        "source_urls": [
+          "https://www.amnesty.ch/fr/participer/ecrire-des-lettres/actions-urgentes/annees/2026/ua-013-26-rwanda/e_ua_013_26_rwanda.docx",
+          "https://www.victoireingabire.com/",
+          "https://www.aljazeera.com/author/victoire-ingabire-umuhoza",
+          "https://www.theelephant.info/opinion/2023/06/23/hate-speech-rwanda-must-not-fall-back-into-the-pre-genocide-trap/"
+        ],
+        "event_ids": [
+          "vi-2026-constitutional-petition",
+          "vi-2025-policy-platform",
+          "VI-2023-03-24-01",
+          "VI-2023-06-23-01"
+        ],
+        "rationale": "Ингабире активно использует судебные и конституционные процедуры для защиты прав, подаёт жалобы, требует расследований и подчёркивает верховенство права (evidence_indices: 8, 14, 22, 24). Это устойчивый акцент на расширении возможностей защиты и обжалования.",
+        "support_type": "positive_manifestation",
+        "provenance": {
+          "raw_response_file": "evidence/independent_responses/cc684b502502982d0fb10f7023f661a4520d878af5b3f415ec5e1fc6f106cb65.json",
+          "model": "gpt-4.1",
+          "at": "2026-10-15T17:32:00.225301+00:00",
+          "cache_key": "cc684b502502982d0fb10f7023f661a4520d878af5b3f415ec5e1fc6f106cb65",
+          "original_proposal": {
+            "variable_id": "procedural-guarantees-enforcement__positive",
+            "status": "observed",
+            "value": 3,
+            "confidence": 0.8,
+            "support_type": "positive_manifestation",
+            "rationale": "Ингабире активно использует судебные и конституционные процедуры для защиты прав, подаёт жалобы, требует расследований и подчёркивает верховенство права (evidence_indices: 8, 14, 22, 24). Это устойчивый акцент на расширении возможностей защиты и обжалования.",
+            "evidence_indices": [
+              8,
+              14,
+              22,
+              24
+            ]
+          }
+        },
+        "evidence_file": "evidence/independent-dossier-victoire-ingabire.json",
+        "evidence_basis": "ea0d1f731f5541911dff7214f16e55b8bcbd8a28b5737f8455a417ab8b360b6b"
+      },
+      "negative": {
+        "status": "observed",
+        "value": 1,
+        "confidence": 0.6,
+        "evidence_indices": [
+          24
+        ],
+        "source_urls": [
+          "https://www.theelephant.info/opinion/2023/06/23/hate-speech-rwanda-must-not-fall-back-into-the-pre-genocide-trap/"
+        ],
+        "event_ids": [
+          "VI-2023-06-23-01"
+        ],
+        "rationale": "В ряде заявлений Ингабире поддерживает применение санкций к виновным в преступлениях против разных групп, подчёркивая необходимость эффективной судебной системы, способной применять санкции (evidence_index: 24). Это единичное проявление принудительного обеспечения требований.",
+        "support_type": "positive_manifestation",
+        "provenance": {
+          "raw_response_file": "evidence/independent_responses/cc684b502502982d0fb10f7023f661a4520d878af5b3f415ec5e1fc6f106cb65.json",
+          "model": "gpt-4.1",
+          "at": "2026-10-15T17:32:00.225301+00:00",
+          "cache_key": "cc684b502502982d0fb10f7023f661a4520d878af5b3f415ec5e1fc6f106cb65",
+          "original_proposal": {
+            "variable_id": "procedural-guarantees-enforcement__negative",
+            "status": "observed",
+            "value": 1,
+            "confidence": 0.6,
+            "support_type": "positive_manifestation",
+            "rationale": "В ряде заявлений Ингабире поддерживает применение санкций к виновным в преступлениях против разных групп, подчёркивая необходимость эффективной судебной системы, способной применять санкции (evidence_index: 24). Это единичное проявление принудительного обеспечения требований.",
+            "evidence_indices": [
+              24
+            ]
+          }
+        },
+        "evidence_file": "evidence/independent-dossier-victoire-ingabire.json",
+        "evidence_basis": "ea0d1f731f5541911dff7214f16e55b8bcbd8a28b5737f8455a417ab8b360b6b"
+      }
+    },
+    "positive": 3,
+    "negative": 1,
+    "value": null,
+    "status": "observed",
+    "difference": null,
+    "mass": null,
+    "measurement_model": "independent_poles",
+    "evidence_file": "evidence/independent-dossier-victoire-ingabire.json",
+    "evidence_basis": "ea0d1f731f5541911dff7214f16e55b8bcbd8a28b5737f8455a417ab8b360b6b",
+    "at": "2026-10-15T17:32:00.228562+00:00",
+    "reason": "Каждое свойство оценивается независимо; разность и искусственное дополнение до пяти не вычисляются"
+  },
+  {
+    "object_id": "victoire-ingabire",
+    "scale_id": "prevention-crisis-response",
+    "pole_scores": {
+      "positive": {
+        "status": "unknown",
+        "value": null,
+        "confidence": 0,
+        "evidence_indices": [],
+        "source_urls": [],
+        "event_ids": [],
+        "rationale": "В найденных материалах нет прямых эпизодов, где Ингабире делала акцент на упреждающем снижении рисков или подготовке до возникновения кризиса.",
+        "support_type": "unknown",
+        "provenance": {
+          "raw_response_file": "evidence/independent_responses/cc684b502502982d0fb10f7023f661a4520d878af5b3f415ec5e1fc6f106cb65.json",
+          "model": "gpt-4.1",
+          "at": "2026-10-15T17:32:00.225301+00:00",
+          "cache_key": "cc684b502502982d0fb10f7023f661a4520d878af5b3f415ec5e1fc6f106cb65",
+          "original_proposal": {
+            "variable_id": "prevention-crisis-response__positive",
+            "status": "unknown",
+            "value": null,
+            "confidence": 0.5,
+            "support_type": "unknown",
+            "rationale": "В найденных материалах нет прямых эпизодов, где Ингабире делала акцент на упреждающем снижении рисков или подготовке до возникновения кризиса.",
+            "evidence_indices": []
+          }
+        },
+        "evidence_file": "evidence/independent-dossier-victoire-ingabire.json",
+        "evidence_basis": "ea0d1f731f5541911dff7214f16e55b8bcbd8a28b5737f8455a417ab8b360b6b"
+      },
+      "negative": {
+        "status": "unknown",
+        "value": null,
+        "confidence": 0,
+        "evidence_indices": [],
+        "source_urls": [],
+        "event_ids": [],
+        "rationale": "Нет данных о публичных действиях или заявлениях Ингабире, свидетельствующих о приоритете оперативного реагирования на уже возникшие угрозы.",
+        "support_type": "unknown",
+        "provenance": {
+          "raw_response_file": "evidence/independent_responses/cc684b502502982d0fb10f7023f661a4520d878af5b3f415ec5e1fc6f106cb65.json",
+          "model": "gpt-4.1",
+          "at": "2026-10-15T17:32:00.225301+00:00",
+          "cache_key": "cc684b502502982d0fb10f7023f661a4520d878af5b3f415ec5e1fc6f106cb65",
+          "original_proposal": {
+            "variable_id": "prevention-crisis-response__negative",
+            "status": "unknown",
+            "value": null,
+            "confidence": 0.5,
+            "support_type": "unknown",
+            "rationale": "Нет данных о публичных действиях или заявлениях Ингабире, свидетельствующих о приоритете оперативного реагирования на уже возникшие угрозы.",
+            "evidence_indices": []
+          }
+        },
+        "evidence_file": "evidence/independent-dossier-victoire-ingabire.json",
+        "evidence_basis": "ea0d1f731f5541911dff7214f16e55b8bcbd8a28b5737f8455a417ab8b360b6b"
+      }
+    },
+    "positive": null,
+    "negative": null,
+    "value": null,
+    "status": "unknown",
+    "difference": null,
+    "mass": null,
+    "measurement_model": "independent_poles",
+    "evidence_file": "evidence/independent-dossier-victoire-ingabire.json",
+    "evidence_basis": "ea0d1f731f5541911dff7214f16e55b8bcbd8a28b5737f8455a417ab8b360b6b",
+    "at": "2026-10-15T17:32:00.228562+00:00",
+    "reason": "Каждое свойство оценивается независимо; разность и искусственное дополнение до пяти не вычисляются"
+  },
+  {
+    "object_id": "victoire-ingabire",
+    "scale_id": "electoral-access",
+    "pole_scores": {
+      "positive": {
+        "status": "observed",
+        "value": 4,
+        "confidence": 0.9,
+        "evidence_indices": [
+          3,
+          13,
+          19,
+          20,
+          23
+        ],
+        "source_urls": [
+          "https://www.amnesty.org/en/wp-content/uploads/2024/07/AFR4782752024ENGLISH.pdf",
+          "https://www.victoireingabire.com/",
+          "https://www.aljazeera.com/opinions/2022/4/20/my-story-being-an-opposition-figure-in-rwanda",
+          "https://africanarguments.org/2023/04/rwanda-too-needs-to-make-amends/"
+        ],
+        "event_ids": [
+          "vi-2024-rehabilitation-refusal",
+          "vi-2025-policy-platform",
+          "VI-2022-04-20-01",
+          "VI-2023-04-25-01"
+        ],
+        "rationale": "Ингабире последовательно требует расширения политического пространства, допуска к выборам, демократических реформ и подотчётности руководителей (evidence_indices: 3, 13, 19, 20, 23). Это сильный повторяющийся акцент.",
+        "support_type": "positive_manifestation",
+        "provenance": {
+          "raw_response_file": "evidence/independent_responses/cc684b502502982d0fb10f7023f661a4520d878af5b3f415ec5e1fc6f106cb65.json",
+          "model": "gpt-4.1",
+          "at": "2026-10-15T17:32:00.225301+00:00",
+          "cache_key": "cc684b502502982d0fb10f7023f661a4520d878af5b3f415ec5e1fc6f106cb65",
+          "original_proposal": {
+            "variable_id": "electoral-access__positive",
+            "status": "observed",
+            "value": 4,
+            "confidence": 0.9,
+            "support_type": "positive_manifestation",
+            "rationale": "Ингабире последовательно требует расширения политического пространства, допуска к выборам, демократических реформ и подотчётности руководителей (evidence_indices: 3, 13, 19, 20, 23). Это сильный повторяющийся акцент.",
+            "evidence_indices": [
+              3,
+              13,
+              19,
+              20,
+              23
+            ]
+          }
+        },
+        "evidence_file": "evidence/independent-dossier-victoire-ingabire.json",
+        "evidence_basis": "ea0d1f731f5541911dff7214f16e55b8bcbd8a28b5737f8455a417ab8b360b6b"
+      },
+      "negative": {
+        "status": "unknown",
+        "value": null,
+        "confidence": 0,
+        "evidence_indices": [],
+        "source_urls": [],
+        "event_ids": [],
+        "rationale": "Не найдено персональных предложений Ингабире по усилению квалификационных барьеров политического участия.",
+        "support_type": "unknown",
+        "provenance": {
+          "raw_response_file": "evidence/independent_responses/cc684b502502982d0fb10f7023f661a4520d878af5b3f415ec5e1fc6f106cb65.json",
+          "model": "gpt-4.1",
+          "at": "2026-10-15T17:32:00.225301+00:00",
+          "cache_key": "cc684b502502982d0fb10f7023f661a4520d878af5b3f415ec5e1fc6f106cb65",
+          "original_proposal": {
+            "variable_id": "electoral-access__negative",
+            "status": "unknown",
+            "value": null,
+            "confidence": 0.5,
+            "support_type": "unknown",
+            "rationale": "Не найдено персональных предложений Ингабире по усилению квалификационных барьеров политического участия.",
+            "evidence_indices": []
+          }
+        },
+        "evidence_file": "evidence/independent-dossier-victoire-ingabire.json",
+        "evidence_basis": "ea0d1f731f5541911dff7214f16e55b8bcbd8a28b5737f8455a417ab8b360b6b"
+      }
+    },
+    "positive": 4,
+    "negative": null,
+    "value": null,
+    "status": "partial",
+    "difference": null,
+    "mass": null,
+    "measurement_model": "independent_poles",
+    "evidence_file": "evidence/independent-dossier-victoire-ingabire.json",
+    "evidence_basis": "ea0d1f731f5541911dff7214f16e55b8bcbd8a28b5737f8455a417ab8b360b6b",
+    "at": "2026-10-15T17:32:00.228562+00:00",
+    "reason": "Каждое свойство оценивается независимо; разность и искусственное дополнение до пяти не вычисляются"
+  },
+  {
+    "object_id": "victoire-ingabire",
+    "scale_id": "institutional-autonomy-coordination",
+    "pole_scores": {
+      "positive": {
+        "status": "observed",
+        "value": 3,
+        "confidence": 0.8,
+        "evidence_indices": [
+          13,
+          15,
+          18
+        ],
+        "source_urls": [
+          "https://www.victoireingabire.com/",
+          "https://www.aljazeera.com/author/victoire-ingabire-umuhoza"
+        ],
+        "event_ids": [
+          "vi-2025-policy-platform",
+          "vi-2025-great-lakes-dialogue"
+        ],
+        "rationale": "Ингабире выступает за децентрализацию, институциональные реформы, подотчётность и независимость институтов (evidence_indices: 13, 15, 18). Это несколько последовательных эпизодов с устойчивым акцентом.",
+        "support_type": "positive_manifestation",
+        "provenance": {
+          "raw_response_file": "evidence/independent_responses/cc684b502502982d0fb10f7023f661a4520d878af5b3f415ec5e1fc6f106cb65.json",
+          "model": "gpt-4.1",
+          "at": "2026-10-15T17:32:00.225301+00:00",
+          "cache_key": "cc684b502502982d0fb10f7023f661a4520d878af5b3f415ec5e1fc6f106cb65",
+          "original_proposal": {
+            "variable_id": "institutional-autonomy-coordination__positive",
+            "status": "observed",
+            "value": 3,
+            "confidence": 0.8,
+            "support_type": "positive_manifestation",
+            "rationale": "Ингабире выступает за децентрализацию, институциональные реформы, подотчётность и независимость институтов (evidence_indices: 13, 15, 18). Это несколько последовательных эпизодов с устойчивым акцентом.",
+            "evidence_indices": [
+              13,
+              15,
+              18
+            ]
+          }
+        },
+        "evidence_file": "evidence/independent-dossier-victoire-ingabire.json",
+        "evidence_basis": "ea0d1f731f5541911dff7214f16e55b8bcbd8a28b5737f8455a417ab8b360b6b"
+      },
+      "negative": {
+        "status": "unknown",
+        "value": null,
+        "confidence": 0,
+        "evidence_indices": [],
+        "source_urls": [],
+        "event_ids": [],
+        "rationale": "Нет оснований считать, что Ингабире поддерживает согласование работы институтов единой управленческой линией.",
+        "support_type": "unknown",
+        "provenance": {
+          "raw_response_file": "evidence/independent_responses/cc684b502502982d0fb10f7023f661a4520d878af5b3f415ec5e1fc6f106cb65.json",
+          "model": "gpt-4.1",
+          "at": "2026-10-15T17:32:00.225301+00:00",
+          "cache_key": "cc684b502502982d0fb10f7023f661a4520d878af5b3f415ec5e1fc6f106cb65",
+          "original_proposal": {
+            "variable_id": "institutional-autonomy-coordination__negative",
+            "status": "unknown",
+            "value": null,
+            "confidence": 0.5,
+            "support_type": "unknown",
+            "rationale": "Нет оснований считать, что Ингабире поддерживает согласование работы институтов единой управленческой линией.",
+            "evidence_indices": []
+          }
+        },
+        "evidence_file": "evidence/independent-dossier-victoire-ingabire.json",
+        "evidence_basis": "ea0d1f731f5541911dff7214f16e55b8bcbd8a28b5737f8455a417ab8b360b6b"
+      }
+    },
+    "positive": 3,
+    "negative": null,
+    "value": null,
+    "status": "partial",
+    "difference": null,
+    "mass": null,
+    "measurement_model": "independent_poles",
+    "evidence_file": "evidence/independent-dossier-victoire-ingabire.json",
+    "evidence_basis": "ea0d1f731f5541911dff7214f16e55b8bcbd8a28b5737f8455a417ab8b360b6b",
+    "at": "2026-10-15T17:32:00.228562+00:00",
+    "reason": "Каждое свойство оценивается независимо; разность и искусственное дополнение до пяти не вычисляются"
+  },
+  {
+    "object_id": "victoire-ingabire",
+    "scale_id": "taxation-burden-public-revenue",
+    "pole_scores": {
+      "positive": {
+        "status": "unknown",
+        "value": null,
+        "confidence": 0,
+        "evidence_indices": [],
+        "source_urls": [],
+        "event_ids": [],
+        "rationale": "В материалах нет прямых предложений Ингабире о снижении налоговой нагрузки или расширении имущественной самостоятельности.",
+        "support_type": "unknown",
+        "provenance": {
+          "raw_response_file": "evidence/independent_responses/cc684b502502982d0fb10f7023f661a4520d878af5b3f415ec5e1fc6f106cb65.json",
+          "model": "gpt-4.1",
+          "at": "2026-10-15T17:32:00.225301+00:00",
+          "cache_key": "cc684b502502982d0fb10f7023f661a4520d878af5b3f415ec5e1fc6f106cb65",
+          "original_proposal": {
+            "variable_id": "taxation-burden-public-revenue__positive",
+            "status": "unknown",
+            "value": null,
+            "confidence": 0.5,
+            "support_type": "unknown",
+            "rationale": "В материалах нет прямых предложений Ингабире о снижении налоговой нагрузки или расширении имущественной самостоятельности.",
+            "evidence_indices": []
+          }
+        },
+        "evidence_file": "evidence/independent-dossier-victoire-ingabire.json",
+        "evidence_basis": "ea0d1f731f5541911dff7214f16e55b8bcbd8a28b5737f8455a417ab8b360b6b"
+      },
+      "negative": {
+        "status": "unknown",
+        "value": null,
+        "confidence": 0,
+        "evidence_indices": [],
+        "source_urls": [],
+        "event_ids": [],
+        "rationale": "Нет данных о поддержке Ингабире увеличения налоговых поступлений для публичного развития.",
+        "support_type": "unknown",
+        "provenance": {
+          "raw_response_file": "evidence/independent_responses/cc684b502502982d0fb10f7023f661a4520d878af5b3f415ec5e1fc6f106cb65.json",
+          "model": "gpt-4.1",
+          "at": "2026-10-15T17:32:00.225301+00:00",
+          "cache_key": "cc684b502502982d0fb10f7023f661a4520d878af5b3f415ec5e1fc6f106cb65",
+          "original_proposal": {
+            "variable_id": "taxation-burden-public-revenue__negative",
+            "status": "unknown",
+            "value": null,
+            "confidence": 0.5,
+            "support_type": "unknown",
+            "rationale": "Нет данных о поддержке Ингабире увеличения налоговых поступлений для публичного развития.",
+            "evidence_indices": []
+          }
+        },
+        "evidence_file": "evidence/independent-dossier-victoire-ingabire.json",
+        "evidence_basis": "ea0d1f731f5541911dff7214f16e55b8bcbd8a28b5737f8455a417ab8b360b6b"
+      }
+    },
+    "positive": null,
+    "negative": null,
+    "value": null,
+    "status": "unknown",
+    "difference": null,
+    "mass": null,
+    "measurement_model": "independent_poles",
+    "evidence_file": "evidence/independent-dossier-victoire-ingabire.json",
+    "evidence_basis": "ea0d1f731f5541911dff7214f16e55b8bcbd8a28b5737f8455a417ab8b360b6b",
+    "at": "2026-10-15T17:32:00.228562+00:00",
+    "reason": "Каждое свойство оценивается независимо; разность и искусственное дополнение до пяти не вычисляются"
+  },
+  {
+    "object_id": "victoire-ingabire",
+    "scale_id": "universal-targeted-provision",
+    "pole_scores": {
+      "positive": {
+        "status": "observed",
+        "value": 2,
+        "confidence": 0.7,
+        "evidence_indices": [
+          16
+        ],
+        "source_urls": [
+          "https://www.victoireingabire.com/"
+        ],
+        "event_ids": [
+          "vi-2025-policy-platform"
+        ],
+        "rationale": "Ингабире предлагает государственные инвестиции в производственные отрасли для удовлетворения базовых потребностей населения, что указывает на элементы универсального подхода (evidence_index: 16).",
+        "support_type": "positive_manifestation",
+        "provenance": {
+          "raw_response_file": "evidence/independent_responses/cc684b502502982d0fb10f7023f661a4520d878af5b3f415ec5e1fc6f106cb65.json",
+          "model": "gpt-4.1",
+          "at": "2026-10-15T17:32:00.225301+00:00",
+          "cache_key": "cc684b502502982d0fb10f7023f661a4520d878af5b3f415ec5e1fc6f106cb65",
+          "original_proposal": {
+            "variable_id": "universal-targeted-provision__positive",
+            "status": "observed",
+            "value": 2,
+            "confidence": 0.7,
+            "support_type": "positive_manifestation",
+            "rationale": "Ингабире предлагает государственные инвестиции в производственные отрасли для удовлетворения базовых потребностей населения, что указывает на элементы универсального подхода (evidence_index: 16).",
+            "evidence_indices": [
+              16
+            ]
+          }
+        },
+        "evidence_file": "evidence/independent-dossier-victoire-ingabire.json",
+        "evidence_basis": "ea0d1f731f5541911dff7214f16e55b8bcbd8a28b5737f8455a417ab8b360b6b"
+      },
+      "negative": {
+        "status": "unknown",
+        "value": null,
+        "confidence": 0,
+        "evidence_indices": [],
+        "source_urls": [],
+        "event_ids": [],
+        "rationale": "Нет прямых сведений о приоритетной помощи конкретным недостаточно обеспеченным группам в заявлениях Ингабире.",
+        "support_type": "unknown",
+        "provenance": {
+          "raw_response_file": "evidence/independent_responses/cc684b502502982d0fb10f7023f661a4520d878af5b3f415ec5e1fc6f106cb65.json",
+          "model": "gpt-4.1",
+          "at": "2026-10-15T17:32:00.225301+00:00",
+          "cache_key": "cc684b502502982d0fb10f7023f661a4520d878af5b3f415ec5e1fc6f106cb65",
+          "original_proposal": {
+            "variable_id": "universal-targeted-provision__negative",
+            "status": "unknown",
+            "value": null,
+            "confidence": 0.5,
+            "support_type": "unknown",
+            "rationale": "Нет прямых сведений о приоритетной помощи конкретным недостаточно обеспеченным группам в заявлениях Ингабире.",
+            "evidence_indices": []
+          }
+        },
+        "evidence_file": "evidence/independent-dossier-victoire-ingabire.json",
+        "evidence_basis": "ea0d1f731f5541911dff7214f16e55b8bcbd8a28b5737f8455a417ab8b360b6b"
+      }
+    },
+    "positive": 2,
+    "negative": null,
+    "value": null,
+    "status": "partial",
+    "difference": null,
+    "mass": null,
+    "measurement_model": "independent_poles",
+    "evidence_file": "evidence/independent-dossier-victoire-ingabire.json",
+    "evidence_basis": "ea0d1f731f5541911dff7214f16e55b8bcbd8a28b5737f8455a417ab8b360b6b",
+    "at": "2026-10-15T17:32:00.228562+00:00",
+    "reason": "Каждое свойство оценивается независимо; разность и искусственное дополнение до пяти не вычисляются"
+  },
+  {
+    "object_id": "victoire-ingabire",
+    "scale_id": "ecological-limits-resource-use",
+    "pole_scores": {
+      "positive": {
+        "status": "unknown",
+        "value": null,
+        "confidence": 0,
+        "evidence_indices": [],
+        "source_urls": [],
+        "event_ids": [],
+        "rationale": "В найденных материалах отсутствуют прямые предложения Ингабире об усилении природоохранных ограничений.",
+        "support_type": "unknown",
+        "provenance": {
+          "raw_response_file": "evidence/independent_responses/cc684b502502982d0fb10f7023f661a4520d878af5b3f415ec5e1fc6f106cb65.json",
+          "model": "gpt-4.1",
+          "at": "2026-10-15T17:32:00.225301+00:00",
+          "cache_key": "cc684b502502982d0fb10f7023f661a4520d878af5b3f415ec5e1fc6f106cb65",
+          "original_proposal": {
+            "variable_id": "ecological-limits-resource-use__positive",
+            "status": "unknown",
+            "value": null,
+            "confidence": 0.5,
+            "support_type": "unknown",
+            "rationale": "В найденных материалах отсутствуют прямые предложения Ингабире об усилении природоохранных ограничений.",
+            "evidence_indices": []
+          }
+        },
+        "evidence_file": "evidence/independent-dossier-victoire-ingabire.json",
+        "evidence_basis": "ea0d1f731f5541911dff7214f16e55b8bcbd8a28b5737f8455a417ab8b360b6b"
+      },
+      "negative": {
+        "status": "unknown",
+        "value": null,
+        "confidence": 0,
+        "evidence_indices": [],
+        "source_urls": [],
+        "event_ids": [],
+        "rationale": "Нет оснований считать, что Ингабире поддерживает расширение хозяйственного использования природных ресурсов или ослабление экологических ограничений.",
+        "support_type": "unknown",
+        "provenance": {
+          "raw_response_file": "evidence/independent_responses/cc684b502502982d0fb10f7023f661a4520d878af5b3f415ec5e1fc6f106cb65.json",
+          "model": "gpt-4.1",
+          "at": "2026-10-15T17:32:00.225301+00:00",
+          "cache_key": "cc684b502502982d0fb10f7023f661a4520d878af5b3f415ec5e1fc6f106cb65",
+          "original_proposal": {
+            "variable_id": "ecological-limits-resource-use__negative",
+            "status": "unknown",
+            "value": null,
+            "confidence": 0.5,
+            "support_type": "unknown",
+            "rationale": "Нет оснований считать, что Ингабире поддерживает расширение хозяйственного использования природных ресурсов или ослабление экологических ограничений.",
+            "evidence_indices": []
+          }
+        },
+        "evidence_file": "evidence/independent-dossier-victoire-ingabire.json",
+        "evidence_basis": "ea0d1f731f5541911dff7214f16e55b8bcbd8a28b5737f8455a417ab8b360b6b"
+      }
+    },
+    "positive": null,
+    "negative": null,
+    "value": null,
+    "status": "unknown",
+    "difference": null,
+    "mass": null,
+    "measurement_model": "independent_poles",
+    "evidence_file": "evidence/independent-dossier-victoire-ingabire.json",
+    "evidence_basis": "ea0d1f731f5541911dff7214f16e55b8bcbd8a28b5737f8455a417ab8b360b6b",
+    "at": "2026-10-15T17:32:00.228562+00:00",
+    "reason": "Каждое свойство оценивается независимо; разность и искусственное дополнение до пяти не вычисляются"
+  },
+  {
+    "object_id": "victoire-ingabire",
+    "scale_id": "russia-diplomatic-engagement",
+    "pole_scores": {
+      "positive": {
+        "status": "unknown",
+        "value": null,
+        "confidence": 0,
+        "evidence_indices": [],
+        "source_urls": [],
+        "event_ids": [],
+        "rationale": "Нет допустимых датированных персональных свидетельств по этому свойству",
+        "support_type": "unknown"
+      },
+      "negative": {
+        "status": "unknown",
+        "value": null,
+        "confidence": 0,
+        "evidence_indices": [],
+        "source_urls": [],
+        "event_ids": [],
+        "rationale": "Нет допустимых датированных персональных свидетельств по этому свойству",
+        "support_type": "unknown"
+      }
+    },
+    "positive": null,
+    "negative": null,
+    "value": null,
+    "status": "unknown",
+    "difference": null,
+    "mass": null,
+    "measurement_model": "independent_poles",
+    "evidence_file": "evidence/independent-dossier-victoire-ingabire.json",
+    "evidence_basis": "ea0d1f731f5541911dff7214f16e55b8bcbd8a28b5737f8455a417ab8b360b6b",
+    "at": "2026-10-15T17:32:00.228562+00:00",
+    "reason": "Каждое свойство оценивается независимо; разность и искусственное дополнение до пяти не вычисляются"
+  },
+  {
+    "object_id": "victoire-ingabire",
+    "scale_id": "russia-security-cooperation",
+    "pole_scores": {
+      "positive": {
+        "status": "unknown",
+        "value": null,
+        "confidence": 0,
+        "evidence_indices": [],
+        "source_urls": [],
+        "event_ids": [],
+        "rationale": "Нет допустимых датированных персональных свидетельств по этому свойству",
+        "support_type": "unknown"
+      },
+      "negative": {
+        "status": "unknown",
+        "value": null,
+        "confidence": 0,
+        "evidence_indices": [],
+        "source_urls": [],
+        "event_ids": [],
+        "rationale": "Нет допустимых датированных персональных свидетельств по этому свойству",
+        "support_type": "unknown"
+      }
+    },
+    "positive": null,
+    "negative": null,
+    "value": null,
+    "status": "unknown",
+    "difference": null,
+    "mass": null,
+    "measurement_model": "independent_poles",
+    "evidence_file": "evidence/independent-dossier-victoire-ingabire.json",
+    "evidence_basis": "ea0d1f731f5541911dff7214f16e55b8bcbd8a28b5737f8455a417ab8b360b6b",
+    "at": "2026-10-15T17:32:00.228562+00:00",
+    "reason": "Каждое свойство оценивается независимо; разность и искусственное дополнение до пяти не вычисляются"
+  },
+  {
+    "object_id": "victoire-ingabire",
+    "scale_id": "russia-economic-technology-cooperation",
+    "pole_scores": {
+      "positive": {
+        "status": "unknown",
+        "value": null,
+        "confidence": 0,
+        "evidence_indices": [],
+        "source_urls": [],
+        "event_ids": [],
+        "rationale": "Нет допустимых датированных персональных свидетельств по этому свойству",
+        "support_type": "unknown"
+      },
+      "negative": {
+        "status": "unknown",
+        "value": null,
+        "confidence": 0,
+        "evidence_indices": [],
+        "source_urls": [],
+        "event_ids": [],
+        "rationale": "Нет допустимых датированных персональных свидетельств по этому свойству",
+        "support_type": "unknown"
+      }
+    },
+    "positive": null,
+    "negative": null,
+    "value": null,
+    "status": "unknown",
+    "difference": null,
+    "mass": null,
+    "measurement_model": "independent_poles",
+    "evidence_file": "evidence/independent-dossier-victoire-ingabire.json",
+    "evidence_basis": "ea0d1f731f5541911dff7214f16e55b8bcbd8a28b5737f8455a417ab8b360b6b",
+    "at": "2026-10-15T17:32:00.228562+00:00",
+    "reason": "Каждое свойство оценивается независимо; разность и искусственное дополнение до пяти не вычисляются"
+  },
+  {
+    "object_id": "victoire-ingabire",
+    "scale_id": "russia-education-cultural-cooperation",
+    "pole_scores": {
+      "positive": {
+        "status": "unknown",
+        "value": null,
+        "confidence": 0,
+        "evidence_indices": [],
+        "source_urls": [],
+        "event_ids": [],
+        "rationale": "Нет допустимых датированных персональных свидетельств по этому свойству",
+        "support_type": "unknown"
+      },
+      "negative": {
+        "status": "unknown",
+        "value": null,
+        "confidence": 0,
+        "evidence_indices": [],
+        "source_urls": [],
+        "event_ids": [],
+        "rationale": "Нет допустимых датированных персональных свидетельств по этому свойству",
+        "support_type": "unknown"
+      }
+    },
+    "positive": null,
+    "negative": null,
+    "value": null,
+    "status": "unknown",
+    "difference": null,
+    "mass": null,
+    "measurement_model": "independent_poles",
+    "evidence_file": "evidence/independent-dossier-victoire-ingabire.json",
+    "evidence_basis": "ea0d1f731f5541911dff7214f16e55b8bcbd8a28b5737f8455a417ab8b360b6b",
+    "at": "2026-10-15T17:32:00.228562+00:00",
+    "reason": "Каждое свойство оценивается независимо; разность и искусственное дополнение до пяти не вычисляются"
+  },
+  {
+    "object_id": "victoire-ingabire",
+    "scale_id": "russia-conflict-policy-evaluation",
+    "pole_scores": {
+      "positive": {
+        "status": "unknown",
+        "value": null,
+        "confidence": 0,
+        "evidence_indices": [],
+        "source_urls": [],
+        "event_ids": [],
+        "rationale": "Нет допустимых датированных персональных свидетельств по этому свойству",
+        "support_type": "unknown"
+      },
+      "negative": {
+        "status": "unknown",
+        "value": null,
+        "confidence": 0,
+        "evidence_indices": [],
+        "source_urls": [],
+        "event_ids": [],
+        "rationale": "Нет допустимых датированных персональных свидетельств по этому свойству",
+        "support_type": "unknown"
+      }
+    },
+    "positive": null,
+    "negative": null,
+    "value": null,
+    "status": "unknown",
+    "difference": null,
+    "mass": null,
+    "measurement_model": "independent_poles",
+    "evidence_file": "evidence/independent-dossier-victoire-ingabire.json",
+    "evidence_basis": "ea0d1f731f5541911dff7214f16e55b8bcbd8a28b5737f8455a417ab8b360b6b",
+    "at": "2026-10-15T17:32:00.228562+00:00",
+    "reason": "Каждое свойство оценивается независимо; разность и искусственное дополнение до пяти не вычисляются"
+  },
+  {
+    "object_id": "victoire-ingabire",
+    "scale_id": "russia-isolation-sanctions",
+    "pole_scores": {
+      "positive": {
+        "status": "unknown",
+        "value": null,
+        "confidence": 0,
+        "evidence_indices": [],
+        "source_urls": [],
+        "event_ids": [],
+        "rationale": "Нет допустимых датированных персональных свидетельств по этому свойству",
+        "support_type": "unknown"
+      },
+      "negative": {
+        "status": "unknown",
+        "value": null,
+        "confidence": 0,
+        "evidence_indices": [],
+        "source_urls": [],
+        "event_ids": [],
+        "rationale": "Нет допустимых датированных персональных свидетельств по этому свойству",
+        "support_type": "unknown"
+      }
+    },
+    "positive": null,
+    "negative": null,
+    "value": null,
+    "status": "unknown",
+    "difference": null,
+    "mass": null,
+    "measurement_model": "independent_poles",
+    "evidence_file": "evidence/independent-dossier-victoire-ingabire.json",
+    "evidence_basis": "ea0d1f731f5541911dff7214f16e55b8bcbd8a28b5737f8455a417ab8b360b6b",
+    "at": "2026-10-15T17:32:00.228562+00:00",
+    "reason": "Каждое свойство оценивается независимо; разность и искусственное дополнение до пяти не вычисляются"
+  }
+]

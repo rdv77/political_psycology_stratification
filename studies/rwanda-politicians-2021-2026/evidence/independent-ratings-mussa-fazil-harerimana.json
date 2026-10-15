@@ -1,0 +1,1770 @@
+[
+  {
+    "object_id": "mussa-fazil-harerimana",
+    "scale_id": "programmatic-renewal",
+    "pole_scores": {
+      "positive": {
+        "status": "observed",
+        "value": 1,
+        "confidence": 0.4,
+        "evidence_indices": [
+          12
+        ],
+        "source_urls": [
+          "https://www.ktpress.rw/2021/12/pdi-party-marks-30-years-with-pledge-of-allegiance-to-ruling-party/"
+        ],
+        "event_ids": [
+          "mfh-2021-12-02-pdi-30-years"
+        ],
+        "rationale": "В ряде заявлений Хареримана отмечал работу PDI с другими политическими организациями над стратегическими идеями и решениями (evidence_index: 12), что допускает ограниченное проявление программной координации, но не содержит прямых предложений о пересмотре действующих приоритетов или программ.",
+        "support_type": "positive_manifestation",
+        "provenance": {
+          "raw_response_file": "evidence/independent_responses/10ce3dcb660a8bc37a513251763c149d84670e405b334a17661468a981bcf59d.json",
+          "model": "gpt-4.1",
+          "at": "2026-10-15T17:31:29.414884+00:00",
+          "cache_key": "10ce3dcb660a8bc37a513251763c149d84670e405b334a17661468a981bcf59d",
+          "original_proposal": {
+            "variable_id": "programmatic-renewal__positive",
+            "status": "observed",
+            "value": 1,
+            "confidence": 0.4,
+            "support_type": "positive_manifestation",
+            "rationale": "В ряде заявлений Хареримана отмечал работу PDI с другими политическими организациями над стратегическими идеями и решениями (evidence_index: 12), что допускает ограниченное проявление программной координации, но не содержит прямых предложений о пересмотре действующих приоритетов или программ.",
+            "evidence_indices": [
+              12
+            ]
+          }
+        },
+        "evidence_file": "evidence/independent-dossier-mussa-fazil-harerimana.json",
+        "evidence_basis": "e2f163b5d8051f61be796a0653086768ecd0b10cd63845b3ee7a766207942faa"
+      },
+      "negative": {
+        "status": "observed",
+        "value": 4,
+        "confidence": 0.95,
+        "evidence_indices": [
+          6,
+          10,
+          13,
+          16,
+          17
+        ],
+        "source_urls": [
+          "https://www.ktpress.rw/2021/12/pdi-party-marks-30-years-with-pledge-of-allegiance-to-ruling-party/",
+          "https://agaciropress.com/kagame-guidance-beacon-rwanda-pdi/",
+          "https://rwandadispatch.com/charting-progress-africa-needs-rwandas-governance-model/"
+        ],
+        "event_ids": [
+          "harerimana-pdi-allegiance-2021-11-30",
+          "harerimana-pdi-congress-2026-06-21",
+          "mfh-2021-12-02-support-rpf",
+          "mfh-2021-12-02-governance-objectives",
+          "mfh-2024-07-09-kagame-endorsement"
+        ],
+        "rationale": "Хареримана неоднократно публично заявлял о поддержке действующего курса, необходимости сохранять достижения, поддержке Кагаме и RPF, а также о том, что руководство Кагаме должно оставаться ориентиром для Руанды (evidence_indices: 6, 10, 13, 16, 17). Это устойчивый повторяющийся акцент на продолжении и закреплении действующего курса.",
+        "support_type": "positive_manifestation",
+        "provenance": {
+          "raw_response_file": "evidence/independent_responses/10ce3dcb660a8bc37a513251763c149d84670e405b334a17661468a981bcf59d.json",
+          "model": "gpt-4.1",
+          "at": "2026-10-15T17:31:29.414884+00:00",
+          "cache_key": "10ce3dcb660a8bc37a513251763c149d84670e405b334a17661468a981bcf59d",
+          "original_proposal": {
+            "variable_id": "programmatic-renewal__negative",
+            "status": "observed",
+            "value": 4,
+            "confidence": 0.95,
+            "support_type": "positive_manifestation",
+            "rationale": "Хареримана неоднократно публично заявлял о поддержке действующего курса, необходимости сохранять достижения, поддержке Кагаме и RPF, а также о том, что руководство Кагаме должно оставаться ориентиром для Руанды (evidence_indices: 6, 10, 13, 16, 17). Это устойчивый повторяющийся акцент на продолжении и закреплении действующего курса.",
+            "evidence_indices": [
+              6,
+              10,
+              13,
+              16,
+              17
+            ]
+          }
+        },
+        "evidence_file": "evidence/independent-dossier-mussa-fazil-harerimana.json",
+        "evidence_basis": "e2f163b5d8051f61be796a0653086768ecd0b10cd63845b3ee7a766207942faa"
+      }
+    },
+    "positive": 1,
+    "negative": 4,
+    "value": null,
+    "status": "observed",
+    "difference": null,
+    "mass": null,
+    "measurement_model": "independent_poles",
+    "evidence_file": "evidence/independent-dossier-mussa-fazil-harerimana.json",
+    "evidence_basis": "e2f163b5d8051f61be796a0653086768ecd0b10cd63845b3ee7a766207942faa",
+    "at": "2026-10-15T17:31:37.889660+00:00",
+    "reason": "Каждое свойство оценивается независимо; разность и искусственное дополнение до пяти не вычисляются"
+  },
+  {
+    "object_id": "mussa-fazil-harerimana",
+    "scale_id": "government-course-assessment",
+    "pole_scores": {
+      "positive": {
+        "status": "observed",
+        "value": 5,
+        "confidence": 1.0,
+        "evidence_indices": [
+          6,
+          10,
+          13,
+          16,
+          17,
+          18
+        ],
+        "source_urls": [
+          "https://www.ktpress.rw/2021/12/pdi-party-marks-30-years-with-pledge-of-allegiance-to-ruling-party/",
+          "https://agaciropress.com/kagame-guidance-beacon-rwanda-pdi/",
+          "https://rwandadispatch.com/charting-progress-africa-needs-rwandas-governance-model/"
+        ],
+        "event_ids": [
+          "harerimana-pdi-allegiance-2021-11-30",
+          "harerimana-pdi-congress-2026-06-21",
+          "mfh-2021-12-02-support-rpf",
+          "mfh-2021-12-02-governance-objectives",
+          "mfh-2024-07-09-kagame-endorsement",
+          "mfh-2024-07-09-governance-model"
+        ],
+        "rationale": "Многократные прямые заявления о поддержке действующего государственного курса, доверии к Кагаме, признании модели управления Руанды как образцовой и достойной распространения (evidence_indices: 6, 10, 13, 16, 17, 18).",
+        "support_type": "positive_manifestation",
+        "provenance": {
+          "raw_response_file": "evidence/independent_responses/10ce3dcb660a8bc37a513251763c149d84670e405b334a17661468a981bcf59d.json",
+          "model": "gpt-4.1",
+          "at": "2026-10-15T17:31:29.414884+00:00",
+          "cache_key": "10ce3dcb660a8bc37a513251763c149d84670e405b334a17661468a981bcf59d",
+          "original_proposal": {
+            "variable_id": "government-course-assessment__positive",
+            "status": "observed",
+            "value": 5,
+            "confidence": 1.0,
+            "support_type": "positive_manifestation",
+            "rationale": "Многократные прямые заявления о поддержке действующего государственного курса, доверии к Кагаме, признании модели управления Руанды как образцовой и достойной распространения (evidence_indices: 6, 10, 13, 16, 17, 18).",
+            "evidence_indices": [
+              6,
+              10,
+              13,
+              16,
+              17,
+              18
+            ]
+          }
+        },
+        "evidence_file": "evidence/independent-dossier-mussa-fazil-harerimana.json",
+        "evidence_basis": "e2f163b5d8051f61be796a0653086768ecd0b10cd63845b3ee7a766207942faa"
+      },
+      "negative": {
+        "status": "observed",
+        "value": 0,
+        "confidence": 0.95,
+        "evidence_indices": [
+          6,
+          10,
+          13,
+          16,
+          17,
+          18
+        ],
+        "source_urls": [
+          "https://www.ktpress.rw/2021/12/pdi-party-marks-30-years-with-pledge-of-allegiance-to-ruling-party/",
+          "https://agaciropress.com/kagame-guidance-beacon-rwanda-pdi/",
+          "https://rwandadispatch.com/charting-progress-africa-needs-rwandas-governance-model/"
+        ],
+        "event_ids": [
+          "harerimana-pdi-allegiance-2021-11-30",
+          "harerimana-pdi-congress-2026-06-21",
+          "mfh-2021-12-02-support-rpf",
+          "mfh-2021-12-02-governance-objectives",
+          "mfh-2024-07-09-kagame-endorsement",
+          "mfh-2024-07-09-governance-model"
+        ],
+        "rationale": "В имеющихся источниках отсутствует критика действующего государственного курса; напротив, все публичные заявления Харериманы в исследуемый период содержат поддержку и одобрение курса и руководства.",
+        "support_type": "explicit_absence",
+        "provenance": {
+          "raw_response_file": "evidence/independent_responses/10ce3dcb660a8bc37a513251763c149d84670e405b334a17661468a981bcf59d.json",
+          "model": "gpt-4.1",
+          "at": "2026-10-15T17:31:29.414884+00:00",
+          "cache_key": "10ce3dcb660a8bc37a513251763c149d84670e405b334a17661468a981bcf59d",
+          "original_proposal": {
+            "variable_id": "government-course-assessment__negative",
+            "status": "observed",
+            "value": 0,
+            "confidence": 0.95,
+            "support_type": "explicit_absence",
+            "rationale": "В имеющихся источниках отсутствует критика действующего государственного курса; напротив, все публичные заявления Харериманы в исследуемый период содержат поддержку и одобрение курса и руководства.",
+            "evidence_indices": [
+              6,
+              10,
+              13,
+              16,
+              17,
+              18
+            ]
+          }
+        },
+        "evidence_file": "evidence/independent-dossier-mussa-fazil-harerimana.json",
+        "evidence_basis": "e2f163b5d8051f61be796a0653086768ecd0b10cd63845b3ee7a766207942faa"
+      }
+    },
+    "positive": 5,
+    "negative": 0,
+    "value": null,
+    "status": "observed",
+    "difference": null,
+    "mass": null,
+    "measurement_model": "independent_poles",
+    "evidence_file": "evidence/independent-dossier-mussa-fazil-harerimana.json",
+    "evidence_basis": "e2f163b5d8051f61be796a0653086768ecd0b10cd63845b3ee7a766207942faa",
+    "at": "2026-10-15T17:31:37.889660+00:00",
+    "reason": "Каждое свойство оценивается независимо; разность и искусственное дополнение до пяти не вычисляются"
+  },
+  {
+    "object_id": "mussa-fazil-harerimana",
+    "scale_id": "participation-administrative-direction",
+    "pole_scores": {
+      "positive": {
+        "status": "observed",
+        "value": 1,
+        "confidence": 0.3,
+        "evidence_indices": [
+          12
+        ],
+        "source_urls": [
+          "https://www.ktpress.rw/2021/12/pdi-party-marks-30-years-with-pledge-of-allegiance-to-ruling-party/"
+        ],
+        "event_ids": [
+          "mfh-2021-12-02-pdi-30-years"
+        ],
+        "rationale": "В одном эпизоде Хареримана упомянул о работе PDI с другими политическими организациями над стратегическими решениями (evidence_index: 12), что допускает ограниченное проявление совместного обсуждения, но не раскрывает механизм общественного контроля.",
+        "support_type": "positive_manifestation",
+        "provenance": {
+          "raw_response_file": "evidence/independent_responses/10ce3dcb660a8bc37a513251763c149d84670e405b334a17661468a981bcf59d.json",
+          "model": "gpt-4.1",
+          "at": "2026-10-15T17:31:29.414884+00:00",
+          "cache_key": "10ce3dcb660a8bc37a513251763c149d84670e405b334a17661468a981bcf59d",
+          "original_proposal": {
+            "variable_id": "participation-administrative-direction__positive",
+            "status": "observed",
+            "value": 1,
+            "confidence": 0.3,
+            "support_type": "positive_manifestation",
+            "rationale": "В одном эпизоде Хареримана упомянул о работе PDI с другими политическими организациями над стратегическими решениями (evidence_index: 12), что допускает ограниченное проявление совместного обсуждения, но не раскрывает механизм общественного контроля.",
+            "evidence_indices": [
+              12
+            ]
+          }
+        },
+        "evidence_file": "evidence/independent-dossier-mussa-fazil-harerimana.json",
+        "evidence_basis": "e2f163b5d8051f61be796a0653086768ecd0b10cd63845b3ee7a766207942faa"
+      },
+      "negative": {
+        "status": "observed",
+        "value": 2,
+        "confidence": 0.5,
+        "evidence_indices": [
+          10,
+          13,
+          16
+        ],
+        "source_urls": [
+          "https://agaciropress.com/kagame-guidance-beacon-rwanda-pdi/",
+          "https://www.ktpress.rw/2021/12/pdi-party-marks-30-years-with-pledge-of-allegiance-to-ruling-party/"
+        ],
+        "event_ids": [
+          "harerimana-pdi-congress-2026-06-21",
+          "mfh-2021-12-02-support-rpf",
+          "mfh-2021-12-02-governance-objectives"
+        ],
+        "rationale": "В ряде заявлений Хареримана акцентирует единство, единый голос партии и необходимость сохранения курса, что подразумевает административную координацию и контроль (evidence_indices: 10, 13, 16). Однако прямых поручений или директив не выявлено.",
+        "support_type": "positive_manifestation",
+        "provenance": {
+          "raw_response_file": "evidence/independent_responses/10ce3dcb660a8bc37a513251763c149d84670e405b334a17661468a981bcf59d.json",
+          "model": "gpt-4.1",
+          "at": "2026-10-15T17:31:29.414884+00:00",
+          "cache_key": "10ce3dcb660a8bc37a513251763c149d84670e405b334a17661468a981bcf59d",
+          "original_proposal": {
+            "variable_id": "participation-administrative-direction__negative",
+            "status": "observed",
+            "value": 2,
+            "confidence": 0.5,
+            "support_type": "positive_manifestation",
+            "rationale": "В ряде заявлений Хареримана акцентирует единство, единый голос партии и необходимость сохранения курса, что подразумевает административную координацию и контроль (evidence_indices: 10, 13, 16). Однако прямых поручений или директив не выявлено.",
+            "evidence_indices": [
+              10,
+              13,
+              16
+            ]
+          }
+        },
+        "evidence_file": "evidence/independent-dossier-mussa-fazil-harerimana.json",
+        "evidence_basis": "e2f163b5d8051f61be796a0653086768ecd0b10cd63845b3ee7a766207942faa"
+      }
+    },
+    "positive": 1,
+    "negative": 2,
+    "value": null,
+    "status": "observed",
+    "difference": null,
+    "mass": null,
+    "measurement_model": "independent_poles",
+    "evidence_file": "evidence/independent-dossier-mussa-fazil-harerimana.json",
+    "evidence_basis": "e2f163b5d8051f61be796a0653086768ecd0b10cd63845b3ee7a766207942faa",
+    "at": "2026-10-15T17:31:37.889660+00:00",
+    "reason": "Каждое свойство оценивается независимо; разность и искусственное дополнение до пяти не вычисляются"
+  },
+  {
+    "object_id": "mussa-fazil-harerimana",
+    "scale_id": "argumentation-evidence-values",
+    "pole_scores": {
+      "positive": {
+        "status": "unknown",
+        "value": null,
+        "confidence": 0,
+        "evidence_indices": [],
+        "source_urls": [],
+        "event_ids": [],
+        "rationale": "В доступных источниках отсутствуют примеры обоснования через данные, расчёты или ссылки на исследования.",
+        "support_type": "unknown",
+        "provenance": {
+          "raw_response_file": "evidence/independent_responses/10ce3dcb660a8bc37a513251763c149d84670e405b334a17661468a981bcf59d.json",
+          "model": "gpt-4.1",
+          "at": "2026-10-15T17:31:29.414884+00:00",
+          "cache_key": "10ce3dcb660a8bc37a513251763c149d84670e405b334a17661468a981bcf59d",
+          "original_proposal": {
+            "variable_id": "argumentation-evidence-values__positive",
+            "status": "unknown",
+            "value": null,
+            "confidence": 0.0,
+            "support_type": "unknown",
+            "rationale": "В доступных источниках отсутствуют примеры обоснования через данные, расчёты или ссылки на исследования.",
+            "evidence_indices": []
+          }
+        },
+        "evidence_file": "evidence/independent-dossier-mussa-fazil-harerimana.json",
+        "evidence_basis": "e2f163b5d8051f61be796a0653086768ecd0b10cd63845b3ee7a766207942faa"
+      },
+      "negative": {
+        "status": "observed",
+        "value": 4,
+        "confidence": 0.95,
+        "evidence_indices": [
+          7,
+          8,
+          10,
+          11,
+          14
+        ],
+        "source_urls": [
+          "https://www.ktpress.rw/2021/12/pdi-party-marks-30-years-with-pledge-of-allegiance-to-ruling-party/",
+          "https://www.nyarugenge.gov.rw/amakuru/soma-ibikurikira/hakozwe-ibikorwa-byo-kwibuka-mu-murenge-wa-nyarugenge",
+          "https://agaciropress.com/kagame-guidance-beacon-rwanda-pdi/",
+          "https://www.kigalitoday.com/amakuru/mu-rwanda/article/imyambarire-y-ab-ubu-mu-mboni-za-depite-mussa-fazil"
+        ],
+        "event_ids": [
+          "harerimana-pdi-allegiance-2021-11-30",
+          "harerimana-nyarugenge-remembrance-2023-04-10",
+          "harerimana-pdi-congress-2026-06-21",
+          "harerimana-cultural-norms-2026-02-20",
+          "mfh-2021-12-02-anti-division"
+        ],
+        "rationale": "Хареримана регулярно использует ценностную аргументацию: ссылается на национальное единство, память о геноциде, культурные нормы, коллективную ответственность и патриотизм (evidence_indices: 7, 8, 10, 11, 14).",
+        "support_type": "positive_manifestation",
+        "provenance": {
+          "raw_response_file": "evidence/independent_responses/10ce3dcb660a8bc37a513251763c149d84670e405b334a17661468a981bcf59d.json",
+          "model": "gpt-4.1",
+          "at": "2026-10-15T17:31:29.414884+00:00",
+          "cache_key": "10ce3dcb660a8bc37a513251763c149d84670e405b334a17661468a981bcf59d",
+          "original_proposal": {
+            "variable_id": "argumentation-evidence-values__negative",
+            "status": "observed",
+            "value": 4,
+            "confidence": 0.95,
+            "support_type": "positive_manifestation",
+            "rationale": "Хареримана регулярно использует ценностную аргументацию: ссылается на национальное единство, память о геноциде, культурные нормы, коллективную ответственность и патриотизм (evidence_indices: 7, 8, 10, 11, 14).",
+            "evidence_indices": [
+              7,
+              8,
+              10,
+              11,
+              14
+            ]
+          }
+        },
+        "evidence_file": "evidence/independent-dossier-mussa-fazil-harerimana.json",
+        "evidence_basis": "e2f163b5d8051f61be796a0653086768ecd0b10cd63845b3ee7a766207942faa"
+      }
+    },
+    "positive": null,
+    "negative": 4,
+    "value": null,
+    "status": "partial",
+    "difference": null,
+    "mass": null,
+    "measurement_model": "independent_poles",
+    "evidence_file": "evidence/independent-dossier-mussa-fazil-harerimana.json",
+    "evidence_basis": "e2f163b5d8051f61be796a0653086768ecd0b10cd63845b3ee7a766207942faa",
+    "at": "2026-10-15T17:31:37.889660+00:00",
+    "reason": "Каждое свойство оценивается независимо; разность и искусственное дополнение до пяти не вычисляются"
+  },
+  {
+    "object_id": "mussa-fazil-harerimana",
+    "scale_id": "market-state-instruments",
+    "pole_scores": {
+      "positive": {
+        "status": "unknown",
+        "value": null,
+        "confidence": 0,
+        "evidence_indices": [],
+        "source_urls": [],
+        "event_ids": [],
+        "rationale": "Нет прямых свидетельств расширения частной инициативы или управления в публичных заявлениях Харериманы.",
+        "support_type": "unknown",
+        "provenance": {
+          "raw_response_file": "evidence/independent_responses/10ce3dcb660a8bc37a513251763c149d84670e405b334a17661468a981bcf59d.json",
+          "model": "gpt-4.1",
+          "at": "2026-10-15T17:31:29.414884+00:00",
+          "cache_key": "10ce3dcb660a8bc37a513251763c149d84670e405b334a17661468a981bcf59d",
+          "original_proposal": {
+            "variable_id": "market-state-instruments__positive",
+            "status": "unknown",
+            "value": null,
+            "confidence": 0.0,
+            "support_type": "unknown",
+            "rationale": "Нет прямых свидетельств расширения частной инициативы или управления в публичных заявлениях Харериманы.",
+            "evidence_indices": []
+          }
+        },
+        "evidence_file": "evidence/independent-dossier-mussa-fazil-harerimana.json",
+        "evidence_basis": "e2f163b5d8051f61be796a0653086768ecd0b10cd63845b3ee7a766207942faa"
+      },
+      "negative": {
+        "status": "observed",
+        "value": 1,
+        "confidence": 0.3,
+        "evidence_indices": [
+          11
+        ],
+        "source_urls": [
+          "https://www.kigalitoday.com/amakuru/mu-rwanda/article/imyambarire-y-ab-ubu-mu-mboni-za-depite-mussa-fazil"
+        ],
+        "event_ids": [
+          "harerimana-cultural-norms-2026-02-20"
+        ],
+        "rationale": "В интервью Хареримана защищал применение культурных норм с возможностью принудительного исполнения через суд (evidence_index: 11), что допускает ограниченное проявление поддержки обязательных правил.",
+        "support_type": "positive_manifestation",
+        "provenance": {
+          "raw_response_file": "evidence/independent_responses/10ce3dcb660a8bc37a513251763c149d84670e405b334a17661468a981bcf59d.json",
+          "model": "gpt-4.1",
+          "at": "2026-10-15T17:31:29.414884+00:00",
+          "cache_key": "10ce3dcb660a8bc37a513251763c149d84670e405b334a17661468a981bcf59d",
+          "original_proposal": {
+            "variable_id": "market-state-instruments__negative",
+            "status": "observed",
+            "value": 1,
+            "confidence": 0.3,
+            "support_type": "positive_manifestation",
+            "rationale": "В интервью Хареримана защищал применение культурных норм с возможностью принудительного исполнения через суд (evidence_index: 11), что допускает ограниченное проявление поддержки обязательных правил.",
+            "evidence_indices": [
+              11
+            ]
+          }
+        },
+        "evidence_file": "evidence/independent-dossier-mussa-fazil-harerimana.json",
+        "evidence_basis": "e2f163b5d8051f61be796a0653086768ecd0b10cd63845b3ee7a766207942faa"
+      }
+    },
+    "positive": null,
+    "negative": 1,
+    "value": null,
+    "status": "partial",
+    "difference": null,
+    "mass": null,
+    "measurement_model": "independent_poles",
+    "evidence_file": "evidence/independent-dossier-mussa-fazil-harerimana.json",
+    "evidence_basis": "e2f163b5d8051f61be796a0653086768ecd0b10cd63845b3ee7a766207942faa",
+    "at": "2026-10-15T17:31:37.889660+00:00",
+    "reason": "Каждое свойство оценивается независимо; разность и искусственное дополнение до пяти не вычисляются"
+  },
+  {
+    "object_id": "mussa-fazil-harerimana",
+    "scale_id": "accessibility-growth-priorities",
+    "pole_scores": {
+      "positive": {
+        "status": "observed",
+        "value": 2,
+        "confidence": 0.5,
+        "evidence_indices": [
+          8,
+          13,
+          16
+        ],
+        "source_urls": [
+          "https://www.nyarugenge.gov.rw/amakuru/soma-ibikurikira/hakozwe-ibikorwa-byo-kwibuka-mu-murenge-wa-nyarugenge",
+          "https://www.ktpress.rw/2021/12/pdi-party-marks-30-years-with-pledge-of-allegiance-to-ruling-party/"
+        ],
+        "event_ids": [
+          "harerimana-nyarugenge-remembrance-2023-04-10",
+          "mfh-2021-12-02-support-rpf",
+          "mfh-2021-12-02-governance-objectives"
+        ],
+        "rationale": "В ряде выступлений Хареримана связывает поддержку Кагаме с развитием, инклюзивностью и улучшением благосостояния граждан (evidence_indices: 8, 13, 16), что указывает на ограниченный акцент на расширении доступности базовых благ.",
+        "support_type": "positive_manifestation",
+        "provenance": {
+          "raw_response_file": "evidence/independent_responses/10ce3dcb660a8bc37a513251763c149d84670e405b334a17661468a981bcf59d.json",
+          "model": "gpt-4.1",
+          "at": "2026-10-15T17:31:29.414884+00:00",
+          "cache_key": "10ce3dcb660a8bc37a513251763c149d84670e405b334a17661468a981bcf59d",
+          "original_proposal": {
+            "variable_id": "accessibility-growth-priorities__positive",
+            "status": "observed",
+            "value": 2,
+            "confidence": 0.5,
+            "support_type": "positive_manifestation",
+            "rationale": "В ряде выступлений Хареримана связывает поддержку Кагаме с развитием, инклюзивностью и улучшением благосостояния граждан (evidence_indices: 8, 13, 16), что указывает на ограниченный акцент на расширении доступности базовых благ.",
+            "evidence_indices": [
+              8,
+              13,
+              16
+            ]
+          }
+        },
+        "evidence_file": "evidence/independent-dossier-mussa-fazil-harerimana.json",
+        "evidence_basis": "e2f163b5d8051f61be796a0653086768ecd0b10cd63845b3ee7a766207942faa"
+      },
+      "negative": {
+        "status": "observed",
+        "value": 2,
+        "confidence": 0.4,
+        "evidence_indices": [
+          13,
+          16
+        ],
+        "source_urls": [
+          "https://www.ktpress.rw/2021/12/pdi-party-marks-30-years-with-pledge-of-allegiance-to-ruling-party/"
+        ],
+        "event_ids": [
+          "mfh-2021-12-02-support-rpf",
+          "mfh-2021-12-02-governance-objectives"
+        ],
+        "rationale": "В ряде заявлений Хареримана поддерживает цели устойчивого развития, рост и конкурентоспособность (evidence_indices: 13, 16), однако прямого приоритета роста инвестиций и деловой активности не выявлено.",
+        "support_type": "positive_manifestation",
+        "provenance": {
+          "raw_response_file": "evidence/independent_responses/10ce3dcb660a8bc37a513251763c149d84670e405b334a17661468a981bcf59d.json",
+          "model": "gpt-4.1",
+          "at": "2026-10-15T17:31:29.414884+00:00",
+          "cache_key": "10ce3dcb660a8bc37a513251763c149d84670e405b334a17661468a981bcf59d",
+          "original_proposal": {
+            "variable_id": "accessibility-growth-priorities__negative",
+            "status": "observed",
+            "value": 2,
+            "confidence": 0.4,
+            "support_type": "positive_manifestation",
+            "rationale": "В ряде заявлений Хареримана поддерживает цели устойчивого развития, рост и конкурентоспособность (evidence_indices: 13, 16), однако прямого приоритета роста инвестиций и деловой активности не выявлено.",
+            "evidence_indices": [
+              13,
+              16
+            ]
+          }
+        },
+        "evidence_file": "evidence/independent-dossier-mussa-fazil-harerimana.json",
+        "evidence_basis": "e2f163b5d8051f61be796a0653086768ecd0b10cd63845b3ee7a766207942faa"
+      }
+    },
+    "positive": 2,
+    "negative": 2,
+    "value": null,
+    "status": "observed",
+    "difference": null,
+    "mass": null,
+    "measurement_model": "independent_poles",
+    "evidence_file": "evidence/independent-dossier-mussa-fazil-harerimana.json",
+    "evidence_basis": "e2f163b5d8051f61be796a0653086768ecd0b10cd63845b3ee7a766207942faa",
+    "at": "2026-10-15T17:31:37.890929+00:00",
+    "reason": "Каждое свойство оценивается независимо; разность и искусственное дополнение до пяти не вычисляются"
+  },
+  {
+    "object_id": "mussa-fazil-harerimana",
+    "scale_id": "external-domestic-resources",
+    "pole_scores": {
+      "positive": {
+        "status": "unknown",
+        "value": null,
+        "confidence": 0,
+        "evidence_indices": [],
+        "source_urls": [],
+        "event_ids": [],
+        "rationale": "Нет прямых свидетельств привлечения внешнего финансирования или ресурсных партнёров в публичных заявлениях Харериманы.",
+        "support_type": "unknown",
+        "provenance": {
+          "raw_response_file": "evidence/independent_responses/10ce3dcb660a8bc37a513251763c149d84670e405b334a17661468a981bcf59d.json",
+          "model": "gpt-4.1",
+          "at": "2026-10-15T17:31:29.414884+00:00",
+          "cache_key": "10ce3dcb660a8bc37a513251763c149d84670e405b334a17661468a981bcf59d",
+          "original_proposal": {
+            "variable_id": "external-domestic-resources__positive",
+            "status": "unknown",
+            "value": null,
+            "confidence": 0.0,
+            "support_type": "unknown",
+            "rationale": "Нет прямых свидетельств привлечения внешнего финансирования или ресурсных партнёров в публичных заявлениях Харериманы.",
+            "evidence_indices": []
+          }
+        },
+        "evidence_file": "evidence/independent-dossier-mussa-fazil-harerimana.json",
+        "evidence_basis": "e2f163b5d8051f61be796a0653086768ecd0b10cd63845b3ee7a766207942faa"
+      },
+      "negative": {
+        "status": "observed",
+        "value": 1,
+        "confidence": 0.3,
+        "evidence_indices": [
+          8
+        ],
+        "source_urls": [
+          "https://www.nyarugenge.gov.rw/amakuru/soma-ibikurikira/hakozwe-ibikorwa-byo-kwibuka-mu-murenge-wa-nyarugenge"
+        ],
+        "event_ids": [
+          "harerimana-nyarugenge-remembrance-2023-04-10"
+        ],
+        "rationale": "В одном эпизоде Хареримана призывал к мобилизации внутренних вкладов для решения проблем (evidence_index: 8), однако это единичное и ограниченное проявление.",
+        "support_type": "positive_manifestation",
+        "provenance": {
+          "raw_response_file": "evidence/independent_responses/10ce3dcb660a8bc37a513251763c149d84670e405b334a17661468a981bcf59d.json",
+          "model": "gpt-4.1",
+          "at": "2026-10-15T17:31:29.414884+00:00",
+          "cache_key": "10ce3dcb660a8bc37a513251763c149d84670e405b334a17661468a981bcf59d",
+          "original_proposal": {
+            "variable_id": "external-domestic-resources__negative",
+            "status": "observed",
+            "value": 1,
+            "confidence": 0.3,
+            "support_type": "positive_manifestation",
+            "rationale": "В одном эпизоде Хареримана призывал к мобилизации внутренних вкладов для решения проблем (evidence_index: 8), однако это единичное и ограниченное проявление.",
+            "evidence_indices": [
+              8
+            ]
+          }
+        },
+        "evidence_file": "evidence/independent-dossier-mussa-fazil-harerimana.json",
+        "evidence_basis": "e2f163b5d8051f61be796a0653086768ecd0b10cd63845b3ee7a766207942faa"
+      }
+    },
+    "positive": null,
+    "negative": 1,
+    "value": null,
+    "status": "partial",
+    "difference": null,
+    "mass": null,
+    "measurement_model": "independent_poles",
+    "evidence_file": "evidence/independent-dossier-mussa-fazil-harerimana.json",
+    "evidence_basis": "e2f163b5d8051f61be796a0653086768ecd0b10cd63845b3ee7a766207942faa",
+    "at": "2026-10-15T17:31:37.890929+00:00",
+    "reason": "Каждое свойство оценивается независимо; разность и искусственное дополнение до пяти не вычисляются"
+  },
+  {
+    "object_id": "mussa-fazil-harerimana",
+    "scale_id": "international-rules-autonomy",
+    "pole_scores": {
+      "positive": {
+        "status": "unknown",
+        "value": null,
+        "confidence": 0,
+        "evidence_indices": [],
+        "source_urls": [],
+        "event_ids": [],
+        "rationale": "Нет прямых предложений о закреплении международных обязательств или норм в публичных заявлениях Харериманы.",
+        "support_type": "unknown",
+        "provenance": {
+          "raw_response_file": "evidence/independent_responses/10ce3dcb660a8bc37a513251763c149d84670e405b334a17661468a981bcf59d.json",
+          "model": "gpt-4.1",
+          "at": "2026-10-15T17:31:29.414884+00:00",
+          "cache_key": "10ce3dcb660a8bc37a513251763c149d84670e405b334a17661468a981bcf59d",
+          "original_proposal": {
+            "variable_id": "international-rules-autonomy__positive",
+            "status": "unknown",
+            "value": null,
+            "confidence": 0.0,
+            "support_type": "unknown",
+            "rationale": "Нет прямых предложений о закреплении международных обязательств или норм в публичных заявлениях Харериманы.",
+            "evidence_indices": []
+          }
+        },
+        "evidence_file": "evidence/independent-dossier-mussa-fazil-harerimana.json",
+        "evidence_basis": "e2f163b5d8051f61be796a0653086768ecd0b10cd63845b3ee7a766207942faa"
+      },
+      "negative": {
+        "status": "observed",
+        "value": 2,
+        "confidence": 0.5,
+        "evidence_indices": [
+          11
+        ],
+        "source_urls": [
+          "https://www.kigalitoday.com/amakuru/mu-rwanda/article/imyambarire-y-ab-ubu-mu-mboni-za-depite-mussa-fazil"
+        ],
+        "event_ids": [
+          "harerimana-cultural-norms-2026-02-20"
+        ],
+        "rationale": "В интервью Хареримана защищал национальные культурные нормы и самостоятельность их применения (evidence_index: 11), что допускает ограниченное проявление защиты национальной самостоятельности решений.",
+        "support_type": "positive_manifestation",
+        "provenance": {
+          "raw_response_file": "evidence/independent_responses/10ce3dcb660a8bc37a513251763c149d84670e405b334a17661468a981bcf59d.json",
+          "model": "gpt-4.1",
+          "at": "2026-10-15T17:31:29.414884+00:00",
+          "cache_key": "10ce3dcb660a8bc37a513251763c149d84670e405b334a17661468a981bcf59d",
+          "original_proposal": {
+            "variable_id": "international-rules-autonomy__negative",
+            "status": "observed",
+            "value": 2,
+            "confidence": 0.5,
+            "support_type": "positive_manifestation",
+            "rationale": "В интервью Хареримана защищал национальные культурные нормы и самостоятельность их применения (evidence_index: 11), что допускает ограниченное проявление защиты национальной самостоятельности решений.",
+            "evidence_indices": [
+              11
+            ]
+          }
+        },
+        "evidence_file": "evidence/independent-dossier-mussa-fazil-harerimana.json",
+        "evidence_basis": "e2f163b5d8051f61be796a0653086768ecd0b10cd63845b3ee7a766207942faa"
+      }
+    },
+    "positive": null,
+    "negative": 2,
+    "value": null,
+    "status": "partial",
+    "difference": null,
+    "mass": null,
+    "measurement_model": "independent_poles",
+    "evidence_file": "evidence/independent-dossier-mussa-fazil-harerimana.json",
+    "evidence_basis": "e2f163b5d8051f61be796a0653086768ecd0b10cd63845b3ee7a766207942faa",
+    "at": "2026-10-15T17:31:37.890929+00:00",
+    "reason": "Каждое свойство оценивается независимо; разность и искусственное дополнение до пяти не вычисляются"
+  },
+  {
+    "object_id": "mussa-fazil-harerimana",
+    "scale_id": "mediation-adversarial-communication",
+    "pole_scores": {
+      "positive": {
+        "status": "unknown",
+        "value": null,
+        "confidence": 0,
+        "evidence_indices": [],
+        "source_urls": [],
+        "event_ids": [],
+        "rationale": "Нет прямых предложений о посредничестве или переговорах в публичных заявлениях Харериманы.",
+        "support_type": "unknown",
+        "provenance": {
+          "raw_response_file": "evidence/independent_responses/10ce3dcb660a8bc37a513251763c149d84670e405b334a17661468a981bcf59d.json",
+          "model": "gpt-4.1",
+          "at": "2026-10-15T17:31:29.414884+00:00",
+          "cache_key": "10ce3dcb660a8bc37a513251763c149d84670e405b334a17661468a981bcf59d",
+          "original_proposal": {
+            "variable_id": "mediation-adversarial-communication__positive",
+            "status": "unknown",
+            "value": null,
+            "confidence": 0.0,
+            "support_type": "unknown",
+            "rationale": "Нет прямых предложений о посредничестве или переговорах в публичных заявлениях Харериманы.",
+            "evidence_indices": []
+          }
+        },
+        "evidence_file": "evidence/independent-dossier-mussa-fazil-harerimana.json",
+        "evidence_basis": "e2f163b5d8051f61be796a0653086768ecd0b10cd63845b3ee7a766207942faa"
+      },
+      "negative": {
+        "status": "observed",
+        "value": 2,
+        "confidence": 0.5,
+        "evidence_indices": [
+          7,
+          14
+        ],
+        "source_urls": [
+          "https://www.ktpress.rw/2021/12/pdi-party-marks-30-years-with-pledge-of-allegiance-to-ruling-party/"
+        ],
+        "event_ids": [
+          "harerimana-pdi-allegiance-2021-11-30",
+          "mfh-2021-12-02-anti-division"
+        ],
+        "rationale": "В ряде заявлений Хареримана выступал с защитой государственного курса, опровергал политику разделения и выступал против использования свободы слова для разрушения страны (evidence_indices: 7, 14), что указывает на ограниченное проявление защиты собственной стороны.",
+        "support_type": "positive_manifestation",
+        "provenance": {
+          "raw_response_file": "evidence/independent_responses/10ce3dcb660a8bc37a513251763c149d84670e405b334a17661468a981bcf59d.json",
+          "model": "gpt-4.1",
+          "at": "2026-10-15T17:31:29.414884+00:00",
+          "cache_key": "10ce3dcb660a8bc37a513251763c149d84670e405b334a17661468a981bcf59d",
+          "original_proposal": {
+            "variable_id": "mediation-adversarial-communication__negative",
+            "status": "observed",
+            "value": 2,
+            "confidence": 0.5,
+            "support_type": "positive_manifestation",
+            "rationale": "В ряде заявлений Хареримана выступал с защитой государственного курса, опровергал политику разделения и выступал против использования свободы слова для разрушения страны (evidence_indices: 7, 14), что указывает на ограниченное проявление защиты собственной стороны.",
+            "evidence_indices": [
+              7,
+              14
+            ]
+          }
+        },
+        "evidence_file": "evidence/independent-dossier-mussa-fazil-harerimana.json",
+        "evidence_basis": "e2f163b5d8051f61be796a0653086768ecd0b10cd63845b3ee7a766207942faa"
+      }
+    },
+    "positive": null,
+    "negative": 2,
+    "value": null,
+    "status": "partial",
+    "difference": null,
+    "mass": null,
+    "measurement_model": "independent_poles",
+    "evidence_file": "evidence/independent-dossier-mussa-fazil-harerimana.json",
+    "evidence_basis": "e2f163b5d8051f61be796a0653086768ecd0b10cd63845b3ee7a766207942faa",
+    "at": "2026-10-15T17:31:37.890929+00:00",
+    "reason": "Каждое свойство оценивается независимо; разность и искусственное дополнение до пяти не вычисляются"
+  },
+  {
+    "object_id": "mussa-fazil-harerimana",
+    "scale_id": "cultural-openness-national-transmission",
+    "pole_scores": {
+      "positive": {
+        "status": "unknown",
+        "value": null,
+        "confidence": 0,
+        "evidence_indices": [],
+        "source_urls": [],
+        "event_ids": [],
+        "rationale": "Нет прямых свидетельств публичных действий или заявлений Харериманы, направленных на расширение межкультурного обмена или культурного разнообразия в исследуемый период.",
+        "support_type": "unknown",
+        "provenance": {
+          "raw_response_file": "evidence/independent_responses/d708c6da0f10d587659fde76337aef4565ed7a3ac540fa0f25ee0cffd682f31f.json",
+          "model": "gpt-4.1",
+          "at": "2026-10-15T17:31:37.886501+00:00",
+          "cache_key": "d708c6da0f10d587659fde76337aef4565ed7a3ac540fa0f25ee0cffd682f31f",
+          "original_proposal": {
+            "variable_id": "cultural-openness-national-transmission__positive",
+            "status": "unknown",
+            "value": null,
+            "confidence": 0,
+            "support_type": "unknown",
+            "rationale": "Нет прямых свидетельств публичных действий или заявлений Харериманы, направленных на расширение межкультурного обмена или культурного разнообразия в исследуемый период.",
+            "evidence_indices": []
+          }
+        },
+        "evidence_file": "evidence/independent-dossier-mussa-fazil-harerimana.json",
+        "evidence_basis": "e2f163b5d8051f61be796a0653086768ecd0b10cd63845b3ee7a766207942faa"
+      },
+      "negative": {
+        "status": "observed",
+        "value": 3,
+        "confidence": 0.8,
+        "evidence_indices": [
+          8,
+          10,
+          11
+        ],
+        "source_urls": [
+          "https://www.nyarugenge.gov.rw/amakuru/soma-ibikurikira/hakozwe-ibikorwa-byo-kwibuka-mu-murenge-wa-nyarugenge",
+          "https://agaciropress.com/kagame-guidance-beacon-rwanda-pdi/",
+          "https://www.kigalitoday.com/amakuru/mu-rwanda/article/imyambarire-y-ab-ubu-mu-mboni-za-depite-mussa-fazil"
+        ],
+        "event_ids": [
+          "harerimana-nyarugenge-remembrance-2023-04-10",
+          "harerimana-pdi-congress-2026-06-21",
+          "harerimana-cultural-norms-2026-02-20"
+        ],
+        "rationale": "В интервью Хареримана подчёркивал значение руандийской культуры, её регулирующую роль вне законов и допустимость наказания за нарушение культурных норм (например, публичная нагота). Также в публичных выступлениях акцентировал преемственность национальных ценностей и единства (например, на партийных и памятных мероприятиях). Это устойчивый акцент на сохранении и передаче национальных ценностей, подтверждённый несколькими эпизодами.",
+        "support_type": "positive_manifestation",
+        "provenance": {
+          "raw_response_file": "evidence/independent_responses/d708c6da0f10d587659fde76337aef4565ed7a3ac540fa0f25ee0cffd682f31f.json",
+          "model": "gpt-4.1",
+          "at": "2026-10-15T17:31:37.886501+00:00",
+          "cache_key": "d708c6da0f10d587659fde76337aef4565ed7a3ac540fa0f25ee0cffd682f31f",
+          "original_proposal": {
+            "variable_id": "cultural-openness-national-transmission__negative",
+            "status": "observed",
+            "value": 3,
+            "confidence": 0.8,
+            "support_type": "positive_manifestation",
+            "rationale": "В интервью Хареримана подчёркивал значение руандийской культуры, её регулирующую роль вне законов и допустимость наказания за нарушение культурных норм (например, публичная нагота). Также в публичных выступлениях акцентировал преемственность национальных ценностей и единства (например, на партийных и памятных мероприятиях). Это устойчивый акцент на сохранении и передаче национальных ценностей, подтверждённый несколькими эпизодами.",
+            "evidence_indices": [
+              8,
+              10,
+              11
+            ]
+          }
+        },
+        "evidence_file": "evidence/independent-dossier-mussa-fazil-harerimana.json",
+        "evidence_basis": "e2f163b5d8051f61be796a0653086768ecd0b10cd63845b3ee7a766207942faa"
+      }
+    },
+    "positive": null,
+    "negative": 3,
+    "value": null,
+    "status": "partial",
+    "difference": null,
+    "mass": null,
+    "measurement_model": "independent_poles",
+    "evidence_file": "evidence/independent-dossier-mussa-fazil-harerimana.json",
+    "evidence_basis": "e2f163b5d8051f61be796a0653086768ecd0b10cd63845b3ee7a766207942faa",
+    "at": "2026-10-15T17:31:37.890929+00:00",
+    "reason": "Каждое свойство оценивается независимо; разность и искусственное дополнение до пяти не вычисляются"
+  },
+  {
+    "object_id": "mussa-fazil-harerimana",
+    "scale_id": "problem-disclosure-reputation-defence",
+    "pole_scores": {
+      "positive": {
+        "status": "unknown",
+        "value": null,
+        "confidence": 0,
+        "evidence_indices": [],
+        "source_urls": [],
+        "event_ids": [],
+        "rationale": "Нет прямых свидетельств публичного признания Харериманой конкретных проблем, ограничений или сбоев в исполнении политики или управления.",
+        "support_type": "unknown",
+        "provenance": {
+          "raw_response_file": "evidence/independent_responses/d708c6da0f10d587659fde76337aef4565ed7a3ac540fa0f25ee0cffd682f31f.json",
+          "model": "gpt-4.1",
+          "at": "2026-10-15T17:31:37.886501+00:00",
+          "cache_key": "d708c6da0f10d587659fde76337aef4565ed7a3ac540fa0f25ee0cffd682f31f",
+          "original_proposal": {
+            "variable_id": "problem-disclosure-reputation-defence__positive",
+            "status": "unknown",
+            "value": null,
+            "confidence": 0,
+            "support_type": "unknown",
+            "rationale": "Нет прямых свидетельств публичного признания Харериманой конкретных проблем, ограничений или сбоев в исполнении политики или управления.",
+            "evidence_indices": []
+          }
+        },
+        "evidence_file": "evidence/independent-dossier-mussa-fazil-harerimana.json",
+        "evidence_basis": "e2f163b5d8051f61be796a0653086768ecd0b10cd63845b3ee7a766207942faa"
+      },
+      "negative": {
+        "status": "observed",
+        "value": 4,
+        "confidence": 0.85,
+        "evidence_indices": [
+          7,
+          10,
+          13,
+          14,
+          16,
+          17,
+          18
+        ],
+        "source_urls": [
+          "https://www.ktpress.rw/2021/12/pdi-party-marks-30-years-with-pledge-of-allegiance-to-ruling-party/",
+          "https://agaciropress.com/kagame-guidance-beacon-rwanda-pdi/",
+          "https://rwandadispatch.com/charting-progress-africa-needs-rwandas-governance-model/"
+        ],
+        "event_ids": [
+          "harerimana-pdi-allegiance-2021-11-30",
+          "harerimana-pdi-congress-2026-06-21",
+          "mfh-2021-12-02-support-rpf",
+          "mfh-2021-12-02-anti-division",
+          "mfh-2021-12-02-governance-objectives",
+          "mfh-2024-07-09-kagame-endorsement",
+          "mfh-2024-07-09-governance-model"
+        ],
+        "rationale": "Хареримана неоднократно публично защищал действующий курс Руанды, подчёркивал достижения, отвергал политику разделения и использование свободы слова для 'разрушения страны', а также представлял модель управления Руанды как пример для других. Это повторяющийся акцент на защиту репутации страны и своей политики.",
+        "support_type": "positive_manifestation",
+        "provenance": {
+          "raw_response_file": "evidence/independent_responses/d708c6da0f10d587659fde76337aef4565ed7a3ac540fa0f25ee0cffd682f31f.json",
+          "model": "gpt-4.1",
+          "at": "2026-10-15T17:31:37.886501+00:00",
+          "cache_key": "d708c6da0f10d587659fde76337aef4565ed7a3ac540fa0f25ee0cffd682f31f",
+          "original_proposal": {
+            "variable_id": "problem-disclosure-reputation-defence__negative",
+            "status": "observed",
+            "value": 4,
+            "confidence": 0.85,
+            "support_type": "positive_manifestation",
+            "rationale": "Хареримана неоднократно публично защищал действующий курс Руанды, подчёркивал достижения, отвергал политику разделения и использование свободы слова для 'разрушения страны', а также представлял модель управления Руанды как пример для других. Это повторяющийся акцент на защиту репутации страны и своей политики.",
+            "evidence_indices": [
+              7,
+              10,
+              13,
+              14,
+              16,
+              17,
+              18
+            ]
+          }
+        },
+        "evidence_file": "evidence/independent-dossier-mussa-fazil-harerimana.json",
+        "evidence_basis": "e2f163b5d8051f61be796a0653086768ecd0b10cd63845b3ee7a766207942faa"
+      }
+    },
+    "positive": null,
+    "negative": 4,
+    "value": null,
+    "status": "partial",
+    "difference": null,
+    "mass": null,
+    "measurement_model": "independent_poles",
+    "evidence_file": "evidence/independent-dossier-mussa-fazil-harerimana.json",
+    "evidence_basis": "e2f163b5d8051f61be796a0653086768ecd0b10cd63845b3ee7a766207942faa",
+    "at": "2026-10-15T17:31:37.890929+00:00",
+    "reason": "Каждое свойство оценивается независимо; разность и искусственное дополнение до пяти не вычисляются"
+  },
+  {
+    "object_id": "mussa-fazil-harerimana",
+    "scale_id": "procedural-guarantees-enforcement",
+    "pole_scores": {
+      "positive": {
+        "status": "unknown",
+        "value": null,
+        "confidence": 0,
+        "evidence_indices": [],
+        "source_urls": [],
+        "event_ids": [],
+        "rationale": "Нет прямых свидетельств действий или заявлений Харериманы, направленных на расширение процедурных гарантий, защиты или обжалования.",
+        "support_type": "unknown",
+        "provenance": {
+          "raw_response_file": "evidence/independent_responses/d708c6da0f10d587659fde76337aef4565ed7a3ac540fa0f25ee0cffd682f31f.json",
+          "model": "gpt-4.1",
+          "at": "2026-10-15T17:31:37.886501+00:00",
+          "cache_key": "d708c6da0f10d587659fde76337aef4565ed7a3ac540fa0f25ee0cffd682f31f",
+          "original_proposal": {
+            "variable_id": "procedural-guarantees-enforcement__positive",
+            "status": "unknown",
+            "value": null,
+            "confidence": 0,
+            "support_type": "unknown",
+            "rationale": "Нет прямых свидетельств действий или заявлений Харериманы, направленных на расширение процедурных гарантий, защиты или обжалования.",
+            "evidence_indices": []
+          }
+        },
+        "evidence_file": "evidence/independent-dossier-mussa-fazil-harerimana.json",
+        "evidence_basis": "e2f163b5d8051f61be796a0653086768ecd0b10cd63845b3ee7a766207942faa"
+      },
+      "negative": {
+        "status": "observed",
+        "value": 2,
+        "confidence": 0.7,
+        "evidence_indices": [
+          11
+        ],
+        "source_urls": [
+          "https://www.kigalitoday.com/amakuru/mu-rwanda/article/imyambarire-y-ab-ubu-mu-mboni-za-depite-mussa-fazil"
+        ],
+        "event_ids": [
+          "harerimana-cultural-norms-2026-02-20"
+        ],
+        "rationale": "В интервью Хареримана одобрительно упоминал возможность наказания за нарушение культурных норм по усмотрению судьи, что свидетельствует о поддержке принудительного исполнения конкретных правил. Однако других эпизодов с акцентом на принуждение не выявлено.",
+        "support_type": "positive_manifestation",
+        "provenance": {
+          "raw_response_file": "evidence/independent_responses/d708c6da0f10d587659fde76337aef4565ed7a3ac540fa0f25ee0cffd682f31f.json",
+          "model": "gpt-4.1",
+          "at": "2026-10-15T17:31:37.886501+00:00",
+          "cache_key": "d708c6da0f10d587659fde76337aef4565ed7a3ac540fa0f25ee0cffd682f31f",
+          "original_proposal": {
+            "variable_id": "procedural-guarantees-enforcement__negative",
+            "status": "observed",
+            "value": 2,
+            "confidence": 0.7,
+            "support_type": "positive_manifestation",
+            "rationale": "В интервью Хареримана одобрительно упоминал возможность наказания за нарушение культурных норм по усмотрению судьи, что свидетельствует о поддержке принудительного исполнения конкретных правил. Однако других эпизодов с акцентом на принуждение не выявлено.",
+            "evidence_indices": [
+              11
+            ]
+          }
+        },
+        "evidence_file": "evidence/independent-dossier-mussa-fazil-harerimana.json",
+        "evidence_basis": "e2f163b5d8051f61be796a0653086768ecd0b10cd63845b3ee7a766207942faa"
+      }
+    },
+    "positive": null,
+    "negative": 2,
+    "value": null,
+    "status": "partial",
+    "difference": null,
+    "mass": null,
+    "measurement_model": "independent_poles",
+    "evidence_file": "evidence/independent-dossier-mussa-fazil-harerimana.json",
+    "evidence_basis": "e2f163b5d8051f61be796a0653086768ecd0b10cd63845b3ee7a766207942faa",
+    "at": "2026-10-15T17:31:37.890929+00:00",
+    "reason": "Каждое свойство оценивается независимо; разность и искусственное дополнение до пяти не вычисляются"
+  },
+  {
+    "object_id": "mussa-fazil-harerimana",
+    "scale_id": "prevention-crisis-response",
+    "pole_scores": {
+      "positive": {
+        "status": "unknown",
+        "value": null,
+        "confidence": 0,
+        "evidence_indices": [],
+        "source_urls": [],
+        "event_ids": [],
+        "rationale": "Нет прямых свидетельств публичных действий или заявлений Харериманы, направленных на упреждающее снижение рисков или подготовку к угрозам.",
+        "support_type": "unknown",
+        "provenance": {
+          "raw_response_file": "evidence/independent_responses/d708c6da0f10d587659fde76337aef4565ed7a3ac540fa0f25ee0cffd682f31f.json",
+          "model": "gpt-4.1",
+          "at": "2026-10-15T17:31:37.886501+00:00",
+          "cache_key": "d708c6da0f10d587659fde76337aef4565ed7a3ac540fa0f25ee0cffd682f31f",
+          "original_proposal": {
+            "variable_id": "prevention-crisis-response__positive",
+            "status": "unknown",
+            "value": null,
+            "confidence": 0,
+            "support_type": "unknown",
+            "rationale": "Нет прямых свидетельств публичных действий или заявлений Харериманы, направленных на упреждающее снижение рисков или подготовку к угрозам.",
+            "evidence_indices": []
+          }
+        },
+        "evidence_file": "evidence/independent-dossier-mussa-fazil-harerimana.json",
+        "evidence_basis": "e2f163b5d8051f61be796a0653086768ecd0b10cd63845b3ee7a766207942faa"
+      },
+      "negative": {
+        "status": "unknown",
+        "value": null,
+        "confidence": 0,
+        "evidence_indices": [],
+        "source_urls": [],
+        "event_ids": [],
+        "rationale": "Нет прямых свидетельств публичных действий или заявлений Харериманы, направленных на оперативное реагирование на возникшие угрозы в исследуемый период.",
+        "support_type": "unknown",
+        "provenance": {
+          "raw_response_file": "evidence/independent_responses/d708c6da0f10d587659fde76337aef4565ed7a3ac540fa0f25ee0cffd682f31f.json",
+          "model": "gpt-4.1",
+          "at": "2026-10-15T17:31:37.886501+00:00",
+          "cache_key": "d708c6da0f10d587659fde76337aef4565ed7a3ac540fa0f25ee0cffd682f31f",
+          "original_proposal": {
+            "variable_id": "prevention-crisis-response__negative",
+            "status": "unknown",
+            "value": null,
+            "confidence": 0,
+            "support_type": "unknown",
+            "rationale": "Нет прямых свидетельств публичных действий или заявлений Харериманы, направленных на оперативное реагирование на возникшие угрозы в исследуемый период.",
+            "evidence_indices": []
+          }
+        },
+        "evidence_file": "evidence/independent-dossier-mussa-fazil-harerimana.json",
+        "evidence_basis": "e2f163b5d8051f61be796a0653086768ecd0b10cd63845b3ee7a766207942faa"
+      }
+    },
+    "positive": null,
+    "negative": null,
+    "value": null,
+    "status": "unknown",
+    "difference": null,
+    "mass": null,
+    "measurement_model": "independent_poles",
+    "evidence_file": "evidence/independent-dossier-mussa-fazil-harerimana.json",
+    "evidence_basis": "e2f163b5d8051f61be796a0653086768ecd0b10cd63845b3ee7a766207942faa",
+    "at": "2026-10-15T17:31:37.890929+00:00",
+    "reason": "Каждое свойство оценивается независимо; разность и искусственное дополнение до пяти не вычисляются"
+  },
+  {
+    "object_id": "mussa-fazil-harerimana",
+    "scale_id": "electoral-access",
+    "pole_scores": {
+      "positive": {
+        "status": "unknown",
+        "value": null,
+        "confidence": 0,
+        "evidence_indices": [],
+        "source_urls": [],
+        "event_ids": [],
+        "rationale": "Нет прямых свидетельств предложений или действий Харериманы по расширению доступа к выборной конкуренции.",
+        "support_type": "unknown",
+        "provenance": {
+          "raw_response_file": "evidence/independent_responses/d708c6da0f10d587659fde76337aef4565ed7a3ac540fa0f25ee0cffd682f31f.json",
+          "model": "gpt-4.1",
+          "at": "2026-10-15T17:31:37.886501+00:00",
+          "cache_key": "d708c6da0f10d587659fde76337aef4565ed7a3ac540fa0f25ee0cffd682f31f",
+          "original_proposal": {
+            "variable_id": "electoral-access__positive",
+            "status": "unknown",
+            "value": null,
+            "confidence": 0,
+            "support_type": "unknown",
+            "rationale": "Нет прямых свидетельств предложений или действий Харериманы по расширению доступа к выборной конкуренции.",
+            "evidence_indices": []
+          }
+        },
+        "evidence_file": "evidence/independent-dossier-mussa-fazil-harerimana.json",
+        "evidence_basis": "e2f163b5d8051f61be796a0653086768ecd0b10cd63845b3ee7a766207942faa"
+      },
+      "negative": {
+        "status": "unknown",
+        "value": null,
+        "confidence": 0,
+        "evidence_indices": [],
+        "source_urls": [],
+        "event_ids": [],
+        "rationale": "Нет прямых свидетельств предложений или решений Харериманы по усилению квалификационных барьеров политического участия.",
+        "support_type": "unknown",
+        "provenance": {
+          "raw_response_file": "evidence/independent_responses/d708c6da0f10d587659fde76337aef4565ed7a3ac540fa0f25ee0cffd682f31f.json",
+          "model": "gpt-4.1",
+          "at": "2026-10-15T17:31:37.886501+00:00",
+          "cache_key": "d708c6da0f10d587659fde76337aef4565ed7a3ac540fa0f25ee0cffd682f31f",
+          "original_proposal": {
+            "variable_id": "electoral-access__negative",
+            "status": "unknown",
+            "value": null,
+            "confidence": 0,
+            "support_type": "unknown",
+            "rationale": "Нет прямых свидетельств предложений или решений Харериманы по усилению квалификационных барьеров политического участия.",
+            "evidence_indices": []
+          }
+        },
+        "evidence_file": "evidence/independent-dossier-mussa-fazil-harerimana.json",
+        "evidence_basis": "e2f163b5d8051f61be796a0653086768ecd0b10cd63845b3ee7a766207942faa"
+      }
+    },
+    "positive": null,
+    "negative": null,
+    "value": null,
+    "status": "unknown",
+    "difference": null,
+    "mass": null,
+    "measurement_model": "independent_poles",
+    "evidence_file": "evidence/independent-dossier-mussa-fazil-harerimana.json",
+    "evidence_basis": "e2f163b5d8051f61be796a0653086768ecd0b10cd63845b3ee7a766207942faa",
+    "at": "2026-10-15T17:31:37.890929+00:00",
+    "reason": "Каждое свойство оценивается независимо; разность и искусственное дополнение до пяти не вычисляются"
+  },
+  {
+    "object_id": "mussa-fazil-harerimana",
+    "scale_id": "institutional-autonomy-coordination",
+    "pole_scores": {
+      "positive": {
+        "status": "unknown",
+        "value": null,
+        "confidence": 0,
+        "evidence_indices": [],
+        "source_urls": [],
+        "event_ids": [],
+        "rationale": "Нет прямых свидетельств действий или заявлений Харериманы, направленных на защиту автономии институтов или независимого контроля.",
+        "support_type": "unknown",
+        "provenance": {
+          "raw_response_file": "evidence/independent_responses/d708c6da0f10d587659fde76337aef4565ed7a3ac540fa0f25ee0cffd682f31f.json",
+          "model": "gpt-4.1",
+          "at": "2026-10-15T17:31:37.886501+00:00",
+          "cache_key": "d708c6da0f10d587659fde76337aef4565ed7a3ac540fa0f25ee0cffd682f31f",
+          "original_proposal": {
+            "variable_id": "institutional-autonomy-coordination__positive",
+            "status": "unknown",
+            "value": null,
+            "confidence": 0,
+            "support_type": "unknown",
+            "rationale": "Нет прямых свидетельств действий или заявлений Харериманы, направленных на защиту автономии институтов или независимого контроля.",
+            "evidence_indices": []
+          }
+        },
+        "evidence_file": "evidence/independent-dossier-mussa-fazil-harerimana.json",
+        "evidence_basis": "e2f163b5d8051f61be796a0653086768ecd0b10cd63845b3ee7a766207942faa"
+      },
+      "negative": {
+        "status": "observed",
+        "value": 3,
+        "confidence": 0.8,
+        "evidence_indices": [
+          6,
+          10,
+          12,
+          13,
+          16
+        ],
+        "source_urls": [
+          "https://www.ktpress.rw/2021/12/pdi-party-marks-30-years-with-pledge-of-allegiance-to-ruling-party/",
+          "https://agaciropress.com/kagame-guidance-beacon-rwanda-pdi/"
+        ],
+        "event_ids": [
+          "harerimana-pdi-allegiance-2021-11-30",
+          "harerimana-pdi-congress-2026-06-21",
+          "mfh-2021-12-02-pdi-30-years",
+          "mfh-2021-12-02-support-rpf",
+          "mfh-2021-12-02-governance-objectives"
+        ],
+        "rationale": "Хареримана как председатель PDI и заместитель спикера неоднократно заявлял о сотрудничестве с правящей партией, поддержке единого курса, едином голосе и необходимости сохранения преемственности. Это устойчивый акцент на согласовании работы институтов единой управленческой линией.",
+        "support_type": "positive_manifestation",
+        "provenance": {
+          "raw_response_file": "evidence/independent_responses/d708c6da0f10d587659fde76337aef4565ed7a3ac540fa0f25ee0cffd682f31f.json",
+          "model": "gpt-4.1",
+          "at": "2026-10-15T17:31:37.886501+00:00",
+          "cache_key": "d708c6da0f10d587659fde76337aef4565ed7a3ac540fa0f25ee0cffd682f31f",
+          "original_proposal": {
+            "variable_id": "institutional-autonomy-coordination__negative",
+            "status": "observed",
+            "value": 3,
+            "confidence": 0.8,
+            "support_type": "positive_manifestation",
+            "rationale": "Хареримана как председатель PDI и заместитель спикера неоднократно заявлял о сотрудничестве с правящей партией, поддержке единого курса, едином голосе и необходимости сохранения преемственности. Это устойчивый акцент на согласовании работы институтов единой управленческой линией.",
+            "evidence_indices": [
+              6,
+              10,
+              12,
+              13,
+              16
+            ]
+          }
+        },
+        "evidence_file": "evidence/independent-dossier-mussa-fazil-harerimana.json",
+        "evidence_basis": "e2f163b5d8051f61be796a0653086768ecd0b10cd63845b3ee7a766207942faa"
+      }
+    },
+    "positive": null,
+    "negative": 3,
+    "value": null,
+    "status": "partial",
+    "difference": null,
+    "mass": null,
+    "measurement_model": "independent_poles",
+    "evidence_file": "evidence/independent-dossier-mussa-fazil-harerimana.json",
+    "evidence_basis": "e2f163b5d8051f61be796a0653086768ecd0b10cd63845b3ee7a766207942faa",
+    "at": "2026-10-15T17:31:37.890929+00:00",
+    "reason": "Каждое свойство оценивается независимо; разность и искусственное дополнение до пяти не вычисляются"
+  },
+  {
+    "object_id": "mussa-fazil-harerimana",
+    "scale_id": "taxation-burden-public-revenue",
+    "pole_scores": {
+      "positive": {
+        "status": "unknown",
+        "value": null,
+        "confidence": 0,
+        "evidence_indices": [],
+        "source_urls": [],
+        "event_ids": [],
+        "rationale": "Нет прямых свидетельств предложений Харериманы по снижению налоговой нагрузки или расширению имущественной самостоятельности.",
+        "support_type": "unknown",
+        "provenance": {
+          "raw_response_file": "evidence/independent_responses/d708c6da0f10d587659fde76337aef4565ed7a3ac540fa0f25ee0cffd682f31f.json",
+          "model": "gpt-4.1",
+          "at": "2026-10-15T17:31:37.886501+00:00",
+          "cache_key": "d708c6da0f10d587659fde76337aef4565ed7a3ac540fa0f25ee0cffd682f31f",
+          "original_proposal": {
+            "variable_id": "taxation-burden-public-revenue__positive",
+            "status": "unknown",
+            "value": null,
+            "confidence": 0,
+            "support_type": "unknown",
+            "rationale": "Нет прямых свидетельств предложений Харериманы по снижению налоговой нагрузки или расширению имущественной самостоятельности.",
+            "evidence_indices": []
+          }
+        },
+        "evidence_file": "evidence/independent-dossier-mussa-fazil-harerimana.json",
+        "evidence_basis": "e2f163b5d8051f61be796a0653086768ecd0b10cd63845b3ee7a766207942faa"
+      },
+      "negative": {
+        "status": "unknown",
+        "value": null,
+        "confidence": 0,
+        "evidence_indices": [],
+        "source_urls": [],
+        "event_ids": [],
+        "rationale": "Нет прямых свидетельств поддержки Харериманой увеличения налоговых поступлений для публичного развития.",
+        "support_type": "unknown",
+        "provenance": {
+          "raw_response_file": "evidence/independent_responses/d708c6da0f10d587659fde76337aef4565ed7a3ac540fa0f25ee0cffd682f31f.json",
+          "model": "gpt-4.1",
+          "at": "2026-10-15T17:31:37.886501+00:00",
+          "cache_key": "d708c6da0f10d587659fde76337aef4565ed7a3ac540fa0f25ee0cffd682f31f",
+          "original_proposal": {
+            "variable_id": "taxation-burden-public-revenue__negative",
+            "status": "unknown",
+            "value": null,
+            "confidence": 0,
+            "support_type": "unknown",
+            "rationale": "Нет прямых свидетельств поддержки Харериманой увеличения налоговых поступлений для публичного развития.",
+            "evidence_indices": []
+          }
+        },
+        "evidence_file": "evidence/independent-dossier-mussa-fazil-harerimana.json",
+        "evidence_basis": "e2f163b5d8051f61be796a0653086768ecd0b10cd63845b3ee7a766207942faa"
+      }
+    },
+    "positive": null,
+    "negative": null,
+    "value": null,
+    "status": "unknown",
+    "difference": null,
+    "mass": null,
+    "measurement_model": "independent_poles",
+    "evidence_file": "evidence/independent-dossier-mussa-fazil-harerimana.json",
+    "evidence_basis": "e2f163b5d8051f61be796a0653086768ecd0b10cd63845b3ee7a766207942faa",
+    "at": "2026-10-15T17:31:37.890929+00:00",
+    "reason": "Каждое свойство оценивается независимо; разность и искусственное дополнение до пяти не вычисляются"
+  },
+  {
+    "object_id": "mussa-fazil-harerimana",
+    "scale_id": "universal-targeted-provision",
+    "pole_scores": {
+      "positive": {
+        "status": "unknown",
+        "value": null,
+        "confidence": 0,
+        "evidence_indices": [],
+        "source_urls": [],
+        "event_ids": [],
+        "rationale": "Нет прямых свидетельств предложений Харериманы по обеспечению единых стандартов доступности благ для всего населения.",
+        "support_type": "unknown",
+        "provenance": {
+          "raw_response_file": "evidence/independent_responses/d708c6da0f10d587659fde76337aef4565ed7a3ac540fa0f25ee0cffd682f31f.json",
+          "model": "gpt-4.1",
+          "at": "2026-10-15T17:31:37.886501+00:00",
+          "cache_key": "d708c6da0f10d587659fde76337aef4565ed7a3ac540fa0f25ee0cffd682f31f",
+          "original_proposal": {
+            "variable_id": "universal-targeted-provision__positive",
+            "status": "unknown",
+            "value": null,
+            "confidence": 0,
+            "support_type": "unknown",
+            "rationale": "Нет прямых свидетельств предложений Харериманы по обеспечению единых стандартов доступности благ для всего населения.",
+            "evidence_indices": []
+          }
+        },
+        "evidence_file": "evidence/independent-dossier-mussa-fazil-harerimana.json",
+        "evidence_basis": "e2f163b5d8051f61be796a0653086768ecd0b10cd63845b3ee7a766207942faa"
+      },
+      "negative": {
+        "status": "unknown",
+        "value": null,
+        "confidence": 0,
+        "evidence_indices": [],
+        "source_urls": [],
+        "event_ids": [],
+        "rationale": "Нет прямых свидетельств предложений Харериманы по приоритетной помощи конкретным недостаточно обеспеченным группам.",
+        "support_type": "unknown",
+        "provenance": {
+          "raw_response_file": "evidence/independent_responses/d708c6da0f10d587659fde76337aef4565ed7a3ac540fa0f25ee0cffd682f31f.json",
+          "model": "gpt-4.1",
+          "at": "2026-10-15T17:31:37.886501+00:00",
+          "cache_key": "d708c6da0f10d587659fde76337aef4565ed7a3ac540fa0f25ee0cffd682f31f",
+          "original_proposal": {
+            "variable_id": "universal-targeted-provision__negative",
+            "status": "unknown",
+            "value": null,
+            "confidence": 0,
+            "support_type": "unknown",
+            "rationale": "Нет прямых свидетельств предложений Харериманы по приоритетной помощи конкретным недостаточно обеспеченным группам.",
+            "evidence_indices": []
+          }
+        },
+        "evidence_file": "evidence/independent-dossier-mussa-fazil-harerimana.json",
+        "evidence_basis": "e2f163b5d8051f61be796a0653086768ecd0b10cd63845b3ee7a766207942faa"
+      }
+    },
+    "positive": null,
+    "negative": null,
+    "value": null,
+    "status": "unknown",
+    "difference": null,
+    "mass": null,
+    "measurement_model": "independent_poles",
+    "evidence_file": "evidence/independent-dossier-mussa-fazil-harerimana.json",
+    "evidence_basis": "e2f163b5d8051f61be796a0653086768ecd0b10cd63845b3ee7a766207942faa",
+    "at": "2026-10-15T17:31:37.890929+00:00",
+    "reason": "Каждое свойство оценивается независимо; разность и искусственное дополнение до пяти не вычисляются"
+  },
+  {
+    "object_id": "mussa-fazil-harerimana",
+    "scale_id": "ecological-limits-resource-use",
+    "pole_scores": {
+      "positive": {
+        "status": "observed",
+        "value": 1,
+        "confidence": 0.6,
+        "evidence_indices": [
+          19
+        ],
+        "source_urls": [
+          "https://www.climateparl.net/post/rwanda-mps-take-centre-stage-on-climate-finance"
+        ],
+        "event_ids": [
+          "mfh-2025-07-31-climate-finance-workshop"
+        ],
+        "rationale": "Хареримана участвовал в парламентском семинаре по климатическому финансированию и переходу к возобновляемой энергетике, что свидетельствует о единичном эпизоде поддержки экологической повестки, но без выраженного личного акцента или инициативы.",
+        "support_type": "positive_manifestation",
+        "provenance": {
+          "raw_response_file": "evidence/independent_responses/d708c6da0f10d587659fde76337aef4565ed7a3ac540fa0f25ee0cffd682f31f.json",
+          "model": "gpt-4.1",
+          "at": "2026-10-15T17:31:37.886501+00:00",
+          "cache_key": "d708c6da0f10d587659fde76337aef4565ed7a3ac540fa0f25ee0cffd682f31f",
+          "original_proposal": {
+            "variable_id": "ecological-limits-resource-use__positive",
+            "status": "observed",
+            "value": 1,
+            "confidence": 0.6,
+            "support_type": "positive_manifestation",
+            "rationale": "Хареримана участвовал в парламентском семинаре по климатическому финансированию и переходу к возобновляемой энергетике, что свидетельствует о единичном эпизоде поддержки экологической повестки, но без выраженного личного акцента или инициативы.",
+            "evidence_indices": [
+              19
+            ]
+          }
+        },
+        "evidence_file": "evidence/independent-dossier-mussa-fazil-harerimana.json",
+        "evidence_basis": "e2f163b5d8051f61be796a0653086768ecd0b10cd63845b3ee7a766207942faa"
+      },
+      "negative": {
+        "status": "unknown",
+        "value": null,
+        "confidence": 0,
+        "evidence_indices": [],
+        "source_urls": [],
+        "event_ids": [],
+        "rationale": "Нет прямых свидетельств предложений Харериманы по расширению хозяйственного использования природных ресурсов или ослаблению экологических ограничений.",
+        "support_type": "unknown",
+        "provenance": {
+          "raw_response_file": "evidence/independent_responses/d708c6da0f10d587659fde76337aef4565ed7a3ac540fa0f25ee0cffd682f31f.json",
+          "model": "gpt-4.1",
+          "at": "2026-10-15T17:31:37.886501+00:00",
+          "cache_key": "d708c6da0f10d587659fde76337aef4565ed7a3ac540fa0f25ee0cffd682f31f",
+          "original_proposal": {
+            "variable_id": "ecological-limits-resource-use__negative",
+            "status": "unknown",
+            "value": null,
+            "confidence": 0,
+            "support_type": "unknown",
+            "rationale": "Нет прямых свидетельств предложений Харериманы по расширению хозяйственного использования природных ресурсов или ослаблению экологических ограничений.",
+            "evidence_indices": []
+          }
+        },
+        "evidence_file": "evidence/independent-dossier-mussa-fazil-harerimana.json",
+        "evidence_basis": "e2f163b5d8051f61be796a0653086768ecd0b10cd63845b3ee7a766207942faa"
+      }
+    },
+    "positive": 1,
+    "negative": null,
+    "value": null,
+    "status": "partial",
+    "difference": null,
+    "mass": null,
+    "measurement_model": "independent_poles",
+    "evidence_file": "evidence/independent-dossier-mussa-fazil-harerimana.json",
+    "evidence_basis": "e2f163b5d8051f61be796a0653086768ecd0b10cd63845b3ee7a766207942faa",
+    "at": "2026-10-15T17:31:37.890929+00:00",
+    "reason": "Каждое свойство оценивается независимо; разность и искусственное дополнение до пяти не вычисляются"
+  },
+  {
+    "object_id": "mussa-fazil-harerimana",
+    "scale_id": "russia-diplomatic-engagement",
+    "pole_scores": {
+      "positive": {
+        "status": "unknown",
+        "value": null,
+        "confidence": 0,
+        "evidence_indices": [],
+        "source_urls": [],
+        "event_ids": [],
+        "rationale": "Нет допустимых датированных персональных свидетельств по этому свойству",
+        "support_type": "unknown"
+      },
+      "negative": {
+        "status": "unknown",
+        "value": null,
+        "confidence": 0,
+        "evidence_indices": [],
+        "source_urls": [],
+        "event_ids": [],
+        "rationale": "Нет допустимых датированных персональных свидетельств по этому свойству",
+        "support_type": "unknown"
+      }
+    },
+    "positive": null,
+    "negative": null,
+    "value": null,
+    "status": "unknown",
+    "difference": null,
+    "mass": null,
+    "measurement_model": "independent_poles",
+    "evidence_file": "evidence/independent-dossier-mussa-fazil-harerimana.json",
+    "evidence_basis": "e2f163b5d8051f61be796a0653086768ecd0b10cd63845b3ee7a766207942faa",
+    "at": "2026-10-15T17:31:37.890929+00:00",
+    "reason": "Каждое свойство оценивается независимо; разность и искусственное дополнение до пяти не вычисляются"
+  },
+  {
+    "object_id": "mussa-fazil-harerimana",
+    "scale_id": "russia-security-cooperation",
+    "pole_scores": {
+      "positive": {
+        "status": "unknown",
+        "value": null,
+        "confidence": 0,
+        "evidence_indices": [],
+        "source_urls": [],
+        "event_ids": [],
+        "rationale": "Нет допустимых датированных персональных свидетельств по этому свойству",
+        "support_type": "unknown"
+      },
+      "negative": {
+        "status": "unknown",
+        "value": null,
+        "confidence": 0,
+        "evidence_indices": [],
+        "source_urls": [],
+        "event_ids": [],
+        "rationale": "Нет допустимых датированных персональных свидетельств по этому свойству",
+        "support_type": "unknown"
+      }
+    },
+    "positive": null,
+    "negative": null,
+    "value": null,
+    "status": "unknown",
+    "difference": null,
+    "mass": null,
+    "measurement_model": "independent_poles",
+    "evidence_file": "evidence/independent-dossier-mussa-fazil-harerimana.json",
+    "evidence_basis": "e2f163b5d8051f61be796a0653086768ecd0b10cd63845b3ee7a766207942faa",
+    "at": "2026-10-15T17:31:37.890929+00:00",
+    "reason": "Каждое свойство оценивается независимо; разность и искусственное дополнение до пяти не вычисляются"
+  },
+  {
+    "object_id": "mussa-fazil-harerimana",
+    "scale_id": "russia-economic-technology-cooperation",
+    "pole_scores": {
+      "positive": {
+        "status": "unknown",
+        "value": null,
+        "confidence": 0,
+        "evidence_indices": [],
+        "source_urls": [],
+        "event_ids": [],
+        "rationale": "Нет допустимых датированных персональных свидетельств по этому свойству",
+        "support_type": "unknown"
+      },
+      "negative": {
+        "status": "unknown",
+        "value": null,
+        "confidence": 0,
+        "evidence_indices": [],
+        "source_urls": [],
+        "event_ids": [],
+        "rationale": "Нет допустимых датированных персональных свидетельств по этому свойству",
+        "support_type": "unknown"
+      }
+    },
+    "positive": null,
+    "negative": null,
+    "value": null,
+    "status": "unknown",
+    "difference": null,
+    "mass": null,
+    "measurement_model": "independent_poles",
+    "evidence_file": "evidence/independent-dossier-mussa-fazil-harerimana.json",
+    "evidence_basis": "e2f163b5d8051f61be796a0653086768ecd0b10cd63845b3ee7a766207942faa",
+    "at": "2026-10-15T17:31:37.890929+00:00",
+    "reason": "Каждое свойство оценивается независимо; разность и искусственное дополнение до пяти не вычисляются"
+  },
+  {
+    "object_id": "mussa-fazil-harerimana",
+    "scale_id": "russia-education-cultural-cooperation",
+    "pole_scores": {
+      "positive": {
+        "status": "unknown",
+        "value": null,
+        "confidence": 0,
+        "evidence_indices": [],
+        "source_urls": [],
+        "event_ids": [],
+        "rationale": "Нет допустимых датированных персональных свидетельств по этому свойству",
+        "support_type": "unknown"
+      },
+      "negative": {
+        "status": "unknown",
+        "value": null,
+        "confidence": 0,
+        "evidence_indices": [],
+        "source_urls": [],
+        "event_ids": [],
+        "rationale": "Нет допустимых датированных персональных свидетельств по этому свойству",
+        "support_type": "unknown"
+      }
+    },
+    "positive": null,
+    "negative": null,
+    "value": null,
+    "status": "unknown",
+    "difference": null,
+    "mass": null,
+    "measurement_model": "independent_poles",
+    "evidence_file": "evidence/independent-dossier-mussa-fazil-harerimana.json",
+    "evidence_basis": "e2f163b5d8051f61be796a0653086768ecd0b10cd63845b3ee7a766207942faa",
+    "at": "2026-10-15T17:31:37.890929+00:00",
+    "reason": "Каждое свойство оценивается независимо; разность и искусственное дополнение до пяти не вычисляются"
+  },
+  {
+    "object_id": "mussa-fazil-harerimana",
+    "scale_id": "russia-conflict-policy-evaluation",
+    "pole_scores": {
+      "positive": {
+        "status": "unknown",
+        "value": null,
+        "confidence": 0,
+        "evidence_indices": [],
+        "source_urls": [],
+        "event_ids": [],
+        "rationale": "Нет допустимых датированных персональных свидетельств по этому свойству",
+        "support_type": "unknown"
+      },
+      "negative": {
+        "status": "unknown",
+        "value": null,
+        "confidence": 0,
+        "evidence_indices": [],
+        "source_urls": [],
+        "event_ids": [],
+        "rationale": "Нет допустимых датированных персональных свидетельств по этому свойству",
+        "support_type": "unknown"
+      }
+    },
+    "positive": null,
+    "negative": null,
+    "value": null,
+    "status": "unknown",
+    "difference": null,
+    "mass": null,
+    "measurement_model": "independent_poles",
+    "evidence_file": "evidence/independent-dossier-mussa-fazil-harerimana.json",
+    "evidence_basis": "e2f163b5d8051f61be796a0653086768ecd0b10cd63845b3ee7a766207942faa",
+    "at": "2026-10-15T17:31:37.890929+00:00",
+    "reason": "Каждое свойство оценивается независимо; разность и искусственное дополнение до пяти не вычисляются"
+  },
+  {
+    "object_id": "mussa-fazil-harerimana",
+    "scale_id": "russia-isolation-sanctions",
+    "pole_scores": {
+      "positive": {
+        "status": "unknown",
+        "value": null,
+        "confidence": 0,
+        "evidence_indices": [],
+        "source_urls": [],
+        "event_ids": [],
+        "rationale": "Нет допустимых датированных персональных свидетельств по этому свойству",
+        "support_type": "unknown"
+      },
+      "negative": {
+        "status": "unknown",
+        "value": null,
+        "confidence": 0,
+        "evidence_indices": [],
+        "source_urls": [],
+        "event_ids": [],
+        "rationale": "Нет допустимых датированных персональных свидетельств по этому свойству",
+        "support_type": "unknown"
+      }
+    },
+    "positive": null,
+    "negative": null,
+    "value": null,
+    "status": "unknown",
+    "difference": null,
+    "mass": null,
+    "measurement_model": "independent_poles",
+    "evidence_file": "evidence/independent-dossier-mussa-fazil-harerimana.json",
+    "evidence_basis": "e2f163b5d8051f61be796a0653086768ecd0b10cd63845b3ee7a766207942faa",
+    "at": "2026-10-15T17:31:37.890929+00:00",
+    "reason": "Каждое свойство оценивается независимо; разность и искусственное дополнение до пяти не вычисляются"
+  }
+]
