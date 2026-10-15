@@ -1,0 +1,1044 @@
+{
+  "format_version": 1,
+  "mode": "strict_flag_exclusion_factor_sensitivity",
+  "at": "2026-10-15T19:01:13.155627+00:00",
+  "exclusion_rule": "All currently observed source_audit.decision=flag cells become unknown only in a copy; flags are not automatically false measurements. No threshold changes.",
+  "removed_count": 44,
+  "removed_properties": [
+    {
+      "object_id": "paul-kagame",
+      "scale_id": "problem-disclosure-reputation-defence",
+      "pole": "negative",
+      "previous_value": 2,
+      "reason": "Свойство поддержано отрицанием обвинений, оценка 2 допустима для ясного ограниченного эпизода. Однако 5 и 15 — пересказ одного Reuters от 11.08.2024, а не несколько независимых источников или повторных эпизодов."
+    },
+    {
+      "object_id": "edouard-ngirente",
+      "scale_id": "programmatic-renewal",
+      "pole": "positive",
+      "previous_value": 2,
+      "reason": "Поддержка глобального ограничения пластика (12) — конкретное предложение, но призывы к инновациям и реформам университета (1) не устанавливают пересмотр именно действующего курса. Учитывать как ограниченное предложение и не расширять до общей реформаторской установки."
+    },
+    {
+      "object_id": "vincent-biruta",
+      "scale_id": "russia-conflict-policy-evaluation",
+      "pole": "negative",
+      "previous_value": 1,
+      "reason": "Contextual own public explanation of vote on Ukraine; limited to this event and official role, not a general attitude toward Russia or sanctions."
+    },
+    {
+      "object_id": "juvenal-marizamunda",
+      "scale_id": "international-rules-autonomy",
+      "pole": "negative",
+      "previous_value": 2,
+      "reason": "1 поддерживает решения под африканским руководством. Это региональная самостоятельность; 11 (консультации с Алжиром) сам по себе не доказывает национальную автономию. Не расширять ограниченное региональное высказывание до всей национальной политики."
+    },
+    {
+      "object_id": "albert-murasira",
+      "scale_id": "external-domestic-resources",
+      "pole": "negative",
+      "previous_value": 1,
+      "reason": "12 говорит о самообеспечении домохозяйств беженцев, не о внутренней доходной базе государства. 1 допустим лишь как узкая стратегия снижения зависимости группы от гуманитарной помощи, без вывода о национальной фискальной самостоятельности."
+    },
+    {
+      "object_id": "sabin-nsanzimana",
+      "scale_id": "government-course-assessment",
+      "pole": "negative",
+      "previous_value": 1,
+      "reason": "11 прямо признаёт трудности функционирования медицинских постов. 1 допустим только как узкая критическая оценка исполнения отдельной услуги; не трактовать как отрицание общего государственного курса или оппозиционность."
+    },
+    {
+      "object_id": "valentine-uwamariya",
+      "scale_id": "government-course-assessment",
+      "pole": "negative",
+      "previous_value": 1,
+      "reason": "Индекс 20 относится к критике отставания образования в конкретной провинции, а не к отрицательной оценке всего государственного порядка. Допустим только этот ограниченный смысл слабого значения 1."
+    },
+    {
+      "object_id": "valentine-uwamariya",
+      "scale_id": "market-state-instruments",
+      "pole": "positive",
+      "previous_value": 2,
+      "reason": "Индексы 13,16 отражают участие частного сектора в гендерных программах, а не общее предпочтение приватизации или частного управления. Сохранять только узкую трактовку поддержки частной активности женщин."
+    },
+    {
+      "object_id": "jeanne-darc-mujawamariya",
+      "scale_id": "russia-conflict-policy-evaluation",
+      "pole": "negative",
+      "previous_value": 1,
+      "reason": "Contextual own public explanation of vote on Ukraine; limited to this event and official role, not a general attitude toward Russia or sanctions."
+    },
+    {
+      "object_id": "jean-claude-musabyimana",
+      "scale_id": "market-state-instruments",
+      "pole": "positive",
+      "previous_value": 1,
+      "reason": "Подтверждено только ограниченное участие частного сектора в конкретном межсекторном партнёрстве 17. Общий приоритет частного управления или приватизации из этого не следует."
+    },
+    {
+      "object_id": "jean-claude-musabyimana",
+      "scale_id": "mediation-adversarial-communication",
+      "pole": "positive",
+      "previous_value": 2,
+      "reason": "Индексы 5,19 описывают один призыв к мирной реинтеграции бывших комбатантов. Допустима только рамка поиска примирения, не утверждение о проведённых переговорах или посредническом соглашении."
+    },
+    {
+      "object_id": "jean-damascene-bizimana",
+      "scale_id": "programmatic-renewal",
+      "pole": "negative",
+      "previous_value": 4,
+      "reason": "Повторяющиеся призывы хранить память и укреплять единство поддерживают преемственность именно мемориально-интеграционной политики. Они не свидетельствуют о поддержке всех направлений государственного курса; отсутствие предложений пересмотра не является самостоятельным основанием."
+    },
+    {
+      "object_id": "clare-akamanzi",
+      "scale_id": "participation-administrative-direction",
+      "pole": "positive",
+      "previous_value": 2,
+      "reason": "Индекс 9 описывает согласование участников профессиональной спортивно-деловой платформы. Это не свидетельство передачи политических полномочий гражданам или независимого общественного контроля."
+    },
+    {
+      "object_id": "clare-akamanzi",
+      "scale_id": "institutional-autonomy-coordination",
+      "pole": "positive",
+      "previous_value": 2,
+      "reason": "Проект 17 расширяет административную, финансовую и кадровую автономию исполнительного агентства. Это ограниченная операционная самостоятельность, а не независимый политический контроль или разделение властей; президентский надзор сохранён."
+    },
+    {
+      "object_id": "francis-gatare",
+      "scale_id": "programmatic-renewal",
+      "pole": "positive",
+      "previous_value": 1,
+      "reason": "Число 1 можно отнести только к новому проекту профессиональной магистратуры и первому набору в 3. Модельное rationale ошибочно обсуждаетPPP, которых в этом индексе нет; оно не доказывает пересмотрPPP-курса."
+    },
+    {
+      "object_id": "gertrude-kazarwa",
+      "scale_id": "government-course-assessment",
+      "pole": "positive",
+      "previous_value": 2,
+      "reason": "Индексы 15 и 18 передают почти одинаковые формулировки с разными датами. Значение 2 допускается по одному ясному высказыванию, но эти пересказы нельзя считать автоматически независимыми событиями."
+    },
+    {
+      "object_id": "gertrude-kazarwa",
+      "scale_id": "government-course-assessment",
+      "pole": "negative",
+      "previous_value": 1,
+      "reason": "Индексы 0,10 критикуют результаты гендерных программ; значение 1 относится только к этому ограниченному секторному смыслу, а не к отрицанию всего порядка."
+    },
+    {
+      "object_id": "francois-xavier-kalinda",
+      "scale_id": "mediation-adversarial-communication",
+      "pole": "positive",
+      "previous_value": 3,
+      "reason": "Индексы 2,4,13,17,18 подтверждают повторяющуюся межпарламентскую диалоговую дипломатию. Содержание согласованных интересов и урегулированных споров не раскрыто, поэтому значение 3 нельзя пересказывать как доказательство посредничества в конфликте."
+    },
+    {
+      "object_id": "augustin-iyamuremye",
+      "scale_id": "programmatic-renewal",
+      "pole": "positive",
+      "previous_value": 1,
+      "reason": "Индекс 14 содержит только короткое предложение актуализировать комиссии; значение 1 отражает слабое ограниченное проявление. Содержание реформы, механизм и последствия из фрагмента не устанавливаются."
+    },
+    {
+      "object_id": "alvera-mukabaramba",
+      "scale_id": "accessibility-growth-priorities",
+      "pole": "positive",
+      "previous_value": 2,
+      "reason": "Подтверждён только общий приоритет материального охвата через социальную защиту 12 и помощь малоимущим выжившим 14. Конкретные размеры, услуги и фактически достигнутый охват не приведены."
+    },
+    {
+      "object_id": "alvera-mukabaramba",
+      "scale_id": "mediation-adversarial-communication",
+      "pole": "positive",
+      "previous_value": 2,
+      "reason": "Индексы 9,16 отражают нормативную поддержку политического разделения/распределения власти как способа уменьшить конфликт. Это не свидетельство проведённого ею посредничества или достигнутого соглашения."
+    },
+    {
+      "object_id": "mussa-fazil-harerimana",
+      "scale_id": "government-course-assessment",
+      "pole": "positive",
+      "previous_value": 5,
+      "reason": "Для5 проверить максимальную силу:6/13/16 — одно30-летиеPDI;17/18 — одно высказывание2024. Остаются три события2021/2024/2026, а не шесть независимых эпизодов."
+    },
+    {
+      "object_id": "mussa-fazil-harerimana",
+      "scale_id": "participation-administrative-direction",
+      "pole": "positive",
+      "previous_value": 1,
+      "reason": "12 — межпартийный контакт, без ясного механизма участия граждан/заинтересованных групп в подготовке решений. Не приравнивать партийное согласование общественному контролю."
+    },
+    {
+      "object_id": "mussa-fazil-harerimana",
+      "scale_id": "market-state-instruments",
+      "pole": "negative",
+      "previous_value": 1,
+      "reason": "11 подтверждает собственную поддержку культурно-правового принуждения; проверить соответствие экономическим обязательным инструментам рыночно-государственной шкалы."
+    },
+    {
+      "object_id": "pudence-rubingisa",
+      "scale_id": "argumentation-evidence-values",
+      "pole": "negative",
+      "previous_value": 1,
+      "reason": "15/30 — описание участия и энтузиазмаUmuganda, не явное обоснование решения коллективной ценностью; это один эпизод с ограниченной смысловой опорой."
+    },
+    {
+      "object_id": "pudence-rubingisa",
+      "scale_id": "external-domestic-resources",
+      "pole": "positive",
+      "previous_value": 3,
+      "reason": "6/7 преимущественно визитыВБ/ПРООН без раскрытого финансирования;14 — более прямое медицинское ресурсное содействиеКитая. Для3 не считать встречи несколькими подтверждёнными привлечениями ресурсов."
+    },
+    {
+      "object_id": "samuel-dusengiyumva",
+      "scale_id": "external-domestic-resources",
+      "pole": "positive",
+      "previous_value": 2,
+      "reason": "6/8/18 — технологические/партнёрские контакты;18 прямо без финансового соглашения. Проверить конкретное ресурсное предложение, не выдавать визит за привлечённое финансирование."
+    },
+    {
+      "object_id": "samuel-dusengiyumva",
+      "scale_id": "ecological-limits-resource-use",
+      "pole": "positive",
+      "previous_value": 2,
+      "reason": "Собственный экологический призыв есть в5(сады);17 — участие без установленной личной инициативы,0 — строительный контроль. Отделить конкретное озеленение от вывода об ограничении хозяйственной деятельности."
+    },
+    {
+      "object_id": "philippe-mpayimana",
+      "scale_id": "programmatic-renewal",
+      "pole": "positive",
+      "previous_value": 3,
+      "reason": "Для3 проверить повторяемость: конкретные парламентские/кредитные изменения12/13/14/27/28/29 принадлежат одному программному комплексу кампании2024;2/21 — новое видение без конкретного изменения правил. Пункты манифеста не автоматически разные эпизоды."
+    },
+    {
+      "object_id": "philippe-mpayimana",
+      "scale_id": "government-course-assessment",
+      "pole": "positive",
+      "previous_value": 1,
+      "reason": "23 признаёт личный опытКагаме источником вдохновения; сам факт предупреждает об отсутствии поддержки всего курса. Уточнить предмет измерения: опыт человека либо конкретная политика."
+    },
+    {
+      "object_id": "victoire-ingabire",
+      "scale_id": "participation-administrative-direction",
+      "pole": "positive",
+      "previous_value": 5,
+      "reason": "Для максимальной5 проверить независимость:13/15 — одна программная страница,18/19 — одна статья,24 в основном историческое примирение. Участие известно, но определяющая сила с множеством эпизодов не полностью показана."
+    },
+    {
+      "object_id": "victoire-ingabire",
+      "scale_id": "accessibility-growth-priorities",
+      "pole": "positive",
+      "previous_value": 4,
+      "reason": "Для4:16 — инвестиции в непосредственные нужды,21 — образование,19 — политический голос беженцев/оппозиции. Последнее не базовые услуги; сильная повторяемость приоритета требует большей опоры."
+    },
+    {
+      "object_id": "victoire-ingabire",
+      "scale_id": "cultural-openness-national-transmission",
+      "pole": "positive",
+      "previous_value": 2,
+      "reason": "14/18 — межруандийское примирение и политическое участие беженцев/оппозиции. Проверить именно культурно-гражданской обмен/разнообразие, а не другой конструкт инклюзии."
+    },
+    {
+      "object_id": "victoire-ingabire",
+      "scale_id": "cultural-openness-national-transmission",
+      "pole": "negative",
+      "previous_value": 2,
+      "reason": "История/ответственность14/24 могут быть ценностной аргументацией; отдельно проверить передачу национальных традиций/идентичности, не выводить её автоматически из примирения."
+    },
+    {
+      "object_id": "bernard-ntaganda",
+      "scale_id": "argumentation-evidence-values",
+      "pole": "negative",
+      "previous_value": 2,
+      "reason": "Часть опоры7 — академическая атрибуция без даты исходных слов.8 даёт собственный диалог/инклюзию; не считать7 новым датированным эпизодом."
+    },
+    {
+      "object_id": "bernard-ntaganda",
+      "scale_id": "accessibility-growth-priorities",
+      "pole": "positive",
+      "previous_value": 1,
+      "reason": "Narrow food-affordability context: investment shift toward agriculture and useful infrastructure, intertwined with productive growth. Retained1 with context flag, not a general access-to-services programme."
+    },
+    {
+      "object_id": "kayumba-nyamwasa",
+      "scale_id": "government-course-assessment",
+      "pole": "negative",
+      "previous_value": 2,
+      "reason": "2 — вторичный пересказNewspaperAfrica,14 — прежнее утверждение без даты исходных слов. Критика2 атрибутирована, но14 не доказывает новый эпизод целевого периода."
+    },
+    {
+      "object_id": "kayumba-nyamwasa",
+      "scale_id": "problem-disclosure-reputation-defence",
+      "pole": "positive",
+      "previous_value": 2,
+      "reason": "14 пересказывает прежнее утверждение без его датировки. ПубликациюHRW2025 нельзя автоматически считать новым собственным заявлением/действием."
+    },
+    {
+      "object_id": "louise-mushikiwabo",
+      "scale_id": "cultural-openness-national-transmission",
+      "pole": "negative",
+      "previous_value": 2,
+      "reason": "Франкоязычная наднациональная идентичность4/8/6 не автоматически национальная преемственность конкретной страны. Сохранить оговорку о культурной организации; не приписывать Руанде национальную идеологию."
+    },
+    {
+      "object_id": "claver-gatete",
+      "scale_id": "government-course-assessment",
+      "pole": "negative",
+      "previous_value": 1,
+      "reason": "8/9 критикуют международное финансовое устройство; уточнить, какой курс власти измеряется. Не переносить автоматически на правительствоРуанды."
+    },
+    {
+      "object_id": "claver-gatete",
+      "scale_id": "taxation-burden-public-revenue",
+      "pole": "negative",
+      "previous_value": 2,
+      "reason": "9/10/11 об облигациях/капитальных рынках/внутренних ресурсах. Проверить, что это публичные доходы для общих программ, а не частное финансирование/долг; налоговое расширение не названо."
+    },
+    {
+      "object_id": "valentine-rugwabiza",
+      "scale_id": "government-course-assessment",
+      "pole": "positive",
+      "previous_value": 3,
+      "reason": "Оценён прогресс именно властейЦАР в служебной ролиMINUSCA. При чтении пространстваРуанды не представлять эту3 поддержкой правительстваРуанды."
+    },
+    {
+      "object_id": "valentine-rugwabiza",
+      "scale_id": "market-state-instruments",
+      "pole": "negative",
+      "previous_value": 2,
+      "reason": "12/27/35 о планировании/оружии/безопасности, без расширения экономических государственных инструментов относительно частной инициативы. Проверить перенос уровня исходной шкалы."
+    },
+    {
+      "object_id": "valentine-rugwabiza",
+      "scale_id": "external-domestic-resources",
+      "pole": "positive",
+      "previous_value": 4,
+      "reason": "14/23 — один запрос22.11.2024;26 — отдельный призыв26.10.2023. Для4 не считать дубликаты независимыми обращениями; это финансирование миссии, не обязательно экономикиЦАР."
+    }
+  ],
+  "main": {
+    "n_objects": 37,
+    "n_variables": 8,
+    "retained_coverage": 0.8277027027027027,
+    "object_ids": [
+      "paul-kagame",
+      "edouard-ngirente",
+      "justin-nsengiyumva",
+      "vincent-biruta",
+      "olivier-nduhungirehe",
+      "james-kabarebe",
+      "juvenal-marizamunda",
+      "albert-murasira",
+      "emmanuel-ugirashebuja",
+      "yusuf-murangwa",
+      "uzziel-ndagijimana",
+      "paula-ingabire",
+      "sabin-nsanzimana",
+      "judith-uwizeye",
+      "valentine-uwamariya",
+      "jeanne-darc-mujawamariya",
+      "gerardine-mukeshimana",
+      "ildephonse-musafiri",
+      "jean-claude-musabyimana",
+      "jean-damascene-bizimana",
+      "clare-akamanzi",
+      "francis-gatare",
+      "gertrude-kazarwa",
+      "donatille-mukabalisa",
+      "francois-xavier-kalinda",
+      "augustin-iyamuremye",
+      "alvera-mukabaramba",
+      "mussa-fazil-harerimana",
+      "pudence-rubingisa",
+      "samuel-dusengiyumva",
+      "frank-habineza",
+      "philippe-mpayimana",
+      "victoire-ingabire",
+      "diane-rwigara",
+      "louise-mushikiwabo",
+      "claver-gatete",
+      "valentine-rugwabiza"
+    ],
+    "variable_ids": [
+      "programmatic-renewal__positive",
+      "programmatic-renewal__negative",
+      "government-course-assessment__positive",
+      "participation-administrative-direction__negative",
+      "argumentation-evidence-values__negative",
+      "accessibility-growth-priorities__positive",
+      "problem-disclosure-reputation-defence__positive",
+      "prevention-crisis-response__positive"
+    ],
+    "matrix_csv_sha256": "16f9d4d45385e5a254c781747f2874ae141bea1725d048d899b3580df73b513c"
+  },
+  "strict": {
+    "n_objects": 34,
+    "n_variables": 7,
+    "retained_coverage": 0.8403361344537815,
+    "object_ids": [
+      "paul-kagame",
+      "edouard-ngirente",
+      "justin-nsengiyumva",
+      "vincent-biruta",
+      "olivier-nduhungirehe",
+      "james-kabarebe",
+      "juvenal-marizamunda",
+      "albert-murasira",
+      "emmanuel-ugirashebuja",
+      "yusuf-murangwa",
+      "uzziel-ndagijimana",
+      "paula-ingabire",
+      "sabin-nsanzimana",
+      "judith-uwizeye",
+      "valentine-uwamariya",
+      "jeanne-darc-mujawamariya",
+      "gerardine-mukeshimana",
+      "ildephonse-musafiri",
+      "jean-claude-musabyimana",
+      "jean-damascene-bizimana",
+      "clare-akamanzi",
+      "francis-gatare",
+      "gertrude-kazarwa",
+      "donatille-mukabalisa",
+      "francois-xavier-kalinda",
+      "augustin-iyamuremye",
+      "alvera-mukabaramba",
+      "pudence-rubingisa",
+      "samuel-dusengiyumva",
+      "frank-habineza",
+      "diane-rwigara",
+      "louise-mushikiwabo",
+      "claver-gatete",
+      "valentine-rugwabiza"
+    ],
+    "variable_ids": [
+      "programmatic-renewal__negative",
+      "government-course-assessment__positive",
+      "participation-administrative-direction__negative",
+      "argumentation-evidence-values__negative",
+      "accessibility-growth-priorities__positive",
+      "problem-disclosure-reputation-defence__positive",
+      "prevention-crisis-response__positive"
+    ],
+    "matrix_csv_sha256": "ade121a8accdef9264cbaa0b156bccdeec40c5e0615a2cc9b2f62c78c5bfc881",
+    "dimension_selection": {
+      "recommended_q": 2,
+      "best_mean_heldout_q": 2,
+      "parsimony_tolerance_log_likelihood": 1.0,
+      "rule": "Only fit q with nominal_df=p(p+1)/2-[p*q+p-q(q-1)/2]>=0, a necessary parameter-count screen, not sufficient identification. Among converged candidates with at least two |loading|>=0.35 descriptors per factor, select the smallest q within max(1, SD_best/sqrt(3)) of the best three-split mean held-out likelihood; fall back to all candidates if none meet the loading criterion. This is an exploratory heuristic, not an inferential one-SE test.",
+      "parameter_count_constraint": {
+        "criterion": "nominal_df >= 0",
+        "necessary_not_sufficient": true,
+        "parameter_count_formula": "p*q+p-q*(q-1)/2",
+        "covariance_moments": 28,
+        "qmax_before_parameter_screen": 6,
+        "admissible_q": [
+          2,
+          3
+        ],
+        "excluded_candidates": [
+          {
+            "q": 4,
+            "parameter_count": 29,
+            "covariance_moments": 28,
+            "nominal_df": -1
+          },
+          {
+            "q": 5,
+            "parameter_count": 32,
+            "covariance_moments": 28,
+            "nominal_df": -4
+          },
+          {
+            "q": 6,
+            "parameter_count": 34,
+            "covariance_moments": 28,
+            "nominal_df": -6
+          }
+        ]
+      },
+      "parallel_pca": {
+        "retained_components": 1,
+        "permutations": 500,
+        "quantile": 0.95,
+        "observed_eigenvalues": [
+          2.5910962788122784,
+          1.3661335799311205,
+          1.0136817967636267,
+          0.7718981480101209,
+          0.6733985728138832,
+          0.5396453760391055,
+          0.2562674597510781
+        ],
+        "reference_eigenvalues": [
+          2.03162245279115,
+          1.586179498839237,
+          1.3285799589502931,
+          1.111614215542898,
+          0.9396863445304745,
+          0.7688939368730783,
+          0.5749995054353982
+        ],
+        "scope": "PCA component permutation diagnostic, not common-factor retention; not a hard lower/upper bound on FA q"
+      },
+      "rank": 7,
+      "selection_is_exploratory": true
+    },
+    "dimension_candidates": [
+      {
+        "q": 2,
+        "parameter_count": 20,
+        "covariance_moments": 28,
+        "nominal_df": 8,
+        "heldout_log_likelihood_mean": -6.604675568248674,
+        "heldout_log_likelihood_sd": 0.17517238179459574,
+        "heldout_log_likelihood_splits": [
+          -6.485811467415225,
+          -6.5223724519163415,
+          -6.805842785414457
+        ],
+        "residual_rms_off_diagonal": 0.0632443084470847,
+        "residual_max_abs_off_diagonal": 0.1425413853198289,
+        "residual_fraction_abs_above_010": 0.19047619047619047,
+        "strong_traits_per_factor": [
+          1,
+          5
+        ],
+        "all_factors_have_two_strong_traits": false,
+        "convergence_warnings": 0,
+        "common_variance_share": 0.43049049582306803
+      },
+      {
+        "q": 3,
+        "parameter_count": 25,
+        "covariance_moments": 28,
+        "nominal_df": 3,
+        "heldout_log_likelihood_mean": -6.620538296679769,
+        "heldout_log_likelihood_sd": 0.14051948463943928,
+        "heldout_log_likelihood_splits": [
+          -6.493112531162968,
+          -6.597258471265721,
+          -6.771243887610616
+        ],
+        "residual_rms_off_diagonal": 0.02959431682673911,
+        "residual_max_abs_off_diagonal": 0.09146837293480439,
+        "residual_fraction_abs_above_010": 0.0,
+        "strong_traits_per_factor": [
+          4,
+          1,
+          2
+        ],
+        "all_factors_have_two_strong_traits": false,
+        "convergence_warnings": 0,
+        "common_variance_share": 0.5598460489499152
+      }
+    ]
+  },
+  "common_variable_ids": [
+    "programmatic-renewal__negative",
+    "government-course-assessment__positive",
+    "participation-administrative-direction__negative",
+    "argumentation-evidence-values__negative",
+    "accessibility-growth-priorities__positive",
+    "problem-disclosure-reputation-defence__positive",
+    "prevention-crisis-response__positive"
+  ],
+  "newly_excluded_objects": [
+    {
+      "id": "mussa-fazil-harerimana",
+      "name": "Мусса Фазиль Хареримана"
+    },
+    {
+      "id": "philippe-mpayimana",
+      "name": "Филипп Мпайимана"
+    },
+    {
+      "id": "victoire-ingabire",
+      "name": "Виктуар Ингабире Умухоза"
+    }
+  ],
+  "newly_included_objects": [],
+  "excluded_main_variables": [
+    {
+      "id": "programmatic-renewal__positive",
+      "name": "Программное изменение существующего курса"
+    }
+  ],
+  "comparisons": [
+    {
+      "q": 2,
+      "main_total_variance_share": 0.3973478661549007,
+      "strict_total_variance_share": 0.43049049582306803,
+      "main_variance_denominator": 8.0,
+      "strict_variance_denominator": 7.0,
+      "main_dimension_fit": {
+        "q": 2,
+        "parameter_count": 23,
+        "covariance_moments": 36,
+        "nominal_df": 13,
+        "heldout_log_likelihood_mean": -9.428362742952498,
+        "heldout_log_likelihood_sd": 2.001305531457763,
+        "heldout_log_likelihood_splits": [
+          -11.6366676502433,
+          -8.913927092162462,
+          -7.734493486451728
+        ],
+        "residual_rms_off_diagonal": 0.12806458486194822,
+        "residual_max_abs_off_diagonal": 0.32536414591235935,
+        "residual_fraction_abs_above_010": 0.32142857142857145,
+        "strong_traits_per_factor": [
+          3,
+          2
+        ],
+        "all_factors_have_two_strong_traits": true,
+        "convergence_warnings": 0,
+        "common_variance_share": 0.3973478661549007
+      },
+      "strict_dimension_fit": {
+        "q": 2,
+        "parameter_count": 20,
+        "covariance_moments": 28,
+        "nominal_df": 8,
+        "heldout_log_likelihood_mean": -6.604675568248674,
+        "heldout_log_likelihood_sd": 0.17517238179459574,
+        "heldout_log_likelihood_splits": [
+          -6.485811467415225,
+          -6.5223724519163415,
+          -6.805842785414457
+        ],
+        "residual_rms_off_diagonal": 0.0632443084470847,
+        "residual_max_abs_off_diagonal": 0.1425413853198289,
+        "residual_fraction_abs_above_010": 0.19047619047619047,
+        "strong_traits_per_factor": [
+          1,
+          5
+        ],
+        "all_factors_have_two_strong_traits": false,
+        "convergence_warnings": 0,
+        "common_variance_share": 0.43049049582306803
+      },
+      "axis_alignment": [
+        {
+          "main_factor_id": "F1",
+          "strict_original_factor_id": "F2",
+          "strict_sign_multiplier": 1,
+          "signed_congruence_before_alignment": 0.8306978995762574,
+          "absolute_congruence_after_alignment": 0.8306978995762574,
+          "main_loading_energy_retained_in_shared_variables": 0.9990681483865261,
+          "main_factor_name": "Обратная связь: Продолжение и закрепление действующего курса, Публичная поддержка действующего государственного курса",
+          "strict_original_factor_name": "Больше: Публичное раскрытие проблем и недостатков исполнения; меньше: Публичная поддержка действующего государственного курса",
+          "main_full_factor_variance_share": 0.222133412147552,
+          "strict_matched_factor_variance_share": 0.2500517949461456,
+          "main_full_factor_variance_share_denominator_8": 0.222133412147552,
+          "strict_matched_factor_variance_share_denominator_7": 0.2500517949461456
+        },
+        {
+          "main_factor_id": "F2",
+          "strict_original_factor_id": "F1",
+          "strict_sign_multiplier": 1,
+          "signed_congruence_before_alignment": 0.0844093094386217,
+          "absolute_congruence_after_alignment": 0.0844093094386217,
+          "main_loading_energy_retained_in_shared_variables": 0.2974508659765575,
+          "main_factor_name": "Программное изменение существующего курса, Публичное раскрытие проблем и недостатков исполнения",
+          "strict_original_factor_name": "Упреждающее снижение рисков и подготовка",
+          "main_full_factor_variance_share": 0.17521445400734872,
+          "strict_matched_factor_variance_share": 0.18043870087692243,
+          "main_full_factor_variance_share_denominator_8": 0.17521445400734872,
+          "strict_matched_factor_variance_share_denominator_7": 0.18043870087692243
+        }
+      ],
+      "shared_loading_profiles": [
+        {
+          "id": "programmatic-renewal__negative",
+          "name": "Продолжение и закрепление действующего курса",
+          "main_loadings": {
+            "F1": -0.9921243895836607,
+            "F2": -0.08368212848272778
+          },
+          "strict_aligned_loadings": {
+            "F1": -0.6868614877527044,
+            "F2": 0.22567569906532126
+          }
+        },
+        {
+          "id": "government-course-assessment__positive",
+          "name": "Публичная поддержка действующего государственного курса",
+          "main_loadings": {
+            "F1": -0.6208746896518437,
+            "F2": 0.07540684459404569
+          },
+          "strict_aligned_loadings": {
+            "F1": -0.7343989069399115,
+            "F2": 0.07796622015576682
+          }
+        },
+        {
+          "id": "participation-administrative-direction__negative",
+          "name": "Административная постановка задач и контроль исполнения",
+          "main_loadings": {
+            "F1": -0.30160443567739753,
+            "F2": 0.05155403682279103
+          },
+          "strict_aligned_loadings": {
+            "F1": -0.44117340188313053,
+            "F2": 0.1951766546623346
+          }
+        },
+        {
+          "id": "argumentation-evidence-values__negative",
+          "name": "Обоснование через ценности, память и коллективные символы",
+          "main_loadings": {
+            "F1": -0.4531088716500068,
+            "F2": 0.2294191853570247
+          },
+          "strict_aligned_loadings": {
+            "F1": 0.02516928117766201,
+            "F2": -0.1952139182579719
+          }
+        },
+        {
+          "id": "accessibility-growth-priorities__positive",
+          "name": "Расширение доступности базовых благ для населения",
+          "main_loadings": {
+            "F1": -0.19469722791757788,
+            "F2": 0.3474421080029951
+          },
+          "strict_aligned_loadings": {
+            "F1": -0.5725953372393489,
+            "F2": 0.30808765613849015
+          }
+        },
+        {
+          "id": "problem-disclosure-reputation-defence__positive",
+          "name": "Публичное раскрытие проблем и недостатков исполнения",
+          "main_loadings": {
+            "F1": 0.15480033147966002,
+            "F2": 0.46068355454204996
+          },
+          "strict_aligned_loadings": {
+            "F1": 0.45175004881255343,
+            "F2": 0.2734044192747708
+          }
+        },
+        {
+          "id": "prevention-crisis-response__positive",
+          "name": "Упреждающее снижение рисков и подготовка",
+          "main_loadings": {
+            "F1": -0.2178809563087982,
+            "F2": -0.12655552381490484
+          },
+          "strict_aligned_loadings": {
+            "F1": -0.10968644709398376,
+            "F2": 0.9798940109796388
+          }
+        }
+      ],
+      "signed_pairwise_tucker_matrix": [
+        [
+          -0.31644965220103094,
+          0.8306978995762574
+        ],
+        [
+          0.0844093094386217,
+          0.009576322580724179
+        ]
+      ]
+    },
+    {
+      "q": 3,
+      "main_total_variance_share": 0.5229451240072285,
+      "strict_total_variance_share": 0.5598460489499153,
+      "main_variance_denominator": 8.0,
+      "strict_variance_denominator": 7.0,
+      "main_dimension_fit": {
+        "q": 3,
+        "parameter_count": 29,
+        "covariance_moments": 36,
+        "nominal_df": 7,
+        "heldout_log_likelihood_mean": -9.542938669592703,
+        "heldout_log_likelihood_sd": 2.11891931119815,
+        "heldout_log_likelihood_splits": [
+          -11.939211434798471,
+          -8.772852136210984,
+          -7.9167524377686505
+        ],
+        "residual_rms_off_diagonal": 0.0502279346985666,
+        "residual_max_abs_off_diagonal": 0.2344654966583016,
+        "residual_fraction_abs_above_010": 0.03571428571428571,
+        "strong_traits_per_factor": [
+          3,
+          3,
+          3
+        ],
+        "all_factors_have_two_strong_traits": true,
+        "convergence_warnings": 0,
+        "common_variance_share": 0.5229451240072286
+      },
+      "strict_dimension_fit": {
+        "q": 3,
+        "parameter_count": 25,
+        "covariance_moments": 28,
+        "nominal_df": 3,
+        "heldout_log_likelihood_mean": -6.620538296679769,
+        "heldout_log_likelihood_sd": 0.14051948463943928,
+        "heldout_log_likelihood_splits": [
+          -6.493112531162968,
+          -6.597258471265721,
+          -6.771243887610616
+        ],
+        "residual_rms_off_diagonal": 0.02959431682673911,
+        "residual_max_abs_off_diagonal": 0.09146837293480439,
+        "residual_fraction_abs_above_010": 0.0,
+        "strong_traits_per_factor": [
+          4,
+          1,
+          2
+        ],
+        "all_factors_have_two_strong_traits": false,
+        "convergence_warnings": 0,
+        "common_variance_share": 0.5598460489499152
+      },
+      "axis_alignment": [
+        {
+          "main_factor_id": "F1",
+          "strict_original_factor_id": "F1",
+          "strict_sign_multiplier": -1,
+          "signed_congruence_before_alignment": -0.9324343380282903,
+          "absolute_congruence_after_alignment": 0.9324343380282903,
+          "main_loading_energy_retained_in_shared_variables": 0.9987328640789473,
+          "main_factor_name": "Обратная связь: Продолжение и закрепление действующего курса, Публичная поддержка действующего государственного курса",
+          "strict_original_factor_name": "Больше: Продолжение и закрепление действующего курса; меньше: Публичное раскрытие проблем и недостатков исполнения",
+          "main_full_factor_variance_share": 0.2240003662266239,
+          "strict_matched_factor_variance_share": 0.21092355054266831,
+          "main_full_factor_variance_share_denominator_8": 0.2240003662266239,
+          "strict_matched_factor_variance_share_denominator_7": 0.21092355054266831
+        },
+        {
+          "main_factor_id": "F2",
+          "strict_original_factor_id": "F3",
+          "strict_sign_multiplier": -1,
+          "signed_congruence_before_alignment": -0.3786298767338098,
+          "absolute_congruence_after_alignment": 0.3786298767338098,
+          "main_loading_energy_retained_in_shared_variables": 0.33330695183414166,
+          "main_factor_name": "Программное изменение существующего курса, Публичное раскрытие проблем и недостатков исполнения",
+          "strict_original_factor_name": "Обратная связь: Расширение доступности базовых благ для населения, Публичная поддержка действующего государственного курса",
+          "main_full_factor_variance_share": 0.16779553452117885,
+          "strict_matched_factor_variance_share": 0.18533486049010278,
+          "main_full_factor_variance_share_denominator_8": 0.16779553452117885,
+          "strict_matched_factor_variance_share_denominator_7": 0.18533486049010278
+        },
+        {
+          "main_factor_id": "F3",
+          "strict_original_factor_id": "F2",
+          "strict_sign_multiplier": 1,
+          "signed_congruence_before_alignment": 0.5822112155506894,
+          "absolute_congruence_after_alignment": 0.5822112155506894,
+          "main_loading_energy_retained_in_shared_variables": 0.9968209776978166,
+          "main_factor_name": "Больше: Расширение доступности базовых благ для населения; меньше: Обоснование через ценности, память и коллективные символы",
+          "strict_original_factor_name": "Упреждающее снижение рисков и подготовка",
+          "main_full_factor_variance_share": 0.1311492232594258,
+          "strict_matched_factor_variance_share": 0.16358763791714417,
+          "main_full_factor_variance_share_denominator_8": 0.1311492232594258,
+          "strict_matched_factor_variance_share_denominator_7": 0.16358763791714417
+        }
+      ],
+      "shared_loading_profiles": [
+        {
+          "id": "programmatic-renewal__negative",
+          "name": "Продолжение и закрепление действующего курса",
+          "main_loadings": {
+            "F1": -0.9662875978184284,
+            "F2": -0.08815370140283814,
+            "F3": -0.09209684825506477
+          },
+          "strict_aligned_loadings": {
+            "F1": -0.9644607295713183,
+            "F2": 0.168203181864838,
+            "F3": 0.1480573011752469
+          }
+        },
+        {
+          "id": "government-course-assessment__positive",
+          "name": "Публичная поддержка действующего государственного курса",
+          "main_loadings": {
+            "F1": -0.6462574119874563,
+            "F2": 0.09154876716572861,
+            "F3": 0.08788641610787136
+          },
+          "strict_aligned_loadings": {
+            "F1": -0.44309069999411493,
+            "F2": 0.506515294324298,
+            "F3": 0.01006289795836139
+          }
+        },
+        {
+          "id": "participation-administrative-direction__negative",
+          "name": "Административная постановка задач и контроль исполнения",
+          "main_loadings": {
+            "F1": -0.34113602598960685,
+            "F2": 0.07667340257143977,
+            "F3": 0.24920422224864616
+          },
+          "strict_aligned_loadings": {
+            "F1": -0.35092572434489133,
+            "F2": 0.21000152296291522,
+            "F3": 0.1624494890290367
+          }
+        },
+        {
+          "id": "argumentation-evidence-values__negative",
+          "name": "Обоснование через ценности, память и коллективные символы",
+          "main_loadings": {
+            "F1": -0.3990589892041944,
+            "F2": 0.20329362824090044,
+            "F3": -0.7060517942370828
+          },
+          "strict_aligned_loadings": {
+            "F1": -0.07697749202016042,
+            "F2": -0.14174845643179862,
+            "F3": -0.1862623550458113
+          }
+        },
+        {
+          "id": "accessibility-growth-priorities__positive",
+          "name": "Расширение доступности базовых благ для населения",
+          "main_loadings": {
+            "F1": -0.2532615644063836,
+            "F2": 0.3974804955124084,
+            "F3": 0.47237368355709247
+          },
+          "strict_aligned_loadings": {
+            "F1": -0.16373443599634846,
+            "F2": 0.9394096871450459,
+            "F3": 0.18920919611740103
+          }
+        },
+        {
+          "id": "problem-disclosure-reputation-defence__positive",
+          "name": "Публичное раскрытие проблем и недостатков исполнения",
+          "main_loadings": {
+            "F1": 0.1668610661079565,
+            "F2": 0.46751433730049585,
+            "F3": -0.17702255232203068
+          },
+          "strict_aligned_loadings": {
+            "F1": 0.4198519211174683,
+            "F2": -0.19000266698147142,
+            "F3": 0.32012332764206586
+          }
+        },
+        {
+          "id": "prevention-crisis-response__positive",
+          "name": "Упреждающее снижение рисков и подготовка",
+          "main_loadings": {
+            "F1": -0.26601870949738116,
+            "F2": -0.0866001354557159,
+            "F3": 0.4632135172417785
+          },
+          "strict_aligned_loadings": {
+            "F1": -0.13338660731269816,
+            "F2": 0.17236337008560432,
+            "F3": 0.9611080443344346
+          }
+        }
+      ],
+      "signed_pairwise_tucker_matrix": [
+        [
+          -0.9324343380282903,
+          -0.26602113952316453,
+          0.5384101049143729
+        ],
+        [
+          -0.17798035833701403,
+          0.14542970861766238,
+          -0.3786298767338098
+        ],
+        [
+          0.15826973636267863,
+          0.5822112155506894,
+          -0.6341402294893018
+        ]
+      ]
+    }
+  ],
+  "canonical_source_files_unchanged": true,
+  "weak_factor_warning": {
+    "all_candidates_fail_two_strong_traits_rule": true,
+    "strong_traits_per_factor_by_q": {
+      "2": [
+        1,
+        5
+      ],
+      "3": [
+        4,
+        1,
+        2
+      ]
+    },
+    "weak_indicator_axes": [
+      {
+        "q": 2,
+        "factor_id": "F1",
+        "strong_indicators": [
+          {
+            "id": "prevention-crisis-response__positive",
+            "name": "Упреждающее снижение рисков и подготовка",
+            "positive": "Упреждающее снижение рисков и подготовка",
+            "negative": "",
+            "loading": 0.9798940109796388,
+            "high_factor_property": "Большая выраженность: Упреждающее снижение рисков и подготовка",
+            "low_factor_property": "Меньшая выраженность: Упреждающее снижение рисков и подготовка",
+            "kind": "unipolar",
+            "parent_scale_id": "prevention-crisis-response",
+            "pole": "positive"
+          }
+        ]
+      },
+      {
+        "q": 3,
+        "factor_id": "F2",
+        "strong_indicators": [
+          {
+            "id": "prevention-crisis-response__positive",
+            "name": "Упреждающее снижение рисков и подготовка",
+            "positive": "Упреждающее снижение рисков и подготовка",
+            "negative": "",
+            "loading": 0.9611080443344346,
+            "high_factor_property": "Большая выраженность: Упреждающее снижение рисков и подготовка",
+            "low_factor_property": "Меньшая выраженность: Упреждающее снижение рисков и подготовка",
+            "kind": "unipolar",
+            "parent_scale_id": "prevention-crisis-response",
+            "pole": "positive"
+          }
+        ]
+      }
+    ],
+    "note": "A necessary mathematical admission is not measurement validation. If all candidates fail the two-strong-trait rule, the reported q uses the existing fallback pool; a single-indicator axis is weak as a latent construct."
+  },
+  "limitations": [
+    "Different objects, observed cells and feature sets; sensitivity comparison, not a repeated test on an identical matrix.",
+    "Tucker matching uses shared loading coordinates, optimal permutation and sign only; no arbitrary continuous rotation.",
+    "The original main axis can lose its defining indicator during feature selection. Its retained loading-energy fraction is reported; low congruence is not a pure test of the same fully measured construct.",
+    "Total variance denominators differ; percentages and raw held-out likelihoods across feature spaces are not direct fit-improvement tests.",
+    "Nominal df is necessary, not sufficient identification. No API, fresh source validation or additional resampling.",
+    "Russia indicators remain insufficiently measured; no claim of presence or absence of a Russia factor."
+  ],
+  "source_file_sha256": {
+    "C:\\Users\\USER\\Documents\\ChatGPT\\political_psycology_stratification\\studies\\rwanda-politicians-2021-2026\\study.json": "f32468fb6396f9aa451b5efbdb96a313af3a528d42ca1c80cb147ad72b479fcf",
+    "C:\\Users\\USER\\Documents\\ChatGPT\\political_psycology_stratification\\studies\\rwanda-politicians-2021-2026\\ratings.json": "e43727c8437c87108d1e5bb954e2eaf5f852096becd734777a14abcad1988687",
+    "C:\\Users\\USER\\Documents\\ChatGPT\\political_psycology_stratification\\studies\\rwanda-politicians-2021-2026\\output\\factor_preview.json": "4b0a1e5c9bf3c9c2df5b6790037a080262428cdce4ea1e68064a79c35ecf39ad"
+  },
+  "copy_input_sha256": {
+    "input_study.json": "f32468fb6396f9aa451b5efbdb96a313af3a528d42ca1c80cb147ad72b479fcf",
+    "input_ratings_without_flags.json": "a64c5569b9447f30ac683fc456f98f6bc01be24a26949e74678e632bcee94e27"
+  },
+  "reproduction": {
+    "script": "scripts/compare_rwanda_strict_flags.py",
+    "frozen_input_sha256": {
+      "source_study.json": "f32468fb6396f9aa451b5efbdb96a313af3a528d42ca1c80cb147ad72b479fcf",
+      "source_ratings.json": "e43727c8437c87108d1e5bb954e2eaf5f852096becd734777a14abcad1988687",
+      "source_main_preview.json": "4b0a1e5c9bf3c9c2df5b6790037a080262428cdce4ea1e68064a79c35ecf39ad"
+    },
+    "command": "python -B scripts/compare_rwanda_strict_flags.py --frozen-inputs \"studies/rwanda-politicians-2021-2026/output/strict_without_flags\" --output-dir \".service_runtime/reproduce_strict_flags\"",
+    "no_APIs": true,
+    "no_new_methods_or_resampling": true
+  }
+}

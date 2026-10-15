@@ -2897,7 +2897,7 @@
   "analysis": {
     "format_version": 1,
     "mode": "factor_preview_only",
-    "n_objects": 28,
+    "n_objects": 37,
     "n_scales": 8,
     "measurement_context": {
       "measurement_mode": "llm_exploratory",
@@ -2926,8 +2926,8 @@
     },
     "dimension_selection": {
       "recommended_q": 2,
-      "best_mean_heldout_q": 4,
-      "parsimony_tolerance_log_likelihood": 1.0,
+      "best_mean_heldout_q": 2,
+      "parsimony_tolerance_log_likelihood": 1.1554542873178266,
       "rule": "Only fit q with nominal_df=p(p+1)/2-[p*q+p-q(q-1)/2]>=0, a necessary parameter-count screen, not sufficient identification. Among converged candidates with at least two |loading|>=0.35 descriptors per factor, select the smallest q within max(1, SD_best/sqrt(3)) of the best three-split mean held-out likelihood; fall back to all candidates if none meet the loading criterion. This is an exploratory heuristic, not an inferential one-SE test.",
       "parameter_count_constraint": {
         "criterion": "nominal_df >= 0",
@@ -2966,24 +2966,24 @@
         "permutations": 500,
         "quantile": 0.95,
         "observed_eigenvalues": [
-          2.4007890948563184,
-          1.8296071649132144,
-          1.4844964698536847,
-          0.9774963680454279,
-          0.8171918077680783,
-          0.4208818411735653,
-          0.2560059694115806,
-          0.10982758027442675
+          2.2372616990484224,
+          1.7110782555881807,
+          1.5118647831029088,
+          0.913076311380031,
+          0.7426888060690404,
+          0.5517873388916849,
+          0.3320596043697167,
+          0.22240542377224162
         ],
         "reference_eigenvalues": [
-          2.304863769260815,
-          1.7846887849757802,
-          1.4592222411133644,
-          1.1919303832415584,
-          1.0135923707072878,
-          0.819674335375941,
-          0.6587157748163174,
-          0.482127619876568
+          2.0967217354142655,
+          1.65945720588861,
+          1.3989245638272159,
+          1.1784023979071134,
+          1.0009225960207322,
+          0.861632396114413,
+          0.7066392470002721,
+          0.5438264005734386
         ],
         "scope": "PCA component permutation diagnostic, not common-factor retention; not a hard lower/upper bound on FA q"
       },
@@ -2996,116 +2996,92 @@
         "parameter_count": 23,
         "covariance_moments": 36,
         "nominal_df": 13,
-        "heldout_log_likelihood_mean": -7.831106535709598,
-        "heldout_log_likelihood_sd": 0.6098977921873351,
+        "heldout_log_likelihood_mean": -9.428362742952498,
+        "heldout_log_likelihood_sd": 2.001305531457763,
         "heldout_log_likelihood_splits": [
-          -7.387877131564271,
-          -8.526679135058718,
-          -7.578763340505806
+          -11.6366676502433,
+          -8.913927092162462,
+          -7.734493486451728
         ],
-        "residual_rms_off_diagonal": 0.13786085220117303,
-        "residual_max_abs_off_diagonal": 0.5325086791603644,
-        "residual_fraction_abs_above_010": 0.17857142857142858,
+        "residual_rms_off_diagonal": 0.12806458486194822,
+        "residual_max_abs_off_diagonal": 0.32536414591235935,
+        "residual_fraction_abs_above_010": 0.32142857142857145,
         "strong_traits_per_factor": [
-          4,
+          3,
           2
         ],
         "all_factors_have_two_strong_traits": true,
         "convergence_warnings": 0,
-        "common_variance_share": 0.42525150280279284
+        "common_variance_share": 0.3973478661549007
       },
       {
         "q": 3,
         "parameter_count": 29,
         "covariance_moments": 36,
         "nominal_df": 7,
-        "heldout_log_likelihood_mean": -7.528480029992873,
-        "heldout_log_likelihood_sd": 0.8658972097809484,
+        "heldout_log_likelihood_mean": -9.542938669592703,
+        "heldout_log_likelihood_sd": 2.11891931119815,
         "heldout_log_likelihood_splits": [
-          -7.0891134881710895,
-          -8.52597803421248,
-          -6.970348567595051
+          -11.939211434798471,
+          -8.772852136210984,
+          -7.9167524377686505
         ],
-        "residual_rms_off_diagonal": 0.06843975768321572,
-        "residual_max_abs_off_diagonal": 0.2681683198280077,
-        "residual_fraction_abs_above_010": 0.10714285714285714,
+        "residual_rms_off_diagonal": 0.0502279346985666,
+        "residual_max_abs_off_diagonal": 0.2344654966583016,
+        "residual_fraction_abs_above_010": 0.03571428571428571,
         "strong_traits_per_factor": [
           3,
           3,
-          4
+          3
         ],
         "all_factors_have_two_strong_traits": true,
         "convergence_warnings": 0,
-        "common_variance_share": 0.6020932368267158
+        "common_variance_share": 0.5229451240072286
       },
       {
         "q": 4,
         "parameter_count": 34,
         "covariance_moments": 36,
         "nominal_df": 2,
-        "heldout_log_likelihood_mean": -7.111989690565039,
-        "heldout_log_likelihood_sd": 0.9110849529234829,
+        "heldout_log_likelihood_mean": -9.842012291011331,
+        "heldout_log_likelihood_sd": 2.0109831353259637,
         "heldout_log_likelihood_splits": [
-          -6.477641614256984,
-          -8.155990860853516,
-          -6.702336596584618
+          -12.138857054216437,
+          -8.989277702305955,
+          -8.397902116511602
         ],
-        "residual_rms_off_diagonal": 0.01718370215221239,
-        "residual_max_abs_off_diagonal": 0.0842317588107564,
+        "residual_rms_off_diagonal": 0.01509597639279254,
+        "residual_max_abs_off_diagonal": 0.05001841467492779,
         "residual_fraction_abs_above_010": 0.0,
         "strong_traits_per_factor": [
-          4,
-          2,
           3,
+          1,
+          2,
           2
         ],
-        "all_factors_have_two_strong_traits": true,
+        "all_factors_have_two_strong_traits": false,
         "convergence_warnings": 0,
-        "common_variance_share": 0.7074243129915655
+        "common_variance_share": 0.6137086982377333
       }
     ],
     "models": [
       {
         "q": 2,
-        "variance_total": 0.4252515028027929,
+        "variance_total": 0.3973478661549007,
         "variance_denominator": 8.0,
         "factors": [
           {
             "id": "F1",
-            "name": "Поддержка курса и доступность благ",
-            "label": "Поддержка курса и доступность благ",
+            "name": "Преемственность и поддержка курса",
+            "label": "Преемственность и поддержка курса",
             "positive_traits": [],
             "negative_traits": [
-              {
-                "id": "government-course-assessment__positive",
-                "name": "Публичная поддержка действующего государственного курса",
-                "positive": "Публичная поддержка действующего государственного курса",
-                "negative": "",
-                "loading": -0.9931068104598402,
-                "high_factor_property": "Меньшая выраженность: Публичная поддержка действующего государственного курса",
-                "low_factor_property": "Большая выраженность: Публичная поддержка действующего государственного курса",
-                "kind": "unipolar",
-                "parent_scale_id": "government-course-assessment",
-                "pole": "positive"
-              },
-              {
-                "id": "accessibility-growth-priorities__positive",
-                "name": "Расширение доступности базовых благ для населения",
-                "positive": "Расширение доступности базовых благ для населения",
-                "negative": "",
-                "loading": -0.6412214955488506,
-                "high_factor_property": "Меньшая выраженность: Расширение доступности базовых благ для населения",
-                "low_factor_property": "Большая выраженность: Расширение доступности базовых благ для населения",
-                "kind": "unipolar",
-                "parent_scale_id": "accessibility-growth-priorities",
-                "pole": "positive"
-              },
               {
                 "id": "programmatic-renewal__negative",
                 "name": "Продолжение и закрепление действующего курса",
                 "positive": "Продолжение и закрепление действующего курса",
                 "negative": "",
-                "loading": -0.5219455594657069,
+                "loading": -0.9921243895836607,
                 "high_factor_property": "Меньшая выраженность: Продолжение и закрепление действующего курса",
                 "low_factor_property": "Большая выраженность: Продолжение и закрепление действующего курса",
                 "kind": "unipolar",
@@ -3113,37 +3089,48 @@
                 "pole": "negative"
               },
               {
-                "id": "participation-administrative-direction__negative",
-                "name": "Административная постановка задач и контроль исполнения",
-                "positive": "Административная постановка задач и контроль исполнения",
+                "id": "government-course-assessment__positive",
+                "name": "Публичная поддержка действующего государственного курса",
+                "positive": "Публичная поддержка действующего государственного курса",
                 "negative": "",
-                "loading": -0.40867096660295593,
-                "high_factor_property": "Меньшая выраженность: Административная постановка задач и контроль исполнения",
-                "low_factor_property": "Большая выраженность: Административная постановка задач и контроль исполнения",
+                "loading": -0.6208746896518437,
+                "high_factor_property": "Меньшая выраженность: Публичная поддержка действующего государственного курса",
+                "low_factor_property": "Большая выраженность: Публичная поддержка действующего государственного курса",
                 "kind": "unipolar",
-                "parent_scale_id": "participation-administrative-direction",
+                "parent_scale_id": "government-course-assessment",
+                "pole": "positive"
+              },
+              {
+                "id": "argumentation-evidence-values__negative",
+                "name": "Обоснование через ценности, память и коллективные символы",
+                "positive": "Обоснование через ценности, память и коллективные символы",
+                "negative": "",
+                "loading": -0.4531088716500068,
+                "high_factor_property": "Меньшая выраженность: Обоснование через ценности, память и коллективные символы",
+                "low_factor_property": "Большая выраженность: Обоснование через ценности, память и коллективные символы",
+                "kind": "unipolar",
+                "parent_scale_id": "argumentation-evidence-values",
                 "pole": "negative"
               }
             ],
             "strong_loading_threshold": 0.35,
-            "variance_share": 0.24228105490863505,
-            "interpretation": "Совместно выражены поддержка действующего курса (нагрузка −0,993), доступность базовых благ (−0,641), продолжение курса (−0,522) и административное исполнение (−0,409). Это связка одобрения государственной линии с социальными целями и управленческими поручениями. Меньшая выраженность этой связки не доказывает оппозиционности.",
-            "automatic_name": "Обратная связь: Публичная поддержка действующего государственного курса, Расширение доступности базовых благ для населения"
+            "variance_share": 0.222133412147552,
+            "interpretation": "Продолжение действующего курса (−0,992), его публичная поддержка (−0,621) и ценностно-мемориальное обоснование (−0,453) связаны одним направлением. Ось описывает сочетание преемственности, одобрения и обращения к коллективным символам. Меньшая выраженность этой связки не доказывает оппозиционности. Знак минус означает выбранную ориентацию координаты, а не отрицательную оценку политики.",
+            "automatic_name": "Обратная связь: Продолжение и закрепление действующего курса, Публичная поддержка действующего государственного курса"
           },
           {
             "id": "F2",
-            "name": "Программное обновление и обозначение проблем",
-            "label": "Программное обновление и обозначение проблем",
-            "positive_traits": [],
-            "negative_traits": [
+            "name": "Программное обновление и раскрытие проблем",
+            "label": "Программное обновление и раскрытие проблем",
+            "positive_traits": [
               {
                 "id": "programmatic-renewal__positive",
                 "name": "Программное изменение существующего курса",
                 "positive": "Программное изменение существующего курса",
                 "negative": "",
-                "loading": -0.9935598278254105,
-                "high_factor_property": "Меньшая выраженность: Программное изменение существующего курса",
-                "low_factor_property": "Большая выраженность: Программное изменение существующего курса",
+                "loading": 0.9923578505005264,
+                "high_factor_property": "Большая выраженность: Программное изменение существующего курса",
+                "low_factor_property": "Меньшая выраженность: Программное изменение существующего курса",
                 "kind": "unipolar",
                 "parent_scale_id": "programmatic-renewal",
                 "pole": "positive"
@@ -3153,18 +3140,19 @@
                 "name": "Публичное раскрытие проблем и недостатков исполнения",
                 "positive": "Публичное раскрытие проблем и недостатков исполнения",
                 "negative": "",
-                "loading": -0.44865634105684443,
-                "high_factor_property": "Меньшая выраженность: Публичное раскрытие проблем и недостатков исполнения",
-                "low_factor_property": "Большая выраженность: Публичное раскрытие проблем и недостатков исполнения",
+                "loading": 0.46068355454204996,
+                "high_factor_property": "Большая выраженность: Публичное раскрытие проблем и недостатков исполнения",
+                "low_factor_property": "Меньшая выраженность: Публичное раскрытие проблем и недостатков исполнения",
                 "kind": "unipolar",
                 "parent_scale_id": "problem-disclosure-reputation-defence",
                 "pole": "positive"
               }
             ],
+            "negative_traits": [],
             "strong_loading_threshold": 0.35,
-            "variance_share": 0.1829704478941578,
-            "interpretation": "Программное изменение курса (−0,994) сочетается с публичным раскрытием проблем (−0,449). Так можно описать предложение изменений рядом с обсуждением недостатков. Ось почти непосредственно воспроизводит первый признак; причинная связь и широкий психологический тип этим не установлены.",
-            "automatic_name": "Обратная связь: Программное изменение существующего курса, Публичное раскрытие проблем и недостатков исполнения"
+            "variance_share": 0.17521445400734872,
+            "interpretation": "Программное изменение курса (+0,992) сочетается с публичным раскрытием недостатков (+0,461). Это связь предложений обновления с обсуждением проблем исполнения. Первый признак почти непосредственно определяет ось; его высокая нагрузка сама по себе не подтверждает широкий психологический тип.",
+            "automatic_name": "Программное изменение существующего курса, Публичное раскрытие проблем и недостатков исполнения"
           }
         ],
         "dimension_fit": {
@@ -3172,61 +3160,37 @@
           "parameter_count": 23,
           "covariance_moments": 36,
           "nominal_df": 13,
-          "heldout_log_likelihood_mean": -7.831106535709598,
-          "heldout_log_likelihood_sd": 0.6098977921873351,
+          "heldout_log_likelihood_mean": -9.428362742952498,
+          "heldout_log_likelihood_sd": 2.001305531457763,
           "heldout_log_likelihood_splits": [
-            -7.387877131564271,
-            -8.526679135058718,
-            -7.578763340505806
+            -11.6366676502433,
+            -8.913927092162462,
+            -7.734493486451728
           ],
-          "residual_rms_off_diagonal": 0.13786085220117303,
-          "residual_max_abs_off_diagonal": 0.5325086791603644,
-          "residual_fraction_abs_above_010": 0.17857142857142858,
+          "residual_rms_off_diagonal": 0.12806458486194822,
+          "residual_max_abs_off_diagonal": 0.32536414591235935,
+          "residual_fraction_abs_above_010": 0.32142857142857145,
           "strong_traits_per_factor": [
-            4,
+            3,
             2
           ],
           "all_factors_have_two_strong_traits": true,
           "convergence_warnings": 0,
-          "common_variance_share": 0.42525150280279284
+          "common_variance_share": 0.3973478661549007
         },
         "russia_candidates": [
           {
             "factor_id": "F1",
-            "variance_share": 0.24228105490863505,
+            "variance_share": 0.222133412147552,
             "russia_variance_contribution": 0.0,
             "russia_loading_energy_fraction": 0.0,
             "strong_russia_indicators": [],
             "all_russia_loadings": [],
             "strong_non_russia_indicators": [
               {
-                "id": "government-course-assessment__positive",
-                "name": "Публичная поддержка действующего государственного курса",
-                "loading": -0.9931068104598402,
-                "positive": "Публичная поддержка действующего государственного курса",
-                "negative": "",
-                "high_factor_property": "Меньшая выраженность: Публичная поддержка действующего государственного курса",
-                "low_factor_property": "Большая выраженность: Публичная поддержка действующего государственного курса",
-                "parent_scale_id": "government-course-assessment",
-                "pole": "positive",
-                "kind": "unipolar"
-              },
-              {
-                "id": "accessibility-growth-priorities__positive",
-                "name": "Расширение доступности базовых благ для населения",
-                "loading": -0.6412214955488506,
-                "positive": "Расширение доступности базовых благ для населения",
-                "negative": "",
-                "high_factor_property": "Меньшая выраженность: Расширение доступности базовых благ для населения",
-                "low_factor_property": "Большая выраженность: Расширение доступности базовых благ для населения",
-                "parent_scale_id": "accessibility-growth-priorities",
-                "pole": "positive",
-                "kind": "unipolar"
-              },
-              {
                 "id": "programmatic-renewal__negative",
                 "name": "Продолжение и закрепление действующего курса",
-                "loading": -0.5219455594657069,
+                "loading": -0.9921243895836607,
                 "positive": "Продолжение и закрепление действующего курса",
                 "negative": "",
                 "high_factor_property": "Меньшая выраженность: Продолжение и закрепление действующего курса",
@@ -3236,14 +3200,26 @@
                 "kind": "unipolar"
               },
               {
-                "id": "participation-administrative-direction__negative",
-                "name": "Административная постановка задач и контроль исполнения",
-                "loading": -0.40867096660295593,
-                "positive": "Административная постановка задач и контроль исполнения",
+                "id": "government-course-assessment__positive",
+                "name": "Публичная поддержка действующего государственного курса",
+                "loading": -0.6208746896518437,
+                "positive": "Публичная поддержка действующего государственного курса",
                 "negative": "",
-                "high_factor_property": "Меньшая выраженность: Административная постановка задач и контроль исполнения",
-                "low_factor_property": "Большая выраженность: Административная постановка задач и контроль исполнения",
-                "parent_scale_id": "participation-administrative-direction",
+                "high_factor_property": "Меньшая выраженность: Публичная поддержка действующего государственного курса",
+                "low_factor_property": "Большая выраженность: Публичная поддержка действующего государственного курса",
+                "parent_scale_id": "government-course-assessment",
+                "pole": "positive",
+                "kind": "unipolar"
+              },
+              {
+                "id": "argumentation-evidence-values__negative",
+                "name": "Обоснование через ценности, память и коллективные символы",
+                "loading": -0.4531088716500068,
+                "positive": "Обоснование через ценности, память и коллективные символы",
+                "negative": "",
+                "high_factor_property": "Меньшая выраженность: Обоснование через ценности, память и коллективные символы",
+                "low_factor_property": "Большая выраженность: Обоснование через ценности, память и коллективные символы",
+                "parent_scale_id": "argumentation-evidence-values",
                 "pole": "negative",
                 "kind": "unipolar"
               }
@@ -3266,7 +3242,7 @@
           },
           {
             "factor_id": "F2",
-            "variance_share": 0.1829704478941578,
+            "variance_share": 0.17521445400734872,
             "russia_variance_contribution": 0.0,
             "russia_loading_energy_fraction": 0.0,
             "strong_russia_indicators": [],
@@ -3275,11 +3251,11 @@
               {
                 "id": "programmatic-renewal__positive",
                 "name": "Программное изменение существующего курса",
-                "loading": -0.9935598278254105,
+                "loading": 0.9923578505005264,
                 "positive": "Программное изменение существующего курса",
                 "negative": "",
-                "high_factor_property": "Меньшая выраженность: Программное изменение существующего курса",
-                "low_factor_property": "Большая выраженность: Программное изменение существующего курса",
+                "high_factor_property": "Большая выраженность: Программное изменение существующего курса",
+                "low_factor_property": "Меньшая выраженность: Программное изменение существующего курса",
                 "parent_scale_id": "programmatic-renewal",
                 "pole": "positive",
                 "kind": "unipolar"
@@ -3287,11 +3263,11 @@
               {
                 "id": "problem-disclosure-reputation-defence__positive",
                 "name": "Публичное раскрытие проблем и недостатков исполнения",
-                "loading": -0.44865634105684443,
+                "loading": 0.46068355454204996,
                 "positive": "Публичное раскрытие проблем и недостатков исполнения",
                 "negative": "",
-                "high_factor_property": "Меньшая выраженность: Публичное раскрытие проблем и недостатков исполнения",
-                "low_factor_property": "Большая выраженность: Публичное раскрытие проблем и недостатков исполнения",
+                "high_factor_property": "Большая выраженность: Публичное раскрытие проблем и недостатков исполнения",
+                "low_factor_property": "Меньшая выраженность: Публичное раскрытие проблем и недостатков исполнения",
                 "parent_scale_id": "problem-disclosure-reputation-defence",
                 "pole": "positive",
                 "kind": "unipolar"
@@ -3324,8 +3300,8 @@
             "kind": "unipolar",
             "pole": "positive",
             "loadings": {
-              "F1": -0.01021598869450999,
-              "F2": -0.9935598278254105
+              "F1": 0.04069352562913767,
+              "F2": 0.9923578505005264
             }
           },
           {
@@ -3337,8 +3313,8 @@
             "kind": "unipolar",
             "pole": "negative",
             "loadings": {
-              "F1": -0.5219455594657069,
-              "F2": 0.2098385331861629
+              "F1": -0.9921243895836607,
+              "F2": -0.08368212848272778
             }
           },
           {
@@ -3350,8 +3326,8 @@
             "kind": "unipolar",
             "pole": "positive",
             "loadings": {
-              "F1": -0.9931068104598402,
-              "F2": 0.056082089301467464
+              "F1": -0.6208746896518437,
+              "F2": 0.07540684459404569
             }
           },
           {
@@ -3363,8 +3339,8 @@
             "kind": "unipolar",
             "pole": "negative",
             "loadings": {
-              "F1": -0.40867096660295593,
-              "F2": -0.03563117932870556
+              "F1": -0.30160443567739753,
+              "F2": 0.05155403682279103
             }
           },
           {
@@ -3376,8 +3352,8 @@
             "kind": "unipolar",
             "pole": "negative",
             "loadings": {
-              "F1": 0.07088603263696758,
-              "F2": -0.2696924353836759
+              "F1": -0.4531088716500068,
+              "F2": 0.2294191853570247
             }
           },
           {
@@ -3389,8 +3365,8 @@
             "kind": "unipolar",
             "pole": "positive",
             "loadings": {
-              "F1": -0.6412214955488506,
-              "F2": -0.3367302738298784
+              "F1": -0.19469722791757788,
+              "F2": 0.3474421080029951
             }
           },
           {
@@ -3402,8 +3378,8 @@
             "kind": "unipolar",
             "pole": "positive",
             "loadings": {
-              "F1": 0.27364780669731437,
-              "F2": -0.44865634105684443
+              "F1": 0.15480033147966002,
+              "F2": 0.46068355454204996
             }
           },
           {
@@ -3415,77 +3391,76 @@
             "kind": "unipolar",
             "pole": "positive",
             "loadings": {
-              "F1": -0.14618772788790674,
-              "F2": 0.20184563559084426
+              "F1": -0.2178809563087982,
+              "F2": -0.12655552381490484
             }
           }
         ]
       },
       {
         "q": 3,
-        "variance_total": 0.6020932368267157,
+        "variance_total": 0.5229451240072285,
         "variance_denominator": 8.0,
         "factors": [
           {
             "id": "F1",
-            "name": "Ценностная преемственность ↔ упреждение рисков",
-            "label": "Ценностная преемственность ↔ упреждение рисков",
-            "positive_traits": [
-              {
-                "id": "argumentation-evidence-values__negative",
-                "name": "Обоснование через ценности, память и коллективные символы",
-                "positive": "Обоснование через ценности, память и коллективные символы",
-                "negative": "",
-                "loading": 0.9867399331671955,
-                "high_factor_property": "Большая выраженность: Обоснование через ценности, память и коллективные символы",
-                "low_factor_property": "Меньшая выраженность: Обоснование через ценности, память и коллективные символы",
-                "kind": "unipolar",
-                "parent_scale_id": "argumentation-evidence-values",
-                "pole": "negative"
-              },
+            "name": "Преемственность и поддержка курса",
+            "label": "Преемственность и поддержка курса",
+            "positive_traits": [],
+            "negative_traits": [
               {
                 "id": "programmatic-renewal__negative",
                 "name": "Продолжение и закрепление действующего курса",
                 "positive": "Продолжение и закрепление действующего курса",
                 "negative": "",
-                "loading": 0.5064859615840351,
-                "high_factor_property": "Большая выраженность: Продолжение и закрепление действующего курса",
-                "low_factor_property": "Меньшая выраженность: Продолжение и закрепление действующего курса",
+                "loading": -0.9662875978184284,
+                "high_factor_property": "Меньшая выраженность: Продолжение и закрепление действующего курса",
+                "low_factor_property": "Большая выраженность: Продолжение и закрепление действующего курса",
                 "kind": "unipolar",
                 "parent_scale_id": "programmatic-renewal",
                 "pole": "negative"
-              }
-            ],
-            "negative_traits": [
+              },
               {
-                "id": "prevention-crisis-response__positive",
-                "name": "Упреждающее снижение рисков и подготовка",
-                "positive": "Упреждающее снижение рисков и подготовка",
+                "id": "government-course-assessment__positive",
+                "name": "Публичная поддержка действующего государственного курса",
+                "positive": "Публичная поддержка действующего государственного курса",
                 "negative": "",
-                "loading": -0.4502862920571399,
-                "high_factor_property": "Меньшая выраженность: Упреждающее снижение рисков и подготовка",
-                "low_factor_property": "Большая выраженность: Упреждающее снижение рисков и подготовка",
+                "loading": -0.6462574119874563,
+                "high_factor_property": "Меньшая выраженность: Публичная поддержка действующего государственного курса",
+                "low_factor_property": "Большая выраженность: Публичная поддержка действующего государственного курса",
                 "kind": "unipolar",
-                "parent_scale_id": "prevention-crisis-response",
+                "parent_scale_id": "government-course-assessment",
                 "pole": "positive"
+              },
+              {
+                "id": "argumentation-evidence-values__negative",
+                "name": "Обоснование через ценности, память и коллективные символы",
+                "positive": "Обоснование через ценности, память и коллективные символы",
+                "negative": "",
+                "loading": -0.3990589892041944,
+                "high_factor_property": "Меньшая выраженность: Обоснование через ценности, память и коллективные символы",
+                "low_factor_property": "Большая выраженность: Обоснование через ценности, память и коллективные символы",
+                "kind": "unipolar",
+                "parent_scale_id": "argumentation-evidence-values",
+                "pole": "negative"
               }
             ],
             "strong_loading_threshold": 0.35,
-            "variance_share": 0.18261151671516207,
-            "interpretation": "На одной стороне — аргументация через ценности, память и символы (+0,987) вместе с продолжением курса (+0,506), на другой — упреждающая подготовка (−0,450). Здесь впервые появляется содержательный контраст двух публичных акцентов. Он не означает, что ценности несовместимы с профилактикой или что у человека обязательно выражен только один из них.",
-            "automatic_name": "Больше: Обоснование через ценности, память и коллективные символы; меньше: Упреждающее снижение рисков и подготовка"
+            "variance_share": 0.2240003662266239,
+            "interpretation": "Продолжение курса (−0,966), его поддержка (−0,646) и ценностная аргументация (−0,399) сохраняют общий смысл первой оси двухфакторного решения. Содержательно это публичное подкрепление действующей линии; слабая выраженность не означает автоматически её отрицания.",
+            "automatic_name": "Обратная связь: Продолжение и закрепление действующего курса, Публичная поддержка действующего государственного курса"
           },
           {
             "id": "F2",
-            "name": "Программное обновление с раскрытием проблем",
-            "label": "Программное обновление с раскрытием проблем",
+            "name": "Обновление с обсуждением практических проблем",
+            "label": "Обновление с обсуждением практических проблем",
             "positive_traits": [
               {
                 "id": "programmatic-renewal__positive",
                 "name": "Программное изменение существующего курса",
                 "positive": "Программное изменение существующего курса",
                 "negative": "",
-                "loading": 0.9791308613928512,
+                "loading": 0.9460152911176193,
                 "high_factor_property": "Большая выраженность: Программное изменение существующего курса",
                 "low_factor_property": "Меньшая выраженность: Программное изменение существующего курса",
                 "kind": "unipolar",
@@ -3497,7 +3472,7 @@
                 "name": "Публичное раскрытие проблем и недостатков исполнения",
                 "positive": "Публичное раскрытие проблем и недостатков исполнения",
                 "negative": "",
-                "loading": 0.4456287022757858,
+                "loading": 0.46751433730049585,
                 "high_factor_property": "Большая выраженность: Публичное раскрытие проблем и недостатков исполнения",
                 "low_factor_property": "Меньшая выраженность: Публичное раскрытие проблем и недостатков исполнения",
                 "kind": "unipolar",
@@ -3509,7 +3484,7 @@
                 "name": "Расширение доступности базовых благ для населения",
                 "positive": "Расширение доступности базовых благ для населения",
                 "negative": "",
-                "loading": 0.3507673743881909,
+                "loading": 0.3974804955124084,
                 "high_factor_property": "Большая выраженность: Расширение доступности базовых благ для населения",
                 "low_factor_property": "Меньшая выраженность: Расширение доступности базовых благ для населения",
                 "kind": "unipolar",
@@ -3519,69 +3494,58 @@
             ],
             "negative_traits": [],
             "strong_loading_threshold": 0.35,
-            "variance_share": 0.17585815420256257,
-            "interpretation": "Изменение курса (+0,979), обозначение проблем (+0,446) и слабее доступность благ (+0,351) образуют связку обновления с обсуждением практических трудностей. Она близка F2 двухфакторного решения.",
+            "variance_share": 0.16779553452117885,
+            "interpretation": "Изменение курса (+0,946), раскрытие проблем (+0,468) и расширение доступности благ (+0,397) составляют связку обновления с практическими задачами. Она не тождественна оппозиционности: предложения изменений могут исходить от действующих управленцев.",
             "automatic_name": "Программное изменение существующего курса, Публичное раскрытие проблем и недостатков исполнения"
           },
           {
             "id": "F3",
-            "name": "Поддержка курса и доступность благ",
-            "label": "Поддержка курса и доступность благ",
-            "positive_traits": [],
-            "negative_traits": [
-              {
-                "id": "government-course-assessment__positive",
-                "name": "Публичная поддержка действующего государственного курса",
-                "positive": "Публичная поддержка действующего государственного курса",
-                "negative": "",
-                "loading": -0.9656962837928271,
-                "high_factor_property": "Меньшая выраженность: Публичная поддержка действующего государственного курса",
-                "low_factor_property": "Большая выраженность: Публичная поддержка действующего государственного курса",
-                "kind": "unipolar",
-                "parent_scale_id": "government-course-assessment",
-                "pole": "positive"
-              },
+            "name": "Доступность благ и предупреждение рисков ↔ ценностная аргументация",
+            "label": "Доступность благ и предупреждение рисков ↔ ценностная аргументация",
+            "positive_traits": [
               {
                 "id": "accessibility-growth-priorities__positive",
                 "name": "Расширение доступности базовых благ для населения",
                 "positive": "Расширение доступности базовых благ для населения",
                 "negative": "",
-                "loading": -0.6529220292424993,
-                "high_factor_property": "Меньшая выраженность: Расширение доступности базовых благ для населения",
-                "low_factor_property": "Большая выраженность: Расширение доступности базовых благ для населения",
+                "loading": 0.47237368355709247,
+                "high_factor_property": "Большая выраженность: Расширение доступности базовых благ для населения",
+                "low_factor_property": "Меньшая выраженность: Расширение доступности базовых благ для населения",
                 "kind": "unipolar",
                 "parent_scale_id": "accessibility-growth-priorities",
                 "pole": "positive"
               },
               {
-                "id": "programmatic-renewal__negative",
-                "name": "Продолжение и закрепление действующего курса",
-                "positive": "Продолжение и закрепление действующего курса",
+                "id": "prevention-crisis-response__positive",
+                "name": "Упреждающее снижение рисков и подготовка",
+                "positive": "Упреждающее снижение рисков и подготовка",
                 "negative": "",
-                "loading": -0.5607730222512601,
-                "high_factor_property": "Меньшая выраженность: Продолжение и закрепление действующего курса",
-                "low_factor_property": "Большая выраженность: Продолжение и закрепление действующего курса",
+                "loading": 0.4632135172417785,
+                "high_factor_property": "Большая выраженность: Упреждающее снижение рисков и подготовка",
+                "low_factor_property": "Меньшая выраженность: Упреждающее снижение рисков и подготовка",
                 "kind": "unipolar",
-                "parent_scale_id": "programmatic-renewal",
-                "pole": "negative"
-              },
+                "parent_scale_id": "prevention-crisis-response",
+                "pole": "positive"
+              }
+            ],
+            "negative_traits": [
               {
-                "id": "participation-administrative-direction__negative",
-                "name": "Административная постановка задач и контроль исполнения",
-                "positive": "Административная постановка задач и контроль исполнения",
+                "id": "argumentation-evidence-values__negative",
+                "name": "Обоснование через ценности, память и коллективные символы",
+                "positive": "Обоснование через ценности, память и коллективные символы",
                 "negative": "",
-                "loading": -0.41779730570355633,
-                "high_factor_property": "Меньшая выраженность: Административная постановка задач и контроль исполнения",
-                "low_factor_property": "Большая выраженность: Административная постановка задач и контроль исполнения",
+                "loading": -0.7060517942370828,
+                "high_factor_property": "Меньшая выраженность: Обоснование через ценности, память и коллективные символы",
+                "low_factor_property": "Большая выраженность: Обоснование через ценности, память и коллективные символы",
                 "kind": "unipolar",
-                "parent_scale_id": "participation-administrative-direction",
+                "parent_scale_id": "argumentation-evidence-values",
                 "pole": "negative"
               }
             ],
             "strong_loading_threshold": 0.35,
-            "variance_share": 0.24362356590899104,
-            "interpretation": "Сохраняется связка поддержки курса (−0,966), базовых благ (−0,653), продолжения курса (−0,561) и административного исполнения (−0,418). Это наиболее воспроизводимое содержание при сравнении всех трёх решений.",
-            "automatic_name": "Обратная связь: Публичная поддержка действующего государственного курса, Расширение доступности базовых благ для населения"
+            "variance_share": 0.1311492232594258,
+            "interpretation": "Доступность базовых благ (+0,472) и упреждающая подготовка (+0,463) имеют противоположный знак по отношению к аргументации через память, ценности и символы (−0,706). Появляется контраст практических социальных и профилактических акцентов с ценностно-мемориальными. Это относительная связь в корпусе, а не несовместимость ценностей и профилактики у отдельного человека.",
+            "automatic_name": "Больше: Расширение доступности базовых благ для населения; меньше: Обоснование через ценности, память и коллективные символы"
           }
         ],
         "dimension_fit": {
@@ -3589,68 +3553,68 @@
           "parameter_count": 29,
           "covariance_moments": 36,
           "nominal_df": 7,
-          "heldout_log_likelihood_mean": -7.528480029992873,
-          "heldout_log_likelihood_sd": 0.8658972097809484,
+          "heldout_log_likelihood_mean": -9.542938669592703,
+          "heldout_log_likelihood_sd": 2.11891931119815,
           "heldout_log_likelihood_splits": [
-            -7.0891134881710895,
-            -8.52597803421248,
-            -6.970348567595051
+            -11.939211434798471,
+            -8.772852136210984,
+            -7.9167524377686505
           ],
-          "residual_rms_off_diagonal": 0.06843975768321572,
-          "residual_max_abs_off_diagonal": 0.2681683198280077,
-          "residual_fraction_abs_above_010": 0.10714285714285714,
+          "residual_rms_off_diagonal": 0.0502279346985666,
+          "residual_max_abs_off_diagonal": 0.2344654966583016,
+          "residual_fraction_abs_above_010": 0.03571428571428571,
           "strong_traits_per_factor": [
             3,
             3,
-            4
+            3
           ],
           "all_factors_have_two_strong_traits": true,
           "convergence_warnings": 0,
-          "common_variance_share": 0.6020932368267158
+          "common_variance_share": 0.5229451240072286
         },
         "russia_candidates": [
           {
             "factor_id": "F1",
-            "variance_share": 0.18261151671516207,
+            "variance_share": 0.2240003662266239,
             "russia_variance_contribution": 0.0,
             "russia_loading_energy_fraction": 0.0,
             "strong_russia_indicators": [],
             "all_russia_loadings": [],
             "strong_non_russia_indicators": [
               {
-                "id": "argumentation-evidence-values__negative",
-                "name": "Обоснование через ценности, память и коллективные символы",
-                "loading": 0.9867399331671955,
-                "positive": "Обоснование через ценности, память и коллективные символы",
-                "negative": "",
-                "high_factor_property": "Большая выраженность: Обоснование через ценности, память и коллективные символы",
-                "low_factor_property": "Меньшая выраженность: Обоснование через ценности, память и коллективные символы",
-                "parent_scale_id": "argumentation-evidence-values",
-                "pole": "negative",
-                "kind": "unipolar"
-              },
-              {
                 "id": "programmatic-renewal__negative",
                 "name": "Продолжение и закрепление действующего курса",
-                "loading": 0.5064859615840351,
+                "loading": -0.9662875978184284,
                 "positive": "Продолжение и закрепление действующего курса",
                 "negative": "",
-                "high_factor_property": "Большая выраженность: Продолжение и закрепление действующего курса",
-                "low_factor_property": "Меньшая выраженность: Продолжение и закрепление действующего курса",
+                "high_factor_property": "Меньшая выраженность: Продолжение и закрепление действующего курса",
+                "low_factor_property": "Большая выраженность: Продолжение и закрепление действующего курса",
                 "parent_scale_id": "programmatic-renewal",
                 "pole": "negative",
                 "kind": "unipolar"
               },
               {
-                "id": "prevention-crisis-response__positive",
-                "name": "Упреждающее снижение рисков и подготовка",
-                "loading": -0.4502862920571399,
-                "positive": "Упреждающее снижение рисков и подготовка",
+                "id": "government-course-assessment__positive",
+                "name": "Публичная поддержка действующего государственного курса",
+                "loading": -0.6462574119874563,
+                "positive": "Публичная поддержка действующего государственного курса",
                 "negative": "",
-                "high_factor_property": "Меньшая выраженность: Упреждающее снижение рисков и подготовка",
-                "low_factor_property": "Большая выраженность: Упреждающее снижение рисков и подготовка",
-                "parent_scale_id": "prevention-crisis-response",
+                "high_factor_property": "Меньшая выраженность: Публичная поддержка действующего государственного курса",
+                "low_factor_property": "Большая выраженность: Публичная поддержка действующего государственного курса",
+                "parent_scale_id": "government-course-assessment",
                 "pole": "positive",
+                "kind": "unipolar"
+              },
+              {
+                "id": "argumentation-evidence-values__negative",
+                "name": "Обоснование через ценности, память и коллективные символы",
+                "loading": -0.3990589892041944,
+                "positive": "Обоснование через ценности, память и коллективные символы",
+                "negative": "",
+                "high_factor_property": "Меньшая выраженность: Обоснование через ценности, память и коллективные символы",
+                "low_factor_property": "Большая выраженность: Обоснование через ценности, память и коллективные символы",
+                "parent_scale_id": "argumentation-evidence-values",
+                "pole": "negative",
                 "kind": "unipolar"
               }
             ],
@@ -3672,7 +3636,7 @@
           },
           {
             "factor_id": "F2",
-            "variance_share": 0.17585815420256257,
+            "variance_share": 0.16779553452117885,
             "russia_variance_contribution": 0.0,
             "russia_loading_energy_fraction": 0.0,
             "strong_russia_indicators": [],
@@ -3681,7 +3645,7 @@
               {
                 "id": "programmatic-renewal__positive",
                 "name": "Программное изменение существующего курса",
-                "loading": 0.9791308613928512,
+                "loading": 0.9460152911176193,
                 "positive": "Программное изменение существующего курса",
                 "negative": "",
                 "high_factor_property": "Большая выраженность: Программное изменение существующего курса",
@@ -3693,7 +3657,7 @@
               {
                 "id": "problem-disclosure-reputation-defence__positive",
                 "name": "Публичное раскрытие проблем и недостатков исполнения",
-                "loading": 0.4456287022757858,
+                "loading": 0.46751433730049585,
                 "positive": "Публичное раскрытие проблем и недостатков исполнения",
                 "negative": "",
                 "high_factor_property": "Большая выраженность: Публичное раскрытие проблем и недостатков исполнения",
@@ -3705,7 +3669,7 @@
               {
                 "id": "accessibility-growth-priorities__positive",
                 "name": "Расширение доступности базовых благ для населения",
-                "loading": 0.3507673743881909,
+                "loading": 0.3974804955124084,
                 "positive": "Расширение доступности базовых благ для населения",
                 "negative": "",
                 "high_factor_property": "Большая выраженность: Расширение доступности базовых благ для населения",
@@ -3733,58 +3697,46 @@
           },
           {
             "factor_id": "F3",
-            "variance_share": 0.24362356590899104,
+            "variance_share": 0.1311492232594258,
             "russia_variance_contribution": 0.0,
             "russia_loading_energy_fraction": 0.0,
             "strong_russia_indicators": [],
             "all_russia_loadings": [],
             "strong_non_russia_indicators": [
               {
-                "id": "government-course-assessment__positive",
-                "name": "Публичная поддержка действующего государственного курса",
-                "loading": -0.9656962837928271,
-                "positive": "Публичная поддержка действующего государственного курса",
+                "id": "argumentation-evidence-values__negative",
+                "name": "Обоснование через ценности, память и коллективные символы",
+                "loading": -0.7060517942370828,
+                "positive": "Обоснование через ценности, память и коллективные символы",
                 "negative": "",
-                "high_factor_property": "Меньшая выраженность: Публичная поддержка действующего государственного курса",
-                "low_factor_property": "Большая выраженность: Публичная поддержка действующего государственного курса",
-                "parent_scale_id": "government-course-assessment",
-                "pole": "positive",
+                "high_factor_property": "Меньшая выраженность: Обоснование через ценности, память и коллективные символы",
+                "low_factor_property": "Большая выраженность: Обоснование через ценности, память и коллективные символы",
+                "parent_scale_id": "argumentation-evidence-values",
+                "pole": "negative",
                 "kind": "unipolar"
               },
               {
                 "id": "accessibility-growth-priorities__positive",
                 "name": "Расширение доступности базовых благ для населения",
-                "loading": -0.6529220292424993,
+                "loading": 0.47237368355709247,
                 "positive": "Расширение доступности базовых благ для населения",
                 "negative": "",
-                "high_factor_property": "Меньшая выраженность: Расширение доступности базовых благ для населения",
-                "low_factor_property": "Большая выраженность: Расширение доступности базовых благ для населения",
+                "high_factor_property": "Большая выраженность: Расширение доступности базовых благ для населения",
+                "low_factor_property": "Меньшая выраженность: Расширение доступности базовых благ для населения",
                 "parent_scale_id": "accessibility-growth-priorities",
                 "pole": "positive",
                 "kind": "unipolar"
               },
               {
-                "id": "programmatic-renewal__negative",
-                "name": "Продолжение и закрепление действующего курса",
-                "loading": -0.5607730222512601,
-                "positive": "Продолжение и закрепление действующего курса",
+                "id": "prevention-crisis-response__positive",
+                "name": "Упреждающее снижение рисков и подготовка",
+                "loading": 0.4632135172417785,
+                "positive": "Упреждающее снижение рисков и подготовка",
                 "negative": "",
-                "high_factor_property": "Меньшая выраженность: Продолжение и закрепление действующего курса",
-                "low_factor_property": "Большая выраженность: Продолжение и закрепление действующего курса",
-                "parent_scale_id": "programmatic-renewal",
-                "pole": "negative",
-                "kind": "unipolar"
-              },
-              {
-                "id": "participation-administrative-direction__negative",
-                "name": "Административная постановка задач и контроль исполнения",
-                "loading": -0.41779730570355633,
-                "positive": "Административная постановка задач и контроль исполнения",
-                "negative": "",
-                "high_factor_property": "Меньшая выраженность: Административная постановка задач и контроль исполнения",
-                "low_factor_property": "Большая выраженность: Административная постановка задач и контроль исполнения",
-                "parent_scale_id": "participation-administrative-direction",
-                "pole": "negative",
+                "high_factor_property": "Большая выраженность: Упреждающее снижение рисков и подготовка",
+                "low_factor_property": "Меньшая выраженность: Упреждающее снижение рисков и подготовка",
+                "parent_scale_id": "prevention-crisis-response",
+                "pole": "positive",
                 "kind": "unipolar"
               }
             ],
@@ -3815,9 +3767,9 @@
             "kind": "unipolar",
             "pole": "positive",
             "loadings": {
-              "F1": 0.12916947904607576,
-              "F2": 0.9791308613928512,
-              "F3": -0.011181008065445619
+              "F1": 0.04765198089269561,
+              "F2": 0.9460152911176193,
+              "F3": -0.0577530124343823
             }
           },
           {
@@ -3829,9 +3781,9 @@
             "kind": "unipolar",
             "pole": "negative",
             "loadings": {
-              "F1": 0.5064859615840351,
-              "F2": -0.28230612223040075,
-              "F3": -0.5607730222512601
+              "F1": -0.9662875978184284,
+              "F2": -0.08815370140283814,
+              "F3": -0.09209684825506477
             }
           },
           {
@@ -3843,9 +3795,9 @@
             "kind": "unipolar",
             "pole": "positive",
             "loadings": {
-              "F1": -0.045696752264009134,
-              "F2": -0.051531786572170266,
-              "F3": -0.9656962837928271
+              "F1": -0.6462574119874563,
+              "F2": 0.09154876716572861,
+              "F3": 0.08788641610787136
             }
           },
           {
@@ -3857,9 +3809,9 @@
             "kind": "unipolar",
             "pole": "negative",
             "loadings": {
-              "F1": 0.0187879096136503,
-              "F2": 0.03150177044038232,
-              "F3": -0.41779730570355633
+              "F1": -0.34113602598960685,
+              "F2": 0.07667340257143977,
+              "F3": 0.24920422224864616
             }
           },
           {
@@ -3871,9 +3823,9 @@
             "kind": "unipolar",
             "pole": "negative",
             "loadings": {
-              "F1": 0.9867399331671955,
-              "F2": 0.14481573255844302,
-              "F3": 0.03673399123612371
+              "F1": -0.3990589892041944,
+              "F2": 0.20329362824090044,
+              "F3": -0.7060517942370828
             }
           },
           {
@@ -3885,9 +3837,9 @@
             "kind": "unipolar",
             "pole": "positive",
             "loadings": {
-              "F1": -0.07042080070788309,
-              "F2": 0.3507673743881909,
-              "F3": -0.6529220292424993
+              "F1": -0.2532615644063836,
+              "F2": 0.3974804955124084,
+              "F3": 0.47237368355709247
             }
           },
           {
@@ -3899,9 +3851,9 @@
             "kind": "unipolar",
             "pole": "positive",
             "loadings": {
-              "F1": 0.062174284987601997,
-              "F2": 0.4456287022757858,
-              "F3": 0.268171915835675
+              "F1": 0.1668610661079565,
+              "F2": 0.46751433730049585,
+              "F3": -0.17702255232203068
             }
           },
           {
@@ -3913,54 +3865,30 @@
             "kind": "unipolar",
             "pole": "positive",
             "loadings": {
-              "F1": -0.4502862920571399,
-              "F2": -0.14909416168316258,
-              "F3": -0.16643464133429117
+              "F1": -0.26601870949738116,
+              "F2": -0.0866001354557159,
+              "F3": 0.4632135172417785
             }
           }
         ]
       },
       {
         "q": 4,
-        "variance_total": 0.7074243129915654,
+        "variance_total": 0.6137086982377332,
         "variance_denominator": 8.0,
         "factors": [
           {
             "id": "F1",
-            "name": "Поддержка курса и доступность благ",
-            "label": "Поддержка курса и доступность благ",
+            "name": "Преемственность и поддержка курса",
+            "label": "Преемственность и поддержка курса",
             "positive_traits": [],
             "negative_traits": [
-              {
-                "id": "government-course-assessment__positive",
-                "name": "Публичная поддержка действующего государственного курса",
-                "positive": "Публичная поддержка действующего государственного курса",
-                "negative": "",
-                "loading": -0.9819346236584255,
-                "high_factor_property": "Меньшая выраженность: Публичная поддержка действующего государственного курса",
-                "low_factor_property": "Большая выраженность: Публичная поддержка действующего государственного курса",
-                "kind": "unipolar",
-                "parent_scale_id": "government-course-assessment",
-                "pole": "positive"
-              },
-              {
-                "id": "accessibility-growth-priorities__positive",
-                "name": "Расширение доступности базовых благ для населения",
-                "positive": "Расширение доступности базовых благ для населения",
-                "negative": "",
-                "loading": -0.6389464171170052,
-                "high_factor_property": "Меньшая выраженность: Расширение доступности базовых благ для населения",
-                "low_factor_property": "Большая выраженность: Расширение доступности базовых благ для населения",
-                "kind": "unipolar",
-                "parent_scale_id": "accessibility-growth-priorities",
-                "pole": "positive"
-              },
               {
                 "id": "programmatic-renewal__negative",
                 "name": "Продолжение и закрепление действующего курса",
                 "positive": "Продолжение и закрепление действующего курса",
                 "negative": "",
-                "loading": -0.4054836108733044,
+                "loading": -0.9792240189954619,
                 "high_factor_property": "Меньшая выраженность: Продолжение и закрепление действующего курса",
                 "low_factor_property": "Большая выраженность: Продолжение и закрепление действующего курса",
                 "kind": "unipolar",
@@ -3968,48 +3896,23 @@
                 "pole": "negative"
               },
               {
-                "id": "participation-administrative-direction__negative",
-                "name": "Административная постановка задач и контроль исполнения",
-                "positive": "Административная постановка задач и контроль исполнения",
+                "id": "government-course-assessment__positive",
+                "name": "Публичная поддержка действующего государственного курса",
+                "positive": "Публичная поддержка действующего государственного курса",
                 "negative": "",
-                "loading": -0.38597631388025144,
-                "high_factor_property": "Меньшая выраженность: Административная постановка задач и контроль исполнения",
-                "low_factor_property": "Большая выраженность: Административная постановка задач и контроль исполнения",
+                "loading": -0.6062406266400868,
+                "high_factor_property": "Меньшая выраженность: Публичная поддержка действующего государственного курса",
+                "low_factor_property": "Большая выраженность: Публичная поддержка действующего государственного курса",
                 "kind": "unipolar",
-                "parent_scale_id": "participation-administrative-direction",
-                "pole": "negative"
-              }
-            ],
-            "strong_loading_threshold": 0.35,
-            "variance_share": 0.2245527951150638,
-            "interpretation": "Поддержка курса (−0,982) и базовые блага (−0,639) остаются ядром. Продолжение курса (−0,405) и административное исполнение (−0,386) связаны с ним слабее, чем при трёх факторах.",
-            "automatic_name": "Обратная связь: Публичная поддержка действующего государственного курса, Расширение доступности базовых благ для населения"
-          },
-          {
-            "id": "F2",
-            "name": "Упреждение рисков",
-            "label": "Упреждение рисков",
-            "positive_traits": [
-              {
-                "id": "prevention-crisis-response__positive",
-                "name": "Упреждающее снижение рисков и подготовка",
-                "positive": "Упреждающее снижение рисков и подготовка",
-                "negative": "",
-                "loading": 0.9640813706798752,
-                "high_factor_property": "Большая выраженность: Упреждающее снижение рисков и подготовка",
-                "low_factor_property": "Меньшая выраженность: Упреждающее снижение рисков и подготовка",
-                "kind": "unipolar",
-                "parent_scale_id": "prevention-crisis-response",
+                "parent_scale_id": "government-course-assessment",
                 "pole": "positive"
-              }
-            ],
-            "negative_traits": [
+              },
               {
                 "id": "argumentation-evidence-values__negative",
                 "name": "Обоснование через ценности, память и коллективные символы",
                 "positive": "Обоснование через ценности, память и коллективные символы",
                 "negative": "",
-                "loading": -0.4270484609871046,
+                "loading": -0.5282656414630034,
                 "high_factor_property": "Меньшая выраженность: Обоснование через ценности, память и коллективные символы",
                 "low_factor_property": "Большая выраженность: Обоснование через ценности, память и коллективные символы",
                 "kind": "unipolar",
@@ -4018,21 +3921,45 @@
               }
             ],
             "strong_loading_threshold": 0.35,
-            "variance_share": 0.15063825587003482,
-            "interpretation": "Подготовка и снижение рисков (+0,964) выделяются в отдельную ось, с противоположной нагрузкой ценностно-мемориальной аргументации (−0,427). Основную опору даёт один прямой признак; называть это уже установленным широким типом сознания преждевременно.",
-            "automatic_name": "Больше: Упреждающее снижение рисков и подготовка; меньше: Обоснование через ценности, память и коллективные символы"
+            "variance_share": 0.21581616424572891,
+            "interpretation": "Продолжение курса (−0,979), его публичная поддержка (−0,606) и ценностная аргументация (−0,528) сохраняют общий смысл. Это наиболее узнаваемая линия при смене числа факторов.",
+            "automatic_name": "Обратная связь: Продолжение и закрепление действующего курса, Публичная поддержка действующего государственного курса"
+          },
+          {
+            "id": "F2",
+            "name": "Предупреждение рисков",
+            "label": "Предупреждение рисков",
+            "positive_traits": [],
+            "negative_traits": [
+              {
+                "id": "prevention-crisis-response__positive",
+                "name": "Упреждающее снижение рисков и подготовка",
+                "positive": "Упреждающее снижение рисков и подготовка",
+                "negative": "",
+                "loading": -0.9025375333577216,
+                "high_factor_property": "Меньшая выраженность: Упреждающее снижение рисков и подготовка",
+                "low_factor_property": "Большая выраженность: Упреждающее снижение рисков и подготовка",
+                "kind": "unipolar",
+                "parent_scale_id": "prevention-crisis-response",
+                "pole": "positive"
+              }
+            ],
+            "strong_loading_threshold": 0.35,
+            "variance_share": 0.1320013703547737,
+            "interpretation": "Подготовка и упреждающее снижение рисков (−0,903) выделяются в отдельную ось. Других нагрузок по модулю ≥0,35 у неё нет: это фактически одноиндикаторное направление, которое пока нельзя считать надёжно измеренным широким латентным свойством.",
+            "automatic_name": "Обратная связь: Упреждающее снижение рисков и подготовка"
           },
           {
             "id": "F3",
-            "name": "Программное обновление с раскрытием проблем",
-            "label": "Программное обновление с раскрытием проблем",
+            "name": "Программное обновление и раскрытие проблем",
+            "label": "Программное обновление и раскрытие проблем",
             "positive_traits": [
               {
                 "id": "programmatic-renewal__positive",
                 "name": "Программное изменение существующего курса",
                 "positive": "Программное изменение существующего курса",
                 "negative": "",
-                "loading": 0.9629612565280405,
+                "loading": 0.8448404348605612,
                 "high_factor_property": "Большая выраженность: Программное изменение существующего курса",
                 "low_factor_property": "Меньшая выраженность: Программное изменение существующего курса",
                 "kind": "unipolar",
@@ -4044,67 +3971,56 @@
                 "name": "Публичное раскрытие проблем и недостатков исполнения",
                 "positive": "Публичное раскрытие проблем и недостатков исполнения",
                 "negative": "",
-                "loading": 0.47955416943279183,
+                "loading": 0.646494998016259,
                 "high_factor_property": "Большая выраженность: Публичное раскрытие проблем и недостатков исполнения",
                 "low_factor_property": "Меньшая выраженность: Публичное раскрытие проблем и недостатков исполнения",
                 "kind": "unipolar",
                 "parent_scale_id": "problem-disclosure-reputation-defence",
                 "pole": "positive"
-              },
-              {
-                "id": "accessibility-growth-priorities__positive",
-                "name": "Расширение доступности базовых благ для населения",
-                "positive": "Расширение доступности базовых благ для населения",
-                "negative": "",
-                "loading": 0.35574988817472986,
-                "high_factor_property": "Большая выраженность: Расширение доступности базовых благ для населения",
-                "low_factor_property": "Меньшая выраженность: Расширение доступности базовых благ для населения",
-                "kind": "unipolar",
-                "parent_scale_id": "accessibility-growth-priorities",
-                "pole": "positive"
               }
             ],
             "negative_traits": [],
             "strong_loading_threshold": 0.35,
-            "variance_share": 0.17385885141836013,
-            "interpretation": "Сочетание изменения курса (+0,963), раскрытия проблем (+0,480) и доступности благ (+0,356) сохраняет смысл соответствующей оси трёхфакторного решения.",
+            "variance_share": 0.1653758243076509,
+            "interpretation": "Изменение курса (+0,845) и публичное раскрытие проблем (+0,646) остаются связкой обновления с обсуждением недостатков. Номер F3 локален для этого решения; содержательно она близка F2 предыдущих вариантов.",
             "automatic_name": "Программное изменение существующего курса, Публичное раскрытие проблем и недостатков исполнения"
           },
           {
             "id": "F4",
-            "name": "Преемственность, подкреплённая памятью и ценностями",
-            "label": "Преемственность, подкреплённая памятью и ценностями",
-            "positive_traits": [],
-            "negative_traits": [
-              {
-                "id": "programmatic-renewal__negative",
-                "name": "Продолжение и закрепление действующего курса",
-                "positive": "Продолжение и закрепление действующего курса",
-                "negative": "",
-                "loading": -0.8179081931501503,
-                "high_factor_property": "Меньшая выраженность: Продолжение и закрепление действующего курса",
-                "low_factor_property": "Большая выраженность: Продолжение и закрепление действующего курса",
-                "kind": "unipolar",
-                "parent_scale_id": "programmatic-renewal",
-                "pole": "negative"
-              },
+            "name": "Доступность благ ↔ ценностная аргументация",
+            "label": "Доступность благ ↔ ценностная аргументация",
+            "positive_traits": [
               {
                 "id": "argumentation-evidence-values__negative",
                 "name": "Обоснование через ценности, память и коллективные символы",
                 "positive": "Обоснование через ценности, память и коллективные символы",
                 "negative": "",
-                "loading": -0.7487495993822141,
-                "high_factor_property": "Меньшая выраженность: Обоснование через ценности, память и коллективные символы",
-                "low_factor_property": "Большая выраженность: Обоснование через ценности, память и коллективные символы",
+                "loading": 0.3578780792164645,
+                "high_factor_property": "Большая выраженность: Обоснование через ценности, память и коллективные символы",
+                "low_factor_property": "Меньшая выраженность: Обоснование через ценности, память и коллективные символы",
                 "kind": "unipolar",
                 "parent_scale_id": "argumentation-evidence-values",
                 "pole": "negative"
               }
             ],
+            "negative_traits": [
+              {
+                "id": "accessibility-growth-priorities__positive",
+                "name": "Расширение доступности базовых благ для населения",
+                "positive": "Расширение доступности базовых благ для населения",
+                "negative": "",
+                "loading": -0.632644458250361,
+                "high_factor_property": "Меньшая выраженность: Расширение доступности базовых благ для населения",
+                "low_factor_property": "Большая выраженность: Расширение доступности базовых благ для населения",
+                "kind": "unipolar",
+                "parent_scale_id": "accessibility-growth-priorities",
+                "pole": "positive"
+              }
+            ],
             "strong_loading_threshold": 0.35,
-            "variance_share": 0.1583744105881067,
-            "interpretation": "Продолжение курса (−0,818) соединяется с ценностями, памятью и символами (−0,749). Это отдельная связка из двух сильных признаков. Она отделяется от профилактики, но её воспроизводимость недостаточна для уверенного самостоятельного вывода.",
-            "automatic_name": "Обратная связь: Продолжение и закрепление действующего курса, Обоснование через ценности, память и коллективные символы"
+            "variance_share": 0.10051533932957982,
+            "interpretation": "Расширение доступности благ (−0,633) противопоставлено по знаку ценностно-мемориальному обоснованию (+0,358). Вторая опора лишь немного превышает порог описания 0,35. Эта ось особенно чувствительна к способу восстановления пропусков; её смысл остаётся сравнительной гипотезой.",
+            "automatic_name": "Больше: Обоснование через ценности, память и коллективные символы; меньше: Расширение доступности базовых благ для населения"
           }
         ],
         "dimension_fit": {
@@ -4112,63 +4028,39 @@
           "parameter_count": 34,
           "covariance_moments": 36,
           "nominal_df": 2,
-          "heldout_log_likelihood_mean": -7.111989690565039,
-          "heldout_log_likelihood_sd": 0.9110849529234829,
+          "heldout_log_likelihood_mean": -9.842012291011331,
+          "heldout_log_likelihood_sd": 2.0109831353259637,
           "heldout_log_likelihood_splits": [
-            -6.477641614256984,
-            -8.155990860853516,
-            -6.702336596584618
+            -12.138857054216437,
+            -8.989277702305955,
+            -8.397902116511602
           ],
-          "residual_rms_off_diagonal": 0.01718370215221239,
-          "residual_max_abs_off_diagonal": 0.0842317588107564,
+          "residual_rms_off_diagonal": 0.01509597639279254,
+          "residual_max_abs_off_diagonal": 0.05001841467492779,
           "residual_fraction_abs_above_010": 0.0,
           "strong_traits_per_factor": [
-            4,
-            2,
             3,
+            1,
+            2,
             2
           ],
-          "all_factors_have_two_strong_traits": true,
+          "all_factors_have_two_strong_traits": false,
           "convergence_warnings": 0,
-          "common_variance_share": 0.7074243129915655
+          "common_variance_share": 0.6137086982377333
         },
         "russia_candidates": [
           {
             "factor_id": "F1",
-            "variance_share": 0.2245527951150638,
+            "variance_share": 0.21581616424572891,
             "russia_variance_contribution": 0.0,
             "russia_loading_energy_fraction": 0.0,
             "strong_russia_indicators": [],
             "all_russia_loadings": [],
             "strong_non_russia_indicators": [
               {
-                "id": "government-course-assessment__positive",
-                "name": "Публичная поддержка действующего государственного курса",
-                "loading": -0.9819346236584255,
-                "positive": "Публичная поддержка действующего государственного курса",
-                "negative": "",
-                "high_factor_property": "Меньшая выраженность: Публичная поддержка действующего государственного курса",
-                "low_factor_property": "Большая выраженность: Публичная поддержка действующего государственного курса",
-                "parent_scale_id": "government-course-assessment",
-                "pole": "positive",
-                "kind": "unipolar"
-              },
-              {
-                "id": "accessibility-growth-priorities__positive",
-                "name": "Расширение доступности базовых благ для населения",
-                "loading": -0.6389464171170052,
-                "positive": "Расширение доступности базовых благ для населения",
-                "negative": "",
-                "high_factor_property": "Меньшая выраженность: Расширение доступности базовых благ для населения",
-                "low_factor_property": "Большая выраженность: Расширение доступности базовых благ для населения",
-                "parent_scale_id": "accessibility-growth-priorities",
-                "pole": "positive",
-                "kind": "unipolar"
-              },
-              {
                 "id": "programmatic-renewal__negative",
                 "name": "Продолжение и закрепление действующего курса",
-                "loading": -0.4054836108733044,
+                "loading": -0.9792240189954619,
                 "positive": "Продолжение и закрепление действующего курса",
                 "negative": "",
                 "high_factor_property": "Меньшая выраженность: Продолжение и закрепление действующего курса",
@@ -4178,14 +4070,26 @@
                 "kind": "unipolar"
               },
               {
-                "id": "participation-administrative-direction__negative",
-                "name": "Административная постановка задач и контроль исполнения",
-                "loading": -0.38597631388025144,
-                "positive": "Административная постановка задач и контроль исполнения",
+                "id": "government-course-assessment__positive",
+                "name": "Публичная поддержка действующего государственного курса",
+                "loading": -0.6062406266400868,
+                "positive": "Публичная поддержка действующего государственного курса",
                 "negative": "",
-                "high_factor_property": "Меньшая выраженность: Административная постановка задач и контроль исполнения",
-                "low_factor_property": "Большая выраженность: Административная постановка задач и контроль исполнения",
-                "parent_scale_id": "participation-administrative-direction",
+                "high_factor_property": "Меньшая выраженность: Публичная поддержка действующего государственного курса",
+                "low_factor_property": "Большая выраженность: Публичная поддержка действующего государственного курса",
+                "parent_scale_id": "government-course-assessment",
+                "pole": "positive",
+                "kind": "unipolar"
+              },
+              {
+                "id": "argumentation-evidence-values__negative",
+                "name": "Обоснование через ценности, память и коллективные символы",
+                "loading": -0.5282656414630034,
+                "positive": "Обоснование через ценности, память и коллективные символы",
+                "negative": "",
+                "high_factor_property": "Меньшая выраженность: Обоснование через ценности, память и коллективные символы",
+                "low_factor_property": "Большая выраженность: Обоснование через ценности, память и коллективные символы",
+                "parent_scale_id": "argumentation-evidence-values",
                 "pole": "negative",
                 "kind": "unipolar"
               }
@@ -4208,7 +4112,7 @@
           },
           {
             "factor_id": "F2",
-            "variance_share": 0.15063825587003482,
+            "variance_share": 0.1320013703547737,
             "russia_variance_contribution": 0.0,
             "russia_loading_energy_fraction": 0.0,
             "strong_russia_indicators": [],
@@ -4217,25 +4121,13 @@
               {
                 "id": "prevention-crisis-response__positive",
                 "name": "Упреждающее снижение рисков и подготовка",
-                "loading": 0.9640813706798752,
+                "loading": -0.9025375333577216,
                 "positive": "Упреждающее снижение рисков и подготовка",
                 "negative": "",
-                "high_factor_property": "Большая выраженность: Упреждающее снижение рисков и подготовка",
-                "low_factor_property": "Меньшая выраженность: Упреждающее снижение рисков и подготовка",
+                "high_factor_property": "Меньшая выраженность: Упреждающее снижение рисков и подготовка",
+                "low_factor_property": "Большая выраженность: Упреждающее снижение рисков и подготовка",
                 "parent_scale_id": "prevention-crisis-response",
                 "pole": "positive",
-                "kind": "unipolar"
-              },
-              {
-                "id": "argumentation-evidence-values__negative",
-                "name": "Обоснование через ценности, память и коллективные символы",
-                "loading": -0.4270484609871046,
-                "positive": "Обоснование через ценности, память и коллективные символы",
-                "negative": "",
-                "high_factor_property": "Меньшая выраженность: Обоснование через ценности, память и коллективные символы",
-                "low_factor_property": "Большая выраженность: Обоснование через ценности, память и коллективные символы",
-                "parent_scale_id": "argumentation-evidence-values",
-                "pole": "negative",
                 "kind": "unipolar"
               }
             ],
@@ -4257,7 +4149,7 @@
           },
           {
             "factor_id": "F3",
-            "variance_share": 0.17385885141836013,
+            "variance_share": 0.1653758243076509,
             "russia_variance_contribution": 0.0,
             "russia_loading_energy_fraction": 0.0,
             "strong_russia_indicators": [],
@@ -4266,7 +4158,7 @@
               {
                 "id": "programmatic-renewal__positive",
                 "name": "Программное изменение существующего курса",
-                "loading": 0.9629612565280405,
+                "loading": 0.8448404348605612,
                 "positive": "Программное изменение существующего курса",
                 "negative": "",
                 "high_factor_property": "Большая выраженность: Программное изменение существующего курса",
@@ -4278,24 +4170,12 @@
               {
                 "id": "problem-disclosure-reputation-defence__positive",
                 "name": "Публичное раскрытие проблем и недостатков исполнения",
-                "loading": 0.47955416943279183,
+                "loading": 0.646494998016259,
                 "positive": "Публичное раскрытие проблем и недостатков исполнения",
                 "negative": "",
                 "high_factor_property": "Большая выраженность: Публичное раскрытие проблем и недостатков исполнения",
                 "low_factor_property": "Меньшая выраженность: Публичное раскрытие проблем и недостатков исполнения",
                 "parent_scale_id": "problem-disclosure-reputation-defence",
-                "pole": "positive",
-                "kind": "unipolar"
-              },
-              {
-                "id": "accessibility-growth-priorities__positive",
-                "name": "Расширение доступности базовых благ для населения",
-                "loading": 0.35574988817472986,
-                "positive": "Расширение доступности базовых благ для населения",
-                "negative": "",
-                "high_factor_property": "Большая выраженность: Расширение доступности базовых благ для населения",
-                "low_factor_property": "Меньшая выраженность: Расширение доступности базовых благ для населения",
-                "parent_scale_id": "accessibility-growth-priorities",
                 "pole": "positive",
                 "kind": "unipolar"
               }
@@ -4318,32 +4198,32 @@
           },
           {
             "factor_id": "F4",
-            "variance_share": 0.1583744105881067,
+            "variance_share": 0.10051533932957982,
             "russia_variance_contribution": 0.0,
             "russia_loading_energy_fraction": 0.0,
             "strong_russia_indicators": [],
             "all_russia_loadings": [],
             "strong_non_russia_indicators": [
               {
-                "id": "programmatic-renewal__negative",
-                "name": "Продолжение и закрепление действующего курса",
-                "loading": -0.8179081931501503,
-                "positive": "Продолжение и закрепление действующего курса",
+                "id": "accessibility-growth-priorities__positive",
+                "name": "Расширение доступности базовых благ для населения",
+                "loading": -0.632644458250361,
+                "positive": "Расширение доступности базовых благ для населения",
                 "negative": "",
-                "high_factor_property": "Меньшая выраженность: Продолжение и закрепление действующего курса",
-                "low_factor_property": "Большая выраженность: Продолжение и закрепление действующего курса",
-                "parent_scale_id": "programmatic-renewal",
-                "pole": "negative",
+                "high_factor_property": "Меньшая выраженность: Расширение доступности базовых благ для населения",
+                "low_factor_property": "Большая выраженность: Расширение доступности базовых благ для населения",
+                "parent_scale_id": "accessibility-growth-priorities",
+                "pole": "positive",
                 "kind": "unipolar"
               },
               {
                 "id": "argumentation-evidence-values__negative",
                 "name": "Обоснование через ценности, память и коллективные символы",
-                "loading": -0.7487495993822141,
+                "loading": 0.3578780792164645,
                 "positive": "Обоснование через ценности, память и коллективные символы",
                 "negative": "",
-                "high_factor_property": "Меньшая выраженность: Обоснование через ценности, память и коллективные символы",
-                "low_factor_property": "Большая выраженность: Обоснование через ценности, память и коллективные символы",
+                "high_factor_property": "Большая выраженность: Обоснование через ценности, память и коллективные символы",
+                "low_factor_property": "Меньшая выраженность: Обоснование через ценности, память и коллективные символы",
                 "parent_scale_id": "argumentation-evidence-values",
                 "pole": "negative",
                 "kind": "unipolar"
@@ -4376,10 +4256,10 @@
             "kind": "unipolar",
             "pole": "positive",
             "loadings": {
-              "F1": -0.025270744398540955,
-              "F2": -0.12461029622672777,
-              "F3": 0.9629612565280405,
-              "F4": 0.014442869887843175
+              "F1": 0.03487216470321497,
+              "F2": 0.1265082615865258,
+              "F3": 0.8448404348605612,
+              "F4": -0.21644950394015572
             }
           },
           {
@@ -4391,10 +4271,10 @@
             "kind": "unipolar",
             "pole": "negative",
             "loadings": {
-              "F1": -0.4054836108733044,
-              "F2": 0.1615747524211991,
-              "F3": -0.19067828331726192,
-              "F4": -0.8179081931501503
+              "F1": -0.9792240189954619,
+              "F2": -0.11709973618740294,
+              "F3": -0.10086209762094016,
+              "F4": -0.04941632673048979
             }
           },
           {
@@ -4406,10 +4286,10 @@
             "kind": "unipolar",
             "pole": "positive",
             "loadings": {
-              "F1": -0.9819346236584255,
-              "F2": 0.0718028061483015,
-              "F3": -0.061775679452839134,
-              "F4": -0.1337457058733785
+              "F1": -0.6062406266400868,
+              "F2": -0.08867454818604201,
+              "F3": 0.05205132505773556,
+              "F4": -0.20492815875467638
             }
           },
           {
@@ -4421,10 +4301,10 @@
             "kind": "unipolar",
             "pole": "negative",
             "loadings": {
-              "F1": -0.38597631388025144,
-              "F2": 0.13769406101568424,
-              "F3": 0.04813364268373062,
-              "F4": -0.12681655031282651
+              "F1": -0.2656424934830964,
+              "F2": -0.1906454430513544,
+              "F3": 0.012965724977063695,
+              "F4": -0.28549586102128294
             }
           },
           {
@@ -4436,10 +4316,10 @@
             "kind": "unipolar",
             "pole": "negative",
             "loadings": {
-              "F1": 0.14522847196542646,
-              "F2": -0.4270484609871046,
-              "F3": 0.23920810953200472,
-              "F4": -0.7487495993822141
+              "F1": -0.5282656414630034,
+              "F2": 0.2996520663523337,
+              "F3": 0.3149412820376079,
+              "F4": 0.3578780792164645
             }
           },
           {
@@ -4451,10 +4331,10 @@
             "kind": "unipolar",
             "pole": "positive",
             "loadings": {
-              "F1": -0.6389464171170052,
-              "F2": 0.135538873745048,
-              "F3": 0.35574988817472986,
-              "F4": -0.020589213521543085
+              "F1": -0.13581589209689277,
+              "F2": -0.2330459654363814,
+              "F3": 0.2777006870530744,
+              "F4": -0.632644458250361
             }
           },
           {
@@ -4466,10 +4346,10 @@
             "kind": "unipolar",
             "pole": "positive",
             "loadings": {
-              "F1": 0.28535986606769326,
-              "F2": 0.09572125879508143,
-              "F3": 0.47955416943279183,
-              "F4": -0.03607929583972389
+              "F1": 0.13255194296563264,
+              "F2": -0.1530020651046926,
+              "F3": 0.646494998016259,
+              "F4": 0.308468162204553
             }
           },
           {
@@ -4481,10 +4361,10 @@
             "kind": "unipolar",
             "pole": "positive",
             "loadings": {
-              "F1": -0.08613585500334939,
-              "F2": 0.9640813706798752,
-              "F3": -0.08564132116888555,
-              "F4": 0.03861257104294834
+              "F1": -0.11514935042751555,
+              "F2": -0.9025375333577216,
+              "F3": -0.044035845666887105,
+              "F4": -0.08864862880995843
             }
           }
         ]
@@ -4871,8 +4751,8 @@
           "name": "Расширение дипломатического сотрудничества с Россией",
           "semantic_family_id": "russia_diplomacy",
           "retained": false,
-          "observed_count": 0,
-          "observed_input_count": 1,
+          "observed_count": 2,
+          "observed_input_count": 2,
           "exclusion_reason": "constant_or_insufficient_observations"
         },
         {
@@ -4889,8 +4769,8 @@
           "name": "Развитие военно-технического сотрудничества с Россией",
           "semantic_family_id": "russia_security",
           "retained": false,
-          "observed_count": 0,
-          "observed_input_count": 1,
+          "observed_count": 2,
+          "observed_input_count": 2,
           "exclusion_reason": "constant_or_insufficient_observations"
         },
         {
@@ -4907,8 +4787,8 @@
           "name": "Развитие экономических и технологических проектов с Россией",
           "semantic_family_id": "russia_economy_technology",
           "retained": false,
-          "observed_count": 1,
-          "observed_input_count": 2,
+          "observed_count": 3,
+          "observed_input_count": 3,
           "exclusion_reason": "constant_or_insufficient_observations"
         },
         {
@@ -4925,8 +4805,8 @@
           "name": "Расширение образовательных и культурных обменов с Россией",
           "semantic_family_id": "russia_education_culture",
           "retained": false,
-          "observed_count": 1,
-          "observed_input_count": 2,
+          "observed_count": 3,
+          "observed_input_count": 3,
           "exclusion_reason": "constant_or_insufficient_observations"
         },
         {
@@ -4952,8 +4832,8 @@
           "name": "Публичная критика конкретных внешнеполитических действий России",
           "semantic_family_id": "russia_foreign_actions",
           "retained": false,
-          "observed_count": 0,
-          "observed_input_count": 1,
+          "observed_count": 4,
+          "observed_input_count": 4,
           "exclusion_reason": "constant_or_insufficient_observations"
         },
         {
@@ -4983,7 +4863,7 @@
       ]
     },
     "diagnostics": {
-      "observed_input_ratings": 548,
+      "observed_input_ratings": 589,
       "difference_only_ratings": 0,
       "measurement_model": "independent_poles",
       "input_scale_definitions": 24,
@@ -4991,14 +4871,18 @@
       "input_objects": 42,
       "input_scales": 48,
       "total_input_cells": 2016,
-      "unknown_input_cells": 1468,
-      "input_coverage": 0.2718253968253968,
-      "retained_objects": 28,
+      "unknown_input_cells": 1427,
+      "input_coverage": 0.29216269841269843,
+      "retained_objects": 37,
       "retained_scales": 8,
       "retained_object_ids": [
+        "paul-kagame",
         "edouard-ngirente",
         "justin-nsengiyumva",
         "vincent-biruta",
+        "olivier-nduhungirehe",
+        "james-kabarebe",
+        "juvenal-marizamunda",
         "albert-murasira",
         "emmanuel-ugirashebuja",
         "yusuf-murangwa",
@@ -5013,15 +4897,20 @@
         "jean-claude-musabyimana",
         "jean-damascene-bizimana",
         "clare-akamanzi",
+        "francis-gatare",
         "gertrude-kazarwa",
         "donatille-mukabalisa",
+        "francois-xavier-kalinda",
         "augustin-iyamuremye",
         "alvera-mukabaramba",
+        "mussa-fazil-harerimana",
         "pudence-rubingisa",
         "samuel-dusengiyumva",
         "frank-habineza",
         "philippe-mpayimana",
         "victoire-ingabire",
+        "diane-rwigara",
+        "louise-mushikiwabo",
         "claver-gatete",
         "valentine-rugwabiza"
       ],
@@ -5039,10 +4928,10 @@
         {
           "id": "paul-kagame",
           "name": "Поль Кагаме",
-          "observed_scales": 8,
+          "observed_scales": 13,
           "total_scales": 48,
-          "coverage": 0.16666666666666666,
-          "retained": false
+          "coverage": 0.2708333333333333,
+          "retained": true
         },
         {
           "id": "edouard-ngirente",
@@ -5063,34 +4952,34 @@
         {
           "id": "vincent-biruta",
           "name": "Венсан Бирута",
+          "observed_scales": 18,
+          "total_scales": 48,
+          "coverage": 0.375,
+          "retained": true
+        },
+        {
+          "id": "olivier-nduhungirehe",
+          "name": "Оливье Ндухунгирехе",
+          "observed_scales": 18,
+          "total_scales": 48,
+          "coverage": 0.375,
+          "retained": true
+        },
+        {
+          "id": "james-kabarebe",
+          "name": "Джеймс Кабаребе",
           "observed_scales": 13,
           "total_scales": 48,
           "coverage": 0.2708333333333333,
           "retained": true
         },
         {
-          "id": "olivier-nduhungirehe",
-          "name": "Оливье Ндухунгирехе",
-          "observed_scales": 16,
-          "total_scales": 48,
-          "coverage": 0.3333333333333333,
-          "retained": false
-        },
-        {
-          "id": "james-kabarebe",
-          "name": "Джеймс Кабаребе",
-          "observed_scales": 10,
-          "total_scales": 48,
-          "coverage": 0.20833333333333334,
-          "retained": false
-        },
-        {
           "id": "juvenal-marizamunda",
           "name": "Жювеналь Маризамунда",
-          "observed_scales": 9,
+          "observed_scales": 14,
           "total_scales": 48,
-          "coverage": 0.1875,
-          "retained": false
+          "coverage": 0.2916666666666667,
+          "retained": true
         },
         {
           "id": "albert-murasira",
@@ -5151,9 +5040,9 @@
         {
           "id": "ines-mpambara",
           "name": "Инес Мпамбара",
-          "observed_scales": 2,
+          "observed_scales": 5,
           "total_scales": 48,
-          "coverage": 0.041666666666666664,
+          "coverage": 0.10416666666666667,
           "retained": false
         },
         {
@@ -5167,9 +5056,9 @@
         {
           "id": "jeanne-darc-mujawamariya",
           "name": "Жанна д’Арк Муджавамария",
-          "observed_scales": 16,
+          "observed_scales": 17,
           "total_scales": 48,
-          "coverage": 0.3333333333333333,
+          "coverage": 0.3541666666666667,
           "retained": true
         },
         {
@@ -5215,10 +5104,10 @@
         {
           "id": "francis-gatare",
           "name": "Франсис Гатаре",
-          "observed_scales": 4,
+          "observed_scales": 8,
           "total_scales": 48,
-          "coverage": 0.08333333333333333,
-          "retained": false
+          "coverage": 0.16666666666666666,
+          "retained": true
         },
         {
           "id": "gertrude-kazarwa",
@@ -5239,10 +5128,10 @@
         {
           "id": "francois-xavier-kalinda",
           "name": "Франсуа-Ксавье Калинда",
-          "observed_scales": 8,
+          "observed_scales": 11,
           "total_scales": 48,
-          "coverage": 0.16666666666666666,
-          "retained": false
+          "coverage": 0.22916666666666666,
+          "retained": true
         },
         {
           "id": "augustin-iyamuremye",
@@ -5263,10 +5152,10 @@
         {
           "id": "mussa-fazil-harerimana",
           "name": "Мусса Фазиль Хареримана",
-          "observed_scales": 9,
+          "observed_scales": 11,
           "total_scales": 48,
-          "coverage": 0.1875,
-          "retained": false
+          "coverage": 0.22916666666666666,
+          "retained": true
         },
         {
           "id": "pudence-rubingisa",
@@ -5311,25 +5200,25 @@
         {
           "id": "diane-rwigara",
           "name": "Диана Рвигара",
-          "observed_scales": 8,
+          "observed_scales": 9,
           "total_scales": 48,
-          "coverage": 0.16666666666666666,
-          "retained": false
+          "coverage": 0.1875,
+          "retained": true
         },
         {
           "id": "bernard-ntaganda",
           "name": "Бернар Нтаганда",
-          "observed_scales": 9,
+          "observed_scales": 11,
           "total_scales": 48,
-          "coverage": 0.1875,
+          "coverage": 0.22916666666666666,
           "retained": false
         },
         {
           "id": "christopher-kayumba",
           "name": "Кристофер Каюмба",
-          "observed_scales": 1,
+          "observed_scales": 3,
           "total_scales": 48,
-          "coverage": 0.020833333333333332,
+          "coverage": 0.0625,
           "retained": false
         },
         {
@@ -5351,10 +5240,10 @@
         {
           "id": "louise-mushikiwabo",
           "name": "Луиза Мушикивабо",
-          "observed_scales": 13,
+          "observed_scales": 16,
           "total_scales": 48,
-          "coverage": 0.2708333333333333,
-          "retained": false
+          "coverage": 0.3333333333333333,
+          "retained": true
         },
         {
           "id": "claver-gatete",
@@ -5377,35 +5266,35 @@
         {
           "id": "programmatic-renewal__positive",
           "name": "Программное изменение существующего курса",
-          "observed_objects": 26,
-          "observed_retained_objects": 23,
-          "total_objects": 42,
-          "coverage": 0.6190476190476191,
-          "retained": true
-        },
-        {
-          "id": "programmatic-renewal__negative",
-          "name": "Продолжение и закрепление действующего курса",
           "observed_objects": 28,
-          "observed_retained_objects": 24,
+          "observed_retained_objects": 27,
           "total_objects": 42,
           "coverage": 0.6666666666666666,
           "retained": true
         },
         {
+          "id": "programmatic-renewal__negative",
+          "name": "Продолжение и закрепление действующего курса",
+          "observed_objects": 33,
+          "observed_retained_objects": 33,
+          "total_objects": 42,
+          "coverage": 0.7857142857142857,
+          "retained": true
+        },
+        {
           "id": "government-course-assessment__positive",
           "name": "Публичная поддержка действующего государственного курса",
-          "observed_objects": 27,
-          "observed_retained_objects": 22,
+          "observed_objects": 31,
+          "observed_retained_objects": 30,
           "total_objects": 42,
-          "coverage": 0.6428571428571429,
+          "coverage": 0.7380952380952381,
           "retained": true
         },
         {
           "id": "government-course-assessment__negative",
           "name": "Публичная критика действующего государственного курса",
           "observed_objects": 11,
-          "observed_retained_objects": 7,
+          "observed_retained_objects": 8,
           "total_objects": 42,
           "coverage": 0.2619047619047619,
           "retained": false
@@ -5414,7 +5303,7 @@
           "id": "participation-administrative-direction__positive",
           "name": "Совместное обсуждение и общественный контроль решений",
           "observed_objects": 19,
-          "observed_retained_objects": 14,
+          "observed_retained_objects": 18,
           "total_objects": 42,
           "coverage": 0.4523809523809524,
           "retained": false
@@ -5422,10 +5311,10 @@
         {
           "id": "participation-administrative-direction__negative",
           "name": "Административная постановка задач и контроль исполнения",
-          "observed_objects": 28,
-          "observed_retained_objects": 26,
+          "observed_objects": 31,
+          "observed_retained_objects": 30,
           "total_objects": 42,
-          "coverage": 0.6666666666666666,
+          "coverage": 0.7380952380952381,
           "retained": true
         },
         {
@@ -5440,17 +5329,17 @@
         {
           "id": "argumentation-evidence-values__negative",
           "name": "Обоснование через ценности, память и коллективные символы",
-          "observed_objects": 36,
-          "observed_retained_objects": 24,
+          "observed_objects": 38,
+          "observed_retained_objects": 33,
           "total_objects": 42,
-          "coverage": 0.8571428571428571,
+          "coverage": 0.9047619047619048,
           "retained": true
         },
         {
           "id": "market-state-instruments__positive",
           "name": "Расширение частной инициативы и управления",
           "observed_objects": 18,
-          "observed_retained_objects": 17,
+          "observed_retained_objects": 18,
           "total_objects": 42,
           "coverage": 0.42857142857142855,
           "retained": false
@@ -5459,7 +5348,7 @@
           "id": "market-state-instruments__negative",
           "name": "Расширение государственного планирования и обязательных правил",
           "observed_objects": 22,
-          "observed_retained_objects": 21,
+          "observed_retained_objects": 22,
           "total_objects": 42,
           "coverage": 0.5238095238095238,
           "retained": false
@@ -5467,17 +5356,17 @@
         {
           "id": "accessibility-growth-priorities__positive",
           "name": "Расширение доступности базовых благ для населения",
-          "observed_objects": 28,
-          "observed_retained_objects": 26,
+          "observed_objects": 37,
+          "observed_retained_objects": 35,
           "total_objects": 42,
-          "coverage": 0.6666666666666666,
+          "coverage": 0.8809523809523809,
           "retained": true
         },
         {
           "id": "accessibility-growth-priorities__negative",
           "name": "Рост инвестиций, конкурентоспособности и деловой активности",
           "observed_objects": 25,
-          "observed_retained_objects": 20,
+          "observed_retained_objects": 25,
           "total_objects": 42,
           "coverage": 0.5952380952380952,
           "retained": false
@@ -5486,7 +5375,7 @@
           "id": "external-domestic-resources__positive",
           "name": "Привлечение внешнего финансирования и ресурсных партнёров",
           "observed_objects": 17,
-          "observed_retained_objects": 16,
+          "observed_retained_objects": 17,
           "total_objects": 42,
           "coverage": 0.40476190476190477,
           "retained": false
@@ -5504,7 +5393,7 @@
           "id": "international-rules-autonomy__positive",
           "name": "Закрепление общих международных обязательств",
           "observed_objects": 17,
-          "observed_retained_objects": 13,
+          "observed_retained_objects": 17,
           "total_objects": 42,
           "coverage": 0.40476190476190477,
           "retained": false
@@ -5513,7 +5402,7 @@
           "id": "international-rules-autonomy__negative",
           "name": "Защита национальной самостоятельности решений",
           "observed_objects": 4,
-          "observed_retained_objects": 1,
+          "observed_retained_objects": 4,
           "total_objects": 42,
           "coverage": 0.09523809523809523,
           "retained": false
@@ -5522,7 +5411,7 @@
           "id": "mediation-adversarial-communication__positive",
           "name": "Посредничество, переговоры и поиск согласования",
           "observed_objects": 18,
-          "observed_retained_objects": 12,
+          "observed_retained_objects": 17,
           "total_objects": 42,
           "coverage": 0.42857142857142855,
           "retained": false
@@ -5531,7 +5420,7 @@
           "id": "mediation-adversarial-communication__negative",
           "name": "Полемическое оспаривание и защита собственной стороны",
           "observed_objects": 18,
-          "observed_retained_objects": 8,
+          "observed_retained_objects": 15,
           "total_objects": 42,
           "coverage": 0.42857142857142855,
           "retained": false
@@ -5540,7 +5429,7 @@
           "id": "cultural-openness-national-transmission__positive",
           "name": "Расширение межкультурного обмена и разнообразия",
           "observed_objects": 4,
-          "observed_retained_objects": 2,
+          "observed_retained_objects": 4,
           "total_objects": 42,
           "coverage": 0.09523809523809523,
           "retained": false
@@ -5549,7 +5438,7 @@
           "id": "cultural-openness-national-transmission__negative",
           "name": "Сохранение и передача национальных ценностей",
           "observed_objects": 16,
-          "observed_retained_objects": 11,
+          "observed_retained_objects": 15,
           "total_objects": 42,
           "coverage": 0.38095238095238093,
           "retained": false
@@ -5557,17 +5446,17 @@
         {
           "id": "problem-disclosure-reputation-defence__positive",
           "name": "Публичное раскрытие проблем и недостатков исполнения",
-          "observed_objects": 26,
-          "observed_retained_objects": 21,
+          "observed_objects": 33,
+          "observed_retained_objects": 29,
           "total_objects": 42,
-          "coverage": 0.6190476190476191,
+          "coverage": 0.7857142857142857,
           "retained": true
         },
         {
           "id": "problem-disclosure-reputation-defence__negative",
           "name": "Защитное продвижение репутации страны или своей политики",
           "observed_objects": 12,
-          "observed_retained_objects": 6,
+          "observed_retained_objects": 11,
           "total_objects": 42,
           "coverage": 0.2857142857142857,
           "retained": false
@@ -5576,7 +5465,7 @@
           "id": "procedural-guarantees-enforcement__positive",
           "name": "Расширение возможностей защиты и обжалования",
           "observed_objects": 7,
-          "observed_retained_objects": 4,
+          "observed_retained_objects": 5,
           "total_objects": 42,
           "coverage": 0.16666666666666666,
           "retained": false
@@ -5585,7 +5474,7 @@
           "id": "procedural-guarantees-enforcement__negative",
           "name": "Принудительное обеспечение обязательных требований",
           "observed_objects": 7,
-          "observed_retained_objects": 6,
+          "observed_retained_objects": 7,
           "total_objects": 42,
           "coverage": 0.16666666666666666,
           "retained": false
@@ -5593,17 +5482,17 @@
         {
           "id": "prevention-crisis-response__positive",
           "name": "Упреждающее снижение рисков и подготовка",
-          "observed_objects": 27,
-          "observed_retained_objects": 23,
+          "observed_objects": 29,
+          "observed_retained_objects": 28,
           "total_objects": 42,
-          "coverage": 0.6428571428571429,
+          "coverage": 0.6904761904761905,
           "retained": true
         },
         {
           "id": "prevention-crisis-response__negative",
           "name": "Оперативное реагирование на возникшую угрозу",
           "observed_objects": 4,
-          "observed_retained_objects": 2,
+          "observed_retained_objects": 4,
           "total_objects": 42,
           "coverage": 0.09523809523809523,
           "retained": false
@@ -5612,7 +5501,7 @@
           "id": "electoral-access__positive",
           "name": "Расширение доступа к выборной конкуренции",
           "observed_objects": 7,
-          "observed_retained_objects": 5,
+          "observed_retained_objects": 6,
           "total_objects": 42,
           "coverage": 0.16666666666666666,
           "retained": false
@@ -5630,7 +5519,7 @@
           "id": "institutional-autonomy-coordination__positive",
           "name": "Гарантии самостоятельности и контроля между институтами",
           "observed_objects": 7,
-          "observed_retained_objects": 5,
+          "observed_retained_objects": 6,
           "total_objects": 42,
           "coverage": 0.16666666666666666,
           "retained": false
@@ -5639,7 +5528,7 @@
           "id": "institutional-autonomy-coordination__negative",
           "name": "Согласование работы институтов единой управленческой линией",
           "observed_objects": 19,
-          "observed_retained_objects": 17,
+          "observed_retained_objects": 19,
           "total_objects": 42,
           "coverage": 0.4523809523809524,
           "retained": false
@@ -5701,10 +5590,10 @@
         {
           "id": "russia-diplomatic-engagement__positive",
           "name": "Расширение дипломатического сотрудничества с Россией",
-          "observed_objects": 1,
-          "observed_retained_objects": 0,
+          "observed_objects": 2,
+          "observed_retained_objects": 2,
           "total_objects": 42,
-          "coverage": 0.023809523809523808,
+          "coverage": 0.047619047619047616,
           "retained": false
         },
         {
@@ -5719,10 +5608,10 @@
         {
           "id": "russia-security-cooperation__positive",
           "name": "Развитие военно-технического сотрудничества с Россией",
-          "observed_objects": 1,
-          "observed_retained_objects": 0,
+          "observed_objects": 2,
+          "observed_retained_objects": 2,
           "total_objects": 42,
-          "coverage": 0.023809523809523808,
+          "coverage": 0.047619047619047616,
           "retained": false
         },
         {
@@ -5737,10 +5626,10 @@
         {
           "id": "russia-economic-technology-cooperation__positive",
           "name": "Развитие экономических и технологических проектов с Россией",
-          "observed_objects": 2,
-          "observed_retained_objects": 1,
+          "observed_objects": 3,
+          "observed_retained_objects": 3,
           "total_objects": 42,
-          "coverage": 0.047619047619047616,
+          "coverage": 0.07142857142857142,
           "retained": false
         },
         {
@@ -5755,10 +5644,10 @@
         {
           "id": "russia-education-cultural-cooperation__positive",
           "name": "Расширение образовательных и культурных обменов с Россией",
-          "observed_objects": 2,
-          "observed_retained_objects": 1,
+          "observed_objects": 3,
+          "observed_retained_objects": 3,
           "total_objects": 42,
-          "coverage": 0.047619047619047616,
+          "coverage": 0.07142857142857142,
           "retained": false
         },
         {
@@ -5782,10 +5671,10 @@
         {
           "id": "russia-conflict-policy-evaluation__negative",
           "name": "Публичная критика конкретных внешнеполитических действий России",
-          "observed_objects": 1,
-          "observed_retained_objects": 0,
+          "observed_objects": 4,
+          "observed_retained_objects": 4,
           "total_objects": 42,
-          "coverage": 0.023809523809523808,
+          "coverage": 0.09523809523809523,
           "retained": false
         },
         {
@@ -5807,95 +5696,31 @@
           "retained": false
         }
       ],
-      "retained_coverage": 0.84375,
-      "missing_retained_cells": 35,
+      "retained_coverage": 0.8277027027027027,
+      "missing_retained_cells": 51,
       "excluded_objects": [
-        {
-          "id": "paul-kagame",
-          "name": "Поль Кагаме",
-          "observed_scales": 4,
-          "required_scales": 5,
-          "original_observed_scales": 8,
-          "reason": "insufficient_coverage"
-        },
-        {
-          "id": "olivier-nduhungirehe",
-          "name": "Оливье Ндухунгирехе",
-          "observed_scales": 4,
-          "required_scales": 5,
-          "original_observed_scales": 16,
-          "reason": "insufficient_coverage"
-        },
-        {
-          "id": "james-kabarebe",
-          "name": "Джеймс Кабаребе",
-          "observed_scales": 3,
-          "required_scales": 5,
-          "original_observed_scales": 10,
-          "reason": "insufficient_coverage"
-        },
-        {
-          "id": "juvenal-marizamunda",
-          "name": "Жювеналь Маризамунда",
-          "observed_scales": 2,
-          "required_scales": 5,
-          "original_observed_scales": 9,
-          "reason": "insufficient_coverage"
-        },
         {
           "id": "ines-mpambara",
           "name": "Инес Мпамбара",
-          "observed_scales": 1,
-          "required_scales": 5,
-          "original_observed_scales": 2,
-          "reason": "insufficient_coverage"
-        },
-        {
-          "id": "francis-gatare",
-          "name": "Франсис Гатаре",
-          "observed_scales": 2,
-          "required_scales": 5,
-          "original_observed_scales": 4,
-          "reason": "insufficient_coverage"
-        },
-        {
-          "id": "francois-xavier-kalinda",
-          "name": "Франсуа-Ксавье Калинда",
           "observed_scales": 4,
           "required_scales": 5,
-          "original_observed_scales": 8,
-          "reason": "insufficient_coverage"
-        },
-        {
-          "id": "mussa-fazil-harerimana",
-          "name": "Мусса Фазиль Хареримана",
-          "observed_scales": 3,
-          "required_scales": 5,
-          "original_observed_scales": 9,
-          "reason": "insufficient_coverage"
-        },
-        {
-          "id": "diane-rwigara",
-          "name": "Диана Рвигара",
-          "observed_scales": 4,
-          "required_scales": 5,
-          "original_observed_scales": 8,
+          "original_observed_scales": 5,
           "reason": "insufficient_coverage"
         },
         {
           "id": "bernard-ntaganda",
           "name": "Бернар Нтаганда",
-          "observed_scales": 2,
+          "observed_scales": 4,
           "required_scales": 5,
-          "original_observed_scales": 9,
+          "original_observed_scales": 11,
           "reason": "insufficient_coverage"
         },
         {
           "id": "christopher-kayumba",
           "name": "Кристофер Каюмба",
-          "observed_scales": 0,
+          "observed_scales": 2,
           "required_scales": 5,
-          "original_observed_scales": 1,
+          "original_observed_scales": 3,
           "reason": "insufficient_coverage"
         },
         {
@@ -5912,14 +5737,6 @@
           "observed_scales": 2,
           "required_scales": 5,
           "original_observed_scales": 5,
-          "reason": "insufficient_coverage"
-        },
-        {
-          "id": "louise-mushikiwabo",
-          "name": "Луиза Мушикивабо",
-          "observed_scales": 3,
-          "required_scales": 5,
-          "original_observed_scales": 13,
           "reason": "insufficient_coverage"
         }
       ],
@@ -6123,7 +5940,7 @@
         {
           "id": "russia-diplomatic-engagement__positive",
           "name": "Расширение дипломатического сотрудничества с Россией",
-          "observed_objects": 1,
+          "observed_objects": 2,
           "required_objects": 26,
           "reason": "constant_or_insufficient_observations"
         },
@@ -6137,7 +5954,7 @@
         {
           "id": "russia-security-cooperation__positive",
           "name": "Развитие военно-технического сотрудничества с Россией",
-          "observed_objects": 1,
+          "observed_objects": 2,
           "required_objects": 26,
           "reason": "constant_or_insufficient_observations"
         },
@@ -6151,7 +5968,7 @@
         {
           "id": "russia-economic-technology-cooperation__positive",
           "name": "Развитие экономических и технологических проектов с Россией",
-          "observed_objects": 2,
+          "observed_objects": 3,
           "required_objects": 26,
           "reason": "constant_or_insufficient_observations"
         },
@@ -6165,7 +5982,7 @@
         {
           "id": "russia-education-cultural-cooperation__positive",
           "name": "Расширение образовательных и культурных обменов с Россией",
-          "observed_objects": 2,
+          "observed_objects": 3,
           "required_objects": 26,
           "reason": "constant_or_insufficient_observations"
         },
@@ -6186,7 +6003,7 @@
         {
           "id": "russia-conflict-policy-evaluation__negative",
           "name": "Публичная критика конкретных внешнеполитических действий России",
-          "observed_objects": 1,
+          "observed_objects": 4,
           "required_objects": 26,
           "reason": "constant_or_insufficient_observations"
         },
@@ -6263,33 +6080,24 @@
           ],
           "required_scales_per_object": 5,
           "excluded_object_ids": [
-            "paul-kagame",
-            "olivier-nduhungirehe",
-            "james-kabarebe",
-            "juvenal-marizamunda",
             "ines-mpambara",
-            "francis-gatare",
-            "francois-xavier-kalinda",
-            "mussa-fazil-harerimana",
-            "diane-rwigara",
             "bernard-ntaganda",
             "christopher-kayumba",
             "paul-rusesabagina",
-            "kayumba-nyamwasa",
-            "louise-mushikiwabo"
+            "kayumba-nyamwasa"
           ],
-          "retained_objects": 28,
+          "retained_objects": 37,
           "retained_scales": 8
         },
         {
           "iteration": 2,
-          "input_objects": 28,
+          "input_objects": 37,
           "input_scales": 8,
-          "required_objects_per_scale": 17,
+          "required_objects_per_scale": 23,
           "excluded_scale_ids": [],
           "required_scales_per_object": 5,
           "excluded_object_ids": [],
-          "retained_objects": 28,
+          "retained_objects": 37,
           "retained_scales": 8
         }
       ],
@@ -6306,9 +6114,13 @@
         "prevention-crisis-response__positive"
       ],
       "training_object_order": [
+        "paul-kagame",
         "edouard-ngirente",
         "justin-nsengiyumva",
         "vincent-biruta",
+        "olivier-nduhungirehe",
+        "james-kabarebe",
+        "juvenal-marizamunda",
         "albert-murasira",
         "emmanuel-ugirashebuja",
         "yusuf-murangwa",
@@ -6323,24 +6135,29 @@
         "jean-claude-musabyimana",
         "jean-damascene-bizimana",
         "clare-akamanzi",
+        "francis-gatare",
         "gertrude-kazarwa",
         "donatille-mukabalisa",
+        "francois-xavier-kalinda",
         "augustin-iyamuremye",
         "alvera-mukabaramba",
+        "mussa-fazil-harerimana",
         "pudence-rubingisa",
         "samuel-dusengiyumva",
         "frank-habineza",
         "philippe-mpayimana",
         "victoire-ingabire",
+        "diane-rwigara",
+        "louise-mushikiwabo",
         "claver-gatete",
         "valentine-rugwabiza"
       ],
-      "input_sha256": "66cdfd1891b05b593e46ca49c4d369fca47a40c220fd4d39f2a25bd58dc9acb0",
+      "input_sha256": "1ae6380badcd213744dc663acef4a37ae24b7636cd36069b3c1f11b939d9d340",
       "variance_definition": "sum squared orthogonally rotated FA loadings / total standardized variance after training mean-imputation; all retained scales, not only Russia block"
     },
     "limitations": [
-      "Предварительные гипотезы: без всех оценок с контекстными оговорками остаётся 23 × 5, меньше прежнего минимума для FA. Устойчивость на строгом корпусе не подтверждена.",
-      "В матрицу 28 × 8 не прошли Кагаме и ряд других значимых фигур; из 8 оппозиционных и независимых участников вошли 3. Эти данные не описывают всё политическое сознание Руанды.",
+      "Для содержательного обсуждения предлагается трёхфакторная модель как рабочая гипотеза; двухфакторная полезна как компактное сравнение. При стохастическом заполнении q=3 сохраняется лучше q=4, но проверка без контекстных оговорок подтверждает главным образом линию преемственности, а не всю трёхфакторную структуру. Четыре фактора пока не рекомендуются для окончательного отчёта: профилактика опирается на один сильный индикатор, а две дополнительные оси чувствительны к заполнению. Ни одно решение ещё не является подтверждённой стратификацией политического сознания всей Руанды.",
+      "В основную FA вошли 37 из 42 участников; заполнения не увеличивают измеренное покрытие. Проверка чувствительности находится в коротком отчёте.",
       "Разведочная численная модель публичных образов; не независимая оценка убеждений или причин политических позиций.",
       "FA гауссова и линейная, оценки ограниченные и порядковые; обучающее заполнение средним не устраняет смещения пропусков.",
       "Три сильные семантические семьи дают только numeric_candidate: независимость событий, атрибуция и специфичность темы требуют аудита.",
@@ -6393,31 +6210,41 @@
       }
     ],
     "semantic_review": {
-      "file": "research/rwanda_politicians_2021_2026/INDEPENDENT_FACTOR_INTERPRETATIONS.json",
       "status": "provisional_assistant_interpretation",
-      "numerical_preview_sha256": "4819044bb8904f3c67fb9a7b6f763de4b1e49dab9a5d219515456f180980da4d"
+      "file": "research/rwanda_politicians_2021_2026/COVERAGE_EXPANSION_INTERPRETATIONS.json",
+      "numerical_preview_sha256": "4b0a1e5c9bf3c9c2df5b6790037a080262428cdce4ea1e68064a79c35ecf39ad"
     }
   },
   "artifacts": [
     {
-      "label": "Короткое сравнение и интерпретация",
+      "label": "Короткий отчёт: охват и факторы",
       "format": "md",
       "url": "/api/studies/rwanda-politicians-2021-2026/files/short_report.md"
     },
     {
-      "label": "Проверка чувствительности факторов",
+      "label": "Пропуски: сравнение методов и устойчивость",
       "format": "md",
-      "url": "/api/studies/rwanda-politicians-2021-2026/files/factor_sensitivity.md"
+      "url": "/api/studies/rwanda-politicians-2021-2026/files/imputation_review_2026-10-15.md"
     },
     {
-      "label": "Полное сравнение факторов и диагностика",
+      "label": "Покрытие всех 42 участников",
+      "format": "md",
+      "url": "/api/studies/rwanda-politicians-2021-2026/files/coverage_by_actor.md"
+    },
+    {
+      "label": "Россия: персональные основания",
+      "format": "md",
+      "url": "/api/studies/rwanda-politicians-2021-2026/files/russia_profile_evidence.md"
+    },
+    {
+      "label": "Полные нагрузки и диагностика",
       "format": "md",
       "url": "/api/studies/rwanda-politicians-2021-2026/files/factor_preview.md"
     },
     {
-      "label": "Нагрузки всех решений",
-      "format": "json",
-      "url": "/api/studies/rwanda-politicians-2021-2026/files/factor_preview.json"
+      "label": "Диаграмма расширения охвата",
+      "format": "png",
+      "url": "/api/studies/rwanda-politicians-2021-2026/files/assets/coverage_expansion.png"
     },
     {
       "label": "Полные нагрузки q=2",
@@ -6433,11 +6260,6 @@
       "label": "Полные нагрузки q=4",
       "format": "png",
       "url": "/api/studies/rwanda-politicians-2021-2026/files/assets/factor_preview_q4.png"
-    },
-    {
-      "label": "Дисперсия решений",
-      "format": "png",
-      "url": "/api/studies/rwanda-politicians-2021-2026/files/assets/independent_factor_comparison.png"
     }
   ],
   "error": null,
@@ -7221,7 +7043,7 @@
     "estimated_usd": 18.339039,
     "pricing_note": "Оценка по заданным ставкам; фактический счёт определяется провайдером"
   },
-  "updated_at": "2026-10-15T18:20:22.254590+00:00",
+  "updated_at": "2026-10-15T19:04:15.094692+00:00",
   "delivery_mode": "factor_preview",
   "selection_method": {
     "type": "purposive_maximum_role_variation",
@@ -8158,9 +7980,9 @@
     "verification_note": "Тематические оценки допускаются по отдельно просмотренным источникам ассистента; это не независимая человеческая экспертиза"
   },
   "ratings_cache": {
-    "basis": "6c065374f0838166a7e5318912cddb925cae19b4cc626b04ec6a1062dcc383e8",
-    "ratings_sha256": "98c4bd857e7fae7be749378db83556936f2f2b542b4d2e4d1415e7ee6b22a802",
-    "mode": "independent_poles_completed_followup_reviewed"
+    "basis": "cf382ed7d8ade2b18a6fd77718edd788e773dd1d6ecb9d05596fdf74eb806b59",
+    "ratings_sha256": "d2abec4ad2529a100633cd60ffc0cfff9b2a84e1e8c89d1704272be99cccddba",
+    "mode": "independent_poles_coverage_expansion"
   },
   "source_supplement_history": [
     {
@@ -8243,7 +8065,11 @@
         "text_sha256": "0615bbb594e4bc6012a30714f43327e7de748bd3de9146f5cbac037159fb32ac",
         "reason": "Полный первичный текст не показывает дату и называет Мукабарамбу государственным министром социальных вопросов, её прежней ролью до 2019, тогда как досье даёт 15.12.2025. Точный день и принадлежность окну не установлены. В этом дополнении не используется; канонический факт не редактировался."
       }
-    ]
+    ],
+    "coverage_expansion_source_supplement": {
+      "path": "research/rwanda_politicians_2021_2026/COVERAGE_EXPANSION_SOURCES.json",
+      "sha256": "53a15f3e4b4718b4a4328bde05f742c6b8648153c6240d1b7762a5925fe0d192"
+    }
   },
   "independent_source_audit": {
     "applied": true,
@@ -8346,5 +8172,36 @@
       }
     ],
     "note": "The changed variable is outside the retained8; factor matrix and all FA results remain numerically identical."
+  },
+  "coverage_expansion": {
+    "applied": true,
+    "at": "2026-10-15T18:52:07.828605+00:00",
+    "plan_fingerprint": "aad8856e5560f21bae35c91171706956bb4e47472630c70a9725461e747a64c6",
+    "checked_unknown_properties": 572,
+    "new_observations": 41,
+    "new_source_facts": 34,
+    "before_fingerprint": "98c4bd857e7fae7be749378db83556936f2f2b542b4d2e4d1415e7ee6b22a802",
+    "after_fingerprint": "d2abec4ad2529a100633cd60ffc0cfff9b2a84e1e8c89d1704272be99cccddba",
+    "reports": [
+      {
+        "path": "research/rwanda_politicians_2021_2026/COVERAGE_EXPANSION_BATCH_A.json",
+        "fingerprint": "4109400b8c462d5b41ef4f8c0d881182b745b5c71b1893988cc79f565d17bbd2"
+      },
+      {
+        "path": "research/rwanda_politicians_2021_2026/COVERAGE_EXPANSION_BATCH_B.json",
+        "fingerprint": "a02b0233e1035439d643107c18bc5659e88ac64ac75bafc07b2865c7018c694b"
+      },
+      {
+        "path": "research/rwanda_politicians_2021_2026/COVERAGE_EXPANSION_BATCH_C.json",
+        "fingerprint": "8f4b1e172921a6aa4c361c71a96e7abcceb983ec272c4189a8751a41107b1bb2"
+      }
+    ],
+    "final_content_review": {
+      "path": "research/rwanda_politicians_2021_2026/COVERAGE_EXPANSION_FINAL_REVIEW.json",
+      "fingerprint": "3452163f2725f3e1f76cafe33344174357bea3e0d9c012c330a87ea720eccf3b"
+    },
+    "thresholds_changed": false,
+    "imputed_values_added_to_ratings": false,
+    "selection_note": "Coverage targets chosen from the preceding analysis; this is an explicitly adaptive exploratory followup"
   }
 }

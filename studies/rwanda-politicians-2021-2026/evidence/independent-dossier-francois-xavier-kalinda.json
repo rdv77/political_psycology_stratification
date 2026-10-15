@@ -311,6 +311,61 @@
       ],
       "evidence_origin": "retrieval_cited_not_independently_verified",
       "retrieval_response": "evidence/independent_responses/28f06c5b20e2fd8ee813362501a16ae609b8fb92fb933a02ad71236a2fc917a1.json"
+    },
+    {
+      "source_url": "https://www.parliament.gov.rw/news-details/senators-reflect-on-mental-health-issues",
+      "title": "Senators reflect on mental health issues",
+      "period": "2025-06-25",
+      "event_id": "kalinda-mental-health-consultation-2025-06-25",
+      "capacity": "Председатель Сената",
+      "text": "На консультации по психическому здоровью Калинда призвал совместно преодолевать барьеры эффективного оказания помощи и искать решения через обсуждение существующих трудностей.",
+      "actor_id": "francois-xavier-kalinda",
+      "topic_ids": [
+        "problem-disclosure-reputation-defence"
+      ],
+      "verification_method": "web_open_full_primary_text",
+      "novelty": "Новый для сохранённого independent-dossier факт; новая оценка пока только предложение.",
+      "eligibility": "eligible_direct",
+      "evidence_origin": "assistant_verified_source",
+      "source_review_file": "research/rwanda_politicians_2021_2026/COVERAGE_EXPANSION_SOURCES.json"
+    },
+    {
+      "source_url": "https://www.parliament.gov.rw/news-details/senators-reflect-on-mental-health-issues",
+      "title": "Senators reflect on mental health issues",
+      "period": "2025-06-25",
+      "event_id": "kalinda-mental-health-consultation-2025-06-25",
+      "capacity": "Председатель Сената",
+      "text": "Калинда предложил повышать качество реализации и воздействие уже действующих стратегий в сфере психического здоровья.",
+      "actor_id": "francois-xavier-kalinda",
+      "topic_ids": [
+        "programmatic-renewal"
+      ],
+      "verification_method": "web_open_full_primary_text",
+      "novelty": "Новый для сохранённого independent-dossier факт; новая оценка пока только предложение.",
+      "eligibility": "eligible_direct",
+      "evidence_origin": "assistant_verified_source",
+      "source_review_file": "research/rwanda_politicians_2021_2026/COVERAGE_EXPANSION_SOURCES.json"
+    },
+    {
+      "source_url": "https://staging.ickjournalism.com/senators-to-evaluate-progress-in-health-post-development/",
+      "title": "Senators to Evaluate Progress in Health Post Development",
+      "period": "2025-01",
+      "event_id": "kalinda-health-post-outreach-2025-01-21",
+      "capacity": "Председатель Сената",
+      "verification_method": "web_search_full_attributed_news_article; программа и даты сверены с официальной парламентской страницей press-release-senators-to-monitor-the-status-and-development-of-health-posts-during-outreach-activity",
+      "text": "Комментируя запланированные на21–30января2025г. проверки медицинских пунктов, Калинда прямо связал их развитие с улучшением доступности медицинских услуг всем гражданам и признал препятствия их эффективной работе.",
+      "corroborating_url": "https://www.parliament.gov.rw/news-details/press-release-senators-to-monitor-the-status-and-development-of-health-posts-during-outreach-activity",
+      "date_note": "Дата начала проверок подтверждена официальным сообщением; точный день собственной реплики отдельно не установлен, она относится к подготовке этой программы в январе2025.",
+      "actor_id": "francois-xavier-kalinda",
+      "topic_ids": [
+        "accessibility-growth-priorities"
+      ],
+      "novelty": "Новый для сохранённого independent-dossier факт; предложение не изменяет canonical ratings.",
+      "date_precision": "month",
+      "source_precision_caveat": "Доступен полный приписанный Калинде текст в СМИ на staging-домене; собственная цитата датируется месяцем, не точным днём. Официальное сообщение подтверждает программу выездов, но его полный текст не прочитан. При требовании первичного источника оставить pending.",
+      "eligibility": "eligible_direct",
+      "evidence_origin": "assistant_verified_source",
+      "source_review_file": "research/rwanda_politicians_2021_2026/COVERAGE_EXPANSION_SOURCES.json"
     }
   ],
   "sources": [
@@ -406,7 +461,7 @@
     "2026-10-15"
   ],
   "measurement_model": "independent_poles",
-  "basis": "6c174d3453387047bc3851088c27768ce518037506d26dc74a34bb736f252452",
+  "basis": "16ee47f3b4c685fb361f546f3427349d992975c244b9b292e01aa49f19b36d64",
   "retrieval_basis": "b34ad5439b5efa2a77f580a1ed809af8bd9fdef60d8155e30d48a3930c4cfbf1",
   "retrieval": {
     "response_file": "evidence/independent_responses/28f06c5b20e2fd8ee813362501a16ae609b8fb92fb933a02ad71236a2fc917a1.json",
@@ -448,5 +503,10 @@
     "path": "research/rwanda_politicians_2021_2026/INDEPENDENT_COMPLETION_SOURCES.json",
     "sha256": "be3cf9b161585e3e0a05dd1c39256a7ad93e4ee239560f3d3df9c620cce27ab4",
     "selected_fact_count": 0
+  },
+  "coverage_expansion_source_supplement": {
+    "path": "research/rwanda_politicians_2021_2026/COVERAGE_EXPANSION_SOURCES.json",
+    "sha256": "53a15f3e4b4718b4a4328bde05f742c6b8648153c6240d1b7762a5925fe0d192",
+    "selected_fact_count": 3
   }
 }

@@ -73,6 +73,7 @@ def run_phase(store, provider, study, phase, workers):
             return {"facts": len(dossier["facts"]), "added": dossier.get("retrieval", {}).get("added_fact_count", 0)}
         dossier = attach_reviewed_sources(provider, study, obj, dossier)
         dossier = attach_reviewed_sources(provider, study, obj, dossier, "completion_source_supplement")
+        dossier = attach_reviewed_sources(provider, study, obj, dossier, "coverage_expansion_source_supplement")
         dossier = apply_fact_review(provider, study, obj, dossier)
         rows = score_independent_dossier(provider, study, obj, dossier)
         _write(directory / "evidence" / ("independent-ratings-" + obj["id"] + ".json"), rows)

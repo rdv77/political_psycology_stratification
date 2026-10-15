@@ -225,6 +225,42 @@
       ],
       "evidence_origin": "retrieval_cited_not_independently_verified",
       "retrieval_response": "evidence/independent_responses/801ec51549696403af98cf6fa43fd3c01fe070e96ced32fa63bc10cc8c35ac19.json"
+    },
+    {
+      "source_url": "https://www.northernprovince.gov.rw/amakuru/amakuru-arambuye/burera-hatangijwe-gahunda-yihariye-yo-kurwanya-imirire-mibi-nigwingira",
+      "title": "Burera: Hatangijwe gahunda yihariye yo kurwanya imirire mibi n’igwingira",
+      "period": "2025-02-07",
+      "publication_date": "2025-02-08",
+      "event_id": "kabarebe-burera-nutrition-2025-02-07",
+      "capacity": "Государственный министр по региональному сотрудничеству",
+      "verification_method": "web_search_cached_full_primary_provincial_article; direct_open_cache_miss; атрибуция сверена с New Times09.02.2025",
+      "text": "На запуске антинутриционного Umuganda в Бурере Кабаребе заявил, что страна не может развиваться при задержке роста детей, и призвал жителей лучше заботиться о детях, обеспечивать полноценное и чистое питание и бороться с наркотиками. Мероприятие включало огороды, кормление детей и помощь уязвимым семьям.",
+      "actor_id": "james-kabarebe",
+      "topic_ids": [
+        "accessibility-growth-priorities",
+        "problem-disclosure-reputation-defence"
+      ],
+      "novelty": "Новый для сохранённого independent-dossier факт; предложение не изменяет canonical ratings.",
+      "eligibility": "eligible_direct",
+      "evidence_origin": "assistant_verified_source",
+      "source_review_file": "research/rwanda_politicians_2021_2026/COVERAGE_EXPANSION_SOURCES.json"
+    },
+    {
+      "source_url": "https://mod.gov.rw/docs-media/news-detail/gen-rtd-james-kabarebe-briefs-rdf-senior-command-and-staff-course-students-and-faculty-1?cHash=6c7714bde0f22ee60bef5ea6391d1992&tx_news_pi1%5BcurrentPage%5D=5",
+      "title": "Gen (Rtd) James Kabarebe briefs RDF Senior Command and Staff Course students and faculty",
+      "period": "2025-04-19",
+      "event_id": "kabarebe-scsc-readiness-2025-04-19",
+      "capacity": "Государственный министр по региональной интеграции",
+      "text": "Завершая учебную поездку офицеров курса командования и штаба, Кабаребе связал национальную безопасность с готовностью RDF и призвал сохранять её перед новыми угрозами; обучение включало извлечение уроков для будущих операций.",
+      "actor_id": "james-kabarebe",
+      "topic_ids": [
+        "prevention-crisis-response"
+      ],
+      "verification_method": "web_search_cached_full_primary_article",
+      "novelty": "Новый для сохранённого independent-dossier факт; предложение не изменяет canonical ratings.",
+      "eligibility": "eligible_direct",
+      "evidence_origin": "assistant_verified_source",
+      "source_review_file": "research/rwanda_politicians_2021_2026/COVERAGE_EXPANSION_SOURCES.json"
     }
   ],
   "sources": [
@@ -312,7 +348,7 @@
     "2026-10-15"
   ],
   "measurement_model": "independent_poles",
-  "basis": "56e345c4279bebc1064dadaaced8687a99b73457b1b0ea855454a0bbe9623088",
+  "basis": "a0feb293dfabdbfb506cfbd28ebd00be7ae33f3483241ec5cc1438e34fe530a9",
   "retrieval_basis": "8c4649e0f43f899bc41bb8b08798cae10bdf9efbf5484be59a52320df4d1b3c9",
   "retrieval": {
     "response_file": "evidence/independent_responses/801ec51549696403af98cf6fa43fd3c01fe070e96ced32fa63bc10cc8c35ac19.json",
@@ -354,5 +390,10 @@
     "path": "research/rwanda_politicians_2021_2026/INDEPENDENT_COMPLETION_SOURCES.json",
     "sha256": "be3cf9b161585e3e0a05dd1c39256a7ad93e4ee239560f3d3df9c620cce27ab4",
     "selected_fact_count": 0
+  },
+  "coverage_expansion_source_supplement": {
+    "path": "research/rwanda_politicians_2021_2026/COVERAGE_EXPANSION_SOURCES.json",
+    "sha256": "53a15f3e4b4718b4a4328bde05f742c6b8648153c6240d1b7762a5925fe0d192",
+    "selected_fact_count": 2
   }
 }

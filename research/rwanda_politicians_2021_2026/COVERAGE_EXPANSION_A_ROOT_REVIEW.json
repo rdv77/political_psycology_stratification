@@ -1,0 +1,43 @@
+{
+  "at": "2026-10-15T18:45:12.142515+00:00",
+  "review_type": "root_assistant_semantic_review_with_selected_primary_page_checks",
+  "input_report_fingerprint": "054f1d17ef9ba82bbccc53b09455f2ab93d3f8ed674390931d88b293a60ab330",
+  "checked_proposals": 27,
+  "retain": 27,
+  "numeric_changes": [],
+  "verification_scope": "All27 proposed rationales, source attribution/date metadata and scale definitions read. Root independently opened Kagame official oath speech, full Soudan interview reprint, RDB BioUsawa release and Kalinda mental-health primary release; this is not a full independent audit of every primary page.",
+  "source_notes": [
+    {
+      "object_id": "paul-kagame",
+      "event_id": "kagame-officials-oath-2024-12-23",
+      "note": "Speech dateDecember23 vs publicationDecember24. Continuity1 is only persistence of service-delivery instruction, not ideological conservatism."
+    },
+    {
+      "object_id": "paul-kagame",
+      "event_id": "kagame-soudan-interview-2023-09-12",
+      "note": "The speaker explicitly names invasion, Russia and Ukraine, and also neutrality. Critical-action2 is limited to principle against invasion, no inferred sanctions or diplomatic distancing."
+    },
+    {
+      "object_id": "francis-gatare",
+      "event_id": "gatare-bio-usawa-partnership-2024-11-21",
+      "note": "Primary RDB page is publishedNovember25,2024. Agent dates announcementNovember21 based on NewTimesNovember22; same event, within window. Planned facility is not an implemented outcome."
+    },
+    {
+      "object_id": "francois-xavier-kalinda",
+      "event_id": "kalinda-mental-health-consultation-2025-06-25",
+      "note": "Primary page distinguishes Kalinda own statement from Butera statistics; only Kalinda own words used."
+    },
+    {
+      "object_id": "juvenal-marizamunda",
+      "event_id": "marizamunda-gororoka-issue2-foreword-2022",
+      "note": "Publication year2022; cumulative pandemic figures need not all fall inside study window. Coded public statement, not dated incidence."
+    }
+  ],
+  "limitations": [
+    "New numbers remain assistant-coded exploratory ordinal manifestations, not independent human consensus.",
+    "Programmatic reform may refer to international institutions while continuity refers to domestic service delivery; report must retain policy-domain context.",
+    "Some primary texts were available only in full search index; verification mode remains explicit."
+  ],
+  "final_report_fingerprint": "4109400b8c462d5b41ef4f8c0d881182b745b5c71b1893988cc79f565d17bbd2",
+  "date_followup": "Final A uses public RDB quote publicationNovember25,2024; November21 announcement retained only as context in date_note."
+}

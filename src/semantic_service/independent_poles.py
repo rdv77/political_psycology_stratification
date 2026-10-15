@@ -168,10 +168,23 @@ def attach_reviewed_sources(provider, study, obj, dossier, config_key="reviewed_
             raise ValueError("Eligible reviewed fact has invalid attribution, date, topics or source")
         selected.append(dict(fact, evidence_origin="assistant_verified_source", source_review_file=supplement.relative_to(root).as_posix()))
     result = copy.deepcopy(dossier)
-    seen = {(f.get("source_url"), f.get("text")) for f in result["facts"]}
-    result["facts"] += [f for f in selected if (f.get("source_url"), f.get("text")) not in seen]
+    seen = {(f.get("source_url"), f.get("text")): index for index, f in enumerate(result["facts"])}
+    for fact in selected:
+        key = (fact.get("source_url"), fact.get("text"))
+        if key in seen:
+            # Preserve indices and exclusions while binding an existing excerpt
+            # to its actual reviewed layer, including future thematic scoring.
+            existing = result["facts"][seen[key]]
+            existing["evidence_origin"] = fact["evidence_origin"]
+            existing.setdefault("source_review_file", fact["source_review_file"])
+            existing["topic_ids"] = sorted(set((existing.get("topic_ids") or []) + fact["topic_ids"]))
+        else:
+            seen[key] = len(result["facts"])
+            result["facts"].append(fact)
     result[config_key] = {"path": supplement.relative_to(root).as_posix(),
         "sha256": config["sha256"], "selected_fact_count": len(selected)}
+    if result["facts"] == dossier["facts"] and result[config_key] == dossier.get(config_key):
+        return result
     result["basis"] = fingerprint({"previous_basis": dossier["basis"], "facts": result["facts"],
                                    "reviewed_supplement": result[config_key]})
     return result
@@ -198,12 +211,14 @@ def apply_fact_review(provider, study, obj, dossier):
         if rule.get("excluded"):
             fact["measurement_status"] = "excluded_known_source_issue"
         if rule.get("corrected_period"):
-            fact["original_period"] = fact.get("period")
+            fact.setdefault("original_period", fact.get("period"))
             fact["period"] = rule["corrected_period"]
         if rule.get("canonical_event_id"):
-            fact["original_event_id"] = fact.get("event_id")
+            fact.setdefault("original_event_id", fact.get("event_id"))
             fact["event_id"] = rule["canonical_event_id"]
     result["fact_review_registry"] = config
+    if result["facts"] == dossier["facts"] and dossier.get("fact_review_registry") == config:
+        return result
     result["basis"] = fingerprint({"input_basis": dossier["basis"], "registry": config, "facts": result["facts"]})
     return result
 
@@ -309,5 +324,6 @@ def rate_independent_object(provider, study, obj):
         dossier = enrich_independent_dossier(provider, study, obj, dossier)
     dossier = attach_reviewed_sources(provider, study, obj, dossier)
     dossier = attach_reviewed_sources(provider, study, obj, dossier, "completion_source_supplement")
+    dossier = attach_reviewed_sources(provider, study, obj, dossier, "coverage_expansion_source_supplement")
     dossier = apply_fact_review(provider, study, obj, dossier)
     return score_independent_dossier(provider, study, obj, dossier)

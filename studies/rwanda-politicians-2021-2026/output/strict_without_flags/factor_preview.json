@@ -1,0 +1,2751 @@
+{
+  "format_version": 1,
+  "mode": "factor_preview_only",
+  "n_objects": 34,
+  "n_scales": 7,
+  "measurement_context": {
+    "measurement_mode": "llm_exploratory",
+    "measurement_model": "independent_poles",
+    "source_supplement": {
+      "path": "research/rwanda_politicians_2021_2026/russia_evidence_seed.json",
+      "sha256": "09ac57caea84f459d62161678e72caaa06b456e75e362ff48d5d4a45d9e40175",
+      "reviewed_thematic_only": true,
+      "verification_note": "Тематические оценки допускаются по отдельно просмотренным источникам ассистента; это не независимая человеческая экспертиза"
+    },
+    "approvals": {
+      "objects": {
+        "approved": true,
+        "at": "2026-10-15T14:33:58.177538+00:00",
+        "actor": "human_user_chat_2026-10-15_rwanda_42",
+        "fingerprint": "92b5ecf8530b1a85cc8c2ef947051d849976127aca32149f82d6fcb20ba3056d"
+      },
+      "scales": {
+        "approved": true,
+        "at": "2026-10-15T14:53:43.369347+00:00",
+        "actor": "human_user_chat_2026-10-15_rwanda_24",
+        "fingerprint": "968e884171eb9cdb80c1fc2aa813e881359b746e2a01de4b034a953908d6cf0c"
+      }
+    },
+    "expert_validation": "not_independently_validated"
+  },
+  "dimension_selection": {
+    "recommended_q": 2,
+    "best_mean_heldout_q": 2,
+    "parsimony_tolerance_log_likelihood": 1.0,
+    "rule": "Only fit q with nominal_df=p(p+1)/2-[p*q+p-q(q-1)/2]>=0, a necessary parameter-count screen, not sufficient identification. Among converged candidates with at least two |loading|>=0.35 descriptors per factor, select the smallest q within max(1, SD_best/sqrt(3)) of the best three-split mean held-out likelihood; fall back to all candidates if none meet the loading criterion. This is an exploratory heuristic, not an inferential one-SE test.",
+    "parameter_count_constraint": {
+      "criterion": "nominal_df >= 0",
+      "necessary_not_sufficient": true,
+      "parameter_count_formula": "p*q+p-q*(q-1)/2",
+      "covariance_moments": 28,
+      "qmax_before_parameter_screen": 6,
+      "admissible_q": [
+        2,
+        3
+      ],
+      "excluded_candidates": [
+        {
+          "q": 4,
+          "parameter_count": 29,
+          "covariance_moments": 28,
+          "nominal_df": -1
+        },
+        {
+          "q": 5,
+          "parameter_count": 32,
+          "covariance_moments": 28,
+          "nominal_df": -4
+        },
+        {
+          "q": 6,
+          "parameter_count": 34,
+          "covariance_moments": 28,
+          "nominal_df": -6
+        }
+      ]
+    },
+    "parallel_pca": {
+      "retained_components": 1,
+      "permutations": 500,
+      "quantile": 0.95,
+      "observed_eigenvalues": [
+        2.5910962788122784,
+        1.3661335799311205,
+        1.0136817967636267,
+        0.7718981480101209,
+        0.6733985728138832,
+        0.5396453760391055,
+        0.2562674597510781
+      ],
+      "reference_eigenvalues": [
+        2.03162245279115,
+        1.586179498839237,
+        1.3285799589502931,
+        1.111614215542898,
+        0.9396863445304745,
+        0.7688939368730783,
+        0.5749995054353982
+      ],
+      "scope": "PCA component permutation diagnostic, not common-factor retention; not a hard lower/upper bound on FA q"
+    },
+    "rank": 7,
+    "selection_is_exploratory": true
+  },
+  "dimension_candidates": [
+    {
+      "q": 2,
+      "parameter_count": 20,
+      "covariance_moments": 28,
+      "nominal_df": 8,
+      "heldout_log_likelihood_mean": -6.604675568248674,
+      "heldout_log_likelihood_sd": 0.17517238179459574,
+      "heldout_log_likelihood_splits": [
+        -6.485811467415225,
+        -6.5223724519163415,
+        -6.805842785414457
+      ],
+      "residual_rms_off_diagonal": 0.0632443084470847,
+      "residual_max_abs_off_diagonal": 0.1425413853198289,
+      "residual_fraction_abs_above_010": 0.19047619047619047,
+      "strong_traits_per_factor": [
+        1,
+        5
+      ],
+      "all_factors_have_two_strong_traits": false,
+      "convergence_warnings": 0,
+      "common_variance_share": 0.43049049582306803
+    },
+    {
+      "q": 3,
+      "parameter_count": 25,
+      "covariance_moments": 28,
+      "nominal_df": 3,
+      "heldout_log_likelihood_mean": -6.620538296679769,
+      "heldout_log_likelihood_sd": 0.14051948463943928,
+      "heldout_log_likelihood_splits": [
+        -6.493112531162968,
+        -6.597258471265721,
+        -6.771243887610616
+      ],
+      "residual_rms_off_diagonal": 0.02959431682673911,
+      "residual_max_abs_off_diagonal": 0.09146837293480439,
+      "residual_fraction_abs_above_010": 0.0,
+      "strong_traits_per_factor": [
+        4,
+        1,
+        2
+      ],
+      "all_factors_have_two_strong_traits": false,
+      "convergence_warnings": 0,
+      "common_variance_share": 0.5598460489499152
+    }
+  ],
+  "models": [
+    {
+      "q": 2,
+      "variance_total": 0.43049049582306803,
+      "variance_denominator": 7.0,
+      "factors": [
+        {
+          "id": "F1",
+          "name": "Упреждающее снижение рисков и подготовка",
+          "label": "Упреждающее снижение рисков и подготовка",
+          "positive_traits": [
+            {
+              "id": "prevention-crisis-response__positive",
+              "name": "Упреждающее снижение рисков и подготовка",
+              "positive": "Упреждающее снижение рисков и подготовка",
+              "negative": "",
+              "loading": 0.9798940109796388,
+              "high_factor_property": "Большая выраженность: Упреждающее снижение рисков и подготовка",
+              "low_factor_property": "Меньшая выраженность: Упреждающее снижение рисков и подготовка",
+              "kind": "unipolar",
+              "parent_scale_id": "prevention-crisis-response",
+              "pole": "positive"
+            }
+          ],
+          "negative_traits": [],
+          "strong_loading_threshold": 0.35,
+          "variance_share": 0.18043870087692243,
+          "interpretation": "Положительные нагрузки: Упреждающее снижение рисков и подготовка. Сильных отрицательных нагрузок нет; второй полюс отдельно не именуется. Высокая координата связана со свойствами: Большая выраженность: Упреждающее снижение рисков и подготовка. Низкая координата связана со свойствами: Меньшая выраженность: Упреждающее снижение рисков и подготовка. Меньшая выраженность свойства не означает выраженность его антонима; полюса измерены независимо. Знак оси условен. Названия описывают связи оценок; это не причинное объяснение."
+        },
+        {
+          "id": "F2",
+          "name": "Больше: Публичное раскрытие проблем и недостатков исполнения; меньше: Публичная поддержка действующего государственного курса",
+          "label": "Больше: Публичное раскрытие проблем и недостатков исполнения; меньше: Публичная поддержка действующего государственного курса",
+          "positive_traits": [
+            {
+              "id": "problem-disclosure-reputation-defence__positive",
+              "name": "Публичное раскрытие проблем и недостатков исполнения",
+              "positive": "Публичное раскрытие проблем и недостатков исполнения",
+              "negative": "",
+              "loading": 0.45175004881255343,
+              "high_factor_property": "Большая выраженность: Публичное раскрытие проблем и недостатков исполнения",
+              "low_factor_property": "Меньшая выраженность: Публичное раскрытие проблем и недостатков исполнения",
+              "kind": "unipolar",
+              "parent_scale_id": "problem-disclosure-reputation-defence",
+              "pole": "positive"
+            }
+          ],
+          "negative_traits": [
+            {
+              "id": "government-course-assessment__positive",
+              "name": "Публичная поддержка действующего государственного курса",
+              "positive": "Публичная поддержка действующего государственного курса",
+              "negative": "",
+              "loading": -0.7343989069399115,
+              "high_factor_property": "Меньшая выраженность: Публичная поддержка действующего государственного курса",
+              "low_factor_property": "Большая выраженность: Публичная поддержка действующего государственного курса",
+              "kind": "unipolar",
+              "parent_scale_id": "government-course-assessment",
+              "pole": "positive"
+            },
+            {
+              "id": "programmatic-renewal__negative",
+              "name": "Продолжение и закрепление действующего курса",
+              "positive": "Продолжение и закрепление действующего курса",
+              "negative": "",
+              "loading": -0.6868614877527044,
+              "high_factor_property": "Меньшая выраженность: Продолжение и закрепление действующего курса",
+              "low_factor_property": "Большая выраженность: Продолжение и закрепление действующего курса",
+              "kind": "unipolar",
+              "parent_scale_id": "programmatic-renewal",
+              "pole": "negative"
+            },
+            {
+              "id": "accessibility-growth-priorities__positive",
+              "name": "Расширение доступности базовых благ для населения",
+              "positive": "Расширение доступности базовых благ для населения",
+              "negative": "",
+              "loading": -0.5725953372393489,
+              "high_factor_property": "Меньшая выраженность: Расширение доступности базовых благ для населения",
+              "low_factor_property": "Большая выраженность: Расширение доступности базовых благ для населения",
+              "kind": "unipolar",
+              "parent_scale_id": "accessibility-growth-priorities",
+              "pole": "positive"
+            },
+            {
+              "id": "participation-administrative-direction__negative",
+              "name": "Административная постановка задач и контроль исполнения",
+              "positive": "Административная постановка задач и контроль исполнения",
+              "negative": "",
+              "loading": -0.44117340188313053,
+              "high_factor_property": "Меньшая выраженность: Административная постановка задач и контроль исполнения",
+              "low_factor_property": "Большая выраженность: Административная постановка задач и контроль исполнения",
+              "kind": "unipolar",
+              "parent_scale_id": "participation-administrative-direction",
+              "pole": "negative"
+            }
+          ],
+          "strong_loading_threshold": 0.35,
+          "variance_share": 0.2500517949461456,
+          "interpretation": "Положительные нагрузки: Публичное раскрытие проблем и недостатков исполнения. Отрицательные нагрузки: Публичная поддержка действующего государственного курса, Продолжение и закрепление действующего курса, Расширение доступности базовых благ для населения. Высокая координата связана со свойствами: Большая выраженность: Публичное раскрытие проблем и недостатков исполнения, Меньшая выраженность: Публичная поддержка действующего государственного курса, Меньшая выраженность: Продолжение и закрепление действующего курса, Меньшая выраженность: Расширение доступности базовых благ для населения. Низкая координата связана со свойствами: Меньшая выраженность: Публичное раскрытие проблем и недостатков исполнения, Большая выраженность: Публичная поддержка действующего государственного курса, Большая выраженность: Продолжение и закрепление действующего курса, Большая выраженность: Расширение доступности базовых благ для населения. Меньшая выраженность свойства не означает выраженность его антонима; полюса измерены независимо. Знак оси условен. Названия описывают связи оценок; это не причинное объяснение."
+        }
+      ],
+      "dimension_fit": {
+        "q": 2,
+        "parameter_count": 20,
+        "covariance_moments": 28,
+        "nominal_df": 8,
+        "heldout_log_likelihood_mean": -6.604675568248674,
+        "heldout_log_likelihood_sd": 0.17517238179459574,
+        "heldout_log_likelihood_splits": [
+          -6.485811467415225,
+          -6.5223724519163415,
+          -6.805842785414457
+        ],
+        "residual_rms_off_diagonal": 0.0632443084470847,
+        "residual_max_abs_off_diagonal": 0.1425413853198289,
+        "residual_fraction_abs_above_010": 0.19047619047619047,
+        "strong_traits_per_factor": [
+          1,
+          5
+        ],
+        "all_factors_have_two_strong_traits": false,
+        "convergence_warnings": 0,
+        "common_variance_share": 0.43049049582306803
+      },
+      "russia_candidates": [
+        {
+          "factor_id": "F1",
+          "variance_share": 0.18043870087692243,
+          "russia_variance_contribution": 0.0,
+          "russia_loading_energy_fraction": 0.0,
+          "strong_russia_indicators": [],
+          "all_russia_loadings": [],
+          "strong_non_russia_indicators": [
+            {
+              "id": "prevention-crisis-response__positive",
+              "name": "Упреждающее снижение рисков и подготовка",
+              "loading": 0.9798940109796388,
+              "positive": "Упреждающее снижение рисков и подготовка",
+              "negative": "",
+              "high_factor_property": "Большая выраженность: Упреждающее снижение рисков и подготовка",
+              "low_factor_property": "Меньшая выраженность: Упреждающее снижение рисков и подготовка",
+              "parent_scale_id": "prevention-crisis-response",
+              "pole": "positive",
+              "kind": "unipolar"
+            }
+          ],
+          "strong_indicator_count": 0,
+          "distinct_family_count": 0,
+          "supporting_families": [],
+          "status": "no_numeric_theme_support",
+          "meets_variance_threshold": true,
+          "mandatory_report": false,
+          "polarity": "not_defined",
+          "scope_hint": "mixed_with_other_strong_scales",
+          "evidence_audit": "pending",
+          "semantic_specificity_audit": "pending",
+          "factor_resampling": "not_performed",
+          "cross_q_rotation_review": "pending",
+          "claim": "Numeric screening only; indicator independence and a distinct Russia-specific construct are not verified",
+          "q": 2,
+          "model_convergence_warnings": 0
+        },
+        {
+          "factor_id": "F2",
+          "variance_share": 0.2500517949461456,
+          "russia_variance_contribution": 0.0,
+          "russia_loading_energy_fraction": 0.0,
+          "strong_russia_indicators": [],
+          "all_russia_loadings": [],
+          "strong_non_russia_indicators": [
+            {
+              "id": "government-course-assessment__positive",
+              "name": "Публичная поддержка действующего государственного курса",
+              "loading": -0.7343989069399115,
+              "positive": "Публичная поддержка действующего государственного курса",
+              "negative": "",
+              "high_factor_property": "Меньшая выраженность: Публичная поддержка действующего государственного курса",
+              "low_factor_property": "Большая выраженность: Публичная поддержка действующего государственного курса",
+              "parent_scale_id": "government-course-assessment",
+              "pole": "positive",
+              "kind": "unipolar"
+            },
+            {
+              "id": "programmatic-renewal__negative",
+              "name": "Продолжение и закрепление действующего курса",
+              "loading": -0.6868614877527044,
+              "positive": "Продолжение и закрепление действующего курса",
+              "negative": "",
+              "high_factor_property": "Меньшая выраженность: Продолжение и закрепление действующего курса",
+              "low_factor_property": "Большая выраженность: Продолжение и закрепление действующего курса",
+              "parent_scale_id": "programmatic-renewal",
+              "pole": "negative",
+              "kind": "unipolar"
+            },
+            {
+              "id": "accessibility-growth-priorities__positive",
+              "name": "Расширение доступности базовых благ для населения",
+              "loading": -0.5725953372393489,
+              "positive": "Расширение доступности базовых благ для населения",
+              "negative": "",
+              "high_factor_property": "Меньшая выраженность: Расширение доступности базовых благ для населения",
+              "low_factor_property": "Большая выраженность: Расширение доступности базовых благ для населения",
+              "parent_scale_id": "accessibility-growth-priorities",
+              "pole": "positive",
+              "kind": "unipolar"
+            },
+            {
+              "id": "problem-disclosure-reputation-defence__positive",
+              "name": "Публичное раскрытие проблем и недостатков исполнения",
+              "loading": 0.45175004881255343,
+              "positive": "Публичное раскрытие проблем и недостатков исполнения",
+              "negative": "",
+              "high_factor_property": "Большая выраженность: Публичное раскрытие проблем и недостатков исполнения",
+              "low_factor_property": "Меньшая выраженность: Публичное раскрытие проблем и недостатков исполнения",
+              "parent_scale_id": "problem-disclosure-reputation-defence",
+              "pole": "positive",
+              "kind": "unipolar"
+            },
+            {
+              "id": "participation-administrative-direction__negative",
+              "name": "Административная постановка задач и контроль исполнения",
+              "loading": -0.44117340188313053,
+              "positive": "Административная постановка задач и контроль исполнения",
+              "negative": "",
+              "high_factor_property": "Меньшая выраженность: Административная постановка задач и контроль исполнения",
+              "low_factor_property": "Большая выраженность: Административная постановка задач и контроль исполнения",
+              "parent_scale_id": "participation-administrative-direction",
+              "pole": "negative",
+              "kind": "unipolar"
+            }
+          ],
+          "strong_indicator_count": 0,
+          "distinct_family_count": 0,
+          "supporting_families": [],
+          "status": "no_numeric_theme_support",
+          "meets_variance_threshold": true,
+          "mandatory_report": false,
+          "polarity": "not_defined",
+          "scope_hint": "mixed_with_other_strong_scales",
+          "evidence_audit": "pending",
+          "semantic_specificity_audit": "pending",
+          "factor_resampling": "not_performed",
+          "cross_q_rotation_review": "pending",
+          "claim": "Numeric screening only; indicator independence and a distinct Russia-specific construct are not verified",
+          "q": 2,
+          "model_convergence_warnings": 0
+        }
+      ],
+      "loading_table": [
+        {
+          "id": "programmatic-renewal__negative",
+          "name": "Продолжение и закрепление действующего курса",
+          "positive": "Продолжение и закрепление действующего курса",
+          "negative": "",
+          "parent_scale_id": "programmatic-renewal",
+          "kind": "unipolar",
+          "pole": "negative",
+          "loadings": {
+            "F1": 0.22567569906532126,
+            "F2": -0.6868614877527044
+          }
+        },
+        {
+          "id": "government-course-assessment__positive",
+          "name": "Публичная поддержка действующего государственного курса",
+          "positive": "Публичная поддержка действующего государственного курса",
+          "negative": "",
+          "parent_scale_id": "government-course-assessment",
+          "kind": "unipolar",
+          "pole": "positive",
+          "loadings": {
+            "F1": 0.07796622015576682,
+            "F2": -0.7343989069399115
+          }
+        },
+        {
+          "id": "participation-administrative-direction__negative",
+          "name": "Административная постановка задач и контроль исполнения",
+          "positive": "Административная постановка задач и контроль исполнения",
+          "negative": "",
+          "parent_scale_id": "participation-administrative-direction",
+          "kind": "unipolar",
+          "pole": "negative",
+          "loadings": {
+            "F1": 0.1951766546623346,
+            "F2": -0.44117340188313053
+          }
+        },
+        {
+          "id": "argumentation-evidence-values__negative",
+          "name": "Обоснование через ценности, память и коллективные символы",
+          "positive": "Обоснование через ценности, память и коллективные символы",
+          "negative": "",
+          "parent_scale_id": "argumentation-evidence-values",
+          "kind": "unipolar",
+          "pole": "negative",
+          "loadings": {
+            "F1": -0.1952139182579719,
+            "F2": 0.02516928117766201
+          }
+        },
+        {
+          "id": "accessibility-growth-priorities__positive",
+          "name": "Расширение доступности базовых благ для населения",
+          "positive": "Расширение доступности базовых благ для населения",
+          "negative": "",
+          "parent_scale_id": "accessibility-growth-priorities",
+          "kind": "unipolar",
+          "pole": "positive",
+          "loadings": {
+            "F1": 0.30808765613849015,
+            "F2": -0.5725953372393489
+          }
+        },
+        {
+          "id": "problem-disclosure-reputation-defence__positive",
+          "name": "Публичное раскрытие проблем и недостатков исполнения",
+          "positive": "Публичное раскрытие проблем и недостатков исполнения",
+          "negative": "",
+          "parent_scale_id": "problem-disclosure-reputation-defence",
+          "kind": "unipolar",
+          "pole": "positive",
+          "loadings": {
+            "F1": 0.2734044192747708,
+            "F2": 0.45175004881255343
+          }
+        },
+        {
+          "id": "prevention-crisis-response__positive",
+          "name": "Упреждающее снижение рисков и подготовка",
+          "positive": "Упреждающее снижение рисков и подготовка",
+          "negative": "",
+          "parent_scale_id": "prevention-crisis-response",
+          "kind": "unipolar",
+          "pole": "positive",
+          "loadings": {
+            "F1": 0.9798940109796388,
+            "F2": -0.10968644709398376
+          }
+        }
+      ]
+    },
+    {
+      "q": 3,
+      "variance_total": 0.5598460489499153,
+      "variance_denominator": 7.0,
+      "factors": [
+        {
+          "id": "F1",
+          "name": "Больше: Продолжение и закрепление действующего курса; меньше: Публичное раскрытие проблем и недостатков исполнения",
+          "label": "Больше: Продолжение и закрепление действующего курса; меньше: Публичное раскрытие проблем и недостатков исполнения",
+          "positive_traits": [
+            {
+              "id": "programmatic-renewal__negative",
+              "name": "Продолжение и закрепление действующего курса",
+              "positive": "Продолжение и закрепление действующего курса",
+              "negative": "",
+              "loading": 0.9644607295713183,
+              "high_factor_property": "Большая выраженность: Продолжение и закрепление действующего курса",
+              "low_factor_property": "Меньшая выраженность: Продолжение и закрепление действующего курса",
+              "kind": "unipolar",
+              "parent_scale_id": "programmatic-renewal",
+              "pole": "negative"
+            },
+            {
+              "id": "government-course-assessment__positive",
+              "name": "Публичная поддержка действующего государственного курса",
+              "positive": "Публичная поддержка действующего государственного курса",
+              "negative": "",
+              "loading": 0.44309069999411493,
+              "high_factor_property": "Большая выраженность: Публичная поддержка действующего государственного курса",
+              "low_factor_property": "Меньшая выраженность: Публичная поддержка действующего государственного курса",
+              "kind": "unipolar",
+              "parent_scale_id": "government-course-assessment",
+              "pole": "positive"
+            },
+            {
+              "id": "participation-administrative-direction__negative",
+              "name": "Административная постановка задач и контроль исполнения",
+              "positive": "Административная постановка задач и контроль исполнения",
+              "negative": "",
+              "loading": 0.35092572434489133,
+              "high_factor_property": "Большая выраженность: Административная постановка задач и контроль исполнения",
+              "low_factor_property": "Меньшая выраженность: Административная постановка задач и контроль исполнения",
+              "kind": "unipolar",
+              "parent_scale_id": "participation-administrative-direction",
+              "pole": "negative"
+            }
+          ],
+          "negative_traits": [
+            {
+              "id": "problem-disclosure-reputation-defence__positive",
+              "name": "Публичное раскрытие проблем и недостатков исполнения",
+              "positive": "Публичное раскрытие проблем и недостатков исполнения",
+              "negative": "",
+              "loading": -0.4198519211174683,
+              "high_factor_property": "Меньшая выраженность: Публичное раскрытие проблем и недостатков исполнения",
+              "low_factor_property": "Большая выраженность: Публичное раскрытие проблем и недостатков исполнения",
+              "kind": "unipolar",
+              "parent_scale_id": "problem-disclosure-reputation-defence",
+              "pole": "positive"
+            }
+          ],
+          "strong_loading_threshold": 0.35,
+          "variance_share": 0.21092355054266831,
+          "interpretation": "Положительные нагрузки: Продолжение и закрепление действующего курса, Публичная поддержка действующего государственного курса, Административная постановка задач и контроль исполнения. Отрицательные нагрузки: Публичное раскрытие проблем и недостатков исполнения. Высокая координата связана со свойствами: Большая выраженность: Продолжение и закрепление действующего курса, Большая выраженность: Публичная поддержка действующего государственного курса, Большая выраженность: Административная постановка задач и контроль исполнения, Меньшая выраженность: Публичное раскрытие проблем и недостатков исполнения. Низкая координата связана со свойствами: Меньшая выраженность: Продолжение и закрепление действующего курса, Меньшая выраженность: Публичная поддержка действующего государственного курса, Меньшая выраженность: Административная постановка задач и контроль исполнения, Большая выраженность: Публичное раскрытие проблем и недостатков исполнения. Меньшая выраженность свойства не означает выраженность его антонима; полюса измерены независимо. Знак оси условен. Названия описывают связи оценок; это не причинное объяснение."
+        },
+        {
+          "id": "F2",
+          "name": "Упреждающее снижение рисков и подготовка",
+          "label": "Упреждающее снижение рисков и подготовка",
+          "positive_traits": [
+            {
+              "id": "prevention-crisis-response__positive",
+              "name": "Упреждающее снижение рисков и подготовка",
+              "positive": "Упреждающее снижение рисков и подготовка",
+              "negative": "",
+              "loading": 0.9611080443344346,
+              "high_factor_property": "Большая выраженность: Упреждающее снижение рисков и подготовка",
+              "low_factor_property": "Меньшая выраженность: Упреждающее снижение рисков и подготовка",
+              "kind": "unipolar",
+              "parent_scale_id": "prevention-crisis-response",
+              "pole": "positive"
+            }
+          ],
+          "negative_traits": [],
+          "strong_loading_threshold": 0.35,
+          "variance_share": 0.16358763791714417,
+          "interpretation": "Положительные нагрузки: Упреждающее снижение рисков и подготовка. Сильных отрицательных нагрузок нет; второй полюс отдельно не именуется. Высокая координата связана со свойствами: Большая выраженность: Упреждающее снижение рисков и подготовка. Низкая координата связана со свойствами: Меньшая выраженность: Упреждающее снижение рисков и подготовка. Меньшая выраженность свойства не означает выраженность его антонима; полюса измерены независимо. Знак оси условен. Названия описывают связи оценок; это не причинное объяснение."
+        },
+        {
+          "id": "F3",
+          "name": "Обратная связь: Расширение доступности базовых благ для населения, Публичная поддержка действующего государственного курса",
+          "label": "Обратная связь: Расширение доступности базовых благ для населения, Публичная поддержка действующего государственного курса",
+          "positive_traits": [],
+          "negative_traits": [
+            {
+              "id": "accessibility-growth-priorities__positive",
+              "name": "Расширение доступности базовых благ для населения",
+              "positive": "Расширение доступности базовых благ для населения",
+              "negative": "",
+              "loading": -0.9394096871450459,
+              "high_factor_property": "Меньшая выраженность: Расширение доступности базовых благ для населения",
+              "low_factor_property": "Большая выраженность: Расширение доступности базовых благ для населения",
+              "kind": "unipolar",
+              "parent_scale_id": "accessibility-growth-priorities",
+              "pole": "positive"
+            },
+            {
+              "id": "government-course-assessment__positive",
+              "name": "Публичная поддержка действующего государственного курса",
+              "positive": "Публичная поддержка действующего государственного курса",
+              "negative": "",
+              "loading": -0.506515294324298,
+              "high_factor_property": "Меньшая выраженность: Публичная поддержка действующего государственного курса",
+              "low_factor_property": "Большая выраженность: Публичная поддержка действующего государственного курса",
+              "kind": "unipolar",
+              "parent_scale_id": "government-course-assessment",
+              "pole": "positive"
+            }
+          ],
+          "strong_loading_threshold": 0.35,
+          "variance_share": 0.18533486049010278,
+          "interpretation": "Отрицательные нагрузки: Расширение доступности базовых благ для населения, Публичная поддержка действующего государственного курса. Сильных положительных нагрузок нет. Высокая координата связана со свойствами: Меньшая выраженность: Расширение доступности базовых благ для населения, Меньшая выраженность: Публичная поддержка действующего государственного курса. Низкая координата связана со свойствами: Большая выраженность: Расширение доступности базовых благ для населения, Большая выраженность: Публичная поддержка действующего государственного курса. Меньшая выраженность свойства не означает выраженность его антонима; полюса измерены независимо. Знак оси условен. Названия описывают связи оценок; это не причинное объяснение."
+        }
+      ],
+      "dimension_fit": {
+        "q": 3,
+        "parameter_count": 25,
+        "covariance_moments": 28,
+        "nominal_df": 3,
+        "heldout_log_likelihood_mean": -6.620538296679769,
+        "heldout_log_likelihood_sd": 0.14051948463943928,
+        "heldout_log_likelihood_splits": [
+          -6.493112531162968,
+          -6.597258471265721,
+          -6.771243887610616
+        ],
+        "residual_rms_off_diagonal": 0.02959431682673911,
+        "residual_max_abs_off_diagonal": 0.09146837293480439,
+        "residual_fraction_abs_above_010": 0.0,
+        "strong_traits_per_factor": [
+          4,
+          1,
+          2
+        ],
+        "all_factors_have_two_strong_traits": false,
+        "convergence_warnings": 0,
+        "common_variance_share": 0.5598460489499152
+      },
+      "russia_candidates": [
+        {
+          "factor_id": "F1",
+          "variance_share": 0.21092355054266831,
+          "russia_variance_contribution": 0.0,
+          "russia_loading_energy_fraction": 0.0,
+          "strong_russia_indicators": [],
+          "all_russia_loadings": [],
+          "strong_non_russia_indicators": [
+            {
+              "id": "programmatic-renewal__negative",
+              "name": "Продолжение и закрепление действующего курса",
+              "loading": 0.9644607295713183,
+              "positive": "Продолжение и закрепление действующего курса",
+              "negative": "",
+              "high_factor_property": "Большая выраженность: Продолжение и закрепление действующего курса",
+              "low_factor_property": "Меньшая выраженность: Продолжение и закрепление действующего курса",
+              "parent_scale_id": "programmatic-renewal",
+              "pole": "negative",
+              "kind": "unipolar"
+            },
+            {
+              "id": "government-course-assessment__positive",
+              "name": "Публичная поддержка действующего государственного курса",
+              "loading": 0.44309069999411493,
+              "positive": "Публичная поддержка действующего государственного курса",
+              "negative": "",
+              "high_factor_property": "Большая выраженность: Публичная поддержка действующего государственного курса",
+              "low_factor_property": "Меньшая выраженность: Публичная поддержка действующего государственного курса",
+              "parent_scale_id": "government-course-assessment",
+              "pole": "positive",
+              "kind": "unipolar"
+            },
+            {
+              "id": "problem-disclosure-reputation-defence__positive",
+              "name": "Публичное раскрытие проблем и недостатков исполнения",
+              "loading": -0.4198519211174683,
+              "positive": "Публичное раскрытие проблем и недостатков исполнения",
+              "negative": "",
+              "high_factor_property": "Меньшая выраженность: Публичное раскрытие проблем и недостатков исполнения",
+              "low_factor_property": "Большая выраженность: Публичное раскрытие проблем и недостатков исполнения",
+              "parent_scale_id": "problem-disclosure-reputation-defence",
+              "pole": "positive",
+              "kind": "unipolar"
+            },
+            {
+              "id": "participation-administrative-direction__negative",
+              "name": "Административная постановка задач и контроль исполнения",
+              "loading": 0.35092572434489133,
+              "positive": "Административная постановка задач и контроль исполнения",
+              "negative": "",
+              "high_factor_property": "Большая выраженность: Административная постановка задач и контроль исполнения",
+              "low_factor_property": "Меньшая выраженность: Административная постановка задач и контроль исполнения",
+              "parent_scale_id": "participation-administrative-direction",
+              "pole": "negative",
+              "kind": "unipolar"
+            }
+          ],
+          "strong_indicator_count": 0,
+          "distinct_family_count": 0,
+          "supporting_families": [],
+          "status": "no_numeric_theme_support",
+          "meets_variance_threshold": true,
+          "mandatory_report": false,
+          "polarity": "not_defined",
+          "scope_hint": "mixed_with_other_strong_scales",
+          "evidence_audit": "pending",
+          "semantic_specificity_audit": "pending",
+          "factor_resampling": "not_performed",
+          "cross_q_rotation_review": "pending",
+          "claim": "Numeric screening only; indicator independence and a distinct Russia-specific construct are not verified",
+          "q": 3,
+          "model_convergence_warnings": 0
+        },
+        {
+          "factor_id": "F2",
+          "variance_share": 0.16358763791714417,
+          "russia_variance_contribution": 0.0,
+          "russia_loading_energy_fraction": 0.0,
+          "strong_russia_indicators": [],
+          "all_russia_loadings": [],
+          "strong_non_russia_indicators": [
+            {
+              "id": "prevention-crisis-response__positive",
+              "name": "Упреждающее снижение рисков и подготовка",
+              "loading": 0.9611080443344346,
+              "positive": "Упреждающее снижение рисков и подготовка",
+              "negative": "",
+              "high_factor_property": "Большая выраженность: Упреждающее снижение рисков и подготовка",
+              "low_factor_property": "Меньшая выраженность: Упреждающее снижение рисков и подготовка",
+              "parent_scale_id": "prevention-crisis-response",
+              "pole": "positive",
+              "kind": "unipolar"
+            }
+          ],
+          "strong_indicator_count": 0,
+          "distinct_family_count": 0,
+          "supporting_families": [],
+          "status": "no_numeric_theme_support",
+          "meets_variance_threshold": true,
+          "mandatory_report": false,
+          "polarity": "not_defined",
+          "scope_hint": "mixed_with_other_strong_scales",
+          "evidence_audit": "pending",
+          "semantic_specificity_audit": "pending",
+          "factor_resampling": "not_performed",
+          "cross_q_rotation_review": "pending",
+          "claim": "Numeric screening only; indicator independence and a distinct Russia-specific construct are not verified",
+          "q": 3,
+          "model_convergence_warnings": 0
+        },
+        {
+          "factor_id": "F3",
+          "variance_share": 0.18533486049010278,
+          "russia_variance_contribution": 0.0,
+          "russia_loading_energy_fraction": 0.0,
+          "strong_russia_indicators": [],
+          "all_russia_loadings": [],
+          "strong_non_russia_indicators": [
+            {
+              "id": "accessibility-growth-priorities__positive",
+              "name": "Расширение доступности базовых благ для населения",
+              "loading": -0.9394096871450459,
+              "positive": "Расширение доступности базовых благ для населения",
+              "negative": "",
+              "high_factor_property": "Меньшая выраженность: Расширение доступности базовых благ для населения",
+              "low_factor_property": "Большая выраженность: Расширение доступности базовых благ для населения",
+              "parent_scale_id": "accessibility-growth-priorities",
+              "pole": "positive",
+              "kind": "unipolar"
+            },
+            {
+              "id": "government-course-assessment__positive",
+              "name": "Публичная поддержка действующего государственного курса",
+              "loading": -0.506515294324298,
+              "positive": "Публичная поддержка действующего государственного курса",
+              "negative": "",
+              "high_factor_property": "Меньшая выраженность: Публичная поддержка действующего государственного курса",
+              "low_factor_property": "Большая выраженность: Публичная поддержка действующего государственного курса",
+              "parent_scale_id": "government-course-assessment",
+              "pole": "positive",
+              "kind": "unipolar"
+            }
+          ],
+          "strong_indicator_count": 0,
+          "distinct_family_count": 0,
+          "supporting_families": [],
+          "status": "no_numeric_theme_support",
+          "meets_variance_threshold": true,
+          "mandatory_report": false,
+          "polarity": "not_defined",
+          "scope_hint": "mixed_with_other_strong_scales",
+          "evidence_audit": "pending",
+          "semantic_specificity_audit": "pending",
+          "factor_resampling": "not_performed",
+          "cross_q_rotation_review": "pending",
+          "claim": "Numeric screening only; indicator independence and a distinct Russia-specific construct are not verified",
+          "q": 3,
+          "model_convergence_warnings": 0
+        }
+      ],
+      "loading_table": [
+        {
+          "id": "programmatic-renewal__negative",
+          "name": "Продолжение и закрепление действующего курса",
+          "positive": "Продолжение и закрепление действующего курса",
+          "negative": "",
+          "parent_scale_id": "programmatic-renewal",
+          "kind": "unipolar",
+          "pole": "negative",
+          "loadings": {
+            "F1": 0.9644607295713183,
+            "F2": 0.1480573011752469,
+            "F3": -0.168203181864838
+          }
+        },
+        {
+          "id": "government-course-assessment__positive",
+          "name": "Публичная поддержка действующего государственного курса",
+          "positive": "Публичная поддержка действующего государственного курса",
+          "negative": "",
+          "parent_scale_id": "government-course-assessment",
+          "kind": "unipolar",
+          "pole": "positive",
+          "loadings": {
+            "F1": 0.44309069999411493,
+            "F2": 0.01006289795836139,
+            "F3": -0.506515294324298
+          }
+        },
+        {
+          "id": "participation-administrative-direction__negative",
+          "name": "Административная постановка задач и контроль исполнения",
+          "positive": "Административная постановка задач и контроль исполнения",
+          "negative": "",
+          "parent_scale_id": "participation-administrative-direction",
+          "kind": "unipolar",
+          "pole": "negative",
+          "loadings": {
+            "F1": 0.35092572434489133,
+            "F2": 0.1624494890290367,
+            "F3": -0.21000152296291522
+          }
+        },
+        {
+          "id": "argumentation-evidence-values__negative",
+          "name": "Обоснование через ценности, память и коллективные символы",
+          "positive": "Обоснование через ценности, память и коллективные символы",
+          "negative": "",
+          "parent_scale_id": "argumentation-evidence-values",
+          "kind": "unipolar",
+          "pole": "negative",
+          "loadings": {
+            "F1": 0.07697749202016042,
+            "F2": -0.1862623550458113,
+            "F3": 0.14174845643179862
+          }
+        },
+        {
+          "id": "accessibility-growth-priorities__positive",
+          "name": "Расширение доступности базовых благ для населения",
+          "positive": "Расширение доступности базовых благ для населения",
+          "negative": "",
+          "parent_scale_id": "accessibility-growth-priorities",
+          "kind": "unipolar",
+          "pole": "positive",
+          "loadings": {
+            "F1": 0.16373443599634846,
+            "F2": 0.18920919611740103,
+            "F3": -0.9394096871450459
+          }
+        },
+        {
+          "id": "problem-disclosure-reputation-defence__positive",
+          "name": "Публичное раскрытие проблем и недостатков исполнения",
+          "positive": "Публичное раскрытие проблем и недостатков исполнения",
+          "negative": "",
+          "parent_scale_id": "problem-disclosure-reputation-defence",
+          "kind": "unipolar",
+          "pole": "positive",
+          "loadings": {
+            "F1": -0.4198519211174683,
+            "F2": 0.32012332764206586,
+            "F3": 0.19000266698147142
+          }
+        },
+        {
+          "id": "prevention-crisis-response__positive",
+          "name": "Упреждающее снижение рисков и подготовка",
+          "positive": "Упреждающее снижение рисков и подготовка",
+          "negative": "",
+          "parent_scale_id": "prevention-crisis-response",
+          "kind": "unipolar",
+          "pole": "positive",
+          "loadings": {
+            "F1": 0.13338660731269816,
+            "F2": 0.9611080443344346,
+            "F3": -0.17236337008560432
+          }
+        }
+      ]
+    }
+  ],
+  "russia_review": {
+    "configured_ids": [
+      "russia-diplomatic-engagement__positive",
+      "russia-diplomatic-engagement__negative",
+      "russia-security-cooperation__positive",
+      "russia-security-cooperation__negative",
+      "russia-economic-technology-cooperation__positive",
+      "russia-economic-technology-cooperation__negative",
+      "russia-education-cultural-cooperation__positive",
+      "russia-education-cultural-cooperation__negative",
+      "russia-conflict-policy-evaluation__positive",
+      "russia-conflict-policy-evaluation__negative",
+      "russia-isolation-sanctions__positive",
+      "russia-isolation-sanctions__negative"
+    ],
+    "configured_parent_ids": [
+      "russia-diplomatic-engagement",
+      "russia-security-cooperation",
+      "russia-economic-technology-cooperation",
+      "russia-education-cultural-cooperation",
+      "russia-conflict-policy-evaluation",
+      "russia-isolation-sanctions"
+    ],
+    "parent_by_id": {
+      "russia-diplomatic-engagement__positive": "russia-diplomatic-engagement",
+      "russia-diplomatic-engagement__negative": "russia-diplomatic-engagement",
+      "russia-security-cooperation__positive": "russia-security-cooperation",
+      "russia-security-cooperation__negative": "russia-security-cooperation",
+      "russia-economic-technology-cooperation__positive": "russia-economic-technology-cooperation",
+      "russia-economic-technology-cooperation__negative": "russia-economic-technology-cooperation",
+      "russia-education-cultural-cooperation__positive": "russia-education-cultural-cooperation",
+      "russia-education-cultural-cooperation__negative": "russia-education-cultural-cooperation",
+      "russia-conflict-policy-evaluation__positive": "russia-conflict-policy-evaluation",
+      "russia-conflict-policy-evaluation__negative": "russia-conflict-policy-evaluation",
+      "russia-isolation-sanctions__positive": "russia-isolation-sanctions",
+      "russia-isolation-sanctions__negative": "russia-isolation-sanctions"
+    },
+    "family_by_id": {
+      "russia-diplomatic-engagement__positive": "russia_diplomacy",
+      "russia-diplomatic-engagement__negative": "russia_diplomacy",
+      "russia-security-cooperation__positive": "russia_security",
+      "russia-security-cooperation__negative": "russia_security",
+      "russia-economic-technology-cooperation__positive": "russia_economy_technology",
+      "russia-economic-technology-cooperation__negative": "russia_economy_technology",
+      "russia-education-cultural-cooperation__positive": "russia_education_culture",
+      "russia-education-cultural-cooperation__negative": "russia_education_culture",
+      "russia-conflict-policy-evaluation__positive": "russia_foreign_actions",
+      "russia-conflict-policy-evaluation__negative": "russia_foreign_actions",
+      "russia-isolation-sanctions__positive": "russia_sanctions_isolation",
+      "russia-isolation-sanctions__negative": "russia_sanctions_isolation"
+    },
+    "family_assignment_source": {
+      "russia-diplomatic-engagement__positive": "declared_family",
+      "russia-diplomatic-engagement__negative": "declared_family",
+      "russia-security-cooperation__positive": "declared_family",
+      "russia-security-cooperation__negative": "declared_family",
+      "russia-economic-technology-cooperation__positive": "declared_family",
+      "russia-economic-technology-cooperation__negative": "declared_family",
+      "russia-education-cultural-cooperation__positive": "declared_family",
+      "russia-education-cultural-cooperation__negative": "declared_family",
+      "russia-conflict-policy-evaluation__positive": "declared_family",
+      "russia-conflict-policy-evaluation__negative": "declared_family",
+      "russia-isolation-sanctions__positive": "declared_family",
+      "russia-isolation-sanctions__negative": "declared_family"
+    },
+    "duplicate_required_ids": [],
+    "required_definition_mismatches": [],
+    "instructions": [
+      "В досье каждого политика проверить все шесть аспектов отношения к России; пробелы явно отмечать.",
+      "Персонифицированные датированные позиции и действия, а не перенос позиции государства, партии или ведомства.",
+      "Различать официальное действие и частное убеждение; не выводить симпатию из должности или встречи.",
+      "Сохранить event_id, даты и противоречащие свидетельства. Несколько пересказов не являются разными событиями.",
+      "Не дополнять численные оценки ради российского фактора. Unknown остаётся пропуском.",
+      "Шесть тематических шкал входят в единый общий словарь без повышающего веса и дублирования синонимами.",
+      "Сначала короткое сравнение всех допустимых q=2..8; расширенный отчёт и презентация только после выбора решения.",
+      "С 15.10.2026 пользователь утвердил независимые однополюсные переменные. Каждый из двух прежних полюсов 0..5 анализируется отдельно; неизвестный другой полюс не аннулирует измерение.",
+      "Публичное служебное действие измеряет конкретное действие; дипломатический контакт может характеризовать взаимодействие, но не личную симпатию или поддержку внешнеполитических действий России."
+    ],
+    "loading_threshold": 0.35,
+    "minimum_explained_share": 0.02,
+    "minimum_indicators": 3,
+    "requested_definitions": {
+      "russia-diplomatic-engagement__positive": {
+        "id": "russia-diplomatic-engagement__positive",
+        "name": "Расширение дипломатического сотрудничества с Россией",
+        "positive": "Расширение дипломатического сотрудничества с Россией",
+        "negative": "",
+        "definition": "Персонифицированные публичные действия или предложения по институциональному развитию отношений: соглашения, устойчивые механизмы диалога, дипломатические представительства; противоположный контраст — явное предложение понизить, приостановить или разорвать отношения. Протокольная встреча доказывает контакт, но сама по себе не доказывает предпочтение России другим партнёрам или личную симпатию. Число встреч не заменяет содержательного основания.",
+        "research_domain": "russia_relations",
+        "semantic_family_id": "russia_diplomacy",
+        "aliases": [
+          "Дипломатическое сближение с Россией",
+          "Институциональный диалог с Россией"
+        ],
+        "anchors": {
+          "0": "Нет выраженности при достаточных сведениях",
+          "3": "Устойчиво заметно",
+          "5": "Определяющая черта публичного образа"
+        },
+        "parent_scale_id": "russia-diplomatic-engagement",
+        "parent_scale_name": "Дипломатические отношения с Россией",
+        "pole": "positive",
+        "kind": "unipolar"
+      },
+      "russia-diplomatic-engagement__negative": {
+        "id": "russia-diplomatic-engagement__negative",
+        "name": "Дипломатическое дистанцирование от России",
+        "positive": "Дипломатическое дистанцирование от России",
+        "negative": "",
+        "definition": "Персонифицированные публичные действия или предложения по институциональному развитию отношений: соглашения, устойчивые механизмы диалога, дипломатические представительства; противоположный контраст — явное предложение понизить, приостановить или разорвать отношения. Протокольная встреча доказывает контакт, но сама по себе не доказывает предпочтение России другим партнёрам или личную симпатию. Число встреч не заменяет содержательного основания.",
+        "research_domain": "russia_relations",
+        "semantic_family_id": "russia_diplomacy",
+        "aliases": [
+          "Дипломатическое сближение с Россией",
+          "Институциональный диалог с Россией"
+        ],
+        "anchors": {
+          "0": "Нет выраженности при достаточных сведениях",
+          "3": "Устойчиво заметно",
+          "5": "Определяющая черта публичного образа"
+        },
+        "parent_scale_id": "russia-diplomatic-engagement",
+        "parent_scale_name": "Дипломатические отношения с Россией",
+        "pole": "negative",
+        "kind": "unipolar"
+      },
+      "russia-security-cooperation__positive": {
+        "id": "russia-security-cooperation__positive",
+        "name": "Развитие военно-технического сотрудничества с Россией",
+        "positive": "Развитие военно-технического сотрудничества с Россией",
+        "negative": "",
+        "definition": "Явные действия или публичные предложения об оборонных соглашениях, поставках, обучении военных и сотрудничестве служб безопасности с Россией либо об ограничении этих связей. Учитывать только участие, подпись, решение или слова конкретного человека. Общая должность в оборонной сфере, многосоставное совещание с иностранными атташе и отношения Руанды с третьими странами не определяют этот признак.",
+        "research_domain": "russia_relations",
+        "semantic_family_id": "russia_security",
+        "aliases": [
+          "Военно-техническое партнёрство с Россией",
+          "Российское сотрудничество в сфере безопасности"
+        ],
+        "anchors": {
+          "0": "Нет выраженности при достаточных сведениях",
+          "3": "Устойчиво заметно",
+          "5": "Определяющая черта публичного образа"
+        },
+        "parent_scale_id": "russia-security-cooperation",
+        "parent_scale_name": "Оборонное сотрудничество с Россией",
+        "pole": "positive",
+        "kind": "unipolar"
+      },
+      "russia-security-cooperation__negative": {
+        "id": "russia-security-cooperation__negative",
+        "name": "Ограничение военно-технического сотрудничества с Россией",
+        "positive": "Ограничение военно-технического сотрудничества с Россией",
+        "negative": "",
+        "definition": "Явные действия или публичные предложения об оборонных соглашениях, поставках, обучении военных и сотрудничестве служб безопасности с Россией либо об ограничении этих связей. Учитывать только участие, подпись, решение или слова конкретного человека. Общая должность в оборонной сфере, многосоставное совещание с иностранными атташе и отношения Руанды с третьими странами не определяют этот признак.",
+        "research_domain": "russia_relations",
+        "semantic_family_id": "russia_security",
+        "aliases": [
+          "Военно-техническое партнёрство с Россией",
+          "Российское сотрудничество в сфере безопасности"
+        ],
+        "anchors": {
+          "0": "Нет выраженности при достаточных сведениях",
+          "3": "Устойчиво заметно",
+          "5": "Определяющая черта публичного образа"
+        },
+        "parent_scale_id": "russia-security-cooperation",
+        "parent_scale_name": "Оборонное сотрудничество с Россией",
+        "pole": "negative",
+        "kind": "unipolar"
+      },
+      "russia-economic-technology-cooperation__positive": {
+        "id": "russia-economic-technology-cooperation__positive",
+        "name": "Развитие экономических и технологических проектов с Россией",
+        "positive": "Развитие экономических и технологических проектов с Россией",
+        "negative": "",
+        "definition": "Названные публичные действия или предложения по торговле, инвестициям, энергетике, гражданским ядерным технологиям, медицине и другим хозяйственным проектам с российским партнёром либо по их ограничению. Поддержка атомной энергетики вообще не равна поддержке российского поставщика. Отдельно различать намерение, подписанное соглашение, финансирование и реализованный результат. Образовательные обмены относятся к отдельной шкале.",
+        "research_domain": "russia_relations",
+        "semantic_family_id": "russia_economy_technology",
+        "aliases": [
+          "Экономическое партнёрство с Россией",
+          "Гражданские технологические проекты с Россией"
+        ],
+        "anchors": {
+          "0": "Нет выраженности при достаточных сведениях",
+          "3": "Устойчиво заметно",
+          "5": "Определяющая черта публичного образа"
+        },
+        "parent_scale_id": "russia-economic-technology-cooperation",
+        "parent_scale_name": "Хозяйственное и технологическое сотрудничество с Россией",
+        "pole": "positive",
+        "kind": "unipolar"
+      },
+      "russia-economic-technology-cooperation__negative": {
+        "id": "russia-economic-technology-cooperation__negative",
+        "name": "Ограничение экономических и технологических проектов с Россией",
+        "positive": "Ограничение экономических и технологических проектов с Россией",
+        "negative": "",
+        "definition": "Названные публичные действия или предложения по торговле, инвестициям, энергетике, гражданским ядерным технологиям, медицине и другим хозяйственным проектам с российским партнёром либо по их ограничению. Поддержка атомной энергетики вообще не равна поддержке российского поставщика. Отдельно различать намерение, подписанное соглашение, финансирование и реализованный результат. Образовательные обмены относятся к отдельной шкале.",
+        "research_domain": "russia_relations",
+        "semantic_family_id": "russia_economy_technology",
+        "aliases": [
+          "Экономическое партнёрство с Россией",
+          "Гражданские технологические проекты с Россией"
+        ],
+        "anchors": {
+          "0": "Нет выраженности при достаточных сведениях",
+          "3": "Устойчиво заметно",
+          "5": "Определяющая черта публичного образа"
+        },
+        "parent_scale_id": "russia-economic-technology-cooperation",
+        "parent_scale_name": "Хозяйственное и технологическое сотрудничество с Россией",
+        "pole": "negative",
+        "kind": "unipolar"
+      },
+      "russia-education-cultural-cooperation__positive": {
+        "id": "russia-education-cultural-cooperation__positive",
+        "name": "Расширение образовательных и культурных обменов с Россией",
+        "positive": "Расширение образовательных и культурных обменов с Россией",
+        "negative": "",
+        "definition": "Персонифицированные действия или публичные предложения о стипендиях, обучении гражданских специалистов, языковых, научных и культурных обменах с Россией либо об их ограничении. Собственное обучение в СССР или России не считается текущей политической позицией. Военное обучение относится к оборонной шкале. Если один документ касается нескольких сфер, сохранять один event_id и не считать пересказы независимыми событиями.",
+        "research_domain": "russia_relations",
+        "semantic_family_id": "russia_education_culture",
+        "aliases": [
+          "Гуманитарное сотрудничество с Россией",
+          "Образовательные обмены с Россией"
+        ],
+        "anchors": {
+          "0": "Нет выраженности при достаточных сведениях",
+          "3": "Устойчиво заметно",
+          "5": "Определяющая черта публичного образа"
+        },
+        "parent_scale_id": "russia-education-cultural-cooperation",
+        "parent_scale_name": "Образовательные и культурные связи с Россией",
+        "pole": "positive",
+        "kind": "unipolar"
+      },
+      "russia-education-cultural-cooperation__negative": {
+        "id": "russia-education-cultural-cooperation__negative",
+        "name": "Ограничение образовательных и культурных обменов с Россией",
+        "positive": "Ограничение образовательных и культурных обменов с Россией",
+        "negative": "",
+        "definition": "Персонифицированные действия или публичные предложения о стипендиях, обучении гражданских специалистов, языковых, научных и культурных обменах с Россией либо об их ограничении. Собственное обучение в СССР или России не считается текущей политической позицией. Военное обучение относится к оборонной шкале. Если один документ касается нескольких сфер, сохранять один event_id и не считать пересказы независимыми событиями.",
+        "research_domain": "russia_relations",
+        "semantic_family_id": "russia_education_culture",
+        "aliases": [
+          "Гуманитарное сотрудничество с Россией",
+          "Образовательные обмены с Россией"
+        ],
+        "anchors": {
+          "0": "Нет выраженности при достаточных сведениях",
+          "3": "Устойчиво заметно",
+          "5": "Определяющая черта публичного образа"
+        },
+        "parent_scale_id": "russia-education-cultural-cooperation",
+        "parent_scale_name": "Образовательные и культурные связи с Россией",
+        "pole": "negative",
+        "kind": "unipolar"
+      },
+      "russia-conflict-policy-evaluation__positive": {
+        "id": "russia-conflict-policy-evaluation__positive",
+        "name": "Публичное оправдание конкретных внешнеполитических действий России",
+        "positive": "Публичное оправдание конкретных внешнеполитических действий России",
+        "negative": "",
+        "definition": "Прямо названные оценки действий России в международных конфликтах и вопросах суверенитета, с обязательными указанием события, даты и точного говорящего. Позиции могут различаться по Украине, Африке и другим случаям; сохранять контекст и противоречия. Защита права Африки выбирать партнёров не равна одобрению российского вторжения. Голосование государства в ООН не переносится на каждого политика; персональное заявление делегата отражает его публичное служебное действие, а не частное убеждение.",
+        "research_domain": "russia_relations",
+        "semantic_family_id": "russia_foreign_actions",
+        "aliases": [
+          "Оценка российской внешней политики",
+          "Оценка действий России в конфликтах"
+        ],
+        "anchors": {
+          "0": "Нет выраженности при достаточных сведениях",
+          "3": "Устойчиво заметно",
+          "5": "Определяющая черта публичного образа"
+        },
+        "parent_scale_id": "russia-conflict-policy-evaluation",
+        "parent_scale_name": "Оценка внешнеполитических действий России",
+        "pole": "positive",
+        "kind": "unipolar"
+      },
+      "russia-conflict-policy-evaluation__negative": {
+        "id": "russia-conflict-policy-evaluation__negative",
+        "name": "Публичная критика конкретных внешнеполитических действий России",
+        "positive": "Публичная критика конкретных внешнеполитических действий России",
+        "negative": "",
+        "definition": "Прямо названные оценки действий России в международных конфликтах и вопросах суверенитета, с обязательными указанием события, даты и точного говорящего. Позиции могут различаться по Украине, Африке и другим случаям; сохранять контекст и противоречия. Защита права Африки выбирать партнёров не равна одобрению российского вторжения. Голосование государства в ООН не переносится на каждого политика; персональное заявление делегата отражает его публичное служебное действие, а не частное убеждение.",
+        "research_domain": "russia_relations",
+        "semantic_family_id": "russia_foreign_actions",
+        "aliases": [
+          "Оценка российской внешней политики",
+          "Оценка действий России в конфликтах"
+        ],
+        "anchors": {
+          "0": "Нет выраженности при достаточных сведениях",
+          "3": "Устойчиво заметно",
+          "5": "Определяющая черта публичного образа"
+        },
+        "parent_scale_id": "russia-conflict-policy-evaluation",
+        "parent_scale_name": "Оценка внешнеполитических действий России",
+        "pole": "negative",
+        "kind": "unipolar"
+      },
+      "russia-isolation-sanctions__positive": {
+        "id": "russia-isolation-sanctions__positive",
+        "name": "Противодействие санкциям и изоляции России",
+        "positive": "Противодействие санкциям и изоляции России",
+        "negative": "",
+        "definition": "Прямые персонифицированные предложения, действия или слова о санкциях, исключении из международных форматов и иных мерах изоляции именно России. Обычная встреча с российским представителем, критика санкций против Руанды, неприсоединение государства к санкциям без личного действия и общая риторика суверенитета не являются достаточным основанием. Это отдельный вопрос о политическом инструменте, а не повтор оценки правомерности конкретного российского действия.",
+        "research_domain": "russia_relations",
+        "semantic_family_id": "russia_sanctions_isolation",
+        "aliases": [
+          "Меры изоляции России",
+          "Отношение к санкциям против России"
+        ],
+        "anchors": {
+          "0": "Нет выраженности при достаточных сведениях",
+          "3": "Устойчиво заметно",
+          "5": "Определяющая черта публичного образа"
+        },
+        "parent_scale_id": "russia-isolation-sanctions",
+        "parent_scale_name": "Санкции и международная изоляция России",
+        "pole": "positive",
+        "kind": "unipolar"
+      },
+      "russia-isolation-sanctions__negative": {
+        "id": "russia-isolation-sanctions__negative",
+        "name": "Поддержка санкций и изоляции России",
+        "positive": "Поддержка санкций и изоляции России",
+        "negative": "",
+        "definition": "Прямые персонифицированные предложения, действия или слова о санкциях, исключении из международных форматов и иных мерах изоляции именно России. Обычная встреча с российским представителем, критика санкций против Руанды, неприсоединение государства к санкциям без личного действия и общая риторика суверенитета не являются достаточным основанием. Это отдельный вопрос о политическом инструменте, а не повтор оценки правомерности конкретного российского действия.",
+        "research_domain": "russia_relations",
+        "semantic_family_id": "russia_sanctions_isolation",
+        "aliases": [
+          "Меры изоляции России",
+          "Отношение к санкциям против России"
+        ],
+        "anchors": {
+          "0": "Нет выраженности при достаточных сведениях",
+          "3": "Устойчиво заметно",
+          "5": "Определяющая черта публичного образа"
+        },
+        "parent_scale_id": "russia-isolation-sanctions",
+        "parent_scale_name": "Санкции и международная изоляция России",
+        "pole": "negative",
+        "kind": "unipolar"
+      }
+    },
+    "retained_ids": [],
+    "excluded_ids": [
+      "russia-diplomatic-engagement__positive",
+      "russia-diplomatic-engagement__negative",
+      "russia-security-cooperation__positive",
+      "russia-security-cooperation__negative",
+      "russia-economic-technology-cooperation__positive",
+      "russia-economic-technology-cooperation__negative",
+      "russia-education-cultural-cooperation__positive",
+      "russia-education-cultural-cooperation__negative",
+      "russia-conflict-policy-evaluation__positive",
+      "russia-conflict-policy-evaluation__negative",
+      "russia-isolation-sanctions__positive",
+      "russia-isolation-sanctions__negative"
+    ],
+    "configured_family_count": 6,
+    "retained_family_count": 0,
+    "measurement_scope": "insufficient_measurement",
+    "unmeasured_families": [
+      "russia_diplomacy",
+      "russia_economy_technology",
+      "russia_education_culture",
+      "russia_foreign_actions",
+      "russia_sanctions_isolation",
+      "russia_security"
+    ],
+    "status": "insufficient_measurement",
+    "evidence_audit": "pending",
+    "scale_coverage": [
+      {
+        "id": "russia-diplomatic-engagement__positive",
+        "name": "Расширение дипломатического сотрудничества с Россией",
+        "semantic_family_id": "russia_diplomacy",
+        "retained": false,
+        "observed_count": 2,
+        "observed_input_count": 2,
+        "exclusion_reason": "constant_or_insufficient_observations"
+      },
+      {
+        "id": "russia-diplomatic-engagement__negative",
+        "name": "Дипломатическое дистанцирование от России",
+        "semantic_family_id": "russia_diplomacy",
+        "retained": false,
+        "observed_count": 0,
+        "observed_input_count": 0,
+        "exclusion_reason": "constant_or_insufficient_observations"
+      },
+      {
+        "id": "russia-security-cooperation__positive",
+        "name": "Развитие военно-технического сотрудничества с Россией",
+        "semantic_family_id": "russia_security",
+        "retained": false,
+        "observed_count": 2,
+        "observed_input_count": 2,
+        "exclusion_reason": "constant_or_insufficient_observations"
+      },
+      {
+        "id": "russia-security-cooperation__negative",
+        "name": "Ограничение военно-технического сотрудничества с Россией",
+        "semantic_family_id": "russia_security",
+        "retained": false,
+        "observed_count": 0,
+        "observed_input_count": 0,
+        "exclusion_reason": "constant_or_insufficient_observations"
+      },
+      {
+        "id": "russia-economic-technology-cooperation__positive",
+        "name": "Развитие экономических и технологических проектов с Россией",
+        "semantic_family_id": "russia_economy_technology",
+        "retained": false,
+        "observed_count": 3,
+        "observed_input_count": 3,
+        "exclusion_reason": "constant_or_insufficient_observations"
+      },
+      {
+        "id": "russia-economic-technology-cooperation__negative",
+        "name": "Ограничение экономических и технологических проектов с Россией",
+        "semantic_family_id": "russia_economy_technology",
+        "retained": false,
+        "observed_count": 0,
+        "observed_input_count": 0,
+        "exclusion_reason": "constant_or_insufficient_observations"
+      },
+      {
+        "id": "russia-education-cultural-cooperation__positive",
+        "name": "Расширение образовательных и культурных обменов с Россией",
+        "semantic_family_id": "russia_education_culture",
+        "retained": false,
+        "observed_count": 3,
+        "observed_input_count": 3,
+        "exclusion_reason": "constant_or_insufficient_observations"
+      },
+      {
+        "id": "russia-education-cultural-cooperation__negative",
+        "name": "Ограничение образовательных и культурных обменов с Россией",
+        "semantic_family_id": "russia_education_culture",
+        "retained": false,
+        "observed_count": 0,
+        "observed_input_count": 0,
+        "exclusion_reason": "constant_or_insufficient_observations"
+      },
+      {
+        "id": "russia-conflict-policy-evaluation__positive",
+        "name": "Публичное оправдание конкретных внешнеполитических действий России",
+        "semantic_family_id": "russia_foreign_actions",
+        "retained": false,
+        "observed_count": 0,
+        "observed_input_count": 0,
+        "exclusion_reason": "constant_or_insufficient_observations"
+      },
+      {
+        "id": "russia-conflict-policy-evaluation__negative",
+        "name": "Публичная критика конкретных внешнеполитических действий России",
+        "semantic_family_id": "russia_foreign_actions",
+        "retained": false,
+        "observed_count": 2,
+        "observed_input_count": 2,
+        "exclusion_reason": "constant_or_insufficient_observations"
+      },
+      {
+        "id": "russia-isolation-sanctions__positive",
+        "name": "Противодействие санкциям и изоляции России",
+        "semantic_family_id": "russia_sanctions_isolation",
+        "retained": false,
+        "observed_count": 0,
+        "observed_input_count": 0,
+        "exclusion_reason": "constant_or_insufficient_observations"
+      },
+      {
+        "id": "russia-isolation-sanctions__negative",
+        "name": "Поддержка санкций и изоляции России",
+        "semantic_family_id": "russia_sanctions_isolation",
+        "retained": false,
+        "observed_count": 0,
+        "observed_input_count": 0,
+        "exclusion_reason": "constant_or_insufficient_observations"
+      }
+    ],
+    "pairwise_observed_counts": {},
+    "candidates": [],
+    "mandatory_report_refs": [],
+    "warnings": [
+      "Российская тема измерена недостаточно: осталось менее двух семантических семей. Успешная общая FA не позволяет утверждать ни наличие, ни отсутствие российского фактора."
+    ]
+  },
+  "diagnostics": {
+    "observed_input_ratings": 545,
+    "difference_only_ratings": 0,
+    "measurement_model": "independent_poles",
+    "input_scale_definitions": 24,
+    "analytical_variable_count": 48,
+    "input_objects": 42,
+    "input_scales": 48,
+    "total_input_cells": 2016,
+    "unknown_input_cells": 1471,
+    "input_coverage": 0.27033730158730157,
+    "retained_objects": 34,
+    "retained_scales": 7,
+    "retained_object_ids": [
+      "paul-kagame",
+      "edouard-ngirente",
+      "justin-nsengiyumva",
+      "vincent-biruta",
+      "olivier-nduhungirehe",
+      "james-kabarebe",
+      "juvenal-marizamunda",
+      "albert-murasira",
+      "emmanuel-ugirashebuja",
+      "yusuf-murangwa",
+      "uzziel-ndagijimana",
+      "paula-ingabire",
+      "sabin-nsanzimana",
+      "judith-uwizeye",
+      "valentine-uwamariya",
+      "jeanne-darc-mujawamariya",
+      "gerardine-mukeshimana",
+      "ildephonse-musafiri",
+      "jean-claude-musabyimana",
+      "jean-damascene-bizimana",
+      "clare-akamanzi",
+      "francis-gatare",
+      "gertrude-kazarwa",
+      "donatille-mukabalisa",
+      "francois-xavier-kalinda",
+      "augustin-iyamuremye",
+      "alvera-mukabaramba",
+      "pudence-rubingisa",
+      "samuel-dusengiyumva",
+      "frank-habineza",
+      "diane-rwigara",
+      "louise-mushikiwabo",
+      "claver-gatete",
+      "valentine-rugwabiza"
+    ],
+    "retained_scale_ids": [
+      "programmatic-renewal__negative",
+      "government-course-assessment__positive",
+      "participation-administrative-direction__negative",
+      "argumentation-evidence-values__negative",
+      "accessibility-growth-priorities__positive",
+      "problem-disclosure-reputation-defence__positive",
+      "prevention-crisis-response__positive"
+    ],
+    "input_object_coverage": [
+      {
+        "id": "paul-kagame",
+        "name": "Поль Кагаме",
+        "observed_scales": 12,
+        "total_scales": 48,
+        "coverage": 0.25,
+        "retained": true
+      },
+      {
+        "id": "edouard-ngirente",
+        "name": "Эдуар Нгиренте",
+        "observed_scales": 18,
+        "total_scales": 48,
+        "coverage": 0.375,
+        "retained": true
+      },
+      {
+        "id": "justin-nsengiyumva",
+        "name": "Жюстен Нсенгийюмва",
+        "observed_scales": 18,
+        "total_scales": 48,
+        "coverage": 0.375,
+        "retained": true
+      },
+      {
+        "id": "vincent-biruta",
+        "name": "Венсан Бирута",
+        "observed_scales": 17,
+        "total_scales": 48,
+        "coverage": 0.3541666666666667,
+        "retained": true
+      },
+      {
+        "id": "olivier-nduhungirehe",
+        "name": "Оливье Ндухунгирехе",
+        "observed_scales": 18,
+        "total_scales": 48,
+        "coverage": 0.375,
+        "retained": true
+      },
+      {
+        "id": "james-kabarebe",
+        "name": "Джеймс Кабаребе",
+        "observed_scales": 13,
+        "total_scales": 48,
+        "coverage": 0.2708333333333333,
+        "retained": true
+      },
+      {
+        "id": "juvenal-marizamunda",
+        "name": "Жювеналь Маризамунда",
+        "observed_scales": 13,
+        "total_scales": 48,
+        "coverage": 0.2708333333333333,
+        "retained": true
+      },
+      {
+        "id": "albert-murasira",
+        "name": "Альбер Мурасира",
+        "observed_scales": 12,
+        "total_scales": 48,
+        "coverage": 0.25,
+        "retained": true
+      },
+      {
+        "id": "emmanuel-ugirashebuja",
+        "name": "Эмманюэль Угирасебуджа",
+        "observed_scales": 19,
+        "total_scales": 48,
+        "coverage": 0.3958333333333333,
+        "retained": true
+      },
+      {
+        "id": "yusuf-murangwa",
+        "name": "Юсуф Мурангва",
+        "observed_scales": 17,
+        "total_scales": 48,
+        "coverage": 0.3541666666666667,
+        "retained": true
+      },
+      {
+        "id": "uzziel-ndagijimana",
+        "name": "Уззиэль Ндагиджимана",
+        "observed_scales": 16,
+        "total_scales": 48,
+        "coverage": 0.3333333333333333,
+        "retained": true
+      },
+      {
+        "id": "paula-ingabire",
+        "name": "Паула Ингабире",
+        "observed_scales": 17,
+        "total_scales": 48,
+        "coverage": 0.3541666666666667,
+        "retained": true
+      },
+      {
+        "id": "sabin-nsanzimana",
+        "name": "Сабин Нсанзимана",
+        "observed_scales": 18,
+        "total_scales": 48,
+        "coverage": 0.375,
+        "retained": true
+      },
+      {
+        "id": "judith-uwizeye",
+        "name": "Жюдит Увизейе",
+        "observed_scales": 9,
+        "total_scales": 48,
+        "coverage": 0.1875,
+        "retained": true
+      },
+      {
+        "id": "ines-mpambara",
+        "name": "Инес Мпамбара",
+        "observed_scales": 5,
+        "total_scales": 48,
+        "coverage": 0.10416666666666667,
+        "retained": false
+      },
+      {
+        "id": "valentine-uwamariya",
+        "name": "Валентин Увамария",
+        "observed_scales": 18,
+        "total_scales": 48,
+        "coverage": 0.375,
+        "retained": true
+      },
+      {
+        "id": "jeanne-darc-mujawamariya",
+        "name": "Жанна д’Арк Муджавамария",
+        "observed_scales": 16,
+        "total_scales": 48,
+        "coverage": 0.3333333333333333,
+        "retained": true
+      },
+      {
+        "id": "gerardine-mukeshimana",
+        "name": "Жерардин Мукешимана",
+        "observed_scales": 9,
+        "total_scales": 48,
+        "coverage": 0.1875,
+        "retained": true
+      },
+      {
+        "id": "ildephonse-musafiri",
+        "name": "Ильдефонс Мусафири",
+        "observed_scales": 17,
+        "total_scales": 48,
+        "coverage": 0.3541666666666667,
+        "retained": true
+      },
+      {
+        "id": "jean-claude-musabyimana",
+        "name": "Жан-Клод Мусабийимана",
+        "observed_scales": 16,
+        "total_scales": 48,
+        "coverage": 0.3333333333333333,
+        "retained": true
+      },
+      {
+        "id": "jean-damascene-bizimana",
+        "name": "Жан-Дамасен Бизимана",
+        "observed_scales": 11,
+        "total_scales": 48,
+        "coverage": 0.22916666666666666,
+        "retained": true
+      },
+      {
+        "id": "clare-akamanzi",
+        "name": "Клэр Акаманзи",
+        "observed_scales": 13,
+        "total_scales": 48,
+        "coverage": 0.2708333333333333,
+        "retained": true
+      },
+      {
+        "id": "francis-gatare",
+        "name": "Франсис Гатаре",
+        "observed_scales": 7,
+        "total_scales": 48,
+        "coverage": 0.14583333333333334,
+        "retained": true
+      },
+      {
+        "id": "gertrude-kazarwa",
+        "name": "Гертруда Казарва",
+        "observed_scales": 11,
+        "total_scales": 48,
+        "coverage": 0.22916666666666666,
+        "retained": true
+      },
+      {
+        "id": "donatille-mukabalisa",
+        "name": "Донатиль Мукабалиса",
+        "observed_scales": 9,
+        "total_scales": 48,
+        "coverage": 0.1875,
+        "retained": true
+      },
+      {
+        "id": "francois-xavier-kalinda",
+        "name": "Франсуа-Ксавье Калинда",
+        "observed_scales": 10,
+        "total_scales": 48,
+        "coverage": 0.20833333333333334,
+        "retained": true
+      },
+      {
+        "id": "augustin-iyamuremye",
+        "name": "Огюстен Иямуремье",
+        "observed_scales": 9,
+        "total_scales": 48,
+        "coverage": 0.1875,
+        "retained": true
+      },
+      {
+        "id": "alvera-mukabaramba",
+        "name": "Альвера Мукабарамба",
+        "observed_scales": 12,
+        "total_scales": 48,
+        "coverage": 0.25,
+        "retained": true
+      },
+      {
+        "id": "mussa-fazil-harerimana",
+        "name": "Мусса Фазиль Хареримана",
+        "observed_scales": 8,
+        "total_scales": 48,
+        "coverage": 0.16666666666666666,
+        "retained": false
+      },
+      {
+        "id": "pudence-rubingisa",
+        "name": "Пуденс Рубингиса",
+        "observed_scales": 17,
+        "total_scales": 48,
+        "coverage": 0.3541666666666667,
+        "retained": true
+      },
+      {
+        "id": "samuel-dusengiyumva",
+        "name": "Самуэль Дусенгийюмва",
+        "observed_scales": 18,
+        "total_scales": 48,
+        "coverage": 0.375,
+        "retained": true
+      },
+      {
+        "id": "frank-habineza",
+        "name": "Франк Хабинеза",
+        "observed_scales": 19,
+        "total_scales": 48,
+        "coverage": 0.3958333333333333,
+        "retained": true
+      },
+      {
+        "id": "philippe-mpayimana",
+        "name": "Филипп Мпайимана",
+        "observed_scales": 7,
+        "total_scales": 48,
+        "coverage": 0.14583333333333334,
+        "retained": false
+      },
+      {
+        "id": "victoire-ingabire",
+        "name": "Виктуар Ингабире Умухоза",
+        "observed_scales": 14,
+        "total_scales": 48,
+        "coverage": 0.2916666666666667,
+        "retained": false
+      },
+      {
+        "id": "diane-rwigara",
+        "name": "Диана Рвигара",
+        "observed_scales": 9,
+        "total_scales": 48,
+        "coverage": 0.1875,
+        "retained": true
+      },
+      {
+        "id": "bernard-ntaganda",
+        "name": "Бернар Нтаганда",
+        "observed_scales": 9,
+        "total_scales": 48,
+        "coverage": 0.1875,
+        "retained": false
+      },
+      {
+        "id": "christopher-kayumba",
+        "name": "Кристофер Каюмба",
+        "observed_scales": 3,
+        "total_scales": 48,
+        "coverage": 0.0625,
+        "retained": false
+      },
+      {
+        "id": "paul-rusesabagina",
+        "name": "Поль Русесабагина",
+        "observed_scales": 5,
+        "total_scales": 48,
+        "coverage": 0.10416666666666667,
+        "retained": false
+      },
+      {
+        "id": "kayumba-nyamwasa",
+        "name": "Фостен Каюмба Ньямваса",
+        "observed_scales": 3,
+        "total_scales": 48,
+        "coverage": 0.0625,
+        "retained": false
+      },
+      {
+        "id": "louise-mushikiwabo",
+        "name": "Луиза Мушикивабо",
+        "observed_scales": 15,
+        "total_scales": 48,
+        "coverage": 0.3125,
+        "retained": true
+      },
+      {
+        "id": "claver-gatete",
+        "name": "Клавер Гатете",
+        "observed_scales": 20,
+        "total_scales": 48,
+        "coverage": 0.4166666666666667,
+        "retained": true
+      },
+      {
+        "id": "valentine-rugwabiza",
+        "name": "Валентин Ругвабиза",
+        "observed_scales": 18,
+        "total_scales": 48,
+        "coverage": 0.375,
+        "retained": true
+      }
+    ],
+    "input_scale_coverage": [
+      {
+        "id": "programmatic-renewal__positive",
+        "name": "Программное изменение существующего курса",
+        "observed_objects": 24,
+        "observed_retained_objects": 22,
+        "total_objects": 42,
+        "coverage": 0.5714285714285714,
+        "retained": false
+      },
+      {
+        "id": "programmatic-renewal__negative",
+        "name": "Продолжение и закрепление действующего курса",
+        "observed_objects": 32,
+        "observed_retained_objects": 30,
+        "total_objects": 42,
+        "coverage": 0.7619047619047619,
+        "retained": true
+      },
+      {
+        "id": "government-course-assessment__positive",
+        "name": "Публичная поддержка действующего государственного курса",
+        "observed_objects": 27,
+        "observed_retained_objects": 26,
+        "total_objects": 42,
+        "coverage": 0.6428571428571429,
+        "retained": true
+      },
+      {
+        "id": "government-course-assessment__negative",
+        "name": "Публичная критика действующего государственного курса",
+        "observed_objects": 6,
+        "observed_retained_objects": 3,
+        "total_objects": 42,
+        "coverage": 0.14285714285714285,
+        "retained": false
+      },
+      {
+        "id": "participation-administrative-direction__positive",
+        "name": "Совместное обсуждение и общественный контроль решений",
+        "observed_objects": 16,
+        "observed_retained_objects": 14,
+        "total_objects": 42,
+        "coverage": 0.38095238095238093,
+        "retained": false
+      },
+      {
+        "id": "participation-administrative-direction__negative",
+        "name": "Административная постановка задач и контроль исполнения",
+        "observed_objects": 31,
+        "observed_retained_objects": 30,
+        "total_objects": 42,
+        "coverage": 0.7380952380952381,
+        "retained": true
+      },
+      {
+        "id": "argumentation-evidence-values__positive",
+        "name": "Обоснование через данные, расчёты и проверяемые результаты",
+        "observed_objects": 19,
+        "observed_retained_objects": 19,
+        "total_objects": 42,
+        "coverage": 0.4523809523809524,
+        "retained": false
+      },
+      {
+        "id": "argumentation-evidence-values__negative",
+        "name": "Обоснование через ценности, память и коллективные символы",
+        "observed_objects": 36,
+        "observed_retained_objects": 29,
+        "total_objects": 42,
+        "coverage": 0.8571428571428571,
+        "retained": true
+      },
+      {
+        "id": "market-state-instruments__positive",
+        "name": "Расширение частной инициативы и управления",
+        "observed_objects": 16,
+        "observed_retained_objects": 15,
+        "total_objects": 42,
+        "coverage": 0.38095238095238093,
+        "retained": false
+      },
+      {
+        "id": "market-state-instruments__negative",
+        "name": "Расширение государственного планирования и обязательных правил",
+        "observed_objects": 20,
+        "observed_retained_objects": 19,
+        "total_objects": 42,
+        "coverage": 0.47619047619047616,
+        "retained": false
+      },
+      {
+        "id": "accessibility-growth-priorities__positive",
+        "name": "Расширение доступности базовых благ для населения",
+        "observed_objects": 34,
+        "observed_retained_objects": 31,
+        "total_objects": 42,
+        "coverage": 0.8095238095238095,
+        "retained": true
+      },
+      {
+        "id": "accessibility-growth-priorities__negative",
+        "name": "Рост инвестиций, конкурентоспособности и деловой активности",
+        "observed_objects": 25,
+        "observed_retained_objects": 24,
+        "total_objects": 42,
+        "coverage": 0.5952380952380952,
+        "retained": false
+      },
+      {
+        "id": "external-domestic-resources__positive",
+        "name": "Привлечение внешнего финансирования и ресурсных партнёров",
+        "observed_objects": 14,
+        "observed_retained_objects": 14,
+        "total_objects": 42,
+        "coverage": 0.3333333333333333,
+        "retained": false
+      },
+      {
+        "id": "external-domestic-resources__negative",
+        "name": "Опора на внутренние доходы и хозяйственную самостоятельность",
+        "observed_objects": 5,
+        "observed_retained_objects": 5,
+        "total_objects": 42,
+        "coverage": 0.11904761904761904,
+        "retained": false
+      },
+      {
+        "id": "international-rules-autonomy__positive",
+        "name": "Закрепление общих международных обязательств",
+        "observed_objects": 17,
+        "observed_retained_objects": 17,
+        "total_objects": 42,
+        "coverage": 0.40476190476190477,
+        "retained": false
+      },
+      {
+        "id": "international-rules-autonomy__negative",
+        "name": "Защита национальной самостоятельности решений",
+        "observed_objects": 3,
+        "observed_retained_objects": 3,
+        "total_objects": 42,
+        "coverage": 0.07142857142857142,
+        "retained": false
+      },
+      {
+        "id": "mediation-adversarial-communication__positive",
+        "name": "Посредничество, переговоры и поиск согласования",
+        "observed_objects": 15,
+        "observed_retained_objects": 13,
+        "total_objects": 42,
+        "coverage": 0.35714285714285715,
+        "retained": false
+      },
+      {
+        "id": "mediation-adversarial-communication__negative",
+        "name": "Полемическое оспаривание и защита собственной стороны",
+        "observed_objects": 18,
+        "observed_retained_objects": 13,
+        "total_objects": 42,
+        "coverage": 0.42857142857142855,
+        "retained": false
+      },
+      {
+        "id": "cultural-openness-national-transmission__positive",
+        "name": "Расширение межкультурного обмена и разнообразия",
+        "observed_objects": 3,
+        "observed_retained_objects": 3,
+        "total_objects": 42,
+        "coverage": 0.07142857142857142,
+        "retained": false
+      },
+      {
+        "id": "cultural-openness-national-transmission__negative",
+        "name": "Сохранение и передача национальных ценностей",
+        "observed_objects": 14,
+        "observed_retained_objects": 11,
+        "total_objects": 42,
+        "coverage": 0.3333333333333333,
+        "retained": false
+      },
+      {
+        "id": "problem-disclosure-reputation-defence__positive",
+        "name": "Публичное раскрытие проблем и недостатков исполнения",
+        "observed_objects": 32,
+        "observed_retained_objects": 27,
+        "total_objects": 42,
+        "coverage": 0.7619047619047619,
+        "retained": true
+      },
+      {
+        "id": "problem-disclosure-reputation-defence__negative",
+        "name": "Защитное продвижение репутации страны или своей политики",
+        "observed_objects": 11,
+        "observed_retained_objects": 9,
+        "total_objects": 42,
+        "coverage": 0.2619047619047619,
+        "retained": false
+      },
+      {
+        "id": "procedural-guarantees-enforcement__positive",
+        "name": "Расширение возможностей защиты и обжалования",
+        "observed_objects": 7,
+        "observed_retained_objects": 4,
+        "total_objects": 42,
+        "coverage": 0.16666666666666666,
+        "retained": false
+      },
+      {
+        "id": "procedural-guarantees-enforcement__negative",
+        "name": "Принудительное обеспечение обязательных требований",
+        "observed_objects": 7,
+        "observed_retained_objects": 5,
+        "total_objects": 42,
+        "coverage": 0.16666666666666666,
+        "retained": false
+      },
+      {
+        "id": "prevention-crisis-response__positive",
+        "name": "Упреждающее снижение рисков и подготовка",
+        "observed_objects": 29,
+        "observed_retained_objects": 27,
+        "total_objects": 42,
+        "coverage": 0.6904761904761905,
+        "retained": true
+      },
+      {
+        "id": "prevention-crisis-response__negative",
+        "name": "Оперативное реагирование на возникшую угрозу",
+        "observed_objects": 4,
+        "observed_retained_objects": 4,
+        "total_objects": 42,
+        "coverage": 0.09523809523809523,
+        "retained": false
+      },
+      {
+        "id": "electoral-access__positive",
+        "name": "Расширение доступа к выборной конкуренции",
+        "observed_objects": 7,
+        "observed_retained_objects": 4,
+        "total_objects": 42,
+        "coverage": 0.16666666666666666,
+        "retained": false
+      },
+      {
+        "id": "electoral-access__negative",
+        "name": "Усиление квалификационных барьеров политического участия",
+        "observed_objects": 0,
+        "observed_retained_objects": 0,
+        "total_objects": 42,
+        "coverage": 0.0,
+        "retained": false
+      },
+      {
+        "id": "institutional-autonomy-coordination__positive",
+        "name": "Гарантии самостоятельности и контроля между институтами",
+        "observed_objects": 6,
+        "observed_retained_objects": 4,
+        "total_objects": 42,
+        "coverage": 0.14285714285714285,
+        "retained": false
+      },
+      {
+        "id": "institutional-autonomy-coordination__negative",
+        "name": "Согласование работы институтов единой управленческой линией",
+        "observed_objects": 19,
+        "observed_retained_objects": 19,
+        "total_objects": 42,
+        "coverage": 0.4523809523809524,
+        "retained": false
+      },
+      {
+        "id": "taxation-burden-public-revenue__positive",
+        "name": "Снижение налоговой нагрузки и расширение имущественной самостоятельности",
+        "observed_objects": 2,
+        "observed_retained_objects": 2,
+        "total_objects": 42,
+        "coverage": 0.047619047619047616,
+        "retained": false
+      },
+      {
+        "id": "taxation-burden-public-revenue__negative",
+        "name": "Увеличение налоговых поступлений для публичного развития",
+        "observed_objects": 1,
+        "observed_retained_objects": 1,
+        "total_objects": 42,
+        "coverage": 0.023809523809523808,
+        "retained": false
+      },
+      {
+        "id": "universal-targeted-provision__positive",
+        "name": "Единые стандарты доступности благ для всего населения",
+        "observed_objects": 8,
+        "observed_retained_objects": 7,
+        "total_objects": 42,
+        "coverage": 0.19047619047619047,
+        "retained": false
+      },
+      {
+        "id": "universal-targeted-provision__negative",
+        "name": "Приоритетная помощь конкретным недостаточно обеспеченным группам",
+        "observed_objects": 17,
+        "observed_retained_objects": 17,
+        "total_objects": 42,
+        "coverage": 0.40476190476190477,
+        "retained": false
+      },
+      {
+        "id": "ecological-limits-resource-use__positive",
+        "name": "Усиление природоохранных ограничений хозяйственной деятельности",
+        "observed_objects": 7,
+        "observed_retained_objects": 7,
+        "total_objects": 42,
+        "coverage": 0.16666666666666666,
+        "retained": false
+      },
+      {
+        "id": "ecological-limits-resource-use__negative",
+        "name": "Расширение хозяйственного использования природных ресурсов",
+        "observed_objects": 1,
+        "observed_retained_objects": 1,
+        "total_objects": 42,
+        "coverage": 0.023809523809523808,
+        "retained": false
+      },
+      {
+        "id": "russia-diplomatic-engagement__positive",
+        "name": "Расширение дипломатического сотрудничества с Россией",
+        "observed_objects": 2,
+        "observed_retained_objects": 2,
+        "total_objects": 42,
+        "coverage": 0.047619047619047616,
+        "retained": false
+      },
+      {
+        "id": "russia-diplomatic-engagement__negative",
+        "name": "Дипломатическое дистанцирование от России",
+        "observed_objects": 0,
+        "observed_retained_objects": 0,
+        "total_objects": 42,
+        "coverage": 0.0,
+        "retained": false
+      },
+      {
+        "id": "russia-security-cooperation__positive",
+        "name": "Развитие военно-технического сотрудничества с Россией",
+        "observed_objects": 2,
+        "observed_retained_objects": 2,
+        "total_objects": 42,
+        "coverage": 0.047619047619047616,
+        "retained": false
+      },
+      {
+        "id": "russia-security-cooperation__negative",
+        "name": "Ограничение военно-технического сотрудничества с Россией",
+        "observed_objects": 0,
+        "observed_retained_objects": 0,
+        "total_objects": 42,
+        "coverage": 0.0,
+        "retained": false
+      },
+      {
+        "id": "russia-economic-technology-cooperation__positive",
+        "name": "Развитие экономических и технологических проектов с Россией",
+        "observed_objects": 3,
+        "observed_retained_objects": 3,
+        "total_objects": 42,
+        "coverage": 0.07142857142857142,
+        "retained": false
+      },
+      {
+        "id": "russia-economic-technology-cooperation__negative",
+        "name": "Ограничение экономических и технологических проектов с Россией",
+        "observed_objects": 0,
+        "observed_retained_objects": 0,
+        "total_objects": 42,
+        "coverage": 0.0,
+        "retained": false
+      },
+      {
+        "id": "russia-education-cultural-cooperation__positive",
+        "name": "Расширение образовательных и культурных обменов с Россией",
+        "observed_objects": 3,
+        "observed_retained_objects": 3,
+        "total_objects": 42,
+        "coverage": 0.07142857142857142,
+        "retained": false
+      },
+      {
+        "id": "russia-education-cultural-cooperation__negative",
+        "name": "Ограничение образовательных и культурных обменов с Россией",
+        "observed_objects": 0,
+        "observed_retained_objects": 0,
+        "total_objects": 42,
+        "coverage": 0.0,
+        "retained": false
+      },
+      {
+        "id": "russia-conflict-policy-evaluation__positive",
+        "name": "Публичное оправдание конкретных внешнеполитических действий России",
+        "observed_objects": 0,
+        "observed_retained_objects": 0,
+        "total_objects": 42,
+        "coverage": 0.0,
+        "retained": false
+      },
+      {
+        "id": "russia-conflict-policy-evaluation__negative",
+        "name": "Публичная критика конкретных внешнеполитических действий России",
+        "observed_objects": 2,
+        "observed_retained_objects": 2,
+        "total_objects": 42,
+        "coverage": 0.047619047619047616,
+        "retained": false
+      },
+      {
+        "id": "russia-isolation-sanctions__positive",
+        "name": "Противодействие санкциям и изоляции России",
+        "observed_objects": 0,
+        "observed_retained_objects": 0,
+        "total_objects": 42,
+        "coverage": 0.0,
+        "retained": false
+      },
+      {
+        "id": "russia-isolation-sanctions__negative",
+        "name": "Поддержка санкций и изоляции России",
+        "observed_objects": 0,
+        "observed_retained_objects": 0,
+        "total_objects": 42,
+        "coverage": 0.0,
+        "retained": false
+      }
+    ],
+    "retained_coverage": 0.8403361344537815,
+    "missing_retained_cells": 38,
+    "excluded_objects": [
+      {
+        "id": "ines-mpambara",
+        "name": "Инес Мпамбара",
+        "observed_scales": 4,
+        "required_scales": 5,
+        "original_observed_scales": 5,
+        "reason": "insufficient_coverage"
+      },
+      {
+        "id": "mussa-fazil-harerimana",
+        "name": "Мусса Фазиль Хареримана",
+        "observed_scales": 4,
+        "required_scales": 5,
+        "original_observed_scales": 8,
+        "reason": "insufficient_coverage"
+      },
+      {
+        "id": "philippe-mpayimana",
+        "name": "Филипп Мпайимана",
+        "observed_scales": 3,
+        "required_scales": 5,
+        "original_observed_scales": 7,
+        "reason": "insufficient_coverage"
+      },
+      {
+        "id": "victoire-ingabire",
+        "name": "Виктуар Ингабире Умухоза",
+        "observed_scales": 3,
+        "required_scales": 5,
+        "original_observed_scales": 14,
+        "reason": "insufficient_coverage"
+      },
+      {
+        "id": "bernard-ntaganda",
+        "name": "Бернар Нтаганда",
+        "observed_scales": 1,
+        "required_scales": 5,
+        "original_observed_scales": 9,
+        "reason": "insufficient_coverage"
+      },
+      {
+        "id": "christopher-kayumba",
+        "name": "Кристофер Каюмба",
+        "observed_scales": 2,
+        "required_scales": 5,
+        "original_observed_scales": 3,
+        "reason": "insufficient_coverage"
+      },
+      {
+        "id": "paul-rusesabagina",
+        "name": "Поль Русесабагина",
+        "observed_scales": 3,
+        "required_scales": 5,
+        "original_observed_scales": 5,
+        "reason": "insufficient_coverage"
+      },
+      {
+        "id": "kayumba-nyamwasa",
+        "name": "Фостен Каюмба Ньямваса",
+        "observed_scales": 1,
+        "required_scales": 5,
+        "original_observed_scales": 3,
+        "reason": "insufficient_coverage"
+      }
+    ],
+    "excluded_scales": [
+      {
+        "id": "programmatic-renewal__positive",
+        "name": "Программное изменение существующего курса",
+        "observed_objects": 24,
+        "required_objects": 26,
+        "reason": "constant_or_insufficient_observations"
+      },
+      {
+        "id": "government-course-assessment__negative",
+        "name": "Публичная критика действующего государственного курса",
+        "observed_objects": 6,
+        "required_objects": 26,
+        "reason": "constant_or_insufficient_observations"
+      },
+      {
+        "id": "participation-administrative-direction__positive",
+        "name": "Совместное обсуждение и общественный контроль решений",
+        "observed_objects": 16,
+        "required_objects": 26,
+        "reason": "constant_or_insufficient_observations"
+      },
+      {
+        "id": "argumentation-evidence-values__positive",
+        "name": "Обоснование через данные, расчёты и проверяемые результаты",
+        "observed_objects": 19,
+        "required_objects": 26,
+        "reason": "constant_or_insufficient_observations"
+      },
+      {
+        "id": "market-state-instruments__positive",
+        "name": "Расширение частной инициативы и управления",
+        "observed_objects": 16,
+        "required_objects": 26,
+        "reason": "constant_or_insufficient_observations"
+      },
+      {
+        "id": "market-state-instruments__negative",
+        "name": "Расширение государственного планирования и обязательных правил",
+        "observed_objects": 20,
+        "required_objects": 26,
+        "reason": "constant_or_insufficient_observations"
+      },
+      {
+        "id": "accessibility-growth-priorities__negative",
+        "name": "Рост инвестиций, конкурентоспособности и деловой активности",
+        "observed_objects": 25,
+        "required_objects": 26,
+        "reason": "constant_or_insufficient_observations"
+      },
+      {
+        "id": "external-domestic-resources__positive",
+        "name": "Привлечение внешнего финансирования и ресурсных партнёров",
+        "observed_objects": 14,
+        "required_objects": 26,
+        "reason": "constant_or_insufficient_observations"
+      },
+      {
+        "id": "external-domestic-resources__negative",
+        "name": "Опора на внутренние доходы и хозяйственную самостоятельность",
+        "observed_objects": 5,
+        "required_objects": 26,
+        "reason": "constant_or_insufficient_observations"
+      },
+      {
+        "id": "international-rules-autonomy__positive",
+        "name": "Закрепление общих международных обязательств",
+        "observed_objects": 17,
+        "required_objects": 26,
+        "reason": "constant_or_insufficient_observations"
+      },
+      {
+        "id": "international-rules-autonomy__negative",
+        "name": "Защита национальной самостоятельности решений",
+        "observed_objects": 3,
+        "required_objects": 26,
+        "reason": "constant_or_insufficient_observations"
+      },
+      {
+        "id": "mediation-adversarial-communication__positive",
+        "name": "Посредничество, переговоры и поиск согласования",
+        "observed_objects": 15,
+        "required_objects": 26,
+        "reason": "constant_or_insufficient_observations"
+      },
+      {
+        "id": "mediation-adversarial-communication__negative",
+        "name": "Полемическое оспаривание и защита собственной стороны",
+        "observed_objects": 18,
+        "required_objects": 26,
+        "reason": "constant_or_insufficient_observations"
+      },
+      {
+        "id": "cultural-openness-national-transmission__positive",
+        "name": "Расширение межкультурного обмена и разнообразия",
+        "observed_objects": 3,
+        "required_objects": 26,
+        "reason": "constant_or_insufficient_observations"
+      },
+      {
+        "id": "cultural-openness-national-transmission__negative",
+        "name": "Сохранение и передача национальных ценностей",
+        "observed_objects": 14,
+        "required_objects": 26,
+        "reason": "constant_or_insufficient_observations"
+      },
+      {
+        "id": "problem-disclosure-reputation-defence__negative",
+        "name": "Защитное продвижение репутации страны или своей политики",
+        "observed_objects": 11,
+        "required_objects": 26,
+        "reason": "constant_or_insufficient_observations"
+      },
+      {
+        "id": "procedural-guarantees-enforcement__positive",
+        "name": "Расширение возможностей защиты и обжалования",
+        "observed_objects": 7,
+        "required_objects": 26,
+        "reason": "constant_or_insufficient_observations"
+      },
+      {
+        "id": "procedural-guarantees-enforcement__negative",
+        "name": "Принудительное обеспечение обязательных требований",
+        "observed_objects": 7,
+        "required_objects": 26,
+        "reason": "constant_or_insufficient_observations"
+      },
+      {
+        "id": "prevention-crisis-response__negative",
+        "name": "Оперативное реагирование на возникшую угрозу",
+        "observed_objects": 4,
+        "required_objects": 26,
+        "reason": "constant_or_insufficient_observations"
+      },
+      {
+        "id": "electoral-access__positive",
+        "name": "Расширение доступа к выборной конкуренции",
+        "observed_objects": 7,
+        "required_objects": 26,
+        "reason": "constant_or_insufficient_observations"
+      },
+      {
+        "id": "electoral-access__negative",
+        "name": "Усиление квалификационных барьеров политического участия",
+        "observed_objects": 0,
+        "required_objects": 26,
+        "reason": "constant_or_insufficient_observations"
+      },
+      {
+        "id": "institutional-autonomy-coordination__positive",
+        "name": "Гарантии самостоятельности и контроля между институтами",
+        "observed_objects": 6,
+        "required_objects": 26,
+        "reason": "constant_or_insufficient_observations"
+      },
+      {
+        "id": "institutional-autonomy-coordination__negative",
+        "name": "Согласование работы институтов единой управленческой линией",
+        "observed_objects": 19,
+        "required_objects": 26,
+        "reason": "constant_or_insufficient_observations"
+      },
+      {
+        "id": "taxation-burden-public-revenue__positive",
+        "name": "Снижение налоговой нагрузки и расширение имущественной самостоятельности",
+        "observed_objects": 2,
+        "required_objects": 26,
+        "reason": "constant_or_insufficient_observations"
+      },
+      {
+        "id": "taxation-burden-public-revenue__negative",
+        "name": "Увеличение налоговых поступлений для публичного развития",
+        "observed_objects": 1,
+        "required_objects": 26,
+        "reason": "constant_or_insufficient_observations"
+      },
+      {
+        "id": "universal-targeted-provision__positive",
+        "name": "Единые стандарты доступности благ для всего населения",
+        "observed_objects": 8,
+        "required_objects": 26,
+        "reason": "constant_or_insufficient_observations"
+      },
+      {
+        "id": "universal-targeted-provision__negative",
+        "name": "Приоритетная помощь конкретным недостаточно обеспеченным группам",
+        "observed_objects": 17,
+        "required_objects": 26,
+        "reason": "constant_or_insufficient_observations"
+      },
+      {
+        "id": "ecological-limits-resource-use__positive",
+        "name": "Усиление природоохранных ограничений хозяйственной деятельности",
+        "observed_objects": 7,
+        "required_objects": 26,
+        "reason": "constant_or_insufficient_observations"
+      },
+      {
+        "id": "ecological-limits-resource-use__negative",
+        "name": "Расширение хозяйственного использования природных ресурсов",
+        "observed_objects": 1,
+        "required_objects": 26,
+        "reason": "constant_or_insufficient_observations"
+      },
+      {
+        "id": "russia-diplomatic-engagement__positive",
+        "name": "Расширение дипломатического сотрудничества с Россией",
+        "observed_objects": 2,
+        "required_objects": 26,
+        "reason": "constant_or_insufficient_observations"
+      },
+      {
+        "id": "russia-diplomatic-engagement__negative",
+        "name": "Дипломатическое дистанцирование от России",
+        "observed_objects": 0,
+        "required_objects": 26,
+        "reason": "constant_or_insufficient_observations"
+      },
+      {
+        "id": "russia-security-cooperation__positive",
+        "name": "Развитие военно-технического сотрудничества с Россией",
+        "observed_objects": 2,
+        "required_objects": 26,
+        "reason": "constant_or_insufficient_observations"
+      },
+      {
+        "id": "russia-security-cooperation__negative",
+        "name": "Ограничение военно-технического сотрудничества с Россией",
+        "observed_objects": 0,
+        "required_objects": 26,
+        "reason": "constant_or_insufficient_observations"
+      },
+      {
+        "id": "russia-economic-technology-cooperation__positive",
+        "name": "Развитие экономических и технологических проектов с Россией",
+        "observed_objects": 3,
+        "required_objects": 26,
+        "reason": "constant_or_insufficient_observations"
+      },
+      {
+        "id": "russia-economic-technology-cooperation__negative",
+        "name": "Ограничение экономических и технологических проектов с Россией",
+        "observed_objects": 0,
+        "required_objects": 26,
+        "reason": "constant_or_insufficient_observations"
+      },
+      {
+        "id": "russia-education-cultural-cooperation__positive",
+        "name": "Расширение образовательных и культурных обменов с Россией",
+        "observed_objects": 3,
+        "required_objects": 26,
+        "reason": "constant_or_insufficient_observations"
+      },
+      {
+        "id": "russia-education-cultural-cooperation__negative",
+        "name": "Ограничение образовательных и культурных обменов с Россией",
+        "observed_objects": 0,
+        "required_objects": 26,
+        "reason": "constant_or_insufficient_observations"
+      },
+      {
+        "id": "russia-conflict-policy-evaluation__positive",
+        "name": "Публичное оправдание конкретных внешнеполитических действий России",
+        "observed_objects": 0,
+        "required_objects": 26,
+        "reason": "constant_or_insufficient_observations"
+      },
+      {
+        "id": "russia-conflict-policy-evaluation__negative",
+        "name": "Публичная критика конкретных внешнеполитических действий России",
+        "observed_objects": 2,
+        "required_objects": 26,
+        "reason": "constant_or_insufficient_observations"
+      },
+      {
+        "id": "russia-isolation-sanctions__positive",
+        "name": "Противодействие санкциям и изоляции России",
+        "observed_objects": 0,
+        "required_objects": 26,
+        "reason": "constant_or_insufficient_observations"
+      },
+      {
+        "id": "russia-isolation-sanctions__negative",
+        "name": "Поддержка санкций и изоляции России",
+        "observed_objects": 0,
+        "required_objects": 26,
+        "reason": "constant_or_insufficient_observations"
+      }
+    ],
+    "zero_differences": null,
+    "zero_observed_variables": 0,
+    "zero_difference_with_mass": null,
+    "mass_mean": null,
+    "measurement": "independent property intensities 0..5; explicit pole statuses; no subtraction or invented antonyms",
+    "missing_policy": "unknown is NaN, never zero; iteratively filter scales before objects until stable; training gaps mean-imputed; posterior uses only observed coordinates",
+    "minimum_coverage_policy": "each iteration: first scales observed on at least 60% and 8 current objects and nonconstant; then objects observed on at least 60% and 4 surviving scales; repeat until stable; retained overall coverage at least 75%",
+    "preprocessing_order": "scales_then_objects_until_stable",
+    "preprocessing_iterations": [
+      {
+        "iteration": 1,
+        "input_objects": 42,
+        "input_scales": 48,
+        "required_objects_per_scale": 26,
+        "excluded_scale_ids": [
+          "programmatic-renewal__positive",
+          "government-course-assessment__negative",
+          "participation-administrative-direction__positive",
+          "argumentation-evidence-values__positive",
+          "market-state-instruments__positive",
+          "market-state-instruments__negative",
+          "accessibility-growth-priorities__negative",
+          "external-domestic-resources__positive",
+          "external-domestic-resources__negative",
+          "international-rules-autonomy__positive",
+          "international-rules-autonomy__negative",
+          "mediation-adversarial-communication__positive",
+          "mediation-adversarial-communication__negative",
+          "cultural-openness-national-transmission__positive",
+          "cultural-openness-national-transmission__negative",
+          "problem-disclosure-reputation-defence__negative",
+          "procedural-guarantees-enforcement__positive",
+          "procedural-guarantees-enforcement__negative",
+          "prevention-crisis-response__negative",
+          "electoral-access__positive",
+          "electoral-access__negative",
+          "institutional-autonomy-coordination__positive",
+          "institutional-autonomy-coordination__negative",
+          "taxation-burden-public-revenue__positive",
+          "taxation-burden-public-revenue__negative",
+          "universal-targeted-provision__positive",
+          "universal-targeted-provision__negative",
+          "ecological-limits-resource-use__positive",
+          "ecological-limits-resource-use__negative",
+          "russia-diplomatic-engagement__positive",
+          "russia-diplomatic-engagement__negative",
+          "russia-security-cooperation__positive",
+          "russia-security-cooperation__negative",
+          "russia-economic-technology-cooperation__positive",
+          "russia-economic-technology-cooperation__negative",
+          "russia-education-cultural-cooperation__positive",
+          "russia-education-cultural-cooperation__negative",
+          "russia-conflict-policy-evaluation__positive",
+          "russia-conflict-policy-evaluation__negative",
+          "russia-isolation-sanctions__positive",
+          "russia-isolation-sanctions__negative"
+        ],
+        "required_scales_per_object": 5,
+        "excluded_object_ids": [
+          "ines-mpambara",
+          "mussa-fazil-harerimana",
+          "philippe-mpayimana",
+          "victoire-ingabire",
+          "bernard-ntaganda",
+          "christopher-kayumba",
+          "paul-rusesabagina",
+          "kayumba-nyamwasa"
+        ],
+        "retained_objects": 34,
+        "retained_scales": 7
+      },
+      {
+        "iteration": 2,
+        "input_objects": 34,
+        "input_scales": 7,
+        "required_objects_per_scale": 21,
+        "excluded_scale_ids": [],
+        "required_scales_per_object": 5,
+        "excluded_object_ids": [],
+        "retained_objects": 34,
+        "retained_scales": 7
+      }
+    ],
+    "preprocessing_report": "На каждой итерации сначала исключаются постоянные шкалы и шкалы, измеренные менее чем у 60% текущих объектов или менее чем у 8 объектов. Затем исключаются объекты с оценками менее чем по 60% оставшихся шкал или менее чем по 4 шкалам. Процедура повторяется до стабильности состава. В итоговой матрице требуется не менее 75% известных оценок. Неизвестные значения не заменяются нулём.",
+    "seed": 20261015,
+    "trait_order": [
+      "programmatic-renewal__negative",
+      "government-course-assessment__positive",
+      "participation-administrative-direction__negative",
+      "argumentation-evidence-values__negative",
+      "accessibility-growth-priorities__positive",
+      "problem-disclosure-reputation-defence__positive",
+      "prevention-crisis-response__positive"
+    ],
+    "training_object_order": [
+      "paul-kagame",
+      "edouard-ngirente",
+      "justin-nsengiyumva",
+      "vincent-biruta",
+      "olivier-nduhungirehe",
+      "james-kabarebe",
+      "juvenal-marizamunda",
+      "albert-murasira",
+      "emmanuel-ugirashebuja",
+      "yusuf-murangwa",
+      "uzziel-ndagijimana",
+      "paula-ingabire",
+      "sabin-nsanzimana",
+      "judith-uwizeye",
+      "valentine-uwamariya",
+      "jeanne-darc-mujawamariya",
+      "gerardine-mukeshimana",
+      "ildephonse-musafiri",
+      "jean-claude-musabyimana",
+      "jean-damascene-bizimana",
+      "clare-akamanzi",
+      "francis-gatare",
+      "gertrude-kazarwa",
+      "donatille-mukabalisa",
+      "francois-xavier-kalinda",
+      "augustin-iyamuremye",
+      "alvera-mukabaramba",
+      "pudence-rubingisa",
+      "samuel-dusengiyumva",
+      "frank-habineza",
+      "diane-rwigara",
+      "louise-mushikiwabo",
+      "claver-gatete",
+      "valentine-rugwabiza"
+    ],
+    "input_sha256": "386dbbf3afe59f7df006db63a5e6600886f78399d75ac48d6df642d7d08ec987",
+    "variance_definition": "sum squared orthogonally rotated FA loadings / total standardized variance after training mean-imputation; all retained scales, not only Russia block"
+  },
+  "limitations": [
+    "Разведочная численная модель публичных образов; не независимая оценка убеждений или причин политических позиций.",
+    "FA гауссова и линейная, оценки ограниченные и порядковые; обучающее заполнение средним не устраняет смещения пропусков.",
+    "Три сильные семантические семьи дают только numeric_candidate: независимость событий, атрибуция и специфичность темы требуют аудита.",
+    "Bootstrap фиксирует состав переменных и q; он не проверяет весь сбор данных, независимость общих событий и все возможные вращения.",
+    "Номера и знаки факторов локальны для q; перенос смысла между решениями требует сопоставления полных нагрузок.",
+    "Кандидат ≥2% с двумя семьями показан условно; отсутствие кандидата при недостаточном измерении не означает отсутствия соответствующих позиций."
+  ],
+  "charts": [
+    {
+      "q": 2,
+      "file": "assets/factor_preview_q2.png",
+      "title": "Полные нагрузки q=2"
+    },
+    {
+      "q": 3,
+      "file": "assets/factor_preview_q3.png",
+      "title": "Полные нагрузки q=3"
+    }
+  ],
+  "artifacts": [
+    {
+      "name": "factor_preview_json",
+      "path": "factor_preview.json",
+      "type": "json"
+    },
+    {
+      "name": "factor_preview_md",
+      "path": "factor_preview.md",
+      "type": "markdown"
+    },
+    {
+      "name": "factor_preview_q2",
+      "path": "assets/factor_preview_q2.png",
+      "type": "image/png"
+    },
+    {
+      "name": "factor_preview_q3",
+      "path": "assets/factor_preview_q3.png",
+      "type": "image/png"
+    }
+  ]
+}

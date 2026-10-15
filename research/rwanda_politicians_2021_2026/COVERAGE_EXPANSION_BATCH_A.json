@@ -1,0 +1,2916 @@
+{
+  "version": "1.0",
+  "study_id": "rwanda-politicians-2021-2026",
+  "scope": {
+    "date_from": "2021-10-15",
+    "date_to": "2026-10-15",
+    "object_ids": [
+      "paul-kagame",
+      "olivier-nduhungirehe",
+      "james-kabarebe",
+      "juvenal-marizamunda",
+      "ines-mpambara",
+      "francis-gatare",
+      "francois-xavier-kalinda",
+      "mussa-fazil-harerimana"
+    ]
+  },
+  "method": "Targeted public-source search of all planned unknown priority cells, semantic review without inspecting factor solutions; proposals only, no canonical mutation.",
+  "input_hashes": {
+    "studies/rwanda-politicians-2021-2026/study.json": "30a4f7bacc61fede71de2a36dfff813b089c6c68895b7ee9630ea1e3d051b248",
+    "studies/rwanda-politicians-2021-2026/ratings.json": "98123f0b8acabf36e11537e1dbaf547b2cb468e22c3c8f6be9b4aa0bc5d7b5fa",
+    "research/rwanda_politicians_2021_2026/COVERAGE_EXPANSION_PLAN.json": "57e388b148e943b69516fdc8e922742a5c74037dfa917694272131ce89fa1f3d",
+    "studies/rwanda-politicians-2021-2026/evidence/independent-dossier-paul-kagame.json": "0d269bca45d3630ec466b99acb06c32c3e9813832a0eaa0945e1f154a247b14c",
+    "studies/rwanda-politicians-2021-2026/evidence/independent-dossier-olivier-nduhungirehe.json": "a502f2399e156585ff702c99c90e875bedce54a5b882ae82def47d4fa08c58ac",
+    "studies/rwanda-politicians-2021-2026/evidence/independent-dossier-james-kabarebe.json": "3172f2f5e2e5cd330677c8b941e63ea09729a27f43260951aa40c97160e77ee0",
+    "studies/rwanda-politicians-2021-2026/evidence/independent-dossier-juvenal-marizamunda.json": "eebea1907a4d7b875830b7d6f1b8bb2c39b24426a2faace046166be420f7d303",
+    "studies/rwanda-politicians-2021-2026/evidence/independent-dossier-ines-mpambara.json": "22e691a016d01093d09289a8dc7f59fa9a37a0fba5bbd64b294c2390a2e82d3b",
+    "studies/rwanda-politicians-2021-2026/evidence/independent-dossier-francis-gatare.json": "c5b9c7f8fcf03e1694b6fb229b51e0d29463da41a10ab4d87bfd180b37167b68",
+    "studies/rwanda-politicians-2021-2026/evidence/independent-dossier-francois-xavier-kalinda.json": "aad2b8a934c15ba31e603c623f88b50b04c07d4460a900db7ea3483f14e90dbf",
+    "studies/rwanda-politicians-2021-2026/evidence/independent-dossier-mussa-fazil-harerimana.json": "0199c4eae95ca34b99c3a0f251152a0dedd0652a31e7a678c807814db3800762"
+  },
+  "checked_properties": [
+    [
+      "paul-kagame",
+      "accessibility-growth-priorities",
+      "positive"
+    ],
+    [
+      "paul-kagame",
+      "participation-administrative-direction",
+      "negative"
+    ],
+    [
+      "paul-kagame",
+      "programmatic-renewal",
+      "negative"
+    ],
+    [
+      "paul-kagame",
+      "programmatic-renewal",
+      "positive"
+    ],
+    [
+      "paul-kagame",
+      "russia-conflict-policy-evaluation",
+      "negative"
+    ],
+    [
+      "paul-kagame",
+      "russia-conflict-policy-evaluation",
+      "positive"
+    ],
+    [
+      "paul-kagame",
+      "russia-diplomatic-engagement",
+      "negative"
+    ],
+    [
+      "paul-kagame",
+      "russia-diplomatic-engagement",
+      "positive"
+    ],
+    [
+      "paul-kagame",
+      "russia-economic-technology-cooperation",
+      "negative"
+    ],
+    [
+      "paul-kagame",
+      "russia-economic-technology-cooperation",
+      "positive"
+    ],
+    [
+      "paul-kagame",
+      "russia-education-cultural-cooperation",
+      "negative"
+    ],
+    [
+      "paul-kagame",
+      "russia-education-cultural-cooperation",
+      "positive"
+    ],
+    [
+      "paul-kagame",
+      "russia-isolation-sanctions",
+      "negative"
+    ],
+    [
+      "paul-kagame",
+      "russia-isolation-sanctions",
+      "positive"
+    ],
+    [
+      "paul-kagame",
+      "russia-security-cooperation",
+      "negative"
+    ],
+    [
+      "paul-kagame",
+      "russia-security-cooperation",
+      "positive"
+    ],
+    [
+      "olivier-nduhungirehe",
+      "participation-administrative-direction",
+      "negative"
+    ],
+    [
+      "olivier-nduhungirehe",
+      "prevention-crisis-response",
+      "positive"
+    ],
+    [
+      "olivier-nduhungirehe",
+      "problem-disclosure-reputation-defence",
+      "positive"
+    ],
+    [
+      "olivier-nduhungirehe",
+      "programmatic-renewal",
+      "negative"
+    ],
+    [
+      "olivier-nduhungirehe",
+      "russia-conflict-policy-evaluation",
+      "negative"
+    ],
+    [
+      "olivier-nduhungirehe",
+      "russia-conflict-policy-evaluation",
+      "positive"
+    ],
+    [
+      "olivier-nduhungirehe",
+      "russia-diplomatic-engagement",
+      "negative"
+    ],
+    [
+      "olivier-nduhungirehe",
+      "russia-economic-technology-cooperation",
+      "negative"
+    ],
+    [
+      "olivier-nduhungirehe",
+      "russia-education-cultural-cooperation",
+      "negative"
+    ],
+    [
+      "olivier-nduhungirehe",
+      "russia-isolation-sanctions",
+      "negative"
+    ],
+    [
+      "olivier-nduhungirehe",
+      "russia-isolation-sanctions",
+      "positive"
+    ],
+    [
+      "olivier-nduhungirehe",
+      "russia-security-cooperation",
+      "negative"
+    ],
+    [
+      "olivier-nduhungirehe",
+      "russia-security-cooperation",
+      "positive"
+    ],
+    [
+      "james-kabarebe",
+      "accessibility-growth-priorities",
+      "positive"
+    ],
+    [
+      "james-kabarebe",
+      "participation-administrative-direction",
+      "negative"
+    ],
+    [
+      "james-kabarebe",
+      "prevention-crisis-response",
+      "positive"
+    ],
+    [
+      "james-kabarebe",
+      "problem-disclosure-reputation-defence",
+      "positive"
+    ],
+    [
+      "james-kabarebe",
+      "programmatic-renewal",
+      "positive"
+    ],
+    [
+      "james-kabarebe",
+      "russia-conflict-policy-evaluation",
+      "negative"
+    ],
+    [
+      "james-kabarebe",
+      "russia-conflict-policy-evaluation",
+      "positive"
+    ],
+    [
+      "james-kabarebe",
+      "russia-diplomatic-engagement",
+      "negative"
+    ],
+    [
+      "james-kabarebe",
+      "russia-diplomatic-engagement",
+      "positive"
+    ],
+    [
+      "james-kabarebe",
+      "russia-economic-technology-cooperation",
+      "negative"
+    ],
+    [
+      "james-kabarebe",
+      "russia-economic-technology-cooperation",
+      "positive"
+    ],
+    [
+      "james-kabarebe",
+      "russia-education-cultural-cooperation",
+      "negative"
+    ],
+    [
+      "james-kabarebe",
+      "russia-education-cultural-cooperation",
+      "positive"
+    ],
+    [
+      "james-kabarebe",
+      "russia-isolation-sanctions",
+      "negative"
+    ],
+    [
+      "james-kabarebe",
+      "russia-isolation-sanctions",
+      "positive"
+    ],
+    [
+      "james-kabarebe",
+      "russia-security-cooperation",
+      "negative"
+    ],
+    [
+      "james-kabarebe",
+      "russia-security-cooperation",
+      "positive"
+    ],
+    [
+      "juvenal-marizamunda",
+      "accessibility-growth-priorities",
+      "positive"
+    ],
+    [
+      "juvenal-marizamunda",
+      "government-course-assessment",
+      "positive"
+    ],
+    [
+      "juvenal-marizamunda",
+      "participation-administrative-direction",
+      "negative"
+    ],
+    [
+      "juvenal-marizamunda",
+      "problem-disclosure-reputation-defence",
+      "positive"
+    ],
+    [
+      "juvenal-marizamunda",
+      "programmatic-renewal",
+      "negative"
+    ],
+    [
+      "juvenal-marizamunda",
+      "programmatic-renewal",
+      "positive"
+    ],
+    [
+      "juvenal-marizamunda",
+      "russia-conflict-policy-evaluation",
+      "negative"
+    ],
+    [
+      "juvenal-marizamunda",
+      "russia-conflict-policy-evaluation",
+      "positive"
+    ],
+    [
+      "juvenal-marizamunda",
+      "russia-diplomatic-engagement",
+      "negative"
+    ],
+    [
+      "juvenal-marizamunda",
+      "russia-diplomatic-engagement",
+      "positive"
+    ],
+    [
+      "juvenal-marizamunda",
+      "russia-economic-technology-cooperation",
+      "negative"
+    ],
+    [
+      "juvenal-marizamunda",
+      "russia-economic-technology-cooperation",
+      "positive"
+    ],
+    [
+      "juvenal-marizamunda",
+      "russia-education-cultural-cooperation",
+      "negative"
+    ],
+    [
+      "juvenal-marizamunda",
+      "russia-education-cultural-cooperation",
+      "positive"
+    ],
+    [
+      "juvenal-marizamunda",
+      "russia-isolation-sanctions",
+      "negative"
+    ],
+    [
+      "juvenal-marizamunda",
+      "russia-isolation-sanctions",
+      "positive"
+    ],
+    [
+      "juvenal-marizamunda",
+      "russia-security-cooperation",
+      "negative"
+    ],
+    [
+      "ines-mpambara",
+      "accessibility-growth-priorities",
+      "positive"
+    ],
+    [
+      "ines-mpambara",
+      "government-course-assessment",
+      "positive"
+    ],
+    [
+      "ines-mpambara",
+      "participation-administrative-direction",
+      "negative"
+    ],
+    [
+      "ines-mpambara",
+      "prevention-crisis-response",
+      "positive"
+    ],
+    [
+      "ines-mpambara",
+      "problem-disclosure-reputation-defence",
+      "positive"
+    ],
+    [
+      "ines-mpambara",
+      "programmatic-renewal",
+      "negative"
+    ],
+    [
+      "ines-mpambara",
+      "programmatic-renewal",
+      "positive"
+    ],
+    [
+      "ines-mpambara",
+      "russia-conflict-policy-evaluation",
+      "negative"
+    ],
+    [
+      "ines-mpambara",
+      "russia-conflict-policy-evaluation",
+      "positive"
+    ],
+    [
+      "ines-mpambara",
+      "russia-diplomatic-engagement",
+      "negative"
+    ],
+    [
+      "ines-mpambara",
+      "russia-diplomatic-engagement",
+      "positive"
+    ],
+    [
+      "ines-mpambara",
+      "russia-economic-technology-cooperation",
+      "negative"
+    ],
+    [
+      "ines-mpambara",
+      "russia-economic-technology-cooperation",
+      "positive"
+    ],
+    [
+      "ines-mpambara",
+      "russia-education-cultural-cooperation",
+      "negative"
+    ],
+    [
+      "ines-mpambara",
+      "russia-education-cultural-cooperation",
+      "positive"
+    ],
+    [
+      "ines-mpambara",
+      "russia-isolation-sanctions",
+      "negative"
+    ],
+    [
+      "ines-mpambara",
+      "russia-isolation-sanctions",
+      "positive"
+    ],
+    [
+      "ines-mpambara",
+      "russia-security-cooperation",
+      "negative"
+    ],
+    [
+      "ines-mpambara",
+      "russia-security-cooperation",
+      "positive"
+    ],
+    [
+      "francis-gatare",
+      "accessibility-growth-priorities",
+      "positive"
+    ],
+    [
+      "francis-gatare",
+      "argumentation-evidence-values",
+      "negative"
+    ],
+    [
+      "francis-gatare",
+      "government-course-assessment",
+      "positive"
+    ],
+    [
+      "francis-gatare",
+      "participation-administrative-direction",
+      "negative"
+    ],
+    [
+      "francis-gatare",
+      "prevention-crisis-response",
+      "positive"
+    ],
+    [
+      "francis-gatare",
+      "problem-disclosure-reputation-defence",
+      "positive"
+    ],
+    [
+      "francis-gatare",
+      "russia-conflict-policy-evaluation",
+      "negative"
+    ],
+    [
+      "francis-gatare",
+      "russia-conflict-policy-evaluation",
+      "positive"
+    ],
+    [
+      "francis-gatare",
+      "russia-diplomatic-engagement",
+      "negative"
+    ],
+    [
+      "francis-gatare",
+      "russia-diplomatic-engagement",
+      "positive"
+    ],
+    [
+      "francis-gatare",
+      "russia-economic-technology-cooperation",
+      "negative"
+    ],
+    [
+      "francis-gatare",
+      "russia-economic-technology-cooperation",
+      "positive"
+    ],
+    [
+      "francis-gatare",
+      "russia-education-cultural-cooperation",
+      "negative"
+    ],
+    [
+      "francis-gatare",
+      "russia-education-cultural-cooperation",
+      "positive"
+    ],
+    [
+      "francis-gatare",
+      "russia-isolation-sanctions",
+      "negative"
+    ],
+    [
+      "francis-gatare",
+      "russia-isolation-sanctions",
+      "positive"
+    ],
+    [
+      "francis-gatare",
+      "russia-security-cooperation",
+      "negative"
+    ],
+    [
+      "francis-gatare",
+      "russia-security-cooperation",
+      "positive"
+    ],
+    [
+      "francois-xavier-kalinda",
+      "accessibility-growth-priorities",
+      "positive"
+    ],
+    [
+      "francois-xavier-kalinda",
+      "problem-disclosure-reputation-defence",
+      "positive"
+    ],
+    [
+      "francois-xavier-kalinda",
+      "programmatic-renewal",
+      "negative"
+    ],
+    [
+      "francois-xavier-kalinda",
+      "programmatic-renewal",
+      "positive"
+    ],
+    [
+      "francois-xavier-kalinda",
+      "russia-conflict-policy-evaluation",
+      "negative"
+    ],
+    [
+      "francois-xavier-kalinda",
+      "russia-conflict-policy-evaluation",
+      "positive"
+    ],
+    [
+      "francois-xavier-kalinda",
+      "russia-diplomatic-engagement",
+      "negative"
+    ],
+    [
+      "francois-xavier-kalinda",
+      "russia-diplomatic-engagement",
+      "positive"
+    ],
+    [
+      "francois-xavier-kalinda",
+      "russia-economic-technology-cooperation",
+      "negative"
+    ],
+    [
+      "francois-xavier-kalinda",
+      "russia-economic-technology-cooperation",
+      "positive"
+    ],
+    [
+      "francois-xavier-kalinda",
+      "russia-education-cultural-cooperation",
+      "negative"
+    ],
+    [
+      "francois-xavier-kalinda",
+      "russia-education-cultural-cooperation",
+      "positive"
+    ],
+    [
+      "francois-xavier-kalinda",
+      "russia-isolation-sanctions",
+      "negative"
+    ],
+    [
+      "francois-xavier-kalinda",
+      "russia-isolation-sanctions",
+      "positive"
+    ],
+    [
+      "francois-xavier-kalinda",
+      "russia-security-cooperation",
+      "negative"
+    ],
+    [
+      "francois-xavier-kalinda",
+      "russia-security-cooperation",
+      "positive"
+    ],
+    [
+      "mussa-fazil-harerimana",
+      "accessibility-growth-priorities",
+      "positive"
+    ],
+    [
+      "mussa-fazil-harerimana",
+      "participation-administrative-direction",
+      "negative"
+    ],
+    [
+      "mussa-fazil-harerimana",
+      "prevention-crisis-response",
+      "positive"
+    ],
+    [
+      "mussa-fazil-harerimana",
+      "problem-disclosure-reputation-defence",
+      "positive"
+    ],
+    [
+      "mussa-fazil-harerimana",
+      "programmatic-renewal",
+      "positive"
+    ],
+    [
+      "mussa-fazil-harerimana",
+      "russia-conflict-policy-evaluation",
+      "negative"
+    ],
+    [
+      "mussa-fazil-harerimana",
+      "russia-conflict-policy-evaluation",
+      "positive"
+    ],
+    [
+      "mussa-fazil-harerimana",
+      "russia-diplomatic-engagement",
+      "negative"
+    ],
+    [
+      "mussa-fazil-harerimana",
+      "russia-diplomatic-engagement",
+      "positive"
+    ],
+    [
+      "mussa-fazil-harerimana",
+      "russia-economic-technology-cooperation",
+      "negative"
+    ],
+    [
+      "mussa-fazil-harerimana",
+      "russia-economic-technology-cooperation",
+      "positive"
+    ],
+    [
+      "mussa-fazil-harerimana",
+      "russia-education-cultural-cooperation",
+      "negative"
+    ],
+    [
+      "mussa-fazil-harerimana",
+      "russia-education-cultural-cooperation",
+      "positive"
+    ],
+    [
+      "mussa-fazil-harerimana",
+      "russia-isolation-sanctions",
+      "negative"
+    ],
+    [
+      "mussa-fazil-harerimana",
+      "russia-isolation-sanctions",
+      "positive"
+    ],
+    [
+      "mussa-fazil-harerimana",
+      "russia-security-cooperation",
+      "negative"
+    ],
+    [
+      "mussa-fazil-harerimana",
+      "russia-security-cooperation",
+      "positive"
+    ]
+  ],
+  "observations": [
+    {
+      "object_id": "paul-kagame",
+      "scale_id": "participation-administrative-direction",
+      "pole": "negative",
+      "value": 2,
+      "rationale": "Прямое поручение назначенным руководителям исполнять обязанности, мобилизовать ресурсы и согласовывать работу институтов. Один датированный эпизод, поэтому 2; не вывод из президентской должности.",
+      "evidence_indices": [],
+      "source_urls": [
+        "https://www.paulkagame.rw/remarks-by-the-president-of-the-republic-during-the-swearing-in-ceremony-of-new-government-officials-kigali-23-december-2024/"
+      ],
+      "new_facts": [
+        {
+          "source_url": "https://www.paulkagame.rw/remarks-by-the-president-of-the-republic-during-the-swearing-in-ceremony-of-new-government-officials-kigali-23-december-2024/",
+          "title": "Remarks by President Kagame During the Swearing-In Ceremony of New Government Officials | Kigali, 23 December 2024",
+          "period": "2024-12-23",
+          "event_id": "kagame-officials-oath-2024-12-23",
+          "capacity": "Президент Республики Руанда",
+          "text": "На присяге новых руководителей Кагаме потребовал ответственно исполнять обязанности, находить ресурсы, эффективно их использовать и сотрудничать с коллегами из других учреждений.",
+          "actor_id": "paul-kagame",
+          "topic_ids": [
+            "participation-administrative-direction"
+          ],
+          "verification_method": "web_open_full_primary_text",
+          "novelty": "Новый для сохранённого independent-dossier факт; новая оценка пока только предложение."
+        }
+      ],
+      "review_status": "proposed_by_assistant_requires_source_and_semantic_integration_review"
+    },
+    {
+      "object_id": "paul-kagame",
+      "scale_id": "programmatic-renewal",
+      "pole": "negative",
+      "value": 1,
+      "rationale": "В той же речи он прямо описывает послание как повторение прежнего требования эффективного обслуживания. Это узкое подтверждение закрепления управленческого курса; один эпизод.",
+      "evidence_indices": [],
+      "source_urls": [
+        "https://www.paulkagame.rw/remarks-by-the-president-of-the-republic-during-the-swearing-in-ceremony-of-new-government-officials-kigali-23-december-2024/"
+      ],
+      "new_facts": [
+        {
+          "source_url": "https://www.paulkagame.rw/remarks-by-the-president-of-the-republic-during-the-swearing-in-ceremony-of-new-government-officials-kigali-23-december-2024/",
+          "title": "Remarks by President Kagame During the Swearing-In Ceremony of New Government Officials | Kigali, 23 December 2024",
+          "period": "2024-12-23",
+          "event_id": "kagame-officials-oath-2024-12-23",
+          "capacity": "Президент Республики Руанда",
+          "text": "Кагаме подчеркнул, что нового послания нет: он вновь требует сосредоточиться на необходимом для эффективного предоставления государственных услуг.",
+          "actor_id": "paul-kagame",
+          "topic_ids": [
+            "programmatic-renewal"
+          ],
+          "verification_method": "web_open_full_primary_text",
+          "novelty": "Новый для сохранённого independent-dossier факт; новая оценка пока только предложение."
+        }
+      ],
+      "review_status": "proposed_by_assistant_requires_source_and_semantic_integration_review"
+    },
+    {
+      "object_id": "francois-xavier-kalinda",
+      "scale_id": "problem-disclosure-reputation-defence",
+      "pole": "positive",
+      "value": 2,
+      "rationale": "Калинда собственными словами признаёт барьеры оказания психиатрической помощи и необходимость разбирать существующие трудности. Статистику, которую далее приводит Бутера, ему не приписываю.",
+      "evidence_indices": [],
+      "source_urls": [
+        "https://www.parliament.gov.rw/news-details/senators-reflect-on-mental-health-issues"
+      ],
+      "new_facts": [
+        {
+          "source_url": "https://www.parliament.gov.rw/news-details/senators-reflect-on-mental-health-issues",
+          "title": "Senators reflect on mental health issues",
+          "period": "2025-06-25",
+          "event_id": "kalinda-mental-health-consultation-2025-06-25",
+          "capacity": "Председатель Сената",
+          "text": "На консультации по психическому здоровью Калинда призвал совместно преодолевать барьеры эффективного оказания помощи и искать решения через обсуждение существующих трудностей.",
+          "actor_id": "francois-xavier-kalinda",
+          "topic_ids": [
+            "problem-disclosure-reputation-defence"
+          ],
+          "verification_method": "web_open_full_primary_text",
+          "novelty": "Новый для сохранённого independent-dossier факт; новая оценка пока только предложение."
+        }
+      ],
+      "review_status": "proposed_by_assistant_requires_source_and_semantic_integration_review"
+    },
+    {
+      "object_id": "francois-xavier-kalinda",
+      "scale_id": "programmatic-renewal",
+      "pole": "negative",
+      "value": 1,
+      "rationale": "Он прямо предлагает улучшать реализацию и результативность нынешних стратегий, а не называет новый курс. Узкое отраслевое проявление продолжения действующей программы.",
+      "evidence_indices": [],
+      "source_urls": [
+        "https://www.parliament.gov.rw/news-details/senators-reflect-on-mental-health-issues"
+      ],
+      "new_facts": [
+        {
+          "source_url": "https://www.parliament.gov.rw/news-details/senators-reflect-on-mental-health-issues",
+          "title": "Senators reflect on mental health issues",
+          "period": "2025-06-25",
+          "event_id": "kalinda-mental-health-consultation-2025-06-25",
+          "capacity": "Председатель Сената",
+          "text": "Калинда предложил повышать качество реализации и воздействие уже действующих стратегий в сфере психического здоровья.",
+          "actor_id": "francois-xavier-kalinda",
+          "topic_ids": [
+            "programmatic-renewal"
+          ],
+          "verification_method": "web_open_full_primary_text",
+          "novelty": "Новый для сохранённого independent-dossier факт; новая оценка пока только предложение."
+        }
+      ],
+      "review_status": "proposed_by_assistant_requires_source_and_semantic_integration_review"
+    },
+    {
+      "object_id": "francis-gatare",
+      "scale_id": "accessibility-growth-priorities",
+      "pole": "positive",
+      "value": 2,
+      "rationale": "Личная прямая формулировка связывает конкретный производственный проект с доступностью жизненно важного лечения. Это один содержательный эпизод, а не общий приоритет всех его выступлений.",
+      "evidence_indices": [],
+      "source_urls": [
+        "https://rdb.rw/rwanda-partners-with-bio-usawa-to-make-affordable-treatments-for-eye-diseases/"
+      ],
+      "new_facts": [
+        {
+          "source_url": "https://rdb.rw/rwanda-partners-with-bio-usawa-to-make-affordable-treatments-for-eye-diseases/",
+          "title": "Rwanda Partners with Bio Usawa to Make Affordable Treatments for Eye Diseases",
+          "period": "2024-11-25",
+          "publication_date": "2024-11-25",
+          "event_id": "gatare-bio-usawa-partnership-2024-11-21",
+          "capacity": "Генеральный директор Rwanda Development Board",
+          "verification_method": "web_open_full_primary_RDB_release; дата объявления21.11.2024 дополнительно сверена с New Times22.11.2024",
+          "text": "В релизе RDB Гатаре положительно оценил партнёрство с Bio Usawa: план местного производства биосимиляров должен решать трудности доступа к терапии диабетического макулярного отёка. Реализация завода ещё не подтверждена.",
+          "actor_id": "francis-gatare",
+          "topic_ids": [
+            "accessibility-growth-priorities"
+          ],
+          "novelty": "Новый для сохранённого independent-dossier факт; новая оценка пока только предложение.",
+          "date_note": "Дата собственного публичного высказывания в официальном релизе RDB; объявление соглашения 21 ноября подтверждено отдельно, но не переносится на дату публикации цитаты."
+        }
+      ],
+      "review_status": "proposed_by_assistant_requires_source_and_semantic_integration_review"
+    },
+    {
+      "object_id": "francis-gatare",
+      "scale_id": "problem-disclosure-reputation-defence",
+      "pole": "positive",
+      "value": 1,
+      "rationale": "Он прямо называет конкретную проблему доступа к лечению, которую должен решать проект. Ограниченное признание отраслевого пробела; слова главы Bio Usawa об общей стоимости ему не приписываются.",
+      "evidence_indices": [],
+      "source_urls": [
+        "https://rdb.rw/rwanda-partners-with-bio-usawa-to-make-affordable-treatments-for-eye-diseases/"
+      ],
+      "new_facts": [
+        {
+          "source_url": "https://rdb.rw/rwanda-partners-with-bio-usawa-to-make-affordable-treatments-for-eye-diseases/",
+          "title": "Rwanda Partners with Bio Usawa to Make Affordable Treatments for Eye Diseases",
+          "period": "2024-11-25",
+          "publication_date": "2024-11-25",
+          "event_id": "gatare-bio-usawa-partnership-2024-11-21",
+          "capacity": "Генеральный директор Rwanda Development Board",
+          "verification_method": "web_open_full_primary_RDB_release; дата объявления21.11.2024 дополнительно сверена с New Times22.11.2024",
+          "text": "В релизе RDB Гатаре положительно оценил партнёрство с Bio Usawa: план местного производства биосимиляров должен решать трудности доступа к терапии диабетического макулярного отёка. Реализация завода ещё не подтверждена.",
+          "actor_id": "francis-gatare",
+          "topic_ids": [
+            "problem-disclosure-reputation-defence"
+          ],
+          "novelty": "Новый для сохранённого independent-dossier факт; новая оценка пока только предложение.",
+          "date_note": "Дата собственного публичного высказывания в официальном релизе RDB; объявление соглашения 21 ноября подтверждено отдельно, но не переносится на дату публикации цитаты."
+        }
+      ],
+      "review_status": "proposed_by_assistant_requires_source_and_semantic_integration_review"
+    },
+    {
+      "object_id": "francis-gatare",
+      "scale_id": "government-course-assessment",
+      "pole": "positive",
+      "value": 1,
+      "rationale": "Он положительно оценивает конкретный шаг государственного RDB и подтверждает текущую приверженность Руанды доступности здравоохранения. Оценка узкая, не одобрение всей государственной политики.",
+      "evidence_indices": [],
+      "source_urls": [
+        "https://rdb.rw/rwanda-partners-with-bio-usawa-to-make-affordable-treatments-for-eye-diseases/"
+      ],
+      "new_facts": [
+        {
+          "source_url": "https://rdb.rw/rwanda-partners-with-bio-usawa-to-make-affordable-treatments-for-eye-diseases/",
+          "title": "Rwanda Partners with Bio Usawa to Make Affordable Treatments for Eye Diseases",
+          "period": "2024-11-25",
+          "publication_date": "2024-11-25",
+          "event_id": "gatare-bio-usawa-partnership-2024-11-21",
+          "capacity": "Генеральный директор Rwanda Development Board",
+          "verification_method": "web_open_full_primary_RDB_release; дата объявления21.11.2024 дополнительно сверена с New Times22.11.2024",
+          "text": "В релизе RDB Гатаре положительно оценил партнёрство с Bio Usawa: план местного производства биосимиляров должен решать трудности доступа к терапии диабетического макулярного отёка. Реализация завода ещё не подтверждена.",
+          "actor_id": "francis-gatare",
+          "topic_ids": [
+            "government-course-assessment"
+          ],
+          "novelty": "Новый для сохранённого independent-dossier факт; новая оценка пока только предложение.",
+          "date_note": "Дата собственного публичного высказывания в официальном релизе RDB; объявление соглашения 21 ноября подтверждено отдельно, но не переносится на дату публикации цитаты."
+        }
+      ],
+      "review_status": "proposed_by_assistant_requires_source_and_semantic_integration_review"
+    },
+    {
+      "object_id": "paul-kagame",
+      "scale_id": "programmatic-renewal",
+      "pole": "positive",
+      "value": 2,
+      "rationale": "Прямо предлагает реформировать действующие международные финансовые институты и поддерживает названные проекты реформ. Это публичная программная ориентация на международном уровне; она не доказывает намерения изменить всю внутреннюю политику Руанды.",
+      "evidence_indices": [],
+      "source_urls": [
+        "https://www.paulkagame.rw/78th-united-nations-general-assembly-address-by-president-paul-kagame-new-york-20-september-2023/"
+      ],
+      "new_facts": [
+        {
+          "source_url": "https://www.paulkagame.rw/78th-united-nations-general-assembly-address-by-president-paul-kagame-new-york-20-september-2023/",
+          "title": "78th United Nations General Assembly | Address by President Paul Kagame | New York, 20 September 2023",
+          "period": "2023-09-20",
+          "event_id": "kagame-unga78-finance-reform-2023-09-20",
+          "capacity": "Президент Республики Руанда",
+          "text": "В речи на Генеральной Ассамблее ООН Кагаме заявил о необходимости реформировать мировые финансовые институты для доступа к финансированию и поддержал Bridgetown Initiative и новый глобальный финансовый пакт.",
+          "actor_id": "paul-kagame",
+          "topic_ids": [
+            "programmatic-renewal"
+          ],
+          "verification_method": "web_open_full_primary_text",
+          "novelty": "Новый для сохранённого independent-dossier факт; предложение не изменяет canonical ratings."
+        }
+      ],
+      "review_status": "proposed_by_assistant_requires_source_and_semantic_integration_review"
+    },
+    {
+      "object_id": "paul-kagame",
+      "scale_id": "accessibility-growth-priorities",
+      "pole": "positive",
+      "value": 2,
+      "rationale": "Он лично связывает производство новых вакцин и лекарств с доступной ценой и бременем болезней Африки, включая руандийский механизм производства. Один ясный эпизод, не экономический рост сам по себе.",
+      "evidence_indices": [],
+      "source_urls": [
+        "https://www.paulkagame.rw/global-forum-on-vaccine-sovereignty-and-innovation-remarks-by-president-kagame-paris-20-june-2024/"
+      ],
+      "new_facts": [
+        {
+          "source_url": "https://www.paulkagame.rw/global-forum-on-vaccine-sovereignty-and-innovation-remarks-by-president-kagame-paris-20-june-2024/",
+          "title": "Global Forum on Vaccine Sovereignty and Innovation | Remarks by President Kagame | Paris, 20 June 2024",
+          "period": "2024-06-20",
+          "event_id": "kagame-vaccine-forum-2024-06-20",
+          "capacity": "Президент Республики Руанда",
+          "text": "Кагаме призвал разрабатывать и производить в Африке доступные по цене вакцины и терапию против её болезней. В качестве механизма он обсуждал производство BioNTech в Руанде и финансирование вакцинных мощностей.",
+          "actor_id": "paul-kagame",
+          "topic_ids": [
+            "accessibility-growth-priorities"
+          ],
+          "verification_method": "web_open_full_primary_text",
+          "novelty": "Новый для сохранённого independent-dossier факт; предложение не изменяет canonical ratings."
+        }
+      ],
+      "review_status": "proposed_by_assistant_requires_source_and_semantic_integration_review"
+    },
+    {
+      "object_id": "paul-kagame",
+      "scale_id": "russia-conflict-policy-evaluation",
+      "pole": "negative",
+      "value": 2,
+      "rationale": "В прямом ответе об Украине он объясняет поддержку резолюции ООН недопустимостью вторжения государства в другое, прямо называя Россию. Это ограниченная критическая оценка конкретного действия, одновременно со заявленным нейтралитетом. Из неё не следуют санкции или разрыв отношений; положительный полюс остаётся unknown.",
+      "evidence_indices": [],
+      "source_urls": [
+        "https://www.newtimes.co.rw/article/10916/news/politics/kagame-the-problem-is-not-between-me-and-tshisekedi/amp"
+      ],
+      "new_facts": [
+        {
+          "source_url": "https://www.newtimes.co.rw/article/10916/news/politics/kagame-the-problem-is-not-between-me-and-tshisekedi/amp",
+          "title": "Kagame: The problem is not between me and Tshisekedi",
+          "period": "2023-09-12",
+          "publication_date": "2023-09-20",
+          "event_id": "kagame-soudan-interview-2023-09-12",
+          "capacity": "Президент Республики Руанда",
+          "verification_method": "web_open_full_attributed_interview_reprint; автор François Soudan, исходное интервью Jeune Afrique/The Africa Report; оригинал Jeune Afrique вернул403",
+          "original_source_url": "https://www.jeuneafrique.com/1483925/politique/paul-kagame-le-probleme-nest-pas-entre-moi-et-tshisekedi-mais-entre-tshisekedi-et-le-m23/",
+          "text": "В интервью Франсуа Судану 12 сентября 2023 года Кагаме, отвечая о войне России против Украины, объяснил голосование Руанды за резолюцию ООН принципом недопустимости вторжения одной страны в другую, прямо назвав Россию. В том же ответе он подчёркивал собственный нейтралитет и нежелание выбирать сторону.",
+          "actor_id": "paul-kagame",
+          "topic_ids": [
+            "russia-conflict-policy-evaluation"
+          ],
+          "novelty": "Новый для сохранённого independent-dossier факт; предложение не изменяет canonical ratings."
+        }
+      ],
+      "review_status": "proposed_by_assistant_requires_source_and_semantic_integration_review"
+    },
+    {
+      "object_id": "ines-mpambara",
+      "scale_id": "participation-administrative-direction",
+      "pole": "negative",
+      "value": 2,
+      "rationale": "Собственное поручение районным руководителям: работать по целям, совместно и с ответственностью за конкретные социальные задачи. Это прямая административная постановка задач, а не вывод из должности.",
+      "evidence_indices": [],
+      "source_urls": [
+        "https://www.rulindo.gov.rw/amakuru/inkuru-irambuye/rulindo-abitabiriye-umwiherero-winama-njyanama-basabwe-gukorera-ku-ntego-no-kuzuzanya"
+      ],
+      "new_facts": [
+        {
+          "source_url": "https://www.rulindo.gov.rw/amakuru/inkuru-irambuye/rulindo-abitabiriye-umwiherero-winama-njyanama-basabwe-gukorera-ku-ntego-no-kuzuzanya",
+          "title": "Rulindo: Abitabiriye umwiherero w’Inama Njyanama basabwe gukorera ku ntego no kuzuzanya",
+          "period": "2022-03-19",
+          "event_id": "mpambara-rulindo-council-retreat-2022-03-19",
+          "capacity": "Министр по делам Кабинета в канцелярии премьер-министра",
+          "verification_method": "web_search_cached_full_primary_article; direct_open возвращал Cache miss; оригинал на киньяруанда прочитан с сохранением атрибуции отдельных выступающих",
+          "text": "На совещании Рулиндо Мпамбара поручила руководителям работать по целям и назвала нерешённые проблемы уличных детей, ухода из школы, подростковой беременности и детского недоедания, которые власти должны решать.",
+          "actor_id": "ines-mpambara",
+          "topic_ids": [
+            "participation-administrative-direction"
+          ],
+          "novelty": "Новый для сохранённого independent-dossier факт; предложение не изменяет canonical ratings."
+        }
+      ],
+      "review_status": "proposed_by_assistant_requires_source_and_semantic_integration_review"
+    },
+    {
+      "object_id": "ines-mpambara",
+      "scale_id": "problem-disclosure-reputation-defence",
+      "pole": "positive",
+      "value": 2,
+      "rationale": "Она лично перечисляет сохраняющиеся конкретные проблемы района, которые должны решать власти. Чужие доклады Каитеси, Нгендахиманы и Рутиканги не переношу на неё.",
+      "evidence_indices": [],
+      "source_urls": [
+        "https://www.rulindo.gov.rw/amakuru/inkuru-irambuye/rulindo-abitabiriye-umwiherero-winama-njyanama-basabwe-gukorera-ku-ntego-no-kuzuzanya"
+      ],
+      "new_facts": [
+        {
+          "source_url": "https://www.rulindo.gov.rw/amakuru/inkuru-irambuye/rulindo-abitabiriye-umwiherero-winama-njyanama-basabwe-gukorera-ku-ntego-no-kuzuzanya",
+          "title": "Rulindo: Abitabiriye umwiherero w’Inama Njyanama basabwe gukorera ku ntego no kuzuzanya",
+          "period": "2022-03-19",
+          "event_id": "mpambara-rulindo-council-retreat-2022-03-19",
+          "capacity": "Министр по делам Кабинета в канцелярии премьер-министра",
+          "verification_method": "web_search_cached_full_primary_article; direct_open возвращал Cache miss; оригинал на киньяруанда прочитан с сохранением атрибуции отдельных выступающих",
+          "text": "На совещании Рулиндо Мпамбара поручила руководителям работать по целям и назвала нерешённые проблемы уличных детей, ухода из школы, подростковой беременности и детского недоедания, которые власти должны решать.",
+          "actor_id": "ines-mpambara",
+          "topic_ids": [
+            "problem-disclosure-reputation-defence"
+          ],
+          "novelty": "Новый для сохранённого independent-dossier факт; предложение не изменяет canonical ratings."
+        }
+      ],
+      "review_status": "proposed_by_assistant_requires_source_and_semantic_integration_review"
+    },
+    {
+      "object_id": "ines-mpambara",
+      "scale_id": "accessibility-growth-priorities",
+      "pole": "positive",
+      "value": 1,
+      "rationale": "Узкий акцент на решении проблемы ухода детей из школы и детского недоедания: указаны базовые услуги/потребности и получатели. Конкретную новую модель финансирования или уже достигнутый результат источник не устанавливает.",
+      "evidence_indices": [],
+      "source_urls": [
+        "https://www.rulindo.gov.rw/amakuru/inkuru-irambuye/rulindo-abitabiriye-umwiherero-winama-njyanama-basabwe-gukorera-ku-ntego-no-kuzuzanya"
+      ],
+      "new_facts": [
+        {
+          "source_url": "https://www.rulindo.gov.rw/amakuru/inkuru-irambuye/rulindo-abitabiriye-umwiherero-winama-njyanama-basabwe-gukorera-ku-ntego-no-kuzuzanya",
+          "title": "Rulindo: Abitabiriye umwiherero w’Inama Njyanama basabwe gukorera ku ntego no kuzuzanya",
+          "period": "2022-03-19",
+          "event_id": "mpambara-rulindo-council-retreat-2022-03-19",
+          "capacity": "Министр по делам Кабинета в канцелярии премьер-министра",
+          "verification_method": "web_search_cached_full_primary_article; direct_open возвращал Cache miss; оригинал на киньяруанда прочитан с сохранением атрибуции отдельных выступающих",
+          "text": "На совещании Рулиндо Мпамбара поручила руководителям работать по целям и назвала нерешённые проблемы уличных детей, ухода из школы, подростковой беременности и детского недоедания, которые власти должны решать.",
+          "actor_id": "ines-mpambara",
+          "topic_ids": [
+            "accessibility-growth-priorities"
+          ],
+          "novelty": "Новый для сохранённого independent-dossier факт; предложение не изменяет canonical ratings."
+        }
+      ],
+      "review_status": "proposed_by_assistant_requires_source_and_semantic_integration_review"
+    },
+    {
+      "object_id": "juvenal-marizamunda",
+      "scale_id": "government-course-assessment",
+      "pole": "positive",
+      "value": 2,
+      "rationale": "Прямая положительная оценка конкретного государственного решения и текущего направления медицинского обеспечения. Это отраслевой, служебный акцент, не одобрение всей политики и не вывод из министерского статуса.",
+      "evidence_indices": [],
+      "source_urls": [
+        "https://www.mod.gov.rw/docs-media/news-detail/defence-college-of-health-sciences-officially-opens-at-gako?cHash=0eb7ee62900ffe4fe0c433774a2d683c&tx_news_pi1%5BcurrentPage%5D=3"
+      ],
+      "new_facts": [
+        {
+          "source_url": "https://www.mod.gov.rw/docs-media/news-detail/defence-college-of-health-sciences-officially-opens-at-gako?cHash=0eb7ee62900ffe4fe0c433774a2d683c&tx_news_pi1%5BcurrentPage%5D=3",
+          "title": "Defence College of Health Sciences officially opens at Gako",
+          "period": "2026-10-02",
+          "event_id": "marizamunda-health-sciences-college-2026-10-02",
+          "capacity": "Министр обороны Руанды",
+          "text": "При открытии первого набора Колледжа медицинских наук обороны Маризамунда положительно оценил создание учреждения как проявление государственной приверженности медицинскому образованию и качественной помощи военнослужащим. Он связал колледж с подготовкой медиков для мирного времени и сложных оперативных условий.",
+          "actor_id": "juvenal-marizamunda",
+          "topic_ids": [
+            "government-course-assessment"
+          ],
+          "verification_method": "web_open_full_primary_text",
+          "novelty": "Новый для сохранённого independent-dossier факт; предложение не изменяет canonical ratings."
+        }
+      ],
+      "review_status": "proposed_by_assistant_requires_source_and_semantic_integration_review"
+    },
+    {
+      "object_id": "juvenal-marizamunda",
+      "scale_id": "accessibility-growth-priorities",
+      "pole": "positive",
+      "value": 1,
+      "rationale": "Публично связывает конкретное учреждение с доступной военнослужащим медицинской помощью; получатель и механизм названы. Ограничено военной группой, не универсальным доступом всех граждан.",
+      "evidence_indices": [],
+      "source_urls": [
+        "https://www.mod.gov.rw/docs-media/news-detail/defence-college-of-health-sciences-officially-opens-at-gako?cHash=0eb7ee62900ffe4fe0c433774a2d683c&tx_news_pi1%5BcurrentPage%5D=3"
+      ],
+      "new_facts": [
+        {
+          "source_url": "https://www.mod.gov.rw/docs-media/news-detail/defence-college-of-health-sciences-officially-opens-at-gako?cHash=0eb7ee62900ffe4fe0c433774a2d683c&tx_news_pi1%5BcurrentPage%5D=3",
+          "title": "Defence College of Health Sciences officially opens at Gako",
+          "period": "2026-10-02",
+          "event_id": "marizamunda-health-sciences-college-2026-10-02",
+          "capacity": "Министр обороны Руанды",
+          "text": "При открытии первого набора Колледжа медицинских наук обороны Маризамунда положительно оценил создание учреждения как проявление государственной приверженности медицинскому образованию и качественной помощи военнослужащим. Он связал колледж с подготовкой медиков для мирного времени и сложных оперативных условий.",
+          "actor_id": "juvenal-marizamunda",
+          "topic_ids": [
+            "accessibility-growth-priorities"
+          ],
+          "verification_method": "web_open_full_primary_text",
+          "novelty": "Новый для сохранённого independent-dossier факт; предложение не изменяет canonical ratings."
+        }
+      ],
+      "review_status": "proposed_by_assistant_requires_source_and_semantic_integration_review"
+    },
+    {
+      "object_id": "juvenal-marizamunda",
+      "scale_id": "programmatic-renewal",
+      "pole": "negative",
+      "value": 1,
+      "rationale": "Прямой призыв продолжать действующее направление EASF и углублять существующие механизмы. Узкая региональная программа, один эпизод; простое занятие должности не используется.",
+      "evidence_indices": [],
+      "source_urls": [
+        "https://www.mod.gov.rw/docs-media/news-detail/easf-chiefs-of-defence-convene-in-kigali-for-stronger-partnership?cHash=0eb7ee62900ffe4fe0c433774a2d683c&tx_news_pi1%5BcurrentPage%5D=3"
+      ],
+      "new_facts": [
+        {
+          "source_url": "https://www.mod.gov.rw/docs-media/news-detail/easf-chiefs-of-defence-convene-in-kigali-for-stronger-partnership?cHash=0eb7ee62900ffe4fe0c433774a2d683c&tx_news_pi1%5BcurrentPage%5D=3",
+          "title": "EASF Chiefs of Defence convene in Kigali for stronger partnership",
+          "period": "2024-12-19",
+          "event_id": "marizamunda-easf-policy-organs-2024-12-19",
+          "capacity": "Министр обороны Руанды",
+          "verification_method": "web_search_cached_full_primary_article",
+          "text": "На открытии совещания органов политики EASF Маризамунда прямо призвал продолжать совместную работу в политической, оборонной, гуманитарной и экономической сферах и углублять уже действующие партнёрства. Он также предложил улучшать системы реагирования на существующие вызовы.",
+          "actor_id": "juvenal-marizamunda",
+          "topic_ids": [
+            "programmatic-renewal"
+          ],
+          "novelty": "Новый для сохранённого independent-dossier факт; предложение не изменяет canonical ratings."
+        }
+      ],
+      "review_status": "proposed_by_assistant_requires_source_and_semantic_integration_review"
+    },
+    {
+      "object_id": "mussa-fazil-harerimana",
+      "scale_id": "problem-disclosure-reputation-defence",
+      "pole": "positive",
+      "value": 2,
+      "rationale": "Прямое персональное признание конкретного недостатка инфраструктуры и территориального доступа с названными районами. Показатели передают его публичную аргументацию, не независимую проверку текущего доступа.",
+      "evidence_indices": [],
+      "source_urls": [
+        "https://www.newtimes.co.rw/article/1895/news/infrastructure/rwanda-earmarks-rwf500bn-for-major-electrification-drive/amp"
+      ],
+      "new_facts": [
+        {
+          "source_url": "https://www.newtimes.co.rw/article/1895/news/infrastructure/rwanda-earmarks-rwf500bn-for-major-electrification-drive/amp",
+          "title": "Rwanda earmarks Rwf500bn for major electrification drive",
+          "period": "2022-10-18",
+          "publication_date": "2022-10-19",
+          "event_id": "harerimana-electricity-hearing-2022-10-18",
+          "capacity": "Заместитель спикера по финансам и администрации",
+          "verification_method": "web_search_full_attributed_news_article",
+          "text": "На парламентском обсуждении электрификации Хареримана лично указал на проблему энергетической инфраструктуры и крайне низкий доступ в отдельных районах; он перечислил, например, Буреру с43% и Ньямашеке с44%. Источник не приписывает ему обещание министра выделить500млрд франков.",
+          "actor_id": "mussa-fazil-harerimana",
+          "topic_ids": [
+            "problem-disclosure-reputation-defence"
+          ],
+          "novelty": "Новый для сохранённого independent-dossier факт; предложение не изменяет canonical ratings."
+        }
+      ],
+      "review_status": "proposed_by_assistant_requires_source_and_semantic_integration_review"
+    },
+    {
+      "object_id": "mussa-fazil-harerimana",
+      "scale_id": "accessibility-growth-priorities",
+      "pole": "positive",
+      "value": 1,
+      "rationale": "Конкретное базовое благо и обещание расширить охват названы и персонально атрибутированы. Детального механизма нет, поэтому только1; это отличается от ранее отвергнутых общих слов о благосостоянии.",
+      "evidence_indices": [],
+      "source_urls": [
+        "https://www.africa-press.net/rwanda/parties/musanze-pdi-commits-to-increasing-access-to-electricity"
+      ],
+      "new_facts": [
+        {
+          "source_url": "https://www.africa-press.net/rwanda/parties/musanze-pdi-commits-to-increasing-access-to-electricity",
+          "title": "Musanze: PDI commits to increasing access to electricity",
+          "period": "2024-07-10",
+          "event_id": "harerimana-musanze-electricity-campaign-2024-07-10",
+          "capacity": "Председатель PDI, участник парламентской кампании",
+          "verification_method": "web_search_full_attributed_news_reprint; исходный New Times найден, body недоступен, републикация Africa-Press прочитана полностью",
+          "original_source_url": "https://www.newtimes.co.rw/article/18357/news/elections/musanze-pdi-commits-to-increasing-access-to-electricity",
+          "text": "В освещении митинга в Мухозе 10 июля 2024 года обещание PDI расширять доступ к электричеству после переизбрания её кандидатов прямо приписано Хареримане. Предложения слушателей об училищах и помощи девушкам не приписываются самому политику.",
+          "actor_id": "mussa-fazil-harerimana",
+          "topic_ids": [
+            "accessibility-growth-priorities"
+          ],
+          "novelty": "Новый для сохранённого independent-dossier факт; предложение не изменяет canonical ratings."
+        }
+      ],
+      "review_status": "proposed_by_assistant_requires_source_and_semantic_integration_review"
+    },
+    {
+      "object_id": "olivier-nduhungirehe",
+      "scale_id": "prevention-crisis-response",
+      "pole": "positive",
+      "value": 2,
+      "rationale": "Новая полная выдержка устраняет причину прежнего reject: вместо одного анализа причин терроризма в пункте5 есть прямое предложение раннего вмешательства и развития устойчивости общин до вреда. Это тот же эпизод21.01.2025, не второе независимое событие.",
+      "evidence_indices": [],
+      "source_urls": [
+        "https://www.minaffet.gov.rw/updates/news-details/statement-by-minister-nduhungirehe-in-the-high-level-debate-in-the-united-nations-security-council-on-african-led-and-development-focused-counterterrorism-strengthening-african-leadership-and-implementation-of-counter-terrorism-initiatives"
+      ],
+      "new_facts": [
+        {
+          "source_url": "https://www.minaffet.gov.rw/updates/news-details/statement-by-minister-nduhungirehe-in-the-high-level-debate-in-the-united-nations-security-council-on-african-led-and-development-focused-counterterrorism-strengthening-african-leadership-and-implementation-of-counter-terrorism-initiatives",
+          "title": "Statement by Minister Nduhungirehe in the High-Level Debate in the United Nations Security Council on African-led counterterrorism",
+          "period": "2025-01-21",
+          "event_id": "nduhungirehe-unsc-counterterrorism-2025-01-21",
+          "capacity": "Министр иностранных дел и международного сотрудничества",
+          "verification_method": "web_open_full_primary_speech, пункт Fifth",
+          "novelty": "Новый релевантный фрагмент полного текста ранее известного эпизода; исходные факты14/21 содержали только анализ причин и не содержали пункта5. Не считать отдельным эпизодом.",
+          "text": "В пятом пункте собственного выступления в Совете Безопасности ООН Ндухунгирехе прямо предложил поставить профилактику в центр контртеррористической стратегии: ранние программы противодействия насильственному экстремизму, поддержку молодёжи и устойчивости местных общин.",
+          "actor_id": "olivier-nduhungirehe",
+          "topic_ids": [
+            "prevention-crisis-response"
+          ]
+        }
+      ],
+      "review_status": "proposed_by_assistant_requires_source_and_semantic_integration_review"
+    },
+    {
+      "object_id": "olivier-nduhungirehe",
+      "scale_id": "programmatic-renewal",
+      "pole": "negative",
+      "value": 2,
+      "rationale": "Прямо называет действующую Vision2050 и выполнение уже подписанного соглашения AfCFTA и рамочного соглашения2013г. приоритетами продолжающейся политики. Это конкретные программы, не благодарность за назначение.",
+      "evidence_indices": [],
+      "source_urls": [
+        "https://www.minaffet.gov.rw/updates/news-details/rwandas-regional-and-foreign-policy-priorities-a-seminar-by-the-minister-of-foreign-affairs-of-rwanda-at-chatham-house"
+      ],
+      "new_facts": [
+        {
+          "source_url": "https://www.minaffet.gov.rw/updates/news-details/rwandas-regional-and-foreign-policy-priorities-a-seminar-by-the-minister-of-foreign-affairs-of-rwanda-at-chatham-house",
+          "title": "Rwanda’s regional and foreign policy priorities — Minister Nduhungirehe at Chatham House",
+          "period": "2024-12-04",
+          "event_id": "nduhungirehe-chatham-house-2024-12-04",
+          "capacity": "Министр иностранных дел и международного сотрудничества",
+          "text": "В собственной речи в Chatham House Ндухунгирехе подтвердил следование Vision2050, продвижение выполнения AfCFTA и необходимость исполнения рамочного соглашения мира и безопасности2013г.; он обещал продолжать строить связи и сотрудничество.",
+          "actor_id": "olivier-nduhungirehe",
+          "topic_ids": [
+            "programmatic-renewal"
+          ],
+          "verification_method": "web_search_cached_full_primary_article",
+          "novelty": "Новый для сохранённого independent-dossier факт; предложение не изменяет canonical ratings."
+        }
+      ],
+      "review_status": "proposed_by_assistant_requires_source_and_semantic_integration_review"
+    },
+    {
+      "object_id": "james-kabarebe",
+      "scale_id": "accessibility-growth-priorities",
+      "pole": "positive",
+      "value": 2,
+      "rationale": "Личный прямой призыв к полноценному питанию детей на запуске конкретной программы помощи и её практических мероприятий. Здесь есть базовая потребность, адресат и механизм; не вывод из участия или биографии.",
+      "evidence_indices": [],
+      "source_urls": [
+        "https://www.northernprovince.gov.rw/amakuru/amakuru-arambuye/burera-hatangijwe-gahunda-yihariye-yo-kurwanya-imirire-mibi-nigwingira"
+      ],
+      "new_facts": [
+        {
+          "source_url": "https://www.northernprovince.gov.rw/amakuru/amakuru-arambuye/burera-hatangijwe-gahunda-yihariye-yo-kurwanya-imirire-mibi-nigwingira",
+          "title": "Burera: Hatangijwe gahunda yihariye yo kurwanya imirire mibi n’igwingira",
+          "period": "2025-02-07",
+          "publication_date": "2025-02-08",
+          "event_id": "kabarebe-burera-nutrition-2025-02-07",
+          "capacity": "Государственный министр по региональному сотрудничеству",
+          "verification_method": "web_search_cached_full_primary_provincial_article; direct_open_cache_miss; атрибуция сверена с New Times09.02.2025",
+          "text": "На запуске антинутриционного Umuganda в Бурере Кабаребе заявил, что страна не может развиваться при задержке роста детей, и призвал жителей лучше заботиться о детях, обеспечивать полноценное и чистое питание и бороться с наркотиками. Мероприятие включало огороды, кормление детей и помощь уязвимым семьям.",
+          "actor_id": "james-kabarebe",
+          "topic_ids": [
+            "accessibility-growth-priorities"
+          ],
+          "novelty": "Новый для сохранённого independent-dossier факт; предложение не изменяет canonical ratings."
+        }
+      ],
+      "review_status": "proposed_by_assistant_requires_source_and_semantic_integration_review"
+    },
+    {
+      "object_id": "james-kabarebe",
+      "scale_id": "problem-disclosure-reputation-defence",
+      "pole": "positive",
+      "value": 1,
+      "rationale": "Он лично признаёт конкретную проблему задержки роста у детей как препятствие развитию в контексте районной программы. Числовую статистику, приведённую мэром, ему не приписываю.",
+      "evidence_indices": [],
+      "source_urls": [
+        "https://www.northernprovince.gov.rw/amakuru/amakuru-arambuye/burera-hatangijwe-gahunda-yihariye-yo-kurwanya-imirire-mibi-nigwingira"
+      ],
+      "new_facts": [
+        {
+          "source_url": "https://www.northernprovince.gov.rw/amakuru/amakuru-arambuye/burera-hatangijwe-gahunda-yihariye-yo-kurwanya-imirire-mibi-nigwingira",
+          "title": "Burera: Hatangijwe gahunda yihariye yo kurwanya imirire mibi n’igwingira",
+          "period": "2025-02-07",
+          "publication_date": "2025-02-08",
+          "event_id": "kabarebe-burera-nutrition-2025-02-07",
+          "capacity": "Государственный министр по региональному сотрудничеству",
+          "verification_method": "web_search_cached_full_primary_provincial_article; direct_open_cache_miss; атрибуция сверена с New Times09.02.2025",
+          "text": "На запуске антинутриционного Umuganda в Бурере Кабаребе заявил, что страна не может развиваться при задержке роста детей, и призвал жителей лучше заботиться о детях, обеспечивать полноценное и чистое питание и бороться с наркотиками. Мероприятие включало огороды, кормление детей и помощь уязвимым семьям.",
+          "actor_id": "james-kabarebe",
+          "topic_ids": [
+            "problem-disclosure-reputation-defence"
+          ],
+          "novelty": "Новый для сохранённого independent-dossier факт; предложение не изменяет canonical ratings."
+        }
+      ],
+      "review_status": "proposed_by_assistant_requires_source_and_semantic_integration_review"
+    },
+    {
+      "object_id": "james-kabarebe",
+      "scale_id": "prevention-crisis-response",
+      "pole": "positive",
+      "value": 1,
+      "rationale": "Собственное требование сохранять готовность к возникающим угрозам адресовано обучающимся офицерам; это подготовка к будущим операциям, не просто участие в оборонном ведомстве.",
+      "evidence_indices": [],
+      "source_urls": [
+        "https://mod.gov.rw/docs-media/news-detail/gen-rtd-james-kabarebe-briefs-rdf-senior-command-and-staff-course-students-and-faculty-1?cHash=6c7714bde0f22ee60bef5ea6391d1992&tx_news_pi1%5BcurrentPage%5D=5"
+      ],
+      "new_facts": [
+        {
+          "source_url": "https://mod.gov.rw/docs-media/news-detail/gen-rtd-james-kabarebe-briefs-rdf-senior-command-and-staff-course-students-and-faculty-1?cHash=6c7714bde0f22ee60bef5ea6391d1992&tx_news_pi1%5BcurrentPage%5D=5",
+          "title": "Gen (Rtd) James Kabarebe briefs RDF Senior Command and Staff Course students and faculty",
+          "period": "2025-04-19",
+          "event_id": "kabarebe-scsc-readiness-2025-04-19",
+          "capacity": "Государственный министр по региональной интеграции",
+          "text": "Завершая учебную поездку офицеров курса командования и штаба, Кабаребе связал национальную безопасность с готовностью RDF и призвал сохранять её перед новыми угрозами; обучение включало извлечение уроков для будущих операций.",
+          "actor_id": "james-kabarebe",
+          "topic_ids": [
+            "prevention-crisis-response"
+          ],
+          "verification_method": "web_search_cached_full_primary_article",
+          "novelty": "Новый для сохранённого independent-dossier факт; предложение не изменяет canonical ratings."
+        }
+      ],
+      "review_status": "proposed_by_assistant_requires_source_and_semantic_integration_review"
+    },
+    {
+      "object_id": "francis-gatare",
+      "scale_id": "argumentation-evidence-values",
+      "pole": "negative",
+      "value": 2,
+      "rationale": "В собственном выступлении он прямо обосновывает поведение ответственностью за историческую память и преодолением несправедливости. Это содержательная ценностная аргументация, не сам факт присутствия на церемонии.",
+      "evidence_indices": [],
+      "source_urls": [
+        "https://www.newtimes.co.rw/article/17529/news/kwibuka/kwibuka-rdb-rcb-rha-staff-honour-genocide-victims/amp"
+      ],
+      "new_facts": [
+        {
+          "source_url": "https://www.newtimes.co.rw/article/17529/news/kwibuka/kwibuka-rdb-rcb-rha-staff-honour-genocide-victims/amp",
+          "title": "Kwibuka: RDB, RCB, RHA staff honour Genocide victims",
+          "period": "2024-06-08",
+          "publication_date": "2024-06-10",
+          "event_id": "gatare-mwulire-memory-2024-06-08",
+          "capacity": "Генеральный директор Rwanda Development Board",
+          "verification_method": "web_search_cached_full_attributed_news_article; direct_open_cache_miss",
+          "text": "В речи у мемориала Мвулире Гатаре призвал учиться на ошибках, отстраняться от несправедливости, делиться исторической памятью и продолжать создавать будущее Руанды.",
+          "actor_id": "francis-gatare",
+          "topic_ids": [
+            "argumentation-evidence-values"
+          ],
+          "novelty": "Новый для сохранённого independent-dossier факт; предложение не изменяет canonical ratings."
+        }
+      ],
+      "review_status": "proposed_by_assistant_requires_source_and_semantic_integration_review"
+    },
+    {
+      "object_id": "francois-xavier-kalinda",
+      "scale_id": "accessibility-growth-priorities",
+      "pole": "positive",
+      "value": 2,
+      "rationale": "Его прямая реплика связывает развитие медицинских пунктов с доступом всех граждан к помощи, а полевые визиты — с оценкой препятствий. Это конкретный механизм базовой услуги, не вывод из должности. Точный день реплики не установлен, поэтому период указан только месяцем.",
+      "evidence_indices": [],
+      "source_urls": [
+        "https://staging.ickjournalism.com/senators-to-evaluate-progress-in-health-post-development/"
+      ],
+      "new_facts": [
+        {
+          "source_url": "https://staging.ickjournalism.com/senators-to-evaluate-progress-in-health-post-development/",
+          "title": "Senators to Evaluate Progress in Health Post Development",
+          "period": "2025-01",
+          "event_id": "kalinda-health-post-outreach-2025-01-21",
+          "capacity": "Председатель Сената",
+          "verification_method": "web_search_full_attributed_news_article; программа и даты сверены с официальной парламентской страницей press-release-senators-to-monitor-the-status-and-development-of-health-posts-during-outreach-activity",
+          "text": "Комментируя запланированные на21–30января2025г. проверки медицинских пунктов, Калинда прямо связал их развитие с улучшением доступности медицинских услуг всем гражданам и признал препятствия их эффективной работе.",
+          "corroborating_url": "https://www.parliament.gov.rw/news-details/press-release-senators-to-monitor-the-status-and-development-of-health-posts-during-outreach-activity",
+          "date_note": "Дата начала проверок подтверждена официальным сообщением; точный день собственной реплики отдельно не установлен, она относится к подготовке этой программы в январе2025.",
+          "actor_id": "francois-xavier-kalinda",
+          "topic_ids": [
+            "accessibility-growth-priorities"
+          ],
+          "novelty": "Новый для сохранённого independent-dossier факт; предложение не изменяет canonical ratings.",
+          "date_precision": "month",
+          "source_precision_caveat": "Доступен полный приписанный Калинде текст в СМИ на staging-домене; собственная цитата датируется месяцем, не точным днём. Официальное сообщение подтверждает программу выездов, но его полный текст не прочитан. При требовании первичного источника оставить pending."
+        }
+      ],
+      "review_status": "proposed_by_assistant_requires_source_and_semantic_integration_review"
+    },
+    {
+      "object_id": "juvenal-marizamunda",
+      "scale_id": "problem-disclosure-reputation-defence",
+      "pole": "positive",
+      "value": 2,
+      "rationale": "Подписанный собственный текст прямо признаёт конкретный ущерб подведомственной службы. В отличие от прежнего reject общего перечня мировых угроз, это собственный институциональный недостаток/кризис с названными показателями. Период публичного высказывания подтверждён как2022, точный день неизвестен.",
+      "evidence_indices": [],
+      "source_urls": [
+        "https://rcs.gov.rw/wp-content/uploads/2022/03/RCS-Magazine.pdf"
+      ],
+      "new_facts": [
+        {
+          "source_url": "https://rcs.gov.rw/wp-content/uploads/2022/03/RCS-Magazine.pdf",
+          "title": "RCS Gororoka Magazine, second issue — Foreword signed by CGP Juvenal Marizamunda",
+          "period": "2022",
+          "date_precision": "year",
+          "date_verification": "Editorial on p6 calls2021 the previous year; файл размещён в каталоге2022/03. Точная дата предисловия не установлена. Не выдавать месяц загрузки за точный день речи.",
+          "event_id": "marizamunda-gororoka-issue2-foreword-2022",
+          "capacity": "Генеральный комиссар Rwanda Correctional Service",
+          "verification_method": "web_search_cached_full_signed_foreword_p4_and_editorial_p6; web_open redirected inaccessible; визуальная сверка PDF недоступна",
+          "text": "В подписанном предисловии Gororoka Маризамунда признал воздействие COVID-19 на службу: 2891 случай и 42 смерти заключённых. Он описал специальный противоэпидемический порядок и призвал постоянно соблюдать меры профилактики. Показатели кумулятивные; публикация 2022 г., точный день неизвестен.",
+          "actor_id": "juvenal-marizamunda",
+          "topic_ids": [
+            "problem-disclosure-reputation-defence"
+          ],
+          "novelty": "Новый для сохранённого independent-dossier факт; предложение не изменяет canonical ratings."
+        }
+      ],
+      "review_status": "proposed_by_assistant_requires_source_and_semantic_integration_review"
+    },
+    {
+      "object_id": "juvenal-marizamunda",
+      "scale_id": "participation-administrative-direction",
+      "pole": "negative",
+      "value": 1,
+      "rationale": "В собственном подписанном тексте он призывает к постоянному выполнению конкретных мер COVID-профилактики, а не просто перечисляет обязанности ведомства. Принятие им лично специального приказа не утверждается;1отражает узкую явную директиву.",
+      "evidence_indices": [],
+      "source_urls": [
+        "https://rcs.gov.rw/wp-content/uploads/2022/03/RCS-Magazine.pdf"
+      ],
+      "new_facts": [
+        {
+          "source_url": "https://rcs.gov.rw/wp-content/uploads/2022/03/RCS-Magazine.pdf",
+          "title": "RCS Gororoka Magazine, second issue — Foreword signed by CGP Juvenal Marizamunda",
+          "period": "2022",
+          "date_precision": "year",
+          "date_verification": "Editorial on p6 calls2021 the previous year; файл размещён в каталоге2022/03. Точная дата предисловия не установлена. Не выдавать месяц загрузки за точный день речи.",
+          "event_id": "marizamunda-gororoka-issue2-foreword-2022",
+          "capacity": "Генеральный комиссар Rwanda Correctional Service",
+          "verification_method": "web_search_cached_full_signed_foreword_p4_and_editorial_p6; web_open redirected inaccessible; визуальная сверка PDF недоступна",
+          "text": "В подписанном предисловии Gororoka Маризамунда признал воздействие COVID-19 на службу: 2891 случай и 42 смерти заключённых. Он описал специальный противоэпидемический порядок и призвал постоянно соблюдать меры профилактики. Показатели кумулятивные; публикация 2022 г., точный день неизвестен.",
+          "actor_id": "juvenal-marizamunda",
+          "topic_ids": [
+            "participation-administrative-direction"
+          ],
+          "novelty": "Новый для сохранённого independent-dossier факт; предложение не изменяет canonical ratings."
+        }
+      ],
+      "review_status": "proposed_by_assistant_requires_source_and_semantic_integration_review"
+    }
+  ],
+  "journal": [
+    {
+      "object_id": "paul-kagame",
+      "tool": "web search/open",
+      "at": "2026-10-15",
+      "searches": [
+        {
+          "query": "site.paulkagame.rw 2024 speech health insurance electricity water affordable government officials"
+        },
+        {
+          "query": "\"Kagame\" \"Russia\" \"2022\" \"2023\" cooperation"
+        },
+        {
+          "query": "site.mid.ru \"Руанды\" \"Кагаме\" 2022 2023 2024"
+        },
+        {
+          "query": "site.paulkagame.rw \"2024\" \"health insurance\""
+        },
+        {
+          "query": "site.paulkagame.rw \"2025\" \"water\" \"electricity\""
+        },
+        {
+          "query": "site.paulkagame.rw \"2023\" \"reform\" \"2024\" African Union"
+        },
+        {
+          "query": "site.paulkagame.rw 2023 2024 \"affordable\" vaccines"
+        },
+        {
+          "query": "\"Kagame\" \"Ukraine\" \"Russia\" \"2022\" interview"
+        },
+        {
+          "query": "\"Kagame\" \"Russia\" \"sanctions\" \"2023\""
+        },
+        {
+          "query": "\"Kagame\" \"Putin\" \"2024\" cooperation nuclear"
+        },
+        {
+          "query": "\"Кагаме\" \"Россия\" \"2025\" сотрудничество"
+        },
+        {
+          "query": "\"Kagame\" \"We voted in favour\" \"Russia\" \"2023\""
+        },
+        {
+          "query": "\"Kagame\" \"singular principle\" \"Ukraine\""
+        },
+        {
+          "query": "site.theafricareport.com \"Kagame\" \"Tshisekedi\" \"September\" \"2023\""
+        },
+        {
+          "query": "site.jeuneafrique.com \"Kagame\" \"Russie\" \"septembre\" \"2023\""
+        }
+      ],
+      "reviewed_domains": [
+        "официальные сайты Rwanda и ведомств/парламента",
+        "личный официальный сайт Кагаме, где применимо",
+        "New Times и другие атрибутирующие местные СМИ",
+        "российские официальные/посольские материалы и результаты тематических запросов"
+      ],
+      "coverage": "Проверены все запланированные неизвестные core-клетки и оба полюса шести российских тем; отсутствие релевантной выдачи не кодировалось нулём."
+    },
+    {
+      "object_id": "olivier-nduhungirehe",
+      "tool": "web search/open",
+      "at": "2026-10-15",
+      "searches": [
+        {
+          "query": "\"Olivier Nduhungirehe\" \"Russia\" sanctions Ukraine 2024 2025"
+        },
+        {
+          "query": "\"Olivier Nduhungirehe\" priorities prevention challenges speech 2024 2025"
+        },
+        {
+          "query": "site.minaffet.gov.rw \"Nduhungirehe\" \"Russia\""
+        },
+        {
+          "query": "\"Nduhungirehe\" \"prevention\" \"2024\" \"2025\" minaffet"
+        },
+        {
+          "query": "\"Nduhungirehe\" \"challenges\" \"Rwanda\" \"2024\" Chatham"
+        },
+        {
+          "query": "site.minaffet.gov.rw \"Rwanda’s regional and foreign policy priorities\""
+        },
+        {
+          "query": "\"Nduhungirehe\" \"Rwanda\" \"challenges\" \"landlocked\""
+        },
+        {
+          "query": "\"Nduhungirehe\" \"Russia\" \"sanctions\" \"Ukraine\" after:2021-10-15"
+        },
+        {
+          "query": "\"Nduhungirehe\" \"Russia\" \"military\" after:2021-10-15"
+        },
+        {
+          "query": "\"Nduhungirehe\" \"ambassadors\" \"urged\" \"2025\" \"2024\""
+        },
+        {
+          "query": "\"Nduhungirehe\" \"retreat\" \"2025\" \"2024\""
+        },
+        {
+          "query": "\"Nduhungirehe\" \"Ukraine\" \"2022\" \"2023\" \"2024\""
+        },
+        {
+          "query": "site.opcw.org \"NDUHUNGIREHE\" \"Ukraine\""
+        },
+        {
+          "query": "site.minaffet.gov.rw \"Nduhungirehe\" \"early intervention\""
+        }
+      ],
+      "reviewed_domains": [
+        "официальные сайты Rwanda и ведомств/парламента",
+        "личный официальный сайт Кагаме, где применимо",
+        "New Times и другие атрибутирующие местные СМИ",
+        "российские официальные/посольские материалы и результаты тематических запросов"
+      ],
+      "coverage": "Проверены все запланированные неизвестные core-клетки и оба полюса шести российских тем; отсутствие релевантной выдачи не кодировалось нулём."
+    },
+    {
+      "object_id": "james-kabarebe",
+      "tool": "web search/open",
+      "at": "2026-10-15",
+      "searches": [
+        {
+          "query": "\"James Kabarebe\" \"Russia\" cooperation 2022 2023 2024 2025"
+        },
+        {
+          "query": "site.minaffet.gov.rw \"Kabarebe\" \"Polyakov\""
+        },
+        {
+          "query": "\"James Kabarebe\" \"2024\" \"2025\" \"challenges\" Rwanda development"
+        },
+        {
+          "query": "\"James Kabarebe\" \"Burera\" \"February 7\" 2025 stunting"
+        },
+        {
+          "query": "\"Kabarebe\" \"Russia\" \"sanctions\" \"Ukraine\""
+        },
+        {
+          "query": "\"James Kabarebe\" \"Russian\" \"Polyakov\""
+        },
+        {
+          "query": "site.burera.gov.rw \"Kabarebe\" \"2025\" \"mirire\""
+        },
+        {
+          "query": "site.wvi.org Rwanda \"Kabarebe\" \"2025\""
+        },
+        {
+          "query": "\"James Kabarebe\" \"malnutrition\" \"February\" 2025"
+        },
+        {
+          "query": "\"James Kabarebe\" \"urged\" \"performance contracts\" 2025"
+        }
+      ],
+      "reviewed_domains": [
+        "официальные сайты Rwanda и ведомств/парламента",
+        "личный официальный сайт Кагаме, где применимо",
+        "New Times и другие атрибутирующие местные СМИ",
+        "российские официальные/посольские материалы и результаты тематических запросов"
+      ],
+      "coverage": "Проверены все запланированные неизвестные core-клетки и оба полюса шести российских тем; отсутствие релевантной выдачи не кодировалось нулём."
+    },
+    {
+      "object_id": "juvenal-marizamunda",
+      "tool": "web search/open",
+      "at": "2026-10-15",
+      "searches": [
+        {
+          "query": "\"Juvenal Marizamunda\" \"Russia\" 2024 2025 2026"
+        },
+        {
+          "query": "\"Juvenal Marizamunda\" \"urged\" \"2024\" \"2025\" officers citizens"
+        },
+        {
+          "query": "\"Juvenal Marizamunda\" \"government\" \"2025\" \"urged\""
+        },
+        {
+          "query": "\"Juvenal Marizamunda\" \"healthcare\" \"2026\""
+        },
+        {
+          "query": "site.mod.gov.rw \"Marizamunda\" \"implement\" \"2023\""
+        },
+        {
+          "query": "site.mod.gov.rw \"Marizamunda\" \"2024\" \"urged\""
+        },
+        {
+          "query": "\"Marizamunda\" \"Russia\" \"sanctions\" \"Ukraine\""
+        },
+        {
+          "query": "\"Juvenal Marizamunda\" \"Russian\" training agreement"
+        },
+        {
+          "query": "\"Marizamunda\" \"implementation\" minister 2023 2024 2025"
+        },
+        {
+          "query": "\"Marizamunda\" \"directives\" 2024 2025"
+        },
+        {
+          "query": "\"Marizamunda\" \"continue\" \"policies\" 2023"
+        },
+        {
+          "query": "\"RCS GOROROKA\" \"2022\" magazine"
+        },
+        {
+          "query": "\"RCS-Magazine.pdf\" \"2021\""
+        },
+        {
+          "query": "\"RCS-Magazine.pdf\" \"2022\""
+        },
+        {
+          "query": "\"Juvenal MARIZAMUNDA\" \"2,891\""
+        },
+        {
+          "query": "site:rcs.gov.rw/wp-content/uploads/2022/03/RCS-Magazine.pdf \"Edition\""
+        },
+        {
+          "query": "site:rcs.gov.rw/wp-content/uploads/2022/03/RCS-Magazine.pdf \"2022\""
+        },
+        {
+          "query": "site:rcs.gov.rw/wp-content/uploads/2022/03/RCS-Magazine.pdf \"2021\""
+        },
+        {
+          "query": "site:rcs.gov.rw/wp-content/uploads/2022/03/RCS-Magazine.pdf \"November\""
+        }
+      ],
+      "reviewed_domains": [
+        "официальные сайты Rwanda и ведомств/парламента",
+        "личный официальный сайт Кагаме, где применимо",
+        "New Times и другие атрибутирующие местные СМИ",
+        "российские официальные/посольские материалы и результаты тематических запросов"
+      ],
+      "coverage": "Проверены все запланированные неизвестные core-клетки и оба полюса шести российских тем; отсутствие релевантной выдачи не кодировалось нулём."
+    },
+    {
+      "object_id": "ines-mpambara",
+      "tool": "web search/open",
+      "at": "2026-10-15",
+      "searches": [
+        {
+          "query": "\"Ines Mpambara\" \"Russia\" 2022 2023 2024 2025"
+        },
+        {
+          "query": "\"Ines Mpambara\" 2024 2025 2023 called urged challenges government"
+        },
+        {
+          "query": "\"Ines Mpambara\" urged government services 2022 2023 2024 2025"
+        },
+        {
+          "query": "\"Ines Mpambara\" Rulindo abaturage 2024 2025"
+        },
+        {
+          "query": "\"Inès Mpambara\" \"Kamonyi\" \"2025\" \"yavuze\""
+        },
+        {
+          "query": "\"Ines Mpambara\" \"Rulindo\" \"yasabye\""
+        },
+        {
+          "query": "\"Ines Mpambara\" \"ubuzima\" \"2024\" \"2025\" \"yasabye\""
+        },
+        {
+          "query": "\"Mpambara\" \"ubuzima\" \"Kamonyi\" \"2025\""
+        },
+        {
+          "query": "\"Mpambara\" \"Rulindo\" \"2022\" \"2023\" \"yasabye\""
+        },
+        {
+          "query": "\"Мпамбара\" \"Россия\" \"2022\" \"2023\" \"2024\""
+        },
+        {
+          "query": "\"Mpambara\" \"Burusiya\""
+        },
+        {
+          "query": "\"Mpambara\" \"Russian\" Rwanda"
+        },
+        {
+          "query": "\"Mpambara\" \"Rulindo\" \"Russian\" sanctions education"
+        },
+        {
+          "query": "\"Mpambara\" \"2025\" \"Russian\" \"education\""
+        },
+        {
+          "query": "site.rulindo.gov.rw/amakuru/inkuru-irambuye/rulindo-abitabiriye-umwiherero-winama-njyanama-basabwe-gukorera-ku-ntego-no-kuzuzanya \"Mpambara\""
+        }
+      ],
+      "reviewed_domains": [
+        "официальные сайты Rwanda и ведомств/парламента",
+        "личный официальный сайт Кагаме, где применимо",
+        "New Times и другие атрибутирующие местные СМИ",
+        "российские официальные/посольские материалы и результаты тематических запросов"
+      ],
+      "coverage": "Проверены все запланированные неизвестные core-клетки и оба полюса шести российских тем; отсутствие релевантной выдачи не кодировалось нулём."
+    },
+    {
+      "object_id": "francis-gatare",
+      "tool": "web search/open",
+      "at": "2026-10-15",
+      "searches": [
+        {
+          "query": "\"Francis Gatare\" \"Russia\" 2022 2023 2024 2025"
+        },
+        {
+          "query": "\"Francis Gatare\" 2024 2023 challenges affordable healthcare education"
+        },
+        {
+          "query": "\"Francis Gatare\" \"challenges\" \"2024\" Rwanda"
+        },
+        {
+          "query": "\"Francis Gatare\" \"2023\" \"government\" \"services\""
+        },
+        {
+          "query": "\"Francis Gatare\" \"poaching\" \"2023\""
+        },
+        {
+          "query": "\"Francis Gatare\" \"compensation\" \"2023\" parliament"
+        },
+        {
+          "query": "\"Francis Gatare\" \"affordable\" \"2024\""
+        },
+        {
+          "query": "\"Francis Gatare\" \"genocide\" \"2024\" remarks"
+        },
+        {
+          "query": "site.rdb.rw \"Gatare\" \"Bio Usawa\""
+        },
+        {
+          "query": "\"Gatare\" \"Volcanoes\" \"December\" \"2023\""
+        },
+        {
+          "query": "\"Gatare\" \"said\" \"2024\" \"barriers\""
+        },
+        {
+          "query": "\"Гатаре\" \"Россия\" \"2023\" \"2024\" \"2025\""
+        },
+        {
+          "query": "\"Gatare\" \"Russia\" after:2021-10-15 before:2026-10-16 -2019 -2018 -2017"
+        },
+        {
+          "query": "\"Gatare\" \"Russian\" Rwanda 2024 2025 2026"
+        },
+        {
+          "query": "site.rdb.rw \"2024\" \"Gatare\" \"history\""
+        },
+        {
+          "query": "\"Francis Gatare\" \"December 12, 2023\""
+        },
+        {
+          "query": "\"Francis Gatare\" \"park expansion\" \"2023\" \"said\""
+        },
+        {
+          "query": "\"Gatare\" \"poaching\" \"2024\" \"2023\""
+        },
+        {
+          "query": "\"Gatare\" \"compensation\" \"December\" \"2023\" Rwanda"
+        }
+      ],
+      "reviewed_domains": [
+        "официальные сайты Rwanda и ведомств/парламента",
+        "личный официальный сайт Кагаме, где применимо",
+        "New Times и другие атрибутирующие местные СМИ",
+        "российские официальные/посольские материалы и результаты тематических запросов"
+      ],
+      "coverage": "Проверены все запланированные неизвестные core-клетки и оба полюса шести российских тем; отсутствие релевантной выдачи не кодировалось нулём."
+    },
+    {
+      "object_id": "francois-xavier-kalinda",
+      "tool": "web search/open",
+      "at": "2026-10-15",
+      "searches": [
+        {
+          "query": "\"François Xavier Kalinda\" Russia 2023 2024 2025"
+        },
+        {
+          "query": "\"Kalinda\" \"Russia\" \"parliament\" Rwanda 2023 2024 2025"
+        },
+        {
+          "query": "\"François-Xavier Kalinda\" challenges health government 2024 2025"
+        },
+        {
+          "query": "site.parliament.gov.rw \"Kalinda\" \"health posts\" \"2025\""
+        },
+        {
+          "query": "site.parliament.gov.rw \"Kalinda\" \"healthcare\" \"NST2\""
+        },
+        {
+          "query": "\"Kalinda\" \"Russia\" \"2025\" \"2024\" cooperation senate"
+        },
+        {
+          "query": "\"Калинда\" \"Россия\" \"2023\" \"2024\" \"2025\""
+        },
+        {
+          "query": "\"Kalinda\" \"Russie\" Rwanda"
+        },
+        {
+          "query": "\"Kalinda\" \"Russian\" Rwanda Senate"
+        },
+        {
+          "query": "\"Kalinda\" \"Russia\" sanctions scholarships defence"
+        },
+        {
+          "query": "site.parliament.gov.rw/news-details/press-release-senators-to-monitor-the-status-and-development-of-health-posts-during-outreach-activity \"Kalinda\""
+        },
+        {
+          "query": "\"Minister of Health briefs Senators on Health Policy and Expansion of Health Posts\" \"Kalinda\""
+        },
+        {
+          "query": "\"Kalinda\" \"health posts\" \"January 21\" \"2025\""
+        }
+      ],
+      "reviewed_domains": [
+        "официальные сайты Rwanda и ведомств/парламента",
+        "личный официальный сайт Кагаме, где применимо",
+        "New Times и другие атрибутирующие местные СМИ",
+        "российские официальные/посольские материалы и результаты тематических запросов"
+      ],
+      "coverage": "Проверены все запланированные неизвестные core-клетки и оба полюса шести российских тем; отсутствие релевантной выдачи не кодировалось нулём."
+    },
+    {
+      "object_id": "mussa-fazil-harerimana",
+      "tool": "web search/open",
+      "at": "2026-10-15",
+      "searches": [
+        {
+          "query": "\"Mussa Fazil Harerimana\" Russia 2021 2022 2023 2024 2025"
+        },
+        {
+          "query": "\"Mussa Fazil Harerimana\" Russia Russie Burusiya sanctions Ukraine"
+        },
+        {
+          "query": "\"Mussa Fazil\" \"ubukene\" \"2024\" \"2025\""
+        },
+        {
+          "query": "\"Mussa Fazil Harerimana\" \"2025\" \"climate\" \"said\""
+        },
+        {
+          "query": "\"Mussa Fazil Harerimana\" \"2024\" \"health\" \"said\""
+        },
+        {
+          "query": "\"Mussa Fazil Harerimana\" \"2023\" \"urged\""
+        },
+        {
+          "query": "\"Mussa Fazil\" \"ingorane\" \"ibibazo\" \"2024\" \"2025\""
+        },
+        {
+          "query": "\"Хареримана\" \"Россия\" \"2022\" \"2023\" \"2024\""
+        },
+        {
+          "query": "\"Harerimana\" \"Russie\" 2022 2023 2024 2025"
+        },
+        {
+          "query": "\"Harerimana\" \"Russian\" Rwanda parliament"
+        },
+        {
+          "query": "\"Harerimana\" \"Musanze\" \"electricity\" \"2024\""
+        },
+        {
+          "query": "\"Harerimana\" \"2025\" \"risk\" \"climate\" parliament"
+        },
+        {
+          "query": "\"Harerimana\" \"Russia\" \"sanctions\" education defence"
+        },
+        {
+          "query": "\"PDI commits to increasing access to electricity\" Harerimana"
+        },
+        {
+          "query": "site.newtimes.co.rw/article/18357 \"Harerimana\" \"electricity\""
+        }
+      ],
+      "reviewed_domains": [
+        "официальные сайты Rwanda и ведомств/парламента",
+        "личный официальный сайт Кагаме, где применимо",
+        "New Times и другие атрибутирующие местные СМИ",
+        "российские официальные/посольские материалы и результаты тематических запросов"
+      ],
+      "coverage": "Проверены все запланированные неизвестные core-клетки и оба полюса шести российских тем; отсутствие релевантной выдачи не кодировалось нулём."
+    }
+  ],
+  "rejected": [
+    {
+      "object_id": "paul-kagame",
+      "source_urls": [
+        "https://www.minaffet.gov.rw/updates/news-details/president-kagame-joins-other-african-and-russian-leaders-for-russia-africa-summit",
+        "https://taarifa.rw/2024/09/19/rosatom-team-expected-in-rwanda-for-nuclear-science-center-plans/"
+      ],
+      "properties": [
+        "russia-diplomatic-engagement__positive",
+        "russia-security-cooperation__positive",
+        "russia-economic-technology-cooperation__positive",
+        "russia-education-cultural-cooperation__positive"
+      ],
+      "reason": "Встреча с Путиным и цитата о сотрудничестве относятся к2019г.; дата пересказа2024г. не переносит старое заявление внутрь окна."
+    },
+    {
+      "object_id": "paul-kagame",
+      "source_urls": [
+        "https://paulkagame.rw/2025/?p=17241"
+      ],
+      "properties": [
+        "russia-conflict-policy-evaluation__positive",
+        "russia-conflict-policy-evaluation__negative",
+        "russia-isolation-sanctions__positive"
+      ],
+      "reason": "Интервью04.07.2022 признаёт экономический ущерб войны и желательность решения, но отказывается распределять правоту. Не является отдельным положительным/отрицательным суждением о российском действии или санкциях."
+    },
+    {
+      "object_id": "paul-kagame",
+      "source_urls": [
+        "https://www.miragenews.com/uk-pm-call-with-rwandan-president-paul-kagame-766757/",
+        "https://japan.kantei.go.jp/101_kishida/diplomatic/202211/_00012.html"
+      ],
+      "properties": [
+        "russia-conflict-policy-evaluation__negative"
+      ],
+      "reason": "Позиция против вторжения в доступном материале приписана британскому/японскому собеседнику. На Кагаме не переносится; японский оригинал недоступен404."
+    },
+    {
+      "object_id": "paul-kagame",
+      "source_urls": [
+        "https://www.paulkagame.rw/president-kagame-visits-benin-cotonou-15-17-april-2023/"
+      ],
+      "properties": [
+        "russia-diplomatic-engagement__positive",
+        "russia-conflict-policy-evaluation__positive",
+        "russia-isolation-sanctions__positive"
+      ],
+      "reason": "Ранее известная защита права выбирать Россию/Китай партнёрами не равна институциональному расширению отношений, оправданию вторжения или противодействию санкциям."
+    },
+    {
+      "object_id": "olivier-nduhungirehe",
+      "source_urls": [
+        "https://press.un.org/en/2014/sc11645.doc.htm"
+      ],
+      "properties": [
+        "russia-conflict-policy-evaluation__negative"
+      ],
+      "reason": "Персональное выступление существует, но относится к2014г., вне окна. Дата нового индексирования страницы не используется."
+    },
+    {
+      "object_id": "olivier-nduhungirehe",
+      "source_urls": [
+        "https://www.globalsecurity.org/wmd/library/news/ukraine/2026/09/ukraine-260923-ukraine-mfa06.htm"
+      ],
+      "properties": [
+        "russia-conflict-policy-evaluation__negative",
+        "russia-isolation-sanctions__negative"
+      ],
+      "reason": "В опубликованной цитате благодарность за позицию Руанды и характеристика российской агрессии принадлежат Сибиге. Нового собственного высказывания Ндухунгирехе об оценке России нет."
+    },
+    {
+      "object_id": "james-kabarebe",
+      "source_urls": [
+        "https://taarifa.rw/2024/09/30/84193-2/",
+        "https://umuryango.rw/amakuru/mu-rwanda/politiki/article/amabasaderi-w-u-burusiya-mu-rwanda-yakiriwe-na-gen-rtd-kabarebe"
+      ],
+      "properties": [
+        "russia-diplomatic-engagement__positive",
+        "russia-economic-technology-cooperation__positive",
+        "russia-education-cultural-cooperation__positive"
+      ],
+      "reason": "Протокольный приём Полякова30.09.2024 и общие перспективы не называют нового соглашения/механизма, конкретного хозяйственного проекта или образовательного обмена. Не кодируется автоматически."
+    },
+    {
+      "object_id": "james-kabarebe",
+      "source_urls": [
+        "https://www.newtimes.co.rw/article/24366/news/africa/sanctions-against-rwanda-will-undermine-peace-efforts-in-dr-congo-kabarebe/amp"
+      ],
+      "properties": [
+        "russia-isolation-sanctions__positive",
+        "russia-isolation-sanctions__negative"
+      ],
+      "reason": "Лично критикуемые им санкции направлены против Руанды. Это другая страна и другая шкала."
+    },
+    {
+      "object_id": "juvenal-marizamunda",
+      "source_urls": [
+        "https://www.mod.gov.rw/docs-media/news-detail/rrdf-hosts-the-7th-meeting-of-the-rwanda-russia-joint-commission-on-military-technical-cooperation?cHash=3be790fd61fd1553005cd0bdb3260a7d&tx_news_pi1%5BcurrentPage%5D=2"
+      ],
+      "properties": [
+        "russia-diplomatic-engagement__positive",
+        "russia-economic-technology-cooperation__positive",
+        "russia-education-cultural-cooperation__positive",
+        "russia-conflict-policy-evaluation__positive"
+      ],
+      "reason": "Знакомый эпизод20.05.2026 уже поддерживает known оборонный полюс и не повторяется как новое наблюдение. Визит не доказывает остальных российских свойств; соглашение о здравоохранении в пересказе подписывал Нсанзимана."
+    },
+    {
+      "object_id": "juvenal-marizamunda",
+      "source_urls": [
+        "https://www.kndu.ac.kr/bbs/rinsa/52/K_40828/download.do"
+      ],
+      "properties": [
+        "russia-conflict-policy-evaluation__negative"
+      ],
+      "reason": "В материале конференции осуждение российской агрессии относится к предшествующему иностранному докладчику. Абзац Маризамунды посвящён коллективной безопасности; чужая атрибуция исключена."
+    },
+    {
+      "object_id": "ines-mpambara",
+      "source_urls": [
+        "https://www.kamonyi.gov.rw/amakuru/amakuru-arambuye/minisitiri-ines-mpambara-yagiriye-uruzinduko-rwakazi-mu-karere-2"
+      ],
+      "properties": [
+        "government-course-assessment__positive",
+        "programmatic-renewal__negative"
+      ],
+      "reason": "Положительную оценку районного развития даёт мэр Нахайо. Визит и будущий план посещения проектов сами по себе не являются её собственной оценкой курса/призывом его продолжать."
+    },
+    {
+      "object_id": "francis-gatare",
+      "source_urls": [
+        "https://rusgeology.ru/en/press/news/rosgeologiya-planiruet-realizovat-ryad-proektov-v-ruande/",
+        "https://www.newtimes.co.rw/article/170776/News/inside-rwanda-russia-mining-pact",
+        "https://www.newtimes.co.rw/article/141446/News/rwanda-russia-officials-hail-close-ties"
+      ],
+      "properties": [
+        "russia-economic-technology-cooperation__positive",
+        "russia-diplomatic-engagement__positive",
+        "russia-education-cultural-cooperation__positive"
+      ],
+      "reason": "Российское соглашение с RosGeo относится к2019г.; Russia Day с его речью — к2017г. Это ранее выявленная ошибка датировки, новые оценки не предлагаются."
+    },
+    {
+      "object_id": "francis-gatare",
+      "source_urls": [
+        "https://news.africanorwanda.rw/rwandas-volcanoes-national-park-expansion/"
+      ],
+      "properties": [
+        "prevention-crisis-response__positive"
+      ],
+      "reason": "Сохранённое освещение повестки парка не содержит достаточно ясного собственного профилактического предложения Гатаре; нельзя переносить редакционный текст или слова Нгиренте."
+    },
+    {
+      "object_id": "francois-xavier-kalinda",
+      "source_urls": [
+        "https://afrinz.ru/en/2024/07/matvienko-russia-views-rwanda-as-a-reliable-partner-in-africa/"
+      ],
+      "properties": [
+        "russia-diplomatic-engagement__positive",
+        "russia-conflict-policy-evaluation__positive",
+        "russia-isolation-sanctions__positive"
+      ],
+      "reason": "Поздравление и оценки Матвиенко адресованы Калинде, но не являются его действием/словами. Не выводить позицию получателя из письма."
+    },
+    {
+      "object_id": "francois-xavier-kalinda",
+      "source_urls": [
+        "https://www.senate.gov.pk/en/news_content.php?id=NjYxMw%3D%3D"
+      ],
+      "properties": [
+        "russia-diplomatic-engagement__positive"
+      ],
+      "reason": "Источник сообщает отдельные встречи пакистанского спикера с российским и руандийским делегатами13.11.2025, не соглашение Калинды с Россией."
+    },
+    {
+      "object_id": "mussa-fazil-harerimana",
+      "source_urls": [
+        "https://www.newtimes.co.rw/article/36729/news/politics/pdi-party-changes-name-to-promote-exemplary-values/amp"
+      ],
+      "properties": [
+        "programmatic-renewal__positive",
+        "problem-disclosure-reputation-defence__positive"
+      ],
+      "reason": "Переименование PDI в2026г. и акцент на сохранении достижений не доказывают пересмотр действующих политических приоритетов. Пробелы в услугах в конце статьи описывает Хассан Хабимана, не Хареримана."
+    }
+  ],
+  "pending": [
+    {
+      "object_id": "paul-kagame",
+      "scale_id": "russia-conflict-policy-evaluation",
+      "pole": "positive",
+      "status": "unknown",
+      "reason": "После поиска и проверки доступных источников не найдено достаточного нового персонифицированного основания для этого полюса внутри окна. Контакты, чужие заявления, общая государственная позиция и старые события не заменяют его."
+    },
+    {
+      "object_id": "paul-kagame",
+      "scale_id": "russia-diplomatic-engagement",
+      "pole": "negative",
+      "status": "unknown",
+      "reason": "После поиска и проверки доступных источников не найдено достаточного нового персонифицированного основания для этого полюса внутри окна. Контакты, чужие заявления, общая государственная позиция и старые события не заменяют его."
+    },
+    {
+      "object_id": "paul-kagame",
+      "scale_id": "russia-diplomatic-engagement",
+      "pole": "positive",
+      "status": "unknown",
+      "reason": "После поиска и проверки доступных источников не найдено достаточного нового персонифицированного основания для этого полюса внутри окна. Контакты, чужие заявления, общая государственная позиция и старые события не заменяют его."
+    },
+    {
+      "object_id": "paul-kagame",
+      "scale_id": "russia-economic-technology-cooperation",
+      "pole": "negative",
+      "status": "unknown",
+      "reason": "После поиска и проверки доступных источников не найдено достаточного нового персонифицированного основания для этого полюса внутри окна. Контакты, чужие заявления, общая государственная позиция и старые события не заменяют его."
+    },
+    {
+      "object_id": "paul-kagame",
+      "scale_id": "russia-economic-technology-cooperation",
+      "pole": "positive",
+      "status": "unknown",
+      "reason": "После поиска и проверки доступных источников не найдено достаточного нового персонифицированного основания для этого полюса внутри окна. Контакты, чужие заявления, общая государственная позиция и старые события не заменяют его."
+    },
+    {
+      "object_id": "paul-kagame",
+      "scale_id": "russia-education-cultural-cooperation",
+      "pole": "negative",
+      "status": "unknown",
+      "reason": "После поиска и проверки доступных источников не найдено достаточного нового персонифицированного основания для этого полюса внутри окна. Контакты, чужие заявления, общая государственная позиция и старые события не заменяют его."
+    },
+    {
+      "object_id": "paul-kagame",
+      "scale_id": "russia-education-cultural-cooperation",
+      "pole": "positive",
+      "status": "unknown",
+      "reason": "После поиска и проверки доступных источников не найдено достаточного нового персонифицированного основания для этого полюса внутри окна. Контакты, чужие заявления, общая государственная позиция и старые события не заменяют его."
+    },
+    {
+      "object_id": "paul-kagame",
+      "scale_id": "russia-isolation-sanctions",
+      "pole": "negative",
+      "status": "unknown",
+      "reason": "После поиска и проверки доступных источников не найдено достаточного нового персонифицированного основания для этого полюса внутри окна. Контакты, чужие заявления, общая государственная позиция и старые события не заменяют его."
+    },
+    {
+      "object_id": "paul-kagame",
+      "scale_id": "russia-isolation-sanctions",
+      "pole": "positive",
+      "status": "unknown",
+      "reason": "После поиска и проверки доступных источников не найдено достаточного нового персонифицированного основания для этого полюса внутри окна. Контакты, чужие заявления, общая государственная позиция и старые события не заменяют его."
+    },
+    {
+      "object_id": "paul-kagame",
+      "scale_id": "russia-security-cooperation",
+      "pole": "negative",
+      "status": "unknown",
+      "reason": "После поиска и проверки доступных источников не найдено достаточного нового персонифицированного основания для этого полюса внутри окна. Контакты, чужие заявления, общая государственная позиция и старые события не заменяют его."
+    },
+    {
+      "object_id": "paul-kagame",
+      "scale_id": "russia-security-cooperation",
+      "pole": "positive",
+      "status": "unknown",
+      "reason": "После поиска и проверки доступных источников не найдено достаточного нового персонифицированного основания для этого полюса внутри окна. Контакты, чужие заявления, общая государственная позиция и старые события не заменяют его."
+    },
+    {
+      "object_id": "olivier-nduhungirehe",
+      "scale_id": "participation-administrative-direction",
+      "pole": "negative",
+      "status": "unknown",
+      "reason": "Брифинги информируют послов; новой ясной постановки задач подчинённым и контроля исполнения не найдено."
+    },
+    {
+      "object_id": "olivier-nduhungirehe",
+      "scale_id": "problem-disclosure-reputation-defence",
+      "pole": "positive",
+      "status": "unknown",
+      "reason": "Найдены критика других государств и общих географических ограничений, но не достаточно конкретное признание собственного/руандийского сбоя исполнения."
+    },
+    {
+      "object_id": "olivier-nduhungirehe",
+      "scale_id": "russia-conflict-policy-evaluation",
+      "pole": "negative",
+      "status": "unknown",
+      "reason": "После поиска и проверки доступных источников не найдено достаточного нового персонифицированного основания для этого полюса внутри окна. Контакты, чужие заявления, общая государственная позиция и старые события не заменяют его."
+    },
+    {
+      "object_id": "olivier-nduhungirehe",
+      "scale_id": "russia-conflict-policy-evaluation",
+      "pole": "positive",
+      "status": "unknown",
+      "reason": "После поиска и проверки доступных источников не найдено достаточного нового персонифицированного основания для этого полюса внутри окна. Контакты, чужие заявления, общая государственная позиция и старые события не заменяют его."
+    },
+    {
+      "object_id": "olivier-nduhungirehe",
+      "scale_id": "russia-diplomatic-engagement",
+      "pole": "negative",
+      "status": "unknown",
+      "reason": "После поиска и проверки доступных источников не найдено достаточного нового персонифицированного основания для этого полюса внутри окна. Контакты, чужие заявления, общая государственная позиция и старые события не заменяют его."
+    },
+    {
+      "object_id": "olivier-nduhungirehe",
+      "scale_id": "russia-economic-technology-cooperation",
+      "pole": "negative",
+      "status": "unknown",
+      "reason": "После поиска и проверки доступных источников не найдено достаточного нового персонифицированного основания для этого полюса внутри окна. Контакты, чужие заявления, общая государственная позиция и старые события не заменяют его."
+    },
+    {
+      "object_id": "olivier-nduhungirehe",
+      "scale_id": "russia-education-cultural-cooperation",
+      "pole": "negative",
+      "status": "unknown",
+      "reason": "После поиска и проверки доступных источников не найдено достаточного нового персонифицированного основания для этого полюса внутри окна. Контакты, чужие заявления, общая государственная позиция и старые события не заменяют его."
+    },
+    {
+      "object_id": "olivier-nduhungirehe",
+      "scale_id": "russia-isolation-sanctions",
+      "pole": "negative",
+      "status": "unknown",
+      "reason": "После поиска и проверки доступных источников не найдено достаточного нового персонифицированного основания для этого полюса внутри окна. Контакты, чужие заявления, общая государственная позиция и старые события не заменяют его."
+    },
+    {
+      "object_id": "olivier-nduhungirehe",
+      "scale_id": "russia-isolation-sanctions",
+      "pole": "positive",
+      "status": "unknown",
+      "reason": "После поиска и проверки доступных источников не найдено достаточного нового персонифицированного основания для этого полюса внутри окна. Контакты, чужие заявления, общая государственная позиция и старые события не заменяют его."
+    },
+    {
+      "object_id": "olivier-nduhungirehe",
+      "scale_id": "russia-security-cooperation",
+      "pole": "negative",
+      "status": "unknown",
+      "reason": "После поиска и проверки доступных источников не найдено достаточного нового персонифицированного основания для этого полюса внутри окна. Контакты, чужие заявления, общая государственная позиция и старые события не заменяют его."
+    },
+    {
+      "object_id": "olivier-nduhungirehe",
+      "scale_id": "russia-security-cooperation",
+      "pole": "positive",
+      "status": "unknown",
+      "reason": "После поиска и проверки доступных источников не найдено достаточного нового персонифицированного основания для этого полюса внутри окна. Контакты, чужие заявления, общая государственная позиция и старые события не заменяют его."
+    },
+    {
+      "object_id": "james-kabarebe",
+      "scale_id": "participation-administrative-direction",
+      "pole": "negative",
+      "status": "unknown",
+      "reason": "Пожелания жителям и риторика координации не равны достаточно конкретному административному плану/контролю. Ради заполнения клетки вывод не делается."
+    },
+    {
+      "object_id": "james-kabarebe",
+      "scale_id": "programmatic-renewal",
+      "pole": "positive",
+      "status": "unknown",
+      "reason": "Нутриционная кампания подтверждает социальный приоритет, но не явный пересмотр уже действующего курса."
+    },
+    {
+      "object_id": "james-kabarebe",
+      "scale_id": "russia-conflict-policy-evaluation",
+      "pole": "negative",
+      "status": "unknown",
+      "reason": "После поиска и проверки доступных источников не найдено достаточного нового персонифицированного основания для этого полюса внутри окна. Контакты, чужие заявления, общая государственная позиция и старые события не заменяют его."
+    },
+    {
+      "object_id": "james-kabarebe",
+      "scale_id": "russia-conflict-policy-evaluation",
+      "pole": "positive",
+      "status": "unknown",
+      "reason": "После поиска и проверки доступных источников не найдено достаточного нового персонифицированного основания для этого полюса внутри окна. Контакты, чужие заявления, общая государственная позиция и старые события не заменяют его."
+    },
+    {
+      "object_id": "james-kabarebe",
+      "scale_id": "russia-diplomatic-engagement",
+      "pole": "negative",
+      "status": "unknown",
+      "reason": "После поиска и проверки доступных источников не найдено достаточного нового персонифицированного основания для этого полюса внутри окна. Контакты, чужие заявления, общая государственная позиция и старые события не заменяют его."
+    },
+    {
+      "object_id": "james-kabarebe",
+      "scale_id": "russia-diplomatic-engagement",
+      "pole": "positive",
+      "status": "unknown",
+      "reason": "После поиска и проверки доступных источников не найдено достаточного нового персонифицированного основания для этого полюса внутри окна. Контакты, чужие заявления, общая государственная позиция и старые события не заменяют его."
+    },
+    {
+      "object_id": "james-kabarebe",
+      "scale_id": "russia-economic-technology-cooperation",
+      "pole": "negative",
+      "status": "unknown",
+      "reason": "После поиска и проверки доступных источников не найдено достаточного нового персонифицированного основания для этого полюса внутри окна. Контакты, чужие заявления, общая государственная позиция и старые события не заменяют его."
+    },
+    {
+      "object_id": "james-kabarebe",
+      "scale_id": "russia-economic-technology-cooperation",
+      "pole": "positive",
+      "status": "unknown",
+      "reason": "После поиска и проверки доступных источников не найдено достаточного нового персонифицированного основания для этого полюса внутри окна. Контакты, чужие заявления, общая государственная позиция и старые события не заменяют его."
+    },
+    {
+      "object_id": "james-kabarebe",
+      "scale_id": "russia-education-cultural-cooperation",
+      "pole": "negative",
+      "status": "unknown",
+      "reason": "После поиска и проверки доступных источников не найдено достаточного нового персонифицированного основания для этого полюса внутри окна. Контакты, чужие заявления, общая государственная позиция и старые события не заменяют его."
+    },
+    {
+      "object_id": "james-kabarebe",
+      "scale_id": "russia-education-cultural-cooperation",
+      "pole": "positive",
+      "status": "unknown",
+      "reason": "После поиска и проверки доступных источников не найдено достаточного нового персонифицированного основания для этого полюса внутри окна. Контакты, чужие заявления, общая государственная позиция и старые события не заменяют его."
+    },
+    {
+      "object_id": "james-kabarebe",
+      "scale_id": "russia-isolation-sanctions",
+      "pole": "negative",
+      "status": "unknown",
+      "reason": "После поиска и проверки доступных источников не найдено достаточного нового персонифицированного основания для этого полюса внутри окна. Контакты, чужие заявления, общая государственная позиция и старые события не заменяют его."
+    },
+    {
+      "object_id": "james-kabarebe",
+      "scale_id": "russia-isolation-sanctions",
+      "pole": "positive",
+      "status": "unknown",
+      "reason": "После поиска и проверки доступных источников не найдено достаточного нового персонифицированного основания для этого полюса внутри окна. Контакты, чужие заявления, общая государственная позиция и старые события не заменяют его."
+    },
+    {
+      "object_id": "james-kabarebe",
+      "scale_id": "russia-security-cooperation",
+      "pole": "negative",
+      "status": "unknown",
+      "reason": "После поиска и проверки доступных источников не найдено достаточного нового персонифицированного основания для этого полюса внутри окна. Контакты, чужие заявления, общая государственная позиция и старые события не заменяют его."
+    },
+    {
+      "object_id": "james-kabarebe",
+      "scale_id": "russia-security-cooperation",
+      "pole": "positive",
+      "status": "unknown",
+      "reason": "После поиска и проверки доступных источников не найдено достаточного нового персонифицированного основания для этого полюса внутри окна. Контакты, чужие заявления, общая государственная позиция и старые события не заменяют его."
+    },
+    {
+      "object_id": "juvenal-marizamunda",
+      "scale_id": "programmatic-renewal",
+      "pole": "positive",
+      "status": "unknown",
+      "reason": "Открытие колледжа — новое учреждение, но не обязательно явное предложение пересмотреть прежние политические приоритеты; остаётся unknown."
+    },
+    {
+      "object_id": "juvenal-marizamunda",
+      "scale_id": "russia-conflict-policy-evaluation",
+      "pole": "negative",
+      "status": "unknown",
+      "reason": "После поиска и проверки доступных источников не найдено достаточного нового персонифицированного основания для этого полюса внутри окна. Контакты, чужие заявления, общая государственная позиция и старые события не заменяют его."
+    },
+    {
+      "object_id": "juvenal-marizamunda",
+      "scale_id": "russia-conflict-policy-evaluation",
+      "pole": "positive",
+      "status": "unknown",
+      "reason": "После поиска и проверки доступных источников не найдено достаточного нового персонифицированного основания для этого полюса внутри окна. Контакты, чужие заявления, общая государственная позиция и старые события не заменяют его."
+    },
+    {
+      "object_id": "juvenal-marizamunda",
+      "scale_id": "russia-diplomatic-engagement",
+      "pole": "negative",
+      "status": "unknown",
+      "reason": "После поиска и проверки доступных источников не найдено достаточного нового персонифицированного основания для этого полюса внутри окна. Контакты, чужие заявления, общая государственная позиция и старые события не заменяют его."
+    },
+    {
+      "object_id": "juvenal-marizamunda",
+      "scale_id": "russia-diplomatic-engagement",
+      "pole": "positive",
+      "status": "unknown",
+      "reason": "После поиска и проверки доступных источников не найдено достаточного нового персонифицированного основания для этого полюса внутри окна. Контакты, чужие заявления, общая государственная позиция и старые события не заменяют его."
+    },
+    {
+      "object_id": "juvenal-marizamunda",
+      "scale_id": "russia-economic-technology-cooperation",
+      "pole": "negative",
+      "status": "unknown",
+      "reason": "После поиска и проверки доступных источников не найдено достаточного нового персонифицированного основания для этого полюса внутри окна. Контакты, чужие заявления, общая государственная позиция и старые события не заменяют его."
+    },
+    {
+      "object_id": "juvenal-marizamunda",
+      "scale_id": "russia-economic-technology-cooperation",
+      "pole": "positive",
+      "status": "unknown",
+      "reason": "После поиска и проверки доступных источников не найдено достаточного нового персонифицированного основания для этого полюса внутри окна. Контакты, чужие заявления, общая государственная позиция и старые события не заменяют его."
+    },
+    {
+      "object_id": "juvenal-marizamunda",
+      "scale_id": "russia-education-cultural-cooperation",
+      "pole": "negative",
+      "status": "unknown",
+      "reason": "После поиска и проверки доступных источников не найдено достаточного нового персонифицированного основания для этого полюса внутри окна. Контакты, чужие заявления, общая государственная позиция и старые события не заменяют его."
+    },
+    {
+      "object_id": "juvenal-marizamunda",
+      "scale_id": "russia-education-cultural-cooperation",
+      "pole": "positive",
+      "status": "unknown",
+      "reason": "После поиска и проверки доступных источников не найдено достаточного нового персонифицированного основания для этого полюса внутри окна. Контакты, чужие заявления, общая государственная позиция и старые события не заменяют его."
+    },
+    {
+      "object_id": "juvenal-marizamunda",
+      "scale_id": "russia-isolation-sanctions",
+      "pole": "negative",
+      "status": "unknown",
+      "reason": "После поиска и проверки доступных источников не найдено достаточного нового персонифицированного основания для этого полюса внутри окна. Контакты, чужие заявления, общая государственная позиция и старые события не заменяют его."
+    },
+    {
+      "object_id": "juvenal-marizamunda",
+      "scale_id": "russia-isolation-sanctions",
+      "pole": "positive",
+      "status": "unknown",
+      "reason": "После поиска и проверки доступных источников не найдено достаточного нового персонифицированного основания для этого полюса внутри окна. Контакты, чужие заявления, общая государственная позиция и старые события не заменяют его."
+    },
+    {
+      "object_id": "juvenal-marizamunda",
+      "scale_id": "russia-security-cooperation",
+      "pole": "negative",
+      "status": "unknown",
+      "reason": "После поиска и проверки доступных источников не найдено достаточного нового персонифицированного основания для этого полюса внутри окна. Контакты, чужие заявления, общая государственная позиция и старые события не заменяют его."
+    },
+    {
+      "object_id": "ines-mpambara",
+      "scale_id": "government-course-assessment",
+      "pole": "positive",
+      "status": "unknown",
+      "reason": "Есть поручения и признание проблем, но новая личная оценка в поддержку нынешнего государственного курса не установлена."
+    },
+    {
+      "object_id": "ines-mpambara",
+      "scale_id": "prevention-crisis-response",
+      "pole": "positive",
+      "status": "unknown",
+      "reason": "Районная речь требует решить уже наблюдаемые социальные проблемы; профилактический этап до ущерба явно не выделен."
+    },
+    {
+      "object_id": "ines-mpambara",
+      "scale_id": "programmatic-renewal",
+      "pole": "negative",
+      "status": "unknown",
+      "reason": "Прямого предложения пересмотреть курс или продолжить конкретную принятую программу в просмотренных личных репликах не найдено."
+    },
+    {
+      "object_id": "ines-mpambara",
+      "scale_id": "programmatic-renewal",
+      "pole": "positive",
+      "status": "unknown",
+      "reason": "Прямого предложения пересмотреть курс или продолжить конкретную принятую программу в просмотренных личных репликах не найдено."
+    },
+    {
+      "object_id": "ines-mpambara",
+      "scale_id": "russia-conflict-policy-evaluation",
+      "pole": "negative",
+      "status": "unknown",
+      "reason": "После поиска и проверки доступных источников не найдено достаточного нового персонифицированного основания для этого полюса внутри окна. Контакты, чужие заявления, общая государственная позиция и старые события не заменяют его."
+    },
+    {
+      "object_id": "ines-mpambara",
+      "scale_id": "russia-conflict-policy-evaluation",
+      "pole": "positive",
+      "status": "unknown",
+      "reason": "После поиска и проверки доступных источников не найдено достаточного нового персонифицированного основания для этого полюса внутри окна. Контакты, чужие заявления, общая государственная позиция и старые события не заменяют его."
+    },
+    {
+      "object_id": "ines-mpambara",
+      "scale_id": "russia-diplomatic-engagement",
+      "pole": "negative",
+      "status": "unknown",
+      "reason": "После поиска и проверки доступных источников не найдено достаточного нового персонифицированного основания для этого полюса внутри окна. Контакты, чужие заявления, общая государственная позиция и старые события не заменяют его."
+    },
+    {
+      "object_id": "ines-mpambara",
+      "scale_id": "russia-diplomatic-engagement",
+      "pole": "positive",
+      "status": "unknown",
+      "reason": "После поиска и проверки доступных источников не найдено достаточного нового персонифицированного основания для этого полюса внутри окна. Контакты, чужие заявления, общая государственная позиция и старые события не заменяют его."
+    },
+    {
+      "object_id": "ines-mpambara",
+      "scale_id": "russia-economic-technology-cooperation",
+      "pole": "negative",
+      "status": "unknown",
+      "reason": "После поиска и проверки доступных источников не найдено достаточного нового персонифицированного основания для этого полюса внутри окна. Контакты, чужие заявления, общая государственная позиция и старые события не заменяют его."
+    },
+    {
+      "object_id": "ines-mpambara",
+      "scale_id": "russia-economic-technology-cooperation",
+      "pole": "positive",
+      "status": "unknown",
+      "reason": "После поиска и проверки доступных источников не найдено достаточного нового персонифицированного основания для этого полюса внутри окна. Контакты, чужие заявления, общая государственная позиция и старые события не заменяют его."
+    },
+    {
+      "object_id": "ines-mpambara",
+      "scale_id": "russia-education-cultural-cooperation",
+      "pole": "negative",
+      "status": "unknown",
+      "reason": "После поиска и проверки доступных источников не найдено достаточного нового персонифицированного основания для этого полюса внутри окна. Контакты, чужие заявления, общая государственная позиция и старые события не заменяют его."
+    },
+    {
+      "object_id": "ines-mpambara",
+      "scale_id": "russia-education-cultural-cooperation",
+      "pole": "positive",
+      "status": "unknown",
+      "reason": "После поиска и проверки доступных источников не найдено достаточного нового персонифицированного основания для этого полюса внутри окна. Контакты, чужие заявления, общая государственная позиция и старые события не заменяют его."
+    },
+    {
+      "object_id": "ines-mpambara",
+      "scale_id": "russia-isolation-sanctions",
+      "pole": "negative",
+      "status": "unknown",
+      "reason": "После поиска и проверки доступных источников не найдено достаточного нового персонифицированного основания для этого полюса внутри окна. Контакты, чужие заявления, общая государственная позиция и старые события не заменяют его."
+    },
+    {
+      "object_id": "ines-mpambara",
+      "scale_id": "russia-isolation-sanctions",
+      "pole": "positive",
+      "status": "unknown",
+      "reason": "После поиска и проверки доступных источников не найдено достаточного нового персонифицированного основания для этого полюса внутри окна. Контакты, чужие заявления, общая государственная позиция и старые события не заменяют его."
+    },
+    {
+      "object_id": "ines-mpambara",
+      "scale_id": "russia-security-cooperation",
+      "pole": "negative",
+      "status": "unknown",
+      "reason": "После поиска и проверки доступных источников не найдено достаточного нового персонифицированного основания для этого полюса внутри окна. Контакты, чужие заявления, общая государственная позиция и старые события не заменяют его."
+    },
+    {
+      "object_id": "ines-mpambara",
+      "scale_id": "russia-security-cooperation",
+      "pole": "positive",
+      "status": "unknown",
+      "reason": "После поиска и проверки доступных источников не найдено достаточного нового персонифицированного основания для этого полюса внутри окна. Контакты, чужие заявления, общая государственная позиция и старые события не заменяют его."
+    },
+    {
+      "object_id": "francis-gatare",
+      "scale_id": "participation-administrative-direction",
+      "pole": "negative",
+      "status": "unknown",
+      "reason": "Корпоративный инвестиционный форум и общая мобилизация бизнеса не дают ясного персонального административного поручения исполнителям."
+    },
+    {
+      "object_id": "francis-gatare",
+      "scale_id": "prevention-crisis-response",
+      "pole": "positive",
+      "status": "unknown",
+      "reason": "Проекты лекарственного производства касаются лечения и доступа; профилактика конкретного будущего риска отдельно не доказана."
+    },
+    {
+      "object_id": "francis-gatare",
+      "scale_id": "russia-conflict-policy-evaluation",
+      "pole": "negative",
+      "status": "unknown",
+      "reason": "После поиска и проверки доступных источников не найдено достаточного нового персонифицированного основания для этого полюса внутри окна. Контакты, чужие заявления, общая государственная позиция и старые события не заменяют его."
+    },
+    {
+      "object_id": "francis-gatare",
+      "scale_id": "russia-conflict-policy-evaluation",
+      "pole": "positive",
+      "status": "unknown",
+      "reason": "После поиска и проверки доступных источников не найдено достаточного нового персонифицированного основания для этого полюса внутри окна. Контакты, чужие заявления, общая государственная позиция и старые события не заменяют его."
+    },
+    {
+      "object_id": "francis-gatare",
+      "scale_id": "russia-diplomatic-engagement",
+      "pole": "negative",
+      "status": "unknown",
+      "reason": "После поиска и проверки доступных источников не найдено достаточного нового персонифицированного основания для этого полюса внутри окна. Контакты, чужие заявления, общая государственная позиция и старые события не заменяют его."
+    },
+    {
+      "object_id": "francis-gatare",
+      "scale_id": "russia-diplomatic-engagement",
+      "pole": "positive",
+      "status": "unknown",
+      "reason": "После поиска и проверки доступных источников не найдено достаточного нового персонифицированного основания для этого полюса внутри окна. Контакты, чужие заявления, общая государственная позиция и старые события не заменяют его."
+    },
+    {
+      "object_id": "francis-gatare",
+      "scale_id": "russia-economic-technology-cooperation",
+      "pole": "negative",
+      "status": "unknown",
+      "reason": "После поиска и проверки доступных источников не найдено достаточного нового персонифицированного основания для этого полюса внутри окна. Контакты, чужие заявления, общая государственная позиция и старые события не заменяют его."
+    },
+    {
+      "object_id": "francis-gatare",
+      "scale_id": "russia-economic-technology-cooperation",
+      "pole": "positive",
+      "status": "unknown",
+      "reason": "После поиска и проверки доступных источников не найдено достаточного нового персонифицированного основания для этого полюса внутри окна. Контакты, чужие заявления, общая государственная позиция и старые события не заменяют его."
+    },
+    {
+      "object_id": "francis-gatare",
+      "scale_id": "russia-education-cultural-cooperation",
+      "pole": "negative",
+      "status": "unknown",
+      "reason": "После поиска и проверки доступных источников не найдено достаточного нового персонифицированного основания для этого полюса внутри окна. Контакты, чужие заявления, общая государственная позиция и старые события не заменяют его."
+    },
+    {
+      "object_id": "francis-gatare",
+      "scale_id": "russia-education-cultural-cooperation",
+      "pole": "positive",
+      "status": "unknown",
+      "reason": "После поиска и проверки доступных источников не найдено достаточного нового персонифицированного основания для этого полюса внутри окна. Контакты, чужие заявления, общая государственная позиция и старые события не заменяют его."
+    },
+    {
+      "object_id": "francis-gatare",
+      "scale_id": "russia-isolation-sanctions",
+      "pole": "negative",
+      "status": "unknown",
+      "reason": "После поиска и проверки доступных источников не найдено достаточного нового персонифицированного основания для этого полюса внутри окна. Контакты, чужие заявления, общая государственная позиция и старые события не заменяют его."
+    },
+    {
+      "object_id": "francis-gatare",
+      "scale_id": "russia-isolation-sanctions",
+      "pole": "positive",
+      "status": "unknown",
+      "reason": "После поиска и проверки доступных источников не найдено достаточного нового персонифицированного основания для этого полюса внутри окна. Контакты, чужие заявления, общая государственная позиция и старые события не заменяют его."
+    },
+    {
+      "object_id": "francis-gatare",
+      "scale_id": "russia-security-cooperation",
+      "pole": "negative",
+      "status": "unknown",
+      "reason": "После поиска и проверки доступных источников не найдено достаточного нового персонифицированного основания для этого полюса внутри окна. Контакты, чужие заявления, общая государственная позиция и старые события не заменяют его."
+    },
+    {
+      "object_id": "francis-gatare",
+      "scale_id": "russia-security-cooperation",
+      "pole": "positive",
+      "status": "unknown",
+      "reason": "После поиска и проверки доступных источников не найдено достаточного нового персонифицированного основания для этого полюса внутри окна. Контакты, чужие заявления, общая государственная позиция и старые события не заменяют его."
+    },
+    {
+      "object_id": "francois-xavier-kalinda",
+      "scale_id": "programmatic-renewal",
+      "pole": "positive",
+      "status": "unknown",
+      "reason": "В просмотренных репликах есть улучшение текущих стратегий, но не определённое изменение прежней программы."
+    },
+    {
+      "object_id": "francois-xavier-kalinda",
+      "scale_id": "russia-conflict-policy-evaluation",
+      "pole": "negative",
+      "status": "unknown",
+      "reason": "После поиска и проверки доступных источников не найдено достаточного нового персонифицированного основания для этого полюса внутри окна. Контакты, чужие заявления, общая государственная позиция и старые события не заменяют его."
+    },
+    {
+      "object_id": "francois-xavier-kalinda",
+      "scale_id": "russia-conflict-policy-evaluation",
+      "pole": "positive",
+      "status": "unknown",
+      "reason": "После поиска и проверки доступных источников не найдено достаточного нового персонифицированного основания для этого полюса внутри окна. Контакты, чужие заявления, общая государственная позиция и старые события не заменяют его."
+    },
+    {
+      "object_id": "francois-xavier-kalinda",
+      "scale_id": "russia-diplomatic-engagement",
+      "pole": "negative",
+      "status": "unknown",
+      "reason": "После поиска и проверки доступных источников не найдено достаточного нового персонифицированного основания для этого полюса внутри окна. Контакты, чужие заявления, общая государственная позиция и старые события не заменяют его."
+    },
+    {
+      "object_id": "francois-xavier-kalinda",
+      "scale_id": "russia-diplomatic-engagement",
+      "pole": "positive",
+      "status": "unknown",
+      "reason": "После поиска и проверки доступных источников не найдено достаточного нового персонифицированного основания для этого полюса внутри окна. Контакты, чужие заявления, общая государственная позиция и старые события не заменяют его."
+    },
+    {
+      "object_id": "francois-xavier-kalinda",
+      "scale_id": "russia-economic-technology-cooperation",
+      "pole": "negative",
+      "status": "unknown",
+      "reason": "После поиска и проверки доступных источников не найдено достаточного нового персонифицированного основания для этого полюса внутри окна. Контакты, чужие заявления, общая государственная позиция и старые события не заменяют его."
+    },
+    {
+      "object_id": "francois-xavier-kalinda",
+      "scale_id": "russia-economic-technology-cooperation",
+      "pole": "positive",
+      "status": "unknown",
+      "reason": "После поиска и проверки доступных источников не найдено достаточного нового персонифицированного основания для этого полюса внутри окна. Контакты, чужие заявления, общая государственная позиция и старые события не заменяют его."
+    },
+    {
+      "object_id": "francois-xavier-kalinda",
+      "scale_id": "russia-education-cultural-cooperation",
+      "pole": "negative",
+      "status": "unknown",
+      "reason": "После поиска и проверки доступных источников не найдено достаточного нового персонифицированного основания для этого полюса внутри окна. Контакты, чужие заявления, общая государственная позиция и старые события не заменяют его."
+    },
+    {
+      "object_id": "francois-xavier-kalinda",
+      "scale_id": "russia-education-cultural-cooperation",
+      "pole": "positive",
+      "status": "unknown",
+      "reason": "После поиска и проверки доступных источников не найдено достаточного нового персонифицированного основания для этого полюса внутри окна. Контакты, чужие заявления, общая государственная позиция и старые события не заменяют его."
+    },
+    {
+      "object_id": "francois-xavier-kalinda",
+      "scale_id": "russia-isolation-sanctions",
+      "pole": "negative",
+      "status": "unknown",
+      "reason": "После поиска и проверки доступных источников не найдено достаточного нового персонифицированного основания для этого полюса внутри окна. Контакты, чужие заявления, общая государственная позиция и старые события не заменяют его."
+    },
+    {
+      "object_id": "francois-xavier-kalinda",
+      "scale_id": "russia-isolation-sanctions",
+      "pole": "positive",
+      "status": "unknown",
+      "reason": "После поиска и проверки доступных источников не найдено достаточного нового персонифицированного основания для этого полюса внутри окна. Контакты, чужие заявления, общая государственная позиция и старые события не заменяют его."
+    },
+    {
+      "object_id": "francois-xavier-kalinda",
+      "scale_id": "russia-security-cooperation",
+      "pole": "negative",
+      "status": "unknown",
+      "reason": "После поиска и проверки доступных источников не найдено достаточного нового персонифицированного основания для этого полюса внутри окна. Контакты, чужие заявления, общая государственная позиция и старые события не заменяют его."
+    },
+    {
+      "object_id": "francois-xavier-kalinda",
+      "scale_id": "russia-security-cooperation",
+      "pole": "positive",
+      "status": "unknown",
+      "reason": "После поиска и проверки доступных источников не найдено достаточного нового персонифицированного основания для этого полюса внутри окна. Контакты, чужие заявления, общая государственная позиция и старые события не заменяют его."
+    },
+    {
+      "object_id": "mussa-fazil-harerimana",
+      "scale_id": "participation-administrative-direction",
+      "pole": "negative",
+      "status": "unknown",
+      "reason": "Кампанийная просьба голосовать и сохранять достижения не устанавливает конкретную административную постановку задач."
+    },
+    {
+      "object_id": "mussa-fazil-harerimana",
+      "scale_id": "prevention-crisis-response",
+      "pole": "positive",
+      "status": "unknown",
+      "reason": "Участие в климатических обсуждениях без собственной атрибутированной меры не даёт оценки."
+    },
+    {
+      "object_id": "mussa-fazil-harerimana",
+      "scale_id": "programmatic-renewal",
+      "pole": "positive",
+      "status": "unknown",
+      "reason": "Смена названия партии не является сама по себе пересмотром политического курса."
+    },
+    {
+      "object_id": "mussa-fazil-harerimana",
+      "scale_id": "russia-conflict-policy-evaluation",
+      "pole": "negative",
+      "status": "unknown",
+      "reason": "После поиска и проверки доступных источников не найдено достаточного нового персонифицированного основания для этого полюса внутри окна. Контакты, чужие заявления, общая государственная позиция и старые события не заменяют его."
+    },
+    {
+      "object_id": "mussa-fazil-harerimana",
+      "scale_id": "russia-conflict-policy-evaluation",
+      "pole": "positive",
+      "status": "unknown",
+      "reason": "После поиска и проверки доступных источников не найдено достаточного нового персонифицированного основания для этого полюса внутри окна. Контакты, чужие заявления, общая государственная позиция и старые события не заменяют его."
+    },
+    {
+      "object_id": "mussa-fazil-harerimana",
+      "scale_id": "russia-diplomatic-engagement",
+      "pole": "negative",
+      "status": "unknown",
+      "reason": "После поиска и проверки доступных источников не найдено достаточного нового персонифицированного основания для этого полюса внутри окна. Контакты, чужие заявления, общая государственная позиция и старые события не заменяют его."
+    },
+    {
+      "object_id": "mussa-fazil-harerimana",
+      "scale_id": "russia-diplomatic-engagement",
+      "pole": "positive",
+      "status": "unknown",
+      "reason": "После поиска и проверки доступных источников не найдено достаточного нового персонифицированного основания для этого полюса внутри окна. Контакты, чужие заявления, общая государственная позиция и старые события не заменяют его."
+    },
+    {
+      "object_id": "mussa-fazil-harerimana",
+      "scale_id": "russia-economic-technology-cooperation",
+      "pole": "negative",
+      "status": "unknown",
+      "reason": "После поиска и проверки доступных источников не найдено достаточного нового персонифицированного основания для этого полюса внутри окна. Контакты, чужие заявления, общая государственная позиция и старые события не заменяют его."
+    },
+    {
+      "object_id": "mussa-fazil-harerimana",
+      "scale_id": "russia-economic-technology-cooperation",
+      "pole": "positive",
+      "status": "unknown",
+      "reason": "После поиска и проверки доступных источников не найдено достаточного нового персонифицированного основания для этого полюса внутри окна. Контакты, чужие заявления, общая государственная позиция и старые события не заменяют его."
+    },
+    {
+      "object_id": "mussa-fazil-harerimana",
+      "scale_id": "russia-education-cultural-cooperation",
+      "pole": "negative",
+      "status": "unknown",
+      "reason": "После поиска и проверки доступных источников не найдено достаточного нового персонифицированного основания для этого полюса внутри окна. Контакты, чужие заявления, общая государственная позиция и старые события не заменяют его."
+    },
+    {
+      "object_id": "mussa-fazil-harerimana",
+      "scale_id": "russia-education-cultural-cooperation",
+      "pole": "positive",
+      "status": "unknown",
+      "reason": "После поиска и проверки доступных источников не найдено достаточного нового персонифицированного основания для этого полюса внутри окна. Контакты, чужие заявления, общая государственная позиция и старые события не заменяют его."
+    },
+    {
+      "object_id": "mussa-fazil-harerimana",
+      "scale_id": "russia-isolation-sanctions",
+      "pole": "negative",
+      "status": "unknown",
+      "reason": "После поиска и проверки доступных источников не найдено достаточного нового персонифицированного основания для этого полюса внутри окна. Контакты, чужие заявления, общая государственная позиция и старые события не заменяют его."
+    },
+    {
+      "object_id": "mussa-fazil-harerimana",
+      "scale_id": "russia-isolation-sanctions",
+      "pole": "positive",
+      "status": "unknown",
+      "reason": "После поиска и проверки доступных источников не найдено достаточного нового персонифицированного основания для этого полюса внутри окна. Контакты, чужие заявления, общая государственная позиция и старые события не заменяют его."
+    },
+    {
+      "object_id": "mussa-fazil-harerimana",
+      "scale_id": "russia-security-cooperation",
+      "pole": "negative",
+      "status": "unknown",
+      "reason": "После поиска и проверки доступных источников не найдено достаточного нового персонифицированного основания для этого полюса внутри окна. Контакты, чужие заявления, общая государственная позиция и старые события не заменяют его."
+    },
+    {
+      "object_id": "mussa-fazil-harerimana",
+      "scale_id": "russia-security-cooperation",
+      "pole": "positive",
+      "status": "unknown",
+      "reason": "После поиска и проверки доступных источников не найдено достаточного нового персонифицированного основания для этого полюса внутри окна. Контакты, чужие заявления, общая государственная позиция и старые события не заменяют его."
+    }
+  ],
+  "limitations": [
+    "Поиск не устанавливает отсутствие признака; без прямого основания клетка остаётся unknown.",
+    "Участие во встрече не означает положительной оценки России; старые known не пересматриваются.",
+    "Числа 1–2 — предварительная оценка публичного эпизода по утверждённым якорям, не психологическая диагностика.",
+    "При отсутствии доступа к телу страницы использован явно помеченный полный кэш вебпоиска. Он отличается от визуальной проверки PDF или открытия оригинала.",
+    "Для двух фактов точность дат ниже дня: Калинда—январь2025, подписанное предисловие Маризамунды—2022. Эти периоды прямо отмечены; вымышленная точная дата не подставлялась.",
+    "Все новые оценки предложены без просмотра нагрузок, кластеров и факторных координат. Перечень приоритетных переменных взят из согласованного плана; ковариации не использовались."
+  ],
+  "status": "completed_proposal_requires_parent_review",
+  "completed_at": "2026-10-15",
+  "summary": {
+    "checked_unknown_properties": 133,
+    "proposed_observations": 27,
+    "proposed_core": 26,
+    "proposed_russia": 1,
+    "remaining_unknown": 106,
+    "covered_objects": 8,
+    "paid_api_calls": 0,
+    "canonical_mutations": 0,
+    "logged_query_count": 120
+  },
+  "batch": "A",
+  "plan_fingerprint": "aad8856e5560f21bae35c91171706956bb4e47472630c70a9725461e747a64c6",
+  "validation": {
+    "performed_at": "2026-10-15",
+    "unique_checked_properties": 133,
+    "unique_proposed_observations": 27,
+    "all_proposals_in_checked_unknown_plan": true,
+    "all_proposals_have_new_facts_and_no_old_indices": true,
+    "input_hashes_verified_before_freeze": true,
+    "dossier_sha256_count": 8,
+    "no_canonical_mutations": true
+  }
+}

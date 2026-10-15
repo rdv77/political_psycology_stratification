@@ -253,6 +253,61 @@
       "event_date_to": "2026-05-22",
       "publication_date": "2026-05-20",
       "source_review_file": "research/rwanda_politicians_2021_2026/russia_independent_poles_supplement.json"
+    },
+    {
+      "source_url": "https://www.mod.gov.rw/docs-media/news-detail/defence-college-of-health-sciences-officially-opens-at-gako?cHash=0eb7ee62900ffe4fe0c433774a2d683c&tx_news_pi1%5BcurrentPage%5D=3",
+      "title": "Defence College of Health Sciences officially opens at Gako",
+      "period": "2026-10-02",
+      "event_id": "marizamunda-health-sciences-college-2026-10-02",
+      "capacity": "Министр обороны Руанды",
+      "text": "При открытии первого набора Колледжа медицинских наук обороны Маризамунда положительно оценил создание учреждения как проявление государственной приверженности медицинскому образованию и качественной помощи военнослужащим. Он связал колледж с подготовкой медиков для мирного времени и сложных оперативных условий.",
+      "actor_id": "juvenal-marizamunda",
+      "topic_ids": [
+        "accessibility-growth-priorities",
+        "government-course-assessment"
+      ],
+      "verification_method": "web_open_full_primary_text",
+      "novelty": "Новый для сохранённого independent-dossier факт; предложение не изменяет canonical ratings.",
+      "eligibility": "eligible_direct",
+      "evidence_origin": "assistant_verified_source",
+      "source_review_file": "research/rwanda_politicians_2021_2026/COVERAGE_EXPANSION_SOURCES.json"
+    },
+    {
+      "source_url": "https://www.mod.gov.rw/docs-media/news-detail/easf-chiefs-of-defence-convene-in-kigali-for-stronger-partnership?cHash=0eb7ee62900ffe4fe0c433774a2d683c&tx_news_pi1%5BcurrentPage%5D=3",
+      "title": "EASF Chiefs of Defence convene in Kigali for stronger partnership",
+      "period": "2024-12-19",
+      "event_id": "marizamunda-easf-policy-organs-2024-12-19",
+      "capacity": "Министр обороны Руанды",
+      "verification_method": "web_search_cached_full_primary_article",
+      "text": "На открытии совещания органов политики EASF Маризамунда прямо призвал продолжать совместную работу в политической, оборонной, гуманитарной и экономической сферах и углублять уже действующие партнёрства. Он также предложил улучшать системы реагирования на существующие вызовы.",
+      "actor_id": "juvenal-marizamunda",
+      "topic_ids": [
+        "programmatic-renewal"
+      ],
+      "novelty": "Новый для сохранённого independent-dossier факт; предложение не изменяет canonical ratings.",
+      "eligibility": "eligible_direct",
+      "evidence_origin": "assistant_verified_source",
+      "source_review_file": "research/rwanda_politicians_2021_2026/COVERAGE_EXPANSION_SOURCES.json"
+    },
+    {
+      "source_url": "https://rcs.gov.rw/wp-content/uploads/2022/03/RCS-Magazine.pdf",
+      "title": "RCS Gororoka Magazine, second issue — Foreword signed by CGP Juvenal Marizamunda",
+      "period": "2022",
+      "date_precision": "year",
+      "date_verification": "Editorial on p6 calls2021 the previous year; файл размещён в каталоге2022/03. Точная дата предисловия не установлена. Не выдавать месяц загрузки за точный день речи.",
+      "event_id": "marizamunda-gororoka-issue2-foreword-2022",
+      "capacity": "Генеральный комиссар Rwanda Correctional Service",
+      "verification_method": "web_search_cached_full_signed_foreword_p4_and_editorial_p6; web_open redirected inaccessible; визуальная сверка PDF недоступна",
+      "text": "В подписанном предисловии Gororoka Маризамунда признал воздействие COVID-19 на службу: 2891 случай и 42 смерти заключённых. Он описал специальный противоэпидемический порядок и призвал постоянно соблюдать меры профилактики. Показатели кумулятивные; публикация 2022 г., точный день неизвестен.",
+      "actor_id": "juvenal-marizamunda",
+      "topic_ids": [
+        "participation-administrative-direction",
+        "problem-disclosure-reputation-defence"
+      ],
+      "novelty": "Новый для сохранённого independent-dossier факт; предложение не изменяет canonical ratings.",
+      "eligibility": "eligible_direct",
+      "evidence_origin": "assistant_verified_source",
+      "source_review_file": "research/rwanda_politicians_2021_2026/COVERAGE_EXPANSION_SOURCES.json"
     }
   ],
   "sources": [
@@ -354,7 +409,7 @@
     "2026-10-15"
   ],
   "measurement_model": "independent_poles",
-  "basis": "2a092cc3581fac583c96de0687fdded3fd054392dff8ffc1f991c30430d7005a",
+  "basis": "71607a66514799c9f242526c1b43440db5252afbd270a4c02e8ae49c08d0d61c",
   "retrieval_basis": "7b1efb0dcb84d5e96d0bffdcb7891be509ccc3e8608e179303c42353ac7b8f23",
   "retrieval": {
     "response_file": "evidence/independent_responses/0e1df0a4fa7bc10db9a82db069f16b59a06c7297497d5b38a5fd73382152896d.json",
@@ -396,5 +451,10 @@
     "path": "research/rwanda_politicians_2021_2026/INDEPENDENT_COMPLETION_SOURCES.json",
     "sha256": "be3cf9b161585e3e0a05dd1c39256a7ad93e4ee239560f3d3df9c620cce27ab4",
     "selected_fact_count": 0
+  },
+  "coverage_expansion_source_supplement": {
+    "path": "research/rwanda_politicians_2021_2026/COVERAGE_EXPANSION_SOURCES.json",
+    "sha256": "53a15f3e4b4718b4a4328bde05f742c6b8648153c6240d1b7762a5925fe0d192",
+    "selected_fact_count": 3
   }
 }

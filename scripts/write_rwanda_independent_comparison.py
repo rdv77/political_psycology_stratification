@@ -34,6 +34,8 @@ def percent(value):
 def main():
     store = StudyStore(ROOT / "studies")
     study = store.require_approved(IDENTIFIER)
+    if study.get("coverage_expansion", {}).get("applied"):
+        raise ValueError("Use the coverage-expansion report writer for the new data; preserve the initial comparison")
     directory = store.directory(IDENTIFIER)
     output = directory / "output"
     result = json.loads((output / "factor_preview.json").read_text(encoding="utf-8"))

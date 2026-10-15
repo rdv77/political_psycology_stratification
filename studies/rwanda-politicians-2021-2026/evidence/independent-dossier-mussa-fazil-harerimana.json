@@ -374,6 +374,42 @@
       ],
       "evidence_origin": "retrieval_cited_not_independently_verified",
       "retrieval_response": "evidence/independent_responses/d7d02df42c52a3747ad281c2206ddcef98a939a2b5966bfccf7198a856372066.json"
+    },
+    {
+      "source_url": "https://www.newtimes.co.rw/article/1895/news/infrastructure/rwanda-earmarks-rwf500bn-for-major-electrification-drive/amp",
+      "title": "Rwanda earmarks Rwf500bn for major electrification drive",
+      "period": "2022-10-18",
+      "publication_date": "2022-10-19",
+      "event_id": "harerimana-electricity-hearing-2022-10-18",
+      "capacity": "Заместитель спикера по финансам и администрации",
+      "verification_method": "web_search_full_attributed_news_article",
+      "text": "На парламентском обсуждении электрификации Хареримана лично указал на проблему энергетической инфраструктуры и крайне низкий доступ в отдельных районах; он перечислил, например, Буреру с43% и Ньямашеке с44%. Источник не приписывает ему обещание министра выделить500млрд франков.",
+      "actor_id": "mussa-fazil-harerimana",
+      "topic_ids": [
+        "problem-disclosure-reputation-defence"
+      ],
+      "novelty": "Новый для сохранённого independent-dossier факт; предложение не изменяет canonical ratings.",
+      "eligibility": "eligible_direct",
+      "evidence_origin": "assistant_verified_source",
+      "source_review_file": "research/rwanda_politicians_2021_2026/COVERAGE_EXPANSION_SOURCES.json"
+    },
+    {
+      "source_url": "https://www.africa-press.net/rwanda/parties/musanze-pdi-commits-to-increasing-access-to-electricity",
+      "title": "Musanze: PDI commits to increasing access to electricity",
+      "period": "2024-07-10",
+      "event_id": "harerimana-musanze-electricity-campaign-2024-07-10",
+      "capacity": "Председатель PDI, участник парламентской кампании",
+      "verification_method": "web_search_full_attributed_news_reprint; исходный New Times найден, body недоступен, републикация Africa-Press прочитана полностью",
+      "original_source_url": "https://www.newtimes.co.rw/article/18357/news/elections/musanze-pdi-commits-to-increasing-access-to-electricity",
+      "text": "В освещении митинга в Мухозе 10 июля 2024 года обещание PDI расширять доступ к электричеству после переизбрания её кандидатов прямо приписано Хареримане. Предложения слушателей об училищах и помощи девушкам не приписываются самому политику.",
+      "actor_id": "mussa-fazil-harerimana",
+      "topic_ids": [
+        "accessibility-growth-priorities"
+      ],
+      "novelty": "Новый для сохранённого independent-dossier факт; предложение не изменяет canonical ratings.",
+      "eligibility": "eligible_direct",
+      "evidence_origin": "assistant_verified_source",
+      "source_review_file": "research/rwanda_politicians_2021_2026/COVERAGE_EXPANSION_SOURCES.json"
     }
   ],
   "sources": [
@@ -461,7 +497,7 @@
     "2026-10-15"
   ],
   "measurement_model": "independent_poles",
-  "basis": "c0a089f8f24e6ed24c65c1e4066feb7aa98951f3cc29aa3bc855f652075aeba2",
+  "basis": "159c7e8702fee32deb0ffbf177f9cba353c440c15dce2aa0f752fe46befba5eb",
   "retrieval_basis": "f1c38ddddf29fa10120b1c8fffa77c7dbb56ecbd50a867559bf906b83303fa11",
   "retrieval": {
     "response_file": "evidence/independent_responses/d7d02df42c52a3747ad281c2206ddcef98a939a2b5966bfccf7198a856372066.json",
@@ -503,5 +539,10 @@
     "path": "research/rwanda_politicians_2021_2026/INDEPENDENT_COMPLETION_SOURCES.json",
     "sha256": "be3cf9b161585e3e0a05dd1c39256a7ad93e4ee239560f3d3df9c620cce27ab4",
     "selected_fact_count": 0
+  },
+  "coverage_expansion_source_supplement": {
+    "path": "research/rwanda_politicians_2021_2026/COVERAGE_EXPANSION_SOURCES.json",
+    "sha256": "53a15f3e4b4718b4a4328bde05f742c6b8648153c6240d1b7762a5925fe0d192",
+    "selected_fact_count": 2
   }
 }

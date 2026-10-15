@@ -73,6 +73,25 @@
       ],
       "original_fact_file": "evidence/dossier_supplement-ines-mpambara.json",
       "original_fact_index": 6
+    },
+    {
+      "source_url": "https://www.rulindo.gov.rw/amakuru/inkuru-irambuye/rulindo-abitabiriye-umwiherero-winama-njyanama-basabwe-gukorera-ku-ntego-no-kuzuzanya",
+      "title": "Rulindo: Abitabiriye umwiherero w’Inama Njyanama basabwe gukorera ku ntego no kuzuzanya",
+      "period": "2022-03-19",
+      "event_id": "mpambara-rulindo-council-retreat-2022-03-19",
+      "capacity": "Министр по делам Кабинета в канцелярии премьер-министра",
+      "verification_method": "web_search_cached_full_primary_article; direct_open возвращал Cache miss; оригинал на киньяруанда прочитан с сохранением атрибуции отдельных выступающих",
+      "text": "На совещании Рулиндо Мпамбара поручила руководителям работать по целям и назвала нерешённые проблемы уличных детей, ухода из школы, подростковой беременности и детского недоедания, которые власти должны решать.",
+      "actor_id": "ines-mpambara",
+      "topic_ids": [
+        "accessibility-growth-priorities",
+        "participation-administrative-direction",
+        "problem-disclosure-reputation-defence"
+      ],
+      "novelty": "Новый для сохранённого independent-dossier факт; предложение не изменяет canonical ratings.",
+      "eligibility": "eligible_direct",
+      "evidence_origin": "assistant_verified_source",
+      "source_review_file": "research/rwanda_politicians_2021_2026/COVERAGE_EXPANSION_SOURCES.json"
     }
   ],
   "sources": [
@@ -136,7 +155,7 @@
     "2026-10-15"
   ],
   "measurement_model": "independent_poles",
-  "basis": "6e32f55fa436949be27382ec6c0f6ebbf2da8fed7266df95617245b9ed3177c4",
+  "basis": "2b94deb60922ee1d0d55f960a1755a64e9c1665c2fd736ed515093e08e14dc59",
   "retrieval_basis": "6335514f6d75ede6547373c6cbaa32796ca5001e20faa7f8d2aed5890ee9872e",
   "retrieval": {
     "response_file": "evidence/independent_responses/ab23616f98e8811b91aece3bcc7e4f4f4d84e13ef62c33422ad981ae99c1c3d0.json",
@@ -178,5 +197,10 @@
     "path": "research/rwanda_politicians_2021_2026/INDEPENDENT_COMPLETION_SOURCES.json",
     "sha256": "be3cf9b161585e3e0a05dd1c39256a7ad93e4ee239560f3d3df9c620cce27ab4",
     "selected_fact_count": 0
+  },
+  "coverage_expansion_source_supplement": {
+    "path": "research/rwanda_politicians_2021_2026/COVERAGE_EXPANSION_SOURCES.json",
+    "sha256": "53a15f3e4b4718b4a4328bde05f742c6b8648153c6240d1b7762a5925fe0d192",
+    "selected_fact_count": 1
   }
 }

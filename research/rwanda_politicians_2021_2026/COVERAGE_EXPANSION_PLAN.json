@@ -1,0 +1,3497 @@
+{
+  "version": 1,
+  "at": "2026-10-15T18:28:53.913393+00:00",
+  "authorization": "human_user_chat_2026-10-15_expand_excluded_and_missing_data",
+  "input_ratings_fingerprint": "98c4bd857e7fae7be749378db83556936f2f2b542b4d2e4d1415e7ee6b22a802",
+  "input_study_scope": {
+    "scope": "Государственное и парламентское руководство, заметные отраслевые управленцы, столица и провинции, легальная и ограниченная в участии оппозиция, эмиграция и явно обозначенные международные дипломаты. Целевая выборка ролей, не рейтинг известности.",
+    "date_from": "2021-10-15",
+    "date_to": "2026-10-15",
+    "measurement_model": "independent_poles"
+  },
+  "input_objects_fingerprint": "92b5ecf8530b1a85cc8c2ef947051d849976127aca32149f82d6fcb20ba3056d",
+  "input_scales_fingerprint": "968e884171eb9cdb80c1fc2aa813e881359b746e2a01de4b034a953908d6cf0c",
+  "purpose": "Improve direct measurement coverage for all excluded actors on the previous common8 variables, and all42 on Russia; compare imputation methods separately. No factor-driven new scores.",
+  "excluded_object_ids": [
+    "paul-kagame",
+    "olivier-nduhungirehe",
+    "james-kabarebe",
+    "juvenal-marizamunda",
+    "ines-mpambara",
+    "francis-gatare",
+    "francois-xavier-kalinda",
+    "mussa-fazil-harerimana",
+    "diane-rwigara",
+    "bernard-ntaganda",
+    "christopher-kayumba",
+    "paul-rusesabagina",
+    "kayumba-nyamwasa",
+    "louise-mushikiwabo"
+  ],
+  "retained_core_variable_ids": [
+    "accessibility-growth-priorities__positive",
+    "argumentation-evidence-values__negative",
+    "government-course-assessment__positive",
+    "participation-administrative-direction__negative",
+    "prevention-crisis-response__positive",
+    "problem-disclosure-reputation-defence__positive",
+    "programmatic-renewal__negative",
+    "programmatic-renewal__positive"
+  ],
+  "russia_variable_ids": [
+    "russia-conflict-policy-evaluation__negative",
+    "russia-conflict-policy-evaluation__positive",
+    "russia-diplomatic-engagement__negative",
+    "russia-diplomatic-engagement__positive",
+    "russia-economic-technology-cooperation__negative",
+    "russia-economic-technology-cooperation__positive",
+    "russia-education-cultural-cooperation__negative",
+    "russia-education-cultural-cooperation__positive",
+    "russia-isolation-sanctions__negative",
+    "russia-isolation-sanctions__positive",
+    "russia-security-cooperation__negative",
+    "russia-security-cooperation__positive"
+  ],
+  "checked_unknown_properties": [
+    {
+      "object_id": "paul-kagame",
+      "variable_id": "accessibility-growth-priorities__positive",
+      "scale_id": "accessibility-growth-priorities",
+      "pole": "positive"
+    },
+    {
+      "object_id": "paul-kagame",
+      "variable_id": "participation-administrative-direction__negative",
+      "scale_id": "participation-administrative-direction",
+      "pole": "negative"
+    },
+    {
+      "object_id": "paul-kagame",
+      "variable_id": "programmatic-renewal__negative",
+      "scale_id": "programmatic-renewal",
+      "pole": "negative"
+    },
+    {
+      "object_id": "paul-kagame",
+      "variable_id": "programmatic-renewal__positive",
+      "scale_id": "programmatic-renewal",
+      "pole": "positive"
+    },
+    {
+      "object_id": "paul-kagame",
+      "variable_id": "russia-conflict-policy-evaluation__negative",
+      "scale_id": "russia-conflict-policy-evaluation",
+      "pole": "negative"
+    },
+    {
+      "object_id": "paul-kagame",
+      "variable_id": "russia-conflict-policy-evaluation__positive",
+      "scale_id": "russia-conflict-policy-evaluation",
+      "pole": "positive"
+    },
+    {
+      "object_id": "paul-kagame",
+      "variable_id": "russia-diplomatic-engagement__negative",
+      "scale_id": "russia-diplomatic-engagement",
+      "pole": "negative"
+    },
+    {
+      "object_id": "paul-kagame",
+      "variable_id": "russia-diplomatic-engagement__positive",
+      "scale_id": "russia-diplomatic-engagement",
+      "pole": "positive"
+    },
+    {
+      "object_id": "paul-kagame",
+      "variable_id": "russia-economic-technology-cooperation__negative",
+      "scale_id": "russia-economic-technology-cooperation",
+      "pole": "negative"
+    },
+    {
+      "object_id": "paul-kagame",
+      "variable_id": "russia-economic-technology-cooperation__positive",
+      "scale_id": "russia-economic-technology-cooperation",
+      "pole": "positive"
+    },
+    {
+      "object_id": "paul-kagame",
+      "variable_id": "russia-education-cultural-cooperation__negative",
+      "scale_id": "russia-education-cultural-cooperation",
+      "pole": "negative"
+    },
+    {
+      "object_id": "paul-kagame",
+      "variable_id": "russia-education-cultural-cooperation__positive",
+      "scale_id": "russia-education-cultural-cooperation",
+      "pole": "positive"
+    },
+    {
+      "object_id": "paul-kagame",
+      "variable_id": "russia-isolation-sanctions__negative",
+      "scale_id": "russia-isolation-sanctions",
+      "pole": "negative"
+    },
+    {
+      "object_id": "paul-kagame",
+      "variable_id": "russia-isolation-sanctions__positive",
+      "scale_id": "russia-isolation-sanctions",
+      "pole": "positive"
+    },
+    {
+      "object_id": "paul-kagame",
+      "variable_id": "russia-security-cooperation__negative",
+      "scale_id": "russia-security-cooperation",
+      "pole": "negative"
+    },
+    {
+      "object_id": "paul-kagame",
+      "variable_id": "russia-security-cooperation__positive",
+      "scale_id": "russia-security-cooperation",
+      "pole": "positive"
+    },
+    {
+      "object_id": "edouard-ngirente",
+      "variable_id": "russia-conflict-policy-evaluation__negative",
+      "scale_id": "russia-conflict-policy-evaluation",
+      "pole": "negative"
+    },
+    {
+      "object_id": "edouard-ngirente",
+      "variable_id": "russia-conflict-policy-evaluation__positive",
+      "scale_id": "russia-conflict-policy-evaluation",
+      "pole": "positive"
+    },
+    {
+      "object_id": "edouard-ngirente",
+      "variable_id": "russia-diplomatic-engagement__negative",
+      "scale_id": "russia-diplomatic-engagement",
+      "pole": "negative"
+    },
+    {
+      "object_id": "edouard-ngirente",
+      "variable_id": "russia-diplomatic-engagement__positive",
+      "scale_id": "russia-diplomatic-engagement",
+      "pole": "positive"
+    },
+    {
+      "object_id": "edouard-ngirente",
+      "variable_id": "russia-economic-technology-cooperation__negative",
+      "scale_id": "russia-economic-technology-cooperation",
+      "pole": "negative"
+    },
+    {
+      "object_id": "edouard-ngirente",
+      "variable_id": "russia-economic-technology-cooperation__positive",
+      "scale_id": "russia-economic-technology-cooperation",
+      "pole": "positive"
+    },
+    {
+      "object_id": "edouard-ngirente",
+      "variable_id": "russia-education-cultural-cooperation__negative",
+      "scale_id": "russia-education-cultural-cooperation",
+      "pole": "negative"
+    },
+    {
+      "object_id": "edouard-ngirente",
+      "variable_id": "russia-education-cultural-cooperation__positive",
+      "scale_id": "russia-education-cultural-cooperation",
+      "pole": "positive"
+    },
+    {
+      "object_id": "edouard-ngirente",
+      "variable_id": "russia-isolation-sanctions__negative",
+      "scale_id": "russia-isolation-sanctions",
+      "pole": "negative"
+    },
+    {
+      "object_id": "edouard-ngirente",
+      "variable_id": "russia-isolation-sanctions__positive",
+      "scale_id": "russia-isolation-sanctions",
+      "pole": "positive"
+    },
+    {
+      "object_id": "edouard-ngirente",
+      "variable_id": "russia-security-cooperation__negative",
+      "scale_id": "russia-security-cooperation",
+      "pole": "negative"
+    },
+    {
+      "object_id": "edouard-ngirente",
+      "variable_id": "russia-security-cooperation__positive",
+      "scale_id": "russia-security-cooperation",
+      "pole": "positive"
+    },
+    {
+      "object_id": "justin-nsengiyumva",
+      "variable_id": "russia-conflict-policy-evaluation__negative",
+      "scale_id": "russia-conflict-policy-evaluation",
+      "pole": "negative"
+    },
+    {
+      "object_id": "justin-nsengiyumva",
+      "variable_id": "russia-conflict-policy-evaluation__positive",
+      "scale_id": "russia-conflict-policy-evaluation",
+      "pole": "positive"
+    },
+    {
+      "object_id": "justin-nsengiyumva",
+      "variable_id": "russia-diplomatic-engagement__negative",
+      "scale_id": "russia-diplomatic-engagement",
+      "pole": "negative"
+    },
+    {
+      "object_id": "justin-nsengiyumva",
+      "variable_id": "russia-diplomatic-engagement__positive",
+      "scale_id": "russia-diplomatic-engagement",
+      "pole": "positive"
+    },
+    {
+      "object_id": "justin-nsengiyumva",
+      "variable_id": "russia-economic-technology-cooperation__negative",
+      "scale_id": "russia-economic-technology-cooperation",
+      "pole": "negative"
+    },
+    {
+      "object_id": "justin-nsengiyumva",
+      "variable_id": "russia-economic-technology-cooperation__positive",
+      "scale_id": "russia-economic-technology-cooperation",
+      "pole": "positive"
+    },
+    {
+      "object_id": "justin-nsengiyumva",
+      "variable_id": "russia-education-cultural-cooperation__negative",
+      "scale_id": "russia-education-cultural-cooperation",
+      "pole": "negative"
+    },
+    {
+      "object_id": "justin-nsengiyumva",
+      "variable_id": "russia-education-cultural-cooperation__positive",
+      "scale_id": "russia-education-cultural-cooperation",
+      "pole": "positive"
+    },
+    {
+      "object_id": "justin-nsengiyumva",
+      "variable_id": "russia-isolation-sanctions__negative",
+      "scale_id": "russia-isolation-sanctions",
+      "pole": "negative"
+    },
+    {
+      "object_id": "justin-nsengiyumva",
+      "variable_id": "russia-isolation-sanctions__positive",
+      "scale_id": "russia-isolation-sanctions",
+      "pole": "positive"
+    },
+    {
+      "object_id": "justin-nsengiyumva",
+      "variable_id": "russia-security-cooperation__negative",
+      "scale_id": "russia-security-cooperation",
+      "pole": "negative"
+    },
+    {
+      "object_id": "justin-nsengiyumva",
+      "variable_id": "russia-security-cooperation__positive",
+      "scale_id": "russia-security-cooperation",
+      "pole": "positive"
+    },
+    {
+      "object_id": "vincent-biruta",
+      "variable_id": "russia-conflict-policy-evaluation__negative",
+      "scale_id": "russia-conflict-policy-evaluation",
+      "pole": "negative"
+    },
+    {
+      "object_id": "vincent-biruta",
+      "variable_id": "russia-conflict-policy-evaluation__positive",
+      "scale_id": "russia-conflict-policy-evaluation",
+      "pole": "positive"
+    },
+    {
+      "object_id": "vincent-biruta",
+      "variable_id": "russia-diplomatic-engagement__negative",
+      "scale_id": "russia-diplomatic-engagement",
+      "pole": "negative"
+    },
+    {
+      "object_id": "vincent-biruta",
+      "variable_id": "russia-diplomatic-engagement__positive",
+      "scale_id": "russia-diplomatic-engagement",
+      "pole": "positive"
+    },
+    {
+      "object_id": "vincent-biruta",
+      "variable_id": "russia-economic-technology-cooperation__negative",
+      "scale_id": "russia-economic-technology-cooperation",
+      "pole": "negative"
+    },
+    {
+      "object_id": "vincent-biruta",
+      "variable_id": "russia-economic-technology-cooperation__positive",
+      "scale_id": "russia-economic-technology-cooperation",
+      "pole": "positive"
+    },
+    {
+      "object_id": "vincent-biruta",
+      "variable_id": "russia-education-cultural-cooperation__negative",
+      "scale_id": "russia-education-cultural-cooperation",
+      "pole": "negative"
+    },
+    {
+      "object_id": "vincent-biruta",
+      "variable_id": "russia-education-cultural-cooperation__positive",
+      "scale_id": "russia-education-cultural-cooperation",
+      "pole": "positive"
+    },
+    {
+      "object_id": "vincent-biruta",
+      "variable_id": "russia-isolation-sanctions__negative",
+      "scale_id": "russia-isolation-sanctions",
+      "pole": "negative"
+    },
+    {
+      "object_id": "vincent-biruta",
+      "variable_id": "russia-isolation-sanctions__positive",
+      "scale_id": "russia-isolation-sanctions",
+      "pole": "positive"
+    },
+    {
+      "object_id": "vincent-biruta",
+      "variable_id": "russia-security-cooperation__negative",
+      "scale_id": "russia-security-cooperation",
+      "pole": "negative"
+    },
+    {
+      "object_id": "vincent-biruta",
+      "variable_id": "russia-security-cooperation__positive",
+      "scale_id": "russia-security-cooperation",
+      "pole": "positive"
+    },
+    {
+      "object_id": "olivier-nduhungirehe",
+      "variable_id": "participation-administrative-direction__negative",
+      "scale_id": "participation-administrative-direction",
+      "pole": "negative"
+    },
+    {
+      "object_id": "olivier-nduhungirehe",
+      "variable_id": "prevention-crisis-response__positive",
+      "scale_id": "prevention-crisis-response",
+      "pole": "positive"
+    },
+    {
+      "object_id": "olivier-nduhungirehe",
+      "variable_id": "problem-disclosure-reputation-defence__positive",
+      "scale_id": "problem-disclosure-reputation-defence",
+      "pole": "positive"
+    },
+    {
+      "object_id": "olivier-nduhungirehe",
+      "variable_id": "programmatic-renewal__negative",
+      "scale_id": "programmatic-renewal",
+      "pole": "negative"
+    },
+    {
+      "object_id": "olivier-nduhungirehe",
+      "variable_id": "russia-conflict-policy-evaluation__negative",
+      "scale_id": "russia-conflict-policy-evaluation",
+      "pole": "negative"
+    },
+    {
+      "object_id": "olivier-nduhungirehe",
+      "variable_id": "russia-conflict-policy-evaluation__positive",
+      "scale_id": "russia-conflict-policy-evaluation",
+      "pole": "positive"
+    },
+    {
+      "object_id": "olivier-nduhungirehe",
+      "variable_id": "russia-diplomatic-engagement__negative",
+      "scale_id": "russia-diplomatic-engagement",
+      "pole": "negative"
+    },
+    {
+      "object_id": "olivier-nduhungirehe",
+      "variable_id": "russia-economic-technology-cooperation__negative",
+      "scale_id": "russia-economic-technology-cooperation",
+      "pole": "negative"
+    },
+    {
+      "object_id": "olivier-nduhungirehe",
+      "variable_id": "russia-education-cultural-cooperation__negative",
+      "scale_id": "russia-education-cultural-cooperation",
+      "pole": "negative"
+    },
+    {
+      "object_id": "olivier-nduhungirehe",
+      "variable_id": "russia-isolation-sanctions__negative",
+      "scale_id": "russia-isolation-sanctions",
+      "pole": "negative"
+    },
+    {
+      "object_id": "olivier-nduhungirehe",
+      "variable_id": "russia-isolation-sanctions__positive",
+      "scale_id": "russia-isolation-sanctions",
+      "pole": "positive"
+    },
+    {
+      "object_id": "olivier-nduhungirehe",
+      "variable_id": "russia-security-cooperation__negative",
+      "scale_id": "russia-security-cooperation",
+      "pole": "negative"
+    },
+    {
+      "object_id": "olivier-nduhungirehe",
+      "variable_id": "russia-security-cooperation__positive",
+      "scale_id": "russia-security-cooperation",
+      "pole": "positive"
+    },
+    {
+      "object_id": "james-kabarebe",
+      "variable_id": "accessibility-growth-priorities__positive",
+      "scale_id": "accessibility-growth-priorities",
+      "pole": "positive"
+    },
+    {
+      "object_id": "james-kabarebe",
+      "variable_id": "participation-administrative-direction__negative",
+      "scale_id": "participation-administrative-direction",
+      "pole": "negative"
+    },
+    {
+      "object_id": "james-kabarebe",
+      "variable_id": "prevention-crisis-response__positive",
+      "scale_id": "prevention-crisis-response",
+      "pole": "positive"
+    },
+    {
+      "object_id": "james-kabarebe",
+      "variable_id": "problem-disclosure-reputation-defence__positive",
+      "scale_id": "problem-disclosure-reputation-defence",
+      "pole": "positive"
+    },
+    {
+      "object_id": "james-kabarebe",
+      "variable_id": "programmatic-renewal__positive",
+      "scale_id": "programmatic-renewal",
+      "pole": "positive"
+    },
+    {
+      "object_id": "james-kabarebe",
+      "variable_id": "russia-conflict-policy-evaluation__negative",
+      "scale_id": "russia-conflict-policy-evaluation",
+      "pole": "negative"
+    },
+    {
+      "object_id": "james-kabarebe",
+      "variable_id": "russia-conflict-policy-evaluation__positive",
+      "scale_id": "russia-conflict-policy-evaluation",
+      "pole": "positive"
+    },
+    {
+      "object_id": "james-kabarebe",
+      "variable_id": "russia-diplomatic-engagement__negative",
+      "scale_id": "russia-diplomatic-engagement",
+      "pole": "negative"
+    },
+    {
+      "object_id": "james-kabarebe",
+      "variable_id": "russia-diplomatic-engagement__positive",
+      "scale_id": "russia-diplomatic-engagement",
+      "pole": "positive"
+    },
+    {
+      "object_id": "james-kabarebe",
+      "variable_id": "russia-economic-technology-cooperation__negative",
+      "scale_id": "russia-economic-technology-cooperation",
+      "pole": "negative"
+    },
+    {
+      "object_id": "james-kabarebe",
+      "variable_id": "russia-economic-technology-cooperation__positive",
+      "scale_id": "russia-economic-technology-cooperation",
+      "pole": "positive"
+    },
+    {
+      "object_id": "james-kabarebe",
+      "variable_id": "russia-education-cultural-cooperation__negative",
+      "scale_id": "russia-education-cultural-cooperation",
+      "pole": "negative"
+    },
+    {
+      "object_id": "james-kabarebe",
+      "variable_id": "russia-education-cultural-cooperation__positive",
+      "scale_id": "russia-education-cultural-cooperation",
+      "pole": "positive"
+    },
+    {
+      "object_id": "james-kabarebe",
+      "variable_id": "russia-isolation-sanctions__negative",
+      "scale_id": "russia-isolation-sanctions",
+      "pole": "negative"
+    },
+    {
+      "object_id": "james-kabarebe",
+      "variable_id": "russia-isolation-sanctions__positive",
+      "scale_id": "russia-isolation-sanctions",
+      "pole": "positive"
+    },
+    {
+      "object_id": "james-kabarebe",
+      "variable_id": "russia-security-cooperation__negative",
+      "scale_id": "russia-security-cooperation",
+      "pole": "negative"
+    },
+    {
+      "object_id": "james-kabarebe",
+      "variable_id": "russia-security-cooperation__positive",
+      "scale_id": "russia-security-cooperation",
+      "pole": "positive"
+    },
+    {
+      "object_id": "juvenal-marizamunda",
+      "variable_id": "accessibility-growth-priorities__positive",
+      "scale_id": "accessibility-growth-priorities",
+      "pole": "positive"
+    },
+    {
+      "object_id": "juvenal-marizamunda",
+      "variable_id": "government-course-assessment__positive",
+      "scale_id": "government-course-assessment",
+      "pole": "positive"
+    },
+    {
+      "object_id": "juvenal-marizamunda",
+      "variable_id": "participation-administrative-direction__negative",
+      "scale_id": "participation-administrative-direction",
+      "pole": "negative"
+    },
+    {
+      "object_id": "juvenal-marizamunda",
+      "variable_id": "problem-disclosure-reputation-defence__positive",
+      "scale_id": "problem-disclosure-reputation-defence",
+      "pole": "positive"
+    },
+    {
+      "object_id": "juvenal-marizamunda",
+      "variable_id": "programmatic-renewal__negative",
+      "scale_id": "programmatic-renewal",
+      "pole": "negative"
+    },
+    {
+      "object_id": "juvenal-marizamunda",
+      "variable_id": "programmatic-renewal__positive",
+      "scale_id": "programmatic-renewal",
+      "pole": "positive"
+    },
+    {
+      "object_id": "juvenal-marizamunda",
+      "variable_id": "russia-conflict-policy-evaluation__negative",
+      "scale_id": "russia-conflict-policy-evaluation",
+      "pole": "negative"
+    },
+    {
+      "object_id": "juvenal-marizamunda",
+      "variable_id": "russia-conflict-policy-evaluation__positive",
+      "scale_id": "russia-conflict-policy-evaluation",
+      "pole": "positive"
+    },
+    {
+      "object_id": "juvenal-marizamunda",
+      "variable_id": "russia-diplomatic-engagement__negative",
+      "scale_id": "russia-diplomatic-engagement",
+      "pole": "negative"
+    },
+    {
+      "object_id": "juvenal-marizamunda",
+      "variable_id": "russia-diplomatic-engagement__positive",
+      "scale_id": "russia-diplomatic-engagement",
+      "pole": "positive"
+    },
+    {
+      "object_id": "juvenal-marizamunda",
+      "variable_id": "russia-economic-technology-cooperation__negative",
+      "scale_id": "russia-economic-technology-cooperation",
+      "pole": "negative"
+    },
+    {
+      "object_id": "juvenal-marizamunda",
+      "variable_id": "russia-economic-technology-cooperation__positive",
+      "scale_id": "russia-economic-technology-cooperation",
+      "pole": "positive"
+    },
+    {
+      "object_id": "juvenal-marizamunda",
+      "variable_id": "russia-education-cultural-cooperation__negative",
+      "scale_id": "russia-education-cultural-cooperation",
+      "pole": "negative"
+    },
+    {
+      "object_id": "juvenal-marizamunda",
+      "variable_id": "russia-education-cultural-cooperation__positive",
+      "scale_id": "russia-education-cultural-cooperation",
+      "pole": "positive"
+    },
+    {
+      "object_id": "juvenal-marizamunda",
+      "variable_id": "russia-isolation-sanctions__negative",
+      "scale_id": "russia-isolation-sanctions",
+      "pole": "negative"
+    },
+    {
+      "object_id": "juvenal-marizamunda",
+      "variable_id": "russia-isolation-sanctions__positive",
+      "scale_id": "russia-isolation-sanctions",
+      "pole": "positive"
+    },
+    {
+      "object_id": "juvenal-marizamunda",
+      "variable_id": "russia-security-cooperation__negative",
+      "scale_id": "russia-security-cooperation",
+      "pole": "negative"
+    },
+    {
+      "object_id": "albert-murasira",
+      "variable_id": "russia-conflict-policy-evaluation__negative",
+      "scale_id": "russia-conflict-policy-evaluation",
+      "pole": "negative"
+    },
+    {
+      "object_id": "albert-murasira",
+      "variable_id": "russia-conflict-policy-evaluation__positive",
+      "scale_id": "russia-conflict-policy-evaluation",
+      "pole": "positive"
+    },
+    {
+      "object_id": "albert-murasira",
+      "variable_id": "russia-diplomatic-engagement__negative",
+      "scale_id": "russia-diplomatic-engagement",
+      "pole": "negative"
+    },
+    {
+      "object_id": "albert-murasira",
+      "variable_id": "russia-diplomatic-engagement__positive",
+      "scale_id": "russia-diplomatic-engagement",
+      "pole": "positive"
+    },
+    {
+      "object_id": "albert-murasira",
+      "variable_id": "russia-economic-technology-cooperation__negative",
+      "scale_id": "russia-economic-technology-cooperation",
+      "pole": "negative"
+    },
+    {
+      "object_id": "albert-murasira",
+      "variable_id": "russia-economic-technology-cooperation__positive",
+      "scale_id": "russia-economic-technology-cooperation",
+      "pole": "positive"
+    },
+    {
+      "object_id": "albert-murasira",
+      "variable_id": "russia-education-cultural-cooperation__negative",
+      "scale_id": "russia-education-cultural-cooperation",
+      "pole": "negative"
+    },
+    {
+      "object_id": "albert-murasira",
+      "variable_id": "russia-education-cultural-cooperation__positive",
+      "scale_id": "russia-education-cultural-cooperation",
+      "pole": "positive"
+    },
+    {
+      "object_id": "albert-murasira",
+      "variable_id": "russia-isolation-sanctions__negative",
+      "scale_id": "russia-isolation-sanctions",
+      "pole": "negative"
+    },
+    {
+      "object_id": "albert-murasira",
+      "variable_id": "russia-isolation-sanctions__positive",
+      "scale_id": "russia-isolation-sanctions",
+      "pole": "positive"
+    },
+    {
+      "object_id": "albert-murasira",
+      "variable_id": "russia-security-cooperation__negative",
+      "scale_id": "russia-security-cooperation",
+      "pole": "negative"
+    },
+    {
+      "object_id": "albert-murasira",
+      "variable_id": "russia-security-cooperation__positive",
+      "scale_id": "russia-security-cooperation",
+      "pole": "positive"
+    },
+    {
+      "object_id": "emmanuel-ugirashebuja",
+      "variable_id": "russia-conflict-policy-evaluation__negative",
+      "scale_id": "russia-conflict-policy-evaluation",
+      "pole": "negative"
+    },
+    {
+      "object_id": "emmanuel-ugirashebuja",
+      "variable_id": "russia-conflict-policy-evaluation__positive",
+      "scale_id": "russia-conflict-policy-evaluation",
+      "pole": "positive"
+    },
+    {
+      "object_id": "emmanuel-ugirashebuja",
+      "variable_id": "russia-diplomatic-engagement__negative",
+      "scale_id": "russia-diplomatic-engagement",
+      "pole": "negative"
+    },
+    {
+      "object_id": "emmanuel-ugirashebuja",
+      "variable_id": "russia-diplomatic-engagement__positive",
+      "scale_id": "russia-diplomatic-engagement",
+      "pole": "positive"
+    },
+    {
+      "object_id": "emmanuel-ugirashebuja",
+      "variable_id": "russia-economic-technology-cooperation__negative",
+      "scale_id": "russia-economic-technology-cooperation",
+      "pole": "negative"
+    },
+    {
+      "object_id": "emmanuel-ugirashebuja",
+      "variable_id": "russia-economic-technology-cooperation__positive",
+      "scale_id": "russia-economic-technology-cooperation",
+      "pole": "positive"
+    },
+    {
+      "object_id": "emmanuel-ugirashebuja",
+      "variable_id": "russia-education-cultural-cooperation__negative",
+      "scale_id": "russia-education-cultural-cooperation",
+      "pole": "negative"
+    },
+    {
+      "object_id": "emmanuel-ugirashebuja",
+      "variable_id": "russia-education-cultural-cooperation__positive",
+      "scale_id": "russia-education-cultural-cooperation",
+      "pole": "positive"
+    },
+    {
+      "object_id": "emmanuel-ugirashebuja",
+      "variable_id": "russia-isolation-sanctions__negative",
+      "scale_id": "russia-isolation-sanctions",
+      "pole": "negative"
+    },
+    {
+      "object_id": "emmanuel-ugirashebuja",
+      "variable_id": "russia-isolation-sanctions__positive",
+      "scale_id": "russia-isolation-sanctions",
+      "pole": "positive"
+    },
+    {
+      "object_id": "emmanuel-ugirashebuja",
+      "variable_id": "russia-security-cooperation__negative",
+      "scale_id": "russia-security-cooperation",
+      "pole": "negative"
+    },
+    {
+      "object_id": "emmanuel-ugirashebuja",
+      "variable_id": "russia-security-cooperation__positive",
+      "scale_id": "russia-security-cooperation",
+      "pole": "positive"
+    },
+    {
+      "object_id": "yusuf-murangwa",
+      "variable_id": "russia-conflict-policy-evaluation__negative",
+      "scale_id": "russia-conflict-policy-evaluation",
+      "pole": "negative"
+    },
+    {
+      "object_id": "yusuf-murangwa",
+      "variable_id": "russia-conflict-policy-evaluation__positive",
+      "scale_id": "russia-conflict-policy-evaluation",
+      "pole": "positive"
+    },
+    {
+      "object_id": "yusuf-murangwa",
+      "variable_id": "russia-diplomatic-engagement__negative",
+      "scale_id": "russia-diplomatic-engagement",
+      "pole": "negative"
+    },
+    {
+      "object_id": "yusuf-murangwa",
+      "variable_id": "russia-diplomatic-engagement__positive",
+      "scale_id": "russia-diplomatic-engagement",
+      "pole": "positive"
+    },
+    {
+      "object_id": "yusuf-murangwa",
+      "variable_id": "russia-economic-technology-cooperation__negative",
+      "scale_id": "russia-economic-technology-cooperation",
+      "pole": "negative"
+    },
+    {
+      "object_id": "yusuf-murangwa",
+      "variable_id": "russia-economic-technology-cooperation__positive",
+      "scale_id": "russia-economic-technology-cooperation",
+      "pole": "positive"
+    },
+    {
+      "object_id": "yusuf-murangwa",
+      "variable_id": "russia-education-cultural-cooperation__negative",
+      "scale_id": "russia-education-cultural-cooperation",
+      "pole": "negative"
+    },
+    {
+      "object_id": "yusuf-murangwa",
+      "variable_id": "russia-education-cultural-cooperation__positive",
+      "scale_id": "russia-education-cultural-cooperation",
+      "pole": "positive"
+    },
+    {
+      "object_id": "yusuf-murangwa",
+      "variable_id": "russia-isolation-sanctions__negative",
+      "scale_id": "russia-isolation-sanctions",
+      "pole": "negative"
+    },
+    {
+      "object_id": "yusuf-murangwa",
+      "variable_id": "russia-isolation-sanctions__positive",
+      "scale_id": "russia-isolation-sanctions",
+      "pole": "positive"
+    },
+    {
+      "object_id": "yusuf-murangwa",
+      "variable_id": "russia-security-cooperation__negative",
+      "scale_id": "russia-security-cooperation",
+      "pole": "negative"
+    },
+    {
+      "object_id": "yusuf-murangwa",
+      "variable_id": "russia-security-cooperation__positive",
+      "scale_id": "russia-security-cooperation",
+      "pole": "positive"
+    },
+    {
+      "object_id": "uzziel-ndagijimana",
+      "variable_id": "russia-conflict-policy-evaluation__negative",
+      "scale_id": "russia-conflict-policy-evaluation",
+      "pole": "negative"
+    },
+    {
+      "object_id": "uzziel-ndagijimana",
+      "variable_id": "russia-conflict-policy-evaluation__positive",
+      "scale_id": "russia-conflict-policy-evaluation",
+      "pole": "positive"
+    },
+    {
+      "object_id": "uzziel-ndagijimana",
+      "variable_id": "russia-diplomatic-engagement__negative",
+      "scale_id": "russia-diplomatic-engagement",
+      "pole": "negative"
+    },
+    {
+      "object_id": "uzziel-ndagijimana",
+      "variable_id": "russia-diplomatic-engagement__positive",
+      "scale_id": "russia-diplomatic-engagement",
+      "pole": "positive"
+    },
+    {
+      "object_id": "uzziel-ndagijimana",
+      "variable_id": "russia-economic-technology-cooperation__negative",
+      "scale_id": "russia-economic-technology-cooperation",
+      "pole": "negative"
+    },
+    {
+      "object_id": "uzziel-ndagijimana",
+      "variable_id": "russia-economic-technology-cooperation__positive",
+      "scale_id": "russia-economic-technology-cooperation",
+      "pole": "positive"
+    },
+    {
+      "object_id": "uzziel-ndagijimana",
+      "variable_id": "russia-education-cultural-cooperation__negative",
+      "scale_id": "russia-education-cultural-cooperation",
+      "pole": "negative"
+    },
+    {
+      "object_id": "uzziel-ndagijimana",
+      "variable_id": "russia-education-cultural-cooperation__positive",
+      "scale_id": "russia-education-cultural-cooperation",
+      "pole": "positive"
+    },
+    {
+      "object_id": "uzziel-ndagijimana",
+      "variable_id": "russia-isolation-sanctions__negative",
+      "scale_id": "russia-isolation-sanctions",
+      "pole": "negative"
+    },
+    {
+      "object_id": "uzziel-ndagijimana",
+      "variable_id": "russia-isolation-sanctions__positive",
+      "scale_id": "russia-isolation-sanctions",
+      "pole": "positive"
+    },
+    {
+      "object_id": "uzziel-ndagijimana",
+      "variable_id": "russia-security-cooperation__negative",
+      "scale_id": "russia-security-cooperation",
+      "pole": "negative"
+    },
+    {
+      "object_id": "uzziel-ndagijimana",
+      "variable_id": "russia-security-cooperation__positive",
+      "scale_id": "russia-security-cooperation",
+      "pole": "positive"
+    },
+    {
+      "object_id": "paula-ingabire",
+      "variable_id": "russia-conflict-policy-evaluation__negative",
+      "scale_id": "russia-conflict-policy-evaluation",
+      "pole": "negative"
+    },
+    {
+      "object_id": "paula-ingabire",
+      "variable_id": "russia-conflict-policy-evaluation__positive",
+      "scale_id": "russia-conflict-policy-evaluation",
+      "pole": "positive"
+    },
+    {
+      "object_id": "paula-ingabire",
+      "variable_id": "russia-diplomatic-engagement__negative",
+      "scale_id": "russia-diplomatic-engagement",
+      "pole": "negative"
+    },
+    {
+      "object_id": "paula-ingabire",
+      "variable_id": "russia-diplomatic-engagement__positive",
+      "scale_id": "russia-diplomatic-engagement",
+      "pole": "positive"
+    },
+    {
+      "object_id": "paula-ingabire",
+      "variable_id": "russia-economic-technology-cooperation__negative",
+      "scale_id": "russia-economic-technology-cooperation",
+      "pole": "negative"
+    },
+    {
+      "object_id": "paula-ingabire",
+      "variable_id": "russia-economic-technology-cooperation__positive",
+      "scale_id": "russia-economic-technology-cooperation",
+      "pole": "positive"
+    },
+    {
+      "object_id": "paula-ingabire",
+      "variable_id": "russia-education-cultural-cooperation__negative",
+      "scale_id": "russia-education-cultural-cooperation",
+      "pole": "negative"
+    },
+    {
+      "object_id": "paula-ingabire",
+      "variable_id": "russia-education-cultural-cooperation__positive",
+      "scale_id": "russia-education-cultural-cooperation",
+      "pole": "positive"
+    },
+    {
+      "object_id": "paula-ingabire",
+      "variable_id": "russia-isolation-sanctions__negative",
+      "scale_id": "russia-isolation-sanctions",
+      "pole": "negative"
+    },
+    {
+      "object_id": "paula-ingabire",
+      "variable_id": "russia-isolation-sanctions__positive",
+      "scale_id": "russia-isolation-sanctions",
+      "pole": "positive"
+    },
+    {
+      "object_id": "paula-ingabire",
+      "variable_id": "russia-security-cooperation__negative",
+      "scale_id": "russia-security-cooperation",
+      "pole": "negative"
+    },
+    {
+      "object_id": "paula-ingabire",
+      "variable_id": "russia-security-cooperation__positive",
+      "scale_id": "russia-security-cooperation",
+      "pole": "positive"
+    },
+    {
+      "object_id": "sabin-nsanzimana",
+      "variable_id": "russia-conflict-policy-evaluation__negative",
+      "scale_id": "russia-conflict-policy-evaluation",
+      "pole": "negative"
+    },
+    {
+      "object_id": "sabin-nsanzimana",
+      "variable_id": "russia-conflict-policy-evaluation__positive",
+      "scale_id": "russia-conflict-policy-evaluation",
+      "pole": "positive"
+    },
+    {
+      "object_id": "sabin-nsanzimana",
+      "variable_id": "russia-diplomatic-engagement__negative",
+      "scale_id": "russia-diplomatic-engagement",
+      "pole": "negative"
+    },
+    {
+      "object_id": "sabin-nsanzimana",
+      "variable_id": "russia-diplomatic-engagement__positive",
+      "scale_id": "russia-diplomatic-engagement",
+      "pole": "positive"
+    },
+    {
+      "object_id": "sabin-nsanzimana",
+      "variable_id": "russia-economic-technology-cooperation__negative",
+      "scale_id": "russia-economic-technology-cooperation",
+      "pole": "negative"
+    },
+    {
+      "object_id": "sabin-nsanzimana",
+      "variable_id": "russia-education-cultural-cooperation__negative",
+      "scale_id": "russia-education-cultural-cooperation",
+      "pole": "negative"
+    },
+    {
+      "object_id": "sabin-nsanzimana",
+      "variable_id": "russia-isolation-sanctions__negative",
+      "scale_id": "russia-isolation-sanctions",
+      "pole": "negative"
+    },
+    {
+      "object_id": "sabin-nsanzimana",
+      "variable_id": "russia-isolation-sanctions__positive",
+      "scale_id": "russia-isolation-sanctions",
+      "pole": "positive"
+    },
+    {
+      "object_id": "sabin-nsanzimana",
+      "variable_id": "russia-security-cooperation__negative",
+      "scale_id": "russia-security-cooperation",
+      "pole": "negative"
+    },
+    {
+      "object_id": "sabin-nsanzimana",
+      "variable_id": "russia-security-cooperation__positive",
+      "scale_id": "russia-security-cooperation",
+      "pole": "positive"
+    },
+    {
+      "object_id": "judith-uwizeye",
+      "variable_id": "russia-conflict-policy-evaluation__negative",
+      "scale_id": "russia-conflict-policy-evaluation",
+      "pole": "negative"
+    },
+    {
+      "object_id": "judith-uwizeye",
+      "variable_id": "russia-conflict-policy-evaluation__positive",
+      "scale_id": "russia-conflict-policy-evaluation",
+      "pole": "positive"
+    },
+    {
+      "object_id": "judith-uwizeye",
+      "variable_id": "russia-diplomatic-engagement__negative",
+      "scale_id": "russia-diplomatic-engagement",
+      "pole": "negative"
+    },
+    {
+      "object_id": "judith-uwizeye",
+      "variable_id": "russia-diplomatic-engagement__positive",
+      "scale_id": "russia-diplomatic-engagement",
+      "pole": "positive"
+    },
+    {
+      "object_id": "judith-uwizeye",
+      "variable_id": "russia-economic-technology-cooperation__negative",
+      "scale_id": "russia-economic-technology-cooperation",
+      "pole": "negative"
+    },
+    {
+      "object_id": "judith-uwizeye",
+      "variable_id": "russia-economic-technology-cooperation__positive",
+      "scale_id": "russia-economic-technology-cooperation",
+      "pole": "positive"
+    },
+    {
+      "object_id": "judith-uwizeye",
+      "variable_id": "russia-education-cultural-cooperation__negative",
+      "scale_id": "russia-education-cultural-cooperation",
+      "pole": "negative"
+    },
+    {
+      "object_id": "judith-uwizeye",
+      "variable_id": "russia-education-cultural-cooperation__positive",
+      "scale_id": "russia-education-cultural-cooperation",
+      "pole": "positive"
+    },
+    {
+      "object_id": "judith-uwizeye",
+      "variable_id": "russia-isolation-sanctions__negative",
+      "scale_id": "russia-isolation-sanctions",
+      "pole": "negative"
+    },
+    {
+      "object_id": "judith-uwizeye",
+      "variable_id": "russia-isolation-sanctions__positive",
+      "scale_id": "russia-isolation-sanctions",
+      "pole": "positive"
+    },
+    {
+      "object_id": "judith-uwizeye",
+      "variable_id": "russia-security-cooperation__negative",
+      "scale_id": "russia-security-cooperation",
+      "pole": "negative"
+    },
+    {
+      "object_id": "judith-uwizeye",
+      "variable_id": "russia-security-cooperation__positive",
+      "scale_id": "russia-security-cooperation",
+      "pole": "positive"
+    },
+    {
+      "object_id": "ines-mpambara",
+      "variable_id": "accessibility-growth-priorities__positive",
+      "scale_id": "accessibility-growth-priorities",
+      "pole": "positive"
+    },
+    {
+      "object_id": "ines-mpambara",
+      "variable_id": "government-course-assessment__positive",
+      "scale_id": "government-course-assessment",
+      "pole": "positive"
+    },
+    {
+      "object_id": "ines-mpambara",
+      "variable_id": "participation-administrative-direction__negative",
+      "scale_id": "participation-administrative-direction",
+      "pole": "negative"
+    },
+    {
+      "object_id": "ines-mpambara",
+      "variable_id": "prevention-crisis-response__positive",
+      "scale_id": "prevention-crisis-response",
+      "pole": "positive"
+    },
+    {
+      "object_id": "ines-mpambara",
+      "variable_id": "problem-disclosure-reputation-defence__positive",
+      "scale_id": "problem-disclosure-reputation-defence",
+      "pole": "positive"
+    },
+    {
+      "object_id": "ines-mpambara",
+      "variable_id": "programmatic-renewal__negative",
+      "scale_id": "programmatic-renewal",
+      "pole": "negative"
+    },
+    {
+      "object_id": "ines-mpambara",
+      "variable_id": "programmatic-renewal__positive",
+      "scale_id": "programmatic-renewal",
+      "pole": "positive"
+    },
+    {
+      "object_id": "ines-mpambara",
+      "variable_id": "russia-conflict-policy-evaluation__negative",
+      "scale_id": "russia-conflict-policy-evaluation",
+      "pole": "negative"
+    },
+    {
+      "object_id": "ines-mpambara",
+      "variable_id": "russia-conflict-policy-evaluation__positive",
+      "scale_id": "russia-conflict-policy-evaluation",
+      "pole": "positive"
+    },
+    {
+      "object_id": "ines-mpambara",
+      "variable_id": "russia-diplomatic-engagement__negative",
+      "scale_id": "russia-diplomatic-engagement",
+      "pole": "negative"
+    },
+    {
+      "object_id": "ines-mpambara",
+      "variable_id": "russia-diplomatic-engagement__positive",
+      "scale_id": "russia-diplomatic-engagement",
+      "pole": "positive"
+    },
+    {
+      "object_id": "ines-mpambara",
+      "variable_id": "russia-economic-technology-cooperation__negative",
+      "scale_id": "russia-economic-technology-cooperation",
+      "pole": "negative"
+    },
+    {
+      "object_id": "ines-mpambara",
+      "variable_id": "russia-economic-technology-cooperation__positive",
+      "scale_id": "russia-economic-technology-cooperation",
+      "pole": "positive"
+    },
+    {
+      "object_id": "ines-mpambara",
+      "variable_id": "russia-education-cultural-cooperation__negative",
+      "scale_id": "russia-education-cultural-cooperation",
+      "pole": "negative"
+    },
+    {
+      "object_id": "ines-mpambara",
+      "variable_id": "russia-education-cultural-cooperation__positive",
+      "scale_id": "russia-education-cultural-cooperation",
+      "pole": "positive"
+    },
+    {
+      "object_id": "ines-mpambara",
+      "variable_id": "russia-isolation-sanctions__negative",
+      "scale_id": "russia-isolation-sanctions",
+      "pole": "negative"
+    },
+    {
+      "object_id": "ines-mpambara",
+      "variable_id": "russia-isolation-sanctions__positive",
+      "scale_id": "russia-isolation-sanctions",
+      "pole": "positive"
+    },
+    {
+      "object_id": "ines-mpambara",
+      "variable_id": "russia-security-cooperation__negative",
+      "scale_id": "russia-security-cooperation",
+      "pole": "negative"
+    },
+    {
+      "object_id": "ines-mpambara",
+      "variable_id": "russia-security-cooperation__positive",
+      "scale_id": "russia-security-cooperation",
+      "pole": "positive"
+    },
+    {
+      "object_id": "valentine-uwamariya",
+      "variable_id": "russia-conflict-policy-evaluation__negative",
+      "scale_id": "russia-conflict-policy-evaluation",
+      "pole": "negative"
+    },
+    {
+      "object_id": "valentine-uwamariya",
+      "variable_id": "russia-conflict-policy-evaluation__positive",
+      "scale_id": "russia-conflict-policy-evaluation",
+      "pole": "positive"
+    },
+    {
+      "object_id": "valentine-uwamariya",
+      "variable_id": "russia-diplomatic-engagement__negative",
+      "scale_id": "russia-diplomatic-engagement",
+      "pole": "negative"
+    },
+    {
+      "object_id": "valentine-uwamariya",
+      "variable_id": "russia-diplomatic-engagement__positive",
+      "scale_id": "russia-diplomatic-engagement",
+      "pole": "positive"
+    },
+    {
+      "object_id": "valentine-uwamariya",
+      "variable_id": "russia-economic-technology-cooperation__negative",
+      "scale_id": "russia-economic-technology-cooperation",
+      "pole": "negative"
+    },
+    {
+      "object_id": "valentine-uwamariya",
+      "variable_id": "russia-economic-technology-cooperation__positive",
+      "scale_id": "russia-economic-technology-cooperation",
+      "pole": "positive"
+    },
+    {
+      "object_id": "valentine-uwamariya",
+      "variable_id": "russia-education-cultural-cooperation__negative",
+      "scale_id": "russia-education-cultural-cooperation",
+      "pole": "negative"
+    },
+    {
+      "object_id": "valentine-uwamariya",
+      "variable_id": "russia-education-cultural-cooperation__positive",
+      "scale_id": "russia-education-cultural-cooperation",
+      "pole": "positive"
+    },
+    {
+      "object_id": "valentine-uwamariya",
+      "variable_id": "russia-isolation-sanctions__negative",
+      "scale_id": "russia-isolation-sanctions",
+      "pole": "negative"
+    },
+    {
+      "object_id": "valentine-uwamariya",
+      "variable_id": "russia-isolation-sanctions__positive",
+      "scale_id": "russia-isolation-sanctions",
+      "pole": "positive"
+    },
+    {
+      "object_id": "valentine-uwamariya",
+      "variable_id": "russia-security-cooperation__negative",
+      "scale_id": "russia-security-cooperation",
+      "pole": "negative"
+    },
+    {
+      "object_id": "valentine-uwamariya",
+      "variable_id": "russia-security-cooperation__positive",
+      "scale_id": "russia-security-cooperation",
+      "pole": "positive"
+    },
+    {
+      "object_id": "jeanne-darc-mujawamariya",
+      "variable_id": "russia-conflict-policy-evaluation__negative",
+      "scale_id": "russia-conflict-policy-evaluation",
+      "pole": "negative"
+    },
+    {
+      "object_id": "jeanne-darc-mujawamariya",
+      "variable_id": "russia-conflict-policy-evaluation__positive",
+      "scale_id": "russia-conflict-policy-evaluation",
+      "pole": "positive"
+    },
+    {
+      "object_id": "jeanne-darc-mujawamariya",
+      "variable_id": "russia-diplomatic-engagement__negative",
+      "scale_id": "russia-diplomatic-engagement",
+      "pole": "negative"
+    },
+    {
+      "object_id": "jeanne-darc-mujawamariya",
+      "variable_id": "russia-diplomatic-engagement__positive",
+      "scale_id": "russia-diplomatic-engagement",
+      "pole": "positive"
+    },
+    {
+      "object_id": "jeanne-darc-mujawamariya",
+      "variable_id": "russia-economic-technology-cooperation__negative",
+      "scale_id": "russia-economic-technology-cooperation",
+      "pole": "negative"
+    },
+    {
+      "object_id": "jeanne-darc-mujawamariya",
+      "variable_id": "russia-economic-technology-cooperation__positive",
+      "scale_id": "russia-economic-technology-cooperation",
+      "pole": "positive"
+    },
+    {
+      "object_id": "jeanne-darc-mujawamariya",
+      "variable_id": "russia-education-cultural-cooperation__negative",
+      "scale_id": "russia-education-cultural-cooperation",
+      "pole": "negative"
+    },
+    {
+      "object_id": "jeanne-darc-mujawamariya",
+      "variable_id": "russia-education-cultural-cooperation__positive",
+      "scale_id": "russia-education-cultural-cooperation",
+      "pole": "positive"
+    },
+    {
+      "object_id": "jeanne-darc-mujawamariya",
+      "variable_id": "russia-isolation-sanctions__negative",
+      "scale_id": "russia-isolation-sanctions",
+      "pole": "negative"
+    },
+    {
+      "object_id": "jeanne-darc-mujawamariya",
+      "variable_id": "russia-isolation-sanctions__positive",
+      "scale_id": "russia-isolation-sanctions",
+      "pole": "positive"
+    },
+    {
+      "object_id": "jeanne-darc-mujawamariya",
+      "variable_id": "russia-security-cooperation__negative",
+      "scale_id": "russia-security-cooperation",
+      "pole": "negative"
+    },
+    {
+      "object_id": "jeanne-darc-mujawamariya",
+      "variable_id": "russia-security-cooperation__positive",
+      "scale_id": "russia-security-cooperation",
+      "pole": "positive"
+    },
+    {
+      "object_id": "gerardine-mukeshimana",
+      "variable_id": "russia-conflict-policy-evaluation__negative",
+      "scale_id": "russia-conflict-policy-evaluation",
+      "pole": "negative"
+    },
+    {
+      "object_id": "gerardine-mukeshimana",
+      "variable_id": "russia-conflict-policy-evaluation__positive",
+      "scale_id": "russia-conflict-policy-evaluation",
+      "pole": "positive"
+    },
+    {
+      "object_id": "gerardine-mukeshimana",
+      "variable_id": "russia-diplomatic-engagement__negative",
+      "scale_id": "russia-diplomatic-engagement",
+      "pole": "negative"
+    },
+    {
+      "object_id": "gerardine-mukeshimana",
+      "variable_id": "russia-diplomatic-engagement__positive",
+      "scale_id": "russia-diplomatic-engagement",
+      "pole": "positive"
+    },
+    {
+      "object_id": "gerardine-mukeshimana",
+      "variable_id": "russia-economic-technology-cooperation__negative",
+      "scale_id": "russia-economic-technology-cooperation",
+      "pole": "negative"
+    },
+    {
+      "object_id": "gerardine-mukeshimana",
+      "variable_id": "russia-economic-technology-cooperation__positive",
+      "scale_id": "russia-economic-technology-cooperation",
+      "pole": "positive"
+    },
+    {
+      "object_id": "gerardine-mukeshimana",
+      "variable_id": "russia-education-cultural-cooperation__negative",
+      "scale_id": "russia-education-cultural-cooperation",
+      "pole": "negative"
+    },
+    {
+      "object_id": "gerardine-mukeshimana",
+      "variable_id": "russia-education-cultural-cooperation__positive",
+      "scale_id": "russia-education-cultural-cooperation",
+      "pole": "positive"
+    },
+    {
+      "object_id": "gerardine-mukeshimana",
+      "variable_id": "russia-isolation-sanctions__negative",
+      "scale_id": "russia-isolation-sanctions",
+      "pole": "negative"
+    },
+    {
+      "object_id": "gerardine-mukeshimana",
+      "variable_id": "russia-isolation-sanctions__positive",
+      "scale_id": "russia-isolation-sanctions",
+      "pole": "positive"
+    },
+    {
+      "object_id": "gerardine-mukeshimana",
+      "variable_id": "russia-security-cooperation__negative",
+      "scale_id": "russia-security-cooperation",
+      "pole": "negative"
+    },
+    {
+      "object_id": "gerardine-mukeshimana",
+      "variable_id": "russia-security-cooperation__positive",
+      "scale_id": "russia-security-cooperation",
+      "pole": "positive"
+    },
+    {
+      "object_id": "ildephonse-musafiri",
+      "variable_id": "russia-conflict-policy-evaluation__negative",
+      "scale_id": "russia-conflict-policy-evaluation",
+      "pole": "negative"
+    },
+    {
+      "object_id": "ildephonse-musafiri",
+      "variable_id": "russia-conflict-policy-evaluation__positive",
+      "scale_id": "russia-conflict-policy-evaluation",
+      "pole": "positive"
+    },
+    {
+      "object_id": "ildephonse-musafiri",
+      "variable_id": "russia-diplomatic-engagement__negative",
+      "scale_id": "russia-diplomatic-engagement",
+      "pole": "negative"
+    },
+    {
+      "object_id": "ildephonse-musafiri",
+      "variable_id": "russia-diplomatic-engagement__positive",
+      "scale_id": "russia-diplomatic-engagement",
+      "pole": "positive"
+    },
+    {
+      "object_id": "ildephonse-musafiri",
+      "variable_id": "russia-economic-technology-cooperation__negative",
+      "scale_id": "russia-economic-technology-cooperation",
+      "pole": "negative"
+    },
+    {
+      "object_id": "ildephonse-musafiri",
+      "variable_id": "russia-economic-technology-cooperation__positive",
+      "scale_id": "russia-economic-technology-cooperation",
+      "pole": "positive"
+    },
+    {
+      "object_id": "ildephonse-musafiri",
+      "variable_id": "russia-education-cultural-cooperation__negative",
+      "scale_id": "russia-education-cultural-cooperation",
+      "pole": "negative"
+    },
+    {
+      "object_id": "ildephonse-musafiri",
+      "variable_id": "russia-education-cultural-cooperation__positive",
+      "scale_id": "russia-education-cultural-cooperation",
+      "pole": "positive"
+    },
+    {
+      "object_id": "ildephonse-musafiri",
+      "variable_id": "russia-isolation-sanctions__negative",
+      "scale_id": "russia-isolation-sanctions",
+      "pole": "negative"
+    },
+    {
+      "object_id": "ildephonse-musafiri",
+      "variable_id": "russia-isolation-sanctions__positive",
+      "scale_id": "russia-isolation-sanctions",
+      "pole": "positive"
+    },
+    {
+      "object_id": "ildephonse-musafiri",
+      "variable_id": "russia-security-cooperation__negative",
+      "scale_id": "russia-security-cooperation",
+      "pole": "negative"
+    },
+    {
+      "object_id": "ildephonse-musafiri",
+      "variable_id": "russia-security-cooperation__positive",
+      "scale_id": "russia-security-cooperation",
+      "pole": "positive"
+    },
+    {
+      "object_id": "jean-claude-musabyimana",
+      "variable_id": "russia-conflict-policy-evaluation__negative",
+      "scale_id": "russia-conflict-policy-evaluation",
+      "pole": "negative"
+    },
+    {
+      "object_id": "jean-claude-musabyimana",
+      "variable_id": "russia-conflict-policy-evaluation__positive",
+      "scale_id": "russia-conflict-policy-evaluation",
+      "pole": "positive"
+    },
+    {
+      "object_id": "jean-claude-musabyimana",
+      "variable_id": "russia-diplomatic-engagement__negative",
+      "scale_id": "russia-diplomatic-engagement",
+      "pole": "negative"
+    },
+    {
+      "object_id": "jean-claude-musabyimana",
+      "variable_id": "russia-diplomatic-engagement__positive",
+      "scale_id": "russia-diplomatic-engagement",
+      "pole": "positive"
+    },
+    {
+      "object_id": "jean-claude-musabyimana",
+      "variable_id": "russia-economic-technology-cooperation__negative",
+      "scale_id": "russia-economic-technology-cooperation",
+      "pole": "negative"
+    },
+    {
+      "object_id": "jean-claude-musabyimana",
+      "variable_id": "russia-economic-technology-cooperation__positive",
+      "scale_id": "russia-economic-technology-cooperation",
+      "pole": "positive"
+    },
+    {
+      "object_id": "jean-claude-musabyimana",
+      "variable_id": "russia-education-cultural-cooperation__negative",
+      "scale_id": "russia-education-cultural-cooperation",
+      "pole": "negative"
+    },
+    {
+      "object_id": "jean-claude-musabyimana",
+      "variable_id": "russia-education-cultural-cooperation__positive",
+      "scale_id": "russia-education-cultural-cooperation",
+      "pole": "positive"
+    },
+    {
+      "object_id": "jean-claude-musabyimana",
+      "variable_id": "russia-isolation-sanctions__negative",
+      "scale_id": "russia-isolation-sanctions",
+      "pole": "negative"
+    },
+    {
+      "object_id": "jean-claude-musabyimana",
+      "variable_id": "russia-isolation-sanctions__positive",
+      "scale_id": "russia-isolation-sanctions",
+      "pole": "positive"
+    },
+    {
+      "object_id": "jean-claude-musabyimana",
+      "variable_id": "russia-security-cooperation__negative",
+      "scale_id": "russia-security-cooperation",
+      "pole": "negative"
+    },
+    {
+      "object_id": "jean-claude-musabyimana",
+      "variable_id": "russia-security-cooperation__positive",
+      "scale_id": "russia-security-cooperation",
+      "pole": "positive"
+    },
+    {
+      "object_id": "jean-damascene-bizimana",
+      "variable_id": "russia-conflict-policy-evaluation__negative",
+      "scale_id": "russia-conflict-policy-evaluation",
+      "pole": "negative"
+    },
+    {
+      "object_id": "jean-damascene-bizimana",
+      "variable_id": "russia-conflict-policy-evaluation__positive",
+      "scale_id": "russia-conflict-policy-evaluation",
+      "pole": "positive"
+    },
+    {
+      "object_id": "jean-damascene-bizimana",
+      "variable_id": "russia-diplomatic-engagement__negative",
+      "scale_id": "russia-diplomatic-engagement",
+      "pole": "negative"
+    },
+    {
+      "object_id": "jean-damascene-bizimana",
+      "variable_id": "russia-diplomatic-engagement__positive",
+      "scale_id": "russia-diplomatic-engagement",
+      "pole": "positive"
+    },
+    {
+      "object_id": "jean-damascene-bizimana",
+      "variable_id": "russia-economic-technology-cooperation__negative",
+      "scale_id": "russia-economic-technology-cooperation",
+      "pole": "negative"
+    },
+    {
+      "object_id": "jean-damascene-bizimana",
+      "variable_id": "russia-economic-technology-cooperation__positive",
+      "scale_id": "russia-economic-technology-cooperation",
+      "pole": "positive"
+    },
+    {
+      "object_id": "jean-damascene-bizimana",
+      "variable_id": "russia-education-cultural-cooperation__negative",
+      "scale_id": "russia-education-cultural-cooperation",
+      "pole": "negative"
+    },
+    {
+      "object_id": "jean-damascene-bizimana",
+      "variable_id": "russia-education-cultural-cooperation__positive",
+      "scale_id": "russia-education-cultural-cooperation",
+      "pole": "positive"
+    },
+    {
+      "object_id": "jean-damascene-bizimana",
+      "variable_id": "russia-isolation-sanctions__negative",
+      "scale_id": "russia-isolation-sanctions",
+      "pole": "negative"
+    },
+    {
+      "object_id": "jean-damascene-bizimana",
+      "variable_id": "russia-isolation-sanctions__positive",
+      "scale_id": "russia-isolation-sanctions",
+      "pole": "positive"
+    },
+    {
+      "object_id": "jean-damascene-bizimana",
+      "variable_id": "russia-security-cooperation__negative",
+      "scale_id": "russia-security-cooperation",
+      "pole": "negative"
+    },
+    {
+      "object_id": "jean-damascene-bizimana",
+      "variable_id": "russia-security-cooperation__positive",
+      "scale_id": "russia-security-cooperation",
+      "pole": "positive"
+    },
+    {
+      "object_id": "clare-akamanzi",
+      "variable_id": "russia-conflict-policy-evaluation__negative",
+      "scale_id": "russia-conflict-policy-evaluation",
+      "pole": "negative"
+    },
+    {
+      "object_id": "clare-akamanzi",
+      "variable_id": "russia-conflict-policy-evaluation__positive",
+      "scale_id": "russia-conflict-policy-evaluation",
+      "pole": "positive"
+    },
+    {
+      "object_id": "clare-akamanzi",
+      "variable_id": "russia-diplomatic-engagement__negative",
+      "scale_id": "russia-diplomatic-engagement",
+      "pole": "negative"
+    },
+    {
+      "object_id": "clare-akamanzi",
+      "variable_id": "russia-diplomatic-engagement__positive",
+      "scale_id": "russia-diplomatic-engagement",
+      "pole": "positive"
+    },
+    {
+      "object_id": "clare-akamanzi",
+      "variable_id": "russia-economic-technology-cooperation__negative",
+      "scale_id": "russia-economic-technology-cooperation",
+      "pole": "negative"
+    },
+    {
+      "object_id": "clare-akamanzi",
+      "variable_id": "russia-economic-technology-cooperation__positive",
+      "scale_id": "russia-economic-technology-cooperation",
+      "pole": "positive"
+    },
+    {
+      "object_id": "clare-akamanzi",
+      "variable_id": "russia-education-cultural-cooperation__negative",
+      "scale_id": "russia-education-cultural-cooperation",
+      "pole": "negative"
+    },
+    {
+      "object_id": "clare-akamanzi",
+      "variable_id": "russia-education-cultural-cooperation__positive",
+      "scale_id": "russia-education-cultural-cooperation",
+      "pole": "positive"
+    },
+    {
+      "object_id": "clare-akamanzi",
+      "variable_id": "russia-isolation-sanctions__negative",
+      "scale_id": "russia-isolation-sanctions",
+      "pole": "negative"
+    },
+    {
+      "object_id": "clare-akamanzi",
+      "variable_id": "russia-isolation-sanctions__positive",
+      "scale_id": "russia-isolation-sanctions",
+      "pole": "positive"
+    },
+    {
+      "object_id": "clare-akamanzi",
+      "variable_id": "russia-security-cooperation__negative",
+      "scale_id": "russia-security-cooperation",
+      "pole": "negative"
+    },
+    {
+      "object_id": "clare-akamanzi",
+      "variable_id": "russia-security-cooperation__positive",
+      "scale_id": "russia-security-cooperation",
+      "pole": "positive"
+    },
+    {
+      "object_id": "francis-gatare",
+      "variable_id": "accessibility-growth-priorities__positive",
+      "scale_id": "accessibility-growth-priorities",
+      "pole": "positive"
+    },
+    {
+      "object_id": "francis-gatare",
+      "variable_id": "argumentation-evidence-values__negative",
+      "scale_id": "argumentation-evidence-values",
+      "pole": "negative"
+    },
+    {
+      "object_id": "francis-gatare",
+      "variable_id": "government-course-assessment__positive",
+      "scale_id": "government-course-assessment",
+      "pole": "positive"
+    },
+    {
+      "object_id": "francis-gatare",
+      "variable_id": "participation-administrative-direction__negative",
+      "scale_id": "participation-administrative-direction",
+      "pole": "negative"
+    },
+    {
+      "object_id": "francis-gatare",
+      "variable_id": "prevention-crisis-response__positive",
+      "scale_id": "prevention-crisis-response",
+      "pole": "positive"
+    },
+    {
+      "object_id": "francis-gatare",
+      "variable_id": "problem-disclosure-reputation-defence__positive",
+      "scale_id": "problem-disclosure-reputation-defence",
+      "pole": "positive"
+    },
+    {
+      "object_id": "francis-gatare",
+      "variable_id": "russia-conflict-policy-evaluation__negative",
+      "scale_id": "russia-conflict-policy-evaluation",
+      "pole": "negative"
+    },
+    {
+      "object_id": "francis-gatare",
+      "variable_id": "russia-conflict-policy-evaluation__positive",
+      "scale_id": "russia-conflict-policy-evaluation",
+      "pole": "positive"
+    },
+    {
+      "object_id": "francis-gatare",
+      "variable_id": "russia-diplomatic-engagement__negative",
+      "scale_id": "russia-diplomatic-engagement",
+      "pole": "negative"
+    },
+    {
+      "object_id": "francis-gatare",
+      "variable_id": "russia-diplomatic-engagement__positive",
+      "scale_id": "russia-diplomatic-engagement",
+      "pole": "positive"
+    },
+    {
+      "object_id": "francis-gatare",
+      "variable_id": "russia-economic-technology-cooperation__negative",
+      "scale_id": "russia-economic-technology-cooperation",
+      "pole": "negative"
+    },
+    {
+      "object_id": "francis-gatare",
+      "variable_id": "russia-economic-technology-cooperation__positive",
+      "scale_id": "russia-economic-technology-cooperation",
+      "pole": "positive"
+    },
+    {
+      "object_id": "francis-gatare",
+      "variable_id": "russia-education-cultural-cooperation__negative",
+      "scale_id": "russia-education-cultural-cooperation",
+      "pole": "negative"
+    },
+    {
+      "object_id": "francis-gatare",
+      "variable_id": "russia-education-cultural-cooperation__positive",
+      "scale_id": "russia-education-cultural-cooperation",
+      "pole": "positive"
+    },
+    {
+      "object_id": "francis-gatare",
+      "variable_id": "russia-isolation-sanctions__negative",
+      "scale_id": "russia-isolation-sanctions",
+      "pole": "negative"
+    },
+    {
+      "object_id": "francis-gatare",
+      "variable_id": "russia-isolation-sanctions__positive",
+      "scale_id": "russia-isolation-sanctions",
+      "pole": "positive"
+    },
+    {
+      "object_id": "francis-gatare",
+      "variable_id": "russia-security-cooperation__negative",
+      "scale_id": "russia-security-cooperation",
+      "pole": "negative"
+    },
+    {
+      "object_id": "francis-gatare",
+      "variable_id": "russia-security-cooperation__positive",
+      "scale_id": "russia-security-cooperation",
+      "pole": "positive"
+    },
+    {
+      "object_id": "gertrude-kazarwa",
+      "variable_id": "russia-conflict-policy-evaluation__negative",
+      "scale_id": "russia-conflict-policy-evaluation",
+      "pole": "negative"
+    },
+    {
+      "object_id": "gertrude-kazarwa",
+      "variable_id": "russia-conflict-policy-evaluation__positive",
+      "scale_id": "russia-conflict-policy-evaluation",
+      "pole": "positive"
+    },
+    {
+      "object_id": "gertrude-kazarwa",
+      "variable_id": "russia-diplomatic-engagement__negative",
+      "scale_id": "russia-diplomatic-engagement",
+      "pole": "negative"
+    },
+    {
+      "object_id": "gertrude-kazarwa",
+      "variable_id": "russia-diplomatic-engagement__positive",
+      "scale_id": "russia-diplomatic-engagement",
+      "pole": "positive"
+    },
+    {
+      "object_id": "gertrude-kazarwa",
+      "variable_id": "russia-economic-technology-cooperation__negative",
+      "scale_id": "russia-economic-technology-cooperation",
+      "pole": "negative"
+    },
+    {
+      "object_id": "gertrude-kazarwa",
+      "variable_id": "russia-economic-technology-cooperation__positive",
+      "scale_id": "russia-economic-technology-cooperation",
+      "pole": "positive"
+    },
+    {
+      "object_id": "gertrude-kazarwa",
+      "variable_id": "russia-education-cultural-cooperation__negative",
+      "scale_id": "russia-education-cultural-cooperation",
+      "pole": "negative"
+    },
+    {
+      "object_id": "gertrude-kazarwa",
+      "variable_id": "russia-education-cultural-cooperation__positive",
+      "scale_id": "russia-education-cultural-cooperation",
+      "pole": "positive"
+    },
+    {
+      "object_id": "gertrude-kazarwa",
+      "variable_id": "russia-isolation-sanctions__negative",
+      "scale_id": "russia-isolation-sanctions",
+      "pole": "negative"
+    },
+    {
+      "object_id": "gertrude-kazarwa",
+      "variable_id": "russia-isolation-sanctions__positive",
+      "scale_id": "russia-isolation-sanctions",
+      "pole": "positive"
+    },
+    {
+      "object_id": "gertrude-kazarwa",
+      "variable_id": "russia-security-cooperation__negative",
+      "scale_id": "russia-security-cooperation",
+      "pole": "negative"
+    },
+    {
+      "object_id": "gertrude-kazarwa",
+      "variable_id": "russia-security-cooperation__positive",
+      "scale_id": "russia-security-cooperation",
+      "pole": "positive"
+    },
+    {
+      "object_id": "donatille-mukabalisa",
+      "variable_id": "russia-conflict-policy-evaluation__negative",
+      "scale_id": "russia-conflict-policy-evaluation",
+      "pole": "negative"
+    },
+    {
+      "object_id": "donatille-mukabalisa",
+      "variable_id": "russia-conflict-policy-evaluation__positive",
+      "scale_id": "russia-conflict-policy-evaluation",
+      "pole": "positive"
+    },
+    {
+      "object_id": "donatille-mukabalisa",
+      "variable_id": "russia-diplomatic-engagement__negative",
+      "scale_id": "russia-diplomatic-engagement",
+      "pole": "negative"
+    },
+    {
+      "object_id": "donatille-mukabalisa",
+      "variable_id": "russia-diplomatic-engagement__positive",
+      "scale_id": "russia-diplomatic-engagement",
+      "pole": "positive"
+    },
+    {
+      "object_id": "donatille-mukabalisa",
+      "variable_id": "russia-economic-technology-cooperation__negative",
+      "scale_id": "russia-economic-technology-cooperation",
+      "pole": "negative"
+    },
+    {
+      "object_id": "donatille-mukabalisa",
+      "variable_id": "russia-economic-technology-cooperation__positive",
+      "scale_id": "russia-economic-technology-cooperation",
+      "pole": "positive"
+    },
+    {
+      "object_id": "donatille-mukabalisa",
+      "variable_id": "russia-education-cultural-cooperation__negative",
+      "scale_id": "russia-education-cultural-cooperation",
+      "pole": "negative"
+    },
+    {
+      "object_id": "donatille-mukabalisa",
+      "variable_id": "russia-education-cultural-cooperation__positive",
+      "scale_id": "russia-education-cultural-cooperation",
+      "pole": "positive"
+    },
+    {
+      "object_id": "donatille-mukabalisa",
+      "variable_id": "russia-isolation-sanctions__negative",
+      "scale_id": "russia-isolation-sanctions",
+      "pole": "negative"
+    },
+    {
+      "object_id": "donatille-mukabalisa",
+      "variable_id": "russia-isolation-sanctions__positive",
+      "scale_id": "russia-isolation-sanctions",
+      "pole": "positive"
+    },
+    {
+      "object_id": "donatille-mukabalisa",
+      "variable_id": "russia-security-cooperation__negative",
+      "scale_id": "russia-security-cooperation",
+      "pole": "negative"
+    },
+    {
+      "object_id": "donatille-mukabalisa",
+      "variable_id": "russia-security-cooperation__positive",
+      "scale_id": "russia-security-cooperation",
+      "pole": "positive"
+    },
+    {
+      "object_id": "francois-xavier-kalinda",
+      "variable_id": "accessibility-growth-priorities__positive",
+      "scale_id": "accessibility-growth-priorities",
+      "pole": "positive"
+    },
+    {
+      "object_id": "francois-xavier-kalinda",
+      "variable_id": "problem-disclosure-reputation-defence__positive",
+      "scale_id": "problem-disclosure-reputation-defence",
+      "pole": "positive"
+    },
+    {
+      "object_id": "francois-xavier-kalinda",
+      "variable_id": "programmatic-renewal__negative",
+      "scale_id": "programmatic-renewal",
+      "pole": "negative"
+    },
+    {
+      "object_id": "francois-xavier-kalinda",
+      "variable_id": "programmatic-renewal__positive",
+      "scale_id": "programmatic-renewal",
+      "pole": "positive"
+    },
+    {
+      "object_id": "francois-xavier-kalinda",
+      "variable_id": "russia-conflict-policy-evaluation__negative",
+      "scale_id": "russia-conflict-policy-evaluation",
+      "pole": "negative"
+    },
+    {
+      "object_id": "francois-xavier-kalinda",
+      "variable_id": "russia-conflict-policy-evaluation__positive",
+      "scale_id": "russia-conflict-policy-evaluation",
+      "pole": "positive"
+    },
+    {
+      "object_id": "francois-xavier-kalinda",
+      "variable_id": "russia-diplomatic-engagement__negative",
+      "scale_id": "russia-diplomatic-engagement",
+      "pole": "negative"
+    },
+    {
+      "object_id": "francois-xavier-kalinda",
+      "variable_id": "russia-diplomatic-engagement__positive",
+      "scale_id": "russia-diplomatic-engagement",
+      "pole": "positive"
+    },
+    {
+      "object_id": "francois-xavier-kalinda",
+      "variable_id": "russia-economic-technology-cooperation__negative",
+      "scale_id": "russia-economic-technology-cooperation",
+      "pole": "negative"
+    },
+    {
+      "object_id": "francois-xavier-kalinda",
+      "variable_id": "russia-economic-technology-cooperation__positive",
+      "scale_id": "russia-economic-technology-cooperation",
+      "pole": "positive"
+    },
+    {
+      "object_id": "francois-xavier-kalinda",
+      "variable_id": "russia-education-cultural-cooperation__negative",
+      "scale_id": "russia-education-cultural-cooperation",
+      "pole": "negative"
+    },
+    {
+      "object_id": "francois-xavier-kalinda",
+      "variable_id": "russia-education-cultural-cooperation__positive",
+      "scale_id": "russia-education-cultural-cooperation",
+      "pole": "positive"
+    },
+    {
+      "object_id": "francois-xavier-kalinda",
+      "variable_id": "russia-isolation-sanctions__negative",
+      "scale_id": "russia-isolation-sanctions",
+      "pole": "negative"
+    },
+    {
+      "object_id": "francois-xavier-kalinda",
+      "variable_id": "russia-isolation-sanctions__positive",
+      "scale_id": "russia-isolation-sanctions",
+      "pole": "positive"
+    },
+    {
+      "object_id": "francois-xavier-kalinda",
+      "variable_id": "russia-security-cooperation__negative",
+      "scale_id": "russia-security-cooperation",
+      "pole": "negative"
+    },
+    {
+      "object_id": "francois-xavier-kalinda",
+      "variable_id": "russia-security-cooperation__positive",
+      "scale_id": "russia-security-cooperation",
+      "pole": "positive"
+    },
+    {
+      "object_id": "augustin-iyamuremye",
+      "variable_id": "russia-conflict-policy-evaluation__negative",
+      "scale_id": "russia-conflict-policy-evaluation",
+      "pole": "negative"
+    },
+    {
+      "object_id": "augustin-iyamuremye",
+      "variable_id": "russia-conflict-policy-evaluation__positive",
+      "scale_id": "russia-conflict-policy-evaluation",
+      "pole": "positive"
+    },
+    {
+      "object_id": "augustin-iyamuremye",
+      "variable_id": "russia-diplomatic-engagement__negative",
+      "scale_id": "russia-diplomatic-engagement",
+      "pole": "negative"
+    },
+    {
+      "object_id": "augustin-iyamuremye",
+      "variable_id": "russia-diplomatic-engagement__positive",
+      "scale_id": "russia-diplomatic-engagement",
+      "pole": "positive"
+    },
+    {
+      "object_id": "augustin-iyamuremye",
+      "variable_id": "russia-economic-technology-cooperation__negative",
+      "scale_id": "russia-economic-technology-cooperation",
+      "pole": "negative"
+    },
+    {
+      "object_id": "augustin-iyamuremye",
+      "variable_id": "russia-economic-technology-cooperation__positive",
+      "scale_id": "russia-economic-technology-cooperation",
+      "pole": "positive"
+    },
+    {
+      "object_id": "augustin-iyamuremye",
+      "variable_id": "russia-education-cultural-cooperation__negative",
+      "scale_id": "russia-education-cultural-cooperation",
+      "pole": "negative"
+    },
+    {
+      "object_id": "augustin-iyamuremye",
+      "variable_id": "russia-education-cultural-cooperation__positive",
+      "scale_id": "russia-education-cultural-cooperation",
+      "pole": "positive"
+    },
+    {
+      "object_id": "augustin-iyamuremye",
+      "variable_id": "russia-isolation-sanctions__negative",
+      "scale_id": "russia-isolation-sanctions",
+      "pole": "negative"
+    },
+    {
+      "object_id": "augustin-iyamuremye",
+      "variable_id": "russia-isolation-sanctions__positive",
+      "scale_id": "russia-isolation-sanctions",
+      "pole": "positive"
+    },
+    {
+      "object_id": "augustin-iyamuremye",
+      "variable_id": "russia-security-cooperation__negative",
+      "scale_id": "russia-security-cooperation",
+      "pole": "negative"
+    },
+    {
+      "object_id": "augustin-iyamuremye",
+      "variable_id": "russia-security-cooperation__positive",
+      "scale_id": "russia-security-cooperation",
+      "pole": "positive"
+    },
+    {
+      "object_id": "alvera-mukabaramba",
+      "variable_id": "russia-conflict-policy-evaluation__negative",
+      "scale_id": "russia-conflict-policy-evaluation",
+      "pole": "negative"
+    },
+    {
+      "object_id": "alvera-mukabaramba",
+      "variable_id": "russia-conflict-policy-evaluation__positive",
+      "scale_id": "russia-conflict-policy-evaluation",
+      "pole": "positive"
+    },
+    {
+      "object_id": "alvera-mukabaramba",
+      "variable_id": "russia-diplomatic-engagement__negative",
+      "scale_id": "russia-diplomatic-engagement",
+      "pole": "negative"
+    },
+    {
+      "object_id": "alvera-mukabaramba",
+      "variable_id": "russia-diplomatic-engagement__positive",
+      "scale_id": "russia-diplomatic-engagement",
+      "pole": "positive"
+    },
+    {
+      "object_id": "alvera-mukabaramba",
+      "variable_id": "russia-economic-technology-cooperation__negative",
+      "scale_id": "russia-economic-technology-cooperation",
+      "pole": "negative"
+    },
+    {
+      "object_id": "alvera-mukabaramba",
+      "variable_id": "russia-economic-technology-cooperation__positive",
+      "scale_id": "russia-economic-technology-cooperation",
+      "pole": "positive"
+    },
+    {
+      "object_id": "alvera-mukabaramba",
+      "variable_id": "russia-education-cultural-cooperation__negative",
+      "scale_id": "russia-education-cultural-cooperation",
+      "pole": "negative"
+    },
+    {
+      "object_id": "alvera-mukabaramba",
+      "variable_id": "russia-education-cultural-cooperation__positive",
+      "scale_id": "russia-education-cultural-cooperation",
+      "pole": "positive"
+    },
+    {
+      "object_id": "alvera-mukabaramba",
+      "variable_id": "russia-isolation-sanctions__negative",
+      "scale_id": "russia-isolation-sanctions",
+      "pole": "negative"
+    },
+    {
+      "object_id": "alvera-mukabaramba",
+      "variable_id": "russia-isolation-sanctions__positive",
+      "scale_id": "russia-isolation-sanctions",
+      "pole": "positive"
+    },
+    {
+      "object_id": "alvera-mukabaramba",
+      "variable_id": "russia-security-cooperation__negative",
+      "scale_id": "russia-security-cooperation",
+      "pole": "negative"
+    },
+    {
+      "object_id": "alvera-mukabaramba",
+      "variable_id": "russia-security-cooperation__positive",
+      "scale_id": "russia-security-cooperation",
+      "pole": "positive"
+    },
+    {
+      "object_id": "mussa-fazil-harerimana",
+      "variable_id": "accessibility-growth-priorities__positive",
+      "scale_id": "accessibility-growth-priorities",
+      "pole": "positive"
+    },
+    {
+      "object_id": "mussa-fazil-harerimana",
+      "variable_id": "participation-administrative-direction__negative",
+      "scale_id": "participation-administrative-direction",
+      "pole": "negative"
+    },
+    {
+      "object_id": "mussa-fazil-harerimana",
+      "variable_id": "prevention-crisis-response__positive",
+      "scale_id": "prevention-crisis-response",
+      "pole": "positive"
+    },
+    {
+      "object_id": "mussa-fazil-harerimana",
+      "variable_id": "problem-disclosure-reputation-defence__positive",
+      "scale_id": "problem-disclosure-reputation-defence",
+      "pole": "positive"
+    },
+    {
+      "object_id": "mussa-fazil-harerimana",
+      "variable_id": "programmatic-renewal__positive",
+      "scale_id": "programmatic-renewal",
+      "pole": "positive"
+    },
+    {
+      "object_id": "mussa-fazil-harerimana",
+      "variable_id": "russia-conflict-policy-evaluation__negative",
+      "scale_id": "russia-conflict-policy-evaluation",
+      "pole": "negative"
+    },
+    {
+      "object_id": "mussa-fazil-harerimana",
+      "variable_id": "russia-conflict-policy-evaluation__positive",
+      "scale_id": "russia-conflict-policy-evaluation",
+      "pole": "positive"
+    },
+    {
+      "object_id": "mussa-fazil-harerimana",
+      "variable_id": "russia-diplomatic-engagement__negative",
+      "scale_id": "russia-diplomatic-engagement",
+      "pole": "negative"
+    },
+    {
+      "object_id": "mussa-fazil-harerimana",
+      "variable_id": "russia-diplomatic-engagement__positive",
+      "scale_id": "russia-diplomatic-engagement",
+      "pole": "positive"
+    },
+    {
+      "object_id": "mussa-fazil-harerimana",
+      "variable_id": "russia-economic-technology-cooperation__negative",
+      "scale_id": "russia-economic-technology-cooperation",
+      "pole": "negative"
+    },
+    {
+      "object_id": "mussa-fazil-harerimana",
+      "variable_id": "russia-economic-technology-cooperation__positive",
+      "scale_id": "russia-economic-technology-cooperation",
+      "pole": "positive"
+    },
+    {
+      "object_id": "mussa-fazil-harerimana",
+      "variable_id": "russia-education-cultural-cooperation__negative",
+      "scale_id": "russia-education-cultural-cooperation",
+      "pole": "negative"
+    },
+    {
+      "object_id": "mussa-fazil-harerimana",
+      "variable_id": "russia-education-cultural-cooperation__positive",
+      "scale_id": "russia-education-cultural-cooperation",
+      "pole": "positive"
+    },
+    {
+      "object_id": "mussa-fazil-harerimana",
+      "variable_id": "russia-isolation-sanctions__negative",
+      "scale_id": "russia-isolation-sanctions",
+      "pole": "negative"
+    },
+    {
+      "object_id": "mussa-fazil-harerimana",
+      "variable_id": "russia-isolation-sanctions__positive",
+      "scale_id": "russia-isolation-sanctions",
+      "pole": "positive"
+    },
+    {
+      "object_id": "mussa-fazil-harerimana",
+      "variable_id": "russia-security-cooperation__negative",
+      "scale_id": "russia-security-cooperation",
+      "pole": "negative"
+    },
+    {
+      "object_id": "mussa-fazil-harerimana",
+      "variable_id": "russia-security-cooperation__positive",
+      "scale_id": "russia-security-cooperation",
+      "pole": "positive"
+    },
+    {
+      "object_id": "pudence-rubingisa",
+      "variable_id": "russia-conflict-policy-evaluation__negative",
+      "scale_id": "russia-conflict-policy-evaluation",
+      "pole": "negative"
+    },
+    {
+      "object_id": "pudence-rubingisa",
+      "variable_id": "russia-conflict-policy-evaluation__positive",
+      "scale_id": "russia-conflict-policy-evaluation",
+      "pole": "positive"
+    },
+    {
+      "object_id": "pudence-rubingisa",
+      "variable_id": "russia-diplomatic-engagement__negative",
+      "scale_id": "russia-diplomatic-engagement",
+      "pole": "negative"
+    },
+    {
+      "object_id": "pudence-rubingisa",
+      "variable_id": "russia-diplomatic-engagement__positive",
+      "scale_id": "russia-diplomatic-engagement",
+      "pole": "positive"
+    },
+    {
+      "object_id": "pudence-rubingisa",
+      "variable_id": "russia-economic-technology-cooperation__negative",
+      "scale_id": "russia-economic-technology-cooperation",
+      "pole": "negative"
+    },
+    {
+      "object_id": "pudence-rubingisa",
+      "variable_id": "russia-economic-technology-cooperation__positive",
+      "scale_id": "russia-economic-technology-cooperation",
+      "pole": "positive"
+    },
+    {
+      "object_id": "pudence-rubingisa",
+      "variable_id": "russia-education-cultural-cooperation__negative",
+      "scale_id": "russia-education-cultural-cooperation",
+      "pole": "negative"
+    },
+    {
+      "object_id": "pudence-rubingisa",
+      "variable_id": "russia-education-cultural-cooperation__positive",
+      "scale_id": "russia-education-cultural-cooperation",
+      "pole": "positive"
+    },
+    {
+      "object_id": "pudence-rubingisa",
+      "variable_id": "russia-isolation-sanctions__negative",
+      "scale_id": "russia-isolation-sanctions",
+      "pole": "negative"
+    },
+    {
+      "object_id": "pudence-rubingisa",
+      "variable_id": "russia-isolation-sanctions__positive",
+      "scale_id": "russia-isolation-sanctions",
+      "pole": "positive"
+    },
+    {
+      "object_id": "pudence-rubingisa",
+      "variable_id": "russia-security-cooperation__negative",
+      "scale_id": "russia-security-cooperation",
+      "pole": "negative"
+    },
+    {
+      "object_id": "pudence-rubingisa",
+      "variable_id": "russia-security-cooperation__positive",
+      "scale_id": "russia-security-cooperation",
+      "pole": "positive"
+    },
+    {
+      "object_id": "samuel-dusengiyumva",
+      "variable_id": "russia-conflict-policy-evaluation__negative",
+      "scale_id": "russia-conflict-policy-evaluation",
+      "pole": "negative"
+    },
+    {
+      "object_id": "samuel-dusengiyumva",
+      "variable_id": "russia-conflict-policy-evaluation__positive",
+      "scale_id": "russia-conflict-policy-evaluation",
+      "pole": "positive"
+    },
+    {
+      "object_id": "samuel-dusengiyumva",
+      "variable_id": "russia-diplomatic-engagement__negative",
+      "scale_id": "russia-diplomatic-engagement",
+      "pole": "negative"
+    },
+    {
+      "object_id": "samuel-dusengiyumva",
+      "variable_id": "russia-diplomatic-engagement__positive",
+      "scale_id": "russia-diplomatic-engagement",
+      "pole": "positive"
+    },
+    {
+      "object_id": "samuel-dusengiyumva",
+      "variable_id": "russia-economic-technology-cooperation__negative",
+      "scale_id": "russia-economic-technology-cooperation",
+      "pole": "negative"
+    },
+    {
+      "object_id": "samuel-dusengiyumva",
+      "variable_id": "russia-economic-technology-cooperation__positive",
+      "scale_id": "russia-economic-technology-cooperation",
+      "pole": "positive"
+    },
+    {
+      "object_id": "samuel-dusengiyumva",
+      "variable_id": "russia-education-cultural-cooperation__negative",
+      "scale_id": "russia-education-cultural-cooperation",
+      "pole": "negative"
+    },
+    {
+      "object_id": "samuel-dusengiyumva",
+      "variable_id": "russia-education-cultural-cooperation__positive",
+      "scale_id": "russia-education-cultural-cooperation",
+      "pole": "positive"
+    },
+    {
+      "object_id": "samuel-dusengiyumva",
+      "variable_id": "russia-isolation-sanctions__negative",
+      "scale_id": "russia-isolation-sanctions",
+      "pole": "negative"
+    },
+    {
+      "object_id": "samuel-dusengiyumva",
+      "variable_id": "russia-isolation-sanctions__positive",
+      "scale_id": "russia-isolation-sanctions",
+      "pole": "positive"
+    },
+    {
+      "object_id": "samuel-dusengiyumva",
+      "variable_id": "russia-security-cooperation__negative",
+      "scale_id": "russia-security-cooperation",
+      "pole": "negative"
+    },
+    {
+      "object_id": "samuel-dusengiyumva",
+      "variable_id": "russia-security-cooperation__positive",
+      "scale_id": "russia-security-cooperation",
+      "pole": "positive"
+    },
+    {
+      "object_id": "frank-habineza",
+      "variable_id": "russia-conflict-policy-evaluation__negative",
+      "scale_id": "russia-conflict-policy-evaluation",
+      "pole": "negative"
+    },
+    {
+      "object_id": "frank-habineza",
+      "variable_id": "russia-conflict-policy-evaluation__positive",
+      "scale_id": "russia-conflict-policy-evaluation",
+      "pole": "positive"
+    },
+    {
+      "object_id": "frank-habineza",
+      "variable_id": "russia-diplomatic-engagement__negative",
+      "scale_id": "russia-diplomatic-engagement",
+      "pole": "negative"
+    },
+    {
+      "object_id": "frank-habineza",
+      "variable_id": "russia-diplomatic-engagement__positive",
+      "scale_id": "russia-diplomatic-engagement",
+      "pole": "positive"
+    },
+    {
+      "object_id": "frank-habineza",
+      "variable_id": "russia-economic-technology-cooperation__negative",
+      "scale_id": "russia-economic-technology-cooperation",
+      "pole": "negative"
+    },
+    {
+      "object_id": "frank-habineza",
+      "variable_id": "russia-economic-technology-cooperation__positive",
+      "scale_id": "russia-economic-technology-cooperation",
+      "pole": "positive"
+    },
+    {
+      "object_id": "frank-habineza",
+      "variable_id": "russia-education-cultural-cooperation__negative",
+      "scale_id": "russia-education-cultural-cooperation",
+      "pole": "negative"
+    },
+    {
+      "object_id": "frank-habineza",
+      "variable_id": "russia-education-cultural-cooperation__positive",
+      "scale_id": "russia-education-cultural-cooperation",
+      "pole": "positive"
+    },
+    {
+      "object_id": "frank-habineza",
+      "variable_id": "russia-isolation-sanctions__negative",
+      "scale_id": "russia-isolation-sanctions",
+      "pole": "negative"
+    },
+    {
+      "object_id": "frank-habineza",
+      "variable_id": "russia-isolation-sanctions__positive",
+      "scale_id": "russia-isolation-sanctions",
+      "pole": "positive"
+    },
+    {
+      "object_id": "frank-habineza",
+      "variable_id": "russia-security-cooperation__negative",
+      "scale_id": "russia-security-cooperation",
+      "pole": "negative"
+    },
+    {
+      "object_id": "frank-habineza",
+      "variable_id": "russia-security-cooperation__positive",
+      "scale_id": "russia-security-cooperation",
+      "pole": "positive"
+    },
+    {
+      "object_id": "philippe-mpayimana",
+      "variable_id": "russia-conflict-policy-evaluation__negative",
+      "scale_id": "russia-conflict-policy-evaluation",
+      "pole": "negative"
+    },
+    {
+      "object_id": "philippe-mpayimana",
+      "variable_id": "russia-conflict-policy-evaluation__positive",
+      "scale_id": "russia-conflict-policy-evaluation",
+      "pole": "positive"
+    },
+    {
+      "object_id": "philippe-mpayimana",
+      "variable_id": "russia-diplomatic-engagement__negative",
+      "scale_id": "russia-diplomatic-engagement",
+      "pole": "negative"
+    },
+    {
+      "object_id": "philippe-mpayimana",
+      "variable_id": "russia-diplomatic-engagement__positive",
+      "scale_id": "russia-diplomatic-engagement",
+      "pole": "positive"
+    },
+    {
+      "object_id": "philippe-mpayimana",
+      "variable_id": "russia-economic-technology-cooperation__negative",
+      "scale_id": "russia-economic-technology-cooperation",
+      "pole": "negative"
+    },
+    {
+      "object_id": "philippe-mpayimana",
+      "variable_id": "russia-economic-technology-cooperation__positive",
+      "scale_id": "russia-economic-technology-cooperation",
+      "pole": "positive"
+    },
+    {
+      "object_id": "philippe-mpayimana",
+      "variable_id": "russia-education-cultural-cooperation__negative",
+      "scale_id": "russia-education-cultural-cooperation",
+      "pole": "negative"
+    },
+    {
+      "object_id": "philippe-mpayimana",
+      "variable_id": "russia-education-cultural-cooperation__positive",
+      "scale_id": "russia-education-cultural-cooperation",
+      "pole": "positive"
+    },
+    {
+      "object_id": "philippe-mpayimana",
+      "variable_id": "russia-isolation-sanctions__negative",
+      "scale_id": "russia-isolation-sanctions",
+      "pole": "negative"
+    },
+    {
+      "object_id": "philippe-mpayimana",
+      "variable_id": "russia-isolation-sanctions__positive",
+      "scale_id": "russia-isolation-sanctions",
+      "pole": "positive"
+    },
+    {
+      "object_id": "philippe-mpayimana",
+      "variable_id": "russia-security-cooperation__negative",
+      "scale_id": "russia-security-cooperation",
+      "pole": "negative"
+    },
+    {
+      "object_id": "philippe-mpayimana",
+      "variable_id": "russia-security-cooperation__positive",
+      "scale_id": "russia-security-cooperation",
+      "pole": "positive"
+    },
+    {
+      "object_id": "victoire-ingabire",
+      "variable_id": "russia-conflict-policy-evaluation__negative",
+      "scale_id": "russia-conflict-policy-evaluation",
+      "pole": "negative"
+    },
+    {
+      "object_id": "victoire-ingabire",
+      "variable_id": "russia-conflict-policy-evaluation__positive",
+      "scale_id": "russia-conflict-policy-evaluation",
+      "pole": "positive"
+    },
+    {
+      "object_id": "victoire-ingabire",
+      "variable_id": "russia-diplomatic-engagement__negative",
+      "scale_id": "russia-diplomatic-engagement",
+      "pole": "negative"
+    },
+    {
+      "object_id": "victoire-ingabire",
+      "variable_id": "russia-diplomatic-engagement__positive",
+      "scale_id": "russia-diplomatic-engagement",
+      "pole": "positive"
+    },
+    {
+      "object_id": "victoire-ingabire",
+      "variable_id": "russia-economic-technology-cooperation__negative",
+      "scale_id": "russia-economic-technology-cooperation",
+      "pole": "negative"
+    },
+    {
+      "object_id": "victoire-ingabire",
+      "variable_id": "russia-economic-technology-cooperation__positive",
+      "scale_id": "russia-economic-technology-cooperation",
+      "pole": "positive"
+    },
+    {
+      "object_id": "victoire-ingabire",
+      "variable_id": "russia-education-cultural-cooperation__negative",
+      "scale_id": "russia-education-cultural-cooperation",
+      "pole": "negative"
+    },
+    {
+      "object_id": "victoire-ingabire",
+      "variable_id": "russia-education-cultural-cooperation__positive",
+      "scale_id": "russia-education-cultural-cooperation",
+      "pole": "positive"
+    },
+    {
+      "object_id": "victoire-ingabire",
+      "variable_id": "russia-isolation-sanctions__negative",
+      "scale_id": "russia-isolation-sanctions",
+      "pole": "negative"
+    },
+    {
+      "object_id": "victoire-ingabire",
+      "variable_id": "russia-isolation-sanctions__positive",
+      "scale_id": "russia-isolation-sanctions",
+      "pole": "positive"
+    },
+    {
+      "object_id": "victoire-ingabire",
+      "variable_id": "russia-security-cooperation__negative",
+      "scale_id": "russia-security-cooperation",
+      "pole": "negative"
+    },
+    {
+      "object_id": "victoire-ingabire",
+      "variable_id": "russia-security-cooperation__positive",
+      "scale_id": "russia-security-cooperation",
+      "pole": "positive"
+    },
+    {
+      "object_id": "diane-rwigara",
+      "variable_id": "government-course-assessment__positive",
+      "scale_id": "government-course-assessment",
+      "pole": "positive"
+    },
+    {
+      "object_id": "diane-rwigara",
+      "variable_id": "participation-administrative-direction__negative",
+      "scale_id": "participation-administrative-direction",
+      "pole": "negative"
+    },
+    {
+      "object_id": "diane-rwigara",
+      "variable_id": "prevention-crisis-response__positive",
+      "scale_id": "prevention-crisis-response",
+      "pole": "positive"
+    },
+    {
+      "object_id": "diane-rwigara",
+      "variable_id": "programmatic-renewal__positive",
+      "scale_id": "programmatic-renewal",
+      "pole": "positive"
+    },
+    {
+      "object_id": "diane-rwigara",
+      "variable_id": "russia-conflict-policy-evaluation__negative",
+      "scale_id": "russia-conflict-policy-evaluation",
+      "pole": "negative"
+    },
+    {
+      "object_id": "diane-rwigara",
+      "variable_id": "russia-conflict-policy-evaluation__positive",
+      "scale_id": "russia-conflict-policy-evaluation",
+      "pole": "positive"
+    },
+    {
+      "object_id": "diane-rwigara",
+      "variable_id": "russia-diplomatic-engagement__negative",
+      "scale_id": "russia-diplomatic-engagement",
+      "pole": "negative"
+    },
+    {
+      "object_id": "diane-rwigara",
+      "variable_id": "russia-diplomatic-engagement__positive",
+      "scale_id": "russia-diplomatic-engagement",
+      "pole": "positive"
+    },
+    {
+      "object_id": "diane-rwigara",
+      "variable_id": "russia-economic-technology-cooperation__negative",
+      "scale_id": "russia-economic-technology-cooperation",
+      "pole": "negative"
+    },
+    {
+      "object_id": "diane-rwigara",
+      "variable_id": "russia-economic-technology-cooperation__positive",
+      "scale_id": "russia-economic-technology-cooperation",
+      "pole": "positive"
+    },
+    {
+      "object_id": "diane-rwigara",
+      "variable_id": "russia-education-cultural-cooperation__negative",
+      "scale_id": "russia-education-cultural-cooperation",
+      "pole": "negative"
+    },
+    {
+      "object_id": "diane-rwigara",
+      "variable_id": "russia-education-cultural-cooperation__positive",
+      "scale_id": "russia-education-cultural-cooperation",
+      "pole": "positive"
+    },
+    {
+      "object_id": "diane-rwigara",
+      "variable_id": "russia-isolation-sanctions__negative",
+      "scale_id": "russia-isolation-sanctions",
+      "pole": "negative"
+    },
+    {
+      "object_id": "diane-rwigara",
+      "variable_id": "russia-isolation-sanctions__positive",
+      "scale_id": "russia-isolation-sanctions",
+      "pole": "positive"
+    },
+    {
+      "object_id": "diane-rwigara",
+      "variable_id": "russia-security-cooperation__negative",
+      "scale_id": "russia-security-cooperation",
+      "pole": "negative"
+    },
+    {
+      "object_id": "diane-rwigara",
+      "variable_id": "russia-security-cooperation__positive",
+      "scale_id": "russia-security-cooperation",
+      "pole": "positive"
+    },
+    {
+      "object_id": "bernard-ntaganda",
+      "variable_id": "accessibility-growth-priorities__positive",
+      "scale_id": "accessibility-growth-priorities",
+      "pole": "positive"
+    },
+    {
+      "object_id": "bernard-ntaganda",
+      "variable_id": "government-course-assessment__positive",
+      "scale_id": "government-course-assessment",
+      "pole": "positive"
+    },
+    {
+      "object_id": "bernard-ntaganda",
+      "variable_id": "participation-administrative-direction__negative",
+      "scale_id": "participation-administrative-direction",
+      "pole": "negative"
+    },
+    {
+      "object_id": "bernard-ntaganda",
+      "variable_id": "prevention-crisis-response__positive",
+      "scale_id": "prevention-crisis-response",
+      "pole": "positive"
+    },
+    {
+      "object_id": "bernard-ntaganda",
+      "variable_id": "programmatic-renewal__negative",
+      "scale_id": "programmatic-renewal",
+      "pole": "negative"
+    },
+    {
+      "object_id": "bernard-ntaganda",
+      "variable_id": "programmatic-renewal__positive",
+      "scale_id": "programmatic-renewal",
+      "pole": "positive"
+    },
+    {
+      "object_id": "bernard-ntaganda",
+      "variable_id": "russia-conflict-policy-evaluation__negative",
+      "scale_id": "russia-conflict-policy-evaluation",
+      "pole": "negative"
+    },
+    {
+      "object_id": "bernard-ntaganda",
+      "variable_id": "russia-conflict-policy-evaluation__positive",
+      "scale_id": "russia-conflict-policy-evaluation",
+      "pole": "positive"
+    },
+    {
+      "object_id": "bernard-ntaganda",
+      "variable_id": "russia-diplomatic-engagement__negative",
+      "scale_id": "russia-diplomatic-engagement",
+      "pole": "negative"
+    },
+    {
+      "object_id": "bernard-ntaganda",
+      "variable_id": "russia-diplomatic-engagement__positive",
+      "scale_id": "russia-diplomatic-engagement",
+      "pole": "positive"
+    },
+    {
+      "object_id": "bernard-ntaganda",
+      "variable_id": "russia-economic-technology-cooperation__negative",
+      "scale_id": "russia-economic-technology-cooperation",
+      "pole": "negative"
+    },
+    {
+      "object_id": "bernard-ntaganda",
+      "variable_id": "russia-economic-technology-cooperation__positive",
+      "scale_id": "russia-economic-technology-cooperation",
+      "pole": "positive"
+    },
+    {
+      "object_id": "bernard-ntaganda",
+      "variable_id": "russia-education-cultural-cooperation__negative",
+      "scale_id": "russia-education-cultural-cooperation",
+      "pole": "negative"
+    },
+    {
+      "object_id": "bernard-ntaganda",
+      "variable_id": "russia-education-cultural-cooperation__positive",
+      "scale_id": "russia-education-cultural-cooperation",
+      "pole": "positive"
+    },
+    {
+      "object_id": "bernard-ntaganda",
+      "variable_id": "russia-isolation-sanctions__negative",
+      "scale_id": "russia-isolation-sanctions",
+      "pole": "negative"
+    },
+    {
+      "object_id": "bernard-ntaganda",
+      "variable_id": "russia-isolation-sanctions__positive",
+      "scale_id": "russia-isolation-sanctions",
+      "pole": "positive"
+    },
+    {
+      "object_id": "bernard-ntaganda",
+      "variable_id": "russia-security-cooperation__negative",
+      "scale_id": "russia-security-cooperation",
+      "pole": "negative"
+    },
+    {
+      "object_id": "bernard-ntaganda",
+      "variable_id": "russia-security-cooperation__positive",
+      "scale_id": "russia-security-cooperation",
+      "pole": "positive"
+    },
+    {
+      "object_id": "christopher-kayumba",
+      "variable_id": "accessibility-growth-priorities__positive",
+      "scale_id": "accessibility-growth-priorities",
+      "pole": "positive"
+    },
+    {
+      "object_id": "christopher-kayumba",
+      "variable_id": "argumentation-evidence-values__negative",
+      "scale_id": "argumentation-evidence-values",
+      "pole": "negative"
+    },
+    {
+      "object_id": "christopher-kayumba",
+      "variable_id": "government-course-assessment__positive",
+      "scale_id": "government-course-assessment",
+      "pole": "positive"
+    },
+    {
+      "object_id": "christopher-kayumba",
+      "variable_id": "participation-administrative-direction__negative",
+      "scale_id": "participation-administrative-direction",
+      "pole": "negative"
+    },
+    {
+      "object_id": "christopher-kayumba",
+      "variable_id": "prevention-crisis-response__positive",
+      "scale_id": "prevention-crisis-response",
+      "pole": "positive"
+    },
+    {
+      "object_id": "christopher-kayumba",
+      "variable_id": "problem-disclosure-reputation-defence__positive",
+      "scale_id": "problem-disclosure-reputation-defence",
+      "pole": "positive"
+    },
+    {
+      "object_id": "christopher-kayumba",
+      "variable_id": "programmatic-renewal__negative",
+      "scale_id": "programmatic-renewal",
+      "pole": "negative"
+    },
+    {
+      "object_id": "christopher-kayumba",
+      "variable_id": "programmatic-renewal__positive",
+      "scale_id": "programmatic-renewal",
+      "pole": "positive"
+    },
+    {
+      "object_id": "christopher-kayumba",
+      "variable_id": "russia-conflict-policy-evaluation__negative",
+      "scale_id": "russia-conflict-policy-evaluation",
+      "pole": "negative"
+    },
+    {
+      "object_id": "christopher-kayumba",
+      "variable_id": "russia-conflict-policy-evaluation__positive",
+      "scale_id": "russia-conflict-policy-evaluation",
+      "pole": "positive"
+    },
+    {
+      "object_id": "christopher-kayumba",
+      "variable_id": "russia-diplomatic-engagement__negative",
+      "scale_id": "russia-diplomatic-engagement",
+      "pole": "negative"
+    },
+    {
+      "object_id": "christopher-kayumba",
+      "variable_id": "russia-diplomatic-engagement__positive",
+      "scale_id": "russia-diplomatic-engagement",
+      "pole": "positive"
+    },
+    {
+      "object_id": "christopher-kayumba",
+      "variable_id": "russia-economic-technology-cooperation__negative",
+      "scale_id": "russia-economic-technology-cooperation",
+      "pole": "negative"
+    },
+    {
+      "object_id": "christopher-kayumba",
+      "variable_id": "russia-economic-technology-cooperation__positive",
+      "scale_id": "russia-economic-technology-cooperation",
+      "pole": "positive"
+    },
+    {
+      "object_id": "christopher-kayumba",
+      "variable_id": "russia-education-cultural-cooperation__negative",
+      "scale_id": "russia-education-cultural-cooperation",
+      "pole": "negative"
+    },
+    {
+      "object_id": "christopher-kayumba",
+      "variable_id": "russia-education-cultural-cooperation__positive",
+      "scale_id": "russia-education-cultural-cooperation",
+      "pole": "positive"
+    },
+    {
+      "object_id": "christopher-kayumba",
+      "variable_id": "russia-isolation-sanctions__negative",
+      "scale_id": "russia-isolation-sanctions",
+      "pole": "negative"
+    },
+    {
+      "object_id": "christopher-kayumba",
+      "variable_id": "russia-isolation-sanctions__positive",
+      "scale_id": "russia-isolation-sanctions",
+      "pole": "positive"
+    },
+    {
+      "object_id": "christopher-kayumba",
+      "variable_id": "russia-security-cooperation__negative",
+      "scale_id": "russia-security-cooperation",
+      "pole": "negative"
+    },
+    {
+      "object_id": "christopher-kayumba",
+      "variable_id": "russia-security-cooperation__positive",
+      "scale_id": "russia-security-cooperation",
+      "pole": "positive"
+    },
+    {
+      "object_id": "paul-rusesabagina",
+      "variable_id": "accessibility-growth-priorities__positive",
+      "scale_id": "accessibility-growth-priorities",
+      "pole": "positive"
+    },
+    {
+      "object_id": "paul-rusesabagina",
+      "variable_id": "government-course-assessment__positive",
+      "scale_id": "government-course-assessment",
+      "pole": "positive"
+    },
+    {
+      "object_id": "paul-rusesabagina",
+      "variable_id": "participation-administrative-direction__negative",
+      "scale_id": "participation-administrative-direction",
+      "pole": "negative"
+    },
+    {
+      "object_id": "paul-rusesabagina",
+      "variable_id": "programmatic-renewal__negative",
+      "scale_id": "programmatic-renewal",
+      "pole": "negative"
+    },
+    {
+      "object_id": "paul-rusesabagina",
+      "variable_id": "programmatic-renewal__positive",
+      "scale_id": "programmatic-renewal",
+      "pole": "positive"
+    },
+    {
+      "object_id": "paul-rusesabagina",
+      "variable_id": "russia-conflict-policy-evaluation__negative",
+      "scale_id": "russia-conflict-policy-evaluation",
+      "pole": "negative"
+    },
+    {
+      "object_id": "paul-rusesabagina",
+      "variable_id": "russia-conflict-policy-evaluation__positive",
+      "scale_id": "russia-conflict-policy-evaluation",
+      "pole": "positive"
+    },
+    {
+      "object_id": "paul-rusesabagina",
+      "variable_id": "russia-diplomatic-engagement__negative",
+      "scale_id": "russia-diplomatic-engagement",
+      "pole": "negative"
+    },
+    {
+      "object_id": "paul-rusesabagina",
+      "variable_id": "russia-diplomatic-engagement__positive",
+      "scale_id": "russia-diplomatic-engagement",
+      "pole": "positive"
+    },
+    {
+      "object_id": "paul-rusesabagina",
+      "variable_id": "russia-economic-technology-cooperation__negative",
+      "scale_id": "russia-economic-technology-cooperation",
+      "pole": "negative"
+    },
+    {
+      "object_id": "paul-rusesabagina",
+      "variable_id": "russia-economic-technology-cooperation__positive",
+      "scale_id": "russia-economic-technology-cooperation",
+      "pole": "positive"
+    },
+    {
+      "object_id": "paul-rusesabagina",
+      "variable_id": "russia-education-cultural-cooperation__negative",
+      "scale_id": "russia-education-cultural-cooperation",
+      "pole": "negative"
+    },
+    {
+      "object_id": "paul-rusesabagina",
+      "variable_id": "russia-education-cultural-cooperation__positive",
+      "scale_id": "russia-education-cultural-cooperation",
+      "pole": "positive"
+    },
+    {
+      "object_id": "paul-rusesabagina",
+      "variable_id": "russia-isolation-sanctions__negative",
+      "scale_id": "russia-isolation-sanctions",
+      "pole": "negative"
+    },
+    {
+      "object_id": "paul-rusesabagina",
+      "variable_id": "russia-isolation-sanctions__positive",
+      "scale_id": "russia-isolation-sanctions",
+      "pole": "positive"
+    },
+    {
+      "object_id": "paul-rusesabagina",
+      "variable_id": "russia-security-cooperation__negative",
+      "scale_id": "russia-security-cooperation",
+      "pole": "negative"
+    },
+    {
+      "object_id": "paul-rusesabagina",
+      "variable_id": "russia-security-cooperation__positive",
+      "scale_id": "russia-security-cooperation",
+      "pole": "positive"
+    },
+    {
+      "object_id": "kayumba-nyamwasa",
+      "variable_id": "accessibility-growth-priorities__positive",
+      "scale_id": "accessibility-growth-priorities",
+      "pole": "positive"
+    },
+    {
+      "object_id": "kayumba-nyamwasa",
+      "variable_id": "government-course-assessment__positive",
+      "scale_id": "government-course-assessment",
+      "pole": "positive"
+    },
+    {
+      "object_id": "kayumba-nyamwasa",
+      "variable_id": "participation-administrative-direction__negative",
+      "scale_id": "participation-administrative-direction",
+      "pole": "negative"
+    },
+    {
+      "object_id": "kayumba-nyamwasa",
+      "variable_id": "prevention-crisis-response__positive",
+      "scale_id": "prevention-crisis-response",
+      "pole": "positive"
+    },
+    {
+      "object_id": "kayumba-nyamwasa",
+      "variable_id": "programmatic-renewal__negative",
+      "scale_id": "programmatic-renewal",
+      "pole": "negative"
+    },
+    {
+      "object_id": "kayumba-nyamwasa",
+      "variable_id": "programmatic-renewal__positive",
+      "scale_id": "programmatic-renewal",
+      "pole": "positive"
+    },
+    {
+      "object_id": "kayumba-nyamwasa",
+      "variable_id": "russia-conflict-policy-evaluation__negative",
+      "scale_id": "russia-conflict-policy-evaluation",
+      "pole": "negative"
+    },
+    {
+      "object_id": "kayumba-nyamwasa",
+      "variable_id": "russia-conflict-policy-evaluation__positive",
+      "scale_id": "russia-conflict-policy-evaluation",
+      "pole": "positive"
+    },
+    {
+      "object_id": "kayumba-nyamwasa",
+      "variable_id": "russia-diplomatic-engagement__negative",
+      "scale_id": "russia-diplomatic-engagement",
+      "pole": "negative"
+    },
+    {
+      "object_id": "kayumba-nyamwasa",
+      "variable_id": "russia-diplomatic-engagement__positive",
+      "scale_id": "russia-diplomatic-engagement",
+      "pole": "positive"
+    },
+    {
+      "object_id": "kayumba-nyamwasa",
+      "variable_id": "russia-economic-technology-cooperation__negative",
+      "scale_id": "russia-economic-technology-cooperation",
+      "pole": "negative"
+    },
+    {
+      "object_id": "kayumba-nyamwasa",
+      "variable_id": "russia-economic-technology-cooperation__positive",
+      "scale_id": "russia-economic-technology-cooperation",
+      "pole": "positive"
+    },
+    {
+      "object_id": "kayumba-nyamwasa",
+      "variable_id": "russia-education-cultural-cooperation__negative",
+      "scale_id": "russia-education-cultural-cooperation",
+      "pole": "negative"
+    },
+    {
+      "object_id": "kayumba-nyamwasa",
+      "variable_id": "russia-education-cultural-cooperation__positive",
+      "scale_id": "russia-education-cultural-cooperation",
+      "pole": "positive"
+    },
+    {
+      "object_id": "kayumba-nyamwasa",
+      "variable_id": "russia-isolation-sanctions__negative",
+      "scale_id": "russia-isolation-sanctions",
+      "pole": "negative"
+    },
+    {
+      "object_id": "kayumba-nyamwasa",
+      "variable_id": "russia-isolation-sanctions__positive",
+      "scale_id": "russia-isolation-sanctions",
+      "pole": "positive"
+    },
+    {
+      "object_id": "kayumba-nyamwasa",
+      "variable_id": "russia-security-cooperation__negative",
+      "scale_id": "russia-security-cooperation",
+      "pole": "negative"
+    },
+    {
+      "object_id": "kayumba-nyamwasa",
+      "variable_id": "russia-security-cooperation__positive",
+      "scale_id": "russia-security-cooperation",
+      "pole": "positive"
+    },
+    {
+      "object_id": "louise-mushikiwabo",
+      "variable_id": "accessibility-growth-priorities__positive",
+      "scale_id": "accessibility-growth-priorities",
+      "pole": "positive"
+    },
+    {
+      "object_id": "louise-mushikiwabo",
+      "variable_id": "government-course-assessment__positive",
+      "scale_id": "government-course-assessment",
+      "pole": "positive"
+    },
+    {
+      "object_id": "louise-mushikiwabo",
+      "variable_id": "prevention-crisis-response__positive",
+      "scale_id": "prevention-crisis-response",
+      "pole": "positive"
+    },
+    {
+      "object_id": "louise-mushikiwabo",
+      "variable_id": "problem-disclosure-reputation-defence__positive",
+      "scale_id": "problem-disclosure-reputation-defence",
+      "pole": "positive"
+    },
+    {
+      "object_id": "louise-mushikiwabo",
+      "variable_id": "programmatic-renewal__negative",
+      "scale_id": "programmatic-renewal",
+      "pole": "negative"
+    },
+    {
+      "object_id": "louise-mushikiwabo",
+      "variable_id": "russia-conflict-policy-evaluation__positive",
+      "scale_id": "russia-conflict-policy-evaluation",
+      "pole": "positive"
+    },
+    {
+      "object_id": "louise-mushikiwabo",
+      "variable_id": "russia-diplomatic-engagement__negative",
+      "scale_id": "russia-diplomatic-engagement",
+      "pole": "negative"
+    },
+    {
+      "object_id": "louise-mushikiwabo",
+      "variable_id": "russia-diplomatic-engagement__positive",
+      "scale_id": "russia-diplomatic-engagement",
+      "pole": "positive"
+    },
+    {
+      "object_id": "louise-mushikiwabo",
+      "variable_id": "russia-economic-technology-cooperation__negative",
+      "scale_id": "russia-economic-technology-cooperation",
+      "pole": "negative"
+    },
+    {
+      "object_id": "louise-mushikiwabo",
+      "variable_id": "russia-economic-technology-cooperation__positive",
+      "scale_id": "russia-economic-technology-cooperation",
+      "pole": "positive"
+    },
+    {
+      "object_id": "louise-mushikiwabo",
+      "variable_id": "russia-education-cultural-cooperation__negative",
+      "scale_id": "russia-education-cultural-cooperation",
+      "pole": "negative"
+    },
+    {
+      "object_id": "louise-mushikiwabo",
+      "variable_id": "russia-education-cultural-cooperation__positive",
+      "scale_id": "russia-education-cultural-cooperation",
+      "pole": "positive"
+    },
+    {
+      "object_id": "louise-mushikiwabo",
+      "variable_id": "russia-isolation-sanctions__negative",
+      "scale_id": "russia-isolation-sanctions",
+      "pole": "negative"
+    },
+    {
+      "object_id": "louise-mushikiwabo",
+      "variable_id": "russia-isolation-sanctions__positive",
+      "scale_id": "russia-isolation-sanctions",
+      "pole": "positive"
+    },
+    {
+      "object_id": "louise-mushikiwabo",
+      "variable_id": "russia-security-cooperation__negative",
+      "scale_id": "russia-security-cooperation",
+      "pole": "negative"
+    },
+    {
+      "object_id": "louise-mushikiwabo",
+      "variable_id": "russia-security-cooperation__positive",
+      "scale_id": "russia-security-cooperation",
+      "pole": "positive"
+    },
+    {
+      "object_id": "claver-gatete",
+      "variable_id": "russia-conflict-policy-evaluation__negative",
+      "scale_id": "russia-conflict-policy-evaluation",
+      "pole": "negative"
+    },
+    {
+      "object_id": "claver-gatete",
+      "variable_id": "russia-conflict-policy-evaluation__positive",
+      "scale_id": "russia-conflict-policy-evaluation",
+      "pole": "positive"
+    },
+    {
+      "object_id": "claver-gatete",
+      "variable_id": "russia-diplomatic-engagement__negative",
+      "scale_id": "russia-diplomatic-engagement",
+      "pole": "negative"
+    },
+    {
+      "object_id": "claver-gatete",
+      "variable_id": "russia-diplomatic-engagement__positive",
+      "scale_id": "russia-diplomatic-engagement",
+      "pole": "positive"
+    },
+    {
+      "object_id": "claver-gatete",
+      "variable_id": "russia-economic-technology-cooperation__negative",
+      "scale_id": "russia-economic-technology-cooperation",
+      "pole": "negative"
+    },
+    {
+      "object_id": "claver-gatete",
+      "variable_id": "russia-economic-technology-cooperation__positive",
+      "scale_id": "russia-economic-technology-cooperation",
+      "pole": "positive"
+    },
+    {
+      "object_id": "claver-gatete",
+      "variable_id": "russia-education-cultural-cooperation__negative",
+      "scale_id": "russia-education-cultural-cooperation",
+      "pole": "negative"
+    },
+    {
+      "object_id": "claver-gatete",
+      "variable_id": "russia-education-cultural-cooperation__positive",
+      "scale_id": "russia-education-cultural-cooperation",
+      "pole": "positive"
+    },
+    {
+      "object_id": "claver-gatete",
+      "variable_id": "russia-isolation-sanctions__negative",
+      "scale_id": "russia-isolation-sanctions",
+      "pole": "negative"
+    },
+    {
+      "object_id": "claver-gatete",
+      "variable_id": "russia-isolation-sanctions__positive",
+      "scale_id": "russia-isolation-sanctions",
+      "pole": "positive"
+    },
+    {
+      "object_id": "claver-gatete",
+      "variable_id": "russia-security-cooperation__negative",
+      "scale_id": "russia-security-cooperation",
+      "pole": "negative"
+    },
+    {
+      "object_id": "claver-gatete",
+      "variable_id": "russia-security-cooperation__positive",
+      "scale_id": "russia-security-cooperation",
+      "pole": "positive"
+    },
+    {
+      "object_id": "valentine-rugwabiza",
+      "variable_id": "russia-conflict-policy-evaluation__negative",
+      "scale_id": "russia-conflict-policy-evaluation",
+      "pole": "negative"
+    },
+    {
+      "object_id": "valentine-rugwabiza",
+      "variable_id": "russia-conflict-policy-evaluation__positive",
+      "scale_id": "russia-conflict-policy-evaluation",
+      "pole": "positive"
+    },
+    {
+      "object_id": "valentine-rugwabiza",
+      "variable_id": "russia-diplomatic-engagement__negative",
+      "scale_id": "russia-diplomatic-engagement",
+      "pole": "negative"
+    },
+    {
+      "object_id": "valentine-rugwabiza",
+      "variable_id": "russia-diplomatic-engagement__positive",
+      "scale_id": "russia-diplomatic-engagement",
+      "pole": "positive"
+    },
+    {
+      "object_id": "valentine-rugwabiza",
+      "variable_id": "russia-economic-technology-cooperation__negative",
+      "scale_id": "russia-economic-technology-cooperation",
+      "pole": "negative"
+    },
+    {
+      "object_id": "valentine-rugwabiza",
+      "variable_id": "russia-economic-technology-cooperation__positive",
+      "scale_id": "russia-economic-technology-cooperation",
+      "pole": "positive"
+    },
+    {
+      "object_id": "valentine-rugwabiza",
+      "variable_id": "russia-education-cultural-cooperation__negative",
+      "scale_id": "russia-education-cultural-cooperation",
+      "pole": "negative"
+    },
+    {
+      "object_id": "valentine-rugwabiza",
+      "variable_id": "russia-education-cultural-cooperation__positive",
+      "scale_id": "russia-education-cultural-cooperation",
+      "pole": "positive"
+    },
+    {
+      "object_id": "valentine-rugwabiza",
+      "variable_id": "russia-isolation-sanctions__negative",
+      "scale_id": "russia-isolation-sanctions",
+      "pole": "negative"
+    },
+    {
+      "object_id": "valentine-rugwabiza",
+      "variable_id": "russia-isolation-sanctions__positive",
+      "scale_id": "russia-isolation-sanctions",
+      "pole": "positive"
+    },
+    {
+      "object_id": "valentine-rugwabiza",
+      "variable_id": "russia-security-cooperation__negative",
+      "scale_id": "russia-security-cooperation",
+      "pole": "negative"
+    },
+    {
+      "object_id": "valentine-rugwabiza",
+      "variable_id": "russia-security-cooperation__positive",
+      "scale_id": "russia-security-cooperation",
+      "pole": "positive"
+    }
+  ],
+  "rules": [
+    "No overwrite of observed values; any source correction is separate and explicit",
+    "No evidence-free zero or antipode completion",
+    "Ordinal1..2 for narrow direct manifestation;3 requires distinct coherent episodes",
+    "Public action is not inferred private sympathy; preserve institutional capacity",
+    "Source-coverage thresholds unchanged; imputed cells remain unknown in canonical ratings",
+    "Targeted collection is conditional on previous coverage and must be disclosed; no claim of confirmatory sampling"
+  ]
+}

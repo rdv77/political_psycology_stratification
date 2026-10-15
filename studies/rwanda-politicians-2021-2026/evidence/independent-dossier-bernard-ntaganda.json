@@ -195,6 +195,48 @@
       ],
       "evidence_origin": "retrieval_cited_not_independently_verified",
       "retrieval_response": "evidence/independent_responses/f6da30d48cc7d9d01923a5936cac57e39a690383407ff8b900fa589b87f67534.json"
+    },
+    {
+      "actor_id": "bernard-ntaganda",
+      "source_url": "https://www.therwandan.com/ki/urugiye-cyera-ruhinyuza-intwarileta-yu-rwanda-ifunguye-imipaka-ikubagahu-nyuma-yaho-inzara-imaze-iminsi-inuma-muri-rubanda-kubera-izamuka-ryibiciro-ku-masoko/",
+      "title": "ITANGAZO N°003/PS.IMB/NB/2022",
+      "text": "В подписанном заявлении Нтаганда потребовал отменить повышение ставки центрального банка и пересмотреть денежную, инвестиционную, налоговую и бюджетную политику.",
+      "period": "2022-03-08",
+      "source_date_precision": "day",
+      "event_id": "ntaganda-ps-imberakuri-economic-policy-release-2022-03-08",
+      "capacity": "Основатель PS Imberakuri; подписант публичного заявления",
+      "channel": "public_statement",
+      "topic_ids": [
+        "programmatic-renewal"
+      ],
+      "verification_method": "full_signed_release_read_Kinyarwanda_interpretation",
+      "source_type": "primary_personally_authored_public_text",
+      "eligibility": "eligible_direct",
+      "publication_date": "2022-03-09",
+      "source_locator": "Заключительные абзацы60–65: отмена ставки, пересмотр политики, дата и подпись.",
+      "evidence_origin": "assistant_verified_source",
+      "source_review_file": "research/rwanda_politicians_2021_2026/COVERAGE_EXPANSION_SOURCES.json"
+    },
+    {
+      "actor_id": "bernard-ntaganda",
+      "source_url": "https://www.therwandan.com/ki/urugiye-cyera-ruhinyuza-intwarileta-yu-rwanda-ifunguye-imipaka-ikubagahu-nyuma-yaho-inzara-imaze-iminsi-inuma-muri-rubanda-kubera-izamuka-ryibiciro-ku-masoko/",
+      "title": "ITANGAZO N°003/PS.IMB/NB/2022",
+      "text": "В контексте дороговизны продовольствия и голода Нтаганда противопоставил декоративным проектам вложения в сельское хозяйство и полезную населению инфраструктуру и потребовал исправления инвестиционной политики.",
+      "period": "2022-03-08",
+      "source_date_precision": "day",
+      "event_id": "ntaganda-ps-imberakuri-economic-policy-release-2022-03-08",
+      "capacity": "Основатель PS Imberakuri; подписант публичного заявления",
+      "channel": "public_statement",
+      "topic_ids": [
+        "accessibility-growth-priorities"
+      ],
+      "verification_method": "full_signed_release_read_Kinyarwanda_interpretation",
+      "source_type": "primary_personally_authored_public_text",
+      "eligibility": "eligible_direct",
+      "publication_date": "2022-03-09",
+      "source_locator": "Абзацы52–54 и62: продовольствие, полезная населению инфраструктура, пересмотр политики.",
+      "evidence_origin": "assistant_verified_source",
+      "source_review_file": "research/rwanda_politicians_2021_2026/COVERAGE_EXPANSION_SOURCES.json"
     }
   ],
   "sources": [
@@ -266,7 +308,7 @@
     "2026-10-15"
   ],
   "measurement_model": "independent_poles",
-  "basis": "2039d9c2c0cc6e26eb9489e9c4c649951a74bedc13d5a79be8c4e0aa382c0e34",
+  "basis": "7da1649ec137a316de540829701a33712c3e4bf41de82a46ec65d1a2bfa7b916",
   "retrieval_basis": "0f0c24fba1ec38cc710a087f66734c7fe2ad34a3621e70b5e93fa40a2058466d",
   "retrieval": {
     "response_file": "evidence/independent_responses/f6da30d48cc7d9d01923a5936cac57e39a690383407ff8b900fa589b87f67534.json",
@@ -308,5 +350,10 @@
     "path": "research/rwanda_politicians_2021_2026/INDEPENDENT_COMPLETION_SOURCES.json",
     "sha256": "be3cf9b161585e3e0a05dd1c39256a7ad93e4ee239560f3d3df9c620cce27ab4",
     "selected_fact_count": 0
+  },
+  "coverage_expansion_source_supplement": {
+    "path": "research/rwanda_politicians_2021_2026/COVERAGE_EXPANSION_SOURCES.json",
+    "sha256": "53a15f3e4b4718b4a4328bde05f742c6b8648153c6240d1b7762a5925fe0d192",
+    "selected_fact_count": 2
   }
 }

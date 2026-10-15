@@ -1,0 +1,97 @@
+{
+  "reviewer": "assistant_independent_source_and_construct_review_not_human_expert",
+  "at": "2026-10-15",
+  "status": "completed_first_four_only",
+  "input_batch_file": "research/rwanda_politicians_2021_2026/COVERAGE_EXPANSION_BATCH_B.json",
+  "input_batch_sha256": "53e730507f3966d61b01e60855740c9270ad56be5a1096aa56242ba30f72f6db",
+  "reviewed_observations_fingerprint": "c9e4b62e4931da02cf0ad2f6d86a318994e88d23603bf74a23f6d4b9865cb1b8",
+  "checked_properties": [
+    [
+      "louise-mushikiwabo",
+      "programmatic-renewal",
+      "negative"
+    ],
+    [
+      "louise-mushikiwabo",
+      "accessibility-growth-priorities",
+      "positive"
+    ],
+    [
+      "louise-mushikiwabo",
+      "problem-disclosure-reputation-defence",
+      "positive"
+    ],
+    [
+      "diane-rwigara",
+      "government-course-assessment",
+      "positive"
+    ]
+  ],
+  "checked_count": 4,
+  "accepted_count": 4,
+  "rejected_count": 0,
+  "reviews": [
+    {
+      "object_id": "louise-mushikiwabo",
+      "scale_id": "programmatic-renewal",
+      "pole": "negative",
+      "proposed_value": 2,
+      "verdict": "accept_with_scope_caveat",
+      "rationale": "В собственной речи после описания программы 2024–2027 она прямо предлагает продолжить эту работу (абзацы 49–53). Это содержательное продолжение действующей программы, а не вывод из переизбрания. Значение 2 не заявляет повторяемость разных эпизодов.",
+      "source_url": "https://www.assemblee-nationale.fr/dyn/opendata/CRCANR5L17S2024PO59047N003.html",
+      "source_date": "2024-09-17",
+      "attribution_verified": true,
+      "period_verified": true,
+      "numerical_change_proposed": false,
+      "capacity_caveat": "Международная служебная роль OIF; не приписывать Руанде, её правительству или населению. Все три оценки из одного слушания, не три независимых эпизода."
+    },
+    {
+      "object_id": "louise-mushikiwabo",
+      "scale_id": "accessibility-growth-priorities",
+      "pole": "positive",
+      "proposed_value": 2,
+      "verdict": "accept_with_scope_caveat",
+      "rationale": "В собственном ответе названы подписанный меморандум с ITU и мобилизация государств, инфраструктурных и регуляторных участников для доступа к интернету (абзацы 100–101). Есть механизм предоставления услуги, поэтому прежнее отклонение общих слов о пользе здесь не повторяется.",
+      "source_url": "https://www.assemblee-nationale.fr/dyn/opendata/CRCANR5L17S2024PO59047N003.html",
+      "source_date": "2024-09-17",
+      "attribution_verified": true,
+      "period_verified": true,
+      "numerical_change_proposed": false,
+      "capacity_caveat": "Международная служебная роль OIF; не приписывать Руанде, её правительству или населению. Все три оценки из одного слушания, не три независимых эпизода."
+    },
+    {
+      "object_id": "louise-mushikiwabo",
+      "scale_id": "problem-disclosure-reputation-defence",
+      "pole": "positive",
+      "proposed_value": 2,
+      "verdict": "accept_with_scope_caveat",
+      "rationale": "В собственных ответах признаны малая практическая результативность и ограниченные возможности OIF при разрешении политических проблем (абзацы 88–92, 114–118). Это признание ограничений своей организации, а не только чужие обвинения или констатация внешнего конфликта.",
+      "source_url": "https://www.assemblee-nationale.fr/dyn/opendata/CRCANR5L17S2024PO59047N003.html",
+      "source_date": "2024-09-17",
+      "attribution_verified": true,
+      "period_verified": true,
+      "numerical_change_proposed": false,
+      "capacity_caveat": "Международная служебная роль OIF; не приписывать Руанде, её правительству или населению. Все три оценки из одного слушания, не три независимых эпизода."
+    },
+    {
+      "object_id": "diane-rwigara",
+      "scale_id": "government-course-assessment",
+      "pole": "positive",
+      "proposed_value": 1,
+      "verdict": "accept_with_scope_caveat",
+      "rationale": "Прямая узкая положительная оценка; определение допускает достижения. Поддержка всего курса не выводится.",
+      "source_url": "https://www.bbc.com/gahuza/articles/cd11jdzmv78o",
+      "source_date": "2024-05-20",
+      "attribution_verified": true,
+      "period_verified": true,
+      "numerical_change_proposed": false,
+      "capacity_caveat": "Оценка 1 относится к отдельному достижению, не к политической лояльности."
+    }
+  ],
+  "overall_verdict": "Четыре предложения соответствуют утверждённым определениям и прямо атрибутированы. При интеграции сохранить узкую роль и контекст; выводов об общем политическом курсе или многократной устойчивости из одного события не делать.",
+  "limitations": [
+    "Проверены только первые четыре предложения текущей версии B; остальная часть пакета не проверялась.",
+    "Числа не переоценивались, канонические досье и ratings не изменялись.",
+    "Тексты и даты сверены по доступным полным страницам парламента Франции и BBC Gahuza; перевод и содержательная проверка выполнены ассистентом."
+  ]
+}

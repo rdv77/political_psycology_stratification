@@ -358,7 +358,7 @@
     "2026-10-15"
   ],
   "measurement_model": "independent_poles",
-  "basis": "aff6dc8e686d225b55410d6ea29b7e4728bc2daf0e9ccb28ad329f79e5d32210",
+  "basis": "0c9631b865330211468b266a061192a41df2fa93ec5a505be58432ca2efbf8a9",
   "retrieval_basis": "e4f6a65d3d6812454f892d2e0f137627f61364eb3ddfcffc18d7fe4c0bfb9578",
   "retrieval": {
     "response_file": "evidence/independent_responses/ab9d636b005544b97c8407b7708180276755d949649a4c842cfb44775b94f167.json",
@@ -399,6 +399,11 @@
   "completion_source_supplement": {
     "path": "research/rwanda_politicians_2021_2026/INDEPENDENT_COMPLETION_SOURCES.json",
     "sha256": "be3cf9b161585e3e0a05dd1c39256a7ad93e4ee239560f3d3df9c620cce27ab4",
+    "selected_fact_count": 0
+  },
+  "coverage_expansion_source_supplement": {
+    "path": "research/rwanda_politicians_2021_2026/COVERAGE_EXPANSION_SOURCES.json",
+    "sha256": "53a15f3e4b4718b4a4328bde05f742c6b8648153c6240d1b7762a5925fe0d192",
     "selected_fact_count": 0
   }
 }

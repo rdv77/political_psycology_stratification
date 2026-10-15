@@ -8,7 +8,7 @@ from types import SimpleNamespace
 import unittest
 from unittest.mock import patch
 
-from src.semantic_service.independent_poles import apply_fact_review, rate_independent_object, score_independent_dossier, variables
+from src.semantic_service.independent_poles import apply_fact_review, attach_reviewed_sources, rate_independent_object, score_independent_dossier, variables
 from src.semantic_service.store import StudyStore, ratings_basis, validate_scales
 from scripts.apply_rwanda_independent_audit import apply_decisions
 
@@ -99,6 +99,30 @@ class IndependentMeasurementTests(unittest.TestCase):
         self.assertEqual(rows[0]["status"], "unknown")
         dossier = json.loads((self.store.directory(self.study["id"]) / rows[0]["evidence_file"]).read_text(encoding="utf-8"))
         self.assertEqual(dossier["facts"][0]["measurement_status"], "excluded_known_source_issue")
+
+    def test_third_reviewed_layer_is_idempotent_and_preserves_exclusions_and_original_dates(self):
+        base = self.reviewed_completion_fixture()
+        config = self.study["independent_evidence"]
+        config["coverage_expansion_source_supplement"] = config.pop("completion_source_supplement")
+        fact = json.loads((self.provider.root / "completion.json").read_text(encoding="utf-8"))["facts"][0]
+        base["facts"] = [dict(fact, evidence_origin="retrieval_cited_not_independently_verified", topic_ids=[])]
+        first = attach_reviewed_sources(self.provider, self.study, self.obj, base, "coverage_expansion_source_supplement")
+        repeated = attach_reviewed_sources(self.provider, self.study, self.obj, first, "coverage_expansion_source_supplement")
+        self.assertEqual(first, repeated)
+        self.assertEqual(len(first["facts"]), 1)
+        self.assertEqual(first["facts"][0]["evidence_origin"], "assistant_verified_source")
+        self.assertEqual(first["facts"][0]["topic_ids"], ["s"])
+        registry_path = self.provider.root / "review.json"
+        registry = json.loads(registry_path.read_text(encoding="utf-8"))
+        registry["facts"][0].update(corrected_period="2024-02-04", canonical_event_id="canonical-event")
+        registry_path.write_text(json.dumps(registry), encoding="utf-8")
+        config["fact_review_registry"]["sha256"] = hashlib.sha256(registry_path.read_bytes()).hexdigest()
+        reviewed = apply_fact_review(self.provider, self.study, self.obj, first)
+        rereviewed = apply_fact_review(self.provider, self.study, self.obj, reviewed)
+        self.assertEqual(reviewed, rereviewed)
+        self.assertEqual(reviewed["facts"][0]["original_period"], fact["period"])
+        self.assertEqual(reviewed["facts"][0]["original_event_id"], fact["event_id"])
+        self.assertEqual(reviewed["facts"][0]["measurement_status"], "excluded_known_source_issue")
 
     def test_completion_source_is_reviewed_before_cli_scoring(self):
         from scripts.run_rwanda_independent_poles import run_phase

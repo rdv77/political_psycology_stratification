@@ -159,6 +159,47 @@
       ],
       "evidence_origin": "retrieval_cited_not_independently_verified",
       "retrieval_response": "evidence/independent_responses/08572ead3121953ecb89a3003661032c6561892f3d518b960bc2c06356c6cf91.json"
+    },
+    {
+      "actor_id": "christopher-kayumba",
+      "source_url": "https://www.newtimes.co.rw/article/35672/opinions/rdf-is-a-peoples-army-deserving-a-nobel-peace-prize-not-sanctions/amp",
+      "title": "RDF is a people’s army deserving a Nobel Peace Prize, not sanctions",
+      "text": "В подписанной колонке Каюмба защищал достижения RDF и его руководства в безопасности, национальном примирении и государственном управлении, считая международные санкции несправедливыми.",
+      "period": "2026-05-15",
+      "source_date_precision": "day",
+      "event_id": "christopher-kayumba-rdf-opinion-2026-05-15",
+      "capacity": "Автор политической колонки, исследователь и бывший преподаватель University of Rwanda",
+      "channel": "public_statement",
+      "topic_ids": [
+        "government-course-assessment"
+      ],
+      "verification_method": "full_primary_signed_opinion_read",
+      "source_type": "primary_personally_authored_public_text",
+      "eligibility": "eligible_direct",
+      "identity_crosscheck_url": "https://www.btnrwanda.com/page/news-details/nid/6110/Dr--Kayumba-Christopher--RDF-ikwiye-Igihembo-cy---Amahoro-cya-Nobel-aho-guhabwa-ibihano",
+      "identity_check": "BTN16.05.2026 прямо идентифицирует автора этой колонки как бывшего преподавателя University of Rwanda Dr Kayumba Christopher. Авторская страница The New Times также именует Christopher Kayumba. Не вывод о частных убеждениях.",
+      "evidence_origin": "assistant_verified_source",
+      "source_review_file": "research/rwanda_politicians_2021_2026/COVERAGE_EXPANSION_SOURCES.json"
+    },
+    {
+      "actor_id": "christopher-kayumba",
+      "source_url": "https://www.newtimes.co.rw/article/35672/opinions/rdf-is-a-peoples-army-deserving-a-nobel-peace-prize-not-sanctions/amp",
+      "title": "RDF is a people’s army deserving a Nobel Peace Prize, not sanctions",
+      "text": "Защищая нынешнюю армию, Каюмба обосновал свою оценку памятью о геноциде, его неповторении и ценностями единства, патриотизма и жертвенности.",
+      "period": "2026-05-15",
+      "source_date_precision": "day",
+      "event_id": "christopher-kayumba-rdf-opinion-2026-05-15",
+      "capacity": "Автор политической колонки, исследователь и бывший преподаватель University of Rwanda",
+      "channel": "public_statement",
+      "topic_ids": [
+        "argumentation-evidence-values"
+      ],
+      "verification_method": "full_primary_signed_opinion_read",
+      "source_type": "primary_personally_authored_public_text",
+      "eligibility": "eligible_direct",
+      "identity_crosscheck_url": "https://www.btnrwanda.com/page/news-details/nid/6110/Dr--Kayumba-Christopher--RDF-ikwiye-Igihembo-cy---Amahoro-cya-Nobel-aho-guhabwa-ibihano",
+      "evidence_origin": "assistant_verified_source",
+      "source_review_file": "research/rwanda_politicians_2021_2026/COVERAGE_EXPANSION_SOURCES.json"
     }
   ],
   "sources": [
@@ -246,7 +287,7 @@
     "2026-10-15"
   ],
   "measurement_model": "independent_poles",
-  "basis": "32ea89819c1be02f0cafba9abbaf112e00edacc636bb260ea05dc61d7a78d45c",
+  "basis": "6115ae7d73233699bb1859a3affcc567890e1a5fd3ef2c5fbfe977f4506cb4a1",
   "retrieval_basis": "c764ea8cdbd5cfc29c617af3f4a2dd7f78936a43ad8383de0762109bb0cb3a9d",
   "retrieval": {
     "response_file": "evidence/independent_responses/08572ead3121953ecb89a3003661032c6561892f3d518b960bc2c06356c6cf91.json",
@@ -288,5 +329,10 @@
     "path": "research/rwanda_politicians_2021_2026/INDEPENDENT_COMPLETION_SOURCES.json",
     "sha256": "be3cf9b161585e3e0a05dd1c39256a7ad93e4ee239560f3d3df9c620cce27ab4",
     "selected_fact_count": 0
+  },
+  "coverage_expansion_source_supplement": {
+    "path": "research/rwanda_politicians_2021_2026/COVERAGE_EXPANSION_SOURCES.json",
+    "sha256": "53a15f3e4b4718b4a4328bde05f742c6b8648153c6240d1b7762a5925fe0d192",
+    "selected_fact_count": 2
   }
 }

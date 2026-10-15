@@ -551,6 +551,40 @@
         }
       ],
       "source_review_file": "research/rwanda_politicians_2021_2026/russia_independent_poles_supplement.json"
+    },
+    {
+      "source_url": "https://www.minaffet.gov.rw/updates/news-details/statement-by-minister-nduhungirehe-in-the-high-level-debate-in-the-united-nations-security-council-on-african-led-and-development-focused-counterterrorism-strengthening-african-leadership-and-implementation-of-counter-terrorism-initiatives",
+      "title": "Statement by Minister Nduhungirehe in the High-Level Debate in the United Nations Security Council on African-led counterterrorism",
+      "period": "2025-01-21",
+      "event_id": "nduhungirehe-unsc-counterterrorism-2025-01-21",
+      "capacity": "Министр иностранных дел и международного сотрудничества",
+      "verification_method": "web_open_full_primary_speech, пункт Fifth",
+      "novelty": "Новый релевантный фрагмент полного текста ранее известного эпизода; исходные факты14/21 содержали только анализ причин и не содержали пункта5. Не считать отдельным эпизодом.",
+      "text": "В пятом пункте собственного выступления в Совете Безопасности ООН Ндухунгирехе прямо предложил поставить профилактику в центр контртеррористической стратегии: ранние программы противодействия насильственному экстремизму, поддержку молодёжи и устойчивости местных общин.",
+      "actor_id": "olivier-nduhungirehe",
+      "topic_ids": [
+        "prevention-crisis-response"
+      ],
+      "eligibility": "eligible_direct",
+      "evidence_origin": "assistant_verified_source",
+      "source_review_file": "research/rwanda_politicians_2021_2026/COVERAGE_EXPANSION_SOURCES.json"
+    },
+    {
+      "source_url": "https://www.minaffet.gov.rw/updates/news-details/rwandas-regional-and-foreign-policy-priorities-a-seminar-by-the-minister-of-foreign-affairs-of-rwanda-at-chatham-house",
+      "title": "Rwanda’s regional and foreign policy priorities — Minister Nduhungirehe at Chatham House",
+      "period": "2024-12-04",
+      "event_id": "nduhungirehe-chatham-house-2024-12-04",
+      "capacity": "Министр иностранных дел и международного сотрудничества",
+      "text": "В собственной речи в Chatham House Ндухунгирехе подтвердил следование Vision2050, продвижение выполнения AfCFTA и необходимость исполнения рамочного соглашения мира и безопасности2013г.; он обещал продолжать строить связи и сотрудничество.",
+      "actor_id": "olivier-nduhungirehe",
+      "topic_ids": [
+        "programmatic-renewal"
+      ],
+      "verification_method": "web_search_cached_full_primary_article",
+      "novelty": "Новый для сохранённого independent-dossier факт; предложение не изменяет canonical ratings.",
+      "eligibility": "eligible_direct",
+      "evidence_origin": "assistant_verified_source",
+      "source_review_file": "research/rwanda_politicians_2021_2026/COVERAGE_EXPANSION_SOURCES.json"
     }
   ],
   "sources": [
@@ -706,7 +740,7 @@
     "2026-10-15"
   ],
   "measurement_model": "independent_poles",
-  "basis": "0adc4a8aa6d235779b03cd46ee3aa463780dc1e6b723effa9073adf7f04cc388",
+  "basis": "0117177e144930479de07308a76228635c15f23be10b2c9bc97653a9a7a18412",
   "retrieval_basis": "b175b35762f93f7b87fc031c429cda7b798b5dba8595c060036b4e29a452f055",
   "retrieval": {
     "response_file": "evidence/independent_responses/0510abb546f032885024200e15c14cd2691866e9148043171c9396f087c39c1b.json",
@@ -748,5 +782,10 @@
     "path": "research/rwanda_politicians_2021_2026/INDEPENDENT_COMPLETION_SOURCES.json",
     "sha256": "be3cf9b161585e3e0a05dd1c39256a7ad93e4ee239560f3d3df9c620cce27ab4",
     "selected_fact_count": 0
+  },
+  "coverage_expansion_source_supplement": {
+    "path": "research/rwanda_politicians_2021_2026/COVERAGE_EXPANSION_SOURCES.json",
+    "sha256": "53a15f3e4b4718b4a4328bde05f742c6b8648153c6240d1b7762a5925fe0d192",
+    "selected_fact_count": 2
   }
 }

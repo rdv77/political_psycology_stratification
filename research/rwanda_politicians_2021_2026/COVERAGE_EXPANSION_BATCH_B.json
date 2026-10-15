@@ -1,0 +1,2051 @@
+{
+  "version": 2,
+  "batch": "B",
+  "at": "2026-10-15T18:36:19.612609+00:00",
+  "reviewer": "service_concept_assistant_web_source_and_construct_review_not_human_expert",
+  "status": "proposed_source_bound_additions_not_applied",
+  "period": {
+    "date_from": "2021-10-15",
+    "date_to": "2026-10-15"
+  },
+  "plan_fingerprint": "aad8856e5560f21bae35c91171706956bb4e47472630c70a9725461e747a64c6",
+  "plan_file": "research/rwanda_politicians_2021_2026/COVERAGE_EXPANSION_PLAN.json",
+  "plan_sha256": "57e388b148e943b69516fdc8e922742a5c74037dfa917694272131ce89fa1f3d",
+  "input_ratings_fingerprint": "98c4bd857e7fae7be749378db83556936f2f2b542b4d2e4d1415e7ee6b22a802",
+  "input_objects_fingerprint": "92b5ecf8530b1a85cc8c2ef947051d849976127aca32149f82d6fcb20ba3056d",
+  "input_scales_fingerprint": "968e884171eb9cdb80c1fc2aa813e881359b746e2a01de4b034a953908d6cf0c",
+  "input_ratings_file_sha256": "98123f0b8acabf36e11537e1dbaf547b2cb468e22c3c8f6be9b4aa0bc5d7b5fa",
+  "counts": {
+    "checked_unknown_properties": 105,
+    "checked_general": 34,
+    "checked_russia": 71,
+    "proposed_observations": 8,
+    "proposed_russia_observations": 0,
+    "remaining_unknown": 97,
+    "all_analytic_properties": 2016,
+    "input_known_properties": 548,
+    "proposed_with_construct_review_flag": 1
+  },
+  "checked_objects": [
+    "diane-rwigara",
+    "bernard-ntaganda",
+    "christopher-kayumba",
+    "paul-rusesabagina",
+    "kayumba-nyamwasa",
+    "louise-mushikiwabo"
+  ],
+  "checked_properties": [
+    [
+      "diane-rwigara",
+      "government-course-assessment",
+      "positive"
+    ],
+    [
+      "diane-rwigara",
+      "participation-administrative-direction",
+      "negative"
+    ],
+    [
+      "diane-rwigara",
+      "prevention-crisis-response",
+      "positive"
+    ],
+    [
+      "diane-rwigara",
+      "programmatic-renewal",
+      "positive"
+    ],
+    [
+      "diane-rwigara",
+      "russia-conflict-policy-evaluation",
+      "negative"
+    ],
+    [
+      "diane-rwigara",
+      "russia-conflict-policy-evaluation",
+      "positive"
+    ],
+    [
+      "diane-rwigara",
+      "russia-diplomatic-engagement",
+      "negative"
+    ],
+    [
+      "diane-rwigara",
+      "russia-diplomatic-engagement",
+      "positive"
+    ],
+    [
+      "diane-rwigara",
+      "russia-economic-technology-cooperation",
+      "negative"
+    ],
+    [
+      "diane-rwigara",
+      "russia-economic-technology-cooperation",
+      "positive"
+    ],
+    [
+      "diane-rwigara",
+      "russia-education-cultural-cooperation",
+      "negative"
+    ],
+    [
+      "diane-rwigara",
+      "russia-education-cultural-cooperation",
+      "positive"
+    ],
+    [
+      "diane-rwigara",
+      "russia-isolation-sanctions",
+      "negative"
+    ],
+    [
+      "diane-rwigara",
+      "russia-isolation-sanctions",
+      "positive"
+    ],
+    [
+      "diane-rwigara",
+      "russia-security-cooperation",
+      "negative"
+    ],
+    [
+      "diane-rwigara",
+      "russia-security-cooperation",
+      "positive"
+    ],
+    [
+      "bernard-ntaganda",
+      "accessibility-growth-priorities",
+      "positive"
+    ],
+    [
+      "bernard-ntaganda",
+      "government-course-assessment",
+      "positive"
+    ],
+    [
+      "bernard-ntaganda",
+      "participation-administrative-direction",
+      "negative"
+    ],
+    [
+      "bernard-ntaganda",
+      "prevention-crisis-response",
+      "positive"
+    ],
+    [
+      "bernard-ntaganda",
+      "programmatic-renewal",
+      "negative"
+    ],
+    [
+      "bernard-ntaganda",
+      "programmatic-renewal",
+      "positive"
+    ],
+    [
+      "bernard-ntaganda",
+      "russia-conflict-policy-evaluation",
+      "negative"
+    ],
+    [
+      "bernard-ntaganda",
+      "russia-conflict-policy-evaluation",
+      "positive"
+    ],
+    [
+      "bernard-ntaganda",
+      "russia-diplomatic-engagement",
+      "negative"
+    ],
+    [
+      "bernard-ntaganda",
+      "russia-diplomatic-engagement",
+      "positive"
+    ],
+    [
+      "bernard-ntaganda",
+      "russia-economic-technology-cooperation",
+      "negative"
+    ],
+    [
+      "bernard-ntaganda",
+      "russia-economic-technology-cooperation",
+      "positive"
+    ],
+    [
+      "bernard-ntaganda",
+      "russia-education-cultural-cooperation",
+      "negative"
+    ],
+    [
+      "bernard-ntaganda",
+      "russia-education-cultural-cooperation",
+      "positive"
+    ],
+    [
+      "bernard-ntaganda",
+      "russia-isolation-sanctions",
+      "negative"
+    ],
+    [
+      "bernard-ntaganda",
+      "russia-isolation-sanctions",
+      "positive"
+    ],
+    [
+      "bernard-ntaganda",
+      "russia-security-cooperation",
+      "negative"
+    ],
+    [
+      "bernard-ntaganda",
+      "russia-security-cooperation",
+      "positive"
+    ],
+    [
+      "christopher-kayumba",
+      "accessibility-growth-priorities",
+      "positive"
+    ],
+    [
+      "christopher-kayumba",
+      "argumentation-evidence-values",
+      "negative"
+    ],
+    [
+      "christopher-kayumba",
+      "government-course-assessment",
+      "positive"
+    ],
+    [
+      "christopher-kayumba",
+      "participation-administrative-direction",
+      "negative"
+    ],
+    [
+      "christopher-kayumba",
+      "prevention-crisis-response",
+      "positive"
+    ],
+    [
+      "christopher-kayumba",
+      "problem-disclosure-reputation-defence",
+      "positive"
+    ],
+    [
+      "christopher-kayumba",
+      "programmatic-renewal",
+      "negative"
+    ],
+    [
+      "christopher-kayumba",
+      "programmatic-renewal",
+      "positive"
+    ],
+    [
+      "christopher-kayumba",
+      "russia-conflict-policy-evaluation",
+      "negative"
+    ],
+    [
+      "christopher-kayumba",
+      "russia-conflict-policy-evaluation",
+      "positive"
+    ],
+    [
+      "christopher-kayumba",
+      "russia-diplomatic-engagement",
+      "negative"
+    ],
+    [
+      "christopher-kayumba",
+      "russia-diplomatic-engagement",
+      "positive"
+    ],
+    [
+      "christopher-kayumba",
+      "russia-economic-technology-cooperation",
+      "negative"
+    ],
+    [
+      "christopher-kayumba",
+      "russia-economic-technology-cooperation",
+      "positive"
+    ],
+    [
+      "christopher-kayumba",
+      "russia-education-cultural-cooperation",
+      "negative"
+    ],
+    [
+      "christopher-kayumba",
+      "russia-education-cultural-cooperation",
+      "positive"
+    ],
+    [
+      "christopher-kayumba",
+      "russia-isolation-sanctions",
+      "negative"
+    ],
+    [
+      "christopher-kayumba",
+      "russia-isolation-sanctions",
+      "positive"
+    ],
+    [
+      "christopher-kayumba",
+      "russia-security-cooperation",
+      "negative"
+    ],
+    [
+      "christopher-kayumba",
+      "russia-security-cooperation",
+      "positive"
+    ],
+    [
+      "paul-rusesabagina",
+      "accessibility-growth-priorities",
+      "positive"
+    ],
+    [
+      "paul-rusesabagina",
+      "government-course-assessment",
+      "positive"
+    ],
+    [
+      "paul-rusesabagina",
+      "participation-administrative-direction",
+      "negative"
+    ],
+    [
+      "paul-rusesabagina",
+      "programmatic-renewal",
+      "negative"
+    ],
+    [
+      "paul-rusesabagina",
+      "programmatic-renewal",
+      "positive"
+    ],
+    [
+      "paul-rusesabagina",
+      "russia-conflict-policy-evaluation",
+      "negative"
+    ],
+    [
+      "paul-rusesabagina",
+      "russia-conflict-policy-evaluation",
+      "positive"
+    ],
+    [
+      "paul-rusesabagina",
+      "russia-diplomatic-engagement",
+      "negative"
+    ],
+    [
+      "paul-rusesabagina",
+      "russia-diplomatic-engagement",
+      "positive"
+    ],
+    [
+      "paul-rusesabagina",
+      "russia-economic-technology-cooperation",
+      "negative"
+    ],
+    [
+      "paul-rusesabagina",
+      "russia-economic-technology-cooperation",
+      "positive"
+    ],
+    [
+      "paul-rusesabagina",
+      "russia-education-cultural-cooperation",
+      "negative"
+    ],
+    [
+      "paul-rusesabagina",
+      "russia-education-cultural-cooperation",
+      "positive"
+    ],
+    [
+      "paul-rusesabagina",
+      "russia-isolation-sanctions",
+      "negative"
+    ],
+    [
+      "paul-rusesabagina",
+      "russia-isolation-sanctions",
+      "positive"
+    ],
+    [
+      "paul-rusesabagina",
+      "russia-security-cooperation",
+      "negative"
+    ],
+    [
+      "paul-rusesabagina",
+      "russia-security-cooperation",
+      "positive"
+    ],
+    [
+      "kayumba-nyamwasa",
+      "accessibility-growth-priorities",
+      "positive"
+    ],
+    [
+      "kayumba-nyamwasa",
+      "government-course-assessment",
+      "positive"
+    ],
+    [
+      "kayumba-nyamwasa",
+      "participation-administrative-direction",
+      "negative"
+    ],
+    [
+      "kayumba-nyamwasa",
+      "prevention-crisis-response",
+      "positive"
+    ],
+    [
+      "kayumba-nyamwasa",
+      "programmatic-renewal",
+      "negative"
+    ],
+    [
+      "kayumba-nyamwasa",
+      "programmatic-renewal",
+      "positive"
+    ],
+    [
+      "kayumba-nyamwasa",
+      "russia-conflict-policy-evaluation",
+      "negative"
+    ],
+    [
+      "kayumba-nyamwasa",
+      "russia-conflict-policy-evaluation",
+      "positive"
+    ],
+    [
+      "kayumba-nyamwasa",
+      "russia-diplomatic-engagement",
+      "negative"
+    ],
+    [
+      "kayumba-nyamwasa",
+      "russia-diplomatic-engagement",
+      "positive"
+    ],
+    [
+      "kayumba-nyamwasa",
+      "russia-economic-technology-cooperation",
+      "negative"
+    ],
+    [
+      "kayumba-nyamwasa",
+      "russia-economic-technology-cooperation",
+      "positive"
+    ],
+    [
+      "kayumba-nyamwasa",
+      "russia-education-cultural-cooperation",
+      "negative"
+    ],
+    [
+      "kayumba-nyamwasa",
+      "russia-education-cultural-cooperation",
+      "positive"
+    ],
+    [
+      "kayumba-nyamwasa",
+      "russia-isolation-sanctions",
+      "negative"
+    ],
+    [
+      "kayumba-nyamwasa",
+      "russia-isolation-sanctions",
+      "positive"
+    ],
+    [
+      "kayumba-nyamwasa",
+      "russia-security-cooperation",
+      "negative"
+    ],
+    [
+      "kayumba-nyamwasa",
+      "russia-security-cooperation",
+      "positive"
+    ],
+    [
+      "louise-mushikiwabo",
+      "accessibility-growth-priorities",
+      "positive"
+    ],
+    [
+      "louise-mushikiwabo",
+      "government-course-assessment",
+      "positive"
+    ],
+    [
+      "louise-mushikiwabo",
+      "prevention-crisis-response",
+      "positive"
+    ],
+    [
+      "louise-mushikiwabo",
+      "problem-disclosure-reputation-defence",
+      "positive"
+    ],
+    [
+      "louise-mushikiwabo",
+      "programmatic-renewal",
+      "negative"
+    ],
+    [
+      "louise-mushikiwabo",
+      "russia-conflict-policy-evaluation",
+      "positive"
+    ],
+    [
+      "louise-mushikiwabo",
+      "russia-diplomatic-engagement",
+      "negative"
+    ],
+    [
+      "louise-mushikiwabo",
+      "russia-diplomatic-engagement",
+      "positive"
+    ],
+    [
+      "louise-mushikiwabo",
+      "russia-economic-technology-cooperation",
+      "negative"
+    ],
+    [
+      "louise-mushikiwabo",
+      "russia-economic-technology-cooperation",
+      "positive"
+    ],
+    [
+      "louise-mushikiwabo",
+      "russia-education-cultural-cooperation",
+      "negative"
+    ],
+    [
+      "louise-mushikiwabo",
+      "russia-education-cultural-cooperation",
+      "positive"
+    ],
+    [
+      "louise-mushikiwabo",
+      "russia-isolation-sanctions",
+      "negative"
+    ],
+    [
+      "louise-mushikiwabo",
+      "russia-isolation-sanctions",
+      "positive"
+    ],
+    [
+      "louise-mushikiwabo",
+      "russia-security-cooperation",
+      "negative"
+    ],
+    [
+      "louise-mushikiwabo",
+      "russia-security-cooperation",
+      "positive"
+    ]
+  ],
+  "observations": [
+    {
+      "object_id": "louise-mushikiwabo",
+      "scale_id": "programmatic-renewal",
+      "pole": "negative",
+      "value": 2,
+      "rationale": "Прямой призыв к продолжению названной программы; один эпизод, международная служебная роль.",
+      "evidence_indices": [],
+      "new_facts": [
+        {
+          "actor_id": "louise-mushikiwabo",
+          "source_url": "https://www.assemblee-nationale.fr/dyn/opendata/CRCANR5L17S2024PO59047N003.html",
+          "title": "Audition de Louise Mushikiwabo — 17 septembre 2024",
+          "text": "Описав действующую программу OIF 2024–2027 и её результаты, Мушикивабо прямо призвала продолжить эту работу.",
+          "period": "2024-09-17",
+          "source_date_precision": "day",
+          "event_id": "mushikiwabo-french-parliament-hearing-2024-09-17",
+          "capacity": "Генеральный секретарь OIF; собственное публичное свидетельство, не позиция правительства Руанды",
+          "channel": "public_statement",
+          "topic_ids": [
+            "programmatic-renewal"
+          ],
+          "verification_method": "full_primary_parliamentary_transcript_read",
+          "source_type": "primary_verbatim_transcript",
+          "eligibility": "eligible_direct"
+        }
+      ]
+    },
+    {
+      "object_id": "louise-mushikiwabo",
+      "scale_id": "accessibility-growth-priorities",
+      "pole": "positive",
+      "value": 2,
+      "rationale": "Конкретный механизм расширения доступа к услуге; один эпизод, не общий лозунг.",
+      "evidence_indices": [],
+      "new_facts": [
+        {
+          "actor_id": "louise-mushikiwabo",
+          "source_url": "https://www.assemblee-nationale.fr/dyn/opendata/CRCANR5L17S2024PO59047N003.html",
+          "title": "Audition de Louise Mushikiwabo — 17 septembre 2024",
+          "text": "Мушикивабо сообщила о подписанном меморандуме с ITU и мобилизации государств и инфраструктурных участников для улучшения доступа к интернету.",
+          "period": "2024-09-17",
+          "source_date_precision": "day",
+          "event_id": "mushikiwabo-french-parliament-hearing-2024-09-17",
+          "capacity": "Генеральный секретарь OIF; собственное публичное свидетельство, не позиция правительства Руанды",
+          "channel": "public_statement",
+          "topic_ids": [
+            "accessibility-growth-priorities"
+          ],
+          "verification_method": "full_primary_parliamentary_transcript_read",
+          "source_type": "primary_verbatim_transcript",
+          "eligibility": "eligible_direct"
+        }
+      ]
+    },
+    {
+      "object_id": "louise-mushikiwabo",
+      "scale_id": "problem-disclosure-reputation-defence",
+      "pole": "positive",
+      "value": 2,
+      "rationale": "Признаны ограничения собственной организации; это не просто описание чужого конфликта.",
+      "evidence_indices": [],
+      "new_facts": [
+        {
+          "actor_id": "louise-mushikiwabo",
+          "source_url": "https://www.assemblee-nationale.fr/dyn/opendata/CRCANR5L17S2024PO59047N003.html",
+          "title": "Audition de Louise Mushikiwabo — 17 septembre 2024",
+          "text": "Мушикивабо признала малый вклад и ограниченную результативность OIF в разрешении политических проблем её государств-членов.",
+          "period": "2024-09-17",
+          "source_date_precision": "day",
+          "event_id": "mushikiwabo-french-parliament-hearing-2024-09-17",
+          "capacity": "Генеральный секретарь OIF; собственное публичное свидетельство, не позиция правительства Руанды",
+          "channel": "public_statement",
+          "topic_ids": [
+            "problem-disclosure-reputation-defence"
+          ],
+          "verification_method": "full_primary_parliamentary_transcript_read",
+          "source_type": "primary_verbatim_transcript",
+          "eligibility": "eligible_direct"
+        }
+      ]
+    },
+    {
+      "object_id": "diane-rwigara",
+      "scale_id": "government-course-assessment",
+      "pole": "positive",
+      "value": 1,
+      "rationale": "Узкая положительная оценка достижений; не поддержка всего курса.",
+      "evidence_indices": [],
+      "new_facts": [
+        {
+          "actor_id": "diane-rwigara",
+          "source_url": "https://www.bbc.com/gahuza/articles/cd11jdzmv78o",
+          "title": "BBC Gahuza, 20.05.2024",
+          "text": "Рвигара положительно оценила новые здания, чистоту и благоустройство, одновременно критикуя бедность.",
+          "period": "2024-05-20",
+          "source_date_precision": "day",
+          "event_id": "rwigara-bbc-gahuza-interview-2024-05-20",
+          "capacity": "Независимый политик, собственный ответ в интервью",
+          "channel": "public_statement",
+          "topic_ids": [
+            "government-course-assessment"
+          ],
+          "verification_method": "full_BBC_interview_read_Kinyarwanda_interpretation",
+          "source_type": "direct_attributed_media_interview",
+          "eligibility": "eligible_direct"
+        }
+      ]
+    },
+    {
+      "object_id": "bernard-ntaganda",
+      "scale_id": "programmatic-renewal",
+      "pole": "positive",
+      "value": 2,
+      "rationale": "Прямое требование пересмотреть названные действующие инструменты политики; один подписанный эпизод, без вывода из партийной принадлежности.",
+      "evidence_indices": [],
+      "new_facts": [
+        {
+          "actor_id": "bernard-ntaganda",
+          "source_url": "https://www.therwandan.com/ki/urugiye-cyera-ruhinyuza-intwarileta-yu-rwanda-ifunguye-imipaka-ikubagahu-nyuma-yaho-inzara-imaze-iminsi-inuma-muri-rubanda-kubera-izamuka-ryibiciro-ku-masoko/",
+          "title": "ITANGAZO N°003/PS.IMB/NB/2022",
+          "text": "В подписанном заявлении Нтаганда потребовал отменить повышение ставки центрального банка и пересмотреть денежную, инвестиционную, налоговую и бюджетную политику.",
+          "period": "2022-03-08",
+          "source_date_precision": "day",
+          "event_id": "ntaganda-ps-imberakuri-economic-policy-release-2022-03-08",
+          "capacity": "Основатель PS Imberakuri; подписант публичного заявления",
+          "channel": "public_statement",
+          "topic_ids": [
+            "programmatic-renewal"
+          ],
+          "verification_method": "full_signed_release_read_Kinyarwanda_interpretation",
+          "source_type": "primary_personally_authored_public_text",
+          "eligibility": "eligible_direct",
+          "publication_date": "2022-03-09",
+          "source_locator": "Заключительные абзацы60–65: отмена ставки, пересмотр политики, дата и подпись."
+        }
+      ]
+    },
+    {
+      "object_id": "bernard-ntaganda",
+      "scale_id": "accessibility-growth-priorities",
+      "pole": "positive",
+      "value": 1,
+      "rationale": "Узкий контекст доступности продовольствия: адресат — население, механизм — иные приоритеты публичных вложений. Пограничность с производственным ростом требует отдельного review; не доказательство охвата услугами.",
+      "evidence_indices": [],
+      "new_facts": [
+        {
+          "actor_id": "bernard-ntaganda",
+          "source_url": "https://www.therwandan.com/ki/urugiye-cyera-ruhinyuza-intwarileta-yu-rwanda-ifunguye-imipaka-ikubagahu-nyuma-yaho-inzara-imaze-iminsi-inuma-muri-rubanda-kubera-izamuka-ryibiciro-ku-masoko/",
+          "title": "ITANGAZO N°003/PS.IMB/NB/2022",
+          "text": "В контексте дороговизны продовольствия и голода Нтаганда противопоставил декоративным проектам вложения в сельское хозяйство и полезную населению инфраструктуру и потребовал исправления инвестиционной политики.",
+          "period": "2022-03-08",
+          "source_date_precision": "day",
+          "event_id": "ntaganda-ps-imberakuri-economic-policy-release-2022-03-08",
+          "capacity": "Основатель PS Imberakuri; подписант публичного заявления",
+          "channel": "public_statement",
+          "topic_ids": [
+            "accessibility-growth-priorities"
+          ],
+          "verification_method": "full_signed_release_read_Kinyarwanda_interpretation",
+          "source_type": "primary_personally_authored_public_text",
+          "eligibility": "eligible_direct",
+          "publication_date": "2022-03-09",
+          "source_locator": "Абзацы52–54 и62: продовольствие, полезная населению инфраструктура, пересмотр политики."
+        }
+      ],
+      "review_flag": {
+        "decision": "flag",
+        "reason": "Контекст продовольственной доступности выражен, но предложение одновременно касается производства и инвестиций. Root должен подтвердить узкое соответствие определению до применения."
+      }
+    },
+    {
+      "object_id": "christopher-kayumba",
+      "scale_id": "government-course-assessment",
+      "pole": "positive",
+      "value": 2,
+      "rationale": "Собственное явное одобрение нынешних государственных достижений и действий RDF; это содержание колонки, а не истинность всех её утверждений.",
+      "evidence_indices": [],
+      "new_facts": [
+        {
+          "actor_id": "christopher-kayumba",
+          "source_url": "https://www.newtimes.co.rw/article/35672/opinions/rdf-is-a-peoples-army-deserving-a-nobel-peace-prize-not-sanctions/amp",
+          "title": "RDF is a people’s army deserving a Nobel Peace Prize, not sanctions",
+          "text": "В подписанной колонке Каюмба защищал достижения RDF и его руководства в безопасности, национальном примирении и государственном управлении, считая международные санкции несправедливыми.",
+          "period": "2026-05-15",
+          "source_date_precision": "day",
+          "event_id": "christopher-kayumba-rdf-opinion-2026-05-15",
+          "capacity": "Автор политической колонки, исследователь и бывший преподаватель University of Rwanda",
+          "channel": "public_statement",
+          "topic_ids": [
+            "government-course-assessment"
+          ],
+          "verification_method": "full_primary_signed_opinion_read",
+          "source_type": "primary_personally_authored_public_text",
+          "eligibility": "eligible_direct",
+          "identity_crosscheck_url": "https://www.btnrwanda.com/page/news-details/nid/6110/Dr--Kayumba-Christopher--RDF-ikwiye-Igihembo-cy---Amahoro-cya-Nobel-aho-guhabwa-ibihano",
+          "identity_check": "BTN16.05.2026 прямо идентифицирует автора этой колонки как бывшего преподавателя University of Rwanda Dr Kayumba Christopher. Авторская страница The New Times также именует Christopher Kayumba. Не вывод о частных убеждениях."
+        }
+      ]
+    },
+    {
+      "object_id": "christopher-kayumba",
+      "scale_id": "argumentation-evidence-values",
+      "pole": "negative",
+      "value": 2,
+      "rationale": "Явное ценностно-историческое обоснование через память и коллективные образцы; один текст не превращается в множество независимых эпизодов.",
+      "evidence_indices": [],
+      "new_facts": [
+        {
+          "actor_id": "christopher-kayumba",
+          "source_url": "https://www.newtimes.co.rw/article/35672/opinions/rdf-is-a-peoples-army-deserving-a-nobel-peace-prize-not-sanctions/amp",
+          "title": "RDF is a people’s army deserving a Nobel Peace Prize, not sanctions",
+          "text": "Защищая нынешнюю армию, Каюмба обосновал свою оценку памятью о геноциде, его неповторении и ценностями единства, патриотизма и жертвенности.",
+          "period": "2026-05-15",
+          "source_date_precision": "day",
+          "event_id": "christopher-kayumba-rdf-opinion-2026-05-15",
+          "capacity": "Автор политической колонки, исследователь и бывший преподаватель University of Rwanda",
+          "channel": "public_statement",
+          "topic_ids": [
+            "argumentation-evidence-values"
+          ],
+          "verification_method": "full_primary_signed_opinion_read",
+          "source_type": "primary_personally_authored_public_text",
+          "eligibility": "eligible_direct",
+          "identity_crosscheck_url": "https://www.btnrwanda.com/page/news-details/nid/6110/Dr--Kayumba-Christopher--RDF-ikwiye-Igihembo-cy---Amahoro-cya-Nobel-aho-guhabwa-ibihano"
+        }
+      ]
+    }
+  ],
+  "accepted": [
+    {
+      "object_id": "louise-mushikiwabo",
+      "variable_id": "programmatic-renewal__negative",
+      "proposed_value": 2
+    },
+    {
+      "object_id": "louise-mushikiwabo",
+      "variable_id": "accessibility-growth-priorities__positive",
+      "proposed_value": 2
+    },
+    {
+      "object_id": "louise-mushikiwabo",
+      "variable_id": "problem-disclosure-reputation-defence__positive",
+      "proposed_value": 2
+    },
+    {
+      "object_id": "diane-rwigara",
+      "variable_id": "government-course-assessment__positive",
+      "proposed_value": 1
+    },
+    {
+      "object_id": "bernard-ntaganda",
+      "variable_id": "programmatic-renewal__positive",
+      "proposed_value": 2
+    },
+    {
+      "object_id": "bernard-ntaganda",
+      "variable_id": "accessibility-growth-priorities__positive",
+      "proposed_value": 1,
+      "review_flag": {
+        "decision": "flag",
+        "reason": "Контекст продовольственной доступности выражен, но предложение одновременно касается производства и инвестиций. Root должен подтвердить узкое соответствие определению до применения."
+      }
+    },
+    {
+      "object_id": "christopher-kayumba",
+      "variable_id": "government-course-assessment__positive",
+      "proposed_value": 2
+    },
+    {
+      "object_id": "christopher-kayumba",
+      "variable_id": "argumentation-evidence-values__negative",
+      "proposed_value": 2
+    }
+  ],
+  "rejected": [
+    {
+      "object_id": "diane-rwigara",
+      "source_url": "https://information.tv5monde.com/afrique/rwanda-diane-rwigara-se-lance-dans-la-presidentielle-2721139",
+      "decision": "rejected_construct_mismatch",
+      "reason": "Объявление кандидатуры и нового этапа не содержит конкретного пересмотра политики. Дата 2024-05-08."
+    },
+    {
+      "object_id": "diane-rwigara",
+      "source_url": "https://www.africanews.com/2017/05/04/35-year-old-female-joins-race-for-rwandan-presidency/",
+      "decision": "rejected_out_of_window",
+      "reason": "Материал о программе 2017 года; обновление страницы в 2024 году не переносит событие в окно."
+    },
+    {
+      "object_id": "bernard-ntaganda",
+      "source_url": "https://www.therwandan.com/the-commonwealth-is-a-club-of-good-dictators-with-their-hypocrite-bosses-from-west-countries-led-by-the-uk/",
+      "decision": "rejected_russia_construct_mismatch",
+      "reason": "Подписанный пресс-релиз 2022-06-25 критикует двойные стандарты западных стран на сравнении с Украиной. Не установлена собственная поддержка или критика конкретной политики России; не санкционная позиция. Уже известные общие свойства не изменяются."
+    },
+    {
+      "object_id": "christopher-kayumba",
+      "source_url": "https://www.africanews.com/2021/09/10/opposition-figure-christopher-kayumba-held-for-rape-in-rwanda/",
+      "decision": "rejected_out_of_window",
+      "reason": "Событие сентября 2021 года, несмотря на позднее обновление страницы. Статус обвиняемого также не политическое свойство."
+    },
+    {
+      "object_id": "christopher-kayumba",
+      "source_url": "https://www.bbc.com/gahuza/amakuru-59166866",
+      "decision": "rejected_construct_mismatch",
+      "reason": "Собственная судебная защита не доказывает требуемую политическую программу или управленческую открытость."
+    },
+    {
+      "object_id": "christopher-kayumba",
+      "source_url": "https://www.pulse.co.ke/story/japan-to-host-africa-aid-forum-as-china-looms-large-2024081816195857979",
+      "decision": "rejected_actor_and_date_mismatch",
+      "reason": "Негативное суждение о России принадлежит Mohamed Diatta. Публикация 2024 года переизлагает более старую конференцию; не основание для Каюмбы."
+    },
+    {
+      "object_id": "paul-rusesabagina",
+      "source_url": "https://www.semafor.com/article/03/24/2023/paul-rusesabagina-release",
+      "decision": "rejected_construct_mismatch",
+      "reason": "Просьба о помиловании и обещание уйти из политики не подтверждают поддержку государственного курса. Ненасилие уже учтено в известных свойствах."
+    },
+    {
+      "object_id": "paul-rusesabagina",
+      "source_url": "https://freedomhouse.org/ar/node/8299",
+      "decision": "rejected_actor_mismatch",
+      "reason": "Деятельность Anaïse Kanimba, включая её международную защиту прав, не переносится на её отца."
+    },
+    {
+      "object_id": "kayumba-nyamwasa",
+      "source_url": "https://www.watchdoguganda.com/news/20220402/133461/gen-muhoozi-to-rwandas-gen-kayumba-you-are-playing-with-my-country-and-the-results-will-be-terrible-for-you.html",
+      "decision": "rejected_insufficient_construct_specificity",
+      "reason": "Сообщение о мирном диалоге и посредничестве не раскрывает конкретной профилактической программы или общих приоритетов по восьми целевым переменным."
+    },
+    {
+      "object_id": "louise-mushikiwabo",
+      "source_url": "https://www.theeastafrican.co.ke/news/ea/Russia-China-East-Africa-ties/4552908-4603756-5u7y4m/index.html",
+      "decision": "rejected_out_of_window",
+      "reason": "Встреча с Лавровым в Кигали состоялась 2018-06-03, до начала окна."
+    },
+    {
+      "object_id": "louise-mushikiwabo",
+      "source_url": "https://fr.hespress.com/442706-a-new-york-bourita-multiplie-les-entretiens-strategiques.html",
+      "decision": "rejected_actor_relation_mismatch",
+      "reason": "Материал 2025-09-25 описывает отдельные встречи Bourita с Лавровым и Мушикивабо; не встречу Мушикивабо с Лавровым."
+    },
+    {
+      "object_id": "louise-mushikiwabo",
+      "source_url": "https://www.assemblee-nationale.fr/dyn/opendata/CRCANR5L17S2024PO59047N003.html",
+      "decision": "rejected_prevention_inference",
+      "reason": "Ответ на уже возникший кризис не кодируется профилактикой; успех OIF не переносится на поддержку курса Руанды."
+    },
+    {
+      "object_id": "bernard-ntaganda",
+      "source_url": "https://www.cjlpa.org/post/the-uk-s-rwanda-asylum-plan-bad-for-refugees-bad-for-rwanda",
+      "decision": "rejected_out_of_window_and_personal_reaffirmation_missing",
+      "reason": "Совместная дорожная карта2021 до15октября; более поздний собственный текст Ингабире не доказывает позднего публичного действия Нтаганды."
+    },
+    {
+      "object_id": "bernard-ntaganda",
+      "source_url": "https://umunyarwanda1.rssing.com/chan-7522788/all_p508.html",
+      "decision": "rejected_role_to_behavior_inference",
+      "reason": "Назначение кандидату полномочия разработать инструкции не тождественно доказательству их фактического выпуска или собственного управления исполнителями."
+    },
+    {
+      "object_id": "paul-rusesabagina",
+      "source_url": "https://www.wlrn.org/npr-breaking-news/2024-04-15/his-story-inspired-hotel-rwanda-now-hes-speaking-out-against-the-government",
+      "decision": "no_new_target_property_established",
+      "reason": "Собственная критика и раскрытие проблем уже известны. Призыв дочери к смене власти не переносится на отца; продолжение личной миссии не кодируется продолжением конкретной программы."
+    },
+    {
+      "object_id": "kayumba-nyamwasa",
+      "source_url": "https://rwandanationalcongress.org/document/rnc-fdu-inama-ya-johannesburg/",
+      "decision": "rejected_out_of_window",
+      "reason": "Прямо указанное событие19–24.02.2013. Обновление страницы2023 не новое личное заявление."
+    },
+    {
+      "object_id": "christopher-kayumba",
+      "source_url": "https://www.newtimes.co.rw/article/35672/opinions/rdf-is-a-peoples-army-deserving-a-nobel-peace-prize-not-sanctions/amp",
+      "decision": "rejected_other_property_inference",
+      "reason": "Похвала прежних действий армии не даёт личных административных распоряжений автора, конкретной профилактики, новой программы доступности или нового признания проблем исполнения."
+    }
+  ],
+  "pending": [
+    {
+      "object_id": "bernard-ntaganda",
+      "source_url": "https://www.therwandan.com/fr/la-ceremonie-dinauguration-de-paul-kagame-un-signal-du-declin-ou-une-opportunite-de-renouveau-pour-le-rwanda/",
+      "date": "2024-08-12",
+      "decision": "pending_original_statement",
+      "candidate_property": "programmatic-renewal__positive",
+      "reason": "СМИ пересказывает его предложение коалиции, но исходный коммуникат с конкретным предложением и точной атрибуцией не найден; оценки нет."
+    },
+    {
+      "object_id": "kayumba-nyamwasa",
+      "source_url": "https://my250tv.com/2023/08/05/kayumba-nyamwasa-yeruye-ko-rnc-yatsinzwe-urugamba-rwamunaniye-aruraga-abana-be/",
+      "date": "2023-08-05",
+      "decision": "pending_primary_recording",
+      "reason": "Полемический пересказ предполагаемого интервью RNC; без первичной записи не принимаются оценки программы или администрирования."
+    },
+    {
+      "object_id": "kayumba-nyamwasa",
+      "source_url": "https://rwandanationalcongress.org/document/a-system-of-governance-able-to-reassure-all-components-of-the-rwandan-people/",
+      "decision": "pending_full_text_original_date_personal_signature",
+      "reason": "Партийный каталог и дата веб-страницы найдены; полный файл недоступен, личная подпись/новое принятие не подтверждены. Не присвоена позиция партии её руководителю."
+    },
+    {
+      "object_id": "paul-rusesabagina",
+      "source_url": "https://www.therwandan.com/paul-rusesabagina-announces-formation-of-coalition-to-oppose-rwandan-government/",
+      "decision": "pending_full_primary_platform_and_date",
+      "reason": "Персонально атрибутированное объявление коалиции найдено, но конкретная программа и правила преобразования по неизвестным признакам не прочитаны. Само учреждение политической альтернативы недостаточно."
+    },
+    {
+      "object_id": "christopher-kayumba",
+      "source_url": "https://www.twstalker.com/Ckayumba",
+      "decision": "pending_primary_post_and_exact_date",
+      "reason": "Индекс воспроизводит комментарий об образовательных результатах PISA, но исходный собственный пост с проверяемым временем не прочитан; чужую статью об образовании не приписывать автору репоста."
+    }
+  ],
+  "search_log": [
+    {
+      "object_id": "diane-rwigara",
+      "queries": [
+        "\"Diane Rwigara\" Russia Ukraine 2022 2023 2024",
+        "\"Diane Rwigara\" \"2024\" \"programme\" droits santé",
+        "\"Diane Rwigara\" \"2024\" \"change\" \"constitution\" interview",
+        "\"Diane Rwigara\" \"2024\" \"policy\" \"change\"",
+        "\"Diane Rwigara\" manifesto 2024 platform",
+        "\"Diane Rwigara\" \"Russian\" OR \"Russie\" OR \"Putin\""
+      ],
+      "checked_scope": "Все неизвестные ключи актёра из общего плана: восемь общих переменных и шесть российских шкал с двумя независимыми полюсами. Поиск ограничен открытым индексируемым интернетом и относящимися к результатам переходами; отсутствие результата не доказывает отсутствия позиции.",
+      "russia_result": "Нового допустимого персонального основания в этом проходе не установлено; unknown сохраняется."
+    },
+    {
+      "object_id": "bernard-ntaganda",
+      "queries": [
+        "\"Bernard Ntaganda\" Russie Ukraine 2022 2024",
+        "\"Bernard Ntaganda\" \"2024\" programme communiqué PS Imberakuri",
+        "site:therwandan.com \"COMMONWEALTH IS A CLUB\" \"2022\" \"Done\"",
+        "\"Bernard Ntaganda\" \"coalition\" \"2024\" communiqué",
+        "\"Bernard Ntaganda\" \"programme\" \"2022\" \"2023\"",
+        "\"Bernard Ntaganda\" \"Russie\" OR \"Russia\" OR \"Ukraine\"",
+        "\"Ntaganda\" \"étoile\" \"coalition\" 2024",
+        "\"Ntaganda\" \"August\" \"2024\" \"coalition government\"",
+        "\"Bernard Ntaganda\" \"prevent\" \"2022\" \"2024\"",
+        "\"Bernard Ntaganda\" \"coalition\" \"2024\" -Bosco"
+      ],
+      "checked_scope": "Все неизвестные ключи актёра из общего плана: восемь общих переменных и шесть российских шкал с двумя независимыми полюсами. Поиск ограничен открытым индексируемым интернетом и относящимися к результатам переходами; отсутствие результата не доказывает отсутствия позиции.",
+      "russia_result": "Нового допустимого персонального основания в этом проходе не установлено; unknown сохраняется.",
+      "followup_core_only_queries": [
+        "\"Bernard Ntaganda\" \"coalition\" \"2024\" \"signé\"",
+        "\"Bernard Ntaganda\" coalition Rwanda 2024 communiqué",
+        "\"Ntaganda\" \"2024\" \"Mouvement\" \"signataires\"",
+        "\"Ntaganda\" \"2024\" \"déclaration commune\"",
+        "\"Bernard Ntaganda\" \"2024\" \"ITANGAZO\"",
+        "\"Bernard Ntaganda\" \"2023\" \"ITANGAZO\"",
+        "\"PS Imberakuri Ryatangaje Inzego Zishinzwe Kwamamaza\"",
+        "\"Bernard Ntaganda\" \"2023\" \"lettre\"",
+        "\"PS.IMB/NB/2024\"",
+        "\"Ntaganda\" \"PS.IMB\" \"2022\" \"Bikorewe\""
+      ]
+    },
+    {
+      "object_id": "christopher-kayumba",
+      "queries": [
+        "\"Christopher Kayumba\" Russia Ukraine 2022 2024",
+        "\"Christopher Kayumba\" \"2023\" \"party\" programme",
+        "\"Christopher Kayumba\" \"2023\" \"interview\" \"political\"",
+        "\"Christopher Kayumba\" \"2024\" \"said\"",
+        "\"Christopher Kayumba\" \"Russia\" \"Putin\"",
+        "\"Christopher Kayumba\" \"RPD\" \"2023\" statement",
+        "\"Christopher Kayumba\" \"2022\" \"programme\" -Karasira"
+      ],
+      "checked_scope": "Все неизвестные ключи актёра из общего плана: восемь общих переменных и шесть российских шкал с двумя независимыми полюсами. Поиск ограничен открытым индексируемым интернетом и относящимися к результатам переходами; отсутствие результата не доказывает отсутствия позиции.",
+      "russia_result": "Нового допустимого персонального основания в этом проходе не установлено; unknown сохраняется.",
+      "followup_core_only_queries": [
+        "\"Christopher Kayumba\" \"2023\" \"interview\" \"parti\"",
+        "\"Christopher Kayumba\" RPD \"2022\" \"2023\" programme",
+        "\"Christopher Kayumba\" \"2024\" interview -Rusesabagina -2021 -2020",
+        "\"Christopher Kayumba\" \"2023\" \"yavuze\" \"ishyaka\"",
+        "\"Christopher Kayumba\" \"2025\" interview",
+        "site:newtimes.co.rw \"Christopher Kayumba\" \"2026\" \"Nobel\"",
+        "\"Christopher Kayumba\" \"2026\" \"Ckayumba\"",
+        "\"Christopher Kayumba\" \"PISA\" Rwanda",
+        "\"What PISA results say about Rwanda\"",
+        "\"Christopher Kayumba\" \"2026\" researcher consultant educator",
+        "\"Christopher Kayumba\" \"2026\" \"prison\""
+      ]
+    },
+    {
+      "object_id": "paul-rusesabagina",
+      "queries": [
+        "\"Paul Rusesabagina\" Russia Ukraine 2023 2024",
+        "\"Paul Rusesabagina\" \"2024\" \"democracy\" statement own",
+        "\"Paul Rusesabagina\" \"2023\" \"letter\" \"politics\"",
+        "\"Paul Rusesabagina\" \"Russia\" statement sanctions",
+        "\"Paul Rusesabagina\" \"democracy\" \"2025\" \"By\""
+      ],
+      "checked_scope": "Все неизвестные ключи актёра из общего плана: восемь общих переменных и шесть российских шкал с двумя независимыми полюсами. Поиск ограничен открытым индексируемым интернетом и относящимися к результатам переходами; отсутствие результата не доказывает отсутствия позиции.",
+      "russia_result": "Нового допустимого персонального основания в этом проходе не установлено; unknown сохраняется.",
+      "followup_core_only_queries": [
+        "\"Paul Rusesabagina\" \"2023\" \"interview\" democracy policy",
+        "\"Rusesabagina\" \"June 15, 2023\" CNN transcript",
+        "site:transcripts.cnn.com \"Rusesabagina\" \"2023\"",
+        "\"Rusesabagina\" \"interview\" \"2024\" \"change\" Rwanda",
+        "\"Rusesabagina\" \"2024\" \"Brussels\" coalition BBC",
+        "\"Rusesabagina\" \"coalition\" site:bbc.com/gahuza",
+        "\"Paul Rusesabagina\" \"2024\" \"asylum\" \"I\" interview"
+      ]
+    },
+    {
+      "object_id": "kayumba-nyamwasa",
+      "queries": [
+        "\"Kayumba Nyamwasa\" Russia Ukraine 2022 2024 2025",
+        "\"Kayumba Nyamwasa\" \"2023\" interview Rwanda dialogue",
+        "\"Kayumba Nyamwasa\" \"2022\" \"dialogue\"",
+        "\"Kayumba Nyamwasa\" \"Russie\"",
+        "\"Kayumba Nyamwasa\" \"congress\" \"2024\" \"statement\"",
+        "\"Kayumba Nyamwasa\" \"Moscow\" OR \"Putin\" OR \"Ukraine\"",
+        "\"Kayumba Nyamwasa\" \"2024\" \"interview\" \"RNC\""
+      ],
+      "checked_scope": "Все неизвестные ключи актёра из общего плана: восемь общих переменных и шесть российских шкал с двумя независимыми полюсами. Поиск ограничен открытым индексируемым интернетом и относящимися к результатам переходами; отсутствие результата не доказывает отсутствия позиции.",
+      "russia_result": "Нового допустимого персонального основания в этом проходе не установлено; unknown сохраняется.",
+      "followup_core_only_queries": [
+        "\"Kayumba Nyamwasa\" \"2024\" \"RNC\" \"communiqué\"",
+        "\"Kayumba Nyamwasa\" RNC \"2022\" statement",
+        "\"Kayumba Nyamwasa\" \"2023\" \"Itahuka\" \"programme\"",
+        "\"Kayumba Nyamwasa\" \"2025\" \"Itahuka\"",
+        "\"Kayumba Nyamwasa\" site:rwandanationalcongress.org",
+        "site:rwandanationalcongress.org \"2024\"",
+        "\"Kayumba Nyamwasa\" \"2024\" \"interview\" -site:egretnews.com -site:my250tv.com -site:rushyashya.net",
+        "\"Kayumba Nyamwasa\" \"2024\" \"dialogue\" \"statement\"",
+        "\"Kayumba Nyamwasa\" \"2023\" \"dialogue\" \"said\"",
+        "\"UN SYSTEME DE GOUVERNANCE CAPABLE DE RASSURER\" \"2024\"",
+        "\"P4\" \"2024\" \"Kayumba\" \"signé\""
+      ]
+    },
+    {
+      "object_id": "louise-mushikiwabo",
+      "queries": [
+        "\"Louise Mushikiwabo\" Russie sanctions Ukraine 2022 2024 2025",
+        "site:francophonie.org \"Louise Mushikiwabo\" \"2024\" \"prévention\"",
+        "\"Louise Mushikiwabo\" \"formation\" \"prévention des conflits\" 2024 Tchad",
+        "\"Mushikiwabo\" \"Lavrov\" 2022 2023 2024 2025",
+        "\"Louise Mushikiwabo\" \"2024\" \"prévenir\" \"envoyé\""
+      ],
+      "checked_scope": "Все неизвестные ключи актёра из общего плана: восемь общих переменных и шесть российских шкал с двумя независимыми полюсами. Поиск ограничен открытым индексируемым интернетом и относящимися к результатам переходами; отсутствие результата не доказывает отсутствия позиции.",
+      "russia_result": "Нового допустимого персонального основания в этом проходе не установлено; unknown сохраняется."
+    }
+  ],
+  "unknown_summary": {
+    "keys": [
+      [
+        "diane-rwigara",
+        "participation-administrative-direction",
+        "negative"
+      ],
+      [
+        "diane-rwigara",
+        "prevention-crisis-response",
+        "positive"
+      ],
+      [
+        "diane-rwigara",
+        "programmatic-renewal",
+        "positive"
+      ],
+      [
+        "diane-rwigara",
+        "russia-conflict-policy-evaluation",
+        "negative"
+      ],
+      [
+        "diane-rwigara",
+        "russia-conflict-policy-evaluation",
+        "positive"
+      ],
+      [
+        "diane-rwigara",
+        "russia-diplomatic-engagement",
+        "negative"
+      ],
+      [
+        "diane-rwigara",
+        "russia-diplomatic-engagement",
+        "positive"
+      ],
+      [
+        "diane-rwigara",
+        "russia-economic-technology-cooperation",
+        "negative"
+      ],
+      [
+        "diane-rwigara",
+        "russia-economic-technology-cooperation",
+        "positive"
+      ],
+      [
+        "diane-rwigara",
+        "russia-education-cultural-cooperation",
+        "negative"
+      ],
+      [
+        "diane-rwigara",
+        "russia-education-cultural-cooperation",
+        "positive"
+      ],
+      [
+        "diane-rwigara",
+        "russia-isolation-sanctions",
+        "negative"
+      ],
+      [
+        "diane-rwigara",
+        "russia-isolation-sanctions",
+        "positive"
+      ],
+      [
+        "diane-rwigara",
+        "russia-security-cooperation",
+        "negative"
+      ],
+      [
+        "diane-rwigara",
+        "russia-security-cooperation",
+        "positive"
+      ],
+      [
+        "bernard-ntaganda",
+        "government-course-assessment",
+        "positive"
+      ],
+      [
+        "bernard-ntaganda",
+        "participation-administrative-direction",
+        "negative"
+      ],
+      [
+        "bernard-ntaganda",
+        "prevention-crisis-response",
+        "positive"
+      ],
+      [
+        "bernard-ntaganda",
+        "programmatic-renewal",
+        "negative"
+      ],
+      [
+        "bernard-ntaganda",
+        "russia-conflict-policy-evaluation",
+        "negative"
+      ],
+      [
+        "bernard-ntaganda",
+        "russia-conflict-policy-evaluation",
+        "positive"
+      ],
+      [
+        "bernard-ntaganda",
+        "russia-diplomatic-engagement",
+        "negative"
+      ],
+      [
+        "bernard-ntaganda",
+        "russia-diplomatic-engagement",
+        "positive"
+      ],
+      [
+        "bernard-ntaganda",
+        "russia-economic-technology-cooperation",
+        "negative"
+      ],
+      [
+        "bernard-ntaganda",
+        "russia-economic-technology-cooperation",
+        "positive"
+      ],
+      [
+        "bernard-ntaganda",
+        "russia-education-cultural-cooperation",
+        "negative"
+      ],
+      [
+        "bernard-ntaganda",
+        "russia-education-cultural-cooperation",
+        "positive"
+      ],
+      [
+        "bernard-ntaganda",
+        "russia-isolation-sanctions",
+        "negative"
+      ],
+      [
+        "bernard-ntaganda",
+        "russia-isolation-sanctions",
+        "positive"
+      ],
+      [
+        "bernard-ntaganda",
+        "russia-security-cooperation",
+        "negative"
+      ],
+      [
+        "bernard-ntaganda",
+        "russia-security-cooperation",
+        "positive"
+      ],
+      [
+        "christopher-kayumba",
+        "accessibility-growth-priorities",
+        "positive"
+      ],
+      [
+        "christopher-kayumba",
+        "participation-administrative-direction",
+        "negative"
+      ],
+      [
+        "christopher-kayumba",
+        "prevention-crisis-response",
+        "positive"
+      ],
+      [
+        "christopher-kayumba",
+        "problem-disclosure-reputation-defence",
+        "positive"
+      ],
+      [
+        "christopher-kayumba",
+        "programmatic-renewal",
+        "negative"
+      ],
+      [
+        "christopher-kayumba",
+        "programmatic-renewal",
+        "positive"
+      ],
+      [
+        "christopher-kayumba",
+        "russia-conflict-policy-evaluation",
+        "negative"
+      ],
+      [
+        "christopher-kayumba",
+        "russia-conflict-policy-evaluation",
+        "positive"
+      ],
+      [
+        "christopher-kayumba",
+        "russia-diplomatic-engagement",
+        "negative"
+      ],
+      [
+        "christopher-kayumba",
+        "russia-diplomatic-engagement",
+        "positive"
+      ],
+      [
+        "christopher-kayumba",
+        "russia-economic-technology-cooperation",
+        "negative"
+      ],
+      [
+        "christopher-kayumba",
+        "russia-economic-technology-cooperation",
+        "positive"
+      ],
+      [
+        "christopher-kayumba",
+        "russia-education-cultural-cooperation",
+        "negative"
+      ],
+      [
+        "christopher-kayumba",
+        "russia-education-cultural-cooperation",
+        "positive"
+      ],
+      [
+        "christopher-kayumba",
+        "russia-isolation-sanctions",
+        "negative"
+      ],
+      [
+        "christopher-kayumba",
+        "russia-isolation-sanctions",
+        "positive"
+      ],
+      [
+        "christopher-kayumba",
+        "russia-security-cooperation",
+        "negative"
+      ],
+      [
+        "christopher-kayumba",
+        "russia-security-cooperation",
+        "positive"
+      ],
+      [
+        "paul-rusesabagina",
+        "accessibility-growth-priorities",
+        "positive"
+      ],
+      [
+        "paul-rusesabagina",
+        "government-course-assessment",
+        "positive"
+      ],
+      [
+        "paul-rusesabagina",
+        "participation-administrative-direction",
+        "negative"
+      ],
+      [
+        "paul-rusesabagina",
+        "programmatic-renewal",
+        "negative"
+      ],
+      [
+        "paul-rusesabagina",
+        "programmatic-renewal",
+        "positive"
+      ],
+      [
+        "paul-rusesabagina",
+        "russia-conflict-policy-evaluation",
+        "negative"
+      ],
+      [
+        "paul-rusesabagina",
+        "russia-conflict-policy-evaluation",
+        "positive"
+      ],
+      [
+        "paul-rusesabagina",
+        "russia-diplomatic-engagement",
+        "negative"
+      ],
+      [
+        "paul-rusesabagina",
+        "russia-diplomatic-engagement",
+        "positive"
+      ],
+      [
+        "paul-rusesabagina",
+        "russia-economic-technology-cooperation",
+        "negative"
+      ],
+      [
+        "paul-rusesabagina",
+        "russia-economic-technology-cooperation",
+        "positive"
+      ],
+      [
+        "paul-rusesabagina",
+        "russia-education-cultural-cooperation",
+        "negative"
+      ],
+      [
+        "paul-rusesabagina",
+        "russia-education-cultural-cooperation",
+        "positive"
+      ],
+      [
+        "paul-rusesabagina",
+        "russia-isolation-sanctions",
+        "negative"
+      ],
+      [
+        "paul-rusesabagina",
+        "russia-isolation-sanctions",
+        "positive"
+      ],
+      [
+        "paul-rusesabagina",
+        "russia-security-cooperation",
+        "negative"
+      ],
+      [
+        "paul-rusesabagina",
+        "russia-security-cooperation",
+        "positive"
+      ],
+      [
+        "kayumba-nyamwasa",
+        "accessibility-growth-priorities",
+        "positive"
+      ],
+      [
+        "kayumba-nyamwasa",
+        "government-course-assessment",
+        "positive"
+      ],
+      [
+        "kayumba-nyamwasa",
+        "participation-administrative-direction",
+        "negative"
+      ],
+      [
+        "kayumba-nyamwasa",
+        "prevention-crisis-response",
+        "positive"
+      ],
+      [
+        "kayumba-nyamwasa",
+        "programmatic-renewal",
+        "negative"
+      ],
+      [
+        "kayumba-nyamwasa",
+        "programmatic-renewal",
+        "positive"
+      ],
+      [
+        "kayumba-nyamwasa",
+        "russia-conflict-policy-evaluation",
+        "negative"
+      ],
+      [
+        "kayumba-nyamwasa",
+        "russia-conflict-policy-evaluation",
+        "positive"
+      ],
+      [
+        "kayumba-nyamwasa",
+        "russia-diplomatic-engagement",
+        "negative"
+      ],
+      [
+        "kayumba-nyamwasa",
+        "russia-diplomatic-engagement",
+        "positive"
+      ],
+      [
+        "kayumba-nyamwasa",
+        "russia-economic-technology-cooperation",
+        "negative"
+      ],
+      [
+        "kayumba-nyamwasa",
+        "russia-economic-technology-cooperation",
+        "positive"
+      ],
+      [
+        "kayumba-nyamwasa",
+        "russia-education-cultural-cooperation",
+        "negative"
+      ],
+      [
+        "kayumba-nyamwasa",
+        "russia-education-cultural-cooperation",
+        "positive"
+      ],
+      [
+        "kayumba-nyamwasa",
+        "russia-isolation-sanctions",
+        "negative"
+      ],
+      [
+        "kayumba-nyamwasa",
+        "russia-isolation-sanctions",
+        "positive"
+      ],
+      [
+        "kayumba-nyamwasa",
+        "russia-security-cooperation",
+        "negative"
+      ],
+      [
+        "kayumba-nyamwasa",
+        "russia-security-cooperation",
+        "positive"
+      ],
+      [
+        "louise-mushikiwabo",
+        "government-course-assessment",
+        "positive"
+      ],
+      [
+        "louise-mushikiwabo",
+        "prevention-crisis-response",
+        "positive"
+      ],
+      [
+        "louise-mushikiwabo",
+        "russia-conflict-policy-evaluation",
+        "positive"
+      ],
+      [
+        "louise-mushikiwabo",
+        "russia-diplomatic-engagement",
+        "negative"
+      ],
+      [
+        "louise-mushikiwabo",
+        "russia-diplomatic-engagement",
+        "positive"
+      ],
+      [
+        "louise-mushikiwabo",
+        "russia-economic-technology-cooperation",
+        "negative"
+      ],
+      [
+        "louise-mushikiwabo",
+        "russia-economic-technology-cooperation",
+        "positive"
+      ],
+      [
+        "louise-mushikiwabo",
+        "russia-education-cultural-cooperation",
+        "negative"
+      ],
+      [
+        "louise-mushikiwabo",
+        "russia-education-cultural-cooperation",
+        "positive"
+      ],
+      [
+        "louise-mushikiwabo",
+        "russia-isolation-sanctions",
+        "negative"
+      ],
+      [
+        "louise-mushikiwabo",
+        "russia-isolation-sanctions",
+        "positive"
+      ],
+      [
+        "louise-mushikiwabo",
+        "russia-security-cooperation",
+        "negative"
+      ],
+      [
+        "louise-mushikiwabo",
+        "russia-security-cooperation",
+        "positive"
+      ]
+    ],
+    "reason": "По прочитанным результатам нет достаточно конкретного собственного датированного свидетельства для остальных целевых свойств. Недоступность источника, роль, лишение свободы, чужая позиция и молчание не кодируются нулём."
+  },
+  "event_groups": [
+    {
+      "object_id": "louise-mushikiwabo",
+      "canonical_event_id": "mushikiwabo-french-parliament-hearing-2024-09-17",
+      "observation_variable_ids": [
+        "programmatic-renewal__negative",
+        "accessibility-growth-priorities__positive",
+        "problem-disclosure-reputation-defence__positive"
+      ],
+      "reason": "Три разных конструкта подтверждены одним слушанием, а не тремя независимыми эпизодами."
+    },
+    {
+      "object_id": "christopher-kayumba",
+      "canonical_event_id": "christopher-kayumba-rdf-opinion-2026-05-15",
+      "observation_variable_ids": [
+        "government-course-assessment__positive",
+        "argumentation-evidence-values__negative"
+      ],
+      "reason": "Два конструкта в одной авторской колонке; BTNпересказ — тот же эпизод, не независимое повторение."
+    },
+    {
+      "object_id": "bernard-ntaganda",
+      "canonical_event_id": "ntaganda-ps-imberakuri-economic-policy-release-2022-03-08",
+      "observation_variable_ids": [
+        "programmatic-renewal__positive",
+        "accessibility-growth-priorities__positive"
+      ],
+      "reason": "Две гипотезы кодирования одного подписанного релиза; доступность дополнительно помечена для проверки конструкта."
+    }
+  ],
+  "limitations": [
+    "Точечная дополнительная выборка источников зависит от прежнего покрытия; это не подтверждающая независимая выборка.",
+    "Оценки являются прозрачными предложениями LLM-рецензента, а не эмпирическими ответами человека.",
+    "Имеющиеся observed не изменяются; новых нулей, дополнения противоположного полюса и вывода частных убеждений нет.",
+    "Общая геометрия факторов не использовалась для принятия источников или значений.",
+    "Один положительно оценённый результат правительства не означает поддержки всего государственного курса; международная деятельность OIF не является автоматически политикой Руанды."
+  ],
+  "updated_at": "2026-10-15T18:45:45.682070+00:00",
+  "previous_revision_sha256": "7e670e543f55b1ef4bc05be4ed9e36c026cea3b1229ad09d0d86308a993b9e49",
+  "targeted_core_followup": {
+    "checked_properties": [
+      [
+        "bernard-ntaganda",
+        "accessibility-growth-priorities",
+        "positive"
+      ],
+      [
+        "bernard-ntaganda",
+        "government-course-assessment",
+        "positive"
+      ],
+      [
+        "bernard-ntaganda",
+        "participation-administrative-direction",
+        "negative"
+      ],
+      [
+        "bernard-ntaganda",
+        "prevention-crisis-response",
+        "positive"
+      ],
+      [
+        "bernard-ntaganda",
+        "programmatic-renewal",
+        "negative"
+      ],
+      [
+        "bernard-ntaganda",
+        "programmatic-renewal",
+        "positive"
+      ],
+      [
+        "christopher-kayumba",
+        "accessibility-growth-priorities",
+        "positive"
+      ],
+      [
+        "christopher-kayumba",
+        "argumentation-evidence-values",
+        "negative"
+      ],
+      [
+        "christopher-kayumba",
+        "government-course-assessment",
+        "positive"
+      ],
+      [
+        "christopher-kayumba",
+        "participation-administrative-direction",
+        "negative"
+      ],
+      [
+        "christopher-kayumba",
+        "prevention-crisis-response",
+        "positive"
+      ],
+      [
+        "christopher-kayumba",
+        "problem-disclosure-reputation-defence",
+        "positive"
+      ],
+      [
+        "christopher-kayumba",
+        "programmatic-renewal",
+        "negative"
+      ],
+      [
+        "christopher-kayumba",
+        "programmatic-renewal",
+        "positive"
+      ],
+      [
+        "paul-rusesabagina",
+        "accessibility-growth-priorities",
+        "positive"
+      ],
+      [
+        "paul-rusesabagina",
+        "government-course-assessment",
+        "positive"
+      ],
+      [
+        "paul-rusesabagina",
+        "participation-administrative-direction",
+        "negative"
+      ],
+      [
+        "paul-rusesabagina",
+        "programmatic-renewal",
+        "negative"
+      ],
+      [
+        "paul-rusesabagina",
+        "programmatic-renewal",
+        "positive"
+      ],
+      [
+        "kayumba-nyamwasa",
+        "accessibility-growth-priorities",
+        "positive"
+      ],
+      [
+        "kayumba-nyamwasa",
+        "government-course-assessment",
+        "positive"
+      ],
+      [
+        "kayumba-nyamwasa",
+        "participation-administrative-direction",
+        "negative"
+      ],
+      [
+        "kayumba-nyamwasa",
+        "prevention-crisis-response",
+        "positive"
+      ],
+      [
+        "kayumba-nyamwasa",
+        "programmatic-renewal",
+        "negative"
+      ],
+      [
+        "kayumba-nyamwasa",
+        "programmatic-renewal",
+        "positive"
+      ]
+    ],
+    "counts": {
+      "checked": 25,
+      "new_proposed_observations": 4,
+      "new_strong_construct_matches": 3,
+      "new_construct_review_flags": 1,
+      "remaining_unknown": 21
+    },
+    "read_sources": [
+      {
+        "object_id": "bernard-ntaganda",
+        "url": "https://www.therwandan.com/ki/urugiye-cyera-ruhinyuza-intwarileta-yu-rwanda-ifunguye-imipaka-ikubagahu-nyuma-yaho-inzara-imaze-iminsi-inuma-muri-rubanda-kubera-izamuka-ryibiciro-ku-masoko/",
+        "read_status": "full_signed_primary_text_read",
+        "event_period": "2022-03-08",
+        "publication_date": "2022-03-09",
+        "result": "Два узких предложения, второе с construct review flag."
+      },
+      {
+        "object_id": "bernard-ntaganda",
+        "url": "https://www.cjlpa.org/post/the-uk-s-rwanda-asylum-plan-bad-for-refugees-bad-for-rwanda",
+        "read_status": "relevant_full_section_returned_by_search_read",
+        "result": "Сама дорожная карта относится к июню/июлю2021 вне окна; современное подтверждение Ингабире не переносится на Нтаганду."
+      },
+      {
+        "object_id": "bernard-ntaganda",
+        "url": "https://umunyarwanda1.rssing.com/chan-7522788/all_p508.html",
+        "read_status": "complete_relevant_campaign_article_returned_by_search_read",
+        "result": "Назначение ему роли и будущего поручения создать инструкции не доказывает лично отданных поручений; административная оценка не добавлена."
+      },
+      {
+        "object_id": "christopher-kayumba",
+        "url": "https://www.newtimes.co.rw/article/35672/opinions/rdf-is-a-peoples-army-deserving-a-nobel-peace-prize-not-sanctions/amp",
+        "read_status": "full_primary_signed_opinion_read",
+        "event_period": "2026-05-15",
+        "result": "Два собственных прямых проявления; не верификация всех исторических/политических утверждений автора."
+      },
+      {
+        "object_id": "christopher-kayumba",
+        "url": "https://www.newtimes.co.rw/article/35442/opinions/lessons-from-genocide-and-sanctions-to-rwandans/amp",
+        "read_status": "full_primary_signed_opinion_read",
+        "event_period": "2026-05-06",
+        "result": "Подтверждает ценностный контекст единства и самозащиты; не даёт конкретной профилактической программы, публичного управления исполнителями или услуги."
+      },
+      {
+        "object_id": "christopher-kayumba",
+        "url": "https://www.btnrwanda.com/page/news-details/nid/6110/Dr--Kayumba-Christopher--RDF-ikwiye-Igihembo-cy---Amahoro-cya-Nobel-aho-guhabwa-ibihano",
+        "read_status": "full_attributed_identity_corroboration_read",
+        "event_period": "2026-05-16",
+        "result": "Подтверждает автора колонки как бывшего преподавателя University of Rwanda, не отдельное новое политическое событие."
+      },
+      {
+        "object_id": "paul-rusesabagina",
+        "url": "https://www.wlrn.org/npr-breaking-news/2024-04-15/his-story-inspired-hotel-rwanda-now-hes-speaking-out-against-the-government",
+        "read_status": "full_NPR_interview_read_on_member_station",
+        "publication_date": "2024-04-15",
+        "event_date_precision": "interview_date_not_exactly_specified",
+        "result": "Собственные слова отделены от ответов дочери. Основное содержание касается уже известных критики и раскрытия проблем; конкретного нового курса или услуги по пяти unknown не установлено."
+      },
+      {
+        "object_id": "paul-rusesabagina",
+        "url": "https://committees.parliament.uk/oralevidence/14333/html/",
+        "read_status": "full_primary_public_hearing_transcript_read",
+        "event_period": "2024-02-21",
+        "result": "Uncorrected transcript: высказывания Mudge и членов комитета не приписываются Русесабагине. Его ответы преимущественно критикуют безопасность и правосудие; ранее известные свойства не переоцениваются."
+      },
+      {
+        "object_id": "paul-rusesabagina",
+        "url": "https://m28investigates.com/paul-rusesabagina-no-one-can-silence-me",
+        "read_status": "full_relevant_interview_text_returned_by_search_read_open_failed",
+        "publication_date": "2024-05-29",
+        "interview_periods": [
+          "2024-04-27",
+          "2024-05-01"
+        ],
+        "result": "Первое лицо и ответы различены; отказ молчать не тождествен продолжению конкретного принятого государственного курса."
+      },
+      {
+        "object_id": "kayumba-nyamwasa",
+        "url": "https://rwandanationalcongress.org/document/rnc-fdu-inama-ya-johannesburg/",
+        "read_status": "full_primary_page_read",
+        "publication_date": "2023-02-16",
+        "actual_event_period": "2013-02-19—2013-02-24",
+        "result": "Личное участие действительно названо, но событие вне окна; не применять дату загрузки2023."
+      },
+      {
+        "object_id": "kayumba-nyamwasa",
+        "url": "https://rwandanationalcongress.org/document-category/policies/",
+        "read_status": "full_primary_documents_catalog_read",
+        "result": "Актуальные даты страниц не равны датам исходных программ; личная подпись на полном документе не установлена."
+      },
+      {
+        "object_id": "kayumba-nyamwasa",
+        "url": "https://rwandanationalcongress.org/document/a-system-of-governance-able-to-reassure-all-components-of-the-rwandan-people/",
+        "read_status": "primary_index_read_full_attachment_unavailable",
+        "publication_date": "2024-04-30",
+        "result": "Политическая программа коалиции найдена, но полный вложенный текст, исходная дата и личная подпись Ньямвасы не подтверждены. Никакой автоматической оценки из руководящей роли."
+      }
+    ],
+    "actor_results": [
+      {
+        "object_id": "bernard-ntaganda",
+        "checked_properties": [
+          [
+            "bernard-ntaganda",
+            "accessibility-growth-priorities",
+            "positive"
+          ],
+          [
+            "bernard-ntaganda",
+            "government-course-assessment",
+            "positive"
+          ],
+          [
+            "bernard-ntaganda",
+            "participation-administrative-direction",
+            "negative"
+          ],
+          [
+            "bernard-ntaganda",
+            "prevention-crisis-response",
+            "positive"
+          ],
+          [
+            "bernard-ntaganda",
+            "programmatic-renewal",
+            "negative"
+          ],
+          [
+            "bernard-ntaganda",
+            "programmatic-renewal",
+            "positive"
+          ]
+        ],
+        "new_proposals": [
+          "programmatic-renewal__positive",
+          "accessibility-growth-priorities__positive"
+        ],
+        "remaining_unknown": [
+          "government-course-assessment__positive",
+          "participation-administrative-direction__negative",
+          "prevention-crisis-response__positive",
+          "programmatic-renewal__negative"
+        ]
+      },
+      {
+        "object_id": "christopher-kayumba",
+        "checked_properties": [
+          [
+            "christopher-kayumba",
+            "accessibility-growth-priorities",
+            "positive"
+          ],
+          [
+            "christopher-kayumba",
+            "argumentation-evidence-values",
+            "negative"
+          ],
+          [
+            "christopher-kayumba",
+            "government-course-assessment",
+            "positive"
+          ],
+          [
+            "christopher-kayumba",
+            "participation-administrative-direction",
+            "negative"
+          ],
+          [
+            "christopher-kayumba",
+            "prevention-crisis-response",
+            "positive"
+          ],
+          [
+            "christopher-kayumba",
+            "problem-disclosure-reputation-defence",
+            "positive"
+          ],
+          [
+            "christopher-kayumba",
+            "programmatic-renewal",
+            "negative"
+          ],
+          [
+            "christopher-kayumba",
+            "programmatic-renewal",
+            "positive"
+          ]
+        ],
+        "new_proposals": [
+          "government-course-assessment__positive",
+          "argumentation-evidence-values__negative"
+        ],
+        "remaining_unknown": [
+          "accessibility-growth-priorities__positive",
+          "participation-administrative-direction__negative",
+          "prevention-crisis-response__positive",
+          "problem-disclosure-reputation-defence__positive",
+          "programmatic-renewal__negative",
+          "programmatic-renewal__positive"
+        ]
+      },
+      {
+        "object_id": "paul-rusesabagina",
+        "checked_properties": [
+          [
+            "paul-rusesabagina",
+            "accessibility-growth-priorities",
+            "positive"
+          ],
+          [
+            "paul-rusesabagina",
+            "government-course-assessment",
+            "positive"
+          ],
+          [
+            "paul-rusesabagina",
+            "participation-administrative-direction",
+            "negative"
+          ],
+          [
+            "paul-rusesabagina",
+            "programmatic-renewal",
+            "negative"
+          ],
+          [
+            "paul-rusesabagina",
+            "programmatic-renewal",
+            "positive"
+          ]
+        ],
+        "new_proposals": [],
+        "remaining_unknown": [
+          "accessibility-growth-priorities__positive",
+          "government-course-assessment__positive",
+          "participation-administrative-direction__negative",
+          "programmatic-renewal__negative",
+          "programmatic-renewal__positive"
+        ]
+      },
+      {
+        "object_id": "kayumba-nyamwasa",
+        "checked_properties": [
+          [
+            "kayumba-nyamwasa",
+            "accessibility-growth-priorities",
+            "positive"
+          ],
+          [
+            "kayumba-nyamwasa",
+            "government-course-assessment",
+            "positive"
+          ],
+          [
+            "kayumba-nyamwasa",
+            "participation-administrative-direction",
+            "negative"
+          ],
+          [
+            "kayumba-nyamwasa",
+            "prevention-crisis-response",
+            "positive"
+          ],
+          [
+            "kayumba-nyamwasa",
+            "programmatic-renewal",
+            "negative"
+          ],
+          [
+            "kayumba-nyamwasa",
+            "programmatic-renewal",
+            "positive"
+          ]
+        ],
+        "new_proposals": [],
+        "remaining_unknown": [
+          "accessibility-growth-priorities__positive",
+          "government-course-assessment__positive",
+          "participation-administrative-direction__negative",
+          "prevention-crisis-response__positive",
+          "programmatic-renewal__negative",
+          "programmatic-renewal__positive"
+        ]
+      }
+    ],
+    "rules": "Прежние observed неизменны; проход только по25 core-пропускам этих четырёх; Россия повторно не оценивалась; отрицание свойства не дополнено нулём."
+  }
+}

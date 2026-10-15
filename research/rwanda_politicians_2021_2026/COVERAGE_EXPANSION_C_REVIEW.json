@@ -1,0 +1,132 @@
+{
+  "version": 1,
+  "at": "2026-10-15T18:37:59.808679+00:00",
+  "reviewer": "service_concept_independent_assistant_source_and_construct_review_not_human_expert",
+  "status": "read_only_review_no_canonical_changes",
+  "input_batch_file": "research/rwanda_politicians_2021_2026/COVERAGE_EXPANSION_BATCH_C.json",
+  "input_batch_sha256": "267762146c651ac6ae89bbf0bed959ee9a28090069d86cb7c8b27a5ceedfc756",
+  "plan_fingerprint": "aad8856e5560f21bae35c91171706956bb4e47472630c70a9725461e747a64c6",
+  "checked_proposals": 7,
+  "summary": {
+    "retain": 4,
+    "retain_with_context_flag": 2,
+    "reject_numeric_keep_context": 1
+  },
+  "decisions": [
+    {
+      "object_id": "vincent-biruta",
+      "scale_id": "russia-diplomatic-engagement",
+      "pole": "positive",
+      "proposed_value": 2,
+      "decision": "retain",
+      "reason": "Лично подтвердил укрепление двусторонних связей и многостороннего взаимодействия; это больше протокольного присутствия. Не частная симпатия.",
+      "source_url": "https://rwandaises.com/2023/06/la-russie-et-le-rwanda-sengagent-a-renforcer-les-liens-diplomatiques-existants/",
+      "source_locator": "Речь Бирута, абзацы после слов Le ministre rwandais; заключительное собственное заявление.",
+      "verification_method": "full_attributed_IGIHE_republication_read"
+    },
+    {
+      "object_id": "vincent-biruta",
+      "scale_id": "russia-economic-technology-cooperation",
+      "pole": "positive",
+      "proposed_value": 1,
+      "decision": "retain",
+      "reason": "Его собственное сообщение о тематических переговорах подтверждает намерение; не подписанный или реализованный проект.",
+      "source_url": "https://rwandaises.com/2023/06/la-russie-et-le-rwanda-sengagent-a-renforcer-les-liens-diplomatiques-existants/",
+      "source_locator": "Собственное сообщение о discussions en cours, commerce, villes intelligentes, technologie spatiale, santé, sport.",
+      "verification_method": "full_attributed_IGIHE_republication_read"
+    },
+    {
+      "object_id": "vincent-biruta",
+      "scale_id": "russia-education-cultural-cooperation",
+      "pole": "positive",
+      "proposed_value": 2,
+      "decision": "retain",
+      "reason": "Прямо одобрил конкретные языковые курсы и назвал участие HEC и University of Rwanda. Один эпизод, без увеличения выраженности за число сфер.",
+      "source_url": "https://rwandaises.com/2023/06/la-russie-et-le-rwanda-sengagent-a-renforcer-les-liens-diplomatiques-existants/",
+      "source_locator": "Абзацы о cours de russe en ligne gratuits и HEC/Université du Rwanda.",
+      "verification_method": "full_attributed_IGIHE_republication_read"
+    },
+    {
+      "object_id": "vincent-biruta",
+      "scale_id": "russia-security-cooperation",
+      "pole": "positive",
+      "proposed_value": 1,
+      "decision": "retain",
+      "reason": "Прямо выразил готовность к сотрудничеству против терроризма и транснациональных угроз. Не утверждать оборонный контракт, поставки или обучение.",
+      "source_url": "https://rwandaises.com/2023/06/la-russie-et-le-rwanda-sengagent-a-renforcer-les-liens-diplomatiques-existants/",
+      "source_locator": "Собственный абзац о coopération bilatérale, sécurité и terrorisme.",
+      "verification_method": "full_attributed_IGIHE_republication_read"
+    },
+    {
+      "object_id": "vincent-biruta",
+      "scale_id": "russia-conflict-policy-evaluation",
+      "pole": "negative",
+      "proposed_value": 1,
+      "decision": "retain_with_context_flag",
+      "reason": "Сам связал голосование по Украине с Уставом ООН, территориальной целостностью и суверенитетом. Допустим только узкий смысл служебного обоснования конкретной резолюции.",
+      "required_scope": "Собственное публичное объяснение позиции по голосованию ООН об Украине; слабая контекстная критика нарушения названных принципов. Не общее отношение к России, не санкции и не частное убеждение.",
+      "source_url": "https://www.topafricanews.com/2022/03/31/washington-here-are-q-a-from-dr-vincent-biruta-and-dr-mujawamariya-about-geopolitical-and-climate-issues/",
+      "source_locator": "Ответ Biruta, возвращение к голосованию сразу перед ответом о спортивных инвестициях.",
+      "event_period": "2022-03-30",
+      "verification_method": "full_media_transcript_read",
+      "source_quality_note": "Атрибутированный журналистский транскрипт; аудиосверка не выполнена."
+    },
+    {
+      "object_id": "jeanne-darc-mujawamariya",
+      "scale_id": "russia-conflict-policy-evaluation",
+      "pole": "negative",
+      "proposed_value": 1,
+      "decision": "retain_with_context_flag",
+      "reason": "Сама подтвердила принципиальное голосование и отсутствие воздержания, отвечая именно на вопрос об осуждении вторжения. Смысл зависит от контекста вопроса.",
+      "required_scope": "Собственное публичное подтверждение позиции по конкретному голосованию ООН об Украине; слабое контекстное свидетельство. Не перенос голосования на всех министров, не санкции и не частное убеждение.",
+      "source_url": "https://www.topafricanews.com/2022/03/31/washington-here-are-q-a-from-dr-vincent-biruta-and-dr-mujawamariya-about-geopolitical-and-climate-issues/",
+      "source_locator": "Вопрос о воздержании и первый собственный ответ Minister Mujawamariya.",
+      "event_period": "2022-03-30",
+      "verification_method": "full_media_transcript_read",
+      "source_quality_note": "Атрибутированный журналистский транскрипт; аудиосверка не выполнена."
+    },
+    {
+      "object_id": "edouard-ngirente",
+      "scale_id": "russia-economic-technology-cooperation",
+      "pole": "negative",
+      "proposed_value": 1,
+      "decision": "reject_numeric_keep_context",
+      "reason": "Источник действительно персонально атрибутирует снижение зависимости от российской пшеницы и поиск альтернатив. Однако диверсификация не устанавливает ограничение российского проекта, торговли или поставок: альтернативы могут дополнять прежние связи. Численный отрицательный полюс требует лишнего смыслового перехода.",
+      "recommended_status": "unknown",
+      "recommended_value": null,
+      "fact_eligibility": "context_only",
+      "source_url": "https://www.africanews.com/2022/03/17/rwanda-will-have-to-reduce-imports-of-russian-wheat-says-pm-ngirente/",
+      "source_locator": "Основной текст, прямой ответ о 64% пшеницы российского происхождения и поиске альтернативных источников.",
+      "event_period": "2022-03",
+      "verification_method": "full_attributed_news_body_read",
+      "date_note": "Обновление 13.08.2024 не заменяет исходное событие марта2022; точный день не установлен.",
+      "not_a_fact_error": "Факт диверсификации сохраняется как контекст устойчивости снабжения; отклоняется его отображение в конкретную шкалу, не источник."
+    }
+  ],
+  "event_groups": [
+    {
+      "object_id": "vincent-biruta",
+      "event_id": "biruta-russia-day-kigali-2023-06-12",
+      "variables": [
+        "russia-diplomatic-engagement__positive",
+        "russia-economic-technology-cooperation__positive",
+        "russia-education-cultural-cooperation__positive",
+        "russia-security-cooperation__positive"
+      ],
+      "reason": "Четыре тематических свидетельства одного выступления, не четыре независимых события. Дата события12.06.2023; дата перепечатки18.06.2023."
+    },
+    {
+      "object_ids": [
+        "vincent-biruta",
+        "jeanne-darc-mujawamariya"
+      ],
+      "event_id": "atlantic-council-rwanda-conversation-2022-03-30",
+      "reason": "Один совместный разговор, но раздельно атрибутированные ответы. Не считать ответы независимой выборкой экспертов."
+    }
+  ],
+  "boundaries": [
+    "Речь Chalyan в том же материале, оправдывающая российские действия, не принадлежит Бирута и не кодируется ему.",
+    "Отрицательное экономическое свойство не подменяется санкционным; неизвестность не заменяется нулём.",
+    "Только review, без изменения C, рейтингов, досье и факторов."
+  ]
+}

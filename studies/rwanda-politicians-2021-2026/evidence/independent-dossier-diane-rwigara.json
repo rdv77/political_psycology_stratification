@@ -527,6 +527,25 @@
       ],
       "evidence_origin": "retrieval_cited_not_independently_verified",
       "retrieval_response": "evidence/independent_responses/6b2417fe4843f2cab42c761fffe111db585de5b6631442c1692a4973006c8079.json"
+    },
+    {
+      "actor_id": "diane-rwigara",
+      "source_url": "https://www.bbc.com/gahuza/articles/cd11jdzmv78o",
+      "title": "BBC Gahuza, 20.05.2024",
+      "text": "Рвигара положительно оценила новые здания, чистоту и благоустройство, одновременно критикуя бедность.",
+      "period": "2024-05-20",
+      "source_date_precision": "day",
+      "event_id": "rwigara-bbc-gahuza-interview-2024-05-20",
+      "capacity": "Независимый политик, собственный ответ в интервью",
+      "channel": "public_statement",
+      "topic_ids": [
+        "government-course-assessment"
+      ],
+      "verification_method": "full_BBC_interview_read_Kinyarwanda_interpretation",
+      "source_type": "direct_attributed_media_interview",
+      "eligibility": "eligible_direct",
+      "evidence_origin": "assistant_verified_source",
+      "source_review_file": "research/rwanda_politicians_2021_2026/COVERAGE_EXPANSION_SOURCES.json"
     }
   ],
   "sources": [
@@ -610,7 +629,7 @@
     "2026-10-15"
   ],
   "measurement_model": "independent_poles",
-  "basis": "5e633930d8efc184de99cbc99dcb4611f0e6915b0f68b0298c5f0835b445bb94",
+  "basis": "8d82899f227c26a8510755beb9a1bd96595690ff6867386b3f8a82d7d0869179",
   "retrieval_basis": "15a5ab1f79d5558eb4d4c627be1428c63f8040ffd1e59670b1607824baef46ad",
   "retrieval": {
     "response_file": "evidence/independent_responses/6b2417fe4843f2cab42c761fffe111db585de5b6631442c1692a4973006c8079.json",
@@ -652,5 +671,10 @@
     "path": "research/rwanda_politicians_2021_2026/INDEPENDENT_COMPLETION_SOURCES.json",
     "sha256": "be3cf9b161585e3e0a05dd1c39256a7ad93e4ee239560f3d3df9c620cce27ab4",
     "selected_fact_count": 0
+  },
+  "coverage_expansion_source_supplement": {
+    "path": "research/rwanda_politicians_2021_2026/COVERAGE_EXPANSION_SOURCES.json",
+    "sha256": "53a15f3e4b4718b4a4328bde05f742c6b8648153c6240d1b7762a5925fe0d192",
+    "selected_fact_count": 1
   }
 }

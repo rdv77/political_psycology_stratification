@@ -1,0 +1,264 @@
+{
+  "at": "2026-10-15T18:52:03.282840+00:00",
+  "reviewer": "root_assistant",
+  "review_type": "final_semantic_and_source_admission_review",
+  "plan_fingerprint": "aad8856e5560f21bae35c91171706956bb4e47472630c70a9725461e747a64c6",
+  "report_fingerprints": {
+    "COVERAGE_EXPANSION_BATCH_A.json": "4109400b8c462d5b41ef4f8c0d881182b745b5c71b1893988cc79f565d17bbd2",
+    "COVERAGE_EXPANSION_BATCH_B.json": "a02b0233e1035439d643107c18bc5659e88ac64ac75bafc07b2865c7018c694b",
+    "COVERAGE_EXPANSION_BATCH_C.json": "8f4b1e172921a6aa4c361c71a96e7abcceb983ec272c4189a8751a41107b1bb2"
+  },
+  "accepted_proposal_keys": [
+    [
+      "paul-kagame",
+      "participation-administrative-direction",
+      "negative"
+    ],
+    [
+      "paul-kagame",
+      "programmatic-renewal",
+      "negative"
+    ],
+    [
+      "francois-xavier-kalinda",
+      "problem-disclosure-reputation-defence",
+      "positive"
+    ],
+    [
+      "francois-xavier-kalinda",
+      "programmatic-renewal",
+      "negative"
+    ],
+    [
+      "francis-gatare",
+      "accessibility-growth-priorities",
+      "positive"
+    ],
+    [
+      "francis-gatare",
+      "problem-disclosure-reputation-defence",
+      "positive"
+    ],
+    [
+      "francis-gatare",
+      "government-course-assessment",
+      "positive"
+    ],
+    [
+      "paul-kagame",
+      "programmatic-renewal",
+      "positive"
+    ],
+    [
+      "paul-kagame",
+      "accessibility-growth-priorities",
+      "positive"
+    ],
+    [
+      "paul-kagame",
+      "russia-conflict-policy-evaluation",
+      "negative"
+    ],
+    [
+      "ines-mpambara",
+      "participation-administrative-direction",
+      "negative"
+    ],
+    [
+      "ines-mpambara",
+      "problem-disclosure-reputation-defence",
+      "positive"
+    ],
+    [
+      "ines-mpambara",
+      "accessibility-growth-priorities",
+      "positive"
+    ],
+    [
+      "juvenal-marizamunda",
+      "government-course-assessment",
+      "positive"
+    ],
+    [
+      "juvenal-marizamunda",
+      "accessibility-growth-priorities",
+      "positive"
+    ],
+    [
+      "juvenal-marizamunda",
+      "programmatic-renewal",
+      "negative"
+    ],
+    [
+      "mussa-fazil-harerimana",
+      "problem-disclosure-reputation-defence",
+      "positive"
+    ],
+    [
+      "mussa-fazil-harerimana",
+      "accessibility-growth-priorities",
+      "positive"
+    ],
+    [
+      "olivier-nduhungirehe",
+      "prevention-crisis-response",
+      "positive"
+    ],
+    [
+      "olivier-nduhungirehe",
+      "programmatic-renewal",
+      "negative"
+    ],
+    [
+      "james-kabarebe",
+      "accessibility-growth-priorities",
+      "positive"
+    ],
+    [
+      "james-kabarebe",
+      "problem-disclosure-reputation-defence",
+      "positive"
+    ],
+    [
+      "james-kabarebe",
+      "prevention-crisis-response",
+      "positive"
+    ],
+    [
+      "francis-gatare",
+      "argumentation-evidence-values",
+      "negative"
+    ],
+    [
+      "francois-xavier-kalinda",
+      "accessibility-growth-priorities",
+      "positive"
+    ],
+    [
+      "juvenal-marizamunda",
+      "problem-disclosure-reputation-defence",
+      "positive"
+    ],
+    [
+      "juvenal-marizamunda",
+      "participation-administrative-direction",
+      "negative"
+    ],
+    [
+      "louise-mushikiwabo",
+      "programmatic-renewal",
+      "negative"
+    ],
+    [
+      "louise-mushikiwabo",
+      "accessibility-growth-priorities",
+      "positive"
+    ],
+    [
+      "louise-mushikiwabo",
+      "problem-disclosure-reputation-defence",
+      "positive"
+    ],
+    [
+      "diane-rwigara",
+      "government-course-assessment",
+      "positive"
+    ],
+    [
+      "bernard-ntaganda",
+      "programmatic-renewal",
+      "positive"
+    ],
+    [
+      "bernard-ntaganda",
+      "accessibility-growth-priorities",
+      "positive"
+    ],
+    [
+      "christopher-kayumba",
+      "government-course-assessment",
+      "positive"
+    ],
+    [
+      "christopher-kayumba",
+      "argumentation-evidence-values",
+      "negative"
+    ],
+    [
+      "vincent-biruta",
+      "russia-diplomatic-engagement",
+      "positive"
+    ],
+    [
+      "vincent-biruta",
+      "russia-economic-technology-cooperation",
+      "positive"
+    ],
+    [
+      "vincent-biruta",
+      "russia-education-cultural-cooperation",
+      "positive"
+    ],
+    [
+      "vincent-biruta",
+      "russia-security-cooperation",
+      "positive"
+    ],
+    [
+      "vincent-biruta",
+      "russia-conflict-policy-evaluation",
+      "negative"
+    ],
+    [
+      "jeanne-darc-mujawamariya",
+      "russia-conflict-policy-evaluation",
+      "negative"
+    ]
+  ],
+  "accepted_count": 41,
+  "context_flags": [
+    {
+      "object_id": "bernard-ntaganda",
+      "scale_id": "accessibility-growth-priorities",
+      "pole": "positive",
+      "reason": "Narrow food-affordability context: investment shift toward agriculture and useful infrastructure, intertwined with productive growth. Retained1 with context flag, not a general access-to-services programme."
+    },
+    {
+      "object_id": "vincent-biruta",
+      "scale_id": "russia-conflict-policy-evaluation",
+      "pole": "negative",
+      "reason": "Contextual own public explanation of vote on Ukraine; limited to this event and official role, not a general attitude toward Russia or sanctions."
+    },
+    {
+      "object_id": "jeanne-darc-mujawamariya",
+      "scale_id": "russia-conflict-policy-evaluation",
+      "pole": "negative",
+      "reason": "Contextual own public explanation of vote on Ukraine; limited to this event and official role, not a general attitude toward Russia or sanctions."
+    }
+  ],
+  "no_existing_observed_value_changed": true,
+  "no_imputed_scores_authorized_by_this_receipt": true,
+  "independent_assistant_checks": [
+    "COVERAGE_EXPANSION_A_ROOT_REVIEW.json",
+    "COVERAGE_EXPANSION_B_REVIEW.json",
+    "COVERAGE_EXPANSION_C_REVIEW.json"
+  ],
+  "additional_B_review": {
+    "items": 4,
+    "primary_pages_read": [
+      "https://www.therwandan.com/ki/urugiye-cyera-ruhinyuza-intwarileta-yu-rwanda-ifunguye-imipaka-ikubagahu-nyuma-yaho-inzara-imaze-iminsi-inuma-muri-rubanda-kubera-izamuka-ryibiciro-ku-masoko/",
+      "https://www.newtimes.co.rw/article/35672/opinions/rdf-is-a-peoples-army-deserving-a-nobel-peace-prize-not-sanctions/amp"
+    ],
+    "retain_direct": 3,
+    "retain_with_context_flag": 1,
+    "note": "Source-defined public positions are coded, not the factual truth of the author political claims. Ntaganda authored/signed release supports named programme revisions; access is only a flagged food-specific manifestation."
+  },
+  "rejected_numeric_examples": [
+    "Ngirente supplier diversification remains context, not a demonstrated restriction of Russian projects"
+  ],
+  "limitations": [
+    "Adaptive exploratory evidence collection; no new factor fit was used to select numeric ratings",
+    "Assistant semantic review is not independent human expert agreement",
+    "Root independently read selected primary pages, not every primary source in full"
+  ]
+}

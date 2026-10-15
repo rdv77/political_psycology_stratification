@@ -293,6 +293,63 @@
       "source_review_report": "research/rwanda_politicians_2021_2026/INDEPENDENT_COMPLETION_BATCH_3.json",
       "evidence_origin": "assistant_verified_source",
       "source_review_file": "research/rwanda_politicians_2021_2026/INDEPENDENT_COMPLETION_SOURCES.json"
+    },
+    {
+      "actor_id": "louise-mushikiwabo",
+      "source_url": "https://www.assemblee-nationale.fr/dyn/opendata/CRCANR5L17S2024PO59047N003.html",
+      "title": "Audition de Louise Mushikiwabo — 17 septembre 2024",
+      "text": "Описав действующую программу OIF 2024–2027 и её результаты, Мушикивабо прямо призвала продолжить эту работу.",
+      "period": "2024-09-17",
+      "source_date_precision": "day",
+      "event_id": "mushikiwabo-french-parliament-hearing-2024-09-17",
+      "capacity": "Генеральный секретарь OIF; собственное публичное свидетельство, не позиция правительства Руанды",
+      "channel": "public_statement",
+      "topic_ids": [
+        "programmatic-renewal"
+      ],
+      "verification_method": "full_primary_parliamentary_transcript_read",
+      "source_type": "primary_verbatim_transcript",
+      "eligibility": "eligible_direct",
+      "evidence_origin": "assistant_verified_source",
+      "source_review_file": "research/rwanda_politicians_2021_2026/COVERAGE_EXPANSION_SOURCES.json"
+    },
+    {
+      "actor_id": "louise-mushikiwabo",
+      "source_url": "https://www.assemblee-nationale.fr/dyn/opendata/CRCANR5L17S2024PO59047N003.html",
+      "title": "Audition de Louise Mushikiwabo — 17 septembre 2024",
+      "text": "Мушикивабо сообщила о подписанном меморандуме с ITU и мобилизации государств и инфраструктурных участников для улучшения доступа к интернету.",
+      "period": "2024-09-17",
+      "source_date_precision": "day",
+      "event_id": "mushikiwabo-french-parliament-hearing-2024-09-17",
+      "capacity": "Генеральный секретарь OIF; собственное публичное свидетельство, не позиция правительства Руанды",
+      "channel": "public_statement",
+      "topic_ids": [
+        "accessibility-growth-priorities"
+      ],
+      "verification_method": "full_primary_parliamentary_transcript_read",
+      "source_type": "primary_verbatim_transcript",
+      "eligibility": "eligible_direct",
+      "evidence_origin": "assistant_verified_source",
+      "source_review_file": "research/rwanda_politicians_2021_2026/COVERAGE_EXPANSION_SOURCES.json"
+    },
+    {
+      "actor_id": "louise-mushikiwabo",
+      "source_url": "https://www.assemblee-nationale.fr/dyn/opendata/CRCANR5L17S2024PO59047N003.html",
+      "title": "Audition de Louise Mushikiwabo — 17 septembre 2024",
+      "text": "Мушикивабо признала малый вклад и ограниченную результативность OIF в разрешении политических проблем её государств-членов.",
+      "period": "2024-09-17",
+      "source_date_precision": "day",
+      "event_id": "mushikiwabo-french-parliament-hearing-2024-09-17",
+      "capacity": "Генеральный секретарь OIF; собственное публичное свидетельство, не позиция правительства Руанды",
+      "channel": "public_statement",
+      "topic_ids": [
+        "problem-disclosure-reputation-defence"
+      ],
+      "verification_method": "full_primary_parliamentary_transcript_read",
+      "source_type": "primary_verbatim_transcript",
+      "eligibility": "eligible_direct",
+      "evidence_origin": "assistant_verified_source",
+      "source_review_file": "research/rwanda_politicians_2021_2026/COVERAGE_EXPANSION_SOURCES.json"
     }
   ],
   "sources": [
@@ -454,7 +511,7 @@
     "2026-10-15"
   ],
   "measurement_model": "independent_poles",
-  "basis": "0b070a074d394f9b4cc770a5d2d2876470daca9ec7a5685c18f709506be93d5e",
+  "basis": "9ebb5259ce38c42e0e03a30a39d63202133d40d4a145109aec324d2fa0af4b18",
   "retrieval_basis": "006393aa97b06755eb86d1018818f5ce48ffe63088207a1e47021a008e6471e9",
   "retrieval": {
     "response_file": "evidence/independent_responses/4099956ed97db07fcfc6e48a45a22aa552adc42846c2022cd5ec189df66f81c2.json",
@@ -496,5 +553,10 @@
     "path": "research/rwanda_politicians_2021_2026/INDEPENDENT_COMPLETION_SOURCES.json",
     "sha256": "be3cf9b161585e3e0a05dd1c39256a7ad93e4ee239560f3d3df9c620cce27ab4",
     "selected_fact_count": 1
+  },
+  "coverage_expansion_source_supplement": {
+    "path": "research/rwanda_politicians_2021_2026/COVERAGE_EXPANSION_SOURCES.json",
+    "sha256": "53a15f3e4b4718b4a4328bde05f742c6b8648153c6240d1b7762a5925fe0d192",
+    "selected_fact_count": 3
   }
 }

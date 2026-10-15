@@ -221,6 +221,45 @@
       ],
       "evidence_origin": "retrieval_cited_not_independently_verified",
       "retrieval_response": "evidence/independent_responses/01723afab54723dc2caccc02ad211220f58673f2be085573d73227c0266e6e6b.json"
+    },
+    {
+      "source_url": "https://rdb.rw/rwanda-partners-with-bio-usawa-to-make-affordable-treatments-for-eye-diseases/",
+      "title": "Rwanda Partners with Bio Usawa to Make Affordable Treatments for Eye Diseases",
+      "period": "2024-11-25",
+      "publication_date": "2024-11-25",
+      "event_id": "gatare-bio-usawa-partnership-2024-11-21",
+      "capacity": "Генеральный директор Rwanda Development Board",
+      "verification_method": "web_open_full_primary_RDB_release; дата объявления21.11.2024 дополнительно сверена с New Times22.11.2024",
+      "text": "В релизе RDB Гатаре положительно оценил партнёрство с Bio Usawa: план местного производства биосимиляров должен решать трудности доступа к терапии диабетического макулярного отёка. Реализация завода ещё не подтверждена.",
+      "actor_id": "francis-gatare",
+      "topic_ids": [
+        "accessibility-growth-priorities",
+        "government-course-assessment",
+        "problem-disclosure-reputation-defence"
+      ],
+      "novelty": "Новый для сохранённого independent-dossier факт; новая оценка пока только предложение.",
+      "date_note": "Дата собственного публичного высказывания в официальном релизе RDB; объявление соглашения 21 ноября подтверждено отдельно, но не переносится на дату публикации цитаты.",
+      "eligibility": "eligible_direct",
+      "evidence_origin": "assistant_verified_source",
+      "source_review_file": "research/rwanda_politicians_2021_2026/COVERAGE_EXPANSION_SOURCES.json"
+    },
+    {
+      "source_url": "https://www.newtimes.co.rw/article/17529/news/kwibuka/kwibuka-rdb-rcb-rha-staff-honour-genocide-victims/amp",
+      "title": "Kwibuka: RDB, RCB, RHA staff honour Genocide victims",
+      "period": "2024-06-08",
+      "publication_date": "2024-06-10",
+      "event_id": "gatare-mwulire-memory-2024-06-08",
+      "capacity": "Генеральный директор Rwanda Development Board",
+      "verification_method": "web_search_cached_full_attributed_news_article; direct_open_cache_miss",
+      "text": "В речи у мемориала Мвулире Гатаре призвал учиться на ошибках, отстраняться от несправедливости, делиться исторической памятью и продолжать создавать будущее Руанды.",
+      "actor_id": "francis-gatare",
+      "topic_ids": [
+        "argumentation-evidence-values"
+      ],
+      "novelty": "Новый для сохранённого independent-dossier факт; предложение не изменяет canonical ratings.",
+      "eligibility": "eligible_direct",
+      "evidence_origin": "assistant_verified_source",
+      "source_review_file": "research/rwanda_politicians_2021_2026/COVERAGE_EXPANSION_SOURCES.json"
     }
   ],
   "sources": [
@@ -304,7 +343,7 @@
     "2026-10-15"
   ],
   "measurement_model": "independent_poles",
-  "basis": "acc76067fda0fed6b5b3a6a4c1c35dc4b428a880be504a2b50f5490401331ebf",
+  "basis": "d3cf1036e9f0ac8f9adfd82f4165a40d67940c98c6fc5c85197b377ea13c8bab",
   "retrieval_basis": "27c5e054ea52832ed22f027bbd4b8c98bc3c3b518925d5d79f6b1a4fc413a3fa",
   "retrieval": {
     "response_file": "evidence/independent_responses/01723afab54723dc2caccc02ad211220f58673f2be085573d73227c0266e6e6b.json",
@@ -346,5 +385,10 @@
     "path": "research/rwanda_politicians_2021_2026/INDEPENDENT_COMPLETION_SOURCES.json",
     "sha256": "be3cf9b161585e3e0a05dd1c39256a7ad93e4ee239560f3d3df9c620cce27ab4",
     "selected_fact_count": 0
+  },
+  "coverage_expansion_source_supplement": {
+    "path": "research/rwanda_politicians_2021_2026/COVERAGE_EXPANSION_SOURCES.json",
+    "sha256": "53a15f3e4b4718b4a4328bde05f742c6b8648153c6240d1b7762a5925fe0d192",
+    "selected_fact_count": 2
   }
 }
