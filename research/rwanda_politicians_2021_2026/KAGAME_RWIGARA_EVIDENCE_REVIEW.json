@@ -1,0 +1,782 @@
+{
+  "review_type": "assistant_read_only_semantic_source_review",
+  "created_at": "2026-10-16T11:04:05.736678+00:00",
+  "scope": "Принятые индивидуальные независимые оценки и свидетельства; канонические файлы и оценки не изменялись.",
+  "object_ids": [
+    "paul-kagame",
+    "diane-rwigara"
+  ],
+  "main_finding": "Совместное членство C4 отражает близость сжатого профиля по8 общим признакам при неполном покрытии Рвигары. Оно не устанавливает общность политических целей, положения во власти или отношения к режиму.",
+  "counts": {
+    "retained_variables": 8,
+    "kagame_observed_retained": 8,
+    "rwigara_observed_retained": 5,
+    "jointly_observed_retained": 5,
+    "exactly_equal_jointly_observed": 3,
+    "kagame_observed_of_48": 13,
+    "rwigara_observed_of_48": 9,
+    "kagame_unknown_of_48": 35,
+    "rwigara_unknown_of_48": 39
+  },
+  "retained_measurements": [
+    {
+      "variable_id": "programmatic-renewal__positive",
+      "label": "Программное изменение существующего курса",
+      "measurements": {
+        "paul-kagame": {
+          "status": "observed",
+          "value": 2,
+          "evidence_indices": [
+            30
+          ],
+          "event_ids": [
+            "kagame-unga78-finance-reform-2023-09-20"
+          ],
+          "source_urls": [
+            "https://www.paulkagame.rw/78th-united-nations-general-assembly-address-by-president-paul-kagame-new-york-20-september-2023/"
+          ],
+          "evidence_file": "evidence/independent-dossier-paul-kagame.json",
+          "rationale": "Прямо предлагает реформировать действующие международные финансовые институты и поддерживает названные проекты реформ. Это публичная программная ориентация на международном уровне; она не доказывает намерения изменить всю внутреннюю политику Руанды."
+        },
+        "diane-rwigara": {
+          "status": "unknown",
+          "value": null,
+          "evidence_indices": [],
+          "event_ids": [],
+          "source_urls": [],
+          "evidence_file": "evidence/independent-dossier-diane-rwigara.json",
+          "rationale": "Проверка оснований: 0 — объявление кандидатуры как нового этапа, без конкретного пересмотра правил/программ. Определение прямо исключает само участие в выборах как показатель свойства."
+        }
+      }
+    },
+    {
+      "variable_id": "programmatic-renewal__negative",
+      "label": "Продолжение и закрепление действующего курса",
+      "measurements": {
+        "paul-kagame": {
+          "status": "observed",
+          "value": 1,
+          "evidence_indices": [
+            29
+          ],
+          "event_ids": [
+            "kagame-officials-oath-2024-12-23"
+          ],
+          "source_urls": [
+            "https://www.paulkagame.rw/remarks-by-the-president-of-the-republic-during-the-swearing-in-ceremony-of-new-government-officials-kigali-23-december-2024/"
+          ],
+          "evidence_file": "evidence/independent-dossier-paul-kagame.json",
+          "rationale": "В той же речи он прямо описывает послание как повторение прежнего требования эффективного обслуживания. Это узкое подтверждение закрепления управленческого курса; один эпизод."
+        },
+        "diane-rwigara": {
+          "status": "observed",
+          "value": 1,
+          "evidence_indices": [
+            1,
+            10
+          ],
+          "event_ids": [
+            "rwigara-2024-submission",
+            "rwigara-2024-economic-development"
+          ],
+          "source_urls": [
+            "https://rwandainspirer.com/2024-elections-rwandas-nine-presidential-aspirants-at-a-glance/"
+          ],
+          "evidence_file": "evidence/independent-dossier-diane-rwigara.json",
+          "rationale": "В изложении программы Рвигара заявила о продолжении экономического развития страны. Это может трактоваться как элемент продолжения действующего курса, но в контексте других заявлений о необходимости перемен и критики существующего порядка выраженность этого полюса минимальна."
+        }
+      },
+      "semantic_review": {
+        "meaning": "Сохранение курса: формальное совпадение не означает поддержку одной политики.",
+        "kagame_context": "Повторение прежнего требования эффективных государственных услуг на присяге руководителей.",
+        "rwigara_context": "Вторичный пересказ обещания продолжать экономическое развитие; без явного одобрения существующих правил.",
+        "source_ids": [
+          "K-oath",
+          "R-programme"
+        ],
+        "caveat": "Самое семантически слабое из трёх точных совпадений. Продолжение развития шире сохранения уже принятого курса. Нужна отдельная проверка валидности конструкта; здесь оценка1 не изменяется."
+      }
+    },
+    {
+      "variable_id": "government-course-assessment__positive",
+      "label": "Публичная поддержка действующего государственного курса",
+      "measurements": {
+        "paul-kagame": {
+          "status": "observed",
+          "value": 2,
+          "evidence_indices": [
+            25
+          ],
+          "event_ids": [
+            "kagame-kwibohora30-political-model-2024-07-04"
+          ],
+          "source_urls": [
+            "https://www.paulkagame.rw/address-by-president-kagame-kwibohora-30-kigali-4-july-2024/"
+          ],
+          "evidence_file": "evidence/independent-dossier-paul-kagame.json",
+          "rationale": "В одном официальном выступлении прямо положительно оценена существующая политическая система и служение правительства гражданам. Это ясное ограниченное проявление 2, а не вывод из президентской должности или благодарности избирателям."
+        },
+        "diane-rwigara": {
+          "status": "observed",
+          "value": 1,
+          "evidence_indices": [
+            32
+          ],
+          "event_ids": [
+            "rwigara-bbc-gahuza-interview-2024-05-20"
+          ],
+          "source_urls": [
+            "https://www.bbc.com/gahuza/articles/cd11jdzmv78o"
+          ],
+          "evidence_file": "evidence/independent-dossier-diane-rwigara.json",
+          "rationale": "Узкая положительная оценка достижений; не поддержка всего курса."
+        }
+      },
+      "semantic_review": {
+        "meaning": "Не одинаковый масштаб одобрения.",
+        "kagame_context": "Положительная оценка нынешней политической модели и правительства.",
+        "rwigara_context": "Узкая положительная оценка материального благоустройства при сохранении критической позиции.",
+        "source_ids": [
+          "K-system",
+          "R-may"
+        ],
+        "caveat": "Определение допускает оценки отдельных достижений. Балл1 Рвигары не является ошибкой только потому, что она оппозиционный политик, и не означает лояльности всему курсу."
+      }
+    },
+    {
+      "variable_id": "participation-administrative-direction__negative",
+      "label": "Административная постановка задач и контроль исполнения",
+      "measurements": {
+        "paul-kagame": {
+          "status": "observed",
+          "value": 2,
+          "evidence_indices": [
+            28
+          ],
+          "event_ids": [
+            "kagame-officials-oath-2024-12-23"
+          ],
+          "source_urls": [
+            "https://www.paulkagame.rw/remarks-by-the-president-of-the-republic-during-the-swearing-in-ceremony-of-new-government-officials-kigali-23-december-2024/"
+          ],
+          "evidence_file": "evidence/independent-dossier-paul-kagame.json",
+          "rationale": "Прямое поручение назначенным руководителям исполнять обязанности, мобилизовать ресурсы и согласовывать работу институтов. Один датированный эпизод, поэтому 2; не вывод из президентской должности."
+        },
+        "diane-rwigara": {
+          "status": "unknown",
+          "value": null,
+          "evidence_indices": [],
+          "event_ids": [],
+          "source_urls": [],
+          "evidence_file": "evidence/independent-dossier-diane-rwigara.json",
+          "rationale": "Нет данных о том, чтобы Рвигара делала публичные поручения, управляла исполнителями или реализовывала административную постановку задач. Её действия и риторика не содержат признаков этого полюса."
+        }
+      }
+    },
+    {
+      "variable_id": "argumentation-evidence-values__negative",
+      "label": "Обоснование через ценности, память и коллективные символы",
+      "measurements": {
+        "paul-kagame": {
+          "status": "observed",
+          "value": 1,
+          "evidence_indices": [
+            1
+          ],
+          "event_ids": [
+            "rw-kagame-candidacy-2023"
+          ],
+          "source_urls": [
+            "https://en.wikipedia.org/wiki/2024_Rwandan_presidential_election"
+          ],
+          "evidence_file": "evidence/independent-dossier-paul-kagame.json",
+          "rationale": "Переразметка по фактам и якорям: Служение стране и доверие граждан в единственном интервью 20.09.2023 — узкая ценностная самопрезентация. 1 и 13 дублируют одно заявление; основание достаточно для слабого проявления, но не для более широкого акцента."
+        },
+        "diane-rwigara": {
+          "status": "observed",
+          "value": 2,
+          "evidence_indices": [
+            5,
+            14,
+            15,
+            21,
+            28
+          ],
+          "event_ids": [
+            "rwigara-bbc-2024-06-19"
+          ],
+          "source_urls": [
+            "https://www.bbc.com/news/articles/cw007n5pn4wo",
+            "https://www.bbc.com/gahuza/articles/cp66x9zxrw4o"
+          ],
+          "evidence_file": "evidence/independent-dossier-diane-rwigara.json",
+          "rationale": "Рвигара аргументировала свою позицию через призыв к равным возможностям, политическим правам, свободе выражения, а также ссылалась на страх и отсутствие свободы у руандийцев. Это ограниченное, но прямое использование ценностных аргументов."
+        }
+      },
+      "semantic_review": {
+        "meaning": "Общий способ обоснования, разные ценности и адресаты.",
+        "kagame_context": "Доверие граждан и служение стране в заявлении о кандидатуре.",
+        "rwigara_context": "Политические права, равные возможности, свобода выражения.",
+        "source_ids": [
+          "K-values",
+          "R-june7",
+          "R-june19"
+        ],
+        "caveat": "Шкала объединяет использование ценностной аргументации, а не совпадение набора ценностей. Источники одного интервью и его пересказы не являются независимыми повторениями."
+      }
+    },
+    {
+      "variable_id": "accessibility-growth-priorities__positive",
+      "label": "Расширение доступности базовых благ для населения",
+      "measurements": {
+        "paul-kagame": {
+          "status": "observed",
+          "value": 2,
+          "evidence_indices": [
+            31
+          ],
+          "event_ids": [
+            "kagame-vaccine-forum-2024-06-20"
+          ],
+          "source_urls": [
+            "https://www.paulkagame.rw/global-forum-on-vaccine-sovereignty-and-innovation-remarks-by-president-kagame-paris-20-june-2024/"
+          ],
+          "evidence_file": "evidence/independent-dossier-paul-kagame.json",
+          "rationale": "Он лично связывает производство новых вакцин и лекарств с доступной ценой и бременем болезней Африки, включая руандийский механизм производства. Один ясный эпизод, не экономический рост сам по себе."
+        },
+        "diane-rwigara": {
+          "status": "observed",
+          "value": 2,
+          "evidence_indices": [
+            2,
+            5,
+            11
+          ],
+          "event_ids": [
+            "rwigara-2024-social-programme",
+            "rwigara-bbc-2024-06-19"
+          ],
+          "source_urls": [
+            "https://rwandainspirer.com/2024-elections-rwandas-nine-presidential-aspirants-at-a-glance/",
+            "https://www.bbc.com/news/articles/cw007n5pn4wo"
+          ],
+          "evidence_file": "evidence/independent-dossier-diane-rwigara.json",
+          "rationale": "В программе Рвигары акцентированы вопросы продовольственной безопасности, жилья и доступа к образованию для детей, что свидетельствует о приоритете расширения доступности базовых благ. Однако не уточняется универсальность или механизм, поэтому выраженность ограничена."
+        }
+      },
+      "semantic_review": {
+        "meaning": "Одинаковая2 фиксирует ограниченное проявление широкой темы.",
+        "kagame_context": "Доступные вакцины и терапия, производственные и международные механизмы.",
+        "rwigara_context": "Базовые социальные потребности и предвыборные обещания.",
+        "source_ids": [
+          "K-vaccines",
+          "R-programme"
+        ],
+        "caveat": "Не доказывает общей социальной модели, способа финансирования или распределения благ."
+      }
+    },
+    {
+      "variable_id": "problem-disclosure-reputation-defence__positive",
+      "label": "Публичное раскрытие проблем и недостатков исполнения",
+      "measurements": {
+        "paul-kagame": {
+          "status": "observed",
+          "value": 2,
+          "evidence_indices": [
+            26
+          ],
+          "event_ids": [
+            "kagame-biashara-afrika-2024-10-09"
+          ],
+          "source_urls": [
+            "https://www.paulkagame.rw/biashara-afrika-2024-remarks-by-president-kagame-kigali-9-october-2024/"
+          ],
+          "evidence_file": "evidence/independent-dossier-paul-kagame.json",
+          "rationale": "Одно прямое проявление 2. Контекст—общие африканские препятствия с включением Руанды; конкретный исключительно руандийский сбой не приписывается."
+        },
+        "diane-rwigara": {
+          "status": "observed",
+          "value": 2,
+          "evidence_indices": [
+            5
+          ],
+          "event_ids": [
+            "rwigara-bbc-2024-06-19"
+          ],
+          "source_urls": [
+            "https://www.bbc.com/news/articles/cw007n5pn4wo"
+          ],
+          "evidence_file": "evidence/independent-dossier-diane-rwigara.json",
+          "rationale": "Переразметка по фактам и якорям: Новая LLM-переоценка: конкретные проблемы еды/воды/жилья/страха названы в5(BBC19.06.2024);21/28 пересказывают тот же материал/политические права,9 — сводный профиль без нового датированного высказывания. Один ясный ограниченный эпизод2 вместо3."
+        }
+      },
+      "semantic_review": {
+        "meaning": "Одинаковая2 объединяет разные объекты проблематизации.",
+        "kagame_context": "Барьеры внутриафриканской торговли и управленческие препятствия, включая контекст участия Руанды.",
+        "rwigara_context": "Недостатки, отмеченные в её собственных критических публичных заявлениях.",
+        "source_ids": [
+          "K-trade",
+          "R-june7"
+        ],
+        "caveat": "Критика общеафриканских препятствий не приравнивается к оппозиционной критике политического порядка Руанды."
+      }
+    },
+    {
+      "variable_id": "prevention-crisis-response__positive",
+      "label": "Упреждающее снижение рисков и подготовка",
+      "measurements": {
+        "paul-kagame": {
+          "status": "observed",
+          "value": 1,
+          "evidence_indices": [
+            24
+          ],
+          "event_ids": [
+            "PK-2026-07-08-AI-FOR-GOOD"
+          ],
+          "source_urls": [
+            "https://www.paulkagame.rw/ai-for-good-global-summit-2026-remarks-by-president-kagame-geneva-8-july-2026/"
+          ],
+          "evidence_file": "evidence/independent-dossier-paul-kagame.json",
+          "rationale": "В собственной речи на AI for Good 08.07.2026 Кагаме публично описал Health Intelligence Centre, который собирает текущие медицинские данные и использует ИИ для ПРОГНОЗИРОВАНИЯ вспышек заболеваний, связывая это с политическими решениями. Это прямое публичное продвижение конкретного упреждающего инструмента, а не вывод из президентской должности или поведения других органов. Один эпизод — 1; личное авторство создания системы, её точность и фактическая эффективность источником не устанавливаются."
+        },
+        "diane-rwigara": {
+          "status": "unknown",
+          "value": null,
+          "evidence_indices": [],
+          "event_ids": [],
+          "source_urls": [],
+          "evidence_file": "evidence/independent-dossier-diane-rwigara.json",
+          "rationale": "В материалах отсутствуют прямые предложения или действия по упреждающему снижению рисков или подготовке к кризисам."
+        }
+      }
+    }
+  ],
+  "politically_relevant_excluded_variables": [
+    {
+      "variable_id": "government-course-assessment__negative",
+      "label": "Публичная критика действующего государственного курса",
+      "observed_in_total_42": 11,
+      "retained": false,
+      "measurements": {
+        "paul-kagame": {
+          "status": "unknown",
+          "value": null,
+          "evidence_indices": [],
+          "event_ids": [],
+          "source_urls": [],
+          "evidence_file": "evidence/independent-dossier-paul-kagame.json",
+          "rationale": "Нет прямых публичных заявлений Кагаме с критикой действующего государственного курса. Критика со стороны правозащитных организаций не является его личной позицией."
+        },
+        "diane-rwigara": {
+          "status": "observed",
+          "value": 3,
+          "evidence_indices": [
+            4,
+            5,
+            8,
+            9,
+            12,
+            14,
+            15,
+            16,
+            17,
+            21,
+            22,
+            27,
+            28,
+            30
+          ],
+          "event_ids": [
+            "rwigara-2024-rejection-response",
+            "rwigara-bbc-2024-06-19",
+            "rwigara-2024-opposition-profile",
+            "rwigara-2024-party-profile",
+            "rwigara-2024-electoral-participation",
+            "rwigara-x-2024-06-19",
+            "rwigara-2025-opposition-restriction"
+          ],
+          "source_urls": [
+            "https://x.com/ShimaRwigara",
+            "https://www.bbc.com/news/articles/cw007n5pn4wo",
+            "https://letraescarlata.org/elecciones-ruanda/",
+            "https://en.wikipedia.org/wiki/Diane_Rwigara",
+            "https://www.bbc.com/gahuza/articles/cp66x9zxrw4o",
+            "https://freedomhouse.org/country/rwanda/freedom-world/2025"
+          ],
+          "evidence_file": "evidence/independent-dossier-diane-rwigara.json",
+          "rationale": "Рвигара публично критиковала ограничения политических прав, недопуск к выборам, противопоставляла международный имидж Руанды реальным проблемам доступа к базовым благам, а также связывала свою деятельность с борьбой против несправедливости и репрессий. Это устойчивый публичный акцент на критике действующего курса."
+        }
+      }
+    },
+    {
+      "variable_id": "electoral-access__positive",
+      "label": "Расширение доступа к выборной конкуренции",
+      "observed_in_total_42": 7,
+      "retained": false,
+      "measurements": {
+        "paul-kagame": {
+          "status": "unknown",
+          "value": null,
+          "evidence_indices": [],
+          "event_ids": [],
+          "source_urls": [],
+          "evidence_file": "evidence/independent-dossier-paul-kagame.json",
+          "rationale": "В материалах нет примеров, когда Кагаме лично выступал за расширение доступа к выборной конкуренции."
+        },
+        "diane-rwigara": {
+          "status": "observed",
+          "value": 3,
+          "evidence_indices": [
+            4,
+            12,
+            14,
+            15,
+            16,
+            21,
+            27
+          ],
+          "event_ids": [
+            "rwigara-2024-rejection-response",
+            "rwigara-2024-electoral-participation",
+            "rwigara-bbc-2024-06-19",
+            "rwigara-x-2024-06-19"
+          ],
+          "source_urls": [
+            "https://x.com/ShimaRwigara",
+            "https://www.bbc.com/gahuza/articles/cp66x9zxrw4o"
+          ],
+          "evidence_file": "evidence/independent-dossier-diane-rwigara.json",
+          "rationale": "Рвигара неоднократно требовала допуска к выборам, публично оспаривала недопуск и связывала это с правом на политическую конкуренцию (факты 4, 12, 14, 15, 16, 21, 27). Это несколько последовательных эпизодов и устойчивый публичный акцент."
+        }
+      }
+    },
+    {
+      "variable_id": "procedural-guarantees-enforcement__positive",
+      "label": "Расширение возможностей защиты и обжалования",
+      "observed_in_total_42": 7,
+      "retained": false,
+      "measurements": {
+        "paul-kagame": {
+          "status": "unknown",
+          "value": null,
+          "evidence_indices": [],
+          "event_ids": [],
+          "source_urls": [],
+          "evidence_file": "evidence/independent-dossier-paul-kagame.json",
+          "rationale": "Нет прямых заявлений или действий Кагаме, направленных на расширение возможностей защиты и обжалования в исследуемый период."
+        },
+        "diane-rwigara": {
+          "status": "observed",
+          "value": 2,
+          "evidence_indices": [
+            12,
+            14,
+            15,
+            21,
+            27
+          ],
+          "event_ids": [
+            "rwigara-2024-electoral-participation",
+            "rwigara-bbc-2024-06-19",
+            "rwigara-x-2024-06-19"
+          ],
+          "source_urls": [
+            "https://x.com/ShimaRwigara",
+            "https://www.bbc.com/gahuza/articles/cp66x9zxrw4o"
+          ],
+          "evidence_file": "evidence/independent-dossier-diane-rwigara.json",
+          "rationale": "Рвигара связывала недопуск к выборам с нарушением права на участие и требовала равных возможностей для выражения взглядов и политической деятельности (факты 12, 14, 15, 21, 27). Это ясное ограниченное проявление требования процедурных гарантий."
+        }
+      }
+    },
+    {
+      "variable_id": "accessibility-growth-priorities__negative",
+      "label": "Рост инвестиций, конкурентоспособности и деловой активности",
+      "observed_in_total_42": 25,
+      "retained": false,
+      "measurements": {
+        "paul-kagame": {
+          "status": "observed",
+          "value": 2,
+          "evidence_indices": [
+            27
+          ],
+          "event_ids": [
+            "kagame-biashara-afrika-2024-10-09"
+          ],
+          "source_urls": [
+            "https://www.paulkagame.rw/biashara-afrika-2024-remarks-by-president-kagame-kigali-9-october-2024/"
+          ],
+          "evidence_file": "evidence/independent-dossier-paul-kagame.json",
+          "rationale": "В собственном выступлении 09.10.2024 Кагаме прямо призвал создать условия для роста бизнеса: убрать нетарифные барьеры, снизить логистические издержки и помочь МСП вырасти. Это самостоятельный приоритет деловой активности, а не вывод из должности или из международной встречи. 2 — ясное ограниченное проявление в одном выбранном эпизоде; другие прочитанные выступления здесь не повышают число."
+        },
+        "diane-rwigara": {
+          "status": "unknown",
+          "value": null,
+          "evidence_indices": [],
+          "event_ids": [],
+          "source_urls": [],
+          "evidence_file": "evidence/independent-dossier-diane-rwigara.json",
+          "rationale": "Хотя упоминается продолжение экономического развития, нет прямых заявлений о приоритете инвестиций, конкурентоспособности или деловой активности как самостоятельной цели."
+        }
+      }
+    },
+    {
+      "variable_id": "problem-disclosure-reputation-defence__negative",
+      "label": "Защитное продвижение репутации страны или своей политики",
+      "observed_in_total_42": 12,
+      "retained": false,
+      "measurements": {
+        "paul-kagame": {
+          "status": "observed",
+          "value": 2,
+          "evidence_indices": [
+            5,
+            15
+          ],
+          "event_ids": [
+            "rw-drc-accusations-2024"
+          ],
+          "source_urls": [
+            "https://www.reuters.com/world/africa/rwandas-president-kagame-sworn-into-office-2024-08-11/"
+          ],
+          "evidence_file": "evidence/independent-dossier-paul-kagame.json",
+          "rationale": "Кагаме последовательно отвергал обвинения в поддержке повстанцев в ДРК, что является примером защиты репутации страны и собственной политики. Это ограниченное проявление, зафиксированное в нескольких источниках."
+        },
+        "diane-rwigara": {
+          "status": "unknown",
+          "value": null,
+          "evidence_indices": [],
+          "event_ids": [],
+          "source_urls": [],
+          "evidence_file": "evidence/independent-dossier-diane-rwigara.json",
+          "rationale": "Нет эпизодов, где Рвигара бы явно защищала репутацию страны или своей политики, опровергая описания проблем как искажённые."
+        }
+      }
+    },
+    {
+      "variable_id": "mediation-adversarial-communication__negative",
+      "label": "Полемическое оспаривание и защита собственной стороны",
+      "observed_in_total_42": 18,
+      "retained": false,
+      "measurements": {
+        "paul-kagame": {
+          "status": "observed",
+          "value": 2,
+          "evidence_indices": [
+            5,
+            15
+          ],
+          "event_ids": [
+            "rw-drc-accusations-2024"
+          ],
+          "source_urls": [
+            "https://www.reuters.com/world/africa/rwandas-president-kagame-sworn-into-office-2024-08-11/"
+          ],
+          "evidence_file": "evidence/independent-dossier-paul-kagame.json",
+          "rationale": "Кагаме последовательно отвергал обвинения в поддержке повстанцев в ДРК, что является примером полемической защиты собственной стороны. Примеры посредничества не выявлены."
+        },
+        "diane-rwigara": {
+          "status": "observed",
+          "value": 2,
+          "evidence_indices": [
+            4,
+            16,
+            17,
+            22
+          ],
+          "event_ids": [
+            "rwigara-2024-rejection-response",
+            "rwigara-x-2024-06-19"
+          ],
+          "source_urls": [
+            "https://x.com/ShimaRwigara",
+            "https://www.bbc.com/gahuza/articles/cp66x9zxrw4o"
+          ],
+          "evidence_file": "evidence/independent-dossier-diane-rwigara.json",
+          "rationale": "Рвигара публично оспаривала решения избирательной комиссии, обращалась к президенту с вопросом о недопуске, защищала свою позицию и оспаривала основания отказа. Это ограниченное, но прямое проявление полемического оспаривания и защиты собственной стороны."
+        }
+      }
+    },
+    {
+      "variable_id": "russia-conflict-policy-evaluation__negative",
+      "label": "Публичная критика конкретных внешнеполитических действий России",
+      "observed_in_total_42": 4,
+      "retained": false,
+      "measurements": {
+        "paul-kagame": {
+          "status": "observed",
+          "value": 2,
+          "evidence_indices": [
+            32
+          ],
+          "event_ids": [
+            "kagame-soudan-interview-2023-09-12"
+          ],
+          "source_urls": [
+            "https://www.newtimes.co.rw/article/10916/news/politics/kagame-the-problem-is-not-between-me-and-tshisekedi/amp"
+          ],
+          "evidence_file": "evidence/independent-dossier-paul-kagame.json",
+          "rationale": "В прямом ответе об Украине он объясняет поддержку резолюции ООН недопустимостью вторжения государства в другое, прямо называя Россию. Это ограниченная критическая оценка конкретного действия, одновременно со заявленным нейтралитетом. Из неё не следуют санкции или разрыв отношений; положительный полюс остаётся unknown."
+        },
+        "diane-rwigara": {
+          "status": "unknown",
+          "value": null,
+          "evidence_indices": [],
+          "event_ids": [],
+          "source_urls": [],
+          "evidence_file": null,
+          "rationale": "Нет допустимых датированных персональных свидетельств по этому свойству"
+        }
+      }
+    }
+  ],
+  "missing_data_interpretation": [
+    "Три unknown Рвигары — программное изменение, административные поручения, упреждающая подготовка — не означают невыраженности или противоположного предпочтения.",
+    "По сохранённому протоколу unknown не заменяются нулями; разрывы обучающей матрицы заполняются средними, а индивидуальная проекция использует наблюдаемые координаты. Конкретное влияние процедур проверяется отдельной численной проверкой.",
+    "Критика курса, выборная конкуренция и процедурные гарантии не вошли в общую матрицу из-за малого общего числа допустимых наблюдений. При пороге26 из42 эти три свойства имеют11,7,7 известных оценок.",
+    "Асимметрия known/unknown — различие качества и доступности документирования; она не является парой численных противоположностей."
+  ],
+  "interpretive_findings": [
+    "Пять совместно известных свойств имеют значения1/1,2/1,1/2,2/2,2/2 в порядке: продолжение, поддержка, ценности, блага, раскрытие проблем. Только три равны точно.",
+    "Заметные политические различия индивидуально сохранены: у Рвигары критика курса3, выборный доступ3, процедурные гарантии2; у Кагаме эти свойства unknown. Внешние сведения о государственных ограничениях не превращались в собственные предпочтения Кагаме.",
+    "Поддержка курса и критика курса — независимые интенсивности. Похвала конкретному достижению не отменяет оппозиционной критики.",
+    "Программное изменение Кагаме2 основано на реформе мировой финансовой архитектуры. Его нельзя читать как готовность изменить внутренний политический режим.",
+    "Слабо/ограниченно выраженные1–2 могут отражать один допустимый эпизод в исследовательском корпусе. Это не оценка всей политической биографии или общественной узнаваемости.",
+    "Кластер C4 содержит23 фигуры и разнороден. Сочетание двух участников не означает коалицию; устойчивость конкретной пары требует отдельной численной проверки."
+  ],
+  "source_caveats": [
+    {
+      "severity": "material_provenance_caveat_not_score_recode",
+      "object_id": "diane-rwigara",
+      "fact_index": 5,
+      "stored_period": "2024-07-01",
+      "stored_event_id": "rwigara-bbc-2024-06-19",
+      "verified_article_date": "2024-06-07",
+      "source_id": "R-june7",
+      "finding": "Текст подтверждён, но текущая дата факта и отождествление с интервью19июня неточны. Разные публикации не доказывают разные события, а интервью19июня не тождественно публикации7июня. Каноническая датировка не изменялась."
+    },
+    {
+      "severity": "construct_warning",
+      "variable_id": "programmatic-renewal__negative",
+      "object_id": "diane-rwigara",
+      "finding": "Самое семантически слабое из трёх точных совпадений. Продолжение развития шире сохранения уже принятого курса. Нужна отдельная проверка валидности конструкта; здесь оценка1 не изменяется."
+    },
+    {
+      "severity": "retrieval_limit",
+      "source_id": "R-june19",
+      "finding": "Оригинал заблокирован robots; доступный индекс зеркала не выдаётся за новый первичный источник."
+    }
+  ],
+  "sources": [
+    {
+      "id": "K-oath",
+      "title": "Remarks during the swearing-in of new government officials",
+      "url": "https://www.paulkagame.rw/remarks-by-the-president-of-the-republic-during-the-swearing-in-ceremony-of-new-government-officials-kigali-23-december-2024/",
+      "event_date": "2024-12-23",
+      "publication_date": "2024-12-24",
+      "verification": "full_primary_text_read",
+      "summary": "Повторение управленческого требования и поручения по ресурсам и исполнению."
+    },
+    {
+      "id": "R-programme",
+      "title": "2024 Elections: Rwanda’s nine presidential aspirants at a glance",
+      "url": "https://rwandainspirer.com/2024-elections-rwandas-nine-presidential-aspirants-at-a-glance/",
+      "event_date": "2024-05-30",
+      "publication_date": "2024-06-01",
+      "verification": "full_attributed_media_text_read; credited to The New Times",
+      "summary": "Пересказ программы развития, продовольственной безопасности, жилья и образования."
+    },
+    {
+      "id": "K-system",
+      "title": "Kwibohora 30 — address by President Kagame",
+      "url": "https://www.paulkagame.rw/address-by-president-kagame-kwibohora-30-kigali-4-july-2024/",
+      "event_date": "2024-07-04",
+      "verification": "full_primary_text_read",
+      "summary": "Положительная собственная оценка политики и служения правительства гражданам."
+    },
+    {
+      "id": "R-may",
+      "title": "BBC Gahuza: interview with Diane Rwigara",
+      "url": "https://www.bbc.com/gahuza/articles/cd11jdzmv78o",
+      "publication_date": "2024-05-20",
+      "verification": "full_direct_attributed_Kinyarwanda_interview_read",
+      "summary": "Похвала благоустройству сочетается с критикой бедности."
+    },
+    {
+      "id": "K-values",
+      "title": "Reuters: Rwanda’s veteran president Kagame to seek re-election in 2024 (SABC republication)",
+      "url": "https://www.sabcnews.com/sabcnews/rwandas-president-kagame-to-seek-re-election-in-2024/",
+      "publication_date": "2023-09-20",
+      "verification": "attributed_Reuters_republication_search_text; original stored Reuters Japan URL unavailable on this check",
+      "summary": "Собственная апелляция к доверию граждан и служению."
+    },
+    {
+      "id": "R-june7",
+      "title": "BBC: Kagame critic barred from Rwanda’s presidential race",
+      "url": "https://www.bbc.com/news/articles/cw007n5pn4wo",
+      "publication_date": "2024-06-07",
+      "verification": "full_direct_attributed_article_read",
+      "summary": "Подтверждены критика, социальные потребности и оспаривание недопуска; датировка досье неточна."
+    },
+    {
+      "id": "R-june19",
+      "title": "BBC Gahuza: Diane Rwigara on continuing political work",
+      "url": "https://www.bbc.com/gahuza/articles/cp66x9zxrw4o",
+      "publication_date": "2024-06-19",
+      "verification": "original blocked by robots; mirror indexed text only, not independent primary re-verification",
+      "mirror_url": "https://bbcinsight.pages.dev/gahuza/articles/cp66x9zxrw4o",
+      "summary": "Исходный принятый материал; доступность оригинала сейчас ограничена."
+    },
+    {
+      "id": "K-vaccines",
+      "title": "Global Forum on Vaccine Sovereignty and Innovation",
+      "url": "https://www.paulkagame.rw/global-forum-on-vaccine-sovereignty-and-innovation-remarks-by-president-kagame-paris-20-june-2024/",
+      "event_date": "2024-06-20",
+      "verification": "full_primary_text_read",
+      "summary": "Доступные по цене вакцины и терапия, производство в Африке."
+    },
+    {
+      "id": "K-trade",
+      "title": "Biashara Afrika 2024 — remarks by President Kagame",
+      "url": "https://www.paulkagame.rw/biashara-afrika-2024-remarks-by-president-kagame-kigali-9-october-2024/",
+      "event_date": "2024-10-09",
+      "verification": "full_primary_text_read",
+      "summary": "Барьеры торговли, управление, передвижение и дорогая логистика; общеафриканский контекст."
+    },
+    {
+      "id": "K-unga",
+      "title": "78th United Nations General Assembly — Kagame address",
+      "url": "https://www.paulkagame.rw/78th-united-nations-general-assembly-address-by-president-paul-kagame-new-york-20-september-2023/",
+      "event_date": "2023-09-20",
+      "verification": "full_primary_text_read",
+      "summary": "Программная реформа международных финансовых институтов, не внутреннего режима."
+    },
+    {
+      "id": "K-ai",
+      "title": "AI for Good Global Summit 2026 — Kagame remarks",
+      "url": "https://www.paulkagame.rw/ai-for-good-global-summit-2026-remarks-by-president-kagame-geneva-8-july-2026/",
+      "event_date": "2026-07-08",
+      "verification": "full_primary_text_read",
+      "summary": "Публичное описание системы прогнозирования вспышек болезней."
+    },
+    {
+      "id": "HRW-election",
+      "title": "Rwanda: Respect Rights During Elections",
+      "url": "https://www.hrw.org/news/2024/06/14/rwanda-respect-rights-during-elections",
+      "publication_date": "2024-06-14",
+      "verification": "full_original_monitoring_report_read",
+      "summary": "Внешняя фиксация недопуска; не доказательство личного распоряжения президента."
+    }
+  ],
+  "quotations_added": false,
+  "input_sha256": {
+    "studies/rwanda-politicians-2021-2026/study.json": "90aaddc075c2c0ede61ea1efaff707139d9568b020c47fefe5b28ceb580f6174",
+    "studies/rwanda-politicians-2021-2026/ratings.json": "e43727c8437c87108d1e5bb954e2eaf5f852096becd734777a14abcad1988687",
+    "studies/rwanda-politicians-2021-2026/output/factor_matrix.json": "41e21214bfd01c10b7401926e6f7c2d2c09aed0bbc1ab2796777a51ad5e78a1c",
+    "studies/rwanda-politicians-2021-2026/output/cluster_candidates_q3.json": "87901fd11398a31364fcd98a99c91297b3fb74067cde2740a048db292c55fdd4",
+    "studies/rwanda-politicians-2021-2026/evidence/independent-dossier-paul-kagame.json": "a798b512ce8be9e25faa5d4045ec156d46e39236872d87c231d52c02de7143ff",
+    "studies/rwanda-politicians-2021-2026/evidence/independent-dossier-diane-rwigara.json": "d6c898cbed0aff28dd851b3070efc1d8a485e5597fb76614a2e3136c3e66d271"
+  }
+}
