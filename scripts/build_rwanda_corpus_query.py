@@ -25,7 +25,20 @@ def sha(path):
 
 def main():
     aliases_path = DIRECTORY / "actor_aliases.json"
+    language_plan_path = DIRECTORY / "language_plan.json"
+    local_aliases_path = DIRECTORY / "verified_language_aliases.json"
     aliases, study = read(aliases_path), read(STUDY)
+    language_plan = read(language_plan_path)
+    local_aliases = read(local_aliases_path)
+    if language_plan["primary_local_language"] != "Kinyarwanda" or not {
+            "Kinyarwanda", "French", "English", "Kiswahili"
+    }.issubset(language_plan["core_collection_languages"]):
+        raise ValueError("The collection plan must retain the four specified local/official languages")
+    language_aliases_by_actor = {}
+    for item in local_aliases["aliases"]:
+        if item["actor_id"] not in {actor["id"] for actor in aliases["actors"]}:
+            raise ValueError("A local-source alias refers to an unapproved actor")
+        language_aliases_by_actor.setdefault(item["actor_id"], []).append(item)
     actors = aliases["actors"]
     if len(actors) != 42 or [x["id"] for x in actors] != [x["id"] for x in study["objects"]]:
         raise ValueError("Search must cover the exact approved 42-person roster")
@@ -35,7 +48,7 @@ def main():
 
     terms, represented = [], []
     for actor in actors:
-        items = sorted(actor["aliases"], key=lambda x: x["priority"])
+        items = sorted(actor["aliases"] + language_aliases_by_actor.get(actor["id"], []), key=lambda x: x["priority"])
         required = {actor["canonical_latin"], actor["name"]}
         if not required.issubset({x["text"] for x in items}):
             raise ValueError(f"Missing a recorded full name: {actor['id']}")
@@ -75,7 +88,11 @@ def main():
         "filters_outside_query": {
             "published_from_inclusive": study["date_from"], "published_to_inclusive": study["date_to"],
             "channels": ["electronic_media", "social_media", "official_publications"],
-            "languages": "All available; retain original language and text",
+            "languages": language_plan["collection_policy"]["language_filter_default"],
+            "primary_local_language": language_plan["primary_local_language"],
+            "core_languages": language_plan["core_collection_languages"],
+            "additional_context_languages": language_plan["additional_context_languages"],
+            "mixed_or_undetermined_language": "Retain original text and review; do not silently exclude",
             "publication_country": "No mandatory country restriction",
             "engagement_threshold": None,
         },
@@ -85,9 +102,13 @@ def main():
             "Images, video and audio require indexed captions/OCR/transcripts to match the text query.",
             "Shared or partial names require entity disambiguation; a mention is not authorship or endorsement.",
             "Search-system source coverage, pagination and top-N limits constrain recall independently of Boolean syntax.",
+            "Latin-script personal names do not restrict the document to English. Language coverage depends on indexed sources and filters.",
+            "English/French-only retrieval does not substitute for coverage of local Kinyarwanda material.",
         ],
         "actors": represented,
         "source_sha256": {aliases_path.relative_to(ROOT).as_posix(): sha(aliases_path),
+                          language_plan_path.relative_to(ROOT).as_posix(): sha(language_plan_path),
+                          local_aliases_path.relative_to(ROOT).as_posix(): sha(local_aliases_path),
                           STUDY.relative_to(ROOT).as_posix(): sha(STUDY),
                           Path(__file__).relative_to(ROOT).as_posix(): sha(Path(__file__))},
         "query_file_sha256": sha(query_path),
