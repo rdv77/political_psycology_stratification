@@ -1,23 +1,247 @@
 {
   "format_version": 1,
   "study_id": "rwanda-politicians-2021-2026",
-  "purpose": "Broad media and social mention retrieval before revising descriptors and ratings",
+  "purpose": "Media/social mention retrieval with mandatory Rwanda context and a four-language collection filter",
   "query_count": 1,
-  "query": "(\"Paul Kagame\" OR \"Поль Кагаме\" OR \"Kagame\" OR \"Кагаме\" OR \"Edouard Ngirente\" OR \"Эдуар Нгиренте\" OR \"Édouard Ngirente\" OR \"Ngirente Edouard\" OR \"Justin Nsengiyumva\" OR \"Жюстен Нсенгийюмва\" OR \"Vincent Biruta\" OR \"Венсан Бирута\" OR \"Olivier J. P. Nduhungirehe\" OR \"Оливье Ндухунгирехе\" OR \"Olivier J.P. Nduhungirehe\" OR \"Olivier J P Nduhungirehe\" OR \"Nduhungirehe Olivier\" OR \"Olivier Nduhungirehe\" OR \"Olivier JP Nduhungirehe\" OR \"James Kabarebe\" OR \"Джеймс Кабаребе\" OR \"Juvenal Marizamunda\" OR \"Жювеналь Маризамунда\" OR \"Juvénal Marizamunda\" OR \"Albert Murasira\" OR \"Альбер Мурасира\" OR \"Emmanuel Ugirashebuja\" OR \"Эмманюэль Угирасебуджа\" OR \"Yusuf Murangwa\" OR \"Юсуф Мурангва\" OR \"Uzziel Ndagijimana\" OR \"Уззиэль Ндагиджимана\" OR \"Paula Ingabire\" OR \"Паула Ингабире\" OR \"Sabin Nsanzimana\" OR \"Сабин Нсанзимана\" OR \"Judith Uwizeye\" OR \"Жюдит Увизейе\" OR \"Inès Mpambara\" OR \"Инес Мпамбара\" OR \"Ines Mpambara\" OR \"Valentine Uwamariya\" OR \"Валентин Увамария\" OR \"Uwamariya Valentine\" OR \"Jeanne d'Arc Mujawamariya\" OR \"Жанна д’Арк Муджавамария\" OR \"Jeanne d’Arc Mujawamariya\" OR \"Jeanne d Arc Mujawamariya\" OR \"Jeanne dArc Mujawamariya\" OR \"Жанна д'Арк Муджавамария\" OR \"Жанна д Арк Муджавамария\" OR \"Жанна дАрк Муджавамария\" OR \"Gérardine Mukeshimana\" OR \"Жерардин Мукешимана\" OR \"Gerardine Mukeshimana\" OR \"Ildephonse Musafiri\" OR \"Ильдефонс Мусафири\" OR \"Jean Claude Musabyimana\" OR \"Жан-Клод Мусабийимана\" OR \"Жан Клод Мусабийимана\" OR \"Жан‑Клод Мусабийимана\" OR \"Jean-Damascène Bizimana\" OR \"Жан-Дамасен Бизимана\" OR \"Jean-Damascene Bizimana\" OR \"Jean Damascène Bizimana\" OR \"Jean‑Damascène Bizimana\" OR \"Jean Damascene Bizimana\" OR \"Jean‑Damascene Bizimana\" OR \"Жан Дамасен Бизимана\" OR \"Жан‑Дамасен Бизимана\" OR \"Clare Akamanzi\" OR \"Клэр Акаманзи\" OR \"Francis Gatare\" OR \"Франсис Гатаре\" OR \"Gertrude Kazarwa\" OR \"Гертруда Казарва\" OR \"Donatille Mukabalisa\" OR \"Донатиль Мукабалиса\" OR \"François-Xavier Kalinda\" OR \"Франсуа-Ксавье Калинда\" OR \"Francois-Xavier Kalinda\" OR \"François Xavier Kalinda\" OR \"François‑Xavier Kalinda\" OR \"Francois Xavier Kalinda\" OR \"Francois‑Xavier Kalinda\" OR \"Франсуа Ксавье Калинда\" OR \"Франсуа‑Ксавье Калинда\" OR \"Augustin Iyamuremye\" OR \"Огюстен Иямуремье\" OR \"Alvera Mukabaramba\" OR \"Альвера Мукабарамба\" OR \"Mussa Fazil Harerimana\" OR \"Мусса Фазиль Хареримана\" OR \"Pudence Rubingisa\" OR \"Пуденс Рубингиса\" OR \"Samuel Dusengiyumva\" OR \"Самуэль Дусенгийюмва\" OR \"Frank Habineza\" OR \"Франк Хабинеза\" OR \"Habineza Frank\" OR \"Philippe Mpayimana\" OR \"Филипп Мпайимана\" OR \"Victoire Ingabire Umuhoza\" OR \"Виктуар Ингабире Умухоза\" OR \"Ingabire Victoire\" OR \"Ingabire Umuhoza Victoire\" OR \"Victoire Ingabire\" OR \"Diane Shima Rwigara\" OR \"Диана Рвигара\" OR \"Diane Rwigara\" OR \"Shima Diane Rwigara\" OR \"Rwigara\" OR \"Рвигара\" OR \"Bernard Ntaganda\" OR \"Бернар Нтаганда\" OR \"Christopher Kayumba\" OR \"Кристофер Каюмба\" OR \"Paul Rusesabagina\" OR \"Поль Русесабагина\" OR \"Faustin Kayumba Nyamwasa\" OR \"Фостен Каюмба Ньямваса\" OR \"Louise Mushikiwabo\" OR \"Луиза Мушикивабо\" OR \"Claver Gatete\" OR \"Клавер Гатете\" OR \"Valentine Rugwabiza\" OR \"Валентин Ругвабиза\")",
+  "query": "(\"Paul Kagame\" OR \"Kagame\" OR \"Edouard Ngirente\" OR \"Édouard Ngirente\" OR \"Ngirente Edouard\" OR \"Justin Nsengiyumva\" OR \"Vincent Biruta\" OR \"Olivier J. P. Nduhungirehe\" OR \"Olivier J.P. Nduhungirehe\" OR \"Olivier J P Nduhungirehe\" OR \"Nduhungirehe Olivier\" OR \"Olivier Nduhungirehe\" OR \"Olivier JP Nduhungirehe\" OR \"James Kabarebe\" OR \"Juvenal Marizamunda\" OR \"Juvénal Marizamunda\" OR \"Albert Murasira\" OR \"Emmanuel Ugirashebuja\" OR \"Yusuf Murangwa\" OR \"Uzziel Ndagijimana\" OR \"Paula Ingabire\" OR \"Sabin Nsanzimana\" OR \"Judith Uwizeye\" OR \"Inès Mpambara\" OR \"Ines Mpambara\" OR \"Valentine Uwamariya\" OR \"Uwamariya Valentine\" OR \"Jeanne d'Arc Mujawamariya\" OR \"Jeanne d’Arc Mujawamariya\" OR \"Jeanne d Arc Mujawamariya\" OR \"Jeanne dArc Mujawamariya\" OR \"Gérardine Mukeshimana\" OR \"Gerardine Mukeshimana\" OR \"Ildephonse Musafiri\" OR \"Jean Claude Musabyimana\" OR \"Jean-Damascène Bizimana\" OR \"Jean-Damascene Bizimana\" OR \"Jean Damascène Bizimana\" OR \"Jean‑Damascène Bizimana\" OR \"Jean Damascene Bizimana\" OR \"Jean‑Damascene Bizimana\" OR \"Clare Akamanzi\" OR \"Francis Gatare\" OR \"Gertrude Kazarwa\" OR \"Donatille Mukabalisa\" OR \"François-Xavier Kalinda\" OR \"Francois-Xavier Kalinda\" OR \"François Xavier Kalinda\" OR \"François‑Xavier Kalinda\" OR \"Francois Xavier Kalinda\" OR \"Francois‑Xavier Kalinda\" OR \"Augustin Iyamuremye\" OR \"Alvera Mukabaramba\" OR \"Mussa Fazil Harerimana\" OR \"Pudence Rubingisa\" OR \"Samuel Dusengiyumva\" OR \"Frank Habineza\" OR \"Habineza Frank\" OR \"Philippe Mpayimana\" OR \"Victoire Ingabire Umuhoza\" OR \"Ingabire Victoire\" OR \"Ingabire Umuhoza Victoire\" OR \"Victoire Ingabire\" OR \"Diane Shima Rwigara\" OR \"Diane Rwigara\" OR \"Shima Diane Rwigara\" OR \"Rwigara\" OR \"Bernard Ntaganda\" OR \"Christopher Kayumba\" OR \"Paul Rusesabagina\" OR \"Faustin Kayumba Nyamwasa\" OR \"Louise Mushikiwabo\" OR \"Claver Gatete\" OR \"Valentine Rugwabiza\") AND (\"Rwanda\" OR \"#Rwanda\" OR \"u Rwanda\" OR \"uRwanda\")",
   "actor_count": 42,
-  "unique_name_terms": 127,
+  "unique_name_terms": 74,
   "maximum_characters": 5000,
-  "query_characters": 3083,
-  "query_utf16_units": 3083,
-  "query_utf8_bytes": 3969,
-  "query_file_characters_including_final_newline": 3084,
+  "query_characters": 1892,
+  "query_utf16_units": 1892,
+  "query_utf8_bytes": 1912,
+  "query_file_characters_including_final_newline": 1893,
   "operators_used": [
     "quoted phrase",
     "OR",
+    "AND",
     "parentheses"
   ],
   "mandatory_topic_filter": false,
-  "mandatory_country_word_filter": false,
+  "mandatory_country_word_filter": true,
+  "country_terms": [
+    "Rwanda",
+    "#Rwanda",
+    "u Rwanda",
+    "uRwanda"
+  ],
+  "country_filter_scope": "Entire name group and every retained verified-author post",
+  "cyrillic_aliases_in_query": false,
+  "omitted_cyrillic_alias_count": 53,
+  "omitted_cyrillic_aliases": [
+    {
+      "actor_id": "paul-kagame",
+      "text": "Поль Кагаме"
+    },
+    {
+      "actor_id": "paul-kagame",
+      "text": "Кагаме"
+    },
+    {
+      "actor_id": "edouard-ngirente",
+      "text": "Эдуар Нгиренте"
+    },
+    {
+      "actor_id": "justin-nsengiyumva",
+      "text": "Жюстен Нсенгийюмва"
+    },
+    {
+      "actor_id": "vincent-biruta",
+      "text": "Венсан Бирута"
+    },
+    {
+      "actor_id": "olivier-nduhungirehe",
+      "text": "Оливье Ндухунгирехе"
+    },
+    {
+      "actor_id": "james-kabarebe",
+      "text": "Джеймс Кабаребе"
+    },
+    {
+      "actor_id": "juvenal-marizamunda",
+      "text": "Жювеналь Маризамунда"
+    },
+    {
+      "actor_id": "albert-murasira",
+      "text": "Альбер Мурасира"
+    },
+    {
+      "actor_id": "emmanuel-ugirashebuja",
+      "text": "Эмманюэль Угирасебуджа"
+    },
+    {
+      "actor_id": "yusuf-murangwa",
+      "text": "Юсуф Мурангва"
+    },
+    {
+      "actor_id": "uzziel-ndagijimana",
+      "text": "Уззиэль Ндагиджимана"
+    },
+    {
+      "actor_id": "paula-ingabire",
+      "text": "Паула Ингабире"
+    },
+    {
+      "actor_id": "sabin-nsanzimana",
+      "text": "Сабин Нсанзимана"
+    },
+    {
+      "actor_id": "judith-uwizeye",
+      "text": "Жюдит Увизейе"
+    },
+    {
+      "actor_id": "ines-mpambara",
+      "text": "Инес Мпамбара"
+    },
+    {
+      "actor_id": "valentine-uwamariya",
+      "text": "Валентин Увамария"
+    },
+    {
+      "actor_id": "jeanne-darc-mujawamariya",
+      "text": "Жанна д’Арк Муджавамария"
+    },
+    {
+      "actor_id": "jeanne-darc-mujawamariya",
+      "text": "Жанна д'Арк Муджавамария"
+    },
+    {
+      "actor_id": "jeanne-darc-mujawamariya",
+      "text": "Жанна д Арк Муджавамария"
+    },
+    {
+      "actor_id": "jeanne-darc-mujawamariya",
+      "text": "Жанна дАрк Муджавамария"
+    },
+    {
+      "actor_id": "gerardine-mukeshimana",
+      "text": "Жерардин Мукешимана"
+    },
+    {
+      "actor_id": "ildephonse-musafiri",
+      "text": "Ильдефонс Мусафири"
+    },
+    {
+      "actor_id": "jean-claude-musabyimana",
+      "text": "Жан-Клод Мусабийимана"
+    },
+    {
+      "actor_id": "jean-claude-musabyimana",
+      "text": "Жан Клод Мусабийимана"
+    },
+    {
+      "actor_id": "jean-claude-musabyimana",
+      "text": "Жан‑Клод Мусабийимана"
+    },
+    {
+      "actor_id": "jean-damascene-bizimana",
+      "text": "Жан-Дамасен Бизимана"
+    },
+    {
+      "actor_id": "jean-damascene-bizimana",
+      "text": "Жан Дамасен Бизимана"
+    },
+    {
+      "actor_id": "jean-damascene-bizimana",
+      "text": "Жан‑Дамасен Бизимана"
+    },
+    {
+      "actor_id": "clare-akamanzi",
+      "text": "Клэр Акаманзи"
+    },
+    {
+      "actor_id": "francis-gatare",
+      "text": "Франсис Гатаре"
+    },
+    {
+      "actor_id": "gertrude-kazarwa",
+      "text": "Гертруда Казарва"
+    },
+    {
+      "actor_id": "donatille-mukabalisa",
+      "text": "Донатиль Мукабалиса"
+    },
+    {
+      "actor_id": "francois-xavier-kalinda",
+      "text": "Франсуа-Ксавье Калинда"
+    },
+    {
+      "actor_id": "francois-xavier-kalinda",
+      "text": "Франсуа Ксавье Калинда"
+    },
+    {
+      "actor_id": "francois-xavier-kalinda",
+      "text": "Франсуа‑Ксавье Калинда"
+    },
+    {
+      "actor_id": "augustin-iyamuremye",
+      "text": "Огюстен Иямуремье"
+    },
+    {
+      "actor_id": "alvera-mukabaramba",
+      "text": "Альвера Мукабарамба"
+    },
+    {
+      "actor_id": "mussa-fazil-harerimana",
+      "text": "Мусса Фазиль Хареримана"
+    },
+    {
+      "actor_id": "pudence-rubingisa",
+      "text": "Пуденс Рубингиса"
+    },
+    {
+      "actor_id": "samuel-dusengiyumva",
+      "text": "Самуэль Дусенгийюмва"
+    },
+    {
+      "actor_id": "frank-habineza",
+      "text": "Франк Хабинеза"
+    },
+    {
+      "actor_id": "philippe-mpayimana",
+      "text": "Филипп Мпайимана"
+    },
+    {
+      "actor_id": "victoire-ingabire",
+      "text": "Виктуар Ингабире Умухоза"
+    },
+    {
+      "actor_id": "diane-rwigara",
+      "text": "Диана Рвигара"
+    },
+    {
+      "actor_id": "diane-rwigara",
+      "text": "Рвигара"
+    },
+    {
+      "actor_id": "bernard-ntaganda",
+      "text": "Бернар Нтаганда"
+    },
+    {
+      "actor_id": "christopher-kayumba",
+      "text": "Кристофер Каюмба"
+    },
+    {
+      "actor_id": "paul-rusesabagina",
+      "text": "Поль Русесабагина"
+    },
+    {
+      "actor_id": "kayumba-nyamwasa",
+      "text": "Фостен Каюмба Ньямваса"
+    },
+    {
+      "actor_id": "louise-mushikiwabo",
+      "text": "Луиза Мушикивабо"
+    },
+    {
+      "actor_id": "claver-gatete",
+      "text": "Клавер Гатете"
+    },
+    {
+      "actor_id": "valentine-rugwabiza",
+      "text": "Валентин Ругвабиза"
+    }
+  ],
   "excluded_terms": [],
   "execution_status": "not_executed_in_external_search_system",
   "filters_outside_query": {
@@ -28,7 +252,12 @@
       "social_media",
       "official_publications"
     ],
-    "languages": "All available languages",
+    "languages": [
+      "Kinyarwanda",
+      "French",
+      "English",
+      "Kiswahili"
+    ],
     "primary_local_language": "Kinyarwanda",
     "core_languages": [
       "Kinyarwanda",
@@ -36,21 +265,23 @@
       "English",
       "Kiswahili"
     ],
-    "additional_context_languages": [
-      "Russian"
-    ],
-    "mixed_or_undetermined_language": "Retain original text and review; do not silently exclude",
+    "additional_context_languages": [],
+    "language_filter_required": true,
+    "language_filter_application_status": "Required at collection; external search has not been executed",
+    "mixed_or_undetermined_language": "Hold uncertain labels for language review before inclusion. Include code-switching among the four allowed languages; exclude documents with substantive text in other languages.",
     "publication_country": "No mandatory country restriction",
     "engagement_threshold": null
   },
   "coverage_limits": [
     "Own posts without a matched name in indexed fields require verified author/account filters or author exports.",
-    "Union author-stream results with name mentions; narrowing a name query by AND author does not recover posts without a name.",
+    "Verified-author exports may bypass name matching only; country context and the four-language allowlist still apply to every retained post.",
+    "Mandatory country words can exclude genuine local posts without an explicit country mention; retained results still need identity review.",
     "Images, video and audio require indexed captions/OCR/transcripts to match the text query.",
     "Shared or partial names require entity disambiguation; a mention is not authorship or endorsement.",
     "Search-system source coverage, pagination and top-N limits constrain recall independently of Boolean syntax.",
     "Latin-script personal names do not restrict the document to English. Language coverage depends on indexed sources and filters.",
-    "English/French-only retrieval does not substitute for coverage of local Kinyarwanda material."
+    "English/French-only retrieval does not substitute for coverage of local Kinyarwanda material.",
+    "The Boolean query alone cannot enforce document language; apply the language allowlist and verify uncertain labels after export."
   ],
   "actors": [
     {
@@ -58,9 +289,7 @@
       "name": "Поль Кагаме",
       "terms": [
         "Paul Kagame",
-        "Поль Кагаме",
-        "Kagame",
-        "Кагаме"
+        "Kagame"
       ]
     },
     {
@@ -68,7 +297,6 @@
       "name": "Эдуар Нгиренте",
       "terms": [
         "Edouard Ngirente",
-        "Эдуар Нгиренте",
         "Édouard Ngirente",
         "Ngirente Edouard"
       ]
@@ -77,16 +305,14 @@
       "id": "justin-nsengiyumva",
       "name": "Жюстен Нсенгийюмва",
       "terms": [
-        "Justin Nsengiyumva",
-        "Жюстен Нсенгийюмва"
+        "Justin Nsengiyumva"
       ]
     },
     {
       "id": "vincent-biruta",
       "name": "Венсан Бирута",
       "terms": [
-        "Vincent Biruta",
-        "Венсан Бирута"
+        "Vincent Biruta"
       ]
     },
     {
@@ -94,7 +320,6 @@
       "name": "Оливье Ндухунгирехе",
       "terms": [
         "Olivier J. P. Nduhungirehe",
-        "Оливье Ндухунгирехе",
         "Olivier J.P. Nduhungirehe",
         "Olivier J P Nduhungirehe",
         "Nduhungirehe Olivier",
@@ -106,8 +331,7 @@
       "id": "james-kabarebe",
       "name": "Джеймс Кабаребе",
       "terms": [
-        "James Kabarebe",
-        "Джеймс Кабаребе"
+        "James Kabarebe"
       ]
     },
     {
@@ -115,7 +339,6 @@
       "name": "Жювеналь Маризамунда",
       "terms": [
         "Juvenal Marizamunda",
-        "Жювеналь Маризамунда",
         "Juvénal Marizamunda"
       ]
     },
@@ -123,56 +346,49 @@
       "id": "albert-murasira",
       "name": "Альбер Мурасира",
       "terms": [
-        "Albert Murasira",
-        "Альбер Мурасира"
+        "Albert Murasira"
       ]
     },
     {
       "id": "emmanuel-ugirashebuja",
       "name": "Эмманюэль Угирасебуджа",
       "terms": [
-        "Emmanuel Ugirashebuja",
-        "Эмманюэль Угирасебуджа"
+        "Emmanuel Ugirashebuja"
       ]
     },
     {
       "id": "yusuf-murangwa",
       "name": "Юсуф Мурангва",
       "terms": [
-        "Yusuf Murangwa",
-        "Юсуф Мурангва"
+        "Yusuf Murangwa"
       ]
     },
     {
       "id": "uzziel-ndagijimana",
       "name": "Уззиэль Ндагиджимана",
       "terms": [
-        "Uzziel Ndagijimana",
-        "Уззиэль Ндагиджимана"
+        "Uzziel Ndagijimana"
       ]
     },
     {
       "id": "paula-ingabire",
       "name": "Паула Ингабире",
       "terms": [
-        "Paula Ingabire",
-        "Паула Ингабире"
+        "Paula Ingabire"
       ]
     },
     {
       "id": "sabin-nsanzimana",
       "name": "Сабин Нсанзимана",
       "terms": [
-        "Sabin Nsanzimana",
-        "Сабин Нсанзимана"
+        "Sabin Nsanzimana"
       ]
     },
     {
       "id": "judith-uwizeye",
       "name": "Жюдит Увизейе",
       "terms": [
-        "Judith Uwizeye",
-        "Жюдит Увизейе"
+        "Judith Uwizeye"
       ]
     },
     {
@@ -180,7 +396,6 @@
       "name": "Инес Мпамбара",
       "terms": [
         "Inès Mpambara",
-        "Инес Мпамбара",
         "Ines Mpambara"
       ]
     },
@@ -189,7 +404,6 @@
       "name": "Валентин Увамария",
       "terms": [
         "Valentine Uwamariya",
-        "Валентин Увамария",
         "Uwamariya Valentine"
       ]
     },
@@ -198,13 +412,9 @@
       "name": "Жанна д’Арк Муджавамария",
       "terms": [
         "Jeanne d'Arc Mujawamariya",
-        "Жанна д’Арк Муджавамария",
         "Jeanne d’Arc Mujawamariya",
         "Jeanne d Arc Mujawamariya",
-        "Jeanne dArc Mujawamariya",
-        "Жанна д'Арк Муджавамария",
-        "Жанна д Арк Муджавамария",
-        "Жанна дАрк Муджавамария"
+        "Jeanne dArc Mujawamariya"
       ]
     },
     {
@@ -212,7 +422,6 @@
       "name": "Жерардин Мукешимана",
       "terms": [
         "Gérardine Mukeshimana",
-        "Жерардин Мукешимана",
         "Gerardine Mukeshimana"
       ]
     },
@@ -220,18 +429,14 @@
       "id": "ildephonse-musafiri",
       "name": "Ильдефонс Мусафири",
       "terms": [
-        "Ildephonse Musafiri",
-        "Ильдефонс Мусафири"
+        "Ildephonse Musafiri"
       ]
     },
     {
       "id": "jean-claude-musabyimana",
       "name": "Жан-Клод Мусабийимана",
       "terms": [
-        "Jean Claude Musabyimana",
-        "Жан-Клод Мусабийимана",
-        "Жан Клод Мусабийимана",
-        "Жан‑Клод Мусабийимана"
+        "Jean Claude Musabyimana"
       ]
     },
     {
@@ -239,46 +444,39 @@
       "name": "Жан-Дамасен Бизимана",
       "terms": [
         "Jean-Damascène Bizimana",
-        "Жан-Дамасен Бизимана",
         "Jean-Damascene Bizimana",
         "Jean Damascène Bizimana",
         "Jean‑Damascène Bizimana",
         "Jean Damascene Bizimana",
-        "Jean‑Damascene Bizimana",
-        "Жан Дамасен Бизимана",
-        "Жан‑Дамасен Бизимана"
+        "Jean‑Damascene Bizimana"
       ]
     },
     {
       "id": "clare-akamanzi",
       "name": "Клэр Акаманзи",
       "terms": [
-        "Clare Akamanzi",
-        "Клэр Акаманзи"
+        "Clare Akamanzi"
       ]
     },
     {
       "id": "francis-gatare",
       "name": "Франсис Гатаре",
       "terms": [
-        "Francis Gatare",
-        "Франсис Гатаре"
+        "Francis Gatare"
       ]
     },
     {
       "id": "gertrude-kazarwa",
       "name": "Гертруда Казарва",
       "terms": [
-        "Gertrude Kazarwa",
-        "Гертруда Казарва"
+        "Gertrude Kazarwa"
       ]
     },
     {
       "id": "donatille-mukabalisa",
       "name": "Донатиль Мукабалиса",
       "terms": [
-        "Donatille Mukabalisa",
-        "Донатиль Мукабалиса"
+        "Donatille Mukabalisa"
       ]
     },
     {
@@ -286,54 +484,46 @@
       "name": "Франсуа-Ксавье Калинда",
       "terms": [
         "François-Xavier Kalinda",
-        "Франсуа-Ксавье Калинда",
         "Francois-Xavier Kalinda",
         "François Xavier Kalinda",
         "François‑Xavier Kalinda",
         "Francois Xavier Kalinda",
-        "Francois‑Xavier Kalinda",
-        "Франсуа Ксавье Калинда",
-        "Франсуа‑Ксавье Калинда"
+        "Francois‑Xavier Kalinda"
       ]
     },
     {
       "id": "augustin-iyamuremye",
       "name": "Огюстен Иямуремье",
       "terms": [
-        "Augustin Iyamuremye",
-        "Огюстен Иямуремье"
+        "Augustin Iyamuremye"
       ]
     },
     {
       "id": "alvera-mukabaramba",
       "name": "Альвера Мукабарамба",
       "terms": [
-        "Alvera Mukabaramba",
-        "Альвера Мукабарамба"
+        "Alvera Mukabaramba"
       ]
     },
     {
       "id": "mussa-fazil-harerimana",
       "name": "Мусса Фазиль Хареримана",
       "terms": [
-        "Mussa Fazil Harerimana",
-        "Мусса Фазиль Хареримана"
+        "Mussa Fazil Harerimana"
       ]
     },
     {
       "id": "pudence-rubingisa",
       "name": "Пуденс Рубингиса",
       "terms": [
-        "Pudence Rubingisa",
-        "Пуденс Рубингиса"
+        "Pudence Rubingisa"
       ]
     },
     {
       "id": "samuel-dusengiyumva",
       "name": "Самуэль Дусенгийюмва",
       "terms": [
-        "Samuel Dusengiyumva",
-        "Самуэль Дусенгийюмва"
+        "Samuel Dusengiyumva"
       ]
     },
     {
@@ -341,7 +531,6 @@
       "name": "Франк Хабинеза",
       "terms": [
         "Frank Habineza",
-        "Франк Хабинеза",
         "Habineza Frank"
       ]
     },
@@ -349,8 +538,7 @@
       "id": "philippe-mpayimana",
       "name": "Филипп Мпайимана",
       "terms": [
-        "Philippe Mpayimana",
-        "Филипп Мпайимана"
+        "Philippe Mpayimana"
       ]
     },
     {
@@ -358,7 +546,6 @@
       "name": "Виктуар Ингабире Умухоза",
       "terms": [
         "Victoire Ingabire Umuhoza",
-        "Виктуар Ингабире Умухоза",
         "Ingabire Victoire",
         "Ingabire Umuhoza Victoire",
         "Victoire Ingabire"
@@ -369,77 +556,68 @@
       "name": "Диана Рвигара",
       "terms": [
         "Diane Shima Rwigara",
-        "Диана Рвигара",
         "Diane Rwigara",
         "Shima Diane Rwigara",
-        "Rwigara",
-        "Рвигара"
+        "Rwigara"
       ]
     },
     {
       "id": "bernard-ntaganda",
       "name": "Бернар Нтаганда",
       "terms": [
-        "Bernard Ntaganda",
-        "Бернар Нтаганда"
+        "Bernard Ntaganda"
       ]
     },
     {
       "id": "christopher-kayumba",
       "name": "Кристофер Каюмба",
       "terms": [
-        "Christopher Kayumba",
-        "Кристофер Каюмба"
+        "Christopher Kayumba"
       ]
     },
     {
       "id": "paul-rusesabagina",
       "name": "Поль Русесабагина",
       "terms": [
-        "Paul Rusesabagina",
-        "Поль Русесабагина"
+        "Paul Rusesabagina"
       ]
     },
     {
       "id": "kayumba-nyamwasa",
       "name": "Фостен Каюмба Ньямваса",
       "terms": [
-        "Faustin Kayumba Nyamwasa",
-        "Фостен Каюмба Ньямваса"
+        "Faustin Kayumba Nyamwasa"
       ]
     },
     {
       "id": "louise-mushikiwabo",
       "name": "Луиза Мушикивабо",
       "terms": [
-        "Louise Mushikiwabo",
-        "Луиза Мушикивабо"
+        "Louise Mushikiwabo"
       ]
     },
     {
       "id": "claver-gatete",
       "name": "Клавер Гатете",
       "terms": [
-        "Claver Gatete",
-        "Клавер Гатете"
+        "Claver Gatete"
       ]
     },
     {
       "id": "valentine-rugwabiza",
       "name": "Валентин Ругвабиза",
       "terms": [
-        "Valentine Rugwabiza",
-        "Валентин Ругвабиза"
+        "Valentine Rugwabiza"
       ]
     }
   ],
   "source_sha256": {
     "research/rwanda_politicians_2021_2026/corpus_search/actor_aliases.json": "51c05b9f03bd6e3767cc66cf962e686f9ad44cfba70e40b7f6a98a92afb3198a",
-    "research/rwanda_politicians_2021_2026/corpus_search/language_plan.json": "19b0988b9fde1f730dedc85d2e15cd1f53cf94185609040dc228cfd3998f3469",
+    "research/rwanda_politicians_2021_2026/corpus_search/language_plan.json": "48d1bfa7db78e95f6d8bfdae2e1b2eeba9acd57366ed896fda318712686c3acb",
     "research/rwanda_politicians_2021_2026/corpus_search/verified_language_aliases.json": "1db8941f234f731ef224cdadabc82f6cac9b7abab28ab9b4a0f6427505d7cc37",
     "studies/rwanda-politicians-2021-2026/study.json": "90aaddc075c2c0ede61ea1efaff707139d9568b020c47fefe5b28ceb580f6174",
-    "scripts/build_rwanda_corpus_query.py": "058b78bc3e14b2c74e4f633fbfeca2c4431ce23875bad6b0c0043815ba942b00"
+    "scripts/build_rwanda_corpus_query.py": "6e74a83b1fd844aec23cc7b156130116c55092a3745f9b7f397f1bd280a79019"
   },
-  "query_file_sha256": "76bbc151da060c77094059d8b4f15e167014e226e971b3fb6987ba632535be07",
+  "query_file_sha256": "7c720ca25d4821a858c680cea442e8a6ed072e073823ac6557362e9aa906f3f8",
   "canonical_study_modified": false
 }

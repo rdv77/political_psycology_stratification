@@ -4,7 +4,7 @@
   "scope": "Language coverage of the next source corpus; not new political ratings",
   "primary_local_language": "Kinyarwanda",
   "core_collection_languages": ["Kinyarwanda", "French", "English", "Kiswahili"],
-  "additional_context_languages": ["Russian"],
+  "additional_context_languages": [],
   "official_context": {
     "claim": "Kinyarwanda is the common language across Rwanda; the government also lists English, French and Kiswahili as official languages.",
     "sources": [
@@ -24,9 +24,46 @@
       }
     ]
   },
+  "mandatory_country_context": {
+    "required": true,
+    "query_terms": ["Rwanda", "#Rwanda", "u Rwanda", "uRwanda"],
+    "scope": "Every retained message, including separately collected verified-author posts, must contain country context matching this block.",
+    "name_forms": "Rwanda is used in English, French and Kiswahili; Kinyarwanda also uses u Rwanda and the joined spelling uRwanda.",
+    "hashtag_handling": "#Rwanda is a quoted literal alternative, not an undocumented hashtag operator. Confirm the provider indexes the hashtag text; case handling follows the provider.",
+    "sources": [
+      {
+        "url": "https://www.gov.rw/about",
+        "supports": "English country name Rwanda",
+        "checked_on": "2026-10-16"
+      },
+      {
+        "url": "https://www.rwandainfrance.gov.rw/info/le-rwanda",
+        "supports": "French country name Rwanda",
+        "checked_on": "2026-10-16"
+      },
+      {
+        "url": "https://www.rdf.gov.rw/rw/",
+        "supports": "Kinyarwanda u Rwanda in body text and uRwanda in the page title",
+        "checked_on": "2026-10-16"
+      },
+      {
+        "url": "https://www.ikulu.go.tz/uploads/documents/sw-1777846319-Tanzania%20na%20Rwanda%20Kuimarisha%20Biashara,%20Uchukuzi%20na%20Nishati%20copy.pdf",
+        "supports": "Kiswahili country name Rwanda in an official Tanzanian release dated 2026-05-03",
+        "checked_on": "2026-10-16"
+      },
+      {
+        "url": "https://www.youtube.com/watch?v=I6esrRHi8qI",
+        "supports": "#Rwanda in RwandaTV/RBA video description dated 2024-08-11",
+        "checked_on": "2026-10-16"
+      }
+    ]
+  },
   "collection_policy": {
-    "language_filter_default": "All available languages",
-    "if_filter_is_required": "Include every supported core language and retain mixed or undetermined language records; keep Russian as additional context when available.",
+    "language_filter_default": ["Kinyarwanda", "French", "English", "Kiswahili"],
+    "language_filter_required": true,
+    "language_allowlist_applies_to": "Original documents in all collection channels, including verified-author exports; Russian-language and other non-allowlisted documents are excluded.",
+    "if_filter_is_unavailable": "Collect to a staging area, identify document languages and include only allowed-language documents in the corpus; do not claim the Boolean query enforces language.",
+    "mixed_or_undetermined_language": "Hold uncertain labels for language review before inclusion. Include code-switching among the four allowed languages; exclude documents with substantive text in other languages.",
     "mandatory_language_words_in_boolean_query": false,
     "name_script_is_document_language": false,
     "check_provider_kinyarwanda_coverage": true,
@@ -42,7 +79,7 @@
     "video_audio": "Retain original media URL, transcript language and timestamps for cited spans.",
     "political_context": "Keep speaker, institution, subject of the position and audience context; an international-language address and a local-language address need not discuss the same political level.",
     "uncertain_political_meaning": "Review in context and, when needed, with a competent speaker; do not turn an uncertain translation into a confident rating.",
-    "low_detector_or_model_support": "Keep the original and flag for review; do not silently drop Kinyarwanda or mixed-language evidence."
+    "low_detector_or_model_support": "Keep the original in the review queue and verify its language before corpus inclusion; weak detector support alone is not a reason to reject Kinyarwanda."
   },
   "canonical_measurements_modified": false,
   "external_search_executed": false
