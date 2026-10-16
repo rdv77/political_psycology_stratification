@@ -1,0 +1,1911 @@
+{
+  "format_version": 1,
+  "title": "Словарь имён42 утверждённых политических акторов Руанды для поиска корпуса",
+  "prepared_at": "2026-10-16T15:15:54.592234+00:00",
+  "actor_count": 42,
+  "identity_policy": "Exact approved IDs and order preserved. Name aliases are search strings, not verified author accounts. No handles or account IDs inferred.",
+  "priority_policy": {
+    "1": "Exactly one recorded canonical Latin full name and one recorded canonical Russian full name per actor.",
+    "2": "Mechanical Latin diacritic stripping and punctuation, apostrophe or hyphen/space transformations of recorded names. Cyrillic letters, including й, remain unchanged. No inferred accents or speculative transliterations.",
+    "3": "Short name or initials form explicitly present in a saved source title, plus four explicitly marked Kagame / Кагаме / Rwigara / Рвигара name components requiring context review."
+  },
+  "query_generation": "No Boolean queries generated here. The parent builder selects aliases under its5000-character total limit.",
+  "matching_notes": [
+    "Case variants are not enumerated. Verify whether the provider treats queries as case-sensitive.",
+    "По предоставленному пользователем синтаксису кавычки поддерживают морфологические формы, поэтому падежные варианты отдельно не перечислены. Альтернативная транслитерация и иной порядок компонентов имени всё ещё могут не находиться.",
+    "A first-person original post may never name its own author. Retrieve such posts by separately verified platform author/account IDs or export metadata, rather than expecting name matching to recover them.",
+    "An account display name can change or belong to another person. Do not infer handles from a politician’s name, a URL slug, or this alias dictionary.",
+    "Quoted news can name several actors; a co-mention is not evidence of endorsement, shared position, or authorship.",
+    "Компоненты имён не объявляются наследственными фамилиями. Добавлены только Kagame / Кагаме и Rwigara / Рвигара с обязательной проверкой контекста; первые имена и остальные одиночные фрагменты не добавлялись.",
+    "Typographic variants may be redundant if the provider normalizes accents or punctuation; lower-priority alternatives need not consume the single-query budget."
+  ],
+  "rawsourceSHA": {
+    "studies/rwanda-politicians-2021-2026/study.json": "90aaddc075c2c0ede61ea1efaff707139d9568b020c47fefe5b28ceb580f6174",
+    "research/rwanda_politicians_2021_2026/objects.json": "640bbbd2333843b17171138c090fcbb0cdec60c101dfa89c43ddbd5014685b9b",
+    "research/rwanda_politicians_2021_2026/ACTOR_PROFILES.json": "c2cfc38d3ffb383673984ed1e1483d9097d60e7b8ee309552702f1d1c10150ab",
+    "studies/rwanda-politicians-2021-2026/evidence/independent-dossier-olivier-nduhungirehe.json": "6beef22c79f76ec297df8ebfc0240d7e41b68ffb724f0b062a1ffe47afcf2aa5",
+    "studies/rwanda-politicians-2021-2026/evidence/independent-dossier-victoire-ingabire.json": "d86f176ea10dc865a36d675086a1711dc255d8eeb1ee11003166390ed505d510",
+    "studies/rwanda-politicians-2021-2026/evidence/independent-dossier-diane-rwigara.json": "d6c898cbed0aff28dd851b3070efc1d8a485e5597fb76614a2e3136c3e66d271"
+  },
+  "actors": [
+    {
+      "id": "paul-kagame",
+      "order": 1,
+      "name": "Поль Кагаме",
+      "canonical_latin": "Paul Kagame",
+      "aliases": [
+        {
+          "text": "Paul Kagame",
+          "alias_kind": "canonical_latin",
+          "priority": 1,
+          "provenance": [
+            "study.objects.name_original",
+            "objects.objects.name_original",
+            "ACTOR_PROFILES.profiles.original_name"
+          ]
+        },
+        {
+          "text": "Поль Кагаме",
+          "alias_kind": "canonical_russian",
+          "priority": 1,
+          "provenance": [
+            "study.objects.name",
+            "objects.objects.name",
+            "ACTOR_PROFILES.profiles.name"
+          ]
+        },
+        {
+          "text": "Kagame",
+          "alias_kind": "distinctive_name_component_context_required",
+          "priority": 3,
+          "provenance": [
+            "mechanical_component_of_recorded_canonical_name"
+          ],
+          "requires_context_review": true,
+          "disambiguation_note": "Компонент имени; не утверждение о наследственной фамилии. Повышает полноту поиска, но спортивные упоминания, другие лица и принадлежность высказывания требуют проверки контекста."
+        },
+        {
+          "text": "Кагаме",
+          "alias_kind": "distinctive_name_component_context_required",
+          "priority": 3,
+          "provenance": [
+            "mechanical_component_of_recorded_canonical_name"
+          ],
+          "requires_context_review": true,
+          "disambiguation_note": "Компонент имени; не утверждение о наследственной фамилии. Повышает полноту поиска, но спортивные упоминания, другие лица и принадлежность высказывания требуют проверки контекста."
+        }
+      ],
+      "disambiguation_notes": [
+        "Совпадение имени в публикации не устанавливает авторство высказывания; требуется атрибуция.",
+        "Одиночный компонент Kagame / Кагаме используется только с проверкой роли и контекста; это не обозначение наследственной фамилии."
+      ],
+      "rawsourceSHA": {
+        "studies/rwanda-politicians-2021-2026/study.json": "90aaddc075c2c0ede61ea1efaff707139d9568b020c47fefe5b28ceb580f6174",
+        "research/rwanda_politicians_2021_2026/objects.json": "640bbbd2333843b17171138c090fcbb0cdec60c101dfa89c43ddbd5014685b9b",
+        "research/rwanda_politicians_2021_2026/ACTOR_PROFILES.json": "c2cfc38d3ffb383673984ed1e1483d9097d60e7b8ee309552702f1d1c10150ab"
+      }
+    },
+    {
+      "id": "edouard-ngirente",
+      "order": 2,
+      "name": "Эдуар Нгиренте",
+      "canonical_latin": "Edouard Ngirente",
+      "aliases": [
+        {
+          "text": "Edouard Ngirente",
+          "alias_kind": "canonical_latin",
+          "priority": 1,
+          "provenance": [
+            "study.objects.name_original",
+            "objects.objects.name_original",
+            "ACTOR_PROFILES.profiles.original_name"
+          ]
+        },
+        {
+          "text": "Эдуар Нгиренте",
+          "alias_kind": "canonical_russian",
+          "priority": 1,
+          "provenance": [
+            "study.objects.name",
+            "objects.objects.name",
+            "ACTOR_PROFILES.profiles.name"
+          ]
+        }
+      ],
+      "disambiguation_notes": [
+        "Совпадение имени в публикации не устанавливает авторство высказывания; требуется атрибуция."
+      ],
+      "rawsourceSHA": {
+        "studies/rwanda-politicians-2021-2026/study.json": "90aaddc075c2c0ede61ea1efaff707139d9568b020c47fefe5b28ceb580f6174",
+        "research/rwanda_politicians_2021_2026/objects.json": "640bbbd2333843b17171138c090fcbb0cdec60c101dfa89c43ddbd5014685b9b",
+        "research/rwanda_politicians_2021_2026/ACTOR_PROFILES.json": "c2cfc38d3ffb383673984ed1e1483d9097d60e7b8ee309552702f1d1c10150ab"
+      }
+    },
+    {
+      "id": "justin-nsengiyumva",
+      "order": 3,
+      "name": "Жюстен Нсенгийюмва",
+      "canonical_latin": "Justin Nsengiyumva",
+      "aliases": [
+        {
+          "text": "Justin Nsengiyumva",
+          "alias_kind": "canonical_latin",
+          "priority": 1,
+          "provenance": [
+            "study.objects.name_original",
+            "objects.objects.name_original",
+            "ACTOR_PROFILES.profiles.original_name"
+          ]
+        },
+        {
+          "text": "Жюстен Нсенгийюмва",
+          "alias_kind": "canonical_russian",
+          "priority": 1,
+          "provenance": [
+            "study.objects.name",
+            "objects.objects.name",
+            "ACTOR_PROFILES.profiles.name"
+          ]
+        }
+      ],
+      "disambiguation_notes": [
+        "Nsengiyumva и Dusengiyumva — разные участники; общее усечение ngiyumva их смешивает.",
+        "Совпадение имени в публикации не устанавливает авторство высказывания; требуется атрибуция."
+      ],
+      "rawsourceSHA": {
+        "studies/rwanda-politicians-2021-2026/study.json": "90aaddc075c2c0ede61ea1efaff707139d9568b020c47fefe5b28ceb580f6174",
+        "research/rwanda_politicians_2021_2026/objects.json": "640bbbd2333843b17171138c090fcbb0cdec60c101dfa89c43ddbd5014685b9b",
+        "research/rwanda_politicians_2021_2026/ACTOR_PROFILES.json": "c2cfc38d3ffb383673984ed1e1483d9097d60e7b8ee309552702f1d1c10150ab"
+      }
+    },
+    {
+      "id": "vincent-biruta",
+      "order": 4,
+      "name": "Венсан Бирута",
+      "canonical_latin": "Vincent Biruta",
+      "aliases": [
+        {
+          "text": "Vincent Biruta",
+          "alias_kind": "canonical_latin",
+          "priority": 1,
+          "provenance": [
+            "study.objects.name_original",
+            "objects.objects.name_original",
+            "ACTOR_PROFILES.profiles.original_name"
+          ]
+        },
+        {
+          "text": "Венсан Бирута",
+          "alias_kind": "canonical_russian",
+          "priority": 1,
+          "provenance": [
+            "study.objects.name",
+            "objects.objects.name",
+            "ACTOR_PROFILES.profiles.name"
+          ]
+        }
+      ],
+      "disambiguation_notes": [
+        "Совпадение имени в публикации не устанавливает авторство высказывания; требуется атрибуция."
+      ],
+      "rawsourceSHA": {
+        "studies/rwanda-politicians-2021-2026/study.json": "90aaddc075c2c0ede61ea1efaff707139d9568b020c47fefe5b28ceb580f6174",
+        "research/rwanda_politicians_2021_2026/objects.json": "640bbbd2333843b17171138c090fcbb0cdec60c101dfa89c43ddbd5014685b9b",
+        "research/rwanda_politicians_2021_2026/ACTOR_PROFILES.json": "c2cfc38d3ffb383673984ed1e1483d9097d60e7b8ee309552702f1d1c10150ab"
+      }
+    },
+    {
+      "id": "olivier-nduhungirehe",
+      "order": 5,
+      "name": "Оливье Ндухунгирехе",
+      "canonical_latin": "Olivier J. P. Nduhungirehe",
+      "aliases": [
+        {
+          "text": "Olivier J. P. Nduhungirehe",
+          "alias_kind": "canonical_latin",
+          "priority": 1,
+          "provenance": [
+            "study.objects.name_original",
+            "objects.objects.name_original",
+            "ACTOR_PROFILES.profiles.original_name"
+          ]
+        },
+        {
+          "text": "Оливье Ндухунгирехе",
+          "alias_kind": "canonical_russian",
+          "priority": 1,
+          "provenance": [
+            "study.objects.name",
+            "objects.objects.name",
+            "ACTOR_PROFILES.profiles.name"
+          ]
+        },
+        {
+          "text": "Olivier J.P. Nduhungirehe",
+          "alias_kind": "initials_punctuation_variant",
+          "priority": 2,
+          "provenance": [
+            "canonical_latin"
+          ],
+          "transformation": "Only punctuation and spacing of recorded J. P. initials"
+        },
+        {
+          "text": "Olivier J P Nduhungirehe",
+          "alias_kind": "initials_punctuation_variant",
+          "priority": 2,
+          "provenance": [
+            "canonical_latin"
+          ],
+          "transformation": "Only punctuation and spacing of recorded J. P. initials"
+        },
+        {
+          "text": "Olivier Nduhungirehe",
+          "alias_kind": "source_title_short_form",
+          "priority": 3,
+          "provenance": [
+            {
+              "file": "studies/rwanda-politicians-2021-2026/evidence/independent-dossier-olivier-nduhungirehe.json",
+              "source_title": "Olivier Nduhungirehe: Rwanda’s new foreign affairs minister and his priorities",
+              "source_url": "https://allafrica.com/stories/202406140152.html"
+            }
+          ]
+        },
+        {
+          "text": "Olivier JP Nduhungirehe",
+          "alias_kind": "source_title_initials",
+          "priority": 3,
+          "provenance": [
+            {
+              "file": "studies/rwanda-politicians-2021-2026/evidence/independent-dossier-olivier-nduhungirehe.json",
+              "source_title": "Rwanda statement at the UNSC briefing on MONUSCO by Minister Olivier JP Nduhungirehe",
+              "source_url": "https://www.minaffet.gov.rw/updates/news-details/rwanda-statement-at-the-unsc-briefing-on-monusco-by-minister-olivier-jp-nduhungirehe"
+            }
+          ]
+        }
+      ],
+      "disambiguation_notes": [
+        "J. P., J.P., J P и JP — варианты уже имеющихся инициалов; их полная расшифровка здесь не устанавливается.",
+        "Совпадение имени в публикации не устанавливает авторство высказывания; требуется атрибуция."
+      ],
+      "rawsourceSHA": {
+        "studies/rwanda-politicians-2021-2026/study.json": "90aaddc075c2c0ede61ea1efaff707139d9568b020c47fefe5b28ceb580f6174",
+        "research/rwanda_politicians_2021_2026/objects.json": "640bbbd2333843b17171138c090fcbb0cdec60c101dfa89c43ddbd5014685b9b",
+        "research/rwanda_politicians_2021_2026/ACTOR_PROFILES.json": "c2cfc38d3ffb383673984ed1e1483d9097d60e7b8ee309552702f1d1c10150ab",
+        "studies/rwanda-politicians-2021-2026/evidence/independent-dossier-olivier-nduhungirehe.json": "6beef22c79f76ec297df8ebfc0240d7e41b68ffb724f0b062a1ffe47afcf2aa5"
+      }
+    },
+    {
+      "id": "james-kabarebe",
+      "order": 6,
+      "name": "Джеймс Кабаребе",
+      "canonical_latin": "James Kabarebe",
+      "aliases": [
+        {
+          "text": "James Kabarebe",
+          "alias_kind": "canonical_latin",
+          "priority": 1,
+          "provenance": [
+            "study.objects.name_original",
+            "objects.objects.name_original",
+            "ACTOR_PROFILES.profiles.original_name"
+          ]
+        },
+        {
+          "text": "Джеймс Кабаребе",
+          "alias_kind": "canonical_russian",
+          "priority": 1,
+          "provenance": [
+            "study.objects.name",
+            "objects.objects.name",
+            "ACTOR_PROFILES.profiles.name"
+          ]
+        }
+      ],
+      "disambiguation_notes": [
+        "Совпадение имени в публикации не устанавливает авторство высказывания; требуется атрибуция."
+      ],
+      "rawsourceSHA": {
+        "studies/rwanda-politicians-2021-2026/study.json": "90aaddc075c2c0ede61ea1efaff707139d9568b020c47fefe5b28ceb580f6174",
+        "research/rwanda_politicians_2021_2026/objects.json": "640bbbd2333843b17171138c090fcbb0cdec60c101dfa89c43ddbd5014685b9b",
+        "research/rwanda_politicians_2021_2026/ACTOR_PROFILES.json": "c2cfc38d3ffb383673984ed1e1483d9097d60e7b8ee309552702f1d1c10150ab"
+      }
+    },
+    {
+      "id": "juvenal-marizamunda",
+      "order": 7,
+      "name": "Жювеналь Маризамунда",
+      "canonical_latin": "Juvenal Marizamunda",
+      "aliases": [
+        {
+          "text": "Juvenal Marizamunda",
+          "alias_kind": "canonical_latin",
+          "priority": 1,
+          "provenance": [
+            "study.objects.name_original",
+            "objects.objects.name_original",
+            "ACTOR_PROFILES.profiles.original_name"
+          ]
+        },
+        {
+          "text": "Жювеналь Маризамунда",
+          "alias_kind": "canonical_russian",
+          "priority": 1,
+          "provenance": [
+            "study.objects.name",
+            "objects.objects.name",
+            "ACTOR_PROFILES.profiles.name"
+          ]
+        }
+      ],
+      "disambiguation_notes": [
+        "Совпадение имени в публикации не устанавливает авторство высказывания; требуется атрибуция."
+      ],
+      "rawsourceSHA": {
+        "studies/rwanda-politicians-2021-2026/study.json": "90aaddc075c2c0ede61ea1efaff707139d9568b020c47fefe5b28ceb580f6174",
+        "research/rwanda_politicians_2021_2026/objects.json": "640bbbd2333843b17171138c090fcbb0cdec60c101dfa89c43ddbd5014685b9b",
+        "research/rwanda_politicians_2021_2026/ACTOR_PROFILES.json": "c2cfc38d3ffb383673984ed1e1483d9097d60e7b8ee309552702f1d1c10150ab"
+      }
+    },
+    {
+      "id": "albert-murasira",
+      "order": 8,
+      "name": "Альбер Мурасира",
+      "canonical_latin": "Albert Murasira",
+      "aliases": [
+        {
+          "text": "Albert Murasira",
+          "alias_kind": "canonical_latin",
+          "priority": 1,
+          "provenance": [
+            "study.objects.name_original",
+            "objects.objects.name_original",
+            "ACTOR_PROFILES.profiles.original_name"
+          ]
+        },
+        {
+          "text": "Альбер Мурасира",
+          "alias_kind": "canonical_russian",
+          "priority": 1,
+          "provenance": [
+            "study.objects.name",
+            "objects.objects.name",
+            "ACTOR_PROFILES.profiles.name"
+          ]
+        }
+      ],
+      "disambiguation_notes": [
+        "Совпадение имени в публикации не устанавливает авторство высказывания; требуется атрибуция."
+      ],
+      "rawsourceSHA": {
+        "studies/rwanda-politicians-2021-2026/study.json": "90aaddc075c2c0ede61ea1efaff707139d9568b020c47fefe5b28ceb580f6174",
+        "research/rwanda_politicians_2021_2026/objects.json": "640bbbd2333843b17171138c090fcbb0cdec60c101dfa89c43ddbd5014685b9b",
+        "research/rwanda_politicians_2021_2026/ACTOR_PROFILES.json": "c2cfc38d3ffb383673984ed1e1483d9097d60e7b8ee309552702f1d1c10150ab"
+      }
+    },
+    {
+      "id": "emmanuel-ugirashebuja",
+      "order": 9,
+      "name": "Эмманюэль Угирасебуджа",
+      "canonical_latin": "Emmanuel Ugirashebuja",
+      "aliases": [
+        {
+          "text": "Emmanuel Ugirashebuja",
+          "alias_kind": "canonical_latin",
+          "priority": 1,
+          "provenance": [
+            "study.objects.name_original",
+            "objects.objects.name_original",
+            "ACTOR_PROFILES.profiles.original_name"
+          ]
+        },
+        {
+          "text": "Эмманюэль Угирасебуджа",
+          "alias_kind": "canonical_russian",
+          "priority": 1,
+          "provenance": [
+            "study.objects.name",
+            "objects.objects.name",
+            "ACTOR_PROFILES.profiles.name"
+          ]
+        }
+      ],
+      "disambiguation_notes": [
+        "Совпадение имени в публикации не устанавливает авторство высказывания; требуется атрибуция."
+      ],
+      "rawsourceSHA": {
+        "studies/rwanda-politicians-2021-2026/study.json": "90aaddc075c2c0ede61ea1efaff707139d9568b020c47fefe5b28ceb580f6174",
+        "research/rwanda_politicians_2021_2026/objects.json": "640bbbd2333843b17171138c090fcbb0cdec60c101dfa89c43ddbd5014685b9b",
+        "research/rwanda_politicians_2021_2026/ACTOR_PROFILES.json": "c2cfc38d3ffb383673984ed1e1483d9097d60e7b8ee309552702f1d1c10150ab"
+      }
+    },
+    {
+      "id": "yusuf-murangwa",
+      "order": 10,
+      "name": "Юсуф Мурангва",
+      "canonical_latin": "Yusuf Murangwa",
+      "aliases": [
+        {
+          "text": "Yusuf Murangwa",
+          "alias_kind": "canonical_latin",
+          "priority": 1,
+          "provenance": [
+            "study.objects.name_original",
+            "objects.objects.name_original",
+            "ACTOR_PROFILES.profiles.original_name"
+          ]
+        },
+        {
+          "text": "Юсуф Мурангва",
+          "alias_kind": "canonical_russian",
+          "priority": 1,
+          "provenance": [
+            "study.objects.name",
+            "objects.objects.name",
+            "ACTOR_PROFILES.profiles.name"
+          ]
+        }
+      ],
+      "disambiguation_notes": [
+        "Совпадение имени в публикации не устанавливает авторство высказывания; требуется атрибуция."
+      ],
+      "rawsourceSHA": {
+        "studies/rwanda-politicians-2021-2026/study.json": "90aaddc075c2c0ede61ea1efaff707139d9568b020c47fefe5b28ceb580f6174",
+        "research/rwanda_politicians_2021_2026/objects.json": "640bbbd2333843b17171138c090fcbb0cdec60c101dfa89c43ddbd5014685b9b",
+        "research/rwanda_politicians_2021_2026/ACTOR_PROFILES.json": "c2cfc38d3ffb383673984ed1e1483d9097d60e7b8ee309552702f1d1c10150ab"
+      }
+    },
+    {
+      "id": "uzziel-ndagijimana",
+      "order": 11,
+      "name": "Уззиэль Ндагиджимана",
+      "canonical_latin": "Uzziel Ndagijimana",
+      "aliases": [
+        {
+          "text": "Uzziel Ndagijimana",
+          "alias_kind": "canonical_latin",
+          "priority": 1,
+          "provenance": [
+            "study.objects.name_original",
+            "objects.objects.name_original",
+            "ACTOR_PROFILES.profiles.original_name"
+          ]
+        },
+        {
+          "text": "Уззиэль Ндагиджимана",
+          "alias_kind": "canonical_russian",
+          "priority": 1,
+          "provenance": [
+            "study.objects.name",
+            "objects.objects.name",
+            "ACTOR_PROFILES.profiles.name"
+          ]
+        }
+      ],
+      "disambiguation_notes": [
+        "Совпадение имени в публикации не устанавливает авторство высказывания; требуется атрибуция."
+      ],
+      "rawsourceSHA": {
+        "studies/rwanda-politicians-2021-2026/study.json": "90aaddc075c2c0ede61ea1efaff707139d9568b020c47fefe5b28ceb580f6174",
+        "research/rwanda_politicians_2021_2026/objects.json": "640bbbd2333843b17171138c090fcbb0cdec60c101dfa89c43ddbd5014685b9b",
+        "research/rwanda_politicians_2021_2026/ACTOR_PROFILES.json": "c2cfc38d3ffb383673984ed1e1483d9097d60e7b8ee309552702f1d1c10150ab"
+      }
+    },
+    {
+      "id": "paula-ingabire",
+      "order": 12,
+      "name": "Паула Ингабире",
+      "canonical_latin": "Paula Ingabire",
+      "aliases": [
+        {
+          "text": "Paula Ingabire",
+          "alias_kind": "canonical_latin",
+          "priority": 1,
+          "provenance": [
+            "study.objects.name_original",
+            "objects.objects.name_original",
+            "ACTOR_PROFILES.profiles.original_name"
+          ]
+        },
+        {
+          "text": "Паула Ингабире",
+          "alias_kind": "canonical_russian",
+          "priority": 1,
+          "provenance": [
+            "study.objects.name",
+            "objects.objects.name",
+            "ACTOR_PROFILES.profiles.name"
+          ]
+        }
+      ],
+      "disambiguation_notes": [
+        "Ingabire / Ингабире отдельно неоднозначно: в утверждённом списке также Victoire Ingabire Umuhoza.",
+        "Совпадение имени в публикации не устанавливает авторство высказывания; требуется атрибуция."
+      ],
+      "rawsourceSHA": {
+        "studies/rwanda-politicians-2021-2026/study.json": "90aaddc075c2c0ede61ea1efaff707139d9568b020c47fefe5b28ceb580f6174",
+        "research/rwanda_politicians_2021_2026/objects.json": "640bbbd2333843b17171138c090fcbb0cdec60c101dfa89c43ddbd5014685b9b",
+        "research/rwanda_politicians_2021_2026/ACTOR_PROFILES.json": "c2cfc38d3ffb383673984ed1e1483d9097d60e7b8ee309552702f1d1c10150ab"
+      }
+    },
+    {
+      "id": "sabin-nsanzimana",
+      "order": 13,
+      "name": "Сабин Нсанзимана",
+      "canonical_latin": "Sabin Nsanzimana",
+      "aliases": [
+        {
+          "text": "Sabin Nsanzimana",
+          "alias_kind": "canonical_latin",
+          "priority": 1,
+          "provenance": [
+            "study.objects.name_original",
+            "objects.objects.name_original",
+            "ACTOR_PROFILES.profiles.original_name"
+          ]
+        },
+        {
+          "text": "Сабин Нсанзимана",
+          "alias_kind": "canonical_russian",
+          "priority": 1,
+          "provenance": [
+            "study.objects.name",
+            "objects.objects.name",
+            "ACTOR_PROFILES.profiles.name"
+          ]
+        }
+      ],
+      "disambiguation_notes": [
+        "Совпадение имени в публикации не устанавливает авторство высказывания; требуется атрибуция."
+      ],
+      "rawsourceSHA": {
+        "studies/rwanda-politicians-2021-2026/study.json": "90aaddc075c2c0ede61ea1efaff707139d9568b020c47fefe5b28ceb580f6174",
+        "research/rwanda_politicians_2021_2026/objects.json": "640bbbd2333843b17171138c090fcbb0cdec60c101dfa89c43ddbd5014685b9b",
+        "research/rwanda_politicians_2021_2026/ACTOR_PROFILES.json": "c2cfc38d3ffb383673984ed1e1483d9097d60e7b8ee309552702f1d1c10150ab"
+      }
+    },
+    {
+      "id": "judith-uwizeye",
+      "order": 14,
+      "name": "Жюдит Увизейе",
+      "canonical_latin": "Judith Uwizeye",
+      "aliases": [
+        {
+          "text": "Judith Uwizeye",
+          "alias_kind": "canonical_latin",
+          "priority": 1,
+          "provenance": [
+            "study.objects.name_original",
+            "objects.objects.name_original",
+            "ACTOR_PROFILES.profiles.original_name"
+          ]
+        },
+        {
+          "text": "Жюдит Увизейе",
+          "alias_kind": "canonical_russian",
+          "priority": 1,
+          "provenance": [
+            "study.objects.name",
+            "objects.objects.name",
+            "ACTOR_PROFILES.profiles.name"
+          ]
+        }
+      ],
+      "disambiguation_notes": [
+        "Совпадение имени в публикации не устанавливает авторство высказывания; требуется атрибуция."
+      ],
+      "rawsourceSHA": {
+        "studies/rwanda-politicians-2021-2026/study.json": "90aaddc075c2c0ede61ea1efaff707139d9568b020c47fefe5b28ceb580f6174",
+        "research/rwanda_politicians_2021_2026/objects.json": "640bbbd2333843b17171138c090fcbb0cdec60c101dfa89c43ddbd5014685b9b",
+        "research/rwanda_politicians_2021_2026/ACTOR_PROFILES.json": "c2cfc38d3ffb383673984ed1e1483d9097d60e7b8ee309552702f1d1c10150ab"
+      }
+    },
+    {
+      "id": "ines-mpambara",
+      "order": 15,
+      "name": "Инес Мпамбара",
+      "canonical_latin": "Inès Mpambara",
+      "aliases": [
+        {
+          "text": "Inès Mpambara",
+          "alias_kind": "canonical_latin",
+          "priority": 1,
+          "provenance": [
+            "study.objects.name_original",
+            "objects.objects.name_original",
+            "ACTOR_PROFILES.profiles.original_name"
+          ]
+        },
+        {
+          "text": "Инес Мпамбара",
+          "alias_kind": "canonical_russian",
+          "priority": 1,
+          "provenance": [
+            "study.objects.name",
+            "objects.objects.name",
+            "ACTOR_PROFILES.profiles.name"
+          ]
+        },
+        {
+          "text": "Ines Mpambara",
+          "alias_kind": "diacritic_stripped",
+          "priority": 2,
+          "provenance": [
+            "canonical_latin"
+          ],
+          "transformation": "Unicode decomposition; remove combining marks"
+        }
+      ],
+      "disambiguation_notes": [
+        "Совпадение имени в публикации не устанавливает авторство высказывания; требуется атрибуция."
+      ],
+      "rawsourceSHA": {
+        "studies/rwanda-politicians-2021-2026/study.json": "90aaddc075c2c0ede61ea1efaff707139d9568b020c47fefe5b28ceb580f6174",
+        "research/rwanda_politicians_2021_2026/objects.json": "640bbbd2333843b17171138c090fcbb0cdec60c101dfa89c43ddbd5014685b9b",
+        "research/rwanda_politicians_2021_2026/ACTOR_PROFILES.json": "c2cfc38d3ffb383673984ed1e1483d9097d60e7b8ee309552702f1d1c10150ab"
+      }
+    },
+    {
+      "id": "valentine-uwamariya",
+      "order": 16,
+      "name": "Валентин Увамария",
+      "canonical_latin": "Valentine Uwamariya",
+      "aliases": [
+        {
+          "text": "Valentine Uwamariya",
+          "alias_kind": "canonical_latin",
+          "priority": 1,
+          "provenance": [
+            "study.objects.name_original",
+            "objects.objects.name_original",
+            "ACTOR_PROFILES.profiles.original_name"
+          ]
+        },
+        {
+          "text": "Валентин Увамария",
+          "alias_kind": "canonical_russian",
+          "priority": 1,
+          "provenance": [
+            "study.objects.name",
+            "objects.objects.name",
+            "ACTOR_PROFILES.profiles.name"
+          ]
+        }
+      ],
+      "disambiguation_notes": [
+        "Valentine / Валентин отдельно неоднозначно: также Valentine Rugwabiza. Не смешивать Uwamariya с Mujawamariya по широкому усечению.",
+        "Совпадение имени в публикации не устанавливает авторство высказывания; требуется атрибуция."
+      ],
+      "rawsourceSHA": {
+        "studies/rwanda-politicians-2021-2026/study.json": "90aaddc075c2c0ede61ea1efaff707139d9568b020c47fefe5b28ceb580f6174",
+        "research/rwanda_politicians_2021_2026/objects.json": "640bbbd2333843b17171138c090fcbb0cdec60c101dfa89c43ddbd5014685b9b",
+        "research/rwanda_politicians_2021_2026/ACTOR_PROFILES.json": "c2cfc38d3ffb383673984ed1e1483d9097d60e7b8ee309552702f1d1c10150ab"
+      }
+    },
+    {
+      "id": "jeanne-darc-mujawamariya",
+      "order": 17,
+      "name": "Жанна д’Арк Муджавамария",
+      "canonical_latin": "Jeanne d'Arc Mujawamariya",
+      "aliases": [
+        {
+          "text": "Jeanne d'Arc Mujawamariya",
+          "alias_kind": "canonical_latin",
+          "priority": 1,
+          "provenance": [
+            "study.objects.name_original",
+            "objects.objects.name_original",
+            "ACTOR_PROFILES.profiles.original_name"
+          ]
+        },
+        {
+          "text": "Жанна д’Арк Муджавамария",
+          "alias_kind": "canonical_russian",
+          "priority": 1,
+          "provenance": [
+            "study.objects.name",
+            "objects.objects.name",
+            "ACTOR_PROFILES.profiles.name"
+          ]
+        },
+        {
+          "text": "Jeanne d’Arc Mujawamariya",
+          "alias_kind": "apostrophe_variant",
+          "priority": 2,
+          "provenance": [
+            "canonical_latin"
+          ],
+          "transformation": "Normalize apostrophe to curly U+2019"
+        },
+        {
+          "text": "Jeanne d Arc Mujawamariya",
+          "alias_kind": "apostrophe_space_variant",
+          "priority": 2,
+          "provenance": [
+            "canonical_latin"
+          ],
+          "transformation": "Replace apostrophe with one space"
+        },
+        {
+          "text": "Jeanne dArc Mujawamariya",
+          "alias_kind": "apostrophe_omitted_variant",
+          "priority": 2,
+          "provenance": [
+            "canonical_latin"
+          ],
+          "transformation": "Remove apostrophe only; preserve remaining letters"
+        },
+        {
+          "text": "Жанна д'Арк Муджавамария",
+          "alias_kind": "apostrophe_variant",
+          "priority": 2,
+          "provenance": [
+            "canonical_russian"
+          ],
+          "transformation": "Normalize apostrophe to ASCII U+0027"
+        },
+        {
+          "text": "Жанна д Арк Муджавамария",
+          "alias_kind": "apostrophe_space_variant",
+          "priority": 2,
+          "provenance": [
+            "canonical_russian"
+          ],
+          "transformation": "Replace apostrophe with one space"
+        },
+        {
+          "text": "Жанна дАрк Муджавамария",
+          "alias_kind": "apostrophe_omitted_variant",
+          "priority": 2,
+          "provenance": [
+            "canonical_russian"
+          ],
+          "transformation": "Remove apostrophe only; preserve remaining letters"
+        }
+      ],
+      "disambiguation_notes": [
+        "Пробелы и апострофы в d’Arc различаются. Mujawamariya не является вариантом Uwamariya.",
+        "Совпадение имени в публикации не устанавливает авторство высказывания; требуется атрибуция."
+      ],
+      "rawsourceSHA": {
+        "studies/rwanda-politicians-2021-2026/study.json": "90aaddc075c2c0ede61ea1efaff707139d9568b020c47fefe5b28ceb580f6174",
+        "research/rwanda_politicians_2021_2026/objects.json": "640bbbd2333843b17171138c090fcbb0cdec60c101dfa89c43ddbd5014685b9b",
+        "research/rwanda_politicians_2021_2026/ACTOR_PROFILES.json": "c2cfc38d3ffb383673984ed1e1483d9097d60e7b8ee309552702f1d1c10150ab"
+      }
+    },
+    {
+      "id": "gerardine-mukeshimana",
+      "order": 18,
+      "name": "Жерардин Мукешимана",
+      "canonical_latin": "Gérardine Mukeshimana",
+      "aliases": [
+        {
+          "text": "Gérardine Mukeshimana",
+          "alias_kind": "canonical_latin",
+          "priority": 1,
+          "provenance": [
+            "study.objects.name_original",
+            "objects.objects.name_original",
+            "ACTOR_PROFILES.profiles.original_name"
+          ]
+        },
+        {
+          "text": "Жерардин Мукешимана",
+          "alias_kind": "canonical_russian",
+          "priority": 1,
+          "provenance": [
+            "study.objects.name",
+            "objects.objects.name",
+            "ACTOR_PROFILES.profiles.name"
+          ]
+        },
+        {
+          "text": "Gerardine Mukeshimana",
+          "alias_kind": "diacritic_stripped",
+          "priority": 2,
+          "provenance": [
+            "canonical_latin"
+          ],
+          "transformation": "Unicode decomposition; remove combining marks"
+        }
+      ],
+      "disambiguation_notes": [
+        "Совпадение имени в публикации не устанавливает авторство высказывания; требуется атрибуция."
+      ],
+      "rawsourceSHA": {
+        "studies/rwanda-politicians-2021-2026/study.json": "90aaddc075c2c0ede61ea1efaff707139d9568b020c47fefe5b28ceb580f6174",
+        "research/rwanda_politicians_2021_2026/objects.json": "640bbbd2333843b17171138c090fcbb0cdec60c101dfa89c43ddbd5014685b9b",
+        "research/rwanda_politicians_2021_2026/ACTOR_PROFILES.json": "c2cfc38d3ffb383673984ed1e1483d9097d60e7b8ee309552702f1d1c10150ab"
+      }
+    },
+    {
+      "id": "ildephonse-musafiri",
+      "order": 19,
+      "name": "Ильдефонс Мусафири",
+      "canonical_latin": "Ildephonse Musafiri",
+      "aliases": [
+        {
+          "text": "Ildephonse Musafiri",
+          "alias_kind": "canonical_latin",
+          "priority": 1,
+          "provenance": [
+            "study.objects.name_original",
+            "objects.objects.name_original",
+            "ACTOR_PROFILES.profiles.original_name"
+          ]
+        },
+        {
+          "text": "Ильдефонс Мусафири",
+          "alias_kind": "canonical_russian",
+          "priority": 1,
+          "provenance": [
+            "study.objects.name",
+            "objects.objects.name",
+            "ACTOR_PROFILES.profiles.name"
+          ]
+        }
+      ],
+      "disambiguation_notes": [
+        "Совпадение имени в публикации не устанавливает авторство высказывания; требуется атрибуция."
+      ],
+      "rawsourceSHA": {
+        "studies/rwanda-politicians-2021-2026/study.json": "90aaddc075c2c0ede61ea1efaff707139d9568b020c47fefe5b28ceb580f6174",
+        "research/rwanda_politicians_2021_2026/objects.json": "640bbbd2333843b17171138c090fcbb0cdec60c101dfa89c43ddbd5014685b9b",
+        "research/rwanda_politicians_2021_2026/ACTOR_PROFILES.json": "c2cfc38d3ffb383673984ed1e1483d9097d60e7b8ee309552702f1d1c10150ab"
+      }
+    },
+    {
+      "id": "jean-claude-musabyimana",
+      "order": 20,
+      "name": "Жан-Клод Мусабийимана",
+      "canonical_latin": "Jean Claude Musabyimana",
+      "aliases": [
+        {
+          "text": "Jean Claude Musabyimana",
+          "alias_kind": "canonical_latin",
+          "priority": 1,
+          "provenance": [
+            "study.objects.name_original",
+            "objects.objects.name_original",
+            "ACTOR_PROFILES.profiles.original_name"
+          ]
+        },
+        {
+          "text": "Жан-Клод Мусабийимана",
+          "alias_kind": "canonical_russian",
+          "priority": 1,
+          "provenance": [
+            "study.objects.name",
+            "objects.objects.name",
+            "ACTOR_PROFILES.profiles.name"
+          ]
+        },
+        {
+          "text": "Жан Клод Мусабийимана",
+          "alias_kind": "hyphen_space_variant",
+          "priority": 2,
+          "provenance": [
+            "canonical_russian"
+          ],
+          "transformation": "Replace hyphen with one space"
+        },
+        {
+          "text": "Жан‑Клод Мусабийимана",
+          "alias_kind": "hyphen_codepoint_variant",
+          "priority": 2,
+          "provenance": [
+            "canonical_russian"
+          ],
+          "transformation": "Replace ASCII hyphen with nonbreaking hyphen U+2011"
+        }
+      ],
+      "disambiguation_notes": [
+        "Совпадение имени в публикации не устанавливает авторство высказывания; требуется атрибуция."
+      ],
+      "rawsourceSHA": {
+        "studies/rwanda-politicians-2021-2026/study.json": "90aaddc075c2c0ede61ea1efaff707139d9568b020c47fefe5b28ceb580f6174",
+        "research/rwanda_politicians_2021_2026/objects.json": "640bbbd2333843b17171138c090fcbb0cdec60c101dfa89c43ddbd5014685b9b",
+        "research/rwanda_politicians_2021_2026/ACTOR_PROFILES.json": "c2cfc38d3ffb383673984ed1e1483d9097d60e7b8ee309552702f1d1c10150ab"
+      }
+    },
+    {
+      "id": "jean-damascene-bizimana",
+      "order": 21,
+      "name": "Жан-Дамасен Бизимана",
+      "canonical_latin": "Jean-Damascène Bizimana",
+      "aliases": [
+        {
+          "text": "Jean-Damascène Bizimana",
+          "alias_kind": "canonical_latin",
+          "priority": 1,
+          "provenance": [
+            "study.objects.name_original",
+            "objects.objects.name_original",
+            "ACTOR_PROFILES.profiles.original_name"
+          ]
+        },
+        {
+          "text": "Жан-Дамасен Бизимана",
+          "alias_kind": "canonical_russian",
+          "priority": 1,
+          "provenance": [
+            "study.objects.name",
+            "objects.objects.name",
+            "ACTOR_PROFILES.profiles.name"
+          ]
+        },
+        {
+          "text": "Jean-Damascene Bizimana",
+          "alias_kind": "diacritic_stripped",
+          "priority": 2,
+          "provenance": [
+            "canonical_latin"
+          ],
+          "transformation": "Unicode decomposition; remove combining marks"
+        },
+        {
+          "text": "Jean Damascène Bizimana",
+          "alias_kind": "hyphen_space_variant",
+          "priority": 2,
+          "provenance": [
+            "canonical_latin"
+          ],
+          "transformation": "Replace hyphen with one space"
+        },
+        {
+          "text": "Jean‑Damascène Bizimana",
+          "alias_kind": "hyphen_codepoint_variant",
+          "priority": 2,
+          "provenance": [
+            "canonical_latin"
+          ],
+          "transformation": "Replace ASCII hyphen with nonbreaking hyphen U+2011"
+        },
+        {
+          "text": "Jean Damascene Bizimana",
+          "alias_kind": "hyphen_space_variant",
+          "priority": 2,
+          "provenance": [
+            "canonical_latin"
+          ],
+          "transformation": "Replace hyphen with one space"
+        },
+        {
+          "text": "Jean‑Damascene Bizimana",
+          "alias_kind": "hyphen_codepoint_variant",
+          "priority": 2,
+          "provenance": [
+            "canonical_latin"
+          ],
+          "transformation": "Replace ASCII hyphen with nonbreaking hyphen U+2011"
+        },
+        {
+          "text": "Жан Дамасен Бизимана",
+          "alias_kind": "hyphen_space_variant",
+          "priority": 2,
+          "provenance": [
+            "canonical_russian"
+          ],
+          "transformation": "Replace hyphen with one space"
+        },
+        {
+          "text": "Жан‑Дамасен Бизимана",
+          "alias_kind": "hyphen_codepoint_variant",
+          "priority": 2,
+          "provenance": [
+            "canonical_russian"
+          ],
+          "transformation": "Replace ASCII hyphen with nonbreaking hyphen U+2011"
+        }
+      ],
+      "disambiguation_notes": [
+        "Совпадение имени в публикации не устанавливает авторство высказывания; требуется атрибуция."
+      ],
+      "rawsourceSHA": {
+        "studies/rwanda-politicians-2021-2026/study.json": "90aaddc075c2c0ede61ea1efaff707139d9568b020c47fefe5b28ceb580f6174",
+        "research/rwanda_politicians_2021_2026/objects.json": "640bbbd2333843b17171138c090fcbb0cdec60c101dfa89c43ddbd5014685b9b",
+        "research/rwanda_politicians_2021_2026/ACTOR_PROFILES.json": "c2cfc38d3ffb383673984ed1e1483d9097d60e7b8ee309552702f1d1c10150ab"
+      }
+    },
+    {
+      "id": "clare-akamanzi",
+      "order": 22,
+      "name": "Клэр Акаманзи",
+      "canonical_latin": "Clare Akamanzi",
+      "aliases": [
+        {
+          "text": "Clare Akamanzi",
+          "alias_kind": "canonical_latin",
+          "priority": 1,
+          "provenance": [
+            "study.objects.name_original",
+            "objects.objects.name_original",
+            "ACTOR_PROFILES.profiles.original_name"
+          ]
+        },
+        {
+          "text": "Клэр Акаманзи",
+          "alias_kind": "canonical_russian",
+          "priority": 1,
+          "provenance": [
+            "study.objects.name",
+            "objects.objects.name",
+            "ACTOR_PROFILES.profiles.name"
+          ]
+        }
+      ],
+      "disambiguation_notes": [
+        "Совпадение имени в публикации не устанавливает авторство высказывания; требуется атрибуция."
+      ],
+      "rawsourceSHA": {
+        "studies/rwanda-politicians-2021-2026/study.json": "90aaddc075c2c0ede61ea1efaff707139d9568b020c47fefe5b28ceb580f6174",
+        "research/rwanda_politicians_2021_2026/objects.json": "640bbbd2333843b17171138c090fcbb0cdec60c101dfa89c43ddbd5014685b9b",
+        "research/rwanda_politicians_2021_2026/ACTOR_PROFILES.json": "c2cfc38d3ffb383673984ed1e1483d9097d60e7b8ee309552702f1d1c10150ab"
+      }
+    },
+    {
+      "id": "francis-gatare",
+      "order": 23,
+      "name": "Франсис Гатаре",
+      "canonical_latin": "Francis Gatare",
+      "aliases": [
+        {
+          "text": "Francis Gatare",
+          "alias_kind": "canonical_latin",
+          "priority": 1,
+          "provenance": [
+            "study.objects.name_original",
+            "objects.objects.name_original",
+            "ACTOR_PROFILES.profiles.original_name"
+          ]
+        },
+        {
+          "text": "Франсис Гатаре",
+          "alias_kind": "canonical_russian",
+          "priority": 1,
+          "provenance": [
+            "study.objects.name",
+            "objects.objects.name",
+            "ACTOR_PROFILES.profiles.name"
+          ]
+        }
+      ],
+      "disambiguation_notes": [
+        "Gatare / Гатаре не смешивать с Gatete / Гатете.",
+        "Совпадение имени в публикации не устанавливает авторство высказывания; требуется атрибуция."
+      ],
+      "rawsourceSHA": {
+        "studies/rwanda-politicians-2021-2026/study.json": "90aaddc075c2c0ede61ea1efaff707139d9568b020c47fefe5b28ceb580f6174",
+        "research/rwanda_politicians_2021_2026/objects.json": "640bbbd2333843b17171138c090fcbb0cdec60c101dfa89c43ddbd5014685b9b",
+        "research/rwanda_politicians_2021_2026/ACTOR_PROFILES.json": "c2cfc38d3ffb383673984ed1e1483d9097d60e7b8ee309552702f1d1c10150ab"
+      }
+    },
+    {
+      "id": "gertrude-kazarwa",
+      "order": 24,
+      "name": "Гертруда Казарва",
+      "canonical_latin": "Gertrude Kazarwa",
+      "aliases": [
+        {
+          "text": "Gertrude Kazarwa",
+          "alias_kind": "canonical_latin",
+          "priority": 1,
+          "provenance": [
+            "study.objects.name_original",
+            "objects.objects.name_original",
+            "ACTOR_PROFILES.profiles.original_name"
+          ]
+        },
+        {
+          "text": "Гертруда Казарва",
+          "alias_kind": "canonical_russian",
+          "priority": 1,
+          "provenance": [
+            "study.objects.name",
+            "objects.objects.name",
+            "ACTOR_PROFILES.profiles.name"
+          ]
+        }
+      ],
+      "disambiguation_notes": [
+        "Совпадение имени в публикации не устанавливает авторство высказывания; требуется атрибуция."
+      ],
+      "rawsourceSHA": {
+        "studies/rwanda-politicians-2021-2026/study.json": "90aaddc075c2c0ede61ea1efaff707139d9568b020c47fefe5b28ceb580f6174",
+        "research/rwanda_politicians_2021_2026/objects.json": "640bbbd2333843b17171138c090fcbb0cdec60c101dfa89c43ddbd5014685b9b",
+        "research/rwanda_politicians_2021_2026/ACTOR_PROFILES.json": "c2cfc38d3ffb383673984ed1e1483d9097d60e7b8ee309552702f1d1c10150ab"
+      }
+    },
+    {
+      "id": "donatille-mukabalisa",
+      "order": 25,
+      "name": "Донатиль Мукабалиса",
+      "canonical_latin": "Donatille Mukabalisa",
+      "aliases": [
+        {
+          "text": "Donatille Mukabalisa",
+          "alias_kind": "canonical_latin",
+          "priority": 1,
+          "provenance": [
+            "study.objects.name_original",
+            "objects.objects.name_original",
+            "ACTOR_PROFILES.profiles.original_name"
+          ]
+        },
+        {
+          "text": "Донатиль Мукабалиса",
+          "alias_kind": "canonical_russian",
+          "priority": 1,
+          "provenance": [
+            "study.objects.name",
+            "objects.objects.name",
+            "ACTOR_PROFILES.profiles.name"
+          ]
+        }
+      ],
+      "disambiguation_notes": [
+        "Совпадение имени в публикации не устанавливает авторство высказывания; требуется атрибуция."
+      ],
+      "rawsourceSHA": {
+        "studies/rwanda-politicians-2021-2026/study.json": "90aaddc075c2c0ede61ea1efaff707139d9568b020c47fefe5b28ceb580f6174",
+        "research/rwanda_politicians_2021_2026/objects.json": "640bbbd2333843b17171138c090fcbb0cdec60c101dfa89c43ddbd5014685b9b",
+        "research/rwanda_politicians_2021_2026/ACTOR_PROFILES.json": "c2cfc38d3ffb383673984ed1e1483d9097d60e7b8ee309552702f1d1c10150ab"
+      }
+    },
+    {
+      "id": "francois-xavier-kalinda",
+      "order": 26,
+      "name": "Франсуа-Ксавье Калинда",
+      "canonical_latin": "François-Xavier Kalinda",
+      "aliases": [
+        {
+          "text": "François-Xavier Kalinda",
+          "alias_kind": "canonical_latin",
+          "priority": 1,
+          "provenance": [
+            "study.objects.name_original",
+            "objects.objects.name_original",
+            "ACTOR_PROFILES.profiles.original_name"
+          ]
+        },
+        {
+          "text": "Франсуа-Ксавье Калинда",
+          "alias_kind": "canonical_russian",
+          "priority": 1,
+          "provenance": [
+            "study.objects.name",
+            "objects.objects.name",
+            "ACTOR_PROFILES.profiles.name"
+          ]
+        },
+        {
+          "text": "Francois-Xavier Kalinda",
+          "alias_kind": "diacritic_stripped",
+          "priority": 2,
+          "provenance": [
+            "canonical_latin"
+          ],
+          "transformation": "Unicode decomposition; remove combining marks"
+        },
+        {
+          "text": "François Xavier Kalinda",
+          "alias_kind": "hyphen_space_variant",
+          "priority": 2,
+          "provenance": [
+            "canonical_latin"
+          ],
+          "transformation": "Replace hyphen with one space"
+        },
+        {
+          "text": "François‑Xavier Kalinda",
+          "alias_kind": "hyphen_codepoint_variant",
+          "priority": 2,
+          "provenance": [
+            "canonical_latin"
+          ],
+          "transformation": "Replace ASCII hyphen with nonbreaking hyphen U+2011"
+        },
+        {
+          "text": "Francois Xavier Kalinda",
+          "alias_kind": "hyphen_space_variant",
+          "priority": 2,
+          "provenance": [
+            "canonical_latin"
+          ],
+          "transformation": "Replace hyphen with one space"
+        },
+        {
+          "text": "Francois‑Xavier Kalinda",
+          "alias_kind": "hyphen_codepoint_variant",
+          "priority": 2,
+          "provenance": [
+            "canonical_latin"
+          ],
+          "transformation": "Replace ASCII hyphen with nonbreaking hyphen U+2011"
+        },
+        {
+          "text": "Франсуа Ксавье Калинда",
+          "alias_kind": "hyphen_space_variant",
+          "priority": 2,
+          "provenance": [
+            "canonical_russian"
+          ],
+          "transformation": "Replace hyphen with one space"
+        },
+        {
+          "text": "Франсуа‑Ксавье Калинда",
+          "alias_kind": "hyphen_codepoint_variant",
+          "priority": 2,
+          "provenance": [
+            "canonical_russian"
+          ],
+          "transformation": "Replace ASCII hyphen with nonbreaking hyphen U+2011"
+        }
+      ],
+      "disambiguation_notes": [
+        "Совпадение имени в публикации не устанавливает авторство высказывания; требуется атрибуция."
+      ],
+      "rawsourceSHA": {
+        "studies/rwanda-politicians-2021-2026/study.json": "90aaddc075c2c0ede61ea1efaff707139d9568b020c47fefe5b28ceb580f6174",
+        "research/rwanda_politicians_2021_2026/objects.json": "640bbbd2333843b17171138c090fcbb0cdec60c101dfa89c43ddbd5014685b9b",
+        "research/rwanda_politicians_2021_2026/ACTOR_PROFILES.json": "c2cfc38d3ffb383673984ed1e1483d9097d60e7b8ee309552702f1d1c10150ab"
+      }
+    },
+    {
+      "id": "augustin-iyamuremye",
+      "order": 27,
+      "name": "Огюстен Иямуремье",
+      "canonical_latin": "Augustin Iyamuremye",
+      "aliases": [
+        {
+          "text": "Augustin Iyamuremye",
+          "alias_kind": "canonical_latin",
+          "priority": 1,
+          "provenance": [
+            "study.objects.name_original",
+            "objects.objects.name_original",
+            "ACTOR_PROFILES.profiles.original_name"
+          ]
+        },
+        {
+          "text": "Огюстен Иямуремье",
+          "alias_kind": "canonical_russian",
+          "priority": 1,
+          "provenance": [
+            "study.objects.name",
+            "objects.objects.name",
+            "ACTOR_PROFILES.profiles.name"
+          ]
+        }
+      ],
+      "disambiguation_notes": [
+        "Совпадение имени в публикации не устанавливает авторство высказывания; требуется атрибуция."
+      ],
+      "rawsourceSHA": {
+        "studies/rwanda-politicians-2021-2026/study.json": "90aaddc075c2c0ede61ea1efaff707139d9568b020c47fefe5b28ceb580f6174",
+        "research/rwanda_politicians_2021_2026/objects.json": "640bbbd2333843b17171138c090fcbb0cdec60c101dfa89c43ddbd5014685b9b",
+        "research/rwanda_politicians_2021_2026/ACTOR_PROFILES.json": "c2cfc38d3ffb383673984ed1e1483d9097d60e7b8ee309552702f1d1c10150ab"
+      }
+    },
+    {
+      "id": "alvera-mukabaramba",
+      "order": 28,
+      "name": "Альвера Мукабарамба",
+      "canonical_latin": "Alvera Mukabaramba",
+      "aliases": [
+        {
+          "text": "Alvera Mukabaramba",
+          "alias_kind": "canonical_latin",
+          "priority": 1,
+          "provenance": [
+            "study.objects.name_original",
+            "objects.objects.name_original",
+            "ACTOR_PROFILES.profiles.original_name"
+          ]
+        },
+        {
+          "text": "Альвера Мукабарамба",
+          "alias_kind": "canonical_russian",
+          "priority": 1,
+          "provenance": [
+            "study.objects.name",
+            "objects.objects.name",
+            "ACTOR_PROFILES.profiles.name"
+          ]
+        }
+      ],
+      "disambiguation_notes": [
+        "Совпадение имени в публикации не устанавливает авторство высказывания; требуется атрибуция."
+      ],
+      "rawsourceSHA": {
+        "studies/rwanda-politicians-2021-2026/study.json": "90aaddc075c2c0ede61ea1efaff707139d9568b020c47fefe5b28ceb580f6174",
+        "research/rwanda_politicians_2021_2026/objects.json": "640bbbd2333843b17171138c090fcbb0cdec60c101dfa89c43ddbd5014685b9b",
+        "research/rwanda_politicians_2021_2026/ACTOR_PROFILES.json": "c2cfc38d3ffb383673984ed1e1483d9097d60e7b8ee309552702f1d1c10150ab"
+      }
+    },
+    {
+      "id": "mussa-fazil-harerimana",
+      "order": 29,
+      "name": "Мусса Фазиль Хареримана",
+      "canonical_latin": "Mussa Fazil Harerimana",
+      "aliases": [
+        {
+          "text": "Mussa Fazil Harerimana",
+          "alias_kind": "canonical_latin",
+          "priority": 1,
+          "provenance": [
+            "study.objects.name_original",
+            "objects.objects.name_original",
+            "ACTOR_PROFILES.profiles.original_name"
+          ]
+        },
+        {
+          "text": "Мусса Фазиль Хареримана",
+          "alias_kind": "canonical_russian",
+          "priority": 1,
+          "provenance": [
+            "study.objects.name",
+            "objects.objects.name",
+            "ACTOR_PROFILES.profiles.name"
+          ]
+        }
+      ],
+      "disambiguation_notes": [
+        "Совпадение имени в публикации не устанавливает авторство высказывания; требуется атрибуция."
+      ],
+      "rawsourceSHA": {
+        "studies/rwanda-politicians-2021-2026/study.json": "90aaddc075c2c0ede61ea1efaff707139d9568b020c47fefe5b28ceb580f6174",
+        "research/rwanda_politicians_2021_2026/objects.json": "640bbbd2333843b17171138c090fcbb0cdec60c101dfa89c43ddbd5014685b9b",
+        "research/rwanda_politicians_2021_2026/ACTOR_PROFILES.json": "c2cfc38d3ffb383673984ed1e1483d9097d60e7b8ee309552702f1d1c10150ab"
+      }
+    },
+    {
+      "id": "pudence-rubingisa",
+      "order": 30,
+      "name": "Пуденс Рубингиса",
+      "canonical_latin": "Pudence Rubingisa",
+      "aliases": [
+        {
+          "text": "Pudence Rubingisa",
+          "alias_kind": "canonical_latin",
+          "priority": 1,
+          "provenance": [
+            "study.objects.name_original",
+            "objects.objects.name_original",
+            "ACTOR_PROFILES.profiles.original_name"
+          ]
+        },
+        {
+          "text": "Пуденс Рубингиса",
+          "alias_kind": "canonical_russian",
+          "priority": 1,
+          "provenance": [
+            "study.objects.name",
+            "objects.objects.name",
+            "ACTOR_PROFILES.profiles.name"
+          ]
+        }
+      ],
+      "disambiguation_notes": [
+        "Совпадение имени в публикации не устанавливает авторство высказывания; требуется атрибуция."
+      ],
+      "rawsourceSHA": {
+        "studies/rwanda-politicians-2021-2026/study.json": "90aaddc075c2c0ede61ea1efaff707139d9568b020c47fefe5b28ceb580f6174",
+        "research/rwanda_politicians_2021_2026/objects.json": "640bbbd2333843b17171138c090fcbb0cdec60c101dfa89c43ddbd5014685b9b",
+        "research/rwanda_politicians_2021_2026/ACTOR_PROFILES.json": "c2cfc38d3ffb383673984ed1e1483d9097d60e7b8ee309552702f1d1c10150ab"
+      }
+    },
+    {
+      "id": "samuel-dusengiyumva",
+      "order": 31,
+      "name": "Самуэль Дусенгийюмва",
+      "canonical_latin": "Samuel Dusengiyumva",
+      "aliases": [
+        {
+          "text": "Samuel Dusengiyumva",
+          "alias_kind": "canonical_latin",
+          "priority": 1,
+          "provenance": [
+            "study.objects.name_original",
+            "objects.objects.name_original",
+            "ACTOR_PROFILES.profiles.original_name"
+          ]
+        },
+        {
+          "text": "Самуэль Дусенгийюмва",
+          "alias_kind": "canonical_russian",
+          "priority": 1,
+          "provenance": [
+            "study.objects.name",
+            "objects.objects.name",
+            "ACTOR_PROFILES.profiles.name"
+          ]
+        }
+      ],
+      "disambiguation_notes": [
+        "Dusengiyumva и Nsengiyumva — разные участники; общее усечение ngiyumva их смешивает.",
+        "Совпадение имени в публикации не устанавливает авторство высказывания; требуется атрибуция."
+      ],
+      "rawsourceSHA": {
+        "studies/rwanda-politicians-2021-2026/study.json": "90aaddc075c2c0ede61ea1efaff707139d9568b020c47fefe5b28ceb580f6174",
+        "research/rwanda_politicians_2021_2026/objects.json": "640bbbd2333843b17171138c090fcbb0cdec60c101dfa89c43ddbd5014685b9b",
+        "research/rwanda_politicians_2021_2026/ACTOR_PROFILES.json": "c2cfc38d3ffb383673984ed1e1483d9097d60e7b8ee309552702f1d1c10150ab"
+      }
+    },
+    {
+      "id": "frank-habineza",
+      "order": 32,
+      "name": "Франк Хабинеза",
+      "canonical_latin": "Frank Habineza",
+      "aliases": [
+        {
+          "text": "Frank Habineza",
+          "alias_kind": "canonical_latin",
+          "priority": 1,
+          "provenance": [
+            "study.objects.name_original",
+            "objects.objects.name_original",
+            "ACTOR_PROFILES.profiles.original_name"
+          ]
+        },
+        {
+          "text": "Франк Хабинеза",
+          "alias_kind": "canonical_russian",
+          "priority": 1,
+          "provenance": [
+            "study.objects.name",
+            "objects.objects.name",
+            "ACTOR_PROFILES.profiles.name"
+          ]
+        }
+      ],
+      "disambiguation_notes": [
+        "Совпадение имени в публикации не устанавливает авторство высказывания; требуется атрибуция."
+      ],
+      "rawsourceSHA": {
+        "studies/rwanda-politicians-2021-2026/study.json": "90aaddc075c2c0ede61ea1efaff707139d9568b020c47fefe5b28ceb580f6174",
+        "research/rwanda_politicians_2021_2026/objects.json": "640bbbd2333843b17171138c090fcbb0cdec60c101dfa89c43ddbd5014685b9b",
+        "research/rwanda_politicians_2021_2026/ACTOR_PROFILES.json": "c2cfc38d3ffb383673984ed1e1483d9097d60e7b8ee309552702f1d1c10150ab"
+      }
+    },
+    {
+      "id": "philippe-mpayimana",
+      "order": 33,
+      "name": "Филипп Мпайимана",
+      "canonical_latin": "Philippe Mpayimana",
+      "aliases": [
+        {
+          "text": "Philippe Mpayimana",
+          "alias_kind": "canonical_latin",
+          "priority": 1,
+          "provenance": [
+            "study.objects.name_original",
+            "objects.objects.name_original",
+            "ACTOR_PROFILES.profiles.original_name"
+          ]
+        },
+        {
+          "text": "Филипп Мпайимана",
+          "alias_kind": "canonical_russian",
+          "priority": 1,
+          "provenance": [
+            "study.objects.name",
+            "objects.objects.name",
+            "ACTOR_PROFILES.profiles.name"
+          ]
+        }
+      ],
+      "disambiguation_notes": [
+        "Совпадение имени в публикации не устанавливает авторство высказывания; требуется атрибуция."
+      ],
+      "rawsourceSHA": {
+        "studies/rwanda-politicians-2021-2026/study.json": "90aaddc075c2c0ede61ea1efaff707139d9568b020c47fefe5b28ceb580f6174",
+        "research/rwanda_politicians_2021_2026/objects.json": "640bbbd2333843b17171138c090fcbb0cdec60c101dfa89c43ddbd5014685b9b",
+        "research/rwanda_politicians_2021_2026/ACTOR_PROFILES.json": "c2cfc38d3ffb383673984ed1e1483d9097d60e7b8ee309552702f1d1c10150ab"
+      }
+    },
+    {
+      "id": "victoire-ingabire",
+      "order": 34,
+      "name": "Виктуар Ингабире Умухоза",
+      "canonical_latin": "Victoire Ingabire Umuhoza",
+      "aliases": [
+        {
+          "text": "Victoire Ingabire Umuhoza",
+          "alias_kind": "canonical_latin",
+          "priority": 1,
+          "provenance": [
+            "study.objects.name_original",
+            "objects.objects.name_original",
+            "ACTOR_PROFILES.profiles.original_name"
+          ]
+        },
+        {
+          "text": "Виктуар Ингабире Умухоза",
+          "alias_kind": "canonical_russian",
+          "priority": 1,
+          "provenance": [
+            "study.objects.name",
+            "objects.objects.name",
+            "ACTOR_PROFILES.profiles.name"
+          ]
+        },
+        {
+          "text": "Victoire Ingabire",
+          "alias_kind": "source_title_short_form",
+          "priority": 3,
+          "provenance": [
+            {
+              "file": "studies/rwanda-politicians-2021-2026/evidence/independent-dossier-victoire-ingabire.json",
+              "source_title": "Victoire Ingabire: Rwandan opposition leader barred from election",
+              "source_url": "https://www.bbc.com/news/world-africa-68552517"
+            }
+          ]
+        }
+      ],
+      "disambiguation_notes": [
+        "Ingabire / Ингабире отдельно неоднозначно: также Paula Ingabire. Полное утверждённое русское имя включает Умухоза.",
+        "Совпадение имени в публикации не устанавливает авторство высказывания; требуется атрибуция."
+      ],
+      "rawsourceSHA": {
+        "studies/rwanda-politicians-2021-2026/study.json": "90aaddc075c2c0ede61ea1efaff707139d9568b020c47fefe5b28ceb580f6174",
+        "research/rwanda_politicians_2021_2026/objects.json": "640bbbd2333843b17171138c090fcbb0cdec60c101dfa89c43ddbd5014685b9b",
+        "research/rwanda_politicians_2021_2026/ACTOR_PROFILES.json": "c2cfc38d3ffb383673984ed1e1483d9097d60e7b8ee309552702f1d1c10150ab",
+        "studies/rwanda-politicians-2021-2026/evidence/independent-dossier-victoire-ingabire.json": "d86f176ea10dc865a36d675086a1711dc255d8eeb1ee11003166390ed505d510"
+      }
+    },
+    {
+      "id": "diane-rwigara",
+      "order": 35,
+      "name": "Диана Рвигара",
+      "canonical_latin": "Diane Shima Rwigara",
+      "aliases": [
+        {
+          "text": "Diane Shima Rwigara",
+          "alias_kind": "canonical_latin",
+          "priority": 1,
+          "provenance": [
+            "study.objects.name_original",
+            "objects.objects.name_original",
+            "ACTOR_PROFILES.profiles.original_name"
+          ]
+        },
+        {
+          "text": "Диана Рвигара",
+          "alias_kind": "canonical_russian",
+          "priority": 1,
+          "provenance": [
+            "study.objects.name",
+            "objects.objects.name",
+            "ACTOR_PROFILES.profiles.name"
+          ]
+        },
+        {
+          "text": "Diane Rwigara",
+          "alias_kind": "source_title_short_form",
+          "priority": 3,
+          "provenance": [
+            {
+              "file": "studies/rwanda-politicians-2021-2026/evidence/independent-dossier-diane-rwigara.json",
+              "source_title": "Kagame critic Diane Rwigara barred from Rwanda presidential race",
+              "source_url": "https://www.bbc.com/news/articles/cw007n5pn4wo"
+            }
+          ]
+        },
+        {
+          "text": "Shima Diane Rwigara",
+          "alias_kind": "source_title_name_order",
+          "priority": 3,
+          "provenance": [
+            {
+              "file": "studies/rwanda-politicians-2021-2026/evidence/independent-dossier-diane-rwigara.json",
+              "source_title": "Shima Diane Rwigara social-media profile",
+              "source_url": "https://x.com/ShimaRwigara"
+            }
+          ]
+        },
+        {
+          "text": "Rwigara",
+          "alias_kind": "distinctive_name_component_context_required",
+          "priority": 3,
+          "provenance": [
+            "mechanical_component_of_recorded_canonical_name"
+          ],
+          "requires_context_review": true,
+          "disambiguation_note": "Компонент имени; не утверждение о наследственной фамилии. Повышает полноту поиска, но спортивные упоминания, другие лица и принадлежность высказывания требуют проверки контекста."
+        },
+        {
+          "text": "Рвигара",
+          "alias_kind": "distinctive_name_component_context_required",
+          "priority": 3,
+          "provenance": [
+            "mechanical_component_of_recorded_canonical_name"
+          ],
+          "requires_context_review": true,
+          "disambiguation_note": "Компонент имени; не утверждение о наследственной фамилии. Повышает полноту поиска, но спортивные упоминания, другие лица и принадлежность высказывания требуют проверки контекста."
+        }
+      ],
+      "disambiguation_notes": [
+        "Краткое Diane Rwigara и порядок Shima Diane Rwigara подтверждены заголовками источников проекта; это не проверка аккаунта или handle.",
+        "Совпадение имени в публикации не устанавливает авторство высказывания; требуется атрибуция.",
+        "Одиночный компонент Rwigara / Рвигара используется только с проверкой роли и контекста; это не обозначение наследственной фамилии."
+      ],
+      "rawsourceSHA": {
+        "studies/rwanda-politicians-2021-2026/study.json": "90aaddc075c2c0ede61ea1efaff707139d9568b020c47fefe5b28ceb580f6174",
+        "research/rwanda_politicians_2021_2026/objects.json": "640bbbd2333843b17171138c090fcbb0cdec60c101dfa89c43ddbd5014685b9b",
+        "research/rwanda_politicians_2021_2026/ACTOR_PROFILES.json": "c2cfc38d3ffb383673984ed1e1483d9097d60e7b8ee309552702f1d1c10150ab",
+        "studies/rwanda-politicians-2021-2026/evidence/independent-dossier-diane-rwigara.json": "d6c898cbed0aff28dd851b3070efc1d8a485e5597fb76614a2e3136c3e66d271"
+      }
+    },
+    {
+      "id": "bernard-ntaganda",
+      "order": 36,
+      "name": "Бернар Нтаганда",
+      "canonical_latin": "Bernard Ntaganda",
+      "aliases": [
+        {
+          "text": "Bernard Ntaganda",
+          "alias_kind": "canonical_latin",
+          "priority": 1,
+          "provenance": [
+            "study.objects.name_original",
+            "objects.objects.name_original",
+            "ACTOR_PROFILES.profiles.original_name"
+          ]
+        },
+        {
+          "text": "Бернар Нтаганда",
+          "alias_kind": "canonical_russian",
+          "priority": 1,
+          "provenance": [
+            "study.objects.name",
+            "objects.objects.name",
+            "ACTOR_PROFILES.profiles.name"
+          ]
+        }
+      ],
+      "disambiguation_notes": [
+        "Совпадение имени в публикации не устанавливает авторство высказывания; требуется атрибуция."
+      ],
+      "rawsourceSHA": {
+        "studies/rwanda-politicians-2021-2026/study.json": "90aaddc075c2c0ede61ea1efaff707139d9568b020c47fefe5b28ceb580f6174",
+        "research/rwanda_politicians_2021_2026/objects.json": "640bbbd2333843b17171138c090fcbb0cdec60c101dfa89c43ddbd5014685b9b",
+        "research/rwanda_politicians_2021_2026/ACTOR_PROFILES.json": "c2cfc38d3ffb383673984ed1e1483d9097d60e7b8ee309552702f1d1c10150ab"
+      }
+    },
+    {
+      "id": "christopher-kayumba",
+      "order": 37,
+      "name": "Кристофер Каюмба",
+      "canonical_latin": "Christopher Kayumba",
+      "aliases": [
+        {
+          "text": "Christopher Kayumba",
+          "alias_kind": "canonical_latin",
+          "priority": 1,
+          "provenance": [
+            "study.objects.name_original",
+            "objects.objects.name_original",
+            "ACTOR_PROFILES.profiles.original_name"
+          ]
+        },
+        {
+          "text": "Кристофер Каюмба",
+          "alias_kind": "canonical_russian",
+          "priority": 1,
+          "provenance": [
+            "study.objects.name",
+            "objects.objects.name",
+            "ACTOR_PROFILES.profiles.name"
+          ]
+        }
+      ],
+      "disambiguation_notes": [
+        "Kayumba / Каюмба отдельно неоднозначно: также Faustin Kayumba Nyamwasa.",
+        "Совпадение имени в публикации не устанавливает авторство высказывания; требуется атрибуция."
+      ],
+      "rawsourceSHA": {
+        "studies/rwanda-politicians-2021-2026/study.json": "90aaddc075c2c0ede61ea1efaff707139d9568b020c47fefe5b28ceb580f6174",
+        "research/rwanda_politicians_2021_2026/objects.json": "640bbbd2333843b17171138c090fcbb0cdec60c101dfa89c43ddbd5014685b9b",
+        "research/rwanda_politicians_2021_2026/ACTOR_PROFILES.json": "c2cfc38d3ffb383673984ed1e1483d9097d60e7b8ee309552702f1d1c10150ab"
+      }
+    },
+    {
+      "id": "paul-rusesabagina",
+      "order": 38,
+      "name": "Поль Русесабагина",
+      "canonical_latin": "Paul Rusesabagina",
+      "aliases": [
+        {
+          "text": "Paul Rusesabagina",
+          "alias_kind": "canonical_latin",
+          "priority": 1,
+          "provenance": [
+            "study.objects.name_original",
+            "objects.objects.name_original",
+            "ACTOR_PROFILES.profiles.original_name"
+          ]
+        },
+        {
+          "text": "Поль Русесабагина",
+          "alias_kind": "canonical_russian",
+          "priority": 1,
+          "provenance": [
+            "study.objects.name",
+            "objects.objects.name",
+            "ACTOR_PROFILES.profiles.name"
+          ]
+        }
+      ],
+      "disambiguation_notes": [
+        "Совпадение имени в публикации не устанавливает авторство высказывания; требуется атрибуция."
+      ],
+      "rawsourceSHA": {
+        "studies/rwanda-politicians-2021-2026/study.json": "90aaddc075c2c0ede61ea1efaff707139d9568b020c47fefe5b28ceb580f6174",
+        "research/rwanda_politicians_2021_2026/objects.json": "640bbbd2333843b17171138c090fcbb0cdec60c101dfa89c43ddbd5014685b9b",
+        "research/rwanda_politicians_2021_2026/ACTOR_PROFILES.json": "c2cfc38d3ffb383673984ed1e1483d9097d60e7b8ee309552702f1d1c10150ab"
+      }
+    },
+    {
+      "id": "kayumba-nyamwasa",
+      "order": 39,
+      "name": "Фостен Каюмба Ньямваса",
+      "canonical_latin": "Faustin Kayumba Nyamwasa",
+      "aliases": [
+        {
+          "text": "Faustin Kayumba Nyamwasa",
+          "alias_kind": "canonical_latin",
+          "priority": 1,
+          "provenance": [
+            "study.objects.name_original",
+            "objects.objects.name_original",
+            "ACTOR_PROFILES.profiles.original_name"
+          ]
+        },
+        {
+          "text": "Фостен Каюмба Ньямваса",
+          "alias_kind": "canonical_russian",
+          "priority": 1,
+          "provenance": [
+            "study.objects.name",
+            "objects.objects.name",
+            "ACTOR_PROFILES.profiles.name"
+          ]
+        }
+      ],
+      "disambiguation_notes": [
+        "Kayumba / Каюмба отдельно неоднозначно: также Christopher Kayumba. Сокращения и перестановки без источника не добавлялись.",
+        "Совпадение имени в публикации не устанавливает авторство высказывания; требуется атрибуция."
+      ],
+      "rawsourceSHA": {
+        "studies/rwanda-politicians-2021-2026/study.json": "90aaddc075c2c0ede61ea1efaff707139d9568b020c47fefe5b28ceb580f6174",
+        "research/rwanda_politicians_2021_2026/objects.json": "640bbbd2333843b17171138c090fcbb0cdec60c101dfa89c43ddbd5014685b9b",
+        "research/rwanda_politicians_2021_2026/ACTOR_PROFILES.json": "c2cfc38d3ffb383673984ed1e1483d9097d60e7b8ee309552702f1d1c10150ab"
+      }
+    },
+    {
+      "id": "louise-mushikiwabo",
+      "order": 40,
+      "name": "Луиза Мушикивабо",
+      "canonical_latin": "Louise Mushikiwabo",
+      "aliases": [
+        {
+          "text": "Louise Mushikiwabo",
+          "alias_kind": "canonical_latin",
+          "priority": 1,
+          "provenance": [
+            "study.objects.name_original",
+            "objects.objects.name_original",
+            "ACTOR_PROFILES.profiles.original_name"
+          ]
+        },
+        {
+          "text": "Луиза Мушикивабо",
+          "alias_kind": "canonical_russian",
+          "priority": 1,
+          "provenance": [
+            "study.objects.name",
+            "objects.objects.name",
+            "ACTOR_PROFILES.profiles.name"
+          ]
+        }
+      ],
+      "disambiguation_notes": [
+        "Совпадение имени в публикации не устанавливает авторство высказывания; требуется атрибуция."
+      ],
+      "rawsourceSHA": {
+        "studies/rwanda-politicians-2021-2026/study.json": "90aaddc075c2c0ede61ea1efaff707139d9568b020c47fefe5b28ceb580f6174",
+        "research/rwanda_politicians_2021_2026/objects.json": "640bbbd2333843b17171138c090fcbb0cdec60c101dfa89c43ddbd5014685b9b",
+        "research/rwanda_politicians_2021_2026/ACTOR_PROFILES.json": "c2cfc38d3ffb383673984ed1e1483d9097d60e7b8ee309552702f1d1c10150ab"
+      }
+    },
+    {
+      "id": "claver-gatete",
+      "order": 41,
+      "name": "Клавер Гатете",
+      "canonical_latin": "Claver Gatete",
+      "aliases": [
+        {
+          "text": "Claver Gatete",
+          "alias_kind": "canonical_latin",
+          "priority": 1,
+          "provenance": [
+            "study.objects.name_original",
+            "objects.objects.name_original",
+            "ACTOR_PROFILES.profiles.original_name"
+          ]
+        },
+        {
+          "text": "Клавер Гатете",
+          "alias_kind": "canonical_russian",
+          "priority": 1,
+          "provenance": [
+            "study.objects.name",
+            "objects.objects.name",
+            "ACTOR_PROFILES.profiles.name"
+          ]
+        }
+      ],
+      "disambiguation_notes": [
+        "Gatete / Гатете не смешивать с Gatare / Гатаре.",
+        "Совпадение имени в публикации не устанавливает авторство высказывания; требуется атрибуция."
+      ],
+      "rawsourceSHA": {
+        "studies/rwanda-politicians-2021-2026/study.json": "90aaddc075c2c0ede61ea1efaff707139d9568b020c47fefe5b28ceb580f6174",
+        "research/rwanda_politicians_2021_2026/objects.json": "640bbbd2333843b17171138c090fcbb0cdec60c101dfa89c43ddbd5014685b9b",
+        "research/rwanda_politicians_2021_2026/ACTOR_PROFILES.json": "c2cfc38d3ffb383673984ed1e1483d9097d60e7b8ee309552702f1d1c10150ab"
+      }
+    },
+    {
+      "id": "valentine-rugwabiza",
+      "order": 42,
+      "name": "Валентин Ругвабиза",
+      "canonical_latin": "Valentine Rugwabiza",
+      "aliases": [
+        {
+          "text": "Valentine Rugwabiza",
+          "alias_kind": "canonical_latin",
+          "priority": 1,
+          "provenance": [
+            "study.objects.name_original",
+            "objects.objects.name_original",
+            "ACTOR_PROFILES.profiles.original_name"
+          ]
+        },
+        {
+          "text": "Валентин Ругвабиза",
+          "alias_kind": "canonical_russian",
+          "priority": 1,
+          "provenance": [
+            "study.objects.name",
+            "objects.objects.name",
+            "ACTOR_PROFILES.profiles.name"
+          ]
+        }
+      ],
+      "disambiguation_notes": [
+        "Valentine / Валентин отдельно неоднозначно: также Valentine Uwamariya.",
+        "Совпадение имени в публикации не устанавливает авторство высказывания; требуется атрибуция."
+      ],
+      "rawsourceSHA": {
+        "studies/rwanda-politicians-2021-2026/study.json": "90aaddc075c2c0ede61ea1efaff707139d9568b020c47fefe5b28ceb580f6174",
+        "research/rwanda_politicians_2021_2026/objects.json": "640bbbd2333843b17171138c090fcbb0cdec60c101dfa89c43ddbd5014685b9b",
+        "research/rwanda_politicians_2021_2026/ACTOR_PROFILES.json": "c2cfc38d3ffb383673984ed1e1483d9097d60e7b8ee309552702f1d1c10150ab"
+      }
+    }
+  ],
+  "corrections": [
+    {
+      "reason": "Restrict diacritic stripping to Latin; preserve Cyrillic й and all canonical Russian spelling. Update morphology note to user-supplied query semantics. Add only four approved context-sensitive components.",
+      "previous_file_sha256": "1f6ae9966f4a86b56677b73062467f5cb19c45619aa26ddd842985275df52d56",
+      "removed_alias_count": 8,
+      "affected_object_ids": [
+        "justin-nsengiyumva",
+        "james-kabarebe",
+        "judith-uwizeye",
+        "jean-claude-musabyimana",
+        "samuel-dusengiyumva",
+        "philippe-mpayimana"
+      ]
+    }
+  ]
+}

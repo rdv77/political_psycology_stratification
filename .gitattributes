@@ -28,3 +28,5 @@
 /scripts/write_rwanda_q3_technical.py -text whitespace=trailing-space,space-before-tab,cr-at-eol
 /tests/test_ward_review.py -text
 /scripts/audit_rwanda_kagame_rwigara.py -text
+/scripts/build_rwanda_corpus_query.py -text
+/research/rwanda_politicians_2021_2026/corpus_search/** -text whitespace=trailing-space,space-before-tab,cr-at-eol
