@@ -1,0 +1,35 @@
+{
+  "date": "2026-10-18",
+  "tests": {
+    "full_suite": 587,
+    "failures": 0,
+    "errors": 0
+  },
+  "api_calls": 0,
+  "new_api_cost_usd": 0,
+  "original_corpus_accounting_unchanged": {
+    "jobs": 23908,
+    "facts": 11285,
+    "fact_reviews": 37,
+    "runs": 22459
+  },
+  "historical_recorded_api_cost_usd": 69.524789,
+  "corrected_fact_content_sha256_unchanged": "2a2696cf970bf6543cf9ac2b9d0b5475f9f333745b89ad0c815922db53ccfea8",
+  "canonical_study_and_source_v2_reanalysis_unchanged": true,
+  "full_corpus_candidate_indexed": 7021,
+  "unscored_candidate_facts_before_probe": 6897,
+  "shortlisted_unique_facts": 751,
+  "native_probe_sources": 6,
+  "native_probe_new_episode_ratings": 6,
+  "approved_38_variable_full_semantic_scoring_completed": false,
+  "text_model_is_approved_scale_factor_analysis": false,
+  "public_internal_raw_evidence_id_scan_passed": true,
+  "chart_visual_review": true,
+  "artifact_file_sha256": {
+    "reports/rwanda_scoring_bottleneck_2026_10_18.json": "a96fd2f2c6be1aa62976b3d6c818c420aa593c12e1d59a9b79fda254830d95e5",
+    "reports/rwanda_evidence_dossiers_2026_10_18.json": "804b7686711c88e2a08942129015e96d4f6607648ac66c3dabd01a3e34fbdfdd",
+    "reports/rwanda_native_probe_2026_10_18.json": "d398c1bb65df13d23089e6597b09451bc9a75268a3ac6ab332f25f3998cbbf83",
+    "reports/rwanda_native_probe_comparison_2026_10_18.json": "12c94bfa9d9df46a0a48f36484ee4424f72df29a77ce80230c734a727e6f3fea",
+    "reports/rwanda_text_structure_2026_10_18.json": "6415cef8c51ceba06c7bfa9d7479d9054570aa9deeb899654b92874e602ffa7f"
+  }
+}

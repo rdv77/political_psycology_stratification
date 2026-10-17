@@ -1,0 +1,161 @@
+{
+  "version": "rwanda-native-probe-comparison-v1",
+  "source_cases": 6,
+  "case_ratings_added": 6,
+  "scenarios": {
+    "strict_dated": {
+      "before": {
+        "roster_actors": 42,
+        "properties": 38,
+        "total_cells": 1596,
+        "observed_cells": 39,
+        "unknown_cells": 1557,
+        "coverage": 0.02443609022556391,
+        "actors_with_observed_properties": 18,
+        "properties_with_observations": 19,
+        "numeric_case_ratings_before_episode_deduplication": 53,
+        "episode_property_values_after_deduplication": 50,
+        "cells_held_for_event_independence": 0
+      },
+      "after": {
+        "roster_actors": 42,
+        "properties": 38,
+        "total_cells": 1596,
+        "observed_cells": 41,
+        "unknown_cells": 1555,
+        "coverage": 0.02568922305764411,
+        "actors_with_observed_properties": 18,
+        "properties_with_observations": 19,
+        "numeric_case_ratings_before_episode_deduplication": 56,
+        "episode_property_values_after_deduplication": 53,
+        "cells_held_for_event_independence": 0
+      },
+      "changed_cells": [
+        {
+          "actor_id": "paul-kagame",
+          "scale_id": "g10",
+          "before_value": null,
+          "after_value": 3,
+          "case_ids": [
+            "P01"
+          ]
+        },
+        {
+          "actor_id": "paul-kagame",
+          "scale_id": "m01",
+          "before_value": null,
+          "after_value": 3,
+          "case_ids": [
+            "P04"
+          ]
+        },
+        {
+          "actor_id": "paul-kagame",
+          "scale_id": "m10",
+          "before_value": 3,
+          "after_value": 3.5,
+          "case_ids": [
+            "E01",
+            "P04"
+          ]
+        }
+      ],
+      "factor_admission": "not_admissible"
+    },
+    "content_supported_unknown_time_sensitivity": {
+      "before": {
+        "roster_actors": 42,
+        "properties": 38,
+        "total_cells": 1596,
+        "observed_cells": 71,
+        "unknown_cells": 1525,
+        "coverage": 0.044486215538847115,
+        "actors_with_observed_properties": 28,
+        "properties_with_observations": 25,
+        "numeric_case_ratings_before_episode_deduplication": 123,
+        "episode_property_values_after_deduplication": 104,
+        "cells_held_for_event_independence": 7
+      },
+      "after": {
+        "roster_actors": 42,
+        "properties": 38,
+        "total_cells": 1596,
+        "observed_cells": 76,
+        "unknown_cells": 1520,
+        "coverage": 0.047619047619047616,
+        "actors_with_observed_properties": 28,
+        "properties_with_observations": 25,
+        "numeric_case_ratings_before_episode_deduplication": 129,
+        "episode_property_values_after_deduplication": 110,
+        "cells_held_for_event_independence": 7
+      },
+      "changed_cells": [
+        {
+          "actor_id": "paul-kagame",
+          "scale_id": "g03",
+          "before_value": null,
+          "after_value": 3,
+          "case_ids": [
+            "P05"
+          ]
+        },
+        {
+          "actor_id": "paul-kagame",
+          "scale_id": "g10",
+          "before_value": null,
+          "after_value": 3,
+          "case_ids": [
+            "P01"
+          ]
+        },
+        {
+          "actor_id": "paul-kagame",
+          "scale_id": "m01",
+          "before_value": null,
+          "after_value": 3,
+          "case_ids": [
+            "P04"
+          ]
+        },
+        {
+          "actor_id": "paul-kagame",
+          "scale_id": "m09",
+          "before_value": null,
+          "after_value": 2,
+          "case_ids": [
+            "P05"
+          ]
+        },
+        {
+          "actor_id": "paul-kagame",
+          "scale_id": "m10",
+          "before_value": 3,
+          "after_value": 3.5,
+          "case_ids": [
+            "E01",
+            "P04"
+          ]
+        },
+        {
+          "actor_id": "paul-kagame",
+          "scale_id": "m12",
+          "before_value": null,
+          "after_value": 5,
+          "case_ids": [
+            "P02"
+          ]
+        }
+      ],
+      "factor_admission": "not_admissible"
+    }
+  },
+  "api_calls": 0,
+  "new_api_cost_usd": 0,
+  "canonical_study_modified": false,
+  "mass_scoring_completed": false,
+  "provenance": {
+    "approved_dictionary_content_sha256": "c1d858d4f76423ebfc72f3d637c5b66e19c65d42de35816f36cff9308b58b729",
+    "source_case_manifest_content_sha256": "73438c8617c5d5256ec2cbfc0ebaf1dac6efad2fea9f60492cfbc9388eaecc97",
+    "native_review_content_sha256": "7daf0ae7ae2cefb948cb2f64699c5be7947b63dfef7645dda1ac2b9b2ed355ec"
+  }
+}

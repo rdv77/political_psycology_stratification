@@ -1,0 +1,569 @@
+{
+  "version": "complete-evidence-review-retrieval-v1",
+  "api_calls": 0,
+  "scores_generated": 0,
+  "retrieval_window": {
+    "date_from": "2021-10-15",
+    "date_to": "2026-10-17"
+  },
+  "counts": {
+    "input_facts_indexed": 11285,
+    "eligible_facts_indexed": 7021,
+    "ineligible_facts_preserved": 4264,
+    "eligible_facts_matching_at_least_one_query": 4105,
+    "eligible_facts_in_rescue_queue": 2916,
+    "distinct_shortlisted_facts": 751,
+    "actor_scale_cells": 1596
+  },
+  "exclusion_counts": {
+    "measurement_or_review_ineligible": 4264
+  },
+  "actors": [
+    {
+      "actor_id": "paul-kagame",
+      "name": "Paul Kagame",
+      "eligible_facts": 3461,
+      "unmatched_rescue_facts": 1839,
+      "shortlisted_facts": 90
+    },
+    {
+      "actor_id": "edouard-ngirente",
+      "name": "Edouard Ngirente",
+      "eligible_facts": 8,
+      "unmatched_rescue_facts": 2,
+      "shortlisted_facts": 6
+    },
+    {
+      "actor_id": "justin-nsengiyumva",
+      "name": "Justin Nsengiyumva",
+      "eligible_facts": 379,
+      "unmatched_rescue_facts": 146,
+      "shortlisted_facts": 70
+    },
+    {
+      "actor_id": "vincent-biruta",
+      "name": "Vincent Biruta",
+      "eligible_facts": 103,
+      "unmatched_rescue_facts": 43,
+      "shortlisted_facts": 29
+    },
+    {
+      "actor_id": "olivier-nduhungirehe",
+      "name": "Olivier J. P. Nduhungirehe",
+      "eligible_facts": 1387,
+      "unmatched_rescue_facts": 597,
+      "shortlisted_facts": 82
+    },
+    {
+      "actor_id": "james-kabarebe",
+      "name": "James Kabarebe",
+      "eligible_facts": 43,
+      "unmatched_rescue_facts": 26,
+      "shortlisted_facts": 10
+    },
+    {
+      "actor_id": "juvenal-marizamunda",
+      "name": "Juvenal Marizamunda",
+      "eligible_facts": 77,
+      "unmatched_rescue_facts": 44,
+      "shortlisted_facts": 16
+    },
+    {
+      "actor_id": "albert-murasira",
+      "name": "Albert Murasira",
+      "eligible_facts": 33,
+      "unmatched_rescue_facts": 2,
+      "shortlisted_facts": 21
+    },
+    {
+      "actor_id": "emmanuel-ugirashebuja",
+      "name": "Emmanuel Ugirashebuja",
+      "eligible_facts": 167,
+      "unmatched_rescue_facts": 0,
+      "shortlisted_facts": 38
+    },
+    {
+      "actor_id": "yusuf-murangwa",
+      "name": "Yusuf Murangwa",
+      "eligible_facts": 241,
+      "unmatched_rescue_facts": 3,
+      "shortlisted_facts": 47
+    },
+    {
+      "actor_id": "uzziel-ndagijimana",
+      "name": "Uzziel Ndagijimana",
+      "eligible_facts": 10,
+      "unmatched_rescue_facts": 4,
+      "shortlisted_facts": 6
+    },
+    {
+      "actor_id": "paula-ingabire",
+      "name": "Paula Ingabire",
+      "eligible_facts": 288,
+      "unmatched_rescue_facts": 1,
+      "shortlisted_facts": 57
+    },
+    {
+      "actor_id": "sabin-nsanzimana",
+      "name": "Sabin Nsanzimana",
+      "eligible_facts": 218,
+      "unmatched_rescue_facts": 64,
+      "shortlisted_facts": 47
+    },
+    {
+      "actor_id": "judith-uwizeye",
+      "name": "Judith Uwizeye",
+      "eligible_facts": 0,
+      "unmatched_rescue_facts": 0,
+      "shortlisted_facts": 0
+    },
+    {
+      "actor_id": "ines-mpambara",
+      "name": "Inès Mpambara",
+      "eligible_facts": 0,
+      "unmatched_rescue_facts": 0,
+      "shortlisted_facts": 0
+    },
+    {
+      "actor_id": "valentine-uwamariya",
+      "name": "Valentine Uwamariya",
+      "eligible_facts": 4,
+      "unmatched_rescue_facts": 1,
+      "shortlisted_facts": 3
+    },
+    {
+      "actor_id": "jeanne-darc-mujawamariya",
+      "name": "Jeanne d'Arc Mujawamariya",
+      "eligible_facts": 0,
+      "unmatched_rescue_facts": 0,
+      "shortlisted_facts": 0
+    },
+    {
+      "actor_id": "gerardine-mukeshimana",
+      "name": "Gérardine Mukeshimana",
+      "eligible_facts": 59,
+      "unmatched_rescue_facts": 7,
+      "shortlisted_facts": 18
+    },
+    {
+      "actor_id": "ildephonse-musafiri",
+      "name": "Ildephonse Musafiri",
+      "eligible_facts": 4,
+      "unmatched_rescue_facts": 1,
+      "shortlisted_facts": 2
+    },
+    {
+      "actor_id": "jean-claude-musabyimana",
+      "name": "Jean Claude Musabyimana",
+      "eligible_facts": 1,
+      "unmatched_rescue_facts": 0,
+      "shortlisted_facts": 1
+    },
+    {
+      "actor_id": "jean-damascene-bizimana",
+      "name": "Jean-Damascène Bizimana",
+      "eligible_facts": 70,
+      "unmatched_rescue_facts": 4,
+      "shortlisted_facts": 28
+    },
+    {
+      "actor_id": "clare-akamanzi",
+      "name": "Clare Akamanzi",
+      "eligible_facts": 63,
+      "unmatched_rescue_facts": 6,
+      "shortlisted_facts": 16
+    },
+    {
+      "actor_id": "francis-gatare",
+      "name": "Francis Gatare",
+      "eligible_facts": 28,
+      "unmatched_rescue_facts": 0,
+      "shortlisted_facts": 11
+    },
+    {
+      "actor_id": "gertrude-kazarwa",
+      "name": "Gertrude Kazarwa",
+      "eligible_facts": 11,
+      "unmatched_rescue_facts": 3,
+      "shortlisted_facts": 8
+    },
+    {
+      "actor_id": "donatille-mukabalisa",
+      "name": "Donatille Mukabalisa",
+      "eligible_facts": 0,
+      "unmatched_rescue_facts": 0,
+      "shortlisted_facts": 0
+    },
+    {
+      "actor_id": "francois-xavier-kalinda",
+      "name": "François-Xavier Kalinda",
+      "eligible_facts": 9,
+      "unmatched_rescue_facts": 5,
+      "shortlisted_facts": 4
+    },
+    {
+      "actor_id": "augustin-iyamuremye",
+      "name": "Augustin Iyamuremye",
+      "eligible_facts": 0,
+      "unmatched_rescue_facts": 0,
+      "shortlisted_facts": 0
+    },
+    {
+      "actor_id": "alvera-mukabaramba",
+      "name": "Alvera Mukabaramba",
+      "eligible_facts": 2,
+      "unmatched_rescue_facts": 1,
+      "shortlisted_facts": 1
+    },
+    {
+      "actor_id": "mussa-fazil-harerimana",
+      "name": "Mussa Fazil Harerimana",
+      "eligible_facts": 2,
+      "unmatched_rescue_facts": 1,
+      "shortlisted_facts": 1
+    },
+    {
+      "actor_id": "pudence-rubingisa",
+      "name": "Pudence Rubingisa",
+      "eligible_facts": 10,
+      "unmatched_rescue_facts": 1,
+      "shortlisted_facts": 7
+    },
+    {
+      "actor_id": "samuel-dusengiyumva",
+      "name": "Samuel Dusengiyumva",
+      "eligible_facts": 26,
+      "unmatched_rescue_facts": 13,
+      "shortlisted_facts": 11
+    },
+    {
+      "actor_id": "frank-habineza",
+      "name": "Frank Habineza",
+      "eligible_facts": 25,
+      "unmatched_rescue_facts": 4,
+      "shortlisted_facts": 16
+    },
+    {
+      "actor_id": "philippe-mpayimana",
+      "name": "Philippe Mpayimana",
+      "eligible_facts": 0,
+      "unmatched_rescue_facts": 0,
+      "shortlisted_facts": 0
+    },
+    {
+      "actor_id": "victoire-ingabire",
+      "name": "Victoire Ingabire Umuhoza",
+      "eligible_facts": 44,
+      "unmatched_rescue_facts": 14,
+      "shortlisted_facts": 14
+    },
+    {
+      "actor_id": "diane-rwigara",
+      "name": "Diane Shima Rwigara",
+      "eligible_facts": 0,
+      "unmatched_rescue_facts": 0,
+      "shortlisted_facts": 0
+    },
+    {
+      "actor_id": "bernard-ntaganda",
+      "name": "Bernard Ntaganda",
+      "eligible_facts": 3,
+      "unmatched_rescue_facts": 2,
+      "shortlisted_facts": 1
+    },
+    {
+      "actor_id": "christopher-kayumba",
+      "name": "Christopher Kayumba",
+      "eligible_facts": 1,
+      "unmatched_rescue_facts": 1,
+      "shortlisted_facts": 0
+    },
+    {
+      "actor_id": "paul-rusesabagina",
+      "name": "Paul Rusesabagina",
+      "eligible_facts": 19,
+      "unmatched_rescue_facts": 11,
+      "shortlisted_facts": 7
+    },
+    {
+      "actor_id": "kayumba-nyamwasa",
+      "name": "Faustin Kayumba Nyamwasa",
+      "eligible_facts": 1,
+      "unmatched_rescue_facts": 1,
+      "shortlisted_facts": 0
+    },
+    {
+      "actor_id": "louise-mushikiwabo",
+      "name": "Louise Mushikiwabo",
+      "eligible_facts": 147,
+      "unmatched_rescue_facts": 52,
+      "shortlisted_facts": 45
+    },
+    {
+      "actor_id": "claver-gatete",
+      "name": "Claver Gatete",
+      "eligible_facts": 72,
+      "unmatched_rescue_facts": 17,
+      "shortlisted_facts": 33
+    },
+    {
+      "actor_id": "valentine-rugwabiza",
+      "name": "Valentine Rugwabiza",
+      "eligible_facts": 5,
+      "unmatched_rescue_facts": 0,
+      "shortlisted_facts": 5
+    }
+  ],
+  "scales": [
+    {
+      "scale_id": "g01",
+      "name": "Расширение частной инициативы",
+      "actors_with_candidates": 14,
+      "candidate_facts": 285
+    },
+    {
+      "scale_id": "g02",
+      "name": "Экономические возможности недостаточно включённых групп",
+      "actors_with_candidates": 20,
+      "candidate_facts": 301
+    },
+    {
+      "scale_id": "g03",
+      "name": "Доступность общественных услуг",
+      "actors_with_candidates": 19,
+      "candidate_facts": 374
+    },
+    {
+      "scale_id": "g04",
+      "name": "Опора на внутренние возможности",
+      "actors_with_candidates": 12,
+      "candidate_facts": 76
+    },
+    {
+      "scale_id": "g05",
+      "name": "Ограничение экологического вреда",
+      "actors_with_candidates": 15,
+      "candidate_facts": 161
+    },
+    {
+      "scale_id": "g06",
+      "name": "Защита гражданских и политических прав",
+      "actors_with_candidates": 11,
+      "candidate_facts": 107
+    },
+    {
+      "scale_id": "g07",
+      "name": "Независимость публичных институтов",
+      "actors_with_candidates": 2,
+      "candidate_facts": 5
+    },
+    {
+      "scale_id": "g08",
+      "name": "Передача полномочий на местный уровень",
+      "actors_with_candidates": 5,
+      "candidate_facts": 6
+    },
+    {
+      "scale_id": "g09",
+      "name": "Сохранение конституционного порядка",
+      "actors_with_candidates": 8,
+      "candidate_facts": 29
+    },
+    {
+      "scale_id": "g10",
+      "name": "Равенство и недискриминационное включение",
+      "actors_with_candidates": 19,
+      "candidate_facts": 141
+    },
+    {
+      "scale_id": "g11",
+      "name": "Национальная общность и преодоление расколов",
+      "actors_with_candidates": 13,
+      "candidate_facts": 115
+    },
+    {
+      "scale_id": "g12",
+      "name": "Общественное примирение",
+      "actors_with_candidates": 4,
+      "candidate_facts": 44
+    },
+    {
+      "scale_id": "g13",
+      "name": "Ответственность за причинённый общественный вред",
+      "actors_with_candidates": 12,
+      "candidate_facts": 143
+    },
+    {
+      "scale_id": "m01",
+      "name": "Технологическая модернизация",
+      "actors_with_candidates": 17,
+      "candidate_facts": 655
+    },
+    {
+      "scale_id": "m02",
+      "name": "Опора на проверяемое знание",
+      "actors_with_candidates": 16,
+      "candidate_facts": 116
+    },
+    {
+      "scale_id": "m03",
+      "name": "Привлечение частных ресурсов к публичным задачам",
+      "actors_with_candidates": 10,
+      "candidate_facts": 32
+    },
+    {
+      "scale_id": "m04",
+      "name": "Адресные финансовые инструменты",
+      "actors_with_candidates": 20,
+      "candidate_facts": 505
+    },
+    {
+      "scale_id": "m05",
+      "name": "Предупреждение рисков и подготовка",
+      "actors_with_candidates": 15,
+      "candidate_facts": 237
+    },
+    {
+      "scale_id": "m06",
+      "name": "Правовое оспаривание и разрешение споров",
+      "actors_with_candidates": 16,
+      "candidate_facts": 251
+    },
+    {
+      "scale_id": "m07",
+      "name": "Ненасильственное политическое действие",
+      "actors_with_candidates": 5,
+      "candidate_facts": 37
+    },
+    {
+      "scale_id": "m08",
+      "name": "Получение власти через выборы",
+      "actors_with_candidates": 18,
+      "candidate_facts": 240
+    },
+    {
+      "scale_id": "m09",
+      "name": "Переговоры и посредничество",
+      "actors_with_candidates": 16,
+      "candidate_facts": 512
+    },
+    {
+      "scale_id": "m10",
+      "name": "Международная и региональная кооперация",
+      "actors_with_candidates": 27,
+      "candidate_facts": 1704
+    },
+    {
+      "scale_id": "m11",
+      "name": "Совместное представительное определение международных правил",
+      "actors_with_candidates": 16,
+      "candidate_facts": 118
+    },
+    {
+      "scale_id": "m12",
+      "name": "Этические требования к публичной службе",
+      "actors_with_candidates": 11,
+      "candidate_facts": 78
+    },
+    {
+      "scale_id": "m13",
+      "name": "Пересмотр устройства международных институтов",
+      "actors_with_candidates": 13,
+      "candidate_facts": 109
+    },
+    {
+      "scale_id": "russia-diplomatic-engagement-positive",
+      "name": "Расширение дипломатического сотрудничества с Россией",
+      "actors_with_candidates": 4,
+      "candidate_facts": 50
+    },
+    {
+      "scale_id": "russia-diplomatic-engagement-negative",
+      "name": "Дипломатическое дистанцирование от России",
+      "actors_with_candidates": 4,
+      "candidate_facts": 50
+    },
+    {
+      "scale_id": "russia-security-cooperation-positive",
+      "name": "Развитие военно-технического сотрудничества с Россией",
+      "actors_with_candidates": 2,
+      "candidate_facts": 7
+    },
+    {
+      "scale_id": "russia-security-cooperation-negative",
+      "name": "Ограничение военно-технического сотрудничества с Россией",
+      "actors_with_candidates": 2,
+      "candidate_facts": 7
+    },
+    {
+      "scale_id": "russia-economic-technology-cooperation-positive",
+      "name": "Развитие экономических и технологических проектов с Россией",
+      "actors_with_candidates": 2,
+      "candidate_facts": 15
+    },
+    {
+      "scale_id": "russia-economic-technology-cooperation-negative",
+      "name": "Ограничение экономических и технологических проектов с Россией",
+      "actors_with_candidates": 2,
+      "candidate_facts": 15
+    },
+    {
+      "scale_id": "russia-education-cultural-cooperation-positive",
+      "name": "Расширение образовательных и культурных обменов с Россией",
+      "actors_with_candidates": 2,
+      "candidate_facts": 6
+    },
+    {
+      "scale_id": "russia-education-cultural-cooperation-negative",
+      "name": "Ограничение образовательных и культурных обменов с Россией",
+      "actors_with_candidates": 2,
+      "candidate_facts": 6
+    },
+    {
+      "scale_id": "russia-conflict-policy-evaluation-positive",
+      "name": "Публичное оправдание конкретных внешнеполитических действий России",
+      "actors_with_candidates": 0,
+      "candidate_facts": 0
+    },
+    {
+      "scale_id": "russia-conflict-policy-evaluation-negative",
+      "name": "Публичная критика конкретных внешнеполитических действий России",
+      "actors_with_candidates": 0,
+      "candidate_facts": 0
+    },
+    {
+      "scale_id": "russia-isolation-sanctions-positive",
+      "name": "Противодействие санкциям и изоляции России",
+      "actors_with_candidates": 0,
+      "candidate_facts": 0
+    },
+    {
+      "scale_id": "russia-isolation-sanctions-negative",
+      "name": "Поддержка санкций и изоляции России",
+      "actors_with_candidates": 0,
+      "candidate_facts": 0
+    }
+  ],
+  "limitations": [
+    "Lexical candidates are neither measured values nor evidence of a position.",
+    "Positive and negative Russia queries intentionally retrieve the same evidence.",
+    "A thematic cue in attribution or source context does not establish the actor's own position.",
+    "Machine claims and trait proposals are search aids requiring original-source validation.",
+    "Unknown event times remain review candidates, not proven in-window episodes.",
+    "All unmatched eligible facts remain available for semantic rescue review.",
+    "Literal review groups are not independent episodes."
+  ],
+  "scope_comparison": {
+    "corpus_retrieval_window": {
+      "date_from": "2021-10-15",
+      "date_to": "2026-10-17"
+    },
+    "approved_study_window": {
+      "date_from": "2021-10-15",
+      "date_to": "2026-10-15"
+    },
+    "eligible_to_review_in_corpus_configuration": 7021,
+    "eligible_to_review_in_study_configuration": 7020,
+    "note": "The corpus retrieval configuration ends two days later. Eligibility is readiness for review, not verified event timing or a measured value."
+  }
+}

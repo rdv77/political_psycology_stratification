@@ -1,0 +1,2528 @@
+{
+  "version": "rwanda-six-source-native-diagnostic-probe-v1",
+  "method": "assistant_semantic_review_in_current_chat_no_local_paid_api",
+  "dictionary_content_sha256": "c1d858d4f76423ebfc72f3d637c5b66e19c65d42de35816f36cff9308b58b729",
+  "measurement_dictionary_approved": true,
+  "counts": {
+    "selected_cases_reviewed": 6,
+    "control_cases_reviewed": 0,
+    "source_documents_in_dossiers": 6,
+    "unique_source_documents": 6,
+    "properties_considered_per_case": 38,
+    "cells_considered": 228,
+    "selected_cases_with_ratings": 4,
+    "controls_with_provisional_ratings": 0,
+    "actors_with_provisional_ratings": 1,
+    "properties_with_provisional_ratings": 6,
+    "held_cases_with_provisional_ratings": 0,
+    "provisional_ratings": 6,
+    "unknown_cells": 222
+  },
+  "selected_verdicts": {
+    "narrow": 6
+  },
+  "control_verdicts": {},
+  "attribution_statuses": {
+    "supported": 6
+  },
+  "date_statuses": {
+    "publication_only": 3,
+    "supported_interval": 2,
+    "unresolved": 1
+  },
+  "source_read_scopes": {
+    "full_sources": 6
+  },
+  "rating_distribution": {
+    "2": 1,
+    "3": 3,
+    "4": 1,
+    "5": 1
+  },
+  "scales": [
+    {
+      "id": "g01",
+      "name": "Расширение частной инициативы"
+    },
+    {
+      "id": "g02",
+      "name": "Экономические возможности недостаточно включённых групп"
+    },
+    {
+      "id": "g03",
+      "name": "Доступность общественных услуг"
+    },
+    {
+      "id": "g04",
+      "name": "Опора на внутренние возможности"
+    },
+    {
+      "id": "g05",
+      "name": "Ограничение экологического вреда"
+    },
+    {
+      "id": "g06",
+      "name": "Защита гражданских и политических прав"
+    },
+    {
+      "id": "g07",
+      "name": "Независимость публичных институтов"
+    },
+    {
+      "id": "g08",
+      "name": "Передача полномочий на местный уровень"
+    },
+    {
+      "id": "g09",
+      "name": "Сохранение конституционного порядка"
+    },
+    {
+      "id": "g10",
+      "name": "Равенство и недискриминационное включение"
+    },
+    {
+      "id": "g11",
+      "name": "Национальная общность и преодоление расколов"
+    },
+    {
+      "id": "g12",
+      "name": "Общественное примирение"
+    },
+    {
+      "id": "g13",
+      "name": "Ответственность за причинённый общественный вред"
+    },
+    {
+      "id": "m01",
+      "name": "Технологическая модернизация"
+    },
+    {
+      "id": "m02",
+      "name": "Опора на проверяемое знание"
+    },
+    {
+      "id": "m03",
+      "name": "Привлечение частных ресурсов к публичным задачам"
+    },
+    {
+      "id": "m04",
+      "name": "Адресные финансовые инструменты"
+    },
+    {
+      "id": "m05",
+      "name": "Предупреждение рисков и подготовка"
+    },
+    {
+      "id": "m06",
+      "name": "Правовое оспаривание и разрешение споров"
+    },
+    {
+      "id": "m07",
+      "name": "Ненасильственное политическое действие"
+    },
+    {
+      "id": "m08",
+      "name": "Получение власти через выборы"
+    },
+    {
+      "id": "m09",
+      "name": "Переговоры и посредничество"
+    },
+    {
+      "id": "m10",
+      "name": "Международная и региональная кооперация"
+    },
+    {
+      "id": "m11",
+      "name": "Совместное представительное определение международных правил"
+    },
+    {
+      "id": "m12",
+      "name": "Этические требования к публичной службе"
+    },
+    {
+      "id": "m13",
+      "name": "Пересмотр устройства международных институтов"
+    },
+    {
+      "id": "russia-diplomatic-engagement-positive",
+      "name": "Расширение дипломатического сотрудничества с Россией"
+    },
+    {
+      "id": "russia-diplomatic-engagement-negative",
+      "name": "Дипломатическое дистанцирование от России"
+    },
+    {
+      "id": "russia-security-cooperation-positive",
+      "name": "Развитие военно-технического сотрудничества с Россией"
+    },
+    {
+      "id": "russia-security-cooperation-negative",
+      "name": "Ограничение военно-технического сотрудничества с Россией"
+    },
+    {
+      "id": "russia-economic-technology-cooperation-positive",
+      "name": "Развитие экономических и технологических проектов с Россией"
+    },
+    {
+      "id": "russia-economic-technology-cooperation-negative",
+      "name": "Ограничение экономических и технологических проектов с Россией"
+    },
+    {
+      "id": "russia-education-cultural-cooperation-positive",
+      "name": "Расширение образовательных и культурных обменов с Россией"
+    },
+    {
+      "id": "russia-education-cultural-cooperation-negative",
+      "name": "Ограничение образовательных и культурных обменов с Россией"
+    },
+    {
+      "id": "russia-conflict-policy-evaluation-positive",
+      "name": "Публичное оправдание конкретных внешнеполитических действий России"
+    },
+    {
+      "id": "russia-conflict-policy-evaluation-negative",
+      "name": "Публичная критика конкретных внешнеполитических действий России"
+    },
+    {
+      "id": "russia-isolation-sanctions-positive",
+      "name": "Противодействие санкциям и изоляции России"
+    },
+    {
+      "id": "russia-isolation-sanctions-negative",
+      "name": "Поддержка санкций и изоляции России"
+    }
+  ],
+  "cases": [
+    {
+      "case_id": "P01",
+      "sample_kind": "selected_unit",
+      "actor_id": "paul-kagame",
+      "actor_name": "Paul Kagame",
+      "verdict": "narrow",
+      "summary_ru": "В пересказанном заявлении 2024 года Кагаме защищает равноправие женщин и призывает добиваться отнятых прав. Предпринимательские и культурные инициативы других собеседниц статьи ему не приписываются.",
+      "attribution": {
+        "status": "supported",
+        "basis": "direct_statement",
+        "explanation_ru": "Источник прямо представляет последующую цитату как слова президента Поля Кагаме в заявлении 2024 года; реплики предпринимательниц и актрисы отделены от его речи."
+      },
+      "capacity_review_ru": "Президент Руанды; публичная позиция о равноправии женщин. Это не подтверждение реализации всей государственной гендерной политики.",
+      "event_date": {
+        "status": "supported_interval",
+        "date": null,
+        "date_from": "2024-01-01",
+        "date_to": "2024-12-31",
+        "explanation_ru": "В тексте явно указан 2024 год заявления. День и месяц не сообщаются; публикация в декабре 2025 года не переносится на событие. Годовой интервал полностью внутри исследуемого периода."
+      },
+      "event_identity": {
+        "status": "single_document_event",
+        "related_cases": [],
+        "explanation_ru": "Один пересказ конкретного заявления Кагаме. Текущая проверка не обнаруживает связи с другими пятью диагностическими случаями; независимость за пределами пакета не утверждается."
+      },
+      "ratings": [
+        {
+          "scale_id": "g10",
+          "value": 3,
+          "reason_ru": "Явно защищает гендерное равноправие и право женщин добиваться отнятых прав; содержательная поддержка равного статуса соответствует якорю 3. Конкретное обязательное изменение дискриминационного правила не названо, поэтому 5 не устанавливается.",
+          "status": "provisional_fragment_rating"
+        }
+      ],
+      "unknown_reason_ru": "Остальные 37 признаков рассмотрены. Общий призыв добиваться прав в гендерном контексте не устанавливает отдельной процессуальной или политической гарантии g06, конкретной экономической программы g02 либо развития внутренних возможностей страны g04. Экономические проекты, статистика и культурное сотрудничество в статье относятся к другим говорящим. Российский блок неизвестен.",
+      "corrections": [
+        {
+          "field": "event_date",
+          "reason_ru": "В полном источнике есть явная привязка собственного заявления к 2024 году, поэтому допустим годовой интервал без придуманного точного дня."
+        }
+      ],
+      "confidence": "high",
+      "source_read_scope": "full_sources",
+      "public_note_ru": "Ранее неоценённый материал даёт источник для характеристики гендерного равноправия; время установлено с точностью до года, а не до дня.",
+      "usable_for_person_aggregation": false
+    },
+    {
+      "case_id": "P02",
+      "sample_kind": "selected_unit",
+      "actor_id": "paul-kagame",
+      "actor_name": "Paul Kagame",
+      "verdict": "narrow",
+      "summary_ru": "Кагаме требует от парламентариев профессиональной этики, добросовестного представительства населения и содержательного контроля работы правительства. Сам факт присяги не превращается в поддержку выборности власти или независимости институтов.",
+      "attribution": {
+        "status": "supported",
+        "basis": "direct_statement",
+        "explanation_ru": "Текст прямо вводит высказывание словами о главе государства Поле Кагаме и завершает атрибуцией президенту; последующие биографии новых парламентариев и их собственные позиции к нему не относятся."
+      },
+      "capacity_review_ru": "Президент Руанды, выступающий перед парламентом во время принесения присяги двумя парламентариями. Отдельные проекты и заявления Бена Нийоншути не переносятся на Кагаме.",
+      "event_date": {
+        "status": "publication_only",
+        "date": null,
+        "date_from": null,
+        "date_to": null,
+        "explanation_ru": "Полный текст описывает присягу, но календарной даты этого выступления не называет. Служебные даты в биографиях других лиц не устанавливают дату собственной речи; публикация 2 октября 2026 года не объявляется днём события."
+      },
+      "event_identity": {
+        "status": "single_document_event",
+        "related_cases": [],
+        "explanation_ru": "Две приведённые реплики относятся к одному выступлению при присяге парламентариев, а не двум независимым эпизодам."
+      },
+      "ratings": [
+        {
+          "scale_id": "m12",
+          "value": 5,
+          "reason_ru": "Профессиональная этика парламентария прямо объявлена обязательным требованием сверх формального исполнения закона и связана с уменьшением бремени для представляемого населения. Это принципиальное этическое требование якоря 5, а не оценка фактической нравственности выступающего.",
+          "status": "provisional_fragment_rating"
+        }
+      ],
+      "unknown_reason_ru": "Остальные 37 признаков рассмотрены. Требование быть информированными и видеть своими глазами без конкретных данных или обоснования определённого решения не даёт m02=3; никаких иных чисел не назначено. Парламентский контроль сам по себе не устанавливает независимость института g07, а присяга не устанавливает предпочтения выборного получения власти m08. Конкретной услуги, правовой процедуры и российского содержания нет.",
+      "corrections": [],
+      "confidence": "high",
+      "source_read_scope": "full_sources",
+      "public_note_ru": "Ранее неоценённый материал подтверждает сильное этическое требование к публичной службе. Без подтверждённого времени оно сохраняется отдельно от основной датированной матрицы.",
+      "usable_for_person_aggregation": false
+    },
+    {
+      "case_id": "P03",
+      "sample_kind": "selected_unit",
+      "actor_id": "paul-kagame",
+      "actor_name": "Paul Kagame",
+      "verdict": "narrow",
+      "summary_ru": "Кагаме описывает рост числа финтех-компаний и их влияние на финансовые услуги Африки. Это наблюдение о секторе; предложения форума, позиции других выступающих и его будущая дата не становятся собственными предложениями Кагаме.",
+      "attribution": {
+        "status": "supported",
+        "basis": "direct_statement",
+        "explanation_ru": "Кагаме прямо назван говорящим перед цитатой о финтех-компаниях. Однако дальнейшие высказывания руководителей финансовых организаций имеют других авторов."
+      },
+      "capacity_review_ru": "Президент Руанды; воспроизводится прежнее высказывание о развитии африканского финтех-сектора. Организаторам и другим участникам приписаны отдельные предложения.",
+      "event_date": {
+        "status": "unresolved",
+        "date": null,
+        "date_from": null,
+        "date_to": null,
+        "explanation_ru": "Источник вводит слова Кагаме как ранее сказанные, но не датирует их. Даты будущего форума 10–12 марта 2026 года и публикации 18 февраля 2026 года не являются датами цитируемой речи."
+      },
+      "event_identity": {
+        "status": "single_document_event",
+        "related_cases": [],
+        "explanation_ru": "Одна прежняя цитата о секторе, отличная по содержанию от гендерного заявления и выступления при присяге. Ни её точное событие, ни независимое повторение за пределами источника не установлены."
+      },
+      "ratings": [],
+      "unknown_reason_ru": "Все 38 признаков рассмотрены. Описание роста технологического сектора без собственного предложения использовать конкретную технологию для определённой публичной задачи не достигает m01=3. Число компаний не используется для обоснования конкретного решения, поэтому m02 неизвестно. Само упоминание бизнеса не устанавливает поддержку частной инициативы g01; финансовую включённость, государственно-частное партнёрство и международную кооперацию обсуждают автор и другие говорящие. Российского содержания нет. Нули из отсутствия содержания не выставляются.",
+      "corrections": [],
+      "confidence": "high",
+      "source_read_scope": "full_sources",
+      "public_note_ru": "Пригодная атрибуция ещё не означает наличие оценки по утверждённым признакам: этот пример содержит описание сектора, а не самостоятельное политическое предложение.",
+      "usable_for_person_aggregation": false
+    },
+    {
+      "case_id": "P04",
+      "sample_kind": "selected_unit",
+      "actor_id": "paul-kagame",
+      "actor_name": "Paul Kagame",
+      "verdict": "narrow",
+      "summary_ru": "Кагаме предлагает согласовать политику государств, бизнеса и партнёров, чтобы обеспечить безопасное движение данных и платежей через границы. Программы ИИ и дата-центров руководителя Airtel ему не перенесены.",
+      "attribution": {
+        "status": "supported",
+        "basis": "direct_statement",
+        "explanation_ru": "Кагаме предлагает согласовать политику государств, бизнеса и партнёров, чтобы обеспечить безопасное движение данных и платежей через границы. Программы ИИ и дата-центров руководителя Airtel ему не перенесены."
+      },
+      "capacity_review_ru": "Президент Руанды, выступающий на отраслевой конференции MWC Kigali; точный день речи не установлен.",
+      "event_date": {
+        "status": "supported_interval",
+        "date": null,
+        "date_from": "2025-01-01",
+        "date_to": "2025-12-31",
+        "explanation_ru": "Годовой интервал установлен по явному указанию «этогодняя конференция MWC25» в тексте и связи выступления Кагаме с открытием именно этой конференции. Год исходной публикации — 2025. День публикации не назначен днём речи; месяц и день события не установлены. Это содержательно проверенная относительная датировка, а не автоматическое копирование метаданных."
+      },
+      "event_identity": {
+        "status": "single_document_event",
+        "related_cases": [],
+        "explanation_ru": "Рассматривается один источник и выделенное выступление; независимость от других публикаций о том же мероприятии не предполагается автоматически."
+      },
+      "ratings": [
+        {
+          "scale_id": "m01",
+          "value": 3,
+          "reason_ru": "Названы конкретные цифровые системы и публичная задача трансграничной экономической связанности. Технологические проекты Airtel из чужой речи не используются.",
+          "status": "provisional_fragment_rating"
+        },
+        {
+          "scale_id": "m10",
+          "value": 4,
+          "reason_ru": "Предложен содержательный механизм согласования политики ради конкретной межстрановой задачи; кооперация обоснована как условие роста, без приписывания уже выполненного соглашения.",
+          "status": "provisional_fragment_rating"
+        }
+      ],
+      "unknown_reason_ru": "Для остальных утверждённых свойств нет достаточного основания в собственных словах изучаемого человека. Молчание не заменяется нулём.",
+      "corrections": [
+        {
+          "field": "event_date",
+          "reason_ru": "Для включения в пятилетнее окно достаточно подтверждённого годового интервала. Требование четырёх цифр года непосредственно в реплике было бы избыточным: собственное выступление однозначно связано с явно названной текущей конференцией. Смена временной точности отражена отдельно."
+        }
+      ],
+      "confidence": "medium",
+      "source_read_scope": "full_sources",
+      "public_note_ru": "Диагностическая проба ранее неоценённых источников, не вероятностная выборка и не завершённое массовое оценивание. Баллы относятся к содержанию эпизода.",
+      "usable_for_person_aggregation": false
+    },
+    {
+      "case_id": "P05",
+      "sample_kind": "selected_unit",
+      "actor_id": "paul-kagame",
+      "actor_name": "Paul Kagame",
+      "verdict": "narrow",
+      "summary_ru": "Кагаме обещает поддержку строительству мусульманского университета и рекомендует решать проблемы общины через диалог. Рассказ муфтия о равноправии и слова других участников ему не приписаны.",
+      "attribution": {
+        "status": "supported",
+        "basis": "direct_statement",
+        "explanation_ru": "Кагаме обещает поддержку строительству мусульманского университета и рекомендует решать проблемы общины через диалог. Рассказ муфтия о равноправии и слова других участников ему не приписаны."
+      },
+      "capacity_review_ru": "Президент Руанды на встрече с представителями мусульманской общины; роль и говорящий явно указаны в источнике.",
+      "event_date": {
+        "status": "publication_only",
+        "date": null,
+        "date_from": null,
+        "date_to": null,
+        "explanation_ru": "Дата публикации не назначается дате собственной речи; самостоятельная полная дата или подтверждённый интервал события не установлены."
+      },
+      "event_identity": {
+        "status": "single_document_event",
+        "related_cases": [],
+        "explanation_ru": "Рассматривается один источник и выделенное выступление; независимость от других публикаций о том же мероприятии не предполагается автоматически."
+      },
+      "ratings": [
+        {
+          "scale_id": "g03",
+          "value": 3,
+          "reason_ru": "Автор персонально сообщает о поддержке конкретного образовательного учреждения для обозначенной общины. Вид помощи, финансирование и выполнение обещания не установлены.",
+          "status": "provisional_fragment_rating"
+        },
+        {
+          "scale_id": "m09",
+          "value": 2,
+          "reason_ru": "Выражен собственный принцип разрешения общественных разногласий через диалог. Не названы конкретные стороны и процедура отдельного спора, поэтому выраженность ниже якоря 3.",
+          "status": "provisional_fragment_rating"
+        }
+      ],
+      "unknown_reason_ru": "Для остальных утверждённых свойств нет достаточного основания в собственных словах изучаемого человека. Молчание не заменяется нулём.",
+      "corrections": [],
+      "confidence": "medium",
+      "source_read_scope": "full_sources",
+      "public_note_ru": "Диагностическая проба ранее неоценённых источников, не вероятностная выборка и не завершённое массовое оценивание. Баллы относятся к содержанию эпизода.",
+      "usable_for_person_aggregation": false
+    },
+    {
+      "case_id": "P06",
+      "sample_kind": "selected_unit",
+      "actor_id": "paul-kagame",
+      "actor_name": "Paul Kagame",
+      "verdict": "narrow",
+      "summary_ru": "Кагаме осуждает эксплуатацию верующих и призывает религиозные учреждения приносить общественную пользу. Закрытие церквей и доводы регулятора в авторском фоне не превращены в его собственные меры.",
+      "attribution": {
+        "status": "supported",
+        "basis": "direct_statement",
+        "explanation_ru": "Кагаме осуждает эксплуатацию верующих и призывает религиозные учреждения приносить общественную пользу. Закрытие церквей и доводы регулятора в авторском фоне не превращены в его собственные меры."
+      },
+      "capacity_review_ru": "Президент Руанды в пересказе пресс-встречи, отдельно от автора и регулятора.",
+      "event_date": {
+        "status": "publication_only",
+        "date": null,
+        "date_from": null,
+        "date_to": null,
+        "explanation_ru": "Дата публикации не назначается дате собственной речи; самостоятельная полная дата или подтверждённый интервал события не установлены."
+      },
+      "event_identity": {
+        "status": "single_document_event",
+        "related_cases": [],
+        "explanation_ru": "Рассматривается один источник и выделенное выступление; независимость от других публикаций о том же мероприятии не предполагается автоматически."
+      },
+      "ratings": [],
+      "unknown_reason_ru": "Общий приоритет образования, здоровья и общественного развития не раскрывает конкретную меру доступности услуги; антикоррупционная процедура, общественное расследование и личная мера профилактики не названы. Требования к религиозным руководителям не объявляются автоматически этикой публичной службы. По утверждённым шкалам баллы не назначены.",
+      "corrections": [],
+      "confidence": "medium",
+      "source_read_scope": "full_sources",
+      "public_note_ru": "Диагностическая проба ранее неоценённых источников, не вероятностная выборка и не завершённое массовое оценивание. Баллы относятся к содержанию эпизода.",
+      "usable_for_person_aggregation": false
+    }
+  ],
+  "cells": [
+    {
+      "case_id": "P01",
+      "actor_id": "paul-kagame",
+      "scale_id": "g01",
+      "considered": true,
+      "value": null,
+      "status": "unknown",
+      "included_in_canonical_study": false
+    },
+    {
+      "case_id": "P01",
+      "actor_id": "paul-kagame",
+      "scale_id": "g02",
+      "considered": true,
+      "value": null,
+      "status": "unknown",
+      "included_in_canonical_study": false
+    },
+    {
+      "case_id": "P01",
+      "actor_id": "paul-kagame",
+      "scale_id": "g03",
+      "considered": true,
+      "value": null,
+      "status": "unknown",
+      "included_in_canonical_study": false
+    },
+    {
+      "case_id": "P01",
+      "actor_id": "paul-kagame",
+      "scale_id": "g04",
+      "considered": true,
+      "value": null,
+      "status": "unknown",
+      "included_in_canonical_study": false
+    },
+    {
+      "case_id": "P01",
+      "actor_id": "paul-kagame",
+      "scale_id": "g05",
+      "considered": true,
+      "value": null,
+      "status": "unknown",
+      "included_in_canonical_study": false
+    },
+    {
+      "case_id": "P01",
+      "actor_id": "paul-kagame",
+      "scale_id": "g06",
+      "considered": true,
+      "value": null,
+      "status": "unknown",
+      "included_in_canonical_study": false
+    },
+    {
+      "case_id": "P01",
+      "actor_id": "paul-kagame",
+      "scale_id": "g07",
+      "considered": true,
+      "value": null,
+      "status": "unknown",
+      "included_in_canonical_study": false
+    },
+    {
+      "case_id": "P01",
+      "actor_id": "paul-kagame",
+      "scale_id": "g08",
+      "considered": true,
+      "value": null,
+      "status": "unknown",
+      "included_in_canonical_study": false
+    },
+    {
+      "case_id": "P01",
+      "actor_id": "paul-kagame",
+      "scale_id": "g09",
+      "considered": true,
+      "value": null,
+      "status": "unknown",
+      "included_in_canonical_study": false
+    },
+    {
+      "case_id": "P01",
+      "actor_id": "paul-kagame",
+      "scale_id": "g10",
+      "considered": true,
+      "value": 3,
+      "status": "provisional_fragment_rating",
+      "included_in_canonical_study": false
+    },
+    {
+      "case_id": "P01",
+      "actor_id": "paul-kagame",
+      "scale_id": "g11",
+      "considered": true,
+      "value": null,
+      "status": "unknown",
+      "included_in_canonical_study": false
+    },
+    {
+      "case_id": "P01",
+      "actor_id": "paul-kagame",
+      "scale_id": "g12",
+      "considered": true,
+      "value": null,
+      "status": "unknown",
+      "included_in_canonical_study": false
+    },
+    {
+      "case_id": "P01",
+      "actor_id": "paul-kagame",
+      "scale_id": "g13",
+      "considered": true,
+      "value": null,
+      "status": "unknown",
+      "included_in_canonical_study": false
+    },
+    {
+      "case_id": "P01",
+      "actor_id": "paul-kagame",
+      "scale_id": "m01",
+      "considered": true,
+      "value": null,
+      "status": "unknown",
+      "included_in_canonical_study": false
+    },
+    {
+      "case_id": "P01",
+      "actor_id": "paul-kagame",
+      "scale_id": "m02",
+      "considered": true,
+      "value": null,
+      "status": "unknown",
+      "included_in_canonical_study": false
+    },
+    {
+      "case_id": "P01",
+      "actor_id": "paul-kagame",
+      "scale_id": "m03",
+      "considered": true,
+      "value": null,
+      "status": "unknown",
+      "included_in_canonical_study": false
+    },
+    {
+      "case_id": "P01",
+      "actor_id": "paul-kagame",
+      "scale_id": "m04",
+      "considered": true,
+      "value": null,
+      "status": "unknown",
+      "included_in_canonical_study": false
+    },
+    {
+      "case_id": "P01",
+      "actor_id": "paul-kagame",
+      "scale_id": "m05",
+      "considered": true,
+      "value": null,
+      "status": "unknown",
+      "included_in_canonical_study": false
+    },
+    {
+      "case_id": "P01",
+      "actor_id": "paul-kagame",
+      "scale_id": "m06",
+      "considered": true,
+      "value": null,
+      "status": "unknown",
+      "included_in_canonical_study": false
+    },
+    {
+      "case_id": "P01",
+      "actor_id": "paul-kagame",
+      "scale_id": "m07",
+      "considered": true,
+      "value": null,
+      "status": "unknown",
+      "included_in_canonical_study": false
+    },
+    {
+      "case_id": "P01",
+      "actor_id": "paul-kagame",
+      "scale_id": "m08",
+      "considered": true,
+      "value": null,
+      "status": "unknown",
+      "included_in_canonical_study": false
+    },
+    {
+      "case_id": "P01",
+      "actor_id": "paul-kagame",
+      "scale_id": "m09",
+      "considered": true,
+      "value": null,
+      "status": "unknown",
+      "included_in_canonical_study": false
+    },
+    {
+      "case_id": "P01",
+      "actor_id": "paul-kagame",
+      "scale_id": "m10",
+      "considered": true,
+      "value": null,
+      "status": "unknown",
+      "included_in_canonical_study": false
+    },
+    {
+      "case_id": "P01",
+      "actor_id": "paul-kagame",
+      "scale_id": "m11",
+      "considered": true,
+      "value": null,
+      "status": "unknown",
+      "included_in_canonical_study": false
+    },
+    {
+      "case_id": "P01",
+      "actor_id": "paul-kagame",
+      "scale_id": "m12",
+      "considered": true,
+      "value": null,
+      "status": "unknown",
+      "included_in_canonical_study": false
+    },
+    {
+      "case_id": "P01",
+      "actor_id": "paul-kagame",
+      "scale_id": "m13",
+      "considered": true,
+      "value": null,
+      "status": "unknown",
+      "included_in_canonical_study": false
+    },
+    {
+      "case_id": "P01",
+      "actor_id": "paul-kagame",
+      "scale_id": "russia-diplomatic-engagement-positive",
+      "considered": true,
+      "value": null,
+      "status": "unknown",
+      "included_in_canonical_study": false
+    },
+    {
+      "case_id": "P01",
+      "actor_id": "paul-kagame",
+      "scale_id": "russia-diplomatic-engagement-negative",
+      "considered": true,
+      "value": null,
+      "status": "unknown",
+      "included_in_canonical_study": false
+    },
+    {
+      "case_id": "P01",
+      "actor_id": "paul-kagame",
+      "scale_id": "russia-security-cooperation-positive",
+      "considered": true,
+      "value": null,
+      "status": "unknown",
+      "included_in_canonical_study": false
+    },
+    {
+      "case_id": "P01",
+      "actor_id": "paul-kagame",
+      "scale_id": "russia-security-cooperation-negative",
+      "considered": true,
+      "value": null,
+      "status": "unknown",
+      "included_in_canonical_study": false
+    },
+    {
+      "case_id": "P01",
+      "actor_id": "paul-kagame",
+      "scale_id": "russia-economic-technology-cooperation-positive",
+      "considered": true,
+      "value": null,
+      "status": "unknown",
+      "included_in_canonical_study": false
+    },
+    {
+      "case_id": "P01",
+      "actor_id": "paul-kagame",
+      "scale_id": "russia-economic-technology-cooperation-negative",
+      "considered": true,
+      "value": null,
+      "status": "unknown",
+      "included_in_canonical_study": false
+    },
+    {
+      "case_id": "P01",
+      "actor_id": "paul-kagame",
+      "scale_id": "russia-education-cultural-cooperation-positive",
+      "considered": true,
+      "value": null,
+      "status": "unknown",
+      "included_in_canonical_study": false
+    },
+    {
+      "case_id": "P01",
+      "actor_id": "paul-kagame",
+      "scale_id": "russia-education-cultural-cooperation-negative",
+      "considered": true,
+      "value": null,
+      "status": "unknown",
+      "included_in_canonical_study": false
+    },
+    {
+      "case_id": "P01",
+      "actor_id": "paul-kagame",
+      "scale_id": "russia-conflict-policy-evaluation-positive",
+      "considered": true,
+      "value": null,
+      "status": "unknown",
+      "included_in_canonical_study": false
+    },
+    {
+      "case_id": "P01",
+      "actor_id": "paul-kagame",
+      "scale_id": "russia-conflict-policy-evaluation-negative",
+      "considered": true,
+      "value": null,
+      "status": "unknown",
+      "included_in_canonical_study": false
+    },
+    {
+      "case_id": "P01",
+      "actor_id": "paul-kagame",
+      "scale_id": "russia-isolation-sanctions-positive",
+      "considered": true,
+      "value": null,
+      "status": "unknown",
+      "included_in_canonical_study": false
+    },
+    {
+      "case_id": "P01",
+      "actor_id": "paul-kagame",
+      "scale_id": "russia-isolation-sanctions-negative",
+      "considered": true,
+      "value": null,
+      "status": "unknown",
+      "included_in_canonical_study": false
+    },
+    {
+      "case_id": "P02",
+      "actor_id": "paul-kagame",
+      "scale_id": "g01",
+      "considered": true,
+      "value": null,
+      "status": "unknown",
+      "included_in_canonical_study": false
+    },
+    {
+      "case_id": "P02",
+      "actor_id": "paul-kagame",
+      "scale_id": "g02",
+      "considered": true,
+      "value": null,
+      "status": "unknown",
+      "included_in_canonical_study": false
+    },
+    {
+      "case_id": "P02",
+      "actor_id": "paul-kagame",
+      "scale_id": "g03",
+      "considered": true,
+      "value": null,
+      "status": "unknown",
+      "included_in_canonical_study": false
+    },
+    {
+      "case_id": "P02",
+      "actor_id": "paul-kagame",
+      "scale_id": "g04",
+      "considered": true,
+      "value": null,
+      "status": "unknown",
+      "included_in_canonical_study": false
+    },
+    {
+      "case_id": "P02",
+      "actor_id": "paul-kagame",
+      "scale_id": "g05",
+      "considered": true,
+      "value": null,
+      "status": "unknown",
+      "included_in_canonical_study": false
+    },
+    {
+      "case_id": "P02",
+      "actor_id": "paul-kagame",
+      "scale_id": "g06",
+      "considered": true,
+      "value": null,
+      "status": "unknown",
+      "included_in_canonical_study": false
+    },
+    {
+      "case_id": "P02",
+      "actor_id": "paul-kagame",
+      "scale_id": "g07",
+      "considered": true,
+      "value": null,
+      "status": "unknown",
+      "included_in_canonical_study": false
+    },
+    {
+      "case_id": "P02",
+      "actor_id": "paul-kagame",
+      "scale_id": "g08",
+      "considered": true,
+      "value": null,
+      "status": "unknown",
+      "included_in_canonical_study": false
+    },
+    {
+      "case_id": "P02",
+      "actor_id": "paul-kagame",
+      "scale_id": "g09",
+      "considered": true,
+      "value": null,
+      "status": "unknown",
+      "included_in_canonical_study": false
+    },
+    {
+      "case_id": "P02",
+      "actor_id": "paul-kagame",
+      "scale_id": "g10",
+      "considered": true,
+      "value": null,
+      "status": "unknown",
+      "included_in_canonical_study": false
+    },
+    {
+      "case_id": "P02",
+      "actor_id": "paul-kagame",
+      "scale_id": "g11",
+      "considered": true,
+      "value": null,
+      "status": "unknown",
+      "included_in_canonical_study": false
+    },
+    {
+      "case_id": "P02",
+      "actor_id": "paul-kagame",
+      "scale_id": "g12",
+      "considered": true,
+      "value": null,
+      "status": "unknown",
+      "included_in_canonical_study": false
+    },
+    {
+      "case_id": "P02",
+      "actor_id": "paul-kagame",
+      "scale_id": "g13",
+      "considered": true,
+      "value": null,
+      "status": "unknown",
+      "included_in_canonical_study": false
+    },
+    {
+      "case_id": "P02",
+      "actor_id": "paul-kagame",
+      "scale_id": "m01",
+      "considered": true,
+      "value": null,
+      "status": "unknown",
+      "included_in_canonical_study": false
+    },
+    {
+      "case_id": "P02",
+      "actor_id": "paul-kagame",
+      "scale_id": "m02",
+      "considered": true,
+      "value": null,
+      "status": "unknown",
+      "included_in_canonical_study": false
+    },
+    {
+      "case_id": "P02",
+      "actor_id": "paul-kagame",
+      "scale_id": "m03",
+      "considered": true,
+      "value": null,
+      "status": "unknown",
+      "included_in_canonical_study": false
+    },
+    {
+      "case_id": "P02",
+      "actor_id": "paul-kagame",
+      "scale_id": "m04",
+      "considered": true,
+      "value": null,
+      "status": "unknown",
+      "included_in_canonical_study": false
+    },
+    {
+      "case_id": "P02",
+      "actor_id": "paul-kagame",
+      "scale_id": "m05",
+      "considered": true,
+      "value": null,
+      "status": "unknown",
+      "included_in_canonical_study": false
+    },
+    {
+      "case_id": "P02",
+      "actor_id": "paul-kagame",
+      "scale_id": "m06",
+      "considered": true,
+      "value": null,
+      "status": "unknown",
+      "included_in_canonical_study": false
+    },
+    {
+      "case_id": "P02",
+      "actor_id": "paul-kagame",
+      "scale_id": "m07",
+      "considered": true,
+      "value": null,
+      "status": "unknown",
+      "included_in_canonical_study": false
+    },
+    {
+      "case_id": "P02",
+      "actor_id": "paul-kagame",
+      "scale_id": "m08",
+      "considered": true,
+      "value": null,
+      "status": "unknown",
+      "included_in_canonical_study": false
+    },
+    {
+      "case_id": "P02",
+      "actor_id": "paul-kagame",
+      "scale_id": "m09",
+      "considered": true,
+      "value": null,
+      "status": "unknown",
+      "included_in_canonical_study": false
+    },
+    {
+      "case_id": "P02",
+      "actor_id": "paul-kagame",
+      "scale_id": "m10",
+      "considered": true,
+      "value": null,
+      "status": "unknown",
+      "included_in_canonical_study": false
+    },
+    {
+      "case_id": "P02",
+      "actor_id": "paul-kagame",
+      "scale_id": "m11",
+      "considered": true,
+      "value": null,
+      "status": "unknown",
+      "included_in_canonical_study": false
+    },
+    {
+      "case_id": "P02",
+      "actor_id": "paul-kagame",
+      "scale_id": "m12",
+      "considered": true,
+      "value": 5,
+      "status": "provisional_fragment_rating",
+      "included_in_canonical_study": false
+    },
+    {
+      "case_id": "P02",
+      "actor_id": "paul-kagame",
+      "scale_id": "m13",
+      "considered": true,
+      "value": null,
+      "status": "unknown",
+      "included_in_canonical_study": false
+    },
+    {
+      "case_id": "P02",
+      "actor_id": "paul-kagame",
+      "scale_id": "russia-diplomatic-engagement-positive",
+      "considered": true,
+      "value": null,
+      "status": "unknown",
+      "included_in_canonical_study": false
+    },
+    {
+      "case_id": "P02",
+      "actor_id": "paul-kagame",
+      "scale_id": "russia-diplomatic-engagement-negative",
+      "considered": true,
+      "value": null,
+      "status": "unknown",
+      "included_in_canonical_study": false
+    },
+    {
+      "case_id": "P02",
+      "actor_id": "paul-kagame",
+      "scale_id": "russia-security-cooperation-positive",
+      "considered": true,
+      "value": null,
+      "status": "unknown",
+      "included_in_canonical_study": false
+    },
+    {
+      "case_id": "P02",
+      "actor_id": "paul-kagame",
+      "scale_id": "russia-security-cooperation-negative",
+      "considered": true,
+      "value": null,
+      "status": "unknown",
+      "included_in_canonical_study": false
+    },
+    {
+      "case_id": "P02",
+      "actor_id": "paul-kagame",
+      "scale_id": "russia-economic-technology-cooperation-positive",
+      "considered": true,
+      "value": null,
+      "status": "unknown",
+      "included_in_canonical_study": false
+    },
+    {
+      "case_id": "P02",
+      "actor_id": "paul-kagame",
+      "scale_id": "russia-economic-technology-cooperation-negative",
+      "considered": true,
+      "value": null,
+      "status": "unknown",
+      "included_in_canonical_study": false
+    },
+    {
+      "case_id": "P02",
+      "actor_id": "paul-kagame",
+      "scale_id": "russia-education-cultural-cooperation-positive",
+      "considered": true,
+      "value": null,
+      "status": "unknown",
+      "included_in_canonical_study": false
+    },
+    {
+      "case_id": "P02",
+      "actor_id": "paul-kagame",
+      "scale_id": "russia-education-cultural-cooperation-negative",
+      "considered": true,
+      "value": null,
+      "status": "unknown",
+      "included_in_canonical_study": false
+    },
+    {
+      "case_id": "P02",
+      "actor_id": "paul-kagame",
+      "scale_id": "russia-conflict-policy-evaluation-positive",
+      "considered": true,
+      "value": null,
+      "status": "unknown",
+      "included_in_canonical_study": false
+    },
+    {
+      "case_id": "P02",
+      "actor_id": "paul-kagame",
+      "scale_id": "russia-conflict-policy-evaluation-negative",
+      "considered": true,
+      "value": null,
+      "status": "unknown",
+      "included_in_canonical_study": false
+    },
+    {
+      "case_id": "P02",
+      "actor_id": "paul-kagame",
+      "scale_id": "russia-isolation-sanctions-positive",
+      "considered": true,
+      "value": null,
+      "status": "unknown",
+      "included_in_canonical_study": false
+    },
+    {
+      "case_id": "P02",
+      "actor_id": "paul-kagame",
+      "scale_id": "russia-isolation-sanctions-negative",
+      "considered": true,
+      "value": null,
+      "status": "unknown",
+      "included_in_canonical_study": false
+    },
+    {
+      "case_id": "P03",
+      "actor_id": "paul-kagame",
+      "scale_id": "g01",
+      "considered": true,
+      "value": null,
+      "status": "unknown",
+      "included_in_canonical_study": false
+    },
+    {
+      "case_id": "P03",
+      "actor_id": "paul-kagame",
+      "scale_id": "g02",
+      "considered": true,
+      "value": null,
+      "status": "unknown",
+      "included_in_canonical_study": false
+    },
+    {
+      "case_id": "P03",
+      "actor_id": "paul-kagame",
+      "scale_id": "g03",
+      "considered": true,
+      "value": null,
+      "status": "unknown",
+      "included_in_canonical_study": false
+    },
+    {
+      "case_id": "P03",
+      "actor_id": "paul-kagame",
+      "scale_id": "g04",
+      "considered": true,
+      "value": null,
+      "status": "unknown",
+      "included_in_canonical_study": false
+    },
+    {
+      "case_id": "P03",
+      "actor_id": "paul-kagame",
+      "scale_id": "g05",
+      "considered": true,
+      "value": null,
+      "status": "unknown",
+      "included_in_canonical_study": false
+    },
+    {
+      "case_id": "P03",
+      "actor_id": "paul-kagame",
+      "scale_id": "g06",
+      "considered": true,
+      "value": null,
+      "status": "unknown",
+      "included_in_canonical_study": false
+    },
+    {
+      "case_id": "P03",
+      "actor_id": "paul-kagame",
+      "scale_id": "g07",
+      "considered": true,
+      "value": null,
+      "status": "unknown",
+      "included_in_canonical_study": false
+    },
+    {
+      "case_id": "P03",
+      "actor_id": "paul-kagame",
+      "scale_id": "g08",
+      "considered": true,
+      "value": null,
+      "status": "unknown",
+      "included_in_canonical_study": false
+    },
+    {
+      "case_id": "P03",
+      "actor_id": "paul-kagame",
+      "scale_id": "g09",
+      "considered": true,
+      "value": null,
+      "status": "unknown",
+      "included_in_canonical_study": false
+    },
+    {
+      "case_id": "P03",
+      "actor_id": "paul-kagame",
+      "scale_id": "g10",
+      "considered": true,
+      "value": null,
+      "status": "unknown",
+      "included_in_canonical_study": false
+    },
+    {
+      "case_id": "P03",
+      "actor_id": "paul-kagame",
+      "scale_id": "g11",
+      "considered": true,
+      "value": null,
+      "status": "unknown",
+      "included_in_canonical_study": false
+    },
+    {
+      "case_id": "P03",
+      "actor_id": "paul-kagame",
+      "scale_id": "g12",
+      "considered": true,
+      "value": null,
+      "status": "unknown",
+      "included_in_canonical_study": false
+    },
+    {
+      "case_id": "P03",
+      "actor_id": "paul-kagame",
+      "scale_id": "g13",
+      "considered": true,
+      "value": null,
+      "status": "unknown",
+      "included_in_canonical_study": false
+    },
+    {
+      "case_id": "P03",
+      "actor_id": "paul-kagame",
+      "scale_id": "m01",
+      "considered": true,
+      "value": null,
+      "status": "unknown",
+      "included_in_canonical_study": false
+    },
+    {
+      "case_id": "P03",
+      "actor_id": "paul-kagame",
+      "scale_id": "m02",
+      "considered": true,
+      "value": null,
+      "status": "unknown",
+      "included_in_canonical_study": false
+    },
+    {
+      "case_id": "P03",
+      "actor_id": "paul-kagame",
+      "scale_id": "m03",
+      "considered": true,
+      "value": null,
+      "status": "unknown",
+      "included_in_canonical_study": false
+    },
+    {
+      "case_id": "P03",
+      "actor_id": "paul-kagame",
+      "scale_id": "m04",
+      "considered": true,
+      "value": null,
+      "status": "unknown",
+      "included_in_canonical_study": false
+    },
+    {
+      "case_id": "P03",
+      "actor_id": "paul-kagame",
+      "scale_id": "m05",
+      "considered": true,
+      "value": null,
+      "status": "unknown",
+      "included_in_canonical_study": false
+    },
+    {
+      "case_id": "P03",
+      "actor_id": "paul-kagame",
+      "scale_id": "m06",
+      "considered": true,
+      "value": null,
+      "status": "unknown",
+      "included_in_canonical_study": false
+    },
+    {
+      "case_id": "P03",
+      "actor_id": "paul-kagame",
+      "scale_id": "m07",
+      "considered": true,
+      "value": null,
+      "status": "unknown",
+      "included_in_canonical_study": false
+    },
+    {
+      "case_id": "P03",
+      "actor_id": "paul-kagame",
+      "scale_id": "m08",
+      "considered": true,
+      "value": null,
+      "status": "unknown",
+      "included_in_canonical_study": false
+    },
+    {
+      "case_id": "P03",
+      "actor_id": "paul-kagame",
+      "scale_id": "m09",
+      "considered": true,
+      "value": null,
+      "status": "unknown",
+      "included_in_canonical_study": false
+    },
+    {
+      "case_id": "P03",
+      "actor_id": "paul-kagame",
+      "scale_id": "m10",
+      "considered": true,
+      "value": null,
+      "status": "unknown",
+      "included_in_canonical_study": false
+    },
+    {
+      "case_id": "P03",
+      "actor_id": "paul-kagame",
+      "scale_id": "m11",
+      "considered": true,
+      "value": null,
+      "status": "unknown",
+      "included_in_canonical_study": false
+    },
+    {
+      "case_id": "P03",
+      "actor_id": "paul-kagame",
+      "scale_id": "m12",
+      "considered": true,
+      "value": null,
+      "status": "unknown",
+      "included_in_canonical_study": false
+    },
+    {
+      "case_id": "P03",
+      "actor_id": "paul-kagame",
+      "scale_id": "m13",
+      "considered": true,
+      "value": null,
+      "status": "unknown",
+      "included_in_canonical_study": false
+    },
+    {
+      "case_id": "P03",
+      "actor_id": "paul-kagame",
+      "scale_id": "russia-diplomatic-engagement-positive",
+      "considered": true,
+      "value": null,
+      "status": "unknown",
+      "included_in_canonical_study": false
+    },
+    {
+      "case_id": "P03",
+      "actor_id": "paul-kagame",
+      "scale_id": "russia-diplomatic-engagement-negative",
+      "considered": true,
+      "value": null,
+      "status": "unknown",
+      "included_in_canonical_study": false
+    },
+    {
+      "case_id": "P03",
+      "actor_id": "paul-kagame",
+      "scale_id": "russia-security-cooperation-positive",
+      "considered": true,
+      "value": null,
+      "status": "unknown",
+      "included_in_canonical_study": false
+    },
+    {
+      "case_id": "P03",
+      "actor_id": "paul-kagame",
+      "scale_id": "russia-security-cooperation-negative",
+      "considered": true,
+      "value": null,
+      "status": "unknown",
+      "included_in_canonical_study": false
+    },
+    {
+      "case_id": "P03",
+      "actor_id": "paul-kagame",
+      "scale_id": "russia-economic-technology-cooperation-positive",
+      "considered": true,
+      "value": null,
+      "status": "unknown",
+      "included_in_canonical_study": false
+    },
+    {
+      "case_id": "P03",
+      "actor_id": "paul-kagame",
+      "scale_id": "russia-economic-technology-cooperation-negative",
+      "considered": true,
+      "value": null,
+      "status": "unknown",
+      "included_in_canonical_study": false
+    },
+    {
+      "case_id": "P03",
+      "actor_id": "paul-kagame",
+      "scale_id": "russia-education-cultural-cooperation-positive",
+      "considered": true,
+      "value": null,
+      "status": "unknown",
+      "included_in_canonical_study": false
+    },
+    {
+      "case_id": "P03",
+      "actor_id": "paul-kagame",
+      "scale_id": "russia-education-cultural-cooperation-negative",
+      "considered": true,
+      "value": null,
+      "status": "unknown",
+      "included_in_canonical_study": false
+    },
+    {
+      "case_id": "P03",
+      "actor_id": "paul-kagame",
+      "scale_id": "russia-conflict-policy-evaluation-positive",
+      "considered": true,
+      "value": null,
+      "status": "unknown",
+      "included_in_canonical_study": false
+    },
+    {
+      "case_id": "P03",
+      "actor_id": "paul-kagame",
+      "scale_id": "russia-conflict-policy-evaluation-negative",
+      "considered": true,
+      "value": null,
+      "status": "unknown",
+      "included_in_canonical_study": false
+    },
+    {
+      "case_id": "P03",
+      "actor_id": "paul-kagame",
+      "scale_id": "russia-isolation-sanctions-positive",
+      "considered": true,
+      "value": null,
+      "status": "unknown",
+      "included_in_canonical_study": false
+    },
+    {
+      "case_id": "P03",
+      "actor_id": "paul-kagame",
+      "scale_id": "russia-isolation-sanctions-negative",
+      "considered": true,
+      "value": null,
+      "status": "unknown",
+      "included_in_canonical_study": false
+    },
+    {
+      "case_id": "P04",
+      "actor_id": "paul-kagame",
+      "scale_id": "g01",
+      "considered": true,
+      "value": null,
+      "status": "unknown",
+      "included_in_canonical_study": false
+    },
+    {
+      "case_id": "P04",
+      "actor_id": "paul-kagame",
+      "scale_id": "g02",
+      "considered": true,
+      "value": null,
+      "status": "unknown",
+      "included_in_canonical_study": false
+    },
+    {
+      "case_id": "P04",
+      "actor_id": "paul-kagame",
+      "scale_id": "g03",
+      "considered": true,
+      "value": null,
+      "status": "unknown",
+      "included_in_canonical_study": false
+    },
+    {
+      "case_id": "P04",
+      "actor_id": "paul-kagame",
+      "scale_id": "g04",
+      "considered": true,
+      "value": null,
+      "status": "unknown",
+      "included_in_canonical_study": false
+    },
+    {
+      "case_id": "P04",
+      "actor_id": "paul-kagame",
+      "scale_id": "g05",
+      "considered": true,
+      "value": null,
+      "status": "unknown",
+      "included_in_canonical_study": false
+    },
+    {
+      "case_id": "P04",
+      "actor_id": "paul-kagame",
+      "scale_id": "g06",
+      "considered": true,
+      "value": null,
+      "status": "unknown",
+      "included_in_canonical_study": false
+    },
+    {
+      "case_id": "P04",
+      "actor_id": "paul-kagame",
+      "scale_id": "g07",
+      "considered": true,
+      "value": null,
+      "status": "unknown",
+      "included_in_canonical_study": false
+    },
+    {
+      "case_id": "P04",
+      "actor_id": "paul-kagame",
+      "scale_id": "g08",
+      "considered": true,
+      "value": null,
+      "status": "unknown",
+      "included_in_canonical_study": false
+    },
+    {
+      "case_id": "P04",
+      "actor_id": "paul-kagame",
+      "scale_id": "g09",
+      "considered": true,
+      "value": null,
+      "status": "unknown",
+      "included_in_canonical_study": false
+    },
+    {
+      "case_id": "P04",
+      "actor_id": "paul-kagame",
+      "scale_id": "g10",
+      "considered": true,
+      "value": null,
+      "status": "unknown",
+      "included_in_canonical_study": false
+    },
+    {
+      "case_id": "P04",
+      "actor_id": "paul-kagame",
+      "scale_id": "g11",
+      "considered": true,
+      "value": null,
+      "status": "unknown",
+      "included_in_canonical_study": false
+    },
+    {
+      "case_id": "P04",
+      "actor_id": "paul-kagame",
+      "scale_id": "g12",
+      "considered": true,
+      "value": null,
+      "status": "unknown",
+      "included_in_canonical_study": false
+    },
+    {
+      "case_id": "P04",
+      "actor_id": "paul-kagame",
+      "scale_id": "g13",
+      "considered": true,
+      "value": null,
+      "status": "unknown",
+      "included_in_canonical_study": false
+    },
+    {
+      "case_id": "P04",
+      "actor_id": "paul-kagame",
+      "scale_id": "m01",
+      "considered": true,
+      "value": 3,
+      "status": "provisional_fragment_rating",
+      "included_in_canonical_study": false
+    },
+    {
+      "case_id": "P04",
+      "actor_id": "paul-kagame",
+      "scale_id": "m02",
+      "considered": true,
+      "value": null,
+      "status": "unknown",
+      "included_in_canonical_study": false
+    },
+    {
+      "case_id": "P04",
+      "actor_id": "paul-kagame",
+      "scale_id": "m03",
+      "considered": true,
+      "value": null,
+      "status": "unknown",
+      "included_in_canonical_study": false
+    },
+    {
+      "case_id": "P04",
+      "actor_id": "paul-kagame",
+      "scale_id": "m04",
+      "considered": true,
+      "value": null,
+      "status": "unknown",
+      "included_in_canonical_study": false
+    },
+    {
+      "case_id": "P04",
+      "actor_id": "paul-kagame",
+      "scale_id": "m05",
+      "considered": true,
+      "value": null,
+      "status": "unknown",
+      "included_in_canonical_study": false
+    },
+    {
+      "case_id": "P04",
+      "actor_id": "paul-kagame",
+      "scale_id": "m06",
+      "considered": true,
+      "value": null,
+      "status": "unknown",
+      "included_in_canonical_study": false
+    },
+    {
+      "case_id": "P04",
+      "actor_id": "paul-kagame",
+      "scale_id": "m07",
+      "considered": true,
+      "value": null,
+      "status": "unknown",
+      "included_in_canonical_study": false
+    },
+    {
+      "case_id": "P04",
+      "actor_id": "paul-kagame",
+      "scale_id": "m08",
+      "considered": true,
+      "value": null,
+      "status": "unknown",
+      "included_in_canonical_study": false
+    },
+    {
+      "case_id": "P04",
+      "actor_id": "paul-kagame",
+      "scale_id": "m09",
+      "considered": true,
+      "value": null,
+      "status": "unknown",
+      "included_in_canonical_study": false
+    },
+    {
+      "case_id": "P04",
+      "actor_id": "paul-kagame",
+      "scale_id": "m10",
+      "considered": true,
+      "value": 4,
+      "status": "provisional_fragment_rating",
+      "included_in_canonical_study": false
+    },
+    {
+      "case_id": "P04",
+      "actor_id": "paul-kagame",
+      "scale_id": "m11",
+      "considered": true,
+      "value": null,
+      "status": "unknown",
+      "included_in_canonical_study": false
+    },
+    {
+      "case_id": "P04",
+      "actor_id": "paul-kagame",
+      "scale_id": "m12",
+      "considered": true,
+      "value": null,
+      "status": "unknown",
+      "included_in_canonical_study": false
+    },
+    {
+      "case_id": "P04",
+      "actor_id": "paul-kagame",
+      "scale_id": "m13",
+      "considered": true,
+      "value": null,
+      "status": "unknown",
+      "included_in_canonical_study": false
+    },
+    {
+      "case_id": "P04",
+      "actor_id": "paul-kagame",
+      "scale_id": "russia-diplomatic-engagement-positive",
+      "considered": true,
+      "value": null,
+      "status": "unknown",
+      "included_in_canonical_study": false
+    },
+    {
+      "case_id": "P04",
+      "actor_id": "paul-kagame",
+      "scale_id": "russia-diplomatic-engagement-negative",
+      "considered": true,
+      "value": null,
+      "status": "unknown",
+      "included_in_canonical_study": false
+    },
+    {
+      "case_id": "P04",
+      "actor_id": "paul-kagame",
+      "scale_id": "russia-security-cooperation-positive",
+      "considered": true,
+      "value": null,
+      "status": "unknown",
+      "included_in_canonical_study": false
+    },
+    {
+      "case_id": "P04",
+      "actor_id": "paul-kagame",
+      "scale_id": "russia-security-cooperation-negative",
+      "considered": true,
+      "value": null,
+      "status": "unknown",
+      "included_in_canonical_study": false
+    },
+    {
+      "case_id": "P04",
+      "actor_id": "paul-kagame",
+      "scale_id": "russia-economic-technology-cooperation-positive",
+      "considered": true,
+      "value": null,
+      "status": "unknown",
+      "included_in_canonical_study": false
+    },
+    {
+      "case_id": "P04",
+      "actor_id": "paul-kagame",
+      "scale_id": "russia-economic-technology-cooperation-negative",
+      "considered": true,
+      "value": null,
+      "status": "unknown",
+      "included_in_canonical_study": false
+    },
+    {
+      "case_id": "P04",
+      "actor_id": "paul-kagame",
+      "scale_id": "russia-education-cultural-cooperation-positive",
+      "considered": true,
+      "value": null,
+      "status": "unknown",
+      "included_in_canonical_study": false
+    },
+    {
+      "case_id": "P04",
+      "actor_id": "paul-kagame",
+      "scale_id": "russia-education-cultural-cooperation-negative",
+      "considered": true,
+      "value": null,
+      "status": "unknown",
+      "included_in_canonical_study": false
+    },
+    {
+      "case_id": "P04",
+      "actor_id": "paul-kagame",
+      "scale_id": "russia-conflict-policy-evaluation-positive",
+      "considered": true,
+      "value": null,
+      "status": "unknown",
+      "included_in_canonical_study": false
+    },
+    {
+      "case_id": "P04",
+      "actor_id": "paul-kagame",
+      "scale_id": "russia-conflict-policy-evaluation-negative",
+      "considered": true,
+      "value": null,
+      "status": "unknown",
+      "included_in_canonical_study": false
+    },
+    {
+      "case_id": "P04",
+      "actor_id": "paul-kagame",
+      "scale_id": "russia-isolation-sanctions-positive",
+      "considered": true,
+      "value": null,
+      "status": "unknown",
+      "included_in_canonical_study": false
+    },
+    {
+      "case_id": "P04",
+      "actor_id": "paul-kagame",
+      "scale_id": "russia-isolation-sanctions-negative",
+      "considered": true,
+      "value": null,
+      "status": "unknown",
+      "included_in_canonical_study": false
+    },
+    {
+      "case_id": "P05",
+      "actor_id": "paul-kagame",
+      "scale_id": "g01",
+      "considered": true,
+      "value": null,
+      "status": "unknown",
+      "included_in_canonical_study": false
+    },
+    {
+      "case_id": "P05",
+      "actor_id": "paul-kagame",
+      "scale_id": "g02",
+      "considered": true,
+      "value": null,
+      "status": "unknown",
+      "included_in_canonical_study": false
+    },
+    {
+      "case_id": "P05",
+      "actor_id": "paul-kagame",
+      "scale_id": "g03",
+      "considered": true,
+      "value": 3,
+      "status": "provisional_fragment_rating",
+      "included_in_canonical_study": false
+    },
+    {
+      "case_id": "P05",
+      "actor_id": "paul-kagame",
+      "scale_id": "g04",
+      "considered": true,
+      "value": null,
+      "status": "unknown",
+      "included_in_canonical_study": false
+    },
+    {
+      "case_id": "P05",
+      "actor_id": "paul-kagame",
+      "scale_id": "g05",
+      "considered": true,
+      "value": null,
+      "status": "unknown",
+      "included_in_canonical_study": false
+    },
+    {
+      "case_id": "P05",
+      "actor_id": "paul-kagame",
+      "scale_id": "g06",
+      "considered": true,
+      "value": null,
+      "status": "unknown",
+      "included_in_canonical_study": false
+    },
+    {
+      "case_id": "P05",
+      "actor_id": "paul-kagame",
+      "scale_id": "g07",
+      "considered": true,
+      "value": null,
+      "status": "unknown",
+      "included_in_canonical_study": false
+    },
+    {
+      "case_id": "P05",
+      "actor_id": "paul-kagame",
+      "scale_id": "g08",
+      "considered": true,
+      "value": null,
+      "status": "unknown",
+      "included_in_canonical_study": false
+    },
+    {
+      "case_id": "P05",
+      "actor_id": "paul-kagame",
+      "scale_id": "g09",
+      "considered": true,
+      "value": null,
+      "status": "unknown",
+      "included_in_canonical_study": false
+    },
+    {
+      "case_id": "P05",
+      "actor_id": "paul-kagame",
+      "scale_id": "g10",
+      "considered": true,
+      "value": null,
+      "status": "unknown",
+      "included_in_canonical_study": false
+    },
+    {
+      "case_id": "P05",
+      "actor_id": "paul-kagame",
+      "scale_id": "g11",
+      "considered": true,
+      "value": null,
+      "status": "unknown",
+      "included_in_canonical_study": false
+    },
+    {
+      "case_id": "P05",
+      "actor_id": "paul-kagame",
+      "scale_id": "g12",
+      "considered": true,
+      "value": null,
+      "status": "unknown",
+      "included_in_canonical_study": false
+    },
+    {
+      "case_id": "P05",
+      "actor_id": "paul-kagame",
+      "scale_id": "g13",
+      "considered": true,
+      "value": null,
+      "status": "unknown",
+      "included_in_canonical_study": false
+    },
+    {
+      "case_id": "P05",
+      "actor_id": "paul-kagame",
+      "scale_id": "m01",
+      "considered": true,
+      "value": null,
+      "status": "unknown",
+      "included_in_canonical_study": false
+    },
+    {
+      "case_id": "P05",
+      "actor_id": "paul-kagame",
+      "scale_id": "m02",
+      "considered": true,
+      "value": null,
+      "status": "unknown",
+      "included_in_canonical_study": false
+    },
+    {
+      "case_id": "P05",
+      "actor_id": "paul-kagame",
+      "scale_id": "m03",
+      "considered": true,
+      "value": null,
+      "status": "unknown",
+      "included_in_canonical_study": false
+    },
+    {
+      "case_id": "P05",
+      "actor_id": "paul-kagame",
+      "scale_id": "m04",
+      "considered": true,
+      "value": null,
+      "status": "unknown",
+      "included_in_canonical_study": false
+    },
+    {
+      "case_id": "P05",
+      "actor_id": "paul-kagame",
+      "scale_id": "m05",
+      "considered": true,
+      "value": null,
+      "status": "unknown",
+      "included_in_canonical_study": false
+    },
+    {
+      "case_id": "P05",
+      "actor_id": "paul-kagame",
+      "scale_id": "m06",
+      "considered": true,
+      "value": null,
+      "status": "unknown",
+      "included_in_canonical_study": false
+    },
+    {
+      "case_id": "P05",
+      "actor_id": "paul-kagame",
+      "scale_id": "m07",
+      "considered": true,
+      "value": null,
+      "status": "unknown",
+      "included_in_canonical_study": false
+    },
+    {
+      "case_id": "P05",
+      "actor_id": "paul-kagame",
+      "scale_id": "m08",
+      "considered": true,
+      "value": null,
+      "status": "unknown",
+      "included_in_canonical_study": false
+    },
+    {
+      "case_id": "P05",
+      "actor_id": "paul-kagame",
+      "scale_id": "m09",
+      "considered": true,
+      "value": 2,
+      "status": "provisional_fragment_rating",
+      "included_in_canonical_study": false
+    },
+    {
+      "case_id": "P05",
+      "actor_id": "paul-kagame",
+      "scale_id": "m10",
+      "considered": true,
+      "value": null,
+      "status": "unknown",
+      "included_in_canonical_study": false
+    },
+    {
+      "case_id": "P05",
+      "actor_id": "paul-kagame",
+      "scale_id": "m11",
+      "considered": true,
+      "value": null,
+      "status": "unknown",
+      "included_in_canonical_study": false
+    },
+    {
+      "case_id": "P05",
+      "actor_id": "paul-kagame",
+      "scale_id": "m12",
+      "considered": true,
+      "value": null,
+      "status": "unknown",
+      "included_in_canonical_study": false
+    },
+    {
+      "case_id": "P05",
+      "actor_id": "paul-kagame",
+      "scale_id": "m13",
+      "considered": true,
+      "value": null,
+      "status": "unknown",
+      "included_in_canonical_study": false
+    },
+    {
+      "case_id": "P05",
+      "actor_id": "paul-kagame",
+      "scale_id": "russia-diplomatic-engagement-positive",
+      "considered": true,
+      "value": null,
+      "status": "unknown",
+      "included_in_canonical_study": false
+    },
+    {
+      "case_id": "P05",
+      "actor_id": "paul-kagame",
+      "scale_id": "russia-diplomatic-engagement-negative",
+      "considered": true,
+      "value": null,
+      "status": "unknown",
+      "included_in_canonical_study": false
+    },
+    {
+      "case_id": "P05",
+      "actor_id": "paul-kagame",
+      "scale_id": "russia-security-cooperation-positive",
+      "considered": true,
+      "value": null,
+      "status": "unknown",
+      "included_in_canonical_study": false
+    },
+    {
+      "case_id": "P05",
+      "actor_id": "paul-kagame",
+      "scale_id": "russia-security-cooperation-negative",
+      "considered": true,
+      "value": null,
+      "status": "unknown",
+      "included_in_canonical_study": false
+    },
+    {
+      "case_id": "P05",
+      "actor_id": "paul-kagame",
+      "scale_id": "russia-economic-technology-cooperation-positive",
+      "considered": true,
+      "value": null,
+      "status": "unknown",
+      "included_in_canonical_study": false
+    },
+    {
+      "case_id": "P05",
+      "actor_id": "paul-kagame",
+      "scale_id": "russia-economic-technology-cooperation-negative",
+      "considered": true,
+      "value": null,
+      "status": "unknown",
+      "included_in_canonical_study": false
+    },
+    {
+      "case_id": "P05",
+      "actor_id": "paul-kagame",
+      "scale_id": "russia-education-cultural-cooperation-positive",
+      "considered": true,
+      "value": null,
+      "status": "unknown",
+      "included_in_canonical_study": false
+    },
+    {
+      "case_id": "P05",
+      "actor_id": "paul-kagame",
+      "scale_id": "russia-education-cultural-cooperation-negative",
+      "considered": true,
+      "value": null,
+      "status": "unknown",
+      "included_in_canonical_study": false
+    },
+    {
+      "case_id": "P05",
+      "actor_id": "paul-kagame",
+      "scale_id": "russia-conflict-policy-evaluation-positive",
+      "considered": true,
+      "value": null,
+      "status": "unknown",
+      "included_in_canonical_study": false
+    },
+    {
+      "case_id": "P05",
+      "actor_id": "paul-kagame",
+      "scale_id": "russia-conflict-policy-evaluation-negative",
+      "considered": true,
+      "value": null,
+      "status": "unknown",
+      "included_in_canonical_study": false
+    },
+    {
+      "case_id": "P05",
+      "actor_id": "paul-kagame",
+      "scale_id": "russia-isolation-sanctions-positive",
+      "considered": true,
+      "value": null,
+      "status": "unknown",
+      "included_in_canonical_study": false
+    },
+    {
+      "case_id": "P05",
+      "actor_id": "paul-kagame",
+      "scale_id": "russia-isolation-sanctions-negative",
+      "considered": true,
+      "value": null,
+      "status": "unknown",
+      "included_in_canonical_study": false
+    },
+    {
+      "case_id": "P06",
+      "actor_id": "paul-kagame",
+      "scale_id": "g01",
+      "considered": true,
+      "value": null,
+      "status": "unknown",
+      "included_in_canonical_study": false
+    },
+    {
+      "case_id": "P06",
+      "actor_id": "paul-kagame",
+      "scale_id": "g02",
+      "considered": true,
+      "value": null,
+      "status": "unknown",
+      "included_in_canonical_study": false
+    },
+    {
+      "case_id": "P06",
+      "actor_id": "paul-kagame",
+      "scale_id": "g03",
+      "considered": true,
+      "value": null,
+      "status": "unknown",
+      "included_in_canonical_study": false
+    },
+    {
+      "case_id": "P06",
+      "actor_id": "paul-kagame",
+      "scale_id": "g04",
+      "considered": true,
+      "value": null,
+      "status": "unknown",
+      "included_in_canonical_study": false
+    },
+    {
+      "case_id": "P06",
+      "actor_id": "paul-kagame",
+      "scale_id": "g05",
+      "considered": true,
+      "value": null,
+      "status": "unknown",
+      "included_in_canonical_study": false
+    },
+    {
+      "case_id": "P06",
+      "actor_id": "paul-kagame",
+      "scale_id": "g06",
+      "considered": true,
+      "value": null,
+      "status": "unknown",
+      "included_in_canonical_study": false
+    },
+    {
+      "case_id": "P06",
+      "actor_id": "paul-kagame",
+      "scale_id": "g07",
+      "considered": true,
+      "value": null,
+      "status": "unknown",
+      "included_in_canonical_study": false
+    },
+    {
+      "case_id": "P06",
+      "actor_id": "paul-kagame",
+      "scale_id": "g08",
+      "considered": true,
+      "value": null,
+      "status": "unknown",
+      "included_in_canonical_study": false
+    },
+    {
+      "case_id": "P06",
+      "actor_id": "paul-kagame",
+      "scale_id": "g09",
+      "considered": true,
+      "value": null,
+      "status": "unknown",
+      "included_in_canonical_study": false
+    },
+    {
+      "case_id": "P06",
+      "actor_id": "paul-kagame",
+      "scale_id": "g10",
+      "considered": true,
+      "value": null,
+      "status": "unknown",
+      "included_in_canonical_study": false
+    },
+    {
+      "case_id": "P06",
+      "actor_id": "paul-kagame",
+      "scale_id": "g11",
+      "considered": true,
+      "value": null,
+      "status": "unknown",
+      "included_in_canonical_study": false
+    },
+    {
+      "case_id": "P06",
+      "actor_id": "paul-kagame",
+      "scale_id": "g12",
+      "considered": true,
+      "value": null,
+      "status": "unknown",
+      "included_in_canonical_study": false
+    },
+    {
+      "case_id": "P06",
+      "actor_id": "paul-kagame",
+      "scale_id": "g13",
+      "considered": true,
+      "value": null,
+      "status": "unknown",
+      "included_in_canonical_study": false
+    },
+    {
+      "case_id": "P06",
+      "actor_id": "paul-kagame",
+      "scale_id": "m01",
+      "considered": true,
+      "value": null,
+      "status": "unknown",
+      "included_in_canonical_study": false
+    },
+    {
+      "case_id": "P06",
+      "actor_id": "paul-kagame",
+      "scale_id": "m02",
+      "considered": true,
+      "value": null,
+      "status": "unknown",
+      "included_in_canonical_study": false
+    },
+    {
+      "case_id": "P06",
+      "actor_id": "paul-kagame",
+      "scale_id": "m03",
+      "considered": true,
+      "value": null,
+      "status": "unknown",
+      "included_in_canonical_study": false
+    },
+    {
+      "case_id": "P06",
+      "actor_id": "paul-kagame",
+      "scale_id": "m04",
+      "considered": true,
+      "value": null,
+      "status": "unknown",
+      "included_in_canonical_study": false
+    },
+    {
+      "case_id": "P06",
+      "actor_id": "paul-kagame",
+      "scale_id": "m05",
+      "considered": true,
+      "value": null,
+      "status": "unknown",
+      "included_in_canonical_study": false
+    },
+    {
+      "case_id": "P06",
+      "actor_id": "paul-kagame",
+      "scale_id": "m06",
+      "considered": true,
+      "value": null,
+      "status": "unknown",
+      "included_in_canonical_study": false
+    },
+    {
+      "case_id": "P06",
+      "actor_id": "paul-kagame",
+      "scale_id": "m07",
+      "considered": true,
+      "value": null,
+      "status": "unknown",
+      "included_in_canonical_study": false
+    },
+    {
+      "case_id": "P06",
+      "actor_id": "paul-kagame",
+      "scale_id": "m08",
+      "considered": true,
+      "value": null,
+      "status": "unknown",
+      "included_in_canonical_study": false
+    },
+    {
+      "case_id": "P06",
+      "actor_id": "paul-kagame",
+      "scale_id": "m09",
+      "considered": true,
+      "value": null,
+      "status": "unknown",
+      "included_in_canonical_study": false
+    },
+    {
+      "case_id": "P06",
+      "actor_id": "paul-kagame",
+      "scale_id": "m10",
+      "considered": true,
+      "value": null,
+      "status": "unknown",
+      "included_in_canonical_study": false
+    },
+    {
+      "case_id": "P06",
+      "actor_id": "paul-kagame",
+      "scale_id": "m11",
+      "considered": true,
+      "value": null,
+      "status": "unknown",
+      "included_in_canonical_study": false
+    },
+    {
+      "case_id": "P06",
+      "actor_id": "paul-kagame",
+      "scale_id": "m12",
+      "considered": true,
+      "value": null,
+      "status": "unknown",
+      "included_in_canonical_study": false
+    },
+    {
+      "case_id": "P06",
+      "actor_id": "paul-kagame",
+      "scale_id": "m13",
+      "considered": true,
+      "value": null,
+      "status": "unknown",
+      "included_in_canonical_study": false
+    },
+    {
+      "case_id": "P06",
+      "actor_id": "paul-kagame",
+      "scale_id": "russia-diplomatic-engagement-positive",
+      "considered": true,
+      "value": null,
+      "status": "unknown",
+      "included_in_canonical_study": false
+    },
+    {
+      "case_id": "P06",
+      "actor_id": "paul-kagame",
+      "scale_id": "russia-diplomatic-engagement-negative",
+      "considered": true,
+      "value": null,
+      "status": "unknown",
+      "included_in_canonical_study": false
+    },
+    {
+      "case_id": "P06",
+      "actor_id": "paul-kagame",
+      "scale_id": "russia-security-cooperation-positive",
+      "considered": true,
+      "value": null,
+      "status": "unknown",
+      "included_in_canonical_study": false
+    },
+    {
+      "case_id": "P06",
+      "actor_id": "paul-kagame",
+      "scale_id": "russia-security-cooperation-negative",
+      "considered": true,
+      "value": null,
+      "status": "unknown",
+      "included_in_canonical_study": false
+    },
+    {
+      "case_id": "P06",
+      "actor_id": "paul-kagame",
+      "scale_id": "russia-economic-technology-cooperation-positive",
+      "considered": true,
+      "value": null,
+      "status": "unknown",
+      "included_in_canonical_study": false
+    },
+    {
+      "case_id": "P06",
+      "actor_id": "paul-kagame",
+      "scale_id": "russia-economic-technology-cooperation-negative",
+      "considered": true,
+      "value": null,
+      "status": "unknown",
+      "included_in_canonical_study": false
+    },
+    {
+      "case_id": "P06",
+      "actor_id": "paul-kagame",
+      "scale_id": "russia-education-cultural-cooperation-positive",
+      "considered": true,
+      "value": null,
+      "status": "unknown",
+      "included_in_canonical_study": false
+    },
+    {
+      "case_id": "P06",
+      "actor_id": "paul-kagame",
+      "scale_id": "russia-education-cultural-cooperation-negative",
+      "considered": true,
+      "value": null,
+      "status": "unknown",
+      "included_in_canonical_study": false
+    },
+    {
+      "case_id": "P06",
+      "actor_id": "paul-kagame",
+      "scale_id": "russia-conflict-policy-evaluation-positive",
+      "considered": true,
+      "value": null,
+      "status": "unknown",
+      "included_in_canonical_study": false
+    },
+    {
+      "case_id": "P06",
+      "actor_id": "paul-kagame",
+      "scale_id": "russia-conflict-policy-evaluation-negative",
+      "considered": true,
+      "value": null,
+      "status": "unknown",
+      "included_in_canonical_study": false
+    },
+    {
+      "case_id": "P06",
+      "actor_id": "paul-kagame",
+      "scale_id": "russia-isolation-sanctions-positive",
+      "considered": true,
+      "value": null,
+      "status": "unknown",
+      "included_in_canonical_study": false
+    },
+    {
+      "case_id": "P06",
+      "actor_id": "paul-kagame",
+      "scale_id": "russia-isolation-sanctions-negative",
+      "considered": true,
+      "value": null,
+      "status": "unknown",
+      "included_in_canonical_study": false
+    }
+  ],
+  "api_calls": 0,
+  "new_api_cost_usd": 0,
+  "paid_execution_authorized": false,
+  "canonical_study_modified": false,
+  "person_level_aggregation_performed": false,
+  "factor_analysis_performed": false,
+  "raw_quotes_published": false,
+  "limitations": [
+    "Targeted risk sample, not an estimate of population extraction accuracy.",
+    "Assistant review is not an independent human expert study or external fact verification.",
+    "Literal source matching checks provenance, not semantic truth.",
+    "Ratings concern reviewed source fragments, not stable five-year personal profiles.",
+    "All other considered properties remain unknown; no zeros from silence.",
+    "Cross-case episode links are recorded, but no independence-weighted aggregation is performed.",
+    "Excluded controls stay separate from the selected sample and canonical ratings."
+  ],
+  "calibration_changes": [
+    {
+      "case_id": "P04",
+      "action": "replace_field",
+      "scale_id": null,
+      "before_value": null,
+      "after_value": null,
+      "reason_ru": "Для включения в пятилетнее окно достаточно подтверждённого годового интервала. Требование четырёх цифр года непосредственно в реплике было бы избыточным: собственное выступление однозначно связано с явно названной текущей конференцией. Смена временной точности отражена отдельно."
+    }
+  ],
+  "selection_ru": "Шесть ранее неоценённых источников по Кагаме выбраны для проверки незавершённого этапа оценивания. Это не вероятностная выборка и не оценка качества всего корпуса.",
+  "source_reading_chars": 22161
+}
