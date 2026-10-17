@@ -2,13 +2,14 @@
 import csv
 import json
 from pathlib import Path
+import sqlite3
 import tempfile
 import threading
 import time
 import unittest
 
-from src.corpus_pipeline.bounded_workers import run_workers
-from src.corpus_pipeline.models import ModelResponseError, estimate_cost, payload_input_bound
+from src.corpus_pipeline.bounded_workers import run_workers, _safe_exception
+from src.corpus_pipeline.models import ModelResponseError, estimate_cost, payload_input_bound, make_task
 from src.corpus_pipeline.service import CorpusPipeline
 
 
@@ -126,6 +127,146 @@ class BoundedWorkersTests(unittest.TestCase):
                 if uncertain:
                     self.assertGreater(result["accounting"]["outstanding_reserved_usd"], 0)
                 self.assertEqual(result["statuses"]["pending"], 19)
+
+    def test_stage_selection_preserves_held_extract_and_shared_68_70_cap(self):
+        root, pipeline, identifier = self.fixture(count=4)
+        config = pipeline._row(identifier)["config"]
+        context = {"config": config, "facts": []}
+        payload = make_task("describe", context, model=config["routes"]["describe"])
+        with pipeline.connection() as db:
+            db.execute("UPDATE jobs SET stage='extract',recipe=? WHERE corpus_id=?",
+                       (pipeline._recipe("extract", config), identifier))
+            first = db.execute("SELECT id FROM jobs ORDER BY id LIMIT 1").fetchone()[0]
+            db.execute("UPDATE jobs SET status='done',cost_usd=67.99 WHERE id=?", (first,))
+            for index in range(6):
+                db.execute("""INSERT INTO jobs(id,corpus_id,stage,unit_id,recipe,context,payload,status,created_at)
+                    VALUES(?,?,'describe',?,?,?,?,'pending','2099-01-01')""",
+                    ("describe-" + str(index), identifier, "desc-unit-" + str(index),
+                     pipeline._recipe("describe", config), json.dumps(context), json.dumps(payload)))
+        called = []
+        class DescribeOnly:
+            def call(self, actual):
+                called.append(actual["text"]["format"]["name"])
+                return {"data": {"scales": []}, "usage": {"input_tokens": 100, "output_tokens": 20},
+                        "response_id": "synthetic-description"}
+            def close(self):
+                pass
+        pipeline.configure(identifier, {"budget_limit_usd": 68.})
+        blocked = pipeline.run(identifier, stage="describe", client=DescribeOnly(), budget_usd=1.)
+        self.assertEqual(blocked["attempted"], 0)
+        self.assertEqual(blocked["stopped_reason"], "corpus_budget_reservation")
+        pipeline.configure(identifier, {"budget_limit_usd": 70.})
+        direct = pipeline.run(identifier, stage="describe", client=DescribeOnly(), max_jobs=1, budget_usd=1.)
+        self.assertEqual(direct["completed"], 1)
+        result = run_workers(root, identifier, stage="describe", workers=3, max_jobs=2, client_factory=DescribeOnly)
+        self.assertEqual(result["attempted"], 2)
+        self.assertEqual(result["stage_totals"]["stage"], "describe")
+        self.assertEqual(result["stage_totals"]["statuses"]["pending"], 3)
+        self.assertEqual(result["statuses"]["pending"], 6)
+        self.assertEqual(called, ["corpus_describe"] * 3)
+        with pipeline.connection() as db:
+            self.assertEqual(db.execute("SELECT COUNT(*) FROM jobs WHERE stage='extract' AND status='pending'").fetchone()[0], 3)
+        self.assertLess(result["accounting"]["cost_usd_total"], 70)
+
+    def test_invalid_stage_rejected_before_any_client_call(self):
+        root, pipeline, identifier = self.fixture(count=2)
+        with self.assertRaisesRegex(ValueError, "stage"):
+            pipeline.run(identifier, stage="invented", client=object())
+        with self.assertRaisesRegex(ValueError, "stage"):
+            run_workers(root, identifier, stage="invented", client_factory=lambda: self.fail("No client expected"))
+
+    def test_connection_guard_shared_by_path_reentrant_and_other_db_independent(self):
+        root, first, _ = self.fixture(count=2)
+        second = CorpusPipeline(root / "." )
+        independent = CorpusPipeline(root / "independent")
+        self.assertIs(first._db_lock, second._db_lock)
+        self.assertIsNot(first._db_lock, independent._db_lock)
+        trying, entered, other_entered = threading.Event(), threading.Event(), threading.Event()
+        def same_db():
+            trying.set()
+            with second.connection() as db:
+                db.execute("SELECT 1")
+                entered.set()
+        def other_db():
+            with independent.connection() as db:
+                db.execute("SELECT 1")
+                other_entered.set()
+        same, other = threading.Thread(target=same_db), threading.Thread(target=other_db)
+        try:
+            with first.connection() as db:
+                self.assertEqual(db.execute("PRAGMA synchronous").fetchone()[0], 2)  # FULL remains.
+                with first.connection() as nested:
+                    self.assertEqual(nested.execute("SELECT 1").fetchone()[0], 1)
+                same.start()
+                self.assertTrue(trying.wait(2))
+                self.assertFalse(entered.wait(.05))
+                other.start()
+                self.assertTrue(other_entered.wait(2))
+            self.assertTrue(entered.wait(2))
+        finally:
+            if same.ident is not None:
+                same.join(timeout=3)
+            if other.ident is not None:
+                other.join(timeout=3)
+
+    def test_32_workers_500_jobs_have_no_sqlite_failure_or_duplicate_claim(self):
+        root, pipeline, identifier = self.fixture(count=500)
+        seen, clients, lock = [], [], threading.Lock()
+        result = run_workers(root, identifier, workers=32, max_jobs=500,
+            client_factory=self.factory(seen, clients, lock, barrier=threading.Barrier(32), delay=.0001))
+        self.assertEqual(result["attempted"], 500)
+        self.assertEqual(result["completed"] + result["review"], 500)
+        self.assertEqual(len(seen), len(set(seen)))
+        self.assertEqual(result["errors"], [])
+        self.assertEqual(result["uncertain"], 0)
+        self.assertEqual(result["statuses"].get("pending", 0), 0)
+        self.assertTrue(all(client.closed for client in clients))
+
+    def test_sqlite_diagnostics_are_allowlisted_without_other_exception_text(self):
+        error = sqlite3.OperationalError("database is locked")
+        error.sqlite_errorcode, error.sqlite_errorname = 5, "SQLITE_BUSY"
+        safe = _safe_exception(error, 1)
+        self.assertEqual(safe["sqlite_errorcode"], 5)
+        self.assertEqual(safe["sqlite_errorname"], "SQLITE_BUSY")
+        self.assertEqual(safe["message"], "database is locked")
+        for exc in (sqlite3.OperationalError("sk-PRIVATE_KEY PRIVATE_SOURCE"), RuntimeError("sk-PRIVATE_KEY")):
+            self.assertNotIn("PRIVATE", json.dumps(_safe_exception(exc, 1)))
+
+    def test_scope_anchor_keeps_wal_between_worker_transactions_and_closes_after_join(self):
+        root, pipeline, identifier = self.fixture(count=3)
+        wal = Path(str(pipeline.db_path) + "-wal")
+        observations, closed = [], []
+        test = self
+        class Client:
+            def call(self, payload):
+                # The worker claim transaction/connection already closed; no
+                # additional connection is opened by this check.
+                observations.append(wal.exists() and wal.stat().st_size > 0)
+                return {"data": {"status": "relevant", "actor_ids": ["alpha"], "language": "en", "reason": "Synthetic"},
+                        "usage": {"input_tokens": 100, "output_tokens": 20}, "response_id": "synthetic"}
+            def close(self):
+                closed.append(wal.exists())
+        result = run_workers(root, identifier, workers=1, client_factory=Client)
+        self.assertEqual(result["attempted"], 3)
+        self.assertEqual(observations, [True] * 3)
+        self.assertEqual(closed, [True])
+        self.assertFalse(wal.exists())
+        # A leaked persistent connection prevents this rename on Windows.
+        renamed = pipeline.db_path.with_suffix(".closed")
+        pipeline.db_path.replace(renamed)
+        renamed.replace(pipeline.db_path)
+
+    def test_accounting_queries_use_covering_index_without_loading_wide_payloads(self):
+        root, pipeline, identifier = self.fixture(count=2)
+        queries = [
+            ("SELECT SUM(cost_usd)+SUM(CASE WHEN status IN ('running','uncertain') THEN reserved_usd ELSE 0 END) FROM jobs WHERE corpus_id=?", (identifier,)),
+            ("SELECT SUM(input_tokens),SUM(output_tokens),SUM(cost_usd),SUM(CASE WHEN status IN ('running','uncertain') THEN reserved_usd ELSE 0 END) FROM jobs WHERE corpus_id=? AND stage=?", (identifier, "relevance")),
+        ]
+        with pipeline.connection() as db:
+            for query, arguments in queries:
+                plan = " ".join(row[3] for row in db.execute("EXPLAIN QUERY PLAN " + query, arguments))
+                self.assertIn("COVERING INDEX job_accounting", plan)
+                self.assertIsNotNone(db.execute(query, arguments).fetchone())
 
 
 if __name__ == "__main__":

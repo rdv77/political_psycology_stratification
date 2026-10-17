@@ -10,25 +10,50 @@ from concurrent.futures import ThreadPoolExecutor, wait
 import math
 import os
 from pathlib import Path
+import re
+import sqlite3
 import threading
 import time
 
 from .models import OpenAIResponsesHTTP
-from .service import CorpusPipeline
+from .service import CorpusPipeline, STAGES
 
 
-def _aggregate(pipeline, identifier):
+def _safe_exception(exc, number, during=None):
+    result = {"worker": number, "exception_type": type(exc).__name__}
+    if during:
+        result["during"] = during
+    if isinstance(exc, sqlite3.Error):
+        code, name = getattr(exc, "sqlite_errorcode", None), getattr(exc, "sqlite_errorname", None)
+        if type(code) is int:
+            result["sqlite_errorcode"] = code
+        if isinstance(name, str) and re.fullmatch(r"SQLITE_[A-Z0-9_]+", name):
+            result["sqlite_errorname"] = name
+        if str(exc) in {"database is locked", "database table is locked", "disk I/O error", "database or disk is full"}:
+            result["message"] = str(exc)
+    return result
+
+
+def _aggregate(pipeline, identifier, stage=None):
     with pipeline.connection() as db:
         statuses = dict(db.execute("SELECT status,COUNT(*) FROM jobs WHERE corpus_id=? GROUP BY status", (identifier,)))
         usage = dict(db.execute("""SELECT COALESCE(SUM(input_tokens),0) input_tokens,
             COALESCE(SUM(output_tokens),0) output_tokens, COALESCE(SUM(cost_usd),0) cost_usd,
             COALESCE(SUM(CASE WHEN status IN ('running','uncertain') THEN reserved_usd ELSE 0 END),0) reserved_usd
             FROM jobs WHERE corpus_id=?""", (identifier,)).fetchone())
-    return {"statuses": statuses, **usage}
+        selected = None
+        if stage is not None:
+            stage_statuses = dict(db.execute("SELECT status,COUNT(*) FROM jobs WHERE corpus_id=? AND stage=? GROUP BY status", (identifier, stage)))
+            stage_usage = dict(db.execute("""SELECT COALESCE(SUM(input_tokens),0) input_tokens,
+                COALESCE(SUM(output_tokens),0) output_tokens, COALESCE(SUM(cost_usd),0) cost_usd,
+                COALESCE(SUM(CASE WHEN status IN ('running','uncertain') THEN reserved_usd ELSE 0 END),0) reserved_usd
+                FROM jobs WHERE corpus_id=? AND stage=?""", (identifier, stage)).fetchone())
+            selected = {"stage": stage, "statuses": stage_statuses, **stage_usage}
+    return {"statuses": statuses, **usage, "stage_totals": selected}
 
 
 def run_workers(root, identifier, *, workers=8, max_jobs=None, client_factory=None,
-                emit=None, stop_file=None):
+                emit=None, stop_file=None, stage=None):
     """Drain a prepared stage subject to a fixed, existing corpus budget.
 
     ``max_jobs`` bounds total attempts across workers, including paid failures.
@@ -47,13 +72,15 @@ def run_workers(root, identifier, *, workers=8, max_jobs=None, client_factory=No
         raise ValueError("max_jobs must be a positive integer or null")
     if client_factory is not None and not callable(client_factory):
         raise ValueError("client_factory must be callable")
+    if stage is not None and stage not in STAGES:
+        raise ValueError("Unknown processing stage")
     pipeline = CorpusPipeline(root)
     config = pipeline._row(identifier)["config"]
     cap = config.get("budget_limit_usd")
     if type(cap) not in (int, float) or not math.isfinite(cap) or cap <= 0:
         raise ValueError("An existing positive corpus budget_limit_usd is required")
     stop_path = Path(stop_file) if stop_file is not None else None
-    before = _aggregate(pipeline, identifier)
+    before = _aggregate(pipeline, identifier, stage)
     event, lock = threading.Event(), threading.Lock()
     counters = {"attempted": 0, "completed": 0, "review": 0, "failed": 0, "uncertain": 0,
                 "run_invocations": 0}
@@ -66,7 +93,7 @@ def run_workers(root, identifier, *, workers=8, max_jobs=None, client_factory=No
         event.set()
 
     def snapshot(final=False):
-        aggregate = _aggregate(pipeline, identifier)
+        aggregate = _aggregate(pipeline, identifier, stage)
         with lock:
             counts, stop_reasons, failures = dict(counters), sorted(reasons), list(errors)
         priority = ("worker_exception", "uncertain_request", "error", "stop_file", "configuration_changed",
@@ -77,6 +104,7 @@ def run_workers(root, identifier, *, workers=8, max_jobs=None, client_factory=No
                 "stopped_reason": reason, "stop_reasons": stop_reasons, "errors": failures,
                 "elapsed_seconds": round(time.monotonic() - started, 3),
                 "statuses": aggregate["statuses"],
+                "stage_totals": aggregate["stage_totals"],
                 "accounting": {"budget_limit_usd": cap, "cost_before_usd": before["cost_usd"],
                     "cost_usd_total": total, "recorded_cost_delta_usd": total - before["cost_usd"],
                     "outstanding_reserved_usd": reserved, "available_usd": max(0., cap - total - reserved),
@@ -86,7 +114,7 @@ def run_workers(root, identifier, *, workers=8, max_jobs=None, client_factory=No
 
     if stop_path is not None and stop_path.exists():
         stop("stop_file")
-    elif not before["statuses"].get("pending", 0):
+    elif not (before["stage_totals"] or before)["statuses"].get("pending", 0):
         stop("queue_empty")
     if event.is_set():
         result = snapshot(final=True)
@@ -108,8 +136,8 @@ def run_workers(root, identifier, *, workers=8, max_jobs=None, client_factory=No
                 if stop_path is not None and stop_path.exists():
                     stop("stop_file")
                     break
-                state = _aggregate(local, identifier)
-                if not state["statuses"].get("pending", 0):
+                state = _aggregate(local, identifier, stage)
+                if not (state["stage_totals"] or state)["statuses"].get("pending", 0):
                     with lock:
                         reasons.add("queue_empty")
                     break
@@ -124,7 +152,10 @@ def run_workers(root, identifier, *, workers=8, max_jobs=None, client_factory=No
                         reasons.add("max_jobs")
                         break
                     counters["run_invocations"] += 1
-                result = local.run(identifier, max_jobs=1, budget_usd=remaining, client=client)
+                run_kwargs = {"max_jobs": 1, "budget_usd": remaining, "client": client}
+                if stage is not None:
+                    run_kwargs["stage"] = stage
+                result = local.run(identifier, **run_kwargs)
                 with lock:
                     for key in ("completed", "review", "failed", "uncertain", "attempted"):
                         counters[key] += result.get(key, 0)
@@ -141,7 +172,7 @@ def run_workers(root, identifier, *, workers=8, max_jobs=None, client_factory=No
         except Exception as exc:
             # Exception strings may contain source data, HTTP bodies or secrets.
             with lock:
-                errors.append({"worker": number, "exception_type": type(exc).__name__})
+                errors.append(_safe_exception(exc, number))
             stop("worker_exception")
         finally:
             if client is not None and hasattr(client, "close"):
@@ -149,27 +180,43 @@ def run_workers(root, identifier, *, workers=8, max_jobs=None, client_factory=No
                     client.close()
                 except Exception as exc:
                     with lock:
-                        errors.append({"worker": number, "exception_type": type(exc).__name__, "during": "close"})
+                        errors.append(_safe_exception(exc, number, "close"))
                     stop("worker_exception")
 
     last_time, last_count = started, 0
-    with ThreadPoolExecutor(max_workers=min(workers, max_jobs or workers)) as pool:
-        futures = [pool.submit(worker, number) for number in range(min(workers, max_jobs or workers))]
-        pending = set(futures)
+    # A connection that has actually read the WAL mode keeps the WAL open
+    # between the service's short connections. No transaction remains open and
+    # no SQL is executed on this anchor while the worker pool runs.
+    with pipeline._db_lock:
+        anchor = sqlite3.connect(pipeline.db_path, timeout=30)
         try:
-            while pending:
-                _, pending = wait(pending, timeout=.25)
-                if stop_path is not None and stop_path.exists():
-                    stop("stop_file")
-                with lock:
-                    count = counters["attempted"]
-                current = time.monotonic()
-                if emit and pending and (current - last_time >= 30 or count - last_count >= 100):
-                    emit(snapshot())
-                    last_time, last_count = current, count
+            anchor.execute("PRAGMA journal_mode").fetchone()
         except BaseException:
-            stop("interrupted")
+            anchor.close()
             raise
+    try:
+        with ThreadPoolExecutor(max_workers=min(workers, max_jobs or workers)) as pool:
+            futures = [pool.submit(worker, number) for number in range(min(workers, max_jobs or workers))]
+            pending = set(futures)
+            try:
+                while pending:
+                    _, pending = wait(pending, timeout=.25)
+                    if stop_path is not None and stop_path.exists():
+                        stop("stop_file")
+                    with lock:
+                        count = counters["attempted"]
+                    current = time.monotonic()
+                    if emit and pending and (current - last_time >= 30 or count - last_count >= 100):
+                        emit(snapshot())
+                        last_time, last_count = current, count
+            except BaseException:
+                stop("interrupted")
+                raise
+    finally:
+        # Executor exit has joined every in-flight worker before this close.
+        # Close on the creating caller thread, never a worker or global finalizer.
+        with pipeline._db_lock:
+            anchor.close()
     result = snapshot(final=True)
     if emit:
         emit(result)

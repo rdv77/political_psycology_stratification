@@ -1,0 +1,104 @@
+{
+  "version": "half-receipt-reconciliation-v1",
+  "api_calls": 0,
+  "database_modified": false,
+  "snapshot_phase": "extract",
+  "statuses": {
+    "done": 22169,
+    "review": 285,
+    "uncertain": 1,
+    "error": 1,
+    "pending": 1452
+  },
+  "recipe_activity": {
+    "active": 23908
+  },
+  "expected_pre_wrapper_calls": 12,
+  "receipt_lines": 22444,
+  "unique_receipt_records": 22444,
+  "duplicate_response_records": 0,
+  "unpriced_receipt_units": 2,
+  "receipt_priced_cost_usd_known": 69.5143065999996,
+  "receipt_recomputed_cost_usd": null,
+  "fully_priced_matched_job_cost_usd": 69.51430659999961,
+  "fully_priced_matched_receipt_cost_usd": 69.51430659999961,
+  "fully_priced_matched_cost_difference_usd": 0.0,
+  "max_abs_priced_job_cost_difference_usd": 0.0,
+  "by_stage": {
+    "relevance": {
+      "jobs": 12205,
+      "attempted_jobs": 12205,
+      "job_recorded_cost_usd": 9.211759999999943,
+      "job_input_tokens": 18901820,
+      "job_output_tokens": 1031895,
+      "outstanding_reserved_usd": 0.0,
+      "matched_jobs": 12193,
+      "matched_unique_receipts": 12193,
+      "receipt_priced_cost_usd_known": 9.201277599999937,
+      "receipt_unpriced_count": 0,
+      "pre_wrapper_without_receipt_jobs": 12,
+      "unexpected_without_receipt_jobs": 0,
+      "cost_mismatch_jobs": 0
+    },
+    "extract": {
+      "jobs": 11693,
+      "attempted_jobs": 10241,
+      "job_recorded_cost_usd": 59.644551499999736,
+      "job_input_tokens": 19372934,
+      "job_output_tokens": 3543184,
+      "outstanding_reserved_usd": 0.06096625,
+      "matched_jobs": 10241,
+      "matched_unique_receipts": 10241,
+      "receipt_priced_cost_usd_known": 59.644551499999736,
+      "receipt_unpriced_count": 2,
+      "pre_wrapper_without_receipt_jobs": 0,
+      "unexpected_without_receipt_jobs": 0,
+      "cost_mismatch_jobs": 0
+    },
+    "describe": {
+      "jobs": 10,
+      "attempted_jobs": 10,
+      "job_recorded_cost_usd": 0.6684775000000001,
+      "job_input_tokens": 269822,
+      "job_output_tokens": 33120,
+      "outstanding_reserved_usd": 0.0,
+      "matched_jobs": 10,
+      "matched_unique_receipts": 10,
+      "receipt_priced_cost_usd_known": 0.6684775000000001,
+      "receipt_unpriced_count": 0,
+      "pre_wrapper_without_receipt_jobs": 0,
+      "unexpected_without_receipt_jobs": 0,
+      "cost_mismatch_jobs": 0
+    }
+  },
+  "totals": {
+    "jobs": 23908,
+    "attempted_jobs": 22456,
+    "job_recorded_cost_usd": 69.52478899999967,
+    "job_input_tokens": 38544576,
+    "job_output_tokens": 4608199,
+    "outstanding_reserved_usd": 0.06096625,
+    "matched_jobs": 22444,
+    "matched_unique_receipts": 22444,
+    "receipt_priced_cost_usd_known": 69.51430659999967,
+    "receipt_unpriced_count": 2,
+    "pre_wrapper_without_receipt_jobs": 12,
+    "unexpected_without_receipt_jobs": 0,
+    "cost_mismatch_jobs": 0
+  },
+  "issue_counts": {
+    "actual_service_tier_unreported": 2,
+    "pre_wrapper_without_receipt": 12,
+    "receipt_usage_unknown": 2
+  },
+  "method": {
+    "request_match": "service.digest(original job payload); response ID disambiguates repeated hashes",
+    "pricing": "Frozen manifest.pricing with returned-model snapshot aliases and actual cached input usage",
+    "duplicates": "Same nonempty response ID counted once; conflicting duplicates invalidate a complete receipt total",
+    "missing_usage": "Unknown/unpriced calls stay unpriced, not zero; known subtotal is explicitly partial",
+    "legacy": "First N started jobs may predate the receipt wrapper; their recorded job cost remains in totals",
+    "tiers": "Default-tier rates; a nondefault actual tier is unpriced; missing actual tier is flagged",
+    "timing": "Use a final snapshot after workers join; unmatched live receipts may be newer than the snapshot",
+    "scope": "Local usage-based reconciliation only; no provider invoice, balance lookup, retry or further API call"
+  }
+}

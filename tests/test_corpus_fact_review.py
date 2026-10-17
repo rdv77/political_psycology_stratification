@@ -130,6 +130,26 @@ class FactReviewIntegrationTests(unittest.TestCase):
         with self.pipeline.connection() as db:
             self.assertEqual(db.execute("SELECT COUNT(*) FROM fact_reviews").fetchone()[0], 3)
 
+    def test_trait_review_can_remove_inference_without_rewriting_source_or_adding_labels(self):
+        with self.pipeline.connection() as db:
+            fact = json.loads(db.execute("SELECT data FROM facts WHERE id='f0'").fetchone()[0])
+            fact["trait_candidates"] = ["cautious", "supports_dialogue"]
+            db.execute("UPDATE facts SET data=? WHERE id='f0'", (packed(fact),))
+        raw = self.raw_snapshot()
+        def decision(traits):
+            return [{"fact_id": "f0", "annotation": {"trait_candidates": traits,
+                    "review_note": "Source supports dialogue but not a cautious personality."}}]
+        for invalid in (["invented_new_property"], ["cautious", "cautious"], "cautious", [None]):
+            with self.subTest(invalid=invalid), self.assertRaises(ValueError):
+                self.pipeline.review_facts(self.identifier, decision(invalid), reviewer="assistant", policy="trait-review-v1")
+        result = self.pipeline.review_facts(self.identifier, decision(["supports_dialogue"]), reviewer="assistant", policy="trait-review-v1")
+        self.assertEqual(result["annotations_added"], 1)
+        self.assertEqual(next(f for f in self.pipeline._facts(self.identifier, self.corpus["config"]) if f["id"] == "f0")["trait_candidates"], ["supports_dialogue"])
+        self.assertEqual(self.raw_snapshot(), raw)
+        self.assertEqual(self.pipeline.review_facts(self.identifier, decision(["supports_dialogue"]), reviewer="assistant", policy="trait-review-v1")["annotations_added"], 0)
+        with self.assertRaises(ValueError):
+            self.pipeline.review_facts(self.identifier, decision(["cautious"]), reviewer="assistant", policy="trait-review-v2")
+
 
 if __name__ == "__main__":
     unittest.main()

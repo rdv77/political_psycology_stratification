@@ -39,6 +39,20 @@ LANGUAGES = {"kinyarwanda": "rw", "french": "fr", "english": "en", "kiswahili": 
              "английский": "en", "суахили": "sw"}
 
 
+# Serialize in-process connection critical sections for one physical database.
+# SQLite transactions still enforce cross-process claims and budget reserves.
+_DB_LOCKS = {}
+_DB_LOCKS_GUARD = threading.Lock()
+
+
+def _database_lock(path):
+    key = os.path.normcase(str(Path(path).resolve()))
+    with _DB_LOCKS_GUARD:
+        if key not in _DB_LOCKS:
+            _DB_LOCKS[key] = threading.RLock()
+        return _DB_LOCKS[key]
+
+
 def now():
     return datetime.now(timezone.utc).isoformat()
 
@@ -127,6 +141,7 @@ class CorpusPipeline:
         self.runtime = self.root / ".corpus_runtime"
         self.runtime.mkdir(parents=True, exist_ok=True)
         self.db_path = self.runtime / "corpus.sqlite3"
+        self._db_lock = _database_lock(self.db_path)
         self.run_lock = threading.Lock()
         with self.connection() as db:
             db.executescript("""
@@ -152,6 +167,8 @@ class CorpusPipeline:
                     input_tokens INTEGER NOT NULL DEFAULT 0, output_tokens INTEGER NOT NULL DEFAULT 0,
                     cost_usd REAL NOT NULL DEFAULT 0, reserved_usd REAL NOT NULL DEFAULT 0);
                 CREATE INDEX IF NOT EXISTS job_queue ON jobs(corpus_id,status,created_at);
+                CREATE INDEX IF NOT EXISTS job_accounting ON jobs
+                    (corpus_id,stage,status,cost_usd,input_tokens,output_tokens,reserved_usd);
                 CREATE TABLE IF NOT EXISTS facts (
                     id TEXT PRIMARY KEY, corpus_id TEXT NOT NULL, job_id TEXT NOT NULL,
                     actor_id TEXT NOT NULL, document_id TEXT NOT NULL, data TEXT NOT NULL);
@@ -174,13 +191,14 @@ class CorpusPipeline:
 
     @contextmanager
     def connection(self):
-        db = sqlite3.connect(self.db_path, timeout=30)
-        db.row_factory = sqlite3.Row
-        try:
-            with db:
-                yield db
-        finally:
-            db.close()
+        with self._db_lock:
+            db = sqlite3.connect(self.db_path, timeout=30)
+            db.row_factory = sqlite3.Row
+            try:
+                with db:
+                    yield db
+            finally:
+                db.close()
 
     def model_config(self):
         return {"configured": bool(os.environ.get("OPENAI_API_KEY")),
@@ -387,8 +405,8 @@ class CorpusPipeline:
         if not reviewer or not policy or not isinstance(decisions, list):
             raise ValueError("Укажите рецензента, версию правил и список решений")
         corpus = self._row(identifier)
-        active = {fact["id"] for fact in self._facts(identifier, corpus["config"])}
-        allowed = {"kind", "attribution_basis", "temporal_status", "measurement_status", "review_status", "review_note", "event_date", "date_evidence"}
+        active = {fact["id"]: fact for fact in self._facts(identifier, corpus["config"])}
+        allowed = {"kind", "attribution_basis", "temporal_status", "measurement_status", "review_status", "review_note", "event_date", "date_evidence", "trait_candidates"}
         count = 0
         with self.connection() as db:
             for decision in decisions:
@@ -401,6 +419,12 @@ class CorpusPipeline:
                     raise ValueError("Неизвестный тип свидетельства")
                 if "event_date" in annotation and annotation["event_date"] is not None:
                     raise ValueError("Локальная проверка может снять дату, но не выдумывать новую")
+                if "trait_candidates" in annotation:
+                    traits = annotation["trait_candidates"]
+                    original = active[decision["fact_id"]].get("trait_candidates", [])
+                    if (not isinstance(traits, list) or any(not isinstance(v, str) for v in traits)
+                            or len(set(traits)) != len(traits) or not set(traits) <= set(original)):
+                        raise ValueError("Проверка характеристик может только удалить ранее извлечённые определения")
                 identifier_review = "review-" + digest([identifier, decision["fact_id"], reviewer, policy, annotation])[:28]
                 count += db.execute("INSERT OR IGNORE INTO fact_reviews VALUES(?,?,?,?,?,?,?)",
                                     (identifier_review, identifier, decision["fact_id"], now(), reviewer, policy, packed(annotation))).rowcount
@@ -677,7 +701,9 @@ class CorpusPipeline:
                 db.execute("INSERT OR REPLACE INTO ratings VALUES(?,?,?,?,?)",
                            (identifier, job["id"], rating["actor_id"], rating["scale_id"], packed(value)))
 
-    def run(self, identifier, max_jobs=5, budget_usd=1.0, *, client=None):
+    def run(self, identifier, max_jobs=5, budget_usd=1.0, *, client=None, stage=None):
+        if stage is not None and stage not in STAGES:
+            raise ValueError("Unknown processing stage")
         if isinstance(max_jobs, bool) or isinstance(budget_usd, bool):
             raise ValueError("Лимит и бюджет должны быть числами")
         max_jobs, budget_usd = int(max_jobs), float(budget_usd)
@@ -692,7 +718,7 @@ class CorpusPipeline:
                 if not key:
                     raise ValueError("Задайте OPENAI_API_KEY в локальном .env или окружении сервера")
                 client = owned_client = OpenAIResponsesHTTP(key)
-            return self._run(identifier, max_jobs, budget_usd, client)
+            return self._run(identifier, max_jobs, budget_usd, client, stage=stage)
         finally:
             try:
                 if owned_client is not None:
@@ -700,7 +726,9 @@ class CorpusPipeline:
             finally:
                 self.run_lock.release()
 
-    def _run(self, identifier, max_jobs, budget_usd, client):
+    def _run(self, identifier, max_jobs, budget_usd, client, stage=None):
+        if stage is not None and stage not in STAGES:
+            raise ValueError("Unknown processing stage")
         corpus = self._row(identifier)
         config = corpus["config"]
         run_id, used, attempted = "run-" + uuid.uuid4().hex, 0.0, 0
@@ -715,7 +743,10 @@ class CorpusPipeline:
                 if latest_config != config:
                     summary["stopped_reason"] = "configuration_changed"
                     break
-                row = db.execute("SELECT * FROM jobs WHERE corpus_id=? AND status='pending' ORDER BY created_at,id LIMIT 1", (identifier,)).fetchone()
+                if stage is None:
+                    row = db.execute("SELECT * FROM jobs WHERE corpus_id=? AND status='pending' ORDER BY created_at,id LIMIT 1", (identifier,)).fetchone()
+                else:
+                    row = db.execute("SELECT * FROM jobs WHERE corpus_id=? AND status='pending' AND stage=? ORDER BY created_at,id LIMIT 1", (identifier, stage)).fetchone()
                 if row is None:
                     break
                 job = dict(row)

@@ -1,0 +1,272 @@
+{
+  "version": "half-quality-public-v1",
+  "api_calls": 0,
+  "database_modified": false,
+  "reviewer_type": "assistant_LLM_offline_not_independent_human_expert",
+  "selection_type": "nonrandom_purposive_risk_and_actor_diversity",
+  "independent_human_coders": 0,
+  "external_source_truth_verified": false,
+  "population_accuracy_estimate": null,
+  "fact_review_union": {
+    "seed_fact_findings": 80,
+    "agency_fact_findings": 20,
+    "unique_facts": 100,
+    "overlap_facts": 0,
+    "distinct_documents": 98,
+    "distinct_actors": 41,
+    "expected_unique_facts": 100,
+    "complete_expected_review": true
+  },
+  "seed_fact_review": {
+    "findings": 80,
+    "unique_facts": 80,
+    "distinct_documents": 78,
+    "distinct_actors": 41,
+    "review_language_counts": {
+      "en": 48,
+      "fr": 18,
+      "rw": 12,
+      "sw": 2
+    },
+    "original_kind_counts": {
+      "action": 23,
+      "attributed_image": 14,
+      "institutional_context": 19,
+      "public_statement": 24
+    },
+    "judgment_counts": {
+      "source_partly_supported_and_mischannelled": 1,
+      "source_supported_basis_inexact": 1,
+      "source_supported_event_date_misattributed": 1,
+      "source_supported_historical_outside_window": 2,
+      "source_supported_mischannelled": 6,
+      "source_supported_trait_inference_uncertain": 1,
+      "supported_recorded_channel": 62,
+      "uncertain_event_period": 1,
+      "uncertain_primary_attribution": 1,
+      "uncertain_source_role_detail": 1,
+      "uncertain_title_translation": 1,
+      "unsupported_actor_attribution": 1,
+      "unsupported_period_and_uncertain_identity": 1
+    },
+    "source_support_counts": {
+      "historical_source_assertion_not_supported_for_current_target": 1,
+      "not_supported_for_approved_target_identity": 1,
+      "partially_supported_claim_extension": 1,
+      "partially_supported_role_detail_inconsistent": 1,
+      "partially_supported_title_translation_uncertain": 1,
+      "supported_as_secondary_post_assertion": 1,
+      "supported_as_source_assertion": 73,
+      "supported_as_source_assertion_period_unresolved": 1
+    },
+    "failure_code_counts": {
+      "classification_language_indonesian_as_sw": 1,
+      "event_date_belongs_to_referenced_event": 1,
+      "external_appointment_not_own_action": 2,
+      "historical_1994_statement_outside_window": 1,
+      "historical_2017_action_outside_window": 1,
+      "historical_2019_action_outside_window": 1,
+      "homonym_alias_wrong_approved_actor": 1,
+      "indirect_news_report_marked_direct_statement": 1,
+      "possible_recycled_historical_event_period_unresolved": 1,
+      "primary_speech_attribution_not_verified_from_post": 1,
+      "reported_speech_typed_as_physical_action": 1,
+      "same_name_identity_unresolved": 1,
+      "source_role_detail_inconsistent": 1,
+      "source_supported_but_not_personal_action": 2,
+      "speculative_trait_candidates_from_nonresponse": 1,
+      "statement_title_not_substantive_direct_quote": 1,
+      "trait_candidate_not_entailed_multipartism": 1,
+      "trait_candidate_not_entailed_post_disaster": 1,
+      "trait_candidate_overgeneralized_pro_government": 1,
+      "trait_candidate_responsiveness_not_entailed": 1,
+      "trait_candidates_from_event_heading_or_role": 1,
+      "truncated_clause_extended_to_framework": 1,
+      "uncertain_un_rank_title_translation": 1,
+      "unverified_post_promoted_to_own_action": 1
+    }
+  },
+  "agency_fact_review": {
+    "findings": 20,
+    "unique_facts": 20,
+    "distinct_documents": 20,
+    "distinct_actors": 16,
+    "review_language_counts": {
+      "not_recorded": 20
+    },
+    "original_kind_counts": {
+      "action": 12,
+      "public_statement": 8
+    },
+    "decision_counts": {
+      "context_only": 9,
+      "flag": 1,
+      "keep": 10
+    }
+  },
+  "classification_review": {
+    "findings": 30,
+    "distinct_documents": 30,
+    "distinct_returned_actors": 34,
+    "original_status_counts": {
+      "irrelevant": 3,
+      "relevant": 25,
+      "review": 2
+    },
+    "original_model_language_counts": {
+      "en": 9,
+      "fr": 6,
+      "mixed": 1,
+      "other": 1,
+      "rw": 12,
+      "sw": 1
+    },
+    "status_judgment_counts": {
+      "conservative_hold_of_useful_material": 1,
+      "supported": 28,
+      "uncertain_low_substantive_relevance": 1
+    },
+    "identity_judgment_counts": {
+      "supported": 29,
+      "unsupported_actor_identity": 1
+    },
+    "language_judgment_counts": {
+      "supported_for_supplied_passages": 30
+    },
+    "category_counts": {
+      "not_recorded": 30
+    },
+    "reading_mode_counts": {
+      "not_recorded": 30
+    },
+    "failure_code_counts": {}
+  },
+  "negative_document_review": {
+    "findings": 20,
+    "distinct_documents": 20,
+    "distinct_returned_actors": 12,
+    "original_status_counts": {
+      "irrelevant": 6,
+      "relevant": 8,
+      "review": 6
+    },
+    "original_model_language_counts": {
+      "en": 4,
+      "fr": 4,
+      "mixed": 1,
+      "other": 2,
+      "rw": 4,
+      "sw": 4,
+      "unknown": 1
+    },
+    "status_judgment_counts": {
+      "missed_roster_actor_due_alias_order": 1,
+      "supported_conservative_no_facts": 5,
+      "supported_irrelevant": 4,
+      "supported_review_low_relevance": 1,
+      "supported_review_sparse_source": 1,
+      "supported_review_unreadable_ocr": 1,
+      "uncertain_language_ocr_overfilter": 1,
+      "usable_official_action_omitted": 1,
+      "usable_source_lost_to_model_attribution_format": 1,
+      "usable_source_lost_to_short_name_guard": 1,
+      "useful_context_held_by_mixed_gate": 1,
+      "useful_material_held_by_identity_guard": 2
+    },
+    "identity_judgment_counts": {
+      "different_nonroster_person": 1,
+      "historical_film_reference_only": 1,
+      "name_only_not_substantive_actor": 1,
+      "named_actor_in_ambiguous_comment": 1,
+      "named_actor_in_truncated_title": 1,
+      "named_actor_without_substantive_statement": 1,
+      "named_image_reference": 1,
+      "no_roster_actor_found": 2,
+      "plausible_ocr_identity": 1,
+      "supported_actor_attendance": 1,
+      "supported_actor_in_full_source": 2,
+      "supported_biruta_personal_visit": 1,
+      "supported_bizimana_not_provided_in_compact_roster": 1,
+      "supported_contextual_identity": 2,
+      "supported_louise_reference": 1,
+      "unestablished": 1,
+      "unestablished_beyond_name": 1
+    },
+    "language_judgment_counts": {
+      "likely_english_short_ocr": 1,
+      "supported": 12,
+      "supported_mixed": 1,
+      "supported_other_indonesian": 1,
+      "supported_with_limited_translation_confidence": 3,
+      "uncertain": 1,
+      "unknown": 1
+    },
+    "category_counts": {
+      "irrelevant": 6,
+      "relevant_no_facts": 8,
+      "review": 6
+    },
+    "reading_mode_counts": {
+      "full_supplied_source_passages": 17,
+      "targeted_head_tail_and_actor_windows_plus_lexical_census": 3
+    },
+    "failure_code_counts": {
+      "alias_accent_kagame_guard_hold": 1,
+      "invented_ellipsis_in_attribution_rejected": 1,
+      "invisible_format_character_in_name_guard_hold": 1,
+      "mixed_allowed_languages_context_hold": 1,
+      "reverse_name_order_roster_recall_gap": 1,
+      "short_english_ocr_labelled_other": 1,
+      "short_name_local_guard_recall_loss": 2,
+      "supported_official_visit_omitted_by_model": 1
+    },
+    "targeted_summary_groups": {
+      "supported_conservative": 12,
+      "potential_useful_material_loss_or_barrier": 7,
+      "uncertain": 1
+    }
+  },
+  "annotations": {
+    "proposed_distinct_facts": 27,
+    "proposed_note_only_facts": 4,
+    "actual_applied": {
+      "annotation_rows": 37,
+      "distinct_annotated_facts": 36,
+      "annotated_facts_in_review_union": 27,
+      "annotated_facts_outside_review_union": 9,
+      "proposed_with_any_annotation_facts": 27,
+      "proposed_without_annotation_facts": 0,
+      "proposal_semantically_matched_facts": 24,
+      "proposed_with_different_annotation_facts": 3,
+      "proposed_not_matched_facts": 3
+    }
+  },
+  "receipt_reconciliation": {
+    "receipt_lines": 22444,
+    "unique_receipt_records": 22444,
+    "duplicate_response_records": 0,
+    "unpriced_receipt_units": 2,
+    "receipt_priced_cost_usd_known": 69.5143065999996,
+    "receipt_recomputed_cost_usd": null,
+    "fully_priced_matched_job_cost_usd": 69.51430659999961,
+    "fully_priced_matched_receipt_cost_usd": 69.51430659999961,
+    "fully_priced_matched_cost_difference_usd": 0.0,
+    "max_abs_priced_job_cost_difference_usd": 0.0,
+    "expected_pre_wrapper_calls": 12,
+    "issue_counts": {
+      "actual_service_tier_unreported": 2,
+      "pre_wrapper_without_receipt": 12,
+      "receipt_usage_unknown": 2
+    },
+    "job_recorded_cost_usd_total": 69.52478899999967,
+    "outstanding_reserved_usd": 0.06096625
+  },
+  "limits": {
+    "categories_kept_separate": true,
+    "targeted_error_fraction_is_not_population_error_rate": true,
+    "missing_review_language_does_not_mean_unknown_source_language": true,
+    "source_assertion_is_not_externally_verified_truth": true,
+    "proposal_is_not_an_applied_annotation": true,
+    "receipt_usage_reconciliation_is_not_provider_invoice": true
+  }
+}

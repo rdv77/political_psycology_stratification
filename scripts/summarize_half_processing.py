@@ -110,7 +110,7 @@ def _host(url):
 
 def _scale_groups(scales, facts, eligible):
     """Connected literal declared aliases only; definitions are never inferred."""
-    entries, parents, labels_seen, dropped = [], {}, {}, 0
+    entries, parents, labels_seen, dropped, unsupported = [], {}, {}, 0, 0
 
     def find(i):
         while parents[i] != i:
@@ -119,6 +119,11 @@ def _scale_groups(scales, facts, eligible):
         return i
 
     for scale in scales:
+        if not any(eid in eligible for eid in scale.get("evidence_ids", [])):
+            # Later source reviews can withdraw the only usable evidence of
+            # a once structurally valid proposal. Keep its receipt privately.
+            unsupported += 1
+            continue
         labels = [label for label in (_label(v) for v in [scale.get("name"), *scale.get("aliases", [])]) if label]
         if not labels:
             dropped += 1
@@ -152,7 +157,7 @@ def _scale_groups(scales, facts, eligible):
                        "supporting_documents": len({f["document_id"] for f in support}),
                        "definitions_differ": len({_normal(str(scale.get("definition", ""))) for scale, _ in members}) > 1,
                        "draft": True, "approved": False})
-    return sorted(result, key=lambda r: (-r["supporting_actors"], -r["supporting_facts"], _normal(r["name"]))), dropped
+    return sorted(result, key=lambda r: (-r["supporting_actors"], -r["supporting_facts"], _normal(r["name"]))), dropped, unsupported
 
 
 def _quality(audit, corpus_id, source_sha256, selected_count, facts):
@@ -236,7 +241,7 @@ def summarize(snapshot, audit=None):
         and coverage["extract"]["documents_not_prepared"] == 0
         and coverage["extract"].get("all_prepared_jobs_done_documents", 0) == coverage["extract"]["expected_relevant_documents"])
 
-    facts, skipped, unsafe = {}, Counter(), 0
+    facts, skipped, unsafe, suppressed_context_traits = {}, Counter(), 0, 0
     for fact in snapshot["facts"]:
         if fact.get("actor_id") not in actor_ids:
             skipped["unapproved_actor"] += 1
@@ -263,7 +268,14 @@ def summarize(snapshot, audit=None):
             language = context.get("relevance", {}).get("language", "unknown")
             languages[language if language in {"rw", "en", "fr", "sw", "mixed", "other"} else "unknown"] += 1
             local = {}
-            for value in fact.get("trait_candidates", []):
+            trait_values = fact.get("trait_candidates", [])
+            if (fact.get("kind") == "institutional_context" or fact.get("measurement_status") == "context_only"
+                    or fact.get("review_status") in {"rejected", "excluded", "unreviewed"}):
+                # Keep the evidence census, but do not advertise office labels,
+                # historical background or rejected identities as properties.
+                suppressed_context_traits += len(trait_values)
+                trait_values = []
+            for value in trait_values:
                 label = _label(value)
                 if label is None:
                     unsafe += 1
@@ -300,7 +312,7 @@ def summarize(snapshot, audit=None):
             "trait_candidates": trait_rows})
     candidate_rows = [{**row, "actors": len(row["actors"]), "eligible_actors": len(row["eligible_actors"])} for row in global_labels.values()]
     candidate_rows.sort(key=lambda r: (-r["eligible_actors"], -r["eligible_public_position_fact_count"], _normal(r["label"])))
-    scale_groups, dropped_scales = _scale_groups(corpus.get("draft_scales", []), facts, eligible)
+    scale_groups, dropped_scales, unsupported_scales = _scale_groups(corpus.get("draft_scales", []), facts, eligible)
     total = accounting["total"]
     cap = _number(manifest.get("budget_cap_usd", 70.))
     start = _number(manifest.get("start_spent_usd", 0.))
@@ -324,7 +336,10 @@ def summarize(snapshot, audit=None):
             "actors_with_eligible_public_positions": sum(bool(card["eligible_public_positions"]) for card in cards)},
         "trait_candidates": candidate_rows, "draft_dictionary": scale_groups, "actor_cards": cards,
         "public_safety": {"source_texts_published": False, "urls_published": False, "quotes_published": False,
-            "authors_published": False, "unsafe_candidate_labels_omitted": unsafe, "drafts_without_safe_labels_omitted": dropped_scales},
+            "authors_published": False, "unsafe_candidate_labels_omitted": unsafe,
+            "context_or_rejected_trait_occurrences_omitted": suppressed_context_traits,
+            "drafts_without_eligible_evidence_omitted": unsupported_scales,
+            "drafts_without_safe_labels_omitted": dropped_scales},
         "quality_review": _quality(audit, corpus["id"], manifest.get("source_sha256", corpus.get("source_sha256")), expected, facts),
         "warnings": warnings, "limitations": [
             "Это машинный черновик: найденные характеристики и группы синонимов не утверждены пользователем.",
@@ -334,7 +349,7 @@ def summarize(snapshot, audit=None):
             "Объединены только буквальные совпадения названий и заявленных aliases; смысловая эквивалентность не установлена.",
             "Покрытие done относится к подготовленным заданиям; полный отбор и извлечение показаны отдельно.",
             "Расход рассчитан по API usage и зафиксированным тарифам; окончательную оплату сверяют с биллингом.",
-            "Названия сохранены на языке модели; перевод, интерпретация и утверждение словаря — отдельный этап."]}
+            "В машинных таблицах названия сохранены на языке модели; русский редакционный список приложен отдельно, утверждение словаря ещё требуется."]}
 
 
 def _cell(value):
@@ -346,7 +361,8 @@ def render(result):
     accounting, coverage = result["accounting"], result["coverage"]
     total, rel, ext = accounting["all_receipts"]["total"], coverage["relevance"], coverage["extract"]
     lines = ["# Половина корпуса Руанды: обработка и найденные характеристики", "",
-        f"Выбрано **{coverage['selected_documents']:,} публикаций**. Отбор завершён со статусом done по всем подготовленным частям у **{rel.get('all_prepared_jobs_done_documents', 0):,} документов**; извлечение done — у **{ext.get('all_prepared_jobs_done_documents', 0):,} документов**.", "",
+        "[Основные результаты](CORPUS_HALF_FINDINGS_2026-10-17.md) · [Характеристики на русском](CORPUS_HALF_PROPERTIES_RU_2026-10-17.md) · [Качество](CORPUS_HALF_QUALITY_2026-10-17.md)", "",
+        f"Выбрано **{coverage['selected_documents']:,} публикаций**. Проверка релевантности, включая ответы review, завершена для **{rel.get('all_prepared_jobs_terminal_done_or_review_documents', 0):,} документов**; извлечение done — для **{ext.get('all_prepared_jobs_done_documents', 0):,} документов**.", "",
         f"Учтённый расход: **${total['estimated_usd']:.4f}** из ${accounting['budget_cap_usd']:.2f}. Неразрешённых запросов: {accounting['unresolved_requests']}; зарезервировано **${total['outstanding_reserved_usd']:.4f}**. Свободный остаток после резерваций: **${accounting['uncommitted_remaining_usd']:.4f}**.", "",
         "Это сводка извлечённых свидетельств и черновых характеристик, а не итоговые оценки политиков. Полные публикации, цитаты, URL, авторы и ответы модели остаются локально.", "",
         "## Покрытие обработки", "", "| Показатель | Документов |", "|---|---:|",
@@ -388,7 +404,7 @@ def render(result):
                              ("Исходные причины нормализации", normalization["issue_counts"])):
             if codes:
                 lines += ["", title + ": " + "; ".join(f"{_cell(code)} — {count}" for code, count in codes.items()) + "."]
-        lines += ["", f"Содержательная проверка по источникам ещё ожидается: подготовлено {semantic['facts_selected_for_review']} фрагментов основной выборки, {semantic['risk_packet_facts']} фрагментов повышенного риска и {semantic['negative_packet_documents']} документов для проверки пропусков. Эти наборы могут пересекаться. Оценки semantic accuracy, precision и recall пока нет."]
+        lines += ["", f"Для дополнительного чтения автоматически подготовлено {semantic['facts_selected_for_review']} фрагментов основной выборки, {semantic['risk_packet_facts']} фрагментов повышенного риска и {semantic['negative_packet_documents']} документов для проверки пропусков. Эти наборы могут пересекаться; создание пакета не означает его содержательной проверки. Итоги выполненного чтения источников приводятся в [отдельной сводке качества](CORPUS_HALF_QUALITY_2026-10-17.md). Оценка точности всего корпуса по целевой выборке не рассчитывается."]
     facts = result["facts"]
     lines += ["", "## Что найдено", "",
         f"Активных фрагментов: **{facts['active']}**; допустимых свидетельств собственных публичных заявлений/действий: **{facts['eligible_public_positions']}**. Они есть у **{facts['actors_with_eligible_public_positions']} из {facts['actor_count']}** участников.", "",

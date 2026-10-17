@@ -8,6 +8,7 @@ from __future__ import annotations
 import argparse
 import hashlib
 import json
+import math
 import os
 from pathlib import Path
 import sys
@@ -16,7 +17,7 @@ ROOT = Path(__file__).resolve().parents[1]
 sys.path.insert(0, str(ROOT))
 
 from scripts.prepare_full_corpus import write
-from src.corpus_pipeline.models import make_task
+from src.corpus_pipeline.models import make_task, estimate_cost, payload_input_bound
 from src.corpus_pipeline.service import CorpusPipeline, compact_objects, digest, now, packed, MAX_OUTPUT
 
 
@@ -30,6 +31,99 @@ def emit(value):
 
 def directory(pipeline, identifier):
     return pipeline.runtime / "pilots" / identifier / "half-70-v1"
+
+
+def _hold_basis(job, manifest):
+    if (job["status"] != "uncertain" or job.get("response_id")
+            or job.get("input_tokens", 0) != 0 or job.get("output_tokens", 0) != 0 or job.get("cost_usd", 0) != 0):
+        raise ValueError("Only an unchanged uncertain request without response/usage can be held")
+    payload = json.loads(job["payload"])
+    reserve = job["reserved_usd"]
+    expected = estimate_cost(payload["model"], payload_input_bound(payload), payload["max_output_tokens"], pricing=manifest["pricing"])
+    if not math.isfinite(reserve) or reserve <= 0 or abs(reserve - expected) > 1e-10:
+        raise ValueError("Held request must retain its full original positive reservation")
+    return {"job_id": job["id"], "payload_sha256": digest(payload), "status": "uncertain", "reserved_usd": reserve,
+            "started_at": job["started_at"], "finished_at": job["finished_at"]}
+
+
+def validated_uncertain_holds(pipeline, manifest):
+    path = directory(pipeline, manifest["corpus_id"]) / "uncertain_holds.json"
+    if not path.exists():
+        return {"job_ids": set(), "reserved_usd": 0.}
+    journal = read(path)
+    if journal.get("version") != "held-http503-v1" or journal.get("corpus_id") != manifest["corpus_id"]:
+        raise ValueError("Uncertain-hold journal belongs to another policy/corpus")
+    holds = journal.get("holds")
+    if not isinstance(holds, list):
+        raise ValueError("Invalid uncertain-hold journal")
+    raw_lines = (path.parent / "api_receipts_private.jsonl").read_bytes().splitlines(keepends=True)
+    ids, total = set(), 0.
+    with pipeline.connection() as db:
+        for hold in holds:
+            if not isinstance(hold, dict) or hold.get("job_id") in ids:
+                raise ValueError("Duplicate or invalid uncertain hold")
+            row = db.execute("SELECT * FROM jobs WHERE corpus_id=? AND id=?", (manifest["corpus_id"], hold.get("job_id"))).fetchone()
+            if row is None:
+                raise ValueError("Held request is absent")
+            basis = _hold_basis(dict(row), manifest)
+            if any(hold.get(key) != value for key, value in basis.items()):
+                raise ValueError("Held uncertain request changed after acknowledgement")
+            matching_jobs = db.execute("SELECT id,payload FROM jobs WHERE corpus_id=?", (manifest["corpus_id"],)).fetchall()
+            if sum(digest(json.loads(job["payload"])) == basis["payload_sha256"] for job in matching_jobs) != 1:
+                raise ValueError("Uncertain request payload is not unique")
+            index = hold.get("receipt_line")
+            if type(index) is not int or not 1 <= index <= len(raw_lines):
+                raise ValueError("Pinned uncertain receipt is absent")
+            if hashlib.sha256(raw_lines[index - 1]).hexdigest() != hold.get("receipt_sha256"):
+                raise ValueError("Pinned uncertain receipt changed")
+            matches = []
+            for line_number, raw in enumerate(raw_lines, 1):
+                receipt = json.loads(raw)
+                if receipt.get("request_sha256") == basis["payload_sha256"]:
+                    matches.append((line_number, receipt))
+            if len(matches) != 1 or matches[0][0] != index:
+                raise ValueError("Uncertain request requires exactly one pinned provider receipt")
+            receipt = matches[0][1]
+            if receipt.get("http_status") != 503 or receipt.get("usage") is not None or receipt.get("response_id"):
+                raise ValueError("Held provider receipt must be HTTP503 without usage/response ID")
+            ids.add(basis["job_id"])
+            total += basis["reserved_usd"]
+    return {"job_ids": ids, "reserved_usd": total}
+
+
+def acknowledge_uncertain_job(pipeline, manifest, job_id):
+    """Acknowledge a worst-case reserve; never changes/retries the original job."""
+    check(pipeline, manifest)
+    existing = validated_uncertain_holds(pipeline, manifest)
+    if job_id in existing["job_ids"]:
+        return existing
+    path = directory(pipeline, manifest["corpus_id"]) / "uncertain_holds.json"
+    raw_lines = (path.parent / "api_receipts_private.jsonl").read_bytes().splitlines(keepends=True)
+    with pipeline.connection() as db:
+        db.execute("BEGIN IMMEDIATE")
+        if db.execute("SELECT 1 FROM jobs WHERE corpus_id=? AND status='running'", (manifest["corpus_id"],)).fetchone():
+            raise ValueError("Join all running requests before acknowledging an uncertain hold")
+        row = db.execute("SELECT * FROM jobs WHERE corpus_id=? AND id=?", (manifest["corpus_id"], job_id)).fetchone()
+        if row is None:
+            raise ValueError("Unknown uncertain job")
+        basis = _hold_basis(dict(row), manifest)
+        matches = [(i, raw) for i, raw in enumerate(raw_lines, 1)
+                   if json.loads(raw).get("request_sha256") == basis["payload_sha256"]]
+        if len(matches) != 1:
+            raise ValueError("Uncertain request requires exactly one pinned provider receipt")
+        index, raw = matches[0]
+        receipt = json.loads(raw)
+        if receipt.get("http_status") != 503 or receipt.get("usage") is not None or receipt.get("response_id"):
+            raise ValueError("Only HTTP503 without usage/response ID supports this hold policy")
+        count = sum(digest(json.loads(job[0])) == basis["payload_sha256"] for job in
+                    db.execute("SELECT payload FROM jobs WHERE corpus_id=?", (manifest["corpus_id"],)))
+        if count != 1:
+            raise ValueError("Uncertain request payload is not unique")
+        journal = read(path) if path.exists() else {"version": "held-http503-v1", "corpus_id": manifest["corpus_id"], "holds": []}
+        journal["holds"].append({**basis, "acknowledged_at": now(), "receipt_line": index,
+            "receipt_sha256": hashlib.sha256(raw).hexdigest(), "policy": "retain full worst-case reservation; continue NEW jobs only; never replay"})
+        write(path, journal)
+    return validated_uncertain_holds(pipeline, manifest)
 
 
 def load_selection(pipeline, identifier):
@@ -133,16 +227,57 @@ def enqueue_relevance(pipeline, manifest, documents, plans):
 
 def guard_queue(pipeline, manifest, stage, selected_ids):
     check(pipeline, manifest)
+    held = validated_uncertain_holds(pipeline, manifest)["job_ids"]
     with pipeline.connection() as db:
-        for row in db.execute("SELECT stage,status,recipe,context FROM jobs WHERE corpus_id=?", (manifest["corpus_id"],)):
-            if row["status"] in {"running", "uncertain"}:
+        for row in db.execute("SELECT id,stage,status,recipe,context FROM jobs WHERE corpus_id=?", (manifest["corpus_id"],)):
+            if row["status"] == "running" or (row["status"] == "uncertain" and row["id"] not in held):
                 raise ValueError("Reconcile a running/uncertain request before resuming")
             if row["status"] != "pending":
                 continue
-            if row["stage"] != stage or row["recipe"] != manifest["initial_recipes"][stage]:
+            held_extraction = stage == "describe" and row["stage"] == "extract"
+            if (row["stage"] != stage and not held_extraction) or row["recipe"] != manifest["initial_recipes"].get(row["stage"]):
                 raise ValueError("Unexpected pending stage/recipe")
-            if stage in {"relevance", "extract"} and json.loads(row["context"])["document"]["id"] not in selected_ids:
+            if row["stage"] in {"relevance", "extract"} and json.loads(row["context"])["document"]["id"] not in selected_ids:
                 raise ValueError("Pending request outside selected half")
+
+
+def enqueue_extraction(pipeline, manifest, documents):
+    """Reuse each frozen relevance context once, without reselecting passages.
+
+    Contexts and IDs match ordinary extract preparation. The compact roster is
+    unchanged from the same source passages; no additional actors are inferred.
+    """
+    identifier = manifest["corpus_id"]
+    config = check(pipeline, manifest)["config"]
+    recipe = manifest["initial_recipes"]["extract"]
+    with pipeline.connection() as db:
+        if db.execute("SELECT COUNT(*) FROM jobs WHERE corpus_id=? AND stage='relevance' AND status IN ('pending','running','uncertain','error')", (identifier,)).fetchone()[0]:
+            raise ValueError("Finish classification before extraction")
+        rows = db.execute("SELECT id,unit_id,context,result FROM jobs WHERE corpus_id=? AND stage='relevance' AND status='done' AND recipe=? ORDER BY created_at,id",
+                          (identifier, manifest["initial_recipes"]["relevance"])).fetchall()
+        seen = {row[0] for row in db.execute("SELECT unit_id FROM jobs WHERE corpus_id=? AND stage='extract' AND recipe=?", (identifier, recipe))}
+        created = 0
+        for row in rows:
+            if row["unit_id"] in seen:
+                continue
+            result = json.loads(row["result"])
+            if result.get("status") != "relevant":
+                continue
+            upstream = json.loads(row["context"])
+            original = documents.get(upstream["document"]["id"])
+            if original is None:
+                raise ValueError("Relevant request outside the frozen half")
+            document = dict(upstream["document"], **original["source_context"])
+            context = {"document": document, "relevance": result, "relevance_job_id": row["id"], "config": upstream["config"]}
+            payload = make_task("extract", context, model=config["routes"]["extract"], max_output_tokens=MAX_OUTPUT["extract"])
+            job_id = "job-" + digest({"corpus": identifier, "recipe": recipe, "unit": row["unit_id"], "context": context})[:32]
+            db.execute("INSERT INTO jobs(id,corpus_id,stage,unit_id,recipe,context,payload,status,created_at) VALUES(?,?,?,?,?,?,?,'pending',?)",
+                       (job_id, identifier, "extract", row["unit_id"], recipe, packed(context), packed(payload), now()))
+            seen.add(row["unit_id"])
+            created += 1
+            if created % 1000 == 0:
+                emit({"phase": "enqueue_extraction", "created": created})
+    return created
 
 
 def snapshot(pipeline, manifest, stage=None, run=None):
@@ -155,26 +290,62 @@ def snapshot(pipeline, manifest, stage=None, run=None):
             for key in ("context", "payload", "result"):
                 job[key] = json.loads(job[key]) if job[key] else None
             jobs.append(job)
+    holds = validated_uncertain_holds(pipeline, manifest)
     result = {"manifest": manifest, "corpus": corpus, "jobs": jobs,
+              "uncertain_hold_summary": {"validated_job_count": len(holds["job_ids"]), "retained_reserved_usd": holds["reserved_usd"], "automatic_retry": False},
               "facts": pipeline._facts(manifest["corpus_id"], corpus["config"]),
               "phase_trace": {"stage": stage, "run": run}, "frozen_at": now()}
     write(directory(pipeline, manifest["corpus_id"]) / "results_private.json", result)
     return result
 
 
-def run_stage(pipeline, manifest, stage, documents, *, workers=8, max_jobs=None):
+def require_completed_describe(pipeline, manifest):
+    """Release the intermediate $2 reserve only after real describe work joins."""
+    check(pipeline, manifest)
+    held = validated_uncertain_holds(pipeline, manifest)["job_ids"]
+    with pipeline.connection() as db:
+        unresolved = db.execute("SELECT id,status FROM jobs WHERE corpus_id=? AND status IN ('running','uncertain')", (manifest["corpus_id"],)).fetchall()
+        if any(row["status"] == "running" or row["id"] not in held for row in unresolved):
+            raise ValueError("Reconcile running/uncertain requests before extraction tail")
+        statuses = dict(db.execute("SELECT status,COUNT(*) FROM jobs WHERE corpus_id=? AND stage='describe' AND recipe=? GROUP BY status",
+                                   (manifest["corpus_id"], manifest["initial_recipes"]["describe"])))
+    if not statuses or set(statuses) - {"done", "review"}:
+        raise ValueError("Extraction tail requires a nonempty fully terminal describe stage (done/review)")
+    return statuses
+
+
+def run_stage(pipeline, manifest, stage, documents, *, workers=8, max_jobs=None, extraction_tail=False):
     from src.corpus_pipeline.bounded_workers import run_workers
     from src.corpus_pipeline.receipt_client import ReceiptingClient
     identifier = manifest["corpus_id"]
     guard_queue(pipeline, manifest, stage, set(documents))
+    tail_describe_statuses = None
+    if extraction_tail:
+        if stage != "extract":
+            raise ValueError("Extraction tail applies only to extract")
+        tail_describe_statuses = require_completed_describe(pipeline, manifest)
+        if pipeline._row(identifier)["config"]["budget_limit_usd"] != 70.:
+            pipeline.configure(identifier, {"budget_limit_usd": 70.})
+    elif stage in {"relevance", "extract"} and pipeline._row(identifier)["config"]["budget_limit_usd"] != 68.:
+        # A previous describe preparation may have exposed the final $2.
+        # Restoring the stage cap never resets recorded spend or the manifest.
+        pipeline.configure(identifier, {"budget_limit_usd": 68.})
     ledger = directory(pipeline, identifier) / "api_receipts_private.jsonl"
     key = os.environ.get("OPENAI_API_KEY", "")
     if not key:
         raise ValueError("OPENAI_API_KEY must be configured locally")
     trace = run_workers(pipeline.root, identifier, workers=workers, max_jobs=max_jobs,
+                        stage=stage,
                         client_factory=lambda: ReceiptingClient(key, ledger),
                         stop_file=directory(pipeline, identifier) / "STOP", emit=emit)
-    write(directory(pipeline, identifier) / ("run-" + stage + "-latest.json"), trace)
+    phase_name = "extract-tail" if extraction_tail else stage
+    if extraction_tail:
+        trace["budget_policy"] = {"phase": phase_name, "authorized_total_cap_usd": manifest["budget_cap_usd"],
+            "intermediate_extraction_cap_usd": 68., "actual_spend_rebased": False,
+            "describe_terminal_statuses_at_tail_start": tail_describe_statuses,
+            "describe_automatically_refreshed": False,
+            "dictionary_evidence_timing": "Describe preceded extraction tail; new tail evidence is not automatically incorporated in its dictionary."}
+    write(directory(pipeline, identifier) / ("run-" + phase_name + "-latest.json"), trace)
     snapshot(pipeline, manifest, stage, trace)
     return trace
 
@@ -183,26 +354,25 @@ def main(argv=None):
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument("--root", type=Path, default=ROOT)
     parser.add_argument("--corpus-id", required=True)
-    parser.add_argument("--phase", choices=["setup", "relevance", "extract", "describe", "snapshot"], default="snapshot")
+    parser.add_argument("--phase", choices=["setup", "relevance", "extract", "describe", "extract-tail", "snapshot"], default="snapshot")
     parser.add_argument("--execute", action="store_true")
     parser.add_argument("--workers", type=int, default=8)
     parser.add_argument("--max-jobs", type=int)
     parser.add_argument("--fact-ids-file", type=Path)
+    parser.add_argument("--hold-uncertain-job", action="append", default=[], metavar="JOB_ID",
+                        help="Explicitly retain a verified HTTP503 worst-case reservation; never retry this job")
     args = parser.parse_args(argv)
     pipeline = CorpusPipeline(args.root)
     manifest, documents, plans = setup(pipeline, args.corpus_id)
+    for job_id in args.hold_uncertain_job:
+        holds = acknowledge_uncertain_job(pipeline, manifest, job_id)
+        emit({"phase": "uncertain_reservation_held", "held_count": len(holds["job_ids"]), "retained_reserved_usd": holds["reserved_usd"], "retried": False})
     if args.phase == "relevance":
         emit({"phase": "relevance_prepared", "created": enqueue_relevance(pipeline, manifest, documents, plans)})
-    elif args.phase == "extract":
-        with pipeline.connection() as db:
-            if db.execute("SELECT COUNT(*) FROM jobs WHERE corpus_id=? AND stage='relevance' AND status IN ('pending','running','uncertain','error')", (args.corpus_id,)).fetchone()[0]:
-                raise ValueError("Finish classification before extraction")
-        # Existing preparation reuses bounded source passages and relevant IDs.
-        for _ in range(3):
-            prepared = pipeline.prepare(args.corpus_id, stage="extract", limit=5000, document_ids=list(documents))
-            emit({"phase": "extract_prepared", "created": prepared["created"]})
-            if prepared["created"] < 5000:
-                break
+    elif args.phase in {"extract", "extract-tail"}:
+        if args.phase == "extract-tail":
+            require_completed_describe(pipeline, manifest)
+        emit({"phase": "extract_prepared", "created": enqueue_extraction(pipeline, manifest, documents)})
     elif args.phase == "describe":
         if not args.fact_ids_file:
             raise ValueError("Describe requires a balanced, explicitly selected fact_ids file")
@@ -211,11 +381,13 @@ def main(argv=None):
         pipeline.configure(args.corpus_id, {"budget_limit_usd": 70.})
         emit(pipeline.prepare(args.corpus_id, stage="describe", limit=5000, fact_ids=facts))
     if args.execute:
-        if args.phase not in {"relevance", "extract", "describe"}:
+        if args.phase not in {"relevance", "extract", "describe", "extract-tail"}:
             raise ValueError("--execute requires an explicit paid phase")
         from dotenv import load_dotenv
         load_dotenv(args.root / ".env", override=False)
-        emit({"phase": "worker_complete", "result": run_stage(pipeline, manifest, args.phase, documents, workers=args.workers, max_jobs=args.max_jobs)})
+        stage = "extract" if args.phase == "extract-tail" else args.phase
+        emit({"phase": "worker_complete", "result": run_stage(pipeline, manifest, stage, documents,
+              workers=args.workers, max_jobs=args.max_jobs, extraction_tail=args.phase == "extract-tail")})
     else:
         snapshot(pipeline, manifest, args.phase)
         emit({"phase": "prepared_only", "api_calls": 0})

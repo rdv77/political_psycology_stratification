@@ -65,6 +65,19 @@ class HalfProcessingSummaryTests(unittest.TestCase):
         self.assertEqual(account["all_receipts"]["total"]["input_tokens"], 600)
         self.assertTrue(any(row["status"] == "review" for row in account["all_receipts"]["by_stage_model_status"]))
 
+    def test_context_and_rejected_traits_do_not_reappear_as_properties(self):
+        self.snapshot["facts"] += [
+            fact("context", kind="institutional_context", trait_candidates=["officeholder"]),
+            fact("old", measurement_status="context_only", trait_candidates=["historic_inference"]),
+            fact("wrong-person", review_status="rejected", trait_candidates=["wrong_identity_property"])]
+        result = summarize(self.snapshot)
+        self.assertEqual(result["facts"]["active"], 4)  # Audit history remains visible.
+        self.assertEqual(result["facts"]["eligible_public_positions"], 1)
+        self.assertEqual([row["label"] for row in result["trait_candidates"]], ["Cooperation"])
+        self.assertEqual(result["public_safety"]["context_or_rejected_trait_occurrences_omitted"], 3)
+        for label in ("officeholder", "historic_inference", "wrong_identity_property"):
+            self.assertNotIn(label, render(result))
+
     def test_partial_statuses_are_visible_and_never_claim_full_12205_completion(self):
         self.snapshot["jobs"] += [job("rel-2", stage="relevance", status="review", document="doc-2"),
                                   job("rel-3", stage="relevance", status="pending", document="doc-3")]
@@ -99,6 +112,15 @@ class HalfProcessingSummaryTests(unittest.TestCase):
             self.assertNotIn(private, public)
         self.assertEqual(result["public_safety"]["unsafe_candidate_labels_omitted"], 4)
         self.assertEqual(result["actor_cards"][0]["source_coverage"]["source_hosts"], 1)
+
+    def test_draft_loses_public_property_status_when_its_only_evidence_is_withdrawn(self):
+        self.snapshot["corpus"]["draft_scales"] = [{"name": "Unsupported property", "aliases": [],
+            "definition": "An unapproved proposal", "evidence_ids": ["fact-private"]}]
+        self.snapshot["facts"][0]["measurement_status"] = "context_only"
+        result = summarize(self.snapshot)
+        self.assertEqual(result["draft_dictionary"], [])
+        self.assertEqual(result["public_safety"]["drafts_without_eligible_evidence_omitted"], 1)
+        self.assertNotIn("Unsupported property", render(result))
 
     def test_untrusted_labels_are_plain_markdown_text(self):
         self.snapshot["facts"][0]["trait_candidates"] = ["[Label](made-up-scheme:target)", "Invisible\u200bLabel"]
@@ -144,7 +166,7 @@ class HalfProcessingSummaryTests(unittest.TestCase):
         self.assertIsNone(quality["semantic_review"]["accuracy_estimate"])
         self.assertEqual(quality["semantic_review"]["status"], "pending_source_review")
         self.assertNotIn("UNTRUSTED_PROSE", json.dumps(result))
-        self.assertIn("Содержательная проверка по источникам ещё ожидается", render(result))
+        self.assertIn("создание пакета не означает его содержательной проверки", render(result))
 
     def test_quality_rejects_private_wrapper_and_wrong_source_but_flags_stale_fact_counts(self):
         for audit in ({"public_aggregate": self.audit(), "semantic_review_packet": []},
