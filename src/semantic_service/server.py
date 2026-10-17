@@ -2,6 +2,7 @@
 from __future__ import annotations
 
 import argparse
+import copy
 import json
 import mimetypes
 import os
@@ -9,7 +10,7 @@ import threading
 import traceback
 from http.server import BaseHTTPRequestHandler, ThreadingHTTPServer
 from pathlib import Path
-from urllib.parse import unquote, urlparse
+from urllib.parse import parse_qs, unquote, urlparse
 
 from .providers import ModelProvider
 from .store import BUSY, StudyStore, fingerprint, ratings_basis, validate_objects
@@ -25,6 +26,9 @@ class Application:
         self.provider = ModelProvider(self.root, self.store)
         self.jobs = {}
         self.job_lock = threading.Lock()
+        self._corpus = None
+        self.corpus_jobs = {}
+        self.corpus_job_lock = threading.RLock()
         self.seed_id = "russian-politicians-2016-2026"
         for row in self.store.list():
             study = self.store.get(row["id"])
@@ -85,6 +89,117 @@ class Application:
             self.jobs[identifier] = job
             job.start()
         return self.store.get(identifier)
+
+    def corpus(self):
+        # Existing studies and tests do not require the optional corpus module.
+        with self.corpus_job_lock:
+            if self._corpus is None:
+                from src.corpus_pipeline.service import CorpusPipeline
+                self._corpus = CorpusPipeline(self.root)
+            return self._corpus
+
+    def corpus_config(self, payload):
+        config = copy.deepcopy(payload["config"]) if payload.get("config") is not None else {}
+        if not isinstance(config, dict):
+            raise ValueError("Настройки корпуса должны быть JSON-объектом")
+        if payload.get("study_id"):
+            study = self.store.get(payload["study_id"])
+            if not self.store.is_approved(study, "objects"):
+                raise ValueError("В выбранном исследовании сначала нужно утвердить список объектов")
+            snapshot = {key: copy.deepcopy(study.get(key, "")) for key in
+                        ("scope", "aspect", "date_from", "date_to")}
+            if snapshot["aspect"] not in {"public_positions", "public_image"}:
+                snapshot["aspect"] = "public_positions"
+            snapshot["objects"] = [{"id": obj["id"], "name": obj["name"],
+                "aliases": list(dict.fromkeys([*obj.get("aliases", []),
+                    *([obj["name_original"]] if obj.get("name_original") else [])]))}
+                for obj in study["objects"]]
+            snapshot.update(languages=copy.deepcopy(study.get("languages", [])),
+                            scales=copy.deepcopy(study.get("scales", [])))
+            if study["id"] == "rwanda-politicians-2021-2026":
+                language_plan = self.root / "research/rwanda_politicians_2021_2026/corpus_search/language_plan.json"
+                if language_plan.is_file():
+                    plan = json.loads(language_plan.read_text(encoding="utf-8"))
+                    codes = {"Kinyarwanda": "rw", "French": "fr", "English": "en", "Kiswahili": "sw"}
+                    snapshot["languages"] = [codes[name] for name in plan["core_collection_languages"]]
+                    snapshot["country_terms"] = list(plan["mandatory_country_context"]["query_terms"])
+            snapshot.update(config)
+            # Approval in an earlier study is not approval of this corpus rubric.
+            snapshot["scales_approved"] = False
+            config = snapshot
+        return config
+
+    def corpus_status(self, identifier):
+        result = copy.deepcopy(self.corpus().get_corpus(identifier))
+        with self.corpus_job_lock:
+            job = self.corpus_jobs.get(identifier)
+            if job:
+                result["http_job"] = {k: v for k, v in job.items() if k != "thread"}
+        return result
+
+    def corpus_idle(self, identifier):
+        self.corpus().get_corpus(identifier)
+        with self.corpus_job_lock:
+            if self.corpus_jobs.get(identifier, {}).get("status") == "running":
+                raise ValueError("Корпус сейчас обрабатывается; дождитесь завершения запуска")
+
+    def corpus_run(self, identifier, payload):
+        with self.corpus_job_lock:
+            self.corpus_idle(identifier)
+            maximum, budget = payload.get("max_jobs", 5), payload.get("budget_usd", 1.0)
+            if isinstance(maximum, bool) or not isinstance(maximum, int) or not 1 <= maximum <= 1000:
+                raise ValueError("Лимит запуска: целое число от 1 до 1000 заданий")
+            if isinstance(budget, bool) or not isinstance(budget, (int, float)) or not 0 < budget <= 10000:
+                raise ValueError("Задайте положительный бюджет API не более 10000 USD")
+            state = {"status": "running", "action": "run", "error": None}
+            self.corpus_jobs[identifier] = state
+            def work():
+                try:
+                    result = self.corpus().run(identifier, max_jobs=maximum, budget_usd=budget)
+                    with self.corpus_job_lock:
+                        state.update(status="complete", result=result)
+                except Exception as exc:
+                    with self.corpus_job_lock:
+                        state.update(status="error", error=str(exc)[:1800])
+            state["thread"] = threading.Thread(target=work, name="corpus-" + identifier, daemon=True)
+            state["thread"].start()
+        return self.corpus_status(identifier)
+
+    def corpus_export(self, identifier):
+        self.corpus_idle(identifier)
+        result = self.corpus().export(identifier)
+        runtime = (self.root / ".corpus_runtime").resolve()
+        files, saved = [], {}
+        for item in result.get("files", []):
+            path = Path(item["path"]).resolve()
+            name = str(item.get("name") or path.name)
+            if (not path.is_relative_to(runtime) or not path.is_file() or name in {".", ".."} or name != Path(name).name
+                    or "/" in name or "\\" in name or name in saved
+                    or path.suffix.lower() not in {".json", ".jsonl", ".csv", ".md", ".zip"}):
+                raise ValueError("Экспорт должен содержать доступные файлы внутри локальной папки корпуса")
+            saved[name] = str(path.relative_to(runtime))
+            from urllib.parse import quote
+            files.append({"name": name, "url": f"/api/corpora/{quote(identifier, safe='')}/files/{quote(name, safe='')}"})
+        manifests = runtime / "http_exports"
+        manifests.mkdir(parents=True, exist_ok=True)
+        # Identifier validation remains owned by the core before any file access.
+        key = fingerprint(identifier)
+        temporary = manifests / (key + ".tmp")
+        temporary.write_text(json.dumps(saved, ensure_ascii=False), encoding="utf-8")
+        temporary.replace(manifests / (key + ".json"))
+        return {"corpus_id": identifier, "files": files}
+
+    def corpus_export_file(self, identifier, name):
+        self.corpus().get_corpus(identifier)
+        runtime = (self.root / ".corpus_runtime").resolve()
+        manifest = runtime / "http_exports" / (fingerprint(identifier) + ".json")
+        files = json.loads(manifest.read_text(encoding="utf-8"))
+        if name not in files:
+            raise FileNotFoundError(name)
+        path = (runtime / files[name]).resolve()
+        if not path.is_relative_to(runtime):
+            raise ValueError("Недоступный файл корпуса")
+        return path
 
     def discover(self, identifier: str):
         def work():
@@ -284,6 +399,22 @@ class Handler(BaseHTTPRequestHandler):
             if path == "/api/studies":
                 return self.json_response({"studies": self.app.store.list()})
             parts = path.strip("/").split("/")
+            if parts[:2] == ["api", "corpora"]:
+                if len(parts) == 2:
+                    return self.json_response({"corpora": self.app.corpus().list_corpora(),
+                                               "model_config": self.app.corpus().model_config()})
+                if len(parts) == 3:
+                    return self.json_response(self.app.corpus_status(parts[2]))
+                if len(parts) == 4 and parts[3] == "documents":
+                    query = parse_qs(urlparse(self.path).query)
+                    limit, offset = int(query.get("limit", [50])[0]), int(query.get("offset", [0])[0])
+                    if not 1 <= limit <= 200 or offset < 0:
+                        raise ValueError("Размер страницы должен быть от 1 до 200; смещение неотрицательное")
+                    return self.json_response(self.app.corpus().documents(parts[2], limit=limit, offset=offset,
+                        status=query.get("status", [None])[0]))
+                if len(parts) == 5 and parts[3] == "files":
+                    return self.send_file(self.app.corpus_export_file(parts[2], unquote(parts[4])), download=True)
+                return self.json_response({"error": "Не найдено"}, 404)
             if len(parts) == 3 and parts[:2] == ["api", "studies"]:
                 return self.json_response(self.app.store.get(parts[2]))
             if len(parts) >= 5 and parts[:2] == ["api", "studies"] and parts[3] == "files":
@@ -293,7 +424,9 @@ class Handler(BaseHTTPRequestHandler):
                 if not file.is_relative_to(base) or file.suffix.lower() not in {".pdf", ".pptx", ".docx", ".md", ".html", ".zip", ".png", ".csv", ".json"}:
                     raise ValueError("Недоступный файл")
                 return self.send_file(file, download=file.suffix.lower() in {".pdf", ".pptx", ".docx", ".md", ".zip", ".csv"})
-            allowed = {"/": "index.html", "/index.html": "index.html", "/app.js": "app.js", "/styles.css": "styles.css"}
+            allowed = {"/": "index.html", "/index.html": "index.html", "/app.js": "app.js", "/styles.css": "styles.css",
+                       "/corpus": "corpus.html", "/corpus.html": "corpus.html",
+                       "/corpus.js": "corpus.js", "/corpus.css": "corpus.css"}
             if path in allowed:
                 return self.send_file(self.app.root / "frontend" / allowed[path])
             self.json_response({"error": "Не найдено"}, 404)
@@ -314,6 +447,8 @@ class Handler(BaseHTTPRequestHandler):
         self.send_header("Cache-Control", "no-cache")
         if file.suffix == ".html" and "output" in file.parts:
             self.send_header("Content-Security-Policy", "default-src 'none'; img-src 'self' data:; style-src 'unsafe-inline'; frame-ancestors 'self'")
+        elif file.name == "corpus.html":
+            self.send_header("Content-Security-Policy", "default-src 'self'; script-src 'self'; style-src 'self'; connect-src 'self'; img-src 'self' data:; object-src 'none'; base-uri 'none'; frame-ancestors 'none'")
         if download:
             self.send_header("Content-Disposition", 'attachment; filename="' + file.name + '"')
         self.end_headers()
@@ -330,6 +465,28 @@ class Handler(BaseHTTPRequestHandler):
             self.local_request()
             payload = self.body()
             parts = urlparse(self.path).path.strip("/").split("/")
+            if method == "POST" and parts[:2] == ["api", "corpora"]:
+                if len(parts) == 2:
+                    path = Path(str(payload.get("path", "")))
+                    if not path.is_absolute() or path.suffix.lower() != ".csv":
+                        raise ValueError("Укажите абсолютный путь к локальному CSV-файлу")
+                    return self.json_response(self.app.corpus().import_csv(path,
+                        title=payload.get("title", ""), config=self.app.corpus_config(payload),
+                        mapping=payload.get("mapping")), 201)
+                if len(parts) == 4:
+                    identifier, action = parts[2:]
+                    with self.app.corpus_job_lock:
+                        self.app.corpus_idle(identifier)
+                        if action == "configure":
+                            return self.json_response(self.app.corpus().configure(identifier, self.app.corpus_config(payload)))
+                        if action == "prepare":
+                            return self.json_response(self.app.corpus().prepare(identifier,
+                                stage=payload.get("stage", "relevance"), limit=payload.get("limit", 100)))
+                        if action == "run":
+                            return self.json_response(self.app.corpus_run(identifier, payload), 202)
+                        if action == "export":
+                            return self.json_response(self.app.corpus_export(identifier))
+                return self.json_response({"error": "Неизвестное действие корпуса"}, 404)
             if method == "POST" and parts == ["api", "studies"]:
                 return self.json_response(self.app.store.create(payload), 201)
             if len(parts) != 4 or parts[:2] != ["api", "studies"]:

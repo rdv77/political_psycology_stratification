@@ -1,0 +1,20 @@
+{
+  "checked_on": "2026-10-17",
+  "source_name": "Syria_test_59.csv",
+  "source_sha256": "939b06fd1b3ff16957bee9e726ba5ea26dbc2dd561cefe7c0bac92ef383b8a0a",
+  "source_bytes": 182386,
+  "encoding": "utf-8-sig",
+  "delimiter": ";",
+  "columns": 46,
+  "parsed_rows": 1229,
+  "nonempty_documents": 97,
+  "empty_rows": 1132,
+  "exact_duplicates_detected": 0,
+  "near_duplicate_candidates_detected": 0,
+  "semantic_uniqueness_validated": false,
+  "external_api_calls": 0,
+  "estimated_api_cost_usd": 0,
+  "raw_corpus_committed": false,
+  "rwanda_measurements_modified": false,
+  "purpose": "Input-format, offline import and duplicate-candidate smoke test; not a Rwanda source corpus"
+}

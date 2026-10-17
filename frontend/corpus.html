@@ -1,0 +1,63 @@
+<!doctype html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#173b43">
+  <title>Корпус материалов · Семантическое пространство</title>
+  <link rel="stylesheet" href="/corpus.css">
+  <script src="/corpus.js" defer></script>
+</head>
+<body>
+  <aside class="sidebar">
+    <a class="brand" href="/">Семантическое<br>пространство</a>
+    <a class="back" href="/">← К исследованиям</a>
+    <div class="nav-label">КОРПУСА МАТЕРИАЛОВ</div>
+    <nav id="corpus-list" aria-label="Список корпусов"><p class="muted">Загрузка…</p></nav>
+    <p class="sidebar-note">Исходные материалы и результаты обработки сохраняются локально.</p>
+  </aside>
+  <div class="workspace">
+    <header class="topbar"><span>ИССЛЕДОВАТЕЛЬСКАЯ СРЕДА</span><span id="connection">Проверяем подключение…</span></header>
+    <main>
+      <div class="heading"><div><p class="eyebrow">ОТ ИСТОЧНИКОВ К ПРИЗНАКАМ</p><h1>Корпус материалов</h1><p class="intro">Импортируйте выгрузку, проверьте документы и подготовьте обработку. Вызовы моделей запускаются отдельно.</p></div><button type="button" id="refresh" class="button secondary">Обновить</button></div>
+      <div id="message" role="status" aria-live="polite" hidden></div>
+      <details id="import-card" class="card" open>
+        <summary>1. Добавить локальную выгрузку</summary>
+        <form id="import-form" class="card-body">
+          <div class="grid"><label>Название корпуса<input id="import-title" placeholder="Материалы о политических акторах"></label><label>Исследование <span class="muted">необязательно</span><select id="import-study"><option value="">Самостоятельный корпус</option></select></label></div>
+          <label>Абсолютный путь к CSV на этом компьютере<input id="import-path" required placeholder="C:\Users\USER\Downloads\materials.csv" autocomplete="off" spellcheck="false"></label>
+          <p class="hint">Файл читается локальным сервером. Импорт не вызывает API. Настройки выбранного исследования копируются; само исследование не меняется.</p>
+          <details><summary class="small-summary">Сопоставление столбцов вручную</summary><label>JSON сопоставления<textarea id="import-mapping" rows="3" spellcheck="false" placeholder='{"text":"Текст", "title":"Заголовок", "url":"URL"}'></textarea></label></details>
+          <div class="actions"><button class="button" id="import-submit">Импортировать CSV</button></div>
+        </form>
+      </details>
+      <div id="corpus-workspace" hidden>
+        <section class="card profile-card" aria-labelledby="corpus-title"><div class="card-body"><div class="section-heading"><div><h2 id="corpus-title"></h2><p id="source-note" class="muted"></p></div><span id="run-status" class="pill">Локальный корпус</span></div><div id="metrics" class="metrics"></div><div id="profile-detail" class="hint"></div><p id="profile-warnings" class="hint" hidden></p><details><summary class="small-summary">Столбцы исходной выгрузки</summary><p id="profile-columns" class="hint"></p></details></div></section>
+        <details class="card" id="settings-card" open>
+          <summary>2. Область исследования и модели</summary>
+          <form id="config-form" class="card-body">
+            <div class="inline-fields"><label class="grow">Взять настройки исследования<select id="config-study"><option value="">Выбрать исследование…</option></select></label><button type="button" id="copy-study" class="button secondary">Скопировать настройки</button></div>
+            <p class="hint">Копирование доступно для утверждённого списка объектов. Шкалы из другого исследования требуют отдельного утверждения для этого корпуса.</p>
+            <label>Исследуемое пространство<input id="scope" placeholder="Область исследования"></label>
+            <div class="grid"><label>Что изучаем<select id="aspect"><option value="public_positions">Публичные позиции и действия</option><option value="public_image">Публичный образ в материалах</option></select></label><label>Языки исходных материалов<input id="languages" placeholder="Например: rw, fr, en, sw"></label></div>
+            <label>Обязательные слова страны <span class="muted">через запятую; пустое поле — без этого условия</span><input id="country-terms" placeholder="Rwanda, #Rwanda, u Rwanda, uRwanda"></label>
+            <div class="grid"><label>Начало периода<input type="date" id="date-from"></label><label>Конец периода<input type="date" id="date-to"></label></div>
+            <h3>Модели по этапам</h3><p class="hint">Можно выбрать недорогую модель для отбора материалов и отдельную модель для извлечения и интерпретации. Ключи задаются на сервере.</p>
+            <div id="routes" class="grid routes"></div>
+            <details><summary class="small-summary">Стоимость и расширенные настройки</summary><p class="hint">Ставки в USD за миллион токенов. Для модели без известной цены укажите ставки перед запуском.</p><div id="pricing"></div><label>Объекты и варианты имён · JSON<textarea id="objects-json" rows="6" spellcheck="false" placeholder='[{"id":"actor-1", "name":"Имя", "aliases":[]}]'></textarea></label><label>Шкалы · JSON<textarea id="scales-json" rows="5" spellcheck="false" placeholder="[]"></textarea></label></details>
+            <label class="checkbox"><input type="checkbox" id="scales-approved"><span>Я проверил и утверждаю эти шкалы для оценивания этого корпуса</span></label>
+            <p id="config-summary" class="hint"></p>
+            <div class="actions"><button class="button secondary" id="save-config">Сохранить настройки</button></div>
+          </form>
+        </details>
+        <section class="card" id="draft-card" hidden><div class="card-body"><h2>Черновик признаков</h2><p class="hint">Результат этапа подготовки признаков. Перенесите его в настройки, проверьте определения и отдельно утвердите шкалы перед оцениванием.</p><label>Предложенные признаки · JSON<textarea id="draft-scales-json" rows="8" readonly spellcheck="false"></textarea></label><div class="actions"><button type="button" class="button secondary" id="use-draft">Перенести в настройки без утверждения</button></div></div></section>
+        <section class="card" aria-labelledby="prepare-title"><div class="card-body"><h2 id="prepare-title">3. Подготовить задания</h2><p class="hint">Подготовка формирует очередь без вызовов API. Следующий этап использует результаты предыдущего.</p><div class="grid"><label>Этап<select id="stage"><option value="relevance">Отбор релевантных материалов</option><option value="extract">Извлечение проверяемых фактов</option><option value="describe">Подготовка признаков</option><option value="score">Оценивание по шкалам</option></select></label><label>Максимум новых заданий<input id="prepare-limit" type="number" value="100" min="1" max="5000" required></label></div><p id="stage-note" class="hint"></p><div class="actions"><button type="button" id="prepare" class="button secondary">Подготовить задания</button><span id="prepare-result" class="hint"></span></div></div></section>
+        <section class="card api-card" aria-labelledby="api-title"><div class="card-body"><div class="section-heading"><div><p class="eyebrow">ОТДЕЛЬНЫЙ ПЛАТНЫЙ ЗАПУСК</p><h2 id="api-title">4. Обработать подготовленные задания</h2></div><span id="queue-label" class="pill"></span></div><div id="job-counts" class="job-counts"></div><div class="grid"><label>Лимит заданий для этого запуска<input id="run-limit" type="number" min="1" max="1000" value="5" required></label><label>Бюджет этого запуска · USD<input id="run-budget" type="number" min="0.01" max="10000" step="0.01" value="1.00" required></label></div><p id="api-note" class="hint">Кнопка ниже отправляет подготовленные материалы провайдеру моделей. Бюджет — ограничение оценки расходов, а не фиксированная цена.</p><div class="actions"><button type="button" id="run-api" class="button">Запустить API с указанным бюджетом</button><span id="usage" class="hint"></span></div><p id="progress-note" class="hint" aria-live="polite"></p><details><summary class="small-summary">Последние задания и причины проверки</summary><div id="recent-jobs" class="recent-jobs"></div></details></div></section>
+        <section class="card" aria-labelledby="documents-title"><div class="card-body"><div class="section-heading"><div><h2 id="documents-title">Документы</h2><p id="documents-total" class="hint"></p></div><select id="document-status" aria-label="Фильтр документов"><option value="">Все документы</option><option value="unique">Уникальные</option><option value="exact_duplicate">Точные дубли</option><option value="empty">Без текста</option></select></div><div class="table-scroll"><table><thead><tr><th>Материал</th><th>Дата и источник</th><th>Статус</th></tr></thead><tbody id="documents"></tbody></table></div><div class="pagination"><button type="button" id="previous" class="button secondary small">← Назад</button><span id="page-label" class="hint"></span><button type="button" id="next" class="button secondary small">Далее →</button></div></div></section>
+        <section class="card"><div class="card-body section-heading"><div><h2>Выгрузка результатов</h2><p class="hint">Создать локальные файлы профиля, источников и результатов. Исследование и прежние отчёты не изменяются.</p><div id="downloads" class="downloads"></div></div><button type="button" id="export" class="button secondary">Подготовить выгрузку</button></div></section>
+      </div>
+    </main>
+    <footer>Локальный корпус → проверяемые факты → признаки → оценки</footer>
+  </div>
+</body>
+</html>
