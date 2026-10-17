@@ -11,10 +11,11 @@ from datetime import date
 import re
 import unicodedata
 from typing import Callable
+from .date_precision import event_date_precision_problem
 from .source_spans import document_spans, fact_span
 
 
-EVIDENCE_POLICY_VERSION = "local-attribution-date-review-v1"
+EVIDENCE_POLICY_VERSION = "local-attribution-date-review-v2"
 MAX_ATTRIBUTION_GAP = 300
 _BASES = frozenset({"direct_statement", "reported_statement", "reported_action",
                     "third_party_claim", "context", "uncertain"})
@@ -176,7 +177,7 @@ def normalize_extraction(data: dict, context: dict, validator: Callable) -> dict
                 issue("invalid_event_date")
                 continue
         if fact.get("event_date") is not None and not _outside_period(fact["event_date"], context):
-            problem = _date_problem(fact, text)
+            problem = _date_problem(fact, text) or event_date_precision_problem(fact)
             if problem:
                 fact["event_date"] = fact["date_evidence"] = None
                 issue(problem)

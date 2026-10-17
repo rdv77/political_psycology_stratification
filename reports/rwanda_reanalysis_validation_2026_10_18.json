@@ -1,0 +1,54 @@
+{
+  "date": "2026-10-18",
+  "tests": {
+    "full_suite": 566,
+    "failures": 0,
+    "errors": 0
+  },
+  "all_extracted_facts_processed": 11285,
+  "exact_reviewed_cases": 104,
+  "exact_reviewed_facts": 154,
+  "source_fields_changed_facts": 95,
+  "general_risk_flagged_facts": 819,
+  "api_calls": 0,
+  "new_api_cost_usd": 0,
+  "historical_api_cost_usd_unchanged": 69.524789,
+  "corpus_database_counts_unchanged": {
+    "jobs": 23908,
+    "facts": 11285,
+    "fact_reviews": 37,
+    "runs": 22459
+  },
+  "historical_study_file_sha256_unchanged": {
+    "studies/rwanda-politicians-2021-2026/study.json": "90aaddc075c2c0ede61ea1efaff707139d9568b020c47fefe5b28ceb580f6174",
+    "studies/rwanda-politicians-2021-2026/ratings.json": "e43727c8437c87108d1e5bb954e2eaf5f852096becd734777a14abcad1988687"
+  },
+  "all_42_by_38_cells_present_in_each_scenario": true,
+  "unknown_values_never_zero_filled": true,
+  "raw_internal_evidence_ids_absent_from_public_reports": true,
+  "factor_admission": {
+    "strict_dated": "not_admissible",
+    "content_supported_unknown_time_sensitivity": "not_admissible"
+  },
+  "source_artifact_sha256": {
+    "reports/rwanda_chat_combined_review_2026_10_18.json": "571a69393a3fd182955e64a3dc259f6a9cf38e569fcaedfc64b300fc828cf5da",
+    "reports/rwanda_corrected_evidence_2026_10_18.json": "06f1ab49e8c871d15ce9ade6d2649647ee684c84bdb7ed5de969f3b5cdf2a988",
+    "reports/rwanda_source_reanalysis_2026_10_18.json": "86d3404dd3d9c82e5b0c722dd3c503e7df8e41dda0508ae29a98e4234882f6c6"
+  },
+  "artifact_validation": {
+    "presentation_slides": 36,
+    "reader_report_pages": 23,
+    "technical_report_pages": 6,
+    "all_slides_and_report_pages_visually_reviewed": true,
+    "pptx_zip_integrity": true,
+    "presentation_numerical_source_hash_matches": true
+  },
+  "artifact_sha256": {
+    "studies/rwanda-politicians-2021-2026/output/source_v2_2026_10_18/report.md": "a5b6eda299ba7bfa2865d265cbaac772165967ebd8ca8f10d6092cc52564de1a",
+    "studies/rwanda-politicians-2021-2026/output/source_v2_2026_10_18/report.pdf": "e2244d503492b09b0fc896c5535519e997f00e279e08dcc78d5eef4d99b77ebf",
+    "studies/rwanda-politicians-2021-2026/output/source_v2_2026_10_18/technical/report.md": "66f7bb06258ba8d0bcd989e290d3904d1cbba128814f511fa157b379a9bb4e8a",
+    "studies/rwanda-politicians-2021-2026/output/source_v2_2026_10_18/technical/report.pdf": "085ff38144f92d6462868ca4579383e19d892b1c70742a6070f730e2a00ac171",
+    "studies/rwanda-politicians-2021-2026/output/source_v2_2026_10_18/slides.pptx": "0e961574211badf71a3e74e960d1f144bb124426a5cdc7071e11f3d936d10392",
+    "studies/rwanda-politicians-2021-2026/output/source_v2_2026_10_18/presentation_content.json": "ddc5a8ee4e43a41f7fec20d8d3d15999a938af62d867329074e8cf7a841cae1a"
+  }
+}

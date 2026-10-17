@@ -1,0 +1,438 @@
+{
+  "version": "source-corrections-no-api-v1",
+  "method": "offline_source_checks_and_exact_chat_adjudications",
+  "counts": {
+    "all_extracted_facts_processed": 11285,
+    "exact_reviewed_cases_applied": 104,
+    "exact_reviewed_facts_applied": 154,
+    "general_checks_only_facts": 11131,
+    "facts_with_changed_measurement_fields": 95,
+    "facts_with_added_or_changed_review_metadata": 11276,
+    "facts_with_general_risk_flags": 819,
+    "eligible_before": 7039,
+    "eligible_after": 7021,
+    "literal_material_groups": 5778,
+    "literal_repeat_groups": 595,
+    "literal_repeat_excess": 1243
+  },
+  "rule_flags": {
+    "date_precision_not_exact_day": 9,
+    "date_value_mismatch": 6,
+    "inconsistent_attribution_kind_requires_review": 13,
+    "passive_agency_or_accusation_cue_review_only": 238,
+    "protocol_or_participation_cue_review_only": 560
+  },
+  "exact_reviewed_verdicts": {
+    "exclude": 21,
+    "hold": 9,
+    "narrow": 66,
+    "retain": 58
+  },
+  "actors": [
+    {
+      "actor_id": "paul-kagame",
+      "name": "Paul Kagame",
+      "input_facts": 6454,
+      "eligible_before": 3461,
+      "eligible_after": 3461,
+      "exact_reviewed_facts": 9,
+      "general_risk_flagged_facts": 424
+    },
+    {
+      "actor_id": "edouard-ngirente",
+      "name": "Edouard Ngirente",
+      "input_facts": 17,
+      "eligible_before": 9,
+      "eligible_after": 8,
+      "exact_reviewed_facts": 2,
+      "general_risk_flagged_facts": 2
+    },
+    {
+      "actor_id": "justin-nsengiyumva",
+      "name": "Justin Nsengiyumva",
+      "input_facts": 473,
+      "eligible_before": 379,
+      "eligible_after": 379,
+      "exact_reviewed_facts": 4,
+      "general_risk_flagged_facts": 38
+    },
+    {
+      "actor_id": "vincent-biruta",
+      "name": "Vincent Biruta",
+      "input_facts": 122,
+      "eligible_before": 103,
+      "eligible_after": 103,
+      "exact_reviewed_facts": 6,
+      "general_risk_flagged_facts": 10
+    },
+    {
+      "actor_id": "olivier-nduhungirehe",
+      "name": "Olivier J. P. Nduhungirehe",
+      "input_facts": 1658,
+      "eligible_before": 1386,
+      "eligible_after": 1387,
+      "exact_reviewed_facts": 5,
+      "general_risk_flagged_facts": 170
+    },
+    {
+      "actor_id": "james-kabarebe",
+      "name": "James Kabarebe",
+      "input_facts": 186,
+      "eligible_before": 45,
+      "eligible_after": 43,
+      "exact_reviewed_facts": 3,
+      "general_risk_flagged_facts": 22
+    },
+    {
+      "actor_id": "juvenal-marizamunda",
+      "name": "Juvenal Marizamunda",
+      "input_facts": 118,
+      "eligible_before": 77,
+      "eligible_after": 77,
+      "exact_reviewed_facts": 4,
+      "general_risk_flagged_facts": 37
+    },
+    {
+      "actor_id": "albert-murasira",
+      "name": "Albert Murasira",
+      "input_facts": 39,
+      "eligible_before": 33,
+      "eligible_after": 33,
+      "exact_reviewed_facts": 2,
+      "general_risk_flagged_facts": 3
+    },
+    {
+      "actor_id": "emmanuel-ugirashebuja",
+      "name": "Emmanuel Ugirashebuja",
+      "input_facts": 186,
+      "eligible_before": 167,
+      "eligible_after": 167,
+      "exact_reviewed_facts": 20,
+      "general_risk_flagged_facts": 17
+    },
+    {
+      "actor_id": "yusuf-murangwa",
+      "name": "Yusuf Murangwa",
+      "input_facts": 315,
+      "eligible_before": 241,
+      "eligible_after": 241,
+      "exact_reviewed_facts": 4,
+      "general_risk_flagged_facts": 19
+    },
+    {
+      "actor_id": "uzziel-ndagijimana",
+      "name": "Uzziel Ndagijimana",
+      "input_facts": 11,
+      "eligible_before": 10,
+      "eligible_after": 10,
+      "exact_reviewed_facts": 2,
+      "general_risk_flagged_facts": 1
+    },
+    {
+      "actor_id": "paula-ingabire",
+      "name": "Paula Ingabire",
+      "input_facts": 359,
+      "eligible_before": 288,
+      "eligible_after": 288,
+      "exact_reviewed_facts": 14,
+      "general_risk_flagged_facts": 8
+    },
+    {
+      "actor_id": "sabin-nsanzimana",
+      "name": "Sabin Nsanzimana",
+      "input_facts": 236,
+      "eligible_before": 218,
+      "eligible_after": 218,
+      "exact_reviewed_facts": 5,
+      "general_risk_flagged_facts": 4
+    },
+    {
+      "actor_id": "judith-uwizeye",
+      "name": "Judith Uwizeye",
+      "input_facts": 4,
+      "eligible_before": 0,
+      "eligible_after": 0,
+      "exact_reviewed_facts": 0,
+      "general_risk_flagged_facts": 1
+    },
+    {
+      "actor_id": "ines-mpambara",
+      "name": "Inès Mpambara",
+      "input_facts": 1,
+      "eligible_before": 0,
+      "eligible_after": 0,
+      "exact_reviewed_facts": 0,
+      "general_risk_flagged_facts": 1
+    },
+    {
+      "actor_id": "valentine-uwamariya",
+      "name": "Valentine Uwamariya",
+      "input_facts": 16,
+      "eligible_before": 11,
+      "eligible_after": 4,
+      "exact_reviewed_facts": 8,
+      "general_risk_flagged_facts": 5
+    },
+    {
+      "actor_id": "jeanne-darc-mujawamariya",
+      "name": "Jeanne d'Arc Mujawamariya",
+      "input_facts": 1,
+      "eligible_before": 0,
+      "eligible_after": 0,
+      "exact_reviewed_facts": 1,
+      "general_risk_flagged_facts": 0
+    },
+    {
+      "actor_id": "gerardine-mukeshimana",
+      "name": "Gérardine Mukeshimana",
+      "input_facts": 66,
+      "eligible_before": 63,
+      "eligible_after": 59,
+      "exact_reviewed_facts": 4,
+      "general_risk_flagged_facts": 2
+    },
+    {
+      "actor_id": "ildephonse-musafiri",
+      "name": "Ildephonse Musafiri",
+      "input_facts": 4,
+      "eligible_before": 4,
+      "eligible_after": 4,
+      "exact_reviewed_facts": 3,
+      "general_risk_flagged_facts": 1
+    },
+    {
+      "actor_id": "jean-claude-musabyimana",
+      "name": "Jean Claude Musabyimana",
+      "input_facts": 2,
+      "eligible_before": 1,
+      "eligible_after": 1,
+      "exact_reviewed_facts": 1,
+      "general_risk_flagged_facts": 0
+    },
+    {
+      "actor_id": "jean-damascene-bizimana",
+      "name": "Jean-Damascène Bizimana",
+      "input_facts": 96,
+      "eligible_before": 70,
+      "eligible_after": 70,
+      "exact_reviewed_facts": 5,
+      "general_risk_flagged_facts": 14
+    },
+    {
+      "actor_id": "clare-akamanzi",
+      "name": "Clare Akamanzi",
+      "input_facts": 121,
+      "eligible_before": 63,
+      "eligible_after": 63,
+      "exact_reviewed_facts": 4,
+      "general_risk_flagged_facts": 5
+    },
+    {
+      "actor_id": "francis-gatare",
+      "name": "Francis Gatare",
+      "input_facts": 37,
+      "eligible_before": 28,
+      "eligible_after": 28,
+      "exact_reviewed_facts": 2,
+      "general_risk_flagged_facts": 2
+    },
+    {
+      "actor_id": "gertrude-kazarwa",
+      "name": "Gertrude Kazarwa",
+      "input_facts": 20,
+      "eligible_before": 11,
+      "eligible_after": 11,
+      "exact_reviewed_facts": 2,
+      "general_risk_flagged_facts": 3
+    },
+    {
+      "actor_id": "donatille-mukabalisa",
+      "name": "Donatille Mukabalisa",
+      "input_facts": 3,
+      "eligible_before": 0,
+      "eligible_after": 0,
+      "exact_reviewed_facts": 0,
+      "general_risk_flagged_facts": 0
+    },
+    {
+      "actor_id": "francois-xavier-kalinda",
+      "name": "François-Xavier Kalinda",
+      "input_facts": 13,
+      "eligible_before": 9,
+      "eligible_after": 9,
+      "exact_reviewed_facts": 2,
+      "general_risk_flagged_facts": 1
+    },
+    {
+      "actor_id": "augustin-iyamuremye",
+      "name": "Augustin Iyamuremye",
+      "input_facts": 1,
+      "eligible_before": 0,
+      "eligible_after": 0,
+      "exact_reviewed_facts": 0,
+      "general_risk_flagged_facts": 0
+    },
+    {
+      "actor_id": "alvera-mukabaramba",
+      "name": "Alvera Mukabaramba",
+      "input_facts": 3,
+      "eligible_before": 2,
+      "eligible_after": 2,
+      "exact_reviewed_facts": 2,
+      "general_risk_flagged_facts": 0
+    },
+    {
+      "actor_id": "mussa-fazil-harerimana",
+      "name": "Mussa Fazil Harerimana",
+      "input_facts": 5,
+      "eligible_before": 2,
+      "eligible_after": 2,
+      "exact_reviewed_facts": 2,
+      "general_risk_flagged_facts": 1
+    },
+    {
+      "actor_id": "pudence-rubingisa",
+      "name": "Pudence Rubingisa",
+      "input_facts": 15,
+      "eligible_before": 10,
+      "eligible_after": 10,
+      "exact_reviewed_facts": 2,
+      "general_risk_flagged_facts": 1
+    },
+    {
+      "actor_id": "samuel-dusengiyumva",
+      "name": "Samuel Dusengiyumva",
+      "input_facts": 44,
+      "eligible_before": 25,
+      "eligible_after": 26,
+      "exact_reviewed_facts": 6,
+      "general_risk_flagged_facts": 4
+    },
+    {
+      "actor_id": "frank-habineza",
+      "name": "Frank Habineza",
+      "input_facts": 35,
+      "eligible_before": 25,
+      "eligible_after": 25,
+      "exact_reviewed_facts": 2,
+      "general_risk_flagged_facts": 1
+    },
+    {
+      "actor_id": "philippe-mpayimana",
+      "name": "Philippe Mpayimana",
+      "input_facts": 0,
+      "eligible_before": 0,
+      "eligible_after": 0,
+      "exact_reviewed_facts": 0,
+      "general_risk_flagged_facts": 0
+    },
+    {
+      "actor_id": "victoire-ingabire",
+      "name": "Victoire Ingabire Umuhoza",
+      "input_facts": 92,
+      "eligible_before": 45,
+      "eligible_after": 44,
+      "exact_reviewed_facts": 8,
+      "general_risk_flagged_facts": 8
+    },
+    {
+      "actor_id": "diane-rwigara",
+      "name": "Diane Shima Rwigara",
+      "input_facts": 9,
+      "eligible_before": 0,
+      "eligible_after": 0,
+      "exact_reviewed_facts": 1,
+      "general_risk_flagged_facts": 2
+    },
+    {
+      "actor_id": "bernard-ntaganda",
+      "name": "Bernard Ntaganda",
+      "input_facts": 4,
+      "eligible_before": 3,
+      "eligible_after": 3,
+      "exact_reviewed_facts": 1,
+      "general_risk_flagged_facts": 0
+    },
+    {
+      "actor_id": "christopher-kayumba",
+      "name": "Christopher Kayumba",
+      "input_facts": 1,
+      "eligible_before": 1,
+      "eligible_after": 1,
+      "exact_reviewed_facts": 1,
+      "general_risk_flagged_facts": 0
+    },
+    {
+      "actor_id": "paul-rusesabagina",
+      "name": "Paul Rusesabagina",
+      "input_facts": 58,
+      "eligible_before": 21,
+      "eligible_after": 19,
+      "exact_reviewed_facts": 3,
+      "general_risk_flagged_facts": 4
+    },
+    {
+      "actor_id": "kayumba-nyamwasa",
+      "name": "Faustin Kayumba Nyamwasa",
+      "input_facts": 7,
+      "eligible_before": 3,
+      "eligible_after": 1,
+      "exact_reviewed_facts": 2,
+      "general_risk_flagged_facts": 2
+    },
+    {
+      "actor_id": "louise-mushikiwabo",
+      "name": "Louise Mushikiwabo",
+      "input_facts": 347,
+      "eligible_before": 147,
+      "eligible_after": 147,
+      "exact_reviewed_facts": 5,
+      "general_risk_flagged_facts": 5
+    },
+    {
+      "actor_id": "claver-gatete",
+      "name": "Claver Gatete",
+      "input_facts": 97,
+      "eligible_before": 72,
+      "eligible_after": 72,
+      "exact_reviewed_facts": 5,
+      "general_risk_flagged_facts": 1
+    },
+    {
+      "actor_id": "valentine-rugwabiza",
+      "name": "Valentine Rugwabiza",
+      "input_facts": 9,
+      "eligible_before": 6,
+      "eligible_after": 5,
+      "exact_reviewed_facts": 2,
+      "general_risk_flagged_facts": 0
+    }
+  ],
+  "api_calls": 0,
+  "new_api_cost_usd": 0,
+  "ratings_generated": false,
+  "original_extraction_modified": false,
+  "database_modified": false,
+  "queue_modified": false,
+  "canonical_study_modified": false,
+  "frequency_used_as_intensity": false,
+  "publication_time_used_as_event_time": false,
+  "raw_quotes_published": false,
+  "limitations": [
+    "General source checks are not a full semantic review of every publication.",
+    "Protocol, passive-agency and accusation cues are flags, never automatic meaning judgments.",
+    "Only explicitly adjudicated source fact IDs receive semantic/date corrections.",
+    "Unknown event times remain unknown; old years mentioned inside speeches do not date those speeches.",
+    "Literal material groups are not independent events and do not establish recurrence.",
+    "No lexical match, article frequency or missing value creates a numerical property score."
+  ],
+  "provenance": {
+    "policy_version": "source-corrections-no-api-v1",
+    "source_facts_content_sha256": "8360123a63ffe22083508ad4eb0414fb7b6ad5a142d0bd5f8c3b77badfef6657",
+    "annotations_content_sha256": "4f1c9cfdb62ce6f028fb3becb8b86d9c0fe76f884782ca1616d28f92ed21aa6a",
+    "derived_facts_content_sha256": "2a2696cf970bf6543cf9ac2b9d0b5475f9f333745b89ad0c815922db53ccfea8",
+    "source_snapshot_file_sha256": "813e82d441a9ac8962dc048800dbdb3d784f5c793e750d4c8022bfca82339d06",
+    "approved_dictionary_file_sha256": "b57df22f79cea2d06b806a51ad195b6481a53181f6eb1534c14039b3125d884b",
+    "combined_review_sha256": "c9a601c941b684ec8f6273c646d04c5f472425ed47d6ff412e18b613a7e0b421"
+  }
+}

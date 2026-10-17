@@ -107,6 +107,19 @@ assertion, not a neighboring arrest, meeting, background allegation or future pl
 Do not resolve 'Tuesday', '4 December' without year, or publication time into an event date.
 Use null for both event_date/date_evidence when uncertain. Publication date remains separate.
 capacity distinguishes official, personal, third-party or unknown roles.
+IDENTITY AND AGENCY: a changed office alone is not a homonym. A conflicting name in
+the title and body requires uncertain attribution, not choosing one by prior office.
+Keep the interviewee, a person mentioned by the interviewer, an accuser and the
+object of accusation separate. A fictional portrayal is not the real person's action.
+Protocol attendance, an appointment, an award and a photograph may be factual
+context but do not by themselves establish a substantive political commitment.
+International-organisation speech belongs to that mandate, not automatically the
+Rwandan government. Retain explicit role information without guessing private views.
+TIME PRECISION: do not turn a month/year into its first day. Keep the exact-date
+fields null when only an interval is supported; a later review layer may store the
+interval separately. Distinguish the time of speaking from a historical event
+retold inside that speech, and a future deadline from the date of the commitment.
+Separate a current agreement from an undated old roadmap mentioned alongside it.
 trait_candidates are exploratory descriptors, never approved scores or new canonical scales.""",
     "describe": """Propose compact reusable unipolar property definitions from the supplied discovery facts.
 Use only the measurement channel in config.aspect: public_positions permits ONLY own
@@ -146,7 +159,15 @@ Every observed rating needs supplied same-actor, same-channel evidence IDs. No i
 other-actor, context-only, outside-window or unreviewed/excluded evidence. reason must explain the
 trait manifestation and limits, including source dependence; do not pretend model scores are human
 expert judgments. Input context defines the evidence unit; do not claim a whole-period prevalence
-from a single fragment or limited dossier.""",
+from a single fragment or limited dossier. Several statements, translations or republications
+of one agreement remain one episode. Different themes within one memorandum do not prove
+independent events. Civil medical training may support its approved education property, while
+military training belongs to security. Ordinary cooperation does not establish a position on
+war or sanctions, and sanctions on Rwanda are not sanctions on Russia. Legal defence in one
+case does not by itself establish an entire rights platform. Contractual damages alone are
+not a separate demand to investigate public harm. Do not infer a financial instrument from
+generic startup support, a negotiation method from a security condition, or institutional
+reform from criticism of one decision. Use each approved coding_boundary unchanged.""",
 }
 
 

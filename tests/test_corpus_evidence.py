@@ -116,6 +116,77 @@ class CorpusEvidenceTests(unittest.TestCase):
             self.assertIsNone(result["facts"][0]["event_date"])
             self.assertIn({"index": 0, "code": "date_value_mismatch"}, result["quality_control"]["issues"])
 
+    def test_month_and_year_cannot_be_saved_as_an_exact_first_day(self):
+        for evidence, invented_day in (("February 2025", "2025-02-01"), ("février 2025", "2025-02-01"),
+                                       ("Gashyantare 2025", "2025-02-01"), ("Februari 2025", "2025-02-01"),
+                                       ("2025", "2025-01-01")):
+            with self.subTest(evidence=evidence):
+                quote = f"Alpha North supported the proposal in {evidence}."
+                fact = self.fact(quote, event_date=invented_day, date_evidence=evidence)
+                result = self.normalize([fact], self.context(quote))
+                self.assertEqual(len(result["facts"]), 1)
+                self.assertIsNone(result["facts"][0]["event_date"])
+                self.assertIsNone(result["facts"][0]["date_evidence"])
+                self.assertEqual(result["quality_control"]["cleared_dates"], 1)
+                self.assertIn({"index": 0, "code": "date_precision_not_exact_day"}, result["quality_control"]["issues"])
+                self.assertEqual(fact["event_date"], invented_day)
+
+    def test_explicit_calendar_day_retained_in_all_study_languages(self):
+        for evidence in ("2 May 2026", "May 2, 2026", "2 mai 2026", "2 Gicurasi 2026", "2 Mei 2026", "2/5/2026"):
+            with self.subTest(evidence=evidence):
+                quote = f"Alpha North supported the proposal on {evidence}."
+                fact = self.fact(quote, event_date="2026-05-02", date_evidence=evidence)
+                result = self.normalize([fact], self.context(quote))
+                self.assertEqual(result["facts"], [fact])
+                self.assertEqual(result["quality_control"]["cleared_dates"], 0)
+                self.assertEqual(result["quality_control"]["issues"], [])
+
+    def test_selected_day_must_match_stated_day_in_each_language(self):
+        for evidence in ("2 May 2026", "May 2, 2026", "2 mai 2026", "2 Gicurasi 2026", "2 Mei 2026"):
+            with self.subTest(evidence=evidence):
+                quote = f"Alpha North supported the proposal on {evidence}."
+                fact = self.fact(quote, event_date="2026-05-03", date_evidence=evidence)
+                result = self.normalize([fact], self.context(quote))
+                self.assertEqual(len(result["facts"]), 1)
+                self.assertIsNone(result["facts"][0]["event_date"])
+                self.assertIn({"index": 0, "code": "date_value_mismatch"}, result["quality_control"]["issues"])
+
+    def test_news_month_abbreviations_keep_explicit_day_and_year(self):
+        for evidence, exact in (("Thursday, Dec. 4, 2025", "2025-12-04"),
+                                ("Dec 4, 2025", "2025-12-04"),
+                                ("Aug. 28, 2026", "2026-08-28"),
+                                ("Kigali, 2 Dec 2025", "2025-12-02"),
+                                ("On Nov. 18, 2025", "2025-11-18"),
+                                ("Dec.4, 2025", "2025-12-04"),
+                                ("on Oct 9, 2025, in Hong Kong", "2025-10-09"),
+                                ("2 déc. 2025", "2025-12-02"),
+                                ("28 févr. 2026", "2026-02-28"),
+                                ("2 janv. 2026", "2026-01-02")):
+            with self.subTest(evidence=evidence):
+                quote = f"Alpha North supported the proposal {evidence}."
+                fact = self.fact(quote, event_date=exact, date_evidence=evidence)
+                result = self.normalize([fact], self.context(quote))
+                self.assertEqual(result["facts"], [fact])
+                self.assertEqual(result["quality_control"]["issues"], [])
+
+    def test_abbreviated_month_without_day_and_multiday_range_stay_unknown(self):
+        for evidence, invented in (("Dec. 2025", "2025-12-01"),
+                                   ("déc. 2025", "2025-12-01"),
+                                   ("September 7 to 8, 2026", "2026-09-07")):
+            with self.subTest(evidence=evidence):
+                quote = f"Alpha North supported the proposal in {evidence}."
+                fact = self.fact(quote, event_date=invented, date_evidence=evidence)
+                result = self.normalize([fact], self.context(quote))
+                self.assertIsNone(result["facts"][0]["event_date"])
+                self.assertIn({"index": 0, "code": "date_precision_not_exact_day"}, result["quality_control"]["issues"])
+
+    def test_current_speech_recalling_old_event_keeps_its_own_date(self):
+        quote = "On 2 May 2026 Alpha North said: We remember the 1995 decision and support this proposal today."
+        fact = self.fact(quote, event_date="2026-05-02", date_evidence="2 May 2026")
+        result = self.normalize([fact], self.context(quote))
+        self.assertEqual(result["facts"], [fact])
+        self.assertEqual(result["quality_control"]["issues"], [])
+
     def test_outside_period_is_skipped_not_rescued_by_clearing_date(self):
         quote = "Alpha North supported the plan on 2020-10-13."
         for evidence in ("2020-10-13", None):
@@ -169,7 +240,7 @@ class CorpusEvidenceTests(unittest.TestCase):
         self.assertEqual(result["facts"], [good])
 
     def test_policy_version_and_empty_input(self):
-        self.assertEqual(EVIDENCE_POLICY_VERSION, "local-attribution-date-review-v1")
+        self.assertEqual(EVIDENCE_POLICY_VERSION, "local-attribution-date-review-v2")
         result = self.normalize([], self.context("Synthetic text"))
         self.assertEqual(result["quality_control"]["input_facts"], 0)
         self.assertEqual(result["facts"], [])
