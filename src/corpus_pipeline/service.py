@@ -17,14 +17,17 @@ import shutil
 import sqlite3
 import threading
 import uuid
+import unicodedata
 
 from .ingest import inspect_csv, iter_documents, exact_fingerprint, near_duplicate_pairs
 from .identity import IDENTITY_POLICY_VERSION, ground_relevance
 from .evidence import EVIDENCE_POLICY_VERSION, normalize_extraction
 from .rubrics import RUBRIC_POLICY_VERSION, normalize_discovery, intensity_rubric_issues
+from .excerpts import EXCERPT_POLICY_VERSION, offline_encoding, select_spans_with_metadata
+from .source_spans import document_texts, fact_span
 from .models import (DEFAULT_PRICING, DEFAULT_ROUTES, ModelResponseError, COMMON, PROMPTS, SCHEMAS,
                      OpenAIResponsesHTTP, estimate_cost, make_task,
-                     payload_input_bound, validate_result, _eligible_fact)
+                     payload_input_bound, validate_result, _eligible_fact, EXCERPT_INSTRUCTIONS)
 
 
 VERSION = "corpus-v1"
@@ -70,6 +73,27 @@ def candidates(text, objects):
                for alias in aliases if alias):
             result.append(actor["id"])
     return result
+
+
+def compact_objects(objects, document):
+    """Supply only approved, literally mentioned actors; no inferred aliases.
+
+    A passage without a known name keeps the full roster for manual/model
+    review. It is never silently classified as an unrelated publication.
+    """
+    def normalized(value):
+        return " ".join(unicodedata.normalize("NFC", value).casefold().split())
+    texts = [normalized(text) for text in document_texts(document)]
+    result = []
+    for actor in objects:
+        def present(label):
+            label = normalized(label)
+            return bool(label) and any(re.search(r"(?<!\w)" + re.escape(label) + r"(?!\w)", text)
+                                       for text in texts)
+        aliases = [alias for alias in actor.get("aliases", []) if present(alias)]
+        if present(actor["name"]) or aliases:
+            result.append({"id": actor["id"], "name": actor["name"], "aliases": aliases})
+    return result or objects
 
 
 def publication_date(value):
@@ -166,7 +190,8 @@ class CorpusPipeline:
         config = {"scope": "", "aspect": "public_positions", "objects": [], "languages": [],
                   "date_from": "", "date_to": "", "country_terms": [], "scales": [],
                   "scales_approved": False, "routes": dict(DEFAULT_ROUTES),
-                  "pricing": json.loads(packed(DEFAULT_PRICING)), "budget_limit_usd": None}
+                  "pricing": json.loads(packed(DEFAULT_PRICING)), "budget_limit_usd": None,
+                  "text_selection": {"mode": "full", "max_tokens": 1000, "compact_roster": False}}
         supplied = supplied or {}
         if not isinstance(supplied, dict):
             raise ValueError("Настройки корпуса должны быть JSON-объектом")
@@ -175,6 +200,12 @@ class CorpusPipeline:
         if unknown:
             raise ValueError("Неизвестные поля настроек корпуса: " + ", ".join(sorted(unknown)))
         config.update(supplied)
+        policy = config["text_selection"]
+        if (not isinstance(policy, dict) or set(policy) - {"mode", "max_tokens", "compact_roster"}
+                or policy.get("mode") not in {"full", "head", "mentions"}
+                or type(policy.get("max_tokens")) is not int or not 100 <= policy["max_tokens"] <= 16000
+                or type(policy.get("compact_roster", False)) is not bool):
+            raise ValueError("text_selection: mode full/head/mentions, max_tokens 100–16000, compact_roster true/false")
         cap = config["budget_limit_usd"]
         if cap is not None and (isinstance(cap, bool) or not isinstance(cap, (int, float))
                                 or not math.isfinite(cap) or cap <= 0):
@@ -231,6 +262,15 @@ class CorpusPipeline:
     def _recipe(self, stage, config):
         base = {key: config.get(key) for key in
                 ("scope", "objects", "languages", "date_from", "date_to", "country_terms")}
+        selection = config.get("text_selection", {"mode": "full"})
+        if selection["mode"] != "full" or selection.get("compact_roster"):
+            # Missing/default full selection preserves existing recipes and paid
+            # receipts; any bounded policy has its own downstream lineage.
+            base["text_selection"] = {**selection, "version": EXCERPT_POLICY_VERSION,
+                                      "instructions": EXCERPT_INSTRUCTIONS}
+            if selection["mode"] != "full":
+                encoding = offline_encoding(self.runtime / "tokenizer_cache")
+                base["text_selection"]["tokenizer"] = encoding.name if encoding else "utf8-byte-upper-bound"
         if stage != "relevance":
             base["aspect"] = config["aspect"]
             base["upstream_relevance"] = self._recipe("relevance", config)
@@ -504,6 +544,8 @@ class CorpusPipeline:
         recipe = self._recipe(stage, config)
         contexts = []
         if stage == "relevance":
+            policy = config.get("text_selection", {"mode": "full"})
+            encoding = offline_encoding(self.runtime / "tokenizer_cache") if policy["mode"] != "full" else None
             with self.connection() as db:
                 rows = db.execute("SELECT data FROM documents WHERE corpus_id=? AND status='unique' ORDER BY source_row", (identifier,)).fetchall()
             for row in rows:
@@ -512,6 +554,16 @@ class CorpusPipeline:
                     continue
                 if self._rule_exclusion(document, config):
                     excluded += 1
+                    continue
+                if policy["mode"] != "full":
+                    selection = select_spans_with_metadata(document["text"], config["objects"],
+                                                          mode=policy["mode"], max_tokens=policy["max_tokens"], encoding=encoding)
+                    fragment = {key: document.get(key, "") for key in
+                                ("id", "title", "url", "published_at", "source_name", "author", "language_hint")}
+                    fragment["excerpts"] = [{key: span[key] for key in ("start", "end", "text")}
+                                            for span in selection["spans"]]
+                    fragment["text_selection"] = selection["metadata"]
+                    contexts.append((f"{document['id']}:excerpts", {"document": fragment}))
                     continue
                 for start, end, text in chunks(document["text"]):
                     fragment = {key: document.get(key, "") for key in
@@ -558,6 +610,8 @@ class CorpusPipeline:
         with self.connection() as db:
             for unit, context in contexts:
                 context["config"] = self._task_config(stage, config)
+                if stage in {"relevance", "extract"} and config.get("text_selection", {}).get("compact_roster"):
+                    context["config"]["objects"] = compact_objects(config["objects"], context["document"])
                 payload = make_task(stage, context, model=config["routes"][stage], max_output_tokens=MAX_OUTPUT[stage])
                 job_id = "job-" + digest({"corpus": identifier, "recipe": recipe, "unit": unit, "context": context})[:32]
                 cursor = db.execute("""INSERT OR IGNORE INTO jobs
@@ -579,7 +633,10 @@ class CorpusPipeline:
         if stage == "extract":
             for fact in result["facts"]:
                 document = context["document"]
-                start = document.get("chunk_start", 0) + document["text"].index(fact["quote"])
+                span = fact_span(document, fact)
+                if span is None:
+                    raise ValueError("Persisted evidence must fit one original source span")
+                start = span["start"] + span["text"].index(fact["quote"])
                 fact_id = "fact-" + digest([identifier, document["id"], start, fact["actor_id"], fact["quote"], fact["kind"], job["recipe"]])[:28]
                 value = dict(fact, id=fact_id, document_id=document["id"], source_url=document.get("url", ""),
                              source_date=document.get("published_at", ""), quote_start=start,

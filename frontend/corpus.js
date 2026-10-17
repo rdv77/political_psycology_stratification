@@ -41,6 +41,7 @@
     $("prepare").disabled = locked || state.dirty;
     $("run-api").disabled = locked || state.dirty || !state.modelConfig.configured || !(state.corpus?.jobs?.pending > 0);
     $("refresh").disabled = state.busy;
+    $("text-max-tokens").disabled = $("text-mode").value === "full";
   }
   async function perform(action) {
     if (state.busy) return;
@@ -115,6 +116,9 @@
     $("languages").value = (config.languages || []).join(", ");
     $("country-terms").value = (config.country_terms || []).join(", ");
     $("date-from").value = config.date_from || ""; $("date-to").value = config.date_to || "";
+    $("text-mode").value = config.text_selection?.mode || "full";
+    $("text-max-tokens").value = config.text_selection?.max_tokens ?? 1000;
+    $("compact-roster").checked = config.text_selection?.compact_roster === true;
     $("objects-json").value = JSON.stringify(config.objects || [], null, 2);
     $("scales-json").value = JSON.stringify(config.scales || [], null, 2);
     $("scales-approved").checked = config.scales_approved === true;
@@ -138,6 +142,7 @@
       languages: $("languages").value.split(/[,;\n]/).map(x => x.trim()).filter(Boolean), date_from: $("date-from").value,
       country_terms: $("country-terms").value.split(/[,;\n]/).map(x => x.trim()).filter(Boolean),
       date_to: $("date-to").value, objects: parseArray("objects-json", "Объекты"), scales: parseArray("scales-json", "Шкалы"),
+      text_selection: {mode: $("text-mode").value, max_tokens: Number($("text-max-tokens").value), compact_roster: $("compact-roster").checked},
       scales_approved: $("scales-approved").checked, routes: {}, pricing: readPricing()};
     for (const input of $("routes").querySelectorAll("input")) { if (!input.value.trim()) throw new Error("Укажите модель для каждого этапа"); config.routes[input.dataset.stage] = input.value.trim(); }
     return config;
@@ -201,7 +206,9 @@
     event.preventDefault(); perform(async () => {
       let mapping;
       if ($("import-mapping").value.trim()) { try { mapping = JSON.parse($("import-mapping").value); } catch (_) { throw new Error("Проверьте JSON сопоставления столбцов"); } }
-      const payload = {path: $("import-path").value.trim(), title: $("import-title").value.trim(), ...(mapping ? {mapping} : {}), ...($("import-study").value ? {study_id: $("import-study").value} : {})};
+      const payload = {path: $("import-path").value.trim(), title: $("import-title").value.trim(),
+        config: {text_selection: {mode: "mentions", max_tokens: 1500, compact_roster: true}},
+        ...(mapping ? {mapping} : {}), ...($("import-study").value ? {study_id: $("import-study").value} : {})};
       const result = await api("/api/corpora", "POST", payload); await refreshList(); await select(result.id || result.corpus?.id); message("Корпус импортирован. Проверьте профиль и настройки; API не вызывался.");
     });
   });

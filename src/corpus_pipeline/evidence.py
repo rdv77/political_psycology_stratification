@@ -11,6 +11,7 @@ from datetime import date
 import re
 import unicodedata
 from typing import Callable
+from .source_spans import document_spans, fact_span
 
 
 EVIDENCE_POLICY_VERSION = "local-attribution-date-review-v1"
@@ -100,9 +101,7 @@ def normalize_extraction(data: dict, context: dict, validator: Callable) -> dict
     if not isinstance(data, dict) or not isinstance(data.get("facts"), list):
         raise ValueError("Extraction requires a facts list")
     document = context.get("document", {})
-    text = document.get("text")
-    if not isinstance(text, str):
-        raise ValueError("Original document.text is required")
+    passages = document_spans(document)
     actors = {actor["id"]: actor for actor in context.get("config", {}).get("objects", [])}
     source_type = str(document.get("source_type", "unknown")).strip().casefold()
     accepted, issues = [], []
@@ -120,12 +119,19 @@ def normalize_extraction(data: dict, context: dict, validator: Callable) -> dict
             issue("invalid_attribution_basis")
             continue
         quote, attribution = fact.get("quote"), fact.get("attribution_evidence")
-        if not isinstance(quote, str) or not quote.strip() or quote not in text:
+        if not isinstance(quote, str) or not quote.strip() or not any(quote in s["text"] for s in passages):
             issue("quote_not_exact")
             continue
-        if not isinstance(attribution, str) or not attribution.strip() or attribution not in text:
+        if not isinstance(attribution, str) or not attribution.strip() or not any(attribution in s["text"] for s in passages):
             issue("attribution_not_exact")
             continue
+        # Invalid dates can be cleared below, but source attribution must already
+        # fit the first original quote passage. Never bridge separate excerpts.
+        passage = fact_span(document, dict(fact, date_evidence=None))
+        if passage is None:
+            issue("attribution_not_local")
+            continue
+        text = passage["text"]
         actor_id = fact.get("actor_id")
         actor = actors.get(actor_id, {}) if isinstance(actor_id, str) else {}
         if not _actor_mentioned(actor, quote, attribution):

@@ -13,6 +13,7 @@ import re
 
 import httpx
 from .rubrics import intensity_rubric_issues
+from .source_spans import document_spans, fact_span
 
 DEFAULT_ROUTES = {"relevance": "gpt-4.1-nano", "extract": "gpt-5.1", "describe": "gpt-5.1", "score": "gpt-5.1"}
 DEFAULT_OUTPUT_TOKENS = {"relevance": 512, "extract": 4096, "describe": 6000, "score": 3000}
@@ -61,6 +62,14 @@ is not its antonym. Each property is an independent unipolar0..5 intensity; mult
 opposing properties may coexist. Keep source attribution, date and official capacity.
 Institutional context, office, conviction or third-person reporting is not an actor's
 own political position. Never infer a cause, electorate or alliance from similarity.
+"""
+EXCERPT_INSTRUCTIONS = """The document is intentionally incomplete. document.excerpts contains separate
+original passages with absolute character offsets, NOT consecutive text. Do not bridge their gaps,
+invent missing transitions or infer that a missing view is absent in the full publication.
+Where other rules refer to document.text, read the text of ONE supplied excerpt.
+Judge only the supplied passages. Every quote, its attribution_evidence and any date_evidence
+must belong to ONE excerpt; a quote may never join different excerpts. The roster may contain
+only the approved actors explicitly named in these passages; never add an absent identifier.
 """
 PROMPTS = {
     "relevance": """Judge whether this document substantively concerns any roster actor within the study scope.
@@ -197,8 +206,8 @@ def _context(context, stage):
         raise ValueError("Reversed study period")
     if stage in ("relevance", "extract"):
         doc = context.get("document")
-        if not isinstance(doc, dict) or not isinstance(doc.get("text"), str) or not doc["text"].strip():
-            raise ValueError("Original nonempty document.text required")
+        if not isinstance(doc, dict) or not any(s["text"].strip() for s in document_spans(doc)):
+            raise ValueError("Original nonempty document text/excerpts required")
     if stage in ("describe", "score"):
         facts = context.get("facts", [])
         if not isinstance(facts, list) or any(not isinstance(f, dict) or not isinstance(f.get("id"), str) or not f["id"].strip() for f in facts):
@@ -241,12 +250,20 @@ def make_task(stage: str, context: dict, model: str | None = None, max_output_to
             # STRINGS is shared by aliases/evidence_ids in the template. Replace
             # this field rather than mutating its shared child after deepcopy.
             entries["evidence_ids"] = {"type": "array", "items": {"type": "string", "enum": ids}}
+    wire_context = context
+    if stage in {"relevance", "extract"} and "text_selection" in context["document"]:
+        # Retrieval diagnostics belong to local provenance. They may name
+        # actors outside the retained passages and are not model evidence.
+        wire_context = copy.deepcopy(context)
+        wire_context["document"].pop("text_selection", None)
     payload = {"model": model, "store": False, "stream": False, "max_output_tokens": maximum,
         "instructions": COMMON + "\n" + PROMPTS[stage] + "\nMeasurement aspect: " + config.get("aspect", "public_positions"),
-        "input": [{"role": "user", "content": [{"type": "input_text", "text": json.dumps(context, ensure_ascii=False, allow_nan=False)}]}],
+        "input": [{"role": "user", "content": [{"type": "input_text", "text": json.dumps(wire_context, ensure_ascii=False, allow_nan=False)}]}],
         "text": {"format": {"type": "json_schema", "name": "corpus_" + stage, "strict": True, "schema": schema}}}
     if model == "gpt-5.1" or MODEL_SNAPSHOTS.get(model) == "gpt-5.1":
         payload["reasoning"] = {"effort": "none"}
+    if stage in {"relevance", "extract"} and "excerpts" in context["document"]:
+        payload["instructions"] += "\n" + EXCERPT_INSTRUCTIONS
     return payload
 
 
@@ -286,15 +303,15 @@ def validate_result(stage: str, data: dict, context: dict) -> dict:
         if not set(data["actor_ids"]) <= actors or data["status"] == "relevant" and not data["actor_ids"]:
             raise ValueError("Relevance actor outside roster or missing")
     elif stage == "extract":
-        text = context["document"]["text"]
+        passages = document_spans(context["document"])
         for fact in data["facts"]:
-            if fact["actor_id"] not in actors or fact["quote"] not in text:
+            if fact["actor_id"] not in actors or not any(fact["quote"] in s["text"] for s in passages):
                 raise ValueError("Unapproved actor or fabricated original quote")
             if context.get("relevance") and fact["actor_id"] not in context["relevance"].get("actor_ids", []):
                 raise ValueError("Extracted actor was not identified in the source fragment")
-            if fact["attribution_evidence"] not in text:
-                raise ValueError("Attribution evidence is not an original source passage")
-            if fact["event_date"] is not None and (not fact["date_evidence"] or fact["date_evidence"] not in text):
+            if fact_span(context["document"], fact) is None:
+                raise ValueError("Quote and attribution/date must belong to the same source passage")
+            if fact["event_date"] is not None and not fact["date_evidence"]:
                 raise ValueError("An event date requires original date evidence")
             if fact["event_date"] is not None:
                 try:

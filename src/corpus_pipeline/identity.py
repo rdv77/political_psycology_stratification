@@ -9,6 +9,7 @@ from __future__ import annotations
 import copy
 import re
 import unicodedata
+from .source_spans import document_texts
 
 
 IDENTITY_POLICY_VERSION = "lexical-mention-review-v1"
@@ -32,13 +33,13 @@ def ground_relevance(result: dict, context: dict) -> dict:
     if grounded.get("status") != "relevant":
         return grounded
     actors = {actor["id"]: actor for actor in context.get("config", {}).get("objects", [])}
-    text = _lexical_text(context.get("document", {}).get("text", ""))
+    texts = [_lexical_text(t) for t in document_texts(context.get("document", {}))]
     missing = []
     for actor_id in grounded.get("actor_ids", []):
         actor = actors.get(actor_id, {})
         labels = [actor.get("name", ""), *actor.get("aliases", [])]
         if not any(re.search(r"(?<!\w)" + re.escape(label) + r"(?!\w)", text)
-                   for label in (_lexical_text(label) for label in labels) if label):
+                   for label in (_lexical_text(label) for label in labels) if label for text in texts):
             missing.append(actor_id)
     if missing:
         grounded["status"] = "review"

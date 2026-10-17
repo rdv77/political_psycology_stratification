@@ -87,7 +87,10 @@ def preparation_coverage(pipeline, identifier, *, config=None, jobs=None):
         for row in db.execute("SELECT data FROM documents WHERE corpus_id=? AND status='unique'", (identifier,)):
             document = json.loads(row[0])
             if pipeline._rule_exclusion(document, config) is None:
-                expected.update(f"{document['id']}:{start}" for start, end, text in chunks(document["text"]))
+                if config.get("text_selection", {}).get("mode", "full") == "full":
+                    expected.update(f"{document['id']}:{start}" for start, end, text in chunks(document["text"]))
+                else:
+                    expected.add(f"{document['id']}:excerpts")
     recipe = pipeline._recipe("relevance", config)
     if jobs is None:
         with pipeline.connection() as db:

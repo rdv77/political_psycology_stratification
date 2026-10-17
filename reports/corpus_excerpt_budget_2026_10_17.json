@@ -1,0 +1,2135 @@
+{
+  "schema_version": "excerpt-budget-comparison-v1",
+  "encoding": "o200k_base",
+  "excerpt_policy_version": "source-coordinate-document-budget-v2",
+  "source": {
+    "corpus_id": "corpus-64405d243de9c4040bb6",
+    "raw_documents": 259,
+    "eligible_unique_documents": 254,
+    "target_raw_documents": 32000,
+    "publication_date_minmax": [
+      "2026-10-15",
+      "2026-10-17"
+    ],
+    "conditional_scaling_factor": 123.55212355212355
+  },
+  "baseline": {
+    "stages": {
+      "relevance": {
+        "requests": 272,
+        "documents": 254,
+        "api_input_tokens": 904675,
+        "api_output_tokens": 22112,
+        "plain_document_tokens": 169117,
+        "serialized_document_delta_tokens": 175567,
+        "fixed_input_including_api_overhead_tokens": 729108,
+        "observed_cost_usd": 0.39517560000000035,
+        "uncached_cost_usd": 0.39724920000000036,
+        "input_cost_usd": 0.36187,
+        "output_cost_usd": 0.03537919999999997,
+        "non_USER_overhead_min_tokens": 777,
+        "non_USER_overhead_max_tokens": 777
+      },
+      "extract": {
+        "requests": 248,
+        "documents": 240,
+        "api_input_tokens": 908539,
+        "api_output_tokens": 63151,
+        "plain_document_tokens": 140584,
+        "serialized_document_delta_tokens": 146335,
+        "fixed_input_including_api_overhead_tokens": 762204,
+        "observed_cost_usd": 1.7671837499999998,
+        "uncached_cost_usd": 1.7671837499999998,
+        "input_cost_usd": 1.1356737499999991,
+        "output_cost_usd": 0.6315099999999989,
+        "non_USER_overhead_min_tokens": 1032,
+        "non_USER_overhead_max_tokens": 1032
+      }
+    },
+    "describe_held_constant": {
+      "requests": 2,
+      "input_tokens": 48303,
+      "output_tokens": 3709,
+      "input_fact_occurrences": 106,
+      "observed_cost_usd": 0.09746874999999999,
+      "uncached_cost_usd": 0.09746874999999999,
+      "scenario": "held_constant_not_recomputed_from_retained_facts"
+    },
+    "active_models": {
+      "describe": "gpt-5.1",
+      "extract": "gpt-5.1",
+      "relevance": "gpt-4.1-mini",
+      "score": "gpt-5.1"
+    },
+    "pricing_per_million": {
+      "gpt-4.1-mini": {
+        "cached_input": 0.1,
+        "input": 0.4,
+        "output": 1.6
+      },
+      "gpt-4.1-nano": {
+        "cached_input": 0.025,
+        "input": 0.1,
+        "output": 0.4
+      },
+      "gpt-5.1": {
+        "cached_input": 0.125,
+        "input": 1.25,
+        "output": 10.0
+      }
+    }
+  },
+  "variants": [
+    {
+      "id": "full",
+      "mode": "full",
+      "max_document_tokens": null,
+      "compact_roster": false,
+      "selection": {
+        "selected_body_tokens": 167749,
+        "span_count": 254,
+        "truncated_documents": 0,
+        "no_mentions_head_fallback_documents": 0
+      },
+      "cost_scenarios": {
+        "fixed_original_request_count": {
+          "stages": {
+            "relevance": {
+              "requests": 272,
+              "input_tokens": 904675,
+              "USER_only_input_tokens": 904675,
+              "output_tokens": 22112,
+              "uncached_cost_usd": 0.39724920000000036,
+              "empty_intersections": 0,
+              "roster_entries_total": 11424,
+              "full_roster_fallback_calls": 0
+            },
+            "extract": {
+              "requests": 248,
+              "input_tokens": 908539,
+              "USER_only_input_tokens": 908539,
+              "output_tokens": 63151,
+              "uncached_cost_usd": 1.7671837499999998,
+              "empty_intersections": 0,
+              "roster_entries_total": 10416,
+              "full_roster_fallback_calls": 0
+            }
+          },
+          "core_cost_usd": 2.16443295,
+          "core_plus_held_describe_usd": 2.2619017,
+          "conditional_32000_raw_core_usd": 267.42028725868727,
+          "conditional_32000_raw_with_held_describe_usd": 279.4627583011583
+        },
+        "one_request_per_document": null
+      },
+      "literal_retention": {
+        "fixed_original_request_count": {
+          "accepted_facts": 188,
+          "retained_facts": 188,
+          "invalid_recorded_quote_offsets": 0,
+          "total_attributed_image": 69,
+          "retained_attributed_image": 69,
+          "own_position_facts": 106,
+          "retained_own_position_facts": 106,
+          "total_public_statement": 69,
+          "retained_public_statement": 69,
+          "total_institutional_context": 13,
+          "retained_institutional_context": 13,
+          "total_action": 37,
+          "retained_action": 37
+        },
+        "one_request_per_document": {
+          "accepted_facts": 188,
+          "retained_facts": 188,
+          "invalid_recorded_quote_offsets": 0,
+          "total_attributed_image": 69,
+          "retained_attributed_image": 69,
+          "own_position_facts": 106,
+          "retained_own_position_facts": 106,
+          "total_public_statement": 69,
+          "retained_public_statement": 69,
+          "total_institutional_context": 13,
+          "retained_institutional_context": 13,
+          "total_action": 37,
+          "retained_action": 37
+        }
+      },
+      "actor_retention": {
+        "fixed_original_request_count": [
+          {
+            "actor_id": "james-kabarebe",
+            "name": "James Kabarebe",
+            "accepted_facts": 1,
+            "retained_facts": 1
+          },
+          {
+            "actor_id": "juvenal-marizamunda",
+            "name": "Juvenal Marizamunda",
+            "accepted_facts": 1,
+            "retained_facts": 1
+          },
+          {
+            "actor_id": "louise-mushikiwabo",
+            "name": "Louise Mushikiwabo",
+            "accepted_facts": 18,
+            "retained_facts": 18,
+            "own_position_facts": 18,
+            "retained_own_position_facts": 18
+          },
+          {
+            "actor_id": "olivier-nduhungirehe",
+            "name": "Olivier J. P. Nduhungirehe",
+            "accepted_facts": 3,
+            "retained_facts": 3,
+            "own_position_facts": 3,
+            "retained_own_position_facts": 3
+          },
+          {
+            "actor_id": "paul-kagame",
+            "name": "Paul Kagame",
+            "accepted_facts": 162,
+            "retained_facts": 162,
+            "own_position_facts": 83,
+            "retained_own_position_facts": 83
+          },
+          {
+            "actor_id": "sabin-nsanzimana",
+            "name": "Sabin Nsanzimana",
+            "accepted_facts": 1,
+            "retained_facts": 1,
+            "own_position_facts": 1,
+            "retained_own_position_facts": 1
+          },
+          {
+            "actor_id": "yusuf-murangwa",
+            "name": "Yusuf Murangwa",
+            "accepted_facts": 2,
+            "retained_facts": 2,
+            "own_position_facts": 1,
+            "retained_own_position_facts": 1
+          }
+        ],
+        "one_request_per_document": [
+          {
+            "actor_id": "james-kabarebe",
+            "name": "James Kabarebe",
+            "accepted_facts": 1,
+            "retained_facts": 1
+          },
+          {
+            "actor_id": "juvenal-marizamunda",
+            "name": "Juvenal Marizamunda",
+            "accepted_facts": 1,
+            "retained_facts": 1
+          },
+          {
+            "actor_id": "louise-mushikiwabo",
+            "name": "Louise Mushikiwabo",
+            "accepted_facts": 18,
+            "retained_facts": 18,
+            "own_position_facts": 18,
+            "retained_own_position_facts": 18
+          },
+          {
+            "actor_id": "olivier-nduhungirehe",
+            "name": "Olivier J. P. Nduhungirehe",
+            "accepted_facts": 3,
+            "retained_facts": 3,
+            "own_position_facts": 3,
+            "retained_own_position_facts": 3
+          },
+          {
+            "actor_id": "paul-kagame",
+            "name": "Paul Kagame",
+            "accepted_facts": 162,
+            "retained_facts": 162,
+            "own_position_facts": 83,
+            "retained_own_position_facts": 83
+          },
+          {
+            "actor_id": "sabin-nsanzimana",
+            "name": "Sabin Nsanzimana",
+            "accepted_facts": 1,
+            "retained_facts": 1,
+            "own_position_facts": 1,
+            "retained_own_position_facts": 1
+          },
+          {
+            "actor_id": "yusuf-murangwa",
+            "name": "Yusuf Murangwa",
+            "accepted_facts": 2,
+            "retained_facts": 2,
+            "own_position_facts": 1,
+            "retained_own_position_facts": 1
+          }
+        ]
+      },
+      "macro_retention": {
+        "fixed_original_request_count": {
+          "actors_with_baseline_facts": 7,
+          "roster_actors_without_baseline_facts": 35,
+          "unweighted_actor_mean_fraction": 1.0,
+          "actors_with_own_baseline_facts": 5,
+          "unweighted_own_actor_mean_fraction": 1.0
+        },
+        "one_request_per_document": {
+          "actors_with_baseline_facts": 7,
+          "roster_actors_without_baseline_facts": 35,
+          "unweighted_actor_mean_fraction": 1.0,
+          "actors_with_own_baseline_facts": 5,
+          "unweighted_own_actor_mean_fraction": 1.0
+        }
+      }
+    },
+    {
+      "id": "head_500",
+      "mode": "head",
+      "max_document_tokens": 500,
+      "compact_roster": false,
+      "selection": {
+        "selected_body_tokens": 86860,
+        "span_count": 254,
+        "truncated_documents": 125,
+        "no_mentions_head_fallback_documents": 0
+      },
+      "cost_scenarios": {
+        "fixed_original_request_count": {
+          "stages": {
+            "relevance": {
+              "requests": 272,
+              "input_tokens": 851886,
+              "USER_only_input_tokens": 820334,
+              "output_tokens": 22112,
+              "uncached_cost_usd": 0.3761336000000001,
+              "empty_intersections": 18,
+              "roster_entries_total": 11424,
+              "full_roster_fallback_calls": 0
+            },
+            "extract": {
+              "requests": 248,
+              "input_tokens": 875152,
+              "USER_only_input_tokens": 846384,
+              "output_tokens": 63151,
+              "uncached_cost_usd": 1.7254499999999997,
+              "empty_intersections": 9,
+              "roster_entries_total": 10416,
+              "full_roster_fallback_calls": 0
+            }
+          },
+          "core_cost_usd": 2.1015835999999997,
+          "core_plus_held_describe_usd": 2.1990523499999997,
+          "conditional_32000_raw_core_usd": 259.6551166023165,
+          "conditional_32000_raw_with_held_describe_usd": 271.6975876447876
+        },
+        "one_request_per_document": {
+          "stages": {
+            "relevance": {
+              "requests": 254,
+              "input_tokens": 801652,
+              "USER_only_input_tokens": 772188,
+              "output_tokens": 22112,
+              "uncached_cost_usd": 0.35604000000000013,
+              "empty_intersections": 0,
+              "roster_entries_total": 10668,
+              "full_roster_fallback_calls": 0
+            },
+            "extract": {
+              "requests": 240,
+              "input_tokens": 850113,
+              "USER_only_input_tokens": 822273,
+              "output_tokens": 63151,
+              "uncached_cost_usd": 1.6941512499999998,
+              "empty_intersections": 0,
+              "roster_entries_total": 10080,
+              "full_roster_fallback_calls": 0
+            }
+          },
+          "core_cost_usd": 2.05019125,
+          "core_plus_held_describe_usd": 2.14766,
+          "conditional_32000_raw_core_usd": 253.30548262548263,
+          "conditional_32000_raw_with_held_describe_usd": 265.3479536679537
+        }
+      },
+      "literal_retention": {
+        "fixed_original_request_count": {
+          "accepted_facts": 188,
+          "retained_facts": 133,
+          "invalid_recorded_quote_offsets": 0,
+          "total_attributed_image": 69,
+          "retained_attributed_image": 57,
+          "own_position_facts": 106,
+          "retained_own_position_facts": 64,
+          "total_public_statement": 69,
+          "retained_public_statement": 29,
+          "total_institutional_context": 13,
+          "retained_institutional_context": 12,
+          "total_action": 37,
+          "retained_action": 35
+        },
+        "one_request_per_document": {
+          "accepted_facts": 188,
+          "retained_facts": 133,
+          "invalid_recorded_quote_offsets": 0,
+          "total_attributed_image": 69,
+          "retained_attributed_image": 57,
+          "own_position_facts": 106,
+          "retained_own_position_facts": 64,
+          "total_public_statement": 69,
+          "retained_public_statement": 29,
+          "total_institutional_context": 13,
+          "retained_institutional_context": 12,
+          "total_action": 37,
+          "retained_action": 35
+        }
+      },
+      "actor_retention": {
+        "fixed_original_request_count": [
+          {
+            "actor_id": "james-kabarebe",
+            "name": "James Kabarebe",
+            "accepted_facts": 1,
+            "retained_facts": 1
+          },
+          {
+            "actor_id": "juvenal-marizamunda",
+            "name": "Juvenal Marizamunda",
+            "accepted_facts": 1,
+            "retained_facts": 1
+          },
+          {
+            "actor_id": "louise-mushikiwabo",
+            "name": "Louise Mushikiwabo",
+            "accepted_facts": 18,
+            "retained_facts": 0,
+            "own_position_facts": 18,
+            "retained_own_position_facts": 0
+          },
+          {
+            "actor_id": "olivier-nduhungirehe",
+            "name": "Olivier J. P. Nduhungirehe",
+            "accepted_facts": 3,
+            "retained_facts": 2,
+            "own_position_facts": 3,
+            "retained_own_position_facts": 2
+          },
+          {
+            "actor_id": "paul-kagame",
+            "name": "Paul Kagame",
+            "accepted_facts": 162,
+            "retained_facts": 126,
+            "own_position_facts": 83,
+            "retained_own_position_facts": 60
+          },
+          {
+            "actor_id": "sabin-nsanzimana",
+            "name": "Sabin Nsanzimana",
+            "accepted_facts": 1,
+            "retained_facts": 1,
+            "own_position_facts": 1,
+            "retained_own_position_facts": 1
+          },
+          {
+            "actor_id": "yusuf-murangwa",
+            "name": "Yusuf Murangwa",
+            "accepted_facts": 2,
+            "retained_facts": 2,
+            "own_position_facts": 1,
+            "retained_own_position_facts": 1
+          }
+        ],
+        "one_request_per_document": [
+          {
+            "actor_id": "james-kabarebe",
+            "name": "James Kabarebe",
+            "accepted_facts": 1,
+            "retained_facts": 1
+          },
+          {
+            "actor_id": "juvenal-marizamunda",
+            "name": "Juvenal Marizamunda",
+            "accepted_facts": 1,
+            "retained_facts": 1
+          },
+          {
+            "actor_id": "louise-mushikiwabo",
+            "name": "Louise Mushikiwabo",
+            "accepted_facts": 18,
+            "retained_facts": 0,
+            "own_position_facts": 18,
+            "retained_own_position_facts": 0
+          },
+          {
+            "actor_id": "olivier-nduhungirehe",
+            "name": "Olivier J. P. Nduhungirehe",
+            "accepted_facts": 3,
+            "retained_facts": 2,
+            "own_position_facts": 3,
+            "retained_own_position_facts": 2
+          },
+          {
+            "actor_id": "paul-kagame",
+            "name": "Paul Kagame",
+            "accepted_facts": 162,
+            "retained_facts": 126,
+            "own_position_facts": 83,
+            "retained_own_position_facts": 60
+          },
+          {
+            "actor_id": "sabin-nsanzimana",
+            "name": "Sabin Nsanzimana",
+            "accepted_facts": 1,
+            "retained_facts": 1,
+            "own_position_facts": 1,
+            "retained_own_position_facts": 1
+          },
+          {
+            "actor_id": "yusuf-murangwa",
+            "name": "Yusuf Murangwa",
+            "accepted_facts": 2,
+            "retained_facts": 2,
+            "own_position_facts": 1,
+            "retained_own_position_facts": 1
+          }
+        ]
+      },
+      "macro_retention": {
+        "fixed_original_request_count": {
+          "actors_with_baseline_facts": 7,
+          "roster_actors_without_baseline_facts": 35,
+          "unweighted_actor_mean_fraction": 0.7777777777777778,
+          "actors_with_own_baseline_facts": 5,
+          "unweighted_own_actor_mean_fraction": 0.6779116465863454
+        },
+        "one_request_per_document": {
+          "actors_with_baseline_facts": 7,
+          "roster_actors_without_baseline_facts": 35,
+          "unweighted_actor_mean_fraction": 0.7777777777777778,
+          "actors_with_own_baseline_facts": 5,
+          "unweighted_own_actor_mean_fraction": 0.6779116465863454
+        }
+      }
+    },
+    {
+      "id": "head_1000",
+      "mode": "head",
+      "max_document_tokens": 1000,
+      "compact_roster": false,
+      "selection": {
+        "selected_body_tokens": 124772,
+        "span_count": 254,
+        "truncated_documents": 39,
+        "no_mentions_head_fallback_documents": 0
+      },
+      "cost_scenarios": {
+        "fixed_original_request_count": {
+          "stages": {
+            "relevance": {
+              "requests": 272,
+              "input_tokens": 891455,
+              "USER_only_input_tokens": 859903,
+              "output_tokens": 22112,
+              "uncached_cost_usd": 0.39196120000000007,
+              "empty_intersections": 18,
+              "roster_entries_total": 11424,
+              "full_roster_fallback_calls": 0
+            },
+            "extract": {
+              "requests": 248,
+              "input_tokens": 909774,
+              "USER_only_input_tokens": 881006,
+              "output_tokens": 63151,
+              "uncached_cost_usd": 1.7687274999999987,
+              "empty_intersections": 9,
+              "roster_entries_total": 10416,
+              "full_roster_fallback_calls": 0
+            }
+          },
+          "core_cost_usd": 2.160688699999999,
+          "core_plus_held_describe_usd": 2.258157449999999,
+          "conditional_32000_raw_core_usd": 266.9576772200771,
+          "conditional_32000_raw_with_held_describe_usd": 279.0001482625481
+        },
+        "one_request_per_document": {
+          "stages": {
+            "relevance": {
+              "requests": 254,
+              "input_tokens": 841221,
+              "USER_only_input_tokens": 811757,
+              "output_tokens": 22112,
+              "uncached_cost_usd": 0.3718676000000002,
+              "empty_intersections": 0,
+              "roster_entries_total": 10668,
+              "full_roster_fallback_calls": 0
+            },
+            "extract": {
+              "requests": 240,
+              "input_tokens": 885255,
+              "USER_only_input_tokens": 857415,
+              "output_tokens": 63151,
+              "uncached_cost_usd": 1.7380787499999986,
+              "empty_intersections": 0,
+              "roster_entries_total": 10080,
+              "full_roster_fallback_calls": 0
+            }
+          },
+          "core_cost_usd": 2.1099463499999986,
+          "core_plus_held_describe_usd": 2.2074150999999986,
+          "conditional_32000_raw_core_usd": 260.68835212355197,
+          "conditional_32000_raw_with_held_describe_usd": 272.73082316602296
+        }
+      },
+      "literal_retention": {
+        "fixed_original_request_count": {
+          "accepted_facts": 188,
+          "retained_facts": 161,
+          "invalid_recorded_quote_offsets": 0,
+          "total_attributed_image": 69,
+          "retained_attributed_image": 64,
+          "own_position_facts": 106,
+          "retained_own_position_facts": 84,
+          "total_public_statement": 69,
+          "retained_public_statement": 48,
+          "total_institutional_context": 13,
+          "retained_institutional_context": 13,
+          "total_action": 37,
+          "retained_action": 36
+        },
+        "one_request_per_document": {
+          "accepted_facts": 188,
+          "retained_facts": 161,
+          "invalid_recorded_quote_offsets": 0,
+          "total_attributed_image": 69,
+          "retained_attributed_image": 64,
+          "own_position_facts": 106,
+          "retained_own_position_facts": 84,
+          "total_public_statement": 69,
+          "retained_public_statement": 48,
+          "total_institutional_context": 13,
+          "retained_institutional_context": 13,
+          "total_action": 37,
+          "retained_action": 36
+        }
+      },
+      "actor_retention": {
+        "fixed_original_request_count": [
+          {
+            "actor_id": "james-kabarebe",
+            "name": "James Kabarebe",
+            "accepted_facts": 1,
+            "retained_facts": 1
+          },
+          {
+            "actor_id": "juvenal-marizamunda",
+            "name": "Juvenal Marizamunda",
+            "accepted_facts": 1,
+            "retained_facts": 1
+          },
+          {
+            "actor_id": "louise-mushikiwabo",
+            "name": "Louise Mushikiwabo",
+            "accepted_facts": 18,
+            "retained_facts": 2,
+            "own_position_facts": 18,
+            "retained_own_position_facts": 2
+          },
+          {
+            "actor_id": "olivier-nduhungirehe",
+            "name": "Olivier J. P. Nduhungirehe",
+            "accepted_facts": 3,
+            "retained_facts": 3,
+            "own_position_facts": 3,
+            "retained_own_position_facts": 3
+          },
+          {
+            "actor_id": "paul-kagame",
+            "name": "Paul Kagame",
+            "accepted_facts": 162,
+            "retained_facts": 151,
+            "own_position_facts": 83,
+            "retained_own_position_facts": 77
+          },
+          {
+            "actor_id": "sabin-nsanzimana",
+            "name": "Sabin Nsanzimana",
+            "accepted_facts": 1,
+            "retained_facts": 1,
+            "own_position_facts": 1,
+            "retained_own_position_facts": 1
+          },
+          {
+            "actor_id": "yusuf-murangwa",
+            "name": "Yusuf Murangwa",
+            "accepted_facts": 2,
+            "retained_facts": 2,
+            "own_position_facts": 1,
+            "retained_own_position_facts": 1
+          }
+        ],
+        "one_request_per_document": [
+          {
+            "actor_id": "james-kabarebe",
+            "name": "James Kabarebe",
+            "accepted_facts": 1,
+            "retained_facts": 1
+          },
+          {
+            "actor_id": "juvenal-marizamunda",
+            "name": "Juvenal Marizamunda",
+            "accepted_facts": 1,
+            "retained_facts": 1
+          },
+          {
+            "actor_id": "louise-mushikiwabo",
+            "name": "Louise Mushikiwabo",
+            "accepted_facts": 18,
+            "retained_facts": 2,
+            "own_position_facts": 18,
+            "retained_own_position_facts": 2
+          },
+          {
+            "actor_id": "olivier-nduhungirehe",
+            "name": "Olivier J. P. Nduhungirehe",
+            "accepted_facts": 3,
+            "retained_facts": 3,
+            "own_position_facts": 3,
+            "retained_own_position_facts": 3
+          },
+          {
+            "actor_id": "paul-kagame",
+            "name": "Paul Kagame",
+            "accepted_facts": 162,
+            "retained_facts": 151,
+            "own_position_facts": 83,
+            "retained_own_position_facts": 77
+          },
+          {
+            "actor_id": "sabin-nsanzimana",
+            "name": "Sabin Nsanzimana",
+            "accepted_facts": 1,
+            "retained_facts": 1,
+            "own_position_facts": 1,
+            "retained_own_position_facts": 1
+          },
+          {
+            "actor_id": "yusuf-murangwa",
+            "name": "Yusuf Murangwa",
+            "accepted_facts": 2,
+            "retained_facts": 2,
+            "own_position_facts": 1,
+            "retained_own_position_facts": 1
+          }
+        ]
+      },
+      "macro_retention": {
+        "fixed_original_request_count": {
+          "actors_with_baseline_facts": 7,
+          "roster_actors_without_baseline_facts": 35,
+          "unweighted_actor_mean_fraction": 0.86331569664903,
+          "actors_with_own_baseline_facts": 5,
+          "unweighted_own_actor_mean_fraction": 0.8077643908969211
+        },
+        "one_request_per_document": {
+          "actors_with_baseline_facts": 7,
+          "roster_actors_without_baseline_facts": 35,
+          "unweighted_actor_mean_fraction": 0.86331569664903,
+          "actors_with_own_baseline_facts": 5,
+          "unweighted_own_actor_mean_fraction": 0.8077643908969211
+        }
+      }
+    },
+    {
+      "id": "head_1500",
+      "mode": "head",
+      "max_document_tokens": 1500,
+      "compact_roster": false,
+      "selection": {
+        "selected_body_tokens": 139873,
+        "span_count": 254,
+        "truncated_documents": 21,
+        "no_mentions_head_fallback_documents": 0
+      },
+      "cost_scenarios": {
+        "fixed_original_request_count": {
+          "stages": {
+            "relevance": {
+              "requests": 272,
+              "input_tokens": 907040,
+              "USER_only_input_tokens": 875488,
+              "output_tokens": 22112,
+              "uncached_cost_usd": 0.3981951999999999,
+              "empty_intersections": 18,
+              "roster_entries_total": 11424,
+              "full_roster_fallback_calls": 0
+            },
+            "extract": {
+              "requests": 248,
+              "input_tokens": 921270,
+              "USER_only_input_tokens": 892502,
+              "output_tokens": 63151,
+              "uncached_cost_usd": 1.783097499999999,
+              "empty_intersections": 9,
+              "roster_entries_total": 10416,
+              "full_roster_fallback_calls": 0
+            }
+          },
+          "core_cost_usd": 2.181292699999999,
+          "core_plus_held_describe_usd": 2.278761449999999,
+          "conditional_32000_raw_core_usd": 269.503345173745,
+          "conditional_32000_raw_with_held_describe_usd": 281.54581621621605
+        },
+        "one_request_per_document": {
+          "stages": {
+            "relevance": {
+              "requests": 254,
+              "input_tokens": 856806,
+              "USER_only_input_tokens": 827342,
+              "output_tokens": 22112,
+              "uncached_cost_usd": 0.3781016000000002,
+              "empty_intersections": 0,
+              "roster_entries_total": 10668,
+              "full_roster_fallback_calls": 0
+            },
+            "extract": {
+              "requests": 240,
+              "input_tokens": 897271,
+              "USER_only_input_tokens": 869431,
+              "output_tokens": 63151,
+              "uncached_cost_usd": 1.753098749999999,
+              "empty_intersections": 0,
+              "roster_entries_total": 10080,
+              "full_roster_fallback_calls": 0
+            }
+          },
+          "core_cost_usd": 2.1312003499999994,
+          "core_plus_held_describe_usd": 2.2286690999999994,
+          "conditional_32000_raw_core_usd": 263.31432895752886,
+          "conditional_32000_raw_with_held_describe_usd": 275.3567999999999
+        }
+      },
+      "literal_retention": {
+        "fixed_original_request_count": {
+          "accepted_facts": 188,
+          "retained_facts": 171,
+          "invalid_recorded_quote_offsets": 0,
+          "total_attributed_image": 69,
+          "retained_attributed_image": 69,
+          "own_position_facts": 106,
+          "retained_own_position_facts": 89,
+          "total_public_statement": 69,
+          "retained_public_statement": 52,
+          "total_institutional_context": 13,
+          "retained_institutional_context": 13,
+          "total_action": 37,
+          "retained_action": 37
+        },
+        "one_request_per_document": {
+          "accepted_facts": 188,
+          "retained_facts": 171,
+          "invalid_recorded_quote_offsets": 0,
+          "total_attributed_image": 69,
+          "retained_attributed_image": 69,
+          "own_position_facts": 106,
+          "retained_own_position_facts": 89,
+          "total_public_statement": 69,
+          "retained_public_statement": 52,
+          "total_institutional_context": 13,
+          "retained_institutional_context": 13,
+          "total_action": 37,
+          "retained_action": 37
+        }
+      },
+      "actor_retention": {
+        "fixed_original_request_count": [
+          {
+            "actor_id": "james-kabarebe",
+            "name": "James Kabarebe",
+            "accepted_facts": 1,
+            "retained_facts": 1
+          },
+          {
+            "actor_id": "juvenal-marizamunda",
+            "name": "Juvenal Marizamunda",
+            "accepted_facts": 1,
+            "retained_facts": 1
+          },
+          {
+            "actor_id": "louise-mushikiwabo",
+            "name": "Louise Mushikiwabo",
+            "accepted_facts": 18,
+            "retained_facts": 2,
+            "own_position_facts": 18,
+            "retained_own_position_facts": 2
+          },
+          {
+            "actor_id": "olivier-nduhungirehe",
+            "name": "Olivier J. P. Nduhungirehe",
+            "accepted_facts": 3,
+            "retained_facts": 3,
+            "own_position_facts": 3,
+            "retained_own_position_facts": 3
+          },
+          {
+            "actor_id": "paul-kagame",
+            "name": "Paul Kagame",
+            "accepted_facts": 162,
+            "retained_facts": 161,
+            "own_position_facts": 83,
+            "retained_own_position_facts": 82
+          },
+          {
+            "actor_id": "sabin-nsanzimana",
+            "name": "Sabin Nsanzimana",
+            "accepted_facts": 1,
+            "retained_facts": 1,
+            "own_position_facts": 1,
+            "retained_own_position_facts": 1
+          },
+          {
+            "actor_id": "yusuf-murangwa",
+            "name": "Yusuf Murangwa",
+            "accepted_facts": 2,
+            "retained_facts": 2,
+            "own_position_facts": 1,
+            "retained_own_position_facts": 1
+          }
+        ],
+        "one_request_per_document": [
+          {
+            "actor_id": "james-kabarebe",
+            "name": "James Kabarebe",
+            "accepted_facts": 1,
+            "retained_facts": 1
+          },
+          {
+            "actor_id": "juvenal-marizamunda",
+            "name": "Juvenal Marizamunda",
+            "accepted_facts": 1,
+            "retained_facts": 1
+          },
+          {
+            "actor_id": "louise-mushikiwabo",
+            "name": "Louise Mushikiwabo",
+            "accepted_facts": 18,
+            "retained_facts": 2,
+            "own_position_facts": 18,
+            "retained_own_position_facts": 2
+          },
+          {
+            "actor_id": "olivier-nduhungirehe",
+            "name": "Olivier J. P. Nduhungirehe",
+            "accepted_facts": 3,
+            "retained_facts": 3,
+            "own_position_facts": 3,
+            "retained_own_position_facts": 3
+          },
+          {
+            "actor_id": "paul-kagame",
+            "name": "Paul Kagame",
+            "accepted_facts": 162,
+            "retained_facts": 161,
+            "own_position_facts": 83,
+            "retained_own_position_facts": 82
+          },
+          {
+            "actor_id": "sabin-nsanzimana",
+            "name": "Sabin Nsanzimana",
+            "accepted_facts": 1,
+            "retained_facts": 1,
+            "own_position_facts": 1,
+            "retained_own_position_facts": 1
+          },
+          {
+            "actor_id": "yusuf-murangwa",
+            "name": "Yusuf Murangwa",
+            "accepted_facts": 2,
+            "retained_facts": 2,
+            "own_position_facts": 1,
+            "retained_own_position_facts": 1
+          }
+        ]
+      },
+      "macro_retention": {
+        "fixed_original_request_count": {
+          "actors_with_baseline_facts": 7,
+          "roster_actors_without_baseline_facts": 35,
+          "unweighted_actor_mean_fraction": 0.8721340388007055,
+          "actors_with_own_baseline_facts": 5,
+          "unweighted_own_actor_mean_fraction": 0.8198125836680052
+        },
+        "one_request_per_document": {
+          "actors_with_baseline_facts": 7,
+          "roster_actors_without_baseline_facts": 35,
+          "unweighted_actor_mean_fraction": 0.8721340388007055,
+          "actors_with_own_baseline_facts": 5,
+          "unweighted_own_actor_mean_fraction": 0.8198125836680052
+        }
+      }
+    },
+    {
+      "id": "mentions_500",
+      "mode": "mentions",
+      "max_document_tokens": 500,
+      "compact_roster": false,
+      "selection": {
+        "selected_body_tokens": 62805,
+        "span_count": 336,
+        "truncated_documents": 125,
+        "no_mentions_head_fallback_documents": 2
+      },
+      "cost_scenarios": {
+        "fixed_original_request_count": {
+          "stages": {
+            "relevance": {
+              "requests": 272,
+              "input_tokens": 828583,
+              "USER_only_input_tokens": 797031,
+              "output_tokens": 22112,
+              "uncached_cost_usd": 0.36681240000000015,
+              "empty_intersections": 9,
+              "roster_entries_total": 11424,
+              "full_roster_fallback_calls": 0
+            },
+            "extract": {
+              "requests": 248,
+              "input_tokens": 853535,
+              "USER_only_input_tokens": 824767,
+              "output_tokens": 63151,
+              "uncached_cost_usd": 1.6984287499999988,
+              "empty_intersections": 0,
+              "roster_entries_total": 10416,
+              "full_roster_fallback_calls": 0
+            }
+          },
+          "core_cost_usd": 2.065241149999999,
+          "core_plus_held_describe_usd": 2.162709899999999,
+          "conditional_32000_raw_core_usd": 255.16492972972958,
+          "conditional_32000_raw_with_held_describe_usd": 267.20740077220063
+        },
+        "one_request_per_document": {
+          "stages": {
+            "relevance": {
+              "requests": 254,
+              "input_tokens": 778028,
+              "USER_only_input_tokens": 748564,
+              "output_tokens": 22112,
+              "uncached_cost_usd": 0.3465904000000002,
+              "empty_intersections": 0,
+              "roster_entries_total": 10668,
+              "full_roster_fallback_calls": 0
+            },
+            "extract": {
+              "requests": 240,
+              "input_tokens": 827712,
+              "USER_only_input_tokens": 799872,
+              "output_tokens": 63151,
+              "uncached_cost_usd": 1.6661499999999987,
+              "empty_intersections": 0,
+              "roster_entries_total": 10080,
+              "full_roster_fallback_calls": 0
+            }
+          },
+          "core_cost_usd": 2.012740399999999,
+          "core_plus_held_describe_usd": 2.110209149999999,
+          "conditional_32000_raw_core_usd": 248.67835057915042,
+          "conditional_32000_raw_with_held_describe_usd": 260.7208216216215
+        }
+      },
+      "literal_retention": {
+        "fixed_original_request_count": {
+          "accepted_facts": 188,
+          "retained_facts": 157,
+          "invalid_recorded_quote_offsets": 0,
+          "total_attributed_image": 69,
+          "retained_attributed_image": 64,
+          "own_position_facts": 106,
+          "retained_own_position_facts": 80,
+          "total_public_statement": 69,
+          "retained_public_statement": 45,
+          "total_institutional_context": 13,
+          "retained_institutional_context": 13,
+          "total_action": 37,
+          "retained_action": 35
+        },
+        "one_request_per_document": {
+          "accepted_facts": 188,
+          "retained_facts": 157,
+          "invalid_recorded_quote_offsets": 0,
+          "total_attributed_image": 69,
+          "retained_attributed_image": 64,
+          "own_position_facts": 106,
+          "retained_own_position_facts": 80,
+          "total_public_statement": 69,
+          "retained_public_statement": 45,
+          "total_institutional_context": 13,
+          "retained_institutional_context": 13,
+          "total_action": 37,
+          "retained_action": 35
+        }
+      },
+      "actor_retention": {
+        "fixed_original_request_count": [
+          {
+            "actor_id": "james-kabarebe",
+            "name": "James Kabarebe",
+            "accepted_facts": 1,
+            "retained_facts": 1
+          },
+          {
+            "actor_id": "juvenal-marizamunda",
+            "name": "Juvenal Marizamunda",
+            "accepted_facts": 1,
+            "retained_facts": 1
+          },
+          {
+            "actor_id": "louise-mushikiwabo",
+            "name": "Louise Mushikiwabo",
+            "accepted_facts": 18,
+            "retained_facts": 0,
+            "own_position_facts": 18,
+            "retained_own_position_facts": 0
+          },
+          {
+            "actor_id": "olivier-nduhungirehe",
+            "name": "Olivier J. P. Nduhungirehe",
+            "accepted_facts": 3,
+            "retained_facts": 3,
+            "own_position_facts": 3,
+            "retained_own_position_facts": 3
+          },
+          {
+            "actor_id": "paul-kagame",
+            "name": "Paul Kagame",
+            "accepted_facts": 162,
+            "retained_facts": 149,
+            "own_position_facts": 83,
+            "retained_own_position_facts": 75
+          },
+          {
+            "actor_id": "sabin-nsanzimana",
+            "name": "Sabin Nsanzimana",
+            "accepted_facts": 1,
+            "retained_facts": 1,
+            "own_position_facts": 1,
+            "retained_own_position_facts": 1
+          },
+          {
+            "actor_id": "yusuf-murangwa",
+            "name": "Yusuf Murangwa",
+            "accepted_facts": 2,
+            "retained_facts": 2,
+            "own_position_facts": 1,
+            "retained_own_position_facts": 1
+          }
+        ],
+        "one_request_per_document": [
+          {
+            "actor_id": "james-kabarebe",
+            "name": "James Kabarebe",
+            "accepted_facts": 1,
+            "retained_facts": 1
+          },
+          {
+            "actor_id": "juvenal-marizamunda",
+            "name": "Juvenal Marizamunda",
+            "accepted_facts": 1,
+            "retained_facts": 1
+          },
+          {
+            "actor_id": "louise-mushikiwabo",
+            "name": "Louise Mushikiwabo",
+            "accepted_facts": 18,
+            "retained_facts": 0,
+            "own_position_facts": 18,
+            "retained_own_position_facts": 0
+          },
+          {
+            "actor_id": "olivier-nduhungirehe",
+            "name": "Olivier J. P. Nduhungirehe",
+            "accepted_facts": 3,
+            "retained_facts": 3,
+            "own_position_facts": 3,
+            "retained_own_position_facts": 3
+          },
+          {
+            "actor_id": "paul-kagame",
+            "name": "Paul Kagame",
+            "accepted_facts": 162,
+            "retained_facts": 149,
+            "own_position_facts": 83,
+            "retained_own_position_facts": 75
+          },
+          {
+            "actor_id": "sabin-nsanzimana",
+            "name": "Sabin Nsanzimana",
+            "accepted_facts": 1,
+            "retained_facts": 1,
+            "own_position_facts": 1,
+            "retained_own_position_facts": 1
+          },
+          {
+            "actor_id": "yusuf-murangwa",
+            "name": "Yusuf Murangwa",
+            "accepted_facts": 2,
+            "retained_facts": 2,
+            "own_position_facts": 1,
+            "retained_own_position_facts": 1
+          }
+        ]
+      },
+      "macro_retention": {
+        "fixed_original_request_count": {
+          "actors_with_baseline_facts": 7,
+          "roster_actors_without_baseline_facts": 35,
+          "unweighted_actor_mean_fraction": 0.845679012345679,
+          "actors_with_own_baseline_facts": 5,
+          "unweighted_own_actor_mean_fraction": 0.7807228915662651
+        },
+        "one_request_per_document": {
+          "actors_with_baseline_facts": 7,
+          "roster_actors_without_baseline_facts": 35,
+          "unweighted_actor_mean_fraction": 0.845679012345679,
+          "actors_with_own_baseline_facts": 5,
+          "unweighted_own_actor_mean_fraction": 0.7807228915662651
+        }
+      }
+    },
+    {
+      "id": "mentions_1000",
+      "mode": "mentions",
+      "max_document_tokens": 1000,
+      "compact_roster": false,
+      "selection": {
+        "selected_body_tokens": 104493,
+        "span_count": 281,
+        "truncated_documents": 39,
+        "no_mentions_head_fallback_documents": 2
+      },
+      "cost_scenarios": {
+        "fixed_original_request_count": {
+          "stages": {
+            "relevance": {
+              "requests": 272,
+              "input_tokens": 871510,
+              "USER_only_input_tokens": 839958,
+              "output_tokens": 22112,
+              "uncached_cost_usd": 0.38398319999999997,
+              "empty_intersections": 9,
+              "roster_entries_total": 11424,
+              "full_roster_fallback_calls": 0
+            },
+            "extract": {
+              "requests": 248,
+              "input_tokens": 893719,
+              "USER_only_input_tokens": 864951,
+              "output_tokens": 63151,
+              "uncached_cost_usd": 1.7486587499999988,
+              "empty_intersections": 0,
+              "roster_entries_total": 10416,
+              "full_roster_fallback_calls": 0
+            }
+          },
+          "core_cost_usd": 2.1326419499999987,
+          "core_plus_held_describe_usd": 2.2301106999999987,
+          "conditional_32000_raw_core_usd": 263.4924416988415,
+          "conditional_32000_raw_with_held_describe_usd": 275.53491274131255
+        },
+        "one_request_per_document": {
+          "stages": {
+            "relevance": {
+              "requests": 254,
+              "input_tokens": 820694,
+              "USER_only_input_tokens": 791230,
+              "output_tokens": 22112,
+              "uncached_cost_usd": 0.3636568000000001,
+              "empty_intersections": 0,
+              "roster_entries_total": 10668,
+              "full_roster_fallback_calls": 0
+            },
+            "extract": {
+              "requests": 240,
+              "input_tokens": 867677,
+              "USER_only_input_tokens": 839837,
+              "output_tokens": 63151,
+              "uncached_cost_usd": 1.7161062499999984,
+              "empty_intersections": 0,
+              "roster_entries_total": 10080,
+              "full_roster_fallback_calls": 0
+            }
+          },
+          "core_cost_usd": 2.0797630499999986,
+          "core_plus_held_describe_usd": 2.1772317999999986,
+          "conditional_32000_raw_core_usd": 256.9591413127411,
+          "conditional_32000_raw_with_held_describe_usd": 269.00161235521216
+        }
+      },
+      "literal_retention": {
+        "fixed_original_request_count": {
+          "accepted_facts": 188,
+          "retained_facts": 169,
+          "invalid_recorded_quote_offsets": 0,
+          "total_attributed_image": 69,
+          "retained_attributed_image": 68,
+          "own_position_facts": 106,
+          "retained_own_position_facts": 88,
+          "total_public_statement": 69,
+          "retained_public_statement": 51,
+          "total_institutional_context": 13,
+          "retained_institutional_context": 13,
+          "total_action": 37,
+          "retained_action": 37
+        },
+        "one_request_per_document": {
+          "accepted_facts": 188,
+          "retained_facts": 169,
+          "invalid_recorded_quote_offsets": 0,
+          "total_attributed_image": 69,
+          "retained_attributed_image": 68,
+          "own_position_facts": 106,
+          "retained_own_position_facts": 88,
+          "total_public_statement": 69,
+          "retained_public_statement": 51,
+          "total_institutional_context": 13,
+          "retained_institutional_context": 13,
+          "total_action": 37,
+          "retained_action": 37
+        }
+      },
+      "actor_retention": {
+        "fixed_original_request_count": [
+          {
+            "actor_id": "james-kabarebe",
+            "name": "James Kabarebe",
+            "accepted_facts": 1,
+            "retained_facts": 1
+          },
+          {
+            "actor_id": "juvenal-marizamunda",
+            "name": "Juvenal Marizamunda",
+            "accepted_facts": 1,
+            "retained_facts": 1
+          },
+          {
+            "actor_id": "louise-mushikiwabo",
+            "name": "Louise Mushikiwabo",
+            "accepted_facts": 18,
+            "retained_facts": 2,
+            "own_position_facts": 18,
+            "retained_own_position_facts": 2
+          },
+          {
+            "actor_id": "olivier-nduhungirehe",
+            "name": "Olivier J. P. Nduhungirehe",
+            "accepted_facts": 3,
+            "retained_facts": 3,
+            "own_position_facts": 3,
+            "retained_own_position_facts": 3
+          },
+          {
+            "actor_id": "paul-kagame",
+            "name": "Paul Kagame",
+            "accepted_facts": 162,
+            "retained_facts": 159,
+            "own_position_facts": 83,
+            "retained_own_position_facts": 81
+          },
+          {
+            "actor_id": "sabin-nsanzimana",
+            "name": "Sabin Nsanzimana",
+            "accepted_facts": 1,
+            "retained_facts": 1,
+            "own_position_facts": 1,
+            "retained_own_position_facts": 1
+          },
+          {
+            "actor_id": "yusuf-murangwa",
+            "name": "Yusuf Murangwa",
+            "accepted_facts": 2,
+            "retained_facts": 2,
+            "own_position_facts": 1,
+            "retained_own_position_facts": 1
+          }
+        ],
+        "one_request_per_document": [
+          {
+            "actor_id": "james-kabarebe",
+            "name": "James Kabarebe",
+            "accepted_facts": 1,
+            "retained_facts": 1
+          },
+          {
+            "actor_id": "juvenal-marizamunda",
+            "name": "Juvenal Marizamunda",
+            "accepted_facts": 1,
+            "retained_facts": 1
+          },
+          {
+            "actor_id": "louise-mushikiwabo",
+            "name": "Louise Mushikiwabo",
+            "accepted_facts": 18,
+            "retained_facts": 2,
+            "own_position_facts": 18,
+            "retained_own_position_facts": 2
+          },
+          {
+            "actor_id": "olivier-nduhungirehe",
+            "name": "Olivier J. P. Nduhungirehe",
+            "accepted_facts": 3,
+            "retained_facts": 3,
+            "own_position_facts": 3,
+            "retained_own_position_facts": 3
+          },
+          {
+            "actor_id": "paul-kagame",
+            "name": "Paul Kagame",
+            "accepted_facts": 162,
+            "retained_facts": 159,
+            "own_position_facts": 83,
+            "retained_own_position_facts": 81
+          },
+          {
+            "actor_id": "sabin-nsanzimana",
+            "name": "Sabin Nsanzimana",
+            "accepted_facts": 1,
+            "retained_facts": 1,
+            "own_position_facts": 1,
+            "retained_own_position_facts": 1
+          },
+          {
+            "actor_id": "yusuf-murangwa",
+            "name": "Yusuf Murangwa",
+            "accepted_facts": 2,
+            "retained_facts": 2,
+            "own_position_facts": 1,
+            "retained_own_position_facts": 1
+          }
+        ]
+      },
+      "macro_retention": {
+        "fixed_original_request_count": {
+          "actors_with_baseline_facts": 7,
+          "roster_actors_without_baseline_facts": 35,
+          "unweighted_actor_mean_fraction": 0.8703703703703703,
+          "actors_with_own_baseline_facts": 5,
+          "unweighted_own_actor_mean_fraction": 0.8174029451137885
+        },
+        "one_request_per_document": {
+          "actors_with_baseline_facts": 7,
+          "roster_actors_without_baseline_facts": 35,
+          "unweighted_actor_mean_fraction": 0.8703703703703703,
+          "actors_with_own_baseline_facts": 5,
+          "unweighted_own_actor_mean_fraction": 0.8174029451137885
+        }
+      }
+    },
+    {
+      "id": "mentions_1500",
+      "mode": "mentions",
+      "max_document_tokens": 1500,
+      "compact_roster": false,
+      "selection": {
+        "selected_body_tokens": 122850,
+        "span_count": 270,
+        "truncated_documents": 21,
+        "no_mentions_head_fallback_documents": 2
+      },
+      "cost_scenarios": {
+        "fixed_original_request_count": {
+          "stages": {
+            "relevance": {
+              "requests": 272,
+              "input_tokens": 890248,
+              "USER_only_input_tokens": 858696,
+              "output_tokens": 22112,
+              "uncached_cost_usd": 0.3914784,
+              "empty_intersections": 11,
+              "roster_entries_total": 11424,
+              "full_roster_fallback_calls": 0
+            },
+            "extract": {
+              "requests": 248,
+              "input_tokens": 911127,
+              "USER_only_input_tokens": 882359,
+              "output_tokens": 63151,
+              "uncached_cost_usd": 1.7704187499999988,
+              "empty_intersections": 2,
+              "roster_entries_total": 10416,
+              "full_roster_fallback_calls": 0
+            }
+          },
+          "core_cost_usd": 2.161897149999999,
+          "core_plus_held_describe_usd": 2.259365899999999,
+          "conditional_32000_raw_core_usd": 267.1069837837836,
+          "conditional_32000_raw_with_held_describe_usd": 279.14945482625467
+        },
+        "one_request_per_document": {
+          "stages": {
+            "relevance": {
+              "requests": 254,
+              "input_tokens": 839599,
+              "USER_only_input_tokens": 810135,
+              "output_tokens": 22112,
+              "uncached_cost_usd": 0.3712188000000002,
+              "empty_intersections": 0,
+              "roster_entries_total": 10668,
+              "full_roster_fallback_calls": 0
+            },
+            "extract": {
+              "requests": 240,
+              "input_tokens": 885318,
+              "USER_only_input_tokens": 857478,
+              "output_tokens": 63151,
+              "uncached_cost_usd": 1.738157499999999,
+              "empty_intersections": 0,
+              "roster_entries_total": 10080,
+              "full_roster_fallback_calls": 0
+            }
+          },
+          "core_cost_usd": 2.109376299999999,
+          "core_plus_held_describe_usd": 2.206845049999999,
+          "conditional_32000_raw_core_usd": 260.6179212355211,
+          "conditional_32000_raw_with_held_describe_usd": 272.6603922779922
+        }
+      },
+      "literal_retention": {
+        "fixed_original_request_count": {
+          "accepted_facts": 188,
+          "retained_facts": 176,
+          "invalid_recorded_quote_offsets": 0,
+          "total_attributed_image": 69,
+          "retained_attributed_image": 69,
+          "own_position_facts": 106,
+          "retained_own_position_facts": 94,
+          "total_public_statement": 69,
+          "retained_public_statement": 57,
+          "total_institutional_context": 13,
+          "retained_institutional_context": 13,
+          "total_action": 37,
+          "retained_action": 37
+        },
+        "one_request_per_document": {
+          "accepted_facts": 188,
+          "retained_facts": 176,
+          "invalid_recorded_quote_offsets": 0,
+          "total_attributed_image": 69,
+          "retained_attributed_image": 69,
+          "own_position_facts": 106,
+          "retained_own_position_facts": 94,
+          "total_public_statement": 69,
+          "retained_public_statement": 57,
+          "total_institutional_context": 13,
+          "retained_institutional_context": 13,
+          "total_action": 37,
+          "retained_action": 37
+        }
+      },
+      "actor_retention": {
+        "fixed_original_request_count": [
+          {
+            "actor_id": "james-kabarebe",
+            "name": "James Kabarebe",
+            "accepted_facts": 1,
+            "retained_facts": 1
+          },
+          {
+            "actor_id": "juvenal-marizamunda",
+            "name": "Juvenal Marizamunda",
+            "accepted_facts": 1,
+            "retained_facts": 1
+          },
+          {
+            "actor_id": "louise-mushikiwabo",
+            "name": "Louise Mushikiwabo",
+            "accepted_facts": 18,
+            "retained_facts": 7,
+            "own_position_facts": 18,
+            "retained_own_position_facts": 7
+          },
+          {
+            "actor_id": "olivier-nduhungirehe",
+            "name": "Olivier J. P. Nduhungirehe",
+            "accepted_facts": 3,
+            "retained_facts": 3,
+            "own_position_facts": 3,
+            "retained_own_position_facts": 3
+          },
+          {
+            "actor_id": "paul-kagame",
+            "name": "Paul Kagame",
+            "accepted_facts": 162,
+            "retained_facts": 161,
+            "own_position_facts": 83,
+            "retained_own_position_facts": 82
+          },
+          {
+            "actor_id": "sabin-nsanzimana",
+            "name": "Sabin Nsanzimana",
+            "accepted_facts": 1,
+            "retained_facts": 1,
+            "own_position_facts": 1,
+            "retained_own_position_facts": 1
+          },
+          {
+            "actor_id": "yusuf-murangwa",
+            "name": "Yusuf Murangwa",
+            "accepted_facts": 2,
+            "retained_facts": 2,
+            "own_position_facts": 1,
+            "retained_own_position_facts": 1
+          }
+        ],
+        "one_request_per_document": [
+          {
+            "actor_id": "james-kabarebe",
+            "name": "James Kabarebe",
+            "accepted_facts": 1,
+            "retained_facts": 1
+          },
+          {
+            "actor_id": "juvenal-marizamunda",
+            "name": "Juvenal Marizamunda",
+            "accepted_facts": 1,
+            "retained_facts": 1
+          },
+          {
+            "actor_id": "louise-mushikiwabo",
+            "name": "Louise Mushikiwabo",
+            "accepted_facts": 18,
+            "retained_facts": 7,
+            "own_position_facts": 18,
+            "retained_own_position_facts": 7
+          },
+          {
+            "actor_id": "olivier-nduhungirehe",
+            "name": "Olivier J. P. Nduhungirehe",
+            "accepted_facts": 3,
+            "retained_facts": 3,
+            "own_position_facts": 3,
+            "retained_own_position_facts": 3
+          },
+          {
+            "actor_id": "paul-kagame",
+            "name": "Paul Kagame",
+            "accepted_facts": 162,
+            "retained_facts": 161,
+            "own_position_facts": 83,
+            "retained_own_position_facts": 82
+          },
+          {
+            "actor_id": "sabin-nsanzimana",
+            "name": "Sabin Nsanzimana",
+            "accepted_facts": 1,
+            "retained_facts": 1,
+            "own_position_facts": 1,
+            "retained_own_position_facts": 1
+          },
+          {
+            "actor_id": "yusuf-murangwa",
+            "name": "Yusuf Murangwa",
+            "accepted_facts": 2,
+            "retained_facts": 2,
+            "own_position_facts": 1,
+            "retained_own_position_facts": 1
+          }
+        ]
+      },
+      "macro_retention": {
+        "fixed_original_request_count": {
+          "actors_with_baseline_facts": 7,
+          "roster_actors_without_baseline_facts": 35,
+          "unweighted_actor_mean_fraction": 0.9118165784832452,
+          "actors_with_own_baseline_facts": 5,
+          "unweighted_own_actor_mean_fraction": 0.8753681392235609
+        },
+        "one_request_per_document": {
+          "actors_with_baseline_facts": 7,
+          "roster_actors_without_baseline_facts": 35,
+          "unweighted_actor_mean_fraction": 0.9118165784832452,
+          "actors_with_own_baseline_facts": 5,
+          "unweighted_own_actor_mean_fraction": 0.8753681392235609
+        }
+      }
+    },
+    {
+      "id": "mentions_1000_compact",
+      "mode": "mentions",
+      "max_document_tokens": 1000,
+      "compact_roster": true,
+      "selection": {
+        "selected_body_tokens": 104493,
+        "span_count": 281,
+        "truncated_documents": 39,
+        "no_mentions_head_fallback_documents": 2
+      },
+      "cost_scenarios": {
+        "fixed_original_request_count": {
+          "stages": {
+            "relevance": {
+              "requests": 272,
+              "input_tokens": 382367,
+              "USER_only_input_tokens": 426611,
+              "output_tokens": 22112,
+              "uncached_cost_usd": 0.18832599999999997,
+              "empty_intersections": 9,
+              "roster_entries_total": 850,
+              "full_roster_fallback_calls": 14
+            },
+            "extract": {
+              "requests": 248,
+              "input_tokens": 427337,
+              "USER_only_input_tokens": 470838,
+              "output_tokens": 63151,
+              "uncached_cost_usd": 1.165681250000001,
+              "empty_intersections": 0,
+              "roster_entries_total": 334,
+              "full_roster_fallback_calls": 2
+            }
+          },
+          "core_cost_usd": 1.3540072500000009,
+          "core_plus_held_describe_usd": 1.4514760000000009,
+          "conditional_32000_raw_core_usd": 167.29047104247115,
+          "conditional_32000_raw_with_held_describe_usd": 179.33294208494218
+        },
+        "one_request_per_document": {
+          "stages": {
+            "relevance": {
+              "requests": 254,
+              "input_tokens": 342899,
+              "USER_only_input_tokens": 387475,
+              "output_tokens": 22112,
+              "uncached_cost_usd": 0.17253879999999994,
+              "empty_intersections": 0,
+              "roster_entries_total": 340,
+              "full_roster_fallback_calls": 2
+            },
+            "extract": {
+              "requests": 240,
+              "input_tokens": 412643,
+              "USER_only_input_tokens": 455316,
+              "output_tokens": 63151,
+              "uncached_cost_usd": 1.147313750000001,
+              "empty_intersections": 0,
+              "roster_entries_total": 244,
+              "full_roster_fallback_calls": 0
+            }
+          },
+          "core_cost_usd": 1.319852550000001,
+          "core_plus_held_describe_usd": 1.417321300000001,
+          "conditional_32000_raw_core_usd": 163.07058532818544,
+          "conditional_32000_raw_with_held_describe_usd": 175.11305637065647
+        }
+      },
+      "literal_retention": {
+        "fixed_original_request_count": {
+          "accepted_facts": 188,
+          "retained_facts": 169,
+          "invalid_recorded_quote_offsets": 0,
+          "total_attributed_image": 69,
+          "retained_attributed_image": 68,
+          "own_position_facts": 106,
+          "retained_own_position_facts": 88,
+          "total_public_statement": 69,
+          "retained_public_statement": 51,
+          "total_institutional_context": 13,
+          "retained_institutional_context": 13,
+          "total_action": 37,
+          "retained_action": 37
+        },
+        "one_request_per_document": {
+          "accepted_facts": 188,
+          "retained_facts": 169,
+          "invalid_recorded_quote_offsets": 0,
+          "total_attributed_image": 69,
+          "retained_attributed_image": 68,
+          "own_position_facts": 106,
+          "retained_own_position_facts": 88,
+          "total_public_statement": 69,
+          "retained_public_statement": 51,
+          "total_institutional_context": 13,
+          "retained_institutional_context": 13,
+          "total_action": 37,
+          "retained_action": 37
+        }
+      },
+      "actor_retention": {
+        "fixed_original_request_count": [
+          {
+            "actor_id": "james-kabarebe",
+            "name": "James Kabarebe",
+            "accepted_facts": 1,
+            "retained_facts": 1
+          },
+          {
+            "actor_id": "juvenal-marizamunda",
+            "name": "Juvenal Marizamunda",
+            "accepted_facts": 1,
+            "retained_facts": 1
+          },
+          {
+            "actor_id": "louise-mushikiwabo",
+            "name": "Louise Mushikiwabo",
+            "accepted_facts": 18,
+            "retained_facts": 2,
+            "own_position_facts": 18,
+            "retained_own_position_facts": 2
+          },
+          {
+            "actor_id": "olivier-nduhungirehe",
+            "name": "Olivier J. P. Nduhungirehe",
+            "accepted_facts": 3,
+            "retained_facts": 3,
+            "own_position_facts": 3,
+            "retained_own_position_facts": 3
+          },
+          {
+            "actor_id": "paul-kagame",
+            "name": "Paul Kagame",
+            "accepted_facts": 162,
+            "retained_facts": 159,
+            "own_position_facts": 83,
+            "retained_own_position_facts": 81
+          },
+          {
+            "actor_id": "sabin-nsanzimana",
+            "name": "Sabin Nsanzimana",
+            "accepted_facts": 1,
+            "retained_facts": 1,
+            "own_position_facts": 1,
+            "retained_own_position_facts": 1
+          },
+          {
+            "actor_id": "yusuf-murangwa",
+            "name": "Yusuf Murangwa",
+            "accepted_facts": 2,
+            "retained_facts": 2,
+            "own_position_facts": 1,
+            "retained_own_position_facts": 1
+          }
+        ],
+        "one_request_per_document": [
+          {
+            "actor_id": "james-kabarebe",
+            "name": "James Kabarebe",
+            "accepted_facts": 1,
+            "retained_facts": 1
+          },
+          {
+            "actor_id": "juvenal-marizamunda",
+            "name": "Juvenal Marizamunda",
+            "accepted_facts": 1,
+            "retained_facts": 1
+          },
+          {
+            "actor_id": "louise-mushikiwabo",
+            "name": "Louise Mushikiwabo",
+            "accepted_facts": 18,
+            "retained_facts": 2,
+            "own_position_facts": 18,
+            "retained_own_position_facts": 2
+          },
+          {
+            "actor_id": "olivier-nduhungirehe",
+            "name": "Olivier J. P. Nduhungirehe",
+            "accepted_facts": 3,
+            "retained_facts": 3,
+            "own_position_facts": 3,
+            "retained_own_position_facts": 3
+          },
+          {
+            "actor_id": "paul-kagame",
+            "name": "Paul Kagame",
+            "accepted_facts": 162,
+            "retained_facts": 159,
+            "own_position_facts": 83,
+            "retained_own_position_facts": 81
+          },
+          {
+            "actor_id": "sabin-nsanzimana",
+            "name": "Sabin Nsanzimana",
+            "accepted_facts": 1,
+            "retained_facts": 1,
+            "own_position_facts": 1,
+            "retained_own_position_facts": 1
+          },
+          {
+            "actor_id": "yusuf-murangwa",
+            "name": "Yusuf Murangwa",
+            "accepted_facts": 2,
+            "retained_facts": 2,
+            "own_position_facts": 1,
+            "retained_own_position_facts": 1
+          }
+        ]
+      },
+      "macro_retention": {
+        "fixed_original_request_count": {
+          "actors_with_baseline_facts": 7,
+          "roster_actors_without_baseline_facts": 35,
+          "unweighted_actor_mean_fraction": 0.8703703703703703,
+          "actors_with_own_baseline_facts": 5,
+          "unweighted_own_actor_mean_fraction": 0.8174029451137885
+        },
+        "one_request_per_document": {
+          "actors_with_baseline_facts": 7,
+          "roster_actors_without_baseline_facts": 35,
+          "unweighted_actor_mean_fraction": 0.8703703703703703,
+          "actors_with_own_baseline_facts": 5,
+          "unweighted_own_actor_mean_fraction": 0.8174029451137885
+        }
+      }
+    },
+    {
+      "id": "mentions_1500_compact",
+      "mode": "mentions",
+      "max_document_tokens": 1500,
+      "compact_roster": true,
+      "selection": {
+        "selected_body_tokens": 122850,
+        "span_count": 270,
+        "truncated_documents": 21,
+        "no_mentions_head_fallback_documents": 2
+      },
+      "cost_scenarios": {
+        "fixed_original_request_count": {
+          "stages": {
+            "relevance": {
+              "requests": 272,
+              "input_tokens": 401105,
+              "USER_only_input_tokens": 445349,
+              "output_tokens": 22112,
+              "uncached_cost_usd": 0.19582119999999995,
+              "empty_intersections": 11,
+              "roster_entries_total": 850,
+              "full_roster_fallback_calls": 14
+            },
+            "extract": {
+              "requests": 248,
+              "input_tokens": 444745,
+              "USER_only_input_tokens": 488246,
+              "output_tokens": 63151,
+              "uncached_cost_usd": 1.187441250000001,
+              "empty_intersections": 2,
+              "roster_entries_total": 334,
+              "full_roster_fallback_calls": 2
+            }
+          },
+          "core_cost_usd": 1.3832624500000008,
+          "core_plus_held_describe_usd": 1.4807312000000008,
+          "conditional_32000_raw_core_usd": 170.9050131274132,
+          "conditional_32000_raw_with_held_describe_usd": 182.94748416988426
+        },
+        "one_request_per_document": {
+          "stages": {
+            "relevance": {
+              "requests": 254,
+              "input_tokens": 361804,
+              "USER_only_input_tokens": 406380,
+              "output_tokens": 22112,
+              "uncached_cost_usd": 0.1801007999999999,
+              "empty_intersections": 0,
+              "roster_entries_total": 340,
+              "full_roster_fallback_calls": 2
+            },
+            "extract": {
+              "requests": 240,
+              "input_tokens": 430284,
+              "USER_only_input_tokens": 472957,
+              "output_tokens": 63151,
+              "uncached_cost_usd": 1.1693650000000007,
+              "empty_intersections": 0,
+              "roster_entries_total": 244,
+              "full_roster_fallback_calls": 0
+            }
+          },
+          "core_cost_usd": 1.3494658000000006,
+          "core_plus_held_describe_usd": 1.4469345500000006,
+          "conditional_32000_raw_core_usd": 166.72936525096532,
+          "conditional_32000_raw_with_held_describe_usd": 178.77183629343637
+        }
+      },
+      "literal_retention": {
+        "fixed_original_request_count": {
+          "accepted_facts": 188,
+          "retained_facts": 176,
+          "invalid_recorded_quote_offsets": 0,
+          "total_attributed_image": 69,
+          "retained_attributed_image": 69,
+          "own_position_facts": 106,
+          "retained_own_position_facts": 94,
+          "total_public_statement": 69,
+          "retained_public_statement": 57,
+          "total_institutional_context": 13,
+          "retained_institutional_context": 13,
+          "total_action": 37,
+          "retained_action": 37
+        },
+        "one_request_per_document": {
+          "accepted_facts": 188,
+          "retained_facts": 176,
+          "invalid_recorded_quote_offsets": 0,
+          "total_attributed_image": 69,
+          "retained_attributed_image": 69,
+          "own_position_facts": 106,
+          "retained_own_position_facts": 94,
+          "total_public_statement": 69,
+          "retained_public_statement": 57,
+          "total_institutional_context": 13,
+          "retained_institutional_context": 13,
+          "total_action": 37,
+          "retained_action": 37
+        }
+      },
+      "actor_retention": {
+        "fixed_original_request_count": [
+          {
+            "actor_id": "james-kabarebe",
+            "name": "James Kabarebe",
+            "accepted_facts": 1,
+            "retained_facts": 1
+          },
+          {
+            "actor_id": "juvenal-marizamunda",
+            "name": "Juvenal Marizamunda",
+            "accepted_facts": 1,
+            "retained_facts": 1
+          },
+          {
+            "actor_id": "louise-mushikiwabo",
+            "name": "Louise Mushikiwabo",
+            "accepted_facts": 18,
+            "retained_facts": 7,
+            "own_position_facts": 18,
+            "retained_own_position_facts": 7
+          },
+          {
+            "actor_id": "olivier-nduhungirehe",
+            "name": "Olivier J. P. Nduhungirehe",
+            "accepted_facts": 3,
+            "retained_facts": 3,
+            "own_position_facts": 3,
+            "retained_own_position_facts": 3
+          },
+          {
+            "actor_id": "paul-kagame",
+            "name": "Paul Kagame",
+            "accepted_facts": 162,
+            "retained_facts": 161,
+            "own_position_facts": 83,
+            "retained_own_position_facts": 82
+          },
+          {
+            "actor_id": "sabin-nsanzimana",
+            "name": "Sabin Nsanzimana",
+            "accepted_facts": 1,
+            "retained_facts": 1,
+            "own_position_facts": 1,
+            "retained_own_position_facts": 1
+          },
+          {
+            "actor_id": "yusuf-murangwa",
+            "name": "Yusuf Murangwa",
+            "accepted_facts": 2,
+            "retained_facts": 2,
+            "own_position_facts": 1,
+            "retained_own_position_facts": 1
+          }
+        ],
+        "one_request_per_document": [
+          {
+            "actor_id": "james-kabarebe",
+            "name": "James Kabarebe",
+            "accepted_facts": 1,
+            "retained_facts": 1
+          },
+          {
+            "actor_id": "juvenal-marizamunda",
+            "name": "Juvenal Marizamunda",
+            "accepted_facts": 1,
+            "retained_facts": 1
+          },
+          {
+            "actor_id": "louise-mushikiwabo",
+            "name": "Louise Mushikiwabo",
+            "accepted_facts": 18,
+            "retained_facts": 7,
+            "own_position_facts": 18,
+            "retained_own_position_facts": 7
+          },
+          {
+            "actor_id": "olivier-nduhungirehe",
+            "name": "Olivier J. P. Nduhungirehe",
+            "accepted_facts": 3,
+            "retained_facts": 3,
+            "own_position_facts": 3,
+            "retained_own_position_facts": 3
+          },
+          {
+            "actor_id": "paul-kagame",
+            "name": "Paul Kagame",
+            "accepted_facts": 162,
+            "retained_facts": 161,
+            "own_position_facts": 83,
+            "retained_own_position_facts": 82
+          },
+          {
+            "actor_id": "sabin-nsanzimana",
+            "name": "Sabin Nsanzimana",
+            "accepted_facts": 1,
+            "retained_facts": 1,
+            "own_position_facts": 1,
+            "retained_own_position_facts": 1
+          },
+          {
+            "actor_id": "yusuf-murangwa",
+            "name": "Yusuf Murangwa",
+            "accepted_facts": 2,
+            "retained_facts": 2,
+            "own_position_facts": 1,
+            "retained_own_position_facts": 1
+          }
+        ]
+      },
+      "macro_retention": {
+        "fixed_original_request_count": {
+          "actors_with_baseline_facts": 7,
+          "roster_actors_without_baseline_facts": 35,
+          "unweighted_actor_mean_fraction": 0.9118165784832452,
+          "actors_with_own_baseline_facts": 5,
+          "unweighted_own_actor_mean_fraction": 0.8753681392235609
+        },
+        "one_request_per_document": {
+          "actors_with_baseline_facts": 7,
+          "roster_actors_without_baseline_facts": 35,
+          "unweighted_actor_mean_fraction": 0.9118165784832452,
+          "actors_with_own_baseline_facts": 5,
+          "unweighted_own_actor_mean_fraction": 0.8753681392235609
+        }
+      }
+    }
+  ],
+  "pricing_source": "https://developers.openai.com/api/docs/pricing",
+  "methodology": {
+    "paid_calls": 0,
+    "future_cache_guaranteed": false,
+    "fixed_count_input": "I_API + delta tokenized(USER) + delta tokenized(instructions) + delta tokenized(canonical output schema)",
+    "one_document_input": "min_group[I_API-T(USER)-T(instructions)-T(schema)] + new three components",
+    "USER_only_control": "I_API + T(USER_new)-T(USER_old); retains all old non-USER overhead",
+    "outputs": "Each scenario preserves the SUM of original output tokens, including multi-chunk groups",
+    "relevance": "Old decisions frozen; all eligible classification documents retained, no negative/review pruning",
+    "extraction": "Old positive-document groups retained; first original context keeps its original relevance metadata; no new classification is predicted",
+    "fixed_empty_intersections": "Cost-only hypothetical empty USER excerpts, not valid actual requests",
+    "retention": "Recorded exact global quote offset plus quote, attribution and non-null date evidence within ONE retained original span; lexical availability, not model recall or factual validation",
+    "scale": "Conditional transfer of this259-record source composition; no probability CI, no full-research/scoring price",
+    "payload_limits": "Local tokenizer differences estimate provider prompt rendering. Current payload factory/schema version is recorded; unseen rendering overhead assumed unchanged."
+  },
+  "provenance": {
+    "snapshot_sha256": "349cc1ca905eac77e947ba1b17ed7cb53c5fbba7a65a8d1f85dd7deba9caf36f",
+    "source_csv_sha256": "1394ec4690d5cdea535fab41cde6e0734a7d24236bed9dc25d8f469b7ad80919",
+    "source_sha256": {
+      "scripts/compare_corpus_excerpt_budgets.py": "278d124989f684cf7f131de9ec5cbe60e084430104c896961df1500e43696bba",
+      "src/corpus_pipeline/excerpts.py": "fbbd953d2f5c9d7f2e055edc00dbff13ceb286420d02b91f6eb386fed23ca88a",
+      "src/corpus_pipeline/models.py": "7a24ce8ef60ff8a78c16c557ad35edd68cca5895b231cc7f179f80c9d5cfe835",
+      "src/corpus_pipeline/service.py": "14ff4eb14fb05e502b4741deb83e4385ac81759773924278da0d929b2b4d3005"
+    },
+    "source_changed_during_run": []
+  }
+}
