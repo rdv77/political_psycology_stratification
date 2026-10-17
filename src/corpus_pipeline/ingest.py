@@ -24,13 +24,13 @@ from typing import Any, Iterable, Iterator, Mapping
 
 _FIELD_ALIASES = {
     "source_id": ("Id сообщения", "Идентификатор сообщения", "message_id", "post_id", "tweet_id", "source_id", "id", "№"),
-    "url": ("Ссылка", "URL", "link", "permalink", "message_url", "post_url"),
+    "url": ("Ссылка на сообщение", "Ссылка", "URL", "link", "permalink", "message_url", "post_url"),
     "title": ("Заголовок", "title", "headline", "subject"),
-    "message": ("Сообщение", "Текст", "message", "text", "body", "content", "full_text", "article_text"),
+    "message": ("Текст сообщения", "Сообщение", "Текст", "message", "text", "body", "content", "full_text", "article_text"),
     "ocr_text": ("Автораспознанный текст", "Распознанный текст", "OCR", "ocr_text", "recognized_text", "auto_recognized_text"),
-    "published_at": ("Дата", "Дата публикации", "published_at", "published", "publication_date", "date", "created_at", "timestamp"),
+    "published_at": ("Время публикации", "Дата публикации", "Дата", "published_at", "published", "publication_date", "date", "created_at", "timestamp"),
     "source_name": ("Площадка", "Источник", "source_name", "source", "platform", "outlet", "site"),
-    "author": ("Автор", "author", "author_name", "username", "user_name"),
+    "author": ("Кто пишет", "Автор", "author", "author_name", "username", "user_name"),
     "language_hint": ("Язык", "Язык сообщения", "language_hint", "language", "lang", "language_code"),
 }
 _CSV_LOCK = threading.RLock()
@@ -248,21 +248,28 @@ def inspect_csv(path: str | Path) -> dict[str, Any]:
     layout = _layout(path)
     mapping = _mapping(layout.columns)
     positions = {name: layout.columns.index(name) for name in layout.columns}
-    total = with_text = empty = wrong_width = 0
+    total = with_text = primary_text_rows = empty = wrong_width = 0
     for _, row in _records(path, layout):
         total += 1
         if not any(x.strip() for x in row):
             empty += 1
             continue
         wrong_width += len(row) != len(layout.columns)
-        if any(normalize_text(row[positions[column]]) for field in ("title", "message", "ocr_text")
-               if (column := mapping[field]) is not None and positions[column] < len(row)):
+        visible = {field: normalize_text(row[positions[column]])
+                   for field in ("title", "message", "ocr_text")
+                   if (column := mapping[field]) is not None and positions[column] < len(row)}
+        primary_text_rows += bool(visible.get("message"))
+        if any(visible.values()):
             with_text += 1
     warnings = list(layout.warnings)
     if wrong_width:
         warnings.append(f"Nonempty records with a different column count: {wrong_width}; missing/extra values are preserved.")
     if not any(mapping[x] for x in ("title", "message", "ocr_text")):
         warnings.append("No recognized text columns; supply an explicit mapping to iter_documents.")
+    if mapping["message"] is None:
+        warnings.append("Primary message column was not recognized; titles/OCR alone do not confirm full-text import. Supply an explicit message mapping before analysis.")
+    elif with_text and not primary_text_rows:
+        warnings.append("Primary message column has no visible text; text-bearing records contain titles/OCR only. Confirm the source export before analysis.")
     return {"encoding": layout.encoding, "delimiter": layout.delimiter, "columns": list(layout.columns),
             "rows_total": total, "rows_with_text": with_text, "empty_rows": empty,
             "field_mapping": mapping, "warnings": warnings, "source_sha256": layout.sha256}

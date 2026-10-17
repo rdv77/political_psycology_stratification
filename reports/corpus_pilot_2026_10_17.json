@@ -1,0 +1,807 @@
+{
+  "schema_version": "corpus-pilot-summary-v1",
+  "corpus_id": "corpus-64405d243de9c4040bb6",
+  "generated_at": "2026-10-17T16:16:46.421922+00:00",
+  "counts": {
+    "raw_documents": 259,
+    "unique_documents": 256,
+    "eligible_unique_documents": 254,
+    "rule_exclusions": 2,
+    "random_documents": 48,
+    "targeted_documents": 5,
+    "active_facts": 19,
+    "active_job_statuses": {
+      "done": 77,
+      "review": 2
+    },
+    "inactive_job_statuses": {
+      "done": 148,
+      "review": 3
+    }
+  },
+  "sampling": {
+    "seed": 20261017,
+    "strata": {
+      "en/long": {
+        "population": 22,
+        "selected": 4
+      },
+      "en/medium": {
+        "population": 99,
+        "selected": 19
+      },
+      "en/short": {
+        "population": 59,
+        "selected": 11
+      },
+      "fr/long": {
+        "population": 14,
+        "selected": 3
+      },
+      "fr/medium": {
+        "population": 29,
+        "selected": 5
+      },
+      "fr/short": {
+        "population": 30,
+        "selected": 5
+      },
+      "other/medium": {
+        "population": 1,
+        "selected": 1
+      }
+    },
+    "selection_basis": "stratified_random_core; targeted_challenges_excluded_from_forecast"
+  },
+  "windows": {
+    "canonical_research": [
+      "2021-10-15",
+      "2026-10-15"
+    ],
+    "technical_pilot": [
+      "2021-10-15",
+      "2026-10-17"
+    ]
+  },
+  "active_models": {
+    "describe": "gpt-5.1",
+    "extract": "gpt-5.1",
+    "relevance": "gpt-4.1-mini",
+    "score": "gpt-5.1"
+  },
+  "pricing_per_million_tokens": {
+    "gpt-4.1-mini": {
+      "cached_input": 0.1,
+      "input": 0.4,
+      "output": 1.6
+    },
+    "gpt-4.1-nano": {
+      "cached_input": 0.025,
+      "input": 0.1,
+      "output": 0.4
+    },
+    "gpt-5.1": {
+      "cached_input": 0.125,
+      "input": 1.25,
+      "output": 10.0
+    }
+  },
+  "all_paid_ledger": {
+    "by_model_stage_recipe": [
+      {
+        "model": "gpt-4.1-mini",
+        "stage": "relevance",
+        "recipe_state": "active",
+        "jobs": 62,
+        "jobs_with_reported_usage_or_cost": 62,
+        "status_counts": {
+          "done": 60,
+          "review": 2
+        },
+        "input_tokens": 218459,
+        "output_tokens": 5237,
+        "recorded_cost_usd": 0.09368920000000006,
+        "uncached_equivalent_usd": 0.09576280000000004,
+        "outstanding_reserved_usd": 0
+      },
+      {
+        "model": "gpt-4.1-mini",
+        "stage": "relevance",
+        "recipe_state": "inactive",
+        "jobs": 62,
+        "jobs_with_reported_usage_or_cost": 62,
+        "status_counts": {
+          "done": 62
+        },
+        "input_tokens": 218459,
+        "output_tokens": 5094,
+        "recorded_cost_usd": 0.09553400000000001,
+        "uncached_equivalent_usd": 0.09553400000000001,
+        "outstanding_reserved_usd": 0
+      },
+      {
+        "model": "gpt-4.1-nano",
+        "stage": "relevance",
+        "recipe_state": "inactive",
+        "jobs": 87,
+        "jobs_with_reported_usage_or_cost": 87,
+        "status_counts": {
+          "done": 86,
+          "review": 1
+        },
+        "input_tokens": 308429,
+        "output_tokens": 6557,
+        "recorded_cost_usd": 0.03346570000000001,
+        "uncached_equivalent_usd": 0.03346570000000001,
+        "outstanding_reserved_usd": 0
+      },
+      {
+        "model": "gpt-5.1",
+        "stage": "describe",
+        "recipe_state": "active",
+        "jobs": 1,
+        "jobs_with_reported_usage_or_cost": 1,
+        "status_counts": {
+          "done": 1
+        },
+        "input_tokens": 3910,
+        "output_tokens": 855,
+        "recorded_cost_usd": 0.0134375,
+        "uncached_equivalent_usd": 0.0134375,
+        "outstanding_reserved_usd": 0
+      },
+      {
+        "model": "gpt-5.1",
+        "stage": "describe",
+        "recipe_state": "inactive",
+        "jobs": 2,
+        "jobs_with_reported_usage_or_cost": 2,
+        "status_counts": {
+          "review": 2
+        },
+        "input_tokens": 12324,
+        "output_tokens": 4549,
+        "recorded_cost_usd": 0.060895000000000005,
+        "uncached_equivalent_usd": 0.060895000000000005,
+        "outstanding_reserved_usd": 0
+      },
+      {
+        "model": "gpt-5.1",
+        "stage": "extract",
+        "recipe_state": "active",
+        "jobs": 16,
+        "jobs_with_reported_usage_or_cost": 16,
+        "status_counts": {
+          "done": 16
+        },
+        "input_tokens": 54960,
+        "output_tokens": 3142,
+        "recorded_cost_usd": 0.10011999999999999,
+        "uncached_equivalent_usd": 0.10011999999999999,
+        "outstanding_reserved_usd": 0
+      }
+    ],
+    "input_tokens": 816541,
+    "output_tokens": 25434,
+    "total_tokens": 841975,
+    "recorded_cost_usd": 0.3971414000000001,
+    "active_recorded_cost_usd": 0.20724670000000006,
+    "inactive_recorded_cost_usd": 0.18989470000000003,
+    "outstanding_reserved_usd": 0,
+    "note": "All snapshot jobs, including inactive recipes, refusals and failed validations. Reservations are possible charges, not confirmed expenditure. Uncached equivalents use snapshot-config rates."
+  },
+  "estimates": {
+    "methodology": {
+      "unit": "whole_unique_document_including_all_chunks",
+      "sampling_weights": "N_h/n_h",
+      "central_relevance": "observed_relevant",
+      "ambiguity_upper": "relevant_or_review",
+      "interval_kind": "scenario_only_not_probability_or_confidence_interval",
+      "incomplete_classification": "complete_case_with_explicit_nonresponse_warning",
+      "global_extraction_weight": "estimated_positive_population_in_covered_strata",
+      "cache_assumption": "baseline assumes no guaranteed cache; observed-cache transfer is a separate scenario",
+      "scope": "one_pass_classification_and_extraction; descriptor estimate separate; scoring, review, retries and revisions excluded"
+    },
+    "population": {
+      "raw_count": 259,
+      "eligible_unique_count": 254,
+      "observed_eligible_fraction": 0.9806949806949807,
+      "target_raw_count": 32000
+    },
+    "measured": {
+      "observations": 53,
+      "random_documents": 48,
+      "targeted_documents": 5,
+      "classification_complete_random": 48,
+      "relevant_complete_random": 45,
+      "review_complete_random": 1,
+      "extraction_complete_random_positive": 12,
+      "reported_costs": {
+        "relevance_cost_usd": {
+          "known_sum_usd": 0.09368920000000003,
+          "n_known": 53,
+          "n_missing": 0
+        },
+        "relevance_uncached_cost_usd": {
+          "known_sum_usd": 0.09576280000000004,
+          "n_known": 53,
+          "n_missing": 0
+        },
+        "extraction_cost_usd": {
+          "known_sum_usd": 0.10012000000000001,
+          "n_known": 16,
+          "n_missing": 37
+        },
+        "extraction_uncached_cost_usd": {
+          "known_sum_usd": 0.10012000000000001,
+          "n_known": 16,
+          "n_missing": 37
+        }
+      },
+      "descriptor_cost_usd": 0.0134375,
+      "descriptor_input_facts": 4,
+      "note": "Reported expenditure includes targeted and incomplete records; it is not the forecast and excludes any unreported/uncertain charge."
+    },
+    "strata": [
+      {
+        "stratum": "en/long",
+        "population_count": 22,
+        "population_weight": 0.08661417322834646,
+        "random_selected": 4,
+        "classification_complete": 4,
+        "design_weight": 5.5,
+        "complete_case_expansion_weight": 5.5,
+        "relevant_complete": 4,
+        "extraction_random_complete": 1,
+        "targeted_observations": 3,
+        "relevance_rates": {
+          "observed_relevant": 1.0,
+          "relevant_or_review": 1.0,
+          "review": 0.0
+        },
+        "classification_mean_per_document": {
+          "baseline_uncached_usd": 0.0017479000000000001,
+          "observed_cache_usd": 0.0017479000000000001
+        },
+        "classification_cost_n": {
+          "baseline_uncached_usd": 4,
+          "observed_cache_usd": 4
+        },
+        "extraction_field_n": {
+          "baseline_uncached_usd": 1,
+          "observed_cache_usd": 1,
+          "facts": 1
+        },
+        "extraction_conditional_local": {
+          "baseline_uncached_usd": 0.0084375,
+          "observed_cache_usd": 0.0084375,
+          "facts": 2.0
+        },
+        "extraction_conditional_effective": {
+          "baseline_uncached_usd": 0.0084375,
+          "observed_cache_usd": 0.0084375,
+          "facts": 2.0
+        },
+        "extraction_conditional_source": {
+          "baseline_uncached_usd": "stratum_random",
+          "observed_cache_usd": "stratum_random",
+          "facts": "stratum_random"
+        }
+      },
+      {
+        "stratum": "en/medium",
+        "population_count": 99,
+        "population_weight": 0.38976377952755903,
+        "random_selected": 19,
+        "classification_complete": 19,
+        "design_weight": 5.2105263157894735,
+        "complete_case_expansion_weight": 5.2105263157894735,
+        "relevant_complete": 18,
+        "extraction_random_complete": 6,
+        "targeted_observations": 2,
+        "relevance_rates": {
+          "observed_relevant": 0.9473684210526315,
+          "relevant_or_review": 1.0,
+          "review": 0.05263157894736842
+        },
+        "classification_mean_per_document": {
+          "baseline_uncached_usd": 0.0014867157894736841,
+          "observed_cache_usd": 0.0014867157894736841
+        },
+        "classification_cost_n": {
+          "baseline_uncached_usd": 19,
+          "observed_cache_usd": 19
+        },
+        "extraction_field_n": {
+          "baseline_uncached_usd": 6,
+          "observed_cache_usd": 6,
+          "facts": 6
+        },
+        "extraction_conditional_local": {
+          "baseline_uncached_usd": 0.0064624999999999995,
+          "observed_cache_usd": 0.0064624999999999995,
+          "facts": 1.5
+        },
+        "extraction_conditional_effective": {
+          "baseline_uncached_usd": 0.0064624999999999995,
+          "observed_cache_usd": 0.0064624999999999995,
+          "facts": 1.5
+        },
+        "extraction_conditional_source": {
+          "baseline_uncached_usd": "stratum_random",
+          "observed_cache_usd": "stratum_random",
+          "facts": "stratum_random"
+        }
+      },
+      {
+        "stratum": "en/short",
+        "population_count": 59,
+        "population_weight": 0.23228346456692914,
+        "random_selected": 11,
+        "classification_complete": 11,
+        "design_weight": 5.363636363636363,
+        "complete_case_expansion_weight": 5.363636363636363,
+        "relevant_complete": 10,
+        "extraction_random_complete": 3,
+        "targeted_observations": 0,
+        "relevance_rates": {
+          "observed_relevant": 0.9090909090909091,
+          "relevant_or_review": 0.9090909090909091,
+          "review": 0.0
+        },
+        "classification_mean_per_document": {
+          "baseline_uncached_usd": 0.0012154545454545454,
+          "observed_cache_usd": 0.0011456363636363636
+        },
+        "classification_cost_n": {
+          "baseline_uncached_usd": 11,
+          "observed_cache_usd": 11
+        },
+        "extraction_field_n": {
+          "baseline_uncached_usd": 3,
+          "observed_cache_usd": 3,
+          "facts": 3
+        },
+        "extraction_conditional_local": {
+          "baseline_uncached_usd": 0.004575,
+          "observed_cache_usd": 0.004575,
+          "facts": 0.6666666666666666
+        },
+        "extraction_conditional_effective": {
+          "baseline_uncached_usd": 0.004575,
+          "observed_cache_usd": 0.004575,
+          "facts": 0.6666666666666666
+        },
+        "extraction_conditional_source": {
+          "baseline_uncached_usd": "stratum_random",
+          "observed_cache_usd": "stratum_random",
+          "facts": "stratum_random"
+        }
+      },
+      {
+        "stratum": "fr/long",
+        "population_count": 14,
+        "population_weight": 0.05511811023622047,
+        "random_selected": 3,
+        "classification_complete": 3,
+        "design_weight": 4.666666666666667,
+        "complete_case_expansion_weight": 4.666666666666667,
+        "relevant_complete": 3,
+        "extraction_random_complete": 0,
+        "targeted_observations": 0,
+        "relevance_rates": {
+          "observed_relevant": 1.0,
+          "relevant_or_review": 1.0,
+          "review": 0.0
+        },
+        "classification_mean_per_document": {
+          "baseline_uncached_usd": 0.0031649333333333336,
+          "observed_cache_usd": 0.0031649333333333336
+        },
+        "classification_cost_n": {
+          "baseline_uncached_usd": 3,
+          "observed_cache_usd": 3
+        },
+        "extraction_field_n": {
+          "baseline_uncached_usd": 0,
+          "observed_cache_usd": 0,
+          "facts": 0
+        },
+        "extraction_conditional_local": {
+          "baseline_uncached_usd": null,
+          "observed_cache_usd": null,
+          "facts": null
+        },
+        "extraction_conditional_effective": {
+          "baseline_uncached_usd": 0.005999808258540946,
+          "observed_cache_usd": 0.005999808258540946,
+          "facts": 1.2291555624330164
+        },
+        "extraction_conditional_source": {
+          "baseline_uncached_usd": "global_random_conditional",
+          "observed_cache_usd": "global_random_conditional",
+          "facts": "global_random_conditional"
+        }
+      },
+      {
+        "stratum": "fr/medium",
+        "population_count": 29,
+        "population_weight": 0.1141732283464567,
+        "random_selected": 5,
+        "classification_complete": 5,
+        "design_weight": 5.8,
+        "complete_case_expansion_weight": 5.8,
+        "relevant_complete": 4,
+        "extraction_random_complete": 1,
+        "targeted_observations": 0,
+        "relevance_rates": {
+          "observed_relevant": 0.8,
+          "relevant_or_review": 0.8,
+          "review": 0.0
+        },
+        "classification_mean_per_document": {
+          "baseline_uncached_usd": 0.0014840000000000003,
+          "observed_cache_usd": 0.0014840000000000003
+        },
+        "classification_cost_n": {
+          "baseline_uncached_usd": 5,
+          "observed_cache_usd": 5
+        },
+        "extraction_field_n": {
+          "baseline_uncached_usd": 1,
+          "observed_cache_usd": 1,
+          "facts": 1
+        },
+        "extraction_conditional_local": {
+          "baseline_uncached_usd": 0.00635125,
+          "observed_cache_usd": 0.00635125,
+          "facts": 1.0
+        },
+        "extraction_conditional_effective": {
+          "baseline_uncached_usd": 0.00635125,
+          "observed_cache_usd": 0.00635125,
+          "facts": 1.0
+        },
+        "extraction_conditional_source": {
+          "baseline_uncached_usd": "stratum_random",
+          "observed_cache_usd": "stratum_random",
+          "facts": "stratum_random"
+        }
+      },
+      {
+        "stratum": "fr/short",
+        "population_count": 30,
+        "population_weight": 0.11811023622047244,
+        "random_selected": 5,
+        "classification_complete": 5,
+        "design_weight": 6.0,
+        "complete_case_expansion_weight": 6.0,
+        "relevant_complete": 5,
+        "extraction_random_complete": 1,
+        "targeted_observations": 0,
+        "relevance_rates": {
+          "observed_relevant": 1.0,
+          "relevant_or_review": 1.0,
+          "review": 0.0
+        },
+        "classification_mean_per_document": {
+          "baseline_uncached_usd": 0.00124736,
+          "observed_cache_usd": 0.00124736
+        },
+        "classification_cost_n": {
+          "baseline_uncached_usd": 5,
+          "observed_cache_usd": 5
+        },
+        "extraction_field_n": {
+          "baseline_uncached_usd": 1,
+          "observed_cache_usd": 1,
+          "facts": 1
+        },
+        "extraction_conditional_local": {
+          "baseline_uncached_usd": 0.00504125,
+          "observed_cache_usd": 0.00504125,
+          "facts": 1.0
+        },
+        "extraction_conditional_effective": {
+          "baseline_uncached_usd": 0.00504125,
+          "observed_cache_usd": 0.00504125,
+          "facts": 1.0
+        },
+        "extraction_conditional_source": {
+          "baseline_uncached_usd": "stratum_random",
+          "observed_cache_usd": "stratum_random",
+          "facts": "stratum_random"
+        }
+      },
+      {
+        "stratum": "other/medium",
+        "population_count": 1,
+        "population_weight": 0.003937007874015748,
+        "random_selected": 1,
+        "classification_complete": 1,
+        "design_weight": 1.0,
+        "complete_case_expansion_weight": 1.0,
+        "relevant_complete": 1,
+        "extraction_random_complete": 0,
+        "targeted_observations": 0,
+        "relevance_rates": {
+          "observed_relevant": 1.0,
+          "relevant_or_review": 1.0,
+          "review": 0.0
+        },
+        "classification_mean_per_document": {
+          "baseline_uncached_usd": 0.0015752000000000001,
+          "observed_cache_usd": 0.0015752000000000001
+        },
+        "classification_cost_n": {
+          "baseline_uncached_usd": 1,
+          "observed_cache_usd": 1
+        },
+        "extraction_field_n": {
+          "baseline_uncached_usd": 0,
+          "observed_cache_usd": 0,
+          "facts": 0
+        },
+        "extraction_conditional_local": {
+          "baseline_uncached_usd": null,
+          "observed_cache_usd": null,
+          "facts": null
+        },
+        "extraction_conditional_effective": {
+          "baseline_uncached_usd": 0.005999808258540946,
+          "observed_cache_usd": 0.005999808258540946,
+          "facts": 1.2291555624330164
+        },
+        "extraction_conditional_source": {
+          "baseline_uncached_usd": "global_random_conditional",
+          "observed_cache_usd": "global_random_conditional",
+          "facts": "global_random_conditional"
+        }
+      }
+    ],
+    "forecasts": {
+      "primary_scenario": "observed_eligible_fraction",
+      "per_1000_eligible": {
+        "classification": {
+          "baseline_uncached_usd": 1.5105966456944078,
+          "review_upper_uncached_usd": 1.5105966456944078,
+          "observed_cache_usd": 1.4943790365319167,
+          "review_upper_observed_cache_usd": 1.4943790365319167
+        },
+        "extraction": {
+          "baseline_uncached_usd": 5.613029374797986,
+          "review_upper_uncached_usd": 5.745600344545188,
+          "observed_cache_usd": 5.613029374797986,
+          "review_upper_observed_cache_usd": 5.745600344545188
+        },
+        "core": {
+          "baseline_uncached_usd": 7.123626020492393,
+          "review_upper_uncached_usd": 7.256196990239596,
+          "observed_cache_usd": 7.107408411329902,
+          "review_upper_observed_cache_usd": 7.239979381077105
+        }
+      },
+      "relevance_rates": {
+        "observed_relevant": 0.9355347926006856,
+        "relevant_or_review": 0.9560486757337151,
+        "review": 0.02051388313302942
+      },
+      "scenarios": [
+        {
+          "name": "observed_eligible_fraction",
+          "eligible_fraction": 0.9806949806949807,
+          "eligible_count": 31382.239382239382,
+          "fraction_basis": "measured_pilot_ratio_transferred",
+          "stages": {
+            "classification": {
+              "baseline_uncached_usd": 47.40590554518975,
+              "review_upper_uncached_usd": 47.40590554518975,
+              "observed_cache_usd": 46.896960652244864,
+              "review_upper_observed_cache_usd": 46.896960652244864
+            },
+            "extraction": {
+              "baseline_uncached_usd": 176.14943149945185,
+              "review_upper_uncached_usd": 180.30980540719418,
+              "observed_cache_usd": 176.14943149945185,
+              "review_upper_observed_cache_usd": 180.30980540719418
+            },
+            "core": {
+              "baseline_uncached_usd": 223.5553370446416,
+              "review_upper_uncached_usd": 227.71571095238394,
+              "observed_cache_usd": 223.0463921516967,
+              "review_upper_observed_cache_usd": 227.20676605943905
+            }
+          },
+          "per_1000_raw": {
+            "classification": {
+              "baseline_uncached_usd": 1.4814345482871798,
+              "review_upper_uncached_usd": 1.4814345482871798,
+              "observed_cache_usd": 1.465530020382652,
+              "review_upper_observed_cache_usd": 1.465530020382652
+            },
+            "extraction": {
+              "baseline_uncached_usd": 5.50466973435787,
+              "review_upper_uncached_usd": 5.634681418974818,
+              "observed_cache_usd": 5.50466973435787,
+              "review_upper_observed_cache_usd": 5.634681418974818
+            },
+            "core": {
+              "baseline_uncached_usd": 6.98610428264505,
+              "review_upper_uncached_usd": 7.116115967261998,
+              "observed_cache_usd": 6.970199754740522,
+              "review_upper_observed_cache_usd": 7.10021143935747
+            }
+          },
+          "estimated_fact_yield": {
+            "observed_relevant": 36086.995486688706,
+            "relevant_or_review": 37052.65287339873
+          },
+          "descriptor_forecast_usd": {
+            "observed_relevant": 121.22975046309487,
+            "relevant_or_review": 124.47375574657386
+          }
+        },
+        {
+          "name": "assumed_eligible_fraction_0.75",
+          "eligible_fraction": 0.75,
+          "eligible_count": 24000.0,
+          "fraction_basis": "assumption",
+          "stages": {
+            "classification": {
+              "baseline_uncached_usd": 36.25431949666579,
+              "review_upper_uncached_usd": 36.25431949666579,
+              "observed_cache_usd": 35.865096876766,
+              "review_upper_observed_cache_usd": 35.865096876766
+            },
+            "extraction": {
+              "baseline_uncached_usd": 134.71270499515165,
+              "review_upper_uncached_usd": 137.89440826908452,
+              "observed_cache_usd": 134.71270499515165,
+              "review_upper_observed_cache_usd": 137.89440826908452
+            },
+            "core": {
+              "baseline_uncached_usd": 170.96702449181745,
+              "review_upper_uncached_usd": 174.14872776575032,
+              "observed_cache_usd": 170.57780187191767,
+              "review_upper_observed_cache_usd": 173.75950514585054
+            }
+          },
+          "per_1000_raw": {
+            "classification": {
+              "baseline_uncached_usd": 1.1329474842708058,
+              "review_upper_uncached_usd": 1.1329474842708058,
+              "observed_cache_usd": 1.1207842773989376,
+              "review_upper_observed_cache_usd": 1.1207842773989376
+            },
+            "extraction": {
+              "baseline_uncached_usd": 4.209772031098489,
+              "review_upper_uncached_usd": 4.309200258408891,
+              "observed_cache_usd": 4.209772031098489,
+              "review_upper_observed_cache_usd": 4.309200258408891
+            },
+            "core": {
+              "baseline_uncached_usd": 5.3427195153692955,
+              "review_upper_uncached_usd": 5.442147742679698,
+              "observed_cache_usd": 5.330556308497427,
+              "review_upper_observed_cache_usd": 5.429984535807829
+            }
+          },
+          "estimated_fact_yield": {
+            "observed_relevant": 27598.02706019402,
+            "relevant_or_review": 28336.526852983083
+          },
+          "descriptor_forecast_usd": {
+            "observed_relevant": 92.71212215533929,
+            "relevant_or_review": 95.19301989674004
+          }
+        },
+        {
+          "name": "assumed_eligible_fraction_1.0",
+          "eligible_fraction": 1.0,
+          "eligible_count": 32000.0,
+          "fraction_basis": "assumption",
+          "stages": {
+            "classification": {
+              "baseline_uncached_usd": 48.33909266222105,
+              "review_upper_uncached_usd": 48.33909266222105,
+              "observed_cache_usd": 47.820129169021335,
+              "review_upper_observed_cache_usd": 47.820129169021335
+            },
+            "extraction": {
+              "baseline_uncached_usd": 179.61693999353554,
+              "review_upper_uncached_usd": 183.85921102544603,
+              "observed_cache_usd": 179.61693999353554,
+              "review_upper_observed_cache_usd": 183.85921102544603
+            },
+            "core": {
+              "baseline_uncached_usd": 227.9560326557566,
+              "review_upper_uncached_usd": 232.19830368766708,
+              "observed_cache_usd": 227.43706916255687,
+              "review_upper_observed_cache_usd": 231.67934019446736
+            }
+          },
+          "per_1000_raw": {
+            "classification": {
+              "baseline_uncached_usd": 1.5105966456944078,
+              "review_upper_uncached_usd": 1.5105966456944078,
+              "observed_cache_usd": 1.4943790365319167,
+              "review_upper_observed_cache_usd": 1.4943790365319167
+            },
+            "extraction": {
+              "baseline_uncached_usd": 5.613029374797986,
+              "review_upper_uncached_usd": 5.745600344545188,
+              "observed_cache_usd": 5.613029374797986,
+              "review_upper_observed_cache_usd": 5.745600344545188
+            },
+            "core": {
+              "baseline_uncached_usd": 7.123626020492393,
+              "review_upper_uncached_usd": 7.256196990239596,
+              "observed_cache_usd": 7.107408411329902,
+              "review_upper_observed_cache_usd": 7.239979381077105
+            }
+          },
+          "estimated_fact_yield": {
+            "observed_relevant": 36797.36941359203,
+            "relevant_or_review": 37782.035803977444
+          },
+          "descriptor_forecast_usd": {
+            "observed_relevant": 123.61616287378573,
+            "relevant_or_review": 126.92402652898673
+          }
+        }
+      ],
+      "global_extraction_conditional": {
+        "baseline_uncached_usd": 0.005999808258540946,
+        "observed_cache_usd": 0.005999808258540946,
+        "facts": 1.2291555624330164
+      }
+    },
+    "descriptor_forecast": {
+      "observed_usd_per_input_fact": 0.003359375,
+      "assumption": "Linear fact packaging transfer; group overhead, repeated synthesis and output growth may invalidate it.",
+      "included_in_core": false
+    },
+    "flags": [
+      {
+        "code": "global_extraction_fallback",
+        "message": "Missing within-stratum extraction uses the population-weighted conditional random mean; exchangeability is assumed.",
+        "stratum": "fr/long"
+      },
+      {
+        "code": "global_extraction_fallback",
+        "message": "Missing within-stratum extraction uses the population-weighted conditional random mean; exchangeability is assumed.",
+        "stratum": "other/medium"
+      }
+    ]
+  },
+  "descriptor_measurement": {
+    "active_paid_calls": 1,
+    "cost_usd": 0.0134375,
+    "input_fact_occurrences": 4,
+    "denominator": "sum of facts in each paid input, not unique facts"
+  },
+  "budget": {
+    "cap_usd": 2,
+    "recorded_plus_outstanding_reserved_usd": 0.3971414000000001,
+    "uncommitted_cap_usd": 1.6028585999999998,
+    "note": "Conservative accounting, not confirmation of provider billing or authorization for further calls."
+  },
+  "aggregation_flags": [],
+  "limitations": [
+    "Snapshot cost forecast; unfinished current-recipe documents are not treated as irrelevant.",
+    "Relevance ambiguity scenarios are not confidence intervals or classification accuracy.",
+    "No guaranteed future cached-token rate. No scoring or whole-research forecast.",
+    "Extraction review/errors are not completed valid fact yields. Descriptor scaling assumes linear fact packaging."
+  ],
+  "provenance": {
+    "manifest_sha256": "bd6712da75618977be67a97e55c53f103e6f3beb404a16b8596ed57f6c589bfb",
+    "results_private_sha256": "de5dba301fd1cba6c03f33d991620356e08a58b3629fb2e7b9fe6de262b3f82b",
+    "source_csv_sha256": "1394ec4690d5cdea535fab41cde6e0734a7d24236bed9dc25d8f469b7ad80919",
+    "summarizer_sha256": "0e1b1e688133e8bb220715ee5ab71977e79b7da5e552b9385c569a4a6825110c",
+    "estimator_sha256": "4f1397465776a70bff6c8ce3815b4c8465a9ae6df2be20b09774e873f3bacd23",
+    "service_sha256": "e80e2905040c5c695c176e0b70ca5a72407f2e3566c73d8f20de0c7330dd0258",
+    "sampling_script_sha256": "3cab6f37f25dbbdbee043099b420b5ac82bfc746b8cedeae17351e5c86fa1a66",
+    "document_population_sha256": "2b59e833761a6d3e959a2a81873e5b15b1517f6314ed2c6e08b0f57169f9dced",
+    "jobs_basis": "saved results_private active_recipe flags, not a live reclassification"
+  }
+}

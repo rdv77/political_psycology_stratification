@@ -16,10 +16,12 @@ import httpx
 DEFAULT_ROUTES = {"relevance": "gpt-4.1-nano", "extract": "gpt-5.1", "describe": "gpt-5.1", "score": "gpt-5.1"}
 DEFAULT_OUTPUT_TOKENS = {"relevance": 512, "extract": 4096, "describe": 6000, "score": 3000}
 DEFAULT_PRICING = {"gpt-4.1-nano": {"input": .10, "cached_input": .025, "output": .40},
+                   "gpt-4.1-mini": {"input": .40, "cached_input": .10, "output": 1.60},
                    "gpt-5.1": {"input": 1.25, "cached_input": .125, "output": 10.}}
 PRICING_SOURCES = ["https://developers.openai.com/api/docs/models/gpt-4.1-nano",
+                   "https://developers.openai.com/api/docs/models/gpt-4.1-mini",
                    "https://developers.openai.com/api/docs/models/gpt-5.1"]
-MODEL_SNAPSHOTS = {"gpt-4.1-nano-2025-04-14": "gpt-4.1-nano", "gpt-5.1-2025-11-13": "gpt-5.1"}
+MODEL_SNAPSHOTS = {"gpt-4.1-nano-2025-04-14": "gpt-4.1-nano", "gpt-4.1-mini-2025-04-14": "gpt-4.1-mini", "gpt-5.1-2025-11-13": "gpt-5.1"}
 KINDS = ["public_statement", "action", "attributed_image", "institutional_context"]
 
 
@@ -33,11 +35,11 @@ def _array(items):
 
 TEXT = {"type": "string", "minLength": 1}
 STRINGS = _array(TEXT)
-SCALE = _obj({"id": TEXT, "name": TEXT, "definition": TEXT, "aliases": STRINGS,
+SCALE = _obj({"id": {"type": "string", "minLength": 1, "pattern": "^[a-z0-9][a-z0-9_-]*$"}, "name": TEXT, "definition": TEXT, "aliases": STRINGS,
               "anchor0": TEXT, "anchor3": TEXT, "anchor5": TEXT, "evidence_ids": STRINGS})
 SCHEMAS = {
     "relevance": _obj({"status": {"type": "string", "enum": ["relevant", "irrelevant", "review"]},
-                        "actor_ids": STRINGS, "language": TEXT, "reason": TEXT}),
+                        "actor_ids": STRINGS, "language": {"type": "string", "enum": ["rw", "en", "fr", "sw", "mixed", "unknown", "other"]}, "reason": TEXT}),
     "extract": _obj({"facts": _array(_obj({"actor_id": TEXT, "quote": TEXT, "claim": TEXT,
         "kind": {"type": "string", "enum": KINDS}, "event_date": {"type": ["string", "null"]},
         "topic": TEXT, "trait_candidates": STRINGS, "capacity": TEXT}))}),
@@ -63,7 +65,14 @@ Use relevant for grounded political/public-image material, irrelevant for unrela
 mentions, review for genuinely ambiguous identity/scope. Return only actors actually referred to,
 not everyone in the roster. Author accounts can identify self-authored speech only if explicit
 trusted author metadata is supplied. Do not require a named theme, Russia or interview wording.
-Do not translate document language into an imagined source language.""",
+Every returned actor must be identified in THIS fragment by an explicit name or unambiguous
+textual reference. A country's government, ministry, national team, collective leadership or
+shared surname does NOT identify every officeholder or the president. Do not replace an
+unlisted speaker with a roster actor. Do not add people because they hold a relevant office.
+For a genuine homonym or no identified roster actor, return irrelevant and actor_ids[].
+Do not translate document language into an imagined source language. Return language ONLY as
+rw=Kinyarwanda, en=English, fr=French, sw=Kiswahili, mixed, unknown, or other.
+Detect language from original text, not the possibly incorrect language_hint metadata.""",
     "extract": """Extract only verifiable source fragments and modest claims about approved actors.
 Every quote MUST be an exact, contiguous, case-sensitive substring of document.text in the
 original language, with no added ellipses or translation. Preserve the actual speaker.
@@ -74,12 +83,23 @@ to an own statement. event_date is a supported ISO date or null, never publicati
 default. capacity distinguishes official, personal, third-party or unknown roles. No facts is valid.
 trait_candidates are exploratory descriptors, never approved scores or new canonical scales.""",
     "describe": """Propose compact reusable unipolar property definitions from the supplied discovery facts.
+Use only the measurement channel in config.aspect: public_positions permits ONLY own
+public_statement/action, public_image ONLY attributed_image. Institutional context is never a
+personal position. Every evidence_ids entry must be selected verbatim from supplied fact IDs.
+IDs must be lowercase ASCII slugs. Return a SMALL list justified by the available material;
+Aliases are plain-language synonyms, never evidence IDs.
+an empty scales list is valid. Definitions must apply to comparable actors in other countries.
+Never put a country, person, local organisation or a particular conflict in a property name.
 Avoid synonyms as separate factors, office/country-specific biographies and invented opposites.
 Choose one comparable abstraction level. Distinguish policy content, communicative style and
 attributed image rather than silently mixing them. A strong instance may come from one episode;
 episode count and corpus coverage are separate from intensity. anchor0 needs explicit relevant
 evidence of non-expression, not missing sources; anchor3 describes a clear concrete manifestation;
 anchor5 describes an explicit central/strong commitment, not five repetitions. Cite supplied fact IDs.
+Never define anchor0 as no mentions, no evidence, absence from the corpus, or an unknown position.
+It must describe an observable relevant choice with non-expression of this property. Do not put
+evidence references inside anchors; they define a reusable rubric, not a rating of these actors.
+Do not combine an actor's self-presentation and other speakers' accusations in the same property.
 If canonical scales already exist in config.scales, reproduce their identity/name/definition/aliases/
 anchors unchanged; they are not yours to approve, rename or extend. With no canonical scales,
 new scales are proposals ONLY and require external human approval before scoring.""",
@@ -122,6 +142,8 @@ def _schema_check(value, schema, path="result"):
     elif isinstance(value, str):
         if len(value.strip()) < schema.get("minLength", 0):
             raise ValueError(f"{path}: empty text")
+        if schema.get("pattern") and not re.search(schema["pattern"], value):
+            raise ValueError(f"{path}: invalid text pattern")
     elif type(value) in (int, float):
         if value < schema.get("minimum", -math.inf) or value > schema.get("maximum", math.inf):
             raise ValueError(f"{path}: number outside allowed range")
@@ -189,6 +211,13 @@ def make_task(stage: str, context: dict, model: str | None = None, max_output_to
         fields = schema["properties"]["ratings"]["items"]["properties"]
         fields["actor_id"] = {"type": "string", "enum": [context["actor_id"]]}
         fields["scale_id"] = {"type": "string", "enum": [scale["id"] for scale in config["scales"]]}
+    if stage in {"describe", "score"}:
+        entries = schema["properties"]["scales" if stage == "describe" else "ratings"]["items"]["properties"]
+        ids = [fact["id"] for fact in context.get("facts", [])]
+        if ids:
+            # STRINGS is shared by aliases/evidence_ids in the template. Replace
+            # this field rather than mutating its shared child after deepcopy.
+            entries["evidence_ids"] = {"type": "array", "items": {"type": "string", "enum": ids}}
     payload = {"model": model, "store": False, "stream": False, "max_output_tokens": maximum,
         "instructions": COMMON + "\n" + PROMPTS[stage] + "\nMeasurement aspect: " + config.get("aspect", "public_positions"),
         "input": [{"role": "user", "content": [{"type": "input_text", "text": json.dumps(context, ensure_ascii=False, allow_nan=False)}]}],
@@ -234,6 +263,8 @@ def validate_result(stage: str, data: dict, context: dict) -> dict:
         for fact in data["facts"]:
             if fact["actor_id"] not in actors or fact["quote"] not in text:
                 raise ValueError("Unapproved actor or fabricated original quote")
+            if context.get("relevance") and fact["actor_id"] not in context["relevance"].get("actor_ids", []):
+                raise ValueError("Extracted actor was not identified in the source fragment")
             if fact["event_date"] is not None:
                 try:
                     date.fromisoformat(fact["event_date"])

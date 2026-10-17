@@ -56,10 +56,24 @@ class CorpusModelsTests(unittest.TestCase):
             broken = deepcopy(fact); broken[field] = value
             with self.assertRaises(ValueError): validate_result("extract", {"facts": [broken]}, c)
 
+    def test_discovery_evidence_enum_does_not_restrict_alias_synonyms(self):
+        fields = make_task("describe", context())["text"]["format"]["schema"]["properties"]["scales"]["items"]["properties"]
+        self.assertEqual(fields["evidence_ids"]["items"]["enum"], ["f1"])
+        self.assertNotIn("enum", fields["aliases"]["items"])
+        self.assertIn("pattern", fields["id"])
+
     def test_relevance_cannot_invent_or_duplicate_roster_ids(self):
         for ids in [["foreign"], ["a", "a"], []]:
             with self.assertRaises(ValueError):
                 validate_result("relevance", {"status": "relevant", "actor_ids": ids, "language": "en", "reason": "Test"}, context())
+
+    def test_extraction_cannot_substitute_another_roster_actor(self):
+        c = context()
+        c["relevance"] = {"actor_ids": ["a"]}
+        fact = {"actor_id": "b", "quote": "Revise the programme.", "claim": "Proposal", "kind": "public_statement",
+                "event_date": None, "topic": "policy", "trait_candidates": [], "capacity": "official"}
+        with self.assertRaises(ValueError):
+            validate_result("extract", {"facts": [fact]}, c)
 
     def test_score_exact_scales_values_statuses_and_finite_numbers(self):
         c = context()

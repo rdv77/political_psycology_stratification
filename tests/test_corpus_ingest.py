@@ -73,6 +73,54 @@ class CorpusIngestTests(unittest.TestCase):
         with self.assertRaises(ValueError):
             list(iter_documents(path, {"invented": "headline"}))
 
+    def test_new_russian_export_headers_import_actual_body_dates_links_and_author(self):
+        columns = ["№", "Время публикации", "Заголовок", "Текст сообщения", "Распознанный текст",
+                   "Ссылка на сообщение", "Площадка", "Кто пишет", "Язык", "Id сообщения"]
+        rows = [["1", "17.10.2026\u00a016:54", "", "Полный текст: не поддерживает решение.\nÉconomie عربية", "",
+                 "https://example.invalid/post/1", "Test outlet", "Synthetic author", "fr", "1.23456789012345E+25"],
+                ["2", "15.10.2026\u00a000:05", "Короткий заголовок", "Самостоятельный полный текст", "OCR дополнение",
+                 "https://example.invalid/post/2", "Test outlet", "Synthetic author", "rw", "99999999999999999999999"]]
+        path = self.write_csv(columns, rows)
+        before = path.read_bytes()
+        info = inspect_csv(path)
+        expected = {"message": "Текст сообщения", "published_at": "Время публикации",
+                    "url": "Ссылка на сообщение", "author": "Кто пишет", "ocr_text": "Распознанный текст"}
+        for field, header in expected.items():
+            self.assertEqual(info["field_mapping"][field], header)
+        self.assertEqual((info["rows_total"], info["rows_with_text"], info["empty_rows"]), (2, 2, 0))
+        self.assertEqual(info["warnings"], [])
+        docs = list(iter_documents(path))
+        self.assertIn("не поддерживает решение", docs[0]["text"])
+        self.assertEqual(docs[0]["published_at"], rows[0][1])
+        self.assertEqual(docs[0]["url"], rows[0][5])
+        self.assertEqual(docs[0]["author"], rows[0][7])
+        self.assertEqual(docs[0]["source_id"], rows[0][9])
+        self.assertEqual(docs[0]["metadata"]["Текст сообщения"], rows[0][3])
+        self.assertIn("=== OCR ===\nOCR дополнение", docs[1]["text"])
+        self.assertEqual(path.read_bytes(), before)
+
+    def test_missing_or_empty_main_body_is_not_silent_title_only_success(self):
+        path = self.write_csv(["Заголовок", "unmapped body", "Распознанный текст"],
+                              [["Visible title", "Private original body", "OCR"]])
+        info = inspect_csv(path)
+        self.assertEqual(info["rows_with_text"], 1)
+        self.assertIsNone(info["field_mapping"]["message"])
+        self.assertTrue(any("Primary message column was not recognized" in x for x in info["warnings"]))
+        self.assertNotIn("Private original body", str(info))
+        path = self.write_csv(["Заголовок", "Текст сообщения"], [["Visible title", "<p> </p>"]])
+        info = inspect_csv(path)
+        self.assertTrue(any("titles/OCR only" in x for x in info["warnings"]))
+
+    def test_specific_message_headers_take_precedence_over_generic_columns(self):
+        path = self.write_csv(["Сообщение", "Текст сообщения", "Ссылка", "Ссылка на сообщение", "Дата", "Время публикации", "Автор", "Кто пишет"],
+                              [["Short legacy field", "Full original body", "https://example.invalid/other", "https://example.invalid/post", "Legacy date", "17.10.2026\u00a016:54", "Legacy", "Actual author"]])
+        doc = next(iter_documents(path))
+        self.assertIn("Full original body", doc["text"])
+        self.assertNotIn("Short legacy field", doc["text"])
+        self.assertEqual(doc["url"], "https://example.invalid/post")
+        self.assertEqual(doc["published_at"], "17.10.2026\u00a016:54")
+        self.assertEqual(doc["author"], "Actual author")
+
     def test_duplicate_headers_extra_and_missing_cells_preserve_strings(self):
         path = self.write_csv(["text", "text", "id"], [["first", "second", "1", "extra"], ["third"]])
         info = inspect_csv(path)

@@ -4,6 +4,7 @@ import json
 from pathlib import Path
 import tempfile
 import unittest
+from unittest.mock import patch
 
 from src.corpus_pipeline.service import CorpusPipeline, chunks, digest
 from src.corpus_pipeline.models import ModelResponseError
@@ -72,6 +73,27 @@ class CorpusServiceTests(unittest.TestCase):
         self.assertEqual(client.calls, 0)
         self.assertEqual(self.pipeline.get_corpus(self.identifier)["jobs"]["pending"], 2)
 
+    def test_explicit_document_selection_is_not_first_n(self):
+        selected = self.pipeline.documents(self.identifier)["documents"][2]["id"]
+        result = self.pipeline.prepare(self.identifier, document_ids=[selected])
+        self.assertEqual(result["created"], 1)
+        with self.pipeline.connection() as db:
+            context = json.loads(db.execute("SELECT context FROM jobs").fetchone()[0])
+        self.assertEqual(context["document"]["id"], selected)
+        with self.assertRaises(ValueError):
+            self.pipeline.prepare(self.identifier, document_ids=["another-corpus-document"])
+
+    def test_corpus_budget_includes_previous_runs_and_uncertain_reservations(self):
+        self.pipeline.prepare(self.identifier, limit=1)
+        with self.pipeline.connection() as db:
+            db.execute("UPDATE jobs SET status='uncertain',reserved_usd=.009 WHERE corpus_id=?", (self.identifier,))
+        self.pipeline.configure(self.identifier, {"budget_limit_usd": .009000001})
+        self.pipeline.prepare(self.identifier, limit=1)
+        client = FixedClient(self.relevant())
+        result = self.pipeline.run(self.identifier, budget_usd=1, client=client)
+        self.assertEqual(result["stopped_reason"], "corpus_budget_reservation")
+        self.assertEqual(client.calls, 0)
+
     def test_restart_reuses_completed_tasks_and_retains_usage(self):
         self.pipeline.prepare(self.identifier, limit=1)
         client = FixedClient(self.relevant())
@@ -81,6 +103,19 @@ class CorpusServiceTests(unittest.TestCase):
         self.assertEqual(result["attempted"], 0)
         self.assertEqual(client.calls, 1)
         self.assertEqual(restarted.get_corpus(self.identifier)["usage"]["input_tokens"], 100)
+
+    def test_unsupported_identity_is_paid_review_and_cannot_reach_extraction(self):
+        self.pipeline.prepare(self.identifier, limit=1)
+        unsupported = dict(self.relevant(), actor_ids=["beta"])
+        result = self.pipeline.run(self.identifier, budget_usd=1, client=FixedClient(unsupported))
+        self.assertEqual(result["review"], 1)
+        self.assertEqual(result["completed"], 0)
+        with self.pipeline.connection() as db:
+            row = db.execute("SELECT result,cost_usd FROM jobs").fetchone()
+        self.assertEqual(json.loads(row["result"])["actor_ids"], ["beta"])
+        self.assertIn("Identity guard", json.loads(row["result"])["reason"])
+        self.assertGreater(row["cost_usd"], 0)
+        self.assertEqual(self.pipeline.prepare(self.identifier, stage="extract")["created"], 0)
 
     def test_new_rubric_does_not_invalidate_relevance(self):
         before = self.pipeline._recipe("relevance", self.corpus["config"])
@@ -96,6 +131,15 @@ class CorpusServiceTests(unittest.TestCase):
         result = self.pipeline.configure(self.identifier, {"scope": "A different public space"})
         self.assertEqual(result["jobs"]["obsolete"], 2)
         self.assertEqual(self.pipeline.prepare(self.identifier)["created"], 2)
+
+    def test_changed_task_contract_cannot_reuse_old_predictions(self):
+        self.pipeline.prepare(self.identifier, limit=1)
+        before = self.pipeline._recipe("relevance", self.corpus["config"])
+        from src.corpus_pipeline.models import PROMPTS
+        with patch.dict(PROMPTS, {"relevance": PROMPTS["relevance"] + " New coding rule."}):
+            after = self.pipeline._recipe("relevance", self.corpus["config"])
+            self.assertNotEqual(before, after)
+            self.assertEqual(self.pipeline.prepare(self.identifier, limit=1)["created"], 1)
 
     def test_paid_invalid_output_is_review_and_still_accounted(self):
         self.pipeline.prepare(self.identifier, limit=1)
@@ -212,6 +256,27 @@ class CorpusServiceTests(unittest.TestCase):
         self.assertEqual(self.pipeline.get_corpus(self.identifier)["counts"]["ratings"], 0)
         exported = self.pipeline.export(self.identifier)
         self.assertEqual(json.loads((Path(exported["directory"]) / "ratings.json").read_text(encoding="utf-8")), [])
+
+    def test_discovery_isolates_channel_and_respects_curated_evidence_selection(self):
+        self.pipeline.prepare(self.identifier, limit=1)
+        self.pipeline.run(self.identifier, client=FixedClient(self.relevant()), budget_usd=1)
+        self.pipeline.prepare(self.identifier, stage="extract")
+        base = {"actor_id": "alpha", "quote": "Alpha North proposes a specific tax reform.",
+                "claim": "Specific proposal", "event_date": None, "topic": "tax",
+                "trait_candidates": [], "capacity": "official"}
+        self.pipeline.run(self.identifier, client=FixedClient({"facts": [dict(base, kind=kind)
+                          for kind in ("public_statement", "action", "attributed_image", "institutional_context")]}), budget_usd=1)
+        config = self.pipeline.get_corpus(self.identifier)["config"]
+        facts = self.pipeline._facts(self.identifier, config)
+        selected = next(f["id"] for f in facts if f["kind"] == "public_statement")
+        self.pipeline.prepare(self.identifier, stage="describe")
+        self.pipeline.prepare(self.identifier, stage="describe", fact_ids=[selected])
+        with self.pipeline.connection() as db:
+            groups = [json.loads(row[0])["facts"] for row in db.execute("SELECT context FROM jobs WHERE stage='describe'")]
+        self.assertEqual(sorted(len(group) for group in groups), [1, 2])
+        self.assertTrue(all(f["kind"] in {"public_statement", "action"} for group in groups for f in group))
+        with self.assertRaises(ValueError):
+            self.pipeline.prepare(self.identifier, stage="describe", fact_ids=["foreign-evidence"])
 
 
 if __name__ == "__main__":

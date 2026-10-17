@@ -19,9 +19,10 @@ import threading
 import uuid
 
 from .ingest import inspect_csv, iter_documents, exact_fingerprint, near_duplicate_pairs
-from .models import (DEFAULT_PRICING, DEFAULT_ROUTES, ModelResponseError,
+from .identity import IDENTITY_POLICY_VERSION, ground_relevance
+from .models import (DEFAULT_PRICING, DEFAULT_ROUTES, ModelResponseError, COMMON, PROMPTS, SCHEMAS,
                      OpenAIResponsesHTTP, estimate_cost, make_task,
-                     payload_input_bound, validate_result)
+                     payload_input_bound, validate_result, _eligible_fact)
 
 
 VERSION = "corpus-v1"
@@ -149,7 +150,7 @@ class CorpusPipeline:
         config = {"scope": "", "aspect": "public_positions", "objects": [], "languages": [],
                   "date_from": "", "date_to": "", "country_terms": [], "scales": [],
                   "scales_approved": False, "routes": dict(DEFAULT_ROUTES),
-                  "pricing": json.loads(packed(DEFAULT_PRICING))}
+                  "pricing": json.loads(packed(DEFAULT_PRICING)), "budget_limit_usd": None}
         supplied = supplied or {}
         if not isinstance(supplied, dict):
             raise ValueError("Настройки корпуса должны быть JSON-объектом")
@@ -158,6 +159,10 @@ class CorpusPipeline:
         if unknown:
             raise ValueError("Неизвестные поля настроек корпуса: " + ", ".join(sorted(unknown)))
         config.update(supplied)
+        cap = config["budget_limit_usd"]
+        if cap is not None and (isinstance(cap, bool) or not isinstance(cap, (int, float))
+                                or not math.isfinite(cap) or cap <= 0):
+            raise ValueError("Общий бюджет корпуса должен быть положительным числом или null")
         if config["aspect"] not in {"public_positions", "public_image"}:
             raise ValueError("aspect: public_positions или public_image")
         if not isinstance(config["scope"], str) or len(config["scope"]) > 6000:
@@ -219,6 +224,8 @@ class CorpusPipeline:
             base.update(scales=config["scales"], approved=config["scales_approved"],
                         rubric_version=config.get("rubric_version", "1"))
         return digest({"version": VERSION, "stage": stage, "config": base,
+                       "task_contract": {"instructions": COMMON + PROMPTS[stage], "schema": SCHEMAS[stage],
+                                         "identity_policy": IDENTITY_POLICY_VERSION},
                        "model": config["routes"][stage], "max_output_tokens": MAX_OUTPUT[stage]})
 
     def _task_config(self, stage, config):
@@ -395,11 +402,25 @@ class CorpusPipeline:
             return "outside_period"
         return None
 
-    def prepare(self, identifier, stage="relevance", limit=100):
+    def prepare(self, identifier, stage="relevance", limit=100, *, document_ids=None, fact_ids=None):
         if stage not in STAGES or not 1 <= int(limit) <= 5000:
             raise ValueError("Неизвестный этап или limit вне 1–5000")
         corpus, created, excluded = self._row(identifier), 0, 0
         config = corpus["config"]
+        if fact_ids is not None and (stage != "describe" or not isinstance(fact_ids, (list, tuple, set))
+                                     or not fact_ids or any(not isinstance(x, str) for x in fact_ids)):
+            raise ValueError("Выбор свидетельств поддерживается только для describe; задайте непустые ID")
+        selected = None
+        if document_ids is not None:
+            if stage not in {"relevance", "extract"} or not isinstance(document_ids, (list, tuple, set)):
+                raise ValueError("Выбор документов поддерживается для relevance/extract")
+            selected = set(document_ids)
+            if not selected or any(not isinstance(x, str) for x in selected):
+                raise ValueError("Задайте непустой список ID документов")
+            with self.connection() as db:
+                known = {row[0] for row in db.execute("SELECT id FROM documents WHERE corpus_id=? AND status='unique'", (identifier,))}
+            if not selected <= known:
+                raise ValueError("Пилот может выбирать только уникальные документы этого корпуса")
         if not config["scope"].strip() or not config["objects"]:
             raise ValueError("Перед смысловой обработкой задайте пространство и список объектов")
         if stage == "score" and not config["scales_approved"]:
@@ -411,6 +432,8 @@ class CorpusPipeline:
                 rows = db.execute("SELECT data FROM documents WHERE corpus_id=? AND status='unique' ORDER BY source_row", (identifier,)).fetchall()
             for row in rows:
                 document = json.loads(row[0])
+                if selected is not None and document["id"] not in selected:
+                    continue
                 if self._rule_exclusion(document, config):
                     excluded += 1
                     continue
@@ -427,6 +450,8 @@ class CorpusPipeline:
                 result = json.loads(row["result"])
                 if result.get("status") == "relevant":
                     context = json.loads(row["context"])
+                    if selected is not None and context["document"]["id"] not in selected:
+                        continue
                     contexts.append((row["unit_id"], {"document": context["document"],
                                                       "relevance": result, "relevance_job_id": row["id"]}))
         else:
@@ -434,10 +459,16 @@ class CorpusPipeline:
             if not facts:
                 raise ValueError("Сначала получите проверяемые фрагменты этапа extract")
             if stage == "describe":
+                if fact_ids is not None and not set(fact_ids) <= {fact["id"] for fact in facts}:
+                    raise ValueError("Выбирайте только активные свидетельства этого корпуса")
+                facts = [fact for fact in facts if _eligible_fact(fact, config)
+                         and (fact_ids is None or fact["id"] in set(fact_ids))]
+                if not facts:
+                    raise ValueError("Нет свидетельств выбранного режима измерения для словаря")
                 # Hierarchical discovery: disjoint deterministic groups; no first-N truncation.
                 for index in range(0, len(facts), 60):
                     group = facts[index:index + 60]
-                    contexts.append(("facts-" + digest([fact["id"] for fact in group])[:20],
+                    contexts.append(("facts-" + digest(group)[:20],
                                      {"facts": group, "facts_snapshot_sha": digest(group), "draft_only": True}))
             else:
                 for actor in config["objects"]:
@@ -541,6 +572,13 @@ class CorpusPipeline:
                 if used + reservation > budget_usd + 1e-12:
                     summary["stopped_reason"] = "budget_reservation"
                     break
+                if config.get("budget_limit_usd") is not None:
+                    committed = db.execute("""SELECT COALESCE(SUM(cost_usd),0) +
+                        COALESCE(SUM(CASE WHEN status IN ('running','uncertain') THEN reserved_usd ELSE 0 END),0)
+                        FROM jobs WHERE corpus_id=?""", (identifier,)).fetchone()[0]
+                    if committed + reservation > config["budget_limit_usd"] + 1e-12:
+                        summary["stopped_reason"] = "corpus_budget_reservation"
+                        break
                 db.execute("UPDATE jobs SET status='running',started_at=?,reserved_usd=? WHERE id=?", (now(), reservation, job["id"]))
             attempted += 1
             response, usage, charge, status, error = None, {}, 0.0, "done", None
@@ -551,6 +589,7 @@ class CorpusPipeline:
                                        cached_input_tokens=usage.get("input_tokens_details", {}).get("cached_tokens", 0), pricing=config["pricing"])
                 data = validate_result(job["stage"], response["data"], context)
                 if job["stage"] == "relevance":
+                    data = ground_relevance(data, context)
                     allowed = {LANGUAGES.get(x.casefold(), x.casefold()) for x in config["languages"]}
                     actual = LANGUAGES.get(data.get("language", "").casefold(), data.get("language", "").casefold())
                     if allowed and actual not in allowed:
@@ -565,7 +604,7 @@ class CorpusPipeline:
                                         and 400 <= exc.status < 500)
                 status = ("uncertain" if getattr(exc, "uncertain", False) or (not usage and not known_http_rejection)
                           else "review" if usage else "error")
-                error = str(exc)
+                error = str(exc) + (f" HTTP {exc.status}" if isinstance(getattr(exc, "status", None), int) else "")
                 if usage and "input_tokens" in usage and "output_tokens" in usage:
                     charge = estimate_cost(payload["model"], usage["input_tokens"], usage["output_tokens"],
                                            cached_input_tokens=usage.get("input_tokens_details", {}).get("cached_tokens", 0), pricing=config["pricing"])
