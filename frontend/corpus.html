@@ -27,7 +27,7 @@
           <div class="grid"><label>Название корпуса<input id="import-title" placeholder="Материалы о политических акторах"></label><label>Исследование <span class="muted">необязательно</span><select id="import-study"><option value="">Самостоятельный корпус</option></select></label></div>
           <label>Абсолютный путь к CSV на этом компьютере<input id="import-path" required placeholder="C:\Users\USER\Downloads\materials.csv" autocomplete="off" spellcheck="false"></label>
           <p class="hint">Файл читается локальным сервером. Импорт не вызывает API. Настройки выбранного исследования копируются; само исследование не меняется.</p>
-          <p class="hint">Новый корпус получает экономный режим: до 1500 токенов вокруг имён на публикацию и сокращённый справочник. После импорта настройки можно изменить.</p>
+          <p class="hint">Новый корпус получает экономный режим: до 1500 токенов вокруг имён, до 6000 для длинных интервью и редко представленных политиков, сокращённый справочник. После импорта настройки можно изменить.</p>
           <details><summary class="small-summary">Сопоставление столбцов вручную</summary><label>JSON сопоставления<textarea id="import-mapping" rows="3" spellcheck="false" placeholder='{"text":"Текст", "title":"Заголовок", "url":"URL"}'></textarea></label></details>
           <div class="actions"><button class="button" id="import-submit">Импортировать CSV</button></div>
         </form>
@@ -46,6 +46,8 @@
             <h3>Объём передаваемого текста</h3>
             <div class="grid"><label>Какие фрагменты использовать<select id="text-mode"><option value="full">Полный текст</option><option value="head">Начало публикации</option><option value="mentions">Контекст вокруг имён политиков</option></select></label><label>Лимит текста на публикацию · токены<input id="text-max-tokens" type="number" min="100" max="16000" step="100" value="1000"></label></div>
             <label class="checkbox"><input type="checkbox" id="compact-roster"><span>В запросе перечислять только упомянутых политиков</span></label>
+            <label class="checkbox"><input type="checkbox" id="adaptive-context"><span>Расширять контекст для длинных интервью и редко упоминаемых политиков</span></label>
+            <label>Расширенный лимит на публикацию · токены<input id="expanded-max-tokens" type="number" min="1500" max="6000" step="500" value="6000"></label>
             <p class="hint">Для контекста выбираются имена и утверждённые варианты их написания. Лимит общий для всех фрагментов одной публикации; в режиме полного текста он не применяется. Инструкции и ответ оплачиваются отдельно. Без локального токенизатора применяется более строгий лимит по байтам. Исходный текст сохраняется целиком.</p>
             <h3>Модели по этапам</h3><p class="hint">Можно выбрать недорогую модель для отбора материалов и отдельную модель для извлечения и интерпретации. Ключи задаются на сервере.</p>
             <div id="routes" class="grid routes"></div>

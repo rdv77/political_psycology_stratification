@@ -25,6 +25,7 @@ from .evidence import EVIDENCE_POLICY_VERSION, normalize_extraction
 from .rubrics import RUBRIC_POLICY_VERSION, normalize_discovery, intensity_rubric_issues
 from .excerpts import EXCERPT_POLICY_VERSION, offline_encoding, select_spans_with_metadata
 from .source_spans import document_texts, fact_span
+from .context_policy import CONTEXT_POLICY_VERSION, select_document_context, actor_mentions
 from .models import (DEFAULT_PRICING, DEFAULT_ROUTES, ModelResponseError, COMMON, PROMPTS, SCHEMAS,
                      OpenAIResponsesHTTP, estimate_cost, make_task,
                      payload_input_bound, validate_result, _eligible_fact, EXCERPT_INSTRUCTIONS)
@@ -114,7 +115,7 @@ def source_context(document):
     """Only coarse content provenance; never forward demographic metadata."""
     metadata = document.get("metadata", {})
     raw = str(next((metadata[k] for k in ("Тип", "Тип сообщения", "message_type", "source_type") if metadata.get(k)), "")).casefold()
-    kind = "comment" if raw in {"комментарий", "comment", "reply"} else "repost" if raw in {"репост", "repost", "retweet"} else "article" if raw in {"статья", "article", "news"} else "post" if raw in {"пост", "post"} else "unknown"
+    kind = "comment" if raw in {"комментарий", "comment", "reply"} else "repost" if raw in {"репост", "репосты с дополнением", "репост с дополнением", "repost", "retweet", "quote tweet"} else "article" if raw in {"статья", "article", "news"} else "post" if raw in {"пост", "post"} else "unknown"
     platform = str(metadata.get("Тип площадки", "")).casefold()
     return {"source_type": kind, "source_platform": "social" if platform == "соцсеть" else "media" if platform in {"сми", "медиа"} else "unknown",
             "author_is_verified_actor": False}
@@ -201,11 +202,16 @@ class CorpusPipeline:
             raise ValueError("Неизвестные поля настроек корпуса: " + ", ".join(sorted(unknown)))
         config.update(supplied)
         policy = config["text_selection"]
-        if (not isinstance(policy, dict) or set(policy) - {"mode", "max_tokens", "compact_roster"}
+        if (not isinstance(policy, dict) or set(policy) - {"mode", "max_tokens", "compact_roster", "adaptive", "expanded_max_tokens"}
                 or policy.get("mode") not in {"full", "head", "mentions"}
                 or type(policy.get("max_tokens")) is not int or not 100 <= policy["max_tokens"] <= 16000
-                or type(policy.get("compact_roster", False)) is not bool):
+                or type(policy.get("compact_roster", False)) is not bool
+                or type(policy.get("adaptive", False)) is not bool):
             raise ValueError("text_selection: mode full/head/mentions, max_tokens 100–16000, compact_roster true/false")
+        if policy.get("adaptive") and (policy["mode"] != "mentions"
+                or type(policy.get("expanded_max_tokens", 6000)) is not int
+                or not policy["max_tokens"] <= policy.get("expanded_max_tokens", 6000) <= 6000):
+            raise ValueError("Расширенный контекст: режим mentions и expanded_max_tokens от базового лимита до 6000")
         cap = config["budget_limit_usd"]
         if cap is not None and (isinstance(cap, bool) or not isinstance(cap, (int, float))
                                 or not math.isfinite(cap) or cap <= 0):
@@ -266,7 +272,11 @@ class CorpusPipeline:
         if selection["mode"] != "full" or selection.get("compact_roster"):
             # Missing/default full selection preserves existing recipes and paid
             # receipts; any bounded policy has its own downstream lineage.
-            base["text_selection"] = {**selection, "version": EXCERPT_POLICY_VERSION,
+            stable_selection = {k: v for k, v in selection.items() if k not in {"adaptive", "expanded_max_tokens"}}
+            if selection.get("adaptive"):
+                stable_selection.update(adaptive=True, expanded_max_tokens=selection.get("expanded_max_tokens", 6000),
+                                        context_policy_version=CONTEXT_POLICY_VERSION)
+            base["text_selection"] = {**stable_selection, "version": EXCERPT_POLICY_VERSION,
                                       "instructions": EXCERPT_INSTRUCTIONS}
             if selection["mode"] != "full":
                 encoding = offline_encoding(self.runtime / "tokenizer_cache")
@@ -548,16 +558,28 @@ class CorpusPipeline:
             encoding = offline_encoding(self.runtime / "tokenizer_cache") if policy["mode"] != "full" else None
             with self.connection() as db:
                 rows = db.execute("SELECT data FROM documents WHERE corpus_id=? AND status='unique' ORDER BY source_row", (identifier,)).fetchall()
-            for row in rows:
-                document = json.loads(row[0])
+            documents = [json.loads(row[0]) for row in rows]
+            actor_counts, eligible_count = {}, 0
+            if policy.get("adaptive"):
+                actor_counts = {obj["id"]: 0 for obj in config["objects"]}
+                for document in documents:
+                    if not self._rule_exclusion(document, config):
+                        eligible_count += 1
+                        for actor_id in actor_mentions(document["text"], config["objects"]):
+                            actor_counts[actor_id] += 1
+            for document in documents:
                 if selected is not None and document["id"] not in selected:
                     continue
                 if self._rule_exclusion(document, config):
                     excluded += 1
                     continue
                 if policy["mode"] != "full":
-                    selection = select_spans_with_metadata(document["text"], config["objects"],
-                                                          mode=policy["mode"], max_tokens=policy["max_tokens"], encoding=encoding)
+                    if policy.get("adaptive"):
+                        selection = select_document_context(document, config["objects"], actor_counts, eligible_count,
+                            {"base_max_tokens": policy["max_tokens"], "expanded_max_tokens": policy.get("expanded_max_tokens", 6000)}, encoding)
+                    else:
+                        selection = select_spans_with_metadata(document["text"], config["objects"],
+                                                              mode=policy["mode"], max_tokens=policy["max_tokens"], encoding=encoding)
                     fragment = {key: document.get(key, "") for key in
                                 ("id", "title", "url", "published_at", "source_name", "author", "language_hint")}
                     fragment["excerpts"] = [{key: span[key] for key in ("start", "end", "text")}

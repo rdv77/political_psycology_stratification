@@ -28,7 +28,7 @@ _FIELD_ALIASES = {
     "title": ("Заголовок", "title", "headline", "subject"),
     "message": ("Текст сообщения", "Сообщение", "Текст", "message", "text", "body", "content", "full_text", "article_text"),
     "ocr_text": ("Автораспознанный текст", "Распознанный текст", "OCR", "ocr_text", "recognized_text", "auto_recognized_text"),
-    "published_at": ("Время публикации", "Дата публикации", "Дата", "published_at", "published", "publication_date", "date", "created_at", "timestamp"),
+    "published_at": ("Дата публикации", "Время публикации", "Дата", "published_at", "published", "publication_date", "date", "created_at", "timestamp"),
     "source_name": ("Площадка", "Источник", "source_name", "source", "platform", "outlet", "site"),
     "author": ("Кто пишет", "Автор", "author", "author_name", "username", "user_name"),
     "language_hint": ("Язык", "Язык сообщения", "language_hint", "language", "lang", "language_code"),
@@ -275,6 +275,19 @@ def inspect_csv(path: str | Path) -> dict[str, Any]:
             "field_mapping": mapping, "warnings": warnings, "source_sha256": layout.sha256}
 
 
+def combine_publication_date(date_value: str, time_value: str) -> str:
+    """Combine explicit split date/time only; never invent a day or timezone.
+
+    Source metadata retains both original cells. A full timestamp, time-only
+    export, malformed value or ambiguous date is returned unchanged.
+    """
+    date_value, time_value = str(date_value or "").strip(), str(time_value or "").strip()
+    if (re.fullmatch(r"(?:\d{2}\.\d{2}\.\d{4}|\d{4}-\d{2}-\d{2})", date_value)
+            and re.fullmatch(r"(?:[01]\d|2[0-3]):[0-5]\d(?::[0-5]\d)?", time_value)):
+        return date_value + " " + time_value
+    return date_value
+
+
 def iter_documents(path: str | Path, mapping: Mapping[str, str | None] | None = None) -> Iterator[dict[str, Any]]:
     """Yield every parsed record, preserving original column values as strings.
 
@@ -291,9 +304,13 @@ def iter_documents(path: str | Path, mapping: Mapping[str, str | None] | None = 
             column = fields[field]
             return row[positions[column]] if column is not None and positions[column] < len(row) else ""
         parts = [("TITLE", cell("title")), ("MESSAGE", cell("message")), ("OCR", cell("ocr_text"))]
+        time_column = next((column for column in ("Время публикации", "publication_time", "time")
+                            if column in positions and column != fields["published_at"]), None)
+        published = combine_publication_date(cell("published_at"),
+            row[positions[time_column]] if time_column is not None and positions[time_column] < len(row) else "")
         yield {"source_row": number, "source_id": cell("source_id").strip(), "url": cell("url").strip(),
                "title": normalize_text(cell("title")), "raw_text": _compose(parts, cleaned=False),
-               "text": _compose(parts, cleaned=True), "published_at": cell("published_at").strip(),
+               "text": _compose(parts, cleaned=True), "published_at": published,
                "source_name": cell("source_name").strip(), "author": cell("author").strip(),
                "language_hint": cell("language_hint").strip(), "metadata": _metadata(layout.columns, row)}
 

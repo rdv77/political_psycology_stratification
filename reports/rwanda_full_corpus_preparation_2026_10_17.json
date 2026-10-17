@@ -1,0 +1,1883 @@
+{
+  "version": "full-corpus-preparation-v1",
+  "created_at": "2026-10-17T18:13:10.239281+00:00",
+  "corpus_id": "corpus-b2d1452fae0acf9c20f5",
+  "source_sha256": "c5b5a66357ca73ef4349f0d66496823c13dfb1bfa8ff2ef53902ab1664d24674",
+  "raw_records": 24605,
+  "input_encoding": "utf-8-sig",
+  "csv_columns": 49,
+  "split_publication_date_time": {
+    "repair_count_this_run": 0,
+    "separate_raw_cells_preserved": true,
+    "timezone_inferred": false
+  },
+  "import_status_counts": {
+    "unique": 24410,
+    "exact_duplicate": 195
+  },
+  "cleaning": {
+    "documents": 24410,
+    "status_counts": {
+      "needs_semantic_review": 889,
+      "ready_for_semantic_filter": 23521
+    },
+    "reason_counts": {
+      "country_not_matched": 46,
+      "no_known_actor_name": 705,
+      "offline_checks_passed": 23521,
+      "unknown_language_hint": 138
+    },
+    "flag_counts": {
+      "country_not_matched": 137,
+      "missing_country_with_actor_match": 48,
+      "no_known_actor_name": 705,
+      "unknown_language_hint": 147
+    },
+    "actor_document_counts": {
+      "albert-murasira": 32,
+      "alvera-mukabaramba": 3,
+      "augustin-iyamuremye": 2,
+      "bernard-ntaganda": 2,
+      "christopher-kayumba": 1,
+      "clare-akamanzi": 116,
+      "claver-gatete": 72,
+      "diane-rwigara": 16,
+      "donatille-mukabalisa": 8,
+      "edouard-ngirente": 17,
+      "emmanuel-ugirashebuja": 179,
+      "francis-gatare": 35,
+      "francois-xavier-kalinda": 15,
+      "frank-habineza": 32,
+      "gerardine-mukeshimana": 53,
+      "gertrude-kazarwa": 19,
+      "ildephonse-musafiri": 5,
+      "ines-mpambara": 1,
+      "james-kabarebe": 214,
+      "jean-claude-musabyimana": 2,
+      "jean-damascene-bizimana": 86,
+      "jeanne-darc-mujawamariya": 2,
+      "judith-uwizeye": 5,
+      "justin-nsengiyumva": 463,
+      "juvenal-marizamunda": 114,
+      "kayumba-nyamwasa": 10,
+      "louise-mushikiwabo": 436,
+      "mussa-fazil-harerimana": 5,
+      "olivier-nduhungirehe": 1632,
+      "paul-kagame": 20289,
+      "paul-rusesabagina": 99,
+      "paula-ingabire": 304,
+      "pudence-rubingisa": 19,
+      "sabin-nsanzimana": 231,
+      "samuel-dusengiyumva": 41,
+      "uzziel-ndagijimana": 10,
+      "valentine-rugwabiza": 8,
+      "valentine-uwamariya": 19,
+      "victoire-ingabire": 147,
+      "vincent-biruta": 126,
+      "yusuf-murangwa": 257
+    },
+    "actor_document_counts_by_status": {
+      "ready_for_semantic_filter": {
+        "albert-murasira": 32,
+        "alvera-mukabaramba": 3,
+        "augustin-iyamuremye": 2,
+        "bernard-ntaganda": 2,
+        "christopher-kayumba": 1,
+        "clare-akamanzi": 116,
+        "claver-gatete": 72,
+        "diane-rwigara": 16,
+        "donatille-mukabalisa": 8,
+        "edouard-ngirente": 15,
+        "emmanuel-ugirashebuja": 179,
+        "francis-gatare": 35,
+        "francois-xavier-kalinda": 15,
+        "frank-habineza": 32,
+        "gerardine-mukeshimana": 53,
+        "gertrude-kazarwa": 19,
+        "ildephonse-musafiri": 5,
+        "ines-mpambara": 1,
+        "james-kabarebe": 213,
+        "jean-claude-musabyimana": 2,
+        "jean-damascene-bizimana": 86,
+        "jeanne-darc-mujawamariya": 2,
+        "judith-uwizeye": 5,
+        "justin-nsengiyumva": 456,
+        "juvenal-marizamunda": 113,
+        "kayumba-nyamwasa": 10,
+        "louise-mushikiwabo": 435,
+        "mussa-fazil-harerimana": 5,
+        "olivier-nduhungirehe": 1621,
+        "paul-kagame": 20124,
+        "paul-rusesabagina": 99,
+        "paula-ingabire": 303,
+        "pudence-rubingisa": 19,
+        "sabin-nsanzimana": 231,
+        "samuel-dusengiyumva": 41,
+        "uzziel-ndagijimana": 10,
+        "valentine-rugwabiza": 8,
+        "valentine-uwamariya": 19,
+        "victoire-ingabire": 146,
+        "vincent-biruta": 126,
+        "yusuf-murangwa": 257
+      },
+      "needs_semantic_review": {
+        "edouard-ngirente": 2,
+        "james-kabarebe": 1,
+        "justin-nsengiyumva": 7,
+        "juvenal-marizamunda": 1,
+        "louise-mushikiwabo": 1,
+        "olivier-nduhungirehe": 11,
+        "paul-kagame": 165,
+        "paula-ingabire": 1,
+        "victoire-ingabire": 1
+      },
+      "rule_excluded": {}
+    }
+  },
+  "rule_exclusions": {},
+  "kept_for_semantic_screening": 24410,
+  "source_type_counts": {
+    "comment": 5969,
+    "article": 12123,
+    "repost": 1681,
+    "post": 4637
+  },
+  "language_hints_unverified": {
+    "Французский": 9015,
+    "Английский": 15248,
+    "unknown": 120,
+    "Неизвестный": 27
+  },
+  "publication_range": [
+    "2025-10-01",
+    "2026-10-17"
+  ],
+  "near_duplicate_review": {
+    "pairs": 9144,
+    "connected_candidate_families": 1176,
+    "documents_in_candidates": 3994,
+    "removed_automatically": 0
+  },
+  "actor_coverage_lexical": [
+    {
+      "id": "paul-kagame",
+      "name": "Paul Kagame",
+      "unique_texts_with_name": 20289
+    },
+    {
+      "id": "edouard-ngirente",
+      "name": "Edouard Ngirente",
+      "unique_texts_with_name": 17
+    },
+    {
+      "id": "justin-nsengiyumva",
+      "name": "Justin Nsengiyumva",
+      "unique_texts_with_name": 463
+    },
+    {
+      "id": "vincent-biruta",
+      "name": "Vincent Biruta",
+      "unique_texts_with_name": 126
+    },
+    {
+      "id": "olivier-nduhungirehe",
+      "name": "Olivier J. P. Nduhungirehe",
+      "unique_texts_with_name": 1632
+    },
+    {
+      "id": "james-kabarebe",
+      "name": "James Kabarebe",
+      "unique_texts_with_name": 214
+    },
+    {
+      "id": "juvenal-marizamunda",
+      "name": "Juvenal Marizamunda",
+      "unique_texts_with_name": 114
+    },
+    {
+      "id": "albert-murasira",
+      "name": "Albert Murasira",
+      "unique_texts_with_name": 32
+    },
+    {
+      "id": "emmanuel-ugirashebuja",
+      "name": "Emmanuel Ugirashebuja",
+      "unique_texts_with_name": 179
+    },
+    {
+      "id": "yusuf-murangwa",
+      "name": "Yusuf Murangwa",
+      "unique_texts_with_name": 257
+    },
+    {
+      "id": "uzziel-ndagijimana",
+      "name": "Uzziel Ndagijimana",
+      "unique_texts_with_name": 10
+    },
+    {
+      "id": "paula-ingabire",
+      "name": "Paula Ingabire",
+      "unique_texts_with_name": 304
+    },
+    {
+      "id": "sabin-nsanzimana",
+      "name": "Sabin Nsanzimana",
+      "unique_texts_with_name": 231
+    },
+    {
+      "id": "judith-uwizeye",
+      "name": "Judith Uwizeye",
+      "unique_texts_with_name": 5
+    },
+    {
+      "id": "ines-mpambara",
+      "name": "Inès Mpambara",
+      "unique_texts_with_name": 1
+    },
+    {
+      "id": "valentine-uwamariya",
+      "name": "Valentine Uwamariya",
+      "unique_texts_with_name": 19
+    },
+    {
+      "id": "jeanne-darc-mujawamariya",
+      "name": "Jeanne d'Arc Mujawamariya",
+      "unique_texts_with_name": 2
+    },
+    {
+      "id": "gerardine-mukeshimana",
+      "name": "Gérardine Mukeshimana",
+      "unique_texts_with_name": 53
+    },
+    {
+      "id": "ildephonse-musafiri",
+      "name": "Ildephonse Musafiri",
+      "unique_texts_with_name": 5
+    },
+    {
+      "id": "jean-claude-musabyimana",
+      "name": "Jean Claude Musabyimana",
+      "unique_texts_with_name": 2
+    },
+    {
+      "id": "jean-damascene-bizimana",
+      "name": "Jean-Damascène Bizimana",
+      "unique_texts_with_name": 86
+    },
+    {
+      "id": "clare-akamanzi",
+      "name": "Clare Akamanzi",
+      "unique_texts_with_name": 116
+    },
+    {
+      "id": "francis-gatare",
+      "name": "Francis Gatare",
+      "unique_texts_with_name": 35
+    },
+    {
+      "id": "gertrude-kazarwa",
+      "name": "Gertrude Kazarwa",
+      "unique_texts_with_name": 19
+    },
+    {
+      "id": "donatille-mukabalisa",
+      "name": "Donatille Mukabalisa",
+      "unique_texts_with_name": 8
+    },
+    {
+      "id": "francois-xavier-kalinda",
+      "name": "François-Xavier Kalinda",
+      "unique_texts_with_name": 15
+    },
+    {
+      "id": "augustin-iyamuremye",
+      "name": "Augustin Iyamuremye",
+      "unique_texts_with_name": 2
+    },
+    {
+      "id": "alvera-mukabaramba",
+      "name": "Alvera Mukabaramba",
+      "unique_texts_with_name": 3
+    },
+    {
+      "id": "mussa-fazil-harerimana",
+      "name": "Mussa Fazil Harerimana",
+      "unique_texts_with_name": 5
+    },
+    {
+      "id": "pudence-rubingisa",
+      "name": "Pudence Rubingisa",
+      "unique_texts_with_name": 19
+    },
+    {
+      "id": "samuel-dusengiyumva",
+      "name": "Samuel Dusengiyumva",
+      "unique_texts_with_name": 41
+    },
+    {
+      "id": "frank-habineza",
+      "name": "Frank Habineza",
+      "unique_texts_with_name": 32
+    },
+    {
+      "id": "philippe-mpayimana",
+      "name": "Philippe Mpayimana",
+      "unique_texts_with_name": 0
+    },
+    {
+      "id": "victoire-ingabire",
+      "name": "Victoire Ingabire Umuhoza",
+      "unique_texts_with_name": 147
+    },
+    {
+      "id": "diane-rwigara",
+      "name": "Diane Shima Rwigara",
+      "unique_texts_with_name": 16
+    },
+    {
+      "id": "bernard-ntaganda",
+      "name": "Bernard Ntaganda",
+      "unique_texts_with_name": 2
+    },
+    {
+      "id": "christopher-kayumba",
+      "name": "Christopher Kayumba",
+      "unique_texts_with_name": 1
+    },
+    {
+      "id": "paul-rusesabagina",
+      "name": "Paul Rusesabagina",
+      "unique_texts_with_name": 99
+    },
+    {
+      "id": "kayumba-nyamwasa",
+      "name": "Faustin Kayumba Nyamwasa",
+      "unique_texts_with_name": 10
+    },
+    {
+      "id": "louise-mushikiwabo",
+      "name": "Louise Mushikiwabo",
+      "unique_texts_with_name": 436
+    },
+    {
+      "id": "claver-gatete",
+      "name": "Claver Gatete",
+      "unique_texts_with_name": 72
+    },
+    {
+      "id": "valentine-rugwabiza",
+      "name": "Valentine Rugwabiza",
+      "unique_texts_with_name": 8
+    }
+  ],
+  "context": {
+    "policy_version": "adaptive-source-context-v1",
+    "base_max_tokens": 1500,
+    "expanded_max_tokens": 6000,
+    "rare_threshold": 24,
+    "selection_reason_counts": {
+      "source_fits_base": 21593,
+      "base_context": 2302,
+      "longform_interview_candidate": 487,
+      "rare_actor_source_coverage": 19,
+      "rare_actor_source_coverage|longform_interview_candidate": 9
+    },
+    "expanded_documents": 515,
+    "uncovered_rare_actor_documents": 0,
+    "original_body_tokens": 19549004,
+    "original_body_quantiles": {
+      "0": 8,
+      "25": 136,
+      "50": 443,
+      "75": 904,
+      "90": 1665,
+      "95": 3015,
+      "99": 7054,
+      "100": 10459
+    },
+    "selected_body_tokens": {
+      "base1500": 11776698,
+      "adaptive6000": 13320305
+    },
+    "selected_body_quantiles": {
+      "base1500": {
+        "0": 8,
+        "25": 136,
+        "50": 375,
+        "75": 750,
+        "90": 1086,
+        "95": 1279,
+        "99": 1500,
+        "100": 1500
+      },
+      "adaptive6000": {
+        "0": 8,
+        "25": 136,
+        "50": 375,
+        "75": 755,
+        "90": 1134,
+        "95": 1381,
+        "99": 3264,
+        "100": 6000
+      }
+    }
+  },
+  "budget_forecast": {
+    "schema_version": "empirical-planned-budget-v1",
+    "paid_calls": 0,
+    "encoding": "o200k_base",
+    "pilot_pass_calibration": {
+      "classification_documents": 254,
+      "observed_relevant_documents": 240,
+      "observed_relevant_fraction": 0.9448818897637795,
+      "relevant_or_review_fraction": 0.984251968503937,
+      "eligible_discovery_facts": 106
+    },
+    "input_residual_calibration": {
+      "relevance": {
+        "n": 272,
+        "mean": -1,
+        "median": -1.0,
+        "p90": -1.0,
+        "min": -1,
+        "max": -1
+      },
+      "extract": {
+        "n": 248,
+        "mean": -62,
+        "median": -62.0,
+        "p90": -62.0,
+        "min": -62,
+        "max": -62
+      },
+      "describe": {
+        "n": 2,
+        "mean": -74,
+        "median": -74.0,
+        "p90": -74.0,
+        "min": -74,
+        "max": -74
+      }
+    },
+    "output_calibration_pools": [
+      {
+        "stage": "extract",
+        "model": "gpt-5.1",
+        "level": "kind_length",
+        "stratum": [
+          "article",
+          "0..500"
+        ],
+        "documents": 24,
+        "output_tokens": {
+          "n": 24,
+          "mean": 191.91666666666666,
+          "median": 190.5,
+          "p90": 411.79999999999995,
+          "min": 19,
+          "max": 595
+        },
+        "eligible_facts": {
+          "n": 24,
+          "mean": 0.5833333333333334,
+          "median": 1.0,
+          "p90": 1.0,
+          "min": 0,
+          "max": 2
+        },
+        "body_tokens_min": 138,
+        "body_tokens_max": 493
+      },
+      {
+        "stage": "extract",
+        "model": "gpt-5.1",
+        "level": "kind_length",
+        "stratum": [
+          "article",
+          "1501..6000"
+        ],
+        "documents": 8,
+        "output_tokens": {
+          "n": 8,
+          "mean": 343.875,
+          "median": 196.0,
+          "p90": 757.7,
+          "min": 20,
+          "max": 764
+        },
+        "eligible_facts": {
+          "n": 8,
+          "mean": 0.875,
+          "median": 0.5,
+          "p90": 2.0,
+          "min": 0,
+          "max": 2
+        },
+        "body_tokens_min": 1586,
+        "body_tokens_max": 2297
+      },
+      {
+        "stage": "extract",
+        "model": "gpt-5.1",
+        "level": "kind_length",
+        "stratum": [
+          "article",
+          "501..1500"
+        ],
+        "documents": 84,
+        "output_tokens": {
+          "n": 84,
+          "mean": 246.14285714285714,
+          "median": 227.0,
+          "p90": 518.5000000000002,
+          "min": 19,
+          "max": 824
+        },
+        "eligible_facts": {
+          "n": 84,
+          "mean": 0.6904761904761905,
+          "median": 1.0,
+          "p90": 1.0,
+          "min": 0,
+          "max": 3
+        },
+        "body_tokens_min": 509,
+        "body_tokens_max": 1459
+      },
+      {
+        "stage": "extract",
+        "model": "gpt-5.1",
+        "level": "kind_length",
+        "stratum": [
+          "article",
+          ">6000"
+        ],
+        "documents": 2,
+        "output_tokens": {
+          "n": 2,
+          "mean": 7611,
+          "median": 7611.0,
+          "p90": 8343.8,
+          "min": 6695,
+          "max": 8527
+        },
+        "eligible_facts": {
+          "n": 2,
+          "mean": 9,
+          "median": 9.0,
+          "p90": 9.0,
+          "min": 9,
+          "max": 9
+        },
+        "body_tokens_min": 6947,
+        "body_tokens_max": 6947
+      },
+      {
+        "stage": "extract",
+        "model": "gpt-5.1",
+        "level": "kind_length",
+        "stratum": [
+          "comment",
+          "0..500"
+        ],
+        "documents": 61,
+        "output_tokens": {
+          "n": 61,
+          "mean": 97.49180327868852,
+          "median": 20,
+          "p90": 292.0,
+          "min": 19,
+          "max": 525
+        },
+        "eligible_facts": {
+          "n": 61,
+          "mean": 0,
+          "median": 0,
+          "p90": 0.0,
+          "min": 0,
+          "max": 0
+        },
+        "body_tokens_min": 15,
+        "body_tokens_max": 390
+      },
+      {
+        "stage": "extract",
+        "model": "gpt-5.1",
+        "level": "kind_length",
+        "stratum": [
+          "comment",
+          "501..1500"
+        ],
+        "documents": 9,
+        "output_tokens": {
+          "n": 9,
+          "mean": 393.22222222222223,
+          "median": 343,
+          "p90": 986.2,
+          "min": 19,
+          "max": 1223
+        },
+        "eligible_facts": {
+          "n": 9,
+          "mean": 0,
+          "median": 0,
+          "p90": 0.0,
+          "min": 0,
+          "max": 0
+        },
+        "body_tokens_min": 541,
+        "body_tokens_max": 1263
+      },
+      {
+        "stage": "extract",
+        "model": "gpt-5.1",
+        "level": "kind_length",
+        "stratum": [
+          "post",
+          "0..500"
+        ],
+        "documents": 27,
+        "output_tokens": {
+          "n": 27,
+          "mean": 202.03703703703704,
+          "median": 172,
+          "p90": 549.6000000000004,
+          "min": 19,
+          "max": 736
+        },
+        "eligible_facts": {
+          "n": 27,
+          "mean": 0.2222222222222222,
+          "median": 0,
+          "p90": 1.0,
+          "min": 0,
+          "max": 1
+        },
+        "body_tokens_min": 62,
+        "body_tokens_max": 473
+      },
+      {
+        "stage": "extract",
+        "model": "gpt-5.1",
+        "level": "kind_length",
+        "stratum": [
+          "post",
+          "1501..6000"
+        ],
+        "documents": 3,
+        "output_tokens": {
+          "n": 3,
+          "mean": 151.66666666666666,
+          "median": 185,
+          "p90": 237.8,
+          "min": 19,
+          "max": 251
+        },
+        "eligible_facts": {
+          "n": 3,
+          "mean": 0,
+          "median": 0,
+          "p90": 0.0,
+          "min": 0,
+          "max": 0
+        },
+        "body_tokens_min": 1887,
+        "body_tokens_max": 2107
+      },
+      {
+        "stage": "extract",
+        "model": "gpt-5.1",
+        "level": "kind_length",
+        "stratum": [
+          "post",
+          "501..1500"
+        ],
+        "documents": 8,
+        "output_tokens": {
+          "n": 8,
+          "mean": 180.25,
+          "median": 176.5,
+          "p90": 285.79999999999995,
+          "min": 20,
+          "max": 451
+        },
+        "eligible_facts": {
+          "n": 8,
+          "mean": 0,
+          "median": 0.0,
+          "p90": 0.0,
+          "min": 0,
+          "max": 0
+        },
+        "body_tokens_min": 518,
+        "body_tokens_max": 951
+      },
+      {
+        "stage": "extract",
+        "model": "gpt-5.1",
+        "level": "kind_length",
+        "stratum": [
+          "repost",
+          "0..500"
+        ],
+        "documents": 5,
+        "output_tokens": {
+          "n": 5,
+          "mean": 197.6,
+          "median": 20,
+          "p90": 514.6,
+          "min": 19,
+          "max": 715
+        },
+        "eligible_facts": {
+          "n": 5,
+          "mean": 0,
+          "median": 0,
+          "p90": 0.0,
+          "min": 0,
+          "max": 0
+        },
+        "body_tokens_min": 59,
+        "body_tokens_max": 336
+      },
+      {
+        "stage": "extract",
+        "model": "gpt-5.1",
+        "level": "kind_length",
+        "stratum": [
+          "unknown",
+          "0..500"
+        ],
+        "documents": 9,
+        "output_tokens": {
+          "n": 9,
+          "mean": 230,
+          "median": 156,
+          "p90": 582.4000000000001,
+          "min": 19,
+          "max": 884
+        },
+        "eligible_facts": {
+          "n": 9,
+          "mean": 0.3333333333333333,
+          "median": 0,
+          "p90": 0.6000000000000005,
+          "min": 0,
+          "max": 3
+        },
+        "body_tokens_min": 26,
+        "body_tokens_max": 453
+      },
+      {
+        "stage": "extract",
+        "model": "gpt-5.1",
+        "level": "length",
+        "stratum": [
+          "0..500"
+        ],
+        "documents": 126,
+        "output_tokens": {
+          "n": 126,
+          "mean": 151.31746031746033,
+          "median": 20.0,
+          "p90": 358.5,
+          "min": 19,
+          "max": 884
+        },
+        "eligible_facts": {
+          "n": 126,
+          "mean": 0.18253968253968253,
+          "median": 0.0,
+          "p90": 1.0,
+          "min": 0,
+          "max": 3
+        },
+        "body_tokens_min": 15,
+        "body_tokens_max": 493
+      },
+      {
+        "stage": "extract",
+        "model": "gpt-5.1",
+        "level": "length",
+        "stratum": [
+          "1501..6000"
+        ],
+        "documents": 11,
+        "output_tokens": {
+          "n": 11,
+          "mean": 291.45454545454544,
+          "median": 192,
+          "p90": 755.0,
+          "min": 19,
+          "max": 764
+        },
+        "eligible_facts": {
+          "n": 11,
+          "mean": 0.6363636363636364,
+          "median": 0,
+          "p90": 2.0,
+          "min": 0,
+          "max": 2
+        },
+        "body_tokens_min": 1586,
+        "body_tokens_max": 2297
+      },
+      {
+        "stage": "extract",
+        "model": "gpt-5.1",
+        "level": "length",
+        "stratum": [
+          "501..1500"
+        ],
+        "documents": 101,
+        "output_tokens": {
+          "n": 101,
+          "mean": 254.02970297029702,
+          "median": 218,
+          "p90": 563.0,
+          "min": 19,
+          "max": 1223
+        },
+        "eligible_facts": {
+          "n": 101,
+          "mean": 0.5742574257425742,
+          "median": 0,
+          "p90": 1.0,
+          "min": 0,
+          "max": 3
+        },
+        "body_tokens_min": 509,
+        "body_tokens_max": 1459
+      },
+      {
+        "stage": "extract",
+        "model": "gpt-5.1",
+        "level": "length",
+        "stratum": [
+          ">6000"
+        ],
+        "documents": 2,
+        "output_tokens": {
+          "n": 2,
+          "mean": 7611,
+          "median": 7611.0,
+          "p90": 8343.8,
+          "min": 6695,
+          "max": 8527
+        },
+        "eligible_facts": {
+          "n": 2,
+          "mean": 9,
+          "median": 9.0,
+          "p90": 9.0,
+          "min": 9,
+          "max": 9
+        },
+        "body_tokens_min": 6947,
+        "body_tokens_max": 6947
+      },
+      {
+        "stage": "extract",
+        "model": "gpt-5.1",
+        "level": "stage",
+        "stratum": [],
+        "documents": 240,
+        "output_tokens": {
+          "n": 240,
+          "mean": 263.12916666666666,
+          "median": 185.0,
+          "p90": 508.5999999999999,
+          "min": 19,
+          "max": 8527
+        },
+        "eligible_facts": {
+          "n": 240,
+          "mean": 0.44166666666666665,
+          "median": 0.0,
+          "p90": 1.0,
+          "min": 0,
+          "max": 9
+        },
+        "body_tokens_min": 15,
+        "body_tokens_max": 6947
+      },
+      {
+        "stage": "relevance",
+        "model": "gpt-4.1-mini",
+        "level": "kind_length",
+        "stratum": [
+          "article",
+          "0..500"
+        ],
+        "documents": 24,
+        "output_tokens": {
+          "n": 24,
+          "mean": 78.5,
+          "median": 75.0,
+          "p90": 95.0,
+          "min": 49,
+          "max": 98
+        },
+        "eligible_facts": null,
+        "body_tokens_min": 138,
+        "body_tokens_max": 493
+      },
+      {
+        "stage": "relevance",
+        "model": "gpt-4.1-mini",
+        "level": "kind_length",
+        "stratum": [
+          "article",
+          "1501..6000"
+        ],
+        "documents": 9,
+        "output_tokens": {
+          "n": 9,
+          "mean": 137.77777777777777,
+          "median": 150,
+          "p90": 186.0,
+          "min": 65,
+          "max": 222
+        },
+        "eligible_facts": null,
+        "body_tokens_min": 1586,
+        "body_tokens_max": 4638
+      },
+      {
+        "stage": "relevance",
+        "model": "gpt-4.1-mini",
+        "level": "kind_length",
+        "stratum": [
+          "article",
+          "501..1500"
+        ],
+        "documents": 83,
+        "output_tokens": {
+          "n": 83,
+          "mean": 91.34939759036145,
+          "median": 92,
+          "p90": 111.8,
+          "min": 54,
+          "max": 132
+        },
+        "eligible_facts": null,
+        "body_tokens_min": 509,
+        "body_tokens_max": 1459
+      },
+      {
+        "stage": "relevance",
+        "model": "gpt-4.1-mini",
+        "level": "kind_length",
+        "stratum": [
+          "article",
+          ">6000"
+        ],
+        "documents": 2,
+        "output_tokens": {
+          "n": 2,
+          "mean": 404.5,
+          "median": 404.5,
+          "p90": 423.29999999999995,
+          "min": 381,
+          "max": 428
+        },
+        "eligible_facts": null,
+        "body_tokens_min": 6947,
+        "body_tokens_max": 6947
+      },
+      {
+        "stage": "relevance",
+        "model": "gpt-4.1-mini",
+        "level": "kind_length",
+        "stratum": [
+          "comment",
+          "0..500"
+        ],
+        "documents": 61,
+        "output_tokens": {
+          "n": 61,
+          "mean": 65.85245901639344,
+          "median": 66,
+          "p90": 80.0,
+          "min": 48,
+          "max": 104
+        },
+        "eligible_facts": null,
+        "body_tokens_min": 15,
+        "body_tokens_max": 390
+      },
+      {
+        "stage": "relevance",
+        "model": "gpt-4.1-mini",
+        "level": "kind_length",
+        "stratum": [
+          "comment",
+          "501..1500"
+        ],
+        "documents": 9,
+        "output_tokens": {
+          "n": 9,
+          "mean": 85,
+          "median": 90,
+          "p90": 99.19999999999999,
+          "min": 66,
+          "max": 104
+        },
+        "eligible_facts": null,
+        "body_tokens_min": 541,
+        "body_tokens_max": 1263
+      },
+      {
+        "stage": "relevance",
+        "model": "gpt-4.1-mini",
+        "level": "kind_length",
+        "stratum": [
+          "post",
+          "0..500"
+        ],
+        "documents": 27,
+        "output_tokens": {
+          "n": 27,
+          "mean": 71.03703703703704,
+          "median": 70,
+          "p90": 86.0,
+          "min": 45,
+          "max": 111
+        },
+        "eligible_facts": null,
+        "body_tokens_min": 62,
+        "body_tokens_max": 473
+      },
+      {
+        "stage": "relevance",
+        "model": "gpt-4.1-mini",
+        "level": "kind_length",
+        "stratum": [
+          "post",
+          "1501..6000"
+        ],
+        "documents": 3,
+        "output_tokens": {
+          "n": 3,
+          "mean": 191.33333333333334,
+          "median": 234,
+          "p90": 245.2,
+          "min": 92,
+          "max": 248
+        },
+        "eligible_facts": null,
+        "body_tokens_min": 2107,
+        "body_tokens_max": 4900
+      },
+      {
+        "stage": "relevance",
+        "model": "gpt-4.1-mini",
+        "level": "kind_length",
+        "stratum": [
+          "post",
+          "501..1500"
+        ],
+        "documents": 8,
+        "output_tokens": {
+          "n": 8,
+          "mean": 79.5,
+          "median": 84.0,
+          "p90": 89.9,
+          "min": 56,
+          "max": 92
+        },
+        "eligible_facts": null,
+        "body_tokens_min": 518,
+        "body_tokens_max": 951
+      },
+      {
+        "stage": "relevance",
+        "model": "gpt-4.1-mini",
+        "level": "kind_length",
+        "stratum": [
+          "repost",
+          "0..500"
+        ],
+        "documents": 5,
+        "output_tokens": {
+          "n": 5,
+          "mean": 68,
+          "median": 66,
+          "p90": 86.80000000000001,
+          "min": 38,
+          "max": 88
+        },
+        "eligible_facts": null,
+        "body_tokens_min": 59,
+        "body_tokens_max": 336
+      },
+      {
+        "stage": "relevance",
+        "model": "gpt-4.1-mini",
+        "level": "kind_length",
+        "stratum": [
+          "unknown",
+          "0..500"
+        ],
+        "documents": 12,
+        "output_tokens": {
+          "n": 12,
+          "mean": 82.66666666666667,
+          "median": 73.5,
+          "p90": 88.2,
+          "min": 50,
+          "max": 190
+        },
+        "eligible_facts": null,
+        "body_tokens_min": 26,
+        "body_tokens_max": 466
+      },
+      {
+        "stage": "relevance",
+        "model": "gpt-4.1-mini",
+        "level": "kind_length",
+        "stratum": [
+          "unknown",
+          "1501..6000"
+        ],
+        "documents": 7,
+        "output_tokens": {
+          "n": 7,
+          "mean": 120.28571428571429,
+          "median": 127,
+          "p90": 155.0,
+          "min": 69,
+          "max": 158
+        },
+        "eligible_facts": null,
+        "body_tokens_min": 1569,
+        "body_tokens_max": 2561
+      },
+      {
+        "stage": "relevance",
+        "model": "gpt-4.1-mini",
+        "level": "kind_length",
+        "stratum": [
+          "unknown",
+          "501..1500"
+        ],
+        "documents": 4,
+        "output_tokens": {
+          "n": 4,
+          "mean": 128.25,
+          "median": 104.0,
+          "p90": 196.40000000000003,
+          "min": 72,
+          "max": 233
+        },
+        "eligible_facts": null,
+        "body_tokens_min": 554,
+        "body_tokens_max": 795
+      },
+      {
+        "stage": "relevance",
+        "model": "gpt-4.1-mini",
+        "level": "length",
+        "stratum": [
+          "0..500"
+        ],
+        "documents": 129,
+        "output_tokens": {
+          "n": 129,
+          "mean": 70.93798449612403,
+          "median": 69,
+          "p90": 89.0,
+          "min": 38,
+          "max": 190
+        },
+        "eligible_facts": null,
+        "body_tokens_min": 15,
+        "body_tokens_max": 493
+      },
+      {
+        "stage": "relevance",
+        "model": "gpt-4.1-mini",
+        "level": "length",
+        "stratum": [
+          "1501..6000"
+        ],
+        "documents": 19,
+        "output_tokens": {
+          "n": 19,
+          "mean": 139.78947368421052,
+          "median": 145,
+          "p90": 224.4,
+          "min": 65,
+          "max": 248
+        },
+        "eligible_facts": null,
+        "body_tokens_min": 1569,
+        "body_tokens_max": 4900
+      },
+      {
+        "stage": "relevance",
+        "model": "gpt-4.1-mini",
+        "level": "length",
+        "stratum": [
+          "501..1500"
+        ],
+        "documents": 104,
+        "output_tokens": {
+          "n": 104,
+          "mean": 91.3076923076923,
+          "median": 91.5,
+          "p90": 111.0,
+          "min": 54,
+          "max": 233
+        },
+        "eligible_facts": null,
+        "body_tokens_min": 509,
+        "body_tokens_max": 1459
+      },
+      {
+        "stage": "relevance",
+        "model": "gpt-4.1-mini",
+        "level": "length",
+        "stratum": [
+          ">6000"
+        ],
+        "documents": 2,
+        "output_tokens": {
+          "n": 2,
+          "mean": 404.5,
+          "median": 404.5,
+          "p90": 423.29999999999995,
+          "min": 381,
+          "max": 428
+        },
+        "eligible_facts": null,
+        "body_tokens_min": 6947,
+        "body_tokens_max": 6947
+      },
+      {
+        "stage": "relevance",
+        "model": "gpt-4.1-mini",
+        "level": "stage",
+        "stratum": [],
+        "documents": 254,
+        "output_tokens": {
+          "n": 254,
+          "mean": 87.05511811023622,
+          "median": 78.0,
+          "p90": 111.70000000000002,
+          "min": 38,
+          "max": 428
+        },
+        "eligible_facts": null,
+        "body_tokens_min": 15,
+        "body_tokens_max": 6947
+      }
+    ],
+    "describe_calibration": {
+      "model": "gpt-5.1",
+      "pilot_calls": 2,
+      "pilot_fact_occurrences": 106,
+      "input_data_tokens_per_fact": 407.7169811320755,
+      "fixed_input_tokens_per_group": 2542.5,
+      "outputs_per_group": {
+        "n": 2,
+        "mean": 1854.5,
+        "median": 1854.5,
+        "p90": 2119.7,
+        "min": 1523,
+        "max": 2186
+      },
+      "assumed_group_size": 60
+    },
+    "variants": {
+      "base1500": {
+        "planned_documents": 24410,
+        "source_kinds": {
+          "comment": 5969,
+          "article": 12123,
+          "repost": 1681,
+          "post": 4637
+        },
+        "token_budget_counts": {
+          "1500": 24410
+        },
+        "known_inputs": {
+          "relevance": {
+            "requests": 24410,
+            "known_components": {
+              "user": 20473549,
+              "instructions": 12156180,
+              "schema": 2713966
+            },
+            "known_tokenized_sum": 35343695,
+            "model": "gpt-4.1-mini",
+            "calibration_residual": {
+              "n": 272,
+              "mean": -1,
+              "median": -1.0,
+              "p90": -1.0,
+              "min": -1,
+              "max": -1
+            },
+            "projected_api_input_tokens": {
+              "mean": 35319285,
+              "median": 35319285.0,
+              "min": 35319285,
+              "max": 35319285
+            }
+          },
+          "extract": {
+            "requests": 24410,
+            "known_components": {
+              "user": 23696119,
+              "instructions": 16330290,
+              "schema": 6253416
+            },
+            "known_tokenized_sum": 46279825,
+            "model": "gpt-5.1",
+            "calibration_residual": {
+              "n": 248,
+              "mean": -62,
+              "median": -62.0,
+              "p90": -62.0,
+              "min": -62,
+              "max": -62
+            },
+            "projected_api_input_tokens": {
+              "mean": 44766405,
+              "median": 44766405.0,
+              "min": 44766405,
+              "max": 44766405
+            }
+          }
+        },
+        "output_proxy_tokens_if_all_pass": {
+          "relevance": {
+            "mean": 1912850.347260854,
+            "median": 1905600.0,
+            "p90": 2324592.9000000353
+          },
+          "extract": {
+            "mean": 4657070.020991027,
+            "median": 3666737.0,
+            "p90": 10806539.199999882
+          }
+        },
+        "output_pool_fallback_counts": {
+          "relevance": {
+            "kind_length": 24188,
+            "length": 222
+          },
+          "extract": {
+            "kind_length": 24188,
+            "length": 222
+          }
+        },
+        "pass_scenarios": [
+          {
+            "name": "assumed_lower_50pct",
+            "pass_fraction": 0.5,
+            "stages": {
+              "relevance": {
+                "model": "gpt-4.1-mini",
+                "expected_requests": 24410.0,
+                "estimated_input_tokens": 35319285.0,
+                "estimated_output_tokens": {
+                  "mean": 1912850.347260854,
+                  "median": 1905600.0,
+                  "p90": 2324592.9000000353
+                },
+                "cost_usd": {
+                  "mean": 17.188274555617365,
+                  "median": 17.176674,
+                  "p90": 17.847062640000054
+                }
+              },
+              "extract": {
+                "model": "gpt-5.1",
+                "expected_requests": 12205.0,
+                "estimated_input_tokens": 22383202.5,
+                "estimated_output_tokens": {
+                  "mean": 2328535.0104955137,
+                  "median": 1833368.5,
+                  "p90": 5403269.599999941
+                },
+                "cost_usd": {
+                  "mean": 51.264353229955134,
+                  "median": 46.312688124999994,
+                  "p90": 82.01169912499941
+                }
+              }
+            },
+            "describe": {
+              "expected_eligible_facts": 4403.153288543444,
+              "assumed_groups_of_60": 74,
+              "estimated_input_tokens": 1983385.3662667037,
+              "estimated_output_tokens": {
+                "mean": 137233.0,
+                "median": 137233.0,
+                "p90": 156857.8
+              },
+              "cost_usd": {
+                "mean": 3.8515617078333797,
+                "median": 3.8515617078333797,
+                "p90": 4.0478097078333795
+              }
+            },
+            "core_cost_usd": {
+              "mean": 68.4526277855725,
+              "median": 63.48936212499999,
+              "p90": 99.85876176499946
+            },
+            "with_describe_cost_usd": {
+              "mean": 72.30418949340589,
+              "median": 67.34092383283337,
+              "p90": 103.90657147283284
+            }
+          },
+          {
+            "name": "transferred_pilot_observed_positive",
+            "pass_fraction": 0.9448818897637795,
+            "stages": {
+              "relevance": {
+                "model": "gpt-4.1-mini",
+                "expected_requests": 24410.0,
+                "estimated_input_tokens": 35319285.0,
+                "estimated_output_tokens": {
+                  "mean": 1912850.347260854,
+                  "median": 1905600.0,
+                  "p90": 2324592.9000000353
+                },
+                "cost_usd": {
+                  "mean": 17.188274555617365,
+                  "median": 17.176674,
+                  "p90": 17.847062640000054
+                }
+              },
+              "extract": {
+                "model": "gpt-5.1",
+                "expected_requests": 23064.566929133856,
+                "estimated_input_tokens": 42298965.35433071,
+                "estimated_output_tokens": {
+                  "mean": 4400381.122196246,
+                  "median": 3464633.3858267716,
+                  "p90": 10210903.18110225
+                },
+                "cost_usd": {
+                  "mean": 96.87751791487585,
+                  "median": 87.5200405511811,
+                  "p90": 154.98273850393588
+                }
+              }
+            },
+            "describe": {
+              "expected_eligible_facts": 8320.919600397061,
+              "assumed_groups_of_60": 139,
+              "estimated_input_tokens": 3745987.7197166057,
+              "estimated_output_tokens": {
+                "mean": 257775.5,
+                "median": 257775.5,
+                "p90": 294638.3
+              },
+              "cost_usd": {
+                "mean": 7.260239649645757,
+                "median": 7.260239649645757,
+                "p90": 7.628867649645757
+              }
+            },
+            "core_cost_usd": {
+              "mean": 114.06579247049322,
+              "median": 104.69671455118109,
+              "p90": 172.82980114393592
+            },
+            "with_describe_cost_usd": {
+              "mean": 121.32603212013898,
+              "median": 111.95695420082684,
+              "p90": 180.4586687935817
+            }
+          },
+          {
+            "name": "assumed_all_pass",
+            "pass_fraction": 1.0,
+            "stages": {
+              "relevance": {
+                "model": "gpt-4.1-mini",
+                "expected_requests": 24410.0,
+                "estimated_input_tokens": 35319285.0,
+                "estimated_output_tokens": {
+                  "mean": 1912850.347260854,
+                  "median": 1905600.0,
+                  "p90": 2324592.9000000353
+                },
+                "cost_usd": {
+                  "mean": 17.188274555617365,
+                  "median": 17.176674,
+                  "p90": 17.847062640000054
+                }
+              },
+              "extract": {
+                "model": "gpt-5.1",
+                "expected_requests": 24410.0,
+                "estimated_input_tokens": 44766405.0,
+                "estimated_output_tokens": {
+                  "mean": 4657070.020991027,
+                  "median": 3666737.0,
+                  "p90": 10806539.199999882
+                },
+                "cost_usd": {
+                  "mean": 102.52870645991027,
+                  "median": 92.62537624999999,
+                  "p90": 164.02339824999882
+                }
+              }
+            },
+            "describe": {
+              "expected_eligible_facts": 8806.306577086889,
+              "assumed_groups_of_60": 147,
+              "estimated_input_tokens": 3964228.2325334074,
+              "estimated_output_tokens": {
+                "mean": 272611.5,
+                "median": 272611.5,
+                "p90": 311595.89999999997
+              },
+              "cost_usd": {
+                "mean": 7.681400290666759,
+                "median": 7.681400290666759,
+                "p90": 8.071244290666758
+              }
+            },
+            "core_cost_usd": {
+              "mean": 119.71698101552764,
+              "median": 109.80205024999998,
+              "p90": 181.87046088999887
+            },
+            "with_describe_cost_usd": {
+              "mean": 127.3983813061944,
+              "median": 117.48345054066674,
+              "p90": 189.94170518066562
+            }
+          }
+        ]
+      },
+      "adaptive6000": {
+        "planned_documents": 24410,
+        "source_kinds": {
+          "comment": 5969,
+          "article": 12123,
+          "repost": 1681,
+          "post": 4637
+        },
+        "token_budget_counts": {
+          "1500": 23895,
+          "6000": 515
+        },
+        "known_inputs": {
+          "relevance": {
+            "requests": 24410,
+            "known_components": {
+              "user": 22070544,
+              "instructions": 12156180,
+              "schema": 2716311
+            },
+            "known_tokenized_sum": 36943035,
+            "model": "gpt-4.1-mini",
+            "calibration_residual": {
+              "n": 272,
+              "mean": -1,
+              "median": -1.0,
+              "p90": -1.0,
+              "min": -1,
+              "max": -1
+            },
+            "projected_api_input_tokens": {
+              "mean": 36918625,
+              "median": 36918625.0,
+              "min": 36918625,
+              "max": 36918625
+            }
+          },
+          "extract": {
+            "requests": 24410,
+            "known_components": {
+              "user": 25294296,
+              "instructions": 16330290,
+              "schema": 6255761
+            },
+            "known_tokenized_sum": 47880347,
+            "model": "gpt-5.1",
+            "calibration_residual": {
+              "n": 248,
+              "mean": -62,
+              "median": -62.0,
+              "p90": -62.0,
+              "min": -62,
+              "max": -62
+            },
+            "projected_api_input_tokens": {
+              "mean": 46366927,
+              "median": 46366927.0,
+              "min": 46366927,
+              "max": 46366927
+            }
+          }
+        },
+        "output_proxy_tokens_if_all_pass": {
+          "relevance": {
+            "mean": 1942477.6106462348,
+            "median": 1941066.0,
+            "p90": 2375720.699999997
+          },
+          "extract": {
+            "mean": 4721425.681590407,
+            "median": 3667727.0,
+            "p90": 10971598.399999859
+          }
+        },
+        "output_pool_fallback_counts": {
+          "relevance": {
+            "kind_length": 24049,
+            "length": 361
+          },
+          "extract": {
+            "kind_length": 24049,
+            "length": 361
+          }
+        },
+        "pass_scenarios": [
+          {
+            "name": "assumed_lower_50pct",
+            "pass_fraction": 0.5,
+            "stages": {
+              "relevance": {
+                "model": "gpt-4.1-mini",
+                "expected_requests": 24410.0,
+                "estimated_input_tokens": 36918625.0,
+                "estimated_output_tokens": {
+                  "mean": 1942477.6106462348,
+                  "median": 1941066.0,
+                  "p90": 2375720.699999997
+                },
+                "cost_usd": {
+                  "mean": 17.875414177033974,
+                  "median": 17.8731556,
+                  "p90": 18.568603119999995
+                }
+              },
+              "extract": {
+                "model": "gpt-5.1",
+                "expected_requests": 12205.0,
+                "estimated_input_tokens": 23183463.5,
+                "estimated_output_tokens": {
+                  "mean": 2360712.8407952036,
+                  "median": 1833863.5,
+                  "p90": 5485799.199999929
+                },
+                "cost_usd": {
+                  "mean": 52.58645778295204,
+                  "median": 47.317964375,
+                  "p90": 83.83732137499929
+                }
+              }
+            },
+            "describe": {
+              "expected_eligible_facts": 4488.897032560811,
+              "assumed_groups_of_60": 75,
+              "estimated_input_tokens": 2020887.0467284257,
+              "estimated_output_tokens": {
+                "mean": 139087.5,
+                "median": 139087.5,
+                "p90": 158977.5
+              },
+              "cost_usd": {
+                "mean": 3.9169838084105315,
+                "median": 3.9169838084105315,
+                "p90": 4.115883808410532
+              }
+            },
+            "core_cost_usd": {
+              "mean": 70.46187195998601,
+              "median": 65.191119975,
+              "p90": 102.40592449499928
+            },
+            "with_describe_cost_usd": {
+              "mean": 74.37885576839655,
+              "median": 69.10810378341054,
+              "p90": 106.52180830340981
+            }
+          },
+          {
+            "name": "transferred_pilot_observed_positive",
+            "pass_fraction": 0.9448818897637795,
+            "stages": {
+              "relevance": {
+                "model": "gpt-4.1-mini",
+                "expected_requests": 24410.0,
+                "estimated_input_tokens": 36918625.0,
+                "estimated_output_tokens": {
+                  "mean": 1942477.6106462348,
+                  "median": 1941066.0,
+                  "p90": 2375720.699999997
+                },
+                "cost_usd": {
+                  "mean": 17.875414177033974,
+                  "median": 17.8731556,
+                  "p90": 18.568603119999995
+                }
+              },
+              "extract": {
+                "model": "gpt-5.1",
+                "expected_requests": 23064.566929133856,
+                "estimated_input_tokens": 43811269.606299214,
+                "estimated_output_tokens": {
+                  "mean": 4461189.620400385,
+                  "median": 3465568.8188976375,
+                  "p90": 10366864.629921127
+                },
+                "cost_usd": {
+                  "mean": 99.37598321187787,
+                  "median": 89.4197751968504,
+                  "p90": 158.43273330708527
+                }
+              }
+            },
+            "describe": {
+              "expected_eligible_facts": 8482.955022162161,
+              "assumed_groups_of_60": 142,
+              "estimated_input_tokens": 3819679.812715135,
+              "estimated_output_tokens": {
+                "mean": 263339.0,
+                "median": 263339.0,
+                "p90": 300997.39999999997
+              },
+              "cost_usd": {
+                "mean": 7.407989765893918,
+                "median": 7.407989765893918,
+                "p90": 7.784573765893918
+              }
+            },
+            "core_cost_usd": {
+              "mean": 117.25139738891184,
+              "median": 107.2929307968504,
+              "p90": 177.00133642708528
+            },
+            "with_describe_cost_usd": {
+              "mean": 124.65938715480576,
+              "median": 114.70092056274432,
+              "p90": 184.7859101929792
+            }
+          },
+          {
+            "name": "assumed_all_pass",
+            "pass_fraction": 1.0,
+            "stages": {
+              "relevance": {
+                "model": "gpt-4.1-mini",
+                "expected_requests": 24410.0,
+                "estimated_input_tokens": 36918625.0,
+                "estimated_output_tokens": {
+                  "mean": 1942477.6106462348,
+                  "median": 1941066.0,
+                  "p90": 2375720.699999997
+                },
+                "cost_usd": {
+                  "mean": 17.875414177033974,
+                  "median": 17.8731556,
+                  "p90": 18.568603119999995
+                }
+              },
+              "extract": {
+                "model": "gpt-5.1",
+                "expected_requests": 24410.0,
+                "estimated_input_tokens": 46366927.0,
+                "estimated_output_tokens": {
+                  "mean": 4721425.681590407,
+                  "median": 3667727.0,
+                  "p90": 10971598.399999859
+                },
+                "cost_usd": {
+                  "mean": 105.17291556590408,
+                  "median": 94.63592875,
+                  "p90": 167.67464274999858
+                }
+              }
+            },
+            "describe": {
+              "expected_eligible_facts": 8977.794065121621,
+              "assumed_groups_of_60": 150,
+              "estimated_input_tokens": 4041774.0934568513,
+              "estimated_output_tokens": {
+                "mean": 278175.0,
+                "median": 278175.0,
+                "p90": 317955.0
+              },
+              "cost_usd": {
+                "mean": 7.833967616821063,
+                "median": 7.833967616821063,
+                "p90": 8.231767616821063
+              }
+            },
+            "core_cost_usd": {
+              "mean": 123.04832974293805,
+              "median": 112.50908435000001,
+              "p90": 186.2432458699986
+            },
+            "with_describe_cost_usd": {
+              "mean": 130.88229735975912,
+              "median": 120.34305196682106,
+              "p90": 194.47501348681965
+            }
+          }
+        ]
+      }
+    },
+    "flags": [
+      {
+        "code": "candidate_outside_retained_roster",
+        "count": 1
+      },
+      {
+        "code": "no_local_actor_for_hypothetical_extract",
+        "count": 1410
+      },
+      {
+        "code": "planned_body_above_selected_pilot_max_extract",
+        "count": 2749
+      },
+      {
+        "code": "planned_body_above_selected_pilot_max_relevance",
+        "count": 2538
+      }
+    ],
+    "methodology": {
+      "known_input": "Exact local tokenization of current instructions, serialized USER, canonical output schema; actual provider rendering remains calibrated",
+      "input_proxy": "known input sum + per-request mean pilot residual for the SAME stage/model",
+      "outputs": "Per-document sum of old chunk outputs; mean/median/p90 proxies stratified by source kind and supplied body-token bucket (pilot: sum of original chunks; plan: selected bounded passages), min5 support then length/stage fallback; capped by the request output limit",
+      "p90_warning": "Sum of per-document p90 proxies is not a p90 total or confidence bound",
+      "pass_assumption": "50%, old observed-positive doc fraction, and100%; common fraction applied uniformly to planned extraction costs, not actual new classifications",
+      "extract_context": "Local candidate IDs plus one representative pilot relevance metadata template, only for token-cost construction; not a model answer",
+      "describe": "Conditional eligible fact yield transferred by sourcekind/length; ceil(expectedfacts/60), calibrated fixed/group+data/fact; only two pilot descriptor calls may exist",
+      "cache": "Standard uncached rates, no guaranteed future cache saving",
+      "representativeness": "Pilot259-record three-day/topic composition is not representative of the full source; sparse strata and longer/adaptive contexts can change outputs and fact yield",
+      "scope": "One relevance/extraction/descriptor pass only; final scoring, human audit, synthesis, reruns and retries excluded"
+    }
+  },
+  "api_calls": 0,
+  "api_cost_usd": 0,
+  "limitations": [
+    "Local cleaning is not final semantic relevance classification.",
+    "Name and language hints do not establish identity or language; unknowns remain reviewable.",
+    "Near-duplicate candidate components are not proven equivalent stories or independent episodes.",
+    "Output counts, relevance and descriptor yield are forecasts from the earlier pilot, not measured on this file.",
+    "Final politician scores, interpretation and report generation are outside this API estimate."
+  ],
+  "provenance": {
+    "pilot_snapshot_sha256": "349cc1ca905eac77e947ba1b17ed7cb53c5fbba7a65a8d1f85dd7deba9caf36f",
+    "sources": {
+      "scripts/prepare_full_corpus.py": "aedaf91ac36d01803d0e89b9cdbdbf2abcfed8c641df9ee0fbf095c7cc6fb662",
+      "src/corpus_pipeline/context_policy.py": "245b94435445cb57f836b676aa7b43f11daffbfa5168b2a808cf4d77b3778d83",
+      "src/corpus_pipeline/cleaning.py": "f075961ab6452f354de53847e322128cae479c9444753c578dc9217b563cedba",
+      "src/corpus_pipeline/budget_forecast.py": "97d0d36156cb859fc2fa45d19823c2df869e425ef28a10b5ab68c9744f663c03",
+      "src/corpus_pipeline/preparation_cache.py": "764ea486b24406877d206fd2d45b154679009ad2a5dc45e7d0b72b8729096dac"
+    }
+  }
+}
