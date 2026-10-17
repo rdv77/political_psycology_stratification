@@ -227,8 +227,9 @@ class CorpusServiceTests(unittest.TestCase):
         self.pipeline.prepare(self.identifier, stage="extract")
         fact = {"actor_id": "alpha", "quote": "Alpha North proposes a specific tax reform.",
                 "claim": "A specific tax proposal", "kind": "public_statement",
-                "event_date": "2025-10-12", "topic": "tax", "trait_candidates": ["Tax reform"],
-                "capacity": "public statement"}
+                "event_date": None, "topic": "tax", "trait_candidates": ["Tax reform"],
+                "capacity": "public statement", "attribution_basis": "direct_statement",
+                "attribution_evidence": "Alpha North proposes a specific tax reform.", "date_evidence": None}
         self.pipeline.run(self.identifier, client=FixedClient({"facts": [fact]}), budget_usd=1)
         self.assertEqual(self.pipeline.get_corpus(self.identifier)["counts"]["facts"], 1)
         cfg = self.pipeline.get_corpus(self.identifier)["config"]
@@ -239,6 +240,16 @@ class CorpusServiceTests(unittest.TestCase):
         first_export = self.pipeline.export(self.identifier)
         self.pipeline.prepare(self.identifier, stage="describe")
         self.pipeline.run(self.identifier, client=FixedClient({"scales": [scale]}), budget_usd=1)
+        draft = self.pipeline.get_corpus(self.identifier)["draft_scales"][0]
+        with self.pipeline.connection() as db:
+            raw_before = db.execute("SELECT result FROM jobs WHERE stage='describe'").fetchone()[0]
+        review = self.pipeline.review_draft_scales(self.identifier, [{"scale_id": draft["id"],
+            "anchors": {"anchor5": "A categorical commitment with specified obligations in this episode"},
+            "review_note": "Separate expression from recurrence"}], reviewer="synthetic_review")
+        self.assertEqual(review["drafts_corrected"], 1)
+        self.assertFalse(self.pipeline.get_corpus(self.identifier)["draft_scales"][0]["approved"])
+        with self.pipeline.connection() as db:
+            self.assertEqual(db.execute("SELECT result FROM jobs WHERE stage='describe'").fetchone()[0], raw_before)
         second_export = self.pipeline.export(self.identifier)
         self.assertNotEqual(first_export["directory"], second_export["directory"])
         self.assertEqual(json.loads((Path(first_export["directory"]) / "draft_scales.json").read_text(encoding="utf-8")), [])
@@ -263,9 +274,11 @@ class CorpusServiceTests(unittest.TestCase):
         self.pipeline.prepare(self.identifier, stage="extract")
         base = {"actor_id": "alpha", "quote": "Alpha North proposes a specific tax reform.",
                 "claim": "Specific proposal", "event_date": None, "topic": "tax",
-                "trait_candidates": [], "capacity": "official"}
-        self.pipeline.run(self.identifier, client=FixedClient({"facts": [dict(base, kind=kind)
-                          for kind in ("public_statement", "action", "attributed_image", "institutional_context")]}), budget_usd=1)
+                "trait_candidates": [], "capacity": "official", "attribution_basis": "direct_statement",
+                "attribution_evidence": "Alpha North proposes a specific tax reform.", "date_evidence": None}
+        self.pipeline.run(self.identifier, client=FixedClient({"facts": [dict(base, kind=kind, attribution_basis=basis)
+                          for kind, basis in (("public_statement", "direct_statement"), ("action", "reported_action"),
+                                              ("attributed_image", "third_party_claim"), ("institutional_context", "context"))]}), budget_usd=1)
         config = self.pipeline.get_corpus(self.identifier)["config"]
         facts = self.pipeline._facts(self.identifier, config)
         selected = next(f["id"] for f in facts if f["kind"] == "public_statement")
@@ -277,6 +290,36 @@ class CorpusServiceTests(unittest.TestCase):
         self.assertTrue(all(f["kind"] in {"public_statement", "action"} for group in groups for f in group))
         with self.assertRaises(ValueError):
             self.pipeline.prepare(self.identifier, stage="describe", fact_ids=["foreign-evidence"])
+
+    def test_comment_provenance_downgrades_own_claim_and_preserves_raw_output(self):
+        with self.pipeline.connection() as db:
+            row = db.execute("SELECT id,data FROM documents WHERE status='unique' ORDER BY source_row LIMIT 1").fetchone()
+            document = json.loads(row["data"])
+            document["metadata"].update({"Тип": "Комментарий", "Тип площадки": "Соцсеть", "Возраст": "private-marker"})
+            db.execute("UPDATE documents SET data=? WHERE id=?", (json.dumps(document), row["id"]))
+        self.pipeline.prepare(self.identifier, limit=1)
+        self.pipeline.run(self.identifier, client=FixedClient(self.relevant()), budget_usd=1)
+        self.pipeline.prepare(self.identifier, stage="extract")
+        with self.pipeline.connection() as db:
+            job = db.execute("SELECT context FROM jobs WHERE stage='extract'").fetchone()
+        context = json.loads(job[0])
+        self.assertEqual(context["document"]["source_type"], "comment")
+        self.assertNotIn("private-marker", json.dumps(context))
+        fact = {"actor_id": "alpha", "quote": document["text"], "claim": "A commenter reports a proposal",
+                "kind": "public_statement", "event_date": "2025-10-12", "date_evidence": None,
+                "topic": "tax", "trait_candidates": [], "capacity": "official",
+                "attribution_basis": "direct_statement", "attribution_evidence": document["text"]}
+        self.pipeline.run(self.identifier, client=FixedClient({"facts": [fact]}), budget_usd=1)
+        active = self.pipeline.get_corpus(self.identifier)
+        evidence = self.pipeline._facts(self.identifier, active["config"])[0]
+        self.assertEqual(evidence["kind"], "attributed_image")
+        self.assertIsNone(evidence["event_date"])
+        with self.pipeline.connection() as db:
+            result = json.loads(db.execute("SELECT result FROM jobs WHERE stage='extract'").fetchone()[0])
+        self.assertEqual(result["raw_model_result"]["facts"][0]["kind"], "public_statement")
+        self.assertEqual(result["quality_control"]["downgraded_facts"], 1)
+        with self.assertRaises(ValueError):
+            self.pipeline.prepare(self.identifier, stage="describe")
 
 
 if __name__ == "__main__":

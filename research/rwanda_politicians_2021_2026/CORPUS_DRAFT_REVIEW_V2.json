@@ -1,0 +1,104 @@
+{
+  "format_version": 1,
+  "draft": true,
+  "approved": false,
+  "review_date": "2026-10-17",
+  "scope": "Ровно 7 известных ID черновиков. Предложенные изменения якорей и метаданные смысловых семейств; не изменения первичных источников, model jobs, runtime или утверждённого словаря.",
+  "source_snapshot_sha256": "b44af7383d1f28db35eaf8051a446d0f612788ce3a8ef89feb4d5ccb423d611f",
+  "measurement_mode": "Интенсивность выраженного содержания одного эпизода; частота публикаций, независимые эпизоды, длительность, заметность и качество источника учитываются отдельно.",
+  "zero_rule": "0 требует прямого релевантного основания. Неполный перечень, молчание, отсутствие темы или пригодного источника означают unknown/value=null. Указанные якоря не создают наблюдений или оценок для реальных участников.",
+  "corrections": [
+    {
+      "scale_id": "trait-9af700a0b6785e8f929e",
+      "anchors": {
+        "anchor5": "In one episode, the actor unequivocally endorses the sporting initiative and explicitly presents its expected economic benefits as a central reason for supporting the decision, making a clear personal commitment to advancing it."
+      },
+      "review_note": "Убраны заметность эпизода, статус организатора и длительность соглашения как основания высокого балла. Оценивается ясность поддержки и публичного обязательства в данном эпизоде, а не медийный охват или число проектов."
+    },
+    {
+      "scale_id": "trait-a8ad3d39828376618f5c",
+      "anchors": {
+        "anchor3": "In one episode, the actor clearly endorses gender equality or explicitly recognises women’s contribution to society, expressing a positive position without an unequivocal personal commitment to advancing equal rights or opportunities in the matter discussed.",
+        "anchor5": "In one episode, the actor unequivocally identifies gender equality as a personal principle and explicitly commits to defending equal rights and opportunities for women in the matter under discussion."
+      },
+      "review_note": "Длительность личного интереса удалена из границы 3/5. Высокий балл определяется определённостью выраженного личного обязательства, а не утверждением о давнем интересе. Это критерий, а не утверждение, что существующий источник соответствует 5."
+    },
+    {
+      "scale_id": "trait-e1cd9a874f55d549295e",
+      "anchors": {
+        "anchor3": "In one episode, the actor explicitly says that the organisation has useful or promising potential to benefit the people it serves, expressing a qualified positive expectation about that capacity.",
+        "anchor5": "In one episode, the actor expresses unequivocal confidence that the organisation can deliver substantial benefits to the people it serves and explicitly presents that capacity as a central reason for supporting its mission."
+      },
+      "review_note": "Удалены давняя тема лидерства/кампаний и оценка профиля человека вместо текущего эпизода. Граница 3/5 — осторожное положительное ожидание против недвусмысленно выраженной уверенности; не доказанная фактическая результативность организации."
+    },
+    {
+      "scale_id": "trait-a9d5186ae1d4d86b35e5",
+      "anchors": {
+        "anchor0": "In the specific issue under discussion, the actor explicitly rejects advancing gender equality or expanding women’s opportunities as a goal."
+      },
+      "review_note": "Исключено получение 0 из неполного перечня экономических акторов, отсутствия упоминания женщин или поддержки в тексте. Нужна прямая релевантная контрпозиция. Неизвестность сохраняет value=null;0 этой униполярной шкалы не задаёт автоматически балл противоположного свойства."
+    },
+    {
+      "scale_id": "trait-a9a762d5917bf338a937",
+      "anchors": {
+        "anchor0": "In a concrete discussion of a development or organisational goal, the actor explicitly rejects attracting investment or mobilising financial resources as a desirable means of advancing that goal."
+      },
+      "review_note": "Исключено получение 0 из того, что актор избегает темы, говорит о других целях или не называет инвестиции желательными. Требуется явное отрицательное суждение об инструменте для данного вопроса. Отказ от одного вида финансирования не означает отказ от всех инвестиций; сохранять точный объект высказывания."
+    },
+    {
+      "scale_id": "trait-097d4bed4d6d39f328d9",
+      "anchors": {
+        "anchor0": "In a public episode about an international sporting initiative, the actor explicitly states that its purpose should be limited to the host state’s interests and rejects a broader regional or continental purpose for that initiative."
+      },
+      "review_note": "Удалён вариант ignoring. Из одного упоминания национальной пользы нельзя заключать, что региональная роль отрицается. Нужна явная ограничивающая формулировка; неполный текст либо отсутствие региональной темы дают unknown, а не 0."
+    },
+    {
+      "scale_id": "trait-419144e38bb8690c00ea",
+      "anchors": {
+        "anchor5": "In one episode, the actor unequivocally states that multilateral organisations can make a meaningful contribution to resolving a crisis but cannot substitute for domestic political will, and explicitly treats that domestic commitment as necessary for a durable resolution."
+      },
+      "review_note": "Удалены nuanced и требование перечислить три компонента как признак высокого балла. Высокая выраженность — категоричность конкретной условной позиции о роли организаций и необходимой внутренней воле, а не число оговорок, длина ответа или сложность объяснения."
+    }
+  ],
+  "duplicate_families": [
+    {
+      "family_id": "international-sport-economic-role",
+      "name_ru": "Экономическая роль международного спорта",
+      "member_scale_ids": [
+        "trait-500965ffed32d636bf7c",
+        "trait-9af700a0b6785e8f929e"
+      ],
+      "definition_ru": "Публичное продвижение международных спортивных мероприятий как средства занятости, развития навыков, туризма, предпринимательства или инвестиций.",
+      "merge_status": "proposed_not_approved",
+      "normalization_note": "Практически дублирующие определения: предложено одно измерение с сохранением aliases и разных источников. Континентальное позиционирование само по себе иное свойство, автоматически не объединять с trait-097d4bed4d6d39f328d9."
+    },
+    {
+      "family_id": "investment-led-development",
+      "name_ru": "Развитие через инвестиции",
+      "member_scale_ids": [
+        "trait-3d2fc06a6665154424a9",
+        "trait-a9a762d5917bf338a937"
+      ],
+      "definition_ru": "Публичная поддержка привлечения инвестиций и ресурсов как средства достижения целей развития или деятельности организации.",
+      "merge_status": "proposed_not_approved",
+      "normalization_note": "Общая смысловая семья, не точные синонимы: информирование о трансграничных возможностях уже, чем мобилизация финансирования. Сохранить их как фасеты при проверке широкого корпуса. Не выдавать эту поддержку за доказательство идеологического рыночного либерализма."
+    },
+    {
+      "family_id": "gender-equality-and-opportunities",
+      "name_ru": "Гендерное равенство и возможности женщин",
+      "member_scale_ids": [
+        "trait-a8ad3d39828376618f5c",
+        "trait-a9d5186ae1d4d86b35e5"
+      ],
+      "definition_ru": "Публично выраженная поддержка равных прав и возможностей женщин, признания их общественной и экономической роли.",
+      "merge_status": "proposed_not_approved",
+      "normalization_note": "Личный ценностный акцент и поддержка конкретных программ — фасеты одного кандидата, а не два независимых веса одной реплики. Наличие руководящей должности/фонда само по себе не определяет интенсивность личной поддержки."
+    }
+  ],
+  "application_constraints": [
+    "Это предложенный source review, не автоматическое утверждение новых шкал или баллов.",
+    "Семейства — метаданные нормализации, не выделенные факторы и не статистически подтверждённая структура.",
+    "Сохранить raw модельных ответов и provenance; при применении записать отдельный receipt изменений.",
+    "Не повышать оценку из-за числа публикаций, известных лет приверженности, медийной известности или общего масштаба организации."
+  ]
+}

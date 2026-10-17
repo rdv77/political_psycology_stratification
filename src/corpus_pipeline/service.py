@@ -20,6 +20,8 @@ import uuid
 
 from .ingest import inspect_csv, iter_documents, exact_fingerprint, near_duplicate_pairs
 from .identity import IDENTITY_POLICY_VERSION, ground_relevance
+from .evidence import EVIDENCE_POLICY_VERSION, normalize_extraction
+from .rubrics import RUBRIC_POLICY_VERSION, normalize_discovery, intensity_rubric_issues
 from .models import (DEFAULT_PRICING, DEFAULT_ROUTES, ModelResponseError, COMMON, PROMPTS, SCHEMAS,
                      OpenAIResponsesHTTP, estimate_cost, make_task,
                      payload_input_bound, validate_result, _eligible_fact)
@@ -84,6 +86,16 @@ def publication_date(value):
     return value
 
 
+def source_context(document):
+    """Only coarse content provenance; never forward demographic metadata."""
+    metadata = document.get("metadata", {})
+    raw = str(next((metadata[k] for k in ("Тип", "Тип сообщения", "message_type", "source_type") if metadata.get(k)), "")).casefold()
+    kind = "comment" if raw in {"комментарий", "comment", "reply"} else "repost" if raw in {"репост", "repost", "retweet"} else "article" if raw in {"статья", "article", "news"} else "post" if raw in {"пост", "post"} else "unknown"
+    platform = str(metadata.get("Тип площадки", "")).casefold()
+    return {"source_type": kind, "source_platform": "social" if platform == "соцсеть" else "media" if platform in {"сми", "медиа"} else "unknown",
+            "author_is_verified_actor": False}
+
+
 class CorpusPipeline:
     def __init__(self, root: Path):
         self.root = Path(root).resolve()
@@ -119,6 +131,10 @@ class CorpusPipeline:
                     id TEXT PRIMARY KEY, corpus_id TEXT NOT NULL, job_id TEXT NOT NULL,
                     actor_id TEXT NOT NULL, document_id TEXT NOT NULL, data TEXT NOT NULL);
                 CREATE INDEX IF NOT EXISTS facts_corpus ON facts(corpus_id, actor_id);
+                CREATE TABLE IF NOT EXISTS fact_reviews (
+                    id TEXT PRIMARY KEY, corpus_id TEXT NOT NULL, fact_id TEXT NOT NULL,
+                    created_at TEXT NOT NULL, reviewer TEXT NOT NULL, policy TEXT NOT NULL, data TEXT NOT NULL);
+                CREATE INDEX IF NOT EXISTS fact_reviews_corpus ON fact_reviews(corpus_id,fact_id,created_at);
                 CREATE TABLE IF NOT EXISTS scales (
                     id TEXT NOT NULL, corpus_id TEXT NOT NULL, job_id TEXT NOT NULL,
                     data TEXT NOT NULL, PRIMARY KEY(corpus_id,job_id,id));
@@ -225,7 +241,9 @@ class CorpusPipeline:
                         rubric_version=config.get("rubric_version", "1"))
         return digest({"version": VERSION, "stage": stage, "config": base,
                        "task_contract": {"instructions": COMMON + PROMPTS[stage], "schema": SCHEMAS[stage],
-                                         "identity_policy": IDENTITY_POLICY_VERSION},
+                                         "identity_policy": IDENTITY_POLICY_VERSION,
+                                         **({"evidence_policy": EVIDENCE_POLICY_VERSION} if stage != "relevance" else {}),
+                                         **({"rubric_policy": RUBRIC_POLICY_VERSION} if stage in {"describe", "score"} else {})},
                        "model": config["routes"][stage], "max_output_tokens": MAX_OUTPUT[stage]})
 
     def _task_config(self, stage, config):
@@ -305,7 +323,65 @@ class CorpusPipeline:
                 WHERE f.corpus_id=? AND j.status='done' AND j.recipe=? ORDER BY f.id""",
                               (identifier, self._recipe("extract", config))).fetchall()
         facts = [json.loads(row[0]) for row in rows]
+        with self.connection() as db:
+            reviews = db.execute("SELECT * FROM fact_reviews WHERE corpus_id=? ORDER BY created_at,id", (identifier,)).fetchall()
+        annotations = {}
+        for row in reviews:
+            annotations.setdefault(row["fact_id"], {}).update(json.loads(row["data"]))
+            annotations[row["fact_id"]].update(review_id=row["id"], review_policy=row["policy"])
+        facts = [dict(fact, **annotations.get(fact["id"], {})) for fact in facts]
         return [fact for fact in facts if actor_id is None or fact["actor_id"] == actor_id]
+
+    def review_facts(self, identifier, decisions, *, reviewer, policy):
+        """Append local, auditable annotations without modifying model receipts."""
+        if not reviewer or not policy or not isinstance(decisions, list):
+            raise ValueError("Укажите рецензента, версию правил и список решений")
+        corpus = self._row(identifier)
+        active = {fact["id"] for fact in self._facts(identifier, corpus["config"])}
+        allowed = {"kind", "attribution_basis", "temporal_status", "measurement_status", "review_status", "review_note", "event_date", "date_evidence"}
+        count = 0
+        with self.connection() as db:
+            for decision in decisions:
+                if not isinstance(decision, dict) or decision.get("fact_id") not in active:
+                    raise ValueError("Решения относятся только к активным свидетельствам корпуса")
+                annotation = decision.get("annotation")
+                if not isinstance(annotation, dict) or not annotation or set(annotation) - allowed or not annotation.get("review_note"):
+                    raise ValueError("Укажите допустимую аннотацию и основание проверки")
+                if "kind" in annotation and annotation["kind"] not in {"public_statement", "action", "attributed_image", "institutional_context"}:
+                    raise ValueError("Неизвестный тип свидетельства")
+                if "event_date" in annotation and annotation["event_date"] is not None:
+                    raise ValueError("Локальная проверка может снять дату, но не выдумывать новую")
+                identifier_review = "review-" + digest([identifier, decision["fact_id"], reviewer, policy, annotation])[:28]
+                count += db.execute("INSERT OR IGNORE INTO fact_reviews VALUES(?,?,?,?,?,?,?)",
+                                    (identifier_review, identifier, decision["fact_id"], now(), reviewer, policy, packed(annotation))).rowcount
+        return {"annotations_added": count, "api_calls": 0, "raw_model_receipts_modified": False}
+
+    def review_draft_scales(self, identifier, corrections, *, reviewer):
+        """Edit unapproved rubric text; original API proposals stay in job receipts."""
+        if not reviewer or not isinstance(corrections, list):
+            raise ValueError("Укажите рецензента и список правок черновика")
+        corpus = self._row(identifier)
+        count = 0
+        with self.connection() as db:
+            for correction in corrections:
+                row = db.execute("""SELECT s.* FROM scales s JOIN jobs j ON s.job_id=j.id
+                    WHERE s.corpus_id=? AND s.id=? AND j.status='done' AND j.recipe=?""",
+                                 (identifier, correction.get("scale_id"), self._recipe("describe", corpus["config"]))).fetchone()
+                if row is None or not correction.get("review_note"):
+                    raise ValueError("Нужен активный черновик и объяснение правки")
+                value = json.loads(row["data"])
+                if not value.get("draft"):
+                    raise ValueError("Этот редактор изменяет только неутверждённые предложения")
+                fields = correction.get("anchors", {})
+                if not fields or set(fields) - {"anchor0", "anchor3", "anchor5"} or any(not isinstance(v, str) or not v.strip() for v in fields.values()):
+                    raise ValueError("Допустимы непустые критерии 0/3/5")
+                value.update(fields)
+                if intensity_rubric_issues(value):
+                    raise ValueError("Критерий выраженности не может измерять повторяемость")
+                value.update(rubric_reviewer=reviewer, rubric_review_note=correction["review_note"], approved=False)
+                db.execute("UPDATE scales SET data=? WHERE corpus_id=? AND job_id=? AND id=?", (packed(value), identifier, row["job_id"], row["id"]))
+                count += 1
+        return {"drafts_corrected": count, "api_calls": 0, "approved": False, "raw_model_receipts_modified": False}
 
     def _ratings(self, identifier, config):
         """Only ratings tied to the exact current evidence snapshot are active."""
@@ -452,7 +528,10 @@ class CorpusPipeline:
                     context = json.loads(row["context"])
                     if selected is not None and context["document"]["id"] not in selected:
                         continue
-                    contexts.append((row["unit_id"], {"document": context["document"],
+                    with self.connection() as db:
+                        original = db.execute("SELECT data FROM documents WHERE corpus_id=? AND id=?", (identifier, context["document"]["id"])).fetchone()
+                    document = dict(context["document"], **source_context(json.loads(original[0])))
+                    contexts.append((row["unit_id"], {"document": document,
                                                       "relevance": result, "relevance_job_id": row["id"]}))
         else:
             facts = self._facts(identifier, config)
@@ -587,7 +666,9 @@ class CorpusPipeline:
                 usage = response["usage"]
                 charge = estimate_cost(payload["model"], usage["input_tokens"], usage["output_tokens"],
                                        cached_input_tokens=usage.get("input_tokens_details", {}).get("cached_tokens", 0), pricing=config["pricing"])
-                data = validate_result(job["stage"], response["data"], context)
+                data = (normalize_discovery(response["data"], context, validate_result) if job["stage"] == "describe"
+                        else normalize_extraction(response["data"], context, validate_result) if job["stage"] == "extract"
+                        else validate_result(job["stage"], response["data"], context))
                 if job["stage"] == "relevance":
                     data = ground_relevance(data, context)
                     allowed = {LANGUAGES.get(x.casefold(), x.casefold()) for x in config["languages"]}
@@ -621,6 +702,8 @@ class CorpusPipeline:
                     try:
                         self._persist_result(db, identifier, job, data, context)
                         result = data
+                        if job["stage"] in {"extract", "describe"}:
+                            result = dict(data, raw_model_result=response["data"])
                     except (ValueError, KeyError, TypeError):
                         status, error = "review", "Результат не прошёл проверку связей с источниками"
                 elif job["stage"] == "relevance" and status == "review" and error is None:

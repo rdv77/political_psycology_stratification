@@ -12,6 +12,7 @@ import math
 import re
 
 import httpx
+from .rubrics import intensity_rubric_issues
 
 DEFAULT_ROUTES = {"relevance": "gpt-4.1-nano", "extract": "gpt-5.1", "describe": "gpt-5.1", "score": "gpt-5.1"}
 DEFAULT_OUTPUT_TOKENS = {"relevance": 512, "extract": 4096, "describe": 6000, "score": 3000}
@@ -42,7 +43,9 @@ SCHEMAS = {
                         "actor_ids": STRINGS, "language": {"type": "string", "enum": ["rw", "en", "fr", "sw", "mixed", "unknown", "other"]}, "reason": TEXT}),
     "extract": _obj({"facts": _array(_obj({"actor_id": TEXT, "quote": TEXT, "claim": TEXT,
         "kind": {"type": "string", "enum": KINDS}, "event_date": {"type": ["string", "null"]},
-        "topic": TEXT, "trait_candidates": STRINGS, "capacity": TEXT}))}),
+        "topic": TEXT, "trait_candidates": STRINGS, "capacity": TEXT,
+        "attribution_basis": {"type": "string", "enum": ["direct_statement", "reported_statement", "reported_action", "third_party_claim", "context", "uncertain"]},
+        "attribution_evidence": TEXT, "date_evidence": {"type": ["string", "null"]}}))}),
     "describe": _obj({"scales": _array(SCALE)}),
     "score": _obj({"ratings": _array(_obj({"actor_id": TEXT, "scale_id": TEXT,
         "status": {"type": "string", "enum": ["observed", "unknown"]},
@@ -74,13 +77,27 @@ Do not translate document language into an imagined source language. Return lang
 rw=Kinyarwanda, en=English, fr=French, sw=Kiswahili, mixed, unknown, or other.
 Detect language from original text, not the possibly incorrect language_hint metadata.""",
     "extract": """Extract only verifiable source fragments and modest claims about approved actors.
+This is a trend study, not exhaustive annotation. Return a few substantive, independent claims;
+skip doubtful attribution, passing mentions, unsupported OCR and repeated details. No facts is valid.
 Every quote MUST be an exact, contiguous, case-sensitive substring of document.text in the
 original language, with no added ellipses or translation. Preserve the actual speaker.
-public_statement=own attributed public statement; action=own verifiable action;
-attributed_image=another speaker's characterization of the actor; institutional_context=role
-or context that does not itself establish an individual position. Do not upgrade image/context
-to an own statement. event_date is a supported ISO date or null, never publication date by
-default. capacity distinguishes official, personal, third-party or unknown roles. No facts is valid.
+attribution_evidence MUST be a short exact source passage identifying WHO said/did THIS thing,
+with the actor's name in that passage or quote. An unrelated name elsewhere is insufficient.
+direct_statement=explicit actor-attributed quotation; reported_statement=an identified news source
+reports the actor's indirect speech; reported_action=concrete personal action in identified reporting;
+third_party_claim=another speaker's assertion, interpretation, allegation or unreliable retelling;
+context=office/institution/background; uncertain=identity or speaker unclear. Use public_statement
+ONLY for direct_statement/reported_statement, action ONLY for reported_action, attributed_image
+for third_party_claim. A comment saying 'X admitted/signed' is a commenter claim, not X's verified
+speech/action. For source_type comment/repost without verified actor authorship NEVER return
+own public_statement/action. A matching account name is not verified authorship. Preserve useful
+image claims as attributed_image, clearly qualified; omit vague or unsupported personal adjectives.
+DATE RULE: event_date is null unless the full date of THIS actor statement/action is explicitly
+supported. date_evidence is an exact substring within quote/attribution_evidence that dates THIS
+assertion, not a neighboring arrest, meeting, background allegation or future planned event.
+Do not resolve 'Tuesday', '4 December' without year, or publication time into an event date.
+Use null for both event_date/date_evidence when uncertain. Publication date remains separate.
+capacity distinguishes official, personal, third-party or unknown roles.
 trait_candidates are exploratory descriptors, never approved scores or new canonical scales.""",
     "describe": """Propose compact reusable unipolar property definitions from the supplied discovery facts.
 Use only the measurement channel in config.aspect: public_positions permits ONLY own
@@ -95,7 +112,13 @@ Choose one comparable abstraction level. Distinguish policy content, communicati
 attributed image rather than silently mixing them. A strong instance may come from one episode;
 episode count and corpus coverage are separate from intensity. anchor0 needs explicit relevant
 evidence of non-expression, not missing sources; anchor3 describes a clear concrete manifestation;
-anchor5 describes an explicit central/strong commitment, not five repetitions. Cite supplied fact IDs.
+anchor5 describes an explicit central/strong commitment in ONE substantive episode. Cite supplied fact IDs.
+ALL anchors measure expression within a single episode, never its number, recurrence or duration.
+Forbidden intensity criteria include repeatedly, consistently, systematically, regularly, frequently,
+often, sustained, persistent, multiple occasions, number of statements, or media visibility.
+An explicit conditional commitment with concrete obligations, categorical rejection or strong
+delegitimizing accusation can establish high expression in one episode. Use neutral labels.
+Do not put episode counts, confidence, source reliability or period coverage in anchors.
 Never define anchor0 as no mentions, no evidence, absence from the corpus, or an unknown position.
 It must describe an observable relevant choice with non-expression of this property. Do not put
 evidence references inside anchors; they define a reusable rubric, not a rating of these actors.
@@ -233,6 +256,10 @@ def _eligible_fact(fact, config, actor_id=None):
     kinds = ("attributed_image",) if config.get("aspect", "public_positions") == "public_image" else ("public_statement", "action")
     if fact.get("kind") not in kinds or fact.get("excluded") or fact.get("measurement_status") == "context_only":
         return False
+    basis = fact.get("attribution_basis")
+    if basis == "uncertain" or (basis is not None and config.get("aspect", "public_positions") == "public_positions"
+                              and basis not in {"direct_statement", "reported_statement", "reported_action"}):
+        return False
     if fact.get("review_status") in ("rejected", "excluded", "unreviewed") or fact.get("reviewed") is False:
         return False
     if config.get("aspect", "public_positions") == "public_positions" and fact.get("is_own_position") is False:
@@ -265,6 +292,10 @@ def validate_result(stage: str, data: dict, context: dict) -> dict:
                 raise ValueError("Unapproved actor or fabricated original quote")
             if context.get("relevance") and fact["actor_id"] not in context["relevance"].get("actor_ids", []):
                 raise ValueError("Extracted actor was not identified in the source fragment")
+            if fact["attribution_evidence"] not in text:
+                raise ValueError("Attribution evidence is not an original source passage")
+            if fact["event_date"] is not None and (not fact["date_evidence"] or fact["date_evidence"] not in text):
+                raise ValueError("An event date requires original date evidence")
             if fact["event_date"] is not None:
                 try:
                     date.fromisoformat(fact["event_date"])
@@ -284,6 +315,8 @@ def validate_result(stage: str, data: dict, context: dict) -> dict:
             canonical = {s["id"]: s for s in config.get("scales", [])}
             labels = set()
             for scale in rows:
+                if not canonical and intensity_rubric_issues(scale):
+                    raise ValueError("Intensity anchors must not measure recurrence or corpus visibility")
                 if not re.fullmatch(r"[a-z0-9][a-z0-9_-]*", scale["id"]):
                     raise ValueError("Scale ID must be a stable slug")
                 if not scale["evidence_ids"] or any(not _eligible_fact(facts[eid], config) for eid in scale["evidence_ids"]):

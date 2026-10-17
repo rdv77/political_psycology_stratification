@@ -1,0 +1,1091 @@
+{
+  "schema_version": "corpus-full-pilot-summary-v1",
+  "corpus_id": "corpus-64405d243de9c4040bb6",
+  "measured": {
+    "population": {
+      "raw_records": 259,
+      "unique_documents": 256,
+      "exact_duplicate_extra_records": 3,
+      "empty_records": 0,
+      "eligible_unique_documents": 254,
+      "rule_excluded_unique_documents": 2,
+      "rule_exclusions": {
+        "country_not_matched": 2
+      }
+    },
+    "whole_document_funnel": {
+      "exact_duplicate": 3,
+      "empty": 0,
+      "rule_excluded": 2,
+      "relevant": 240,
+      "review": 10,
+      "irrelevant": 4,
+      "incomplete": 0
+    },
+    "whole_document_completion": {
+      "relevance_complete_documents": 254,
+      "extraction_expected_documents": 240,
+      "extraction_complete_documents": 240
+    },
+    "active_stage_statuses": {
+      "relevance": {
+        "done": 260,
+        "review": 12
+      },
+      "extract": {
+        "done": 248
+      },
+      "describe": {
+        "done": 2
+      },
+      "score": {}
+    },
+    "languages": {
+      "document_labels": {
+        "en": 167,
+        "fr": 71,
+        "rw": 14,
+        "unprocessed": 5,
+        "sw": 2
+      },
+      "dominant_by_longest_classified_chunk": {
+        "en": 167,
+        "fr": 71,
+        "rw": 14,
+        "unprocessed": 5,
+        "sw": 2
+      },
+      "note": "Mixed labels reflect multiple classified chunk languages; unprocessed is not an inferred language."
+    },
+    "quality_control": {
+      "extract": {
+        "jobs_with_qc": 248,
+        "done_jobs_missing_qc": 0,
+        "totals": {
+          "input_facts": 287,
+          "skipped_facts": 99,
+          "downgraded_facts": 1,
+          "cleared_dates": 0
+        },
+        "issue_counts": {
+          "actor_not_local": 45,
+          "attribution_not_exact": 47,
+          "kind_basis_mismatch": 1,
+          "orphan_date_evidence_cleared": 55,
+          "own_attribution_downgraded": 1,
+          "quote_not_exact": 6
+        }
+      },
+      "describe": {
+        "jobs_with_qc": 2,
+        "done_jobs_missing_qc": 0,
+        "totals": {
+          "input_scales": 13,
+          "skipped_scales": 1
+        },
+        "issue_counts": {
+          "frequency_in_intensity_anchor": 1
+        }
+      }
+    },
+    "accepted_facts": {
+      "total": 188,
+      "by_kind": {
+        "attributed_image": 69,
+        "public_statement": 69,
+        "institutional_context": 13,
+        "action": 37
+      },
+      "by_attribution_basis": {
+        "third_party_claim": 69,
+        "reported_statement": 24,
+        "context": 13,
+        "direct_statement": 45,
+        "reported_action": 37
+      },
+      "event_date_known": 4,
+      "event_date_unknown": 184
+    },
+    "local_fact_reviews": {
+      "annotated_facts": 8,
+      "planned_context_facts": 1,
+      "raw_model_receipts_modified": false
+    },
+    "draft_scale_review": {
+      "accepted_proposals": 12,
+      "locally_reviewed_proposals": 7,
+      "scales_approved": false,
+      "intensity_unit": "single_episode_expression; frequency_and_coverage_separate"
+    },
+    "actor_coverage": [
+      {
+        "actor_id": "paul-kagame",
+        "name": "Paul Kagame",
+        "facts": 162,
+        "own_facts": 83,
+        "image_facts": 68,
+        "context_facts": 11,
+        "unique_documents": 130,
+        "candidate_editorial_families": 121
+      },
+      {
+        "actor_id": "edouard-ngirente",
+        "name": "Edouard Ngirente",
+        "facts": 0,
+        "own_facts": 0,
+        "image_facts": 0,
+        "context_facts": 0,
+        "unique_documents": 0,
+        "candidate_editorial_families": 0
+      },
+      {
+        "actor_id": "justin-nsengiyumva",
+        "name": "Justin Nsengiyumva",
+        "facts": 0,
+        "own_facts": 0,
+        "image_facts": 0,
+        "context_facts": 0,
+        "unique_documents": 0,
+        "candidate_editorial_families": 0
+      },
+      {
+        "actor_id": "vincent-biruta",
+        "name": "Vincent Biruta",
+        "facts": 0,
+        "own_facts": 0,
+        "image_facts": 0,
+        "context_facts": 0,
+        "unique_documents": 0,
+        "candidate_editorial_families": 0
+      },
+      {
+        "actor_id": "olivier-nduhungirehe",
+        "name": "Olivier J. P. Nduhungirehe",
+        "facts": 3,
+        "own_facts": 3,
+        "image_facts": 0,
+        "context_facts": 0,
+        "unique_documents": 3,
+        "candidate_editorial_families": 3
+      },
+      {
+        "actor_id": "james-kabarebe",
+        "name": "James Kabarebe",
+        "facts": 1,
+        "own_facts": 0,
+        "image_facts": 1,
+        "context_facts": 0,
+        "unique_documents": 1,
+        "candidate_editorial_families": 1
+      },
+      {
+        "actor_id": "juvenal-marizamunda",
+        "name": "Juvenal Marizamunda",
+        "facts": 1,
+        "own_facts": 0,
+        "image_facts": 0,
+        "context_facts": 1,
+        "unique_documents": 1,
+        "candidate_editorial_families": 1
+      },
+      {
+        "actor_id": "albert-murasira",
+        "name": "Albert Murasira",
+        "facts": 0,
+        "own_facts": 0,
+        "image_facts": 0,
+        "context_facts": 0,
+        "unique_documents": 0,
+        "candidate_editorial_families": 0
+      },
+      {
+        "actor_id": "emmanuel-ugirashebuja",
+        "name": "Emmanuel Ugirashebuja",
+        "facts": 0,
+        "own_facts": 0,
+        "image_facts": 0,
+        "context_facts": 0,
+        "unique_documents": 0,
+        "candidate_editorial_families": 0
+      },
+      {
+        "actor_id": "yusuf-murangwa",
+        "name": "Yusuf Murangwa",
+        "facts": 2,
+        "own_facts": 1,
+        "image_facts": 0,
+        "context_facts": 1,
+        "unique_documents": 1,
+        "candidate_editorial_families": 1
+      },
+      {
+        "actor_id": "uzziel-ndagijimana",
+        "name": "Uzziel Ndagijimana",
+        "facts": 0,
+        "own_facts": 0,
+        "image_facts": 0,
+        "context_facts": 0,
+        "unique_documents": 0,
+        "candidate_editorial_families": 0
+      },
+      {
+        "actor_id": "paula-ingabire",
+        "name": "Paula Ingabire",
+        "facts": 0,
+        "own_facts": 0,
+        "image_facts": 0,
+        "context_facts": 0,
+        "unique_documents": 0,
+        "candidate_editorial_families": 0
+      },
+      {
+        "actor_id": "sabin-nsanzimana",
+        "name": "Sabin Nsanzimana",
+        "facts": 1,
+        "own_facts": 1,
+        "image_facts": 0,
+        "context_facts": 0,
+        "unique_documents": 1,
+        "candidate_editorial_families": 1
+      },
+      {
+        "actor_id": "judith-uwizeye",
+        "name": "Judith Uwizeye",
+        "facts": 0,
+        "own_facts": 0,
+        "image_facts": 0,
+        "context_facts": 0,
+        "unique_documents": 0,
+        "candidate_editorial_families": 0
+      },
+      {
+        "actor_id": "ines-mpambara",
+        "name": "Inès Mpambara",
+        "facts": 0,
+        "own_facts": 0,
+        "image_facts": 0,
+        "context_facts": 0,
+        "unique_documents": 0,
+        "candidate_editorial_families": 0
+      },
+      {
+        "actor_id": "valentine-uwamariya",
+        "name": "Valentine Uwamariya",
+        "facts": 0,
+        "own_facts": 0,
+        "image_facts": 0,
+        "context_facts": 0,
+        "unique_documents": 0,
+        "candidate_editorial_families": 0
+      },
+      {
+        "actor_id": "jeanne-darc-mujawamariya",
+        "name": "Jeanne d'Arc Mujawamariya",
+        "facts": 0,
+        "own_facts": 0,
+        "image_facts": 0,
+        "context_facts": 0,
+        "unique_documents": 0,
+        "candidate_editorial_families": 0
+      },
+      {
+        "actor_id": "gerardine-mukeshimana",
+        "name": "Gérardine Mukeshimana",
+        "facts": 0,
+        "own_facts": 0,
+        "image_facts": 0,
+        "context_facts": 0,
+        "unique_documents": 0,
+        "candidate_editorial_families": 0
+      },
+      {
+        "actor_id": "ildephonse-musafiri",
+        "name": "Ildephonse Musafiri",
+        "facts": 0,
+        "own_facts": 0,
+        "image_facts": 0,
+        "context_facts": 0,
+        "unique_documents": 0,
+        "candidate_editorial_families": 0
+      },
+      {
+        "actor_id": "jean-claude-musabyimana",
+        "name": "Jean Claude Musabyimana",
+        "facts": 0,
+        "own_facts": 0,
+        "image_facts": 0,
+        "context_facts": 0,
+        "unique_documents": 0,
+        "candidate_editorial_families": 0
+      },
+      {
+        "actor_id": "jean-damascene-bizimana",
+        "name": "Jean-Damascène Bizimana",
+        "facts": 0,
+        "own_facts": 0,
+        "image_facts": 0,
+        "context_facts": 0,
+        "unique_documents": 0,
+        "candidate_editorial_families": 0
+      },
+      {
+        "actor_id": "clare-akamanzi",
+        "name": "Clare Akamanzi",
+        "facts": 0,
+        "own_facts": 0,
+        "image_facts": 0,
+        "context_facts": 0,
+        "unique_documents": 0,
+        "candidate_editorial_families": 0
+      },
+      {
+        "actor_id": "francis-gatare",
+        "name": "Francis Gatare",
+        "facts": 0,
+        "own_facts": 0,
+        "image_facts": 0,
+        "context_facts": 0,
+        "unique_documents": 0,
+        "candidate_editorial_families": 0
+      },
+      {
+        "actor_id": "gertrude-kazarwa",
+        "name": "Gertrude Kazarwa",
+        "facts": 0,
+        "own_facts": 0,
+        "image_facts": 0,
+        "context_facts": 0,
+        "unique_documents": 0,
+        "candidate_editorial_families": 0
+      },
+      {
+        "actor_id": "donatille-mukabalisa",
+        "name": "Donatille Mukabalisa",
+        "facts": 0,
+        "own_facts": 0,
+        "image_facts": 0,
+        "context_facts": 0,
+        "unique_documents": 0,
+        "candidate_editorial_families": 0
+      },
+      {
+        "actor_id": "francois-xavier-kalinda",
+        "name": "François-Xavier Kalinda",
+        "facts": 0,
+        "own_facts": 0,
+        "image_facts": 0,
+        "context_facts": 0,
+        "unique_documents": 0,
+        "candidate_editorial_families": 0
+      },
+      {
+        "actor_id": "augustin-iyamuremye",
+        "name": "Augustin Iyamuremye",
+        "facts": 0,
+        "own_facts": 0,
+        "image_facts": 0,
+        "context_facts": 0,
+        "unique_documents": 0,
+        "candidate_editorial_families": 0
+      },
+      {
+        "actor_id": "alvera-mukabaramba",
+        "name": "Alvera Mukabaramba",
+        "facts": 0,
+        "own_facts": 0,
+        "image_facts": 0,
+        "context_facts": 0,
+        "unique_documents": 0,
+        "candidate_editorial_families": 0
+      },
+      {
+        "actor_id": "mussa-fazil-harerimana",
+        "name": "Mussa Fazil Harerimana",
+        "facts": 0,
+        "own_facts": 0,
+        "image_facts": 0,
+        "context_facts": 0,
+        "unique_documents": 0,
+        "candidate_editorial_families": 0
+      },
+      {
+        "actor_id": "pudence-rubingisa",
+        "name": "Pudence Rubingisa",
+        "facts": 0,
+        "own_facts": 0,
+        "image_facts": 0,
+        "context_facts": 0,
+        "unique_documents": 0,
+        "candidate_editorial_families": 0
+      },
+      {
+        "actor_id": "samuel-dusengiyumva",
+        "name": "Samuel Dusengiyumva",
+        "facts": 0,
+        "own_facts": 0,
+        "image_facts": 0,
+        "context_facts": 0,
+        "unique_documents": 0,
+        "candidate_editorial_families": 0
+      },
+      {
+        "actor_id": "frank-habineza",
+        "name": "Frank Habineza",
+        "facts": 0,
+        "own_facts": 0,
+        "image_facts": 0,
+        "context_facts": 0,
+        "unique_documents": 0,
+        "candidate_editorial_families": 0
+      },
+      {
+        "actor_id": "philippe-mpayimana",
+        "name": "Philippe Mpayimana",
+        "facts": 0,
+        "own_facts": 0,
+        "image_facts": 0,
+        "context_facts": 0,
+        "unique_documents": 0,
+        "candidate_editorial_families": 0
+      },
+      {
+        "actor_id": "victoire-ingabire",
+        "name": "Victoire Ingabire Umuhoza",
+        "facts": 0,
+        "own_facts": 0,
+        "image_facts": 0,
+        "context_facts": 0,
+        "unique_documents": 0,
+        "candidate_editorial_families": 0
+      },
+      {
+        "actor_id": "diane-rwigara",
+        "name": "Diane Shima Rwigara",
+        "facts": 0,
+        "own_facts": 0,
+        "image_facts": 0,
+        "context_facts": 0,
+        "unique_documents": 0,
+        "candidate_editorial_families": 0
+      },
+      {
+        "actor_id": "bernard-ntaganda",
+        "name": "Bernard Ntaganda",
+        "facts": 0,
+        "own_facts": 0,
+        "image_facts": 0,
+        "context_facts": 0,
+        "unique_documents": 0,
+        "candidate_editorial_families": 0
+      },
+      {
+        "actor_id": "christopher-kayumba",
+        "name": "Christopher Kayumba",
+        "facts": 0,
+        "own_facts": 0,
+        "image_facts": 0,
+        "context_facts": 0,
+        "unique_documents": 0,
+        "candidate_editorial_families": 0
+      },
+      {
+        "actor_id": "paul-rusesabagina",
+        "name": "Paul Rusesabagina",
+        "facts": 0,
+        "own_facts": 0,
+        "image_facts": 0,
+        "context_facts": 0,
+        "unique_documents": 0,
+        "candidate_editorial_families": 0
+      },
+      {
+        "actor_id": "kayumba-nyamwasa",
+        "name": "Faustin Kayumba Nyamwasa",
+        "facts": 0,
+        "own_facts": 0,
+        "image_facts": 0,
+        "context_facts": 0,
+        "unique_documents": 0,
+        "candidate_editorial_families": 0
+      },
+      {
+        "actor_id": "louise-mushikiwabo",
+        "name": "Louise Mushikiwabo",
+        "facts": 18,
+        "own_facts": 18,
+        "image_facts": 0,
+        "context_facts": 0,
+        "unique_documents": 2,
+        "candidate_editorial_families": 1
+      },
+      {
+        "actor_id": "claver-gatete",
+        "name": "Claver Gatete",
+        "facts": 0,
+        "own_facts": 0,
+        "image_facts": 0,
+        "context_facts": 0,
+        "unique_documents": 0,
+        "candidate_editorial_families": 0
+      },
+      {
+        "actor_id": "valentine-rugwabiza",
+        "name": "Valentine Rugwabiza",
+        "facts": 0,
+        "own_facts": 0,
+        "image_facts": 0,
+        "context_facts": 0,
+        "unique_documents": 0,
+        "candidate_editorial_families": 0
+      }
+    ],
+    "zero_coverage": [
+      {
+        "actor_id": "edouard-ngirente",
+        "name": "Edouard Ngirente"
+      },
+      {
+        "actor_id": "justin-nsengiyumva",
+        "name": "Justin Nsengiyumva"
+      },
+      {
+        "actor_id": "vincent-biruta",
+        "name": "Vincent Biruta"
+      },
+      {
+        "actor_id": "albert-murasira",
+        "name": "Albert Murasira"
+      },
+      {
+        "actor_id": "emmanuel-ugirashebuja",
+        "name": "Emmanuel Ugirashebuja"
+      },
+      {
+        "actor_id": "uzziel-ndagijimana",
+        "name": "Uzziel Ndagijimana"
+      },
+      {
+        "actor_id": "paula-ingabire",
+        "name": "Paula Ingabire"
+      },
+      {
+        "actor_id": "judith-uwizeye",
+        "name": "Judith Uwizeye"
+      },
+      {
+        "actor_id": "ines-mpambara",
+        "name": "Inès Mpambara"
+      },
+      {
+        "actor_id": "valentine-uwamariya",
+        "name": "Valentine Uwamariya"
+      },
+      {
+        "actor_id": "jeanne-darc-mujawamariya",
+        "name": "Jeanne d'Arc Mujawamariya"
+      },
+      {
+        "actor_id": "gerardine-mukeshimana",
+        "name": "Gérardine Mukeshimana"
+      },
+      {
+        "actor_id": "ildephonse-musafiri",
+        "name": "Ildephonse Musafiri"
+      },
+      {
+        "actor_id": "jean-claude-musabyimana",
+        "name": "Jean Claude Musabyimana"
+      },
+      {
+        "actor_id": "jean-damascene-bizimana",
+        "name": "Jean-Damascène Bizimana"
+      },
+      {
+        "actor_id": "clare-akamanzi",
+        "name": "Clare Akamanzi"
+      },
+      {
+        "actor_id": "francis-gatare",
+        "name": "Francis Gatare"
+      },
+      {
+        "actor_id": "gertrude-kazarwa",
+        "name": "Gertrude Kazarwa"
+      },
+      {
+        "actor_id": "donatille-mukabalisa",
+        "name": "Donatille Mukabalisa"
+      },
+      {
+        "actor_id": "francois-xavier-kalinda",
+        "name": "François-Xavier Kalinda"
+      },
+      {
+        "actor_id": "augustin-iyamuremye",
+        "name": "Augustin Iyamuremye"
+      },
+      {
+        "actor_id": "alvera-mukabaramba",
+        "name": "Alvera Mukabaramba"
+      },
+      {
+        "actor_id": "mussa-fazil-harerimana",
+        "name": "Mussa Fazil Harerimana"
+      },
+      {
+        "actor_id": "pudence-rubingisa",
+        "name": "Pudence Rubingisa"
+      },
+      {
+        "actor_id": "samuel-dusengiyumva",
+        "name": "Samuel Dusengiyumva"
+      },
+      {
+        "actor_id": "frank-habineza",
+        "name": "Frank Habineza"
+      },
+      {
+        "actor_id": "philippe-mpayimana",
+        "name": "Philippe Mpayimana"
+      },
+      {
+        "actor_id": "victoire-ingabire",
+        "name": "Victoire Ingabire Umuhoza"
+      },
+      {
+        "actor_id": "diane-rwigara",
+        "name": "Diane Shima Rwigara"
+      },
+      {
+        "actor_id": "bernard-ntaganda",
+        "name": "Bernard Ntaganda"
+      },
+      {
+        "actor_id": "christopher-kayumba",
+        "name": "Christopher Kayumba"
+      },
+      {
+        "actor_id": "paul-rusesabagina",
+        "name": "Paul Rusesabagina"
+      },
+      {
+        "actor_id": "kayumba-nyamwasa",
+        "name": "Faustin Kayumba Nyamwasa"
+      },
+      {
+        "actor_id": "claver-gatete",
+        "name": "Claver Gatete"
+      },
+      {
+        "actor_id": "valentine-rugwabiza",
+        "name": "Valentine Rugwabiza"
+      }
+    ],
+    "zero_own_position_coverage": [
+      {
+        "actor_id": "edouard-ngirente",
+        "name": "Edouard Ngirente"
+      },
+      {
+        "actor_id": "justin-nsengiyumva",
+        "name": "Justin Nsengiyumva"
+      },
+      {
+        "actor_id": "vincent-biruta",
+        "name": "Vincent Biruta"
+      },
+      {
+        "actor_id": "james-kabarebe",
+        "name": "James Kabarebe"
+      },
+      {
+        "actor_id": "juvenal-marizamunda",
+        "name": "Juvenal Marizamunda"
+      },
+      {
+        "actor_id": "albert-murasira",
+        "name": "Albert Murasira"
+      },
+      {
+        "actor_id": "emmanuel-ugirashebuja",
+        "name": "Emmanuel Ugirashebuja"
+      },
+      {
+        "actor_id": "uzziel-ndagijimana",
+        "name": "Uzziel Ndagijimana"
+      },
+      {
+        "actor_id": "paula-ingabire",
+        "name": "Paula Ingabire"
+      },
+      {
+        "actor_id": "judith-uwizeye",
+        "name": "Judith Uwizeye"
+      },
+      {
+        "actor_id": "ines-mpambara",
+        "name": "Inès Mpambara"
+      },
+      {
+        "actor_id": "valentine-uwamariya",
+        "name": "Valentine Uwamariya"
+      },
+      {
+        "actor_id": "jeanne-darc-mujawamariya",
+        "name": "Jeanne d'Arc Mujawamariya"
+      },
+      {
+        "actor_id": "gerardine-mukeshimana",
+        "name": "Gérardine Mukeshimana"
+      },
+      {
+        "actor_id": "ildephonse-musafiri",
+        "name": "Ildephonse Musafiri"
+      },
+      {
+        "actor_id": "jean-claude-musabyimana",
+        "name": "Jean Claude Musabyimana"
+      },
+      {
+        "actor_id": "jean-damascene-bizimana",
+        "name": "Jean-Damascène Bizimana"
+      },
+      {
+        "actor_id": "clare-akamanzi",
+        "name": "Clare Akamanzi"
+      },
+      {
+        "actor_id": "francis-gatare",
+        "name": "Francis Gatare"
+      },
+      {
+        "actor_id": "gertrude-kazarwa",
+        "name": "Gertrude Kazarwa"
+      },
+      {
+        "actor_id": "donatille-mukabalisa",
+        "name": "Donatille Mukabalisa"
+      },
+      {
+        "actor_id": "francois-xavier-kalinda",
+        "name": "François-Xavier Kalinda"
+      },
+      {
+        "actor_id": "augustin-iyamuremye",
+        "name": "Augustin Iyamuremye"
+      },
+      {
+        "actor_id": "alvera-mukabaramba",
+        "name": "Alvera Mukabaramba"
+      },
+      {
+        "actor_id": "mussa-fazil-harerimana",
+        "name": "Mussa Fazil Harerimana"
+      },
+      {
+        "actor_id": "pudence-rubingisa",
+        "name": "Pudence Rubingisa"
+      },
+      {
+        "actor_id": "samuel-dusengiyumva",
+        "name": "Samuel Dusengiyumva"
+      },
+      {
+        "actor_id": "frank-habineza",
+        "name": "Frank Habineza"
+      },
+      {
+        "actor_id": "philippe-mpayimana",
+        "name": "Philippe Mpayimana"
+      },
+      {
+        "actor_id": "victoire-ingabire",
+        "name": "Victoire Ingabire Umuhoza"
+      },
+      {
+        "actor_id": "diane-rwigara",
+        "name": "Diane Shima Rwigara"
+      },
+      {
+        "actor_id": "bernard-ntaganda",
+        "name": "Bernard Ntaganda"
+      },
+      {
+        "actor_id": "christopher-kayumba",
+        "name": "Christopher Kayumba"
+      },
+      {
+        "actor_id": "paul-rusesabagina",
+        "name": "Paul Rusesabagina"
+      },
+      {
+        "actor_id": "kayumba-nyamwasa",
+        "name": "Faustin Kayumba Nyamwasa"
+      },
+      {
+        "actor_id": "claver-gatete",
+        "name": "Claver Gatete"
+      },
+      {
+        "actor_id": "valentine-rugwabiza",
+        "name": "Valentine Rugwabiza"
+      }
+    ],
+    "roster_coverage": {
+      "actors": 42,
+      "actors_with_any_facts": 7,
+      "actors_with_own_position_facts": 5
+    },
+    "editorial_families": {
+      "near_candidate_pairs": 38,
+      "candidate_family_count_all_records": 239,
+      "note": "Union of exact and near-duplicate candidate links, not verified independent episodes or evidence of true allegations."
+    },
+    "ledger": {
+      "all_historical_and_new": {
+        "by_model_stage_recipe": [
+          {
+            "model": "gpt-4.1-mini",
+            "stage": "relevance",
+            "recipe_state": "active",
+            "jobs": 272,
+            "jobs_with_reported_usage_or_cost": 272,
+            "status_counts": {
+              "done": 260,
+              "review": 12
+            },
+            "input_tokens": 904675,
+            "output_tokens": 22112,
+            "recorded_cost_usd": 0.39517560000000035,
+            "uncached_equivalent_usd": 0.39724920000000036,
+            "outstanding_reserved_usd": 0
+          },
+          {
+            "model": "gpt-4.1-mini",
+            "stage": "relevance",
+            "recipe_state": "inactive",
+            "jobs": 62,
+            "jobs_with_reported_usage_or_cost": 62,
+            "status_counts": {
+              "done": 62
+            },
+            "input_tokens": 218459,
+            "output_tokens": 5094,
+            "recorded_cost_usd": 0.09553400000000001,
+            "uncached_equivalent_usd": 0.09553400000000001,
+            "outstanding_reserved_usd": 0
+          },
+          {
+            "model": "gpt-4.1-nano",
+            "stage": "relevance",
+            "recipe_state": "inactive",
+            "jobs": 87,
+            "jobs_with_reported_usage_or_cost": 87,
+            "status_counts": {
+              "done": 86,
+              "review": 1
+            },
+            "input_tokens": 308429,
+            "output_tokens": 6557,
+            "recorded_cost_usd": 0.03346570000000001,
+            "uncached_equivalent_usd": 0.03346570000000001,
+            "outstanding_reserved_usd": 0
+          },
+          {
+            "model": "gpt-5.1",
+            "stage": "describe",
+            "recipe_state": "active",
+            "jobs": 2,
+            "jobs_with_reported_usage_or_cost": 2,
+            "status_counts": {
+              "done": 2
+            },
+            "input_tokens": 48303,
+            "output_tokens": 3709,
+            "recorded_cost_usd": 0.09746874999999999,
+            "uncached_equivalent_usd": 0.09746874999999999,
+            "outstanding_reserved_usd": 0
+          },
+          {
+            "model": "gpt-5.1",
+            "stage": "describe",
+            "recipe_state": "inactive",
+            "jobs": 3,
+            "jobs_with_reported_usage_or_cost": 3,
+            "status_counts": {
+              "done": 1,
+              "review": 2
+            },
+            "input_tokens": 16234,
+            "output_tokens": 5404,
+            "recorded_cost_usd": 0.07433250000000001,
+            "uncached_equivalent_usd": 0.07433250000000001,
+            "outstanding_reserved_usd": 0
+          },
+          {
+            "model": "gpt-5.1",
+            "stage": "extract",
+            "recipe_state": "active",
+            "jobs": 248,
+            "jobs_with_reported_usage_or_cost": 248,
+            "status_counts": {
+              "done": 248
+            },
+            "input_tokens": 908539,
+            "output_tokens": 63151,
+            "recorded_cost_usd": 1.7671837499999998,
+            "uncached_equivalent_usd": 1.7671837499999998,
+            "outstanding_reserved_usd": 0
+          },
+          {
+            "model": "gpt-5.1",
+            "stage": "extract",
+            "recipe_state": "inactive",
+            "jobs": 16,
+            "jobs_with_reported_usage_or_cost": 16,
+            "status_counts": {
+              "done": 16
+            },
+            "input_tokens": 54960,
+            "output_tokens": 3142,
+            "recorded_cost_usd": 0.10011999999999999,
+            "uncached_equivalent_usd": 0.10011999999999999,
+            "outstanding_reserved_usd": 0
+          }
+        ],
+        "input_tokens": 2459599,
+        "output_tokens": 109169,
+        "total_tokens": 2568768,
+        "recorded_cost_usd": 2.5632803,
+        "active_recorded_cost_usd": 2.2598281,
+        "inactive_recorded_cost_usd": 0.3034522,
+        "outstanding_reserved_usd": 0,
+        "note": "All snapshot jobs, including inactive recipes, refusals and failed validations. Reservations are possible charges, not confirmed expenditure. Uncached equivalents use snapshot-config rates."
+      },
+      "new_job_receipts": {
+        "by_model_stage_recipe": [
+          {
+            "model": "gpt-4.1-mini",
+            "stage": "relevance",
+            "recipe_state": "active",
+            "jobs": 210,
+            "jobs_with_reported_usage_or_cost": 210,
+            "status_counts": {
+              "done": 200,
+              "review": 10
+            },
+            "input_tokens": 686216,
+            "output_tokens": 16875,
+            "recorded_cost_usd": 0.3014864,
+            "uncached_equivalent_usd": 0.3014864,
+            "outstanding_reserved_usd": 0
+          },
+          {
+            "model": "gpt-5.1",
+            "stage": "describe",
+            "recipe_state": "active",
+            "jobs": 2,
+            "jobs_with_reported_usage_or_cost": 2,
+            "status_counts": {
+              "done": 2
+            },
+            "input_tokens": 48303,
+            "output_tokens": 3709,
+            "recorded_cost_usd": 0.09746874999999999,
+            "uncached_equivalent_usd": 0.09746874999999999,
+            "outstanding_reserved_usd": 0
+          },
+          {
+            "model": "gpt-5.1",
+            "stage": "extract",
+            "recipe_state": "active",
+            "jobs": 248,
+            "jobs_with_reported_usage_or_cost": 248,
+            "status_counts": {
+              "done": 248
+            },
+            "input_tokens": 908539,
+            "output_tokens": 63151,
+            "recorded_cost_usd": 1.7671837499999998,
+            "uncached_equivalent_usd": 1.7671837499999998,
+            "outstanding_reserved_usd": 0
+          }
+        ],
+        "input_tokens": 1643058,
+        "output_tokens": 83735,
+        "total_tokens": 1726793,
+        "recorded_cost_usd": 2.1661389,
+        "active_recorded_cost_usd": 2.1661389,
+        "inactive_recorded_cost_usd": 0,
+        "outstanding_reserved_usd": 0,
+        "note": "All snapshot jobs, including inactive recipes, refusals and failed validations. Reservations are possible charges, not confirmed expenditure. Uncached equivalents use snapshot-config rates."
+      },
+      "frozen_start_spent_usd": 0.3971414,
+      "new_recorded_cost_delta_usd": 2.1661389,
+      "budget_cap_usd": 5.3971414,
+      "remaining_cap_after_reservations_usd": 2.8338610999999996
+    },
+    "flags": {}
+  },
+  "forecast": {
+    "target_raw_documents": 32000,
+    "pilot_raw_document_denominator": 259,
+    "stage_costs": {
+      "relevance": {
+        "complete": true,
+        "active_jobs": 272,
+        "active_recorded_cost_usd": 0.39517560000000035,
+        "active_uncached_equivalent_usd": 0.39724920000000036,
+        "full_32000_observed_cache_usd": 48.8247845559846,
+        "full_32000_uncached_usd": 49.08098223938229,
+        "partial_incurred_scaled_to_32000_usd": null,
+        "status_counts": {
+          "done": 260,
+          "review": 12
+        }
+      },
+      "extract": {
+        "complete": true,
+        "active_jobs": 248,
+        "active_recorded_cost_usd": 1.7671837499999998,
+        "active_uncached_equivalent_usd": 1.7671837499999998,
+        "full_32000_observed_cache_usd": 218.33930501930502,
+        "full_32000_uncached_usd": 218.33930501930502,
+        "partial_incurred_scaled_to_32000_usd": null,
+        "status_counts": {
+          "done": 248
+        }
+      },
+      "describe": {
+        "complete": true,
+        "active_jobs": 2,
+        "active_recorded_cost_usd": 0.09746874999999999,
+        "active_uncached_equivalent_usd": 0.09746874999999999,
+        "full_32000_observed_cache_usd": 12.042471042471043,
+        "full_32000_uncached_usd": 12.042471042471043,
+        "partial_incurred_scaled_to_32000_usd": null,
+        "status_counts": {
+          "done": 2
+        }
+      }
+    },
+    "basis": "Active-recipe equivalent cost × 32000 / all pilot records; no random-stratum extrapolation or confidence interval.",
+    "limitations": [
+      "Three-day topic-heavy census is not representative of a future corpus.",
+      "Observed cache is a transfer scenario, not a promised future discount.",
+      "Partial incurred scaling is not a completed-stage price estimate.",
+      "No cost estimate for whole-research scoring, human review, retries or revisions."
+    ],
+    "full_research_scores_estimated": false
+  },
+  "provenance": {
+    "manifest_sha256": "84dcc8f5a6d5c280f272843e6642a7a3c953c4449435dbd05233a264f3b3f287",
+    "results_private_sha256": "349cc1ca905eac77e947ba1b17ed7cb53c5fbba7a65a8d1f85dd7deba9caf36f",
+    "source_csv_sha256": "1394ec4690d5cdea535fab41cde6e0734a7d24236bed9dc25d8f469b7ad80919",
+    "document_snapshot_sha256": "0915b8091df1ee47504a4639e74efcbfabb1bb9606a979023527d389aefc8eea",
+    "similar_candidate_snapshot_sha256": "eaa96ac83ea07409cd0543f2b9ac211bc930dcee94785a72070b915726420c4f",
+    "summarizer_sha256": "c0ea58eacc4af93cab26937a8492336497f30f77d0951a6aa4d34880c9a6dda2",
+    "jobs_basis": "Frozen snapshot active_recipe flags; no API or live recipe recalculation."
+  },
+  "generated_at": "2026-10-17T16:46:42.568495+00:00"
+}
