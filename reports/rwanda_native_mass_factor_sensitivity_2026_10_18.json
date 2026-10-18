@@ -1,0 +1,334 @@
+{
+  "version": "native-interval-fa-conditional-v1",
+  "canonical_42_by_38_solution": false,
+  "midpoints_are_observations": false,
+  "panel": {
+    "actor_ids": [
+      "paul-kagame",
+      "justin-nsengiyumva",
+      "vincent-biruta",
+      "olivier-nduhungirehe",
+      "juvenal-marizamunda",
+      "albert-murasira",
+      "yusuf-murangwa",
+      "paula-ingabire",
+      "sabin-nsanzimana",
+      "gerardine-mukeshimana",
+      "louise-mushikiwabo",
+      "claver-gatete"
+    ],
+    "scale_ids": [
+      "m04",
+      "m05",
+      "m10",
+      "g03",
+      "g02",
+      "m01",
+      "m02",
+      "g01"
+    ],
+    "n": 12,
+    "p": 8,
+    "coverage": 0.875,
+    "rule": "Candidates have >=6 informative cells across the approved dictionary. Availability only within those candidates: maximum n, then largest prefix of scales ordered by coverage (ID tie-break), then coverage and actor IDs; >=12 actors, >=6 variables, >=8 and 60% actors per variable, >=4 and 60% variables per actor, >=75% rectangle coverage. Numerical constancy checked afterwards. This is not a global optimum over every possible subset of the 42 actors and 38 variables.",
+    "value_based_factor_selection": false
+  },
+  "recommended_q": null,
+  "new_api_cost_usd": 0,
+  "cluster_solution_for_42": false,
+  "russia_factor_status": "not_testable_on_selected_panel",
+  "status": "conditional_sensitivity_only",
+  "scenarios": {
+    "lower": [
+      {
+        "q": 2,
+        "status": "not_fitted_constant_variables_in_fixed_panel",
+        "constant_scale_ids": [
+          "m02"
+        ],
+        "nominal_df": 13,
+        "variance_total": null
+      },
+      {
+        "q": 3,
+        "status": "not_fitted_constant_variables_in_fixed_panel",
+        "constant_scale_ids": [
+          "m02"
+        ],
+        "nominal_df": 7,
+        "variance_total": null
+      },
+      {
+        "q": 4,
+        "status": "not_fitted_constant_variables_in_fixed_panel",
+        "constant_scale_ids": [
+          "m02"
+        ],
+        "nominal_df": 2,
+        "variance_total": null
+      }
+    ],
+    "midpoint_scenario": [
+      {
+        "q": 2,
+        "status": "conditional_fit",
+        "nominal_df": 13,
+        "variance_total": 0.4638239917959234,
+        "factor_shares": [
+          0.203789999809814,
+          0.2600339919861093
+        ],
+        "loadings": [
+          [
+            0.05752724657867694,
+            -0.365721225193932
+          ],
+          [
+            0.41183620453588765,
+            0.14659177888738148
+          ],
+          [
+            0.9930977529700495,
+            0.033722747883297016
+          ],
+          [
+            -0.11061088179774642,
+            0.9001886609799419
+          ],
+          [
+            0.13325074389031327,
+            0.2578870335381025
+          ],
+          [
+            0.5003452550510494,
+            -0.42350707705539586
+          ],
+          [
+            0.42695925109782645,
+            0.7561122041922961
+          ],
+          [
+            0.09234881585265697,
+            -0.5440443832086461
+          ]
+        ],
+        "variance_denominator_variable_count": 8,
+        "variance_scope": "selected_panel_only_not_all_38_variables",
+        "strong_indicators_per_factor": [
+          4,
+          5
+        ],
+        "residual_rms_off_diagonal": 0.16413183492114278,
+        "diagnostics": {
+          "iterations": 236,
+          "convergence_warning": false,
+          "minimum_noise_before_floor": 0.012671032516217706,
+          "minimum_noise_after_floor": 0.012671032516217706,
+          "noise_floor_active_features": 0,
+          "posterior_system_condition": 9.095306556671549,
+          "training_missing_cells_mean_imputed": 12
+        },
+        "interval_stress": {
+          "attempted_runs": 20,
+          "successful_runs": 20,
+          "minimum_matched_axis_congruence": 0.019295114504411914,
+          "median_worst_axis_congruence": 0.5674554494012563,
+          "interpretation": "Deterministic stress perturbations within reviewed-sample bounds, NOT posterior draws or confidence intervals; no likelihood assigned to positions inside bounds."
+        }
+      },
+      {
+        "q": 3,
+        "status": "conditional_fit",
+        "nominal_df": 7,
+        "variance_total": 0.6306264248115961,
+        "factor_shares": [
+          0.23700146161747043,
+          0.19768256994423722,
+          0.1959423932498885
+        ],
+        "loadings": [
+          [
+            0.3626392493125667,
+            0.16616572271258123,
+            -0.052343295901680374
+          ],
+          [
+            -6.0271850771892625e-05,
+            0.2880755439279115,
+            0.8069692432206116
+          ],
+          [
+            -0.21454630136857672,
+            0.899721276848329,
+            0.18541561258819203
+          ],
+          [
+            -0.7574118849094756,
+            -0.3004585007295175,
+            0.19112990854595746
+          ],
+          [
+            -0.1489319943741744,
+            0.015243584784141182,
+            0.6707373820584673
+          ],
+          [
+            0.2386294203048129,
+            0.6390267178312871,
+            -0.16350348839765222
+          ],
+          [
+            -0.9554792232064404,
+            0.26404602015171597,
+            0.04157969840004795
+          ],
+          [
+            0.39081491804889146,
+            0.3045989046737776,
+            -0.6036053982603896
+          ]
+        ],
+        "variance_denominator_variable_count": 8,
+        "variance_scope": "selected_panel_only_not_all_38_variables",
+        "strong_indicators_per_factor": [
+          4,
+          2,
+          3
+        ],
+        "residual_rms_off_diagonal": 0.08863989331384407,
+        "diagnostics": {
+          "iterations": 214,
+          "convergence_warning": false,
+          "minimum_noise_before_floor": 0.01567308535721912,
+          "minimum_noise_after_floor": 0.01567308535721912,
+          "noise_floor_active_features": 0,
+          "posterior_system_condition": 12.800512184122097,
+          "training_missing_cells_mean_imputed": 12
+        },
+        "interval_stress": {
+          "attempted_runs": 20,
+          "successful_runs": 20,
+          "minimum_matched_axis_congruence": 0.09856207231235861,
+          "median_worst_axis_congruence": 0.4855455376329614,
+          "interpretation": "Deterministic stress perturbations within reviewed-sample bounds, NOT posterior draws or confidence intervals; no likelihood assigned to positions inside bounds."
+        }
+      },
+      {
+        "q": 4,
+        "status": "conditional_fit",
+        "nominal_df": 2,
+        "variance_total": 0.7636417025365223,
+        "factor_shares": [
+          0.2073805129694191,
+          0.21888215649357473,
+          0.19074770076761882,
+          0.14663133230590966
+        ],
+        "loadings": [
+          [
+            0.2594657750075075,
+            0.1700508954432066,
+            -0.04109166477729829,
+            -0.774872192050243
+          ],
+          [
+            0.0882555429545618,
+            0.6383134464521654,
+            -0.4183642179420604,
+            0.29641425001091337
+          ],
+          [
+            -0.19646730381233615,
+            0.07891614728427246,
+            -0.9501093191013393,
+            -0.0474438035735963
+          ],
+          [
+            -0.7172841087565723,
+            0.20048851076245547,
+            0.23550534050684363,
+            0.2261247118129335
+          ],
+          [
+            -0.12944177549092242,
+            0.9413899845116677,
+            -0.03342523266292805,
+            -0.19554643896352847
+          ],
+          [
+            0.160830476793229,
+            -0.12388311716151085,
+            -0.5317452650639494,
+            -0.4828420011809018
+          ],
+          [
+            -0.947981689810891,
+            0.07086539652669133,
+            -0.27738321149698,
+            0.10561235742324278
+          ],
+          [
+            0.2992420101296114,
+            -0.6014053987574143,
+            -0.17401798644156033,
+            -0.385811170261819
+          ]
+        ],
+        "variance_denominator_variable_count": 8,
+        "variance_scope": "selected_panel_only_not_all_38_variables",
+        "strong_indicators_per_factor": [
+          2,
+          3,
+          3,
+          3
+        ],
+        "residual_rms_off_diagonal": 0.020261190291963414,
+        "diagnostics": {
+          "iterations": 285,
+          "convergence_warning": false,
+          "minimum_noise_before_floor": 0.008238843166488818,
+          "minimum_noise_after_floor": 0.008238843166488818,
+          "noise_floor_active_features": 0,
+          "posterior_system_condition": 31.628121805422403,
+          "training_missing_cells_mean_imputed": 12
+        },
+        "interval_stress": {
+          "attempted_runs": 20,
+          "successful_runs": 20,
+          "minimum_matched_axis_congruence": 0.10012207416365768,
+          "median_worst_axis_congruence": 0.4502791420427147,
+          "interpretation": "Deterministic stress perturbations within reviewed-sample bounds, NOT posterior draws or confidence intervals; no likelihood assigned to positions inside bounds."
+        }
+      }
+    ],
+    "upper": [
+      {
+        "q": 2,
+        "status": "not_fitted_constant_variables_in_fixed_panel",
+        "constant_scale_ids": [
+          "g01"
+        ],
+        "nominal_df": 13,
+        "variance_total": null
+      },
+      {
+        "q": 3,
+        "status": "not_fitted_constant_variables_in_fixed_panel",
+        "constant_scale_ids": [
+          "g01"
+        ],
+        "nominal_df": 7,
+        "variance_total": null
+      },
+      {
+        "q": 4,
+        "status": "not_fitted_constant_variables_in_fixed_panel",
+        "constant_scale_ids": [
+          "g01"
+        ],
+        "nominal_df": 2,
+        "variance_total": null
+      }
+    ]
+  }
+}

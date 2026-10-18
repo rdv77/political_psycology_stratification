@@ -1,0 +1,31 @@
+{
+  "version": "rwanda-native-mass-validation-v1",
+  "processed_cases": 7021,
+  "source_documents": 4925,
+  "literal_quote_mismatches": 0,
+  "identical_attributed_text_numeric_conflicts": 0,
+  "actor_cards": 42,
+  "scale_rows": 1596,
+  "public_data_files_scanned": 6,
+  "private_identifier_or_quote_fields_detected": 0,
+  "public_aggregation_and_factor_reproduction": "passed",
+  "targeted_tests_passed": 29,
+  "historical_extraction_ledger_unchanged": {
+    "jobs": 23908,
+    "facts": 11285,
+    "fact_reviews": 37,
+    "runs": 22459,
+    "historical_job_cost_usd": 69.524789
+  },
+  "new_api_calls": 0,
+  "new_api_cost_usd": 0,
+  "hashes": {
+    "reports/rwanda_native_mass_2026_10_18.json": "f750a74e0d04b5ac5c9ee0b2e7cb6973ab7f5d28277ac6326992deffb71eda51",
+    "reports/rwanda_native_mass_bounds_2026_10_18.json": "a06d5345ada540dcaa9a68985cbfba03fa5eeb45cc1d278d311b0d1b8d2b847d",
+    "reports/rwanda_native_mass_checkpoints_2026_10_18.json": "c3f09c1f60c2cc0ec7b6afea5979d64bd4021e677953f8caba5401b5ced37a05",
+    "reports/rwanda_native_mass_factor_sensitivity_2026_10_18.json": "75866784fa477154d6c9db358466225b6f4a0ef26704dc4cdfd82fe9901258d4",
+    "reports/rwanda_native_mass_profiles_2026_10_18.json": "d6a7f2a35df3ae3af572d08149a81dea9a3a3b9e24a00a691c3b27ed257b585a",
+    "reports/rwanda_native_mass_review_bundle_2026_10_18.json": "8de691d6c444a01df5c535c496596b5578ad3de1d9fa1fa86fdefd905f62c2ff"
+  },
+  "full_test_suite_passed": 599
+}

@@ -9,6 +9,8 @@ from __future__ import annotations
 from collections import Counter
 from pathlib import Path
 import json
+import unicodedata
+import re
 
 from .scoring_preparation import digest
 
@@ -71,12 +73,162 @@ def checkpoint_changes(before, after):
             "lost_known": sum(c["after"] is None for c in changes)}
 
 
+def source_intensity_bounds(profiles):
+    """Bounds on the reviewed-sample median, not on a politician's true belief.
+
+    Any deduplication/partition of these admitted, internally consistent episode
+    intensities has its median between their minimum and maximum. Where the
+    existing aggregation identifies a point, keep that point. Unmeasured cells
+    remain entirely missing. Midpoints are scenario inputs, not observations.
+    """
+    episodes = {e["episode_id"]: e for e in profiles["episodes"]}
+    result = {}
+    for name, scenario in profiles["scenarios"].items():
+        cells = []
+        for cell in scenario["cells"]:
+            values = [r["value"] for eid in cell["episode_ids"]
+                      for r in episodes[eid]["ratings"]
+                      if r["scale_id"] == cell["scale_id"] and r["value"] is not None]
+            if cell["value"] is not None:
+                lower = upper = cell["value"]
+                kind = "point_identified_under_reviewed_aggregation"
+            elif values:
+                lower, upper = min(values), max(values)
+                kind = "bounded_due_to_unresolved_event_multiplicity"
+            else:
+                lower = upper = None
+                kind = "no_admissible_reviewed_measurement"
+            cells.append({"actor_id": cell["actor_id"], "scale_id": cell["scale_id"],
+                          "lower": lower, "upper": upper,
+                          "midpoint_scenario": (lower + upper) / 2 if lower is not None else None,
+                          "measurement_status": kind, "case_ids": cell["case_ids"],
+                          "is_confidence_interval": False,
+                          "midpoint_is_observed": False})
+        result[name] = {"cells": cells,
+                        "informative_cells": sum(c["lower"] is not None for c in cells),
+                        "bounded_nonpoint_cells": sum(c["lower"] is not None and c["lower"] != c["upper"] for c in cells),
+                        "unmeasured_cells": sum(c["lower"] is None for c in cells),
+                        "population_trait_bound_claimed": False}
+    return result
+
+
+def bound_changes(before, after):
+    changes = {}
+    for endpoint in ("lower", "upper"):
+        def adapt(cells):
+            return [{"actor_id": c["actor_id"], "scale_id": c["scale_id"], "value": c[endpoint]} for c in cells]
+        changes[endpoint] = checkpoint_changes(adapt(before), adapt(after))
+    keys = {(c["actor_id"], c["scale_id"]) for change in changes.values()
+            for c in change["changed_cells"] if c["substantive"]}
+    return {"substantive_cells": len(keys), "endpoints": changes}
+
+
 def stopping_decision(checkpoints, *, rare_actor_queue_exhausted):
     recent = checkpoints[-2:]
     return bool(rare_actor_queue_exhausted and len(recent) == 2
                 and all(c["reviewed_cases_in_block"] == 500
                         and c["substantive_changes"] == 0
                         and c.get("profiles_aggregated") is True for c in recent))
+
+
+def literal_key(fact):
+    """Only whitespace/NFC equivalence; no synonyms, stemming or predictions."""
+    def text(value):
+        return " ".join(unicodedata.normalize("NFC", value or "").split())
+    return tuple(text(str(fact.get(k) or "")) for k in
+                 ("actor_id", "quote", "attribution_evidence", "attribution_basis"))
+
+
+def extend_literal_reuse(annotations, queue, fact_index, *, through):
+    """Reuse a native decision only for an identical attributed passage.
+
+    The new fact retains its own date review. This is NOT an assertion that
+    differently published identical quotations are independent events.
+    """
+    result = dict(annotations)
+    representatives = {}
+    decisions = {}
+    conflicts = set()
+    for number, row in sorted(annotations.items()):
+        key = literal_key(fact_index[row["fact_id"]]["fact"])
+        decision = (row["verdict"], tuple(sorted((r["scale_id"], r["value"]) for r in row["ratings"])))
+        if key in decisions and decisions[key] != decision:
+            conflicts.add(key)
+        decisions[key] = decision
+        representatives.setdefault(key, number)
+    for row in queue:
+        number = int(row["case_id"][1:])
+        if number > through or number in result:
+            continue
+        key = literal_key(fact_index[row["fact_id"]]["fact"])
+        original = representatives.get(key) if key not in conflicts else None
+        if original is None or original >= number:
+            continue
+        prior = result[original]
+        result[number] = {**row, "verdict": prior["verdict"], "ratings": prior["ratings"],
+                          "reason_ru": prior["reason_ru"], "all_38_considered": True,
+                          "source_read_scope": "identical_attributed_passage_reused",
+                          "literal_reuse_of": prior["case_id"]}
+    return result
+
+
+def protocol_only_screen(entry):
+    """Conservative no-rating triage of routine notices, never a scale score.
+
+    Restrict to reported actions with no dictionary retrieval hits. The English
+    extraction summary is only a routing aid; original passages are checked for
+    explicit speech, commitments and substantive decisions before screening.
+    """
+    fact = entry["fact"]
+    if (entry.get("matched_scale_ids") or fact.get("kind") != "action"
+            or fact.get("attribution_basis") != "reported_action"):
+        return None
+    quote, attribution = fact.get("quote", ""), fact.get("attribution_evidence", "")
+    if len(quote) > 550 or len(attribution) > 800:
+        return None
+    text = " ".join((quote, attribution, fact.get("claim", ""))).lower()
+    if any(mark in quote for mark in ('"', '“', '”', '«', '»')):
+        return None
+    if re.search(r"russia|russie|russian|moscow|moscou|lavrov|putin|burusiya", text):
+        return None
+    substantive = (r"\b(said|says|urged|called|reaffirmed|announc\w*|stressed|noted|emphas\w*|"
+                   r"highlighted|declared|sign\w*|agreed|demand\w*|support\w*|promis\w*|warn\w*|"
+                   r"accus\w*|deni\w*|refus\w*|reform\w*|construct\w*|launch\w*|inaugurat\w*|"
+                   r"discuss\w*|negotiat\w*|propos\w*|pledge\w*|commit\w*|fund\w*|assist\w*|"
+                   r"vowed|critic\w*|protect\w*|prioriti\w*|report\w*|work\w*|road\w*|"
+                   r"build\w*|renovat\w*|hous\w*|classroom\w*|distribut\w*|drought|drain\w*|"
+                   r"water|hospital\w*|clinic\w*|school\w*|benefit\w*|improv\w*|service\w*|"
+                   r"farm\w*|irrigat\w*)\b")
+    if re.search(substantive, text):
+        return None
+    claim = fact.get("claim", "").lower()
+    patterns = {
+        "credentials_notice": r"letters? of credence|present\w*.*credentials",
+        "arrival_or_attendance_notice": r"\b(arrived|attended|was present|is attending|participated in|joined .*ceremony)\b",
+        "ceremonial_reception_notice": r"\b(received|welcomed|hosted|met with|was received|was welcomed)\b",
+        "wreath_or_silence_notice": r"laid (?:a )?wreath|observed .*silence",
+        "appointment_notice": r"\b(appointed|was elected|was named)\b",
+    }
+    for name, pattern in patterns.items():
+        if re.search(pattern, claim):
+            return name
+    return None
+
+
+def extend_protocol_screen(annotations, queue, fact_index, *, through):
+    result = dict(annotations)
+    for row in queue:
+        number = int(row["case_id"][1:])
+        if number > through or number in result:
+            continue
+        reason = protocol_only_screen(fact_index[row["fact_id"]])
+        if reason:
+            result[number] = {**row, "verdict": "exclude", "ratings": [],
+                              "reason_ru": "Локальный фильтр: краткое протокольное сообщение без обнаруженной содержательной позиции; нулевые оценки не создаются.",
+                              "all_38_considered": False,
+                              "source_read_scope": "local_protocol_notice_screen",
+                              "protocol_screen_rule": reason}
+    return result
 
 
 def audit_journal(root):
@@ -91,6 +243,14 @@ def audit_journal(root):
     if len({r["fact_id"] for r in queue}) != len(queue):
         raise ValueError("Queue repeats source fragments")
     annotations = parse_annotations(private.glob("review_*.tsv"), queue, dictionary)
+    # Only already entered native judgements are a source of literal reuse.
+    # No unreviewed text receives a score via a lexical classifier.
+    reuse_limit = read_json(private / "literal_reuse_limit_private.json").get("through", 0) if (private / "literal_reuse_limit_private.json").exists() else 0
+    native_count = len(annotations)
+    annotations = extend_literal_reuse(annotations, queue, dossiers["private_fact_index"], through=reuse_limit)
+    literal_count = len(annotations) - native_count
+    screen_limit = read_json(private / "protocol_screen_limit_private.json").get("through", 0) if (private / "protocol_screen_limit_private.json").exists() else 0
+    annotations = extend_protocol_screen(annotations, queue, dossiers["private_fact_index"], through=screen_limit)
     public_cases, private_cases = [], []
     for number, row in sorted(annotations.items()):
         fact = dossiers["private_fact_index"][row["fact_id"]]["fact"]
@@ -98,7 +258,7 @@ def audit_journal(root):
             raise ValueError("Native queue contains a non-candidate")
         safe = {k: v for k, v in row.items() if k != "fact_id"}
         safe["actor_id"] = fact["actor_id"]
-        safe["all_38_considered"] = len(dictionary["scales"]) == 38
+        safe["all_38_considered"] = row["all_38_considered"] and len(dictionary["scales"]) == 38
         # Quote validation is literal; no claim that the whole document was read.
         if not fact.get("quote"):
             raise ValueError("Missing original source passage")
@@ -116,7 +276,12 @@ def audit_journal(root):
                "reviewed_shortlist": initial,
                "reviewed_remainder": len(annotations) - initial,
                "reviewed_fragments": len(annotations),
+               "processed_fragments": len(annotations),
+               "native_passages_read": native_count,
+               "identical_attributed_passages_reused": literal_count,
+               "automatically_screened_protocol_notices": len(annotations) - native_count - literal_count,
                "remaining_fragments": len(queue) - len(annotations),
+               "source_queue_processing_completed": len(annotations) == len(queue),
                "provisional_fragment_property_ratings": sum(len(r["ratings"]) for r in public_cases),
                "verdicts": dict(Counter(r["verdict"] for r in public_cases)),
                "cases": public_cases, "api_calls": 0, "new_api_cost_usd": 0,
