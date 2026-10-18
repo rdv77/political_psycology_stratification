@@ -1,0 +1,76 @@
+{
+  "version": "rwanda-incomplete-validation-v1",
+  "public_input_hashes_unchanged": true,
+  "input_identity_rule": "canonical JSON, sorted keys, UTF-8, no whitespace",
+  "raw_input_bytes_match_execution": true,
+  "main_actor_count": 31,
+  "main_trait_count": 24,
+  "exact_cells": 131,
+  "range_scenario_cells": 94,
+  "unique_validation_targets": 128,
+  "extreme_zero_score_in_validation": true,
+  "unmeasured_actor_coordinates_exported": false,
+  "collapsed_ridge_coordinates_exported_as_numbers": false,
+  "main_model_checks": [
+    {
+      "q": 1,
+      "main_rhat_max": 1.0052708009511564,
+      "main_ess_min": 1789.723018802958,
+      "off_diagonal_95_intervals_excluding_zero": 0,
+      "ridge_effective_rank": 0
+    },
+    {
+      "q": 2,
+      "main_rhat_max": 1.001761545332671,
+      "main_ess_min": 2844.3307147014225,
+      "off_diagonal_95_intervals_excluding_zero": 0,
+      "ridge_effective_rank": 0
+    },
+    {
+      "q": 3,
+      "main_rhat_max": 1.001227408914936,
+      "main_ess_min": 3173.0032963938547,
+      "off_diagonal_95_intervals_excluding_zero": 0,
+      "ridge_effective_rank": 0
+    }
+  ],
+  "additional_bayesian_fits": 114,
+  "additional_fits_rhat_over_1_01": [],
+  "extended_additional_fits": 68,
+  "tests": {
+    "tests": 610,
+    "failures": 0,
+    "errors": 0,
+    "skipped": 0,
+    "passed": true,
+    "seconds": 60.594000000011874,
+    "temporary_directory": "workspace .service_runtime",
+    "execution": "local regression tests with loopback socket access; all API clients mocked",
+    "failed_cases": []
+  },
+  "new_api_calls": 0,
+  "new_api_cost_usd": 0,
+  "code_hash_rule": "UTF-8 source with universal LF line endings",
+  "code_sha256": {
+    "src/corpus_pipeline/incomplete_latent.py": "d0f412b573206cc1159a51851e6521ede8c228a581d1c09cc27f6905cfa04edb",
+    "scripts/compare_rwanda_incomplete_latent.py": "b8a1b63f01f516f7e50db248032ae2eedba92e012a71edb51f747b26a99c9684",
+    "scripts/build_rwanda_incomplete_report.py": "26eab2f1f443f7ad174b7c0122c7085a413057a5e8f65cf49b51af410a26055d",
+    "scripts/audit_rwanda_incomplete_latent.py": "616b90e375aa85115b8baf947fed14e91a071ceccd6a6a0785eda642a621a160",
+    "tests/test_incomplete_latent.py": "31d8dd2ed6512d71cb2abccdad7058c72a34a4918f31b336aca3011eb61e0416"
+  },
+  "seed_schedule": {
+    "outer_fold_allocation": 8100,
+    "inner_tuning": "9100 + outer_fold",
+    "cv_bayesian": "11100 + outer_fold",
+    "full_tuning": 12100,
+    "main_models": 13100,
+    "alternative_scenarios": 14100,
+    "prior_sensitivity": 15100,
+    "interval_values": "16100 + repeat",
+    "interval_fits": "17100 + repeat",
+    "actor_influence": 18100,
+    "weak_ridge": 19100,
+    "unchanged_data": "20100 + repeat",
+    "bayesian_chain_increment": 100003
+  }
+}
