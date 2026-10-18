@@ -1,0 +1,28 @@
+{
+  "matches": [
+    {
+      "q3_axis": 1,
+      "q4_axis": 2,
+      "signed_congruence": 0.6643602541773802
+    },
+    {
+      "q3_axis": 2,
+      "q4_axis": 1,
+      "signed_congruence": 0.7822669718706606
+    },
+    {
+      "q3_axis": 3,
+      "q4_axis": 3,
+      "signed_congruence": 0.5945044020270532
+    }
+  ],
+  "new_q4_axes": [
+    4
+  ],
+  "geometry": {
+    "status": "descriptive_geometry_comparison",
+    "worst_axis_congruence": 0.5945044020270532,
+    "mean_axis_congruence": 0.6803772093583648,
+    "distance_spearman": 0.7391903809966252
+  }
+}

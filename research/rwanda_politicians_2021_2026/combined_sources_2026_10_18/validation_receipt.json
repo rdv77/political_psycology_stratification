@@ -1,0 +1,33 @@
+{
+  "all_42_included": true,
+  "dictionary_size": 66,
+  "main_coverage": {
+    "actors": 42,
+    "traits": 29,
+    "informative": 612,
+    "possible": 1218,
+    "point_coded": 523
+  },
+  "source_catalog": {
+    "publication_actor_groups": 2621,
+    "historical_groups": 366,
+    "corpus_groups_with_joined_metadata": 2258,
+    "overlapping_actor_and_normalized_url_groups": 3,
+    "unjoined_prior_pilot_cases": [],
+    "independent_event_count_claimed": false,
+    "full_near_duplicate_event_resolution_claimed": false,
+    "duplicate_invariant_intensity_aggregation": true,
+    "new_api_cost_usd": 0
+  },
+  "historical_claims_reviewed": 588,
+  "semantic_exclusions": 18,
+  "crosscoded_claims": 69,
+  "all_claims_source_hash_bound": true,
+  "source_body_text_published": false,
+  "old_ratings_transferred": false,
+  "new_api_calls": 0,
+  "new_api_cost_usd": 0,
+  "models_content_hash": "6599b1a01e6105e77e8366755b5a1d0fe40dfc945d2d5418feed3b4d081af146",
+  "test_command": "python -B -m unittest tests.test_rwanda_harmonization tests.test_incomplete_latent",
+  "test_execution": "The report builder does not run tests; see provenance_audit.json for an actual executed audit."
+}
