@@ -1,0 +1,316 @@
+{
+  "report_version": "political-q4-2026-10-18",
+  "participants": 42,
+  "mapped_and_grouped": 37,
+  "directory_only": 5,
+  "dimensions": 4,
+  "groups": 5,
+  "figures": 4,
+  "verified_quotes_used": 7,
+  "new_api_calls": 0,
+  "new_api_cost_usd": 0,
+  "source_files_unchanged": true,
+  "source_hashes": {
+    "models.json": "0bafec0addd194f10e6e4af92aee16bae22f1955ce598b612f50f6b4f3a191cb",
+    "roster.json": "dd1a6a4aed7773a2bc8e904850dc85881f7be658b4c976f5a4a6ab8e26c45f2d",
+    "ratings.json": "a7c527e98fb5e267bcbc9346e23a13119e958b2d19c500229f0499228f841e97",
+    "dictionary.json": "f783973d5cdb82a0ac9312414121bbb046bcb707ae5189f2ebc34099b84099a2"
+  },
+  "maps": [
+    {
+      "filename": "politicians_f1_f2",
+      "shown": 37,
+      "labelled": 28,
+      "label_audit": [
+        {
+          "actor_id": "paul-kagame",
+          "overlaps_prior_labels": 0,
+          "outside_axes": false
+        },
+        {
+          "actor_id": "victoire-ingabire",
+          "overlaps_prior_labels": 0,
+          "outside_axes": false
+        },
+        {
+          "actor_id": "diane-rwigara",
+          "overlaps_prior_labels": 0,
+          "outside_axes": false
+        },
+        {
+          "actor_id": "frank-habineza",
+          "overlaps_prior_labels": 0,
+          "outside_axes": false
+        },
+        {
+          "actor_id": "vincent-biruta",
+          "overlaps_prior_labels": 0,
+          "outside_axes": false
+        },
+        {
+          "actor_id": "edouard-ngirente",
+          "overlaps_prior_labels": 0,
+          "outside_axes": false
+        },
+        {
+          "actor_id": "claver-gatete",
+          "overlaps_prior_labels": 0,
+          "outside_axes": false
+        },
+        {
+          "actor_id": "louise-mushikiwabo",
+          "overlaps_prior_labels": 0,
+          "outside_axes": false
+        },
+        {
+          "actor_id": "justin-nsengiyumva",
+          "overlaps_prior_labels": 0,
+          "outside_axes": false
+        },
+        {
+          "actor_id": "olivier-nduhungirehe",
+          "overlaps_prior_labels": 0,
+          "outside_axes": false
+        },
+        {
+          "actor_id": "emmanuel-ugirashebuja",
+          "overlaps_prior_labels": 0,
+          "outside_axes": false
+        },
+        {
+          "actor_id": "paula-ingabire",
+          "overlaps_prior_labels": 0,
+          "outside_axes": false
+        },
+        {
+          "actor_id": "yusuf-murangwa",
+          "overlaps_prior_labels": 0,
+          "outside_axes": false
+        },
+        {
+          "actor_id": "sabin-nsanzimana",
+          "overlaps_prior_labels": 0,
+          "outside_axes": false
+        },
+        {
+          "actor_id": "albert-murasira",
+          "overlaps_prior_labels": 0,
+          "outside_axes": false
+        },
+        {
+          "actor_id": "samuel-dusengiyumva",
+          "overlaps_prior_labels": 0,
+          "outside_axes": false
+        },
+        {
+          "actor_id": "valentine-uwamariya",
+          "overlaps_prior_labels": 0,
+          "outside_axes": false
+        },
+        {
+          "actor_id": "pudence-rubingisa",
+          "overlaps_prior_labels": 0,
+          "outside_axes": false
+        },
+        {
+          "actor_id": "juvenal-marizamunda",
+          "overlaps_prior_labels": 0,
+          "outside_axes": false
+        },
+        {
+          "actor_id": "ildephonse-musafiri",
+          "overlaps_prior_labels": 0,
+          "outside_axes": false
+        },
+        {
+          "actor_id": "valentine-rugwabiza",
+          "overlaps_prior_labels": 0,
+          "outside_axes": false
+        },
+        {
+          "actor_id": "uzziel-ndagijimana",
+          "overlaps_prior_labels": 0,
+          "outside_axes": false
+        },
+        {
+          "actor_id": "jeanne-darc-mujawamariya",
+          "overlaps_prior_labels": 0,
+          "outside_axes": false
+        },
+        {
+          "actor_id": "jean-claude-musabyimana",
+          "overlaps_prior_labels": 0,
+          "outside_axes": false
+        },
+        {
+          "actor_id": "jean-damascene-bizimana",
+          "overlaps_prior_labels": 0,
+          "outside_axes": false
+        },
+        {
+          "actor_id": "mussa-fazil-harerimana",
+          "overlaps_prior_labels": 0,
+          "outside_axes": false
+        },
+        {
+          "actor_id": "augustin-iyamuremye",
+          "overlaps_prior_labels": 0,
+          "outside_axes": false
+        },
+        {
+          "actor_id": "philippe-mpayimana",
+          "overlaps_prior_labels": 0,
+          "outside_axes": false
+        }
+      ]
+    },
+    {
+      "filename": "politicians_f3_f4",
+      "shown": 37,
+      "labelled": 28,
+      "label_audit": [
+        {
+          "actor_id": "paul-kagame",
+          "overlaps_prior_labels": 0,
+          "outside_axes": false
+        },
+        {
+          "actor_id": "victoire-ingabire",
+          "overlaps_prior_labels": 0,
+          "outside_axes": false
+        },
+        {
+          "actor_id": "diane-rwigara",
+          "overlaps_prior_labels": 0,
+          "outside_axes": false
+        },
+        {
+          "actor_id": "frank-habineza",
+          "overlaps_prior_labels": 0,
+          "outside_axes": false
+        },
+        {
+          "actor_id": "vincent-biruta",
+          "overlaps_prior_labels": 0,
+          "outside_axes": false
+        },
+        {
+          "actor_id": "edouard-ngirente",
+          "overlaps_prior_labels": 0,
+          "outside_axes": false
+        },
+        {
+          "actor_id": "claver-gatete",
+          "overlaps_prior_labels": 0,
+          "outside_axes": false
+        },
+        {
+          "actor_id": "louise-mushikiwabo",
+          "overlaps_prior_labels": 0,
+          "outside_axes": false
+        },
+        {
+          "actor_id": "justin-nsengiyumva",
+          "overlaps_prior_labels": 0,
+          "outside_axes": false
+        },
+        {
+          "actor_id": "olivier-nduhungirehe",
+          "overlaps_prior_labels": 0,
+          "outside_axes": false
+        },
+        {
+          "actor_id": "emmanuel-ugirashebuja",
+          "overlaps_prior_labels": 0,
+          "outside_axes": false
+        },
+        {
+          "actor_id": "paula-ingabire",
+          "overlaps_prior_labels": 0,
+          "outside_axes": false
+        },
+        {
+          "actor_id": "yusuf-murangwa",
+          "overlaps_prior_labels": 0,
+          "outside_axes": false
+        },
+        {
+          "actor_id": "sabin-nsanzimana",
+          "overlaps_prior_labels": 0,
+          "outside_axes": false
+        },
+        {
+          "actor_id": "albert-murasira",
+          "overlaps_prior_labels": 0,
+          "outside_axes": false
+        },
+        {
+          "actor_id": "samuel-dusengiyumva",
+          "overlaps_prior_labels": 0,
+          "outside_axes": false
+        },
+        {
+          "actor_id": "valentine-uwamariya",
+          "overlaps_prior_labels": 0,
+          "outside_axes": false
+        },
+        {
+          "actor_id": "pudence-rubingisa",
+          "overlaps_prior_labels": 0,
+          "outside_axes": false
+        },
+        {
+          "actor_id": "juvenal-marizamunda",
+          "overlaps_prior_labels": 0,
+          "outside_axes": false
+        },
+        {
+          "actor_id": "ildephonse-musafiri",
+          "overlaps_prior_labels": 0,
+          "outside_axes": false
+        },
+        {
+          "actor_id": "valentine-rugwabiza",
+          "overlaps_prior_labels": 0,
+          "outside_axes": false
+        },
+        {
+          "actor_id": "uzziel-ndagijimana",
+          "overlaps_prior_labels": 0,
+          "outside_axes": false
+        },
+        {
+          "actor_id": "jeanne-darc-mujawamariya",
+          "overlaps_prior_labels": 0,
+          "outside_axes": false
+        },
+        {
+          "actor_id": "jean-claude-musabyimana",
+          "overlaps_prior_labels": 0,
+          "outside_axes": false
+        },
+        {
+          "actor_id": "jean-damascene-bizimana",
+          "overlaps_prior_labels": 0,
+          "outside_axes": false
+        },
+        {
+          "actor_id": "mussa-fazil-harerimana",
+          "overlaps_prior_labels": 0,
+          "outside_axes": false
+        },
+        {
+          "actor_id": "augustin-iyamuremye",
+          "overlaps_prior_labels": 0,
+          "outside_axes": false
+        },
+        {
+          "actor_id": "philippe-mpayimana",
+          "overlaps_prior_labels": 0,
+          "outside_axes": false
+        }
+      ]
+    }
+  ],
+  "source_note": "New contextual quotes and role checks do not rescore the frozen inputs."
+}
