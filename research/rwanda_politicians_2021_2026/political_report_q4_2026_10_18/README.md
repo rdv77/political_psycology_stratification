@@ -4,6 +4,7 @@
 
 - [Читать отчёт](REPORT.md).
 - [PDF для чтения и печати](REPORT.pdf).
+- [Word для скачивания и редактирования](REPORT.docx).
 - [HTML с увеличиваемыми диаграммами](REPORT.html) — открыть локально в браузере.
 - [Техническое приложение](TECHNICAL_APPENDIX.md) — отдельно от политологического текста.
 
@@ -39,10 +40,12 @@ python -B scripts/analyze_rwanda_q4_clusters.py
 python -B scripts/build_rwanda_political_report_q4.py
 # Python с reportlab / Pillow / pypdf
 python -B scripts/render_rwanda_political_pdf.py
+# Python с python-docx / Pillow
+python -B scripts/render_rwanda_political_docx.py
 ```
 
 Два Python-окружения допустимы: расчёты/диаграммы и PDF могут использовать
-разные локальные зависимости. Содержимое MD, HTML и PDF берётся из одного
+разные локальные зависимости. Содержимое MD, HTML, PDF и Word берётся из одного
 [структурированного текста](report_content.json); в PDF широкие диаграммы
 следуют после текста соответствующего раздела. Окончательная PDF-верстка
 дополнительно проверяется по изображениям страниц.

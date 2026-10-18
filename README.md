@@ -2,7 +2,8 @@
 
 **Политологический отчёт по четырёхмерному решению Руанды, 18.10.2026:**
 [отчёт с диаграммами и справочником 42 участников](research/rwanda_politicians_2021_2026/political_report_q4_2026_10_18/REPORT.md),
-[PDF](research/rwanda_politicians_2021_2026/political_report_q4_2026_10_18/REPORT.pdf).
+[PDF](research/rwanda_politicians_2021_2026/political_report_q4_2026_10_18/REPORT.pdf),
+[Word](research/rwanda_politicians_2021_2026/political_report_q4_2026_10_18/REPORT.docx).
 Четыре оси объяснены обычным языком; пять условных групп сопоставлены
 с политическими ролями и проверенными цитатами. На картах 37 более полно
 описанных человек. [Техническое приложение](research/rwanda_politicians_2021_2026/political_report_q4_2026_10_18/TECHNICAL_APPENDIX.md)
