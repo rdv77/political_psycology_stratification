@@ -1,0 +1,20 @@
+{
+  "input_content_unchanged": true,
+  "selection_uses_availability_not_intensity": true,
+  "matrix_matches_public_source_subset": true,
+  "actors": 10,
+  "traits": 14,
+  "exact_cells": 49,
+  "range_midpoint_assumptions": 62,
+  "unknown_cells": 29,
+  "new_api_calls": 0,
+  "new_api_cost_usd": 0,
+  "original_ratings_modified": false,
+  "all_three_main_mcmc_rhat_below_1_01": true,
+  "all_three_ridge_fits_converged": true,
+  "stability_is_admission_gate": false,
+  "predictive_superiority_is_admission_gate": false,
+  "shared_math_tests_passed": 11,
+  "relative_report_links_resolve": true,
+  "script_sha256_lf": "8bed6830d5445a6514b5930d02dfbbb6a8d46f022b6795fc80a338bd240e1cd2"
+}
